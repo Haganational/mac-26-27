@@ -50,13 +50,14 @@
     <section>
       <h2>Schedule</h2>
       <div class="scroll"><table>
-        <tr><th>Date</th><th>Opponent</th><th class="num">Result</th><th class="num">Line</th></tr>
+        <tr><th>Date</th><th>Opponent</th><th class="num">Result</th><th class="num">Line</th><th></th></tr>
         {% for g in games %}
         <tr class="{{ 'done' if g.completed else '' }}">
           <td class="dim">{{ g.date[5:10] }}</td>
           <td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {{ g.opp_name }}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
           <td class="num">{% if g.completed %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% else %}<span class="dim">{{ g.date[11:16] }}Z</span>{% endif %}</td>
           <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
+          <td>{% if not g.completed %}<a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ team.short }}" title="Opens PickTheOdds and copies the team name to paste into its search">PTO</a>{% endif %}</td>
         </tr>
         {% endfor %}
       </table></div>
@@ -156,5 +157,8 @@
   </section>
   {% endif %}
 </main>
+<script>
+document.querySelectorAll('a.pto[data-copy]').forEach(a => a.addEventListener('click', () => { try { navigator.clipboard.writeText(a.dataset.copy); } catch (e) {} }));
+</script>
 </body>
 </html>
