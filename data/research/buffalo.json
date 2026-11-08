@@ -1,0 +1,578 @@
+{
+  "team_key": "buffalo",
+  "team": "Buffalo Bulls",
+  "researched_at": "2026-11-08T00:00:00Z",
+  "coach": {
+    "name": "George Halcovage III",
+    "since": "2023 (hired from Villanova, where he was associate head coach); 2026-27 is his fourth season",
+    "notes": "Hired 2023 after 15 seasons as a Villanova assistant (worked with Jalen Brunson, Josh Hart, Mikal Bridges). Year one: 4-27 (2-16 MAC); 2025-26: 17-15 (7-11 MAC), a 13-win improvement; entered 2026-27 at 30-64 overall, 13-41 MAC. Contract extended through 2029-30; original deal averaged $445,000/yr, extension terms undisclosed (Spectrum, Sep. 16, 2026). Says UB 'didn't have the depth to sustain some injuries' late last season and that expectations have shifted to competing for the MAC. The 716 Club NIL/revenue-share collective launched July 2026 with $500,000 in commitments. 2025-26 defense ranked 22nd percentile nationally per CBB Analytics (Mid-Major Basketball).",
+    "x_handle": null,
+    "source_url": "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done"
+  },
+  "sources": [
+    {
+      "name": "The Spectrum (UB student newspaper)",
+      "type": "campus_paper",
+      "url": "https://www.ubspectrum.com/section/sports",
+      "x_handle": null,
+      "beat_writers": [
+        {
+          "name": "Ethan Dinse",
+          "x_handle": null
+        },
+        {
+          "name": "Will Meyer",
+          "x_handle": null
+        }
+      ],
+      "notes": "Dinse wrote the Starling signing story (Sep. 9, 2026) and the Marshall season-opener recap (Nov. 5, 2026); Meyer wrote the Halcovage feature (Sep. 16, 2026). Sports section also lists Jameek Neely-Means and Nazae Anderson on other sports."
+    },
+    {
+      "name": "The Buffalo News",
+      "type": "city_paper",
+      "url": "https://buffalonews.com/sports/college/",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Main city daily; UB men's basketball coverage lives under sports/college/basketball. Specific 2026-27 articles and beat writer names could not be retrieved (page fetch budget exhausted)."
+    },
+    {
+      "name": "UB Bulls official athletics site (men's basketball)",
+      "type": "official",
+      "url": "https://ubbulls.com/sports/mens-basketball",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Team news feed, roster (https://ubbulls.com/sports/mens-basketball/roster), and cumulative stats PDF (https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/ubbulls.com/stats/mbball/2026/pdf/cume.pdf). Main sport page returned a client error when fetched; individual news pages loaded. Hosts 'In the Bullseye' podcast with Halcovage and GM Turner Battle (https://ubbulls.com/podcasts)."
+    },
+    {
+      "name": "WKBW (ABC Buffalo)",
+      "type": "tv_radio",
+      "url": "https://wkbw.com/sports/college",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Covered Halcovage's hiring/introduction and UB schedule releases; no 2026-27 preview located."
+    },
+    {
+      "name": "WGRZ (NBC Buffalo)",
+      "type": "tv_radio",
+      "url": "https://www.wgrz.com/article/sports/college/university-buffalo",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Has a University at Buffalo sports section; no 2026-27 men's basketball preview located."
+    },
+    {
+      "name": "WGR 550 / Audacy Buffalo",
+      "type": "tv_radio",
+      "url": "https://www.audacy.com/wgr550",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Covered Halcovage hire; no 2026-27 preview located."
+    },
+    {
+      "name": "Mid-Major Basketball",
+      "type": "blog",
+      "url": "https://www.midmajorbasketball.com/",
+      "x_handle": null,
+      "beat_writers": [
+        {
+          "name": "Logan Weingartner",
+          "x_handle": null
+        }
+      ],
+      "notes": "Published Buffalo offseason analysis (Apr. 26, 2026) and 'Buffalo analytics highlight turnaround under Halcovage' (not retrieved)."
+    },
+    {
+      "name": "sMACk Talk (Substack)",
+      "type": "blog",
+      "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+      "x_handle": null,
+      "beat_writers": [
+        {
+          "name": "Kaily \"KG\" Godek",
+          "x_handle": null
+        },
+        {
+          "name": "Foster Roesti",
+          "x_handle": null
+        }
+      ],
+      "notes": "MAC-focused newsletter; 2026-27 league overview dated Oct. 21, 2026. Buffalo section written by KG Godek."
+    },
+    {
+      "name": "Mid-Major Madness / Yahoo Sports syndication",
+      "type": "blog",
+      "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "2026-27 MAC preview also syndicated at https://sports.yahoo.com/articles/2026-27-mac-men-basketball-132800658.html. Not retrieved (fetch budget)."
+    },
+    {
+      "name": "Field Level Media",
+      "type": "blog",
+      "url": "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Wire-style game previews; Nov. 5, 2026 Pitt-Buffalo preview included Marshall recap stats and Halcovage quotes."
+    },
+    {
+      "name": "Hustle Belt (SB Nation MAC site)",
+      "type": "blog",
+      "url": "https://www.hustlebelt.com/",
+      "x_handle": null,
+      "beat_writers": [],
+      "notes": "Site-restricted search returned no 2026-27 men's basketball previews; could not confirm active basketball coverage."
+    }
+  ],
+  "previews": [
+    {
+      "outlet": "sMACk Talk (Substack)",
+      "title": "2026-27 Mid-American Men's Basketball Overview",
+      "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+      "date": "2026-10-21",
+      "author": "Kaily \"KG\" Godek (Buffalo section) and Foster Roesti",
+      "projected_finish": "10th (cites MAC preseason coaches poll)",
+      "summary": "Buffalo lost its top six scorers and returns no starters from the 17-15 team. Halcovage rebuilt from multiple levels, adding eight former NCAA Division I players plus D-III and NAIA standouts. Syracuse transfer J.J. Starling is called the key portal pickup, and NIU transfer Dylan Ducommun brings MAC experience. The piece says chemistry may take time but calls Buffalo a potential conference surprise depending on how it develops.",
+      "player_claims": [
+        {
+          "player": "Boluwasefe John",
+          "claim": "D-III transfer from Clark: 14.7 PPG, 6.8 RPG, All-NEWMAC Second Team."
+        },
+        {
+          "player": "Tristan Kuska",
+          "claim": "NAIA transfer from Carolina University: 11.6 PPG, 6.4 RPG, CAC All-Conference Second Team."
+        },
+        {
+          "player": "J.J. Starling",
+          "claim": "Syracuse transfer: 10.9 PPG, 2.7 RPG, 2.4 APG last season; called a key portal get."
+        },
+        {
+          "player": "Jalen Pitre",
+          "claim": "Tennessee Tech transfer: 6.4 PPG, 6.6 RPG."
+        },
+        {
+          "player": "Dylan Ducommun",
+          "claim": "Northern Illinois transfer: 10.8 PPG, 3.4 APG, 2.9 RPG; brings MAC experience."
+        },
+        {
+          "player": "Drew Steffe",
+          "claim": "Southern Illinois transfer: 9.9 PPG, 3.1 RPG, 2.5 APG."
+        },
+        {
+          "player": "Angelo Brizzi",
+          "claim": "Listed among departures."
+        },
+        {
+          "player": "Noah Batchelor",
+          "claim": "Listed among departures."
+        },
+        {
+          "player": "Daniel Freitag",
+          "claim": "Listed among departures."
+        },
+        {
+          "player": "Ryan Sabol",
+          "claim": "Listed among departures."
+        },
+        {
+          "player": "Tim Oboh",
+          "claim": "Listed among departures."
+        },
+        {
+          "player": "Derrick Talton Jr.",
+          "claim": "Listed among departures."
+        }
+      ]
+    },
+    {
+      "outlet": "The Spectrum (UB)",
+      "title": "Coach George Halcovage III turned men's basketball from 4-27 to 17-15. He's far from done",
+      "url": "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done",
+      "date": "2026-09-16",
+      "author": "Will Meyer",
+      "projected_finish": null,
+      "summary": "Senior sports editor Will Meyer profiles Halcovage entering year four after taking UB from 4-27 to 17-15. Halcovage calls last season a 'proof of concept' for UB's roster-building and development model, notes his contract runs through 2029-30, and says increased financial support (the 716 Club launched in July with $500,000 in commitments) is the program's biggest improvement, though UB is 'not exactly in the spot we want to be yet' on NIL. UB must replace departed stars Ryan Sabol and Daniel Freitag; J.J. Starling was awaiting an eligibility decision on a fifth season at publication. Halcovage: 'The best guards are the toughest guards.' Expectations shift from showing progress to competing for a MAC title.",
+      "player_claims": [
+        {
+          "player": "J.J. Starling",
+          "claim": "Baldwinsville native, former five-star at Notre Dame/Syracuse; awaiting a decision on eligibility for a fifth collegiate season as of Sep. 16; Halcovage says he wants to help UB 'compete to win a MAC championship.'"
+        },
+        {
+          "player": "Ryan Sabol",
+          "claim": "Star guard who left via the transfer portal."
+        },
+        {
+          "player": "Daniel Freitag",
+          "claim": "Star guard who left via the portal; missed nine games in 2025-26 with an undisclosed injury."
+        },
+        {
+          "player": "Mikkel Tyne",
+          "claim": "Named as an incoming transfer (article spells 'Michael Tyne')."
+        },
+        {
+          "player": "Drew Steffe",
+          "claim": "Named as an incoming transfer."
+        }
+      ]
+    },
+    {
+      "outlet": "Mid-Major Basketball",
+      "title": "Buffalo: Fast start fades as inconsistency, transfers shape uncertain future",
+      "url": "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/",
+      "date": "2026-04-26",
+      "author": "Logan Weingartner",
+      "projected_finish": null,
+      "summary": "Offseason look-ahead after Buffalo's 17-15 season and MAC quarterfinal loss to Akron. The Bulls started 13-2, then lost seven of their next 10, with defense ranking in the 22nd percentile nationally. Top scorers Daniel Freitag (Oregon State) and Ryan Sabol (Providence) left via the portal, Angelo Brizzi entered the portal and center Tim Oboh committed to Penn State. Guard Jahrel Vigo signed Apr. 17; Mikhail Pocknett, Kyle Jones and Omar Migues-Hibeljic were the main expected returners at the time of writing, with the roster still fluid.",
+      "player_claims": [
+        {
+          "player": "Daniel Freitag",
+          "claim": "Averaged 19.8 PPG in 2025-26; transferred to Oregon State."
+        },
+        {
+          "player": "Ryan Sabol",
+          "claim": "Averaged 18.8 PPG, All-MAC third team; transferred to Providence."
+        },
+        {
+          "player": "Angelo Brizzi",
+          "claim": "Averaged 14.5 PPG; entered transfer portal Apr. 22, 2026."
+        },
+        {
+          "player": "Tim Oboh",
+          "claim": "Center, averaged 8.5 PPG; committed to Penn State Apr. 19, 2026."
+        },
+        {
+          "player": "Jahrel Vigo",
+          "claim": "Guard signed Apr. 17, 2026; played for Puerto Rico at 2024 FIBA U17 World Cup (8.1 PPG); scored 29 in a PAISAA quarterfinal."
+        },
+        {
+          "player": "Mikhail Pocknett",
+          "claim": "Expected returner with a larger role."
+        },
+        {
+          "player": "Kyle Jones",
+          "claim": "Expected returner with a larger role."
+        },
+        {
+          "player": "Omar Migues-Hibeljic",
+          "claim": "Expected returner with a larger role."
+        }
+      ]
+    },
+    {
+      "outlet": "Field Level Media",
+      "title": "Pitt, Buffalo ready to prove preseason predictions wrong",
+      "url": "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/",
+      "date": "2026-11-05",
+      "author": null,
+      "projected_finish": "10th of 12 in MAC preseason poll",
+      "summary": "Game preview ahead of Buffalo's Nov. 5 trip to Pitt. Notes Buffalo opened with a 92-65 loss at Marshall in which Tennessee State transfer Antoine Lorick had 28 points and 15 rebounds and Southern Illinois transfer Drew Steffe scored 19 in their Buffalo debuts. Outside those two the Bulls made 6 of 30 field goals and shot 5-of-27 (18.5%) from three. Halcovage praised his two top scorers and said the team must grow from the loss. Notes Buffalo has not made the NCAA Tournament since 2019.",
+      "player_claims": [
+        {
+          "player": "Antoine Lorick",
+          "claim": "Tennessee State transfer; 28 points, 15 rebounds in Buffalo debut at Marshall."
+        },
+        {
+          "player": "Drew Steffe",
+          "claim": "Southern Illinois transfer; 19 points in Buffalo debut at Marshall."
+        }
+      ]
+    },
+    {
+      "outlet": "Wikipedia (compiled from MAC release)",
+      "title": "2026-27 Mid-American Conference men's basketball season",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Mid-American_Conference_men%27s_basketball_season",
+      "date": "2026-10-20",
+      "author": null,
+      "projected_finish": "10th (47 points, 0 first-place votes) in MAC preseason coaches poll",
+      "summary": "MAC preseason coaches poll released Oct. 20, 2026: Miami first (133 points, 9 first-place votes), Toledo, Akron, Kent State, Ohio, UMass, Bowling Green, Western Michigan, Eastern Michigan, Buffalo 10th (47), Ball State, Central Michigan 12th (25). No Buffalo player was named preseason All-MAC first or second team.",
+      "player_claims": []
+    }
+  ],
+  "storylines": [
+    {
+      "headline": "Complete roster turnover: no returning starters, top six scorers gone",
+      "detail": "Freitag (Oregon State), Sabol (Providence), Brizzi, Oboh (Penn State), Batchelor and Talton Jr. all departed. Halcovage rebuilt with eight former D-I players plus D-III/NAIA additions.",
+      "source_url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+    },
+    {
+      "headline": "Former five-star J.J. Starling arrives from Syracuse",
+      "detail": "Signed Sep. 4, 2026. 2022 McDonald's All-American; 1,530 career points at Notre Dame and Syracuse; averaged 17.8 PPG in 2024-25. Ranked No. 27 by ESPN as a recruit. A Heavy.com piece questions how he had eligibility remaining (not retrieved).",
+      "source_url": "https://ubbulls.com/news/2026/9/4/mens-basketball-mens-basketball-adds-syracuse-transfer-jj-starling-to-the-2026-27-roster"
+    },
+    {
+      "headline": "Rough start: 0-2 with lopsided losses at Marshall and Pitt",
+      "detail": "Lost 92-65 at Marshall (Nov. 2) and 80-61 at Pitt (Nov. 5) after leading by 15 early in the second half; outrebounded 50-27 at Pitt. Three-point shooting (5-of-27 at Marshall) and depth scoring were the issues in the opener.",
+      "source_url": "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/"
+    },
+    {
+      "headline": "Halcovage year four: extended through 2029-30, expectations now 'compete for the MAC'",
+      "detail": "Spectrum feature says the 4-27 to 17-15 jump was a 'proof of concept'; 716 Club launched with $500K; UB must replace Sabol and Freitag with transfers and development.",
+      "source_url": "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done"
+    },
+    {
+      "headline": "Guard-heavy portal class built around Steffe, Tyne, Ducommun, Frakes",
+      "detail": "April 27 release introduced four newcomers, all guards: SIU's Drew Steffe, Richmond's Mikkel Tyne, NIU's Dylan Ducommun and Oregon redshirt JJ Frakes; a second release Apr. 28 added two more veteran transfers (not retrieved).",
+      "source_url": "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster"
+    }
+  ],
+  "players_in_coverage": [
+    {
+      "name": "J.J. Starling",
+      "position": "G",
+      "class": null,
+      "status": "transfer_in",
+      "previous_school": "Syracuse (also Notre Dame 2022-23)",
+      "notes": "6-4 guard from Baldwinsville, N.Y. 88 games at Syracuse: 13.8 PPG, 3.2 RPG, 2.3 APG; career-high 38 vs. Youngstown State; 17.8 PPG in 2024-25. 11.8 PPG in 28 games at Notre Dame. 1,530 career points. 2022 McDonald's All-American. sMACk Talk lists 10.9 PPG, 2.7 RPG, 2.4 APG for 2025-26. Eligibility status questioned by Heavy.com (not retrieved). At Pitt (Nov. 5): 13 points. Spectrum (Sep. 16) said he was awaiting a decision on fifth-year eligibility; he played vs. Pitt Nov. 5 (13 pts), indicating he was cleared.",
+      "source_urls": [
+        "https://ubbulls.com/news/2026/9/4/mens-basketball-mens-basketball-adds-syracuse-transfer-jj-starling-to-the-2026-27-roster",
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+        "https://www.ubspectrum.com/article/2026/09/bulls-land-five-star-guard-j-j-starling",
+        "https://abcnews.com/Sports/wireStory/baye-ndongo-23-points-21-rebounds-pitt-beats-137899616",
+        "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done"
+      ]
+    },
+    {
+      "name": "Antoine Lorick",
+      "position": null,
+      "class": null,
+      "status": "transfer_in",
+      "previous_school": "Tennessee State",
+      "notes": "28 points and 15 rebounds in Buffalo debut at Marshall (Nov. 2, 2026).",
+      "source_urls": [
+        "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/"
+      ]
+    },
+    {
+      "name": "Drew Steffe",
+      "position": "G",
+      "class": "R-Jr.",
+      "status": "transfer_in",
+      "previous_school": "Southern Illinois",
+      "notes": "Frisco, Texas. Redshirted at Texas Tech 2023-24, then SIU 2024-26: all 65 games, 51 starts, career 8.3 PPG/2.9 RPG/2.4 APG; just under 10 PPG last season; career-high 24 vs. Belmont. Halcovage: 'proven experience, toughness, and versatility.' Marshall debut: 19 pts. At Pitt: 15 pts, 4 ast, 3 stl.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+        "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/",
+        "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster",
+        "https://abcnews.com/Sports/wireStory/baye-ndongo-23-points-21-rebounds-pitt-beats-137899616"
+      ]
+    },
+    {
+      "name": "Dylan Ducommun",
+      "position": "G",
+      "class": "So.",
+      "status": "transfer_in",
+      "previous_school": "Northern Illinois",
+      "notes": "6-4 guard from Geneva, Switzerland. Started 26 games at NIU: 30.6 MPG, 10.8 PPG, 2.9 RPG, 3.4 APG (89 assists, 2nd on team); career-high 24 at Loyola Chicago and 10 assists at Buffalo. Halcovage: 'skilled and versatile player with a tremendous basketball IQ who we played against twice last season.'",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+        "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster"
+      ]
+    },
+    {
+      "name": "Jalen Pitre",
+      "position": null,
+      "class": null,
+      "status": "transfer_in",
+      "previous_school": "Tennessee Tech",
+      "notes": "6.4 PPG, 6.6 RPG at Tennessee Tech.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+      ]
+    },
+    {
+      "name": "Boluwasefe John",
+      "position": null,
+      "class": null,
+      "status": "transfer_in",
+      "previous_school": "Clark (D-III)",
+      "notes": "14.7 PPG, 6.8 RPG; All-NEWMAC Second Team.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+      ]
+    },
+    {
+      "name": "Tristan Kuska",
+      "position": null,
+      "class": null,
+      "status": "transfer_in",
+      "previous_school": "Carolina University (NAIA)",
+      "notes": "11.6 PPG, 6.4 RPG; CAC All-Conference Second Team.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+      ]
+    },
+    {
+      "name": "Jahrel Vigo",
+      "position": "G",
+      "class": "Fr.",
+      "status": "freshman",
+      "previous_school": null,
+      "notes": "Signed Apr. 17, 2026. Played for Puerto Rico at 2024 FIBA U17 World Cup (8.1 PPG); scored 29 in a PAISAA quarterfinal.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Mikhail Pocknett",
+      "position": null,
+      "class": null,
+      "status": "returner",
+      "previous_school": null,
+      "notes": "Named in April 2026 as an expected returner with a larger role; not confirmed on final roster (roster page returned 2025-26 data).",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Kyle Jones",
+      "position": null,
+      "class": null,
+      "status": "returner",
+      "previous_school": null,
+      "notes": "Named in April 2026 as an expected returner; not confirmed on final roster.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Omar Migues-Hibeljic",
+      "position": null,
+      "class": null,
+      "status": "returner",
+      "previous_school": null,
+      "notes": "Named in April 2026 as an expected returner; not confirmed on final roster.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Daniel Freitag",
+      "position": "G",
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Transferred OUT to Oregon State after averaging 19.8 PPG in 2025-26. Missed nine games in 2025-26 with an undisclosed injury.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/",
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+        "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done"
+      ]
+    },
+    {
+      "name": "Ryan Sabol",
+      "position": null,
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Transferred OUT to Providence after 18.8 PPG and All-MAC third team in 2025-26.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Angelo Brizzi",
+      "position": null,
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Transferred OUT; averaged 14.5 PPG; entered portal Apr. 22, 2026.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Tim Oboh",
+      "position": "C",
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Transferred OUT to Penn State (committed Apr. 19, 2026); 8.5 PPG.",
+      "source_urls": [
+        "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/"
+      ]
+    },
+    {
+      "name": "Noah Batchelor",
+      "position": null,
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Listed among 2026 departures.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+      ]
+    },
+    {
+      "name": "Derrick Talton Jr.",
+      "position": null,
+      "class": null,
+      "status": "unknown",
+      "previous_school": null,
+      "notes": "Listed among 2026 departures.",
+      "source_urls": [
+        "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball"
+      ]
+    },
+    {
+      "name": "Mikkel Tyne",
+      "position": "G",
+      "class": "Sr.",
+      "status": "transfer_in",
+      "previous_school": "Richmond",
+      "notes": "Toronto native. 96 games, 71 starts at Richmond: 6.5 PPG, 1.9 RPG, 1.2 APG in 22.5 MPG; .395 3PT last season; career-high 22 vs. Ball State. Canada FIBA U18 Americas/U17 World Cup (2022). Halcovage: 'dynamic guard who plays with tremendous confidence and toughness.'",
+      "source_urls": [
+        "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster",
+        "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done"
+      ]
+    },
+    {
+      "name": "JJ Frakes",
+      "position": "G",
+      "class": "R-Fr.",
+      "status": "transfer_in",
+      "previous_school": "Oregon (redshirted 2025-26)",
+      "notes": "Berrien Springs, Mich. Averaged 24 PPG as a HS junior; Second Team All-State. Halcovage: 'tough, hard-nosed competitor who embodies our ALLinGRIT mentality.'",
+      "source_urls": [
+        "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster"
+      ]
+    }
+  ],
+  "recent_news": [
+    {
+      "date": "2026-11-02",
+      "headline": "Buffalo falls 92-65 at Marshall in MAC-SBC Challenge opener",
+      "detail": "Antoine Lorick 28 pts/15 reb and Drew Steffe 19 pts in debuts; rest of team 6-of-30 FG; Bulls 5-of-27 from three, Marshall 11-of-26. Halcovage: 'I thought they played great' of Lorick and Steffe; said team must 'get ready to turn it around.' Spectrum recap by Ethan Dinse (Nov. 5) not retrieved.",
+      "source_url": "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Pitt rallies from 13 down at half to beat Buffalo 80-61; Ndongo 23 pts/21 reb",
+      "detail": "Buffalo led 47-32 early in the second half before Pitt outscored the Bulls 48-16 the rest of the way and outrebounded them 50-27. Drew Steffe 15 pts/4 ast/3 stl; J.J. Starling 13 pts. Buffalo 0-2. Next: Penn State Schuylkill (USCAA) at home Monday Nov. 9.",
+      "source_url": "https://abcnews.com/Sports/wireStory/baye-ndongo-23-points-21-rebounds-pitt-beats-137899616"
+    }
+  ],
+  "sources_checked": [
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Mid-American_Conference_men%27s_basketball_season",
+    "https://local12.com/sports/college-sports/miami-redhawks-basketball-mac-preseason-coaches-poll-2026-travis-steele-evan-ipsaro-luke-skaljac",
+    "https://bvmsports.com/2026/10/20/akron-picked-third-in-mac-poll-mahaffey-staveskie-honored/",
+    "https://threetechpod.substack.com/p/turning-potential-into-progress-2026",
+    "https://ubbulls.com/sports/mens-basketball",
+    "https://ubbulls.com/sports/mens-basketball/roster",
+    "https://ubbulls.com/news/2026/9/8/mens-basketball-mens-basketball-announces-2026-27-non-conference-schedule",
+    "https://ubbulls.com/news/2026/9/4/mens-basketball-mens-basketball-adds-syracuse-transfer-jj-starling-to-the-2026-27-roster",
+    "https://ubbulls.com/news/2026/4/27/mens-basketball-mens-basketball-adds-four-newcomers-to-the-2026-27-roster",
+    "https://ubbulls.com/news/2026/4/28/mens-basketball-mens-basketball-adds-a-pair-of-veteran-transfers-to-the-2026-27-roster",
+    "https://ubbulls.com/news/2026/11/4/mens-basketball-bulls-battle-panthers-on-thursday-evening",
+    "https://www.ubspectrum.com/section/sports",
+    "https://www.ubspectrum.com/article/2026/11/ub-mens-basketball-falls-to-marshall-in-season-opener",
+    "https://www.ubspectrum.com/article/2026/09/coach-george-halcovage-iii-turned-mens-basketball-from-4-27-to-17-15-hes-far-from-done",
+    "https://www.ubspectrum.com/article/2026/09/bulls-land-five-star-guard-j-j-starling",
+    "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/",
+    "https://www.midmajorbasketball.com/buffalo-fast-start-fades-as-inconsistency-transfers-shape-uncertain-future/",
+    "https://www.midmajorbasketball.com/buffalo-analytics-highlight-turnaround-under-halcovage/",
+    "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+    "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+    "https://abcnews.com/Sports/wireStory/baye-ndongo-23-points-21-rebounds-pitt-beats-137899616",
+    "https://www.espn.com/mens-college-basketball/game/_/gameId/401909706/buffalo-pitt",
+    "https://heavy.com/sports/mens-college-basketball/syracuse-jj-starling-left-no-eligibility-playing-new-school/",
+    "https://getsomemaction.com/news/2026/11/2/return-of-the-mac-2026-27-mens-basketball-season-tips-off-tonight-with-mac-sbc-challenge.aspx"
+  ]
+}
