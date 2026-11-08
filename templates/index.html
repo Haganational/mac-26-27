@@ -35,7 +35,7 @@
       <h2>Upcoming (next 8 days)</h2>
       {% if d.upcoming %}
       <div class="scroll"><table>
-        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th></tr>
+        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th><th></th></tr>
         {% for g in d.upcoming %}
         <tr>
           <td class="dim">{{ g.date[5:16].replace("T", " ") }}</td>
@@ -48,6 +48,7 @@
           {% else %}
           <td class="num dim" colspan="4">no line yet</td>
           {% endif %}
+          <td><a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ g.home.name.rsplit(' ', 1)[0] }}" title="Opens PickTheOdds and copies the home team name to paste into its search">PTO</a></td>
         </tr>
         {% endfor %}
       </table></div>
@@ -118,6 +119,13 @@
   {% endif %}
 
   <section>
+    <details id="ptopanel">
+      <summary><b>PickTheOdds odds screen</b> <span class="dim">embedded, logged-out view with 60-second refresh; use the PTO links for your signed-in tab</span></summary>
+      <iframe id="ptoframe" data-src="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" title="PickTheOdds NCAAB odds screen" style="width:100%;height:720px;border:0;border-radius:8px;margin-top:10px;background:var(--neutral)" loading="lazy"></iframe>
+    </details>
+  </section>
+
+  <section>
     <h2>Recent results (7 days)</h2>
     {% if d.recent %}
     <div class="scroll"><table>
@@ -139,6 +147,12 @@
 <script id="data" type="application/json">{{ data_json|safe }}</script>
 <script>
 (function () {
+  // PTO links: copy the team name so it can be pasted into PickTheOdds' search box.
+  document.querySelectorAll('a.pto[data-copy]').forEach(a => a.addEventListener('click', () => {
+    try { navigator.clipboard.writeText(a.dataset.copy); } catch (e) {}
+  }));
+  const panel = document.getElementById('ptopanel'), frame = document.getElementById('ptoframe');
+  if (panel && frame) panel.addEventListener('toggle', () => { if (panel.open && !frame.src) frame.src = frame.dataset.src; });
   const D = JSON.parse(document.getElementById('data').textContent);
   const hist = D.history.slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
   if (!hist.length) return;
