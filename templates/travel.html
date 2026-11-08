@@ -9,13 +9,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
-  #map { height: 560px; border-radius: 10px; border: 1px solid var(--border); background: var(--neutral); }
+  #map { height: 580px; border-radius: 10px; border: 1px solid var(--border); background: color-mix(in srgb, var(--s1) 6%, var(--page)); }
   @media (max-width: 700px) { #map { height: 420px; } }
-  .leaflet-container { font: inherit; }
+  .leaflet-container { font: inherit; background: color-mix(in srgb, var(--s1) 6%, var(--page)); }
+  .leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted); font-size: 10px; }
+  .leaflet-control-attribution a { color: var(--muted); }
+  .leaflet-bar a { background: var(--surface); color: var(--ink); border-color: var(--border); }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--ink); }
   .leaflet-popup-content { font-size: 13px; line-height: 1.4; }
-  .stopnum { background: var(--surface); color: var(--ink); border: 2px solid var(--s1); border-radius: 50%; width: 22px !important; height: 22px !important; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; margin: -11px 0 0 -11px; }
+  .stopnum { background: var(--surface); color: var(--ink); border: 2px solid var(--s1); border-radius: 50%; width: 20px !important; height: 20px !important; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; margin: -10px 0 0 -10px; box-shadow: 0 0 0 2px var(--surface); }
   .stopnum.future { border-style: dashed; color: var(--ink-2); }
   .stopnum.neutral { border-color: var(--s2); }
+  .basepin.dim { opacity: .35; }
   .basepin { background: var(--ink); color: var(--page); border-radius: 6px; padding: 2px 5px; font-size: 11px; font-weight: 700; white-space: nowrap; transform: translate(-50%, -50%); display: inline-block; }
   .basepin.on { background: var(--s1); color: #fff; }
   tr.sel td { background: color-mix(in srgb, var(--s1) 8%, transparent); }
@@ -86,24 +91,39 @@
   const fmt = n => n.toLocaleString('en-US');
   if (typeof L === 'undefined') { document.getElementById('map').textContent = 'Map library failed to load.'; return; }
 
-  const map = L.map('map', { scrollWheelZoom: false, worldCopyJump: true }).setView([39.5, -85], 5);
-  let tiles;
-  function setTiles() {
-    if (tiles) map.removeLayer(tiles);
-    tiles = L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark() ? 'dark_all' : 'light_all'}/{z}/{x}/{y}{r}.png`, {
-      subdomains: 'abcd', maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    }).addTo(map);
+  const map = L.map('map', { scrollWheelZoom: false, zoomSnap: 0.25, attributionControl: true, minZoom: 3, maxZoom: 9 }).setView([39.5, -85], 5);
+  map.attributionControl.setPrefix(false).addAttribution('Basemap: Natural Earth, US Census, lakes &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>');
+  // Keyless vector basemap drawn from our own file, styled with the page's theme tokens.
+  map.createPane('basemap').style.zIndex = 250;  // below routes, whatever order things load in
+  const base = L.layerGroup().addTo(map);
+  function drawBase(g) {
+    base.clearLayers();
+    L.geoJSON(g.countries, { pane: 'basemap', interactive: false, style: { color: css('--axis'), weight: 0.6, fillColor: css('--surface'), fillOpacity: 1 } }).addTo(base);
+    L.geoJSON(g.states, { pane: 'basemap', interactive: false, style: { color: css('--grid'), weight: 0.8, fill: false } }).addTo(base);
+    L.geoJSON(g.borders, { pane: 'basemap', interactive: false, style: { color: css('--axis'), weight: 1, fill: false } }).addTo(base);
+    if (g.lakes) L.geoJSON(g.lakes, { pane: 'basemap', interactive: false, style: { color: css('--axis'), weight: 0.5, fillColor: getComputedStyle(document.getElementById('map')).backgroundColor, fillOpacity: 1 } }).addTo(base);
   }
-  setTiles();
-  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTiles);
+  let geo = null;
+  fetch('static/basemap.json').then(r => r.json()).then(g => { geo = g; drawBase(g); }).catch(() => {});
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (geo) drawBase(geo); if (pick.value) select(pick.value); else showAll(); });
+
+  // A gentle curve between two points, so out-and-back legs and overlapping trips stay readable.
+  function arc(a, b, bend) {
+    const [y1, x1] = a, [y2, x2] = b;
+    const mx = (x1 + x2) / 2, my = (y1 + y2) / 2, dx = x2 - x1, dy = y2 - y1;
+    const cx = mx - dy * bend, cy = my + dx * bend;
+    const pts = [];
+    for (let i = 0; i <= 24; i++) { const t = i / 24, u = 1 - t; pts.push([u * u * y1 + 2 * u * t * cy + t * t * y2, u * u * x1 + 2 * u * t * cx + t * t * x2]); }
+    return pts;
+  }
 
   let layer = L.layerGroup().addTo(map);
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+  const NUDGE = { 'kent-state': 'translate(-10%, -110%)', 'akron': 'translate(-90%, 10%)' };
   function baseMarker(t, on) {
     return L.marker([t.base.lat, t.base.lon], {
-      icon: L.divIcon({ className: '', html: `<span class="basepin ${on ? 'on' : ''}">${esc(t.abbr)}</span>`, iconSize: null }),
+      icon: L.divIcon({ className: '', html: `<span class="basepin ${on ? 'on' : ''}" style="${!on && NUDGE[t.team_key] ? 'transform:' + NUDGE[t.team_key] : ''}">${esc(t.abbr)}</span>`, iconSize: null }),
       zIndexOffset: on ? 1000 : 0, keyboard: true, title: t.team
     }).bindPopup(`<b>${esc(t.team)}</b><br>${esc(t.base.arena)}<br>${esc(t.base.city)}, ${esc(t.base.state)}<br>${fmt(t.totals.miles)} season miles`);
   }
@@ -114,13 +134,17 @@
     Object.values(T).forEach(t => {
       if (!t.base) return;
       // faint route for every team so the league's footprint is visible
-      const path = [[t.base.lat, t.base.lon]];
-      t.legs.forEach(l => { if (l.lat != null && l.site !== 'home') { path.push([l.lat, l.lon]); path.push([t.base.lat, t.base.lon]); } });
-      L.polyline(path, { color: css('--muted'), weight: 1, opacity: 0.25, interactive: false }).addTo(layer);
+      const seen = new Set();
+      t.legs.forEach(l => {
+        const k = `${l.lat},${l.lon}`;
+        if (l.lat == null || l.site === 'home' || seen.has(k)) return;
+        seen.add(k);
+        L.polyline(arc([t.base.lat, t.base.lon], [l.lat, l.lon], 0.15), { color: css('--s1'), weight: 1, opacity: 0.3, interactive: false }).addTo(layer);
+      });
       baseMarker(t, false).on('click', () => select(t.team_key)).addTo(layer);
       pts.push([t.base.lat, t.base.lon]);
     });
-    map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+    map.fitBounds(pts, { padding: [60, 60], maxZoom: 6 });
     kpis.innerHTML = 'Pick a team, or click a home base, to see its route.';
     document.getElementById('itin').hidden = true;
     highlightRow('');
@@ -143,9 +167,9 @@
       const from = l.via_home ? t.base : prev;
       if (from.lat !== loc.lat || from.lon !== loc.lon) {
         if (l.via_home && (prev.lat !== t.base.lat || prev.lon !== t.base.lon)) {
-          L.polyline([[prev.lat, prev.lon], [t.base.lat, t.base.lon]], { color: c1, weight: 2, opacity: 0.55, dashArray: played ? null : '5 6' }).addTo(layer);
+          L.polyline(arc([prev.lat, prev.lon], [t.base.lat, t.base.lon], 0.18), { color: c1, weight: 1.5, opacity: 0.45, dashArray: played ? null : '4 6', interactive: false }).addTo(layer);
         }
-        L.polyline([[from.lat, from.lon], [loc.lat, loc.lon]], { color: l.site === 'neutral' ? c2 : c1, weight: 2, opacity: played ? 0.9 : 0.6, dashArray: played ? null : '5 6' }).addTo(layer);
+        L.polyline(arc([from.lat, from.lon], [loc.lat, loc.lon], 0.18), { color: l.site === 'neutral' ? c2 : c1, weight: 2, opacity: played ? 0.95 : 0.7, dashArray: played ? null : '4 6', interactive: false }).addTo(layer);
       }
       if (l.site !== 'home') {
         const k = `${loc.lat},${loc.lon}`;
