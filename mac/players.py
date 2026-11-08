@@ -98,11 +98,32 @@ def build_profiles(schedule_games: list[dict[str, Any]]) -> dict[str, list[dict[
     out: dict[str, list[dict[str, Any]]] = {}
     for team in TEAMS:
         research = load_research(team.key)
-        coverage = {norm_name(p.get("name", "")): p for p in research.get("players_in_coverage", [])}
+        coverage = {}
+        for p in research.get("players_in_coverage", []):
+            name = p.get("name", "")
+            coverage[norm_name(name)] = p
+            m = re.search(r'["“](.+?)["”]', name)  # Durral "Phat Phat" Brooks -> Phat Phat Brooks
+            if m and name.split():
+                coverage.setdefault(norm_name(m.group(1) + " " + name.split()[-1]), p)
         claims: dict[str, list[dict[str, str]]] = defaultdict(list)
         for pv in research.get("previews", []):
             for c in pv.get("player_claims", []) or []:
                 claims[norm_name(c.get("player", ""))].append({"claim": c.get("claim"), "outlet": pv.get("outlet"), "url": pv.get("url")})
+
+        # Fallback: match on last name when it is unique on both sides (handles nicknames
+        # such as 'Durral "Phat Phat" Brooks' vs ESPN's 'Phat Phat Brooks').
+        def last(n: str) -> str:
+            return norm_name(n.split()[-1]) if n and n.split() else ""
+        roster_last: dict[str, list[str]] = defaultdict(list)
+        for bio in rosters.get(team.key, []):
+            roster_last[last(bio["name"])].append(norm_name(bio["name"]))
+        cov_last: dict[str, list[str]] = defaultdict(list)
+        for k in coverage:
+            cov_last[last(next(p["name"] for p in research.get("players_in_coverage", []) if norm_name(p.get("name", "")) == k))].append(k)
+        alias: dict[str, str] = {}
+        for ln, roster_keys in roster_last.items():
+            if len(roster_keys) == 1 and len(cov_last.get(ln, [])) == 1 and cov_last[ln][0] not in coverage.keys() - set(cov_last[ln]):
+                alias[roster_keys[0]] = cov_last[ln][0]
 
         profiles = []
         seen = set()
@@ -110,7 +131,9 @@ def build_profiles(schedule_games: list[dict[str, Any]]) -> dict[str, list[dict[
             games = sorted(logs.get(bio["espn_id"], []), key=lambda g: g["date"] or "")
             key = norm_name(bio["name"])
             seen.add(bio["espn_id"])
-            cov = coverage.get(key, {})
+            cov = coverage.get(key) or coverage.get(alias.get(key, ""), {})
+            if key not in claims and alias.get(key) in claims:
+                claims[key] = claims[alias[key]]
             profiles.append({
                 **bio,
                 "team_key": team.key,
@@ -138,6 +161,21 @@ def build_profiles(schedule_games: list[dict[str, Any]]) -> dict[str, list[dict[
             })
         profiles.sort(key=lambda p: (-(p["season"]["per_game"]["min"] or 0), p["name"]))
         out[team.key] = profiles
+    return out
+
+
+def coverage_not_on_roster(team_key: str, profiles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Players named in coverage who are not on the ESPN roster: departures, redshirts, unverified adds."""
+    research = load_research(team_key)
+    roster_keys = {norm_name(p["name"]) for p in profiles}
+    roster_last = {norm_name(p["name"].split()[-1]) for p in profiles if p["name"]}
+    out = []
+    for c in research.get("players_in_coverage", []):
+        k = norm_name(c.get("name", ""))
+        ln = norm_name(c.get("name", "").split()[-1]) if c.get("name") else ""
+        if k in roster_keys or (ln in roster_last and c.get("status") not in ("transfer_out", "graduated", "departed")):
+            continue
+        out.append(c)
     return out
 
 

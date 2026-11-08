@@ -53,6 +53,7 @@ def dashboard_data(now: datetime | None = None) -> dict:
         "teams": [t.__dict__ for t in TEAMS],
         "espn_ids": {t.key: t.espn_id for t in TEAMS},
         "poll_rank": poll_rank_by_key(),
+        "league": players.load_league_research(),
         "standings": analysis.standings(games),
         "upcoming": analysis.upcoming(games, history, now),
         "recent": recent,
@@ -125,6 +126,7 @@ def render_site() -> str:
             poll_rank=data["poll_rank"].get(team.key),
             ctx=players.team_context(team.key),
             profiles=profiles[team.key],
+            others=players.coverage_not_on_roster(team.key, profiles[team.key]),
             games=team_games(team.key, games, history, espn_lines),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)

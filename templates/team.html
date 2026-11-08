@@ -129,6 +129,19 @@
     {% endfor %}
   </section>
 
+  {% if others %}
+  <section>
+    <h2>Departures and others in coverage</h2>
+    <div class="scroll"><table>
+      <tr><th>Player</th><th>Status</th><th>Notes</th></tr>
+      {% for c in others %}
+      <tr><td>{{ c.name }}</td><td class="dim">{{ (c.status or "").replace('_', ' ') }}{% if c.previous_school %} · {{ c.previous_school }}{% endif %}</td><td>{{ c.notes or "" }}{% for u in c.source_urls or [] %} <a href="{{ u }}" class="src">source</a>{% endfor %}</td></tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Named in previews or news but not on ESPN's current roster: mostly transfers out and graduates, sometimes a late addition ESPN has not listed yet.</div>
+  </section>
+  {% endif %}
+
   {% if ctx.sources %}
   <section>
     <h2>Who covers {{ team.short }}</h2>

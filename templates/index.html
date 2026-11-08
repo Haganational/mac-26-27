@@ -84,6 +84,39 @@
     {% endif %}
   </section>
 
+  {% if d.league %}
+  <section>
+    <h2>Preseason picture</h2>
+    <div class="grid two">
+      <div>
+        {% if d.league.previews %}
+        {% for pv in d.league.previews %}
+        <div class="preview">
+          <div><b>{{ pv.outlet }}</b>{% if pv.title %}: <a href="{{ pv.url }}">{{ pv.title }}</a>{% endif %} <span class="dim">{{ pv.date or "" }}{% if pv.author %} · {{ pv.author }}{% endif %}</span></div>
+          {% if pv.projected_order %}<div class="sub">Projected: {{ pv.projected_order|join(", ") }}</div>{% endif %}
+          <p>{{ pv.summary }}</p>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% for s in d.league.storylines or [] %}<p><b>{{ s.headline }}</b> {{ s.detail }}{% if s.source_url %} <a href="{{ s.source_url }}" class="src">source</a>{% endif %}</p>{% endfor %}
+      </div>
+      <div>
+        {% if d.league.preseason_poll %}
+        <table>
+          <tr><th>#</th><th>Coaches poll</th><th class="num">Pts</th><th class="num">1st</th></tr>
+          {% for r in d.league.preseason_poll %}<tr><td class="dim">{{ r.rank }}</td><td>{{ r.team }}</td><td class="num">{{ r.points if r.points is not none else "" }}</td><td class="num">{{ r.first_place_votes if r.first_place_votes is not none else "" }}</td></tr>{% endfor %}
+        </table>
+        {% endif %}
+        {% if d.league.preseason_awards %}<p class="sub">{% for a in d.league.preseason_awards %}<b>{{ a.award }}:</b> {{ a.player }}{% if a.team %} ({{ a.team }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+        {% if d.league.preseason_all_mac %}<p class="sub">{% for a in d.league.preseason_all_mac %}{{ a.player }} ({{ a.school }}, {{ a.team_level }}){% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
+        {% for o in d.league.title_odds or [] %}
+        {% if o.odds %}<table><tr><th>{{ o.book }} title odds <span class="dim">{{ o.date }}</span></th><th class="num"></th></tr>{% for x in o.odds %}<tr><td>{{ x.team }}</td><td class="num">{{ x.price }}</td></tr>{% endfor %}</table>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   <section>
     <h2>Recent results (7 days)</h2>
     {% if d.recent %}
