@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, players
+from . import analysis, players, travel
 from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -101,6 +101,73 @@ def team_games(team_key: str, games: list[dict[str, Any]], history: dict[str, di
     return out
 
 
+STAT_ROWS = [
+    ("FG", "fieldGoalsMade-fieldGoalsAttempted"), ("FG%", "fieldGoalPct"),
+    ("3PT", "threePointFieldGoalsMade-threePointFieldGoalsAttempted"), ("3P%", "threePointFieldGoalPct"),
+    ("FT", "freeThrowsMade-freeThrowsAttempted"), ("FT%", "freeThrowPct"),
+    ("Rebounds", "totalRebounds"), ("Offensive rebounds", "offensiveRebounds"), ("Defensive rebounds", "defensiveRebounds"),
+    ("Assists", "assists"), ("Steals", "steals"), ("Blocks", "blocks"), ("Turnovers", "totalTurnovers"),
+    ("Points off turnovers", "turnoverPoints"), ("Fast break points", "fastBreakPoints"), ("Points in paint", "pointsInPaint"),
+    ("Fouls", "fouls"), ("Largest lead", "largestLead"),
+]
+
+
+def fmt_spread(v: float | None) -> str:
+    return "–" if v is None else ("PK" if v == 0 else f"{v:+.1f}")
+
+
+def _num(stats: dict[str, Any], key: str) -> float:
+    try:
+        return float(stats.get(key) or 0)
+    except ValueError:
+        return 0.0
+
+
+def possessions(stats: dict[str, Any]) -> float:
+    fga = _num({"x": (stats.get("fieldGoalsMade-fieldGoalsAttempted") or "0-0").split("-")[-1]}, "x")
+    fta = _num({"x": (stats.get("freeThrowsMade-freeThrowsAttempted") or "0-0").split("-")[-1]}, "x")
+    return fga - _num(stats, "offensiveRebounds") + _num(stats, "totalTurnovers") + 0.475 * fta
+
+
+def game_page_context(g: dict[str, Any], box: dict[str, Any], snap: dict[str, Any] | None, ctx: dict) -> dict[str, Any]:
+    sides = {}
+    for side in ("home", "away"):
+        t = g[side]
+        tb = next((x for x in box["teams"] if str(x["espn_id"]) == str(t["espn_id"])), {"stats": {}})
+        players_ = [p for p in box["players"] if str(p["team_espn_id"]) == str(t["espn_id"])]
+        players_.sort(key=lambda p: (not p["starter"], p["dnp"], -(p.get("min") or 0)))
+        poss = possessions(tb["stats"])
+        sides[side] = {
+            **t,
+            "stats": tb["stats"],
+            "players": players_,
+            "poss": round(poss, 1) if poss else "–",
+            "ortg": round(100 * (t["score"] or 0) / poss, 1) if poss else "–",
+            "travel": ctx.get((g["game_id"], t["key"])) if t["key"] else None,
+        }
+    margin = (g["home"]["score"] or 0) - (g["away"]["score"] or 0)
+    line = (box.get("espn_line") or {}).get("home_spread")
+    if line is None and snap:
+        line = snap["latest"]["spread"]
+    total = (box.get("espn_line") or {}).get("total")
+    if total is None and snap:
+        total = snap["latest"]["total"]
+    points = (g["home"]["score"] or 0) + (g["away"]["score"] or 0)
+    ats = None
+    if line is not None:
+        diff = margin + line
+        ats = "push" if diff == 0 else (f"{g['home']['abbr']} covered" if diff > 0 else f"{g['away']['abbr']} covered")
+    total_res = None
+    if total is not None:
+        total_res = "push" if points == total else ("over" if points > total else "under")
+    return {
+        "g": g, "box": box, "snap": snap,
+        "home": sides["home"], "away": sides["away"],
+        "result": {"margin": margin, "ats": ats, "points": points, "total_res": total_res},
+        "stat_rows": STAT_ROWS,
+    }
+
+
 def render_site() -> str:
     data = dashboard_data()
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
@@ -117,6 +184,46 @@ def render_site() -> str:
     espn_lines = espn_lines_by_game()
     profiles = players.build_profiles(games)
     standings = {r["key"]: r for r in data["standings"]}
+    itins = travel.all_itineraries(games)
+    ctx = travel.game_context(itins)
+    mapping = analysis.match_lines_to_games(games, history)
+    boxes = {b["game_id"]: b for b in load_boxscores()}
+    teamlinks = [{"key": t.key, "short": t.short} for t in TEAMS]
+
+    # Box score pages, one per finished game we have a box for.
+    (SITE_DIR / "games").mkdir(exist_ok=True)
+    game_tpl = env.get_template("game.html")
+    by_id = {g["game_id"]: g for g in games}
+    have_box = set()
+    for gid, box in boxes.items():
+        g = by_id.get(gid)
+        if not g or not g["completed"]:
+            continue
+        snap = history.get(mapping.get(gid, ""))
+        html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, **game_page_context(g, box, snap, ctx))
+        (SITE_DIR / "games" / f"{gid}.html").write_text(html)
+        have_box.add(gid)
+
+    # Travel map.
+    board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
+    for it in itins.values():
+        for leg in it["legs"]:
+            leg["box"] = leg["game_id"] in have_box
+    (SITE_DIR / "travel.html").write_text(env.get_template("travel.html").render(
+        d=data, board=board, travel_json=json.dumps(itins).replace("</", "<\\/")))
+
+    # Home page again, now that we know which games have box score pages and travel context.
+    for g in data["recent"]:
+        g["box"] = g["game_id"] in have_box
+    for g in data["upcoming"]:
+        g["travel_home"] = ctx.get((g["game_id"], g["home"]["key"])) if g["home"].get("key") else None
+        g["travel_away"] = ctx.get((g["game_id"], g["away"]["key"])) if g["away"].get("key") else None
+    (SITE_DIR / "index.html").write_text(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
+
+    for team in TEAMS:
+        for p in profiles[team.key]:
+            for gl in p.get("game_log", []):
+                gl["box"] = gl["game_id"] in have_box
     team_tpl = env.get_template("team.html")
     for team in TEAMS:
         html = team_tpl.render(
@@ -127,7 +234,8 @@ def render_site() -> str:
             ctx=players.team_context(team.key),
             profiles=profiles[team.key],
             others=players.coverage_not_on_roster(team.key, profiles[team.key]),
-            games=team_games(team.key, games, history, espn_lines),
+            games=[{**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))} for tg in team_games(team.key, games, history, espn_lines)],
+            itin=itins[team.key],
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))

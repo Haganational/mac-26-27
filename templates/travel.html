@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC Travel Map</title>
+<meta name="description" content="Where every MAC team plays in 2026-27: routes, miles, road trips, rest and time zones.">
+<link rel="stylesheet" href="static/site.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  #map { height: 560px; border-radius: 10px; border: 1px solid var(--border); background: var(--neutral); }
+  @media (max-width: 700px) { #map { height: 420px; } }
+  .leaflet-container { font: inherit; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.4; }
+  .stopnum { background: var(--surface); color: var(--ink); border: 2px solid var(--s1); border-radius: 50%; width: 22px !important; height: 22px !important; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; margin: -11px 0 0 -11px; }
+  .stopnum.future { border-style: dashed; color: var(--ink-2); }
+  .stopnum.neutral { border-color: var(--s2); }
+  .basepin { background: var(--ink); color: var(--page); border-radius: 6px; padding: 2px 5px; font-size: 11px; font-weight: 700; white-space: nowrap; transform: translate(-50%, -50%); display: inline-block; }
+  .basepin.on { background: var(--s1); color: #fff; }
+  tr.sel td { background: color-mix(in srgb, var(--s1) 8%, transparent); }
+  tr.click { cursor: pointer; }
+  .kpis { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin: 10px 0 0; }
+  .kpis b { color: var(--ink); font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Travel</nav>
+  <header>
+    <h1>Travel map</h1>
+    <span class="sub">Every venue on each MAC team's 2026-27 schedule, the route between them, and the miles, rest and time zones that come with it.</span>
+  </header>
+
+  <section>
+    <div class="row">
+      <select id="teampick" aria-label="Choose a team">
+        <option value="">All teams (home bases)</option>
+        {% for t in board %}<option value="{{ t.team_key }}">{{ t.team }}</option>{% endfor %}
+      </select>
+      <div class="legend">
+        <span><i style="background:var(--s1)"></i>Played</span>
+        <span><i style="background:transparent;border:2px dashed var(--s1)"></i>Upcoming</span>
+        <span><i style="background:var(--s2)"></i>Neutral site</span>
+      </div>
+    </div>
+    <div id="map" role="img" aria-label="Map of MAC venues and travel routes"></div>
+    <div id="kpis" class="kpis"></div>
+  </section>
+
+  <section>
+    <h2>Miles leaderboard</h2>
+    <div class="scroll"><table id="board">
+      <tr><th>Team</th><th class="num">Season miles</th><th class="num">So far</th><th class="num">Road</th><th class="num">Neutral</th><th class="num">Trips</th><th>Longest trip</th><th class="num">≤1 day rest</th><th class="num">TZ games</th></tr>
+      {% for t in board %}
+      <tr class="click" data-team="{{ t.team_key }}">
+        <td><a href="teams/{{ t.team_key }}.html">{{ t.team }}</a></td>
+        <td class="num">{{ "{:,}".format(t.totals.miles) }}</td>
+        <td class="num">{{ "{:,}".format(t.totals.miles_to_date) }}</td>
+        <td class="num">{{ t.totals.road_games }}</td>
+        <td class="num">{{ t.totals.neutral_games }}</td>
+        <td class="num">{{ t.trips|length }}</td>
+        <td>{% if t.totals.longest_trip %}{{ t.totals.longest_trip.stops|join(" → ") }} <span class="dim">{{ "{:,}".format(t.totals.longest_trip.miles) }} mi</span>{% endif %}</td>
+        <td class="num">{{ t.totals.short_rest_games }}</td>
+        <td class="num">{{ t.totals.tz_games }}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Miles are great-circle estimates. A team stays on the road between games only when the next game is within 4 days and stopping at home would add more than 25% to the trip; otherwise it goes home in between. Click a row to show that team on the map.</div>
+  </section>
+
+  <section id="itin" hidden>
+    <h2 id="itintitle">Itinerary</h2>
+    <div class="scroll"><table id="itintable"></table></div>
+  </section>
+</main>
+
+<script id="data" type="application/json">{{ travel_json|safe }}</script>
+<script>
+(function () {
+  const T = JSON.parse(document.getElementById('data').textContent);
+  const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const dark = () => matchMedia('(prefers-color-scheme: dark)').matches && document.documentElement.dataset.theme !== 'light' || document.documentElement.dataset.theme === 'dark';
+  const pick = document.getElementById('teampick');
+  const kpis = document.getElementById('kpis');
+  const fmt = n => n.toLocaleString('en-US');
+  if (typeof L === 'undefined') { document.getElementById('map').textContent = 'Map library failed to load.'; return; }
+
+  const map = L.map('map', { scrollWheelZoom: false, worldCopyJump: true }).setView([39.5, -85], 5);
+  let tiles;
+  function setTiles() {
+    if (tiles) map.removeLayer(tiles);
+    tiles = L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark() ? 'dark_all' : 'light_all'}/{z}/{x}/{y}{r}.png`, {
+      subdomains: 'abcd', maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+  }
+  setTiles();
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTiles);
+
+  let layer = L.layerGroup().addTo(map);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  function baseMarker(t, on) {
+    return L.marker([t.base.lat, t.base.lon], {
+      icon: L.divIcon({ className: '', html: `<span class="basepin ${on ? 'on' : ''}">${esc(t.abbr)}</span>`, iconSize: null }),
+      zIndexOffset: on ? 1000 : 0, keyboard: true, title: t.team
+    }).bindPopup(`<b>${esc(t.team)}</b><br>${esc(t.base.arena)}<br>${esc(t.base.city)}, ${esc(t.base.state)}<br>${fmt(t.totals.miles)} season miles`);
+  }
+
+  function showAll() {
+    layer.clearLayers();
+    const pts = [];
+    Object.values(T).forEach(t => {
+      if (!t.base) return;
+      // faint route for every team so the league's footprint is visible
+      const path = [[t.base.lat, t.base.lon]];
+      t.legs.forEach(l => { if (l.lat != null && l.site !== 'home') { path.push([l.lat, l.lon]); path.push([t.base.lat, t.base.lon]); } });
+      L.polyline(path, { color: css('--muted'), weight: 1, opacity: 0.25, interactive: false }).addTo(layer);
+      baseMarker(t, false).on('click', () => select(t.team_key)).addTo(layer);
+      pts.push([t.base.lat, t.base.lon]);
+    });
+    map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+    kpis.innerHTML = 'Pick a team, or click a home base, to see its route.';
+    document.getElementById('itin').hidden = true;
+    highlightRow('');
+  }
+
+  function select(key) {
+    pick.value = key;
+    if (!key) return showAll();
+    const t = T[key];
+    layer.clearLayers();
+    const now = Date.now();
+    const c1 = css('--s1'), c2 = css('--s2');
+    let prev = t.base, prevPlayed = true;
+    const pts = [[t.base.lat, t.base.lon]];
+    const stops = {};
+    t.legs.forEach((l, i) => {
+      const loc = l.site === 'home' ? t.base : (l.lat != null ? { lat: l.lat, lon: l.lon } : null);
+      if (!loc) return;
+      const played = l.completed || new Date(l.date).getTime() < now;
+      const from = l.via_home ? t.base : prev;
+      if (from.lat !== loc.lat || from.lon !== loc.lon) {
+        if (l.via_home && (prev.lat !== t.base.lat || prev.lon !== t.base.lon)) {
+          L.polyline([[prev.lat, prev.lon], [t.base.lat, t.base.lon]], { color: c1, weight: 2, opacity: 0.55, dashArray: played ? null : '5 6' }).addTo(layer);
+        }
+        L.polyline([[from.lat, from.lon], [loc.lat, loc.lon]], { color: l.site === 'neutral' ? c2 : c1, weight: 2, opacity: played ? 0.9 : 0.6, dashArray: played ? null : '5 6' }).addTo(layer);
+      }
+      if (l.site !== 'home') {
+        const k = `${loc.lat},${loc.lon}`;
+        (stops[k] = stops[k] || { loc, legs: [], neutral: false, played: true }).legs.push({ i: i + 1, l });
+        if (l.site === 'neutral') stops[k].neutral = true;
+        if (!played) stops[k].played = false;
+        pts.push([loc.lat, loc.lon]);
+      }
+      prev = loc;
+    });
+    Object.values(stops).forEach(s => {
+      const label = s.legs.map(x => x.i).join(',');
+      const html = s.legs.map(({ l }) => `${esc(l.date.slice(5, 10))} ${l.site === 'neutral' ? 'vs' : 'at'} ${esc(l.opponent)}${l.result ? ` <b>${esc(l.result)}</b>` : ''}<br><span style="opacity:.7">${fmt(l.miles_in)} mi in · rest ${l.rest_days ?? '–'}d${l.tz_shift ? ` · ${l.tz_shift > 0 ? '+' : ''}${l.tz_shift}h` : ''}</span>`).join('<hr style="border:0;border-top:1px solid #ccc;margin:4px 0">');
+      L.marker([s.loc.lat, s.loc.lon], {
+        icon: L.divIcon({ className: '', html: `<div class="stopnum ${s.played ? '' : 'future'} ${s.neutral ? 'neutral' : ''}" style="${label.length > 3 ? 'width:auto!important;padding:0 5px;border-radius:11px' : ''}">${label}</div>`, iconSize: null })
+      }).bindPopup(`<b>${esc(s.legs[0].l.venue || '')}</b><br>${esc(s.legs[0].l.city)}, ${esc(s.legs[0].l.state)}<br>${html}`).addTo(layer);
+    });
+    baseMarker(t, true).addTo(layer);
+    map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+    const tt = t.totals;
+    kpis.innerHTML = `<span><b>${fmt(tt.miles)}</b> season miles</span><span><b>${fmt(tt.miles_to_date)}</b> so far</span><span><b>${tt.road_games}</b> road · <b>${tt.neutral_games}</b> neutral · <b>${tt.home_games}</b> home</span><span><b>${t.trips.length}</b> trips</span>${tt.farthest ? `<span>Farthest: <b>${esc(tt.farthest.city)}</b> (${fmt(tt.farthest.miles_from_home)} mi)</span>` : ''}<span><a href="teams/${key}.html">Team page</a></span>`;
+    renderItin(t);
+    highlightRow(key);
+  }
+
+  function renderItin(t) {
+    const tb = document.getElementById('itintable');
+    document.getElementById('itintitle').textContent = `${t.team} itinerary`;
+    tb.innerHTML = '<tr><th>#</th><th>Date</th><th>Opponent</th><th>Site</th><th>Where</th><th class="num">Miles in</th><th class="num">Rest</th><th class="num">Road streak</th><th class="num">TZ</th><th class="num">Result</th></tr>' +
+      t.legs.map((l, i) => `<tr><td class="dim">${i + 1}</td><td class="dim">${esc(l.date.slice(5, 10))}</td><td>${l.site === 'home' ? 'vs' : (l.site === 'neutral' ? 'vs' : 'at')} ${esc(l.opponent)}${l.conference_game ? ' <span class="pill">MAC</span>' : ''}</td><td class="dim">${l.site}</td><td>${esc(l.city)}, ${esc(l.state)}</td><td class="num">${fmt(l.miles_in)}${l.via_home ? ' <span class="dim" title="via home">⌂</span>' : ''}</td><td class="num">${l.rest_days ?? '–'}</td><td class="num">${l.road_streak || ''}</td><td class="num">${l.tz_shift ? (l.tz_shift > 0 ? '+' : '') + l.tz_shift + 'h' : ''}</td><td class="num">${l.result ? `<a href="games/${l.game_id}.html">${esc(l.result)}</a>` : ''}</td></tr>`).join('');
+    document.getElementById('itin').hidden = false;
+  }
+
+  function highlightRow(key) {
+    document.querySelectorAll('#board tr[data-team]').forEach(r => r.classList.toggle('sel', r.dataset.team === key));
+  }
+  document.querySelectorAll('#board tr[data-team]').forEach(r => r.addEventListener('click', e => { if (e.target.tagName !== 'A') { select(r.dataset.team); window.scrollTo({ top: 0, behavior: 'smooth' }); } }));
+  pick.addEventListener('change', () => select(pick.value));
+  const initial = (location.hash || '').slice(1);
+  if (initial && T[initial]) select(initial); else showAll();
+  window.addEventListener('hashchange', () => { const k = location.hash.slice(1); if (T[k]) select(k); });
+})();
+</script>
+</body>
+</html>

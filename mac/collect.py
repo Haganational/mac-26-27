@@ -5,6 +5,7 @@
   python -m mac.collect lines     # append a lines snapshot (needs ODDS_API_KEY)
   python -m mac.collect build-db   # write data/mac.sqlite
   python -m mac.collect site       # render the dashboard into site/
+  python -m mac.collect venues     # geocode any new venue city into data/venues.json
   python -m mac.collect all        # schedule + lines + site (what the cron job runs)
 """
 
@@ -13,7 +14,7 @@ from __future__ import annotations
 import json
 import sys
 
-from . import build, db, espn, odds, rosters
+from . import build, db, espn, odds, rosters, travel
 
 
 def main(argv: list[str]) -> int:
@@ -31,9 +32,15 @@ def main(argv: list[str]) -> int:
         print("sqlite:", db.build())
     elif cmd == "site":
         print("site:", build.render_site())
+    elif cmd == "venues":
+        print("venues:", travel.geocode_missing(espn.load_schedule()["games"]))
     elif cmd == "all":
         out = espn.refresh_schedule()
         print(f"schedule: {len(out['games'])} games written")
+        geo = travel.geocode_missing(out["games"])
+        print("venues:", geo)
+        if geo["unresolved"]:
+            print(f"venues: add these to travel.OVERRIDES: {geo['unresolved']}", file=sys.stderr)
         try:
             rosters.refresh_rosters()
             print("boxscores:", rosters.refresh_boxscores())

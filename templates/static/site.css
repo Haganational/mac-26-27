@@ -88,3 +88,16 @@ tr.done td { color: var(--ink-2); }
 
 a.pto { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 600; border: 1px solid var(--border); color: var(--ink-2); }
 a.pto:hover { border-color: var(--s1); color: var(--s1); text-decoration: none; }
+
+/* Box score pages */
+.scorehead { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 18px; }
+@media (min-width: 700px) { .scorehead { grid-template-columns: 1fr 1fr; } }
+.scorehead .side { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.scorehead .side .tname { font-weight: 600; font-size: 17px; }
+.scorehead .side .big { margin-left: auto; font-size: 34px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.scorehead .side.win .big { color: var(--ink); }
+tr.benchsplit td { border-top: 2px solid var(--border); }
+a.btnlink { font-size: 13px; padding: 4px 10px; border: 1px solid var(--border); border-radius: 8px; color: var(--ink); text-decoration: none; }
+a.btnlink:hover { background: var(--neutral); }
+.restcell { font-size: 12px; white-space: nowrap; }
+.warnk { color: var(--ink); font-weight: 600; }

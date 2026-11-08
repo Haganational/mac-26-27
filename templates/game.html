@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} · MAC {{ d.season }}</title>
+<meta name="description" content="Box score: {{ g.name }}, {{ g.date[:10] }}.">
+<link rel="stylesheet" href="../static/site.css">
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Box score
+    <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html">{{ t.short }}</a>{% endfor %}</span>
+  </nav>
+
+  <header class="scorehead">
+    {% for side in [away, home] %}
+    <div class="side {{ 'win' if side.winner else '' }}">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" width="48" height="48">
+      <div>
+        <div class="tname">{% if side.key %}<a href="../teams/{{ side.key }}.html">{{ side.name }}</a>{% else %}{{ side.name }}{% endif %}</div>
+        <div class="sub">{{ 'Home' if loop.last and not g.neutral_site else ('Neutral' if g.neutral_site else 'Away') }}</div>
+      </div>
+      <div class="big">{{ side.score }}</div>
+    </div>
+    {% endfor %}
+  </header>
+  <div class="sub" style="margin:-8px 0 18px">
+    Final · {{ g.date[:10] }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
+    {% if g.conference_game %} · <span class="pill">MAC</span>{% endif %}
+    · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}">ESPN gamecast</a>
+  </div>
+
+  <div class="grid two">
+    <section>
+      <h2>Line and result</h2>
+      <table>
+        <tr><th></th><th class="num">Spread (home)</th><th class="num">Total</th><th class="num">ML home</th><th class="num">ML away</th><th>Source</th></tr>
+        {% if snap %}
+        <tr><td>Open (first seen)</td><td class="num">{{ fmt_spread(snap.open_spread) }}</td><td class="num">{{ snap.open_total if snap.open_total is not none else "–" }}</td><td class="num"></td><td class="num"></td><td class="dim">our snapshots</td></tr>
+        <tr><td>Latest</td><td class="num">{{ fmt_spread(snap.latest.spread) }}</td><td class="num">{{ snap.latest.total if snap.latest.total is not none else "–" }}</td><td class="num">{{ snap.latest.ml_home or "–" }}</td><td class="num">{{ snap.latest.ml_away or "–" }}</td><td class="dim">our snapshots ({{ snap.latest.books }} books)</td></tr>
+        {% endif %}
+        {% if box.espn_line %}
+        <tr><td>Close</td><td class="num">{{ fmt_spread(box.espn_line.home_spread) }}</td><td class="num">{{ box.espn_line.total if box.espn_line.total is not none else "–" }}</td><td class="num">{{ box.espn_line.ml_home or "–" }}</td><td class="num">{{ box.espn_line.ml_away or "–" }}</td><td class="dim">{{ box.espn_line.provider }} via ESPN</td></tr>
+        {% endif %}
+      </table>
+      {% if result %}
+      <div class="statrow" style="margin-top:12px">
+        <span>Margin <b>{{ "%+d"|format(result.margin) }}</b> (home)</span>
+        {% if result.ats %}<span>ATS <b>{{ result.ats }}</b></span>{% endif %}
+        {% if result.total_res %}<span>Total <b>{{ result.points }}</b> → <b>{{ result.total_res }}</b></span>{% endif %}
+      </div>
+      {% endif %}
+    </section>
+
+    <section>
+      <h2>Travel and rest coming in</h2>
+      <table>
+        <tr><th>Team</th><th class="num">Rest days</th><th class="num">Miles in</th><th class="num">Road streak</th><th class="num">Time zone</th></tr>
+        {% for side in [away, home] %}{% set c = side.travel %}
+        <tr><td>{{ side.abbr }}</td>
+          {% if c %}<td class="num">{{ c.rest_days if c.rest_days is not none else "–" }}</td><td class="num">{{ "{:,}".format(c.miles_in) }}</td><td class="num">{{ c.road_streak or "–" }}</td><td class="num">{{ ("%+d h"|format(c.tz_shift)) if c.tz_shift else "same" }}</td>
+          {% else %}<td colspan="4" class="dim">non-MAC team, not tracked</td>{% endif %}</tr>
+        {% endfor %}
+      </table>
+      <div class="note">Rest is full days off between games. Miles are an estimate from the travel model (see the travel page).</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Team stats</h2>
+    <div class="scroll"><table>
+      <tr><th>Stat</th><th class="num">{{ away.abbr }}</th><th class="num">{{ home.abbr }}</th></tr>
+      {% for label, key in stat_rows %}
+      <tr><td>{{ label }}</td><td class="num">{{ away.stats.get(key, "–") }}</td><td class="num">{{ home.stats.get(key, "–") }}</td></tr>
+      {% endfor %}
+      <tr><td>Possessions (est.)</td><td class="num">{{ away.poss }}</td><td class="num">{{ home.poss }}</td></tr>
+      <tr><td>Points per 100 possessions</td><td class="num">{{ away.ortg }}</td><td class="num">{{ home.ortg }}</td></tr>
+    </table></div>
+    <div class="note">Possessions = FGA − OREB + TO + 0.475 × FTA.</div>
+  </section>
+
+  {% for side in [away, home] %}
+  <section>
+    <h2>{{ side.name }}</h2>
+    <div class="scroll"><table class="log">
+      <tr><th>Player</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">FG</th><th class="num">3PT</th><th class="num">FT</th><th class="num">OREB</th><th class="num">REB</th><th class="num">AST</th><th class="num">TO</th><th class="num">STL</th><th class="num">BLK</th><th class="num">PF</th></tr>
+      {% for p in side.players %}
+      <tr{% if loop.index == 6 %} class="benchsplit"{% endif %}>
+        <td>{% if side.key %}<a href="../teams/{{ side.key }}.html#p{{ p.espn_id }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.starter %} <span class="dim">{{ p.position or "" }}</span>{% endif %}</td>
+        {% if p.dnp %}<td colspan="12" class="dim">DNP</td>{% else %}
+        <td class="num">{{ p.min }}</td><td class="num"><b>{{ p.pts }}</b></td><td class="num">{{ p.fgm }}-{{ p.fga }}</td><td class="num">{{ p.tpm }}-{{ p.tpa }}</td><td class="num">{{ p.ftm }}-{{ p.fta }}</td>
+        <td class="num">{{ p.oreb }}</td><td class="num">{{ p.reb }}</td><td class="num">{{ p.ast }}</td><td class="num">{{ p.to }}</td><td class="num">{{ p.stl }}</td><td class="num">{{ p.blk }}</td><td class="num">{{ p.pf }}</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </table></div>
+  </section>
+  {% endfor %}
+</main>
+</body>
+</html>
