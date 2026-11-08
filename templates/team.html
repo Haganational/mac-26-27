@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ team.short }} · MAC {{ d.season }}</title>
+<meta name="description" content="{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.">
+<link rel="stylesheet" href="../static/site.css">
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
+    <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="{{ 'on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
+  </nav>
+  <header class="teamhead">
+    <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ team.espn_id }}.png" alt="" width="64" height="64">
+    <div>
+      <h1>{{ team.name }}</h1>
+      <div class="sub">
+        {{ rec.w }}-{{ rec.l }} overall, {{ rec.cw }}-{{ rec.cl }} MAC, margin {{ "%+.1f"|format(rec.margin) }}
+        {% if ctx.coach.name %} · Coach {{ ctx.coach.name }}{% if ctx.coach.since %} (since {{ ctx.coach.since }}){% endif %}{% endif %}
+        {% if poll_rank %} · Picked {{ poll_rank }}{{ 'st' if poll_rank == 1 else ('nd' if poll_rank == 2 else ('rd' if poll_rank == 3 else 'th')) }} in the MAC preseason poll{% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="grid two">
+    <section>
+      <h2>Rotation</h2>
+      <div class="scroll"><table class="players">
+        <tr><th>#</th><th>Player</th><th>Pos</th><th>Cl</th><th>Ht</th><th class="num">GP/GS</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">REB</th><th class="num">AST</th><th class="num">eFG%</th><th class="num">TS%</th></tr>
+        {% for p in profiles %}
+        <tr>
+          <td class="dim">{{ p.jersey or "" }}</td>
+          <td><a href="#p{{ p.espn_id }}">{{ p.name }}</a>{% if p.coverage_status == 'transfer_in' %} <span class="pill">transfer</span>{% elif p.coverage_status == 'freshman' or p.class == 'FR' %} <span class="pill">FR</span>{% endif %}{% if p.injuries %} <span class="pill warn">{{ p.injuries[0].status }}</span>{% endif %}</td>
+          <td>{{ p.position or "" }}</td><td>{{ p.class or "" }}</td><td>{{ p.height or "" }}</td>
+          <td class="num">{{ p.season.gp }}/{{ p.season.gs }}</td>
+          <td class="num">{{ p.season.per_game.min if p.season.per_game.min is not none else "–" }}</td>
+          <td class="num">{{ p.season.per_game.pts if p.season.per_game.pts is not none else "–" }}</td>
+          <td class="num">{{ p.season.per_game.reb if p.season.per_game.reb is not none else "–" }}</td>
+          <td class="num">{{ p.season.per_game.ast if p.season.per_game.ast is not none else "–" }}</td>
+          <td class="num">{{ p.season.efg_pct if p.season.efg_pct is not none else "–" }}</td>
+          <td class="num">{{ p.season.ts_pct if p.season.ts_pct is not none else "–" }}</td>
+        </tr>
+        {% endfor %}
+      </table></div>
+      <div class="note">Box scores from ESPN. eFG% weights threes; TS% includes free throws.</div>
+    </section>
+
+    <section>
+      <h2>Schedule</h2>
+      <div class="scroll"><table>
+        <tr><th>Date</th><th>Opponent</th><th class="num">Result</th><th class="num">Line</th></tr>
+        {% for g in games %}
+        <tr class="{{ 'done' if g.completed else '' }}">
+          <td class="dim">{{ g.date[5:10] }}</td>
+          <td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {{ g.opp_name }}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
+          <td class="num">{% if g.completed %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% else %}<span class="dim">{{ g.date[11:16] }}Z</span>{% endif %}</td>
+          <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </table></div>
+      <div class="note">Line is this team's spread (DraftKings via ESPN for finished games, our snapshots for upcoming). "cover" / "miss" is against that number.</div>
+    </section>
+  </div>
+
+  {% if ctx.storylines or ctx.recent_news %}
+  <div class="grid two">
+    {% if ctx.storylines %}
+    <section>
+      <h2>Storylines</h2>
+      {% for s in ctx.storylines %}<p><b>{{ s.headline }}</b> {{ s.detail }}{% if s.source_url %} <a href="{{ s.source_url }}" class="src">source</a>{% endif %}</p>{% endfor %}
+    </section>
+    {% endif %}
+    {% if ctx.recent_news %}
+    <section>
+      <h2>Recent news</h2>
+      {% for n in ctx.recent_news %}<p><span class="dim">{{ n.date }}</span> <b>{{ n.headline }}</b> {{ n.detail }}{% if n.source_url %} <a href="{{ n.source_url }}" class="src">source</a>{% endif %}</p>{% endfor %}
+    </section>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if ctx.previews %}
+  <section>
+    <h2>Preseason previews</h2>
+    {% for pv in ctx.previews %}
+    <div class="preview">
+      <div><b>{{ pv.outlet }}</b>{% if pv.title %}: <a href="{{ pv.url }}">{{ pv.title }}</a>{% endif %} <span class="dim">{{ pv.date or "" }}{% if pv.author %} · {{ pv.author }}{% endif %}{% if pv.projected_finish %} · projected {{ pv.projected_finish }}{% endif %}</span></div>
+      <p>{{ pv.summary }}</p>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <section>
+    <h2>Players</h2>
+    {% for p in profiles %}
+    <article class="player" id="p{{ p.espn_id }}">
+      <div class="phead">
+        {% if p.headshot %}<img src="{{ p.headshot }}" alt="" width="56" height="56" loading="lazy" onerror="this.style.visibility='hidden'">{% endif %}
+        <div>
+          <h3>{{ p.name }} <span class="dim">#{{ p.jersey or "–" }} · {{ p.position or "?" }} · {{ p.class_name or "" }} · {{ p.height or "" }}{% if p.weight %} · {{ p.weight }}{% endif %}</span></h3>
+          <div class="sub">{% if p.hometown %}{{ p.hometown }}{% endif %}{% if p.previous_school %} · from {{ p.previous_school }}{% endif %}{% if p.coverage_status %} · {{ p.coverage_status.replace('_', ' ') }}{% endif %}{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN</a>{% endif %}</div>
+        </div>
+      </div>
+      {% if p.season.gp %}
+      <div class="statrow">
+        <span><b>{{ p.season.per_game.pts }}</b> pts</span><span><b>{{ p.season.per_game.reb }}</b> reb</span><span><b>{{ p.season.per_game.ast }}</b> ast</span><span><b>{{ p.season.per_game.min }}</b> min</span>
+        <span><b>{{ p.season.totals.fgm }}-{{ p.season.totals.fga }}</b> FG</span><span><b>{{ p.season.totals.tpm }}-{{ p.season.totals.tpa }}</b> 3PT</span><span><b>{{ p.season.totals.ftm }}-{{ p.season.totals.fta }}</b> FT</span>
+        <span><b>{{ p.season.ts_pct if p.season.ts_pct is not none else "–" }}</b> TS%</span><span><b>{{ p.season.usage_proxy if p.season.usage_proxy is not none else "–" }}</b> shots+TO/40</span>
+      </div>
+      {% else %}<div class="sub">Has not appeared yet.</div>{% endif %}
+      {% if p.coverage_notes %}<p class="cov">{{ p.coverage_notes }}{% for u in p.coverage_sources %} <a href="{{ u }}" class="src">source</a>{% endfor %}</p>{% endif %}
+      {% for c in p.preview_claims %}<p class="cov"><span class="dim">{{ c.outlet }}:</span> {{ c.claim }}{% if c.url %} <a href="{{ c.url }}" class="src">source</a>{% endif %}</p>{% endfor %}
+      {% if p.game_log %}
+      <details><summary>Game log</summary>
+      <div class="scroll"><table class="log">
+        <tr><th>Date</th><th>Opp</th><th>Result</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">FG</th><th class="num">3PT</th><th class="num">FT</th><th class="num">REB</th><th class="num">AST</th><th class="num">TO</th><th class="num">STL</th><th class="num">BLK</th></tr>
+        {% for g in p.game_log %}
+        <tr><td class="dim">{{ (g.date or "")[5:10] }}</td><td>{{ 'vs' if g.home else 'at' }} {{ g.opponent_abbr }}</td><td>{{ g.result or "" }}</td>
+          {% if g.dnp %}<td colspan="10" class="dim">DNP</td>{% else %}
+          <td class="num">{{ g.min }}</td><td class="num">{{ g.pts }}</td><td class="num">{{ g.fgm }}-{{ g.fga }}</td><td class="num">{{ g.tpm }}-{{ g.tpa }}</td><td class="num">{{ g.ftm }}-{{ g.fta }}</td><td class="num">{{ g.reb }}</td><td class="num">{{ g.ast }}</td><td class="num">{{ g.to }}</td><td class="num">{{ g.stl }}</td><td class="num">{{ g.blk }}</td>{% endif %}
+        </tr>
+        {% endfor %}
+      </table></div></details>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </section>
+
+  {% if ctx.sources %}
+  <section>
+    <h2>Who covers {{ team.short }}</h2>
+    <div class="scroll"><table>
+      <tr><th>Source</th><th>Type</th><th>Handle</th><th>Beat writers</th><th>Notes</th></tr>
+      {% for s in ctx.sources %}
+      <tr><td><a href="{{ s.url }}">{{ s.name }}</a></td><td class="dim">{{ (s.type or "").replace('_', ' ') }}</td><td>{{ s.x_handle or "" }}</td>
+        <td>{% for w in s.beat_writers or [] %}{{ w.name }}{% if w.x_handle %} ({{ w.x_handle }}){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</td><td class="dim">{{ s.notes or "" }}</td></tr>
+      {% endfor %}
+    </table></div>
+    {% if ctx.researched_at %}<div class="note">Coverage research as of {{ ctx.researched_at[:10] }}.</div>{% endif %}
+  </section>
+  {% endif %}
+</main>
+</body>
+</html>
