@@ -22,7 +22,7 @@
   </div>
 
   <section>
-    <h2>Teams</h2>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><a class="btnlink" href="travel.html">Travel map →</a></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
@@ -35,7 +35,7 @@
       <h2>Upcoming (next 8 days)</h2>
       {% if d.upcoming %}
       <div class="scroll"><table>
-        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th><th></th></tr>
+        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
         {% for g in d.upcoming %}
         <tr>
           <td class="dim">{{ g.date[5:16].replace("T", " ") }}</td>
@@ -48,6 +48,7 @@
           {% else %}
           <td class="num dim" colspan="4">no line yet</td>
           {% endif %}
+          <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
           <td><a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ g.home.name.rsplit(' ', 1)[0] }}" title="Opens PickTheOdds and copies the home team name to paste into its search">PTO</a></td>
         </tr>
         {% endfor %}
@@ -129,12 +130,12 @@
     <h2>Recent results (7 days)</h2>
     {% if d.recent %}
     <div class="scroll"><table>
-      <tr><th>Date</th><th>Game</th><th class="num">Score</th><th class="num">Close</th><th>ATS</th></tr>
+      <tr><th>Date</th><th>Game</th><th class="num">Score <span class="dim">(box)</span></th><th class="num">Close</th><th>ATS</th></tr>
       {% for g in d.recent %}
       <tr>
         <td class="dim">{{ g.date[5:10] }}</td>
         <td class="teams">{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
-        <td class="num">{{ g.away.score }}-{{ g.home.score }}</td>
+        <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
         <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
         <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>
       </tr>

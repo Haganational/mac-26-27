@@ -50,18 +50,20 @@
     <section>
       <h2>Schedule</h2>
       <div class="scroll"><table>
-        <tr><th>Date</th><th>Opponent</th><th class="num">Result</th><th class="num">Line</th><th></th></tr>
+        <tr><th>Date</th><th>Opponent</th><th class="num">Result</th><th class="num">Line</th><th class="num" title="Full days off before the game">Rest</th><th class="num" title="Estimated miles travelled to get there">Miles</th><th></th></tr>
         {% for g in games %}
         <tr class="{{ 'done' if g.completed else '' }}">
           <td class="dim">{{ g.date[5:10] }}</td>
           <td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {{ g.opp_name }}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
-          <td class="num">{% if g.completed %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% else %}<span class="dim">{{ g.date[11:16] }}Z</span>{% endif %}</td>
+          <td class="num">{% if g.completed %}{% if g.box %}<a href="../games/{{ g.game_id }}.html" title="Box score">{% endif %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% if g.box %}</a>{% endif %}{% else %}<span class="dim">{{ g.date[11:16] }}Z</span>{% endif %}</td>
           <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
+          <td class="num">{% if g.trav and g.trav.rest_days is not none %}{{ g.trav.rest_days }}{% else %}<span class="dim">–</span>{% endif %}</td>
+          <td class="num">{% if g.trav and g.trav.miles_in %}{{ "{:,}".format(g.trav.miles_in) }}{% if g.trav.tz_shift %} <span class="dim">{{ '%+d'|format(g.trav.tz_shift) }}h</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
           <td>{% if not g.completed %}<a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ team.short }}" title="Opens PickTheOdds and copies the team name to paste into its search">PTO</a>{% endif %}</td>
         </tr>
         {% endfor %}
       </table></div>
-      <div class="note">Line is this team's spread (DraftKings via ESPN for finished games, our snapshots for upcoming). "cover" / "miss" is against that number.</div>
+      <div class="note">Line is this team's spread (DraftKings via ESPN for finished games, our snapshots for upcoming). "cover" / "miss" is against that number. Click a result for the box score. Rest is full days off; miles are estimated travel into the game, with any time-zone change. Season total: {{ "{:,}".format(itin.totals.miles) }} miles. <a href="../travel.html#{{ team.key }}">See the route on the travel map</a>.</div>
     </section>
   </div>
 
@@ -119,7 +121,7 @@
       <div class="scroll"><table class="log">
         <tr><th>Date</th><th>Opp</th><th>Result</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">FG</th><th class="num">3PT</th><th class="num">FT</th><th class="num">REB</th><th class="num">AST</th><th class="num">TO</th><th class="num">STL</th><th class="num">BLK</th></tr>
         {% for g in p.game_log %}
-        <tr><td class="dim">{{ (g.date or "")[5:10] }}</td><td>{{ 'vs' if g.home else 'at' }} {{ g.opponent_abbr }}</td><td>{{ g.result or "" }}</td>
+        <tr><td class="dim">{{ (g.date or "")[5:10] }}</td><td>{{ 'vs' if g.home else 'at' }} {{ g.opponent_abbr }}</td><td>{% if g.box %}<a href="../games/{{ g.game_id }}.html">{{ g.result or "box" }}</a>{% else %}{{ g.result or "" }}{% endif %}</td>
           {% if g.dnp %}<td colspan="10" class="dim">DNP</td>{% else %}
           <td class="num">{{ g.min }}</td><td class="num">{{ g.pts }}</td><td class="num">{{ g.fgm }}-{{ g.fga }}</td><td class="num">{{ g.tpm }}-{{ g.tpa }}</td><td class="num">{{ g.ftm }}-{{ g.fta }}</td><td class="num">{{ g.reb }}</td><td class="num">{{ g.ast }}</td><td class="num">{{ g.to }}</td><td class="num">{{ g.stl }}</td><td class="num">{{ g.blk }}</td>{% endif %}
         </tr>
