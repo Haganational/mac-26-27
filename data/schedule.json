@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T17:18:59+00:00",
+ "fetched_at": "2026-11-08T21:37:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -708,19 +708,19 @@
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2097",
     "key": null,
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_FINAL",
+   "completed": true
   },
   {
    "game_id": "401911009",
