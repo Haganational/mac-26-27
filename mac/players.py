@@ -117,13 +117,15 @@ def build_profiles(schedule_games: list[dict[str, Any]]) -> dict[str, list[dict[
         roster_last: dict[str, list[str]] = defaultdict(list)
         for bio in rosters.get(team.key, []):
             roster_last[last(bio["name"])].append(norm_name(bio["name"]))
-        cov_last: dict[str, list[str]] = defaultdict(list)
-        for k in coverage:
-            cov_last[last(next(p["name"] for p in research.get("players_in_coverage", []) if norm_name(p.get("name", "")) == k))].append(k)
+        roster_last_keys_all = {k for ks in roster_last.values() for k in ks}
+        cov_last: dict[str, set[str]] = defaultdict(set)
+        for k, p in coverage.items():
+            cov_last[last(p.get("name", ""))].add(k)
         alias: dict[str, str] = {}
         for ln, roster_keys in roster_last.items():
-            if len(roster_keys) == 1 and len(cov_last.get(ln, [])) == 1 and cov_last[ln][0] not in coverage.keys() - set(cov_last[ln]):
-                alias[roster_keys[0]] = cov_last[ln][0]
+            cands = {k for k in cov_last.get(ln, set()) if k not in roster_last_keys_all}
+            if len(roster_keys) == 1 and len(cands) == 1:
+                alias[roster_keys[0]] = cands.pop()
 
         profiles = []
         seen = set()
