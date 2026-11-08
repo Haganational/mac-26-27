@@ -1,0 +1,7146 @@
+{
+ "fetched_at": "2026-11-08T00:35:21+00:00",
+ "season": 2027,
+ "games": [
+  {
+   "game_id": "401910994",
+   "date": "2026-11-02T23:00Z",
+   "name": "Bowling Green Falcons at Georgia State Panthers",
+   "short_name": "BGSU @ GAST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "GSU Convocation Center",
+   "venue_city": "Atlanta",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "2247",
+    "key": null,
+    "name": "Georgia State Panthers",
+    "abbr": "GAST",
+    "score": 73,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": 76,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911004",
+   "date": "2026-11-03T00:00Z",
+   "name": "Ball State Cardinals at Georgia Southern Eagles",
+   "short_name": "BALL @ GASO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Jack and Ruth Ann Hill Convocation Center",
+   "venue_city": "Statesboro",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": 67,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": 55,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910995",
+   "date": "2026-11-03T00:00Z",
+   "name": "Buffalo Bulls at Marshall Thundering Herd",
+   "short_name": "BUF @ MRSH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Cam Henderson Center",
+   "venue_city": "Huntington",
+   "venue_state": "WV",
+   "home": {
+    "espn_id": "276",
+    "key": null,
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
+    "score": 92,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": 65,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910998",
+   "date": "2026-11-03T00:00Z",
+   "name": "Eastern Michigan Eagles at Coastal Carolina Chanticleers",
+   "short_name": "EMU @ CCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "The HTC Center",
+   "venue_city": "Conway",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "324",
+    "key": null,
+    "name": "Coastal Carolina Chanticleers",
+    "abbr": "CCU",
+    "score": 70,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": 71,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911002",
+   "date": "2026-11-03T00:00Z",
+   "name": "Miami (OH) RedHawks at James Madison Dukes",
+   "short_name": "M-OH @ JMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Atlantic Union Bank Center",
+   "venue_city": "Harrisonburg",
+   "venue_state": "VA",
+   "home": {
+    "espn_id": "256",
+    "key": null,
+    "name": "James Madison Dukes",
+    "abbr": "JMU",
+    "score": 77,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": 86,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911001",
+   "date": "2026-11-03T00:00Z",
+   "name": "Massachusetts Minutemen at Troy Trojans",
+   "short_name": "MASS @ TROY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Trojan Arena",
+   "venue_city": "Troy",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2653",
+    "key": null,
+    "name": "Troy Trojans",
+    "abbr": "TROY",
+    "score": 60,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": 71,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910997",
+   "date": "2026-11-03T00:00Z",
+   "name": "Western Michigan Broncos at Old Dominion Monarchs",
+   "short_name": "WMU @ ODU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Chartway Arena",
+   "venue_city": "Norfolk",
+   "venue_state": "VA",
+   "home": {
+    "espn_id": "295",
+    "key": null,
+    "name": "Old Dominion Monarchs",
+    "abbr": "ODU",
+    "score": 61,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": 49,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910996",
+   "date": "2026-11-03T00:30Z",
+   "name": "Central Michigan Chippewas at UL Monroe Warhawks",
+   "short_name": "CMU @ ULM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "b1Bank Fant Coliseum",
+   "venue_city": "Monroe",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2433",
+    "key": null,
+    "name": "UL Monroe Warhawks",
+    "abbr": "ULM",
+    "score": 78,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": 83,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911000",
+   "date": "2026-11-03T00:30Z",
+   "name": "Kent State Golden Flashes at Louisiana Tech Bulldogs",
+   "short_name": "KENT @ LT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Thomas Assembly Center",
+   "venue_city": "Ruston",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2348",
+    "key": null,
+    "name": "Louisiana Tech Bulldogs",
+    "abbr": "LT",
+    "score": 85,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": 75,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910993",
+   "date": "2026-11-03T01:00Z",
+   "name": "Akron Zips at Louisiana Ragin' Cajuns",
+   "short_name": "AKR @ UL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Cajundome",
+   "venue_city": "Lafayette",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "309",
+    "key": null,
+    "name": "Louisiana Ragin' Cajuns",
+    "abbr": "UL",
+    "score": 61,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": 75,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911003",
+   "date": "2026-11-03T01:00Z",
+   "name": "Ohio Bobcats at South Alabama Jaguars",
+   "short_name": "OHIO @ USA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mitchell Center",
+   "venue_city": "Mobile",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "6",
+    "key": null,
+    "name": "South Alabama Jaguars",
+    "abbr": "USA",
+    "score": 77,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": 86,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401910999",
+   "date": "2026-11-03T01:00Z",
+   "name": "Toledo Rockets at Arkansas State Red Wolves",
+   "short_name": "TOL @ ARST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "First National Bank Arena",
+   "venue_city": "Jonesboro",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2032",
+    "key": null,
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "score": 71,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": 70,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401909706",
+   "date": "2026-11-06T00:00Z",
+   "name": "Buffalo Bulls at Pittsburgh Panthers",
+   "short_name": "BUF @ PITT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Petersen Events Center",
+   "venue_city": "Pittsburgh",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "221",
+    "key": null,
+    "name": "Pittsburgh Panthers",
+    "abbr": "PITT",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401928849",
+   "date": "2026-11-06T00:00Z",
+   "name": "Kalamazoo Hornets at Western Michigan Broncos",
+   "short_name": "KALC @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": 99,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "126",
+    "key": null,
+    "name": "Kalamazoo Hornets",
+    "abbr": "KALC",
+    "score": 52,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401925754",
+   "date": "2026-11-06T01:00Z",
+   "name": "Toledo Rockets at Michigan State Spartans",
+   "short_name": "TOL @ MSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Breslin Center",
+   "venue_city": "East Lansing",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "127",
+    "key": null,
+    "name": "Michigan State Spartans",
+    "abbr": "MSU",
+    "score": 91,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401909552",
+   "date": "2026-11-06T21:00Z",
+   "name": "Massachusetts Minutemen at Boston College Eagles",
+   "short_name": "MASS VS BC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "TD Garden",
+   "venue_city": "Boston",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "103",
+    "key": null,
+    "name": "Boston College Eagles",
+    "abbr": "BC",
+    "score": 71,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": 55,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911005",
+   "date": "2026-11-07T00:00Z",
+   "name": "Indiana State Sycamores at Ball State Cardinals",
+   "short_name": "INST @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": 66,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "282",
+    "key": null,
+    "name": "Indiana State Sycamores",
+    "abbr": "INST",
+    "score": 69,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911006",
+   "date": "2026-11-07T00:00Z",
+   "name": "Alma Scots at Central Michigan Chippewas",
+   "short_name": "ALMA @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": 93,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2800",
+    "key": null,
+    "name": "Alma Scots",
+    "abbr": "ALMA",
+    "score": 50,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401909542",
+   "date": "2026-11-07T00:00Z",
+   "name": "Eastern Michigan Eagles at Xavier Musketeers",
+   "short_name": "EMU @ XAV",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Cintas Center",
+   "venue_city": "Cincinnati",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2752",
+    "key": null,
+    "name": "Xavier Musketeers",
+    "abbr": "XAV",
+    "score": 76,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": 53,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401928840",
+   "date": "2026-11-07T00:00Z",
+   "name": "Roberts Wesleyan Redhawks at Kent State Golden Flashes",
+   "short_name": "RWC @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": 102,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "128531",
+    "key": null,
+    "name": "Roberts Wesleyan Redhawks",
+    "abbr": "RWC",
+    "score": 50,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401921154",
+   "date": "2026-11-07T18:00Z",
+   "name": "North Carolina A&T Aggies at Ohio Bobcats",
+   "short_name": "NCAT @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2448",
+    "key": null,
+    "name": "North Carolina A&T Aggies",
+    "abbr": "NCAT",
+    "score": 70,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920856",
+   "date": "2026-11-07T19:00Z",
+   "name": "Toledo Rockets at Marshall Thundering Herd",
+   "short_name": "TOL @ MRSH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Cam Henderson Center",
+   "venue_city": "Huntington",
+   "venue_state": "WV",
+   "home": {
+    "espn_id": "276",
+    "key": null,
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
+    "score": 76,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": 81,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911007",
+   "date": "2026-11-07T22:00Z",
+   "name": "Bellarmine Knights at Miami (OH) RedHawks",
+   "short_name": "BELL @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "91",
+    "key": null,
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": 73,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920739",
+   "date": "2026-11-08T19:00Z",
+   "name": "Campbell Fighting Camels at Western Michigan Broncos",
+   "short_name": "CAM @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2097",
+    "key": null,
+    "name": "Campbell Fighting Camels",
+    "abbr": "CAM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911009",
+   "date": "2026-11-09T23:30Z",
+   "name": "Penn State Schuylkill Nittany Lions at Buffalo Bulls",
+   "short_name": "PSUS @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "128344",
+    "key": null,
+    "name": "Penn State Schuylkill Nittany Lions",
+    "abbr": "PSUS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928833",
+   "date": "2026-11-10T00:00Z",
+   "name": "Muskingum Fighting Muskies at Akron Zips",
+   "short_name": "MSK @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "332",
+    "key": null,
+    "name": "Muskingum Fighting Muskies",
+    "abbr": "MSK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911008",
+   "date": "2026-11-10T00:00Z",
+   "name": "Brescia Bearcats at Ball State Cardinals",
+   "short_name": "BRES @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2855",
+    "key": null,
+    "name": "Brescia Bearcats",
+    "abbr": "BRES",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911010",
+   "date": "2026-11-10T00:00Z",
+   "name": "Cleveland State Vikings at Bowling Green Falcons",
+   "short_name": "CLE @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "325",
+    "key": null,
+    "name": "Cleveland State Vikings",
+    "abbr": "CLE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911011",
+   "date": "2026-11-11T00:00Z",
+   "name": "Youngstown State Penguins at Central Michigan Chippewas",
+   "short_name": "YSU @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2754",
+    "key": null,
+    "name": "Youngstown State Penguins",
+    "abbr": "YSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928828",
+   "date": "2026-11-11T00:00Z",
+   "name": "Wright State Raiders at Toledo Rockets",
+   "short_name": "WRST @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2750",
+    "key": null,
+    "name": "Wright State Raiders",
+    "abbr": "WRST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920946",
+   "date": "2026-11-11T23:30Z",
+   "name": "Great Lakes Christian Crusaders at Eastern Michigan Eagles",
+   "short_name": "GLCC @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "131625",
+    "key": null,
+    "name": "Great Lakes Christian Crusaders",
+    "abbr": "GLCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401926863",
+   "date": "2026-11-12T00:00Z",
+   "name": "Kent State Golden Flashes at UNC Wilmington Seahawks",
+   "short_name": "KENT @ UNCW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Trask Coliseum",
+   "venue_city": "Wilmington",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "350",
+    "key": null,
+    "name": "UNC Wilmington Seahawks",
+    "abbr": "UNCW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911012",
+   "date": "2026-11-12T00:00Z",
+   "name": "UMass Lowell River Hawks at Massachusetts Minutemen",
+   "short_name": "UML @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2349",
+    "key": null,
+    "name": "UMass Lowell River Hawks",
+    "abbr": "UML",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911013",
+   "date": "2026-11-13T00:00Z",
+   "name": "Niagara Purple Eagles at Bowling Green Falcons",
+   "short_name": "NIA @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "315",
+    "key": null,
+    "name": "Niagara Purple Eagles",
+    "abbr": "NIA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928818",
+   "date": "2026-11-13T00:00Z",
+   "name": "Western Michigan Broncos at Purdue Fort Wayne Mastodons",
+   "short_name": "WMU @ PFW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Memorial Coliseum (IN)",
+   "venue_city": "Fort Wayne",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2870",
+    "key": null,
+    "name": "Purdue Fort Wayne Mastodons",
+    "abbr": "PFW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401926133",
+   "date": "2026-11-14T00:00Z",
+   "name": "Ohio Bobcats at Purdue Boilermakers",
+   "short_name": "OHIO @ PUR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mackey Arena",
+   "venue_city": "West Lafayette",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2509",
+    "key": null,
+    "name": "Purdue Boilermakers",
+    "abbr": "PUR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911014",
+   "date": "2026-11-14T02:00Z",
+   "name": "Ball State Cardinals at SMU Mustangs",
+   "short_name": "BALL @ SMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Moody Coliseum (Dallas)",
+   "venue_city": "Dallas",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2567",
+    "key": null,
+    "name": "SMU Mustangs",
+    "abbr": "SMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401919004",
+   "date": "2026-11-14T17:00Z",
+   "name": "Tulane Green Wave at Akron Zips",
+   "short_name": "TULN @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2655",
+    "key": null,
+    "name": "Tulane Green Wave",
+    "abbr": "TULN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911015",
+   "date": "2026-11-14T19:00Z",
+   "name": "Miami (OH) RedHawks at Evansville Purple Aces",
+   "short_name": "M-OH @ EVAN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Ford Center",
+   "venue_city": "Evansville",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "339",
+    "key": null,
+    "name": "Evansville Purple Aces",
+    "abbr": "EVAN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911016",
+   "date": "2026-11-14T20:30Z",
+   "name": "Central Michigan Chippewas at Northern Kentucky Norse",
+   "short_name": "CMU @ NKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Truist Arena",
+   "venue_city": "Highland Heights",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "94",
+    "key": null,
+    "name": "Northern Kentucky Norse",
+    "abbr": "NKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928804",
+   "date": "2026-11-14T21:00Z",
+   "name": "Toledo Rockets at Detroit Mercy Titans",
+   "short_name": "TOL @ DETM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Calihan Hall",
+   "venue_city": "Detroit",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2174",
+    "key": null,
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401923393",
+   "date": "2026-11-15T21:30Z",
+   "name": "Western Michigan Broncos at Southern Indiana Screaming Eagles",
+   "short_name": "WMU @ USI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Liberty Arena (IN)",
+   "venue_city": "Evansville",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "88",
+    "key": null,
+    "name": "Southern Indiana Screaming Eagles",
+    "abbr": "USI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911017",
+   "date": "2026-11-15T22:30Z",
+   "name": "Canisius Golden Griffins at Buffalo Bulls",
+   "short_name": "CAN @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2099",
+    "key": null,
+    "name": "Canisius Golden Griffins",
+    "abbr": "CAN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928841",
+   "date": "2026-11-17T00:00Z",
+   "name": "Eastern Kentucky Colonels at Kent State Golden Flashes",
+   "short_name": "EKU @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401924941",
+   "date": "2026-11-18T00:00Z",
+   "name": "Akron Zips at Bucknell Bison",
+   "short_name": "AKR @ BUCK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Sojka Pavilion",
+   "venue_city": "Lewisburg",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "2083",
+    "key": null,
+    "name": "Bucknell Bison",
+    "abbr": "BUCK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401909697",
+   "date": "2026-11-18T00:00Z",
+   "name": "Ball State Cardinals at Florida State Seminoles",
+   "short_name": "BALL @ FSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Tucker Center",
+   "venue_city": "Tallahassee",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "52",
+    "key": null,
+    "name": "Florida State Seminoles",
+    "abbr": "FSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911018",
+   "date": "2026-11-18T00:00Z",
+   "name": "Bowling Green Falcons at William & Mary Tribe",
+   "short_name": "BGSU @ W&M",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Kaplan Arena",
+   "venue_city": "Williamsburg",
+   "venue_state": "VA",
+   "home": {
+    "espn_id": "2729",
+    "key": null,
+    "name": "William & Mary Tribe",
+    "abbr": "W&M",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911019",
+   "date": "2026-11-18T00:00Z",
+   "name": "Central Michigan Chippewas at Dayton Flyers",
+   "short_name": "CMU @ DAY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "UD Arena",
+   "venue_city": "Dayton",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2168",
+    "key": null,
+    "name": "Dayton Flyers",
+    "abbr": "DAY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911020",
+   "date": "2026-11-18T00:30Z",
+   "name": "Bryant Bulldogs at Massachusetts Minutemen",
+   "short_name": "BRY @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2803",
+    "key": null,
+    "name": "Bryant Bulldogs",
+    "abbr": "BRY",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920947",
+   "date": "2026-11-18T23:30Z",
+   "name": "Detroit Mercy Titans at Eastern Michigan Eagles",
+   "short_name": "DETM @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2174",
+    "key": null,
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928843",
+   "date": "2026-11-19T00:00Z",
+   "name": "Defiance Yellow Jackets at Miami (OH) RedHawks",
+   "short_name": "DFC @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "190",
+    "key": null,
+    "name": "Defiance Yellow Jackets",
+    "abbr": "DFC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920963",
+   "date": "2026-11-19T00:00Z",
+   "name": "Morehead State Eagles at Ohio Bobcats",
+   "short_name": "MORE @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2413",
+    "key": null,
+    "name": "Morehead State Eagles",
+    "abbr": "MORE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911021",
+   "date": "2026-11-20T00:00Z",
+   "name": "Buffalo Bulls at St. Bonaventure Bonnies",
+   "short_name": "BUF @ SBU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Reilly Center",
+   "venue_city": "Saint Bonaventure",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "179",
+    "key": null,
+    "name": "St. Bonaventure Bonnies",
+    "abbr": "SBU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928826",
+   "date": "2026-11-20T00:00Z",
+   "name": "Robert Morris Colonials at Toledo Rockets",
+   "short_name": "RMU @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2523",
+    "key": null,
+    "name": "Robert Morris Colonials",
+    "abbr": "RMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928834",
+   "date": "2026-11-20T23:00Z",
+   "name": "WVU Tech Golden Bears at Akron Zips",
+   "short_name": "WVUT @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2706",
+    "key": null,
+    "name": "WVU Tech Golden Bears",
+    "abbr": "WVUT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401909709",
+   "date": "2026-11-21T00:00Z",
+   "name": "Central Michigan Chippewas at Pittsburgh Panthers",
+   "short_name": "CMU @ PITT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Petersen Events Center",
+   "venue_city": "Pittsburgh",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "221",
+    "key": null,
+    "name": "Pittsburgh Panthers",
+    "abbr": "PITT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920922",
+   "date": "2026-11-21T00:00Z",
+   "name": "Western Michigan Broncos at Mount St. Mary's Mountaineers",
+   "short_name": "WMU @ MSM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Knott Arena",
+   "venue_city": "Emmitsburg",
+   "venue_state": "MD",
+   "home": {
+    "espn_id": "116",
+    "key": null,
+    "name": "Mount St. Mary's Mountaineers",
+    "abbr": "MSM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920948",
+   "date": "2026-11-21T18:00Z",
+   "name": "Denver Pioneers at Eastern Michigan Eagles",
+   "short_name": "DEN @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2172",
+    "key": null,
+    "name": "Denver Pioneers",
+    "abbr": "DEN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921169",
+   "date": "2026-11-21T18:00Z",
+   "name": "Kent State Golden Flashes at Cleveland State Vikings",
+   "short_name": "KENT @ CLE",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Wolstein Center",
+   "venue_city": "Cleveland",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "325",
+    "key": null,
+    "name": "Cleveland State Vikings",
+    "abbr": "CLE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911022",
+   "date": "2026-11-21T19:00Z",
+   "name": "Northern Illinois Huskies at Bowling Green Falcons",
+   "short_name": "NIU @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2459",
+    "key": null,
+    "name": "Northern Illinois Huskies",
+    "abbr": "NIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911023",
+   "date": "2026-11-21T23:00Z",
+   "name": "Maine Black Bears at Massachusetts Minutemen",
+   "short_name": "ME @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "311",
+    "key": null,
+    "name": "Maine Black Bears",
+    "abbr": "ME",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911024",
+   "date": "2026-11-22T17:00Z",
+   "name": "Miami (OH) RedHawks at UIC Flames",
+   "short_name": "M-OH VS UIC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "The Reef",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "82",
+    "key": null,
+    "name": "UIC Flames",
+    "abbr": "UIC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928830",
+   "date": "2026-11-23T18:30Z",
+   "name": "Akron Zips at Wright State Raiders",
+   "short_name": "AKR VS WRST",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "State Farm Field House",
+   "venue_city": "Kissimmee",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2750",
+    "key": null,
+    "name": "Wright State Raiders",
+    "abbr": "WRST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911025",
+   "date": "2026-11-23T23:30Z",
+   "name": "RIT Tigers at Buffalo Bulls",
+   "short_name": "RIT @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "178",
+    "key": null,
+    "name": "RIT Tigers",
+    "abbr": "RIT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928838",
+   "date": "2026-11-24T00:00Z",
+   "name": "Spalding Pelicans at Ball State Cardinals",
+   "short_name": "SPLD @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2589",
+    "key": null,
+    "name": "Spalding Pelicans",
+    "abbr": "SPLD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928791",
+   "date": "2026-11-24T16:00Z",
+   "name": "Ohio Bobcats at New Mexico State Aggies",
+   "short_name": "OHIO VS NMSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "The Reef",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "166",
+    "key": null,
+    "name": "New Mexico State Aggies",
+    "abbr": "NMSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928835",
+   "date": "2026-11-24T17:30Z",
+   "name": "Belmont Bruins at Akron Zips",
+   "short_name": "BEL VS AKR",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "State Farm Field House",
+   "venue_city": "Kissimmee",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2057",
+    "key": null,
+    "name": "Belmont Bruins",
+    "abbr": "BEL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921707",
+   "date": "2026-11-24T22:30Z",
+   "name": "Wyoming Cowboys at Kent State Golden Flashes",
+   "short_name": "WYO VS KENT",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "Ocean Center",
+   "venue_city": "Daytona Beach",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2751",
+    "key": null,
+    "name": "Wyoming Cowboys",
+    "abbr": "WYO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920949",
+   "date": "2026-11-24T23:00Z",
+   "name": "Eastern Michigan Eagles at Kennesaw State Owls",
+   "short_name": "EMU VS KENN",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "338",
+    "key": null,
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911027",
+   "date": "2026-11-25T00:00Z",
+   "name": "Gardner-Webb Runnin' Bulldogs at Bowling Green Falcons",
+   "short_name": "GWEB @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2241",
+    "key": null,
+    "name": "Gardner-Webb Runnin' Bulldogs",
+    "abbr": "GWEB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911026",
+   "date": "2026-11-25T01:00Z",
+   "name": "Central Michigan Chippewas at Notre Dame Fighting Irish",
+   "short_name": "CMU @ ND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Purcell Pavilion",
+   "venue_city": "South Bend",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "87",
+    "key": null,
+    "name": "Notre Dame Fighting Irish",
+    "abbr": "ND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928845",
+   "date": "2026-11-25T16:00Z",
+   "name": "Rice Owls at Ohio Bobcats",
+   "short_name": "RICE VS OHIO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "The Reef",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "242",
+    "key": null,
+    "name": "Rice Owls",
+    "abbr": "RICE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911029",
+   "date": "2026-11-25T18:00Z",
+   "name": "Eastern Kentucky Colonels at Miami (OH) RedHawks",
+   "short_name": "EKU @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928850",
+   "date": "2026-11-25T19:00Z",
+   "name": "Grace Christian Tigers at Western Michigan Broncos",
+   "short_name": "GCRU @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "126822",
+    "key": null,
+    "name": "Grace Christian Tigers",
+    "abbr": "GCRU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928836",
+   "date": "2026-11-25T20:00Z",
+   "name": "Akron Zips at App State Mountaineers",
+   "short_name": "AKR VS APP",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "State Farm Field House",
+   "venue_city": "Kissimmee",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2026",
+    "key": null,
+    "name": "App State Mountaineers",
+    "abbr": "APP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911030",
+   "date": "2026-11-27T23:00Z",
+   "name": "Bowling Green Falcons at Indiana Hoosiers",
+   "short_name": "BGSU @ IU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Simon Skjodt Assembly Hall",
+   "venue_city": "Bloomington",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "84",
+    "key": null,
+    "name": "Indiana Hoosiers",
+    "abbr": "IU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911031",
+   "date": "2026-11-28T19:00Z",
+   "name": "Ball State Cardinals at Southern Indiana Screaming Eagles",
+   "short_name": "BALL @ USI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Liberty Arena (IN)",
+   "venue_city": "Evansville",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "88",
+    "key": null,
+    "name": "Southern Indiana Screaming Eagles",
+    "abbr": "USI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928848",
+   "date": "2026-11-28T20:00Z",
+   "name": "Toledo Rockets at Valparaiso Beacons",
+   "short_name": "TOL @ VAL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Athletics-Recreation Center",
+   "venue_city": "Valparaiso",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2674",
+    "key": null,
+    "name": "Valparaiso Beacons",
+    "abbr": "VAL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911032",
+   "date": "2026-11-28T20:30Z",
+   "name": "Buffalo Bulls at Towson Tigers",
+   "short_name": "BUF VS TOW",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "The Palestra",
+   "venue_city": "Philadelphia",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "119",
+    "key": null,
+    "name": "Towson Tigers",
+    "abbr": "TOW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401927392",
+   "date": "2026-11-29T18:00Z",
+   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
+   "short_name": "LUC @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": null,
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928842",
+   "date": "2026-11-29T20:00Z",
+   "name": "Malone Pioneers at Kent State Golden Flashes",
+   "short_name": "MLN @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "556",
+    "key": null,
+    "name": "Malone Pioneers",
+    "abbr": "MLN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911037",
+   "date": "2026-12-02T23:30Z",
+   "name": "Massachusetts Minutemen at Eastern Michigan Eagles",
+   "short_name": "MASS @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911033",
+   "date": "2026-12-03T00:00Z",
+   "name": "Ball State Cardinals at Akron Zips",
+   "short_name": "BALL @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911035",
+   "date": "2026-12-03T00:00Z",
+   "name": "Bowling Green Falcons at Kent State Golden Flashes",
+   "short_name": "BGSU @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911036",
+   "date": "2026-12-03T00:00Z",
+   "name": "Buffalo Bulls at Western Michigan Broncos",
+   "short_name": "BUF @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911034",
+   "date": "2026-12-03T00:00Z",
+   "name": "Central Michigan Chippewas at Miami (OH) RedHawks",
+   "short_name": "CMU @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911038",
+   "date": "2026-12-03T00:00Z",
+   "name": "Toledo Rockets at Ohio Bobcats",
+   "short_name": "TOL @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911041",
+   "date": "2026-12-05T18:00Z",
+   "name": "Eastern Michigan Eagles at Ball State Cardinals",
+   "short_name": "EMU @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911040",
+   "date": "2026-12-05T19:00Z",
+   "name": "Western Michigan Broncos at Bowling Green Falcons",
+   "short_name": "WMU @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911042",
+   "date": "2026-12-05T19:00Z",
+   "name": "Miami (OH) RedHawks at Buffalo Bulls",
+   "short_name": "M-OH @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911039",
+   "date": "2026-12-05T19:00Z",
+   "name": "Kent State Golden Flashes at Toledo Rockets",
+   "short_name": "KENT @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911043",
+   "date": "2026-12-05T20:00Z",
+   "name": "Ohio Bobcats at Central Michigan Chippewas",
+   "short_name": "OHIO @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401909732",
+   "date": "2026-12-06T18:00Z",
+   "name": "Wake Forest Demon Deacons at Massachusetts Minutemen",
+   "short_name": "WAKE VS MASS",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "MassMutual Center",
+   "venue_city": "Springfield",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "154",
+    "key": null,
+    "name": "Wake Forest Demon Deacons",
+    "abbr": "WAKE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401927371",
+   "date": "2026-12-09T00:00Z",
+   "name": "Evansville Purple Aces at Ball State Cardinals",
+   "short_name": "EVAN @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "339",
+    "key": null,
+    "name": "Evansville Purple Aces",
+    "abbr": "EVAN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911047",
+   "date": "2026-12-10T00:00Z",
+   "name": "Kent State Golden Flashes at Central Michigan Chippewas",
+   "short_name": "KENT @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911045",
+   "date": "2026-12-10T00:00Z",
+   "name": "Eastern Michigan Eagles at Toledo Rockets",
+   "short_name": "EMU @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911044",
+   "date": "2026-12-10T00:00Z",
+   "name": "Western Michigan Broncos at Massachusetts Minutemen",
+   "short_name": "WMU @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911052",
+   "date": "2026-12-12T18:00Z",
+   "name": "Miami (OH) RedHawks at High Point Panthers",
+   "short_name": "M-OH VS HPU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "Novant Health Fieldhouse",
+   "venue_city": "Greensboro",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2272",
+    "key": null,
+    "name": "High Point Panthers",
+    "abbr": "HPU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911048",
+   "date": "2026-12-12T19:00Z",
+   "name": "Purdue Fort Wayne Mastodons at Buffalo Bulls",
+   "short_name": "PFW @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2870",
+    "key": null,
+    "name": "Purdue Fort Wayne Mastodons",
+    "abbr": "PFW",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911049",
+   "date": "2026-12-12T19:00Z",
+   "name": "Central Michigan Chippewas at Eastern Michigan Eagles",
+   "short_name": "CMU @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911050",
+   "date": "2026-12-12T19:00Z",
+   "name": "Toledo Rockets at Western Michigan Broncos",
+   "short_name": "TOL @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911051",
+   "date": "2026-12-13T00:00Z",
+   "name": "Massachusetts Minutemen at Kent State Golden Flashes",
+   "short_name": "MASS @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928837",
+   "date": "2026-12-13T19:00Z",
+   "name": "Frostburg State Bobcats at Akron Zips",
+   "short_name": "FSTU @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "341",
+    "key": null,
+    "name": "Frostburg State Bobcats",
+    "abbr": "FSTU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928846",
+   "date": "2026-12-13T21:00Z",
+   "name": "Kent State Tuscarawas Golden Eagles at Ohio Bobcats",
+   "short_name": "KSUT @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "134939",
+    "key": null,
+    "name": "Kent State Tuscarawas Golden Eagles",
+    "abbr": "KSUT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911053",
+   "date": "2026-12-16T23:30Z",
+   "name": "Akron Zips at Buffalo Bulls",
+   "short_name": "AKR @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911054",
+   "date": "2026-12-17T00:00Z",
+   "name": "Ohio Bobcats at Ball State Cardinals",
+   "short_name": "OHIO @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911055",
+   "date": "2026-12-17T00:00Z",
+   "name": "Miami (OH) RedHawks at Bowling Green Falcons",
+   "short_name": "M-OH @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928816",
+   "date": "2026-12-17T00:00Z",
+   "name": "Oakland Golden Grizzlies at Toledo Rockets",
+   "short_name": "OAK @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2473",
+    "key": null,
+    "name": "Oakland Golden Grizzlies",
+    "abbr": "OAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928851",
+   "date": "2026-12-19T00:00Z",
+   "name": "Great Lakes Christian Crusaders at Western Michigan Broncos",
+   "short_name": "GLCC @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "131625",
+    "key": null,
+    "name": "Great Lakes Christian Crusaders",
+    "abbr": "GLCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911058",
+   "date": "2026-12-19T18:00Z",
+   "name": "Ball State Cardinals at Miami (OH) RedHawks",
+   "short_name": "BALL @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911059",
+   "date": "2026-12-19T18:00Z",
+   "name": "Stonehill Skyhawks at Massachusetts Minutemen",
+   "short_name": "STO @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "284",
+    "key": null,
+    "name": "Stonehill Skyhawks",
+    "abbr": "STO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401918954",
+   "date": "2026-12-19T18:30Z",
+   "name": "Eastern Michigan Eagles at Louisville Cardinals",
+   "short_name": "EMU @ LOU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "KFC Yum! Center",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "97",
+    "key": null,
+    "name": "Louisville Cardinals",
+    "abbr": "LOU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911056",
+   "date": "2026-12-19T19:00Z",
+   "name": "Bowling Green Falcons at Akron Zips",
+   "short_name": "BGSU @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911057",
+   "date": "2026-12-19T19:00Z",
+   "name": "Buffalo Bulls at Ohio Bobcats",
+   "short_name": "BUF @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401929397",
+   "date": "2026-12-21T00:00Z",
+   "name": "Omaha Mavericks at Kent State Golden Flashes",
+   "short_name": "OMA VS KENT",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "venue": "Don Haskins Center",
+   "venue_city": "El Paso",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": null,
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911060",
+   "date": "2026-12-21T16:00Z",
+   "name": "UMass Boston Beacons at Massachusetts Minutemen",
+   "short_name": "MBOS @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2660",
+    "key": null,
+    "name": "UMass Boston Beacons",
+    "abbr": "MBOS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920950",
+   "date": "2026-12-21T23:30Z",
+   "name": "Grace Christian Tigers at Eastern Michigan Eagles",
+   "short_name": "GCRU @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "126822",
+    "key": null,
+    "name": "Grace Christian Tigers",
+    "abbr": "GCRU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911061",
+   "date": "2026-12-22T19:00Z",
+   "name": "Cornerstone CORNERSTNE at Bowling Green Falcons",
+   "short_name": "CRST @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "508",
+    "key": null,
+    "name": "Cornerstone CORNERSTNE",
+    "abbr": "CRST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911062",
+   "date": "2026-12-22T23:00Z",
+   "name": "Buffalo Bulls at Rhode Island Rams",
+   "short_name": "BUF @ URI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Thomas M. Ryan Center",
+   "venue_city": "Kingston",
+   "venue_state": "RI",
+   "home": {
+    "espn_id": "227",
+    "key": null,
+    "name": "Rhode Island Rams",
+    "abbr": "URI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911063",
+   "date": "2026-12-23T00:00Z",
+   "name": "Central Michigan Chippewas at Arkansas Razorbacks",
+   "short_name": "CMU @ ARK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Bud Walton Arena",
+   "venue_city": "Fayetteville",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "8",
+    "key": null,
+    "name": "Arkansas Razorbacks",
+    "abbr": "ARK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911064",
+   "date": "2026-12-23T00:00Z",
+   "name": "Wright State Raiders at Miami (OH) RedHawks",
+   "short_name": "WRST @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2750",
+    "key": null,
+    "name": "Wright State Raiders",
+    "abbr": "WRST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401926775",
+   "date": "2026-12-23T03:00Z",
+   "name": "Western Michigan Broncos at USC Trojans",
+   "short_name": "WMU @ USC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Galen Center",
+   "venue_city": "Los Angeles",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "30",
+    "key": null,
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928827",
+   "date": "2026-12-23T19:00Z",
+   "name": "Ohio Bobcats at Robert Morris Colonials",
+   "short_name": "OHIO @ RMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "UPMC Events Center",
+   "venue_city": "Moon Township",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "2523",
+    "key": null,
+    "name": "Robert Morris Colonials",
+    "abbr": "RMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911068",
+   "date": "2026-12-29T20:00Z",
+   "name": "Michigan Dearborn Wolves at Central Michigan Chippewas",
+   "short_name": "UMDB @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2391",
+    "key": null,
+    "name": "Michigan Dearborn Wolves",
+    "abbr": "UMDB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928847",
+   "date": "2026-12-29T20:00Z",
+   "name": "Bryant & Stratton (OH) Bobcats at Ohio Bobcats",
+   "short_name": "B&SO @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "131761",
+    "key": null,
+    "name": "Bryant & Stratton (OH) Bobcats",
+    "abbr": "B&SO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911065",
+   "date": "2026-12-29T23:00Z",
+   "name": "Aquinas Saints at Bowling Green Falcons",
+   "short_name": "AQUI @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "486",
+    "key": null,
+    "name": "Aquinas Saints",
+    "abbr": "AQUI",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911067",
+   "date": "2026-12-30T00:00Z",
+   "name": "Akron Zips at Massachusetts Minutemen",
+   "short_name": "AKR @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911066",
+   "date": "2026-12-30T00:00Z",
+   "name": "East West Phantoms at Ball State Cardinals",
+   "short_name": "EAWE @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3107",
+    "key": null,
+    "name": "East West Phantoms",
+    "abbr": "EAWE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401928844",
+   "date": "2026-12-30T00:00Z",
+   "name": "Union Commonwealth (KY) Bulldogs at Miami (OH) RedHawks",
+   "short_name": "UNKY @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2841",
+    "key": null,
+    "name": "Union Commonwealth (KY) Bulldogs",
+    "abbr": "UNKY",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401925736",
+   "date": "2026-12-30T17:00Z",
+   "name": "Toledo Rockets at Michigan Wolverines",
+   "short_name": "TOL @ MICH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "venue": "Crisler Center",
+   "venue_city": "Ann Arbor",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "130",
+    "key": null,
+    "name": "Michigan Wolverines",
+    "abbr": "MICH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911072",
+   "date": "2027-01-02T19:00Z",
+   "name": "Western Michigan Broncos at Akron Zips",
+   "short_name": "WMU @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911069",
+   "date": "2027-01-02T19:00Z",
+   "name": "Ball State Cardinals at Massachusetts Minutemen",
+   "short_name": "BALL @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911073",
+   "date": "2027-01-02T19:00Z",
+   "name": "Ohio Bobcats at Bowling Green Falcons",
+   "short_name": "OHIO @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911070",
+   "date": "2027-01-02T19:00Z",
+   "name": "Buffalo Bulls at Kent State Golden Flashes",
+   "short_name": "BUF @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911071",
+   "date": "2027-01-02T19:00Z",
+   "name": "Eastern Michigan Eagles at Miami (OH) RedHawks",
+   "short_name": "EMU @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911074",
+   "date": "2027-01-02T20:00Z",
+   "name": "Toledo Rockets at Central Michigan Chippewas",
+   "short_name": "TOL @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911076",
+   "date": "2027-01-05T23:30Z",
+   "name": "Massachusetts Minutemen at Buffalo Bulls",
+   "short_name": "MASS @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911075",
+   "date": "2027-01-06T00:00Z",
+   "name": "Akron Zips at Ohio Bobcats",
+   "short_name": "AKR @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911077",
+   "date": "2027-01-06T00:00Z",
+   "name": "Kent State Golden Flashes at Ball State Cardinals",
+   "short_name": "KENT @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911080",
+   "date": "2027-01-06T00:00Z",
+   "name": "Bowling Green Falcons at Central Michigan Chippewas",
+   "short_name": "BGSU @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911079",
+   "date": "2027-01-06T00:00Z",
+   "name": "Eastern Michigan Eagles at Western Michigan Broncos",
+   "short_name": "EMU @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911078",
+   "date": "2027-01-06T00:00Z",
+   "name": "Miami (OH) RedHawks at Toledo Rockets",
+   "short_name": "M-OH @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911081",
+   "date": "2027-01-09T00:00Z",
+   "name": "Miami (OH) RedHawks at Akron Zips",
+   "short_name": "M-OH @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911085",
+   "date": "2027-01-09T00:00Z",
+   "name": "Buffalo Bulls at Toledo Rockets",
+   "short_name": "BUF @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911082",
+   "date": "2027-01-09T18:30Z",
+   "name": "Central Michigan Chippewas at Ball State Cardinals",
+   "short_name": "CMU @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911083",
+   "date": "2027-01-09T19:00Z",
+   "name": "Kent State Golden Flashes at Western Michigan Broncos",
+   "short_name": "KENT @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911086",
+   "date": "2027-01-09T19:00Z",
+   "name": "Massachusetts Minutemen at Ohio Bobcats",
+   "short_name": "MASS @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911084",
+   "date": "2027-01-09T20:30Z",
+   "name": "Bowling Green Falcons at Eastern Michigan Eagles",
+   "short_name": "BGSU @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911090",
+   "date": "2027-01-12T23:30Z",
+   "name": "Akron Zips at Eastern Michigan Eagles",
+   "short_name": "AKR @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911091",
+   "date": "2027-01-13T00:00Z",
+   "name": "Ball State Cardinals at Bowling Green Falcons",
+   "short_name": "BALL @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911092",
+   "date": "2027-01-13T00:00Z",
+   "name": "Buffalo Bulls at Central Michigan Chippewas",
+   "short_name": "BUF @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911089",
+   "date": "2027-01-13T00:00Z",
+   "name": "Ohio Bobcats at Kent State Golden Flashes",
+   "short_name": "OHIO @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911088",
+   "date": "2027-01-13T00:00Z",
+   "name": "Western Michigan Broncos at Miami (OH) RedHawks",
+   "short_name": "WMU @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911087",
+   "date": "2027-01-13T00:00Z",
+   "name": "Toledo Rockets at Massachusetts Minutemen",
+   "short_name": "TOL @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911095",
+   "date": "2027-01-16T01:00Z",
+   "name": "Akron Zips at Toledo Rockets",
+   "short_name": "AKR @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911098",
+   "date": "2027-01-16T19:00Z",
+   "name": "Eastern Michigan Eagles at Ohio Bobcats",
+   "short_name": "EMU @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911094",
+   "date": "2027-01-16T19:30Z",
+   "name": "Ball State Cardinals at Western Michigan Broncos",
+   "short_name": "BALL @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911093",
+   "date": "2027-01-16T19:30Z",
+   "name": "Bowling Green Falcons at Buffalo Bulls",
+   "short_name": "BGSU @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911097",
+   "date": "2027-01-16T20:30Z",
+   "name": "Central Michigan Chippewas at Massachusetts Minutemen",
+   "short_name": "CMU @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911096",
+   "date": "2027-01-16T23:00Z",
+   "name": "Miami (OH) RedHawks at Kent State Golden Flashes",
+   "short_name": "M-OH @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911101",
+   "date": "2027-01-19T23:30Z",
+   "name": "Kent State Golden Flashes at Eastern Michigan Eagles",
+   "short_name": "KENT @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911103",
+   "date": "2027-01-20T00:00Z",
+   "name": "Central Michigan Chippewas at Akron Zips",
+   "short_name": "CMU @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911102",
+   "date": "2027-01-20T00:00Z",
+   "name": "Toledo Rockets at Ball State Cardinals",
+   "short_name": "TOL @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911104",
+   "date": "2027-01-20T00:00Z",
+   "name": "Massachusetts Minutemen at Bowling Green Falcons",
+   "short_name": "MASS @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911100",
+   "date": "2027-01-20T00:00Z",
+   "name": "Buffalo Bulls at Miami (OH) RedHawks",
+   "short_name": "BUF @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911099",
+   "date": "2027-01-20T00:00Z",
+   "name": "Western Michigan Broncos at Ohio Bobcats",
+   "short_name": "WMU @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911106",
+   "date": "2027-01-23T00:00Z",
+   "name": "Kent State Golden Flashes at Bowling Green Falcons",
+   "short_name": "KENT @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911110",
+   "date": "2027-01-23T01:00Z",
+   "name": "Akron Zips at Miami (OH) RedHawks",
+   "short_name": "AKR @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911107",
+   "date": "2027-01-23T05:00Z",
+   "name": "Western Michigan Broncos at Central Michigan Chippewas",
+   "short_name": "WMU @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911109",
+   "date": "2027-01-23T17:00Z",
+   "name": "Ohio Bobcats at Massachusetts Minutemen",
+   "short_name": "OHIO @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911105",
+   "date": "2027-01-23T19:00Z",
+   "name": "Toledo Rockets at Buffalo Bulls",
+   "short_name": "TOL @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911108",
+   "date": "2027-01-23T20:30Z",
+   "name": "Ball State Cardinals at Eastern Michigan Eagles",
+   "short_name": "BALL @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911111",
+   "date": "2027-01-26T23:00Z",
+   "name": "Miami (OH) RedHawks at Massachusetts Minutemen",
+   "short_name": "M-OH @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911116",
+   "date": "2027-01-26T23:30Z",
+   "name": "Eastern Michigan Eagles at Buffalo Bulls",
+   "short_name": "EMU @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911115",
+   "date": "2027-01-27T00:00Z",
+   "name": "Ohio Bobcats at Akron Zips",
+   "short_name": "OHIO @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911113",
+   "date": "2027-01-27T00:00Z",
+   "name": "Ball State Cardinals at Kent State Golden Flashes",
+   "short_name": "BALL @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911114",
+   "date": "2027-01-27T00:00Z",
+   "name": "Bowling Green Falcons at Western Michigan Broncos",
+   "short_name": "BGSU @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911112",
+   "date": "2027-01-27T00:00Z",
+   "name": "Central Michigan Chippewas at Toledo Rockets",
+   "short_name": "CMU @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911122",
+   "date": "2027-01-30T00:00Z",
+   "name": "Miami (OH) RedHawks at Ohio Bobcats",
+   "short_name": "M-OH @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911117",
+   "date": "2027-01-30T18:00Z",
+   "name": "Buffalo Bulls at Ball State Cardinals",
+   "short_name": "BUF @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911118",
+   "date": "2027-01-30T19:00Z",
+   "name": "Massachusetts Minutemen at Akron Zips",
+   "short_name": "MASS @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911121",
+   "date": "2027-01-30T19:00Z",
+   "name": "Central Michigan Chippewas at Kent State Golden Flashes",
+   "short_name": "CMU @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911120",
+   "date": "2027-01-30T19:00Z",
+   "name": "Western Michigan Broncos at Eastern Michigan Eagles",
+   "short_name": "WMU @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911119",
+   "date": "2027-01-30T22:00Z",
+   "name": "Toledo Rockets at Bowling Green Falcons",
+   "short_name": "TOL @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911127",
+   "date": "2027-02-02T23:30Z",
+   "name": "Ohio Bobcats at Buffalo Bulls",
+   "short_name": "OHIO @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911124",
+   "date": "2027-02-02T23:30Z",
+   "name": "Toledo Rockets at Eastern Michigan Eagles",
+   "short_name": "TOL @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911125",
+   "date": "2027-02-03T00:00Z",
+   "name": "Akron Zips at Western Michigan Broncos",
+   "short_name": "AKR @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911126",
+   "date": "2027-02-03T00:00Z",
+   "name": "Bowling Green Falcons at Ball State Cardinals",
+   "short_name": "BGSU @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911128",
+   "date": "2027-02-03T00:00Z",
+   "name": "Massachusetts Minutemen at Central Michigan Chippewas",
+   "short_name": "MASS @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911123",
+   "date": "2027-02-03T00:00Z",
+   "name": "Kent State Golden Flashes at Miami (OH) RedHawks",
+   "short_name": "KENT @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911133",
+   "date": "2027-02-10T00:00Z",
+   "name": "Buffalo Bulls at Akron Zips",
+   "short_name": "BUF @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911131",
+   "date": "2027-02-10T00:00Z",
+   "name": "Ball State Cardinals at Toledo Rockets",
+   "short_name": "BALL @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911129",
+   "date": "2027-02-10T00:00Z",
+   "name": "Bowling Green Falcons at Miami (OH) RedHawks",
+   "short_name": "BGSU @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911134",
+   "date": "2027-02-10T00:00Z",
+   "name": "Eastern Michigan Eagles at Central Michigan Chippewas",
+   "short_name": "EMU @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911130",
+   "date": "2027-02-10T00:00Z",
+   "name": "Kent State Golden Flashes at Massachusetts Minutemen",
+   "short_name": "KENT @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911132",
+   "date": "2027-02-10T00:00Z",
+   "name": "Ohio Bobcats at Western Michigan Broncos",
+   "short_name": "OHIO @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911138",
+   "date": "2027-02-13T05:00Z",
+   "name": "Akron Zips at Kent State Golden Flashes",
+   "short_name": "AKR @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911139",
+   "date": "2027-02-13T17:30Z",
+   "name": "Eastern Michigan Eagles at Massachusetts Minutemen",
+   "short_name": "EMU @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911136",
+   "date": "2027-02-13T18:00Z",
+   "name": "Buffalo Bulls at Bowling Green Falcons",
+   "short_name": "BUF @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911135",
+   "date": "2027-02-13T18:30Z",
+   "name": "Miami (OH) RedHawks at Ball State Cardinals",
+   "short_name": "M-OH @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911140",
+   "date": "2027-02-13T19:00Z",
+   "name": "Central Michigan Chippewas at Ohio Bobcats",
+   "short_name": "CMU @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911137",
+   "date": "2027-02-13T19:00Z",
+   "name": "Western Michigan Broncos at Toledo Rockets",
+   "short_name": "WMU @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911146",
+   "date": "2027-02-16T23:30Z",
+   "name": "Central Michigan Chippewas at Buffalo Bulls",
+   "short_name": "CMU @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911143",
+   "date": "2027-02-16T23:30Z",
+   "name": "Ohio Bobcats at Eastern Michigan Eagles",
+   "short_name": "OHIO @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911144",
+   "date": "2027-02-17T00:00Z",
+   "name": "Akron Zips at Bowling Green Falcons",
+   "short_name": "AKR @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911145",
+   "date": "2027-02-17T00:00Z",
+   "name": "Massachusetts Minutemen at Ball State Cardinals",
+   "short_name": "MASS @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911142",
+   "date": "2027-02-17T00:00Z",
+   "name": "Western Michigan Broncos at Kent State Golden Flashes",
+   "short_name": "WMU @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911141",
+   "date": "2027-02-17T00:00Z",
+   "name": "Toledo Rockets at Miami (OH) RedHawks",
+   "short_name": "TOL @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911149",
+   "date": "2027-02-20T05:00Z",
+   "name": "Eastern Michigan Eagles at Akron Zips",
+   "short_name": "EMU @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911151",
+   "date": "2027-02-20T19:00Z",
+   "name": "Bowling Green Falcons at Toledo Rockets",
+   "short_name": "BGSU @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911150",
+   "date": "2027-02-20T19:30Z",
+   "name": "Massachusetts Minutemen at Western Michigan Broncos",
+   "short_name": "MASS @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911152",
+   "date": "2027-02-20T21:00Z",
+   "name": "Ball State Cardinals at Ohio Bobcats",
+   "short_name": "BALL @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911148",
+   "date": "2027-02-20T22:00Z",
+   "name": "Kent State Golden Flashes at Buffalo Bulls",
+   "short_name": "KENT @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911147",
+   "date": "2027-02-21T00:00Z",
+   "name": "Miami (OH) RedHawks at Central Michigan Chippewas",
+   "short_name": "M-OH @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911155",
+   "date": "2027-02-23T23:30Z",
+   "name": "Miami (OH) RedHawks at Eastern Michigan Eagles",
+   "short_name": "M-OH @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911156",
+   "date": "2027-02-24T00:00Z",
+   "name": "Toledo Rockets at Akron Zips",
+   "short_name": "TOL @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911157",
+   "date": "2027-02-24T00:00Z",
+   "name": "Western Michigan Broncos at Ball State Cardinals",
+   "short_name": "WMU @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911158",
+   "date": "2027-02-24T00:00Z",
+   "name": "Central Michigan Chippewas at Bowling Green Falcons",
+   "short_name": "CMU @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911154",
+   "date": "2027-02-24T00:00Z",
+   "name": "Buffalo Bulls at Massachusetts Minutemen",
+   "short_name": "BUF @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911153",
+   "date": "2027-02-24T00:00Z",
+   "name": "Kent State Golden Flashes at Ohio Bobcats",
+   "short_name": "KENT @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911163",
+   "date": "2027-02-27T18:00Z",
+   "name": "Toledo Rockets at Kent State Golden Flashes",
+   "short_name": "TOL @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911159",
+   "date": "2027-02-27T18:30Z",
+   "name": "Akron Zips at Ball State Cardinals",
+   "short_name": "AKR @ BALL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Worthen Arena",
+   "venue_city": "Muncie",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911161",
+   "date": "2027-02-27T20:30Z",
+   "name": "Buffalo Bulls at Eastern Michigan Eagles",
+   "short_name": "BUF @ EMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Gervin GameAbove Center",
+   "venue_city": "Ypsilanti",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911164",
+   "date": "2027-02-27T20:30Z",
+   "name": "Ohio Bobcats at Miami (OH) RedHawks",
+   "short_name": "OHIO @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911160",
+   "date": "2027-02-27T22:00Z",
+   "name": "Central Michigan Chippewas at Western Michigan Broncos",
+   "short_name": "CMU @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911162",
+   "date": "2027-02-27T23:00Z",
+   "name": "Bowling Green Falcons at Massachusetts Minutemen",
+   "short_name": "BGSU @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911169",
+   "date": "2027-03-02T23:30Z",
+   "name": "Ball State Cardinals at Buffalo Bulls",
+   "short_name": "BALL @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911170",
+   "date": "2027-03-03T00:00Z",
+   "name": "Akron Zips at Central Michigan Chippewas",
+   "short_name": "AKR @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911165",
+   "date": "2027-03-03T00:00Z",
+   "name": "Bowling Green Falcons at Ohio Bobcats",
+   "short_name": "BGSU @ OHIO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Convocation Center (OH)",
+   "venue_city": "Athens",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911166",
+   "date": "2027-03-03T00:00Z",
+   "name": "Eastern Michigan Eagles at Kent State Golden Flashes",
+   "short_name": "EMU @ KENT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "M.A.C. Center",
+   "venue_city": "Kent",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911168",
+   "date": "2027-03-03T00:00Z",
+   "name": "Miami (OH) RedHawks at Western Michigan Broncos",
+   "short_name": "M-OH @ WMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "University Arena (MI)",
+   "venue_city": "Kalamazoo",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911167",
+   "date": "2027-03-03T00:00Z",
+   "name": "Massachusetts Minutemen at Toledo Rockets",
+   "short_name": "MASS @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911173",
+   "date": "2027-03-05T05:00Z",
+   "name": "Kent State Golden Flashes at Akron Zips",
+   "short_name": "KENT @ AKR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "James A. Rhodes Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2006",
+    "key": "akron",
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911171",
+   "date": "2027-03-05T23:30Z",
+   "name": "Western Michigan Broncos at Buffalo Bulls",
+   "short_name": "WMU @ BUF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Broadview Arena",
+   "venue_city": "Buffalo",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "2084",
+    "key": "buffalo",
+    "name": "Buffalo Bulls",
+    "abbr": "BUF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2711",
+    "key": "western-michigan",
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911176",
+   "date": "2027-03-06T00:00Z",
+   "name": "Ball State Cardinals at Central Michigan Chippewas",
+   "short_name": "BALL @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2050",
+    "key": "ball-state",
+    "name": "Ball State Cardinals",
+    "abbr": "BALL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911172",
+   "date": "2027-03-06T00:00Z",
+   "name": "Eastern Michigan Eagles at Bowling Green Falcons",
+   "short_name": "EMU @ BGSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Stroh Center",
+   "venue_city": "Bowling Green",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "189",
+    "key": "bowling-green",
+    "name": "Bowling Green Falcons",
+    "abbr": "BGSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911175",
+   "date": "2027-03-06T00:00Z",
+   "name": "Massachusetts Minutemen at Miami (OH) RedHawks",
+   "short_name": "MASS @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": "miami-oh",
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911174",
+   "date": "2027-03-06T00:00Z",
+   "name": "Ohio Bobcats at Toledo Rockets",
+   "short_name": "OHIO @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "195",
+    "key": "ohio",
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC {{ d.season }}</title>
+<meta name="description" content="MAC men's basketball: standings, upcoming games, line snapshots and movement.">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s7: #6250d6;
+    --good: #006300; --bad: #d03b3b; --neutral: #f0efec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s7: #9085e9;
+      --good: #0ca30c; --bad: #d03b3b; --neutral: #383835;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s7: #9085e9;
+    --good: #0ca30c; --bad: #d03b3b; --neutral: #383835;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 20px; }
+  h1 { font-size: 26px; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: 17px; margin: 0 0 10px; }
+  .sub { color: var(--ink-2); font-size: 13px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .tile .v { font-size: 26px; font-weight: 600; line-height: 1.1; }
+  .tile .k { color: var(--ink-2); font-size: 12px; margin-top: 4px; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 900px) { .grid.two { grid-template-columns: 3fr 2fr; } }
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; color: var(--muted); font-weight: 500; font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--axis); white-space: nowrap; }
+  td { padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr:last-child td { border-bottom: 0; }
+  .teams { line-height: 1.3; }
+  .teams b { font-weight: 600; }
+  .dim { color: var(--muted); }
+  .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 12px; border: 1px solid var(--border); color: var(--ink-2); }
+  .up { color: var(--good); } .down { color: var(--bad); }
+  .empty { color: var(--ink-2); padding: 12px 0; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  .chartwrap { position: relative; }
+  svg.line { width: 100%; height: 200px; display: block; }
+  .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 9px; font-size: 12px; color: var(--ink); box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: none; white-space: nowrap; }
+  select { font: inherit; background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
+  .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-2); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>MAC men's basketball {{ d.season }}</h1>
+    <span class="sub">Updated {{ d.generated_at[:16].replace("T", " ") }} UTC. Lines are the sharp number when Pinnacle is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+  </header>
+
+  <div class="tiles">
+    <div class="tile"><div class="v">{{ d.counts.completed }}<span class="dim">/{{ d.counts.games }}</span></div><div class="k">games played</div></div>
+    <div class="tile"><div class="v">{{ d.counts.events_with_lines }}</div><div class="k">games with line history</div></div>
+    <div class="tile"><div class="v">{{ d.counts.snapshots }}</div><div class="k">line snapshots captured</div></div>
+    <div class="tile"><div class="v">{{ d.posting.median_lead_hours if d.posting.median_lead_hours is not none else "–" }}</div><div class="k">median hours before tip we first saw a line</div></div>
+  </div>
+
+  <div class="grid two">
+    <section>
+      <h2>Upcoming (next 8 days)</h2>
+      {% if d.upcoming %}
+      <div class="scroll"><table>
+        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th></tr>
+        {% for g in d.upcoming %}
+        <tr>
+          <td class="dim">{{ g.date[5:16].replace("T", " ") }}</td>
+          <td class="teams">{{ g.away.name }}<br><b>at {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</td>
+          {% if g.line %}
+          <td class="num">{{ "%+.1f"|format(g.line.latest.spread) if g.line.latest.spread is not none else "–" }}</td>
+          <td class="num">{{ g.line.latest.total if g.line.latest.total is not none else "–" }}</td>
+          <td class="num">{% if g.line.spread_move %}<span class="{{ 'down' if g.line.spread_move < 0 else 'up' }}">{{ "%+.1f"|format(g.line.spread_move) }}</span>{% else %}<span class="dim">0</span>{% endif %}</td>
+          <td class="num">{{ g.line.latest.books }}</td>
+          {% else %}
+          <td class="num dim" colspan="4">no line yet</td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </table></div>
+      {% else %}<div class="empty">No games in the window.</div>{% endif %}
+    </section>
+
+    <section>
+      <h2>Standings</h2>
+      <table>
+        <tr><th>Team</th><th class="num">MAC</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Streak</th></tr>
+        {% for r in d.standings %}
+        <tr><td>{{ r.team }}</td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
+        {% endfor %}
+      </table>
+      <div class="note">Sorted by conference record, then overall, then average margin.</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Line movement</h2>
+    {% if d.history %}
+    <div class="row">
+      <select id="gamepick" aria-label="Choose a game"></select>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Spread (home)</span><span><i style="background:var(--s2)"></i>Total</span></div>
+    </div>
+    <div class="grid two">
+      <div class="chartwrap"><svg class="line" id="spreadChart" role="img" aria-label="Spread over time"></svg><div class="tip" id="tip1"></div></div>
+      <div class="chartwrap"><svg class="line" id="totalChart" role="img" aria-label="Total over time"></svg><div class="tip" id="tip2"></div></div>
+    </div>
+    <div class="scroll"><table id="bookTable"></table></div>
+    <div class="note">{{ d.posting.note }}</div>
+    {% else %}
+    <div class="empty">No line snapshots yet. The collector appends one each run once <code>ODDS_API_KEY</code> is set.</div>
+    {% endif %}
+  </section>
+
+  <section>
+    <h2>Recent results (7 days)</h2>
+    {% if d.recent %}
+    <div class="scroll"><table>
+      <tr><th>Date</th><th>Game</th><th class="num">Score</th><th class="num">Close</th><th>ATS</th></tr>
+      {% for g in d.recent %}
+      <tr>
+        <td class="dim">{{ g.date[5:10] }}</td>
+        <td class="teams">{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
+        <td class="num">{{ g.away.score }}-{{ g.home.score }}</td>
+        <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
+        <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
+  </section>
+</main>
+
+<script id="data" type="application/json">{{ data_json|safe }}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const hist = D.history.slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
+  if (!hist.length) return;
+  const pick = document.getElementById('gamepick');
+  hist.forEach((h, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = `${h.commence_time.slice(5, 16).replace('T', ' ')}  ${h.away_team} at ${h.home_team}`;
+    pick.appendChild(o);
+  });
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+  function draw(svg, tipEl, pts, color, fmt) {
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const W = svg.clientWidth || 500, H = 200, m = { l: 44, r: 12, t: 12, b: 26 };
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const xs = pts.map(p => new Date(p.t).getTime()), ys = pts.map(p => p.v);
+    if (!ys.length) return;
+    const x0 = Math.min(...xs), x1 = Math.max(...xs) || x0 + 1;
+    let lo = Math.min(...ys), hi = Math.max(...ys); if (hi - lo < 2) { lo -= 1; hi += 1; }
+    const X = t => m.l + (x1 === x0 ? 0.5 : (t - x0) / (x1 - x0)) * (W - m.l - m.r);
+    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+    const ns = 'http://www.w3.org/2000/svg';
+    const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+    for (let i = 0; i <= 3; i++) {
+      const v = lo + (hi - lo) * i / 3, y = Y(v);
+      svg.appendChild(el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css('--grid'), 'stroke-width': 1 }));
+      const t = el('text', { x: m.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }); t.textContent = fmt(v); svg.appendChild(t);
+    }
+    [x0, x1].forEach((t, i) => {
+      const tx = el('text', { x: X(t), y: H - 8, 'text-anchor': i ? 'end' : 'start', 'font-size': 11, fill: css('--muted') });
+      tx.textContent = new Date(t).toISOString().slice(5, 16).replace('T', ' '); svg.appendChild(tx);
+    });
+    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(xs[i]).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
+    svg.appendChild(el('path', { d, fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
+    pts.forEach((p, i) => svg.appendChild(el('circle', { cx: X(xs[i]), cy: Y(p.v), r: 4, fill: color, stroke: css('--surface'), 'stroke-width': 2 })));
+    const cross = el('line', { y1: m.t, y2: H - m.b, stroke: css('--axis'), 'stroke-width': 1, visibility: 'hidden' }); svg.appendChild(cross);
+    svg.onmousemove = (ev) => {
+      const r = svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * (W / r.width);
+      let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - mx) < Math.abs(X(xs[best]) - mx)) best = i;
+      cross.setAttribute('x1', X(xs[best])); cross.setAttribute('x2', X(xs[best])); cross.setAttribute('visibility', 'visible');
+      tipEl.style.display = 'block'; tipEl.style.left = Math.min(X(xs[best]) * (r.width / W) + 10, r.width - 160) + 'px'; tipEl.style.top = (Y(ys[best]) * (r.height / H) - 36) + 'px';
+      tipEl.textContent = `${pts[best].t.slice(5, 16).replace('T', ' ')} UTC  ${fmt(ys[best])}  (${pts[best].books} books)`;
+    };
+    svg.onmouseleave = () => { cross.setAttribute('visibility', 'hidden'); tipEl.style.display = 'none'; };
+  }
+
+  function render() {
+    const h = hist[+pick.value];
+    const sp = h.snapshots.filter(s => s.spread != null).map(s => ({ t: s.captured_at, v: s.spread, books: s.books }));
+    const to = h.snapshots.filter(s => s.total != null).map(s => ({ t: s.captured_at, v: s.total, books: s.books }));
+    draw(document.getElementById('spreadChart'), document.getElementById('tip1'), sp, css('--s1'), v => (v > 0 ? '+' : '') + v.toFixed(1));
+    draw(document.getElementById('totalChart'), document.getElementById('tip2'), to, css('--s2'), v => v.toFixed(1));
+    const tb = document.getElementById('bookTable');
+    const books = Object.entries(h.latest_by_book).sort();
+    tb.innerHTML = '<tr><th>Book (latest)</th><th class="num">Spread</th><th class="num">Price</th><th class="num">Total</th><th class="num">Price</th><th class="num">ML home</th><th class="num">ML away</th></tr>' +
+      books.map(([k, b]) => `<tr><td>${k}</td><td class="num">${b.spread == null ? '–' : (b.spread > 0 ? '+' : '') + b.spread}</td><td class="num">${b.spread_price ?? '–'}</td><td class="num">${b.total ?? '–'}</td><td class="num">${b.total_price ?? '–'}</td><td class="num">${b.ml_home ?? '–'}</td><td class="num">${b.ml_away ?? '–'}</td></tr>`).join('');
+  }
+  pick.onchange = render;
+  // Default to the next game to tip.
+  const now = Date.now(); let idx = hist.findIndex(h => new Date(h.commence_time).getTime() > now); pick.value = idx < 0 ? hist.length - 1 : idx;
+  render();
+  window.addEventListener('resize', render);
+})();
+</script>
+</body>
+</html>
