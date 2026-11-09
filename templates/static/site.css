@@ -938,3 +938,5 @@ html.lg-steel .bd-scrim { background: rgba(244,241,238,.86); }
 @media (prefers-color-scheme: dark) { html.lg-steel:not([data-theme="light"]) .bd-scrim { background: rgba(14,16,19,.74); } }
 html.lg-steel[data-theme="dark"] .bd-scrim { background: rgba(14,16,19,.74); }
 html.lg-steel .sitefoot { color: #e2d6cc; }
+html.author .tb-list a.tb-desk { display: block !important; border-top: 1px solid var(--grid); margin-top: 4px; }
+.sitefoot .sf-desk { opacity: .75; }
