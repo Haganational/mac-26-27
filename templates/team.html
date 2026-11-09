@@ -41,7 +41,7 @@
     <section>
       <h2>Rotation</h2>
       <div class="scroll"><table class="players">
-        <tr><th>#</th><th>Player</th><th>Pos</th><th>Cl</th><th>Ht</th><th class="num">GP/GS</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">REB</th><th class="num">AST</th><th class="num">eFG%</th><th class="num">TS%</th></tr>
+        <tr><th>#</th><th>Player</th><th>Pos</th><th>Cl</th><th>Ht</th><th class="num">GP/GS</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">REB</th><th class="num">AST</th><th class="num">eFG%</th><th class="num">TS%</th><th class="num" title="Box-score player rating: points per 100 possessions better than an average D-I player (offense / defense in the tooltip). See the Players page.">Rating</th></tr>
         {% for p in profiles %}
         <tr>
           <td class="dim">{{ p.jersey or "" }}</td>
@@ -54,6 +54,7 @@
           <td class="num">{{ p.season.per_game.ast if p.season.per_game.ast is not none else "–" }}</td>
           <td class="num">{{ p.season.efg_pct if p.season.efg_pct is not none else "–" }}</td>
           <td class="num">{{ p.season.ts_pct if p.season.ts_pct is not none else "–" }}</td>
+          <td class="num">{% set pr = prate.get(p.espn_id) %}{% if pr %}<a href="../players.html#p{{ p.espn_id }}" title="Offense {{ '%+.1f'|format(pr.off) }}, defense {{ '%+.1f'|format(pr.def) }}; {{ pr.poss }} possessions{% if pr.prior_share > 0.5 %}; mostly prior so far{% endif %}"><b class="{{ 'up' if pr.net > 0 else 'down' }}">{{ "%+.1f"|format(pr.net) }}</b></a>{% else %}<span class="dim">–</span>{% endif %}</td>
         </tr>
         {% endfor %}
       </table></div>
