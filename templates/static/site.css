@@ -200,6 +200,35 @@ table.odds td.bk { white-space: nowrap; font-weight: 500; }
 table.odds tr.sharp td.bk { font-weight: 700; }
 table.odds tr.sumrow td { border-top: 2px solid var(--axis); font-size: 13px; background: var(--neutral); }
 table.odds tr.sumrow + tr.sumrow td { border-top: 0; }
+/* Odds screen colour: each market gets its own band, best prices are green with a star,
+   suspect (stale or in-play) prices are struck out, hold runs green to red. */
+table.odds { --mk-spread: var(--s1); --mk-total: var(--s2); --mk-ml: var(--s7); border-collapse: separate; border-spacing: 0; }
+table.odds tr.mkh th span { display: block; color: #fff; padding: 4px 6px; border-radius: 8px 8px 0 0; font-weight: 700; }
+table.odds tr.mkh th.mk-spread span { background: var(--mk-spread); }
+table.odds tr.mkh th.mk-total span { background: var(--mk-total); }
+table.odds tr.mkh th.mk-ml span { background: var(--mk-ml); }
+table.odds tr.colh th.mk-spread { color: var(--mk-spread); } table.odds tr.colh th.mk-total { color: var(--mk-total); } table.odds tr.colh th.mk-ml { color: var(--mk-ml); }
+table.odds tr.colh th[class*="mk-"] { border-bottom: 3px solid currentColor; font-weight: 700; }
+table.odds td.mk-spread { background: color-mix(in srgb, var(--mk-spread) 5%, transparent); }
+table.odds td.mk-total { background: color-mix(in srgb, var(--mk-total) 5%, transparent); }
+table.odds td.mk-ml { background: color-mix(in srgb, var(--mk-ml) 5%, transparent); }
+table.odds .g0 { border-left: 2px solid var(--surface); }
+table.odds tr.mkh th.g0 { border-left: 0; padding-left: 4px; }
+table.odds td.q.best { background: color-mix(in srgb, var(--good) 18%, var(--surface)); }
+table.odds .star { color: var(--gold, #f0c75e); font-size: 11px; margin-right: 3px; vertical-align: 1px; text-shadow: 0 0 1px rgba(0,0,0,.35); }
+table.odds td.suspect { background: repeating-linear-gradient(135deg, transparent 0 6px, color-mix(in srgb, var(--muted) 12%, transparent) 6px 7px); }
+table.odds td.suspect .pt, table.odds td.suspect .pr { color: var(--muted); text-decoration: line-through; font-weight: 400; }
+table.odds td.suspect small.op { font-style: italic; }
+table.odds .bdot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; vertical-align: 1px; box-shadow: 0 0 0 2px color-mix(in srgb, var(--surface) 70%, transparent); }
+table.odds tr:not(.sumrow):not(.mkh):not(.colh):hover td { filter: brightness(1.06); }
+table.odds .hv { font-weight: 600; padding: 1px 5px; border-radius: 5px; font-size: 12px; }
+table.odds .hv.lo { color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); }
+table.odds .hv.mid { color: var(--ink-2); }
+table.odds .hv.hi { color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, transparent); }
+table.odds tr.bestrow td { background: color-mix(in srgb, var(--good) 14%, var(--neutral)); }
+table.odds tr.bestrow td b { color: var(--good); }
+table.odds .pill.stale { color: var(--muted); border-style: dashed; font-size: 10px; }
+table.odds tr.bestrow td:first-child { font-weight: 700; box-shadow: inset 4px 0 0 var(--good); }
 table.odds td.hold span + span::before { content: ""; }
 .offk { color: var(--ink); font-weight: 700; background: color-mix(in srgb, var(--warn) 35%, transparent); padding: 0 4px; border-radius: 4px; }
 b.edge { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); padding: 0 5px; border-radius: 4px; }
@@ -207,7 +236,7 @@ b.edge { background: color-mix(in srgb, var(--good) 18%, transparent); color: va
 :root[data-mk="spread"] .mk-total, :root[data-mk="spread"] .mk-ml,
 :root[data-mk="total"] .mk-spread, :root[data-mk="total"] .mk-ml,
 :root[data-mk="ml"] .mk-spread, :root[data-mk="ml"] .mk-total { display: none; }
-:root[data-mk="all"] td.hold span:not(.mk-spread), :root[data-mk="all"] td.offc > span:not(.mk-spread) { display: none; }
+:root[data-mk="all"] td.hold > span:not(.mk-spread), :root[data-mk="all"] td.offc > span:not(.mk-spread):not(.stale) { display: none; }
 table.nowrap td { white-space: nowrap; }
 .sparks > span { display: flex; flex-direction: column; }
 :root[data-mk="spread"] table.odds, :root[data-mk="total"] table.odds, :root[data-mk="ml"] table.odds { min-width: 0; }

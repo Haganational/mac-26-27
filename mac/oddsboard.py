@@ -45,6 +45,15 @@ BOOK_NAMES = {
 OFF_MARKET = {"spread": 1.0, "total": 1.5}
 
 
+# A quote is left out of "best available" and the market number when it can't be a real
+# pre-game bet: juice past these limits on a spread or total (an exchange's stale or
+# in-play leftovers, e.g. -1.5 at -1150 when every book has -12.5 at -110), a number too
+# far from the other books, or a moneyline far from the other books' win probability.
+SANE_PRICE = (-250, 250)
+SANE_POINTS = {"spread": 3.0, "total": 5.0}
+SANE_ML_PROB = 0.12
+
+
 # ---------------------------------------------------------------- price math
 
 
@@ -103,6 +112,41 @@ def book_quotes(rows: list[dict[str, Any]], home: str, away: str) -> dict[str, d
         elif r.get("point") is not None:
             b[side] = {"point": r["point"], "price": r["price"]}
     return dict(out)
+
+
+def _kind(side: str) -> str:
+    return "spread" if side.endswith("spread") else ("ml" if side.endswith("ml") else "total")
+
+
+def suspect_quotes(books: dict[str, dict[str, Any]]) -> dict[str, set[str]]:
+    """{book: {side, ...}} for quotes that don't look like a real pre-game price."""
+    out: dict[str, set[str]] = defaultdict(set)
+    for side in SIDES:
+        kind = _kind(side)
+        offers = {k: b[side] for k, b in books.items() if side in b}
+        if kind == "ml":
+            probs = {k: implied_prob(q["price"]) for k, q in offers.items()}
+            if len(probs) >= 3:
+                mid = median(probs.values())
+                for k, pr in probs.items():
+                    if abs(pr - mid) > SANE_ML_PROB:
+                        out[k].add(side)
+            continue
+        for k, q in offers.items():
+            if not SANE_PRICE[0] <= q["price"] <= SANE_PRICE[1] or -100 < q["price"] < 100:
+                out[k].add(side)
+        pts = [q["point"] for k, q in offers.items() if side not in out[k]]
+        if len(pts) >= 3:
+            mid = median(pts)
+            for k, q in offers.items():
+                if abs(q["point"] - mid) > SANE_POINTS[kind]:
+                    out[k].add(side)
+    return {k: v for k, v in out.items() if v}
+
+
+def drop_quotes(books: dict[str, dict[str, Any]], bad: dict[str, set[str]]) -> dict[str, dict[str, Any]]:
+    clean = {k: {s: q for s, q in b.items() if s not in bad.get(k, ())} for k, b in books.items()}
+    return {k: b for k, b in clean.items() if any(s in b for s in SIDES)}
 
 
 def _better(side: str, q: dict[str, Any]) -> tuple:
@@ -208,8 +252,10 @@ def build_event(event_rows: list[dict[str, Any]]) -> dict[str, Any]:
                 if side in b and side not in ob:
                     ob[side] = b[side]
 
-    cons = consensus(latest)
-    best = best_by_side(latest)
+    suspect = suspect_quotes(latest)
+    clean = drop_quotes(latest, suspect)
+    cons = consensus(clean)
+    best = best_by_side(clean)
     rows = []
     for k in sorted(latest, key=lambda k: book_name(k).lower()):
         b = latest[k]
@@ -218,24 +264,26 @@ def build_event(event_rows: list[dict[str, Any]]) -> dict[str, Any]:
             q = b.get(side)
             if not q:
                 continue
-            cell = {**q, "best": k in best.get(side, {}).get("books", []),
+            cell = {**q, "best": k in best.get(side, {}).get("books", []), "suspect": side in suspect.get(k, ()),
                     "open": opening[k].get(side), "move": _point_move(q, opening[k].get(side))}
             if side in ("away_ml", "home_ml"):
                 o = opening[k].get(side)
                 cell["move"] = None if not o or o["price"] == q["price"] else q["price"] - o["price"]
             cells[side] = cell
         off = {}
-        if "home_spread" in b and cons["median_spread"] is not None:
-            off["spread"] = round(b["home_spread"]["point"] - cons["median_spread"], 1)
-        if "over" in b and cons["median_total"] is not None:
-            off["total"] = round(b["over"]["point"] - cons["median_total"], 1)
+        cb = clean.get(k, {})  # suspect quotes are flagged as stale, not as off the market
+        if "home_spread" in cb and cons["median_spread"] is not None:
+            off["spread"] = round(cb["home_spread"]["point"] - cons["median_spread"], 1)
+        if "over" in cb and cons["median_total"] is not None:
+            off["total"] = round(cb["over"]["point"] - cons["median_total"], 1)
         rows.append({
             "book": k, "name": book_name(k), "cells": cells,
             "hold": {
-                "spread": hold(b.get("home_spread", {}).get("price"), b.get("away_spread", {}).get("price")),
-                "total": hold(b.get("over", {}).get("price"), b.get("under", {}).get("price")),
-                "ml": hold(b.get("home_ml", {}).get("price"), b.get("away_ml", {}).get("price")),
+                "spread": hold(cb.get("home_spread", {}).get("price"), cb.get("away_spread", {}).get("price")),
+                "total": hold(cb.get("over", {}).get("price"), cb.get("under", {}).get("price")),
+                "ml": hold(cb.get("home_ml", {}).get("price"), cb.get("away_ml", {}).get("price")),
             },
+            "suspect": sorted(suspect.get(k, ())),
             "off": off,
             "off_market": any(abs(v) >= OFF_MARKET[m] for m, v in off.items()),
             "first_seen": first_seen[k],
@@ -246,7 +294,7 @@ def build_event(event_rows: list[dict[str, Any]]) -> dict[str, Any]:
     # Consensus path, for the movement chart and open vs now.
     path = []
     for t, books in snaps:
-        c = consensus(books)
+        c = consensus(drop_quotes(books, suspect_quotes(books)))
         path.append({"t": t, "spread": c["spread"], "total": c["total"], "fair_home": c["fair_home"], "books": c["books"]})
     book_paths: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for t, books in snaps:

@@ -136,3 +136,22 @@ def test_page_context_splits_board_and_closed():
     ctx = oddsboard.page_context(later, games, board_rows(), {"g1": "ev1"})
     r = ctx["closed"][0]["result"]
     assert r["ats"] == "home" and r["ou"] == "under"  # TOL -4.5 won by 5; 145 points vs 146.5
+
+
+def test_stale_exchange_quote_is_not_best():
+    # Every book is -12.5 at about -110; one exchange still shows a stale -1.5 at -1150 / 136.5.
+    rows = []
+    for bk in ("draftkings", "fanduel", "betmgm", "bovada"):
+        rows += quote(T2, bk, -12.5, total=157.0, ml=(-900, 600))
+    rows += quote(T2, "pinnacle", -13.0, (-101, -116), 157.0, ml=(-850, 620))
+    rows += quote(T2, "novig", -1.5, (-1150, -4900), 136.5, ml=(-120, 100))
+    ev = oddsboard.build_event(rows)
+    assert "novig" not in ev["best"]["home_spread"]["books"]
+    assert ev["best"]["home_spread"]["point"] == -12.5
+    assert ev["best"]["away_spread"]["books"] == ["pinnacle"]
+    assert ev["best"]["over"]["point"] == 157.0 and "novig" not in ev["best"]["under"]["books"]
+    assert "novig" not in ev["best"]["away_ml"]["books"]
+    nov = next(r for r in ev["rows"] if r["book"] == "novig")
+    assert nov["cells"]["home_spread"]["suspect"] and nov["cells"]["over"]["suspect"]
+    assert not next(r for r in ev["rows"] if r["book"] == "draftkings")["cells"]["home_spread"]["suspect"]
+    assert ev["consensus"]["median_total"] == 157.0

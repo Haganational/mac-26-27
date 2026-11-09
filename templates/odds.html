@@ -12,7 +12,7 @@
   </nav>
   <header>
     <h1>Odds screen</h1>
-    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">Green</b> is the best price on that side. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run three times a day, so check the book before you bet.</span>
+    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">★ Green</b> is the best price on that side. A <s class="dim">struck-out</s> price looks stale or in-play and is left out of best price and the market number. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run three times a day, so check the book before you bet.</span>
   </header>
 
 {% macro bks(l) %}{{ l[:2]|map('book')|join(', ') }}{% if l|length > 2 %} +{{ l|length - 2 }}{% endif %}{% endmacro %}
@@ -23,7 +23,9 @@
 {% macro mv(v) %}{% if v %}<span class="mv {{ 'neg' if v < 0 else 'pos' }}">{{ '▼' if v < 0 else '▲' }}{{ ('%.1f'|format(v|abs)).replace('.0', '') }}</span>{% endif %}{% endmacro %}
 {% macro logo(id) %}{% if id %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endif %}{% endmacro %}
 {% macro spark(s, color, label) %}{% if s %}<svg class="spark" viewBox="0 0 {{ s.w }} {{ s.h }}" role="img" aria-label="{{ label }}"><path d="{{ s.d }}" fill="none" stroke="var({{ color }})" stroke-width="2" stroke-linejoin="round"/>{% for p in s.dots %}<circle cx="{{ p.x }}" cy="{{ p.y }}" r="2.5" fill="var({{ color }})"><title>{{ p.v }}</title></circle>{% endfor %}</svg>{% endif %}{% endmacro %}
-{% macro cell(c, kind) %}{% set mk = 'mk-' ~ kind %}{% if c %}<td class="num q {{ mk }}{{ ' best' if c.best }}"><span class="pt">{% if kind == 'spread' %}{{ sp(c.point) }}{% elif kind == 'total' %}{{ tot(c.point) }}{% endif %}</span> <span class="pr">{{ px(c.price) }}</span>{% if c.move and kind != 'ml' %}<small class="op">open {{ sp(c.open.point) if kind == 'spread' else tot(c.open.point) }}</small>{% elif c.move %}<small class="op">open {{ px(c.open.price) }}</small>{% endif %}</td>{% else %}<td class="num dim {{ mk }}">–</td>{% endif %}{% endmacro %}
+{% macro cell(c, kind, g0=False) %}{% set mk = 'mk-' ~ kind ~ (' g0' if g0 else '') %}{% if c %}<td class="num q {{ mk }}{{ ' best' if c.best }}{{ ' suspect' if c.suspect }}"{% if c.suspect %} title="Not counted: this price looks stale or in-play, far from every other book"{% endif %}>{% if c.best %}<span class="star" aria-label="best price">★</span>{% endif %}<span class="pt">{% if kind == 'spread' %}{{ sp(c.point) }}{% elif kind == 'total' %}{{ tot(c.point) }}{% endif %}</span> <span class="pr">{{ px(c.price) }}</span>{% if c.suspect %}<small class="op">not counted</small>{% elif c.move and kind != 'ml' %}<small class="op">open {{ sp(c.open.point) if kind == 'spread' else tot(c.open.point) }}</small>{% elif c.move %}<small class="op">open {{ px(c.open.price) }}</small>{% endif %}</td>{% else %}<td class="num dim {{ mk }}">–</td>{% endif %}{% endmacro %}
+{% set BOOK_COLOR = {'draftkings': '#53a318', 'fanduel': '#1493ff', 'betmgm': '#b8975a', 'williamhill_us': '#c9a14a', 'betrivers': '#1d4f91', 'espnbet': '#e2252c', 'hardrockbet': '#7b3fe4', 'bovada': '#c8102e', 'betonlineag': '#f2a900', 'novig': '#6d5dfc', 'pinnacle': '#f37021', 'lowvig': '#14a89a', 'fanatics': '#0b4ea2', 'betus': '#0f7a3c', 'mybookieag': '#e8641b'} %}
+{% macro holdc(h) %}{% if h is none %}<span class="dim">–</span>{% else %}{% set v = h * 100 %}<span class="hv {{ 'lo' if v <= 3.5 else ('hi' if v >= 5.5 else 'mid') }}">{{ '%.1f'|format(v) }}%</span>{% endif %}{% endmacro %}
 
   {% set b = o.budget %}
   <div class="tiles">
@@ -90,31 +92,31 @@
     </div>
 
     <div class="scroll"><table class="odds">
-      <tr class="mkh"><th></th><th colspan="2" class="mk-spread">Spread</th><th colspan="2" class="mk-total">Total</th><th colspan="2" class="mk-ml">Moneyline</th><th colspan="2"></th></tr>
-      <tr><th>Book</th>
-        <th class="num mk-spread">{{ ev.away.abbr }}</th><th class="num mk-spread">{{ ev.home.abbr }}</th>
-        <th class="num mk-total">Over</th><th class="num mk-total">Under</th>
-        <th class="num mk-ml">{{ ev.away.abbr }}</th><th class="num mk-ml">{{ ev.home.abbr }}</th>
+      <tr class="mkh"><th></th><th colspan="2" class="mk-spread g0"><span>Spread</span></th><th colspan="2" class="mk-total g0"><span>Total</span></th><th colspan="2" class="mk-ml g0"><span>Moneyline</span></th><th colspan="2"></th></tr>
+      <tr class="colh"><th>Book</th>
+        <th class="num mk-spread g0">{{ ev.away.abbr }}</th><th class="num mk-spread">{{ ev.home.abbr }}</th>
+        <th class="num mk-total g0">Over</th><th class="num mk-total">Under</th>
+        <th class="num mk-ml g0">{{ ev.away.abbr }}</th><th class="num mk-ml">{{ ev.home.abbr }}</th>
         <th class="num" title="Book's margin on this market">Hold</th><th class="num">Off mkt</th></tr>
       {% for r in ev.rows %}
       <tr class="{{ 'offmkt' if r.off_market }}{{ ' sharp' if r.book == 'pinnacle' }}">
-        <td class="bk">{{ r.name }}{% if r.book == 'pinnacle' %} <span class="pill">sharp</span>{% endif %}{% if r.book == 'novig' %} <span class="pill" title="Exchange: no-vig peer-to-peer prices">exch</span>{% endif %}</td>
-        {{ cell(r.cells.away_spread, 'spread') }}{{ cell(r.cells.home_spread, 'spread') }}
-        {{ cell(r.cells.over, 'total') }}{{ cell(r.cells.under, 'total') }}
-        {{ cell(r.cells.away_ml, 'ml') }}{{ cell(r.cells.home_ml, 'ml') }}
-        <td class="num dim hold">{% for m in ['spread', 'total', 'ml'] %}<span class="mk-{{ m }}">{{ '%.1f'|format(r.hold[m] * 100) if r.hold[m] is not none else '–' }}%</span>{% endfor %}</td>
-        <td class="num offc">{% for m in ['spread', 'total'] %}<span class="mk-{{ m }}">{% if r.off[m] %}<span class="{{ 'offk' if r.off[m]|abs >= (1 if m == 'spread' else 1.5) else 'dim' }}">{{ '%+.1f'|format(r.off[m]) }}</span>{% else %}<span class="dim">0</span>{% endif %}</span> {% endfor %}</td>
+        <td class="bk"><i class="bdot" style="background:{{ BOOK_COLOR.get(r.book, 'var(--muted)') }}"></i>{{ r.name }}{% if r.book == 'pinnacle' %} <span class="pill">sharp</span>{% endif %}{% if r.book == 'novig' %} <span class="pill" title="Exchange: no-vig peer-to-peer prices">exch</span>{% endif %}</td>
+        {{ cell(r.cells.away_spread, 'spread', True) }}{{ cell(r.cells.home_spread, 'spread') }}
+        {{ cell(r.cells.over, 'total', True) }}{{ cell(r.cells.under, 'total') }}
+        {{ cell(r.cells.away_ml, 'ml', True) }}{{ cell(r.cells.home_ml, 'ml') }}
+        <td class="num hold">{% for m in ['spread', 'total', 'ml'] %}<span class="mk-{{ m }}">{{ holdc(r.hold[m]) }}</span>{% endfor %}</td>
+        <td class="num offc">{% if r.suspect %}<span class="pill stale" title="Some of this book's prices look stale or in-play and are not counted">stale</span>{% else %}{% for m in ['spread', 'total'] %}<span class="mk-{{ m }}">{% if r.off[m] %}<span class="{{ 'offk' if r.off[m]|abs >= (1 if m == 'spread' else 1.5) else 'dim' }}">{{ '%+.1f'|format(r.off[m]) }}</span>{% else %}<span class="dim">0</span>{% endif %}</span> {% endfor %}{% endif %}</td>
       </tr>
       {% endfor %}
       {% set bb = ev.best %}
-      <tr class="sumrow"><td>Best available</td>
+      <tr class="sumrow bestrow"><td><span class="star">★</span> Best price</td>
         {% for side, kind in [('away_spread','spread'),('home_spread','spread'),('over','total'),('under','total'),('away_ml','ml'),('home_ml','ml')] %}
-        {% set q = bb.get(side) %}<td class="num mk-{{ kind }}">{% if q %}<b>{% if kind == 'spread' %}{{ sp(q.point) }} {% elif kind == 'total' %}{{ tot(q.point) }} {% endif %}{{ px(q.price) }}</b><small class="op"><span title="{{ q.books|map('book')|join(', ') }}">{{ bks(q.books) }}</span></small>{% else %}–{% endif %}</td>
+        {% set q = bb.get(side) %}<td class="num mk-{{ kind }}{{ ' g0' if loop.index is odd }}">{% if q %}<b>{% if kind == 'spread' %}{{ sp(q.point) }} {% elif kind == 'total' %}{{ tot(q.point) }} {% endif %}{{ px(q.price) }}</b><small class="op"><span title="{{ q.books|map('book')|join(', ') }}">{{ bks(q.books) }}</span></small>{% else %}–{% endif %}</td>
         {% endfor %}<td></td><td></td></tr>
       <tr class="sumrow"><td>Median <small class="dim">{{ c.books }} books</small></td>
-        <td class="num mk-spread">{{ sp(-c.median_spread) if c.median_spread is not none else '–' }}</td><td class="num mk-spread">{{ sp(c.median_spread) if c.median_spread is not none else '–' }}</td>
-        <td class="num mk-total" colspan="2">{{ tot(c.median_total) }}</td>
-        <td class="num mk-ml">{{ px(c.ml_away) }}</td><td class="num mk-ml">{{ px(c.ml_home) }}</td>
+        <td class="num mk-spread g0">{{ sp(-c.median_spread) if c.median_spread is not none else '–' }}</td><td class="num mk-spread">{{ sp(c.median_spread) if c.median_spread is not none else '–' }}</td>
+        <td class="num mk-total g0" colspan="2">{{ tot(c.median_total) }}</td>
+        <td class="num mk-ml g0">{{ px(c.ml_away) }}</td><td class="num mk-ml">{{ px(c.ml_home) }}</td>
         <td class="num dim">{{ '%.1f'|format(c.median_spread_hold * 100) ~ '%' if c.median_spread_hold is not none else '' }}</td><td></td></tr>
     </table></div>
     {% if ev.pulled %}<div class="note">Off the board since the last snapshot: {% for p in ev.pulled %}{{ p.name }} (last seen {{ p.last_seen[5:16].replace('T', ' ') }} UTC){% if not loop.last %}, {% endif %}{% endfor %}.</div>{% endif %}
