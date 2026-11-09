@@ -97,7 +97,7 @@
     <div class="hero"><div class="big" style="font-size:120px">That's MAC90</div><p>Every line, box score and rating</p><p style="color:#f0c75e;font-weight:800;font-size:64px">hardwoodbricks.com</p></div>
   {% endif %}
   </div>
-  <div class="caption">{{ seg.text }}</div>
+  {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
 </div>
 </body>
 </html>
