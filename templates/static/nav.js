@@ -216,7 +216,10 @@ document.addEventListener('click', function (e) {
   f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
   f.allowFullscreen = true;
   f.title = 'MAC90 on YouTube';
+  var card = b.closest('.ytwatch');
   b.replaceWith(f);
+  // The card sits compact until play, then opens to a full-size vertical player.
+  if (card) { card.classList.add('playing'); card.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
 });
 
 // Access code: locked screens ship as AES-GCM ciphertext (mac/access.py). One code opens all
