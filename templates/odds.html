@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC Odds Screen</title>
+<meta name="description" content="Every book's spread, total and moneyline for upcoming MAC men's basketball games, with best price, open vs now, movement and model gaps.">
+<link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Odds screen
+    <span class="teamnav"><a href="tv.html">TV schedule</a><a href="travel.html">Travel map</a></span>
+  </nav>
+  <header>
+    <h1>Odds screen</h1>
+    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">Green</b> is the best price on that side. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run three times a day, so check the book before you bet.</span>
+  </header>
+
+{% macro bks(l) %}{{ l[:2]|map('book')|join(', ') }}{% if l|length > 2 %} +{{ l|length - 2 }}{% endif %}{% endmacro %}
+{% macro px(p) %}{% if p is none %}–{% elif p > 0 %}+{{ p }}{% else %}{{ p }}{% endif %}{% endmacro %}
+{% macro tot(v) %}{% if v is none %}–{% else %}{{ ('%.1f'|format(v)).replace('.0', '') }}{% endif %}{% endmacro %}
+{% macro sp(v) %}{{ fmt_spread(v).replace('.0', '') }}{% endmacro %}
+{% macro fav(ev, s) %}{% if s is none %}–{% elif s == 0 %}PK{% elif s < 0 %}{{ ev.home.abbr }} {{ sp(s) }}{% else %}{{ ev.away.abbr }} {{ sp(-s) }}{% endif %}{% endmacro %}
+{% macro mv(v) %}{% if v %}<span class="mv {{ 'neg' if v < 0 else 'pos' }}">{{ '▼' if v < 0 else '▲' }}{{ ('%.1f'|format(v|abs)).replace('.0', '') }}</span>{% endif %}{% endmacro %}
+{% macro logo(id) %}{% if id %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endif %}{% endmacro %}
+{% macro spark(s, color, label) %}{% if s %}<svg class="spark" viewBox="0 0 {{ s.w }} {{ s.h }}" role="img" aria-label="{{ label }}"><path d="{{ s.d }}" fill="none" stroke="var({{ color }})" stroke-width="2" stroke-linejoin="round"/>{% for p in s.dots %}<circle cx="{{ p.x }}" cy="{{ p.y }}" r="2.5" fill="var({{ color }})"><title>{{ p.v }}</title></circle>{% endfor %}</svg>{% endif %}{% endmacro %}
+{% macro cell(c, kind) %}{% set mk = 'mk-' ~ kind %}{% if c %}<td class="num q {{ mk }}{{ ' best' if c.best }}"><span class="pt">{% if kind == 'spread' %}{{ sp(c.point) }}{% elif kind == 'total' %}{{ tot(c.point) }}{% endif %}</span> <span class="pr">{{ px(c.price) }}</span>{% if c.move and kind != 'ml' %}<small class="op">open {{ sp(c.open.point) if kind == 'spread' else tot(c.open.point) }}</small>{% elif c.move %}<small class="op">open {{ px(c.open.price) }}</small>{% endif %}</td>{% else %}<td class="num dim {{ mk }}">–</td>{% endif %}{% endmacro %}
+
+  {% set b = o.budget %}
+  <div class="tiles">
+    <div class="tile"><div class="v">{{ o.board|length }}</div><div class="k">MAC games on the board</div></div>
+    <div class="tile"><div class="v">{{ o.books|length }}</div><div class="k">books quoting them</div></div>
+    <div class="tile"><div class="v">{{ o.waiting|length }}</div><div class="k">games in the next 8 days not posted yet</div></div>
+    <div class="tile"><div class="v">{{ o.median_lead if o.median_lead is not none else '–' }}<span class="dim">h</span></div><div class="k">median lead: first line seen before tip</div></div>
+    <div class="tile"><div class="v">{{ b.used if b.from_api else b.estimated_used }}<span class="dim">/{{ b.limit }}</span></div><div class="k">API requests used in {{ b.month }}{% if not b.from_api %} (estimated){% endif %}; on pace for {{ b.projected_month_end }}</div></div>
+  </div>
+
+  <div class="filters" id="mk">
+    <span class="seg"><button data-mk="all" class="on">All markets</button><button data-mk="spread">Spread</button><button data-mk="total">Total</button><button data-mk="ml">Moneyline</button></span>
+    <label class="dim" style="font-size:13px"><input type="checkbox" id="offonly"> only show books off the market</label>
+  </div>
+
+  {% if o.has_model %}
+  {% set gaps = [] %}
+  {% for ev in o.board if ev.model %}{% if gaps.append(ev) %}{% endif %}{% endfor %}
+  <section>
+    <h2>Model vs market</h2>
+    {% if gaps %}
+    <div class="scroll"><table>
+      <tr><th>Tip (ET)</th><th>Game</th><th class="num">Model spread</th><th class="num">Market</th><th>Model side</th><th class="num">Best number</th><th class="num">Edge there</th><th class="num">Model total</th><th class="num">Market</th><th>Lean</th><th class="num">Best</th><th class="num">Edge</th></tr>
+      {% for ev in gaps %}{% set m = ev.model %}
+      <tr{% if m.rough %} class="dim"{% endif %}>
+        <td class="dim">{{ ev.game.et.day_label if ev.game else ev.commence_time[5:10] }} {{ ev.game.et.time if ev.game else '' }}</td>
+        <td><a href="#ev{{ ev.odds_event_id }}">{{ ev.away.abbr }} at {{ ev.home.abbr }}</a>{% if m.rough %} <span class="pill" title="One side is not Division I; the model's number is rough">rough</span>{% endif %}</td>
+        <td class="num">{{ fav(ev, m.spread) }}</td><td class="num">{{ fav(ev, ev.consensus.spread) }}</td>
+        <td>{% if m.spread_side %}{{ ev[m.spread_side].abbr }} by {{ m.spread_gap }}{% else %}<span class="dim">none</span>{% endif %}</td>
+        <td class="num">{% if m.spread_best %}{{ sp(m.spread_best.point) }} {{ px(m.spread_best.price) }} <small class="dim"><span title="{{ m.spread_best.books|map('book')|join(', ') }}">{{ bks(m.spread_best.books) }}</span></small>{% else %}–{% endif %}</td>
+        <td class="num">{% if m.spread_best %}<b class="{{ 'edge' if m.spread_best.edge >= 1.5 and not m.rough }}">{{ m.spread_best.edge }}</b>{% else %}–{% endif %}</td>
+        <td class="num">{{ tot(m.total) }}</td><td class="num">{{ tot(ev.consensus.total) }}</td>
+        <td>{% if m.total_side %}{{ m.total_side }} by {{ m.total_gap }}{% else %}<span class="dim">none</span>{% endif %}</td>
+        <td class="num">{% if m.total_best %}{{ tot(m.total_best.point) }} {{ px(m.total_best.price) }} <small class="dim"><span title="{{ m.total_best.books|map('book')|join(', ') }}">{{ bks(m.total_best.books) }}</span></small>{% else %}–{% endif %}</td>
+        <td class="num">{% if m.total_best %}<b class="{{ 'edge' if m.total_best.edge >= 2 and not m.rough }}">{{ m.total_best.edge }}</b>{% else %}–{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Edge is the points of daylight between the model's number and the best line on the board for the model's side. Highlighted at 1.5+ on spreads and 2+ on totals. "Rough" rows have a non-Division I side and are never highlighted.</div>
+    {% else %}<div class="empty">No game on the board has a model projection yet.</div>{% endif %}
+  </section>
+  {% endif %}
+
+  {% for ev in o.board %}{% set c = ev.consensus %}{% set g = ev.game %}
+  <section class="oddsgame" id="ev{{ ev.odds_event_id }}">
+    <div class="oghead">
+      <div class="ogtip">{% if g %}<b>{{ g.et.day_label }}</b> {{ g.et.time }} ET{% else %}<b>{{ ev.commence_time[5:16].replace('T', ' ') }}</b> UTC{% endif %}<small class="cd" data-tip="{{ ev.commence_time }}"></small></div>
+      <div class="ogteams">
+        <span class="tm">{{ logo(ev.away.espn_id) }}{% if ev.away.key %}<a href="teams/{{ ev.away.key }}.html">{{ ev.away.name }}</a>{% else %}{{ ev.away.name }}{% endif %}</span>
+        <span class="tm">{{ logo(ev.home.espn_id) }}<b>{{ 'vs' if g and g.neutral_site else 'at' }} {% if ev.home.key %}<a href="teams/{{ ev.home.key }}.html">{{ ev.home.name }}</a>{% else %}{{ ev.home.name }}{% endif %}</b>{% if g and g.conference_game %} <span class="pill">MAC</span>{% endif %}</span>
+      </div>
+      {% if g %}<div class="ogwatch">{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</div>{% endif %}
+    </div>
+
+    <div class="kv">
+      <div><span class="k">Spread</span><b>{{ fav(ev, c.spread) }}</b>{% if c.source == 'pinnacle' %} <small class="dim">Pinnacle</small>{% endif %} <small class="dim">open {{ fav(ev, ev.open.spread) }}</small> {{ mv(ev.move.spread) }}{% if ev.spread_range and ev.spread_range[0] != ev.spread_range[1] %}<small class="dim">books {{ sp(ev.spread_range[0]) }} to {{ sp(ev.spread_range[1]) }}</small>{% endif %}</div>
+      <div><span class="k">Total</span><b>{{ tot(c.total) }}</b> <small class="dim">open {{ tot(ev.open.total) }}</small> {{ mv(ev.move.total) }}{% if ev.total_range and ev.total_range[0] != ev.total_range[1] %}<small class="dim">books {{ tot(ev.total_range[0]) }} to {{ tot(ev.total_range[1]) }}</small>{% endif %}</div>
+      <div><span class="k">Fair win %</span>{% if c.fair_home is not none %}<b>{{ ev.home.abbr }} {{ (c.fair_home * 100)|round|int }}%</b> <small class="dim">no-vig {{ px(c.fair_ml_away) }} / {{ px(c.fair_ml_home) }}</small>{% else %}–{% endif %}</div>
+      <div><span class="k">First posted</span><b>{{ ev.opener.name }}</b> <small class="dim">{{ ev.opener.lead_hours }}h before tip · {{ ev.snapshots }} snapshot{{ 's' if ev.snapshots != 1 }}</small></div>
+      {% if ev.model %}{% set m = ev.model %}
+      <div><span class="k">Model</span><b>{{ fav(ev, m.spread) }} · {{ tot(m.total) }}</b>{% if m.rough %} <span class="pill" title="Non-Division I side">rough</span>{% else %}{% if m.spread_side %} <small>likes <b>{{ ev[m.spread_side].abbr }}</b> by {{ m.spread_gap }}</small>{% endif %}{% if m.total_side %} <small>· {{ m.total_side }} by {{ m.total_gap }}</small>{% endif %}{% endif %}</div>
+      {% endif %}
+      <div class="sparks"><span title="Spread, home view"><span class="k">Spread path</span>{{ spark(ev.spark.spread, '--s1', 'Spread over time') }}</span><span title="Total"><span class="k">Total path</span>{{ spark(ev.spark.total, '--s2', 'Total over time') }}</span></div>
+    </div>
+
+    <div class="scroll"><table class="odds">
+      <tr class="mkh"><th></th><th colspan="2" class="mk-spread">Spread</th><th colspan="2" class="mk-total">Total</th><th colspan="2" class="mk-ml">Moneyline</th><th colspan="2"></th></tr>
+      <tr><th>Book</th>
+        <th class="num mk-spread">{{ ev.away.abbr }}</th><th class="num mk-spread">{{ ev.home.abbr }}</th>
+        <th class="num mk-total">Over</th><th class="num mk-total">Under</th>
+        <th class="num mk-ml">{{ ev.away.abbr }}</th><th class="num mk-ml">{{ ev.home.abbr }}</th>
+        <th class="num" title="Book's margin on this market">Hold</th><th class="num">Off mkt</th></tr>
+      {% for r in ev.rows %}
+      <tr class="{{ 'offmkt' if r.off_market }}{{ ' sharp' if r.book == 'pinnacle' }}">
+        <td class="bk">{{ r.name }}{% if r.book == 'pinnacle' %} <span class="pill">sharp</span>{% endif %}{% if r.book == 'novig' %} <span class="pill" title="Exchange: no-vig peer-to-peer prices">exch</span>{% endif %}</td>
+        {{ cell(r.cells.away_spread, 'spread') }}{{ cell(r.cells.home_spread, 'spread') }}
+        {{ cell(r.cells.over, 'total') }}{{ cell(r.cells.under, 'total') }}
+        {{ cell(r.cells.away_ml, 'ml') }}{{ cell(r.cells.home_ml, 'ml') }}
+        <td class="num dim hold">{% for m in ['spread', 'total', 'ml'] %}<span class="mk-{{ m }}">{{ '%.1f'|format(r.hold[m] * 100) if r.hold[m] is not none else '–' }}%</span>{% endfor %}</td>
+        <td class="num offc">{% for m in ['spread', 'total'] %}<span class="mk-{{ m }}">{% if r.off[m] %}<span class="{{ 'offk' if r.off[m]|abs >= (1 if m == 'spread' else 1.5) else 'dim' }}">{{ '%+.1f'|format(r.off[m]) }}</span>{% else %}<span class="dim">0</span>{% endif %}</span> {% endfor %}</td>
+      </tr>
+      {% endfor %}
+      {% set bb = ev.best %}
+      <tr class="sumrow"><td>Best available</td>
+        {% for side, kind in [('away_spread','spread'),('home_spread','spread'),('over','total'),('under','total'),('away_ml','ml'),('home_ml','ml')] %}
+        {% set q = bb.get(side) %}<td class="num mk-{{ kind }}">{% if q %}<b>{% if kind == 'spread' %}{{ sp(q.point) }} {% elif kind == 'total' %}{{ tot(q.point) }} {% endif %}{{ px(q.price) }}</b><small class="op"><span title="{{ q.books|map('book')|join(', ') }}">{{ bks(q.books) }}</span></small>{% else %}–{% endif %}</td>
+        {% endfor %}<td></td><td></td></tr>
+      <tr class="sumrow"><td>Median <small class="dim">{{ c.books }} books</small></td>
+        <td class="num mk-spread">{{ sp(-c.median_spread) if c.median_spread is not none else '–' }}</td><td class="num mk-spread">{{ sp(c.median_spread) if c.median_spread is not none else '–' }}</td>
+        <td class="num mk-total" colspan="2">{{ tot(c.median_total) }}</td>
+        <td class="num mk-ml">{{ px(c.ml_away) }}</td><td class="num mk-ml">{{ px(c.ml_home) }}</td>
+        <td class="num dim">{{ '%.1f'|format(c.median_spread_hold * 100) ~ '%' if c.median_spread_hold is not none else '' }}</td><td></td></tr>
+    </table></div>
+    {% if ev.pulled %}<div class="note">Off the board since the last snapshot: {% for p in ev.pulled %}{{ p.name }} (last seen {{ p.last_seen[5:16].replace('T', ' ') }} UTC){% if not loop.last %}, {% endif %}{% endfor %}.</div>{% endif %}
+  </section>
+  {% else %}
+  <section><div class="empty">No MAC game has a posted line right now. US books usually hang MAC numbers about a day before tip.</div></section>
+  {% endfor %}
+
+  {% if o.waiting %}
+  <section>
+    <h2>Coming up, not posted yet</h2>
+    <div class="scroll"><table>
+      <tr><th>Tip (ET)</th><th>Game</th><th class="num">Hours out</th><th>Watch</th></tr>
+      {% for g in o.waiting %}
+      <tr><td class="dim">{{ g.et.day_label }} {{ g.et.time }}</td><td class="teams">{{ g.away.name }} {{ 'vs' if g.neutral_site else 'at' }} <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td><td class="num">{{ g.hours_out }}</td><td>{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</td></tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">These show up on the board at the first snapshot after a book posts. The lead-time numbers here feed the line timing study.</div>
+  </section>
+  {% endif %}
+
+  <div class="grid two">
+  <section>
+    <h2>Recently closed</h2>
+    {% if o.closed %}
+    <div class="scroll"><table class="nowrap">
+      <tr><th>Date</th><th>Game</th><th>First posted</th><th class="num">Spread open → close</th><th class="num">Total open → close</th><th class="num">Score</th><th>ATS</th><th>O/U</th></tr>
+      {% for ev in o.closed %}{% set r = ev.result %}
+      <tr>
+        <td class="dim">{{ ev.commence_time[5:10] }}</td>
+        <td>{{ ev.away.abbr }} at <b>{{ ev.home.abbr }}</b></td>
+        <td class="dim">{{ ev.opener.name }} · {{ ev.opener.lead_hours }}h</td>
+        <td class="num">{{ fav(ev, ev.open.spread) }} → {{ fav(ev, ev.consensus.spread) }} {{ mv(ev.move.spread) }}</td>
+        <td class="num">{{ tot(ev.open.total) }} → {{ tot(ev.consensus.total) }} {{ mv(ev.move.total) }}</td>
+        {% if r %}
+        <td class="num">{{ ev.game.away.score }}-{{ ev.game.home.score }}</td>
+        <td>{% if r.ats == 'push' %}push{% elif r.ats %}{{ ev[r.ats].abbr }}{% else %}–{% endif %}</td>
+        <td>{{ r.ou or '–' }}</td>
+        {% else %}<td class="num dim" colspan="3">no result yet</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Close is our last snapshot before tip, which can be several hours before the real close.</div>
+    {% else %}<div class="empty">Nothing closed yet.</div>{% endif %}
+  </section>
+
+  <section>
+    <h2>Book scorecard</h2>
+    {% if o.scorecard %}
+    <div class="scroll"><table>
+      <tr><th>Book</th><th class="num">Games</th><th class="num" title="Share of its quotes that were the best on the board">Best price</th><th class="num" title="Median hold on spreads">Hold</th><th class="num" title="Games where this book was first to show a line">First up</th><th class="num" title="Average points from the median spread">Avg off</th></tr>
+      {% for r in o.scorecard %}
+      <tr><td>{{ r.name }}</td><td class="num">{{ r.games }}</td><td class="num">{{ r.best_pct ~ '%' if r.best_pct is not none else '–' }}</td><td class="num">{{ r.hold ~ '%' if r.hold is not none else '–' }}</td><td class="num">{{ r.first }}</td><td class="num">{{ r.avg_off if r.avg_off is not none else '–' }}</td></tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">All MAC games we have snapshots for. Best price counts ties, so a book matching the top number gets credit.</div>
+    {% else %}<div class="empty">No books yet.</div>{% endif %}
+    <h2 style="margin-top:18px">API budget</h2>
+    <p class="sub" style="margin:0">{{ b.month }}: {{ b.used if b.from_api else '~' ~ b.estimated_used }} of {{ b.limit }} requests used{% if b.remaining is not none %}, {{ b.remaining }} left{% endif %}. At three runs a day the month ends near {{ b.projected_month_end }}, leaving {{ b.headroom }} spare for manual runs. Each run asks for 10 named books × 3 markets = 3 requests.{% if not b.from_api %} Exact counts start with the next collector run.{% endif %}</p>
+  </section>
+  </div>
+</main>
+<script>
+(function () {
+  const root = document.documentElement, seg = document.getElementById('mk');
+  const pick = (mk) => {
+    seg.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.mk === mk));
+    root.dataset.mk = mk; try { localStorage.setItem('mac-odds-mk', mk); } catch (e) {}
+  };
+  seg.querySelectorAll('button').forEach(b => b.addEventListener('click', () => pick(b.dataset.mk)));
+  let saved = 'all'; try { saved = localStorage.getItem('mac-odds-mk') || 'all'; } catch (e) {}
+  pick(saved);
+  document.getElementById('offonly').addEventListener('change', (e) => root.classList.toggle('offonly', e.target.checked));
+  function tick() {
+    const now = Date.now();
+    document.querySelectorAll('.cd[data-tip]').forEach(el => {
+      const m = Math.round((new Date(el.dataset.tip).getTime() - now) / 6e4);
+      el.textContent = m <= 0 ? 'live' : m < 60 ? `in ${m}m` : m < 2880 ? `in ${Math.floor(m / 60)}h ${m % 60}m` : '';
+      el.classList.toggle('live', m <= 0);
+    });
+  }
+  tick(); setInterval(tick, 30000);
+})();
+</script>
+</body>
+</html>

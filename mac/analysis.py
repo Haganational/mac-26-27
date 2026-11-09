@@ -160,8 +160,9 @@ def match_lines_to_games(games: list[dict[str, Any]], history: dict[str, dict[st
         tip = parse_iso(ev["commence_time"])
         best: tuple[float, str] | None = None
         for g in games:
-            keys = {g["home"]["key"], g["away"]["key"]}
-            if ev["home_key"] not in keys and ev["away_key"] not in keys:
+            keys = {g["home"]["key"], g["away"]["key"]} - {None}
+            ev_keys = {ev["home_key"], ev["away_key"]} - {None}
+            if not keys & ev_keys:  # a shared None (non-MAC side) is not a match
                 continue
             # Both MAC teams must match when it is a conference game.
             if ev["home_key"] and ev["away_key"] and keys != {ev["home_key"], ev["away_key"]}:

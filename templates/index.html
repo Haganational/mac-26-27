@@ -11,7 +11,7 @@
 <main>
   <header>
     <h1>MAC men's basketball {{ d.season }}</h1>
-    <span class="sub">Updated {{ d.generated_et }}. Lines are the sharp number when Pinnacle is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+    <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
   </header>
 
   <div class="tiles">
@@ -22,7 +22,7 @@
   </div>
 
   <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
@@ -71,7 +71,7 @@
         <td class="num dim" colspan="3">no line yet</td>
         {% endif %}
         <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
-        <td><a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ g.home.name.rsplit(' ', 1)[0] }}" title="Opens PickTheOdds and copies the home team name to paste into its search">PTO</a></td>
+        <td>{% if g.line %}<a class="oddslink" href="odds.html#ev{{ g.line.odds_event_id }}" title="Every book's price for this game">odds</a>{% endif %}</td>
       </tr>
       {% endfor %}
     {% endfor %}
@@ -111,7 +111,7 @@
   </div>
 
   <section>
-    <h2>Line movement</h2>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Line movement</h2><a class="btnlink" href="odds.html">Every book, best prices →</a></div>
     {% if d.history %}
     <div class="row">
       <select id="gamepick" aria-label="Choose a game"></select>
@@ -161,13 +161,6 @@
   </section>
   {% endif %}
 
-  <section>
-    <details id="ptopanel">
-      <summary><b>PickTheOdds odds screen</b> <span class="dim">embedded, logged-out view with 60-second refresh; use the PTO links for your signed-in tab</span></summary>
-      <iframe id="ptoframe" data-src="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" title="PickTheOdds NCAAB odds screen" style="width:100%;height:720px;border:0;border-radius:8px;margin-top:10px;background:var(--neutral)" loading="lazy"></iframe>
-    </details>
-  </section>
-
 </main>
 
 <script id="data" type="application/json">{{ data_json|safe }}</script>
@@ -206,12 +199,6 @@
   }));
 })();
 (function () {
-  // PTO links: copy the team name so it can be pasted into PickTheOdds' search box.
-  document.querySelectorAll('a.pto[data-copy]').forEach(a => a.addEventListener('click', () => {
-    try { navigator.clipboard.writeText(a.dataset.copy); } catch (e) {}
-  }));
-  const panel = document.getElementById('ptopanel'), frame = document.getElementById('ptoframe');
-  if (panel && frame) panel.addEventListener('toggle', () => { if (panel.open && !frame.src) frame.src = frame.dataset.src; });
   const D = JSON.parse(document.getElementById('data').textContent);
   const hist = D.history.slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
   if (!hist.length) return;
