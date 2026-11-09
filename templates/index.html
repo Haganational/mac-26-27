@@ -29,7 +29,7 @@
     <div class="sechead"><h2>{{ 'Tonight & tomorrow' if d.tonight|map(attribute='et.day_key')|unique|list|length > 1 else 'Next up' }}</h2><span class="dim">{{ d.tonight[0].et.day_label }}{% if d.tonight[-1].et.day_label != d.tonight[0].et.day_label %} – {{ d.tonight[-1].et.day_label }}{% endif %}</span><a class="more" href="tv.html">Full schedule →</a></div>
     <div class="tonight">
       {% for g in d.tonight %}{% set ln = g.line.latest if g.line else none %}{% set mdl = g.model if g.model else none %}
-      <div class="tn-game">
+      {% set ck = g.home.key or g.away.key %}<div class="tn-game{{ ' tinted t-' ~ ck if ck }}">
         <div class="tn-time"><b>{{ g.et.time if not g.et.tba else 'TBA' }}</b><small>{{ g.et.weekday }} · ET · {% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>
         <div class="tn-match">
           <a href="{{ ('games/' ~ g.game_id ~ '.html') if g.mv else ('tv.html#g' ~ g.game_id) }}"><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}</span>
