@@ -97,6 +97,14 @@
     <div class="row" style="justify-content:space-between"><h2 style="margin:0">Line movement</h2><a class="btnlink" href="odds.html">Every book, best prices →</a></div>
     <p class="sub dim">Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</p>
     {% if d.history %}
+    <!--hb-lock:linemoves-->
+    <!--hb-tease-->
+    <div class="tease-chart">
+      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 120 L80 112 L160 118 L240 96 L320 100 L400 74 L480 80 L600 58" fill="none" stroke="currentColor" stroke-width="4"/><path d="M0 70 L90 76 L170 66 L250 88 L330 84 L420 104 L500 98 L600 116" fill="none" stroke="currentColor" stroke-width="4" opacity=".55"/></svg>
+      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 60 L100 64 L200 90 L300 86 L400 110 L500 104 L600 130" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+    </div>
+    <div class="tease-rows"><i></i><i></i><i></i><i></i></div>
+    <!--/hb-tease-->
     <div class="row">
       <select id="gamepick" aria-label="Choose a game"></select>
       <div class="legend"><span><i style="background:var(--s1)"></i>Spread (home)</span><span><i style="background:var(--s2)"></i>Total</span></div>
@@ -107,6 +115,73 @@
     </div>
     <div class="scroll"><table id="bookTable"></table></div>
     <div class="note">{% if d.posting.by_book %}<b>First to post so far:</b> {% for b in d.posting.by_book[:4] if b.first %}{{ b.name }} {{ b.first }}{{ ", " if not loop.last }}{% endfor %}{% if d.posting.median_lead_hours is not none %} · median {{ d.posting.median_lead_hours }}h before tip across {{ d.posting.events }} game{{ "s" if d.posting.events != 1 }}{% endif %}. {% endif %}{{ d.posting.note }}</div>
+    <script type="application/json" id="hist-data">{{ d.history|tojson }}</script>
+    <script>
+(function () {
+  const hist = JSON.parse(document.getElementById('hist-data').textContent).slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
+  if (!hist.length) return;
+  const pick = document.getElementById('gamepick');
+  hist.forEach((h, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = `${h.commence_time.slice(5, 16).replace('T', ' ')}  ${h.away_team} at ${h.home_team}`;
+    pick.appendChild(o);
+  });
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+  function draw(svg, tipEl, pts, color, fmt) {
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const W = svg.clientWidth || 500, H = 200, m = { l: 44, r: 12, t: 12, b: 26 };
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const xs = pts.map(p => new Date(p.t).getTime()), ys = pts.map(p => p.v);
+    if (!ys.length) return;
+    const x0 = Math.min(...xs), x1 = Math.max(...xs) || x0 + 1;
+    let lo = Math.min(...ys), hi = Math.max(...ys); if (hi - lo < 2) { lo -= 1; hi += 1; }
+    const X = t => m.l + (x1 === x0 ? 0.5 : (t - x0) / (x1 - x0)) * (W - m.l - m.r);
+    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+    const ns = 'http://www.w3.org/2000/svg';
+    const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+    for (let i = 0; i <= 3; i++) {
+      const v = lo + (hi - lo) * i / 3, y = Y(v);
+      svg.appendChild(el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css('--grid'), 'stroke-width': 1 }));
+      const t = el('text', { x: m.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }); t.textContent = fmt(v); svg.appendChild(t);
+    }
+    [x0, x1].forEach((t, i) => {
+      const tx = el('text', { x: X(t), y: H - 8, 'text-anchor': i ? 'end' : 'start', 'font-size': 11, fill: css('--muted') });
+      tx.textContent = new Date(t).toISOString().slice(5, 16).replace('T', ' '); svg.appendChild(tx);
+    });
+    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(xs[i]).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
+    svg.appendChild(el('path', { d, fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
+    pts.forEach((p, i) => svg.appendChild(el('circle', { cx: X(xs[i]), cy: Y(p.v), r: 4, fill: color, stroke: css('--surface'), 'stroke-width': 2 })));
+    const cross = el('line', { y1: m.t, y2: H - m.b, stroke: css('--axis'), 'stroke-width': 1, visibility: 'hidden' }); svg.appendChild(cross);
+    svg.onmousemove = (ev) => {
+      const r = svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * (W / r.width);
+      let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - mx) < Math.abs(X(xs[best]) - mx)) best = i;
+      cross.setAttribute('x1', X(xs[best])); cross.setAttribute('x2', X(xs[best])); cross.setAttribute('visibility', 'visible');
+      tipEl.style.display = 'block'; tipEl.style.left = Math.min(X(xs[best]) * (r.width / W) + 10, r.width - 160) + 'px'; tipEl.style.top = (Y(ys[best]) * (r.height / H) - 36) + 'px';
+      tipEl.textContent = `${pts[best].t.slice(5, 16).replace('T', ' ')} UTC  ${fmt(ys[best])}  (${pts[best].books} books)`;
+    };
+    svg.onmouseleave = () => { cross.setAttribute('visibility', 'hidden'); tipEl.style.display = 'none'; };
+  }
+
+  function render() {
+    const h = hist[+pick.value];
+    const sp = h.snapshots.filter(s => s.spread != null).map(s => ({ t: s.captured_at, v: s.spread, books: s.books }));
+    const to = h.snapshots.filter(s => s.total != null).map(s => ({ t: s.captured_at, v: s.total, books: s.books }));
+    draw(document.getElementById('spreadChart'), document.getElementById('tip1'), sp, css('--s1'), v => (v > 0 ? '+' : '') + v.toFixed(1));
+    draw(document.getElementById('totalChart'), document.getElementById('tip2'), to, css('--s2'), v => v.toFixed(1));
+    const tb = document.getElementById('bookTable');
+    const books = Object.entries(h.latest_by_book).sort();
+    tb.innerHTML = '<tr><th>Book (latest)</th><th class="num">Spread</th><th class="num">Price</th><th class="num">Total</th><th class="num">Price</th><th class="num">ML home</th><th class="num">ML away</th></tr>' +
+      books.map(([k, b]) => `<tr><td>${k}</td><td class="num">${b.spread == null ? '–' : (b.spread > 0 ? '+' : '') + b.spread}</td><td class="num">${b.spread_price ?? '–'}</td><td class="num">${b.total ?? '–'}</td><td class="num">${b.total_price ?? '–'}</td><td class="num">${b.ml_home ?? '–'}</td><td class="num">${b.ml_away ?? '–'}</td></tr>`).join('');
+  }
+  pick.onchange = render;
+  // Default to the next game to tip.
+  const now = Date.now(); let idx = hist.findIndex(h => new Date(h.commence_time).getTime() > now); pick.value = idx < 0 ? hist.length - 1 : idx;
+  render();
+  window.addEventListener('resize', render);
+})();
+</script>
+    <!--/hb-lock-->
     {% else %}
     <div class="empty">No line snapshots yet. The collector appends one each run once <code>ODDS_API_KEY</code> is set.</div>
     {% endif %}
@@ -182,70 +257,6 @@
     const row = document.querySelector(a.getAttribute('href')); if (!row) return;
     row.classList.remove('flash'); void row.offsetWidth; row.classList.add('flash');
   }));
-})();
-(function () {
-  const D = JSON.parse(document.getElementById('data').textContent);
-  const hist = D.history.slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
-  if (!hist.length) return;
-  const pick = document.getElementById('gamepick');
-  hist.forEach((h, i) => {
-    const o = document.createElement('option');
-    o.value = i; o.textContent = `${h.commence_time.slice(5, 16).replace('T', ' ')}  ${h.away_team} at ${h.home_team}`;
-    pick.appendChild(o);
-  });
-  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
-
-  function draw(svg, tipEl, pts, color, fmt) {
-    while (svg.firstChild) svg.removeChild(svg.firstChild);
-    const W = svg.clientWidth || 500, H = 200, m = { l: 44, r: 12, t: 12, b: 26 };
-    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-    const xs = pts.map(p => new Date(p.t).getTime()), ys = pts.map(p => p.v);
-    if (!ys.length) return;
-    const x0 = Math.min(...xs), x1 = Math.max(...xs) || x0 + 1;
-    let lo = Math.min(...ys), hi = Math.max(...ys); if (hi - lo < 2) { lo -= 1; hi += 1; }
-    const X = t => m.l + (x1 === x0 ? 0.5 : (t - x0) / (x1 - x0)) * (W - m.l - m.r);
-    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
-    const ns = 'http://www.w3.org/2000/svg';
-    const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
-    for (let i = 0; i <= 3; i++) {
-      const v = lo + (hi - lo) * i / 3, y = Y(v);
-      svg.appendChild(el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css('--grid'), 'stroke-width': 1 }));
-      const t = el('text', { x: m.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }); t.textContent = fmt(v); svg.appendChild(t);
-    }
-    [x0, x1].forEach((t, i) => {
-      const tx = el('text', { x: X(t), y: H - 8, 'text-anchor': i ? 'end' : 'start', 'font-size': 11, fill: css('--muted') });
-      tx.textContent = new Date(t).toISOString().slice(5, 16).replace('T', ' '); svg.appendChild(tx);
-    });
-    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(xs[i]).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
-    svg.appendChild(el('path', { d, fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
-    pts.forEach((p, i) => svg.appendChild(el('circle', { cx: X(xs[i]), cy: Y(p.v), r: 4, fill: color, stroke: css('--surface'), 'stroke-width': 2 })));
-    const cross = el('line', { y1: m.t, y2: H - m.b, stroke: css('--axis'), 'stroke-width': 1, visibility: 'hidden' }); svg.appendChild(cross);
-    svg.onmousemove = (ev) => {
-      const r = svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * (W / r.width);
-      let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - mx) < Math.abs(X(xs[best]) - mx)) best = i;
-      cross.setAttribute('x1', X(xs[best])); cross.setAttribute('x2', X(xs[best])); cross.setAttribute('visibility', 'visible');
-      tipEl.style.display = 'block'; tipEl.style.left = Math.min(X(xs[best]) * (r.width / W) + 10, r.width - 160) + 'px'; tipEl.style.top = (Y(ys[best]) * (r.height / H) - 36) + 'px';
-      tipEl.textContent = `${pts[best].t.slice(5, 16).replace('T', ' ')} UTC  ${fmt(ys[best])}  (${pts[best].books} books)`;
-    };
-    svg.onmouseleave = () => { cross.setAttribute('visibility', 'hidden'); tipEl.style.display = 'none'; };
-  }
-
-  function render() {
-    const h = hist[+pick.value];
-    const sp = h.snapshots.filter(s => s.spread != null).map(s => ({ t: s.captured_at, v: s.spread, books: s.books }));
-    const to = h.snapshots.filter(s => s.total != null).map(s => ({ t: s.captured_at, v: s.total, books: s.books }));
-    draw(document.getElementById('spreadChart'), document.getElementById('tip1'), sp, css('--s1'), v => (v > 0 ? '+' : '') + v.toFixed(1));
-    draw(document.getElementById('totalChart'), document.getElementById('tip2'), to, css('--s2'), v => v.toFixed(1));
-    const tb = document.getElementById('bookTable');
-    const books = Object.entries(h.latest_by_book).sort();
-    tb.innerHTML = '<tr><th>Book (latest)</th><th class="num">Spread</th><th class="num">Price</th><th class="num">Total</th><th class="num">Price</th><th class="num">ML home</th><th class="num">ML away</th></tr>' +
-      books.map(([k, b]) => `<tr><td>${k}</td><td class="num">${b.spread == null ? '–' : (b.spread > 0 ? '+' : '') + b.spread}</td><td class="num">${b.spread_price ?? '–'}</td><td class="num">${b.total ?? '–'}</td><td class="num">${b.total_price ?? '–'}</td><td class="num">${b.ml_home ?? '–'}</td><td class="num">${b.ml_away ?? '–'}</td></tr>`).join('');
-  }
-  pick.onchange = render;
-  // Default to the next game to tip.
-  const now = Date.now(); let idx = hist.findIndex(h => new Date(h.commence_time).getTime() > now); pick.value = idx < 0 ? hist.length - 1 : idx;
-  render();
-  window.addEventListener('resize', render);
 })();
 </script>
 </body>

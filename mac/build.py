@@ -264,7 +264,7 @@ def render_site() -> str:
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
-    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
+    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)

@@ -580,3 +580,20 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .tipjar .tj-btn:hover { background: #0074d4; }
 @media (max-width: 640px) { .tipjar { grid-template-columns: auto 1fr; } .tipjar .tj-btn { grid-column: 1 / -1; text-align: center; } }
 .sitefoot .sf-tip { display: inline-block; margin-right: 8px; text-decoration: none; }
+
+/* Access-wall tabs: maple text and a faint maple wash, so the code-only screens read as their own set */
+.tb-nav > a.desk { color: #ecd3a2; background: rgba(236,211,162,.08); }
+.tb-nav > a.desk:hover { color: #f6e7c8; background: rgba(236,211,162,.18); }
+.tb-nav > a.desk.on { color: #f6e7c8; background: rgba(236,211,162,.22); }
+
+/* Locked region (Home's line moves): a greyed-out teaser with the unlock line over it */
+.hb-region { position: relative; border-radius: 12px; overflow: hidden; }
+.hb-tease { filter: grayscale(1) blur(2.5px); opacity: .55; pointer-events: none; user-select: none; color: var(--muted); }
+.hb-tease .tease-chart { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.hb-tease .tease-chart svg { width: 100%; height: 170px; background: var(--neutral); border-radius: 10px; }
+.hb-tease .tease-rows { display: grid; gap: 8px; margin-top: 14px; }
+.hb-tease .tease-rows i { display: block; height: 18px; border-radius: 6px; background: var(--neutral); }
+.hb-tease-lock { position: absolute; inset: 0; display: grid; place-content: center; gap: 6px; text-align: center; padding: 16px; }
+.hb-tease-lock b { font-size: 17px; color: var(--ink); }
+.hb-tease-lock span { color: var(--ink-2); font-size: 14px; max-width: 420px; }
+@media (max-width: 640px) { .hb-tease .tease-chart { grid-template-columns: 1fr; } }
