@@ -32,19 +32,36 @@
       <div class="tn-game">
         <div class="tn-time"><b>{{ g.et.time if not g.et.tba else 'TBA' }}</b><small>{{ g.et.weekday }} · ET · {% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>
         <div class="tn-match">
-          <a href="tv.html#g{{ g.game_id }}"><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}</span>
+          <a href="{{ ('games/' ~ g.game_id ~ '.html') if g.mv else ('tv.html#g' ~ g.game_id) }}"><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}</span>
           <span class="tm-row">{{ tm(g.home) }} {{ 'vs' if g.neutral_site else '@' }} {{ (d.teams|selectattr('key','equalto',g.home.key)|first).short if g.home.key else g.home.name|school }}</span></a>
         </div>
         {% if ln and ln.spread is not none %}
         <div class="tn-stat"><b>{% if ln.spread < 0 %}{{ g.home.abbr }} {{ '%g'|format(ln.spread) }}{% elif ln.spread > 0 %}{{ g.away.abbr }} {{ '%g'|format(-ln.spread) }}{% else %}PK{% endif %}</b><small>spread · {{ ln.books }} books</small></div>
         <div class="tn-stat"><b>{{ '%g'|format(ln.total) if ln.total is not none else '–' }}</b><small>total</small></div>
-        {% if mdl and mdl.spread_edge and not (mdl.away.non_d1 or mdl.home.non_d1) %}<div class="tn-edge" title="Model leans {{ mdl.spread_edge.take }}"><b>{{ '%.1f'|format(mdl.spread_edge.abs) }}</b><small>pts model gap</small></div>{% endif %}
         {% else %}
         <div class="tn-none">{% if mdl and (mdl.away.non_d1 or mdl.home.non_d1) %}No line: non-D-I opponent{% else %}Line not posted yet{% endif %}</div>
         {% endif %}
+        {% if g.mv %}<div class="tn-model">{{ L.model_strip(g.mv, g.away, g.home, href='games/' ~ g.game_id ~ '.html') }}</div>{% endif %}
+        {% if g.ptw %}<div class="tn-watch">{{ L.watch_list(g.ptw, compact=True) }}</div>{% endif %}
       </div>
       {% endfor %}
     </div>
+  </section>
+  {% endif %}
+
+  {% if d.model_board %}
+  <section id="model-board">
+    <div class="sechead"><h2>Where the model leans</h2><span class="dim">Every game with a posted line, biggest gap first</span><a class="more" href="ratings.html">How the model works →</a></div>
+    <div class="mboard">
+      {% for g in d.model_board[:9] %}{% set mv = g.mv %}
+      <a class="mb-card" href="games/{{ g.game_id }}.html">
+        <span class="mb-top"><span><b>{{ g.away.abbr }} {{ 'vs' if g.neutral_site else '@' }} {{ g.home.abbr }}</b> <small>{{ g.et.weekday }} {{ g.et.time if not g.et.tba else 'TBA' }}</small></span><small>model {{ g.away.abbr }} {{ mv.away_pts }}, {{ g.home.abbr }} {{ mv.home_pts }}</small></span>
+        {{ L.winbar(mv, g.away, g.home) }}
+        <span class="mb-leans">{{ L.lean_chip(mv.side) }}{{ L.lean_chip(mv.ou) }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {{ L.lean_legend() }}
   </section>
   {% endif %}
 

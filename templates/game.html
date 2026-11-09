@@ -41,6 +41,26 @@
   <div class="author-only" style="margin:-6px 0 16px">{{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr, root="../") }}</div>
   {% endif %}
 
+  {% if mp %}
+  <section id="model">
+    <div class="sechead"><h2>What the model said</h2><span class="dim">Projected that morning with only earlier games</span></div>
+    <div class="pv-nums" style="margin-bottom:12px">
+      <div><b>{{ away.abbr }} {{ (mp.model_total / 2 + mp.model_spread / 2)|round|int }}, {{ home.abbr }} {{ (mp.model_total / 2 - mp.model_spread / 2)|round|int }}</b><small>model score</small></div>
+      <div><b>{{ fmt_spread(mp.model_spread) }}</b><small>model spread (home)</small></div>
+      <div><b>{{ '%.1f'|format(mp.model_total) }}</b><small>model total</small></div>
+      <div><b>{{ '%.1f'|format(mp.model_err) }}</b><small>points off the final margin</small></div>
+    </div>
+    {% if mp.side or mp.ou %}
+    <div class="mb-leans">
+      {% if mp.side %}{% set sd = {'kind': mp.side.kind, 'label': mp.side.label, 'take': (home.abbr if mp.side.home else away.abbr) ~ ' ' ~ ('PK' if mp.side.num == 0 else '%+g'|format(mp.side.num)), 'gap': mp.side.gap, 'pct': mp.side.pct, 'tier': mp.side.tier} %}{{ L.lean_chip(sd) }}{% if mp.side.res %} <span class="res-{{ mp.side.res|lower }}">{{ 'Won' if mp.side.res == 'W' else 'Lost' }}</span>{% endif %}{% endif %}
+      {% if mp.ou %}{% set od = {'kind': mp.ou.kind, 'label': mp.ou.label, 'take': mp.ou.label ~ ' ' ~ '%g'|format(mp.close_total), 'gap': mp.ou.gap, 'pct': mp.ou.pct, 'tier': mp.ou.tier} %}{{ L.lean_chip(od) }}{% if mp.ou.res %} <span class="res-{{ mp.ou.res|lower }}">{{ 'Won' if mp.ou.res == 'W' else 'Lost' }}</span>{% endif %}{% endif %}
+    </div>
+    {{ L.lean_legend() }}
+    {% endif %}
+    <div class="note">Leans are against the DraftKings closing line ESPN carries. Season record on the <a href="../ratings.html">ratings page</a>.</div>
+  </section>
+  {% endif %}
+
   <div class="grid two">
     <section>
       <h2>Line and result</h2>

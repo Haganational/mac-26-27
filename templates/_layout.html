@@ -160,3 +160,37 @@
 </article>
 {% endfor %}
 {%- endmacro %}
+
+{#- The model, color-coded. Over = ember, under = blue, favorite = violet, underdog = teal;
+    the deeper the shade, the bigger the gap between the model and the market. -#}
+{% macro lean_chip(x, prefix="Lean ") -%}
+{% if x %}<span class="lean lean-{{ x.kind }}{{ ' deep' if x.pct >= 60 }}" style="--lp:{{ x.pct }}%" title="{{ x.label }} lean: model is {{ '%.1f'|format(x.gap) }} pts off the market ({{ x.tier }})">{% if x.kind in ('fav', 'dog') %}<span class="ln-k">{{ x.label }}</span>{% endif %}<b>{{ x.take }}</b><span class="ln-g">{{ '%.1f'|format(x.gap) }}</span></span>{% endif %}
+{%- endmacro %}
+
+{% macro winbar(mv, away, home) -%}
+<span class="winbar" title="Model win chance: {{ away.abbr }} {{ mv.away_win }}%, {{ home.abbr }} {{ mv.home_win }}%"><i class="{{ 't-' ~ away.key if away.key else 'opp' }}" style="width:{{ mv.away_win }}%"></i><i class="{{ 't-' ~ home.key if home.key else 'opp' }}" style="width:{{ mv.home_win }}%"></i></span>
+{%- endmacro %}
+
+{% macro model_strip(mv, away, home, href="", root="") -%}
+{% if mv %}<div class="mstrip">
+  <a class="ms-proj" href="{{ root }}{{ href }}" title="Model projection and win chance"><span class="ms-k">Model</span><span class="ms-score"><span>{{ away.abbr }} <b>{{ mv.away_pts }}</b></span><span>{{ home.abbr }} <b>{{ mv.home_pts }}</b></span></span>{{ winbar(mv, away, home) }}<span class="ms-sub">{{ mv.fav_line }} · total {{ '%.1f'|format(mv.total) }} · {{ mv.fav_abbr }} wins {{ [mv.home_win, mv.away_win]|max }}%</span></a>
+  {% if mv.side or mv.ou %}<span class="ms-leans">{{ lean_chip(mv.side) }}{{ lean_chip(mv.ou) }}</span>
+  {% elif mv.non_d1 %}<span class="ms-none">Non-D-I opponent: no line, no lean</span>
+  {% else %}<span class="ms-none">Leans light up when books post a line</span>{% endif %}
+</div>{% endif %}
+{%- endmacro %}
+
+{% macro watch_list(pls, root="", compact=False) -%}
+{% if pls %}<div class="ptw{{ ' compact' if compact }}">{% if compact %}<span class="ptw-k">Players to watch</span>{% endif %}
+  {% for p in pls %}<a class="ptw-p ptw-{{ p.kind }} t-{{ p.team_key }}" href="{{ root }}{{ p.href }}" title="{{ p.name }}, {{ p.abbr }}: overall {{ '%+.1f'|format(p.net) }}, offense {{ '%+.1f'|format(p.off) }}, defense {{ '%+.1f'|format(p.def) }} per 100 possessions{% if p.ppg is not none %}; {{ p.ppg }} ppg in {{ p.mpg }} min{% endif %}">
+    <span class="ptw-role">{{ p.word|title if compact else p.role }}</span>
+    <span class="ptw-name"><i class="tdot"></i>{{ p.name }} <small>{{ p.abbr }}{% if p.pos %} · {{ p.pos }}{% endif %}</small></span>
+    <span class="ptw-val"><b>{{ '%+.1f'|format(p.value) }}</b><small>{% if p.rank %}#{{ p.rank }} {{ p.word }} in MAC{% endif %}</small></span>
+    {% if not compact %}<span class="ptw-bars">{% for k, lab in [('net', 'All'), ('off', 'Off'), ('def', 'Def')] %}{% set v = p[k] or 0 %}<span class="pb pb-{{ k }}{{ ' on' if k == p.kind }}"><small>{{ lab }}</small><span class="pb-t"><i style="{{ 'left:50%' if v >= 0 else 'right:50%' }};width:{{ ([v|abs, 10]|min * 5)|round }}%" class="{{ 'neg' if v < 0 }}"></i></span><em>{{ '%+.1f'|format(v) }}</em></span>{% endfor %}</span>{% endif %}
+  </a>{% endfor %}
+</div>{% endif %}
+{%- endmacro %}
+
+{% macro lean_legend() -%}
+<div class="lean-legend"><span class="lean lean-over" style="--lp:70%"><span class="ln-k">Over</span></span><span class="lean lean-under" style="--lp:70%"><span class="ln-k">Under</span></span><span class="lean lean-fav" style="--lp:70%"><span class="ln-k">Favorite</span></span><span class="lean lean-dog" style="--lp:70%"><span class="ln-k">Underdog</span></span><span class="ll-ramp"><i style="--lp:18%"></i><i style="--lp:42%"></i><i style="--lp:66%"></i><i style="--lp:90%"></i></span><span class="dim">Deeper shade = bigger gap between the model and the market (full color at 6 pts). The number on each chip is that gap.</span></div>
+{%- endmacro %}

@@ -252,6 +252,11 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
     games = load_schedule()["games"]
     mac, table = mac_table(r, prior, rows, names, games, now)
     upcoming = project_upcoming(r, games, now)
+    by_id = {t["id"]: t for t in table}
+    for u in upcoming:  # each side's ratings and D-I ranks, for the game preview pages
+        for side in ("home", "away"):
+            t = by_id.get(u[side]["espn_id"])
+            u[side]["rt"] = {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "rk_adj_o", "rk_adj_d", "rk_adj_t")} if t else None
     std = season_to_date(rows, prior)
     for g in std:
         for side in ("home", "away"):
