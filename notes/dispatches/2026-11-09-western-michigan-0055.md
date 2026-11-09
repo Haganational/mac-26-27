@@ -1,5 +1,6 @@
 ---
 kind: arena
+game: 401920739   # Campbell at Western Michigan, Nov 8
 team: western-michigan
 player: 5243136   # Jaylen Washington Jr.
 title: Broncos mystery roster draining from deep

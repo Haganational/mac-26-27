@@ -66,12 +66,14 @@
       <label for="game">Game</label>
       <input type="text" id="game" list="games" placeholder="Start typing a team or date (leave blank for none)">
       <datalist id="games">{% for g in games %}<option value="{{ g.label }}"></option>{% endfor %}</datalist>
+      <div class="hint" id="gamehint" aria-live="polite"></div>
       <label>Teams</label>
       <div class="teamchk">{% for t in nav_teams %}<label><input type="checkbox" name="team" value="{{ t.key }}">{{ t.short }}</label>{% endfor %}</div>
       <div class="hint">A game note is filed with both teams automatically.</div>
       <label for="player">Player</label>
       <input type="text" id="player" list="players" placeholder="Start typing a name (leave blank for none)">
       <datalist id="players">{% for p in players %}<option value="{{ p.label }}"></option>{% endfor %}</datalist>
+      <div class="hint" id="playerhint" aria-live="polite"></div>
       <label for="title">Headline</label>
       <input type="text" id="title" placeholder="Optional">
       <label for="date">Date</label>
@@ -139,8 +141,23 @@
   /* ---------- form <-> file */
   const pad = (n) => String(n).padStart(2, '0');
   function today() { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; }
+  // Typed text that isn't an exact pick from the list still files, as long as it points to one game or player.
+  const fold = (x) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9/ ]+/g, ' ');
+  function lookup(text, byLabel) {
+    const t = text.trim(); if (!t) return null;
+    if (byLabel.has(t)) return byLabel.get(t);
+    const toks = fold(t).split(/\s+/).filter(Boolean);
+    const hits = [...byLabel.entries()].filter(([l, x]) => { const f = fold(l + ' ' + (x.also || '')); return toks.every(k => f.includes(k)); });
+    return hits.length === 1 ? hits[0][1] : null;
+  }
+  function hint(id, text, item, what) {
+    const el = $(id); if (!el) return;
+    el.textContent = !text.trim() ? '' : item ? `✓ Filed to ${item.label}` : `Not matched to a ${what} yet: pick one from the list, or this note won't be filed to it.`;
+    el.style.color = text.trim() && !item ? 'var(--bad)' : '';
+  }
   function form() {
-    const g = gameByLabel.get($('#game').value.trim()), p = playerByLabel.get($('#player').value.trim());
+    const g = lookup($('#game').value, gameByLabel), p = lookup($('#player').value, playerByLabel);
+    hint('#gamehint', $('#game').value, g, 'game'); hint('#playerhint', $('#player').value, p, 'player');
     return { kind: ($('input[name=kind]:checked') || {}).value || 'arena', game: g ? g.id : '', teams: $$('input[name=team]:checked').map(i => i.value),
              player: p ? p.id : '', playerName: p ? p.name : '', title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
   }

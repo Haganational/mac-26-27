@@ -497,7 +497,8 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
     players_list = sorted(({"id": str(p["espn_id"]), "name": p["name"], "label": f"{p['name']} ({key_abbr.get(key, key)})"}
                            for key, plist in profiles.items() for p in plist), key=lambda p: p["label"])
     desk = {
-        "games": [{"id": r["game_id"], "label": f"{r['when']} · {r['label']}", "teams": game_keys.get(r["game_id"], [])}
+        "games": [{"id": r["game_id"], "label": f"{r['when']} · {r['label']}", "teams": game_keys.get(r["game_id"], []),
+                   "also": " ".join(key_abbr.get(k, k) for k in game_keys.get(r["game_id"], []))}  # "WMU" finds the game too
                   for r in sorted(rows, key=lambda r: r["dt"])],
         "players": players_list,
         "teams": [{"key": t.key, "short": t.short} for t in TEAMS],
