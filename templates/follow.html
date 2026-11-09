@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC on X</title>
+<meta name="description" content="Checklist of MAC men's basketball team, coach, player and media accounts to follow on a free X account.">
+<link rel="stylesheet" href="static/site.css">
+<style>
+  .fl { list-style: none; margin: 0; padding: 0; }
+  .fl li { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--grid); font-size: 14px; }
+  .fl li:last-child { border-bottom: 0; }
+  .fl input { width: 18px; height: 18px; flex: none; accent-color: var(--s1); }
+  .fl .nm { flex: 1; min-width: 0; }
+  .fl .nm small { color: var(--muted); }
+  .fl .h { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; }
+  .fl li.done .nm, .fl li.done .h { opacity: .5; }
+  .fl .find { color: var(--ink-2); font-size: 13px; }
+  .note { color: var(--warn); font-size: 12px; }
+  .teams { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 760px) { .teams { grid-template-columns: 1fr 1fr; } }
+  .teams section { margin: 0; }
+  .thead { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .thead img { width: 28px; height: 28px; }
+  .thead .ct { margin-left: auto; color: var(--ink-2); font-size: 12px; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 12px 0 2px; }
+  ol.steps { margin: 0; padding-left: 20px; } ol.steps li { margin: 4px 0; }
+  .bar { height: 8px; background: var(--neutral); border-radius: 4px; overflow: hidden; margin-top: 6px; }
+  .bar span { display: block; height: 100%; background: var(--s3); width: 0; }
+  button { font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Follow on X</nav>
+  <header>
+    <h1>Follow the MAC on X</h1>
+    <span class="sub">Every team, coach and player handle the schools list on their official {{ d.season }} roster pages, checked {{ x.checked_at }}. Tick a box after you follow; ticks stay in this browser.</span>
+  </header>
+
+  <div class="tiles">
+    <div class="tile"><div class="v">{{ counts.handles }}</div><div class="k">accounts to follow</div></div>
+    <div class="tile"><div class="v">{{ counts.players }} / {{ counts.roster }}</div><div class="k">players with a handle on their school site</div></div>
+    <div class="tile"><div class="v" id="done">0</div><div class="k">followed so far</div><div class="bar"><span id="bar"></span></div></div>
+  </div>
+
+  <section>
+    <h2>Free account, no paid tier</h2>
+    <ol class="steps">
+      <li>Go to <a href="https://x.com/i/flow/signup" target="_blank" rel="noopener">x.com/i/flow/signup</a>, sign up with an email, and verify the code. Skip every Premium or Verified prompt; nothing here needs it.</li>
+      <li>Pick a handle and skip the "follow suggestions" step (or follow <a href="https://x.com/MACSports" target="_blank" rel="noopener">@MACSports</a> there).</li>
+      <li>Work down this page: each handle opens the profile in a new tab, press Follow, come back and tick the box.</li>
+      <li>Optional: make a private List per team (Profile → Lists → New List) and add the same accounts, so each team gets its own clean timeline.</li>
+      <li>For players with no handle listed, the "find" link runs an X people search (works once you're signed in). Match the bio to the school before following.</li>
+    </ol>
+    <p class="sub" style="margin:10px 0 0">The free tier can read and follow normally in the app. Its API can't read timelines, so posts aren't pulled into this dashboard. <button id="copy">Copy all handles</button> <button id="reset">Clear ticks</button></p>
+  </section>
+
+  <section>
+    <h2>League and MAC-wide media</h2>
+    <ul class="fl">
+      {% for a in x.league %}<li data-h="{{ a.handle }}"><input type="checkbox" aria-label="Followed {{ a.handle }}"><span class="nm">{{ a.name }}</span><a class="h" href="https://x.com/{{ a.handle }}" target="_blank" rel="noopener">@{{ a.handle }}</a></li>{% endfor %}
+      {% for m in x.league_media %}<li><span class="nm">{{ m.name }} <small>{{ m.outlet }}</small></span><a class="find" href="https://x.com/search?q={{ (m.name ~ ' ' ~ m.outlet)|urlencode }}&amp;f=user" target="_blank" rel="noopener">find on X</a></li>{% endfor %}
+    </ul>
+  </section>
+
+  <div class="teams">
+  {% for t in teams %}
+    <section id="{{ t.key }}">
+      <div class="thead"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ t.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><h3><a href="teams/{{ t.key }}.html">{{ t.short }}</a></h3><span class="ct">{{ t.n_handles }} to follow · <a href="{{ t.roster_url }}" target="_blank" rel="noopener">school roster</a></span></div>
+      <h4>Team</h4>
+      <ul class="fl">
+        {% for h in t.team_accounts %}<li data-h="{{ h }}"><input type="checkbox" aria-label="Followed {{ h }}"><span class="nm">{{ t.short }} men's basketball</span><a class="h" href="https://x.com/{{ h }}" target="_blank" rel="noopener">@{{ h }}</a></li>
+        {% else %}<li><span class="nm">{{ t.short }} men's basketball <small>not linked on the school site</small></span><a class="find" href="https://x.com/search?q={{ (t.name ~ ' basketball')|urlencode }}&amp;f=user" target="_blank" rel="noopener">find on X</a></li>{% endfor %}
+      </ul>
+      {% if t.coaches %}<h4>Coaches</h4>
+      <ul class="fl">
+        {% for c in t.coaches %}<li data-h="{{ c.handle }}"><input type="checkbox" aria-label="Followed {{ c.handle }}"><span class="nm">{{ c.name }}{% if c.head %} <small>head coach</small>{% endif %}{% if c.note %} <small>{{ c.note }}</small>{% endif %}</span><a class="h" href="https://x.com/{{ c.handle }}" target="_blank" rel="noopener">@{{ c.handle }}</a></li>{% endfor %}
+      </ul>{% endif %}
+      <h4>Players</h4>
+      <ul class="fl">
+        {% for p in t.players %}{% if p.handle %}<li data-h="{{ p.handle }}"><input type="checkbox" aria-label="Followed {{ p.handle }}"><span class="nm">{{ p.name }} <small>#{{ p.jersey }} {{ p.position }}</small>{% if p.note %}<br><span class="note">{{ p.note }}</span>{% endif %}</span><a class="h" href="https://x.com/{{ p.handle }}" target="_blank" rel="noopener">@{{ p.handle }}</a></li>
+        {% else %}<li><span class="nm">{{ p.name }} <small>#{{ p.jersey }} {{ p.position }} · no handle on school site</small></span><a class="find" href="https://x.com/search?q={{ (p.name ~ ' ' ~ t.short)|urlencode }}&amp;f=user" target="_blank" rel="noopener">find on X</a></li>{% endif %}{% endfor %}
+      </ul>
+      {% if t.writers %}<h4>Beat writers</h4>
+      <ul class="fl">
+        {% for w in t.writers %}<li><span class="nm">{{ w.name }} <small>{{ w.outlet }}</small></span><a class="find" href="https://x.com/search?q={{ w.name|urlencode }}&amp;f=user" target="_blank" rel="noopener">find on X</a></li>{% endfor %}
+      </ul>{% endif %}
+    </section>
+  {% endfor %}
+  </div>
+</main>
+<script>
+(function () {
+  var KEY = "mac-x-followed";
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { done = {}; }
+  var rows = Array.prototype.slice.call(document.querySelectorAll("li[data-h]"));
+  var unique = {};
+  rows.forEach(function (li) { unique[li.dataset.h.toLowerCase()] = li.dataset.h; });
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
+  function paint() {
+    var n = 0, total = Object.keys(unique).length;
+    Object.keys(unique).forEach(function (k) { if (done[k]) n++; });
+    rows.forEach(function (li) {
+      var on = !!done[li.dataset.h.toLowerCase()];
+      li.classList.toggle("done", on);
+      li.querySelector("input").checked = on;
+    });
+    document.getElementById("done").textContent = n + " / " + total;
+    document.getElementById("bar").style.width = (total ? 100 * n / total : 0) + "%";
+  }
+  rows.forEach(function (li) {
+    li.querySelector("input").addEventListener("change", function (e) {
+      var k = li.dataset.h.toLowerCase();
+      if (e.target.checked) done[k] = 1; else delete done[k];
+      save(); paint();
+    });
+  });
+  document.getElementById("copy").addEventListener("click", function (e) {
+    var text = Object.keys(unique).map(function (k) { return "@" + unique[k]; }).join("\n");
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { e.target.textContent = "Copied"; });
+  });
+  document.getElementById("reset").addEventListener("click", function () { done = {}; save(); paint(); });
+  paint();
+})();
+</script>
+</body>
+</html>
