@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import access, analysis, model, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import access, analysis, model, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -83,6 +83,15 @@ def player_ranks(pls: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
         for i, pl in enumerate(sorted(out.values(), key=lambda x: -(x.get(key) or 0)), 1):
             pl[rk] = i
     return out
+
+
+def feature_model(data: dict[str, Any], prate: dict[str, dict[str, Any]]) -> None:
+    """Color-coded model view and players to watch on every upcoming game, plus Home's model board."""
+    for g in data["upcoming"]:
+        g["mv"] = model_view.view(g.get("model"))
+        g["ptw"] = model_view.players_to_watch([g["home"].get("key"), g["away"].get("key")], prate, len(prate))
+    board = [g for g in data["upcoming"] if g.get("mv") and (g["mv"]["side"] or g["mv"]["ou"])]
+    data["model_board"] = sorted(board, key=lambda g: -g["mv"]["max_gap"])
 
 
 def tonight_games(upcoming: list[dict[str, Any]], now: datetime, hours: int = 36) -> list[dict[str, Any]]:
@@ -326,6 +335,8 @@ def render_site() -> str:
         for g in data["upcoming"]:
             g["model"] = proj.get(g["game_id"])
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
+    prate = player_ranks((m.get("players") or {}).get("players") or []) if m else {}
+    feature_model(data, prate)
     data["tonight"] = tonight_games(data["upcoming"], now)
     data["book_names"] = {b: oddsboard.book_name(b) for h in data["history"] for b in h["latest_by_book"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
@@ -361,19 +372,22 @@ def render_site() -> str:
     game_tpl = env.get_template("game.html")
     by_id = {g["game_id"]: g for g in games}
     have_box = set()
+    said = {str(x["id"]): x for x in (m or {}).get("season_to_date", [])}
     for gid, box in boxes.items():
         g = by_id.get(gid)
         if not g or not g["completed"]:
             continue
         snap = history.get(mapping.get(gid, ""))
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               **game_page_context(g, box, snap, ctx))
+                               mp=model_view.past_view(said.get(gid)), **game_page_context(g, box, snap, ctx))
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
 
     # Where a game name links: its box score once played, otherwise its odds while a line is up.
     game_href = {g["game_id"]: f"odds.html#ev{g['line']['odds_event_id']}" for g in data["upcoming"]
                  if g.get("line") and g["line"].get("odds_event_id")}
+    previews = [g for g in data["upcoming"] if g.get("mv") and g["game_id"] not in have_box]
+    game_href.update({g["game_id"]: f"games/{g['game_id']}.html" for g in previews})  # preview page until it's played
     game_href.update({gid: f"games/{gid}.html" for gid in have_box})
     env.globals["game_href"] = game_href
 
@@ -431,6 +445,11 @@ def render_site() -> str:
     for g in data["upcoming"]:
         g["travel_home"] = ctx.get((g["game_id"], g["home"]["key"])) if g["home"].get("key") else None
         g["travel_away"] = ctx.get((g["game_id"], g["away"]["key"])) if g["away"].get("key") else None
+    # Game previews: the model's projection, leans, players to watch, line, rest and travel.
+    preview_tpl = env.get_template("preview.html")
+    for g in previews:
+        (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
+            d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], [])))
     (SITE_DIR / "index.html").write_text(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
@@ -442,7 +461,6 @@ def render_site() -> str:
             for gl in p.get("game_log", []):
                 gl["box"] = gl["game_id"] in have_box
     team_tpl = env.get_template("team.html")
-    prate = player_ranks((m.get("players") or {}).get("players") or []) if m else {}
     for team in TEAMS:
         html = team_tpl.render(
             d=data,
@@ -458,6 +476,7 @@ def render_site() -> str:
             team_notes=notes.for_team(dispatches, team.key), player_notes=notes_by_player,
             rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
+            mvs={u["game_id"]: model_view.view(u) for u in m["upcoming"]} if m else {},
             prate=prate, prate_n=len(prate),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)

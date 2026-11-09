@@ -1,0 +1,136 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
+{% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · MAC {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
+{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html") }}
+</head>
+<body>
+{{ L.topbar(root="../", active="") }}
+<main id="main">
+{% macro tlink(side) %}{% if side.key %}<a href="../teams/{{ side.key }}.html">{{ side.name }}</a>{% else %}{{ side.name }}{% endif %}{% endmacro %}
+{% macro spr(v) %}{% if v is none %}–{% elif v < 0 %}{{ home.abbr }} {{ '%g'|format(v) }}{% elif v > 0 %}{{ away.abbr }} {{ '%g'|format(-v) }}{% else %}PK{% endif %}{% endmacro %}
+  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> <a href="../tv.html#g{{ g.game_id }}">Schedule</a> <span class="dim">/</span> Preview
+    <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html" class="t-{{ t.key }}">{{ t.short }}</a>{% endfor %}</span>
+  </nav>
+
+  <header class="scorehead">
+    {% for side, pts in [(away, mv.away_pts), (home, mv.home_pts)] %}
+    <div class="side{{ ' t-' ~ side.key if side.key }}">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" width="48" height="48">
+      <div>
+        <div class="tname">{{ tlink(side) }}</div>
+        <div class="sub">{{ 'Neutral' if g.neutral_site else ('Home' if loop.last else 'Away') }} · model win chance {{ mv.home_win if loop.last else mv.away_win }}%</div>
+      </div>
+      <div class="big" title="Model's projected points">{{ pts }}</div>
+    </div>
+    {% endfor %}
+  </header>
+  <div class="sub" style="margin:-8px 0 18px">
+    Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
+    · {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
+    {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
+    {% if g.conference_game %} · <span class="pill">MAC</span>{% endif %}
+    · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>
+    · <a href="#" data-share data-share-title="{{ away.abbr }} at {{ home.abbr }}: the model says {{ mv.fav_line }}">Share this preview</a>
+  </div>
+
+  <section id="model">
+    <div class="sechead"><h2>The model's call</h2><span class="dim">Rating model v1 · updated {{ d.generated_et }}</span></div>
+    <div class="pv-model">
+      <div>
+        <div class="pv-score">
+          {% for side, pts, wp in [(away, mv.away_pts, mv.away_win), (home, mv.home_pts, mv.home_win)] %}
+          <span class="tm{{ ' t-' ~ side.key if side.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy">{{ tlink(side) }}</span>
+          <span class="pts">{{ pts }}<small>{{ wp }}% to win</small></span>
+          {% endfor %}
+        </div>
+        <div style="margin:10px 0 12px">{{ L.winbar(mv, away, home) }}</div>
+        <div class="pv-nums">
+          <div><b>{{ mv.fav_line }}</b><small>model spread</small></div>
+          <div><b>{{ '%.1f'|format(mv.total) }}</b><small>model total</small></div>
+          <div><b>{{ '%.0f'|format(mv.poss) }}</b><small>possessions</small></div>
+          {% if g.line and g.line.latest.spread is not none %}<div><b>{{ spr(g.line.latest.spread) }}</b><small>market · {{ g.line.latest.books }} books</small></div>{% endif %}
+        </div>
+      </div>
+      <div class="pv-leans">
+        {% if mv.side %}<div class="pv-lean">{{ L.lean_chip(mv.side) }}
+          <p>Model makes it <b>{{ mv.fav_line }}</b>; the market says <b>{{ spr(mv.market.spread) }}</b>. That is {{ '%.1f'|format(mv.side.gap) }} points of daylight toward {{ mv.side.abbr }}, a {{ mv.side.tier }} lean on the {{ mv.side.label|lower }}.</p></div>{% endif %}
+        {% if mv.ou %}<div class="pv-lean">{{ L.lean_chip(mv.ou) }}
+          <p>Model total <b>{{ '%.1f'|format(mv.total) }}</b> against a market <b>{{ '%g'|format(mv.market.total) }}</b>: a {{ mv.ou.tier }} lean to the {{ mv.ou.label|lower }} by {{ '%.1f'|format(mv.ou.gap) }}.</p></div>{% endif %}
+        {% if not mv.side and not mv.ou %}<p class="empty" style="margin:0">{% if mv.non_d1 %}{{ away.abbr if away.non_d1 else home.abbr }} is not Division I, so books don't post this one and the model's number is rough (every non-D-I team shares one pooled rating).{% else %}No line yet. MAC lines usually post about a day ahead; once books post, the model's side and total leans show here in color.{% endif %}</p>{% endif %}
+        {{ L.lean_legend() }}
+      </div>
+    </div>
+    <div class="note">Projections come from opponent-adjusted offense, defense and pace for every D-I team, with home court. Player absences are not in the number yet. A lean is the gap between the model and the market, not a guarantee. 21+.</div>
+  </section>
+
+  {% if g.ptw %}
+  <section id="watch">
+    <div class="sechead"><h2>Players to watch</h2><span class="dim">Box-score ratings, points per 100 possessions vs an average D-I player</span></div>
+    {{ L.watch_list(g.ptw, root="../") }}
+    <div class="note">Best overall is the top net rating among regulars in this game; offensive engine and defensive anchor are the best on each end. Ranks are among {{ g.ptw[0].of }} rated MAC players. Early in the season these lean on last year's numbers. Tap a player for his profile.</div>
+  </section>
+  {% endif %}
+
+  <div class="grid two">
+    <section id="matchup">
+      <h2>Team ratings</h2>
+      <table>
+        <tr><th></th><th class="num">{{ away.abbr }}</th><th class="num">{{ home.abbr }}</th></tr>
+        {% set ra, rh = u.away.rt, u.home.rt %}
+        {% for lab, k, rk, fmt in [('Net rating', 'adj_em', 'rk_adj_em', '%+.1f'), ('Offense', 'adj_o', 'rk_adj_o', '%.1f'), ('Defense', 'adj_d', 'rk_adj_d', '%.1f'), ('Tempo', 'adj_t', 'rk_adj_t', '%.1f')] %}
+        <tr><td>{{ lab }}</td>{% for r in [ra, rh] %}<td class="num">{% if r %}<b>{{ fmt|format(r[k]) }}</b> <small class="dim">#{{ r[rk] }}</small>{% else %}<span class="dim">non-D-I</span>{% endif %}</td>{% endfor %}</tr>
+        {% endfor %}
+        <tr><td>Games this season</td><td class="num">{{ u.away.games }}</td><td class="num">{{ u.home.games }}</td></tr>
+      </table>
+      <div class="note">Per 100 possessions, adjusted for opponent and venue; # is the D-I rank of 365. Defense: lower is better. Full table on the <a href="../ratings.html">ratings page</a>.</div>
+    </section>
+
+    <section id="line">
+      <h2>Line, rest and travel</h2>
+      {% if g.line %}
+      <table>
+        <tr><th></th><th class="num">Spread</th><th class="num">Total</th></tr>
+        <tr><td>First seen</td><td class="num">{{ spr(g.line.open_spread) }}</td><td class="num">{{ g.line.open_total if g.line.open_total is not none else '–' }}</td></tr>
+        <tr><td>Now <span class="dim">({{ g.line.latest.books }} books)</span></td><td class="num"><b>{{ spr(g.line.latest.spread) }}</b></td><td class="num"><b>{{ g.line.latest.total if g.line.latest.total is not none else '–' }}</b></td></tr>
+        <tr><td>Model</td><td class="num">{{ mv.fav_line }}</td><td class="num">{{ '%.1f'|format(mv.total) }}</td></tr>
+      </table>
+      <p style="margin:10px 0 0"><a class="oddslink" href="../odds.html#ev{{ g.line.odds_event_id }}">Every book's price →</a></p>
+      {% else %}<p class="empty" style="margin-top:0">No line posted yet. <a href="../viz.html">When MAC lines post →</a></p>{% endif %}
+      <table style="margin-top:12px">
+        <tr><th>Team</th><th class="num">Rest days</th><th class="num">Miles in</th><th class="num">Time zone</th></tr>
+        {% for side, c in [(away, g.travel_away), (home, g.travel_home)] %}
+        <tr><td>{{ tlink(side) }}</td>{% if c %}<td class="num">{{ c.rest_days if c.rest_days is not none else '–' }}{% if c.rest_days is not none and c.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</td><td class="num">{{ "{:,}".format(c.miles_in) }}</td><td class="num">{{ ("%+d h"|format(c.tz_shift)) if c.tz_shift else "same" }}</td>
+        {% else %}<td colspan="3" class="dim">non-MAC team, not tracked</td>{% endif %}</tr>
+        {% endfor %}
+      </table>
+      <div class="note">Miles are an estimate from the <a href="../travel.html">travel model</a>.</div>
+    </section>
+  </div>
+
+  {% if game_notes %}
+  <section>
+    <h2>Fieldhouse Notes</h2>
+    {{ L.dispatches(game_notes, root="../") }}
+    {{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr, root="../") }}
+  </section>
+  {% else %}
+  <div class="author-only" style="margin:-6px 0 16px">{{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr, root="../") }}</div>
+  {% endif %}
+</main>
+{{ L.footer(root="../", updated=d.generated_et) }}
+<script>
+(function () {
+  function tick() {
+    document.querySelectorAll('.cd[data-tip]').forEach(el => {
+      const m = Math.round((new Date(el.dataset.tip.replace('Z', ':00Z')).getTime() - Date.now()) / 6e4);
+      el.textContent = m < -150 ? '' : m <= 0 ? '· live' : m < 60 ? `· in ${m}m` : m < 1440 ? `· in ${Math.floor(m / 60)}h ${m % 60}m` : '';
+    });
+  }
+  tick(); setInterval(tick, 30000);
+})();
+</script>
+</body>
+</html>
