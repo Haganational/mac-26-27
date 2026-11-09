@@ -340,9 +340,9 @@ def render_site() -> str:
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
-    # Today in the MAC: the 90-second daily script, built only from our own data.
+    # MAC90: the 90-second daily script, built only from our own data.
     t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"])
-    (SITE_DIR / "today.html").write_text(env.get_template("today.html").render(d=data, t=t, game_href=game_href))
+    (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(

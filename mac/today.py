@@ -1,4 +1,4 @@
-"""Today in the MAC: a 90-second daily read built only from our own data.
+"""MAC90: a 90-second daily read built only from our own data.
 
 Every fact in the script comes from the schedule, box scores, closing lines and the
 model. Nothing is invented: if a number is missing, the sentence is left out.
@@ -191,7 +191,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     winless = [r["team"] for r in standings if r.get("l") and not r.get("w")]
 
     date_label = et_now.strftime("%A, %B %-d")
-    paras: list[str] = [f"This is Today in the MAC for {date_label}."]
+    paras: list[str] = [f"This is MAC90 for {date_label}."]
     real = [r for r in results if not r["tune_up"]]
     tune = [r for r in results if r["tune_up"]]
     if results:
@@ -205,7 +205,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         paras.append(f"{slate_label}: " + " ".join(lined + ([("Also, " if lined else "") + tail] if tail else [])))
     if unbeaten:
         paras.append(f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else ""))
-    paras.append("That's Today in the MAC. Every line, box score and rating is at Hardwood Bricks dot com.")
+    paras.append("That's MAC90. Every line, box score and rating is at Hardwood Bricks dot com.")
 
     words = sum(len(p.split()) for p in paras)
     links = [ln for r in results for ln in r.get("links", [])]
