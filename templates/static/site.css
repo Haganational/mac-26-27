@@ -408,3 +408,5 @@ tr[class^="t-"] td:first-child { box-shadow: inset 4px 0 0 var(--tc); }
 .sf-teams h4 { column-span: all; }
 .sf-teams a i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
 main { padding-bottom: 24px; }
+.teamhead.hero > div { flex: 1 1 320px; min-width: 0; }
+@media (min-width: 600px) { .teamhead.hero { flex-wrap: nowrap; } }
