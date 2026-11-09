@@ -597,3 +597,20 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .hb-tease-lock b { font-size: 17px; color: var(--ink); }
 .hb-tease-lock span { color: var(--ink-2); font-size: 14px; max-width: 420px; }
 @media (max-width: 640px) { .hb-tease .tease-chart { grid-template-columns: 1fr; } }
+
+/* MAC90 card: compact until play (a small vertical thumbnail beside the copy), full-size player once playing */
+.ytwatch:not(.playing) { grid-template-columns: 76px minmax(0, 1fr); gap: 14px; padding: 10px 14px 10px 10px; align-items: center; }
+.ytwatch:not(.playing) .yt-frame { width: 76px; max-width: none; margin: 0; border-radius: 9px; }
+.ytwatch:not(.playing) .yt-play { gap: 8px; }
+.ytwatch:not(.playing) .yt-plaque { font-size: 11px; padding: 3px 6px 2px; border-radius: 2px; }
+.ytwatch:not(.playing) .yt-btn { width: 30px; height: 30px; }
+.ytwatch:not(.playing) .yt-btn svg { width: 15px; height: 15px; }
+.ytwatch:not(.playing) .yt-cap { display: none; }
+.ytwatch:not(.playing) .yt-side { gap: 2px; }
+.ytwatch:not(.playing) .yt-side b { font-size: 17px; }
+.ytwatch:not(.playing) .yt-side .dim { font-size: 13px; line-height: 1.35; }
+.ytwatch:not(.playing) .yt-links { margin-top: 6px; gap: 8px 14px; font-size: 13.5px; }
+.ytwatch:not(.playing) .yt-sub { padding: 5px 12px; }
+.ytwatch.playing { grid-column: 1 / -1; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); }
+@media (max-width: 560px) { .ytwatch.playing { grid-template-columns: 1fr; } .ytwatch.playing .yt-frame { max-width: 300px; margin: 0 auto; width: 100%; } }
+@media (min-width: 900px) { .hometop { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; } .hometop > details.bestplay { align-self: center; } }
