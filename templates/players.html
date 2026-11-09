@@ -1,0 +1,109 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}MAC Player Ratings{% endset %}{% set page_desc %}Box-score player ratings for every MAC player, tied to the team ratings model.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="players.html", image="static/og/players.png") }}
+<style>
+  .flt { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  tr.hide { display: none; }
+  tr:target td { background: color-mix(in srgb, var(--warn) 25%, transparent); }
+  .soon { display: inline-block; font-size: 11px; color: var(--muted); border: 1px dashed var(--border); border-radius: 6px; padding: 0 5px; white-space: nowrap; }
+  .wt { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px 14px; font-size: 13px; }
+  .wt div { display: flex; justify-content: space-between; border-bottom: 1px solid var(--grid); padding: 3px 0; }
+  .wt b { font-variant-numeric: tabular-nums; }
+  .method p { margin: 6px 0; font-size: 14px; color: var(--ink-2); max-width: 78ch; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="", active="players.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Player ratings</nav>
+  <header>
+    <h1>Player ratings</h1>
+    <span class="sub">Points per 100 possessions better than an average D-I player, from the box score, tied to each team's rating. {{ pr.players|length }} players, {{ pr.games }} games. Updated {{ d.generated_et }}.</span>
+  </header>
+
+  <section>
+    <div class="flt">
+      <select id="team" aria-label="Team"><option value="">All teams</option>{% for t in teamlinks %}<option value="{{ t.key }}">{{ t.short }}</option>{% endfor %}</select>
+      <label class="sub">Min. share of minutes <select id="minpct"><option value="0">any</option><option value="10">10%</option><option value="25" selected>25%</option><option value="50">50%</option></select></label>
+      <span class="dim sub" id="shown"></span>
+    </div>
+    <div class="scroll"><table id="tbl">
+      <tr>
+        <th class="num">#</th><th>Player</th><th>Team</th><th>Pos</th><th class="num">GP</th><th class="num">MPG</th>
+        <th class="num" title="Share of the team's minutes">Min%</th>
+        <th class="num" title="Share of possessions he ends while on the floor: shots, free-throw trips, turnovers">Usage</th>
+        <th class="num" title="True shooting %, counts threes and free throws">TS%</th>
+        <th class="num" title="Offensive rating, per 100 above average">Off</th>
+        <th class="num" title="Defensive rating, per 100 above average (positive is good)">Def</th>
+        <th class="num" title="Offense + defense">Rating</th>
+        <th class="num" title="How much of the rating is still the prior (last season for returners, a newcomer baseline otherwise)">Prior</th>
+        <th class="num" title="On/off and adjusted plus-minus from play-by-play lineups">On/off</th>
+      </tr>
+      {% for p in pr.players %}
+      <tr id="p{{ p.id }}" data-team="{{ p.team_key }}" data-min="{{ p.min_pct or 0 }}">
+        <td class="num dim rk"></td>
+        <td>{{ p.name }}{% if not p.returning %} <span class="pill" title="No MAC minutes last season">new</span>{% endif %}</td>
+        <td><a href="teams/{{ p.team_key }}.html">{{ p.abbr }}</a></td>
+        <td class="dim">{{ p.pos or "" }}</td>
+        <td class="num">{{ p.gp }}</td>
+        <td class="num">{{ p.mpg }}</td>
+        <td class="num dim">{{ p.min_pct if p.min_pct is not none else "–" }}</td>
+        <td class="num">{{ p.usage if p.usage is not none else "–" }}</td>
+        <td class="num">{{ p.ts if p.ts is not none else "–" }}</td>
+        <td class="num">{{ "%+.1f"|format(p.off) }}</td>
+        <td class="num">{{ "%+.1f"|format(p.def) }}</td>
+        <td class="num"><b class="{{ 'up' if p.net > 0 else 'down' }}">{{ "%+.1f"|format(p.net) }}</b></td>
+        <td class="num dim">{{ (p.prior_share * 100)|round|int }}%</td>
+        <td class="num">{% if pr.onoff_live and p.apm is defined %}<span title="Team margin per 100 with him on {{ '%+.1f'|format(p.on_net) if p.on_net is not none else '–' }}, off {{ '%+.1f'|format(p.off_net) if p.off_net is not none else '–' }}">{{ "%+.1f"|format(p.apm) }}</span>{% else %}<span class="soon">December</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">0 is an average D-I player; a team's net rating is about five times its minutes-weighted average. Early in the season most of each number is still the prior (last column), so treat November ratings as a starting point. On/off from play-by-play lineups switches on in December, once there are enough possessions to separate teammates; lineups are being collected from game one.</div>
+  </section>
+
+  <div class="grid two">
+    <section class="method">
+      <h2>How it works</h2>
+      <p><b>1. What each stat is worth.</b> Fit on {{ "{:,}".format(pr.weights.games) }} D-I team-games from last season: each team's opponent-adjusted margin per 100 possessions, regressed on its box score per 100 possessions (the stats explain {{ (pr.weights.r2_net * 100)|round|int }}% of the game-to-game margin). Weights are set so a turnover costs one average possession, so they read as points above an average use of the ball.</p>
+      <p><b>2. Per player.</b> The weights are applied to each player's stats per 100 possessions on the floor. Each assist takes {{ (pr.weights.assist_share * 100)|round|int }}% of an average basket's value from the scorer and gives it to the passer.</p>
+      <p><b>3. Small samples.</b> A player's own numbers count half after 250 possessions on the floor (about 9 full games). Until then he leans on last season's rating (returning MAC players, regressed 30%) or a newcomer baseline of −1.</p>
+      <p><b>4. Tied to the team.</b> Every player on a team moves by the same amount so the five-man total matches the team's adjusted rating. A team that wins more than its box score says shares that credit.</p>
+      <p><b>Known lean.</b> Like any box-score rating, it rewards efficient bigs (rebounds, blocks, high-percentage shots) and is hard on high-usage, lower-efficiency creators, whose value partly shows up in teammates' open shots. The on/off layer in December is the check on that.</p>
+    </section>
+    <section>
+      <h2>What a stat is worth</h2>
+      <div class="sub" style="margin-bottom:8px">Points per 100 possessions, per event, on the overall rating</div>
+      <div class="wt">
+        {% for k, label in [("tpm","Made three"),("twom","Made two"),("ftm","Made free throw"),("fgx","Missed shot"),("ftx","Missed free throw"),("orb","Off. rebound"),("drb","Def. rebound"),("stl","Steal"),("blk","Block"),("to","Turnover")] %}
+        <div><span>{{ label }}</span><b class="{{ 'up' if pr.weights.net[k] > 0 else 'down' }}">{{ "%+.2f"|format(pr.weights.net[k]) }}</b></div>
+        {% endfor %}
+        <div><span>Assist</span><b class="dim">split</b></div>
+      </div>
+      <div class="note">These are relative to an average use of the ball, so a made two is worth "two points minus what an average possession scores", and a missed shot costs about one possession.</div>
+    </section>
+  </div>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+<script>
+(function () {
+  const team = document.getElementById('team'), minp = document.getElementById('minpct'), shown = document.getElementById('shown');
+  const rows = [...document.querySelectorAll('#tbl tr[data-team]')];
+  function apply() {
+    let n = 0;
+    rows.forEach(r => {
+      const ok = (!team.value || r.dataset.team === team.value) && (+r.dataset.min >= +minp.value);
+      r.classList.toggle('hide', !ok);
+      if (ok) r.querySelector('.rk').textContent = ++n;
+    });
+    shown.textContent = n + ' shown';
+  }
+  team.onchange = minp.onchange = apply;
+  if (location.hash.startsWith('#p')) minp.value = '0';
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -357,12 +357,15 @@ def render_site() -> str:
             team_news=news.view(now, team.key, limit=12),
             rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
+            prate={pl["id"]: pl for pl in ((m.get("players") or {}).get("players") or [])} if m else {},
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
 
     if m:
         (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
+        if m.get("players"):
+            (SITE_DIR / "players.html").write_text(env.get_template("players.html").render(d=data, pr=m["players"], teamlinks=[{"key": t.key, "short": t.short, "abbr": t.abbr} for t in TEAMS]))
         (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter")}, default=str))
 
     static = TEMPLATES_DIR / "static"

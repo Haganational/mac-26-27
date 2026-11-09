@@ -10,6 +10,7 @@
   python -m mac.collect ncaa       # refresh every D-I result this season (+ box extras, closing lines)
   python -m mac.collect ncaa-backfill  # one-time: last two seasons, for the prior and the backtest
   python -m mac.collect ratings    # print the MAC ratings table
+  python -m mac.collect box-weights  # refit what each box-score stat is worth (last season)
   python -m mac.collect all        # schedule + D-I results + lines + site (what the cron job runs)
 """
 
@@ -28,6 +29,8 @@ def refresh_ncaa() -> dict:
         ncaa.fetch_d1_teams()
     out = ncaa.refresh_season(SEASON)
     out["enrich"] = ncaa.enrich_season(SEASON, limit=400)
+    from . import pbp
+    out["pbp"] = pbp.refresh(SEASON)  # MAC games' lineups and player lines, once per finished game
     return out
 
 
@@ -57,6 +60,10 @@ def main(argv: list[str]) -> int:
         for season in (SEASON - 2, SEASON - 1):
             print(ncaa.refresh_season(season, full=True))
             print(ncaa.enrich_season(season))
+    elif cmd == "box-weights":
+        from . import player_ratings
+        w = player_ratings.fit_weights()
+        print(json.dumps({k: w[k] for k in ("season", "games", "r2_net", "r2_off")}), json.dumps({k: round(v, 2) for k, v in w["net"].items()}))
     elif cmd == "ratings":
         from . import model
         m = model.build_model()

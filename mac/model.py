@@ -220,6 +220,20 @@ def load_backtest() -> dict[str, Any] | None:
     return json.loads(backtest.BACKTEST_PATH.read_text())
 
 
+def _players(r: R.Ratings, prior: R.Ratings, now: datetime, log: bool) -> dict[str, Any] | None:
+    """Box-score player ratings. Shown on the site; not yet used in projections."""
+    from . import player_ratings
+
+    try:
+        out = player_ratings.build(r, prior, now)
+    except Exception as exc:  # noqa: BLE001 - player layer must never block the team model
+        print(f"players: skipped ({exc!r})")
+        return None
+    if log:
+        player_ratings.PLAYERS_PATH.write_text(json.dumps(out, indent=0))
+    return out
+
+
 def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any]:
     now = now or datetime.now(timezone.utc)
     r, prior, rows, names = current_ratings(now)
@@ -253,6 +267,7 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
         "all_teams": [{"adj_o": t["adj_o"], "adj_d": t["adj_d"], "short": t["short"]} for t in table if t["games"]],
         "upcoming": upcoming, "season_to_date": std, "record": record,
         "backtest": load_backtest(),
+        "players": _players(r, prior, now, log),
     }
     if log:
         MODEL_DIR.mkdir(parents=True, exist_ok=True)

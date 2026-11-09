@@ -26,6 +26,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("tv.html", "Schedule & TV", "Every game this season with tip time and where to watch", "#6250d6", "schedule tv watch network espn+ calendar tip time"),
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
+    ("players.html", "Players", "Box-score ratings for every MAC player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("news.html", "News", "Men's basketball headlines from every school, the MAC and Google News", "#d03b3b", "news headlines ticker articles"),
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
 )

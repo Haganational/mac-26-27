@@ -161,13 +161,17 @@ def _box_int(stats: dict[str, Any], key: str) -> int | None:
         return None
 
 
+BOX_VERSION = 2  # 1: orb/to/fga/fta only; 2: full team box (for player-rating weights)
+BOX_KEYS = ("orb", "to", "fga", "fta", "fgm", "ftm", "tpm", "tpa", "drb", "ast", "stl", "blk", "pf")
+
+
 def parse_enrichment(summary: dict[str, Any]) -> dict[str, Any]:
     """The few summary fields the model wants: offensive rebounds, turnovers, and the closing line.
 
     ESPN's pickcenter carries the DraftKings number it showed at tip (close-ish).
     Its `spread` is the favourite's number; we store it from the home side.
     """
-    out: dict[str, Any] = {"box": True}
+    out: dict[str, Any] = {"box": BOX_VERSION}
     for t in summary.get("boxscore", {}).get("teams", []):
         stats = {s["name"]: s.get("displayValue") for s in t.get("statistics", [])}
         side = t.get("homeAway")
@@ -178,6 +182,14 @@ def parse_enrichment(summary: dict[str, Any]) -> dict[str, Any]:
             ft = (stats.get("freeThrowsMade-freeThrowsAttempted") or "").split("-")
             out[f"{side}_fga"] = int(fg[1]) if len(fg) == 2 and fg[1].isdigit() else None
             out[f"{side}_fta"] = int(ft[1]) if len(ft) == 2 and ft[1].isdigit() else None
+            tp = (stats.get("threePointFieldGoalsMade-threePointFieldGoalsAttempted") or "").split("-")
+            out[f"{side}_fgm"] = int(fg[0]) if len(fg) == 2 and fg[0].isdigit() else None
+            out[f"{side}_ftm"] = int(ft[0]) if len(ft) == 2 and ft[0].isdigit() else None
+            out[f"{side}_tpm"] = int(tp[0]) if len(tp) == 2 and tp[0].isdigit() else None
+            out[f"{side}_tpa"] = int(tp[1]) if len(tp) == 2 and tp[1].isdigit() else None
+            for key, name in (("drb", "defensiveRebounds"), ("ast", "assists"), ("stl", "steals"),
+                              ("blk", "blocks"), ("pf", "fouls")):
+                out[f"{side}_{key}"] = _box_int(stats, name)
     for pc in summary.get("pickcenter", []) or []:
         spread, total = pc.get("spread"), pc.get("overUnder")
         if spread is None and total is None:
@@ -203,7 +215,7 @@ def enrich_season(season: int = SEASON, limit: int | None = None, workers: int =
     from concurrent.futures import ThreadPoolExecutor
 
     data = load_season(season)
-    todo = [g for g in data["games"] if not g.get("box")]
+    todo = [g for g in data["games"] if (g.get("box") or 0) < BOX_VERSION]
     if limit is not None:
         todo = todo[:limit]
     done = failed = 0
@@ -214,7 +226,7 @@ def enrich_season(season: int = SEASON, limit: int | None = None, workers: int =
         except (requests.RequestException, ValueError):
             return False
         for side in ("home", "away"):
-            for k in ("orb", "to", "fga", "fta"):
+            for k in BOX_KEYS:
                 v = extra.pop(f"{side}_{k}", None)
                 if v is not None:
                     g[side][k] = v
