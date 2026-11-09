@@ -1,4 +1,10 @@
 {
+ "Abilene|TX": {
+  "lat": 32.44874,
+  "lon": -99.73314,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Akron|OH": {
   "lat": 41.08144,
   "lon": -81.51901,
@@ -17,6 +23,18 @@
   "tz": "America/Detroit",
   "source": "geonames"
  },
+ "Arlington|TX": {
+  "lat": 32.73569,
+  "lon": -97.10807,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Athens|GA": {
+  "lat": 33.96095,
+  "lon": -83.37794,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Athens|OH": {
   "lat": 39.32924,
   "lon": -82.10126,
@@ -29,16 +47,46 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Auburn|AL": {
+  "lat": 32.60986,
+  "lon": -85.48078,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Baton Rouge|LA": {
+  "lat": 30.44332,
+  "lon": -91.18747,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Bloomington|IN": {
   "lat": 39.16533,
   "lon": -86.52639,
   "tz": "America/Indiana/Indianapolis",
   "source": "geonames"
  },
+ "Boca Raton|FL": {
+  "lat": 26.35869,
+  "lon": -80.0831,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Boiling Springs|NC": {
+  "lat": 35.25429,
+  "lon": -81.66704,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Boston|MA": {
   "lat": 42.35843,
   "lon": -71.05977,
   "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Bowling Green|KY": {
+  "lat": 36.99032,
+  "lon": -86.4436,
+  "tz": "America/Chicago",
   "source": "geonames"
  },
  "Bowling Green|OH": {
@@ -59,9 +107,39 @@
   "tz": "America/Cancun",
   "source": "override"
  },
+ "Cape Girardeau|MO": {
+  "lat": 37.30588,
+  "lon": -89.51815,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Carrollton|GA": {
+  "lat": 33.58011,
+  "lon": -85.07661,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Charlotte|NC": {
+  "lat": 35.22709,
+  "lon": -80.84313,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Cincinnati|OH": {
   "lat": 39.12711,
   "lon": -84.51439,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Clarksville|TN": {
+  "lat": 36.52977,
+  "lon": -87.35945,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Clemson|SC": {
+  "lat": 34.68344,
+  "lon": -82.83737,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -71,9 +149,45 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "College Station|TX": {
+  "lat": 30.62798,
+  "lon": -96.33441,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Columbia|SC": {
+  "lat": 34.00071,
+  "lon": -81.03481,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Columbus|OH": {
+  "lat": 39.96118,
+  "lon": -82.99879,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Conway|AR": {
+  "lat": 35.0887,
+  "lon": -92.4421,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Conway|SC": {
   "lat": 33.836,
   "lon": -79.04781,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Coral Gables|FL": {
+  "lat": 25.72149,
+  "lon": -80.26838,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Cullowhee|NC": {
+  "lat": 35.31371,
+  "lon": -83.17653,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -92,6 +206,12 @@
  "Dayton|OH": {
   "lat": 39.75895,
   "lon": -84.19161,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "DeLand|FL": {
+  "lat": 29.02832,
+  "lon": -81.30312,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -125,16 +245,46 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Fairfield|CT": {
+  "lat": 41.14121,
+  "lon": -73.26373,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Fayetteville|AR": {
   "lat": 36.06258,
   "lon": -94.15743,
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Florence|AL": {
+  "lat": 34.79981,
+  "lon": -87.67725,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Fort Collins|CO": {
+  "lat": 40.58526,
+  "lon": -105.08442,
+  "tz": "America/Denver",
+  "source": "geonames"
+ },
+ "Fort Myers|FL": {
+  "lat": 26.62168,
+  "lon": -81.84059,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Fort Wayne|IN": {
   "lat": 41.1306,
   "lon": -85.12886,
   "tz": "America/Indiana/Indianapolis",
+  "source": "geonames"
+ },
+ "Gainesville|FL": {
+  "lat": 29.65163,
+  "lon": -82.32483,
+  "tz": "America/New_York",
   "source": "geonames"
  },
  "Greensboro|NC": {
@@ -155,10 +305,34 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Houston|TX": {
+  "lat": 29.76328,
+  "lon": -95.36327,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Huntington|WV": {
   "lat": 38.41925,
   "lon": -82.44515,
   "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Huntsville|AL": {
+  "lat": 34.7304,
+  "lon": -86.58594,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Indianapolis|IN": {
+  "lat": 39.76838,
+  "lon": -86.15804,
+  "tz": "America/Indiana/Indianapolis",
+  "source": "geonames"
+ },
+ "Iowa City|IA": {
+  "lat": 41.66113,
+  "lon": -91.53017,
+  "tz": "America/Chicago",
   "source": "geonames"
  },
  "Jacksonville|FL": {
@@ -209,6 +383,12 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Little Rock|AR": {
+  "lat": 34.74648,
+  "lon": -92.28959,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Los Angeles|CA": {
   "lat": 34.05223,
   "lon": -118.24368,
@@ -219,6 +399,18 @@
   "lat": 38.25424,
   "lon": -85.75941,
   "tz": "America/Kentucky/Louisville",
+  "source": "geonames"
+ },
+ "Malibu|CA": {
+  "lat": 34.02577,
+  "lon": -118.7804,
+  "tz": "America/Los_Angeles",
+  "source": "geonames"
+ },
+ "Miami|FL": {
+  "lat": 25.77427,
+  "lon": -80.19366,
+  "tz": "America/New_York",
   "source": "geonames"
  },
  "Mobile|AL": {
@@ -239,6 +431,18 @@
   "tz": "America/New_York",
   "source": "override"
  },
+ "Morehead|KY": {
+  "lat": 37.27115,
+  "lon": -87.17638,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Morgantown|WV": {
+  "lat": 39.62953,
+  "lon": -79.9559,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Mount Pleasant|MI": {
   "lat": 43.59781,
   "lon": -84.76751,
@@ -251,9 +455,45 @@
   "tz": "America/Indiana/Indianapolis",
   "source": "geonames"
  },
+ "Nashville|TN": {
+  "lat": 36.16589,
+  "lon": -86.78444,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Natchitoches|LA": {
+  "lat": 31.76072,
+  "lon": -93.08627,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "New Orleans|LA": {
+  "lat": 29.95465,
+  "lon": -90.07507,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "New York|NY": {
+  "lat": 40.7505,
+  "lon": -73.9934,
+  "tz": "America/New_York",
+  "source": "override"
+ },
  "Norfolk|VA": {
   "lat": 36.84681,
   "lon": -76.28522,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Normal|IL": {
+  "lat": 40.5142,
+  "lon": -88.99063,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Orlando|FL": {
+  "lat": 28.53834,
+  "lon": -81.37924,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -261,6 +501,12 @@
   "lat": 39.507,
   "lon": -84.74523,
   "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Pensacola|FL": {
+  "lat": 30.42131,
+  "lon": -87.21691,
+  "tz": "America/Chicago",
   "source": "geonames"
  },
  "Philadelphia|PA": {
@@ -272,6 +518,30 @@
  "Pittsburgh|PA": {
   "lat": 40.44062,
   "lon": -79.99589,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Provo|UT": {
+  "lat": 40.23384,
+  "lon": -111.65853,
+  "tz": "America/Denver",
+  "source": "geonames"
+ },
+ "Richmond|KY": {
+  "lat": 37.74786,
+  "lon": -84.29465,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Riverside|CA": {
+  "lat": 33.95335,
+  "lon": -117.39616,
+  "tz": "America/Los_Angeles",
+  "source": "geonames"
+ },
+ "Rock Hill|SC": {
+  "lat": 34.92487,
+  "lon": -81.02508,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -293,6 +563,12 @@
   "tz": "America/Indiana/Indianapolis",
   "source": "geonames"
  },
+ "Spartanburg|SC": {
+  "lat": 34.94957,
+  "lon": -81.93205,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Springfield|MA": {
   "lat": 42.10148,
   "lon": -72.58981,
@@ -305,9 +581,27 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Stephenville|TX": {
+  "lat": 32.2207,
+  "lon": -98.20226,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Stillwater|OK": {
+  "lat": 36.11561,
+  "lon": -97.05837,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Tallahassee|FL": {
   "lat": 30.43826,
   "lon": -84.28073,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Tampa|FL": {
+  "lat": 27.94752,
+  "lon": -82.45843,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -327,6 +621,24 @@
   "lat": 41.47309,
   "lon": -87.06114,
   "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Vermillion|SD": {
+  "lat": 42.77944,
+  "lon": -96.92921,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Waco|TX": {
+  "lat": 31.54933,
+  "lon": -97.14667,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Washington|DC": {
+  "lat": 38.89511,
+  "lon": -77.03637,
+  "tz": "America/New_York",
   "source": "geonames"
  },
  "West Lafayette|IN": {
