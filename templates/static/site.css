@@ -718,3 +718,43 @@ details.pv p { margin: 6px 0 0; color: var(--ink-2); font-size: 14px; }
 @media (min-width: 900px) { .support { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .support .tipjar { grid-template-columns: auto 1fr; } .support .tipjar .tj-btn { grid-column: 1 / -1; text-align: center; } }
 .support .adbar, .support .tipjar { margin: 0; }
 .support .adbar a { height: 100%; box-sizing: border-box; }
+
+/* ---------- Over/under study (Data Visualized) ---------- */
+:root { --ou-o: #c2410c; --ou-u: #2563eb; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ou-o: #f97316; --ou-u: #60a5fa; } }
+:root[data-theme="dark"] { --ou-o: #f97316; --ou-u: #60a5fa; }
+.oucards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: 10px; margin: 6px 0 16px; }
+.oucard { display: flex; flex-direction: column; gap: 3px; padding: 12px 14px; border-radius: 10px; background: var(--page); border: 1px solid var(--border); }
+.oucard.cur { border-color: var(--gold); box-shadow: inset 0 3px 0 var(--gold); }
+.oucard.base { background: var(--neutral); }
+.oucard .k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.oucard b { font-size: 26px; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.oucard .ou-k { font-size: 12px; color: var(--muted); margin-top: -2px; }
+.oucard .ou-line { font-size: 12.5px; color: var(--ink-2); }
+.oubar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 2px; min-width: 60px; margin: 3px 0; }
+.oubar i { display: block; height: 100%; } .oubar i.o { background: var(--ou-o); } .oubar i.u { background: var(--ou-u); }
+.oudiff { font-variant-numeric: tabular-nums; font-weight: 600; } .oudiff.pos { color: var(--ou-o); } .oudiff.neg { color: var(--ou-u); }
+.ouh { font-size: 15px; margin: 14px 0 6px; }
+.outrends { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.outrends li { display: flex; gap: 10px; align-items: baseline; padding: 8px 10px; border-radius: 8px; background: var(--page); border: 1px solid var(--border); font-size: 14px; }
+.outrends li .dim { display: block; font-size: 12.5px; margin-top: 2px; }
+.tr-tag { flex: none; font-size: 10.5px; font-weight: 800; letter-spacing: .06em; padding: 2px 7px; border-radius: 5px; color: #fff; }
+.outrends li.over .tr-tag { background: var(--ou-o); } .outrends li.under .tr-tag { background: var(--ou-u); }
+svg.ouscatter { width: 100%; height: auto; display: block; }
+svg.ouscatter .g { stroke: var(--grid); } svg.ouscatter .ax { font-size: 11px; fill: var(--muted); }
+svg.ouscatter .diag { stroke: var(--ink-2); stroke-width: 1.5; stroke-dasharray: 5 4; }
+svg.ouscatter .d { fill-opacity: .55; stroke: var(--surface); stroke-width: 1; } svg.ouscatter .d.o { fill: var(--ou-o); } svg.ouscatter .d.u { fill: var(--ou-u); } svg.ouscatter .d.p { fill: var(--muted); }
+svg.ouscatter .d.cur { fill-opacity: 1; stroke: var(--ink); stroke-width: 1.5; }
+.ouhist { display: flex; align-items: flex-end; gap: 2px; height: 220px; padding-top: 16px; border-bottom: 1px solid var(--axis); }
+.ouhist .hb { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; position: relative; }
+.ouhist .hb i { display: block; width: 100%; border-radius: 3px 3px 0 0; min-height: 1px; }
+.ouhist .hb.o i { background: var(--ou-o); } .ouhist .hb.u i { background: var(--ou-u); }
+.ouhist .hb span { position: absolute; font-size: 10px; color: var(--muted); top: -2px; }
+.ouhist-ax { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-top: 4px; }
+.ousplits { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 4px 26px; }
+.ousplits > div { min-width: 0; }
+table.outable { width: 100%; } table.outable td { white-space: nowrap; }
+.ousplits table.outable td:first-child { white-space: normal; }
+table.outable td.barc { width: 26%; } table.outable td.barc .oubar { min-width: 40px; }
+table.outable tr.lean td:first-child { box-shadow: inset 3px 0 0 var(--ou-u); } table.outable tr.lean.over td:first-child { box-shadow: inset 3px 0 0 var(--ou-o); }
+table.outable.teams td.barc { width: 18%; }

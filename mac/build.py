@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import access, analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, today, travel, viz
+from . import access, analysis, model, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -405,7 +405,7 @@ def render_site() -> str:
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
-        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now))))
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou_study.build()))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
