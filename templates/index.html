@@ -40,8 +40,8 @@
   'viz.html': '<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 5.5V10l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
 } %}
-  <div class="hometop{{ ' solo' if not d.best_play }}">
-    {{ L.watch_live(twitch) }}
+  <div class="hometop">
+    {{ L.watch_shorts(youtube, youtube_shorts) }}
     {{ L.best_play(d.best_play) }}
   </div>
   <nav class="findit" aria-label="Find it fast">

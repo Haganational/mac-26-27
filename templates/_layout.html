@@ -76,6 +76,24 @@
 </section>{% endif %}
 {%- endmacro %}
 
+{% macro watch_shorts(handle, playlist, root="") -%}
+{% if playlist %}<section class="ytwatch" aria-label="MAC90 on YouTube">
+  <div class="yt-frame">
+    <button class="yt-play" type="button" data-yt-list="{{ playlist }}" aria-label="Play the latest MAC90 Short">
+      <span class="yt-plaque">MAC90</span>
+      <span class="wp-btn yt-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      <span class="yt-cap">The MAC in 90 seconds<small>Tap to play the latest</small></span>
+    </button>
+  </div>
+  <div class="yt-side">
+    <span class="yt-k">Watch</span>
+    <b>MAC90 on YouTube</b>
+    <span class="dim">Every morning: last night's results, tonight's lines and the model, in about a minute.</span>
+    <div class="yt-links"><a class="yt-sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a><a href="{{ root }}mac90.html">Read today's script →</a></div>
+  </div>
+</section>{% endif %}
+{%- endmacro %}
+
 {% macro ad_banner(ad) -%}
 {% if ad %}<aside class="adbar" aria-label="Advertisement">
   <span class="ad-tag">Ad</span>
