@@ -24,6 +24,13 @@
   .facts h2 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 4px 0 8px; }
   .facts ul { margin: 0 0 12px; padding: 0; list-style: none; display: grid; gap: 6px; }
   .facts li a { font-weight: 600; }
+  .m9vid { display: flex; gap: 18px; align-items: flex-start; margin: 0 0 18px; padding: 14px; border-radius: 14px; background: var(--surface); border: 1px solid var(--border); }
+  .m9vid video { width: 240px; aspect-ratio: 9 / 16; border-radius: 10px; background: #000; flex: none; }
+  .m9v-side { display: grid; gap: 6px; font-size: 14px; }
+  .m9v-k { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .m9v-side b { font-size: 20px; }
+  .m9v-dl { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  @media (max-width: 560px) { .m9vid { flex-direction: column; } .m9vid video { width: 100%; max-width: 320px; } }
   .td-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
 </style>
 </head>
@@ -35,6 +42,16 @@
     <h1>MAC90</h1>
     <span class="sub">{{ t.date_label }} · about {{ t.seconds }} seconds read aloud</span>
   </header>
+
+  <section class="m9vid" id="m9vid" hidden aria-label="Latest MAC90 video">
+    <video id="m9v" controls playsinline preload="metadata"></video>
+    <div class="m9v-side">
+      <span class="m9v-k">Latest video</span>
+      <b id="m9v-title">MAC90</b>
+      <span class="dim">Vertical, made for YouTube Shorts, TikTok and Reels.</span>
+      <div class="m9v-dl" id="m9v-dl">{% if youtube %}<a class="td-btn primary" href="https://www.youtube.com/@{{ youtube }}/shorts" target="_blank" rel="noopener">Watch on YouTube ↗</a>{% endif %}</div>
+    </div>
+  </section>
 
   <div class="td-wrap">
     <article class="script" aria-label="MAC90 script">
@@ -62,6 +79,22 @@
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
 <script>
+(function () {  // newest MAC90 release: the video, captions, thumbnail and description
+  fetch('https://api.github.com/repos/{{ notes_repo }}/releases?per_page=15').then(function (r) { return r.ok ? r.json() : []; }).then(function (rels) {
+    var rel = (rels || []).find(function (x) { return /^mac90-/.test(x.tag_name); });
+    if (!rel) return;
+    var get = function (re) { var a = rel.assets.find(function (x) { return re.test(x.name); }); return a && a.browser_download_url; };
+    var mp4 = get(/\.mp4$/), thumb = get(/-thumb\.png$/);
+    if (!mp4) return;
+    var v = document.getElementById('m9v'); v.src = mp4; if (thumb) v.poster = thumb;
+    document.getElementById('m9v-title').textContent = rel.name || rel.tag_name;
+    var dl = document.getElementById('m9v-dl');
+    [['Video (MP4)', mp4], ['Captions (SRT)', get(/\.srt$/)], ['Thumbnail', thumb], ['Description', get(/\.txt$/)]].forEach(function (x) {
+      if (!x[1]) return; var a = document.createElement('a'); a.className = 'td-btn'; a.href = x[1]; a.textContent = x[0]; dl.appendChild(a);
+    });
+    document.getElementById('m9vid').hidden = false;
+  }).catch(function () {});
+})();
 (function () {
   var paras = Array.prototype.slice.call(document.querySelectorAll('#td-text p'));
   var text = paras.map(function (p) { return p.textContent; }).join('\n\n');
