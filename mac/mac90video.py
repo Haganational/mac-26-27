@@ -24,6 +24,11 @@ from .config import SITE_DIR, TEAMS, TEMPLATES_DIR
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
+FPS = 30
+COUNT_STEPS = 10  # frames in a score count-up
+COUNT_SECS = 0.8  # how long the count-up takes
+GOLD, CREAM = "f0c75e", "f6efe3"
+BAR_Y, BAR_H = 342, 10  # progress bar, just under the team-color stripe
 
 
 def spoken(text: str) -> str:
@@ -64,7 +69,30 @@ def wav_seconds(p: Path) -> float:
         return w.getnframes() / float(w.getframerate())
 
 
+def clone_all(texts: list[str], wavs: list[Path], work: Path) -> bool:
+    """Voice every segment in the cloned voice in one go (the model is slow to load).
+
+    Needs VOICE_CLONE_PY (a Python with Chatterbox installed) and VOICE_REF (the reference clip).
+    Returns False, and the video falls back to Piper, if either is missing or the clone fails.
+    """
+    py, ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
+    if not (py and ref and Path(py).exists() and Path(ref).exists()):
+        return False
+    jobs = work / "voice-jobs.json"
+    jobs.write_text(json.dumps([{"text": t, "out": str(w.resolve())} for t, w in zip(texts, wavs)]))
+    tool = Path(__file__).resolve().parent.parent / "tools" / "clone_voice.py"
+    r = subprocess.run([py, str(tool), "--ref", ref, "--jobs", str(jobs)], timeout=3000)
+    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in wavs):
+        print("voice clone failed; falling back to Piper", file=sys.stderr)
+        for w in wavs:
+            w.unlink(missing_ok=True)
+        return False
+    return True
+
+
 def speak(text: str, out: Path) -> None:
+    if out.exists():  # already voiced by clone_all()
+        return
     voice = os.environ.get("PIPER_VOICE")
     if voice and Path(voice).exists():
         subprocess.run([sys.executable, "-m", "piper", "-m", voice, "-f", str(out), "--length-scale", os.environ.get("PIPER_SPEED", "0.95"), "--sentence-silence", "0.2"],
@@ -79,6 +107,79 @@ def speak(text: str, out: Path) -> None:
 def srt_time(s: float) -> str:
     ms = int(round(s * 1000))
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
+
+
+def chunks(text: str, most: int = 5) -> list[list[str]]:
+    """Caption-sized groups of words: at most `most`, breaking after punctuation when we can."""
+    out, cur = [], []
+    for w in text.split():
+        cur.append(w)
+        if len(cur) >= most or (len(cur) >= 2 and w[-1] in ".,;:!?"):
+            out.append(cur)
+            cur = []
+    if cur:
+        if out and len(cur) == 1 and len(out[-1]) < most + 1:
+            out[-1].extend(cur)
+        else:
+            out.append(cur)
+    return out
+
+
+def _weight(w: str) -> float:
+    """Rough speaking time of a word: its letters, plus a beat for punctuation."""
+    return len(w) + 1.5 + (3.0 if w[-1] in ",;:" else 6.0 if w[-1] in ".!?" else 0.0)
+
+
+def _ass_time(s: float) -> str:
+    cs = int(round(s * 100))
+    return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
+
+
+def _ass_color(hex6: str) -> str:
+    r, g, b = hex6[0:2], hex6[2:4], hex6[4:6]
+    return f"&H00{b}{g}{r}".upper()
+
+
+def _ass_escape(w: str) -> str:
+    return w.replace("\\", "\\\\").replace("{", "(").replace("}", ")")
+
+
+def ass_events(text: str, start: float, speech: float) -> list[str]:
+    """Karaoke caption lines for one segment: each chunk on screen while it is spoken, words filling gold as they are read."""
+    groups = chunks(text)
+    total = sum(_weight(w) for g in groups for w in g) or 1.0
+    lead = min(0.12, speech * 0.05)  # Piper starts with a breath of silence
+    per = (speech - lead) / total
+    t, lines = start + lead, []
+    for g in groups:
+        ks = [max(1, round(_weight(w) * per * 100)) for w in g]
+        end = t + sum(ks) / 100
+        body = " ".join(f"{{\\kf{k}}}{_ass_escape(w)}" for w, k in zip(g, ks))
+        lines.append(f"Dialogue: 0,{_ass_time(t)},{_ass_time(end)},Cap,,0,0,0,,{body}")
+        t = end
+    return lines
+
+
+def ass_file(events: list[str]) -> str:
+    return "\n".join([
+        "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "ScaledBorderAndShadow: yes", "",
+        "[V4+ Styles]",
+        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
+        "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
+        # Primary is the "already said" color, secondary the "coming up" color. Bottom-center, clear of the Shorts buttons.
+        f"Style: Cap,Liberation Sans,74,{_ass_color(GOLD)},{_ass_color(CREAM)},&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,2,90,150,430,1",
+        "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text", *events, ""])
+
+
+def _counted(seg: dict, frac: float) -> dict:
+    """A copy of a result segment with both scores scaled down, for the count-up frames."""
+    card = dict(seg["card"])
+    for side in ("away", "home"):
+        s = dict(card[side])
+        if isinstance(s.get("score"), (int, float)) or str(s.get("score", "")).isdigit():
+            s["score"] = round(int(s["score"]) * frac)
+        card[side] = s
+    return {**seg, "card": card}
 
 
 def render(t: dict, out: Path) -> Path:
@@ -100,34 +201,64 @@ def render(t: dict, out: Path) -> Path:
         agenda.append(f"{t['slate_label']}: {n_prev} game{'s' if n_prev != 1 else ''}")
     agenda.append("The unbeaten and the winless")
 
-    clips, srt, clock = [], [], 0.0
+    cloned = clone_all([spoken(seg["text"]) for seg in t["segments"]], [work / f"seg{i:02d}.wav" for i in range(len(t["segments"]))], work)
+    common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=[tm.color for tm in TEAMS])
+    clips, srt, events, clock = [], [], [], 0.0
     for i, seg in enumerate(t["segments"]):
-        html = work / f"card{i:02d}.html"
         png = work / f"card{i:02d}.png"
         wav = work / f"seg{i:02d}.wav"
         clip = work / f"clip{i:02d}.mp4"
-        html.write_text(tpl.render(seg=seg, date_label=t["date_label"], css=css, colors=colors, agenda=agenda,
-                                   stripe=[tm.color for tm in TEAMS]))
+        frames: list[tuple[Path, float | None]] = []
+        if seg["kind"] == "result" and seg.get("card"):  # scores count up from zero
+            for k in range(1, COUNT_STEPS):
+                f = work / f"card{i:02d}-{k:02d}.png"
+                h = work / f"card{i:02d}-{k:02d}.html"
+                h.write_text(tpl.render(seg=_counted(seg, k / COUNT_STEPS), live_caps=True, **common))
+                shoot(h, f)
+                frames.append((f, COUNT_SECS / COUNT_STEPS))
+        html = work / f"card{i:02d}.html"
+        html.write_text(tpl.render(seg=seg, live_caps=True, **common))
         shoot(html, png)
+        frames.append((png, None))
         speak(spoken(seg["text"]), wav)
-        dur = wav_seconds(wav) + PAD
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(png), "-i", str(wav),
-                        "-filter_complex", f"[1:a]apad=pad_dur={PAD},aresample=44100[a]", "-map", "0:v", "-map", "[a]",
-                        "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-pix_fmt", "yuv420p", "-r", "30",
+        speech = wav_seconds(wav)
+        dur = speech + PAD
+        imgs = work / f"imgs{i:02d}.txt"
+        lines, used = [], 0.0
+        for f, d in frames:
+            d = d if d is not None else max(dur - used, 0.1)
+            used += d
+            lines += [f"file '{f.resolve()}'", f"duration {d:.3f}"]
+        lines.append(f"file '{frames[-1][0].resolve()}'")  # concat demuxer needs the last image twice
+        imgs.write_text("\n".join(lines) + "\n")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(imgs), "-i", str(wav),
+                        "-filter_complex", f"[0:v]fps={FPS},format=yuv420p[v];[1:a]apad=pad_dur={PAD},aresample=44100[a]", "-map", "[v]", "-map", "[a]",
+                        "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-r", str(FPS),
                         "-c:a", "aac", "-b:a", "128k", "-ac", "2", str(clip)], check=True)
         clips.append(clip)
-        srt.append(f"{i + 1}\n{srt_time(clock)} --> {srt_time(clock + dur - PAD)}\n{seg['text']}\n")
+        srt.append(f"{i + 1}\n{srt_time(clock)} --> {srt_time(clock + speech)}\n{seg['text']}\n")
+        events += ass_events(seg["text"], clock, speech)
         clock += dur
 
     stem = f"mac90-{t['date_iso']}"
     lst = work / "clips.txt"
     lst.write_text("".join(f"file '{c.resolve()}'\n" for c in clips))
+    joined = work / "joined.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)], check=True)
+    # Burn in the karaoke captions (most Shorts are watched muted) and a gold progress bar that fills as it plays.
+    ass = work / "captions.ass"
+    ass.write_text(ass_file(events))
+    fc = (f"[0:v]ass={ass.name},drawbox=x=0:y={BAR_Y}:w=iw:h={BAR_H}:color=black@0.55:t=fill[base];"
+          f"[base][1:v]overlay=x='-w+W*t/{clock:.3f}':y={BAR_Y}:eval=frame:shortest=1[v]")
     video = out / f"{stem}.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", "-movflags", "+faststart", str(video)], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-f", "lavfi", "-i", f"color=c=0x{GOLD}:s={W}x{BAR_H}:r={FPS}",
+                    "-filter_complex", fc, "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                    "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
-    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + "\n\nStats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments")
+    voiced = "Voiced by an AI model of Matthew Hagan's voice. " if cloned else ""
+    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
+    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
 
