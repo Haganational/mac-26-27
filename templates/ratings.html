@@ -120,7 +120,7 @@
       {% for u in m.upcoming %}
       <tr>
         <td class="dim" style="white-space:nowrap">{{ u.et }}</td>
-        <td class="teams">{{ u.away.name }} {{ 'vs' if u.neutral_site else 'at' }} <b>{{ u.home.name }}</b>{% if u.conference_game %} <span class="pill">MAC</span>{% endif %}{% if u.away.non_d1 or u.home.non_d1 %} <span class="pill" title="Opponent is not Division I; it shares one pooled rating, so treat the number as rough">non-D-I</span>{% endif %}</td>
+        {% set gh = game_href.get(u.game_id) %}<td class="teams">{% if gh %}<a href="{{ gh }}" title="Odds for this game">{% endif %}{{ u.away.name }} {{ 'vs' if u.neutral_site else 'at' }} <b>{{ u.home.name }}</b>{% if gh %}</a>{% endif %}{% if u.conference_game %} <span class="pill">MAC</span>{% endif %}{% if u.away.non_d1 or u.home.non_d1 %} <span class="pill" title="Opponent is not Division I; it shares one pooled rating, so treat the number as rough">non-D-I</span>{% endif %}</td>
         <td class="num dim">{{ "%.0f"|format(u.model.away_pts) }}-{{ "%.0f"|format(u.model.home_pts) }}</td>
         <td class="num"><b>{{ "%+.1f"|format(u.model.spread) }}</b></td>
         <td class="num">{% if u.market and u.market.spread is not none %}{{ "%+.1f"|format(u.market.spread) }}{% else %}<span class="dim">–</span>{% endif %}</td>
