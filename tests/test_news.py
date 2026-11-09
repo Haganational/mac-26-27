@@ -82,6 +82,17 @@ def test_drops_womens_curly_apostrophe_spam_substack_and_off_topic():
     assert not keep(raw("Ohio Bobcats Varsity Boys Basketball vs. Logan High School"))
 
 
+def test_school_site_via_google_needs_hoops_in_headline():
+    f = feed("athletics:miami-oh")
+    def raw(title):
+        return {"title": title, "url": "https://news.google.com/rss/articles/x", "published": NOW, "summary": "basketball", "publisher": "Miami University RedHawks", "origin": "https://miamiredhawks.com"}
+    assert news.normalize(f, raw("Miami Captures Four-Set Win at Ohio"), NOW) is None
+    assert news.normalize(f, raw("No. 4 Minutewomen Cruise Past Longwood, 10-0"), NOW) is None
+    assert news.normalize(f, raw("Highlights: Miami Men's Basketball vs Bellarmine"), NOW) is not None
+    direct = {**raw("Defense Leads The Way in 92-37 Win Over Bellarmine"), "url": "https://miamiredhawks.com/news/x"}
+    assert news.normalize(f, direct, NOW) is not None
+
+
 def test_no_substack_feeds():
     assert not any("substack" in u for f in news.all_feeds() for u in f.urls)
 
