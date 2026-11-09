@@ -130,13 +130,23 @@
     <h2>Players</h2>
     {% for p in profiles %}
     <article class="player" id="p{{ p.espn_id }}">
+      {% set pr = prate.get(p.espn_id) %}
       <div class="phead">
         {% if p.headshot %}<img src="{{ p.headshot }}" alt="" width="56" height="56" loading="lazy" onerror="this.style.visibility='hidden'">{% endif %}
         <div>
-          <h3>{{ p.name }} <span class="dim">#{{ p.jersey or "–" }} · {{ p.position or "?" }} · {{ p.class_name or "" }} · {{ p.height or "" }}{% if p.weight %} · {{ p.weight }}{% endif %}</span></h3>
-          <div class="sub">{% if p.hometown %}{{ p.hometown }}{% endif %}{% if p.previous_school %} · from {{ p.previous_school }}{% endif %}{% if p.coverage_status %} · {{ p.coverage_status.replace('_', ' ') }}{% endif %}{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN</a>{% endif %}{% if p.x_handle %} · <a href="https://x.com/{{ p.x_handle }}" target="_blank" rel="noopener">@{{ p.x_handle }}</a>{% endif %}</div>
+          <h3>{{ p.name }} <span class="dim">#{{ p.jersey or "–" }} · {{ p.position or "?" }}</span></h3>
+          {% if p.x_handle %}<div class="sub"><a href="https://x.com/{{ p.x_handle }}" target="_blank" rel="noopener">@{{ p.x_handle }}</a></div>{% endif %}
         </div>
       </div>
+      {% if pr %}
+      <div class="prating">
+        <a class="pr-main" href="../players.html#p{{ p.espn_id }}" title="Hardwood Bricks player rating: points per 100 possessions above an average D-I player, from box scores{% if pr.prior_share > 0.5 %}; mostly last season's prior so far{% endif %}">
+          <small>Player rating</small><b class="{{ 'up' if pr.net > 0 else 'down' }}">{{ "%+.1f"|format(pr.net) }}</b><em>#{{ pr.rk }} of {{ prate_n }} in the MAC</em></a>
+        <div class="pr-side"><small>Offense</small><b class="{{ 'up' if pr.off > 0 else 'down' }}">{{ "%+.1f"|format(pr.off) }}</b><em>#{{ pr.off_rk }}</em></div>
+        <div class="pr-side"><small>Defense</small><b class="{{ 'up' if pr.def > 0 else 'down' }}">{{ "%+.1f"|format(pr.def) }}</b><em>#{{ pr.def_rk }}</em></div>
+        <div class="pr-note dim">{{ pr.poss }} possessions{% if pr.prior_share > 0.5 %} · still mostly last season's prior{% endif %}{% if pr.usage %} · usage {{ "%.0f"|format(pr.usage) }}%{% endif %}</div>
+      </div>
+      {% endif %}
       {% if p.season.gp %}
       <div class="statrow">
         <span><b>{{ p.season.per_game.pts }}</b> pts</span><span><b>{{ p.season.per_game.reb }}</b> reb</span><span><b>{{ p.season.per_game.ast }}</b> ast</span><span><b>{{ p.season.per_game.min }}</b> min</span>
@@ -146,6 +156,7 @@
       {% else %}<div class="sub">Has not appeared yet.</div>{% endif %}
       {% if player_notes.get(p.espn_id) %}{{ L.dispatches(player_notes[p.espn_id], root="../") }}{% endif %}
       <div class="author-only" style="margin:4px 0">{{ L.add_dispatch("", p.name, small=True, player=p.espn_id, pname=p.name, root="../") }}</div>
+      <div class="sub pbio"><span class="dim">Bio:</span> {{ p.class_name or "" }}{% if p.height %} · {{ p.height }}{% endif %}{% if p.weight %} · {{ p.weight }}{% endif %}{% if p.hometown %} · {{ p.hometown }}{% endif %}{% if p.previous_school %} · from {{ p.previous_school }}{% endif %}{% if p.coverage_status %} · {{ p.coverage_status.replace('_', ' ') }}{% endif %}{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN</a>{% endif %}</div>
       {% if p.coverage_notes %}<p class="cov">{{ p.coverage_notes }}{% for u in p.coverage_sources %} <a href="{{ u }}" class="src">source</a>{% endfor %}</p>{% endif %}
       {% for c in p.preview_claims %}<p class="cov"><span class="dim">{{ c.outlet }}:</span> {{ c.claim }}{% if c.url %} <a href="{{ c.url }}" class="src">source</a>{% endif %}</p>{% endfor %}
       {% if p.game_log %}
@@ -193,6 +204,13 @@
 </main>
 {{ L.footer(root="../", updated=d.generated_et) }}
 <script>
+// Arriving from a box score or the Players page (#p<id>): the page grows as images and widgets load,
+// which can leave the browser's first jump short. Land on the player again once everything is in.
+(function () {
+  if (!/^#p\d+$/.test(location.hash)) return;
+  const go = () => { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView({ block: 'start', behavior: 'instant' }); };
+  go(); window.addEventListener('load', () => { go(); setTimeout(go, 400); });
+})();
 </script>
 </body>
 </html>

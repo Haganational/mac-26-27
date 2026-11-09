@@ -76,6 +76,15 @@ def ats_board(recent: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return rows
 
 
+def player_ranks(pls: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Player ratings by ESPN id, with MAC ranks for net (rk), offense and defense."""
+    out = {pl["id"]: dict(pl) for pl in pls}
+    for key, rk in (("off", "off_rk"), ("def", "def_rk")):
+        for i, pl in enumerate(sorted(out.values(), key=lambda x: -(x.get(key) or 0)), 1):
+            pl[rk] = i
+    return out
+
+
 def tonight_games(upcoming: list[dict[str, Any]], now: datetime, hours: int = 36) -> list[dict[str, Any]]:
     """MAC games tipping in the next `hours` (or the next game day, if none fall inside it)."""
     soon = [g for g in upcoming if g.get("tip") and datetime.fromisoformat(g["tip"]) - now <= timedelta(hours=hours)]
@@ -433,6 +442,7 @@ def render_site() -> str:
             for gl in p.get("game_log", []):
                 gl["box"] = gl["game_id"] in have_box
     team_tpl = env.get_template("team.html")
+    prate = player_ranks((m.get("players") or {}).get("players") or []) if m else {}
     for team in TEAMS:
         html = team_tpl.render(
             d=data,
@@ -448,7 +458,7 @@ def render_site() -> str:
             team_notes=notes.for_team(dispatches, team.key), player_notes=notes_by_player,
             rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
-            prate={pl["id"]: pl for pl in ((m.get("players") or {}).get("players") or [])} if m else {},
+            prate=prate, prate_n=len(prate),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
