@@ -8,11 +8,11 @@
 <body>
 {{ L.topbar(root="", active="index.html") }}
 <main id="main">
-  <header class="homehero">
+  <header class="homehero" data-floor="{{ floor }}">
     <div>
       <span class="kick">{{ site_name }}</span>
       <h1>MAC men's basketball {{ d.season }}</h1>
-      <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+      <span class="sub">Updated {{ d.generated_et }}</span>
     </div>
     <button class="hh-search" type="button" data-search><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Find a team, player or game<kbd>/</kbd></button>
     <div class="hh-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
@@ -87,6 +87,7 @@
 
   <section>
     <div class="row" style="justify-content:space-between"><h2 style="margin:0">Line movement</h2><a class="btnlink" href="odds.html">Every book, best prices →</a></div>
+    <p class="sub dim">Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</p>
     {% if d.history %}
     <div class="row">
       <select id="gamepick" aria-label="Choose a game"></select>

@@ -18,6 +18,7 @@ from typing import Any, Iterable
 from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
+FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
 BRAND = "#123d2e"  # deep green for the top bar and share cards
 GOLD = "#f0c75e"
 MORTAR = "#cdb99a"
