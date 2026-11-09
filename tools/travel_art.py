@@ -31,7 +31,8 @@ SERIF_I = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 SERIF_B = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 GOLD = (240, 199, 94)
 # One look per league. The MAC burns hot over the Ohio-Michigan heartland, with Athens ringed
-# in street bricks; the ASUN is Gulf water and sawgrass, bursting out of the middle of Florida.
+# in street bricks; the ASUN is Gulf water and sawgrass, bursting out of the middle of Florida;
+# the Horizon is a molten pour over the Rust Belt, from Green Bay to Pittsburgh.
 PROFILES = {
     "mac": {
         "title": "The MAC in Motion",
@@ -66,6 +67,25 @@ PROFILES = {
         "map": ((150, 210, 200), (10, 70, 90), (140, 220, 230)),
         "halo": "",
         "frames": {"desktop": (3200, 1800, (-83.4, 32.7), 22.0), "phone": (1290, 2796, (-82.9, 32.0), 11.5)},
+    },
+    "horizon": {
+        "title": "The Horizon in Motion",
+        "towns": {"cleveland-state": "Cleveland", "detroit-mercy": "Detroit", "green-bay": "Green Bay", "iu-indy": "Indianapolis",
+                  "milwaukee": "Milwaukee", "northern-illinois": "DeKalb", "northern-kentucky": "Highland Heights",
+                  "oakland": "Rochester", "purdue-fort-wayne": "Fort Wayne", "robert-morris": "Pittsburgh",
+                  "wright-state": "Dayton", "youngstown-state": "Youngstown"},
+        "big": ("youngstown-state", ", Ohio"),
+        "offsets": {"cleveland-state": (-1, -1), "detroit-mercy": (-1, 1), "green-bay": (1, -1), "iu-indy": (-1, 1),
+                    "milwaukee": (-1, 1), "northern-illinois": (-1, 1), "northern-kentucky": (1, 1), "oakland": (1, -1),
+                    "purdue-fort-wayne": (-1, -1), "robert-morris": (1, 1), "wright-state": (1, 1), "youngstown-state": (1, -1)},
+        "heart": (-84.4, 41.6),
+        "bg": ((0.09, 0.05, 0.03), (0.025, 0.028, 0.034)),  # furnace glow at the heart, cold steel at the edges
+        "shock": (1.0, 0.55, 0.18),
+        "spark": lambda hot: (1.0, 0.35 + 0.5 * hot, 0.05 + 0.35 * hot ** 2),  # molten pour: red-orange to white-hot
+        "ember": (1.0, 0.62, 0.25),
+        "map": ((190, 196, 205), (34, 40, 48), (130, 150, 170)),
+        "halo": "",
+        "frames": {"desktop": (3200, 1800, (-84.4, 41.9), 17.0), "phone": (1290, 2796, (-84.3, 41.7), 10.5)},
     },
 }
 P = PROFILES[LEAGUE.key]

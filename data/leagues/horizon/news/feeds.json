@@ -1,0 +1,110 @@
+{
+ "google:cleveland-state": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "cleveland-state",
+  "url": "https://news.google.com/rss/search?q=%22Cleveland+State+Vikings%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:detroit-mercy": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "detroit-mercy",
+  "url": "https://news.google.com/rss/search?q=%22Detroit+Mercy+Titans%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:green-bay": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "green-bay",
+  "url": "https://news.google.com/rss/search?q=%22Green+Bay+Phoenix%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:iu-indy": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "iu-indy",
+  "url": "https://news.google.com/rss/search?q=%22IU+Indy+Jaguars%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:milwaukee": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "milwaukee",
+  "url": "https://news.google.com/rss/search?q=%22Milwaukee+Panthers%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:northern-illinois": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "northern-illinois",
+  "url": "https://news.google.com/rss/search?q=%22Northern+Illinois+Huskies%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:northern-kentucky": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "northern-kentucky",
+  "url": "https://news.google.com/rss/search?q=%22Northern+Kentucky+Norse%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:oakland": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "oakland",
+  "url": "https://news.google.com/rss/search?q=%22Oakland+Golden+Grizzlies%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:purdue-fort-wayne": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "purdue-fort-wayne",
+  "url": "https://news.google.com/rss/search?q=%22Purdue+Fort+Wayne%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:robert-morris": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "robert-morris",
+  "url": "https://news.google.com/rss/search?q=%22Robert+Morris+Colonials%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:wright-state": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "wright-state",
+  "url": "https://news.google.com/rss/search?q=%22Wright+State+Raiders%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:youngstown-state": {
+  "checked_at": "2026-11-09T22:37:29+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "youngstown-state",
+  "url": "https://news.google.com/rss/search?q=%22Youngstown+State+Penguins%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ }
+}

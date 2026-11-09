@@ -32,6 +32,7 @@ DETOUR_RATIO = 1.25
 # Places geonamescache cannot resolve from the ESPN city/state strings.
 OVERRIDES: dict[str, dict[str, Any]] = {
     "New York|NY": {"lat": 40.7505, "lon": -73.9934, "tz": "America/New_York"},
+    "University Park|PA": {"lat": 40.8122, "lon": -77.8561, "tz": "America/New_York"},
     "Cancun|Mexico": {"lat": 21.1619, "lon": -86.8515, "tz": "America/Cancun"},
     "Moon Township|PA": {"lat": 40.5223, "lon": -80.2128, "tz": "America/New_York"},
     "Paradise Island|Bahamas": {"lat": 25.0833, "lon": -77.3167, "tz": "America/Nassau"},
