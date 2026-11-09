@@ -82,6 +82,7 @@ def srt_time(s: float) -> str:
 
 
 def render(t: dict, out: Path) -> Path:
+    out = out.resolve()
     out.mkdir(parents=True, exist_ok=True)
     work = out / "work"
     work.mkdir(exist_ok=True)
