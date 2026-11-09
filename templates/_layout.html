@@ -28,6 +28,7 @@
 <link rel="manifest" href="{{ root }}manifest.webmanifest">
 <link rel="stylesheet" href="{{ root }}static/site.css">
 <link rel="stylesheet" href="{{ root }}static/teams.css">
+<script>try{var q=new URLSearchParams(location.search).get('author');if(q==='1')localStorage.setItem('btb-author','1');if(q==='0')localStorage.removeItem('btb-author');if(localStorage.getItem('btb-author')==='1')document.documentElement.classList.add('author')}catch(e){}</script>
 {%- endmacro %}
 
 {% macro topbar(root="", active="") -%}
@@ -68,4 +69,27 @@
   </div>
 </footer>
 <script src="{{ root }}static/nav.js" defer data-root="{{ root }}" data-site="{{ site_url }}"></script>
+{%- endmacro %}
+
+{#- Fieldhouse Notes. The add button only shows in author mode; GitHub decides who can actually commit. -#}
+{% macro kind_icon(kind, size=16) -%}
+<svg class="fh-ic" viewBox="0 0 20 20" width="{{ size }}" height="{{ size }}" role="img" aria-label="{{ notes_kinds[kind][0] }}"><title>{{ notes_kinds[kind][0] }}</title>{{ notes_kinds[kind][1]|safe }}</svg>
+{%- endmacro %}
+
+{% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="") -%}
+<button type="button" class="author-only btn-dispatch{{ ' sm' if small }}" data-dispatch="{{ gid }}" data-team="{{ team }}" data-player="{{ player }}" data-pname="{{ pname }}" data-title="{{ title }}" data-repo="{{ notes_repo }}" title="Write a Fieldhouse Notes dispatch">+ {{ 'dispatch' if small else 'Add dispatch' }}</button>
+{%- endmacro %}
+
+{% macro dispatches(items, root="", game_links={}, player_links={}) -%}
+{% for n in items %}
+<article class="dispatch k-{{ n.kind }}" id="n-{{ n.slug }}">
+  <div class="meta"><span class="fh-kind">{{ kind_icon(n.kind, 15) }} {{ n.kind_label }}</span> · {{ n.date }}
+    {%- if n.game_id and game_links.get(n.game_id) %} · <a href="{{ root }}{{ game_links[n.game_id].href }}">{{ game_links[n.game_id].label }}</a>{% endif %}
+    {%- for t in n.teams %}{% set tm = nav_teams|selectattr('key', 'equalto', t)|first %}{% if tm %} · <a href="{{ root }}teams/{{ t }}.html">{{ tm.short }}</a>{% endif %}{% endfor %}
+    {%- if n.player and player_links.get(n.player) %} · <a href="{{ root }}{{ player_links[n.player].href }}">{{ player_links[n.player].label }}</a>{% endif %}
+    <a class="author-only edit" href="{{ n.edit_url }}" target="_blank" rel="noopener">edit</a></div>
+  {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
+  <div class="body">{{ n.html|safe }}</div>
+</article>
+{% endfor %}
 {%- endmacro %}

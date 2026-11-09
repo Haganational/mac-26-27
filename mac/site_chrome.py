@@ -31,6 +31,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
     ("players.html", "Players", "Box-score ratings for every MAC player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("book.html", "Book", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
+    ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),
     ("news.html", "News", "Men's basketball headlines from every school, the MAC and Google News", "#d03b3b", "news headlines ticker articles"),
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
 )

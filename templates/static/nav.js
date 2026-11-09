@@ -188,4 +188,25 @@
   });
   // Warm the index after load so the first search is instant.
   if ('requestIdleCallback' in window) requestIdleCallback(() => load()); else setTimeout(load, 1500);
+
+  /* ---------- Fieldhouse Notes: "Add dispatch" opens GitHub's editor with the template filled in.
+     Only accounts with write access to the repo can commit, so readers can only read. */
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-dispatch]');
+    if (!b) return;
+    e.preventDefault();
+    const now = new Date(), pad = (n) => String(n).padStart(2, '0');
+    const day = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    const gid = b.dataset.dispatch || '', team = b.dataset.team || '', pid = b.dataset.player || '';
+    const tag = gid || team || pid;
+    const name = `${day}-${tag ? tag + '-' : ''}${pad(now.getHours())}${pad(now.getMinutes())}.md`;
+    const lines = ['---', 'kind: arena   # phone, paper, tv or arena (in person)'];
+    if (gid) lines.push('game: ' + gid);
+    if (team) lines.push('team: ' + team);
+    if (pid) lines.push('player: ' + pid + (b.dataset.pname ? '   # ' + b.dataset.pname : ''));
+    lines.push('title: ' + (b.dataset.title || ''), 'date: ' + day, '---', '',
+      'Write the dispatch here. Blank line between paragraphs. **bold**, *italic*, [link](https://...), - lists, > quotes.', '');
+    const tpl = lines.join('\n');
+    window.open(`https://github.com/${b.dataset.repo}/new/main?filename=notes/dispatches/${encodeURIComponent(name)}&value=${encodeURIComponent(tpl)}`, '_blank', 'noopener');
+  });
 })();

@@ -418,3 +418,31 @@ main { padding-bottom: 24px; }
 /* Behind the Bricks: running-bond red brick, after the brick walks of a college green. */
 :root { --bricks: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='144' height='48'%3E%3Crect width='144' height='48' fill='%23cdb99a'/%3E%3Crect x='1' y='1' width='22' height='10' rx='1' fill='%2398402a'/%3E%3Crect x='25' y='1' width='22' height='10' rx='1' fill='%23a8452c'/%3E%3Crect x='49' y='1' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='73' y='1' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='97' y='1' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='121' y='1' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='-11' y='13' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='13' y='13' width='22' height='10' rx='1' fill='%2398402a'/%3E%3Crect x='37' y='13' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='61' y='13' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='85' y='13' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='109' y='13' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='133' y='13' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='1' y='25' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='25' y='25' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='49' y='25' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='73' y='25' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='97' y='25' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='121' y='25' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='-11' y='37' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='13' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='37' y='37' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='61' y='37' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='85' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='109' y='37' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='133' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3C/svg%3E"); }
 @media (max-width: 520px) { .brand .yr { display: none; } .brand .mark { font-size: 13px; padding: 3px 7px 2px; } }
+
+/* Fieldhouse Notes */
+.author-only { display: none !important; }
+html.author .author-only { display: inline-flex !important; }
+html.author div.author-only, html.author section.author-only { display: block !important; }
+.btn-dispatch { align-items: center; gap: 6px; padding: 5px 11px; border-radius: 8px; border: 1px dashed var(--brick); color: var(--brick); background: color-mix(in srgb, var(--brick) 7%, transparent); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.btn-dispatch:hover { background: color-mix(in srgb, var(--brick) 15%, transparent); text-decoration: none; }
+.btn-dispatch.sm { padding: 1px 7px; font-size: 12px; margin-left: 6px; }
+.dispatch { border-left: 4px solid var(--brick); padding: 4px 0 4px 16px; margin: 0 0 22px; }
+.dispatch h3 { margin: 0 0 2px; font-family: Georgia, "Times New Roman", serif; font-size: 21px; }
+.dispatch .meta { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+.dispatch .body { font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; color: var(--ink); max-width: 68ch; }
+.dispatch .body p { margin: 0 0 12px; }
+.dispatch .body blockquote { margin: 0 0 12px; padding-left: 12px; border-left: 3px solid var(--border); color: var(--ink-2); font-style: italic; }
+.dispatch .edit { font-size: 12px; margin-left: 8px; }
+.fh-hero { border-radius: 14px; padding: 18px; margin-bottom: 16px; color: #fff; background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
+.fh-hero h1 { margin: 0 0 4px; font-family: Georgia, "Times New Roman", serif; }
+.fh-hero .sub { color: #d7e6dd; max-width: 70ch; }
+:root { --fh: #b5482a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --fh: #e07a55; } }
+:root[data-theme="dark"] { --fh: #e07a55; }
+.fh-ic { vertical-align: -3px; color: var(--fh); flex: none; }
+.fh-kind { color: var(--fh); font-weight: 700; }
+.dispatch { border-left-color: var(--fh); }
+.tk-item.mine { background: color-mix(in srgb, var(--fh) 12%, transparent); border-radius: 6px; color: var(--ink); }
+.tk-item.mine b { color: var(--fh); }
+.newslist li.mine, #feed li.mine, li.mine { background: color-mix(in srgb, var(--fh) 9%, transparent); border-left: 3px solid var(--fh); padding-left: 8px; }
+li.mine a { font-weight: 600; }

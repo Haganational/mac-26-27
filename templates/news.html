@@ -22,7 +22,7 @@
     </div>
     {% if n.headlines %}
     <ul class="newslist" id="news">
-      {% for i in n.headlines %}<li data-teams="{{ i.teams|join(' ') }}"><span class="age{{ ' fresh' if i.fresh }}" title="{{ i.published }}">{{ i.age }}</span> {% for t in i.teams[:3] %}<a class="pill" href="teams/{{ t }}.html">{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}</a> {% endfor %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a> <span class="dim">{{ i.source }}</span></li>
+      {% for i in n.headlines %}<li data-teams="{{ i.teams|join(' ') }}"{% if i.mine %} class="mine"{% endif %}><span class="age{{ ' fresh' if i.fresh }}" title="{{ i.published }}">{{ i.age }}</span> {% for t in i.teams[:3] %}<a class="pill" href="teams/{{ t }}.html">{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}</a> {% endfor %}{% if i.mine %}{{ L.kind_icon(i.kind, 15) }} <a href="{{ i.url }}">{{ i.title }}</a>{% else %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a>{% endif %} <span class="dim">{{ i.source }}</span></li>
       {% endfor %}
     </ul>
     <p class="dim" id="empty" hidden>No headlines for this team in the window.</p>

@@ -1,0 +1,55 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}Fieldhouse Notes · {{ site_name }}{% endset %}{% set page_desc %}Dispatches from the MAC season: game notes and what stood out, written by Behind the Bricks.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="notes.html", image="static/og/notes.png") }}
+<style>
+  .fh-games { display: grid; gap: 4px; }
+  .fh-games .row { display: flex; align-items: center; gap: 10px; padding: 6px 4px; border-bottom: 1px solid var(--grid); font-size: 14px; }
+  .fh-games .row .d { width: 92px; color: var(--muted); font-size: 13px; flex: none; }
+  .fh-games .row .m { flex: 1; min-width: 0; }
+  .fh-games .row .n { font-size: 12px; color: var(--muted); }
+  .empty { color: var(--ink-2); font-size: 15px; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="", active="notes.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> Fieldhouse Notes</nav>
+  <header class="fh-hero">
+    <h1>Fieldhouse Notes</h1>
+    <span class="sub">Dispatches from the season, filed by how they were gathered: {% for k, v in notes_kinds.items() %}<span style="white-space:nowrap">{{ L.kind_icon(k) }} {{ v[0]|lower }}</span>{{ ', ' if not loop.last }}{% endfor %}.</span>
+  </header>
+
+  <div class="grid two">
+    <section>
+      <h2>Dispatches</h2>
+      {% if notes %}{{ L.dispatches(notes, root="", game_links=game_links, player_links=player_links) }}{% else %}<p class="empty">No dispatches yet. The first one is on its way.</p>{% endif %}
+    </section>
+
+    <section class="author-only">
+      <h2>Write a dispatch</h2>
+      <p class="sub">Only you see this panel (author mode on this device). Each button opens GitHub's editor with the template filled in; commit it to <code>main</code> and the site republishes in a couple of minutes. Turn author mode off with <a href="notes.html?author=0">notes.html?author=0</a>.</p>
+      <p>{{ L.add_dispatch("", "") }} <span class="sub dim">a general note</span></p>
+      <p class="sub">Every dispatch is filed with an icon: {% for k, v in notes_kinds.items() %}{{ L.kind_icon(k) }} {{ v[0] }}{{ ', ' if not loop.last }}{% endfor %}. Set it on the <code>kind:</code> line. Game notes file with the game and both teams, team notes with the team, player notes with the player (add those from the player's card on his team page).</p>
+      <h3>Teams</h3>
+      <div class="fh-games">{% for t in nav_teams %}<div class="row"><span class="m"><a href="teams/{{ t.key }}.html">{{ t.short }}</a></span>{{ L.add_dispatch("", t.short ~ " notes", small=True, team=t.key) }}</div>{% endfor %}</div>
+      {% for label, rows in author_games %}
+      <h3>{{ label }}</h3>
+      <div class="fh-games">
+        {% for g in rows %}
+        <div class="row">
+          <span class="d">{{ g.when }}</span>
+          <span class="m">{% if g.href %}<a href="{{ g.href }}">{{ g.label }}</a>{% else %}{{ g.label }}{% endif %}{% if g.count %} <span class="n">· {{ g.count }} dispatch{{ 'es' if g.count > 1 }}</span>{% endif %}</span>
+          {{ L.add_dispatch(g.game_id, g.title, small=True) }}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+</body>
+</html>
