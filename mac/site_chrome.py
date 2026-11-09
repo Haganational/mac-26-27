@@ -17,7 +17,7 @@ from typing import Any, Iterable
 
 from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
-SITE_NAME = "Behind the Bricks"
+SITE_NAME = "Hardwood Bricks"
 BRAND = "#123d2e"  # deep green for the top bar and share cards
 GOLD = "#f0c75e"
 MORTAR = "#cdb99a"
@@ -320,11 +320,11 @@ def app_icon(path: Path, size: int) -> None:
     from PIL import Image, ImageDraw
     img = Image.new("RGB", (size, size), BRAND)
     d = ImageDraw.Draw(img)
-    # Brick walk along the bottom third, green above: "BtB" over the bricks.
+    # Brick walk along the bottom third, green above: "HB" over the bricks.
     _bricks(d, 0, int(size * 0.68), size, size, brick=max(8, size // 5), course=max(4, size // 10), gap=max(1, size // 90))
     f = _font(int(size * 0.36))
-    w = d.textlength("BtB", font=f)
-    d.text(((size - w) / 2, size * 0.16), "BtB", font=f, fill=GOLD)
+    w = d.textlength("HB", font=f)
+    d.text(((size - w) / 2, size * 0.16), "HB", font=f, fill=GOLD)
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, optimize=True)
 
