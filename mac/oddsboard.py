@@ -32,8 +32,8 @@ MODEL_PATH = DATA_DIR / "model" / "projections.jsonl"
 RUNS_PATH = DATA_DIR / "odds_runs.jsonl"
 # Monthly request allowance on the Odds API plan. Set to the plan's number when it changes.
 MONTHLY_REQUESTS = 20000
-# The collector snapshots every 15 minutes: 96 runs a day.
-RUNS_PER_DAY = 96
+# The collector snapshots every 30 minutes: 48 runs a day.
+RUNS_PER_DAY = 48
 
 BOOK_NAMES = {
     "draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM", "williamhill_us": "Caesars",

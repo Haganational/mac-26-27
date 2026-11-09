@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, travel
+from . import analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, travel, viz
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -339,6 +339,10 @@ def render_site() -> str:
     mh_path = DATA_DIR / "masthead.json"
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
+
+    # Data Visualized: one posting clock per game.
+    (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now))))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
