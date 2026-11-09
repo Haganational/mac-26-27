@@ -162,7 +162,77 @@ def preview_item(g: dict) -> dict:
     return {"game_id": g["game_id"], "tune_up": False, "text": " ".join(sent), "card": card}
 
 
-def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[str, dict], standings: list[dict]) -> dict[str, Any]:
+MOVE_MIN = 1.5  # points a spread must move from its opener to be the line move of the day
+NOTE_HOURS = 48  # how recent a Fieldhouse Note must be to make the show
+NOTE_WORDS = 32  # most words read from it
+
+
+def move_item(slate: list[dict]) -> dict | None:
+    """The biggest spread move from opener to now among tonight's lined games, if it moved at least MOVE_MIN."""
+    best = None
+    for g in slate:
+        ln = g.get("line") or {}
+        op, now = ln.get("open_spread"), (ln.get("latest") or {}).get("spread")
+        if op is None or now is None or abs(now - op) < MOVE_MIN:
+            continue
+        if not best or abs(now - op) > abs(best[2] - best[1]):
+            best = (g, op, now)
+    if not best:
+        return None
+    g, op, now = best
+    h, a = g["home"], g["away"]
+    home, away = school(h["name"], h.get("key")), school(a["name"], a.get("key"))
+    fav_home = now < 0 if now != 0 else op < 0
+    fav, dog = (home, away) if fav_home else (away, home)
+    f_op, f_now = (op, now) if fav_home else (-op, -now)  # from the favorite's side: negative = favored
+
+    def as_side(x: float) -> str:
+        if x == 0:
+            return "a pick'em"
+        return f"{_a(_num(x))} {_num(x)}-point {'favorite' if x < 0 else 'underdog'}"
+
+    text = f"Line move of the day: {fav} opened as {as_side(f_op)} against {dog} and is now {as_side(f_now)}."
+    return {"text": text, "card": {"fav": fav, "dog": dog, "fav_abbr": (h if fav_home else a).get("abbr") or fav, "open": f_op, "now": f_now, "home": _side(h), "away": _side(a)}}
+
+
+def ou_item(ou: dict | None) -> dict | None:
+    """This season's over/under record in MAC games, from the over/under study."""
+    cards = (ou or {}).get("season_cards") or []
+    c = next((c for c in cards if c.get("season") == (ou or {}).get("cur_season")), None)
+    if not c or c["n"] < 5 or c["avg_diff"] is None or c["o"] == c["u"]:
+        return None
+    side = "over" if c["o"] > c["u"] else "under"
+    hi, lo = max(c["o"], c["u"]), min(c["o"], c["u"])
+    where = "above" if c["avg_diff"] > 0 else "below"
+    text = (f"Over-under watch: games with a MAC team are {hi}-{lo} to the {side} this season, "
+            f"landing {_num(c['avg_diff'])} points {where} the closing total on average.")
+    return {"text": text, "card": {"o": c["o"], "u": c["u"], "p": c["p"], "side": side, "diff": c["avg_diff"], "n": c["n"]}}
+
+
+def note_item(dispatches: list[dict] | None, now: datetime) -> dict | None:
+    """Matthew's newest Fieldhouse Note, if it was published in the last NOTE_HOURS."""
+    for d in dispatches or []:
+        try:
+            pub = datetime.fromisoformat(d["published"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            continue
+        if pub.tzinfo is None or now - pub > timedelta(hours=NOTE_HOURS):
+            return None  # newest first, so nothing later is fresher
+        words = d.get("text", "").split()
+        if not words:
+            continue
+        quote = " ".join(words[:NOTE_WORDS])
+        cut = max(quote.rfind(". "), quote.rfind("! "), quote.rfind("? "))
+        if len(words) > NOTE_WORDS:
+            quote = quote[:cut + 1] if cut > 40 else quote.rstrip(",;:") + "..."
+        title = d.get("title") or ""
+        text = f"From the Fieldhouse Notes{': ' + title.rstrip('.') + '.' if title else ':'} {quote}"
+        return {"text": text, "card": {"title": title, "quote": quote, "kind": d.get("kind_label")}}
+    return None
+
+
+def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[str, dict], standings: list[dict],
+          dispatches: list[dict] | None = None, ou: dict | None = None) -> dict[str, Any]:
     et_now = now.astimezone(schedule_view.ET)
     # Results: everything that finished in the last 36 hours, else the last day with MAC finals.
     def et_day(g):
@@ -213,8 +283,16 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         tunes = [p["mac"] for p in previews if p["tune_up"]]
         tail = f"{_list(tunes)} {'plays a' if len(tunes) == 1 else 'play'} non-Division I {'opponent' if len(tunes) == 1 else 'opponents'}, so no {'line' if len(tunes) == 1 else 'lines'}." if tunes else ""
         paras.append(f"{slate_label}: " + " ".join(lined + ([("Also, " if lined else "") + tail] if tail else [])))
+    move = move_item(slate)
+    ou_s = ou_item(ou)
+    note = note_item(dispatches, now)
+    for extra in (move, ou_s):
+        if extra:
+            paras.append(extra["text"])
     if unbeaten:
         paras.append(f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else ""))
+    if note:
+        paras.append(note["text"])
     paras.append("That's MAC90. Every line, box score and rating is at Hardwood Bricks dot com.")
 
     # The same script cut into segments, one card each, for the video.
@@ -232,8 +310,15 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         names = [p["mac"] for p in tune_p]
         segs.append({"kind": "tuneups_next", "label": slate_label, "cards": [p["card"] for p in tune_p],
                      "text": (f"{slate_label}: " if not lined_p else "Also, ") + f"{_list(names)} {'plays a' if len(names) == 1 else 'play'} non-Division I {'opponent' if len(names) == 1 else 'opponents'}, so no {'line' if len(names) == 1 else 'lines'}."})
+    if move:
+        segs.append({"kind": "move", "text": move["text"], "card": move["card"]})
+    if ou_s:
+        segs.append({"kind": "ou", "text": ou_s["text"], "card": ou_s["card"]})
     if unbeaten:
-        segs.append({"kind": "standings", "unbeaten": unbeaten, "winless": winless, "text": paras[-2]})
+        segs.append({"kind": "standings", "unbeaten": unbeaten, "winless": winless,
+                     "text": f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else "")})
+    if note:
+        segs.append({"kind": "note", "text": note["text"], "card": note["card"]})
     segs.append({"kind": "outro", "text": paras[-1]})
 
     words = sum(len(p.split()) for p in paras)

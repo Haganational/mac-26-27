@@ -399,13 +399,14 @@ def render_site() -> str:
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
     # MAC90: the 90-second daily script, built only from our own data.
-    t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"])
+    ou = ou_study.build()
+    t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
     (SITE_DIR / "mac90.json").write_text(json.dumps(t))
     (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
-        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou_study.build()))
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
