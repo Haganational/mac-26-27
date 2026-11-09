@@ -218,3 +218,53 @@ document.addEventListener('click', function (e) {
   f.title = 'MAC90 on YouTube';
   b.replaceWith(f);
 });
+
+// Access code: locked screens ship as AES-GCM ciphertext (mac/access.py). One code opens all
+// of them; it is remembered in this browser so the reader types it once.
+(function () {
+  var sealed = Array.prototype.slice.call(document.querySelectorAll('script.hb-sealed'));
+  if (!sealed.length || !window.crypto || !crypto.subtle) return;
+  var KEY = 'hb-access-code', cache = {};
+  function bytes(b64) { return Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); }); }
+  function derive(code, salt, n) {
+    var id = salt + ':' + n;
+    if (!cache[id]) {
+      cache[id] = crypto.subtle.importKey('raw', new TextEncoder().encode(code), 'PBKDF2', false, ['deriveKey']).then(function (base) {
+        return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: bytes(salt), iterations: n, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
+      });
+    }
+    return cache[id];
+  }
+  function openOne(el, code) {
+    var d = JSON.parse(el.textContent);
+    return derive(code, d.s, d.n).then(function (k) {
+      return crypto.subtle.decrypt({ name: 'AES-GCM', iv: bytes(d.i) }, k, bytes(d.c));
+    }).then(function (pt) { return JSON.parse(new TextDecoder().decode(pt)); });
+  }
+  function place(el, p) {
+    var host = el.closest('.bp-body') || el.closest('main');
+    host.innerHTML = p.html;
+    host.classList.remove('bp-locked');
+    p.scripts.forEach(function (src) { var s = document.createElement('script'); s.textContent = src; document.body.appendChild(s); });
+  }
+  function tryCode(code) {
+    cache = {};
+    return Promise.all(sealed.map(function (el) { return openOne(el, code); })).then(function (all) {
+      all.forEach(function (p, i) { place(sealed[i], p); });
+      try { localStorage.setItem(KEY, code); } catch (e) {}
+      document.documentElement.classList.add('hb-unlocked');
+      if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+      return true;
+    }, function () { return false; });
+  }
+  var saved = null; try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (saved) tryCode(saved).then(function (ok) { if (!ok) { try { localStorage.removeItem(KEY); } catch (e) {} } });
+  document.addEventListener('submit', function (e) {
+    var f = e.target.closest('.hb-gate-form');
+    if (!f) return;
+    e.preventDefault();
+    var err = document.querySelector('.hb-gate-err'), btn = f.querySelector('button');
+    btn.disabled = true; err.hidden = true;
+    tryCode(f.elements.code.value.trim()).then(function (ok) { btn.disabled = false; if (!ok) { err.hidden = false; f.elements.code.select(); } });
+  });
+})();

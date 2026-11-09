@@ -34,6 +34,8 @@ jobs:
       - name: Refresh schedule, snapshot lines, render site
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          # ACCESS_CODE locks the Bettor's Desk screens (odds, data viz, best number) behind one code.
+          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
           # Optional repo variables (Settings > Secrets and variables > Actions > Variables):
           # SITE_URL for a custom domain, SITE_NOINDEX=1 to keep search engines out.
           SITE_URL: ${{ vars.SITE_URL }}

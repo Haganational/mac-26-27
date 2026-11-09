@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, today, travel, viz
+from . import access, analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -494,6 +494,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     items = site_chrome.build_search_index(sections, mac_games, have_box, profiles, coaches, standings, et_label)
     (SITE_DIR / "search.json").write_text(json.dumps({"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                                                       "items": items}, separators=(",", ":")))
+    access.lock_site(SITE_DIR)  # no-op unless ACCESS_CODE is set; after the search index so sections are still indexed
 
     (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
