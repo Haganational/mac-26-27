@@ -390,8 +390,10 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                  profiles: dict[str, list[dict[str, Any]]]) -> None:
     """Fieldhouse Notes page. The author panel lists every MAC game, recent and upcoming first."""
     now = datetime.fromisoformat(data["generated_at"])
-    links, rows = {}, []
+    links, rows, game_keys = {}, [], {}
+    key_abbr = {t.key: t.abbr for t in TEAMS}
     for g in season:
+        game_keys[g["game_id"]] = [k for k in (g["home"].get("key"), g["away"].get("key")) if k]
         a, h = g["away"], g["home"]
         label = f"{a.get('short') or a['name']} {'vs' if g.get('neutral_site') else 'at'} {h.get('short') or h['name']}"
         if g.get("completed") and a.get("score") is not None:
@@ -409,6 +411,20 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
         ("Earlier this season", sorted((r for r in rows if r["dt"] < now - week), key=lambda r: r["dt"], reverse=True)),
         ("Later this season", sorted((r for r in rows if r["dt"] > now + week), key=lambda r: r["dt"])),
     ]
+    # Author desk: private page for writing dispatches (noindex, not in nav, sitemap or search).
+    players_list = sorted(({"id": str(p["espn_id"]), "name": p["name"], "label": f"{p['name']} ({key_abbr.get(key, key)})"}
+                           for key, plist in profiles.items() for p in plist), key=lambda p: p["label"])
+    desk = {
+        "games": [{"id": r["game_id"], "label": f"{r['when']} · {r['label']}", "teams": game_keys.get(r["game_id"], [])}
+                  for r in sorted(rows, key=lambda r: r["dt"])],
+        "players": players_list,
+        "teams": [{"key": t.key, "short": t.short} for t in TEAMS],
+        "kinds": {k: [v[0], f'<svg class="fh-ic" viewBox="0 0 20 20" width="15" height="15" aria-hidden="true">{v[1]}</svg>'] for k, v in notes.KINDS.items()},
+        "aliases": notes.ALIASES,
+    }
+    (SITE_DIR / "desk.html").write_text(env.get_template("desk.html").render(
+        d=data, games=desk["games"], players=players_list, desk_json=json.dumps(desk).replace("</", "<\\/")))
+
     (SITE_DIR / "notes.html").write_text(env.get_template("notes.html").render(
         d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
         player_links={str(p["espn_id"]): {"href": f"teams/{key}.html#p{p['espn_id']}", "label": p["name"]}
@@ -441,7 +457,8 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
         rel = f.relative_to(SITE_DIR).as_posix()
         html, found = site_chrome.anchor_sections(f.read_text())
         f.write_text(html)
-        sections[rel] = found
+        if rel != "desk.html":
+            sections[rel] = found
 
     coaches = {t.key: (players.team_context(t.key).get("coach") or {}).get("name") or "" for t in TEAMS}
     mac_games = [schedule_view.decorate(dict(g)) for g in games if g["home"].get("key") or g["away"].get("key")]
@@ -457,7 +474,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
-        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_")))
+        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"))
 
     if not site_chrome.pillow_ok():
         print("share cards: skipped (Pillow not installed)")

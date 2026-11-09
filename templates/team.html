@@ -100,7 +100,7 @@
   {% endif %}
 
   <section id="fieldhouse-notes"{% if not team_notes %} class="author-only"{% endif %}>
-    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Fieldhouse Notes</h2>{{ L.add_dispatch("", team.short ~ " notes", team=team.key) }}</div>
+    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Fieldhouse Notes</h2>{{ L.add_dispatch("", team.short ~ " notes", team=team.key, root="../") }}</div>
     {{ L.dispatches(team_notes, root="../") }}
   </section>
 
@@ -145,7 +145,7 @@
       </div>
       {% else %}<div class="sub">Has not appeared yet.</div>{% endif %}
       {% if player_notes.get(p.espn_id) %}{{ L.dispatches(player_notes[p.espn_id], root="../") }}{% endif %}
-      <div class="author-only" style="margin:4px 0">{{ L.add_dispatch("", p.name, small=True, player=p.espn_id, pname=p.name) }}</div>
+      <div class="author-only" style="margin:4px 0">{{ L.add_dispatch("", p.name, small=True, player=p.espn_id, pname=p.name, root="../") }}</div>
       {% if p.coverage_notes %}<p class="cov">{{ p.coverage_notes }}{% for u in p.coverage_sources %} <a href="{{ u }}" class="src">source</a>{% endfor %}</p>{% endif %}
       {% for c in p.preview_claims %}<p class="cov"><span class="dim">{{ c.outlet }}:</span> {{ c.claim }}{% if c.url %} <a href="{{ c.url }}" class="src">source</a>{% endif %}</p>{% endfor %}
       {% if p.game_log %}
