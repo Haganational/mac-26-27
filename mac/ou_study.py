@@ -17,10 +17,10 @@ from collections import defaultdict
 from datetime import datetime
 from typing import Any, Iterable
 
-from .config import DATA_DIR, TEAMS
+from .config import LEAGUE, SHARED_DIR, TEAMS
 from .schedule_view import ET
 
-NCAA_DIR = DATA_DIR / "ncaa"
+NCAA_DIR = SHARED_DIR / "ncaa"
 MAC_IDS = {t.espn_id: t for t in TEAMS}
 BUCKETS = ((0, 140, "Under 140"), (140, 150, "140–149.5"), (150, 160, "150–159.5"), (160, 999, "160 and up"))
 MIN_TREND_N = 15  # fewest games before a split can be called a trend
@@ -61,7 +61,7 @@ def rows(games: Iterable[dict[str, Any]], season: int) -> list[dict[str, Any]]:
             "away": g["away"]["name"], "home": g["home"]["name"], "away_pts": ap, "home_pts": hp,
         }
         base["res"] = "o" if actual > close else ("u" if actual < close else "p")
-        base["kind"] = "MAC tournament / postseason" if base["post"] else ("Conference" if both else "Non-conference")
+        base["kind"] = "Conference tournament / postseason" if base["post"] else ("Conference" if both else "Non-conference")
         for side in mac_sides:
             out.append({**base, "team": MAC_IDS[g[side]["id"]].key, "side": side})
     return out
@@ -182,7 +182,7 @@ def build(seasons: tuple[int, ...] | None = None) -> dict[str, Any]:
     for s in sorted(by_season, reverse=True):
         g = games_only(by_season[s])
         season_cards.append({**summarize(g, season_label(s)), "season": s,
-                             "conf": summarize([r for r in g if r["conf"]], "MAC vs MAC"),
+                             "conf": summarize([r for r in g if r["conf"]], f"{LEAGUE.short} vs {LEAGUE.short}"),
                              "nonconf": summarize([r for r in g if not r["conf"] and not r["post"]], "Non-conference")})
     # D-I baseline for the most recent full season with lines: is the MAC any different from everyone?
     base = None
@@ -196,7 +196,7 @@ def build(seasons: tuple[int, ...] | None = None) -> dict[str, Any]:
 
     sections = {
         "Team": sorted(split(all_rows, lambda r: team_name[r["team"]]), key=lambda s: -(s["avg_diff"] or 0)),
-        "Game type": split(games, lambda r: r["kind"], ["Non-conference", "Conference", "MAC tournament / postseason"]),
+        "Game type": split(games, lambda r: r["kind"], ["Non-conference", "Conference", "Conference tournament / postseason"]),
         "Closing total": split(games, lambda r: bucket(r["close"]), [b[2] for b in BUCKETS]),
         "Month": split(games, lambda r: (r["month_n"], r["month"])),
         "Overtime": split(games, lambda r: "Went to OT" if r["ot"] else "Regulation", ["Regulation", "Went to OT"]),
@@ -212,7 +212,7 @@ def build(seasons: tuple[int, ...] | None = None) -> dict[str, Any]:
     recent = sorted([r for r in games if r["cur"]], key=lambda r: r["date"], reverse=True)
     return {
         "seasons": [season_label(s) for s in sorted(by_season)], "current": season_label(cur), "cur_season": cur,
-        "season_cards": season_cards, "baseline": base, "all": summarize(games, "All MAC games"),
+        "season_cards": season_cards, "baseline": base, "all": summarize(games, f"All {LEAGUE.short} games"),
         "sections": sections, "team_seasons": team_seasons, "season_keys": sorted(by_season, reverse=True),
         "trends": trends({k: v for k, v in sections.items() if k != "Overtime"}),
         "scatter": scatter(games), "hist": histogram(games), "recent": recent[:20],

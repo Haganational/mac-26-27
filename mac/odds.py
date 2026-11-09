@@ -19,7 +19,7 @@ from typing import Any, Iterable
 import requests
 
 from .oddsboard import record_run
-from .config import LINES_DIR, ODDS_BASE, ODDS_BOOKMAKERS, ODDS_MARKETS, ODDS_REGIONS, ODDS_SPORT, team_key_for_odds_name
+from .config import LEAGUE, LEAGUES, LINES_DIR, ODDS_BASE, ODDS_BOOKMAKERS, ODDS_MARKETS, ODDS_REGIONS, ODDS_SPORT, team_key_for_odds_name
 
 TIMEOUT = 30
 
@@ -100,6 +100,9 @@ def snapshot_lines() -> dict[str, Any]:
         for row in rows:
             fh.write(json.dumps(row, separators=(",", ":")) + "\n")
 
+    # The other editions' games ride on the same pull: no extra API requests.
+    other = {lg.key: write_league_rows(lg, events, captured_at) for lg in LEAGUES.values() if lg.key != LEAGUE.key}
+
     # Every D-I game, every book, for the book on other conferences. Compact and gzipped.
     from . import book
     book_file = book.save_odds_snapshot(events, captured_at) if events else None
@@ -109,12 +112,74 @@ def snapshot_lines() -> dict[str, Any]:
         "ncaab_events": len(events),
         "book_file": book_file,
         "mac_events": len(mac_events),
+        "other_leagues": other,
         "rows": len(rows),
         "file": str(path),
         "quota": quota,
     }
     record_run(summary)
     return summary
+
+
+def league_rows(lg: Any, events: list[dict[str, Any]], captured_at: str) -> list[dict[str, Any]]:
+    """Line rows for one league's games, team keys from that league."""
+    rows = []
+    for e in events:
+        hk, ak = lg.team_for_odds_name(e["home_team"]), lg.team_for_odds_name(e["away_team"])
+        if hk or ak:
+            for row in flatten_event(e, captured_at):
+                rows.append({**row, "home_key": hk, "away_key": ak})
+    return rows
+
+
+def write_league_rows(lg: Any, events: list[dict[str, Any]], captured_at: datetime) -> int:
+    rows = league_rows(lg, events, captured_at.isoformat())
+    d = lg.data_dir / "lines"
+    d.mkdir(parents=True, exist_ok=True)
+    with (d / f"{captured_at.date().isoformat()}.jsonl").open("a") as fh:
+        for row in rows:
+            fh.write(json.dumps(row, separators=(",", ":")) + "\n")
+    return len(rows)
+
+
+def backfill_from_book(lg: Any) -> dict[str, Any]:
+    """Rebuild a league's line rows from the Almanac's compact snapshots of every D-I game.
+
+    Used once when an edition launches, so its line history starts when the Almanac's did.
+    The compact snapshots keep each book's price but not its own update time, so
+    book_last_update is the capture time.
+    """
+    from . import book
+    d = lg.data_dir / "lines"
+    if d.exists() and any(d.glob("*.jsonl")):
+        return {"skipped": "lines already exist"}
+    d.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for snap in book.load_odds():
+        cap = snap["captured_at"]
+        events = []
+        for eid, commence, home, away, books in snap["events"]:
+            if not (lg.team_for_odds_name(home) or lg.team_for_odds_name(away)):
+                continue
+            bms = []
+            for bk, v in books.items():
+                mk = []
+                if v[0] is not None:
+                    mk.append({"key": "spreads", "outcomes": [{"name": home, "point": v[0], "price": v[1]}]})
+                if v[2] is not None:
+                    mk.append({"key": "totals", "outcomes": [{"name": "Over", "point": v[2], "price": v[3]}]})
+                if v[4] is not None or v[5] is not None:
+                    mk.append({"key": "h2h", "outcomes": [o for o in ({"name": home, "price": v[4]}, {"name": away, "price": v[5]}) if o["price"] is not None]})
+                if mk:
+                    bms.append({"key": bk, "last_update": cap, "markets": mk})
+            events.append({"id": eid, "commence_time": commence, "home_team": home, "away_team": away, "bookmakers": bms})
+        rows = league_rows(lg, events, cap)
+        if rows:
+            with (d / f"{cap[:10]}.jsonl").open("a") as fh:
+                for row in rows:
+                    fh.write(json.dumps(row, separators=(",", ":")) + "\n")
+            n += len(rows)
+    return {"rows": n}
 
 
 def load_all_rows() -> list[dict[str, Any]]:

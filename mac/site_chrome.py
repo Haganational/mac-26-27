@@ -15,7 +15,7 @@ import unicodedata
 from pathlib import Path
 from typing import Any, Iterable
 
-from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
+from .config import LEAGUE, SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
 FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
@@ -38,13 +38,17 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("tv.html", "Schedule & TV", "This week's grid and every game: tip time, TV, lines, model, rest and travel", "#6250d6", "schedule tv watch network espn+ calendar tip time this week tonight games rest travel"),
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
-    ("players.html", "Players", "Box-score ratings for every MAC player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
+    ("players.html", "Players", f"Box-score ratings for every {LEAGUE.short} player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("book.html", "Almanac", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "almanac book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
     ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),
     ("news.html", "News", "Men's basketball headlines from every school, plus the preseason picture", "#d03b3b", "news headlines ticker articles preseason poll previews all-mac"),
     ("viz.html", "Data Visualized", "Line movement for every game, and when each book posts, on a clock that runs to tip-off", "#c9962c", "data visualized charts clock posting time opener first line books when lines post line movement steam move"),
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
 )
+
+_PAGE_FEATURE = {"mac90.html": "mac90", "notes.html": "notes", "book.html": "book"}
+# Pages this league publishes: the MAC gets every page; other leagues skip the hand-built ones.
+PAGES = tuple(p for p in PAGES if LEAGUE.has(_PAGE_FEATURE.get(p[0], "")) or p[0] not in _PAGE_FEATURE)
 
 
 # ---------------------------------------------------------------- colors
@@ -163,7 +167,7 @@ def build_search_index(sections: dict[str, list[tuple[str, str]]], games: list[d
         idx.append(search_entry("Page", label, path, purpose, extra=kw))
     for t in TEAMS:
         rec = standings.get(t.key, {})
-        sub = f"{rec.get('w', 0)}-{rec.get('l', 0)}, {rec.get('cw', 0)}-{rec.get('cl', 0)} MAC" if rec else ""
+        sub = f"{rec.get('w', 0)}-{rec.get('l', 0)}, {rec.get('cw', 0)}-{rec.get('cl', 0)} {LEAGUE.short}" if rec else ""
         if coaches.get(t.key):
             sub += f" · Coach {coaches[t.key]}"
         idx.append(search_entry("Team", t.name, f"teams/{t.key}.html", sub, t.key, f"{t.abbr} {t.short}"))
@@ -262,7 +266,7 @@ def _bricks(draw, x0: int, y0: int, x1: int, y1: int, brick: int = 44, course: i
 
 
 def share_card(path: Path, title: str, subtitle: str, *, bg: str = BRAND, accent: str = GOLD,
-               kicker: str = f"{SITE_NAME.upper()} · MAC {SEASON_LABEL}", lines: Iterable[str] = ()) -> None:
+               kicker: str = f"{SITE_NAME.upper()} · {LEAGUE.short} {SEASON_LABEL}", lines: Iterable[str] = ()) -> None:
     """1200x630 PNG for link previews (Open Graph / X cards / iMessage)."""
     from PIL import Image, ImageDraw
     W, H = 1200, 630
@@ -372,9 +376,9 @@ def pillow_ok() -> bool:
 
 def manifest() -> str:
     return json.dumps({
-        "name": f"{SITE_NAME} · MAC Men's Basketball {SEASON_LABEL}",
+        "name": f"{SITE_NAME} · {LEAGUE.short} Men's Basketball {SEASON_LABEL}",
         "short_name": SITE_NAME,
-        "description": "Scores, lines, ratings, TV, travel and news for all 12 MAC teams.",
+        "description": f"Scores, lines, ratings, TV, travel and news for all {len(TEAMS)} {LEAGUE.short} teams.",
         "start_url": "./index.html",
         "scope": "./",
         "display": "standalone",

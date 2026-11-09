@@ -41,9 +41,9 @@ import numpy as np
 
 from . import ncaa, pbp
 from . import ratings as R
-from .config import BY_ESPN_ID, DATA_DIR, SEASON, TEAMS
+from .config import BY_ESPN_ID, DATA_DIR, SEASON, SHARED_DIR, TEAMS
 
-WEIGHTS_PATH = DATA_DIR / "model" / "box_weights.json"
+WEIGHTS_PATH = SHARED_DIR / "model" / "box_weights.json"
 PLAYERS_PATH = DATA_DIR / "model" / "players.json"
 STATS = ("tpm", "twom", "ftm", "fgx", "ftx", "orb", "drb", "ast", "stl", "blk", "to", "pf")
 # Possessions are defined from these same stats (FGA - OREB + TOV + 0.475 FTA = 100 per 100),

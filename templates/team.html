@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}{{ team.short }} · MAC {{ d.season }}{% endset %}{% set page_desc %}{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.{% endset %}
+{% set page_title %}{{ team.short }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="teams/" ~ team.key ~ ".html", image="static/og/team-" ~ team.key ~ ".png") }}
 </head>
 <body>
 {{ L.topbar(root="../", active="teams") }}
 <main id="main" class="teampage t-{{ team.key }}">
-  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
+  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
     <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="t-{{ t.key }}{{ ' on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
   </nav>
   <header class="teamhead hero t-{{ team.key }}">
@@ -16,13 +16,13 @@
     <div>
       <h1>{{ team.name }}</h1>
       <div class="sub">
-        {{ rec.w }}-{{ rec.l }} overall, {{ rec.cw }}-{{ rec.cl }} MAC, margin {{ "%+.1f"|format(rec.margin) }}
+        {{ rec.w }}-{{ rec.l }} overall, {{ rec.cw }}-{{ rec.cl }} {{ LG }}, margin {{ "%+.1f"|format(rec.margin) }}
         {% if ctx.coach.name %} · Coach {{ ctx.coach.name }}{% if ctx.coach.since %} (since {{ ctx.coach.since }}){% endif %}{% endif %}
-        {% if poll_rank %} · Picked {{ poll_rank }}{{ 'st' if poll_rank == 1 else ('nd' if poll_rank == 2 else ('rd' if poll_rank == 3 else 'th')) }} in the MAC preseason poll{% endif %}
+        {% if poll_rank %} · Picked {{ poll_rank }}{{ 'st' if poll_rank == 1 else ('nd' if poll_rank == 2 else ('rd' if poll_rank == 3 else 'th')) }} in the {{ LG }} preseason poll{% endif %}
       </div>
       <div class="hero-actions">
         <a href="../tv.html#{{ team.key }}">TV schedule</a><a href="../travel.html#{{ team.key }}">Travel map</a><a href="../news.html#{{ team.key }}">News</a><a href="../ratings.html">Ratings</a>
-        <button type="button" data-share data-share-title="{{ team.name }} · MAC {{ d.season }}">Share {{ team.short }}</button>
+        <button type="button" data-share data-share-title="{{ team.name }} · {{ LG }} {{ d.season }}">Share {{ team.short }}</button>
       </div>
     </div>
   </header>
@@ -68,7 +68,7 @@
         {% for g in games %}
         <tr class="{{ 'done' if g.completed else '' }}">
           <td class="dim" style="white-space:nowrap">{{ g.et.weekday }} {{ g.et.md }}</td>
-          {% set gh = game_href.get(g.game_id) %}<td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {% if gh %}<a href="../{{ gh }}" title="{{ 'Box score' if g.completed else 'Game preview: model, players to watch, line' }}">{{ g.opp_name }}</a>{% else %}{{ g.opp_name }}{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
+          {% set gh = game_href.get(g.game_id) %}<td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {% if gh %}<a href="../{{ gh }}" title="{{ 'Box score' if g.completed else 'Game preview: model, players to watch, line' }}">{{ g.opp_name }}</a>{% else %}{{ g.opp_name }}{% endif %}{% if g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
           <td style="white-space:nowrap">{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="dim">–</span>{% endfor %}</td>
           <td class="num">{% if g.completed %}{% if g.box %}<a href="../games/{{ g.game_id }}.html" title="Box score">{% endif %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% if g.box %}</a>{% endif %}{% else %}<span class="dim" style="white-space:nowrap">{{ g.et.time }} ET</span>{% endif %}</td>
           <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}{% set pj = proj.get(g.game_id) %}{% set mv = mvs.get(g.game_id) %}{% if pj and mv and not g.completed %}<small style="display:block"><a href="../{{ gh or 'ratings.html' }}" title="Game preview: the model's projection, leans and players to watch">model {{ "%+.1f"|format(pj.model.spread if g.is_home else -pj.model.spread) }} · {{ mv.home_win if g.is_home else mv.away_win }}% win</a></small>{% if mv.side or mv.ou %}<span class="mc-leans" style="justify-content:flex-end">{{ L.lean_chip(mv.side) }}{{ L.lean_chip(mv.ou) }}</span>{% endif %}{% endif %}</td>
@@ -105,7 +105,7 @@
   </section>
 
   <section id="news">
-    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Latest headlines</h2><a class="btnlink" href="../news.html#{{ team.key }}">All MAC news →</a></div>
+    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Latest headlines</h2><a class="btnlink" href="../news.html#{{ team.key }}">All {{ LG }} news →</a></div>
     {% if team_news.headlines %}
     <ul class="newslist">
       {% for i in team_news.headlines %}<li{% if i.mine %} class="mine"{% endif %}><span class="age{{ ' fresh' if i.fresh }}">{{ i.age }}</span> {% if i.mine %}{{ L.kind_icon(i.kind, 15) }} <a href="{{ i.url }}">{{ i.title }}</a>{% else %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a>{% endif %} <span class="dim">{{ i.source }}</span></li>{% endfor %}
@@ -141,7 +141,7 @@
       {% if pr %}
       <div class="prating">
         <a class="pr-main" href="../players.html#p{{ p.espn_id }}" title="Hardwood Bricks player rating: points per 100 possessions above an average D-I player, from box scores{% if pr.prior_share > 0.5 %}; mostly last season's prior so far{% endif %}">
-          <small>Player rating</small><b class="{{ 'up' if pr.net > 0 else 'down' }}">{{ "%+.1f"|format(pr.net) }}</b><em>#{{ pr.rk }} of {{ prate_n }} in the MAC</em></a>
+          <small>Player rating</small><b class="{{ 'up' if pr.net > 0 else 'down' }}">{{ "%+.1f"|format(pr.net) }}</b><em>#{{ pr.rk }} of {{ prate_n }} in the {{ LG }}</em></a>
         <div class="pr-side"><small>Offense</small><b class="{{ 'up' if pr.off > 0 else 'down' }}">{{ "%+.1f"|format(pr.off) }}</b><em>#{{ pr.off_rk }}</em></div>
         <div class="pr-side"><small>Defense</small><b class="{{ 'up' if pr.def > 0 else 'down' }}">{{ "%+.1f"|format(pr.def) }}</b><em>#{{ pr.def_rk }}</em></div>
         <div class="pr-note dim">{{ pr.poss }} possessions{% if pr.prior_share > 0.5 %} · still mostly last season's prior{% endif %}{% if pr.usage %} · usage {{ "%.0f"|format(pr.usage) }}%{% endif %}</div>

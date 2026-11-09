@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 {% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
-{% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · MAC {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
+{% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html") }}
 </head>
 <body>
@@ -11,7 +11,7 @@
 <main id="main">
 {% macro tlink(side) %}{% if side.key %}<a href="../teams/{{ side.key }}.html">{{ side.name }}</a>{% else %}{{ side.name }}{% endif %}{% endmacro %}
 {% macro spr(v) %}{% if v is none %}–{% elif v < 0 %}{{ home.abbr }} {{ '%g'|format(v) }}{% elif v > 0 %}{{ away.abbr }} {{ '%g'|format(-v) }}{% else %}PK{% endif %}{% endmacro %}
-  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> <a href="../tv.html#g{{ g.game_id }}">Schedule</a> <span class="dim">/</span> Preview
+  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../tv.html#g{{ g.game_id }}">Schedule</a> <span class="dim">/</span> Preview
     <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html" class="t-{{ t.key }}">{{ t.short }}</a>{% endfor %}</span>
   </nav>
 
@@ -31,7 +31,7 @@
     Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
     · {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
     {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
-    {% if g.conference_game %} · <span class="pill">MAC</span>{% endif %}
+    {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} at {{ home.abbr }}: the model says {{ mv.fav_line }}">Share this preview</a>
   </div>
@@ -59,7 +59,7 @@
           <p>Model makes it <b>{{ mv.fav_line }}</b>; the market says <b>{{ spr(mv.market.spread) }}</b>. That is {{ '%.1f'|format(mv.side.gap) }} points of daylight toward {{ mv.side.abbr }}, a {{ mv.side.tier }} lean on the {{ mv.side.label|lower }}.</p></div>{% endif %}
         {% if mv.ou %}<div class="pv-lean">{{ L.lean_chip(mv.ou) }}
           <p>Model total <b>{{ '%.1f'|format(mv.total) }}</b> against a market <b>{{ '%g'|format(mv.market.total) }}</b>: a {{ mv.ou.tier }} lean to the {{ mv.ou.label|lower }} by {{ '%.1f'|format(mv.ou.gap) }}.</p></div>{% endif %}
-        {% if not mv.side and not mv.ou %}<p class="empty" style="margin:0">{% if mv.non_d1 %}{{ away.abbr if away.non_d1 else home.abbr }} is not Division I, so books don't post this one and the model's number is rough (every non-D-I team shares one pooled rating).{% else %}No line yet. MAC lines usually post about a day ahead; once books post, the model's side and total leans show here in color.{% endif %}</p>{% endif %}
+        {% if not mv.side and not mv.ou %}<p class="empty" style="margin:0">{% if mv.non_d1 %}{{ away.abbr if away.non_d1 else home.abbr }} is not Division I, so books don't post this one and the model's number is rough (every non-D-I team shares one pooled rating).{% else %}No line yet. {{ LG }} lines usually post about a day ahead; once books post, the model's side and total leans show here in color.{% endif %}</p>{% endif %}
         {{ L.lean_legend() }}
       </div>
     </div>
@@ -70,7 +70,7 @@
   <section id="watch">
     <div class="sechead"><h2>Players to watch</h2><span class="dim">Box-score ratings, points per 100 possessions vs an average D-I player</span></div>
     {{ L.watch_list(g.ptw, root="../") }}
-    <div class="note">Best overall is the top net rating among regulars in this game; offensive engine and defensive anchor are the best on each end. Ranks are among {{ g.ptw[0].of }} rated MAC players. Early in the season these lean on last year's numbers. Tap a player for his profile.</div>
+    <div class="note">Best overall is the top net rating among regulars in this game; offensive engine and defensive anchor are the best on each end. Ranks are among {{ g.ptw[0].of }} rated {{ LG }} players. Early in the season these lean on last year's numbers. Tap a player for his profile.</div>
   </section>
   {% endif %}
 
@@ -98,7 +98,7 @@
         <tr><td>Model</td><td class="num">{{ mv.fav_line }}</td><td class="num">{{ '%.1f'|format(mv.total) }}</td></tr>
       </table>
       <p style="margin:10px 0 0"><a class="oddslink" href="../odds.html#ev{{ g.line.odds_event_id }}">Every book's price →</a></p>
-      {% else %}<p class="empty" style="margin-top:0">No line posted yet. <a href="../viz.html">When MAC lines post →</a></p>{% endif %}
+      {% else %}<p class="empty" style="margin-top:0">No line posted yet. <a href="../viz.html">When {{ LG }} lines post →</a></p>{% endif %}
       <table style="margin-top:12px">
         <tr><th>Team</th><th class="num">Rest days</th><th class="num">Miles in</th><th class="num">Time zone</th></tr>
         {% for side, c in [(away, g.travel_away), (home, g.travel_home)] %}

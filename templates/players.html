@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC Player Ratings{% endset %}{% set page_desc %}Box-score player ratings for every MAC player, tied to the team ratings model.{% endset %}
+{% set page_title %}{{ LG }} Player Ratings{% endset %}{% set page_desc %}Box-score player ratings for every {{ LG }} player, tied to the team ratings model.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="players.html", image="static/og/players.png") }}
 <style>
   .flt { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
@@ -18,7 +18,7 @@
 <body>
 {{ L.topbar(root="", active="players.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Player ratings</nav>
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Player ratings</nav>
   <header>
     <h1>Player ratings</h1>
     <span class="sub">Points per 100 possessions better than an average D-I player, from the box score, tied to each team's rating. {{ pr.players|length }} players, {{ pr.games }} games. Updated {{ d.generated_et }}.</span>

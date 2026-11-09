@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}The Almanac: every D-I conference{% endset %}{% set page_desc %}Team and player ratings for all 32 D-I conferences, from the same model that runs the MAC.{% endset %}
+{% set page_title %}The Almanac: every D-I conference{% endset %}{% set page_desc %}Team and player ratings for all 32 D-I conferences, from the same model that runs the {{ LG }}.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="book.html", image="static/og/book.png") }}
 <style>
   .confs td.c a { font-weight: 600; }
@@ -23,7 +23,7 @@
   <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> The Almanac</nav>
   <header class="bk-hero">
     <h1>The Almanac</h1>
-    <span class="sub">All {{ b.conferences|length }} D-I conferences, rated by the same model that runs the MAC side of the site. Each run rates every D-I player once, so a transfer carries last season's number with him wherever he went. Updated {{ d.generated_et }}.</span>
+    <span class="sub">All {{ b.conferences|length }} D-I conferences, rated by the same model that runs the {{ LG }} side of the site. Each run rates every D-I player once, so a transfer carries last season's number with him wherever he went. Updated {{ d.generated_et }}.</span>
   </header>
 
   <section>
@@ -46,7 +46,7 @@
     <div class="pick">
       <h2 id="ctitle">{{ first.name }}</h2>
       <select id="csel" aria-label="Conference">{% for c in b.conferences|sort(attribute='name') %}<option value="{{ c.slug }}"{% if c.slug == first.slug %} selected{% endif %}>{{ c.name }}</option>{% endfor %}</select>
-      <span class="sub dim">{% if first.slug == 'mac' %}The MAC gets the full treatment on the rest of the site.{% endif %}</span>
+      <span class="sub dim">{% if first.slug == 'mac' %}The {{ LG }} gets the full treatment on the rest of the site.{% endif %}</span>
     </div>
     <h3>Teams</h3>
     <div class="scroll"><table id="tteams">
@@ -59,7 +59,7 @@
       <thead><tr><th class="num">#</th><th>Player</th><th>Team</th><th>Pos</th><th class="num">GP</th><th class="num">MPG</th><th class="num">Min%</th><th class="num">Usage</th><th class="num">TS%</th><th class="num">Off</th><th class="num">Def</th><th class="num">Rating</th><th class="num" title="How much is still last season's rating or the newcomer baseline">Prior</th></tr></thead>
       <tbody></tbody>
     </table></div>
-    <div class="note">Same method as the <a href="players.html">MAC player ratings</a>: box-score value per 100 possessions, tied so five times a team's minutes-weighted average equals its rating. On/off is MAC-only for now.</div>
+    <div class="note">Same method as the <a href="players.html">{{ LG }} player ratings</a>: box-score value per 100 possessions, tied so five times a team's minutes-weighted average equals its rating. On/off is {{ LG }}-only for now.</div>
   </section>
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}

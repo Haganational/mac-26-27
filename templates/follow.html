@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC on X{% endset %}{% set page_desc %}Checklist of MAC men's basketball team, coach, player and media accounts to follow on a free X account.{% endset %}
+{% set page_title %}{{ LG }} on X{% endset %}{% set page_desc %}Checklist of {{ LG }} men's basketball team, coach, player and media accounts to follow on a free X account.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="follow.html", image="static/og/follow.png") }}
 <style>
   .fl { list-style: none; margin: 0; padding: 0; }
@@ -31,9 +31,9 @@
 <body>
 {{ L.topbar(root="", active="follow.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Follow on X</nav>
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Follow on X</nav>
   <header>
-    <h1>Follow the MAC on X</h1>
+    <h1>Follow the {{ LG }} on X</h1>
     <span class="sub">Team, coach and player handles from the official {{ d.season }} school roster pages, plus players found among the accounts their team follows on X (checked {{ x.checked_at }}). Tick a box after you follow; ticks stay in this browser.</span>
   </header>
 
@@ -56,7 +56,7 @@
   </section>
 
   <section>
-    <h2>League and MAC-wide media</h2>
+    <h2>League and {{ LG }}-wide media</h2>
     <ul class="fl">
       {% for a in x.league %}<li data-h="{{ a.handle }}"><input type="checkbox" aria-label="Followed {{ a.handle }}"><span class="nm">{{ a.name }}</span><a class="h" href="https://x.com/{{ a.handle }}" target="_blank" rel="noopener">@{{ a.handle }}</a></li>{% endfor %}
       {% for m in x.league_media %}<li><span class="nm">{{ m.name }} <small>{{ m.outlet }}</small></span><a class="find" href="https://x.com/search?q={{ (m.name ~ ' ' ~ m.outlet)|urlencode }}&amp;f=user" target="_blank" rel="noopener">find on X</a></li>{% endfor %}

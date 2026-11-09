@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}Data Visualized: when books post MAC lines{% endset %}{% set page_desc %}One clock per game: tip-off at 12, each sportsbook placed where it first posted, and the clockwise run from the first line to tip.{% endset %}
+{% set page_title %}Data Visualized: when books post {{ LG }} lines{% endset %}{% set page_desc %}One clock per game: tip-off at 12, each sportsbook placed where it first posted, and the clockwise run from the first line to tip.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="viz.html") }}
 <style>
   .vz-hero { border-radius: 14px; padding: 16px 18px; margin-bottom: 16px; color: #fff; background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
@@ -86,7 +86,7 @@
     </div>
     <p class="note">We check lines every 30 minutes, so a book's spot on the dial is accurate to within one check. A line first seen after tip is in-play and left off. Times are Eastern.</p>
     {% else %}
-    <div class="empty">No lines captured yet. Clocks appear as soon as books post MAC games.</div>
+    <div class="empty">No lines captured yet. Clocks appear as soon as books post {{ LG }} games.</div>
     {% endif %}
   </section>
 </main>

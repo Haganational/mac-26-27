@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} · MAC {{ d.season }}{% endset %}{% set page_desc %}Box score: {{ g.name }}, {{ g.date[:10] }}.{% endset %}
+{% set page_title %}{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}Box score: {{ g.name }}, {{ g.date[:10] }}.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", image="static/og/game-" ~ g.game_id ~ ".png") }}
 </head>
 <body>
 {{ L.topbar(root="../", active="") }}
 <main id="main">
-  <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Box score
+  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Box score
     <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html" class="t-{{ t.key }}">{{ t.short }}</a>{% endfor %}</span>
   </nav>
 
@@ -26,7 +26,7 @@
   </header>
   <div class="sub" style="margin:-8px 0 18px">
     Final · {{ g.date[:10] }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
-    {% if g.conference_game %} · <span class="pill">MAC</span>{% endif %}
+    {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}">ESPN gamecast</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} (final)">Share this box score</a>
   </div>

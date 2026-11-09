@@ -11,7 +11,7 @@
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% endif %}<link rel="canonical" href="{{ site_url }}{{ path }}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="{{ site_name }} · MAC Men's Basketball {{ season }}">
+<meta property="og:site_name" content="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ desc }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
@@ -28,15 +28,16 @@
 <link rel="manifest" href="{{ root }}manifest.webmanifest">
 <link rel="stylesheet" href="{{ root }}static/site.css?v={{ asset_v }}">
 <link rel="stylesheet" href="{{ root }}static/teams.css">
-<script>try{var q=new URLSearchParams(location.search).get('author');if(q==='1')localStorage.setItem('btb-author','1');if(q==='0')localStorage.removeItem('btb-author');if(localStorage.getItem('btb-author')==='1')document.documentElement.classList.add('author')}catch(e){}</script>
+{% if theme != 'brick' %}<script>document.documentElement.classList.add('lg-{{ theme }}')</script>
+{% endif %}<script>try{var q=new URLSearchParams(location.search).get('author');if(q==='1')localStorage.setItem('btb-author','1');if(q==='0')localStorage.removeItem('btb-author');if(localStorage.getItem('btb-author')==='1')document.documentElement.classList.add('author')}catch(e){}</script>
 {%- endmacro %}
 
 {% macro topbar(root="", active="") -%}
-<div class="backdrop" aria-hidden="true"><i class="bd-brick"></i><i class="bd-floor"></i><i class="bd-art bd-d" style="background-image:url({{ root }}static/art/backdrop-desktop.jpg)"></i><i class="bd-art bd-p" style="background-image:url({{ root }}static/art/backdrop-phone.jpg)"></i><i class="bd-scrim"></i></div>
+<div class="backdrop" aria-hidden="true"><i class="bd-brick"></i><i class="bd-floor"></i><i class="bd-art bd-d" style="background-image:url({{ root }}static/art/{{ art }}-desktop.jpg)"></i><i class="bd-art bd-p" style="background-image:url({{ root }}static/art/{{ art }}-phone.jpg)"></i><i class="bd-scrim"></i></div>
 <a class="skip" href="#main">Skip to content</a>
 <div class="topbar" role="banner">
   <div class="tb-in">
-    <a class="brand" href="{{ root }}index.html" aria-label="{{ site_name }} home"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
+    <a class="brand" href="{{ root }}index.html" aria-label="{{ site_name }} home"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
     <nav class="tb-nav" id="tbnav" aria-label="Site">
       <a href="{{ root }}index.html"{% if active == 'index.html' %} class="on" aria-current="page"{% endif %}>Home</a>
       <details class="tb-teams{{ ' on' if active == 'teams' }}">
@@ -52,6 +53,7 @@
         <summary>More</summary>
         <div class="tb-menu tb-list">
           {% for p in more %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}{{ ' desk' if p[0] in desk_pages }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></a>{% endfor %}
+          {% for lg in leagues if not lg.on %}<a class="tb-league" href="{{ root }}{{ site_up }}{{ lg.path }}index.html"><b>{{ lg.short }} edition →</b><small>{{ site_name }} for the {{ lg.name }}: {{ lg.region }}</small></a>{% endfor %}
         </div>
       </details>
     </nav>
@@ -91,7 +93,7 @@
     <button class="yt-play" type="button" data-yt-list="{{ playlist }}" aria-label="Play the latest MAC90 Short">
       <span class="yt-plaque">MAC90</span>
       <span class="wp-btn yt-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-      <span class="yt-cap">The MAC in 90 seconds<small>Tap to play the latest</small></span>
+      <span class="yt-cap">The {{ LG }} in 90 seconds<small>Tap to play the latest</small></span>
     </button>
   </div>
   <div class="yt-side">
@@ -126,13 +128,13 @@
 <footer class="sitefoot">
   <div class="sf-in">
     <div class="sf-about">
-      <a class="brand" href="{{ root }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
-      <p>{{ site_name }} covers every MAC men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Lines refresh every 30 minutes.</p>
-      <p class="dim">Data: ESPN, The Odds API, school athletics sites, the MAC and Google News. Not affiliated with the MAC or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
+      <a class="brand" href="{{ root }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
+      <p>{{ site_name }} covers every {{ LG }} men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Lines refresh every 30 minutes.</p>
+      <p class="dim">Data: ESPN, The Odds API, {% if 'athletics' in feat %}school athletics sites, the {{ LG }} and {% endif %}Google News. Not affiliated with the {{ LG }} or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
-      <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · MAC Men's Basketball {{ season }}">Share this site</button>
+      <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
     </div>
-    <nav aria-label="Pages"><h4>Pages</h4>{% for p in nav_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}</nav>
+    <nav aria-label="Pages"><h4>Pages</h4>{% for p in nav_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>
@@ -145,7 +147,7 @@
 {%- endmacro %}
 
 {% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="", root="") -%}
-<a class="author-only btn-dispatch{{ ' sm' if small }}" href="{{ root }}desk.html{% if gid %}?game={{ gid }}{% elif team %}?team={{ team }}{% elif player %}?player={{ player }}{% endif %}" title="Write a Fieldhouse Notes dispatch{{ ' about ' ~ title if title }}">+ {{ 'dispatch' if small else 'Add dispatch' }}</a>
+{% if 'notes' in feat %}<a class="author-only btn-dispatch{{ ' sm' if small }}" href="{{ root }}desk.html{% if gid %}?game={{ gid }}{% elif team %}?team={{ team }}{% elif player %}?player={{ player }}{% endif %}" title="Write a Fieldhouse Notes dispatch{{ ' about ' ~ title if title }}">+ {{ 'dispatch' if small else 'Add dispatch' }}</a>{% endif %}
 {%- endmacro %}
 
 {% macro dispatches(items, root="", game_links={}, player_links={}) -%}
@@ -186,7 +188,7 @@
   {% for p in pls %}<a class="ptw-p ptw-{{ p.kind }} t-{{ p.team_key }}" href="{{ root }}{{ p.href }}" title="{{ p.name }}, {{ p.abbr }}: overall {{ '%+.1f'|format(p.net) }}, offense {{ '%+.1f'|format(p.off) }}, defense {{ '%+.1f'|format(p.def) }} per 100 possessions{% if p.ppg is not none %}; {{ p.ppg }} ppg in {{ p.mpg }} min{% endif %}">
     <span class="ptw-role">{{ p.word|title if compact else p.role }}</span>
     <span class="ptw-name"><i class="tdot"></i>{{ p.name }} <small>{{ p.abbr }}{% if p.pos %} · {{ p.pos }}{% endif %}</small></span>
-    <span class="ptw-val"><b>{{ '%+.1f'|format(p.value) }}</b><small>{% if p.rank %}#{{ p.rank }} {{ p.word }} in MAC{% endif %}</small></span>
+    <span class="ptw-val"><b>{{ '%+.1f'|format(p.value) }}</b><small>{% if p.rank %}#{{ p.rank }} {{ p.word }} in {{ LG }}{% endif %}</small></span>
     {% if not compact %}<span class="ptw-bars">{% for k, lab in [('net', 'All'), ('off', 'Off'), ('def', 'Def')] %}{% set v = p[k] or 0 %}<span class="pb pb-{{ k }}{{ ' on' if k == p.kind }}"><small>{{ lab }}</small><span class="pb-t"><i style="{{ 'left:50%' if v >= 0 else 'right:50%' }};width:{{ ([v|abs, 10]|min * 5)|round }}%" class="{{ 'neg' if v < 0 }}"></i></span><em>{{ '%+.1f'|format(v) }}</em></span>{% endfor %}</span>{% endif %}
   </a>{% endfor %}
 </div>{% endif %}

@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 from typing import Any
 
 from . import schedule_view
-from .config import BY_KEY
+from .config import BY_KEY, LEAGUE
 
 WPM = 155  # a calm read; 90 seconds is about 230 words
 TARGET_WORDS = 230
@@ -204,7 +204,7 @@ def ou_item(ou: dict | None) -> dict | None:
     side = "over" if c["o"] > c["u"] else "under"
     hi, lo = max(c["o"], c["u"]), min(c["o"], c["u"])
     where = "above" if c["avg_diff"] > 0 else "below"
-    text = (f"Over-under watch: games with a MAC team are {hi}-{lo} to the {side} this season, "
+    text = (f"Over-under watch: games with a {LEAGUE.short} team are {hi}-{lo} to the {side} this season, "
             f"landing {_num(c['avg_diff'])} points {where} the closing total on average.")
     return {"text": text, "card": {"o": c["o"], "u": c["u"], "p": c["p"], "side": side, "diff": c["avg_diff"], "n": c["n"]}}
 
