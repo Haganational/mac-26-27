@@ -306,9 +306,6 @@ def render_site() -> str:
     season = [schedule_view.decorate(dict(g)) for g in games]
     for g in season:
         g["box"] = g["game_id"] in have_box
-    (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
-        d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
-        now_iso=data["generated_at"], notes_by_game=notes_by_game))
 
     # Odds screen: per-book prices, best number, open vs now, movement, model gaps.
     now = datetime.fromisoformat(data["generated_at"])
@@ -344,6 +341,10 @@ def render_site() -> str:
         g["travel_home"] = ctx.get((g["game_id"], g["home"]["key"])) if g["home"].get("key") else None
         g["travel_away"] = ctx.get((g["game_id"], g["away"]["key"])) if g["away"].get("key") else None
     (SITE_DIR / "index.html").write_text(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
+    # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
+    (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
+        d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
+        now_iso=data["generated_at"], notes_by_game=notes_by_game))
 
     for team in TEAMS:
         for p in profiles[team.key]:

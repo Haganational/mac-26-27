@@ -2,37 +2,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC TV Schedule{% endset %}{% set page_desc %}Every MAC men's basketball game in 2026-27 with tip time (Eastern) and where to watch.{% endset %}
+{% set page_title %}MAC Schedule & TV{% endset %}{% set page_desc %}This week's grid and every MAC men's basketball game in 2026-27: tip time (Eastern), where to watch, lines, model, rest and travel.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="tv.html", image="static/og/tv.png") }}
 </head>
 <body>
 {{ L.topbar(root="", active="tv.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> TV schedule
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Schedule &amp; TV
   </nav>
   <header>
-    <h1>TV schedule</h1>
-    <span class="sub">Every game this season, tip times in Eastern. Networks are what ESPN lists; national TV picks can still be added during the season. Updated {{ d.generated_et }}.</span>
+    <h1>Schedule &amp; TV</h1>
+    <span class="sub">This week at a glance, then every game this season with tip time (Eastern), where to watch, and for the next 8 days the current line, the model's number, rest and travel. Networks are what ESPN lists; national TV picks can still be added during the season. Updated {{ d.generated_et }}.</span>
   </header>
 
 {% macro watchchips(w) %}{% for n in w.nets %}<span class="net {{ n.tier }}" title="{{ {'tv':'National TV','stream':'Streaming','local':'Local / regional'}[n.tier] }}{% if n.market and n.market != 'National' %} ({{ n.market }} market){% endif %}">{{ n.name }}</span>{% else %}<span class="net none" title="No broadcast listed by ESPN yet">TBD</span>{% endfor %}{% endmacro %}
+{% set UP = {} %}{% for g in d.upcoming %}{% set _ = UP.update({g.game_id: g}) %}{% endfor %}
 {% macro logo(side) %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endmacro %}
 
-  <section>
-    <h2>Where each team shows up</h2>
-    <div class="scroll"><table>
-      <tr><th>Team</th><th class="num">National TV</th><th class="num">Streaming</th><th class="num">Not listed</th><th style="width:30%">Mix</th><th>Networks</th></tr>
-      {% for r in counts %}{% set tot = r.tv + r.stream + r.none %}
-      <tr>
-        <td><span class="tm" style="display:flex;gap:6px;align-items:center"><img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ r.espn_id }}.png" alt="" onerror="this.style.visibility='hidden'">{{ r.short }}</span></td>
-        <td class="num"><b>{{ r.tv }}</b></td><td class="num">{{ r.stream }}</td><td class="num dim">{{ r.none }}</td>
-        <td><div class="tvbar" title="{{ r.tv }} national TV, {{ r.stream }} streaming, {{ r.none }} not listed">{% if tot %}<i style="width:{{ r.tv / tot * 100 }}%;background:var(--s1)"></i><i style="width:{{ r.stream / tot * 100 }}%;background:color-mix(in srgb, var(--s1) 35%, var(--surface))"></i>{% endif %}</div></td>
-        <td class="dim">{% for n, c in r.nets %}{{ n }}{% if c > 1 %} ×{{ c }}{% endif %}{% if not loop.last %}, {% endif %}{% else %}–{% endfor %}</td>
-      </tr>
+  <section id="week">
+    <h2>This week: when and where to watch</h2>
+    <div class="sub" style="margin-bottom:12px">Next 8 days, all times Eastern. Each chip is a MAC team's game at its tip time; tap one to jump to it in the list.</div>
+    {% set lo = d.hour_range[0] %}{% set span = d.hour_range|length %}
+    <div class="scroll"><div class="when" data-lo="{{ lo }}" data-span="{{ span }}">
+      <div class="whead"><div></div><div class="hours">{% for h in d.hour_range %}<span style="left:{{ (loop.index0 / span * 100)|round(3) }}%">{{ (h - 12 if h > 12 else h) }}{{ 'a' if h < 12 else 'p' }}</span>{% endfor %}</div></div>
+      {% for day in d.days %}
+      <div class="wrow{{ ' empty' if not day.games }}" data-day="{{ day.key }}">
+        <div class="wday"><b>{{ day.weekday }}</b> {{ day.md }}<small class="rel"></small><small>{% if day.games %}{{ day.games|length }} game{{ 's' if day.games|length != 1 }}{% else %}no games{% endif %}</small></div>
+        <div class="wtrack" style="height:{{ 10 + day.lanes * 26 }}px">
+          {% for h in d.hour_range %}<i class="gl" style="left:{{ (loop.index0 / span * 100)|round(3) }}%"></i>{% endfor %}
+          <i class="nowline" hidden></i>
+          {% for g in day.games %}{% if g.et.hour is not none %}
+          <a class="chip {{ g.watch.tier }}{{ ' conf' if g.conference_game }}" href="#g{{ g.game_id }}" data-gid="{{ g.game_id }}" style="left:{{ ((g.et.hour - lo) / span * 100)|round(3) }}%;top:{{ 5 + g.lane * 26 }}px" title="{{ g.et.time }} ET · {{ g.away.abbr }} at {{ g.home.abbr }}{% if g.watch.nets %} · {{ g.watch.nets|map(attribute='name')|join(', ') }}{% else %} · no broadcast listed{% endif %}">{{ g.mac_label }}</a>
+          {% endif %}{% endfor %}
+        </div>
+      </div>
       {% endfor %}
-    </table></div>
-    <div class="note">Counts every game on the schedule, played or not. "Not listed" means ESPN has no broadcast for it yet (often a home game streamed on a school or conference service that ESPN doesn't carry).</div>
+    </div></div>
+    <div class="legend" style="margin:10px 0 18px;flex-wrap:wrap"><span><i class="lk tv"></i>National TV</span><span><i class="lk stream"></i>Streaming (ESPN+ etc.)</span><span><i class="lk none"></i>No broadcast listed yet</span><span><i class="lk conf"></i>MAC game</span></div>
+
   </section>
+
 
   <section>
     <div class="filters">
@@ -52,13 +61,22 @@
       <div class="scroll"><table class="agenda">
       {% for day in w.days %}
         <tbody class="tvday" data-daywrap="{{ day.key }}">
-          <tr class="dayrow"><td colspan="4"><div class="dayhead" data-day="{{ day.key }}"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim cnt"></span></div></td></tr>
+          <tr class="dayrow"><td colspan="9"><div class="dayhead" data-day="{{ day.key }}"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim cnt"></span></div></td></tr>
           {% for g in day.games %}
           <tr id="g{{ g.game_id }}" data-tier="{{ 'none' if g.watch.tier == 'local' else g.watch.tier }}" data-teams="{{ g.home.key or '' }} {{ g.away.key or '' }}" data-conf="{{ 1 if g.conference_game else 0 }}" data-done="{{ 1 if g.completed else 0 }}">
-            <td class="tipcell"><b>{{ g.et.time }}</b></td>
+            <td class="tipcell"><b>{{ g.et.time }}</b>{% if not g.completed %}<small class="cd" data-tip="{{ g.date }}"></small>{% endif %}</td>
             <td class="watchcell">{{ watchchips(g.watch) }}</td>
             <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}{% if notes_by_game.get(g.game_id) %} <a class="pill" href="notes.html#n-{{ notes_by_game[g.game_id][0].slug }}" title="Fieldhouse Notes dispatch">notes</a>{% endif %}{{ L.add_dispatch(g.game_id, (g.away.abbr or g.away.name) ~ " at " ~ (g.home.abbr or g.home.name), small=True) }}</span></td>
-            <td class="num result" style="width:90px">{% if g.completed %}{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}{% else %}<span class="dim">{{ g.venue_city or '' }}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}</span>{% endif %}</td>
+            {% set u = UP.get(g.game_id) %}
+            {% if u and u.line %}
+            <td class="num">{{ "%+.1f"|format(u.line.latest.spread) if u.line.latest.spread is not none else "–" }}<small class="dim" style="display:block">spread</small></td>
+            <td class="num">{{ u.line.latest.total if u.line.latest.total is not none else "–" }}<small class="dim" style="display:block">total</small></td>
+            <td class="num">{% if u.line.spread_move %}<span class="{{ 'down' if u.line.spread_move < 0 else 'up' }}">{{ "%+.1f"|format(u.line.spread_move) }}</span>{% else %}<span class="dim">0</span>{% endif %}<small class="dim" style="display:block">move</small></td>
+            {% elif u %}<td class="num dim" colspan="3"><small>no line yet</small></td>
+            {% else %}<td colspan="3"></td>{% endif %}
+            <td class="num" style="white-space:nowrap">{% if u and u.model %}<a href="ratings.html" title="Model: {{ u.away.abbr }} {{ '%.0f'|format(u.model.model.away_pts) }}, {{ u.home.abbr }} {{ '%.0f'|format(u.model.model.home_pts) }}{% if u.model.spread_edge %}; lean {{ u.model.spread_edge.take }} by {{ u.model.spread_edge.abs }}{% endif %}"{% if u.model.spread_edge and u.model.spread_edge.flag and not (u.model.home.non_d1 or u.model.away.non_d1) %} style="background:color-mix(in srgb, var(--warn) 30%, transparent);border-radius:6px;padding:1px 5px;color:var(--ink)"{% endif %}>{{ "%+.1f"|format(u.model.model.spread) }}</a><small class="dim" style="display:block">model {{ "%.1f"|format(u.model.model.total) }}</small>{% endif %}</td>
+            <td class="dim restcell">{% if u %}{% for side, tv in [(u.away, u.travel_away), (u.home, u.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}{% endif %}</td>
+            <td class="num result" style="width:90px">{% if u and u.line %}<a class="oddslink" href="odds.html#ev{{ u.line.odds_event_id }}" title="Every book's price for this game">odds</a><br>{% endif %}{% if g.completed %}{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}{% else %}<span class="dim">{{ g.venue_city or '' }}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}</span>{% endif %}</td>
           </tr>
           {% endfor %}
         </tbody>
@@ -66,6 +84,23 @@
       </table></div>
     </div>
     {% endfor %}
+    <div class="note">Spread is the home team's number (Pinnacle when posted, else the median of books); Move is since the first snapshot. Model is the rating model's spread and total, highlighted 3+ points off the market. Rest / travel is days off and miles in, away team then home team.</div>
+  </section>
+
+  <section>
+    <h2>Where each team shows up</h2>
+    <div class="scroll"><table>
+      <tr><th>Team</th><th class="num">National TV</th><th class="num">Streaming</th><th class="num">Not listed</th><th style="width:30%">Mix</th><th>Networks</th></tr>
+      {% for r in counts %}{% set tot = r.tv + r.stream + r.none %}
+      <tr>
+        <td><span class="tm" style="display:flex;gap:6px;align-items:center"><img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ r.espn_id }}.png" alt="" onerror="this.style.visibility='hidden'">{{ r.short }}</span></td>
+        <td class="num"><b>{{ r.tv }}</b></td><td class="num">{{ r.stream }}</td><td class="num dim">{{ r.none }}</td>
+        <td><div class="tvbar" title="{{ r.tv }} national TV, {{ r.stream }} streaming, {{ r.none }} not listed">{% if tot %}<i style="width:{{ r.tv / tot * 100 }}%;background:var(--s1)"></i><i style="width:{{ r.stream / tot * 100 }}%;background:color-mix(in srgb, var(--s1) 35%, var(--surface))"></i>{% endif %}</div></td>
+        <td class="dim">{% for n, c in r.nets %}{{ n }}{% if c > 1 %} ×{{ c }}{% endif %}{% if not loop.last %}, {% endif %}{% else %}–{% endfor %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Counts every game on the schedule, played or not. "Not listed" means ESPN has no broadcast for it yet (often a home game streamed on a school or conference service that ESPN doesn't carry).</div>
   </section>
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
@@ -109,6 +144,38 @@
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
   apply();
+
+  // Week grid: now-line and countdowns in the viewer's clock against Eastern time; chips jump to the row.
+  const etHM = (d) => Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(d).map(p => [p.type, p.value]));
+  function tick() {
+    const now = new Date(), p = etHM(now), dk = k(now);
+    document.querySelectorAll('.cd[data-tip]').forEach(el => {
+      const m = Math.round((new Date(el.dataset.tip.replace('Z', ':00Z')).getTime() - now.getTime()) / 6e4);
+      el.textContent = m < -150 ? '' : m <= 0 ? 'live' : m < 60 ? `in ${m}m` : m < 1440 ? `in ${Math.floor(m / 60)}h ${m % 60}m` : '';
+      el.classList.toggle('live', m <= 0 && m > -150);
+    });
+    document.querySelectorAll('.wrow[data-day]').forEach(r => {
+      r.classList.toggle('today', r.dataset.day === dk); r.classList.toggle('past', r.dataset.day < dk);
+      const rel = r.querySelector('.rel'); if (rel) rel.textContent = r.dataset.day === dk ? 'Today' : r.dataset.day === tomorrow ? 'Tomorrow' : '';
+    });
+    const when = document.querySelector('.when');
+    if (when) {
+      const lo = +when.dataset.lo, span = +when.dataset.span, h = +p.hour + p.minute / 60;
+      document.querySelectorAll('.wrow').forEach(r => {
+        const line = r.querySelector('.nowline'); if (!line) return;
+        const show = r.dataset.day === dk && h >= lo && h <= lo + span;
+        line.hidden = !show; if (show) line.style.left = ((h - lo) / span * 100) + '%';
+      });
+    }
+  }
+  tick(); setInterval(tick, 30000);
+  document.querySelectorAll('a.chip[data-gid]').forEach(a => a.addEventListener('click', (e) => {
+    const row = document.getElementById('g' + a.dataset.gid); if (!row) return;
+    e.preventDefault();
+    if (row.classList.contains('hide')) { st.tier = 'all'; st.team = ''; st.mac = false; apply(); }
+    row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    row.classList.remove('flash'); void row.offsetWidth; row.classList.add('flash');
+  }));
 })();
 </script>
 </body>
