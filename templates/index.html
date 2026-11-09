@@ -22,7 +22,7 @@
   </div>
 
   <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="ratings.html">Ratings model →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
@@ -55,9 +55,9 @@
 
     {% if d.upcoming %}
     <div class="scroll"><table class="agenda">
-      <tr><th>Tip (ET)</th><th>Watch</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
+      <tr><th>Tip (ET)</th><th>Watch</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num" title="Rating model's spread and total (home view); highlighted when 3+ points off the market. See the Ratings page.">Model</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
     {% for day in d.days if day.games %}
-      <tr class="dayrow" data-day="{{ day.key }}"><td colspan="8"><div class="dayhead"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim">{{ day.games|length }} game{{ 's' if day.games|length != 1 }}</span></div></td></tr>
+      <tr class="dayrow" data-day="{{ day.key }}"><td colspan="9"><div class="dayhead"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim">{{ day.games|length }} game{{ 's' if day.games|length != 1 }}</span></div></td></tr>
       {% for g in day.games %}
       <tr id="g{{ g.game_id }}">
         <td class="tipcell"><b>{{ g.et.time }}</b><small class="cd" data-tip="{{ g.date }}"></small></td>
@@ -70,6 +70,7 @@
         {% else %}
         <td class="num dim" colspan="3">no line yet</td>
         {% endif %}
+        <td class="num" style="white-space:nowrap">{% if g.model %}<a href="ratings.html" title="Model: {{ g.away.abbr }} {{ '%.0f'|format(g.model.model.away_pts) }}, {{ g.home.abbr }} {{ '%.0f'|format(g.model.model.home_pts) }}{% if g.model.spread_edge %}; lean {{ g.model.spread_edge.take }} by {{ g.model.spread_edge.abs }}{% endif %}"{% if g.model.spread_edge and g.model.spread_edge.flag and not (g.model.home.non_d1 or g.model.away.non_d1) %} style="background:color-mix(in srgb, var(--warn) 30%, transparent);border-radius:6px;padding:1px 5px;color:var(--ink)"{% endif %}>{{ "%+.1f"|format(g.model.model.spread) }}</a><small class="dim" style="display:block">{{ "%.1f"|format(g.model.model.total) }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
         <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
         <td>{% if g.line %}<a class="oddslink" href="odds.html#ev{{ g.line.odds_event_id }}" title="Every book's price for this game">odds</a>{% endif %}</td>
       </tr>

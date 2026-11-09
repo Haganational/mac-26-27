@@ -1,8 +1,8 @@
 # MAC 26-27
 
 A season-long dashboard for MAC men's basketball: schedules and results, line
-snapshots a few times a day, and (coming) a bottom-up rating model that flags gaps
-against posted lines, plus a study of when MAC lines post and how they move.
+snapshots a few times a day, a bottom-up rating model that flags gaps against
+posted lines, and (coming) a study of when MAC lines post and how they move.
 
 ## How it works
 
@@ -15,6 +15,20 @@ against posted lines, plus a study of when MAC lines post and how they move.
 - **The collector runs on a GitHub Actions schedule** (`.github/workflows/collect.yml`),
   commits new data back to the repo, renders the dashboard and publishes it to
   GitHub Pages. No server needed.
+- **Every D-I result** comes from ESPN's scoreboard (one request per day) into
+  `data/ncaa/games-<season>.json`, with turnovers, offensive rebounds and the
+  DraftKings closing line added from each game's summary. The model needs the whole
+  D-I graph to rate MAC opponents.
+- **The rating model** (`mac/ratings.py`) solves offense, defense and pace for every
+  D-I team at once by weighted least squares on points per 100 possessions:
+  opponent- and venue-adjusted, recency-weighted (half-life 90 days), blowouts
+  damped, starting from last season's ratings regressed 20% to average. It projects
+  spread, total and win probability for each MAC game, compares them with the
+  market, and logs each run to `data/model/projections.jsonl`. The ratings page is
+  `site/ratings.html`.
+- **The backtest** (`python -m mac.backtest`) replays 2025-26 one morning at a time
+  with only earlier games and scores the model against results and DraftKings
+  closing lines; `python -m mac.backtest tune` sweeps the knobs.
 - **The dashboard** is a static page built by `mac/build.py` from
   `templates/index.html`.
 
@@ -37,6 +51,10 @@ against posted lines, plus a study of when MAC lines post and how they move.
 pip install -r requirements.txt
 python -m mac.collect schedule          # refresh schedule from ESPN
 ODDS_API_KEY=... python -m mac.collect lines   # append a lines snapshot
+python -m mac.collect ncaa              # refresh this season's D-I results
+python -m mac.collect ncaa-backfill     # one-time: two prior seasons (~12k summary requests)
+python -m mac.collect ratings           # print MAC ratings
+python -m mac.backtest                  # walk-forward backtest, writes data/model/backtest.json
 python -m mac.collect site              # render site/index.html
 python -m mac.collect build-db          # data/mac.sqlite for ad hoc queries
 pytest -q
@@ -55,6 +73,10 @@ mac/config.py    teams, ids, aliases, paths
 mac/espn.py      schedule fetch and parsing
 mac/odds.py      Odds API snapshot and flattening
 mac/analysis.py  standings, line history, matching, posting stats
+mac/ncaa.py      every D-I result from ESPN's scoreboard + summary extras
+mac/ratings.py   the rating model: fit, project, team table, walk-forward
+mac/model.py     current ratings, MAC projections vs market, run logs
+mac/backtest.py  walk-forward backtest and knob sweep
 mac/build.py     dashboard data + rendering
 mac/db.py        SQLite export
 mac/collect.py   CLI

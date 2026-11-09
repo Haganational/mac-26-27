@@ -121,10 +121,11 @@ def parse_summary(game_id: str, summary: dict[str, Any]) -> dict[str, Any]:
     for pc in summary.get("pickcenter", []) or []:
         home = pc.get("homeTeamOdds", {})
         away = pc.get("awayTeamOdds", {})
-        # pickcenter "spread" is from the favourite's view; normalise to the home team.
+        # pickcenter "spread" is the favourite's number (always <= 0); normalise to the home team.
         spread = pc.get("spread")
-        if spread is not None and not home.get("favorite"):
-            spread = -spread
+        if spread is not None:
+            mag = abs(float(spread))
+            spread = -mag if home.get("favorite") else (mag if away.get("favorite") else (0.0 if mag == 0 else None))
         line = {
             "provider": pc.get("provider", {}).get("name"),
             "details": pc.get("details"),
