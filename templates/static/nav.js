@@ -1,4 +1,4 @@
-/* Site chrome: mobile menu, search (/ or Ctrl+K), share, section links, "On this page" bar. */
+/* Site chrome: mobile menu, search (/ or Ctrl+K), share, section links. */
 (function () {
   const me = document.currentScript;
   const ROOT = (me && me.dataset.root) || '';
@@ -66,7 +66,7 @@
     shareMenu(b, url, title);
   });
 
-  /* ---------- section links + "On this page" */
+  /* ---------- section links (the "#" on each heading) */
   const main = $('main');
   const secs = main ? $$('section[id]', main).filter(s => s.querySelector('h2') && !s.closest('section:not([id]) section')) : [];
   secs.forEach(s => {
@@ -82,30 +82,6 @@
     };
     h.appendChild(a);
   });
-  const top = secs.filter(s => !s.parentElement.closest('section'));
-  if (main && top.length >= 3) {
-    const bar = document.createElement('nav');
-    bar.className = 'onpage'; bar.setAttribute('aria-label', 'On this page');
-    bar.innerHTML = '<span class="op-k">On this page</span>' + top.map(s => {
-      const h = s.querySelector('h2').cloneNode(true); h.querySelectorAll('.hlink, a.btnlink').forEach(x => x.remove());
-      return `<a href="#${esc(s.id)}">${esc(h.textContent.trim())}</a>`;
-    }).join('');
-    let after = $(':scope > .ticker', main) || $(':scope > header', main);
-    if (after && after.nextElementSibling && after.nextElementSibling.matches('div.sub')) after = after.nextElementSibling;
-    if (after) after.after(bar); else main.prepend(bar);
-    if ('IntersectionObserver' in window) {
-      let hold = 0;
-      const links = new Map($$('a', bar).map(a => [a.getAttribute('href').slice(1), a]));
-      const io = new IntersectionObserver((ents) => {
-        if (Date.now() < hold) return;
-        ents.forEach(en => { if (en.isIntersecting) { links.forEach(a => a.classList.remove('on')); const a = links.get(en.target.id); if (a) { a.classList.add('on'); /* scroll only the bar sideways: scrollIntoView would also move the page and cut a jump short */ const l = a.offsetLeft - bar.offsetLeft, r = l + a.offsetWidth; if (l < bar.scrollLeft || r > bar.scrollLeft + bar.clientWidth) bar.scrollTo({ left: Math.max(0, l - 24) }); } } });
-      }, { rootMargin: '-120px 0px -65% 0px' });
-      top.forEach(s => io.observe(s));
-      // The link you tapped stays lit, even when two sections sit side by side.
-      bar.addEventListener('click', (e) => { const a = e.target.closest('a'); if (!a) return; hold = Date.now() + 1500; links.forEach(x => x.classList.remove('on')); a.classList.add('on'); });
-    }
-  }
-
   /* ---------- search */
   let index = null, loading = null, sel = 0, results = [];
   const KIND_ORDER = { Team: 0, Page: 1, Player: 2, Coach: 2, Game: 3, Section: 4, TV: 5, Travel: 5, News: 5 };

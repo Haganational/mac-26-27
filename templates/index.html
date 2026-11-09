@@ -8,24 +8,271 @@
 <body>
 {{ L.topbar(root="", active="index.html") }}
 <main id="main">
-  <header class="homehero" data-floor="{{ floor }}">
-    <div>
+{% macro tm(side, bold=False) %}<span class="tm-c{% if side.key %} t-{{ side.key }}{% endif %}">{{ side.abbr }}</span>{% endmacro %}
+  <header class="homehero compact" data-floor="{{ floor }}">
+    <div class="hh-title">
       <span class="kick">{{ site_name }}</span>
       <h1>MAC men's basketball {{ d.season }}</h1>
       <span class="sub">Updated {{ d.generated_et }}</span>
     </div>
-    <button class="hh-search" type="button" data-search><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Find a team, player or game<kbd>/</kbd></button>
+    {% if d.news and d.news.headlines %}
+    <ul class="hh-heads" aria-label="Latest headlines">
+      {% for i in d.news.headlines[:3] %}<li><span class="hh-tag">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}MAC{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
+      <li class="hh-all"><a href="news.html">All news →</a></li>
+    </ul>
+    {% endif %}
     <div class="hh-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
   </header>
 
-  {% if d.news and d.news.headlines %}
-  <div class="ticker" aria-label="Latest MAC men's basketball headlines">
-    <a class="tk-label" href="news.html">Latest</a>
-    <div class="tk-viewport"><div class="tk-track">
-      {% for pass in [0, 1] %}<span class="tk-run"{% if pass %} aria-hidden="true"{% endif %}>{% for i in d.news.headlines[:20] %}<a class="tk-item{{ ' fresh' if i.fresh }}{{ ' mine' if i.mine }}" href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}{% if pass %} tabindex="-1"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}<b>{% for t in i.teams[:2] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{{ '/' if not loop.last }}{% else %}MAC{% endfor %}</b> {{ i.title }} <span class="dim">{{ i.source }} · {{ i.age }}</span></a>{% endfor %}</span>{% endfor %}
-    </div></div>
-    <a class="tk-more" href="news.html">All news →</a>
+  {% if d.tonight %}
+  <section id="tonight">
+    <div class="sechead"><h2>{{ 'Tonight & tomorrow' if d.tonight|map(attribute='et.day_key')|unique|list|length > 1 else 'Next up' }}</h2><span class="dim">{{ d.tonight[0].et.day_label }}{% if d.tonight[-1].et.day_label != d.tonight[0].et.day_label %} – {{ d.tonight[-1].et.day_label }}{% endif %}</span><a class="more" href="tv.html">Full schedule →</a></div>
+    <div class="tonight">
+      {% for g in d.tonight %}{% set ln = g.line.latest if g.line else none %}{% set mdl = g.model if g.model else none %}
+      <div class="tn-game">
+        <div class="tn-time"><b>{{ g.et.time if not g.et.tba else 'TBA' }}</b><small>{{ g.et.weekday }} · ET · {% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>
+        <div class="tn-match">
+          <a href="tv.html#g{{ g.game_id }}"><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}</span>
+          <span class="tm-row">{{ tm(g.home) }} {{ 'vs' if g.neutral_site else '@' }} {{ (d.teams|selectattr('key','equalto',g.home.key)|first).short if g.home.key else g.home.name|school }}</span></a>
+        </div>
+        {% if ln and ln.spread is not none %}
+        <div class="tn-stat"><b>{% if ln.spread < 0 %}{{ g.home.abbr }} {{ '%g'|format(ln.spread) }}{% elif ln.spread > 0 %}{{ g.away.abbr }} {{ '%g'|format(-ln.spread) }}{% else %}PK{% endif %}</b><small>spread · {{ ln.books }} books</small></div>
+        <div class="tn-stat"><b>{{ '%g'|format(ln.total) if ln.total is not none else '–' }}</b><small>total</small></div>
+        {% if mdl and mdl.spread_edge and not (mdl.away.non_d1 or mdl.home.non_d1) %}<div class="tn-edge" title="Model leans {{ mdl.spread_edge.take }}"><b>{{ '%.1f'|format(mdl.spread_edge.abs) }}</b><small>pts model gap</small></div>{% endif %}
+        {% else %}
+        <div class="tn-none">{% if mdl and (mdl.away.non_d1 or mdl.home.non_d1) %}No line: non-D-I opponent{% else %}Line not posted yet{% endif %}</div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <div class="hometop">
+    {{ L.watch_shorts(youtube, youtube_shorts) }}
+    {{ L.best_play(d.best_play) }}
   </div>
+
+  <section id="teams">
+    <h2>Teams</h2>
+    <div class="teamgrid">
+      {% for t in d.standings %}
+      <a href="teams/{{ t.key }}.html" class="t-{{ t.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team|replace('Michigan', 'Mich.') }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="grid two">
+    <section id="results">
+      <div class="sechead"><h2>Recent results</h2><span class="dim">Last 7 days · MAC team in bold</span></div>
+      {% if d.recent %}
+      <div class="scroll"><table class="results">
+        <tr><th>Date</th><th>Game</th><th class="num">Final</th><th class="num">Close</th><th class="num">MAC ATS</th></tr>
+        {% for g in d.recent %}
+        <tr{% if loop.index > 14 %} class="rs-more" hidden{% endif %}>
+          <td class="dim">{{ g.md }}</td>
+          <td>{% if g.box %}<a class="rs-game" href="games/{{ g.game_id }}.html" title="Box score">{% else %}<span class="rs-game">{% endif %}<span class="{{ 'mac' if g.away.key else 'opp' }}">{{ g.away.abbr }}</span> {{ 'vs' if g.neutral_site else '@' }} <span class="{{ 'mac' if g.home.key else 'opp' }}">{{ g.home.abbr }}</span>{% if g.box %}</a>{% else %}</span>{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
+          <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
+          <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
+          <td class="num">{% for m in g.mac_ats %}<span class="ats {{ m.res or 'na' }}" title="{{ m.abbr }} {{ {'y': 'covered', 'n': 'did not cover', 'push': 'push'}.get(m.res, 'no line') }}">{% if g.mac_ats|length > 1 %}{{ m.abbr }} {% endif %}{{ {'y': '✓', 'n': '✗', 'push': 'P'}.get(m.res, '—') }}</span>{% endfor %}</td>
+        </tr>
+        {% endfor %}
+      </table></div>
+      {% if d.recent|length > 14 %}<button class="linkbtn" type="button" data-more-rows=".rs-more">Show {{ d.recent|length - 14 }} more results</button>{% endif %}
+      <div class="note">Close is the home team's spread. ✓ means the MAC team covered.</div>
+      {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
+    </section>
+
+    <div class="stack">
+    <section id="standings">
+      <h2>Standings</h2>
+      <table>
+        <tr><th>Team</th><th class="num">MAC</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Strk</th></tr>
+        {% for r in d.standings %}
+        <tr class="t-{{ r.key }}"><td><a href="teams/{{ r.key }}.html" style="color:var(--ink)"><i class="tdot"></i>{{ r.team|replace('Michigan', 'Mich.') }}</a></td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
+        {% endfor %}
+      </table>
+      <div class="note">Sorted by conference record, then overall, then average margin.</div>
+    </section>
+
+    {% if d.ats %}{% set tw = d.ats|sum(attribute='w') %}{% set tl = d.ats|sum(attribute='l') %}{% set ns = namespace(top=1) %}{% for r in d.ats %}{% if r.w + r.l > ns.top %}{% set ns.top = r.w + r.l %}{% endif %}{% endfor %}{% set top = ns.top %}
+    <section id="ats">
+      <div class="sechead"><h2>Against the spread</h2><span class="dim">Last 7 days · {{ tw }}-{{ tl }} league-wide</span></div>
+      <table class="atsboard">
+        {% for r in d.ats %}
+        <tr class="t-{{ r.key }}"><td><a href="teams/{{ r.key }}.html" style="color:var(--ink)"><i class="tdot"></i>{{ r.team|replace('Michigan', 'Mich.') }}</a></td><td class="num">{{ r.w }}-{{ r.l }}{% if r.p %}-{{ r.p }}{% endif %}</td><td class="bars"><div>{% if r.w %}<span class="bar y" style="width:{{ (r.w / top * 100)|round }}%"></span>{% endif %}{% if r.l %}<span class="bar n" style="width:{{ (r.l / top * 100)|round }}%"></span>{% endif %}</div></td></tr>
+        {% endfor %}
+      </table>
+      <div class="note">Covers vs the closing line. Games without a posted line don't count.</div>
+    </section>
+    {% endif %}
+    </div>
+  </div>
+
+  <section id="lines">
+    <div class="sechead"><h2>Line movement</h2><a class="more" href="odds.html">Every book, best prices →</a></div>
+    <p class="sub dim">Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view. Times are Eastern.</p>
+    {% if d.history %}
+    <!--hb-lock:linemoves-->
+    <!--hb-tease-->
+    <div class="tease-chart">
+      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 120 L80 112 L160 118 L240 96 L320 100 L400 74 L480 80 L600 58" fill="none" stroke="currentColor" stroke-width="4"/><path d="M0 70 L90 76 L170 66 L250 88 L330 84 L420 104 L500 98 L600 116" fill="none" stroke="currentColor" stroke-width="4" opacity=".55"/></svg>
+      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 60 L100 64 L200 90 L300 86 L400 110 L500 104 L600 130" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+    </div>
+    <div class="tease-rows"><i></i><i></i><i></i><i></i></div>
+    <!--/hb-tease-->
+    <div class="row">
+      <select id="gamepick" aria-label="Choose a game"></select>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Spread (home)</span><span><i style="background:var(--s2)"></i>Total</span></div>
+    </div>
+    <div class="grid two even">
+      <div class="chartwrap"><div class="ch-k">Spread <b id="spreadMove"></b></div><svg class="line" id="spreadChart" role="img" aria-label="Spread over time"></svg><div class="tip" id="tip1"></div></div>
+      <div class="chartwrap"><div class="ch-k">Total <b id="totalMove"></b></div><svg class="line" id="totalChart" role="img" aria-label="Total over time"></svg><div class="tip" id="tip2"></div></div>
+    </div>
+    <div class="scroll"><table id="bookTable" class="booktable"></table></div>
+    <div class="note"><span id="bookNote"></span>{% if d.posting.by_book %}<b>First to post so far:</b> {% for b in d.posting.by_book[:4] if b.first %}{{ b.name }} {{ b.first }}{{ ", " if not loop.last }}{% endfor %}{% if d.posting.median_lead_hours is not none %} · median {{ d.posting.median_lead_hours }}h before tip across {{ d.posting.events }} game{{ "s" if d.posting.events != 1 }}{% endif %}. {% endif %}{{ d.posting.note }}</div>
+    <script type="application/json" id="hist-data">{{ d.history|tojson }}</script>
+    <script type="application/json" id="book-names">{{ d.book_names|tojson }}</script>
+    <script>
+(function () {
+  const hist = JSON.parse(document.getElementById('hist-data').textContent).slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
+  if (!hist.length) return;
+  const NAMES = JSON.parse(document.getElementById('book-names').textContent);
+  const ET = { timeZone: 'America/New_York' };
+  const etShort = (t) => new Date(t).toLocaleString('en-US', { ...ET, weekday: 'short', hour: 'numeric', minute: '2-digit' });
+  const etDay = (t) => new Date(t).toLocaleString('en-US', { ...ET, month: 'short', day: 'numeric' });
+  const etTime = (t) => new Date(t).toLocaleString('en-US', { ...ET, hour: 'numeric', minute: '2-digit' });
+  const pick = document.getElementById('gamepick');
+  const now = Date.now();
+  hist.forEach((h, i) => {
+    const o = document.createElement('option'), t = new Date(h.commence_time).getTime();
+    o.value = i; o.textContent = `${etDay(h.commence_time)} ${etTime(h.commence_time)} · ${h.away_team} at ${h.home_team}${t < now - 3 * 36e5 ? ' (final)' : ''}`;
+    pick.appendChild(o);
+  });
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const sgn = (v) => (v > 0 ? '+' : '') + (+v).toFixed(1);
+
+  function draw(svg, tipEl, pts, color, fmt) {
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const W = svg.clientWidth || 500, H = 200, m = { l: 44, r: 14, t: 16, b: 26 };
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const xs = pts.map(p => new Date(p.t).getTime()), ys = pts.map(p => p.v);
+    if (!ys.length) return;
+    const x0 = Math.min(...xs), x1 = Math.max(...xs, x0 + 1);
+    let lo = Math.min(...ys), hi = Math.max(...ys); if (hi - lo < 2) { lo -= 1; hi += 1; }
+    const X = t => m.l + (t - x0) / (x1 - x0) * (W - m.l - m.r);
+    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+    const ns = 'http://www.w3.org/2000/svg';
+    const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+    for (let i = 0; i <= 3; i++) {
+      const v = lo + (hi - lo) * i / 3, y = Y(v);
+      svg.appendChild(el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css('--grid'), 'stroke-width': 1 }));
+      const t = el('text', { x: m.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }); t.textContent = fmt(v); svg.appendChild(t);
+    }
+    [x0, (x0 + x1) / 2, x1].forEach((t, i) => {
+      const tx = el('text', { x: X(t), y: H - 8, 'text-anchor': ['start', 'middle', 'end'][i], 'font-size': 11, fill: css('--muted') });
+      tx.textContent = etShort(t); svg.appendChild(tx);
+    });
+    // Step line: a number holds until the next snapshot changes it.
+    let d = `M${X(xs[0]).toFixed(1)},${Y(ys[0]).toFixed(1)}`;
+    for (let i = 1; i < xs.length; i++) d += ` H${X(xs[i]).toFixed(1)} V${Y(ys[i]).toFixed(1)}`;
+    d += ` H${(W - m.r).toFixed(1)}`;
+    svg.appendChild(el('path', { d, fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
+    // Markers and labels only where the number moved (plus the opener).
+    pts.forEach((p, i) => {
+      if (i && ys[i] === ys[i - 1]) return;
+      svg.appendChild(el('circle', { cx: X(xs[i]), cy: Y(p.v), r: 4, fill: color, stroke: css('--surface'), 'stroke-width': 2 }));
+      const lab = el('text', { x: Math.min(X(xs[i]) + 6, W - m.r - 30), y: Y(p.v) - 7, 'font-size': 11, 'font-weight': 600, fill: css('--ink-2') }); lab.textContent = fmt(p.v); svg.appendChild(lab);
+    });
+    const cross = el('line', { y1: m.t, y2: H - m.b, stroke: css('--axis'), 'stroke-width': 1, visibility: 'hidden' }); svg.appendChild(cross);
+    svg.onmousemove = (ev) => {
+      const r = svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * (W / r.width);
+      let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - mx) < Math.abs(X(xs[best]) - mx)) best = i;
+      cross.setAttribute('x1', X(xs[best])); cross.setAttribute('x2', X(xs[best])); cross.setAttribute('visibility', 'visible');
+      tipEl.style.display = 'block'; tipEl.style.left = Math.min(X(xs[best]) * (r.width / W) + 10, r.width - 190) + 'px'; tipEl.style.top = (Y(ys[best]) * (r.height / H) - 20) + 'px';
+      tipEl.textContent = `${etShort(pts[best].t)} ET  ${fmt(ys[best])}  (${pts[best].books} books)`;
+    };
+    svg.onmouseleave = () => { cross.setAttribute('visibility', 'hidden'); tipEl.style.display = 'none'; };
+  }
+
+  const median = (a) => { const s = a.filter(v => v != null).sort((x, y) => x - y); return s.length ? (s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2) : null; };
+  // A quote far off every other book's number, or with impossible juice, is stale, not a real price.
+  function suspect(b, med) {
+    const off = (v, m, lim) => v != null && m != null && Math.abs(v - m) > lim;
+    const wild = (p) => p != null && (p < -1000 && Math.abs(p) > 4 * Math.abs(med.mlh || 1) && Math.abs(p) > 4 * Math.abs(med.mla || 1));
+    return off(b.spread, med.spread, 3) || off(b.total, med.total, 6) || wild(b.ml_home) || wild(b.ml_away) ||
+      (b.spread_price != null && b.spread_price < -250) || (b.total_price != null && b.total_price < -250);
+  }
+  const bestIdx = (rows, k) => { let bi = -1, bv = -Infinity; rows.forEach((r, i) => { const v = r[1][k]; if (v != null && v > bv) { bv = v; bi = i; } }); return bi; };
+
+  function render() {
+    const h = hist[+pick.value];
+    const sp = h.snapshots.filter(s => s.spread != null).map(s => ({ t: s.captured_at, v: s.spread, books: s.books }));
+    const to = h.snapshots.filter(s => s.total != null).map(s => ({ t: s.captured_at, v: s.total, books: s.books }));
+    draw(document.getElementById('spreadChart'), document.getElementById('tip1'), sp, css('--s1'), sgn);
+    draw(document.getElementById('totalChart'), document.getElementById('tip2'), to, css('--s2'), v => (+v).toFixed(1));
+    document.getElementById('spreadMove').textContent = sp.length ? `${sgn(sp[0].v)} → ${sgn(sp[sp.length - 1].v)}` : '';
+    document.getElementById('totalMove').textContent = to.length ? `${(+to[0].v).toFixed(1)} → ${(+to[to.length - 1].v).toFixed(1)}` : '';
+    const all = Object.entries(h.latest_by_book);
+    const med = { spread: median(all.map(([, b]) => b.spread)), total: median(all.map(([, b]) => b.total)), mlh: median(all.map(([, b]) => b.ml_home)), mla: median(all.map(([, b]) => b.ml_away)) };
+    const hidden = all.filter(([, b]) => suspect(b, med)), rows = all.filter(([, b]) => !suspect(b, med));
+    rows.sort((a, b) => (a[0] === 'pinnacle' ? -1 : b[0] === 'pinnacle' ? 1 : (NAMES[a[0]] || a[0]).localeCompare(NAMES[b[0]] || b[0])));
+    // Best price per column: the most bettor-friendly juice on the market's number, and the longest moneyline.
+    const best = {};
+    ['spread_price', 'total_price', 'ml_home', 'ml_away'].forEach(k => { best[k] = bestIdx(rows, k); });
+    const cell = (i, k, v) => `<td class="num${best[k] === i ? ' best' : ''}">${v == null ? '–' : (v > 0 ? '+' : '') + v}</td>`;
+    const tb = document.getElementById('bookTable');
+    const home = h.home_team.split(' ').slice(0, -1).join(' ') || h.home_team, away = h.away_team.split(' ').slice(0, -1).join(' ') || h.away_team;
+    tb.innerHTML = `<tr><th>Book</th><th class="num">Spread</th><th class="num">Price</th><th class="num">Total</th><th class="num">Price</th><th class="num">ML ${home}</th><th class="num">ML ${away}</th></tr>` +
+      rows.map(([k, b], i) => `<tr><td>${NAMES[k] || k}</td><td class="num">${b.spread == null ? '–' : sgn(b.spread).replace('.0', '')}</td>${cell(i, 'spread_price', b.spread_price)}<td class="num">${b.total ?? '–'}</td>${cell(i, 'total_price', b.total_price)}${cell(i, 'ml_home', b.ml_home)}${cell(i, 'ml_away', b.ml_away)}</tr>`).join('');
+    document.getElementById('bookNote').textContent = 'Green = best price in each column. ' + (hidden.length ? `${hidden.length} book${hidden.length > 1 ? 's' : ''} hidden for a stale or off-market quote: ${hidden.map(([k]) => NAMES[k] || k).join(', ')}. ` : '');
+  }
+  pick.onchange = render;
+  let idx = hist.findIndex(h => new Date(h.commence_time).getTime() > now); pick.value = idx < 0 ? hist.length - 1 : idx;
+  render();
+  window.addEventListener('resize', render);
+})();
+</script>
+    <!--/hb-lock-->
+    {% else %}
+    <div class="empty">No line snapshots yet.</div>
+    {% endif %}
+  </section>
+
+  {% if d.league %}{% set lg = d.league %}
+  <section id="preseason">
+    <h2>Preseason picture</h2>
+    <div class="grid two">
+      <div>
+        {% if lg.storylines %}<div class="facts">
+          {% for s in lg.storylines[:6] %}<div class="fact"><b>{{ s.headline }}</b><span>{{ s.detail|truncate(150, killwords=False, end='…') }}</span>{% if s.source_url %} <a href="{{ s.source_url }}" class="src" target="_blank" rel="noopener">source</a>{% endif %}</div>{% endfor %}
+        </div>{% endif %}
+        {% for pv in lg.previews or [] %}
+        <details class="pv">
+          <summary><b>{{ pv.outlet|replace(' (Substack)', '') }}</b>{% if pv.title %} · {{ pv.title }}{% endif %} <span class="dim">{{ pv.date or "" }}</span></summary>
+          <p>{{ pv.summary }}{% if pv.url %} <a href="{{ pv.url }}" target="_blank" rel="noopener">Read it →</a>{% endif %}</p>
+          {% if pv.projected_order %}<p class="sub">Projected: {{ pv.projected_order|join(", ") }}</p>{% endif %}
+        </details>
+        {% endfor %}
+      </div>
+      <div>
+        {% if lg.preseason_poll %}
+        <table>
+          <tr><th>#</th><th>Coaches poll</th><th class="num">Pts</th><th class="num">1st</th></tr>
+          {% for r in lg.preseason_poll %}<tr><td class="dim">{{ r.rank }}</td><td>{{ r.team }}</td><td class="num">{{ r.points if r.points is not none else "" }}</td><td class="num">{{ r.first_place_votes or "–" }}</td></tr>{% endfor %}
+        </table>
+        {% endif %}
+        {% set awards = (lg.preseason_awards or [])|selectattr('player')|list %}
+        {% if awards %}<p class="sub">{% for a in awards %}<b>{{ a.award }}:</b> {{ a.player }}{% if a.team %} ({{ a.team }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+        {% for lvl, ps in (lg.preseason_all_mac or [])|groupby('team_level')|sort(attribute='grouper') %}
+        <p class="sub allmac"><b>Preseason All-MAC {{ lvl }}:</b> {% for a in ps %}{{ a.player }} ({{ (d.teams|selectattr('short','equalto',a.school)|map(attribute='abbr')|first) or a.school }}){% if not loop.last %}, {% endif %}{% endfor %}</p>
+        {% endfor %}
+        {% for o in lg.title_odds or [] %}
+        {% if o.odds %}<table><tr><th>{{ o.book }} title odds <span class="dim">{{ o.date }}</span></th><th class="num"></th></tr>{% for x in o.odds %}<tr><td>{{ x.team }}</td><td class="num">{{ x.price }}</td></tr>{% endfor %}</table>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
   {% endif %}
 
 {% set icons = {
@@ -40,185 +287,17 @@
   'viz.html': '<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 5.5V10l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
 } %}
-  <div class="hometop">
-    {{ L.watch_shorts(youtube, youtube_shorts) }}
-    {{ L.best_play(d.best_play) }}
+  <section id="explore">
+    <h2>Explore</h2>
+    <nav class="findit compact" aria-label="Every page">
+      {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
+    </nav>
+  </section>
+
+  <div class="support">
+    {{ L.ad_banner(house_ad) }}
+    {{ L.tip_jar(tip) }}
   </div>
-  <nav class="findit" aria-label="Find it fast">
-    {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
-  </nav>
-
-  {{ L.ad_banner(house_ad) }}
-  {{ L.tip_jar(tip) }}
-
-  <section id="teams">
-    <h2>Teams</h2>
-    <div class="teamgrid">
-      {% for t in d.standings %}
-      <a href="teams/{{ t.key }}.html" class="t-{{ t.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
-      {% endfor %}
-    </div>
-  </section>
-
-{% macro watchchips(w) %}{% for n in w.nets %}<span class="net {{ n.tier }}" title="{{ {'tv':'National TV','stream':'Streaming','local':'Local / regional'}[n.tier] }}{% if n.market and n.market != 'National' %} ({{ n.market }} market){% endif %}">{{ n.name }}</span>{% else %}<span class="net none" title="No broadcast listed by ESPN yet">TBD</span>{% endfor %}{% endmacro %}
-{% macro logo(side) %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endmacro %}
-  <div class="grid two">
-    <section>
-      <h2>Recent results (7 days)</h2>
-      {% if d.recent %}
-      <div class="scroll"><table>
-        <tr><th>Date</th><th>Game</th><th class="num">Score <span class="dim">(box)</span></th><th class="num">Close</th><th>ATS</th></tr>
-        {% for g in d.recent %}
-        <tr>
-          <td class="dim">{{ g.date[5:10] }}</td>
-          <td class="teams">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{% endif %}{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.box %}</a>{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
-          <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
-          <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
-          <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>
-        </tr>
-        {% endfor %}
-      </table></div>
-      {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
-    </section>
-
-    <section>
-      <h2>Standings</h2>
-      <table>
-        <tr><th>Team</th><th class="num">MAC</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Streak</th></tr>
-        {% for r in d.standings %}
-        <tr class="t-{{ r.key }}"><td><a href="teams/{{ r.key }}.html" style="color:var(--ink)"><i class="tdot"></i>{{ r.team }}</a></td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
-        {% endfor %}
-      </table>
-      <div class="note">Sorted by conference record, then overall, then average margin.</div>
-    </section>
-  </div>
-
-  <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Line movement</h2><a class="btnlink" href="odds.html">Every book, best prices →</a></div>
-    <p class="sub dim">Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</p>
-    {% if d.history %}
-    <!--hb-lock:linemoves-->
-    <!--hb-tease-->
-    <div class="tease-chart">
-      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 120 L80 112 L160 118 L240 96 L320 100 L400 74 L480 80 L600 58" fill="none" stroke="currentColor" stroke-width="4"/><path d="M0 70 L90 76 L170 66 L250 88 L330 84 L420 104 L500 98 L600 116" fill="none" stroke="currentColor" stroke-width="4" opacity=".55"/></svg>
-      <svg viewBox="0 0 600 200" preserveAspectRatio="none"><path d="M0 60 L100 64 L200 90 L300 86 L400 110 L500 104 L600 130" fill="none" stroke="currentColor" stroke-width="4"/></svg>
-    </div>
-    <div class="tease-rows"><i></i><i></i><i></i><i></i></div>
-    <!--/hb-tease-->
-    <div class="row">
-      <select id="gamepick" aria-label="Choose a game"></select>
-      <div class="legend"><span><i style="background:var(--s1)"></i>Spread (home)</span><span><i style="background:var(--s2)"></i>Total</span></div>
-    </div>
-    <div class="grid two">
-      <div class="chartwrap"><svg class="line" id="spreadChart" role="img" aria-label="Spread over time"></svg><div class="tip" id="tip1"></div></div>
-      <div class="chartwrap"><svg class="line" id="totalChart" role="img" aria-label="Total over time"></svg><div class="tip" id="tip2"></div></div>
-    </div>
-    <div class="scroll"><table id="bookTable"></table></div>
-    <div class="note">{% if d.posting.by_book %}<b>First to post so far:</b> {% for b in d.posting.by_book[:4] if b.first %}{{ b.name }} {{ b.first }}{{ ", " if not loop.last }}{% endfor %}{% if d.posting.median_lead_hours is not none %} · median {{ d.posting.median_lead_hours }}h before tip across {{ d.posting.events }} game{{ "s" if d.posting.events != 1 }}{% endif %}. {% endif %}{{ d.posting.note }}</div>
-    <script type="application/json" id="hist-data">{{ d.history|tojson }}</script>
-    <script>
-(function () {
-  const hist = JSON.parse(document.getElementById('hist-data').textContent).slice().sort((a, b) => a.commence_time.localeCompare(b.commence_time));
-  if (!hist.length) return;
-  const pick = document.getElementById('gamepick');
-  hist.forEach((h, i) => {
-    const o = document.createElement('option');
-    o.value = i; o.textContent = `${h.commence_time.slice(5, 16).replace('T', ' ')}  ${h.away_team} at ${h.home_team}`;
-    pick.appendChild(o);
-  });
-  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
-
-  function draw(svg, tipEl, pts, color, fmt) {
-    while (svg.firstChild) svg.removeChild(svg.firstChild);
-    const W = svg.clientWidth || 500, H = 200, m = { l: 44, r: 12, t: 12, b: 26 };
-    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-    const xs = pts.map(p => new Date(p.t).getTime()), ys = pts.map(p => p.v);
-    if (!ys.length) return;
-    const x0 = Math.min(...xs), x1 = Math.max(...xs) || x0 + 1;
-    let lo = Math.min(...ys), hi = Math.max(...ys); if (hi - lo < 2) { lo -= 1; hi += 1; }
-    const X = t => m.l + (x1 === x0 ? 0.5 : (t - x0) / (x1 - x0)) * (W - m.l - m.r);
-    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
-    const ns = 'http://www.w3.org/2000/svg';
-    const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
-    for (let i = 0; i <= 3; i++) {
-      const v = lo + (hi - lo) * i / 3, y = Y(v);
-      svg.appendChild(el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css('--grid'), 'stroke-width': 1 }));
-      const t = el('text', { x: m.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }); t.textContent = fmt(v); svg.appendChild(t);
-    }
-    [x0, x1].forEach((t, i) => {
-      const tx = el('text', { x: X(t), y: H - 8, 'text-anchor': i ? 'end' : 'start', 'font-size': 11, fill: css('--muted') });
-      tx.textContent = new Date(t).toISOString().slice(5, 16).replace('T', ' '); svg.appendChild(tx);
-    });
-    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(xs[i]).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
-    svg.appendChild(el('path', { d, fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
-    pts.forEach((p, i) => svg.appendChild(el('circle', { cx: X(xs[i]), cy: Y(p.v), r: 4, fill: color, stroke: css('--surface'), 'stroke-width': 2 })));
-    const cross = el('line', { y1: m.t, y2: H - m.b, stroke: css('--axis'), 'stroke-width': 1, visibility: 'hidden' }); svg.appendChild(cross);
-    svg.onmousemove = (ev) => {
-      const r = svg.getBoundingClientRect(), mx = (ev.clientX - r.left) * (W / r.width);
-      let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - mx) < Math.abs(X(xs[best]) - mx)) best = i;
-      cross.setAttribute('x1', X(xs[best])); cross.setAttribute('x2', X(xs[best])); cross.setAttribute('visibility', 'visible');
-      tipEl.style.display = 'block'; tipEl.style.left = Math.min(X(xs[best]) * (r.width / W) + 10, r.width - 160) + 'px'; tipEl.style.top = (Y(ys[best]) * (r.height / H) - 36) + 'px';
-      tipEl.textContent = `${pts[best].t.slice(5, 16).replace('T', ' ')} UTC  ${fmt(ys[best])}  (${pts[best].books} books)`;
-    };
-    svg.onmouseleave = () => { cross.setAttribute('visibility', 'hidden'); tipEl.style.display = 'none'; };
-  }
-
-  function render() {
-    const h = hist[+pick.value];
-    const sp = h.snapshots.filter(s => s.spread != null).map(s => ({ t: s.captured_at, v: s.spread, books: s.books }));
-    const to = h.snapshots.filter(s => s.total != null).map(s => ({ t: s.captured_at, v: s.total, books: s.books }));
-    draw(document.getElementById('spreadChart'), document.getElementById('tip1'), sp, css('--s1'), v => (v > 0 ? '+' : '') + v.toFixed(1));
-    draw(document.getElementById('totalChart'), document.getElementById('tip2'), to, css('--s2'), v => v.toFixed(1));
-    const tb = document.getElementById('bookTable');
-    const books = Object.entries(h.latest_by_book).sort();
-    tb.innerHTML = '<tr><th>Book (latest)</th><th class="num">Spread</th><th class="num">Price</th><th class="num">Total</th><th class="num">Price</th><th class="num">ML home</th><th class="num">ML away</th></tr>' +
-      books.map(([k, b]) => `<tr><td>${k}</td><td class="num">${b.spread == null ? '–' : (b.spread > 0 ? '+' : '') + b.spread}</td><td class="num">${b.spread_price ?? '–'}</td><td class="num">${b.total ?? '–'}</td><td class="num">${b.total_price ?? '–'}</td><td class="num">${b.ml_home ?? '–'}</td><td class="num">${b.ml_away ?? '–'}</td></tr>`).join('');
-  }
-  pick.onchange = render;
-  // Default to the next game to tip.
-  const now = Date.now(); let idx = hist.findIndex(h => new Date(h.commence_time).getTime() > now); pick.value = idx < 0 ? hist.length - 1 : idx;
-  render();
-  window.addEventListener('resize', render);
-})();
-</script>
-    <!--/hb-lock-->
-    {% else %}
-    <div class="empty">No line snapshots yet. The collector appends one each run once <code>ODDS_API_KEY</code> is set.</div>
-    {% endif %}
-  </section>
-
-  {% if d.league %}
-  <section>
-    <h2>Preseason picture</h2>
-    <div class="grid two">
-      <div>
-        {% if d.league.previews %}
-        {% for pv in d.league.previews %}
-        <div class="preview">
-          <div><b>{{ pv.outlet }}</b>{% if pv.title %}: <a href="{{ pv.url }}">{{ pv.title }}</a>{% endif %} <span class="dim">{{ pv.date or "" }}{% if pv.author %} · {{ pv.author }}{% endif %}</span></div>
-          {% if pv.projected_order %}<div class="sub">Projected: {{ pv.projected_order|join(", ") }}</div>{% endif %}
-          <p>{{ pv.summary }}</p>
-        </div>
-        {% endfor %}
-        {% endif %}
-        {% for s in d.league.storylines or [] %}<p><b>{{ s.headline }}</b> {{ s.detail }}{% if s.source_url %} <a href="{{ s.source_url }}" class="src">source</a>{% endif %}</p>{% endfor %}
-      </div>
-      <div>
-        {% if d.league.preseason_poll %}
-        <table>
-          <tr><th>#</th><th>Coaches poll</th><th class="num">Pts</th><th class="num">1st</th></tr>
-          {% for r in d.league.preseason_poll %}<tr><td class="dim">{{ r.rank }}</td><td>{{ r.team }}</td><td class="num">{{ r.points if r.points is not none else "" }}</td><td class="num">{{ r.first_place_votes if r.first_place_votes is not none else "" }}</td></tr>{% endfor %}
-        </table>
-        {% endif %}
-        {% if d.league.preseason_awards %}<p class="sub">{% for a in d.league.preseason_awards %}<b>{{ a.award }}:</b> {{ a.player }}{% if a.team %} ({{ a.team }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
-        {% if d.league.preseason_all_mac %}<p class="sub">{% for a in d.league.preseason_all_mac %}{{ a.player }} ({{ a.school }}, {{ a.team_level }}){% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
-        {% for o in d.league.title_odds or [] %}
-        {% if o.odds %}<table><tr><th>{{ o.book }} title odds <span class="dim">{{ o.date }}</span></th><th class="num"></th></tr>{% for x in o.odds %}<tr><td>{{ x.team }}</td><td class="num">{{ x.price }}</td></tr>{% endfor %}</table>{% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
 
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
@@ -252,6 +331,9 @@
     }
   }
   tick(); setInterval(tick, 30000);
+  document.querySelectorAll('[data-more-rows]').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll(b.dataset.moreRows).forEach(r => { r.hidden = false; }); b.remove();
+  }));
   // Jumping to a game from the grid: flash its row.
   document.querySelectorAll('a.chip').forEach(a => a.addEventListener('click', () => {
     const row = document.querySelector(a.getAttribute('href')); if (!row) return;
