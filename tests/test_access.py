@@ -14,20 +14,21 @@ HOME = """<main id="main"><details class="bestplay">
 
 
 def test_lock_page_hides_body_and_scripts():
-    s = access.Sealer("bricks", salt=b"0" * 16)
+    s = access.Sealer(["bricks", "matthew"], salt=b"0" * 16)
     out = access.lock_page(PAGE, s)
     assert "secret line" not in out and "window.x" not in out
     assert "Enter your access code" in out and all(e in out for e in access.REQUEST_EMAILS) and "under 21" in out
     assert 'src="static/nav.js"' in out and "<footer>foot</footer>" in out
     blob = out.split('class="hb-sealed">')[1].split("</script>")[0]
-    p = json.loads(s.open(blob))
+    p = json.loads(access.open_blob(blob, "matthew"))
+    assert json.loads(access.open_blob(blob, "bricks")) == p
     assert "secret line -3.5" in p["html"] and p["scripts"] == ["window.x = 1;"]
 
 
 def test_wrong_code_cannot_open():
-    blob = access.Sealer("bricks", salt=b"1" * 16).seal("hi")
+    blob = access.Sealer(["bricks", "matthew"], salt=b"1" * 16).seal("hi")
     try:
-        access.Sealer("nope", salt=b"1" * 16).open(blob)
+        access.open_blob(blob, "nope")
     except Exception:
         return
     raise AssertionError("opened with the wrong code")
@@ -49,3 +50,8 @@ def test_no_code_no_change(tmp_path, monkeypatch):
     (tmp_path / "odds.html").write_text(PAGE)
     assert access.lock_site(tmp_path) == 0
     assert (tmp_path / "odds.html").read_text() == PAGE
+
+
+def test_codes_parsing(monkeypatch):
+    monkeypatch.setenv("ACCESS_CODE", "matthew-own\n# press\n  bricks , bricks\n\nbernice-list\n")
+    assert access.codes() == ["matthew-own", "bricks", "bernice-list"]
