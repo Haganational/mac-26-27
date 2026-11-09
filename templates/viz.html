@@ -43,10 +43,12 @@
   <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> Data Visualized</nav>
   <header class="vz-hero">
     <h1>Data Visualized</h1>
-    <span class="sub">When does each book hang its number? One clock per game. Tip-off sits at 12 o'clock, every book sits where we first saw its line, and the gold arrow sweeps clockwise from the first line to tip.</span>
+    <span class="sub">How each game's number has moved, and when each book hung it. On the clocks, one per game, tip-off sits at 12 o'clock, every book sits where we first saw its line, and the gold arrow sweeps clockwise from the first line to tip.</span>
   </header>
 
-  <section>
+{% include "_linemoves.html" %}
+
+  <section id="clocks">
     <h2>When books post</h2>
     <div class="vz-key">
       <span><svg width="26" height="10"><path d="M2 5h18" stroke="var(--gold)" stroke-width="3" stroke-linecap="round"/><path d="M19 1l6 4-6 4z" fill="var(--gold)"/></svg>first line → tip</span>
