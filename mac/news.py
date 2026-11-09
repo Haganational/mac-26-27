@@ -81,7 +81,7 @@ NAMES: dict[str, dict[str, Any]] = {
 
 # Words that mark a general-news headline as being about men's hoops.
 HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\bMAC (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
-WOMENS = re.compile(r"women[’']?s|\bWBB\b|\blady\b", re.I)
+WOMENS = re.compile(r"women[’']?s|minutewomen|\bWBB\b|\blady\b", re.I)
 MENS = re.compile(r"\bmen[’']?s\b", re.I)
 MENS_HOOPS = re.compile(r"\bmen[’']?s (college )?basketball\b|\bMBB\b", re.I)
 OTHER_SPORT = re.compile(r"\b(soccer|football|volleyball|softball|baseball|hockey|wrestling|gymnastics|swimming|swim|track|cross country|golf|tennis|lacrosse|rowing)\b", re.I)
@@ -247,6 +247,10 @@ def headline_ok(title: str, kind: str, team: str | None, url: str = "") -> bool:
     if OTHER_SPORT.search(title) and not re.search(r"basketball|hoops", title, re.I):
         return False
     if url and host(url).endswith("substack.com"):  # Matthew: no Substack in the ticker
+        return False
+    if kind != "google" and "news.google.com" in url and not HOOPS.search(title):
+        # A school site reached through Google News covers every sport, so the
+        # headline itself has to say it is basketball.
         return False
     if kind == "google" and team:
         # A team search also returns opponents' and other sports' stories: the headline
