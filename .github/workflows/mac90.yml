@@ -53,11 +53,17 @@ jobs:
         env:
           VOICE_KEY: ${{ secrets.VOICE_KEY }}
         run: |
-          if [ -n "$VOICE_KEY" ] && [ -f voices/matthew.ogg.enc ]; then
-            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/ref.ogg
+          # Pasted secrets can pick up a stray newline or space; the key is plain hex.
+          export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
+          if [ -n "$VOICE_KEY" ] && [ -f voices/matthew.ogg.enc ] \
+             && openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/ref.ogg; then
             ffmpeg -loglevel error -y -i /tmp/ref.ogg -ac 1 -ar 24000 /tmp/ref.wav && rm /tmp/ref.ogg
+            echo "Using Matthew's voice reference"
             echo "clone=yes" >> "$GITHUB_OUTPUT"
+          elif [ -n "$VOICE_KEY" ] && [ "${{ github.event_name }}" != "pull_request" ]; then
+            echo "::warning::VOICE_KEY did not open voices/matthew.ogg.enc; using Piper"
           elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            [ -n "$VOICE_KEY" ] && echo "::warning::VOICE_KEY did not open voices/matthew.ogg.enc; testing with a Piper sample"
             echo "This is MAC Ninety, the Mid-American Conference in ninety seconds. Western Michigan beat Campbell eighty seven to seventy one last night, and Bowling Green hosts Cleveland State tonight at seven." \
               | python -m piper -m voices/$VOICE.onnx -f /tmp/ref.wav
             echo "clone=yes" >> "$GITHUB_OUTPUT"
