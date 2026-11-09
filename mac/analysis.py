@@ -253,3 +253,33 @@ def book_posting(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out.sort(key=lambda b: (-b["first"], -b["median_lead_hours"]))
     return out
 
+
+def posting_clocks(rows: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
+    """One clock per game: when we first saw each book price it (any market), measured back from tip."""
+    first: dict[tuple[str, str], str] = {}
+    meta: dict[str, dict[str, Any]] = {}
+    for r in rows:
+        ev = r["odds_event_id"]
+        key = (ev, r["book"])
+        if key not in first or r["captured_at"] < first[key]:
+            first[key] = r["captured_at"]
+        meta.setdefault(ev, {"id": ev, "tip": r["commence_time"], "home": r["home_team"], "away": r["away_team"],
+                             "home_key": r.get("home_key"), "away_key": r.get("away_key")})
+    out = []
+    for ev, m in meta.items():
+        tip = parse_iso(m["tip"])
+        books = sorted(({"book": b, "t": t, "lead_h": round((tip - parse_iso(t)).total_seconds() / 3600, 2)}
+                        for (e, b), t in first.items() if e == ev), key=lambda x: -x["lead_h"])
+        books = [b for b in books if b["lead_h"] > 0]  # quotes first seen after tip are in-play, not openers
+        if not books:
+            continue
+        lead = books[0]["lead_h"]
+        span = 12 if lead <= 12 else 24 if lead <= 24 else 48 if lead <= 48 else 72
+        to_tip = (tip - now).total_seconds() / 3600
+        out.append({**m, "books": books, "span_h": span, "lead_h": lead,
+                    "gap_h": round(books[0]["lead_h"] - books[-1]["lead_h"], 2),
+                    "now_h": round(to_tip, 2) if 0 < to_tip <= span else None,
+                    "final": to_tip <= 0})
+    out.sort(key=lambda e: e["tip"], reverse=True)
+    return out
+
