@@ -206,3 +206,15 @@ document.addEventListener('click', function (e) {
   f.title = b.dataset.twitch + ' on Twitch';
   b.replaceWith(f);
 });
+
+// MAC90 on Home: swap the card for the YouTube Shorts player (latest upload first).
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('[data-yt-list]');
+  if (!b) return;
+  var f = document.createElement('iframe');
+  f.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(b.dataset.ytList) + '&autoplay=1&playsinline=1&rel=0';
+  f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  f.allowFullscreen = true;
+  f.title = 'MAC90 on YouTube';
+  b.replaceWith(f);
+});

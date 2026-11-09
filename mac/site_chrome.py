@@ -19,8 +19,9 @@ from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
 FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
-YOUTUBE_CHANNEL = "juiceboxtv-m1g"  # where MAC90 videos post (youtube.com/@juiceboxtv-m1g)
-TWITCH_CHANNEL = "juiceboxtv"  # the live stream slot on Home; change to our own channel later
+YOUTUBE_CHANNEL = "juiceboxtv-m1g"  # where MAC90 videos post (youtube.com/@juiceboxtv-m1g, "Hardwood Bricks")
+YOUTUBE_CHANNEL_ID = "UCUcO9nplyQZQWtZce69Y6Bw"  # its Shorts playlist is "UUSH" + this id minus "UC"
+TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the YouTube Shorts player
 # House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
 AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Fresh takes, live streams and the JuiceBox crew.", "cta": "Visit juiceboxnation.com"}
 BRAND = "#123d2e"  # deep green for the top bar and share cards

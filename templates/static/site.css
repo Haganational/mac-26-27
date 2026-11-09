@@ -504,8 +504,25 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .bestplay .bp-fine { font-size: 11px; color: var(--muted); }
 
 /* Home top row: the live stream gets the room, the teaser sits beside it */
-.hometop { display: grid; grid-template-columns: minmax(0, 600px) minmax(0, 1fr); gap: 14px; margin: 0 0 16px; align-items: start; }
-.hometop.solo { grid-template-columns: 1fr; }
+.hometop { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; margin: 0 0 16px; align-items: start; }
+.ytwatch { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 18px; align-items: center; padding: 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--border); }
+@media (max-width: 560px) { .ytwatch { grid-template-columns: 1fr; } .yt-frame { max-width: 230px; margin: 0 auto; width: 100%; } }
+.yt-frame { position: relative; aspect-ratio: 9 / 16; border-radius: 12px; overflow: hidden; background: #120d09; }
+.yt-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.yt-play { position: absolute; inset: 0; width: 100%; border: 0; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; color: #fff; font: inherit;
+  background: linear-gradient(180deg, rgba(18,13,9,.2), #120d09 70%), var(--bricks) 0 0 / 96px 32px; }
+.yt-play:hover .wp-btn { transform: scale(1.06); }
+.yt-plaque { color: #3b2414; font: 700 30px/1 Georgia, "Times New Roman", serif; letter-spacing: .06em; padding: 8px 16px 6px; border-radius: 3px;
+  background: linear-gradient(180deg, #ecd3a2, #d8b273 60%, #c99d5c); box-shadow: inset 0 0 0 3px rgba(236,211,162,.9), inset 0 0 0 4px rgba(59,36,20,.45), 0 4px 14px rgba(0,0,0,.45); }
+.yt-play .yt-btn { background: #ff0033; box-shadow: 0 6px 20px rgba(255,0,51,.35); }
+.yt-cap { display: grid; text-align: center; font-weight: 700; font-size: 15px; } .yt-cap small { font-weight: 500; color: #d8cbb6; font-size: 12.5px; margin-top: 2px; }
+.yt-side { display: grid; gap: 6px; align-content: center; }
+.yt-k { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.yt-side b { font-size: 22px; }
+.yt-links { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-top: 8px; }
+.yt-sub { padding: 8px 16px; border-radius: 999px; background: #ff0033; color: #fff; font-weight: 700; }
+.yt-sub:hover { text-decoration: none; filter: brightness(1.08); }
+@media (min-width: 900px) { .hometop { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); } }
 @media (max-width: 760px) { .hometop { grid-template-columns: 1fr; } }
 .watch { position: relative; border-radius: 14px; overflow: hidden; background: #0e0b16; aspect-ratio: 16 / 9; width: 100%; }
 .watch-play { position: absolute; inset: 0; width: 100%; border: 0; cursor: pointer; display: flex; align-items: flex-end; justify-content: flex-start; gap: 14px; padding: 18px; color: #fff; text-align: left; font: inherit;
