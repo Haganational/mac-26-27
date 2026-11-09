@@ -2,8 +2,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}Today in the MAC · {{ t.date_label }}{% endset %}{% set page_desc %}MAC men's basketball in 90 seconds: {{ t.results_label|lower or 'results' }}, {{ t.slate_label|lower }} and the standings, built from box scores and lines.{% endset %}
-{{ L.head(page_title, page_desc, root="", path="today.html") }}
+{% set page_title %}MAC90 · {{ t.date_label }}{% endset %}{% set page_desc %}MAC men's basketball in 90 seconds: {{ t.results_label|lower or 'results' }}, {{ t.slate_label|lower }} and the standings, built from box scores and lines.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="mac90.html") }}
 <style>
   .td-hero { border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; color: #fff; background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
   .td-hero .kick { font: 700 11px/1 Georgia, serif; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
@@ -28,16 +28,16 @@
 </style>
 </head>
 <body>
-{{ L.topbar(root="", active="today.html") }}
+{{ L.topbar(root="", active="mac90.html") }}
 <main id="main">
   <header class="td-hero">
     <span class="kick">{{ site_name }}</span>
-    <h1>Today in the MAC</h1>
+    <h1>MAC90</h1>
     <span class="sub">{{ t.date_label }} · about {{ t.seconds }} seconds read aloud</span>
   </header>
 
   <div class="td-wrap">
-    <article class="script" aria-label="Today in the MAC script">
+    <article class="script" aria-label="MAC90 script">
       <div class="bar">
         <span class="meta"><b>{{ t.words }}</b> words · about <b>{{ t.seconds }}s</b> at a broadcast pace{% if t.over %} · running long{% endif %}</span>
         <button class="td-btn primary" type="button" id="td-play" hidden><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span>Listen</span></button>
@@ -77,7 +77,7 @@
     if (on) return stop();
     on = true; label.textContent = 'Stop';
     paras.forEach(function (p, i) {
-      var u = new SpeechSynthesisUtterance(p.textContent.replace(/Miami \(OH\)/g, 'Miami of Ohio'));
+      var u = new SpeechSynthesisUtterance(p.textContent.replace(/Miami \(OH\)/g, 'Miami of Ohio').replace(/MAC90/g, 'MAC Ninety'));
       u.rate = 1.0;
       u.onstart = function () { paras.forEach(function (x) { x.classList.remove('speaking'); }); p.classList.add('speaking'); };
       if (i === paras.length - 1) u.onend = stop;
