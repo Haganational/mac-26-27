@@ -1,21 +1,20 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} · MAC {{ d.season }}</title>
-<meta name="description" content="Box score: {{ g.name }}, {{ g.date[:10] }}.">
-<link rel="stylesheet" href="../static/site.css">
+{% set page_title %}{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} · MAC {{ d.season }}{% endset %}{% set page_desc %}Box score: {{ g.name }}, {{ g.date[:10] }}.{% endset %}
+{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", image="static/og/game-" ~ g.game_id ~ ".png") }}
 </head>
 <body>
-<main>
+{{ L.topbar(root="../", active="") }}
+<main id="main">
   <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Box score
-    <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html">{{ t.short }}</a>{% endfor %}</span>
+    <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html" class="t-{{ t.key }}">{{ t.short }}</a>{% endfor %}</span>
   </nav>
 
   <header class="scorehead">
     {% for side in [away, home] %}
-    <div class="side {{ 'win' if side.winner else '' }}">
+    <div class="side {{ 'win' if side.winner else '' }}{{ ' t-' ~ side.key if side.key }}">
       <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" width="48" height="48">
       <div>
         <div class="tname">{% if side.key %}<a href="../teams/{{ side.key }}.html">{{ side.name }}</a>{% else %}{{ side.name }}{% endif %}</div>
@@ -29,6 +28,7 @@
     Final · {{ g.date[:10] }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
     {% if g.conference_game %} · <span class="pill">MAC</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}">ESPN gamecast</a>
+    · <a href="#" data-share data-share-title="{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} (final)">Share this box score</a>
   </div>
 
   <div class="grid two">
@@ -97,5 +97,6 @@
   </section>
   {% endfor %}
 </main>
+{{ L.footer(root="../", updated=d.generated_et) }}
 </body>
 </html>

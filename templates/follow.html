@@ -1,11 +1,9 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC on X</title>
-<meta name="description" content="Checklist of MAC men's basketball team, coach, player and media accounts to follow on a free X account.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC on X{% endset %}{% set page_desc %}Checklist of MAC men's basketball team, coach, player and media accounts to follow on a free X account.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="follow.html", image="static/og/follow.png") }}
 <style>
   .fl { list-style: none; margin: 0; padding: 0; }
   .fl li { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--grid); font-size: 14px; }
@@ -31,7 +29,8 @@
 </style>
 </head>
 <body>
-<main>
+{{ L.topbar(root="", active="follow.html") }}
+<main id="main">
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Follow on X</nav>
   <header>
     <h1>Follow the MAC on X</h1>
@@ -90,6 +89,7 @@
   {% endfor %}
   </div>
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 <script>
 (function () {
   var KEY = "mac-x-followed";

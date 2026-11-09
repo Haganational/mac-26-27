@@ -9,8 +9,8 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, model, news, oddsboard, players, schedule_view, travel
-from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
+from . import analysis, model, news, oddsboard, players, schedule_view, site_chrome, travel
+from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
 from .rosters import load_boxscores
@@ -233,6 +233,8 @@ def render_site() -> str:
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
+    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND,
+                       nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
 
@@ -339,4 +341,63 @@ def render_site() -> str:
     static = TEMPLATES_DIR / "static"
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
+    finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / "index.html")
+
+
+def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[str, list[dict[str, Any]]],
+                standings: dict[str, dict[str, Any]], m: dict | None) -> None:
+    """Section anchors, search index, team colors, share cards, manifest, robots, sitemap."""
+    (SITE_DIR / "static").mkdir(exist_ok=True)
+    (SITE_DIR / "static" / "teams.css").write_text(site_chrome.teams_css())
+
+    pages = sorted(p for p in SITE_DIR.rglob("*.html"))
+    sections: dict[str, list[tuple[str, str]]] = {}
+    for f in pages:
+        rel = f.relative_to(SITE_DIR).as_posix()
+        html, found = site_chrome.anchor_sections(f.read_text())
+        f.write_text(html)
+        sections[rel] = found
+
+    coaches = {t.key: (players.team_context(t.key).get("coach") or {}).get("name") or "" for t in TEAMS}
+    mac_games = [schedule_view.decorate(dict(g)) for g in games if g["home"].get("key") or g["away"].get("key")]
+
+    def et_label(g: dict[str, Any]) -> str:
+        e = schedule_view.et_fields(g)
+        return f"{e['weekday']} {e['md']}, {e['time']} ET" if e.get("time") else f"{e['weekday']} {e['md']}"
+
+    items = site_chrome.build_search_index(sections, mac_games, have_box, profiles, coaches, standings, et_label)
+    (SITE_DIR / "search.json").write_text(json.dumps({"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                                      "items": items}, separators=(",", ":")))
+
+    (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
+    (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
+    (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
+        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_")))
+
+    if not site_chrome.pillow_ok():
+        print("share cards: skipped (Pillow not installed)")
+        return
+    og = SITE_DIR / "static" / "og"
+    for size, name in ((180, "icon-180.png"), (192, "icon-192.png"), (512, "icon-512.png")):
+        site_chrome.app_icon(og / name, size)
+    site_chrome.share_card(og / "site.png", "MAC Men's Basketball",
+                           "Scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
+                           kicker=f"{SEASON_LABEL} SEASON DASHBOARD")
+    for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
+        site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
+    ratings = {t["key"]: t for t in (m or {}).get("mac", [])}
+    for t in TEAMS:
+        rec = standings.get(t.key, {})
+        lines = [f"{rec.get('w', 0)}-{rec.get('l', 0)} overall · {rec.get('cw', 0)}-{rec.get('cl', 0)} MAC"]
+        r = ratings.get(t.key)
+        if r:
+            lines.append(f"Net rating {r['adj_em']:+.1f} per 100 · #{r['rk_adj_em']} in D-I")
+        if coaches.get(t.key):
+            lines.append(f"Coach {coaches[t.key]}")
+        site_chrome.share_card(og / f"team-{t.key}.png", t.name, "Roster, player profiles, schedule, lines, travel and news.",
+                               bg=t.color, accent=site_chrome.accent_for(t), lines=lines)
+    colors = {t.key: t.color for t in TEAMS}
+    by_id = {g["game_id"]: g for g in games}
+    for gid in have_box:
+        site_chrome.game_card(og / f"game-{gid}.png", by_id[gid], colors)

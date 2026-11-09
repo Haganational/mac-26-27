@@ -1,18 +1,17 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ team.short }} · MAC {{ d.season }}</title>
-<meta name="description" content="{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.">
-<link rel="stylesheet" href="../static/site.css">
+{% set page_title %}{{ team.short }} · MAC {{ d.season }}{% endset %}{% set page_desc %}{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.{% endset %}
+{{ L.head(page_title, page_desc, root="../", path="teams/" ~ team.key ~ ".html", image="static/og/team-" ~ team.key ~ ".png") }}
 </head>
 <body>
-<main>
+{{ L.topbar(root="../", active="teams") }}
+<main id="main" class="teampage t-{{ team.key }}">
   <nav class="crumbs"><a href="../index.html">MAC {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
-    <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="{{ 'on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
+    <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="t-{{ t.key }}{{ ' on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
   </nav>
-  <header class="teamhead">
+  <header class="teamhead hero t-{{ team.key }}">
     <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ team.espn_id }}.png" alt="" width="64" height="64">
     <div>
       <h1>{{ team.name }}</h1>
@@ -20,6 +19,10 @@
         {{ rec.w }}-{{ rec.l }} overall, {{ rec.cw }}-{{ rec.cl }} MAC, margin {{ "%+.1f"|format(rec.margin) }}
         {% if ctx.coach.name %} · Coach {{ ctx.coach.name }}{% if ctx.coach.since %} (since {{ ctx.coach.since }}){% endif %}{% endif %}
         {% if poll_rank %} · Picked {{ poll_rank }}{{ 'st' if poll_rank == 1 else ('nd' if poll_rank == 2 else ('rd' if poll_rank == 3 else 'th')) }} in the MAC preseason poll{% endif %}
+      </div>
+      <div class="hero-actions">
+        <a href="../tv.html#{{ team.key }}">TV schedule</a><a href="../travel.html#{{ team.key }}">Travel map</a><a href="../news.html#{{ team.key }}">News</a><a href="../ratings.html">Ratings</a>
+        <button type="button" data-share data-share-title="{{ team.name }} · MAC {{ d.season }}">Share {{ team.short }}</button>
       </div>
     </div>
   </header>
@@ -180,6 +183,7 @@
   </section>
   {% endif %}
 </main>
+{{ L.footer(root="../", updated=d.generated_et) }}
 <script>
 </script>
 </body>

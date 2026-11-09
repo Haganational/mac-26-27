@@ -1,16 +1,14 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC Odds Screen</title>
-<meta name="description" content="Every book's spread, total and moneyline for upcoming MAC men's basketball games, with best price, open vs now, movement and model gaps.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC Odds Screen{% endset %}{% set page_desc %}Every book's spread, total and moneyline for upcoming MAC men's basketball games, with best price, open vs now, movement and model gaps.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="odds.html", image="static/og/odds.png") }}
 </head>
 <body>
-<main>
+{{ L.topbar(root="", active="odds.html") }}
+<main id="main">
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Odds screen
-    <span class="teamnav"><a href="tv.html">TV schedule</a><a href="travel.html">Travel map</a></span>
   </nav>
   <header>
     <h1>Odds screen</h1>
@@ -179,6 +177,7 @@
   </section>
   </div>
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 <script>
 (function () {
   const root = document.documentElement, seg = document.getElementById('mk');

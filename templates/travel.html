@@ -1,11 +1,9 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC Travel Map</title>
-<meta name="description" content="Where every MAC team plays in 2026-27: routes, miles, road trips, rest and time zones.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC Travel Map{% endset %}{% set page_desc %}Where every MAC team plays in 2026-27: routes, miles, road trips, rest and time zones.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="travel.html", image="static/og/travel.png") }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -30,7 +28,8 @@
 </style>
 </head>
 <body>
-<main>
+{{ L.topbar(root="", active="travel.html") }}
+<main id="main">
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Travel</nav>
   <header>
     <h1>Travel map</h1>
@@ -79,6 +78,7 @@
     <div class="scroll"><table id="itintable"></table></div>
   </section>
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 
 <script id="data" type="application/json">{{ travel_json|safe }}</script>
 <script>

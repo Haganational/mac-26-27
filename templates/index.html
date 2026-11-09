@@ -1,17 +1,20 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC {{ d.season }}</title>
-<meta name="description" content="MAC men's basketball: standings, upcoming games, line snapshots and movement.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC Men's Basketball {{ d.season }}{% endset %}{% set page_desc %}MAC men's basketball: standings, upcoming games, line snapshots and movement.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="", image="static/og/site.png") }}
 </head>
 <body>
-<main>
-  <header>
-    <h1>MAC men's basketball {{ d.season }}</h1>
-    <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+{{ L.topbar(root="", active="index.html") }}
+<main id="main">
+  <header class="homehero">
+    <div>
+      <h1>MAC men's basketball {{ d.season }}</h1>
+      <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+    </div>
+    <button class="hh-search" type="button" data-search><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Find a team, player or game<kbd>/</kbd></button>
+    <div class="hh-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
   </header>
 
   {% if d.news and d.news.headlines %}
@@ -31,11 +34,24 @@
     <div class="tile"><div class="v">{{ d.posting.median_lead_hours if d.posting.median_lead_hours is not none else "–" }}</div><div class="k">median hours before tip we first saw a line</div></div>
   </div>
 
-  <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="news.html">News →</a><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="ratings.html">Ratings model →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a><a class="btnlink" href="follow.html">Follow on X →</a></span></div>
+{% set icons = {
+  'tv.html': '<path d="M3 5h14v9H3zM7 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+  'odds.html': '<path d="M3 15l4-5 3 3 6-8M12 5h4v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  'ratings.html': '<path d="M4 16V9M10 16V4M16 16v-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
+  'news.html': '<path d="M4 4h10v12H4zM14 8h2v8h-2M7 8h4M7 11h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+  'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
+  'follow.html': '<path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
+} %}
+  <nav class="findit" aria-label="Find it fast">
+    <a href="#schedule" style="--fc:var(--s1)"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 6v4l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span><b>Games this week</b><small>Tip times, TV, current lines, rest and travel for the next 8 days</small></span></a>
+    {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
+  </nav>
+
+  <section id="teams">
+    <h2>Teams</h2>
     <div class="teamgrid">
       {% for t in d.standings %}
-      <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
+      <a href="teams/{{ t.key }}.html" class="t-{{ t.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
       {% endfor %}
     </div>
   </section>
@@ -114,7 +130,7 @@
       <table>
         <tr><th>Team</th><th class="num">MAC</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Streak</th></tr>
         {% for r in d.standings %}
-        <tr><td>{{ r.team }}</td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
+        <tr class="t-{{ r.key }}"><td><a href="teams/{{ r.key }}.html" style="color:var(--ink)"><i class="tdot"></i>{{ r.team }}</a></td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
         {% endfor %}
       </table>
       <div class="note">Sorted by conference record, then overall, then average margin.</div>
@@ -173,6 +189,7 @@
   {% endif %}
 
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 
 <script id="data" type="application/json">{{ data_json|safe }}</script>
 <script>
