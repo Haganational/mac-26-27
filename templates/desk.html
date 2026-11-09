@@ -41,7 +41,7 @@
   <nav class="crumbs"><a href="notes.html">Fieldhouse Notes</a> <span class="dim">/</span> Author desk</nav>
   <header class="fh-hero">
     <h1>Author desk</h1>
-    <span class="sub">Only for you. Write a dispatch, save it as a draft (its own pull request), then publish it when it's ready. Readers see it on the site a few minutes after you publish.</span>
+    <span class="sub">Only for you. Write a dispatch and hit Publish, or save it as a draft to finish later. Each one is still filed as its own pull request behind the scenes. Readers see it on the site a few minutes after you publish.</span>
   </header>
 
   <div class="tokenbox" id="tokenbox" hidden>
@@ -79,7 +79,8 @@
       <label for="body">Dispatch</label>
       <textarea id="body" placeholder="Blank line between paragraphs. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
       <div class="acts">
-        <button class="btn primary" id="save" type="button">Save draft</button>
+        <button class="btn go" id="pubnow" type="button">Publish</button>
+        <button class="btn" id="save" type="button">Save draft</button>
         <button class="btn" id="clear" type="button">New</button>
         <span class="msg" id="msg"></span>
       </div>
@@ -218,12 +219,13 @@
   }
   $('#savetok').onclick = () => { const v = $('#tok').value.trim(); if (!v) return; token = v; store.set('btb-gh-token', v); $('#tok').value = ''; connect(); };
 
-  async function save() {
-    if (!token) { say('Connect GitHub first (box at the top).', true); return; }
+  async function save(quiet) {
+    if (!token) { say('Connect GitHub first (box at the top).', true); return false; }
     const f = form();
-    if (!f.body.trim()) { say('Write something first.', true); return; }
+    if (!f.body.trim()) { say('Write something first.', true); return false; }
     const text = toFile(f);
-    $('#save').disabled = true;
+    $('#save').disabled = $('#pubnow').disabled = true;
+    let ok = false;
     try {
       if (editing && editing.branch) {
         // Update the draft in place: same branch, same pull request.
@@ -246,9 +248,35 @@
         $('#formtitle').textContent = 'Editing draft'; $('#save').textContent = 'Update draft';
         say(`Saved as a draft. <a href="${pr.html_url}" target="_blank" rel="noopener">Pull request #${pr.number}</a>`);
       }
-      loadDrafts();
+      ok = true;
+      if (!quiet) loadDrafts();
     } catch (e) { say('Could not save: ' + esc(e.message), true); }
-    $('#save').disabled = false;
+    $('#save').disabled = $('#pubnow').disabled = false;
+    return ok;
+  }
+
+  // GitHub can take a moment to decide a brand-new pull request is mergeable, so retry briefly.
+  async function merge(pr, branch) {
+    for (let i = 0; ; i++) {
+      try { await gh(`/pulls/${pr}/merge`, { method: 'PUT', body: JSON.stringify({ merge_method: 'squash' }) }); break; }
+      catch (e) { if (i >= 5) throw e; await new Promise(r => setTimeout(r, 1500 * (i + 1))); }
+    }
+    await gh(`/git/refs/heads/${branch}`, { method: 'DELETE' }).catch(() => {});
+  }
+
+  // One click: save (new draft or update) and merge it straight away.
+  async function publishNow() {
+    if (!(await save(true))) return;
+    const pr = editing.pr, branch = editing.branch;
+    $('#save').disabled = $('#pubnow').disabled = true;
+    say('Publishing…');
+    try {
+      await merge(pr, branch);
+      reset();
+      say('Published. The site updates for everyone in about 3 minutes.');
+    } catch (e) { say('Saved as a draft, but publishing failed: ' + esc(e.message) + '. Try Publish on it below.', true); }
+    $('#save').disabled = $('#pubnow').disabled = false;
+    loadDrafts();
   }
 
   async function loadDrafts() {
@@ -279,8 +307,7 @@
         fill(d.text); $('#formtitle').textContent = 'Editing draft'; $('#save').textContent = 'Update draft';
         say(`Editing draft #${pr}.`); window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (b.dataset.act === 'publish') {
-        await gh(`/pulls/${pr}/merge`, { method: 'PUT', body: JSON.stringify({ merge_method: 'squash' }) });
-        await gh(`/git/refs/heads/${branch}`, { method: 'DELETE' }).catch(() => {});
+        await merge(pr, branch);
         if (editing && editing.pr === pr) reset();
         say('Published. The site updates for everyone in about 3 minutes.');
       } else if (b.dataset.act === 'discard') {
@@ -296,7 +323,7 @@
   /* ---------- start: ?game= / ?team= / ?player= prefill, ?edit= loads a published dispatch */
   $$('#game, #player, #title, #date, #body').forEach(el => el.addEventListener('input', render));
   $$('input[name=kind], input[name=team]').forEach(el => el.addEventListener('change', render));
-  $('#save').onclick = save; $('#clear').onclick = () => { reset(); say(''); };
+  $('#save').onclick = () => save(); $('#pubnow').onclick = publishNow; $('#clear').onclick = () => { reset(); say(''); };
   const q = new URLSearchParams(location.search);
   reset();
   if (q.get('game') && gameById.get(q.get('game'))) $('#game').value = gameById.get(q.get('game')).label;
