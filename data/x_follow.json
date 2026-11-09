@@ -1,5 +1,5 @@
 {
- "generated_note": "Handles are taken only from each school's official 2026-27 roster page (player cards and coach bios), checked 2026-11-09. Players with no handle there are left blank on purpose.",
+ "generated_note": "Handles come from each school's official 2026-27 roster page, or, where the school lists none, from accounts the team's official X account follows whose name matches the roster (checked 2026-11-09).",
  "checked_at": "2026-11-09",
  "league": [
   {
@@ -26,7 +26,8 @@
      "name": "Max Burton",
      "jersey": "10",
      "position": "F",
-     "handle": null
+     "handle": "MaxBurton2022",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Devan Christion",
@@ -44,19 +45,22 @@
      "name": "Buddy Hammer Jr.",
      "jersey": "4",
      "position": "F",
-     "handle": null
+     "handle": "BuddyHammer23",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Cody Head",
      "jersey": "9",
      "position": "G",
-     "handle": null
+     "handle": "codyhead15",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Josh Henderson",
      "jersey": "7",
      "position": "G",
-     "handle": null
+     "handle": "JHenderson2025",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "RJ Jones",
@@ -68,7 +72,8 @@
      "name": "Evan Mahaffey",
      "jersey": "12",
      "position": "F",
-     "handle": null
+     "handle": "EvanMahaffey5",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Marvin Musiime-Kamali",
@@ -86,13 +91,15 @@
      "name": "Ty Pence",
      "jersey": "8",
      "position": "G",
-     "handle": null
+     "handle": "tdotpence",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Tai Perkins",
      "jersey": "6",
      "position": "G",
-     "handle": null
+     "handle": "TaiPerkins0",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Tahj Staveskie",
@@ -104,13 +111,15 @@
      "name": "Colin White",
      "jersey": "22",
      "position": "F",
-     "handle": null
+     "handle": "ColinWhite21",
+     "source": "followed by @ZipsMBB"
     },
     {
      "name": "Exavier Wilson",
      "jersey": "1",
      "position": "G",
-     "handle": null
+     "handle": "ExavierWilson7",
+     "source": "followed by @ZipsMBB"
     }
    ],
    "media": [
@@ -234,19 +243,22 @@
      "name": "Aaron Fine",
      "jersey": "3",
      "position": "G",
-     "handle": null
+     "handle": "aaronfine_3",
+     "source": "followed by @BallStateMBB"
     },
     {
      "name": "Javion Guy-King",
      "jersey": "2",
      "position": "G",
-     "handle": null
+     "handle": "jguyking_",
+     "source": "followed by @BallStateMBB"
     },
     {
      "name": "Joey Hart",
      "jersey": "20",
      "position": "G",
-     "handle": null
+     "handle": "joey_hart32",
+     "source": "followed by @BallStateMBB"
     },
     {
      "name": "Jazz Henderson Jr.",
@@ -270,7 +282,8 @@
      "name": "Kamden McGilveary",
      "jersey": "6",
      "position": "G",
-     "handle": null
+     "handle": "kam_mcgilveary",
+     "source": "followed by @BallStateMBB"
     },
     {
      "name": "Kai McGrew",
@@ -429,7 +442,8 @@
      "name": "Christian Dedivanaj",
      "jersey": "5",
      "position": "G",
-     "handle": null
+     "handle": "christiandediv",
+     "source": "followed by @BGSUMBB"
     },
     {
      "name": "Christ Essandoko",
@@ -453,25 +467,29 @@
      "name": "Jayden Johnson",
      "jersey": "10",
      "position": "G",
-     "handle": null
+     "handle": "JaydenJ_10",
+     "source": "followed by @BGSUMBB"
     },
     {
      "name": "Camden Karel",
      "jersey": "15",
      "position": "F",
-     "handle": null
+     "handle": "CamdenKarel",
+     "source": "followed by @BGSUMBB"
     },
     {
      "name": "Makhi Leach",
      "jersey": "3",
      "position": "G",
-     "handle": null
+     "handle": "leach_makhi",
+     "source": "followed by @BGSUMBB"
     },
     {
      "name": "Josiah Shackelford",
      "jersey": "4",
      "position": "G",
-     "handle": null
+     "handle": "JosiahShackelf1",
+     "source": "followed by @BGSUMBB"
     },
     {
      "name": "Trey Simmons",
@@ -609,13 +627,15 @@
      "name": "Dylan Ducommun",
      "jersey": "25",
      "position": "G",
-     "handle": null
+     "handle": "DylanDucommun",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "JJ Frakes",
      "jersey": "22",
      "position": "G",
-     "handle": null
+     "handle": "22Frakes",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Boluwasefe John",
@@ -627,31 +647,37 @@
      "name": "Kyle Jones",
      "jersey": "12",
      "position": "G",
-     "handle": null
+     "handle": "KJBALLER30",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Tristan Kuska",
      "jersey": "3",
      "position": "F",
-     "handle": null
+     "handle": "KuskaTristan",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Antoine Lorick III",
      "jersey": "9",
      "position": "F",
-     "handle": null
+     "handle": "toineant11",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Jalen Pitre",
      "jersey": "1",
      "position": "F",
-     "handle": null
+     "handle": "JalenPitre",
+     "source": "followed by @UBuffaloMBB",
+     "note": "Same name as an NFL player; check the bio before following."
     },
     {
      "name": "Harrison Reede",
      "jersey": "7",
      "position": "G",
-     "handle": null
+     "handle": "harrison_reede",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Evan Romano",
@@ -675,13 +701,15 @@
      "name": "Drew Steffe",
      "jersey": "21",
      "position": "G",
-     "handle": null
+     "handle": "DrewSteffe",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Mikkel Tyne",
      "jersey": "10",
      "position": "G",
-     "handle": null
+     "handle": "Mtyne11",
+     "source": "followed by @UBuffaloMBB"
     },
     {
      "name": "Jahrel Vigo",
@@ -1043,19 +1071,22 @@
      "name": "Mohammad Habhab",
      "jersey": "4",
      "position": "F",
-     "handle": null
+     "handle": "Mhabhab_1",
+     "source": "followed by @EMU_MBB"
     },
     {
      "name": "Sencire Harris",
      "jersey": "32",
      "position": "G",
-     "handle": null
+     "handle": "SencireH",
+     "source": "followed by @EMU_MBB"
     },
     {
      "name": "Kaden Johnson",
      "jersey": "1",
      "position": "F",
-     "handle": null
+     "handle": "Kaden_Johnson24",
+     "source": "followed by @EMU_MBB"
     },
     {
      "name": "Gregory Lawson II",
@@ -1067,7 +1098,8 @@
      "name": "Jaiden Martin",
      "jersey": "30",
      "position": "G",
-     "handle": null
+     "handle": "Jaiden_martin24",
+     "source": "followed by @EMU_MBB"
     },
     {
      "name": "DaCory Porter",
@@ -1085,7 +1117,8 @@
      "name": "Omar Suleiman",
      "jersey": "7",
      "position": "F",
-     "handle": null
+     "handle": "OmarSul05",
+     "source": "followed by @EMU_MBB"
     },
     {
      "name": "Jordan Wright",
@@ -1183,7 +1216,8 @@
      "name": "Elian Arick",
      "jersey": "42",
      "position": "F",
-     "handle": null
+     "handle": "elian_arick_26",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Dezmon Briscoe",
@@ -1195,13 +1229,15 @@
      "name": "Jakhi Calloway",
      "jersey": "8",
      "position": "G",
-     "handle": null
+     "handle": "JakhiCalloway",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Latif Diouf",
      "jersey": "23",
      "position": "F",
-     "handle": null
+     "handle": "latifdiouf2005",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Christian Henry",
@@ -1213,13 +1249,15 @@
      "name": "Dylan Lakatos",
      "jersey": "31",
      "position": "G",
-     "handle": null
+     "handle": "dylan_lakatos23",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Dhani Miller",
      "jersey": "2",
      "position": "G",
-     "handle": null
+     "handle": "_DhaniMiller",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Brenden Moss",
@@ -1231,7 +1269,8 @@
      "name": "Godslove Nwabude",
      "jersey": "13",
      "position": "F",
-     "handle": null
+     "handle": "godslove_13",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Jamal Sumlin",
@@ -1255,7 +1294,8 @@
      "name": "Cameron Williams",
      "jersey": "34",
      "position": "F",
-     "handle": null
+     "handle": "Easymoneycam35",
+     "source": "followed by @KentStMBB"
     },
     {
      "name": "Chansey Willis Jr.",
@@ -2078,37 +2118,43 @@
      "name": "Mason Bendinger",
      "jersey": "1",
      "position": "G",
-     "handle": null
+     "handle": "dmbendinger",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Ramere Draper",
      "jersey": "22",
      "position": "G",
-     "handle": null
+     "handle": "RamereDraper",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Joshua Eli",
      "jersey": "2",
      "position": "F",
-     "handle": null
+     "handle": "_5szns",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Isaac Finlinson",
      "jersey": "8",
      "position": "F",
-     "handle": null
+     "handle": "isaac_finlinson",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Julien Gomez",
      "jersey": "13",
      "position": "G",
-     "handle": null
+     "handle": "JulienGomez_",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Adam Harakow",
      "jersey": "10",
      "position": "G",
-     "handle": null
+     "handle": "AdamHarakow",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Tanner Hayhurst",
@@ -2120,7 +2166,8 @@
      "name": "Ben Johnson",
      "jersey": "4",
      "position": "G",
-     "handle": null
+     "handle": "BenJohnson413",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Janis Jünemann",
@@ -2132,7 +2179,8 @@
      "name": "Augustinas Kiudulas",
      "jersey": "11",
      "position": "F",
-     "handle": null
+     "handle": "akiudulas",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Rob Lee Jr.",
@@ -2144,13 +2192,15 @@
      "name": "Jordan Sigmon",
      "jersey": "7",
      "position": "G",
-     "handle": null
+     "handle": "Jordansigmonn3",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "Jaylen Washington Jr.",
      "jersey": "0",
      "position": "G",
-     "handle": null
+     "handle": "iamjaylen11",
+     "source": "followed by @WMUMBB"
     },
     {
      "name": "DeAaron Watkins",
