@@ -10,7 +10,7 @@ from typing import Any
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import analysis, model, oddsboard, players, schedule_view, travel
-from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
+from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
 from .rosters import load_boxscores
@@ -199,6 +199,23 @@ def model_page_context(m: dict[str, Any]) -> dict[str, Any]:
         u["et"] = f"{e['weekday']} {e['md']} {e['time']}"
     return m
 
+def follow_context() -> dict[str, Any]:
+    """Team, coach, player and writer accounts to follow on X, from data/x_follow.json."""
+    path = DATA_DIR / "x_follow.json"
+    x = json.loads(path.read_text()) if path.exists() else {"teams": {}, "league": [], "league_media": []}
+    teams, handles, with_handle, roster = [], set(), 0, 0
+    for team in TEAMS:
+        t = x["teams"].get(team.key, {"team_accounts": [], "coaches": [], "players": [], "media": [], "roster_url": ""})
+        own = list(t["team_accounts"]) + [c["handle"] for c in t["coaches"]] + [p["handle"] for p in t["players"] if p.get("handle")]
+        handles.update(h.lower() for h in own)
+        with_handle += sum(1 for p in t["players"] if p.get("handle"))
+        roster += len(t["players"])
+        writers = [{"name": w, "outlet": m["name"]} for m in t.get("media", []) for w in m.get("writers", []) if w]
+        teams.append({**t, "key": team.key, "short": team.short, "name": team.name, "espn_id": team.espn_id,
+                      "n_handles": len(set(h.lower() for h in own)), "writers": writers})
+    handles.update(a["handle"].lower() for a in x.get("league", []))
+    return {"x": x, "teams": teams, "counts": {"handles": len(handles), "players": with_handle, "roster": roster}}
+
 
 def render_site() -> str:
     data = dashboard_data()
@@ -265,6 +282,9 @@ def render_site() -> str:
         d=data, o=odds_ctx, fmt_spread=fmt_spread, book_name=oddsboard.book_name))
     data["odds_summary"] = {"games": len(odds_ctx["board"]), "books": len(odds_ctx["books"]), "edges": odds_ctx["edges"],
                             "budget": odds_ctx["budget"]}
+
+    # Follow-on-X checklist.
+    (SITE_DIR / "follow.html").write_text(env.get_template("follow.html").render(d=data, **follow_context()))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])

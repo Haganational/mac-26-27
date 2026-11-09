@@ -22,7 +22,7 @@
   </div>
 
   <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="ratings.html">Ratings model →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="ratings.html">Ratings model →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a><a class="btnlink" href="follow.html">Follow on X →</a></span></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>

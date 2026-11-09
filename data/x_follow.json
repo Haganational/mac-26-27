@@ -1,0 +1,2265 @@
+{
+ "generated_note": "Handles are taken only from each school's official 2026-27 roster page (player cards and coach bios), checked 2026-11-09. Players with no handle there are left blank on purpose.",
+ "checked_at": "2026-11-09",
+ "league": [
+  {
+   "name": "MAC (official)",
+   "handle": "MACSports",
+   "note": "Conference account. Verified on X 2026-11-09."
+  }
+ ],
+ "teams": {
+  "akron": {
+   "roster_url": "https://gozips.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "ZipsMBB"
+   ],
+   "coaches": [],
+   "players": [
+    {
+     "name": "Chabi Barre",
+     "jersey": "5",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Max Burton",
+     "jersey": "10",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Devan Christion",
+     "jersey": "19",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Zach Halligan",
+     "jersey": "21",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Buddy Hammer Jr.",
+     "jersey": "4",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Cody Head",
+     "jersey": "9",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Josh Henderson",
+     "jersey": "7",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "RJ Jones",
+     "jersey": "15",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Evan Mahaffey",
+     "jersey": "12",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Marvin Musiime-Kamali",
+     "jersey": "23",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Kamrin Oriol",
+     "jersey": "11",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Ty Pence",
+     "jersey": "8",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Tai Perkins",
+     "jersey": "6",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Tahj Staveskie",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Colin White",
+     "jersey": "22",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Exavier Wilson",
+     "jersey": "1",
+     "position": "G",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "The Buchtelite (University of Akron student paper)",
+     "type": "campus_paper",
+     "url": "https://buchtelite.com/tag/akron-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Akron Beacon Journal",
+     "type": "city_paper",
+     "url": "https://www.beaconjournal.com/sports/college/zips/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Cleveland 19 News (WOIO)",
+     "type": "tv_radio",
+     "url": "https://www.cleveland19.com/2026/04/15/akron-introduces-new-mens-basketball-coach/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "BVM Sports",
+     "type": "blog",
+     "url": "https://bvmsports.com/2026/10/20/akron-picked-third-in-mac-poll-mahaffey-staveskie-honored/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Akron Zipped Up (Substack)",
+     "type": "blog",
+     "url": "https://akronzippedup.substack.com/p/zips-mens-basketball-ready-for-a",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek"
+     ]
+    },
+    {
+     "name": "ZipsNation.org forums",
+     "type": "forum",
+     "url": "https://zipsnation.org/forums/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "ball-state": {
+   "roster_url": "https://ballstatesports.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "BallStateMBB"
+   ],
+   "coaches": [
+    {
+     "name": "Chris Capko",
+     "handle": "ChrisCapko",
+     "head": true
+    },
+    {
+     "name": "John Clancy",
+     "handle": "coachclancy11",
+     "head": false
+    },
+    {
+     "name": "Pershin Williams",
+     "handle": "PershinWilliams",
+     "head": false
+    },
+    {
+     "name": "Manny Dosanjh",
+     "handle": "CoachMannyD",
+     "head": false
+    },
+    {
+     "name": "Jordan Surenkamp",
+     "handle": "JordanSurenkamp",
+     "head": false
+    },
+    {
+     "name": "Ellis Spar",
+     "handle": "EllisSpar",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Sean Blake",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Zaon Collins",
+     "jersey": "55",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Babatunde Durodola",
+     "jersey": "11",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Aaron Fine",
+     "jersey": "3",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Javion Guy-King",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Joey Hart",
+     "jersey": "20",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jazz Henderson Jr.",
+     "jersey": "4",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Mason Jones",
+     "jersey": "24",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Trey Lewis",
+     "jersey": "1",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Kamden McGilveary",
+     "jersey": "6",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Kai McGrew",
+     "jersey": "25",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "K'Jei Parker",
+     "jersey": "5",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jaden Smith",
+     "jersey": "7",
+     "position": "C",
+     "handle": null
+    },
+    {
+     "name": "Kijani Wright",
+     "jersey": "33",
+     "position": "F",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "Ball State Daily News",
+     "type": "campus_paper",
+     "url": "https://www.ballstatedailynews.com/section/daily-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Ball State Sports Link (student sports media)",
+     "type": "campus_paper",
+     "url": "https://ballstatesportslink.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "The Star Press (Muncie)",
+     "type": "city_paper",
+     "url": "https://www.thestarpress.com/sports/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WISH-TV (Indianapolis)",
+     "type": "tv_radio",
+     "url": "https://www.wishtv.com/sports/basketball/college-basketball/cardinals-drop-season-opener-at-georgia-southern/",
+     "handle": null,
+     "writers": [
+      "Gregg Montgomery"
+     ]
+    },
+    {
+     "name": "107.5 The Fan (Indianapolis radio)",
+     "type": "tv_radio",
+     "url": "https://1075thefan.com/724210/chris-capko-brings-vision-and-passion-to-ball-state-mens-basketball/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WLBC / WMUN (Muncie radio)",
+     "type": "tv_radio",
+     "url": "https://www.wlbc.com/?p=1115",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Indiana Public Radio (Muncie)",
+     "type": "tv_radio",
+     "url": "https://indianapublicradio.org/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "HoopDirt",
+     "type": "blog",
+     "url": "https://hoopdirt.com/ball-state-basketball-staff-update/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "bowling-green": {
+   "roster_url": "https://bgsufalcons.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "BGSUMBB"
+   ],
+   "coaches": [
+    {
+     "name": "Todd Simon",
+     "handle": "CoachTsimon",
+     "head": true
+    },
+    {
+     "name": "Lourawls \"Tum Tum\" Nairn Jr.",
+     "handle": "CoachTum11",
+     "head": false
+    },
+    {
+     "name": "Bryce Martin",
+     "handle": "bv_martin",
+     "head": false
+    },
+    {
+     "name": "Bob Gallager",
+     "handle": "BobGallager",
+     "head": false
+    },
+    {
+     "name": "Anthony Stacey",
+     "handle": "astacey34",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Leek Ateny",
+     "jersey": "35",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Tristan Beckford",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Juan Cranford Jr.",
+     "jersey": "8",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Christian Dedivanaj",
+     "jersey": "5",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Christ Essandoko",
+     "jersey": "22",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Aiden Goins",
+     "jersey": "34",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Zach Howell",
+     "jersey": "7",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jayden Johnson",
+     "jersey": "10",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Camden Karel",
+     "jersey": "15",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Makhi Leach",
+     "jersey": "3",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Josiah Shackelford",
+     "jersey": "4",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Trey Simmons",
+     "jersey": "1",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Preston Squire",
+     "jersey": "13",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Talan Staley",
+     "jersey": "11",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "KJ Torbert",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "BG Falcon Media (BGSU student media)",
+     "type": "campus_paper",
+     "url": "https://bgfalconmedia.com/",
+     "handle": null,
+     "writers": [
+      "Artie Abrego",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Sentinel-Tribune (Bowling Green, Ohio)",
+     "type": "city_paper",
+     "url": "https://www.sent-trib.com/2026/11/03/howells-28-leads-falcons-past-georgia-st/",
+     "handle": null,
+     "writers": [
+      "Nicholas Huenefeld"
+     ]
+    },
+    {
+     "name": "The Blade (Toledo)",
+     "type": "city_paper",
+     "url": "https://www.toledoblade.com/sports/bgsu",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WTOL 11 (Toledo CBS)",
+     "type": "tv_radio",
+     "url": "https://wtol.com/article/sports/college/bowling-green-mens-basketball-preview/512-6122e894-ea07-44f2-87af-35e2b8ed6097",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "The Falcons Nest Coaches Show with Todd Walker",
+     "type": "podcast",
+     "url": "https://bgsufalcons.com/news/2026/2/23/general-the-falcons-nest-coaches-show-to-feature-simon-hallock-gardner-monday-night",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "BVM Sports",
+     "type": "blog",
+     "url": "https://bvmsports.com/2026/08/12/chmiel-falcons-unveil-2026-27-schedule/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "HoopDirt",
+     "type": "blog",
+     "url": "https://hoopdirt.com/?p=1067133",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "buffalo": {
+   "roster_url": "https://ubbulls.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "UBuffaloMBB"
+   ],
+   "coaches": [
+    {
+     "name": "George Halcovage III",
+     "handle": "coachGH3",
+     "head": true
+    },
+    {
+     "name": "Hamlet Tibbs",
+     "handle": "CoachTibbs3",
+     "head": false
+    },
+    {
+     "name": "Jack Fitzpatrick",
+     "handle": "CoachJackFitz",
+     "head": false
+    },
+    {
+     "name": "Zach Monell",
+     "handle": "zach_monell",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Matas Buteliauskas",
+     "jersey": "0",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Dylan Ducommun",
+     "jersey": "25",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "JJ Frakes",
+     "jersey": "22",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Boluwasefe John",
+     "jersey": "5",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Kyle Jones",
+     "jersey": "12",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Tristan Kuska",
+     "jersey": "3",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Antoine Lorick III",
+     "jersey": "9",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Jalen Pitre",
+     "jersey": "1",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Harrison Reede",
+     "jersey": "7",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Evan Romano",
+     "jersey": "35",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Daniel Shao",
+     "jersey": "20",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "J.J. Starling",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Drew Steffe",
+     "jersey": "21",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Mikkel Tyne",
+     "jersey": "10",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jahrel Vigo",
+     "jersey": "24",
+     "position": "G",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "The Spectrum (UB student newspaper)",
+     "type": "campus_paper",
+     "url": "https://www.ubspectrum.com/section/sports",
+     "handle": null,
+     "writers": [
+      "Ethan Dinse",
+      "Will Meyer"
+     ]
+    },
+    {
+     "name": "The Buffalo News",
+     "type": "city_paper",
+     "url": "https://buffalonews.com/sports/college/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WKBW (ABC Buffalo)",
+     "type": "tv_radio",
+     "url": "https://wkbw.com/sports/college",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WGRZ (NBC Buffalo)",
+     "type": "tv_radio",
+     "url": "https://www.wgrz.com/article/sports/college/university-buffalo",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WGR 550 / Audacy Buffalo",
+     "type": "tv_radio",
+     "url": "https://www.audacy.com/wgr550",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Mid-Major Basketball",
+     "type": "blog",
+     "url": "https://www.midmajorbasketball.com/",
+     "handle": null,
+     "writers": [
+      "Logan Weingartner"
+     ]
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness / Yahoo Sports syndication",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Field Level Media",
+     "type": "blog",
+     "url": "https://fieldlevelmedia.com/ncaab/pitt-buffalo-ready-to-prove-preseason-predictions-wrong/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "central-michigan": {
+   "roster_url": "https://cmuchippewas.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "CMUMensBBall"
+   ],
+   "coaches": [
+    {
+     "name": "Andy Bronkema",
+     "handle": "CoachBronks",
+     "head": true,
+     "note": "head coach, on leave"
+    },
+    {
+     "name": "Raymoan McAfee",
+     "handle": "CoachMoan",
+     "head": true,
+     "note": "interim head coach"
+    },
+    {
+     "name": "Jim Lake",
+     "handle": "JamesLake11",
+     "head": false
+    },
+    {
+     "name": "Josh Fleming",
+     "handle": "J3Fleming",
+     "head": false
+    },
+    {
+     "name": "Jimmy Booth",
+     "handle": "CoachBooth",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Kareem Aburashed",
+     "jersey": "4",
+     "position": "C",
+     "handle": "AburashedKareem"
+    },
+    {
+     "name": "Tyre Acuff",
+     "jersey": "11",
+     "position": "G",
+     "handle": "tyreacuff11_"
+    },
+    {
+     "name": "Travis Ambrose",
+     "jersey": "40",
+     "position": "F",
+     "handle": "TravisAmbrose5"
+    },
+    {
+     "name": "Uchenna Amene",
+     "jersey": "0",
+     "position": "G",
+     "handle": "_uamene"
+    },
+    {
+     "name": "Jake Bascom",
+     "jersey": "24",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Phat Phat Brooks",
+     "jersey": "10",
+     "position": "G",
+     "handle": "10PhatPhat"
+    },
+    {
+     "name": "Keenan Garner",
+     "jersey": "13",
+     "position": "F",
+     "handle": "keenan_garner13"
+    },
+    {
+     "name": "Jayden Hackett",
+     "jersey": "20",
+     "position": "G",
+     "handle": "JaydenHackett"
+    },
+    {
+     "name": "Jalen Kampen",
+     "jersey": "2",
+     "position": "G",
+     "handle": "jalenkampen2025"
+    },
+    {
+     "name": "Conrad Luczynski",
+     "jersey": "55",
+     "position": "C",
+     "handle": "conradluczynski"
+    },
+    {
+     "name": "Brock Mendoza",
+     "jersey": "21",
+     "position": "C",
+     "handle": "mendoza_brock"
+    },
+    {
+     "name": "Jayson Petty",
+     "jersey": "5",
+     "position": "G",
+     "handle": "Jayson_Petty11"
+    },
+    {
+     "name": "Nsikan Usen",
+     "jersey": "1",
+     "position": "F",
+     "handle": "babausen32"
+    },
+    {
+     "name": "Jaxson Whitaker",
+     "jersey": "3",
+     "position": "G",
+     "handle": "JaxsonWhitaker"
+    },
+    {
+     "name": "Jacob Wrencher",
+     "jersey": "23",
+     "position": "G",
+     "handle": "JacobWrencher"
+    }
+   ],
+   "media": [
+    {
+     "name": "Central Michigan Life (CM Life, student newspaper)",
+     "type": "campus_paper",
+     "url": "https://www.cm-life.com/section/sports",
+     "handle": null,
+     "writers": [
+      "Bar Belian",
+      "Isaac Krieger"
+     ]
+    },
+    {
+     "name": "The Morning Sun (Mt. Pleasant)",
+     "type": "city_paper",
+     "url": "https://www.themorningsun.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "The Detroit News",
+     "type": "city_paper",
+     "url": "https://www.detroitnews.com/story/sports/college/2026/11/05/andy-bronkema-central-michigan-basketball-coach-placed-on-leave/92629008007/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WNEM (CBS Saginaw/Flint)",
+     "type": "tv_radio",
+     "url": "https://www.wnem.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "9&10 News (Northern Michigan)",
+     "type": "tv_radio",
+     "url": "https://www.9and10news.com/on-demand/sports/basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "ClickOnDetroit (WDIV)",
+     "type": "tv_radio",
+     "url": "https://www.clickondetroit.com/news/local/2026/11/05/central-michigan-mens-basketball-coach-placed-on-leave/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "ESPN",
+     "type": "blog",
+     "url": "https://www.espn.com/mens-college-basketball/story/_/id/50393518/central-michigan-coach-andy-bronkema-put-leave-day-season-opening-win",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Foster Roesti",
+      "Kaily \"KG\" Godek"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness / Yahoo Sports",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "eastern-michigan": {
+   "roster_url": "https://emueagles.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "EMU_MBB"
+   ],
+   "coaches": [
+    {
+     "name": "Billy Donlon",
+     "handle": "CoachDonlon",
+     "head": true
+    },
+    {
+     "name": "John Bowler",
+     "handle": "coachjbowler",
+     "head": false
+    },
+    {
+     "name": "Vince Fritz",
+     "handle": "vince_fritz",
+     "head": false
+    },
+    {
+     "name": "Hassan Nizam",
+     "handle": "coach_niz",
+     "head": false
+    },
+    {
+     "name": "Shawn McCall",
+     "handle": "mmccall100",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Aviv Aronov",
+     "jersey": "44",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Max Booher",
+     "jersey": "20",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Kilian Brockhoff",
+     "jersey": "14",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Jabri Fitzpatrick",
+     "jersey": "3",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Braelon Green",
+     "jersey": "5",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Mohammad Habhab",
+     "jersey": "4",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Sencire Harris",
+     "jersey": "32",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Kaden Johnson",
+     "jersey": "1",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Gregory Lawson II",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jaiden Martin",
+     "jersey": "30",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "DaCory Porter",
+     "jersey": "12",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Emanuel Richards",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Omar Suleiman",
+     "jersey": "7",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Jordan Wright",
+     "jersey": "13",
+     "position": "F",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "The Eastern Echo (EMU student newspaper)",
+     "type": "campus_paper",
+     "url": "https://www.easternecho.com/section/mens-basketball",
+     "handle": null,
+     "writers": [
+      "Ruby Brannon",
+      "Jeffrey Ellingsworth"
+     ]
+    },
+    {
+     "name": "MLive / Ann Arbor News",
+     "type": "city_paper",
+     "url": "https://www.mlive.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "The Detroit News / Detroit Free Press",
+     "type": "city_paper",
+     "url": "https://www.detroitnews.com/sports/college/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "ClickOnDetroit (WDIV)",
+     "type": "tv_radio",
+     "url": "https://www.clickondetroit.com/sports/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Field Level Media",
+     "type": "blog",
+     "url": "https://fieldlevelmedia.com/ncaab/handling-xavier-a-tall-order-for-eastern-michigan/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness / Yahoo Sports",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "HoopDirt",
+     "type": "blog",
+     "url": "https://hoopdirt.com/eastern-michigan-basketball-staff-update/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "kent-state": {
+   "roster_url": "https://kentstatesports.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "KentStMBB"
+   ],
+   "coaches": [
+    {
+     "name": "Rob Senderoff",
+     "handle": "CoachSendy",
+     "head": true
+    }
+   ],
+   "players": [
+    {
+     "name": "Elian Arick",
+     "jersey": "42",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Dezmon Briscoe",
+     "jersey": "11",
+     "position": "F",
+     "handle": "Dezmonbriscoe"
+    },
+    {
+     "name": "Jakhi Calloway",
+     "jersey": "8",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Latif Diouf",
+     "jersey": "23",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Christian Henry",
+     "jersey": "30",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Dylan Lakatos",
+     "jersey": "31",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Dhani Miller",
+     "jersey": "2",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Brenden Moss",
+     "jersey": "5",
+     "position": "G",
+     "handle": "brenden_moss"
+    },
+    {
+     "name": "Godslove Nwabude",
+     "jersey": "13",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Jamal Sumlin",
+     "jersey": "1",
+     "position": "G",
+     "handle": "Woppskino1"
+    },
+    {
+     "name": "Jaymen Townsend",
+     "jersey": "22",
+     "position": "F",
+     "handle": "jaymentownsend"
+    },
+    {
+     "name": "Landon Vanderwarker",
+     "jersey": "7",
+     "position": "F",
+     "handle": "Landon_V12"
+    },
+    {
+     "name": "Cameron Williams",
+     "jersey": "34",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Chansey Willis Jr.",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Quinn Woidke",
+     "jersey": "6",
+     "position": "G",
+     "handle": "QuinnWoidke"
+    }
+   ],
+   "media": [
+    {
+     "name": "The Kent Stater / KentWired (campus paper)",
+     "type": "campus_paper",
+     "url": "https://kentstater.com/tag/mens-basketball",
+     "handle": null,
+     "writers": [
+      "Luke Nedved",
+      "Stone O'Bryant",
+      "Josh Szeremet"
+     ]
+    },
+    {
+     "name": "Record-Courier (Kent) / Akron Beacon Journal (Gannett, syndicated to Yahoo Sports)",
+     "type": "city_paper",
+     "url": "https://sports.yahoo.com/articles/kent-state-basketball-ncaa-transfer-183447299.html",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "News 5 Cleveland (WEWS) / WKYC",
+     "type": "tv_radio",
+     "url": "https://news5cleveland.com/sports/local-sports/kent-state-mens-basketball-head-coach-rob-senderoff-extends-contract-through-2028-29-season",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WONE 97.5 (Akron, iHeart) / ESPN 1530",
+     "type": "tv_radio",
+     "url": "https://wone.iheart.com/content/2026-01-27-kent-state-vs-ohio-time-tv-stream-jan-27/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Mid-Major Basketball (midmajorbasketball.com)",
+     "type": "blog",
+     "url": "https://www.midmajorbasketball.com/new-faces-lead-kent-state-to-victory-in-home-opener/",
+     "handle": null,
+     "writers": [
+      "Gage Wellman"
+     ]
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation, syndicated on Yahoo)",
+     "type": "blog",
+     "url": "https://sports.yahoo.com/articles/2026-27-mac-men-basketball-132800658.html",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Caleb's Corner (Substack)",
+     "type": "blog",
+     "url": "https://calebscorner.substack.com/p/26-27-mac-preview",
+     "handle": null,
+     "writers": [
+      "Caleb Arthur"
+     ]
+    }
+   ]
+  },
+  "miami-oh": {
+   "roster_url": "https://miamiredhawks.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "MiamiOH_BBall"
+   ],
+   "coaches": [
+    {
+     "name": "Travis Steele",
+     "handle": "CoachSteeleMU",
+     "head": true
+    },
+    {
+     "name": "Khristian Smith",
+     "handle": "KhristianSmith_",
+     "head": false
+    },
+    {
+     "name": "Ben Botts",
+     "handle": "CoachBenBotts",
+     "head": false
+    },
+    {
+     "name": "Andrew Dakich",
+     "handle": "A_Dakich",
+     "head": false
+    },
+    {
+     "name": "Carl Richburg",
+     "handle": "CRichyRich23",
+     "head": false
+    },
+    {
+     "name": "Elijah Pennington",
+     "handle": "CoachElijahPenn",
+     "head": false
+    },
+    {
+     "name": "Dan Luers",
+     "handle": "DanLuers",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Blake Anderson",
+     "jersey": "33",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Almar Atlason",
+     "jersey": "11",
+     "position": "F",
+     "handle": "almar_atla"
+    },
+    {
+     "name": "Preston Copeland",
+     "jersey": "5",
+     "position": "F",
+     "handle": "pcopeland5441"
+    },
+    {
+     "name": "Stevie Elam",
+     "jersey": "8",
+     "position": "G",
+     "handle": "Stevie_Elam"
+    },
+    {
+     "name": "Anthony Fresh",
+     "jersey": "1",
+     "position": "G",
+     "handle": "anthonyfresh08"
+    },
+    {
+     "name": "Alan Horton",
+     "jersey": "00",
+     "position": "F",
+     "handle": "AlanHorton2026"
+    },
+    {
+     "name": "Evan Ipsaro",
+     "jersey": "2",
+     "position": "G",
+     "handle": "EvanIpsaro"
+    },
+    {
+     "name": "Danny Kelly",
+     "jersey": "35",
+     "position": "F",
+     "handle": "DannyKelly_2026"
+    },
+    {
+     "name": "Justin Kirby",
+     "jersey": "6",
+     "position": "G",
+     "handle": "Justinkirby2025"
+    },
+    {
+     "name": "Jackson Kotecki",
+     "jersey": "24",
+     "position": "F",
+     "handle": "kotecki_jackson"
+    },
+    {
+     "name": "Tyler Robbins",
+     "jersey": "20",
+     "position": "F",
+     "handle": "trob925"
+    },
+    {
+     "name": "Rich Rolf",
+     "jersey": "9",
+     "position": "F",
+     "handle": "rich_rolf13"
+    },
+    {
+     "name": "Luke Skaljac",
+     "jersey": "3",
+     "position": "G",
+     "handle": "LSkaljac"
+    },
+    {
+     "name": "Leshawn Stowers",
+     "jersey": "21",
+     "position": "G",
+     "handle": "Leshawn309"
+    },
+    {
+     "name": "Kyle Waltz",
+     "jersey": "25",
+     "position": "F",
+     "handle": "KyleWaltz27"
+    },
+    {
+     "name": "Antwone Woolfolk",
+     "jersey": "13",
+     "position": "F",
+     "handle": "AntwoneWoolfol1"
+    },
+    {
+     "name": "Ethan Wright",
+     "jersey": "7",
+     "position": "F",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "The Miami Student (campus paper)",
+     "type": "campus_paper",
+     "url": "https://www.miamistudent.net/section/game-coverage?page=1",
+     "handle": null,
+     "writers": [
+      "Vincent Jolliff (Asst. Sports Editor)",
+      "Cooper Meneghetti (Asst. Sports Editor; 'Cooper's Corner' column)"
+     ]
+    },
+    {
+     "name": "Journal-News (Hamilton) / Dayton Daily News (Cox First Media)",
+     "type": "city_paper",
+     "url": "https://www.daytondailynews.com/sports/miami-university-redhawks/",
+     "handle": null,
+     "writers": [
+      "David Jablonski",
+      "Chris Vogt (contributing writer)"
+     ]
+    },
+    {
+     "name": "Local 12 (WKRC-TV Cincinnati)",
+     "type": "tv_radio",
+     "url": "https://local12.com/sports/college-sports/miami-redhawks-basketball-mac-preseason-coaches-poll-2026-travis-steele-evan-ipsaro-luke-skaljac",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Oxford Observer",
+     "type": "city_paper",
+     "url": "https://oxfordobserver.org/18632/sports/miami-mens-basketball-has-unfinished-business-for-the-2025-26-season/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "ClutchPoints",
+     "type": "blog",
+     "url": "https://clutchpoints.com/ncaa-basketball/exclusive-miami-oh-travis-steele-hunting-historic-season-ncaa-tournament-berth",
+     "handle": null,
+     "writers": [
+      "Richard Pereira"
+     ]
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation) via Yahoo Sports",
+     "type": "blog",
+     "url": "https://sports.yahoo.com/articles/2026-27-mac-men-basketball-132800658.html",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Caleb's Corner (Substack)",
+     "type": "blog",
+     "url": "https://calebscorner.substack.com/p/26-27-mac-preview",
+     "handle": null,
+     "writers": [
+      "Caleb Arthur"
+     ]
+    }
+   ]
+  },
+  "ohio": {
+   "roster_url": "https://ohiobobcats.com/sports/mbball/roster",
+   "team_accounts": [
+    "OhioMBasketball"
+   ],
+   "coaches": [],
+   "players": [
+    {
+     "name": "Jordie Bowens",
+     "jersey": "2",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Ché Brogan",
+     "jersey": "4",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jesse Burris",
+     "jersey": "21",
+     "position": "G",
+     "handle": "BurrisJesse15"
+    },
+    {
+     "name": "Kyler D'Augustino",
+     "jersey": "12",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Moek Icke",
+     "jersey": "8",
+     "position": "C",
+     "handle": null
+    },
+    {
+     "name": "Kiir Kuany",
+     "jersey": "17",
+     "position": "F",
+     "handle": "KuanyKiir"
+    },
+    {
+     "name": "Siebe Ledegen",
+     "jersey": "10",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Dusan Makitan",
+     "jersey": "13",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Kolton Mitchell",
+     "jersey": "14",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Zay Mosley",
+     "jersey": "5",
+     "position": "F",
+     "handle": "darealzaymosley"
+    },
+    {
+     "name": "Jackson Paveletzke",
+     "jersey": "3",
+     "position": "G",
+     "handle": "jacksonpavvv"
+    },
+    {
+     "name": "Marin Petkov",
+     "jersey": "24",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Carter Reese",
+     "jersey": "11",
+     "position": "G",
+     "handle": "CarterReese2023"
+    },
+    {
+     "name": "Javan Simmons",
+     "jersey": "1",
+     "position": "F",
+     "handle": "Javan_2022"
+    },
+    {
+     "name": "Christian Trudic",
+     "jersey": "0",
+     "position": "F",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "The Post (Ohio University student paper)",
+     "type": "campus_paper",
+     "url": "https://www.thepostathens.com/section/sports",
+     "handle": null,
+     "writers": [
+      "Owen Lipstreu",
+      "Jack Muldowney",
+      "Charlie Fadel"
+     ]
+    },
+    {
+     "name": "The Athens Messenger",
+     "type": "city_paper",
+     "url": "https://www.athensmessenger.com/sports/ohiouniversity/ohio-basketball-roster-beginning-to-take-shape-after-busy-offseason/article_9dda5a4c-25a0-469c-8cde-16df8ee4bd60.html",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WOUB Public Media (Athens; PBS/NPR affiliate)",
+     "type": "tv_radio",
+     "url": "https://woub.org/tag/ohio-mens-basketball/",
+     "handle": "BobcatShowcase",
+     "writers": [
+      "Eli Baxter",
+      "Ty Carpenter",
+      "Andrew Bowlby"
+     ]
+    },
+    {
+     "name": "sMACk Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": [
+      "Kaily \"KG\" Godek",
+      "Foster Roesti"
+     ]
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation) via Yahoo Sports",
+     "type": "blog",
+     "url": "https://sports.yahoo.com/articles/2026-27-mac-men-basketball-132800658.html",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Caleb's Corner (Substack)",
+     "type": "blog",
+     "url": "https://calebscorner.substack.com/p/26-27-mac-preview",
+     "handle": null,
+     "writers": [
+      "Caleb Arthur"
+     ]
+    },
+    {
+     "name": "The Crescent-News (AP/APG wire)",
+     "type": "city_paper",
+     "url": "https://www.crescent-news.com/apgstate/jackson-paveletzke-returning-to-ohio-for-fifth-season-of-eligibility/article_6ebb4427-9a1a-5b53-b27b-a079a02642ce.html",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "toledo": {
+   "roster_url": "https://utrockets.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "Toledo_MBB"
+   ],
+   "coaches": [
+    {
+     "name": "Tod Kowalczyk",
+     "handle": "Coach_Kowalczyk",
+     "head": true
+    },
+    {
+     "name": "Jeff Massey",
+     "handle": "MassReps",
+     "head": false
+    },
+    {
+     "name": "Justin Ingram",
+     "handle": "Justin__Ingram",
+     "head": false
+    },
+    {
+     "name": "Jordan Lauf",
+     "handle": "Jordan_Lauf",
+     "head": false
+    }
+   ],
+   "players": [
+    {
+     "name": "Jaylohn Allen",
+     "jersey": "7",
+     "position": "G",
+     "handle": "jaylohnallen"
+    },
+    {
+     "name": "Rich Barron",
+     "jersey": "23",
+     "position": "F",
+     "handle": "richardbarron_"
+    },
+    {
+     "name": "Will James Jr.",
+     "jersey": "11",
+     "position": "G",
+     "handle": "williamjamesjr0"
+    },
+    {
+     "name": "Manny Johnson",
+     "jersey": "2",
+     "position": "G",
+     "handle": "MannyJohnson26"
+    },
+    {
+     "name": "Sean Jones",
+     "jersey": "1",
+     "position": "G",
+     "handle": "sean_jones5"
+    },
+    {
+     "name": "Marco Mattucci",
+     "jersey": "3",
+     "position": "G",
+     "handle": "marcomattucci_"
+    },
+    {
+     "name": "Angel Montas Jr.",
+     "jersey": "9",
+     "position": "G",
+     "handle": "AngelMontas8"
+    },
+    {
+     "name": "Toby Nwokolo",
+     "jersey": "0",
+     "position": "F",
+     "handle": "TobyNwokolo"
+    },
+    {
+     "name": "Jaylan Ouwinga",
+     "jersey": "32",
+     "position": "F",
+     "handle": "JaylanO_33"
+    },
+    {
+     "name": "Austin Parks",
+     "jersey": "25",
+     "position": "C",
+     "handle": "AustinParks2023"
+    },
+    {
+     "name": "Rashaun Porter",
+     "jersey": "24",
+     "position": "F",
+     "handle": "RashaunPorter24"
+    },
+    {
+     "name": "Chris Riddle",
+     "jersey": "10",
+     "position": "F",
+     "handle": "christerrell42",
+     "note": "School site links this handle; the name does not match, so check before following."
+    },
+    {
+     "name": "Mynor Strong",
+     "jersey": "5",
+     "position": "G",
+     "handle": "StrongMynor"
+    }
+   ],
+   "media": [
+    {
+     "name": "The Independent Collegian (University of Toledo student paper)",
+     "type": "campus_paper",
+     "url": "https://www.independentcollegian.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "The Toledo Blade (UT sports section)",
+     "type": "city_paper",
+     "url": "https://www.toledoblade.com/sports/ut",
+     "handle": null,
+     "writers": [
+      "David Briggs (columnist; bylines on 2025 Kowalczyk columns)"
+     ]
+    },
+    {
+     "name": "WTOL 11 (CBS, Toledo)",
+     "type": "tv_radio",
+     "url": "https://www.wtol.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "NBC 24 (WNWO, Toledo)",
+     "type": "tv_radio",
+     "url": "https://nbc24.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Toledo Basketball Coach's Show (Stubborn Brother Pizza Bar)",
+     "type": "tv_radio",
+     "url": "https://utrockets.com/news/2026/11/6/toledo-basketball-coachs-show-returns-to-stubborn-brother",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Midnight Blue & Gold Launchpad (Toledo fan podcast)",
+     "type": "podcast",
+     "url": "https://www.buzzsprout.com/1766582",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/mac-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation)",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Busting Brackets",
+     "type": "blog",
+     "url": "https://bustingbrackets.com/tod-kowalczyk-keeps-toledo-competitive-as-he-enters-16th-season-basketball",
+     "handle": null,
+     "writers": [
+      "Rodney Knuppel"
+     ]
+    }
+   ]
+  },
+  "umass": {
+   "roster_url": "https://umassathletics.com/sports/mens-basketball/roster",
+   "team_accounts": [],
+   "coaches": [],
+   "players": [
+    {
+     "name": "Abdullah Ahmed",
+     "jersey": "1",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Danny Carbuccia",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Rollie Castineyra",
+     "jersey": "27",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jordan Clayton",
+     "jersey": "3",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Dimitri Clerc",
+     "jersey": "25",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Luka Damjanac",
+     "jersey": "13",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Josh Engel",
+     "jersey": "9",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Cam Hailey",
+     "jersey": "5",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Heimir Helgason",
+     "jersey": "14",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Jayden Ndjigue",
+     "jersey": "11",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Cheick Sylla",
+     "jersey": "34",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Junjie Wang",
+     "jersey": "10",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Dwayne Wimbley Jr.",
+     "jersey": "2",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Noa Zemljić",
+     "jersey": "12",
+     "position": "G",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "Massachusetts Daily Collegian",
+     "type": "campus_paper",
+     "url": "https://dailycollegian.com/category/sports/mensbasketball/basketball/",
+     "handle": null,
+     "writers": [
+      "Tym Brown (Assistant Sports Editor as of Oct 2025; columnist)",
+      "Jackson DeVito",
+      "Andrew Guindon",
+      "Lily Woodworth"
+     ]
+    },
+    {
+     "name": "Daily Hampshire Gazette",
+     "type": "city_paper",
+     "url": "https://gazettenet.com/",
+     "handle": null,
+     "writers": [
+      "Mike Maynard"
+     ]
+    },
+    {
+     "name": "Greenfield Recorder / Athol Daily News / Amherst Bulletin (Newspapers of New England)",
+     "type": "city_paper",
+     "url": "https://recorder.com/category/sports/umass/",
+     "handle": null,
+     "writers": [
+      "Adam Hargraves"
+     ]
+    },
+    {
+     "name": "MassLive",
+     "type": "city_paper",
+     "url": "https://www.masslive.com/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Plant The Flag: Inside UMass Athletics (official podcast)",
+     "type": "podcast",
+     "url": "https://umassathletics.com/planttheflag",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation)",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/mac-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "BVM Sports",
+     "type": "blog",
+     "url": "https://bvmsports.com/2026/11/06/umass-falls-to-boston-college-71-55-in-hall-of-fame-classic/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  },
+  "western-michigan": {
+   "roster_url": "https://wmubroncos.com/sports/mens-basketball/roster",
+   "team_accounts": [
+    "WMUMBB"
+   ],
+   "coaches": [],
+   "players": [
+    {
+     "name": "Mason Bendinger",
+     "jersey": "1",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Ramere Draper",
+     "jersey": "22",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Joshua Eli",
+     "jersey": "2",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Isaac Finlinson",
+     "jersey": "8",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Julien Gomez",
+     "jersey": "13",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Adam Harakow",
+     "jersey": "10",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Tanner Hayhurst",
+     "jersey": "3",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Ben Johnson",
+     "jersey": "4",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Janis Jünemann",
+     "jersey": "20",
+     "position": "C",
+     "handle": null
+    },
+    {
+     "name": "Augustinas Kiudulas",
+     "jersey": "11",
+     "position": "F",
+     "handle": null
+    },
+    {
+     "name": "Rob Lee Jr.",
+     "jersey": "24",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jordan Sigmon",
+     "jersey": "7",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "Jaylen Washington Jr.",
+     "jersey": "0",
+     "position": "G",
+     "handle": null
+    },
+    {
+     "name": "DeAaron Watkins",
+     "jersey": "23",
+     "position": "F",
+     "handle": null
+    }
+   ],
+   "media": [
+    {
+     "name": "Western Herald (WMU student paper)",
+     "type": "campus_paper",
+     "url": "https://www.westernherald.com/sports/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "MLive / Kalamazoo Gazette",
+     "type": "city_paper",
+     "url": "https://www.mlive.com/kalamazoo/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WWMT News Channel 3 (CBS, Kalamazoo)",
+     "type": "tv_radio",
+     "url": "https://wwmt.com/topic/Broncos",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WOOD TV8 (NBC, Grand Rapids)",
+     "type": "tv_radio",
+     "url": "https://www.woodtv.com/video/2026-college-tip-off-western-michigan-university/12317606/",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "WMUK 102.1 (NPR, Kalamazoo)",
+     "type": "tv_radio",
+     "url": "https://www.wmuk.org/wmuk-news/2026-03-21/wmu-mens-basketball-has-a-new-head-coach",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Bronco Media Network (radio) / ESPN+ (video)",
+     "type": "tv_radio",
+     "url": "https://wmubroncos.com/news/2026/11/7/mens-basketball-continues-homestand-on-sunday-against-campbell.aspx",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "Mid-Major Madness (SB Nation)",
+     "type": "blog",
+     "url": "https://www.midmajormadness.com/mid-american-conference/37312/2026-27-mac-mens-basketball-preview",
+     "handle": null,
+     "writers": [
+      "Sam Federman"
+     ]
+    },
+    {
+     "name": "Hustle Belt (SB Nation MAC site)",
+     "type": "blog",
+     "url": "https://www.hustlebelt.com/mac-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "SMACK Talk (Substack)",
+     "type": "blog",
+     "url": "https://smacktalk.substack.com/p/2026-27-mid-american-mens-basketball",
+     "handle": null,
+     "writers": []
+    },
+    {
+     "name": "HoopDirt",
+     "type": "blog",
+     "url": "https://hoopdirt.com/western-michigan-basketball-staff-update/",
+     "handle": null,
+     "writers": []
+    }
+   ]
+  }
+ },
+ "league_media": [
+  {
+   "name": "Kaily \"KG\" Godek",
+   "outlet": "sMACk Talk",
+   "handle": null
+  },
+  {
+   "name": "Foster Roesti",
+   "outlet": "sMACk Talk",
+   "handle": null
+  },
+  {
+   "name": "Sam Federman",
+   "outlet": "Mid-Major Madness",
+   "handle": null
+  },
+  {
+   "name": "Caleb Arthur",
+   "outlet": "Caleb's Corner",
+   "handle": null
+  },
+  {
+   "name": "Hustle Belt",
+   "outlet": "SB Nation MAC site",
+   "handle": null
+  }
+ ]
+}
