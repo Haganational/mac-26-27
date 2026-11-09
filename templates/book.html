@@ -72,12 +72,14 @@
   let cur = JSON.parse(document.getElementById('first').textContent);
   cache[cur.slug] = cur;
   const f1 = v => v == null ? '–' : (+v).toFixed(1), sg = v => v == null ? '–' : (v > 0 ? '+' : '') + (+v).toFixed(1);
+  const MACK = {{ d.espn_ids|dictsort|map('reverse')|map('list')|list|tojson }}.reduce((o, kv) => (o[String(kv[0])] = kv[1], o), {});
+  const plink = (p) => MACK[p.team_id] ? `teams/${MACK[p.team_id]}.html#p${p.id}` : `https://www.espn.com/mens-college-basketball/player/_/id/${p.id}`;
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
   function draw() {
     title.textContent = cur.name;
     tt.innerHTML = cur.teams.map(t => `<tr><td class="num dim">${t.rk_conf}</td><td>${esc(t.short)}</td><td class="num">${t.games}</td><td class="num">${f1(t.adj_o)}</td><td class="num">${f1(t.adj_d)}</td><td class="num"><b class="${t.adj_em > 0 ? 'up' : 'down'}">${sg(t.adj_em)}</b></td><td class="num">${f1(t.adj_t)}</td><td class="num">${sg(t.sos)}</td><td class="num dim">${t.rk_adj_em}</td></tr>`).join('');
     let n = 0;
-    tp.innerHTML = cur.players.filter(p => (p.min_pct || 0) >= +minp.value).map(p => `<tr><td class="num dim">${++n}</td><td>${esc(p.name)}${p.returning ? '' : ' <span class="pill" title="No D-I minutes last season">new</span>'}</td><td>${esc(p.abbr)}</td><td class="dim">${esc(p.pos)}</td><td class="num">${p.gp}</td><td class="num">${p.mpg}</td><td class="num dim">${p.min_pct == null ? '–' : p.min_pct}</td><td class="num">${p.usage == null ? '–' : p.usage}</td><td class="num">${p.ts == null ? '–' : p.ts}</td><td class="num">${sg(p.off)}</td><td class="num">${sg(p.def)}</td><td class="num"><b class="${p.net > 0 ? 'up' : 'down'}">${sg(p.net)}</b></td><td class="num dim">${Math.round(p.prior_share * 100)}%</td></tr>`).join('');
+    tp.innerHTML = cur.players.filter(p => (p.min_pct || 0) >= +minp.value).map(p => `<tr><td class="num dim">${++n}</td><td><a href="${plink(p)}"${MACK[p.team_id] ? '' : ' target="_blank" rel="noopener"'}>${esc(p.name)}</a>${p.returning ? '' : ' <span class="pill" title="No D-I minutes last season">new</span>'}</td><td>${esc(p.abbr)}</td><td class="dim">${esc(p.pos)}</td><td class="num">${p.gp}</td><td class="num">${p.mpg}</td><td class="num dim">${p.min_pct == null ? '–' : p.min_pct}</td><td class="num">${p.usage == null ? '–' : p.usage}</td><td class="num">${p.ts == null ? '–' : p.ts}</td><td class="num">${sg(p.off)}</td><td class="num">${sg(p.def)}</td><td class="num"><b class="${p.net > 0 ? 'up' : 'down'}">${sg(p.net)}</b></td><td class="num dim">${Math.round(p.prior_share * 100)}%</td></tr>`).join('');
     shown.textContent = n + ' shown';
   }
   async function show(slug) {

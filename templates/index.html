@@ -62,7 +62,7 @@
         {% for g in d.recent %}
         <tr>
           <td class="dim">{{ g.date[5:10] }}</td>
-          <td class="teams">{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
+          <td class="teams">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{% endif %}{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.box %}</a>{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
           <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
           <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
           <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>

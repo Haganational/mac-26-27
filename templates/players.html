@@ -45,7 +45,7 @@
       {% for p in pr.players %}
       <tr id="p{{ p.id }}" data-team="{{ p.team_key }}" data-min="{{ p.min_pct or 0 }}">
         <td class="num dim rk"></td>
-        <td>{{ p.name }}{% if not p.returning %} <span class="pill" title="No D-I minutes last season">new</span>{% endif %}</td>
+        <td><a href="teams/{{ p.team_key }}.html#p{{ p.id }}">{{ p.name }}</a>{% if not p.returning %} <span class="pill" title="No D-I minutes last season">new</span>{% endif %}</td>
         <td><a href="teams/{{ p.team_key }}.html">{{ p.abbr }}</a></td>
         <td class="dim">{{ p.pos or "" }}</td>
         <td class="num">{{ p.gp }}</td>

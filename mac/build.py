@@ -302,6 +302,12 @@ def render_site() -> str:
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
 
+    # Where a game name links: its box score once played, otherwise its odds while a line is up.
+    game_href = {g["game_id"]: f"odds.html#ev{g['line']['odds_event_id']}" for g in data["upcoming"]
+                 if g.get("line") and g["line"].get("odds_event_id")}
+    game_href.update({gid: f"games/{gid}.html" for gid in have_box})
+    env.globals["game_href"] = game_href
+
     # TV schedule: every game, by week and day, Eastern time.
     season = [schedule_view.decorate(dict(g)) for g in games]
     for g in season:
