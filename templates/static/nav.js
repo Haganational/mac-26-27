@@ -194,3 +194,15 @@
   if ('requestIdleCallback' in window) requestIdleCallback(() => load()); else setTimeout(load, 1500);
 
 })();
+
+// Watch live: swap the click-to-play card for the Twitch player (parent must be this host).
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('[data-twitch]');
+  if (!b) return;
+  var f = document.createElement('iframe');
+  f.src = 'https://player.twitch.tv/?channel=' + encodeURIComponent(b.dataset.twitch) + '&parent=' + encodeURIComponent(location.hostname || 'localhost') + '&autoplay=true&muted=false';
+  f.allowFullscreen = true;
+  f.allow = 'autoplay; fullscreen';
+  f.title = b.dataset.twitch + ' on Twitch';
+  b.replaceWith(f);
+});
