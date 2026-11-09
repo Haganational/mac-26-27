@@ -1,0 +1,71 @@
+name: MAC90 video
+
+# Every morning at 8 a.m. Eastern (13:00 UTC in winter, 12:00 UTC in summer): build the
+# MAC90 script from the latest data, voice it, render vertical cards, and publish the MP4,
+# captions, thumbnail and description as a GitHub release for upload to YouTube Shorts.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths: ["mac/mac90video.py", "mac/today.py", "templates/mac90_card.html", ".github/workflows/mac90.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mac90
+  cancel-in-progress: false
+
+env:
+  VOICE: en_US-ryan-high
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt piper-tts
+      - name: Fonts and ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
+      - name: Cache the Piper voice
+        uses: actions/cache@v4
+        with:
+          path: voices
+          key: piper-${{ env.VOICE }}
+      - name: Download the Piper voice
+        run: |
+          mkdir -p voices
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
+          [ -f voices/$VOICE.onnx ] || curl -sSfL -o voices/$VOICE.onnx $base/$VOICE.onnx
+          [ -f voices/$VOICE.onnx.json ] || curl -sSfL -o voices/$VOICE.onnx.json $base/$VOICE.onnx.json
+      - name: Build the script (render only, no API calls)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python -m mac.collect site
+      - name: Render the video
+        env:
+          PIPER_VOICE: voices/${{ env.VOICE }}.onnx
+          CHROME_BIN: /usr/bin/google-chrome
+        run: python -m mac.mac90video --out out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mac90
+          path: out/mac90-*
+      - name: Publish as a release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          stem=$(basename out/mac90-*.mp4 .mp4)
+          tag="$stem"
+          files="out/$stem.mp4 out/$stem.srt out/$stem-thumb.png out/$stem.txt"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" $files --clobber
+          else
+            gh release create "$tag" $files --title "MAC90 · ${stem#mac90-}" --notes-file "out/$stem.txt"
+          fi

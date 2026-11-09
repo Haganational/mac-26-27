@@ -109,8 +109,15 @@ def result_item(g: dict, box: dict | None) -> dict:
         elif cover:
             sent.append(f"{me} won but didn't cover {role}." if won else f"{me} failed to cover {role}.")
     links = [(top["name"], f"teams/{mac['key']}.html#p{top['espn_id']}")] if sc and top.get("espn_id") else []
-    return {"game_id": g["game_id"], "text": " ".join(sent), "tune_up": tune_up, "won": won, "links": links,
+    card = {"away": _side(a), "home": _side(h), "top": ({"name": top["name"], "pts": top["pts"], "reb": top.get("reb"), "ast": top.get("ast"),
+            "team": mac.get("abbr")} if sc else None), "ats": sent[-1] if not tune_up and len(sent) > 1 else None, "final": True}
+    return {"game_id": g["game_id"], "text": " ".join(sent), "tune_up": tune_up, "won": won, "links": links, "card": card,
             "short": f"{me} {'beat' if won else 'lost to'} {them} {ms}-{os_}"}
+
+
+def _side(x: dict) -> dict:
+    return {"name": school(x.get("name"), x.get("key")), "abbr": x.get("abbr"), "espn_id": x.get("espn_id"), "score": x.get("score"),
+            "winner": x.get("winner"), "mac": x.get("key") in BY_KEY, "color": BY_KEY[x["key"]].color if x.get("key") in BY_KEY else None}
 
 
 def preview_item(g: dict) -> dict:
@@ -146,10 +153,13 @@ def preview_item(g: dict) -> dict:
             sent.append(f"The total is {latest['total']:g}.")
     elif (proj.get("home") or {}).get("non_d1") or (proj.get("away") or {}).get("non_d1"):
         mac = h if h.get("key") in BY_KEY else a
-        return {"game_id": g["game_id"], "tune_up": True, "mac": school(mac["name"], mac.get("key")), "text": " ".join(sent)}
+        return {"game_id": g["game_id"], "tune_up": True, "mac": school(mac["name"], mac.get("key")), "text": " ".join(sent),
+                "card": {"away": _side(a), "home": _side(h), "when": when, "on": ", ".join(nets[:2])}}
     else:
         sent.append("No line posted yet.")
-    return {"game_id": g["game_id"], "tune_up": False, "text": " ".join(sent)}
+    card = {"away": _side(a), "home": _side(h), "when": when, "on": ", ".join(nets[:2]), "spread": sp, "total": latest.get("total"),
+            "model": m.get("spread"), "fav": (home if sp < 0 else away) if sp else None}
+    return {"game_id": g["game_id"], "tune_up": False, "text": " ".join(sent), "card": card}
 
 
 def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[str, dict], standings: list[dict]) -> dict[str, Any]:
@@ -207,16 +217,37 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         paras.append(f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else ""))
     paras.append("That's MAC90. Every line, box score and rating is at Hardwood Bricks dot com.")
 
+    # The same script cut into segments, one card each, for the video.
+    segs: list[dict] = [{"kind": "intro", "text": paras[0]}]
+    for i, r in enumerate(real):
+        segs.append({"kind": "result", "label": results_label, "text": (f"{results_label}: " if i == 0 else "") + r["text"], "card": r["card"]})
+    if tune:
+        segs.append({"kind": "tuneups", "label": results_label, "cards": [r["card"] for r in tune],
+                     "text": (f"{results_label}: " if not real else "Also, ") + "; ".join(r["short"] for r in tune) + " against non-Division I competition."})
+    lined_p = [p for p in previews if not p["tune_up"]]
+    for i, p in enumerate(lined_p):
+        segs.append({"kind": "preview", "label": slate_label, "text": (f"{slate_label}: " if i == 0 else "") + p["text"], "card": p["card"]})
+    tune_p = [p for p in previews if p["tune_up"]]
+    if tune_p:
+        names = [p["mac"] for p in tune_p]
+        segs.append({"kind": "tuneups_next", "label": slate_label, "cards": [p["card"] for p in tune_p],
+                     "text": (f"{slate_label}: " if not lined_p else "Also, ") + f"{_list(names)} {'plays a' if len(names) == 1 else 'play'} non-Division I {'opponent' if len(names) == 1 else 'opponents'}, so no {'line' if len(names) == 1 else 'lines'}."})
+    if unbeaten:
+        segs.append({"kind": "standings", "unbeaten": unbeaten, "winless": winless, "text": paras[-2]})
+    segs.append({"kind": "outro", "text": paras[-1]})
+
     words = sum(len(p.split()) for p in paras)
     links = [ln for r in results for ln in r.get("links", [])]
     links += [(t.short, f"teams/{t.key}.html") for t in BY_KEY.values()]
     return {
         "date_label": date_label,
+        "date_iso": et_now.date().isoformat(),
         "results_label": results_label,
         "slate_label": slate_label,
         "results": results,
         "previews": previews,
         "paragraphs": paras,
+        "segments": segs,
         "paragraphs_html": [link_text(p, links) for p in paras],
         "words": words,
         "seconds": round(words / WPM * 60),

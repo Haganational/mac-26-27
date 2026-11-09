@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>{{ css|safe }}</style>
+<style>
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #120d09; color: #f6efe3; font-family: "Liberation Sans", Arial, Helvetica, sans-serif; }
+  .card { position: relative; width: 1080px; height: 1920px; display: flex; flex-direction: column; }
+  .top { position: relative; height: 330px; background: linear-gradient(rgba(20,6,2,.35), rgba(20,6,2,.55)), var(--bricks) 0 0 / 144px 48px; overflow: hidden; }
+  .top::before { content: ""; position: absolute; inset: 0; background: var(--wood-parquet) 0 0 / 160px 160px; -webkit-mask-image: linear-gradient(100deg, #000 0 35%, rgba(0,0,0,.8) 50%, transparent 85%); mask-image: linear-gradient(100deg, #000 0 35%, rgba(0,0,0,.8) 50%, transparent 85%); }
+  .top::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, #120d09); }
+  .brandrow { position: absolute; left: 64px; right: 64px; top: 92px; z-index: 1; display: flex; align-items: center; justify-content: space-between; }
+  .plaque { color: #3b2414; font: 700 76px/1 "Liberation Serif", Georgia, serif; letter-spacing: .06em; padding: 16px 34px 12px; border-radius: 4px;
+    background: repeating-linear-gradient(92deg, rgba(120,72,30,.10) 0 3px, transparent 3px 14px, rgba(120,72,30,.06) 14px 16px, transparent 16px 26px), linear-gradient(180deg, #ecd3a2, #d8b273 60%, #c99d5c);
+    box-shadow: inset 0 2px 0 rgba(255,250,235,.7), inset 0 0 0 6px rgba(236,211,162,.9), inset 0 0 0 8px rgba(59,36,20,.45), 0 8px 24px rgba(0,0,0,.45); text-shadow: 0 1px 0 rgba(255,245,225,.55); }
+  .date { text-align: right; font-weight: 700; font-size: 38px; line-height: 1.15; text-shadow: 0 2px 8px rgba(0,0,0,.6); }
+  .date em { display: block; font: 600 20px/1.6 Arial, sans-serif; font-style: normal; color: #e5d7c0; letter-spacing: .03em; }
+  .date small { display: block; font: 700 22px/1.4 "Liberation Serif", Georgia, serif; letter-spacing: .2em; text-transform: uppercase; color: #f0c75e; }
+  .stripe { display: flex; height: 12px; } .stripe i { flex: 1; }
+  .body { flex: 1; padding: 44px 64px 0; display: flex; flex-direction: column; gap: 26px; }
+  .body > * { flex-shrink: 0; }
+  .label { font: 700 30px/1 "Liberation Serif", Georgia, serif; letter-spacing: .22em; text-transform: uppercase; color: #f0c75e; }
+  .row { display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 28px; padding: 18px 28px; border-radius: 26px; background: rgba(255,255,255,.05); border: 2px solid rgba(255,255,255,.08); }
+  .row.win { background: linear-gradient(90deg, color-mix(in srgb, var(--tc, #555) 45%, transparent), rgba(255,255,255,.04)); border-color: color-mix(in srgb, var(--tc, #888) 70%, transparent); }
+  .row.lose { opacity: .62; }
+  .logo { width: 150px; height: 150px; border-radius: 50%; background: #fff; display: grid; place-items: center; overflow: hidden; }
+  .logo img { width: 124px; height: 124px; object-fit: contain; }
+  .logo b { font-size: 36px; color: #222; }
+  .nm { font-size: 58px; font-weight: 800; line-height: 1.05; }
+  .nm small { display: block; font-size: 26px; font-weight: 600; color: #cdbfa8; letter-spacing: .04em; margin-top: 6px; }
+  .sc { font-size: 120px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .final { font: 700 26px/1 Arial, sans-serif; letter-spacing: .2em; color: #cdbfa8; text-align: center; }
+  .chips { display: flex; flex-wrap: wrap; gap: 18px; }
+  .chip { white-space: nowrap; padding: 14px 24px; border-radius: 999px; font-size: 34px; font-weight: 700; background: rgba(255,255,255,.08); }
+  .chip.good { background: rgba(12,163,12,.25); color: #b9f5b9; } .chip.bad { background: rgba(208,59,59,.25); color: #ffc9c9; }
+  .chip.gold { background: rgba(240,199,94,.18); color: #f6dd9a; }
+  .scorer { display: flex; align-items: baseline; gap: 22px; font-size: 44px; font-weight: 700; }
+  .scorer span { color: #f0c75e; font-size: 60px; font-weight: 800; }
+  .vs { text-align: center; font: 700 30px/1 "Liberation Serif", Georgia, serif; letter-spacing: .2em; color: #cdbfa8; }
+  .lines { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .stat { padding: 22px 26px; border-radius: 22px; background: rgba(255,255,255,.06); }
+  .stat small { display: block; font-size: 24px; letter-spacing: .14em; text-transform: uppercase; color: #cdbfa8; margin-bottom: 8px; }
+  .stat b { font-size: 44px; white-space: nowrap; }
+  .stat.model { background: rgba(240,199,94,.14); }
+  .mini { display: grid; gap: 16px; }
+  .mini div { display: flex; justify-content: space-between; align-items: center; font-size: 40px; font-weight: 700; padding: 18px 26px; border-radius: 20px; background: rgba(255,255,255,.06); }
+  .mini span { color: #cdbfa8; font-weight: 600; font-size: 32px; }
+  .teamchips { display: flex; flex-wrap: wrap; gap: 16px; }
+  .teamchips b { font-size: 40px; padding: 14px 26px; border-radius: 16px; background: var(--tc); color: #fff; box-shadow: inset 0 0 0 3px rgba(255,255,255,.18); }
+  .hero { margin-top: 70px; text-align: center; }
+  .hero .big { font: 700 170px/1 "Liberation Serif", Georgia, serif; color: #f6efe3; letter-spacing: .02em; }
+  .hero p { font-size: 46px; color: #e5d7c0; margin: 24px 0 0; }
+  .agenda { display: grid; gap: 18px; margin-top: 30px; }
+  .agenda div { font-size: 42px; padding: 20px 28px; border-radius: 20px; background: rgba(255,255,255,.06); }
+  .caption { position: absolute; left: 64px; right: 150px; top: 1300px; padding: 26px 30px; border-radius: 22px; background: rgba(0,0,0,.55); font-size: {{ 42 if seg.text|length < 260 else 36 }}px; line-height: 1.32; font-weight: 600; }
+  .foot { position: absolute; left: 64px; right: 64px; bottom: 380px; display: flex; justify-content: space-between; font-size: 24px; color: #a99b86; letter-spacing: .04em; }
+</style>
+</head>
+<body>
+{% macro logo(s) %}<div class="logo">{% if s.espn_id %}<img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ s.espn_id }}.png" alt="" onerror="this.outerHTML='<b>{{ s.abbr }}</b>'">{% else %}<b>{{ s.abbr }}</b>{% endif %}</div>{% endmacro %}
+<div class="card">
+  <div class="top"><div class="brandrow"><span class="plaque">MAC90</span><span class="date"><small>Hardwood Bricks</small>{{ date_label }}<em>Stats: ESPN · Lines: The Odds API</em></span></div></div>
+  <div class="stripe">{% for c in stripe %}<i style="background:{{ c }}"></i>{% endfor %}</div>
+  <div class="body">
+  {% if seg.kind == 'intro' %}
+    <div class="hero"><div class="big">MAC90</div><p>The MAC in 90 seconds</p></div>
+    <div class="agenda">{% for a in agenda %}<div>{{ a }}</div>{% endfor %}</div>
+  {% elif seg.kind == 'result' %}
+    {% set c = seg.card %}
+    <div class="label">{{ seg.label }}</div>
+    {% for s in [c.away, c.home] %}<div class="row {{ 'win' if s.winner else 'lose' }}" style="--tc:{{ s.color or '#666' }}">{{ logo(s) }}<div class="nm">{{ s.name }}<small>{{ 'AWAY' if loop.first else 'HOME' }}</small></div><div class="sc">{{ s.score }}</div></div>{% endfor %}
+    <div class="final">FINAL</div>
+    {% if c.top %}<div class="scorer">{{ c.top.name }} <span>{{ c.top.pts }} PTS</span>{% if (c.top.reb or 0) >= 10 %} {{ c.top.reb }} REB{% elif (c.top.ast or 0) >= 8 %} {{ c.top.ast }} AST{% endif %}</div>{% endif %}
+    {% if c.ats %}<div class="chips"><span class="chip {{ 'bad' if "n't" in c.ats or 'failed' in c.ats else 'good' if 'covered' in c.ats else 'gold' }}">{{ c.ats|replace('-point', '-pt')|trim('.') }}</span></div>{% endif %}
+  {% elif seg.kind in ('tuneups', 'tuneups_next') %}
+    <div class="label">{{ seg.label }}{{ ' · tune-ups' }}</div>
+    <div class="mini">{% for c in seg.cards %}<div>{% if seg.kind == 'tuneups' %}{{ c.away.abbr }} {{ c.away.score }} · {{ c.home.abbr }} {{ c.home.score }}<span>Final</span>{% else %}{{ c.away.abbr }} at {{ c.home.abbr }}<span>{{ c.when }}{% if c.on %} · {{ c.on }}{% endif %}</span>{% endif %}</div>{% endfor %}</div>
+    <div class="chips"><span class="chip">Non-Division I opponents · no lines</span></div>
+  {% elif seg.kind == 'preview' %}
+    {% set c = seg.card %}
+    <div class="label">{{ seg.label }}</div>
+    <div class="row" style="--tc:{{ c.away.color or '#666' }}">{{ logo(c.away) }}<div class="nm">{{ c.away.name }}<small>AWAY</small></div><div></div></div>
+    <div class="vs">AT</div>
+    <div class="row" style="--tc:{{ c.home.color or '#666' }}">{{ logo(c.home) }}<div class="nm">{{ c.home.name }}<small>HOME</small></div><div></div></div>
+    <div class="chips"><span class="chip">{{ c.when }}</span>{% if c.on %}<span class="chip">{{ c.on }}</span>{% endif %}</div>
+    {% if c.spread is not none %}<div class="lines">
+      <div class="stat"><small>Market</small><b>{{ c.home.abbr if c.spread < 0 else c.away.abbr }} −{{ '%g'|format(c.spread|abs) }}</b></div>
+      {% if c.total %}<div class="stat"><small>Total</small><b>{{ '%g'|format(c.total) }}</b></div>{% endif %}
+      {% if c.model %}<div class="stat model"><small>Our model</small><b>{{ c.home.abbr if c.model < 0 else c.away.abbr }} −{{ '%.1f'|format(c.model|abs) }}</b></div>{% endif %}
+    </div>{% endif %}
+  {% elif seg.kind == 'standings' %}
+    <div class="label">Still unbeaten</div>
+    <div class="teamchips">{% for n in seg.unbeaten %}<b style="--tc:{{ colors.get(n, '#555') }}">{{ n }}</b>{% endfor %}</div>
+    {% if seg.winless %}<div class="label" style="margin-top:20px">Looking for a first win</div>
+    <div class="teamchips">{% for n in seg.winless %}<b style="--tc:{{ colors.get(n, '#555') }};opacity:.75">{{ n }}</b>{% endfor %}</div>{% endif %}
+  {% else %}
+    <div class="hero"><div class="big" style="font-size:120px">That's MAC90</div><p>Every line, box score and rating</p><p style="color:#f0c75e;font-weight:800;font-size:64px">hardwoodbricks.com</p></div>
+  {% endif %}
+  </div>
+  <div class="caption">{{ seg.text }}</div>
+</div>
+</body>
+</html>
