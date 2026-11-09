@@ -8,7 +8,7 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/mac90video.py", "mac/today.py", "templates/mac90_card.html", ".github/workflows/mac90.yml"]
+    paths: ["mac/mac90video.py", "mac/today.py", "templates/mac90_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/mac90.yml"]
 
 permissions:
   contents: write
@@ -43,6 +43,36 @@ jobs:
           base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
           [ -f voices/$VOICE.onnx ] || curl -sSfL -o voices/$VOICE.onnx $base/$VOICE.onnx
           [ -f voices/$VOICE.onnx.json ] || curl -sSfL -o voices/$VOICE.onnx.json $base/$VOICE.onnx.json
+      # Matthew's cloned voice. His reference clip is committed only encrypted
+      # (voices/matthew.ogg.enc); the key is the VOICE_KEY repo secret. Without both,
+      # the video uses Piper. Pull requests clone a Piper sample instead, to test the path.
+      - name: Voice reference
+        id: ref
+        env:
+          VOICE_KEY: ${{ secrets.VOICE_KEY }}
+        run: |
+          if [ -n "$VOICE_KEY" ] && [ -f voices/matthew.ogg.enc ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/ref.ogg
+            ffmpeg -loglevel error -y -i /tmp/ref.ogg -ac 1 -ar 24000 /tmp/ref.wav && rm /tmp/ref.ogg
+            echo "clone=yes" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "This is MAC Ninety, the Mid-American Conference in ninety seconds. Western Michigan beat Campbell eighty seven to seventy one last night, and Bowling Green hosts Cleveland State tonight at seven." \
+              | python -m piper -m voices/$VOICE.onnx -f /tmp/ref.wav
+            echo "clone=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Cache the clone model
+        if: steps.ref.outputs.clone == 'yes'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: chatterbox-turbo-v1
+      - name: Install Chatterbox (CPU)
+        if: steps.ref.outputs.clone == 'yes'
+        run: |
+          python -m venv /tmp/cbenv
+          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts
+          echo "VOICE_CLONE_PY=/tmp/cbenv/bin/python" >> "$GITHUB_ENV"
+          echo "VOICE_REF=/tmp/ref.wav" >> "$GITHUB_ENV"
       - name: Build the script (render only, no API calls)
         env:
           SITE_URL: ${{ vars.SITE_URL }}

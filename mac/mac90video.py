@@ -69,7 +69,30 @@ def wav_seconds(p: Path) -> float:
         return w.getnframes() / float(w.getframerate())
 
 
+def clone_all(texts: list[str], wavs: list[Path], work: Path) -> bool:
+    """Voice every segment in the cloned voice in one go (the model is slow to load).
+
+    Needs VOICE_CLONE_PY (a Python with Chatterbox installed) and VOICE_REF (the reference clip).
+    Returns False, and the video falls back to Piper, if either is missing or the clone fails.
+    """
+    py, ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
+    if not (py and ref and Path(py).exists() and Path(ref).exists()):
+        return False
+    jobs = work / "voice-jobs.json"
+    jobs.write_text(json.dumps([{"text": t, "out": str(w.resolve())} for t, w in zip(texts, wavs)]))
+    tool = Path(__file__).resolve().parent.parent / "tools" / "clone_voice.py"
+    r = subprocess.run([py, str(tool), "--ref", ref, "--jobs", str(jobs)], timeout=3000)
+    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in wavs):
+        print("voice clone failed; falling back to Piper", file=sys.stderr)
+        for w in wavs:
+            w.unlink(missing_ok=True)
+        return False
+    return True
+
+
 def speak(text: str, out: Path) -> None:
+    if out.exists():  # already voiced by clone_all()
+        return
     voice = os.environ.get("PIPER_VOICE")
     if voice and Path(voice).exists():
         subprocess.run([sys.executable, "-m", "piper", "-m", voice, "-f", str(out), "--length-scale", os.environ.get("PIPER_SPEED", "0.95"), "--sentence-silence", "0.2"],
@@ -178,6 +201,7 @@ def render(t: dict, out: Path) -> Path:
         agenda.append(f"{t['slate_label']}: {n_prev} game{'s' if n_prev != 1 else ''}")
     agenda.append("The unbeaten and the winless")
 
+    cloned = clone_all([spoken(seg["text"]) for seg in t["segments"]], [work / f"seg{i:02d}.wav" for i in range(len(t["segments"]))], work)
     common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=[tm.color for tm in TEAMS])
     clips, srt, events, clock = [], [], [], 0.0
     for i, seg in enumerate(t["segments"]):
@@ -232,8 +256,9 @@ def render(t: dict, out: Path) -> Path:
                     "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
-    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + "\n\nStats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments")
+    voiced = "Voiced by an AI model of Matthew Hagan's voice. " if cloned else ""
+    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
+    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
 
