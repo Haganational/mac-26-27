@@ -856,13 +856,17 @@ td.mcell { min-width: 150px; } .mc-proj { display: block; white-space: nowrap; f
 .ptw.compact .ptw-p { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 6px; padding: 5px 9px; border-radius: 8px; box-shadow: inset 3px 0 0 var(--tc, var(--gold)); }
 .ptw.compact .ptw-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ptw.compact .ptw-name .tdot { display: none; }
 .ptw.compact .ptw-val { align-self: end; }
-@media (max-width: 420px) {
-  .ptw.compact { grid-template-columns: 1fr; gap: 4px; }
-  .ptw.compact .ptw-p { grid-template-columns: 58px minmax(0, 1fr) auto; align-items: baseline; padding: 4px 9px; }
-  .ptw.compact .ptw-role { grid-column: auto; }
-  .tn-game .ms-leans { flex: 1 1 100%; }
-}
+
 /* Home title card: MAC in dark green with a white outline, and the tag line beside the season */
 .homehero .hh-mac { color: #0d5a32; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; letter-spacing: .02em; text-shadow: 0 2px 6px rgba(0,0,0,.35); }
 .homehero .hh-yr { white-space: nowrap; }
 .homehero .hh-line { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 3px 9px 2px; border: 1px solid var(--gold); border-radius: 4px; font: 700 12px/1.2 Georgia, "Times New Roman", serif; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); background: rgba(0,0,0,.28); transform: translateY(-3px); }
+
+/* Players to watch, compact (Home cards): one tight row of three on every screen */
+.ptw.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+.ptw.compact .ptw-k { font-size: 9px; margin: 0; }
+.ptw.compact .ptw-p { grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto; gap: 0 4px; padding: 3px 7px 4px; border-radius: 6px; line-height: 1.25; }
+.ptw.compact .ptw-role { grid-column: 1; grid-row: 1; font-size: 8.5px; letter-spacing: .05em; }
+.ptw.compact .ptw-val { grid-column: 2; grid-row: 1; } .ptw.compact .ptw-val b { font-size: 11.5px; }
+.ptw.compact .ptw-name { grid-column: 1 / -1; grid-row: 2; font-size: 12px; font-weight: 600; }
+.tn-game .tn-watch { margin-top: -4px; }
