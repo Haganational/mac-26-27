@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}The Book: every D-I conference{% endset %}{% set page_desc %}Team and player ratings for all 32 D-I conferences, from the same model that runs the MAC.{% endset %}
+{% set page_title %}The Almanac: every D-I conference{% endset %}{% set page_desc %}Team and player ratings for all 32 D-I conferences, from the same model that runs the MAC.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="book.html", image="static/og/book.png") }}
 <style>
   .confs td.c a { font-weight: 600; }
@@ -20,9 +20,9 @@
 <body>
 {{ L.topbar(root="", active="book.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> The Book</nav>
+  <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> The Almanac</nav>
   <header class="bk-hero">
-    <h1>The Book</h1>
+    <h1>The Almanac</h1>
     <span class="sub">All {{ b.conferences|length }} D-I conferences, rated by the same model that runs the MAC side of the site. Each run rates every D-I player once, so a transfer carries last season's number with him wherever he went. Updated {{ d.generated_et }}.</span>
   </header>
 

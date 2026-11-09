@@ -13,7 +13,8 @@ Without ACCESS_CODE nothing is locked and the site renders exactly as before.
 What is locked:
   * every page in LOCKED_PAGES (the whole <main>, plus its inline scripts)
   * the "Best number today" pick, wherever its card appears (the teaser line stays visible)
-  * the pick's details in data.json and the copy embedded in index.html
+  * any <!--hb-lock:name--> region (Home's line moves), shown greyed out from its <!--hb-tease--> block
+  * the pick's details and line history in data.json and the copy embedded in index.html
 """
 from __future__ import annotations
 
@@ -25,7 +26,15 @@ import secrets
 from pathlib import Path
 from typing import Any
 
-LOCKED_PAGES = ("odds.html", "viz.html")
+LOCKED_PAGES = ("odds.html", "ratings.html", "viz.html", "players.html", "book.html", "travel.html")
+PAGE_BLURB = {
+    "odds.html": ("Odds", "Every book's line, best prices, open vs now and where the market is off."),
+    "ratings.html": ("Ratings", "Power ratings for all 365 D-I teams, projected spreads and totals, and where the model disagrees with the market."),
+    "viz.html": ("Data Viz", "When each book posts each game, on a clock that runs to tip-off."),
+    "players.html": ("Players", "Box-score ratings for every MAC player, tied to the team model."),
+    "book.html": ("Almanac", "Team and player ratings for every D-I conference."),
+    "travel.html": ("Travel", "Routes, miles, road trips, rest days and time zones for every team."),
+}
 REQUEST_EMAILS = ("bernice@hardwoodbricks.com", "info@hardwoodbricks.com")
 ELIGIBILITY = ("Not for anyone under 21, anyone taking part in or holding a stake in the games discussed "
                "(players, coaches, staff, officials and their families), or anyone else barred from betting on "
@@ -105,12 +114,18 @@ def _blob_tag(blob: str) -> str:
     return f'<script type="application/json" class="hb-sealed">{blob}</script>'
 
 
-def gate_card() -> str:
+def unlock_list() -> str:
+    names = [PAGE_BLURB[p][0] for p in LOCKED_PAGES if p in PAGE_BLURB] + ["line moves"]
+    return ", ".join(names[:-1]) + " and " + names[-1]
+
+
+def gate_card(page: str = "") -> str:
+    label, blurb = PAGE_BLURB.get(page, ("Access", ""))
     return f"""<div class="hb-gate" role="region" aria-label="Access code required">
   <div class="hb-gate-in">
-    <span class="hb-gate-k">Bettor's Desk</span>
+    <span class="hb-gate-k">&#128274; {label}</span>
     <h1>Enter your access code</h1>
-    <p>Every book's line, best prices, model gaps and when each book posts. One code unlocks all of it.</p>
+    <p>{blurb} One code unlocks {unlock_list()}.</p>
     <form class="hb-gate-form" autocomplete="off">
       <input type="password" name="code" placeholder="Access code" aria-label="Access code" required autocapitalize="off" spellcheck="false">
       <button type="submit">Unlock</button>
@@ -124,20 +139,24 @@ def gate_card() -> str:
 
 _MAIN = re.compile(r'(<main id="main"[^>]*>)(.*?)(</main>)', re.S)
 _INLINE_SCRIPT = re.compile(r"<script>(.*?)</script>", re.S)
+_JSON_TAG = re.compile(r'<script id="[^"]+" type="application/json">.*?</script>', re.S)
 _BP_BODY = re.compile(r'(<details class="bestplay">.*?)<div class="bp-body">(.*?)</div>\s*</details>', re.S)
 _DATA_JSON = re.compile(r'(<script id="data" type="application/json">)(.*?)(</script>)', re.S)
 
 
-def lock_page(page: str, sealer: Sealer) -> str:
+def lock_page(page: str, sealer: Sealer, rel: str = "") -> str:
     """Replace <main> with the gate and seal the original body plus the inline scripts that follow it."""
     m = _MAIN.search(page)
     if not m:
         return page
     head, body, tail = page[:m.start()], m.group(2), page[m.end():]
-    scripts = _INLINE_SCRIPT.findall(tail)
+    data_tags = _JSON_TAG.findall(tail)  # page data (travel routes, the almanac's first table) goes in the envelope too
+    tail = _JSON_TAG.sub("", tail)
+    scripts = _INLINE_SCRIPT.findall(body) + _INLINE_SCRIPT.findall(tail)
+    body = _INLINE_SCRIPT.sub("", body) + "".join(data_tags)
     tail = _INLINE_SCRIPT.sub("", tail)
     payload = json.dumps({"html": body, "scripts": scripts})
-    return f'{head}{m.group(1)}{gate_card()}{_blob_tag(sealer.seal(payload))}{m.group(3)}{tail}'
+    return f'{head}{m.group(1)}{gate_card(rel)}{_blob_tag(sealer.seal(payload))}{m.group(3)}{tail}'
 
 
 def lock_best_play(page: str, sealer: Sealer, root: str = "") -> str:
@@ -149,10 +168,31 @@ def lock_best_play(page: str, sealer: Sealer, root: str = "") -> str:
     return _BP_BODY.sub(sub, page)
 
 
+_REGION = re.compile(r'<!--hb-lock:(\w+)-->(.*?)<!--/hb-lock-->', re.S)
+_TEASE = re.compile(r'<!--hb-tease-->(.*?)<!--/hb-tease-->', re.S)
+_PLAIN_SCRIPT = re.compile(r"<script>(.*?)</script>", re.S)
+
+
+def lock_regions(page: str, sealer: Sealer, root: str = "") -> str:
+    """Seal every <!--hb-lock:name--> … <!--/hb-lock--> region; show its <!--hb-tease--> block greyed out instead."""
+    def sub(m: re.Match) -> str:
+        inner = m.group(2)
+        tease = _TEASE.search(inner)
+        inner = _TEASE.sub("", inner)
+        scripts = _PLAIN_SCRIPT.findall(inner)
+        body = _PLAIN_SCRIPT.sub("", inner)
+        blob = _blob_tag(sealer.seal(json.dumps({"html": body, "scripts": scripts})))
+        return (f'<div class="hb-region hb-{m.group(1)}">{blob}<div class="hb-tease" aria-hidden="true">{tease.group(1) if tease else ""}</div>'
+                f'<div class="hb-tease-lock"><b>&#128274; Behind the access wall</b><span><a href="{root}odds.html">Enter your code</a> or email {ask_links()}.</span></div></div>')
+    return _REGION.sub(sub, page)
+
+
 def strip_best_play(data: dict[str, Any]) -> dict[str, Any]:
     bp = data.get("best_play")
     if isinstance(bp, dict):
         data = dict(data, best_play={k: v for k, v in bp.items() if k not in BEST_PLAY_PRIVATE})
+    if "history" in data:
+        data = dict(data, history=[])
     return data
 
 
@@ -178,7 +218,8 @@ def lock_site(site_dir: Path) -> int:
         if rel == "desk.html":
             continue
         page = f.read_text()
-        new = lock_page(page, sealer) if rel in LOCKED_PAGES else lock_best_play(page, sealer, "../" * rel.count("/"))
+        root = "../" * rel.count("/")
+        new = lock_page(page, sealer, rel) if rel in LOCKED_PAGES else lock_regions(lock_best_play(page, sealer, root), sealer, root)
         new = _strip_embedded(new)
         if new != page:
             f.write_text(new)

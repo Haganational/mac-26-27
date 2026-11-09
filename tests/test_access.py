@@ -3,7 +3,7 @@ import json
 from mac import access
 
 PAGE = """<html><body><header>top</header><main id="main"><h1>Odds</h1><table id="t">secret line -3.5</table></main>
-<footer>foot</footer><script>window.x = 1;</script><script src="static/nav.js" defer></script></body></html>"""
+<footer>foot</footer><script id="data" type="application/json">{"route": "secret-miles"}</script><script>window.x = 1;</script><script src="static/nav.js" defer></script></body></html>"""
 
 HOME = """<main id="main"><details class="bestplay">
   <summary><span class="bp-tease">KENT at AKR · <b>3 pts</b></span></summary>
@@ -16,13 +16,13 @@ HOME = """<main id="main"><details class="bestplay">
 def test_lock_page_hides_body_and_scripts():
     s = access.Sealer(["bricks", "matthew"], salt=b"0" * 16)
     out = access.lock_page(PAGE, s)
-    assert "secret line" not in out and "window.x" not in out
+    assert "secret line" not in out and "window.x" not in out and "secret-miles" not in out
     assert "Enter your access code" in out and all(e in out for e in access.REQUEST_EMAILS) and "under 21" in out
     assert 'src="static/nav.js"' in out and "<footer>foot</footer>" in out
     blob = out.split('class="hb-sealed">')[1].split("</script>")[0]
     p = json.loads(access.open_blob(blob, "matthew"))
     assert json.loads(access.open_blob(blob, "bricks")) == p
-    assert "secret line -3.5" in p["html"] and p["scripts"] == ["window.x = 1;"]
+    assert "secret line -3.5" in p["html"] and "secret-miles" in p["html"] and p["scripts"] == ["window.x = 1;"]
 
 
 def test_wrong_code_cannot_open():
@@ -55,3 +55,18 @@ def test_no_code_no_change(tmp_path, monkeypatch):
 def test_codes_parsing(monkeypatch):
     monkeypatch.setenv("ACCESS_CODE", "matthew-own\n# press\n  bricks , bricks\n\nbernice-list\n")
     assert access.codes() == ["matthew-own", "bricks", "bernice-list"]
+
+
+def test_region_locked_with_tease(monkeypatch):
+    page = ('<main id="main"><h2>Line movement</h2><!--hb-lock:linemoves--><!--hb-tease--><div class="tease-chart">grey</div><!--/hb-tease-->'
+            '<table>DK -3.5</table><script type="application/json" id="hist-data">[1]</script><script>draw();</script><!--/hb-lock--></main>')
+    s = access.Sealer(["bricks"], salt=b"2" * 16)
+    out = access.lock_regions(page, s)
+    assert "DK -3.5" not in out and "draw();" not in out and "grey" in out and "Line movement" in out
+    blob = out.split('class="hb-sealed">')[1].split("</script>")[0]
+    p = json.loads(access.open_blob(blob, "bricks"))
+    assert "DK -3.5" in p["html"] and "hist-data" in p["html"] and p["scripts"] == ["draw();"] and "grey" not in p["html"]
+
+
+def test_strip_history():
+    assert access.strip_best_play({"history": [{"x": 1}]})["history"] == []

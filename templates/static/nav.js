@@ -254,9 +254,9 @@ document.addEventListener('click', function (e) {
     }).then(function (pt) { return JSON.parse(new TextDecoder().decode(pt)); });
   }
   function place(el, p) {
-    var host = el.closest('.bp-body') || el.closest('main');
+    var host = el.closest('.bp-body') || el.closest('.hb-region') || el.closest('main');
     host.innerHTML = p.html;
-    host.classList.remove('bp-locked');
+    host.classList.remove('bp-locked', 'hb-region');
     p.scripts.forEach(function (src) { var s = document.createElement('script'); s.textContent = src; document.body.appendChild(s); });
   }
   function tryCode(code) {
