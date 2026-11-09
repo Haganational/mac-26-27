@@ -25,6 +25,7 @@
   .btn.go { background: var(--brand); border-color: var(--brand); color: #fff; }
   .btn:disabled { opacity: .5; cursor: default; }
   .msg { font-size: 14px; }
+  html.contrib .ed-only, html:not(.contrib) .co-only { display: none !important; }
   .msg.err { color: var(--bad); }
   .drafts .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--grid); }
   .drafts .row .t { flex: 1 1 220px; min-width: 0; }
@@ -41,10 +42,11 @@
   <nav class="crumbs"><a href="notes.html">Fieldhouse Notes</a> <span class="dim">/</span> Author desk</nav>
   <header class="fh-hero">
     <h1>Author desk</h1>
-    <span class="sub">Only for you. Write a dispatch and hit Publish, or save it as a draft to finish later. Each one is still filed as its own pull request behind the scenes. Readers see it on the site a few minutes after you publish.</span>
+    <span class="sub ed-only">Only for you. Write a dispatch and hit Publish, or save it as a draft to finish later. Each one is still filed as its own pull request behind the scenes. Readers see it on the site a few minutes after you publish.</span>
+    <span class="sub co-only">Write your dispatch and hit <b>Send to the editor</b>. It opens an email to {{ editor_email }} with the dispatch inside, and the editor publishes it under your byline. Your work in progress is kept in this browser.</span>
   </header>
 
-  <div class="tokenbox" id="tokenbox" hidden>
+  <div class="tokenbox ed-only" id="tokenbox" hidden>
     <b>One-time setup on this device: connect your GitHub account</b>
     <ol>
       <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → new fine-grained token</a>.</li>
@@ -54,7 +56,7 @@
     <div style="display:flex;gap:8px;flex-wrap:wrap"><input type="password" id="tok" placeholder="github_pat_…" autocomplete="off" style="flex:1 1 260px;font:inherit;padding:8px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--ink)"><button class="btn go" id="savetok" type="button">Connect</button></div>
     <div class="hint">The token stays in this browser only. It is never sent anywhere except GitHub, and never saved in the site or the repo.</div>
   </div>
-  <div class="msg" id="who" style="margin:8px 0 14px"></div>
+  <div class="msg ed-only" id="who" style="margin:8px 0 14px"></div>
 
   <div class="desk">
     <section>
@@ -81,10 +83,11 @@
       <label for="date">Date</label>
       <input type="date" id="date">
       <label for="body">Dispatch</label>
-      <textarea id="body" placeholder="Blank line between paragraphs. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
+      <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
       <div class="acts">
-        <button class="btn go" id="pubnow" type="button">Publish</button>
-        <button class="btn" id="save" type="button">Save draft</button>
+        <button class="btn go ed-only" id="pubnow" type="button">Publish</button>
+        <button class="btn ed-only" id="save" type="button">Save draft</button>
+        <button class="btn go co-only" id="send" type="button">Send to the editor</button>
         <button class="btn" id="clear" type="button">New</button>
         <span class="msg" id="msg"></span>
       </div>
@@ -97,7 +100,7 @@
     </section>
   </div>
 
-  <section class="drafts">
+  <section class="drafts ed-only">
     <h2>Drafts waiting to publish</h2>
     <div id="drafts"><p class="dim">Connect GitHub above to see your drafts.</p></div>
   </section>
@@ -109,6 +112,7 @@
   const LEAGUE = {{ LG_key|tojson }};
   const REPO = {{ notes_repo|tojson }}, API = 'https://api.github.com/repos/' + REPO, DIR = 'notes/dispatches/';
   const D = JSON.parse(document.getElementById('deskdata').textContent);
+  const EDITOR = {{ editor_email|tojson }};
   const KINDS = D.kinds, ALIAS = D.aliases;
   const $ = (s) => document.querySelector(s), $$ = (s) => [...document.querySelectorAll(s)];
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;' }[c]));
@@ -206,7 +210,8 @@
     try { store.set('btb-desk-draft', JSON.stringify({ text: toFile(f) })); } catch (e) {}
   }
   function reset() {
-    editing = null; $('#formtitle').textContent = 'New dispatch'; $('#save').textContent = 'Save draft';
+    editing = null; $('#formtitle').textContent = CONTRIB ? 'New dispatch from ' + CONTRIB : 'New dispatch'; $('#save').textContent = 'Save draft';
+    $('#author').value = CONTRIB || '';
     $$('input[name=kind]').forEach(i => i.checked = i.value === 'arena'); $('#game').value = ''; $$('input[name=team]').forEach(i => i.checked = false);
     $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; render();
   }
@@ -342,6 +347,35 @@
     loadDrafts();
   });
 
+  /* ---------- contributors: /desk.html?by=Name opens a desk with the byline locked and no GitHub.
+     The browser remembers it, so the contributor can bookmark the plain desk afterwards. */
+  const q0 = new URLSearchParams(location.search);
+  if (q0.has('by')) store.set('btb-contrib', q0.get('by').trim() || null);
+  const CONTRIB = store.get('btb-contrib');
+  if (CONTRIB) {
+    document.documentElement.classList.add('contrib');
+    $('#author').value = CONTRIB; $('#author').readOnly = true;
+    $('#formtitle').textContent = 'New dispatch from ' + CONTRIB;
+  }
+  $('#send').onclick = async () => {
+    const f = form();
+    if (!f.body.trim()) { say('Write something first.', true); return; }
+    const text = toFile(f);
+    try { await navigator.clipboard.writeText(text); } catch (e) {}
+    const subject = 'Dispatch: ' + (f.title || f.body.trim().split('\n')[0].slice(0, 60)) + ' (' + CONTRIB + ')';
+    const long = text.length > 1600;
+    const body = long ? 'The dispatch is on my clipboard; pasting it below.\n\n' : text;
+    location.href = 'mailto:' + EDITOR + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    say(long ? 'Your email app should open. The dispatch is copied: paste it into the email and send.' : 'Your email app should open with the dispatch inside. Send it and you are done. It is also copied, in case the email comes up empty.');
+  };
+  // The editor pastes a contributor's emailed dispatch (it starts with ---) into the body and the form fills itself.
+  $('#body').addEventListener('paste', (e) => {
+    const t = (e.clipboardData || window.clipboardData).getData('text');
+    const i = t.indexOf('---\nkind:');
+    if (i < 0 || CONTRIB) return;
+    e.preventDefault(); fill(t.slice(i).replace(/\r\n/g, '\n')); say('Loaded the pasted dispatch. Check it, then Publish.');
+  });
+
   /* ---------- start: ?game= / ?team= / ?player= prefill, ?edit= loads a published dispatch */
   $$('#game, #player, #title, #date, #body, #author').forEach(el => el.addEventListener('input', render));
   $$('input[name=kind], input[name=team]').forEach(el => el.addEventListener('change', render));
@@ -351,9 +385,9 @@
   if (q.get('game') && gameById.get(q.get('game'))) $('#game').value = gameById.get(q.get('game')).label;
   if (q.get('team')) $$('input[name=team]').forEach(i => i.checked = i.value === q.get('team'));
   if (q.get('player') && playerById.get(q.get('player'))) $('#player').value = playerById.get(q.get('player')).label;
-  if (!q.toString()) { try { const s = JSON.parse(store.get('btb-desk-draft') || 'null'); if (s && s.text && parseFile(s.text).body) fill(s.text); } catch (e) {} }
+  if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(store.get('btb-desk-draft') || 'null'); if (s && s.text && parseFile(s.text).body) fill(s.text); } catch (e) {} }
   render();
-  connect().then(async () => {
+  if (!CONTRIB) connect().then(async () => {
     const edit = q.get('edit');
     if (!edit || !token) return;
     try {
