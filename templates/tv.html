@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC TV Schedule</title>
+<meta name="description" content="Every MAC men's basketball game in 2026-27 with tip time (Eastern) and where to watch.">
+<link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> TV schedule
+    <span class="teamnav"><a href="travel.html">Travel map</a></span>
+  </nav>
+  <header>
+    <h1>TV schedule</h1>
+    <span class="sub">Every game this season, tip times in Eastern. Networks are what ESPN lists; national TV picks can still be added during the season. Updated {{ d.generated_et }}.</span>
+  </header>
+
+{% macro watchchips(w) %}{% for n in w.nets %}<span class="net {{ n.tier }}" title="{{ {'tv':'National TV','stream':'Streaming','local':'Local / regional'}[n.tier] }}{% if n.market and n.market != 'National' %} ({{ n.market }} market){% endif %}">{{ n.name }}</span>{% else %}<span class="net none" title="No broadcast listed by ESPN yet">TBD</span>{% endfor %}{% endmacro %}
+{% macro logo(side) %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endmacro %}
+
+  <section>
+    <h2>Where each team shows up</h2>
+    <div class="scroll"><table>
+      <tr><th>Team</th><th class="num">National TV</th><th class="num">Streaming</th><th class="num">Not listed</th><th style="width:30%">Mix</th><th>Networks</th></tr>
+      {% for r in counts %}{% set tot = r.tv + r.stream + r.none %}
+      <tr>
+        <td><span class="tm" style="display:flex;gap:6px;align-items:center"><img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ r.espn_id }}.png" alt="" onerror="this.style.visibility='hidden'">{{ r.short }}</span></td>
+        <td class="num"><b>{{ r.tv }}</b></td><td class="num">{{ r.stream }}</td><td class="num dim">{{ r.none }}</td>
+        <td><div class="tvbar" title="{{ r.tv }} national TV, {{ r.stream }} streaming, {{ r.none }} not listed">{% if tot %}<i style="width:{{ r.tv / tot * 100 }}%;background:var(--s1)"></i><i style="width:{{ r.stream / tot * 100 }}%;background:color-mix(in srgb, var(--s1) 35%, var(--surface))"></i>{% endif %}</div></td>
+        <td class="dim">{% for n, c in r.nets %}{{ n }}{% if c > 1 %} ×{{ c }}{% endif %}{% if not loop.last %}, {% endif %}{% else %}–{% endfor %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Counts every game on the schedule, played or not. "Not listed" means ESPN has no broadcast for it yet (often a home game streamed on a school or conference service that ESPN doesn't carry).</div>
+  </section>
+
+  <section>
+    <div class="filters">
+      <div class="seg" id="tierSeg" role="group" aria-label="Broadcast filter">
+        <button data-tier="all" class="on">All games</button><button data-tier="tv">National TV</button><button data-tier="stream">Streaming</button><button data-tier="none">Not listed</button>
+      </div>
+      <select id="teamPick" aria-label="Team"><option value="">All teams</option>{% for t in d.teams %}<option value="{{ t.key }}">{{ t.short }}</option>{% endfor %}</select>
+      <label class="sub"><input type="checkbox" id="macOnly"> MAC games only</label>
+      <label class="sub"><input type="checkbox" id="hideDone" checked> Hide finished</label>
+      <a class="btnlink" href="#" id="jumpNow">Jump to today</a>
+      <span class="dim sub" id="shown"></span>
+    </div>
+
+    {% for w in weeks %}
+    <div class="week" data-week="{{ w.key }}">
+      <div class="weekhead">{{ w.label }}</div>
+      <div class="scroll"><table class="agenda">
+      {% for day in w.days %}
+        <tbody class="tvday" data-daywrap="{{ day.key }}">
+          <tr class="dayrow"><td colspan="4"><div class="dayhead" data-day="{{ day.key }}"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim cnt"></span></div></td></tr>
+          {% for g in day.games %}
+          <tr data-tier="{{ 'none' if g.watch.tier == 'local' else g.watch.tier }}" data-teams="{{ g.home.key or '' }} {{ g.away.key or '' }}" data-conf="{{ 1 if g.conference_game else 0 }}" data-done="{{ 1 if g.completed else 0 }}">
+            <td class="tipcell"><b>{{ g.et.time }}</b></td>
+            <td class="watchcell">{{ watchchips(g.watch) }}</td>
+            <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</span></td>
+            <td class="num result" style="width:90px">{% if g.completed %}{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}{% else %}<span class="dim">{{ g.venue_city or '' }}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}</span>{% endif %}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      {% endfor %}
+      </table></div>
+    </div>
+    {% endfor %}
+  </section>
+</main>
+<script>
+(function () {
+  const etParts = (d) => Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(d).map(p => [p.type, p.value]));
+  const k = (d) => { const p = etParts(d); return `${p.year}-${p.month}-${p.day}`; };
+  const today = k(new Date()), tomorrow = k(new Date(Date.now() + 864e5));
+  document.querySelectorAll('.dayhead[data-day]').forEach(el => {
+    const rel = el.querySelector('.rel');
+    rel.textContent = el.dataset.day === today ? 'Today' : el.dataset.day === tomorrow ? 'Tomorrow' : '';
+  });
+  const st = { tier: 'all', team: '', mac: false, hideDone: true };
+  try { Object.assign(st, JSON.parse(localStorage.getItem('tvfilters') || '{}')); } catch (e) {}
+  const seg = document.getElementById('tierSeg'), pick = document.getElementById('teamPick'), mac = document.getElementById('macOnly'), done = document.getElementById('hideDone');
+  const hashTeam = location.hash.slice(1); if (hashTeam && [...pick.options].some(o => o.value === hashTeam)) st.team = hashTeam;
+  function apply() {
+    seg.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.tier === st.tier));
+    pick.value = st.team; mac.checked = st.mac; done.checked = st.hideDone;
+    let n = 0;
+    document.querySelectorAll('tr[data-tier]').forEach(r => {
+      const ok = (st.tier === 'all' || r.dataset.tier === st.tier) && (!st.team || r.dataset.teams.split(' ').includes(st.team)) && (!st.mac || r.dataset.conf === '1') && (!st.hideDone || r.dataset.done === '0');
+      r.classList.toggle('hide', !ok); if (ok) n++;
+    });
+    document.querySelectorAll('.tvday').forEach(d => {
+      const c = d.querySelectorAll('tr[data-tier]:not(.hide)').length;
+      d.classList.toggle('hide', !c); d.querySelector('.cnt').textContent = c ? `${c} game${c === 1 ? '' : 's'}` : '';
+    });
+    document.querySelectorAll('.week').forEach(w => w.classList.toggle('hide', !w.querySelector('.tvday:not(.hide)')));
+    document.getElementById('shown').textContent = `${n} game${n === 1 ? '' : 's'} shown`;
+    try { localStorage.setItem('tvfilters', JSON.stringify({ tier: st.tier, mac: st.mac, hideDone: st.hideDone })); } catch (e) {}
+  }
+  seg.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { st.tier = b.dataset.tier; apply(); } });
+  pick.onchange = () => { st.team = pick.value; history.replaceState(null, '', st.team ? '#' + st.team : location.pathname); apply(); };
+  mac.onchange = () => { st.mac = mac.checked; apply(); };
+  done.onchange = () => { st.hideDone = done.checked; apply(); };
+  document.getElementById('jumpNow').onclick = (e) => {
+    e.preventDefault();
+    const days = [...document.querySelectorAll('.tvday:not(.hide)')];
+    const target = days.find(d => d.dataset.daywrap >= today) || days[days.length - 1];
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  apply();
+})();
+</script>
+</body>
+</html>

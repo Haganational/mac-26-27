@@ -11,7 +11,7 @@
 <main>
   <header>
     <h1>MAC men's basketball {{ d.season }}</h1>
-    <span class="sub">Updated {{ d.generated_at[:16].replace("T", " ") }} UTC. Lines are the sharp number when Pinnacle is posted, otherwise the median across books. Spreads are from the home team's view.</span>
+    <span class="sub">Updated {{ d.generated_et }}. Lines are the sharp number when Pinnacle is posted, otherwise the median across books. Spreads are from the home team's view.</span>
   </header>
 
   <div class="tiles">
@@ -22,7 +22,7 @@
   </div>
 
   <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><a class="btnlink" href="travel.html">Travel map →</a></div>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
@@ -30,30 +30,72 @@
     </div>
   </section>
 
+{% macro watchchips(w) %}{% for n in w.nets %}<span class="net {{ n.tier }}" title="{{ {'tv':'National TV','stream':'Streaming','local':'Local / regional'}[n.tier] }}{% if n.market and n.market != 'National' %} ({{ n.market }} market){% endif %}">{{ n.name }}</span>{% else %}<span class="net none" title="No broadcast listed by ESPN yet">TBD</span>{% endfor %}{% endmacro %}
+{% macro logo(side) %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endmacro %}
+  <section id="schedule">
+    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">This week: when and where to watch</h2><a class="btnlink" href="tv.html">Full TV schedule →</a></div>
+    <div class="sub" style="margin-bottom:12px">Next 8 days, all times Eastern. Each chip is a MAC team's game, placed at its tip time.</div>
+    {% set lo = d.hour_range[0] %}{% set span = d.hour_range|length %}
+    <div class="scroll"><div class="when" data-lo="{{ lo }}" data-span="{{ span }}">
+      <div class="whead"><div></div><div class="hours">{% for h in d.hour_range %}<span style="left:{{ (loop.index0 / span * 100)|round(3) }}%">{{ (h - 12 if h > 12 else h) }}{{ 'a' if h < 12 else 'p' }}</span>{% endfor %}</div></div>
+      {% for day in d.days %}
+      <div class="wrow{{ ' empty' if not day.games }}" data-day="{{ day.key }}">
+        <div class="wday"><b>{{ day.weekday }}</b> {{ day.md }}<small class="rel"></small><small>{% if day.games %}{{ day.games|length }} game{{ 's' if day.games|length != 1 }}{% else %}no games{% endif %}</small></div>
+        <div class="wtrack" style="height:{{ 10 + day.lanes * 26 }}px">
+          {% for h in d.hour_range %}<i class="gl" style="left:{{ (loop.index0 / span * 100)|round(3) }}%"></i>{% endfor %}
+          <i class="nowline" hidden></i>
+          {% for g in day.games %}{% if g.et.hour is not none %}
+          <a class="chip {{ g.watch.tier }}{{ ' conf' if g.conference_game }}" href="#g{{ g.game_id }}" style="left:{{ ((g.et.hour - lo) / span * 100)|round(3) }}%;top:{{ 5 + g.lane * 26 }}px" title="{{ g.et.time }} ET · {{ g.away.abbr }} at {{ g.home.abbr }}{% if g.watch.nets %} · {{ g.watch.nets|map(attribute='name')|join(', ') }}{% else %} · no broadcast listed{% endif %}">{{ g.mac_label }}</a>
+          {% endif %}{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div></div>
+    <div class="legend" style="margin:10px 0 18px;flex-wrap:wrap"><span><i class="lk tv"></i>National TV</span><span><i class="lk stream"></i>Streaming (ESPN+ etc.)</span><span><i class="lk none"></i>No broadcast listed yet</span><span><i class="lk conf"></i>MAC game</span></div>
+
+    {% if d.upcoming %}
+    <div class="scroll"><table class="agenda">
+      <tr><th>Tip (ET)</th><th>Watch</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
+    {% for day in d.days if day.games %}
+      <tr class="dayrow" data-day="{{ day.key }}"><td colspan="8"><div class="dayhead"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim">{{ day.games|length }} game{{ 's' if day.games|length != 1 }}</span></div></td></tr>
+      {% for g in day.games %}
+      <tr id="g{{ g.game_id }}">
+        <td class="tipcell"><b>{{ g.et.time }}</b><small class="cd" data-tip="{{ g.date }}"></small></td>
+        <td class="watchcell">{{ watchchips(g.watch) }}</td>
+        <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</span></td>
+        {% if g.line %}
+        <td class="num">{{ "%+.1f"|format(g.line.latest.spread) if g.line.latest.spread is not none else "–" }}</td>
+        <td class="num">{{ g.line.latest.total if g.line.latest.total is not none else "–" }}</td>
+        <td class="num">{% if g.line.spread_move %}<span class="{{ 'down' if g.line.spread_move < 0 else 'up' }}">{{ "%+.1f"|format(g.line.spread_move) }}</span>{% else %}<span class="dim">0</span>{% endif %}</td>
+        {% else %}
+        <td class="num dim" colspan="3">no line yet</td>
+        {% endif %}
+        <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
+        <td><a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ g.home.name.rsplit(' ', 1)[0] }}" title="Opens PickTheOdds and copies the home team name to paste into its search">PTO</a></td>
+      </tr>
+      {% endfor %}
+    {% endfor %}
+    </table></div>
+    {% else %}<div class="empty">No games in the window.</div>{% endif %}
+  </section>
+
   <div class="grid two">
     <section>
-      <h2>Upcoming (next 8 days)</h2>
-      {% if d.upcoming %}
+      <h2>Recent results (7 days)</h2>
+      {% if d.recent %}
       <div class="scroll"><table>
-        <tr><th>Tip (UTC)</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num">Books</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
-        {% for g in d.upcoming %}
+        <tr><th>Date</th><th>Game</th><th class="num">Score <span class="dim">(box)</span></th><th class="num">Close</th><th>ATS</th></tr>
+        {% for g in d.recent %}
         <tr>
-          <td class="dim">{{ g.date[5:16].replace("T", " ") }}</td>
-          <td class="teams">{{ g.away.name }}<br><b>at {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</td>
-          {% if g.line %}
-          <td class="num">{{ "%+.1f"|format(g.line.latest.spread) if g.line.latest.spread is not none else "–" }}</td>
-          <td class="num">{{ g.line.latest.total if g.line.latest.total is not none else "–" }}</td>
-          <td class="num">{% if g.line.spread_move %}<span class="{{ 'down' if g.line.spread_move < 0 else 'up' }}">{{ "%+.1f"|format(g.line.spread_move) }}</span>{% else %}<span class="dim">0</span>{% endif %}</td>
-          <td class="num">{{ g.line.latest.books }}</td>
-          {% else %}
-          <td class="num dim" colspan="4">no line yet</td>
-          {% endif %}
-          <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
-          <td><a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ g.home.name.rsplit(' ', 1)[0] }}" title="Opens PickTheOdds and copies the home team name to paste into its search">PTO</a></td>
+          <td class="dim">{{ g.date[5:10] }}</td>
+          <td class="teams">{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
+          <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
+          <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
+          <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>
         </tr>
         {% endfor %}
       </table></div>
-      {% else %}<div class="empty">No games in the window.</div>{% endif %}
+      {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
     </section>
 
     <section>
@@ -126,27 +168,43 @@
     </details>
   </section>
 
-  <section>
-    <h2>Recent results (7 days)</h2>
-    {% if d.recent %}
-    <div class="scroll"><table>
-      <tr><th>Date</th><th>Game</th><th class="num">Score <span class="dim">(box)</span></th><th class="num">Close</th><th>ATS</th></tr>
-      {% for g in d.recent %}
-      <tr>
-        <td class="dim">{{ g.date[5:10] }}</td>
-        <td class="teams">{{ g.away.name }} at <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
-        <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html" title="Box score">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
-        <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
-        <td>{% if g.ats_cover %}{{ g.home.abbr if g.ats_cover == 'home' else (g.away.abbr if g.ats_cover == 'away' else 'push') }} covered{% else %}<span class="dim">–</span>{% endif %}</td>
-      </tr>
-      {% endfor %}
-    </table></div>
-    {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
-  </section>
 </main>
 
 <script id="data" type="application/json">{{ data_json|safe }}</script>
 <script>
+// When: "Today"/"Tomorrow" labels, countdowns, and a now-line, computed in the viewer's clock against Eastern time.
+(function () {
+  const etParts = (d) => Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(d).map(p => [p.type, p.value]));
+  function tick() {
+    const now = new Date(), p = etParts(now), today = `${p.year}-${p.month}-${p.day}`;
+    const t = etParts(new Date(now.getTime() + 864e5)), tomorrow = `${t.year}-${t.month}-${t.day}`;
+    document.querySelectorAll('[data-day]').forEach(el => {
+      const k = el.dataset.day, rel = el.querySelector('.rel');
+      el.classList.toggle('today', k === today); el.classList.toggle('past', k < today);
+      if (rel) rel.textContent = k === today ? 'Today' : k === tomorrow ? 'Tomorrow' : '';
+    });
+    document.querySelectorAll('.cd[data-tip]').forEach(el => {
+      const ms = new Date(el.dataset.tip.replace('Z', ':00Z')).getTime() - now.getTime(), m = Math.round(ms / 6e4);
+      el.textContent = m < -150 ? 'final?' : m <= 0 ? 'live' : m < 60 ? `in ${m}m` : m < 1440 ? `in ${Math.floor(m / 60)}h ${m % 60}m` : '';
+      el.classList.toggle('live', m <= 0 && m > -150);
+    });
+    const when = document.querySelector('.when');
+    if (when) {
+      const lo = +when.dataset.lo, span = +when.dataset.span, h = +p.hour + p.minute / 60;
+      document.querySelectorAll('.wrow').forEach(r => {
+        const line = r.querySelector('.nowline'); if (!line) return;
+        const show = r.dataset.day === today && h >= lo && h <= lo + span;
+        line.hidden = !show; if (show) line.style.left = ((h - lo) / span * 100) + '%';
+      });
+    }
+  }
+  tick(); setInterval(tick, 30000);
+  // Jumping to a game from the grid: flash its row.
+  document.querySelectorAll('a.chip').forEach(a => a.addEventListener('click', () => {
+    const row = document.querySelector(a.getAttribute('href')); if (!row) return;
+    row.classList.remove('flash'); void row.offsetWidth; row.classList.add('flash');
+  }));
+})();
 (function () {
   // PTO links: copy the team name so it can be pasted into PickTheOdds' search box.
   document.querySelectorAll('a.pto[data-copy]').forEach(a => a.addEventListener('click', () => {

@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, players, travel
+from . import analysis, players, schedule_view, travel
 from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -46,8 +46,16 @@ def dashboard_data(now: datetime | None = None) -> dict:
             if g["closing_spread"] is not None:
                 diff = g["margin"] + g["closing_spread"]
                 g["ats_cover"] = "push" if diff == 0 else ("home" if diff > 0 else "away")
+    upcoming = [schedule_view.decorate(g) for g in analysis.upcoming(games, history, now)]
+    window_days = schedule_view.group_by_day(upcoming, start=now, days=8)
+    for day in window_days:
+        day["lanes"] = schedule_view.assign_lanes(day["games"])
+    hours = [g["et"]["hour"] for g in upcoming if g["et"]["hour"] is not None]
+    lo = min([11] + [int(h) for h in hours])
+    hi = max([23] + [int(h) + 1 for h in hours])
     return {
         "generated_at": now.isoformat(timespec="seconds"),
+        "generated_et": now.astimezone(schedule_view.ET).strftime("%a %b %-d, %-I:%M %p ET"),
         "schedule_fetched_at": schedule.get("fetched_at"),
         "season": SEASON_LABEL,
         "teams": [t.__dict__ for t in TEAMS],
@@ -55,7 +63,9 @@ def dashboard_data(now: datetime | None = None) -> dict:
         "poll_rank": poll_rank_by_key(),
         "league": players.load_league_research(),
         "standings": analysis.standings(games),
-        "upcoming": analysis.upcoming(games, history, now),
+        "upcoming": upcoming,
+        "days": window_days,
+        "hour_range": list(range(lo, hi)),
         "recent": recent,
         "posting": analysis.posting_stats(history),
         "history": list(history.values()),
@@ -204,6 +214,14 @@ def render_site() -> str:
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
 
+    # TV schedule: every game, by week and day, Eastern time.
+    season = [schedule_view.decorate(dict(g)) for g in games]
+    for g in season:
+        g["box"] = g["game_id"] in have_box
+    (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
+        d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
+        now_iso=data["generated_at"]))
+
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
     for it in itins.values():
@@ -234,7 +252,7 @@ def render_site() -> str:
             ctx=players.team_context(team.key),
             profiles=profiles[team.key],
             others=players.coverage_not_on_roster(team.key, profiles[team.key]),
-            games=[{**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))} for tg in team_games(team.key, games, history, espn_lines)],
+            games=[schedule_view.decorate({**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))}) for tg in team_games(team.key, games, history, espn_lines)],
             itin=itins[team.key],
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)

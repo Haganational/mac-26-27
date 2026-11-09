@@ -32,6 +32,21 @@ def _int_or_none(value: Any) -> int | None:
         return None
 
 
+def parse_broadcasts(comp: dict[str, Any]) -> list[dict[str, Any]]:
+    """ESPN's broadcast list, flattened: network name, TV/Streaming/Radio, National/Home/Away."""
+    out = []
+    for b in comp.get("broadcasts") or []:
+        name = (b.get("media") or {}).get("shortName") or ((b.get("names") or [None])[0])
+        if not name:
+            continue
+        kind = (b.get("type") or {}).get("shortName") or ""
+        if kind.lower() == "radio":
+            continue
+        market = (b.get("market") or {}).get("type") if isinstance(b.get("market"), dict) else b.get("market")
+        out.append({"name": name, "kind": kind, "market": market or ""})
+    return out
+
+
 def parse_event(event: dict[str, Any]) -> dict[str, Any]:
     """Flatten one ESPN event into our game record."""
     comp = event["competitions"][0]
@@ -49,6 +64,8 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
         "season_type": event.get("seasonType", {}).get("abbreviation"),
         "neutral_site": bool(comp.get("neutralSite")),
         "conference_game": home_team is not None and away_team is not None,
+        "time_tba": comp.get("timeValid") is False,
+        "broadcasts": parse_broadcasts(comp),
         "venue": venue.get("fullName"),
         "venue_city": (venue.get("address") or {}).get("city"),
         "venue_state": (venue.get("address") or {}).get("state"),
