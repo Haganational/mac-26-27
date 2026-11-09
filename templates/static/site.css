@@ -878,3 +878,7 @@ td.mcell { min-width: 150px; } .mc-proj { display: block; white-space: nowrap; f
   .ptw.compact .ptw-name { white-space: normal; overflow: visible; text-overflow: clip; font-size: 10px; line-height: 1.2; letter-spacing: -.01em; }
   .ptw.compact .ptw-role { font-size: 8px; letter-spacing: .03em; } .ptw.compact .ptw-val b { font-size: 10.5px; }
 }
+/* Home game cards: a very light wash of the home team's color (the MAC team's when the home side isn't MAC) */
+.tn-game.tinted { background: linear-gradient(135deg, color-mix(in srgb, var(--tc) 13%, var(--page)) 0%, color-mix(in srgb, var(--tc) 4%, var(--page)) 55%, var(--page) 100%); border-color: color-mix(in srgb, var(--tc) 22%, var(--border)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tn-game.tinted { background: linear-gradient(135deg, color-mix(in srgb, var(--tc) 20%, var(--page)) 0%, color-mix(in srgb, var(--tc) 6%, var(--page)) 55%, var(--page) 100%); } }
+:root[data-theme="dark"] .tn-game.tinted { background: linear-gradient(135deg, color-mix(in srgb, var(--tc) 20%, var(--page)) 0%, color-mix(in srgb, var(--tc) 6%, var(--page)) 55%, var(--page) 100%); }
