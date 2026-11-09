@@ -1,0 +1,100 @@
+{#- Over/under study: closing total vs actual for every game involving a MAC team. Lives on Data Visualized. -#}
+{% if ou and ou.seasons %}
+{% macro ourec(s) %}{{ s.o }}-{{ s.u }}{% if s.p %}-{{ s.p }}{% endif %}{% endmacro %}
+{% macro oubar(s) %}{% set dec = s.o + s.u %}<span class="oubar" title="{{ s.o }} overs, {{ s.u }} unders"><i class="o" style="width:{{ (100 * s.o / dec)|round if dec else 50 }}%"></i><i class="u" style="width:{{ (100 * s.u / dec)|round if dec else 50 }}%"></i></span>{% endmacro %}
+{% macro diffcell(v) %}<span class="oudiff {{ 'pos' if v and v > 0 else ('neg' if v and v < 0 else '') }}">{{ '%+.1f'|format(v) if v is not none else '–' }}</span>{% endmacro %}
+  <section id="overunder">
+    <div class="sechead"><h2>Over/under study</h2><span class="dim">Closing total vs what was scored · {{ ou.seasons|join(' and ') }}</span></div>
+    <p class="sub dim">Every game involving a MAC team that had a closing total: DraftKings' number as ESPN carried it at tip. "Miss" is points scored minus the close, so a plus is an over. A MAC-vs-MAC game counts once in league totals and once for each team in the team table.</p>
+
+    <div class="oucards">
+      {% for c in ou.season_cards %}
+      <div class="oucard{{ ' cur' if loop.first }}">
+        <span class="k">{{ c.label }}{% if loop.first and c.season == ou.cur_season %} · so far{% endif %}</span>
+        <b>{{ ourec(c) }}</b><span class="ou-k">over-under</span>
+        {{ oubar(c) }}
+        <span class="ou-line">Avg miss {{ diffcell(c.avg_diff) }} · close {{ c.avg_close }} · scored {{ c.avg_actual }}</span>
+        {% if c.conf.n %}<span class="ou-line dim">MAC vs MAC {{ ourec(c.conf) }} · non-con {{ ourec(c.nonconf) }}</span>{% endif %}
+      </div>
+      {% endfor %}
+      {% if ou.baseline %}{% set c = ou.baseline %}
+      <div class="oucard base">
+        <span class="k">{{ c.label }}</span>
+        <b>{{ ourec(c) }}</b><span class="ou-k">over-under, {{ c.n }} games</span>
+        {{ oubar(c) }}
+        <span class="ou-line">Avg miss {{ diffcell(c.avg_diff) }} · typical miss {{ c.mae }} pts</span>
+        <span class="ou-line dim">The yardstick: the whole country lands near 50/50.</span>
+      </div>
+      {% endif %}
+    </div>
+
+    <h3 class="ouh">What stands out</h3>
+    {% if ou.trends %}
+    <ul class="outrends">
+      {% for t in ou.trends %}
+      <li class="{{ t.lean }}"><span class="tr-tag">{{ t.lean|upper }}</span><span><b>{{ t.where }}: {{ t.label }}</b> went {{ ourec(t) }} ({{ t.over_pct if t.lean == 'over' else 100 - t.over_pct }}% {{ t.lean }}s), missing the close by {{ '%+.1f'|format(t.avg_diff) }} on average over {{ t.n }} games.
+        <span class="dim">{% if t.p_value is not none and t.p_value < 0.05 %}Unlikely to be pure chance (p≈{{ t.p_value }}), but still a small sample.{% elif t.p_value is not none and t.p_value < 0.15 %}Could be chance (p≈{{ t.p_value }}). Worth watching, not betting on yet.{% else %}Most likely noise (p≈{{ t.p_value }}).{% endif %}</span></span></li>
+      {% endfor %}
+    </ul>
+    <p class="note">A split shows here once it has {{ ou.min_n }}+ games and leans {{ ou.share }}% one way (or misses by {{ '%g'|format(ou.points) }}+ points on average). With this many splits, a few will look strong by luck alone; books also adjust once a pattern is public.</p>
+    {% else %}<p class="dim">Nothing leans hard enough yet to call a trend.</p>{% endif %}
+
+    <div class="grid two even">
+      {% if ou.scatter %}{% set sc = ou.scatter %}
+      <div class="chartwrap">
+        <div class="ch-k">Close vs scored <span class="dim">· one dot per game · above the line = over</span></div>
+        <svg class="ouscatter" viewBox="0 0 {{ sc.w }} {{ sc.h }}" role="img" aria-label="Closing total against points scored for each game">
+          {% for y, t in sc.yt %}<line class="g" x1="{{ sc.x0 }}" x2="{{ sc.x1 }}" y1="{{ y }}" y2="{{ y }}"/><text class="ax" x="{{ sc.x0 - 6 }}" y="{{ y + 4 }}" text-anchor="end">{{ t }}</text>{% endfor %}
+          {% for x, t in sc.xt %}<text class="ax" x="{{ x }}" y="{{ sc.h - sc.pad + 22 }}" text-anchor="middle">{{ t }}</text>{% endfor %}
+          <line class="diag" x1="{{ sc.diag[0] }}" y1="{{ sc.diag[1] }}" x2="{{ sc.diag[2] }}" y2="{{ sc.diag[3] }}"/>
+          <text class="ax" x="{{ sc.x1 }}" y="{{ sc.h - 4 }}" text-anchor="end">closing total →</text>
+          <text class="ax" x="6" y="12">scored ↑</text>
+          {% for d in sc.dots %}<circle class="d {{ d.res }}{{ ' cur' if d.cur }}" cx="{{ d.x }}" cy="{{ d.y }}" r="{{ 5 if d.cur else 3.5 }}"><title>{{ d.t }}</title></circle>{% endfor %}
+        </svg>
+        <div class="legend"><span><i style="background:var(--ou-o)"></i>Over</span><span><i style="background:var(--ou-u)"></i>Under</span><span><i style="background:transparent;box-shadow:inset 0 0 0 2px var(--ink)"></i>{{ ou.current }}</span></div>
+      </div>
+      {% endif %}
+      <div class="chartwrap">
+        <div class="ch-k">How far from the close <span class="dim">· games per 5-point band</span></div>
+        <div class="ouhist">
+          {% for b in ou.hist %}<div class="hb {{ b.side }}" title="{{ b.label }}: {{ b.n }} games"><i style="height:{{ b.pct }}%"></i><span>{{ b.n or '' }}</span></div>{% endfor %}
+        </div>
+        <div class="ouhist-ax"><span>{{ ou.hist[0].lo }} or less</span><span>0</span><span>+{{ ou.hist[-1].lo }} or more</span></div>
+        <p class="note">Typical miss: {{ ou.all.mae }} points either way. A single game is close to a coin flip; the edge, if any, lives in the splits.</p>
+      </div>
+    </div>
+
+    <div class="ousplits">
+      {% for name in ['Game type', 'Closing total', 'Month', 'Site', 'Overtime'] %}
+      <div>
+        <h3 class="ouh">{{ name }}</h3>
+        <table class="outable">
+          <tr><th></th><th class="num">O-U</th><th></th><th class="num">Miss</th></tr>
+          {% for s in ou.sections[name] %}<tr{% if s.lean %} class="lean {{ s.lean }}"{% endif %}><td>{{ s.label }} <span class="dim">({{ s.n }})</span></td><td class="num">{{ ourec(s) }}</td><td class="barc">{{ oubar(s) }}</td><td class="num">{{ diffcell(s.avg_diff) }}</td></tr>{% endfor %}
+        </table>
+        {% if name == 'Overtime' %}<p class="note">OT games sail over almost every time: the close prices 40 minutes.</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <h3 class="ouh">By team</h3>
+    <div class="scroll"><table class="outable teams">
+      <tr><th>Team</th>{% for s in ou.season_keys %}<th class="num">{{ ou.seasons[ou.season_keys|length - loop.index] }}</th><th class="num">Miss</th>{% endfor %}<th class="num">Both</th><th></th><th class="num">Miss</th></tr>
+      {% for s in ou.sections['Team'] %}{% set ts = ou.team_seasons[s.label] %}
+      <tr{% if s.lean %} class="lean {{ s.lean }}"{% endif %}><td>{{ s.label|replace('Michigan', 'Mich.') }}</td>
+        {% for k in ou.season_keys %}<td class="num">{{ ourec(ts[k]) if ts[k].n else '–' }}</td><td class="num">{{ diffcell(ts[k].avg_diff) }}</td>{% endfor %}
+        <td class="num"><b>{{ ourec(s) }}</b></td><td class="barc">{{ oubar(s) }}</td><td class="num">{{ diffcell(s.avg_diff) }}</td></tr>
+      {% endfor %}
+    </table></div>
+
+    {% if ou.recent %}
+    <details class="pv">
+      <summary><b>{{ ou.current }} games so far</b> <span class="dim">({{ ou.recent|length }})</span></summary>
+      <div class="scroll"><table class="outable">
+        <tr><th>Date</th><th>Game</th><th class="num">Close</th><th class="num">Scored</th><th class="num">Miss</th><th></th></tr>
+        {% for r in ou.recent %}<tr><td class="dim">{{ r.md }}</td><td>{{ r.away }} {{ r.away_pts }}, {{ r.home }} {{ r.home_pts }}{% if r.ot %} <span class="pill">OT</span>{% endif %}</td><td class="num">{{ '%g'|format(r.close) }}</td><td class="num">{{ r.actual }}</td><td class="num">{{ diffcell(r.diff) }}</td><td><span class="ats {{ 'y' if r.res == 'o' else ('n' if r.res == 'u' else 'push') }}">{{ {'o': 'O', 'u': 'U', 'p': 'P'}[r.res] }}</span></td></tr>{% endfor %}
+      </table></div>
+    </details>
+    {% endif %}
+  </section>
+{% endif %}
