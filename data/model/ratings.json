@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-09T06:22:16+00:00",
-"mu": 105.58544322314395,
-"tau": 71.09925439951962,
-"hca": 2.7615211414605576,
+"as_of": "2026-11-09T06:27:27+00:00",
+"mu": 105.58544262967236,
+"tau": 71.09925400557623,
+"hca": 2.7615190464398878,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -574,7 +574,7 @@
 "adj_d": 101.22,
 "adj_em": 19.23,
 "adj_t": 70.31,
-"net_pts": 13.68,
+"net_pts": 13.67,
 "raw_margin": 15.0,
 "raw_total": 178.33,
 "raw_poss": 69.8,
@@ -1286,7 +1286,7 @@
 "games": 2,
 "adj_o": 114.45,
 "adj_d": 101.83,
-"adj_em": 12.63,
+"adj_em": 12.62,
 "adj_t": 71.44,
 "net_pts": 8.98,
 "raw_margin": 28.0,
@@ -1948,7 +1948,7 @@
 "rk_adj_o": 112,
 "rk_adj_d": 73,
 "rk_adj_t": 269,
-"rk_sos": 359
+"rk_sos": 364
 },
 {
 "id": "264",
@@ -2169,7 +2169,7 @@
 "adj_o": 109.2,
 "adj_d": 102.05,
 "adj_em": 7.16,
-"adj_t": 74.19,
+"adj_t": 74.18,
 "net_pts": 5.09,
 "raw_margin": 19.0,
 "raw_total": 161.0,
@@ -2494,7 +2494,7 @@
 "rk_adj_o": 50,
 "rk_adj_d": 268,
 "rk_adj_t": 57,
-"rk_sos": 364
+"rk_sos": 363
 },
 {
 "id": "179",
@@ -3103,7 +3103,7 @@
 "rk_adj_o": 144,
 "rk_adj_d": 188,
 "rk_adj_t": 96,
-"rk_sos": 363
+"rk_sos": 362
 },
 {
 "id": "2754",
@@ -3869,7 +3869,7 @@
 "games": 3,
 "adj_o": 106.99,
 "adj_d": 108.9,
-"adj_em": -1.9,
+"adj_em": -1.91,
 "adj_t": 72.51,
 "net_pts": -1.35,
 "raw_margin": 37.33,
@@ -5140,7 +5140,7 @@
 "rk_adj_o": 169,
 "rk_adj_d": 306,
 "rk_adj_t": 92,
-"rk_sos": 362
+"rk_sos": 361
 },
 {
 "id": "111",
@@ -5350,7 +5350,7 @@
 "rk_adj_o": 276,
 "rk_adj_d": 206,
 "rk_adj_t": 200,
-"rk_sos": 361
+"rk_sos": 359
 },
 {
 "id": "2199",
@@ -5731,27 +5731,6 @@
 "rk_sos": 92
 },
 {
-"id": "88",
-"name": "Southern Indiana Screaming Eagles",
-"short": "S Indiana",
-"abbr": "USI",
-"games": 3,
-"adj_o": 95.72,
-"adj_d": 103.92,
-"adj_em": -8.2,
-"adj_t": 70.97,
-"net_pts": -5.83,
-"raw_margin": 16.67,
-"raw_total": 144.67,
-"raw_poss": 72.45,
-"sos": -19.35,
-"rk_adj_em": 273,
-"rk_adj_o": 331,
-"rk_adj_d": 141,
-"rk_adj_t": 188,
-"rk_sos": 285
-},
-{
 "id": "2506",
 "name": "Presbyterian Blue Hose",
 "short": "Presbyterian",
@@ -5766,11 +5745,32 @@
 "raw_total": 166.5,
 "raw_poss": 67.34,
 "sos": 5.01,
-"rk_adj_em": 274,
+"rk_adj_em": 273,
 "rk_adj_o": 125,
 "rk_adj_d": 351,
 "rk_adj_t": 337,
 "rk_sos": 55
+},
+{
+"id": "88",
+"name": "Southern Indiana Screaming Eagles",
+"short": "S Indiana",
+"abbr": "USI",
+"games": 3,
+"adj_o": 95.72,
+"adj_d": 103.92,
+"adj_em": -8.2,
+"adj_t": 70.97,
+"net_pts": -5.83,
+"raw_margin": 16.67,
+"raw_total": 144.67,
+"raw_poss": 72.45,
+"sos": -19.35,
+"rk_adj_em": 274,
+"rk_adj_o": 331,
+"rk_adj_d": 141,
+"rk_adj_t": 188,
+"rk_sos": 285
 },
 {
 "id": "2934",
@@ -6368,7 +6368,7 @@
 "games": 2,
 "adj_o": 98.64,
 "adj_d": 110.09,
-"adj_em": -11.46,
+"adj_em": -11.45,
 "adj_t": 73.86,
 "net_pts": -8.14,
 "raw_margin": -9.0,
