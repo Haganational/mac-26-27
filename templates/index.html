@@ -28,12 +28,6 @@
   </div>
   {% endif %}
 
-  <div class="tiles">
-    <div class="tile"><div class="v">{{ d.counts.completed }}<span class="dim">/{{ d.counts.games }}</span></div><div class="k">games played</div></div>
-    <div class="tile"><div class="v">{{ d.counts.events_with_lines }}</div><div class="k">games with line history</div></div>
-    <div class="tile"><div class="v">{{ d.counts.snapshots }}</div><div class="k">line snapshots captured</div></div>
-  </div>
-
 {% set icons = {
   'tv.html': '<path d="M3 5h14v9H3zM7 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
   'odds.html': '<path d="M3 15l4-5 3 3 6-8M12 5h4v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
