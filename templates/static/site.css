@@ -248,7 +248,7 @@ table.nowrap td { white-space: nowrap; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) [class^="t-"], :root:not([data-theme="light"]) [class*=" t-"], :root:not([data-theme="light"]) [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); } }
 :root[data-theme="dark"] [class^="t-"], :root[data-theme="dark"] [class*=" t-"], :root[data-theme="dark"] [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); }
 html.noscroll { overflow: hidden; }
-html { scroll-padding-top: calc(var(--bar-h) + 52px); }
+html { scroll-padding-top: calc(var(--bar-h) + 66px); }
 body { background: linear-gradient(180deg, color-mix(in srgb, var(--s1) 7%, var(--page)) 0, var(--page) 420px) no-repeat, var(--page); }
 .skip { position: absolute; left: -999px; top: 8px; z-index: 100; background: var(--surface); color: var(--ink); padding: 6px 10px; border-radius: 6px; }
 .skip:focus { left: 8px; }
@@ -295,7 +295,7 @@ kbd { font: 11px ui-monospace, Menlo, monospace; border: 1px solid currentColor;
 }
 
 /* "On this page" jump bar and section links */
-.onpage { position: sticky; top: calc(var(--bar-h) + 4px); z-index: 30; display: flex; gap: 4px; align-items: center; overflow-x: auto; scrollbar-width: none; margin: -6px 0 18px; padding: 6px; background: color-mix(in srgb, var(--surface) 88%, transparent); backdrop-filter: blur(8px); border: 1px solid var(--border); border-radius: 12px; }
+.onpage { position: sticky; top: calc(var(--bar-h) + 18px); z-index: 30; display: flex; gap: 4px; align-items: center; overflow-x: auto; scrollbar-width: none; margin: -6px 0 18px; padding: 6px; background: color-mix(in srgb, var(--surface) 88%, transparent); backdrop-filter: blur(8px); border: 1px solid var(--border); border-radius: 12px; }
 .onpage::-webkit-scrollbar { display: none; }
 .onpage .op-k { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 0 6px; white-space: nowrap; }
 .onpage a { white-space: nowrap; font-size: 13px; padding: 4px 10px; border-radius: 999px; color: var(--ink-2); }
