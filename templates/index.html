@@ -39,7 +39,6 @@
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
 } %}
   <nav class="findit" aria-label="Find it fast">
-    <a href="#schedule" style="--fc:var(--s1)"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 6v4l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span><b>Games this week</b><small>Tip times, TV, current lines, rest and travel for the next 8 days</small></span></a>
     {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
   </nav>
 
@@ -54,54 +53,6 @@
 
 {% macro watchchips(w) %}{% for n in w.nets %}<span class="net {{ n.tier }}" title="{{ {'tv':'National TV','stream':'Streaming','local':'Local / regional'}[n.tier] }}{% if n.market and n.market != 'National' %} ({{ n.market }} market){% endif %}">{{ n.name }}</span>{% else %}<span class="net none" title="No broadcast listed by ESPN yet">TBD</span>{% endfor %}{% endmacro %}
 {% macro logo(side) %}<img class="lg" src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ side.espn_id }}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">{% endmacro %}
-  <section id="schedule">
-    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">This week: when and where to watch</h2><a class="btnlink" href="tv.html">Full TV schedule →</a></div>
-    <div class="sub" style="margin-bottom:12px">Next 8 days, all times Eastern. Each chip is a MAC team's game, placed at its tip time.</div>
-    {% set lo = d.hour_range[0] %}{% set span = d.hour_range|length %}
-    <div class="scroll"><div class="when" data-lo="{{ lo }}" data-span="{{ span }}">
-      <div class="whead"><div></div><div class="hours">{% for h in d.hour_range %}<span style="left:{{ (loop.index0 / span * 100)|round(3) }}%">{{ (h - 12 if h > 12 else h) }}{{ 'a' if h < 12 else 'p' }}</span>{% endfor %}</div></div>
-      {% for day in d.days %}
-      <div class="wrow{{ ' empty' if not day.games }}" data-day="{{ day.key }}">
-        <div class="wday"><b>{{ day.weekday }}</b> {{ day.md }}<small class="rel"></small><small>{% if day.games %}{{ day.games|length }} game{{ 's' if day.games|length != 1 }}{% else %}no games{% endif %}</small></div>
-        <div class="wtrack" style="height:{{ 10 + day.lanes * 26 }}px">
-          {% for h in d.hour_range %}<i class="gl" style="left:{{ (loop.index0 / span * 100)|round(3) }}%"></i>{% endfor %}
-          <i class="nowline" hidden></i>
-          {% for g in day.games %}{% if g.et.hour is not none %}
-          <a class="chip {{ g.watch.tier }}{{ ' conf' if g.conference_game }}" href="#g{{ g.game_id }}" style="left:{{ ((g.et.hour - lo) / span * 100)|round(3) }}%;top:{{ 5 + g.lane * 26 }}px" title="{{ g.et.time }} ET · {{ g.away.abbr }} at {{ g.home.abbr }}{% if g.watch.nets %} · {{ g.watch.nets|map(attribute='name')|join(', ') }}{% else %} · no broadcast listed{% endif %}">{{ g.mac_label }}</a>
-          {% endif %}{% endfor %}
-        </div>
-      </div>
-      {% endfor %}
-    </div></div>
-    <div class="legend" style="margin:10px 0 18px;flex-wrap:wrap"><span><i class="lk tv"></i>National TV</span><span><i class="lk stream"></i>Streaming (ESPN+ etc.)</span><span><i class="lk none"></i>No broadcast listed yet</span><span><i class="lk conf"></i>MAC game</span></div>
-
-    {% if d.upcoming %}
-    <div class="scroll"><table class="agenda">
-      <tr><th>Tip (ET)</th><th>Watch</th><th>Matchup</th><th class="num">Spread</th><th class="num">Total</th><th class="num">Move</th><th class="num" title="Rating model's spread and total (home view); highlighted when 3+ points off the market. See the Ratings page.">Model</th><th title="Days off and miles travelled coming into the game, away team then home team">Rest / travel</th><th></th></tr>
-    {% for day in d.days if day.games %}
-      <tr class="dayrow" data-day="{{ day.key }}"><td colspan="9"><div class="dayhead"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim">{{ day.games|length }} game{{ 's' if day.games|length != 1 }}</span></div></td></tr>
-      {% for g in day.games %}
-      <tr id="g{{ g.game_id }}">
-        <td class="tipcell"><b>{{ g.et.time }}</b><small class="cd" data-tip="{{ g.date }}"></small></td>
-        <td class="watchcell">{{ watchchips(g.watch) }}</td>
-        <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</span></td>
-        {% if g.line %}
-        <td class="num">{{ "%+.1f"|format(g.line.latest.spread) if g.line.latest.spread is not none else "–" }}</td>
-        <td class="num">{{ g.line.latest.total if g.line.latest.total is not none else "–" }}</td>
-        <td class="num">{% if g.line.spread_move %}<span class="{{ 'down' if g.line.spread_move < 0 else 'up' }}">{{ "%+.1f"|format(g.line.spread_move) }}</span>{% else %}<span class="dim">0</span>{% endif %}</td>
-        {% else %}
-        <td class="num dim" colspan="3">no line yet</td>
-        {% endif %}
-        <td class="num" style="white-space:nowrap">{% if g.model %}<a href="ratings.html" title="Model: {{ g.away.abbr }} {{ '%.0f'|format(g.model.model.away_pts) }}, {{ g.home.abbr }} {{ '%.0f'|format(g.model.model.home_pts) }}{% if g.model.spread_edge %}; lean {{ g.model.spread_edge.take }} by {{ g.model.spread_edge.abs }}{% endif %}"{% if g.model.spread_edge and g.model.spread_edge.flag and not (g.model.home.non_d1 or g.model.away.non_d1) %} style="background:color-mix(in srgb, var(--warn) 30%, transparent);border-radius:6px;padding:1px 5px;color:var(--ink)"{% endif %}>{{ "%+.1f"|format(g.model.model.spread) }}</a><small class="dim" style="display:block">{{ "%.1f"|format(g.model.model.total) }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
-        <td class="dim restcell">{% for side, tv in [(g.away, g.travel_away), (g.home, g.travel_home)] %}{% if tv %}<span title="{{ side.abbr }}: {{ tv.rest_days if tv.rest_days is not none else '–' }} days off, {{ tv.miles_in }} mi in{% if tv.tz_shift %}, {{ '%+d'|format(tv.tz_shift) }}h time zone{% endif %}">{{ side.abbr }} {{ tv.rest_days if tv.rest_days is not none else '–' }}d{% if tv.miles_in %} · {{ "{:,}".format(tv.miles_in) }}mi{% endif %}{% if tv.rest_days is not none and tv.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</span><br>{% endif %}{% endfor %}</td>
-        <td>{% if g.line %}<a class="oddslink" href="odds.html#ev{{ g.line.odds_event_id }}" title="Every book's price for this game">odds</a>{% endif %}</td>
-      </tr>
-      {% endfor %}
-    {% endfor %}
-    </table></div>
-    {% else %}<div class="empty">No games in the window.</div>{% endif %}
-  </section>
-
   <div class="grid two">
     <section>
       <h2>Recent results (7 days)</h2>
