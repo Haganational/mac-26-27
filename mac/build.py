@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, model, oddsboard, players, schedule_view, travel
+from . import analysis, model, news, oddsboard, players, schedule_view, travel
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -219,8 +219,10 @@ def follow_context() -> dict[str, Any]:
 
 def render_site() -> str:
     data = dashboard_data()
+    now = datetime.fromisoformat(data["generated_at"])
+    data["news"] = news.view(now, limit=30)
     try:
-        m = model.build_model(datetime.fromisoformat(data["generated_at"]), log=True)
+        m = model.build_model(now, log=True)
     except Exception as exc:  # noqa: BLE001 - the rest of the site must still publish
         print(f"model: skipped ({exc!r})")
         m = None
@@ -283,6 +285,11 @@ def render_site() -> str:
     data["odds_summary"] = {"games": len(odds_ctx["board"]), "books": len(odds_ctx["books"]), "edges": odds_ctx["edges"],
                             "budget": odds_ctx["budget"]}
 
+    # News ticker: the full feed, with team filter chips and feed health.
+    full_news = news.view(now, limit=400)
+    (SITE_DIR / "news.html").write_text(env.get_template("news.html").render(
+        d=data, n=full_news, host=news.host))
+
     # Follow-on-X checklist.
     (SITE_DIR / "follow.html").write_text(env.get_template("follow.html").render(d=data, **follow_context()))
 
@@ -318,6 +325,7 @@ def render_site() -> str:
             others=players.coverage_not_on_roster(team.key, profiles[team.key]),
             games=[schedule_view.decorate({**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))}) for tg in team_games(team.key, games, history, espn_lines)],
             itin=itins[team.key],
+            team_news=news.view(now, team.key, limit=12),
             rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
         )

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC News Ticker</title>
+<meta name="description" content="Recent MAC men's basketball headlines from athletics sites, the MAC, Google News and MAC Substacks, refreshed three times a day.">
+<link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> News
+    <span class="teamnav"><a href="odds.html">Odds screen</a><a href="tv.html">TV schedule</a><a href="travel.html">Travel map</a></span>
+  </nav>
+  <header>
+    <h1>News ticker</h1>
+    <span class="sub">{{ n.total }} men's basketball headlines from the last 45 days, newest first. Pulled from each school's athletics site, the MAC, Google News and MAC Substacks three times a day. {{ n.feeds_ok }} of {{ n.feeds }} feeds answered on the last run.</span>
+  </header>
+
+  <section>
+    <div class="chips" id="chips">
+      <button type="button" data-team="" class="on">All</button>
+      {% for t in d.teams %}<button type="button" data-team="{{ t.key }}">{{ t.abbr }}</button>{% endfor %}
+    </div>
+    {% if n.headlines %}
+    <ul class="newslist" id="news">
+      {% for i in n.headlines %}<li data-teams="{{ i.teams|join(' ') }}"><span class="age{{ ' fresh' if i.fresh }}" title="{{ i.published }}">{{ i.age }}</span> {% for t in i.teams[:3] %}<a class="pill" href="teams/{{ t }}.html">{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}</a> {% endfor %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a> <span class="dim">{{ i.source }}</span></li>
+      {% endfor %}
+    </ul>
+    <p class="dim" id="empty" hidden>No headlines for this team in the window.</p>
+    {% else %}<p class="dim">No headlines collected yet. The first data run after this page ships fills it in.</p>{% endif %}
+  </section>
+
+  <div class="grid two">
+    <section>
+      <h2>Reddit</h2>
+      <p class="sub" style="margin-top:0">Reddit stops serving RSS on November 13, 2026, stopped accepting new public API requests on October 31, and closes public API access in March 2027. So Reddit can't feed this ticker for free. These links open the subreddits directly.</p>
+      <ul class="newslist">
+        {% for r in n.reddit %}<li><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a> <span class="dim">{{ r.note }}</span></li>{% endfor %}
+        {% for t in d.teams %}<li><a href="https://www.reddit.com/r/CollegeBasketball/search/?q={{ (t.short if t.key != 'miami-oh' else 'Miami RedHawks')|urlencode }}&restrict_sr=1&sort=new" target="_blank" rel="noopener">{{ t.short }} on r/CollegeBasketball</a> <span class="dim">newest posts</span></li>{% endfor %}
+        <li><a href="https://www.reddit.com/r/UBreddit/" target="_blank" rel="noopener">r/UBreddit</a> <span class="dim">Buffalo campus sub, about 34k</span></li>
+        <li><a href="https://www.reddit.com/r/umass/" target="_blank" rel="noopener">r/umass</a> <span class="dim">UMass campus sub, about 29k</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Feed health</h2>
+      <div class="scroll"><table>
+        <tr><th>Feed</th><th>Team</th><th class="num">Kept</th><th>Status</th></tr>
+        {% for key, s in n.status %}
+        <tr><td><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.source if s.kind != 'google' else 'Google News' }}</a></td><td>{{ (d.teams|selectattr('key','equalto',s.team)|first).abbr if s.team else 'MAC' }}</td><td class="num">{{ s.kept if s.ok else '–' }}</td><td>{% if s.ok %}<span class="ok">ok</span>{% else %}<span class="bad" title="{{ s.error }}">failing</span>{% if s.last_ok %} <span class="dim">since {{ s.last_ok[:10] }}</span>{% endif %}{% endif %}</td></tr>
+        {% else %}<tr><td colspan="4" class="dim">No runs yet.</td></tr>{% endfor %}
+      </table></div>
+    </section>
+  </div>
+</main>
+<script>
+(function () {
+  const chips = document.querySelectorAll('#chips button'), rows = document.querySelectorAll('#news li'), empty = document.getElementById('empty');
+  function pick(team) {
+    chips.forEach(c => c.classList.toggle('on', c.dataset.team === team));
+    let shown = 0;
+    rows.forEach(r => { const on = !team || r.dataset.teams.split(' ').includes(team); r.hidden = !on; shown += on; });
+    if (empty) empty.hidden = shown > 0;
+  }
+  chips.forEach(c => c.addEventListener('click', () => { pick(c.dataset.team); history.replaceState(null, '', c.dataset.team ? '#' + c.dataset.team : location.pathname); }));
+  const h = location.hash.slice(1);
+  if (h && [...chips].some(c => c.dataset.team === h)) pick(h);
+})();
+</script>
+</body>
+</html>

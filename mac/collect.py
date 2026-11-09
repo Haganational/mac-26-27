@@ -5,6 +5,7 @@
   python -m mac.collect lines     # append a lines snapshot (needs ODDS_API_KEY)
   python -m mac.collect build-db   # write data/mac.sqlite
   python -m mac.collect site       # render the dashboard into site/
+  python -m mac.collect news     # refresh the news ticker feeds into data/news/
   python -m mac.collect venues     # geocode any new venue city into data/venues.json
   python -m mac.collect ncaa       # refresh every D-I result this season (+ box extras, closing lines)
   python -m mac.collect ncaa-backfill  # one-time: last two seasons, for the prior and the backtest
@@ -19,7 +20,7 @@ import sys
 
 from .config import SEASON
 
-from . import build, db, espn, ncaa, odds, rosters, travel
+from . import build, db, espn, ncaa, news, odds, rosters, travel
 
 
 def refresh_ncaa() -> dict:
@@ -45,6 +46,8 @@ def main(argv: list[str]) -> int:
         print("sqlite:", db.build())
     elif cmd == "site":
         print("site:", build.render_site())
+    elif cmd == "news":
+        print("news:", news.refresh())
     elif cmd == "venues":
         print("venues:", travel.geocode_missing(espn.load_schedule()["games"]))
     elif cmd == "ncaa":
@@ -81,6 +84,10 @@ def main(argv: list[str]) -> int:
         except odds.OddsApiError as exc:
             # Keep the schedule and site fresh even when the odds pull fails.
             print(f"lines: skipped ({exc})", file=sys.stderr)
+        try:
+            print("news:", news.refresh())
+        except Exception as exc:  # noqa: BLE001 - a feed outage must not block the site build
+            print(f"news: skipped ({exc})", file=sys.stderr)
         print("site:", build.render_site())
     else:
         print(__doc__)

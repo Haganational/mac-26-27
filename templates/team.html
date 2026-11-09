@@ -95,6 +95,16 @@
   </div>
   {% endif %}
 
+  <section id="news">
+    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Latest headlines</h2><a class="btnlink" href="../news.html#{{ team.key }}">All MAC news →</a></div>
+    {% if team_news.headlines %}
+    <ul class="newslist">
+      {% for i in team_news.headlines %}<li><span class="age{{ ' fresh' if i.fresh }}">{{ i.age }}</span> <a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a> <span class="dim">{{ i.source }}</span></li>{% endfor %}
+    </ul>
+    {% else %}<p class="dim">No headlines collected yet. The feed refreshes with each data run.</p>{% endif %}
+    <p class="sub" style="margin:10px 0 0">On Reddit: {% for r in team_news.reddit %}<a href="{{ r.url }}" target="_blank" rel="noopener" title="{{ r.note }}">{{ r.label }}</a>{{ ', ' if not loop.last }}{% endfor %}. Reddit is closing its free feeds, so these are links, not part of the ticker.</p>
+  </section>
+
   {% if ctx.previews %}
   <section>
     <h2>Preseason previews</h2>
