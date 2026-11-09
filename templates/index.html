@@ -62,6 +62,25 @@
     </div>
   </section>
 
+{% set icons = {
+  'mac90.html': '<path d="M7 3h6v8a3 3 0 0 1-6 0zM4 10a6 6 0 0 0 12 0M10 16v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  'tv.html': '<path d="M3 5h14v9H3zM7 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+  'odds.html': '<path d="M3 15l4-5 3 3 6-8M12 5h4v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  'ratings.html': '<path d="M4 16V9M10 16V4M16 16v-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
+  'players.html': '<circle cx="10" cy="6.5" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 17c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  'news.html': '<path d="M4 4h10v12H4zM14 8h2v8h-2M7 8h4M7 11h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+  'notes.html': '<path d="M5 3h7l3 3v11H5zM12 3v3h3M8 10h5M8 13h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>',
+  'book.html': '<path d="M2 15h16M2 11h7M11 11h7M2 7h16M6 7v4M14 7v4M5 11v4M10 11v4M15 11v4M4 3h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  'viz.html': '<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 5.5V10l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
+} %}
+  <section id="explore">
+    <h2>Explore</h2>
+    <nav class="findit compact" aria-label="Every page">
+      {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
+    </nav>
+  </section>
+
   <div class="grid two">
     <section id="results">
       <div class="sechead"><h2>Recent results</h2><span class="dim">Last 7 days · MAC team in bold</span></div>
@@ -274,25 +293,6 @@
     </div>
   </section>
   {% endif %}
-
-{% set icons = {
-  'mac90.html': '<path d="M7 3h6v8a3 3 0 0 1-6 0zM4 10a6 6 0 0 0 12 0M10 16v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
-  'tv.html': '<path d="M3 5h14v9H3zM7 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
-  'odds.html': '<path d="M3 15l4-5 3 3 6-8M12 5h4v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
-  'ratings.html': '<path d="M4 16V9M10 16V4M16 16v-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
-  'players.html': '<circle cx="10" cy="6.5" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 17c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
-  'news.html': '<path d="M4 4h10v12H4zM14 8h2v8h-2M7 8h4M7 11h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
-  'notes.html': '<path d="M5 3h7l3 3v11H5zM12 3v3h3M8 10h5M8 13h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>',
-  'book.html': '<path d="M2 15h16M2 11h7M11 11h7M2 7h16M6 7v4M14 7v4M5 11v4M10 11v4M15 11v4M4 3h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
-  'viz.html': '<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 5.5V10l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
-  'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
-} %}
-  <section id="explore">
-    <h2>Explore</h2>
-    <nav class="findit compact" aria-label="Every page">
-      {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
-    </nav>
-  </section>
 
   <div class="support">
     {{ L.ad_banner(house_ad) }}
