@@ -5,7 +5,7 @@
 Runs in its own virtualenv (torch and Chatterbox pin versions the site doesn't use),
 so it takes a JSON list of {"text", "out"} and writes one WAV per item, loading the
 model once. The reference clip must be over 5 seconds; 10 to 20 seconds of clean,
-dry speech works best. Chatterbox adds an inaudible Perth watermark to everything
+dry speech works best. Chatterbox normally adds an inaudible Perth watermark to everything
 it makes, which marks the audio as AI-generated.
 """
 import argparse
@@ -13,9 +13,20 @@ import json
 import sys
 import time
 
+import perth
 import torch
 import torchaudio
-from chatterbox.tts_turbo import ChatterboxTurboTTS
+
+if perth.PerthImplicitWatermarker is None:  # its native part failed to import; keep going without the watermark
+    print("Perth watermarker unavailable; using the no-op watermarker", file=sys.stderr)
+
+    class _NoWatermark:
+        def apply_watermark(self, wav, sample_rate=None, **_):
+            return wav
+
+    perth.PerthImplicitWatermarker = getattr(perth, "DummyWatermarker", None) or _NoWatermark
+
+from chatterbox.tts_turbo import ChatterboxTurboTTS  # noqa: E402
 
 
 def main() -> None:

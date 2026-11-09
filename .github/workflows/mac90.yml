@@ -72,7 +72,8 @@ jobs:
         if: steps.ref.outputs.clone == 'yes'
         run: |
           python -m venv /tmp/cbenv
-          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts
+          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts "setuptools<81"
+          /tmp/cbenv/bin/python -c "import perth; print('watermarker:', perth.PerthImplicitWatermarker)"
           echo "VOICE_CLONE_PY=/tmp/cbenv/bin/python" >> "$GITHUB_ENV"
           echo "VOICE_REF=/tmp/ref.wav" >> "$GITHUB_ENV"
       - name: Build the script (render only, no API calls)
