@@ -55,13 +55,22 @@
 </div>
 {%- endmacro %}
 
+{% macro best_play(bp, root="") -%}
+{% if bp %}<a class="bestplay" href="{{ root }}odds.html#ev{{ bp.odds_event_id }}">
+  <span class="bp-k">Best number today</span>
+  <span class="bp-pick"><b>{{ bp.pick }}</b> <span class="bp-px">{{ '+' if bp.price > 0 }}{{ bp.price }}</span></span>
+  <span class="bp-meta">{{ bp.matchup }} · {{ bp.books[:2]|join(', ') }}{% if bp.books|length > 2 %} +{{ bp.books|length - 2 }}{% endif %} · model {{ ('%+g' if bp.kind == 'spread' else '%g')|format(bp.model) }}, <b>{{ bp.edge }} pts</b> of daylight</span>
+  <span class="bp-fine">Model vs best price, not a guarantee. 21+.</span>
+</a>{% endif %}
+{%- endmacro %}
+
 {% macro footer(root="", updated="") -%}
 <footer class="sitefoot">
   <div class="sf-in">
     <div class="sf-about">
       <a class="brand" href="{{ root }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
       <p>{{ site_name }} covers every MAC men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Refreshes three times a day.</p>
-      <p class="dim">Data: ESPN, The Odds API, school athletics sites, the MAC and Google News. Not affiliated with the MAC or any school.</p>
+      <p class="dim">Data: ESPN, The Odds API, school athletics sites, the MAC and Google News. Not affiliated with the MAC or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · MAC Men's Basketball {{ season }}">Share this site</button>
     </div>
     <nav aria-label="Pages"><h4>Pages</h4>{% for p in nav_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}</nav>

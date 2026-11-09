@@ -155,3 +155,21 @@ def test_stale_exchange_quote_is_not_best():
     assert nov["cells"]["home_spread"]["suspect"] and nov["cells"]["over"]["suspect"]
     assert not next(r for r in ev["rows"] if r["book"] == "draftkings")["cells"]["home_spread"]["suspect"]
     assert ev["consensus"]["median_total"] == 157.0
+
+
+def test_best_play_picks_biggest_edge_in_window():
+    now = datetime(2026, 12, 5, 0, 0, tzinfo=timezone.utc)
+    def ev(eid, tip, sp_edge=None, tot_edge=None, rough=False):
+        m = {"rough": rough, "spread": -5.0, "spread_side": "home", "total": 150.0, "total_side": "over"}
+        if sp_edge is not None:
+            m["spread_best"] = {"point": -3.5, "price": -110, "books": ["draftkings"], "edge": sp_edge}
+        if tot_edge is not None:
+            m["total_best"] = {"point": 147.5, "price": -105, "books": ["fanduel", "betmgm"], "edge": tot_edge}
+        return {"odds_event_id": eid, "commence_time": tip, "model": m,
+                "away": {"abbr": "AKR"}, "home": {"abbr": "TOL"}}
+    board = [ev("a", "2026-12-05T19:00:00Z", sp_edge=1.5, tot_edge=2.5),
+             ev("b", "2026-12-08T19:00:00Z", sp_edge=6.0),            # outside 30h
+             ev("c", "2026-12-05T20:00:00Z", sp_edge=4.0, rough=True)]  # non-D-I
+    bp = oddsboard.best_play(board, now)
+    assert bp["odds_event_id"] == "a" and bp["kind"] == "total" and bp["pick"] == "Over 147.5" and bp["edge"] == 2.5
+    assert oddsboard.best_play([ev("a", "2026-12-05T19:00:00Z", sp_edge=1.0)], now) is None

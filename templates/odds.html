@@ -27,6 +27,7 @@
 {% set BOOK_COLOR = {'draftkings': '#53a318', 'fanduel': '#1493ff', 'betmgm': '#b8975a', 'williamhill_us': '#c9a14a', 'betrivers': '#1d4f91', 'espnbet': '#e2252c', 'hardrockbet': '#7b3fe4', 'bovada': '#c8102e', 'betonlineag': '#f2a900', 'novig': '#6d5dfc', 'pinnacle': '#f37021', 'lowvig': '#14a89a', 'fanatics': '#0b4ea2', 'betus': '#0f7a3c', 'mybookieag': '#e8641b'} %}
 {% macro holdc(h) %}{% if h is none %}<span class="dim">–</span>{% else %}{% set v = h * 100 %}<span class="hv {{ 'lo' if v <= 3.5 else ('hi' if v >= 5.5 else 'mid') }}">{{ '%.1f'|format(v) }}%</span>{% endif %}{% endmacro %}
 
+  {{ L.best_play(o.best_play) }}
   {% set b = o.budget %}
   <div class="tiles">
     <div class="tile"><div class="v">{{ o.board|length }}</div><div class="k">MAC games on the board</div></div>

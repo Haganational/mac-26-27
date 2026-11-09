@@ -1,0 +1,69 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}About {{ site_name }}{% endset %}{% set page_desc %}{{ site_name }} is an independent outlet covering MAC men's basketball: who we are, what we cover, how often, and our editorial standards.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="about.html") }}
+</head>
+<body>
+{{ L.topbar(root="", active="about.html") }}
+<main id="main" class="masthead">
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> About</nav>
+  <header>
+    <h1>About {{ site_name }}</h1>
+    <span class="sub">An independent outlet covering every MAC men's basketball team, every game, all season.</span>
+  </header>
+
+  <section>
+    <h2>Masthead</h2>
+    <dl class="mh">
+      <dt>{{ mh.editor_title }}</dt><dd><b>{{ mh.editor }}</b></dd>
+      {% if mh.email %}<dt>Contact</dt><dd><a href="mailto:{{ mh.email }}">{{ mh.email }}</a></dd>{% endif %}
+      {% if mh.x_handle %}<dt>X</dt><dd><a href="https://x.com/{{ mh.x_handle }}" rel="noopener">@{{ mh.x_handle }}</a></dd>{% endif %}
+      {% if mh.newsletter_url %}<dt>Newsletter</dt><dd><a href="{{ mh.newsletter_url }}">Subscribe</a></dd>{% endif %}
+      {% if mh.podcast_url %}<dt>Podcast</dt><dd><a href="{{ mh.podcast_url }}">Listen</a></dd>{% endif %}
+      <dt>Founded</dt><dd>2026-27 season</dd>
+      {% if mh.based %}<dt>Based</dt><dd>{{ mh.based }}</dd>{% endif %}
+    </dl>
+  </section>
+
+  <section>
+    <h2>What we cover</h2>
+    <ul>
+      <li><b>All 12 MAC teams</b>, from the first exhibition through the MAC tournament in Cleveland.</li>
+      <li><b><a href="notes.html">Fieldhouse Notes</a></b>: game dispatches from the editor. Each is filed by how it was reported: in the arena, from the broadcast, from print and wire reports, or by phone.</li>
+      <li><b><a href="tv.html">Schedule &amp; TV</a></b>, <a href="ratings.html">team ratings</a> and <a href="players.html">player ratings</a> built from every Division I box score.</li>
+      <li><b><a href="news.html">News</a></b> gathered from every school, the conference and the wider press, always linking to and crediting the original reporting.</li>
+      <li><b><a href="travel.html">Travel</a></b>: miles, rest and time zones for every team.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How often</h2>
+    <ul>
+      <li>The site refreshes three times a day, every day of the season.</li>
+      <li>Fieldhouse Notes dispatches on game nights.</li>
+      <li>A weekly podcast and newsletter{% if not (mh.podcast_url and mh.newsletter_url) %} (launching this season){% endif %}.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Editorial standards</h2>
+    <ul>
+      <li><b>Independent.</b> {{ site_name }} is not affiliated with the Mid-American Conference, any member school, or any sportsbook.</li>
+      <li><b>Credit.</b> We link to and name the outlet behind any reporting we cite, and never republish another outlet's work.</li>
+      <li><b>Labeled sourcing.</b> Every dispatch says how it was reported. An "arena" dispatch means the editor was in the building.</li>
+      <li><b>Corrections.</b> Errors are corrected on the page with a note saying what changed. Send corrections to the contact above.</li>
+      <li><b>Sponsorship.</b> Any sponsored placement is labeled as sponsored. Sponsors do not see or shape coverage.</li>
+      <li><b>Betting analysis</b> is kept separate from news coverage, is for adults 21 and over, and never promises results. If you or someone you know has a gambling problem, call 1-800-GAMBLER.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Media and credential requests</h2>
+    <p>Sports information directors and media relations staff can reach the editor {% if mh.email %}at <a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% elif mh.x_handle %}through <a href="https://x.com/{{ mh.x_handle }}" rel="noopener">@{{ mh.x_handle }}</a>{% else %}through the contact listed here once it is posted{% endif %}. Samples of in-person coverage are on <a href="notes.html">Fieldhouse Notes</a>.</p>
+  </section>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+</body>
+</html>

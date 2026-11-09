@@ -476,3 +476,18 @@ html.author div.author-only, html.author section.author-only { display: block !i
 .tk-item.mine b { color: var(--fh); }
 .newslist li.mine, #feed li.mine, li.mine { background: color-mix(in srgb, var(--fh) 9%, transparent); border-left: 3px solid var(--fh); padding-left: 8px; }
 li.mine a { font-weight: 600; }
+
+/* Best number today: the one featured play, model vs best price */
+a.bestplay { display: grid; grid-template-columns: auto 1fr; gap: 2px 14px; align-items: baseline; margin: 0 0 16px; padding: 12px 16px; border-radius: 14px; text-decoration: none; color: var(--ink);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--good) 16%, var(--surface)), var(--surface)); border: 1px solid color-mix(in srgb, var(--good) 40%, transparent); box-shadow: inset 5px 0 0 var(--good); }
+a.bestplay:hover { text-decoration: none; border-color: var(--good); }
+.bestplay .bp-k { grid-column: 1 / -1; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--good); }
+.bestplay .bp-pick { font-size: 22px; font-variant-numeric: tabular-nums; }
+.bestplay .bp-px { font-size: 15px; color: var(--ink-2); }
+.bestplay .bp-meta { font-size: 13px; color: var(--ink-2); }
+.bestplay .bp-fine { grid-column: 1 / -1; font-size: 11px; color: var(--muted); }
+@media (max-width: 640px) { a.bestplay { grid-template-columns: 1fr; } }
+.masthead dl.mh { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0; }
+.masthead dl.mh dt { color: var(--muted); font-size: 13px; }
+.masthead dl.mh dd { margin: 0; }
+.masthead ul { padding-left: 20px; line-height: 1.6; }

@@ -323,6 +323,7 @@ def render_site() -> str:
         d=data, o=odds_ctx, fmt_spread=fmt_spread, book_name=oddsboard.book_name))
     data["odds_summary"] = {"games": len(odds_ctx["board"]), "books": len(odds_ctx["books"]), "edges": odds_ctx["edges"],
                             "budget": odds_ctx["budget"]}
+    data["best_play"] = odds_ctx["best_play"]
 
     # News ticker: the full feed, with team filter chips and feed health.
     full_news = notes.merge_feed(news.view(now, limit=400), dispatches, now)
@@ -331,6 +332,11 @@ def render_site() -> str:
 
     # Follow-on-X checklist.
     (SITE_DIR / "follow.html").write_text(env.get_template("follow.html").render(d=data, **follow_context()))
+
+    # About / masthead: who we are, coverage, cadence, standards (for readers and press offices).
+    mh_path = DATA_DIR / "masthead.json"
+    masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
+    (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
