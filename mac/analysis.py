@@ -219,14 +219,14 @@ def posting_stats(history: dict[str, dict[str, Any]]) -> dict[str, Any]:
         "events": len(history),
         "median_lead_hours": round(median(leads), 1) if leads else None,
         "median_abs_spread_move": round(median(moves), 2) if moves else None,
-        "note": "Lines are checked every 15 minutes, so a posting time here is accurate to within 15 minutes of when the book put it up.",
+        "note": "Lines are checked every 30 minutes, so a posting time here is accurate to within 30 minutes of when the book put it up.",
     }
 
 
 def book_posting(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Per book: how many games we saw it price, how far before tip we first saw its spread, and how often it was first.
 
-    Precision is one snapshot interval (15 minutes), so ties within a snapshot all count as first."""
+    Precision is one snapshot interval (30 minutes), so ties within a snapshot all count as first."""
     first: dict[tuple[str, str], str] = {}
     tip: dict[str, str] = {}
     for r in rows:

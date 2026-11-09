@@ -2,9 +2,9 @@ name: Collect lines and publish dashboard
 
 on:
   schedule:
-    # A line snapshot every 15 minutes, to pin down when each book posts.
+    # A line snapshot every 30 minutes, to pin down when each book posts.
     # The :00 runs at 12, 18 and 23 UTC (~7am, 1pm, 6pm ET) also refresh schedule, results, ratings and news.
-    - cron: "*/15 * * * *"
+    - cron: "0,30 * * * *"
   workflow_dispatch:
   # A new or edited Fieldhouse Notes dispatch republishes the site right away.
   # That run only re-renders (no ESPN or odds calls), so it costs no API quota.

@@ -12,7 +12,7 @@
   </nav>
   <header>
     <h1>Odds screen</h1>
-    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">★ Green</b> is the best price on that side. A <s class="dim">struck-out</s> price looks stale or in-play and is left out of best price and the market number. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run every 15 minutes, so check the book before you bet.</span>
+    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">★ Green</b> is the best price on that side. A <s class="dim">struck-out</s> price looks stale or in-play and is left out of best price and the market number. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run every 30 minutes, so check the book before you bet.</span>
   </header>
 
 {% macro bks(l) %}{{ l[:2]|map('book')|join(', ') }}{% if l|length > 2 %} +{{ l|length - 2 }}{% endif %}{% endmacro %}
@@ -176,7 +176,7 @@
     <div class="note">All MAC games we have snapshots for. Best price counts ties, so a book matching the top number gets credit.</div>
     {% else %}<div class="empty">No books yet.</div>{% endif %}
     <h2 style="margin-top:18px">API budget</h2>
-    <p class="sub" style="margin:0">{{ b.month }}: {{ b.used if b.from_api else '~' ~ b.estimated_used }} of {{ b.limit }} requests used{% if b.remaining is not none %}, {{ b.remaining }} left{% endif %}. At a snapshot every 15 minutes the month ends near {{ b.projected_month_end }}, leaving {{ b.headroom }} spare for manual runs. Each run asks for 10 named books × 3 markets = 3 requests.{% if not b.from_api %} Exact counts start with the next collector run.{% endif %}</p>
+    <p class="sub" style="margin:0">{{ b.month }}: {{ b.used if b.from_api else '~' ~ b.estimated_used }} of {{ b.limit }} requests used{% if b.remaining is not none %}, {{ b.remaining }} left{% endif %}. At a snapshot every 30 minutes the month ends near {{ b.projected_month_end }}, leaving {{ b.headroom }} spare for manual runs. Each run asks for 10 named books × 3 markets = 3 requests.{% if not b.from_api %} Exact counts start with the next collector run.{% endif %}</p>
   </section>
   </div>
 </main>
