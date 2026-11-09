@@ -569,3 +569,14 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .hb-gate-ask a { font-weight: 700; }
 .hb-gate-fine { font-size: 12px; line-height: 1.45; text-align: left; color: var(--muted) !important; }
 .bestplay .bp-lock { color: var(--muted); }
+
+/* Tip jar (site_chrome.TIP) */
+.tipjar { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px 16px; margin: 0 0 22px; padding: 14px 18px; border-radius: 14px;
+  background: linear-gradient(180deg, #f6e7c8, #ecd3a2); color: #3b2414; border: 1px solid rgba(59,36,20,.18); }
+.tipjar .tj-cup { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: #3b2414; color: #f6e7c8; }
+.tipjar .tj-copy b { display: block; font-size: 16px; }
+.tipjar .tj-copy small { display: block; font-size: 13px; color: #5a3a22; }
+.tipjar .tj-btn { white-space: nowrap; font-weight: 700; font-size: 14px; padding: 9px 16px; border-radius: 999px; background: #008cff; color: #fff; text-decoration: none; }
+.tipjar .tj-btn:hover { background: #0074d4; }
+@media (max-width: 640px) { .tipjar { grid-template-columns: auto 1fr; } .tipjar .tj-btn { grid-column: 1 / -1; text-align: center; } }
+.sitefoot .sf-tip { display: inline-block; margin-right: 8px; text-decoration: none; }

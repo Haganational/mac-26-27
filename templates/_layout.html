@@ -105,6 +105,14 @@
 </aside>{% endif %}
 {%- endmacro %}
 
+{% macro tip_jar(tip) -%}
+{% if tip %}<aside class="tipjar" aria-label="Tip jar">
+  <span class="tj-cup" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M4 8h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8zm12 1h1.5a2.5 2.5 0 0 1 0 5H16" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 3c0 1.2 1 1.2 1 2.4M12 3c0 1.2 1 1.2 1 2.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+  <span class="tj-copy"><b>Buy us a coffee</b><small>{{ tip.line }}</small></span>
+  <a class="tj-btn" href="{{ tip.url }}" target="_blank" rel="noopener">Tip on Venmo · @{{ tip.venmo }}</a>
+</aside>{% endif %}
+{%- endmacro %}
+
 {% macro footer(root="", updated="") -%}
 <footer class="sitefoot">
   <div class="sf-in">
@@ -112,6 +120,7 @@
       <a class="brand" href="{{ root }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
       <p>{{ site_name }} covers every MAC men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Lines refresh every 30 minutes.</p>
       <p class="dim">Data: ESPN, The Odds API, school athletics sites, the MAC and Google News. Not affiliated with the MAC or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
+      {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · MAC Men's Basketball {{ season }}">Share this site</button>
     </div>
     <nav aria-label="Pages"><h4>Pages</h4>{% for p in nav_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}</nav>

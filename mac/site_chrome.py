@@ -23,6 +23,8 @@ YOUTUBE_CHANNEL = "juiceboxtv-m1g"  # where MAC90 videos post (youtube.com/@juic
 YOUTUBE_CHANNEL_ID = "UCUcO9nplyQZQWtZce69Y6Bw"  # its Shorts playlist is "UUSH" + this id minus "UC"
 TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the YouTube Shorts player
 # House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
+TIP = {"venmo": "hardwoodbricks", "url": "https://venmo.com/u/hardwoodbricks",
+       "line": "Hardwood Bricks is free and independent. Tips cover the data feeds, gas and arena trips."}
 AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Fresh takes, live streams and the JuiceBox crew.", "cta": "Visit juiceboxnation.com"}
 BRAND = "#123d2e"  # deep green for the top bar and share cards
 GOLD = "#f0c75e"
