@@ -1,0 +1,1169 @@
+{
+ "season": 2026,
+ "params": {
+  "half_life": 90.0,
+  "cap": 45.0,
+  "cap_slope": 0.7,
+  "prior_games": 2.0,
+  "regress": 0.2,
+  "tempo_prior_games": 3.0,
+  "tempo_regress": 0.25,
+  "sigma_margin": 12.0,
+  "sigma_total": 17.0,
+  "min_weight": 0.05,
+  "non_d1_weight": 0.5,
+  "hca_prior_games": 3000.0
+ },
+ "residual_sd_margin": 12.73,
+ "residual_sd_total": 17.64,
+ "bias_margin": -0.39,
+ "bias_total": -0.14,
+ "all": {
+  "games": 6297,
+  "margin_mae": 9.87,
+  "total_mae": 13.99,
+  "winner_pct": 0.74,
+  "lined_games": 4766,
+  "model_margin_mae_lined": 9.11,
+  "market_margin_mae": 8.86,
+  "spread_gap_mae": 2.04,
+  "model_total_mae_lined": 13.68,
+  "market_total_mae": 13.34,
+  "total_gap_mae": 2.91,
+  "ats_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 838,
+    "l": 796,
+    "push": 0,
+    "pct": 0.513
+   },
+   {
+    "edge": "1-2",
+    "w": 644,
+    "l": 642,
+    "push": 0,
+    "pct": 0.501
+   },
+   {
+    "edge": "2-3",
+    "w": 403,
+    "l": 442,
+    "push": 0,
+    "pct": 0.477
+   },
+   {
+    "edge": "3-4",
+    "w": 251,
+    "l": 221,
+    "push": 0,
+    "pct": 0.532
+   },
+   {
+    "edge": "4-5",
+    "w": 114,
+    "l": 123,
+    "push": 0,
+    "pct": 0.481
+   },
+   {
+    "edge": "5-7",
+    "w": 101,
+    "l": 84,
+    "push": 0,
+    "pct": 0.546
+   },
+   {
+    "edge": "7+",
+    "w": 55,
+    "l": 52,
+    "push": 0,
+    "pct": 0.514
+   }
+  ],
+  "ou_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 536,
+    "l": 549,
+    "push": 0,
+    "pct": 0.494
+   },
+   {
+    "edge": "1-2",
+    "w": 485,
+    "l": 459,
+    "push": 0,
+    "pct": 0.514
+   },
+   {
+    "edge": "2-3",
+    "w": 416,
+    "l": 439,
+    "push": 0,
+    "pct": 0.487
+   },
+   {
+    "edge": "3-4",
+    "w": 315,
+    "l": 314,
+    "push": 0,
+    "pct": 0.501
+   },
+   {
+    "edge": "4-5",
+    "w": 251,
+    "l": 245,
+    "push": 0,
+    "pct": 0.506
+   },
+   {
+    "edge": "5-7",
+    "w": 239,
+    "l": 249,
+    "push": 0,
+    "pct": 0.49
+   },
+   {
+    "edge": "7+",
+    "w": 147,
+    "l": 146,
+    "push": 0,
+    "pct": 0.502
+   }
+  ],
+  "ats_edge_3plus": {
+   "w": 521,
+   "l": 480,
+   "push": 0,
+   "pct": 0.52
+  },
+  "ou_edge_3plus": {
+   "w": 952,
+   "l": 954,
+   "push": 0,
+   "pct": 0.499
+  }
+ },
+ "mac": {
+  "games": 284,
+  "margin_mae": 9.43,
+  "total_mae": 14.64,
+  "winner_pct": 0.775,
+  "lined_games": 192,
+  "model_margin_mae_lined": 8.92,
+  "market_margin_mae": 8.72,
+  "spread_gap_mae": 2.39,
+  "model_total_mae_lined": 14.45,
+  "market_total_mae": 14.28,
+  "total_gap_mae": 3.34,
+  "ats_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 27,
+    "l": 17,
+    "push": 0,
+    "pct": 0.614
+   },
+   {
+    "edge": "1-2",
+    "w": 22,
+    "l": 30,
+    "push": 0,
+    "pct": 0.423
+   },
+   {
+    "edge": "2-3",
+    "w": 22,
+    "l": 19,
+    "push": 0,
+    "pct": 0.537
+   },
+   {
+    "edge": "3-4",
+    "w": 9,
+    "l": 15,
+    "push": 0,
+    "pct": 0.375
+   },
+   {
+    "edge": "4-5",
+    "w": 9,
+    "l": 8,
+    "push": 0,
+    "pct": 0.529
+   },
+   {
+    "edge": "5-7",
+    "w": 8,
+    "l": 4,
+    "push": 0,
+    "pct": 0.667
+   },
+   {
+    "edge": "7+",
+    "w": 1,
+    "l": 1,
+    "push": 0,
+    "pct": 0.5
+   }
+  ],
+  "ou_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 18,
+    "l": 20,
+    "push": 0,
+    "pct": 0.474
+   },
+   {
+    "edge": "1-2",
+    "w": 15,
+    "l": 16,
+    "push": 0,
+    "pct": 0.484
+   },
+   {
+    "edge": "2-3",
+    "w": 18,
+    "l": 22,
+    "push": 0,
+    "pct": 0.45
+   },
+   {
+    "edge": "3-4",
+    "w": 14,
+    "l": 10,
+    "push": 0,
+    "pct": 0.583
+   },
+   {
+    "edge": "4-5",
+    "w": 13,
+    "l": 11,
+    "push": 0,
+    "pct": 0.542
+   },
+   {
+    "edge": "5-7",
+    "w": 10,
+    "l": 4,
+    "push": 0,
+    "pct": 0.714
+   },
+   {
+    "edge": "7+",
+    "w": 11,
+    "l": 13,
+    "push": 0,
+    "pct": 0.458
+   }
+  ],
+  "ats_edge_3plus": {
+   "w": 27,
+   "l": 28,
+   "push": 0,
+   "pct": 0.491
+  },
+  "ou_edge_3plus": {
+   "w": 48,
+   "l": 38,
+   "push": 0,
+   "pct": 0.558
+  }
+ },
+ "mac_conf": {
+  "games": 106,
+  "margin_mae": 7.94,
+  "total_mae": 15.46,
+  "winner_pct": 0.764,
+  "lined_games": 106,
+  "model_margin_mae_lined": 7.94,
+  "market_margin_mae": 7.99,
+  "spread_gap_mae": 2.28,
+  "model_total_mae_lined": 15.46,
+  "market_total_mae": 14.96,
+  "total_gap_mae": 3.02,
+  "ats_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 18,
+    "l": 6,
+    "push": 0,
+    "pct": 0.75
+   },
+   {
+    "edge": "1-2",
+    "w": 14,
+    "l": 14,
+    "push": 0,
+    "pct": 0.5
+   },
+   {
+    "edge": "2-3",
+    "w": 16,
+    "l": 12,
+    "push": 0,
+    "pct": 0.571
+   },
+   {
+    "edge": "3-4",
+    "w": 3,
+    "l": 7,
+    "push": 0,
+    "pct": 0.3
+   },
+   {
+    "edge": "4-5",
+    "w": 7,
+    "l": 4,
+    "push": 0,
+    "pct": 0.636
+   },
+   {
+    "edge": "5-7",
+    "w": 5,
+    "l": 0,
+    "push": 0,
+    "pct": 1.0
+   },
+   {
+    "edge": "7+",
+    "w": 0,
+    "l": 0,
+    "push": 0,
+    "pct": null
+   }
+  ],
+  "ou_by_edge": [
+   {
+    "edge": "0-1",
+    "w": 10,
+    "l": 12,
+    "push": 0,
+    "pct": 0.455
+   },
+   {
+    "edge": "1-2",
+    "w": 9,
+    "l": 11,
+    "push": 0,
+    "pct": 0.45
+   },
+   {
+    "edge": "2-3",
+    "w": 8,
+    "l": 11,
+    "push": 0,
+    "pct": 0.421
+   },
+   {
+    "edge": "3-4",
+    "w": 8,
+    "l": 7,
+    "push": 0,
+    "pct": 0.533
+   },
+   {
+    "edge": "4-5",
+    "w": 5,
+    "l": 7,
+    "push": 0,
+    "pct": 0.417
+   },
+   {
+    "edge": "5-7",
+    "w": 6,
+    "l": 2,
+    "push": 0,
+    "pct": 0.75
+   },
+   {
+    "edge": "7+",
+    "w": 3,
+    "l": 7,
+    "push": 0,
+    "pct": 0.3
+   }
+  ],
+  "ats_edge_3plus": {
+   "w": 15,
+   "l": 11,
+   "push": 0,
+   "pct": 0.577
+  },
+  "ou_edge_3plus": {
+   "w": 22,
+   "l": 23,
+   "push": 0,
+   "pct": 0.489
+  }
+ },
+ "by_phase": {
+  "nov": {
+   "games": 1569,
+   "margin_mae": 11.6,
+   "total_mae": 14.82,
+   "winner_pct": 0.828,
+   "lined_games": 263,
+   "model_margin_mae_lined": 9.79,
+   "market_margin_mae": 9.77,
+   "spread_gap_mae": 3.07,
+   "model_total_mae_lined": 14.26,
+   "market_total_mae": 13.54,
+   "total_gap_mae": 4.1,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 25,
+     "l": 30,
+     "push": 0,
+     "pct": 0.455
+    },
+    {
+     "edge": "1-2",
+     "w": 25,
+     "l": 23,
+     "push": 0,
+     "pct": 0.521
+    },
+    {
+     "edge": "2-3",
+     "w": 28,
+     "l": 24,
+     "push": 0,
+     "pct": 0.538
+    },
+    {
+     "edge": "3-4",
+     "w": 24,
+     "l": 9,
+     "push": 0,
+     "pct": 0.727
+    },
+    {
+     "edge": "4-5",
+     "w": 14,
+     "l": 10,
+     "push": 0,
+     "pct": 0.583
+    },
+    {
+     "edge": "5-7",
+     "w": 20,
+     "l": 13,
+     "push": 0,
+     "pct": 0.606
+    },
+    {
+     "edge": "7+",
+     "w": 11,
+     "l": 7,
+     "push": 0,
+     "pct": 0.611
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 18,
+     "l": 21,
+     "push": 0,
+     "pct": 0.462
+    },
+    {
+     "edge": "1-2",
+     "w": 31,
+     "l": 18,
+     "push": 0,
+     "pct": 0.633
+    },
+    {
+     "edge": "2-3",
+     "w": 25,
+     "l": 18,
+     "push": 0,
+     "pct": 0.581
+    },
+    {
+     "edge": "3-4",
+     "w": 18,
+     "l": 14,
+     "push": 0,
+     "pct": 0.562
+    },
+    {
+     "edge": "4-5",
+     "w": 17,
+     "l": 16,
+     "push": 0,
+     "pct": 0.515
+    },
+    {
+     "edge": "5-7",
+     "w": 19,
+     "l": 25,
+     "push": 0,
+     "pct": 0.432
+    },
+    {
+     "edge": "7+",
+     "w": 23,
+     "l": 23,
+     "push": 0,
+     "pct": 0.5
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 69,
+    "l": 39,
+    "push": 0,
+    "pct": 0.639
+   },
+   "ou_edge_3plus": {
+    "w": 77,
+    "l": 78,
+    "push": 0,
+    "pct": 0.497
+   }
+  },
+  "dec": {
+   "games": 1172,
+   "margin_mae": 10.29,
+   "total_mae": 13.9,
+   "winner_pct": 0.795,
+   "lined_games": 958,
+   "model_margin_mae_lined": 9.56,
+   "market_margin_mae": 8.99,
+   "spread_gap_mae": 3.0,
+   "model_total_mae_lined": 13.61,
+   "market_total_mae": 13.18,
+   "total_gap_mae": 3.55,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 106,
+     "l": 105,
+     "push": 0,
+     "pct": 0.502
+    },
+    {
+     "edge": "1-2",
+     "w": 91,
+     "l": 98,
+     "push": 0,
+     "pct": 0.481
+    },
+    {
+     "edge": "2-3",
+     "w": 67,
+     "l": 97,
+     "push": 0,
+     "pct": 0.409
+    },
+    {
+     "edge": "3-4",
+     "w": 61,
+     "l": 67,
+     "push": 0,
+     "pct": 0.477
+    },
+    {
+     "edge": "4-5",
+     "w": 48,
+     "l": 56,
+     "push": 0,
+     "pct": 0.462
+    },
+    {
+     "edge": "5-7",
+     "w": 46,
+     "l": 50,
+     "push": 0,
+     "pct": 0.479
+    },
+    {
+     "edge": "7+",
+     "w": 33,
+     "l": 33,
+     "push": 0,
+     "pct": 0.5
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 95,
+     "l": 82,
+     "push": 0,
+     "pct": 0.537
+    },
+    {
+     "edge": "1-2",
+     "w": 81,
+     "l": 90,
+     "push": 0,
+     "pct": 0.474
+    },
+    {
+     "edge": "2-3",
+     "w": 82,
+     "l": 71,
+     "push": 0,
+     "pct": 0.536
+    },
+    {
+     "edge": "3-4",
+     "w": 63,
+     "l": 55,
+     "push": 0,
+     "pct": 0.534
+    },
+    {
+     "edge": "4-5",
+     "w": 48,
+     "l": 43,
+     "push": 0,
+     "pct": 0.527
+    },
+    {
+     "edge": "5-7",
+     "w": 65,
+     "l": 70,
+     "push": 0,
+     "pct": 0.481
+    },
+    {
+     "edge": "7+",
+     "w": 53,
+     "l": 61,
+     "push": 0,
+     "pct": 0.465
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 188,
+    "l": 206,
+    "push": 0,
+    "pct": 0.477
+   },
+   "ou_edge_3plus": {
+    "w": 229,
+    "l": 229,
+    "push": 0,
+    "pct": 0.5
+   }
+  },
+  "jan_on": {
+   "games": 3556,
+   "margin_mae": 8.96,
+   "total_mae": 13.65,
+   "winner_pct": 0.684,
+   "lined_games": 3545,
+   "model_margin_mae_lined": 8.93,
+   "market_margin_mae": 8.76,
+   "spread_gap_mae": 1.7,
+   "model_total_mae_lined": 13.65,
+   "market_total_mae": 13.37,
+   "total_gap_mae": 2.65,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 707,
+     "l": 661,
+     "push": 0,
+     "pct": 0.517
+    },
+    {
+     "edge": "1-2",
+     "w": 528,
+     "l": 521,
+     "push": 0,
+     "pct": 0.503
+    },
+    {
+     "edge": "2-3",
+     "w": 308,
+     "l": 321,
+     "push": 0,
+     "pct": 0.49
+    },
+    {
+     "edge": "3-4",
+     "w": 166,
+     "l": 145,
+     "push": 0,
+     "pct": 0.534
+    },
+    {
+     "edge": "4-5",
+     "w": 52,
+     "l": 57,
+     "push": 0,
+     "pct": 0.477
+    },
+    {
+     "edge": "5-7",
+     "w": 35,
+     "l": 21,
+     "push": 0,
+     "pct": 0.625
+    },
+    {
+     "edge": "7+",
+     "w": 11,
+     "l": 12,
+     "push": 0,
+     "pct": 0.478
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 423,
+     "l": 446,
+     "push": 0,
+     "pct": 0.487
+    },
+    {
+     "edge": "1-2",
+     "w": 373,
+     "l": 351,
+     "push": 0,
+     "pct": 0.515
+    },
+    {
+     "edge": "2-3",
+     "w": 309,
+     "l": 350,
+     "push": 0,
+     "pct": 0.469
+    },
+    {
+     "edge": "3-4",
+     "w": 234,
+     "l": 245,
+     "push": 0,
+     "pct": 0.489
+    },
+    {
+     "edge": "4-5",
+     "w": 186,
+     "l": 186,
+     "push": 0,
+     "pct": 0.5
+    },
+    {
+     "edge": "5-7",
+     "w": 155,
+     "l": 154,
+     "push": 0,
+     "pct": 0.502
+    },
+    {
+     "edge": "7+",
+     "w": 71,
+     "l": 62,
+     "push": 0,
+     "pct": 0.534
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 264,
+    "l": 235,
+    "push": 0,
+    "pct": 0.529
+   },
+   "ou_edge_3plus": {
+    "w": 646,
+    "l": 647,
+    "push": 0,
+    "pct": 0.5
+   }
+  }
+ },
+ "mac_by_phase": {
+  "nov": {
+   "games": 89,
+   "margin_mae": 10.44,
+   "total_mae": 15.59,
+   "winner_pct": 0.798,
+   "lined_games": 13,
+   "model_margin_mae_lined": 8.78,
+   "market_margin_mae": 10.27,
+   "spread_gap_mae": 3.24,
+   "model_total_mae_lined": 18.39,
+   "market_total_mae": 18.69,
+   "total_gap_mae": 5.35,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 1,
+     "l": 1,
+     "push": 0,
+     "pct": 0.5
+    },
+    {
+     "edge": "1-2",
+     "w": 2,
+     "l": 1,
+     "push": 0,
+     "pct": 0.667
+    },
+    {
+     "edge": "2-3",
+     "w": 0,
+     "l": 0,
+     "push": 0,
+     "pct": null
+    },
+    {
+     "edge": "3-4",
+     "w": 3,
+     "l": 1,
+     "push": 0,
+     "pct": 0.75
+    },
+    {
+     "edge": "4-5",
+     "w": 1,
+     "l": 1,
+     "push": 0,
+     "pct": 0.5
+    },
+    {
+     "edge": "5-7",
+     "w": 2,
+     "l": 0,
+     "push": 0,
+     "pct": 1.0
+    },
+    {
+     "edge": "7+",
+     "w": 0,
+     "l": 0,
+     "push": 0,
+     "pct": null
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 0,
+     "l": 1,
+     "push": 0,
+     "pct": 0.0
+    },
+    {
+     "edge": "1-2",
+     "w": 1,
+     "l": 1,
+     "push": 0,
+     "pct": 0.5
+    },
+    {
+     "edge": "2-3",
+     "w": 3,
+     "l": 1,
+     "push": 0,
+     "pct": 0.75
+    },
+    {
+     "edge": "3-4",
+     "w": 0,
+     "l": 0,
+     "push": 0,
+     "pct": null
+    },
+    {
+     "edge": "4-5",
+     "w": 1,
+     "l": 0,
+     "push": 0,
+     "pct": 1.0
+    },
+    {
+     "edge": "5-7",
+     "w": 0,
+     "l": 2,
+     "push": 0,
+     "pct": 0.0
+    },
+    {
+     "edge": "7+",
+     "w": 4,
+     "l": 2,
+     "push": 0,
+     "pct": 0.667
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 6,
+    "l": 2,
+    "push": 0,
+    "pct": 0.75
+   },
+   "ou_edge_3plus": {
+    "w": 5,
+    "l": 4,
+    "push": 0,
+    "pct": 0.556
+   }
+  },
+  "dec": {
+   "games": 66,
+   "margin_mae": 9.34,
+   "total_mae": 13.28,
+   "winner_pct": 0.773,
+   "lined_games": 50,
+   "model_margin_mae_lined": 9.31,
+   "market_margin_mae": 8.06,
+   "spread_gap_mae": 2.96,
+   "model_total_mae_lined": 12.6,
+   "market_total_mae": 12.8,
+   "total_gap_mae": 4.3,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 2,
+     "l": 5,
+     "push": 0,
+     "pct": 0.286
+    },
+    {
+     "edge": "1-2",
+     "w": 5,
+     "l": 9,
+     "push": 0,
+     "pct": 0.357
+    },
+    {
+     "edge": "2-3",
+     "w": 3,
+     "l": 5,
+     "push": 0,
+     "pct": 0.375
+    },
+    {
+     "edge": "3-4",
+     "w": 1,
+     "l": 6,
+     "push": 0,
+     "pct": 0.143
+    },
+    {
+     "edge": "4-5",
+     "w": 2,
+     "l": 4,
+     "push": 0,
+     "pct": 0.333
+    },
+    {
+     "edge": "5-7",
+     "w": 2,
+     "l": 4,
+     "push": 0,
+     "pct": 0.333
+    },
+    {
+     "edge": "7+",
+     "w": 1,
+     "l": 1,
+     "push": 0,
+     "pct": 0.5
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 2,
+     "l": 4,
+     "push": 0,
+     "pct": 0.333
+    },
+    {
+     "edge": "1-2",
+     "w": 3,
+     "l": 3,
+     "push": 0,
+     "pct": 0.5
+    },
+    {
+     "edge": "2-3",
+     "w": 4,
+     "l": 3,
+     "push": 0,
+     "pct": 0.571
+    },
+    {
+     "edge": "3-4",
+     "w": 6,
+     "l": 3,
+     "push": 0,
+     "pct": 0.667
+    },
+    {
+     "edge": "4-5",
+     "w": 2,
+     "l": 4,
+     "push": 0,
+     "pct": 0.333
+    },
+    {
+     "edge": "5-7",
+     "w": 6,
+     "l": 0,
+     "push": 0,
+     "pct": 1.0
+    },
+    {
+     "edge": "7+",
+     "w": 5,
+     "l": 5,
+     "push": 0,
+     "pct": 0.5
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 6,
+    "l": 15,
+    "push": 0,
+    "pct": 0.286
+   },
+   "ou_edge_3plus": {
+    "w": 19,
+    "l": 12,
+    "push": 0,
+    "pct": 0.613
+   }
+  },
+  "jan_on": {
+   "games": 129,
+   "margin_mae": 8.78,
+   "total_mae": 14.67,
+   "winner_pct": 0.76,
+   "lined_games": 129,
+   "model_margin_mae_lined": 8.78,
+   "market_margin_mae": 8.83,
+   "spread_gap_mae": 2.09,
+   "model_total_mae_lined": 14.67,
+   "market_total_mae": 14.31,
+   "total_gap_mae": 2.71,
+   "ats_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 24,
+     "l": 11,
+     "push": 0,
+     "pct": 0.686
+    },
+    {
+     "edge": "1-2",
+     "w": 15,
+     "l": 20,
+     "push": 0,
+     "pct": 0.429
+    },
+    {
+     "edge": "2-3",
+     "w": 19,
+     "l": 14,
+     "push": 0,
+     "pct": 0.576
+    },
+    {
+     "edge": "3-4",
+     "w": 5,
+     "l": 8,
+     "push": 0,
+     "pct": 0.385
+    },
+    {
+     "edge": "4-5",
+     "w": 6,
+     "l": 3,
+     "push": 0,
+     "pct": 0.667
+    },
+    {
+     "edge": "5-7",
+     "w": 4,
+     "l": 0,
+     "push": 0,
+     "pct": 1.0
+    },
+    {
+     "edge": "7+",
+     "w": 0,
+     "l": 0,
+     "push": 0,
+     "pct": null
+    }
+   ],
+   "ou_by_edge": [
+    {
+     "edge": "0-1",
+     "w": 16,
+     "l": 15,
+     "push": 0,
+     "pct": 0.516
+    },
+    {
+     "edge": "1-2",
+     "w": 11,
+     "l": 12,
+     "push": 0,
+     "pct": 0.478
+    },
+    {
+     "edge": "2-3",
+     "w": 11,
+     "l": 18,
+     "push": 0,
+     "pct": 0.379
+    },
+    {
+     "edge": "3-4",
+     "w": 8,
+     "l": 7,
+     "push": 0,
+     "pct": 0.533
+    },
+    {
+     "edge": "4-5",
+     "w": 10,
+     "l": 7,
+     "push": 0,
+     "pct": 0.588
+    },
+    {
+     "edge": "5-7",
+     "w": 4,
+     "l": 2,
+     "push": 0,
+     "pct": 0.667
+    },
+    {
+     "edge": "7+",
+     "w": 2,
+     "l": 6,
+     "push": 0,
+     "pct": 0.25
+    }
+   ],
+   "ats_edge_3plus": {
+    "w": 15,
+    "l": 11,
+    "push": 0,
+    "pct": 0.577
+   },
+   "ou_edge_3plus": {
+    "w": 24,
+    "l": 22,
+    "push": 0,
+    "pct": 0.522
+   }
+  }
+ },
+ "generated_at": "2026-11-09T02:50:36+00:00"
+}

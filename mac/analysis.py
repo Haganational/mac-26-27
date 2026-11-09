@@ -159,13 +159,12 @@ def match_lines_to_games(games: list[dict[str, Any]], history: dict[str, dict[st
             continue
         tip = parse_iso(ev["commence_time"])
         best: tuple[float, str] | None = None
+        ev_keys = {k for k in (ev["home_key"], ev["away_key"]) if k}
         for g in games:
-            keys = {g["home"]["key"], g["away"]["key"]} - {None}
-            ev_keys = {ev["home_key"], ev["away_key"]} - {None}
-            if not keys & ev_keys:  # a shared None (non-MAC side) is not a match
-                continue
-            # Both MAC teams must match when it is a conference game.
-            if ev["home_key"] and ev["away_key"] and keys != {ev["home_key"], ev["away_key"]}:
+            keys = {k for k in (g["home"]["key"], g["away"]["key"]) if k}
+            # Every MAC team named on the event must be in the game (and vice versa),
+            # so a non-conference opponent's missing key can never match another game's.
+            if ev_keys != keys:
                 continue
             gap = abs((parse_iso(g["date"]) - tip).total_seconds())
             if gap <= 36 * 3600 and (best is None or gap < best[0]):

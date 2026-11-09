@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, news, oddsboard, players, schedule_view, travel
+from . import analysis, model, news, oddsboard, players, schedule_view, travel
 from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -179,10 +179,41 @@ def game_page_context(g: dict[str, Any], box: dict[str, Any], snap: dict[str, An
     }
 
 
+def model_page_context(m: dict[str, Any]) -> dict[str, Any]:
+    """Extra shapes the ratings page wants: scatter points and axis ranges, Eastern tip times."""
+    pts = [(t["adj_o"], t["adj_d"], t["short"]) for t in m.get("all_teams", [])]
+    if pts:
+        xs = [p[0] for p in pts]
+        ys = [p[1] for p in pts]
+        lo_x, hi_x = 5 * int(min(xs) // 5), 5 * int(max(xs) // 5 + 1)
+        lo_y, hi_y = 5 * int(min(ys) // 5), 5 * int(max(ys) // 5 + 1)
+    else:
+        lo_x, hi_x, lo_y, hi_y = 90, 125, 90, 125
+    m["scatter"] = {
+        "d1": [[round(p[0], 1), round(p[1], 1), p[2]] for p in pts],
+        "x": [lo_x, hi_x], "y": [lo_y, hi_y],  # y runs low (good defense) at the top
+        "xticks": list(range(lo_x, hi_x + 1, 5)), "yticks": list(range(lo_y, hi_y + 1, 5)),
+    }
+    for u in m["upcoming"]:
+        e = schedule_view.et_fields(u)
+        u["et"] = f"{e['weekday']} {e['md']} {e['time']}"
+    return m
+
+
 def render_site() -> str:
     data = dashboard_data()
     now = datetime.fromisoformat(data["generated_at"])
     data["news"] = news.view(now, limit=30)
+    try:
+        m = model.build_model(now, log=True)
+    except Exception as exc:  # noqa: BLE001 - the rest of the site must still publish
+        print(f"model: skipped ({exc!r})")
+        m = None
+    if m:
+        proj = {u["game_id"]: u for u in m["upcoming"]}
+        for g in data["upcoming"]:
+            g["model"] = proj.get(g["game_id"])
+        data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
     SITE_DIR.mkdir(parents=True, exist_ok=True)
@@ -275,9 +306,15 @@ def render_site() -> str:
             games=[schedule_view.decorate({**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))}) for tg in team_games(team.key, games, history, espn_lines)],
             itin=itins[team.key],
             team_news=news.view(now, team.key, limit=12),
+            rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
+            proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
+
+    if m:
+        (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
+        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter")}, default=str))
 
     static = TEMPLATES_DIR / "static"
     if static.exists():

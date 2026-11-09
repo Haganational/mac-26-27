@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAC Ratings Model</title>
+<meta name="description" content="Opponent-adjusted, recency-weighted ratings for every MAC team, projected spreads and totals, and where the model disagrees with the market.">
+<link rel="stylesheet" href="static/site.css">
+<style>
+  .edge { font-weight: 600; }
+  .edge.flag { color: var(--ink); background: color-mix(in srgb, var(--warn) 30%, transparent); border-radius: 6px; padding: 1px 6px; }
+  .bar { position: relative; height: 10px; background: var(--neutral); border-radius: 5px; min-width: 90px; }
+  .bar i { position: absolute; top: 0; bottom: 0; border-radius: 5px; }
+  .bar .mid { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--axis); }
+  svg.scatter { width: 100%; height: auto; display: block; max-height: 460px; }
+  svg.scatter text { font: 11px system-ui, sans-serif; fill: var(--ink-2); }
+  svg.scatter .lbl { fill: var(--ink); font-weight: 600; }
+  svg.scatter .d1 { fill: var(--axis); }
+  svg.scatter .mac { fill: var(--s1); stroke: var(--surface); stroke-width: 1.5; }
+  svg.scatter .gl { stroke: var(--grid); }
+  svg.scatter .avg { stroke: var(--axis); stroke-dasharray: 3 3; }
+  .wl { font-variant-numeric: tabular-nums; }
+  .w { color: var(--good); font-weight: 600; } .l { color: var(--bad); font-weight: 600; }
+  .knobs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px 18px; font-size: 13px; color: var(--ink-2); }
+  .knobs b { color: var(--ink); }
+  .method p { margin: 6px 0; font-size: 14px; color: var(--ink-2); max-width: 75ch; }
+  .method code { font-size: 13px; background: var(--neutral); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Ratings model
+    <span class="teamnav"><a href="tv.html">TV</a><a href="travel.html">Travel</a></span>
+  </nav>
+  <header>
+    <h1>Ratings model</h1>
+    <span class="sub">Opponent-adjusted, recency-weighted ratings from every D-I game ({{ m.games_used }} so far this season). Refit {{ d.generated_et }}. Spreads are from the home team's view.</span>
+  </header>
+
+{% set bt = m.backtest %}
+  <div class="tiles">
+    <div class="tile"><div class="v">{{ "%+.1f"|format(m.hca_pts) }}</div><div class="k">home-court edge, points</div></div>
+    <div class="tile"><div class="v">{{ "%.1f"|format(m.tau) }}</div><div class="k">average D-I possessions per 40 min</div></div>
+    <div class="tile"><div class="v">{{ "%.1f"|format(m.mu) }}</div><div class="k">average points per 100 possessions</div></div>
+    {% if bt %}<div class="tile"><div class="v">{{ bt.all.model_margin_mae_lined }}<span class="dim"> / {{ bt.all.market_margin_mae }}</span></div><div class="k">last season: model vs closing line, avg miss on the margin (pts)</div></div>{% endif %}
+    <div class="tile"><div class="v">{{ m.record.ats_w }}-{{ m.record.ats_l }}</div><div class="k">model vs close on MAC games this season (ATS)</div></div>
+  </div>
+
+  <section>
+    <h2>MAC power ratings</h2>
+    <div class="scroll"><table>
+      <tr>
+        <th class="num" title="Rank among {{ m.d1_count }} D-I teams by net rating">D-I</th><th>Team</th><th class="num">G</th>
+        <th class="num" title="Points per 100 possessions scored, adjusted for opponent and venue">Off</th>
+        <th class="num" title="Points per 100 possessions allowed, adjusted (lower is better)">Def</th>
+        <th class="num" title="Offense minus defense, per 100 possessions">Net</th>
+        <th style="width:14%" title="Net rating, scale -20 to +20">Net</th>
+        <th class="num" title="Net rating in points per game against an average D-I team on a neutral floor at average pace">Diff / game</th>
+        <th class="num" title="Adjusted possessions per 40 minutes">Pace</th>
+        <th class="num" title="Recency-weighted average net rating of opponents played (D-I rank)">SOS</th>
+        <th class="num" title="Average net rating of opponents still on the schedule (MAC rank, 1 = hardest)">Ahead</th>
+        <th class="num" title="Raw scoring margin per game, no adjustment">Raw</th>
+        <th class="num" title="Starting point from last season, after regression toward average">Prior</th>
+        <th class="num" title="How much of the rating is still the preseason prior">Prior wt</th>
+      </tr>
+      {% for t in m.mac %}
+      <tr>
+        <td class="num dim">{{ t.rk_adj_em }}</td>
+        <td><a href="teams/{{ t.key }}.html">{{ t.short }}</a></td>
+        <td class="num dim">{{ t.games }}</td>
+        <td class="num">{{ "%.1f"|format(t.adj_o) }} <small class="dim">{{ t.rk_adj_o }}</small></td>
+        <td class="num">{{ "%.1f"|format(t.adj_d) }} <small class="dim">{{ t.rk_adj_d }}</small></td>
+        <td class="num"><b>{{ "%+.1f"|format(t.adj_em) }}</b></td>
+        <td>{% set v = [[t.adj_em, -20]|max, 20]|min %}<div class="bar"><span class="mid"></span>{% if v >= 0 %}<i style="left:50%;width:{{ v / 40 * 100 }}%;background:var(--s1)"></i>{% else %}<i style="left:{{ 50 + v / 40 * 100 }}%;width:{{ -v / 40 * 100 }}%;background:var(--s2)"></i>{% endif %}</div></td>
+        <td class="num">{{ "%+.1f"|format(t.net_pts) }}</td>
+        <td class="num">{{ "%.1f"|format(t.adj_t) }} <small class="dim">{{ t.rk_adj_t }}</small></td>
+        <td class="num">{% if t.sos is not none %}{{ "%+.1f"|format(t.sos) }} <small class="dim">{{ t.rk_sos }}</small>{% else %}–{% endif %}</td>
+        <td class="num">{% if t.rem_sos is not none %}{{ "%+.1f"|format(t.rem_sos) }} <small class="dim">{{ t.rk_rem_sos_mac }}</small>{% else %}–{% endif %}</td>
+        <td class="num dim">{{ "%+.1f"|format(t.raw_margin) if t.raw_margin is not none else "–" }}</td>
+        <td class="num dim">{{ "%+.1f"|format(t.prior_em) }}</td>
+        <td class="num dim">{{ (t.prior_share * 100)|round|int }}%</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Off/Def/Net are points per 100 possessions; small numbers are D-I ranks. Diff/game turns net rating into points against an average D-I team. Early in the season most of each rating is still last season's (regressed), and it shifts to this season's results as games are played. Non-D-I opponents share one pooled rating.</div>
+  </section>
+
+  <div class="grid two">
+    <section>
+      <h2>Offense vs defense</h2>
+      {% set W = 560 %}{% set H = 400 %}{% set pad = 36 %}
+      {% set xs = m.scatter.x %}{% set ys = m.scatter.y %}
+      <svg class="scatter" viewBox="0 0 {{ W }} {{ H }}" role="img" aria-label="Adjusted offense against adjusted defense for every D-I team, MAC teams labelled">
+        {% for gx in m.scatter.xticks %}{% set px = pad + (gx - xs[0]) / (xs[1] - xs[0]) * (W - 2 * pad) %}<line class="gl" x1="{{ px }}" x2="{{ px }}" y1="{{ pad / 2 }}" y2="{{ H - pad }}"/><text x="{{ px }}" y="{{ H - pad + 14 }}" text-anchor="middle">{{ gx }}</text>{% endfor %}
+        {% for gy in m.scatter.yticks %}{% set py = pad / 2 + (gy - ys[0]) / (ys[1] - ys[0]) * (H - pad * 1.5) %}<line class="gl" x1="{{ pad }}" x2="{{ W - pad }}" y1="{{ py }}" y2="{{ py }}"/><text x="{{ pad - 4 }}" y="{{ py + 4 }}" text-anchor="end">{{ gy }}</text>{% endfor %}
+        {% set ax = pad + (m.mu - xs[0]) / (xs[1] - xs[0]) * (W - 2 * pad) %}{% set ay = pad / 2 + (m.mu - ys[0]) / (ys[1] - ys[0]) * (H - pad * 1.5) %}
+        <line class="avg" x1="{{ ax }}" x2="{{ ax }}" y1="{{ pad / 2 }}" y2="{{ H - pad }}"/><line class="avg" x1="{{ pad }}" x2="{{ W - pad }}" y1="{{ ay }}" y2="{{ ay }}"/>
+        {% for p in m.scatter.d1 %}<circle class="d1" r="2.2" cx="{{ pad + (p[0] - xs[0]) / (xs[1] - xs[0]) * (W - 2 * pad) }}" cy="{{ pad / 2 + (p[1] - ys[0]) / (ys[1] - ys[0]) * (H - pad * 1.5) }}"><title>{{ p[2] }}</title></circle>{% endfor %}
+        {% for t in m.mac %}{% set cx = pad + (t.adj_o - xs[0]) / (xs[1] - xs[0]) * (W - 2 * pad) %}{% set cy = pad / 2 + (t.adj_d - ys[0]) / (ys[1] - ys[0]) * (H - pad * 1.5) %}
+        <circle class="mac" r="5" cx="{{ cx }}" cy="{{ cy }}"><title>{{ t.short }}: off {{ "%.1f"|format(t.adj_o) }}, def {{ "%.1f"|format(t.adj_d) }}</title></circle><text class="lbl" x="{{ cx + 7 }}" y="{{ cy + 4 }}">{{ t.abbr }}</text>{% endfor %}
+        <text x="{{ W - pad }}" y="{{ H - 4 }}" text-anchor="end">Offense → better</text>
+        <text x="{{ pad }}" y="10">↑ Defense better</text>
+      </svg>
+      <div class="note">Grey dots are the other D-I teams. Up and to the right is good at both ends. Dashed lines are D-I average.</div>
+    </section>
+
+    <section>
+      <h2>National top 25 by the model</h2>
+      <div class="scroll" style="max-height:440px;overflow-y:auto"><table>
+        <tr><th class="num">#</th><th>Team</th><th class="num">Net</th><th class="num">Off</th><th class="num">Def</th><th class="num">Pace</th></tr>
+        {% for t in m.top25 %}<tr><td class="num dim">{{ loop.index }}</td><td>{{ t.short }}</td><td class="num"><b>{{ "%+.1f"|format(t.adj_em) }}</b></td><td class="num">{{ "%.1f"|format(t.adj_o) }}</td><td class="num">{{ "%.1f"|format(t.adj_d) }}</td><td class="num">{{ "%.1f"|format(t.adj_t) }}</td></tr>{% endfor %}
+      </table></div>
+      <div class="note">A sanity check: if this list looks wrong, so will the MAC numbers.</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Upcoming: model vs market</h2>
+    {% if m.upcoming %}
+    <div class="scroll"><table>
+      <tr><th>Tip (ET)</th><th>Matchup</th><th class="num">Model score</th><th class="num">Model spread</th><th class="num">Market</th><th>Spread lean</th><th class="num">Model total</th><th class="num">Market</th><th>Total lean</th><th class="num">Win %</th></tr>
+      {% for u in m.upcoming %}
+      <tr>
+        <td class="dim" style="white-space:nowrap">{{ u.et }}</td>
+        <td class="teams">{{ u.away.name }} {{ 'vs' if u.neutral_site else 'at' }} <b>{{ u.home.name }}</b>{% if u.conference_game %} <span class="pill">MAC</span>{% endif %}{% if u.away.non_d1 or u.home.non_d1 %} <span class="pill" title="Opponent is not Division I; it shares one pooled rating, so treat the number as rough">non-D-I</span>{% endif %}</td>
+        <td class="num dim">{{ "%.0f"|format(u.model.away_pts) }}-{{ "%.0f"|format(u.model.home_pts) }}</td>
+        <td class="num"><b>{{ "%+.1f"|format(u.model.spread) }}</b></td>
+        <td class="num">{% if u.market and u.market.spread is not none %}{{ "%+.1f"|format(u.market.spread) }}{% else %}<span class="dim">–</span>{% endif %}</td>
+        <td>{% if u.spread_edge and not (u.away.non_d1 or u.home.non_d1) %}<span class="edge {{ 'flag' if u.spread_edge.flag }}">{{ u.spread_edge.take }}</span> <small class="dim">by {{ u.spread_edge.abs }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
+        <td class="num"><b>{{ "%.1f"|format(u.model.total) }}</b></td>
+        <td class="num">{% if u.market and u.market.total is not none %}{{ u.market.total }}{% else %}<span class="dim">–</span>{% endif %}</td>
+        <td>{% if u.total_edge and not (u.away.non_d1 or u.home.non_d1) %}<span class="edge {{ 'flag' if u.total_edge.flag }}">{{ u.total_edge.take }}</span> <small class="dim">by {{ u.total_edge.abs }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
+        <td class="num dim">{{ (u.model.home_win * 100)|round|int }}%</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Market is the median across US books from our latest snapshot (Pinnacle when it is posted). Highlighted leans are {{ m.edge_flag|int }}+ points off the market. Win % is the home team's. Lines for MAC games usually post about a day ahead, so most rows show only the model until then. Each run's numbers are logged, so later we can see whether lines move toward the model.</div>
+    {% else %}<div class="empty">No games in the next 10 days.</div>{% endif %}
+  </section>
+
+  <section>
+    <h2>This season so far: model before tip vs close vs result</h2>
+    {% if m.season_to_date %}
+    <div class="row sub" style="gap:18px">
+      <span>Average miss on the margin: model <b>{{ m.record.model_mae_lined }}</b> vs closing line <b>{{ m.record.close_mae }}</b> ({{ m.record.lined }} games with a line)</span>
+      <span>Model side vs close: <b>{{ m.record.ats_w }}-{{ m.record.ats_l }}</b></span>
+      <span>Model total vs close: <b>{{ m.record.ou_w }}-{{ m.record.ou_l }}</b></span>
+    </div>
+    <div class="scroll"><table class="log">
+      <tr><th>Date</th><th>Game</th><th class="num">Final</th><th class="num">Model</th><th class="num">Close</th><th class="num">Model side</th><th class="num">Model tot</th><th class="num">Close tot</th><th class="num">Model O/U</th></tr>
+      {% for g in m.season_to_date %}
+      <tr>
+        <td class="dim">{{ g.date[5:10] }}</td>
+        <td>{% if g.away_mac %}<b>{{ g.away_name }}</b>{% else %}{{ g.away_name }}{% endif %} at {% if g.home_mac %}<b>{{ g.home_name }}</b>{% else %}{{ g.home_name }}{% endif %}</td>
+        <td class="num">{{ g.pts_a }}-{{ g.pts_h }}</td>
+        <td class="num">{{ "%+.1f"|format(g.model_spread) }}</td>
+        <td class="num">{{ "%+.1f"|format(g.close_spread) if g.close_spread is not none else "–" }}</td>
+        <td class="num">{% if g.model_ats %}<span class="{{ 'w' if g.model_ats == 'W' else 'l' }}">{{ g.model_ats }}</span> <small class="dim">{{ "%+.1f"|format(g.spread_gap) }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
+        <td class="num">{{ "%.1f"|format(g.model_total) }}</td>
+        <td class="num">{{ g.close_total if g.close_total is not none else "–" }}</td>
+        <td class="num">{% if g.model_ou %}<span class="{{ 'w' if g.model_ou == 'W' else 'l' }}">{{ g.model_ou }}</span> <small class="dim">{{ "%+.1f"|format(g.total_gap) }}</small>{% else %}<span class="dim">–</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <div class="note">Each projection uses only games played before that morning. Close is the DraftKings number ESPN shows at tip. "Model side" is whether taking the model's side of the closing number won; the small number is how far the model was off the close.</div>
+    {% else %}<div class="empty">No MAC games played yet.</div>{% endif %}
+  </section>
+
+  {% if bt %}
+  <section>
+    <h2>Backtest: last season ({{ bt.season - 1 }}-{{ (bt.season|string)[2:] }}), day by day</h2>
+    <div class="sub" style="margin-bottom:10px">Refit every morning with only earlier games, starting from the season before as a prior, then scored against results and DraftKings closing lines. {{ bt.all.games }} D-I games, {{ bt.all.lined_games }} with a line; {{ bt.mac.games }} involved a MAC team.</div>
+    <div class="scroll"><table>
+      <tr><th>Games</th><th class="num">Model miss (margin)</th><th class="num">Close miss</th><th class="num">Model miss (total)</th><th class="num">Close miss</th><th class="num">Model vs close, avg gap</th><th class="num">Picks winner</th></tr>
+      {% for label, s in [("All D-I", bt.all), ("Involving a MAC team", bt.mac), ("MAC vs MAC", bt.mac_conf), ("November", bt.by_phase.nov), ("December", bt.by_phase.dec), ("January on", bt.by_phase.jan_on)] %}
+      <tr><td>{{ label }} <small class="dim">{{ s.games }}</small></td>
+        <td class="num"><b>{{ s.model_margin_mae_lined or "–" }}</b></td><td class="num">{{ s.market_margin_mae or "–" }}</td>
+        <td class="num"><b>{{ s.model_total_mae_lined or "–" }}</b></td><td class="num">{{ s.market_total_mae or "–" }}</td>
+        <td class="num">{{ s.spread_gap_mae or "–" }}</td><td class="num">{{ (s.winner_pct * 100)|round(1) }}%</td></tr>
+      {% endfor %}
+    </table></div>
+    <div class="grid two" style="margin-top:14px">
+      <div>
+        <h3 style="margin-bottom:6px">Against the spread, by size of disagreement</h3>
+        <table>
+          <tr><th>Model vs close</th><th class="num">All D-I</th><th class="num">MAC games</th></tr>
+          {% for b in bt.all.ats_by_edge %}{% set mb = bt.mac.ats_by_edge[loop.index0] %}
+          <tr><td>{{ b.edge }} pts</td><td class="num wl">{{ b.w }}-{{ b.l }} {% if b.pct %}<small class="dim">{{ (b.pct * 100)|round(1) }}%</small>{% endif %}</td><td class="num wl">{{ mb.w }}-{{ mb.l }} {% if mb.pct %}<small class="dim">{{ (mb.pct * 100)|round(1) }}%</small>{% endif %}</td></tr>
+          {% endfor %}
+        </table>
+      </div>
+      <div>
+        <h3 style="margin-bottom:6px">Totals, by size of disagreement</h3>
+        <table>
+          <tr><th>Model vs close</th><th class="num">All D-I</th><th class="num">MAC games</th></tr>
+          {% for b in bt.all.ou_by_edge %}{% set mb = bt.mac.ou_by_edge[loop.index0] %}
+          <tr><td>{{ b.edge }} pts</td><td class="num wl">{{ b.w }}-{{ b.l }} {% if b.pct %}<small class="dim">{{ (b.pct * 100)|round(1) }}%</small>{% endif %}</td><td class="num wl">{{ mb.w }}-{{ mb.l }} {% if mb.pct %}<small class="dim">{{ (mb.pct * 100)|round(1) }}%</small>{% endif %}</td></tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    <div class="note">At -110 you need 52.4% to break even. Closing lines are the hardest number to beat; numbers posted earlier (which we now capture) are softer, and that is where the line-timing study comes in.</div>
+  </section>
+  {% endif %}
+
+  <section class="method">
+    <h2>How it works</h2>
+    <p>Every D-I game gives three numbers: possessions, and points per 100 possessions for each side. Each team gets an <b>offense</b>, <b>defense</b> and <b>pace</b> rating that together best explain all its games at once, after accounting for who it played and where. Because every opponent's rating is in the same equations, beating a good team counts for more than beating a bad one, and that opponent's rating is in turn set by everyone it played.</p>
+    <p>Projection for a game: <code>possessions = avg pace + home pace + away pace</code>, then each side's points = possessions × (avg efficiency + its offense + the other side's defense ± home court). Spread is the difference, total is the sum.</p>
+    <div class="knobs" style="margin-top:10px">
+      <span><b>Recency</b>: a game's weight halves every {{ m.params.half_life|int }} days.</span>
+      <span><b>Blowouts</b>: margin past {{ m.params.cap|int }} pts/100 counts at {{ (m.params.cap_slope * 100)|int }}%.</span>
+      <span><b>Prior</b>: last season, regressed {{ (m.params.regress * 100)|int }}% to average, worth {{ m.params.prior_games|round(1) }} games.</span>
+      <span><b>Non-D-I games</b>: count {{ (m.params.non_d1_weight * 100)|int }}%, opponents pooled.</span>
+      <span><b>Win %</b>: normal with sd {{ m.params.sigma_margin }} pts around the projected margin.</span>
+      <span><b>Possessions</b>: FGA − OREB + TO + 0.475 × FTA from ESPN box scores.</span>
+    </div>
+  </section>
+</main>
+</body>
+</html>

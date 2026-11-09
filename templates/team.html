@@ -24,6 +24,16 @@
     </div>
   </header>
 
+  {% if rating %}
+  <div class="tiles">
+    <div class="tile"><div class="v">{{ "%+.1f"|format(rating.adj_em) }}</div><div class="k">net rating per 100 · #{{ rating.rk_adj_em }} in D-I · <a href="../ratings.html">model</a></div></div>
+    <div class="tile"><div class="v">{{ "%.1f"|format(rating.adj_o) }}</div><div class="k">adjusted offense · #{{ rating.rk_adj_o }}</div></div>
+    <div class="tile"><div class="v">{{ "%.1f"|format(rating.adj_d) }}</div><div class="k">adjusted defense · #{{ rating.rk_adj_d }}</div></div>
+    <div class="tile"><div class="v">{{ "%.1f"|format(rating.adj_t) }}</div><div class="k">pace, possessions / 40 · #{{ rating.rk_adj_t }}</div></div>
+    <div class="tile"><div class="v">{{ "%+.1f"|format(rating.sos) if rating.sos is not none else "–" }}</div><div class="k">strength of schedule so far{% if rating.rk_sos %} · #{{ rating.rk_sos }}{% endif %}</div></div>
+  </div>
+  {% endif %}
+
   <div class="grid two">
     <section>
       <h2>Rotation</h2>
@@ -57,7 +67,7 @@
           <td>{{ 'vs' if g.is_home else ('vs' if g.neutral_site else 'at') }} {{ g.opp_name }}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">N</span>{% endif %}</td>
           <td style="white-space:nowrap">{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="dim">–</span>{% endfor %}</td>
           <td class="num">{% if g.completed %}{% if g.box %}<a href="../games/{{ g.game_id }}.html" title="Box score">{% endif %}<span class="{{ 'up' if g.won else 'down' }}">{{ 'W' if g.won else 'L' }}</span> {{ g.own_score }}-{{ g.opp_score }}{% if g.box %}</a>{% endif %}{% else %}<span class="dim" style="white-space:nowrap">{{ g.et.time }} ET</span>{% endif %}</td>
-          <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
+          <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}{% set pj = proj.get(g.game_id) %}{% if pj and not g.completed %}<small class="dim" style="display:block" title="Rating model's spread for {{ team.short }}">model {{ "%+.1f"|format(pj.model.spread if g.is_home else -pj.model.spread) }}</small>{% endif %}</td>
           <td class="num">{% if g.trav and g.trav.rest_days is not none %}{{ g.trav.rest_days }}{% else %}<span class="dim">–</span>{% endif %}</td>
           <td class="num">{% if g.trav and g.trav.miles_in %}{{ "{:,}".format(g.trav.miles_in) }}{% if g.trav.tz_shift %} <span class="dim">{{ '%+d'|format(g.trav.tz_shift) }}h</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
           <td>{% if not g.completed and g.odds_event_id %}<a class="oddslink" href="../odds.html#ev{{ g.odds_event_id }}" title="Every book's price for this game">odds</a>{% endif %}</td>
