@@ -26,7 +26,7 @@ TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the 
 TIP = {"venmo": "hardwoodbricks", "url": "https://venmo.com/u/hardwoodbricks",
        "line": "Hardwood Bricks is free and independent. Tips cover the data feeds, gas and arena trips."}
 AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Fresh takes, live streams and the JuiceBox crew.", "cta": "Visit juiceboxnation.com"}
-BRAND = "#123d2e"  # deep green for the top bar and share cards
+BRAND = "#2a1a10"  # dark hickory: share cards, app icon and the phone address-bar tint (was green)
 GOLD = "#f0c75e"
 MORTAR = "#cdb99a"
 BRICK_TONES = ("#9e3b26", "#8c3322", "#a8452c", "#93371f", "#b04d31", "#98402a", "#87301f", "#a33f27", "#7f2d1d")

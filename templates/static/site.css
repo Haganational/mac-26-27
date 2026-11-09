@@ -270,9 +270,9 @@ table.nowrap td { white-space: nowrap; }
    Team classes (.t-akron etc.) come from static/teams.css, generated from
    mac/config.py, and set --tc (primary), --tc2 (accent), --tci (text on --tc).
    =================================================================== */
-:root { --brand: #123d2e; --brand-2: #1d5a43; --gold: #f0c75e; --brick: #9e3b26; --mortar: #cdb99a; --tc: var(--s1); --tc2: #fff; --tci: #fff; --tca: var(--tc); --bar-h: 58px; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --brand: #0c2a20; --brand-2: #164634; } }
-:root[data-theme="dark"] { --brand: #0c2a20; --brand-2: #164634; }
+:root { --brand: #2a1a10; --brand-2: #4a2c1a; --gold: #f0c75e; --brick: #9e3b26; --mortar: #cdb99a; --tc: var(--s1); --tc2: #fff; --tci: #fff; --tca: var(--tc); --bar-h: 58px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --brand: #1c110a; --brand-2: #3a2314; } }
+:root[data-theme="dark"] { --brand: #1c110a; --brand-2: #3a2314; }
 /* On dark pages a navy or maroon team color disappears; lift it for borders and text. */
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) [class^="t-"], :root:not([data-theme="light"]) [class*=" t-"], :root:not([data-theme="light"]) [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); } }
 :root[data-theme="dark"] [class^="t-"], :root[data-theme="dark"] [class*=" t-"], :root[data-theme="dark"] [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); }
@@ -292,9 +292,9 @@ body { background: linear-gradient(180deg, color-mix(in srgb, var(--s1) 7%, var(
   background: repeating-linear-gradient(92deg, rgba(120,72,30,.10) 0 2px, transparent 2px 9px, rgba(120,72,30,.06) 9px 10px, transparent 10px 17px), linear-gradient(180deg, #ecd3a2, #d8b273 60%, #c99d5c);
   box-shadow: inset 0 1px 0 rgba(255,250,235,.7), inset 0 0 0 3px rgba(236,211,162,.9), inset 0 0 0 4px rgba(59,36,20,.45), 0 1px 0 rgba(0,0,0,.35), 0 3px 8px rgba(0,0,0,.25);
   text-shadow: 0 1px 0 rgba(255,245,225,.55); }
-.brand .yr { font-size: 13px; color: #cfe0d6; font-weight: 600; }
+.brand .yr { font-size: 13px; color: #e0d2b8; font-weight: 600; }
 .tb-nav { display: flex; align-items: center; gap: 2px; flex: 1 0 auto; }
-.tb-nav > a, .tb-teams > summary { color: #e2eee7; font-size: 14px; font-weight: 500; padding: 7px 10px; border-radius: 8px; white-space: nowrap; cursor: pointer; list-style: none; }
+.tb-nav > a, .tb-teams > summary { color: #efe3cc; font-size: 14px; font-weight: 500; padding: 7px 10px; border-radius: 8px; white-space: nowrap; cursor: pointer; list-style: none; }
 .tb-teams > summary::-webkit-details-marker { display: none; }
 .tb-teams > summary::after { content: " ▾"; font-size: 11px; opacity: .8; }
 .tb-nav > a:hover, .tb-teams > summary:hover { background: rgba(255,255,255,.10); text-decoration: none; color: #fff; }
@@ -304,7 +304,7 @@ body { background: linear-gradient(180deg, color-mix(in srgb, var(--s1) 7%, var(
 a.tchip { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 8px; font-size: 14px; font-weight: 600; background: var(--tc); color: var(--tci); border-bottom: 3px solid var(--tc2); }
 a.tchip:hover { text-decoration: none; filter: brightness(1.12); }
 a.tchip img { width: 20px; height: 20px; background: #fff; border-radius: 50%; padding: 1px; }
-.tb-search { flex: 0 1 300px; min-width: 0; display: flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px; border-radius: 9px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.08); color: #cfe0d6; font: inherit; font-size: 13px; cursor: pointer; text-align: left; }
+.tb-search { flex: 0 1 300px; min-width: 0; display: flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px; border-radius: 9px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.08); color: #e0d2b8; font: inherit; font-size: 13px; cursor: pointer; text-align: left; }
 .tb-search:hover { background: rgba(255,255,255,.14); color: #fff; }
 .tb-search span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 kbd { font: 11px ui-monospace, Menlo, monospace; border: 1px solid currentColor; border-radius: 4px; padding: 0 4px; opacity: .7; }
@@ -441,14 +441,14 @@ tr[class^="t-"] td:first-child { box-shadow: inset 4px 0 0 var(--tc); }
 #toast.on { opacity: 1; transform: translate(-50%, 0); }
 
 /* Footer */
-.sitefoot { margin-top: 24px; background: linear-gradient(180deg, transparent 0 22px, var(--brand) 22px), var(--bricks) 0 0 / 72px 24px repeat-x; color: #cfe0d6; padding-top: 22px; }
+.sitefoot { margin-top: 24px; background: linear-gradient(180deg, transparent 0 22px, var(--brand) 22px), var(--bricks) 0 0 / 72px 24px repeat-x; color: #e0d2b8; padding-top: 22px; }
 .sitefoot .sf-in { border-top: 3px solid var(--gold); }
 .sf-in { max-width: 1180px; margin: 0 auto; padding: 28px 16px 40px; display: grid; gap: 24px; grid-template-columns: 1fr; font-size: 14px; }
 @media (min-width: 800px) { .sf-in { grid-template-columns: 2fr 1fr 1.4fr; } }
 .sitefoot p { margin: 10px 0; max-width: 60ch; }
 .sitefoot .dim { color: #93ad9f; font-size: 12px; }
 .sitefoot h4 { margin: 0 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--gold); }
-.sitefoot nav a { display: block; color: #e2eee7; padding: 3px 0; }
+.sitefoot nav a { display: block; color: #efe3cc; padding: 3px 0; }
 .sf-teams { columns: 2; column-gap: 16px; }
 .sf-teams h4 { column-span: all; }
 .sf-teams a i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
@@ -614,3 +614,10 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .ytwatch.playing { grid-column: 1 / -1; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); }
 @media (max-width: 560px) { .ytwatch.playing { grid-template-columns: 1fr; } .ytwatch.playing .yt-frame { max-width: 300px; margin: 0 auto; width: 100%; } }
 @media (min-width: 900px) { .hometop { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; } .hometop > details.bestplay { align-self: center; } }
+
+/* One theme: the top bar (and its phone dropdown) is brick, darkened so the menu reads, instead of solid green */
+.topbar, .tb-nav.open { background: linear-gradient(180deg, rgba(18,13,9,.74), rgba(18,13,9,.84)), var(--bricks) 0 0 / 96px 32px; background-color: #120d09; }
+.tb-nav > a.on, .tb-teams.on > summary { background: rgba(236,211,162,.18); }
+.tb-nav > a.desk { color: #f0c75e; background: rgba(240,199,94,.10); }
+.tb-nav > a.desk:hover { color: #f6dd9a; background: rgba(240,199,94,.20); }
+.tb-nav > a.desk.on { color: #f6dd9a; background: rgba(240,199,94,.24); }
