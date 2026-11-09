@@ -5,6 +5,8 @@ model. Nothing is invented: if a number is missing, the sentence is left out.
 """
 from __future__ import annotations
 
+import html
+import re
 from datetime import datetime, timedelta
 from typing import Any
 
@@ -87,7 +89,8 @@ def result_item(g: dict, box: dict | None) -> dict:
     me, them = school(mac["name"], mac.get("key")), school(opp["name"], opp.get("key"))
     hi, lo = (ms, os_) if won else (os_, ms)
     sent = [f"{me} beat {them} {hi}-{lo}." if won else f"{them} beat {me} {hi}-{lo}."]
-    sc = _scorer_line(_top_scorer(box, mac["espn_id"]), f"the {nickname(mac['key'])}")
+    top = _top_scorer(box, mac["espn_id"])
+    sc = _scorer_line(top, f"the {nickname(mac['key'])}")
     if sc:
         sent.append(sc)
     tune_up = g.get("closing_spread") is None
@@ -105,7 +108,8 @@ def result_item(g: dict, box: dict | None) -> dict:
             sent.append(f"{me} covered {role}." if won or sp < 0 else f"{me} lost but covered {role}.")
         elif cover:
             sent.append(f"{me} won but didn't cover {role}." if won else f"{me} failed to cover {role}.")
-    return {"game_id": g["game_id"], "text": " ".join(sent), "tune_up": tune_up, "won": won,
+    links = [(top["name"], f"teams/{mac['key']}.html#p{top['espn_id']}")] if sc and top.get("espn_id") else []
+    return {"game_id": g["game_id"], "text": " ".join(sent), "tune_up": tune_up, "won": won, "links": links,
             "short": f"{me} {'beat' if won else 'lost to'} {them} {ms}-{os_}"}
 
 
@@ -204,6 +208,8 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     paras.append("That's Today in the MAC. Every line, box score and rating is at Hardwood Bricks dot com.")
 
     words = sum(len(p.split()) for p in paras)
+    links = [ln for r in results for ln in r.get("links", [])]
+    links += [(t.short, f"teams/{t.key}.html") for t in BY_KEY.values()]
     return {
         "date_label": date_label,
         "results_label": results_label,
@@ -211,6 +217,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         "results": results,
         "previews": previews,
         "paragraphs": paras,
+        "paragraphs_html": [link_text(p, links) for p in paras],
         "words": words,
         "seconds": round(words / WPM * 60),
         "over": words > TARGET_WORDS + 40,
@@ -221,3 +228,18 @@ def _list(xs: list[str]) -> str:
     if len(xs) <= 2:
         return " and ".join(xs)
     return ", ".join(xs[:-1]) + " and " + xs[-1]
+
+
+def link_text(text: str, links: list[tuple[str, str]]) -> str:
+    """Escape text and link the first mention of each player or MAC school in it."""
+    out = html.escape(text)
+    found: dict[str, str] = {}
+    for i, (name, href) in enumerate(sorted(links, key=lambda x: -len(x[0]))):
+        pat = re.compile(r"(?<![\w>])" + re.escape(html.escape(name)) + r"(?![\w<])")
+        token = f"\x00{i}\x00"
+        out, n = pat.subn(token, out, count=1)
+        if n:
+            found[token] = f'<a href="{html.escape(href)}">{html.escape(name)}</a>'
+    for token, a in found.items():
+        out = out.replace(token, a)
+    return out

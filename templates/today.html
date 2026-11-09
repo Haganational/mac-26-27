@@ -15,6 +15,7 @@
   .script .meta { font-size: 13px; color: var(--ink-2); margin-right: auto; }
   .script .meta b { color: var(--ink); }
   .script p { font: 19px/1.6 Georgia, "Times New Roman", serif; margin: 0 0 14px; color: var(--ink); }
+  .script p a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--gold) 70%, transparent); text-underline-offset: 3px; }
   .script p.speaking { background: color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 6px; box-shadow: 0 0 0 6px color-mix(in srgb, var(--gold) 22%, transparent); }
   .td-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
   .td-btn.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
@@ -43,15 +44,15 @@
         <button class="td-btn" type="button" id="td-copy">Copy script</button>
       </div>
       <div id="td-text">
-        {% for p in t.paragraphs %}<p>{{ p }}</p>
+        {% for p in t.paragraphs_html %}<p>{{ p|safe }}</p>
         {% endfor %}
       </div>
-      <div class="td-note">Written automatically from box scores, closing lines and the {{ site_name }} model. "Listen" uses your device's built-in voice for now.</div>
+      <div class="td-note">Written automatically from box scores (stats: ESPN), closing lines (The Odds API) and the {{ site_name }} model. "Listen" uses your device's built-in voice for now.</div>
     </article>
 
     <aside class="facts" aria-label="Where every fact comes from">
       {% if t.results %}<h2>{{ t.results_label }}</h2>
-      <ul>{% for r in t.results %}<li><a href="{{ game_href.get(r.game_id, 'index.html#recent') }}">{{ r.short }}</a></li>{% endfor %}</ul>{% endif %}
+      <ul>{% for r in t.results %}<li><a href="{{ game_href.get(r.game_id, 'index.html#recent') }}">{{ r.short }}</a> <a class="dim" href="https://www.espn.com/mens-college-basketball/boxscore/_/gameId/{{ r.game_id }}" target="_blank" rel="noopener">ESPN box ↗</a></li>{% endfor %}</ul>{% endif %}
       {% if t.previews %}<h2>{{ t.slate_label }}</h2>
       <ul>{% for p in t.previews %}{% set g = d.upcoming|selectattr('game_id','equalto',p.game_id)|first %}<li><a href="{{ game_href.get(p.game_id, 'tv.html') }}">{{ g.away.abbr }} at {{ g.home.abbr }}</a> <span class="dim">{{ g.et.time }}</span></li>{% endfor %}</ul>{% endif %}
       <h2>More</h2>

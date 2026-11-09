@@ -46,3 +46,9 @@ def test_build_groups_tune_ups_and_labels_days():
     assert "Western Michigan plays a non-Division I opponent, so no line." in t["paragraphs"][2]
     assert t["paragraphs"][3] == "Still unbeaten: Western Michigan. Still looking for a first win: Buffalo."
     assert 0 < t["seconds"] < 90
+
+
+def test_link_text_links_first_mention_only_and_escapes():
+    out = today.link_text("Miami (OH) beat Ohio. Miami (OH) won <b>", [("Miami (OH)", "teams/miami-oh.html"), ("Ohio", "teams/ohio.html")])
+    assert out.count("<a ") == 2 and out.startswith('<a href="teams/miami-oh.html">Miami (OH)</a>')
+    assert "&lt;b&gt;" in out
