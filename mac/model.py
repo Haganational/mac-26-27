@@ -220,18 +220,30 @@ def load_backtest() -> dict[str, Any] | None:
     return json.loads(backtest.BACKTEST_PATH.read_text())
 
 
-def _players(r: R.Ratings, prior: R.Ratings, now: datetime, log: bool) -> dict[str, Any] | None:
-    """Box-score player ratings. Shown on the site; not yet used in projections."""
-    from . import player_ratings
+def _players(r: R.Ratings, prior: R.Ratings, now: datetime, log: bool, table: list[dict[str, Any]],
+             names: dict[str, dict[str, Any]]) -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
+    """Box-score player ratings for the MAC page, and every conference's tables for the book.
+
+    Every D-I player is rated once; the MAC and each conference are slices. Shown on
+    the site; not yet used in projections.
+    """
+    from . import book, player_ratings
 
     try:
-        out = player_ratings.build(r, prior, now)
+        weights = player_ratings.load_weights()
+        games, players = player_ratings.season_players(r, prior, now, weights)
+        out = player_ratings.table(games, players, r, now, weights, MAC_IDS)
     except Exception as exc:  # noqa: BLE001 - player layer must never block the team model
         print(f"players: skipped ({exc!r})")
-        return None
+        return None, None
     if log:
         player_ratings.PLAYERS_PATH.write_text(json.dumps(out, indent=0))
-    return out
+    try:
+        tables = book.conference_tables(games, players, r, table, names, now, weights)
+    except Exception as exc:  # noqa: BLE001
+        print(f"book: skipped ({exc!r})")
+        tables = None
+    return out, tables
 
 
 def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any]:
@@ -267,8 +279,8 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
         "all_teams": [{"adj_o": t["adj_o"], "adj_d": t["adj_d"], "short": t["short"]} for t in table if t["games"]],
         "upcoming": upcoming, "season_to_date": std, "record": record,
         "backtest": load_backtest(),
-        "players": _players(r, prior, now, log),
     }
+    out["players"], out["book"] = _players(r, prior, now, log, table, names)
     if log:
         MODEL_DIR.mkdir(parents=True, exist_ok=True)
         RATINGS_PATH.write_text(json.dumps({

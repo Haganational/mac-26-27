@@ -9,6 +9,8 @@
   python -m mac.collect venues     # geocode any new venue city into data/venues.json
   python -m mac.collect ncaa       # refresh every D-I result this season (+ box extras, closing lines)
   python -m mac.collect ncaa-backfill  # one-time: last two seasons, for the prior and the backtest
+  python -m mac.collect conferences  # refresh data/book/conferences.json (also weekly inside ncaa)
+  python -m mac.collect book       # print every conference's table summary (the site publishes them under book/)
   python -m mac.collect ratings    # print the MAC ratings table
   python -m mac.collect box-weights  # refit what each box-score stat is worth (last season)
   python -m mac.collect all        # schedule + D-I results + lines + site (what the cron job runs)
@@ -25,12 +27,19 @@ from . import build, db, espn, ncaa, news, odds, rosters, travel
 
 
 def refresh_ncaa() -> dict:
+    from . import book, pbp
+
     if not ncaa.TEAMS_PATH.exists():
         ncaa.fetch_d1_teams()
+    if book.conferences_stale():
+        try:
+            book.fetch_conferences(SEASON)
+        except Exception as exc:  # keep the old registry; never fail the run over it
+            print(f"conferences: {exc}", file=sys.stderr)
     out = ncaa.refresh_season(SEASON)
+    # One summary call per finished D-I game: team box, closing line, and the book's player lines + lineups.
     out["enrich"] = ncaa.enrich_season(SEASON, limit=400)
-    from . import pbp
-    out["pbp"] = pbp.refresh(SEASON)  # MAC games' lineups and player lines, once per finished game
+    out["pbp"] = pbp.refresh(SEASON)  # MAC games enrichment missed, if any
     return out
 
 
@@ -55,6 +64,15 @@ def main(argv: list[str]) -> int:
         print("venues:", travel.geocode_missing(espn.load_schedule()["games"]))
     elif cmd == "ncaa":
         print("ncaa:", refresh_ncaa())
+    elif cmd == "conferences":
+        from . import book
+        out = book.fetch_conferences(SEASON)
+        print(f"conferences: {len(out['conferences'])}")
+    elif cmd == "book":
+        from . import model
+        b = model.build_model().get("book") or {"conferences": []}
+        for c in b["conferences"]:
+            print(f"{c['rk']:>3} {c['short']:<14} teams {c['teams']:>2}  players {c['players']:>4}  games {c['games']:>4}  avg net {c['avg_em'] or 0:+5.1f}  top {c['top']}")
     elif cmd == "ncaa-backfill":
         ncaa.fetch_d1_teams()
         for season in (SEASON - 2, SEASON - 1):

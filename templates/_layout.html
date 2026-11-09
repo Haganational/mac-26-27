@@ -11,7 +11,7 @@
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% endif %}<link rel="canonical" href="{{ site_url }}{{ path }}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="MAC Men's Basketball {{ season }}">
+<meta property="og:site_name" content="{{ site_name }} · MAC Men's Basketball {{ season }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ desc }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
@@ -34,7 +34,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="topbar" role="banner">
   <div class="tb-in">
-    <a class="brand" href="{{ root }}index.html" aria-label="MAC {{ season }} home"><span class="mark">MAC</span><span class="yr">{{ season }}</span></a>
+    <a class="brand" href="{{ root }}index.html" aria-label="{{ site_name }} home"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
     <nav class="tb-nav" id="tbnav" aria-label="Site">
       <a href="{{ root }}index.html"{% if active == 'index.html' %} class="on" aria-current="page"{% endif %}>Home</a>
       <details class="tb-teams{{ ' on' if active == 'teams' }}">
@@ -49,6 +49,7 @@
     <button class="tb-btn" type="button" data-share aria-label="Share this page"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M10 3v10M6 7l4-4 4 4M4 11v5h12v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Share</span></button>
     <button class="tb-btn tb-menu-btn" type="button" aria-controls="tbnav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   </div>
+  <div class="tb-bricks" aria-hidden="true"></div>
   <div class="tb-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
 </div>
 {%- endmacro %}
@@ -57,10 +58,10 @@
 <footer class="sitefoot">
   <div class="sf-in">
     <div class="sf-about">
-      <a class="brand" href="{{ root }}index.html"><span class="mark">MAC</span><span class="yr">{{ season }}</span></a>
-      <p>Every MAC men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Refreshes three times a day.</p>
+      <a class="brand" href="{{ root }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">MAC {{ season }}</span></a>
+      <p>{{ site_name }} covers every MAC men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Refreshes three times a day.</p>
       <p class="dim">Data: ESPN, The Odds API, school athletics sites, the MAC and Google News. Not affiliated with the MAC or any school.</p>
-      <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="MAC Men's Basketball {{ season }}">Share this site</button>
+      <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · MAC Men's Basketball {{ season }}">Share this site</button>
     </div>
     <nav aria-label="Pages"><h4>Pages</h4>{% for p in nav_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}</nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>

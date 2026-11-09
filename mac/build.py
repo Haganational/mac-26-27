@@ -259,7 +259,7 @@ def render_site() -> str:
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
-    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND,
+    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
@@ -366,13 +366,28 @@ def render_site() -> str:
         (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
         if m.get("players"):
             (SITE_DIR / "players.html").write_text(env.get_template("players.html").render(d=data, pr=m["players"], teamlinks=[{"key": t.key, "short": t.short, "abbr": t.abbr} for t in TEAMS]))
-        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter")}, default=str))
+        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book")}, default=str))
+        render_book(env, data, m.get("book"))
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
     finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / "index.html")
+
+
+def render_book(env: Environment, data: dict[str, Any], b: dict[str, Any] | None) -> None:
+    """The Book: every conference's tables as site/book/<slug>.json plus book.html. Derived, never committed."""
+    if not b or not b.get("tables"):
+        return
+    out = SITE_DIR / "book"
+    out.mkdir(exist_ok=True)
+    for slug, t in b["tables"].items():
+        (out / f"{slug}.json").write_text(json.dumps(t, separators=(",", ":")))
+    (out / "index.json").write_text(json.dumps(b["conferences"], separators=(",", ":")))
+    first = b["tables"].get("mac") or next(iter(b["tables"].values()))
+    (SITE_DIR / "book.html").write_text(env.get_template("book.html").render(
+        d=data, b=b, first=first, first_json=json.dumps(first, separators=(",", ":")).replace("</", "<\\/")))
 
 
 def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[str, list[dict[str, Any]]],
@@ -411,9 +426,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     og = SITE_DIR / "static" / "og"
     for size, name in ((180, "icon-180.png"), (192, "icon-192.png"), (512, "icon-512.png")):
         site_chrome.app_icon(og / name, size)
-    site_chrome.share_card(og / "site.png", "MAC Men's Basketball",
-                           "Scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
-                           kicker=f"{SEASON_LABEL} SEASON DASHBOARD")
+    site_chrome.share_card(og / "site.png", site_chrome.SITE_NAME,
+                           "MAC men's basketball: scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
+                           kicker=f"MAC MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}

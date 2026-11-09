@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC Men's Basketball {{ d.season }}{% endset %}{% set page_desc %}MAC men's basketball: standings, upcoming games, line snapshots and movement.{% endset %}
+{% set page_title %}{{ site_name }} · MAC Men's Basketball {{ d.season }}{% endset %}{% set page_desc %}MAC men's basketball: standings, upcoming games, line snapshots and movement.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="", image="static/og/site.png") }}
 </head>
 <body>
@@ -10,6 +10,7 @@
 <main id="main">
   <header class="homehero">
     <div>
+      <span class="kick">{{ site_name }}</span>
       <h1>MAC men's basketball {{ d.season }}</h1>
       <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
     </div>
@@ -39,6 +40,7 @@
   'ratings.html': '<path d="M4 16V9M10 16V4M16 16v-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
   'players.html': '<circle cx="10" cy="6.5" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 17c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   'news.html': '<path d="M4 4h10v12H4zM14 8h2v8h-2M7 8h4M7 11h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+  'book.html': '<path d="M2 15h16M2 11h7M11 11h7M2 7h16M6 7v4M14 7v4M5 11v4M10 11v4M15 11v4M4 3h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
 } %}
   <nav class="findit" aria-label="Find it fast">

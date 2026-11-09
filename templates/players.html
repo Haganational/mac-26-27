@@ -45,7 +45,7 @@
       {% for p in pr.players %}
       <tr id="p{{ p.id }}" data-team="{{ p.team_key }}" data-min="{{ p.min_pct or 0 }}">
         <td class="num dim rk"></td>
-        <td>{{ p.name }}{% if not p.returning %} <span class="pill" title="No MAC minutes last season">new</span>{% endif %}</td>
+        <td>{{ p.name }}{% if not p.returning %} <span class="pill" title="No D-I minutes last season">new</span>{% endif %}</td>
         <td><a href="teams/{{ p.team_key }}.html">{{ p.abbr }}</a></td>
         <td class="dim">{{ p.pos or "" }}</td>
         <td class="num">{{ p.gp }}</td>
@@ -69,7 +69,7 @@
       <h2>How it works</h2>
       <p><b>1. What each stat is worth.</b> Fit on {{ "{:,}".format(pr.weights.games) }} D-I team-games from last season: each team's opponent-adjusted margin per 100 possessions, regressed on its box score per 100 possessions (the stats explain {{ (pr.weights.r2_net * 100)|round|int }}% of the game-to-game margin). Weights are set so a turnover costs one average possession, so they read as points above an average use of the ball.</p>
       <p><b>2. Per player.</b> The weights are applied to each player's stats per 100 possessions on the floor. Each assist takes {{ (pr.weights.assist_share * 100)|round|int }}% of an average basket's value from the scorer and gives it to the passer.</p>
-      <p><b>3. Small samples.</b> A player's own numbers count half after 250 possessions on the floor (about 9 full games). Until then he leans on last season's rating (returning MAC players, regressed 30%) or a newcomer baseline of −1.</p>
+      <p><b>3. Small samples.</b> A player's own numbers count half after 250 possessions on the floor (about 9 full games). Until then he leans on last season's rating (any D-I player, transfers included, regressed 30%) or a newcomer baseline of −1.</p>
       <p><b>4. Tied to the team.</b> Every player on a team moves by the same amount so the five-man total matches the team's adjusted rating. A team that wins more than its box score says shares that credit.</p>
       <p><b>Known lean.</b> Like any box-score rating, it rewards efficient bigs (rebounds, blocks, high-percentage shots) and is hard on high-usage, lower-efficiency creators, whose value partly shows up in teammates' open shots. The on/off layer in December is the check on that.</p>
     </section>
