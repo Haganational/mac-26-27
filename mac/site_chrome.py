@@ -19,6 +19,9 @@ from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
 FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
+TWITCH_CHANNEL = "juiceboxtv"  # the live stream slot on Home; change to our own channel later
+# House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
+AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Fresh takes, live streams and the JuiceBox crew.", "cta": "Visit juiceboxnation.com"}
 BRAND = "#123d2e"  # deep green for the top bar and share cards
 GOLD = "#f0c75e"
 MORTAR = "#cdb99a"

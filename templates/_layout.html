@@ -56,12 +56,35 @@
 {%- endmacro %}
 
 {% macro best_play(bp, root="") -%}
-{% if bp %}<a class="bestplay" href="{{ root }}odds.html#ev{{ bp.odds_event_id }}">
-  <span class="bp-k">Best number today</span>
-  <span class="bp-pick"><b>{{ bp.pick }}</b> <span class="bp-px">{{ '+' if bp.price > 0 }}{{ bp.price }}</span></span>
-  <span class="bp-meta">{{ bp.matchup }} · {{ bp.books[:2]|join(', ') }}{% if bp.books|length > 2 %} +{{ bp.books|length - 2 }}{% endif %} · model {{ ('%+g' if bp.kind == 'spread' else '%g')|format(bp.model) }}, <b>{{ bp.edge }} pts</b> of daylight</span>
-  <span class="bp-fine">Model vs best price, not a guarantee. 21+.</span>
-</a>{% endif %}
+{% if bp %}<details class="bestplay">
+  <summary><span class="bp-k">Best number today</span><span class="bp-tease">{{ bp.matchup }} · <b>{{ bp.edge }} pts</b> of daylight</span><span class="bp-go">Reveal</span></summary>
+  <div class="bp-body">
+    <span class="bp-pick"><b>{{ bp.pick }}</b> <span class="bp-px">{{ '+' if bp.price > 0 }}{{ bp.price }}</span></span>
+    <span class="bp-meta">{{ bp.books[:2]|join(', ') }}{% if bp.books|length > 2 %} +{{ bp.books|length - 2 }}{% endif %} · model {{ ('%+g' if bp.kind == 'spread' else '%g')|format(bp.model) }} · <a href="{{ root }}odds.html#ev{{ bp.odds_event_id }}">every book</a></span>
+    <span class="bp-fine">Model vs best price, not a guarantee. 21+.</span>
+  </div>
+</details>{% endif %}
+{%- endmacro %}
+
+{% macro watch_live(channel) -%}
+{% if channel %}<section class="watch" aria-label="Watch live on Twitch">
+  <button class="watch-play" type="button" data-twitch="{{ channel }}" aria-label="Play the {{ channel }} stream">
+    <span class="wp-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="wp-txt"><span class="wp-k">Watch live</span><b>{{ channel }}</b><small>On Twitch · tap to play here</small></span>
+  </button>
+  <a class="watch-out" href="https://www.twitch.tv/{{ channel }}" target="_blank" rel="noopener">Open on Twitch ↗</a>
+</section>{% endif %}
+{%- endmacro %}
+
+{% macro ad_banner(ad) -%}
+{% if ad %}<aside class="adbar" aria-label="Advertisement">
+  <span class="ad-tag">Ad</span>
+  <a href="{{ ad.url }}" target="_blank" rel="sponsored noopener">
+    <span class="ad-logo" aria-hidden="true">JB</span>
+    <span class="ad-copy"><b>{{ ad.name }}</b><small>{{ ad.line }}</small></span>
+    <span class="ad-cta">{{ ad.cta }} →</span>
+  </a>
+</aside>{% endif %}
 {%- endmacro %}
 
 {% macro footer(root="", updated="") -%}
@@ -77,7 +100,7 @@
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>
-<script src="{{ root }}static/nav.js" defer data-root="{{ root }}" data-site="{{ site_url }}"></script>
+<script src="{{ root }}static/nav.js?v={{ asset_v }}" defer data-root="{{ root }}" data-site="{{ site_url }}"></script>
 {%- endmacro %}
 
 {#- Fieldhouse Notes. The add button only shows in author mode; GitHub decides who can actually commit. -#}
