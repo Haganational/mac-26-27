@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-09T03:13:30+00:00",
-"mu": 105.59693977355231,
-"tau": 71.10239291993075,
-"hca": 2.7616359658862657,
+"as_of": "2026-11-09T03:20:33+00:00",
+"mu": 105.59693877090436,
+"tau": 71.10239201066015,
+"hca": 2.761633109919564,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -78,7 +78,7 @@
 "rk_adj_em": 3,
 "rk_adj_o": 9,
 "rk_adj_d": 7,
-"rk_adj_t": 156,
+"rk_adj_t": 155,
 "rk_sos": 99
 },
 {
@@ -423,7 +423,7 @@
 "short": "New Mexico",
 "abbr": "UNM",
 "games": 2,
-"adj_o": 117.83,
+"adj_o": 117.82,
 "adj_d": 96.13,
 "adj_em": 21.69,
 "adj_t": 72.81,
@@ -469,7 +469,7 @@
 "adj_d": 93.84,
 "adj_em": 20.12,
 "adj_t": 75.29,
-"net_pts": 14.31,
+"net_pts": 14.3,
 "raw_margin": 34.0,
 "raw_total": 167.0,
 "raw_poss": 82.19,
@@ -1927,7 +1927,7 @@
 "rk_adj_o": 112,
 "rk_adj_d": 71,
 "rk_adj_t": 270,
-"rk_sos": 360
+"rk_sos": 365
 },
 {
 "id": "264",
@@ -2734,10 +2734,10 @@
 "abbr": "TXST",
 "games": 2,
 "adj_o": 106.69,
-"adj_d": 103.57,
+"adj_d": 103.58,
 "adj_em": 3.12,
 "adj_t": 71.02,
-"net_pts": 2.22,
+"net_pts": 2.21,
 "raw_margin": 40.5,
 "raw_total": 161.5,
 "raw_poss": 77.04,
@@ -3103,7 +3103,7 @@
 "rk_adj_o": 145,
 "rk_adj_d": 188,
 "rk_adj_t": 96,
-"rk_sos": 365
+"rk_sos": 362
 },
 {
 "id": "2754",
@@ -3165,7 +3165,7 @@
 "rk_adj_em": 150,
 "rk_adj_o": 160,
 "rk_adj_d": 179,
-"rk_adj_t": 155,
+"rk_adj_t": 156,
 "rk_sos": 288
 },
 {
@@ -3195,7 +3195,7 @@
 "short": "ETSU",
 "abbr": "ETSU",
 "games": 2,
-"adj_o": 108.77,
+"adj_o": 108.76,
 "adj_d": 107.84,
 "adj_em": 0.92,
 "adj_t": 67.37,
@@ -3269,7 +3269,7 @@
 "sos": -3.67,
 "rk_adj_em": 155,
 "rk_adj_o": 167,
-"rk_adj_d": 173,
+"rk_adj_d": 172,
 "rk_adj_t": 30,
 "rk_sos": 144
 },
@@ -3287,7 +3287,7 @@
 "raw_margin": 14.5,
 "raw_total": 170.5,
 "raw_poss": 80.98,
-"sos": -30.28,
+"sos": -30.27,
 "rk_adj_em": 156,
 "rk_adj_o": 136,
 "rk_adj_d": 212,
@@ -3560,7 +3560,7 @@
 "raw_margin": 6.5,
 "raw_total": 126.5,
 "raw_poss": 65.64,
-"sos": -4.84,
+"sos": -4.83,
 "rk_adj_em": 169,
 "rk_adj_o": 234,
 "rk_adj_d": 130,
@@ -3909,7 +3909,7 @@
 "short": "James Madison",
 "abbr": "JMU",
 "games": 2,
-"adj_o": 109.55,
+"adj_o": 109.54,
 "adj_d": 111.48,
 "adj_em": -1.93,
 "adj_t": 70.42,
@@ -4216,7 +4216,7 @@
 "rk_adj_o": 299,
 "rk_adj_d": 88,
 "rk_adj_t": 365,
-"rk_sos": 361
+"rk_sos": 359
 },
 {
 "id": "5",
@@ -4687,7 +4687,7 @@
 "abbr": "COLU",
 "games": 2,
 "adj_o": 106.39,
-"adj_d": 111.06,
+"adj_d": 111.05,
 "adj_em": -4.67,
 "adj_t": 71.04,
 "net_pts": -3.32,
@@ -4835,7 +4835,7 @@
 "games": 3,
 "adj_o": 108.6,
 "adj_d": 113.51,
-"adj_em": -4.92,
+"adj_em": -4.91,
 "adj_t": 71.6,
 "net_pts": -3.49,
 "raw_margin": -1.33,
@@ -5140,7 +5140,7 @@
 "rk_adj_o": 170,
 "rk_adj_d": 306,
 "rk_adj_t": 92,
-"rk_sos": 359
+"rk_sos": 361
 },
 {
 "id": "111",
@@ -5350,7 +5350,7 @@
 "rk_adj_o": 277,
 "rk_adj_d": 206,
 "rk_adj_t": 200,
-"rk_sos": 362
+"rk_sos": 360
 },
 {
 "id": "2199",
@@ -5495,7 +5495,7 @@
 "sos": -19.17,
 "rk_adj_em": 261,
 "rk_adj_o": 297,
-"rk_adj_d": 172,
+"rk_adj_d": 173,
 "rk_adj_t": 6,
 "rk_sos": 280
 },
@@ -7082,7 +7082,7 @@
 "games": 3,
 "adj_o": 102.5,
 "adj_d": 118.06,
-"adj_em": -15.56,
+"adj_em": -15.55,
 "adj_t": 69.12,
 "net_pts": -11.06,
 "raw_margin": -7.0,
@@ -7332,7 +7332,7 @@
 "short": "UTSA",
 "abbr": "UTSA",
 "games": 2,
-"adj_o": 95.48,
+"adj_o": 95.49,
 "adj_d": 113.92,
 "adj_em": -18.43,
 "adj_t": 71.42,
@@ -7460,7 +7460,7 @@
 "games": 3,
 "adj_o": 91.06,
 "adj_d": 112.28,
-"adj_em": -21.22,
+"adj_em": -21.21,
 "adj_t": 68.93,
 "net_pts": -15.08,
 "raw_margin": -17.33,
