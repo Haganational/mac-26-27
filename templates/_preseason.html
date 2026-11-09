@@ -1,0 +1,37 @@
+{#- Preseason picture: storyline cards, preview sources, coaches poll and preseason All-MAC. Lives on News. -#}
+  {% if d.league %}{% set lg = d.league %}
+  <section id="preseason">
+    <h2>Preseason picture</h2>
+    <div class="grid two">
+      <div>
+        {% if lg.storylines %}<div class="facts">
+          {% for s in lg.storylines[:6] %}<div class="fact"><b>{{ s.headline }}</b><span>{{ s.detail|truncate(150, killwords=False, end='…') }}</span>{% if s.source_url %} <a href="{{ s.source_url }}" class="src" target="_blank" rel="noopener">source</a>{% endif %}</div>{% endfor %}
+        </div>{% endif %}
+        {% for pv in lg.previews or [] %}
+        <details class="pv">
+          <summary><b>{{ pv.outlet|replace(' (Substack)', '') }}</b>{% if pv.title %} · {{ pv.title }}{% endif %} <span class="dim">{{ pv.date or "" }}</span></summary>
+          <p>{{ pv.summary }}{% if pv.url %} <a href="{{ pv.url }}" target="_blank" rel="noopener">Read it →</a>{% endif %}</p>
+          {% if pv.projected_order %}<p class="sub">Projected: {{ pv.projected_order|join(", ") }}</p>{% endif %}
+        </details>
+        {% endfor %}
+      </div>
+      <div>
+        {% if lg.preseason_poll %}
+        <table>
+          <tr><th>#</th><th>Coaches poll</th><th class="num">Pts</th><th class="num">1st</th></tr>
+          {% for r in lg.preseason_poll %}<tr><td class="dim">{{ r.rank }}</td><td>{{ r.team }}</td><td class="num">{{ r.points if r.points is not none else "" }}</td><td class="num">{{ r.first_place_votes or "–" }}</td></tr>{% endfor %}
+        </table>
+        {% endif %}
+        {% set awards = (lg.preseason_awards or [])|selectattr('player')|list %}
+        {% if awards %}<p class="sub">{% for a in awards %}<b>{{ a.award }}:</b> {{ a.player }}{% if a.team %} ({{ a.team }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+        {% for lvl, ps in (lg.preseason_all_mac or [])|groupby('team_level')|sort(attribute='grouper') %}
+        <p class="sub allmac"><b>Preseason All-MAC {{ lvl }}:</b> {% for a in ps %}{{ a.player }} ({{ (d.teams|selectattr('short','equalto',a.school)|map(attribute='abbr')|first) or a.school }}){% if not loop.last %}, {% endif %}{% endfor %}</p>
+        {% endfor %}
+        {% for o in lg.title_odds or [] %}
+        {% if o.odds %}<table><tr><th>{{ o.book }} title odds <span class="dim">{{ o.date }}</span></th><th class="num"></th></tr>{% for x in o.odds %}<tr><td>{{ x.team }}</td><td class="num">{{ x.price }}</td></tr>{% endfor %}</table>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
