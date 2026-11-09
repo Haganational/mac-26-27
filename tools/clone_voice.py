@@ -43,7 +43,7 @@ def main() -> None:
     for j in jobs:
         t1 = time.time()
         wav = model.generate(j["text"])
-        torchaudio.save(j["out"], wav, model.sr)
+        torchaudio.save(j["out"], wav, model.sr, encoding="PCM_S", bits_per_sample=16)  # 16-bit PCM for the wave module
         print(f"{j['out']}: {wav.shape[-1] / model.sr:.1f}s audio in {time.time() - t1:.0f}s", file=sys.stderr)
 
 
