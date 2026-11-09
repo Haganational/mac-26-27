@@ -35,10 +35,10 @@
   <section>
     <h2>Fieldhouse Notes</h2>
     {{ L.dispatches(game_notes, root="../") }}
-    {{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr) }}
+    {{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr, root="../") }}
   </section>
   {% else %}
-  <div class="author-only" style="margin:-6px 0 16px">{{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr) }}</div>
+  <div class="author-only" style="margin:-6px 0 16px">{{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr, root="../") }}</div>
   {% endif %}
 
   <div class="grid two">

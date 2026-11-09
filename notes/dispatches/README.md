@@ -1,9 +1,12 @@
 # Fieldhouse Notes
 
 Each `.md` file in this folder is one dispatch on the site's Fieldhouse Notes page.
-The easiest way to add one is the **+ Add dispatch** button on the site, in author mode
-(open `notes.html?author=1` once on your phone or laptop). It opens GitHub's editor with
-this template filled in. Commit to `main` and the site republishes in a few minutes.
+The easiest way to add one is the **author desk** on the site (`desk.html`): write the
+dispatch, pick its icon and what it is about, see the preview, and **Save draft**. Each
+draft becomes its own pull request. **Publish** merges it, and the site republishes for
+everyone a few minutes later. The desk talks to GitHub with a fine-grained token that
+stays in your browser only. The **+ Add dispatch** buttons around the site (author mode)
+open the desk with the game, team or player filled in. You can also add a file here by hand:
 
 ```
 ---

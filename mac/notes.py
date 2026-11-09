@@ -17,9 +17,11 @@ Every published dispatch also joins the news feed (ticker, news page, team
 headlines), marked with its icon and highlighted in the Fieldhouse color.
 
 Who can add one is decided by GitHub, not the site: only accounts with write
-access to the repo can commit, so readers can only read. The "Add dispatch"
-buttons on the site are shown only in author mode (visit notes.html?author=1
-once on your device) and open GitHub's file editor with the template filled in.
+access to the repo can commit, so readers can only read. Matthew writes them on
+the author desk (templates/desk.html): each saved draft is its own pull request,
+Publish merges it, and the push to notes/ republishes the site. The desk uses a
+fine-grained token kept in his browser only. "+ Add dispatch" buttons (author
+mode) open the desk with the game, team or player filled in.
 
 Bodies are rendered with a small, escaping Markdown subset: paragraphs, headings,
 bold, italic, links, lists, quotes and line breaks. Raw HTML is never passed through.

@@ -76,8 +76,8 @@
 <svg class="fh-ic" viewBox="0 0 20 20" width="{{ size }}" height="{{ size }}" role="img" aria-label="{{ notes_kinds[kind][0] }}"><title>{{ notes_kinds[kind][0] }}</title>{{ notes_kinds[kind][1]|safe }}</svg>
 {%- endmacro %}
 
-{% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="") -%}
-<button type="button" class="author-only btn-dispatch{{ ' sm' if small }}" data-dispatch="{{ gid }}" data-team="{{ team }}" data-player="{{ player }}" data-pname="{{ pname }}" data-title="{{ title }}" data-repo="{{ notes_repo }}" title="Write a Fieldhouse Notes dispatch">+ {{ 'dispatch' if small else 'Add dispatch' }}</button>
+{% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="", root="") -%}
+<a class="author-only btn-dispatch{{ ' sm' if small }}" href="{{ root }}desk.html{% if gid %}?game={{ gid }}{% elif team %}?team={{ team }}{% elif player %}?player={{ player }}{% endif %}" title="Write a Fieldhouse Notes dispatch{{ ' about ' ~ title if title }}">+ {{ 'dispatch' if small else 'Add dispatch' }}</a>
 {%- endmacro %}
 
 {% macro dispatches(items, root="", game_links={}, player_links={}) -%}
@@ -87,7 +87,7 @@
     {%- if n.game_id and game_links.get(n.game_id) %} · <a href="{{ root }}{{ game_links[n.game_id].href }}">{{ game_links[n.game_id].label }}</a>{% endif %}
     {%- for t in n.teams %}{% set tm = nav_teams|selectattr('key', 'equalto', t)|first %}{% if tm %} · <a href="{{ root }}teams/{{ t }}.html">{{ tm.short }}</a>{% endif %}{% endfor %}
     {%- if n.player and player_links.get(n.player) %} · <a href="{{ root }}{{ player_links[n.player].href }}">{{ player_links[n.player].label }}</a>{% endif %}
-    <a class="author-only edit" href="{{ n.edit_url }}" target="_blank" rel="noopener">edit</a></div>
+    <a class="author-only edit" href="{{ root }}desk.html?edit={{ n.file|urlencode }}">edit</a></div>
   {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
   <div class="body">{{ n.html|safe }}</div>
 </article>
