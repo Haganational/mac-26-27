@@ -1,0 +1,296 @@
+{
+ "athletics:akron": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "gozips.com",
+  "team": "akron",
+  "url": "https://gozips.com/rss.aspx?path=mbball"
+ },
+ "athletics:ball-state": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "ballstatesports.com",
+  "team": "ball-state",
+  "url": "https://ballstatesports.com/rss.aspx?path=mbball"
+ },
+ "athletics:bowling-green": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "bgsufalcons.com",
+  "team": "bowling-green",
+  "url": "https://bgsufalcons.com/rss.aspx?path=mbball"
+ },
+ "athletics:buffalo": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "ubbulls.com",
+  "team": "buffalo",
+  "url": "https://ubbulls.com/rss.aspx?path=mbball"
+ },
+ "athletics:central-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "cmuchippewas.com",
+  "team": "central-michigan",
+  "url": "https://cmuchippewas.com/rss.aspx?path=mbball"
+ },
+ "athletics:eastern-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "emueagles.com",
+  "team": "eastern-michigan",
+  "url": "https://emueagles.com/rss.aspx?path=mbball"
+ },
+ "athletics:kent-state": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "kentstatesports.com",
+  "team": "kent-state",
+  "url": "https://kentstatesports.com/rss.aspx?path=mbball"
+ },
+ "athletics:miami-oh": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "miamiredhawks.com",
+  "team": "miami-oh",
+  "url": "https://miamiredhawks.com/rss.aspx?path=mbball"
+ },
+ "athletics:ohio": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "ohiobobcats.com",
+  "team": "ohio",
+  "url": "https://ohiobobcats.com/rss.aspx?path=mbball"
+ },
+ "athletics:toledo": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "utrockets.com",
+  "team": "toledo",
+  "url": "https://utrockets.com/rss.aspx?path=mbball"
+ },
+ "athletics:umass": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "ParseError: no element found: line 1, column 0",
+  "kind": "athletics",
+  "ok": false,
+  "source": "umassathletics.com",
+  "team": "umass",
+  "url": "https://umassathletics.com/rss.aspx?path=mbball"
+ },
+ "athletics:western-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 10,
+  "error": null,
+  "kept": 10,
+  "kind": "athletics",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "wmubroncos.com",
+  "team": "western-michigan",
+  "url": "https://wmubroncos.com/rss.aspx?path=mbball"
+ },
+ "google:akron": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 27,
+  "error": null,
+  "kept": 13,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "akron",
+  "url": "https://news.google.com/rss/search?q=%22Akron+Zips%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:ball-state": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 53,
+  "error": null,
+  "kept": 21,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "ball-state",
+  "url": "https://news.google.com/rss/search?q=%22Ball+State%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:bowling-green": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 25,
+  "error": null,
+  "kept": 15,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "bowling-green",
+  "url": "https://news.google.com/rss/search?q=%22Bowling+Green%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:buffalo": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 26,
+  "error": null,
+  "kept": 8,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "buffalo",
+  "url": "https://news.google.com/rss/search?q=%22Buffalo+Bulls%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:central-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 45,
+  "error": null,
+  "kept": 25,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "central-michigan",
+  "url": "https://news.google.com/rss/search?q=%22Central+Michigan%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:eastern-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 37,
+  "error": null,
+  "kept": 16,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "eastern-michigan",
+  "url": "https://news.google.com/rss/search?q=%22Eastern+Michigan%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:kent-state": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 27,
+  "error": null,
+  "kept": 12,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "kent-state",
+  "url": "https://news.google.com/rss/search?q=%22Kent+State%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:miami-oh": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 20,
+  "error": null,
+  "kept": 8,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "miami-oh",
+  "url": "https://news.google.com/rss/search?q=%22Miami+RedHawks%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:ohio": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 29,
+  "error": null,
+  "kept": 11,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "ohio",
+  "url": "https://news.google.com/rss/search?q=%22Ohio+Bobcats%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:toledo": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 25,
+  "error": null,
+  "kept": 19,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "toledo",
+  "url": "https://news.google.com/rss/search?q=%22Toledo+Rockets%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:umass": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 23,
+  "error": null,
+  "kept": 8,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "umass",
+  "url": "https://news.google.com/rss/search?q=%22UMass+Minutemen%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:western-michigan": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 51,
+  "error": null,
+  "kept": 9,
+  "kind": "google",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "western-michigan",
+  "url": "https://news.google.com/rss/search?q=%22Western+Michigan%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:mac": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "entries": 10,
+  "error": null,
+  "kept": 10,
+  "kind": "league",
+  "last_ok": "2026-11-09T03:13:23+00:00",
+  "ok": true,
+  "source": "MAC (getsomemaction.com)",
+  "team": null,
+  "url": "https://getsomemaction.com/rss.aspx?path=mbball"
+ },
+ "substack:akronzippedup": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://akronzippedup.substack.com/feed",
+  "kind": "substack",
+  "ok": false,
+  "source": "Akron Zipped Up",
+  "team": "akron",
+  "url": "https://akronzippedup.substack.com/feed"
+ },
+ "substack:calebscorner": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://calebscorner.substack.com/feed",
+  "kind": "substack",
+  "ok": false,
+  "source": "Caleb's Corner",
+  "team": null,
+  "url": "https://calebscorner.substack.com/feed"
+ },
+ "substack:smacktalk": {
+  "checked_at": "2026-11-09T03:13:23+00:00",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://smacktalk.substack.com/feed",
+  "kind": "substack",
+  "ok": false,
+  "source": "sMACk Talk",
+  "team": null,
+  "url": "https://smacktalk.substack.com/feed"
+ }
+}
