@@ -35,12 +35,12 @@
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Follow on X</nav>
   <header>
     <h1>Follow the MAC on X</h1>
-    <span class="sub">Every team, coach and player handle the schools list on their official {{ d.season }} roster pages, checked {{ x.checked_at }}. Tick a box after you follow; ticks stay in this browser.</span>
+    <span class="sub">Team, coach and player handles from the official {{ d.season }} school roster pages, plus players found among the accounts their team follows on X (checked {{ x.checked_at }}). Tick a box after you follow; ticks stay in this browser.</span>
   </header>
 
   <div class="tiles">
     <div class="tile"><div class="v">{{ counts.handles }}</div><div class="k">accounts to follow</div></div>
-    <div class="tile"><div class="v">{{ counts.players }} / {{ counts.roster }}</div><div class="k">players with a handle on their school site</div></div>
+    <div class="tile"><div class="v">{{ counts.players }} / {{ counts.roster }}</div><div class="k">players with a handle</div></div>
     <div class="tile"><div class="v" id="done">0</div><div class="k">followed so far</div><div class="bar"><span id="bar"></span></div></div>
   </div>
 
