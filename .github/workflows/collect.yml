@@ -30,6 +30,10 @@ jobs:
       - name: Refresh schedule, snapshot lines, render site
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          # Optional repo variables (Settings > Secrets and variables > Actions > Variables):
+          # SITE_URL for a custom domain, SITE_NOINDEX=1 to keep search engines out.
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: python -m mac.collect all
       - name: Commit new data
         run: |

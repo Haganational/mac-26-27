@@ -235,3 +235,176 @@ table.nowrap td { white-space: nowrap; }
 .chips button { font: inherit; font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); cursor: pointer; }
 .chips button.on { background: var(--ink); color: var(--page); border-color: var(--ink); }
 .ok { color: var(--good); } .bad { color: var(--bad); }
+
+/* ===================================================================
+   Site chrome: brand colors, top bar, search, share, footer, team colors.
+   Team classes (.t-akron etc.) come from static/teams.css, generated from
+   mac/config.py, and set --tc (primary), --tc2 (accent), --tci (text on --tc).
+   =================================================================== */
+:root { --brand: #0b2147; --brand-2: #16356e; --gold: #f2b705; --tc: var(--s1); --tc2: #fff; --tci: #fff; --tca: var(--tc); --bar-h: 58px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --brand: #0a1a38; --brand-2: #132c5c; } }
+:root[data-theme="dark"] { --brand: #0a1a38; --brand-2: #132c5c; }
+/* On dark pages a navy or maroon team color disappears; lift it for borders and text. */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) [class^="t-"], :root:not([data-theme="light"]) [class*=" t-"], :root:not([data-theme="light"]) [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); } }
+:root[data-theme="dark"] [class^="t-"], :root[data-theme="dark"] [class*=" t-"], :root[data-theme="dark"] [data-team] { --tca: color-mix(in srgb, var(--tc) 55%, #fff); }
+html.noscroll { overflow: hidden; }
+html { scroll-padding-top: calc(var(--bar-h) + 52px); }
+body { background: linear-gradient(180deg, color-mix(in srgb, var(--s1) 7%, var(--page)) 0, var(--page) 420px) no-repeat, var(--page); }
+.skip { position: absolute; left: -999px; top: 8px; z-index: 100; background: var(--surface); color: var(--ink); padding: 6px 10px; border-radius: 6px; }
+.skip:focus { left: 8px; }
+
+/* Top bar */
+.topbar { position: sticky; top: 0; z-index: 40; background: var(--brand); color: #fff; box-shadow: 0 2px 12px rgba(0,0,0,.18); }
+.tb-in { max-width: 1180px; margin: 0 auto; padding: 0 16px; height: var(--bar-h); display: flex; align-items: center; gap: 14px; }
+.brand { display: inline-flex; align-items: baseline; gap: 6px; color: #fff; font-weight: 800; letter-spacing: .02em; flex: none; }
+.brand:hover { text-decoration: none; }
+.brand .mark { background: var(--gold); color: var(--brand); border-radius: 6px; padding: 2px 7px; font-size: 15px; }
+.brand .yr { font-size: 14px; color: #c9d3e6; font-weight: 600; }
+.tb-nav { display: flex; align-items: center; gap: 2px; flex: 1; min-width: 0; }
+.tb-nav > a, .tb-teams > summary { color: #dfe6f3; font-size: 14px; font-weight: 500; padding: 7px 10px; border-radius: 8px; white-space: nowrap; cursor: pointer; list-style: none; }
+.tb-teams > summary::-webkit-details-marker { display: none; }
+.tb-teams > summary::after { content: " ▾"; font-size: 11px; opacity: .8; }
+.tb-nav > a:hover, .tb-teams > summary:hover { background: rgba(255,255,255,.10); text-decoration: none; color: #fff; }
+.tb-nav > a.on, .tb-teams.on > summary { color: #fff; background: rgba(255,255,255,.14); box-shadow: inset 0 -3px 0 var(--gold); }
+.tb-teams { position: relative; }
+.tb-menu { position: absolute; top: calc(100% + 8px); left: 0; z-index: 50; width: min(560px, 92vw); display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 6px; padding: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,.22); }
+a.tchip { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 8px; font-size: 14px; font-weight: 600; background: var(--tc); color: var(--tci); border-bottom: 3px solid var(--tc2); }
+a.tchip:hover { text-decoration: none; filter: brightness(1.12); }
+a.tchip img { width: 20px; height: 20px; background: #fff; border-radius: 50%; padding: 1px; }
+.tb-search { flex: 0 1 300px; min-width: 0; display: flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px; border-radius: 9px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.08); color: #c9d3e6; font: inherit; font-size: 13px; cursor: pointer; text-align: left; }
+.tb-search:hover { background: rgba(255,255,255,.14); color: #fff; }
+.tb-search span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+kbd { font: 11px ui-monospace, Menlo, monospace; border: 1px solid currentColor; border-radius: 4px; padding: 0 4px; opacity: .7; }
+.tb-btn { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 12px; border-radius: 9px; border: 1px solid rgba(255,255,255,.18); background: transparent; color: #fff; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; flex: none; }
+.tb-btn:hover { background: rgba(255,255,255,.12); }
+.tb-menu-btn { display: none; }
+.tb-stripe { display: flex; height: 4px; }
+.tb-stripe i { flex: 1; }
+@media (max-width: 1080px) { .tb-search span, .tb-search kbd { display: none; } .tb-search { flex: none; width: 40px; justify-content: center; padding: 0; } }
+@media (max-width: 900px) {
+  .tb-menu-btn { display: inline-flex; padding: 0 10px; }
+  .tb-btn[data-share] span { display: none; }
+  .tb-in { gap: 8px; }
+  .tb-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: stretch; background: var(--brand); padding: 8px 12px 14px; box-shadow: 0 12px 24px rgba(0,0,0,.25); }
+  .tb-nav.open { display: flex; }
+  .tb-nav > a, .tb-teams > summary { padding: 10px 12px; font-size: 16px; }
+  .tb-menu { position: static; width: auto; margin: 4px 0 6px; grid-template-columns: 1fr 1fr; background: transparent; border: 0; box-shadow: none; padding: 0; }
+  .tb-in > .brand { margin-right: auto; }
+}
+
+/* "On this page" jump bar and section links */
+.onpage { position: sticky; top: calc(var(--bar-h) + 4px); z-index: 30; display: flex; gap: 4px; align-items: center; overflow-x: auto; scrollbar-width: none; margin: -6px 0 18px; padding: 6px; background: color-mix(in srgb, var(--surface) 88%, transparent); backdrop-filter: blur(8px); border: 1px solid var(--border); border-radius: 12px; }
+.onpage::-webkit-scrollbar { display: none; }
+.onpage .op-k { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 0 6px; white-space: nowrap; }
+.onpage a { white-space: nowrap; font-size: 13px; padding: 4px 10px; border-radius: 999px; color: var(--ink-2); }
+.onpage a:hover { background: var(--neutral); text-decoration: none; }
+.onpage a.on { background: var(--brand); color: #fff; }
+section h2 { position: relative; }
+section h2::before { content: ""; display: inline-block; width: 4px; height: .95em; border-radius: 2px; background: var(--h2c, var(--s1)); margin-right: 8px; vertical-align: -1px; }
+.hlink { margin-left: 6px; color: var(--muted); font-weight: 400; opacity: 0; transition: opacity .15s; }
+section h2:hover .hlink, .hlink:focus { opacity: 1; text-decoration: none; }
+@media (pointer: coarse) { .hlink { opacity: .5; } }
+section:target, article:target, tr:target td { animation: flash 2.2s ease-out; }
+section:target { box-shadow: 0 0 0 2px var(--gold); }
+section, article, tr { scroll-margin-top: calc(var(--bar-h) + 56px); }
+main > section:nth-of-type(4n+2) h2, .grid > section:nth-child(2) h2 { --h2c: var(--s2); }
+main > section:nth-of-type(4n+3) h2 { --h2c: var(--s3); }
+main > section:nth-of-type(4n) h2 { --h2c: var(--s7); }
+main.teampage section h2, main.teampage .grid > section:nth-child(n) h2, main.teampage > section:nth-of-type(n) h2 { --h2c: var(--tca); }
+
+/* Tiles get a colored cap */
+.tile { border-top: 3px solid var(--s1); }
+.tiles .tile:nth-child(5n+2) { border-top-color: var(--s2); }
+.tiles .tile:nth-child(5n+3) { border-top-color: var(--s3); }
+.tiles .tile:nth-child(5n+4) { border-top-color: var(--s7); }
+.tiles .tile:nth-child(5n+5) { border-top-color: var(--gold); }
+main.teampage .tiles .tile { border-top-color: var(--tca); }
+main.teampage .onpage a.on { background: var(--tc); color: var(--tci); }
+@media (pointer: coarse) { .hh-search kbd, .tb-search kbd { display: none; } }
+
+/* Team colors on shared pieces */
+.teamgrid a { border-left: 5px solid var(--tc); background: linear-gradient(90deg, color-mix(in srgb, var(--tc) 10%, var(--surface)), var(--surface) 70%); }
+.teamgrid a:hover { border-color: var(--tc); box-shadow: 0 4px 14px color-mix(in srgb, var(--tc) 28%, transparent); transform: translateY(-1px); }
+.teamgrid a { transition: transform .12s, box-shadow .12s; }
+.teamnav a[class^="t-"] { border-color: color-mix(in srgb, var(--tca) 55%, transparent); color: var(--ink); box-shadow: inset 3px 0 0 var(--tc); }
+.teamnav a[class^="t-"].on, .teamnav a[class^="t-"]:hover { background: var(--tc); color: var(--tci); border-color: var(--tc); text-decoration: none; }
+.chips button[data-team] { box-shadow: inset 3px 0 0 var(--tc); }
+.chips button[data-team].on { background: var(--tc); color: var(--tci); border-color: var(--tc); }
+a.pill[href*="teams/"] { border-color: color-mix(in srgb, var(--tca) 60%, transparent); color: var(--ink); background: color-mix(in srgb, var(--tc) 10%, transparent); font-weight: 600; }
+.tdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--tc); box-shadow: 0 0 0 2px color-mix(in srgb, var(--tc2) 70%, transparent); margin-right: 6px; vertical-align: 0; flex: none; }
+tr[class^="t-"] td:first-child { box-shadow: inset 4px 0 0 var(--tc); }
+
+/* Team page hero */
+.teamhead.hero { position: relative; overflow: hidden; color: var(--tci); background: linear-gradient(120deg, var(--tc) 0%, var(--tc) 55%, color-mix(in srgb, var(--tc) 70%, #000) 100%); border-radius: 16px; padding: 20px 22px; border-bottom: 6px solid var(--tc2); }
+.teamhead.hero::after { content: ""; position: absolute; right: -60px; top: -40px; width: 260px; height: 260px; border-radius: 50%; border: 36px solid color-mix(in srgb, var(--tc2) 22%, transparent); pointer-events: none; }
+.teamhead.hero .sub { color: color-mix(in srgb, var(--tci) 85%, transparent); font-size: 14px; }
+.teamhead.hero img { background: #fff; border-radius: 14px; padding: 6px; width: 76px; height: 76px; box-shadow: 0 4px 14px rgba(0,0,0,.2); }
+.teamhead.hero h1 { font-size: 30px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; position: relative; z-index: 1; }
+.hero-actions a, .hero-actions button { font: inherit; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 8px; background: color-mix(in srgb, var(--tci) 16%, transparent); color: var(--tci); border: 1px solid color-mix(in srgb, var(--tci) 30%, transparent); cursor: pointer; }
+.hero-actions a:hover, .hero-actions button:hover { background: color-mix(in srgb, var(--tci) 26%, transparent); text-decoration: none; }
+
+/* Box score header in team colors */
+.scorehead .side[class*=" t-"] { border-left: 6px solid var(--tc); background: linear-gradient(90deg, color-mix(in srgb, var(--tc) 12%, var(--surface)), var(--surface) 70%); }
+
+/* Home: "Find it fast" directory */
+.findit { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-bottom: 22px; }
+.findit a { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); color: var(--ink); border-top: 4px solid var(--fc); transition: transform .12s, box-shadow .12s; }
+.findit a:hover { text-decoration: none; transform: translateY(-2px); box-shadow: 0 6px 18px color-mix(in srgb, var(--fc) 25%, transparent); }
+.findit .ic { flex: none; width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; background: color-mix(in srgb, var(--fc) 16%, transparent); color: var(--fc); }
+.findit b { display: block; font-size: 15px; }
+.findit small { display: block; color: var(--ink-2); font-size: 12px; line-height: 1.35; margin-top: 2px; }
+.homehero { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-bottom: 18px; padding: 22px; border-radius: 16px; color: #fff; background: radial-gradient(120% 140% at 100% 0%, var(--brand-2) 0%, var(--brand) 60%); position: relative; overflow: hidden; }
+.homehero h1 { font-size: 30px; }
+.homehero .sub { color: #c9d3e6; max-width: 70ch; }
+.homehero .hh-stripe { position: absolute; left: 0; right: 0; bottom: 0; height: 5px; display: flex; }
+.homehero .hh-stripe i { flex: 1; }
+.homehero .hh-search { margin-left: auto; display: flex; align-items: center; gap: 8px; min-width: 260px; height: 42px; padding: 0 14px; border-radius: 10px; border: 0; background: #fff; color: #52514e; font: inherit; font-size: 14px; cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,.2); }
+.homehero .hh-search kbd { margin-left: auto; }
+@media (max-width: 700px) { .homehero .hh-search { margin-left: 0; width: 100%; } }
+
+/* Search dialog */
+.searchdlg { position: fixed; inset: 0; z-index: 90; background: rgba(5,12,28,.55); backdrop-filter: blur(3px); display: flex; justify-content: center; align-items: flex-start; padding: 9vh 12px 12px; }
+.searchdlg[hidden] { display: none; }
+.sd-box { width: min(640px, 100%); max-height: 78vh; display: flex; flex-direction: column; background: var(--surface); color: var(--ink); border-radius: 14px; box-shadow: 0 24px 64px rgba(0,0,0,.4); overflow: hidden; border-top: 4px solid var(--gold); }
+.sd-in { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-bottom: 1px solid var(--grid); color: var(--muted); }
+.sd-in input { flex: 1; font: inherit; font-size: 17px; border: 0; outline: 0; background: transparent; color: var(--ink); }
+.sd-res { list-style: none; margin: 0; padding: 6px; overflow-y: auto; }
+.sd-res li a { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 9px; color: var(--ink); }
+.sd-res li a:hover { text-decoration: none; }
+.sd-res li.on a { background: color-mix(in srgb, var(--s1) 12%, transparent); box-shadow: inset 3px 0 0 var(--s1); }
+.sd-res li.on a[class^="t-"] { background: color-mix(in srgb, var(--tc) 14%, transparent); box-shadow: inset 3px 0 0 var(--tca); }
+.sd-t { flex: 1; min-width: 0; font-weight: 600; }
+.sd-t small { display: block; font-weight: 400; color: var(--ink-2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sd-k { flex: none; width: 64px; text-align: center; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 0; border-radius: 6px; background: var(--neutral); color: var(--ink-2); }
+.sd-k.k-Team { background: var(--brand); color: var(--gold); }
+.sd-k.k-Player { background: color-mix(in srgb, var(--s3) 18%, transparent); color: var(--s3); }
+.sd-k.k-Game { background: color-mix(in srgb, var(--s2) 18%, transparent); color: var(--s2); }
+.sd-k.k-Page { background: color-mix(in srgb, var(--s1) 18%, transparent); color: var(--s1); }
+.sd-k.k-Coach { background: color-mix(in srgb, var(--s7) 18%, transparent); color: var(--s7); }
+.sd-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tc); flex: none; }
+.sd-empty { padding: 18px; color: var(--ink-2); }
+.sd-foot { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 14px; border-top: 1px solid var(--grid); font-size: 12px; color: var(--muted); }
+.sd-foot kbd { margin-right: 2px; }
+
+/* Share popover and toast */
+.sharepop { position: absolute; z-index: 95; width: 240px; padding: 8px; background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,.25); }
+.sharepop .sp-title { font-weight: 700; padding: 2px 8px; }
+.sharepop .sp-url { font-size: 12px; color: var(--muted); padding: 0 8px 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-bottom: 1px solid var(--grid); margin-bottom: 4px; }
+.sharepop a, .sharepop button { display: block; width: 100%; text-align: left; font: inherit; font-size: 14px; padding: 7px 8px; border-radius: 8px; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.sharepop a:hover, .sharepop button:hover { background: var(--neutral); text-decoration: none; }
+#toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; z-index: 99; background: var(--brand); color: #fff; padding: 8px 14px; border-radius: 999px; font-size: 14px; font-weight: 600; transition: all .2s; pointer-events: none; box-shadow: 0 8px 24px rgba(0,0,0,.3); }
+#toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+/* Footer */
+.sitefoot { margin-top: 24px; background: var(--brand); color: #c9d3e6; border-top: 4px solid var(--gold); }
+.sf-in { max-width: 1180px; margin: 0 auto; padding: 28px 16px 40px; display: grid; gap: 24px; grid-template-columns: 1fr; font-size: 14px; }
+@media (min-width: 800px) { .sf-in { grid-template-columns: 2fr 1fr 1.4fr; } }
+.sitefoot p { margin: 10px 0; max-width: 60ch; }
+.sitefoot .dim { color: #8d9bb8; font-size: 12px; }
+.sitefoot h4 { margin: 0 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--gold); }
+.sitefoot nav a { display: block; color: #dfe6f3; padding: 3px 0; }
+.sf-teams { columns: 2; column-gap: 16px; }
+.sf-teams h4 { column-span: all; }
+.sf-teams a i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
+main { padding-bottom: 24px; }

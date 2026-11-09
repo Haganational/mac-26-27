@@ -1,16 +1,14 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC TV Schedule</title>
-<meta name="description" content="Every MAC men's basketball game in 2026-27 with tip time (Eastern) and where to watch.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC TV Schedule{% endset %}{% set page_desc %}Every MAC men's basketball game in 2026-27 with tip time (Eastern) and where to watch.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="tv.html", image="static/og/tv.png") }}
 </head>
 <body>
-<main>
+{{ L.topbar(root="", active="tv.html") }}
+<main id="main">
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> TV schedule
-    <span class="teamnav"><a href="travel.html">Travel map</a></span>
   </nav>
   <header>
     <h1>TV schedule</h1>
@@ -56,7 +54,7 @@
         <tbody class="tvday" data-daywrap="{{ day.key }}">
           <tr class="dayrow"><td colspan="4"><div class="dayhead" data-day="{{ day.key }}"><h3>{{ day.label }} <span class="rel"></span></h3><span class="dim cnt"></span></div></td></tr>
           {% for g in day.games %}
-          <tr data-tier="{{ 'none' if g.watch.tier == 'local' else g.watch.tier }}" data-teams="{{ g.home.key or '' }} {{ g.away.key or '' }}" data-conf="{{ 1 if g.conference_game else 0 }}" data-done="{{ 1 if g.completed else 0 }}">
+          <tr id="g{{ g.game_id }}" data-tier="{{ 'none' if g.watch.tier == 'local' else g.watch.tier }}" data-teams="{{ g.home.key or '' }} {{ g.away.key or '' }}" data-conf="{{ 1 if g.conference_game else 0 }}" data-done="{{ 1 if g.completed else 0 }}">
             <td class="tipcell"><b>{{ g.et.time }}</b></td>
             <td class="watchcell">{{ watchchips(g.watch) }}</td>
             <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</span></td>
@@ -70,6 +68,7 @@
     {% endfor %}
   </section>
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 <script>
 (function () {
   const etParts = (d) => Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(d).map(p => [p.type, p.value]));

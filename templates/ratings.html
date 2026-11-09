@@ -1,11 +1,9 @@
+{% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MAC Ratings Model</title>
-<meta name="description" content="Opponent-adjusted, recency-weighted ratings for every MAC team, projected spreads and totals, and where the model disagrees with the market.">
-<link rel="stylesheet" href="static/site.css">
+{% set page_title %}MAC Ratings Model{% endset %}{% set page_desc %}Opponent-adjusted, recency-weighted ratings for every MAC team, projected spreads and totals, and where the model disagrees with the market.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="ratings.html", image="static/og/ratings.png") }}
 <style>
   .edge { font-weight: 600; }
   .edge.flag { color: var(--ink); background: color-mix(in srgb, var(--warn) 30%, transparent); border-radius: 6px; padding: 1px 6px; }
@@ -28,9 +26,9 @@
 </style>
 </head>
 <body>
-<main>
+{{ L.topbar(root="", active="ratings.html") }}
+<main id="main">
   <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Ratings model
-    <span class="teamnav"><a href="tv.html">TV</a><a href="travel.html">Travel</a></span>
   </nav>
   <header>
     <h1>Ratings model</h1>
@@ -217,5 +215,6 @@
     </div>
   </section>
 </main>
+{{ L.footer(root="", updated=d.generated_et) }}
 </body>
 </html>

@@ -65,6 +65,22 @@ pytest -q
 1. Repository secret `ODDS_API_KEY` (Settings > Secrets and variables > Actions).
 2. GitHub Pages: Settings > Pages > Source: **GitHub Actions**.
 3. Run the "Collect lines and publish dashboard" workflow once by hand to seed data.
+4. Optional repo variables (Settings > Secrets and variables > Actions > Variables):
+   `SITE_URL` when the site moves to a custom domain (share cards and canonical links
+   use it), `SITE_NOINDEX=1` to ask search engines not to index the site.
+
+## Navigation, colors and sharing
+
+- Every page imports `templates/_layout.html` for the head (Open Graph / X card tags),
+  the sticky top bar (pages, a Teams menu, search, share) and the footer.
+- `templates/static/nav.js` runs search (`/` or Ctrl+K) over `site/search.json`,
+  builds the "On this page" bar, adds a copy-link `#` to every section heading and
+  opens the share menu (native share sheet on phones).
+- `mac/site_chrome.py` runs after rendering: gives every `<section>` with an `<h2>` a
+  stable id, writes the search index (pages, sections, teams, coaches, players, every
+  game), `static/teams.css` from the colors in `mac/config.py` (`.t-<key>` sets
+  `--tc`, `--tc2`, `--tci`), 1200x630 share cards in `static/og/` (site, each page,
+  each team, each final), app icons, `manifest.webmanifest`, `robots.txt`, `sitemap.xml`.
 
 ## Layout
 
@@ -78,6 +94,7 @@ mac/ratings.py   the rating model: fit, project, team table, walk-forward
 mac/model.py     current ratings, MAC projections vs market, run logs
 mac/backtest.py  walk-forward backtest and knob sweep
 mac/build.py     dashboard data + rendering
+mac/site_chrome.py  search index, section anchors, team colors, share cards
 mac/db.py        SQLite export
 mac/collect.py   CLI
 data/            schedule.json, lines/*.jsonl (committed by the collector)
