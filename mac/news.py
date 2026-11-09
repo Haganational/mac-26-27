@@ -81,11 +81,14 @@ NAMES: dict[str, dict[str, Any]] = {
 
 # Words that mark a general-news headline as being about men's hoops.
 HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\bMAC (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
-WOMENS = re.compile(r"women[’']?s|minutewomen|\bWBB\b|\blady\b", re.I)
+WOMENS = re.compile(r"women[’']?s|minutewomen|\bWBB\b|\blady\b|\bW\. ?Basketball\b", re.I)
+# A school site reached through Google News covers every sport, and "MAC Tournament" or
+# "NCAA Tournament" alone is just as likely soccer or volleyball: the headline has to say basketball.
+SAYS_HOOPS = re.compile(r"basketball|hoops|\bMBB\b", re.I)
 MENS = re.compile(r"\bmen[’']?s\b", re.I)
 MENS_HOOPS = re.compile(r"\bmen[’']?s (college )?basketball\b|\bMBB\b", re.I)
 OTHER_SPORT = re.compile(r"\b(soccer|football|volleyball|softball|baseball|hockey|wrestling|gymnastics|swimming|swim|track|cross country|golf|tennis|lacrosse|rowing)\b", re.I)
-HIGH_SCHOOL = re.compile(r"high school|\bvarsity\b|\bHSRC\b|\bboys\b|\bgirls\b", re.I)
+HIGH_SCHOOL = re.compile(r"high school|\bvarsity\b|\bHSRC\b|\bboys\b|\bgirls\b|\bacademy\b|^Schedule - ", re.I)
 # Pick-site and betting-tout filler that Google News surfaces for every game.
 SPAM = re.compile(r"\bpredictions?\b|\bpicks?\b|computer pick|best bets?\b|betting (preview|odds)|\bprops?\b|\broster\b - ", re.I)
 
@@ -248,7 +251,7 @@ def headline_ok(title: str, kind: str, team: str | None, url: str = "") -> bool:
         return False
     if url and host(url).endswith("substack.com"):  # Matthew: no Substack in the ticker
         return False
-    if kind != "google" and "news.google.com" in url and not HOOPS.search(title):
+    if kind != "google" and "news.google.com" in url and not SAYS_HOOPS.search(title):
         # A school site reached through Google News covers every sport, so the
         # headline itself has to say it is basketball.
         return False
@@ -413,7 +416,8 @@ def reddit_links(team_key: str | None) -> list[dict[str, str]]:
 
 
 def view(now: datetime, team_key: str | None = None, limit: int = 40) -> dict[str, Any]:
-    items = load_items()
+    # Re-check stored items so a tightened filter takes effect without waiting for the next fetch.
+    items = [i for i in load_items() if headline_ok(i["title"], i["kind"], _feed_team(i), i["url"])]
     if team_key:
         items = [i for i in items if team_key in i["teams"]]
     out = []

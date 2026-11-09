@@ -34,6 +34,57 @@ def poll_rank_by_key() -> dict[str, int]:
     return out
 
 
+TWO_WORD_MASCOTS = ("Nittany Lions", "Fighting Camels", "Golden Flashes", "Blue Devils", "Tar Heels", "Red Storm", "Fighting Irish",
+                    "Golden Eagles", "Mean Green", "Crimson Tide", "Fighting Muskies", "Golden Griffins", "Blue Raiders", "Red Raiders",
+                    "Yellow Jackets", "Sun Devils", "Horned Frogs", "Demon Deacons", "Fighting Illini", "Rainbow Warriors", "Great Danes",
+                    "Black Bears", "Purple Eagles", "Golden Hurricane", "Golden Gophers", "Scarlet Knights", "Red Wolves", "Thundering Herd",
+                    "Golden Bears", "Mountain Hawks", "Big Green", "Big Red", "Green Wave", "Blue Hens", "Golden Lions", "Delta Devils",
+                    "Purple Aces", "Golden Grizzlies", "Golden Panthers", "Blue Hose", "Fighting Hawks", "Red Flash", "Running Rebels",
+                    "Fighting Scots", "Golden Rams", "Golden Hawks", "Fighting Quakers", "Red Foxes", "Black Knights", "Lady Lions")
+
+
+def school(name: str) -> str:
+    """ "Cleveland State Vikings" -> "Cleveland State": the team name without its mascot."""
+    for m in TWO_WORD_MASCOTS:
+        if name.endswith(" " + m):
+            return name[: -len(m) - 1]
+    return name.rsplit(" ", 1)[0] if " " in name else name
+
+
+def mac_ats(g: dict[str, Any]) -> list[dict[str, Any]]:
+    """ATS result from each MAC team's side of a finished game: y (covered), n, push, or None (no line)."""
+    out = []
+    for side in ("home", "away"):
+        key = g[side].get("key")
+        if not key:
+            continue
+        cov = g.get("ats_cover")
+        res = None if not cov else ("push" if cov == "push" else ("y" if cov == side else "n"))
+        out.append({"key": key, "abbr": g[side]["abbr"], "res": res})
+    return out
+
+
+def ats_board(recent: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Against-the-spread records over the results window, MAC teams only, best first."""
+    rec: dict[str, dict[str, Any]] = {t.key: {"key": t.key, "team": t.short, "abbr": t.abbr, "w": 0, "l": 0, "p": 0} for t in TEAMS}
+    for g in recent:
+        for m in g.get("mac_ats", []):
+            if m["res"] in ("y", "n", "push"):
+                rec[m["key"]]["wlp"[("y", "n", "push").index(m["res"])]] += 1
+    rows = [r for r in rec.values() if r["w"] + r["l"] + r["p"]]
+    rows.sort(key=lambda r: (-(r["w"] - r["l"]), -r["w"], r["team"]))
+    return rows
+
+
+def tonight_games(upcoming: list[dict[str, Any]], now: datetime, hours: int = 36) -> list[dict[str, Any]]:
+    """MAC games tipping in the next `hours` (or the next game day, if none fall inside it)."""
+    soon = [g for g in upcoming if g.get("tip") and datetime.fromisoformat(g["tip"]) - now <= timedelta(hours=hours)]
+    if not soon and upcoming:
+        first = upcoming[0]["et"]["day_key"]
+        soon = [g for g in upcoming if g["et"]["day_key"] == first]
+    return soon
+
+
 def dashboard_data(now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
     schedule = load_schedule()
@@ -49,6 +100,9 @@ def dashboard_data(now: datetime | None = None) -> dict:
             if g["closing_spread"] is not None:
                 diff = g["margin"] + g["closing_spread"]
                 g["ats_cover"] = "push" if diff == 0 else ("home" if diff > 0 else "away")
+    for g in recent:
+        g["mac_ats"] = mac_ats(g)
+        g["md"] = datetime.fromisoformat(g["date"].replace("Z", "+00:00")).astimezone(schedule_view.ET).strftime("%b %-d")
     upcoming = [schedule_view.decorate(g) for g in analysis.upcoming(games, history, now)]
     window_days = schedule_view.group_by_day(upcoming, start=now, days=8)
     for day in window_days:
@@ -70,6 +124,7 @@ def dashboard_data(now: datetime | None = None) -> dict:
         "days": window_days,
         "hour_range": list(range(lo, hi)),
         "recent": recent,
+        "ats": ats_board(recent),
         "posting": {**analysis.posting_stats(history), "by_book": [{**b, "name": oddsboard.book_name(b["book"])} for b in analysis.book_posting(line_rows)]},
         "history": list(history.values()),
         "counts": {
@@ -262,8 +317,11 @@ def render_site() -> str:
         for g in data["upcoming"]:
             g["model"] = proj.get(g["game_id"])
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
+    data["tonight"] = tonight_games(data["upcoming"], now)
+    data["book_names"] = {b: oddsboard.book_name(b) for h in data["history"] for b in h["latest_by_book"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
+    env.filters["school"] = school
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
     SITE_DIR.mkdir(parents=True, exist_ok=True)
