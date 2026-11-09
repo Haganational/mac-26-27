@@ -54,6 +54,13 @@ def main(argv: list[str]) -> int:
         print("boxscores:", rosters.refresh_boxscores())
     elif cmd == "lines":
         print(json.dumps(odds.snapshot_lines(), indent=1))
+    elif cmd == "quick":
+        # Every-15-minute run: one odds snapshot (3 requests) and a re-render. No ESPN, news or ratings refresh.
+        try:
+            print(json.dumps(odds.snapshot_lines(), indent=1))
+        except odds.OddsApiError as exc:
+            print(f"lines: skipped ({exc})", file=sys.stderr)
+        print("site:", build.render_site())
     elif cmd == "build-db":
         print("sqlite:", db.build())
     elif cmd == "site":

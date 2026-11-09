@@ -38,7 +38,8 @@ def dashboard_data(now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
     schedule = load_schedule()
     games = schedule["games"]
-    history = analysis.line_history(load_all_rows())
+    line_rows = load_all_rows()
+    history = analysis.line_history(line_rows)
     espn_lines = espn_lines_by_game()
     recent = analysis.recent_results(games, history, now)
     for g in recent:  # fall back to ESPN's DraftKings number when we have no snapshot
@@ -69,7 +70,7 @@ def dashboard_data(now: datetime | None = None) -> dict:
         "days": window_days,
         "hour_range": list(range(lo, hi)),
         "recent": recent,
-        "posting": analysis.posting_stats(history),
+        "posting": {**analysis.posting_stats(history), "by_book": [{**b, "name": oddsboard.book_name(b["book"])} for b in analysis.book_posting(line_rows)]},
         "history": list(history.values()),
         "counts": {
             "games": len(games),

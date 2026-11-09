@@ -219,5 +219,37 @@ def posting_stats(history: dict[str, dict[str, Any]]) -> dict[str, Any]:
         "events": len(history),
         "median_lead_hours": round(median(leads), 1) if leads else None,
         "median_abs_spread_move": round(median(moves), 2) if moves else None,
-        "note": "Lead time is capped by our snapshot cadence; it measures when we first saw a line, not when the book posted it.",
+        "note": "Lines are checked every 15 minutes, so a posting time here is accurate to within 15 minutes of when the book put it up.",
     }
+
+
+def book_posting(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Per book: how many games we saw it price, how far before tip we first saw its spread, and how often it was first.
+
+    Precision is one snapshot interval (15 minutes), so ties within a snapshot all count as first."""
+    first: dict[tuple[str, str], str] = {}
+    tip: dict[str, str] = {}
+    for r in rows:
+        if r.get("market") != "spreads":
+            continue
+        key = (r["odds_event_id"], r["book"])
+        if key not in first or r["captured_at"] < first[key]:
+            first[key] = r["captured_at"]
+        tip[r["odds_event_id"]] = r["commence_time"]
+    earliest: dict[str, str] = {}
+    for (ev, _), t in first.items():
+        if ev not in earliest or t < earliest[ev]:
+            earliest[ev] = t
+    by: dict[str, dict[str, Any]] = {}
+    for (ev, book), t in first.items():
+        b = by.setdefault(book, {"book": book, "games": 0, "first": 0, "leads": []})
+        b["games"] += 1
+        b["first"] += t == earliest[ev]
+        b["leads"].append((parse_iso(tip[ev]) - parse_iso(t)).total_seconds() / 3600)
+    out = []
+    for b in by.values():
+        leads = b.pop("leads")
+        out.append({**b, "median_lead_hours": round(median(leads), 1)})
+    out.sort(key=lambda b: (-b["first"], -b["median_lead_hours"]))
+    return out
+

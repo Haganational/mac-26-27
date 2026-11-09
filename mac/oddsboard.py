@@ -30,7 +30,10 @@ from .config import DATA_DIR
 
 MODEL_PATH = DATA_DIR / "model" / "projections.jsonl"
 RUNS_PATH = DATA_DIR / "odds_runs.jsonl"
-FREE_TIER_REQUESTS = 500
+# Monthly request allowance on the Odds API plan. Set to the plan's number when it changes.
+MONTHLY_REQUESTS = 20000
+# The collector snapshots every 15 minutes: 96 runs a day.
+RUNS_PER_DAY = 96
 
 BOOK_NAMES = {
     "draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM", "williamhill_us": "Caesars",
@@ -436,7 +439,7 @@ def _int(v: Any) -> int | None:
         return None
 
 
-def budget(now: datetime, line_rows: list[dict[str, Any]], path: Path = RUNS_PATH, runs_per_day: int = 3, cost_per_run: int = 3) -> dict[str, Any]:
+def budget(now: datetime, line_rows: list[dict[str, Any]], path: Path = RUNS_PATH, runs_per_day: int = RUNS_PER_DAY, cost_per_run: int = 3) -> dict[str, Any]:
     """Quota picture. Uses the API's own counters when we have them, else counts snapshots."""
     runs = []
     if path.exists():
@@ -458,8 +461,8 @@ def budget(now: datetime, line_rows: list[dict[str, Any]], path: Path = RUNS_PAT
         "estimated_used": est_used,
         "snapshots_this_month": len(month_captures),
         "projected_month_end": projected,
-        "limit": FREE_TIER_REQUESTS,
-        "headroom": FREE_TIER_REQUESTS - projected,
+        "limit": MONTHLY_REQUESTS,
+        "headroom": MONTHLY_REQUESTS - projected,
         "from_api": used is not None,
         "last_run": latest["captured_at"] if latest else (captures[-1] if captures else None),
     }

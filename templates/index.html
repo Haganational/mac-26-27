@@ -98,7 +98,7 @@
       <div class="chartwrap"><svg class="line" id="totalChart" role="img" aria-label="Total over time"></svg><div class="tip" id="tip2"></div></div>
     </div>
     <div class="scroll"><table id="bookTable"></table></div>
-    <div class="note">{{ d.posting.note }}</div>
+    <div class="note">{% if d.posting.by_book %}<b>First to post so far:</b> {% for b in d.posting.by_book[:4] if b.first %}{{ b.name }} {{ b.first }}{{ ", " if not loop.last }}{% endfor %}{% if d.posting.median_lead_hours is not none %} · median {{ d.posting.median_lead_hours }}h before tip across {{ d.posting.events }} game{{ "s" if d.posting.events != 1 }}{% endif %}. {% endif %}{{ d.posting.note }}</div>
     {% else %}
     <div class="empty">No line snapshots yet. The collector appends one each run once <code>ODDS_API_KEY</code> is set.</div>
     {% endif %}

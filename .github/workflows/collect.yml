@@ -2,10 +2,9 @@ name: Collect lines and publish dashboard
 
 on:
   schedule:
-    # Three snapshots a day, UTC: ~7am ET (overnight openers), ~1pm ET, ~6pm ET (pre-tip).
-    - cron: "0 12 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 23 * * *"
+    # A line snapshot every 15 minutes, to pin down when each book posts.
+    # The :00 runs at 12, 18 and 23 UTC (~7am, 1pm, 6pm ET) also refresh schedule, results, ratings and news.
+    - cron: "*/15 * * * *"
   workflow_dispatch:
   # A new or edited Fieldhouse Notes dispatch republishes the site right away.
   # That run only re-renders (no ESPN or odds calls), so it costs no API quota.
@@ -40,7 +39,13 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then python -m mac.collect site; else python -m mac.collect all; fi
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python -m mac.collect site
+          elif [ "${{ github.event_name }}" = "schedule" ] && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
+            python -m mac.collect quick
+          else
+            python -m mac.collect all
+          fi
       - name: Commit new data
         run: |
           git config user.name "mac-collector"
