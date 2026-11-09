@@ -1,0 +1,74 @@
+{
+ "google:bellarmine": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "bellarmine",
+  "url": "https://news.google.com/rss/search?q=%22Bellarmine+Knights%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:fgcu": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "fgcu",
+  "url": "https://news.google.com/rss/search?q=%22FGCU%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:jacksonville": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "jacksonville",
+  "url": "https://news.google.com/rss/search?q=%22Jacksonville+Dolphins%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:lipscomb": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "lipscomb",
+  "url": "https://news.google.com/rss/search?q=%22Lipscomb+Bisons%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:north-florida": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "north-florida",
+  "url": "https://news.google.com/rss/search?q=%22North+Florida+Ospreys%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:queens": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "queens",
+  "url": "https://news.google.com/rss/search?q=%22Queens+Royals%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:stetson": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "stetson",
+  "url": "https://news.google.com/rss/search?q=%22Stetson+Hatters%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:west-florida": {
+  "checked_at": "2026-11-09T22:02:39+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "west-florida",
+  "url": "https://news.google.com/rss/search?q=%22West+Florida+Argonauts%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ }
+}

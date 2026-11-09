@@ -2,17 +2,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC News Ticker{% endset %}{% set page_desc %}Recent MAC men's basketball headlines from athletics sites, the MAC and Google News, refreshed three times a day.{% endset %}
+{% set page_title %}{{ LG }} News Ticker{% endset %}{% set page_desc %}Recent {{ LG }} men's basketball headlines from athletics sites, the {{ LG }} and Google News, refreshed three times a day.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="news.html", image="static/og/news.png") }}
 </head>
 <body>
 {{ L.topbar(root="", active="news.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> News
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> News
   </nav>
   <header>
     <h1>News</h1>
-    <span class="sub">{{ n.total }} men's basketball headlines from the last 45 days, newest first. Pulled from each school's athletics site, the MAC and Google News three times a day. {{ n.feeds_ok }} of {{ n.feeds }} feeds answered on the last run.</span>
+    <span class="sub">{{ n.total }} men's basketball headlines from the last 45 days, newest first. Pulled from each school's athletics site, the {{ LG }} and Google News three times a day. {{ n.feeds_ok }} of {{ n.feeds }} feeds answered on the last run.</span>
   </header>
 
   <section>
@@ -45,12 +45,12 @@
       <div class="scroll"><table>
         <tr><th>Feed</th><th>Team</th><th class="num">Kept</th><th>Status</th></tr>
         {% for key, s in n.status %}
-        <tr><td><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.source if s.kind != 'google' else 'Google News' }}</a></td><td>{{ (d.teams|selectattr('key','equalto',s.team)|first).abbr if s.team else 'MAC' }}</td><td class="num">{{ s.kept if s.ok else '–' }}</td><td>{% if s.ok %}<span class="ok">ok</span>{% else %}<span class="bad" title="{{ s.error }}">failing</span>{% if s.last_ok %} <span class="dim">since {{ s.last_ok[:10] }}</span>{% endif %}{% endif %}</td></tr>
+        <tr><td><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.source if s.kind != 'google' else 'Google News' }}</a></td><td>{{ (d.teams|selectattr('key','equalto',s.team)|first).abbr if s.team else LG }}</td><td class="num">{{ s.kept if s.ok else '–' }}</td><td>{% if s.ok %}<span class="ok">ok</span>{% else %}<span class="bad" title="{{ s.error }}">failing</span>{% if s.last_ok %} <span class="dim">since {{ s.last_ok[:10] }}</span>{% endif %}{% endif %}</td></tr>
         {% else %}<tr><td colspan="4" class="dim">No runs yet.</td></tr>{% endfor %}
       </table></div>
     </section>
   </div>
-{% include "_preseason.html" %}
+{% if 'research' in feat %}{% include "_preseason.html" %}{% endif %}
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
 <script>

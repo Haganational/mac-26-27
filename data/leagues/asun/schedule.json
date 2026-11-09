@@ -1,0 +1,7094 @@
+{
+ "fetched_at": "2026-11-09T22:02:24+00:00",
+ "season": 2027,
+ "games": [
+  {
+   "game_id": "401921423",
+   "date": "2026-11-02T14:00Z",
+   "name": "Winthrop Eagles at Queens University Royals",
+   "short_name": "WIN VS QUC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Rock Hill Sports & Event Center",
+   "venue_city": "Rock Hill",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": 103,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2737",
+    "key": null,
+    "name": "Winthrop Eagles",
+    "abbr": "WIN",
+    "score": 98,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401921104",
+   "date": "2026-11-03T00:00Z",
+   "name": "Bellarmine Knights at Vanderbilt Commodores",
+   "short_name": "BELL @ VAN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Memorial Gymnasium (TN)",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "238",
+    "key": null,
+    "name": "Vanderbilt Commodores",
+    "abbr": "VAN",
+    "score": 93,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": 47,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401921753",
+   "date": "2026-11-03T00:00Z",
+   "name": "Florida Gulf Coast Eagles at UCF Knights",
+   "short_name": "FGCU @ UCF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Addition Financial Arena",
+   "venue_city": "Orlando",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2116",
+    "key": null,
+    "name": "UCF Knights",
+    "abbr": "UCF",
+    "score": 96,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": 95,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920876",
+   "date": "2026-11-03T00:00Z",
+   "name": "Trinity College of Jacksonville Eagles at Jacksonville Dolphins",
+   "short_name": "TCJ @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": 105,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "3174",
+    "key": null,
+    "name": "Trinity College of Jacksonville Eagles",
+    "abbr": "TCJ",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401918073",
+   "date": "2026-11-03T00:00Z",
+   "name": "Stetson Hatters at Clemson Tigers",
+   "short_name": "STET @ CLEM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACCNX",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Littlejohn Coliseum",
+   "venue_city": "Clemson",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "228",
+    "key": null,
+    "name": "Clemson Tigers",
+    "abbr": "CLEM",
+    "score": 85,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": 72,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401922247",
+   "date": "2026-11-03T00:00Z",
+   "name": "Southeastern Baptist Chargers at West Florida Argonauts",
+   "short_name": "SEBC @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": 127,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "111951",
+    "key": null,
+    "name": "Southeastern Baptist Chargers",
+    "abbr": "SEBC",
+    "score": 42,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920701",
+   "date": "2026-11-03T00:30Z",
+   "name": "Lipscomb Bisons at Southeast Missouri State Redhawks",
+   "short_name": "LIP @ SEMO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Show Me Center",
+   "venue_city": "Cape Girardeau",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "2546",
+    "key": null,
+    "name": "Southeast Missouri State Redhawks",
+    "abbr": "SEMO",
+    "score": 86,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": 79,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401921819",
+   "date": "2026-11-04T00:00Z",
+   "name": "Stetson Hatters at South Carolina Gamecocks",
+   "short_name": "STET @ SC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Colonial Life Arena",
+   "venue_city": "Columbia",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2579",
+    "key": null,
+    "name": "South Carolina Gamecocks",
+    "abbr": "SC",
+    "score": 81,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": 55,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920702",
+   "date": "2026-11-04T01:00Z",
+   "name": "Lipscomb Bisons at Iowa Hawkeyes",
+   "short_name": "LIP @ IOWA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Carver-Hawkeye Arena",
+   "venue_city": "Iowa City",
+   "venue_state": "IA",
+   "home": {
+    "espn_id": "2294",
+    "key": null,
+    "name": "Iowa Hawkeyes",
+    "abbr": "IOWA",
+    "score": 76,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": 54,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920343",
+   "date": "2026-11-04T03:00Z",
+   "name": "North Florida Ospreys at California Baptist Lancers",
+   "short_name": "UNF @ CBU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Dale E. and Sarah Ann Fowler Events Center",
+   "venue_city": "Riverside",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2856",
+    "key": null,
+    "name": "California Baptist Lancers",
+    "abbr": "CBU",
+    "score": 63,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": 71,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401917514",
+   "date": "2026-11-05T03:00Z",
+   "name": "Queens University Royals at Loyola Marymount Lions",
+   "short_name": "QUC @ LMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Gersten Pavilion",
+   "venue_city": "Los Angeles",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": 95,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": 96,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401916287",
+   "date": "2026-11-05T23:00Z",
+   "name": "Bellarmine Knights at Indiana Hoosiers",
+   "short_name": "BELL @ IU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Simon Skjodt Assembly Hall",
+   "venue_city": "Bloomington",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "84",
+    "key": null,
+    "name": "Indiana Hoosiers",
+    "abbr": "IU",
+    "score": 92,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": 69,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401906770",
+   "date": "2026-11-06T01:00Z",
+   "name": "Jacksonville Dolphins at Florida Gators",
+   "short_name": "JAX @ FLA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Stephen C. O'Connell Center",
+   "venue_city": "Gainesville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "57",
+    "key": null,
+    "name": "Florida Gators",
+    "abbr": "FLA",
+    "score": 88,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": 57,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401922248",
+   "date": "2026-11-06T22:00Z",
+   "name": "West Florida Argonauts at Florida International Panthers",
+   "short_name": "UWF @ FIU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Ocean Bank Convocation Center",
+   "venue_city": "Miami",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2229",
+    "key": null,
+    "name": "Florida International Panthers",
+    "abbr": "FIU",
+    "score": 85,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": 75,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401922210",
+   "date": "2026-11-07T00:00Z",
+   "name": "New College Mighty Banyans at Florida Gulf Coast Eagles",
+   "short_name": "NCF @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": 89,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "128550",
+    "key": null,
+    "name": "New College Mighty Banyans",
+    "abbr": "NCF",
+    "score": 67,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401921767",
+   "date": "2026-11-07T00:00Z",
+   "name": "Stetson Hatters at West Virginia Mountaineers",
+   "short_name": "STET @ WVU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Hope Coliseum",
+   "venue_city": "Morgantown",
+   "venue_state": "WV",
+   "home": {
+    "espn_id": "277",
+    "key": null,
+    "name": "West Virginia Mountaineers",
+    "abbr": "WVU",
+    "score": 91,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": 53,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401919040",
+   "date": "2026-11-07T02:00Z",
+   "name": "Queens University Royals at Oklahoma State Cowboys",
+   "short_name": "QUC @ OKST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Gallagher-Iba Arena",
+   "venue_city": "Stillwater",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "197",
+    "key": null,
+    "name": "Oklahoma State Cowboys",
+    "abbr": "OKST",
+    "score": 118,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": 68,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401922219",
+   "date": "2026-11-07T03:30Z",
+   "name": "North Florida Ospreys at UCLA Bruins",
+   "short_name": "UNF @ UCLA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Pauley Pavilion",
+   "venue_city": "Los Angeles",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "26",
+    "key": null,
+    "name": "UCLA Bruins",
+    "abbr": "UCLA",
+    "score": 114,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": 63,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401911007",
+   "date": "2026-11-07T22:00Z",
+   "name": "Bellarmine Knights at Miami (OH) RedHawks",
+   "short_name": "BELL @ M-OH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Millett Hall",
+   "venue_city": "Oxford",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "193",
+    "key": null,
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": 73,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401920703",
+   "date": "2026-11-07T22:00Z",
+   "name": "SIU Edwardsville Cougars at Lipscomb Bisons",
+   "short_name": "SIUE @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": 78,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2565",
+    "key": null,
+    "name": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "score": 77,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true
+  },
+  {
+   "game_id": "401906781",
+   "date": "2026-11-10T00:00Z",
+   "name": "Florida Gulf Coast Eagles at Georgia Bulldogs",
+   "short_name": "FGCU @ UGA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Stegeman Coliseum",
+   "venue_city": "Athens",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "61",
+    "key": null,
+    "name": "Georgia Bulldogs",
+    "abbr": "UGA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920877",
+   "date": "2026-11-10T00:00Z",
+   "name": "Kansas City Roos at Jacksonville Dolphins",
+   "short_name": "KC @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": null,
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921720",
+   "date": "2026-11-10T00:00Z",
+   "name": "North Florida Ospreys at Miami Hurricanes",
+   "short_name": "UNF @ MIA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Watsco Center",
+   "venue_city": "Coral Gables",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2390",
+    "key": null,
+    "name": "Miami Hurricanes",
+    "abbr": "MIA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922249",
+   "date": "2026-11-10T00:00Z",
+   "name": "Baptist (Fl) Eagles at West Florida Argonauts",
+   "short_name": "BAP @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "132013",
+    "key": null,
+    "name": "Baptist (Fl) Eagles",
+    "abbr": "BAP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920704",
+   "date": "2026-11-11T01:00Z",
+   "name": "Belmont Bruins at Lipscomb Bisons",
+   "short_name": "BEL @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2057",
+    "key": null,
+    "name": "Belmont Bruins",
+    "abbr": "BEL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921740",
+   "date": "2026-11-11T02:00Z",
+   "name": "Queens University Royals at BYU Cougars",
+   "short_name": "QUC @ BYU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Marriott Center",
+   "venue_city": "Provo",
+   "venue_state": "UT",
+   "home": {
+    "espn_id": "252",
+    "key": null,
+    "name": "BYU Cougars",
+    "abbr": "BYU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921105",
+   "date": "2026-11-12T00:00Z",
+   "name": "Franklin Grizzlies at Bellarmine Knights",
+   "short_name": "FRKL @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2233",
+    "key": null,
+    "name": "Franklin Grizzlies",
+    "abbr": "FRKL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922239",
+   "date": "2026-11-12T05:00Z",
+   "name": "Stetson Hatters at Howard Bison",
+   "short_name": "STET @ HOW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [],
+   "venue": "Burr Gymnasium",
+   "venue_city": "Washington",
+   "venue_state": "DC",
+   "home": {
+    "espn_id": "47",
+    "key": null,
+    "name": "Howard Bison",
+    "abbr": "HOW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922250",
+   "date": "2026-11-13T01:00Z",
+   "name": "West Florida Argonauts at Alabama A&M Bulldogs",
+   "short_name": "UWF @ AAMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Event Center",
+   "venue_city": "Huntsville",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2010",
+    "key": null,
+    "name": "Alabama A&M Bulldogs",
+    "abbr": "AAMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921167",
+   "date": "2026-11-13T20:00Z",
+   "name": "West Florida Argonauts at Cleveland State Vikings",
+   "short_name": "UWF VS CLE",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Event Center",
+   "venue_city": "Huntsville",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "325",
+    "key": null,
+    "name": "Cleveland State Vikings",
+    "abbr": "CLE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922211",
+   "date": "2026-11-14T00:00Z",
+   "name": "Florida International Panthers at Florida Gulf Coast Eagles",
+   "short_name": "FIU @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2229",
+    "key": null,
+    "name": "Florida International Panthers",
+    "abbr": "FIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920915",
+   "date": "2026-11-14T19:00Z",
+   "name": "Northern Illinois Huskies at Bellarmine Knights",
+   "short_name": "NIU @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2459",
+    "key": null,
+    "name": "Northern Illinois Huskies",
+    "abbr": "NIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922220",
+   "date": "2026-11-14T19:00Z",
+   "name": "The Citadel Bulldogs at North Florida Ospreys",
+   "short_name": "CIT @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2643",
+    "key": null,
+    "name": "The Citadel Bulldogs",
+    "abbr": "CIT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922230",
+   "date": "2026-11-14T19:00Z",
+   "name": "Wofford Terriers at Queens University Royals",
+   "short_name": "WOF @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2747",
+    "key": null,
+    "name": "Wofford Terriers",
+    "abbr": "WOF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920705",
+   "date": "2026-11-15T00:00Z",
+   "name": "Lipscomb Bisons at Western Carolina Catamounts",
+   "short_name": "LIP @ WCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Ramsey Center",
+   "venue_city": "Cullowhee",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2717",
+    "key": null,
+    "name": "Western Carolina Catamounts",
+    "abbr": "WCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401929458",
+   "date": "2026-11-15T17:00Z",
+   "name": "Abraham Baldwin Agricultural Stallions at Florida Gulf Coast Eagles",
+   "short_name": "ABAC @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "134875",
+    "key": null,
+    "name": "Abraham Baldwin Agricultural Stallions",
+    "abbr": "ABAC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401906783",
+   "date": "2026-11-17T00:00Z",
+   "name": "Jacksonville Dolphins at Georgia Bulldogs",
+   "short_name": "JAX @ UGA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SEC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Stegeman Coliseum",
+   "venue_city": "Athens",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "61",
+    "key": null,
+    "name": "Georgia Bulldogs",
+    "abbr": "UGA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922240",
+   "date": "2026-11-17T00:00Z",
+   "name": "Florida Memorial Lions at Stetson Hatters",
+   "short_name": "FMU @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2227",
+    "key": null,
+    "name": "Florida Memorial Lions",
+    "abbr": "FMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920706",
+   "date": "2026-11-17T23:30Z",
+   "name": "Lipscomb Bisons at Purdue Boilermakers",
+   "short_name": "LIP @ PUR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Mackey Arena",
+   "venue_city": "West Lafayette",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2509",
+    "key": null,
+    "name": "Purdue Boilermakers",
+    "abbr": "PUR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922251",
+   "date": "2026-11-18T00:00Z",
+   "name": "Green Bay Phoenix at West Florida Argonauts",
+   "short_name": "GB @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921106",
+   "date": "2026-11-18T01:00Z",
+   "name": "Bellarmine Knights at Illinois State Redbirds",
+   "short_name": "BELL @ ILST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "CEFCU Arena",
+   "venue_city": "Normal",
+   "venue_state": "IL",
+   "home": {
+    "espn_id": "2287",
+    "key": null,
+    "name": "Illinois State Redbirds",
+    "abbr": "ILST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922221",
+   "date": "2026-11-18T01:00Z",
+   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
+   "short_name": "UFTL @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123362",
+    "key": null,
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922212",
+   "date": "2026-11-19T00:00Z",
+   "name": "Florida Gulf Coast Eagles at Florida Atlantic Owls",
+   "short_name": "FGCU @ FAU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
+   "venue_city": "Boca Raton",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2226",
+    "key": null,
+    "name": "Florida Atlantic Owls",
+    "abbr": "FAU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920878",
+   "date": "2026-11-20T00:00Z",
+   "name": "Little Rock Trojans at Jacksonville Dolphins",
+   "short_name": "LR @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2031",
+    "key": null,
+    "name": "Little Rock Trojans",
+    "abbr": "LR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401918950",
+   "date": "2026-11-20T01:00Z",
+   "name": "Stetson Hatters at Louisville Cardinals",
+   "short_name": "STET @ LOU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "KFC Yum! Center",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "97",
+    "key": null,
+    "name": "Louisville Cardinals",
+    "abbr": "LOU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921107",
+   "date": "2026-11-21T00:00Z",
+   "name": "Bellarmine Knights at Eastern Kentucky Colonels",
+   "short_name": "BELL @ EKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Baptist Health Arena",
+   "venue_city": "Richmond",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920707",
+   "date": "2026-11-21T01:00Z",
+   "name": "Lipscomb Bisons at Alabama A&M Bulldogs",
+   "short_name": "LIP @ AAMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Event Center",
+   "venue_city": "Huntsville",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2010",
+    "key": null,
+    "name": "Alabama A&M Bulldogs",
+    "abbr": "AAMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921811",
+   "date": "2026-11-21T05:00Z",
+   "name": "Queens University Royals at LSU Tigers",
+   "short_name": "QUC @ LSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Pete Maravich Assembly Center",
+   "venue_city": "Baton Rouge",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "99",
+    "key": null,
+    "name": "LSU Tigers",
+    "abbr": "LSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922222",
+   "date": "2026-11-21T19:00Z",
+   "name": "Little Rock Trojans at North Florida Ospreys",
+   "short_name": "LR @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2031",
+    "key": null,
+    "name": "Little Rock Trojans",
+    "abbr": "LR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917918",
+   "date": "2026-11-21T21:00Z",
+   "name": "Central Arkansas Bears at Jacksonville Dolphins",
+   "short_name": "CARK @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922252",
+   "date": "2026-11-22T20:00Z",
+   "name": "West Florida Argonauts at South Alabama Jaguars",
+   "short_name": "UWF @ USA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Mitchell Center",
+   "venue_city": "Mobile",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "6",
+    "key": null,
+    "name": "South Alabama Jaguars",
+    "abbr": "USA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920708",
+   "date": "2026-11-22T22:00Z",
+   "name": "Milligan Buffaloes at Lipscomb Bisons",
+   "short_name": "MILG @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2397",
+    "key": null,
+    "name": "Milligan Buffaloes",
+    "abbr": "MILG",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921701",
+   "date": "2026-11-23T18:30Z",
+   "name": "Charlotte 49ers at Florida Gulf Coast Eagles",
+   "short_name": "CLT VS FGCU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Suncoast Credit Union Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2429",
+    "key": null,
+    "name": "Charlotte 49ers",
+    "abbr": "CLT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917919",
+   "date": "2026-11-24T00:00Z",
+   "name": "Central Arkansas Bears at North Florida Ospreys",
+   "short_name": "CARK @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921030",
+   "date": "2026-11-24T05:00Z",
+   "name": "Bellarmine Knights at Georgia Southern Eagles",
+   "short_name": "BELL VS GASO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [],
+   "venue": "Truist Arena",
+   "venue_city": "Highland Heights",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922231",
+   "date": "2026-11-24T23:00Z",
+   "name": "Queens University Royals at Wofford Terriers",
+   "short_name": "QUC @ WOF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Jerry Richardson Indoor Stadium",
+   "venue_city": "Spartanburg",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2747",
+    "key": null,
+    "name": "Wofford Terriers",
+    "abbr": "WOF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401916291",
+   "date": "2026-11-25T00:00Z",
+   "name": "Jacksonville Dolphins at Indiana Hoosiers",
+   "short_name": "JAX @ IU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "B1G+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Simon Skjodt Assembly Hall",
+   "venue_city": "Bloomington",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "84",
+    "key": null,
+    "name": "Indiana Hoosiers",
+    "abbr": "IU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401918996",
+   "date": "2026-11-25T00:00Z",
+   "name": "Stetson Hatters at South Florida Bulls",
+   "short_name": "STET @ USF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Yuengling Center",
+   "venue_city": "Tampa",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "58",
+    "key": null,
+    "name": "South Florida Bulls",
+    "abbr": "USF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920709",
+   "date": "2026-11-25T01:00Z",
+   "name": "Lipscomb Bisons at Auburn Tigers",
+   "short_name": "LIP @ AUB",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Neville Arena",
+   "venue_city": "Auburn",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2",
+    "key": null,
+    "name": "Auburn Tigers",
+    "abbr": "AUB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922223",
+   "date": "2026-11-25T19:00Z",
+   "name": "Warner Royals at North Florida Ospreys",
+   "short_name": "WRNR @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2683",
+    "key": null,
+    "name": "Warner Royals",
+    "abbr": "WRNR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921703",
+   "date": "2026-11-25T21:00Z",
+   "name": "Georgia State Panthers at Florida Gulf Coast Eagles",
+   "short_name": "GAST VS FGCU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Suncoast Credit Union Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2247",
+    "key": null,
+    "name": "Georgia State Panthers",
+    "abbr": "GAST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922253",
+   "date": "2026-11-25T23:00Z",
+   "name": "West Florida Argonauts at Northwestern State Demons",
+   "short_name": "UWF @ NWST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Prather Coliseum",
+   "venue_city": "Natchitoches",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2466",
+    "key": null,
+    "name": "Northwestern State Demons",
+    "abbr": "NWST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921108",
+   "date": "2026-11-26T00:00Z",
+   "name": "Bellarmine Knights at Northern Kentucky Norse",
+   "short_name": "BELL @ NKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Truist Arena",
+   "venue_city": "Highland Heights",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "94",
+    "key": null,
+    "name": "Northern Kentucky Norse",
+    "abbr": "NKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401902282",
+   "date": "2026-11-27T20:00Z",
+   "name": "Bellarmine Knights at Butler Bulldogs",
+   "short_name": "BELL @ BTLR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Hinkle Fieldhouse",
+   "venue_city": "Indianapolis",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2086",
+    "key": null,
+    "name": "Butler Bulldogs",
+    "abbr": "BTLR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922224",
+   "date": "2026-11-28T19:00Z",
+   "name": "North Florida Ospreys at Columbia Lions",
+   "short_name": "UNF @ COLU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Levien Gymnasium",
+   "venue_city": "New York",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "171",
+    "key": null,
+    "name": "Columbia Lions",
+    "abbr": "COLU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922241",
+   "date": "2026-11-28T19:00Z",
+   "name": "New College Mighty Banyans at Stetson Hatters",
+   "short_name": "NCF @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "128550",
+    "key": null,
+    "name": "New College Mighty Banyans",
+    "abbr": "NCF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920879",
+   "date": "2026-11-28T23:00Z",
+   "name": "Trinity College of Jacksonville Eagles at Jacksonville Dolphins",
+   "short_name": "TCJ @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3174",
+    "key": null,
+    "name": "Trinity College of Jacksonville Eagles",
+    "abbr": "TCJ",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922254",
+   "date": "2026-11-29T20:00Z",
+   "name": "West Florida Argonauts at Florida State Seminoles",
+   "short_name": "UWF VS FSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Pensacola Bay Center",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "52",
+    "key": null,
+    "name": "Florida State Seminoles",
+    "abbr": "FSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922232",
+   "date": "2026-11-29T21:00Z",
+   "name": "Queens University Royals at Houston Cougars",
+   "short_name": "QUC @ HOU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Fertitta Center",
+   "venue_city": "Houston",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "248",
+    "key": null,
+    "name": "Houston Cougars",
+    "abbr": "HOU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922213",
+   "date": "2026-11-29T22:00Z",
+   "name": "Florida Gulf Coast Eagles at LSU New Orleans Privateers",
+   "short_name": "FGCU @ NOLA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Lakefront Arena",
+   "venue_city": "New Orleans",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2443",
+    "key": null,
+    "name": "LSU New Orleans Privateers",
+    "abbr": "NOLA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401916320",
+   "date": "2026-11-29T22:30Z",
+   "name": "Lipscomb Bisons at Ohio State Buckeyes",
+   "short_name": "LIP @ OSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Schottenstein Center",
+   "venue_city": "Columbus",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "194",
+    "key": null,
+    "name": "Ohio State Buckeyes",
+    "abbr": "OSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920880",
+   "date": "2026-12-02T00:00Z",
+   "name": "Jacksonville Dolphins at UCF Knights",
+   "short_name": "JAX @ UCF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Addition Financial Arena",
+   "venue_city": "Orlando",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2116",
+    "key": null,
+    "name": "UCF Knights",
+    "abbr": "UCF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922233",
+   "date": "2026-12-03T00:00Z",
+   "name": "Coastal Carolina Chanticleers at Queens University Royals",
+   "short_name": "CCU @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "324",
+    "key": null,
+    "name": "Coastal Carolina Chanticleers",
+    "abbr": "CCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922242",
+   "date": "2026-12-03T00:00Z",
+   "name": "Trinity College of Jacksonville Eagles at Stetson Hatters",
+   "short_name": "TCJ @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3174",
+    "key": null,
+    "name": "Trinity College of Jacksonville Eagles",
+    "abbr": "TCJ",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401918997",
+   "date": "2026-12-03T00:00Z",
+   "name": "West Florida Argonauts at South Florida Bulls",
+   "short_name": "UWF @ USF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Yuengling Center",
+   "venue_city": "Tampa",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "58",
+    "key": null,
+    "name": "South Florida Bulls",
+    "abbr": "USF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920966",
+   "date": "2026-12-03T00:45Z",
+   "name": "Bellarmine Knights at Morehead State Eagles",
+   "short_name": "BELL @ MORE",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Ellis T. Johnson Arena",
+   "venue_city": "Morehead",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "2413",
+    "key": null,
+    "name": "Morehead State Eagles",
+    "abbr": "MORE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920710",
+   "date": "2026-12-03T01:00Z",
+   "name": "UNC Asheville Bulldogs at Lipscomb Bisons",
+   "short_name": "UNCA @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2427",
+    "key": null,
+    "name": "UNC Asheville Bulldogs",
+    "abbr": "UNCA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922225",
+   "date": "2026-12-04T00:00Z",
+   "name": "South Dakota Coyotes at North Florida Ospreys",
+   "short_name": "SDAK @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": null,
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911397",
+   "date": "2026-12-05T18:00Z",
+   "name": "Queens University Royals at Gardner-Webb Runnin' Bulldogs",
+   "short_name": "QUC @ GWEB",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Paul Porter Arena",
+   "venue_city": "Boiling Springs",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2241",
+    "key": null,
+    "name": "Gardner-Webb Runnin' Bulldogs",
+    "abbr": "GWEB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922255",
+   "date": "2026-12-05T18:00Z",
+   "name": "Pensacola Christian PENSACOLA CHRISTIAN at West Florida Argonauts",
+   "short_name": "PCC @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3173",
+    "key": null,
+    "name": "Pensacola Christian PENSACOLA CHRISTIAN",
+    "abbr": "PCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921109",
+   "date": "2026-12-05T19:00Z",
+   "name": "Eastern Illinois Panthers at Bellarmine Knights",
+   "short_name": "EIU @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2197",
+    "key": null,
+    "name": "Eastern Illinois Panthers",
+    "abbr": "EIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922226",
+   "date": "2026-12-05T19:00Z",
+   "name": "Florida Polytechnic Phoenix at North Florida Ospreys",
+   "short_name": "FLO @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "134752",
+    "key": null,
+    "name": "Florida Polytechnic Phoenix",
+    "abbr": "FLO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920881",
+   "date": "2026-12-05T20:00Z",
+   "name": "Florida International Panthers at Jacksonville Dolphins",
+   "short_name": "FIU @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2229",
+    "key": null,
+    "name": "Florida International Panthers",
+    "abbr": "FIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920711",
+   "date": "2026-12-05T22:00Z",
+   "name": "Rhodes Lynx at Lipscomb Bisons",
+   "short_name": "RHDS @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2519",
+    "key": null,
+    "name": "Rhodes Lynx",
+    "abbr": "RHDS",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921724",
+   "date": "2026-12-05T22:00Z",
+   "name": "Stetson Hatters at Miami Hurricanes",
+   "short_name": "STET @ MIA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Watsco Center",
+   "venue_city": "Coral Gables",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2390",
+    "key": null,
+    "name": "Miami Hurricanes",
+    "abbr": "MIA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917559",
+   "date": "2026-12-06T01:00Z",
+   "name": "Florida Gulf Coast Eagles at Pepperdine Waves",
+   "short_name": "FGCU @ PEPP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Firestone Fieldhouse",
+   "venue_city": "Malibu",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2492",
+    "key": null,
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917562",
+   "date": "2026-12-08T00:30Z",
+   "name": "Florida Gulf Coast Eagles at Loyola Marymount Lions",
+   "short_name": "FGCU @ LMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Gersten Pavilion",
+   "venue_city": "Los Angeles",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922234",
+   "date": "2026-12-09T02:00Z",
+   "name": "Queens University Royals at Colorado State Rams",
+   "short_name": "QUC @ CSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Moby Arena",
+   "venue_city": "Fort Collins",
+   "venue_state": "CO",
+   "home": {
+    "espn_id": "36",
+    "key": null,
+    "name": "Colorado State Rams",
+    "abbr": "CSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401918998",
+   "date": "2026-12-10T00:00Z",
+   "name": "Jacksonville Dolphins at South Florida Bulls",
+   "short_name": "JAX @ USF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Yuengling Center",
+   "venue_city": "Tampa",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "58",
+    "key": null,
+    "name": "South Florida Bulls",
+    "abbr": "USF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401909755",
+   "date": "2026-12-10T01:00Z",
+   "name": "Queens University Royals at Baylor Bears",
+   "short_name": "QUC @ BAY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Foster Pavilion",
+   "venue_city": "Waco",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "239",
+    "key": null,
+    "name": "Baylor Bears",
+    "abbr": "BAY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921110",
+   "date": "2026-12-11T00:00Z",
+   "name": "Spalding Pelicans at Bellarmine Knights",
+   "short_name": "SPLD @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2589",
+    "key": null,
+    "name": "Spalding Pelicans",
+    "abbr": "SPLD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922227",
+   "date": "2026-12-12T19:00Z",
+   "name": "North Florida Ospreys at South Dakota Coyotes",
+   "short_name": "UNF @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": null,
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920882",
+   "date": "2026-12-12T20:00Z",
+   "name": "Baptist (Fl) Eagles at Jacksonville Dolphins",
+   "short_name": "BAP @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "132013",
+    "key": null,
+    "name": "Baptist (Fl) Eagles",
+    "abbr": "BAP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922214",
+   "date": "2026-12-13T17:00Z",
+   "name": "Alcorn State Braves at Florida Gulf Coast Eagles",
+   "short_name": "ALCN @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2016",
+    "key": null,
+    "name": "Alcorn State Braves",
+    "abbr": "ALCN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921246",
+   "date": "2026-12-13T18:00Z",
+   "name": "Navy Midshipmen at West Florida Argonauts",
+   "short_name": "NAVY @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2426",
+    "key": null,
+    "name": "Navy Midshipmen",
+    "abbr": "NAVY",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920712",
+   "date": "2026-12-13T21:00Z",
+   "name": "Lipscomb Bisons at Eastern Kentucky Colonels",
+   "short_name": "LIP @ EKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Baptist Health Arena",
+   "venue_city": "Richmond",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922235",
+   "date": "2026-12-14T16:00Z",
+   "name": "Queens University Royals at Sacred Heart Pioneers",
+   "short_name": "QUC @ SHU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "William H. Pitt Center",
+   "venue_city": "Fairfield",
+   "venue_state": "CT",
+   "home": {
+    "espn_id": "2529",
+    "key": null,
+    "name": "Sacred Heart Pioneers",
+    "abbr": "SHU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921750",
+   "date": "2026-12-15T00:00Z",
+   "name": "Stetson Hatters at Cincinnati Bearcats",
+   "short_name": "STET @ CIN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Fifth Third Arena",
+   "venue_city": "Cincinnati",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2132",
+    "key": null,
+    "name": "Cincinnati Bearcats",
+    "abbr": "CIN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401909702",
+   "date": "2026-12-17T00:00Z",
+   "name": "Jacksonville Dolphins at Florida State Seminoles",
+   "short_name": "JAX @ FSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "venue": "Tucker Center",
+   "venue_city": "Tallahassee",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "52",
+    "key": null,
+    "name": "Florida State Seminoles",
+    "abbr": "FSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401911385",
+   "date": "2026-12-17T00:00Z",
+   "name": "Charleston Southern Buccaneers at North Florida Ospreys",
+   "short_name": "CHSO @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2127",
+    "key": null,
+    "name": "Charleston Southern Buccaneers",
+    "abbr": "CHSO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922236",
+   "date": "2026-12-17T00:00Z",
+   "name": "UNC Asheville Bulldogs at Queens University Royals",
+   "short_name": "UNCA @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2427",
+    "key": null,
+    "name": "UNC Asheville Bulldogs",
+    "abbr": "UNCA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922243",
+   "date": "2026-12-17T00:00Z",
+   "name": "Stetson Hatters at Wright State Raiders",
+   "short_name": "STET @ WRST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Nutter Center",
+   "venue_city": "Dayton",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2750",
+    "key": null,
+    "name": "Wright State Raiders",
+    "abbr": "WRST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922256",
+   "date": "2026-12-17T00:00Z",
+   "name": "Alabama State Hornets at West Florida Argonauts",
+   "short_name": "ALST @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2011",
+    "key": null,
+    "name": "Alabama State Hornets",
+    "abbr": "ALST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920713",
+   "date": "2026-12-17T00:30Z",
+   "name": "Lipscomb Bisons at Western Kentucky Hilltoppers",
+   "short_name": "LIP @ WKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "E.A. Diddle Arena",
+   "venue_city": "Bowling Green",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "98",
+    "key": null,
+    "name": "Western Kentucky Hilltoppers",
+    "abbr": "WKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921111",
+   "date": "2026-12-17T01:00Z",
+   "name": "Bellarmine Knights at Southern Indiana Screaming Eagles",
+   "short_name": "BELL @ USI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Liberty Arena (IN)",
+   "venue_city": "Evansville",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "88",
+    "key": null,
+    "name": "Southern Indiana Screaming Eagles",
+    "abbr": "USI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922215",
+   "date": "2026-12-19T19:00Z",
+   "name": "Tarleton State Texans at Florida Gulf Coast Eagles",
+   "short_name": "TAR @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2627",
+    "key": null,
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917973",
+   "date": "2026-12-19T19:00Z",
+   "name": "Abilene Christian Wildcats at Stetson Hatters",
+   "short_name": "ACU @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917909",
+   "date": "2026-12-19T19:00Z",
+   "name": "West Florida Argonauts at West Georgia Wolves",
+   "short_name": "UWF @ WGA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "The Coliseum",
+   "venue_city": "Carrollton",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "2698",
+    "key": null,
+    "name": "West Georgia Wolves",
+    "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917957",
+   "date": "2026-12-19T20:00Z",
+   "name": "Bellarmine Knights at Austin Peay Governors",
+   "short_name": "BELL @ APSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "F&M Bank Arena",
+   "venue_city": "Clarksville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "2046",
+    "key": null,
+    "name": "Austin Peay Governors",
+    "abbr": "APSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922237",
+   "date": "2026-12-19T21:00Z",
+   "name": "Queens University Royals at North Alabama Lions",
+   "short_name": "QUC @ UNA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "CB&S Bank Arena at Flowers Hall",
+   "venue_city": "Florence",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2453",
+    "key": null,
+    "name": "North Alabama Lions",
+    "abbr": "UNA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920883",
+   "date": "2026-12-19T21:30Z",
+   "name": "Jacksonville Dolphins at USC Trojans",
+   "short_name": "JAX @ USC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Galen Center",
+   "venue_city": "Los Angeles",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "30",
+    "key": null,
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920714",
+   "date": "2026-12-19T22:00Z",
+   "name": "Southeast Missouri State Redhawks at Lipscomb Bisons",
+   "short_name": "SEMO @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2546",
+    "key": null,
+    "name": "Southeast Missouri State Redhawks",
+    "abbr": "SEMO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922228",
+   "date": "2026-12-19T23:00Z",
+   "name": "North Florida Ospreys at UT Arlington Mavericks",
+   "short_name": "UNF @ UTA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "College Park Center",
+   "venue_city": "Arlington",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "250",
+    "key": null,
+    "name": "UT Arlington Mavericks",
+    "abbr": "UTA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921112",
+   "date": "2026-12-21T19:00Z",
+   "name": "IU Columbus Crimson Pride at Bellarmine Knights",
+   "short_name": "IUC @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "130262",
+    "key": null,
+    "name": "IU Columbus Crimson Pride",
+    "abbr": "IUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920814",
+   "date": "2026-12-21T19:00Z",
+   "name": "North Florida Ospreys at Texas A&M Aggies",
+   "short_name": "UNF @ TA&M",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Reed Arena",
+   "venue_city": "College Station",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "245",
+    "key": null,
+    "name": "Texas A&M Aggies",
+    "abbr": "TA&M",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917974",
+   "date": "2026-12-22T00:00Z",
+   "name": "Abilene Christian Wildcats at Florida Gulf Coast Eagles",
+   "short_name": "ACU @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917910",
+   "date": "2026-12-22T00:00Z",
+   "name": "Queens University Royals at West Georgia Wolves",
+   "short_name": "QUC @ WGA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "The Coliseum",
+   "venue_city": "Carrollton",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "2698",
+    "key": null,
+    "name": "West Georgia Wolves",
+    "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922244",
+   "date": "2026-12-22T00:00Z",
+   "name": "Tarleton State Texans at Stetson Hatters",
+   "short_name": "TAR @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2627",
+    "key": null,
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922257",
+   "date": "2026-12-22T00:00Z",
+   "name": "West Florida Argonauts at North Alabama Lions",
+   "short_name": "UWF @ UNA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "CB&S Bank Arena at Flowers Hall",
+   "venue_city": "Florence",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "2453",
+    "key": null,
+    "name": "North Alabama Lions",
+    "abbr": "UNA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917958",
+   "date": "2026-12-22T01:00Z",
+   "name": "Lipscomb Bisons at Austin Peay Governors",
+   "short_name": "LIP @ APSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "F&M Bank Arena",
+   "venue_city": "Clarksville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "2046",
+    "key": null,
+    "name": "Austin Peay Governors",
+    "abbr": "APSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922216",
+   "date": "2026-12-28T19:00Z",
+   "name": "Florida Tech Panthers at Florida Gulf Coast Eagles",
+   "short_name": "FIT @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "53",
+    "key": null,
+    "name": "Florida Tech Panthers",
+    "abbr": "FIT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920884",
+   "date": "2026-12-28T19:00Z",
+   "name": "Fort Lauderdale Eagles at Jacksonville Dolphins",
+   "short_name": "UFTL @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123362",
+    "key": null,
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917946",
+   "date": "2026-12-29T00:30Z",
+   "name": "Stetson Hatters at Central Arkansas Bears",
+   "short_name": "STET @ CARK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Farris Center",
+   "venue_city": "Conway",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922258",
+   "date": "2026-12-29T01:00Z",
+   "name": "West Florida Argonauts at Tarleton State Texans",
+   "short_name": "UWF @ TAR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "EECU Center",
+   "venue_city": "Stephenville",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2627",
+    "key": null,
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401906790",
+   "date": "2026-12-30T00:00Z",
+   "name": "North Florida Ospreys at Georgia Bulldogs",
+   "short_name": "UNF @ UGA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Stegeman Coliseum",
+   "venue_city": "Athens",
+   "venue_state": "GA",
+   "home": {
+    "espn_id": "61",
+    "key": null,
+    "name": "Georgia Bulldogs",
+    "abbr": "UGA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922245",
+   "date": "2026-12-31T01:00Z",
+   "name": "Stetson Hatters at Little Rock Trojans",
+   "short_name": "STET @ LR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Jack Stephens Center",
+   "venue_city": "Little Rock",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2031",
+    "key": null,
+    "name": "Little Rock Trojans",
+    "abbr": "LR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401921113",
+   "date": "2026-12-31T19:00Z",
+   "name": "North Alabama Lions at Bellarmine Knights",
+   "short_name": "UNA @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2453",
+    "key": null,
+    "name": "North Alabama Lions",
+    "abbr": "UNA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917947",
+   "date": "2026-12-31T19:00Z",
+   "name": "Florida Gulf Coast Eagles at Central Arkansas Bears",
+   "short_name": "FGCU @ CARK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Farris Center",
+   "venue_city": "Conway",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917960",
+   "date": "2026-12-31T19:00Z",
+   "name": "Austin Peay Governors at Queens University Royals",
+   "short_name": "APSU @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2046",
+    "key": null,
+    "name": "Austin Peay Governors",
+    "abbr": "APSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920885",
+   "date": "2026-12-31T20:00Z",
+   "name": "Jacksonville Dolphins at UT Arlington Mavericks",
+   "short_name": "JAX @ UTA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "College Park Center",
+   "venue_city": "Arlington",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "250",
+    "key": null,
+    "name": "UT Arlington Mavericks",
+    "abbr": "UTA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917911",
+   "date": "2026-12-31T20:00Z",
+   "name": "West Georgia Wolves at Lipscomb Bisons",
+   "short_name": "WGA @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2698",
+    "key": null,
+    "name": "West Georgia Wolves",
+    "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917975",
+   "date": "2026-12-31T21:00Z",
+   "name": "North Florida Ospreys at Abilene Christian Wildcats",
+   "short_name": "UNF @ ACU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Moody Coliseum (Abilene)",
+   "venue_city": "Abilene",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922259",
+   "date": "2027-01-01T00:00Z",
+   "name": "Eastern Kentucky Colonels at West Florida Argonauts",
+   "short_name": "EKU @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917912",
+   "date": "2027-01-02T19:00Z",
+   "name": "West Georgia Wolves at Bellarmine Knights",
+   "short_name": "WGA @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2698",
+    "key": null,
+    "name": "West Georgia Wolves",
+    "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922238",
+   "date": "2027-01-02T19:00Z",
+   "name": "Eastern Kentucky Colonels at Queens University Royals",
+   "short_name": "EKU @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922246",
+   "date": "2027-01-02T19:00Z",
+   "name": "UT Arlington Mavericks at Stetson Hatters",
+   "short_name": "UTA @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "250",
+    "key": null,
+    "name": "UT Arlington Mavericks",
+    "abbr": "UTA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917961",
+   "date": "2027-01-02T19:00Z",
+   "name": "Austin Peay Governors at West Florida Argonauts",
+   "short_name": "APSU @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2046",
+    "key": null,
+    "name": "Austin Peay Governors",
+    "abbr": "APSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401920715",
+   "date": "2027-01-02T22:00Z",
+   "name": "North Alabama Lions at Lipscomb Bisons",
+   "short_name": "UNA @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2453",
+    "key": null,
+    "name": "North Alabama Lions",
+    "abbr": "UNA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922229",
+   "date": "2027-01-02T22:00Z",
+   "name": "North Florida Ospreys at Tarleton State Texans",
+   "short_name": "UNF @ TAR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "EECU Center",
+   "venue_city": "Stephenville",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2627",
+    "key": null,
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401917976",
+   "date": "2027-01-03T00:00Z",
+   "name": "Jacksonville Dolphins at Abilene Christian Wildcats",
+   "short_name": "JAX @ ACU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Moody Coliseum (Abilene)",
+   "venue_city": "Abilene",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922217",
+   "date": "2027-01-03T01:00Z",
+   "name": "Florida Gulf Coast Eagles at Little Rock Trojans",
+   "short_name": "FGCU @ LR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Jack Stephens Center",
+   "venue_city": "Little Rock",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2031",
+    "key": null,
+    "name": "Little Rock Trojans",
+    "abbr": "LR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401922218",
+   "date": "2027-01-06T00:00Z",
+   "name": "UT Arlington Mavericks at Florida Gulf Coast Eagles",
+   "short_name": "UTA @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "250",
+    "key": null,
+    "name": "UT Arlington Mavericks",
+    "abbr": "UTA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905401",
+   "date": "2027-01-08T00:00Z",
+   "name": "Bellarmine Knights at North Florida Ospreys",
+   "short_name": "BELL @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905402",
+   "date": "2027-01-08T00:00Z",
+   "name": "Lipscomb Bisons at Jacksonville Dolphins",
+   "short_name": "LIP @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905406",
+   "date": "2027-01-09T19:00Z",
+   "name": "Florida Gulf Coast Eagles at Stetson Hatters",
+   "short_name": "FGCU @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905404",
+   "date": "2027-01-09T19:00Z",
+   "name": "Lipscomb Bisons at North Florida Ospreys",
+   "short_name": "LIP @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905405",
+   "date": "2027-01-09T19:30Z",
+   "name": "Queens University Royals at West Florida Argonauts",
+   "short_name": "QUC @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905403",
+   "date": "2027-01-09T23:00Z",
+   "name": "Bellarmine Knights at Jacksonville Dolphins",
+   "short_name": "BELL @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905410",
+   "date": "2027-01-14T23:00Z",
+   "name": "North Florida Ospreys at West Florida Argonauts",
+   "short_name": "UNF @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905407",
+   "date": "2027-01-15T00:00Z",
+   "name": "Florida Gulf Coast Eagles at Bellarmine Knights",
+   "short_name": "FGCU @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905409",
+   "date": "2027-01-15T00:00Z",
+   "name": "Jacksonville Dolphins at Queens University Royals",
+   "short_name": "JAX @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905408",
+   "date": "2027-01-15T01:00Z",
+   "name": "Stetson Hatters at Lipscomb Bisons",
+   "short_name": "STET @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905411",
+   "date": "2027-01-16T19:00Z",
+   "name": "Stetson Hatters at Bellarmine Knights",
+   "short_name": "STET @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905414",
+   "date": "2027-01-16T19:00Z",
+   "name": "Jacksonville Dolphins at West Florida Argonauts",
+   "short_name": "JAX @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905413",
+   "date": "2027-01-16T20:00Z",
+   "name": "North Florida Ospreys at Queens University Royals",
+   "short_name": "UNF @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905412",
+   "date": "2027-01-16T22:00Z",
+   "name": "Florida Gulf Coast Eagles at Lipscomb Bisons",
+   "short_name": "FGCU @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905416",
+   "date": "2027-01-22T00:00Z",
+   "name": "West Florida Argonauts at Florida Gulf Coast Eagles",
+   "short_name": "UWF @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905415",
+   "date": "2027-01-22T00:00Z",
+   "name": "Queens University Royals at Stetson Hatters",
+   "short_name": "QUC @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905420",
+   "date": "2027-01-22T05:00Z",
+   "name": "North Florida Ospreys at Jacksonville Dolphins",
+   "short_name": "UNF @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": true,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905419",
+   "date": "2027-01-23T18:00Z",
+   "name": "West Florida Argonauts at Stetson Hatters",
+   "short_name": "UWF @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905418",
+   "date": "2027-01-23T19:00Z",
+   "name": "Queens University Royals at Florida Gulf Coast Eagles",
+   "short_name": "QUC @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905417",
+   "date": "2027-01-24T01:00Z",
+   "name": "Bellarmine Knights at Lipscomb Bisons",
+   "short_name": "BELL @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905423",
+   "date": "2027-01-28T05:00Z",
+   "name": "Florida Gulf Coast Eagles at Jacksonville Dolphins",
+   "short_name": "FGCU @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": true,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905422",
+   "date": "2027-01-28T23:00Z",
+   "name": "Lipscomb Bisons at West Florida Argonauts",
+   "short_name": "LIP @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905421",
+   "date": "2027-01-29T00:00Z",
+   "name": "Bellarmine Knights at Queens University Royals",
+   "short_name": "BELL @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905424",
+   "date": "2027-01-29T01:00Z",
+   "name": "Stetson Hatters at North Florida Ospreys",
+   "short_name": "STET @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905425",
+   "date": "2027-01-30T18:00Z",
+   "name": "Bellarmine Knights at West Florida Argonauts",
+   "short_name": "BELL @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905426",
+   "date": "2027-01-30T20:00Z",
+   "name": "Lipscomb Bisons at Queens University Royals",
+   "short_name": "LIP @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905428",
+   "date": "2027-01-30T22:00Z",
+   "name": "Florida Gulf Coast Eagles at North Florida Ospreys",
+   "short_name": "FGCU @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905427",
+   "date": "2027-01-30T23:00Z",
+   "name": "Stetson Hatters at Jacksonville Dolphins",
+   "short_name": "STET @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401929616",
+   "date": "2027-02-03T00:00Z",
+   "name": "Fort Lauderdale Eagles at Stetson Hatters",
+   "short_name": "UFTL @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123362",
+    "key": null,
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905429",
+   "date": "2027-02-05T00:00Z",
+   "name": "Jacksonville Dolphins at Bellarmine Knights",
+   "short_name": "JAX @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905430",
+   "date": "2027-02-05T01:00Z",
+   "name": "North Florida Ospreys at Lipscomb Bisons",
+   "short_name": "UNF @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905434",
+   "date": "2027-02-06T18:00Z",
+   "name": "Stetson Hatters at Florida Gulf Coast Eagles",
+   "short_name": "STET @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905431",
+   "date": "2027-02-06T19:00Z",
+   "name": "North Florida Ospreys at Bellarmine Knights",
+   "short_name": "UNF @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905433",
+   "date": "2027-02-06T20:00Z",
+   "name": "West Florida Argonauts at Queens University Royals",
+   "short_name": "UWF @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905432",
+   "date": "2027-02-06T22:00Z",
+   "name": "Jacksonville Dolphins at Lipscomb Bisons",
+   "short_name": "JAX @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905435",
+   "date": "2027-02-12T00:00Z",
+   "name": "Bellarmine Knights at Stetson Hatters",
+   "short_name": "BELL @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905436",
+   "date": "2027-02-12T00:00Z",
+   "name": "Lipscomb Bisons at Florida Gulf Coast Eagles",
+   "short_name": "LIP @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905438",
+   "date": "2027-02-12T00:00Z",
+   "name": "West Florida Argonauts at Jacksonville Dolphins",
+   "short_name": "UWF @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905437",
+   "date": "2027-02-12T00:00Z",
+   "name": "Queens University Royals at North Florida Ospreys",
+   "short_name": "QUC @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905439",
+   "date": "2027-02-13T19:00Z",
+   "name": "Bellarmine Knights at Florida Gulf Coast Eagles",
+   "short_name": "BELL @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905440",
+   "date": "2027-02-13T19:00Z",
+   "name": "Lipscomb Bisons at Stetson Hatters",
+   "short_name": "LIP @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905442",
+   "date": "2027-02-13T19:00Z",
+   "name": "West Florida Argonauts at North Florida Ospreys",
+   "short_name": "UWF @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905441",
+   "date": "2027-02-13T20:00Z",
+   "name": "Queens University Royals at Jacksonville Dolphins",
+   "short_name": "QUC @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905444",
+   "date": "2027-02-18T23:00Z",
+   "name": "Stetson Hatters at West Florida Argonauts",
+   "short_name": "STET @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905443",
+   "date": "2027-02-19T00:00Z",
+   "name": "Florida Gulf Coast Eagles at Queens University Royals",
+   "short_name": "FGCU @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905448",
+   "date": "2027-02-20T00:00Z",
+   "name": "Jacksonville Dolphins at North Florida Ospreys",
+   "short_name": "JAX @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905447",
+   "date": "2027-02-20T18:00Z",
+   "name": "Florida Gulf Coast Eagles at West Florida Argonauts",
+   "short_name": "FGCU @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905446",
+   "date": "2027-02-20T20:00Z",
+   "name": "Stetson Hatters at Queens University Royals",
+   "short_name": "STET @ QUC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Curry Arena",
+   "venue_city": "Charlotte",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905445",
+   "date": "2027-02-21T00:00Z",
+   "name": "Lipscomb Bisons at Bellarmine Knights",
+   "short_name": "LIP @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905449",
+   "date": "2027-02-26T00:00Z",
+   "name": "West Florida Argonauts at Bellarmine Knights",
+   "short_name": "UWF @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905452",
+   "date": "2027-02-26T00:30Z",
+   "name": "North Florida Ospreys at Florida Gulf Coast Eagles",
+   "short_name": "UNF @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905451",
+   "date": "2027-02-26T00:30Z",
+   "name": "Jacksonville Dolphins at Stetson Hatters",
+   "short_name": "JAX @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905450",
+   "date": "2027-02-26T01:00Z",
+   "name": "Queens University Royals at Lipscomb Bisons",
+   "short_name": "QUC @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905453",
+   "date": "2027-02-27T19:00Z",
+   "name": "Queens University Royals at Bellarmine Knights",
+   "short_name": "QUC @ BELL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Knights Hall",
+   "venue_city": "Louisville",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905456",
+   "date": "2027-02-27T20:30Z",
+   "name": "North Florida Ospreys at Stetson Hatters",
+   "short_name": "UNF @ STET",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Insight Credit Union Arena at Edmunds Center",
+   "venue_city": "DeLand",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "56",
+    "key": "stetson",
+    "name": "Stetson Hatters",
+    "abbr": "STET",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905455",
+   "date": "2027-02-27T21:00Z",
+   "name": "Jacksonville Dolphins at Florida Gulf Coast Eagles",
+   "short_name": "JAX @ FGCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Alico Arena",
+   "venue_city": "Fort Myers",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "526",
+    "key": "fgcu",
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "294",
+    "key": "jacksonville",
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  },
+  {
+   "game_id": "401905454",
+   "date": "2027-02-27T22:00Z",
+   "name": "West Florida Argonauts at Lipscomb Bisons",
+   "short_name": "UWF @ LIP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "venue": "Allen Arena",
+   "venue_city": "Nashville",
+   "venue_state": "TN",
+   "home": {
+    "espn_id": "288",
+    "key": "lipscomb",
+    "name": "Lipscomb Bisons",
+    "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false
+  }
+ ]
+}

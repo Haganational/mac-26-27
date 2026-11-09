@@ -28,9 +28,9 @@ from typing import Any
 
 import requests
 
-from .config import DATA_DIR, ESPN_BASE, SEASON
+from .config import ESPN_BASE, SEASON, SHARED_DIR
 
-NCAA_DIR = DATA_DIR / "ncaa"
+NCAA_DIR = SHARED_DIR / "ncaa"
 TEAMS_PATH = NCAA_DIR / "teams.json"
 TIMEOUT = 30
 REFRESH_DAYS = 4  # re-read this many past days each run

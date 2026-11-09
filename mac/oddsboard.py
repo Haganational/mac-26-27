@@ -26,10 +26,10 @@ from statistics import median
 from typing import Any
 
 from .analysis import parse_iso
-from .config import DATA_DIR
+from .config import DATA_DIR, SHARED_DIR
 
 MODEL_PATH = DATA_DIR / "model" / "projections.jsonl"
-RUNS_PATH = DATA_DIR / "odds_runs.jsonl"
+RUNS_PATH = SHARED_DIR / "odds_runs.jsonl"
 # Monthly request allowance on the Odds API plan. Set to the plan's number when it changes.
 MONTHLY_REQUESTS = 20000
 # The collector snapshots every 30 minutes: 48 runs a day.

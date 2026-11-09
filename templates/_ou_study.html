@@ -1,11 +1,11 @@
-{#- Over/under study: closing total vs actual for every game involving a MAC team. Lives on Data Visualized. -#}
+{#- Over/under study: closing total vs actual for every game involving a {{ LG }} team. Lives on Data Visualized. -#}
 {% if ou and ou.seasons %}
 {% macro ourec(s) %}{{ s.o }}-{{ s.u }}{% if s.p %}-{{ s.p }}{% endif %}{% endmacro %}
 {% macro oubar(s) %}{% set dec = s.o + s.u %}<span class="oubar" title="{{ s.o }} overs, {{ s.u }} unders"><i class="o" style="width:{{ (100 * s.o / dec)|round if dec else 50 }}%"></i><i class="u" style="width:{{ (100 * s.u / dec)|round if dec else 50 }}%"></i></span>{% endmacro %}
 {% macro diffcell(v) %}<span class="oudiff {{ 'pos' if v and v > 0 else ('neg' if v and v < 0 else '') }}">{{ '%+.1f'|format(v) if v is not none else '–' }}</span>{% endmacro %}
   <section id="overunder">
     <div class="sechead"><h2>Over/under study</h2><span class="dim">Closing total vs what was scored · {{ ou.seasons|join(' and ') }}</span></div>
-    <p class="sub dim">Every game involving a MAC team that had a closing total: DraftKings' number as ESPN carried it at tip. "Miss" is points scored minus the close, so a plus is an over. A MAC-vs-MAC game counts once in league totals and once for each team in the team table.</p>
+    <p class="sub dim">Every game involving a {{ LG }} team that had a closing total: DraftKings' number as ESPN carried it at tip. "Miss" is points scored minus the close, so a plus is an over. A {{ LG }}-vs-MAC game counts once in league totals and once for each team in the team table.</p>
 
     <div class="oucards">
       {% for c in ou.season_cards %}
@@ -14,7 +14,7 @@
         <b>{{ ourec(c) }}</b><span class="ou-k">over-under</span>
         {{ oubar(c) }}
         <span class="ou-line">Avg miss {{ diffcell(c.avg_diff) }} · close {{ c.avg_close }} · scored {{ c.avg_actual }}</span>
-        {% if c.conf.n %}<span class="ou-line dim">MAC vs MAC {{ ourec(c.conf) }} · non-con {{ ourec(c.nonconf) }}</span>{% endif %}
+        {% if c.conf.n %}<span class="ou-line dim">{{ LG }} vs {{ LG }} {{ ourec(c.conf) }} · non-con {{ ourec(c.nonconf) }}</span>{% endif %}
       </div>
       {% endfor %}
       {% if ou.baseline %}{% set c = ou.baseline %}

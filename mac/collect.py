@@ -14,6 +14,10 @@
   python -m mac.collect ratings    # print the MAC ratings table
   python -m mac.collect box-weights  # refit what each box-score stat is worth (last season)
   python -m mac.collect all        # schedule + D-I results + lines + site (what the cron job runs)
+  LEAGUE=asun python -m mac.collect edition   # another league's full refresh: schedule, rosters, news, site
+  LEAGUE=asun python -m mac.collect lines-backfill  # one-time: that league's line history from the Almanac snapshots
+
+The MAC run's odds pull also writes every other edition's lines, so an edition never calls the Odds API.
 """
 
 from __future__ import annotations
@@ -95,6 +99,24 @@ def main(argv: list[str]) -> int:
         print(f"as of {m['as_of']}: {m['games_used']} D-I games, home edge {m['hca_pts']:.1f} pts")
         for t in m["mac"]:
             print(f"{t['rk_adj_em']:>4} {t['short']:<18} off {t['adj_o']:6.1f}  def {t['adj_d']:6.1f}  net {t['adj_em']:+5.1f}  pace {t['adj_t']:5.1f}  sos {t['sos'] or 0:+5.1f}")
+    elif cmd == "edition":
+        # A non-MAC edition: everything but the D-I refresh and odds, which the MAC run already did.
+        out = espn.refresh_schedule()
+        print(f"schedule: {len(out['games'])} games written")
+        print("venues:", travel.geocode_missing(out["games"]))
+        try:
+            rosters.refresh_rosters()
+            print("boxscores:", rosters.refresh_boxscores())
+        except Exception as exc:  # noqa: BLE001
+            print(f"rosters/boxscores: skipped ({exc})", file=sys.stderr)
+        try:
+            print("news:", news.refresh())
+        except Exception as exc:  # noqa: BLE001
+            print(f"news: skipped ({exc})", file=sys.stderr)
+        print("site:", build.render_site())
+    elif cmd == "lines-backfill":
+        from .config import LEAGUE
+        print(LEAGUE.key, "lines:", odds.backfill_from_book(LEAGUE))
     elif cmd == "all":
         out = espn.refresh_schedule()
         print(f"schedule: {len(out['games'])} games written")

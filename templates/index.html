@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}{{ site_name }} · MAC Men's Basketball {{ d.season }}{% endset %}{% set page_desc %}MAC men's basketball: standings, upcoming games, line snapshots and movement.{% endset %}
+{% set page_title %}{{ site_name }} · {{ LG }} Men's Basketball {{ d.season }}{% endset %}{% set page_desc %}{{ LG }} men's basketball: standings, upcoming games, line snapshots and movement.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="", image="static/og/site.png") }}
 </head>
 <body>
@@ -12,12 +12,12 @@
   <header class="homehero compact" data-floor="{{ floor }}">
     <div class="hh-title">
       <span class="kick">{{ site_name }}</span>
-      <h1><span class="hh-mac">MAC</span> men's basketball <span class="hh-yr">{{ d.season }} <span class="hh-line">News · Data · Edge</span></span></h1>
+      <h1><span class="hh-mac">{{ LG }}</span> men's basketball <span class="hh-yr">{{ d.season }} <span class="hh-line">News · Data · Edge</span></span></h1>
       <span class="sub">Updated {{ d.generated_et }}</span>
     </div>
     {% if d.news and d.news.headlines %}
     <ul class="hh-heads" aria-label="Latest headlines">
-      {% for i in d.news.headlines[:3] %}<li><span class="hh-tag">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}MAC{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
+      {% for i in d.news.headlines[:3] %}<li><span class="hh-tag">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}{{ LG }}{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
       <li class="hh-all"><a href="news.html">All news →</a></li>
     </ul>
     {% endif %}
@@ -66,7 +66,7 @@
   {% endif %}
 
   <div class="hometop">
-    {{ L.watch_shorts(youtube, youtube_shorts) }}
+    {% if 'mac90' in feat %}{{ L.watch_shorts(youtube, youtube_shorts) }}{% endif %}
     {{ L.best_play(d.best_play) }}
   </div>
 
@@ -100,14 +100,14 @@
 
   <div class="grid two">
     <section id="results">
-      <div class="sechead"><h2>Recent results</h2><span class="dim">Last 7 days · MAC team in bold</span></div>
+      <div class="sechead"><h2>Recent results</h2><span class="dim">Last 7 days · {{ LG }} team in bold</span></div>
       {% if d.recent %}
       <div class="scroll"><table class="results">
-        <tr><th>Date</th><th>Game</th><th class="num">Final</th><th class="num">Close</th><th class="num">MAC ATS</th></tr>
+        <tr><th>Date</th><th>Game</th><th class="num">Final</th><th class="num">Close</th><th class="num">{{ LG }} ATS</th></tr>
         {% for g in d.recent %}
         <tr{% if loop.index > 14 %} class="rs-more" hidden{% endif %}>
           <td class="dim">{{ g.md }}</td>
-          <td>{% if g.box %}<a class="rs-game" href="games/{{ g.game_id }}.html" title="Box score">{% else %}<span class="rs-game">{% endif %}<span class="{{ 'mac' if g.away.key else 'opp' }}">{{ g.away.abbr }}</span> {{ 'vs' if g.neutral_site else '@' }} <span class="{{ 'mac' if g.home.key else 'opp' }}">{{ g.home.abbr }}</span>{% if g.box %}</a>{% else %}</span>{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td>
+          <td>{% if g.box %}<a class="rs-game" href="games/{{ g.game_id }}.html" title="Box score">{% else %}<span class="rs-game">{% endif %}<span class="{{ 'mac' if g.away.key else 'opp' }}">{{ g.away.abbr }}</span> {{ 'vs' if g.neutral_site else '@' }} <span class="{{ 'mac' if g.home.key else 'opp' }}">{{ g.home.abbr }}</span>{% if g.box %}</a>{% else %}</span>{% endif %}{% if g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}</td>
           <td class="num">{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}</td>
           <td class="num">{{ "%+.1f"|format(g.closing_spread) if g.closing_spread is not none else "–" }}</td>
           <td class="num">{% for m in g.mac_ats %}<span class="ats {{ m.res or 'na' }}" title="{{ m.abbr }} {{ {'y': 'covered', 'n': 'did not cover', 'push': 'push'}.get(m.res, 'no line') }}">{% if g.mac_ats|length > 1 %}{{ m.abbr }} {% endif %}{{ {'y': '✓', 'n': '✗', 'push': 'P'}.get(m.res, '—') }}</span>{% endfor %}</td>
@@ -115,7 +115,7 @@
         {% endfor %}
       </table></div>
       {% if d.recent|length > 14 %}<button class="linkbtn" type="button" data-more-rows=".rs-more">Show {{ d.recent|length - 14 }} more results</button>{% endif %}
-      <div class="note">Close is the home team's spread. ✓ means the MAC team covered.</div>
+      <div class="note">Close is the home team's spread. ✓ means the {{ LG }} team covered.</div>
       {% else %}<div class="empty">No completed games in the window.</div>{% endif %}
     </section>
 
@@ -123,7 +123,7 @@
     <section id="standings">
       <h2>Standings</h2>
       <table>
-        <tr><th>Team</th><th class="num">MAC</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Strk</th></tr>
+        <tr><th>Team</th><th class="num">{{ LG }}</th><th class="num">Overall</th><th class="num">Margin</th><th class="num">Strk</th></tr>
         {% for r in d.standings %}
         <tr class="t-{{ r.key }}"><td><a href="teams/{{ r.key }}.html" style="color:var(--ink)"><i class="tdot"></i>{{ r.team|replace('Michigan', 'Mich.') }}</a></td><td class="num">{{ r.cw }}-{{ r.cl }}</td><td class="num">{{ r.w }}-{{ r.l }}</td><td class="num">{{ "%+.1f"|format(r.margin) }}</td><td class="num">{{ r.streak }}</td></tr>
         {% endfor %}

@@ -1,4 +1,4 @@
-"""News ticker: recent MAC men's basketball headlines from free RSS/Atom feeds.
+"""News ticker: recent conference men's basketball headlines from free RSS/Atom feeds.
 
 Why not Reddit: Reddit stops serving RSS on 2026-11-13, stopped taking new
 public API requests on 2026-10-31 and closes public API access in March 2027,
@@ -36,7 +36,7 @@ from xml.etree import ElementTree as ET
 
 import requests
 
-from .config import DATA_DIR, TEAMS
+from .config import DATA_DIR, LEAGUE, TEAMS
 
 NEWS_DIR = DATA_DIR / "news"
 ITEMS_PATH = NEWS_DIR / "items.json"
@@ -46,41 +46,12 @@ MAX_ITEMS = 1500
 TIMEOUT = 20
 USER_AGENT = "mac-26-27-news/1.0 (+https://github.com/Haganational/mac-26-27)"
 
-# Athletics sites, by team key. All are SIDEARM sites.
-ATHLETICS = {
-    "akron": "gozips.com",
-    "ball-state": "ballstatesports.com",
-    "bowling-green": "bgsufalcons.com",
-    "buffalo": "ubbulls.com",
-    "central-michigan": "cmuchippewas.com",
-    "eastern-michigan": "emueagles.com",
-    "kent-state": "kentstatesports.com",
-    "miami-oh": "miamiredhawks.com",
-    "ohio": "ohiobobcats.com",
-    "toledo": "utrockets.com",
-    "umass": "umassathletics.com",
-    "western-michigan": "wmubroncos.com",
-}
-
-# How each team is named in a Google News query and in headlines.
-# `query` is quoted in Google News; `match` patterns tag league-wide items.
-NAMES: dict[str, dict[str, Any]] = {
-    "akron": {"query": "Akron Zips", "match": [r"\bAkron\b", r"\bZips\b"]},
-    "ball-state": {"query": "Ball State", "match": [r"\bBall St(ate|\.)?\b"]},
-    "bowling-green": {"query": "Bowling Green", "match": [r"\bBowling Green\b", r"\bBGSU\b", r"\bFalcons\b"]},
-    "buffalo": {"query": "Buffalo Bulls", "match": [r"\bBuffalo\b", r"\bUB Bulls\b"]},
-    "central-michigan": {"query": "Central Michigan", "match": [r"\bCentral Michigan\b", r"\bCMU\b", r"\bChippewas\b"]},
-    "eastern-michigan": {"query": "Eastern Michigan", "match": [r"\bEastern Michigan\b", r"\bEMU\b"]},
-    "kent-state": {"query": "Kent State", "match": [r"\bKent St(ate|\.)?\b", r"\bGolden Flashes\b"]},
-    "miami-oh": {"query": "Miami RedHawks", "match": [r"\bRedHawks\b", r"\bMiami \(OH\)", r"\bMiami \(Ohio\)", r"\bMiami University\b"]},
-    "ohio": {"query": "Ohio Bobcats", "match": [r"\bOhio Bobcats\b", r"\bOhio University\b", r"\bOhio U\.?\b", r"\bBobcats\b", r"^Ohio\b(?! State)", r"\bOhio men[’']?s\b"]},
-    "toledo": {"query": "Toledo Rockets", "match": [r"\bToledo\b"]},
-    "umass": {"query": "UMass Minutemen", "match": [r"\bUMass\b", r"\bMinutemen\b", r"\bMassachusetts\b"]},
-    "western-michigan": {"query": "Western Michigan", "match": [r"\bWestern Michigan\b", r"\bWMU\b", r"\bBroncos\b"]},
-}
+# Athletics sites and Google News names, by team key: per league, in mac/leagues.py.
+ATHLETICS: dict[str, str] = LEAGUE.athletics if LEAGUE.has("athletics") else {}
+NAMES: dict[str, dict[str, Any]] = LEAGUE.news_names
 
 # Words that mark a general-news headline as being about men's hoops.
-HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\bMAC (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
+HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\b(MAC|ASUN|A-Sun|Atlantic Sun) (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
 WOMENS = re.compile(r"women[’']?s|minutewomen|\bWBB\b|\blady\b|\bW\. ?Basketball\b", re.I)
 # A school site reached through Google News covers every sport, and "MAC Tournament" or
 # "NCAA Tournament" alone is just as likely soccer or volleyball: the headline has to say basketball.
@@ -95,9 +66,9 @@ SPAM = re.compile(r"\bpredictions?\b|\bpicks?\b|computer pick|best bets?\b|betti
 # Subreddits, for links only (Reddit's feeds are closing; see module docstring).
 # Campus subs were confirmed to exist; r/CollegeBasketball team searches always resolve.
 SUBREDDITS = {
-    "league": [("CollegeBasketball", "3.0M members; game threads for MAC games")],
-    "buffalo": [("UBreddit", "University at Buffalo campus sub, about 34k")],
-    "umass": [("umass", "UMass Amherst campus sub, about 29k")],
+    "league": [("CollegeBasketball", f"3.0M members; game threads for {LEAGUE.short} games")],
+    **({"buffalo": [("UBreddit", "University at Buffalo campus sub, about 34k")],
+        "umass": [("umass", "UMass Amherst campus sub, about 29k")]} if LEAGUE.key == "mac" else {}),
 }
 
 
@@ -133,10 +104,11 @@ def sidearm_urls(host: str) -> tuple[str, ...]:
 
 
 def all_feeds() -> list[Feed]:
-    mac = sidearm_urls("getsomemaction.com")
-    feeds = [
-        Feed("league:mac", mac[0], "MAC (getsomemaction.com)", "league", None, mac[1:]),
-    ]
+    feeds = []
+    if LEAGUE.league_feed:
+        host, label = LEAGUE.league_feed
+        urls = sidearm_urls(host)
+        feeds.append(Feed(f"league:{LEAGUE.key}", urls[0], label, "league", None, urls[1:]))
     by_key = {t.key: t for t in TEAMS}
     for key, host in ATHLETICS.items():
         urls = sidearm_urls(host) + (site_search_url(host, "basketball"),)

@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC Travel Map{% endset %}{% set page_desc %}Where every MAC team plays in 2026-27: routes, miles, road trips, rest and time zones.{% endset %}
+{% set page_title %}{{ LG }} Travel Map{% endset %}{% set page_desc %}Where every {{ LG }} team plays in 2026-27: routes, miles, road trips, rest and time zones.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="travel.html", image="static/og/travel.png") }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -30,10 +30,10 @@
 <body>
 {{ L.topbar(root="", active="travel.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Travel</nav>
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Travel</nav>
   <header>
     <h1>Travel map</h1>
-    <span class="sub">Every venue on each MAC team's 2026-27 schedule, the route between them, and the miles, rest and time zones that come with it.</span>
+    <span class="sub">Every venue on each {{ LG }} team's 2026-27 schedule, the route between them, and the miles, rest and time zones that come with it.</span>
   </header>
 
   <section>
@@ -48,7 +48,7 @@
         <span><i style="background:var(--s2)"></i>Neutral site</span>
       </div>
     </div>
-    <div id="map" role="img" aria-label="Map of MAC venues and travel routes"></div>
+    <div id="map" role="img" aria-label="Map of {{ LG }} venues and travel routes"></div>
     <div id="kpis" class="kpis"></div>
   </section>
 
@@ -199,7 +199,7 @@
     const tb = document.getElementById('itintable');
     document.getElementById('itintitle').textContent = `${t.team} itinerary`;
     tb.innerHTML = '<tr><th>#</th><th>Date</th><th>Opponent</th><th>Site</th><th>Where</th><th class="num">Miles in</th><th class="num">Rest</th><th class="num">Road streak</th><th class="num">TZ</th><th class="num">Result</th></tr>' +
-      t.legs.map((l, i) => `<tr><td class="dim">${i + 1}</td><td class="dim">${esc(l.date.slice(5, 10))}</td><td>${l.site === 'home' ? 'vs' : (l.site === 'neutral' ? 'vs' : 'at')} ${esc(l.opponent)}${l.conference_game ? ' <span class="pill">MAC</span>' : ''}</td><td class="dim">${l.site}</td><td>${esc(l.city)}, ${esc(l.state)}</td><td class="num">${fmt(l.miles_in)}${l.via_home ? ' <span class="dim" title="via home">⌂</span>' : ''}</td><td class="num">${l.rest_days ?? '–'}</td><td class="num">${l.road_streak || ''}</td><td class="num">${l.tz_shift ? (l.tz_shift > 0 ? '+' : '') + l.tz_shift + 'h' : ''}</td><td class="num">${l.result ? `<a href="games/${l.game_id}.html">${esc(l.result)}</a>` : ''}</td></tr>`).join('');
+      t.legs.map((l, i) => `<tr><td class="dim">${i + 1}</td><td class="dim">${esc(l.date.slice(5, 10))}</td><td>${l.site === 'home' ? 'vs' : (l.site === 'neutral' ? 'vs' : 'at')} ${esc(l.opponent)}${l.conference_game ? ' <span class="pill">{{ LG }}</span>' : ''}</td><td class="dim">${l.site}</td><td>${esc(l.city)}, ${esc(l.state)}</td><td class="num">${fmt(l.miles_in)}${l.via_home ? ' <span class="dim" title="via home">⌂</span>' : ''}</td><td class="num">${l.rest_days ?? '–'}</td><td class="num">${l.road_streak || ''}</td><td class="num">${l.tz_shift ? (l.tz_shift > 0 ? '+' : '') + l.tz_shift + 'h' : ''}</td><td class="num">${l.result ? `<a href="games/${l.game_id}.html">${esc(l.result)}</a>` : ''}</td></tr>`).join('');
     document.getElementById('itin').hidden = false;
   }
 

@@ -2,17 +2,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC Odds Screen{% endset %}{% set page_desc %}Every book's spread, total and moneyline for upcoming MAC men's basketball games, with best price, open vs now, movement and model gaps.{% endset %}
+{% set page_title %}{{ LG }} Odds Screen{% endset %}{% set page_desc %}Every book's spread, total and moneyline for upcoming {{ LG }} men's basketball games, with best price, open vs now, movement and model gaps.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="odds.html", image="static/og/odds.png") }}
 </head>
 <body>
 {{ L.topbar(root="", active="odds.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Odds screen
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Odds screen
   </nav>
   <header>
     <h1>Odds screen</h1>
-    <span class="sub">Every book we pull for MAC games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">★ Green</b> is the best price on that side. A <s class="dim">struck-out</s> price looks stale or in-play and is left out of best price and the market number. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run every 30 minutes, so check the book before you bet.</span>
+    <span class="sub">Every book we pull for {{ LG }} games, from the last snapshot{% if o.last_capture %} ({{ o.last_capture[5:16].replace('T', ' ') }} UTC){% endif %}. <b class="bestk">★ Green</b> is the best price on that side. A <s class="dim">struck-out</s> price looks stale or in-play and is left out of best price and the market number. The market number is Pinnacle when it is posted, otherwise the median of the books. Snapshots run every 30 minutes, so check the book before you bet.</span>
   </header>
 
 {% macro bks(l) %}{{ l[:2]|map('book')|join(', ') }}{% if l|length > 2 %} +{{ l|length - 2 }}{% endif %}{% endmacro %}
@@ -30,7 +30,7 @@
   {{ L.best_play(o.best_play) }}
   {% set b = o.budget %}
   <div class="tiles">
-    <div class="tile"><div class="v">{{ o.board|length }}</div><div class="k">MAC games on the board</div></div>
+    <div class="tile"><div class="v">{{ o.board|length }}</div><div class="k">{{ LG }} games on the board</div></div>
     <div class="tile"><div class="v">{{ o.books|length }}</div><div class="k">books quoting them</div></div>
     <div class="tile"><div class="v">{{ o.waiting|length }}</div><div class="k">games in the next 8 days not posted yet</div></div>
     <div class="tile"><div class="v">{{ o.median_lead if o.median_lead is not none else '–' }}<span class="dim">h</span></div><div class="k">median lead: first line seen before tip</div></div>
@@ -76,7 +76,7 @@
       <div class="ogtip">{% if g %}<b>{{ g.et.day_label }}</b> {{ g.et.time }} ET{% else %}<b>{{ ev.commence_time[5:16].replace('T', ' ') }}</b> UTC{% endif %}<small class="cd" data-tip="{{ ev.commence_time }}"></small></div>
       <div class="ogteams">
         <span class="tm">{{ logo(ev.away.espn_id) }}{% if ev.away.key %}<a href="teams/{{ ev.away.key }}.html">{{ ev.away.name }}</a>{% else %}{{ ev.away.name }}{% endif %}</span>
-        <span class="tm">{{ logo(ev.home.espn_id) }}<b>{{ 'vs' if g and g.neutral_site else 'at' }} {% if ev.home.key %}<a href="teams/{{ ev.home.key }}.html">{{ ev.home.name }}</a>{% else %}{{ ev.home.name }}{% endif %}</b>{% if g and g.conference_game %} <span class="pill">MAC</span>{% endif %}</span>
+        <span class="tm">{{ logo(ev.home.espn_id) }}<b>{{ 'vs' if g and g.neutral_site else 'at' }} {% if ev.home.key %}<a href="teams/{{ ev.home.key }}.html">{{ ev.home.name }}</a>{% else %}{{ ev.home.name }}{% endif %}</b>{% if g and g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}</span>
       </div>
       {% if g %}<div class="ogwatch">{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</div>{% endif %}
     </div>
@@ -123,7 +123,7 @@
     {% if ev.pulled %}<div class="note">Off the board since the last snapshot: {% for p in ev.pulled %}{{ p.name }} (last seen {{ p.last_seen[5:16].replace('T', ' ') }} UTC){% if not loop.last %}, {% endif %}{% endfor %}.</div>{% endif %}
   </section>
   {% else %}
-  <section><div class="empty">No MAC game has a posted line right now. US books usually hang MAC numbers about a day before tip.</div></section>
+  <section><div class="empty">No {{ LG }} game has a posted line right now. US books usually hang {{ LG }} numbers about a day before tip.</div></section>
   {% endfor %}
 
   {% if o.waiting %}
@@ -132,7 +132,7 @@
     <div class="scroll"><table>
       <tr><th>Tip (ET)</th><th>Game</th><th class="num">Hours out</th><th>Watch</th></tr>
       {% for g in o.waiting %}
-      <tr><td class="dim">{{ g.et.day_label }} {{ g.et.time }}</td><td class="teams">{{ g.away.name }} {{ 'vs' if g.neutral_site else 'at' }} <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}</td><td class="num">{{ g.hours_out }}</td><td>{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</td></tr>
+      <tr><td class="dim">{{ g.et.day_label }} {{ g.et.time }}</td><td class="teams">{{ g.away.name }} {{ 'vs' if g.neutral_site else 'at' }} <b>{{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}</td><td class="num">{{ g.hours_out }}</td><td>{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</td></tr>
       {% endfor %}
     </table></div>
     <div class="note">These show up on the board at the first snapshot after a book posts. The lead-time numbers here feed the line timing study.</div>
@@ -173,7 +173,7 @@
       <tr><td>{{ r.name }}</td><td class="num">{{ r.games }}</td><td class="num">{{ r.best_pct ~ '%' if r.best_pct is not none else '–' }}</td><td class="num">{{ r.hold ~ '%' if r.hold is not none else '–' }}</td><td class="num">{{ r.first }}</td><td class="num">{{ r.avg_off if r.avg_off is not none else '–' }}</td></tr>
       {% endfor %}
     </table></div>
-    <div class="note">All MAC games we have snapshots for. Best price counts ties, so a book matching the top number gets credit.</div>
+    <div class="note">All {{ LG }} games we have snapshots for. Best price counts ties, so a book matching the top number gets credit.</div>
     {% else %}<div class="empty">No books yet.</div>{% endif %}
     <h2 style="margin-top:18px">API budget</h2>
     <p class="sub" style="margin:0">{{ b.month }}: {{ b.used if b.from_api else '~' ~ b.estimated_used }} of {{ b.limit }} requests used{% if b.remaining is not none %}, {{ b.remaining }} left{% endif %}. At a snapshot every 30 minutes the month ends near {{ b.projected_month_end }}, leaving {{ b.headroom }} spare for manual runs. Each run asks for 10 named books × 3 markets = 3 requests.{% if not b.from_api %} Exact counts start with the next collector run.{% endif %}</p>

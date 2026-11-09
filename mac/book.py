@@ -28,9 +28,9 @@ from typing import Any, Iterable
 
 import requests
 
-from .config import DATA_DIR, SEASON
+from .config import SEASON, SHARED_DIR
 
-BOOK_DIR = DATA_DIR / "book"
+BOOK_DIR = SHARED_DIR / "book"
 CONF_PATH = BOOK_DIR / "conferences.json"
 TIMEOUT = 30
 

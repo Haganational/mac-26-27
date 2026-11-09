@@ -12,7 +12,7 @@ from typing import Any
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import access, analysis, model, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
-from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
+from .config import BY_KEY, DATA_DIR, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
 from .rosters import load_boxscores
@@ -323,7 +323,8 @@ def render_site() -> str:
     now = datetime.fromisoformat(data["generated_at"])
     sched = load_schedule()["games"]
     game_teams = {g["game_id"]: [t for t in (g["home"].get("key"), g["away"].get("key")) if t] for g in sched}
-    dispatches = notes.load(game_teams=game_teams)  # Fieldhouse Notes: filed with games, teams, players and in the feed
+    # Fieldhouse Notes: filed with games, teams, players and in the feed (MAC only for now).
+    dispatches = notes.load(game_teams=game_teams) if LEAGUE.has("notes") else []
     data["news"] = notes.merge_feed(news.view(now, limit=30), dispatches, now, limit=30)
     try:
         m = model.build_model(now, log=True)
@@ -343,7 +344,10 @@ def render_site() -> str:
     env.filters["book"] = oddsboard.book_name
     env.filters["school"] = school
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
-                       nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
+                       nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
+                       LG=LEAGUE.short, LG_name=LEAGUE.name, LG_region=LEAGUE.region, LG_key=LEAGUE.key, LG_tourney=LEAGUE.tournament,
+                       n_teams=len(TEAMS), feat=LEAGUE.features, theme=LEAGUE.theme, art=f"backdrop-{LEAGUE.key}" if LEAGUE.key != "mac" else "backdrop",
+                       leagues=league_links(), site_up="../" * LEAGUE.path.count("/"))
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
 
@@ -356,7 +360,8 @@ def render_site() -> str:
     history = analysis.line_history(load_all_rows())
     espn_lines = espn_lines_by_game()
     profiles = players.build_profiles(games)
-    attach_x_handles(profiles)
+    if LEAGUE.has("x"):
+        attach_x_handles(profiles)
     standings = {r["key"]: r for r in data["standings"]}
     itins = travel.all_itineraries(games)
     ctx = travel.game_context(itins)
@@ -414,18 +419,20 @@ def render_site() -> str:
         d=data, n=full_news, host=news.host))
 
     # Follow-on-X checklist.
-    (SITE_DIR / "follow.html").write_text(env.get_template("follow.html").render(d=data, **follow_context()))
+    if LEAGUE.has("x"):
+        (SITE_DIR / "follow.html").write_text(env.get_template("follow.html").render(d=data, **follow_context()))
 
     # About / masthead: who we are, coverage, cadence, standards (for readers and press offices).
-    mh_path = DATA_DIR / "masthead.json"
+    mh_path = next((p for p in (DATA_DIR / "masthead.json", SHARED_DIR / "masthead.json") if p.exists()), DATA_DIR / "masthead.json")
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
     # MAC90: the 90-second daily script, built only from our own data.
     ou = ou_study.build()
-    t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
-    (SITE_DIR / "mac90.json").write_text(json.dumps(t))
-    (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
+    if LEAGUE.has("mac90"):
+        t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
+        (SITE_DIR / "mac90.json").write_text(json.dumps(t))
+        (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
@@ -487,14 +494,22 @@ def render_site() -> str:
         if m.get("players"):
             (SITE_DIR / "players.html").write_text(env.get_template("players.html").render(d=data, pr=m["players"], teamlinks=[{"key": t.key, "short": t.short, "abbr": t.abbr} for t in TEAMS]))
         (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book")}, default=str))
-        render_book(env, data, m.get("book"))
-    render_notes(env, data, season, dispatches, notes_by_game, profiles)
+        if LEAGUE.has("book"):
+            render_book(env, data, m.get("book"))
+    if LEAGUE.has("notes"):
+        render_notes(env, data, season, dispatches, notes_by_game, profiles)
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
     finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / "index.html")
+
+
+def league_links() -> list[dict[str, Any]]:
+    """Every edition, with its path from the site root, for the league switcher."""
+    return [{"key": lg.key, "short": lg.short, "name": lg.name, "path": lg.path, "on": lg.key == LEAGUE.key,
+             "region": lg.region} for lg in LEAGUES.values()]
 
 
 def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, Any]],
@@ -564,7 +579,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "static").mkdir(exist_ok=True)
     (SITE_DIR / "static" / "teams.css").write_text(site_chrome.teams_css())
 
-    pages = sorted(p for p in SITE_DIR.rglob("*.html"))
+    # Only this edition's pages: the MAC lives at the root, so skip the other editions' folders under it.
+    others = tuple(SITE_DIR / lg.path for lg in LEAGUES.values() if lg.path and lg.key != LEAGUE.key)
+    pages = sorted(p for p in SITE_DIR.rglob("*.html") if not any(p.is_relative_to(o) for o in others))
     sections: dict[str, list[tuple[str, str]]] = {}
     for f in pages:
         rel = f.relative_to(SITE_DIR).as_posix()
@@ -597,14 +614,14 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     for size, name in ((180, "icon-180.png"), (192, "icon-192.png"), (512, "icon-512.png")):
         site_chrome.app_icon(og / name, size)
     site_chrome.share_card(og / "site.png", site_chrome.SITE_NAME,
-                           "MAC men's basketball: scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
-                           kicker=f"MAC MEN'S BASKETBALL {SEASON_LABEL}")
+                           f"{LEAGUE.short} men's basketball: scores, lines from ten books, ratings, TV, travel and news for all {len(TEAMS)} teams.",
+                           kicker=f"{LEAGUE.short} MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}
     for t in TEAMS:
         rec = standings.get(t.key, {})
-        lines = [f"{rec.get('w', 0)}-{rec.get('l', 0)} overall · {rec.get('cw', 0)}-{rec.get('cl', 0)} MAC"]
+        lines = [f"{rec.get('w', 0)}-{rec.get('l', 0)} overall · {rec.get('cw', 0)}-{rec.get('cl', 0)} {LEAGUE.short}"]
         r = ratings.get(t.key)
         if r:
             lines.append(f"Net rating {r['adj_em']:+.1f} per 100 · #{r['rk_adj_em']} in D-I")

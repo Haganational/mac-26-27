@@ -237,6 +237,7 @@ def _players(r: R.Ratings, prior: R.Ratings, now: datetime, log: bool, table: li
         print(f"players: skipped ({exc!r})")
         return None, None
     if log:
+        player_ratings.PLAYERS_PATH.parent.mkdir(parents=True, exist_ok=True)
         player_ratings.PLAYERS_PATH.write_text(json.dumps(out, indent=0))
     try:
         tables = book.conference_tables(games, players, r, table, names, now, weights)

@@ -1,11 +1,12 @@
-"""Travel art: every MAC road trip of the season as light, for backdrops and share images.
+"""Travel art: every road trip in a league of the season as light, for backdrops and share images.
 
 Each leg of each team's schedule is an arc of light in that team's color. Where the
 corridors pile up (the Ohio-Michigan heartland) they burn white-hot. Campuses are
 nuclei with electron orbits, particles ride the arcs, and a shockwave of sparks
 bursts out of the middle of the league. Athens gets a ring of street bricks.
 
-    python -m tools.travel_art            # writes the art into /mnt/project-files/art/ (or ./art)
+    python -m tools.travel_art              # the MAC: art into /mnt/project-files/art/ (or ./art), backdrop JPGs into templates/static/art/
+    LEAGUE=asun python -m tools.travel_art  # the ASUN edition
 
 Outputs a desktop (16:9) and phone (9:19.5) version, each with and without a caption.
 """
@@ -23,15 +24,52 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from mac import espn, travel  # noqa: E402
-from mac.config import SEASON_LABEL, TEAMS, TEMPLATES_DIR  # noqa: E402
+from mac.config import LEAGUE, SEASON_LABEL, TEAMS, TEMPLATES_DIR  # noqa: E402
 
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 SERIF_I = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 SERIF_B = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 GOLD = (240, 199, 94)
-TOWN = {"akron": "Akron", "ball-state": "Muncie", "bowling-green": "Bowling Green", "buffalo": "Buffalo",
-        "central-michigan": "Mount Pleasant", "eastern-michigan": "Ypsilanti", "kent-state": "Kent",
-        "miami-oh": "Oxford", "ohio": "Athens", "toledo": "Toledo", "umass": "Amherst", "western-michigan": "Kalamazoo"}
+# One look per league. The MAC burns hot over the Ohio-Michigan heartland, with Athens ringed
+# in street bricks; the ASUN is Gulf water and sawgrass, bursting out of the middle of Florida.
+PROFILES = {
+    "mac": {
+        "title": "The MAC in Motion",
+        "towns": {"akron": "Akron", "ball-state": "Muncie", "bowling-green": "Bowling Green", "buffalo": "Buffalo",
+                  "central-michigan": "Mount Pleasant", "eastern-michigan": "Ypsilanti", "kent-state": "Kent",
+                  "miami-oh": "Oxford", "ohio": "Athens", "toledo": "Toledo", "umass": "Amherst", "western-michigan": "Kalamazoo"},
+        "big": ("ohio", ", Ohio"),
+        "offsets": {"toledo": (-1, -1), "bowling-green": (-1, 1), "eastern-michigan": (1, -1), "akron": (1, 1), "kent-state": (1, -1),
+                    "miami-oh": (-1, 1), "ball-state": (-1, -1), "central-michigan": (1, -1), "western-michigan": (-1, -1),
+                    "buffalo": (1, -1), "umass": (-1, -1), "ohio": (1, 1)},
+        "heart": (-83.0, 41.0),
+        "bg": ((0.055, 0.06, 0.12), (0.04, 0.022, 0.014)),  # deep indigo at the heart, hickory-black at the edges
+        "shock": (1.0, 0.62, 0.25),
+        "spark": lambda hot: (1.0, 0.45 + 0.4 * hot, 0.12 + 0.3 * hot ** 2),
+        "ember": (1.0, 0.7, 0.35),
+        "map": ((214, 170, 90), (24, 46, 92), (150, 195, 245)),
+        "halo": "bricks",
+        "frames": {"desktop": (3200, 1800, (-82.6, 39.6), 27.0), "phone": (1290, 2796, (-80.4, 37.6), 14.8)},
+    },
+    "asun": {
+        "title": "The ASUN in Motion",
+        "towns": {"bellarmine": "Louisville", "fgcu": "Fort Myers", "jacksonville": "Jacksonville", "lipscomb": "Nashville",
+                  "north-florida": "", "queens": "Charlotte", "stetson": "DeLand", "west-florida": "Pensacola"},
+        "big": ("fgcu", ", Florida"),
+        "offsets": {"bellarmine": (1, -1), "fgcu": (1, 1), "jacksonville": (1, -1), "lipscomb": (-1, -1), "queens": (1, -1),
+                    "stetson": (1, 1), "west-florida": (-1, 1)},
+        "heart": (-82.0, 28.8),
+        "bg": ((0.02, 0.10, 0.12), (0.008, 0.035, 0.05)),  # lagoon teal at the heart, deep Gulf at the edges
+        "shock": (0.35, 0.95, 0.85),
+        "spark": lambda hot: (0.25 + 0.7 * hot, 0.85, 0.65 + 0.2 * hot),  # sea-foam to sand
+        "ember": (0.95, 0.85, 0.55),
+        "map": ((150, 210, 200), (10, 70, 90), (140, 220, 230)),
+        "halo": "",
+        "frames": {"desktop": (3200, 1800, (-83.4, 32.7), 22.0), "phone": (1290, 2796, (-82.9, 32.0), 11.5)},
+    },
+}
+P = PROFILES[LEAGUE.key]
+TOWN = P["towns"]
 
 
 def hex_rgb(h: str) -> np.ndarray:
@@ -119,8 +157,8 @@ def blur(arr: np.ndarray, sigma: float) -> np.ndarray:
 def background(w: int, h: int, focus: tuple[float, float]) -> np.ndarray:
     yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
     d = np.sqrt(((xx - focus[0]) / w) ** 2 + ((yy - focus[1]) / h) ** 2)
-    inner = np.array([0.055, 0.06, 0.12], np.float32)   # deep indigo at the heart
-    outer = np.array([0.04, 0.022, 0.014], np.float32)  # hickory-black at the edges
+    inner = np.array(P["bg"][0], np.float32)
+    outer = np.array(P["bg"][1], np.float32)
     t = np.clip(d / 0.75, 0, 1)[:, :, None]
     return inner * (1 - t) + outer * t
 
@@ -143,14 +181,14 @@ def draw_basemap(img: Image.Image, cv: Canvas) -> None:
 
     for f in bm["countries"]["features"]:
         for ring in lines(f["geometry"]):
-            d.line([cv.xy(*p) for p in ring], fill=(214, 170, 90, 80), width=lw)
+            d.line([cv.xy(*p) for p in ring], fill=P["map"][0] + (80,), width=lw)
     for ring in lines(bm["states"]["geometry"]):
-        d.line([cv.xy(*p) for p in ring], fill=(214, 170, 90, 34), width=lw)
+        d.line([cv.xy(*p) for p in ring], fill=P["map"][0] + (34,), width=lw)
     for ring in lines(bm["lakes"]["geometry"]):
         pts = [cv.xy(*p) for p in ring]
         if len(pts) > 2:
-            d.polygon(pts, fill=(24, 46, 92, 85))
-            d.line(pts + [pts[0]], fill=(150, 195, 245, 110), width=lw)
+            d.polygon(pts, fill=P["map"][1] + (85,))
+            d.line(pts + [pts[0]], fill=P["map"][2] + (110,), width=lw)
     img.alpha_composite(layer)
 
 
@@ -174,6 +212,8 @@ def render(w: int, h: int, center: tuple[float, float], span_x: float, seed: int
                 here = bases[key]
             else:
                 here = (leg["lon"], leg["lat"])
+                if None in here:  # a venue we couldn't place: skip the leg
+                    continue
             if here != prev:
                 arcs.append((key, prev, here))
                 legs += 1
@@ -202,13 +242,13 @@ def render(w: int, h: int, center: tuple[float, float], span_x: float, seed: int
             cv.splat(pts[idx[-1:]], np.array([1, 0.97, 0.9], np.float32), 22.0)
 
     # 2. The heart of the league: a shockwave and a spray of sparks (mind, blown).
-    hx, hy = cv.xy(-83.0, 41.0)
+    hx, hy = cv.xy(*P["heart"])
     for i, r in enumerate((90, 170, 270, 400, 560)):
         r *= u
         ang = np.linspace(0, 2 * np.pi, int(2 * np.pi * r * 1.2), dtype=np.float32)
         jitter = 1 + 0.02 * np.sin(ang * (7 + i * 3) + i)
         pts = np.stack([hx + r * jitter * np.cos(ang), hy + r * 0.82 * jitter * np.sin(ang)], 1)
-        cv.splat(pts, np.array([1.0, 0.62, 0.25], np.float32), 1.1 / (1 + i * 0.45))
+        cv.splat(pts, np.array(P["shock"], np.float32), 1.1 / (1 + i * 0.45))
     for _ in range(int(900 * u + 200)):
         a = rnd.uniform(0, 2 * math.pi)
         r0 = rnd.uniform(20, 140) * u
@@ -219,7 +259,7 @@ def render(w: int, h: int, center: tuple[float, float], span_x: float, seed: int
         aa = a + curve * (s - r0)
         pts = np.stack([hx + s * np.cos(aa), hy + 0.82 * s * np.sin(aa)], 1)
         hot = rnd.random()
-        col = np.array([1.0, 0.45 + 0.4 * hot, 0.12 + 0.3 * hot ** 2], np.float32)
+        col = np.array(P["spark"](hot), np.float32)
         fade = np.linspace(1, 0, steps, dtype=np.float32) ** 1.5
         cv.splat(pts, col, fade * rnd.uniform(0.15, 0.7))
     embers = nrng.normal(0, 1, (int(5000 * u + 800), 2)).astype(np.float32)
@@ -227,7 +267,7 @@ def render(w: int, h: int, center: tuple[float, float], span_x: float, seed: int
     embers = embers / (np.linalg.norm(embers, axis=1, keepdims=True) + 1e-6) * rad[:, None]
     embers[:, 1] *= 0.82
     embers += np.array([hx, hy], np.float32)
-    cv.splat(embers, np.array([1.0, 0.7, 0.35], np.float32), nrng.uniform(0.4, 2.6, len(embers)).astype(np.float32))
+    cv.splat(embers, np.array(P["ember"], np.float32), nrng.uniform(0.4, 2.6, len(embers)).astype(np.float32))
 
     # 3. Campuses as nuclei, each with electron orbits.
     for key, (lon, lat) in bases.items():
@@ -261,6 +301,8 @@ def render(w: int, h: int, center: tuple[float, float], span_x: float, seed: int
     mapmask = Image.fromarray(((np.clip(1 - img_lin.max(axis=2), 0, 1)) * 255).astype(np.uint8), "L")
     img = Image.composite(Image.blend(base, img, 0.5), img, mapmask)
 
+    if P["halo"] != "bricks":
+        return img, cv, {"bases": bases, "miles": total_miles, "legs": legs, "games": sum(len(i["legs"]) for i in itins.values())}
     # 4. Athens: a ring of Court Street bricks around Ohio's nucleus.
     ax, ay = cv.xy(*bases["ohio"])
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
@@ -302,15 +344,15 @@ def labels(img: Image.Image, cv: Canvas, meta: dict, caption: bool) -> Image.Ima
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     # Town names: small gold italics beside each nucleus, no boxes.
-    offsets = {"toledo": (-1, -1), "bowling-green": (-1, 1), "eastern-michigan": (1, -1), "akron": (1, 1), "kent-state": (1, -1),
-               "miami-oh": (-1, 1), "ball-state": (-1, -1), "central-michigan": (1, -1), "western-michigan": (-1, -1),
-               "buffalo": (1, -1), "umass": (-1, -1), "ohio": (1, 1)}
+    offsets = P["offsets"]
     for key, (lon, lat) in meta["bases"].items():
+        if not TOWN.get(key):
+            continue
         x, y = cv.xy(lon, lat)
         sx, sy = offsets.get(key, (1, -1))
-        big = key == "ohio"
+        big = key == P["big"][0]
         f = font(SERIF_I, (46 if big else 30) * u)
-        name = TOWN[key] + (", Ohio" if big else "")
+        name = TOWN[key] + (P["big"][1] if big else "")
         tw = d.textlength(name, font=f)
         gap = (112 if big else 50) * u
         tx = x + gap * 0.75 if sx > 0 else x - gap * 0.75 - tw
@@ -323,8 +365,8 @@ def labels(img: Image.Image, cv: Canvas, meta: dict, caption: bool) -> Image.Ima
         s = font(SERIF_I, 34 * u)
         x0, y0 = 90 * u, cv.h - 300 * u
         spaced(d, (x0, y0), "HARDWOOD BRICKS", k, GOLD + (230,), 9 * u)
-        d.text((x0, y0 + 46 * u), "The MAC in Motion", font=t, fill=(255, 246, 230, 245))
-        line = f"{SEASON_LABEL}  ·  12 schools  ·  {meta['miles']:,} miles on the road"
+        d.text((x0, y0 + 46 * u), P["title"], font=t, fill=(255, 246, 230, 245))
+        line = f"{SEASON_LABEL}  ·  {len(TEAMS)} schools  ·  {meta['miles']:,} miles on the road"
         d.text((x0, y0 + 150 * u), line, font=s, fill=(243, 230, 210, 210))
         spaced(d, (cv.w - 90 * u, cv.h - 120 * u), "HARDWOODBRICKS.COM", k, GOLD + (190,), 7 * u, anchor_right=True)
     return Image.alpha_composite(img, layer)
@@ -333,14 +375,16 @@ def labels(img: Image.Image, cv: Canvas, meta: dict, caption: bool) -> Image.Ima
 def main() -> None:
     out = Path("/mnt/project-files/art") if Path("/mnt/project-files").exists() else Path("art")
     out.mkdir(parents=True, exist_ok=True)
-    for name, (w, h, center, span) in {
-        "desktop": (3200, 1800, (-82.6, 39.6), 27.0),
-        "phone": (1290, 2796, (-80.4, 37.6), 14.8),
-    }.items():
+    stem = f"{LEAGUE.key}-in-motion"
+    art = TEMPLATES_DIR / "static" / "art"
+    backdrop = "backdrop" if LEAGUE.key == "mac" else f"backdrop-{LEAGUE.key}"
+    for name, (w, h, center, span) in P["frames"].items():
         img, cv, meta = render(w, h, center, span)
-        img.convert("RGB").save(out / f"mac-in-motion-{name}-bare.png", optimize=True)  # no text: site backdrop
-        labels(img, cv, meta, caption=False).convert("RGB").save(out / f"mac-in-motion-{name}-clean.png", optimize=True)
-        labels(img, cv, meta, caption=True).convert("RGB").save(out / f"mac-in-motion-{name}.png", optimize=True)
+        img.convert("RGB").save(out / f"{stem}-{name}-bare.png", optimize=True)  # no text: site backdrop
+        labels(img, cv, meta, caption=False).convert("RGB").save(out / f"{stem}-{name}-clean.png", optimize=True)
+        labels(img, cv, meta, caption=True).convert("RGB").save(out / f"{stem}-{name}.png", optimize=True)
+        bw = 1920 if name == "desktop" else 860
+        img.convert("RGB").resize((bw, round(h * bw / w)), Image.LANCZOS).save(art / f"{backdrop}-{name}.jpg", quality=72, optimize=True)
         print(name, meta["games"], meta["legs"], meta["miles"])
     print(out)
 

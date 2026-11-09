@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC Schedule & TV{% endset %}{% set page_desc %}This week's grid and every MAC men's basketball game in 2026-27: tip time (Eastern), where to watch, lines, model, rest and travel.{% endset %}
+{% set page_title %}{{ LG }} Schedule & TV{% endset %}{% set page_desc %}This week's grid and every {{ LG }} men's basketball game in 2026-27: tip time (Eastern), where to watch, lines, model, rest and travel.{% endset %}
 {{ L.head(page_title, page_desc, root="", path="tv.html", image="static/og/tv.png") }}
 </head>
 <body>
 {{ L.topbar(root="", active="tv.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">MAC {{ d.season }}</a> <span class="dim">/</span> Schedule &amp; TV
+  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Schedule &amp; TV
   </nav>
   <header>
     <h1>Schedule &amp; TV</h1>
@@ -21,7 +21,7 @@
 
   <section id="week">
     <h2>This week: when and where to watch</h2>
-    <div class="sub" style="margin-bottom:12px">Next 8 days, all times Eastern. Each chip is a MAC team's game at its tip time; tap one to jump to it in the list.</div>
+    <div class="sub" style="margin-bottom:12px">Next 8 days, all times Eastern. Each chip is a {{ LG }} team's game at its tip time; tap one to jump to it in the list.</div>
     {% set lo = d.hour_range[0] %}{% set span = d.hour_range|length %}
     <div class="scroll"><div class="when" data-lo="{{ lo }}" data-span="{{ span }}">
       <div class="whead"><div></div><div class="hours">{% for h in d.hour_range %}<span style="left:{{ (loop.index0 / span * 100)|round(3) }}%">{{ (h - 12 if h > 12 else h) }}{{ 'a' if h < 12 else 'p' }}</span>{% endfor %}</div></div>
@@ -38,7 +38,7 @@
       </div>
       {% endfor %}
     </div></div>
-    <div class="legend" style="margin:10px 0 18px;flex-wrap:wrap"><span><i class="lk tv"></i>National TV</span><span><i class="lk stream"></i>Streaming (ESPN+ etc.)</span><span><i class="lk none"></i>No broadcast listed yet</span><span><i class="lk conf"></i>MAC game</span></div>
+    <div class="legend" style="margin:10px 0 18px;flex-wrap:wrap"><span><i class="lk tv"></i>National TV</span><span><i class="lk stream"></i>Streaming (ESPN+ etc.)</span><span><i class="lk none"></i>No broadcast listed yet</span><span><i class="lk conf"></i>{{ LG }} game</span></div>
 
   </section>
 
@@ -49,7 +49,7 @@
         <button data-tier="all" class="on">All games</button><button data-tier="tv">National TV</button><button data-tier="stream">Streaming</button><button data-tier="none">Not listed</button>
       </div>
       <select id="teamPick" aria-label="Team"><option value="">All teams</option>{% for t in d.teams %}<option value="{{ t.key }}">{{ t.short }}</option>{% endfor %}</select>
-      <label class="sub"><input type="checkbox" id="macOnly"> MAC games only</label>
+      <label class="sub"><input type="checkbox" id="macOnly"> {{ LG }} games only</label>
       <label class="sub"><input type="checkbox" id="hideDone" checked> Hide finished</label>
       <a class="btnlink" href="#" id="jumpNow">Jump to today</a>
       <span class="dim sub" id="shown"></span>
@@ -67,7 +67,7 @@
             <td class="tipcell"><b>{{ g.et.time }}</b>{% if not g.completed %}<small class="cd" data-tip="{{ g.date }}"></small>{% endif %}</td>
             <td class="watchcell">{{ watchchips(g.watch) }}</td>
             {% set gh = game_href.get(g.game_id) %}
-            <td class="teams">{% if gh %}<a class="gamelink" href="{{ gh }}" title="{{ 'Box score' if g.completed else 'Game preview: model, players to watch, line' }}">{% endif %}<span class="tm">{{ logo(g.away) }}{% if not gh and g.away.key %}<a href="teams/{{ g.away.key }}.html">{{ g.away.name }}</a>{% else %}{{ g.away.name }}{% endif %}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {% if not gh and g.home.key %}<a href="teams/{{ g.home.key }}.html">{{ g.home.name }}</a>{% else %}{{ g.home.name }}{% endif %}</b>{% if gh %}</a>{% endif %}{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}{% if notes_by_game.get(g.game_id) %} <a class="pill" href="notes.html#n-{{ notes_by_game[g.game_id][0].slug }}" title="Fieldhouse Notes dispatch">notes</a>{% endif %}{{ L.add_dispatch(g.game_id, (g.away.abbr or g.away.name) ~ " at " ~ (g.home.abbr or g.home.name), small=True) }}</span></td>
+            <td class="teams">{% if gh %}<a class="gamelink" href="{{ gh }}" title="{{ 'Box score' if g.completed else 'Game preview: model, players to watch, line' }}">{% endif %}<span class="tm">{{ logo(g.away) }}{% if not gh and g.away.key %}<a href="teams/{{ g.away.key }}.html">{{ g.away.name }}</a>{% else %}{{ g.away.name }}{% endif %}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {% if not gh and g.home.key %}<a href="teams/{{ g.home.key }}.html">{{ g.home.name }}</a>{% else %}{{ g.home.name }}{% endif %}</b>{% if gh %}</a>{% endif %}{% if g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}{% if notes_by_game.get(g.game_id) %} <a class="pill" href="notes.html#n-{{ notes_by_game[g.game_id][0].slug }}" title="Fieldhouse Notes dispatch">notes</a>{% endif %}{{ L.add_dispatch(g.game_id, (g.away.abbr or g.away.name) ~ " at " ~ (g.home.abbr or g.home.name), small=True) }}</span></td>
             {% set u = UP.get(g.game_id) %}
             {% if u and u.line %}
             <td class="num">{{ "%+.1f"|format(u.line.latest.spread) if u.line.latest.spread is not none else "–" }}<small class="dim" style="display:block">spread</small></td>

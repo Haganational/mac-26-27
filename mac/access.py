@@ -26,12 +26,14 @@ import secrets
 from pathlib import Path
 from typing import Any
 
+from .config import LEAGUE
+
 LOCKED_PAGES = ("odds.html", "ratings.html", "viz.html", "players.html", "book.html", "travel.html")
 PAGE_BLURB = {
     "odds.html": ("Odds", "Every book's line, best prices, open vs now and where the market is off."),
     "ratings.html": ("Ratings", "Power ratings for all 365 D-I teams, projected spreads and totals, and where the model disagrees with the market."),
     "viz.html": ("Data Viz", "When each book posts each game, on a clock that runs to tip-off."),
-    "players.html": ("Players", "Box-score ratings for every MAC player, tied to the team model."),
+    "players.html": ("Players", f"Box-score ratings for every {LEAGUE.short} player, tied to the team model."),
     "book.html": ("Almanac", "Team and player ratings for every D-I conference."),
     "travel.html": ("Travel", "Routes, miles, road trips, rest days and time zones for every team."),
 }
