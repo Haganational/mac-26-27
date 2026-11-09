@@ -74,6 +74,8 @@
       <input type="text" id="player" list="players" placeholder="Start typing a name (leave blank for none)">
       <datalist id="players">{% for p in players %}<option value="{{ p.label }}"></option>{% endfor %}</datalist>
       <div class="hint" id="playerhint" aria-live="polite"></div>
+      <label for="author">Byline</label>
+      <input type="text" id="author" placeholder="Leave blank for your own notes; a contributor's name otherwise">
       <label for="title">Headline</label>
       <input type="text" id="title" placeholder="Optional">
       <label for="date">Date</label>
@@ -104,6 +106,7 @@
 <script id="deskdata" type="application/json">{{ desk_json|safe }}</script>
 <script>
 (function () {
+  const LEAGUE = {{ LG_key|tojson }};
   const REPO = {{ notes_repo|tojson }}, API = 'https://api.github.com/repos/' + REPO, DIR = 'notes/dispatches/';
   const D = JSON.parse(document.getElementById('deskdata').textContent);
   const KINDS = D.kinds, ALIAS = D.aliases;
@@ -159,7 +162,7 @@
     const g = lookup($('#game').value, gameByLabel), p = lookup($('#player').value, playerByLabel);
     hint('#gamehint', $('#game').value, g, 'game'); hint('#playerhint', $('#player').value, p, 'player');
     return { kind: ($('input[name=kind]:checked') || {}).value || 'arena', game: g ? g.id : '', teams: $$('input[name=team]:checked').map(i => i.value),
-             player: p ? p.id : '', playerName: p ? p.name : '', title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
+             player: p ? p.id : '', playerName: p ? p.name : '', author: $('#author').value.trim(), title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
   }
   function toFile(f) {
     const L = ['---', 'kind: ' + f.kind];
@@ -167,6 +170,8 @@
     if (f.teams.length) L.push('team: ' + f.teams.join(', '));
     if (f.player) L.push('player: ' + f.player + (f.playerName ? '   # ' + f.playerName : ''));
     if (f.title) L.push('title: ' + f.title.replace(/\n/g, ' '));
+    if (LEAGUE !== 'mac') L.push('league: ' + LEAGUE);
+    if (f.author) L.push('author: ' + f.author.replace(/\n/g, ' '));
     L.push('date: ' + f.date, '---', '', f.body.trim(), '');
     return L.join('\n');
   }
@@ -189,14 +194,14 @@
     const teams = (meta.team || '').split(',').map(s => s.trim());
     $$('input[name=team]').forEach(i => i.checked = teams.includes(i.value));
     const p = playerById.get(meta.player || ''); $('#player').value = p ? p.label : '';
-    $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
+    $('#author').value = meta.author || ''; $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
     render();
   }
   function render() {
     const f = form(), g = gameById.get(f.game), teams = [...new Set([...(g ? g.teams : []), ...f.teams])];
     const where = [g ? esc(g.label) : '', ...teams.map(t => esc(teamName[t] || t)), f.player ? esc(f.playerName) : ''].filter(Boolean).join(' · ');
     $('#preview').innerHTML = `<article class="dispatch"><div class="meta"><span class="fh-kind">${KINDS[f.kind][1]} ${esc(KINDS[f.kind][0])}</span> · ${esc(f.date)}${where ? ' · ' + where : ''}</div>`
-      + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : '<p class="dim">Your dispatch will appear here.</p>'}</div></article>`
+      + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : '<p class="dim">Your dispatch will appear here.</p>'}</div></article>`
       + (where ? '' : '<p class="hint">Not filed to a game, team or player: it shows on the Notes page and in the feed.</p>');
     try { store.set('btb-desk-draft', JSON.stringify({ text: toFile(f) })); } catch (e) {}
   }
@@ -338,7 +343,7 @@
   });
 
   /* ---------- start: ?game= / ?team= / ?player= prefill, ?edit= loads a published dispatch */
-  $$('#game, #player, #title, #date, #body').forEach(el => el.addEventListener('input', render));
+  $$('#game, #player, #title, #date, #body, #author').forEach(el => el.addEventListener('input', render));
   $$('input[name=kind], input[name=team]').forEach(el => el.addEventListener('change', render));
   $('#save').onclick = () => save(); $('#pubnow').onclick = publishNow; $('#clear').onclick = () => { reset(); say(''); };
   const q = new URLSearchParams(location.search);

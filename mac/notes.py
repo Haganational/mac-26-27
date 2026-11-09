@@ -9,6 +9,8 @@ Each dispatch is a Markdown file in notes/dispatches/, committed to the repo:
     player: 5105569          ESPN player id: filed with the player
     title: Short headline
     date: 2026-11-12
+    league: asun             optional: which edition it belongs to (the MAC when left out)
+    author: Craig            optional: byline, for contributors (Matthew's own notes leave it out)
     draft: true              optional: stays off the site
     ---
     The dispatch itself, in Markdown.
@@ -37,9 +39,9 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
-from .config import DATA_DIR
+from .config import LEAGUE, ROOT
 
-NOTES_DIR = DATA_DIR.parent / "notes" / "dispatches"
+NOTES_DIR = ROOT / "notes" / "dispatches"
 REPO = "Haganational/mac-26-27"
 BRANCH = "main"
 
@@ -141,6 +143,8 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
         meta, body = parse(path.read_text(encoding="utf-8"))
         if not body or (meta.get("draft", "").lower() in ("true", "yes", "1") and not include_drafts):
             continue
+        if (meta.get("league") or "mac").lower() != LEAGUE.key:
+            continue
         gid = meta.get("game") or None
         teams = _list(meta.get("team"))
         for t in game_teams.get(str(gid), []) if gid else []:
@@ -156,6 +160,7 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
             "player": meta.get("player") or None,
             "kind": kind, "kind_label": KINDS[kind][0],
             "title": meta.get("title") or "",
+            "author": meta.get("author") or "",
             "date": meta.get("date") or path.stem[:10],
             "published": _published(meta, path.stem),
             "html": render_markdown(body),

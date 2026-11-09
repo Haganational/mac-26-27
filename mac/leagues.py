@@ -154,7 +154,7 @@ ASUN = League(
         Team("stetson", "56", "STET", "Stetson Hatters", "Stetson", "#0A5640", "#FFFFFF"),
         Team("west-florida", "2697", "UWF", "West Florida Argonauts", "West Florida", "#004C97", "#00843D"),
     ),
-    features=frozenset(),
+    features=frozenset({"notes"}),  # Fieldhouse Notes from Craig, the Miami contributor
     path="asun/",
     theme="glades",
     odds_aliases={
@@ -184,7 +184,64 @@ ASUN = League(
     tournament="the ASUN tournament",
 )
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN)}
+# Horizon 2026-27 membership from ESPN's conference feed (group 45). Northern Illinois joined from the MAC.
+HORIZON = League(
+    key="horizon", short="Horizon", name="Horizon League", region="the Rust Belt: Ohio, Michigan, Pennsylvania, Indiana, Illinois, Wisconsin and Kentucky",
+    teams=(
+        Team("cleveland-state", "325", "CLE", "Cleveland State Vikings", "Cleveland State", "#006747", "#FFFFFF"),
+        Team("detroit-mercy", "2174", "DETM", "Detroit Mercy Titans", "Detroit Mercy", "#A5093E", "#002D72"),
+        Team("green-bay", "2739", "GB", "Green Bay Phoenix", "Green Bay", "#006F44", "#FFFFFF"),
+        Team("iu-indy", "85", "IUIN", "IU Indianapolis Jaguars", "IU Indy", "#990000", "#FFC72C"),
+        Team("milwaukee", "270", "MILW", "Milwaukee Panthers", "Milwaukee", "#1B1B1B", "#FFBD00"),
+        Team("northern-illinois", "2459", "NIU", "Northern Illinois Huskies", "Northern Illinois", "#BA0C2F", "#1B1B1B"),
+        Team("northern-kentucky", "94", "NKU", "Northern Kentucky Norse", "Northern Kentucky", "#1B1B1B", "#FFC72C"),
+        Team("oakland", "2473", "OAK", "Oakland Golden Grizzlies", "Oakland", "#1B1B1B", "#B59A57"),
+        Team("purdue-fort-wayne", "2870", "PFW", "Purdue Fort Wayne Mastodons", "Purdue Fort Wayne", "#003A70", "#CFB991"),
+        Team("robert-morris", "2523", "RMU", "Robert Morris Colonials", "Robert Morris", "#14234B", "#A6192E"),
+        Team("wright-state", "2750", "WRST", "Wright State Raiders", "Wright State", "#007A33", "#CBA052"),
+        Team("youngstown-state", "2754", "YSU", "Youngstown State Penguins", "Youngstown State", "#C8102E", "#FFFFFF"),
+    ),
+    features=frozenset(),
+    path="horizon/",
+    theme="steel",
+    odds_aliases={
+        "Cleveland St Vikings": "cleveland-state",
+        "Youngstown St Penguins": "youngstown-state",
+        "Wright St Raiders": "wright-state",
+        "IUPUI Jaguars": "iu-indy",
+        "IU Indy Jaguars": "iu-indy",
+        "IU Indianapolis Jaguars": "iu-indy",
+        "Fort Wayne Mastodons": "purdue-fort-wayne",
+        "Purdue Fort Wayne Mastodons": "purdue-fort-wayne",
+        "Detroit Mercy Titans": "detroit-mercy",
+        "Detroit Titans": "detroit-mercy",
+        "Milwaukee Panthers": "milwaukee",
+        "Green Bay Phoenix": "green-bay",
+        "N Kentucky Norse": "northern-kentucky",
+        "Northern Kentucky Norse": "northern-kentucky",
+        "N Illinois Huskies": "northern-illinois",
+        "Northern Illinois Huskies": "northern-illinois",
+        "Oakland Golden Grizzlies": "oakland",
+        "Robert Morris Colonials": "robert-morris",
+    },
+    news_names={
+        "cleveland-state": {"query": "Cleveland State Vikings", "match": [r"\bCleveland St(ate|\.)?\b", r"\bCSU Vikings\b"]},
+        "detroit-mercy": {"query": "Detroit Mercy Titans", "match": [r"\bDetroit Mercy\b", r"\bTitans\b"]},
+        "green-bay": {"query": "Green Bay Phoenix", "match": [r"\bGreen Bay Phoenix\b", r"\bUW-Green Bay\b", r"\bUWGB\b"]},
+        "iu-indy": {"query": "IU Indy Jaguars", "match": [r"\bIU Indy\b", r"\bIU Indianapolis\b", r"\bIUPUI\b"]},
+        "milwaukee": {"query": "Milwaukee Panthers", "match": [r"\bMilwaukee Panthers\b", r"\bUW-Milwaukee\b", r"\bUWM\b"]},
+        "northern-illinois": {"query": "Northern Illinois Huskies", "match": [r"\bNorthern Illinois\b", r"\bNIU\b"]},
+        "northern-kentucky": {"query": "Northern Kentucky Norse", "match": [r"\bNorthern Kentucky\b", r"\bNKU\b", r"\bNorse\b"]},
+        "oakland": {"query": "Oakland Golden Grizzlies", "match": [r"\bOakland Golden Grizzlies\b", r"\bOakland University\b"]},
+        "purdue-fort-wayne": {"query": "Purdue Fort Wayne", "match": [r"\bPurdue Fort Wayne\b", r"\bPFW\b", r"\bMastodons\b"]},
+        "robert-morris": {"query": "Robert Morris Colonials", "match": [r"\bRobert Morris\b", r"\bRMU\b"]},
+        "wright-state": {"query": "Wright State Raiders", "match": [r"\bWright St(ate|\.)?\b"]},
+        "youngstown-state": {"query": "Youngstown State Penguins", "match": [r"\bYoungstown St(ate|\.)?\b", r"\bYSU\b"]},
+    },
+    tournament="the Horizon League tournament in Indianapolis",
+)
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON)}
 
 
 def current() -> League:

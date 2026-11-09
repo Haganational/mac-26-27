@@ -159,6 +159,7 @@
     {%- if n.player and player_links.get(n.player) %} · <a href="{{ root }}{{ player_links[n.player].href }}">{{ player_links[n.player].label }}</a>{% endif %}
     <a class="author-only edit" href="{{ root }}desk.html?edit={{ n.file|urlencode }}">edit</a></div>
   {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
+  {% if n.author %}<div class="byline">By {{ n.author }}</div>{% endif %}
   <div class="body">{{ n.html|safe }}</div>
 </article>
 {% endfor %}
