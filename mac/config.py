@@ -23,7 +23,15 @@ ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-colle
 ODDS_BASE = "https://api.the-odds-api.com/v4"
 ODDS_SPORT = "basketball_ncaab"
 ODDS_MARKETS = ("h2h", "spreads", "totals")
-ODDS_REGIONS = ("us",)
+ODDS_REGIONS = ("us",)  # fallback only; ODDS_BOOKMAKERS takes priority when set
+# Naming books directly bills like regions: every 10 books (from any region) = 1 region.
+# Ten books x 3 markets = 3 requests a run, the same as regions=us, but with Pinnacle
+# (eu), theScore Bet (us2, still keyed espnbet) and Novig (us_ex exchange) included.
+# Not offered by The Odds API: BetJACK. Caesars and Fanatics need a paid plan.
+ODDS_BOOKMAKERS: tuple[str, ...] = (
+    "draftkings", "fanduel", "betmgm", "espnbet", "novig",
+    "pinnacle", "betrivers", "hardrockbet", "betonlineag", "bovada",
+)
 
 
 @dataclass(frozen=True)

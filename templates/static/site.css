@@ -35,6 +35,7 @@ h3 { font-size: 16px; margin: 0; }
 .tile .v { font-size: 26px; font-weight: 600; line-height: 1.1; }
 .tile .k { color: var(--ink-2); font-size: 12px; margin-top: 4px; }
 .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.grid > * { min-width: 0; }
 @media (min-width: 900px) { .grid.two { grid-template-columns: 3fr 2fr; } }
 section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 20px; }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -52,7 +53,7 @@ tr:last-child td { border-bottom: 0; }
 .chartwrap { position: relative; }
 svg.line { width: 100%; height: 200px; display: block; }
 .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 9px; font-size: 12px; color: var(--ink); box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: none; white-space: nowrap; }
-select { font: inherit; background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; }
+select { max-width: 100%; font: inherit; background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; }
 .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
 .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-2); }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
@@ -86,8 +87,8 @@ details summary { cursor: pointer; color: var(--ink-2); font-size: 13px; margin-
 table.log { font-size: 13px; }
 tr.done td { color: var(--ink-2); }
 
-a.pto { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 600; border: 1px solid var(--border); color: var(--ink-2); }
-a.pto:hover { border-color: var(--s1); color: var(--s1); text-decoration: none; }
+a.oddslink { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 600; border: 1px solid var(--border); color: var(--ink-2); }
+a.oddslink:hover { border-color: var(--s1); color: var(--s1); text-decoration: none; }
 
 /* Box score pages */
 .scorehead { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 18px; }
@@ -168,3 +169,45 @@ tr.dayrow td { padding: 0 0 2px; border-bottom: 0; }
 tr.dayrow.past { opacity: .55; }
 .legend i.lk { border-radius: 3px; }
 table.agenda { min-width: 720px; }
+
+/* Odds screen */
+.bestk { color: var(--good); }
+.oddsgame { scroll-margin-top: 12px; }
+.oghead { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin-bottom: 10px; }
+.ogtip { min-width: 120px; font-size: 14px; }
+.ogtip small { display: block; color: var(--muted); font-size: 11px; }
+.ogtip small.live { color: var(--bad); font-weight: 700; text-transform: uppercase; }
+.ogteams { display: flex; flex-direction: column; gap: 2px; font-size: 15px; }
+.ogwatch { margin-left: auto; }
+.kv { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; padding: 8px 0 12px; border-bottom: 1px solid var(--grid); margin-bottom: 6px; font-size: 14px; }
+.kv > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 6px; }
+.kv .k { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; width: 100%; }
+.kv b { font-variant-numeric: tabular-nums; }
+.sparks { margin-left: auto; gap: 10px !important; }
+svg.spark { width: 150px; height: 40px; display: block; overflow: visible; }
+.mv { font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.mv.neg { color: var(--s1); } .mv.pos { color: var(--s2); }
+table.odds { min-width: 760px; font-size: 14px; }
+table.odds tr.mkh th { border-bottom: 0; padding-bottom: 0; text-align: center; text-transform: uppercase; letter-spacing: .04em; font-size: 11px; }
+table.odds td { vertical-align: middle; }
+table.odds td.q { white-space: nowrap; }
+table.odds .pt { font-weight: 600; }
+table.odds .pr { color: var(--ink-2); font-size: 13px; }
+table.odds small.op { display: block; color: var(--muted); font-size: 11px; font-weight: 400; }
+table.odds td.best { background: color-mix(in srgb, var(--good) 13%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--good) 45%, transparent); }
+table.odds td.best .pt, table.odds td.best .pr { color: var(--good); }
+table.odds td.bk { white-space: nowrap; font-weight: 500; }
+table.odds tr.sharp td.bk { font-weight: 700; }
+table.odds tr.sumrow td { border-top: 2px solid var(--axis); font-size: 13px; background: var(--neutral); }
+table.odds tr.sumrow + tr.sumrow td { border-top: 0; }
+table.odds td.hold span + span::before { content: ""; }
+.offk { color: var(--ink); font-weight: 700; background: color-mix(in srgb, var(--warn) 35%, transparent); padding: 0 4px; border-radius: 4px; }
+b.edge { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); padding: 0 5px; border-radius: 4px; }
+:root.offonly table.odds tr:not(.offmkt):not(.sumrow):not(.mkh):has(td) { display: none; }
+:root[data-mk="spread"] .mk-total, :root[data-mk="spread"] .mk-ml,
+:root[data-mk="total"] .mk-spread, :root[data-mk="total"] .mk-ml,
+:root[data-mk="ml"] .mk-spread, :root[data-mk="ml"] .mk-total { display: none; }
+:root[data-mk="all"] td.hold span:not(.mk-spread), :root[data-mk="all"] td.offc > span:not(.mk-spread) { display: none; }
+table.nowrap td { white-space: nowrap; }
+.sparks > span { display: flex; flex-direction: column; }
+:root[data-mk="spread"] table.odds, :root[data-mk="total"] table.odds, :root[data-mk="ml"] table.odds { min-width: 0; }

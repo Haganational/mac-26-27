@@ -1,7 +1,8 @@
 """Snapshot MAC lines from The Odds API.
 
 One call to /sports/basketball_ncaab/odds with three markets costs 3 requests
-against the monthly quota (cost = markets x regions). Three runs a day is about
+against the monthly quota (cost = markets x regions, where a named list of up to
+10 bookmakers counts as one region; see config.ODDS_BOOKMAKERS). Three runs a day is about
 270 requests a month, inside the 500-request free tier.
 
 Snapshots are appended to data/lines/YYYY-MM-DD.jsonl, one flattened row per
@@ -17,7 +18,8 @@ from typing import Any, Iterable
 
 import requests
 
-from .config import LINES_DIR, ODDS_BASE, ODDS_MARKETS, ODDS_REGIONS, ODDS_SPORT, team_key_for_odds_name
+from .oddsboard import record_run
+from .config import LINES_DIR, ODDS_BASE, ODDS_BOOKMAKERS, ODDS_MARKETS, ODDS_REGIONS, ODDS_SPORT, team_key_for_odds_name
 
 TIMEOUT = 30
 
@@ -39,7 +41,7 @@ def fetch_ncaab_odds() -> tuple[list[dict[str, Any]], dict[str, str]]:
         f"{ODDS_BASE}/sports/{ODDS_SPORT}/odds",
         params={
             "apiKey": api_key(),
-            "regions": ",".join(ODDS_REGIONS),
+            **({"bookmakers": ",".join(ODDS_BOOKMAKERS)} if ODDS_BOOKMAKERS else {"regions": ",".join(ODDS_REGIONS)}),
             "markets": ",".join(ODDS_MARKETS),
             "oddsFormat": "american",
             "dateFormat": "iso",
@@ -98,7 +100,7 @@ def snapshot_lines() -> dict[str, Any]:
         for row in rows:
             fh.write(json.dumps(row, separators=(",", ":")) + "\n")
 
-    return {
+    summary = {
         "captured_at": captured_at.isoformat(),
         "ncaab_events": len(events),
         "mac_events": len(mac_events),
@@ -106,6 +108,8 @@ def snapshot_lines() -> dict[str, Any]:
         "file": str(path),
         "quota": quota,
     }
+    record_run(summary)
+    return summary
 
 
 def load_all_rows() -> list[dict[str, Any]]:

@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, players, schedule_view, travel
+from . import analysis, oddsboard, players, schedule_view, travel
 from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -107,6 +107,7 @@ def team_games(team_key: str, games: list[dict[str, Any]], history: dict[str, di
             "won": (own["score"] or 0) > (opp["score"] or 0) if g["completed"] else None,
             "team_spread": team_spread,
             "ats": ats,
+            "odds_event_id": ev["odds_event_id"] if ev else None,
         })
     return out
 
@@ -181,6 +182,7 @@ def game_page_context(g: dict[str, Any], box: dict[str, Any], snap: dict[str, An
 def render_site() -> str:
     data = dashboard_data()
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
+    env.filters["book"] = oddsboard.book_name
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
 
@@ -221,6 +223,17 @@ def render_site() -> str:
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
         now_iso=data["generated_at"]))
+
+    # Odds screen: per-book prices, best number, open vs now, movement, model gaps.
+    now = datetime.fromisoformat(data["generated_at"])
+    line_rows = load_all_rows()
+    odds_ctx = oddsboard.page_context(now, games, line_rows, mapping, oddsboard.load_projections(),
+                                      decorate=schedule_view.decorate)
+    odds_ctx["budget"] = oddsboard.budget(now, line_rows)
+    (SITE_DIR / "odds.html").write_text(env.get_template("odds.html").render(
+        d=data, o=odds_ctx, fmt_spread=fmt_spread, book_name=oddsboard.book_name))
+    data["odds_summary"] = {"games": len(odds_ctx["board"]), "books": len(odds_ctx["books"]), "edges": odds_ctx["edges"],
+                            "budget": odds_ctx["budget"]}
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])

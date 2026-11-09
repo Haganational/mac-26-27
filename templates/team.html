@@ -60,7 +60,7 @@
           <td class="num">{% if g.team_spread is not none %}{{ "%+.1f"|format(g.team_spread) }}{% if g.completed and g.ats %} <span class="dim">{{ g.ats }}</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
           <td class="num">{% if g.trav and g.trav.rest_days is not none %}{{ g.trav.rest_days }}{% else %}<span class="dim">–</span>{% endif %}</td>
           <td class="num">{% if g.trav and g.trav.miles_in %}{{ "{:,}".format(g.trav.miles_in) }}{% if g.trav.tz_shift %} <span class="dim">{{ '%+d'|format(g.trav.tz_shift) }}h</span>{% endif %}{% else %}<span class="dim">–</span>{% endif %}</td>
-          <td>{% if not g.completed %}<a class="pto" href="https://picktheodds.app/en/odds-screen/NCAAB?group=SPREAD&amp;time=SPREAD" target="_blank" rel="noopener" data-copy="{{ team.short }}" title="Opens PickTheOdds and copies the team name to paste into its search">PTO</a>{% endif %}</td>
+          <td>{% if not g.completed and g.odds_event_id %}<a class="oddslink" href="../odds.html#ev{{ g.odds_event_id }}" title="Every book's price for this game">odds</a>{% endif %}</td>
         </tr>
         {% endfor %}
       </table></div>
@@ -161,7 +161,6 @@
   {% endif %}
 </main>
 <script>
-document.querySelectorAll('a.pto[data-copy]').forEach(a => a.addEventListener('click', () => { try { navigator.clipboard.writeText(a.dataset.copy); } catch (e) {} }));
 </script>
 </body>
 </html>

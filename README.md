@@ -18,7 +18,18 @@ against posted lines, plus a study of when MAC lines post and how they move.
 - **The dashboard** is a static page built by `mac/build.py` from
   `templates/index.html`.
 
-PickTheOdds stays the manual odds-shopping tool; nothing here touches it.
+- **The odds screen** (`odds.html`, built by `mac/oddsboard.py`) shows every book's
+  spread, total and moneyline for each MAC game on the board, with the best price on
+  each side, each book's open vs current number, hold, off-market flags, the
+  consensus path, which book posted first, a book scorecard and the API budget. It
+  is built from the saved snapshots, so it costs no extra requests. Once the rating
+  model writes `data/model/projections.jsonl`, model-vs-market gaps appear there too.
+- **Books** are named in `ODDS_BOOKMAKERS` in `mac/config.py`. The API bills every 10
+  named books (from any region) as one region, so the current 10 (DraftKings,
+  FanDuel, BetMGM, theScore Bet, Novig, Pinnacle, BetRivers, Hard Rock, BetOnline,
+  Bovada) cost the same 3 requests a run as `regions=us`. BetJACK is not offered by
+  The Odds API; Caesars and Fanatics need a paid plan. Each run's quota counters are
+  logged to `data/odds_runs.jsonl`.
 
 ## Local use
 
