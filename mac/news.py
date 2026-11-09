@@ -6,11 +6,15 @@ and unauthenticated .json was deprecated mid-2026. So the ticker reads feeds
 that stay free, and the dashboard links out to the subreddits instead.
 
 Sources, all public and free:
-  * Each school's athletics site (SIDEARM sites expose /rss.aspx?path=mbball)
+  * Each school's athletics site (SIDEARM sites expose /rss.aspx?path=mbball;
+    a few use another sport slug, so each feed tries a short list of URLs and
+    falls back to a Google News site: search of that domain)
   * The MAC's own site, getsomemaction.com, same format
   * Google News search RSS, one query per team (covers student papers,
     local papers and national outlets)
-  * MAC-focused Substacks (sMACk Talk, Caleb's Corner, Akron Zipped Up)
+
+Substack is excluded at Matthew's request (2026-11-09), as are women's
+basketball stories.
 
 Every run fetches each feed once (about 28 small requests, three times a day),
 merges new items into data/news/items.json, keeps 45 days, and writes each
@@ -69,7 +73,7 @@ NAMES: dict[str, dict[str, Any]] = {
     "eastern-michigan": {"query": "Eastern Michigan", "match": [r"\bEastern Michigan\b", r"\bEMU\b"]},
     "kent-state": {"query": "Kent State", "match": [r"\bKent St(ate|\.)?\b", r"\bGolden Flashes\b"]},
     "miami-oh": {"query": "Miami RedHawks", "match": [r"\bRedHawks\b", r"\bMiami \(OH\)", r"\bMiami \(Ohio\)", r"\bMiami University\b"]},
-    "ohio": {"query": "Ohio Bobcats", "match": [r"\bOhio Bobcats\b", r"\bOhio University\b", r"\bOhio U\.?\b", r"\bBobcats\b"]},
+    "ohio": {"query": "Ohio Bobcats", "match": [r"\bOhio Bobcats\b", r"\bOhio University\b", r"\bOhio U\.?\b", r"\bBobcats\b", r"^Ohio\b(?! State)", r"\bOhio men[’']?s\b"]},
     "toledo": {"query": "Toledo Rockets", "match": [r"\bToledo\b"]},
     "umass": {"query": "UMass Minutemen", "match": [r"\bUMass\b", r"\bMinutemen\b", r"\bMassachusetts\b"]},
     "western-michigan": {"query": "Western Michigan", "match": [r"\bWestern Michigan\b", r"\bWMU\b", r"\bBroncos\b"]},
@@ -77,7 +81,13 @@ NAMES: dict[str, dict[str, Any]] = {
 
 # Words that mark a general-news headline as being about men's hoops.
 HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\bMAC (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
-WOMENS = re.compile(r"women'?s|\bWBB\b|\blady\b", re.I)
+WOMENS = re.compile(r"women[’']?s|\bWBB\b|\blady\b", re.I)
+MENS = re.compile(r"\bmen[’']?s\b", re.I)
+MENS_HOOPS = re.compile(r"\bmen[’']?s (college )?basketball\b|\bMBB\b", re.I)
+OTHER_SPORT = re.compile(r"\b(soccer|football|volleyball|softball|baseball|hockey|wrestling|gymnastics|swimming|swim|track|cross country|golf|tennis|lacrosse|rowing)\b", re.I)
+HIGH_SCHOOL = re.compile(r"high school|\bvarsity\b|\bHSRC\b|\bboys\b|\bgirls\b", re.I)
+# Pick-site and betting-tout filler that Google News surfaces for every game.
+SPAM = re.compile(r"\bpredictions?\b|\bpicks?\b|computer pick|best bets?\b|betting (preview|odds)|\bprops?\b|\broster\b - ", re.I)
 
 # Subreddits, for links only (Reddit's feeds are closing; see module docstring).
 # Campus subs were confirmed to exist; r/CollegeBasketball team searches always resolve.
@@ -93,25 +103,41 @@ class Feed:
     key: str  # stable id, e.g. "athletics:toledo"
     url: str
     source: str  # display name
-    kind: str  # athletics | league | google | substack
+    kind: str  # athletics | league | google
     team: str | None  # team key, or None for league-wide feeds
+    alts: tuple[str, ...] = ()  # tried in order when `url` fails or comes back empty
+
+    @property
+    def urls(self) -> tuple[str, ...]:
+        return (self.url, *self.alts)
 
 
-def google_news_url(query: str) -> str:
-    q = f'"{query}" basketball when:14d'
+def google_news_url(query: str, raw: bool = False) -> str:
+    q = query if raw else f'"{query}" basketball when:14d'
     return f"https://news.google.com/rss/search?q={quote_plus(q)}&hl=en-US&gl=US&ceid=US:en"
 
 
+SIDEARM_PATHS = ("mbball", "mbb", "mens-basketball", "basketball-men")
+
+
+def site_search_url(domain: str, extra: str = "") -> str:
+    """Google News limited to one site: the fallback when a site's own feed is blocked or empty."""
+    return google_news_url(f"site:{domain} {extra} when:30d".replace("  ", " "), raw=True)
+
+
+def sidearm_urls(host: str) -> tuple[str, ...]:
+    return tuple(f"https://{host}/rss.aspx?path={p}" for p in SIDEARM_PATHS)
+
+
 def all_feeds() -> list[Feed]:
+    mac = sidearm_urls("getsomemaction.com")
     feeds = [
-        Feed("league:mac", "https://getsomemaction.com/rss.aspx?path=mbball", "MAC (getsomemaction.com)", "league", None),
-        Feed("substack:smacktalk", "https://smacktalk.substack.com/feed", "sMACk Talk", "substack", None),
-        Feed("substack:calebscorner", "https://calebscorner.substack.com/feed", "Caleb's Corner", "substack", None),
-        Feed("substack:akronzippedup", "https://akronzippedup.substack.com/feed", "Akron Zipped Up", "substack", "akron"),
+        Feed("league:mac", mac[0], "MAC (getsomemaction.com)", "league", None, mac[1:]),
     ]
     by_key = {t.key: t for t in TEAMS}
     for key, host in ATHLETICS.items():
-        feeds.append(Feed(f"athletics:{key}", f"https://{host}/rss.aspx?path=mbball", host, "athletics", key))
+        urls = sidearm_urls(host) + (site_search_url(host, "basketball"),)
+        feeds.append(Feed(f"athletics:{key}", urls[0], host, "athletics", key, urls[1:]))
     for key, n in NAMES.items():
         feeds.append(Feed(f"google:{key}", google_news_url(n["query"]), "Google News", "google", key))
     assert all(f.team is None or f.team in by_key for f in feeds)
@@ -188,6 +214,7 @@ def parse_feed(xml_text: str | bytes) -> list[dict[str, Any]]:
             "published": parse_date(_text(it, "pubDate") or _text(it, "date")),
             "summary": clean(_text(it, "description"))[:300],
             "publisher": clean(src.text) if src is not None and src.text else None,
+            "origin": src.get("url", "") if src is not None else "",
         })
     return out
 
@@ -211,13 +238,28 @@ def item_id(title: str) -> str:
     return hashlib.sha1(_norm_title(title).encode()).hexdigest()[:16]
 
 
-def keep(feed: Feed, raw: dict[str, Any]) -> bool:
-    """Men's basketball only. Athletics mbball feeds are already filtered."""
-    text = f"{raw['title']} {raw.get('summary') or ''}"
-    if feed.kind == "athletics" or feed.key == "league:mac":
-        return not WOMENS.search(raw["title"])
-    if WOMENS.search(raw["title"]) and not re.search(r"\bmen'?s\b", raw["title"], re.I):
+def headline_ok(title: str, kind: str, team: str | None, url: str = "") -> bool:
+    """Rules every stored headline must pass; also re-applied to stored items on each run."""
+    if WOMENS.search(title) and not MENS.search(title.replace("Women", "").replace("women", "")):
         return False
+    if SPAM.search(title) or HIGH_SCHOOL.search(title):
+        return False
+    if OTHER_SPORT.search(title) and not re.search(r"basketball|hoops", title, re.I):
+        return False
+    if url and host(url).endswith("substack.com"):  # Matthew: no Substack in the ticker
+        return False
+    if kind == "google" and team:
+        # A team search also returns opponents' and other sports' stories: the headline
+        # must name the team, or be explicitly a men's basketball story.
+        return team in tag_teams(title) or bool(MENS_HOOPS.search(title))
+    return True
+
+
+def keep(feed: Feed, raw: dict[str, Any]) -> bool:
+    """Men's basketball only. Athletics mbball feeds are already filtered by sport."""
+    text = f"{raw['title']} {raw.get('summary') or ''}"
+    if feed.kind in ("athletics", "league"):
+        return not WOMENS.search(raw["title"]) and not SPAM.search(raw["title"])
     if feed.kind == "google":
         return bool(HOOPS.search(text))
     return bool(HOOPS.search(text)) or bool(tag_teams(raw["title"]))
@@ -228,8 +270,10 @@ def normalize(feed: Feed, raw: dict[str, Any], seen_at: datetime) -> dict[str, A
         return None
     title = raw["title"]
     publisher = raw.get("publisher")
-    if feed.kind == "google" and publisher and title.endswith(f" - {publisher}"):
+    if publisher and title.endswith(f" - {publisher}"):  # Google News appends the outlet
         title = title[: -len(f" - {publisher}")].strip()
+    if not headline_ok(title, feed.kind, feed.team, raw["url"]) or not headline_ok(title, feed.kind, feed.team, raw.get("origin") or ""):
+        return None
     teams = tag_teams(title)
     if feed.team and feed.team not in teams:
         teams.insert(0, feed.team)
@@ -238,6 +282,7 @@ def normalize(feed: Feed, raw: dict[str, Any], seen_at: datetime) -> dict[str, A
         "id": item_id(title),
         "title": title,
         "url": raw["url"],
+        "origin": raw.get("origin") or "",
         "source": publisher or feed.source,
         "kind": feed.kind,
         "feed": feed.key,
@@ -249,7 +294,7 @@ def normalize(feed: Feed, raw: dict[str, Any], seen_at: datetime) -> dict[str, A
 
 def merge(existing: list[dict[str, Any]], new: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
     """Dedupe on normalized title. Prefer the school's own link over a Google redirect."""
-    rank = {"athletics": 0, "league": 1, "substack": 2, "google": 3}
+    rank = {"athletics": 0, "league": 1, "google": 3}
     by_id: dict[str, dict[str, Any]] = {i["id"]: i for i in existing}
     for item in new:
         old = by_id.get(item["id"])
@@ -263,12 +308,18 @@ def merge(existing: list[dict[str, Any]], new: list[dict[str, Any]], now: dateti
         by_id[item["id"]]["teams"] = teams
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
     future = (now + timedelta(days=1)).isoformat()
-    items = [i for i in by_id.values() if cutoff <= i["published"]]
+    items = [i for i in by_id.values() if cutoff <= i["published"] and headline_ok(i["title"], i["kind"], _feed_team(i), i["url"])]
+    items = [i for i in items if i["kind"] != "substack" and not host(i.get("origin") or "x").endswith("substack.com")]
     for i in items:  # a feed with a bad clock should not pin an item to the top
         if i["published"] > future:
             i["published"] = i["first_seen"]
     items.sort(key=lambda i: i["published"], reverse=True)
     return items[:MAX_ITEMS]
+
+
+def _feed_team(item: dict[str, Any]) -> str | None:
+    key = item.get("feed", "")
+    return key.split(":", 1)[1] if key.startswith("google:") else None
 
 
 # --- I/O ---------------------------------------------------------------------
@@ -285,10 +336,31 @@ def load_feed_status() -> dict[str, Any]:
     return json.loads(FEEDS_PATH.read_text())
 
 
-def fetch(feed: Feed, session: requests.Session) -> str | bytes:
-    resp = session.get(feed.url, timeout=TIMEOUT, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
+class EmptyFeed(ValueError):
+    pass
+
+
+def fetch(url: str, session: requests.Session) -> str | bytes:
+    resp = session.get(url, timeout=TIMEOUT, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
     resp.raise_for_status()
+    if not resp.content.strip():
+        raise EmptyFeed("empty response")
     return resp.content
+
+
+def fetch_first(feed: Feed, session: requests.Session) -> tuple[str, list[dict[str, Any]]]:
+    """Try the feed's URLs in order; return the first that parses with at least one entry."""
+    errors = []
+    for url in feed.urls:
+        try:
+            raws = parse_feed(fetch(url, session))
+        except (requests.RequestException, ET.ParseError, EmptyFeed) as exc:
+            errors.append(f"{type(exc).__name__}: {str(exc)[:100]}")
+            continue
+        if raws:
+            return url, raws
+        errors.append("no entries")
+    raise EmptyFeed(" | ".join(errors)[:300])
 
 
 def refresh(now: datetime | None = None, session: requests.Session | None = None) -> dict[str, Any]:
@@ -296,15 +368,18 @@ def refresh(now: datetime | None = None, session: requests.Session | None = None
     session = session or requests.Session()
     status = load_feed_status()
     new: list[dict[str, Any]] = []
-    for feed in all_feeds():
+    feeds = all_feeds()
+    status = {k: v for k, v in status.items() if k in {f.key for f in feeds}}  # forget retired feeds
+    for feed in feeds:
         st = status.get(feed.key, {})
         st.update({"url": feed.url, "source": feed.source, "kind": feed.kind, "team": feed.team, "checked_at": now.isoformat(timespec="seconds")})
         try:
-            raws = parse_feed(fetch(feed, session))
+            used, raws = fetch_first(feed, session)
             items = [x for x in (normalize(feed, r, now) for r in raws) if x]
             new.extend(items)
-            st.update({"ok": True, "error": None, "entries": len(raws), "kept": len(items), "last_ok": st["checked_at"]})
-        except (requests.RequestException, ET.ParseError) as exc:
+            st.update({"ok": True, "error": None, "entries": len(raws), "kept": len(items), "last_ok": st["checked_at"],
+                       "used": used, "fallback": used != feed.url, "via_google": "news.google.com" in used and feed.kind != "google"})
+        except EmptyFeed as exc:
             st.update({"ok": False, "error": f"{type(exc).__name__}: {str(exc)[:160]}"})
         status[feed.key] = st
     items = merge(load_items(), new, now)

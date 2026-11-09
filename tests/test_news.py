@@ -67,11 +67,23 @@ def test_google_filters_to_mens_hoops_and_strips_publisher():
     assert items[0]["teams"] == ["kent-state", "toledo"]
 
 
-def test_substack_keeps_hoops_and_tags_teams():
-    f = feed("substack:smacktalk")
-    items = [x for x in (news.normalize(f, r, NOW) for r in news.parse_feed(ATOM)) if x]
-    assert len(items) == 1
-    assert items[0]["teams"] == ["miami-oh"]
+def test_drops_womens_curly_apostrophe_spam_substack_and_off_topic():
+    f = feed("google:ohio")
+    def raw(title, origin="https://woub.org"):
+        return {"title": title, "url": "https://news.google.com/x", "published": NOW, "summary": "", "publisher": None, "origin": origin}
+    keep = lambda r: news.normalize(f, r, NOW) is not None
+    assert keep(raw("Ohio Men’s Basketball staves off comeback, defeats NC A&T"))
+    assert not keep(raw("Ohio Women’s Basketball to host Education Day game"))
+    assert not keep(raw("Campbell vs Ohio Bobcats Prediction, 11/8 college basketball"))
+    assert not keep(raw("Ohio Bobcats basketball preview", origin="https://smacktalk.substack.com"))
+    assert not keep(raw("Too much Ché: Brogan's perfect 18 in 12 minutes of basketball"))
+    assert keep(raw("Men's basketball sweeps Scots off the floor in home opener"))
+    assert not keep(raw("Kent State Soccer opens MAC Tournament with Ohio Bobcats"))
+    assert not keep(raw("Ohio Bobcats Varsity Boys Basketball vs. Logan High School"))
+
+
+def test_no_substack_feeds():
+    assert not any("substack" in u for f in news.all_feeds() for u in f.urls)
 
 
 def test_merge_dedupes_and_prefers_school_link():
@@ -101,10 +113,10 @@ class FakeResp:
 
 class FakeSession:
     def get(self, url, **_):
-        if "kentstatesports" in url:
+        if "kentstatesports" in url and "path=mbb&" not in url + "&" and "mbball" in url:
+            return FakeResp("")  # empty body, like most SIDEARM sites on the first try
+        if "kentstatesports" in url and url.endswith("path=mbb"):
             return FakeResp(SIDEARM)
-        if "smacktalk" in url:
-            return FakeResp(ATOM)
         if "google" in url and "Kent" in url:
             return FakeResp(GOOGLE)
         if "gozips" in url:
@@ -118,9 +130,10 @@ def test_refresh_writes_items_and_feed_status(tmp_path, monkeypatch):
     monkeypatch.setattr(news, "FEEDS_PATH", tmp_path / "feeds.json")
     out = news.refresh(NOW, FakeSession())
     assert out["feeds"] == len(news.all_feeds())
-    assert out["feeds_ok"] == out["feeds"] - 1
     status = news.load_feed_status()
     assert status["athletics:akron"]["ok"] is False
+    assert status["athletics:kent-state"]["ok"] and status["athletics:kent-state"]["used"].endswith("path=mbb")
+    assert status["google:kent-state"]["ok"]
     v = news.view(NOW, "kent-state")
-    assert v["total"] == 1 and v["headlines"][0]["fresh"]
+    assert v["total"] == 1 and v["headlines"][0]["url"].startswith("https://kentstatesports.com/") and v["headlines"][0]["fresh"]
     assert any("CollegeBasketball" in r["url"] for r in v["reddit"])
