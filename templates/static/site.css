@@ -554,3 +554,18 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .masthead dl.mh dt { color: var(--muted); font-size: 13px; }
 .masthead dl.mh dd { margin: 0; }
 .masthead ul { padding-left: 20px; line-height: 1.6; }
+
+/* Access-code gate (mac/access.py) */
+.hb-gate { display: block; padding: 40px 0 56px; border: 0; background: none; box-shadow: none; }
+.hb-gate-in { box-sizing: border-box; margin: 0 auto; width: 100%; max-width: 460px; overflow-wrap: anywhere; padding: 28px 26px; border-radius: 16px; background: var(--surface); border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,.08); text-align: center; }
+.hb-gate-k { display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #3b2414; background: linear-gradient(180deg, #ecd3a2, #d8b273); padding: 4px 12px; border-radius: 4px; }
+.hb-gate h1 { margin: 12px 0 6px; font-size: 24px; }
+.hb-gate p { color: var(--ink-2); margin: 8px 0; }
+.hb-gate-form { display: flex; gap: 8px; margin: 18px 0 6px; }
+.hb-gate-form input { flex: 1; min-width: 0; font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--neutral); color: var(--ink); }
+.hb-gate-form button { font: inherit; font-weight: 700; padding: 10px 18px; border-radius: 10px; border: 0; background: #1f6b3a; color: #fff; cursor: pointer; }
+.hb-gate-form button:disabled { opacity: .6; cursor: wait; }
+.hb-gate-err { color: #c0392b !important; font-weight: 600; }
+.hb-gate-ask a { font-weight: 700; }
+.hb-gate-fine { font-size: 12px; color: var(--muted) !important; }
+.bestplay .bp-lock { color: var(--muted); }
