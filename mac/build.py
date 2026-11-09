@@ -18,6 +18,13 @@ from .odds import load_all_rows
 from .rosters import load_boxscores
 
 
+def _editor_email() -> str:
+    for p in (DATA_DIR / "masthead.json", SHARED_DIR / "masthead.json"):
+        if p.exists():
+            return json.loads(p.read_text()).get("email") or "press@hardwoodbricks.com"
+    return "press@hardwoodbricks.com"
+
+
 def espn_lines_by_game() -> dict[str, dict[str, Any]]:
     """DraftKings line ESPN carried for finished games, keyed by ESPN game id."""
     return {b["game_id"]: b["espn_line"] for b in load_boxscores() if b.get("espn_line")}
@@ -551,7 +558,8 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
         "aliases": notes.ALIASES,
     }
     (SITE_DIR / "desk.html").write_text(env.get_template("desk.html").render(
-        d=data, games=desk["games"], players=players_list, desk_json=json.dumps(desk).replace("</", "<\\/")))
+        d=data, games=desk["games"], players=players_list, editor_email=_editor_email(),
+        desk_json=json.dumps(desk).replace("</", "<\\/")))
 
     (SITE_DIR / "notes.html").write_text(env.get_template("notes.html").render(
         d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
