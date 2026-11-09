@@ -11,7 +11,7 @@ ET = ZoneInfo("America/New_York")
 # Linear networks you'd find on a cable/streaming TV package.
 NATIONAL_TV = {
     "ESPN", "ESPN2", "ESPNU", "ESPNEWS", "CBSSN", "CBS", "FS1", "FOX", "BTN", "ACCN", "SECN",
-    "CW", "NBC", "USA", "TNT", "truTV", "ION",
+    "CW", "NBC", "USA", "TNT", "truTV", "ION", "ACC Network", "SEC Network", "Big Ten Network",
 }
 # Watch-it-online services.
 STREAMING = {"ESPN+", "Peacock", "B1G+", "ACCNX", "SECN+", "FloSports", "FloHoops", "Paramount+", "Max", "Fox One", "Fubo"}
