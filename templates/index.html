@@ -31,7 +31,6 @@
     <div class="tile"><div class="v">{{ d.counts.completed }}<span class="dim">/{{ d.counts.games }}</span></div><div class="k">games played</div></div>
     <div class="tile"><div class="v">{{ d.counts.events_with_lines }}</div><div class="k">games with line history</div></div>
     <div class="tile"><div class="v">{{ d.counts.snapshots }}</div><div class="k">line snapshots captured</div></div>
-    <div class="tile"><div class="v">{{ d.posting.median_lead_hours if d.posting.median_lead_hours is not none else "–" }}</div><div class="k">median hours before tip we first saw a line</div></div>
   </div>
 
 {% set icons = {
@@ -40,7 +39,6 @@
   'ratings.html': '<path d="M4 16V9M10 16V4M16 16v-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
   'news.html': '<path d="M4 4h10v12H4zM14 8h2v8h-2M7 8h4M7 11h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
-  'follow.html': '<path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
 } %}
   <nav class="findit" aria-label="Find it fast">
     <a href="#schedule" style="--fc:var(--s1)"><span class="ic"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 6v4l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span><b>Games this week</b><small>Tip times, TV, current lines, rest and travel for the next 8 days</small></span></a>
