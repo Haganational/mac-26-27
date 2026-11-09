@@ -758,3 +758,21 @@ table.outable { width: 100%; } table.outable td { white-space: nowrap; }
 table.outable td.barc { width: 26%; } table.outable td.barc .oubar { min-width: 40px; }
 table.outable tr.lean td:first-child { box-shadow: inset 3px 0 0 var(--ou-u); } table.outable tr.lean.over td:first-child { box-shadow: inset 3px 0 0 var(--ou-o); }
 table.outable.teams td.barc { width: 18%; }
+
+/* Player pages: our rating first, the public bio after */
+.player { scroll-margin-top: calc(var(--bar-h) + 12px); }
+.player:target { background: color-mix(in srgb, var(--gold) 8%, transparent); border-radius: 10px; padding-left: 10px; padding-right: 10px; box-shadow: inset 4px 0 0 var(--gold); }
+.prating { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; margin: 10px 0 8px; }
+.prating > a, .prating > div:not(.pr-note) { display: flex; flex-direction: column; justify-content: center; padding: 8px 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--grid); text-decoration: none; color: inherit; min-width: 92px; }
+.prating .pr-main { border-width: 2px; border-color: var(--gold); min-width: 150px; }
+.prating small { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.prating b { font-size: 26px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.prating .pr-main b { font-size: 36px; }
+.prating em { font-style: normal; font-size: 12px; color: var(--muted); }
+.prating .pr-note { flex-basis: 100%; font-size: 12px; }
+.pbio { margin-top: 6px; }
+@media (max-width: 560px) {
+  .prating > a, .prating > div:not(.pr-note) { flex: 1 1 0; min-width: 0; padding: 8px 10px; }
+  .prating .pr-main { flex-grow: 1.4; min-width: 0; }
+  .prating .pr-main b { font-size: 30px; } .prating b { font-size: 22px; }
+}
