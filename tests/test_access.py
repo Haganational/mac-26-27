@@ -17,7 +17,7 @@ def test_lock_page_hides_body_and_scripts():
     s = access.Sealer("bricks", salt=b"0" * 16)
     out = access.lock_page(PAGE, s)
     assert "secret line" not in out and "window.x" not in out
-    assert "Enter your access code" in out and access.REQUEST_EMAIL in out
+    assert "Enter your access code" in out and all(e in out for e in access.REQUEST_EMAILS) and "under 21" in out
     assert 'src="static/nav.js"' in out and "<footer>foot</footer>" in out
     blob = out.split('class="hb-sealed">')[1].split("</script>")[0]
     p = json.loads(s.open(blob))

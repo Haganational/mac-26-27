@@ -567,5 +567,5 @@ details.bestplay summary:hover .bp-go { border-color: var(--muted); }
 .hb-gate-form button:disabled { opacity: .6; cursor: wait; }
 .hb-gate-err { color: #c0392b !important; font-weight: 600; }
 .hb-gate-ask a { font-weight: 700; }
-.hb-gate-fine { font-size: 12px; color: var(--muted) !important; }
+.hb-gate-fine { font-size: 12px; line-height: 1.45; text-align: left; color: var(--muted) !important; }
 .bestplay .bp-lock { color: var(--muted); }

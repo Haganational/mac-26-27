@@ -24,7 +24,15 @@ from pathlib import Path
 from typing import Any
 
 LOCKED_PAGES = ("odds.html", "viz.html")
-REQUEST_EMAIL = "info@hardwoodbricks.com"
+REQUEST_EMAILS = ("bernice@hardwoodbricks.com", "info@hardwoodbricks.com")
+ELIGIBILITY = ("Not for anyone under 21, anyone taking part in or holding a stake in the games discussed "
+               "(players, coaches, staff, officials and their families), or anyone else barred from betting on "
+               "or discussing sides and totals. By unlocking, you confirm none of these apply to you.")
+
+
+def ask_links() -> str:
+    subject = "Hardwood%20Bricks%20access%20code"
+    return " or ".join(f'<a href="mailto:{e}?subject={subject}">{e}</a>' for e in REQUEST_EMAILS)
 ITERATIONS = 150_000
 BEST_PLAY_PRIVATE = ("pick", "price", "books", "model", "odds_event_id", "side", "line")
 
@@ -64,7 +72,6 @@ def _blob_tag(blob: str) -> str:
 
 
 def gate_card() -> str:
-    subject = "Hardwood Bricks access code"
     return f"""<div class="hb-gate" role="region" aria-label="Access code required">
   <div class="hb-gate-in">
     <span class="hb-gate-k">Bettor's Desk</span>
@@ -75,8 +82,8 @@ def gate_card() -> str:
       <button type="submit">Unlock</button>
     </form>
     <p class="hb-gate-err" role="alert" hidden>That code didn't work. Check it and try again.</p>
-    <p class="hb-gate-ask">No code yet? Email <a href="mailto:{REQUEST_EMAIL}?subject={subject.replace(' ', '%20')}">{REQUEST_EMAIL}</a> and we'll send one.</p>
-    <p class="hb-gate-fine">21+. Lines and model numbers are information, not a guarantee.</p>
+    <p class="hb-gate-ask">No code yet? Email {ask_links()} and we'll send one.</p>
+    <p class="hb-gate-fine"><b>Who can't use it:</b> {ELIGIBILITY} Lines and model numbers are information, not a guarantee.</p>
   </div>
 </div>"""
 
@@ -104,7 +111,7 @@ def lock_best_play(page: str, sealer: Sealer, root: str = "") -> str:
         inner = m.group(2)
         return (f'{m.group(1)}<div class="bp-body bp-locked">{_blob_tag(sealer.seal(json.dumps({"html": inner, "scripts": []})))}'
                 f'<span class="bp-lock">Access code needed. <a href="{root}odds.html">Enter code</a> or email '
-                f'<a href="mailto:{REQUEST_EMAIL}?subject=Hardwood%20Bricks%20access%20code">{REQUEST_EMAIL}</a>.</span></div></details>')
+                f'{ask_links()}. 21+ only.</span></div></details>')
     return _BP_BODY.sub(sub, page)
 
 
