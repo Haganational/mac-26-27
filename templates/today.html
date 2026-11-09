@@ -1,0 +1,90 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}Today in the MAC · {{ t.date_label }}{% endset %}{% set page_desc %}MAC men's basketball in 90 seconds: {{ t.results_label|lower or 'results' }}, {{ t.slate_label|lower }} and the standings, built from box scores and lines.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="today.html") }}
+<style>
+  .td-hero { border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; color: #fff; background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
+  .td-hero .kick { font: 700 11px/1 Georgia, serif; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
+  .td-hero h1 { margin: 6px 0 4px; } .td-hero .sub { color: #d7e6dd; }
+  .td-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 18px; align-items: start; }
+  @media (max-width: 860px) { .td-wrap { grid-template-columns: 1fr; } }
+  .script { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; }
+  .script .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  .script .meta { font-size: 13px; color: var(--ink-2); margin-right: auto; }
+  .script .meta b { color: var(--ink); }
+  .script p { font: 19px/1.6 Georgia, "Times New Roman", serif; margin: 0 0 14px; color: var(--ink); }
+  .script p a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--gold) 70%, transparent); text-underline-offset: 3px; }
+  .script p.speaking { background: color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 6px; box-shadow: 0 0 0 6px color-mix(in srgb, var(--gold) 22%, transparent); }
+  .td-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .td-btn.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+  .td-btn:hover { filter: brightness(1.08); }
+  .facts { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; font-size: 14px; }
+  .facts h2 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 4px 0 8px; }
+  .facts ul { margin: 0 0 12px; padding: 0; list-style: none; display: grid; gap: 6px; }
+  .facts li a { font-weight: 600; }
+  .td-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="", active="today.html") }}
+<main id="main">
+  <header class="td-hero">
+    <span class="kick">{{ site_name }}</span>
+    <h1>Today in the MAC</h1>
+    <span class="sub">{{ t.date_label }} · about {{ t.seconds }} seconds read aloud</span>
+  </header>
+
+  <div class="td-wrap">
+    <article class="script" aria-label="Today in the MAC script">
+      <div class="bar">
+        <span class="meta"><b>{{ t.words }}</b> words · about <b>{{ t.seconds }}s</b> at a broadcast pace{% if t.over %} · running long{% endif %}</span>
+        <button class="td-btn primary" type="button" id="td-play" hidden><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span>Listen</span></button>
+        <button class="td-btn" type="button" id="td-copy">Copy script</button>
+      </div>
+      <div id="td-text">
+        {% for p in t.paragraphs_html %}<p>{{ p|safe }}</p>
+        {% endfor %}
+      </div>
+      <div class="td-note">Written automatically from box scores (stats: ESPN), closing lines (The Odds API) and the {{ site_name }} model. "Listen" uses your device's built-in voice for now.</div>
+    </article>
+
+    <aside class="facts" aria-label="Where every fact comes from">
+      {% if t.results %}<h2>{{ t.results_label }}</h2>
+      <ul>{% for r in t.results %}<li><a href="{{ game_href.get(r.game_id, 'index.html#recent') }}">{{ r.short }}</a> <a class="dim" href="https://www.espn.com/mens-college-basketball/boxscore/_/gameId/{{ r.game_id }}" target="_blank" rel="noopener">ESPN box ↗</a></li>{% endfor %}</ul>{% endif %}
+      {% if t.previews %}<h2>{{ t.slate_label }}</h2>
+      <ul>{% for p in t.previews %}{% set g = d.upcoming|selectattr('game_id','equalto',p.game_id)|first %}<li><a href="{{ game_href.get(p.game_id, 'tv.html') }}">{{ g.away.abbr }} at {{ g.home.abbr }}</a> <span class="dim">{{ g.et.time }}</span></li>{% endfor %}</ul>{% endif %}
+      <h2>More</h2>
+      <ul><li><a href="index.html#standings">Standings</a></li><li><a href="odds.html">Every book's lines</a></li><li><a href="ratings.html">Ratings</a></li></ul>
+    </aside>
+  </div>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+<script>
+(function () {
+  var paras = Array.prototype.slice.call(document.querySelectorAll('#td-text p'));
+  var text = paras.map(function (p) { return p.textContent; }).join('\n\n');
+  document.getElementById('td-copy').addEventListener('click', function (e) {
+    var b = e.currentTarget;
+    (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () { b.textContent = 'Copied'; }, function () { b.textContent = 'Select the text to copy'; });
+  });
+  if (!('speechSynthesis' in window)) return;
+  var play = document.getElementById('td-play'), label = play.querySelector('span'), on = false;
+  play.hidden = false;
+  function stop() { speechSynthesis.cancel(); on = false; label.textContent = 'Listen'; paras.forEach(function (p) { p.classList.remove('speaking'); }); }
+  play.addEventListener('click', function () {
+    if (on) return stop();
+    on = true; label.textContent = 'Stop';
+    paras.forEach(function (p, i) {
+      var u = new SpeechSynthesisUtterance(p.textContent.replace(/Miami \(OH\)/g, 'Miami of Ohio'));
+      u.rate = 1.0;
+      u.onstart = function () { paras.forEach(function (x) { x.classList.remove('speaking'); }); p.classList.add('speaking'); };
+      if (i === paras.length - 1) u.onend = stop;
+      speechSynthesis.speak(u);
+    });
+  });
+})();
+</script>
+</body>
+</html>
