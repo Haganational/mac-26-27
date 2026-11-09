@@ -530,6 +530,42 @@ def book_scorecard(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
 # ---------------------------------------------------------------- page
 
 
+# The day's featured number: the single biggest gap between the model and the best price
+# on the board, spread or total, among games tipping in the next 30 hours.
+BEST_PLAY_MIN_EDGE = 1.5
+BEST_PLAY_WINDOW_H = 30
+
+
+def best_play(board: list[dict[str, Any]], now: datetime) -> dict[str, Any] | None:
+    cands = []
+    for ev in board:
+        m = ev.get("model")
+        if not m or m.get("rough"):
+            continue
+        hours = (parse_iso(ev["commence_time"]) - now).total_seconds() / 3600
+        if not 0 < hours <= BEST_PLAY_WINDOW_H:
+            continue
+        for kind in ("spread", "total"):
+            b = m.get(f"{kind}_best")
+            if b and b["edge"] >= BEST_PLAY_MIN_EDGE:
+                cands.append((b["edge"], kind, ev, m, b))
+    if not cands:
+        return None
+    edge, kind, ev, m, b = max(cands, key=lambda c: (c[0], c[1] == "spread"))
+    away, home = ev.get("away") or {}, ev.get("home") or {}
+    if kind == "spread":
+        team = home if m["spread_side"] == "home" else away
+        pick = f"{team.get('abbr') or team.get('name')} {'+' if b['point'] > 0 else ''}{b['point']:g}"
+        model = m["spread"] if m["spread_side"] == "home" else -m["spread"]
+    else:
+        pick = f"{'Over' if m['total_side'] == 'over' else 'Under'} {b['point']:g}"
+        model = m["total"]
+    return {"odds_event_id": ev["odds_event_id"], "commence_time": ev["commence_time"],
+            "matchup": f"{away.get('abbr') or away.get('name')} at {home.get('abbr') or home.get('name')}",
+            "kind": kind, "pick": pick, "price": b["price"], "books": [book_name(k) for k in b["books"]],
+            "model": model, "edge": edge}
+
+
 def page_context(now: datetime, games: list[dict[str, Any]], rows: list[dict[str, Any]],
                  mapping: dict[str, str], projections: dict[str, dict[str, Any]] | None = None,
                  decorate=lambda g: g) -> dict[str, Any]:
@@ -588,6 +624,7 @@ def page_context(now: datetime, games: list[dict[str, Any]], rows: list[dict[str
 
     books = sorted({r["book"] for ev in board for r in ev["rows"]}, key=lambda k: book_name(k).lower())
     leads = [ev["opener"]["lead_hours"] for ev in events.values()]
+    play = best_play(board, now)
     edges = [ev for ev in board if ev["model"] and not ev["model"]["rough"]
              and max(ev["model"].get("spread_gap") or 0, ev["model"].get("total_gap") or 0) >= 1.5]
     return {
@@ -598,6 +635,7 @@ def page_context(now: datetime, games: list[dict[str, Any]], rows: list[dict[str
         "scorecard": book_scorecard(list(events.values())),
         "has_model": bool(projections),
         "edges": len(edges),
+        "best_play": play,
         "median_lead": round(median(leads), 1) if leads else None,
         "last_capture": max((ev["captured_at"] for ev in events.values()), default=None),
     }
