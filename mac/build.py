@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from datetime import datetime, timezone
 from typing import Any
@@ -217,6 +218,31 @@ def follow_context() -> dict[str, Any]:
     return {"x": x, "teams": teams, "counts": {"handles": len(handles), "players": with_handle, "roster": roster}}
 
 
+def _name_key(name: str) -> str:
+    n = re.sub(r"[^a-z ]", "", (name or "").lower())
+    return " ".join(w for w in n.split() if w not in ("jr", "sr", "ii", "iii", "iv"))
+
+
+def attach_x_handles(profiles: dict[str, list[dict[str, Any]]]) -> None:
+    """Copy each player's X handle from data/x_follow.json onto his profile (matched by name, then jersey)."""
+    path = DATA_DIR / "x_follow.json"
+    if not path.exists():
+        return
+    teams = json.loads(path.read_text()).get("teams", {})
+    for key, plist in profiles.items():
+        listed = [p for p in teams.get(key, {}).get("players", []) if p.get("handle")]
+        by_name = {_name_key(p["name"]): p["handle"] for p in listed}
+        by_jersey = {str(p.get("jersey")): p["handle"] for p in listed if p.get("jersey")}
+        for p in plist:
+            h = by_name.get(_name_key(p.get("name", "")))
+            if not h and p.get("jersey") and str(p["jersey"]) in by_jersey:
+                cand = next(x for x in listed if str(x.get("jersey")) == str(p["jersey"]))
+                if _name_key(cand["name"]).split()[-1:] == _name_key(p.get("name", "")).split()[-1:]:
+                    h = cand["handle"]
+            if h:
+                p["x_handle"] = h.lstrip("@")
+
+
 def render_site() -> str:
     data = dashboard_data()
     now = datetime.fromisoformat(data["generated_at"])
@@ -247,6 +273,7 @@ def render_site() -> str:
     history = analysis.line_history(load_all_rows())
     espn_lines = espn_lines_by_game()
     profiles = players.build_profiles(games)
+    attach_x_handles(profiles)
     standings = {r["key"]: r for r in data["standings"]}
     itins = travel.all_itineraries(games)
     ctx = travel.game_context(itins)

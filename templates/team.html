@@ -128,7 +128,7 @@
         {% if p.headshot %}<img src="{{ p.headshot }}" alt="" width="56" height="56" loading="lazy" onerror="this.style.visibility='hidden'">{% endif %}
         <div>
           <h3>{{ p.name }} <span class="dim">#{{ p.jersey or "–" }} · {{ p.position or "?" }} · {{ p.class_name or "" }} · {{ p.height or "" }}{% if p.weight %} · {{ p.weight }}{% endif %}</span></h3>
-          <div class="sub">{% if p.hometown %}{{ p.hometown }}{% endif %}{% if p.previous_school %} · from {{ p.previous_school }}{% endif %}{% if p.coverage_status %} · {{ p.coverage_status.replace('_', ' ') }}{% endif %}{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN</a>{% endif %}</div>
+          <div class="sub">{% if p.hometown %}{{ p.hometown }}{% endif %}{% if p.previous_school %} · from {{ p.previous_school }}{% endif %}{% if p.coverage_status %} · {{ p.coverage_status.replace('_', ' ') }}{% endif %}{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN</a>{% endif %}{% if p.x_handle %} · <a href="https://x.com/{{ p.x_handle }}" target="_blank" rel="noopener">@{{ p.x_handle }}</a>{% endif %}</div>
         </div>
       </div>
       {% if p.season.gp %}

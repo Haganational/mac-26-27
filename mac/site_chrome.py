@@ -28,7 +28,6 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
     ("news.html", "News", "Men's basketball headlines from every school, the MAC and Google News", "#d03b3b", "news headlines ticker articles"),
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
-    ("follow.html", "Follow on X", "Team, coach, player and writer accounts to follow", "#1d9bf0", "x twitter follow handles accounts"),
 )
 
 
