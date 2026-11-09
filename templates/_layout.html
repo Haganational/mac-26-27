@@ -32,6 +32,7 @@
 {%- endmacro %}
 
 {% macro topbar(root="", active="") -%}
+<div class="backdrop" aria-hidden="true"><i class="bd-brick"></i><i class="bd-floor"></i><i class="bd-art bd-d" style="background-image:url({{ root }}static/art/backdrop-desktop.jpg)"></i><i class="bd-art bd-p" style="background-image:url({{ root }}static/art/backdrop-phone.jpg)"></i><i class="bd-scrim"></i></div>
 <a class="skip" href="#main">Skip to content</a>
 <div class="topbar" role="banner">
   <div class="tb-in">

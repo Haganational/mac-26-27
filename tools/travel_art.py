@@ -338,6 +338,7 @@ def main() -> None:
         "phone": (1290, 2796, (-80.4, 37.6), 14.8),
     }.items():
         img, cv, meta = render(w, h, center, span)
+        img.convert("RGB").save(out / f"mac-in-motion-{name}-bare.png", optimize=True)  # no text: site backdrop
         labels(img, cv, meta, caption=False).convert("RGB").save(out / f"mac-in-motion-{name}-clean.png", optimize=True)
         labels(img, cv, meta, caption=True).convert("RGB").save(out / f"mac-in-motion-{name}.png", optimize=True)
         print(name, meta["games"], meta["legs"], meta["miles"])
