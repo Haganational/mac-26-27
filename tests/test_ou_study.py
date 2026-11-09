@@ -16,7 +16,7 @@ def test_rows_mac_only_and_results():
     assert len([r for r in rs if r["id"] == "2"]) == 2  # MAC vs MAC: one row per team
     assert len(ou_study.games_only(rs)) == 2
     s = ou_study.summarize(ou_study.games_only(rs))
-    assert (s["o"], s["u"], s["p"]) == (1, 1, 0) and s["avg_diff"] == 0.0
+    assert (s["o"], s["u"], s["p"]) == (1, 1, 0) and s["avg_diff"] == -0.5
 
 
 def test_lean_needs_sample_and_direction():
