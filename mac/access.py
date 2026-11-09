@@ -1,9 +1,11 @@
 """Access-code lock for the Bettor's Desk screens.
 
 When the ACCESS_CODE environment variable is set (a repo secret in Actions), the build
-encrypts the locked screens after rendering them. Each locked page ships a short "enter
-your access code" card plus the page body as AES-GCM ciphertext; the key is derived from
-the code with PBKDF2, so the content can't be read from the page source without the code.
+encrypts the locked screens after rendering them. ACCESS_CODE may hold several codes, one
+per line (or comma-separated); any of them opens everything. Each build picks a random page
+key, encrypts the locked content with it (AES-GCM), and stores that key once per code,
+wrapped under a key derived from the code with PBKDF2. Without a valid code the content
+can't be read from the page source. Delete a code's line to cut that reader off.
 The browser remembers the code (localStorage) so a reader types it once.
 
 Without ACCESS_CODE nothing is locked and the site renders exactly as before.
@@ -33,38 +35,70 @@ ELIGIBILITY = ("Not for anyone under 21, anyone taking part in or holding a stak
 def ask_links() -> str:
     subject = "Hardwood%20Bricks%20access%20code"
     return " or ".join(f'<a href="mailto:{e}?subject={subject}">{e}</a>' for e in REQUEST_EMAILS)
+
+
 ITERATIONS = 150_000
 BEST_PLAY_PRIVATE = ("pick", "price", "books", "model", "odds_event_id", "side", "line")
 
 
-def code() -> str:
-    return (os.environ.get("ACCESS_CODE") or "").strip()
+def codes() -> list[str]:
+    raw = os.environ.get("ACCESS_CODE") or ""
+    out: list[str] = []
+    for c in re.split(r"[\n,]", raw):
+        c = c.strip()
+        if c and not c.startswith("#") and c not in out:
+            out.append(c)
+    return out
 
 
 def _b64(b: bytes) -> str:
     return base64.b64encode(b).decode()
 
 
-class Sealer:
-    """Encrypts strings under one key per build (one PBKDF2 run in the browser per page)."""
+def _kek(access_code: str, salt: bytes) -> bytes:
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    return PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=ITERATIONS).derive(access_code.encode())
 
-    def __init__(self, access_code: str, salt: bytes | None = None):
-        from cryptography.hazmat.primitives import hashes
-        from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+
+class Sealer:
+    """Encrypts strings under one random page key per build; that key is wrapped once per code.
+
+    All wraps share one salt, so the browser runs PBKDF2 once and then tries each wrap (cheap)."""
+
+    def __init__(self, access_codes: str | list[str], salt: bytes | None = None):
         from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
+        if isinstance(access_codes, str):
+            access_codes = [access_codes]
         self.salt = salt or secrets.token_bytes(16)
-        key = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=self.salt, iterations=ITERATIONS).derive(access_code.encode())
-        self._aes = AESGCM(key)
+        self._key = AESGCM.generate_key(bit_length=256)
+        self._aes = AESGCM(self._key)
+        self.wraps = []
+        for c in access_codes:
+            iv = secrets.token_bytes(12)
+            self.wraps.append({"i": _b64(iv), "c": _b64(AESGCM(_kek(c, self.salt)).encrypt(iv, self._key, None))})
+        secrets.SystemRandom().shuffle(self.wraps)  # order says nothing about which code is whose
 
     def seal(self, text: str) -> str:
         iv = secrets.token_bytes(12)
         ct = self._aes.encrypt(iv, text.encode(), None)
-        return json.dumps({"s": _b64(self.salt), "i": _b64(iv), "c": _b64(ct), "n": ITERATIONS}, separators=(",", ":"))
+        return json.dumps({"s": _b64(self.salt), "n": ITERATIONS, "w": self.wraps, "i": _b64(iv), "c": _b64(ct)},
+                          separators=(",", ":"))
 
-    def open(self, blob: str) -> str:  # for tests
-        d = json.loads(blob)
-        return self._aes.decrypt(base64.b64decode(d["i"]), base64.b64decode(d["c"]), None).decode()
+
+def open_blob(blob: str, access_code: str) -> str:
+    """Decrypt a sealed blob with one code (the browser does the same in nav.js). Raises if the code is wrong."""
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    d = json.loads(blob)
+    kek = AESGCM(_kek(access_code, base64.b64decode(d["s"])))
+    for w in d["w"]:
+        try:
+            key = kek.decrypt(base64.b64decode(w["i"]), base64.b64decode(w["c"]), None)
+        except Exception:
+            continue
+        return AESGCM(key).decrypt(base64.b64decode(d["i"]), base64.b64decode(d["c"]), None).decode()
+    raise ValueError("wrong code")
 
 
 def _blob_tag(blob: str) -> str:
@@ -134,10 +168,10 @@ def _strip_embedded(page: str) -> str:
 
 def lock_site(site_dir: Path) -> int:
     """Seal the locked screens in a rendered site. Returns how many pages changed."""
-    c = code()
-    if not c:
+    cs = codes()
+    if not cs:
         return 0
-    sealer = Sealer(c)
+    sealer = Sealer(cs)
     changed = 0
     for f in site_dir.rglob("*.html"):
         rel = f.relative_to(site_dir).as_posix()
@@ -152,5 +186,5 @@ def lock_site(site_dir: Path) -> int:
     dj = site_dir / "data.json"
     if dj.exists():
         dj.write_text(json.dumps(strip_best_play(json.loads(dj.read_text()))))
-    print(f"access code: sealed {changed} pages")
+    print(f"access code: sealed {changed} pages for {len(cs)} code(s)")
     return changed

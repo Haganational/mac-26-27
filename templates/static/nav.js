@@ -235,9 +235,21 @@ document.addEventListener('click', function (e) {
     }
     return cache[id];
   }
+  // The page key is wrapped once per access code; try each wrap with the key this code derives.
+  function pageKey(kek, wraps) {
+    var i = 0;
+    function next() {
+      if (i >= wraps.length) return Promise.reject(new Error('wrong code'));
+      var w = wraps[i++];
+      return crypto.subtle.decrypt({ name: 'AES-GCM', iv: bytes(w.i) }, kek, bytes(w.c)).then(function (raw) {
+        return crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['decrypt']);
+      }, next);
+    }
+    return next();
+  }
   function openOne(el, code) {
     var d = JSON.parse(el.textContent);
-    return derive(code, d.s, d.n).then(function (k) {
+    return derive(code, d.s, d.n).then(function (kek) { return pageKey(kek, d.w || []); }).then(function (k) {
       return crypto.subtle.decrypt({ name: 'AES-GCM', iv: bytes(d.i) }, k, bytes(d.c));
     }).then(function (pt) { return JSON.parse(new TextDecoder().decode(pt)); });
   }
