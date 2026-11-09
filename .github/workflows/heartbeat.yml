@@ -1,0 +1,41 @@
+name: Collector heartbeat
+
+# GitHub's cron fires late or not at all on small repos (collect.yml's half-hourly
+# schedule ran 3 times in two days). This job is the clock instead: it wakes at
+# every :00 and :30 UTC, starts collect.yml, and after ~5h40m starts a fresh copy
+# of itself before the 6-hour job limit. Runner minutes are free on a public repo.
+# The cron below only restarts the loop if it ever stops; the newest heartbeat
+# cancels any older one, so only one runs at a time.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  actions: write
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: true
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Start collect.yml every half hour
+        run: |
+          start=$(date +%s)
+          while [ $(( $(date +%s) - start )) -lt 20400 ]; do
+            now=$(date +%s)
+            next=$(( (now / 1800 + 1) * 1800 ))
+            sleep $(( next - now + 5 ))
+            echo "tick $(date -u +%H:%M)"
+            gh workflow run collect.yml --ref main -f mode=tick || echo "dispatch failed, will try next tick"
+          done
+      - name: Hand off to a fresh heartbeat
+        run: gh workflow run heartbeat.yml --ref main

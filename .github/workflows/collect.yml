@@ -4,8 +4,14 @@ on:
   schedule:
     # A line snapshot every 30 minutes, to pin down when each book posts.
     # The :00 runs at 12, 18 and 23 UTC (~7am, 1pm, 6pm ET) also refresh schedule, results, ratings and news.
+    # GitHub often drops these on small repos, so heartbeat.yml is the real clock; this stays as a backup.
     - cron: "0,30 * * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "tick = the half-hourly snapshot (sent by heartbeat.yml); blank = full refresh"
+        required: false
+        default: ""
   # A new or edited Fieldhouse Notes dispatch republishes the site right away.
   # That run only re-renders (no ESPN or odds calls), so it costs no API quota.
   push:
@@ -43,7 +49,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m mac.collect site
-          elif [ "${{ github.event_name }}" = "schedule" ] && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
+          elif { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
             python -m mac.collect quick
           else
             python -m mac.collect all
