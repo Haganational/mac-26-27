@@ -44,9 +44,9 @@
           {% for t in nav_teams %}<a class="tchip t-{{ t.key }}" href="{{ root }}teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ t.espn_id }}.png" alt="" width="20" height="20" loading="lazy" onerror="this.remove()">{{ t.short }}</a>{% endfor %}
         </div>
       </details>
-      {% for p in nav_pages[1:] %}<a href="{{ root }}{{ p[0] }}"{% if active == p[0] %} class="on" aria-current="page"{% endif %}>{{ p[1] }}</a>{% endfor %}
+      {% for p in nav_pages[1:] %}<a href="{{ root }}{{ p[0] }}"{% if active == p[0] %} class="on" aria-current="page"{% endif %}>{{ {'notes.html': 'Notes', 'tv.html': 'Schedule'}.get(p[0], p[1]) }}</a>{% endfor %}
     </nav>
-    <button class="tb-search" type="button" data-search aria-label="Search the site"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search teams, players, games</span><kbd>/</kbd></button>
+    <button class="tb-search" type="button" data-search aria-label="Search the site"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
     <button class="tb-btn" type="button" data-share aria-label="Share this page"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M10 3v10M6 7l4-4 4 4M4 11v5h12v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Share</span></button>
     <button class="tb-btn tb-menu-btn" type="button" aria-controls="tbnav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   </div>
