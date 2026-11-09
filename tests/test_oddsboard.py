@@ -114,7 +114,8 @@ def test_budget_uses_api_counters(tmp_path):
                           "quota": {"requests_used": "60", "requests_remaining": "440", "requests_last": "3"}}, runs)
     b = oddsboard.budget(now, rows, runs)
     assert b["from_api"] and b["used"] == 60 and b["remaining"] == 440
-    assert b["projected_month_end"] == 60 + 11 * 9
+    assert b["projected_month_end"] == 60 + 11 * oddsboard.RUNS_PER_DAY * 3
+    assert oddsboard.budget(now, rows, runs, runs_per_day=3)["projected_month_end"] == 60 + 11 * 9
 
 
 def test_page_context_splits_board_and_closed():
@@ -173,3 +174,16 @@ def test_best_play_picks_biggest_edge_in_window():
     bp = oddsboard.best_play(board, now)
     assert bp["odds_event_id"] == "a" and bp["kind"] == "total" and bp["pick"] == "Over 147.5" and bp["edge"] == 2.5
     assert oddsboard.best_play([ev("a", "2026-12-05T19:00:00Z", sp_edge=1.0)], now) is None
+
+
+def test_book_posting_counts_first_and_lead():
+    from mac import analysis
+    rows = [
+        {"odds_event_id": "e1", "book": "pinnacle", "market": "spreads", "captured_at": "2026-11-09T00:00:00+00:00", "commence_time": "2026-11-10T00:00:00Z"},
+        {"odds_event_id": "e1", "book": "draftkings", "market": "spreads", "captured_at": "2026-11-09T06:00:00+00:00", "commence_time": "2026-11-10T00:00:00Z"},
+        {"odds_event_id": "e1", "book": "draftkings", "market": "totals", "captured_at": "2026-11-08T00:00:00+00:00", "commence_time": "2026-11-10T00:00:00Z"},
+    ]
+    out = {b["book"]: b for b in analysis.book_posting(rows)}
+    assert out["pinnacle"]["first"] == 1 and out["pinnacle"]["median_lead_hours"] == 24.0
+    assert out["draftkings"]["first"] == 0 and out["draftkings"]["median_lead_hours"] == 18.0
+
