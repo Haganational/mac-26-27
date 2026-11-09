@@ -31,6 +31,16 @@
     · <a href="#" data-share data-share-title="{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} (final)">Share this box score</a>
   </div>
 
+  {% if game_notes %}
+  <section>
+    <h2>Fieldhouse Notes</h2>
+    {{ L.dispatches(game_notes, root="../") }}
+    {{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr) }}
+  </section>
+  {% else %}
+  <div class="author-only" style="margin:-6px 0 16px">{{ L.add_dispatch(g.game_id, away.abbr ~ " at " ~ home.abbr) }}</div>
+  {% endif %}
+
   <div class="grid two">
     <section>
       <h2>Line and result</h2>

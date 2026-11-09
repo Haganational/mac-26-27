@@ -7,6 +7,11 @@ on:
     - cron: "0 18 * * *"
     - cron: "0 23 * * *"
   workflow_dispatch:
+  # A new or edited Fieldhouse Notes dispatch republishes the site right away.
+  # That run only re-renders (no ESPN or odds calls), so it costs no API quota.
+  push:
+    branches: [main]
+    paths: ["notes/**"]
 
 permissions:
   contents: write
@@ -34,7 +39,8 @@ jobs:
           # SITE_URL for a custom domain, SITE_NOINDEX=1 to keep search engines out.
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: python -m mac.collect all
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then python -m mac.collect site; else python -m mac.collect all; fi
       - name: Commit new data
         run: |
           git config user.name "mac-collector"

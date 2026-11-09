@@ -161,7 +161,7 @@ def _box_int(stats: dict[str, Any], key: str) -> int | None:
         return None
 
 
-BOX_VERSION = 2  # 1: orb/to/fga/fta only; 2: full team box (for player-rating weights)
+BOX_VERSION = 3  # 1: orb/to/fga/fta only; 2: full team box (for player-rating weights); 3: + player lines and stints in the book
 BOX_KEYS = ("orb", "to", "fga", "fta", "fgm", "ftm", "tpm", "tpa", "drb", "ast", "stl", "blk", "pf")
 
 
@@ -204,10 +204,18 @@ def parse_enrichment(summary: dict[str, Any]) -> dict[str, Any]:
     return out
 
 
-def fetch_enrichment(game_id: str) -> dict[str, Any]:
+def fetch_enrichment(game_id: str) -> tuple[dict[str, Any], dict[str, Any] | None]:
+    """One summary request: the team box extras, plus the game's compact book entry."""
+    from . import book, pbp
+
     resp = requests.get(f"{ESPN_BASE}/summary", params={"event": game_id}, timeout=TIMEOUT)
     resp.raise_for_status()
-    return parse_enrichment(resp.json())
+    summary = resp.json()
+    try:
+        entry = book.encode_game(pbp.game_from_summary(game_id, summary))
+    except (KeyError, ValueError, TypeError, IndexError):
+        entry = None
+    return parse_enrichment(summary), entry
 
 
 def enrich_season(season: int = SEASON, limit: int | None = None, workers: int = 4) -> dict[str, int]:
@@ -219,12 +227,22 @@ def enrich_season(season: int = SEASON, limit: int | None = None, workers: int =
     if limit is not None:
         todo = todo[:limit]
     done = failed = 0
+    entries: dict[str, Any] = {}
+
+    def flush() -> None:
+        from . import book
+
+        save_season(data)
+        book.save_games(season, entries)
+        entries.clear()
 
     def one(g: dict[str, Any]) -> bool:
         try:
-            extra = fetch_enrichment(g["id"])
+            extra, entry = fetch_enrichment(g["id"])
         except (requests.RequestException, ValueError):
             return False
+        if entry is not None:
+            entries[g["id"]] = entry
         for side in ("home", "away"):
             for k in BOX_KEYS:
                 v = extra.pop(f"{side}_{k}", None)
@@ -238,8 +256,8 @@ def enrich_season(season: int = SEASON, limit: int | None = None, workers: int =
             done += ok
             failed += not ok
             if i % 500 == 0:
-                save_season(data)
-    save_season(data)
+                flush()
+    flush()
     return {"season": season, "enriched": done, "failed": failed, "remaining": len(todo) - done}
 
 

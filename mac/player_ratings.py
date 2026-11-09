@@ -163,8 +163,9 @@ def _game_poss(game: dict[str, Any]) -> float | None:
 COUNT_KEYS = ("min", "pts", "fgm", "fga", "tpm", "tpa", "ftm", "fta", "oreb", "dreb", "ast", "stl", "blk", "to", "pf")
 
 
-def accumulate(games: list[dict[str, Any]], as_of: datetime | None = None, half_life: float = 90.0) -> dict[str, dict[str, Any]]:
-    """Recency-weighted season totals per MAC player, with possessions on the floor."""
+def accumulate(games: list[dict[str, Any]], as_of: datetime | None = None, half_life: float = 90.0,
+               team_ids: set[str] | None = MAC_IDS) -> dict[str, dict[str, Any]]:
+    """Recency-weighted season totals per player (on `team_ids`, or every team), with possessions on the floor."""
     tot: dict[str, dict[str, Any]] = {}
     for g in games:
         when = R.parse_dt(g["date"]) if g.get("date") else None
@@ -177,7 +178,7 @@ def accumulate(games: list[dict[str, Any]], as_of: datetime | None = None, half_
         if as_of and when:
             w = max(0.05, 0.5 ** ((as_of - when).total_seconds() / 86400 / half_life))
         for p in g["players"]:
-            if p["team_espn_id"] not in MAC_IDS or p.get("dnp") or not p.get("min"):
+            if (team_ids is not None and p["team_espn_id"] not in team_ids) or p.get("dnp") or not p.get("min"):
                 continue
             t = tot.setdefault(p["espn_id"], {"id": p["espn_id"], "name": p["name"], "team": p["team_espn_id"],
                                               "pos": p.get("position"), "gp": 0, "poss": 0.0, "min_raw": 0,
@@ -213,10 +214,11 @@ def box_rating(t: dict[str, Any], weights: dict[str, Any], team_ast_per_fgm: flo
 
 
 def rate_players(games: list[dict[str, Any]], team_ratings: R.Ratings, prior: dict[str, dict[str, float]] | None = None,
-                 as_of: datetime | None = None, weights: dict[str, Any] | None = None) -> dict[str, dict[str, Any]]:
+                 as_of: datetime | None = None, weights: dict[str, Any] | None = None,
+                 team_ids: set[str] | None = MAC_IDS) -> dict[str, dict[str, Any]]:
     weights = weights or load_weights()
     prior = prior or {}
-    tot = accumulate(games, as_of)
+    tot = accumulate(games, as_of, team_ids=team_ids)
     team_ast: dict[str, list[float]] = defaultdict(lambda: [0.0, 0.0])
     for t in tot.values():
         team_ast[t["team"]][0] += t["ast"]
@@ -261,7 +263,7 @@ def rate_players(games: list[dict[str, Any]], team_ratings: R.Ratings, prior: di
 
 
 def onoff(games: list[dict[str, Any]], players: dict[str, dict[str, Any]], team_ratings: R.Ratings,
-          as_of: datetime | None = None) -> dict[str, dict[str, Any]]:
+          as_of: datetime | None = None, team_ids: set[str] = MAC_IDS) -> dict[str, dict[str, Any]]:
     """Raw on/off splits and a ridge (adjusted plus-minus) rating pulled toward the box rating."""
     idx = {pid: i for i, pid in enumerate(players)}
     n = len(idx)
@@ -288,7 +290,7 @@ def onoff(games: list[dict[str, Any]], players: dict[str, dict[str, Any]], team_
                 side_margin = sign * margin
                 team_tot[tid][0] += side_margin * s["poss"]
                 team_tot[tid][1] += s["poss"]
-                if tid in MAC_IDS:
+                if tid in team_ids:
                     for pid in s[side]:
                         on[pid][0] += side_margin * s["poss"]
                         on[pid][1] += s["poss"]
@@ -328,36 +330,52 @@ def onoff(games: list[dict[str, Any]], players: dict[str, dict[str, Any]], team_
 # ---------------------------------------------------------------- season build
 
 
+def d1_ids(team_ratings: R.Ratings) -> set[str]:
+    return {t for t in team_ratings.teams if t != R.NON_D1}
+
+
 def last_season_prior(team_prior: R.Ratings, weights: dict[str, Any]) -> dict[str, dict[str, float]]:
-    games = pbp.load_games(SEASON - 1)
+    """Last season's rating for every D-I player the book has (transfers included)."""
+    games = pbp.load_games(SEASON - 1, team_ids=None)
     if not games:
         return {}
-    rated = rate_players(games, team_prior, prior=None, weights=weights)
+    rated = rate_players(games, team_prior, prior=None, weights=weights, team_ids=d1_ids(team_prior))
     return {pid: {"off": p["off"], "net": p["net"]} for pid, p in rated.items() if p["poss"] >= 150}
 
 
-def build(team_ratings: R.Ratings, team_prior: R.Ratings, now: datetime | None = None) -> dict[str, Any]:
-    now = now or datetime.now(timezone.utc)
-    weights = load_weights()
+def season_players(team_ratings: R.Ratings, team_prior: R.Ratings, now: datetime,
+                   weights: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    """Every D-I player this season, rated once. Conference tables are slices of this."""
     prior = last_season_prior(team_prior, weights)
-    games = pbp.load_games(SEASON)
-    players = rate_players(games, team_ratings, prior, now, weights)
-    oo = onoff(games, players, team_ratings, now) if players else {}
-    team_poss: dict[str, float] = defaultdict(float)
+    games = pbp.load_games(SEASON, team_ids=None)
+    return games, rate_players(games, team_ratings, prior, now, weights, team_ids=d1_ids(team_ratings))
+
+
+def table(games: list[dict[str, Any]], players: dict[str, dict[str, Any]], team_ratings: R.Ratings, now: datetime,
+          weights: dict[str, Any], team_ids: set[str], names: dict[str, dict[str, Any]] | None = None,
+          with_onoff: bool = True) -> dict[str, Any]:
+    """Player leaderboard for one group of teams (the MAC, or any conference)."""
+    names = names or {}
+    mine = {pid: p for pid, p in players.items() if p["team"] in team_ids}
+    games = [g for g in games if any(t["espn_id"] in team_ids for t in g["teams"])]
+    onoff_live = now.date() >= ONOFF_START
+    oo = onoff(games, mine, team_ratings, now, team_ids) if mine and (with_onoff or onoff_live) else {}
     team_games: dict[str, int] = defaultdict(int)
     for g in games:
         gp = _game_poss(g)
         for t in g["teams"]:
-            if t["espn_id"] in MAC_IDS and gp:
-                team_poss[t["espn_id"]] += gp
+            if t["espn_id"] in team_ids and gp:
                 team_games[t["espn_id"]] += 1
     rows = []
-    for pid, p in players.items():
+    for pid, p in mine.items():
         team = BY_ESPN_ID.get(p["team"])
+        nm = names.get(p["team"], {})
         gpl = p["gp"]
         row = {
-            "id": pid, "name": p["name"], "team_key": team.key if team else None, "team": team.short if team else "",
-            "abbr": team.abbr if team else "", "pos": p.get("pos"), "gp": gpl,
+            "id": pid, "name": p["name"], "team_id": p["team"],
+            "team_key": team.key if team else p["team"],
+            "team": team.short if team else nm.get("short", ""),
+            "abbr": team.abbr if team else nm.get("abbr", ""), "pos": p.get("pos"), "gp": gpl,
             "mpg": round(p["min_raw"] / gpl, 1) if gpl else 0,
             "min_pct": round(100 * p["min_raw"] / (40 * team_games[p["team"]]), 1) if team_games[p["team"]] else None,
             "poss": round(p["poss"]),
@@ -373,15 +391,22 @@ def build(team_ratings: R.Ratings, team_prior: R.Ratings, now: datetime | None =
     rows.sort(key=lambda r: -r["net"])
     for i, r in enumerate(rows, 1):
         r["rk"] = i
-    out = {
+    return {
         "as_of": now.isoformat(timespec="seconds"),
-        "onoff_live": now.date() >= ONOFF_START,
+        "onoff_live": onoff_live,
         "onoff_start": ONOFF_START.isoformat(),
         "weights": weights,
         "players": rows,
         "games": len(games),
     }
-    return out
+
+
+def build(team_ratings: R.Ratings, team_prior: R.Ratings, now: datetime | None = None) -> dict[str, Any]:
+    """MAC leaderboard (players.html)."""
+    now = now or datetime.now(timezone.utc)
+    weights = load_weights()
+    games, players = season_players(team_ratings, team_prior, now, weights)
+    return table(games, players, team_ratings, now, weights, MAC_IDS)
 
 
 def _usage(p: dict[str, Any]) -> float | None:

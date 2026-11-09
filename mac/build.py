@@ -5,12 +5,12 @@ from __future__ import annotations
 import json
 import re
 import shutil
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, model, news, oddsboard, players, schedule_view, site_chrome, travel
+from . import analysis, model, news, notes, oddsboard, players, schedule_view, site_chrome, travel
 from .config import BY_KEY, DATA_DIR, SEASON_LABEL, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -246,7 +246,10 @@ def attach_x_handles(profiles: dict[str, list[dict[str, Any]]]) -> None:
 def render_site() -> str:
     data = dashboard_data()
     now = datetime.fromisoformat(data["generated_at"])
-    data["news"] = news.view(now, limit=30)
+    sched = load_schedule()["games"]
+    game_teams = {g["game_id"]: [t for t in (g["home"].get("key"), g["away"].get("key")) if t] for g in sched}
+    dispatches = notes.load(game_teams=game_teams)  # Fieldhouse Notes: filed with games, teams, players and in the feed
+    data["news"] = notes.merge_feed(news.view(now, limit=30), dispatches, now, limit=30)
     try:
         m = model.build_model(now, log=True)
     except Exception as exc:  # noqa: BLE001 - the rest of the site must still publish
@@ -259,7 +262,7 @@ def render_site() -> str:
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
-    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND,
+    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams())
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
@@ -281,6 +284,9 @@ def render_site() -> str:
     boxes = {b["game_id"]: b for b in load_boxscores()}
     teamlinks = [{"key": t.key, "short": t.short} for t in TEAMS]
 
+    notes_by_game = notes.by_game(dispatches)
+    notes_by_player = notes.by_player(dispatches)
+
     # Box score pages, one per finished game we have a box for.
     (SITE_DIR / "games").mkdir(exist_ok=True)
     game_tpl = env.get_template("game.html")
@@ -291,7 +297,8 @@ def render_site() -> str:
         if not g or not g["completed"]:
             continue
         snap = history.get(mapping.get(gid, ""))
-        html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, **game_page_context(g, box, snap, ctx))
+        html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
+                               **game_page_context(g, box, snap, ctx))
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
 
@@ -301,7 +308,7 @@ def render_site() -> str:
         g["box"] = g["game_id"] in have_box
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
-        now_iso=data["generated_at"]))
+        now_iso=data["generated_at"], notes_by_game=notes_by_game))
 
     # Odds screen: per-book prices, best number, open vs now, movement, model gaps.
     now = datetime.fromisoformat(data["generated_at"])
@@ -315,7 +322,7 @@ def render_site() -> str:
                             "budget": odds_ctx["budget"]}
 
     # News ticker: the full feed, with team filter chips and feed health.
-    full_news = news.view(now, limit=400)
+    full_news = notes.merge_feed(news.view(now, limit=400), dispatches, now)
     (SITE_DIR / "news.html").write_text(env.get_template("news.html").render(
         d=data, n=full_news, host=news.host))
 
@@ -354,7 +361,8 @@ def render_site() -> str:
             others=players.coverage_not_on_roster(team.key, profiles[team.key]),
             games=[schedule_view.decorate({**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))}) for tg in team_games(team.key, games, history, espn_lines)],
             itin=itins[team.key],
-            team_news=news.view(now, team.key, limit=12),
+            team_news=notes.merge_feed(news.view(now, team.key, limit=12), dispatches, now, root="../", team_key=team.key, limit=12),
+            team_notes=notes.for_team(dispatches, team.key), player_notes=notes_by_player,
             rating=next((t for t in m["mac"] if t["key"] == team.key), None) if m else None,
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
             prate={pl["id"]: pl for pl in ((m.get("players") or {}).get("players") or [])} if m else {},
@@ -366,13 +374,59 @@ def render_site() -> str:
         (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
         if m.get("players"):
             (SITE_DIR / "players.html").write_text(env.get_template("players.html").render(d=data, pr=m["players"], teamlinks=[{"key": t.key, "short": t.short, "abbr": t.abbr} for t in TEAMS]))
-        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter")}, default=str))
+        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book")}, default=str))
+        render_book(env, data, m.get("book"))
+    render_notes(env, data, season, dispatches, notes_by_game, profiles)
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
     finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / "index.html")
+
+
+def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, Any]],
+                 dispatches: list[dict[str, Any]], notes_by_game: dict[str, list[dict[str, Any]]],
+                 profiles: dict[str, list[dict[str, Any]]]) -> None:
+    """Fieldhouse Notes page. The author panel lists every MAC game, recent and upcoming first."""
+    now = datetime.fromisoformat(data["generated_at"])
+    links, rows = {}, []
+    for g in season:
+        a, h = g["away"], g["home"]
+        label = f"{a.get('short') or a['name']} {'vs' if g.get('neutral_site') else 'at'} {h.get('short') or h['name']}"
+        if g.get("completed") and a.get("score") is not None:
+            label += f", {a['score']}-{h['score']}"
+        href = f"games/{g['game_id']}.html" if g.get("box") else f"tv.html#g{g['game_id']}"
+        links[g["game_id"]] = {"href": href, "label": label}
+        when = datetime.fromisoformat(g["date"].replace("Z", "+00:00"))
+        rows.append({"game_id": g["game_id"], "label": label, "href": href, "when": f"{g['et']['weekday']} {g['et']['md']}",
+                     "dt": when, "title": f"{a.get('abbr') or a['name']} at {h.get('abbr') or h['name']}",
+                     "count": len(notes_by_game.get(g["game_id"], []))})
+    week = timedelta(days=7)
+    groups = [
+        ("Last 7 days", sorted((r for r in rows if now - week <= r["dt"] <= now), key=lambda r: r["dt"], reverse=True)),
+        ("Next 7 days", sorted((r for r in rows if now < r["dt"] <= now + week), key=lambda r: r["dt"])),
+        ("Earlier this season", sorted((r for r in rows if r["dt"] < now - week), key=lambda r: r["dt"], reverse=True)),
+        ("Later this season", sorted((r for r in rows if r["dt"] > now + week), key=lambda r: r["dt"])),
+    ]
+    (SITE_DIR / "notes.html").write_text(env.get_template("notes.html").render(
+        d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
+        player_links={str(p["espn_id"]): {"href": f"teams/{key}.html#p{p['espn_id']}", "label": p["name"]}
+                      for key, plist in profiles.items() for p in plist}))
+
+
+def render_book(env: Environment, data: dict[str, Any], b: dict[str, Any] | None) -> None:
+    """The Book: every conference's tables as site/book/<slug>.json plus book.html. Derived, never committed."""
+    if not b or not b.get("tables"):
+        return
+    out = SITE_DIR / "book"
+    out.mkdir(exist_ok=True)
+    for slug, t in b["tables"].items():
+        (out / f"{slug}.json").write_text(json.dumps(t, separators=(",", ":")))
+    (out / "index.json").write_text(json.dumps(b["conferences"], separators=(",", ":")))
+    first = b["tables"].get("mac") or next(iter(b["tables"].values()))
+    (SITE_DIR / "book.html").write_text(env.get_template("book.html").render(
+        d=data, b=b, first=first, first_json=json.dumps(first, separators=(",", ":")).replace("</", "<\\/")))
 
 
 def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[str, list[dict[str, Any]]],
@@ -411,9 +465,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     og = SITE_DIR / "static" / "og"
     for size, name in ((180, "icon-180.png"), (192, "icon-192.png"), (512, "icon-512.png")):
         site_chrome.app_icon(og / name, size)
-    site_chrome.share_card(og / "site.png", "MAC Men's Basketball",
-                           "Scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
-                           kicker=f"{SEASON_LABEL} SEASON DASHBOARD")
+    site_chrome.share_card(og / "site.png", site_chrome.SITE_NAME,
+                           "MAC men's basketball: scores, lines from ten books, ratings, TV, travel and news for all 12 teams.",
+                           kicker=f"MAC MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}

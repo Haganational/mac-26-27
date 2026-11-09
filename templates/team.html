@@ -99,11 +99,16 @@
   </div>
   {% endif %}
 
+  <section id="fieldhouse-notes"{% if not team_notes %} class="author-only"{% endif %}>
+    <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Fieldhouse Notes</h2>{{ L.add_dispatch("", team.short ~ " notes", team=team.key) }}</div>
+    {{ L.dispatches(team_notes, root="../") }}
+  </section>
+
   <section id="news">
     <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Latest headlines</h2><a class="btnlink" href="../news.html#{{ team.key }}">All MAC news →</a></div>
     {% if team_news.headlines %}
     <ul class="newslist">
-      {% for i in team_news.headlines %}<li><span class="age{{ ' fresh' if i.fresh }}">{{ i.age }}</span> <a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a> <span class="dim">{{ i.source }}</span></li>{% endfor %}
+      {% for i in team_news.headlines %}<li{% if i.mine %} class="mine"{% endif %}><span class="age{{ ' fresh' if i.fresh }}">{{ i.age }}</span> {% if i.mine %}{{ L.kind_icon(i.kind, 15) }} <a href="{{ i.url }}">{{ i.title }}</a>{% else %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a>{% endif %} <span class="dim">{{ i.source }}</span></li>{% endfor %}
     </ul>
     {% else %}<p class="dim">No headlines collected yet. The feed refreshes with each data run.</p>{% endif %}
     <p class="sub" style="margin:10px 0 0">On Reddit: {% for r in team_news.reddit %}<a href="{{ r.url }}" target="_blank" rel="noopener" title="{{ r.note }}">{{ r.label }}</a>{{ ', ' if not loop.last }}{% endfor %}. Reddit is closing its free feeds, so these are links, not part of the ticker.</p>
@@ -139,6 +144,8 @@
         <span><b>{{ p.season.ts_pct if p.season.ts_pct is not none else "–" }}</b> TS%</span><span><b>{{ p.season.usage_proxy if p.season.usage_proxy is not none else "–" }}</b> shots+TO/40</span>
       </div>
       {% else %}<div class="sub">Has not appeared yet.</div>{% endif %}
+      {% if player_notes.get(p.espn_id) %}{{ L.dispatches(player_notes[p.espn_id], root="../") }}{% endif %}
+      <div class="author-only" style="margin:4px 0">{{ L.add_dispatch("", p.name, small=True, player=p.espn_id, pname=p.name) }}</div>
       {% if p.coverage_notes %}<p class="cov">{{ p.coverage_notes }}{% for u in p.coverage_sources %} <a href="{{ u }}" class="src">source</a>{% endfor %}</p>{% endif %}
       {% for c in p.preview_claims %}<p class="cov"><span class="dim">{{ c.outlet }}:</span> {{ c.claim }}{% if c.url %} <a href="{{ c.url }}" class="src">source</a>{% endif %}</p>{% endfor %}
       {% if p.game_log %}

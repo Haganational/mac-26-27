@@ -1,0 +1,99 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}The Book: every D-I conference{% endset %}{% set page_desc %}Team and player ratings for all 32 D-I conferences, from the same model that runs the MAC.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="book.html", image="static/og/book.png") }}
+<style>
+  .confs td.c a { font-weight: 600; }
+  .confs tr.mac td { background: color-mix(in srgb, var(--brick) 12%, transparent); }
+  .pick { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  .pick select { font: inherit; padding: 5px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); }
+  .bk-hero { border-radius: 14px; padding: 16px 18px; margin-bottom: 16px; color: #fff;
+             background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
+  .bk-hero h1 { margin: 0 0 4px; }
+  .bk-hero .sub { color: #d7e6dd; }
+  #ctitle { margin: 0; }
+  .loading { opacity: .5; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="", active="book.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> The Book</nav>
+  <header class="bk-hero">
+    <h1>The Book</h1>
+    <span class="sub">All {{ b.conferences|length }} D-I conferences, rated by the same model that runs the MAC side of the site. Each run rates every D-I player once, so a transfer carries last season's number with him wherever he went. Updated {{ d.generated_et }}.</span>
+  </header>
+
+  <section>
+    <h2>Conferences</h2>
+    <div class="scroll"><table class="confs">
+      <tr><th class="num">#</th><th>Conference</th><th class="num" title="Average adjusted net rating of its teams, points per 100 possessions">Avg net</th><th>Best team</th><th class="num">Teams</th><th class="num">Players</th><th class="num" title="Games this season involving a team from the conference">Games</th></tr>
+      {% for c in b.conferences %}
+      <tr{% if c.slug == 'mac' %} class="mac"{% endif %}>
+        <td class="num dim">{{ c.rk }}</td>
+        <td class="c"><a href="#c={{ c.slug }}" data-c="{{ c.slug }}">{{ c.name }}</a></td>
+        <td class="num"><b class="{{ 'up' if (c.avg_em or 0) > 0 else 'down' }}">{{ "%+.1f"|format(c.avg_em or 0) }}</b></td>
+        <td>{{ c.top or "" }}</td>
+        <td class="num">{{ c.teams }}</td><td class="num">{{ c.players }}</td><td class="num dim">{{ c.games }}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+  </section>
+
+  <section id="conf">
+    <div class="pick">
+      <h2 id="ctitle">{{ first.name }}</h2>
+      <select id="csel" aria-label="Conference">{% for c in b.conferences|sort(attribute='name') %}<option value="{{ c.slug }}"{% if c.slug == first.slug %} selected{% endif %}>{{ c.name }}</option>{% endfor %}</select>
+      <span class="sub dim">{% if first.slug == 'mac' %}The MAC gets the full treatment on the rest of the site.{% endif %}</span>
+    </div>
+    <h3>Teams</h3>
+    <div class="scroll"><table id="tteams">
+      <thead><tr><th class="num">#</th><th>Team</th><th class="num">GP</th><th class="num" title="Adjusted offense, points per 100">Off</th><th class="num" title="Adjusted defense, points allowed per 100 (lower is better)">Def</th><th class="num" title="Offense minus defense">Net</th><th class="num" title="Adjusted possessions per 40">Pace</th><th class="num" title="Strength of schedule so far">SOS</th><th class="num" title="Rank among all D-I teams">D-I rank</th></tr></thead>
+      <tbody>{% for t in first.teams %}<tr><td class="num dim">{{ t.rk_conf }}</td><td>{{ t.short }}</td><td class="num">{{ t.games }}</td><td class="num">{{ "%.1f"|format(t.adj_o) }}</td><td class="num">{{ "%.1f"|format(t.adj_d) }}</td><td class="num"><b class="{{ 'up' if t.adj_em > 0 else 'down' }}">{{ "%+.1f"|format(t.adj_em) }}</b></td><td class="num">{{ "%.1f"|format(t.adj_t) }}</td><td class="num">{{ "%+.1f"|format(t.sos) if t.sos is not none else "–" }}</td><td class="num dim">{{ t.rk_adj_em }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    <h3>Players</h3>
+    <div class="pick"><label class="sub">Min. share of minutes <select id="minpct"><option value="0">any</option><option value="10">10%</option><option value="25" selected>25%</option><option value="50">50%</option></select></label> <span class="sub dim" id="shown"></span></div>
+    <div class="scroll"><table id="tplayers">
+      <thead><tr><th class="num">#</th><th>Player</th><th>Team</th><th>Pos</th><th class="num">GP</th><th class="num">MPG</th><th class="num">Min%</th><th class="num">Usage</th><th class="num">TS%</th><th class="num">Off</th><th class="num">Def</th><th class="num">Rating</th><th class="num" title="How much is still last season's rating or the newcomer baseline">Prior</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <div class="note">Same method as the <a href="players.html">MAC player ratings</a>: box-score value per 100 possessions, tied so five times a team's minutes-weighted average equals its rating. On/off is MAC-only for now.</div>
+  </section>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+<script id="first" type="application/json">{{ first_json|safe }}</script>
+<script>
+(function () {
+  const sel = document.getElementById('csel'), minp = document.getElementById('minpct'), shown = document.getElementById('shown');
+  const title = document.getElementById('ctitle'), tt = document.querySelector('#tteams tbody'), tp = document.querySelector('#tplayers tbody');
+  const cache = {};
+  let cur = JSON.parse(document.getElementById('first').textContent);
+  cache[cur.slug] = cur;
+  const f1 = v => v == null ? '–' : (+v).toFixed(1), sg = v => v == null ? '–' : (v > 0 ? '+' : '') + (+v).toFixed(1);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  function draw() {
+    title.textContent = cur.name;
+    tt.innerHTML = cur.teams.map(t => `<tr><td class="num dim">${t.rk_conf}</td><td>${esc(t.short)}</td><td class="num">${t.games}</td><td class="num">${f1(t.adj_o)}</td><td class="num">${f1(t.adj_d)}</td><td class="num"><b class="${t.adj_em > 0 ? 'up' : 'down'}">${sg(t.adj_em)}</b></td><td class="num">${f1(t.adj_t)}</td><td class="num">${sg(t.sos)}</td><td class="num dim">${t.rk_adj_em}</td></tr>`).join('');
+    let n = 0;
+    tp.innerHTML = cur.players.filter(p => (p.min_pct || 0) >= +minp.value).map(p => `<tr><td class="num dim">${++n}</td><td>${esc(p.name)}${p.returning ? '' : ' <span class="pill" title="No D-I minutes last season">new</span>'}</td><td>${esc(p.abbr)}</td><td class="dim">${esc(p.pos)}</td><td class="num">${p.gp}</td><td class="num">${p.mpg}</td><td class="num dim">${p.min_pct == null ? '–' : p.min_pct}</td><td class="num">${p.usage == null ? '–' : p.usage}</td><td class="num">${p.ts == null ? '–' : p.ts}</td><td class="num">${sg(p.off)}</td><td class="num">${sg(p.def)}</td><td class="num"><b class="${p.net > 0 ? 'up' : 'down'}">${sg(p.net)}</b></td><td class="num dim">${Math.round(p.prior_share * 100)}%</td></tr>`).join('');
+    shown.textContent = n + ' shown';
+  }
+  async function show(slug) {
+    if (!cache[slug]) {
+      document.getElementById('conf').classList.add('loading');
+      try { cache[slug] = await (await fetch('book/' + slug + '.json')).json(); } catch (e) { return; }
+      finally { document.getElementById('conf').classList.remove('loading'); }
+    }
+    cur = cache[slug]; sel.value = slug; draw();
+  }
+  sel.onchange = () => { history.replaceState(null, '', '#c=' + sel.value); show(sel.value); };
+  minp.onchange = draw;
+  document.querySelectorAll('a[data-c]').forEach(a => a.onclick = e => { e.preventDefault(); history.replaceState(null, '', '#c=' + a.dataset.c); show(a.dataset.c); document.getElementById('conf').scrollIntoView({behavior: 'smooth'}); });
+  const m = location.hash.match(/c=([a-z0-9-]+)/);
+  if (m && m[1] !== cur.slug) show(m[1]); else draw();
+})();
+</script>
+</body>
+</html>

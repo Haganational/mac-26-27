@@ -17,8 +17,11 @@ from typing import Any, Iterable
 
 from .config import SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
-BRAND = "#0b2147"  # deep navy for the top bar and share cards
-GOLD = "#f2b705"
+SITE_NAME = "Behind the Bricks"
+BRAND = "#123d2e"  # deep green for the top bar and share cards
+GOLD = "#f0c75e"
+MORTAR = "#cdb99a"
+BRICK_TONES = ("#9e3b26", "#8c3322", "#a8452c", "#93371f", "#b04d31", "#98402a", "#87301f", "#a33f27", "#7f2d1d")
 
 # Pages in the order the top bar and footer list them. (path, label, one-line purpose, accent, search keywords)
 PAGES: tuple[tuple[str, str, str, str, str], ...] = (
@@ -27,6 +30,8 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
     ("players.html", "Players", "Box-score ratings for every MAC player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
+    ("book.html", "Book", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
+    ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),
     ("news.html", "News", "Men's basketball headlines from every school, the MAC and Google News", "#d03b3b", "news headlines ticker articles"),
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
 )
@@ -229,16 +234,41 @@ def _stripe(draw, y: int, h: int, w: int) -> None:
         draw.rectangle([i * w // n, y, (i + 1) * w // n, y + h], fill=t.color)
 
 
+def _bricks(draw, x0: int, y0: int, x1: int, y1: int, brick: int = 44, course: int = 20, gap: int = 3) -> None:
+    """Running-bond red brick with mortar joints, like the walks across a college green."""
+    import random
+    rnd = random.Random(7)
+    draw.rectangle([x0, y0, x1, y1], fill=MORTAR)
+    row = 0
+    y = y0
+    while y < y1:
+        x = x0 - (brick // 2 if row % 2 else 0)
+        while x < x1:
+            draw.rectangle([max(x0, x + gap // 2), y + gap // 2, min(x1, x + brick - gap // 2 - 1), min(y1, y + course - gap // 2 - 1)],
+                           fill=rnd.choice(BRICK_TONES))
+            x += brick
+        y += course
+        row += 1
+
+
 def share_card(path: Path, title: str, subtitle: str, *, bg: str = BRAND, accent: str = GOLD,
-               kicker: str = f"MAC MEN'S BASKETBALL {SEASON_LABEL}", lines: Iterable[str] = ()) -> None:
+               kicker: str = f"{SITE_NAME.upper()} · MAC {SEASON_LABEL}", lines: Iterable[str] = ()) -> None:
     """1200x630 PNG for link previews (Open Graph / X cards / iMessage)."""
     from PIL import Image, ImageDraw
     W, H = 1200, 630
     ink = ink_on(bg)
-    soft = "#c9d3e6" if ink == "#ffffff" else "#333333"
+    soft = "#d7e6dd" if ink == "#ffffff" else "#333333"
     img = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(img)
-    d.polygon([(W - 360, 0), (W, 0), (W, H), (W - 620, H)], fill=_mix(bg, "#000000", 0.22))
+    if bg == BRAND:  # site and page cards get the brick panel; team cards keep the team color
+        panel = Image.new("RGB", (W, H))
+        _bricks(ImageDraw.Draw(panel), 0, 0, W, H, brick=60, course=26, gap=4)
+        panel = Image.blend(panel, Image.new("RGB", (W, H), bg), 0.4)  # keep text that runs over it readable
+        mask = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(mask).polygon([(W - 360, 0), (W, 0), (W, H), (W - 620, H)], fill=255)
+        img.paste(panel, (0, 0), mask)
+    else:
+        d.polygon([(W - 360, 0), (W, 0), (W, H), (W - 620, H)], fill=_mix(bg, "#000000", 0.22))
     d.polygon([(W - 380, 0), (W - 360, 0), (W - 620, H), (W - 640, H)], fill=accent)
     d.rectangle([0, 0, 18, H], fill=accent)
     d.text((72, 70), kicker, font=_font(30), fill=accent)
@@ -290,16 +320,11 @@ def app_icon(path: Path, size: int) -> None:
     from PIL import Image, ImageDraw
     img = Image.new("RGB", (size, size), BRAND)
     d = ImageDraw.Draw(img)
-    n = len(TEAMS)
-    band = max(2, size // 10)
-    for i, t in enumerate(TEAMS):
-        d.rectangle([i * size // n, size - band, (i + 1) * size // n, size], fill=t.color)
-    f = _font(int(size * 0.34))
-    w = d.textlength("MAC", font=f)
-    d.text(((size - w) / 2, size * 0.24), "MAC", font=f, fill=GOLD)
-    f2 = _font(int(size * 0.15))
-    w2 = d.textlength("26-27", font=f2)
-    d.text(((size - w2) / 2, size * 0.60), "26-27", font=f2, fill="#ffffff")
+    # Brick walk along the bottom third, green above: "BtB" over the bricks.
+    _bricks(d, 0, int(size * 0.68), size, size, brick=max(8, size // 5), course=max(4, size // 10), gap=max(1, size // 90))
+    f = _font(int(size * 0.36))
+    w = d.textlength("BtB", font=f)
+    d.text(((size - w) / 2, size * 0.16), "BtB", font=f, fill=GOLD)
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, optimize=True)
 
@@ -337,8 +362,8 @@ def pillow_ok() -> bool:
 
 def manifest() -> str:
     return json.dumps({
-        "name": f"MAC Men's Basketball {SEASON_LABEL}",
-        "short_name": "MAC 26-27",
+        "name": f"{SITE_NAME} · MAC Men's Basketball {SEASON_LABEL}",
+        "short_name": SITE_NAME,
         "description": "Scores, lines, ratings, TV, travel and news for all 12 MAC teams.",
         "start_url": "./index.html",
         "scope": "./",

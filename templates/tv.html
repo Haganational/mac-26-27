@@ -57,7 +57,7 @@
           <tr id="g{{ g.game_id }}" data-tier="{{ 'none' if g.watch.tier == 'local' else g.watch.tier }}" data-teams="{{ g.home.key or '' }} {{ g.away.key or '' }}" data-conf="{{ 1 if g.conference_game else 0 }}" data-done="{{ 1 if g.completed else 0 }}">
             <td class="tipcell"><b>{{ g.et.time }}</b></td>
             <td class="watchcell">{{ watchchips(g.watch) }}</td>
-            <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}</span></td>
+            <td class="teams"><span class="tm">{{ logo(g.away) }}{{ g.away.name }}</span><span class="tm"><b>{{ logo(g.home) }}{{ 'vs' if g.neutral_site else 'at' }} {{ g.home.name }}</b>{% if g.conference_game %} <span class="pill">MAC</span>{% endif %}{% if g.neutral_site %} <span class="pill">neutral</span>{% endif %}{% if notes_by_game.get(g.game_id) %} <a class="pill" href="notes.html#n-{{ notes_by_game[g.game_id][0].slug }}" title="Fieldhouse Notes dispatch">notes</a>{% endif %}{{ L.add_dispatch(g.game_id, (g.away.abbr or g.away.name) ~ " at " ~ (g.home.abbr or g.home.name), small=True) }}</span></td>
             <td class="num result" style="width:90px">{% if g.completed %}{% if g.box %}<a href="games/{{ g.game_id }}.html">{{ g.away.score }}-{{ g.home.score }}</a>{% else %}{{ g.away.score }}-{{ g.home.score }}{% endif %}{% else %}<span class="dim">{{ g.venue_city or '' }}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}</span>{% endif %}</td>
           </tr>
           {% endfor %}

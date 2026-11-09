@@ -88,7 +88,7 @@ def flatten_event(event: dict[str, Any], captured_at: str) -> Iterable[dict[str,
 
 
 def snapshot_lines() -> dict[str, Any]:
-    """Fetch, filter to MAC games, append rows to today's JSONL file."""
+    """Fetch, append MAC rows to today's JSONL file, and keep every game in the book."""
     captured_at = datetime.now(timezone.utc).replace(microsecond=0)
     events, quota = fetch_ncaab_odds()
     mac_events = [e for e in events if is_mac_event(e)]
@@ -100,9 +100,14 @@ def snapshot_lines() -> dict[str, Any]:
         for row in rows:
             fh.write(json.dumps(row, separators=(",", ":")) + "\n")
 
+    # Every D-I game, every book, for the book on other conferences. Compact and gzipped.
+    from . import book
+    book_file = book.save_odds_snapshot(events, captured_at) if events else None
+
     summary = {
         "captured_at": captured_at.isoformat(),
         "ncaab_events": len(events),
+        "book_file": book_file,
         "mac_events": len(mac_events),
         "rows": len(rows),
         "file": str(path),
