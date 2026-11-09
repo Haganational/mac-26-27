@@ -9,7 +9,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, oddsboard, players, schedule_view, travel
+from . import analysis, news, oddsboard, players, schedule_view, travel
 from .config import BY_KEY, SEASON_LABEL, SITE_DIR, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -181,6 +181,8 @@ def game_page_context(g: dict[str, Any], box: dict[str, Any], snap: dict[str, An
 
 def render_site() -> str:
     data = dashboard_data()
+    now = datetime.fromisoformat(data["generated_at"])
+    data["news"] = news.view(now, limit=30)
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
     SITE_DIR.mkdir(parents=True, exist_ok=True)
@@ -235,6 +237,11 @@ def render_site() -> str:
     data["odds_summary"] = {"games": len(odds_ctx["board"]), "books": len(odds_ctx["books"]), "edges": odds_ctx["edges"],
                             "budget": odds_ctx["budget"]}
 
+    # News ticker: the full feed, with team filter chips and feed health.
+    full_news = news.view(now, limit=400)
+    (SITE_DIR / "news.html").write_text(env.get_template("news.html").render(
+        d=data, n=full_news, host=news.host))
+
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
     for it in itins.values():
@@ -267,6 +274,7 @@ def render_site() -> str:
             others=players.coverage_not_on_roster(team.key, profiles[team.key]),
             games=[schedule_view.decorate({**tg, "box": tg["game_id"] in have_box, "trav": ctx.get((tg["game_id"], team.key))}) for tg in team_games(team.key, games, history, espn_lines)],
             itin=itins[team.key],
+            team_news=news.view(now, team.key, limit=12),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))

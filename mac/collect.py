@@ -5,6 +5,7 @@
   python -m mac.collect lines     # append a lines snapshot (needs ODDS_API_KEY)
   python -m mac.collect build-db   # write data/mac.sqlite
   python -m mac.collect site       # render the dashboard into site/
+  python -m mac.collect news     # refresh the news ticker feeds into data/news/
   python -m mac.collect venues     # geocode any new venue city into data/venues.json
   python -m mac.collect all        # schedule + lines + site (what the cron job runs)
 """
@@ -14,7 +15,7 @@ from __future__ import annotations
 import json
 import sys
 
-from . import build, db, espn, odds, rosters, travel
+from . import build, db, espn, news, odds, rosters, travel
 
 
 def main(argv: list[str]) -> int:
@@ -32,6 +33,8 @@ def main(argv: list[str]) -> int:
         print("sqlite:", db.build())
     elif cmd == "site":
         print("site:", build.render_site())
+    elif cmd == "news":
+        print("news:", news.refresh())
     elif cmd == "venues":
         print("venues:", travel.geocode_missing(espn.load_schedule()["games"]))
     elif cmd == "all":
@@ -51,6 +54,10 @@ def main(argv: list[str]) -> int:
         except odds.OddsApiError as exc:
             # Keep the schedule and site fresh even when the odds pull fails.
             print(f"lines: skipped ({exc})", file=sys.stderr)
+        try:
+            print("news:", news.refresh())
+        except Exception as exc:  # noqa: BLE001 - a feed outage must not block the site build
+            print(f"news: skipped ({exc})", file=sys.stderr)
         print("site:", build.render_site())
     else:
         print(__doc__)

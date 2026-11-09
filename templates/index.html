@@ -14,6 +14,16 @@
     <span class="sub">Updated {{ d.generated_et }}. Lines are Pinnacle's number when it is posted, otherwise the median across books. Spreads are from the home team's view.</span>
   </header>
 
+  {% if d.news and d.news.headlines %}
+  <div class="ticker" aria-label="Latest MAC men's basketball headlines">
+    <a class="tk-label" href="news.html">Latest</a>
+    <div class="tk-viewport"><div class="tk-track">
+      {% for pass in [0, 1] %}<span class="tk-run"{% if pass %} aria-hidden="true"{% endif %}>{% for i in d.news.headlines[:20] %}<a class="tk-item{{ ' fresh' if i.fresh }}" href="{{ i.url }}" target="_blank" rel="noopener"{% if pass %} tabindex="-1"{% endif %}><b>{% for t in i.teams[:2] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{{ '/' if not loop.last }}{% else %}MAC{% endfor %}</b> {{ i.title }} <span class="dim">{{ i.source }} · {{ i.age }}</span></a>{% endfor %}</span>{% endfor %}
+    </div></div>
+    <a class="tk-more" href="news.html">All news →</a>
+  </div>
+  {% endif %}
+
   <div class="tiles">
     <div class="tile"><div class="v">{{ d.counts.completed }}<span class="dim">/{{ d.counts.games }}</span></div><div class="k">games played</div></div>
     <div class="tile"><div class="v">{{ d.counts.events_with_lines }}</div><div class="k">games with line history</div></div>
@@ -22,7 +32,7 @@
   </div>
 
   <section>
-    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Teams</h2><span class="row" style="margin:0;gap:6px"><a class="btnlink" href="news.html">News →</a><a class="btnlink" href="odds.html">Odds screen →</a><a class="btnlink" href="tv.html">TV schedule →</a><a class="btnlink" href="travel.html">Travel map →</a></span></div>
     <div class="teamgrid">
       {% for t in d.standings %}
       <a href="teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>

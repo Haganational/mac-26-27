@@ -211,3 +211,27 @@ b.edge { background: color-mix(in srgb, var(--good) 18%, transparent); color: va
 table.nowrap td { white-space: nowrap; }
 .sparks > span { display: flex; flex-direction: column; }
 :root[data-mk="spread"] table.odds, :root[data-mk="total"] table.odds, :root[data-mk="ml"] table.odds { min-width: 0; }
+
+/* News ticker */
+.ticker { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 6px 10px; margin-bottom: 20px; font-size: 13px; }
+.tk-label { font-weight: 600; color: var(--page); background: var(--ink); border-radius: 6px; padding: 2px 8px; flex: none; text-decoration: none; }
+.tk-more { flex: none; font-size: 12px; }
+.tk-viewport { overflow: hidden; flex: 1; min-width: 0; mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+.tk-track { display: flex; width: max-content; animation: tk-scroll 140s linear infinite; }
+.ticker:hover .tk-track, .ticker:focus-within .tk-track { animation-play-state: paused; }
+.tk-run { display: flex; flex: none; }
+.tk-item { color: var(--ink); white-space: nowrap; padding: 0 18px; border-right: 1px solid var(--grid); }
+.tk-item b { color: var(--s1); font-weight: 600; margin-right: 2px; }
+.tk-item.fresh b::before { content: "● "; color: var(--s2); }
+@keyframes tk-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .tk-track { animation: none; } .tk-viewport { overflow-x: auto; } }
+@media (max-width: 600px) { .tk-more { display: none; } }
+.newslist { list-style: none; margin: 0; padding: 0; }
+.newslist li { padding: 7px 0; border-bottom: 1px solid var(--grid); }
+.newslist li:last-child { border-bottom: 0; }
+.newslist .age { display: inline-block; min-width: 34px; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+.newslist .age.fresh { color: var(--s2); font-weight: 600; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+.chips button { font: inherit; font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.chips button.on { background: var(--ink); color: var(--page); border-color: var(--ink); }
+.ok { color: var(--good); } .bad { color: var(--bad); }
