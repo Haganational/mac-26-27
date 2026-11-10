@@ -16,9 +16,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("src"); ap.add_argument("out"); ap.add_argument("--ref"); ap.add_argument("--speakers", type=int, default=2)
 a = ap.parse_args()
 model = WhisperModel("small.en", device="cpu", compute_type="int8")
-segs, _ = model.transcribe(a.src, vad_filter=True, word_timestamps=False)
-segs = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()} for s in segs]
 wav, sr = librosa.load(a.src, sr=16000, mono=True)
+segs, _ = model.transcribe(wav, vad_filter=True, word_timestamps=False)
+segs = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()} for s in segs]
 enc = VoiceEncoder("cpu")
 embs, keep = [], []
 for i, s in enumerate(segs):
