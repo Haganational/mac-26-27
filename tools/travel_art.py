@@ -32,7 +32,8 @@ SERIF_B = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 GOLD = (240, 199, 94)
 # One look per league. The MAC burns hot over the Ohio-Michigan heartland, with Athens ringed
 # in street bricks; the ASUN is Gulf water and sawgrass, bursting out of the middle of Florida;
-# the Horizon is a molten pour over the Rust Belt, from Green Bay to Pittsburgh.
+# the Horizon is a molten pour over the Rust Belt, from Green Bay to Pittsburgh; the Mountain West
+# is alpenglow over the high country, with one long flight out to Honolulu.
 PROFILES = {
     "mac": {
         "title": "The MAC in Motion",
@@ -86,6 +87,23 @@ PROFILES = {
         "map": ((190, 196, 205), (34, 40, 48), (130, 150, 170)),
         "halo": "",
         "frames": {"desktop": (3200, 1800, (-84.4, 41.9), 17.0), "phone": (1290, 2796, (-84.3, 41.7), 10.5)},
+    },
+    "mw": {
+        "title": "The Mountain West in Motion",
+        "towns": {"air-force": "Colorado Springs", "grand-canyon": "Phoenix", "hawaii": "Honolulu", "nevada": "Reno",
+                  "new-mexico": "Albuquerque", "san-jose-state": "San José", "uc-davis": "Davis", "unlv": "Las Vegas",
+                  "utep": "El Paso", "wyoming": "Laramie"},
+        "big": ("unlv", ", Nevada"),
+        "offsets": {"air-force": (1, 1), "grand-canyon": (-1, 1), "hawaii": (1, -1), "nevada": (1, -1), "new-mexico": (1, 1),
+                    "san-jose-state": (-1, 1), "uc-davis": (-1, -1), "unlv": (1, -1), "utep": (1, 1), "wyoming": (1, -1)},
+        "heart": (-112.0, 36.5),
+        "bg": ((0.10, 0.06, 0.14), (0.03, 0.025, 0.06)),  # alpenglow dusk at the heart, night sky at the edges
+        "shock": (1.0, 0.6, 0.55),
+        "spark": lambda hot: (0.55 + 0.45 * hot, 0.62 + 0.3 * hot, 0.95),  # glacier blue to snow white
+        "ember": (1.0, 0.72, 0.6),
+        "map": ((210, 190, 230), (40, 34, 70), (170, 160, 220)),
+        "halo": "",
+        "frames": {"desktop": (3200, 1800, (-130.0, 30.5), 57.0), "phone": (1290, 2796, (-113.5, 36.0), 17.0)},
     },
 }
 P = PROFILES[LEAGUE.key]

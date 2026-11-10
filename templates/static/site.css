@@ -966,3 +966,24 @@ tr.is-live { background: color-mix(in srgb, var(--bad) 6%, transparent); }
 .mb-live { display: block; margin-top: 4px; }
 .tn-game .tm-row:has(.tn-sc) { white-space: normal; overflow: visible; }
 .tm-row .tn-sc { flex: none; }
+
+/* ---------------------------------------------------------------- Mountain West edition: High Country
+   A dusk mountain range with snowcaps where the MAC has bricks, desert red-rock strata where it has
+   hardwood, and glacier blue for the accents. Set by html.lg-peaks. */
+html.lg-peaks { --brand: #1f1d3a; --brand-2: #2e2b52; --gold: #9fd3f5; --brick: #a2482a; --mortar: #d9d2e9;
+  --bricks: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2796%27 height=%2732%27%3E%3Cdefs%3E%3ClinearGradient id=%27g%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%232a2856%27/%3E%3Cstop offset=%271%27 stop-color=%27%235b3a63%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%2796%27 height=%2732%27 fill=%27url%28%23g%29%27/%3E%3Cpath d=%27M0 22 L10 14 L18 19 L30 8 L40 17 L52 11 L64 20 L76 9 L88 18 L96 14 V32 H0Z%27 fill=%27%23463c6e%27/%3E%3Cpath d=%27M0 26 L14 15 L24 23 L38 12 L50 24 L62 16 L72 25 L84 13 L96 24 V32 H0Z%27 fill=%27%23262f45%27/%3E%3Cpath d=%27M14 15 L18 18.5 L15.5 18 L13 19.5 L10.8 17.6Z M38 12 L42.6 16.6 L39.5 15.8 L37 17.4 L34.5 15.3Z M84 13 L88 17 L85.4 16.4 L83 18 L80.6 16Z%27 fill=%27%23e9eef7%27/%3E%3Ccircle cx=%2760%27 cy=%275%27 r=%270.7%27 fill=%27%23fff%27 opacity=%27.8%27/%3E%3Ccircle cx=%278%27 cy=%274%27 r=%270.6%27 fill=%27%23fff%27 opacity=%27.6%27/%3E%3Ccircle cx=%2790%27 cy=%276%27 r=%270.5%27 fill=%27%23fff%27 opacity=%27.7%27/%3E%3C/svg%3E");
+  --wood-parquet: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2796%27 height=%2796%27%3E%3Crect width=%2796%27 height=%2796%27 fill=%27%237a3422%27/%3E%3Cpath d=%27M0 0 Q24 -2 48 0 T96 0 V7 Q72 9 48 7 T0 7Z%27 fill=%27%237a3422%27/%3E%3Cpath d=%27M0 6 Q24 3 48 6 T96 6 V14 Q72 17 48 14 T0 14Z%27 fill=%27%23a2482a%27/%3E%3Cpath d=%27M0 13 Q24 9 48 13 T96 13 V22 Q72 26 48 22 T0 22Z%27 fill=%27%23c26a3c%27/%3E%3Cpath d=%27M0 21 Q24 19 48 21 T96 21 V31 Q72 33 48 31 T0 31Z%27 fill=%27%238e3d26%27/%3E%3Cpath d=%27M0 30 Q24 27 48 30 T96 30 V41 Q72 44 48 41 T0 41Z%27 fill=%27%23d08a55%27/%3E%3Cpath d=%27M0 40 Q24 36 48 40 T96 40 V52 Q72 56 48 52 T0 52Z%27 fill=%27%239a4a2c%27/%3E%3Cpath d=%27M0 51 Q24 49 48 51 T96 51 V58 Q72 60 48 58 T0 58Z%27 fill=%27%23b85c34%27/%3E%3Cpath d=%27M0 57 Q24 54 48 57 T96 57 V65 Q72 68 48 65 T0 65Z%27 fill=%27%236e2e1f%27/%3E%3Cpath d=%27M0 64 Q24 60 48 64 T96 64 V73 Q72 77 48 73 T0 73Z%27 fill=%27%237a3422%27/%3E%3Cpath d=%27M0 72 Q24 70 48 72 T96 72 V82 Q72 84 48 82 T0 82Z%27 fill=%27%23a2482a%27/%3E%3Cpath d=%27M0 81 Q24 78 48 81 T96 81 V92 Q72 95 48 92 T0 92Z%27 fill=%27%23c26a3c%27/%3E%3Cpath d=%27M0 91 Q24 87 48 91 T96 91 V103 Q72 107 48 103 T0 103Z%27 fill=%27%238e3d26%27/%3E%3Cpath d=%27M0 30 Q24 28 48 30 T96 30 M0 62 Q24 64 48 62 T96 62%27 stroke=%27%23f0c49a%27 stroke-width=%27.8%27 fill=%27none%27 opacity=%27.35%27/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) { html.lg-peaks:not([data-theme="light"]) { --brand: #16142b; --brand-2: #24213f; } }
+html.lg-peaks[data-theme="dark"] { --brand: #16142b; --brand-2: #24213f; }
+html.lg-peaks, html.lg-peaks .backdrop { background: #14122a; }
+html.lg-peaks .topbar, html.lg-peaks .tb-nav.open { background: linear-gradient(180deg, rgba(20,18,42,.55), rgba(20,18,42,.78)), var(--bricks) 0 0 / 96px 32px; background-color: #14122a; }
+html.lg-peaks .homehero { background: radial-gradient(110% 80% at 80% 0%, rgba(255,150,110,.30), transparent 60%), linear-gradient(rgba(16,14,34,.2), rgba(16,14,34,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(14,12,30,.6); --hh-soft: #e4ddf2; }
+html.lg-peaks .homehero .hh-mac { color: #3c7fb8; -webkit-text-stroke: 2px #fff; }
+html.lg-peaks .bd-floor { background: var(--wood-parquet) 0 0 / 96px 96px; -webkit-mask-image: linear-gradient(100deg, transparent 18%, rgba(0,0,0,.75) 55%, #000 85%); mask-image: linear-gradient(100deg, transparent 18%, rgba(0,0,0,.75) 55%, #000 85%); }
+html.lg-peaks .bd-scrim { background: rgba(246,242,238,.86); }
+@media (prefers-color-scheme: dark) { html.lg-peaks:not([data-theme="light"]) .bd-scrim { background: rgba(16,14,32,.74); } }
+html.lg-peaks[data-theme="dark"] .bd-scrim { background: rgba(16,14,32,.74); }
+html.lg-peaks .sitefoot { color: #e2dcf0; }
+/* News: each school tag wears its team color, lightly. */
+.hh-heads .hh-tag[class*=" t-"] { background: var(--tc); color: var(--tci); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+#feed a.pill[class*=" t-"], .newslist a.pill[class*=" t-"] { box-shadow: inset 3px 0 0 var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }

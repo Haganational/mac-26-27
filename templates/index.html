@@ -17,7 +17,7 @@
     </div>
     {% if d.news and d.news.headlines %}
     <ul class="hh-heads" aria-label="Latest headlines">
-      {% for i in d.news.headlines[:3] %}<li><span class="hh-tag">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}{{ LG }}{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
+      {% for i in d.news.headlines[:3] %}<li>{% set t0 = i.teams[0] if i.teams else "" %}<span class="hh-tag{{ " t-" ~ t0 if t0 }}">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}{{ LG }}{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
       <li class="hh-all"><a href="news.html">All news →</a></li>
     </ul>
     {% endif %}
