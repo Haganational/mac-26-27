@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-10T04:36:10+00:00",
-"mu": 105.59418703590374,
-"tau": 71.12862420937559,
-"hca": 2.7591910950090455,
+"as_of": "2026-11-10T04:46:08+00:00",
+"mu": 105.59418596137488,
+"tau": 71.12862357907558,
+"hca": 2.7591871778920916,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -1001,7 +1001,7 @@
 "sos": -14.57,
 "rk_adj_em": 47,
 "rk_adj_o": 29,
-"rk_adj_d": 87,
+"rk_adj_d": 88,
 "rk_adj_t": 245,
 "rk_sos": 251
 },
@@ -1454,7 +1454,7 @@
 "games": 2,
 "adj_o": 112.97,
 "adj_d": 102.06,
-"adj_em": 10.92,
+"adj_em": 10.91,
 "adj_t": 75.24,
 "net_pts": 7.76,
 "raw_margin": 26.0,
@@ -1561,7 +1561,7 @@
 "adj_d": 100.98,
 "adj_em": 10.34,
 "adj_t": 71.66,
-"net_pts": 7.36,
+"net_pts": 7.35,
 "raw_margin": 12.0,
 "raw_total": 148.0,
 "raw_poss": 71.79,
@@ -1990,7 +1990,7 @@
 "rk_adj_o": 112,
 "rk_adj_d": 71,
 "rk_adj_t": 269,
-"rk_sos": 364
+"rk_sos": 365
 },
 {
 "id": "82",
@@ -2209,7 +2209,7 @@
 "abbr": "HAW",
 "games": 3,
 "adj_o": 105.51,
-"adj_d": 99.12,
+"adj_d": 99.13,
 "adj_em": 6.39,
 "adj_t": 72.92,
 "net_pts": 4.54,
@@ -2260,7 +2260,7 @@
 "raw_poss": 70.21,
 "sos": -29.11,
 "rk_adj_em": 107,
-"rk_adj_o": 177,
+"rk_adj_o": 176,
 "rk_adj_d": 56,
 "rk_adj_t": 166,
 "rk_sos": 335
@@ -2515,7 +2515,7 @@
 "rk_adj_o": 50,
 "rk_adj_d": 268,
 "rk_adj_t": 55,
-"rk_sos": 360
+"rk_sos": 363
 },
 {
 "id": "2649",
@@ -3027,7 +3027,7 @@
 "short": "Ohio",
 "abbr": "OHIO",
 "games": 2,
-"adj_o": 109.18,
+"adj_o": 109.17,
 "adj_d": 107.35,
 "adj_em": 1.82,
 "adj_t": 72.14,
@@ -3124,7 +3124,7 @@
 "rk_adj_o": 145,
 "rk_adj_d": 188,
 "rk_adj_t": 96,
-"rk_sos": 363
+"rk_sos": 362
 },
 {
 "id": "300",
@@ -3344,7 +3344,7 @@
 "games": 2,
 "adj_o": 110.49,
 "adj_d": 110.07,
-"adj_em": 0.41,
+"adj_em": 0.42,
 "adj_t": 73.41,
 "net_pts": 0.3,
 "raw_margin": 22.5,
@@ -3625,7 +3625,7 @@
 "raw_poss": 73.11,
 "sos": -29.91,
 "rk_adj_em": 172,
-"rk_adj_o": 176,
+"rk_adj_o": 177,
 "rk_adj_d": 189,
 "rk_adj_t": 223,
 "rk_sos": 340
@@ -4235,7 +4235,7 @@
 "sos": -49.47,
 "rk_adj_em": 201,
 "rk_adj_o": 299,
-"rk_adj_d": 88,
+"rk_adj_d": 87,
 "rk_adj_t": 365,
 "rk_sos": 359
 },
@@ -4434,7 +4434,7 @@
 "short": "Cornell",
 "abbr": "COR",
 "games": 3,
-"adj_o": 107.1,
+"adj_o": 107.11,
 "adj_d": 111.0,
 "adj_em": -3.89,
 "adj_t": 73.15,
@@ -5182,7 +5182,7 @@
 "rk_adj_o": 171,
 "rk_adj_d": 306,
 "rk_adj_t": 92,
-"rk_sos": 362
+"rk_sos": 361
 },
 {
 "id": "2459",
@@ -5358,11 +5358,11 @@
 "short": "Queens",
 "abbr": "QUC",
 "games": 3,
-"adj_o": 113.26,
+"adj_o": 113.25,
 "adj_d": 119.9,
 "adj_em": -6.64,
 "adj_t": 74.17,
-"net_pts": -4.73,
+"net_pts": -4.72,
 "raw_margin": -14.67,
 "raw_total": 192.67,
 "raw_poss": 78.2,
@@ -5392,7 +5392,7 @@
 "rk_adj_o": 277,
 "rk_adj_d": 206,
 "rk_adj_t": 199,
-"rk_sos": 361
+"rk_sos": 360
 },
 {
 "id": "2870",
@@ -5549,7 +5549,7 @@
 "games": 2,
 "adj_o": 103.35,
 "adj_d": 110.54,
-"adj_em": -7.19,
+"adj_em": -7.18,
 "adj_t": 76.1,
 "net_pts": -5.11,
 "raw_margin": -2.0,
@@ -5656,7 +5656,7 @@
 "adj_d": 114.32,
 "adj_em": -7.81,
 "adj_t": 70.99,
-"net_pts": -5.56,
+"net_pts": -5.55,
 "raw_margin": -17.5,
 "raw_total": 152.5,
 "raw_poss": 66.74,
@@ -5854,7 +5854,7 @@
 "rk_adj_o": 256,
 "rk_adj_d": 287,
 "rk_adj_t": 308,
-"rk_sos": 365
+"rk_sos": 364
 },
 {
 "id": "2627",
@@ -6117,7 +6117,7 @@
 "adj_o": 98.09,
 "adj_d": 108.22,
 "adj_em": -10.13,
-"adj_t": 70.01,
+"adj_t": 70.02,
 "net_pts": -7.21,
 "raw_margin": -18.0,
 "raw_total": 149.0,
@@ -6221,7 +6221,7 @@
 "games": 2,
 "adj_o": 97.45,
 "adj_d": 107.93,
-"adj_em": -10.49,
+"adj_em": -10.48,
 "adj_t": 69.27,
 "net_pts": -7.46,
 "raw_margin": -30.0,
@@ -6475,7 +6475,7 @@
 "adj_d": 115.63,
 "adj_em": -12.46,
 "adj_t": 72.56,
-"net_pts": -8.87,
+"net_pts": -8.86,
 "raw_margin": -12.33,
 "raw_total": 165.0,
 "raw_poss": 75.63,
@@ -6576,7 +6576,7 @@
 "short": "UC Davis",
 "abbr": "UCD",
 "games": 2,
-"adj_o": 94.19,
+"adj_o": 94.2,
 "adj_d": 107.0,
 "adj_em": -12.8,
 "adj_t": 72.76,
@@ -7018,7 +7018,7 @@
 "abbr": "EVAN",
 "games": 2,
 "adj_o": 99.72,
-"adj_d": 114.6,
+"adj_d": 114.59,
 "adj_em": -14.88,
 "adj_t": 69.0,
 "net_pts": -10.58,
