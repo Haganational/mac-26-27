@@ -986,7 +986,7 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 94,
     "winner": null
    },
    "away": {
@@ -994,13 +994,13 @@
     "key": null,
     "name": "Penn State Schuylkill Nittany Lions",
     "abbr": "PSUS",
-    "score": null,
+    "score": 54,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:15 - 2nd"
+   "detail": "6:39 - 2nd"
   },
   {
    "game_id": "401928833",
@@ -1020,7 +1020,7 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -1028,13 +1028,13 @@
     "key": null,
     "name": "Muskingum Fighting Muskies",
     "abbr": "MSK",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:38 - 2nd"
+   "detail": "14:15 - 2nd"
   },
   {
    "game_id": "401911008",
@@ -1060,7 +1060,7 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 45,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -1068,13 +1068,13 @@
     "key": null,
     "name": "Brescia Bearcats",
     "abbr": "BRES",
-    "score": 26,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:14 - 2nd"
   },
   {
    "game_id": "401911010",
@@ -1100,7 +1100,7 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -1108,13 +1108,13 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:44 - 2nd"
+   "detail": "14:24 - 2nd"
   },
   {
    "game_id": "401911011",
@@ -8777,5 +8777,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-10T01:15:25+00:00"
 }

@@ -826,7 +826,7 @@
     "key": null,
     "name": "Georgia Bulldogs",
     "abbr": "UGA",
-    "score": null,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -834,13 +834,13 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:31 - 2nd"
+   "detail": "15:40 - 2nd"
   },
   {
    "game_id": "401920877",
@@ -866,7 +866,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 36,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -874,13 +874,13 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 20,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:01 - 2nd"
   },
   {
    "game_id": "401921720",
@@ -906,7 +906,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": null,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -914,13 +914,13 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:54 - 2nd"
+   "detail": "15:35 - 2nd"
   },
   {
    "game_id": "401922249",
@@ -946,7 +946,7 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -954,13 +954,13 @@
     "key": null,
     "name": "Baptist (Fl) Eagles",
     "abbr": "BAP",
-    "score": null,
+    "score": 34,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:54 - 2nd"
+   "detail": "15:18 - 2nd"
   },
   {
    "game_id": "401920704",
@@ -7488,5 +7488,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-10T01:15:38+00:00"
 }
