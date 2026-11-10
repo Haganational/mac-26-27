@@ -96,7 +96,8 @@ jobs:
           git config user.email "mac-collector@users.noreply.github.com"
           git add data/
           git diff --cached --quiet && echo "no data changes" || git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # A merge or a Notes dispatch can land on main mid-run; replay the data commit on top instead of failing the deploy.
+          git push || { git pull --rebase origin main && git push; }
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
