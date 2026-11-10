@@ -207,6 +207,9 @@ def build_search_index(sections: dict[str, list[tuple[str, str]]], games: list[d
         if g["completed"]:
             title = f"{a['abbr']} {a['score']}, {h['abbr']} {h['score']}"
             sub = f"Final · {when}"
+        elif g.get("live"):
+            title = f"{a['abbr']} {a['score'] or 0}, {h['abbr']} {h['score'] or 0}"
+            sub = f"Live · {(g.get('detail') or '').replace(' - ', ' ')}"
         else:
             title = f"{a['abbr']} {'vs' if g.get('neutral_site') else 'at'} {h['abbr']}"
             sub = when

@@ -180,7 +180,8 @@ def upcoming(games: list[dict[str, Any]], history: dict[str, dict[str, Any]], no
     out = []
     for g in games:
         tip = parse_iso(g["date"])
-        if g["completed"] or tip < now - timedelta(hours=3) or tip > horizon:
+        # A game in progress stays here (with its live score) until it goes final, up to 6 hours after tip.
+        if g["completed"] or tip < now - timedelta(hours=6 if g.get("live") else 3) or tip > horizon:
             continue
         ev = history.get(mapping.get(g["game_id"], ""))
         out.append({**g, "tip": tip.isoformat(), "line": ev})

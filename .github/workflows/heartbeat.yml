@@ -2,7 +2,8 @@ name: Collector heartbeat
 
 # GitHub's cron fires late or not at all on small repos (collect.yml's half-hourly
 # schedule ran 3 times in two days). This job is the clock instead: it wakes at
-# every :00 and :30 UTC, starts collect.yml, and after ~5h40m starts a fresh copy
+# every :00 and :30 UTC (plus :15 and :45 from 6:30 PM to 1:30 AM Eastern, for live
+# scores), starts collect.yml, and after ~5h40m starts a fresh copy
 # of itself before the 6-hour job limit. Runner minutes are free on a public repo.
 # The cron below only restarts the loop if it ever stops; the newest heartbeat
 # cancels any older one, so only one runs at a time. It also starts the daily
@@ -28,13 +29,24 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
     steps:
-      - name: Start collect.yml every half hour
+      - name: Start collect.yml every half hour (every 15 minutes on game nights)
         run: |
           start=$(date +%s)
           while [ $(( $(date +%s) - start )) -lt 20400 ]; do
             now=$(date +%s)
-            next=$(( (now / 1800 + 1) * 1800 ))
+            next=$(( (now / 900 + 1) * 900 ))
             sleep $(( next - now + 5 ))
+            min=$(date -u +%M)
+            if [ "$min" = "15" ] || [ "$min" = "45" ]; then
+              # Game nights, 6:30 PM to 1:30 AM Eastern: a live-score run between the half-hour ticks.
+              # ESPN only, so it spends no Odds API credits.
+              et=$((10#$(TZ=America/New_York date +%H%M)))
+              if [ "$et" -ge 1830 ] || [ "$et" -le 130 ]; then
+                echo "live $(date -u +%H:%M)"
+                gh workflow run collect.yml --ref main -f mode=live || echo "dispatch failed, will try next tick"
+              fi
+              continue
+            fi
             echo "tick $(date -u +%H:%M)"
             gh workflow run collect.yml --ref main -f mode=tick || echo "dispatch failed, will try next tick"
             # MAC90's own 8 a.m. ET cron is just as unreliable, so the heartbeat starts it too.

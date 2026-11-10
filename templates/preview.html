@@ -23,12 +23,12 @@
         <div class="tname">{{ tlink(side) }}</div>
         <div class="sub">{{ 'Neutral' if g.neutral_site else ('Home' if loop.last else 'Away') }} · model win chance {{ mv.home_win if loop.last else mv.away_win }}%</div>
       </div>
-      <div class="big" title="Model's projected points">{{ pts }}</div>
+      {% if g.live %}<div class="big live" title="Live score · model projected {{ pts }}">{{ side.score if side.score is not none else 0 }}</div>{% else %}<div class="big" title="Model's projected points">{{ pts }}</div>{% endif %}
     </div>
     {% endfor %}
   </header>
   <div class="sub" style="margin:-8px 0 18px">
-    Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
+    {% if g.live %}<span class="livetag"><i aria-hidden="true"></i>Live</span> <b class="livescore"><small>{{ L.clock(g) }}</small></b> · the model projected {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }} · {% endif %}Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
     · {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
     {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
