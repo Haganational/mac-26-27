@@ -1201,8 +1201,8 @@
     "key": null,
     "name": "Alabama Crimson Tide",
     "abbr": "ALA",
-    "score": 106,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "2473",
@@ -1210,12 +1210,12 @@
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
     "score": 68,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909543",
@@ -9686,5 +9686,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T02:26:59+00:00"
+ "live_at": "2026-11-10T02:32:43+00:00"
 }
