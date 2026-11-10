@@ -554,7 +554,7 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                   for r in sorted(rows, key=lambda r: r["dt"])],
         "players": players_list,
         "teams": [{"key": t.key, "short": t.short} for t in TEAMS],
-        "kinds": {k: [v[0], f'<svg class="fh-ic" viewBox="0 0 20 20" width="15" height="15" aria-hidden="true">{v[1]}</svg>'] for k, v in notes.KINDS.items()},
+        "kinds": {k: [v[0], f'<svg class="fh-ic k-{k}" viewBox="0 0 20 20" width="15" height="15" aria-hidden="true">{v[1]}</svg>'] for k, v in notes.KINDS.items()},
         "aliases": notes.ALIASES,
     }
     (SITE_DIR / "desk.html").write_text(env.get_template("desk.html").render(

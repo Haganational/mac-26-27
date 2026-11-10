@@ -144,7 +144,7 @@
 
 {#- Fieldhouse Notes. The add button only shows in author mode; GitHub decides who can actually commit. -#}
 {% macro kind_icon(kind, size=16) -%}
-<svg class="fh-ic" viewBox="0 0 20 20" width="{{ size }}" height="{{ size }}" role="img" aria-label="{{ notes_kinds[kind][0] }}"><title>{{ notes_kinds[kind][0] }}</title>{{ notes_kinds[kind][1]|safe }}</svg>
+<svg class="fh-ic k-{{ kind }}" viewBox="0 0 20 20" width="{{ size }}" height="{{ size }}" role="img" aria-label="{{ notes_kinds[kind][0] }}"><title>{{ notes_kinds[kind][0] }}</title>{{ notes_kinds[kind][1]|safe }}</svg>
 {%- endmacro %}
 
 {% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="", root="") -%}

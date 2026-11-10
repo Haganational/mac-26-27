@@ -63,7 +63,7 @@
       <h2 id="formtitle">New dispatch</h2>
       <label>Filed as</label>
       <div class="kinds">
-        {% for k, v in notes_kinds.items() %}<label><input type="radio" name="kind" value="{{ k }}"{% if k == 'arena' %} checked{% endif %}>{{ L.kind_icon(k, 16) }}<span>{{ v[0] }}</span></label>{% endfor %}
+        {% for k, v in notes_kinds.items() %}<label class="k-{{ k }}"><input type="radio" name="kind" value="{{ k }}"{% if k == 'arena' %} checked{% endif %}>{{ L.kind_icon(k, 16) }}<span>{{ v[0] }}</span></label>{% endfor %}
       </div>
       <label for="game">Game</label>
       <input type="text" id="game" list="games" placeholder="Start typing a team or date (leave blank for none)">
@@ -204,7 +204,7 @@
   function render() {
     const f = form(), g = gameById.get(f.game), teams = [...new Set([...(g ? g.teams : []), ...f.teams])];
     const where = [g ? esc(g.label) : '', ...teams.map(t => esc(teamName[t] || t)), f.player ? esc(f.playerName) : ''].filter(Boolean).join(' · ');
-    $('#preview').innerHTML = `<article class="dispatch"><div class="meta"><span class="fh-kind">${KINDS[f.kind][1]} ${esc(KINDS[f.kind][0])}</span> · ${esc(f.date)}${where ? ' · ' + where : ''}</div>`
+    $('#preview').innerHTML = `<article class="dispatch k-${f.kind}"><div class="meta"><span class="fh-kind">${KINDS[f.kind][1]} ${esc(KINDS[f.kind][0])}</span> · ${esc(f.date)}${where ? ' · ' + where : ''}</div>`
       + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : '<p class="dim">Your dispatch will appear here.</p>'}</div></article>`
       + (where ? '' : '<p class="hint">Not filed to a game, team or player: it shows on the Notes page and in the feed.</p>');
     try { store.set('btb-desk-draft', JSON.stringify({ text: toFile(f) })); } catch (e) {}
