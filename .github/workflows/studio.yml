@@ -1,0 +1,43 @@
+name: Studio voice prep
+
+# One-off: transcribe and speaker-split an encrypted episode so a character's voice can be
+# cut from it. Audio and transcript stay encrypted with VOICE_KEY (the repo is public).
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["studio/*.enc", "tools/diarize.py", ".github/workflows/studio.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  diarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Decrypt
+        env:
+          VOICE_KEY: ${{ secrets.VOICE_KEY }}
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in studio/ep55.mp3.enc -out /tmp/ep.mp3
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/ref.ogg
+          ffmpeg -loglevel error -y -i /tmp/ref.ogg -ac 1 -ar 16000 /tmp/ref.wav
+      - name: Transcribe and split speakers
+        run: |
+          pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" faster-whisper resemblyzer scikit-learn librosa "setuptools<81"
+          python tools/diarize.py /tmp/ep.mp3 /tmp/ep55.json --ref /tmp/ref.wav --speakers 3
+      - name: Commit back (encrypted)
+        env:
+          VOICE_KEY: ${{ secrets.VOICE_KEY }}
+        run: |
+          export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
+          openssl enc -aes-256-cbc -pbkdf2 -salt -pass env:VOICE_KEY -in /tmp/ep55.json -out studio/ep55.json.enc
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studio/ep55.json.enc
+          git commit -m "Studio: encrypted ep55 transcript [skip ci]" && git push
