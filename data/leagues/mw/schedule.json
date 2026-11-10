@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T12:01:50+00:00",
+ "fetched_at": "2026-11-10T18:00:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -1731,7 +1731,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
    "venue_state": "CA",
@@ -1799,7 +1805,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
    "venue_state": "NV",
@@ -2055,7 +2067,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
    "venue_state": "NV",
@@ -2157,7 +2175,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2225,7 +2249,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
