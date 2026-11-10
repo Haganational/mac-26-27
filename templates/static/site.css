@@ -959,7 +959,14 @@ html.author .tb-list a.tb-desk { display: block !important; border-top: 1px soli
 .tn-time small.tn-clock { color: var(--bad); font-weight: 700; }
 .tm-row .tn-sc { margin-left: auto; padding-left: 8px; font-size: 16px; font-variant-numeric: tabular-nums; }
 .tm-row .tn-sc.lose { color: var(--muted); font-weight: 600; }
-.tn-game.is-live { box-shadow: inset 3px 0 0 var(--bad); }
+/* Home game cards: a green cap while in progress, a red cap once final; upcoming cards unchanged. */
+.tn-game { --cap-live: #1f9d4c; --cap-final: #c62f2f; }
+.tn-game.is-live, .tn-game.is-final { box-shadow: inset 0 6px 0 var(--cap); padding-top: 18px; }
+.tn-game.is-live { --cap: var(--cap-live); }
+.tn-game.is-final { --cap: var(--cap-final); }
+.tn-game.is-live .livetag { background: var(--cap-live); }
+.tn-game.is-live small.tn-clock { color: var(--cap-live); }
+.tn-game.is-final .finaltag { background: var(--cap-final); color: #fff; }
 .tn-game.is-final .tn-none { display: none; }
 tr.is-live { background: color-mix(in srgb, var(--bad) 6%, transparent); }
 .scorehead .big.live { color: var(--bad); }
