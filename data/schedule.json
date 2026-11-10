@@ -1020,21 +1020,21 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 100,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "332",
     "key": null,
     "name": "Muskingum Fighting Muskies",
     "abbr": "MSK",
-    "score": 60,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:28 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911008",
@@ -1060,7 +1060,7 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 77,
+    "score": 89,
     "winner": null
    },
    "away": {
@@ -1068,13 +1068,13 @@
     "key": null,
     "name": "Brescia Bearcats",
     "abbr": "BRES",
-    "score": 54,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:16 - 2nd"
+   "detail": "0:21 - 2nd"
   },
   {
    "game_id": "401911010",
@@ -1100,21 +1100,21 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 82,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "325",
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 70,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:12 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911011",
@@ -8778,5 +8778,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T01:45:21+00:00"
+ "live_at": "2026-11-10T02:00:26+00:00"
 }

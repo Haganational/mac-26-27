@@ -826,7 +826,7 @@
     "key": null,
     "name": "Georgia Bulldogs",
     "abbr": "UGA",
-    "score": 74,
+    "score": 80,
     "winner": null
    },
    "away": {
@@ -834,13 +834,13 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": 68,
+    "score": 72,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:47 - 2nd"
+   "detail": "0:58 - 2nd"
   },
   {
    "game_id": "401920877",
@@ -866,7 +866,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 69,
+    "score": 77,
     "winner": null
    },
    "away": {
@@ -874,13 +874,13 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 53,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:25 - 2nd"
+   "detail": "1:54 - 2nd"
   },
   {
    "game_id": "401921720",
@@ -906,21 +906,21 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": 78,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2454",
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 45,
-    "winner": null
+    "score": 51,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922249",
@@ -946,21 +946,21 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 100,
-    "winner": null
+    "score": 110,
+    "winner": true
    },
    "away": {
     "espn_id": "132013",
     "key": null,
     "name": "Baptist (Fl) Eagles",
     "abbr": "BAP",
-    "score": 54,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:52 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920704",
@@ -7489,5 +7489,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T01:45:32+00:00"
+ "live_at": "2026-11-10T02:00:45+00:00"
 }
