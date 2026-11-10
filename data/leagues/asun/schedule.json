@@ -786,7 +786,7 @@
     "key": null,
     "name": "Georgia Bulldogs",
     "abbr": "UGA",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -794,11 +794,13 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401920877",
@@ -824,7 +826,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -832,11 +834,13 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401921720",
@@ -862,7 +866,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -870,11 +874,13 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401922249",
@@ -900,7 +906,7 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -908,11 +914,13 @@
     "key": null,
     "name": "Baptist (Fl) Eagles",
     "abbr": "BAP",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401920704",
@@ -7090,5 +7098,6 @@
    "status": "STATUS_SCHEDULED",
    "completed": false
   }
- ]
+ ],
+ "live_at": "2026-11-10T00:54:27+00:00"
 }

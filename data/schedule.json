@@ -938,7 +938,7 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -946,11 +946,13 @@
     "key": null,
     "name": "Penn State Schuylkill Nittany Lions",
     "abbr": "PSUS",
-    "score": null,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "live": true,
+   "detail": "14:28 - 2nd"
   },
   {
    "game_id": "401928833",
@@ -970,7 +972,7 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -978,11 +980,13 @@
     "key": null,
     "name": "Muskingum Fighting Muskies",
     "abbr": "MSK",
-    "score": null,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401911008",
@@ -1008,7 +1012,7 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": null,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -1016,11 +1020,13 @@
     "key": null,
     "name": "Brescia Bearcats",
     "abbr": "BRES",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401911010",
@@ -1046,7 +1052,7 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1054,11 +1060,13 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401911011",
@@ -8301,5 +8309,6 @@
    "status": "STATUS_SCHEDULED",
    "completed": false
   }
- ]
+ ],
+ "live_at": "2026-11-10T00:54:09+00:00"
 }
