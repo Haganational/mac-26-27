@@ -906,21 +906,21 @@
     "key": "hawaii",
     "name": "Hawai'i Rainbow Warriors",
     "abbr": "HAW",
-    "score": 59,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2501",
     "key": null,
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 67,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401913101",
@@ -7889,5 +7889,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T07:01:16+00:00"
+ "live_at": "2026-11-10T07:31:13+00:00"
 }
