@@ -1161,7 +1161,7 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 76,
+    "score": 84,
     "winner": null
    },
    "away": {
@@ -1169,13 +1169,13 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 61,
+    "score": 70,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:36 - 2nd"
+   "detail": "4:12 - 2nd"
   },
   {
    "game_id": "401906759",
@@ -1201,7 +1201,7 @@
     "key": null,
     "name": "Alabama Crimson Tide",
     "abbr": "ALA",
-    "score": 56,
+    "score": 70,
     "winner": null
    },
    "away": {
@@ -1209,13 +1209,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 29,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:00 - 2nd"
   },
   {
    "game_id": "401909543",
@@ -9686,5 +9686,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T01:30:49+00:00"
+ "live_at": "2026-11-10T01:45:40+00:00"
 }
