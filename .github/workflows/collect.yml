@@ -90,6 +90,23 @@ jobs:
           else
             python -m mac.collect edition
           fi
+      - name: Mountain West edition (hardwoodbricks.com/mw/)
+        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
+        # A failure here is logged but never blocks the MAC site from publishing.
+        continue-on-error: true
+        env:
+          LEAGUE: mw
+          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python -m mac.collect site
+          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
+            python -m mac.collect live
+          else
+            python -m mac.collect edition
+          fi
       - name: Commit new data
         run: |
           git config user.name "mac-collector"

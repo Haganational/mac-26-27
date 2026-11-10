@@ -241,7 +241,58 @@ HORIZON = League(
     tournament="the Horizon League tournament in Indianapolis",
 )
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON)}
+# Mountain West 2026-27 membership from ESPN's conference standings (group 44), after the Pac-12 rebuild:
+# Grand Canyon, UC Davis and UTEP are new; Hawai'i joined from the Big West.
+MW = League(
+    key="mw", short="Mountain West", name="Mountain West Conference",
+    region="the high country: Nevada, New Mexico, Colorado, Wyoming, Arizona, Texas, California and Hawai'i",
+    teams=(
+        Team("air-force", "2005", "AF", "Air Force Falcons", "Air Force", "#003594", "#8A8D8F"),
+        Team("grand-canyon", "2253", "GCU", "Grand Canyon Lopes", "Grand Canyon", "#522398", "#FFFFFF"),
+        Team("hawaii", "62", "HAW", "Hawai'i Rainbow Warriors", "Hawai'i", "#024731", "#FFFFFF"),
+        Team("nevada", "2440", "NEV", "Nevada Wolf Pack", "Nevada", "#041E42", "#8A8D8F"),
+        Team("new-mexico", "167", "UNM", "New Mexico Lobos", "New Mexico", "#BA0C2F", "#A7A8AA"),
+        Team("san-jose-state", "23", "SJSU", "San José State Spartans", "San José St", "#0038A8", "#FFB81A"),
+        Team("uc-davis", "302", "UCD", "UC Davis Aggies", "UC Davis", "#002855", "#B3A369"),
+        Team("unlv", "2439", "UNLV", "UNLV Rebels", "UNLV", "#CF0A2C", "#CAC8C8"),
+        Team("utep", "2638", "UTEP", "UTEP Miners", "UTEP", "#FF8200", "#041E42"),
+        Team("wyoming", "2751", "WYO", "Wyoming Cowboys", "Wyoming", "#492F24", "#FFC425"),
+    ),
+    features=frozenset(),
+    path="mw/",
+    theme="peaks",
+    odds_aliases={
+        "Grand Canyon Antelopes": "grand-canyon",
+        "Grand Canyon Lopes": "grand-canyon",
+        "Hawaii Rainbow Warriors": "hawaii",
+        "Hawai'i Rainbow Warriors": "hawaii",
+        "San Jose St Spartans": "san-jose-state",
+        "San José St Spartans": "san-jose-state",
+        "San Jose State Spartans": "san-jose-state",
+        "UC Davis Aggies": "uc-davis",
+        "UTEP Miners": "utep",
+        "UNLV Rebels": "unlv",
+        "Air Force Falcons": "air-force",
+        "Nevada Wolf Pack": "nevada",
+        "New Mexico Lobos": "new-mexico",
+        "Wyoming Cowboys": "wyoming",
+    },
+    news_names={
+        "air-force": {"query": "Air Force Falcons basketball", "match": [r"\bAir Force\b"]},
+        "grand-canyon": {"query": "Grand Canyon Lopes", "match": [r"\bGrand Canyon\b", r"\bGCU\b", r"\bLopes\b"]},
+        "hawaii": {"query": "Hawaii Rainbow Warriors", "match": [r"\bHawai.?i\b", r"\bRainbow Warriors\b"]},
+        "nevada": {"query": "Nevada Wolf Pack", "match": [r"\bWolf Pack\b", r"\bNevada\b"]},
+        "new-mexico": {"query": "New Mexico Lobos", "match": [r"\bLobos\b", r"\bUNM\b"]},
+        "san-jose-state": {"query": "San Jose State Spartans", "match": [r"\bSan Jos[eé] St(ate|\.)?\b", r"\bSJSU\b"]},
+        "uc-davis": {"query": "UC Davis Aggies", "match": [r"\bUC Davis\b"]},
+        "unlv": {"query": "UNLV Runnin' Rebels", "match": [r"\bUNLV\b", r"\bRunnin.? Rebels\b"]},
+        "utep": {"query": "UTEP Miners", "match": [r"\bUTEP\b", r"\bMiners\b"]},
+        "wyoming": {"query": "Wyoming Cowboys basketball", "match": [r"\bWyoming\b", r"\bPokes\b"]},
+    },
+    tournament="the Mountain West tournament in Las Vegas",
+)
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW)}
 
 
 def current() -> League:

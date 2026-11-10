@@ -45,3 +45,11 @@ def test_notes_stay_in_their_own_edition(tmp_path, monkeypatch):
     monkeypatch.setattr(notes, "LEAGUE", leagues.ASUN)
     got = notes.load()
     assert [n["title"] for n in got] == ["Eagles"] and got[0]["author"] == "Craig"
+
+
+def test_mountain_west_names():
+    lg = leagues.MW
+    assert lg.path == "mw/" and len(lg.teams) == 10
+    assert lg.team_for_odds_name("Hawaii Rainbow Warriors") == "hawaii"
+    assert lg.team_for_odds_name("San Jose St Spartans") == "san-jose-state"
+    assert lg.team_for_odds_name("Grand Canyon Antelopes") == "grand-canyon"

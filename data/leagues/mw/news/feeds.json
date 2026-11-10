@@ -1,0 +1,92 @@
+{
+ "google:air-force": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "air-force",
+  "url": "https://news.google.com/rss/search?q=%22Air+Force+Falcons+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:grand-canyon": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "grand-canyon",
+  "url": "https://news.google.com/rss/search?q=%22Grand+Canyon+Lopes%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:hawaii": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "hawaii",
+  "url": "https://news.google.com/rss/search?q=%22Hawaii+Rainbow+Warriors%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:nevada": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "nevada",
+  "url": "https://news.google.com/rss/search?q=%22Nevada+Wolf+Pack%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:new-mexico": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "new-mexico",
+  "url": "https://news.google.com/rss/search?q=%22New+Mexico+Lobos%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:san-jose-state": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "san-jose-state",
+  "url": "https://news.google.com/rss/search?q=%22San+Jose+State+Spartans%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:uc-davis": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "uc-davis",
+  "url": "https://news.google.com/rss/search?q=%22UC+Davis+Aggies%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:unlv": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "unlv",
+  "url": "https://news.google.com/rss/search?q=%22UNLV+Runnin%27+Rebels%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:utep": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "utep",
+  "url": "https://news.google.com/rss/search?q=%22UTEP+Miners%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:wyoming": {
+  "checked_at": "2026-11-10T01:01:52+00:00",
+  "error": "EmptyFeed: ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "wyoming",
+  "url": "https://news.google.com/rss/search?q=%22Wyoming+Cowboys+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ }
+}
