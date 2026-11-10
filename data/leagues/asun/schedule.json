@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T12:01:15+00:00",
+ "fetched_at": "2026-11-10T23:01:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -1131,7 +1131,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Event Center",
    "venue_city": "Huntsville",
    "venue_state": "AL",
@@ -1165,7 +1171,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Event Center",
    "venue_city": "Huntsville",
    "venue_state": "AL",
@@ -1839,7 +1851,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Event Center",
    "venue_city": "Huntsville",
    "venue_state": "AL",

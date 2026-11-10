@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T12:00:27+00:00",
+ "fetched_at": "2026-11-10T23:00:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -2089,6 +2089,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "YES",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "venue": "Reilly Center",
@@ -2666,7 +2671,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Ocean Center",
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
@@ -2700,7 +2711,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Hard Rock Hotel Riviera Maya",
    "venue_city": "Cancun",
    "venue_state": "Mexico",
