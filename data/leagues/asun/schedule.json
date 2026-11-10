@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T01:10:36+00:00",
+ "fetched_at": "2026-11-10T12:01:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -1084,14 +1084,20 @@
   },
   {
    "game_id": "401922239",
-   "date": "2026-11-12T05:00Z",
+   "date": "2026-11-13T00:00Z",
    "name": "Stetson Hatters at Howard Bison",
    "short_name": "STET @ HOW",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [],
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "venue": "Burr Gymnasium",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -7488,6 +7494,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-10T02:15:30+00:00"
+ ]
 }
