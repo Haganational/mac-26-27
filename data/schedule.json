@@ -1061,7 +1061,7 @@
     "name": "Ball State Cardinals",
     "abbr": "BALL",
     "score": 89,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2855",
@@ -1069,12 +1069,12 @@
     "name": "Brescia Bearcats",
     "abbr": "BRES",
     "score": 64,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911010",
@@ -8778,5 +8778,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-10T02:00:26+00:00"
+ "live_at": "2026-11-10T02:15:19+00:00"
 }
