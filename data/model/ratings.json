@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-10T05:45:24+00:00",
-"mu": 105.59417957014688,
-"tau": 71.12861983115798,
-"hca": 2.759163880523932,
+"as_of": "2026-11-10T06:00:28+00:00",
+"mu": 105.59417794495354,
+"tau": 71.12861887841129,
+"hca": 2.759157956740933,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -88,7 +88,7 @@
 "abbr": "VAN",
 "games": 2,
 "adj_o": 115.5,
-"adj_d": 87.46,
+"adj_d": 87.47,
 "adj_em": 28.04,
 "adj_t": 70.71,
 "net_pts": 19.94,
@@ -520,7 +520,7 @@
 "rk_adj_o": 54,
 "rk_adj_d": 19,
 "rk_adj_t": 130,
-"rk_sos": 192
+"rk_sos": 193
 },
 {
 "id": "130",
@@ -557,7 +557,7 @@
 "raw_margin": 35.0,
 "raw_total": 149.0,
 "raw_poss": 72.37,
-"sos": -17.54,
+"sos": -17.53,
 "rk_adj_em": 26,
 "rk_adj_o": 43,
 "rk_adj_d": 23,
@@ -635,7 +635,7 @@
 "games": 2,
 "adj_o": 116.7,
 "adj_d": 98.09,
-"adj_em": 18.6,
+"adj_em": 18.61,
 "adj_t": 73.69,
 "net_pts": 13.23,
 "raw_margin": 5.5,
@@ -781,7 +781,7 @@
 "abbr": "NEV",
 "games": 2,
 "adj_o": 114.79,
-"adj_d": 97.23,
+"adj_d": 97.24,
 "adj_em": 17.56,
 "adj_t": 70.92,
 "net_pts": 12.49,
@@ -949,7 +949,7 @@
 "abbr": "XAV",
 "games": 2,
 "adj_o": 111.4,
-"adj_d": 96.25,
+"adj_d": 96.26,
 "adj_em": 15.14,
 "adj_t": 74.13,
 "net_pts": 10.77,
@@ -1116,7 +1116,7 @@
 "short": "Wright St",
 "abbr": "WRST",
 "games": 2,
-"adj_o": 120.45,
+"adj_o": 120.44,
 "adj_d": 106.56,
 "adj_em": 13.88,
 "adj_t": 70.73,
@@ -1817,7 +1817,7 @@
 "raw_margin": 33.0,
 "raw_total": 132.0,
 "raw_poss": 66.99,
-"sos": -25.29,
+"sos": -25.28,
 "rk_adj_em": 86,
 "rk_adj_o": 150,
 "rk_adj_d": 43,
@@ -1893,8 +1893,8 @@
 "short": "Davidson",
 "abbr": "DAV",
 "games": 2,
-"adj_o": 110.69,
-"adj_d": 101.85,
+"adj_o": 110.68,
+"adj_d": 101.86,
 "adj_em": 8.83,
 "adj_t": 68.04,
 "net_pts": 6.28,
@@ -2515,7 +2515,7 @@
 "rk_adj_o": 50,
 "rk_adj_d": 268,
 "rk_adj_t": 55,
-"rk_sos": 362
+"rk_sos": 364
 },
 {
 "id": "2649",
@@ -2695,7 +2695,7 @@
 "adj_d": 107.71,
 "adj_em": 3.21,
 "adj_t": 67.42,
-"net_pts": 2.29,
+"net_pts": 2.28,
 "raw_margin": 11.67,
 "raw_total": 144.33,
 "raw_poss": 67.51,
@@ -3124,7 +3124,7 @@
 "rk_adj_o": 145,
 "rk_adj_d": 188,
 "rk_adj_t": 96,
-"rk_sos": 364
+"rk_sos": 363
 },
 {
 "id": "300",
@@ -3238,7 +3238,7 @@
 "abbr": "UVU",
 "games": 2,
 "adj_o": 107.75,
-"adj_d": 107.08,
+"adj_d": 107.07,
 "adj_em": 0.67,
 "adj_t": 73.17,
 "net_pts": 0.48,
@@ -3500,7 +3500,7 @@
 "sos": -6.2,
 "rk_adj_em": 166,
 "rk_adj_o": 70,
-"rk_adj_d": 311,
+"rk_adj_d": 312,
 "rk_adj_t": 325,
 "rk_sos": 175
 },
@@ -3573,7 +3573,7 @@
 "short": "Chattanooga",
 "abbr": "UTC",
 "games": 2,
-"adj_o": 110.53,
+"adj_o": 110.52,
 "adj_d": 110.87,
 "adj_em": -0.35,
 "adj_t": 71.4,
@@ -4161,7 +4161,7 @@
 "short": "UT Rio Grande",
 "abbr": "RGV",
 "games": 2,
-"adj_o": 100.89,
+"adj_o": 100.9,
 "adj_d": 103.77,
 "adj_em": -2.87,
 "adj_t": 68.99,
@@ -4237,7 +4237,7 @@
 "rk_adj_o": 299,
 "rk_adj_d": 87,
 "rk_adj_t": 365,
-"rk_sos": 359
+"rk_sos": 360
 },
 {
 "id": "2239",
@@ -5182,7 +5182,7 @@
 "rk_adj_o": 171,
 "rk_adj_d": 306,
 "rk_adj_t": 92,
-"rk_sos": 361
+"rk_sos": 362
 },
 {
 "id": "2459",
@@ -5316,7 +5316,7 @@
 "short": "E Michigan",
 "abbr": "EMU",
 "games": 2,
-"adj_o": 97.86,
+"adj_o": 97.87,
 "adj_d": 104.4,
 "adj_em": -6.53,
 "adj_t": 69.12,
@@ -5392,7 +5392,7 @@
 "rk_adj_o": 277,
 "rk_adj_d": 206,
 "rk_adj_t": 199,
-"rk_sos": 360
+"rk_sos": 361
 },
 {
 "id": "2870",
@@ -5618,7 +5618,7 @@
 "raw_margin": 0.0,
 "raw_total": 162.0,
 "raw_poss": 73.81,
-"sos": -10.85,
+"sos": -10.86,
 "rk_adj_em": 267,
 "rk_adj_o": 223,
 "rk_adj_d": 289,
@@ -5655,7 +5655,7 @@
 "adj_o": 106.51,
 "adj_d": 114.32,
 "adj_em": -7.81,
-"adj_t": 70.99,
+"adj_t": 71.0,
 "net_pts": -5.55,
 "raw_margin": -17.5,
 "raw_total": 152.5,
@@ -5854,7 +5854,7 @@
 "rk_adj_o": 256,
 "rk_adj_d": 287,
 "rk_adj_t": 308,
-"rk_sos": 363
+"rk_sos": 359
 },
 {
 "id": "2627",
@@ -5864,7 +5864,7 @@
 "games": 2,
 "adj_o": 101.06,
 "adj_d": 109.83,
-"adj_em": -8.77,
+"adj_em": -8.76,
 "adj_t": 71.93,
 "net_pts": -6.23,
 "raw_margin": 10.0,
@@ -5896,7 +5896,7 @@
 "rk_adj_o": 163,
 "rk_adj_d": 344,
 "rk_adj_t": 120,
-"rk_sos": 193
+"rk_sos": 192
 },
 {
 "id": "85",
@@ -6248,7 +6248,7 @@
 "raw_margin": -24.0,
 "raw_total": 153.33,
 "raw_poss": 73.16,
-"sos": 10.93,
+"sos": 10.92,
 "rk_adj_em": 297,
 "rk_adj_o": 278,
 "rk_adj_d": 285,
@@ -6765,7 +6765,7 @@
 "short": "Manhattan",
 "abbr": "MAN",
 "games": 3,
-"adj_o": 97.61,
+"adj_o": 97.62,
 "adj_d": 111.51,
 "adj_em": -13.89,
 "adj_t": 70.2,
@@ -7252,7 +7252,7 @@
 "adj_d": 115.12,
 "adj_em": -16.86,
 "adj_t": 72.89,
-"net_pts": -12.0,
+"net_pts": -11.99,
 "raw_margin": -35.0,
 "raw_total": 154.0,
 "raw_poss": 73.01,
@@ -7377,7 +7377,7 @@
 "adj_o": 91.98,
 "adj_d": 110.73,
 "adj_em": -18.75,
-"adj_t": 70.46,
+"adj_t": 70.45,
 "net_pts": -13.33,
 "raw_margin": -20.67,
 "raw_total": 136.67,
@@ -7441,7 +7441,7 @@
 "adj_d": 119.12,
 "adj_em": -20.14,
 "adj_t": 70.75,
-"net_pts": -14.33,
+"net_pts": -14.32,
 "raw_margin": -36.5,
 "raw_total": 161.5,
 "raw_poss": 71.5,
@@ -7469,7 +7469,7 @@
 "sos": -5.19,
 "rk_adj_em": 355,
 "rk_adj_o": 360,
-"rk_adj_d": 312,
+"rk_adj_d": 311,
 "rk_adj_t": 313,
 "rk_sos": 158
 },
