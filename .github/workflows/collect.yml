@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "tick = the half-hourly snapshot (sent by heartbeat.yml); blank = full refresh"
+        description: "tick = the half-hourly snapshot; live = game-night live scores, ESPN only (both sent by heartbeat.yml); blank = full refresh"
         required: false
         default: ""
   # A new or edited Fieldhouse Notes dispatch republishes the site right away.
@@ -49,6 +49,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m mac.collect site
+          elif [ "${{ inputs.mode }}" = "live" ]; then
+            python -m mac.collect live
           elif { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
             python -m mac.collect quick
           else
@@ -66,8 +68,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m mac.collect site
-          elif { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
-            python -m mac.collect site
+          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
+            python -m mac.collect live
           else
             python -m mac.collect edition
           fi
@@ -83,8 +85,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m mac.collect site
-          elif { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; then
-            python -m mac.collect site
+          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
+            python -m mac.collect live
           else
             python -m mac.collect edition
           fi

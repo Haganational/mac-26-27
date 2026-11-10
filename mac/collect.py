@@ -13,6 +13,7 @@
   python -m mac.collect book       # print every conference's table summary (the site publishes them under book/)
   python -m mac.collect ratings    # print the MAC ratings table
   python -m mac.collect box-weights  # refit what each box-score stat is worth (last season)
+  python -m mac.collect live       # live scores for games in progress (ESPN only), new box scores, re-render
   python -m mac.collect all        # schedule + D-I results + lines + site (what the cron job runs)
   LEAGUE=asun python -m mac.collect edition   # another league's full refresh: schedule, rosters, news, site
   LEAGUE=asun python -m mac.collect lines-backfill  # one-time: that league's line history from the Almanac snapshots
@@ -47,6 +48,17 @@ def refresh_ncaa() -> dict:
     return out
 
 
+def refresh_live() -> None:
+    """In-progress scores from ESPN's scoreboard; box scores for games that just went final. Never fails the run."""
+    try:
+        out = espn.refresh_live()
+        print("live:", out)
+        if out["finished"]:
+            print("boxscores:", rosters.refresh_boxscores())
+    except Exception as exc:  # noqa: BLE001 - a scoreboard hiccup must not block the build
+        print(f"live: skipped ({exc})", file=sys.stderr)
+
+
 def main(argv: list[str]) -> int:
     cmd = argv[1] if len(argv) > 1 else "help"
     if cmd == "schedule":
@@ -59,11 +71,16 @@ def main(argv: list[str]) -> int:
     elif cmd == "lines":
         print(json.dumps(odds.snapshot_lines(), indent=1))
     elif cmd == "quick":
-        # Every-30-minute run: one odds snapshot (3 requests) and a re-render. No ESPN, news or ratings refresh.
+        # Every-30-minute run: one odds snapshot (3 requests), live scores and a re-render. No news or ratings refresh.
+        refresh_live()
         try:
             print(json.dumps(odds.snapshot_lines(), indent=1))
         except odds.OddsApiError as exc:
             print(f"lines: skipped ({exc})", file=sys.stderr)
+        print("site:", build.render_site())
+    elif cmd == "live":
+        # Every-15-minute game-night run: ESPN scores only (no Odds API credits), then a re-render.
+        refresh_live()
         print("site:", build.render_site())
     elif cmd == "build-db":
         print("sqlite:", db.build())

@@ -101,12 +101,19 @@ def feature_model(data: dict[str, Any], prate: dict[str, dict[str, Any]]) -> Non
     data["model_board"] = sorted(board, key=lambda g: -g["mv"]["max_gap"])
 
 
-def tonight_games(upcoming: list[dict[str, Any]], now: datetime, hours: int = 36) -> list[dict[str, Any]]:
-    """MAC games tipping in the next `hours` (or the next game day, if none fall inside it)."""
+def tonight_games(upcoming: list[dict[str, Any]], now: datetime, hours: int = 36,
+                  recent: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    """Games tipping in the next `hours` (or the next game day, if none fall inside it), games in
+    progress, and tonight's finals, so a game stays on the strip from tip to final score."""
     soon = [g for g in upcoming if g.get("tip") and datetime.fromisoformat(g["tip"]) - now <= timedelta(hours=hours)]
     if not soon and upcoming:
         first = upcoming[0]["et"]["day_key"]
         soon = [g for g in upcoming if g["et"]["day_key"] == first]
+    # Finals from the last 12 hours (tonight's slate, or last night's late games before morning).
+    finals = [schedule_view.decorate(dict(g)) for g in (recent or [])
+              if now - datetime.fromisoformat(g["date"].replace("Z", "+00:00")) <= timedelta(hours=12)]
+    if soon or finals:
+        return sorted(finals, key=lambda g: g["date"]) + soon
     return soon
 
 
@@ -345,11 +352,13 @@ def render_site() -> str:
         data["model_mac"] = {t["key"]: {k: t[k] for k in ("adj_o", "adj_d", "adj_em", "adj_t", "rk_adj_em", "sos", "net_pts")} for t in m["mac"]}
     prate = player_ranks((m.get("players") or {}).get("players") or []) if m else {}
     feature_model(data, prate)
-    data["tonight"] = tonight_games(data["upcoming"], now)
+    data["tonight"] = tonight_games(data["upcoming"], now, recent=data["recent"])
+    data["live_count"] = sum(1 for g in data["upcoming"] if g.get("live"))
     data["book_names"] = {b: oddsboard.book_name(b) for h in data["history"] for b in h["latest_by_book"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
     env.filters["school"] = school
+    env.globals["game_href"] = {}  # filled once box score and preview pages exist
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
                        LG=LEAGUE.short, LG_name=LEAGUE.name, LG_region=LEAGUE.region, LG_key=LEAGUE.key, LG_tourney=LEAGUE.tournament,

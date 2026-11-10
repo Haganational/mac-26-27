@@ -199,3 +199,8 @@
 {% macro lean_legend() -%}
 <div class="lean-legend"><span class="lean lean-over" style="--lp:70%"><span class="ln-k">Over</span></span><span class="lean lean-under" style="--lp:70%"><span class="ln-k">Under</span></span><span class="lean lean-fav" style="--lp:70%"><span class="ln-k">Favorite</span></span><span class="lean lean-dog" style="--lp:70%"><span class="ln-k">Underdog</span></span><span class="ll-ramp"><i style="--lp:18%"></i><i style="--lp:42%"></i><i style="--lp:66%"></i><i style="--lp:90%"></i></span><span class="dim">Deeper shade = bigger gap between the model and the market (full color at 6 pts). The number on each chip is that gap.</span></div>
 {%- endmacro %}
+{# In progress: a pulsing LIVE tag, the score and ESPN's clock ("8:42 - 2nd" reads as "8:42 2nd"). #}
+{% macro clock(g) -%}{{ (g.detail or '')|replace(' - ', ' ') }}{%- endmacro %}
+{% macro live_score(g, label=True) -%}
+<span class="livescore" title="In progress · updates every 15 minutes on game nights">{% if label %}<span class="livetag"><i aria-hidden="true"></i>Live</span> {% endif %}<b>{{ g.away.abbr }} {{ g.away.score if g.away.score is not none else 0 }}, {{ g.home.abbr }} {{ g.home.score if g.home.score is not none else 0 }}</b> <small>{{ clock(g) }}</small></span>
+{%- endmacro %}

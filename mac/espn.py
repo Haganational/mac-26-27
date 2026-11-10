@@ -3,8 +3,9 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -52,7 +53,9 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
     comp = event["competitions"][0]
     home = next(c for c in comp["competitors"] if c["homeAway"] == "home")
     away = next(c for c in comp["competitors"] if c["homeAway"] == "away")
-    status = comp.get("status", {}).get("type", {})
+    st = comp.get("status") or event.get("status") or {}
+    status = st.get("type", {})
+    state = status.get("state") or ""
     home_team = BY_ESPN_ID.get(home["team"]["id"])
     away_team = BY_ESPN_ID.get(away["team"]["id"])
     venue = comp.get("venue") or {}
@@ -74,7 +77,7 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
             "key": home_team.key if home_team else None,
             "name": home["team"].get("displayName"),
             "abbr": home["team"].get("abbreviation"),
-            "score": _int_or_none(home.get("score")),
+            "score": None if state == "pre" else _int_or_none(home.get("score")),
             "winner": home.get("winner"),
         },
         "away": {
@@ -82,11 +85,14 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
             "key": away_team.key if away_team else None,
             "name": away["team"].get("displayName"),
             "abbr": away["team"].get("abbreviation"),
-            "score": _int_or_none(away.get("score")),
+            "score": None if state == "pre" else _int_or_none(away.get("score")),
             "winner": away.get("winner"),
         },
         "status": status.get("name"),
         "completed": bool(status.get("completed")),
+        # In progress: ESPN's state "in" covers live play, halftime and breaks between periods.
+        "live": state == "in",
+        "detail": (status.get("shortDetail") or status.get("detail") or "") if state in ("in", "post") else "",
     }
 
 
@@ -106,6 +112,90 @@ def refresh_schedule() -> dict[str, Any]:
     }
     SCHEDULE_PATH.parent.mkdir(parents=True, exist_ok=True)
     SCHEDULE_PATH.write_text(json.dumps(out, indent=1))
+    return out
+
+
+ET = ZoneInfo("America/New_York")
+# A game is worth a live check from 20 minutes before tip until it is final (or 6 hours on).
+LIVE_BEFORE = timedelta(minutes=20)
+LIVE_AFTER = timedelta(hours=6)
+LIVE_FIELDS = ("status", "completed", "live", "detail")
+
+
+def _tip(g: dict[str, Any]) -> datetime:
+    return datetime.fromisoformat(g["date"].replace("Z", "+00:00"))
+
+
+def live_candidates(games: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
+    """Games that have tipped, or are about to, and are not final yet."""
+    return [g for g in games if not g.get("completed") and not g.get("time_tba")
+            and now - LIVE_AFTER <= _tip(g) <= now + LIVE_BEFORE]
+
+
+def fetch_scoreboard(day: str) -> list[dict[str, Any]]:
+    """Every Division I game on one date (YYYYMMDD), with live scores and clocks: one request."""
+    resp = requests.get(f"{ESPN_BASE}/scoreboard", params={"dates": day, "groups": "50", "limit": "500"}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return resp.json().get("events", [])
+
+
+def fetch_event(game_id: str) -> dict[str, Any] | None:
+    """One game's header from the summary feed, shaped like a scoreboard event (fallback only)."""
+    resp = requests.get(f"{ESPN_BASE}/summary", params={"event": game_id}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    header = resp.json().get("header") or {}
+    return {"id": header.get("id") or game_id, "date": header.get("competitions", [{}])[0].get("date"),
+            "competitions": header.get("competitions") or []} if header.get("competitions") else None
+
+
+def apply_live(game: dict[str, Any], fresh: dict[str, Any]) -> bool:
+    """Copy score, status and clock from a freshly parsed event onto our game. True if anything changed."""
+    before = json.dumps({k: game.get(k) for k in (*LIVE_FIELDS, "home", "away")}, sort_keys=True)
+    for k in LIVE_FIELDS:
+        game[k] = fresh.get(k)
+    for side in ("home", "away"):
+        game[side]["score"] = fresh[side]["score"]
+        game[side]["winner"] = fresh[side]["winner"]
+    return json.dumps({k: game.get(k) for k in (*LIVE_FIELDS, "home", "away")}, sort_keys=True) != before
+
+
+def refresh_live(now: datetime | None = None) -> dict[str, Any]:
+    """Score, clock and status for games in progress, from ESPN's scoreboard (one request per game day).
+
+    Costs nothing when no game is near tip: no request at all. Rewrites data/schedule.json only on change.
+    """
+    now = now or datetime.now(timezone.utc)
+    sched = load_schedule()
+    cands = live_candidates(sched["games"], now)
+    out = {"checked": len(cands), "live": 0, "finished": [], "changed": 0}
+    if not cands:
+        return out
+    events: dict[str, dict[str, Any]] = {}
+    for day in sorted({_tip(g).astimezone(ET).strftime("%Y%m%d") for g in cands}):
+        for ev in fetch_scoreboard(day):
+            events[str(ev.get("id"))] = ev
+    for g in cands:
+        ev = events.get(g["game_id"])
+        if ev is None:  # not on the D-I board (rare): ask for the game itself
+            try:
+                ev = fetch_event(g["game_id"])
+            except requests.RequestException as exc:
+                print(f"live {g['game_id']}: {exc}")
+                continue
+        if not ev or not ev.get("competitions"):
+            continue
+        try:
+            fresh = parse_event(ev)
+        except (KeyError, StopIteration):
+            continue
+        if apply_live(g, fresh):
+            out["changed"] += 1
+        out["live"] += bool(g.get("live"))
+        if g.get("completed"):
+            out["finished"].append(g["game_id"])
+    if out["changed"]:
+        sched["live_at"] = now.isoformat(timespec="seconds")
+        SCHEDULE_PATH.write_text(json.dumps(sched, indent=1))
     return out
 
 

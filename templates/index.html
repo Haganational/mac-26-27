@@ -29,11 +29,14 @@
     <div class="sechead"><h2>{{ 'Tonight & tomorrow' if d.tonight|map(attribute='et.day_key')|unique|list|length > 1 else 'Next up' }}</h2><span class="dim">{{ d.tonight[0].et.day_label }}{% if d.tonight[-1].et.day_label != d.tonight[0].et.day_label %} – {{ d.tonight[-1].et.day_label }}{% endif %}</span><a class="more" href="tv.html">Full schedule →</a></div>
     <div class="tonight">
       {% for g in d.tonight %}{% set ln = g.line.latest if g.line else none %}{% set mdl = g.model if g.model else none %}
-      {% set ck = g.home.key or g.away.key %}<div class="tn-game{{ ' tinted t-' ~ ck if ck }}">
-        <div class="tn-time"><b>{{ g.et.time if not g.et.tba else 'TBA' }}</b><small>{{ g.et.weekday }} · ET · {% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>
+      {% set ck = g.home.key or g.away.key %}{% set started = g.live or g.completed %}<div class="tn-game{{ ' tinted t-' ~ ck if ck }}{{ ' is-live' if g.live }}{{ ' is-final' if g.completed }}">
+        {% if g.live %}<div class="tn-time"><span class="livetag"><i aria-hidden="true"></i>Live</span><small class="tn-clock">{{ L.clock(g) }}</small><small>{% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>
+        {% elif g.completed %}<div class="tn-time"><span class="finaltag">{{ L.clock(g) or 'Final' }}</span><small>{{ g.et.weekday }} · {{ g.et.time }} ET</small></div>
+        {% else %}<div class="tn-time"><b>{{ g.et.time if not g.et.tba else 'TBA' }}</b><small>{{ g.et.weekday }} · ET · {% for n in g.watch.nets[:1] %}{{ n.name }}{% else %}TV TBA{% endfor %}</small></div>{% endif %}
         <div class="tn-match">
-          <a href="{{ ('games/' ~ g.game_id ~ '.html') if g.mv else ('tv.html#g' ~ g.game_id) }}"><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}</span>
-          <span class="tm-row">{{ tm(g.home) }} {{ 'vs' if g.neutral_site else '@' }} {{ (d.teams|selectattr('key','equalto',g.home.key)|first).short if g.home.key else g.home.name|school }}</span></a>
+          {% macro sc(side, other) %}{% if started %}<b class="tn-sc{{ ' lose' if g.completed and (side.score or 0) < (other.score or 0) }}">{{ side.score if side.score is not none else 0 }}</b>{% endif %}{% endmacro %}
+          <a href="{{ game_href.get(g.game_id) or (('games/' ~ g.game_id ~ '.html') if g.mv else ('tv.html#g' ~ g.game_id)) }}"{% if g.live %} title="In progress · scores refresh every 15 minutes on game nights"{% endif %}><span class="tm-row">{{ tm(g.away) }} {{ (d.teams|selectattr('key','equalto',g.away.key)|first).short if g.away.key else g.away.name|school }}{{ sc(g.away, g.home) }}</span>
+          <span class="tm-row">{{ tm(g.home) }} {{ 'vs' if g.neutral_site else '@' }} {{ (d.teams|selectattr('key','equalto',g.home.key)|first).short if g.home.key else g.home.name|school }}{{ sc(g.home, g.away) }}</span></a>
         </div>
         {% if ln and ln.spread is not none %}
         <div class="tn-stat"><b>{% if ln.spread < 0 %}{{ g.home.abbr }} {{ '%g'|format(ln.spread) }}{% elif ln.spread > 0 %}{{ g.away.abbr }} {{ '%g'|format(-ln.spread) }}{% else %}PK{% endif %}</b><small>spread · {{ ln.books }} books</small></div>
@@ -55,7 +58,7 @@
     <div class="mboard">
       {% for g in d.model_board[:9] %}{% set mv = g.mv %}
       <a class="mb-card" href="games/{{ g.game_id }}.html">
-        <span class="mb-top"><span><b>{{ g.away.abbr }} {{ 'vs' if g.neutral_site else '@' }} {{ g.home.abbr }}</b> <small>{{ g.et.weekday }} {{ g.et.time if not g.et.tba else 'TBA' }}</small></span><small>model {{ g.away.abbr }} {{ mv.away_pts }}, {{ g.home.abbr }} {{ mv.home_pts }}</small></span>
+        <span class="mb-top"><span><b>{{ g.away.abbr }} {{ 'vs' if g.neutral_site else '@' }} {{ g.home.abbr }}</b> <small>{{ g.et.weekday }} {{ g.et.time if not g.et.tba else 'TBA' }}</small></span><small>model {{ g.away.abbr }} {{ mv.away_pts }}, {{ g.home.abbr }} {{ mv.home_pts }}</small></span>{% if g.live %}<span class="mb-live">{{ L.live_score(g) }}</span>{% endif %}
         {{ L.winbar(mv, g.away, g.home) }}
         <span class="mb-leans">{{ L.lean_chip(mv.side) }}{{ L.lean_chip(mv.ou) }}</span>
       </a>

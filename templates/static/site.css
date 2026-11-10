@@ -946,3 +946,23 @@ html.author .tb-list a.tb-desk { display: block !important; border-top: 1px soli
 .k-arena { --fh: #b5482a; } .k-paper { --fh: #2f5f96; } .k-tv { --fh: #a86f00; } .k-phone { --fh: #2c7a4b; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .k-arena { --fh: #e07a55; } :root:not([data-theme="light"]) .k-paper { --fh: #7fb2ea; } :root:not([data-theme="light"]) .k-tv { --fh: #e8b84a; } :root:not([data-theme="light"]) .k-phone { --fh: #6cc790; } }
 :root[data-theme="dark"] .k-arena { --fh: #e07a55; } :root[data-theme="dark"] .k-paper { --fh: #7fb2ea; } :root[data-theme="dark"] .k-tv { --fh: #e8b84a; } :root[data-theme="dark"] .k-phone { --fh: #6cc790; }
+
+/* Games in progress: LIVE tag, score and clock, refreshed every 15 minutes on game nights. */
+.livetag { display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px; border-radius: 999px; background: var(--bad); color: #fff; font-size: 10.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; vertical-align: 1px; }
+.livetag i { width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: livepulse 1.4s ease-in-out infinite; }
+@keyframes livepulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { .livetag i { animation: none; } }
+.livescore { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.livescore small { color: var(--bad); font-weight: 700; }
+.finaltag { display: inline-block; padding: 1px 7px; border-radius: 999px; background: var(--neutral); color: var(--ink-2); font-size: 10.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.tn-time .livetag { margin-bottom: 3px; }
+.tn-time small.tn-clock { color: var(--bad); font-weight: 700; }
+.tm-row .tn-sc { margin-left: auto; padding-left: 8px; font-size: 16px; font-variant-numeric: tabular-nums; }
+.tm-row .tn-sc.lose { color: var(--muted); font-weight: 600; }
+.tn-game.is-live { box-shadow: inset 3px 0 0 var(--bad); }
+.tn-game.is-final .tn-none { display: none; }
+tr.is-live { background: color-mix(in srgb, var(--bad) 6%, transparent); }
+.scorehead .big.live { color: var(--bad); }
+.mb-live { display: block; margin-top: 4px; }
+.tn-game .tm-row:has(.tn-sc) { white-space: normal; overflow: visible; }
+.tm-row .tn-sc { flex: none; }
