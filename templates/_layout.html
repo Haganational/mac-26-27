@@ -169,7 +169,7 @@
 {#- The model, color-coded. Over = ember, under = blue, favorite = violet, underdog = teal;
     the deeper the shade, the bigger the gap between the model and the market. -#}
 {% macro lean_chip(x, prefix="Lean ") -%}
-{% if x %}<span class="lean lean-{{ x.kind }}{{ ' deep' if x.pct >= 60 }}" style="--lp:{{ x.pct }}%" title="{{ x.label }} lean: model is {{ '%.1f'|format(x.gap) }} pts off the market ({{ x.tier }})">{% if x.kind in ('fav', 'dog') %}<span class="ln-k">{{ x.label }}</span>{% endif %}<b>{{ x.take }}</b><span class="ln-g">{{ '%.1f'|format(x.gap) }}</span></span>{% endif %}
+{% if x %}<span class="lean lean-{{ x.kind }}{{ ' deep' if x.pct >= 60 }}" style="--lp:{{ x.pct }}%;--lf:{{ [[(x.gap / 6.0 * 100)|round|int, 8]|max, 100]|min }}%" title="{{ x.label }} lean: model is {{ '%.1f'|format(x.gap) }} pts off the market ({{ x.tier }})">{% if x.kind in ('fav', 'dog') %}<span class="ln-k">{{ x.label }}</span>{% endif %}<b>{{ x.take }}</b><span class="ln-g">{{ '%.1f'|format(x.gap) }}</span></span>{% endif %}
 {%- endmacro %}
 
 {% macro winbar(mv, away, home) -%}
@@ -197,7 +197,7 @@
 {%- endmacro %}
 
 {% macro lean_legend() -%}
-<div class="lean-legend"><span class="lean lean-over" style="--lp:70%"><span class="ln-k">Over</span></span><span class="lean lean-under" style="--lp:70%"><span class="ln-k">Under</span></span><span class="lean lean-fav" style="--lp:70%"><span class="ln-k">Favorite</span></span><span class="lean lean-dog" style="--lp:70%"><span class="ln-k">Underdog</span></span><span class="ll-ramp"><i style="--lp:18%"></i><i style="--lp:42%"></i><i style="--lp:66%"></i><i style="--lp:90%"></i></span><span class="dim">Deeper shade = bigger gap between the model and the market (full color at 6 pts). The number on each chip is that gap.</span></div>
+<div class="lean-legend"><span class="lean lean-over" style="--lp:70%;--lf:75%"><span class="ln-k">Over</span></span><span class="lean lean-under" style="--lp:70%;--lf:40%"><span class="ln-k">Under</span></span><span class="lean lean-fav" style="--lp:70%;--lf:100%"><span class="ln-k">Favorite</span></span><span class="lean lean-dog" style="--lp:70%;--lf:20%"><span class="ln-k">Underdog</span></span><span class="ll-ramp"><i style="--lp:18%"></i><i style="--lp:42%"></i><i style="--lp:66%"></i><i style="--lp:90%"></i></span><span class="dim">The colored fill is the gap between the model and the market: a full chip means 6 points or more. The number on each chip is that gap.</span></div>
 {%- endmacro %}
 {# In progress: a pulsing LIVE tag, the score and ESPN's clock ("8:42 - 2nd" reads as "8:42 2nd"). #}
 {% macro clock(g) -%}{{ (g.detail or '')|replace(' - ', ' ') }}{%- endmacro %}
