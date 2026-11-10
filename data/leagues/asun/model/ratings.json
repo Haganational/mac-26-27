@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-10T04:15:30+00:00",
-"mu": 105.59418926378312,
-"tau": 71.12862551637565,
-"hca": 2.7591992167987125,
+"as_of": "2026-11-10T04:30:42+00:00",
+"mu": 105.59418762524541,
+"tau": 71.12862455509509,
+"hca": 2.759193243440063,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -466,7 +466,7 @@
 "abbr": "TA&M",
 "games": 2,
 "adj_o": 113.95,
-"adj_d": 93.87,
+"adj_d": 93.88,
 "adj_em": 20.08,
 "adj_t": 75.3,
 "net_pts": 14.28,
@@ -718,7 +718,7 @@
 "abbr": "AUB",
 "games": 1,
 "adj_o": 116.95,
-"adj_d": 99.05,
+"adj_d": 99.06,
 "adj_em": 17.9,
 "adj_t": 71.8,
 "net_pts": 12.73,
@@ -928,7 +928,7 @@
 "abbr": "SYR",
 "games": 2,
 "adj_o": 115.47,
-"adj_d": 100.17,
+"adj_d": 100.18,
 "adj_em": 15.3,
 "adj_t": 70.22,
 "net_pts": 10.88,
@@ -1002,7 +1002,7 @@
 "rk_adj_em": 47,
 "rk_adj_o": 29,
 "rk_adj_d": 87,
-"rk_adj_t": 244,
+"rk_adj_t": 245,
 "rk_sos": 251
 },
 {
@@ -1057,7 +1057,7 @@
 "adj_d": 102.19,
 "adj_em": 14.61,
 "adj_t": 70.48,
-"net_pts": 10.4,
+"net_pts": 10.39,
 "raw_margin": 7.67,
 "raw_total": 163.0,
 "raw_poss": 72.3,
@@ -1096,7 +1096,7 @@
 "abbr": "URI",
 "games": 2,
 "adj_o": 112.14,
-"adj_d": 98.15,
+"adj_d": 98.16,
 "adj_em": 13.98,
 "adj_t": 70.83,
 "net_pts": 9.95,
@@ -1582,7 +1582,7 @@
 "adj_d": 102.78,
 "adj_em": 10.14,
 "adj_t": 69.69,
-"net_pts": 7.22,
+"net_pts": 7.21,
 "raw_margin": 14.5,
 "raw_total": 142.5,
 "raw_poss": 66.93,
@@ -1810,7 +1810,7 @@
 "abbr": "PAC",
 "games": 2,
 "adj_o": 106.83,
-"adj_d": 97.9,
+"adj_d": 97.91,
 "adj_em": 8.93,
 "adj_t": 67.99,
 "net_pts": 6.35,
@@ -1918,7 +1918,7 @@
 "adj_d": 96.38,
 "adj_em": 8.77,
 "adj_t": 71.03,
-"net_pts": 6.24,
+"net_pts": 6.23,
 "raw_margin": 9.0,
 "raw_total": 143.0,
 "raw_poss": 71.04,
@@ -1990,7 +1990,7 @@
 "rk_adj_o": 112,
 "rk_adj_d": 71,
 "rk_adj_t": 269,
-"rk_sos": 363
+"rk_sos": 364
 },
 {
 "id": "82",
@@ -2022,7 +2022,7 @@
 "adj_o": 115.55,
 "adj_d": 107.18,
 "adj_em": 8.37,
-"adj_t": 70.26,
+"adj_t": 70.27,
 "net_pts": 5.95,
 "raw_margin": 31.0,
 "raw_total": 167.67,
@@ -2242,7 +2242,7 @@
 "rk_adj_o": 139,
 "rk_adj_d": 83,
 "rk_adj_t": 111,
-"rk_sos": 70
+"rk_sos": 71
 },
 {
 "id": "2057",
@@ -2515,7 +2515,7 @@
 "rk_adj_o": 50,
 "rk_adj_d": 268,
 "rk_adj_t": 55,
-"rk_sos": 365
+"rk_sos": 363
 },
 {
 "id": "2649",
@@ -2653,7 +2653,7 @@
 "adj_d": 106.41,
 "adj_em": 3.55,
 "adj_t": 69.23,
-"net_pts": 2.53,
+"net_pts": 2.52,
 "raw_margin": 11.0,
 "raw_total": 147.0,
 "raw_poss": 66.85,
@@ -3124,7 +3124,7 @@
 "rk_adj_o": 145,
 "rk_adj_d": 188,
 "rk_adj_t": 96,
-"rk_sos": 362
+"rk_sos": 359
 },
 {
 "id": "300",
@@ -3241,7 +3241,7 @@
 "adj_d": 107.08,
 "adj_em": 0.67,
 "adj_t": 73.17,
-"net_pts": 0.47,
+"net_pts": 0.48,
 "raw_margin": 14.5,
 "raw_total": 170.5,
 "raw_poss": 80.98,
@@ -3333,7 +3333,7 @@
 "rk_adj_em": 158,
 "rk_adj_o": 239,
 "rk_adj_d": 111,
-"rk_adj_t": 245,
+"rk_adj_t": 244,
 "rk_sos": 113
 },
 {
@@ -3346,7 +3346,7 @@
 "adj_d": 110.07,
 "adj_em": 0.41,
 "adj_t": 73.41,
-"net_pts": 0.29,
+"net_pts": 0.3,
 "raw_margin": 22.5,
 "raw_total": 161.5,
 "raw_poss": 72.61,
@@ -4204,7 +4204,7 @@
 "abbr": "UAB",
 "games": 2,
 "adj_o": 104.37,
-"adj_d": 107.38,
+"adj_d": 107.37,
 "adj_em": -3.01,
 "adj_t": 72.26,
 "net_pts": -2.14,
@@ -4237,7 +4237,7 @@
 "rk_adj_o": 299,
 "rk_adj_d": 88,
 "rk_adj_t": 365,
-"rk_sos": 359
+"rk_sos": 360
 },
 {
 "id": "2239",
@@ -4318,7 +4318,7 @@
 "raw_poss": 77.59,
 "sos": -25.85,
 "rk_adj_em": 205,
-"rk_adj_o": 291,
+"rk_adj_o": 290,
 "rk_adj_d": 122,
 "rk_adj_t": 102,
 "rk_sos": 319
@@ -4750,7 +4750,7 @@
 "abbr": "TNTC",
 "games": 3,
 "adj_o": 109.46,
-"adj_d": 114.29,
+"adj_d": 114.28,
 "adj_em": -4.82,
 "adj_t": 75.22,
 "net_pts": -3.43,
@@ -5014,7 +5014,7 @@
 "rk_adj_o": 269,
 "rk_adj_d": 191,
 "rk_adj_t": 5,
-"rk_sos": 71
+"rk_sos": 70
 },
 {
 "id": "159",
@@ -5182,7 +5182,7 @@
 "rk_adj_o": 171,
 "rk_adj_d": 306,
 "rk_adj_t": 92,
-"rk_sos": 361
+"rk_sos": 362
 },
 {
 "id": "2459",
@@ -5353,27 +5353,6 @@
 "rk_sos": 31
 },
 {
-"id": "2010",
-"name": "Alabama A&M Bulldogs",
-"short": "Alabama A&M",
-"abbr": "AAMU",
-"games": 2,
-"adj_o": 100.16,
-"adj_d": 106.8,
-"adj_em": -6.64,
-"adj_t": 70.87,
-"net_pts": -4.73,
-"raw_margin": 44.5,
-"raw_total": 148.5,
-"raw_poss": 79.48,
-"sos": -49.47,
-"rk_adj_em": 255,
-"rk_adj_o": 277,
-"rk_adj_d": 206,
-"rk_adj_t": 199,
-"rk_sos": 360
-},
-{
 "id": "2511",
 "name": "Queens University Royals",
 "short": "Queens",
@@ -5388,11 +5367,32 @@
 "raw_total": 192.67,
 "raw_poss": 78.2,
 "sos": 2.3,
-"rk_adj_em": 256,
+"rk_adj_em": 255,
 "rk_adj_o": 61,
 "rk_adj_d": 363,
 "rk_adj_t": 30,
 "rk_sos": 88
+},
+{
+"id": "2010",
+"name": "Alabama A&M Bulldogs",
+"short": "Alabama A&M",
+"abbr": "AAMU",
+"games": 2,
+"adj_o": 100.16,
+"adj_d": 106.8,
+"adj_em": -6.64,
+"adj_t": 70.87,
+"net_pts": -4.73,
+"raw_margin": 44.5,
+"raw_total": 148.5,
+"raw_poss": 79.48,
+"sos": -49.47,
+"rk_adj_em": 256,
+"rk_adj_o": 277,
+"rk_adj_d": 206,
+"rk_adj_t": 199,
+"rk_sos": 361
 },
 {
 "id": "2870",
@@ -5506,7 +5506,7 @@
 "abbr": "TEM",
 "games": 2,
 "adj_o": 96.64,
-"adj_d": 103.57,
+"adj_d": 103.58,
 "adj_em": -6.94,
 "adj_t": 69.36,
 "net_pts": -4.93,
@@ -5593,7 +5593,7 @@
 "adj_d": 104.45,
 "adj_em": -7.5,
 "adj_t": 69.55,
-"net_pts": -5.34,
+"net_pts": -5.33,
 "raw_margin": 3.33,
 "raw_total": 134.67,
 "raw_poss": 69.95,
@@ -5854,7 +5854,7 @@
 "rk_adj_o": 256,
 "rk_adj_d": 287,
 "rk_adj_t": 308,
-"rk_sos": 364
+"rk_sos": 365
 },
 {
 "id": "2627",
@@ -6304,7 +6304,7 @@
 "abbr": "FRES",
 "games": 2,
 "adj_o": 100.33,
-"adj_d": 111.43,
+"adj_d": 111.42,
 "adj_em": -11.09,
 "adj_t": 70.88,
 "net_pts": -7.89,
@@ -6388,7 +6388,7 @@
 "abbr": "CCU",
 "games": 2,
 "adj_o": 99.5,
-"adj_d": 111.22,
+"adj_d": 111.21,
 "adj_em": -11.71,
 "adj_t": 72.09,
 "net_pts": -8.33,
@@ -6460,7 +6460,7 @@
 "raw_poss": 72.46,
 "sos": 3.14,
 "rk_adj_em": 307,
-"rk_adj_o": 290,
+"rk_adj_o": 291,
 "rk_adj_d": 307,
 "rk_adj_t": 133,
 "rk_sos": 80
@@ -6514,8 +6514,8 @@
 "abbr": "WGA",
 "games": 2,
 "adj_o": 93.6,
-"adj_d": 106.24,
-"adj_em": -12.65,
+"adj_d": 106.25,
+"adj_em": -12.64,
 "adj_t": 72.41,
 "net_pts": -8.99,
 "raw_margin": -20.0,
@@ -7378,7 +7378,7 @@
 "adj_d": 110.73,
 "adj_em": -18.75,
 "adj_t": 70.46,
-"net_pts": -13.34,
+"net_pts": -13.33,
 "raw_margin": -20.67,
 "raw_total": 136.67,
 "raw_poss": 71.85,
@@ -7605,7 +7605,7 @@
 "short": "Florida A&M",
 "abbr": "FAMU",
 "games": 2,
-"adj_o": 92.32,
+"adj_o": 92.33,
 "adj_d": 116.13,
 "adj_em": -23.81,
 "adj_t": 72.06,
@@ -7627,7 +7627,7 @@
 "abbr": "RID",
 "games": 3,
 "adj_o": 92.53,
-"adj_d": 116.98,
+"adj_d": 116.97,
 "adj_em": -24.44,
 "adj_t": 69.74,
 "net_pts": -17.39,
