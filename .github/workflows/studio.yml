@@ -1,43 +1,62 @@
-name: Studio voice prep
+name: Studio voices
 
-# One-off: transcribe and speaker-split an encrypted episode so a character's voice can be
-# cut from it. Audio and transcript stay encrypted with VOICE_KEY (the repo is public).
+# One-off studio work on claude/ branches. Voices studio/*.dialogue.json (Matthew and Pastor
+# Bumrod cloned with Chatterbox from encrypted references, Cynthia on a plain Piper voice) and
+# commits the lines back encrypted with VOICE_KEY, since drafts aren't public until Matthew approves.
 on:
   push:
     branches: ["claude/**"]
-    paths: ["studio/*.enc", "tools/diarize.py", ".github/workflows/studio.yml"]
+    paths: ["studio/*.dialogue.json", "tools/dialogue_voice.py", ".github/workflows/studio.yml"]
 
 permissions:
   contents: write
 
 jobs:
-  diarize:
+  voice:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Decrypt
+      - name: References
         env:
           VOICE_KEY: ${{ secrets.VOICE_KEY }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
           export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
-          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in studio/ep55.mp3.enc -out /tmp/ep.mp3
-          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/ref.ogg
-          ffmpeg -loglevel error -y -i /tmp/ref.ogg -ac 1 -ar 16000 /tmp/ref.wav
-      - name: Transcribe and split speakers
+          for s in matthew bumrod; do
+            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/$s.ogg.enc -out /tmp/$s.ogg
+            ffmpeg -loglevel error -y -i /tmp/$s.ogg -ac 1 -ar 24000 /tmp/ref-$s.wav && rm /tmp/$s.ogg
+          done
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: chatterbox-turbo-v1
+      - name: Install voices
         run: |
-          pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" faster-whisper resemblyzer scikit-learn librosa "setuptools<81"
-          python tools/diarize.py /tmp/ep.mp3 /tmp/ep55.json --ref /tmp/ref.wav --speakers 3
-      - name: Commit back (encrypted)
+          pip install -q piper-tts
+          mkdir -p voices
+          for v in en_US-amy-medium; do
+            base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/${v#en_US-}; base=${base%-medium}/medium
+            curl -sSfL -o voices/$v.onnx $base/$v.onnx; curl -sSfL -o voices/$v.onnx.json $base/$v.onnx.json
+          done
+          python -m venv /tmp/cbenv
+          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts "setuptools<81"
+      - name: Voice and commit back (encrypted)
         env:
           VOICE_KEY: ${{ secrets.VOICE_KEY }}
+          CLONE_PY: /tmp/cbenv/bin/python
         run: |
           export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
-          openssl enc -aes-256-cbc -pbkdf2 -salt -pass env:VOICE_KEY -in /tmp/ep55.json -out studio/ep55.json.enc
+          for f in studio/*.dialogue.json; do
+            name=$(basename $f .dialogue.json)
+            python tools/dialogue_voice.py $f /tmp/out/$name
+            tar -C /tmp/out -czf /tmp/$name.tgz $name
+            openssl enc -aes-256-cbc -pbkdf2 -salt -pass env:VOICE_KEY -in /tmp/$name.tgz -out studio/$name.voices.tgz.enc
+          done
+          rm -f /tmp/ref-*.wav
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add studio/ep55.json.enc
-          git commit -m "Studio: encrypted ep55 transcript [skip ci]" && git push
+          git add studio/*.voices.tgz.enc
+          git commit -m "Studio: encrypted dialogue voices [skip ci]" && git push
