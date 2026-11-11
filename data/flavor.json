@@ -1,0 +1,27 @@
+{
+  "_help": "Local flavor for the gamer on each box score page. Knobs are described in mac/gamer.py (FLAVOR_HELP). Only write what you know is true; lines may use {winner} {loser} {home} {away} {town} {floor}.",
+  "settings": {
+    "enabled": true,
+    "byline": "Hardwood Bricks staff",
+    "max_lines": 1
+  },
+  "teams": {
+    "akron": {"town": "Akron", "home_floor": "the JAR", "lines": [], "home_lines": ["Another night at the JAR, James A. Rhodes Arena, in the Rubber City."]},
+    "kent-state": {"town": "Kent", "home_floor": "the M.A.C. Center", "lines": []},
+    "toledo": {"town": "Toledo", "home_floor": "Savage Arena", "lines": [], "home_lines": ["Savage Arena, in the Glass City, hosted this one."]},
+    "bowling-green": {"town": "Bowling Green", "home_floor": "the Stroh Center", "lines": []},
+    "ohio": {"town": "Athens", "home_floor": "the Convo", "lines": []},
+    "miami-oh": {"town": "Oxford", "home_floor": "Millett Hall", "lines": []},
+    "ball-state": {"town": "Muncie", "home_floor": "Worthen Arena", "lines": []},
+    "buffalo": {"town": "Buffalo", "home_floor": "Alumni Arena", "lines": []},
+    "central-michigan": {"town": "Mount Pleasant", "home_floor": "McGuirk Arena", "lines": []},
+    "eastern-michigan": {"town": "Ypsilanti", "home_floor": "the George Gervin GameAbove Center", "lines": []},
+    "western-michigan": {"town": "Kalamazoo", "home_floor": "University Arena", "lines": []},
+    "umass": {"town": "Amherst", "home_floor": "the Mullins Center", "lines": []}
+  },
+  "rivalries": {
+    "akron|kent-state": {"name": "Akron-Kent State", "lines": ["The two campuses sit about a dozen miles apart in Northeast Ohio."]},
+    "bowling-green|toledo": {"name": "I-75", "lines": ["Bowling Green and Toledo sit about 25 minutes apart on I-75."]},
+    "miami-oh|ohio": {"name": "Miami-Ohio", "lines": ["Ohio's two oldest public universities, the bricks of Oxford against the bricks of Athens."]}
+  }
+}

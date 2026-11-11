@@ -1005,3 +1005,9 @@ span.lean.deep { color: var(--ink); } span.lean.deep .ln-g, span.lean .ln-g { ba
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) span.lean.deep { color: var(--ink); } :root:not([data-theme="light"]) span.lean.deep .ln-g { background: color-mix(in srgb, var(--surface) 70%, transparent); color: var(--ink); } }
 :root[data-theme="dark"] span.lean.deep { color: var(--ink); } :root[data-theme="dark"] span.lean.deep .ln-g { background: color-mix(in srgb, var(--surface) 70%, transparent); color: var(--ink); }
 .ll-ramp { display: none; }
+
+/* The gamer: the written recap at the top of each box score page */
+.gamer { margin: 4px 0 22px; max-width: 72ch; }
+.gamer h1 { font-size: 26px; line-height: 1.2; margin: 0 0 4px; }
+.gamer p { margin: 10px 0 0; line-height: 1.55; }
+.gamer .flavor { font-style: italic; color: var(--ink-2); }
