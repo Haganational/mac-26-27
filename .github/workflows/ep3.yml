@@ -5,7 +5,7 @@ name: Episode three assets
 on:
   push:
     branches: ["claude/**"]
-    paths: ["ep3/photos.json", "ep3/audio.json", ".github/workflows/ep3.yml"]
+    paths: ["ep3/photos.json", "ep3/audio.json", "tools/commons_audio_fetch.py", ".github/workflows/ep3.yml"]
 
 permissions:
   contents: write
@@ -19,8 +19,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/commons_fetch.py ep3/photos.json ep3/photos
-      - run: python tools/commons_audio_fetch.py ep3/audio.json ep3/audio
-      - run: |
+      - run: sleep 60 && python tools/commons_audio_fetch.py ep3/audio.json ep3/audio
+        continue-on-error: true
+      - if: always()
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ep3

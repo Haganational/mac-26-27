@@ -2,7 +2,7 @@
 
     python tools/commons_audio_fetch.py ep3/audio.json ep3/audio/
 """
-import json, re, sys, urllib.parse, urllib.request
+import json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
 API = "https://commons.wikimedia.org/w/api.php"
@@ -11,7 +11,13 @@ FREE = re.compile(r"^(CC0|CC BY(-SA)? ?[0-9.]*|Public domain|PD.*)$", re.I)
 
 
 def get(url):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read()
+    for wait in (3, 20, 60, 120):
+        time.sleep(wait)
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read()
+        except Exception as e:  # rate limits: back off and retry
+            print("retry", e)
+    raise RuntimeError("gave up on " + url)
 
 
 def strip(h):
@@ -37,12 +43,15 @@ for key, qs in queries.items():
             seen.add(p["title"]); n += 1
             ext = ii["url"].rsplit(".", 1)[-1].lower()
             name = f"{key}-{n}.{ext}"
-            (out / name).write_bytes(get(ii["url"]))
+            try:
+                (out / name).write_bytes(get(ii["url"]))
+            except RuntimeError as e:
+                print(e); n -= 1; continue
             credits.append({"file": name, "title": p["title"], "author": strip(m.get("Artist", {}).get("value", "")),
                             "license": lic, "url": ii.get("descriptionurl"), "query": q})
             print(name, p["title"], lic)
-            if n >= 5:
+            if n >= 3:
                 break
-        if n >= 5:
+        if n >= 3:
             break
 (out / "credits.json").write_text(json.dumps(credits, indent=1))
