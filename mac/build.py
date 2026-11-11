@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import hub, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import hub, nba_alumni, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -398,6 +398,7 @@ def render_site() -> str:
     have_box = set()
     said = {str(x["id"]): x for x in (m or {}).get("season_to_date", [])}
     flavor = gamer.load_flavor()
+    nba = (nba_alumni.load_nights(), nba_alumni.load_colleges())
     published = gamer.load_published()
     built_at = datetime.fromisoformat(data["generated_at"])
     modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -411,7 +412,7 @@ def render_site() -> str:
         snap = history.get(mapping.get(gid, ""))
         mp = model_view.past_view(said.get(gid))
         gc = game_page_context(g, box, snap, ctx)
-        gm = gamer.write(gc, mp, flavor, bios)
+        gm = gamer.write(gc, mp, flavor, bios, nba=nba)
         links = {pl["name"]: "../" + phref[str(pl["espn_id"])] for side in ("home", "away") for pl in gc[side]["players"]
                  if str(pl.get("espn_id")) in phref}
         gm["html"] = [gamer.linkify(t, links) for t in gm["paragraphs"]]
