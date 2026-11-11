@@ -1241,7 +1241,7 @@
     "key": null,
     "name": "Xavier Musketeers",
     "abbr": "XAV",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1249,13 +1249,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:56 - 1st"
   },
   {
    "game_id": "401928828",
@@ -1281,7 +1281,7 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1289,13 +1289,13 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:51 - 1st"
   },
   {
    "game_id": "401911011",
@@ -1321,7 +1321,7 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -1329,13 +1329,13 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:44 - 1st"
   },
   {
    "game_id": "401927386",
@@ -9719,5 +9719,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-11T00:15:49+00:00"
 }
