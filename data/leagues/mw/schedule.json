@@ -986,21 +986,21 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 80,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2031",
     "key": null,
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": 58,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:16 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911519",
@@ -7943,5 +7943,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T04:01:18+00:00"
+ "live_at": "2026-11-11T04:16:16+00:00"
 }
