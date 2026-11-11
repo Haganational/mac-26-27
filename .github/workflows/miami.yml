@@ -1,27 +1,26 @@
-name: Miami photos
+name: Miami clips
 
-# One-off: fetch freely licensed Commons photos of Biscayne Bay and powerboats for a studio
+# One-off: fetch freely licensed Commons video clips (boats, Miami, ocean) for a studio
 # Short (Commons isn't reachable from Claude's container). Remove after the Short ships.
 on:
   push:
     branches: ["claude/**"]
-    paths: ["miami/photos.json", ".github/workflows/miami.yml"]
+    paths: ["miami/videos.json", ".github/workflows/miami.yml", "tools/commons_video_fetch.py"]
 
 permissions:
   contents: write
 
 jobs:
-  photos:
+  clips:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/commons_fetch.py miami/photos.json miami/photos
+      - run: python tools/commons_video_fetch.py miami/videos.json miami/videos
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add miami/photos
-          git pull -q --rebase origin "$GITHUB_REF_NAME" || true
-          git commit -m "Miami: Commons photos [skip ci]" && git pull -q --rebase origin "$GITHUB_REF_NAME" && git push
+          git add miami/videos
+          git commit -m "Miami: Commons clips [skip ci]" && git pull -q --rebase origin "$GITHUB_REF_NAME" && git push
