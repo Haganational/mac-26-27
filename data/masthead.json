@@ -3,9 +3,26 @@
   "editor_title": "Editor and publisher",
   "based": "Northeast Ohio",
   "email": "press@hardwoodbricks.com",
+  "founded": "2026-27",
+  "staff": [
+    {
+      "name": "Matthew Hagan",
+      "title": "Editor and publisher",
+      "bio": "Matthew Hagan has followed the MAC since his Ohio University days (Class of 2001). He founded Hardwood Bricks in Northeast Ohio for the 2026-27 season, writes its Fieldhouse Notes and shoots its arena photos.",
+      "photo": "",
+      "email": "",
+      "x": ""
+    }
+  ],
+  "conference_editors": {
+    "mac": "",
+    "horizon": "",
+    "asun": "",
+    "mw": ""
+  },
   "x_handle": "",
   "newsletter_url": "",
   "podcast_url": "",
   "support_url": "",
-  "_note": "Fill these in as they go live; blank fields are hidden on about.html. x_handle without the @."
+  "_note": "Fill these in as they go live; blank fields are hidden. staff: everyone on the masthead page (bio is one or two sentences; photo is a path like static/staff/matthew-hagan.jpg, shown in black and white). conference_editors: a name per edition key; blank means the editor above is acting editor. x handles without the @."
 }

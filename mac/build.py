@@ -698,6 +698,8 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
+        if SITE_DIR / "masthead.html" not in pages:
+            pages.append(SITE_DIR / "masthead.html")
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
         f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"
         and not (f.parent.name == "games" and f.stem in CANON)))

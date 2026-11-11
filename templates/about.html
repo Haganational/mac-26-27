@@ -18,6 +18,7 @@
     <h2>Masthead</h2>
     <dl class="mh">
       <dt>{{ mh.editor_title }}</dt><dd><b>{{ mh.editor }}</b></dd>
+      <dt>{{ LG }} editor</dt><dd>{% if (mh.conference_editors or {}).get(LG_key) %}<b>{{ mh.conference_editors[LG_key] }}</b>{% else %}{{ mh.editor }} (acting){% endif %}</dd>
       {% if mh.email %}<dt>Contact</dt><dd><a href="mailto:{{ mh.email }}">{{ mh.email }}</a></dd>{% endif %}
       {% if tip %}<dt>Support</dt><dd><a href="{{ tip.url }}" target="_blank" rel="noopener">Tip on Venmo @{{ tip.venmo }}</a></dd>{% endif %}
       {% if mh.x_handle %}<dt>X</dt><dd><a href="https://x.com/{{ mh.x_handle }}" rel="noopener">@{{ mh.x_handle }}</a></dd>{% endif %}
@@ -26,6 +27,7 @@
       <dt>Founded</dt><dd>2026-27 season</dd>
       {% if mh.based %}<dt>Based</dt><dd>{{ mh.based }}</dd>{% endif %}
     </dl>
+    <p><a href="{{ site_up }}masthead.html">Full masthead, standards and corrections policy →</a></p>
   </section>
 
   <section>

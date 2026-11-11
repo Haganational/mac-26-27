@@ -137,7 +137,7 @@
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
     </div>
-    <nav aria-label="Pages"><h4>Pages</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
+    <nav aria-label="Pages"><h4>Pages</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a><a href="{{ root }}{{ site_up }}masthead.html">Masthead</a>{% for p in nav_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>

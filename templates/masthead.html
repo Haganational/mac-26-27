@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Masthead and standards · Hardwood Bricks</title>
+<meta name="description" content="Who runs Hardwood Bricks, independent men's college basketball coverage of the {{ names }}: editors, contact, how recaps and previews are written, corrections and ethics.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% endif %}<link rel="canonical" href="{{ base }}masthead.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="Hardwood Bricks masthead and standards">
+<meta property="og:url" content="{{ base }}masthead.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+<script type="application/ld+json">{{ ld_json|safe }}</script>
+{% include "_hub_style.html" %}
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Hardwood Bricks</a>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}</nav>
+</div></header>
+<main class="mast">
+  <section class="hero" style="background:none;border:0;padding:28px 0 0">
+    <h1>Masthead</h1>
+    <p>Hardwood Bricks is an independent outlet covering every men's basketball game in the {{ names }}. Founded for the {{ mh.founded or season }} season{% if mh.based %}, based in {{ mh.based }}{% endif %}.</p>
+  </section>
+
+  <section id="staff" aria-labelledby="h-staff">
+    <h2 id="h-staff">Staff</h2>
+    <div class="who">
+    {% for p in staff %}
+      <div class="person" id="{{ p.slug }}">
+        {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.name }}" width="120" height="120" loading="lazy" style="float:right;width:120px;height:120px;object-fit:cover;border-radius:10px;filter:grayscale(1) contrast(1.08);margin:0 0 8px 12px">{% endif %}
+        <div class="role">{{ p.title }}</div>
+        <b>{{ p.name }}</b>
+        {% if p.bio %}<p style="margin:4px 0 0">{{ p.bio }}</p>{% endif %}
+        {% if p.email or p.x %}<div style="font-size:14px;margin-top:4px">{% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}{% if p.email and p.x %} · {% endif %}{% if p.x %}<a href="https://x.com/{{ p.x }}" rel="noopener">@{{ p.x }}</a>{% endif %}</div>{% endif %}
+      </div>
+    {% endfor %}
+    </div>
+  </section>
+
+  <section id="editors" aria-labelledby="h-editors">
+    <h2 id="h-editors">Conference editors</h2>
+    <table>
+      <tr><th>Conference</th><th>Editor</th></tr>
+      {% for e in desks %}<tr><td><a href="{{ e.href }}">{{ e.name }}</a></td><td>{{ e.editor }}{% if e.acting %} <span class="role" style="text-transform:none;letter-spacing:0">(acting)</span>{% endif %}</td></tr>
+      {% endfor %}
+    </table>
+  </section>
+
+  <section id="contact" aria-labelledby="h-contact">
+    <h2 id="h-contact">Contact</h2>
+    <p>News tips, corrections, and credential and media requests from sports information directors{% if mh.email %}: <a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% else %} go to the editor{% endif %}.</p>
+  </section>
+
+  <section id="standards" aria-labelledby="h-standards">
+    <h2 id="h-standards">How we work</h2>
+    <ul>
+      <li><b>Independent.</b> Hardwood Bricks is not affiliated with any conference, member school or sportsbook.</li>
+      <li id="automation"><b>Recaps and previews are generated from data.</b> The recap on each box score page is written automatically from the official box score. The preview on each game page is written from the schedule, our rating model and the betting market. They state only what the numbers show and never invent quotes or color. Local notes, photos and arena dispatches are written by people and carry their names.</li>
+      <li><b>Credit.</b> We link to and name the outlet behind any reporting we cite, and never republish another outlet's work.</li>
+      <li><b>Labeled sourcing.</b> Every dispatch says how it was reported. An "arena" dispatch means the writer was in the building.</li>
+      <li><b>College athletes are students.</b> We write about what players do on the floor. We don't publish birthdates, family details or social media pile-ons.</li>
+    </ul>
+  </section>
+
+  <section id="corrections" aria-labelledby="h-corrections">
+    <h2 id="h-corrections">Corrections</h2>
+    <p>We fix errors on the page and add a note saying what changed. Send corrections to {% if mh.email %}<a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% else %}the editor{% endif %}. A wrong score or stat from a data feed is fixed as soon as the feed is.</p>
+  </section>
+
+  <section id="ethics" aria-labelledby="h-ethics">
+    <h2 id="h-ethics">Ethics, sponsorship and betting</h2>
+    <ul>
+      <li>Any sponsored placement is labeled as sponsored. Sponsors don't see or shape coverage.</li>
+      <li>Betting analysis is kept separate from news coverage, is for adults 21 and over, and never promises results. If you or someone you know has a gambling problem, call 1-800-GAMBLER.</li>
+    </ul>
+  </section>
+</main>
+<footer>Stats from ESPN. <a href="./">All conferences</a></footer>
+</body>
+</html>

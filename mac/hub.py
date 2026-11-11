@@ -16,7 +16,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .config import LEAGUES, SEASON_LABEL, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
+from .config import LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
 
 
 def front_page(lg: Any) -> str:
@@ -82,11 +82,56 @@ def robots(base: str = SITE_BASE, noindex: bool = SITE_NOINDEX) -> str:
     return f"User-agent: *\nAllow: /\n{maps}"
 
 
-def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE) -> dict[str, Any]:
+def load_masthead() -> dict[str, Any]:
+    p = SHARED_DIR / "masthead.json"
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+def _slug(name: str) -> str:
+    return "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
+
+
+def staff(mh: dict[str, Any]) -> list[dict[str, Any]]:
+    people = [dict(p) for p in mh.get("staff") or []] or (
+        [{"name": mh["editor"], "title": mh.get("editor_title") or "Editor"}] if mh.get("editor") else [])
+    for p in people:
+        p["slug"] = _slug(p["name"])
+    return people
+
+
+def desks(mh: dict[str, Any], eds: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """One row per conference: its editor, or the editor in chief as acting editor until one is named."""
+    named = mh.get("conference_editors") or {}
+    out = []
+    for e in eds:
+        who = (named.get(e["key"]) or "").strip()
+        out.append({"key": e["key"], "name": e["name"], "href": e["href"], "editor": who or mh.get("editor", ""), "acting": not who})
+    return out
+
+
+def org_ld(mh: dict[str, Any], base: str = SITE_BASE) -> dict[str, Any]:
+    """The NewsMediaOrganization, with the masthead and policy pages Google looks for."""
+    m = base + "masthead.html"
+    o: dict[str, Any] = {
+        "@type": "NewsMediaOrganization", "@id": base + "#org", "name": "Hardwood Bricks", "url": base,
+        "logo": {"@type": "ImageObject", "url": base + "static/og/icon-512.png"},
+        "sameAs": ["https://www.youtube.com/@juiceboxtv-m1g"] + ([f"https://x.com/{mh['x_handle']}"] if mh.get("x_handle") else []),
+        "masthead": m, "publishingPrinciples": m + "#standards", "correctionsPolicy": m + "#corrections",
+        "ethicsPolicy": m + "#ethics", "actionableFeedbackPolicy": m + "#contact",
+    }
+    if mh.get("editor"):
+        o["founder"] = {"@type": "Person", "name": mh["editor"], "url": m + "#" + _slug(mh["editor"])}
+    if mh.get("email"):
+        o["email"] = mh["email"]
+    if mh.get("based"):
+        o["location"] = mh["based"]
+    return o
+
+
+def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE, mh: dict[str, Any] | None = None) -> dict[str, Any]:
     return {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": base + "#site", "name": "Hardwood Bricks", "url": base, "publisher": {"@id": base + "#org"}},
-        {"@type": "Organization", "@id": base + "#org", "name": "Hardwood Bricks", "url": base,
-         "logo": base + "static/og/icon-512.png", "sameAs": ["https://www.youtube.com/@juiceboxtv-m1g"]},
+        org_ld(mh if mh is not None else load_masthead(), base),
         {"@type": "ItemList", "name": "Conferences", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": f"{e['name']} men's basketball", "url": base + e["href"].removesuffix("index.html")}
             for i, e in enumerate(eds)]},
@@ -105,4 +150,12 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root.mkdir(parents=True, exist_ok=True)
     (site_root / "index.html").write_text(html)
     (site_root / "robots.txt").write_text(robots(base))
+    mh = load_masthead()
+    ppl = staff(mh)
+    ld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base)] + [
+        {"@type": "Person", "@id": f"{base}masthead.html#{p['slug']}", "name": p["name"], "jobTitle": p.get("title", ""),
+         "worksFor": {"@id": base + "#org"}, **({"description": p["bio"]} if p.get("bio") else {})} for p in ppl]}
+    (site_root / "masthead.html").write_text(env.get_template("masthead.html").render(
+        eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, staff=ppl, desks=desks(mh, eds),
+        ld_json=json.dumps(ld).replace("</", "<\\/")))
     return site_root / "index.html"
