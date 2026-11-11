@@ -18,7 +18,7 @@
 <body>
 {{ L.topbar(root="", active="players.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Player ratings</nav>
+  <nav class="crumbs"><a href="{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Player ratings</nav>
   <header>
     <h1>Player ratings</h1>
     <span class="sub">Points per 100 possessions better than an average D-I player, from the box score, tied to each team's rating. {{ pr.players|length }} players, {{ pr.games }} games. Updated {{ d.generated_et }}.</span>

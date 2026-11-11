@@ -8,7 +8,7 @@
 <body>
 {{ L.topbar(root="", active="about.html") }}
 <main id="main" class="masthead">
-  <nav class="crumbs"><a href="index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> About</nav>
+  <nav class="crumbs"><a href="{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> About</nav>
   <header>
     <h1>About {{ site_name }}</h1>
     <span class="sub">An independent outlet covering every {{ LG }} men's basketball team, every game, all season.</span>
@@ -54,6 +54,7 @@
       <li><b>Independent.</b> {{ site_name }} is not affiliated with the {{ LG_name }}, any member school, or any sportsbook.</li>
       <li><b>Credit.</b> We link to and name the outlet behind any reporting we cite, and never republish another outlet's work.</li>
       {% if 'notes' in feat %}<li><b>Labeled sourcing.</b> Every dispatch says how it was reported. An "arena" dispatch means the editor was in the building.</li>{% endif %}
+      <li><b>How game recaps are written.</b> The recap on every box score page is generated from the official box score the night of the game: who won, who scored, how it swung. It states only what the numbers show, and it never invents quotes or color. Local notes, photos and arena dispatches are written by people and labeled as theirs.</li>
       <li><b>Corrections.</b> Errors are corrected on the page with a note saying what changed. Send corrections to the contact above.</li>
       <li><b>Sponsorship.</b> Any sponsored placement is labeled as sponsored. Sponsors do not see or shape coverage.</li>
       <li><b>Betting analysis</b> is kept separate from news coverage, is for adults 21 and over, and never promises results. If you or someone you know has a gambling problem, call 1-800-GAMBLER.</li>

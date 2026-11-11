@@ -86,6 +86,9 @@ def main(argv: list[str]) -> int:
         print("sqlite:", db.build())
     elif cmd == "site":
         print("site:", build.render_site())
+    elif cmd == "hub":
+        from . import hub
+        print("hub:", hub.build())
     elif cmd == "news":
         print("news:", news.refresh())
     elif cmd == "venues":

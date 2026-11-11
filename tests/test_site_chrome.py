@@ -54,3 +54,12 @@ def test_share_card_renders(tmp_path):
     p = tmp_path / "card.png"
     site_chrome.share_card(p, "Toledo Rockets", "Roster and schedule", bg=TEAMS[9].color, lines=["1-2 overall"])
     assert Image.open(p).size == (1200, 630)
+
+
+def test_news_sitemap_keeps_last_two_days():
+    from datetime import datetime, timezone
+    xml = site_chrome.news_sitemap([("games/1.html", "A beat B 70-60", "2026-11-10T04:00:00Z"),
+                                    ("games/2.html", "Old & gone", "2026-11-01T04:00:00Z")],
+                                   datetime(2026, 11, 11, 5, tzinfo=timezone.utc))
+    assert "games/1.html" in xml and "games/2.html" not in xml and "<news:title>A beat B 70-60</news:title>" in xml
+    assert site_chrome.sitemap(["index.html", "mac/index.html", "teams/a.html"]).count("index.html") == 0

@@ -25,10 +25,15 @@ SITE_ROOT = ROOT / "site"
 SITE_DIR = LEAGUE.site_dir
 TEMPLATES_DIR = ROOT / "templates"
 
-# Public address of the published site, used for share cards (og:url, og:image) and
-# canonical links. Set the repo variable SITE_URL to move it to a custom domain.
-SITE_BASE = (os.environ.get("SITE_URL") or "https://haganational.github.io/mac-26-27/").rstrip("/") + "/"
+# Public address of the published site, used for share cards (og:url, og:image), canonical
+# links and sitemaps. GitHub Pages serves it at hardwoodbricks.com; the repo variable SITE_URL
+# overrides it (leave it unset, or set it to https://hardwoodbricks.com/).
+SITE_BASE = (os.environ.get("SITE_URL") or "https://hardwoodbricks.com/").rstrip("/") + "/"
 SITE_URL = SITE_BASE + LEAGUE.path
+# The site root is the all-conference hub (mac/hub.py). Each edition's front page lives in its
+# folder; the MAC's pages sit at the root, so its front page gets its own folder, mac/.
+HOME = "mac/index.html" if not LEAGUE.path else "index.html"
+HOME_PATH = "mac/" if not LEAGUE.path else ""
 # SITE_NOINDEX=1 asks search engines to stay away (robots.txt + noindex meta). Links still work.
 SITE_NOINDEX = os.environ.get("SITE_NOINDEX", "").strip().lower() in ("1", "true", "yes")
 

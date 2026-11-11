@@ -8,7 +8,7 @@
 <body>
 {{ L.topbar(root="../", active="") }}
 <main id="main">
-  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../teams/{{ team.key }}.html">{{ team.short }}</a> <span class="dim">/</span> {{ p.name }}</nav>
+  <nav class="crumbs"><a href="../{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../teams/{{ team.key }}.html">{{ team.short }}</a> <span class="dim">/</span> {{ p.name }}</nav>
 
   <header class="phead t-{{ team.key }}">
     {% if p.headshot %}<img src="{{ p.headshot }}" alt="" width="96" height="96" onerror="this.style.visibility='hidden'">{% endif %}

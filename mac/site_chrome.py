@@ -9,6 +9,7 @@ footer from templates/_layout.html.
 from __future__ import annotations
 
 import html
+from datetime import datetime, timezone
 import json
 import re
 import unicodedata
@@ -401,6 +402,25 @@ def robots() -> str:
     return f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n"
 
 
+def news_sitemap(items: Iterable[tuple[str, str, str]], now: datetime, days: float = 2.0) -> str:
+    """Google News sitemap: game recaps published in the last two days (Google reads no older)."""
+    cut = now.astimezone(timezone.utc).timestamp() - days * 86400
+    rows = []
+    for path, title, pub in sorted(items, key=lambda x: x[2], reverse=True):
+        try:
+            ts = datetime.fromisoformat(pub.replace("Z", "+00:00")).timestamp()
+        except ValueError:
+            continue
+        if ts < cut:
+            continue
+        rows.append(f"<url><loc>{html.escape(SITE_URL + path)}</loc><news:news><news:publication><news:name>{SITE_NAME}</news:name>"
+                    f"<news:language>en</news:language></news:publication><news:publication_date>{html.escape(pub)}</news:publication_date>"
+                    f"<news:title>{html.escape(title)}</news:title></news:news></url>")
+    return ('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">' + "".join(rows[:1000]) + "</urlset>\n")
+
+
 def sitemap(paths: Iterable[str]) -> str:
-    urls = "".join(f"<url><loc>{html.escape(SITE_URL + p)}</loc></url>" for p in paths)
+    # A folder's index.html is listed as the folder, matching its canonical link.
+    urls = "".join(f"<url><loc>{html.escape(SITE_URL + (p[:-10] if p.endswith('index.html') else p))}</loc></url>" for p in paths)
     return f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n'

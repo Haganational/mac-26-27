@@ -4,14 +4,14 @@
 <head>
 {% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
 {% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
-{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html") }}
+{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", canonical=canon_game.get(g.game_id, "")) }}
 </head>
 <body>
 {{ L.topbar(root="../", active="") }}
 <main id="main">
 {% macro tlink(side) %}{% if side.key %}<a href="../teams/{{ side.key }}.html">{{ side.name }}</a>{% else %}{{ side.name }}{% endif %}{% endmacro %}
 {% macro spr(v) %}{% if v is none %}–{% elif v < 0 %}{{ home.abbr }} {{ '%g'|format(v) }}{% elif v > 0 %}{{ away.abbr }} {{ '%g'|format(-v) }}{% else %}PK{% endif %}{% endmacro %}
-  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../tv.html#g{{ g.game_id }}">Schedule</a> <span class="dim">/</span> Preview
+  <nav class="crumbs"><a href="../{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../tv.html#g{{ g.game_id }}">Schedule</a> <span class="dim">/</span> Preview
     <span class="teamnav">{% for t in teamlinks %}<a href="../teams/{{ t.key }}.html" class="t-{{ t.key }}">{{ t.short }}</a>{% endfor %}</span>
   </nav>
 
