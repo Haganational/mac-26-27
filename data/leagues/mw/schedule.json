@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T23:01:55+00:00",
+ "fetched_at": "2026-11-11T12:02:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -1283,6 +1283,46 @@
    "detail": ""
   },
   {
+   "game_id": "401924921",
+   "date": "2026-11-14T20:00Z",
+   "name": "Wyoming Cowboys at Denver Pioneers",
+   "short_name": "WYO @ DEN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "Hamilton Gymnasium",
+   "venue_city": "Denver",
+   "venue_state": "CO",
+   "home": {
+    "espn_id": "2172",
+    "key": null,
+    "name": "Denver Pioneers",
+    "abbr": "DEN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2751",
+    "key": "wyoming",
+    "name": "Wyoming Cowboys",
+    "abbr": "WYO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401917529",
    "date": "2026-11-14T21:00Z",
    "name": "Air Force Falcons at Pacific Tigers",
@@ -1314,46 +1354,6 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401924921",
-   "date": "2026-11-14T21:00Z",
-   "name": "Wyoming Cowboys at Denver Pioneers",
-   "short_name": "WYO @ DEN",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "venue": "Hamilton Gymnasium",
-   "venue_city": "Denver",
-   "venue_state": "CO",
-   "home": {
-    "espn_id": "2172",
-    "key": null,
-    "name": "Denver Pioneers",
-    "abbr": "DEN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2751",
-    "key": "wyoming",
-    "name": "Wyoming Cowboys",
-    "abbr": "WYO",
     "score": null,
     "winner": null
    },
@@ -7942,6 +7942,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-11T04:16:16+00:00"
+ ]
 }
