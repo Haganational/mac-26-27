@@ -284,9 +284,21 @@ def _team_ld(side: dict[str, Any]) -> dict[str, Any]:
     return t
 
 
+def photo_ld(ph: dict[str, str], site_url: str = SITE_URL) -> dict[str, Any]:
+    """An ImageObject for one of our own game photos, credited to whoever took it."""
+    o: dict[str, Any] = {"@type": "ImageObject", "contentUrl": f"{site_url}{ph['src']}", "url": f"{site_url}{ph['src']}"}
+    if ph.get("caption"):
+        o["caption"] = ph["caption"]
+    if ph.get("credit"):
+        o["creator"] = {"@type": "Person", "name": ph["credit"]}
+        o["creditText"] = ph["credit"]
+        o["copyrightNotice"] = ph["credit"]
+    return o
+
+
 def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str, site_name: str,
-            site_url: str = SITE_URL) -> dict[str, Any]:
-    """schema.org NewsArticle (the gamer) about a SportsEvent (the game)."""
+            site_url: str = SITE_URL, photos: list[dict[str, str]] | None = None) -> dict[str, Any]:
+    """schema.org NewsArticle (the gamer) about a SportsEvent (the game). Our own photos lead the images."""
     g, home, away = c["g"], c["home"], c["away"]
     url = f"{site_url}games/{g['game_id']}.html"
     start = g["date"].replace("Z", ":00Z") if g["date"].endswith("Z") and g["date"].count(":") == 1 else g["date"]
@@ -322,7 +334,7 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         "dateModified": modified,
         "mainEntityOfPage": url,
         "url": url,
-        "image": [f"{site_url}static/og/game-{g['game_id']}.png"],
+        "image": [photo_ld(ph, site_url) for ph in (photos or [])] + [f"{site_url}static/og/game-{g['game_id']}.png"],
         "author": [{"@type": "Organization", "name": gm["byline"], "url": f"{site_url}about.html"}],
         "publisher": org,
         "about": {"@id": url + "#game"},

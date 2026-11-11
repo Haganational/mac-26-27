@@ -12,6 +12,8 @@ Each dispatch is a Markdown file in notes/dispatches/, committed to the repo:
     league: asun             optional: which edition it belongs to (the MAC when left out)
     author: Craig            optional: byline, for contributors (Matthew's own notes leave it out)
     draft: true              optional: stays off the site
+    photo: 2026-11-12-akron-1.jpg | Caption   optional, repeatable: a photo in notes/photos/
+    credit: Matthew Hagan    optional: photo credit (the byline, else the masthead editor)
     ---
     The dispatch itself, in Markdown.
 
@@ -42,6 +44,8 @@ from urllib.parse import quote
 from .config import LEAGUE, ROOT
 
 NOTES_DIR = ROOT / "notes" / "dispatches"
+PHOTOS_DIR = ROOT / "notes" / "photos"
+PHOTO_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*\.(jpe?g|png|webp)$", re.I)
 REPO = "Haganational/mac-26-27"
 BRANCH = "main"
 
@@ -56,7 +60,11 @@ def parse(text: str) -> tuple[dict[str, str], str]:
                 if ":" in line:
                     k, v = line.split(":", 1)
                     v = re.split(r"\s+#", v, maxsplit=1)[0]  # allow "kind: arena   # phone, paper, tv or arena"
-                    meta[k.strip().lower()] = v.strip().strip('"').strip("'")
+                    key, val = k.strip().lower(), v.strip().strip('"').strip("'")
+                    if key == "photo":  # repeatable: one line per photo
+                        meta["photo"] = (meta.get("photo", "") + "\n" + val).strip()
+                    else:
+                        meta[key] = val
             body = parts[1].split("\n", 1)[1] if "\n" in parts[1] else ""
     return meta, body.strip()
 
@@ -122,6 +130,29 @@ def _published(meta: dict[str, str], stem: str) -> str:
     return dt.astimezone(timezone.utc).isoformat(timespec="seconds")
 
 
+def photos_of(meta: dict[str, str], credit: str) -> list[dict[str, str]]:
+    """photo lines -> [{file, src, caption, credit}]; a name that isn't a plain image file is skipped."""
+    out = []
+    for line in (meta.get("photo") or "").splitlines():
+        name, _, cap = line.partition("|")
+        name = name.strip()
+        if PHOTO_RE.match(name):
+            out.append({"file": name, "src": f"photos/{name}", "caption": cap.strip(), "credit": credit})
+    return out
+
+
+def default_credit() -> str:
+    from .config import DATA_DIR, SHARED_DIR
+    import json
+    for p in (DATA_DIR / "masthead.json", SHARED_DIR / "masthead.json"):
+        if p.exists():
+            try:
+                return json.loads(p.read_text()).get("editor") or ""
+            except ValueError:
+                pass
+    return ""
+
+
 def _list(v: str | None) -> list[str]:
     return [x.strip() for x in (v or "").split(",") if x.strip()]
 
@@ -134,6 +165,7 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
     """
     notes_dir = notes_dir or NOTES_DIR
     game_teams = game_teams or {}
+    credit = default_credit()
     if not notes_dir.exists():
         return []
     out = []
@@ -141,7 +173,7 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
         if path.name.lower() == "readme.md":
             continue
         meta, body = parse(path.read_text(encoding="utf-8"))
-        if not body or (meta.get("draft", "").lower() in ("true", "yes", "1") and not include_drafts):
+        if not (body or meta.get("photo")) or (meta.get("draft", "").lower() in ("true", "yes", "1") and not include_drafts):
             continue
         if (meta.get("league") or "mac").lower() != LEAGUE.key:
             continue
@@ -151,6 +183,10 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
             if t not in teams:
                 teams.append(t)
         kind = kind_of(meta.get("kind") or meta.get("icon"))
+        photos = photos_of(meta, meta.get("credit") or meta.get("author") or credit)
+        text = re.sub(r"\s+", " ", re.sub(r"[*_>#\[\]]|\(https?://[^)]*\)", "", body)).strip()
+        if not text:  # a photo-only dispatch reads as its captions
+            text = " ".join(ph["caption"] for ph in photos if ph["caption"]) or "Photos"
         out.append({
             "file": path.name,
             "slug": path.stem,
@@ -164,7 +200,8 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
             "date": meta.get("date") or path.stem[:10],
             "published": _published(meta, path.stem),
             "html": render_markdown(body),
-            "text": re.sub(r"\s+", " ", re.sub(r"[*_>#\[\]]|\(https?://[^)]*\)", "", body)).strip(),
+            "photos": photos,
+            "text": text,
             "words": len(body.split()),
             "edit_url": f"https://github.com/{REPO}/edit/{BRANCH}/notes/dispatches/{quote(path.name)}",
         })
@@ -207,6 +244,21 @@ def merge_feed(view: dict[str, Any], dispatches: list[dict[str, Any]], now: date
         i.update(age=_age(age_h), fresh=age_h < 24)
     heads = sorted(view.get("headlines", []) + items, key=lambda i: i["published"], reverse=True)
     return {**view, "headlines": heads[:limit] if limit else heads, "total": view.get("total", 0) + len(items), "mine": len(items)}
+
+
+def copy_photos(dispatches: list[dict[str, Any]], site_dir: Path, photos_dir: Path | None = None) -> int:
+    """Copy the photos the published dispatches use into site/photos/. Returns how many."""
+    import shutil
+    photos_dir = photos_dir or PHOTOS_DIR
+    n = 0
+    for d in dispatches:
+        for ph in d.get("photos", []):
+            src = photos_dir / ph["file"]
+            if src.exists():
+                (site_dir / "photos").mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src, site_dir / "photos" / ph["file"])
+                n += 1
+    return n
 
 
 def by_game(dispatches: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:

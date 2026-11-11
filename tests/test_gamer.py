@@ -133,3 +133,10 @@ def test_losers_top_scorer_who_led_the_glass_is_named_once_with_hometown():
     s = gamer.write(c, None, FLAVOR, {"3": {"hometown": "Irmo, SC"}})["paragraphs"][1]
     assert "Irmo, South Carolina, native K One had 18 points for Kent State and a game-high 7 rebounds." in s
     assert s.count("K One") == 1
+
+
+def test_photo_ld():
+    o = gamer.photo_ld({"src": "photos/a.jpg", "caption": "Tip", "credit": "Pat"}, "https://x.com/")
+    assert o["contentUrl"] == "https://x.com/photos/a.jpg" and o["caption"] == "Tip"
+    assert o["creator"] == {"@type": "Person", "name": "Pat"} and o["creditText"] == "Pat"
+    assert "creator" not in gamer.photo_ld({"src": "photos/b.jpg"}, "https://x.com/")

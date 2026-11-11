@@ -17,6 +17,10 @@
   .kinds input { position: absolute; opacity: 0; pointer-events: none; }
   .kinds input:checked + span { color: var(--fh); font-weight: 700; }
   .kinds label:has(input:checked) { border-color: var(--fh); background: color-mix(in srgb, var(--fh) 10%, transparent); }
+  #photolist .ph { display: flex; gap: 8px; align-items: center; margin: 6px 0; }
+  #photolist .ph img { width: 64px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); }
+  #photolist .ph input { flex: 1; }
+  .preview figure.photo img, article figure.photo img { max-width: 100%; border-radius: 8px; }
   .teamchk { display: flex; flex-wrap: wrap; gap: 6px; }
   .teamchk label { margin: 0; display: inline-flex; gap: 5px; align-items: center; padding: 4px 9px; border: 1px solid var(--border); border-radius: 8px; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--ink); cursor: pointer; }
   .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; align-items: center; }
@@ -84,6 +88,10 @@
       <input type="date" id="date">
       <label for="body">Dispatch</label>
       <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
+      <label for="photos" class="ed-only">Photos</label>
+      <input type="file" id="photos" class="ed-only" accept="image/*" multiple>
+      <div id="photolist" class="ed-only"></div>
+      <div class="hint ed-only">Straight from your phone's gallery. Each photo is resized to 1600 px and its location data stripped on your phone before it uploads. Add a caption: who, what, when.</div>
       <div class="acts">
         <button class="btn go ed-only" id="pubnow" type="button">Publish</button>
         <button class="btn ed-only" id="save" type="button">Save draft</button>
@@ -122,6 +130,7 @@
   const playerByLabel = new Map(D.players.map(p => [p.label, p])), playerById = new Map(D.players.map(p => [p.id, p]));
   const teamName = Object.fromEntries(D.teams.map(t => [t.key, t.short]));
   let editing = null; // {branch, path, sha, pr} when editing a draft or a published dispatch
+  let photos = [];     // [{name, caption, blob?, url}] in the order they show; blob = not uploaded yet
 
   /* ---------- markdown: same subset as mac/notes.py */
   function inline(s) {
@@ -176,6 +185,7 @@
     if (f.title) L.push('title: ' + f.title.replace(/\n/g, ' '));
     if (LEAGUE !== 'mac') L.push('league: ' + LEAGUE);
     if (f.author) L.push('author: ' + f.author.replace(/\n/g, ' '));
+    photos.forEach(ph => L.push('photo: ' + ph.name + (ph.caption ? ' | ' + ph.caption.replace(/[\n#]/g, ' ') : '')));
     L.push('date: ' + f.date, '---', '', f.body.trim(), '');
     return L.join('\n');
   }
@@ -184,7 +194,9 @@
     if (text.startsWith('---')) {
       const i = text.indexOf('\n---', 3);
       if (i > 0) {
-        text.slice(3, i).split('\n').forEach(l => { const j = l.indexOf(':'); if (j > 0) meta[l.slice(0, j).trim().toLowerCase()] = l.slice(j + 1).split(/\s+#/)[0].trim(); });
+        meta.photos = [];
+        text.slice(3, i).split('\n').forEach(l => { const j = l.indexOf(':'); if (j <= 0) return; const k = l.slice(0, j).trim().toLowerCase(), v = l.slice(j + 1).split(/\s+#/)[0].trim();
+          if (k === 'photo') meta.photos.push(v); else meta[k] = v; });
         body = text.slice(i + 4).replace(/^[^\n]*\n/, '');
       }
     }
@@ -198,6 +210,8 @@
     const teams = (meta.team || '').split(',').map(s => s.trim());
     $$('input[name=team]').forEach(i => i.checked = teams.includes(i.value));
     const p = playerById.get(meta.player || ''); $('#player').value = p ? p.label : '';
+    photos = (meta.photos || []).map(v => { const [name, ...cap] = v.split('|'); return { name: name.trim(), caption: cap.join('|').trim(), url: 'photos/' + name.trim() }; }).filter(ph => ph.name);
+    drawPhotos();
     $('#author').value = meta.author || ''; $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
     render();
   }
@@ -205,7 +219,8 @@
     const f = form(), g = gameById.get(f.game), teams = [...new Set([...(g ? g.teams : []), ...f.teams])];
     const where = [g ? esc(g.label) : '', ...teams.map(t => esc(teamName[t] || t)), f.player ? esc(f.playerName) : ''].filter(Boolean).join(' · ');
     $('#preview').innerHTML = `<article class="dispatch k-${f.kind}"><div class="meta"><span class="fh-kind">${KINDS[f.kind][1]} ${esc(KINDS[f.kind][0])}</span> · ${esc(f.date)}${where ? ' · ' + where : ''}</div>`
-      + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : '<p class="dim">Your dispatch will appear here.</p>'}</div></article>`
+      + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : (photos.length ? '' : '<p class="dim">Your dispatch will appear here.</p>')}</div>`
+      + photos.map(ph => `<figure class="photo"><img src="${esc(ph.url)}" alt="" onerror="this.style.display='none'"><figcaption>${esc(ph.caption)}</figcaption></figure>`).join('') + `</article>`
       + (where ? '' : '<p class="hint">Not filed to a game, team or player: it shows on the Notes page and in the feed.</p>');
     try { store.set('btb-desk-draft', JSON.stringify({ text: toFile(f) })); } catch (e) {}
   }
@@ -213,7 +228,50 @@
     editing = null; $('#formtitle').textContent = CONTRIB ? 'New dispatch from ' + CONTRIB : 'New dispatch'; $('#save').textContent = 'Save draft';
     $('#author').value = CONTRIB || '';
     $$('input[name=kind]').forEach(i => i.checked = i.value === 'arena'); $('#game').value = ''; $$('input[name=team]').forEach(i => i.checked = false);
-    $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; render();
+    $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; photos = []; drawPhotos(); render();
+  }
+
+  /* ---------- photos: resized and re-encoded on the device (drops EXIF, including GPS) */
+  async function shrink(file) {
+    const img = await createImageBitmap(file, { imageOrientation: 'from-image' });
+    const k = Math.min(1, 1600 / Math.max(img.width, img.height));
+    const c = document.createElement('canvas'); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+    c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+    return await new Promise(res => c.toBlob(res, 'image/jpeg', 0.85));
+  }
+  function drawPhotos() {
+    const box = $('#photolist'); if (!box) return;
+    box.innerHTML = photos.map((ph, i) => `<div class="ph" data-i="${i}"><img src="${esc(ph.url)}" alt="" onerror="this.style.visibility='hidden'">
+      <input type="text" data-cap="${i}" value="${esc(ph.caption)}" placeholder="Caption: who, what, when">
+      <button class="btn" type="button" data-rm="${i}" title="Remove">✕</button>${ph.blob ? '<small class="dim">not uploaded yet</small>' : ''}</div>`).join('');
+  }
+  $('#photos').addEventListener('change', async (e) => {
+    const files = [...e.target.files]; e.target.value = '';
+    for (const file of files) {
+      try {
+        const blob = await shrink(file);
+        const name = `${$('#date').value || today()}-${Math.random().toString(36).slice(2, 8)}.jpg`;
+        photos.push({ name, caption: '', blob, url: URL.createObjectURL(blob) });
+      } catch (err) { say('Could not read ' + esc(file.name) + ': ' + esc(err.message), true); }
+    }
+    drawPhotos(); render();
+  });
+  $('#photolist').addEventListener('input', (e) => { const i = e.target.dataset.cap; if (i != null) { photos[+i].caption = e.target.value; render(); } });
+  $('#photolist').addEventListener('click', (e) => { const i = e.target.dataset.rm; if (i != null) { photos.splice(+i, 1); drawPhotos(); render(); } });
+  async function blobB64(blob) {
+    const buf = new Uint8Array(await blob.arrayBuffer()); let b = '';
+    for (let i = 0; i < buf.length; i += 0x8000) b += String.fromCharCode.apply(null, buf.subarray(i, i + 0x8000));
+    return btoa(b);
+  }
+  async function uploadPhotos(branch) {
+    const todo = photos.filter(ph => ph.blob);
+    for (let i = 0; i < todo.length; i++) {
+      const ph = todo[i];
+      say(`Uploading photo ${i + 1} of ${todo.length}…`);
+      await gh(`/contents/notes/photos/${ph.name}`, { method: 'PUT', body: JSON.stringify({ message: 'Photo: ' + (ph.caption || ph.name), content: await blobB64(ph.blob), branch }) });
+      ph.blob = null;
+    }
+    drawPhotos();
   }
 
   /* ---------- GitHub */
@@ -249,13 +307,14 @@
   async function save(quiet) {
     if (!token) { say('Connect GitHub first (box at the top).', true); return false; }
     const f = form();
-    if (!f.body.trim()) { say('Write something first.', true); return false; }
+    if (!f.body.trim() && !photos.length) { say('Write something or add a photo first.', true); return false; }
     const text = toFile(f);
     $('#save').disabled = $('#pubnow').disabled = true;
     let ok = false;
     try {
       if (editing && editing.branch) {
         // Update the draft in place: same branch, same pull request.
+        await uploadPhotos(editing.branch);
         const r = await gh(`/contents/${editing.path}`, { method: 'PUT', body: JSON.stringify({ message: 'Update dispatch: ' + (f.title || editing.path), content: b64(text), branch: editing.branch, sha: editing.sha }) });
         editing.sha = r.content.sha;
         say(`Draft updated. <a href="${editing.prUrl}" target="_blank" rel="noopener">Pull request</a>`);
@@ -266,6 +325,7 @@
         const branch = 'dispatch/' + stem + '-' + Math.random().toString(36).slice(2, 6);
         const main = await gh('/git/ref/heads/main');
         await gh('/git/refs', { method: 'POST', body: JSON.stringify({ ref: 'refs/heads/' + branch, sha: main.object.sha }) });
+        await uploadPhotos(branch);
         const put = { message: (editing ? 'Edit dispatch: ' : 'Dispatch: ') + (f.title || stem), content: b64(text), branch };
         if (editing && editing.sha) put.sha = editing.sha;
         const r = await gh(`/contents/${path}`, { method: 'PUT', body: JSON.stringify(put) });

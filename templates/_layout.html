@@ -16,8 +16,9 @@
 <meta property="og:description" content="{{ desc }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
 <meta property="og:image" content="{{ site_url }}{{ image }}">
-<meta property="og:image:width" content="1200">
+{% if image.startswith('static/og/') %}<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{ desc }}">
@@ -162,6 +163,9 @@
   {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
   {% if n.author %}<div class="byline">By {{ n.author }}</div>{% endif %}
   <div class="body">{{ n.html|safe }}</div>
+  {% for ph in n.photos %}<figure class="photo"><a href="{{ root }}{{ ph.src }}"><img src="{{ root }}{{ ph.src }}" alt="{{ ph.caption or n.title or 'Game photo' }}" loading="lazy"></a>
+    <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
+  {% endfor %}
 </article>
 {% endfor %}
 {%- endmacro %}

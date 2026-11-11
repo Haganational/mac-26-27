@@ -339,6 +339,7 @@ def render_site() -> str:
     game_teams = {g["game_id"]: [t for t in (g["home"].get("key"), g["away"].get("key")) if t] for g in sched}
     # Fieldhouse Notes: filed with games, teams, players and in the feed (MAC only for now).
     dispatches = notes.load(game_teams=game_teams) if LEAGUE.has("notes") else []
+    notes.copy_photos(dispatches, SITE_DIR)
     data["news"] = notes.merge_feed(news.view(now, limit=30), dispatches, now, limit=30)
     try:
         m = model.build_model(now, log=True)
@@ -413,9 +414,10 @@ def render_site() -> str:
         gm["html"] = [gamer.linkify(t, links) for t in gm["paragraphs"]]
         gm["scoring_html"] = gamer.linkify(gm["scoring"], links)
         pub = gamer.stamp(published, gid, built_at, g["date"])
-        ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME)
+        game_photos = [ph for n in notes_by_game.get(gid, []) for ph in n.get("photos", [])]
+        ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME, photos=game_photos)
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               mp=mp, gm=gm, published=pub, phref=phref, ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
+                               mp=mp, gm=gm, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
     gamer.save_published(published)
