@@ -1446,7 +1446,7 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -1454,13 +1454,13 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:23 - 1st"
   },
   {
    "game_id": "401926868",
@@ -9719,5 +9719,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-11T23:37:31+00:00"
 }
