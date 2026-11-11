@@ -1026,21 +1026,21 @@
     "key": null,
     "name": "BYU Cougars",
     "abbr": "BYU",
-    "score": 92,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "2511",
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": 74,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921105",
@@ -7513,5 +7513,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T03:45:32+00:00"
+ "live_at": "2026-11-11T04:00:44+00:00"
 }
