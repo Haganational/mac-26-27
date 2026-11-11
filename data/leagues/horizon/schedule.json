@@ -1241,7 +1241,7 @@
     "key": null,
     "name": "Xavier Musketeers",
     "abbr": "XAV",
-    "score": 25,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1249,13 +1249,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 9,
+    "score": 17,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:44 - 1st"
+   "detail": "3:16 - 1st"
   },
   {
    "game_id": "401928828",
@@ -1281,7 +1281,7 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 23,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -1289,13 +1289,13 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 21,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:01 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911011",
@@ -1321,7 +1321,7 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 26,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -1329,13 +1329,13 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 29,
+    "score": 32,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:06 - 1st"
+   "detail": "2:11 - 1st"
   },
   {
    "game_id": "401927386",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T00:30:50+00:00"
+ "live_at": "2026-11-11T00:45:57+00:00"
 }
