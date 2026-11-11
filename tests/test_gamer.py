@@ -86,3 +86,10 @@ def test_seed_flavor_file_parses():
     assert f["settings"]["byline"]
     for key in f["rivalries"]:
         assert key == "|".join(sorted(key.split("|")))
+
+
+def test_scoring_line_lists_every_scorer_winner_first():
+    gm = gamer.write(ctx(), None, FLAVOR)
+    assert gm["scoring"] == "Akron: A One 22, A Two 10. Kent State: K One 18."
+    gm = gamer.write(ctx(home_score=70, away_score=72), None, FLAVOR)
+    assert gm["scoring"].startswith("Kent State: K One 18.")
