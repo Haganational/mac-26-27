@@ -42,6 +42,15 @@
     {% endfor %}
   </article>
 
+  {% if pre %}
+  <section class="gamer pregame" id="pregame">
+    <div class="sechead"><h2>Before the game</h2><span class="dim">Our preview, as it ran before tip · <time datetime="{{ pre.published }}">{{ pre.published[:10] }}</time></span></div>
+    <h3>{{ pre.headline }}</h3>
+    {% for p in pre.paragraphs %}<p>{{ p }}</p>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if game_notes %}
   <section>
     <h2>Fieldhouse Notes</h2>
