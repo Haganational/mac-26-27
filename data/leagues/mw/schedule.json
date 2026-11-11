@@ -1066,21 +1066,21 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 96,
-    "winner": null
+    "score": 107,
+    "winner": true
    },
    "away": {
     "espn_id": "2350",
     "key": null,
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": 81,
-    "winner": null
+    "score": 93,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:42 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911346",
@@ -7949,5 +7949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T22:01:20+00:00"
+ "live_at": "2026-11-11T22:31:17+00:00"
 }
