@@ -176,7 +176,23 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
         paras.append(" ".join(tail))
 
     return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
+            "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),
             "byline": flavor.get("settings", {}).get("byline") or "Hardwood Bricks staff"}
+
+
+def scoring_line(sides: list[tuple[str, list[dict[str, Any]]]]) -> str:
+    """The mini box score: everyone who scored, winner first, most points first.
+
+    "Akron: Evan Mahaffey 9, James Black 6. Bowling Green: Javontae Evans 8."
+    Full names on purpose: people search "[player] points".
+    """
+    parts = []
+    for team, players in sides:
+        scored = [p for p in players if not p.get("dnp") and (p.get("pts") or 0) > 0]
+        scored.sort(key=lambda p: -p["pts"])
+        if scored:
+            parts.append(f"{team}: " + ", ".join(f"{p['name']} {p['pts']}" for p in scored) + ".")
+    return " ".join(parts)
 
 
 # ---------------------------------------------------------------- publish times + JSON-LD

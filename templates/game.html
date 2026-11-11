@@ -37,7 +37,8 @@
     <h1>{{ gm.headline }}</h1>
     <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published[:10] }}</time></div>
     {% for p in gm.paragraphs %}<p>{{ p }}</p>
-    {% endfor %}{% for f in gm.flavor %}<p class="flavor">{{ f }}</p>
+    {% endfor %}{% if gm.scoring %}<p class="scoring"><b>Scoring</b> · {{ gm.scoring }}</p>
+    {% endif %}{% for f in gm.flavor %}<p class="flavor">{{ f }}</p>
     {% endfor %}
   </article>
 
