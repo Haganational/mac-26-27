@@ -3,14 +3,14 @@
     path  = this page's path from the site root (for share links), e.g. "teams/ohio.html"
     image = share-card image path from the site root -#}
 
-{% macro head(title, desc, root="", path="", image="static/og/site.png") -%}
+{% macro head(title, desc, root="", path="", image="static/og/site.png", og_type="website") -%}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <meta name="description" content="{{ desc }}">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% endif %}<link rel="canonical" href="{{ site_url }}{{ path }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ og_type }}">
 <meta property="og:site_name" content="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ desc }}">

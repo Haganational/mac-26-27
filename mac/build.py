@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import access, analysis, model, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import access, analysis, gamer, model, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -394,15 +394,25 @@ def render_site() -> str:
     by_id = {g["game_id"]: g for g in games}
     have_box = set()
     said = {str(x["id"]): x for x in (m or {}).get("season_to_date", [])}
+    flavor = gamer.load_flavor()
+    published = gamer.load_published()
+    built_at = datetime.fromisoformat(data["generated_at"])
+    modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for gid, box in boxes.items():
         g = by_id.get(gid)
         if not g or not g["completed"]:
             continue
         snap = history.get(mapping.get(gid, ""))
+        mp = model_view.past_view(said.get(gid))
+        gc = game_page_context(g, box, snap, ctx)
+        gm = gamer.write(gc, mp, flavor)
+        pub = gamer.stamp(published, gid, built_at, g["date"])
+        ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME)
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               mp=model_view.past_view(said.get(gid)), **game_page_context(g, box, snap, ctx))
+                               mp=mp, gm=gm, published=pub, ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
+    gamer.save_published(published)
 
     # Where a game name links: its box score once played, otherwise its odds while a line is up.
     game_href = {g["game_id"]: f"odds.html#ev{g['line']['odds_event_id']}" for g in data["upcoming"]
