@@ -5,6 +5,7 @@
 {% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
 {% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", canonical=canon_game.get(g.game_id, "")) }}
+{% if ld_json %}<script type="application/ld+json">{{ ld_json|safe }}</script>{% endif %}
 </head>
 <body>
 {{ L.topbar(root="../", active="") }}
@@ -35,6 +36,16 @@
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} at {{ home.abbr }}: the model says {{ mv.fav_line }}">Share this preview</a>
   </div>
+
+  {% if story %}
+  <article class="gamer" id="gamer">
+    <h1>{{ story.headline }}</h1>
+    <div class="sub">By {{ story.byline }} · <time datetime="{{ story.published }}">{{ story.published[:10] }}</time></div>
+    {% for p in story.paragraphs %}<p>{{ p }}</p>
+    {% endfor %}{% for f in story.flavor %}<p class="flavor">{{ f }}</p>
+    {% endfor %}
+  </article>
+  {% endif %}
 
   <section id="model">
     <div class="sechead"><h2>The model's call</h2><span class="dim">Rating model v1 · updated {{ d.generated_et }}</span></div>

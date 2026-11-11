@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import hub, nba_alumni, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import hub, nba_alumni, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -400,6 +400,7 @@ def render_site() -> str:
     flavor = gamer.load_flavor()
     nba = (nba_alumni.load_nights(), nba_alumni.load_colleges())
     published = gamer.load_published()
+    previews_saved = preview_story.load()
     built_at = datetime.fromisoformat(data["generated_at"])
     modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     news_items = []  # (path, headline, published) for the news sitemap
@@ -413,6 +414,7 @@ def render_site() -> str:
         mp = model_view.past_view(said.get(gid))
         gc = game_page_context(g, box, snap, ctx)
         gm = gamer.write(gc, mp, flavor, bios, nba=nba)
+        pre = previews_saved.get(gid)  # the preview we ran before tip, kept under the recap
         links = {pl["name"]: "../" + phref[str(pl["espn_id"])] for side in ("home", "away") for pl in gc[side]["players"]
                  if str(pl.get("espn_id")) in phref}
         gm["html"] = [gamer.linkify(t, links) for t in gm["paragraphs"]]
@@ -421,13 +423,12 @@ def render_site() -> str:
         game_photos = [ph for n in notes_by_game.get(gid, []) for ph in n.get("photos", [])]
         ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME, photos=game_photos)
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               mp=mp, gm=gm, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
+                               mp=mp, gm=gm, pre=pre, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
         if gid not in CANON:
             news_items.append((f"games/{gid}.html", gm["headline"], pub))
     gamer.save_published(published)
-    (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
 
     # Where a game name links: its box score once played, otherwise its odds while a line is up.
     game_href = {g["game_id"]: f"odds.html#ev{g['line']['odds_event_id']}" for g in data["upcoming"]
@@ -494,10 +495,23 @@ def render_site() -> str:
         g["travel_home"] = ctx.get((g["game_id"], g["home"]["key"])) if g["home"].get("key") else None
         g["travel_away"] = ctx.get((g["game_id"], g["away"]["key"])) if g["away"].get("key") else None
     # Game previews: the model's projection, leans, players to watch, line, rest and travel.
+    # Inside WINDOW_HOURS of tip a preview also gets a written story, saved so it can sit under the recap later.
     preview_tpl = env.get_template("preview.html")
     for g in previews:
+        story, ld = None, None
+        if preview_story.due(g, built_at):
+            story = preview_story.write(g, data["standings"], flavor)
+            if story:
+                story = preview_story.remember(previews_saved, g, story, built_at)
+                ld = json.dumps(preview_story.json_ld(g, story, story["published"], story["modified"],
+                                                      site_chrome.SITE_NAME)).replace("</", "<\\/")
+                if g["game_id"] not in CANON:
+                    news_items.append((f"games/{g['game_id']}.html", story["headline"], story["published"]))
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
-            d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], [])))
+            d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], []),
+            story=story, ld_json=ld))
+    preview_story.save(previews_saved)
+    (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
     write_front(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
