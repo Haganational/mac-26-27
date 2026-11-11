@@ -69,11 +69,11 @@
 
     <aside class="facts" aria-label="Where every fact comes from">
       {% if t.results %}<h2>{{ t.results_label }}</h2>
-      <ul>{% for r in t.results %}<li><a href="{{ game_href.get(r.game_id, 'index.html#recent') }}">{{ r.short }}</a> <a class="dim" href="https://www.espn.com/mens-college-basketball/boxscore/_/gameId/{{ r.game_id }}" target="_blank" rel="noopener">ESPN box ↗</a></li>{% endfor %}</ul>{% endif %}
+      <ul>{% for r in t.results %}<li><a href="{{ game_href.get(r.game_id, home ~ '#recent') }}">{{ r.short }}</a> <a class="dim" href="https://www.espn.com/mens-college-basketball/boxscore/_/gameId/{{ r.game_id }}" target="_blank" rel="noopener">ESPN box ↗</a></li>{% endfor %}</ul>{% endif %}
       {% if t.previews %}<h2>{{ t.slate_label }}</h2>
       <ul>{% for p in t.previews %}{% set g = d.upcoming|selectattr('game_id','equalto',p.game_id)|first %}<li><a href="{{ game_href.get(p.game_id, 'tv.html') }}">{{ g.away.abbr }} at {{ g.home.abbr }}</a> <span class="dim">{{ g.et.time }}</span></li>{% endfor %}</ul>{% endif %}
       <h2>More</h2>
-      <ul><li><a href="index.html#standings">Standings</a></li><li><a href="odds.html">Every book's lines</a></li><li><a href="ratings.html">Ratings</a></li></ul>
+      <ul><li><a href="{{ home }}#standings">Standings</a></li><li><a href="odds.html">Every book's lines</a></li><li><a href="ratings.html">Ratings</a></li></ul>
     </aside>
   </div>
 </main>

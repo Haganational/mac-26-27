@@ -11,8 +11,8 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
-from .config import BY_KEY, DATA_DIR, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
+from . import hub, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
 from .rosters import load_boxscores
@@ -364,12 +364,12 @@ def render_site() -> str:
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
                        LG=LEAGUE.short, LG_name=LEAGUE.name, LG_region=LEAGUE.region, LG_key=LEAGUE.key, LG_tourney=LEAGUE.tournament,
                        n_teams=len(TEAMS), feat=LEAGUE.features, theme=LEAGUE.theme, art=f"backdrop-{LEAGUE.key}" if LEAGUE.key != "mac" else "backdrop",
-                       leagues=league_links(), site_up="../" * LEAGUE.path.count("/"))
+                       leagues=league_links(), site_up="../" * LEAGUE.path.count("/"), home=HOME, home_path=HOME_PATH)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
 
     index = env.get_template("index.html")
-    (SITE_DIR / "index.html").write_text(index.render(d=data, data_json=json.dumps(data)))
+    write_front(index.render(d=data, data_json=json.dumps(data)))
     (SITE_DIR / "data.json").write_text(json.dumps(data))
     (SITE_DIR / ".nojekyll").write_text("")
 
@@ -401,6 +401,9 @@ def render_site() -> str:
     published = gamer.load_published()
     built_at = datetime.fromisoformat(data["generated_at"])
     modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    news_items = []  # (path, headline, published) for the news sitemap
+    CANON.clear(); CANON.update(canon_games(games))
+    env.globals["canon_game"] = CANON
     for gid, box in boxes.items():
         g = by_id.get(gid)
         if not g or not g["completed"]:
@@ -420,7 +423,10 @@ def render_site() -> str:
                                mp=mp, gm=gm, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
+        if gid not in CANON:
+            news_items.append((f"games/{gid}.html", gm["headline"], pub))
     gamer.save_published(published)
+    (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
 
     # Where a game name links: its box score once played, otherwise its odds while a line is up.
     game_href = {g["game_id"]: f"odds.html#ev{g['line']['odds_event_id']}" for g in data["upcoming"]
@@ -491,7 +497,7 @@ def render_site() -> str:
     for g in previews:
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
             d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], [])))
-    (SITE_DIR / "index.html").write_text(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
@@ -547,13 +553,37 @@ def render_site() -> str:
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
     finish_site(games, have_box, profiles, standings, m)
-    return str(SITE_DIR / "index.html")
+    return str(SITE_DIR / HOME)
+
+
+CANON: dict[str, str] = {}  # game id -> canonical URL in another edition; those pages stay out of our sitemaps
+
+
+def canon_games(games: list[dict[str, Any]]) -> dict[str, str]:
+    """A game between two of our conferences gets a page in both; the first edition in LEAGUES order owns it."""
+    out = {}
+    for g in games:
+        owner = hub.game_owner(g["home"].get("espn_id"), g["away"].get("espn_id"))
+        if owner and owner.key != LEAGUE.key:
+            out[g["game_id"]] = f"{SITE_BASE}{owner.path}games/{g['game_id']}.html"
+    return out
+
+
+def write_front(html: str) -> None:
+    """The edition's front page. The MAC's sits in mac/ but its links are written for the root,
+    so it gets <base href="../"> and its same-page #links point at itself."""
+    if HOME == "index.html":
+        (SITE_DIR / "index.html").write_text(html)
+        return
+    html = html.replace("<head>", '<head>\n<base href="../">', 1).replace('href="#', f'href="{HOME}#')
+    (SITE_DIR / HOME).parent.mkdir(parents=True, exist_ok=True)
+    (SITE_DIR / HOME).write_text(html)
 
 
 def league_links() -> list[dict[str, Any]]:
     """Every edition, with its path from the site root, for the league switcher."""
     return [{"key": lg.key, "short": lg.short, "name": lg.name, "path": lg.path, "on": lg.key == LEAGUE.key,
-             "region": lg.region} for lg in LEAGUES.values()]
+             "region": lg.region, "home": hub.front_page(lg)} for lg in LEAGUES.values()]
 
 
 def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, Any]],
@@ -624,6 +654,8 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "static").mkdir(exist_ok=True)
     (SITE_DIR / "static" / "teams.css").write_text(site_chrome.teams_css())
 
+    if not LEAGUE.path:
+        hub.build()  # first pass, so the hub is in the MAC sitemap; rebuilt below after robots.txt
     # Only this edition's pages: the MAC lives at the root, so skip the other editions' folders under it.
     others = tuple(SITE_DIR / lg.path for lg in LEAGUES.values() if lg.path and lg.key != LEAGUE.key)
     pages = sorted(p for p in SITE_DIR.rglob("*.html") if not any(p.is_relative_to(o) for o in others))
@@ -649,8 +681,11 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
 
     (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
+    if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
+        hub.build()
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
-        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"))
+        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"
+        and not (f.parent.name == "games" and f.stem in CANON)))
 
     if not site_chrome.pillow_ok():
         print("share cards: skipped (Pillow not installed)")

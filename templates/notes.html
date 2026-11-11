@@ -16,7 +16,7 @@
 <body>
 {{ L.topbar(root="", active="notes.html") }}
 <main id="main">
-  <nav class="crumbs"><a href="index.html">{{ site_name }}</a> <span class="dim">/</span> Fieldhouse Notes</nav>
+  <nav class="crumbs"><a href="{{ home }}">{{ site_name }}</a> <span class="dim">/</span> Fieldhouse Notes</nav>
   <header class="fh-hero">
     <h1>Fieldhouse Notes</h1>
     <span class="sub">Dispatches from the season, filed by how they were gathered: {% for k, v in notes_kinds.items() %}<span style="white-space:nowrap">{{ L.kind_icon(k) }} {{ v[0]|lower }}</span>{{ ', ' if not loop.last }}{% endfor %}.</span>

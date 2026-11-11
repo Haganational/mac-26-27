@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hardwood Bricks: {{ names }} men's basketball scores, box scores and lines</title>
+<meta name="description" content="Every {{ names }} men's basketball game, {{ season }}: tonight's schedule and TV, final scores with a written recap and box score, player pages, lines and ratings.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% endif %}<link rel="canonical" href="{{ base }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="Hardwood Bricks: {{ names }} men's basketball">
+<meta property="og:description" content="Tonight's games, last night's finals, box scores and recaps for every team in the {{ names }}.">
+<meta property="og:url" content="{{ base }}">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="static/og/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<script type="application/ld+json">{{ ld_json|safe }}</script>
+<style>
+  :root { color-scheme: light; --page:#f6f3ee; --surface:#fffdf9; --ink:#1d1611; --ink-2:#5b5048; --muted:#8a7f76; --border:rgba(29,22,17,.12); --accent:#a8441c; --win:#1d1611; --live:#c62828; --hick:#2a1a10; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --page:#121010; --surface:#1c1917; --ink:#f2ede7; --ink-2:#c9bfb5; --muted:#8f857c; --border:rgba(255,255,255,.12); --accent:#e3784a; --win:#f2ede7; --live:#ef5350; } }
+  :root[data-theme="dark"] { color-scheme: dark; --page:#121010; --surface:#1c1917; --ink:#f2ede7; --ink-2:#c9bfb5; --muted:#8f857c; --border:rgba(255,255,255,.12); --accent:#e3784a; --win:#f2ede7; --live:#ef5350; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: inherit; }
+  .bar { background: var(--hick); color: #f6efe6; }
+  .bar-in, main, footer { max-width: 1120px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+  .bar-in { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
+  .brand { font-weight: 800; font-size: 19px; letter-spacing: -.01em; text-decoration: none; }
+  .bar nav { display: flex; gap: 6px; flex-wrap: wrap; }
+  .bar nav a { text-decoration: none; padding: 5px 11px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); font-size: 14px; }
+  .bar nav a:hover { background: rgba(255,255,255,.12); }
+  .hero { padding: 28px 0 8px; }
+  h1 { font-size: clamp(24px, 4.5vw, 36px); line-height: 1.12; margin: 0 0 8px; letter-spacing: -.02em; }
+  .hero p { margin: 0; color: var(--ink-2); max-width: 60ch; }
+  .eds { display: grid; gap: 18px; margin: 24px 0 40px; }
+  .ed { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+  .ed-h { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+  .ed h2 { margin: 0; font-size: 21px; }
+  .ed h2 a { text-decoration: none; }
+  .ed .go { font-weight: 600; color: var(--accent); text-decoration: none; white-space: nowrap; }
+  .ed .rg { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+  h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 6px; }
+  ul.gl { list-style: none; margin: 0; padding: 0; }
+  ul.gl li a { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-top: 1px solid var(--border); text-decoration: none; }
+  ul.gl li:first-child a { border-top: 0; }
+  ul.gl .m { color: var(--muted); font-size: 13px; white-space: nowrap; }
+  ul.gl b { color: var(--win); }
+  ul.gl .l { color: var(--ink-2); }
+  .live { color: var(--live); font-weight: 700; }
+  .none { color: var(--muted); margin: 6px 0; }
+  .tm { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .tm a { font-size: 13px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 999px; text-decoration: none; color: var(--ink-2); }
+  .tm a:hover { color: var(--ink); border-color: var(--ink-2); }
+  footer { color: var(--muted); font-size: 13px; padding-bottom: 40px; }
+  footer a { color: var(--ink-2); }
+</style>
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Hardwood Bricks</a>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}</nav>
+</div></header>
+<main>
+  <section class="hero">
+    <h1>{{ names }} men's basketball, every game</h1>
+    <p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player. {{ season }} season.</p>
+  </section>
+  <div class="eds">
+  {% for e in eds %}
+    <section class="ed" id="{{ e.key }}" aria-labelledby="h-{{ e.key }}">
+      <div class="ed-h"><h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2><a class="go" href="{{ e.href }}">{{ e.short }} scores, standings and lines →</a></div>
+      <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
+      <div class="cols">
+        <div>
+          <h3>Next up</h3>
+          {% if e.tonight %}<ul class="gl">{% for g in e.tonight %}<li><a href="{{ g.href }}"><span>{{ g.away }} at {{ g.home }}</span><span class="m">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %} · {{ g.tv }}{% endif %}</span></a></li>{% endfor %}</ul>
+          {% else %}<p class="none">No games on the board.</p>{% endif %}
+        </div>
+        <div>
+          <h3>Latest finals</h3>
+          {% if e.finals %}<ul class="gl">{% for g in e.finals %}<li><a href="{{ g.href }}"><span>{% if g.away_win %}<b>{{ g.away }} {{ g.away_score }}</b>, <span class="l">{{ g.home }} {{ g.home_score }}</span>{% else %}<b>{{ g.home }} {{ g.home_score }}</b>, <span class="l">{{ g.away }} {{ g.away_score }}</span>{% endif %}</span><span class="m">Recap and box →</span></a></li>{% endfor %}</ul>
+          {% else %}<p class="none">No finals yet.</p>{% endif %}
+        </div>
+      </div>
+      <nav class="tm" aria-label="{{ e.short }} teams">{% for t in e.teams %}<a href="{{ t.href }}">{{ t.short }}</a>{% endfor %}</nav>
+    </section>
+  {% endfor %}
+  </div>
+</main>
+<footer>Stats from ESPN. Built {{ built }} UTC. <a href="https://www.youtube.com/@juiceboxtv-m1g">MAC90 on YouTube</a></footer>
+</body>
+</html>

@@ -8,7 +8,7 @@
 <body>
 {{ L.topbar(root="../", active="teams") }}
 <main id="main" class="teampage t-{{ team.key }}">
-  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
+  <nav class="crumbs"><a href="../{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
     <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="t-{{ t.key }}{{ ' on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
   </nav>
   <header class="teamhead hero t-{{ team.key }}">

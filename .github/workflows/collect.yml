@@ -107,6 +107,13 @@ jobs:
           else
             python -m mac.collect edition
           fi
+      - name: All-conference front page (hardwoodbricks.com/)
+        # After the editions, so the hub shows every conference's latest games.
+        continue-on-error: true
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
+        run: python -m mac.collect hub
       - name: Commit new data
         run: |
           git config user.name "mac-collector"
