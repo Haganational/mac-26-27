@@ -36,8 +36,8 @@
   <article class="gamer" id="gamer">
     <h1>{{ gm.headline }}</h1>
     <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published[:10] }}</time></div>
-    {% for p in gm.paragraphs %}<p>{{ p }}</p>
-    {% endfor %}{% if gm.scoring %}<p class="scoring"><b>Scoring</b> · {{ gm.scoring }}</p>
+    {% for p in gm.html %}<p>{{ p }}</p>
+    {% endfor %}{% if gm.scoring %}<p class="scoring"><b>Scoring</b> · {{ gm.scoring_html }}</p>
     {% endif %}{% for f in gm.flavor %}<p class="flavor">{{ f }}</p>
     {% endfor %}
   </article>
@@ -128,7 +128,7 @@
       <tr><th>Player</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">FG</th><th class="num">3PT</th><th class="num">FT</th><th class="num">OREB</th><th class="num">REB</th><th class="num">AST</th><th class="num">TO</th><th class="num">STL</th><th class="num">BLK</th><th class="num">PF</th></tr>
       {% for p in side.players %}
       <tr{% if loop.index == 6 %} class="benchsplit"{% endif %}>
-        <td>{% if side.key %}<a href="../teams/{{ side.key }}.html#p{{ p.espn_id }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.starter %} <span class="dim">{{ p.position or "" }}</span>{% endif %}</td>
+        <td>{% if phref.get(p.espn_id|string) %}<a href="../{{ phref[p.espn_id|string] }}">{{ p.name }}</a>{% elif side.key %}<a href="../teams/{{ side.key }}.html#p{{ p.espn_id }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.starter %} <span class="dim">{{ p.position or "" }}</span>{% endif %}</td>
         {% if p.dnp %}<td colspan="12" class="dim">DNP</td>{% else %}
         <td class="num">{{ p.min }}</td><td class="num"><b>{{ p.pts }}</b></td><td class="num">{{ p.fgm }}-{{ p.fga }}</td><td class="num">{{ p.tpm }}-{{ p.tpa }}</td><td class="num">{{ p.ftm }}-{{ p.fta }}</td>
         <td class="num">{{ p.oreb }}</td><td class="num">{{ p.reb }}</td><td class="num">{{ p.ast }}</td><td class="num">{{ p.to }}</td><td class="num">{{ p.stl }}</td><td class="num">{{ p.blk }}</td><td class="num">{{ p.pf }}</td>{% endif %}

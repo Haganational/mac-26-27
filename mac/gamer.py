@@ -9,12 +9,47 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+from markupsafe import Markup, escape
+
 from .config import DATA_DIR, SITE_URL
 from .today import school
+
+STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
+          "CT": "Connecticut", "DE": "Delaware", "DC": "D.C.", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
+          "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky",
+          "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan",
+          "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada",
+          "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina",
+          "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania",
+          "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas",
+          "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
+          "WI": "Wisconsin", "WY": "Wyoming"}
+
+
+def town(hometown: str | None) -> str | None:
+    """'Westerville, OH' -> 'Westerville, Ohio'; 'Cotonou, Benin' stays as it is."""
+    if not hometown or not hometown.strip():
+        return None
+    parts = [x.strip() for x in hometown.split(",")]
+    if len(parts) == 2 and parts[1].upper() in STATES:
+        return f"{parts[0]}, {STATES[parts[1].upper()]}"
+    return hometown.strip()
+
+
+def linkify(text: str, links: dict[str, str]) -> Markup:
+    """Escape text and turn each player name in `links` into a link (longest names first)."""
+    out = str(escape(text))
+    names = sorted((n for n in links if n), key=len, reverse=True)
+    if not names:
+        return Markup(out)
+    pat = re.compile(r"(?<![\w-])(" + "|".join(re.escape(str(escape(n))) for n in names) + r")(?![\w-])")
+    by_esc = {str(escape(n)): links[n] for n in names}
+    return Markup(pat.sub(lambda m: f'<a href="{escape(by_esc[m.group(1)])}">{m.group(1)}</a>', out))
 
 FLAVOR_PATH = DATA_DIR / "flavor.json"
 PUBLISHED_PATH = DATA_DIR / "published.json"
@@ -129,8 +164,19 @@ def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str
     return res
 
 
-def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str, Any] | None = None) -> dict[str, Any]:
-    """Headline, paragraphs and flavor lines for one finished game, from game_page_context()."""
+def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str, Any] | None = None,
+          bios: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
+    """Headline, paragraphs and flavor lines for one finished game, from game_page_context().
+
+    bios: {espn_id: {"hometown": "Westerville, OH"}} for players we have rosters for. The top
+    scorer and the game's leading rebounder get their hometown when we know it.
+    """
+    bios = bios or {}
+
+    def native(p: dict[str, Any]) -> str:
+        t = town((bios.get(str(p.get("espn_id"))) or {}).get("hometown"))
+        return f"{t}, native {p['name']}" if t and "," in t else (f"{t} native {p['name']}" if t else p["name"])
+
     g, home, away = c["g"], c["home"], c["away"]
     flavor = flavor if flavor is not None else load_flavor()
     hn, an = school(home["name"], home.get("key")), school(away["name"], away.get("key"))
@@ -157,9 +203,19 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
     paras = [lede]
     tw, tl = _top(w.get("players", [])), _top(l.get("players", []))
     if tw:
-        s = f"{tw['name']} led {wn} with {_player_line(tw)}."
+        s = f"{native(tw)} led {wn} with {_player_line(tw)}."
+        rebs = [(p, wn if p in w.get("players", []) else ln) for p in w.get("players", []) + l.get("players", [])
+                if not p.get("dnp") and (p.get("reb") or 0) >= 6]
+        rb, rteam = max(rebs, key=lambda x: (x[0]["reb"], x[0].get("oreb") or 0)) if rebs else (None, None)
         if tl:
-            s += f" {tl['name']} had {_player_line(tl)} for {ln}."
+            line = _player_line(tl)
+            if rb is tl:  # the loser's top scorer also owned the glass: say it once, with his hometown
+                s += f" {native(tl)} had {line} for {ln}" + (", a game high on the boards." if "rebounds" in line
+                                                               else f" and a game-high {tl['reb']} rebounds.")
+            else:
+                s += f" {tl['name']} had {line} for {ln}."
+        if rb is not None and rb is not tw and rb is not tl:
+            s += f" {native(rb)} led all players with {rb['reb']} rebounds for {rteam}."
         paras.append(s)
     edge = _edge_sentence(w, l, wn, ln)
     res = c.get("result") or {}

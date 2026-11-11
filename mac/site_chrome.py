@@ -195,7 +195,8 @@ def build_search_index(sections: dict[str, list[tuple[str, str]]], games: list[d
             pg = (p.get("season") or {}).get("per_game") or {}
             if (p.get("season") or {}).get("gp"):
                 bits.append(f"{pg.get('pts')} ppg")
-            idx.append(search_entry("Player", p["name"], f"teams/{key}.html#p{p['espn_id']}", " · ".join(bits), key,
+            url = f"players/{slug(p['name'])}-{p['espn_id']}.html" if p.get("name") else f"teams/{key}.html#p{p['espn_id']}"
+            idx.append(search_entry("Player", p["name"], url, " · ".join(bits), key,
                                     f"{team.abbr} {p.get('hometown') or ''} {p.get('previous_school') or ''}"))
     # Upcoming games first (soonest on top), then results (latest on top); the search keeps this order on ties.
     ordered = sorted((g for g in games if not g["completed"]), key=lambda g: g["date"]) + \

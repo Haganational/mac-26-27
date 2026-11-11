@@ -40,7 +40,7 @@ def test_search_index_covers_teams_players_games_sections():
         by_kind.setdefault(e["k"], []).append(e)
     assert len(by_kind["Team"]) == len(TEAMS)
     player = by_kind["Player"][0]
-    assert player["u"] == "teams/akron.html#p9" and "jose perez" in player.get("h", "jose perez")
+    assert player["u"] == "players/jose-perez-9.html" and "jose perez" in player.get("h", "jose perez")
     urls = [g["u"] for g in by_kind["Game"]]
     assert urls == ["tv.html#g2", "games/1.html"]  # upcoming first; finished links to its box score
     assert "espn+" in by_kind["Game"][0]["h"]

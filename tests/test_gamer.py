@@ -93,3 +93,43 @@ def test_scoring_line_lists_every_scorer_winner_first():
     assert gm["scoring"] == "Akron: A One 22, A Two 10. Kent State: K One 18."
     gm = gamer.write(ctx(home_score=70, away_score=72), None, FLAVOR)
     assert gm["scoring"].startswith("Kent State: K One 18.")
+
+
+def test_town_spells_out_states():
+    assert gamer.town("Westerville, OH") == "Westerville, Ohio"
+    assert gamer.town("Cotonou, Benin") == "Cotonou, Benin"
+    assert gamer.town("") is None and gamer.town(None) is None
+
+
+def test_hometowns_for_top_scorer_and_leading_rebounder():
+    c = ctx()
+    for i, pl in enumerate(c["home"]["players"] + c["away"]["players"]):
+        pl["espn_id"] = str(i)
+    c["away"]["players"][0]["reb"] = 12  # K One out-rebounds everyone
+    bios = {"0": {"hometown": "Westerville, OH"}, "3": {"hometown": "Cleveland, OH"}}
+    s = gamer.write(c, None, FLAVOR, bios)["paragraphs"][1]
+    assert s.startswith("Westerville, Ohio, native A One led Akron with 22 points")
+    assert "Cleveland, Ohio, native K One had 18 points and 12 rebounds for Kent State, a game high on the boards." in s
+
+
+def test_top_scorer_who_also_leads_the_glass_is_named_once():
+    s = gamer.write(ctx(), None, FLAVOR)["paragraphs"][1]
+    assert s.count("A One") == 1 and "rebounds for" not in s
+
+
+def test_linkify_escapes_and_links_longest_name_first():
+    out = gamer.linkify("Jalen Smith Jr. had 9 & Jalen Smith 4.", {"Jalen Smith": "a.html", "Jalen Smith Jr.": "b.html"})
+    assert '<a href="b.html">Jalen Smith Jr.</a>' in out
+    assert '<a href="a.html">Jalen Smith</a> 4' in out
+    assert "&amp;" in out
+
+
+def test_losers_top_scorer_who_led_the_glass_is_named_once_with_hometown():
+    c = ctx()
+    for i, pl in enumerate(c["home"]["players"] + c["away"]["players"]):
+        pl["espn_id"] = str(i)
+    c["home"]["players"][0]["reb"] = 3
+    c["away"]["players"][0]["reb"] = 7
+    s = gamer.write(c, None, FLAVOR, {"3": {"hometown": "Irmo, SC"}})["paragraphs"][1]
+    assert "Irmo, South Carolina, native K One had 18 points for Kent State and a game-high 7 rebounds." in s
+    assert s.count("K One") == 1

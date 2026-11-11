@@ -1,0 +1,82 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{{ L.head(page_title, page_desc, root="../", path=path, image="static/og/team-" ~ team.key ~ ".png") }}
+<script type="application/ld+json">{{ ld_json|safe }}</script>
+</head>
+<body>
+{{ L.topbar(root="../", active="") }}
+<main id="main">
+  <nav class="crumbs"><a href="../index.html">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="../teams/{{ team.key }}.html">{{ team.short }}</a> <span class="dim">/</span> {{ p.name }}</nav>
+
+  <header class="phead t-{{ team.key }}">
+    {% if p.headshot %}<img src="{{ p.headshot }}" alt="" width="96" height="96" onerror="this.style.visibility='hidden'">{% endif %}
+    <div>
+      <h1>{{ p.name }}</h1>
+      <div class="sub"><a href="../teams/{{ team.key }}.html">{{ team.name }}</a> {{ position }}{% if p.jersey %} · #{{ p.jersey }}{% endif %}{% if p.class_name %} · {{ p.class_name }}{% endif %}{% if p.height %} · {{ p.height }}{% endif %}{% if p.weight %} · {{ p.weight }}{% endif %}</div>
+      {% if hometown or p.previous_school %}<div class="sub">{% if hometown %}Hometown: <b>{{ hometown }}</b>{% endif %}{% if p.previous_school %}{% if hometown %} · {% endif %}Previously: {{ p.previous_school }}{% endif %}</div>{% endif %}
+    </div>
+  </header>
+
+  {% if gp %}
+  <section>
+    <h2>{{ d.season }} season</h2>
+    <div class="pv-nums">
+      <div><b>{{ pg.pts }}</b><small>points per game</small></div>
+      <div><b>{{ pg.reb }}</b><small>rebounds per game</small></div>
+      <div><b>{{ pg.ast }}</b><small>assists per game</small></div>
+      <div><b>{{ pg.min }}</b><small>minutes per game</small></div>
+    </div>
+    <div class="statrow" style="margin-top:10px">
+      <span><b>{{ gp }}</b> games{% if p.season.gs %} ({{ p.season.gs }} starts){% endif %}</span>
+      <span><b>{{ p.season.totals.pts }}</b> points total</span>
+      <span>FG <b>{{ p.season.totals.fgm }}-{{ p.season.totals.fga }}</b>{% if p.season.fg_pct is not none %} ({{ p.season.fg_pct }}%){% endif %}</span>
+      <span>3PT <b>{{ p.season.totals.tpm }}-{{ p.season.totals.tpa }}</b>{% if p.season.tp_pct is not none %} ({{ p.season.tp_pct }}%){% endif %}</span>
+      <span>FT <b>{{ p.season.totals.ftm }}-{{ p.season.totals.fta }}</b>{% if p.season.ft_pct is not none %} ({{ p.season.ft_pct }}%){% endif %}</span>
+    </div>
+    {% if last %}
+    <p class="lastgame"><b>Last game:</b> {{ last.pts }} points{% if last.reb %}, {{ last.reb }} rebounds{% endif %}{% if last.ast %}, {{ last.ast }} assists{% endif %} {{ 'vs' if last.home else 'at' }} {{ last.opp }} ({{ (last.date or '')[:10] }}){% if last.result %}, {{ last.result }}{% endif %}{% if last.box %} · <a href="../games/{{ last.game_id }}.html">box score</a>{% endif %}.</p>
+    {% endif %}
+    {% if highs %}
+    <p class="sub">Season highs: {% if highs.pts %}{{ highs.pts.pts }} points ({{ 'vs' if highs.pts.home else 'at' }} {{ highs.pts.opponent_abbr }}){% endif %}{% if highs.reb %} · {{ highs.reb.reb }} rebounds ({{ 'vs' if highs.reb.home else 'at' }} {{ highs.reb.opponent_abbr }}){% endif %}{% if highs.ast %} · {{ highs.ast.ast }} assists ({{ 'vs' if highs.ast.home else 'at' }} {{ highs.ast.opponent_abbr }}){% endif %}</p>
+    {% endif %}
+  </section>
+
+  <section>
+    <h2>Game log</h2>
+    <div class="scroll"><table class="log">
+      <tr><th>Date</th><th>Opponent</th><th>Result</th><th class="num">MIN</th><th class="num">PTS</th><th class="num">FG</th><th class="num">3PT</th><th class="num">FT</th><th class="num">REB</th><th class="num">AST</th><th class="num">TO</th><th class="num">STL</th><th class="num">BLK</th></tr>
+      {% for g in p.game_log|reverse %}
+      <tr><td class="dim">{{ (g.date or "")[5:10] }}</td><td>{{ 'vs' if g.home else 'at' }} {{ g.opp }}</td><td>{% if g.box %}<a href="../games/{{ g.game_id }}.html">{{ g.result or "box" }}</a>{% else %}{{ g.result or "" }}{% endif %}</td>
+        {% if g.dnp %}<td colspan="10" class="dim">DNP</td>{% else %}
+        <td class="num">{{ g.min }}</td><td class="num"><b>{{ g.pts }}</b></td><td class="num">{{ g.fgm }}-{{ g.fga }}</td><td class="num">{{ g.tpm }}-{{ g.tpa }}</td><td class="num">{{ g.ftm }}-{{ g.fta }}</td><td class="num">{{ g.reb }}</td><td class="num">{{ g.ast }}</td><td class="num">{{ g.to }}</td><td class="num">{{ g.stl }}</td><td class="num">{{ g.blk }}</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </table></div>
+  </section>
+  {% else %}
+  <section><p class="sub">{{ p.name }} has not appeared in a game yet this season.</p></section>
+  {% endif %}
+
+  {% if notes %}
+  <section>
+    <h2>Fieldhouse Notes</h2>
+    {{ L.dispatches(notes, root="../") }}
+  </section>
+  {% endif %}
+  <div class="author-only" style="margin:4px 0">{{ L.add_dispatch("", p.name, small=True, player=p.espn_id, pname=p.name, root="../") }}</div>
+
+  {% if p.coverage_notes or p.preview_claims %}
+  <section>
+    <h2>What coverage says</h2>
+    {% if p.coverage_notes %}<p class="cov">{{ p.coverage_notes }}{% for u in p.coverage_sources %} <a href="{{ u }}" class="src">source</a>{% endfor %}</p>{% endif %}
+    {% for c in p.preview_claims %}<p class="cov"><span class="dim">{{ c.outlet }}:</span> {{ c.claim }}{% if c.url %} <a href="{{ c.url }}" class="src">source</a>{% endif %}</p>{% endfor %}
+  </section>
+  {% endif %}
+
+  <p class="sub">More: <a href="../teams/{{ team.key }}.html#p{{ p.espn_id }}">{{ team.short }} roster</a>{% if p.espn_url %} · <a href="{{ p.espn_url }}">ESPN profile</a>{% endif %}</p>
+</main>
+{{ L.footer(root="../", updated=d.generated_et) }}
+</body>
+</html>
