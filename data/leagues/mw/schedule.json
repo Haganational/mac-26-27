@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T12:02:05+00:00",
+ "fetched_at": "2026-11-11T18:01:53+00:00",
  "season": 2027,
  "games": [
   {
@@ -2117,40 +2117,6 @@
    "detail": ""
   },
   {
-   "game_id": "401911338",
-   "date": "2026-11-24T21:00Z",
-   "name": "Air Force Falcons at Army Black Knights",
-   "short_name": "AF VS ARMY",
-   "season_type": "reg",
-   "neutral_site": true,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "venue": "UTSA Convocation Center",
-   "venue_city": "San Antonio",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "349",
-    "key": null,
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2005",
-    "key": "air-force",
-    "name": "Air Force Falcons",
-    "abbr": "AF",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401921707",
    "date": "2026-11-24T22:30Z",
    "name": "Wyoming Cowboys at Kent State Golden Flashes",
@@ -2222,6 +2188,46 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911338",
+   "date": "2026-11-25T01:00Z",
+   "name": "Air Force Falcons at Army Black Knights",
+   "short_name": "AF VS ARMY",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UTSA Convocation Center",
+   "venue_city": "San Antonio",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "349",
+    "key": null,
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2005",
+    "key": "air-force",
+    "name": "Air Force Falcons",
+    "abbr": "AF",
     "score": null,
     "winner": null
    },
