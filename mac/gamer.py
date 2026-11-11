@@ -17,7 +17,7 @@ from typing import Any
 
 from markupsafe import Markup, escape
 
-from .config import DATA_DIR, SITE_URL
+from .config import DATA_DIR, SITE_BASE, SITE_URL
 from .today import school
 
 ET = ZoneInfo("America/New_York")
@@ -334,7 +334,8 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
             place["address"] = {"@type": "PostalAddress", "addressLocality": g["venue_city"],
                                 "addressRegion": g.get("venue_state") or "", "addressCountry": "US"}
         event["location"] = place
-    org = {"@type": "Organization", "name": site_name, "url": site_url,
+    org = {"@type": "NewsMediaOrganization", "@id": f"{SITE_BASE}#org", "name": site_name, "url": SITE_BASE,
+           "masthead": f"{SITE_BASE}masthead.html", "publishingPrinciples": f"{SITE_BASE}masthead.html#standards",
            "logo": {"@type": "ImageObject", "url": f"{site_url}static/og/icon-512.png"}}
     article = {
         "@type": "NewsArticle",
@@ -347,7 +348,7 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         "mainEntityOfPage": url,
         "url": url,
         "image": [photo_ld(ph, site_url) for ph in (photos or [])] + [f"{site_url}static/og/game-{g['game_id']}.png"],
-        "author": [{"@type": "Organization", "name": gm["byline"], "url": f"{site_url}about.html"}],
+        "author": [{"@type": "Organization", "name": gm["byline"], "url": f"{SITE_BASE}masthead.html#automation"}],
         "publisher": org,
         "about": {"@id": url + "#game"},
         "isAccessibleForFree": True,

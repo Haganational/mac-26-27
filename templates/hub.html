@@ -21,47 +21,7 @@
 <link rel="apple-touch-icon" href="static/og/icon-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <script type="application/ld+json">{{ ld_json|safe }}</script>
-<style>
-  :root { color-scheme: light; --page:#f6f3ee; --surface:#fffdf9; --ink:#1d1611; --ink-2:#5b5048; --muted:#8a7f76; --border:rgba(29,22,17,.12); --accent:#a8441c; --win:#1d1611; --live:#c62828; --hick:#2a1a10; }
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --page:#121010; --surface:#1c1917; --ink:#f2ede7; --ink-2:#c9bfb5; --muted:#8f857c; --border:rgba(255,255,255,.12); --accent:#e3784a; --win:#f2ede7; --live:#ef5350; } }
-  :root[data-theme="dark"] { color-scheme: dark; --page:#121010; --surface:#1c1917; --ink:#f2ede7; --ink-2:#c9bfb5; --muted:#8f857c; --border:rgba(255,255,255,.12); --accent:#e3784a; --win:#f2ede7; --live:#ef5350; }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  a { color: inherit; }
-  .bar { background: var(--hick); color: #f6efe6; }
-  .bar-in, main, footer { max-width: 1120px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
-  .bar-in { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
-  .brand { font-weight: 800; font-size: 19px; letter-spacing: -.01em; text-decoration: none; }
-  .bar nav { display: flex; gap: 6px; flex-wrap: wrap; }
-  .bar nav a { text-decoration: none; padding: 5px 11px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); font-size: 14px; }
-  .bar nav a:hover { background: rgba(255,255,255,.12); }
-  .hero { padding: 28px 0 8px; }
-  h1 { font-size: clamp(24px, 4.5vw, 36px); line-height: 1.12; margin: 0 0 8px; letter-spacing: -.02em; }
-  .hero p { margin: 0; color: var(--ink-2); max-width: 60ch; }
-  .eds { display: grid; gap: 18px; margin: 24px 0 40px; }
-  .ed { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
-  .ed-h { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
-  .ed h2 { margin: 0; font-size: 21px; }
-  .ed h2 a { text-decoration: none; }
-  .ed .go { font-weight: 600; color: var(--accent); text-decoration: none; white-space: nowrap; }
-  .ed .rg { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
-  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
-  h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 6px; }
-  ul.gl { list-style: none; margin: 0; padding: 0; }
-  ul.gl li a { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-top: 1px solid var(--border); text-decoration: none; }
-  ul.gl li:first-child a { border-top: 0; }
-  ul.gl .m { color: var(--muted); font-size: 13px; white-space: nowrap; }
-  ul.gl b { color: var(--win); }
-  ul.gl .l { color: var(--ink-2); }
-  .live { color: var(--live); font-weight: 700; }
-  .none { color: var(--muted); margin: 6px 0; }
-  .tm { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
-  .tm a { font-size: 13px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 999px; text-decoration: none; color: var(--ink-2); }
-  .tm a:hover { color: var(--ink); border-color: var(--ink-2); }
-  footer { color: var(--muted); font-size: 13px; padding-bottom: 40px; }
-  footer a { color: var(--ink-2); }
-</style>
+{% include "_hub_style.html" %}
 </head>
 <body>
 <header class="bar"><div class="bar-in">
@@ -95,6 +55,6 @@
   {% endfor %}
   </div>
 </main>
-<footer>Stats from ESPN. Built {{ built }} UTC. <a href="https://www.youtube.com/@juiceboxtv-m1g">MAC90 on YouTube</a></footer>
+<footer><a href="masthead.html">Masthead and standards</a> · Stats from ESPN. Built {{ built }} UTC. <a href="https://www.youtube.com/@juiceboxtv-m1g">MAC90 on YouTube</a></footer>
 </body>
 </html>
