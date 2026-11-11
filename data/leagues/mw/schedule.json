@@ -1026,7 +1026,7 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 40,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -1034,13 +1034,13 @@
     "key": null,
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": 27,
+    "score": 56,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:10 - 1st"
+   "detail": "7:43 - 2nd"
   },
   {
    "game_id": "401911230",
@@ -1066,7 +1066,7 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -1074,13 +1074,13 @@
     "key": null,
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": null,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401911346",
@@ -7949,5 +7949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T20:01:00+00:00"
+ "live_at": "2026-11-11T21:01:03+00:00"
 }
