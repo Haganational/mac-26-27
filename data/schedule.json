@@ -1140,7 +1140,7 @@
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 38,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -1148,13 +1148,13 @@
     "key": null,
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 32,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:31 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928828",
@@ -8795,5 +8795,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T00:45:25+00:00"
+ "live_at": "2026-11-11T01:00:19+00:00"
 }

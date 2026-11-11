@@ -1241,7 +1241,7 @@
     "key": null,
     "name": "Xavier Musketeers",
     "abbr": "XAV",
-    "score": 35,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -1249,13 +1249,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 17,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:16 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928828",
@@ -1321,7 +1321,7 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 38,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -1329,13 +1329,13 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 32,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:11 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927386",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T00:45:57+00:00"
+ "live_at": "2026-11-11T01:00:39+00:00"
 }
