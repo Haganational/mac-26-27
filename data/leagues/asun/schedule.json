@@ -986,7 +986,7 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -994,13 +994,13 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:41 - 1st"
   },
   {
    "game_id": "401921740",
@@ -7512,5 +7512,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-11T01:15:41+00:00"
 }

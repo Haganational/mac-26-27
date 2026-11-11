@@ -1241,7 +1241,7 @@
     "key": null,
     "name": "Xavier Musketeers",
     "abbr": "XAV",
-    "score": 43,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -1249,13 +1249,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 20,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:54 - 2nd"
   },
   {
    "game_id": "401928828",
@@ -1281,7 +1281,7 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 31,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -1289,13 +1289,13 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 36,
+    "score": 50,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:46 - 2nd"
   },
   {
    "game_id": "401911011",
@@ -1321,7 +1321,7 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 50,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -1329,13 +1329,13 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 34,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:39 - 2nd"
   },
   {
    "game_id": "401927386",
@@ -1361,7 +1361,7 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -1369,13 +1369,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:55 - 1st"
   },
   {
    "game_id": "401911250",
@@ -1401,7 +1401,7 @@
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -1409,13 +1409,13 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:24 - 1st"
   },
   {
    "game_id": "401921175",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T01:00:39+00:00"
+ "live_at": "2026-11-11T01:15:54+00:00"
 }
