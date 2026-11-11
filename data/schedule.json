@@ -1140,7 +1140,7 @@
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 82,
+    "score": 90,
     "winner": null
    },
    "away": {
@@ -1148,13 +1148,13 @@
     "key": null,
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 70,
+    "score": 76,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:45 - 2nd"
+   "detail": "3:14 - 2nd"
   },
   {
    "game_id": "401928828",
@@ -1180,21 +1180,21 @@
     "key": "toledo",
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 59,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "2750",
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 71,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:14 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920946",
@@ -8795,5 +8795,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T01:45:19+00:00"
+ "live_at": "2026-11-11T02:00:23+00:00"
 }

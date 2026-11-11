@@ -946,21 +946,21 @@
     "key": null,
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
-    "score": 71,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "2751",
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 61,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:52 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924896",
@@ -7943,5 +7943,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T01:45:51+00:00"
+ "live_at": "2026-11-11T02:01:06+00:00"
 }
