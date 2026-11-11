@@ -11,6 +11,7 @@ import hashlib
 import json
 import re
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any
 
@@ -18,6 +19,8 @@ from markupsafe import Markup, escape
 
 from .config import DATA_DIR, SITE_URL
 from .today import school
+
+ET = ZoneInfo("America/New_York")
 
 STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
           "CT": "Connecticut", "DE": "Delaware", "DC": "D.C.", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
@@ -165,7 +168,7 @@ def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str
 
 
 def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str, Any] | None = None,
-          bios: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
+          bios: dict[str, dict[str, Any]] | None = None, nba: tuple[dict, dict] | None = None) -> dict[str, Any]:
     """Headline, paragraphs and flavor lines for one finished game, from game_page_context().
 
     bios: {espn_id: {"hometown": "Westerville, OH"}} for players we have rosters for. The top
@@ -230,6 +233,15 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
         tail.append(f"Our model missed the final margin by {mp['model_err']:.1f} points.")
     if tail:
         paras.append(" ".join(tail))
+    if nba:  # (nights, colleges) from nba_alumni: former players of either school who played in the NBA that night or the night before
+        from . import nba_alumni
+        try:
+            day = datetime.fromisoformat(g["date"].replace("Z", "+00:00")).astimezone(ET).date()
+            para = nba_alumni.paragraph([(str(home.get("espn_id") or ""), hn), (str(away.get("espn_id") or ""), an)], day, *nba)
+        except (KeyError, ValueError):
+            para = None
+        if para:
+            paras.append(para)
 
     return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
             "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),

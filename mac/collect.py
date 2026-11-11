@@ -59,6 +59,16 @@ def refresh_live() -> None:
         print(f"live: skipped ({exc})", file=sys.stderr)
 
 
+def refresh_nba() -> None:
+    """NBA rosters (weekly) and finished NBA nights, for the alumni line in recaps. Never blocks the build."""
+    from . import nba_alumni
+    try:
+        print("nba rosters:", nba_alumni.refresh_rosters())
+        print("nba nights:", nba_alumni.refresh_nights())
+    except Exception as exc:  # noqa: BLE001
+        print(f"nba: skipped ({exc})", file=sys.stderr)
+
+
 def main(argv: list[str]) -> int:
     cmd = argv[1] if len(argv) > 1 else "help"
     if cmd == "schedule":
@@ -77,6 +87,7 @@ def main(argv: list[str]) -> int:
             print(json.dumps(odds.snapshot_lines(), indent=1))
         except odds.OddsApiError as exc:
             print(f"lines: skipped ({exc})", file=sys.stderr)
+        refresh_nba()
         print("site:", build.render_site())
     elif cmd == "live":
         # Every-15-minute game-night run: ESPN scores only (no Odds API credits), then a re-render.
@@ -162,6 +173,7 @@ def main(argv: list[str]) -> int:
             print("news:", news.refresh())
         except Exception as exc:  # noqa: BLE001 - a feed outage must not block the site build
             print(f"news: skipped ({exc})", file=sys.stderr)
+        refresh_nba()
         print("site:", build.render_site())
     else:
         print(__doc__)
