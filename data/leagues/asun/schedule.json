@@ -986,21 +986,21 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": 81,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2057",
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 72,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921740",
@@ -1034,13 +1034,13 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": 39,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921105",
@@ -7513,5 +7513,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T02:45:37+00:00"
+ "live_at": "2026-11-11T03:00:46+00:00"
 }
