@@ -13,8 +13,9 @@ out = Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
 jobs = {}
 for i, (spk, text) in enumerate(d["lines"]):
     wav = out / f"{i:02d}-{spk}.wav"
-    if spk == "cynthia":
-        subprocess.run([sys.executable, "-m", "piper", "-m", f"voices/{d['cynthia_voice']}.onnx", "-f", str(wav), "--length-scale", "0.92"],
+    if spk in ("cynthia", "craig"):  # plainly synthetic Piper voices
+        voice, scale = (d["cynthia_voice"], "0.92") if spk == "cynthia" else (d["craig_voice"], "1.3")
+        subprocess.run([sys.executable, "-m", "piper", "-m", f"voices/{voice}.onnx", "-f", str(wav), "--length-scale", scale],
                        input=text.encode(), check=True)
     else:
         jobs.setdefault(spk, []).append({"text": text, "out": str(wav.resolve())})

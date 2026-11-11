@@ -37,7 +37,7 @@ jobs:
         run: |
           pip install -q piper-tts
           mkdir -p voices
-          for v in en_US-amy-medium; do
+          for v in en_US-amy-medium en_US-joe-medium; do
             base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/${v#en_US-}; base=${base%-medium}/medium
             curl -sSfL -o voices/$v.onnx $base/$v.onnx; curl -sSfL -o voices/$v.onnx.json $base/$v.onnx.json
           done
