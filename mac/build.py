@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import access, analysis, gamer, model, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -376,6 +376,8 @@ def render_site() -> str:
     history = analysis.line_history(load_all_rows())
     espn_lines = espn_lines_by_game()
     profiles = players.build_profiles(games)
+    phref = player_pages.hrefs(profiles)
+    bios = {str(p["espn_id"]): {"hometown": p.get("hometown")} for plist in profiles.values() for p in plist}
     if LEAGUE.has("x"):
         attach_x_handles(profiles)
     standings = {r["key"]: r for r in data["standings"]}
@@ -405,11 +407,15 @@ def render_site() -> str:
         snap = history.get(mapping.get(gid, ""))
         mp = model_view.past_view(said.get(gid))
         gc = game_page_context(g, box, snap, ctx)
-        gm = gamer.write(gc, mp, flavor)
+        gm = gamer.write(gc, mp, flavor, bios)
+        links = {pl["name"]: "../" + phref[str(pl["espn_id"])] for side in ("home", "away") for pl in gc[side]["players"]
+                 if str(pl.get("espn_id")) in phref}
+        gm["html"] = [gamer.linkify(t, links) for t in gm["paragraphs"]]
+        gm["scoring_html"] = gamer.linkify(gm["scoring"], links)
         pub = gamer.stamp(published, gid, built_at, g["date"])
         ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME)
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               mp=mp, gm=gm, published=pub, ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
+                               mp=mp, gm=gm, published=pub, phref=phref, ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
     gamer.save_published(published)
@@ -493,6 +499,16 @@ def render_site() -> str:
         for p in profiles[team.key]:
             for gl in p.get("game_log", []):
                 gl["box"] = gl["game_id"] in have_box
+    # A page per player: bio, hometown, season line, last game, game log.
+    (SITE_DIR / "players").mkdir(exist_ok=True)
+    player_tpl = env.get_template("player.html")
+    for plist in profiles.values():
+        for p in plist:
+            pc = player_pages.context(p, SEASON_LABEL)
+            ld = player_pages.json_ld(pc, site_chrome.SITE_NAME)
+            (SITE_DIR / pc["path"]).write_text(player_tpl.render(
+                d=data, notes=notes_by_player.get(p["espn_id"], []), ld_json=json.dumps(ld).replace("</", "<\\/"), **pc))
+    env.globals["phref"] = phref
     team_tpl = env.get_template("team.html")
     for team in TEAMS:
         html = team_tpl.render(

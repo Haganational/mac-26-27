@@ -1012,3 +1012,8 @@ span.lean.deep { color: var(--ink); } span.lean.deep .ln-g, span.lean .ln-g { ba
 .gamer p { margin: 10px 0 0; line-height: 1.55; }
 .gamer .flavor { font-style: italic; color: var(--ink-2); }
 .gamer .scoring { font-size: 14px; color: var(--ink-2); }
+/* Player pages */
+header.phead { display: flex; gap: 14px; align-items: center; margin: 4px 0 18px; }
+header.phead h1 { font-size: 28px; margin: 0 0 2px; }
+header.phead img { border-radius: 50%; background: var(--card, #0001); }
+.lastgame { margin: 12px 0 4px; }
