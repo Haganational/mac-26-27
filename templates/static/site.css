@@ -1017,3 +1017,8 @@ header.phead { display: flex; gap: 14px; align-items: center; margin: 4px 0 18px
 header.phead h1 { font-size: 28px; margin: 0 0 2px; }
 header.phead img { border-radius: 50%; background: var(--card, #0001); }
 .lastgame { margin: 12px 0 4px; }
+/* Our own game photos, on dispatches */
+.dispatch figure.photo { margin: 12px 0 4px; }
+.dispatch figure.photo img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.dispatch figure.photo figcaption { font-size: 13px; color: var(--ink-2); margin-top: 4px; }
+.dispatch figure.photo .credit { white-space: nowrap; }
