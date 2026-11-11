@@ -986,7 +986,7 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": 40,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -994,13 +994,13 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 32,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:19 - 2nd"
   },
   {
    "game_id": "401921740",
@@ -1026,7 +1026,7 @@
     "key": null,
     "name": "BYU Cougars",
     "abbr": "BYU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -1034,13 +1034,13 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:16 - 1st"
   },
   {
    "game_id": "401921105",
@@ -7513,5 +7513,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-11T01:45:30+00:00"
+ "live_at": "2026-11-11T02:15:41+00:00"
 }
