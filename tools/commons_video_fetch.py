@@ -14,7 +14,14 @@ FREE = re.compile(r"^(CC0|CC BY(-SA)? ?[0-9.]*|Public domain|PD.*)$", re.I)
 
 
 def get(url):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read()
+    import time
+    for wait in (2, 20, 60, 120):
+        time.sleep(wait)
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180).read()
+        except Exception as e:  # rate limits: back off and retry
+            print("retry", e)
+    raise RuntimeError("gave up on " + url)
 
 
 def strip(h):
