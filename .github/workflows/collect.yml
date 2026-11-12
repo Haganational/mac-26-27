@@ -114,6 +114,14 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: python -m mac.collect hub
+      - name: Post new recaps and previews to Bluesky
+        # Does nothing until the BSKY_HANDLE and BSKY_APP_PASSWORD secrets are set.
+        continue-on-error: true
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: python -m mac.collect social
       - name: Commit new data
         run: |
           git config user.name "mac-collector"
