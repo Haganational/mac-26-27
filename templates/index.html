@@ -116,7 +116,7 @@
   </section>
 
   <div class="corner">
-    <div class="corner-h"><h2>The betting desk</h2><span>The model against the market, for readers 21 and over. <a href="odds.html">Odds</a> · <a href="ratings.html">Ratings</a></span></div>
+    <div class="corner-h"><h2>The betting desk</h2><span>The model against the market, for readers 21 and over. {% for p in nav_pages if p[0] in desk_pages %}<a href="{{ p[0] }}">{{ p[1] }}</a>{{ ' · ' if not loop.last }}{% endfor %}</span></div>
   {% if d.model_board %}
   <section id="model-board">
     <div class="sechead"><h2>Where the model leans</h2><span class="dim">Every game with a posted line, biggest gap first</span><a class="more" href="ratings.html">How the model works →</a></div>
@@ -151,7 +151,7 @@
   </div>
 
   <nav class="pagerow" aria-label="Every page">
-    {% for p in nav_pages[1:] %}<a href="{{ p[0] }}">{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</a>{% endfor %}
+    {% for p in nav_pages[1:] if p[0] not in desk_pages %}<a href="{{ p[0] }}">{{ p[1] }}</a>{% endfor %}
   </nav>
 
   <div class="support">
