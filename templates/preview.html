@@ -34,6 +34,7 @@
     {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>
+    · <a href="{{ g.game_id }}-notes.html">Game notes (printable)</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} at {{ home.abbr }}: the model says {{ mv.fav_line }}">Share this preview</a>
   </div>
 

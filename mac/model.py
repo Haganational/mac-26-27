@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timedelta, timezone
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from . import analysis, backtest, ncaa, power
 from . import ratings as R
@@ -247,6 +248,26 @@ def _players(r: R.Ratings, prior: R.Ratings, now: datetime, log: bool, table: li
     return out, tables
 
 
+def opp_form(rows: list[dict[str, Any]], upcoming: list[dict[str, Any]], now: datetime, n: int = 5) -> dict[str, Any]:
+    """Record and last n results for each non-league opponent on the upcoming slate (for the prep sheets)."""
+    want = {u[s]["espn_id"] for u in upcoming for s in ("home", "away") if u[s]["espn_id"] not in MAC_IDS}
+    out: dict[str, Any] = {}
+    for tid in want:
+        mine = sorted((r for r in rows if tid in (r["home"], r["away"]) and r["date"] < now), key=lambda r: r["date"])
+        res = []
+        for r in mine:
+            home = r["home"] == tid
+            pf, pa = (r["pts_h"], r["pts_a"]) if home else (r["pts_a"], r["pts_h"])
+            res.append({"date": r["date"].astimezone(ZoneInfo("America/New_York")).strftime("%Y-%m-%d"),
+                        "site": "N" if r["neutral"] else ("vs" if home else "at"),
+                        "opp": r["away_name"] if home else r["home_name"], "wl": "W" if pf > pa else "L", "score": f"{pf}-{pa}"})
+        w = sum(1 for x in res if x["wl"] == "W")
+        out[tid] = {"record": f"{w}-{len(res) - w}", "last": res[::-1][:n],
+                    "ppg": round(sum(int(x["score"].split("-")[0]) for x in res) / len(res), 1) if res else None,
+                    "opp_ppg": round(sum(int(x["score"].split("-")[1]) for x in res) / len(res), 1) if res else None}
+    return out
+
+
 def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any]:
     now = now or datetime.now(timezone.utc)
     r, prior, rows, names = current_ratings(now)
@@ -286,6 +307,7 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
         "upcoming": upcoming, "season_to_date": std, "record": record,
         "backtest": load_backtest(),
     }
+    out["opp_form"] = opp_form(rows, upcoming, now)
     out["power"] = power.index(rows, r, prior, now, [(t.espn_id, t.key, t.short) for t in TEAMS])
     out["players"], out["book"] = _players(r, prior, now, log, table, names)
     if log:
