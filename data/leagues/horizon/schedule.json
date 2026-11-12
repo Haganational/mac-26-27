@@ -1567,20 +1567,20 @@
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
     "score": 76,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2523",
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 51,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928814",
@@ -1606,7 +1606,7 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 45,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -1614,13 +1614,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 40,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:50 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928818",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T02:45:59+00:00"
+ "live_at": "2026-11-12T03:00:50+00:00"
 }
