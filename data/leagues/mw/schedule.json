@@ -1106,7 +1106,7 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 37,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -1114,13 +1114,13 @@
     "key": null,
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": 29,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "18:56 - 2nd"
   },
   {
    "game_id": "401911454",
@@ -1146,7 +1146,7 @@
     "key": null,
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": 40,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -1154,13 +1154,13 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 24,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:33 - 2nd"
   },
   {
    "game_id": "401911533",
@@ -7949,5 +7949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T03:01:09+00:00"
+ "live_at": "2026-11-12T03:16:12+00:00"
 }
