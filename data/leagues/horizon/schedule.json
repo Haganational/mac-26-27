@@ -1446,7 +1446,7 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 30,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -1454,13 +1454,13 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 31,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:12 - 2nd"
   },
   {
    "game_id": "401926868",
@@ -1486,7 +1486,7 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 24,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1494,13 +1494,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 28,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:52 - 1st"
+   "detail": "2:14 - 1st"
   },
   {
    "game_id": "401920914",
@@ -1526,7 +1526,7 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 25,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -1534,13 +1534,13 @@
     "key": null,
     "name": "Clarke Pride",
     "abbr": "CKE",
-    "score": 18,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928824",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T00:30:51+00:00"
+ "live_at": "2026-11-12T00:45:53+00:00"
 }
