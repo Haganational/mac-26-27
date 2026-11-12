@@ -50,8 +50,8 @@
         </div>
       </details>
       {#- Reader pages up front; everything behind the access code under one Betting desk menu. -#}
-      {% set reader = ['tv.html', 'power.html', 'notes.html', 'mac90.html'] %}
-      {% set reader_label = {'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index', 'notes.html': 'Fieldhouse Notes', 'mac90.html': 'Video'} %}
+      {% set reader = ['weekly.html', 'tv.html', 'power.html', 'notes.html', 'mac90.html'] %}
+      {% set reader_label = {'weekly.html': 'Weekly', 'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index', 'notes.html': 'Fieldhouse Notes', 'mac90.html': 'Video'} %}
       {% set have = nav_pages|map(attribute=0)|list %}
       {% for path in reader if path in have %}<a href="{{ root }}{{ path }}" class="{{ 'on' if active == path }}"{% if active == path %} aria-current="page"{% endif %}>{{ reader_label[path] }}</a>{% endfor %}
       {% set desk = nav_pages[1:]|selectattr(0, 'in', desk_pages)|list %}
