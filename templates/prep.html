@@ -1,0 +1,93 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set mv = g.mv %}{% set A, H = p.away, p.home %}
+{% set an, hn = A.name|school, H.name|school %}
+{% set page_title %}{{ an }} at {{ hn }} game notes · {{ g.et.weekday }} {{ g.et.md }}{% endset %}
+{% set page_desc %}Printable prep sheet for {{ an }} at {{ hn }}, {{ g.et.weekday }} {{ g.et.md }}: records, last five, rotation with hometowns and numbers, model and market lines, rest and travel.{% endset %}
+{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ "-notes.html") }}
+<style>
+  .prep h1 { font-size: 22px; margin: 0 0 2px; }
+  .prep .meta { font-size: 13px; color: var(--ink-2); margin-bottom: 12px; }
+  .prep .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .prep h2 { font-size: 16px; margin: 14px 0 6px; border-bottom: 2px solid var(--ink); padding-bottom: 3px; }
+  .prep h3 { font-size: 13px; margin: 10px 0 4px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+  .prep table { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .prep th, .prep td { padding: 3px 4px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  .prep td.num, .prep th.num { text-align: right; }
+  .prep .kv { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 13px; }
+  .prep .kv b { font-variant-numeric: tabular-nums; }
+  .prep .small { font-size: 11px; color: var(--muted); }
+  .printbtn { font: inherit; font-size: 13px; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+  @media (max-width: 760px) { .prep .cols { grid-template-columns: 1fr; } .prep .hide-sm { display: none; } }
+  @media print {
+    .topbar, .backdrop, .sitefoot, .crumbs, .printbtn, .skip { display: none !important; }
+    body { background: #fff !important; color: #000; }
+    main { padding: 0 !important; max-width: none !important; }
+    .prep { font-size: 11px; } .prep table { font-size: 10px; } .prep .hide-sm { display: table-cell; }
+    .prep .cols { grid-template-columns: 1fr; gap: 6px; } .prep section { break-inside: avoid; box-shadow: none !important; border: 0 !important; padding: 0 !important; }
+    a { color: inherit; text-decoration: none; }
+    @page { margin: .4in; }
+  }
+</style>
+</head>
+<body>
+{{ L.topbar(root="../", active="") }}
+<main id="main" class="prep">
+{% macro spr(v) %}{% if v is none %}–{% elif v < 0 %}{{ H.abbr }} {{ '%g'|format(v) }}{% elif v > 0 %}{{ A.abbr }} {{ '%g'|format(-v) }}{% else %}PK{% endif %}{% endmacro %}
+  <nav class="crumbs"><a href="../{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> <a href="{{ g.game_id }}.html">Preview</a> <span class="dim">/</span> Game notes</nav>
+  <h1>{{ an }} at {{ hn }}{% if g.neutral_site %} (neutral site){% endif %}</h1>
+  <div class="meta">{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}{% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}{% if p.tv %} · TV/stream: {{ p.tv }}{% endif %}{% if g.conference_game %} · {{ LG }} game{% endif %}
+    · <button class="printbtn" onclick="window.print()">Print</button></div>
+
+  <div class="kv">
+    {% if mv %}<span>Model: <b>{{ mv.fav_line }}</b>, total <b>{{ '%.1f'|format(mv.total) }}</b>, projected <b>{{ A.abbr }} {{ mv.away_pts }}, {{ H.abbr }} {{ mv.home_pts }}</b>, win chance {{ A.abbr }} {{ mv.away_win }}% / {{ H.abbr }} {{ mv.home_win }}%</span>{% endif %}
+    {% if mv and mv.market and mv.market.spread is not none %}<span>Market: <b>{{ spr(mv.market.spread) }}</b>{% if mv.market.total is not none %}, total <b>{{ '%g'|format(mv.market.total) }}</b>{% endif %}{% if mv.market.open_spread is not none %} (opened {{ spr(mv.market.open_spread) }}){% endif %}</span>{% endif %}
+  </div>
+  {% if p.meetings %}<div class="kv" style="margin-top:4px"><span>Earlier this season: {% for m in p.meetings %}{{ m.date }} {{ m.winner|school }} {{ m.score }}{{ ' in ' ~ m.where if m.where }}{{ '; ' if not loop.last }}{% endfor %}</span></div>{% endif %}
+
+  <div class="cols">
+  {% for s in [A, H] %}
+    <section>
+      <h2>{{ s.name|school }}{% if s.record %} <span class="small">{{ s.record }}{% if s.conf and s.conf != '0-0' %}, {{ s.conf }} {{ LG }}{% endif %}{% if s.streak and s.streak != '-' %}, {{ s.streak }}{% endif %}</span>{% endif %}</h2>
+      <div class="kv">
+        {% if s.coach %}<span>Coach <b>{{ s.coach }}</b></span>{% endif %}
+        {% if s.ppg %}<span>Scoring <b>{{ s.ppg }}</b>, allowing <b>{{ s.opp_ppg }}</b></span>{% endif %}
+        {% if s.rt %}<span>Model: net <b>{{ '%+.1f'|format(s.rt.adj_em) }}</b> (No. {{ s.rt.rk_adj_em }} D-I), off No. {{ s.rt.rk_adj_o }}, def No. {{ s.rt.rk_adj_d }}, pace No. {{ s.rt.rk_adj_t }}</span>{% endif %}
+      </div>
+      {% if s.travel %}<p class="small" style="margin:4px 0 0">{{ s.travel }}</p>{% endif %}
+      {% if s.last5 %}
+      <h3>Last {{ s.last5|length }}</h3>
+      <table>
+        {% for x in s.last5 %}<tr><td>{{ x.date }}</td><td>{{ x.site }} {{ x.opp|school }}{{ '*' if x.conf }}</td><td class="num"><b>{{ x.wl }}</b> {{ x.score }}</td></tr>{% endfor %}
+      </table>
+      {% endif %}
+      {% if s.roster %}
+      <h3>Rotation (by minutes)</h3>
+      <table>
+        <tr><th>#</th><th>Player</th><th class="hide-sm">Cl/Ht</th><th class="num">MPG</th><th class="num">PPG</th><th class="num">RPG</th><th class="num">APG</th><th class="num hide-sm">FG/3P/FT%</th></tr>
+        {% for r in s.roster %}
+        <tr>
+          <td>{{ r.jersey or '' }}</td>
+          <td><b>{{ r.name }}</b> {{ r.pos or '' }}<br><span class="small">{{ r.hometown or '' }}{% if r.prev %} · from {{ r.prev }}{% endif %}{% if r.last %} · last: {{ r.last }}{% endif %}</span></td>
+          <td class="hide-sm" style="white-space:nowrap">{{ r.cl or '' }} {{ r.ht or '' }}</td>
+          <td class="num">{{ '%.1f'|format(r.min) if r.min is not none }}</td>
+          <td class="num">{{ '%.1f'|format(r.pts) if r.pts is not none }}</td>
+          <td class="num">{{ '%.1f'|format(r.reb) if r.reb is not none }}</td>
+          <td class="num">{{ '%.1f'|format(r.ast) if r.ast is not none }}</td>
+          <td class="num hide-sm">{% for v in (r.fg, r.tp, r.ft) %}{{ '%.0f'|format(v) if v is not none else '–' }}{{ '/' if not loop.last }}{% endfor %}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% elif not s.ours %}
+      <p class="small">Outside the {{ LG }}: we track this team's results and rating, not its roster. Its record counts the games in our D-I results file.</p>
+      {% endif %}
+    </section>
+  {% endfor %}
+  </div>
+  <p class="small" style="margin-top:12px">* conference game. Stats from ESPN box scores through the last final; model and market from {{ site_name }}'s ratings and our capture of sportsbook lines. Free to use on air and in notes with credit to {{ site_name }}.</p>
+</main>
+{{ L.footer(root="../", updated=d.generated_et) }}
+</body>
+</html>

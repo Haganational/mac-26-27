@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import hub, nba_alumni, power, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -497,6 +497,10 @@ def render_site() -> str:
     # Game previews: the model's projection, leans, players to watch, line, rest and travel.
     # Inside WINDOW_HOURS of tip a preview also gets a written story, saved so it can sit under the recap later.
     preview_tpl = env.get_template("preview.html")
+    prep_tpl = env.get_template("prep.html")
+
+    def coach_for(key: str) -> dict[str, Any]:
+        return players.team_context(key).get("coach") or {}
     for g in previews:
         story, ld = None, None
         if preview_story.due(g, built_at):
@@ -510,6 +514,8 @@ def render_site() -> str:
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
             d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], []),
             story=story, ld_json=ld))
+        (SITE_DIR / "games" / f"{g['game_id']}-notes.html").write_text(prep_tpl.render(
+            d=data, g=g, p=prep.context(g, games, standings, profiles, coach_for, (m or {}).get("opp_form") or {})))
     preview_story.save(previews_saved)
     (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
     write_front(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
@@ -558,7 +564,7 @@ def render_site() -> str:
         (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
         if m.get("players"):
             (SITE_DIR / "players.html").write_text(env.get_template("players.html").render(d=data, pr=m["players"], teamlinks=[{"key": t.key, "short": t.short, "abbr": t.abbr} for t in TEAMS]))
-        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book")}, default=str))
+        (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book", "opp_form")}, default=str))
         if LEAGUE.has("book"):
             render_book(env, data, m.get("book"))
         render_power(env, data, m, games, standings, profiles, now)
