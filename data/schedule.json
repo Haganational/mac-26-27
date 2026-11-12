@@ -1220,7 +1220,7 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 50,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -1228,13 +1228,13 @@
     "key": null,
     "name": "Great Lakes Christian Crusaders",
     "abbr": "GLCC",
-    "score": 17,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:18 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926863",
@@ -1260,7 +1260,7 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 2,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1268,13 +1268,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 6,
+    "score": 10,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:28 - 1st"
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401911012",
@@ -1300,7 +1300,7 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": 13,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1308,13 +1308,13 @@
     "key": null,
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 19,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:52 - 1st"
+   "detail": "7:46 - 1st"
   },
   {
    "game_id": "401911013",
@@ -8795,5 +8795,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T00:15:23+00:00"
+ "live_at": "2026-11-12T00:30:23+00:00"
 }
