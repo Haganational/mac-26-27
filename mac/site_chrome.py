@@ -20,8 +20,8 @@ from .config import LEAGUE, SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
 FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
-YOUTUBE_CHANNEL = "juiceboxtv-m1g"  # where MAC90 videos post (youtube.com/@juiceboxtv-m1g, "Hardwood Bricks")
-YOUTUBE_CHANNEL_ID = "UCUcO9nplyQZQWtZce69Y6Bw"  # its Shorts playlist is "UUSH" + this id minus "UC"
+YOUTUBE_CHANNEL = "hardwoodbricks"  # where MAC90 videos post (youtube.com/@hardwoodbricks, "Hardwood Bricks", from 2026-11-12)
+YOUTUBE_CHANNEL_ID = "UCbh8k_bBCN7lUHmTmwyF7aQ"  # its Shorts playlist is "UUSH" + this id minus "UC"
 TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the YouTube Shorts player
 # House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
 TIP = {"venmo": "hardwoodbricks", "url": "https://venmo.com/u/hardwoodbricks",

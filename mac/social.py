@@ -1,4 +1,4 @@
-"""Post new recaps and previews to Bluesky, after every edition is built.
+"""Post new recaps and previews to Bluesky and Threads, after every edition is built.
 
     python -m mac.collect social
 
@@ -10,7 +10,9 @@ What was posted is kept in data/social_posted.json.
 
 Needs two repo secrets, set by the account owner: BSKY_HANDLE (e.g. hardwoodbricks.bsky.social)
 and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account password).
-Without them this does nothing. SOCIAL_DRY_RUN=1 prints the posts instead of sending them.
+Threads needs THREADS_USER_ID and THREADS_ACCESS_TOKEN (from a Meta developer app with
+threads_basic and threads_content_publish; the token lasts about 60 days). Each network
+posts on its own once its secrets are set; with none, this does nothing. SOCIAL_DRY_RUN=1 prints the posts instead of sending them.
 """
 from __future__ import annotations
 
@@ -135,27 +137,73 @@ def post(sess: dict[str, Any], it: dict[str, Any], now: datetime) -> str:
     return r.json().get("uri", "")
 
 
+THREADS = "https://graph.threads.net/v1.0"
+
+
+def post_threads(user_id: str, token: str, it: dict[str, Any]) -> str:
+    """A text post with a link card: create the container, then publish it."""
+    r = requests.post(f"{THREADS}/{user_id}/threads", timeout=30, data={
+        "media_type": "TEXT", "text": text_for(it), "link_attachment": it["url"], "access_token": token})
+    r.raise_for_status()
+    r2 = requests.post(f"{THREADS}/{user_id}/threads_publish", timeout=30,
+                       data={"creation_id": r.json()["id"], "access_token": token})
+    r2.raise_for_status()
+    return r2.json().get("id", "")
+
+
+OTHER = ("threads:",)  # prefixes of networks after Bluesky; Bluesky keys carry none
+
+
+def seen_for(posted: dict[str, str], prefix: str) -> dict[str, str]:
+    """The posted keys for one network, without its prefix."""
+    if prefix:
+        return {k[len(prefix):]: v for k, v in posted.items() if k.startswith(prefix)}
+    return {k: v for k, v in posted.items() if not k.startswith(OTHER)}
+
+
+def _networks() -> list[tuple[str, Any]]:
+    """(key prefix, poster) for every network whose secrets are set."""
+    nets: list[tuple[str, Any]] = []
+    handle, password = os.environ.get("BSKY_HANDLE", "").strip(), os.environ.get("BSKY_APP_PASSWORD", "").strip()
+    if handle and password:
+        box: dict[str, Any] = {}
+
+        def bsky(it: dict[str, Any], now: datetime) -> str:
+            if "s" not in box:
+                box["s"] = _session(handle, password)
+            return post(box["s"], it, now)
+        nets.append(("", bsky))
+    uid, token = os.environ.get("THREADS_USER_ID", "").strip(), os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
+    if uid and token:
+        nets.append(("threads:", lambda it, now: post_threads(uid, token, it)))
+    return nets
+
+
 def run(now: datetime | None = None) -> str:
     now = now or datetime.now(timezone.utc)
-    handle, password = os.environ.get("BSKY_HANDLE", "").strip(), os.environ.get("BSKY_APP_PASSWORD", "").strip()
     dry = os.environ.get("SOCIAL_DRY_RUN") == "1"
-    if not dry and not (handle and password):
-        return "social: no Bluesky secrets set, skipped"
+    nets = _networks()
+    if not dry and not nets:
+        return "social: no Bluesky or Threads secrets set, skipped"
     posted = json.loads(POSTED.read_text()) if POSTED.exists() else {}
-    todo = due(stories(), posted, now)
     if dry:
+        todo = due(stories(), posted, now)
         return "\n".join(f"[dry] {text_for(it)!r} -> {it['url']}" for it in todo) or "social: nothing new"
-    sess = _session(handle, password)
-    n = 0
-    for it in todo:
-        try:
-            post(sess, it, now)
-        except requests.RequestException as e:
-            print(f"social: {it['url']} failed: {e}")
-            continue
-        posted[it["key"]] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-        n += 1
+    report = []
+    for prefix, send in nets:
+        seen = seen_for(posted, prefix)
+        todo = due(stories(), seen, now)
+        n = 0
+        for it in todo:
+            try:
+                send(it, now)
+            except (requests.RequestException, KeyError) as e:
+                print(f"social: {prefix or 'bsky:'}{it['url']} failed: {e}")
+                continue
+            posted[prefix + it["key"]] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+            n += 1
+        report.append(f"{(prefix or 'bluesky:').rstrip(':')} {n}/{len(todo)}")
     cutoff = (now - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%SZ")
     posted = {k: v for k, v in posted.items() if v >= cutoff}
     POSTED.write_text(json.dumps(dict(sorted(posted.items())), indent=0) + "\n")
-    return f"social: posted {n} of {len(todo)}"
+    return "social: posted " + ", ".join(report)

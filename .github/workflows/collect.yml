@@ -114,13 +114,15 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: python -m mac.collect hub
-      - name: Post new recaps and previews to Bluesky
-        # Does nothing until the BSKY_HANDLE and BSKY_APP_PASSWORD secrets are set.
+      - name: Post new recaps and previews to Bluesky and Threads
+        # Each network posts once its secrets are set (BSKY_*, THREADS_*); none set = no-op.
         continue-on-error: true
         env:
           SITE_URL: ${{ vars.SITE_URL }}
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: python -m mac.collect social
       - name: Commit new data
         run: |

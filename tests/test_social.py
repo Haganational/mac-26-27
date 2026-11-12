@@ -31,3 +31,25 @@ def test_skips_without_secrets(monkeypatch):
     monkeypatch.delenv("BSKY_HANDLE", raising=False)
     monkeypatch.delenv("SOCIAL_DRY_RUN", raising=False)
     assert "skipped" in social.run()
+
+
+def test_seen_per_network():
+    posted = {"https://x/g/1.html|recap": "t", "threads:https://x/g/2.html|recap": "t"}
+    assert social.seen_for(posted, "") == {"https://x/g/1.html|recap": "t"}
+    assert social.seen_for(posted, "threads:") == {"https://x/g/2.html|recap": "t"}
+
+
+def test_threads_post(monkeypatch):
+    calls = []
+
+    class R:
+        def __init__(self, j): self.j = j
+        def raise_for_status(self): pass
+        def json(self): return self.j
+
+    def fake_post(url, data=None, **kw):
+        calls.append((url, data))
+        return R({"id": "c1"} if url.endswith("/threads") else {"id": "p1"})
+    monkeypatch.setattr(social.requests, "post", fake_post)
+    assert social.post_threads("42", "tok", it("https://x/g/1.html", "Akron beat Ohio 70-60", "x")) == "p1"
+    assert calls[0][1]["link_attachment"] == "https://x/g/1.html" and calls[1][1]["creation_id"] == "c1"
