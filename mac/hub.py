@@ -115,7 +115,8 @@ def org_ld(mh: dict[str, Any], base: str = SITE_BASE) -> dict[str, Any]:
     o: dict[str, Any] = {
         "@type": "NewsMediaOrganization", "@id": base + "#org", "name": "Hardwood Bricks", "url": base,
         "logo": {"@type": "ImageObject", "url": base + "static/og/icon-512.png"},
-        "sameAs": ["https://www.youtube.com/@juiceboxtv-m1g"] + ([f"https://x.com/{mh['x_handle']}"] if mh.get("x_handle") else []),
+        "sameAs": ["https://www.youtube.com/@hardwoodbricks", "https://www.threads.com/@hardwoodbricks",
+                   "https://www.instagram.com/hardwoodbricks/", "https://bsky.app/profile/hardwoodbricks.bsky.social"] + ([f"https://x.com/{mh['x_handle']}"] if mh.get("x_handle") else []),
         "masthead": m, "publishingPrinciples": m + "#standards", "correctionsPolicy": m + "#corrections",
         "ethicsPolicy": m + "#ethics", "actionableFeedbackPolicy": m + "#contact",
     }
