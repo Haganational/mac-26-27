@@ -1446,21 +1446,21 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 70,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "88",
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 68,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926868",
@@ -1486,7 +1486,7 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 51,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -1494,13 +1494,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 61,
+    "score": 72,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:17 - 2nd"
+   "detail": "6:14 - 2nd"
   },
   {
    "game_id": "401920914",
@@ -1526,21 +1526,21 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 66,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2965",
     "key": null,
     "name": "Clarke Pride",
     "abbr": "CKE",
-    "score": 41,
-    "winner": null
+    "score": 43,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:11 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928824",
@@ -1566,7 +1566,7 @@
     "key": null,
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
-    "score": 25,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -1574,13 +1574,13 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 25,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:40 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928814",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T01:30:50+00:00"
+ "live_at": "2026-11-12T01:45:46+00:00"
 }
