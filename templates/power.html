@@ -1,0 +1,75 @@
+{% import "_layout.html" as L %}
+{%- macro wk(w) -%}{{ w[5:7]|int }}/{{ w[8:10]|int }}{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}{{ LG }} Power Rankings · Week of {{ wk(snap.week) }}{% endset %}
+{% set lead = snap.teams[0] if snap.teams else None %}
+{% set page_desc %}The Bricks Index for every {{ LG }} team, week of {{ wk(snap.week) }}: recent form plus road wins{% if lead %}. {{ lead.short }} is No. 1{% endif %}.{% endset %}
+{{ L.head(page_title, page_desc, root=root, path=path, image="static/og/power.png", og_type="article" if caps else "website",
+          canonical=(site_url ~ "power/" ~ snap.week ~ ".html") if latest else "") }}
+{% if caps %}<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "NewsArticle",
+  "headline": LG ~ " power rankings, week of " ~ wk(snap.week),
+  "datePublished": snap.frozen_at, "articleSection": "Power rankings",
+  "author": {"@type": "Organization", "name": site_name}, "publisher": {"@id": site_url ~ "#org"},
+  "mainEntityOfPage": site_url ~ "power/" ~ snap.week ~ ".html"}|tojson }}</script>{% endif %}
+<style>
+  .pr { list-style: none; padding: 0; margin: 0; }
+  .pr > li { border-top: 1px solid var(--border); padding: 16px 0 18px; }
+  .pr-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .pr-rk { font-size: 28px; font-weight: 800; width: 1.6em; font-variant-numeric: tabular-nums; }
+  .pr-h img { width: 32px; height: 32px; }
+  .pr-name { font-size: 19px; font-weight: 700; }
+  .pr-mv { font-size: 12px; font-weight: 700; }
+  .pr-mv.up { color: #1a8a4e; } .pr-mv.dn { color: #c0392b; }
+  .pr-stats { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--ink-2); margin: 4px 0 0 calc(1.6em * 28 / 13 + 10px); }
+  .pr-stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .cap { margin: 10px 0 0; max-width: 68ch; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; }
+  .cap p { margin: 0 0 .8em; }
+  .wknav { display: flex; gap: 14px; font-size: 14px; margin: 8px 0 0; flex-wrap: wrap; }
+  @media (max-width: 600px) { .pr-stats { margin-left: 0; } .cap { font-size: 16px; } }
+</style>
+</head>
+<body>
+{{ L.topbar(root=root, active="power.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="{{ root }}{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Power Rankings</nav>
+  <header>
+    <h1>Power rankings</h1>
+    <span class="sub">Week of {{ wk(snap.week) }}. The Bricks Index leans on the last three weeks and pays extra for winning away from home.</span>
+    <div class="wknav">
+      {% if prev_week %}<a href="{{ root }}power/{{ prev_week }}.html">← Week of {{ wk(prev_week) }}</a>{% endif %}
+      {% if next_week %}<a href="{{ root }}power/{{ next_week }}.html">Week of {{ wk(next_week) }} →</a>{% endif %}
+      {% if not latest %}<a href="{{ root }}power.html">This week</a>{% endif %}
+    </div>
+  </header>
+  <section>
+    <ol class="pr">
+      {% for t in snap.teams %}
+      {% set mv = (t.prev_rank - t.rank) if t.prev_rank else None %}
+      <li id="{{ t.key }}">
+        <div class="pr-h">
+          <span class="pr-rk">{{ t.rank }}</span>
+          <a class="pr-name" href="{{ root }}teams/{{ t.key }}.html">{{ t.short }}</a>
+          <span class="dim">{{ t.record }}{% if t.conf_record != '0-0' %}, {{ t.conf_record }} {{ LG }}{% endif %}</span>
+          {% if mv %}<span class="pr-mv {{ 'up' if mv > 0 else 'dn' }}">{{ '▲' if mv > 0 else '▼' }} {{ mv|abs }}</span>{% elif t.prev_rank %}<span class="pr-mv dim">–</span>{% endif %}
+        </div>
+        <div class="pr-stats">
+          <span>Index <b>{{ '%+.1f'|format(t.score) }}</b></span>
+          <span>Recent form <b>{{ '%+.1f'|format(t.form) }}</b></span>
+          <span>Road-win bonus <b>{{ '%+.1f'|format(t.road) }}</b></span>
+          {% if t.road_wins %}<span>Road wins: {% for w in t.road_wins %}{{ w.opp }} {{ w.score }}{{ ' (neutral)' if w.site == 'neutral' }}{{ ', ' if not loop.last }}{% endfor %}</span>{% endif %}
+        </div>
+        {% if caps.get(t.key) %}<div class="cap">{% for para in caps[t.key].split('\n\n') %}<p>{{ para }}</p>{% endfor %}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <section class="method">
+    <h2>How the Bricks Index works</h2>
+    <p><b>Recent form</b> is our ratings model, adjusted for opponent and venue, fit again with a short memory: a game's weight halves every {{ snap.method.half_life_days|int }} days, so the last three weeks carry the number. <b>Road-win bonus</b>: every win away from home adds {{ '%.1f'|format(snap.method.road_bonus_pts) }} points for beating an average D-I team on its floor, more for a better opponent, less for a weaker one, fading on the same {{ snap.method.half_life_days|int }}-day clock. A neutral-site win counts {{ (snap.method.neutral_share * 100)|int }}%. Both are in points per game. The ranking is frozen Monday morning; capsules are written from that week's facts.</p>
+  </section>
+</main>
+{{ L.footer(root=root, updated=d.generated_et) }}
+</body>
+</html>

@@ -16,7 +16,7 @@ import json
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
-from . import analysis, backtest, ncaa
+from . import analysis, backtest, ncaa, power
 from . import ratings as R
 from .config import BY_ESPN_ID, DATA_DIR, SEASON, TEAMS
 from .espn import load_schedule
@@ -286,6 +286,7 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
         "upcoming": upcoming, "season_to_date": std, "record": record,
         "backtest": load_backtest(),
     }
+    out["power"] = power.index(rows, r, prior, now, [(t.espn_id, t.key, t.short) for t in TEAMS])
     out["players"], out["book"] = _players(r, prior, now, log, table, names)
     if log:
         MODEL_DIR.mkdir(parents=True, exist_ok=True)

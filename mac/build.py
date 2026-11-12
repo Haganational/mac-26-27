@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import hub, nba_alumni, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import hub, nba_alumni, power, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -561,6 +561,7 @@ def render_site() -> str:
         (SITE_DIR / "model.json").write_text(json.dumps({k: v for k, v in m.items() if k not in ("all_teams", "scatter", "book")}, default=str))
         if LEAGUE.has("book"):
             render_book(env, data, m.get("book"))
+        render_power(env, data, m, games, standings, profiles, now)
     if LEAGUE.has("notes"):
         render_notes(env, data, season, dispatches, notes_by_game, profiles)
 
@@ -647,6 +648,26 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
         d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
         player_links={str(p["espn_id"]): {"href": f"teams/{key}.html#p{p['espn_id']}", "label": p["name"]}
                       for key, plist in profiles.items() for p in plist}))
+
+
+def render_power(env: Environment, data: dict[str, Any], m: dict[str, Any], games: list[dict[str, Any]],
+                 standings: dict[str, dict[str, Any]], profiles: dict[str, list[dict[str, Any]]], now: datetime) -> None:
+    """power.html (this week's frozen ranking and capsules) and power/<monday>.html for every week."""
+    idx = m.get("power") or []
+    if not idx:
+        return
+    power.freeze(idx, games, standings, profiles, now)
+    wks = power.weeks()
+    tpl = env.get_template("power.html")
+    (SITE_DIR / "power").mkdir(exist_ok=True)
+    live = {t["key"]: t for t in idx}
+    for i, w in enumerate(wks):
+        snap = power.load(w)
+        kw = dict(d=data, snap=snap, caps=power.capsules(w), weeks=wks, live=live,
+                  prev_week=wks[i - 1] if i else None, next_week=wks[i + 1] if i + 1 < len(wks) else None)
+        (SITE_DIR / "power" / f"{w}.html").write_text(tpl.render(root="../", path=f"power/{w}.html", **kw))
+        if i == len(wks) - 1:
+            (SITE_DIR / "power.html").write_text(tpl.render(root="", path="power.html", latest=True, **kw))
 
 
 def render_book(env: Environment, data: dict[str, Any], b: dict[str, Any] | None) -> None:
