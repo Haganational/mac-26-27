@@ -53,3 +53,10 @@ def test_threads_post(monkeypatch):
     monkeypatch.setattr(social.requests, "post", fake_post)
     assert social.post_threads("42", "tok", it("https://x/g/1.html", "Akron beat Ohio 70-60", "x")) == "p1"
     assert calls[0][1]["link_attachment"] == "https://x/g/1.html" and calls[1][1]["creation_id"] == "c1"
+
+
+def test_threads_needs_only_token(monkeypatch):
+    for k in ("BSKY_HANDLE", "BSKY_APP_PASSWORD", "THREADS_USER_ID"):
+        monkeypatch.delenv(k, raising=False)
+    monkeypatch.setenv("THREADS_ACCESS_TOKEN", "tok")
+    assert [p for p, _ in social._networks()] == ["threads:"]
