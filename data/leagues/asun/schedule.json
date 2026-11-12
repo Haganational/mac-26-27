@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T23:01:13+00:00",
+ "fetched_at": "2026-11-12T12:01:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -1523,6 +1523,46 @@
    "detail": ""
   },
   {
+   "game_id": "401922251",
+   "date": "2026-11-17T23:00Z",
+   "name": "Green Bay Phoenix at West Florida Argonauts",
+   "short_name": "GB @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401920706",
    "date": "2026-11-17T23:30Z",
    "name": "Lipscomb Bisons at Purdue Boilermakers",
@@ -1563,10 +1603,10 @@
    "detail": ""
   },
   {
-   "game_id": "401922251",
+   "game_id": "401922221",
    "date": "2026-11-18T00:00Z",
-   "name": "Green Bay Phoenix at West Florida Argonauts",
-   "short_name": "GB @ UWF",
+   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
+   "short_name": "UFTL @ UNF",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
@@ -1578,22 +1618,22 @@
      "market": "National"
     }
    ],
-   "venue": "UWF Field House",
-   "venue_city": "Pensacola",
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2697",
-    "key": "west-florida",
-    "name": "West Florida Argonauts",
-    "abbr": "UWF",
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
     "score": null,
     "winner": null
    },
    "away": {
-    "espn_id": "2739",
+    "espn_id": "123362",
     "key": null,
-    "name": "Green Bay Phoenix",
-    "abbr": "GB",
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
     "score": null,
     "winner": null
    },
@@ -1634,46 +1674,6 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401922221",
-   "date": "2026-11-18T01:00Z",
-   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
-   "short_name": "UFTL @ UNF",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "venue": "UNF Arena",
-   "venue_city": "Jacksonville",
-   "venue_state": "FL",
-   "home": {
-    "espn_id": "2454",
-    "key": "north-florida",
-    "name": "North Florida Ospreys",
-    "abbr": "UNF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "123362",
-    "key": null,
-    "name": "Fort Lauderdale Eagles",
-    "abbr": "UFTL",
     "score": null,
     "winner": null
    },
@@ -7512,6 +7512,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-12T02:30:49+00:00"
+ ]
 }

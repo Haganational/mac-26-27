@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T23:01:31+00:00",
+ "fetched_at": "2026-11-12T12:01:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -2183,6 +2183,46 @@
    "detail": ""
   },
   {
+   "game_id": "401922251",
+   "date": "2026-11-17T23:00Z",
+   "name": "Green Bay Phoenix at West Florida Argonauts",
+   "short_name": "GB @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": null,
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": "green-bay",
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401909544",
    "date": "2026-11-18T00:00Z",
    "name": "Cleveland State Vikings at Xavier Musketeers",
@@ -2214,46 +2254,6 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401922251",
-   "date": "2026-11-18T00:00Z",
-   "name": "Green Bay Phoenix at West Florida Argonauts",
-   "short_name": "GB @ UWF",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "venue": "UWF Field House",
-   "venue_city": "Pensacola",
-   "venue_state": "FL",
-   "home": {
-    "espn_id": "2697",
-    "key": null,
-    "name": "West Florida Argonauts",
-    "abbr": "UWF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2739",
-    "key": "green-bay",
-    "name": "Green Bay Phoenix",
-    "abbr": "GB",
     "score": null,
     "winner": null
    },
@@ -9719,6 +9719,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-12T04:15:54+00:00"
+ ]
 }
