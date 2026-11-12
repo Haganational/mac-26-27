@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 {% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
-{% set page_title %}{{ away.abbr }} at {{ home.abbr }} preview · model {{ mv.fav_line }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ away.name }} {{ 'vs' if g.neutral_site else 'at' }} {{ home.name }}, {{ g.et.weekday }} {{ g.et.md }}: the model projects {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }}. Leans, players to watch, line, rest and travel.{% endset %}
+{% set an, hn = away.name|school, home.name|school %}{% set tv = g.watch.nets|map(attribute='name')|join(', ') %}{% set page_title %}{{ an }} vs. {{ hn }} prediction, odds and TV · {{ g.et.weekday }} {{ g.et.md }}{% endset %}{% set page_desc %}{{ an }} vs. {{ hn }} prediction for {{ g.et.weekday }} {{ g.et.md }}: our model projects {{ an }} {{ mv.away_pts }}, {{ hn }} {{ mv.home_pts }} ({{ mv.fav_line }}).{% if tv %} How to watch: {{ tv }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}.{% endif %} Odds, players to watch, rest and travel.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", canonical=canon_game.get(g.game_id, "")) }}
 {% if ld_json %}<script type="application/ld+json">{{ ld_json|safe }}</script>{% endif %}
 </head>
@@ -30,7 +30,7 @@
   </header>
   <div class="sub" style="margin:-8px 0 18px">
     {% if g.live %}<span class="livetag"><i aria-hidden="true"></i>Live</span> <b class="livescore"><small>{{ L.clock(g) }}</small></b> · the model projected {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }} · {% endif %}Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
-    · {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
+    · How to watch: {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
     {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>

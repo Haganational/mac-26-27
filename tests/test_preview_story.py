@@ -25,7 +25,7 @@ FLAVOR = {"settings": {"max_lines": 2}, "teams": {"akron": {"home_lines": ["{hom
 
 def test_preview_story_facts():
     s = ps.write(game(), STAND, FLAVOR)
-    assert s["headline"] == "Kent State at Akron preview: model has Akron by 7"
+    assert s["headline"] == "Kent State vs. Akron prediction: model has Akron by 7"
     p = s["paragraphs"]
     assert p[0].startswith("Kent State (1-1, 0-1 in conference) visits Akron (2-0, 1-0 in conference) at James A. Rhodes Arena")
     assert "Wednesday at 7 PM ET on ESPN+, a conference game." in p[0]

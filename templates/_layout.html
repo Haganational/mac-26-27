@@ -10,6 +10,7 @@
 <title>{{ title }}</title>
 <meta name="description" content="{{ desc }}">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ canon }}">
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:site_name" content="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">

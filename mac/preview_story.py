@@ -153,7 +153,7 @@ def write(g: dict[str, Any], standings: list[dict[str, Any]] | None = None,
         paras.append(" ".join(rt))
 
     flv = [s for s in gamer.flavor_lines(g, flavor, names) if "{" not in s]
-    headline = f"{an} {'vs.' if g.get('neutral_site') else 'at'} {hn} preview"
+    headline = f"{an} vs. {hn} prediction"
     if fav and margin >= 0.5:
         by = int(margin + 0.5)
         headline += f": model has {fav} by {by}" if by else f": model has {fav} by a hair"
