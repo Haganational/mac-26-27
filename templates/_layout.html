@@ -40,9 +40,9 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="topbar" role="banner">
   <div class="tb-in">
-    <a class="brand" href="{{ root }}{{ home }}" aria-label="{{ site_name }} home"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
+    <a class="brand" href="{{ root }}{{ site_up }}index.html" aria-label="{{ site_name }} front page"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
     <nav class="tb-nav" id="tbnav" aria-label="Site">
-      <a href="{{ root }}{{ home }}"{% if active == 'index.html' %} class="on" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ root }}{{ home }}"{% if active == 'index.html' %} class="on" aria-current="page"{% endif %}>{{ LG }}</a>
       <details class="tb-teams{{ ' on' if active == 'teams' }}">
         <summary>Teams</summary>
         <div class="tb-menu">
@@ -132,7 +132,7 @@
 <footer class="sitefoot">
   <div class="sf-in">
     <div class="sf-about">
-      <a class="brand" href="{{ root }}{{ home }}"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
+      <a class="brand" href="{{ root }}{{ site_up }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
       <p>{{ site_name }} covers every {{ LG }} men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Lines refresh every 30 minutes.</p>
       <p class="dim">Data: ESPN, The Odds API, {% if 'athletics' in feat %}school athletics sites, the {{ LG }} and {% endif %}Google News. Not affiliated with the {{ LG }} or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
