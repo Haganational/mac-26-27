@@ -27,35 +27,76 @@
 <body>
 <header class="bar"><div class="bar-in">
   <a class="brand" href="./">Hardwood Bricks</a>
-  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}</nav>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="masthead.html">About</a></nav>
+  <div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </div></header>
+<div class="bricks" aria-hidden="true"></div>
 <main>
-  <section class="hero">
-    <h1>{{ names }} men's basketball, every game</h1>
-    <p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player. {{ season }} season.</p>
-  </section>
-  <div class="eds">
-  {% for e in eds %}
-    <section class="ed" id="{{ e.key }}" aria-labelledby="h-{{ e.key }}">
-      <div class="ed-h"><h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2><a class="go" href="{{ e.href }}">{{ e.short }} scores, standings and lines →</a></div>
-      <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
-      <div class="cols">
-        <div>
-          <h3>Next up</h3>
-          {% if e.tonight %}<ul class="gl">{% for g in e.tonight %}<li><a href="{{ g.href }}"><span>{{ g.away }} at {{ g.home }}</span><span class="m">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %} · {{ g.tv }}{% endif %}</span></a></li>{% endfor %}</ul>
-          {% else %}<p class="none">No games on the board.</p>{% endif %}
-        </div>
-        <div>
-          <h3>Latest finals</h3>
-          {% if e.finals %}<ul class="gl">{% for g in e.finals %}<li><a href="{{ g.href }}"><span>{% if g.away_win %}<b>{{ g.away }} {{ g.away_score }}</b>, <span class="l">{{ g.home }} {{ g.home_score }}</span>{% else %}<b>{{ g.home }} {{ g.home_score }}</b>, <span class="l">{{ g.away }} {{ g.away_score }}</span>{% endif %}</span><span class="m">Recap and box →</span></a></li>{% endfor %}</ul>
-          {% else %}<p class="none">No finals yet.</p>{% endif %}
-        </div>
+  <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span>{{ names }} · {{ season }}</span></div>
+  <h1 style="position:absolute;left:-9999px">Hardwood Bricks: {{ names }} men's basketball, every game</h1>
+
+  <div class="front">
+    <div>
+      {% if lead %}
+      <a class="lead{{ '' if lead.image else ' noimg' }}" href="{{ lead.href }}">
+        {% if lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}
+        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }} · {{ lead.age }}</span>
+        <h2>{{ lead.title }}</h2>
+        {% if lead.dek %}<p>{{ lead.dek }}</p>{% endif %}
+      </a>
+      {% else %}
+      <div class="lead noimg"><h2>{{ names }} men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
+      {% endif %}
+      {% if cards %}
+      <div class="cards">
+        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{{ c.age }}</span><h3>{{ c.title }}</h3></a>{% endfor %}
       </div>
-      <nav class="tm" aria-label="{{ e.short }} teams">{% for t in e.teams %}<a href="{{ t.href }}">{{ t.short }}</a>{% endfor %}</nav>
+      {% endif %}
+    </div>
+    <aside class="rail">
+      <section aria-labelledby="h-tonight">
+        <div class="sh"><h2 id="h-tonight">Next up</h2></div>
+        {% if tonight %}<ul class="tn">{% for g in tonight %}<li><a href="{{ g.href }}"><span class="kick" style="--c:{{ g.color }}"><span class="cf">{{ g.league }}</span></span><span class="tm">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %}<small>{{ g.tv }}</small>{% endif %}</span><span class="hd">{{ g.away_name }} at {{ g.home_name }}</span></a></li>{% endfor %}</ul>
+        {% else %}<p class="none">No games on the board.</p>{% endif %}
+      </section>
+      {% if river %}
+      <section aria-labelledby="h-wire">
+        <div class="sh"><h2 id="h-wire">Latest recaps</h2></div>
+        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{{ s.age }}</span><span class="hd">{{ s.title }}</span></a></li>{% endfor %}</ul>
+      </section>
+      {% endif %}
+    </aside>
+  </div>
+
+  {% if dispatches %}
+  <section class="fh" aria-labelledby="h-fh">
+    <div class="who">
+      {% if editor.photo %}<img src="{{ editor.photo }}" alt="{{ editor.name }}" width="96" height="120" loading="lazy">{% endif %}
+      <span class="kick" style="color:var(--gold)">Fieldhouse Notes</span>
+      <b id="h-fh">From the baseline</b>
+      {% if editor.name %}<span>Reporting and photos by {{ editor.name }}, from the arenas and the couch.</span>{% endif %}
+      <a class="more" href="{{ dispatches[0].href.split('#')[0] }}">All Fieldhouse Notes →</a>
+    </div>
+    <div class="notes">
+      {% for n in dispatches %}<article><a href="{{ n.href }}">{% if n.photo %}<img src="{{ n.photo }}" alt="" loading="lazy">{% endif %}<span class="kick">{{ n.league }} · {{ n.date_label }} · {{ n.kind_label }}</span><h3>{{ n.title }}</h3><p>{{ n.text }}</p></a></article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <div class="confs">
+  {% for e in eds %}
+    <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
+      <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
+      <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
+      <a class="go" href="{{ e.href }}">{{ e.short }} front page →</a>
+      {% if e.finals %}<ul class="fin">{% for g in e.finals[:3] %}<li><a href="{{ g.href }}">{% if g.away_win %}<b>{{ g.away_name }} {{ g.away_score }}</b>, {{ g.home_name }} {{ g.home_score }}{% else %}<b>{{ g.home_name }} {{ g.home_score }}</b>, {{ g.away_name }} {{ g.away_score }}{% endif %}</a></li>{% endfor %}</ul>{% endif %}
+      <ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul>
     </section>
   {% endfor %}
   </div>
+
+  <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>
-<footer><a href="masthead.html">Masthead and standards</a> · Stats from ESPN. Built {{ built }} UTC. <a href="https://www.youtube.com/@hardwoodbricks">YouTube</a> · <a href="https://www.threads.com/@hardwoodbricks">Threads</a> · <a href="https://www.instagram.com/hardwoodbricks/">Instagram</a> · <a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></footer>
+<footer><a href="masthead.html">Masthead and standards</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
 </body>
 </html>
