@@ -39,7 +39,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("tv.html", "Schedule & TV", "This week's grid and every game: tip time, TV, lines, model, rest and travel", "#6250d6", "schedule tv watch network espn+ calendar tip time this week tonight games rest travel"),
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
-    ("power.html", "Power Rankings", "The weekly Bricks Index: recent form plus road wins, with a capsule on every team", "#a8322a", "power rankings weekly poll top bricks index road wins capsule column"),
+    ("power.html", "Bricks Index", "The weekly power rankings: recent form plus road wins, with a capsule on every team", "#a8322a", "power rankings weekly poll top bricks index road wins capsule column"),
     ("players.html", "Players", f"Box-score ratings for every {LEAGUE.short} player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("book.html", "Almanac", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "almanac book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
     ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),

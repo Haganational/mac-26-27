@@ -49,15 +49,27 @@
           {% for t in nav_teams %}<a class="tchip t-{{ t.key }}" href="{{ root }}teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ t.espn_id }}.png" alt="" width="20" height="20" loading="lazy" onerror="this.remove()">{{ t.short }}</a>{% endfor %}
         </div>
       </details>
-      {% set primary = ['tv.html', 'odds.html', 'ratings.html', 'players.html'] %}
-      {% for p in nav_pages[1:] if p[0] in primary %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}{{ ' desk' if p[0] in desk_pages }}"{% if active == p[0] %} aria-current="page"{% endif %}{% if p[0] in desk_pages %} title="Access code"{% endif %}>{{ {'tv.html': 'Schedule'}.get(p[0], p[1]) }}</a>{% endfor %}
-      {% set more = nav_pages[1:]|rejectattr(0, 'in', primary)|list %}
+      {#- Reader pages up front; everything behind the access code under one Betting desk menu. -#}
+      {% set reader = ['tv.html', 'power.html', 'notes.html', 'mac90.html'] %}
+      {% set reader_label = {'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index', 'notes.html': 'Fieldhouse Notes', 'mac90.html': 'Video'} %}
+      {% set have = nav_pages|map(attribute=0)|list %}
+      {% for path in reader if path in have %}<a href="{{ root }}{{ path }}" class="{{ 'on' if active == path }}"{% if active == path %} aria-current="page"{% endif %}>{{ reader_label[path] }}</a>{% endfor %}
+      {% set desk = nav_pages[1:]|selectattr(0, 'in', desk_pages)|list %}
+      <details class="tb-teams tb-more tb-bet{{ ' on' if active in desk|map(attribute=0)|list }}">
+        <summary>Betting desk</summary>
+        <div class="tb-menu tb-list">
+          <p class="tb-note">Odds, ratings and the model, for readers 21 and over. Opens with an access code.</p>
+          {% for p in desk %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }} desk"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
+        </div>
+      </details>
+      {% set more = nav_pages[1:]|rejectattr(0, 'in', reader)|rejectattr(0, 'in', desk_pages)|list %}
       <details class="tb-teams tb-more{{ ' on' if active in more|map(attribute=0)|list }}">
         <summary>More</summary>
         <div class="tb-menu tb-list">
-          {% for p in more %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}{{ ' desk' if p[0] in desk_pages }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></a>{% endfor %}
+          {% for p in more %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
           {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a>{% endif %}
           <a class="tb-league" href="{{ root }}{{ site_up }}index.html"><b>All conferences →</b><small>Every edition's games tonight and last night's finals</small></a>{% for lg in leagues if not lg.on %}<a class="tb-league" href="{{ root }}{{ site_up }}{{ lg.home }}"><b>{{ lg.short }} edition →</b><small>{{ site_name }} for the {{ lg.name }}: {{ lg.region }}</small></a>{% endfor %}
+          <a href="{{ root }}{{ site_up }}masthead.html"><b>About and masthead</b><small>Who we are, how we work, corrections</small></a>
         </div>
       </details>
     </nav>
@@ -138,7 +150,7 @@
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
     </div>
-    <nav aria-label="Pages"><h4>Pages</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a><a href="{{ root }}{{ site_up }}masthead.html">Masthead</a>{% for p in nav_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
+    <nav aria-label="Pages"><h4>Read</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages if p[0] not in desk_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}<a href="{{ root }}{{ site_up }}masthead.html">Masthead</a><h4 class="sf-ed">Betting desk</h4>{% for p in nav_pages if p[0] in desk_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>
