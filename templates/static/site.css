@@ -1022,3 +1022,38 @@ header.phead img { border-radius: 50%; background: var(--card, #0001); }
 .dispatch figure.photo img { width: 100%; height: auto; border-radius: 8px; display: block; }
 .dispatch figure.photo figcaption { font-size: 13px; color: var(--ink-2); margin-top: 4px; }
 .dispatch figure.photo .credit { white-space: nowrap; }
+
+/* ---- Calmer chrome (2026-11 design pass) ----
+   One accent per edition (its brick color) instead of the blue/orange/green/purple rotation,
+   a plain paper page instead of the brick, parquet and map backdrop, and solid panels. */
+:root { --s1: color-mix(in srgb, var(--brick) 88%, #000); --s2: var(--brick); --s3: var(--brick); --s7: var(--brick); --page: #f6f1e8; --surface: #fffcf6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --s1: color-mix(in srgb, var(--brick) 50%, #fff); --s2: color-mix(in srgb, var(--brick) 60%, #fff); --s3: var(--s2); --s7: var(--s2); --page: #14110e; --surface: #1d1915; } }
+:root[data-theme="dark"] { --s1: color-mix(in srgb, var(--brick) 50%, #fff); --s2: color-mix(in srgb, var(--brick) 60%, #fff); --s3: var(--s2); --s7: var(--s2); --page: #14110e; --surface: #1d1915; }
+.backdrop .bd-brick, .backdrop .bd-floor, .backdrop .bd-art { display: none; }
+.backdrop { background: var(--page); } .backdrop .bd-scrim { background: transparent !important; }
+main > section, main .grid > section, main .stack > section, main .hometop > *, main .support > * { background: var(--surface); -webkit-backdrop-filter: none; backdrop-filter: none; }
+main > section:nth-of-type(n) h2, .grid > section h2 { --h2c: var(--brick); }
+
+/* Our own stories lead the conference front page */
+.stories .st-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px 22px; }
+@media (max-width: 860px) { .stories .st-grid { grid-template-columns: 1fr; } }
+.stories .st { display: block; padding: 10px 0; border-top: 1px solid var(--border); color: var(--ink); }
+.stories .st:hover { text-decoration: none; } .stories .st:hover b { text-decoration: underline; text-underline-offset: 3px; }
+.stories .st-k { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
+.stories .st b { display: block; font: 700 18px/1.25 Georgia, "Times New Roman", serif; }
+.stories .st-d { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 5px; color: var(--ink-2); font: 15px/1.5 Georgia, "Times New Roman", serif; }
+.stories .st-lead b { font-size: 22px; }
+.stories .st img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 6px; margin-bottom: 8px; }
+
+/* The betting tools, together and below the news */
+.corner { margin: 28px 0 20px; padding: 18px 16px 2px; border-radius: 14px; border: 1px solid var(--border); background: color-mix(in srgb, var(--brand) 5%, var(--page)); }
+.corner-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; margin-bottom: 14px; }
+.corner-h h2 { margin: 0; font: 700 22px/1.2 Georgia, "Times New Roman", serif; }
+.corner-h h2::before { display: none; }
+.corner-h span { color: var(--muted); font-size: 13px; }
+
+/* Every page, as one quiet row instead of a tile grid */
+.pagerow { display: flex; flex-wrap: wrap; gap: 4px 18px; padding: 14px 2px; margin: 0 0 20px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); font-size: 14px; font-weight: 600; }
+.pagerow a { color: var(--ink-2); } .pagerow a:hover { color: var(--ink); }
+.pagerow .lockk { font-size: 11px; opacity: .7; }
+html, body { background: var(--page); }

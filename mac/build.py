@@ -404,6 +404,7 @@ def render_site() -> str:
     built_at = datetime.fromisoformat(data["generated_at"])
     modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     news_items = []  # (path, headline, published) for the news sitemap
+    desk = []  # our own recaps and previews, for the front page's lead stories
     CANON.clear(); CANON.update(canon_games(games))
     env.globals["canon_game"] = CANON
     for gid, box in boxes.items():
@@ -426,6 +427,8 @@ def render_site() -> str:
                                mp=mp, gm=gm, pre=pre, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
+        desk.append({"href": f"games/{gid}.html", "title": gm["headline"], "kind": "recap", "published": pub,
+                     "dek": (gm["paragraphs"] or [""])[0], "photo": (game_photos or [None])[0]})
         if gid not in CANON:
             news_items.append((f"games/{gid}.html", gm["headline"], pub))
     gamer.save_published(published)
@@ -509,6 +512,8 @@ def render_site() -> str:
                 story = preview_story.remember(previews_saved, g, story, built_at)
                 ld = json.dumps(preview_story.json_ld(g, story, story["published"], story["modified"],
                                                       site_chrome.SITE_NAME)).replace("</", "<\\/")
+                desk.append({"href": f"games/{g['game_id']}.html", "title": story["headline"], "kind": "preview",
+                             "published": story["published"], "dek": (story.get("paragraphs") or [""])[0], "photo": None})
                 if g["game_id"] not in CANON:
                     news_items.append((f"games/{g['game_id']}.html", story["headline"], story["published"]))
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
@@ -518,7 +523,14 @@ def render_site() -> str:
             d=data, g=g, p=prep.context(g, games, standings, profiles, coach_for, (m or {}).get("opp_form") or {})))
     preview_story.save(previews_saved)
     (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
-    write_front(index.render(d=data, data_json=json.dumps(data).replace("</", "<\\/")))
+    desk.sort(key=lambda x: x["published"], reverse=True)
+    now_utc = built_at.astimezone(timezone.utc)
+    for x in desk:
+        try:
+            x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
+        except ValueError:
+            x["age"] = ""
+    write_front(index.render(d=data, desk=desk[:6], data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),

@@ -15,14 +15,17 @@
       <h1><span class="hh-mac">{{ LG }}</span> men's basketball <span class="hh-yr">{{ d.season }} <span class="hh-line">News · Data · Edge</span></span></h1>
       <span class="sub">Updated {{ d.generated_et }}</span>
     </div>
-    {% if d.news and d.news.headlines %}
-    <ul class="hh-heads" aria-label="Latest headlines">
-      {% for i in d.news.headlines[:3] %}<li>{% set t0 = i.teams[0] if i.teams else "" %}<span class="hh-tag{{ " t-" ~ t0 if t0 }}">{% for t in i.teams[:1] %}{{ (d.teams|selectattr('key','equalto',t)|first).abbr }}{% else %}{{ LG }}{% endfor %}</span><a href="{{ i.url }}"{% if not i.mine %} target="_blank" rel="noopener"{% endif %}>{% if i.mine %}{{ L.kind_icon(i.kind, 14) }} {% endif %}{{ i.title }}</a><span class="hh-src">{{ i.source }} · {{ i.age }}</span></li>{% endfor %}
-      <li class="hh-all"><a href="news.html">All news →</a></li>
-    </ul>
-    {% endif %}
     <div class="hh-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
   </header>
+
+  {% if desk %}
+  <section id="stories" class="stories">
+    <div class="sechead"><h2>Latest from Hardwood Bricks</h2><span class="dim">Recaps and previews</span><a class="more" href="news.html">School news →</a></div>
+    <div class="st-grid">
+      {% for x in desk %}<a class="st{{ ' st-lead' if loop.first }}" href="{{ x.href }}">{% if loop.first and x.photo %}<img src="{{ x.photo.src }}" alt="{{ x.photo.caption }}" loading="lazy">{% endif %}<span class="st-k">{{ 'Recap' if x.kind == 'recap' else 'Preview' }} · {{ x.age }}</span><b>{{ x.title }}</b>{% if loop.index <= 3 and x.dek %}<span class="st-d">{{ x.dek }}</span>{% endif %}</a>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   {% if d.tonight %}
   <section id="tonight">
@@ -45,42 +48,12 @@
         <div class="tn-none">{% if mdl and (mdl.away.non_d1 or mdl.home.non_d1) %}No line: non-D-I opponent{% else %}Line not posted yet{% endif %}</div>
         {% endif %}
         {% if g.mv %}<div class="tn-model">{{ L.model_strip(g.mv, g.away, g.home, href='games/' ~ g.game_id ~ '.html') }}</div>{% endif %}
-        {% if g.ptw %}<div class="tn-watch">{{ L.watch_list(g.ptw, compact=True) }}</div>{% endif %}
       </div>
       {% endfor %}
     </div>
   </section>
   {% endif %}
 
-  {% if d.model_board %}
-  <section id="model-board">
-    <div class="sechead"><h2>Where the model leans</h2><span class="dim">Every game with a posted line, biggest gap first</span><a class="more" href="ratings.html">How the model works →</a></div>
-    <div class="mboard">
-      {% for g in d.model_board[:9] %}{% set mv = g.mv %}
-      <a class="mb-card" href="games/{{ g.game_id }}.html">
-        <span class="mb-top"><span><b>{{ g.away.abbr }} {{ 'vs' if g.neutral_site else '@' }} {{ g.home.abbr }}</b> <small>{{ g.et.weekday }} {{ g.et.time if not g.et.tba else 'TBA' }}</small></span><small>model {{ g.away.abbr }} {{ mv.away_pts }}, {{ g.home.abbr }} {{ mv.home_pts }}</small></span>{% if g.live %}<span class="mb-live">{{ L.live_score(g) }}</span>{% endif %}
-        {{ L.winbar(mv, g.away, g.home) }}
-        <span class="mb-leans">{{ L.lean_chip(mv.side) }}{{ L.lean_chip(mv.ou) }}</span>
-      </a>
-      {% endfor %}
-    </div>
-    {{ L.lean_legend() }}
-  </section>
-  {% endif %}
-
-  <div class="hometop">
-    {% if 'mac90' in feat %}{{ L.watch_shorts(youtube, youtube_shorts) }}{% endif %}
-    {{ L.best_play(d.best_play) }}
-  </div>
-
-  <section id="teams">
-    <h2>Teams</h2>
-    <div class="teamgrid">
-      {% for t in d.standings %}
-      <a href="teams/{{ t.key }}.html" class="t-{{ t.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team|replace('Michigan', 'Mich.') }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
-      {% endfor %}
-    </div>
-  </section>
 
 {% set icons = {
   'mac90.html': '<path d="M7 3h6v8a3 3 0 0 1-6 0zM4 10a6 6 0 0 0 12 0M10 16v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
@@ -94,12 +67,6 @@
   'viz.html': '<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 5.5V10l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   'travel.html': '<path d="M10 17s5-4.6 5-8.5A5 5 0 0 0 5 8.5C5 12.4 10 17 10 17z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="8.5" r="1.8" fill="currentColor"/>',
 } %}
-  <section id="explore">
-    <h2>Explore</h2>
-    <nav class="findit compact" aria-label="Every page">
-      {% for p in nav_pages[1:] %}<a href="{{ p[0] }}" style="--fc:{{ p[3] }}"><span class="ic"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">{{ icons[p[0]]|safe }}</svg></span><span><b>{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</b><small>{{ p[2] }}</small></span></a>{% endfor %}
-    </nav>
-  </section>
 
   <div class="grid two">
     <section id="results">
@@ -134,7 +101,43 @@
       <div class="note">Sorted by conference record, then overall, then average margin.</div>
     </section>
 
-    {% if d.ats %}{% set tw = d.ats|sum(attribute='w') %}{% set tl = d.ats|sum(attribute='l') %}{% set ns = namespace(top=1) %}{% for r in d.ats %}{% if r.w + r.l > ns.top %}{% set ns.top = r.w + r.l %}{% endif %}{% endfor %}{% set top = ns.top %}
+    </div>
+  </div>
+
+  {% if 'mac90' in feat %}<div class="hometop">{{ L.watch_shorts(youtube, youtube_shorts) }}</div>{% endif %}
+
+  <section id="teams">
+    <h2>Teams</h2>
+    <div class="teamgrid">
+      {% for t in d.standings %}
+      <a href="teams/{{ t.key }}.html" class="t-{{ t.key }}"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ d.espn_ids[t.key] }}.png" alt="" loading="lazy"><span>{{ t.team|replace('Michigan', 'Mich.') }}<small>{{ t.w }}-{{ t.l }}{% if d.poll_rank.get(t.key) %} · picked {{ d.poll_rank[t.key] }}{% endif %}</small></span></a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="corner">
+    <div class="corner-h"><h2>The betting desk</h2><span>The model against the market, for readers 21 and over. <a href="odds.html">Odds</a> · <a href="ratings.html">Ratings</a></span></div>
+  {% if d.model_board %}
+  <section id="model-board">
+    <div class="sechead"><h2>Where the model leans</h2><span class="dim">Every game with a posted line, biggest gap first</span><a class="more" href="ratings.html">How the model works →</a></div>
+    <div class="mboard">
+      {% for g in d.model_board[:9] %}{% set mv = g.mv %}
+      <a class="mb-card" href="games/{{ g.game_id }}.html">
+        <span class="mb-top"><span><b>{{ g.away.abbr }} {{ 'vs' if g.neutral_site else '@' }} {{ g.home.abbr }}</b> <small>{{ g.et.weekday }} {{ g.et.time if not g.et.tba else 'TBA' }}</small></span><small>model {{ g.away.abbr }} {{ mv.away_pts }}, {{ g.home.abbr }} {{ mv.home_pts }}</small></span>{% if g.live %}<span class="mb-live">{{ L.live_score(g) }}</span>{% endif %}
+        {{ L.winbar(mv, g.away, g.home) }}
+        <span class="mb-leans">{{ L.lean_chip(mv.side) }}{{ L.lean_chip(mv.ou) }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {{ L.lean_legend() }}
+  </section>
+  {% endif %}
+
+  <div class="hometop">
+    {{ L.best_play(d.best_play) }}
+  </div>
+
+  {% if d.ats %}{% set tw = d.ats|sum(attribute='w') %}{% set tl = d.ats|sum(attribute='l') %}{% set ns = namespace(top=1) %}{% for r in d.ats %}{% if r.w + r.l > ns.top %}{% set ns.top = r.w + r.l %}{% endif %}{% endfor %}{% set top = ns.top %}
     <section id="ats">
       <div class="sechead"><h2>Against the spread</h2><span class="dim">Last 7 days · {{ tw }}-{{ tl }} league-wide</span></div>
       <table class="atsboard">
@@ -145,8 +148,11 @@
       <div class="note">Covers vs the closing line. Games without a posted line don't count.</div>
     </section>
     {% endif %}
-    </div>
   </div>
+
+  <nav class="pagerow" aria-label="Every page">
+    {% for p in nav_pages[1:] %}<a href="{{ p[0] }}">{{ p[1] }}{% if p[0] in desk_pages %} <span class="lockk" title="Access code">🔒</span>{% endif %}</a>{% endfor %}
+  </nav>
 
   <div class="support">
     {{ L.ad_banner(house_ad) }}
