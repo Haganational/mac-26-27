@@ -1606,21 +1606,21 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 108,
-    "winner": null
+    "score": 111,
+    "winner": true
    },
    "away": {
     "espn_id": "2473",
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 77,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:08 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928818",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T04:00:52+00:00"
+ "live_at": "2026-11-12T04:15:54+00:00"
 }
