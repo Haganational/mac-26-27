@@ -34,7 +34,7 @@ BRICK_TONES = ("#9e3b26", "#8c3322", "#a8452c", "#93371f", "#b04d31", "#98402a",
 
 # Pages in the order the top bar and footer list them. (path, label, one-line purpose, accent, search keywords)
 PAGES: tuple[tuple[str, str, str, str, str], ...] = (
-    ("index.html", "Home", "Tonight's games, teams, results, standings and against-the-spread records", "#2a78d6", "dashboard scores today tonight standings results"),
+    ("index.html", f"{LEAGUE.short} home", "Tonight's games, teams, results, standings and against-the-spread records", "#2a78d6", "dashboard scores today tonight standings results"),
     ("mac90.html", "MAC90", "The day in 90 seconds: last night's results, tonight's slate, read-aloud script", "#b8862b", "today in the mac daily recap podcast script 90 seconds roundup last night tonight"),
     ("tv.html", "Schedule & TV", "This week's grid and every game: tip time, TV, lines, model, rest and travel", "#6250d6", "schedule tv watch network espn+ calendar tip time this week tonight games rest travel"),
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
