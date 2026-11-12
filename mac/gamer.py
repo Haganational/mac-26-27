@@ -327,6 +327,9 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         "awayTeam": _team_ld(away),
         "competitor": [_team_ld(away), _team_ld(home)],
         "url": url,
+        # Google's recommended Event fields: the two teams play it, the home school hosts it.
+        "performer": [_team_ld(away), _team_ld(home)],
+        "organizer": _team_ld(home),
     }
     if g.get("venue"):
         place = {"@type": "Place", "name": g["venue"]}
@@ -353,4 +356,13 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         "about": {"@id": url + "#game"},
         "isAccessibleForFree": True,
     }
+    # Same picture and summary as the story, so the game itself carries an image and description too.
+    event["image"] = [im["url"] if isinstance(im, dict) else im for im in article["image"]]
+    event["description"] = article["description"] or event["name"]
+    tix = g.get("tickets")
+    if tix and tix.get("url") and not g.get("completed"):
+        offer = {"@type": "Offer", "url": tix["url"], "availability": "https://schema.org/InStock", "priceCurrency": "USD"}
+        if tix.get("low"):
+            offer["price"] = f"{tix['low']:.2f}"
+        event["offers"] = offer
     return {"@context": "https://schema.org", "@graph": [article, event]}

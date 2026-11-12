@@ -48,6 +48,17 @@ def parse_broadcasts(comp: dict[str, Any]) -> list[dict[str, Any]]:
     return out
 
 
+def parse_tickets(comp: dict[str, Any]) -> dict[str, Any] | None:
+    """ESPN's ticket listing for an upcoming game: the event's ticket link and the lowest price, if any."""
+    for t in comp.get("tickets") or []:
+        links = [l for l in t.get("links") or [] if str(l.get("href", "")).startswith("https://")]
+        link = next((l for l in links if "event" in (l.get("rel") or [])), links[0] if links else None)
+        if link:
+            low = t.get("startingPrice")
+            return {"url": link["href"], "low": float(low) if isinstance(low, (int, float)) and low > 0 else None}
+    return None
+
+
 def parse_event(event: dict[str, Any]) -> dict[str, Any]:
     """Flatten one ESPN event into our game record."""
     comp = event["competitions"][0]
@@ -69,6 +80,7 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
         "conference_game": home_team is not None and away_team is not None,
         "time_tba": comp.get("timeValid") is False,
         "broadcasts": parse_broadcasts(comp),
+        "tickets": parse_tickets(comp) if comp.get("ticketsAvailable", True) else None,
         "venue": venue.get("fullName"),
         "venue_city": (venue.get("address") or {}).get("city"),
         "venue_state": (venue.get("address") or {}).get("state"),

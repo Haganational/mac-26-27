@@ -31,6 +31,7 @@
   <div class="sub" style="margin:-8px 0 18px">
     {% if g.live %}<span class="livetag"><i aria-hidden="true"></i>Live</span> <b class="livescore"><small>{{ L.clock(g) }}</small></b> · the model projected {{ away.abbr }} {{ mv.away_pts }}, {{ home.abbr }} {{ mv.home_pts }} · {% endif %}Preview · <b>{{ g.et.weekday }} {{ g.et.md }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}</b> <span class="cd" data-tip="{{ g.date }}"></span>
     · How to watch: {% for n in g.watch.nets %}{{ n.name }}{{ ', ' if not loop.last }}{% else %}TV not listed yet{% endfor %}
+    {% if g.tickets and g.tickets.url %} · <a href="{{ g.tickets.url }}" rel="nofollow sponsored noopener" target="_blank">Tickets{% if g.tickets.low %} from ${{ '%.0f'|format(g.tickets.low) }}{% endif %}</a>{% endif %}
     {% if g.venue %} · {{ g.venue }}{% if g.venue_city %}, {{ g.venue_city }}{% endif %}{% if g.venue_state %}, {{ g.venue_state }}{% endif %}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}" target="_blank" rel="noopener">ESPN gamecast ↗</a>

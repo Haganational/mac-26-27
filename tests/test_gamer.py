@@ -78,6 +78,10 @@ def test_json_ld_is_news_article_about_sports_event():
     assert ev["startDate"] == "2026-11-03T23:00:00Z"
     assert ev["location"]["address"]["addressLocality"] == "Akron"
     assert ev["homeTeam"]["name"] == "Akron Zips"
+    assert ev["organizer"]["name"] == "Akron Zips"
+    assert len(ev["performer"]) == 2 and ev["performer"][1]["name"] == "Akron Zips"
+    assert ev["image"] and all(isinstance(u, str) and u.startswith("https://") for u in ev["image"])
+    assert ev["description"]
     json.dumps(ld)
 
 
@@ -140,3 +144,17 @@ def test_photo_ld():
     assert o["contentUrl"] == "https://x.com/photos/a.jpg" and o["caption"] == "Tip"
     assert o["creator"] == {"@type": "Person", "name": "Pat"} and o["creditText"] == "Pat"
     assert "creator" not in gamer.photo_ld({"src": "photos/b.jpg"}, "https://x.com/")
+
+
+def test_event_offers_only_for_upcoming_games_with_tickets():
+    c = ctx()
+    gm = gamer.write(c, None, FLAVOR)
+    ld = gamer.json_ld(c, gm, "2026-11-04T01:05:00Z", "2026-11-04T02:00:00Z", "Hardwood Bricks", "https://hardwoodbricks.com/")
+    assert "offers" not in ld["@graph"][1]
+    c["g"]["tickets"] = {"url": "https://tix.example/event", "low": 14.0}
+    c["g"]["completed"] = False
+    ev = gamer.json_ld(c, gm, "2026-11-04T01:05:00Z", "2026-11-04T02:00:00Z", "Hardwood Bricks", "https://hardwoodbricks.com/")["@graph"][1]
+    assert ev["offers"] == {"@type": "Offer", "url": "https://tix.example/event", "availability": "https://schema.org/InStock",
+                            "priceCurrency": "USD", "price": "14.00"}
+    c["g"]["completed"] = True
+    assert "offers" not in gamer.json_ld(c, gm, "2026-11-04T01:05:00Z", "2026-11-04T02:00:00Z", "Hardwood Bricks")["@graph"][1]

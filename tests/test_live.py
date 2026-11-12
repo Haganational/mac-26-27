@@ -43,3 +43,15 @@ def test_upcoming_keeps_live_game_past_three_hours():
     assert [x["game_id"] for x in analysis.upcoming([g], {}, now)] == ["1"]
     g["live"] = False
     assert analysis.upcoming([g], {}, now) == []
+
+
+def test_parse_tickets_takes_event_link_and_low_price():
+    ev = _event("pre")
+    ev["competitions"][0]["ticketsAvailable"] = True
+    ev["competitions"][0]["tickets"] = [{"summary": "Tickets as low as $14", "startingPrice": 14.0, "links": [
+        {"rel": ["tickets", "desktop", "venue"], "href": "https://tix.example/venue"},
+        {"rel": ["tickets", "desktop", "event"], "href": "https://tix.example/event"}]}]
+    assert espn.parse_event(ev)["tickets"] == {"url": "https://tix.example/event", "low": 14.0}
+    ev["competitions"][0]["ticketsAvailable"] = False
+    assert espn.parse_event(ev)["tickets"] is None
+    assert espn.parse_event(_event("pre"))["tickets"] is None
