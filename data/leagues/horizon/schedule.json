@@ -1446,7 +1446,7 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 37,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -1454,13 +1454,13 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 40,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:12 - 2nd"
+   "detail": "10:28 - 2nd"
   },
   {
    "game_id": "401926868",
@@ -1486,7 +1486,7 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 35,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -1494,13 +1494,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 41,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920914",
@@ -1537,10 +1537,10 @@
     "score": 24,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "19:59 - 2nd"
   },
   {
    "game_id": "401928824",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T00:45:53+00:00"
+ "live_at": "2026-11-12T01:00:59+00:00"
 }
