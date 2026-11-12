@@ -130,6 +130,7 @@ def front_stories(site_root: Path, now: datetime, base: str = SITE_BASE) -> list
         key = keys.get(it["league"], "mac")
         out.append({"href": _rel(it["url"], base), "title": it["title"], "kind": it["kind"],
                     "dek": _meta(it["page"], "og:description"),
+                    "video": bool(it["page"] and it["page"].exists() and 'class="hl-video"' in it["page"].read_text()),
                     "image": img if img and "/game-" in img else "",
                     "league": it["league"], "key": key, "color": CONF_COLORS.get(key, "#a8441c"),
                     "when": when, "age": _age(when, now)})

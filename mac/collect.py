@@ -13,6 +13,7 @@
   python -m mac.collect book       # print every conference's table summary (the site publishes them under book/)
   python -m mac.collect ratings    # print the MAC ratings table
   python -m mac.collect box-weights  # refit what each box-score stat is worth (last season)
+  python -m mac.collect highlights # ESPN highlight clips for recent finals (also runs in quick, live, edition, all)
   python -m mac.collect live       # live scores for games in progress (ESPN only), new box scores, re-render
   python -m mac.collect all        # schedule + D-I results + lines + site (what the cron job runs)
   LEAGUE=asun python -m mac.collect edition   # another league's full refresh: schedule, rosters, news, site
@@ -28,7 +29,7 @@ import sys
 
 from .config import SEASON
 
-from . import build, db, espn, ncaa, news, odds, rosters, travel
+from . import build, db, espn, highlights, ncaa, news, odds, rosters, travel
 
 
 def refresh_ncaa() -> dict:
@@ -57,6 +58,15 @@ def refresh_live() -> None:
             print("boxscores:", rosters.refresh_boxscores())
     except Exception as exc:  # noqa: BLE001 - a scoreboard hiccup must not block the build
         print(f"live: skipped ({exc})", file=sys.stderr)
+
+
+def refresh_highlights() -> None:
+    """ESPN highlight clips for games that went final in the last day and a half. Never fails the run."""
+    try:
+        games = json.loads(espn.SCHEDULE_PATH.read_text()).get("games", [])
+        print("highlights:", highlights.refresh(games))
+    except Exception as exc:  # noqa: BLE001 - a feed hiccup must not block the build
+        print(f"highlights: skipped ({exc})", file=sys.stderr)
 
 
 def refresh_nba() -> None:
@@ -88,11 +98,15 @@ def main(argv: list[str]) -> int:
         except odds.OddsApiError as exc:
             print(f"lines: skipped ({exc})", file=sys.stderr)
         refresh_nba()
+        refresh_highlights()
         print("site:", build.render_site())
     elif cmd == "live":
         # Every-15-minute game-night run: ESPN scores only (no Odds API credits), then a re-render.
         refresh_live()
+        refresh_highlights()
         print("site:", build.render_site())
+    elif cmd == "highlights":
+        refresh_highlights()
     elif cmd == "build-db":
         print("sqlite:", db.build())
     elif cmd == "site":
@@ -147,6 +161,7 @@ def main(argv: list[str]) -> int:
             print("news:", news.refresh())
         except Exception as exc:  # noqa: BLE001
             print(f"news: skipped ({exc})", file=sys.stderr)
+        refresh_highlights()
         print("site:", build.render_site())
     elif cmd == "lines-backfill":
         from .config import LEAGUE
@@ -177,6 +192,7 @@ def main(argv: list[str]) -> int:
         except Exception as exc:  # noqa: BLE001 - a feed outage must not block the site build
             print(f"news: skipped ({exc})", file=sys.stderr)
         refresh_nba()
+        refresh_highlights()
         print("site:", build.render_site())
     else:
         print(__doc__)

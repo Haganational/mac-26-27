@@ -41,7 +41,7 @@
       {% if lead %}
       <a class="lead{{ '' if lead.image else ' noimg' }}" href="{{ lead.href }}">
         {% if lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}
-        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }} · {{ lead.age }}</span>
+        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}</span>
         <h2>{{ lead.title }}</h2>
         {% if lead.dek %}<p>{{ lead.dek }}</p>{% endif %}
       </a>
@@ -50,7 +50,7 @@
       {% endif %}
       {% if cards %}
       <div class="cards">
-        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{{ c.age }}</span><h3>{{ c.title }}</h3></a>{% endfor %}
+        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}</span><h3>{{ c.title }}</h3></a>{% endfor %}
       </div>
       {% endif %}
     </div>
@@ -63,7 +63,7 @@
       {% if river %}
       <section aria-labelledby="h-wire">
         <div class="sh"><h2 id="h-wire">Latest recaps</h2></div>
-        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{{ s.age }}</span><span class="hd">{{ s.title }}</span></a></li>{% endfor %}</ul>
+        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{% if s.video %}▶ Video · {% endif %}{{ s.age }}</span><span class="hd">{{ s.title }}</span></a></li>{% endfor %}</ul>
       </section>
       {% endif %}
     </aside>
