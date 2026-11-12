@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -583,6 +583,7 @@ def render_site() -> str:
         render_power(env, data, m, games, standings, profiles, now)
     if LEAGUE.has("notes"):
         render_notes(env, data, season, dispatches, notes_by_game, profiles)
+    render_weekly(env, data, dispatches)
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
@@ -667,6 +668,25 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
         d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
         player_links={str(p["espn_id"]): {"href": f"teams/{key}.html#p{p['espn_id']}", "label": p["name"]}
                       for key, plist in profiles.items() for p in plist}))
+
+
+def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[str, Any]]) -> None:
+    """BricksIt Weekly: weekly/<NNN>.html for every issue, and weekly.html for the newest."""
+    files = weekly.issues()
+    if not files:
+        return
+    tpl = env.get_template("weekly.html")
+    (SITE_DIR / "weekly").mkdir(exist_ok=True)
+    up = "../" * (LEAGUE.path.count("/"))  # from this edition's folder back to the site root
+    others = [{"short": lg.short, "href": f"{up}{lg.path}weekly.html"} for lg in LEAGUES.values()
+              if lg.key != LEAGUE.key and weekly.issues(lg.key)]
+    for i, f in enumerate(files):
+        ctx = weekly.context(json.loads(f.read_text()), data, dispatches)
+        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
+        (SITE_DIR / "weekly" / f"{f.stem}.html").write_text(tpl.render(
+            root="../", path=f"weekly/{f.stem}.html", others=[{**o, "href": "../" + o["href"]} for o in others], **kw))
+        if i == len(files) - 1:
+            (SITE_DIR / "weekly.html").write_text(tpl.render(root="", path="weekly.html", latest=True, others=others, **kw))
 
 
 def render_power(env: Environment, data: dict[str, Any], m: dict[str, Any], games: list[dict[str, Any]],

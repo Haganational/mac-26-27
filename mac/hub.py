@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from . import weekly
 from .config import LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
 
 
@@ -85,7 +86,7 @@ def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
     finals = [g for g in d.get("recent", []) if g.get("completed")][:4]
     return {
         "key": lg.key, "short": lg.short, "name": lg.name, "region": lg.region,
-        "href": front_page(lg), "prefix": prefix, "n_teams": len(lg.teams),
+        "href": front_page(lg), "prefix": prefix, "weekly": bool(weekly.issues(lg.key)), "n_teams": len(lg.teams),
         "tonight": [_game(g, site_root, prefix) for g in upcoming[:6]],
         "upcoming_all": [_game(g, site_root, prefix) for g in upcoming[:12]],
         "finals": [_game(g, site_root, prefix) for g in finals],

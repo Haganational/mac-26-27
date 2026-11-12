@@ -90,6 +90,7 @@
       <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
       <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
       <a class="go" href="{{ e.href }}">{{ e.short }} front page →</a>
+      {% if e.weekly %}<a class="go" href="{{ e.prefix }}weekly.html">BricksIt Weekly →</a>{% endif %}
       {% if e.finals %}<ul class="fin">{% for g in e.finals[:3] %}<li><a href="{{ g.href }}">{% if g.away_win %}<b>{{ g.away_name }} {{ g.away_score }}</b>, {{ g.home_name }} {{ g.home_score }}{% else %}<b>{{ g.home_name }} {{ g.home_score }}</b>, {{ g.away_name }} {{ g.away_score }}{% endif %}</a></li>{% endfor %}</ul>{% endif %}
       <ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul>
     </section>
