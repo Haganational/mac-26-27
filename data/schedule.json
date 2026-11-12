@@ -1260,7 +1260,7 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 84,
+    "score": 91,
     "winner": null
    },
    "away": {
@@ -1268,13 +1268,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 66,
+    "score": 73,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "4:56 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401911012",
@@ -1301,7 +1301,7 @@
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
     "score": 72,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2349",
@@ -1309,12 +1309,12 @@
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
     "score": 62,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911013",
@@ -8795,5 +8795,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T02:00:31+00:00"
+ "live_at": "2026-11-12T02:15:23+00:00"
 }
