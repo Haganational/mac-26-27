@@ -1446,7 +1446,7 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 49,
+    "score": 62,
     "winner": null
    },
    "away": {
@@ -1454,13 +1454,13 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 50,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:28 - 2nd"
+   "detail": "4:48 - 2nd"
   },
   {
    "game_id": "401926868",
@@ -1486,7 +1486,7 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 37,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -1494,13 +1494,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 44,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:25 - 2nd"
   },
   {
    "game_id": "401920914",
@@ -1526,7 +1526,7 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 36,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -1534,13 +1534,13 @@
     "key": null,
     "name": "Clarke Pride",
     "abbr": "CKE",
-    "score": 24,
+    "score": 36,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:59 - 2nd"
+   "detail": "11:42 - 2nd"
   },
   {
    "game_id": "401928824",
@@ -1566,7 +1566,7 @@
     "key": null,
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1574,13 +1574,13 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:10 - 1st"
   },
   {
    "game_id": "401928814",
@@ -9720,5 +9720,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-12T01:00:59+00:00"
+ "live_at": "2026-11-12T01:15:58+00:00"
 }
