@@ -10,8 +10,9 @@ What was posted is kept in data/social_posted.json.
 
 Needs two repo secrets, set by the account owner: BSKY_HANDLE (e.g. hardwoodbricks.bsky.social)
 and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account password).
-Threads needs THREADS_USER_ID and THREADS_ACCESS_TOKEN (from a Meta developer app with
-threads_basic and threads_content_publish; the token lasts about 60 days). Each network
+Threads needs THREADS_ACCESS_TOKEN (from a Meta developer app with threads_basic and
+threads_content_publish; the token lasts about 60 days). THREADS_USER_ID is optional and
+defaults to "me", the account the token belongs to. Each network
 posts on its own once its secrets are set; with none, this does nothing. SOCIAL_DRY_RUN=1 prints the posts instead of sending them.
 """
 from __future__ import annotations
@@ -173,8 +174,9 @@ def _networks() -> list[tuple[str, Any]]:
                 box["s"] = _session(handle, password)
             return post(box["s"], it, now)
         nets.append(("", bsky))
-    uid, token = os.environ.get("THREADS_USER_ID", "").strip(), os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
-    if uid and token:
+    uid = os.environ.get("THREADS_USER_ID", "").strip() or "me"
+    token = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
+    if token:
         nets.append(("threads:", lambda it, now: post_threads(uid, token, it)))
     return nets
 
