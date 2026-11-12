@@ -1066,7 +1066,7 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -1074,13 +1074,13 @@
     "key": null,
     "name": "Franklin Grizzlies",
     "abbr": "FRKL",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:46 - 1st"
   },
   {
    "game_id": "401922239",
@@ -7512,5 +7512,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-12T00:15:44+00:00"
 }
