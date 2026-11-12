@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -400,6 +400,7 @@ def render_site() -> str:
     flavor = gamer.load_flavor()
     nba = (nba_alumni.load_nights(), nba_alumni.load_colleges())
     published = gamer.load_published()
+    clips = highlights.load()
     previews_saved = preview_story.load()
     built_at = datetime.fromisoformat(data["generated_at"])
     modified = built_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -424,11 +425,11 @@ def render_site() -> str:
         game_photos = [ph for n in notes_by_game.get(gid, []) for ph in n.get("photos", [])]
         ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME, photos=game_photos)
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
-                               mp=mp, gm=gm, pre=pre, published=pub, phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
+                               mp=mp, gm=gm, pre=pre, published=pub, hl=highlights.for_game(gid, clips), phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
         desk.append({"href": f"games/{gid}.html", "title": gm["headline"], "kind": "recap", "published": pub,
-                     "dek": (gm["paragraphs"] or [""])[0], "photo": (game_photos or [None])[0]})
+                     "dek": (gm["paragraphs"] or [""])[0], "photo": (game_photos or [None])[0], "video": gid in clips})
         if gid not in CANON:
             news_items.append((f"games/{gid}.html", gm["headline"], pub))
     gamer.save_published(published)

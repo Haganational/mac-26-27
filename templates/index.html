@@ -22,7 +22,7 @@
   <section id="stories" class="stories">
     <div class="sechead"><h2>Latest from Hardwood Bricks</h2><span class="dim">Recaps and previews</span><a class="more" href="news.html">School news →</a></div>
     <div class="st-grid">
-      {% for x in desk %}<a class="st{{ ' st-lead' if loop.first }}" href="{{ x.href }}">{% if loop.first and x.photo %}<img src="{{ x.photo.src }}" alt="{{ x.photo.caption }}" loading="lazy">{% endif %}<span class="st-k">{{ 'Recap' if x.kind == 'recap' else 'Preview' }} · {{ x.age }}</span><b>{{ x.title }}</b>{% if loop.index <= 3 and x.dek %}<span class="st-d">{{ x.dek }}</span>{% endif %}</a>{% endfor %}
+      {% for x in desk %}<a class="st{{ ' st-lead' if loop.first }}" href="{{ x.href }}">{% if loop.first and x.photo %}<img src="{{ x.photo.src }}" alt="{{ x.photo.caption }}" loading="lazy">{% endif %}<span class="st-k">{{ 'Recap' if x.kind == 'recap' else 'Preview' }}{% if x.video %} · <span class="st-v">▶ Video</span>{% endif %} · {{ x.age }}</span><b>{{ x.title }}</b>{% if loop.index <= 3 and x.dek %}<span class="st-d">{{ x.dek }}</span>{% endif %}</a>{% endfor %}
     </div>
   </section>
   {% endif %}

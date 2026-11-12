@@ -36,6 +36,10 @@
   <article class="gamer" id="gamer">
     <h1>{{ gm.headline }}</h1>
     <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published[:10] }}</time></div>
+    {% if hl %}<figure class="hl-video">
+      <div class="hl-frame"><iframe src="{{ hl.embed }}" title="{{ hl.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      <figcaption>Highlights from ESPN · <a href="{{ hl.watch }}" rel="noopener">Watch on ESPN</a></figcaption>
+    </figure>{% endif %}
     {% for p in gm.html %}<p>{{ p }}</p>
     {% endfor %}{% if gm.scoring %}<p class="scoring"><b>Scoring</b> · {{ gm.scoring_html }}</p>
     {% endif %}{% for f in gm.flavor %}<p class="flavor">{{ f }}</p>
