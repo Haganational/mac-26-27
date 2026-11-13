@@ -147,6 +147,7 @@
     <div class="sf-about">
       <a class="brand" href="{{ root }}{{ site_up }}index.html"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
       <p>{{ site_name }} covers every {{ LG }} men's basketball team in one place: scores, lines from ten books, an opponent-adjusted rating model, TV, travel and news.{% if updated %} Updated {{ updated }}.{% endif %} Lines refresh every 30 minutes.</p>
+      <p class="sf-roots">Named for the brick streets of Athens, Ohio, where the MAC is the home league.</p>
       <p class="dim">Data: ESPN, The Odds API, {% if 'athletics' in feat %}school athletics sites, the {{ LG }} and {% endif %}Google News. Not affiliated with the {{ LG }} or any school. <a href="{{ root }}about.html">About, masthead and standards</a>.</p>
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
