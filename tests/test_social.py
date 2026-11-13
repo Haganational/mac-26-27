@@ -110,3 +110,40 @@ def test_text_uses_item_text_and_fits():
     long = {"title": "t", "text": "word " * 100, "league": "MAC"}
     t = social.text_for(long)
     assert len(t) <= 290 and t.endswith("#MAC #CollegeBasketball") and "…" in t
+
+def test_failure_streak_alerts_once_a_day_and_clears_on_success():
+    state = {}
+    t0 = datetime(2026, 11, 12, 3, 0, tzinfo=timezone.utc)
+    step = lambda i: t0.replace(hour=3 + i)  # noqa: E731
+    assert social.track_failures(state, "bluesky", 2, 2, "HTTPError: 401", step(0)) is None
+    assert social.track_failures(state, "bluesky", 0, 0, "", step(1)) is None  # nothing to post: streak untouched
+    assert social.track_failures(state, "bluesky", 1, 1, "HTTPError: 401", step(1)) is None
+    body = social.track_failures(state, "bluesky", 1, 3, "HTTPError: 401", step(2))
+    assert body and "3 runs in a row" in body and "HTTPError: 401" in body
+    assert social.track_failures(state, "bluesky", 1, 1, "HTTPError: 401", step(3)) is None  # already alerted today
+    assert social.track_failures(state, "bluesky", 1, 1, "x", datetime(2026, 11, 13, 6, 0, tzinfo=timezone.utc))
+    assert social.track_failures(state, "bluesky", 0, 2, "", step(5)) is None and state == {}
+
+
+def test_run_emails_after_three_failed_runs(monkeypatch, tmp_path):
+    import requests
+    sent = []
+    monkeypatch.setattr(social, "POSTED", tmp_path / "posted.json")
+    monkeypatch.setattr(social, "FAILURES", tmp_path / "failures.json")
+    monkeypatch.setattr(social.alert, "send", lambda subject, body: sent.append(subject) or True)
+    now = datetime(2026, 11, 12, 3, 0, tzinfo=timezone.utc)
+    story = {**it("u1", "Akron rolled past Kent State 80-60", "2026-11-12T02:30:00Z")}
+    monkeypatch.setattr(social, "stories", lambda: [story])
+
+    def boom(item, when):
+        raise requests.HTTPError("401 Unauthorized")
+    monkeypatch.setattr(social, "_networks", lambda: [("", boom)])
+    monkeypatch.delenv("SOCIAL_DRY_RUN", raising=False)
+    for _ in range(2):
+        assert "bluesky 0/1" in social.run(now)
+    assert sent == []
+    social.run(now)
+    assert sent == ["Social posts to bluesky keep failing"]
+    monkeypatch.setattr(social, "_networks", lambda: [("", lambda item, when: "ok")])
+    assert "bluesky 1/1" in social.run(now)
+    assert (tmp_path / "failures.json").read_text().strip() == "{}"

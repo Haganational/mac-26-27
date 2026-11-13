@@ -1,0 +1,1580 @@
+{
+ "_help": "Metro local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "canisius": {
+   "town": "Buffalo",
+   "home_floor": "the Koessler Athletic Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "iona": {
+   "town": "New Rochelle",
+   "home_floor": "the Hynes Athletics Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "manhattan": {
+   "town": "the Bronx",
+   "home_floor": "Draddy Gymnasium",
+   "lines": [
+    {
+     "text": "Manhattan University was founded in 1853 as the Academy of the Holy Infancy by five French De La Salle Christian Brothers.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Manhattan began in a small building on Canal Street and later moved to 131st Street and Broadway in Manhattanville before settling in the Riverdale section of the Bronx in 1922.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Manhattan received its state charter as Manhattan College in 1863 and was renamed Manhattan University in 2024.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Baseball Hall of Fame credits Manhattan with the seventh-inning stretch, traced to Brother Jasper calling time-out and telling students to stand up and stretch.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Manhattan's colors are kelly green and white, and its men's teams are called the Jaspers.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Manhattan's North campus overlooks Van Cortlandt Park, which the school uses for outdoor track and field, golf and cross country.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Manhattan's Riverdale campus is near the Van Cortlandt Park-242nd Street station on the 1 train, with Metro-North's Riverdale station on the Hudson Line farther west.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Manhattan University Pipes and Drums, established in 1981, marches in the New York City Saint Patrick's Day Parade.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Manhattan's student newspaper, The Quadrangle, has published continually since 1924 and comes out weekly on Tuesdays during the academic year.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Manhattan's alumni include Edgar Award-winning novelist James Patterson.",
+     "source": "https://en.wikipedia.org/wiki/Manhattan_University",
+     "kind": "alumni",
+     "until": ""
+    }
+   ],
+   "home_lines": []
+  },
+  "fairfield": {
+   "town": "Fairfield",
+   "home_floor": "Mahoney Arena",
+   "lines": [
+    {
+     "text": "Fairfield first fielded a men's basketball team in 1948-49, going 9-14 under coach Joe Dunn.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield has reached the NCAA Division I tournament three times, in 1986, 1987 and 1997, each time after winning its conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1997 NCAA tournament, Fairfield led top-seeded North Carolina by seven points at halftime before falling 82-74.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield won back-to-back conference tournament titles in 1986 and 1987 under coach Mitch Buonaguro.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield beat Marshall 80-76 in the 1973 NIT and Colorado State 62-60 in the 2011 NIT.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield erased a 27-point deficit to beat George Mason 101-96 in overtime in the 2010 CIT, the largest comeback in Division I postseason history.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield made three straight NCAA Division II tournaments from 1960 to 1962 under coach George Bisacca.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield is one of six charter members of the league founded in 1980 as the Metro Atlantic Athletic Conference, which became the Metro Conference on July 1, 2026.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield won MAAC regular-season championships in 1986 and 2011.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fairfield reached the semifinals of the College Basketball Invitational in 2024, winning two games before a 75-58 loss to Seattle.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fred Barakat's 160 wins from 1970 to 1981 are the most by a Fairfield men's basketball coach, and he took the Stags to the NIT in 1973, 1974 and 1978.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Darren Phillip of Fairfield led the nation in rebounding in 2001, and Deng Gai of Fairfield led it in blocked shots in 2005.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The town of Fairfield was founded in 1639 by Roger Ludlowe, who bought land then known as Unquowa.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfield has about five miles of coastline on Long Island Sound and five town beaches staffed by lifeguards in summer.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "General Electric kept its corporate headquarters in Fairfield for more than four decades before moving to Boston in 2017.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bigelow Tea is headquartered on Black Rock Turnpike in Fairfield.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfield University's campus sits less than 60 miles from New York City, about an hour and 20 minutes by Metro-North Railroad.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfield counted 61,512 residents in the 2020 census and is home to two universities, Fairfield and Sacred Heart, which together enroll more than 17,000 students.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfield's teams were known as the Men in Red in 1947-48 before a board vote chose Stags over Chanticleers.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Stags name nods to Fairfield's place in the Diocese of Hartford, since a hart is a male deer, and the university seal shows a deer leaping a brook.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fairfield's student section, Stags in the Stands, was founded in 2005, following the Red Sea fan base that filled Alumni Hall in the 1970s.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fairfield's mascot is Lucas the Stag, and the school colors are red and white.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fairfield University was founded in 1942 when the Jesuits acquired two adjoining estates, and its 200-acre campus still includes Bellarmine Hall, built in 1921 as the Lashar family's Hearthstone Hall.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Thirteen Fairfield players have been drafted or signed by NBA teams, among them A.J. Wynder with the Boston Celtics and Deng Gai with the Philadelphia 76ers.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Fairfield had two players selected in the 1979 NBA draft, Joe DeSantis and Mark Young.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ed Cooley went 92-69 as Fairfield's coach from 2006 to 2011 and was named the Ben Jobe National Coach of the Year in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Chris Casey's first Fairfield team went 22-12 in 2023-24 and reached the conference tournament title game.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Fairfield went 21-13 last season and 11-9 in league play, then won two conference tournament games as the No. 7 seed before losing to Siena.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fairfield_Stags_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Fairfield and Sacred Heart are both located in Fairfield, and they became conference opponents when Sacred Heart joined the league for the 2024-25 season.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Fairfield won 92-87 at crosstown Sacred Heart last season, a year after Sacred Heart beat the Stags in the first round of the 2025 conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fairfield_Stags_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Fairfield won 85-79 on the road last season at Quinnipiac, its in-state conference rival from Hamden.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fairfield_Stags_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Fairfield, Iona, Manhattan and Saint Peter's are the four charter members from 1980 still playing in the Metro Conference.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Leo D. Mahoney Arena, Fairfield's 3,500-seat home on Loyola Drive, opened on Nov. 18, 2022, on the site of the old Alumni Hall.",
+     "source": "https://en.wikipedia.org/wiki/Leo_D._Mahoney_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fairfield's Mahoney Arena cost $51 million and was fully funded by donors.",
+     "source": "https://en.wikipedia.org/wiki/Leo_D._Mahoney_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court at Fairfield's Mahoney Arena is named for George Bisacca, the former coach and athletic director, a name carried over from Alumni Hall.",
+     "source": "https://en.wikipedia.org/wiki/Leo_D._Mahoney_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Mahoney Arena is named for Leo D. Mahoney, a former Fairfield University trustee whose family's gift was the largest in school history.",
+     "source": "https://en.wikipedia.org/wiki/Leo_D._Mahoney_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Deon Perry's 70-foot shot at the buzzer beat Marist at Fairfield's Mahoney Arena on Feb. 6, 2025, in a game televised nationally on ESPNU.",
+     "source": "https://en.wikipedia.org/wiki/Leo_D._Mahoney_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "marist": {
+   "town": "Poughkeepsie",
+   "home_floor": "McCann Arena",
+   "lines": [
+    {
+     "text": "Marist first fielded a men's basketball team in 1961-62 as a Division III program and moved up to Division I ahead of the 1981-82 season.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist's two NCAA tournament trips came in back-to-back years, a 68-53 first-round loss to Georgia Tech in 1986 and a 93-68 first-round loss to Pittsburgh in 1987.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist won the ECAC Metro Conference tournament in 1986 and 1987.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1987 Marist team went 15-1 in conference play on its way to the program's second straight NCAA tournament bid.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist finished first in the MAAC in 2006-07, then beat Oklahoma State 67-64 in the NIT before falling to NC State 69-66 in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist lost 82-77 to Rhode Island in the first round of the 1996 NIT.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before its Division I days, Marist reached the 1973 NAIA tournament and lost 81-65 to Xavier of Louisiana in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist has retired three men's basketball numbers: Drafton Davis' No. 3, Steve Smith's No. 12 and Rik Smits' No. 45.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marist was a charter member of the ECAC Metro Conference in 1981 and joined the MAAC in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dave Magarity coached Marist for 18 seasons, from 1986 to 2004, and won 253 games with the Red Foxes.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ron Petro coached Marist from 1966 to 1984, winning 226 games and guiding the Red Foxes through their move to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rik Smits was the No. 2 pick of the 1988 NBA draft and became the first Marist player to play in the NBA.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jared Jordan became the second Marist player drafted by the NBA when the Los Angeles Clippers took him 45th overall in 2007.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie sits about 75 miles north of Manhattan and is the northern terminus of Metro-North's Hudson Line.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie, chartered as a city in 1854, is known as the Queen City of the Hudson.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie became the second capital of the State of New York after Kingston was burned by the British.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie remains IBM's primary design and manufacturing center for its newest mainframes, on a site that once built the IBM 7030 Stretch.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Smith Brothers cough drops were made in a Poughkeepsie factory until 1972.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie takes its name from a Munsee word meaning the reed-covered lodge by the little-water place, a reference to a spring or stream feeding the Hudson River.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Poughkeepsie's Hudson River crossings include the Mid-Hudson Bridge, opened in 1930, and the Walkway Over the Hudson, opened on Oct. 3, 2009.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Marist's 180-acre campus runs along U.S. Route 9 on the east bank of the Hudson River in the town of Poughkeepsie.",
+     "source": "https://en.wikipedia.org/wiki/Marist_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Marist shares Poughkeepsie with Vassar College, founded by Matthew Vassar in 1861.",
+     "source": "https://en.wikipedia.org/wiki/Poughkeepsie,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Marist's red and white colors come from the red fox, an animal native to the Hudson Valley.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Marist's fox mascot has answered to Frankie since 2017, when the school dropped the name Shooter.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The school in Poughkeepsie has been called Marist Normal Training School, Marian College and Marist College, and it became Marist University on Jan. 29, 2025.",
+     "source": "https://en.wikipedia.org/wiki/Marist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Marist traces its roots to 1905, when the Marist Brothers arrived in the Mid-Hudson Valley and named their property Saint Ann's Hermitage.",
+     "source": "https://en.wikipedia.org/wiki/Marist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Marist's rowers compete against Army each spring for the President's Cup Trophy.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Greystone, St. Peter's and the Kieran Gatehouse on Marist's campus are 1860s-era buildings listed on the National Register of Historic Places.",
+     "source": "https://en.wikipedia.org/wiki/Marist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "John Dunne, a Queens native who played at Ithaca College from 1988 to 1992, has coached Marist since April 3, 2018.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before coming to Marist, John Dunne won the 2011 MAAC tournament and the 2017 CIT championship as head coach at Saint Peter's.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "John Dunne is in his ninth season at Marist and came into 2026-27 with a 115-122 record in Poughkeepsie.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Marist finished 19-12 last season and 12-8 in league play, and its year ended with a 58-57 loss to top-seeded Merrimack in the conference semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Marist_Red_Foxes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Marist was the No. 5 seed in last season's conference tournament and beat fourth-seeded Quinnipiac 77-75 in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Marist_Red_Foxes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Marist won 57 games over the previous three seasons under John Dunne, going 18-13, 20-10 and 19-12.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Marist's fiercest rivalry is with Siena, a men's basketball series often called the Battle of I-87.",
+     "source": "https://en.wikipedia.org/wiki/Marist_Red_Foxes",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Marist coach John Dunne knows the other side of the Battle of I-87, having worked as an assistant at Siena from 1999 to 2001.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "John Dunne went 153-225 in 12 seasons as head coach at Saint Peter's before Marist hired him in 2018.",
+     "source": "https://en.wikipedia.org/wiki/John_Dunne_(basketball)",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "McCann Arena, built in 1977, seats 3,200 for Marist basketball in Poughkeepsie.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "McCann Arena carries the name of James J. McCann, born in Poughkeepsie in 1880, whose family ran the McCann Feed and Grain Store and who set up the McCann Foundation in 1967.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The maple floor at McCann Arena was a gift from Rik Smits, and when a fire sprinkler soaked that court, the former Marist center donated another.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A display honoring Rik Smits, complete with an Indiana Pacers jersey, sits beside the court at Marist's McCann Arena.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The student section at Marist's McCann Arena rises 19 feet along the south baseline, with seats less than 6 feet from the baseline.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A 2011 renovation gave Marist's McCann Arena chair-back seats in place of bleachers, new corner seating and video scoreboards in two corners.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Press row at Marist's McCann Arena is a 40-foot NBA-style scorer's table installed in a 2005 renovation.",
+     "source": "https://en.wikipedia.org/wiki/McCann_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "merrimack": {
+   "town": "North Andover",
+   "home_floor": "Lawler Arena",
+   "lines": [
+    {
+     "text": "Merrimack played its first men's basketball season in 1949 and went 7-2 under Paul Lanni, its first head coach.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack won the Northeast Conference regular-season title outright in 2019-20, its first Division I season, going 20-11 overall and 14-4 in the league.",
+     "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack in 2019-20 became the first men's basketball team to record a 20-win season in its first Division I season.",
+     "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack beat Fairleigh Dickinson 67-66 in the 2023 Northeast Conference final in North Andover and finished that season on an 11-game winning streak.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack won Northeast Conference regular-season titles in 2020, 2023 and 2024.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack won Northeast-10 tournament titles in 1992, 2000 and 2019 during its run in that Division II league from 1984 to 2019.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's single-game scoring record is the 52 points Steve McMahon scored in 1971-72, and in 1972 he became the first Warrior drafted into the NBA.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ed Murphy, Merrimack's career scoring leader with 2,874 points, averaged 32.0 points in 1976-77 and was drafted by the Atlanta Hawks in 1978.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Roger Damphousse became the first Merrimack basketball player named an All-American in 1961.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Merrimack began a four-year move from Division II in 2019-20 and became a full Division I member in 2023-24.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_College",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Andover, home of Merrimack College, was the north parish of Andover until it was incorporated as its own town on April 7, 1855.",
+     "source": "https://en.wikipedia.org/wiki/North_Andover,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's 220-acre campus in North Andover sits 25 miles north of downtown Boston.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_College",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Andover, where Merrimack plays, was the headquarters of sneaker maker Converse from 2002 to 2015.",
+     "source": "https://en.wikipedia.org/wiki/North_Andover,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's hometown of North Andover is home to Barker's Farm, started in 1643 and the oldest continually operated business in Massachusetts.",
+     "source": "https://en.wikipedia.org/wiki/North_Andover,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lake Cochichewick dominates the northeastern quadrant of North Andover, the Essex County town of 30,915 at the 2020 census where Merrimack College sits.",
+     "source": "https://en.wikipedia.org/wiki/North_Andover,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Andover, Merrimack's hometown, holds a sheep shearing festival in its old town center in late spring.",
+     "source": "https://en.wikipedia.org/wiki/North_Andover,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Merrimack College was founded in 1947 by the Order of Saint Augustine to educate World War II veterans and opened that September.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's colors are navy blue and gold, and its mascot is Mack the Warrior.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Merrimack counts baseball player Carl Yastrzemski and actor Charlie Day among its alumni.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_College",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Merrimack player Jordan Minor signed with the Long Island Nets in 2024.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Juvaris Hayes became the first Merrimack player named a Division I All-American.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Merrimack coach Joe Gallo played guard for the Warriors from 2000 to 2004 and began his coaching career as a Merrimack assistant in 2005 before returning as head coach in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Gallo_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Merrimack coach Joe Gallo, a native of Milltown, New Jersey, was an assistant at Dartmouth and Robert Morris before returning to his alma mater.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Gallo_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Joe Gallo took Merrimack to the NCAA Division II tournament in each of his first three seasons as head coach.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Gallo_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Merrimack coach Joe Gallo was named MAAC Coach of the Year in 2026.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Gallo_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Merrimack went 23-11 last season, a program record for wins, and took its first MAAC regular-season title at 17-3.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Merrimack has never appeared in the Division I NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Warriors_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-03-06"
+    },
+    {
+     "text": "Merrimack beat Sacred Heart 70-48 in the 2026 MAAC quarterfinals at Boardwalk Hall in Atlantic City.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Siena beat Merrimack 64-54 in the 2026 MAAC final at Boardwalk Hall after the Warriors had won both regular-season meetings.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Merrimack's Lawler Arena is named for J. Thom Lawler, the former Warriors hockey coach who led the team to its first national title in 1978.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Athletics_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's Lawler Arena seats 2,549 for hockey, and its basketball setup raises capacity to 3,000.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Athletics_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Merrimack's athletics complex in North Andover opened on Nov. 28, 1972.",
+     "source": "https://en.wikipedia.org/wiki/Merrimack_Athletics_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Merrimack went 11-0 at Lawler Arena in 2025-26, its first unbeaten home record since 1990-91.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Merrimack_Warriors_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "mount-st-marys": {
+   "town": "Emmitsburg",
+   "home_floor": "Knott Arena",
+   "lines": [
+    {
+     "text": "Mount St. Mary's won the NCAA College Division national championship in 1962, the only national title in program history.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's finished as the NCAA Division II runner-up in 1981, 19 years after winning the College Division title.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's made 14 NCAA Division II and College Division tournament appearances, going 25-17 and reaching the Final Four in 1957, 1961, 1962, 1981 and 1985.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's has made seven NCAA Division I tournament appearances, in 1995, 1999, 2008, 2014, 2017, 2021 and 2025, and owns a 3-7 record in them.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Mount St. Mary's first NCAA Division I tournament game came in 1995, a 113-67 loss to top-seeded Kentucky.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's drew top-seeded Michigan State in the 1999 NCAA tournament and lost 76-53.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's earned its first NCAA Division I tournament win in 2008, beating Coppin State 69-60 before a 113-74 loss to top-seeded North Carolina.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's beat New Orleans by a single point, 67-66, in the 2017 NCAA tournament before falling 76-56 to top-seeded Villanova.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's most recent NCAA tournament win came in 2025, an 83-72 decision over American that was followed by a 93-49 loss to top-seeded Duke.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "All three of Mount St. Mary's NCAA Division I tournament wins have come against fellow 16 seeds: Coppin State in 2008, New Orleans in 2017 and American in 2025.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Mount St. Mary's NCAA tournament trips in 2014 and 2021 both ended in the First Four, with a 71-64 loss to Albany and a 60-52 loss to Texas Southern.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's won six Northeast Conference tournament titles, in 1995, 1999, 2008, 2014, 2017 and 2021, as a member of that league from 1989 to 2022.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's won Northeast Conference regular-season titles in 1996 and 2017.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's played in the Northeast Conference from 1989 to 2022 before joining the MAAC on July 1, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's won its first MAAC tournament title in 2025 after joining the league on July 1, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's won 11 Mason-Dixon Conference tournament titles, the first in 1944 and the last in 1988.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount St. Mary's lone NIT appearance came in 1996, a 73-49 first-round loss to Illinois State.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Mount St. Mary's played in the CollegeInsider.com Tournament once, losing 69-58 to James Madison in the first round in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim Phelan coached Mount St. Mary's for 49 years, won 830 of his 1,354 games and was inducted into the National Collegiate Basketball Hall of Fame in 2008.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Donny Lind has been the head coach at Mount St. Mary's since April 20, 2024.",
+     "source": "https://en.wikipedia.org/wiki/Mount_St._Mary%27s_Mountaineers_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Knott Arena, the home of Mount St. Mary's basketball in Emmitsburg, opened in 1987.",
+     "source": "https://en.wikipedia.org/wiki/Knott_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court at Knott Arena in Emmitsburg has carried the name of Jim Phelan, who won a school-record 830 games at Mount St. Mary's between 1954 and 2003, since 2006.",
+     "source": "https://en.wikipedia.org/wiki/Knott_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Knott Arena, where Mount St. Mary's plays in Emmitsburg, has also hosted high school graduation ceremonies for Frederick County Public Schools.",
+     "source": "https://en.wikipedia.org/wiki/Knott_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The concourse at Mount St. Mary's Knott Arena was remodeled in 2024 and dedicated to former athletic director Lynne Phelan Robinson.",
+     "source": "https://en.wikipedia.org/wiki/Knott_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "niagara": {
+   "town": "Lewiston",
+   "home_floor": "the Gallagher Center",
+   "lines": [
+    {
+     "text": "Niagara has played in three NCAA Tournaments, in 1970, 2005 and 2007, and holds a 2-4 record in the event.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara's first NCAA Tournament win came in 1970, a 79-69 first-round decision over Pennsylvania.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara's most recent NCAA Tournament victory was a 77-69 win over Florida A&M in the 2007 opening round.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara has made 14 trips to the NIT, finishing third in 1954 and reaching the championship game against Maryland in 1972.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara won MAAC regular-season titles in 1999, 2005 and 2013 and took the conference tournament in 2005 and 2007.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara's 2008-09 team holds the program record for wins, finishing 26-9.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara's coaching records begin in 1905-06, when Charles McGrath's team went 4-2.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara has retired the numbers of nine players, among them Calvin Murphy's No. 23 and Larry Costello's No. 69.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Blake coached Niagara from 1918 to 1923 and went 61-14, a .813 winning percentage.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara was a member of the Western New York Little Three Conference from 1946 to 1958.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Niagara twice left campus for the Niagara Falls Convention and Civic Center, playing home games there from 1973 to 1982 and from 1988 to 1996.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Taps Gallagher's Niagara teams won 11 Little Three championships and made seven NIT appearances.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Frank Layden coached Niagara from 1968 to 1976 and led the Purple Eagles to their first NCAA Tournament in 1970 before a 23-year NBA coaching career.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Niagara University was founded on Nov. 21, 1856, as Our Lady of Angels Seminary by the Congregation of the Mission.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Niagara's campus in Lewiston is home to the Castellani Art Museum, which holds more than 5,700 works.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Niagara University opened a law school in Buffalo in 1887.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Niagara's colors are purple and white, and its mascot is Monte.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Niagara first played football in 1897 and dropped the sport for the final time after the 1987 season.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Basketball shares the winter at Niagara with a hockey team that plays at Dwyer Arena and has reached the NCAA Tournament four times, in 2000, 2004, 2008 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Greg Paulus has led Niagara since October 2019, when he was promoted from assistant to interim head coach.",
+     "source": "https://en.wikipedia.org/wiki/Niagara_Purple_Eagles_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Greg Paulus' Niagara staff this season includes assistants Chris Buchanan, Will Holland, Jake Presutti and Charles Chigeru.",
+     "source": "https://purpleeagles.com/sports/mens-basketball/coaches",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Gallagher Center opened on Niagara's campus in Lewiston on Nov. 30, 1949, and seats 2,400.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Niagara's home gym was known as the Niagara University Student Center until May 23, 1982, when it was renamed for longtime coach John J. Gallagher.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Gallagher Center in Lewiston carries the name of Taps Gallagher, who coached Niagara for 31 seasons and had 25 winning ones.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at Niagara's Gallagher Center has been called Layden Court since 2014, in honor of former coach Frank Layden and his wife, Barbara.",
+     "source": "https://en.wikipedia.org/wiki/Gallagher_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "quinnipiac": {
+   "town": "Hamden",
+   "home_floor": "M&T Bank Arena",
+   "lines": [
+    {
+     "text": "Quinnipiac made NCAA Division II tournament appearances in 1976, 1979, 1980 and 1988.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac played in the NAIA tournament in 1972 and 1973, beating Ouachita Baptist in the second of those trips.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac won the Northeast Conference regular-season title in 2010 and went to the NIT that March, where it lost to Virginia Tech 81-61.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac won back-to-back MAAC regular-season championships in 2024 and 2025, going 15-5 in league play both years.",
+     "source": "https://en.wikipedia.org/wiki/Tom_Pecora",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac went 24-10 in 2023-24 and finished its season in the CBI at Daytona Beach, Florida.",
+     "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Quinnipiac_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac and Monmouth joined the MAAC in July 2013, replacing Loyola University Maryland.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Joe DeSantis coached Quinnipiac for 11 years, led the move from Division II to Division I and was Northeast Conference coach of the year in 1999-2000, when the team went 18-10.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac's teams were the Braves until 2002, when the school in Hamden adopted the Bobcats nickname.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac's mascot is Boomer the Bobcat, its fight song is called The Bobcat Roar and its colors are navy and gold.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac was founded in 1929 in New Haven as the Connecticut College of Commerce and moved to the Mount Carmel section of Hamden in 1966.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac took its name in 1951 in honor of the Quinnipiac tribe, which once lived in what is now Greater New Haven.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before moving up to York Hill, Quinnipiac played from 1969 at 2,000-seat Burt Kahn Court, where it went 254-184.",
+     "source": "https://en.wikipedia.org/wiki/Burt_Kahn_Court",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Burt Kahn Court, Quinnipiac's old basketball gym in Hamden, is named for a former Quinnipiac basketball coach and athletic director and is now home to the volleyball team.",
+     "source": "https://en.wikipedia.org/wiki/Burt_Kahn_Court",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hamden, home of Quinnipiac, is nicknamed the Land of the Sleeping Giant.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac University sits at the foot of Sleeping Giant, a traprock mountain about eight miles north of New Haven with a high point of 739 feet.",
+     "source": "https://en.wikipedia.org/wiki/Sleeping_Giant_(Connecticut)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The stone tower atop Sleeping Giant, the mountain above Quinnipiac's campus in Hamden, was built by the Works Progress Administration in 1936.",
+     "source": "https://en.wikipedia.org/wiki/Sleeping_Giant_(Connecticut)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "More than 30 miles of hiking trails cross Sleeping Giant, the mountain next door to Quinnipiac in Hamden, including five miles of the 23-mile Quinnipiac Trail.",
+     "source": "https://en.wikipedia.org/wiki/Sleeping_Giant_(Connecticut)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hamden, home of Quinnipiac, became a separate town in 1786, when about 1,400 residents incorporated it, and is named for the English statesman John Hampden.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Eli Whitney made arms for the U.S. government at a mill site in Hamden, Quinnipiac's hometown, where he introduced interchangeable parts.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Farmington Canal carried boats through Hamden from 1825 to 1848, and its old right-of-way is now a walking and bicycling trail through Quinnipiac's hometown.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hamden, where Quinnipiac plays, counted 61,169 residents in the 2020 census and borders New Haven to the south.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The first truss bridge in the United States was built over the Mill River in 1823 in the Whitneyville section of Hamden, the town Quinnipiac calls home.",
+     "source": "https://en.wikipedia.org/wiki/Hamden,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac's alumni include Murray Lender, the former chief executive of Lender's Bagels.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac basketball alumni James Feldeine and Cameron Young have both played in the Israeli Basketball Premier League.",
+     "source": "https://en.wikipedia.org/wiki/Quinnipiac_Bobcats_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Tom Pecora, a native of Queens Village, New York, joined Quinnipiac as associate head coach in March 2017 and was promoted to head coach on April 13, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Tom_Pecora",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Before Quinnipiac, Tom Pecora won 155 games in nine seasons as head coach at Hofstra and then spent five seasons leading Fordham.",
+     "source": "https://en.wikipedia.org/wiki/Tom_Pecora",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Tom Pecora was named MAAC coach of the year in each of his first two seasons leading Quinnipiac, 2024 and 2025.",
+     "source": "https://en.wikipedia.org/wiki/Tom_Pecora",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac went 19-13 last season and 12-8 in the league, then lost 77-75 to Marist as the No. 4 seed in the conference quarterfinals at Boardwalk Hall.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Quinnipiac_Bobcats_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "This is Quinnipiac's first season in the Metro Conference, the name the MAAC took on July 1, 2026.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Quinnipiac is one of three Connecticut schools in the 13-team league, along with Fairfield and Sacred Heart, which are both in the town of Fairfield.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Quinnipiac gained a second in-state league opponent when Sacred Heart joined the conference for the 2024-25 season, the same year Merrimack arrived.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Former Quinnipiac coach Joe DeSantis earned All-American honors as a player at Fairfield in 1979.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield_Stags_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "M&T Bank Arena opened on Quinnipiac's York Hill campus in Hamden on Jan. 27, 2007, at a cost of $52 million.",
+     "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac's M&T Bank Arena seats 3,570 for basketball and 3,386 for hockey.",
+     "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Quinnipiac's home at 305 Sherman Avenue in Hamden has carried four names since 2007: TD Banknorth Sports Center, TD Bank Sports Center, People's United Center and M&T Bank Arena.",
+     "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The hockey arena inside Quinnipiac's M&T Bank Arena in Hamden is named the Frank Perrotti, Jr. Arena.",
+     "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Ground was broken on Quinnipiac's York Hill arena in Hamden on Oct. 7, 2004.",
+     "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "sacred-heart": {
+   "town": "Fairfield",
+   "home_floor": "the Pitt Center",
+   "lines": [
+    {
+     "text": "Sacred Heart played its first men's basketball season in 1965-66 under coach Don Feeley.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart won the 1986 NCAA Division II national championship with a 93-87 victory over Southeast Missouri State in Springfield, Massachusetts.",
+     "source": "https://en.wikipedia.org/wiki/1986_NCAA_Division_II_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's Roger Younger was named Most Outstanding Player of the 1986 NCAA Division II tournament, which the Pioneers won.",
+     "source": "https://en.wikipedia.org/wiki/1986_NCAA_Division_II_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart made 13 NCAA Division II tournament appearances and went 22-15 in those games.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart reached the Division II Final Four in 1977 and 1986 and the Elite Eight seven times between 1977 and 1989.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart has played in Division I since 1999-2000 and has not yet appeared in the NCAA Division I tournament.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Sacred Heart played in the Northeast Conference from 1999-2000 through 2023-24 before moving to the league now known as the Metro Conference.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's first conference win after leaving the Northeast Conference was an 83-59 home victory over Iona on Dec. 6, 2024.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart played its home games at Memorial Hall from 1965-66 through 1996-97 before moving into the William H. Pitt Center.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fairfield, the Connecticut town Sacred Heart calls home, was founded in 1639 by Roger Ludlowe on land then called Unquowa.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfield, home of Sacred Heart, has five miles of Long Island Sound coastline and five town beaches.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's hometown of Fairfield counted 61,512 residents in 2020 and borders Bridgeport, Trumbull, Easton, Weston and Westport.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bigelow Tea keeps its headquarters on Black Rock Turnpike in Fairfield, the same Connecticut town where Sacred Heart plays.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Penfield Reef Lighthouse stands in Long Island Sound off the coast of Fairfield Beach in Sacred Heart's hometown of Fairfield, Connecticut.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart and Fairfield University together enroll more than 17,000 students in the town of Fairfield.",
+     "source": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's suburban campus covers more than 300 acres in Fairfield, about 50 miles northeast of New York City.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart acquired the former General Electric corporate headquarters near its main campus in Fairfield in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart University was founded in 1963 by Walter W. Curtis, bishop of the Diocese of Bridgeport, on the grounds of the former Notre Dame Catholic High School.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's teams wear red and white, and the school's mascot is Big Red the Pioneer.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Keith Bennett became Sacred Heart's career scoring leader in 1983 and was a National Association of Basketball Coaches Division II All-American in 1981, 1982 and 1983.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's alumni include actors Kevin Nealon, a former Saturday Night Live cast member, and John Ratzenberger.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Major League Baseball player and manager Bobby Valentine was hired as Sacred Heart's athletic director in 2013.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dave Bike coached Sacred Heart from 1978 to 2013, posting a 528-500 record and winning the 1986 Division II national title.",
+     "source": "https://en.wikipedia.org/wiki/Dave_Bike",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart coach Anthony Latina played at Brandeis from 1991 to 1995 and was an assistant at UMass Lowell and Central Connecticut before joining the Pioneers' staff in 2005.",
+     "source": "https://en.wikipedia.org/wiki/Anthony_Latina",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Anthony Latina has been Sacred Heart's head coach since 2013, when he was promoted after eight seasons as a Pioneers assistant.",
+     "source": "https://en.wikipedia.org/wiki/Anthony_Latina",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacred Heart's 20-13 finish in 2019-20 was the only 20-win season in Anthony Latina's first 13 years as head coach.",
+     "source": "https://en.wikipedia.org/wiki/Anthony_Latina",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart went 14-19 overall and 9-11 in league play last season, its second in the conference.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacred Heart was the ninth seed in last season's conference tournament, beating Iona 91-80 at Boardwalk Hall before falling to top-seeded Merrimack in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacred Heart and Fairfield University, both located in the town of Fairfield, met in the first round of the 2025 MAAC tournament, a 71-58 Pioneers win.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart won 77-71 at crosstown Fairfield on Feb. 8, 2025, during the Pioneers' first season in the same league as the Stags.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "A crowd of 2,236 watched Fairfield edge Sacred Heart 92-87 on Feb. 5, 2026, in a meeting of the town of Fairfield's two universities.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sacred_Heart_Pioneers_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart, Fairfield and Quinnipiac of Hamden give the Metro Conference three Connecticut members.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart and Merrimack entered the league together for the 2024-25 season.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Atlantic_Athletic_Conference",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's athletic rivalry with in-state Central Connecticut State is known as the Constitution State Rivalry.",
+     "source": "https://en.wikipedia.org/wiki/Sacred_Heart_Pioneers",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The William H. Pitt Center, Sacred Heart's home floor on Park Avenue in Fairfield, opened on Aug. 17, 1997, at a cost of $13.8 million.",
+     "source": "https://en.wikipedia.org/wiki/William_H._Pitt_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's Pitt Center, formally the William H. Pitt Health and Recreation Center, has three levels and four basketball courts.",
+     "source": "https://en.wikipedia.org/wiki/William_H._Pitt_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's Pitt Center hosted the finals of the 2008 Northeast Conference men's basketball tournament.",
+     "source": "https://en.wikipedia.org/wiki/William_H._Pitt_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pitt Center in Fairfield, home of Sacred Heart basketball since 1997, also housed the Connecticut Skyhawks of the United States Basketball League in 1998 and 1999.",
+     "source": "https://en.wikipedia.org/wiki/William_H._Pitt_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacred Heart's Pitt Center is shared by the Pioneers' basketball, volleyball, wrestling and fencing teams.",
+     "source": "https://en.wikipedia.org/wiki/William_H._Pitt_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}

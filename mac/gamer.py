@@ -65,6 +65,8 @@ FLAVOR_HELP = """data/flavor.json knobs:
   teams.<key>.home_floor  what we call the building ("the JAR")
   teams.<key>.home_lines  lines that only make sense at home ("Another night at the JAR"); home games only
   teams.<key>.lines       lines true wherever the team plays (history, town lore); one is picked per game, rotating
+  a line is a string, or {"text", "source", "kind", "until"}: "source" is where the fact was checked,
+  and a line with "until": "YYYY-MM-DD" is dropped from games played after that date (news goes stale)
   rivalries.<a>|<b>       keys sorted alphabetically: {"name": "...", "lines": [...]} for that matchup
 Lines may use {winner}, {loser}, {home}, {away}, {town} and {floor}."""
 
@@ -125,8 +127,19 @@ def _edge_sentence(w: dict[str, Any], l: dict[str, Any], wn: str, ln: str) -> st
     return f"{wn} had {a} {label} to {ln}'s {b}."
 
 
-def _pick(lines: list[str], seed: str) -> str | None:
-    lines = [s for s in lines if s and s.strip()]
+def line_text(item: Any, on: str = "") -> str:
+    """A flavor line is a plain string, or {"text", "source", "kind", "until"} from the research desk.
+    A note with "until" (YYYY-MM-DD) is news that goes stale: it is dropped for games after that date."""
+    if isinstance(item, dict):
+        until = str(item.get("until") or "")
+        if until and on and on > until:
+            return ""
+        return str(item.get("text") or "")
+    return item if isinstance(item, str) else ""
+
+
+def _pick(lines: list[Any], seed: str, on: str = "") -> str | None:
+    lines = [t for t in (line_text(s, on) for s in lines) if t.strip()]
     if not lines:
         return None
     i = int(hashlib.sha1(seed.encode()).hexdigest(), 16) % len(lines)
@@ -144,10 +157,11 @@ def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str
     ht = teams.get(home_key or "", {})
     fill = {**names, "town": ht.get("town") or g.get("venue_city") or "", "floor": ht.get("home_floor") or g.get("venue") or ""}
     out = []
+    on = str(g.get("date") or "")[:10] or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if home_key and away_key:
         r = flavor.get("rivalries", {}).get("|".join(sorted([home_key, away_key])))
         if r:
-            line = _pick(r.get("lines", []), g["game_id"] + "r")
+            line = _pick(r.get("lines", []), g["game_id"] + "r", on)
             if line:
                 out.append(line)
     # home_lines only when that team really is at home; lines go anywhere the team plays
@@ -155,9 +169,14 @@ def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str
     pool += ht.get("lines", [])
     if not pool:  # a road game for our team: its anywhere lines, so the page still sounds like us
         pool = teams.get(away_key or "", {}).get("lines", [])
-    line = _pick(pool, g["game_id"])
+    line = _pick(pool, g["game_id"], on)
     if line:
         out.append(line)
+    # with room for another line, the visitors get one of theirs too
+    if ht.get("lines") or ht.get("home_lines"):
+        line = _pick(teams.get(away_key or "", {}).get("lines", []), g["game_id"] + "a", on)
+        if line:
+            out.append(line)
     res = []
     for s in out[:max(0, most)]:
         try:

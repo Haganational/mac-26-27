@@ -16,6 +16,10 @@ Every post carries the story's share card (mac/cards.py): on Bluesky as the link
 on Threads through the page's og:image, or as the 4:5 portrait card for a capsule. Threads reads
 from the live site, so a story waits for the run after its page deploys.
 
+A failed post is retried quietly on the next run. When one network has failed
+ALERT_AFTER_RUNS runs in a row (an expired login, say), mac.alert emails Matthew, at most
+once every ALERT_EVERY_HOURS. The streaks are kept in data/social_failures.json.
+
 Needs two repo secrets, set by the account owner: BSKY_HANDLE (e.g. hardwoodbricks.bsky.social)
 and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account password).
 Threads needs THREADS_ACCESS_TOKEN (from a Meta developer app with threads_basic and
@@ -35,12 +39,16 @@ from typing import Any
 
 import requests
 
+from . import alert
 from .config import LEAGUES, SHARED_DIR, SITE_BASE, SITE_ROOT
 
 PDS = "https://bsky.social/xrpc"
 POSTED = SHARED_DIR / "social_posted.json"
 FRESH_HOURS = 6
 MAX_PER_RUN = 8
+FAILURES = SHARED_DIR / "social_failures.json"
+ALERT_AFTER_RUNS = 3  # a network must fail this many runs in a row before anyone is emailed
+ALERT_EVERY_HOURS = 24  # and then at most one email a day per network
 NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9", "n": "http://www.google.com/schemas/sitemap-news/0.9"}
 
 
@@ -278,6 +286,29 @@ def _networks() -> list[tuple[str, Any]]:
     return nets
 
 
+def track_failures(state: dict[str, Any], name: str, failed: int, tried: int, error: str, now: datetime) -> str | None:
+    """Update one network's failure streak in state; return the alert body when one is due."""
+    if not tried:
+        return None  # nothing to post says nothing about the network's health
+    if not failed:
+        state.pop(name, None)
+        return None
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    s = state.setdefault(name, {"runs": 0, "since": stamp})
+    s["runs"] += 1
+    s["last_error"] = error[:300]
+    if s["runs"] < ALERT_AFTER_RUNS:
+        return None
+    last = s.get("alerted")
+    if last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < timedelta(hours=ALERT_EVERY_HOURS):
+        return None
+    s["alerted"] = stamp
+    return (f"Posting to {name} has failed on {s['runs']} runs in a row, since {s['since']}.\n\n"
+            f"Last error: {s['last_error']}\n\n"
+            "The usual cause is an expired login: check the app password or access token in the repo secrets. "
+            "Stories still inside the six-hour window post on the next good run; older ones are skipped.")
+
+
 def run(now: datetime | None = None) -> str:
     now = now or datetime.now(timezone.utc)
     dry = os.environ.get("SOCIAL_DRY_RUN") == "1"
@@ -289,22 +320,30 @@ def run(now: datetime | None = None) -> str:
         todo = due(stories(), posted, now) + due_power(power_stories(now), posted, now)
         return "\n".join(f"[dry] {text_for(it)!r} -> {it['url']} [{card_url(it) or 'no card'}]" for it in todo) or "social: nothing new"
     report = []
+    failures = json.loads(FAILURES.read_text()) if FAILURES.exists() else {}
     for prefix, send in nets:
         seen = seen_for(posted, prefix)
         todo = due(stories(), seen, now) + due_power(power_stories(now), seen, now)
-        n = 0
+        n, waiting, error = 0, 0, ""
         for it in todo:
             try:
                 send(it, now)
             except NotLive:
                 print(f"social: {prefix or 'bsky:'}{it['url']} not deployed yet, next run")
+                waiting += 1  # not a failure: the page just hasn't deployed
                 continue
             except (requests.RequestException, KeyError) as e:
+                error = f"{type(e).__name__}: {e}"
                 print(f"social: {prefix or 'bsky:'}{it['url']} failed: {e}")
                 continue
             posted[prefix + it["key"]] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
             n += 1
-        report.append(f"{(prefix or 'bluesky:').rstrip(':')} {n}/{len(todo)}")
+        name = (prefix or "bluesky:").rstrip(":")
+        report.append(f"{name} {n}/{len(todo)}")
+        body = track_failures(failures, name, len(todo) - n - waiting, len(todo) - waiting, error, now)
+        if body:
+            alert.send(f"Social posts to {name} keep failing", body)
+    FAILURES.write_text(json.dumps(failures, indent=1, sort_keys=True) + "\n")
     cutoff = (now - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%SZ")
     posted = {k: v for k, v in posted.items() if v >= cutoff}
     POSTED.write_text(json.dumps(dict(sorted(posted.items())), indent=0) + "\n")

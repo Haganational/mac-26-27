@@ -148,7 +148,8 @@ def test_stale_exchange_quote_is_not_best():
     rows += quote(T2, "novig", -1.5, (-1150, -4900), 136.5, ml=(-120, 100))
     ev = oddsboard.build_event(rows)
     assert "novig" not in ev["best"]["home_spread"]["books"]
-    assert ev["best"]["home_spread"]["point"] == -12.5
+    # Pinnacle's -13 at -101 beats -12.5 at -110: nine cents of price is worth more than the half point.
+    assert (ev["best"]["home_spread"]["point"], ev["best"]["home_spread"]["books"]) == (-13.0, ["pinnacle"])
     assert ev["best"]["away_spread"]["books"] == ["pinnacle"]
     assert ev["best"]["over"]["point"] == 157.0 and "novig" not in ev["best"]["under"]["books"]
     assert "novig" not in ev["best"]["away_ml"]["books"]
@@ -187,3 +188,14 @@ def test_book_posting_counts_first_and_lead():
     assert out["pinnacle"]["first"] == 1 and out["pinnacle"]["median_lead_hours"] == 24.0
     assert out["draftkings"]["first"] == 0 and out["draftkings"]["median_lead_hours"] == 18.0
 
+
+
+def test_best_price_weighs_the_juice_with_the_number():
+    from mac.oddsboard import best_by_side
+    books = {"a": {"away_spread": {"point": 3.5, "price": -250}}, "b": {"away_spread": {"point": 3.0, "price": 100}}}
+    assert best_by_side(books)["away_spread"]["books"] == ["b"]  # a half point is not worth -250
+    books = {"a": {"away_spread": {"point": 3.5, "price": -115}}, "b": {"away_spread": {"point": 3.0, "price": -110}}}
+    assert best_by_side(books)["away_spread"]["books"] == ["a"]  # at normal prices the extra half point wins
+    books = {"a": {"over": {"point": 140.5, "price": -110}}, "b": {"over": {"point": 141.5, "price": -110}},
+             "c": {"over": {"point": 140.5, "price": -105}}}
+    assert best_by_side(books)["over"]["books"] == ["c"]  # same number: better price

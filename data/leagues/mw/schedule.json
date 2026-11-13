@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T01:37:44+00:00",
+ "fetched_at": "2026-11-13T12:02:04+00:00",
  "season": 2027,
  "games": [
   {
@@ -1207,10 +1207,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-11-12-2026--sports-ncaa-basketball/production/7651902?wsUser=717",
-    "low": 18.0
-   },
+   "tickets": null,
    "venue": "Don Haskins Center",
    "venue_city": "El Paso",
    "venue_state": "TX",
@@ -1219,21 +1216,21 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": true
    },
    "away": {
     "espn_id": "166",
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911471",
@@ -1251,10 +1248,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-12-2026--sports-ncaa-basketball/production/7785750?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
    "venue_state": "CA",
@@ -1263,21 +1257,21 @@
     "key": "san-jose-state",
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "27",
     "key": null,
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921728",
@@ -1907,7 +1901,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-18-2026--sports-ncaa-basketball/production/7459073?wsUser=717",
-    "low": 21.0
+    "low": 20.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -2036,7 +2030,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-11-21-2026--sports-ncaa-basketball/production/7707035?wsUser=717",
-    "low": 34.0
+    "low": 46.0
    },
    "venue": "UTSA Convocation Center",
    "venue_city": "San Antonio",
@@ -2452,7 +2446,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
-    "low": 14.0
+    "low": 13.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -3078,7 +3072,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-12-2-2026--sports-ncaa-basketball/production/7457326?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Gallagher-Iba Arena",
    "venue_city": "Stillwater",
@@ -4131,7 +4125,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-15-2026--sports-ncaa-basketball/production/7655487?wsUser=717",
-    "low": 25.0
+    "low": 19.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -5096,7 +5090,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-29-2026--sports-ncaa-basketball/production/7436861?wsUser=717",
-    "low": 12.0
+    "low": 9.0
    },
    "venue": "Global Credit Union Arena",
    "venue_city": "Phoenix",
@@ -5330,7 +5324,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-1-2-2027--sports-ncaa-basketball/production/7660712?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Don Haskins Center",
    "venue_city": "El Paso",
@@ -5558,7 +5552,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-5-2027--sports-ncaa-basketball/production/7422140?wsUser=717",
-    "low": 40.0
+    "low": 36.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -6356,7 +6350,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-19-2027--sports-ncaa-basketball/production/7422144?wsUser=717",
-    "low": 47.0
+    "low": 40.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -6432,7 +6426,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-23-2027--sports-ncaa-basketball/production/7422146?wsUser=717",
-    "low": 51.0
+    "low": 45.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -6774,7 +6768,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-30-2027--sports-ncaa-basketball/production/7422148?wsUser=717",
-    "low": 39.0
+    "low": 40.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -7496,7 +7490,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-2-13-2027--sports-ncaa-basketball/production/7422222?wsUser=717",
-    "low": 60.0
+    "low": 51.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -7908,7 +7902,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-2-20-2027--sports-ncaa-basketball/production/7422224?wsUser=717",
-    "low": 42.0
+    "low": 40.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -8060,7 +8054,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-2-24-2027--sports-ncaa-basketball/production/7422228?wsUser=717",
-    "low": 50.0
+    "low": 40.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -8440,7 +8434,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-3-2-2027--sports-ncaa-basketball/production/7422230?wsUser=717",
-    "low": 48.0
+    "low": 36.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",

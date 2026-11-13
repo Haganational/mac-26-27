@@ -76,3 +76,13 @@ def test_big_west_names():
     assert lg.team_for_odds_name("Cal Baptist Lancers") == "cal-baptist"
     assert lg.team_for_odds_name("San Diego St Aztecs") is None  # San Diego State is not UC San Diego
     assert lg.team_for_odds_name("Hawaii Rainbow Warriors") is None  # Hawai'i moved to the Mountain West
+
+
+def test_social_tags_are_single_words_and_league_feeds_are_hosts():
+    import re
+    tags = {lg.key: re.sub(r"\W", "", lg.hashtag or lg.short) for lg in leagues.ALL.values()}
+    assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
+                    "metro": "MetroConference", "bigwest": "BigWest"}
+    for lg in leagues.ALL.values():
+        if lg.league_feed:
+            assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]
