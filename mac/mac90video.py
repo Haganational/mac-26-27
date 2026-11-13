@@ -54,6 +54,20 @@ def textures() -> str:
     return ":root { " + " ".join(out) + " }"
 
 
+FONT_DIR = TEMPLATES_DIR / "static" / "fonts"
+
+
+def font_faces() -> str:
+    """@font-face rules for the house faces, read from the vendored files so headless Chrome needs no network."""
+    faces = (("Newsreader", 400, "normal", "Newsreader-Regular.ttf"), ("Newsreader", 600, "normal", "Newsreader-SemiBold.ttf"),
+             ("Newsreader", 600, "italic", "Newsreader-SemiBoldItalic.ttf"), ("Newsreader", 400, "italic", "Newsreader-SemiBoldItalic.ttf"),
+             ("Barlow Condensed", 500, "normal", "BarlowCondensed-SemiBold.ttf"), ("Barlow Condensed", 600, "normal", "BarlowCondensed-SemiBold.ttf"),
+             ("Barlow Condensed", 700, "normal", "BarlowCondensed-Bold.ttf"), ("Barlow", 400, "normal", "Barlow-Regular.ttf"),
+             ("Barlow", 600, "normal", "Barlow-SemiBold.ttf"))
+    return "\n".join(f'@font-face {{ font-family: "{fam}"; font-weight: {w}; font-style: {st}; src: url("{(FONT_DIR / f).resolve().as_uri()}"); }}'
+                     for fam, w, st, f in faces if (FONT_DIR / f).exists())
+
+
 def chrome() -> str:
     for c in (os.environ.get("CHROME_BIN"), shutil.which("google-chrome"), shutil.which("chromium"), shutil.which("chromium-browser"),
               "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome"):
@@ -171,7 +185,7 @@ def ass_file(events: list[str]) -> str:
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
         "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
         # Primary is the "already said" color, secondary the "coming up" color. Bottom-center, clear of the Shorts buttons.
-        f"Style: Cap,Liberation Sans,74,{_ass_color(GOLD)},{_ass_color(CREAM)},&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,2,90,150,430,1",
+        f"Style: Cap,Barlow Condensed,86,{_ass_color(GOLD)},{_ass_color(CREAM)},&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,2,90,150,430,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text", *events, ""])
 
 
@@ -193,7 +207,7 @@ def render(t: dict, out: Path) -> Path:
     work.mkdir(exist_ok=True)
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
     tpl = env.get_template("mac90_card.html")
-    css = textures()
+    css = textures() + "\n" + font_faces()
     colors = {tm.short: tm.color for tm in TEAMS}
     agenda = []
     n_res = sum(1 for s in t["segments"] if s["kind"] == "result")
@@ -252,7 +266,7 @@ def render(t: dict, out: Path) -> Path:
     # Burn in the karaoke captions (most Shorts are watched muted) and a gold progress bar that fills as it plays.
     ass = work / "captions.ass"
     ass.write_text(ass_file(events))
-    fc = (f"[0:v]ass={ass.name},drawbox=x=0:y={BAR_Y}:w=iw:h={BAR_H}:color=black@0.55:t=fill[base];"
+    fc = (f"[0:v]ass={ass.name}:fontsdir={FONT_DIR.resolve()},drawbox=x=0:y={BAR_Y}:w=iw:h={BAR_H}:color=black@0.55:t=fill[base];"
           f"[base][1:v]overlay=x='-w+W*t/{clock:.3f}':y={BAR_Y}:eval=frame:shortest=1[v]")
     video = out / f"{stem}.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-f", "lavfi", "-i", f"color=c=0x{GOLD}:s={W}x{BAR_H}:r={FPS}",

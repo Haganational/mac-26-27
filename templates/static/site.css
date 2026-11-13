@@ -1240,3 +1240,31 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .sitefoot a { text-underline-offset: 3px; }
 .sitefoot .dim a { color: var(--gold); }
 .sitefoot .sf-roots { font: 500 italic 15px/1.4 var(--serif); color: #d9cbb2; margin: 10px 0 0; }
+
+/* Phones (checked on a Pixel 7, 412px wide): open on the news and tonight's games, not on chrome.
+   One rule under the nameplate instead of two, three stories before the scoreboard, no stray "#" marks. */
+@media (max-width: 700px) {
+  .homehero, .homehero.compact, html[class*="lg-"] .homehero { padding: 0 0 14px; margin-bottom: 22px; border-bottom: 0; }
+  .homehero .kick { margin-bottom: 6px; }
+  .homehero h1, .homehero.compact h1 { font-size: 40px; margin-bottom: 10px; }
+  .homehero .hh-line { margin-top: 8px; font-size: 13px; }
+  .homehero .sub { font-size: 12px; }
+  #stories .st:nth-child(n+4) { display: none; }
+  #stories .st-lead b { font-size: 27px; }
+  section, main > section { margin-bottom: 34px; }
+}
+@media (pointer: coarse) { .hlink { display: none; } }
+
+/* Local color from the research desk: a scene-setter strip on the front, an "Around town" box on team pages. */
+.scene-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 32px; }
+.sc-note { display: flex; flex-direction: column; gap: 6px; padding: 12px 0 14px 14px; border-top: 1px solid var(--grid); border-left: 3px solid var(--tc, var(--rule)); color: var(--ink); text-decoration: none; }
+.sc-note:hover p { text-decoration: underline; text-decoration-color: var(--brick); }
+.sc-k { font: 600 12.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--brick); }
+.sc-note p { margin: 0; font: 400 17px/1.45 var(--serif); }
+.sc-w { font: 500 12px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.town-notes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 36px; }
+.town-notes li { border-top: 1px solid var(--grid); padding: 12px 0 14px; }
+.town-notes .tn-k { display: block; font: 600 12.5px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--brick); margin-bottom: 7px; }
+.town-notes p { margin: 0; font: 400 17px/1.5 var(--serif); }
+.town-notes .src { font: 500 12px/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-left: 4px; }
+@media (max-width: 700px) { .town-notes li:nth-child(n+5) { display: none; } .sc-note p, .town-notes p { font-size: 16px; } }

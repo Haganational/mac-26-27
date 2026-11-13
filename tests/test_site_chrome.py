@@ -63,3 +63,16 @@ def test_news_sitemap_keeps_last_two_days():
                                    datetime(2026, 11, 11, 5, tzinfo=timezone.utc))
     assert "games/1.html" in xml and "games/2.html" not in xml and "<news:title>A beat B 70-60</news:title>" in xml
     assert site_chrome.sitemap(["index.html", "mac/index.html", "teams/a.html"]).count("index.html") == 0
+
+
+def test_game_card_renders_in_house_fonts(tmp_path):
+    if not site_chrome.pillow_ok():
+        return
+    from PIL import Image
+    assert (site_chrome.FONT_DIR / "Newsreader-SemiBold.ttf").exists()
+    g = {"date": "2026-11-12T23:00Z", "venue": "Rhodes Arena",
+         "away": {"key": TEAMS[1].key, "abbr": "KENT", "name": TEAMS[1].name, "score": 71},
+         "home": {"key": TEAMS[0].key, "abbr": "AKR", "name": TEAMS[0].name, "score": 78}}
+    p = tmp_path / "game.png"
+    site_chrome.game_card(p, g, {t.key: t.color for t in TEAMS})
+    assert Image.open(p).size == (1200, 630)

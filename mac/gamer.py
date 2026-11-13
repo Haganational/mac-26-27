@@ -146,6 +146,37 @@ def _pick(lines: list[Any], seed: str, on: str = "") -> str | None:
     return lines[i]
 
 
+KIND_LABEL = {"town": "The town", "arena": "The building", "program-history": "The program", "campus-tradition": "Campus",
+              "alumni": "Alumni", "news": "In the news", "current": "In the news", "rivalry": "Rivalry", "coach": "The coach", "season": "This season"}
+
+
+def around_town(team_key: str, flavor: dict[str, Any], on: str, n: int = 6, home: bool = True) -> dict[str, Any] | None:
+    """A handful of the research desk's notes for one school, for team pages and the front page.
+    The pick turns over by date, so a page shows different notes on different days; stale news is left out."""
+    if flavor.get("settings", {}).get("enabled") is False:
+        return None
+    t = flavor.get("teams", {}).get(team_key) or {}
+    pool = (list(t.get("home_lines", [])) if home else []) + list(t.get("lines", []))
+    items = []
+    seen = set()
+    for it in pool:
+        text = line_text(it, on).strip()
+        if not text or "{" in text or text in seen:
+            continue
+        seen.add(text)
+        src = str(it.get("source") or "") if isinstance(it, dict) else ""
+        kind = str(it.get("kind") or "") if isinstance(it, dict) else ""
+        host = re.sub(r"^www\.", "", src.split("//", 1)[-1].split("/", 1)[0]) if src.startswith("http") else ""
+        items.append({"text": text, "source": src if host else "", "host": host, "kind": kind, "label": KIND_LABEL.get(kind, "Local color")})
+    if not items:
+        return None
+    items.sort(key=lambda x: hashlib.sha1(f"{team_key}{on}{x['text']}".encode()).hexdigest())
+    picked = items[:n]
+    # Lead with the town or the building when the day's pick has one, so the box reads like a scene-setter.
+    picked.sort(key=lambda x: 0 if x["kind"] in ("town", "arena") else 1)
+    return {"town": t.get("town") or "", "floor": t.get("home_floor") or "", "notes": picked, "total": len(items)}
+
+
 def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str]) -> list[str]:
     """Up to settings.max_lines hand-written lines for this game: rivalry first, then the home team's."""
     st = flavor.get("settings", {})
