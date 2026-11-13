@@ -6,7 +6,8 @@ Source: each edition's news-sitemap.xml, which already lists only canonical game
 published in the last two days, with their headlines. A story is posted once (recap and
 preview of the same game are separate stories), only if it was published within
 FRESH_HOURS, and at most MAX_PER_RUN per run, so a backlog never floods the feed.
-What was posted is kept in data/social_posted.json.
+What was posted is kept in data/social_posted.json. Brick of the Week (mac/brick.py) adds one post per
+conference on Monday morning, at most BRICK_PER_RUN a run so the six awards are spread out.
 
 Needs two repo secrets, set by the account owner: BSKY_HANDLE (e.g. hardwoodbricks.bsky.social)
 and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account password).
@@ -62,6 +63,35 @@ def stories(site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
     return out
 
 
+def brick_items(site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
+    """This week's Brick of the Week for every edition, one post each, from the edition's brick.json.
+    The award is frozen Monday morning, so it is "published" at its freeze time and goes out once."""
+    out = []
+    for lg in LEAGUES.values():
+        f = site_root / lg.path / "brick.json"
+        try:
+            a = (json.loads(f.read_text()) or {}).get("award")
+        except (OSError, ValueError):
+            continue
+        if not a or not a.get("frozen_at"):
+            continue
+        from .brick import social_text
+        rel = f"{lg.path}brick/{a['week']}.html"
+        out.append({"url": SITE_BASE + rel, "title": f"{lg.short} Brick of the Week: {a['winner']['team']}",
+                    "published": a["frozen_at"], "kind": "brick", "page": site_root / rel, "league": lg.short,
+                    "tag": lg.hashtag or lg.short, "text": social_text(a, lg.short)})
+    return out
+
+
+BRICK_PER_RUN = 2  # six conferences' awards land at once on Monday; spread them over the morning's runs
+BRICK_FRESH_HOURS = 24
+
+
+def due_brick(items: list[dict[str, Any]], posted: dict[str, str], now: datetime, most: int = BRICK_PER_RUN) -> list[dict[str, Any]]:
+    """Unposted Brick of the Week awards frozen in the last day, at most `most` a run; the rest wait for the next run."""
+    return due(items, posted, now, fresh_hours=BRICK_FRESH_HOURS, most=most)
+
+
 def due(items: list[dict[str, Any]], posted: dict[str, str], now: datetime,
         fresh_hours: float = FRESH_HOURS, most: int = MAX_PER_RUN) -> list[dict[str, Any]]:
     """Unposted stories published in the last fresh_hours, oldest first."""
@@ -89,9 +119,12 @@ def _meta(page: Path | None, prop: str) -> str:
 
 
 def text_for(it: dict[str, Any]) -> str:
-    """The post body: the headline and a tag for the conference. The link rides in the card."""
+    """The post body: the headline (or an item's own text, like Brick of the Week) and a tag for the
+    conference. The link rides in the card."""
     tag = "#" + re.sub(r"\W", "", it.get("tag") or it["league"])
-    return f"{it['title']}\n\n{tag} #CollegeBasketball"[:290]
+    tail = f"\n\n{tag} #CollegeBasketball"
+    body = it.get("text") or it["title"]
+    return (body if len(body) + len(tail) <= 290 else body[:289 - len(tail)].rsplit(" ", 1)[0] + "…") + tail
 
 
 def _facets(text: str) -> list[dict[str, Any]]:
@@ -189,12 +222,12 @@ def run(now: datetime | None = None) -> str:
         return "social: no Bluesky or Threads secrets set, skipped"
     posted = json.loads(POSTED.read_text()) if POSTED.exists() else {}
     if dry:
-        todo = due(stories(), posted, now)
+        todo = due(stories(), posted, now) + due_brick(brick_items(), posted, now)
         return "\n".join(f"[dry] {text_for(it)!r} -> {it['url']}" for it in todo) or "social: nothing new"
     report = []
     for prefix, send in nets:
         seen = seen_for(posted, prefix)
-        todo = due(stories(), seen, now)
+        todo = due(stories(), seen, now) + due_brick(brick_items(), seen, now)
         n = 0
         for it in todo:
             try:

@@ -41,6 +41,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
     ("weekly.html", "BricksIt Weekly", "The week on one page: the lead story, the column, news and notes", "#a8441c", "bricksit weekly newsletter week in review column look ahead predictions notes"),
     ("power.html", "Bricks Index", "The weekly power rankings: recent form plus road wins, with a capsule on every team", "#a8322a", "power rankings weekly poll top bricks index road wins capsule column"),
+    ("brick.html", "Brick of the Week", f"The ugliest shooting night in the {LEAGUE.short} each week, told with love", "#9a4a2c", "brick of the week award worst shooting night bricks misses cold"),
     ("players.html", "Players", f"Box-score ratings for every {LEAGUE.short} player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("book.html", "Almanac", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "almanac book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
     ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),

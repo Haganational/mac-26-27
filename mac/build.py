@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import brick, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -386,6 +386,7 @@ def render_site() -> str:
     ctx = travel.game_context(itins)
     mapping = analysis.match_lines_to_games(games, history)
     boxes = {b["game_id"]: b for b in load_boxscores()}
+    bk = render_brick(env, data, boxes, games, now)
     teamlinks = [{"key": t.key, "short": t.short} for t in TEAMS]
 
     notes_by_game = notes.by_game(dispatches)
@@ -531,7 +532,7 @@ def render_site() -> str:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], brick=bk, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
@@ -583,7 +584,7 @@ def render_site() -> str:
         render_power(env, data, m, games, standings, profiles, now)
     if LEAGUE.has("notes"):
         render_notes(env, data, season, dispatches, notes_by_game, profiles)
-    render_weekly(env, data, dispatches)
+    render_weekly(env, data, dispatches, bk)
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
@@ -670,8 +671,34 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                       for key, plist in profiles.items() for p in plist}))
 
 
-def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[str, Any]]) -> None:
-    """BricksIt Weekly: weekly/<NNN>.html for every issue, and weekly.html for the newest."""
+def render_brick(env: Environment, data: dict[str, Any], boxes: dict[str, dict[str, Any]], games: list[dict[str, Any]],
+                 now: datetime) -> dict[str, Any]:
+    """Brick of the Week: freeze any finished week, then brick.html (latest award and this week's watch),
+    brick/<monday>.html for every award, and brick.json for the all-conference front page and the social poster."""
+    brick.freeze(boxes, games, TEAMS, now)
+    wks = brick.weeks()
+    awards = {w: brick.load(w) for w in wks}
+    watch = brick.watch(boxes, games, TEAMS, now)
+    latest = awards[wks[-1]] if wks else None
+    tpl = env.get_template("brick.html")
+    (SITE_DIR / "brick").mkdir(exist_ok=True)
+    for i, w in enumerate(wks):
+        kw = dict(d=data, a=awards[w], weeks=wks, awards=awards, prev_week=wks[i - 1] if i else None,
+                  next_week=wks[i + 1] if i + 1 < len(wks) else None, rule=brick)
+        (SITE_DIR / "brick" / f"{w}.html").write_text(tpl.render(root="../", path=f"brick/{w}.html", **kw))
+    (SITE_DIR / "brick.html").write_text(tpl.render(
+        root="", path="brick.html", latest=True, d=data, a=latest, watch=watch, weeks=wks, awards=awards,
+        prev_week=wks[-2] if len(wks) > 1 else None, next_week=None, rule=brick))
+    out = {"award": latest, "watch": watch, "name": brick.NAME}
+    (SITE_DIR / "brick.json").write_text(json.dumps(out))
+    return out
+
+
+def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[str, Any]],
+                  bk: dict[str, Any] | None = None) -> None:
+    """BricksIt Weekly: weekly/<NNN>.html for every issue, and weekly.html for the newest.
+    Each issue carries the Brick of the Week announced on its date; the newest issue, before that
+    award is frozen, carries the Brick watch instead."""
     files = weekly.issues()
     if not files:
         return
@@ -681,8 +708,10 @@ def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[
     others = [{"short": lg.short, "href": f"{up}{lg.path}weekly.html"} for lg in LEAGUES.values()
               if lg.key != LEAGUE.key and weekly.issues(lg.key)]
     for i, f in enumerate(files):
-        ctx = weekly.context(json.loads(f.read_text()), data, dispatches)
-        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
+        issue = json.loads(f.read_text())
+        ctx = weekly.context(issue, data, dispatches)
+        bw = brick.for_issue(issue.get("date", "")) or ((bk or {}).get("watch") if i == len(files) - 1 else None)
+        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), brick=bw, **ctx)
         (SITE_DIR / "weekly" / f"{f.stem}.html").write_text(tpl.render(
             root="../", path=f"weekly/{f.stem}.html", others=[{**o, "href": "../" + o["href"]} for o in others], **kw))
         if i == len(files) - 1:
