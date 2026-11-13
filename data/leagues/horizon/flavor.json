@@ -1,0 +1,2176 @@
+{
+ "_help": "Horizon League local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "cleveland-state": {
+   "town": "Cleveland",
+   "home_floor": "the Wolstein Center",
+   "lines": [
+    {
+     "text": "Cleveland State was the first No. 14 seed to reach the Sweet 16, beating third-seeded Indiana 83-79 and sixth-seeded Saint Joseph's 75-69 in the 1986 NCAA Tournament.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State's 1985-86 team finished 29-4, and its season ended one point short in the Sweet 16, a 71-70 loss to David Robinson and Navy.",
+     "source": "https://www.foxsports.com/articles/cbk/kevin-mackey-who-led-cleveland-state-to-a-historic-ncaa-upset-over-indiana-dies-at-80",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State has made three NCAA Tournament trips, in 1986, 2009 and 2021, and owns a 3-3 record in the event.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State beat Butler 57-54 at Hinkle Fieldhouse for the 2009 Horizon League tournament title, then beat fourth-seeded Wake Forest 84-69 as a No. 13 seed in the NCAA Tournament.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State beat No. 11 Syracuse 72-69 on Dec. 15, 2008, on a three-quarter-court shot by Cedric Jackson, the program's first road win over a Top 25 team.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State traces its basketball history to the 1929-30 Fenn College Foxes, who went 5-5 under Homer E. Woodling.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State has retired four men's basketball numbers: Ken McFadden's 10, Franklin Edwards' 14, Norris Cole's 30 and Clinton Ransey's 44.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State has played Division I basketball since 1972 and has been in the Horizon League since 1994, after 12 years in the Mid-Continent Conference.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State won back-to-back Horizon League regular-season titles in 2021 and 2022, the fifth and sixth conference regular-season crowns in program history.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State went on the road and beat No. 7 Vanderbilt 71-58 on Nov. 13, 2011.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Gary Waters won 194 games in 11 seasons at Cleveland State from 2006 to 2017 and was the Horizon League Coach of the Year in 2008.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State's attendance record is 13,055, set for a game against Michigan on Dec. 7, 1991.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before the Wolstein Center, Cleveland State played from 1973 to 1991 in 3,000-seat Woodling Gym, named for Homer E. Woodling, the first athletic director at Fenn College and CSU.",
+     "source": "https://en.wikipedia.org/wiki/Woodling_Gym",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cleveland was founded on July 22, 1796, by surveyors of the Connecticut Land Company, who named it for their leader, Gen. Moses Cleaveland.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cleveland sits on the southern shore of Lake Erie near the mouth of the Cuyahoga River, about 60 miles west of the Pennsylvania line.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cleveland, known as the Forest City, is the home of the Polish Boy, a street food often sold at downtown hot dog carts and stadium concession stands.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "At East 14th Street and Euclid Avenue in Cleveland, Playhouse Square hangs a 20-foot outdoor chandelier of 4,200 crystals that Guinness World Records recognized as the world's largest in 2014.",
+     "source": "https://guinnessworldrecords.com/news/charity/2014/5/playhousesquare-highlights-historic-transformation-with-largest-outdoor-chandelier-57121",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cleveland's Playhouse Square, home to the State, Palace, Allen, Hanna and Ohio theaters, is the second-largest performing arts center in the country behind Lincoln Center.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cleveland's Terminal Tower, completed in 1927, was the tallest building in North America outside New York City until 1964.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Rhodes Tower, the 363-foot building at 2121 Euclid Avenue on the Cleveland State campus, opened in 1971 and is the tallest academic building in Ohio.",
+     "source": "https://en.wikipedia.org/wiki/Rhodes_Tower",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State became the Vikings in 1965, when students voted on Oct. 5-7 after a Cleveland Press naming contest that offered a year of tuition, then worth $500, as the prize.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-december-28-cleveland",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before Cleveland State University was established on Dec. 18, 1964, the school's teams played as the Fenn College Foxes.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State's mascot is Magnus, a Viking introduced in August 2007 after earlier turns by the comic strip characters Hagar the Horrible and Helga and a mascot named Vike.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fenn Tower on the Cleveland State campus once housed the world's longest Foucault pendulum, which now rests in the university archives.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Norris Cole went from Cleveland State to the 28th pick of the 2011 NBA Draft and won championships with the Miami Heat in 2012 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/Norris_Cole",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Norris Cole of Cleveland State was the first man in Horizon League history named both Player of the Year and Defensive Player of the Year, doing it in 2011.",
+     "source": "https://en.wikipedia.org/wiki/Norris_Cole",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "As a senior at Cleveland State, Norris Cole had 41 points, 20 rebounds and nine assists in a game against Youngstown State.",
+     "source": "https://en.wikipedia.org/wiki/Norris_Cole",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Franklin Edwards, who played at Cleveland State from 1977 to 1981, was the 22nd pick of the 1981 NBA Draft and won a title with the Philadelphia 76ers in 1983.",
+     "source": "https://en.wikipedia.org/wiki/Franklin_Edwards",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "When Cleveland State hired John McLendon in 1966, he became the first African American head coach at a predominantly white university.",
+     "source": "https://en.wikipedia.org/wiki/John_McLendon",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "John McLendon, who coached Cleveland State from 1966 to 1969, learned the game from James Naismith at Kansas and was inducted into the Basketball Hall of Fame in 1979 and again in 2016.",
+     "source": "https://en.wikipedia.org/wiki/John_McLendon",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Rob Summers, named Cleveland State's 18th head coach in April 2025, is in his second season after one year as an assistant at Missouri.",
+     "source": "https://www.csuohio.edu/news/rob-summers-named-cleveland-state-head-mens-basketball-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cleveland State coach Rob Summers is a Columbus native who played at Penn State and West Virginia and was on the Mountaineers team that reached the 2006 Sweet 16.",
+     "source": "https://csuvikings.com/news/2026/1/16/cleveland-state-mens-basketball-set-to-face-youngstown-state.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Rob Summers was a Cleveland State assistant from 2019 to 2022, a stretch that brought two Horizon League regular-season titles and the 2021 NCAA Tournament trip.",
+     "source": "https://csuvikings.com/news/2026/1/16/cleveland-state-mens-basketball-set-to-face-youngstown-state.aspx",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State went 11-22 overall and 6-14 in the Horizon League last season, Rob Summers' first as head coach.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2025%E2%80%9326_Cleveland_State_Vikings_men's_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cleveland State's 11-game nonconference schedule includes only four home dates and trips to Missouri, Xavier, Oregon State and Pitt.",
+     "source": "https://csuvikings.com/news/2026/9/1/cleveland-state-mens-basketball-announces-2026-27-non-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2026-12-21"
+    },
+    {
+     "text": "Cleveland State is two seasons removed from a 23-13 year that ended in the 2025 CBI championship game against Illinois State.",
+     "source": "https://en.wikipedia.org/wiki/Cleveland_State_Vikings_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cleveland State and Youngstown State are about 74 miles apart by road, a drive of roughly an hour and a half.",
+     "source": "https://www.ustripplanner.com/trip/youngstown-oh-to-cleveland-oh",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State and Youngstown State met three times in 2024-25, with the Penguins taking the last one 56-54 in the Horizon League semifinals.",
+     "source": "https://csuvikings.com/news/2026/1/16/cleveland-state-mens-basketball-set-to-face-youngstown-state.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State's 2025-26 season ended with a 90-61 loss to Wright State in the first round of the Horizon League tournament.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2025%E2%80%9326_Cleveland_State_Vikings_men's_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Wolstein Center was completed on Nov. 1, 1991, at a cost of $55 million, and was known as the CSU Convocation Center until 2005.",
+     "source": "https://en.wikipedia.org/wiki/Wolstein_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "At 13,610 seats in its full setup, Cleveland State's Wolstein Center is the largest basketball arena in the Horizon League.",
+     "source": "https://en.wikipedia.org/wiki/Wolstein_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Wolstein Center is named for Bert and Iris Wolstein, whose $6.5 million donation was the largest philanthropic gift in Cleveland State history.",
+     "source": "https://en.wikipedia.org/wiki/Wolstein_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "For most Cleveland State games, the western third of the Wolstein Center is curtained off, capacity is cut to 8,500 and the court sits closer to the eastern baseline.",
+     "source": "https://en.wikipedia.org/wiki/Wolstein_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Wolstein Center floor in Cleveland has also hosted NCAA Tournament first- and second-round games in 2000 and 2005 and the 2022 NBA All-Star Celebrity Game.",
+     "source": "https://en.wikipedia.org/wiki/Wolstein_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The playing floor inside the Wolstein Center is formally Henry J. Goodman Arena, named for a former chairman of Cleveland State's Board of Trustees.",
+     "source": "https://csuvikings.com/facilities/wolstein-center/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cleveland State is set to make the Wolstein Center an athletics-only building on Jan. 1, 2027, ending its run as a public entertainment venue.",
+     "source": "https://www.cleveland19.com/2026/08/14/cleveland-state-convert-wolstein-center-into-dedicated-athletics-facility/",
+     "kind": "current",
+     "until": "2026-12-31"
+    }
+   ]
+  },
+  "detroit-mercy": {
+   "town": "Detroit",
+   "home_floor": "Calihan Hall",
+   "lines": [
+    {
+     "text": "In 1999, 12th-seeded Detroit Mercy beat fifth-seeded UCLA 56-53 in the first round of the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy went into the 1998 NCAA tournament as a 10 seed and beat seventh-seeded St. John's 66-64 before losing to Purdue in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Detroit's only Sweet 16 trip came in 1977, when the Titans beat Middle Tennessee State 93-76 before losing 86-81 to Michigan.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy's conference tournament titles came in 1994, 1999 and 2012.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-01"
+    },
+    {
+     "text": "Detroit Mercy's most recent NCAA tournament trip came in 2012, when the 15th-seeded Titans lost 65-50 to Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-01"
+    },
+    {
+     "text": "Detroit Mercy reached the NIT semifinals in 2001, beating Bradley, Connecticut and Dayton along the way before finishing fourth.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy played its first basketball season in 1905-06.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Eleven numbers are retired at Detroit Mercy, including Dave DeBusschere's 22, Spencer Haywood's 45 and Antoine Davis' 0.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Antoine Davis scored 3,664 points in five seasons at Detroit Mercy, finishing three points shy of Pete Maravich's Division I career record.",
+     "source": "https://en.wikipedia.org/wiki/Antoine_Davis",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Antoine Davis made 132 3-pointers as a Detroit Mercy freshman, breaking the NCAA freshman record of 122 set by Stephen Curry.",
+     "source": "https://en.wikipedia.org/wiki/Antoine_Davis",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy alumni who reached the NBA include Dave DeBusschere, Spencer Haywood, John Long, Terry Tyler, Earl Cureton, Willie Green and Ray McCallum Jr.",
+     "source": "https://en.wikipedia.org/wiki/Detroit_Mercy_Titans_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dick Vitale began his head coaching career at the University of Detroit in 1973 and later served as the school's athletic director.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy traces its roots to 1877, when the Jesuits founded Detroit College near downtown Detroit; it became the University of Detroit in 1911.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Detroit_Mercy",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy's main campus sits at the southeast corner of McNichols Road and Livernois Avenue in northwest Detroit, near the University District and Palmer Woods.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Detroit_Mercy",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The school became Detroit Mercy in 1990, when the University of Detroit merged with Mercy College of Detroit, which the Sisters of Mercy had opened in 1941.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Detroit_Mercy",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Five of the top six scorers on Detroit Mercy's 2025-26 team grew up in or around Detroit.",
+     "source": "https://clickondetroit.com/sports/2026/03/04/detroit-mercy-basketball-completes-stunning-turnaround-with-15-wins-eyes-ncaa-tournament",
+     "kind": "town",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "The University of Detroit's teams were the Tigers until 1924, when the school switched to Titans in part to avoid confusion with the city's baseball team.",
+     "source": "https://sites.udmercy.edu/campusconnection/mascot-origins-titan-collaboration-helped-tommy-take-off-in-1977/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy's mascot, Tommy Titan, made his debut on Feb. 12, 1977, at a Titans home game against Wayne State at Calihan Hall.",
+     "source": "https://sites.udmercy.edu/campusconnection/mascot-origins-titan-collaboration-helped-tommy-take-off-in-1977/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before Tommy Titan arrived in 1977, the University of Detroit's mascots were St. Bernard puppies that appeared at football games in the 1940s and 1950s.",
+     "source": "https://sites.udmercy.edu/campusconnection/mascot-origins-titan-collaboration-helped-tommy-take-off-in-1977/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy coach Mark Montgomery grew up about 15 minutes from Calihan Hall.",
+     "source": "https://clickondetroit.com/sports/2026/03/04/detroit-mercy-basketball-completes-stunning-turnaround-with-15-wins-eyes-ncaa-tournament",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Detroit Mercy extended coach Mark Montgomery's contract in May 2026, a deal that runs through the 2030-31 season.",
+     "source": "https://detroittitans.com/news/2026/5/6/mens-basketball-coach-montgomery-extended-to-2031.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Detroit Mercy went 17-15 last season and 12-8 in the Horizon League, earning the No. 3 seed in the conference tournament in Mark Montgomery's second year.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Detroit_Mercy_Titans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Detroit Mercy beat Milwaukee and Robert Morris in last season's Horizon League tournament before losing 66-63 to Wright State in the final.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Detroit_Mercy_Titans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Detroit Mercy's 17 wins last season were nine more than the year before and the program's most since 2012-13.",
+     "source": "https://detroittitans.com/news/2026/5/6/mens-basketball-coach-montgomery-extended-to-2031.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Detroit Mercy and Oakland first met on Dec. 15, 1973, a 101-75 Titans win in Detroit, and the Titans took the first 10 games of the series.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Series",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy and Oakland call their rivalry the Metro Series, and since 2015 the season series winner has taken home the Michigan Sports Hall of Fame Cup.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Series",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy and Oakland have been Horizon League rivals since Jan. 11, 2014, when the Golden Grizzlies won the first conference meeting 77-69 in Detroit.",
+     "source": "https://en.wikipedia.org/wiki/Metro_Series",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Calihan Hall was dedicated on May 25, 1952, as the Memorial Building, and the Titans won the first game there that Dec. 2, beating Kalamazoo College 75-61.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Detroit Mercy's arena was renamed in 1977 for Bob Calihan, the Titans' first basketball All-American and later the school's winningest coach.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at Calihan Hall has been Dick Vitale Court since Dec. 5, 2011, named for the former University of Detroit coach.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Detroit Pistons used Calihan Hall as a home arena from 1957 to 1961.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd in Calihan Hall history is 11,065, set when Detroit hosted Marquette on March 4, 1978.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bradley's Hersey Hawkins holds the Calihan Hall scoring record with 63 points against Detroit on Feb. 22, 1988.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Dave DeBusschere set the Calihan Hall rebounding record with 39 for Detroit against Central Michigan on Jan. 30, 1960.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Calihan Hall sits at 4001 W. McNichols Road in Detroit.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Titan Pep Band plays at all Detroit Mercy men's and women's home basketball games in Calihan Hall.",
+     "source": "https://en.wikipedia.org/wiki/Calihan_Hall",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
+  },
+  "green-bay": {
+   "town": "Green Bay",
+   "home_floor": "the Kress Center",
+   "lines": [
+    {
+     "text": "Green Bay's lone NCAA Division I tournament win came in 1994, when the 12th-seeded Phoenix beat fifth-seeded California 61-57 before falling 64-59 to Syracuse.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay's first NCAA Division I tournament game, in 1991, ended in a 60-58 loss to fifth-seeded Michigan State.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay came within a point of a second straight NCAA tournament upset in 1995, when the 14th-seeded Phoenix lost 49-48 to third-seeded Purdue.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay has played in five NCAA Division I tournaments, in 1991, 1994, 1995, 1996 and 2016.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay's most recent NCAA tournament trip came in 2016, when the Phoenix went in as a No. 14 seed and lost to third-seeded Texas A&M.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay reached back-to-back NCAA Division II championship games, losing 47-40 to Cheyney in 1978 and 64-50 to North Alabama in 1979.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay went 13-8 in NCAA Division II tournament games, a run that included a 1981 Final Four and a 62-61 double-overtime loss to Cal Poly in the third-place game.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay basketball began play in the 1969-70 school year at the NAIA level.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay's only NIT victory came in 1990, a 73-60 win over Southern Illinois.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay has won four conference tournament titles, in 1991, 1994, 1995 and 2016, and four regular-season crowns, in 1992, 1994, 1996 and 2014.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike Heideman's first Green Bay team earned a No. 8 seed in the 1996 NCAA tournament, the best seed the Phoenix have received.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dick Bennett coached Green Bay for 10 seasons, from 1985-86 to 1994-95, a stretch that produced the program's first three NCAA Division I tournament trips.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Linc Darner took Green Bay to the 2016 NCAA tournament in the first of his five seasons with the Phoenix.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Green Bay lists two home arenas, the 9,729-seat Resch Center and the 4,018-seat Kress Events Center.",
+     "source": "https://en.wikipedia.org/wiki/Green_Bay_Phoenix_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Resch Center, which opened on August 24, 2002, seats 9,729 for Green Bay basketball.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Resch Center sits across the street from Lambeau Field, on a site that housed the Green Bay Packers Hall of Fame from 1976 until 2001.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Resch Center carries a Green Bay address, 820 Armed Forces Drive, but sits inside the boundaries of neighboring Ashwaubenon.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Resch Center, one of Green Bay's two home arenas, is named for Dick Resch, an executive at KI Industries, the local office furniture company that holds the naming rights.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd listed in Resch Center history is 10,414 for an Elton John concert on May 30, 2003, more than the 9,729 the building seats for Green Bay basketball.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Milwaukee Bucks played nine preseason games at Green Bay's Resch Center from 2004 to 2014.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Green Bay's Resch Center hosted the 2006 NCAA men's hockey Midwest Regional, where Wisconsin beat Cornell 1-0 in three overtimes.",
+     "source": "https://en.wikipedia.org/wiki/Resch_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Green Bay students chose the Phoenix nickname in May 1970 in a pick-the-mascot contest run by the student newspaper, the Fourth Estate.",
+     "source": "https://news.uwgb.edu/?p=12615",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before becoming the Phoenix in 1970, Green Bay's teams were the Bay Badgers, with a water-skiing Bucky Badger as their first-year emblem.",
+     "source": "https://news.uwgb.edu/?p=12615",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The 1970 contest that made Green Bay the Phoenix drew more than 40 suggestions, among them Eco-nauts, E-Gulls, Nicolets and Loggers.",
+     "source": "https://news.uwgb.edu/?p=12615",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Campus lore at Green Bay holds that Tomatoes won the 1970 nickname vote by 10 votes before the entry was ruled out for lacking a reproducible drawing.",
+     "source": "https://news.uwgb.edu/?p=12615",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Phoenix name arrived in 1970 as Green Bay was graduating its first class of seniors and finishing its first year of intercollegiate competition.",
+     "source": "https://news.uwgb.edu/?p=12615",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Green Bay and Milwaukee call their series the Battle of I-43, and the Phoenix led it 42-35 heading into the 78th meeting in January 2026.",
+     "source": "https://mkepanthers.com/news/2026/1/2/mens-basketball-the-battle-of-i-43-heats-back-up-monday-night-in-green-bay.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Green Bay won eight of its 10 meetings with rival Milwaukee in the stretch leading up to the 2020-21 season.",
+     "source": "https://mkepanthers.com/news/2026/1/2/mens-basketball-the-battle-of-i-43-heats-back-up-monday-night-in-green-bay.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Green Bay beat rival Milwaukee 80-79 in overtime in February 2023.",
+     "source": "https://mkepanthers.com/news/2026/1/2/mens-basketball-the-battle-of-i-43-heats-back-up-monday-night-in-green-bay.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Justin Allen scored 34 points for Green Bay against Purdue Fort Wayne on February 12, 2026, his high for the 2025-26 season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Green_Bay_Phoenix_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Green Bay was the only Horizon League school with two players on the league's 2025-26 All-Academic Team, Marcus Hall and Preston Ruedinger.",
+     "source": "https://greenbayphoenix.com/news/2026/6/19/mens-basketball-doug-gottlieb-signs-extension-through-2030-31-season-.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Doug Gottlieb, named Green Bay's 10th head coach in May 2024, signed an extension in June 2026 that runs through the 2030-31 season.",
+     "source": "https://greenbayphoenix.com/news/2026/6/19/mens-basketball-doug-gottlieb-signs-extension-through-2030-31-season-.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Green Bay went 18-15 last season and 12-8 in the Horizon League after being picked to finish last in the preseason poll.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Green_Bay_Phoenix_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Green Bay tied for third in the Horizon League last season and won a league tournament game for the first time since 2019-20.",
+     "source": "https://greenbayphoenix.com/news/2026/6/19/mens-basketball-doug-gottlieb-signs-extension-through-2030-31-season-.aspx",
+     "kind": "current",
+     "until": "2027-03-01"
+    },
+    {
+     "text": "Green Bay went 17-10 over the final 27 games of last season under Doug Gottlieb.",
+     "source": "https://greenbayphoenix.com/news/2026/6/19/mens-basketball-doug-gottlieb-signs-extension-through-2030-31-season-.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Green Bay's men's basketball team posted a 3.40 grade-point average in spring 2026, the highest team mark in program history.",
+     "source": "https://greenbayphoenix.com/news/2026/6/19/mens-basketball-doug-gottlieb-signs-extension-through-2030-31-season-.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": []
+  },
+  "iu-indy": {
+   "town": "Indianapolis",
+   "home_floor": "the Jim",
+   "lines": [
+    {
+     "text": "IU Indianapolis traces its program to 1972, when the school then known as IUPUI fielded its first varsity team as the Metros under George Dickison, the athletic director at Crispus Attucks High School.",
+     "source": "https://library.indianapolis.iu.edu/static/exhibits/jagshistory/home.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis, then IUPUI, reached the 2003 NCAA Tournament when Matt Crenshaw's 12-foot jumper beat Valparaiso 66-64 in the Mid-Continent Conference title game at Kemper Arena in Kansas City.",
+     "source": "https://iuindyjags.com/news/2017/10/7/mens-basketball-march-madness-remembering-the-run-of-the-2003-jaguars",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis, then known as IUPUI, made its lone NCAA Tournament appearance in 2003 as a No. 16 seed and lost 95-64 to top-seeded Kentucky.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "A year before IUPUI, now IU Indianapolis, beat Valparaiso for the 2003 Mid-Continent Conference tournament title, the Jaguars lost the same game to the same opponent by 33 points.",
+     "source": "https://iuindyjags.com/news/2017/10/7/mens-basketball-march-madness-remembering-the-run-of-the-2003-jaguars",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Indianapolis program reached the NAIA national tournament in 1985 and 1990 as the IUPUI Metros, and an 87-80 victory over Siena Heights in 1990 was its only win there.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Carlos Knox was named NCAA Division II Player of the Year in 1996 while playing for IUPUI, the Indianapolis school now known as IU Indianapolis.",
+     "source": "https://library.indianapolis.iu.edu/static/exhibits/jagshistory/home.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis, as IUPUI, beat Hofstra 74-60 in the 2010 College Basketball Invitational before falling 74-68 to Princeton in double overtime in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis has competed in the Horizon League since July 1, 2017, when the school then called IUPUI left the Summit League in all sports.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In its early seasons, the Indianapolis program that began as the IUPUI Metros played at venues that included the Naval Armory, Market Square Arena and the Indiana State Fairgrounds Coliseum.",
+     "source": "https://www.stadiumjourney.com/stadiums/the-jungle-iu-indy-jaguars",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis' arena is named for James T. Morris, an IU alumnus and trustee who served as vice chairman of Pacers Sports and Entertainment and president of Lilly Endowment.",
+     "source": "https://iuindyjags.com/facilities/james-t-morris-arena/1036",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Jungle, a 1,215-seat gym on the main concourse of the IU Indianapolis natatorium building, opened in 1982 and long served as the Jaguars' home court.",
+     "source": "https://www.stadiumjourney.com/stadiums/the-jungle-iu-indy-jaguars",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Indianapolis is called the Circle City for the 1821 plan by Alexander Ralston and Elias Pym Fordham that put a traffic circle at the center of the Mile Square.",
+     "source": "https://en.wikipedia.org/wiki/Nicknames_of_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Crossroads of America, a nickname Indianapolis earned from its railroads and later its highways, became Indiana's state motto in 1937 and the city's official slogan in 1988.",
+     "source": "https://en.wikipedia.org/wiki/Nicknames_of_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Indianapolis is home to the NCAA and, since 1999, the National Federation of State High School Associations.",
+     "source": "https://en.wikipedia.org/wiki/Nicknames_of_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Indianapolis area is home to two racing sanctioning bodies, INDYCAR and USAC, and more than 500 motorsports-related companies.",
+     "source": "https://en.wikipedia.org/wiki/Nicknames_of_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The earliest known use of Naptown for Indianapolis is a 1927 Indianapolis Recorder article about jazz musicians, according to Indianapolis Monthly.",
+     "source": "https://en.wikipedia.org/wiki/Nicknames_of_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis sits on a 536-acre urban campus in downtown Indianapolis along the White River and Fall Creek.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_University_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Indiana University Natatorium on the IU Indianapolis campus seats 4,700 and is described as the largest indoor pool in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_University_Indianapolis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis became its own campus on July 1, 2024, when IUPUI was split into separate Indiana University and Purdue University operations in the city.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_University_Indianapolis",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Jawz the Jaguar has been the mascot of IU Indianapolis athletics since 2006 and was joined by a second jaguar, Jazzy, in 2015.",
+     "source": "https://aux.indianapolis.iu.edu/mascot-program/meet-mascots.html",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Indianapolis school's teams were the Metros until fall 1998, when students chose a new mascot and SME Branding of New York created the first Jaguar logo.",
+     "source": "https://liberalarts.indianapolis.iu.edu/about/archive/2018-archive/roaring-back-to-98-from-metros-to-jaguars_4-19-18.html",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "When the Indianapolis school now called IU Indianapolis settled on Jaguars as its nickname in 1998, it passed on Indy Hawks and Riverhawks.",
+     "source": "https://www.stadiumjourney.com/stadiums/the-jungle-iu-indy-jaguars",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis wore Metros throwback uniforms in January 2025 to honor its 1985 team, which won the NAIA District 21 title and reached the national tournament for the first time.",
+     "source": "https://iuindyjags.com/news/2025/1/24/mens-basketball-jaguars-to-turn-back-the-clock-against-dons-on-saturday.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "George Hill became the first player drafted from IUPUI, now IU Indianapolis, when San Antonio took him 26th overall in 2008.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "George Hill left IUPUI, now IU Indianapolis, in 2008 as the Summit League Player of the Year and the fifth-leading scorer in school history with 1,619 points.",
+     "source": "https://en.wikipedia.org/wiki/George_Hill_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former IUPUI guard George Hill of Indianapolis spent five seasons with the Indiana Pacers from 2011 to 2016 and played in the 2018 NBA Finals with Cleveland.",
+     "source": "https://en.wikipedia.org/wiki/George_Hill_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ben Howlett went 217-37 and won eight straight Mountain East Conference regular-season titles at Division II West Liberty before IU Indianapolis hired him in 2025.",
+     "source": "https://www.foxsports.com/articles/cbk/iu-indianapolis-hires-ben-howlett-as-coach-following-his-dominant-run-at-division-ii-west-liberty",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Ben Howlett's last West Liberty team averaged 100.2 points and went 30-5 before he took the IU Indianapolis job, and his 2023 team reached the Division II championship game.",
+     "source": "https://www.foxsports.com/articles/cbk/iu-indianapolis-hires-ben-howlett-as-coach-following-his-dominant-run-at-division-ii-west-liberty",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "IU Indianapolis went 7-25 overall and 3-17 in the Horizon League in 2025-26 under head coach Ben Howlett.",
+     "source": "https://iuindyjags.com/news/2026/3/2/mens-basketball-mens-basketball-season-comes-to-an-end-at-no-10-cleveland-in-101-93-defeat.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "IU Indianapolis' 2025-26 season ended on March 2 with a 101-93 loss at Cleveland State in the Horizon League tournament play-in game.",
+     "source": "https://iuindyjags.com/news/2026/3/2/mens-basketball-mens-basketball-season-comes-to-an-end-at-no-10-cleveland-in-101-93-defeat.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Finley Woodward set an IU Indianapolis single-season record with 201 assists in 2025-26, breaking the previous mark by seven.",
+     "source": "https://iuindyjags.com/news/2026/3/2/mens-basketball-mens-basketball-season-comes-to-an-end-at-no-10-cleveland-in-101-93-defeat.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "IU Indianapolis' nonconference schedule includes road games at Kansas State on Dec. 8 and at Loyola on Dec. 12.",
+     "source": "https://iuindyjags.com/news/2026/7/8/mens-basketball-mens-basketball-announces-five-games-for-the-2026-2027-season.aspx",
+     "kind": "current",
+     "until": "2026-12-08"
+    },
+    {
+     "text": "Purdue Fort Wayne, IU Indianapolis' in-state Horizon League rival, is about 121 miles from Indianapolis by road, most of it on Interstate 69.",
+     "source": "https://how-far.net/distance/Fort-Wayne-IN/Indianapolis-IN",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne edged IU Indianapolis 78-76 in Fort Wayne on Dec. 11, 2024, in a series the Mastodons' athletics site bills as a rivalry.",
+     "source": "https://gomastodons.com/news/2024/12/10/mens-basketball-dons-and-jaguars-renew-rivalry-on-wednesday",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "James T. Morris Arena, the new IU Indianapolis basketball venue, was designed to seat 4,500 around the court, with a significant portion of that seating retractable.",
+     "source": "https://iuindyjags.com/facilities/james-t-morris-arena/1036",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Along with the IU Indianapolis athletic department, James T. Morris Arena was designed to house offices for USA Track and Field.",
+     "source": "https://iuindyjags.com/facilities/james-t-morris-arena/1036",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "James T. Morris Arena, the new IU Indianapolis basketball venue, is known as The Jim.",
+     "source": "https://iuindyjags.com/facilities/james-t-morris-arena/1036",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "IU Indianapolis scheduled the first game at James T. Morris Arena for an 11 a.m. tip on Nov. 2, 2026, against Miami Middletown.",
+     "source": "https://iuindyjags.com/news/2026/7/8/mens-basketball-mens-basketball-announces-five-games-for-the-2026-2027-season.aspx",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The student section at IU Indianapolis home games is known as the Red Zone.",
+     "source": "https://en.wikipedia.org/wiki/IU_Indy_Jaguars_men%27s_basketball",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
+  },
+  "milwaukee": {
+   "town": "Milwaukee",
+   "home_floor": "UW-Milwaukee Panther Arena",
+   "lines": [
+    {
+     "text": "Milwaukee reached the Sweet 16 in 2005 as a No. 12 seed, beating Alabama 83-73 and Boston College 83-75 before losing to top-seeded Illinois.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee went 26-6 in 2004-05 and finished first in the Horizon League at 14-2 under Bruce Pearl, with Ed McCants named the league's player of the year.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Milwaukee_Panthers_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee has played in four NCAA Division I tournaments, in 2003, 2005, 2006 and 2014, and won the Horizon League tournament in each of those years.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's first NCAA Division I tournament game, in 2003, was a 70-69 loss to fifth-seeded Notre Dame.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee beat sixth-seeded Oklahoma 82-74 as a No. 11 seed in the 2006 NCAA tournament, the program's third tournament win in two seasons.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee won three straight Horizon League regular-season titles in 2004, 2005 and 2006 and added a fourth in 2011.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The only unbeaten season in Milwaukee basketball history came in 1940, when Guy Penwell's team went 16-0.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's predecessor schools played basketball as the Milwaukee Normals from 1896 to 1927.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee moved its full athletic program to NCAA Division I in 1990-91 and has competed in the Horizon League in all sports since 1994-95.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Von McDade holds Milwaukee's single-game scoring record with 50 points against Illinois in 1990-91, the same season he set the school mark with 830 points.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball_statistical_leaders",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Clay Tucker is Milwaukee's career scoring leader with 1,788 points.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball_statistical_leaders",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UWM bought the naming rights to its downtown Milwaukee arena in June 2014 in a 10-year, $3.4 million deal, and the Wisconsin Center District owns the building.",
+     "source": "https://en.wikipedia.org/wiki/UW%E2%80%93Milwaukee_Panther_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's on-campus gym, the Klotsche Center on North Downer Avenue, opened in 1977, seats 3,500 and is named for J. Martin Klotsche, UWM's first chancellor.",
+     "source": "https://en.wikipedia.org/wiki/Klotsche_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The OHOW Center, a 16,000-square-foot expansion of the Klotsche Center used primarily by Milwaukee's men's and women's basketball teams, opened with a ribbon-cutting on July 27, 2023.",
+     "source": "https://mkepanthers.com/facilities/ohow-center/35",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee sits on the western shore of Lake Michigan at the meeting of three rivers, the Milwaukee, the Menomonee and the Kinnickinnic.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee, incorporated on Jan. 31, 1846, is Wisconsin's largest city, with 577,222 residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee is called the Cream City for the durable cream-colored brick its brickyards produced and many of its buildings still wear.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Schlitz, Blatz, Pabst and Miller were once among the world's largest breweries, and Miller is the only major one that remains in Milwaukee.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Summerfest, founded in Milwaukee in 1968, was listed in the 1999 Guinness Book of World Records as the world's largest music festival.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee calls itself the frozen custard capital of the world, and Gilles on Bluemound Road, opened in 1938, is the oldest custard stand in the city.",
+     "source": "https://www.visitmilwaukee.org/blog/posts/post/spoon-first-ask-questions-later-milwaukees-frozen-custard-legacy/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UWM's East Side campus at Downer Avenue and Kenwood Boulevard has been a college site since 1909, when the Milwaukee Normal School moved there.",
+     "source": "https://emke.uwm.edu/entry/university-of-wisconsin-milwaukee/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UWM students picked the Panthers nickname in a December 1964 vote, giving it 810 votes to 305 for Hawks, 136 for Cardinals, 88 for Beavers and 56 for Clippers.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-april-25-milwaukee",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's black and gold won a December 1964 student vote with 889 votes, replacing the red and white the school had worn since 1956.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-april-25-milwaukee",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before they were Panthers, Milwaukee's teams were the Green Gulls from 1927, a nod to the school's green and to Lake Michigan, and then the Cardinals from 1956.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-april-25-milwaukee",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's costumed panther mascot, Pounce, made his debut in 2007.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-april-25-milwaukee",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee billed its 2026 basketball homecoming as Black and Gold in the Cold, with a Tilt the Floor tailgate in Sandburg Hall before the game against Wright State.",
+     "source": "https://mkepanthers.com/news/2026/1/28/mens-basketball-black-gold-in-the-cold-homecoming-matchup-set-for-friday-night.aspx",
+     "kind": "campus-tradition",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Patrick Baldwin Jr. became Milwaukee's first first-round NBA draft pick when Golden State took him 28th in 2022, and he was its first player drafted since Von McDade in 1991.",
+     "source": "https://mkepanthers.com/news/2022/6/23/mens-basketball-patrick-baldwin-jr-selected-by-golden-state-in-nba-draft.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bo Ryan coached Milwaukee for two seasons after being hired in 1999 before leaving for Wisconsin, and Bruce Pearl left the Panthers for Tennessee in 2005.",
+     "source": "https://en.wikipedia.org/wiki/Milwaukee_Panthers_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bruce Pearl went 86-38 in four seasons at Milwaukee, and Rob Jeter followed with 184 wins and two NCAA tournament trips in 11 seasons.",
+     "source": "https://www.sports-reference.com/cbb/schools/milwaukee/coaches.html",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Microsoft CEO Satya Nadella earned a master's degree in computer science from UW-Milwaukee in 1990.",
+     "source": "https://uwm.edu/news/?p=10424",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bart Lundy came to Milwaukee in March 2022 as the winningest coach in Queens University history at 333-103, with four Division II Elite Eight trips.",
+     "source": "https://mkepanthers.com/staff-directory/bart-lundy/4232",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bart Lundy won 22, 20 and 21 games in his first three seasons at Milwaukee, the program's first three straight 20-win seasons since a record four straight from 2002 to 2006.",
+     "source": "https://mkepanthers.com/staff-directory/bart-lundy/4232",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Milwaukee coach Bart Lundy won his 500th career game on Jan. 11, 2026, a 95-83 victory over IU Indianapolis in his 738th game.",
+     "source": "https://mkepanthers.com/news/2026/11/7/mens-basketball-preview-panthers-host-red-hawks-in-home-opener-sunday.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Milwaukee went 12-20 overall and 8-12 in the Horizon League in 2025-26 and lost at Detroit Mercy in the first round of the league tournament as the No. 8 seed.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Milwaukee_Panthers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Milwaukee was picked sixth in the Horizon League preseason poll with 309 points, with Danilo Jovanovich on the all-league first team and Chandler Jackson on the second.",
+     "source": "https://mkepanthers.com/news/2026/10/7/mens-basketball-preseason-poll-released-two-panthers-on-preseason-all-league-team.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Milwaukee's 15-man roster this season has 10 newcomers, five freshmen and five transfers, and six Wisconsin natives.",
+     "source": "https://mkepanthers.com/news/2026/11/7/mens-basketball-preview-panthers-host-red-hawks-in-home-opener-sunday.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Milwaukee's 12-game nonconference schedule this season put eight games on the road, including trips to USC, TCU and Florida.",
+     "source": "https://mkepanthers.com/news/2026/8/25/milwaukee-mens-basketball-announces-challenging-non-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2026-12-22"
+    },
+    {
+     "text": "Milwaukee and Green Bay have met since 1971 in a series known as the I-43 Battle, named for the interstate that connects the two cities.",
+     "source": "https://mkepanthers.com/news/2026/2/13/mens-basketball-panthers-back-at-home-to-host-green-bay-in-battle-of-i-43.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Green Bay led its all-time series with Milwaukee 43-35 going into the rivals' 79th meeting in February 2026.",
+     "source": "https://mkepanthers.com/news/2026/2/13/mens-basketball-panthers-back-at-home-to-host-green-bay-in-battle-of-i-43.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee beat rival Green Bay 95-84 at Green Bay in a Horizon League tournament quarterfinal in 2024, days after a 90-69 home win in the regular-season finale.",
+     "source": "https://mkepanthers.com/news/2026/2/13/mens-basketball-panthers-back-at-home-to-host-green-bay-in-battle-of-i-43.aspx",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UW-Milwaukee Panther Arena opened on April 9, 1950, as the Milwaukee Arena and seats 10,783 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/UW%E2%80%93Milwaukee_Panther_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Milwaukee Bucks called what is now UW-Milwaukee Panther Arena home from 1968 to 1988, and the 1977 NBA All-Star Game was played in the building.",
+     "source": "https://en.wikipedia.org/wiki/UW%E2%80%93Milwaukee_Panther_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Beatles played the building now known as UW-Milwaukee Panther Arena on Sept. 4, 1964, and Elvis Presley performed there in 1972, 1974 and 1977.",
+     "source": "https://en.wikipedia.org/wiki/UW%E2%80%93Milwaukee_Panther_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Milwaukee's record crowd at Panther Arena is 10,783, set on March 8, 2005, when the Panthers beat Detroit 59-58 for the Horizon League tournament title.",
+     "source": "https://mkepanthers.com/facilities/?id=3",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Marquette played its home games in the building now called UW-Milwaukee Panther Arena in 1976-77, the season it won the NCAA championship.",
+     "source": "https://mkepanthers.com/facilities/?id=3",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UW-Milwaukee Panther Arena, at 400 W. Kilbourn Ave. in downtown Milwaukee about three miles from campus, was built in 1950 at a cost of $7.6 million.",
+     "source": "https://mkepanthers.com/facilities/?id=3",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "northern-illinois": {
+   "town": "DeKalb",
+   "home_floor": "the Convo",
+   "lines": [
+    {
+     "text": "Northern Illinois first fielded a men's basketball team in the 1900-01 season and has made three NCAA Division I tournament appearances, in 1982, 1991 and 1996.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Northern Illinois earned its first NCAA tournament trip in 1982 by winning three MAC tournament games in three days, the last a 79-75 decision over Ball State at Crisler Arena in Ann Arbor.",
+     "source": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Northern_Illinois_Huskies_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1982 Northern Illinois team that reached the NCAA tournament finished 16-14 and won its first two MAC tournament games by a combined three points.",
+     "source": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Northern_Illinois_Huskies_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois went into the 1996 NCAA tournament as a No. 14 seed and lost to third-seeded Texas Tech by a single point, 74-73.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois beat fifth-ranked and previously unbeaten Indiana 85-71 on Jan. 4, 1972, in front of a sellout crowd of 4,442 in DeKalb.",
+     "source": "https://northernstar.info/89899/uncategorized/huskies-battle-hooisers-50-years-after-upset",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim Bradley had 24 points and 20 rebounds as a sophomore when Northern Illinois beat fifth-ranked Indiana in DeKalb on Jan. 4, 1972.",
+     "source": "https://northernstar.info/89899/uncategorized/huskies-battle-hooisers-50-years-after-upset",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "The 1971-72 Northern Illinois team finished 21-4, won the Midwestern Conference and on Jan. 18, 1972, gave the school its first national ranking at No. 20 in the AP poll.",
+     "source": "https://northernstar.info/89899/uncategorized/huskies-battle-hooisers-50-years-after-upset",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Northern Illinois record for wins in a season is 25, set in 1990-91 by a Jim Molinari team that started 20-2 and went 14-2 in the Mid-Continent Conference.",
+     "source": "https://niuhuskies.com/honors/hall-of-fame/1990-1991-mens-basketball-team/239",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "The best record in Northern Illinois men's basketball history belongs to the 1926-27 team, which went 18-1.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chick Evans coached Northern Illinois basketball from 1929 to 1940, won three straight conference titles from 1933 to 1935 and went 125-93 with the team in DeKalb.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois won the McCafferty Trophy, the all-sports championship of what is now the Horizon League, after the 1995-96 academic year.",
+     "source": "https://niuhuskies.com/news/2025/2/27/general-niu-sports-moving-to-horizon-league-in-2026-27.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Lincoln Highway was established through DeKalb, home of Northern Illinois, in 1913 and is now part of Illinois Route 38.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Until the Convocation Center opened in 2002, Northern Illinois played at Chick Evans Field House, a 6,000-seat building that opened in 1956 and now houses the school's tennis teams.",
+     "source": "https://en.wikipedia.org/wiki/Chick_Evans_Field_House",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "DeKalb sits about 65 miles west of downtown Chicago and 30 miles southeast of Rockford, and Northern Illinois University is the city's largest employer.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeKalb, home of Northern Illinois, is nicknamed Barb City, a nod to the double-strand barbed wire that Joseph Glidden patented in 1874.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeKalb, home of Northern Illinois, is also a seed corn name, as the DeKalb Agricultural Association began producing seed in 1934 under a flying ear of corn logo.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeKalb, where Northern Illinois plays, was platted in 1853 as Huntley's Grove and incorporated in 1856 under the name of Revolutionary War general Johann de Kalb.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeKalb, home of Northern Illinois, counts the Egyptian Theatre, built in 1929, among its landmarks.",
+     "source": "https://en.wikipedia.org/wiki/DeKalb,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "When Northern Illinois joined the Horizon League, the league said DeKalb's average distance to its 11 other campuses was less than 350 miles.",
+     "source": "https://horizonleague.org/news/2025/2/27/general-horizon-league-welcomes-niu.aspx",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois teams have been the Huskies since 1940, when a four-man committee picked the name to replace earlier ones that included Profs, Cardinals and Evansmen.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/trads-niu-trads-html.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois spells the collective form of its nickname Huskie, following a 1940 story by Evans that referred to a Huskie dog, not H-U-S-K-Y.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/trads-niu-trads-html.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "A Northern Illinois committee adopted yellow and white as school colors in 1899, and by 1907 red and black had become a second set of athletic colors.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/trads-niu-trads-html.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Huskie Fight Song at Northern Illinois has lyrics by Francis Stroup, a former men's swimming coach, and music by A. Neil Annas, and the Student Senate approved it on April 30, 1963.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/trads-niu-trads-html.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois has two mascots, the costumed Victor E. Huskie and a live Siberian husky named Mission.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois was founded in DeKalb in 1895 as the Northern Illinois State Normal School and took its current name on July 1, 1957.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Illinois_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois has had eight players taken in the NBA draft, from Jim Smith by the Los Angeles Lakers in 1969 to Tim Dillon by the Chicago Bulls in the third round in 1984.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/sports-m-baskbl-spec-rel-in-the-pros-html",
+     "kind": "alumni",
+     "until": "2027-06-30"
+    },
+    {
+     "text": "The Los Angeles Lakers drafted Jim Bradley of Northern Illinois 48th overall in the third round of the 1974 NBA draft.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/sports-m-baskbl-spec-rel-in-the-pros-html",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Northern Illinois player Xavier Silas reached the NBA with the Philadelphia 76ers in the 2011-12 season.",
+     "source": "https://niuhuskies.com/sports/2016/6/13/sports-m-baskbl-spec-rel-in-the-pros-html",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Matt Majkrzak was named the 30th head coach in Northern Illinois men's basketball history on March 17, 2026, after going 136-73 in seven seasons at Division II Northern Michigan.",
+     "source": "https://niuhuskies.com/sports/mens-basketball/roster/coaches/matt-majkrzak/2625",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Illinois coach Matt Majkrzak won 28 games in his final season at Northern Michigan, a record for that program, and was the GLIAC coach of the year in 2024 and 2026.",
+     "source": "https://niuhuskies.com/sports/mens-basketball/roster/coaches/matt-majkrzak/2625",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Illinois coach Matt Majkrzak is a native of Elkhart Lake, Wisconsin, and earned his bachelor's degree at Wisconsin-Green Bay.",
+     "source": "https://niuhuskies.com/sports/mens-basketball/roster/coaches/matt-majkrzak/2625",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Illinois went 9-21 overall and 4-14 in the Mid-American Conference in 2025-26 before moving to the Horizon League for this season.",
+     "source": "https://niuhuskies.com/news/2026/3/6/mens-basketball-huskies-fall-in-season-finale-at-akron.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Illinois is the 12th member of the Horizon League and is in its first season back in a conference it belonged to from 1994 to 1997, when it was the Midwestern Collegiate Conference.",
+     "source": "https://niuhuskies.com/news/2025/2/27/general-niu-sports-moving-to-horizon-league-in-2026-27.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Illinois plays 12 regular-season nonconference games this season, the last on Dec. 21 at Arizona.",
+     "source": "https://niuhuskies.com/news/2026/9/3/mens-basketball-huskies-announce-2026-27-non-conference-slate.aspx",
+     "kind": "current",
+     "until": "2026-12-21"
+    },
+    {
+     "text": "Northern Illinois and new Horizon League rival Milwaukee first met on Jan. 4, 1947, and the Huskies won 10 straight in the series from 1994 to 1997.",
+     "source": "https://niuhuskies.com/sports/mens-basketball/opponent-history/milwaukee/223",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois and Green Bay, now Horizon League rivals, met for the 1991 Mid-Continent Conference tournament title on Green Bay's floor, and the Huskies made the NCAA tournament despite losing.",
+     "source": "https://niuhuskies.com/honors/hall-of-fame/1990-1991-mens-basketball-team/239",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Convocation Center, at 1525 W. Lincoln Highway in DeKalb, opened in 2002 at a cost of $36 million and seats 10,000 for Northern Illinois games.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Northern_Illinois_University)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A crowd of 8,041 watched Northern Illinois play DePaul at the Convocation Center in DeKalb on Nov. 23, 2002, during the building's first season.",
+     "source": "https://niuhuskies.com/facilities/convocation-center/5",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Convocation Center in DeKalb took 22 months to build and has an eight-sided video scoreboard and a 200-meter track to go with the Northern Illinois basketball court.",
+     "source": "https://niuhuskies.com/facilities/convocation-center/5",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northern Illinois beat Kansas State 75-70 in overtime at the Convocation Center in DeKalb in 2005 before a crowd of 5,389.",
+     "source": "https://niuhuskies.com/facilities/convocation-center/5",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "northern-kentucky": {
+   "town": "Highland Heights",
+   "home_floor": "Truist Arena",
+   "lines": [
+    {
+     "text": "Northern Kentucky played its first men's basketball game on Nov. 12, 1971, a 109-65 win over Calvary Bible College.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_Norse_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky was the NCAA Division II national runner-up in back-to-back seasons, losing the 1996 title game to Fort Hays State 70-63 and the 1997 final to Cal State Bakersfield 57-56.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_Norse_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky won the 2017 Horizon League tournament as a No. 4 seed at Joe Louis Arena in Detroit, earning an NCAA Tournament bid in its first year of eligibility after the move to Division I.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's first NCAA Division I Tournament game was a 79-70 loss as a No. 15 seed to second-seeded Kentucky in Indianapolis in 2017.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky won the 2023 Horizon League title with a 63-61 win over Cleveland State in Indianapolis, then lost 63-52 to top-seeded Houston as a No. 16 seed in the NCAA Tournament.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky went 30-5 in 1996-97, the season LaRon Moore was named an All-American and the Norse reached a second straight Division II national title game.",
+     "source": "https://nkytribune.com/2019/02/don-owen-the-greatest-player-in-nku-hoops-history-be-careful-everyone-has-an-opinion/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky played in the Division II Great Lakes Valley Conference from 1985 to 2012 and spent three seasons in the Atlantic Sun before joining the Horizon League for 2015-16.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_Norse_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky guard Paul Cluxton made all 94 of his free throws in 1996-97, becoming the first player in NCAA history to lead the nation in free-throw percentage without a miss.",
+     "source": "https://nkytribune.com/2019/02/don-owen-the-greatest-player-in-nku-hoops-history-be-careful-everyone-has-an-opinion/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's 24-9 team of 2006-07 ended Findlay's 59-game home winning streak, the nation's longest at any level at the time.",
+     "source": "https://nkytribune.com/2019/02/don-owen-the-greatest-player-in-nku-hoops-history-be-careful-everyone-has-an-opinion/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's 2024-25 season was the program's ninth in a row with a winning record.",
+     "source": "https://nkunorse.com/sports/mens-basketball/roster/coaches/darrin-horn/2146",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky reached its first NCAA Division II Tournament in 1978, when Dan Doellman led a 20-8 team that climbed to No. 4 in the national rankings.",
+     "source": "https://nkytribune.com/2019/02/don-owen-the-greatest-player-in-nku-hoops-history-be-careful-everyone-has-an-opinion/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky moved in 2008 from Regents Hall, an 1,800-seat gym that had been the program's home since 1973.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_Norse_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Highland Heights, a Campbell County city of 6,662 people at the 2020 census, sits about seven miles southeast of downtown Cincinnati by way of Interstate 471.",
+     "source": "https://en.wikipedia.org/wiki/Highland_Heights,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's campus covers 430 acres along U.S. 27 in Highland Heights, where ground was broken on March 31, 1971.",
+     "source": "https://inside.nku.edu/campusplanning/campus/hhc.html",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky University describes its Highland Heights campus as sitting in the largest metropolitan area of any Kentucky state university.",
+     "source": "https://inside.nku.edu/campusplanning/campus/hhc.html",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky University traces its roots to a University of Kentucky extension center that opened in Covington in 1948, and the school took its current name in 1976.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Highland Heights incorporated in 1927 in a part of Campbell County that has been known as the Highlands since the 19th century.",
+     "source": "https://en.wikipedia.org/wiki/Highland_Heights,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky students chose the nickname Norsemen in a 1971 vote run by the student newspaper, The Northerner, and the school shortened it to Norse in 2000.",
+     "source": "https://thelowmajor.substack.com/p/name-a-day-calendar-june-2-northern",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's mascot is Victor E. Viking, and the Norse wear black, gold and white.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Kentucky_Norse",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's women's basketball program won NCAA Division II national championships in 2000 and 2008 under Nancy Winstel, who went 636-214 in 29 seasons.",
+     "source": "https://linknky.com/sports/college/2024/01/21/nku-basketball-honors-winstel-shields/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Marques Warrick is Northern Kentucky's career scoring leader with 2,246 points.",
+     "source": "https://nkunorse.com/sports/mens-basketball/roster/coaches/darrin-horn/2146",
+     "kind": "alumni",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Drew McDonald, the 2019 Horizon League Player of the Year, finished his Northern Kentucky career with 2,066 points and 1,081 rebounds.",
+     "source": "https://nkunorse.com/news/2020/3/4/mens-basketball-former-nkunorsembbs-mcdonald-holland-named-to-horizon-league-all-decade-team.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Drew McDonald, a Newport Central Catholic graduate, passed Craig Sanders' 2,007 points to become Northern Kentucky's career scoring leader on March 2, 2019, in an 86-82 win at Green Bay.",
+     "source": "https://nkytribune.com/?p=186925",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Derek Fields averaged 23.7 points for Northern Kentucky in 1988-89, when he became the program's first Great Lakes Valley Conference Player of the Year.",
+     "source": "https://nkytribune.com/2019/02/don-owen-the-greatest-player-in-nku-hoops-history-be-careful-everyone-has-an-opinion/",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky and Butler were the only schools with two players on the Horizon League's all-decade team for the 2010s, with Drew McDonald and Lavone Holland II representing the Norse.",
+     "source": "https://nkunorse.com/news/2020/3/4/mens-basketball-former-nkunorsembbs-mcdonald-holland-named-to-horizon-league-all-decade-team.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Darrin Horn, a Lexington native who played at Western Kentucky, was named the sixth head coach in Northern Kentucky history on April 23, 2019.",
+     "source": "https://nkunorse.com/sports/mens-basketball/roster/coaches/darrin-horn/2146",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Kentucky coach Darrin Horn went 134-90 in his first seven seasons with the Norse and is the program's wins leader in the Division I era.",
+     "source": "https://nkunorse.com/sports/mens-basketball/roster/coaches/darrin-horn/2146",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Kentucky coach Darrin Horn, who took Western Kentucky to the 2008 Sweet 16 as a No. 12 seed, picked up his 300th career win on Feb. 7, 2026, against Milwaukee.",
+     "source": "https://nkunorse.com/sports/mens-basketball/roster/coaches/darrin-horn/2146",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Kentucky went 20-14 last season and 10-10 in the Horizon League after being picked sixth in the preseason poll.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Northern Kentucky reached the Horizon League semifinals as a No. 7 seed last March, winning 85-84 at Oakland and beating Green Bay 96-76 in Indianapolis.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Wright State is about 70 miles from Northern Kentucky, and the two schools became Horizon League travel partners when the Norse joined the league in 2015.",
+     "source": "https://www.wsuguardian.com/article/2015/05/wsu-ready-for-new-conference-rival",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky and Wright State were regular Division II opponents before Wright State moved up to Division I in 1987.",
+     "source": "https://www.wsuguardian.com/article/2015/05/wsu-ready-for-new-conference-rival",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Wright State beat Northern Kentucky twice late last season, 92-91 in Highland Heights on Feb. 28 and 103-90 in the Horizon League semifinals on March 9.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Truist Arena opened in 2008 as The Bank of Kentucky Center, and Northern Kentucky's first basketball games in the building came on Nov. 8, 2008, against Louisville.",
+     "source": "https://en.wikipedia.org/wiki/Truist_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky's home floor has carried three names since 2008: The Bank of Kentucky Center, BB&T Arena and, since April 2022, Truist Arena.",
+     "source": "https://en.wikipedia.org/wiki/Truist_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Truist Arena cost $64 million to build and sits at 500 Nunn Drive on the Northern Kentucky campus in Highland Heights.",
+     "source": "https://en.wikipedia.org/wiki/Truist_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The upper level of Northern Kentucky's Truist Arena is divided into the Thunder and Lightning decks, and the NKU Athletics Hall of Fame sits near the main entrance on the north end.",
+     "source": "https://www.stadiumjourney.com/stadiums/truist-arena-northern-kentucky-norsemen",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northern Kentucky beat Cincinnati 64-51 at Truist Arena on Nov. 16, 2022, in front of a crowd of 8,503.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Northern_Kentucky_Norse_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A banner at Truist Arena honors Ken Shields, who went 306-170 in 16 seasons as Northern Kentucky's coach and was recognized at halftime of a January 2024 game against Green Bay.",
+     "source": "https://linknky.com/sports/college/2024/01/21/nku-basketball-honors-winstel-shields/",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Viking hats are a common sight in the stands at Northern Kentucky home games at Truist Arena.",
+     "source": "https://www.stadiumjourney.com/stadiums/truist-arena-northern-kentucky-norsemen",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
+  },
+  "oakland": {
+   "town": "Auburn Hills",
+   "home_floor": "the O'rena",
+   "lines": [
+    {
+     "text": "Oakland began playing men's basketball in the 1967 season, going 6-15 under first coach Dick Robinson.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland's first Division I NCAA tournament win came in the 2005 opening round, when the 16th-seeded Golden Grizzlies beat Alabama A&M 79-69.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 14 seed in the 2024 NCAA tournament, Oakland beat third-seeded Kentucky 80-76 as Jack Gohlke made 10 3-pointers and scored 32 points.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland's 2024 NCAA tournament run ended one game after the Kentucky upset, with a 79-73 overtime loss to NC State in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland's first four trips to the Division I NCAA tournament came in 2005, 2010, 2011 and 2024.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland went to the 2011 NCAA tournament as a 13 seed and lost to fourth-seeded Texas 85-81.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland drew top-seeded North Carolina in the first round of the 2005 NCAA tournament and lost 96-68.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland won Summit League tournament titles in 2005, 2010 and 2011 before moving to the Horizon League for the 2013-14 season.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland's first Horizon League tournament title came in 2024, the same season the Golden Grizzlies won the league's regular-season championship.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland won its first Horizon League regular-season title in 2017, its fourth season in the conference.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before moving to Division I, Oakland reached four straight Division II NCAA tournaments from 1994 through 1997 and played in a regional final in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Oakland won back-to-back GLIAC regular-season titles in 1996 and 1997.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Greg Kampe has been Oakland's head coach since 1984, when he arrived after six years as an assistant at Toledo.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Oakland coach Greg Kampe played basketball and football at Bowling Green from 1974 to 1978 and was a kicker, punter and cornerback on the football team.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Greg Kampe won his 700th game as Oakland's coach on Nov. 4, 2024.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Greg Kampe reached 500 wins at Oakland on Jan. 26, 2013, and 600 on Feb. 16, 2018.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Oakland's Greg Kampe became the longest-tenured men's college basketball coach on March 8, 2023, after Jim Boeheim retired.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Greg Kampe began the 2026-27 season with 731 career wins, all of them at Oakland.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Oakland finished 16-16 last season and went 12-8 in the Horizon League, good for a tie for third place.",
+     "source": "https://en.wikipedia.org/wiki/Greg_Kampe",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Oakland's 2025-26 season ended in the first round of the Horizon League tournament, an 85-84 loss to seventh-seeded Northern Kentucky on March 4, 2026.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oakland_Golden_Grizzlies_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Oakland's schedule last season included trips to No. 7 Michigan and No. 1 Houston and a game against No. 9 Michigan State at Little Caesars Arena in Detroit.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oakland_Golden_Grizzlies_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Oakland's meetings with Detroit Mercy are known as the Metro Series, a rivalry that began in 1985 with a 77-62 Detroit Mercy win.",
+     "source": "https://en.wikipedia.org/wiki/Oakland_Golden_Grizzlies_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Oakland split last season's Metro Series with Detroit Mercy, winning 95-87 at Calihan Hall on Jan. 24, 2026, and losing 95-89 at the O'rena on Feb. 28, 2026.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oakland_Golden_Grizzlies_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The O'rena opened on Nov. 17, 1998, with Oakland losing 96-66 to Michigan State in the building's first men's basketball game.",
+     "source": "https://en.wikipedia.org/wiki/Athletics_Center_O%27rena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Oakland's O'rena is nicknamed the Blacktop for the black court it first used in the 2015-16 season.",
+     "source": "https://en.wikipedia.org/wiki/Athletics_Center_O%27rena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The record crowd at Oakland's O'rena is 4,123, set against Detroit Mercy on Jan. 13, 2017, in a building listed at 4,000 seats.",
+     "source": "https://en.wikipedia.org/wiki/Athletics_Center_O%27rena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Oakland's O'rena has carried naming rights from Oakland University Credit Union since July 1, 2023, under a 10-year agreement.",
+     "source": "https://en.wikipedia.org/wiki/Athletics_Center_O%27rena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Oakland's wins at the O'rena over the years include victories over Michigan, Tennessee, Texas A&M and Georgia.",
+     "source": "https://en.wikipedia.org/wiki/Athletics_Center_O%27rena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "purdue-fort-wayne": {
+   "town": "Fort Wayne",
+   "home_floor": "Gates Sports Center",
+   "lines": [
+    {
+     "text": "The Mastodons played their first men's basketball season in 1973-74 as an NCAA Division III independent, 28 years before the Fort Wayne program moved up to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne spent six seasons as a Division I independent, from 2001-02 through 2006-07, before joining the Summit League in July 2007.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne joined the Horizon League in 2020 after 13 years in the Summit League.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Mastodons reached the NCAA Division II tournament in 1993, eight years before the Fort Wayne program began playing in Division I.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On Nov. 22, 2016, the Mastodons beat No. 3 Indiana 71-68 in overtime before 11,076 at Allen County War Memorial Coliseum in Fort Wayne, the program's first win over an AP Top 25 team.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Fort Wayne Mastodons went 24-10 in 2015-16 and shared the Summit League regular-season title with a 12-4 league record.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Coffman",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne shared the Horizon League regular-season title in 2021-22, going 15-6 in league play and 21-12 overall in only its second season in the conference.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Coffman",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne reached the 2024 CIT championship game and lost 75-67 to Norfolk State.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne, then known as IPFW, reached its first Summit League tournament championship game in 2014 and lost to North Dakota State.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne beat Notre Dame 72-69 on Dec. 21, 2025.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Purdue_Fort_Wayne_Mastodons_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Allen County War Memorial Coliseum, Purdue Fort Wayne's other home floor, opened in 1952 and seats 13,000 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/Allen_County_War_Memorial_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne's Memorial Coliseum, where Purdue Fort Wayne plays part of its home schedule, was the home of the NBA's Pistons from 1952 to 1957 and hosted the 1955 and 1956 NBA Finals.",
+     "source": "https://en.wikipedia.org/wiki/Allen_County_War_Memorial_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 1953 NBA All-Star Game was played at Memorial Coliseum in Fort Wayne, the building the Purdue Fort Wayne Mastodons still use for some home games.",
+     "source": "https://en.wikipedia.org/wiki/Allen_County_War_Memorial_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Wilt Chamberlain became the first NBA player to reach 3,000 points in a season on March 10, 1961, at the War Memorial Coliseum in Fort Wayne.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne is Indiana's second-most populous city, with 263,886 residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne is named for Gen. Anthony Wayne, under whose direction a fort was built in 1794 near the Miami village of Kekionga.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne is known as the Summit City, a nickname that dates to its place as the highest point on the route of the Wabash and Erie Canal.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne's list of inventions includes the gasoline pump in 1885 and the first home video game console in 1972.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Wayne lies about 18 miles west of the Ohio border and about 50 miles south of the Michigan border.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne's nickname traces to 1968, when a large bone found during the installation of a farm pond near Angola, Indiana, was identified as the leg bone of a mastodon.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne's mascot is a mastodon named Don.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne's colors changed from the royal blue and white of the IPFW era to old gold and black.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Mastodons have competed under three names: IPFW, then simply Fort Wayne beginning Aug. 8, 2016, then Purdue Fort Wayne from July 1, 2018.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne's campus covers 688 acres, with the main academic campus bounded by East Coliseum Boulevard to the south and the St. Joseph River to the west.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_University_Fort_Wayne",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "John Konchar of West Chicago, Illinois, scored 2,065 points from 2015 to 2019 and left Purdue Fort Wayne as the program's all-time leading scorer.",
+     "source": "https://en.wikipedia.org/wiki/John_Konchar",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Purdue Fort Wayne's John Konchar was a four-time first-team All-Summit League pick and in 2019 recorded the first triple-double in that league's tournament history.",
+     "source": "https://en.wikipedia.org/wiki/John_Konchar",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "John Konchar went undrafted out of Purdue Fort Wayne in 2019, signed a two-way deal with the Memphis Grizzlies and was traded to the Utah Jazz in February 2026.",
+     "source": "https://en.wikipedia.org/wiki/John_Konchar",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dane Fife coached the Mastodons from 2005 to 2011, winning 82 games in Fort Wayne during the program's move from independent status into the Summit League.",
+     "source": "https://en.wikipedia.org/wiki/Purdue_Fort_Wayne_Mastodons_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Jon Coffman was promoted to head coach in Fort Wayne in 2014 after three seasons as a Mastodons assistant under Tony Jasick, who left for Jacksonville.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Coffman",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Purdue Fort Wayne's Jon Coffman, a point guard at Washington and Lee from 1992 to 1996, has been coach of the year in two leagues: the Summit in 2016 and the Horizon in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Coffman",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jon Coffman entered 2026-27, his 13th season as head coach of the Mastodons, with a 215-170 record in Fort Wayne.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Coffman",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Purdue Fort Wayne went 17-15 last season and 11-9 in the Horizon League, then lost 64-56 to Green Bay as the No. 6 seed in the first round of the league tournament.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Purdue_Fort_Wayne_Mastodons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Purdue Fort Wayne is splitting its 2026-27 home schedule between Gates Sports Center on campus and Memorial Coliseum.",
+     "source": "https://gomastodons.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Purdue Fort Wayne opened its 2026-27 regular-season home schedule on Nov. 7 with a 103-65 win over Albion at Gates Sports Center.",
+     "source": "https://gomastodons.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Purdue Fort Wayne's nonconference schedule still includes trips to Xavier on Dec. 9 and Wisconsin on Dec. 22.",
+     "source": "https://gomastodons.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2026-12-09"
+    },
+    {
+     "text": "Purdue Fort Wayne plays IU Indy on Jan. 16 at Memorial Coliseum and again on Feb. 7 in Indianapolis.",
+     "source": "https://gomastodons.com/sports/mens-basketball/schedule",
+     "kind": "rivalry",
+     "until": "2027-01-16"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Purdue Fort Wayne's Gates Sports Center opened in 1981 as the Multipurpose Building and was renamed in 1991 for former area sportscaster Hilliard Gates.",
+     "source": "https://en.wikipedia.org/wiki/Hilliard_Gates_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Gates Sports Center sits at 2101 E. Coliseum Blvd. in the northeast corner of the Purdue Fort Wayne campus and is also home to the Mastodons' volleyball and women's basketball teams.",
+     "source": "https://en.wikipedia.org/wiki/Hilliard_Gates_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}
