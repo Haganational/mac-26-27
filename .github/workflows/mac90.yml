@@ -2,7 +2,7 @@ name: MAC90 video
 
 # Every morning at 8 a.m. Eastern (13:00 UTC in winter, 12:00 UTC in summer): build the
 # MAC90 script from the latest data, voice it, render vertical cards, and publish the MP4,
-# captions, thumbnail and description as a GitHub release for upload to YouTube Shorts.
+# captions, thumbnail and description as a GitHub release, then upload it to YouTube as a Short.
 on:
   schedule:
     - cron: "0 13 * * *"
@@ -123,3 +123,15 @@ jobs:
           else
             gh release create "$tag" $files --title "MAC90 · ${stem#mac90-}" --notes-file "out/$stem.txt"
           fi
+      # Needs the YT_* secrets from the channel owner; without them this warns and moves on.
+      - name: Upload to YouTube
+        if: github.event_name != 'pull_request' && steps.fresh.outputs.skip != 'yes'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.youtube --out out
