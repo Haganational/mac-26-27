@@ -1216,21 +1216,21 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 58,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2697",
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 55,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:16 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922211",
@@ -8078,5 +8078,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T21:30:47+00:00"
+ "live_at": "2026-11-13T22:00:49+00:00"
 }
