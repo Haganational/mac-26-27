@@ -1134,7 +1134,7 @@
     "key": null,
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": 62,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -1142,13 +1142,13 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 51,
+    "score": 62,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "7:46 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401922250",
@@ -1175,7 +1175,7 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": 33,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1183,13 +1183,13 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 25,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:26 - 1st"
+   "detail": "0:08 - 1st"
   },
   {
    "game_id": "401921167",
@@ -8078,5 +8078,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T01:45:47+00:00"
+ "live_at": "2026-11-13T02:00:40+00:00"
 }

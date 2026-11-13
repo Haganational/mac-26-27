@@ -1685,7 +1685,7 @@
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 74,
+    "score": 81,
     "winner": null
    },
    "away": {
@@ -1693,13 +1693,13 @@
     "key": "canisius",
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 77,
+    "score": 86,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "3:21 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401911013",
@@ -1729,7 +1729,7 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 75,
+    "score": 86,
     "winner": null
    },
    "away": {
@@ -1737,13 +1737,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 66,
+    "score": 73,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:06 - 2nd"
+   "detail": "0:20 - 2nd"
   },
   {
    "game_id": "401924857",
@@ -1773,7 +1773,7 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 57,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -1781,13 +1781,13 @@
     "key": null,
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 63,
+    "score": 72,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:24 - 2nd"
+   "detail": "0:28 - 2nd"
   },
   {
    "game_id": "401924876",
@@ -1817,21 +1817,21 @@
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": 72,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2115",
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": 74,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921191",
@@ -11171,5 +11171,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T01:46:28+00:00"
+ "live_at": "2026-11-13T02:01:17+00:00"
 }
