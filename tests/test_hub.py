@@ -1,4 +1,5 @@
 import json
+from unittest.mock import patch
 
 from mac import hub
 from mac.leagues import ALL
@@ -64,3 +65,24 @@ def test_front_page_leads_with_our_newest_recap(tmp_path):
     assert html.index("Akron rolled past Toledo 90-70") > lead and "Akron won going away." in html
     assert 'src="static/og/game-7.png"' in html, "card images are site-relative"
     assert html.index("Akron rolled past Toledo") < html.index("Ohio beat Kent State"), "newest first"
+
+
+def test_media_page_for_sids(tmp_path):
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [], "tonight": []}))
+    mh = {"editor": "Pat Editor", "email": "press@x.com", "staff": [{"name": "Pat Editor", "title": "Editor and publisher"}],
+          "media": {"in_person": "Home games in Northeast Ohio.", "samples": [{"title": "A good recap", "href": "games/9.html", "kind": "Recap"}]}}
+    with patch.object(hub, "load_masthead", return_value=mh):
+        hub.build(tmp_path, "https://x.com/")
+    html = (tmp_path / "media.html").read_text()
+    assert '<link rel="canonical" href="https://x.com/media.html">' in html
+    assert "Pat Editor" in html and 'mailto:press@x.com' in html and "Home games in Northeast Ohio." in html
+    assert 'href="games/9.html">A good recap' in html, "hand-picked samples win"
+    assert 'notes.html">MAC</a>' in html, "editions with Fieldhouse Notes are linked"
+    assert 'href="media.html"' in (tmp_path / "masthead.html").read_text()
+
+
+def test_media_samples_fall_back_to_newest_stories():
+    sts = [{"title": f"R{i}", "href": f"games/{i}.html", "kind": "recap", "league": "MAC"} for i in range(5)]
+    sts.append({"title": "A at B prediction", "href": "games/p.html", "kind": "preview", "league": "MAC"})
+    got = hub.media_samples({}, sts)
+    assert [s["title"] for s in got] == ["R0", "R1", "R2", "A at B prediction"]
