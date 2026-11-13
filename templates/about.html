@@ -65,7 +65,7 @@
 
   <section>
     <h2>Media and credential requests</h2>
-    <p>Sports information directors and media relations staff can reach the editor {% if mh.email %}at <a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% elif mh.x_handle %}through <a href="https://x.com/{{ mh.x_handle }}" rel="noopener">@{{ mh.x_handle }}</a>{% else %}through the contact listed here once it is posted{% endif %}.{% if 'notes' in feat %} Samples of in-person coverage are on <a href="notes.html">Fieldhouse Notes</a>.{% endif %}</p>
+    <p>Sports information directors and media relations staff can reach the editor {% if mh.email %}at <a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% elif mh.x_handle %}through <a href="https://x.com/{{ mh.x_handle }}" rel="noopener">@{{ mh.x_handle }}</a>{% else %}through the contact listed here once it is posted{% endif %}.{% if 'notes' in feat %} Samples of in-person coverage are on <a href="notes.html">Fieldhouse Notes</a>.{% endif %} Who requests credentials, where we attend and what we publish: <a href="{{ site_up }}media.html">media and credentials</a>.</p>
   </section>
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
