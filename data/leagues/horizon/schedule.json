@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T23:01:29+00:00",
+ "fetched_at": "2026-11-13T01:37:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -1680,7 +1680,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-12-2026--sports-ncaa-basketball/production/7711940?wsUser=717",
-    "low": 47.0
+    "low": 69.0
    },
    "venue": "Memorial Coliseum (IN)",
    "venue_city": "Fort Wayne",
@@ -1690,7 +1690,7 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 44,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1698,13 +1698,13 @@
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 59,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:06 - 2nd"
+   "detail": "9:31 - 2nd"
   },
   {
    "game_id": "401928807",
@@ -10464,6 +10464,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-13T01:30:53+00:00"
+ ]
 }
