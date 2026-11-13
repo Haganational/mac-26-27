@@ -1,27 +1,1151 @@
 {
-  "_help": "Local flavor for the gamer on each box score page. Knobs are described in mac/gamer.py (FLAVOR_HELP). Only write what you know is true; lines may use {winner} {loser} {home} {away} {town} {floor}.",
-  "settings": {
-    "enabled": true,
-    "byline": "Hardwood Bricks staff",
-    "max_lines": 1
+ "_help": "Local flavor for the gamer on each box score page. Knobs are described in mac/gamer.py (FLAVOR_HELP). Only write what you know is true; lines may use {winner} {loser} {home} {away} {town} {floor}.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "akron": {
+   "town": "Akron",
+   "home_floor": "the JAR",
+   "lines": [],
+   "home_lines": [
+    "Another night at the JAR, James A. Rhodes Arena, in the Rubber City."
+   ]
   },
-  "teams": {
-    "akron": {"town": "Akron", "home_floor": "the JAR", "lines": [], "home_lines": ["Another night at the JAR, James A. Rhodes Arena, in the Rubber City."]},
-    "kent-state": {"town": "Kent", "home_floor": "the M.A.C. Center", "lines": []},
-    "toledo": {"town": "Toledo", "home_floor": "Savage Arena", "lines": [], "home_lines": ["Savage Arena, in the Glass City, hosted this one."]},
-    "bowling-green": {"town": "Bowling Green", "home_floor": "the Stroh Center", "lines": []},
-    "ohio": {"town": "Athens", "home_floor": "the Convo", "lines": []},
-    "miami-oh": {"town": "Oxford", "home_floor": "Millett Hall", "lines": []},
-    "ball-state": {"town": "Muncie", "home_floor": "Worthen Arena", "lines": []},
-    "buffalo": {"town": "Buffalo", "home_floor": "Alumni Arena", "lines": []},
-    "central-michigan": {"town": "Mount Pleasant", "home_floor": "McGuirk Arena", "lines": []},
-    "eastern-michigan": {"town": "Ypsilanti", "home_floor": "the George Gervin GameAbove Center", "lines": []},
-    "western-michigan": {"town": "Kalamazoo", "home_floor": "University Arena", "lines": []},
-    "umass": {"town": "Amherst", "home_floor": "the Mullins Center", "lines": []}
+  "kent-state": {
+   "town": "Kent",
+   "home_floor": "the M.A.C. Center",
+   "lines": [
+    {
+     "text": "Kent State's first intercollegiate basketball game was a 56-6 loss to Otterbein on Jan. 22, 1915.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kent State, seeded 13th, beat fourth-seeded Indiana in the first round of the 2001 NCAA Tournament in San Diego.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kent State reached the Elite Eight in 2002 as a No. 10 seed, beating Oklahoma State, Alabama and Pittsburgh before an 81-69 loss to Indiana.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2001-02 Kent State team went 30-6, won 21 straight games, finished 17-1 in the Mid-American Conference and was ranked 12th in the final ESPN/USA Today coaches poll.",
+     "source": "https://kentstatesports.com/news/2010/2/24/2_24_2010_2842",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kent State has won seven Mid-American Conference tournament titles, in 1999, 2001, 2002, 2006, 2008, 2017 and 2023.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-01"
+    },
+    {
+     "text": "Kent State has won six MAC regular-season championships, in 2002, 2006, 2008, 2010, 2011 and 2015.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-02-28"
+    },
+    {
+     "text": "Kent State's 2024-25 team won NIT road games at St. Bonaventure and Stanford before losing at Loyola Chicago in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Kent_State_Golden_Flashes_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kent State's first postseason victory came against Rutgers in the 2000 NIT, a tournament in which the Golden Flashes reached the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kent was known as Franklin Mills until 1864, when the town was renamed in honor of Marvin Kent.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Kent is nicknamed the Tree City because of the Davey Tree Expert Company, which is headquartered there and is the city's largest private employer.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Kent, a city of 28,215 in the 2020 census, is on the Cuyahoga River about 10 miles northeast of Akron and 30 miles southeast of Cleveland.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "An extension of Kent State's University Esplanade, completed in October 2013, links the campus with downtown Kent.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Acorn Alley, a pedestrian alleyway lined with small shops in downtown Kent, opened in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The black squirrels on the Kent State campus were brought there from Canada in 1961 by the university's head groundskeeper.",
+     "source": "https://en.wikipedia.org/wiki/Kent,_Ohio",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Kent State's first nickname, in 1923, was the Silver Foxes, for a silver fox ranch next to campus, before a Name the Team contest later that decade produced Golden Flashes.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Kent State legend holds that the school's original orange and blue basketball uniforms came back from the laundry gold and blue, and the new colors stuck.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Kent State's eagle mascot, Flash, emerged from a fiberglass egg at halftime of the 1985 homecoming game.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "After wins, Kent State teams sing the fight song and then ring the Starner Victory Bell, a gift from two alumni.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Antonio Gates averaged 20.6 points and scored 640 points as a Kent State senior before becoming a three-time first-team All-Pro tight end with the San Diego Chargers.",
+     "source": "https://kentstatesports.com/news/2010/2/24/2_24_2010_2842",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jim Christian went 138-58 as Kent State's coach from 2002 to 2008, a span in which the Golden Flashes won MAC Tournament titles in 2006 and 2008.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Rob Senderoff became the winningest coach in Kent State history on Dec. 28, 2018, when his 149th victory moved him past Jim McDonald.",
+     "source": "https://en.wikipedia.org/wiki/Rob_Senderoff",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Rob Senderoff, a native of Spring Valley, N.Y., was a Kent State assistant from 2002 to 2006 and 2008 to 2011, with two seasons at Indiana in between, before being hired as head coach on April 7, 2011.",
+     "source": "https://en.wikipedia.org/wiki/Rob_Senderoff",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Kent State went 24-10 last season and finished third in the Mid-American Conference at 14-4.",
+     "source": "https://en.wikipedia.org/wiki/Rob_Senderoff",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Kent State is coming off back-to-back NIT appearances, reaching the quarterfinals in 2025 and losing in the first round in 2026.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Kent State and Akron meet twice this season, on Feb. 13 at the M.A.C. Center and on March 5 at Akron in the regular-season finale.",
+     "source": "https://kentstatesports.com/news/2026/8/12/mens-basketball-mid-american-conference-releases-2026-2027-mens-basketball-schedule",
+     "kind": "rivalry",
+     "until": "2027-02-12"
+    },
+    {
+     "text": "Akron entered this season with an 89-83 lead in its all-time series with Kent State, including an 8-4 edge in MAC Tournament meetings.",
+     "source": "https://en.wikipedia.org/wiki/Kent_State_Golden_Flashes_men%27s_basketball",
+     "kind": "rivalry",
+     "until": "2027-02-12"
+    },
+    {
+     "text": "Kent State and Akron play football for the Wagon Wheel, which legend ties to Akron industrialist John R. Buchtel, whose wagon is said to have gotten stuck in 1870 where the Kent State campus now sits.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Kent State and Akron compete in the Wagon Wheel Challenge, a yearlong competition across 16 sports in which the first school to earn 8.5 points wins.",
+     "source": "https://kentstatesports.com/sports/2022/8/3/kent-state-traditions",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Kent State opened its arena on Dec. 2, 1950, with a 51-46 upset of Pittsburgh before about 4,000 fans.",
+     "source": "https://en.wikipedia.org/wiki/Memorial_Athletic_and_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Kent State's M.A.C. Center on Risman Drive seats 6,327 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/Memorial_Athletic_and_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd to watch a game in Kent State's arena was 7,778 for a visit from St. Bonaventure on Jan. 10, 1970.",
+     "source": "https://en.wikipedia.org/wiki/Memorial_Athletic_and_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Kent State's arena opened as the Men's Physical Education Building, was Memorial Gymnasium from 1956 to 1991 and became the Memorial Athletic and Convocation Center in November 1991.",
+     "source": "https://www.kent.edu/today/news/mac-center-celebrates-75-years-campus-memories",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A renovation of Kent State's arena from 1990 to 1992 replaced the building's swimming pool with a three-story entrance lobby.",
+     "source": "https://en.wikipedia.org/wiki/Memorial_Athletic_and_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "LeBron James played in Kent State's arena as a high schooler with Akron's St. Vincent-St. Mary in December 2001.",
+     "source": "https://www.kent.edu/today/news/mac-center-celebrates-75-years-campus-memories",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Eagles played a concert in Kent State's gym on May 3, 1975, with general admission tickets priced at $5.50.",
+     "source": "https://www.kent.edu/today/news/mac-center-celebrates-75-years-campus-memories",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd at Kent State's M.A.C. Center since its 1992 renovation was 6,567 for a game against Akron on March 4, 2007.",
+     "source": "https://en.wikipedia.org/wiki/Memorial_Athletic_and_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
-  "rivalries": {
-    "akron|kent-state": {"name": "Akron-Kent State", "lines": ["The two campuses sit about a dozen miles apart in Northeast Ohio."]},
-    "bowling-green|toledo": {"name": "I-75", "lines": ["Bowling Green and Toledo sit about 25 minutes apart on I-75."]},
-    "miami-oh|ohio": {"name": "Miami-Ohio", "lines": ["Ohio's two oldest public universities, the bricks of Oxford against the bricks of Athens."]}
+  "toledo": {
+   "town": "Toledo",
+   "home_floor": "Savage Arena",
+   "lines": [
+    {
+     "text": "Toledo's program record for wins in a season is 27, set in 2013-14 and matched in 2022-23, the same season the Rockets put together a school-record 17-game winning streak.",
+     "source": "https://utrockets.com/coaches.aspx?rc=336",
+     "kind": "program-history",
+     "until": "2027-01-15"
+    },
+    {
+     "text": "Toledo won four consecutive outright MAC regular-season championships from 2020-21 through 2023-24.",
+     "source": "https://utrockets.com/coaches.aspx?rc=336",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tod Kowalczyk, who came to Toledo in 2010 after eight seasons at Green Bay, went 315-211 in his first 16 seasons with the Rockets and had 451 career wins as a head coach through 2025-26.",
+     "source": "https://utrockets.com/coaches.aspx?rc=336",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Tod Kowalczyk, the MAC Coach of the Year at Toledo in 2020-21 and 2022-23, still holds the single-game scoring record at De Pere High School in Wisconsin with 53 points.",
+     "source": "https://utrockets.com/coaches.aspx?rc=336",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    "Savage Arena, in the Glass City, hosted this one.",
+    {
+     "text": "Toledo opened its home arena in 1976 by beating defending national champion Indiana 59-57, ending the Hoosiers' 33-game winning streak.",
+     "source": "https://utrockets.com/news/2007/10/3/John_F_Savage_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Toledo's home building has carried three names: Centennial Hall when it was built in 1976, Savage Hall from 1988 and Savage Arena since 2008, when a $30 million renovation and expansion debuted.",
+     "source": "https://utrockets.com/news/2007/10/3/John_F_Savage_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Savage Arena seats 7,300 for basketball, and the court inside is named for Bob Nichols, who went 376-212 as Toledo's coach from 1965 to 1987.",
+     "source": "https://utrockets.com/news/2007/10/3/John_F_Savage_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Toledo went 71-10 in its first five seasons in the building now called Savage Arena, and a record 147,203 fans came through in 1980-81.",
+     "source": "https://utrockets.com/news/2007/10/3/John_F_Savage_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Savage Arena has hosted more than Toledo basketball since 1976, with Elvis Presley, Frank Sinatra, Elton John and Pearl Jam among the acts that have performed there.",
+     "source": "https://utrockets.com/news/2007/10/3/John_F_Savage_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "bowling-green": {
+   "town": "Bowling Green",
+   "home_floor": "the Stroh Center",
+   "lines": [
+    {
+     "text": "Bowling Green played its first men's basketball game on Jan. 8, 1916, a 33-15 loss to the school now known as Eastern Michigan, and finished that first season 3-8.",
+     "source": "https://www.bgsu.edu/news/2016/02/a-century-on-the-court.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bowling Green's 1944-45 team went 24-4 and finished second in the NIT.",
+     "source": "https://www.bgsu.edu/news/2016/02/a-century-on-the-court.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Harold Anderson coached Bowling Green for 21 years, compiling a 362-185 record from 1942 to 1963.",
+     "source": "https://www.bgsu.edu/news/2016/02/a-century-on-the-court.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bowling Green teams were known as the Normals, or Teachers, until the school changed its nickname to the Falcons in 1927.",
+     "source": "https://www.bgsu.edu/news/2016/02/a-century-on-the-court.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim Larranaga led the Bowling Green program for 11 years and was named the MAC Coach of the Year in 1997.",
+     "source": "https://www.bgsu.edu/news/2016/02/a-century-on-the-court.html",
+     "kind": "coach",
+     "until": ""
+    }
+   ],
+   "home_lines": []
+  },
+  "ohio": {
+   "town": "Athens",
+   "home_floor": "the Convo",
+   "lines": [
+    {
+     "text": "Ohio played its first basketball game in 1907, a 46-9 win over the Parkersburg YMCA.",
+     "source": "https://en.wikipedia.org/wiki/Ohio_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ohio reached an NCAA regional final in 1964, when Jim Snyder's Bobcats beat Louisville 71-69 in overtime and No. 4 Kentucky 85-69 before losing to No. 2 Michigan 69-57.",
+     "source": "https://en.wikipedia.org/wiki/1963%E2%80%9364_Ohio_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ohio reached the Sweet 16 as a No. 13 seed in 2012, beating Michigan 65-60 and South Florida 62-56 in Nashville before losing to top-seeded North Carolina 73-65 in overtime.",
+     "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Ohio_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ohio won the 2010 MAC tournament as a No. 9 seed, beating Akron 81-75 in overtime in the final, then beat third-seeded Georgetown 97-83 in Providence as a No. 14 seed.",
+     "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ohio_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ohio's most recent NCAA tournament win came on March 20, 2021, when the 13th-seeded Bobcats beat fourth-seeded Virginia 62-58 in Bloomington, Indiana.",
+     "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Ohio_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-03-18"
+    },
+    {
+     "text": "Ohio has played in 14 NCAA tournaments, the first in 1960 and the most recent in 2021.",
+     "source": "https://en.wikipedia.org/wiki/Ohio_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Ohio won the 2021 MAC tournament as a No. 5 seed, beating Kent State, top-seeded Toledo and Buffalo on three straight days in March.",
+     "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Ohio_Bobcats_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ohio was the runner-up at the 1941 NIT, beating Duquesne 55-40 and CCNY 45-43 before losing the final to Long Island, 56-42.",
+     "source": "https://en.wikipedia.org/wiki/Ohio_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Frank Baumholtz, the MVP of the 1941 NIT for Ohio, had his No. 54 retired on Feb. 4, 1995, after a career that included major league baseball with the Reds, Cubs and Phillies.",
+     "source": "https://en.wikipedia.org/wiki/Frank_Baumholtz",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim Snyder coached Ohio from 1949 to 1974, and his teams made seven NCAA tournament appearances and finished with a winning record 21 times in 25 years.",
+     "source": "https://en.wikipedia.org/wiki/Ohio_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Groce coached Ohio from 2008 to 2012, going 85-56 with NCAA tournament wins in 2010 and 2012 before leaving for Illinois.",
+     "source": "https://en.wikipedia.org/wiki/Ohio_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jeff Boals, a four-year letterwinner and two-year captain at Ohio from 1991 to 1995, is in his eighth season coaching his alma mater after three seasons at Stony Brook.",
+     "source": "https://en.wikipedia.org/wiki/Jeff_Boals",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Ohio hired Jeff Boals on March 17, 2019, and two years later his Bobcats won the MAC tournament and an NCAA tournament game.",
+     "source": "https://en.wikipedia.org/wiki/Jeff_Boals",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Ohio went 15-17 overall and 9-9 in the MAC in 2025-26, its first losing record in seven seasons under Jeff Boals.",
+     "source": "https://en.wikipedia.org/wiki/Jeff_Boals",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The first men's basketball game at Ohio's Convocation Center in Athens was an 80-70 win over Indiana on Dec. 3, 1968.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Ohio_University)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Convocation Center at 95 Richland Ave. in Athens seats 13,080 and doubles as a residence hall and part of Ohio's School of Electrical Engineering and Computer Science.",
+     "source": "https://www.ohio.edu/building-directory/convocation-center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd in Convocation Center history is 14,102, for Ohio's game against Bowling Green on Feb. 28, 1970.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Ohio_University)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Led Zeppelin played a concert at Ohio's Convocation Center in Athens on May 17, 1969.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Ohio_University)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Ohio's student section at the Convocation Center, the O Zone, dates to the start of the 2001-02 season.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Ohio_University)",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Three of the five largest crowds in Convocation Center history came for Ohio games against Miami, including 13,011 on Jan. 21, 2012.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(Ohio_University)",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "miami-oh": {
+   "town": "Oxford",
+   "home_floor": "Millett Hall",
+   "lines": [
+    {
+     "text": "Miami's 1,500th all-time win was a 110-108 overtime victory at Ohio that finished off a 31-0 regular season in 2025-26.",
+     "source": "https://miamiredhawks.com/news/2026/8/20/top-moments-of-2025-26-1-mens-basketball-finishes-regular-season-31-0",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami beat Marquette 84-81 in overtime in the first round of the 1978 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami went into the 1995 NCAA tournament as a No. 12 seed and beat fifth-seeded Arizona 71-62.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami reached the 1999 Sweet 16 as a No. 10 seed, beating seventh-seeded Washington 59-58 and second-seeded Utah 66-58.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami has retired six men's basketball numbers: 10 for Charlie Coles, 23 for Wayne Embry, 32 for Wally Szczerbiak, 34 for Ron Harper, 44 for Dick Walls and 86 for Darrell Hedric.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami in 2025-26 became the fifth Division I program this century to finish a regular season unbeaten, and its 32 wins tied the Mid-American Conference record for a single season.",
+     "source": "https://miamiredhawks.com/news/2026/8/20/top-moments-of-2025-26-1-mens-basketball-finishes-regular-season-31-0",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami beat SMU 89-79 in the First Four of the 2026 NCAA tournament as a No. 11 seed.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Miami rose as high as No. 19 in the Associated Press poll during the 2025-26 season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_RedHawks_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Charlie Coles won 263 games as Miami's head coach, and the school retired his No. 10 in 2015.",
+     "source": "https://en.wikipedia.org/wiki/Miami_RedHawks_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Travis Steele's first four Miami teams went 12-20, 15-17, 25-9 and 32-2, and he was named Mid-American Conference Coach of the Year after the 2025-26 season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_RedHawks_men%27s_basketball_team",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Miami finished 32-2 last season, going 18-0 in the Mid-American Conference before an 87-83 loss to UMass in the league quarterfinals and a 78-56 loss to Tennessee in the NCAA first round.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_RedHawks_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Miami drew 10,640 to Millett Hall three times in 2026, for games against Northern Illinois on Jan. 31, Ohio on Feb. 13 and Toledo on March 3.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_RedHawks_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "ball-state": {
+   "town": "Muncie",
+   "home_floor": "Worthen Arena",
+   "lines": [
+    {
+     "text": "Ball State played its first men's basketball season in 1920-21, going 1-4 across a five-game schedule.",
+     "source": "https://www.ballstatedaily.com/article/2018/07/news-mens-basketball-centennial",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State has made seven NCAA Division I Tournament appearances, in 1981, 1986, 1989, 1990, 1993, 1995 and 2000.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State's only Sweet 16 trip came in 1990, when the 12th-seeded Cardinals beat Oregon State 54-53 and Louisville 62-60.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State's 1990 NCAA Tournament run ended with a 69-67 loss to top-seeded UNLV in the West Regional semifinals, the closest game the eventual national champion played in that tournament.",
+     "source": "https://ballstatesports.com/news/2020/2/22/reliving-ball-states-special-teams",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State's 1988-89 team went a school-record 29-3 and beat Pittsburgh 68-64 in the first round of the NCAA Tournament.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State beat No. 4 Kansas 93-91 at the Maui Invitational on Nov. 19, 2001, on a Patrick Jackson layup with eight-tenths of a second left.",
+     "source": "https://www2.kusports.com/news/2001/nov/20/trouble_in_paradise/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "A day after beating Kansas at the 2001 Maui Invitational, Ball State beat No. 3 UCLA 91-73 to earn a title-game date with top-ranked Duke.",
+     "source": "https://archives.starbulletin.com/2001/11/21/sports/story1.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State has retired two men's basketball numbers: Ray McCallum's No. 10 and Bonzi Wells' No. 42.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ball State has won the MAC Tournament seven times, in 1981, 1986, 1989, 1990, 1993, 1995 and 2000.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ed Butler, who played from 1961 to 1964, leads Ball State with 1,231 career rebounds and had nine games of 24 or more, a single-game total no other Cardinal has reached.",
+     "source": "https://www.ballstatedaily.com/article/2018/07/news-mens-basketball-centennial",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Muncie, the seat of Delaware County, sits on the West Fork of the White River about 50 miles northeast of Indianapolis.",
+     "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Muncie's natural gas boom began in 1886, and the Ball brothers began glass production there on March 1, 1888.",
+     "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Muncie is nicknamed Middletown, after the 1929 book Robert and Helen Lynd wrote from their study of the city.",
+     "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The public television series The Joy of Painting was filmed at WIPB in Muncie.",
+     "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Garfield creator Jim Davis graduated from Ball State in 1967.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ball State's teams became the Cardinals after a student vote in which the name drew 234 of 500 ballots to 77 for Hoosieroons.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Ball State wears cardinal and white, and its fight song is titled Fight, Team, Fight.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_Cardinals",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Ball State's campus landmark is Beneficence, a bronze statue by Daniel Chester French that was dedicated in 1937 and is nicknamed Benny.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Shafer Tower, a 150-foot bell tower with a 48-bell carillon, has stood in the median of McKinley Avenue on the Ball State campus since 2001.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Ball brothers bought the Indiana Normal Institute in Muncie out of foreclosure for $35,100 on July 25, 1917, and the first 235 students of what became Ball State enrolled on June 17, 1918.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bonzi Wells, a Muncie Central graduate, left Ball State as the MAC career scoring leader with 2,485 points and went 11th overall in the 1998 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Bonzi_Wells",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ray McCallum scored 2,109 points for Ball State from 1979 to 1983, then went 126-76 as the Cardinals' head coach from 1993 to 2000.",
+     "source": "https://www.ballstatedaily.com/article/2018/07/news-mens-basketball-centennial",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "David Letterman earned his Ball State degree in 1969, and the university's David Letterman Communication and Media Building opened in 2007.",
+     "source": "https://en.wikipedia.org/wiki/Ball_State_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Chris Capko, a Lakeland, Florida, native who played at Florida and South Florida, was introduced on March 24, 2026, as Ball State's 21st men's basketball head coach.",
+     "source": "https://ballstatesports.com/news/2026/3/24/capko-introduced-as-21st-ball-state-mens-basketball-head-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Ball State plays a 22-game MAC schedule in 2026-27, with two games against each of the other 11 league teams.",
+     "source": "https://ballstatesports.com/news/2026/8/12/mens-basketball-announces-2026-27-schedule-featuring-challenging-non-conference-matchups-and-22-game-mac-slate",
+     "kind": "current",
+     "until": "2027-03-05"
+    },
+    {
+     "text": "Ball State opens MAC play Dec. 2 at Akron, its earliest conference game on the calendar since Nov. 22, 1998.",
+     "source": "https://ballstatesports.com/news/2026/8/12/mens-basketball-announces-2026-27-schedule-featuring-challenging-non-conference-matchups-and-22-game-mac-slate",
+     "kind": "current",
+     "until": "2026-12-01"
+    },
+    {
+     "text": "Ball State won its most recent MAC Tournament title in 2000, beating Miami of Ohio 61-58 in the championship game.",
+     "source": "https://ballstatesports.com/news/2020/2/22/reliving-ball-states-special-teams",
+     "kind": "program-history",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Worthen Arena seats 11,500 and hosted its first game on Jan. 15, 1992, a Ball State men's and women's doubleheader against Miami University.",
+     "source": "https://www.ballstatedaily.com/article/2018/08/news-worthen-arena-centennial",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Worthen Arena was first called University Arena and was later renamed for John E. Worthen, Ball State's 11th president.",
+     "source": "https://www.ballstatedaily.com/article/2018/08/news-worthen-arena-centennial",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Worthen Arena, Ball State played in Irving Gymnasium, a 6,600-seat building that opened in 1962.",
+     "source": "https://www.ballstatedaily.com/article/2018/08/news-worthen-arena-centennial",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "buffalo": {
+   "town": "Buffalo",
+   "home_floor": "Alumni Arena",
+   "lines": [
+    {
+     "text": "Buffalo has played men's basketball since 1915 and has been a member of the Mid-American Conference since the 1998-99 season.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Buffalo has made four NCAA Division I tournament appearances, in 2015, 2016, 2018 and 2019, and owns a 2-4 record in those games.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-13"
+    },
+    {
+     "text": "Buffalo's first NCAA Division I tournament win came in 2018, when the 13th-seeded Bulls beat fourth-seeded Arizona 89-68.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Buffalo's 2018-19 team went 32-4, a school record for wins, climbed as high as No. 14 in the AP poll and earned a No. 6 seed in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Buffalo_Bulls_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Buffalo won at No. 13 West Virginia in overtime, 99-94, and at Syracuse, 71-59, during its 32-win season in 2018-19.",
+     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Buffalo_Bulls_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Buffalo has won four MAC tournament titles, all in a five-year span: 2015, 2016, 2018 and 2019.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-13"
+    },
+    {
+     "text": "Before its Division I days, Buffalo reached the Elite Eight of the 1957 NCAA Division II tournament, one of six trips the Bulls made to that event between 1957 and 1965.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Buffalo has retired four men's basketball numbers: Jim Horne's 13, Harold Kuhn's 19, Sam Pellom's 50 and Curtis Blackmore's 52.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sam Pellom, whose No. 50 is retired at Buffalo, went on to play in the NBA for the Atlanta Hawks and Milwaukee Bucks from 1979 to 1983.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Buffalo players Jeenathan Williams and Curtis Jones have reached the NBA, Williams debuting with Portland in 2023 and Jones with Denver in 2025.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Nate Oats went 96-43 in four seasons as Buffalo's coach from 2015 to 2019.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bobby Hurley coached Buffalo for two seasons, went 42-20 and took the Bulls to their first NCAA Division I tournament in 2015.",
+     "source": "https://en.wikipedia.org/wiki/Buffalo_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Buffalo's home floor opened on Dec. 3, 1982, as Alumni Arena and carried that name until March 2026, when it became Broadview Arena.",
+     "source": "https://en.wikipedia.org/wiki/Broadview_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Buffalo's Broadview Arena, at 175 Webster Road in Amherst, seats 6,783 for basketball, and only Syracuse has a larger on-campus college basketball facility in New York.",
+     "source": "https://en.wikipedia.org/wiki/Broadview_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Buffalo's home arena, which opened in 1982, had the largest free-floating hardwood floor in the United States at the time it was built.",
+     "source": "https://en.wikipedia.org/wiki/Broadview_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "central-michigan": {
+   "town": "Mount Pleasant",
+   "home_floor": "McGuirk Arena",
+   "lines": [
+    {
+     "text": "Central Michigan beat Georgetown 77-75 in the NCAA Tournament on March 15, 1975, when Leonard Drake made two free throws after time had expired.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan has played in four NCAA Division I tournaments, in 1975, 1977, 1987 and 2003, and has won three games in them.",
+     "source": "https://en.wikipedia.org/wiki/Central_Michigan_Chippewas_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "The 2002-03 Chippewas went 25-7, setting a Central Michigan record for wins, and beat Creighton 79-73 in the NCAA Tournament before losing to Duke 86-60 in the second round.",
+     "source": "https://cmuchippewas.com/news/2003/4/15/Chippewas_Complete_One_Of_Their_Best_Seasons_Ever",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan won its first Mid-American Conference title in 1975 behind MAC Player of the Year Dan Roundfield, finishing 22-6 under coach Dick Parfitt.",
+     "source": "https://cmuchippewas.com/honors/hall-of-fame/--mens-basketball/69",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan has won the MAC Tournament twice, in 1987 in Toledo and in 2003 in Cleveland.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": "2027-03-12"
+    },
+    {
+     "text": "Central Michigan needed five overtimes to win 109-107 at Toledo on March 4, 1978.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tommie Johnson scored 53 points for Central Michigan in a 97-68 win at Wright State on Dec. 22, 1987.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's first win over a college opponent came on Jan. 19, 1906, a 20-10 decision over Alma at Normal Hall.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan dedicated Finch Fieldhouse with a 60-43 win over Michigan on Dec. 1, 1951.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mount Pleasant, the seat of Isabella County, sits about 61 miles north of Lansing along US 127.",
+     "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Oil was found near Mount Pleasant in 1928, and the city known as the Oil Capital of Michigan has an oil drill on its seal and the Oiler as its high school mascot.",
+     "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan University tells prospective students that Mount Pleasant offers 80 miles of the Chippewa River to fish, canoe, kayak and tube.",
+     "source": "https://www.cmich.edu/undergraduate/visit/explore-mount-pleasant",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mount Pleasant counted 21,688 residents in the 2020 census with a median age of 24.1, and part of the city lies within the Isabella Indian Reservation.",
+     "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Ziibiwing Center in Mount Pleasant, just south of Soaring Eagle Casino and Resort, presents exhibits on Anishinaabe culture.",
+     "source": "https://www.cmich.edu/undergraduate/visit/explore-mount-pleasant",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan teams were the Dragons and then the Bearcats before assistant football coach Lawrence Sweeney proposed the Chippewas nickname in 1941.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/central-michigan-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's fight song, The Fighting Chippewa, was written in 1935 by Howdy Loomis.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/central-michigan-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's student section is the Snake Pit, a name that legend traces to a rival coach's description of playing in the Chippewas' arena.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/central-michigan-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's Toilet Paper Toss began during the 1982-83 basketball season and was brought back for the first time in 20 years on Jan. 28, 2023.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/central-michigan-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan honors its bond with the Saginaw Chippewa Indian Tribe through Tradition Days, which include tribal drum ceremonies at select football and basketball games.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/central-michigan-traditions",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Dan Majerle, a product of Traverse City High, is Central Michigan's second all-time scorer with 2,055 points and was drafted 14th overall by the Phoenix Suns in 1988.",
+     "source": "https://cmuchippewas.com/honors/hall-of-fame/dan-majerle/121",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's Dan Majerle led the bronze-medal 1988 U.S. Olympic team in scoring at 14.1 points per game.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Chris Kaman, a 7-footer from Wyoming, Mich., led the nation with 25 double-doubles for Central Michigan in 2002-03.",
+     "source": "https://cmuchippewas.com/news/2003/6/6/Chris_Kaman_Updated_Bio",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "The Los Angeles Clippers drafted Central Michigan's Chris Kaman sixth overall on June 26, 2003, making him the highest professional draft pick in school history.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dan Roundfield, James McElroy and Ben Poquette, teammates on Central Michigan's 1974-75 team, went on to play a combined 30 years in the NBA and ABA.",
+     "source": "https://cmuchippewas.com/honors/hall-of-fame/--mens-basketball/69",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Andy Bronkema, a native of McBain, Mich., went 278-105 as head coach at Ferris State and won the 2017-18 NCAA Division II national title with a 38-1 team before taking over at Central Michigan.",
+     "source": "https://cmuchippewas.com/staff-directory/andy-bronkema/705",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Andy Bronkema, the 22nd men's basketball coach in Central Michigan history, is in his second season with the Chippewas.",
+     "source": "https://cmuchippewas.com/staff-directory/andy-bronkema/705",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Central Michigan went 10-21 overall and 6-12 in the MAC in 2025-26, Andy Bronkema's first season, finishing 10th in the conference.",
+     "source": "https://cmuchippewas.com/staff-directory/andy-bronkema/705",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Central Michigan's 2026-27 signing class drew from six states and includes 7-foot-2 senior Conrad Luczynski of Bartlett, Ill.",
+     "source": "https://cmuchippewas.com/news/2026/6/4/mens-basketball-announces-the-signing-of-seven-players",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Central Michigan plays a 22-game MAC schedule in 2026-27, a double round robin that sends each of its 11 league opponents to Mount Pleasant once.",
+     "source": "https://cmuchippewas.com/news/2026/8/12/cmu-announces-2026-27-mens-basketball-schedule",
+     "kind": "current",
+     "until": "2027-03-05"
+    },
+    {
+     "text": "The MAC Tournament is set for March 11-13 at Rocket Arena in Cleveland, the city where Central Michigan won its last tournament title in 2003.",
+     "source": "https://cmuchippewas.com/news/2026/8/12/cmu-announces-2026-27-mens-basketball-schedule",
+     "kind": "current",
+     "until": "2027-03-10"
+    },
+    {
+     "text": "Central Michigan's campus in Mount Pleasant and rival Western Michigan's in Kalamazoo are 135 miles apart.",
+     "source": "https://cmuchippewas.com/sports/2026/5/1/western-michigan-rivalry-battle-for-the-victory-cannon-trophy",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan and Western Michigan played their 150th men's basketball game on Jan. 28, 2023, in Mount Pleasant.",
+     "source": "https://wmubroncos.com/news/2023/1/27/mens-basketball-wmu-cmu-renew-rivalry-on-saturday-night-in-mount-pleasant.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's first Mid-American Conference victory was a 70-69 win over Western Michigan on Dec. 30, 1972, with Ben Kelso scoring 29 points.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Michigan MAC Trophy, created in 2005 by the Michigan Sports Hall of Fame, rewards the best head-to-head record among Central Michigan, Eastern Michigan and Western Michigan in each sport.",
+     "source": "https://en.wikipedia.org/wiki/Michigan_MAC_Trophy",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan and Eastern Michigan met for the 210th time on Jan. 27, 2026, in Mount Pleasant, a series the Eastern Echo called the most frequent matchup in Eastern Michigan history.",
+     "source": "https://www.easternecho.com/article/2026/01/eagles-grounded-in-mount-pleasant-cmu-dominates-210th-rivalry-meeting",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "McGuirk Arena, Central Michigan's home floor in Mount Pleasant, has seated 5,300 since the building was reconfigured in 2010.",
+     "source": "https://en.wikipedia.org/wiki/McGuirk_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at McGuirk Arena is Kulhavi Court, named for former Central Michigan trustee John Kulhavi, who pledged $1 million toward the Events Center.",
+     "source": "https://cmuchippewas.com/news/2010/10/27/CMU_Announces_Events_Center_Naming_Gifts",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "McGuirk Arena drew a record 5,425 on Jan. 28, 2023, when Central Michigan beat Western Michigan 70-69.",
+     "source": "https://en.wikipedia.org/wiki/McGuirk_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Central Michigan's arena opened as Rose Arena on Dec. 1, 1973, a $5.6 million building where James McElroy made the first basket in a 78-70 loss to Michigan State.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A Rose Arena-record 6,455 watched Central Michigan beat Western Michigan 85-71 on Feb. 18, 1987, in a season in which the Chippewas went 13-0 at home.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A bust of broadcaster Dick Enberg, a 1957 Central Michigan graduate, stands in the Events Center atrium in Mount Pleasant, showing the thumbs-up he gave graduates at his 1980 commencement speech.",
+     "source": "https://cmuchippewas.com/news/2011/4/11/Enberg_Immortalized_Inside_Events_Center_Atrium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The practice gym in Central Michigan's Events Center is named for Dick Parfitt, the former Chippewas player and coach who won three Mid-American Conference championships.",
+     "source": "https://cmuchippewas.com/news/2010/10/27/CMU_Announces_Events_Center_Naming_Gifts",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "David Webber scored 51 points for Central Michigan against Ball State on Feb. 24, 2000, breaking a Rose Arena scoring record that had belonged to Larry Bird.",
+     "source": "https://cmuchippewas.com/news/2003/11/11/100th_Season_of_Hoops_Timeline",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "eastern-michigan": {
+   "town": "Ypsilanti",
+   "home_floor": "the George Gervin GameAbove Center",
+   "lines": [
+    {
+     "text": "Billy Donlon is in his first season as Eastern Michigan's 31st head coach after four years as associate head coach at Clemson, which reached the Elite Eight in 2024.",
+     "source": "https://emueagles.com/staff-directory/billy-donlon/987",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Eastern Michigan coach Billy Donlon brought a 155-133 record from nine seasons as a head coach, going 109-94 at Wright State and 46-39 at UMKC.",
+     "source": "https://emueagles.com/staff-directory/billy-donlon/987",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": []
+  },
+  "western-michigan": {
+   "town": "Kalamazoo",
+   "home_floor": "University Arena",
+   "lines": []
+  },
+  "umass": {
+   "town": "Amherst",
+   "home_floor": "the Mullins Center",
+   "lines": []
   }
+ },
+ "rivalries": {
+  "akron|kent-state": {
+   "name": "Akron-Kent State",
+   "lines": [
+    "The two campuses sit about a dozen miles apart in Northeast Ohio."
+   ]
+  },
+  "bowling-green|toledo": {
+   "name": "I-75",
+   "lines": [
+    "Bowling Green and Toledo sit about 25 minutes apart on I-75."
+   ]
+  },
+  "miami-oh|ohio": {
+   "name": "Miami-Ohio",
+   "lines": [
+    "Ohio's two oldest public universities, the bricks of Oxford against the bricks of Athens."
+   ]
+  }
+ }
 }
