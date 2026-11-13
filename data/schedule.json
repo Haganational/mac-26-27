@@ -1388,10 +1388,10 @@
     "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:39 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928818",
@@ -1421,7 +1421,7 @@
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 27,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -1429,13 +1429,13 @@
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 33,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:34 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926133",
@@ -9543,5 +9543,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T00:45:35+00:00"
+ "live_at": "2026-11-13T01:00:25+00:00"
 }
