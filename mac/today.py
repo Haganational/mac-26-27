@@ -47,8 +47,10 @@ def school(name: str | None, key: str | None = None) -> str:
 
 
 def nickname(key: str) -> str:
+    """The mascot alone. Our short name is not always how the full name starts (UMass, Massachusetts Minutemen)."""
     t = BY_KEY[key]
-    return t.name[len(t.short):].strip() or t.name
+    lead = t.short if t.name.startswith(t.short + " ") else school(t.name)
+    return t.name[len(lead):].strip() or t.name
 
 
 def _num(x: float) -> str:
