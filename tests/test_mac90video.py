@@ -22,3 +22,18 @@ def test_count_up_scales_scores_without_touching_the_original():
     half = _counted(seg, 0.5)
     assert half["card"]["away"]["score"] == 36 and half["card"]["home"]["score"] == 44
     assert seg["card"]["home"]["score"] == 87
+
+
+def test_stale_or_empty_script_is_skipped_with_an_alert(monkeypatch):
+    from datetime import datetime, timezone
+
+    from mac import mac90video
+    sent = []
+    monkeypatch.setattr(mac90video.alert, "send", lambda subject, body: sent.append((subject, body)) or True)
+    now = datetime(2026, 11, 12, 13, 0, tzinfo=timezone.utc)
+    t = {"date_label": "Thursday, November 12", "results": [{}], "previews": []}
+    assert mac90video.check(t, "2026-11-12T12:31:00+00:00", now) is None and sent == []
+    assert "11 hours ago" in mac90video.check(t, "2026-11-12T02:00:00Z", now)
+    assert sent[0][0] == "MAC90 skipped for Thursday, November 12"
+    assert "no results" in mac90video.check({**t, "results": []}, "2026-11-12T12:31:00+00:00", now)
+    assert mac90video.check(t, "", now) is None  # no commit time to go on: trust the script

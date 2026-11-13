@@ -1,4 +1,5 @@
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap");
   :root { color-scheme: light; --page:#f6f1e8; --surface:#fffcf6; --ink:#1d1611; --ink-2:#4f453d; --muted:#857a70; --rule:rgba(29,22,17,.14); --rule-2:rgba(29,22,17,.55); --accent:#a8441c; --live:#c62828; --hick:#2a1a10; --gold:#e3c27a;
     --serif: Georgia, "Times New Roman", serif; --plaque: "Cormorant Garamond", Georgia, "Times New Roman", serif;
     --bricks: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='144' height='48'%3E%3Crect width='144' height='48' fill='%23cdb99a'/%3E%3Crect x='1' y='1' width='22' height='10' rx='1' fill='%2398402a'/%3E%3Crect x='25' y='1' width='22' height='10' rx='1' fill='%23a8452c'/%3E%3Crect x='49' y='1' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='73' y='1' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='97' y='1' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='121' y='1' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='-11' y='13' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='13' y='13' width='22' height='10' rx='1' fill='%2398402a'/%3E%3Crect x='37' y='13' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='61' y='13' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='85' y='13' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='109' y='13' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='133' y='13' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='1' y='25' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='25' y='25' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='49' y='25' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='73' y='25' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='97' y='25' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='121' y='25' width='22' height='10' rx='1' fill='%237f2d1d'/%3E%3Crect x='-11' y='37' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='13' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='37' y='37' width='22' height='10' rx='1' fill='%238c3322'/%3E%3Crect x='61' y='37' width='22' height='10' rx='1' fill='%2393371f'/%3E%3Crect x='85' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3Crect x='109' y='37' width='22' height='10' rx='1' fill='%2387301f'/%3E%3Crect x='133' y='37' width='22' height='10' rx='1' fill='%239e3b26'/%3E%3C/svg%3E"); }
@@ -123,4 +124,41 @@
   .mast li { margin: 6px 0; }
   .mast p { color: var(--ink-2); }
   .mast a { text-decoration: underline; }
+
+  /* House style: "Athens Block" (see the block of the same name in static/site.css). */
+  :root { --serif: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif; --sans: "Barlow", "Helvetica Neue", Arial, sans-serif; --cond: "Barlow Condensed", "Arial Narrow", Arial, sans-serif; --page: #f4efe4; --surface: #f4efe4; --ink: #1a1410; --rule-2: #1a1410; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --page: #15110d; --surface: #15110d; --ink: #efe6d6; --rule-2: #efe6d6; } }
+  :root[data-theme="dark"] { --page: #15110d; --surface: #15110d; --ink: #efe6d6; --rule-2: #efe6d6; }
+  body { font: 16px/1.5 var(--sans); -webkit-font-smoothing: antialiased; }
+  .wrap, .bar-in, main, footer { max-width: 1200px; padding-left: 24px; padding-right: 24px; }
+  @media (max-width: 700px) { .wrap, .bar-in, main, footer { padding-left: 16px; padding-right: 16px; } }
+  .bar-in { padding-top: 0; padding-bottom: 0; min-height: 60px; }
+  .brand { background: none; box-shadow: none; text-shadow: none; padding: 0; color: #f6ecd8; font: 700 21px/1 var(--serif); letter-spacing: .01em; text-transform: none; }
+  .brand::first-letter { color: var(--gold); }
+  .bar nav a, .bar .soc a { font: 600 15px/1 var(--cond); letter-spacing: .09em; text-transform: uppercase; border-radius: 0; color: #d9cbb2; }
+  .bar .soc a { font-size: 13px; }
+  .bar nav a:hover { background: none; color: #fff; }
+  @media (max-width: 700px) { .bar-in { padding-top: 12px; padding-bottom: 8px; } }
+  .bricks { height: 6px; box-shadow: none; }
+  .dateline { border-bottom: 3px solid var(--rule-2); font: 600 13px/1.3 var(--cond); letter-spacing: .12em; text-transform: uppercase; padding: 16px 0 10px; }
+  .dateline .tag { font: italic 500 19px/1.2 var(--serif); letter-spacing: 0; text-transform: none; }
+  .kick { font: 600 12.5px/1.2 var(--cond); letter-spacing: .12em; }
+  .sh { border-bottom: 0; border-top: 3px solid var(--rule-2); padding: 10px 0 0; }
+  .sh h2 { font: 600 24px/1.1 var(--serif); letter-spacing: -.01em; text-transform: none; }
+  .sh a { font: 600 13px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .lead h2 { font: 600 clamp(32px, 4.6vw, 54px)/1.02 var(--serif); letter-spacing: -.025em; }
+  .lead p { font: 400 19px/1.55 var(--serif); }
+  .cards h3 { font: 600 22px/1.16 var(--serif); letter-spacing: -.01em; }
+  ul.tn .hd { font: 600 17px/1.25 var(--serif); }
+  ul.tn .tm { font: 600 15px/1.2 var(--cond); letter-spacing: .04em; } ul.tn .tm small { font: 500 12px/1.3 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  ul.wire .hd { font: 600 18px/1.25 var(--serif); }
+  .lead img, .cards img, .fh, .fh .who img, .fh article img, .lead.noimg, .mast section { border-radius: 0; }
+  .fh .who b { font: 600 26px/1.05 var(--serif); } .fh article h3 { font: 600 22px/1.15 var(--serif); } .fh article p { font: 400 16px/1.5 var(--serif); }
+  .conf h2 { font: 600 26px/1.1 var(--serif); letter-spacing: -.01em; }
+  .conf .go, .follow a { font: 600 13px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .conf .rg { font-size: 14px; }
+  .follow { border-top: 3px solid var(--rule-2); } .follow b { font: 600 22px/1.2 var(--serif); }
+  .mast section { background: none; border: 0; border-top: 3px solid var(--rule-2); padding: 14px 0 0; margin: 34px 0; }
+  .mast h1 { font: 600 clamp(34px, 5vw, 52px)/1.04 var(--serif); letter-spacing: -.02em; } .mast h2 { font: 600 26px/1.15 var(--serif); }
+  .mast th, .mast .role { font: 600 12.5px/1.3 var(--cond); letter-spacing: .1em; }
 </style>

@@ -1,0 +1,2116 @@
+{
+ "_help": "Mountain West local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "air-force": {
+   "town": "Colorado Springs",
+   "home_floor": "Clune Arena",
+   "lines": [
+    {
+     "text": "Air Force made its first NCAA tournament appearance in 1960, falling to DePaul 69-63.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force's second NCAA tournament trip, in 1962, ended with a two-point loss to Texas Tech, 68-66.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force won the Mountain West regular-season title in 2004 and went to the NCAA tournament as a No. 11 seed, where it lost to North Carolina 63-52.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force's most recent NCAA tournament appearance came in 2006, when the 13th-seeded Falcons lost to No. 4 seed Illinois 78-69.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force has played in four NCAA tournaments, in 1960, 1962, 2004 and 2006.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force reached the NIT semifinals in 2007, beating Austin Peay, Georgia and DePaul before a 68-67 loss to Clemson.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force has two CollegeInsider.com Tournament wins, over North Dakota in 2011 and Hawaiʻi in 2013.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force alumnus Jared Dillinger played professionally in the Philippine Basketball Association from 2008 to 2023.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball alumnus Rodney Tention went on to be head coach at Loyola Marymount from 2005 to 2008.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball alumni Bob Djokovich and Thomas Schneeberger, both Olympians, founded the academy's team handball program.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force announced Joe Crispin as its head coach on March 18, 2026, after he spent three seasons as an assistant at Penn State.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin was a first-team All-Big Ten guard at Penn State in 2001 and played in the NBA for the Los Angeles Lakers and Phoenix Suns in 2001-02.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before coming to Air Force, Joe Crispin went 90-54 as head coach at Division III Rowan from 2016 to 2023 and took Rowan to the Sweet 16 in his final season.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin is a native of Woodbury, New Jersey, who led Pitman High School to a New Jersey Group I state championship in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin played on the 2001 Penn State team that upset North Carolina in the NCAA tournament, three years before the Tar Heels beat Air Force there.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin played professionally from 2001 to 2012, with stops in Greece, Poland, Italy, Spain, Turkey and Ukraine, and was the ABA's MVP in 2004.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force went 3-29 overall and 0-20 in the Mountain West in 2025-26, the season before Joe Crispin took over the program.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force's six-man freshman class includes four players who came up through the academy's own prep school.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force's senior class includes 7-foot Wesley Celichowski and 6-foot-9 Caleb Walker and Josh Gatete.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force opens Mountain West play on Jan. 5, 2027.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-01-05"
+    },
+    {
+     "text": "Air Force's first Mountain West tournament game is scheduled for March 10, 2027, at the Thomas & Mack Center in Paradise, Nevada.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Clune Arena sits inside the Cadet Field House, which was built on the Air Force Academy grounds in 1968.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Air Force's home floor, Clune Arena, is named for Col. John J. Clune, a longtime director of athletics at the academy.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Clune Arena sits about 7,080 feet above sea level on the Air Force Academy campus near Colorado Springs.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball shares the Cadet Field House with the 2,217-seat Cadet Ice Arena, home of the academy's hockey team.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Cadet Field House that holds Air Force's Clune Arena also has a six-lane, 293-yard indoor track and a 97-yard turf field under the same roof.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Cadet Field House, home of Air Force basketball, is where the academy keeps the Commander-in-Chief's Trophy in the years the Falcons hold it.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "hawaii": {
+   "town": "Honolulu",
+   "home_floor": "the Stan Sheriff Center",
+   "lines": [
+    {
+     "text": "Hawaii played its first men's basketball game on Feb. 13, 1913, beating McKinley High School 14-13 at the Honolulu YMCA.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/hawaiiathletics.com/documents/2009/3/5/UH%20Basketball%20History.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii reached its first NCAA tournament in 1972 behind the Fabulous Five of Bob Nash, John Penebacker, Al Davis, Dwight Holiday and Jerome Freeman, and finished that season ranked No. 12 nationally.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/hawaiiathletics.com/documents/2009/3/5/UH%20Basketball%20History.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's 1971-72 Fabulous Five sold out all 19 home games at the Honolulu International Center, the building now known as the Neal Blaisdell Arena.",
+     "source": "https://hawaiiathletics.com/news/2022/2/24/mens-basketball-simply-fabulous.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii won its first NCAA tournament game on March 18, 2016, when the No. 13 seed Rainbow Warriors beat No. 4 seed California 77-66 in Spokane, Wash.",
+     "source": "https://hawaiiathletics.com/news/2016/3/18/mens-basketball-bows-earn-program-first-ncaa-advance-with-77-66-victory-over-cal.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's 2015-16 team set a program record with 28 victories in Eran Ganot's first season as head coach.",
+     "source": "https://hawaiiathletics.com/news/2016/3/18/mens-basketball-bows-earn-program-first-ncaa-advance-with-77-66-victory-over-cal.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii made its sixth NCAA tournament appearance in 2026, following trips in 1972, 1994, 2001, 2002 and 2016.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii beat second-ranked Kansas 76-65 in the Rainbow Classic championship game during the 1997-98 season, a result the school's basketball history calls its biggest upset.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/hawaiiathletics.com/documents/2009/3/5/UH%20Basketball%20History.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii opened the 2005-06 season by beating fourth-ranked Michigan State 84-62 at the Stan Sheriff Center.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/hawaiiathletics.com/documents/2009/3/5/UH%20Basketball%20History.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's 1971, 1974, 1990, 1998 and 2004 teams reached the quarterfinals of the NIT.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii retired Anthony Carter's No. 23 on Feb. 21, 2026, the program's second retired men's basketball number after Bob Nash's No. 33 in 2020.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii won the 2026 Big West tournament in its final season in that league, beating top-seeded UC Irvine 71-64 in the championship game.",
+     "source": "https://hawaiiathletics.com/news/2026/4/20/mens-basketball-2025-2026-mens-basketball-season-review.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's 2025-26 team set a single-season school record with 2,626 points and won by 43 at UC Riverside, the largest road victory in program history.",
+     "source": "https://hawaiiathletics.com/news/2026/4/20/mens-basketball-2025-2026-mens-basketball-season-review.aspx",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii's Rainbow Classic began in the 1964-65 season at the Honolulu International Center, founded by Red Rocha and Chuck Leahey with five mainland teams, two local military teams and the host school.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/hawaiiathletics.com/documents/2009/3/5/UH%20Basketball%20History.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii won the 60th Rainbow Classic in November 2026, its third straight title in the event, taking the tiebreaker for fewest points allowed.",
+     "source": "https://www.hawaiinewsnow.com/2026/11/10/hawaii-falls-portland-final-night-rainbow-classic/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hawaii played its home games at the Neal S. Blaisdell Center from 1964 to 1994 before moving to its on-campus arena.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The name Honolulu, home of the University of Hawaii, means sheltered harbor or calm port in Hawaiian.",
+     "source": "https://en.wikipedia.org/wiki/Honolulu",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Honolulu, home of the Rainbow Warriors, sits about 2,397 miles from San Francisco, its closest major city.",
+     "source": "https://en.wikipedia.org/wiki/Honolulu",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Honolulu, home of the Rainbow Warriors, is the westernmost and southernmost major U.S. city and state capital.",
+     "source": "https://en.wikipedia.org/wiki/Honolulu",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's campus lies in Manoa Valley, about three miles east and inland from downtown Honolulu, a valley that gets almost daily rain even in the dry season.",
+     "source": "https://www.wikiwand.com/en/articles/Manoa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In Hawaii, home of the Rainbow Warriors, the Hawaiian language has more than 20 words for rainbow.",
+     "source": "https://www.atlasobscura.com/articles/best-rainbows-in-the-world",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's teams became the Rainbows after a rainbow appeared over the stadium during the football team's upset of Oregon State in the final game of the 1923 season.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's teams were called the Deans through 1923, and the Rainbow Warriors name, long in informal use, became official in 1974.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's white and green were chosen by the wives of faculty members, and a new athletics logo in 2000 added black and silver.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's fight song borrows its melody from Co-Ed, a march by J.S. Zamecnik published in 1914.",
+     "source": "https://en.wikipedia.org/wiki/Co-Ed_Fight_Song",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Hawaii was founded in 1907 as a land-grant college of agriculture and mechanic arts and moved to Manoa Valley in 1912.",
+     "source": "https://manoa.hawaii.edu/about/history/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Former Hawaii player Anthony Carter played 13 NBA seasons with Miami, Denver, Minnesota, San Antonio, New York and Toronto and still holds the school's single-season assists record of 212.",
+     "source": "https://www.hawaii.edu/news/2025/10/28/manoa-retires-ac-carter-jersey-number-23/",
+     "kind": "alumni",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii forward Bob Nash went ninth overall to the Detroit Pistons in the 1972 NBA draft and later spent 20 years as a Rainbow Warriors assistant.",
+     "source": "https://en.wikipedia.org/wiki/Bob_Nash_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Hawaii guard Tom Henderson played on the 1972 U.S. Olympic team and set school records with a 20.0 career scoring average and 160 career steals.",
+     "source": "https://hawaiiathletics.com/honors/hall-of-fame/tom-henderson/27",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Hawaii player Akira Jacobs played for Japan at the 2024 Summer Olympics.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Riley Wallace won 334 games in 20 seasons at Hawaii, the most of any coach in program history, with three NCAA tournament trips.",
+     "source": "https://hawaiiathletics.com/honors/uh-sports-circle-of-honor/riley-wallace/111",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's 1972 NCAA tournament team was coached by Hilo-born Red Rocha, a two-time NBA All-Star who had coached the Detroit Pistons for three seasons.",
+     "source": "https://hawaiiathletics.com/news/2022/2/24/mens-basketball-simply-fabulous.aspx",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Rick Pitino coached Hawaii for the final six games of the 1975-76 season.",
+     "source": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Hawaii coach Eran Ganot won the 2016 Joe B. Hall Award as the top first-year coach in Division I.",
+     "source": "https://hawaiiathletics.com/news/2026/4/7/mens-basketball-uh-reaches-agreement-with-head-coach-eran-ganot.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii coach Eran Ganot, a Swarthmore graduate from Tenafly, N.J., was associate head coach at Saint Mary's before taking over the Rainbow Warriors in 2015.",
+     "source": "https://hawaiiathletics.com/staff.aspx?staff=49",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Eran Ganot, Hawaii's head coach since 2015, ranks second on the school's career wins list behind Riley Wallace.",
+     "source": "https://hawaiiathletics.com/news/2026/4/7/mens-basketball-uh-reaches-agreement-with-head-coach-eran-ganot.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii went 24-9 in 2025-26 and lost to Arkansas 97-78 as a No. 13 seed in the NCAA tournament in Portland.",
+     "source": "https://hawaiiathletics.com/news/2026/4/20/mens-basketball-2025-2026-mens-basketball-season-review.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii opened practice in September 2026 with 19 newcomers on the roster, including 13 freshmen and six international transfers.",
+     "source": "https://www.hawaiinewsnow.com/2026/09/22/throw-them-fire-uh-mens-basketball-opens-practice-with-19-new-faces/",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hawaii is playing its first Mountain West season after 14 seasons in the Big West, with the league tournament set for March 10-13 in Las Vegas.",
+     "source": "https://hawaiiathletics.com/news/2026/8/13/mens-basketball-tentative-conference-schedule-for-mens-basketball-unveiled.aspx",
+     "kind": "current",
+     "until": "2027-03-13"
+    },
+    {
+     "text": "UC Davis followed Hawaii from the Big West into the Mountain West in 2026, leaving a league in which it was the most geographically isolated school besides Hawaii.",
+     "source": "https://spectrumlocalnews.com/hi/hawaii/sports/2024/12/10/hawaii-uc-davis-leaves-big-west-for-mountain-west-in-2026-",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Hawaii and Nevada first met on Jan. 22, 1968, an 85-72 Hawaii victory in Honolulu.",
+     "source": "https://hawaiiathletics.com/sports/mens-basketball/opponent-history/nevada/34",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Hawaii was 0-12 all-time at Nevada in Reno entering the 2026-27 season.",
+     "source": "https://hawaiiathletics.com/sports/mens-basketball/opponent-history/nevada/34",
+     "kind": "rivalry",
+     "until": "2027-01-08"
+    },
+    {
+     "text": "Hawaii's series with UNLV dates to Jan. 23, 1967, when the Rebels won 76-71 in Honolulu.",
+     "source": "https://hawaiiathletics.com/sports/mens-basketball/opponent-history/unlv/6",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's series with New Mexico began on Feb. 5, 1965, in Albuquerque.",
+     "source": "https://hawaiiathletics.com/sports/mens-basketball/opponent-history/university-of-new-mexico/69",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Hawaii's on-campus arena opened on Oct. 21, 1994, as the Special Events Arena and holds 10,300 seats.",
+     "source": "https://en.wikipedia.org/wiki/Stan_Sheriff_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's arena is named for former athletic director Stan Sheriff, who insisted on at least 10,000 seats when others thought a 4,500-seat building would do.",
+     "source": "https://libweb.hawaii.edu/names/sheriff.html",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's home floor has been called Bankoh Arena at Stan Sheriff Center since August 2025 under a Bank of Hawaii naming deal that now runs through June 30, 2037.",
+     "source": "https://www.hawaiinewsnow.com/2026/09/22/bank-hawaii-university-hawaii-extend-arena-naming-rights-through-2037/",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's home arena in Honolulu, now Bankoh Arena at Stan Sheriff Center, also hosted the 1998 Miss Universe pageant and the 2023 Maui Invitational.",
+     "source": "https://en.wikipedia.org/wiki/Stan_Sheriff_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hawaii's arena sits on Lower Campus Drive on the University of Hawaii's Manoa campus and was built for $32.24 million.",
+     "source": "https://en.wikipedia.org/wiki/Stan_Sheriff_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "nevada": {
+   "town": "Reno",
+   "home_floor": "Lawlor Events Center",
+   "lines": [
+    {
+     "text": "Nevada's basketball program dates to the 1912-13 season, when coach C.E. Holway's team went 3-1.",
+     "source": "https://sports-reference.com/cbb/schools/nevada/men/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sonny Allen led Nevada to its first two NCAA tournament appearances, in 1984 and 1985, and was named Big Sky Coach of the Year both seasons.",
+     "source": "https://nevadawolfpack.com/honors/hall-of-fame/sonny-allen/136",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 10 seed in 2004, Nevada beat Michigan State 72-66 in Seattle and Gonzaga 91-72 before falling 72-67 to Georgia Tech in the Sweet 16 in St. Louis.",
+     "source": "https://nevadawolfpack.com/news/2010/11/1/nevada_in_the_ncaa_tournament.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada rallied from 22 points down to beat No. 2 seed Cincinnati 75-73 in Knoxville in 2018, the second-largest comeback in NCAA tournament history, on a Josh Hall basket with 9.1 seconds left.",
+     "source": "https://nevadawolfpack.com/news/2018/3/18/mens-basketball-comeback-for-the-ages-nevada-edges-cincinnati-75-73.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the first round of the 2018 NCAA tournament, Nevada rallied from 14 points down to beat Texas 87-83 for the program's first NCAA tournament win since 2007.",
+     "source": "https://nevadawolfpack.com/news/2018/3/18/mens-basketball-comeback-for-the-ages-nevada-edges-cincinnati-75-73.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada beat Texas 61-57 at the RCA Dome in Indianapolis in the first round of the 2005 NCAA tournament.",
+     "source": "https://nevadawolfpack.com/news/2010/11/1/nevada_in_the_ncaa_tournament.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada's 2018 Sweet 16 run ended with a 69-68 loss to Loyola Chicago.",
+     "source": "https://nevadawolfpack.com/sports/mens-basketball/roster/coaches/eric-musselman/48",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada's single-season record is 29 wins, reached by Mark Fox's 2006-07 team and by Eric Musselman's teams in 2017-18 and 2018-19.",
+     "source": "https://sports-reference.com/cbb/schools/nevada/men/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marcelus Kemp scored 27 points, nine of them in overtime, as Nevada beat Creighton 77-71 in the first round of the 2007 NCAA tournament.",
+     "source": "https://www.unr.edu/nevada-today/news/2007/nevada-mens-hoops-outlasts-creighton",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada won five straight WAC regular-season titles from 2004 through 2008, added another in 2012, then won three straight Mountain West regular-season crowns from 2017 to 2019.",
+     "source": "https://en.wikipedia.org/wiki/Nevada_Wolf_Pack_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada won the 2016 College Basketball Invitational, beating Morehead State 85-82 in overtime on April 1 in the finals.",
+     "source": "https://nevadawolfpack.com/sports/mens-basketball/roster/coaches/eric-musselman/48",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada's 2018-19 team opened 13-0, climbed as high as No. 5 in the AP poll and finished 29-5.",
+     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Nevada_Wolf_Pack_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada has made 11 NCAA tournament appearances, going 6-11 in tournament games.",
+     "source": "https://sports-reference.com/cbb/schools/nevada/men/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada retired Nick Fazekas' No. 22 on Feb. 27, 2019; the three-time WAC Player of the Year is the school's career scoring leader with 2,464 points.",
+     "source": "https://nevadawolfpack.com/sports/2021/9/14/retired-numbers-at-nevada.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Edgar Jones, whose No. 32 is retired at Nevada, held the school scoring record with 1,877 points from 1979 until 2006.",
+     "source": "https://nevadawolfpack.com/sports/2021/9/14/retired-numbers-at-nevada.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nevada joined the Mountain West on July 1, 2012, after stints in the Big Sky from 1979 to 1992, the Big West from 1992 to 2000 and the WAC from 2000 to 2012.",
+     "source": "https://www.unr.edu/nevada-today/news/2012/pack-joins-the-mountain",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Reno's Biggest Little City in the World slogan came from a contest won by G.A. Burns of Sacramento, who collected $100, and first appeared on the Reno Arch in 1929.",
+     "source": "https://en.wikipedia.org/wiki/Reno_Arch",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Reno's first arch went up in 1926 to promote the 1927 Nevada Transcontinental Highway Exposition, which celebrated the completion of the Lincoln and Victory highways.",
+     "source": "https://en.wikipedia.org/wiki/Reno_Arch",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Truckee River runs through downtown Reno on its 121-mile course from Lake Tahoe to Pyramid Lake.",
+     "source": "https://www.visitrenotahoe.com/blog/rafting-down-the-truckee-river-in-reno/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Reno, home of the Nevada Wolf Pack, hosts the Great Reno Balloon Race each September, billed as the world's largest free balloon race.",
+     "source": "https://en.wikipedia.org/wiki/Reno,_Nevada",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Reno's National Automobile Museum holds 200 cars from William F. Harrah's collection, including Elvis Presley's 1973 Cadillac Eldorado.",
+     "source": "https://en.wikipedia.org/wiki/Reno,_Nevada",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Nevada opened in Elko in 1874 and moved to Reno in 1885-86, where Morrill Hall, its first building there, still stands on the Quad.",
+     "source": "https://www.unr.edu/about/history",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Nevada teams were known as the Sagebrushers before a local writer described the 1921-22 squad as a pack of wolves; students made the Wolves the official mascot in 1923.",
+     "source": "https://nevadawolfpack.com/sports/2021/8/26/wolf-pack-traditions.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Nevada adopted silver and blue in 1899, with the silver a nod to the Comstock Lode.",
+     "source": "https://www.unr.edu/nevada-today/news/2026/history-of-the-brand",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Nevada students first built the N in 1913, whitewashing thousands of rocks into a letter 140 feet by 150 feet.",
+     "source": "https://library.unr.edu/library150/exhibits/paint-the-n",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Nevada mascot Alphie debuted in 2001, and Wolfie Jr., who joined in 2007, won the 2012 Capital One Mascot Challenge.",
+     "source": "https://nevadawolfpack.com/sports/2021/8/26/wolf-pack-traditions.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "JaVale McGee, taken 18th by Washington in the 2008 NBA draft out of Nevada, won NBA titles with Golden State in 2017 and 2018 and with the Lakers in 2020.",
+     "source": "https://en.wikipedia.org/wiki/JaVale_McGee",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "JaVale McGee became the first Nevada athletics alumnus to win Olympic gold when the U.S. beat France 87-82 in Tokyo in 2021.",
+     "source": "https://nevadawolfpack.com/news/2021/8/6/mens-basketball-javale-mcgee-becomes-first-nevada-athletics-alumnus-to-win-olympic-gold",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Kirk Snyder became Nevada's first first-round NBA draft pick when the Utah Jazz took him 16th overall in 2004.",
+     "source": "https://nevadawolfpack.com/news/2008/6/26/mcgee_taken_in_first_round_of_nba_draft.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Twins Caleb and Cody Martin transferred to Nevada from N.C. State; Caleb was the 2017-18 Mountain West Player of the Year and Cody went 36th in the 2019 NBA draft.",
+     "source": "https://www.nba.com/hornets/press-releases/hornets-sign-second-round-draft-pick-cody-martin-and-free-agent-caleb-martin",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Nevada had two players taken in the 2007 NBA draft, Nick Fazekas at No. 34 by Dallas and Ramon Sessions at No. 56 by Milwaukee.",
+     "source": "https://nevadawolfpack.com/news/2007/6/28/fazekas_sessions_taken_in_second_round_of_nba_draft.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Nevada coach Steve Alford won the 1987 national championship as a player at Indiana and was on the U.S. team that won Olympic gold in 1984.",
+     "source": "https://en.wikipedia.org/wiki/Steve_Alford",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Steve Alford took Nevada to the NCAA tournament in 2023 and 2024, after earlier head coaching stops at Manchester, Southwest Missouri State, Iowa, New Mexico and UCLA.",
+     "source": "https://en.wikipedia.org/wiki/Steve_Alford",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Steve Alford entered his eighth season at Nevada with a 137-88 record there and plans to retire after the 2026-27 season.",
+     "source": "https://thescore.com/ncaab/news/3607852",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Nevada went 24-13 last season and reached the NIT quarterfinals, where its season ended with a 75-69 loss at Auburn.",
+     "source": "https://nevadawolfpack.com/news/2026/3/25/mens-basketball-the-nevada-season-ends-with-75-69-loss-at-auburn-in-nit-quarterfinals.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Nevada was picked third in the 10-team Mountain West preseason poll, with Elijah Price and Vaughn Weems named to the preseason all-conference team.",
+     "source": "https://www.abqjournal.com/sports/lobos-narrowly-picked-as-preseason-mountain-west-hoops-favorites-jake-hall-voted-player-of-year/3136908",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Nevada's Elijah Price posted 12 double-doubles last season, including 22 points and 11 rebounds in the NIT quarterfinal at Auburn.",
+     "source": "https://nevadawolfpack.com/news/2026/3/25/mens-basketball-the-nevada-season-ends-with-75-69-loss-at-auburn-in-nit-quarterfinals.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Nevada first played UNLV on Jan. 22, 1962, winning 71-51 at the University of Nevada's gym on Virginia Street.",
+     "source": "https://recordcourier.com/news/2020/jan/21/joe-santoro-nevada-wolf-packs-top-10-wins-against-",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Nevada beat UNLV 94-58 at the Thomas & Mack Center on Feb. 25, 2017, less than three weeks after beating the Rebels 104-77 at Lawlor Events Center.",
+     "source": "https://recordcourier.com/news/2020/jan/21/joe-santoro-nevada-wolf-packs-top-10-wins-against-",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Nevada and UNLV basketball games count toward the Silver State Series, the schools' all-sports competition announced on Oct. 8, 2012, as the Governor's Series.",
+     "source": "https://www.nevadawolfpack.com/sports/2018/9/21/silver-state-series",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Nevada and UNLV meet twice this season, on Jan. 30 in Las Vegas and Feb. 27 in Reno.",
+     "source": "https://nevadawolfpack.com/news/2026/8/14/nevada-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "rivalry",
+     "until": "2027-02-27"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Lawlor Events Center, which opened on Nov. 4, 1983, seats 11,536 for Nevada basketball.",
+     "source": "https://nevadawolfpack.com/sports/2017/7/21/facilities-lawlor-events-center-html.aspx",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd in Lawlor Events Center history, 11,841, watched Nevada beat UNLV 104-77 on Feb. 8, 2017.",
+     "source": "https://nevadawolfpack.com/sports/2017/7/21/facilities-lawlor-events-center-html.aspx",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Lawlor Events Center is named for Jake Lawlor, who coached Nevada basketball to a 204-156 record in 1942-43 and from 1945 to 1959 and served as athletic director from 1951 to 1969.",
+     "source": "https://en.wikipedia.org/wiki/Jake_Lawlor_(American_football)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Lawlor Events Center, at 1500 North Virginia Street in Reno, cost $26 million to build and hosted Duran Duran, Genesis and Van Halen in its first year.",
+     "source": "https://en.wikipedia.org/wiki/Lawlor_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before each Nevada home game, the student section leads a chant of The Law of the Jungle from Rudyard Kipling's The Jungle Book, followed by a wolf howl that fans echo.",
+     "source": "https://nevadawolfpack.com/sports/2021/8/26/wolf-pack-traditions.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
+  },
+  "grand-canyon": {
+   "town": "Phoenix",
+   "home_floor": "GCU Arena",
+   "lines": [
+    {
+     "text": "Men's basketball was the first sport Grand Canyon sponsored when the college opened in 1949, with Howard Mansfield hired as coach in the school's first year.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won NAIA national championships in men's basketball in 1975, 1978 and 1988, long before the Lopes played a Division I game.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first NCAA Division I tournament win came in 2024, when the 12th-seeded Lopes beat fifth-seeded Saint Mary's 75-66 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon reached the NCAA Division I tournament four times in five seasons from 2021 through 2025, seeded 15th, 14th, 12th and 13th.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first NCAA Division I tournament game was an 86-74 loss to second-seeded Iowa in 2021.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before moving up, Grand Canyon made 10 NCAA Division II tournaments between 1992 and 2013 and reached the regional semifinals in 1996, 1997 and 2007.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won the Western Athletic Conference tournament in 2021, 2023, 2024 and 2025.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon joined the Western Athletic Conference on July 1, 2013, withdrew on July 1, 2025, and was announced as a Mountain West member on July 8, 2025.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The NCAA officially approved Grand Canyon's move to Division I on Aug. 23, 2017, and the Lopes immediately became eligible for postseason play.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first win over a Top 25 team came on Dec. 5, 2023, when the Lopes beat No. 25 San Diego State.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won its first national title in 1975 by beating Midwestern State 65-54 in the NAIA final, with center Bayard Forrest named tournament MVP.",
+     "source": "https://en.wikipedia.org/wiki/Bayard_Forrest",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon plays in Phoenix, the fifth-most populous city in the United States and the most populous state capital, with more than 1.6 million residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's home city of Phoenix sits in the Salt River Valley in the northern reaches of the Sonoran Desert, at a mean elevation of 1,086 feet.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cotton, cattle, citrus, climate and copper were known locally as the Five C's anchoring the economy of Phoenix, home of Grand Canyon.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's hometown of Phoenix has been called the Valley of the Sun since the phrase was invented as a tourism slogan in the 1930s.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Phoenix, where Grand Canyon plays, averages about 300 days of sunshine a year and a mean July high of 106.5 degrees.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's home city of Phoenix is known for Mexican food, and the chain Macayo's was established there in 1946.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon was founded in 1949 in Prescott, Arizona, as Grand Canyon College and moved to Phoenix on Oct. 8, 1951.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's teams are officially the Antelopes but go by Lopes, wear purple, black and white, and have a mascot named Thunder the Antelope.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's Phoenix campus covers 300 acres, and the university reported a total enrollment of 113,257 in fall 2024.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Former Grand Canyon center Horacio Llamas became the first Mexican-born player in NBA history when he debuted for the Phoenix Suns on March 2, 1997.",
+     "source": "https://en.wikipedia.org/wiki/Horacio_Llamas",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Horacio Llamas was the NCAA Division II Player of the Year at Grand Canyon in 1996 and set school records with 10 blocks in a game and 172 in a career.",
+     "source": "https://en.wikipedia.org/wiki/Horacio_Llamas",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bayard Forrest, a 6-foot-10 center at Grand Canyon from 1972 to 1976, was a second-round pick of Seattle in the 1976 NBA draft and played two seasons for the Phoenix Suns.",
+     "source": "https://en.wikipedia.org/wiki/Bayard_Forrest",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon counts Tim Salmon, Henry Cejudo and Bill Engvall among its alumni.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bryce Drew is in his seventh season as Grand Canyon's head coach.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon went 20-12 last season and tied for third at 13-7 in its first year in the Mountain West.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon's first Mountain West tournament ended with an 84-80 quarterfinal loss to Nevada on March 12, 2026, and the Lopes missed the NCAA tournament for the first time since 2022.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon brought in 10 transfers for the 2026-27 season, including players from Wake Forest, St. John's, USC, Baylor and NC State.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon's nonconference schedule includes trips to Oklahoma State on Dec. 2 and Memphis on Dec. 11 and a Dec. 18 game against Florida in Jacksonville.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2026-12-02"
+    },
+    {
+     "text": "Grand Canyon is scheduled to open Mountain West play on Jan. 2 at UC Davis and host UNLV in Phoenix three days later.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-01-02"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Grand Canyon's home floor opened in September 2011 as GCU Arena, about 15 months after the university announced the project.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's arena seats 7,000, up from the original 5,000 after a 2014 remodel that added an upper deck.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's building has carried the name Global Credit Union Arena since a naming-rights deal was announced on Dec. 5, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Global Credit Union Arena sits at 3300 West Camelback Road on the Grand Canyon campus in Phoenix.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Only 42 steps separate the event level from the concourse at Grand Canyon's Global Credit Union Arena.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The ceiling beams above the floor at Grand Canyon's arena were signed by university employees and students.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The main video board at Grand Canyon's arena is 15 feet tall and 35 feet wide and weighs about three tons.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A vault of Bibles is buried at center court at Grand Canyon's Global Credit Union Arena.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's arena went up with 41,000 bricks and 75 miles of electrical wiring, and its five concession stands include three pizza ovens.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "new-mexico": {
+   "town": "Albuquerque",
+   "home_floor": "the Pit",
+   "lines": [
+    {
+     "text": "Basketball became a varsity sport at New Mexico in 1899, 21 years before the school's teams were first called the Lobos.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico made its first NCAA tournament trip in 1968 and won its first tournament game in 1974, beating Idaho State.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico won five Western Athletic Conference regular-season titles, in 1964, 1968, 1974, 1978 and 1994, before the Lobos moved to the Mountain West.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's only win over a No. 1-ranked opponent came in the 1987-88 season, when the Lobos jumped to a 25-9 lead on Arizona and held on.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico reached the final of the 1964 NIT under Bob King, losing to Bradley, in the same season the Lobos won their first WAC title.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico went 29-6 in 2012-13 and won the Mountain West tournament, the second of three straight league tournament titles for the Lobos from 2012 to 2014.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Steve Alford went 155-52 in six seasons as New Mexico's coach, a .749 winning percentage.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico has been in the Mountain West since the league began play in 1999 and is one of its charter members.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque was founded in 1706 as La Villa de Alburquerque.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Sandia Mountains rise on Albuquerque's east side, and their name is Spanish for watermelon, popularly tied to the pink and green they turn at sunset.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Sandia Peak Tramway on the edge of Albuquerque opened in 1966, the same year as the Pit, and runs 2.7 miles to a top station at 10,378 feet.",
+     "source": "https://en.wikipedia.org/wiki/Sandia_Peak_Tramway",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Route 66 was realigned onto Albuquerque's Central Avenue in 1937, and the same street forms the southern edge of New Mexico's main campus.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque fills its sky every October with the Albuquerque International Balloon Fiesta, the largest balloon festival in the world.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque is home to Kirtland Air Force Base, which dates to 1939, and Sandia National Laboratories, established in 1949.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque, where the Rio Grande runs north to south through the middle of town, gets about 278 sunny days a year.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Frontier Restaurant, a popular meeting spot for New Mexico students, sits across Central Avenue from the main campus in Albuquerque.",
+     "source": "https://en.wikipedia.org/wiki/University_of_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's teams were known as the University Boys or the Varsities until 1920, when student newspaper editor George S. Bryan came up with Lobos, the Spanish word for wolf.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico has worn cherry and silver since 1897, after starting out in black and gold.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's fight song, Hail, New Mexico, dates to 1930, with music by professor Lena Clauve and words by English professor George St. Clair.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's mascot Lobo Louie dates to the early 1960s and was joined by Lobo Lucy in the early 1980s.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of New Mexico was founded on Feb. 28, 1889, and its Albuquerque campus is known for the Pueblo Revival buildings of architect John Gaw Meem.",
+     "source": "https://en.wikipedia.org/wiki/University_of_New_Mexico",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mel Daniels, New Mexico's first All-American, was the ninth pick of the 1967 NBA draft and went on to be ABA MVP in 1969 and 1971 and win three ABA titles with Indiana.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Michael Cooper, a New Mexico All-American in 1978, went on to win five NBA titles and the league's 1987 Defensive Player of the Year award.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Luc Longley left New Mexico as the seventh pick of the 1991 NBA draft and won three NBA titles as a starter for the Chicago Bulls from 1996 to 1998.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Kenny Thomas went from Albuquerque High to New Mexico in 1995, was drafted 22nd overall by Houston in 1999 and played 11 NBA seasons.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Danny Granger played at New Mexico from 2003 to 2005, went 17th in the 2005 NBA draft to Indiana and was an NBA All-Star in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Danny_Granger",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Eric Olen is in his second season at New Mexico after being hired in March 2025 from UC San Diego, where he went 240-119 from 2013 to 2025.",
+     "source": "https://en.wikipedia.org/wiki/Eric_Olen",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico coach Eric Olen is a native of Mobile, Alabama, who played at Spring Hill College and took UC San Diego to the 2025 NCAA tournament as Big West champion.",
+     "source": "https://en.wikipedia.org/wiki/Eric_Olen",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico went 26-11 last season, Eric Olen's first, and 13-7 in the Mountain West before a run to the NIT semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico was a No. 1 seed in last season's NIT and beat Sam Houston, George Washington and Saint Joseph's before losing 74-69 to Tulsa in the semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico was the No. 3 seed in last season's Mountain West tournament and went out in the semifinals, 64-62 to San Diego State.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-09"
+    },
+    {
+     "text": "New Mexico plays this season in a 10-team Mountain West that added UTEP and UC Davis after Boise State, Colorado State, Fresno State, San Diego State and Utah State left for the Pac-12.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico and UTEP first met in 1929 and have played more than 140 times.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "New Mexico swept ninth-ranked UNLV home and away in 1977-78, two seasons after the Lobos and Rebels first met.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's oldest basketball rivalry is with New Mexico State, a series that began in 1904 and has run past 200 games.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The floor at the Pit sits 37 feet below street level, and New Mexico students were already calling the building by that name when it opened in 1966.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico opened the Pit on Dec. 1, 1966, with a 62-53 win over Abilene Christian.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 338-by-300-foot roof of the Pit was built first, just above street level, and no supporting pillars stand in the seating area of New Mexico's arena.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit cost about $1.4 million to build in 1966, and New Mexico spent about $60 million renovating it for the 2010-11 season.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit holds 15,411 for New Mexico basketball, down from the 18,018 it seated after a 1975 expansion.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit in Albuquerque hosted the 1983 Final Four, where North Carolina State beat Houston 54-52 in the last men's Final Four held on a college campus.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court at the Pit sits about 5,100 feet above sea level, and it has been named for former New Mexico coach Bob King since 1992.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico won 41 straight games at the Pit from Feb. 10, 1996, to Feb. 19, 1998, the longest home winning streak in the building's history.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico averaged a record 17,625 fans a game at the Pit in 1997-98.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico announced on Feb. 26, 2026, a 10-year naming rights deal that made its home The Pit - Powered by Nusenda.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico filled all 15,411 seats at the Pit for San Diego State on Feb. 28, 2026, its largest home crowd of last season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "The largest crowd in the history of the Pit, 19,452, came on Jan. 17, 1976, when New Mexico hosted UNLV.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "uc-davis": {
+   "town": "Davis",
+   "home_floor": "the University Credit Union Center",
+   "lines": [],
+   "home_lines": [
+    {
+     "text": "The UC Davis arena was called Recreation Hall from 1977 to 2004 and the Pavilion at the ARC from 2004 to 2021 before it became the University Credit Union Center in July 2021.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University Credit Union Center in Davis seats 6,003 for basketball, on a maple hardwood floor.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The attendance record for a UC Davis men's basketball game is 7,926, set on Jan. 23, 1999, when the Aggies beat Chico State 102-71.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UC Davis arena has been joined to the Activities and Recreation Center since spring 2004, when the university opened the ARC and fused the two buildings into one complex.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UC Davis men share the University Credit Union Center with the Aggies' women's basketball, women's volleyball and women's gymnastics teams.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University Credit Union Center sits at 1 Shields Avenue on the UC Davis campus, which lies in unincorporated Yolo County.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "san-jose-state": {
+   "town": "San Jose",
+   "home_floor": "the Event Center",
+   "lines": [
+    {
+     "text": "San José State played its first recorded men's basketball game in 1909.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State has made three NCAA Tournament appearances, in 1951, 1980 and 1996.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State's first NCAA Tournament trip came in 1951, when the Spartans fell to BYU 68-61.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State went to the 1980 NCAA Tournament as a No. 12 seed and the Pacific Coast Athletic Association champion, losing to Missouri 61-51.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State won the 1996 Big West Tournament in Reno as a No. 6 seed, taking three games in three days and beating Utah State 76-75 in overtime for the title.",
+     "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State's most recent NCAA Tournament game was March 14, 1996, when the 16th-seeded Spartans met Kentucky at Reunion Arena in Dallas.",
+     "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State counts 10 conference titles in men's basketball, the first in 1925 in the California Coast Conference and the most recent the 1996 Big West crown.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State earned the first postseason win in program history in 2023, beating Southern Indiana 77-52 in the first round of the CBI.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State went 21-14 in 2022-23 and finished fifth in the Mountain West at 10-8, and Tim Miles was named the league's coach of the year.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State has played in the NIT twice, in 1981 against UTEP and in 2025 against Loyola Chicago.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State has been a Mountain West member since the 2013-14 academic year.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State's home floor, the Provident Credit Union Event Center, opened Sept. 8, 1989, at a cost of $31 million.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's arena was known as the Event Center Arena from 1989 until August 2019, when a 20-year, $8.1 million deal put Provident Credit Union's name on it.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the Event Center opened in 1989, San José State's home courts included Spartan Gym, the San Jose Civic Auditorium and, from 1976 to 1979, Independence High School.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San Jose was founded Nov. 29, 1777, as the Pueblo de San José de Guadalupe, California's first civilian settlement.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose was California's first state capital, with legislators meeting in the city from 1849 to 1851.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose counted 1,013,240 residents in the 2020 census, making San José State's hometown the third most populous city in California.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose adopted the nickname Capital of Silicon Valley in 1988, and Cisco, eBay, Adobe, PayPal and Zoom all keep their headquarters in the city.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose has taken steps to reduce light pollution because of its proximity to Lick Observatory atop Mount Hamilton.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Guadalupe River runs north from the Santa Cruz Mountains through San Jose and reaches San Francisco Bay at Alviso.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San José State's main campus covers 154 acres, roughly 19 square blocks, in downtown San Jose.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San José State became the Spartans in 1922, after earlier teams were known as the Daniels, the Teachers, the Pedagogues, the Normals and the Normalites.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State was founded in 1857 in San Francisco as the Minns Evening Normal School and moved to San Jose in 1871.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State's original colors were gold and white, with blue added before 1929.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State adopted its alma mater, Hail! Spartans, Hail!, on Feb. 25, 1929, and students and alumni still wear blue and gold on Thursdays.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tower Hall, the signature building on San José State's campus, was declared a California Historical Landmark in 1949.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State's mascot is Sammy Spartan, and the school's Spardi Gras celebration dates to 1929.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State alum Tariq Abdul-Wahad went 11th overall to the Sacramento Kings in the 1997 NBA draft and became the first player raised in France to play in the NBA.",
+     "source": "https://en.wikipedia.org/wiki/Tariq_Abdul-Wahad",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Stu Inman played at San José State from 1947 to 1950, coached the Spartans from 1960 to 1966 and later helped build the Portland Trail Blazers' 1977 NBA championship team.",
+     "source": "https://en.wikipedia.org/wiki/Stu_Inman",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "San José State has had 12 players taken in the NBA draft, and Darnell Hillman in 1971 was the first of four chosen in the first round.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "alumni",
+     "until": "2027-06-20"
+    },
+    {
+     "text": "San José State's alumni include Intel founder Gordon Moore and Super Bowl-winning NFL coach Bill Walsh.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "San José State coach Tim Miles, a native of Doland, South Dakota, led Colorado State from 2007 to 2012 and Nebraska from 2012 to 2019 before arriving in San Jose.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Tim Miles, hired April 6, 2021, is in his sixth season at San José State and brought a 62-104 record with the Spartans into 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State went 9-24 last season and 3-17 in the Mountain West, then beat sixth-seeded Boise State in the league tournament before falling to New Mexico.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State rebuilt its roster for 2026-27 with seven transfers and six freshmen, among them 7-foot center Moses Dau Nyangol.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State opened the 2026-27 season Nov. 2 with a 95-74 home win over UTSA.",
+     "source": "https://sjsuspartans.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State begins Mountain West play Jan. 2 at home against Hawaii.",
+     "source": "https://sjsuspartans.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-01-02"
+    },
+    {
+     "text": "San José State plays this season in a 10-team Mountain West that added UC Davis, UTEP and Hawaii as full members after Boise State, Colorado State, Fresno State, San Diego State and Utah State left for the Pac-12.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State and Nevada first met in men's basketball in 1911, and no current Mountain West member has played the Spartans more often than the Wolf Pack.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "San José State beat Nevada 81-77 in overtime in the quarterfinals of the 2023 Mountain West Tournament.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Provident Credit Union Event Center seats 5,000 for San José State basketball, though early plans for the building called for 7,500.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Event Center sits at 290 South 7th Street on San José State's main campus in downtown San Jose.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first regular-season college game at San José State's Event Center was a November 1989 meeting with South Alabama.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's Event Center hosted Golden State Warriors exhibition games in 1990 and 1992 and has staged concerts by Prince, Pearl Jam and Eric Clapton.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's 2025 NIT game against Loyola Chicago drew 3,627 to the Provident Credit Union Event Center.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "utep": {
+   "town": "El Paso",
+   "home_floor": "the Don",
+   "lines": [],
+   "home_lines": []
+  },
+  "wyoming": {
+   "town": "Laramie",
+   "home_floor": "the Double A",
+   "lines": [
+    {
+     "text": "Wyoming won the 1943 NCAA championship under coach Everett Shelton, beating Georgetown 46-34 in the final to finish the season 31-2.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's road to the 1943 national title ran through Oklahoma, 55-50, and Texas, 58-54, before the Cowboys met Georgetown in the final.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wyoming has reached the NCAA Tournament's Sweet 16 four times, in 1952, 1953, 1967 and 1987.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's 1987 team went to the Sweet 16 as a No. 12 seed, beating No. 5 seed Virginia and No. 4 seed UCLA before losing 92-78 to top-seeded UNLV.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's 2002 team, an 11th seed, beat sixth-seeded Gonzaga 73-66 in the NCAA Tournament before falling to Arizona in the round of 32.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wyoming has made 16 NCAA Tournament appearances, the first in 1941 and the most recent in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Wyoming has retired two men's basketball numbers: Ken Sailors' No. 4, in 2008, and Fennis Dembo's No. 34, in 2019.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Helms Foundation retroactively named Wyoming's 1934 team a national champion, nine years before the Cowboys won the NCAA Tournament.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Everett Shelton coached Wyoming from 1939 to 1959, won 328 games and the 1943 national title, and entered the Naismith Memorial Basketball Hall of Fame in 1980.",
+     "source": "https://en.wikipedia.org/wiki/Everett_Shelton",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ken Sailors, who grew up on a farm south of Hillsdale, Wyoming, is regarded as one of the players who developed the jump shot and was a Wyoming All-American in 1942, 1943 and 1946.",
+     "source": "https://en.wikipedia.org/wiki/Kenny_Sailors",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Ken Sailors was named the Most Outstanding Player of the 1943 NCAA tournament and was the unanimous selection as college basketball player of the year.",
+     "source": "https://en.wikipedia.org/wiki/Kenny_Sailors",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Laramie takes its name from Jacques La Ramée, a trapper who disappeared in the Laramie Mountains in the early 1820s.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Laramie grew up with the Union Pacific Railroad, whose rails reached the town on May 4, 1868.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Laramie sits about 50 miles west of Cheyenne, 130 miles north of Denver and 25 miles north of the Colorado state line.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Laramie is where Louisa Swain, on Sept. 6, 1870, became the first woman in the United States to cast a legal vote in a general election.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Laramie, the Albany County seat, counted 31,407 residents in the 2020 census, making it the fourth-most populous city in Wyoming.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Vedauwoo, an area covering 10 square miles, lies about 16 miles east of Laramie off Interstate 80.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Snowy Range Ski Area, about 30 miles west of Laramie off Wyoming Highway 130, offers skiing and snowboarding on 27 trails.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Wyoming was established in 1886 and opened in Laramie in 1887, and its Old Main is among the city's 21 sites on the National Register of Historic Places.",
+     "source": "https://en.wikipedia.org/wiki/Laramie,_Wyoming",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Cowboys nickname dates to 1891, when a cowboy helped the school's football team in a game against a team from Cheyenne.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_and_Cowgirls",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's costumed mascot, Pistol Pete, first appeared in 1917, and the school also keeps a pony named Cowboy Joe.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_and_Cowgirls",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wyoming plays in brown and gold, and a bronze statue of its Steamboat and rider logo stands near the north end zone of War Memorial Stadium in Laramie.",
+     "source": "https://en.wikipedia.org/wiki/Wyoming_Cowboys_and_Cowgirls",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fennis Dembo scored 2,311 points at Wyoming, the most in program history, and won an NBA championship with the Detroit Pistons in 1989.",
+     "source": "https://en.wikipedia.org/wiki/Fennis_Dembo",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Fennis Dembo was the leading scorer of the 1987 NCAA Tournament at 27.8 points per game and the WAC Player of the Year that season.",
+     "source": "https://en.wikipedia.org/wiki/Fennis_Dembo",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Theo Ratliff blocked a school-record 425 shots at Wyoming from 1991 to 1995, then played 16 NBA seasons and led the league in blocks three times.",
+     "source": "https://en.wikipedia.org/wiki/Theo_Ratliff",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Larry Nance Jr., the 2015 Mountain West Defensive Player of the Year at Wyoming, went 27th overall to the Los Angeles Lakers in that year's NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Larry_Nance_Jr.",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Wyoming coach Sundance Wicks was born in Gillette, Wyoming, and was hired on May 12, 2024, as the 23rd head coach in program history.",
+     "source": "https://en.wikipedia.org/wiki/Sundance_Wicks",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sundance Wicks was a Wyoming assistant from 2020 to 2023, then won 2023-24 Horizon League Coach of the Year after an 18-14 season at Green Bay before returning to Laramie.",
+     "source": "https://en.wikipedia.org/wiki/Sundance_Wicks",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sundance Wicks went 30-35 in his first two seasons as Wyoming's head coach, improving from 12-20 in 2024-25 to 18-15 in 2025-26.",
+     "source": "https://en.wikipedia.org/wiki/Sundance_Wicks",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Wyoming went 18-15 last season, 9-11 in the Mountain West, and ended its year with a 74-70 loss at Wichita State in the first round of the NIT.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wyoming_Cowboys_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Wyoming entered last season's Mountain West tournament as the No. 9 seed and lost 73-70 to eighth-seeded UNLV in the first round.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wyoming_Cowboys_basketball_team",
+     "kind": "current",
+     "until": "2027-03-09"
+    },
+    {
+     "text": "Wyoming and Colorado State, whose campuses sit about 65 miles apart on U.S. Route 287, call their rivalry the Border War and first met in basketball on Jan. 27, 1911, in Laramie.",
+     "source": "https://en.wikipedia.org/wiki/Border_War_(Colorado_State%E2%80%93Wyoming_rivalry)",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Border War history with Colorado State includes an 81-78 triple-overtime win on Feb. 14, 1987, and Eric Leckner's buzzer-beater for a 60-58 win in the 1988 WAC semifinals.",
+     "source": "https://en.wikipedia.org/wiki/Border_War_(Colorado_State%E2%80%93Wyoming_rivalry)",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Wyoming's Arena-Auditorium opened on Feb. 20, 1982, at a cost of $15 million.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Arena-Auditorium sits at 7,220 feet above sea level, the highest court in NCAA Division I basketball.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Arena-Auditorium in Laramie has seated 11,612 since 2014, down from the 15,028 it held when it opened in 1982.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest basketball crowd in the Arena-Auditorium's history is the 16,089 who saw Wyoming beat Utah 57-56 on March 2, 2002.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Wyoming's Arena-Auditorium answers to several nicknames in Laramie, among them the Double A and the Dome of Doom.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Arena-Auditorium in Laramie hosted the Western Athletic Conference men's tournament in 1986 and 1991.",
+     "source": "https://en.wikipedia.org/wiki/Arena-Auditorium",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "unlv": {
+   "town": "Las Vegas",
+   "home_floor": "the Thomas & Mack",
+   "lines": [
+    {
+     "text": "UNLV first fielded a men's basketball team in the 1958-59 season.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNLV won the 1990 national championship by beating Duke 103-73, the most lopsided victory in championship game history.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNLV has reached the Final Four four times, in 1977, 1987, 1990 and 1991.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNLV has made 20 NCAA Division I tournament appearances and carries a 33-19 record in the event.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": "2027-03-15"
+    },
+    {
+     "text": "The 1990-91 UNLV team finished 34-1, with its only loss coming to Duke, 79-77, at the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1986-87 UNLV team went 37-2 and reached the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNLV won 10 straight Big West regular-season titles from 1983 through 1992.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNLV has won the Mountain West tournament three times, in 2000, 2007 and 2008.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "program-history",
+     "until": "2027-03-13"
+    },
+    {
+     "text": "Jerry Tarkanian went 509-105 in 19 seasons at UNLV, taking the Rebels to 12 NCAA tournaments and the 1990 national title.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "UNLV's campus sits not in the city of Las Vegas but in Paradise, an unincorporated Clark County town formed on Dec. 8, 1950.",
+     "source": "https://en.wikipedia.org/wiki/Paradise,_Nevada",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNLV's main campus sits about 1.6 miles east of the Las Vegas Strip.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNLV shares the town of Paradise with Harry Reid International Airport, most of the Las Vegas Strip, T-Mobile Arena and Allegiant Stadium.",
+     "source": "https://en.wikipedia.org/wiki/Paradise,_Nevada",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Las Vegas, the city UNLV is named for, was founded in 1905 and incorporated in 1911, and its name comes from the Spanish for the meadows.",
+     "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Las Vegas, the city UNLV is named for, sits in a basin on the floor of the Mojave Desert, surrounded by mountain ranges.",
+     "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Las Vegas, the city UNLV is named for, counts Hawaii's Ninth Island among its nicknames.",
+     "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNLV was founded on Sept. 10, 1957, as the Southern Division of the University of Nevada and was Nevada Southern University from 1965 until taking its current name in 1969.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UNLV's official colors of scarlet and gray date to 1958.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "A campus landmark at UNLV is Claes Oldenburg's Flashlight sculpture, installed in 1981 on the plaza between Artemus Ham Hall and Judy Bayley Theatre.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UNLV held its first classes on its current campus in Maude Frazier Hall.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Larry Johnson in 1991 and Anthony Bennett in 2013 were both taken first overall in the NBA draft out of UNLV.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UNLV's NBA alumni include Shawn Marion, Christian Wood, Derrick Jones Jr. and Armon Gilliam, the No. 2 overall pick in 1987.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former UNLV player Joel Anthony went on to win an NBA championship with the Miami Heat.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UNLV's alumni outside basketball include Jimmy Kimmel, Guy Fieri, golfer Adam Scott and Ronnie Vannucci of The Killers.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Josh Pastner, named UNLV's head coach on March 25, 2025, is in his second season with the Rebels.",
+     "source": "https://en.wikipedia.org/wiki/Josh_Pastner",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before UNLV, Josh Pastner went 167-73 at Memphis from 2009 to 2016 and 109-114 at Georgia Tech, where he was ACC Coach of the Year in 2017.",
+     "source": "https://en.wikipedia.org/wiki/Josh_Pastner",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "UNLV coach Josh Pastner was a freshman walk-on on Arizona's 1997 national championship team.",
+     "source": "https://en.wikipedia.org/wiki/Josh_Pastner",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "UNLV went 18-17 last season, Josh Pastner's first, and tied for seventh in the Mountain West at 11-9.",
+     "source": "https://en.wikipedia.org/wiki/Josh_Pastner",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UNLV's 2025-26 season ended in the second round of the NIT, where the Rebels beat UC Irvine 75-72 before losing 77-66 at Tulsa.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UNLV_Runnin%27_Rebels_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UNLV brought in nine transfers for 2026-27, among them AJ Storr from Ole Miss, Tyler Harris from Vanderbilt and Sebastian Mack from Missouri.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UNLV_Runnin%27_Rebels_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UNLV is scheduled to face Kansas on Nov. 17 in the first round of the Players Era event.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UNLV_Runnin%27_Rebels_basketball_team",
+     "kind": "current",
+     "until": "2026-11-16"
+    },
+    {
+     "text": "The Mountain West tournament is set for March 10-13 at the Thomas & Mack Center, UNLV's home floor.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UNLV_Runnin%27_Rebels_basketball_team",
+     "kind": "current",
+     "until": "2027-03-13"
+    },
+    {
+     "text": "UNLV and Nevada compete in all sports in the Silver State Series, which began in 2012 as the Governor's Series and took its current name in 2018.",
+     "source": "https://en.wikipedia.org/wiki/Battle_for_Nevada",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "UNLV's rivalry with Nevada is known as the Battle for Nevada, and in football the two play for the Fremont Cannon, a replica howitzer built in 1970.",
+     "source": "https://en.wikipedia.org/wiki/Battle_for_Nevada",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "UNLV leads its all-time men's basketball series with in-state rival Nevada.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "UNLV beat rival Nevada 85-83 in overtime at the Thomas & Mack Center last season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UNLV_Runnin%27_Rebels_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UNLV's Thomas & Mack Center held its gala grand opening on Dec. 16, 1983, after a $30 million construction project.",
+     "source": "https://en.wikipedia.org/wiki/Thomas_%26_Mack_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court at UNLV's Thomas & Mack Center has been named Jerry Tarkanian Court since 2005.",
+     "source": "https://en.wikipedia.org/wiki/UNLV_Runnin%27_Rebels_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UNLV's Thomas & Mack Center picked up the nickname the Shark Tank from coach Jerry Tarkanian, who was known as Tark the Shark.",
+     "source": "https://en.wikipedia.org/wiki/Thomas_%26_Mack_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UNLV shares the Thomas & Mack Center with the National Finals Rodeo, which has been held in the building each December since 1985.",
+     "source": "https://en.wikipedia.org/wiki/Thomas_%26_Mack_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The NBA Summer League has called UNLV's Thomas & Mack Center home since 2004.",
+     "source": "https://en.wikipedia.org/wiki/Thomas_%26_Mack_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cox Pavilion, added in 2001 and connected directly to UNLV's Thomas & Mack Center, is home to the school's women's basketball and volleyball teams.",
+     "source": "https://en.wikipedia.org/wiki/Thomas_%26_Mack_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}

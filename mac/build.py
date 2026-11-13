@@ -762,8 +762,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
-        if SITE_DIR / "masthead.html" not in pages:
-            pages.append(SITE_DIR / "masthead.html")
+        for root_page in ("masthead.html", "media.html"):
+            if SITE_DIR / root_page not in pages:
+                pages.append(SITE_DIR / root_page)
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
         f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name not in ("desk.html", "courtside-desk.html")
         and not (f.parent.name == "games" and f.stem in CANON)))
@@ -779,6 +780,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
                            kicker=f"{LEAGUE.short} MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
+    if LEAGUE.has("x"):  # follow.html is not in the menu, so it gets its card here
+        site_chrome.share_card(og / "follow.png", f"{LEAGUE.short} on X", "Team, coach, player and media accounts to follow, one checklist.",
+                               accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}
     for t in TEAMS:
         rec = standings.get(t.key, {})

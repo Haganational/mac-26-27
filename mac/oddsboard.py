@@ -152,13 +152,19 @@ def drop_quotes(books: dict[str, dict[str, Any]], bad: dict[str, set[str]]) -> d
     return {k: b for k, b in clean.items() if any(s in b for s in SIDES)}
 
 
+# What one point of spread or total is worth, as cover probability, when two books differ on
+# both the number and the price. Roughly 1.5 points of probability per half point in college
+# basketball; close enough to stop a heavily juiced half point from beating a fair price.
+POINT_VALUE = 0.03
+
+
 def _better(side: str, q: dict[str, Any]) -> tuple:
-    """Sort key: bigger is better for the bettor on that side."""
+    """Sort key: bigger is better for the bettor on that side. Spreads and totals weigh the
+    number and the price together: the value of the points minus the break-even rate."""
     price = decimal_odds(q["price"]) or 0
-    if side in ("away_spread", "home_spread", "under"):
-        return (q["point"], price)  # more points / higher under
-    if side == "over":
-        return (-q["point"], price)  # lower over
+    if side in ("away_spread", "home_spread", "under", "over"):
+        pts = -q["point"] if side == "over" else q["point"]  # a lower over is the better number
+        return (round(pts * POINT_VALUE - (1 / price if price else 1), 6),)
     return (price,)
 
 
