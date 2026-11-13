@@ -157,6 +157,7 @@ ASUN = League(
     ),
     features=frozenset({"notes"}),  # Fieldhouse Notes from Craig, the Miami contributor
     path="asun/",
+    league_feed=("asunsports.org", "ASUN (asunsports.org)"),
     theme="glades",
     odds_aliases={
         "Florida Gulf Coast Eagles": "fgcu",
@@ -204,6 +205,8 @@ HORIZON = League(
     ),
     features=frozenset(),
     path="horizon/",
+    league_feed=("horizonleague.org", "Horizon League (horizonleague.org)"),
+    hashtag="HorizonLeague",
     theme="steel",
     odds_aliases={
         "Cleveland St Vikings": "cleveland-state",
@@ -261,6 +264,8 @@ MW = League(
     ),
     features=frozenset(),
     path="mw/",
+    league_feed=("themw.com", "Mountain West (themw.com)"),
+    hashtag="MountainWest",
     theme="peaks",
     odds_aliases={
         "Grand Canyon Antelopes": "grand-canyon",
@@ -415,6 +420,7 @@ BIGWEST = League(
         "utah-valley": {"query": "Utah Valley Wolverines", "match": [r"\bUtah Valley\b", r"\bUVU\b"]},
     },
     league_feed=("bigwest.org", "Big West (bigwest.org)"),
+    hashtag="BigWest",
     tournament="the Big West tournament at Lee's Family Forum in Henderson, Nevada",
 )
 

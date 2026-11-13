@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50  # enough history to date the last data snapshot for the freshness check
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -86,17 +88,30 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
         run: python -m mac.collect site
+      # Stale or empty data: skip today's video and email Matthew instead of publishing old news.
+      # Pull requests always render, to test the path.
+      - name: Skip and alert on stale data
+        id: fresh
+        if: github.event_name != 'pull_request'
+        env:
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: |
+          python -m mac.mac90video --check --data-time "$(git log -1 --format=%cI -- data/)"
       - name: Render the video
+        if: steps.fresh.outputs.skip != 'yes'
         env:
           PIPER_VOICE: voices/${{ env.VOICE }}.onnx
           CHROME_BIN: /usr/bin/google-chrome
         run: python -m mac.mac90video --out out
       - uses: actions/upload-artifact@v4
+        if: steps.fresh.outputs.skip != 'yes'
         with:
           name: mac90
           path: out/mac90-*
       - name: Publish as a release
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && steps.fresh.outputs.skip != 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
