@@ -1306,21 +1306,21 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": 97,
-    "winner": null
+    "score": 108,
+    "winner": true
    },
    "away": {
     "espn_id": "134743",
     "key": null,
     "name": "Grace (CA) Talons",
     "abbr": "GRCU",
-    "score": 60,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:16 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911471",
@@ -1350,7 +1350,7 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": 67,
+    "score": 77,
     "winner": null
    },
    "away": {
@@ -1358,13 +1358,13 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 66,
+    "score": 74,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:43 - 2nd"
+   "detail": "1:07 - 2nd"
   },
   {
    "game_id": "401920123",
@@ -9796,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T04:46:29+00:00"
+ "live_at": "2026-11-13T05:01:47+00:00"
 }
