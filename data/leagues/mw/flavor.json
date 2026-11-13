@@ -1,0 +1,1046 @@
+{
+ "_help": "Mountain West local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "air-force": {
+   "town": "Colorado Springs",
+   "home_floor": "Clune Arena",
+   "lines": [
+    {
+     "text": "Air Force made its first NCAA tournament appearance in 1960, falling to DePaul 69-63.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force's second NCAA tournament trip, in 1962, ended with a two-point loss to Texas Tech, 68-66.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force won the Mountain West regular-season title in 2004 and went to the NCAA tournament as a No. 11 seed, where it lost to North Carolina 63-52.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force's most recent NCAA tournament appearance came in 2006, when the 13th-seeded Falcons lost to No. 4 seed Illinois 78-69.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force has played in four NCAA tournaments, in 1960, 1962, 2004 and 2006.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force reached the NIT semifinals in 2007, beating Austin Peay, Georgia and DePaul before a 68-67 loss to Clemson.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force has two CollegeInsider.com Tournament wins, over North Dakota in 2011 and Hawaiʻi in 2013.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Air Force alumnus Jared Dillinger played professionally in the Philippine Basketball Association from 2008 to 2023.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball alumnus Rodney Tention went on to be head coach at Loyola Marymount from 2005 to 2008.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball alumni Bob Djokovich and Thomas Schneeberger, both Olympians, founded the academy's team handball program.",
+     "source": "https://en.wikipedia.org/wiki/Air_Force_Falcons_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Air Force announced Joe Crispin as its head coach on March 18, 2026, after he spent three seasons as an assistant at Penn State.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin was a first-team All-Big Ten guard at Penn State in 2001 and played in the NBA for the Los Angeles Lakers and Phoenix Suns in 2001-02.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before coming to Air Force, Joe Crispin went 90-54 as head coach at Division III Rowan from 2016 to 2023 and took Rowan to the Sweet 16 in his final season.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin is a native of Woodbury, New Jersey, who led Pitman High School to a New Jersey Group I state championship in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin played on the 2001 Penn State team that upset North Carolina in the NCAA tournament, three years before the Tar Heels beat Air Force there.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force coach Joe Crispin played professionally from 2001 to 2012, with stops in Greece, Poland, Italy, Spain, Turkey and Ukraine, and was the ABA's MVP in 2004.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Crispin",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force went 3-29 overall and 0-20 in the Mountain West in 2025-26, the season before Joe Crispin took over the program.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force's six-man freshman class includes four players who came up through the academy's own prep school.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force's senior class includes 7-foot Wesley Celichowski and 6-foot-9 Caleb Walker and Josh Gatete.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Air Force opens Mountain West play on Jan. 5, 2027.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-01-05"
+    },
+    {
+     "text": "Air Force's first Mountain West tournament game is scheduled for March 10, 2027, at the Thomas & Mack Center in Paradise, Nevada.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Air_Force_Falcons_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Clune Arena sits inside the Cadet Field House, which was built on the Air Force Academy grounds in 1968.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Air Force's home floor, Clune Arena, is named for Col. John J. Clune, a longtime director of athletics at the academy.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Clune Arena sits about 7,080 feet above sea level on the Air Force Academy campus near Colorado Springs.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Air Force basketball shares the Cadet Field House with the 2,217-seat Cadet Ice Arena, home of the academy's hockey team.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Cadet Field House that holds Air Force's Clune Arena also has a six-lane, 293-yard indoor track and a 97-yard turf field under the same roof.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Cadet Field House, home of Air Force basketball, is where the academy keeps the Commander-in-Chief's Trophy in the years the Falcons hold it.",
+     "source": "https://en.wikipedia.org/wiki/Clune_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "hawaii": {
+   "town": "Honolulu",
+   "home_floor": "the Stan Sheriff Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "nevada": {
+   "town": "Reno",
+   "home_floor": "Lawlor Events Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "grand-canyon": {
+   "town": "Phoenix",
+   "home_floor": "GCU Arena",
+   "lines": [
+    {
+     "text": "Men's basketball was the first sport Grand Canyon sponsored when the college opened in 1949, with Howard Mansfield hired as coach in the school's first year.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won NAIA national championships in men's basketball in 1975, 1978 and 1988, long before the Lopes played a Division I game.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first NCAA Division I tournament win came in 2024, when the 12th-seeded Lopes beat fifth-seeded Saint Mary's 75-66 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon reached the NCAA Division I tournament four times in five seasons from 2021 through 2025, seeded 15th, 14th, 12th and 13th.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first NCAA Division I tournament game was an 86-74 loss to second-seeded Iowa in 2021.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before moving up, Grand Canyon made 10 NCAA Division II tournaments between 1992 and 2013 and reached the regional semifinals in 1996, 1997 and 2007.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won the Western Athletic Conference tournament in 2021, 2023, 2024 and 2025.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon joined the Western Athletic Conference on July 1, 2013, withdrew on July 1, 2025, and was announced as a Mountain West member on July 8, 2025.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The NCAA officially approved Grand Canyon's move to Division I on Aug. 23, 2017, and the Lopes immediately became eligible for postseason play.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's first win over a Top 25 team came on Dec. 5, 2023, when the Lopes beat No. 25 San Diego State.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon won its first national title in 1975 by beating Midwestern State 65-54 in the NAIA final, with center Bayard Forrest named tournament MVP.",
+     "source": "https://en.wikipedia.org/wiki/Bayard_Forrest",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon plays in Phoenix, the fifth-most populous city in the United States and the most populous state capital, with more than 1.6 million residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's home city of Phoenix sits in the Salt River Valley in the northern reaches of the Sonoran Desert, at a mean elevation of 1,086 feet.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cotton, cattle, citrus, climate and copper were known locally as the Five C's anchoring the economy of Phoenix, home of Grand Canyon.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's hometown of Phoenix has been called the Valley of the Sun since the phrase was invented as a tourism slogan in the 1930s.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Phoenix, where Grand Canyon plays, averages about 300 days of sunshine a year and a mean July high of 106.5 degrees.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's home city of Phoenix is known for Mexican food, and the chain Macayo's was established there in 1946.",
+     "source": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon was founded in 1949 in Prescott, Arizona, as Grand Canyon College and moved to Phoenix on Oct. 8, 1951.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's teams are officially the Antelopes but go by Lopes, wear purple, black and white, and have a mascot named Thunder the Antelope.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_Antelopes",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's Phoenix campus covers 300 acres, and the university reported a total enrollment of 113,257 in fall 2024.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Former Grand Canyon center Horacio Llamas became the first Mexican-born player in NBA history when he debuted for the Phoenix Suns on March 2, 1997.",
+     "source": "https://en.wikipedia.org/wiki/Horacio_Llamas",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Horacio Llamas was the NCAA Division II Player of the Year at Grand Canyon in 1996 and set school records with 10 blocks in a game and 172 in a career.",
+     "source": "https://en.wikipedia.org/wiki/Horacio_Llamas",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bayard Forrest, a 6-foot-10 center at Grand Canyon from 1972 to 1976, was a second-round pick of Seattle in the 1976 NBA draft and played two seasons for the Phoenix Suns.",
+     "source": "https://en.wikipedia.org/wiki/Bayard_Forrest",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon counts Tim Salmon, Henry Cejudo and Bill Engvall among its alumni.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Canyon_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bryce Drew is in his seventh season as Grand Canyon's head coach.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon went 20-12 last season and tied for third at 13-7 in its first year in the Mountain West.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon's first Mountain West tournament ended with an 84-80 quarterfinal loss to Nevada on March 12, 2026, and the Lopes missed the NCAA tournament for the first time since 2022.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon brought in 10 transfers for the 2026-27 season, including players from Wake Forest, St. John's, USC, Baylor and NC State.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grand Canyon's nonconference schedule includes trips to Oklahoma State on Dec. 2 and Memphis on Dec. 11 and a Dec. 18 game against Florida in Jacksonville.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2026-12-02"
+    },
+    {
+     "text": "Grand Canyon is scheduled to open Mountain West play on Jan. 2 at UC Davis and host UNLV in Phoenix three days later.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grand_Canyon_Antelopes_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-01-02"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Grand Canyon's home floor opened in September 2011 as GCU Arena, about 15 months after the university announced the project.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's arena seats 7,000, up from the original 5,000 after a 2014 remodel that added an upper deck.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's building has carried the name Global Credit Union Arena since a naming-rights deal was announced on Dec. 5, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Global Credit Union Arena sits at 3300 West Camelback Road on the Grand Canyon campus in Phoenix.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Only 42 steps separate the event level from the concourse at Grand Canyon's Global Credit Union Arena.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The ceiling beams above the floor at Grand Canyon's arena were signed by university employees and students.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The main video board at Grand Canyon's arena is 15 feet tall and 35 feet wide and weighs about three tons.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A vault of Bibles is buried at center court at Grand Canyon's Global Credit Union Arena.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Grand Canyon's arena went up with 41,000 bricks and 75 miles of electrical wiring, and its five concession stands include three pizza ovens.",
+     "source": "https://en.wikipedia.org/wiki/Global_Credit_Union_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "new-mexico": {
+   "town": "Albuquerque",
+   "home_floor": "the Pit",
+   "lines": [
+    {
+     "text": "Basketball became a varsity sport at New Mexico in 1899, 21 years before the school's teams were first called the Lobos.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico made its first NCAA tournament trip in 1968 and won its first tournament game in 1974, beating Idaho State.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico won five Western Athletic Conference regular-season titles, in 1964, 1968, 1974, 1978 and 1994, before the Lobos moved to the Mountain West.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's only win over a No. 1-ranked opponent came in the 1987-88 season, when the Lobos jumped to a 25-9 lead on Arizona and held on.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico reached the final of the 1964 NIT under Bob King, losing to Bradley, in the same season the Lobos won their first WAC title.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico went 29-6 in 2012-13 and won the Mountain West tournament, the second of three straight league tournament titles for the Lobos from 2012 to 2014.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Steve Alford went 155-52 in six seasons as New Mexico's coach, a .749 winning percentage.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "New Mexico has been in the Mountain West since the league began play in 1999 and is one of its charter members.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque was founded in 1706 as La Villa de Alburquerque.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Sandia Mountains rise on Albuquerque's east side, and their name is Spanish for watermelon, popularly tied to the pink and green they turn at sunset.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Sandia Peak Tramway on the edge of Albuquerque opened in 1966, the same year as the Pit, and runs 2.7 miles to a top station at 10,378 feet.",
+     "source": "https://en.wikipedia.org/wiki/Sandia_Peak_Tramway",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Route 66 was realigned onto Albuquerque's Central Avenue in 1937, and the same street forms the southern edge of New Mexico's main campus.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque fills its sky every October with the Albuquerque International Balloon Fiesta, the largest balloon festival in the world.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque is home to Kirtland Air Force Base, which dates to 1939, and Sandia National Laboratories, established in 1949.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albuquerque, where the Rio Grande runs north to south through the middle of town, gets about 278 sunny days a year.",
+     "source": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Frontier Restaurant, a popular meeting spot for New Mexico students, sits across Central Avenue from the main campus in Albuquerque.",
+     "source": "https://en.wikipedia.org/wiki/University_of_New_Mexico",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's teams were known as the University Boys or the Varsities until 1920, when student newspaper editor George S. Bryan came up with Lobos, the Spanish word for wolf.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico has worn cherry and silver since 1897, after starting out in black and gold.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's fight song, Hail, New Mexico, dates to 1930, with music by professor Lena Clauve and words by English professor George St. Clair.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's mascot Lobo Louie dates to the early 1960s and was joined by Lobo Lucy in the early 1980s.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of New Mexico was founded on Feb. 28, 1889, and its Albuquerque campus is known for the Pueblo Revival buildings of architect John Gaw Meem.",
+     "source": "https://en.wikipedia.org/wiki/University_of_New_Mexico",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mel Daniels, New Mexico's first All-American, was the ninth pick of the 1967 NBA draft and went on to be ABA MVP in 1969 and 1971 and win three ABA titles with Indiana.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Michael Cooper, a New Mexico All-American in 1978, went on to win five NBA titles and the league's 1987 Defensive Player of the Year award.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Luc Longley left New Mexico as the seventh pick of the 1991 NBA draft and won three NBA titles as a starter for the Chicago Bulls from 1996 to 1998.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Kenny Thomas went from Albuquerque High to New Mexico in 1995, was drafted 22nd overall by Houston in 1999 and played 11 NBA seasons.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Danny Granger played at New Mexico from 2003 to 2005, went 17th in the 2005 NBA draft to Indiana and was an NBA All-Star in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Danny_Granger",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Eric Olen is in his second season at New Mexico after being hired in March 2025 from UC San Diego, where he went 240-119 from 2013 to 2025.",
+     "source": "https://en.wikipedia.org/wiki/Eric_Olen",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico coach Eric Olen is a native of Mobile, Alabama, who played at Spring Hill College and took UC San Diego to the 2025 NCAA tournament as Big West champion.",
+     "source": "https://en.wikipedia.org/wiki/Eric_Olen",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico went 26-11 last season, Eric Olen's first, and 13-7 in the Mountain West before a run to the NIT semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico was a No. 1 seed in last season's NIT and beat Sam Houston, George Washington and Saint Joseph's before losing 74-69 to Tulsa in the semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico was the No. 3 seed in last season's Mountain West tournament and went out in the semifinals, 64-62 to San Diego State.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-09"
+    },
+    {
+     "text": "New Mexico plays this season in a 10-team Mountain West that added UTEP and UC Davis after Boise State, Colorado State, Fresno State, San Diego State and Utah State left for the Pac-12.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "New Mexico and UTEP first met in 1929 and have played more than 140 times.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "New Mexico swept ninth-ranked UNLV home and away in 1977-78, two seasons after the Lobos and Rebels first met.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "New Mexico's oldest basketball rivalry is with New Mexico State, a series that began in 1904 and has run past 200 games.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The floor at the Pit sits 37 feet below street level, and New Mexico students were already calling the building by that name when it opened in 1966.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico opened the Pit on Dec. 1, 1966, with a 62-53 win over Abilene Christian.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 338-by-300-foot roof of the Pit was built first, just above street level, and no supporting pillars stand in the seating area of New Mexico's arena.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit cost about $1.4 million to build in 1966, and New Mexico spent about $60 million renovating it for the 2010-11 season.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit holds 15,411 for New Mexico basketball, down from the 18,018 it seated after a 1975 expansion.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pit in Albuquerque hosted the 1983 Final Four, where North Carolina State beat Houston 54-52 in the last men's Final Four held on a college campus.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court at the Pit sits about 5,100 feet above sea level, and it has been named for former New Mexico coach Bob King since 1992.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico won 41 straight games at the Pit from Feb. 10, 1996, to Feb. 19, 1998, the longest home winning streak in the building's history.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico averaged a record 17,625 fans a game at the Pit in 1997-98.",
+     "source": "https://en.wikipedia.org/wiki/New_Mexico_Lobos_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico announced on Feb. 26, 2026, a 10-year naming rights deal that made its home The Pit - Powered by Nusenda.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "New Mexico filled all 15,411 seats at the Pit for San Diego State on Feb. 28, 2026, its largest home crowd of last season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Mexico_Lobos_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "The largest crowd in the history of the Pit, 19,452, came on Jan. 17, 1976, when New Mexico hosted UNLV.",
+     "source": "https://en.wikipedia.org/wiki/The_Pit_(arena)",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "uc-davis": {
+   "town": "Davis",
+   "home_floor": "the University Credit Union Center",
+   "lines": [],
+   "home_lines": [
+    {
+     "text": "The UC Davis arena was called Recreation Hall from 1977 to 2004 and the Pavilion at the ARC from 2004 to 2021 before it became the University Credit Union Center in July 2021.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University Credit Union Center in Davis seats 6,003 for basketball, on a maple hardwood floor.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The attendance record for a UC Davis men's basketball game is 7,926, set on Jan. 23, 1999, when the Aggies beat Chico State 102-71.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UC Davis arena has been joined to the Activities and Recreation Center since spring 2004, when the university opened the ARC and fused the two buildings into one complex.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UC Davis men share the University Credit Union Center with the Aggies' women's basketball, women's volleyball and women's gymnastics teams.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University Credit Union Center sits at 1 Shields Avenue on the UC Davis campus, which lies in unincorporated Yolo County.",
+     "source": "https://en.wikipedia.org/wiki/University_Credit_Union_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "san-jose-state": {
+   "town": "San Jose",
+   "home_floor": "the Event Center",
+   "lines": [
+    {
+     "text": "San José State played its first recorded men's basketball game in 1909.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State has made three NCAA Tournament appearances, in 1951, 1980 and 1996.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State's first NCAA Tournament trip came in 1951, when the Spartans fell to BYU 68-61.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State went to the 1980 NCAA Tournament as a No. 12 seed and the Pacific Coast Athletic Association champion, losing to Missouri 61-51.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State won the 1996 Big West Tournament in Reno as a No. 6 seed, taking three games in three days and beating Utah State 76-75 in overtime for the title.",
+     "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State's most recent NCAA Tournament game was March 14, 1996, when the 16th-seeded Spartans met Kentucky at Reunion Arena in Dallas.",
+     "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State counts 10 conference titles in men's basketball, the first in 1925 in the California Coast Conference and the most recent the 1996 Big West crown.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State earned the first postseason win in program history in 2023, beating Southern Indiana 77-52 in the first round of the CBI.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State went 21-14 in 2022-23 and finished fifth in the Mountain West at 10-8, and Tim Miles was named the league's coach of the year.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State has played in the NIT twice, in 1981 against UTEP and in 2025 against Loyola Chicago.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State has been a Mountain West member since the 2013-14 academic year.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San José State's home floor, the Provident Credit Union Event Center, opened Sept. 8, 1989, at a cost of $31 million.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's arena was known as the Event Center Arena from 1989 until August 2019, when a 20-year, $8.1 million deal put Provident Credit Union's name on it.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the Event Center opened in 1989, San José State's home courts included Spartan Gym, the San Jose Civic Auditorium and, from 1976 to 1979, Independence High School.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San Jose was founded Nov. 29, 1777, as the Pueblo de San José de Guadalupe, California's first civilian settlement.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose was California's first state capital, with legislators meeting in the city from 1849 to 1851.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose counted 1,013,240 residents in the 2020 census, making San José State's hometown the third most populous city in California.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose adopted the nickname Capital of Silicon Valley in 1988, and Cisco, eBay, Adobe, PayPal and Zoom all keep their headquarters in the city.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Jose has taken steps to reduce light pollution because of its proximity to Lick Observatory atop Mount Hamilton.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Guadalupe River runs north from the Santa Cruz Mountains through San Jose and reaches San Francisco Bay at Alviso.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San José State's main campus covers 154 acres, roughly 19 square blocks, in downtown San Jose.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San José State became the Spartans in 1922, after earlier teams were known as the Daniels, the Teachers, the Pedagogues, the Normals and the Normalites.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State was founded in 1857 in San Francisco as the Minns Evening Normal School and moved to San Jose in 1871.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State's original colors were gold and white, with blue added before 1929.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State adopted its alma mater, Hail! Spartans, Hail!, on Feb. 25, 1929, and students and alumni still wear blue and gold on Thursdays.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tower Hall, the signature building on San José State's campus, was declared a California Historical Landmark in 1949.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State's mascot is Sammy Spartan, and the school's Spardi Gras celebration dates to 1929.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San José State alum Tariq Abdul-Wahad went 11th overall to the Sacramento Kings in the 1997 NBA draft and became the first player raised in France to play in the NBA.",
+     "source": "https://en.wikipedia.org/wiki/Tariq_Abdul-Wahad",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Stu Inman played at San José State from 1947 to 1950, coached the Spartans from 1960 to 1966 and later helped build the Portland Trail Blazers' 1977 NBA championship team.",
+     "source": "https://en.wikipedia.org/wiki/Stu_Inman",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "San José State has had 12 players taken in the NBA draft, and Darnell Hillman in 1971 was the first of four chosen in the first round.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "alumni",
+     "until": "2027-06-20"
+    },
+    {
+     "text": "San José State's alumni include Intel founder Gordon Moore and Super Bowl-winning NFL coach Bill Walsh.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "San José State coach Tim Miles, a native of Doland, South Dakota, led Colorado State from 2007 to 2012 and Nebraska from 2012 to 2019 before arriving in San Jose.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Tim Miles, hired April 6, 2021, is in his sixth season at San José State and brought a 62-104 record with the Spartans into 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/Tim_Miles",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State went 9-24 last season and 3-17 in the Mountain West, then beat sixth-seeded Boise State in the league tournament before falling to New Mexico.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State rebuilt its roster for 2026-27 with seven transfers and six freshmen, among them 7-foot center Moses Dau Nyangol.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State opened the 2026-27 season Nov. 2 with a 95-74 home win over UTSA.",
+     "source": "https://sjsuspartans.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State begins Mountain West play Jan. 2 at home against Hawaii.",
+     "source": "https://sjsuspartans.com/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-01-02"
+    },
+    {
+     "text": "San José State plays this season in a 10-team Mountain West that added UC Davis, UTEP and Hawaii as full members after Boise State, Colorado State, Fresno State, San Diego State and Utah State left for the Pac-12.",
+     "source": "https://en.wikipedia.org/wiki/Mountain_West_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "San José State and Nevada first met in men's basketball in 1911, and no current Mountain West member has played the Spartans more often than the Wolf Pack.",
+     "source": "https://en.wikipedia.org/wiki/San_Jose_State_Spartans_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "San José State beat Nevada 81-77 in overtime in the quarterfinals of the 2023 Mountain West Tournament.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Provident Credit Union Event Center seats 5,000 for San José State basketball, though early plans for the building called for 7,500.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Event Center sits at 290 South 7th Street on San José State's main campus in downtown San Jose.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first regular-season college game at San José State's Event Center was a November 1989 meeting with South Alabama.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's Event Center hosted Golden State Warriors exhibition games in 1990 and 1992 and has staged concerts by Prince, Pearl Jam and Eric Clapton.",
+     "source": "https://en.wikipedia.org/wiki/Provident_Credit_Union_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San José State's 2025 NIT game against Loyola Chicago drew 3,627 to the Provident Credit Union Event Center.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_San_Jose_State_Spartans_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}
