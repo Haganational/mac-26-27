@@ -173,3 +173,18 @@ def test_visitors_get_a_line_when_there_is_room():
     f = {"settings": {"max_lines": 2}, "rivalries": {},
          "teams": {"akron": {"lines": ["Akron note."], "home_lines": []}, "kent-state": {"lines": ["Kent note."], "home_lines": ["Only at the M.A.C. Center."]}}}
     assert gamer.write(ctx(), None, f)["flavor"] == ["Akron note.", "Kent note."]
+
+
+def test_around_town_rotates_by_day_and_drops_stale_news():
+    fl = {"teams": {"t": {"town": "Kent", "home_floor": "the MAC Center",
+                          "lines": [{"text": f"Note {i}.", "kind": "program-history", "source": "https://www.example.edu/a"} for i in range(10)]
+                          + [{"text": "Old news.", "kind": "current", "until": "2026-11-01"}],
+                          "home_lines": [{"text": "The arena opened in 1950.", "kind": "arena"}]}}}
+    a = gamer.around_town("t", fl, "2026-11-13", n=4)
+    b = gamer.around_town("t", fl, "2026-11-14", n=4)
+    assert a["town"] == "Kent" and a["floor"] == "the MAC Center" and a["total"] == 11
+    assert len(a["notes"]) == 4 and [n["text"] for n in a["notes"]] != [n["text"] for n in b["notes"]]
+    assert all(n["text"] != "Old news." for n in gamer.around_town("t", fl, "2026-11-13", n=20)["notes"])
+    assert any(n["host"] == "example.edu" for n in a["notes"] if n["source"])
+    assert gamer.around_town("nobody", fl, "2026-11-13") is None
+    assert all(n["kind"] != "arena" for n in gamer.around_town("t", fl, "2026-11-13", n=20, home=False)["notes"])
