@@ -6,7 +6,7 @@
 {% set page_title %}{{ LG }} Power Rankings · Week of {{ wk(snap.week) }}{% endset %}
 {% set lead = snap.teams[0] if snap.teams else None %}
 {% set page_desc %}The Bricks Index for every {{ LG }} team, week of {{ wk(snap.week) }}: recent form plus road wins{% if lead %}. {{ lead.short }} is No. 1{% endif %}.{% endset %}
-{{ L.head(page_title, page_desc, root=root, path=path, image="static/og/power.png", og_type="article" if caps else "website",
+{{ L.head(page_title, page_desc, root=root, path=path, image=("static/og/power-" ~ snap.week ~ ".png") if card_ok else "static/og/power.png", og_type="article" if caps else "website",
           canonical=(site_url ~ "power/" ~ snap.week ~ ".html") if latest else "") }}
 {% if caps %}<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "NewsArticle",
   "headline": LG ~ " power rankings, week of " ~ wk(snap.week),

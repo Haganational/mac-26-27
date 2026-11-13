@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import brick, cards, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -386,6 +386,7 @@ def render_site() -> str:
     ctx = travel.game_context(itins)
     mapping = analysis.match_lines_to_games(games, history)
     boxes = {b["game_id"]: b for b in load_boxscores()}
+    bk = render_brick(env, data, boxes, games, now)
     teamlinks = [{"key": t.key, "short": t.short} for t in TEAMS]
 
     notes_by_game = notes.by_game(dispatches)
@@ -407,6 +408,12 @@ def render_site() -> str:
     news_items = []  # (path, headline, published) for the news sitemap
     desk = []  # our own recaps and previews, for the front page's lead stories
     CANON.clear(); CANON.update(canon_games(games))
+    card_ok = site_chrome.pillow_ok()
+    og_dir = SITE_DIR / "static" / "og"
+    team_colors = {t.key: t.color for t in TEAMS}
+
+    def card_school(name: str, key: str | None = None) -> str:
+        return school(name)
     env.globals["canon_game"] = CANON
     for gid, box in boxes.items():
         g = by_id.get(gid)
@@ -427,6 +434,8 @@ def render_site() -> str:
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
                                mp=mp, gm=gm, pre=pre, published=pub, hl=highlights.for_game(gid, clips), phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
+        if card_ok:  # the share card: og:image for the page and the image on social posts
+            cards.render(og_dir, f"game-{gid}", cards.recap(LEAGUE.short, gc, gm, team_colors, card_school))
         have_box.add(gid)
         desk.append({"href": f"games/{gid}.html", "title": gm["headline"], "kind": "recap", "published": pub,
                      "dek": (gm["paragraphs"] or [""])[0], "photo": (game_photos or [None])[0], "video": gid in clips})
@@ -517,9 +526,14 @@ def render_site() -> str:
                              "published": story["published"], "dek": (story.get("paragraphs") or [""])[0], "photo": None})
                 if g["game_id"] not in CANON:
                     news_items.append((f"games/{g['game_id']}.html", story["headline"], story["published"]))
+        card = ""
+        if card_ok and story:  # only previews that run as stories get a card (and a social post)
+            card = f"static/og/preview-{g['game_id']}.png"
+            cards.render(og_dir, f"preview-{g['game_id']}",
+                         cards.preview(LEAGUE.short, g, story, team_colors, cards.records(standings, LEAGUE.short), card_school))
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
             d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], []),
-            story=story, ld_json=ld))
+            story=story, ld_json=ld, card=card))
         (SITE_DIR / "games" / f"{g['game_id']}-notes.html").write_text(prep_tpl.render(
             d=data, g=g, p=prep.context(g, games, standings, profiles, coach_for, (m or {}).get("opp_form") or {})))
     preview_story.save(previews_saved)
@@ -531,7 +545,7 @@ def render_site() -> str:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], brick=bk, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
@@ -583,7 +597,7 @@ def render_site() -> str:
         render_power(env, data, m, games, standings, profiles, now)
     if LEAGUE.has("notes"):
         render_notes(env, data, season, dispatches, notes_by_game, profiles)
-    render_weekly(env, data, dispatches)
+    render_weekly(env, data, dispatches, bk)
 
     static = TEMPLATES_DIR / "static"
     if static.exists():
@@ -670,8 +684,34 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                       for key, plist in profiles.items() for p in plist}))
 
 
-def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[str, Any]]) -> None:
-    """BricksIt Weekly: weekly/<NNN>.html for every issue, and weekly.html for the newest."""
+def render_brick(env: Environment, data: dict[str, Any], boxes: dict[str, dict[str, Any]], games: list[dict[str, Any]],
+                 now: datetime) -> dict[str, Any]:
+    """Brick of the Week: freeze any finished week, then brick.html (latest award and this week's watch),
+    brick/<monday>.html for every award, and brick.json for the all-conference front page and the social poster."""
+    brick.freeze(boxes, games, TEAMS, now)
+    wks = brick.weeks()
+    awards = {w: brick.load(w) for w in wks}
+    watch = brick.watch(boxes, games, TEAMS, now)
+    latest = awards[wks[-1]] if wks else None
+    tpl = env.get_template("brick.html")
+    (SITE_DIR / "brick").mkdir(exist_ok=True)
+    for i, w in enumerate(wks):
+        kw = dict(d=data, a=awards[w], weeks=wks, awards=awards, prev_week=wks[i - 1] if i else None,
+                  next_week=wks[i + 1] if i + 1 < len(wks) else None, rule=brick)
+        (SITE_DIR / "brick" / f"{w}.html").write_text(tpl.render(root="../", path=f"brick/{w}.html", **kw))
+    (SITE_DIR / "brick.html").write_text(tpl.render(
+        root="", path="brick.html", latest=True, d=data, a=latest, watch=watch, weeks=wks, awards=awards,
+        prev_week=wks[-2] if len(wks) > 1 else None, next_week=None, rule=brick))
+    out = {"award": latest, "watch": watch, "name": brick.NAME}
+    (SITE_DIR / "brick.json").write_text(json.dumps(out))
+    return out
+
+
+def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[str, Any]],
+                  bk: dict[str, Any] | None = None) -> None:
+    """BricksIt Weekly: weekly/<NNN>.html for every issue, and weekly.html for the newest.
+    Each issue carries the Brick of the Week announced on its date; the newest issue, before that
+    award is frozen, carries the Brick watch instead."""
     files = weekly.issues()
     if not files:
         return
@@ -681,8 +721,10 @@ def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[
     others = [{"short": lg.short, "href": f"{up}{lg.path}weekly.html"} for lg in LEAGUES.values()
               if lg.key != LEAGUE.key and weekly.issues(lg.key)]
     for i, f in enumerate(files):
-        ctx = weekly.context(json.loads(f.read_text()), data, dispatches)
-        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
+        issue = json.loads(f.read_text())
+        ctx = weekly.context(issue, data, dispatches)
+        bw = brick.for_issue(issue.get("date", "")) or ((bk or {}).get("watch") if i == len(files) - 1 else None)
+        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), brick=bw, **ctx)
         (SITE_DIR / "weekly" / f"{f.stem}.html").write_text(tpl.render(
             root="../", path=f"weekly/{f.stem}.html", others=[{**o, "href": "../" + o["href"]} for o in others], **kw))
         if i == len(files) - 1:
@@ -700,9 +742,17 @@ def render_power(env: Environment, data: dict[str, Any], m: dict[str, Any], game
     tpl = env.get_template("power.html")
     (SITE_DIR / "power").mkdir(exist_ok=True)
     live = {t["key"]: t for t in idx}
+    card_ok = site_chrome.pillow_ok()
+    og_dir = SITE_DIR / "static" / "og"
     for i, w in enumerate(wks):
         snap = power.load(w)
-        kw = dict(d=data, snap=snap, caps=power.capsules(w), weeks=wks, live=live,
+        caps = power.capsules(w)
+        if card_ok and snap and snap.get("teams"):  # the week's top five, plus one card per written capsule
+            cards.render(og_dir, f"power-{w}", cards.ranking(LEAGUE.short, w, snap["teams"], BY_KEY))
+            for t in snap["teams"]:
+                if caps.get(t["key"]):
+                    cards.render(og_dir, f"power-{w}-{t['key']}", cards.capsule(LEAGUE.short, w, t, caps[t["key"]], BY_KEY.get(t["key"])))
+        kw = dict(d=data, snap=snap, caps=caps, weeks=wks, live=live, card_ok=card_ok,
                   prev_week=wks[i - 1] if i else None, next_week=wks[i + 1] if i + 1 < len(wks) else None)
         (SITE_DIR / "power" / f"{w}.html").write_text(tpl.render(root="../", path=f"power/{w}.html", **kw))
         if i == len(wks) - 1:
@@ -790,7 +840,3 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
             lines.append(f"Coach {coaches[t.key]}")
         site_chrome.share_card(og / f"team-{t.key}.png", t.name, "Roster, player profiles, schedule, lines, travel and news.",
                                bg=t.color, accent=site_chrome.accent_for(t), lines=lines)
-    colors = {t.key: t.color for t in TEAMS}
-    by_id = {g["game_id"]: g for g in games}
-    for gid in have_box:
-        site_chrome.game_card(og / f"game-{gid}.png", by_id[gid], colors)

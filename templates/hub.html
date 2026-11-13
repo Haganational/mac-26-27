@@ -84,6 +84,14 @@
   </section>
   {% endif %}
 
+  {% set bricks = eds|selectattr('brick')|list %}
+  {% if bricks %}
+  <section class="brk" aria-labelledby="h-brick">
+    <div class="sh"><h2 id="h-brick">🧱 Brick of the Week</h2><span>The ugliest shooting night in each conference, told with love</span></div>
+    <ul>{% for e in bricks %}<li><a href="{{ e.brick.href }}"><span class="kick" style="--c:{{ e.color }}"><span class="cf">{{ e.short }}</span>{{ e.brick.span }}{{ ' · so far' if e.brick.live }}</span><b>{{ e.brick.team }}</b><span class="hd">{{ e.brick.headline }}</span><small>{{ e.brick.line }}, {{ 'win over' if e.brick.won else 'loss to' }} {{ e.brick.opp }}</small></a></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
   <div class="confs">
   {% for e in eds %}
     <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">

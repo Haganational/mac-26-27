@@ -41,6 +41,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
     ("weekly.html", "BricksIt Weekly", "The week on one page: the lead story, the column, news and notes", "#a8441c", "bricksit weekly newsletter week in review column look ahead predictions notes"),
     ("power.html", "Bricks Index", "The weekly power rankings: recent form plus road wins, with a capsule on every team", "#a8322a", "power rankings weekly poll top bricks index road wins capsule column"),
+    ("brick.html", "Brick of the Week", f"The ugliest shooting night in the {LEAGUE.short} each week, told with love", "#9a4a2c", "brick of the week award worst shooting night bricks misses cold"),
     ("players.html", "Players", f"Box-score ratings for every {LEAGUE.short} player, tied to the team model", "#199e70", "players player ratings bpm box score impact leaderboard"),
     ("book.html", "Almanac", "Every D-I conference: team ratings and player ratings from every game", "#9e3b26", "almanac book conferences d-i college basketball power ratings players acc sec big ten big 12 big east"),
     ("notes.html", "Fieldhouse Notes", "Dispatches from the season, game by game", "#7a2e1e", "fieldhouse notes dispatches column blog writing game notes"),
@@ -304,35 +305,6 @@ def share_card(path: Path, title: str, subtitle: str, *, bg: str = BRAND, accent
         y += 48
     _stripe(d, H - 22, 22, W)
     d.text((72, H - 78), SITE_URL.split("//", 1)[-1].rstrip("/"), font=_font(26, False), fill=soft)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    img.save(path, optimize=True)
-
-
-def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
-    """Final score card: each team's half in its own color."""
-    from PIL import Image, ImageDraw
-    W, H = 1200, 630
-    img = Image.new("RGB", (W, H), BRAND)
-    d = ImageDraw.Draw(img)
-    for i, side in enumerate((g["away"], g["home"])):
-        bg = colors.get(side.get("key") or "", "#3a3f4a")
-        x0 = i * W // 2
-        d.rectangle([x0, 0, x0 + W // 2, H], fill=bg)
-        ink = ink_on(bg)
-        won = (side["score"] or 0) > (g["home" if i == 0 else "away"]["score"] or 0)
-        d.text((x0 + 60, 120), side["abbr"], font=_font(64), fill=ink)
-        name = side["name"]
-        d.text((x0 + 60, 200), name, font=_fit(d, name, W // 2 - 100, 34, False), fill=ink)
-        sc = str(side["score"])
-        f = _font(200)
-        d.text((x0 + 60, 260), sc, font=f, fill=ink if won else _mix(bg, ink, 0.55))
-    d.rectangle([0, 0, W, 64], fill=BRAND)
-    d.text((40, 14), f"FINAL · {g['date'][:10]}", font=_font(30), fill=GOLD)
-    venue = (g.get("venue") or "")[:40]
-    d.text((W - 40 - d.textlength(venue, font=_font(26, False)), 18), venue, font=_font(26, False), fill="#c9d3e6")
-    _stripe(d, H - 18, 18, W)
-    url = SITE_URL.split("//", 1)[-1].rstrip("/")
-    d.text((W - 40 - d.textlength(url, font=_font(24, False)), H - 62), url, font=_font(24, False), fill="#ffffff")
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, optimize=True)
 

@@ -6,7 +6,16 @@ Source: each edition's news-sitemap.xml, which already lists only canonical game
 published in the last two days, with their headlines. A story is posted once (recap and
 preview of the same game are separate stories), only if it was published within
 FRESH_HOURS, and at most MAX_PER_RUN per run, so a backlog never floods the feed.
-What was posted is kept in data/social_posted.json.
+What was posted is kept in data/social_posted.json. Brick of the Week (mac/brick.py) adds one post per
+conference on Monday morning, at most BRICK_PER_RUN a run so the six awards are spread out.
+
+Second source: the Bricks Index. Once a week's capsules are written (data/power/capsules-<monday>.json
+in each edition), each conference's ranking posts once, then the capsules go out one per run, best
+rank first, in the daytime (Eastern), so 75 of them spread over a couple of days.
+
+Every post carries the story's share card (mac/cards.py): on Bluesky as the link card's image,
+on Threads through the page's og:image, or as the 4:5 portrait card for a capsule. Threads reads
+from the live site, so a story waits for the run after its page deploys.
 
 A failed post is retried quietly on the next run. When one network has failed
 ALERT_AFTER_RUNS runs in a row (an expired login, say), mac.alert emails Matthew, at most
@@ -70,6 +79,80 @@ def stories(site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
     return out
 
 
+def brick_items(site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
+    """This week's Brick of the Week for every edition, one post each, from the edition's brick.json.
+    The award is frozen Monday morning, so it is "published" at its freeze time and goes out once."""
+    out = []
+    for lg in LEAGUES.values():
+        f = site_root / lg.path / "brick.json"
+        try:
+            a = (json.loads(f.read_text()) or {}).get("award")
+        except (OSError, ValueError):
+            continue
+        if not a or not a.get("frozen_at"):
+            continue
+        from .brick import social_text
+        rel = f"{lg.path}brick/{a['week']}.html"
+        out.append({"url": SITE_BASE + rel, "title": f"{lg.short} Brick of the Week: {a['winner']['team']}",
+                    "published": a["frozen_at"], "kind": "brick", "page": site_root / rel, "league": lg.short,
+                    "tag": lg.hashtag or lg.short, "text": social_text(a, lg.short)})
+    return out
+
+
+BRICK_PER_RUN = 2  # six conferences' awards land at once on Monday; spread them over the morning's runs
+BRICK_FRESH_HOURS = 24
+
+
+def due_brick(items: list[dict[str, Any]], posted: dict[str, str], now: datetime, most: int = BRICK_PER_RUN) -> list[dict[str, Any]]:
+    """Unposted Brick of the Week awards frozen in the last day, at most `most` a run; the rest wait for the next run."""
+    return due(items, posted, now, fresh_hours=BRICK_FRESH_HOURS, most=most)
+
+
+def power_stories(now: datetime, site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
+    """The Bricks Index, once a week's capsules are written: the ranking itself, then one item per capsule.
+
+    Only the current week counts, so a late merge still posts but last week's never does."""
+    from . import power
+    from .cards import first_sentence
+    week = power.week_of(now)
+    out = []
+    for lg in LEAGUES.values():
+        d = lg.data_dir / "power"
+        snap, caps = power.load(week, d), power.capsules(week, d)
+        if not snap or not snap.get("teams") or not caps:
+            continue
+        wk = f"{int(week[5:7])}/{int(week[8:10])}"
+        url = f"{SITE_BASE}{lg.path}power/{week}.html"
+        og = site_root / lg.path / "static" / "og"
+        top = snap["teams"][0]
+        base = {"published": snap.get("frozen_at") or f"{week}T06:00:00-05:00", "page": site_root / lg.path / "power" / f"{week}.html",
+                "league": lg.short, "tag": lg.hashtag or lg.short}
+        out.append({**base, "url": url, "kind": "power", "image": og / f"power-{week}.png",
+                    "title": f"{lg.short} power rankings, week of {wk}: {top['short']} is No. 1"})
+        for t in snap["teams"]:
+            if caps.get(t["key"]):
+                out.append({**base, "url": f"{url}#{t['key']}", "kind": "capsule", "rank": t["rank"],
+                            "image": og / f"power-{week}-{t['key']}.png",
+                            "title": f"{lg.short} power rankings, No. {t['rank']}: {t['short']}",
+                            "text": f"Bricks Index, week of {wk}. No. {t['rank']} {t['short']}: {first_sentence(caps[t['key']], 200)}"})
+    return out
+
+
+CAPSULES_PER_RUN = 1  # about two an hour, so a week's 75 capsules run Monday to Wednesday instead of in one burst
+DAY_HOURS = range(8, 23)  # Eastern hours when capsules go out
+
+
+def due_power(items: list[dict[str, Any]], posted: dict[str, str], now: datetime) -> list[dict[str, Any]]:
+    """Each conference's ranking post first, then capsules best rank first, a few per run, daytime only."""
+    from zoneinfo import ZoneInfo
+    fresh = [{**it, "key": f"{it['url']}|{it['kind']}"} for it in items]
+    fresh = [it for it in fresh if it["key"] not in posted and it.get("image") and Path(it["image"]).exists()]
+    out = [it for it in fresh if it["kind"] == "power"]
+    if now.astimezone(ZoneInfo("America/New_York")).hour in DAY_HOURS:
+        out += sorted((it for it in fresh if it["kind"] == "capsule"), key=lambda x: (x["rank"], x["league"]))[:CAPSULES_PER_RUN]
+    return out
+
+
 def due(items: list[dict[str, Any]], posted: dict[str, str], now: datetime,
         fresh_hours: float = FRESH_HOURS, most: int = MAX_PER_RUN) -> list[dict[str, Any]]:
     """Unposted stories published in the last fresh_hours, oldest first."""
@@ -97,9 +180,12 @@ def _meta(page: Path | None, prop: str) -> str:
 
 
 def text_for(it: dict[str, Any]) -> str:
-    """The post body: the headline and a tag for the conference. The link rides in the card."""
+    """The post body: the headline (or an item's own text, like Brick of the Week) and a tag for the
+    conference. The link rides in the card."""
     tag = "#" + re.sub(r"\W", "", it.get("tag") or it["league"])
-    return f"{it['title']}\n\n{tag} #CollegeBasketball"[:290]
+    tail = f"\n\n{tag} #CollegeBasketball"
+    body = it.get("text") or it["title"]
+    return (body if len(body) + len(tail) <= 290 else body[:289 - len(tail)].rsplit(" ", 1)[0] + "…") + tail
 
 
 def _facets(text: str) -> list[dict[str, Any]]:
@@ -117,12 +203,25 @@ def _session(handle: str, password: str) -> dict[str, Any]:
     return r.json()
 
 
-def _thumb(sess: dict[str, Any], page: Path | None) -> dict[str, Any] | None:
-    img = _meta(page, "og:image")
-    if not img.startswith(SITE_BASE):
-        return None
-    f = SITE_ROOT / img[len(SITE_BASE):]
-    if not f.exists() or f.stat().st_size > 950_000:
+def card_file(it: dict[str, Any]) -> Path | None:
+    """The story's share card on disk: the item's own image, else the page's og:image."""
+    if it.get("image"):
+        return Path(it["image"])
+    img = _meta(it.get("page"), "og:image")
+    return SITE_ROOT / img[len(SITE_BASE):] if img.startswith(SITE_BASE) else None
+
+
+def card_url(it: dict[str, Any]) -> str:
+    f = card_file(it)
+    try:
+        return SITE_BASE + f.relative_to(SITE_ROOT).as_posix() if f else ""
+    except ValueError:
+        return ""
+
+
+def _thumb(sess: dict[str, Any], it: dict[str, Any]) -> dict[str, Any] | None:
+    f = card_file(it)
+    if not f or not f.exists() or f.stat().st_size > 950_000:
         return None
     r = requests.post(f"{PDS}/com.atproto.repo.uploadBlob", data=f.read_bytes(), timeout=30,
                       headers={"Authorization": f"Bearer {sess['accessJwt']}", "Content-Type": "image/png"})
@@ -132,8 +231,8 @@ def _thumb(sess: dict[str, Any], page: Path | None) -> dict[str, Any] | None:
 def post(sess: dict[str, Any], it: dict[str, Any], now: datetime) -> str:
     text = text_for(it)
     card: dict[str, Any] = {"uri": it["url"], "title": it["title"][:300],
-                            "description": _meta(it.get("page"), "description")[:300]}
-    thumb = _thumb(sess, it.get("page"))
+                            "description": (it.get("text") or _meta(it.get("page"), "description"))[:300]}
+    thumb = _thumb(sess, it)
     if thumb:
         card["thumb"] = thumb
     record = {"$type": "app.bsky.feed.post", "text": text, "facets": _facets(text), "langs": ["en"],
@@ -149,10 +248,39 @@ def post(sess: dict[str, Any], it: dict[str, Any], now: datetime) -> str:
 THREADS = "https://graph.threads.net/v1.0"
 
 
-def post_threads(user_id: str, token: str, it: dict[str, Any]) -> str:
-    """A text post with a link card: create the container, then publish it."""
-    r = requests.post(f"{THREADS}/{user_id}/threads", timeout=30, data={
-        "media_type": "TEXT", "text": text_for(it), "link_attachment": it["url"], "access_token": token})
+class NotLive(Exception):
+    """The page or card is not on the live site yet (it deploys after this step); try next run."""
+
+
+def _live(url: str) -> bool:
+    try:
+        return requests.head(url, timeout=15, allow_redirects=True).ok
+    except requests.RequestException:
+        return False
+
+
+def tall_url(it: dict[str, Any]) -> str:
+    """The 4:5 portrait card (static/og/ig/), for image posts."""
+    u = card_url(it)
+    return u.replace("/static/og/", "/static/og/ig/", 1) if "/static/og/" in u else ""
+
+
+def post_threads(user_id: str, token: str, it: dict[str, Any], live=_live) -> str:
+    """Create the container, then publish it. Threads reads the page (or the image) from the live
+    site, and this step runs before the deploy, so a story waits until its page is up.
+
+    Recaps, previews and the weekly ranking: a text post with a link card (Threads draws the card
+    from the page's og:image). Capsules: an image post with the portrait card and the link in the text,
+    since the ranking page's own card would show the whole conference."""
+    if not live(it["url"].split("#")[0]):
+        raise NotLive(it["url"])
+    data = {"text": text_for(it), "access_token": token}
+    img = tall_url(it) if it.get("kind") == "capsule" else ""
+    if img and live(img):
+        data.update(media_type="IMAGE", image_url=img, text=f"{text_for(it)}\n\n{it['url']}"[:500])
+    else:
+        data.update(media_type="TEXT", link_attachment=it["url"])
+    r = requests.post(f"{THREADS}/{user_id}/threads", timeout=30, data=data)
     r.raise_for_status()
     r2 = requests.post(f"{THREADS}/{user_id}/threads_publish", timeout=30,
                        data={"creation_id": r.json()["id"], "access_token": token})
@@ -220,17 +348,21 @@ def run(now: datetime | None = None) -> str:
         return "social: no Bluesky or Threads secrets set, skipped"
     posted = json.loads(POSTED.read_text()) if POSTED.exists() else {}
     if dry:
-        todo = due(stories(), posted, now)
-        return "\n".join(f"[dry] {text_for(it)!r} -> {it['url']}" for it in todo) or "social: nothing new"
+        todo = due(stories(), posted, now) + due_power(power_stories(now), posted, now) + due_brick(brick_items(), posted, now)
+        return "\n".join(f"[dry] {text_for(it)!r} -> {it['url']} [{card_url(it) or 'no card'}]" for it in todo) or "social: nothing new"
     report = []
     failures = json.loads(FAILURES.read_text()) if FAILURES.exists() else {}
     for prefix, send in nets:
         seen = seen_for(posted, prefix)
-        todo = due(stories(), seen, now)
-        n, error = 0, ""
+        todo = due(stories(), seen, now) + due_power(power_stories(now), seen, now) + due_brick(brick_items(), seen, now)
+        n, waiting, error = 0, 0, ""
         for it in todo:
             try:
                 send(it, now)
+            except NotLive:
+                print(f"social: {prefix or 'bsky:'}{it['url']} not deployed yet, next run")
+                waiting += 1  # not a failure: the page just hasn't deployed
+                continue
             except (requests.RequestException, KeyError) as e:
                 error = f"{type(e).__name__}: {e}"
                 print(f"social: {prefix or 'bsky:'}{it['url']} failed: {e}")
@@ -239,7 +371,7 @@ def run(now: datetime | None = None) -> str:
             n += 1
         name = (prefix or "bluesky:").rstrip(":")
         report.append(f"{name} {n}/{len(todo)}")
-        body = track_failures(failures, name, len(todo) - n, len(todo), error, now)
+        body = track_failures(failures, name, len(todo) - n - waiting, len(todo) - waiting, error, now)
         if body:
             alert.send(f"Social posts to {name} keep failing", body)
     FAILURES.write_text(json.dumps(failures, indent=1, sort_keys=True) + "\n")

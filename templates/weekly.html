@@ -54,6 +54,11 @@
   .bw-chart .t { font: 700 19px/1.15 Georgia, serif; margin: 0 0 2px; }
   .bw-chart .s { font: 12px/1.4 system-ui, sans-serif; color: var(--ink2); margin: 0 0 4px; }
   .bw-chart svg { display: block; width: 100%; height: auto; font-family: system-ui, sans-serif; }
+  .bw-brick { grid-column: 1 / -1; border: 1px solid var(--rule2); border-top: 4px solid #9a4a2c; background: #fbf3ea; padding: 10px 14px 12px; }
+  .bw-notes article.bw-brick { border-top: 4px solid #9a4a2c; padding-top: 10px; }
+  .bw-brick .bw-kick { color: #9a4a2c; margin-bottom: 6px; }
+  .bw-brick .ln { font: 600 13px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; margin: 0 0 6px; color: var(--ink2); }
+  .bw-brick p + p { margin-top: .5em; }
   .bw-foot { margin-top: 20px; border-top: 1px solid var(--rule2); padding-top: 8px; font: 12px/1.5 system-ui, sans-serif; color: var(--mut); display: flex; justify-content: space-between; gap: 6px 16px; flex-wrap: wrap; }
   .bw-foot a { color: var(--c); }
   @media (max-width: 860px) {
@@ -100,6 +105,13 @@
 
   <div class="bw-low">
     <div class="bw-notes">
+      {% if brick %}<article class="bw-brick">
+        <p class="bw-kick">🧱 {{ 'Brick watch · leader so far' if brick.live else 'Brick of the Week' }} · {{ brick.span }}</p>
+        <h3>{{ brick.winner.team }}: {{ brick.headline }}</h3>
+        <p class="ln">{{ brick.line }}, {{ 'win over' if brick.winner.won else 'loss to' }} {{ brick.winner.opp }}</p>
+        {% for p in brick.paragraphs %}<p>{{ p }}</p>{% endfor %}
+        <p><a href="{{ root }}brick.html">How the Brick is chosen →</a></p>
+      </article>{% endif %}
       {% for n in notes %}<article><h3>{{ n.headline }}</h3><p>{{ n.html|safe }}</p></article>{% endfor %}
     </div>
     {% if chart.rows %}

@@ -84,7 +84,15 @@ def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
     if not upcoming:
         upcoming = [g for g in d.get("upcoming", []) if not g.get("completed")][:4]
     finals = [g for g in d.get("recent", []) if g.get("completed")][:4]
+    try:
+        bk = json.loads((folder / "brick.json").read_text())
+    except (OSError, ValueError):
+        bk = {}
+    brick = bk.get("award") or bk.get("watch")
     return {
+        "brick": {"team": brick["winner"]["team"], "headline": brick["headline"], "line": brick["line"], "span": brick["span"],
+                  "live": bool(brick.get("live")), "opp": brick["winner"]["opp"], "won": brick["winner"]["won"],
+                  "href": prefix + "brick.html"} if brick else None,
         "key": lg.key, "short": lg.short, "name": lg.name, "region": lg.region,
         "href": front_page(lg), "prefix": prefix, "weekly": bool(weekly.issues(lg.key)), "n_teams": len(lg.teams),
         "tonight": [_game(g, site_root, prefix) for g in upcoming[:6]],

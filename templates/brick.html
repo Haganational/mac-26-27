@@ -1,0 +1,99 @@
+{% import "_layout.html" as L %}
+{%- macro wk(w) -%}{{ w[5:7]|int }}/{{ w[8:10]|int }}{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+{% set shown = a or watch %}
+{% if a %}{% set page_title %}{{ LG }} Brick of the Week, {{ a.span }}: {{ a.winner.team }}{% endset %}
+{% set page_desc %}{{ a.winner.team }}, {{ a.line }}. {{ a.headline }}. The {{ LG }}'s ugliest shooting night of the week, told with love.{% endset %}
+{% else %}{% set page_title %}{{ LG }} Brick of the Week{% endset %}
+{% set page_desc %}The ugliest shooting night in the {{ LG }} each week, told with love. First award Monday, November 16.{% endset %}{% endif %}
+{{ L.head(page_title, page_desc, root=root, path=path, image="static/og/brick.png", og_type="article" if a else "website",
+          canonical=(site_url ~ "brick/" ~ a.week ~ ".html") if (latest and a) else "") }}
+{% if a %}<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "NewsArticle",
+  "headline": LG ~ " Brick of the Week, " ~ a.span ~ ": " ~ a.winner.team, "description": a.headline,
+  "datePublished": a.frozen_at, "articleSection": "Brick of the Week",
+  "author": {"@type": "Organization", "name": site_name}, "publisher": {"@id": site_url ~ "#org"},
+  "mainEntityOfPage": site_url ~ "brick/" ~ a.week ~ ".html"}|tojson }}</script>{% endif %}
+<style>
+  .bk { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 4px 22px; align-items: start; border-top: 3px solid #9a4a2c; padding: 18px 0 8px; }
+  .bk-trophy { width: 132px; }
+  .bk-trophy svg { display: block; width: 100%; height: auto; }
+  .bk-k { font: 700 11.5px/1 system-ui, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #9a4a2c; margin: 0 0 8px; }
+  .bk h2 { border: 0; padding: 0; margin: 0 0 4px; font: 700 clamp(26px, 4vw, 38px)/1.08 Georgia, serif; letter-spacing: -.01em; }
+  .bk-team { font-size: 19px; font-weight: 700; margin: 0 0 6px; }
+  .bk-team a { color: inherit; }
+  .bk-line { display: inline-block; font: 600 14px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--panel, rgba(0,0,0,.04)); border: 1px solid var(--border); border-radius: 6px; padding: 5px 9px; margin: 2px 0 12px; }
+  .bk-body { max-width: 66ch; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; }
+  .bk-body p { margin: 0 0 .8em; }
+  .bk-ru { font-size: 14px; color: var(--ink-2); margin: 4px 0 0; }
+  .bk-ru li { margin: 2px 0; }
+  .bk-watch { border: 1px dashed var(--border); border-radius: 10px; padding: 12px 16px; margin: 18px 0 0; }
+  .bk-watch b { font-size: 16px; }
+  .wknav { display: flex; gap: 14px; font-size: 14px; margin: 8px 0 0; flex-wrap: wrap; }
+  .bk-arch { columns: 2 220px; padding-left: 18px; }
+  @media (max-width: 600px) { .bk { grid-template-columns: 1fr; } .bk-trophy { width: 96px; } .bk-body { font-size: 16px; } }
+</style>
+</head>
+<body>
+{{ L.topbar(root=root, active="brick.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="{{ root }}{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Brick of the Week</nav>
+  <header>
+    <h1>Brick of the Week</h1>
+    <span class="sub">The {{ LG }}'s ugliest shooting night of the week, Monday through Sunday, announced every Monday morning. Told with love: we poke at the rim, never at the shooters.</span>
+    <div class="wknav">
+      {% if prev_week %}<a href="{{ root }}brick/{{ prev_week }}.html">← {{ awards[prev_week].span }}</a>{% endif %}
+      {% if next_week %}<a href="{{ root }}brick/{{ next_week }}.html">{{ awards[next_week].span }} →</a>{% endif %}
+      {% if not latest %}<a href="{{ root }}brick.html">This week</a>{% endif %}
+    </div>
+  </header>
+
+  {% macro card(x, kicker) %}
+  <section class="bk" id="{{ 'watch' if x.live else 'w-' ~ x.week }}">
+    <div class="bk-trophy" aria-hidden="true">
+      <svg viewBox="0 0 132 120"><g stroke="#5a2a17" stroke-width="2">
+        <rect x="18" y="96" width="96" height="16" rx="2" fill="#3b2a20"/>
+        <rect x="40" y="84" width="52" height="14" fill="#6b4a36"/>
+        <rect x="14" y="30" width="50" height="24" rx="2" fill="#b4532f"/><rect x="68" y="30" width="50" height="24" rx="2" fill="#a24a29"/>
+        <rect x="40" y="56" width="52" height="24" rx="2" fill="#c0603a"/>
+        <rect x="40" y="4" width="52" height="24" rx="2" fill="#a24a29"/></g>
+        <text x="66" y="108" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#f4e7d8" letter-spacing="1">{{ x.span|upper }}</text>
+      </svg>
+    </div>
+    <div>
+      <p class="bk-k">{{ kicker }}</p>
+      <h2>{{ x.headline }}</h2>
+      <p class="bk-team"><a href="{{ root }}teams/{{ x.winner.key }}.html">{{ x.winner.team }}</a> <span class="dim">{{ 'beat' if x.winner.won else 'lost to' }} {{ x.winner.opp }} {{ [x.winner.pts, x.winner.opp_pts]|max }}-{{ [x.winner.pts, x.winner.opp_pts]|min }}{{ ' (neutral site)' if x.winner.site == 'neutral' else (', on the road' if x.winner.site == 'away' else ', at home') }}</span> · <a href="{{ root }}games/{{ x.winner.game_id }}.html">Box score</a></p>
+      <span class="bk-line">{{ x.line }} · {{ '%.1f'|format(x.winner.ts * 100) }}% true shooting</span>
+      <div class="bk-body">{% for p in x.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+      {% if x.runners_up %}<p class="bk-ru"><b>Also in the running</b> ({{ x.candidates }} qualifying nights):</p>
+      <ul class="bk-ru">{% for r in x.runners_up %}<li>{{ r.team }} {{ 'vs.' if r.site == 'home' else ('at' if r.site == 'away' else 'vs.') }} {{ r.opp }}: {{ r.line }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+  </section>
+  {% endmacro %}
+
+  {% if a %}{{ card(a, LG ~ " Brick of the Week · " ~ a.span) }}{% endif %}
+  {% if watch and not (a and watch.week == a.week) %}
+    {% if a %}<div class="bk-watch"><b>Brick watch, {{ watch.span }}:</b> {{ watch.winner.team }} leads the week so far, {{ watch.line }} {{ 'vs.' if watch.winner.site == 'home' else ('at' if watch.winner.site == 'away' else 'vs.') }} {{ watch.winner.opp }}. Plenty of basketball left before Monday.</div>
+    {% else %}{{ card(watch, "Brick watch · " ~ watch.span ~ " · the leader so far, not final until Monday") }}{% endif %}
+  {% endif %}
+  {% if not shown %}<p class="empty">No qualifying nights yet this week. Everybody's shooting fine. For now.</p>{% endif %}
+
+  <section class="method">
+    <h2>How the Brick is chosen</h2>
+    <p>Every game a {{ LG }} team finishes from Monday morning to the next Monday morning is a candidate, as long as the team took at least {{ rule.MIN_FGA }} shots from the floor. The Brick goes to the lowest <b>true shooting percentage</b>: points divided by twice the shooting attempts, where a free throw attempt counts as 0.44 of a shot. It counts twos, threes and free throws together, so there's no hiding a cold night behind the foul line. Ties go to the team with more missed shots, free throws included.</p>
+    <p>Guarantee games don't count. A night against an {{ rule.POWER[:-1]|join(', ') }} or {{ rule.POWER[-1] }} team is left out: everybody shoots poorly on a power-conference floor, and an award for that would just list who took the biggest check. The award is frozen Monday at 6 a.m. Eastern and never changes after that.</p>
+    <p>We name teams, never players, and the write-up always finds the bright spot. One cold night says nothing about anybody. It's a brick, not a verdict.</p>
+  </section>
+
+  {% if weeks|length > 1 or (weeks and not latest) %}
+  <section>
+    <h2>Past winners</h2>
+    <ul class="bk-arch">{% for w in weeks|reverse %}{% set x = awards[w] %}<li><a href="{{ root }}brick/{{ w }}.html">{{ x.span }}</a>: {{ x.winner.team }}, {{ x.winner.fgm }}-{{ x.winner.fga }} FG</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+</main>
+{{ L.footer(root=root, updated=d.generated_et) }}
+</body>
+</html>
