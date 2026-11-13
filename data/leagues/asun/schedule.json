@@ -1135,7 +1135,7 @@
     "name": "Howard Bison",
     "abbr": "HOW",
     "score": 75,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "56",
@@ -1143,12 +1143,12 @@
     "name": "Stetson Hatters",
     "abbr": "STET",
     "score": 62,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922250",
@@ -1183,13 +1183,13 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 30,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:08 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921167",
@@ -8078,5 +8078,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T02:00:40+00:00"
+ "live_at": "2026-11-13T02:15:43+00:00"
 }

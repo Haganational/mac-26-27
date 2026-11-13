@@ -1686,7 +1686,7 @@
     "name": "Brown Bears",
     "abbr": "BRWN",
     "score": 81,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2099",
@@ -1694,12 +1694,12 @@
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
     "score": 86,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911013",
@@ -1729,21 +1729,21 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 86,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "315",
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 73,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924857",
@@ -1773,21 +1773,21 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 68,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2405",
     "key": null,
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 72,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:28 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924876",
@@ -11171,5 +11171,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T02:01:17+00:00"
+ "live_at": "2026-11-13T02:16:32+00:00"
 }

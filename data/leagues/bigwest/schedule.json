@@ -1224,21 +1224,21 @@
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": 80,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
    "away": {
     "espn_id": "2934",
     "key": "csu-bakersfield",
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": 85,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:43 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920157",
@@ -1265,7 +1265,7 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1273,13 +1273,13 @@
     "key": null,
     "name": "Lincoln (CA) Oaklanders",
     "abbr": "LNCA",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:34 - 1st"
   },
   {
    "game_id": "401920296",
@@ -9796,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T02:01:33+00:00"
+ "live_at": "2026-11-13T02:16:55+00:00"
 }
