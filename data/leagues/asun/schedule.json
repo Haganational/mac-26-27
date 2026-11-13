@@ -1134,7 +1134,7 @@
     "key": null,
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -1142,13 +1142,13 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:41 - 1st"
   },
   {
    "game_id": "401922250",
@@ -8077,5 +8077,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-13T00:15:52+00:00"
 }

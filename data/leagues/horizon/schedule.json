@@ -1690,7 +1690,7 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1698,13 +1698,13 @@
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:40 - 1st"
   },
   {
    "game_id": "401928807",
@@ -10464,5 +10464,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-13T00:16:06+00:00"
 }
