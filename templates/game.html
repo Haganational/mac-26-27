@@ -55,6 +55,8 @@
   </section>
   {% endif %}
 
+  {% if courtside and courtside.get(g.game_id) %}{% import "_courtside.html" as C %}{{ C.style() }}{{ C.panel(courtside[g.game_id], root="../" ~ site_up) }}{% endif %}
+
   {% if game_notes %}
   <section>
     <h2>Fieldhouse Notes</h2>

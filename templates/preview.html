@@ -49,6 +49,8 @@
   </article>
   {% endif %}
 
+  {% if courtside and courtside.get(g.game_id) %}{% import "_courtside.html" as C %}{{ C.style() }}{{ C.panel(courtside[g.game_id], root="../" ~ site_up) }}{% endif %}
+
   <section id="model">
     <div class="sechead"><h2>The model's call</h2><span class="dim">Rating model v1 · updated {{ d.generated_et }}</span></div>
     <div class="pv-model">

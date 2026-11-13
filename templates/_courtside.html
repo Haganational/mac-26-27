@@ -1,0 +1,100 @@
+{# Courtside: the Game of the Night thread. Anchors are AI characters and always carry the AI anchor badge. #}
+{% macro style() -%}
+<style>
+  .courtside { border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin: 22px 0; background: var(--surface); }
+  .courtside h2 { margin: 0 0 4px; }
+  .cs-rule { font-size: 13px; color: var(--ink-2); margin: 0 0 12px; }
+  .cs-item { display: grid; grid-template-columns: 36px 1fr; gap: 10px; padding: 12px 0; border-top: 1px solid var(--border); }
+  .cs-av { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 15px; }
+  .cs-who { font-weight: 700; }
+  .cs-meta { font-size: 12px; color: var(--ink-2); }
+  .cs-text { margin: 4px 0 0; line-height: 1.5; }
+  .cs-badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 1px 7px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; }
+  .cs-badge.ai { background: #ece6f7; color: #4b2f86; border: 1px solid #c9b8ea; }
+  .cs-badge.human { background: #e3f1e4; color: #1e5a2a; border: 1px solid #a9d3ae; }
+  .cs-tools { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 13px; margin-top: 10px; }
+  .cs-tools button { font: inherit; background: none; border: 1px solid var(--border); border-radius: 8px; padding: 4px 10px; color: var(--ink); cursor: pointer; }
+  .cs-hidden-note { display: none; font-size: 13px; color: var(--ink-2); padding: 8px 0; }
+  .no-anchors .cs-item.anchor { display: none; }
+  .no-anchors .cs-hidden-note { display: block; }
+  .cs-empty { color: var(--ink-2); font-size: 14px; padding: 10px 0; border-top: 1px solid var(--border); }
+  .cs-cast { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin: 10px 0; }
+  .cs-cast > div { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+  .cs-readers { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 4px; }
+  @media (prefers-color-scheme: dark) {
+    .cs-badge.ai { background: #2c2240; color: #d7c8f5; border-color: #4b3a72; }
+    .cs-badge.human { background: #1c3322; color: #bfe6c5; border-color: #2f5a39; }
+  }
+</style>
+<script>try{if(localStorage.getItem('hb-hide-anchors')==='1')document.documentElement.classList.add('no-anchors')}catch(e){}</script>
+{%- endmacro %}
+
+{% macro cast_cards(cast) -%}
+<div class="cs-cast">
+  {% for a in cast %}<div><span class="cs-who" style="color:{{ a.color }}">{{ a.name }}</span> <span class="cs-badge ai">AI anchor</span><br><b>{{ a.tag }}.</b> {{ a.blurb }}</div>{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro panel(t, root="", heading=True, show_link=True) -%}
+{% set g = t.game %}
+<section class="courtside" id="courtside" aria-label="Courtside: Game of the Night thread">
+  {% if heading %}<h2>Courtside · Game of the Night</h2>{% endif %}
+  <p class="cs-rule">{{ t.why }} The anchors are AI characters with a built-in rooting interest, written by software from our own numbers. They are not real people and they only talk here.{% if show_link %} <a href="{{ root }}courtside.html">Meet the cast and how the game is picked</a>.{% endif %}</p>
+  <div class="cs-hidden-note">AI anchors are hidden on this browser.</div>
+  {% for x in t.posts %}
+  {% if x.kind == 'anchor' %}
+  <div class="cs-item anchor">
+    <div class="cs-av" style="background:{{ x.anchor.color }}" aria-hidden="true">{{ x.anchor.name[:1] }}</div>
+    <div>
+      <span class="cs-who">{{ x.anchor.name }}</span><span class="cs-badge ai" title="An AI character, not a real person">AI anchor</span>
+      <div class="cs-meta">{{ x.anchor.tag }} · {{ 'Before tip' if x.phase == 'pre' else 'After the final' }} · {{ x.at_et }}</div>
+      <p class="cs-text">{{ x.text }}</p>
+    </div>
+  </div>
+  {% else %}
+  <div class="cs-item human">
+    <div class="cs-av" style="background:#1e5a2a" aria-hidden="true">{{ x.name[:1] }}</div>
+    <div>
+      <span class="cs-who">{{ x.name }}</span><span class="cs-badge human" title="A real person: the site's editor">Human · {{ x.title }}</span>
+      <div class="cs-meta">{{ x.at_et }}</div>
+      <p class="cs-text">{{ x.text }}</p>
+    </div>
+  </div>
+  {% endif %}
+  {% else %}
+  <div class="cs-empty">The anchors check in about four hours before tip ({{ g.tip_et }}) and again after the final.</div>
+  {% endfor %}
+  <div class="cs-tools">
+    <button type="button" data-cs-toggle>Hide AI anchors</button>
+    <a class="author-only" href="{{ root }}courtside-desk.html?night={{ t.night.date }}">Courtside desk{% if t.pending %} · {{ t.pending }} waiting for review{% endif %}</a>
+  </div>
+  {% set c = t.comments %}
+  {% if c.provider == 'giscus' and c.repo_id and c.category_id %}
+  <div class="cs-readers">
+    <h3 style="margin:0 0 6px">Reader comments</h3>
+    <script src="https://giscus.app/client.js" data-repo="{{ c.repo }}" data-repo-id="{{ c.repo_id }}" data-category="{{ c.category }}" data-category-id="{{ c.category_id }}"
+      data-mapping="specific" data-term="courtside-{{ g.game_id }}" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom"
+      data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
+  </div>
+  {% elif c.provider == 'cusdis' and c.app_id %}
+  <div class="cs-readers">
+    <h3 style="margin:0 0 6px">Reader comments</h3>
+    <div id="cusdis_thread" data-host="{{ c.host or 'https://cusdis.com' }}" data-app-id="{{ c.app_id }}" data-page-id="courtside-{{ g.game_id }}"
+      data-page-url="{{ site_url }}{{ g.path }}" data-page-title="{{ g.away }} at {{ g.home }}" data-theme="auto"></div>
+    <script async defer src="{{ c.host or 'https://cusdis.com' }}/js/cusdis.es.js"></script>
+  </div>
+  {% endif %}
+</section>
+<script>
+(function () {
+  var b = document.querySelector('[data-cs-toggle]'); if (!b) return;
+  function sync() { b.textContent = document.documentElement.classList.contains('no-anchors') ? 'Show AI anchors' : 'Hide AI anchors'; }
+  b.onclick = function () {
+    var off = document.documentElement.classList.toggle('no-anchors');
+    try { off ? localStorage.setItem('hb-hide-anchors', '1') : localStorage.removeItem('hb-hide-anchors'); } catch (e) {}
+    sync();
+  };
+  sync();
+})();
+</script>
+{%- endmacro %}

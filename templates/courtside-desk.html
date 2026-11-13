@@ -1,0 +1,151 @@
+{% import "_layout.html" as L %}
+{% import "_courtside.html" as C %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}Courtside desk{% endset %}{% set page_desc %}Private page for reviewing the Courtside anchors.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="courtside-desk.html") }}
+<meta name="robots" content="noindex, nofollow">
+{{ C.style() }}
+<style>
+  .rv { border-top: 1px solid var(--border); padding: 12px 0; }
+  .rv textarea, #mine, #tok { width: 100%; box-sizing: border-box; font: inherit; font-size: 15px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); }
+  .rv textarea { min-height: 90px; }
+  #mine { min-height: 110px; }
+  .rv .acts, .acts { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; align-items: center; }
+  .btn { font: inherit; font-size: 14px; font-weight: 600; padding: 7px 13px; border-radius: 9px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+  .btn.on { background: #1e5a2a; border-color: #1e5a2a; color: #fff; }
+  .btn.hold.on { background: #8a2b1f; border-color: #8a2b1f; }
+  .state { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+  .msg.err { color: #b3261e; }
+  .tokenbox { border: 1px dashed var(--border); border-radius: 12px; padding: 12px 14px; margin: 12px 0; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="", active="") }}
+<main id="main">
+  <nav class="crumbs"><a href="courtside.html">Courtside</a> <span class="dim">/</span> Desk</nav>
+  <header>
+    <h1>Courtside desk</h1>
+    <span class="sub">Only for you. Approve, hold or rewrite each anchor take, and add your own comments. Nothing an anchor writes shows on the site until you approve it here. Saving republishes the site in a few minutes.</span>
+  </header>
+
+  <div class="tokenbox" id="tokenbox" hidden>
+    <b>Connect GitHub</b> (the same token as the author desk works here). Paste a fine-grained token with Contents read and write on {{ notes_repo }}.
+    <div class="acts"><input type="password" id="tok" placeholder="github_pat_…" autocomplete="off" style="flex:1 1 260px"><button class="btn" id="savetok" type="button">Connect</button></div>
+  </div>
+  <p class="msg" id="who"></p>
+
+  <section>
+    <div class="acts"><label for="night">Night</label> <select id="night" class="btn">{% for t in nights %}<option value="{{ t.night.date }}">{{ t.night.date }} · {{ t.game.away }} at {{ t.game.home }}</option>{% endfor %}</select></div>
+    <h2 id="title"></h2>
+    <p class="cs-rule" id="why"></p>
+    <div id="drafts"><p class="cs-rule">Connect GitHub above to load tonight's drafts.</p></div>
+  </section>
+
+  <section>
+    <h2>Your comments <span class="cs-badge human">Human · Editor</span></h2>
+    <div id="minelist"></div>
+    <textarea id="mine" placeholder="Chime in as yourself. Shows on the game page with a human badge."></textarea>
+    <div class="acts"><button class="btn on" id="addmine" type="button">Add my comment</button></div>
+  </section>
+
+  <div class="acts"><button class="btn on" id="save" type="button">Save and publish</button><span class="msg" id="say"></span></div>
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+<script>
+(function () {
+  const REPO = {{ notes_repo|tojson }}, API = 'https://api.github.com/repos/' + REPO;
+  const CAST = {{ cast|tojson }};
+  const $ = (s) => document.querySelector(s);
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) {} } };
+  store.set('btb-author', '1'); document.documentElement.classList.add('author');
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const b64 = (s) => btoa(unescape(encodeURIComponent(s)));
+  const unb64 = (s) => decodeURIComponent(escape(atob(s.replace(/\n/g, ''))));
+  let token = store.get('btb-gh-token'), night = null, review = null, reviewSha = null;
+  const say = (t, bad) => { $('#say').textContent = t; $('#say').className = 'msg' + (bad ? ' err' : ''); };
+
+  async function gh(path, opt = {}) {
+    const r = await fetch(API + path, { ...opt, headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opt.body ? { 'Content-Type': 'application/json' } : {}) } });
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).message || r.status);
+    return r.json();
+  }
+  function connect() {
+    $('#tokenbox').hidden = !!token;
+    if (token) load();
+  }
+  $('#savetok').onclick = () => { const v = $('#tok').value.trim(); if (!v) return; token = v; store.set('btb-gh-token', v); $('#tok').value = ''; connect(); };
+
+  async function load() {
+    const date = $('#night').value; if (!date) { $('#drafts').innerHTML = '<p class="cs-rule">No nights yet.</p>'; return; }
+    try {
+      const n = await gh(`/contents/data/anchors/nights/${date}.json?ref=main`);
+      night = n ? JSON.parse(unb64(n.content)) : null;
+      const r = await gh(`/contents/notes/courtside/${date}.json?ref=main`);
+      review = r ? JSON.parse(unb64(r.content)) : {};
+      reviewSha = r ? r.sha : null;
+      ['approve', 'hold', 'matthew'].forEach((k) => { review[k] = review[k] || []; });
+      review.edit = review.edit || {};
+      $('#who').textContent = 'Connected to GitHub.';
+      draw();
+    } catch (e) {
+      $('#who').innerHTML = `<span class="msg err">GitHub said: ${esc(e.message)}. Check the token.</span>`;
+      $('#tokenbox').hidden = false;
+    }
+  }
+  function draw() {
+    if (!night || !night.game) { $('#drafts').innerHTML = '<p class="cs-rule">No game picked for this night.</p>'; return; }
+    const g = night.game;
+    $('#title').textContent = `${g.away} at ${g.home} · ${g.tip_et}`;
+    $('#why').textContent = night.why || '';
+    const who = Object.fromEntries(CAST.map((a) => [a.key, a]));
+    $('#drafts').innerHTML = night.comments.length ? night.comments.map((c) => {
+      const a = who[c.who] || { name: c.who, tag: '' };
+      const st = review.hold.includes(c.id) ? 'held' : review.approve.includes(c.id) ? 'approved' : 'waiting';
+      return `<div class="rv" data-id="${esc(c.id)}">
+        <b>${esc(a.name)}</b> <span class="cs-badge ai">AI anchor</span> <span class="cs-rule">${esc(a.tag)} · ${c.phase === 'pre' ? 'before tip' : 'after the final'}</span>
+        <span class="state" style="margin-left:6px">${st}</span>
+        <textarea>${esc(review.edit[c.id] || c.text)}</textarea>
+        <div class="acts"><button class="btn ap${st === 'approved' ? ' on' : ''}" type="button">Approve</button><button class="btn hold${st === 'held' ? ' on' : ''}" type="button">Hold</button></div>
+      </div>`;
+    }).join('') : `<p class="cs-rule">No drafts yet. Pregame takes arrive about four hours before tip, postgame takes after the box score is in.</p>`;
+    document.querySelectorAll('.rv').forEach((el) => {
+      const id = el.dataset.id, orig = night.comments.find((c) => c.id === id).text;
+      const set = (k) => { review.approve = review.approve.filter((x) => x !== id); review.hold = review.hold.filter((x) => x !== id); if (k) review[k].push(id); draw(); };
+      el.querySelector('.ap').onclick = () => { keepEdit(el, id, orig); set(review.approve.includes(id) ? null : 'approve'); };
+      el.querySelector('.hold').onclick = () => { keepEdit(el, id, orig); set(review.hold.includes(id) ? null : 'hold'); };
+      el.querySelector('textarea').onchange = () => keepEdit(el, id, orig);
+    });
+    $('#minelist').innerHTML = review.matthew.map((m, i) => `<div class="rv"><div class="cs-rule">${esc(m.at)}</div><p class="cs-text">${esc(m.text)}</p><button class="btn" data-del="${i}" type="button">Remove</button></div>`).join('');
+    document.querySelectorAll('[data-del]').forEach((b) => { b.onclick = () => { review.matthew.splice(+b.dataset.del, 1); draw(); }; });
+  }
+  function keepEdit(el, id, orig) {
+    const v = el.querySelector('textarea').value.trim();
+    if (v && v !== orig) review.edit[id] = v; else delete review.edit[id];
+  }
+  $('#addmine').onclick = () => {
+    const v = $('#mine').value.trim(); if (!v || !review) return;
+    const at = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
+    review.matthew.push({ id: 'm-' + Date.now(), at, text: v }); $('#mine').value = ''; draw(); say('Added. Hit Save and publish.');
+  };
+  $('#save').onclick = async () => {
+    if (!token || !review) { say('Connect GitHub first.', true); return; }
+    const date = $('#night').value;
+    try {
+      const put = { message: `Courtside review: ${date}`, content: b64(JSON.stringify(review, null, 1) + '\n'), branch: 'main' };
+      if (reviewSha) put.sha = reviewSha;
+      const r = await gh(`/contents/notes/courtside/${date}.json`, { method: 'PUT', body: JSON.stringify(put) });
+      reviewSha = r.content.sha;
+      say('Saved. The site republishes in a few minutes.');
+    } catch (e) { say('Save failed: ' + e.message, true); }
+  };
+  const q = new URLSearchParams(location.search).get('night');
+  if (q) $('#night').value = q;
+  $('#night').onchange = load;
+  connect();
+})();
+</script>
+</body>
+</html>

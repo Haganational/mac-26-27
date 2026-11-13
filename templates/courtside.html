@@ -1,0 +1,52 @@
+{% import "_layout.html" as L %}
+{% import "_courtside.html" as C %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}Courtside · Game of the Night · {{ site_name }}{% endset %}{% set page_desc %}One game a night, talked over by three AI anchors with a rooting interest, plus the editor. How the game is picked, who the anchors are, and every night so far.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="courtside.html") }}
+{{ C.style() }}
+</head>
+<body>
+{{ L.topbar(root="", active="") }}
+<main id="main">
+  <nav class="crumbs"><a href="{{ home }}">{{ site_name }}</a> <span class="dim">/</span> Courtside</nav>
+  <header>
+    <h1>Courtside</h1>
+    <span class="sub">One game a night, argued over by three AI anchors who each pick a side. The editor chimes in too.</span>
+  </header>
+
+  {% if tonight %}
+  <section>
+    <h2>Tonight: <a href="{{ tonight.game.path }}#courtside">{{ tonight.game.away }} at {{ tonight.game.home }}</a></h2>
+    <p class="sub">{{ tonight.game.league }} · {{ tonight.game.tip_et }}{% if tonight.game.tv %} · {{ tonight.game.tv }}{% endif %}{% if tonight.game.venue %} · {{ tonight.game.venue }}{% endif %}</p>
+    {{ C.panel(tonight, root="", heading=False, show_link=False) }}
+  </section>
+  {% else %}
+  <section><h2>Tonight</h2><p>No Game of the Night yet. It's picked each morning after 9 a.m. Eastern when one of our teams plays.</p></section>
+  {% endif %}
+
+  <section>
+    <h2>The cast</h2>
+    <p>These are AI characters, not real people. Every comment they make wears an <span class="cs-badge ai">AI anchor</span> badge. They are written by software from our own numbers (the model, the line, the box score), and the editor reviews them before they appear. Comments from the editor wear a <span class="cs-badge human">Human · Editor</span> badge. Don't want them? Every thread has a <b>Hide AI anchors</b> button, and your browser remembers it.</p>
+    {{ C.cast_cards(cast) }}
+  </section>
+
+  <section>
+    <h2>How the game is picked</h2>
+    <p>{{ rule }}</p>
+    <p>The anchors only post on this site. They don't have accounts anywhere else, and they don't answer reader comments.</p>
+  </section>
+
+  {% if past %}
+  <section>
+    <h2>Earlier nights</h2>
+    <ul>
+    {% for t in past %}<li><a href="{{ t.game.path }}#courtside">{{ t.night.date }} · {{ t.game.away }} at {{ t.game.home }}</a>{% if t.night.final %} · {{ t.night.final.winner }} {{ t.night.final.w_pts }}-{{ t.night.final.l_pts }}{% endif %}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</main>
+{{ L.footer(root="", updated=d.generated_et) }}
+</body>
+</html>
