@@ -80,7 +80,9 @@ pytest -q
   stable id, writes the search index (pages, sections, teams, coaches, players, every
   game), `static/teams.css` from the colors in `mac/config.py` (`.t-<key>` sets
   `--tc`, `--tc2`, `--tci`), 1200x630 share cards in `static/og/` (site, each page,
-  each team, each final), app icons, `manifest.webmanifest`, `robots.txt`, `sitemap.xml`.
+  each team), story cards from `mac/cards.py` for every recap, written preview and
+  Bricks Index week and capsule (1200x630 in `static/og/`, 4:5 portrait in `static/og/ig/`
+  for Instagram and Threads image posts), app icons, `manifest.webmanifest`, `robots.txt`, `sitemap.xml`.
 
 ## Layout
 
@@ -94,7 +96,9 @@ mac/ratings.py   the rating model: fit, project, team table, walk-forward
 mac/model.py     current ratings, MAC projections vs market, run logs
 mac/backtest.py  walk-forward backtest and knob sweep
 mac/build.py     dashboard data + rendering
-mac/site_chrome.py  search index, section anchors, team colors, share cards
+mac/site_chrome.py  search index, section anchors, team colors, site and team share cards
+mac/cards.py     story share cards (recaps, previews, Bricks Index), used as og:image and on social posts
+mac/social.py    Bluesky and Threads auto-posting of new stories and Bricks Index capsules
 mac/db.py        SQLite export
 mac/collect.py   CLI
 data/            schedule.json, lines/*.jsonl (committed by the collector)
