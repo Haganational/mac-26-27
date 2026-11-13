@@ -52,3 +52,8 @@ def test_link_text_links_first_mention_only_and_escapes():
     out = today.link_text("Miami (OH) beat Ohio. Miami (OH) won <b>", [("Miami (OH)", "teams/miami-oh.html"), ("Ohio", "teams/ohio.html")])
     assert out.count("<a ") == 2 and out.startswith('<a href="teams/miami-oh.html">Miami (OH)</a>')
     assert "&lt;b&gt;" in out
+
+
+def test_nickname_when_short_name_is_not_a_prefix():
+    assert today.nickname("umass") == "Minutemen"
+    assert today.nickname("kent-state") == "Golden Flashes"

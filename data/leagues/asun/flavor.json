@@ -1,0 +1,1983 @@
+{
+ "_help": "ASUN local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "bellarmine": {
+   "town": "Louisville",
+   "home_floor": "Knights Hall",
+   "lines": [
+    {
+     "text": "Bellarmine played its first basketball game on Dec. 27, 1950, against St. Mary's College, and finished that first season 2-12 under coach Norb Raque.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine won the 2011 NCAA Division II national championship with a 71-68 win over BYU-Hawaii on March 26, 2011, in Springfield, Massachusetts.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine made 20 NCAA Division II tournament appearances between 1963 and 2019, going 32-22 and reaching the Final Four in 2011, 2012, 2015 and 2017.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's 2011 title run went through Indianapolis, Northern Kentucky, Ferris State, Midwestern State and Minnesota State-Mankato before the 71-68 final against BYU-Hawaii.",
+     "source": "https://en.wikipedia.org/wiki/2011_NCAA_Division_II_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine won the 2022 ASUN tournament by beating Florida Gulf Coast 81-68, Liberty 53-50 on the road and Jacksonville 77-72 in the final.",
+     "source": "https://en.wikipedia.org/wiki/2022_ASUN_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's first Division I game was a 76-54 loss at No. 6 Duke on Dec. 4, 2020, and its first Division I win came two days later, 84-63 at Howard.",
+     "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine beat crosstown Louisville 67-66 at the KFC Yum! Center on Nov. 9, 2022, in the third year of the Knights' transition to Division I.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine played in the Division II Great Lakes Valley Conference from 1978-79 through 2019-20 before joining the ASUN in 2020-21.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine went 29-3 in 2017-18 and 28-5 in 2018-19 as a Division II program and won the GLVC tournament in 2017, 2018 and 2019.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's first postseason trip as a Division I program came in the 2021 CBI, where the Knights beat Army 77-67 in Daytona Beach before losing to Pepperdine.",
+     "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine student Ted Wade became the first Black player on an integrated college basketball team in Kentucky in 1950, the year the school was founded.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson ended Bellarmine's first ASUN tournament in 2021, beating the second-seeded Knights 73-70 in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine played at Freedom Hall through the 2023-24 season before returning to Knights Hall for regular-season games on Nov. 9, 2024.",
+     "source": "https://en.wikipedia.org/wiki/Knights_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Louisville, Bellarmine's home, was founded in 1778 by George Rogers Clark and named for King Louis XVI of France.",
+     "source": "https://en.wikipedia.org/wiki/Louisville,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's hometown of Louisville has hosted the Kentucky Derby since 1875 and produces about one-third of all bourbon whiskey.",
+     "source": "https://en.wikipedia.org/wiki/Louisville,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's hometown of Louisville includes the Highlands, a neighborhood centered on a three-mile stretch of Bardstown Road and Baxter Avenue known locally as Restaurant Row.",
+     "source": "https://en.wikipedia.org/wiki/The_Highlands_(Louisville)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Louisville, home of Bellarmine, gave the world the Hot Brown, an open-faced turkey and bacon sandwich under Mornay sauce created at the Brown Hotel in 1926.",
+     "source": "https://en.wikipedia.org/wiki/Hot_Brown",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's campus covers about 135 acres along Beargrass Creek in Louisville, on land once part of a royal grant from King George III to James McCorkle.",
+     "source": "https://www.bellarmine.edu/about/history/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine opened on Oct. 3, 1950, and its first graduating class, the 42-member Pioneer Class, received diplomas in 1954.",
+     "source": "https://www.bellarmine.edu/about/history/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine wears scarlet and silver, and its mascot is Valor the Knight.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's Siena Complex is made up of four residence halls, Siena Primo, Secondo, Terzo and Quarto.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine College became Bellarmine University in 2000, and the school has been coeducational since a 1968 merger with Ursuline College.",
+     "source": "https://www.bellarmine.edu/about/history/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine is home to the Thomas Merton Center, the official repository of Merton's manuscripts.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine's dance team won national titles in 2015 and 2019, and the school's co-ed cheer team added one of its own in 2019.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Braydon Hobbs of New Albany, Indiana, started all 133 games he played at Bellarmine, was the 2012 NABC Division II Player of the Year and later played for Bayern Munich.",
+     "source": "https://en.wikipedia.org/wiki/Braydon_Hobbs",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jeremy Kendle, a Jeffersonville, Indiana, guard who earned his Bellarmine scholarship in a tryout, scored 1,792 points for the Knights and later played in Australia's NBL.",
+     "source": "https://en.wikipedia.org/wiki/Jeremy_Kendle",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Alex Groza, center on Kentucky's Fabulous Five and leading scorer on the 1948 U.S. Olympic gold medal team, coached Bellarmine from 1959 to 1966 and won the 1963 KIAC title.",
+     "source": "https://en.wikipedia.org/wiki/Alex_Groza",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bob Valvano, younger brother of Jim Valvano and later an ESPN Radio analyst, coached Bellarmine from 1994 to 1998 and went 17-10 in his final season.",
+     "source": "https://en.wikipedia.org/wiki/Bob_Valvano",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Joe Reibel is Bellarmine's winningest coach, with a record of 346-277.",
+     "source": "https://en.wikipedia.org/wiki/Bellarmine_Knights",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Scott Davenport, a Louisville native who won a state title at Ballard High in 1988, went 423-192 in 20 seasons at Bellarmine before retiring in March 2025.",
+     "source": "https://en.wikipedia.org/wiki/Scott_Davenport",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine coach Doug Davenport played for the Knights from 2006 to 2010 and succeeded his father, Scott Davenport, as head coach on March 11, 2025.",
+     "source": "https://en.wikipedia.org/wiki/Doug_Davenport",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine coach Doug Davenport worked at Xavier, Louisville and Eastern Kentucky before returning to the Knights as an assistant in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Doug_Davenport",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine went 13-19 overall and 7-11 in the ASUN last season, Doug Davenport's first as head coach, after going 5-26 the year before.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine was the No. 8 seed in last season's ASUN tournament, beating Jacksonville 82-79 before losing 86-73 to top-seeded Central Arkansas in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Bellarmine_Knights_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine opened the 2026-27 regular season with three straight road games, at Vanderbilt, Indiana and Miami of Ohio, before its home opener at Knights Hall.",
+     "source": "https://athletics.bellarmine.edu/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine is one of eight full members of the ASUN this season, with West Florida new to the league and Eastern Kentucky among the schools gone to the United Athletic Conference.",
+     "source": "https://en.wikipedia.org/wiki/Atlantic_Sun_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bellarmine's league schedule opens Jan. 7 at North Florida, and the ASUN tournament is set for March 4-8 in Jacksonville, Florida.",
+     "source": "https://athletics.bellarmine.edu/sports/mens-basketball/schedule",
+     "kind": "current",
+     "until": "2027-01-07"
+    },
+    {
+     "text": "Bellarmine plays Eastern Kentucky, a former ASUN member now in the United Athletic Conference, in a nonconference game Nov. 20 in Richmond.",
+     "source": "https://athletics.bellarmine.edu/sports/mens-basketball/schedule",
+     "kind": "rivalry",
+     "until": "2026-11-20"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Knights Hall opened in 1960 on Bellarmine's campus in Louisville's Highlands neighborhood and seats 2,283.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bellarmine won back-to-back NCAA Division II Midwest Regional titles on its own floor at Knights Hall in 2011 and 2012.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Knights Hall has hosted more than Bellarmine basketball: the Grateful Dead played the building in 1968 and Mother Teresa spoke there in 1982.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Blake Griffin won the slam dunk contest at the 2007 Powerade Jam Fest for McDonald's All-Americans, an ESPN event held at Bellarmine's Knights Hall.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Knights Hall got a new playing floor and new seats in 2012, and the Bellarmine student section sits in one end zone.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Rybak Room, an open-air suite once called the President's Room, overlooks the court from the east baseline at Bellarmine's Knights Hall.",
+     "source": "https://athletics.bellarmine.edu/facilities/knights-hall/1",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "fgcu": {
+   "town": "Fort Myers",
+   "home_floor": "Alico Arena",
+   "lines": [
+    {
+     "text": "Florida Gulf Coast played its first men's basketball season in 2002-03 and went 23-9 under Dave Balza, the program's first head coach.",
+     "source": "https://en.wikipedia.org/wiki/Dave_Balza",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast became the first No. 15 seed to reach the Sweet 16 in 2013, beating No. 2 Georgetown 78-68 and No. 7 San Diego State 81-71 in Philadelphia.",
+     "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "FGCU's 2013 NCAA tournament run ended on March 29 with a 62-50 loss to third-seeded Florida at Cowboys Stadium in Arlington, Texas.",
+     "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dunk City, the nickname that follows Florida Gulf Coast, was the title of a 2013 YouTube song that parodied Tyga's Rack City over highlights of the Eagles' win over Georgetown.",
+     "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The 2012-13 Florida Gulf Coast team finished 26-11, beat Miami 63-51 at Alico Arena in November 2012 and won the 2013 ESPY for Best Upset.",
+     "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "FGCU's first ASUN tournament title came at the expense of top-seeded Mercer, an 88-75 win on March 9, 2013, at Hawkins Arena in Macon, Georgia.",
+     "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast has won three ASUN tournament titles, in 2013, 2016 and 2017, and three regular-season crowns, in 2014, 2017 and 2018.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast's only Division II tournament game was an 81-79 loss to Eckerd in the 2005 regional quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast's most recent NCAA tournament win came in the 2016 First Four, a 96-65 victory over Fairleigh Dickinson in Dayton that earned a date with top-seeded North Carolina.",
+     "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "FGCU and in-state foe Stetson played for the 2016 ASUN title at Alico Arena, and the Eagles needed overtime to win 80-78 and claim the NCAA bid.",
+     "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast's last NCAA tournament trip came in 2017, when the 14th-seeded Eagles lost 86-80 to Florida State in Orlando after a 26-8 season.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Florida Gulf Coast became a full Division I member on Aug. 11, 2011, after starting its transition in the 2007-08 season.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_Eagles",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast began its athletics life in the NAIA, moved to NCAA Division II as an independent in 2002 and joined the ASUN in 2007.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_Eagles",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "FGCU's Eagles wear cobalt blue and emerald green, answer to a mascot named Azul the Eagle and sing a fight song called Hail to the Eagles.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_Eagles",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The FGCU campus sits on a 760-acre site donated by Ben Hill Griffin III and Alico Inc., just east of Interstate 75 between Alico and Corkscrew roads.",
+     "source": "https://www.fgcu.edu/about/history",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Florida Gulf Coast opened on Aug. 25, 1997, with 2,584 students and held its first commencement in May 1998 for 81 graduates.",
+     "source": "https://www.fgcu.edu/about/history",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "FGCU has a Fort Myers postal code but sits in unincorporated Lee County, 21 miles from Naples.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "About 400 acres of FGCU's main campus are set aside for environmental preservation, and a 15-acre solar field supplies about 85 percent of the energy for three academic halls.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Every FGCU student must complete a three-credit course called University Colloquium, and service learning is a graduation requirement.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Gulf_Coast_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fort Myers is known as the City of Palms for the royal palms that Thomas Edison's efforts brought to what is now McGregor Boulevard.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Myers,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Myers is where Thomas Edison and Henry Ford kept winter estates, Seminole Lodge and The Mangoes.",
+     "source": "https://en.wikipedia.org/wiki/Fort_Myers,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Brandon Goodwin, FGCU's 2018 ASUN Player of the Year, went undrafted and played 133 NBA games for Denver, Atlanta and Cleveland.",
+     "source": "https://en.wikipedia.org/wiki/Brandon_Goodwin_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Sherwood Brown, the 2013 Atlantic Sun Player of the Year, was the first FGCU player to reach both 1,000 career points and 500 career rebounds.",
+     "source": "https://en.wikipedia.org/wiki/Sherwood_Brown",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Chase Fieler, whose alley-oop dunk off a Brett Comer pass became an iconic FGCU play, went on to win league titles in the Netherlands, Belgium and Japan.",
+     "source": "https://en.wikipedia.org/wiki/Chase_Fieler",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Andy Enfield went 41-28 in two seasons at FGCU before USC hired him on April 1, 2013.",
+     "source": "https://en.wikipedia.org/wiki/Andy_Enfield",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Joe Dooley, who came to FGCU after 10 years on the Kansas staff, went 114-58 with the Eagles from 2013 to 2018 and took them to two NCAA tournaments.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Dooley_(basketball)",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Pat Chambers, hired by FGCU on March 14, 2022, after head coaching stops at Boston University and Penn State, entered his fifth season with the Eagles at 66-66.",
+     "source": "https://en.wikipedia.org/wiki/Pat_Chambers",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "FGCU went 16-18 last season and 8-10 in the ASUN, then won twice as the No. 5 seed in the league tournament before falling to top-seeded Central Arkansas in the semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Florida_Gulf_Coast_Eagles_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "FGCU opened this season on Nov. 2 with a 96-95 overtime loss at UCF.",
+     "source": "https://fgcuathletics.com/sports/mens-basketball/schedule/2026-27",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "FGCU's road to March runs through Jacksonville, where the ASUN tournament is set for March 4-7 at VyStar Veterans Memorial Arena.",
+     "source": "https://fgcuathletics.com/sports/mens-basketball/schedule/2026-27",
+     "kind": "current",
+     "until": "2027-03-03"
+    },
+    {
+     "text": "FGCU plays two Thanksgiving-week games across town at Suncoast Credit Union Arena, meeting Charlotte on Nov. 23 and Georgia State on Nov. 25 in the Fort Myers Tip-Off.",
+     "source": "https://fgcuathletics.com/sports/mens-basketball/schedule/2026-27",
+     "kind": "current",
+     "until": "2026-11-22"
+    },
+    {
+     "text": "FGCU opens ASUN play on Jan. 9 at Stetson in DeLand and closes the regular season at Alico Arena against North Florida on Feb. 25 and Jacksonville on Feb. 27.",
+     "source": "https://fgcuathletics.com/sports/mens-basketball/schedule/2026-27",
+     "kind": "current",
+     "until": "2027-01-08"
+    },
+    {
+     "text": "FGCU has met North Florida four times in the ASUN tournament, in 2013, 2016, 2017 and 2018, and the Eagles won all four, including the 2017 title game 77-61.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Alico Arena, Florida Gulf Coast's home since it opened on Dec. 2, 2002, has a capacity of 4,633, a figure that includes 300 standing-room spots.",
+     "source": "https://fgcuathletics.com/facilities/alico-arena/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 131,000-square-foot Alico Arena complex at Florida Gulf Coast has six suites overlooking the court and has hosted the Beach Boys and poet Maya Angelou.",
+     "source": "https://fgcuathletics.com/facilities/alico-arena/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Alico Arena, Florida Gulf Coast's home floor in Fort Myers, also serves as a hurricane shelter.",
+     "source": "https://en.wikipedia.org/wiki/Alico_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "jacksonville": {
+   "town": "Jacksonville",
+   "home_floor": "Swisher Gymnasium",
+   "lines": [
+    {
+     "text": "Jacksonville reached the 1970 national championship game, losing 80-69 to UCLA at Cole Field House in College Park, Maryland.",
+     "source": "https://en.wikipedia.org/wiki/1970_NCAA_University_Division_basketball_championship_game",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville's 1970 run to the title game went through No. 1 Kentucky, which the Dolphins beat 106-100 in the regional final.",
+     "source": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Jacksonville_Dolphins_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1969-70 Jacksonville Dolphins started the season unranked, finished 27-2 and ended up No. 4 in the final AP poll.",
+     "source": "https://en.wikipedia.org/wiki/1969%E2%80%9370_Jacksonville_Dolphins_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville's 1969-70 team became the first NCAA basketball program to average 100 points per game in a season.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville beat Iowa 104-103 in the regional semifinals of the 1970 NCAA tournament on its way to the national title game.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville has made five NCAA tournament appearances, in 1970, 1971, 1973, 1979 and 1986, and holds a 4-5 record in the event.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville's last NCAA tournament game was a 61-50 overtime loss to Temple in the first round in 1986.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville won Sun Belt Conference tournament titles in 1979 and 1986.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville finished third in the 1972 NIT, beating St. John's 83-80 in the third-place game after wins over Fordham and Lafayette.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ben Smith's 3-pointer with 1.5 seconds left lifted Jacksonville past top-seeded Arizona State in the 2010 NIT, the program's first postseason win since the 1974 NIT.",
+     "source": "https://en.wikipedia.org/wiki/Cliff_Warren",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville won its first Atlantic Sun regular-season title in 2008-09, three seasons after going 1-26 in Cliff Warren's first year as coach.",
+     "source": "https://en.wikipedia.org/wiki/Cliff_Warren",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville has retired seven numbers: Ben Smith's 3, Dee Brown's 4, Rex Morgan's 24, Otis Smith's 32, James Ray's 43, Roger Strickland's 52 and Artis Gilmore's 53.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville played as a Division I independent from 1966 to 1976, spent 22 years in the Sun Belt and has been in the ASUN since 1998.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Joe Williams coached Jacksonville from 1964 to 1970 and later took Furman to the NCAA tournament five times.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Williams_(basketball_coach)",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Tates Locke, a former head coach of the NBA's Buffalo Braves, led Jacksonville to the 1979 Sun Belt tournament title and an NCAA tournament berth.",
+     "source": "https://en.wikipedia.org/wiki/Tates_Locke",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "For 30 years, from 1969 to 1999, Jacksonville played its home games downtown at the 10,276-seat Jacksonville Coliseum, which came down in 2003.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville University sits at 2800 University Blvd. N. in the Arlington neighborhood, with a half-mile of campus running along the St. Johns River.",
+     "source": "https://www.ju.edu/about/index.php",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The St. Johns River, which runs past the Jacksonville University campus, is Florida's longest river at 310 miles and flows north.",
+     "source": "https://en.wikipedia.org/wiki/St._Johns_River",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville is the largest city by area in the contiguous United States, the product of a 1968 consolidation with Duval County.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville grew up at a river crossing once called the Cow Ford, was named for Andrew Jackson and had its town charter approved in 1832.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Arlington, the Jacksonville neighborhood the Dolphins call home, is where the French built Fort Caroline in 1564-1565, now marked by the Fort Caroline National Memorial.",
+     "source": "https://en.wikipedia.org/wiki/Arlington_(Jacksonville)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville was known in the 1910s as the Winter Film Capital of the World, and the old Norman Studios in Arlington is now the Jacksonville Silent Film Museum.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville is home to Florida's largest seaport by volume and three U.S. naval facilities.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville University was founded in 1934 as William J. Porter University, bought its Arlington land in 1947 and finished its first building there in 1950.",
+     "source": "https://en.wikipedia.org/wiki/Arlington_(Jacksonville)",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville University bills itself as the Home of the Phins, students flash the Phins Up hand sign, and a dolphin statue stands in front of the Howard Administration Building.",
+     "source": "https://www.ju.edu/about/index.php",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Artis Gilmore averaged 22.7 rebounds per game in his career at Jacksonville, still the highest mark in NCAA Division I history.",
+     "source": "https://en.wikipedia.org/wiki/Artis_Gilmore",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Artis Gilmore, the 7-foot-2 Jacksonville center, entered the Naismith Hall of Fame in 2011 and has provided radio color commentary for Jacksonville University.",
+     "source": "https://en.wikipedia.org/wiki/Artis_Gilmore",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dee Brown, a Jacksonville native who played for the Dolphins from 1986 to 1990, went 19th overall to the Boston Celtics in the 1990 NBA draft and won the 1991 NBA Slam Dunk Contest.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Brown_(basketball,_born_1968)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Otis Smith, the 1986 Sun Belt tournament MVP for Jacksonville, played six NBA seasons and later ran the Orlando Magic as general manager from 2006 to 2012.",
+     "source": "https://en.wikipedia.org/wiki/Otis_Smith_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Jacksonville guard Rex Morgan was drafted in the second round of the 1970 NBA draft by the Boston Celtics.",
+     "source": "https://en.wikipedia.org/wiki/Rex_Morgan_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jordan Mincy is in his sixth season at Jacksonville after six years as a Florida assistant, and he entered 2026-27 with an 81-77 record as the Dolphins' head coach.",
+     "source": "https://en.wikipedia.org/wiki/Jordan_Mincy",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jacksonville coach Jordan Mincy, a Memphis native, played at Kent State from 2005 to 2009 and left as the Mid-American Conference's career leader in games played with 135.",
+     "source": "https://en.wikipedia.org/wiki/Jordan_Mincy",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jacksonville went 12-20 overall and 7-11 in the ASUN in 2025-26, and its season ended with an 82-79 loss to Bellarmine in the first round of the conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Jacksonville_Dolphins_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jacksonville went 21-10 in Jordan Mincy's first season, 2021-22, and reached the CBI quarterfinals after going 19-14 in 2024-25.",
+     "source": "https://en.wikipedia.org/wiki/Jordan_Mincy",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jacksonville opens ASUN play on Jan. 7 at home against Lipscomb, the start of a 14-game conference schedule that ends Feb. 27 at Florida Gulf Coast.",
+     "source": "https://www.sports-reference.com/cbb/schools/jacksonville/men/2027-schedule.html",
+     "kind": "current",
+     "until": "2027-01-07"
+    },
+    {
+     "text": "Jacksonville and crosstown North Florida meet twice this season, Jan. 22 at Swisher Gymnasium and Feb. 19 at UNF Arena.",
+     "source": "https://www.sports-reference.com/cbb/schools/jacksonville/men/2027-schedule.html",
+     "kind": "rivalry",
+     "until": "2027-01-22"
+    },
+    {
+     "text": "Jacksonville closed the 2025-26 regular season with an 85-61 win at crosstown rival North Florida.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Jacksonville_Dolphins_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-01-22"
+    },
+    {
+     "text": "Jacksonville and North Florida compete in the River City Rumble for the Old Wooden Barrel, a trophy that goes to the school with more wins over the other across all sports.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville_Dolphins",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville won the first basketball meeting with crosstown North Florida, 78-73, on Nov. 23, 2004, when the Ospreys were still a Division II program.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Swisher Gymnasium, built in 1953 on the Jacksonville University campus, seats 1,360 and hosted a Billy Joel concert in March 1975.",
+     "source": "https://en.wikipedia.org/wiki/Swisher_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Vice President Lyndon Johnson addressed Jacksonville University students in Swisher Gymnasium in 1963, and Dionne Warwick played the building four years later.",
+     "source": "https://en.wikipedia.org/wiki/Swisher_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "lipscomb": {
+   "town": "Nashville",
+   "home_floor": "Allen Arena",
+   "lines": [
+    {
+     "text": "Lipscomb won the 2018 ASUN title by beating Florida Gulf Coast 108-96 in Fort Myers, then lost to North Carolina in the NCAA Tournament in Charlotte.",
+     "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Lipscomb_Bisons_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb went 25-10 in 2024-25, beating North Alabama 76-65 for the ASUN title at Allen Arena before losing to Iowa State in the NCAA Tournament in Milwaukee.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Lipscomb_Bisons_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb went 29-8 in 2018-19 and beat Davidson, UNC Greensboro, NC State and Wichita State to reach the NIT final at Madison Square Garden, where the Bisons lost to Texas 81-66.",
+     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Lipscomb_Bisons_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's 2018-19 team, which shared the ASUN regular-season title with Liberty at 14-2, won 73-64 at No. 18 TCU along the way.",
+     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Lipscomb_Bisons_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb won the NAIA national championship in 1986, finishing 35-4 under Don Meyer.",
+     "source": "https://en.wikipedia.org/wiki/Don_Meyer",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Don Meyer coached Lipscomb from 1975 to 1999 and went 665-179 with the Bisons, the bulk of his 923 career wins.",
+     "source": "https://en.wikipedia.org/wiki/Don_Meyer",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before moving to NCAA Division I, Lipscomb made 14 NAIA tournament appearances between 1982 and 2000 and went 21-13 in them.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_Bisons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Pierce scored 4,230 points for Lipscomb from 1990 to 1994, the most by any college basketball player at any level, and his No. 50 is retired.",
+     "source": "https://en.wikipedia.org/wiki/John_Pierce_(basketball)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The college scoring record John Pierce set at Lipscomb had belonged to his former Bisons teammate Phil Hutcheson, who finished with 4,106 points.",
+     "source": "https://en.wikipedia.org/wiki/John_Pierce_(basketball)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb spent 2001-02 and 2002-03 as a Division I independent before joining the Atlantic Sun in 2003-04.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_Bisons",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's 113-acre campus sits in Nashville's Green Hills neighborhood, largely on the former estate of David Lipscomb, who gave the land to the school.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb shares Nashville's Green Hills neighborhood with the Bluebird Café, a 90-seat music venue that opened on Hillsboro Pike in 1982.",
+     "source": "https://en.wikipedia.org/wiki/Bluebird_Caf%C3%A9",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's hometown of Nashville is called the Athens of the South for its many colleges, and a full-scale replica of the Parthenon stands in Centennial Park.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Nashville, home of the Lipscomb Bisons, was founded in 1779 on the Cumberland River and is Tennessee's capital and most populous city.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb was founded in 1891 as the Nashville Bible School by David Lipscomb and James A. Harding and was renamed David Lipscomb College in 1918.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's teams wear purple and gold, and the school's mascot is the LU Bison.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_Bisons",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb has no national fraternities or sororities, and student life in Nashville runs instead through local social clubs unique to the school.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Garrison Mathews of nearby Franklin scored 2,478 points at Lipscomb, was the 2019 ASUN Player of the Year and went on to play in the NBA for Washington, Houston, Atlanta and Indiana.",
+     "source": "https://en.wikipedia.org/wiki/Garrison_Mathews",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jacob Ognacevic averaged 20.1 points for Lipscomb in 2024-25, led the ASUN in scoring and was the league's Player of the Year.",
+     "source": "https://en.wikipedia.org/wiki/Jacob_Ognacevic",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's alumni include country artist Thomas Rhett and J. Ridley Stroop, the psychologist known for the Stroop Effect.",
+     "source": "https://en.wikipedia.org/wiki/Lipscomb_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Casey Alexander, a former Belmont player, went 113-84 as Lipscomb's coach from 2013 to 2019 before leaving to become Belmont's head coach.",
+     "source": "https://en.wikipedia.org/wiki/Casey_Alexander",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Lennie Acuff went 110-82 in six seasons at Lipscomb after winning 436 games at Alabama-Huntsville, then left for Samford in 2025.",
+     "source": "https://en.wikipedia.org/wiki/Lennie_Acuff",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb coach Kevin Carroll was hired in April 2025 from Trevecca Nazarene, where he went 35-23 in two seasons, and had been a Bisons assistant from 2019 to 2023.",
+     "source": "https://en.wikipedia.org/wiki/Kevin_Carroll_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lipscomb went 19-13 overall and 12-6 in the ASUN in Kevin Carroll's first season as coach in 2025-26, finishing fourth in the league.",
+     "source": "https://en.wikipedia.org/wiki/Kevin_Carroll_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lipscomb was picked third in the ASUN preseason coaches poll this season, behind Queens and Jacksonville.",
+     "source": "https://lipscombsports.com/news/2026/10/27/mens-basketball-three-bisons-named-preseason-all-asun-bisons-tabbed-to-finish-third",
+     "kind": "current",
+     "until": "2027-03-10"
+    },
+    {
+     "text": "Lipscomb put three players on the Preseason All-ASUN Team this season: Mateo Esmeraldo, Titas Sargiunas and Takai Simpkins, who played at Oregon last year.",
+     "source": "https://lipscombsports.com/news/2026/10/27/mens-basketball-three-bisons-named-preseason-all-asun-bisons-tabbed-to-finish-third",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lipscomb plays this season in an eight-team ASUN that added West Florida and lost Austin Peay, Central Arkansas, Eastern Kentucky, North Alabama and West Georgia to the United Athletic Conference.",
+     "source": "https://en.wikipedia.org/wiki/Atlantic_Sun_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lipscomb beat Belmont 88-75 on Nov. 10, 2026, in the 153rd Battle of the Boulevard.",
+     "source": "https://lipscombsports.com/sports/mens-basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Florida Gulf Coast ended Lipscomb's 2025-26 season with a 77-53 win in the ASUN quarterfinals, a game the Bisons entered as the No. 4 seed and the Eagles as No. 5.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Lipscomb_Bisons_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lipscomb and Belmont sit less than three miles apart on Belmont Boulevard in Nashville, and their series, the Battle of the Boulevard, dates to Dec. 11, 1953.",
+     "source": "https://lipscombsports.com/sports/2020/5/21/battle-of-the-blvd-2-0",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's 124-107 win over Belmont on Feb. 17, 1990, drew more than 16,000 fans and is the largest-attended basketball game in NAIA history.",
+     "source": "https://lipscombsports.com/sports/2020/5/21/battle-of-the-blvd-2-0",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb won 32 of 37 games against Belmont between 1980 and 1992 in the Battle of the Boulevard.",
+     "source": "https://lipscombsports.com/sports/2020/5/21/battle-of-the-blvd-2-0",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb and Belmont met in the 2006 Atlantic Sun final with neither school having made an NCAA Tournament, and Belmont won 74-69 in overtime.",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_the_Boulevard",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "When Lipscomb and Belmont resumed their series on Jan. 27, 2004, after seven seasons apart, 4,176 fans filled Allen Arena and Belmont won 66-64 in overtime.",
+     "source": "https://lipscombsports.com/sports/2020/5/21/battle-of-the-blvd-2-0",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Allen Arena opened on Oct. 28, 2001, cost $16.5 million and seats 5,028 for Lipscomb basketball.",
+     "source": "https://en.wikipedia.org/wiki/Allen_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's Allen Arena is named for James C. and Linda Allen, the primary benefactors of the building at One University Park Drive.",
+     "source": "https://en.wikipedia.org/wiki/Allen_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's first home game in Allen Arena ended with Clayton Osborne's inbounds shot from about three-quarters of the court at the buzzer for a 78-77 win over North Texas.",
+     "source": "https://en.wikipedia.org/wiki/Allen_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Lipscomb's Allen Arena in Nashville hosted two Grand Ole Opry shows in June 2010 and the nationally televised GMA Dove Awards in October 2013.",
+     "source": "https://en.wikipedia.org/wiki/Allen_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "north-florida": {
+   "town": "Jacksonville",
+   "home_floor": "UNF Arena",
+   "lines": [
+    {
+     "text": "North Florida played its first men's basketball season in 1992-93 as an NAIA independent and finished 7-20.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida began its move to Division I in 2005 by joining the Atlantic Sun and became a full Division I member in 2009.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida reached the NCAA Tournament in 2015 and lost 81-77 to Robert Morris in the First Four in Dayton, Ohio.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida won the ASUN Tournament title on March 8, 2015, beating USC Upstate 63-57 at UNF Arena in Jacksonville.",
+     "source": "https://wikiwand.com/en/articles/2014%E2%80%9315_North_Florida_Ospreys_men's_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida has won three ASUN regular-season titles, in 2015, 2016 and 2020.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida's first win over a Big Ten team came on Dec. 6, 2014, a 73-70 decision at Purdue.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida made 391 3-pointers in 2019-20, the most in the nation and 32 more than any other team, while going 13-3 in the ASUN.",
+     "source": "https://unfospreys.com/news/2020/3/19/mens-basketball-makes-climb-back-to-top-of-asun",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida has led the nation in total 3-pointers made three times, in 2015-16, 2019-20 and 2024-25.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Florida's first wins over SEC and ACC opponents both came in 2024-25, on the road at South Carolina and Georgia Tech.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Matthew Driscoll, hired April 7, 2009, coached North Florida for 16 seasons and is the winningest coach in program history with 248 wins.",
+     "source": "https://www.unf.edu/newsroom/2025/05/Driscoll-steps-down.html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Former NBA player Sidney Green was North Florida's second head coach, leading the Ospreys in 1997-98 and 1998-99.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dallas Moore of St. Petersburg is North Florida's career scoring leader with 2,437 points and was ASUN Player of the Year in 2016 and 2017.",
+     "source": "https://unfospreys.com/news/2025/12/9/mens-basketball-dallas-moore-selected-to-11th-atlantic-sun-hall-of-fame-induction-class",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dallas Moore, who played for the Denver Nuggets in the 2017 NBA Summer League, was selected as North Florida's first ASUN Hall of Fame inductee in the 2026 class.",
+     "source": "https://unfospreys.com/news/2025/12/9/mens-basketball-dallas-moore-selected-to-11th-atlantic-sun-hall-of-fame-induction-class",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ivan Gandia-Rosa left North Florida in 2020 with a school-record 608 assists and was the first player in ASUN history to lead the league in assists three straight years.",
+     "source": "https://unfospreys.com/news/2020/3/19/mens-basketball-makes-climb-back-to-top-of-asun",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "North Florida's campus covers 1,300 acres on Jacksonville's Southside, midway between downtown and the Jacksonville Beaches.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville, home of North Florida, is the largest city by area in the contiguous United States at about 874 square miles and sits about 12 miles south of the Georgia line.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacksonville, where North Florida plays, was platted in 1822, named for Andrew Jackson, and merged with Duval County on Oct. 1, 1968.",
+     "source": "https://en.wikipedia.org/wiki/Jacksonville,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Florida's campus in Jacksonville includes the 382-acre Sawmill Slough Preserve, where wildlife cameras have recorded deer, armadillos and an occasional bobcat.",
+     "source": "https://www.unf.edu/environment/preserve.html",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Florida held its first day of classes in Jacksonville on Oct. 2, 1972, and its nature trails were named a national recreational trail on July 10, 1978.",
+     "source": "https://libguides.unf.edu/universityarchives/factsandhistory",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Florida students chose the osprey as mascot in a November 1979 election, picking it over the armadillo, seagull, manatee and shark.",
+     "source": "https://www.unf.edu/catalog/about/Seal-Logo-Mascot-Creed.html",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Florida's costumed mascot, Ozzie, was named by a campus vote and made his first appearance in March 1988 at a baseball game.",
+     "source": "https://digitalcommons.unf.edu/exhibit/university-of-north-florida-athletics/unf-mascots-through-the-years/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Florida's colors are navy blue and gray, and its hand signal, the Swoop, mimics an osprey in flight and doubles as an acronym for Students With Outstanding Osprey Pride.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Florida and crosstown Jacksonville University play for the Old Wooden Barrel in the River City Rumble, an all-sports series that began in fall 2005.",
+     "source": "https://unfspinnaker.com/42026/sports/the-old-wooden-barrel-a-look-at-the-decade-old-rivalry-where-unf-prevails",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "North Florida first played Jacksonville University on Nov. 23, 2004, a 78-73 loss, and first beat JU on Jan. 25, 2006, by a 90-78 score.",
+     "source": "https://en.wikipedia.org/wiki/North_Florida_Ospreys_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Old Wooden Barrel that North Florida and Jacksonville University play for recalls how Jacksonville's commercial cargo was once packaged and shipped along the St. Johns River.",
+     "source": "https://unfspinnaker.com/42026/sports/the-old-wooden-barrel-a-look-at-the-decade-old-rivalry-where-unf-prevails",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Bobby Kennen is in his second season as North Florida's head coach and his 18th on the staff, and is the fifth head coach in program history.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida coach Bobby Kennen grew up in Ocala, played four years at Palm Beach Atlantic and taught high school biology before moving into college coaching.",
+     "source": "https://unfspinnaker.com/109882/latest/get-to-know-bobby-kennen-head-coach-unf-mens-basketball/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida went 7-25 last season and finished 11th in the ASUN at 5-13.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_North_Florida_Ospreys_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida opened this season with a 71-63 win at California Baptist on Nov. 3, with five Ospreys scoring in double figures.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida's schedule this season includes six teams from the 2026 NCAA Tournament, among them nonconference opponents UCLA, Miami, Texas A&M and Georgia.",
+     "source": "https://unfospreys.com/news/2026/9/2/mens-basketball-announces-2026-27-schedule",
+     "kind": "current",
+     "until": "2027-01-06"
+    },
+    {
+     "text": "North Florida guard Kent Jackson, who came to the Ospreys from Jacksonville, averaged 14.8 points last season and made 106 3-pointers.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida will not have to leave town for the 2027 ASUN Tournament, which is set for March 4-7 at VyStar Veterans Memorial Arena in Jacksonville.",
+     "source": "https://unfospreys.com/news/2026/9/2/mens-basketball-announces-2026-27-schedule",
+     "kind": "current",
+     "until": "2027-03-03"
+    },
+    {
+     "text": "North Florida took a run of 130 straight games with at least five 3-pointers into its Nov. 6 visit to UCLA, the longest active streak in the nation at the time.",
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unfospreys.com/documents/2026/11/5/2_atUCLA_110626.pdf",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "North Florida has 15 home games at UNF Arena this season, eight outside the ASUN and seven in league play.",
+     "source": "https://unfospreys.com/news/2026/9/2/mens-basketball-announces-2026-27-schedule",
+     "kind": "current",
+     "until": "2027-02-27"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UNF Arena, home of North Florida basketball, opened on Jan. 16, 1993, at a cost of $9.2 million.",
+     "source": "https://en.wikipedia.org/wiki/UNF_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The record crowd at UNF Arena is 6,155, set on March 8, 2015, when North Florida beat USC Upstate for the Atlantic Sun Tournament title.",
+     "source": "https://en.wikipedia.org/wiki/UNF_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UNF Arena drew a sellout crowd of 6,011 on March 15, 2016, when North Florida hosted Florida.",
+     "source": "https://floridagators.com/news/2016/3/16/chris-harry-gators-bomb-ospreys-with-dose-of-own-treyball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UNF Arena, listed by North Florida at 5,400 seats, has hosted Orlando Magic training camp and was a training site for the 2004 U.S. men's and women's Olympic teams.",
+     "source": "https://unfospreys.com/facilities/unf-arena/54",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A fall 2022 renovation of UNF Arena added CSI Companies Court along with new sound and lighting systems for North Florida's home.",
+     "source": "https://unfospreys.com/facilities/unf-arena/54",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "At UNF Arena, North Florida fans raise their hands on Osprey free throws and yell Swoop when the shot is good, and a 3 is hung on the south-side railing for each made 3-pointer.",
+     "source": "https://www.stadiumjourney.com/stadiums/unf-arena-s642",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "queens": {
+   "town": "Charlotte",
+   "home_floor": "Curry Arena",
+   "lines": [
+    {
+     "text": "Queens first fielded a men's basketball team in 1989-90 under coach Dale Layer, when the Charlotte school was still Queens College.",
+     "source": "https://queensathletics.com/honors/royals-hall-of-fame/1989-90-mens-basketball-team/25",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The first Queens team opened 1989-90 with five straight wins, one of them a 73-68 road victory over Division I Central Florida.",
+     "source": "https://queensathletics.com/honors/royals-hall-of-fame/1989-90-mens-basketball-team/25",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ritchie McKay was the assistant coach on Dale Layer's first Queens staff in 1989-90.",
+     "source": "https://queensathletics.com/honors/royals-hall-of-fame/1989-90-mens-basketball-team/25",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dale Layer went 167-87 in nine seasons as Queens coach from 1989 to 1998 and also served as the school's athletic director.",
+     "source": "https://en.wikipedia.org/wiki/Dale_Layer",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens made 15 NCAA Division II tournament fields between 1996 and 2022 and went 21-14 in those games before moving up to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Queens_Royals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens reached the Division II Final Four twice, in 2003 and 2018, and the Elite Eight four times before joining the ASUN on July 1, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Queens_Royals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2017-18 Queens team went 32-4, the most wins in program history, and on Jan. 9, 2018, became the first Royals team ranked No. 1 in Division II.",
+     "source": "https://queensathletics.com/news/2018/4/3/mens-basketball-year-in-review-the-winningest-season-in-queens-basketball-history.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2017-18 Queens season ended on March 22, 2018, with a 105-99 double-overtime loss to Northern State in the Division II national semifinals.",
+     "source": "https://queensathletics.com/news/2018/4/3/mens-basketball-year-in-review-the-winningest-season-in-queens-basketball-history.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2002-03 Queens team went 29-4 and reached the Division II national semifinals behind Spencer Ross, who averaged 23.9 points and scored 788 that season.",
+     "source": "https://queensathletics.com/honors/royals-hall-of-fame/2002-2003-mens-basketball-team/72",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens won its first ASUN tournament title on March 8, 2026, beating top-seeded Central Arkansas 98-93 in overtime in Jacksonville as Chris Ashby hit 10 3-pointers and scored 34.",
+     "source": "https://queensathletics.com/news/2026/3/8/mens-basketball-queens-captures-first-asun-tournament-title-in-overtime-thriller-royals-heading-to-the-big-dance.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens became the fourth school to reach the NCAA Division I tournament in its first eligible season in 2026, joining North Dakota State, UC San Diego and Northern Kentucky.",
+     "source": "https://asunsports.org/news/2026/3/21/mens-basketball-queens-historic-season-comes-to-end-in-ncaa-tournament-first-round.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens made its NCAA Division I tournament debut as a No. 15 seed in March 2026, falling 104-71 to second-seeded Purdue in St. Louis.",
+     "source": "https://asunsports.org/news/2026/3/21/mens-basketball-queens-historic-season-comes-to-end-in-ncaa-tournament-first-round.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Queens opened ASUN play 7-0 in 2025-26, its best league start since joining the conference in 2022.",
+     "source": "https://queensathletics.com/news/2026/2/4/mens-basketball-queens-open-four-game-homestand-against-jacksonville.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In 2025-26, Queens coach Grant Leonard handed a hollow replica dog named Buddy to the Street Dog of the Game, and it sat at that player's locker until the next game.",
+     "source": "https://queensathletics.com/news/2026/2/4/mens-basketball-queens-open-four-game-homestand-against-jacksonville.aspx",
+     "kind": "campus-tradition",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Charlotte, home of Queens, is named for Charlotte of Mecklenburg-Strelitz, who became queen consort of Great Britain and Ireland in 1761, and is nicknamed the Queen City.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Charlotte, where Queens plays, is the second-largest banking center in the United States behind New York City and the headquarters city of Bank of America and Truist Financial.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Charlotte, the home of Queens, is nicknamed the Hornet's Nest because British Gen. Charles Cornwallis called it a hornet's nest of rebellion during the Revolutionary War.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Queens plays in Charlotte, the most populous city in North Carolina, which sits in the Carolina Piedmont 165 miles southwest of the state capital in Raleigh.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Queens shares Charlotte with the NASCAR Hall of Fame, and about 75% of the NASCAR industry's race teams, employees and drivers are based nearby.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Queens campus sits at 1900 Selwyn Ave. in Myers Park, a Charlotte neighborhood of winding walkways and 100-year-old trees.",
+     "source": "https://www.queens.edu/charlotte/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Queens was founded in 1857 as the Charlotte Female Institute, in a building on College Street facing Ninth Street, and became fully coeducational in 1987.",
+     "source": "https://www.ncpedia.org/queens-university-charlotte",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Queens took its name to honor the first North Carolina institution called Queens College, which was begun in 1771 and disallowed by the British Crown in 1772.",
+     "source": "https://www.ncpedia.org/queens-university-charlotte",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Royals finished ahead of Sting and Griffins when Queens picked a team name after a fall 1988 call for student suggestions, which also produced the Grey Squirrels.",
+     "source": "https://queensathletics.com/sports/2018/8/25/rex-the-lion.aspx",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Todd Withers, an All-American for Queens, became the first former Royals player to sign with an NBA organization when he joined the G League's Grand Rapids Drive in October 2018.",
+     "source": "https://queensathletics.com/news/2018/10/11/mens-basketball-withers-signs-with-grand-rapids-drive-of-nba-g-league.aspx",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bart Lundy went 115-41 and 337-102 in two stints as Queens coach, took the Royals to both of their Division II Final Fours and has coached Milwaukee since 2022.",
+     "source": "https://en.wikipedia.org/wiki/Bart_Lundy",
+     "kind": "alumni",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Queens alumni outside basketball include actor Conrad Ricamora, a 2001 graduate, and Paralympic gold medalist Hannah Aspden, a 2022 graduate.",
+     "source": "https://www.elon.edu/u/news/2025/12/18/two-universities-stronger-together/",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Queens coach Grant Leonard, who grew up in Milwaukee, joined the Royals as an assistant in 2013 and was promoted to head coach for the 2022-23 season.",
+     "source": "https://en.wikipedia.org/wiki/Grant_Leonard",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Grant Leonard brought a 73-63 record through four seasons as Queens head coach into 2026-27, with 20-win seasons in each of the last two years.",
+     "source": "https://en.wikipedia.org/wiki/Grant_Leonard",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Queens went 21-14 overall and 13-5 in the ASUN last season, finishing third in the league before reaching the NCAA Division I tournament.",
+     "source": "https://en.wikipedia.org/wiki/Grant_Leonard",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Queens was picked first in the ASUN preseason poll this fall, drawing five of the eight first-place votes.",
+     "source": "https://bvmsports.com/2026/11/01/queens-opens-2026-27-season-vs-winthrop-in-field-of-68/",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Queens returned third-team All-ASUN forward Avantae Parker and ASUN All-Freshman guard Jordan Watford from its first NCAA tournament team.",
+     "source": "https://queensathletics.com/news/2026/7/15/queens-mens-basketball-announces-2026-27-non-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Queens scheduled only three of its 14 non-conference games at home in 2026-27, with road trips to Houston, BYU, Baylor, LSU and Oklahoma State on the list.",
+     "source": "https://queensathletics.com/news/2026/7/15/queens-mens-basketball-announces-2026-27-non-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2026-12-17"
+    },
+    {
+     "text": "Queens is one of eight ASUN basketball members in 2026-27, and all eight will play in the conference tournament at VyStar Veterans Memorial Arena in Jacksonville.",
+     "source": "https://asunsports.org/news/2026/7/16/atlantic-sun-conference-announces-2026-27-mens-womens-basketball-schedules.aspx",
+     "kind": "current",
+     "until": "2027-03-15"
+    },
+    {
+     "text": "Lipscomb edged Queens 81-75 in overtime in the 2025 ASUN tournament semifinals.",
+     "source": "https://queensathletics.com/news/2026/2/13/mens-basketball-queens-hosts-reigning-asun-tournament-champions-from-lipscomb.aspx",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Curry Arena sits inside the Levine Center, a three-story, 145,000-square-foot building on the Queens campus that replaced the Ovens Athletic Center, which was demolished in 2011.",
+     "source": "https://queensathletics.com/facilities/?id=47",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Curry Arena holds 2,500, and nearly all of it is general admission, with about 40 courtside seats the exception at Queens home games.",
+     "source": "https://www.stadiumjourney.com/stadiums/curry-arena-queens-university-of-charlotte-royals",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "An in-house DJ supplies the music at Curry Arena, where Rex the lion works the crowd and stops for selfies with fans at Queens home games.",
+     "source": "https://www.stadiumjourney.com/stadiums/curry-arena-queens-university-of-charlotte-royals",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "stetson": {
+   "town": "DeLand",
+   "home_floor": "the Edmunds Center",
+   "lines": [
+    {
+     "text": "Stetson first fielded a men's basketball team in the 1900-01 season.",
+     "source": "https://stetson_ftp.sidearmsports.com/custompages/pdf/2016-17_MBB_Fact_Book.pdf",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson made its first NCAA Division I tournament appearance in 2024 as a No. 16 seed, losing 91-52 to top-seeded UConn in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Stetson_Hatters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson's 2023-24 team finished 22-13, the program's first 20-win season since 1974-75, and ended its year against UConn at the Barclays Center in Brooklyn.",
+     "source": "https://gohatters.com/news/2024/3/22/mens-basketball-concludes-historic-season-in-brooklyn.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson clinched its first NCAA Tournament bid in 2024 by beating Austin Peay 94-91 in the ASUN tournament final.",
+     "source": "https://www.clickorlando.com/sports/2024/03/20/whats-a-hatter-spotlight-shines-on-stetson-university-thanks-to-march-madness",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson reached the NCAA Division II Elite Eight in 1970, beating Georgia Southern 93-86 in a regional final before a 75-74 loss to Buffalo State.",
+     "source": "https://en.wikipedia.org/wiki/Stetson_Hatters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson opened the 2022-23 season with an 83-74 win at Florida State, its first victory over the Seminoles since March 5, 1975.",
+     "source": "https://gohatters.com/news/2022/11/8/hatter-mens-basketball-open-season-with-historic-upset-over-florida-state.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Glenn Wilkes coached Stetson from 1957 to 1993, won 551 games and was inducted into the National Collegiate Basketball Hall of Fame in 2014.",
+     "source": "https://en.wikipedia.org/wiki/Glenn_Wilkes",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stetson has been a member of the ASUN since 1985, the longest active membership in the conference.",
+     "source": "https://gohatters.com/news/2026/2/24/mens-basketball-hatters-finish-regular-season-with-jacksonville-fgcu.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "DeLand was first known as Persimmon Hollow before Henry DeLand, a baking soda magnate from Fairport, New York, gave the town his name in 1876.",
+     "source": "https://en.wikipedia.org/wiki/DeLand,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeLand, nicknamed the Athens of Florida, was the first city in the state to have electricity.",
+     "source": "https://en.wikipedia.org/wiki/DeLand,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeLand sits between Orlando and Daytona Beach, roughly 34 miles north of Orlando and 30 miles west of Daytona Beach.",
+     "source": "https://www.visitflorida.com/places-to-go/central-east/deland/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeLand has been called the skydiving capital of the world, and the industry employs more than 500 workers from the DeLand area.",
+     "source": "https://en.wikipedia.org/wiki/DeLand,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Blue Spring State Park, where manatees gather each winter, is about 15 minutes from DeLand in Orange City.",
+     "source": "https://www.visitflorida.com/places-to-go/central-east/deland/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "John B. Stetson built his winter home in DeLand in 1886, and his friend Thomas Edison supervised the installation of its electricity.",
+     "source": "https://savingplaces.org/distinctive-destinations/stetson-mansion",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "DeLand has been the northern end of the line for Orlando's SunRail commuter trains since 2024.",
+     "source": "https://en.wikipedia.org/wiki/DeLand,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Stetson fielded the first football team in Florida in 1901 using the name Hatter, a link to hat maker John B. Stetson.",
+     "source": "https://www.clickorlando.com/sports/2024/03/20/whats-a-hatter-spotlight-shines-on-stetson-university-thanks-to-march-madness",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stetson's green and white, first used at the school's first commencement in 1893, reflect the trees and orange blossoms of Central Florida.",
+     "source": "https://www.stetson.edu/about/traditions.php",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stetson's mascot, John B., made his first public appearance on Jan. 20, 2012, in a Stetson hat, a green bandana and alligator skin boots.",
+     "source": "https://www.clickorlando.com/sports/2024/03/20/whats-a-hatter-spotlight-shines-on-stetson-university-thanks-to-march-madness",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stetson crowds split a call-and-response cheer in two, with one side shouting Go Green and the other answering Fight White.",
+     "source": "https://www.stetson.edu/about/traditions.php",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stetson's DeLand Hall opened in 1884 at a cost of $4,000 and is known as the oldest building in Florida in continuous use for higher education.",
+     "source": "https://en.wikipedia.org/wiki/Stetson_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stetson students who receive a university ring traditionally dunk it in Holler Fountain, and campus lore holds that skipping the dip means never graduating.",
+     "source": "https://www.stetson.edu/about/traditions.php",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Former Stetson player Corey Walden was the 2019 Israeli Basketball Premier League MVP.",
+     "source": "https://en.wikipedia.org/wiki/Stetson_Hatters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ted Cassidy, who played Lurch on The Addams Family, played basketball at Stetson and majored in drama and speech before graduating in 1955.",
+     "source": "https://www2.stetson.edu/today/2023/10/ted-cassidy-55-featured-on-wucf-tvs-florida-road-trip/",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Donnie Jones was hired on March 29, 2019, as Stetson's 22nd head coach.",
+     "source": "https://en.wikipedia.org/wiki/Donnie_Jones_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Stetson coach Donnie Jones was an assistant at Florida under Billy Donovan during the Gators' national championship seasons of 2006 and 2007.",
+     "source": "https://en.wikipedia.org/wiki/Donnie_Jones_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Stetson coach Donnie Jones, a native of Point Pleasant, West Virginia, who played at Pikeville, went 55-41 as head coach at Marshall before six seasons at UCF.",
+     "source": "https://en.wikipedia.org/wiki/Donnie_Jones_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Stetson went 12-21 overall and 7-11 in the ASUN in 2025-26, a four-win improvement on its 8-24 mark the season before.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2025-26_Stetson_Hatters_men's_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Stetson entered last season's ASUN tournament as the No. 10 seed, beat Eastern Kentucky 92-76 in the first round and lost 69-60 to Austin Peay in the quarterfinals.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2025-26_Stetson_Hatters_men's_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Stetson's 2026-27 ASUN schedule runs 14 games, two apiece against FGCU, Lipscomb, Bellarmine, Queens, West Florida, North Florida and Jacksonville.",
+     "source": "https://gohatters.com/news/2026/7/16/stetson-mens-basketball-conference-schedule-announced.aspx",
+     "kind": "current",
+     "until": "2027-02-27"
+    },
+    {
+     "text": "DeLand is about 110 road miles from Jacksonville, a drive of roughly 1 hour, 40 minutes that separates Stetson from in-state ASUN foe Jacksonville.",
+     "source": "https://www.mapsof.net/distance/deland-to-jacksonville",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Stetson and Jacksonville met for the 60th time on Feb. 26, 2026, after the Hatters won that season's first meeting 67-62 in DeLand.",
+     "source": "https://gohatters.com/news/2026/2/24/mens-basketball-hatters-finish-regular-season-with-jacksonville-fgcu.aspx",
+     "kind": "rivalry",
+     "until": "2027-01-29"
+    },
+    {
+     "text": "Stetson rallied from 18 down to beat in-state rival FGCU 80-73 in the 2015-16 regular-season finale, then lost to the Eagles 80-78 in overtime in the ASUN title game.",
+     "source": "https://stetson_ftp.sidearmsports.com/custompages/pdf/2016-17_MBB_Fact_Book.pdf",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Edmunds Center opened on Dec. 5, 1974, with a 73-58 Stetson win over Marshall.",
+     "source": "https://gohatters.com/facilities/?id=1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Stetson went 16-0 at the Edmunds Center in the building's first season and won the first 20 games it played there.",
+     "source": "https://gohatters.com/facilities/?id=1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Edmunds Center is named for J. Ollie Edmunds, Stetson's fourth president, who led the university from 1948 to 1967.",
+     "source": "https://en.wikipedia.org/wiki/Edmunds_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Stetson's home floor is formally Insight Credit Union Arena at J. Ollie Edmunds Center, at 143 E. Pennsylvania Ave. in DeLand.",
+     "source": "https://gohatters.com/facilities/?id=1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Orlando Magic held training camp at Stetson's Edmunds Center in 1992 and 1993.",
+     "source": "https://gohatters.com/facilities/?id=1",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
+  },
+  "west-florida": {
+   "town": "Pensacola",
+   "home_floor": "the Field House",
+   "lines": [
+    {
+     "text": "West Florida earned its first NCAA Division II tournament berth in 2018 under coach Jeff Burkhamer, in a season that reset program records for wins.",
+     "source": "https://goargos.com/news/2018/3/10/mens-basketball-historic-season-comes-to-an-end-for-no-9-argonauts.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida won its first Gulf South Conference tournament title on March 4, 2018, beating Delta State 71-65 in double overtime in Birmingham, Ala.",
+     "source": "https://goargos.com/news/2018/3/4/mens-basketball-no-12-argos-claim-first-gsc-tournament-title-in-program-history.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Marvin Jones scored 22 points and was named Most Outstanding Player when West Florida won the 2018 Gulf South final, the first double-overtime championship game in the history of the tournament.",
+     "source": "https://goargos.com/news/2018/3/4/mens-basketball-no-12-argos-claim-first-gsc-tournament-title-in-program-history.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida's 1975-76 team beat North Georgia College 60-57 to reach the 32-team NAIA National Tournament in Kansas City, Mo.",
+     "source": "https://goargos.com/honors/uwf-athletics-hall-of-fame/-1975-76-mens-basketball-team/19",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1975-76 West Florida men's basketball team, which played in the NAIA National Tournament, was inducted into the UWF Athletics Hall of Fame in 2003.",
+     "source": "https://goargos.com/honors/uwf-athletics-hall-of-fame/-1975-76-mens-basketball-team/19",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida won its second Gulf South Conference men's basketball title in 2026, beating top-seeded West Alabama 76-69 in Livingston, Ala.",
+     "source": "https://goargos.com/news/2026/3/8/mens-basketball-argos-take-down-no-1-uwa-to-win-second-gsc-title-in-program-history.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida's two NCAA Division II tournament trips came in 2018 and 2026.",
+     "source": "https://goargos.com/news/2026/3/13/uwf-mens-basketball-rises-to-win-gsc-title-and-ncaa-tournament-berth-in-memorable-season.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida played in the NAIA's Southern States Conference from 1974-75 to 1993-94 and in the Gulf South Conference beginning in 1994-95.",
+     "source": "https://en.wikipedia.org/wiki/University_of_West_Florida",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "West Florida's 15 varsity programs won 11 national championships and 136 conference championships at the NCAA Division II level before the school moved to Division I in 2026.",
+     "source": "https://goargos.com/news/2026/4/2/uwf-athletics-announces-move-to-ncaa-division-i-athletics-joins-atlantic-sun-conference-united-athletic-conference.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pensacola traces its history to Aug. 15, 1559, when Tristan de Luna y Arellano landed with some 1,500 people on 11 ships from Veracruz, Mexico.",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pensacola, home of West Florida, is called the City of Five Flags for the governments that have ruled it: Spain, France, Great Britain, the United States and the Confederate States.",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "West Florida's hometown of Pensacola is home to the Navy's first naval air station, commissioned in 1914, and to the Blue Angels flight demonstration team.",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pensacola, where West Florida plays, sits 59 miles east of Mobile, Ala., and 196 miles west of Tallahassee, and it keeps Central time.",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The West Florida campus covers 1,600 acres of hills and natural woodland along the Escambia River, about ten miles north of downtown Pensacola.",
+     "source": "https://en.wikipedia.org/wiki/University_of_West_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pensacola, West Florida's home, draws more than 2.5 million visitors a year and counts World's Whitest Beaches and Cradle of Naval Aviation among its nicknames.",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The West Florida campus is about 15 miles from Palafox Street in downtown Pensacola and about 20 miles north of Pensacola Beach.",
+     "source": "https://www.stadiumjourney.com/stadiums/uwf-field-house-west-florida-argonauts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Near the West Florida campus, the town of Milton on the Blackwater River has been nicknamed the canoe capital of Florida.",
+     "source": "https://www.stadiumjourney.com/stadiums/uwf-field-house-west-florida-argonauts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "West Florida's first student body voted in 1967 to call its teams the Argonauts, after the crew that sailed with Jason in search of the Golden Fleece in Greek mythology.",
+     "source": "https://uwf.edu/go/traditions/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "West Florida's blue and green colors were inspired by the blue of the sky and the green of the sea.",
+     "source": "https://uwf.edu/go/traditions/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "West Florida adopted the chambered nautilus as its emblem in 1965, a choice first president Harold Crosby made after reading the Oliver Wendell Holmes poem of that name.",
+     "source": "https://en.wikipedia.org/wiki/University_of_West_Florida",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cannon Green on the West Florida campus is named for Annin's Cannon, an 18th-century British 32-pound gun that a student retrieved from Pensacola Pass in the 1970s.",
+     "source": "https://uwf.edu/go/traditions/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "West Florida's Argo Fight Song, with words and music by professor Joseph T. Spaniola, was introduced at a football game in 2017.",
+     "source": "https://uwf.edu/go/traditions/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "West Florida broke ground on April 16, 1965, held its first classes in fall 1967 and graduated 58 students at its first commencement in June 1968.",
+     "source": "https://en.wikipedia.org/wiki/University_of_West_Florida",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Moochie Norris, who played at West Florida in 1995-96, was the 33rd pick of the 1996 NBA Draft by Milwaukee and later played for Houston, New York, Seattle and New Orleans.",
+     "source": "https://en.wikipedia.org/wiki/Moochie_Norris",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "West Florida product Moochie Norris totaled 2,272 points and 1,233 assists in his NBA career.",
+     "source": "https://en.wikipedia.org/wiki/Moochie_Norris",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Tanner Smith, named West Florida's head coach in April 2026, spent three seasons at Appalachian State, the last as associate head coach.",
+     "source": "https://goargos.com/staff-directory/tanner-smith/480",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "West Florida coach Tanner Smith was a four-year player at Clemson, where he scored 986 points and made three NCAA Tournament appearances before graduating in 2012.",
+     "source": "https://goargos.com/staff-directory/tanner-smith/480",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Before coaching, West Florida's Tanner Smith, an Atlanta native, played two professional seasons in the Netherlands and Germany.",
+     "source": "https://goargos.com/staff-directory/tanner-smith/480",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "West Florida coach Tanner Smith was on the Appalachian State staff in 2023-24 when the Mountaineers won a program-record 27 games and went unbeaten at home.",
+     "source": "https://goargos.com/staff-directory/tanner-smith/480",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "West Florida went 25-9 last season, tying for the second-most wins in program history, and lost 58-53 to West Alabama in the NCAA South Regional in Fort Lauderdale, Fla.",
+     "source": "https://goargos.com/news/2026/3/14/mens-basketball-argos-fall-to-tigers-in-ncaa-regional.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "West Florida is in the first year of a three-year NCAA reclassification and can compete for the ASUN title but will not have full NCAA postseason eligibility until 2029.",
+     "source": "https://goargos.com/news/2026/4/2/uwf-athletics-announces-move-to-ncaa-division-i-athletics-joins-atlantic-sun-conference-united-athletic-conference.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "West Florida meets Florida State on Nov. 29 at 2 p.m. at the Pensacola Bay Center in a game billed as the Battle at the Bay.",
+     "source": "https://weartv.com/sports/uwf-sports/uwf-mens-basketball-to-host-florida-state-at-the-pensacola-bay-center",
+     "kind": "current",
+     "until": "2026-11-29"
+    },
+    {
+     "text": "West Florida hosts Navy on Dec. 13 at the UWF Field House in Pensacola, home of Naval Air Station Pensacola and the Cradle of Naval Aviation.",
+     "source": "https://goargos.com/news/2026/7/30/mens-basketball-uwf-tips-off-di-mens-basketball-with-2026-27-schedule-and-season-tickets-featuring-navy-matchup.aspx",
+     "kind": "current",
+     "until": "2026-12-13"
+    },
+    {
+     "text": "West Florida plays its first ASUN game on Jan. 9, 2027, at home against Queens, the start of a 14-game league schedule with seven dates in Pensacola.",
+     "source": "https://goargos.com/news/2026/7/16/asun-conference-unveils-2026-27-mens-basketball-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2027-01-09"
+    },
+    {
+     "text": "West Florida's first ASUN Tournament is set for March 4-7 in Fort Myers, Fla.",
+     "source": "https://goargos.com/news/2026/7/16/asun-conference-unveils-2026-27-mens-basketball-conference-schedule.aspx",
+     "kind": "current",
+     "until": "2027-03-07"
+    },
+    {
+     "text": "West Florida's move to the ASUN made it one of five Florida schools in the eight-member league, along with North Florida, Jacksonville, Stetson and Florida Gulf Coast.",
+     "source": "https://asunsports.org/news/2026/4/1/general-university-of-west-florida-to-join-the-atlantic-sun-conference-united-athletic-conference.aspx",
+     "kind": "rivalry",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "West Florida's first ASUN season sends it against North Florida twice, Jan. 14 in Pensacola and Feb. 13 in Jacksonville.",
+     "source": "https://goargos.com/news/2026/7/30/mens-basketball-uwf-tips-off-di-mens-basketball-with-2026-27-schedule-and-season-tickets-featuring-navy-matchup.aspx",
+     "kind": "rivalry",
+     "until": "2027-02-13"
+    },
+    {
+     "text": "West Florida and new ASUN opponent Jacksonville meet Jan. 16 at the UWF Field House and again Feb. 11 in Jacksonville.",
+     "source": "https://goargos.com/news/2026/7/30/mens-basketball-uwf-tips-off-di-mens-basketball-with-2026-27-schedule-and-season-tickets-featuring-navy-matchup.aspx",
+     "kind": "rivalry",
+     "until": "2027-02-11"
+    },
+    {
+     "text": "West Florida hosts in-state ASUN opponents Stetson on Feb. 18 and Florida Gulf Coast on Feb. 20 at the UWF Field House.",
+     "source": "https://goargos.com/news/2026/7/30/mens-basketball-uwf-tips-off-di-mens-basketball-with-2026-27-schedule-and-season-tickets-featuring-navy-matchup.aspx",
+     "kind": "rivalry",
+     "until": "2027-02-20"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The UWF Field House, West Florida's home floor, opened in 1971 with an original seating capacity of 4,500.",
+     "source": "https://goargos.com/facilities/?id=4",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A 2023 renovation gave the UWF Field House chairback seating on its east side and HD LED video boards at each end of the West Florida court.",
+     "source": "https://goargos.com/facilities/?id=4",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The main lobby of the UWF Field House highlights the championship history of West Florida athletics, and the building also houses the athletic department's offices.",
+     "source": "https://goargos.com/facilities/?id=4",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UWF Field House, West Florida's home floor, hosted the NCAA Division II women's volleyball championships in 2012 and 2017.",
+     "source": "https://goargos.com/facilities/?id=4",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UWF Field House sits at 2344 Campus Drive in Pensacola, a one-story brick building with the West Florida aquatic center attached.",
+     "source": "https://www.stadiumjourney.com/stadiums/uwf-field-house-west-florida-argonauts",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "For its first Division I season, West Florida added courtside seating and an on-court projection system for pregame introductions at the UWF Field House.",
+     "source": "https://goargos.com/news/2026/7/30/mens-basketball-uwf-tips-off-di-mens-basketball-with-2026-27-schedule-and-season-tickets-featuring-navy-matchup.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}

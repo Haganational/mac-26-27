@@ -4,7 +4,7 @@
 <head>
 {% set mv = g.mv %}{% set u = g.model %}{% set away, home = g.away, g.home %}
 {% set an, hn = away.name|school, home.name|school %}{% set tv = g.watch.nets|map(attribute='name')|join(', ') %}{% set page_title %}{{ an }} vs. {{ hn }} prediction, odds and TV · {{ g.et.weekday }} {{ g.et.md }}{% endset %}{% set page_desc %}{{ an }} vs. {{ hn }} prediction for {{ g.et.weekday }} {{ g.et.md }}: our model projects {{ an }} {{ mv.away_pts }}, {{ hn }} {{ mv.home_pts }} ({{ mv.fav_line }}).{% if tv %} How to watch: {{ tv }}{% if not g.et.tba %}, {{ g.et.time }} ET{% endif %}.{% endif %} Odds, players to watch, rest and travel.{% endset %}
-{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", canonical=canon_game.get(g.game_id, "")) }}
+{{ L.head(page_title, page_desc, root="../", path="games/" ~ g.game_id ~ ".html", canonical=canon_game.get(g.game_id, ""), image=card or "static/og/site.png") }}
 {% if ld_json %}<script type="application/ld+json">{{ ld_json|safe }}</script>{% endif %}
 </head>
 <body>

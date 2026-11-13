@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import brick, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import brick, cards, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -408,6 +408,12 @@ def render_site() -> str:
     news_items = []  # (path, headline, published) for the news sitemap
     desk = []  # our own recaps and previews, for the front page's lead stories
     CANON.clear(); CANON.update(canon_games(games))
+    card_ok = site_chrome.pillow_ok()
+    og_dir = SITE_DIR / "static" / "og"
+    team_colors = {t.key: t.color for t in TEAMS}
+
+    def card_school(name: str, key: str | None = None) -> str:
+        return school(name)
     env.globals["canon_game"] = CANON
     for gid, box in boxes.items():
         g = by_id.get(gid)
@@ -428,6 +434,8 @@ def render_site() -> str:
         html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
                                mp=mp, gm=gm, pre=pre, published=pub, hl=highlights.for_game(gid, clips), phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
+        if card_ok:  # the share card: og:image for the page and the image on social posts
+            cards.render(og_dir, f"game-{gid}", cards.recap(LEAGUE.short, gc, gm, team_colors, card_school))
         have_box.add(gid)
         desk.append({"href": f"games/{gid}.html", "title": gm["headline"], "kind": "recap", "published": pub,
                      "dek": (gm["paragraphs"] or [""])[0], "photo": (game_photos or [None])[0], "video": gid in clips})
@@ -518,9 +526,14 @@ def render_site() -> str:
                              "published": story["published"], "dek": (story.get("paragraphs") or [""])[0], "photo": None})
                 if g["game_id"] not in CANON:
                     news_items.append((f"games/{g['game_id']}.html", story["headline"], story["published"]))
+        card = ""
+        if card_ok and story:  # only previews that run as stories get a card (and a social post)
+            card = f"static/og/preview-{g['game_id']}.png"
+            cards.render(og_dir, f"preview-{g['game_id']}",
+                         cards.preview(LEAGUE.short, g, story, team_colors, cards.records(standings, LEAGUE.short), card_school))
         (SITE_DIR / "games" / f"{g['game_id']}.html").write_text(preview_tpl.render(
             d=data, g=g, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(g["game_id"], []),
-            story=story, ld_json=ld))
+            story=story, ld_json=ld, card=card))
         (SITE_DIR / "games" / f"{g['game_id']}-notes.html").write_text(prep_tpl.render(
             d=data, g=g, p=prep.context(g, games, standings, profiles, coach_for, (m or {}).get("opp_form") or {})))
     preview_story.save(previews_saved)
@@ -729,9 +742,17 @@ def render_power(env: Environment, data: dict[str, Any], m: dict[str, Any], game
     tpl = env.get_template("power.html")
     (SITE_DIR / "power").mkdir(exist_ok=True)
     live = {t["key"]: t for t in idx}
+    card_ok = site_chrome.pillow_ok()
+    og_dir = SITE_DIR / "static" / "og"
     for i, w in enumerate(wks):
         snap = power.load(w)
-        kw = dict(d=data, snap=snap, caps=power.capsules(w), weeks=wks, live=live,
+        caps = power.capsules(w)
+        if card_ok and snap and snap.get("teams"):  # the week's top five, plus one card per written capsule
+            cards.render(og_dir, f"power-{w}", cards.ranking(LEAGUE.short, w, snap["teams"], BY_KEY))
+            for t in snap["teams"]:
+                if caps.get(t["key"]):
+                    cards.render(og_dir, f"power-{w}-{t['key']}", cards.capsule(LEAGUE.short, w, t, caps[t["key"]], BY_KEY.get(t["key"])))
+        kw = dict(d=data, snap=snap, caps=caps, weeks=wks, live=live, card_ok=card_ok,
                   prev_week=wks[i - 1] if i else None, next_week=wks[i + 1] if i + 1 < len(wks) else None)
         (SITE_DIR / "power" / f"{w}.html").write_text(tpl.render(root="../", path=f"power/{w}.html", **kw))
         if i == len(wks) - 1:
@@ -787,8 +808,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
-        if SITE_DIR / "masthead.html" not in pages:
-            pages.append(SITE_DIR / "masthead.html")
+        for root_page in ("masthead.html", "media.html"):
+            if SITE_DIR / root_page not in pages:
+                pages.append(SITE_DIR / root_page)
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
         f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"
         and not (f.parent.name == "games" and f.stem in CANON)))
@@ -804,6 +826,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
                            kicker=f"{LEAGUE.short} MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
+    if LEAGUE.has("x"):  # follow.html is not in the menu, so it gets its card here
+        site_chrome.share_card(og / "follow.png", f"{LEAGUE.short} on X", "Team, coach, player and media accounts to follow, one checklist.",
+                               accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}
     for t in TEAMS:
         rec = standings.get(t.key, {})
@@ -815,7 +840,3 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
             lines.append(f"Coach {coaches[t.key]}")
         site_chrome.share_card(og / f"team-{t.key}.png", t.name, "Roster, player profiles, schedule, lines, travel and news.",
                                bg=t.color, accent=site_chrome.accent_for(t), lines=lines)
-    colors = {t.key: t.color for t in TEAMS}
-    by_id = {g["game_id"]: g for g in games}
-    for gid in have_box:
-        site_chrome.game_card(og / f"game-{gid}.png", by_id[gid], colors)

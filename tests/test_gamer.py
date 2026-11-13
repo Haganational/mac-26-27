@@ -158,3 +158,18 @@ def test_event_offers_only_for_upcoming_games_with_tickets():
                             "priceCurrency": "USD", "price": "14.00"}
     c["g"]["completed"] = True
     assert "offers" not in gamer.json_ld(c, gm, "2026-11-04T01:05:00Z", "2026-11-04T02:00:00Z", "Hardwood Bricks")["@graph"][1]
+
+
+def test_research_notes_carry_sources_and_stale_news_drops_out():
+    note = {"text": "Akron opened the JAR in 1983.", "source": "https://example.edu/jar", "kind": "arena", "until": ""}
+    news = {"text": "Akron is the defending league champion.", "source": "https://example.edu/c", "kind": "current", "until": "2026-11-01"}
+    f = {"settings": {"max_lines": 1}, "teams": {"akron": {"lines": [news, note]}}, "rivalries": {}}
+    assert gamer.write(ctx(), None, f)["flavor"] == ["Akron opened the JAR in 1983."]  # game is Nov 3: the Nov 1 note is stale
+    assert gamer.line_text(news, "2026-10-30") == "Akron is the defending league champion."
+    assert gamer.line_text("plain string") == "plain string" and gamer.line_text(None) == ""
+
+
+def test_visitors_get_a_line_when_there_is_room():
+    f = {"settings": {"max_lines": 2}, "rivalries": {},
+         "teams": {"akron": {"lines": ["Akron note."], "home_lines": []}, "kent-state": {"lines": ["Kent note."], "home_lines": ["Only at the M.A.C. Center."]}}}
+    assert gamer.write(ctx(), None, f)["flavor"] == ["Akron note.", "Kent note."]

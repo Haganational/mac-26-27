@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T01:37:14+00:00",
+ "fetched_at": "2026-11-13T12:01:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -1678,10 +1678,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-12-2026--sports-ncaa-basketball/production/7711940?wsUser=717",
-    "low": 69.0
-   },
+   "tickets": null,
    "venue": "Memorial Coliseum (IN)",
    "venue_city": "Fort Wayne",
    "venue_state": "IN",
@@ -1690,21 +1687,21 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 54,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 73,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928807",
@@ -1897,7 +1894,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-11-14-2026--sports-ncaa-basketball/production/7710572?wsUser=717",
-    "low": 41.0
+    "low": 40.0
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -5148,7 +5145,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-carolina-gamecocks-mens-basketball-tickets-colonial-life-arena-12-12-2026--sports-ncaa-basketball/production/7570922?wsUser=717",
-    "low": 10.0
+    "low": 8.0
    },
    "venue": "Colonial Life Arena",
    "venue_city": "Columbia",
@@ -5998,7 +5995,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-21-2026--sports-ncaa-basketball/production/7522605?wsUser=717",
-    "low": 14.0
+    "low": 13.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
@@ -6086,7 +6083,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-21-2026--sports-ncaa-basketball/production/7355795?wsUser=717",
-    "low": 14.0
+    "low": 11.0
    },
    "venue": "Petersen Events Center",
    "venue_city": "Pittsburgh",
@@ -10464,6 +10461,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-13T01:45:57+00:00"
+ ]
 }

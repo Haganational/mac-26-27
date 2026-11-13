@@ -309,35 +309,6 @@ def share_card(path: Path, title: str, subtitle: str, *, bg: str = BRAND, accent
     img.save(path, optimize=True)
 
 
-def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
-    """Final score card: each team's half in its own color."""
-    from PIL import Image, ImageDraw
-    W, H = 1200, 630
-    img = Image.new("RGB", (W, H), BRAND)
-    d = ImageDraw.Draw(img)
-    for i, side in enumerate((g["away"], g["home"])):
-        bg = colors.get(side.get("key") or "", "#3a3f4a")
-        x0 = i * W // 2
-        d.rectangle([x0, 0, x0 + W // 2, H], fill=bg)
-        ink = ink_on(bg)
-        won = (side["score"] or 0) > (g["home" if i == 0 else "away"]["score"] or 0)
-        d.text((x0 + 60, 120), side["abbr"], font=_font(64), fill=ink)
-        name = side["name"]
-        d.text((x0 + 60, 200), name, font=_fit(d, name, W // 2 - 100, 34, False), fill=ink)
-        sc = str(side["score"])
-        f = _font(200)
-        d.text((x0 + 60, 260), sc, font=f, fill=ink if won else _mix(bg, ink, 0.55))
-    d.rectangle([0, 0, W, 64], fill=BRAND)
-    d.text((40, 14), f"FINAL · {g['date'][:10]}", font=_font(30), fill=GOLD)
-    venue = (g.get("venue") or "")[:40]
-    d.text((W - 40 - d.textlength(venue, font=_font(26, False)), 18), venue, font=_font(26, False), fill="#c9d3e6")
-    _stripe(d, H - 18, 18, W)
-    url = SITE_URL.split("//", 1)[-1].rstrip("/")
-    d.text((W - 40 - d.textlength(url, font=_font(24, False)), H - 62), url, font=_font(24, False), fill="#ffffff")
-    path.parent.mkdir(parents=True, exist_ok=True)
-    img.save(path, optimize=True)
-
-
 def app_icon(path: Path, size: int) -> None:
     from PIL import Image, ImageDraw
     img = Image.new("RGB", (size, size), BRAND)

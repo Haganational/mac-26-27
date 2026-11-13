@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T01:38:08+00:00",
+ "fetched_at": "2026-11-13T12:02:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -1673,10 +1673,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-11-12-2027--sports-ncaa-basketball/production/7444651?wsUser=717",
-    "low": 19.0
-   },
+   "tickets": null,
    "venue": "Pizzitola Sports Center",
    "venue_city": "Providence",
    "venue_state": "RI",
@@ -1685,21 +1682,21 @@
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 74,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
    "away": {
     "espn_id": "2099",
     "key": "canisius",
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 77,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911013",
@@ -1717,10 +1714,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-12-2026--sports-ncaa-basketball/production/7479314?wsUser=717",
-    "low": 20.0
-   },
+   "tickets": null,
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
    "venue_state": "OH",
@@ -1729,21 +1723,21 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 75,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "315",
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 66,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924857",
@@ -1761,10 +1755,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-11-12-2026--sports-ncaa-basketball/production/7608598?wsUser=717",
-    "low": 13.0
-   },
+   "tickets": null,
    "venue": "M&T Bank Arena",
    "venue_city": "Hamden",
    "venue_state": "CT",
@@ -1773,21 +1764,21 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 57,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2405",
     "key": null,
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 63,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924876",
@@ -1805,10 +1796,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-11-12-2026--sports-ncaa-basketball/production/7685642?wsUser=717",
-    "low": 15.0
-   },
+   "tickets": null,
    "venue": "William H. Pitt Center",
    "venue_city": "Fairfield",
    "venue_state": "CT",
@@ -1817,21 +1805,21 @@
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": 72,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2115",
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": 74,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921191",
@@ -2147,7 +2135,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-11-14-2026--sports-ncaa-basketball/production/7518055?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "MVP Arena",
    "venue_city": "Albany",
@@ -11170,6 +11158,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-13T01:46:28+00:00"
+ ]
 }

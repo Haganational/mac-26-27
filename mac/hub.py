@@ -291,4 +291,24 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     (site_root / "masthead.html").write_text(env.get_template("masthead.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, staff=ppl, desks=desks(mh, eds),
         ld_json=json.dumps(ld).replace("</", "<\\/")))
+    media = mh.get("media") or {}
+    has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
+    mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {
+        "@type": "WebPage", "@id": base + "media.html", "url": base + "media.html", "name": "Media and credentials",
+        "about": {"@id": base + "#org"}, "isPartOf": {"@id": base + "#site"}}]}
+    (site_root / "media.html").write_text(env.get_template("media.html").render(
+        eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, media=media, editor=editor,
+        notes_eds=[e for e in eds if e["key"] in has_notes], samples=media_samples(media, sts),
+        ld_json=json.dumps(mld).replace("</", "<\\/")))
     return site_root / "index.html"
+
+
+def media_samples(media: dict[str, Any], sts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Coverage an SID can click through: the editor's hand-picked list, else our newest recaps and previews."""
+    picked = [s for s in media.get("samples") or [] if s.get("href") and s.get("title")]
+    if picked:
+        return picked
+    label = {"recap": "Recap", "preview": "Preview"}
+    recaps = [s for s in sts if s["kind"] == "recap"][:3]
+    previews = [s for s in sts if s["kind"] == "preview"][:2]
+    return [{"title": s["title"], "href": s["href"], "kind": label[s["kind"]], "league": s["league"]} for s in recaps + previews]
