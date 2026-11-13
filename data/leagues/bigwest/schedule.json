@@ -1265,21 +1265,21 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": 96,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "124946",
     "key": null,
     "name": "Lincoln (CA) Oaklanders",
     "abbr": "LNCA",
-    "score": 69,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:17 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920296",
@@ -1306,7 +1306,7 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": 57,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -1317,10 +1317,10 @@
     "score": 37,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "19:17 - 2nd"
   },
   {
    "game_id": "401911471",
@@ -1350,7 +1350,7 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": 31,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -1358,13 +1358,13 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 33,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920123",
@@ -9796,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-13T03:47:17+00:00"
+ "live_at": "2026-11-13T04:01:55+00:00"
 }
