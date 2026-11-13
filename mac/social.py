@@ -58,7 +58,7 @@ def stories(site_root: Path = SITE_ROOT) -> list[dict[str, Any]]:
                 continue
             rel = loc[len(SITE_BASE):] if loc.startswith(SITE_BASE) else ""
             out.append({"url": loc, "title": title, "published": when, "kind": kind(title),
-                        "page": site_root / rel if rel else None, "league": lg.short})
+                        "page": site_root / rel if rel else None, "league": lg.short, "tag": lg.hashtag or lg.short})
     return out
 
 
@@ -90,7 +90,7 @@ def _meta(page: Path | None, prop: str) -> str:
 
 def text_for(it: dict[str, Any]) -> str:
     """The post body: the headline and a tag for the conference. The link rides in the card."""
-    tag = "#" + re.sub(r"\W", "", it["league"])
+    tag = "#" + re.sub(r"\W", "", it.get("tag") or it["league"])
     return f"{it['title']}\n\n{tag} #CollegeBasketball"[:290]
 
 
