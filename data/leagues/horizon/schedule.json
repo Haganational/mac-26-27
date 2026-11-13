@@ -1731,7 +1731,7 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1739,13 +1739,13 @@
     "key": null,
     "name": "Viterbo V-Hawks",
     "abbr": "VTBO",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:43 - 1st"
   },
   {
    "game_id": "401921167",
@@ -10461,5 +10461,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-13T17:31:05+00:00"
 }
