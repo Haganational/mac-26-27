@@ -53,6 +53,7 @@ class League:
     athletics: dict[str, str] = field(default_factory=dict)
     league_feed: tuple[str, str] | None = None  # (host, label) of the league's own SIDEARM site
     tournament: str = ""  # where the conference tournament is played, for the About page
+    hashtag: str = ""  # the tag on social posts; blank = the short name ("#MAC")
 
     @property
     def data_dir(self) -> Path:
@@ -292,7 +293,70 @@ MW = League(
     tournament="the Mountain West tournament in Las Vegas",
 )
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW)}
+# Metro Conference 2026-27 membership from ESPN's conference feed (group 13). This is the old
+# MAAC (Metro Atlantic Athletic Conference), renamed the Metro Conference on July 1, 2026.
+METRO = League(
+    key="metro", short="Metro", name="Metro Conference",
+    region="the Northeast corridor: New York, New Jersey, Connecticut, Massachusetts and Maryland",
+    teams=(
+        Team("canisius", "2099", "CAN", "Canisius Golden Griffins", "Canisius", "#002D62", "#FFC72C"),
+        Team("fairfield", "2217", "FAIR", "Fairfield Stags", "Fairfield", "#C8102E", "#FFFFFF"),
+        Team("iona", "314", "IONA", "Iona Gaels", "Iona", "#6F263D", "#F2A900"),
+        Team("manhattan", "2363", "MAN", "Manhattan Jaspers", "Manhattan", "#00703C", "#FFFFFF"),
+        Team("marist", "2368", "MRST", "Marist Red Foxes", "Marist", "#C8102E", "#FFFFFF"),
+        Team("merrimack", "2771", "MRMK", "Merrimack Warriors", "Merrimack", "#003768", "#F2A900"),
+        Team("mount-st-marys", "116", "MSM", "Mount St. Mary's Mountaineers", "Mount St. Mary's", "#003A70", "#FFFFFF"),
+        Team("niagara", "315", "NIA", "Niagara Purple Eagles", "Niagara", "#582C83", "#FFFFFF"),
+        Team("quinnipiac", "2514", "QUIN", "Quinnipiac Bobcats", "Quinnipiac", "#0C2340", "#FFB81C"),
+        Team("rider", "2520", "RID", "Rider Broncs", "Rider", "#9D2235", "#FFFFFF"),
+        Team("sacred-heart", "2529", "SHU", "Sacred Heart Pioneers", "Sacred Heart", "#CE1141", "#A2AAAD"),
+        Team("saint-peters", "2612", "SPU", "Saint Peter's Peacocks", "Saint Peter's", "#0057B8", "#FFFFFF"),
+        Team("siena", "2561", "SIE", "Siena Saints", "Siena", "#006A4E", "#FFC72C"),
+    ),
+    features=frozenset(),
+    path="metro/",
+    theme="harbor",
+    hashtag="MetroConference",
+    odds_aliases={
+        "Canisius Golden Griffins": "canisius",
+        "Canisius Griffins": "canisius",
+        "Fairfield Stags": "fairfield",
+        "Iona Gaels": "iona",
+        "Manhattan Jaspers": "manhattan",
+        "Marist Red Foxes": "marist",
+        "Merrimack Warriors": "merrimack",
+        "Mount St. Mary's Mountaineers": "mount-st-marys",
+        "Mount St Marys Mountaineers": "mount-st-marys",
+        "Mt. St. Mary's Mountaineers": "mount-st-marys",
+        "Mt St Mary's Mountaineers": "mount-st-marys",
+        "Niagara Purple Eagles": "niagara",
+        "Quinnipiac Bobcats": "quinnipiac",
+        "Rider Broncs": "rider",
+        "Sacred Heart Pioneers": "sacred-heart",
+        "Saint Peter's Peacocks": "saint-peters",
+        "St. Peter's Peacocks": "saint-peters",
+        "St Peter's Peacocks": "saint-peters",
+        "Siena Saints": "siena",
+    },
+    news_names={
+        "canisius": {"query": "Canisius Golden Griffins", "match": [r"\bCanisius\b", r"\bGolden Griffins\b"]},
+        "fairfield": {"query": "Fairfield Stags", "match": [r"\bFairfield\b", r"\bStags\b"]},
+        "iona": {"query": "Iona Gaels", "match": [r"\bIona\b", r"\bGaels\b"]},
+        "manhattan": {"query": "Manhattan Jaspers", "match": [r"\bManhattan Jaspers\b", r"\bJaspers\b"]},
+        "marist": {"query": "Marist Red Foxes", "match": [r"\bMarist\b", r"\bRed Foxes\b"]},
+        "merrimack": {"query": "Merrimack Warriors", "match": [r"\bMerrimack\b"]},
+        "mount-st-marys": {"query": "Mount St. Mary's Mountaineers", "match": [r"\bMount St\.? Mary.?s\b", r"\bMt\.? St\.? Mary.?s\b"]},
+        "niagara": {"query": "Niagara Purple Eagles", "match": [r"\bNiagara Purple Eagles\b", r"\bPurple Eagles\b", r"\bNiagara University\b"]},
+        "quinnipiac": {"query": "Quinnipiac Bobcats", "match": [r"\bQuinnipiac\b"]},
+        "rider": {"query": "Rider Broncs", "match": [r"\bRider Broncs\b", r"\bBroncs\b", r"\bRider University\b"]},
+        "sacred-heart": {"query": "Sacred Heart Pioneers", "match": [r"\bSacred Heart\b"]},
+        "saint-peters": {"query": "Saint Peter's Peacocks", "match": [r"\bSaint Peter.?s\b", r"\bSt\.? Peter.?s\b", r"\bPeacocks\b"]},
+        "siena": {"query": "Siena Saints", "match": [r"\bSiena\b"]},
+    },
+    tournament="the Metro Conference tournament",
+)
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO)}
 
 
 def current() -> League:

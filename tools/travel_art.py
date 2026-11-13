@@ -105,6 +105,25 @@ PROFILES = {
         "halo": "",
         "frames": {"desktop": (3200, 1800, (-130.0, 30.5), 57.0), "phone": (1290, 2796, (-113.5, 36.0), 17.0)},
     },
+    "metro": {
+        "title": "The Metro in Motion",
+        "towns": {"canisius": "Buffalo", "fairfield": "Fairfield", "iona": "New Rochelle", "manhattan": "the Bronx",
+                  "marist": "Poughkeepsie", "merrimack": "North Andover", "mount-st-marys": "Emmitsburg",
+                  "niagara": "Lewiston", "quinnipiac": "Hamden", "rider": "Lawrenceville", "sacred-heart": "Fairfield",
+                  "saint-peters": "Jersey City", "siena": "Loudonville"},
+        "big": ("marist", ", New York"),
+        "offsets": {"canisius": (-1, -1), "fairfield": (1, 1), "iona": (1, -1), "manhattan": (-1, 1), "marist": (1, -1),
+                    "merrimack": (1, -1), "mount-st-marys": (-1, 1), "niagara": (-1, 1), "quinnipiac": (1, -1), "rider": (-1, 1),
+                    "sacred-heart": (1, -1), "saint-peters": (-1, 1), "siena": (1, -1)},
+        "heart": (-74.5, 41.6),
+        "bg": ((0.05, 0.07, 0.12), (0.015, 0.025, 0.05)),  # harbor lights at the heart, Atlantic night at the edges
+        "shock": (0.95, 0.78, 0.45),
+        "spark": lambda hot: (0.9 + 0.1 * hot, 0.7 + 0.25 * hot, 0.35 + 0.55 * hot),  # bridge-light gold to white
+        "ember": (0.85, 0.35, 0.4),
+        "map": ((200, 210, 228), (26, 40, 66), (150, 175, 210)),
+        "halo": "",
+        "frames": {"desktop": (3200, 1800, (-75.2, 41.6), 9.5), "phone": (1290, 2796, (-75.0, 41.4), 6.0)},
+    },
 }
 P = PROFILES[LEAGUE.key]
 TOWN = P["towns"]

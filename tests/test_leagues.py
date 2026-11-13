@@ -53,3 +53,16 @@ def test_mountain_west_names():
     assert lg.team_for_odds_name("Hawaii Rainbow Warriors") == "hawaii"
     assert lg.team_for_odds_name("San Jose St Spartans") == "san-jose-state"
     assert lg.team_for_odds_name("Grand Canyon Antelopes") == "grand-canyon"
+
+
+def test_metro_conference_names_and_tag():
+    from mac import social
+    lg = leagues.METRO
+    assert lg.path == "metro/" and len(lg.teams) == 13 and lg.short == "Metro"
+    assert lg.team_for_odds_name("Mt. St. Mary's Mountaineers") == "mount-st-marys"
+    assert lg.team_for_odds_name("St. Peter's Peacocks") == "saint-peters"
+    assert lg.team_for_odds_name("Marist Red Foxes") == "marist"
+    assert lg.team_for_odds_name("Ohio Bobcats") is None  # Quinnipiac are Bobcats too; no mix-up
+    assert social.text_for({"title": "Marist at Quinnipiac", "league": "Metro", "tag": "MetroConference"}).endswith(
+        "#MetroConference #CollegeBasketball")
+    assert social.text_for({"title": "x", "league": "MAC"}).endswith("#MAC #CollegeBasketball")
