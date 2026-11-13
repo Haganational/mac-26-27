@@ -132,7 +132,7 @@
       </tr>
       {% endfor %}
     </table></div>
-    <div class="note">Market is the median across US books from our latest snapshot (Pinnacle when it is posted). Highlighted leans are {{ m.edge_flag|int }}+ points off the market. Win % is the home team's. Lines for {{ LG }} games usually post about a day ahead, so most rows show only the model until then. Each run's numbers are logged, so later we can see whether lines move toward the model.</div>
+    <div class="note">Market is the median across US books from our latest snapshot (Pinnacle when it is posted). {% if m.edges_proven %}Highlighted leans are {{ m.edge_flag|int }}+ points off the market.{% else %}Leans are shown but not highlighted: in last season's backtest, the model's gaps to the closing line did not beat the -110 juice.{% endif %} Win % is the home team's. Lines for {{ LG }} games usually post about a day ahead, so most rows show only the model until then. Each run's numbers are logged, so later we can see whether lines move toward the model.</div>
     {% else %}<div class="empty">No games in the next 10 days.</div>{% endif %}
   </section>
 

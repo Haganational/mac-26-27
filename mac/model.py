@@ -31,6 +31,15 @@ MAC_HISTORY = MODEL_DIR / "mac_history.jsonl"
 PARAMS = R.Params()
 MODEL_VERSION = "1.0"  # bump when the method or knobs change, so logged projections stay comparable
 EDGE_FLAG = 3.0  # points of disagreement with the market worth a look
+
+
+def edges_proven(kind: str) -> bool:
+    """Highlight leans only when the backtest's held-out half beat -110 juice (see backtest.blend_study)."""
+    try:
+        bt = json.loads((MODEL_DIR / "backtest.json").read_text())
+        return bool(bt["blend"][kind]["publish_edges"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return False
 MAC_IDS = {t.espn_id for t in TEAMS}
 
 
@@ -70,7 +79,7 @@ def edge_side(game: dict[str, Any], model_spread: float, market_spread: float | 
     num = market_spread if gap < 0 else -market_spread
     return {"gap": round(gap, 1), "abs": round(abs(gap), 1), "team": side["name"], "abbr": side["abbr"],
             "take": f"{side['abbr']} {num:+.1f}".replace("+0.0", "PK").replace("-0.0", "PK"),
-            "flag": abs(gap) >= EDGE_FLAG}
+            "flag": abs(gap) >= EDGE_FLAG and edges_proven("spread")}
 
 
 def total_side(model_total: float, market_total: float | None) -> dict[str, Any] | None:
@@ -78,7 +87,7 @@ def total_side(model_total: float, market_total: float | None) -> dict[str, Any]
         return None
     gap = model_total - market_total
     return {"gap": round(gap, 1), "abs": round(abs(gap), 1), "take": f"{'Over' if gap > 0 else 'Under'} {market_total:g}",
-            "flag": abs(gap) >= EDGE_FLAG}
+            "flag": abs(gap) >= EDGE_FLAG and edges_proven("total")}
 
 
 def team_label(r: R.Ratings, tid: str) -> str:
@@ -301,7 +310,7 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
     out = {
         "as_of": r.as_of, "mu": r.mu, "tau": r.tau, "hca": r.hca,
         "hca_pts": r.hca * 2 * r.tau / 100,
-        "games_used": r.games_used, "params": r.params, "edge_flag": EDGE_FLAG,
+        "games_used": r.games_used, "params": r.params, "edge_flag": EDGE_FLAG, "edges_proven": edges_proven("spread") or edges_proven("total"),
         "mac": mac, "top25": table[:25], "d1_count": len(table),
         "all_teams": [{"adj_o": t["adj_o"], "adj_d": t["adj_d"], "short": t["short"]} for t in table if t["games"]],
         "upcoming": upcoming, "season_to_date": std, "record": record,

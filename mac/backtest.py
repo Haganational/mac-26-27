@@ -150,6 +150,109 @@ def run(season: int = 2026, p: R.Params = R.Params(), d1: set[str] | None = None
         "mac_conf": score([r for r in proj if r["home"] in MAC_IDS and r["away"] in MAC_IDS]),
         "by_phase": {k: score(v) for k, v in phases.items()},
         "mac_by_phase": {k: score([r for r in v if r["mac"]]) for k, v in phases.items()},
+        "blend": {"spread": blend_study(proj, "spread"), "total": blend_study(proj, "total")},
+    }
+
+
+# --- Model-to-market blend -------------------------------------------------------
+# The raw model trails the closing number, and raw gaps to it barely predict covers.
+# So treat the market as the base forecast and ask how much of the model's
+# disagreement to keep: blended = market + w * (model - market). w is fit walk-forward
+# (only games from earlier dates), shrunk toward 0, and an edge is only published when
+# the blended edge clears a gate chosen on the first half of the season and checked on
+# the second half.
+
+BLEND_MIN_GAMES = 300   # no blending until this many lined games have been seen
+BLEND_SHRINK = 200.0    # pseudo-games pulling w toward 0
+BLEND_GATES = (0.5, 0.75, 1.0, 1.5, 2.0)
+
+
+def _blend_w(xs: list[float], ys: list[float]) -> float:
+    """Least-squares slope through the origin of (actual - market) on (model - market), shrunk to 0."""
+    sxx = sum(x * x for x in xs)
+    sxy = sum(x * y for x, y in zip(xs, ys))
+    if not xs or sxx == 0:
+        return 0.0
+    n = len(xs)
+    w = sxy / sxx
+    return max(0.0, min(1.0, w * n / (n + BLEND_SHRINK)))
+
+
+def _wilson(w: int, n: int, z: float = 1.96) -> tuple[float, float] | None:
+    if not n:
+        return None
+    ph = w / n
+    d = 1 + z * z / n
+    c = (ph + z * z / (2 * n)) / d
+    h = z * ((ph * (1 - ph) / n + z * z / (4 * n * n)) ** 0.5) / d
+    return round(c - h, 3), round(c + h, 3)
+
+
+def _record(picks: list[tuple[float, float]]) -> dict[str, Any]:
+    """picks: (signed blended edge, signed result vs line). Win when signs agree; 0 result is a push."""
+    w = sum(1 for e, r in picks if r != 0 and (r > 0) == (e > 0))
+    l = sum(1 for e, r in picks if r != 0 and (r > 0) != (e > 0))
+    n = w + l
+    return {"w": w, "l": l, "pct": round(w / n, 3) if n else None, "ci95": _wilson(w, n),
+            "beats_juice": bool(n and _wilson(w, n)[0] > JUICE_BREAKEVEN)}
+
+
+def blend_study(proj: list[dict[str, Any]], kind: str) -> dict[str, Any]:
+    """kind 'spread' (home margin) or 'total'. Walk-forward w, blended MAE, and gated pick record."""
+    def parts(r: dict[str, Any]) -> tuple[float, float, float] | None:
+        line = r.get("line") or {}
+        if kind == "spread":
+            if line.get("home_spread") is None:
+                return None
+            return r["proj"]["margin"], -line["home_spread"], float(r["pts_h"] - r["pts_a"])
+        if line.get("total") is None:
+            return None
+        return r["proj"]["total"], float(line["total"]), float(r["pts_h"] + r["pts_a"])
+
+    games = sorted((r["date"], p) for r in proj if (p := parts(r)))
+    xs: list[float] = []
+    ys: list[float] = []
+    out_rows = []
+    i = 0
+    while i < len(games):
+        day = games[i][0]
+        w = _blend_w(xs, ys) if len(xs) >= BLEND_MIN_GAMES else 0.0
+        while i < len(games) and games[i][0] == day:
+            model, mkt, actual = games[i][1]
+            out_rows.append({"date": day, "w": w, "model": model, "mkt": mkt, "actual": actual,
+                             "blend": mkt + w * (model - mkt)})
+            i += 1
+        for o in out_rows[len(xs):]:
+            xs.append(o["model"] - o["mkt"])
+            ys.append(o["actual"] - o["mkt"])
+    if not out_rows:
+        return {"games": 0}
+    half = len(out_rows) // 2
+    first, second = out_rows[:half], out_rows[half:]
+
+    def picks(rows: list[dict[str, Any]], gate: float) -> list[tuple[float, float]]:
+        return [(o["blend"] - o["mkt"], o["actual"] - o["mkt"]) for o in rows
+                if abs(o["blend"] - o["mkt"]) >= gate]
+
+    # Gate chosen on the first half only: the smallest gate whose record is best, needing 50+ picks.
+    scored = [(g, _record(picks(first, g))) for g in BLEND_GATES]
+    eligible = [(g, s) for g, s in scored if s["w"] + s["l"] >= 50]
+    gate = max(eligible, key=lambda gs: (gs[1]["pct"] or 0, -gs[0]))[0] if eligible else BLEND_GATES[-1]
+    holdout = _record(picks(second, gate))
+    final_w = _blend_w(xs, ys)
+    return {
+        "games": len(out_rows),
+        "w_final": round(final_w, 3),
+        "w_path": [round(out_rows[int(len(out_rows) * q) - 1]["w"], 3) for q in (0.25, 0.5, 0.75, 1.0)],
+        "model_mae": round(mean(abs(o["model"] - o["actual"]) for o in out_rows), 2),
+        "market_mae": round(mean(abs(o["mkt"] - o["actual"]) for o in out_rows), 2),
+        "blend_mae": round(mean(abs(o["blend"] - o["actual"]) for o in out_rows), 2),
+        "raw_edge_3plus": _record([(o["model"] - o["mkt"], o["actual"] - o["mkt"]) for o in out_rows
+                                   if abs(o["model"] - o["mkt"]) >= 3]),
+        "gate_tuning_first_half": [{"gate": g, **s} for g, s in scored],
+        "gate": gate,
+        "holdout_second_half": holdout,
+        "publish_edges": holdout["beats_juice"],
     }
 
 
