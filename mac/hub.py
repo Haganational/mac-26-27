@@ -96,7 +96,7 @@ def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
 
 
 # One accent per conference, used for its tag on the front page. Muted so they sit with the hickory and brick.
-CONF_COLORS = {"mac": "#a8441c", "asun": "#2e7258", "horizon": "#3d5a80", "mw": "#7b5b8f", "metro": "#7a2e3a"}
+CONF_COLORS = {"mac": "#a8441c", "asun": "#2e7258", "horizon": "#3d5a80", "mw": "#7b5b8f", "metro": "#7a2e3a", "bigwest": "#b0772a"}
 
 
 def _age(when: datetime, now: datetime) -> str:

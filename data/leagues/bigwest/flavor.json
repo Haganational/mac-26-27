@@ -1,0 +1,96 @@
+{
+ "_help": "Big West local flavor for the gamer on each box score page. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Towns and floors are filled in; check them, then write the lines. Only write what you know is true.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 1
+ },
+ "teams": {
+  "cal-baptist": {
+   "town": "Riverside",
+   "home_floor": "the Fowler Events Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "cal-poly": {
+   "town": "San Luis Obispo",
+   "home_floor": "Mott Athletics Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "csu-bakersfield": {
+   "town": "Bakersfield",
+   "home_floor": "the Icardo Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "cal-state-fullerton": {
+   "town": "Fullerton",
+   "home_floor": "Titan Gym",
+   "lines": [],
+   "home_lines": []
+  },
+  "csun": {
+   "town": "Northridge",
+   "home_floor": "the Matadome",
+   "lines": [],
+   "home_lines": []
+  },
+  "long-beach-state": {
+   "town": "Long Beach",
+   "home_floor": "the Walter Pyramid",
+   "lines": [],
+   "home_lines": []
+  },
+  "sacramento-state": {
+   "town": "Sacramento",
+   "home_floor": "the Hornets Nest",
+   "lines": [],
+   "home_lines": []
+  },
+  "uc-irvine": {
+   "town": "Irvine",
+   "home_floor": "the Bren Events Center",
+   "lines": [],
+   "home_lines": []
+  },
+  "uc-riverside": {
+   "town": "Riverside",
+   "home_floor": "the SRC Arena",
+   "lines": [],
+   "home_lines": []
+  },
+  "uc-san-diego": {
+   "town": "La Jolla",
+   "home_floor": "LionTree Arena",
+   "lines": [],
+   "home_lines": []
+  },
+  "uc-santa-barbara": {
+   "town": "Santa Barbara",
+   "home_floor": "the Thunderdome",
+   "lines": [],
+   "home_lines": []
+  },
+  "utah-valley": {
+   "town": "Orem",
+   "home_floor": "the UCCU Center",
+   "lines": [],
+   "home_lines": []
+  }
+ },
+ "rivalries": {
+  "long-beach-state|uc-irvine": {
+   "name": "",
+   "lines": []
+  },
+  "uc-irvine|uc-santa-barbara": {
+   "name": "",
+   "lines": []
+  },
+  "cal-poly|uc-santa-barbara": {
+   "name": "the Blue-Green Rivalry",
+   "lines": []
+  }
+ }
+}
