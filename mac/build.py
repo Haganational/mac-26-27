@@ -776,6 +776,9 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
                            kicker=f"{LEAGUE.short} MEN'S BASKETBALL {SEASON_LABEL}")
     for path, label, purpose, accent, _ in site_chrome.PAGES[1:]:
         site_chrome.share_card(og / f"{path[:-5]}.png", label, purpose, accent=site_chrome.GOLD)
+    if LEAGUE.has("x"):  # follow.html is not in the menu, so it gets its card here
+        site_chrome.share_card(og / "follow.png", f"{LEAGUE.short} on X", "Team, coach, player and media accounts to follow, one checklist.",
+                               accent=site_chrome.GOLD)
     ratings = {t["key"]: t for t in (m or {}).get("mac", [])}
     for t in TEAMS:
         rec = standings.get(t.key, {})

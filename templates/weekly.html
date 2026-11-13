@@ -71,7 +71,7 @@
 <article class="bw">
   <div class="bw-head">
     <div class="bw-plate">
-      <div class="bw-ear"><b>Edition No. {{ issue.edition }}</b>{{ issue.label or "Every Monday" }}</div>
+      <div class="bw-ear"><b>Edition No. {{ issue.edition }}</b>{{ issue.label or "Weekly" }}</div>
       <h1 class="bw-name">Bricks<i>It</i> Weekly</h1>
       <div class="bw-ear r"><b>{{ LG_name }}</b>Men's basketball</div>
     </div>
@@ -121,7 +121,7 @@
   </div>
 
   <div class="bw-foot">
-    <span>{{ name }} publishes every Monday, one edition per conference. Ratings as of this page's last build.</span>
+    <span>{{ name }} runs one edition per conference, with a new issue most weeks of the season. Ratings as of this page's last build.</span>
     <span>{% for o in others %}<a href="{{ o.href }}">{{ o.short }} edition</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
   </div>
 </article>

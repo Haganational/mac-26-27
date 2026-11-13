@@ -16,11 +16,15 @@ import shutil
 import subprocess
 import sys
 import wave
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
+from . import alert
 from .config import SITE_DIR, TEAMS, TEMPLATES_DIR
+
+STALE_HOURS = 6  # data older than this at render time means the collector has stopped
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
@@ -262,11 +266,43 @@ def render(t: dict, out: Path) -> Path:
     return video
 
 
+def skip_reason(t: dict, data_time: datetime | None, now: datetime, stale_hours: float = STALE_HOURS) -> str | None:
+    """Why today's video should not be made, or None when the script is fit to publish."""
+    if data_time and now - data_time > timedelta(hours=stale_hours):
+        hours = (now - data_time).total_seconds() / 3600
+        return f"the data was last updated {hours:.0f} hours ago (limit {stale_hours:g}), so the script would repeat old news"
+    if not t.get("results") and not t.get("previews"):
+        return "the script has no results and no games coming up, only an intro and outro"
+    return None
+
+
+def check(t: dict, data_time: str, now: datetime | None = None) -> str | None:
+    """Skip-and-alert gate for the daily workflow: emails Matthew and returns the reason when the video is skipped."""
+    now = now or datetime.now(timezone.utc)
+    when = datetime.fromisoformat(data_time.replace("Z", "+00:00")) if data_time else None
+    reason = skip_reason(t, when, now)
+    if reason:
+        alert.send(f"MAC90 skipped for {t.get('date_label') or 'today'}",
+                   f"No MAC90 video was made this morning because {reason}.\n\n"
+                   "Check the latest Collect run on GitHub Actions. Once data is flowing again, "
+                   "run the MAC90 video workflow by hand to publish today's episode.")
+    return reason
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="out")
     ap.add_argument("--script", default=str(SITE_DIR / "mac90.json"))
+    ap.add_argument("--check", action="store_true", help="only decide whether to skip today's video; writes skip=<reason> to $GITHUB_OUTPUT")
+    ap.add_argument("--data-time", default="", help="ISO time of the last data commit, for --check")
     a = ap.parse_args()
+    if a.check:
+        reason = check(json.loads(Path(a.script).read_text()), a.data_time)
+        print(f"mac90: skipped, {reason}" if reason else "mac90: script is fresh")
+        if reason and os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                f.write("skip=yes\n")
+        return
     render(json.loads(Path(a.script).read_text()), Path(a.out))
 
 
