@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T01:38:46+00:00",
+ "fetched_at": "2026-11-13T12:02:56+00:00",
  "season": 2027,
  "games": [
   {
@@ -1212,10 +1212,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/western-illinois-leathernecks-mens-basketball-tickets-western-hall-11-12-2026--sports-ncaa-basketball/production/7770297?wsUser=717",
-    "low": 18.0
-   },
+   "tickets": null,
    "venue": "Western Hall",
    "venue_city": "Macomb",
    "venue_state": "IL",
@@ -1224,21 +1221,21 @@
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": null,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
    "away": {
     "espn_id": "2934",
     "key": "csu-bakersfield",
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920157",
@@ -1265,21 +1262,21 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "124946",
     "key": null,
     "name": "Lincoln (CA) Oaklanders",
     "abbr": "LNCA",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920296",
@@ -1306,21 +1303,21 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": null,
-    "winner": null
+    "score": 108,
+    "winner": true
    },
    "away": {
     "espn_id": "134743",
     "key": null,
     "name": "Grace (CA) Talons",
     "abbr": "GRCU",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911471",
@@ -1338,10 +1335,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-12-2026--sports-ncaa-basketball/production/7785750?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
    "venue_state": "CA",
@@ -1350,25 +1344,25 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "27",
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920123",
-   "date": "2026-11-14T02:00Z",
+   "date": "2026-11-14T01:00Z",
    "name": "Cal Poly Mustangs at Idaho Vandals",
    "short_name": "CP @ IDHO",
    "season_type": "reg",
@@ -1428,7 +1422,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-11-13-2026--sports-ncaa-basketball/production/7382740?wsUser=717",
-    "low": 23.0
+    "low": 24.0
    },
    "venue": "Dee Glen Smith Spectrum",
    "venue_city": "Logan",
@@ -1513,7 +1507,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-11-14-2026--sports-ncaa-basketball/production/7631482?wsUser=717",
-    "low": 21.0
+    "low": 19.0
    },
    "venue": "Save Mart Center",
    "venue_city": "Fresno",
@@ -1740,7 +1734,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-state-bobcats-mens-basketball-tickets-brick-breeden-fieldhouse-11-15-2026--sports-ncaa-basketball/production/7588793?wsUser=717",
-    "low": 53.0
+    "low": 43.0
    },
    "venue": "Worthington Arena",
    "venue_city": "Bozeman",
@@ -3812,7 +3806,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-12-9-2026--sports-ncaa-basketball/production/7631488?wsUser=717",
-    "low": 21.0
+    "low": 19.0
    },
    "venue": "Save Mart Center",
    "venue_city": "Fresno",
@@ -4117,7 +4111,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-12-2026--sports-ncaa-basketball/production/7601287?wsUser=717",
-    "low": 33.0
+    "low": 28.0
    },
    "venue": "Marriott Center",
    "venue_city": "Provo",

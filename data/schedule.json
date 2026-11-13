@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T01:36:03+00:00",
+ "fetched_at": "2026-11-13T12:00:28+00:00",
  "season": 2027,
  "games": [
   {
@@ -1365,10 +1365,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-12-2026--sports-ncaa-basketball/production/7479314?wsUser=717",
-    "low": 20.0
-   },
+   "tickets": null,
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
    "venue_state": "OH",
@@ -1377,21 +1374,21 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "315",
     "key": null,
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928818",
@@ -1409,10 +1406,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-12-2026--sports-ncaa-basketball/production/7711940?wsUser=717",
-    "low": 69.0
-   },
+   "tickets": null,
    "venue": "Memorial Coliseum (IN)",
    "venue_city": "Fort Wayne",
    "venue_state": "IN",
@@ -1421,21 +1415,21 @@
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:31 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926133",
@@ -1455,7 +1449,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-13-2026/production/7094380?wsUser=717",
-    "low": 21.0
+    "low": 33.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -2020,7 +2014,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-17-2026--sports-ncaa-basketball/production/7413911?wsUser=717",
-    "low": 14.0
+    "low": 20.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -2544,7 +2538,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-21-2026--sports-ncaa-basketball/production/7413913?wsUser=717",
-    "low": 48.0
+    "low": 30.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -3320,7 +3314,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 26.0
+    "low": 31.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -5454,7 +5448,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 22.0
+    "low": 19.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
