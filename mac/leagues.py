@@ -355,8 +355,71 @@ METRO = League(
     },
     tournament="the Metro Conference tournament",
 )
+# Big West 2026-27 membership from ESPN's conference feed (group 9). Cal Baptist, Sacramento State and
+# Utah Valley are new; UC Davis and Hawai'i left for the Mountain West. UC San Diego and UC Santa Barbara
+# leave for the WCC on July 1, 2027, so this is their last Big West season.
+BIGWEST = League(
+    key="bigwest", short="Big West", name="The Big West Conference",
+    region="California, from Sacramento down the coast to San Diego, plus Orem, Utah",
+    teams=(
+        Team("cal-baptist", "2856", "CBU", "California Baptist Lancers", "Cal Baptist", "#002D62", "#A48C5B"),
+        Team("cal-poly", "13", "CP", "Cal Poly Mustangs", "Cal Poly", "#154734", "#BD8B13"),
+        Team("csu-bakersfield", "2934", "CSUB", "Cal State Bakersfield Roadrunners", "CSU Bakersfield", "#003594", "#FFC72C"),
+        Team("cal-state-fullerton", "2239", "CSUF", "Cal State Fullerton Titans", "CS Fullerton", "#00274C", "#FF7900"),
+        Team("csun", "2463", "CSUN", "Cal State Northridge Matadors", "CSUN", "#CE1126", "#1B1B1B"),
+        Team("long-beach-state", "299", "LBSU", "Long Beach State Beach", "Long Beach St", "#1B1B1B", "#F6B800"),
+        Team("sacramento-state", "16", "SAC", "Sacramento State Hornets", "Sacramento St", "#043927", "#C4B581"),
+        Team("uc-irvine", "300", "UCI", "UC Irvine Anteaters", "UC Irvine", "#0064A4", "#FFD200"),
+        Team("uc-riverside", "27", "UCR", "UC Riverside Highlanders", "UC Riverside", "#2D6CC0", "#F1AB00"),
+        Team("uc-san-diego", "28", "UCSD", "UC San Diego Tritons", "UC San Diego", "#182B49", "#C69214"),
+        Team("uc-santa-barbara", "2540", "UCSB", "UC Santa Barbara Gauchos", "UCSB", "#003660", "#FEBC11"),
+        Team("utah-valley", "3084", "UVU", "Utah Valley Wolverines", "Utah Valley", "#275D38", "#FFFFFF"),
+    ),
+    features=frozenset(),
+    path="bigwest/",
+    theme="coast",
+    odds_aliases={
+        "Cal Baptist Lancers": "cal-baptist",
+        "California Baptist Lancers": "cal-baptist",
+        "CSU Bakersfield Roadrunners": "csu-bakersfield",
+        "Cal St Bakersfield Roadrunners": "csu-bakersfield",
+        "CSU Fullerton Titans": "cal-state-fullerton",
+        "Cal St Fullerton Titans": "cal-state-fullerton",
+        "CSU Northridge Matadors": "csun",
+        "Cal St Northridge Matadors": "csun",
+        "CSUN Matadors": "csun",
+        "Long Beach St 49ers": "long-beach-state",
+        "Long Beach State 49ers": "long-beach-state",
+        "Long Beach St Beach": "long-beach-state",
+        "Sacramento St Hornets": "sacramento-state",
+        "Utah Valley Wolverines": "utah-valley",
+        "Utah Valley St Wolverines": "utah-valley",
+        "UC Irvine Anteaters": "uc-irvine",
+        "UC Riverside Highlanders": "uc-riverside",
+        "UC San Diego Tritons": "uc-san-diego",
+        "UC Santa Barbara Gauchos": "uc-santa-barbara",
+        "Cal Poly Mustangs": "cal-poly",
+    },
+    news_names={
+        "cal-baptist": {"query": "Cal Baptist Lancers", "match": [r"\bCal Baptist\b", r"\bCalifornia Baptist\b", r"\bCBU\b"]},
+        "cal-poly": {"query": "Cal Poly Mustangs basketball", "match": [r"\bCal Poly\b(?! Pomona)"]},
+        "csu-bakersfield": {"query": "CSU Bakersfield Roadrunners", "match": [r"\bCSU Bakersfield\b", r"\bCal State Bakersfield\b", r"\bCSUB\b"]},
+        "cal-state-fullerton": {"query": "Cal State Fullerton Titans", "match": [r"\bCal State Fullerton\b", r"\bCSU Fullerton\b", r"\bCSUF\b"]},
+        "csun": {"query": "CSUN Matadors", "match": [r"\bCSUN\b", r"\bCal State Northridge\b", r"\bMatadors\b"]},
+        "long-beach-state": {"query": "Long Beach State basketball", "match": [r"\bLong Beach St(ate|\.)?\b", r"\bLBSU\b"]},
+        "sacramento-state": {"query": "Sacramento State Hornets", "match": [r"\bSacramento St(ate|\.)?\b", r"\bSac State\b"]},
+        "uc-irvine": {"query": "UC Irvine Anteaters", "match": [r"\bUC Irvine\b", r"\bUCI\b", r"\bAnteaters\b"]},
+        "uc-riverside": {"query": "UC Riverside Highlanders", "match": [r"\bUC Riverside\b", r"\bUCR\b", r"\bHighlanders\b"]},
+        "uc-san-diego": {"query": "UC San Diego Tritons", "match": [r"\bUC San Diego\b", r"\bUCSD\b", r"\bTritons\b"]},
+        "uc-santa-barbara": {"query": "UC Santa Barbara Gauchos", "match": [r"\bUC Santa Barbara\b", r"\bUCSB\b", r"\bGauchos\b"]},
+        "utah-valley": {"query": "Utah Valley Wolverines", "match": [r"\bUtah Valley\b", r"\bUVU\b"]},
+    },
+    league_feed=("bigwest.org", "Big West (bigwest.org)"),
+    tournament="the Big West tournament at Lee's Family Forum in Henderson, Nevada",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO)}
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST)}
 
 
 def current() -> League:

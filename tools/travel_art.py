@@ -124,6 +124,25 @@ PROFILES = {
         "halo": "",
         "frames": {"desktop": (3200, 1800, (-75.2, 41.6), 9.5), "phone": (1290, 2796, (-75.0, 41.4), 6.0)},
     },
+    "bigwest": {
+        "title": "The Big West in Motion",
+        "towns": {"cal-baptist": "Riverside", "cal-poly": "San Luis Obispo", "csu-bakersfield": "Bakersfield",
+                  "cal-state-fullerton": "Fullerton", "csun": "Northridge", "long-beach-state": "Long Beach",
+                  "sacramento-state": "Sacramento", "uc-irvine": "Irvine", "uc-riverside": "", "uc-san-diego": "La Jolla",
+                  "uc-santa-barbara": "Santa Barbara", "utah-valley": "Orem"},
+        "big": ("long-beach-state", ", California"),
+        "offsets": {"cal-baptist": (1, 1), "cal-poly": (-1, -1), "csu-bakersfield": (1, -1), "cal-state-fullerton": (1, -1),
+                    "csun": (-1, -1), "long-beach-state": (-1, 1), "sacramento-state": (1, -1), "uc-irvine": (1, 1),
+                    "uc-san-diego": (-1, 1), "uc-santa-barbara": (-1, -1), "utah-valley": (1, -1)},
+        "heart": (-118.5, 34.6),
+        "bg": ((0.12, 0.06, 0.05), (0.02, 0.04, 0.07)),  # sunset over the water at the heart, Pacific night at the edges
+        "shock": (1.0, 0.62, 0.42),
+        "spark": lambda hot: (1.0, 0.5 + 0.4 * hot, 0.3 + 0.55 * hot),  # sunset coral to white
+        "ember": (1.0, 0.8, 0.5),
+        "map": ((235, 205, 165), (20, 50, 80), (140, 200, 230)),
+        "halo": "",
+        "frames": {"desktop": (3200, 1800, (-116.0, 36.5), 22.0), "phone": (1290, 2796, (-116.5, 37.0), 11.0)},
+    },
 }
 P = PROFILES[LEAGUE.key]
 TOWN = P["towns"]

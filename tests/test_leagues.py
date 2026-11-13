@@ -66,3 +66,13 @@ def test_metro_conference_names_and_tag():
     assert social.text_for({"title": "Marist at Quinnipiac", "league": "Metro", "tag": "MetroConference"}).endswith(
         "#MetroConference #CollegeBasketball")
     assert social.text_for({"title": "x", "league": "MAC"}).endswith("#MAC #CollegeBasketball")
+
+
+def test_big_west_names():
+    lg = leagues.BIGWEST
+    assert lg.path == "bigwest/" and len(lg.teams) == 12 and lg.theme == "coast"
+    assert lg.team_for_odds_name("Long Beach St 49ers") == "long-beach-state"
+    assert lg.team_for_odds_name("CSU Bakersfield Roadrunners") == "csu-bakersfield"
+    assert lg.team_for_odds_name("Cal Baptist Lancers") == "cal-baptist"
+    assert lg.team_for_odds_name("San Diego St Aztecs") is None  # San Diego State is not UC San Diego
+    assert lg.team_for_odds_name("Hawaii Rainbow Warriors") is None  # Hawai'i moved to the Mountain West
