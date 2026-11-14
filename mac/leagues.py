@@ -526,8 +526,99 @@ A10 = League(
     tournament="the Atlantic 10 tournament",
 )
 
+# Rebuilt Pac-12, 2026-27 membership from ESPN's conference feed (data/book/conferences.json, group 21):
+# the two holdovers, Oregon State and Washington State, plus the five from the Mountain West, Gonzaga and Texas State.
+# Colors are each school's primary and accent from their athletics branding; check them against the schools' style guides.
+PAC12 = League(
+    key="pac12", short="Pac-12", name="Pac-12 Conference",
+    region="the West, from Pullman and Corvallis down through Boise, Logan and Fort Collins to Fresno, San Diego and San Marcos, Texas",
+    teams=(
+        Team("boise-state", "68", "BOIS", "Boise State Broncos", "Boise State", "#0033A0", "#D64309"),
+        Team("colorado-state", "36", "CSU", "Colorado State Rams", "Colorado St", "#1E4D2B", "#C8C372"),
+        Team("fresno-state", "278", "FRES", "Fresno State Bulldogs", "Fresno St", "#DB0032", "#002E6D"),
+        Team("gonzaga", "2250", "GONZ", "Gonzaga Bulldogs", "Gonzaga", "#041E42", "#C8102E"),
+        Team("oregon-state", "204", "ORST", "Oregon State Beavers", "Oregon St", "#DC4405", "#000000"),
+        Team("san-diego-state", "21", "SDSU", "San Diego State Aztecs", "San Diego St", "#A6192E", "#000000"),
+        Team("texas-state", "326", "TXST", "Texas State Bobcats", "Texas State", "#501214", "#8D734A"),
+        Team("utah-state", "328", "USU", "Utah State Aggies", "Utah State", "#0F2439", "#8A8D8F"),
+        Team("washington-state", "265", "WSU", "Washington State Cougars", "Washington St", "#981E32", "#5E6A71"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="pac12/",
+    theme="timber",
+    odds_aliases={
+        "Colorado St Rams": "colorado-state",
+        "Fresno St Bulldogs": "fresno-state",
+        "Oregon St Beavers": "oregon-state",
+        "San Diego St Aztecs": "san-diego-state",
+        "Washington St Cougars": "washington-state",
+        "Boise St Broncos": "boise-state",
+        "Utah St Aggies": "utah-state",
+        "Texas St Bobcats": "texas-state",
+    },
+    news_names={
+        "boise-state": {"query": "Boise State Broncos basketball", "match": [r"\bBoise St(ate|\.)?\b"]},
+        "colorado-state": {"query": "Colorado State Rams basketball", "match": [r"\bColorado St(ate|\.)?\b", r"\bCSU Rams\b"]},
+        "fresno-state": {"query": "Fresno State Bulldogs basketball", "match": [r"\bFresno St(ate|\.)?\b"]},
+        "gonzaga": {"query": "Gonzaga Bulldogs basketball", "match": [r"\bGonzaga\b", r"\bZags\b"]},
+        "oregon-state": {"query": "Oregon State Beavers basketball", "match": [r"\bOregon St(ate|\.)?\b", r"\bBeavers\b"]},
+        "san-diego-state": {"query": "San Diego State Aztecs basketball", "match": [r"\bSan Diego St(ate|\.)?\b", r"\bSDSU\b", r"\bAztecs\b"]},
+        "texas-state": {"query": "Texas State Bobcats basketball", "match": [r"\bTexas St(ate|\.)?\b(?! Fair)", r"\bTXST\b"]},
+        "utah-state": {"query": "Utah State Aggies basketball", "match": [r"\bUtah St(ate|\.)?\b", r"\bUSU\b"]},
+        "washington-state": {"query": "Washington State Cougars basketball", "match": [r"\bWashington St(ate|\.)?\b", r"\bWSU\b", r"\bWazzu\b"]},
+    },
+    # No league_feed: the rebuilt Pac-12's site isn't a known SIDEARM host, so news comes from Google News and the schools.
+    hashtag="Pac12MBB",
+    tournament="the Pac-12 tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10)}
+# West Coast Conference 2026-27 membership from ESPN's conference feed (group 29). Gonzaga left for the Pac-12;
+# Denver is new. UC San Diego and UC Santa Barbara join in 2027-28 and stay in the Big West edition until then.
+WCC = League(
+    key="wcc", short="WCC", name="West Coast Conference",
+    region="the Pacific coast, Seattle to San Diego, plus Stockton and Denver",
+    teams=(
+        Team("denver", "2172", "DEN", "Denver Pioneers", "Denver", "#8B2332", "#8B6F4E"),
+        Team("loyola-marymount", "2351", "LMU", "Loyola Marymount Lions", "LMU", "#8A0028", "#00447C"),
+        Team("pacific", "279", "PAC", "Pacific Tigers", "Pacific", "#F47920", "#000000"),
+        Team("pepperdine", "2492", "PEPP", "Pepperdine Waves", "Pepperdine", "#00205B", "#E35205"),
+        Team("portland", "2501", "PORT", "Portland Pilots", "Portland", "#1E1656", "#FFFFFF"),
+        Team("saint-marys", "2608", "SMC", "Saint Mary's Gaels", "Saint Mary's", "#06315B", "#D80024"),
+        Team("san-diego", "301", "USD", "San Diego Toreros", "San Diego", "#002E5D", "#84BCE8"),
+        Team("san-francisco", "2539", "SF", "San Francisco Dons", "San Francisco", "#00543C", "#FDBB30"),
+        Team("santa-clara", "2541", "SCU", "Santa Clara Broncos", "Santa Clara", "#862633", "#FFFFFF"),
+        Team("seattle", "2547", "SEA", "Seattle U Redhawks", "Seattle U", "#AA0000", "#FFFFFF"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="wcc/",
+    theme="mission",
+    odds_aliases={
+        "Seattle Redhawks": "seattle",
+        "Seattle University Redhawks": "seattle",
+        "St. Mary's Gaels": "saint-marys",
+        "Saint Mary's (CA) Gaels": "saint-marys",
+        "LMU Lions": "loyola-marymount",
+        "San Francisco Dons": "san-francisco",
+    },
+    news_names={
+        "denver": {"query": "Denver Pioneers basketball", "match": [r"\bDenver Pioneers\b", r"\bUniversity of Denver\b"]},
+        "loyola-marymount": {"query": "Loyola Marymount Lions basketball", "match": [r"\bLoyola Marymount\b", r"\bLMU\b"]},
+        "pacific": {"query": "Pacific Tigers basketball", "match": [r"\bPacific Tigers\b", r"\bUniversity of the Pacific\b", r"\bPacific\b(?! Northwest| Coast| Time|-12| 12)"]},
+        "pepperdine": {"query": "Pepperdine Waves basketball", "match": [r"\bPepperdine\b"]},
+        "portland": {"query": "Portland Pilots basketball", "match": [r"\bPortland Pilots\b", r"\bUniversity of Portland\b", r"\bPilots\b"]},
+        "saint-marys": {"query": "Saint Mary's Gaels basketball", "match": [r"\bSaint Mary[’']s\b", r"\bSt\.? Mary[’']s\b(?! \(MD\))", r"\bGaels\b"]},
+        "san-diego": {"query": "San Diego Toreros basketball", "match": [r"\bToreros\b", r"\bUniversity of San Diego\b", r"\bUSD\b"]},
+        "san-francisco": {"query": "San Francisco Dons basketball", "match": [r"\bSan Francisco Dons\b", r"\bUSF Dons\b", r"\bDons\b"]},
+        "santa-clara": {"query": "Santa Clara Broncos basketball", "match": [r"\bSanta Clara\b"]},
+        "seattle": {"query": "Seattle U Redhawks basketball", "match": [r"\bSeattle U\b", r"\bSeattle University\b", r"\bRedhawks\b"]},
+    },
+    league_feed=("wccsports.com", "WCC (wccsports.com)"),
+    hashtag="WCCHoops",
+    tournament="the WCC tournament",
+)
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC)}
 
 
 def current() -> League:
