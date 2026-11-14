@@ -35,11 +35,14 @@
   <div class="front">
     <div>
       {% if lead %}
-      <a class="lead{{ '' if lead.image else ' noimg' }}" href="{{ lead.href }}">
-        {% if lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}
+      {#- The lead's picture: the ESPN highlight if there is one, else a game photo, else the score card.
+          With the card the headline already gives the score, so the dek (which opens with it again) is left off. -#}
+      {% if lead.clip %}<figure class="lead-clip"><div class="hl-frame"><iframe src="{{ lead.clip }}" title="Highlights: {{ lead.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><figcaption>Highlights from ESPN</figcaption></figure>{% endif %}
+      <a class="lead{{ '' if lead.image or lead.photo or lead.clip else ' noimg' }}" href="{{ lead.href }}">
+        {% if not lead.clip %}{% if lead.photo %}<img class="lead-photo" src="{{ lead.photo }}" alt="" loading="eager">{% elif lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}{% endif %}
         <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}</span>
         <h2>{{ lead.title }}</h2>
-        {% if lead.dek %}<p>{{ lead.dek }}</p>{% endif %}
+        {% if lead.dek and (lead.clip or lead.photo or not lead.image) %}<p>{{ lead.dek }}</p>{% endif %}
       </a>
       {% else %}
       <div class="lead noimg"><h2>{{ names }} men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>

@@ -62,9 +62,37 @@ def test_front_page_leads_with_our_newest_recap(tmp_path):
         social.SITE_BASE = old
     html = (tmp_path / "index.html").read_text()
     lead = html.index('class="lead')
-    assert html.index("Akron rolled past Toledo 90-70") > lead and "Akron won going away." in html
+    assert html.index("Akron rolled past Toledo 90-70") > lead
+    assert "Akron won going away." not in html, "with the score card the dek would say the score a third time"
     assert 'src="static/og/game-7.png"' in html, "card images are site-relative"
     assert html.index("Akron rolled past Toledo") < html.index("Ohio beat Kent State"), "newest first"
+
+
+def test_front_page_lead_prefers_the_highlight_then_a_photo(tmp_path):
+    akron = ALL["mac"].teams[0].espn_id
+    (tmp_path / "games").mkdir()
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [_g("2", akron, "5", False)], "tonight": []}))
+    clip = ('<meta property="og:description" content="With video.">\n<meta property="og:image" content="https://x.com/static/og/game-7.png">\n'
+            '<figure class="hl-video">\n      <div class="hl-frame"><iframe src="https://www.espn.com/core/video/iframe/_/id/42/endcard/false" title="t"></iframe></div></figure>')
+    photo = '<meta property="og:description" content="With a photo.">\n<meta property="og:image" content="https://x.com/notes/photos/gym.jpg">'
+    (tmp_path / "games" / "7.html").write_text(clip)
+    (tmp_path / "games" / "8.html").write_text(photo)
+    news = """<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url><loc>https://x.com/games/8.html</loc><news:news><news:publication_date>2026-11-11T02:00:00Z</news:publication_date><news:title>Ohio beat Kent State 70-60</news:title></news:news></url>
+<url><loc>https://x.com/games/7.html</loc><news:news><news:publication_date>2026-11-12T02:00:00Z</news:publication_date><news:title>Akron rolled past Toledo 90-70</news:title></news:news></url>
+</urlset>"""
+    (tmp_path / "news-sitemap.xml").write_text(news)
+    import mac.social as social
+    old = social.SITE_BASE
+    social.SITE_BASE = "https://x.com/"
+    try:
+        hub.build(tmp_path, "https://x.com/")
+    finally:
+        social.SITE_BASE = old
+    html = (tmp_path / "index.html").read_text()
+    lead = html[html.index('class="lead-clip"'):html.index('class="cards"') if 'class="cards"' in html else None]
+    assert "espn.com/core/video/iframe/_/id/42" in lead and "With video." in lead
+    assert 'src="static/og/game-7.png"' not in lead, "the clip replaces the score card"
 
 
 def test_media_page_for_sids(tmp_path):

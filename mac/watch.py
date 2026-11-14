@@ -6,13 +6,17 @@ Everything on it comes from files the shows already use, so the page can't drift
 """
 from __future__ import annotations
 
+import json
+import re
 import shutil
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
 from . import alumni, anchors, den_connect, pickem, site_chrome
+from .config import SHARED_DIR
 from .leagues import ALL as LEAGUES
 
 ET = ZoneInfo("America/New_York")
@@ -34,6 +38,35 @@ def playlists() -> dict[str, str]:
     """YouTube's own upload playlists for the channel: Shorts (UUSH...) and long videos (UULF...)."""
     cid = site_chrome.YOUTUBE_CHANNEL_ID
     return {"midmaxx60": "UUSH" + cid[2:], "bigmid": "UULF" + cid[2:]} if cid else {}
+
+
+LATEST = SHARED_DIR / "youtube_latest.json"
+FEED = "https://www.youtube.com/feeds/videos.xml?playlist_id={}"
+_ENTRY = re.compile(r"<entry>.*?<yt:videoId>([\w-]{6,})</yt:videoId>.*?<title>([^<]*)</title>.*?<published>([^<]+)</published>", re.S)
+
+
+def latest(fetch: Any = None) -> dict[str, dict[str, str]]:
+    """Each show's newest upload (video id, title, date), from YouTube's public playlist feed (no API key).
+    The last good answer is kept in data/youtube_latest.json, so a feed outage or an offline build keeps the poster."""
+    try:
+        known = json.loads(LATEST.read_text())
+    except (OSError, ValueError):
+        known = {}
+    out = dict(known)
+    for key, pl in playlists().items():
+        try:
+            xml = fetch(FEED.format(pl)) if fetch else urllib.request.urlopen(FEED.format(pl), timeout=8).read().decode()
+        except Exception:  # noqa: BLE001 - a feed hiccup keeps the last poster
+            continue
+        if m := _ENTRY.search(xml):
+            d = datetime.fromisoformat(m.group(3)).astimezone(ET)
+            out[key] = {"id": m.group(1), "title": m.group(2).replace("&amp;", "&"), "published": f"{d:%a, %b} {d.day}"}
+    if out != known:
+        try:
+            LATEST.write_text(json.dumps(out, indent=1) + "\n")
+        except OSError:
+            pass
+    return out
 
 
 def desk() -> list[dict[str, Any]]:
@@ -61,7 +94,8 @@ def story(day: str) -> dict[str, Any] | None:
 def page_context(now: datetime) -> dict[str, Any]:
     day = now.astimezone(ET).date().isoformat()
     tonight = pickem.segment(day)
-    return {"shows": [{**s, "list": playlists().get(s["key"], "")} for s in SHOWS], "segments": SEGMENTS, "desk": desk(),
+    up = latest()
+    return {"shows": [{**s, "list": playlists().get(s["key"], ""), "latest": up.get(s["key"])} for s in SHOWS], "segments": SEGMENTS, "desk": desk(),
             "handle": site_chrome.YOUTUBE_CHANNEL, "story": story(day),
             "tonight": {**tonight["card"], "anchor": den_connect.anchor_card(tonight["card"]["key"])} if tonight else None,
             "count": sum(len(c["anchors"]) for c in desk()), "disclosure": den_connect.DISCLOSURE}
