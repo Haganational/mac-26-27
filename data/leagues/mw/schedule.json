@@ -1301,7 +1301,7 @@
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1309,13 +1309,13 @@
     "key": null,
     "name": "Stanford Cardinal",
     "abbr": "STAN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:00 - 1st"
   },
   {
    "game_id": "401924921",
@@ -8688,5 +8688,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T02:16:19+00:00"
 }

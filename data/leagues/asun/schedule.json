@@ -1261,20 +1261,20 @@
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
     "score": 80,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2229",
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 87,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:37 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920915",
@@ -8078,5 +8078,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T02:00:37+00:00"
+ "live_at": "2026-11-14T02:15:44+00:00"
 }

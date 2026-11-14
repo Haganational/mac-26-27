@@ -1388,7 +1388,7 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1396,13 +1396,13 @@
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:33 - 1st"
   },
   {
    "game_id": "401920372",
@@ -9789,5 +9789,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T02:16:58+00:00"
 }
