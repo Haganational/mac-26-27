@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T23:00:30+00:00",
+ "fetched_at": "2026-11-14T12:00:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -1447,10 +1447,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-13-2026/production/7094380?wsUser=717",
-    "low": 42.0
-   },
+   "tickets": null,
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
    "venue_state": "IN",
@@ -1491,10 +1488,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-13-2026--sports-ncaa-basketball/production/7558080?wsUser=717",
-    "low": 6.0
-   },
+   "tickets": null,
    "venue": "Moody Coliseum (Dallas)",
    "venue_city": "Dallas",
    "venue_state": "TX",
@@ -1537,7 +1531,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/akron-zips-mens-basketball-tickets-rhodes-arena-11-14-2026--sports-ncaa-basketball/production/7630642?wsUser=717",
-    "low": 13.0
+    "low": 14.0
    },
    "venue": "James A. Rhodes Arena",
    "venue_city": "Akron",
@@ -1581,7 +1575,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 23.0
+    "low": 16.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -1798,7 +1792,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-11-16-2026--sports-ncaa-basketball/production/7601281?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "M.A.C. Center",
    "venue_city": "Kent",
@@ -1882,7 +1876,7 @@
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-17-2026--sports-ncaa-basketball/production/7398033?wsUser=717",
     "low": 6.0
    },
-   "venue": "Tucker Center",
+   "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
    "venue_state": "FL",
    "home": {
@@ -4352,7 +4346,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-13-2026--sports-ncaa-basketball/production/7580368?wsUser=717",
-    "low": 23.0
+    "low": 21.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -5185,47 +5179,6 @@
    "detail": ""
   },
   {
-   "game_id": "401911068",
-   "date": "2026-12-29T20:00Z",
-   "name": "Michigan Dearborn Wolves at Central Michigan Chippewas",
-   "short_name": "UMDB @ CMU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": null,
-   "venue": "McGuirk Arena",
-   "venue_city": "Mount Pleasant",
-   "venue_state": "MI",
-   "home": {
-    "espn_id": "2117",
-    "key": "central-michigan",
-    "name": "Central Michigan Chippewas",
-    "abbr": "CMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2391",
-    "key": null,
-    "name": "Michigan Dearborn Wolves",
-    "abbr": "UMDB",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401928847",
    "date": "2026-12-29T20:00Z",
    "name": "Bryant & Stratton (OH) Bobcats at Ohio Bobcats",
@@ -5261,6 +5214,47 @@
     "key": null,
     "name": "Bryant & Stratton (OH) Bobcats",
     "abbr": "B&SO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911068",
+   "date": "2026-12-29T20:30Z",
+   "name": "Michigan Dearborn Wolves at Central Michigan Chippewas",
+   "short_name": "UMDB @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2391",
+    "key": null,
+    "name": "Michigan Dearborn Wolves",
+    "abbr": "UMDB",
     "score": null,
     "winner": null
    },
@@ -5457,7 +5451,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 19.0
+    "low": 20.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
@@ -9557,6 +9551,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T04:30:24+00:00"
+ ]
 }

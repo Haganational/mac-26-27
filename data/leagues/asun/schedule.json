@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T23:01:30+00:00",
+ "fetched_at": "2026-11-14T12:01:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -1248,10 +1248,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-11-13-2026--sports-ncaa-basketball/production/7603965?wsUser=717",
-    "low": 33.0
-   },
+   "tickets": null,
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -1464,7 +1461,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-11-15-2026--sports-ncaa-basketball/production/7610341?wsUser=717",
-    "low": 24.0
+    "low": 19.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -1620,47 +1617,6 @@
    "detail": ""
   },
   {
-   "game_id": "401922221",
-   "date": "2026-11-18T00:00Z",
-   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
-   "short_name": "UFTL @ UNF",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": null,
-   "venue": "UNF Arena",
-   "venue_city": "Jacksonville",
-   "venue_state": "FL",
-   "home": {
-    "espn_id": "2454",
-    "key": "north-florida",
-    "name": "North Florida Ospreys",
-    "abbr": "UNF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "123362",
-    "key": null,
-    "name": "Fort Lauderdale Eagles",
-    "abbr": "UFTL",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401922251",
    "date": "2026-11-18T00:00Z",
    "name": "Green Bay Phoenix at West Florida Argonauts",
@@ -1740,6 +1696,47 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922221",
+   "date": "2026-11-18T01:00Z",
+   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
+   "short_name": "UFTL @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123362",
+    "key": null,
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
     "score": null,
     "winner": null
    },
@@ -1851,7 +1848,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-19-2026--sports-ncaa-basketball/production/7503567?wsUser=717",
-    "low": 6.0
+    "low": 7.0
    },
    "venue": "KFC Yum! Center",
    "venue_city": "Louisville",
@@ -1980,7 +1977,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "Pete Maravich Assembly Center",
    "venue_city": "Baton Rouge",
@@ -2440,7 +2437,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 30.0
+    "low": 39.0
    },
    "venue": "Neville Arena",
    "venue_city": "Auburn",
@@ -2856,7 +2853,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-29-2026--sports-ncaa-basketball/production/7589488?wsUser=717",
-    "low": 37.0
+    "low": 39.0
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -4130,7 +4127,7 @@
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-12-16-2026--sports-ncaa-basketball/production/7398138?wsUser=717",
     "low": 14.0
    },
-   "venue": "Tucker Center",
+   "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
    "venue_state": "FL",
    "home": {
@@ -4814,7 +4811,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-21-2026--sports-ncaa-basketball/production/7350037?wsUser=717",
-    "low": 14.0
+    "low": 10.0
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -4984,7 +4981,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-12-21-2026--sports-ncaa-basketball/production/7856665?wsUser=717",
-    "low": 24.0
+    "low": 27.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -8077,6 +8074,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T02:15:44+00:00"
+ ]
 }
