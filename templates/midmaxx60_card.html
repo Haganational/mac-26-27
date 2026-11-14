@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>{{ css|safe }}</style>
+<style>
+  /* Athens Block, night edition: the site's dark page, its serif and condensed faces, rules instead of rounded boxes. */
+  :root { --page: #15110d; --ink: #efe6d6; --ink2: #cbbfad; --muted: #8f8474; --rule: #efe6d6; --grid: #3a3128; --brand: #2a1a10; --gold: #f0c75e;
+          --serif: "Newsreader", Georgia, "Liberation Serif", serif; --cond: "Barlow Condensed", "Liberation Sans Narrow", Arial, sans-serif; --sans: "Barlow", "Liberation Sans", Arial, sans-serif; }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--page); color: var(--ink); font-family: var(--sans); font-feature-settings: "tnum" 1, "lnum" 1; }
+  .card { position: relative; width: 1080px; height: 1920px; display: flex; flex-direction: column; }
+  .top { position: relative; height: 330px; background: var(--brand); }
+  .top::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 24px; background: var(--bricks) 0 0 / 72px 24px; }
+  .brandrow { position: absolute; left: 64px; right: 64px; top: 92px; z-index: 1; display: flex; align-items: flex-end; justify-content: space-between; }
+  .plaque { color: #f6ecd8; font: 600 104px/.9 var(--serif); letter-spacing: -.02em; }
+  .plaque::first-letter { color: var(--gold); }
+  .date { text-align: right; font: 600 36px/1.1 var(--cond); letter-spacing: .02em; color: #f6ecd8; padding-bottom: 10px; }
+  .date em { display: block; font: 500 21px/1.6 var(--cond); font-style: normal; color: #d9cbb2; letter-spacing: .1em; text-transform: uppercase; }
+  .date small { display: block; font: 600 22px/1.4 var(--cond); letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
+  .stripe { display: flex; height: 12px; } .stripe i { flex: 1; }
+  .body { flex: 1; padding: 50px 64px 0; display: flex; flex-direction: column; gap: 26px; }
+  .body > * { flex-shrink: 0; }
+  .label { font: 600 32px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--gold); border-top: 6px solid var(--rule); padding-top: 18px; }
+  .row { display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 28px; padding: 20px 0 20px 26px; border-left: 12px solid var(--tc, #555); border-bottom: 1px solid var(--grid); }
+  .row.win { background: linear-gradient(90deg, color-mix(in srgb, var(--tc, #555) 22%, transparent), transparent 70%); }
+  .row.lose { opacity: .55; }
+  .logo { width: 150px; height: 150px; border-radius: 50%; background: #f6ecd8; display: grid; place-items: center; overflow: hidden; }
+  .logo img { width: 124px; height: 124px; object-fit: contain; }
+  .logo b { font: 700 40px/1 var(--cond); color: #1a1410; }
+  .nm { font: 600 60px/1.04 var(--serif); letter-spacing: -.01em; }
+  .nm small { display: block; font: 600 26px/1 var(--cond); color: var(--muted); letter-spacing: .2em; margin-top: 12px; }
+  .sc { font: 700 140px/1 var(--cond); }
+  .final { font: 600 28px/1 var(--cond); letter-spacing: .3em; color: var(--ink2); text-align: center; }
+  .chips { display: flex; flex-wrap: wrap; gap: 18px; }
+  .chip { white-space: nowrap; padding: 14px 22px 12px; font: 600 36px/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; border: 3px solid var(--grid); color: var(--ink); }
+  .chip.good { border-color: #3fae8c; color: #8fe0c2; } .chip.bad { border-color: #d0574a; color: #ffc2b8; }
+  .chip.gold { border-color: var(--gold); color: #f6dd9a; }
+  .scorer { display: flex; align-items: baseline; gap: 22px; font: 600 48px/1.1 var(--serif); }
+  .scorer span { color: var(--gold); font: 700 66px/1 var(--cond); letter-spacing: .02em; }
+  .vs { text-align: center; font: 600 italic 40px/1 var(--serif); color: var(--ink2); }
+  .lines { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 32px; }
+  .stat { padding: 18px 0 0; border-top: 2px solid var(--rule); }
+  .stat small { display: block; font: 600 24px/1 var(--cond); letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .stat b { font: 700 54px/1 var(--cond); white-space: nowrap; }
+  .stat.model { border-top-color: var(--gold); } .stat.model b { color: var(--gold); }
+  .mini { display: grid; gap: 0; border-top: 2px solid var(--rule); }
+  .mini div { display: flex; justify-content: space-between; align-items: center; font: 700 46px/1 var(--cond); letter-spacing: .02em; padding: 22px 0; border-bottom: 1px solid var(--grid); }
+  .mini span { color: var(--muted); font: 600 30px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .teamchips { display: flex; flex-wrap: wrap; gap: 14px; }
+  .teamchips b { font: 700 44px/1 var(--cond); letter-spacing: .03em; padding: 16px 24px 14px; background: none; color: var(--ink); border-left: 12px solid var(--tc); border-bottom: 1px solid var(--grid); }
+  .hero { margin-top: 60px; text-align: center; }
+  .hero .big { font: 600 170px/1 var(--serif); color: #f6ecd8; letter-spacing: -.03em; }
+  .hero p { font: 400 italic 48px/1.3 var(--serif); color: var(--ink2); margin: 24px 0 0; }
+  .agenda { display: grid; gap: 0; margin-top: 30px; border-top: 6px solid var(--rule); }
+  .agenda div { font: 600 48px/1.1 var(--cond); letter-spacing: .02em; padding: 26px 0; border-bottom: 1px solid var(--grid); }
+  .caption { position: absolute; left: 64px; right: 150px; top: 1300px; padding: 26px 30px; background: rgba(0,0,0,.62); border-left: 8px solid var(--gold); font: 600 {{ 42 if seg.text|length < 260 else 36 }}px/1.32 var(--sans); }
+  .movebox { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; margin-top: 10px; }
+  .movebox > div { padding: 22px 0; border-top: 2px solid var(--rule); border-bottom: 1px solid var(--grid); text-align: center; }
+  .movebox > div.now { border-top: 6px solid var(--gold); }
+  .movebox small { display: block; font: 600 26px/1 var(--cond); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .movebox b { font: 700 76px/1 var(--cond); white-space: nowrap; }
+  .movebox > div.now b { color: var(--gold); }
+  .movebox i { font-style: normal; font: 600 70px/1 var(--serif); color: var(--gold); }
+  .ourec { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin-top: 10px; }
+  .ourec > div { padding: 26px 0; border-top: 2px solid var(--rule); text-align: center; opacity: .6; }
+  .ourec > div.lead { opacity: 1; border-top: 8px solid var(--gold); }
+  .ourec b { display: block; font: 700 220px/1 var(--cond); }
+  .ourec small { font: 600 32px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--ink2); }
+  .notetitle { font: 600 66px/1.1 var(--serif); letter-spacing: -.01em; color: #f6ecd8; }
+  .notequote { font: 400 italic 46px/1.4 var(--serif); color: var(--ink2); padding-left: 28px; border-left: 8px solid var(--gold); }
+  .anchor { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; }
+  .anchor img { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; object-fit: cover; object-position: top; }
+  .anchor .plate { position: absolute; left: 0; bottom: 90px; width: 430px; padding: 14px 20px 12px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
+  .anchor .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
+  .anchor .plate small { display: block; font: 600 22px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
+  .foot { position: absolute; left: 64px; right: 64px; bottom: 380px; display: flex; justify-content: space-between; font: 500 24px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+</style>
+</head>
+<body>
+{% macro logo(s) %}<div class="logo">{% if s.espn_id %}<img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ s.espn_id }}.png" alt="" onerror="this.outerHTML='<b>{{ s.abbr }}</b>'">{% else %}<b>{{ s.abbr }}</b>{% endif %}</div>{% endmacro %}
+<div class="card">
+  <div class="top"><div class="brandrow"><span class="plaque">MidMaxx60</span><span class="date"><small>Hardwood Bricks</small>{{ date_label }}<em>Stats: ESPN · Lines: The Odds API</em></span></div></div>
+  <div class="stripe">{% for c in stripe %}<i style="background:{{ c }}"></i>{% endfor %}</div>
+  <div class="body">
+  {% if seg.kind == 'intro' %}
+    <div class="hero"><div class="big">MidMaxx60</div><p>The {{ LG }} in 60 seconds</p></div>
+    <div class="agenda">{% for a in agenda %}<div>{{ a }}</div>{% endfor %}</div>
+  {% elif seg.kind == 'result' %}
+    {% set c = seg.card %}
+    <div class="label">{{ seg.label }}</div>
+    {% for s in [c.away, c.home] %}<div class="row {{ 'win' if s.winner else 'lose' }}" style="--tc:{{ s.color or '#666' }}">{{ logo(s) }}<div class="nm">{{ s.name }}<small>{{ 'AWAY' if loop.first else 'HOME' }}</small></div><div class="sc">{{ s.score }}</div></div>{% endfor %}
+    <div class="final">FINAL</div>
+    {% if c.top %}<div class="scorer">{{ c.top.name }} <span>{{ c.top.pts }} PTS</span>{% if (c.top.reb or 0) >= 10 %} {{ c.top.reb }} REB{% elif (c.top.ast or 0) >= 8 %} {{ c.top.ast }} AST{% endif %}</div>{% endif %}
+    {% if c.ats %}<div class="chips"><span class="chip {{ 'bad' if "n't" in c.ats or 'failed' in c.ats else 'good' if 'covered' in c.ats else 'gold' }}">{{ c.ats|replace('-point', '-pt')|trim('.') }}</span></div>{% endif %}
+  {% elif seg.kind in ('tuneups', 'tuneups_next') %}
+    <div class="label">{{ seg.label }}{{ ' · tune-ups' }}</div>
+    <div class="mini">{% for c in seg.cards %}<div>{% if seg.kind == 'tuneups' %}{{ c.away.abbr }} {{ c.away.score }} · {{ c.home.abbr }} {{ c.home.score }}<span>Final</span>{% else %}{{ c.away.abbr }} at {{ c.home.abbr }}<span>{{ c.when }}{% if c.on %} · {{ c.on }}{% endif %}</span>{% endif %}</div>{% endfor %}</div>
+    <div class="chips"><span class="chip">Non-Division I opponents · no lines</span></div>
+  {% elif seg.kind == 'preview' %}
+    {% set c = seg.card %}
+    <div class="label">{{ seg.label }}</div>
+    <div class="row" style="--tc:{{ c.away.color or '#666' }}">{{ logo(c.away) }}<div class="nm">{{ c.away.name }}<small>AWAY</small></div><div></div></div>
+    <div class="vs">AT</div>
+    <div class="row" style="--tc:{{ c.home.color or '#666' }}">{{ logo(c.home) }}<div class="nm">{{ c.home.name }}<small>HOME</small></div><div></div></div>
+    <div class="chips"><span class="chip">{{ c.when }}</span>{% if c.on %}<span class="chip">{{ c.on }}</span>{% endif %}</div>
+    {% if c.spread is not none %}<div class="lines">
+      <div class="stat"><small>Market</small><b>{{ c.home.abbr if c.spread < 0 else c.away.abbr }} −{{ '%g'|format(c.spread|abs) }}</b></div>
+      {% if c.total %}<div class="stat"><small>Total</small><b>{{ '%g'|format(c.total) }}</b></div>{% endif %}
+      {% if c.model %}<div class="stat model"><small>Our model</small><b>{{ c.home.abbr if c.model < 0 else c.away.abbr }} −{{ '%.1f'|format(c.model|abs) }}</b></div>{% endif %}
+    </div>{% endif %}
+  {% elif seg.kind == 'standings' %}
+    <div class="label">Still unbeaten</div>
+    <div class="teamchips">{% for n in seg.unbeaten %}<b style="--tc:{{ colors.get(n, '#555') }}">{{ n }}</b>{% endfor %}</div>
+    {% if seg.winless %}<div class="label" style="margin-top:20px">Looking for a first win</div>
+    <div class="teamchips">{% for n in seg.winless %}<b style="--tc:{{ colors.get(n, '#555') }};opacity:.75">{{ n }}</b>{% endfor %}</div>{% endif %}
+  {% elif seg.kind == 'move' %}
+    {% set c = seg.card %}
+    <div class="label">Line move of the day</div>
+    <div class="row" style="--tc:{{ c.away.color or '#666' }}">{{ logo(c.away) }}<div class="nm">{{ c.away.name }}<small>AWAY</small></div><div></div></div>
+    <div class="row" style="--tc:{{ c.home.color or '#666' }}">{{ logo(c.home) }}<div class="nm">{{ c.home.name }}<small>HOME</small></div><div></div></div>
+    <div class="movebox"><div><small>Opened</small><b>{{ c.fav_abbr }} {{ ('%+g'|format(c.open))|replace('-', '−') if c.open else 'PK' }}</b></div><i>→</i><div class="now"><small>Now</small><b>{{ c.fav_abbr }} {{ ('%+g'|format(c.now))|replace('-', '−') if c.now else 'PK' }}</b></div></div>
+  {% elif seg.kind == 'ou' %}
+    {% set c = seg.card %}
+    <div class="label">Over-under watch · this season</div>
+    <div class="ourec"><div class="{{ 'lead' if c.side == 'over' else '' }}"><b>{{ c.o }}</b><small>Overs</small></div><div class="{{ 'lead' if c.side == 'under' else '' }}"><b>{{ c.u }}</b><small>Unders</small></div></div>
+    <div class="chips"><span class="chip gold">{{ '%+.1f'|format(c.diff) }} pts vs the close, per game</span><span class="chip">{{ c.n }} games with a {{ LG }} team</span></div>
+  {% elif seg.kind == 'note' %}
+    {% set c = seg.card %}
+    <div class="label">From the Fieldhouse Notes</div>
+    {% if c.title %}<div class="notetitle">{{ c.title }}</div>{% endif %}
+    <div class="notequote">“{{ c.quote }}”</div>
+    <div class="chips"><span class="chip gold">Matthew Hagan · Hardwood Bricks</span></div>
+  {% else %}
+    <div class="hero"><div class="big" style="font-size:130px">That's MidMaxx60</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
+  {% endif %}
+  </div>
+  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}"><img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
+  {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
+</div>
+</body>
+</html>

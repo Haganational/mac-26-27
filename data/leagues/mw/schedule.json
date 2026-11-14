@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T12:02:04+00:00",
+ "fetched_at": "2026-11-14T12:02:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -1289,10 +1289,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-13-2026--sports-ncaa-basketball/production/7419555?wsUser=717",
-    "low": 11.0
-   },
+   "tickets": null,
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
    "venue_state": "NV",
@@ -1301,21 +1298,21 @@
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "24",
     "key": null,
     "name": "Stanford Cardinal",
     "abbr": "STAN",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924921",
@@ -1370,17 +1367,8 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-14-2026--sports-ncaa-basketball/production/7647922?wsUser=717",
-    "low": 64.0
-   },
+   "broadcasts": [],
+   "tickets": null,
    "venue": "Alex G. Spanos Center",
    "venue_city": "Stockton",
    "venue_state": "CA",
@@ -1389,7 +1377,7 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1397,13 +1385,13 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_POSTPONED",
    "completed": false,
    "live": false,
-   "detail": ""
+   "detail": "Postponed"
   },
   {
    "game_id": "401911347",
@@ -1555,7 +1543,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-14-2026--sports-ncaa-basketball/production/7106240?wsUser=717",
-    "low": 26.0
+    "low": 23.0
    },
    "venue": "Leavey Center",
    "venue_city": "Santa Clara",
@@ -1643,7 +1631,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-15-2026--sports-ncaa-basketball/production/7785756?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
@@ -1775,7 +1763,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-17-2026--sports-ncaa-basketball/production/7288480?wsUser=717",
-    "low": 98.0
+    "low": 95.0
    },
    "venue": "Michelob ULTRA Arena",
    "venue_city": "Las Vegas",
@@ -1857,7 +1845,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-angel-of-the-winds-arena-11-18-2026--sports-ncaa-basketball/production/7744906?wsUser=717",
-    "low": 38.0
+    "low": 37.0
    },
    "venue": "Angel of the Winds Arena",
    "venue_city": "Everett",
@@ -1901,7 +1889,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-18-2026--sports-ncaa-basketball/production/7459073?wsUser=717",
-    "low": 20.0
+    "low": 13.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -1986,7 +1974,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 53.0
+    "low": 46.0
    },
    "venue": "Charles Koch Arena",
    "venue_city": "Wichita",
@@ -2665,7 +2653,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-28-2026--sports-ncaa-basketball/production/7419563?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
@@ -2744,7 +2732,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-28-2026--sports-ncaa-basketball/production/7459081?wsUser=717",
-    "low": 21.0
+    "low": 18.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -2984,7 +2972,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-1-2026--sports-ncaa-basketball/production/7418287?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "CU Events Center",
    "venue_city": "Boulder",
@@ -3148,7 +3136,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -3271,7 +3259,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-4-2026--sports-ncaa-basketball/production/7519434?wsUser=717",
-    "low": 35.0
+    "low": 14.0
    },
    "venue": "Gersten Pavilion",
    "venue_city": "Los Angeles",
@@ -3309,7 +3297,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 40.0
+    "low": 38.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -3575,7 +3563,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-8-2026--sports-ncaa-basketball/production/7436789?wsUser=717",
-    "low": 9.0
+    "low": 7.0
    },
    "venue": "Global Credit Union Arena",
    "venue_city": "Phoenix",
@@ -3613,7 +3601,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-8-2026--sports-ncaa-basketball/production/7785763?wsUser=717",
-    "low": 25.0
+    "low": 20.0
    },
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
@@ -3651,7 +3639,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-9-2026--sports-ncaa-basketball/production/7459086?wsUser=717",
-    "low": 20.0
+    "low": 21.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -3733,7 +3721,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-10-2026--sports-ncaa-basketball/production/7667253?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -3821,7 +3809,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-11-2026--sports-ncaa-basketball/production/7575845?wsUser=717",
-    "low": 23.0
+    "low": 25.0
    },
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",
@@ -3973,7 +3961,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 26.0
+    "low": 33.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -4365,7 +4353,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-irvine-anteaters-mens-basketball-tickets-bren-events-center-12-18-2026--sports-ncaa-basketball/production/7688174?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "Bren Events Center",
    "venue_city": "Irvine",
@@ -4438,7 +4426,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "CW",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-mortgage-matchup-center-12-19-2026--sports-ncaa-basketball/production/7034979?wsUser=717",
     "low": 50.0
@@ -4479,7 +4473,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-12-19-2026--sports-ncaa-basketball/production/7648008?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -4783,7 +4777,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-22-2026--sports-ncaa-basketball/production/7436821?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Global Credit Union Arena",
    "venue_city": "Phoenix",
@@ -5210,7 +5204,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-29-2026--sports-ncaa-basketball/production/7459092?wsUser=717",
-    "low": 22.0
+    "low": 24.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -5324,7 +5318,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-1-2-2027--sports-ncaa-basketball/production/7660712?wsUser=717",
-    "low": 12.0
+    "low": 14.0
    },
    "venue": "Don Haskins Center",
    "venue_city": "El Paso",
@@ -5590,7 +5584,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-1-5-2027--sports-ncaa-basketball/production/7436865?wsUser=717",
-    "low": 24.0
+    "low": 17.0
    },
    "venue": "Global Credit Union Arena",
    "venue_city": "Phoenix",
@@ -5856,7 +5850,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-1-12-2027--sports-ncaa-basketball/production/7699986?wsUser=717",
-    "low": 50.0
+    "low": 25.0
    },
    "venue": "Arena-Auditorium",
    "venue_city": "Laramie",
@@ -6122,7 +6116,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-1-16-2027--sports-ncaa-basketball/production/7459110?wsUser=717",
-    "low": 31.0
+    "low": 32.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -6274,7 +6268,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-1-19-2027--sports-ncaa-basketball/production/7459117?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -6312,7 +6306,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-1-20-2027--sports-ncaa-basketball/production/7436875?wsUser=717",
-    "low": 13.0
+    "low": 16.0
    },
    "venue": "Global Credit Union Arena",
    "venue_city": "Phoenix",
@@ -6844,7 +6838,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-1-30-2027--sports-ncaa-basketball/production/7699993?wsUser=717",
-    "low": 56.0
+    "low": 33.0
    },
    "venue": "Arena-Auditorium",
    "venue_city": "Laramie",
@@ -6882,7 +6876,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-30-2027--sports-ncaa-basketball/production/7419612?wsUser=717",
-    "low": 37.0
+    "low": 38.0
    },
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
@@ -8016,7 +8010,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-2-23-2027--sports-ncaa-basketball/production/7459175?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -8168,7 +8162,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-2-27-2027--sports-ncaa-basketball/production/7699999?wsUser=717",
-    "low": 61.0
+    "low": 32.0
    },
    "venue": "Arena-Auditorium",
    "venue_city": "Laramie",
@@ -8282,7 +8276,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-2-27-2027--sports-ncaa-basketball/production/7459177?wsUser=717",
-    "low": 53.0
+    "low": 61.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
@@ -8510,7 +8504,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-3-5-2027--sports-ncaa-basketball/production/7700001?wsUser=717",
-    "low": 61.0
+    "low": 32.0
    },
    "venue": "Arena-Auditorium",
    "venue_city": "Laramie",

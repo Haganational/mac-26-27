@@ -29,6 +29,12 @@ posted lines, and (coming) a study of when MAC lines post and how they move.
 - **The backtest** (`python -m mac.backtest`) replays 2025-26 one morning at a time
   with only earlier games and scores the model against results and DraftKings
   closing lines; `python -m mac.backtest tune` sweeps the knobs.
+- **CollegeBasketballData.com** (`mac/cbbd.py`, `mac/cbbd_study.py`) supplies box scores
+  back to 2003 and opening + closing lines back to 2013 for a multi-season backtest
+  (Actions > "CollegeBasketballData backfill and study", needs the `CBBD_API_KEY` secret;
+  free tier is 1,000 calls a month and a season costs about 15). Their terms forbid a
+  public mirror, so raw responses stay in a private Actions cache (`data/cache/`, git-ignored)
+  and only summary numbers are committed. Data provided by CollegeBasketballData.com.
 - **The dashboard** is a static page built by `mac/build.py` from
   `templates/index.html`.
 
@@ -63,6 +69,7 @@ pytest -q
 ## Setup checklist
 
 1. Repository secret `ODDS_API_KEY` (Settings > Secrets and variables > Actions).
+   Optional: `CBBD_API_KEY` for the CollegeBasketballData.com study.
 2. GitHub Pages: Settings > Pages > Source: **GitHub Actions**.
 3. Run the "Collect lines and publish dashboard" workflow once by hand to seed data.
 4. Optional repo variables (Settings > Secrets and variables > Actions > Variables):

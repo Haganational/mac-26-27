@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -368,8 +368,11 @@ def render_site() -> str:
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
 
+    flavor = gamer.load_flavor()
+    on = str(data.get("generated_at") or "")[:10]
     index = env.get_template("index.html")
-    write_front(index.render(d=data, data_json=json.dumps(data)))
+    scene = scene_setters(data.get("tonight") or [], flavor, on)
+    write_front(index.render(d=data, data_json=json.dumps(data), scene=scene))
     (SITE_DIR / "data.json").write_text(json.dumps(data))
     (SITE_DIR / ".nojekyll").write_text("")
 
@@ -397,7 +400,6 @@ def render_site() -> str:
     by_id = {g["game_id"]: g for g in games}
     have_box = set()
     said = {str(x["id"]): x for x in (m or {}).get("season_to_date", [])}
-    flavor = gamer.load_flavor()
     nba = (nba_alumni.load_nights(), nba_alumni.load_colleges())
     published = gamer.load_published()
     clips = highlights.load()
@@ -473,12 +475,22 @@ def render_site() -> str:
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
-    # MAC90: the 90-second daily script, built only from our own data.
+    # MidMaxx60: the 60-second daily script, built only from our own data.
     ou = ou_study.build()
-    if LEAGUE.has("mac90"):
+    if LEAGUE.has("midmaxx60"):
         t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
-        (SITE_DIR / "mac90.json").write_text(json.dumps(t))
-        (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
+        (SITE_DIR / "midmaxx60.json").write_text(json.dumps(t))
+        (SITE_DIR / "midmaxx60.html").write_text(env.get_template("midmaxx60.html").render(d=data, t=t, game_href=game_href))
+        # MAC90 was renamed MidMaxx60 on Nov 14, 2026: keep the old address working.
+        (SITE_DIR / "mac90.html").write_text(
+            '<!doctype html><meta charset="utf-8"><title>MidMaxx60</title><link rel="canonical" href="midmaxx60.html">'
+            '<meta http-equiv="refresh" content="0; url=midmaxx60.html"><a href="midmaxx60.html">MAC90 is now MidMaxx60</a>\n')
+
+    # The Big Mid: this edition's week, for the weekly recap video (python -m mac.bigmid reads every edition's file).
+    try:
+        (SITE_DIR / "bigmid.json").write_text(json.dumps(bigmid.edition(now, data["recent"], data["upcoming"], boxes, data["standings"])))
+    except Exception as exc:  # noqa: BLE001 - the site must still publish
+        print(f"bigmid: skipped ({exc!r})")
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
@@ -531,7 +543,7 @@ def render_site() -> str:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
@@ -569,6 +581,7 @@ def render_site() -> str:
             proj={u["game_id"]: u for u in m["upcoming"]} if m else {},
             mvs={u["game_id"]: model_view.view(u) for u in m["upcoming"]} if m else {},
             prate=prate, prate_n=len(prate),
+            town=gamer.around_town(team.key, flavor, on),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
@@ -590,6 +603,28 @@ def render_site() -> str:
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
     finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / HOME)
+
+
+def scene_setters(tonight: list[dict[str, Any]], flavor: dict[str, Any], on: str, most: int = 4) -> list[dict[str, Any]]:
+    """One research-desk note per upcoming game, from the home school (the road team's when the home side is not ours)."""
+    out, used = [], set()
+    for g in tonight:
+        h, a = g.get("home") or {}, g.get("away") or {}
+        for side, home in ((h, not g.get("neutral_site")), (a, False)):
+            key = side.get("key")
+            if not key or key in used:
+                continue
+            t = gamer.around_town(key, flavor, on, n=1, home=home)
+            if t:
+                used.add(key)
+                out.append({"game": f"{a.get('name') or a.get('abbr')} at {h.get('name') or h.get('abbr')}",
+                            "when": (g.get("et") or {}).get("day_label", ""), "key": key, "team": side.get("name") or key,
+                            "where": (t["floor"] + (", " + t["town"] if t["town"] else "")) if home and t["floor"] else t["town"],
+                            **t["notes"][0]})
+                break
+        if len(out) >= most:
+            break
+    return out
 
 
 CANON: dict[str, str] = {}  # game id -> canonical URL in another edition; those pages stay out of our sitemaps
@@ -758,7 +793,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
-        for root_page in ("masthead.html", "media.html"):
+        for root_page in ("masthead.html", "media.html", "privacy.html"):
             if SITE_DIR / root_page not in pages:
                 pages.append(SITE_DIR / root_page)
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(

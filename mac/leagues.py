@@ -11,7 +11,7 @@ own data folder (data/leagues/<key>/). Pick one with the LEAGUE environment vari
 skips that page and its links:
     x          follow-on-X list and player handles
     research   coach, storylines and preseason research files
-    mac90      the daily 90-second script, video and YouTube card
+    midmaxx60      this edition's daily script (the video combines every edition's) and YouTube card
     notes      Fieldhouse Notes and the author desk
     book       the Almanac (built once, by the MAC edition)
     athletics  per-school athletics-site news feeds (without it: Google News only)
@@ -89,7 +89,7 @@ MAC = League(
         Team("umass", "113", "MASS", "Massachusetts Minutemen", "UMass", "#881C1C", "#FFFFFF"),
         Team("western-michigan", "2711", "WMU", "Western Michigan Broncos", "Western Michigan", "#6C4023", "#F1C500"),
     ),
-    features=frozenset({"x", "research", "mac90", "notes", "book", "athletics"}),
+    features=frozenset({"x", "research", "midmaxx60", "notes", "book", "athletics"}),
     # Alternate spellings seen in odds feeds, mapped to our team key.
     odds_aliases={
         "Miami (OH) RedHawks": "miami-oh",
@@ -155,7 +155,7 @@ ASUN = League(
         Team("stetson", "56", "STET", "Stetson Hatters", "Stetson", "#0A5640", "#FFFFFF"),
         Team("west-florida", "2697", "UWF", "West Florida Argonauts", "West Florida", "#004C97", "#00843D"),
     ),
-    features=frozenset({"notes"}),  # Fieldhouse Notes from Craig, the Miami contributor
+    features=frozenset({"notes", "midmaxx60"}),  # Fieldhouse Notes from Craig, the Miami contributor
     path="asun/",
     league_feed=("asunsports.org", "ASUN (asunsports.org)"),
     theme="glades",
@@ -203,7 +203,7 @@ HORIZON = League(
         Team("wright-state", "2750", "WRST", "Wright State Raiders", "Wright State", "#007A33", "#CBA052"),
         Team("youngstown-state", "2754", "YSU", "Youngstown State Penguins", "Youngstown State", "#C8102E", "#FFFFFF"),
     ),
-    features=frozenset(),
+    features=frozenset({"midmaxx60"}),
     path="horizon/",
     league_feed=("horizonleague.org", "Horizon League (horizonleague.org)"),
     hashtag="HorizonLeague",
@@ -262,7 +262,7 @@ MW = League(
         Team("utep", "2638", "UTEP", "UTEP Miners", "UTEP", "#FF8200", "#041E42"),
         Team("wyoming", "2751", "WYO", "Wyoming Cowboys", "Wyoming", "#492F24", "#FFC425"),
     ),
-    features=frozenset(),
+    features=frozenset({"midmaxx60"}),
     path="mw/",
     league_feed=("themw.com", "Mountain West (themw.com)"),
     hashtag="MountainWest",
@@ -318,7 +318,7 @@ METRO = League(
         Team("saint-peters", "2612", "SPU", "Saint Peter's Peacocks", "Saint Peter's", "#0057B8", "#FFFFFF"),
         Team("siena", "2561", "SIE", "Siena Saints", "Siena", "#006A4E", "#FFC72C"),
     ),
-    features=frozenset(),
+    features=frozenset({"midmaxx60"}),
     path="metro/",
     theme="harbor",
     hashtag="MetroConference",
@@ -380,7 +380,7 @@ BIGWEST = League(
         Team("uc-santa-barbara", "2540", "UCSB", "UC Santa Barbara Gauchos", "UCSB", "#003660", "#FEBC11"),
         Team("utah-valley", "3084", "UVU", "Utah Valley Wolverines", "Utah Valley", "#275D38", "#FFFFFF"),
     ),
-    features=frozenset(),
+    features=frozenset({"midmaxx60"}),
     path="bigwest/",
     theme="coast",
     odds_aliases={

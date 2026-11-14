@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T12:01:37+00:00",
+ "fetched_at": "2026-11-14T12:01:48+00:00",
  "season": 2027,
  "games": [
   {
@@ -1719,10 +1719,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wisconsin-green-bay-phoenix-mens-basketball-tickets-kress-events-center-11-13-2026--sports-ncaa-basketball/production/7591984?wsUser=717",
-    "low": 49.0
-   },
+   "tickets": null,
    "venue": "Resch Center",
    "venue_city": "Ashwaubenon",
    "venue_state": "WI",
@@ -1731,21 +1728,21 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
    "away": {
     "espn_id": "2677",
     "key": null,
     "name": "Viterbo V-Hawks",
     "abbr": "VTBO",
-    "score": null,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921167",
@@ -1772,21 +1769,21 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2697",
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919049",
@@ -1804,10 +1801,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/tcu-horned-frogs-mens-basketball-tickets-schollmaier-arena-11-13-2026--sports-ncaa-basketball/production/7613175?wsUser=717",
-    "low": 7.0
-   },
+   "tickets": null,
    "venue": "Schollmaier Arena",
    "venue_city": "Fort Worth",
    "venue_state": "TX",
@@ -1816,21 +1810,21 @@
     "key": null,
     "name": "TCU Horned Frogs",
     "abbr": "TCU",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "270",
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926117",
@@ -1848,10 +1842,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-13-2026--sports-ncaa-basketball/production/7457782?wsUser=717",
-    "low": 37.0
-   },
+   "tickets": null,
    "venue": "Pete Hanna Center",
    "venue_city": "Homewood",
    "venue_state": "AL",
@@ -1860,14 +1851,58 @@
     "key": null,
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2750",
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
+    "score": 90,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920750",
+   "date": "2026-11-14T18:00Z",
+   "name": "Marshall Thundering Herd at Youngstown State Penguins",
+   "short_name": "MRSH @ YSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-14-2026--sports-ncaa-basketball/production/7632140?wsUser=717",
+    "low": 30.0
+   },
+   "venue": "Zidian Family Arena at Beeghly Center",
+   "venue_city": "Youngstown",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2754",
+    "key": "youngstown-state",
+    "name": "Youngstown State Penguins",
+    "abbr": "YSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "276",
+    "key": null,
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
     "score": null,
     "winner": null
    },
@@ -2023,7 +2058,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 33.0
+    "low": 34.0
    },
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
@@ -2041,50 +2076,6 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401920750",
-   "date": "2026-11-14T23:00Z",
-   "name": "Marshall Thundering Herd at Youngstown State Penguins",
-   "short_name": "MRSH @ YSU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-14-2026--sports-ncaa-basketball/production/7632140?wsUser=717",
-    "low": 30.0
-   },
-   "venue": "Zidian Family Arena at Beeghly Center",
-   "venue_city": "Youngstown",
-   "venue_state": "OH",
-   "home": {
-    "espn_id": "2754",
-    "key": "youngstown-state",
-    "name": "Youngstown State Penguins",
-    "abbr": "YSU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "276",
-    "key": null,
-    "name": "Marshall Thundering Herd",
-    "abbr": "MRSH",
     "score": null,
     "winner": null
    },
@@ -2413,7 +2404,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-state-nittany-lions-mens-basketball-tickets-bryce-jordan-center-11-18-2026--sports-ncaa-basketball/production/7436697?wsUser=717",
-    "low": 9.0
+    "low": 8.0
    },
    "venue": "Bryce Jordan Center",
    "venue_city": "University Park",
@@ -2765,7 +2756,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 37.0
+    "low": 36.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -2811,7 +2802,7 @@
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-20-2026--sports-ncaa-basketball/production/7398045?wsUser=717",
     "low": 7.0
    },
-   "venue": "Tucker Center",
+   "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
    "venue_state": "FL",
    "home": {
@@ -2938,7 +2929,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 31.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -3481,7 +3472,7 @@
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
     "low": 12.0
    },
-   "venue": "Thomas Hill Arena",
+   "venue": "Tower Hill Arena",
    "venue_city": "Gainesville",
    "venue_state": "FL",
    "home": {
@@ -3824,7 +3815,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 70.0
+    "low": 59.0
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -4928,7 +4919,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-ppg-paints-arena-12-9-2026--sports-ncaa-basketball/production/7187064?wsUser=717",
-    "low": 80.0
+    "low": 82.0
    },
    "venue": "PPG Paints Arena",
    "venue_city": "Pittsburgh",
@@ -5058,7 +5049,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-12-12-2026--sports-ncaa-basketball/production/7872840?wsUser=717",
+    "low": 26.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -9506,7 +9500,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-womens-basketball-tickets-truist-arena-2-13-2027--sports-ncaa-womens-basketball/production/7762964?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
@@ -10251,7 +10245,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-2-27-2027--sports-ncaa-basketball/production/7646098?wsUser=717",
-    "low": 28.0
+    "low": 27.0
    },
    "venue": "UPMC Events Center",
    "venue_city": "Moon Township",

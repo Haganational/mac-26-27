@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Den · Hardwood Bricks</title>
+<meta name="description" content="Free daily games for {{ names }} men's basketball: the Daily Five, Pick 4, Bricksanity and Brick by Brick. No money, no sign-up. Picks lock at tip.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}den.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="The Den: free games for the mid-major sicko">
+<meta property="og:description" content="A daily fantasy five, a Pick 4 that rewards the brave, a nightly hunt for the worst shooting team, and a streak wall built four winners at a time.">
+<meta property="og:url" content="{{ base }}den.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+{% import "_den_connect.html" as dc %}{{ dc.styles() }}
+<style>
+  .dc-gm { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 10px; padding: 2px 2px 4px; }
+  .dc-hostline { margin: 0; font: italic 14px/1.35 var(--serif); color: var(--ink-2); min-width: 0; }
+  .dc-hostline b { font-style: normal; font-family: var(--sans); color: var(--ink); }
+  .dc-hostline small { font: 600 10px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-style: normal; }
+  .den-partners { display: grid; gap: 18px; margin-block: 28px 8px; }
+  /* The Den: the back page of the paper. Same paper, fonts and brick course as the hub; the hickory bar runs down into a den band. */
+  :root { --good: #2c7a4b; --bad: #b3261e; --chip: #ebe3d3; --brick: #9e3b26; --field: #fbf7ef; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --good: #6cc790; --bad: #ef6b5f; --chip: #2a231c; --field: #1d1813; } }
+  :root[data-theme="dark"] { --good: #6cc790; --bad: #ef6b5f; --chip: #2a231c; --field: #1d1813; }
+
+  .denband { background: var(--hick); color: #f4ead8; }
+  .denband .in { max-width: 1200px; margin: 0 auto; padding: 18px 24px 24px; }
+  @media (max-width: 700px) { .denband .in { padding: 14px 16px 20px; } }
+  .denband .kick { color: var(--gold); }
+  .denband h1 { font: 600 clamp(44px, 8vw, 76px)/.95 var(--serif); letter-spacing: -.02em; margin: 6px 0 10px; }
+  .denband h1 i { font-style: normal; color: var(--gold); }
+  .denband p { font: 400 18px/1.45 var(--serif); max-width: 60ch; margin: 0; color: #e6d9c2; }
+
+  .den { padding-bottom: 10px; }
+  .den .dateline .tag { flex: 1 1 auto; text-align: center; }
+  .days-nav { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0 0; font: 600 13px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .days-nav a { color: var(--accent); }
+  .days-nav a[aria-disabled="true"] { visibility: hidden; }
+
+  /* Status strip: how much of tonight is still open. No clock, no live scores. */
+  .strip { margin: 18px 0 0; padding: 11px 14px; background: var(--hick); color: #f4ead8; display: flex; flex-wrap: wrap; gap: 4px 22px; align-items: baseline; font: 600 14px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; }
+  .strip b { color: var(--gold); font-size: 20px; letter-spacing: .02em; font-variant-numeric: tabular-nums; }
+  .strip .sp { margin-left: auto; color: #cdbb9c; }
+  @media (max-width: 600px) { .strip .sp { margin-left: 0; width: 100%; } }
+
+  .rooms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 44px; padding: 26px 0 0; }
+  .rooms .wide { grid-column: 1 / -1; }
+  @media (max-width: 900px) { .rooms { grid-template-columns: minmax(0, 1fr); gap: 36px; } .rooms .wide { grid-column: auto; } }
+  .room { border-top: 3px solid var(--rule-2); padding-top: 12px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+  .room .kick { color: var(--accent); }
+  .room .kick span { color: var(--muted); }
+  .room h2 { font: 600 32px/1.05 var(--serif); letter-spacing: -.015em; margin: 0; }
+  .room p.how { margin: 0; color: var(--ink-2); font: 400 17px/1.5 var(--serif); max-width: 62ch; }
+  .board { background: var(--field); border: 1px solid var(--rule); padding: 14px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+  @media (max-width: 600px) { .board { padding: 12px; margin: 0 -4px; } }
+  .count { display: flex; justify-content: space-between; gap: 10px; font: 600 13px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); }
+  .count b { color: var(--accent); font-size: 18px; letter-spacing: 0; font-variant-numeric: tabular-nums; }
+  .fine { font: 400 14px/1.45 var(--sans); color: var(--muted); margin: 0; }
+  .fine b { color: var(--ink-2); font-weight: 600; }
+  .msg { font: italic 400 17px/1.4 var(--serif); margin: 0; color: var(--ink-2); }
+  .msg:empty { display: none; }
+  .total { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; border-top: 2px solid var(--rule-2); padding-top: 8px; font: 600 13px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .total small { display: block; color: var(--muted); font-weight: 500; }
+  .total b { font: 700 30px/1 var(--cond); color: var(--accent); letter-spacing: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  button { font: 600 14px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; padding: 11px 14px; border: 1px solid var(--rule-2); background: var(--ink); color: var(--page); cursor: pointer; border-radius: 0; min-height: 40px; }
+  button.ghost { background: transparent; color: var(--ink); }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button:disabled { opacity: .45; cursor: default; }
+  .cf-sq { display: inline-block; width: 8px; height: 8px; background: var(--c, var(--muted)); margin-right: 6px; vertical-align: 1px; }
+
+  /* Daily Five */
+  .lineup { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+  @media (max-width: 640px) { .lineup { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .slot { border: 1px dashed var(--rule-2); min-height: 76px; padding: 7px; display: flex; flex-direction: column; justify-content: space-between; gap: 4px; background: var(--page); min-width: 0; }
+  .slot.on { border-style: solid; }
+  .slot .k { font: 600 11px/1.1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .slot .who { font: 600 14px/1.15 var(--sans); overflow-wrap: anywhere; }
+  .slot .who.open { color: var(--muted); font-weight: 500; }
+  .slot .fp { font: 700 20px/1 var(--cond); color: var(--accent); font-variant-numeric: tabular-nums; }
+  .slot .lk { color: var(--muted); }
+  .slot button { all: unset; cursor: pointer; font: 600 11px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); padding: 4px 0; }
+  .slot button:focus-visible { outline: 2px solid var(--accent); }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: 0 0 auto; padding: 8px 10px; min-height: 34px; font-size: 12.5px; background: transparent; color: var(--ink); border-color: var(--rule); }
+  .tabs button[aria-pressed="true"] { background: var(--ink); color: var(--page); border-color: var(--ink); }
+  .pool { max-height: min(540px, 62vh); overflow: auto; border: 1px solid var(--rule); background: var(--page); -webkit-overflow-scrolling: touch; }
+  .pool table { width: 100%; border-collapse: collapse; font: 15px/1.3 var(--sans); font-variant-numeric: tabular-nums; }
+  .pool th { position: sticky; top: 0; z-index: 1; background: var(--page); text-align: left; font: 600 11.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 9px 6px; border-bottom: 1px solid var(--rule-2); }
+  .pool td { padding: 7px 6px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+  .pool .num { text-align: right; }
+  .pool tr.gh td { background: var(--chip); font: 600 12.5px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); padding: 8px 6px; }
+  .pool tr.gh td span { color: var(--muted); }
+  .pool .nm { font-weight: 600; display: block; }
+  .pool .tm { font: 600 11.5px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .pool .pj { font-weight: 700; }
+  .pool button { padding: 7px 10px; min-height: 34px; font-size: 12px; }
+  .pool .empty td { font: italic 16px/1.4 var(--serif); color: var(--muted); padding: 14px 8px; }
+  @media (max-width: 480px) { .pool .xs { display: none; } }
+
+  /* Pick 4 and Brick by Brick: one row per game, away on the left, home on the right */
+  .games { display: flex; flex-direction: column; gap: 4px; }
+  .gm { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; }
+  .gm .tipl { grid-column: 1 / -1; display: flex; justify-content: space-between; font: 600 11.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding-top: 8px; }
+  .side { background: var(--page); color: var(--ink); text-transform: none; letter-spacing: 0; text-align: left; font: 600 15px/1.15 var(--sans); padding: 10px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; min-width: 0; min-height: 44px; }
+  .side > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .side b { font: 700 17px/1 var(--cond); color: var(--accent); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .side .sc { font: 600 14px var(--cond); color: var(--muted); margin-left: 4px; }
+  .side[aria-pressed="true"] { background: var(--ink); color: var(--page); }
+  .side[aria-pressed="true"] b, .side[aria-pressed="true"] .sc { color: var(--gold); }
+  .side.won { box-shadow: inset 0 0 0 3px var(--good); }
+  .side.lost { box-shadow: inset 0 0 0 3px var(--bad); }
+  .side:disabled { opacity: 1; color: var(--muted); }
+  .side:disabled[aria-pressed="true"] { color: var(--page); }
+
+  /* Bricksanity */
+  .teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 6px; }
+  @media (max-width: 420px) { .teams { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .teams button { background: var(--page); color: var(--ink); text-transform: none; letter-spacing: 0; font: 600 15px/1.15 var(--sans); padding: 9px 10px; text-align: left; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .teams button small { font: 600 11px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .teams button[aria-pressed="true"] { background: var(--brick); border-color: var(--brick); color: #fff; }
+  .teams button[aria-pressed="true"] small { color: var(--gold); }
+  .teams button.worst { box-shadow: inset 0 0 0 3px var(--bad); opacity: 1; }
+  .teams button:disabled { opacity: .5; }
+  .teams button:disabled[aria-pressed="true"] { opacity: 1; }
+  .ladder { margin: 0; padding: 0; list-style: none; font: 15px/1.3 var(--sans); font-variant-numeric: tabular-nums; }
+  .ladder li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--rule); }
+  .ladder li.mine { font-weight: 700; color: var(--accent); }
+  .ladder .r { color: var(--muted); font: 600 14px var(--cond); }
+
+  /* Brick by Brick */
+  .bbb { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); gap: 20px 40px; align-items: start; }
+  @media (max-width: 900px) { .bbb { grid-template-columns: minmax(0, 1fr); } }
+  .wall { display: flex; flex-direction: column-reverse; gap: 3px; min-height: 120px; padding: 10px; background: var(--page); border: 1px solid var(--rule); }
+  .wall .row { display: flex; gap: 3px; }
+  .wall .row:nth-child(even) { padding-left: 23px; }
+  .brk { height: 22px; width: 44px; background: var(--brick); color: #f6e7d6; font: 600 11px/22px var(--cond); letter-spacing: .06em; text-align: center; }
+  .wall .none { font: italic 16px/1.4 var(--serif); color: var(--muted); margin: auto; text-align: center; }
+  .daystrip { display: flex; gap: 4px; flex-wrap: wrap; }
+  .daystrip span { font: 600 12px/1 var(--cond); letter-spacing: .08em; text-transform: uppercase; padding: 7px 8px; border: 1px solid var(--rule); color: var(--muted); }
+  .daystrip .now { border-color: var(--rule-2); color: var(--ink); }
+  .daystrip .hit { background: var(--good); border-color: var(--good); color: #fff; }
+  .daystrip .miss { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .daystrip .skip { border-style: dashed; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .daystrip .hit, :root:not([data-theme="light"]) .daystrip .miss { color: #15110d; } }
+  :root[data-theme="dark"] .daystrip .hit, :root[data-theme="dark"] .daystrip .miss { color: #15110d; }
+  .chance { font: 600 13px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  .chance b { color: var(--accent); font-size: 17px; }
+  .bbb .acts { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* Calm empty state */
+  .quiet { margin: 30px 0 10px; padding: 26px 0 8px; border-top: 3px solid var(--rule-2); max-width: 62ch; }
+  .quiet h2 { font: 600 34px/1.1 var(--serif); letter-spacing: -.015em; margin: 0 0 8px; }
+  .quiet p { font: 400 18px/1.5 var(--serif); color: var(--ink-2); margin: 0 0 10px; }
+  .quiet a { color: var(--accent); font: 600 14px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+
+  .rules { margin: 44px 0 0; border-top: 3px solid var(--rule-2); padding-top: 12px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px 44px; }
+  @media (max-width: 760px) { .rules { grid-template-columns: minmax(0, 1fr); } }
+  .rules h2 { grid-column: 1 / -1; font: 600 24px/1.1 var(--serif); margin: 0 0 4px; }
+  .rules ul { margin: 0; padding-left: 18px; font: 400 16px/1.5 var(--serif); color: var(--ink-2); }
+  .rules li { margin: 0 0 6px; }
+  [hidden] { display: none !important; }
+  @media (prefers-reduced-motion: no-preference) { .side, .teams button, .tabs button { transition: background-color .12s, box-shadow .12s; } }
+</style>
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Hardwood Bricks</a>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="at-large.html">At-Large</a><a href="den.html" aria-current="page">The Den</a><a href="masthead.html">About</a></nav>
+</div></header>
+<section class="denband" aria-labelledby="h-den"><div class="in">
+  <span class="kick">Free games · no money · no sign-up</span>
+  <h1 id="h-den">The Den<i>.</i></h1>
+  <p>A daily fantasy five, a Pick 4 that rewards the brave, a nightly hunt for the worst shooting team, and a streak wall built four winners at a time. Picks lock at tip. Keep it mid. Keep it real.</p>
+</div></section>
+<div class="bricks" aria-hidden="true"></div>
+
+<main class="den" id="main">
+  <div class="dateline"><span id="dn-day">Tonight</span><span class="tag" id="dn-tag">Four games, one night of hoops</span><span>{{ season }}</span></div>
+  <nav class="days-nav" aria-label="Other nights"><a id="dn-prev" href="den.html" aria-disabled="true">‹ Earlier</a><a id="dn-next" href="den.html" aria-disabled="true">Later ›</a></nav>
+
+  <noscript><div class="quiet"><h2>The Den needs JavaScript</h2><p>The games run in your browser and keep your picks on this device. Turn JavaScript on to play.</p></div></noscript>
+
+  <div class="quiet" id="dn-empty" hidden>
+    <h2 id="dn-empty-h">No games tonight</h2>
+    <p id="dn-empty-p">None of our 67 teams play today, so the Den is resting. Your Brick by Brick wall stands as it is.</p>
+    <a id="dn-empty-a" href="den.html" hidden></a>
+  </div>
+
+  <div id="dn-board" hidden>
+    <div class="strip" role="status"><span><b id="st-open">0</b> of <span id="st-n">0</span> games open</span><span id="st-next"></span><span class="sp" id="st-saved">Picks save on this device</span></div>
+
+    <div class="rooms">
+      <section class="room wide" aria-labelledby="h-d5">
+        <span class="kick">Daily fantasy <span>· five players and a defense</span></span>
+        <h2 id="h-d5">The Daily Five</h2>
+        <p class="how">Five players and one team defense from tonight's games. Swap anyone until their game tips.</p>
+        <div class="board">
+          <div class="lineup" id="d5-slots"></div>
+          <div class="tabs" id="d5-tabs" role="group" aria-label="Filter by conference"></div>
+          <div class="pool"><table><thead><tr><th>Player</th><th class="num">Pts</th><th class="num xs">Reb</th><th class="num xs">Ast</th><th class="num">Proj</th><th><span style="position:absolute;left:-9999px">Pick</span></th></tr></thead><tbody id="d5-pool"></tbody></table></div>
+          <p class="fine"><b>Scoring.</b> Players: 1 per point, 1.2 per rebound, 1.5 per assist, 2 per block, 2 per steal. Team D: 1 per block and steal, plus half a point for every point allowed under 75 and every point of opponent field-goal percentage under 45 (both can go negative). Proj is the season average run through the same formula. Weights are a first draft.</p>
+          <div class="total"><span>Lineup<small id="d5-sub"></small></span><b id="d5-tot">–</b></div>
+        </div>
+      </section>
+
+      <section class="room" aria-labelledby="h-p4">
+        <span class="kick">Daily <span>· four winners</span></span>
+        <h2 id="h-p4">Pick 4</h2>
+        <p class="how">Pick four games straight up. A right pick is worth 100 minus the win chance of the side you took, so a heavy favorite is worth 5 and a coin flip 50.</p>
+        <div class="board">
+          <div class="count"><span>Picks <b id="p4-n">0</b> / 4</span><span>Most you can make <b id="p4-max">0</b></span></div>
+          <div class="games" id="p4-games"></div>
+          <div class="total"><span>Your Pick 4<small id="p4-sub"></small></span><b id="p4-tot">–</b></div>
+        </div>
+        {% if connect and connect.desk %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.desk(connect.desk) }}</div>{% endif %}
+      </section>
+
+      <section class="room" aria-labelledby="h-bk">
+        <span class="kick">Daily <span>· two guesses</span></span>
+        <h2 id="h-bk">Bricksanity</h2>
+        <p class="how">Which of our teams shoots the worst tonight? Field goals and free throws together, makes over attempts. Two guesses.</p>
+        <div class="board">
+          <div class="count"><span>Guesses <b id="bk-n">0</b> / 2</span><span>Eligible <b id="bk-e">0</b></span></div>
+          <div class="teams" id="bk-grid"></div>
+          <ol class="ladder" id="bk-ladder" hidden></ol>
+          <p class="msg" id="bk-msg"></p>
+          <div class="total"><span>Bricksanity<small id="bk-sub"></small></span><b id="bk-tot">–</b></div>
+        </div>
+        {% if connect and connect.bricksanity %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.bricks_call(connect.bricksanity) }}</div>{% endif %}
+      </section>
+
+      <section class="room wide" aria-labelledby="h-bb">
+        <span class="kick">Season-long <span>· streak game</span></span>
+        <h2 id="h-bb">Brick by Brick</h2>
+        <p class="how">Pick four outright winners a day. Hit all four and you lay a brick. Miss one and the wall comes down. Sit a day out and your wall stands, but anyone still playing can build past you.</p>
+        <div class="bbb">
+          <div class="board">
+            <div class="count"><span>Your wall <b id="bb-wall">0</b></span><span>Tallest <b id="bb-best">0</b></span></div>
+            <div class="wall" id="bb-bricks"></div>
+            <div class="daystrip" id="bb-days" aria-label="Recent days"></div>
+            <p class="msg" id="bb-msg"></p>
+          </div>
+          <div class="board">
+            <div class="count"><span id="bb-day">Tonight</span><span>Picks <b id="bb-n">0</b> / 4</span></div>
+            <div class="games" id="bb-games"></div>
+            <p class="chance" id="bb-chance">Chance all four hit <b>–</b></p>
+            <div class="acts"><button class="ghost" type="button" id="bb-copy">Use my Pick 4</button><button class="ghost" type="button" id="bb-clear">Clear open picks</button></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="den-partners">
+    {% if connect %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.partners(connect.going, house_ad) }}</div>{% else %}{{ dc.partners(none, house_ad) }}{% endif %}
+    {{ dc.board(standings) }}
+    {% if connect or (standings and (standings.desk or standings.homer)) %}{{ dc.disclosure((connect or standings).disclosure) }}{% endif %}
+  </div>
+
+  <section class="rules" aria-labelledby="h-rules">
+    <h2 id="h-rules">House rules</h2>
+    <ul>
+      <li>Free to play. No money, no sign-up, no prizes.</li>
+      <li>Every pick can be changed until its game tips, then it locks. Nothing in the Den moves during games.</li>
+      <li>Scores post after finals, from the same box scores as the rest of the site.</li>
+    </ul>
+    <ul>
+      <li>Your picks live in this browser only. Clearing site data or switching phones starts you fresh.</li>
+      <li>Win chance is the pregame consensus for each side, set before tip and never updated during the game.</li>
+      <li>Only our 67 teams count for Bricksanity and the team defenses.</li>
+    </ul>
+  </section>
+</main>
+<footer><a href="./">All conferences</a> · <a href="masthead.html">Masthead and standards</a> · <a href="at-large.html">At-Large Watch</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+
+<script type="application/json" id="den-cfg">{{ cfg_json|safe }}</script>
+<script type="module">import("./static/den.js").then(function (m) { window.Den = m; }, function () {}).then(function () { window.denStart && window.denStart(); });</script>
+<script nomodule>window.denNoModule = true;</script>
+<script>
+{% raw %}
+(function () {
+  "use strict";
+  var CFG = {}; try { CFG = JSON.parse(document.getElementById("den-cfg").textContent) || {}; } catch (e) {}
+  var ED = CFG.editions || {}, COLORS = CFG.colors || {};
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+
+  /* ---- Scoring: the shared Den functions (static/den.js) when present, else these small stand-ins. ---- */
+  var LOCAL = {
+    fantasyPoints: function (s) { return (+s.pts || 0) + 1.2 * (+s.reb || 0) + 1.5 * (+s.ast || 0) + 2 * (+s.blk || 0) + 2 * (+s.stl || 0); },
+    // picks: [{game, side: "home"|"away"}]; a right pick earns that side's worth from the slate.
+    pick4Score: function (picks, results) {
+      var fin = {}; (results && results.games || []).forEach(function (r) { if (r.final) fin[r.id] = r; });
+      return picks.slice(0, 4).reduce(function (t, p) {
+        var r = fin[p.game], g = GAME[p.game]; if (!r || !g) return t;
+        return t + (String(r.winner_id) === String(g[p.side].id) ? (g.worth && g.worth[p.side] != null ? g.worth[p.side] : Math.floor(100 * (1 - winChance(g, p.side)) + 0.5)) : 0);
+      }, 0);
+    },
+    bricksanityHit: function (guesses, results) { return !!results && results.worst_shooter != null && guesses.map(String).indexOf(String(results.worst_shooter)) >= 0; },
+    brickWall: function (days) { var wall = 0, best = 0; days.forEach(function (d) { if (d === "hit") { wall += 1; best = Math.max(best, wall); } else if (d === "miss") wall = 0; }); return { wall: wall, best: best }; }
+  };
+  var CHECK = { fantasyPoints: "number", pick4Score: "number", bricksanityHit: "boolean", brickWall: "object" };
+  function score(name) {
+    var args = [].slice.call(arguments, 1), D = window.Den;
+    if (D && typeof D[name] === "function") {
+      try { var v = D[name].apply(D, args); if (typeof v === CHECK[name] && v !== null && !(typeof v === "number" && isNaN(v))) return v; } catch (e) {}
+    }
+    return LOCAL[name].apply(null, args);
+  }
+
+  /* ---- Picks: one record per ET date, in this browser only. ---- */
+  var KEY = "den:v1:";
+  function load(date) { try { var v = JSON.parse(localStorage.getItem(KEY + date) || "null"); if (v && typeof v === "object") return v; } catch (e) {} return {}; }
+  function save(date, v) { try { localStorage.setItem(KEY + date, JSON.stringify(v)); return true; } catch (e) { return false; } }
+  function savedDates() { var out = []; try { for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf(KEY) === 0 && /^\d{4}-\d{2}-\d{2}$/.test(k.slice(KEY.length))) out.push(k.slice(KEY.length)); } } catch (e) {} return out.sort(); }
+
+  /* ---- Dates and times, always Eastern ---- */
+  var TZ = "America/New_York";
+  function etDate(t) { var p = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(t); var g = function (k) { return p.filter(function (x) { return x.type === k; })[0].value; }; return g("year") + "-" + g("month") + "-" + g("day"); }
+  function tipLabel(iso) { var s = new Date(iso).toLocaleTimeString("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit" }); return s.replace(":00", "").replace("12 PM", "Noon"); }
+  function dayLabel(d, opts) { return new Date(d + "T12:00:00Z").toLocaleDateString("en-US", Object.assign({ timeZone: "UTC" }, opts || { weekday: "long", month: "long", day: "numeric" })); }
+
+  var qs = new URLSearchParams(location.search);
+  var local = /^(localhost|127\.0\.0\.1|)$/.test(location.hostname);
+  var NOW = (local && qs.get("at") && !isNaN(Date.parse(qs.get("at")))) ? Date.parse(qs.get("at")) : Date.now();  // preview only: pretend it's a given time
+  var TODAY = etDate(new Date(NOW));
+  var DATE = /^\d{4}-\d{2}-\d{2}$/.test(qs.get("d") || "") ? qs.get("d") : TODAY;
+
+  function getJSON(path) { return fetch(path, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  function indexDates(ix) {
+    var list = Array.isArray(ix) ? ix : ix && (ix.dates || ix.days) || [];
+    return list.map(function (x) { return typeof x === "string" ? x : x && x.date; }).filter(function (x) { return /^\d{4}-\d{2}-\d{2}$/.test(x || ""); }).sort();
+  }
+
+  var S, R, PICKS, G = [], GAME = {}, TEAM = {}, GAME_OF = {}, FINAL = {}, ELIG = [];
+  var tab = "all";
+
+  function edLabel(k) { return ED[k] || k || ""; }
+  function edSq(k) { return k ? '<i class="cf-sq" style="--c:' + esc(COLORS[k] || "") + '"></i>' : ""; }
+  function locked(g) { return !!FINAL[g.id] || Date.parse(g.tip) <= NOW; }
+  function teamName(t) { return t.short || t.abbr || ""; }
+  function allFinal() { return G.length > 0 && G.every(function (g) { return FINAL[g.id]; }); }
+  function nightDone() { return !!R && (typeof R.complete === "boolean" ? R.complete : allFinal()); }  // complete also covers postponements
+  function persist() { var ok = save(DATE, PICKS); $("st-saved").textContent = ok ? "Picks save on this device" : "Picks can't be saved in this browser"; }
+
+  function setup(slate, results) {
+    S = slate; R = results || null; PICKS = load(DATE);
+    PICKS.d5 = PICKS.d5 || { players: [null, null, null, null, null], def: null };
+    PICKS.p4 = PICKS.p4 || {}; PICKS.bk = PICKS.bk || []; PICKS.bb = PICKS.bb || {};
+    G = (S.games || []).slice().sort(function (a, b) { return Date.parse(a.tip) - Date.parse(b.tip); });
+    G.forEach(function (g) { GAME[g.id] = g; ["home", "away"].forEach(function (s) { TEAM[g[s].id] = g[s]; GAME_OF[g[s].id] = g; }); });
+    (R && R.games || []).forEach(function (r) { if (r.final) FINAL[r.id] = r; });
+    var seen = {};
+    ELIG = [];
+    G.forEach(function (g) { ["away", "home"].forEach(function (s) { var t = g[s]; if (t.edition && !seen[t.id]) { seen[t.id] = 1; ELIG.push(t); } }); });
+  }
+
+  /* ---- Strip ---- */
+  function drawStrip() {
+    var open = G.filter(function (g) { return !locked(g); });
+    $("st-open").textContent = open.length; $("st-n").textContent = G.length;
+    if (open.length) $("st-next").textContent = "Next lock " + tipLabel(open[0].tip) + " ET";
+    else if (allFinal()) $("st-next").textContent = "All final. Scores are in.";
+    else $("st-next").textContent = "Everything's locked. Scores post after finals.";
+  }
+
+  /* ---- Daily Five ---- */
+  var PLAYER = {};
+  function proj(p) { var a = p.avg || {}; return score("fantasyPoints", { pts: a.pts, reb: a.reb, ast: a.ast, blk: a.blk, stl: a.stl }); }
+  function fmt1(x) { return (Math.round(x * 10) / 10).toFixed(1); }
+  function drawD5() {
+    var L = PICKS.d5, players = S.players || [], defs = (S.defenses || []).map(String);
+    players.forEach(function (p) { PLAYER[p.id] = p; });
+    var res = R && R.players || {}, dres = R && R.defenses || {};
+    var slots = L.players.map(function (id, i) {
+      var p = id != null && PLAYER[id];
+      if (!p) return '<div class="slot"><span class="k">Player ' + (i + 1) + '</span><span class="who open">Open</span></div>';
+      var t = TEAM[p.team_id] || {}, g = GAME_OF[p.team_id], fin = g && FINAL[g.id], lk = g && locked(g);
+      var tail = fin ? '<span class="fp">' + fmt1(+res[p.id] || 0) + '</span>' : lk ? '<span class="k lk">Locked</span>' : '<button type="button" data-drop="' + i + '">Drop</button>';
+      return '<div class="slot on"><span class="k">' + esc(t.abbr || "") + (p.pos ? " · " + esc(p.pos) : "") + '</span><span class="who">' + esc(p.name) + '</span>' + tail + '</div>';
+    });
+    var d = '<div class="slot"><span class="k">Team D</span><span class="who open">Pick a defense</span></div>';
+    if (L.def != null && TEAM[L.def]) {
+      var dt = TEAM[L.def], dg = GAME_OF[L.def], dfin = FINAL[dg.id];
+      d = '<div class="slot on"><span class="k">Team D</span><span class="who">' + esc(teamName(dt)) + '</span>' + (dfin ? '<span class="fp">' + fmt1(+dres[L.def] || 0) + '</span>' : locked(dg) ? '<span class="k lk">Locked</span>' : '<button type="button" data-dropd="1">Drop</button>') + '</div>';
+    }
+    $("d5-slots").innerHTML = slots.join("") + d;
+
+    var eds = [];
+    G.forEach(function (g) { [g.away.edition, g.home.edition].forEach(function (e) { if (e && eds.indexOf(e) < 0) eds.push(e); }); });
+    if (tab !== "all" && eds.indexOf(tab) < 0) tab = "all";
+    $("d5-tabs").innerHTML = ["all"].concat(eds).map(function (e) { return '<button type="button" aria-pressed="' + (e === tab) + '" data-t="' + esc(e) + '">' + (e === "all" ? "All games" : esc(edLabel(e))) + '</button>'; }).join("");
+
+    var full = L.players.every(function (x) { return x != null; }), rows = "", gone = 0;
+    G.forEach(function (g) {
+      if (tab !== "all" && g.home.edition !== tab && g.away.edition !== tab) return;
+      if (locked(g)) { gone++; return; }
+      rows += '<tr class="gh"><td colspan="6">' + esc(g.away.abbr) + ' at ' + esc(g.home.abbr) + ' <span>· ' + tipLabel(g.tip) + ' ET</span></td></tr>';
+      [g.away, g.home].forEach(function (t) {
+        if (defs.indexOf(String(t.id)) < 0 || (tab !== "all" && t.edition !== tab)) return;
+        var on = String(L.def) === String(t.id);
+        rows += '<tr><td><span class="nm">' + esc(teamName(t)) + ' defense</span><span class="tm">Team D</span></td><td></td><td class="xs"></td><td class="xs"></td><td></td><td class="num"><button type="button" class="' + (on ? "" : "ghost") + '" data-d="' + esc(t.id) + '" aria-pressed="' + on + '">' + (on ? "Picked" : "Pick") + '</button></td></tr>';
+      });
+      players.filter(function (p) { var t = TEAM[p.team_id]; return GAME_OF[p.team_id] === g && (tab === "all" || (t && t.edition === tab)); })
+        .map(function (p) { return { p: p, pj: proj(p) }; }).sort(function (a, b) { return b.pj - a.pj; })
+        .forEach(function (x) {
+          var p = x.p, a = p.avg || {}, inl = L.players.map(String).indexOf(String(p.id)) >= 0, t = TEAM[p.team_id] || {};
+          rows += '<tr><td><span class="nm">' + esc(p.name) + '</span><span class="tm">' + esc(t.abbr) + (p.pos ? " · " + esc(p.pos) : "") + '</span></td><td class="num">' + fmt1(+a.pts || 0) + '</td><td class="num xs">' + fmt1(+a.reb || 0) + '</td><td class="num xs">' + fmt1(+a.ast || 0) + '</td><td class="num pj">' + fmt1(x.pj) + '</td><td class="num">' +
+            (inl ? '<button type="button" data-k="' + esc(p.id) + '" aria-pressed="true">In</button>' : '<button type="button" class="ghost" data-k="' + esc(p.id) + '" aria-pressed="false"' + (full ? " disabled" : "") + '>Add</button>') + '</td></tr>';
+        });
+    });
+    if (!rows) rows = '<tr class="empty"><td colspan="6">' + (gone ? "Every game here has tipped. Your lineup is set." : "No players on the board.") + '</td></tr>';
+    else if (gone) rows += '<tr class="empty"><td colspan="6">' + gone + ' game' + (gone === 1 ? " has" : "s have") + ' tipped and left the pool.</td></tr>';
+    $("d5-pool").innerHTML = rows;
+    var shut = G.every(locked); $("d5-tabs").hidden = shut; $("d5-pool").closest(".pool").hidden = shut;  // nothing left to add
+
+    var n = L.players.filter(function (x) { return x != null; }).length + (L.def != null ? 1 : 0);
+    var scored = 0, pend = 0, tot = 0;
+    L.players.forEach(function (id) { var p = id != null && PLAYER[id]; if (!p) return; var g = GAME_OF[p.team_id]; if (g && FINAL[g.id]) { scored++; tot += +res[id] || 0; } else pend++; });
+    if (L.def != null && GAME_OF[L.def]) { if (FINAL[GAME_OF[L.def].id]) { scored++; tot += +dres[L.def] || 0; } else pend++; }
+    if (scored) { $("d5-tot").textContent = fmt1(tot); $("d5-sub").textContent = pend ? scored + " of " + n + " scored, " + pend + " waiting on finals" : "Final"; }
+    else { $("d5-tot").textContent = n + " / 6"; $("d5-sub").textContent = n === 6 ? "Set. Scores post after finals." : "Picked"; }
+  }
+  function d5Click(e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var L = PICKS.d5;
+    if (b.dataset.t) { tab = b.dataset.t; drawD5(); return; }
+    if (b.dataset.drop) { var p = PLAYER[L.players[+b.dataset.drop]]; if (p && GAME_OF[p.team_id] && locked(GAME_OF[p.team_id])) return; L.players[+b.dataset.drop] = null; }
+    else if (b.dataset.dropd) { if (GAME_OF[L.def] && locked(GAME_OF[L.def])) return; L.def = null; }
+    else if (b.dataset.k) {
+      var k = b.dataset.k, q = PLAYER[k]; if (!q || locked(GAME_OF[q.team_id])) return;
+      var i = L.players.map(String).indexOf(String(k));
+      if (i >= 0) L.players[i] = null; else { var j = L.players.indexOf(null); if (j < 0) return; L.players[j] = q.id; }
+    } else if (b.dataset.d) {
+      var tid = b.dataset.d, t = TEAM[tid]; if (!t || locked(GAME_OF[tid])) return;
+      if (L.def != null && GAME_OF[L.def] && locked(GAME_OF[L.def])) return;
+      L.def = String(L.def) === String(tid) ? null : t.id;
+    } else return;
+    persist(); drawD5();
+  }
+
+  /* ---- Pick 4 and Brick by Brick share one game list ---- */
+  function winChance(g, side) { return side === "home" ? g.win_home : 1 - g.win_home; }
+  function pickedSide(g, tid) { return tid == null ? null : String(g.home.id) === String(tid) ? "home" : String(g.away.id) === String(tid) ? "away" : null; }
+  var CX = null;  // tonight's anchors and ticket links (den/connect-<date>.json), when the build wrote one
+  function hostLine(g, picked) {
+    // Quiet by default: the anchor's call shows once you pick that game (the ticket link shows either way).
+    var c = CX && CX.cards && CX.cards[g.id]; if (!c) return "";
+    var h = c.host, t = c.tickets, out = "";
+    if (h && c.line && picked) out += '<p class="dc dc-hostline"><b>' + esc(h.name) + '</b> <small>' + esc(h.school) + ' · <i>' + esc(h.tag) + '</i></small> “' + esc(c.line) + '”</p>';
+    if (t && !locked(g)) out += '<a class="dc dc-tix" href="' + esc(t.href) + '" target="_blank" rel="sponsored noopener"><span>Tickets' + (t.low ? " from $" + esc(t.low) : "") + '</span><span class="dc-ad">Ad</span></a>';
+    return out ? '<div class="dc-gm">' + out + '</div>' : "";
+  }
+  function gameRows(map, kind) {
+    // Games that tipped without a pick from you drop off the list: nothing left to do there.
+    var priced = G.filter(function (g) { return g.win_home != null; });
+    var shown = priced.filter(function (g) { return !locked(g) || map[g.id] != null; }), gone = priced.length - shown.length;
+    var note = gone ? '<p class="fine">' + gone + ' game' + (gone === 1 ? " has" : "s have") + ' tipped without a pick from you.</p>' : "";
+    return shown.map(function (g) {
+      var lk = locked(g), fin = FINAL[g.id], side = pickedSide(g, map[g.id]);
+      function btn(s) {
+        var t = g[s], on = side === s, cls = "";
+        if (on && fin) cls = String(fin.winner_id) === String(t.id) ? "won" : "lost";
+        var val = kind === "p4" ? (g.worth && g.worth[s] != null ? g.worth[s] : Math.round(100 * (1 - winChance(g, s)))) : Math.round(100 * winChance(g, s)) + "%";
+        var sc = fin ? '<span class="sc">' + esc(s === "home" ? fin.home_pts : fin.away_pts) + '</span>' : "";
+        return '<button type="button" class="side ' + cls + '" aria-pressed="' + on + '" data-g="' + esc(g.id) + '" data-s="' + s + '"' + (lk ? " disabled" : "") + '><span>' + (s === "home" ? "at " : "") + esc(teamName(t)) + sc + '</span><b>' + val + '</b></button>';
+      }
+      var tl = fin ? "Final" : lk ? "Locked" : tipLabel(g.tip) + " ET";
+      return '<div class="gm"><div class="tipl"><span>' + tl + '</span><span>' + edSq(g.away.edition || g.home.edition) + '</span></div>' + btn("away") + btn("home") + (kind === "p4" ? hostLine(g, !!side) : "") + '</div>';
+    }).join("") + note || '<p class="msg">No games with a win chance tonight.</p>';
+  }
+  function togglePick(map, b) {
+    var g = G.filter(function (x) { return String(x.id) === b.dataset.g; })[0]; if (!g || locked(g)) return false;
+    var tid = g[b.dataset.s].id, cur = map[g.id];
+    if (cur != null && String(cur) === String(tid)) delete map[g.id];
+    else if (cur != null || Object.keys(map).length < 4) map[g.id] = tid;
+    else return false;
+    return true;
+  }
+  function drawP4() {
+    var m = PICKS.p4;
+    $("p4-games").innerHTML = gameRows(m, "p4");
+    var ids = Object.keys(m), max = 0, done = 0, list = [];
+    ids.forEach(function (gid) {
+      var g = G.filter(function (x) { return String(x.id) === gid; })[0]; if (!g) return;
+      var s = pickedSide(g, m[gid]); if (!s) return;
+      var worth = g.worth && g.worth[s] != null ? g.worth[s] : Math.round(100 * (1 - winChance(g, s)));
+      max += worth;
+      list.push({ game: g.id, side: s });
+      if (FINAL[g.id]) done++;
+    });
+    var tot = done ? score("pick4Score", list, R) : 0;
+    $("p4-n").textContent = ids.length; $("p4-max").textContent = max;
+    if (done) { $("p4-tot").textContent = tot; $("p4-sub").textContent = done < ids.length ? done + " of " + ids.length + " final" : "Final"; }
+    if (done && done === ids.length && nightDone() && window.denBeatDesk) window.denBeatDesk(tot);
+    else { $("p4-tot").textContent = "–"; $("p4-sub").textContent = ids.length === 4 ? "Scores post after finals" : ""; }
+  }
+
+  /* ---- Bricksanity ---- */
+  function drawBK() {
+    var picks = PICKS.bk.map(String), shoot = R && R.shooting || {}, done = nightDone();
+    $("bk-e").textContent = ELIG.length; $("bk-n").textContent = picks.length;
+    $("bk-grid").innerHTML = ELIG.map(function (t) {
+      var on = picks.indexOf(String(t.id)) >= 0, g = GAME_OF[t.id], lk = locked(g), fin = FINAL[g.id];
+      var worst = done && R && String(R.worst_shooter) === String(t.id);
+      var sub = fin && shoot[t.id] != null ? (100 * shoot[t.id]).toFixed(1) + "%" : lk ? "Locked" : tipLabel(g.tip);
+      return '<button type="button" aria-pressed="' + on + '" data-t="' + esc(t.id) + '" class="' + (worst ? "worst" : "") + '"' + (lk ? " disabled" : "") + '><small>' + edSq(t.edition) + esc(edLabel(t.edition)) + ' · ' + sub + '</small>' + esc(teamName(t)) + '</button>';
+    }).join("");
+    if (done && R && R.worst_shooter != null) {
+      var ranked = ELIG.filter(function (t) { return shoot[t.id] != null; }).sort(function (a, b) { return shoot[a.id] - shoot[b.id]; }).slice(0, 5);
+      $("bk-ladder").hidden = false;
+      $("bk-ladder").innerHTML = ranked.map(function (t, i) { return '<li class="' + (picks.indexOf(String(t.id)) >= 0 ? "mine" : "") + '"><span class="r">' + (i + 1) + '</span><span>' + esc(teamName(t)) + '</span><span>' + (100 * shoot[t.id]).toFixed(1) + '%</span></li>'; }).join("");
+      var w = TEAM[R.worst_shooter], hit = picks.length && score("bricksanityHit", PICKS.bk.slice(), R);
+      $("bk-msg").textContent = !picks.length ? (w ? teamName(w) + " took the bricks tonight." : "") : hit ? "Bricked it. " + (w ? teamName(w) : "Your team") + " was the night's worst." : (w ? teamName(w) + " took the bricks tonight." : "Not tonight.");
+      $("bk-tot").textContent = picks.length ? (hit ? "Hit" : "Miss") : "–"; $("bk-sub").textContent = "Final";
+    } else {
+      $("bk-ladder").hidden = true; $("bk-msg").textContent = "";
+      var left = G.filter(function (g) { return !FINAL[g.id]; }).length;
+      $("bk-tot").textContent = "–"; $("bk-sub").textContent = picks.length === 2 ? (R && left ? "Waiting on " + left + " final" + (left === 1 ? "" : "s") : "Settles after the last final") : "";
+    }
+  }
+
+  /* ---- Brick by Brick: the wall is every saved day, oldest first ---- */
+  function dayStatus(picks, results, slate) {
+    var ids = Object.keys(picks || {});
+    if (ids.length < 4) return "skip";
+    var fin = {}; (results && results.games || []).forEach(function (r) { if (r.final) fin[r.id] = r; });
+    var all = true, ok = true;
+    ids.forEach(function (gid) { var r = fin[gid]; if (!r) { all = false; return; } if (String(r.winner_id) !== String(picks[gid])) ok = false; });
+    if (!ok) return "miss";  // one miss is enough, even before the other finals
+    return all ? "hit" : "pending";
+  }
+  var HIST = {};  // date -> status for days before this one
+  function drawBB() {
+    var m = PICKS.bb, ids = Object.keys(m);
+    $("bb-games").innerHTML = gameRows(m, "bb");
+    $("bb-n").textContent = ids.length;
+    $("bb-day").textContent = DATE === TODAY ? "Tonight" : dayLabel(DATE, { weekday: "long", month: "short", day: "numeric" });
+    var ch = 1, all4 = ids.length === 4;
+    ids.forEach(function (gid) { var g = G.filter(function (x) { return String(x.id) === gid; })[0]; var s = g && pickedSide(g, m[gid]); if (s) ch *= winChance(g, s); else all4 = false; });
+    $("bb-chance").innerHTML = "Chance all four hit <b>" + (all4 ? Math.round(100 * ch) + "%" : "–") + "</b>";
+    $("bb-copy").disabled = !Object.keys(PICKS.p4).length || G.every(locked); $("bb-copy").parentNode.hidden = G.every(locked);
+    $("bb-clear").disabled = !ids.some(function (gid) { var g = G.filter(function (x) { return String(x.id) === gid; })[0]; return g && !locked(g); });
+
+    var today = dayStatus(m, R, S), past = Object.keys(HIST).filter(function (d) { return d < DATE; }).sort();
+    var days = past.map(function (d) { return HIST[d]; }).filter(function (d) { return d !== "pending"; });  // oldest first
+    if (today === "hit" || today === "miss") days.push(today);
+    var w = score("brickWall", days); var wall = typeof w === "number" ? w : +w.wall || 0, best = typeof w === "number" ? w : Math.max(+w.best || 0, wall);
+    $("bb-wall").textContent = wall; $("bb-best").textContent = best;
+    var rows = ""; for (var r = 0; r < Math.ceil(wall / 5); r++) { var n = Math.min(5, wall - r * 5), cells = ""; for (var i = 0; i < n; i++) cells += '<span class="brk">' + (r * 5 + i + 1) + '</span>'; rows += '<div class="row">' + cells + '</div>'; }
+    $("bb-bricks").innerHTML = rows || '<span class="none">No bricks yet.<br>Lay the first one tonight.</span>';
+    var strip = past.slice(-6).map(function (d) { return { d: d, s: HIST[d] }; }).concat([{ d: DATE, s: today === "skip" ? "" : today, now: true }]);
+    $("bb-days").innerHTML = strip.map(function (x) { return '<span class="' + (x.now ? "now " : "") + (x.s || "") + '" title="' + esc(dayLabel(x.d) + (x.s ? ": " + x.s : "")) + '">' + esc(dayLabel(x.d, { weekday: "short" })) + '</span>'; }).join("");
+    $("bb-msg").textContent = today === "hit" ? "Four for four. Brick laid." : today === "miss" ? "A miss tonight. The wall comes down." : ids.length === 4 ? "Four in. Each locks at its tip." : ids.length ? "Pick " + (4 - ids.length) + " more, or sit tonight out and the wall stands." : "";
+  }
+  function loadHistory() {
+    var dates = savedDates().filter(function (d) { return d < DATE; }).slice(-60);
+    return Promise.all(dates.map(function (d) {
+      var p = load(d).bb; if (!p || Object.keys(p).length < 4) { HIST[d] = "skip"; return null; }
+      return getJSON("den/results-" + d + ".json").then(function (r) { HIST[d] = dayStatus(p, r); });
+    }));
+  }
+
+  /* ---- Wiring ---- */
+  function redraw() { drawStrip(); drawD5(); drawP4(); drawBK(); drawBB(); }
+  function wire() {
+    $("d5-slots").addEventListener("click", d5Click); $("d5-pool").addEventListener("click", d5Click); $("d5-tabs").addEventListener("click", d5Click);
+    $("p4-games").addEventListener("click", function (e) { var b = e.target.closest("button.side"); if (b && togglePick(PICKS.p4, b)) { persist(); drawP4(); drawBB(); } });
+    $("bb-games").addEventListener("click", function (e) { var b = e.target.closest("button.side"); if (b && togglePick(PICKS.bb, b)) { persist(); drawBB(); } });
+    $("bk-grid").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return; var id = b.dataset.t, g = GAME_OF[id]; if (!g || locked(g)) return;
+      var i = PICKS.bk.map(String).indexOf(String(id));
+      if (i >= 0) PICKS.bk.splice(i, 1); else if (PICKS.bk.length < 2) PICKS.bk.push(TEAM[id].id); else return;
+      persist(); drawBK();
+    });
+    $("bb-copy").addEventListener("click", function () {
+      var m = PICKS.bb;
+      Object.keys(m).forEach(function (gid) { var g = G.filter(function (x) { return String(x.id) === gid; })[0]; if (g && !locked(g)) delete m[gid]; });
+      Object.keys(PICKS.p4).forEach(function (gid) { var g = G.filter(function (x) { return String(x.id) === gid; })[0]; if (g && !locked(g) && m[gid] == null && Object.keys(m).length < 4) m[gid] = PICKS.p4[gid]; });
+      persist(); drawBB();
+    });
+    $("bb-clear").addEventListener("click", function () {
+      var m = PICKS.bb; Object.keys(m).forEach(function (gid) { var g = G.filter(function (x) { return String(x.id) === gid; })[0]; if (g && !locked(g)) delete m[gid]; });
+      persist(); drawBB();
+    });
+  }
+
+  function navDays(dates) {
+    var before = dates.filter(function (d) { return d < DATE; }), after = dates.filter(function (d) { return d > DATE && d <= TODAY; });
+    var short = { weekday: "short", month: "short", day: "numeric" };
+    if (before.length) { var p = before[before.length - 1]; $("dn-prev").href = "den.html?d=" + p; $("dn-prev").textContent = "‹ " + dayLabel(p, short); $("dn-prev").removeAttribute("aria-disabled"); }
+    if (DATE !== TODAY) { var n = after.length ? after[0] : TODAY; $("dn-next").href = n === TODAY ? "den.html" : "den.html?d=" + n; $("dn-next").textContent = (n === TODAY ? "Tonight" : dayLabel(n, short)) + " ›"; $("dn-next").removeAttribute("aria-disabled"); }
+    return before.length ? before[before.length - 1] : null;
+  }
+
+  function empty(prev, dates, noIndex) {
+    $("dn-tag").textContent = "A quiet night in the Den";
+    $("dn-empty").hidden = false;
+    if (noIndex) { $("dn-empty-h").textContent = "The Den opens with the first slate"; $("dn-empty-p").textContent = "Games appear here the morning of each game day. Check back then."; return; }
+    var later = dates.filter(function (d) { return d > DATE; });
+    if (DATE !== TODAY) $("dn-empty-h").textContent = "No games on " + dayLabel(DATE, { weekday: "long", month: "long", day: "numeric" });
+    $("dn-empty-p").textContent = "None of our 67 teams play " + (DATE === TODAY ? "today" : "that day") + ", so the Den is resting. Your Brick by Brick wall stands as it is." + (later.length && DATE === TODAY ? " The next slate goes up " + dayLabel(later[0]) + "." : "");
+    if (prev) { var a = $("dn-empty-a"); a.hidden = false; a.href = "den.html?d=" + prev; a.textContent = "See how " + dayLabel(prev, { weekday: "long" }) + " went →"; }
+  }
+
+  function start() {
+  if (start.ran) return; start.ran = true;
+  $("dn-day").textContent = DATE === TODAY ? "Tonight · " + dayLabel(DATE) : dayLabel(DATE, { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+  getJSON("den/index.json").then(function (ix) {
+    var dates = indexDates(ix), prev = navDays(dates);
+    return Promise.all([getJSON("den/slate-" + DATE + ".json"), getJSON("den/results-" + DATE + ".json"), getJSON("den/connect-" + DATE + ".json")]).then(function (x) {
+      var slate = x[0];
+      if (!slate || !(slate.games || []).length) { empty(prev, dates, !ix); return; }
+      document.querySelectorAll(".dc-today").forEach(function (el) { if (el.dataset.date !== DATE) el.hidden = true; });
+      CX = x[2] || null;
+      setup(slate, x[1]); wire();
+      $("dn-board").hidden = false; redraw();
+      loadHistory().then(drawBB);
+    });
+  });
+  }
+  window.denStart = start;
+  if (window.denNoModule || window.Den) start();  // old browsers: run on the stand-ins
+  else setTimeout(start, 4000);  // the module never answered: play on the stand-ins
+})();
+{% endraw %}
+</script>
+</body>
+</html>

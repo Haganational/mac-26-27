@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>At-Large Watch · Hardwood Bricks</title>
+<meta name="description" content="Which teams in the {{ names }} have a real shot at an at-large NCAA bid: our ratings plus each conference's recent at-large history, with the formula shown.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}at-large.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="At-Large Watch: who in the mid-majors could get in without the auto bid">
+<meta property="og:url" content="{{ base }}at-large.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .al { max-width: 1000px; }
+  .al h1 { font: 600 clamp(36px, 5.4vw, 60px)/1.02 var(--serif); letter-spacing: -.025em; margin: 22px 0 10px; }
+  .al .dek { font: 400 20px/1.5 var(--serif); color: var(--ink-2); max-width: 62ch; margin: 0 0 8px; }
+  .al .meta { font: 600 13px/1.4 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  .al section { border-top: 3px solid var(--rule-2); padding-top: 12px; margin: 38px 0 0; }
+  .al h2 { font: 600 28px/1.1 var(--serif); letter-spacing: -.01em; margin: 0 0 6px; }
+  .al section > p { font: 400 17px/1.55 var(--serif); color: var(--ink-2); max-width: 66ch; }
+
+  /* The formula, set like a box score line */
+  .formula { margin: 18px 0 6px; padding: 16px 18px; background: var(--hick); color: #f3e9d6; display: grid; gap: 10px; }
+  .formula .eq { font: 600 clamp(22px, 3.4vw, 32px)/1.15 var(--serif); letter-spacing: -.01em; }
+  .formula .eq b { color: var(--gold); font-weight: 600; }
+  .formula dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; margin: 0; font-size: 15px; color: #e6d9c2; }
+  .formula dt { font: 700 16px/1.4 var(--serif); color: var(--gold); }
+  .formula dd { margin: 0; }
+
+  /* Zone tally */
+  .tally { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 14px 0 0; font: 600 14px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+  .tally span::before, .zone::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 7px; vertical-align: 0; background: var(--z); }
+  .z-in { --z: #2f6b3a; } .z-bubble { --z: #c58a1b; } .z-fringe { --z: #a8441c; } .z-auto { --z: #8a8078; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .z-in { --z: #6cb478; } :root:not([data-theme="light"]) .z-bubble { --z: #e3b04f; } :root:not([data-theme="light"]) .z-fringe { --z: #e3784a; } }
+  :root[data-theme="dark"] .z-in { --z: #6cb478; } :root[data-theme="dark"] .z-bubble { --z: #e3b04f; } :root[data-theme="dark"] .z-fringe { --z: #e3784a; }
+
+  /* The ranking */
+  .tbl { width: 100%; border-collapse: collapse; margin-top: 14px; font-variant-numeric: tabular-nums; }
+  .tbl th { font: 600 12.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: right; padding: 0 8px 8px; border-bottom: 2px solid var(--rule-2); white-space: nowrap; }
+  .tbl td { padding: 9px 8px; border-bottom: 1px solid var(--rule); text-align: right; white-space: nowrap; }
+  .tbl th.l, .tbl td.l { text-align: left; }
+  .tbl td.rk { font: 600 22px/1 var(--serif); width: 1%; }
+  .tbl td.tm { white-space: normal; }
+  .tbl td.tm a { font: 600 18px/1.2 var(--serif); }
+  .tbl td.tm a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .tbl td.tm .chip { display: inline-block; width: 10px; height: 10px; margin-right: 8px; background: var(--c); box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
+  .tbl td.tm small { display: block; font: 600 12px/1.3 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 2px 0 0 18px; }
+  .tbl td.w { font: 700 18px/1 var(--serif); }
+  .tbl td .bst { color: #2f6b3a; } @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tbl td .bst { color: #6cb478; } } :root[data-theme="dark"] .tbl td .bst { color: #6cb478; }
+  .zone { font: 600 13px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+  .tbl tr.cut td { border-bottom: 2px dashed var(--rule-2); }
+  .tbl tr.more { display: none; } .tbl.open tr.more { display: table-row; }
+  .showall { margin: 12px 0 0; font: 600 13px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); background: none; border: 1px solid var(--rule-2); padding: 10px 14px; cursor: pointer; }
+  @media (max-width: 640px) {
+    .tbl .hide-sm { display: none; }
+    .tbl td, .tbl th { padding-left: 5px; padding-right: 5px; }
+    .tbl td.tm a { font-size: 16px; }
+    .zone { font-size: 0; } .zone::before { margin-right: 0; width: 11px; height: 11px; }
+    .tbl td.rk { font-size: 18px; }
+  }
+
+  /* Bid history: one row per conference, one brick per tournament */
+  .hist { display: grid; gap: 18px; margin-top: 16px; }
+  .hrow { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 6px 16px; align-items: start; }
+  @media (max-width: 640px) { .hrow { grid-template-columns: 1fr; } }
+  .hrow h3 { margin: 0; font: 600 21px/1.1 var(--serif); }
+  .hrow .sum { font: 600 12.5px/1.35 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+  .yrs { display: grid; grid-template-columns: repeat({{ years|length }}, minmax(0, 1fr)); gap: 3px; }
+  .yr { display: flex; flex-direction: column-reverse; gap: 2px; min-height: 64px; position: relative; }
+  .yr .b { height: 10px; background: #a8452c; }
+  .yr .b.a { background: #cdb99a; }
+  .yr .y { font: 600 10.5px/1 var(--cond); color: var(--muted); text-align: center; margin-top: 3px; letter-spacing: .02em; }
+  .yrs .yr[title]:hover .b:not(.a) { background: #7f2d1d; }
+  .key { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 600 12.5px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
+  .key i { display: inline-block; width: 18px; height: 10px; margin-right: 6px; vertical-align: -1px; background: #a8452c; } .key i.a { background: #cdb99a; }
+  .hrow .names { grid-column: 2; font: 400 14.5px/1.45 var(--serif); color: var(--ink-2); }
+  @media (max-width: 640px) { .hrow .names { grid-column: 1; } .yr .y { font-size: 9px; writing-mode: vertical-rl; transform: rotate(180deg); margin: 3px auto 0; } }
+
+  .wt { border-collapse: collapse; font-variant-numeric: tabular-nums; margin: 8px 0 0; }
+  .wt td, .wt th { padding: 4px 12px 4px 0; text-align: left; border-bottom: 1px solid var(--rule); font-size: 15px; }
+  .wt th { font: 600 12.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .al ul.notes { font: 400 16px/1.55 var(--serif); color: var(--ink-2); padding-left: 20px; max-width: 66ch; }
+  .al ul.notes li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Hardwood Bricks</a>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="at-large.html" aria-current="page">At-Large</a><a href="den.html">The Den</a><a href="masthead.html">About</a></nav>
+</div></header>
+<div class="bricks" aria-hidden="true"></div>
+<main class="al">
+  <div class="dateline"><span>Ratings as of {{ as_of }}</span><span class="tag">The at-large picture, from the mid-major side</span><span>{{ season }}</span></div>
+  <h1>At-Large Watch</h1>
+  <p class="dek">Most of our leagues send one team to the NCAA tournament: whoever wins the conference tournament. This is the short list of teams good enough to be in the conversation if they don't, ranked by how strong they are and how kindly the committee has treated their league lately.</p>
+  {% if not net_on %}<p class="meta">The NCAA's NET isn't out yet (it starts in early December). Until then the ranking uses our ratings alone.</p>
+  {% else %}<p class="meta">NET through {{ net_through }} averaged with our ratings.</p>{% endif %}
+
+  <div class="formula" role="group" aria-label="The formula">
+    <div class="eq">Watch rank = <b>S</b> − {{ boost|int }} × <b>C</b></div>
+    <dl>
+      <dt>S</dt><dd>Team strength rank among all {{ n_teams }} D-I teams: our rating rank{% if net_on %}, averaged with the NET rank{% else %} (averaged with the NET once it's published){% endif %}.</dd>
+      <dt>C</dt><dd>The conference's at-large bids per tournament since {{ first_year }}, recent seasons counting more (a season's weight halves every {{ half_life|int }} years).</dd>
+    </dl>
+  </div>
+  <div class="tally">{% for z, label in zones %}<span class="z-{{ z }}">{{ label }}: {{ zone_counts[z] }}</span>{% endfor %}</div>
+
+  <section id="ranking" aria-labelledby="h-ranking">
+    <h2 id="h-ranking">The ranking</h2>
+    <p>Watch rank {{ in_line }} or better is <b>in the picture</b>, {{ in_line + 1 }} to {{ bubble }} is the <b>bubble</b>, {{ bubble + 1 }} to {{ fringe }} is the <b>fringe</b>. Past {{ fringe }}, the auto bid is the only realistic way in.</p>
+    <table class="tbl" id="tbl">
+      <thead><tr><th>#</th><th class="l">Team</th><th class="hide-sm">Our rank</th><th class="hide-sm">NET</th><th class="hide-sm">Strength S</th><th>Boost</th><th>Watch</th><th class="l">Zone</th></tr></thead>
+      <tbody>
+      {% for r in rows %}
+        <tr class="{% if loop.index > 25 %}more{% endif %}{% if r.zone != 'auto' and (loop.last or rows[loop.index].zone == 'auto') %} cut{% endif %}">
+          <td class="rk l">{{ r.rank }}</td>
+          <td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td>
+          <td class="hide-sm">{{ r.ours }}</td>
+          <td class="hide-sm">{{ r.net or "–" }}</td>
+          <td class="hide-sm">{{ r.strength|round(0)|int if r.strength == r.strength|round(0) else r.strength }}</td>
+          <td>{% if r.boost >= 0.5 %}<span class="bst">−{{ r.boost }}</span>{% elif r.boost > 0 %}−{{ r.boost }}{% else %}0{% endif %}</td>
+          <td class="w">{{ r.watch }}</td>
+          <td class="l"><span class="zone z-{{ r.zone }}">{% for z, label in zones %}{% if z == r.zone %}{{ label }}{% endif %}{% endfor %}</span></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% if rows|length > 25 %}<button class="showall" type="button" onclick="document.getElementById('tbl').classList.add('open');this.remove()">Show all {{ rows|length }} teams</button>{% endif %}
+  </section>
+
+  <section id="history" aria-labelledby="h-history">
+    <h2 id="h-history">Who gets at-large bids: {{ first_year }} to {{ last_year }}</h2>
+    <p>Every NCAA tournament since {{ first_year }} ({{ years|length }} of them; 2020 was canceled). Each column is a year, each brick a bid. The dark brick is the automatic bid, the light ones are at-large picks, First Four included. Leagues are shown as they were that year: the Metro was the MAAC until July 2026.</p>
+    <div class="hist">
+    {% for c in history %}
+      <div class="hrow">
+        <div><h3>{{ c.short }}</h3><div class="sum">{{ c.total }} at-large bid{{ "" if c.total == 1 else "s" }} · {{ c.multi }} multi-bid year{{ "" if c.multi == 1 else "s" }}<br>C = {{ "%.2f"|format(c.weight) }} · boost {{ c.boost }}</div></div>
+        <div class="yrs" role="img" aria-label="{{ c.short }}: {{ c.total }} at-large bids in {{ years|length }} tournaments">
+          {% for s in c.seasons %}<div class="yr" title="{{ s.year }}: {{ s.auto }}{% if s.at_large %} (auto); at-large {{ s.at_large|join(', ') }}{% endif %}"><span class="y">{{ "’%02d"|format(s.year % 100) }}</span><span class="b"></span>{% for t in s.at_large %}<span class="b a"></span>{% endfor %}</div>{% endfor %}
+        </div>
+        <div class="names">{% if c.total %}{% for s in c.seasons if s.at_large %}<b>{{ s.year }}</b> {{ s.at_large|join(", ") }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}No at-large bids since {{ first_year }}.{% endif %}</div>
+      </div>
+    {% endfor %}
+    </div>
+    <div class="key"><span><i></i>Automatic bid</span><span><i class="a"></i>At-large bid</span></div>
+  </section>
+
+  <section id="method" aria-labelledby="h-method">
+    <h2 id="h-method">How it works</h2>
+    <p>The ranking is meant to be read at a glance and checked by hand. A team's watch rank is its strength rank, moved up by its league's recent at-large record.</p>
+    <table class="wt"><thead><tr><th>Tournament</th><th>Weight</th></tr></thead><tbody>
+      {% for w in weights_table %}<tr><td>{{ w.year }}</td><td>{{ "%.2f"|format(w.w) }}</td></tr>{% endfor %}
+      <tr><td>…</td><td></td></tr>
+    </tbody></table>
+    <ul class="notes">
+      <li><b>Strength.</b> Our ratings solve offense, defense and pace for every D-I team from every box score, adjusted for opponent and venue (the same model as each edition's ratings page). The NCAA's NET joins in once it is published; we average the two ranks.</li>
+      <li><b>League boost.</b> A conference that has averaged one at-large bid a year lifts its teams {{ boost|int }} spots. Strong leagues give their teams more chances at the Quadrant 1 wins the committee looks for, and the boost is a simple stand-in for that.</li>
+      <li><b>A bigger field.</b> The 2027 tournament grows from 68 teams to 76, so there are about 44 at-large spots instead of 36. The zone lines sit a little lower than they would have last year for that reason.</li>
+      <li><b>Recency.</b> A tournament's weight halves every {{ half_life|int }} years, so the last few Marches count most.</li>
+      <li><b>Know the limits.</b> The Mountain West's at-large record was built largely by San Diego State, Utah State, Boise State, Colorado State and Fresno State, who left for the Pac-12 in July 2026. The boost goes by the league's own history, so the Mountain West's may run high this season. Early-season ratings also move a lot week to week.</li>
+    </ul>
+  </section>
+</main>
+<footer><a href="./">All conferences</a> · <a href="masthead.html">Masthead and standards</a> · Ratings from ESPN box scores{% if net_on %}, NET from NCAA.com{% endif %}. Built {{ built }} UTC.</footer>
+</body>
+</html>

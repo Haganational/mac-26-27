@@ -7,7 +7,7 @@ name: Collector heartbeat
 # of itself before the 6-hour job limit. Runner minutes are free on a public repo.
 # The cron below only restarts the loop if it ever stops; the newest heartbeat
 # cancels any older one, so only one runs at a time. It also starts the daily
-# MAC90 video at 13:00 UTC (8 a.m. Eastern).
+# MidMaxx60 video at 13:00 UTC (8 a.m. Eastern).
 
 on:
   workflow_dispatch:
@@ -49,9 +49,9 @@ jobs:
             fi
             echo "tick $(date -u +%H:%M)"
             gh workflow run collect.yml --ref main -f mode=tick || echo "dispatch failed, will try next tick"
-            # MAC90's own 8 a.m. ET cron is just as unreliable, so the heartbeat starts it too.
+            # MidMaxx60's own 8 a.m. ET cron is just as unreliable, so the heartbeat starts it too.
             if [ "$(date -u +%H:%M)" = "13:00" ]; then
-              gh workflow run mac90.yml --ref main || echo "MAC90 dispatch failed"
+              gh workflow run midmaxx60.yml --ref main || echo "MidMaxx60 dispatch failed"
             fi
           done
       - name: Hand off to a fresh heartbeat

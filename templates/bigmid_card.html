@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>{{ css|safe }}</style>
+<style>
+  /* The Big Mid: Athens Block night edition, laid out wide (1920x1080) for regular YouTube. */
+  :root { --page: #15110d; --ink: #efe6d6; --ink2: #cbbfad; --muted: #8f8474; --rule: #efe6d6; --grid: #3a3128; --brand: #2a1a10; --gold: #f0c75e;
+          --serif: "Newsreader", Georgia, "Liberation Serif", serif; --cond: "Barlow Condensed", "Liberation Sans Narrow", Arial, sans-serif; --sans: "Barlow", "Liberation Sans", Arial, sans-serif; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--page); color: var(--ink); font-family: var(--sans); font-feature-settings: "tnum" 1, "lnum" 1; }
+  .card { position: relative; width: 1920px; height: 1080px; display: flex; flex-direction: column; }
+  .top { position: relative; height: 150px; background: var(--brand); }
+  .top::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 18px; background: var(--bricks) 0 0 / 54px 18px; }
+  .brandrow { position: absolute; left: 80px; right: 80px; top: 26px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .plaque { color: #f6ecd8; font: 600 84px/1 var(--serif); letter-spacing: -.02em; }
+  .plaque b { color: var(--gold); font-weight: 600; }
+  .date { text-align: right; font: 600 34px/1.1 var(--cond); color: #f6ecd8; }
+  .date small { display: block; font: 600 20px/1.4 var(--cond); letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
+  .stripe { display: flex; height: 10px; } .stripe i { flex: 1; }
+  .body { flex: 1; padding: 50px 80px 170px; display: flex; flex-direction: column; gap: 26px; }
+  .label { font: 600 30px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--gold); border-top: 6px solid var(--rule); padding-top: 16px; }
+  .label span { color: var(--ink2); }
+  .hero { margin: auto 0; text-align: center; }
+  .hero .big { font: 600 190px/1 var(--serif); color: #f6ecd8; letter-spacing: -.03em; }
+  .hero .big b { color: var(--gold); font-weight: 600; }
+  .hero p { font: 400 italic 46px/1.3 var(--serif); color: var(--ink2); margin: 18px 0 0; }
+  .eds { display: flex; justify-content: center; gap: 18px; margin-top: 40px; flex-wrap: wrap; }
+  .eds b { font: 700 40px/1 var(--cond); letter-spacing: .04em; padding: 14px 22px 12px; border: 3px solid var(--grid); }
+  .edname { font: 600 150px/1 var(--serif); letter-spacing: -.02em; color: #f6ecd8; }
+  .edname small { display: block; font: 400 italic 40px/1.3 var(--serif); color: var(--ink2); margin-top: 10px; }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+  .rec b { display: block; font: 700 200px/1 var(--cond); }
+  .rec small { font: 600 30px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--ink2); }
+  .table { border-top: 2px solid var(--rule); }
+  .table div { display: flex; justify-content: space-between; align-items: center; font: 700 52px/1 var(--cond); padding: 22px 0 22px 22px; border-bottom: 1px solid var(--grid); border-left: 10px solid var(--tc, #555); }
+  .table span { color: var(--ink2); font: 600 40px/1 var(--cond); }
+  .row { display: grid; grid-template-columns: 120px 1fr auto; align-items: center; gap: 28px; padding: 16px 0 16px 24px; border-left: 12px solid var(--tc, #555); border-bottom: 1px solid var(--grid); }
+  .row.win { background: linear-gradient(90deg, color-mix(in srgb, var(--tc, #555) 22%, transparent), transparent 70%); }
+  .row.lose { opacity: .55; }
+  .logo { width: 120px; height: 120px; border-radius: 50%; background: #f6ecd8; display: grid; place-items: center; overflow: hidden; }
+  .logo img { width: 100px; height: 100px; object-fit: contain; }
+  .logo b { font: 700 34px/1 var(--cond); color: #1a1410; }
+  .nm { font: 600 64px/1.04 var(--serif); }
+  .sc { font: 700 120px/1 var(--cond); }
+  .chips { display: flex; flex-wrap: wrap; gap: 18px; }
+  .chip { padding: 12px 20px 10px; font: 600 34px/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; border: 3px solid var(--grid); }
+  .chip.good { border-color: #3fae8c; color: #8fe0c2; } .chip.gold { border-color: var(--gold); color: #f6dd9a; }
+  .player { display: grid; grid-template-columns: 220px 1fr; gap: 50px; align-items: center; margin-top: 20px; }
+  .player .logo { width: 220px; height: 220px; } .player .logo img { width: 180px; height: 180px; }
+  .pname { font: 600 110px/1 var(--serif); letter-spacing: -.02em; }
+  .pteam { font: 600 40px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); margin-top: 14px; }
+  .statline { display: flex; gap: 60px; margin-top: 30px; }
+  .statline div b { display: block; font: 700 130px/1 var(--cond); color: var(--gold); }
+  .statline div small { font: 600 28px/1 var(--cond); letter-spacing: .22em; color: var(--ink2); }
+  .matchup { display: grid; grid-template-columns: 1fr auto 1fr; gap: 40px; align-items: center; }
+  .matchup .vs { font: 600 italic 54px/1 var(--serif); color: var(--ink2); }
+  .lines { display: flex; gap: 60px; }
+  .stat { padding-top: 14px; border-top: 2px solid var(--rule); min-width: 260px; }
+  .stat small { display: block; font: 600 24px/1 var(--cond); letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .stat b { font: 700 58px/1 var(--cond); }
+  .stat.model { border-top-color: var(--gold); } .stat.model b { color: var(--gold); }
+  .watch { display: grid; grid-template-columns: 1fr 1fr; gap: 0 80px; border-top: 2px solid var(--rule); }
+  .watch div { display: flex; align-items: center; gap: 24px; font: 700 50px/1 var(--cond); padding: 20px 0 20px 20px; border-bottom: 1px solid var(--grid); border-left: 10px solid var(--tc, #555); }
+  .watch i { font-style: normal; color: var(--gold); width: 50px; }
+  .watch span { margin-left: auto; color: var(--ink2); font: 600 34px/1 var(--cond); letter-spacing: .08em; text-transform: uppercase; }
+  /* The anchor stands at the right edge; the board slides left to make room. */
+  .card.anchored .body { padding-right: 560px; }
+  .anchor { position: absolute; right: 30px; bottom: 0; width: 480px; height: 860px; }
+  .anchor img { position: absolute; left: 0; bottom: 0; width: 480px; height: 860px; object-fit: cover; object-position: top; }
+  .anchor .plate { position: absolute; left: 0; bottom: 40px; width: 480px; box-sizing: border-box; padding: 12px 20px 10px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
+  .anchor .plate b { display: block; font: 600 38px/1.05 var(--serif); color: #f6ecd8; }
+  .anchor .plate small { display: block; font: 600 20px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
+</style>
+</head>
+<body>
+{% macro logo(s) %}<div class="logo">{% if s.espn_id %}<img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ s.espn_id }}.png" alt="" onerror="this.outerHTML='<b>{{ s.abbr }}</b>'">{% else %}<b>{{ s.abbr }}</b>{% endif %}</div>{% endmacro %}
+{% set colors = seg.colors or seg.get('card', {}).get('colors') or ['#b8862b', '#2a1a10', '#f0c75e'] %}
+{% set an = seg.anchor if seg.anchor and seg.anchor.portrait else none %}
+<div class="card{{ ' anchored' if an }}">
+  <div class="top"><div class="brandrow"><span class="plaque">The <b>Big</b> Mid</span><span class="date"><small>Hardwood Bricks · {{ seg.name or 'Every edition' }}</small>{{ span }}</span></div></div>
+  <div class="stripe">{% for c in colors %}<i style="background:{{ c }}"></i>{% endfor %}</div>
+  <div class="body">
+  {% if seg.kind == 'intro' %}
+    <div class="hero"><div class="big">The <b>Big</b> Mid</div><p>The week in mid-major basketball · {{ seg.games }} games</p>
+      <div class="eds">{% for e in seg.editions %}<b>{{ e }}</b>{% endfor %}</div></div>
+  {% elif seg.kind == 'edition' %}
+    <div class="edname">{{ seg.name }}<small>{{ seg.full }}</small></div>
+    <div class="split">
+      <div class="rec"><b>{{ seg.w }}-{{ seg.l }}</b><small>League teams this week</small></div>
+      {% if seg.leaders %}<div><div class="label">{{ 'League standings' if seg.leaders|selectattr('cw')|list or seg.leaders|selectattr('cl')|list else 'Best records' }}</div>
+        <div class="table">{% for r in seg.leaders %}<div style="--tc:{{ r.color }}">{{ r.team }}<span>{% if r.cw or r.cl %}{{ r.cw }}-{{ r.cl }} conf · {% endif %}{{ r.w }}-{{ r.l }}</span></div>{% endfor %}</div></div>{% endif %}
+    </div>
+  {% elif seg.kind == 'result' %}
+    {% set c = seg.card %}
+    <div class="label">{{ seg.label }} <span>· {{ seg.name }}</span></div>
+    {% for s in [c.away, c.home] %}<div class="row {{ 'win' if s.winner else 'lose' }}" style="--tc:{{ s.color or '#666' }}">{{ logo(s) }}<div class="nm">{{ s.name }}</div><div class="sc">{{ s.score }}</div></div>{% endfor %}
+    <div class="chips">{% if c.top %}<span class="chip gold">{{ c.top.name }} · {{ c.top.pts }} pts</span>{% endif %}{% if c.ats %}<span class="chip good">{{ c.ats|replace('-point', '-pt')|trim('.') }}</span>{% endif %}</div>
+  {% elif seg.kind == 'star' %}
+    {% set c = seg.card %}
+    <div class="label">Player of the week <span>· {{ seg.name }}</span></div>
+    <div class="player" style="--tc:{{ c.color }}">{{ logo(c) }}<div><div class="pname">{{ c.name }}</div><div class="pteam">{{ c.team }} · vs {{ c.opp }}</div>
+      <div class="statline"><div><b>{{ c.pts }}</b><small>POINTS</small></div>{% if (c.reb or 0) >= 8 %}<div><b>{{ c.reb }}</b><small>REBOUNDS</small></div>{% endif %}{% if (c.ast or 0) >= 6 %}<div><b>{{ c.ast }}</b><small>ASSISTS</small></div>{% endif %}</div></div></div>
+  {% elif seg.kind == 'next' %}
+    {% set c = seg.card %}
+    <div class="label">Circle it <span>· {{ seg.name }} · {{ c.day }}</span></div>
+    <div class="matchup">
+      <div class="row" style="--tc:{{ c.away.color or '#666' }}">{{ logo(c.away) }}<div class="nm">{{ c.away.name }}</div><div></div></div>
+      <div class="vs">at</div>
+      <div class="row" style="--tc:{{ c.home.color or '#666' }}">{{ logo(c.home) }}<div class="nm">{{ c.home.name }}</div><div></div></div>
+    </div>
+    <div class="chips"><span class="chip">{{ c.day }} · {{ c.when }}</span>{% if c.on %}<span class="chip">{{ c.on }}</span>{% endif %}</div>
+    {% if c.spread is not none %}<div class="lines">
+      <div class="stat"><small>Market</small><b>{{ c.home.abbr if c.spread < 0 else c.away.abbr }} −{{ '%g'|format(c.spread|abs) }}</b></div>
+      {% if c.total %}<div class="stat"><small>Total</small><b>{{ '%g'|format(c.total) }}</b></div>{% endif %}
+      {% if c.model %}<div class="stat model"><small>Our model</small><b>{{ c.home.abbr if c.model < 0 else c.away.abbr }} −{{ '%.1f'|format(c.model|abs) }}</b></div>{% endif %}
+    </div>{% endif %}
+  {% elif seg.kind == 'atlarge' %}
+    <div class="label">The At-Large Watch <span>· who could get in without the auto bid</span></div>
+    <div class="watch">{% for r in seg.rows %}<div style="--tc:{{ r.color }}"><i>{{ r.rank }}</i>{{ r.short }}<span>{{ r.conf_short }} · {{ r.zone }}</span></div>{% endfor %}</div>
+  {% else %}
+    <div class="hero"><div class="big" style="font-size:150px">That's The <b>Big</b> Mid</div><p>MidMaxx60 every morning · every line, box score and rating</p>
+      <p style="color:var(--gold);font:700 64px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
+  {% endif %}
+  </div>
+  {% if an %}<div class="anchor" style="--tc:{{ colors[0] }}"><img src="{{ an.portrait }}" alt=""><div class="plate"><b>{{ an.name }}</b><small>{{ an.school }} desk · AI anchor</small></div></div>{% endif %}
+</div>
+</body>
+</html>

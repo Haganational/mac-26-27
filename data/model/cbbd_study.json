@@ -1,0 +1,1691 @@
+{
+ "generated_at": "2026-11-14T01:03:59+00:00",
+ "source": "Data provided by CollegeBasketballData.com",
+ "settings": {
+  "v1.0": {
+   "half_life": 90.0,
+   "cap": 45.0,
+   "cap_slope": 0.7,
+   "prior_games": 2.0,
+   "regress": 0.2,
+   "tempo_prior_games": 3.0,
+   "tempo_regress": 0.25,
+   "sigma_margin": 12.0,
+   "sigma_total": 17.0,
+   "min_weight": 0.05,
+   "non_d1_weight": 0.5,
+   "hca_prior_games": 3000.0,
+   "open_home_wk1": 0.0,
+   "open_home_wk2": 0.0
+  },
+  "v1.1": {
+   "half_life": 90.0,
+   "cap": 45.0,
+   "cap_slope": 0.7,
+   "prior_games": 2.0,
+   "regress": 0.1,
+   "tempo_prior_games": 3.0,
+   "tempo_regress": 0.25,
+   "sigma_margin": 12.0,
+   "sigma_total": 17.0,
+   "min_weight": 0.05,
+   "non_d1_weight": 0.5,
+   "hca_prior_games": 3000.0,
+   "open_home_wk1": 6.8,
+   "open_home_wk2": 1.5
+  }
+ },
+ "seasons": [
+  {
+   "season": 2014,
+   "v1.0": {
+    "all": {
+     "games": 5930,
+     "model_mae": 8.894,
+     "lined_close": 3906,
+     "model_mae_vs_close_games": 8.548,
+     "close_mae": 8.389,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.597,
+     "close_total_mae": 13.503
+    },
+    "first_14_days": {
+     "games": 787,
+     "model_mae": 10.017,
+     "lined_close": 344,
+     "model_mae_vs_close_games": 9.099,
+     "close_mae": 8.612,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.622,
+     "close_total_mae": 13.808
+    },
+    "rest_of_nov": {
+     "games": 847,
+     "model_mae": 9.395,
+     "lined_close": 486,
+     "model_mae_vs_close_games": 9.294,
+     "close_mae": 8.929,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.61,
+     "close_total_mae": 14.232
+    },
+    "dec": {
+     "games": 1067,
+     "model_mae": 9.21,
+     "lined_close": 604,
+     "model_mae_vs_close_games": 8.476,
+     "close_mae": 8.396,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.679,
+     "close_total_mae": 13.383
+    },
+    "jan_on": {
+     "games": 3229,
+     "model_mae": 8.385,
+     "lined_close": 2472,
+     "model_mae_vs_close_games": 8.343,
+     "close_mae": 8.25,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.398,
+     "close_total_mae": 13.367
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5930,
+     "model_mae": 8.915,
+     "lined_close": 3906,
+     "model_mae_vs_close_games": 8.584,
+     "close_mae": 8.389,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.604,
+     "close_total_mae": 13.503
+    },
+    "first_14_days": {
+     "games": 787,
+     "model_mae": 10.204,
+     "lined_close": 344,
+     "model_mae_vs_close_games": 9.551,
+     "close_mae": 8.612,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.679,
+     "close_total_mae": 13.808
+    },
+    "rest_of_nov": {
+     "games": 847,
+     "model_mae": 9.389,
+     "lined_close": 486,
+     "model_mae_vs_close_games": 9.285,
+     "close_mae": 8.929,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.619,
+     "close_total_mae": 14.232
+    },
+    "dec": {
+     "games": 1067,
+     "model_mae": 9.192,
+     "lined_close": 604,
+     "model_mae_vs_close_games": 8.454,
+     "close_mae": 8.396,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.686,
+     "close_total_mae": 13.383
+    },
+    "jan_on": {
+     "games": 3229,
+     "model_mae": 8.384,
+     "lined_close": 2472,
+     "model_mae_vs_close_games": 8.343,
+     "close_mae": 8.25,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.4,
+     "close_total_mae": 13.367
+    }
+   }
+  },
+  {
+   "season": 2015,
+   "v1.0": {
+    "all": {
+     "games": 5926,
+     "model_mae": 8.874,
+     "lined_close": 3994,
+     "model_mae_vs_close_games": 8.466,
+     "close_mae": 8.322,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.376,
+     "close_total_mae": 13.208
+    },
+    "first_14_days": {
+     "games": 929,
+     "model_mae": 10.303,
+     "lined_close": 498,
+     "model_mae_vs_close_games": 9.584,
+     "close_mae": 9.332,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 15.434,
+     "close_total_mae": 14.551
+    },
+    "rest_of_nov": {
+     "games": 747,
+     "model_mae": 9.454,
+     "lined_close": 421,
+     "model_mae_vs_close_games": 8.864,
+     "close_mae": 8.416,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.119,
+     "close_total_mae": 13.779
+    },
+    "dec": {
+     "games": 1323,
+     "model_mae": 9.128,
+     "lined_close": 792,
+     "model_mae_vs_close_games": 8.601,
+     "close_mae": 8.446,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.642,
+     "close_total_mae": 13.566
+    },
+    "jan_on": {
+     "games": 2927,
+     "model_mae": 8.157,
+     "lined_close": 2283,
+     "model_mae_vs_close_games": 8.102,
+     "close_mae": 8.041,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.049,
+     "close_total_mae": 12.934
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5926,
+     "model_mae": 8.906,
+     "lined_close": 3994,
+     "model_mae_vs_close_games": 8.49,
+     "close_mae": 8.322,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.382,
+     "close_total_mae": 13.208
+    },
+    "first_14_days": {
+     "games": 929,
+     "model_mae": 10.512,
+     "lined_close": 498,
+     "model_mae_vs_close_games": 9.774,
+     "close_mae": 9.332,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 15.464,
+     "close_total_mae": 14.551
+    },
+    "rest_of_nov": {
+     "games": 747,
+     "model_mae": 9.452,
+     "lined_close": 421,
+     "model_mae_vs_close_games": 8.862,
+     "close_mae": 8.416,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.144,
+     "close_total_mae": 13.779
+    },
+    "dec": {
+     "games": 1323,
+     "model_mae": 9.125,
+     "lined_close": 792,
+     "model_mae_vs_close_games": 8.597,
+     "close_mae": 8.446,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.645,
+     "close_total_mae": 13.566
+    },
+    "jan_on": {
+     "games": 2927,
+     "model_mae": 8.157,
+     "lined_close": 2283,
+     "model_mae_vs_close_games": 8.103,
+     "close_mae": 8.041,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.052,
+     "close_total_mae": 12.934
+    }
+   }
+  },
+  {
+   "season": 2016,
+   "v1.0": {
+    "all": {
+     "games": 5942,
+     "model_mae": 9.078,
+     "lined_close": 3997,
+     "model_mae_vs_close_games": 8.643,
+     "close_mae": 8.548,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.667,
+     "close_total_mae": 13.521
+    },
+    "first_14_days": {
+     "games": 928,
+     "model_mae": 10.577,
+     "lined_close": 455,
+     "model_mae_vs_close_games": 9.47,
+     "close_mae": 9.281,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.747,
+     "close_total_mae": 13.411
+    },
+    "rest_of_nov": {
+     "games": 782,
+     "model_mae": 9.365,
+     "lined_close": 435,
+     "model_mae_vs_close_games": 9.0,
+     "close_mae": 8.625,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.858,
+     "close_total_mae": 12.792
+    },
+    "dec": {
+     "games": 1297,
+     "model_mae": 8.961,
+     "lined_close": 789,
+     "model_mae_vs_close_games": 8.455,
+     "close_mae": 8.425,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.577,
+     "close_total_mae": 13.343
+    },
+    "jan_on": {
+     "games": 2935,
+     "model_mae": 8.579,
+     "lined_close": 2318,
+     "model_mae_vs_close_games": 8.478,
+     "close_mae": 8.431,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.833,
+     "close_total_mae": 13.739
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5942,
+     "model_mae": 9.12,
+     "lined_close": 3997,
+     "model_mae_vs_close_games": 8.683,
+     "close_mae": 8.548,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.671,
+     "close_total_mae": 13.521
+    },
+    "first_14_days": {
+     "games": 928,
+     "model_mae": 10.87,
+     "lined_close": 455,
+     "model_mae_vs_close_games": 9.848,
+     "close_mae": 9.281,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.755,
+     "close_total_mae": 13.411
+    },
+    "rest_of_nov": {
+     "games": 782,
+     "model_mae": 9.354,
+     "lined_close": 435,
+     "model_mae_vs_close_games": 8.992,
+     "close_mae": 8.625,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.863,
+     "close_total_mae": 12.792
+    },
+    "dec": {
+     "games": 1297,
+     "model_mae": 8.964,
+     "lined_close": 789,
+     "model_mae_vs_close_games": 8.455,
+     "close_mae": 8.425,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.582,
+     "close_total_mae": 13.343
+    },
+    "jan_on": {
+     "games": 2935,
+     "model_mae": 8.573,
+     "lined_close": 2318,
+     "model_mae_vs_close_games": 8.474,
+     "close_mae": 8.431,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.836,
+     "close_total_mae": 13.739
+    }
+   }
+  },
+  {
+   "season": 2017,
+   "v1.0": {
+    "all": {
+     "games": 5920,
+     "model_mae": 9.132,
+     "lined_close": 3978,
+     "model_mae_vs_close_games": 8.968,
+     "close_mae": 8.839,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.378,
+     "close_total_mae": 13.203
+    },
+    "first_14_days": {
+     "games": 909,
+     "model_mae": 10.71,
+     "lined_close": 459,
+     "model_mae_vs_close_games": 10.078,
+     "close_mae": 9.694,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.461,
+     "close_total_mae": 13.143
+    },
+    "rest_of_nov": {
+     "games": 862,
+     "model_mae": 9.664,
+     "lined_close": 457,
+     "model_mae_vs_close_games": 9.266,
+     "close_mae": 8.957,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.017,
+     "close_total_mae": 13.814
+    },
+    "dec": {
+     "games": 1231,
+     "model_mae": 9.149,
+     "lined_close": 762,
+     "model_mae_vs_close_games": 9.04,
+     "close_mae": 8.949,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.601,
+     "close_total_mae": 13.428
+    },
+    "jan_on": {
+     "games": 2918,
+     "model_mae": 8.476,
+     "lined_close": 2300,
+     "model_mae_vs_close_games": 8.662,
+     "close_mae": 8.609,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.162,
+     "close_total_mae": 13.019
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5920,
+     "model_mae": 9.138,
+     "lined_close": 3978,
+     "model_mae_vs_close_games": 9.015,
+     "close_mae": 8.839,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.387,
+     "close_total_mae": 13.203
+    },
+    "first_14_days": {
+     "games": 909,
+     "model_mae": 10.771,
+     "lined_close": 459,
+     "model_mae_vs_close_games": 10.518,
+     "close_mae": 9.694,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.517,
+     "close_total_mae": 13.143
+    },
+    "rest_of_nov": {
+     "games": 862,
+     "model_mae": 9.666,
+     "lined_close": 457,
+     "model_mae_vs_close_games": 9.248,
+     "close_mae": 8.957,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.021,
+     "close_total_mae": 13.814
+    },
+    "dec": {
+     "games": 1231,
+     "model_mae": 9.134,
+     "lined_close": 762,
+     "model_mae_vs_close_games": 9.03,
+     "close_mae": 8.949,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.602,
+     "close_total_mae": 13.428
+    },
+    "jan_on": {
+     "games": 2918,
+     "model_mae": 8.475,
+     "lined_close": 2300,
+     "model_mae_vs_close_games": 8.663,
+     "close_mae": 8.609,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.165,
+     "close_total_mae": 13.019
+    }
+   }
+  },
+  {
+   "season": 2018,
+   "v1.0": {
+    "all": {
+     "games": 5961,
+     "model_mae": 9.393,
+     "lined_close": 4037,
+     "model_mae_vs_close_games": 8.951,
+     "close_mae": 8.797,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.744,
+     "close_total_mae": 13.51
+    },
+    "first_14_days": {
+     "games": 899,
+     "model_mae": 11.437,
+     "lined_close": 430,
+     "model_mae_vs_close_games": 10.132,
+     "close_mae": 9.8,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.697,
+     "close_total_mae": 14.169
+    },
+    "rest_of_nov": {
+     "games": 876,
+     "model_mae": 9.327,
+     "lined_close": 491,
+     "model_mae_vs_close_games": 8.989,
+     "close_mae": 9.16,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.912,
+     "close_total_mae": 13.57
+    },
+    "dec": {
+     "games": 1248,
+     "model_mae": 9.546,
+     "lined_close": 789,
+     "model_mae_vs_close_games": 9.228,
+     "close_mae": 8.956,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.403,
+     "close_total_mae": 13.044
+    },
+    "jan_on": {
+     "games": 2938,
+     "model_mae": 8.723,
+     "lined_close": 2327,
+     "model_mae_vs_close_games": 8.631,
+     "close_mae": 8.48,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.648,
+     "close_total_mae": 13.534
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5961,
+     "model_mae": 9.354,
+     "lined_close": 4037,
+     "model_mae_vs_close_games": 8.935,
+     "close_mae": 8.797,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.748,
+     "close_total_mae": 13.51
+    },
+    "first_14_days": {
+     "games": 899,
+     "model_mae": 11.177,
+     "lined_close": 430,
+     "model_mae_vs_close_games": 10.002,
+     "close_mae": 9.8,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.715,
+     "close_total_mae": 14.169
+    },
+    "rest_of_nov": {
+     "games": 876,
+     "model_mae": 9.324,
+     "lined_close": 491,
+     "model_mae_vs_close_games": 8.968,
+     "close_mae": 9.16,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.919,
+     "close_total_mae": 13.57
+    },
+    "dec": {
+     "games": 1248,
+     "model_mae": 9.549,
+     "lined_close": 789,
+     "model_mae_vs_close_games": 9.225,
+     "close_mae": 8.956,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.41,
+     "close_total_mae": 13.044
+    },
+    "jan_on": {
+     "games": 2938,
+     "model_mae": 8.723,
+     "lined_close": 2327,
+     "model_mae_vs_close_games": 8.632,
+     "close_mae": 8.48,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.648,
+     "close_total_mae": 13.534
+    }
+   }
+  },
+  {
+   "season": 2019,
+   "v1.0": {
+    "all": {
+     "games": 6040,
+     "model_mae": 9.424,
+     "lined_close": 5535,
+     "model_mae_vs_close_games": 8.997,
+     "close_mae": 8.787,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.588,
+     "close_total_mae": 13.31
+    },
+    "first_14_days": {
+     "games": 837,
+     "model_mae": 11.043,
+     "lined_close": 592,
+     "model_mae_vs_close_games": 9.91,
+     "close_mae": 9.226,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.789,
+     "close_total_mae": 13.332
+    },
+    "rest_of_nov": {
+     "games": 785,
+     "model_mae": 10.218,
+     "lined_close": 693,
+     "model_mae_vs_close_games": 9.539,
+     "close_mae": 9.273,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.675,
+     "close_total_mae": 13.288
+    },
+    "dec": {
+     "games": 1166,
+     "model_mae": 9.742,
+     "lined_close": 1018,
+     "model_mae_vs_close_games": 9.053,
+     "close_mae": 8.829,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.381,
+     "close_total_mae": 13.101
+    },
+    "jan_on": {
+     "games": 3252,
+     "model_mae": 8.702,
+     "lined_close": 3232,
+     "model_mae_vs_close_games": 8.696,
+     "close_mae": 8.59,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.597,
+     "close_total_mae": 13.376
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 6040,
+     "model_mae": 9.441,
+     "lined_close": 5535,
+     "model_mae_vs_close_games": 9.029,
+     "close_mae": 8.787,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.593,
+     "close_total_mae": 13.31
+    },
+    "first_14_days": {
+     "games": 837,
+     "model_mae": 11.17,
+     "lined_close": 592,
+     "model_mae_vs_close_games": 10.23,
+     "close_mae": 9.226,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.825,
+     "close_total_mae": 13.332
+    },
+    "rest_of_nov": {
+     "games": 785,
+     "model_mae": 10.22,
+     "lined_close": 693,
+     "model_mae_vs_close_games": 9.533,
+     "close_mae": 9.273,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.68,
+     "close_total_mae": 13.288
+    },
+    "dec": {
+     "games": 1166,
+     "model_mae": 9.744,
+     "lined_close": 1018,
+     "model_mae_vs_close_games": 9.056,
+     "close_mae": 8.829,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.378,
+     "close_total_mae": 13.101
+    },
+    "jan_on": {
+     "games": 3252,
+     "model_mae": 8.699,
+     "lined_close": 3232,
+     "model_mae_vs_close_games": 8.693,
+     "close_mae": 8.59,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.599,
+     "close_total_mae": 13.376
+    }
+   }
+  },
+  {
+   "season": 2020,
+   "v1.0": {
+    "all": {
+     "games": 5767,
+     "model_mae": 9.523,
+     "lined_close": 5325,
+     "model_mae_vs_close_games": 9.057,
+     "close_mae": 8.899,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.343,
+     "close_total_mae": 13.124
+    },
+    "first_14_days": {
+     "games": 775,
+     "model_mae": 11.493,
+     "lined_close": 592,
+     "model_mae_vs_close_games": 9.993,
+     "close_mae": 9.218,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.435,
+     "close_total_mae": 13.996
+    },
+    "rest_of_nov": {
+     "games": 834,
+     "model_mae": 10.255,
+     "lined_close": 728,
+     "model_mae_vs_close_games": 9.656,
+     "close_mae": 9.986,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.454,
+     "close_total_mae": 13.029
+    },
+    "dec": {
+     "games": 1135,
+     "model_mae": 9.824,
+     "lined_close": 1002,
+     "model_mae_vs_close_games": 9.173,
+     "close_mae": 9.122,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.553,
+     "close_total_mae": 13.36
+    },
+    "jan_on": {
+     "games": 3023,
+     "model_mae": 8.703,
+     "lined_close": 3003,
+     "model_mae_vs_close_games": 8.689,
+     "close_mae": 8.498,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.032,
+     "close_total_mae": 12.897
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5767,
+     "model_mae": 9.506,
+     "lined_close": 5325,
+     "model_mae_vs_close_games": 9.054,
+     "close_mae": 8.899,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.348,
+     "close_total_mae": 13.124
+    },
+    "first_14_days": {
+     "games": 775,
+     "model_mae": 11.356,
+     "lined_close": 592,
+     "model_mae_vs_close_games": 9.968,
+     "close_mae": 9.218,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.453,
+     "close_total_mae": 13.996
+    },
+    "rest_of_nov": {
+     "games": 834,
+     "model_mae": 10.267,
+     "lined_close": 728,
+     "model_mae_vs_close_games": 9.663,
+     "close_mae": 9.986,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.465,
+     "close_total_mae": 13.029
+    },
+    "dec": {
+     "games": 1135,
+     "model_mae": 9.821,
+     "lined_close": 1002,
+     "model_mae_vs_close_games": 9.167,
+     "close_mae": 9.122,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.556,
+     "close_total_mae": 13.36
+    },
+    "jan_on": {
+     "games": 3023,
+     "model_mae": 8.703,
+     "lined_close": 3003,
+     "model_mae_vs_close_games": 8.689,
+     "close_mae": 8.498,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.032,
+     "close_total_mae": 12.897
+    }
+   }
+  },
+  {
+   "season": 2021,
+   "v1.0": {
+    "all": {
+     "games": 4285,
+     "model_mae": 9.994,
+     "lined_close": 3930,
+     "model_mae_vs_close_games": 9.485,
+     "close_mae": 9.154,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.6,
+     "close_total_mae": 13.094
+    },
+    "first_14_days": {
+     "games": 621,
+     "model_mae": 11.969,
+     "lined_close": 482,
+     "model_mae_vs_close_games": 10.573,
+     "close_mae": 10.161,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.249,
+     "close_total_mae": 13.565
+    },
+    "rest_of_nov": {
+     "games": 614,
+     "model_mae": 10.845,
+     "lined_close": 478,
+     "model_mae_vs_close_games": 9.643,
+     "close_mae": 9.258,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.901,
+     "close_total_mae": 13.225
+    },
+    "dec": {
+     "games": 1125,
+     "model_mae": 9.899,
+     "lined_close": 1084,
+     "model_mae_vs_close_games": 9.742,
+     "close_mae": 9.193,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.66,
+     "close_total_mae": 13.071
+    },
+    "jan_on": {
+     "games": 1925,
+     "model_mae": 9.14,
+     "lined_close": 1886,
+     "model_mae_vs_close_games": 9.02,
+     "close_mae": 8.848,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.324,
+     "close_total_mae": 12.953
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 4285,
+     "model_mae": 9.999,
+     "lined_close": 3930,
+     "model_mae_vs_close_games": 9.495,
+     "close_mae": 9.154,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.612,
+     "close_total_mae": 13.094
+    },
+    "first_14_days": {
+     "games": 621,
+     "model_mae": 12.048,
+     "lined_close": 482,
+     "model_mae_vs_close_games": 10.713,
+     "close_mae": 10.161,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.298,
+     "close_total_mae": 13.565
+    },
+    "rest_of_nov": {
+     "games": 614,
+     "model_mae": 10.826,
+     "lined_close": 478,
+     "model_mae_vs_close_games": 9.616,
+     "close_mae": 9.258,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.912,
+     "close_total_mae": 13.225
+    },
+    "dec": {
+     "games": 1125,
+     "model_mae": 9.886,
+     "lined_close": 1084,
+     "model_mae_vs_close_games": 9.729,
+     "close_mae": 9.193,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.665,
+     "close_total_mae": 13.071
+    },
+    "jan_on": {
+     "games": 1925,
+     "model_mae": 9.139,
+     "lined_close": 1886,
+     "model_mae_vs_close_games": 9.019,
+     "close_mae": 8.848,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.33,
+     "close_total_mae": 12.953
+    }
+   }
+  },
+  {
+   "season": 2022,
+   "v1.0": {
+    "all": {
+     "games": 5966,
+     "model_mae": 9.499,
+     "lined_close": 5458,
+     "model_mae_vs_close_games": 8.964,
+     "close_mae": 8.8,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.201,
+     "close_total_mae": 12.947
+    },
+    "first_14_days": {
+     "games": 938,
+     "model_mae": 11.845,
+     "lined_close": 737,
+     "model_mae_vs_close_games": 10.493,
+     "close_mae": 10.064,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.237,
+     "close_total_mae": 13.654
+    },
+    "rest_of_nov": {
+     "games": 810,
+     "model_mae": 10.045,
+     "lined_close": 688,
+     "model_mae_vs_close_games": 9.26,
+     "close_mae": 9.025,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.139,
+     "close_total_mae": 12.786
+    },
+    "dec": {
+     "games": 1013,
+     "model_mae": 9.811,
+     "lined_close": 862,
+     "model_mae_vs_close_games": 8.988,
+     "close_mae": 8.939,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.324,
+     "close_total_mae": 13.084
+    },
+    "jan_on": {
+     "games": 3205,
+     "model_mae": 8.577,
+     "lined_close": 3171,
+     "model_mae_vs_close_games": 8.538,
+     "close_mae": 8.419,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.94,
+     "close_total_mae": 12.781
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 5966,
+     "model_mae": 9.451,
+     "lined_close": 5458,
+     "model_mae_vs_close_games": 8.948,
+     "close_mae": 8.8,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.208,
+     "close_total_mae": 12.947
+    },
+    "first_14_days": {
+     "games": 938,
+     "model_mae": 11.537,
+     "lined_close": 737,
+     "model_mae_vs_close_games": 10.379,
+     "close_mae": 10.064,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.285,
+     "close_total_mae": 13.654
+    },
+    "rest_of_nov": {
+     "games": 810,
+     "model_mae": 10.042,
+     "lined_close": 688,
+     "model_mae_vs_close_games": 9.256,
+     "close_mae": 9.025,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.137,
+     "close_total_mae": 12.786
+    },
+    "dec": {
+     "games": 1013,
+     "model_mae": 9.807,
+     "lined_close": 862,
+     "model_mae_vs_close_games": 8.981,
+     "close_mae": 8.939,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.33,
+     "close_total_mae": 13.084
+    },
+    "jan_on": {
+     "games": 3205,
+     "model_mae": 8.579,
+     "lined_close": 3171,
+     "model_mae_vs_close_games": 8.54,
+     "close_mae": 8.419,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.941,
+     "close_total_mae": 12.781
+    }
+   }
+  },
+  {
+   "season": 2023,
+   "v1.0": {
+    "all": {
+     "games": 6220,
+     "model_mae": 9.62,
+     "lined_close": 5770,
+     "model_mae_vs_close_games": 9.142,
+     "close_mae": 8.896,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.292,
+     "close_total_mae": 13.015
+    },
+    "first_14_days": {
+     "games": 900,
+     "model_mae": 11.781,
+     "lined_close": 711,
+     "model_mae_vs_close_games": 10.492,
+     "close_mae": 9.954,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.48,
+     "close_total_mae": 13.96
+    },
+    "rest_of_nov": {
+     "games": 873,
+     "model_mae": 10.338,
+     "lined_close": 761,
+     "model_mae_vs_close_games": 9.539,
+     "close_mae": 9.15,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.238,
+     "close_total_mae": 12.881
+    },
+    "dec": {
+     "games": 1233,
+     "model_mae": 9.632,
+     "lined_close": 1093,
+     "model_mae_vs_close_games": 9.032,
+     "close_mae": 8.852,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.181,
+     "close_total_mae": 12.908
+    },
+    "jan_on": {
+     "games": 3214,
+     "model_mae": 8.814,
+     "lined_close": 3205,
+     "model_mae_vs_close_games": 8.785,
+     "close_mae": 8.616,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.08,
+     "close_total_mae": 12.875
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 6220,
+     "model_mae": 9.595,
+     "lined_close": 5770,
+     "model_mae_vs_close_games": 9.14,
+     "close_mae": 8.896,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.299,
+     "close_total_mae": 13.015
+    },
+    "first_14_days": {
+     "games": 900,
+     "model_mae": 11.613,
+     "lined_close": 711,
+     "model_mae_vs_close_games": 10.481,
+     "close_mae": 9.954,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 14.514,
+     "close_total_mae": 13.96
+    },
+    "rest_of_nov": {
+     "games": 873,
+     "model_mae": 10.346,
+     "lined_close": 761,
+     "model_mae_vs_close_games": 9.546,
+     "close_mae": 9.15,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.249,
+     "close_total_mae": 12.881
+    },
+    "dec": {
+     "games": 1233,
+     "model_mae": 9.632,
+     "lined_close": 1093,
+     "model_mae_vs_close_games": 9.032,
+     "close_mae": 8.852,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.186,
+     "close_total_mae": 12.908
+    },
+    "jan_on": {
+     "games": 3214,
+     "model_mae": 8.811,
+     "lined_close": 3205,
+     "model_mae_vs_close_games": 8.782,
+     "close_mae": 8.616,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.081,
+     "close_total_mae": 12.875
+    }
+   }
+  },
+  {
+   "season": 2024,
+   "v1.0": {
+    "all": {
+     "games": 6241,
+     "model_mae": 9.691,
+     "lined_close": 5307,
+     "model_mae_vs_close_games": 9.208,
+     "close_mae": 8.873,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.246,
+     "close_total_mae": 12.893
+    },
+    "first_14_days": {
+     "games": 860,
+     "model_mae": 11.564,
+     "lined_close": 588,
+     "model_mae_vs_close_games": 10.199,
+     "close_mae": 9.117,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.02,
+     "close_total_mae": 12.473
+    },
+    "rest_of_nov": {
+     "games": 793,
+     "model_mae": 10.018,
+     "lined_close": 639,
+     "model_mae_vs_close_games": 9.604,
+     "close_mae": 9.099,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.817,
+     "close_total_mae": 13.298
+    },
+    "dec": {
+     "games": 1138,
+     "model_mae": 10.289,
+     "lined_close": 889,
+     "model_mae_vs_close_games": 9.162,
+     "close_mae": 8.849,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.467,
+     "close_total_mae": 13.032
+    },
+    "jan_on": {
+     "games": 3450,
+     "model_mae": 8.952,
+     "lined_close": 3191,
+     "model_mae_vs_close_games": 8.958,
+     "close_mae": 8.79,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.111,
+     "close_total_mae": 12.85
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 6241,
+     "model_mae": 9.663,
+     "lined_close": 5307,
+     "model_mae_vs_close_games": 9.193,
+     "close_mae": 8.873,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.251,
+     "close_total_mae": 12.893
+    },
+    "first_14_days": {
+     "games": 860,
+     "model_mae": 11.395,
+     "lined_close": 588,
+     "model_mae_vs_close_games": 10.12,
+     "close_mae": 9.117,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.058,
+     "close_total_mae": 12.473
+    },
+    "rest_of_nov": {
+     "games": 793,
+     "model_mae": 10.021,
+     "lined_close": 639,
+     "model_mae_vs_close_games": 9.6,
+     "close_mae": 9.099,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.821,
+     "close_total_mae": 13.298
+    },
+    "dec": {
+     "games": 1138,
+     "model_mae": 10.274,
+     "lined_close": 889,
+     "model_mae_vs_close_games": 9.144,
+     "close_mae": 8.849,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.468,
+     "close_total_mae": 13.032
+    },
+    "jan_on": {
+     "games": 3450,
+     "model_mae": 8.948,
+     "lined_close": 3191,
+     "model_mae_vs_close_games": 8.955,
+     "close_mae": 8.79,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.112,
+     "close_total_mae": 12.85
+    }
+   }
+  },
+  {
+   "season": 2025,
+   "v1.0": {
+    "all": {
+     "games": 6284,
+     "model_mae": 9.648,
+     "lined_close": 5430,
+     "model_mae_vs_close_games": 9.129,
+     "close_mae": 8.759,
+     "lined_open": 1808,
+     "model_mae_vs_open_games": 8.586,
+     "open_mae": 8.533,
+     "model_total_mae": 13.086,
+     "close_total_mae": 12.684
+    },
+    "first_14_days": {
+     "games": 827,
+     "model_mae": 11.696,
+     "lined_close": 605,
+     "model_mae_vs_close_games": 10.55,
+     "close_mae": 9.434,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.804,
+     "close_total_mae": 12.934
+    },
+    "rest_of_nov": {
+     "games": 808,
+     "model_mae": 10.523,
+     "lined_close": 713,
+     "model_mae_vs_close_games": 9.874,
+     "close_mae": 9.256,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.569,
+     "close_total_mae": 12.699
+    },
+    "dec": {
+     "games": 1137,
+     "model_mae": 10.097,
+     "lined_close": 939,
+     "model_mae_vs_close_games": 9.206,
+     "close_mae": 8.779,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.365,
+     "close_total_mae": 12.179
+    },
+    "jan_on": {
+     "games": 3512,
+     "model_mae": 8.819,
+     "lined_close": 3173,
+     "model_mae_vs_close_games": 8.668,
+     "close_mae": 8.514,
+     "lined_open": 1808,
+     "model_mae_vs_open_games": 8.586,
+     "open_mae": 8.533,
+     "model_total_mae": 13.054,
+     "close_total_mae": 12.782
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 6284,
+     "model_mae": 9.617,
+     "lined_close": 5430,
+     "model_mae_vs_close_games": 9.133,
+     "close_mae": 8.759,
+     "lined_open": 1808,
+     "model_mae_vs_open_games": 8.586,
+     "open_mae": 8.533,
+     "model_total_mae": 13.09,
+     "close_total_mae": 12.684
+    },
+    "first_14_days": {
+     "games": 827,
+     "model_mae": 11.489,
+     "lined_close": 605,
+     "model_mae_vs_close_games": 10.646,
+     "close_mae": 9.434,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.84,
+     "close_total_mae": 12.934
+    },
+    "rest_of_nov": {
+     "games": 808,
+     "model_mae": 10.521,
+     "lined_close": 713,
+     "model_mae_vs_close_games": 9.861,
+     "close_mae": 9.256,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 13.58,
+     "close_total_mae": 12.699
+    },
+    "dec": {
+     "games": 1137,
+     "model_mae": 10.081,
+     "lined_close": 939,
+     "model_mae_vs_close_games": 9.184,
+     "close_mae": 8.779,
+     "lined_open": 0,
+     "model_mae_vs_open_games": null,
+     "open_mae": null,
+     "model_total_mae": 12.358,
+     "close_total_mae": 12.179
+    },
+    "jan_on": {
+     "games": 3512,
+     "model_mae": 8.818,
+     "lined_close": 3173,
+     "model_mae_vs_close_games": 8.667,
+     "close_mae": 8.514,
+     "lined_open": 1808,
+     "model_mae_vs_open_games": 8.586,
+     "open_mae": 8.533,
+     "model_total_mae": 13.053,
+     "close_total_mae": 12.782
+    }
+   }
+  },
+  {
+   "season": 2026,
+   "v1.0": {
+    "all": {
+     "games": 6298,
+     "model_mae": 9.815,
+     "lined_close": 5748,
+     "model_mae_vs_close_games": 9.321,
+     "close_mae": 9.007,
+     "lined_open": 5726,
+     "model_mae_vs_open_games": 9.331,
+     "open_mae": 9.103,
+     "model_total_mae": 13.839,
+     "close_total_mae": 13.375
+    },
+    "first_14_days": {
+     "games": 828,
+     "model_mae": 12.549,
+     "lined_close": 612,
+     "model_mae_vs_close_games": 10.884,
+     "close_mae": 9.183,
+     "lined_open": 609,
+     "model_mae_vs_open_games": 10.899,
+     "open_mae": 9.424,
+     "model_total_mae": 15.11,
+     "close_total_mae": 13.766
+    },
+    "rest_of_nov": {
+     "games": 817,
+     "model_mae": 10.418,
+     "lined_close": 694,
+     "model_mae_vs_close_games": 9.975,
+     "close_mae": 10.105,
+     "lined_open": 686,
+     "model_mae_vs_open_games": 9.982,
+     "open_mae": 10.343,
+     "model_total_mae": 14.074,
+     "close_total_mae": 13.382
+    },
+    "dec": {
+     "games": 1171,
+     "model_mae": 10.167,
+     "lined_close": 969,
+     "model_mae_vs_close_games": 9.43,
+     "close_mae": 8.983,
+     "lined_open": 962,
+     "model_mae_vs_open_games": 9.466,
+     "open_mae": 9.17,
+     "model_total_mae": 13.466,
+     "close_total_mae": 13.061
+    },
+    "jan_on": {
+     "games": 3482,
+     "model_mae": 8.905,
+     "lined_close": 3473,
+     "model_mae_vs_close_games": 8.884,
+     "close_mae": 8.764,
+     "lined_open": 3469,
+     "model_mae_vs_open_games": 8.89,
+     "open_mae": 8.784,
+     "model_total_mae": 13.673,
+     "close_total_mae": 13.393
+    }
+   },
+   "v1.1": {
+    "all": {
+     "games": 6298,
+     "model_mae": 9.754,
+     "lined_close": 5748,
+     "model_mae_vs_close_games": 9.303,
+     "close_mae": 9.007,
+     "lined_open": 5726,
+     "model_mae_vs_open_games": 9.314,
+     "open_mae": 9.103,
+     "model_total_mae": 13.846,
+     "close_total_mae": 13.375
+    },
+    "first_14_days": {
+     "games": 828,
+     "model_mae": 12.125,
+     "lined_close": 612,
+     "model_mae_vs_close_games": 10.755,
+     "close_mae": 9.183,
+     "lined_open": 609,
+     "model_mae_vs_open_games": 10.774,
+     "open_mae": 9.424,
+     "model_total_mae": 15.157,
+     "close_total_mae": 13.766
+    },
+    "rest_of_nov": {
+     "games": 817,
+     "model_mae": 10.393,
+     "lined_close": 694,
+     "model_mae_vs_close_games": 9.952,
+     "close_mae": 10.105,
+     "lined_open": 686,
+     "model_mae_vs_open_games": 9.958,
+     "open_mae": 10.343,
+     "model_total_mae": 14.079,
+     "close_total_mae": 13.382
+    },
+    "dec": {
+     "games": 1171,
+     "model_mae": 10.156,
+     "lined_close": 969,
+     "model_mae_vs_close_games": 9.42,
+     "close_mae": 8.983,
+     "lined_open": 962,
+     "model_mae_vs_open_games": 9.457,
+     "open_mae": 9.17,
+     "model_total_mae": 13.476,
+     "close_total_mae": 13.061
+    },
+    "jan_on": {
+     "games": 3482,
+     "model_mae": 8.906,
+     "lined_close": 3473,
+     "model_mae_vs_close_games": 8.885,
+     "close_mae": 8.764,
+     "lined_open": 3469,
+     "model_mae_vs_open_games": 8.891,
+     "open_mae": 8.784,
+     "model_total_mae": 13.672,
+     "close_total_mae": 13.393
+    }
+   }
+  }
+ ]
+}

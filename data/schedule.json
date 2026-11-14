@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T12:00:28+00:00",
+ "fetched_at": "2026-11-14T12:00:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -1447,10 +1447,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-13-2026/production/7094380?wsUser=717",
-    "low": 33.0
-   },
+   "tickets": null,
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
    "venue_state": "IN",
@@ -1459,21 +1456,21 @@
     "key": null,
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "195",
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911014",
@@ -1491,10 +1488,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-13-2026--sports-ncaa-basketball/production/7558080?wsUser=717",
-    "low": 6.0
-   },
+   "tickets": null,
    "venue": "Moody Coliseum (Dallas)",
    "venue_city": "Dallas",
    "venue_state": "TX",
@@ -1503,21 +1497,21 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "2050",
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919004",
@@ -1537,7 +1531,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/akron-zips-mens-basketball-tickets-rhodes-arena-11-14-2026--sports-ncaa-basketball/production/7630642?wsUser=717",
-    "low": 13.0
+    "low": 14.0
    },
    "venue": "James A. Rhodes Arena",
    "venue_city": "Akron",
@@ -1581,7 +1575,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 28.0
+    "low": 16.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -1752,7 +1746,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-11-15-2026--sports-ncaa-basketball/production/7872834?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -1795,7 +1792,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-11-16-2026--sports-ncaa-basketball/production/7601281?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "M.A.C. Center",
    "venue_city": "Kent",
@@ -1877,9 +1874,9 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-17-2026--sports-ncaa-basketball/production/7398033?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
-   "venue": "Tucker Center",
+   "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
    "venue_state": "FL",
    "home": {
@@ -1970,7 +1967,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-11-17-2026--sports-ncaa-basketball/production/7413755?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -2409,7 +2406,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 22.0
+    "low": 20.0
    },
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
@@ -2494,7 +2491,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 31.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -2656,7 +2653,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-11-23-2026--sports-ncaa-basketball/production/7872838?wsUser=717",
+    "low": 24.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -3150,7 +3150,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-27-2026--sports-ncaa-basketball/production/7478281?wsUser=717",
-    "low": 6.0
+    "low": 7.0
    },
    "venue": "Simon Skjodt Assembly Hall",
    "venue_city": "Bloomington",
@@ -3745,7 +3745,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-12-5-2026--sports-ncaa-basketball/production/7455560?wsUser=717",
-    "low": 56.5
+    "low": 36.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -4053,7 +4053,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-12-9-2026--sports-ncaa-basketball/production/7456093?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -4133,7 +4133,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-12-12-2026--sports-ncaa-basketball/production/7872840?wsUser=717",
+    "low": 26.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -4343,7 +4346,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-13-2026--sports-ncaa-basketball/production/7580368?wsUser=717",
-    "low": 23.0
+    "low": 21.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -4387,7 +4390,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-12-16-2026--sports-ncaa-basketball/production/7455562?wsUser=717",
-    "low": 56.5
+    "low": 26.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -5017,7 +5020,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-22-2026--sports-ncaa-basketball/production/7575785?wsUser=717",
-    "low": 13.0
+    "low": 14.0
    },
    "venue": "Bud Walton Arena",
    "venue_city": "Fayetteville",
@@ -5176,47 +5179,6 @@
    "detail": ""
   },
   {
-   "game_id": "401911068",
-   "date": "2026-12-29T20:00Z",
-   "name": "Michigan Dearborn Wolves at Central Michigan Chippewas",
-   "short_name": "UMDB @ CMU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": null,
-   "venue": "McGuirk Arena",
-   "venue_city": "Mount Pleasant",
-   "venue_state": "MI",
-   "home": {
-    "espn_id": "2117",
-    "key": "central-michigan",
-    "name": "Central Michigan Chippewas",
-    "abbr": "CMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2391",
-    "key": null,
-    "name": "Michigan Dearborn Wolves",
-    "abbr": "UMDB",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401928847",
    "date": "2026-12-29T20:00Z",
    "name": "Bryant & Stratton (OH) Bobcats at Ohio Bobcats",
@@ -5252,6 +5214,47 @@
     "key": null,
     "name": "Bryant & Stratton (OH) Bobcats",
     "abbr": "B&SO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911068",
+   "date": "2026-12-29T20:30Z",
+   "name": "Michigan Dearborn Wolves at Central Michigan Chippewas",
+   "short_name": "UMDB @ CMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "McGuirk Arena",
+   "venue_city": "Mount Pleasant",
+   "venue_state": "MI",
+   "home": {
+    "espn_id": "2117",
+    "key": "central-michigan",
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2391",
+    "key": null,
+    "name": "Michigan Dearborn Wolves",
+    "abbr": "UMDB",
     "score": null,
     "winner": null
    },
@@ -5448,7 +5451,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 19.0
+    "low": 20.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
@@ -5712,7 +5715,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-1-5-2027--sports-ncaa-basketball/production/7872842?wsUser=717",
+    "low": 24.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -6351,7 +6357,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-1-12-2027--sports-ncaa-basketball/production/7456079?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -6498,7 +6504,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-1-16-2027--sports-ncaa-basketball/production/7872846?wsUser=717",
+    "low": 42.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -6989,7 +6998,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-1-23-2027--sports-ncaa-basketball/production/7872848?wsUser=717",
+    "low": 42.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -7099,7 +7111,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-1-26-2027--sports-ncaa-basketball/production/7455538?wsUser=717",
-    "low": 56.5
+    "low": 24.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -7514,7 +7526,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-2-2-2027--sports-ncaa-basketball/production/7455540?wsUser=717",
-    "low": 56.5
+    "low": 30.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -7891,7 +7903,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-2-9-2027--sports-ncaa-basketball/production/7456087?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -7964,7 +7976,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-2-13-2027--sports-ncaa-basketball/production/7436301?wsUser=717",
-    "low": 37.0
+    "low": 36.0
    },
    "venue": "M.A.C. Center",
    "venue_city": "Kent",
@@ -8192,7 +8204,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-2-16-2027--sports-ncaa-basketball/production/7455552?wsUser=717",
-    "low": 56.5
+    "low": 30.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -8569,7 +8581,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-2-20-2027--sports-ncaa-basketball/production/7455556?wsUser=717",
-    "low": 56.5
+    "low": 48.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -8797,7 +8809,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-2-23-2027--sports-ncaa-basketball/production/7456091?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -9060,7 +9072,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-2-27-2027--sports-ncaa-basketball/production/7487417?wsUser=717",
-    "low": 26.0
+    "low": 31.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -9098,7 +9110,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-3-2-2027--sports-ncaa-basketball/production/7455558?wsUser=717",
-    "low": 56.5
+    "low": 30.0
    },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
@@ -9359,7 +9371,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-3-5-2027--sports-ncaa-basketball/production/7872850?wsUser=717",
+    "low": 38.0
+   },
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",

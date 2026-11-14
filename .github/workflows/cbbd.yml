@@ -1,0 +1,65 @@
+name: CollegeBasketballData backfill and study
+
+# Pulls whole seasons of box scores and lines from CollegeBasketballData.com and runs the
+# multi-season backtest (mac/cbbd_study.py). Run by hand: Actions > this workflow > Run.
+# Needs the repository secret CBBD_API_KEY (free key: https://collegebasketballdata.com/key).
+# Raw responses stay in a private Actions cache, never in the repo (CBBD's terms forbid a
+# public mirror); only the study's summary numbers and the call log are committed.
+on:
+  workflow_dispatch:
+    inputs:
+      first:
+        description: "First season (ending year; 2014 = 2013-14). Lines start in 2013."
+        default: "2014"
+      last:
+        description: "Last season"
+        default: "2026"
+      kinds:
+        description: "What to pull: teams, lines, games (scores by half), players; comma-separated"
+        default: "teams,lines,games"
+      study:
+        description: "Which study to run: cbbd (model v1.0 vs v1.1) or halves (first half vs second half)"
+        default: "cbbd"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  cbbd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/cache/cbbd
+          key: cbbd-${{ github.run_id }}
+          restore-keys: cbbd-
+      - name: Backfill (cached seasons cost nothing; ~15 calls a new season)
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+        run: python -m mac.cbbd backfill $(( ${{ inputs.first }} - 1 )) ${{ inputs.last }} ${{ inputs.kinds }}
+      # Saved even if the backfill stops partway, so calls already spent are never repeated.
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/cache/cbbd
+          key: cbbd-${{ github.run_id }}
+      - name: Study (no API calls)
+        run: python -m mac.cbbd ${{ inputs.study == 'halves' && 'halves' || 'study' }} ${{ inputs.first }} ${{ inputs.last }}
+      - name: Commit summary
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          for f in data/cbbd_calls.jsonl data/model/cbbd_study.json data/model/halves_study.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git diff --cached --quiet && echo "nothing new" || git commit -m "model: CBBD ${{ inputs.study }} study ${{ inputs.first }}-${{ inputs.last }}"
+          git push || { git pull --rebase origin main && git push; }

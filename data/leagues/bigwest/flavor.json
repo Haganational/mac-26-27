@@ -3,80 +3,2684 @@
  "settings": {
   "enabled": true,
   "byline": "Hardwood Bricks staff",
-  "max_lines": 1
+  "max_lines": 2
  },
  "teams": {
   "cal-baptist": {
    "town": "Riverside",
    "home_floor": "the Fowler Events Center",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "California Baptist lost 68-60 to Kansas as a No. 13 seed in the first round of the 2026 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist won the 2026 WAC tournament as the No. 2 seed, beating top-seeded Utah Valley 63-61 in the championship game at Orleans Arena in Las Vegas.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist joined the Big West on July 1, 2026, after eight seasons in the Western Athletic Conference.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist moved up to NCAA Division I on July 1, 2018, and became eligible for the Division I postseason in 2022-23.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist reached the NCAA Division II tournament five straight years from 2014 to 2018 and went 7-5 in those trips.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's deepest Division II run came in 2018, when the Lancers won three NCAA tournament games before a 100-94 loss to Queens in the Elite Eight.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a Division II program, California Baptist won Pacific West regular-season titles in 2014 and 2016 and the league tournament in 2016.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist played in the NAIA's Golden State Athletic Conference before moving up to NCAA Division II in 2010.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's first Division I postseason game was a 56-55 loss to Loyola Marymount in the 2019 College Basketball Invitational.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dominique Daniels Jr. scored 47 points for California Baptist in a 78-71 overtime win over Utah Valley on Jan. 24, 2026.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rick Croy went 275-137 in 13 seasons as California Baptist's coach from 2013 to 2026 before leaving to become associate head coach at Arizona State.",
+     "source": "https://en.wikipedia.org/wiki/Rick_Croy",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Under Rick Croy, California Baptist went 83-17 in Pacific West Conference play and 68-66 in the WAC.",
+     "source": "https://en.wikipedia.org/wiki/Rick_Croy",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Riverside sits about 50 miles east of downtown Los Angeles and is the most populous city in the Inland Empire.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside, home of California Baptist, counted 314,998 residents in the 2020 census, making it the 12th-most populous city in California.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1874, Eliza Tibbets of Riverside received three Brazilian navel orange trees sent to her by William Saunders.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "By 1882 California had more than half a million citrus trees, and almost half of them were in Riverside.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's Mission Inn, the nation's largest Mission Revival Style building, anchors a Festival of Lights that is switched on the day after Thanksgiving and runs through New Year's Day.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1,600-seat Fox Theater in Riverside hosted the first showing of Gone with the Wind in 1939.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "March Air Reserve Base in Riverside, founded in 1918, is the oldest operating Air Force base west of the Mississippi River.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside is home to a concrete landmark billed as the World's Largest Paper Cup, which stands 68.10 feet tall.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "California Baptist was founded in 1950 in El Monte with 120 students and moved to Riverside in 1955.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist College officially became California Baptist University in September 1998.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's Lancers wear navy blue and gold and play on a campus in Riverside's Magnolia Avenue district.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's campus traditions include Lancer Madness, which kicks off basketball season.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's campus traditions include the Fortuna Bowl, an intramural flag football championship, and a Yule festival held since 1955.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist enrolled 808 students in 1994 and more than 12,000 in fall 2025.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's alumni include Brent Kutzle, a 2007 graduate who plays bass and cello for the band OneRepublic.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's alumni include Rick Warren, a 1976 graduate who wrote The Purpose Driven Life.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_University",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Kyle Getter is in his first season as California Baptist's coach after three seasons as associate head coach at Notre Dame.",
+     "source": "https://en.wikipedia.org/wiki/Kyle_Getter",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Kyle Getter, California Baptist's first-year coach, previously worked as an assistant at Virginia, Liberty and Radford.",
+     "source": "https://en.wikipedia.org/wiki/Kyle_Getter",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "California Baptist went 25-9 last season, including 13-5 in its final year in the WAC.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "California Baptist was picked ninth of 12 teams in the preseason poll ahead of its first Big West season.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "California Baptist's first Big West tournament is scheduled for March 10-13 in Henderson, Nev.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-10"
+    },
+    {
+     "text": "California Baptist and UC San Diego met in three straight NCAA Division II tournaments from 2016 to 2018, with UC San Diego winning the first two and the Lancers the third.",
+     "source": "https://en.wikipedia.org/wiki/California_Baptist_Lancers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's first Big West schedule includes a Jan. 14 home game against UC Irvine, the preseason favorite.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-01-14"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Fowler Events Center opened in 2017 at a cost of $73 million and replaced Van Dyne Gym as California Baptist's basketball home.",
+     "source": "https://en.wikipedia.org/wiki/Fowler_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "California Baptist's arena was the CBU Events Center until February 2023, when it was renamed for Dale E. and Sarah Ann Fowler after their $28.5 million gift to the university.",
+     "source": "https://en.wikipedia.org/wiki/Fowler_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 153,000-square-foot Fowler Events Center sits at 8431 Diana Ave. in Riverside and also hosts California Baptist's commencement ceremonies.",
+     "source": "https://en.wikipedia.org/wiki/Fowler_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Van Dyne Gym, California Baptist's basketball home before the Fowler Events Center opened in 2017, remains the main venue for Lancers women's volleyball and men's wrestling.",
+     "source": "https://en.wikipedia.org/wiki/Fowler_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "California Baptist drew 4,681 to the Fowler Events Center for a March 5, 2026, game against Abilene Christian during its final WAC season.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_California_Baptist_Lancers_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "cal-poly": {
    "town": "San Luis Obispo",
    "home_floor": "Mott Athletics Center",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Cal Poly made its only NCAA Division I tournament appearance in 2014, beating Texas Southern 81-69 in the First Four before losing 64-37 to top-seeded Wichita State.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly won the 2014 Big West tournament as the No. 7 seed, the first No. 7 seed ever to take the title, edging Cal State Northridge 61-59 in the final.",
+     "source": "https://bigwest.org/news/2014/3/16/IMPORTED_STORY_17595_17595.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On the way to the 2014 Big West title, Cal Poly beat No. 2 seed UC Santa Barbara 69-38 and No. 1 seed UC Irvine 61-58 on consecutive nights.",
+     "source": "https://bigwest.org/news/2014/3/16/IMPORTED_STORY_17595_17595.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly's 81-69 win over Texas Southern in Dayton in 2014 made the Mustangs the first team in 59 years with 19 losses to win an NCAA tournament game.",
+     "source": "https://www.heraldnet.com/sports/14-19-cal-poly-beats-texas-southern-advances-in-ncaa-tournament/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1980-81 Cal Poly team went 24-8, reached the NCAA Division II Final Four in Springfield, Mass., and won the national third-place game 62-61 in double overtime.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ernie Wheeler coached Cal Poly from 1972 to 1986, and ESPN named him the top coach in the school's basketball history in 2009.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly moved up to Division I in 1994-95, won the American West Conference regular-season title in 1996 and joined the Big West for the 1996-97 season.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chris Bjorklund remains Cal Poly's career scoring leader with 2,006 points, piled up from 1997-98 through 2000-01.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball_statistical_leaders",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly's single-game scoring record is 43 points, shared by Larry Madsen against Pomona-Pitzer in 1953-54 and Shanta Cotright against George Mason in 1995-96.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball_statistical_leaders",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim Schultz holds Cal Poly's career assists record with 552, and he needed only two seasons, 1979-80 and 1980-81, to set it.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball_statistical_leaders",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly guard Ben Larson averaged 3.45 steals per game in 1995-96 and was named American West Conference Player of the Year.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly reached the Big West championship game twice before its 2014 breakthrough, losing to Utah State in 2003 and to Long Beach State in 2007.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hamad Mousa led the Big West in scoring at 20.4 points per game for Cal Poly in 2025-26 and set a program single-season record with 180 made free throws.",
+     "source": "https://gopoly.com/news/2026/3/11/mens-basketball-mustangs-edged-in-big-west-championship-opening-round-by-uc-san-diego-72-69",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly made 78.7 percent of its free throws in 2025-26, a single-season program record.",
+     "source": "https://gopoly.com/news/2026/3/11/mens-basketball-mustangs-edged-in-big-west-championship-opening-round-by-uc-san-diego-72-69",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mott Athletics Center is named for Robert A. Mott, a Cal Poly physical education faculty member and department head from 1946 to 1978, and took his name on Sept. 24, 1988.",
+     "source": "https://en.wikipedia.org/wiki/Robert_A._Mott_Athletics_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly's Mott Athletics Center opened on Jan. 15, 1960, at a cost of $2.2 million and was known as the Main Gym until 1987.",
+     "source": "https://en.wikipedia.org/wiki/Robert_A._Mott_Athletics_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rick Barry scored 46 points for the Oakland Oaks in an ABA exhibition against the Los Angeles Stars at Cal Poly's gym on Oct. 13, 1968.",
+     "source": "https://en.wikipedia.org/wiki/Robert_A._Mott_Athletics_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "San Luis Obispo sits 200 miles north of Los Angeles and 220 miles south of San Francisco.",
+     "source": "https://www.visitslo.com/about-the-city-of-san-luis-obispo/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mission San Luis Obispo de Tolosa, founded in 1772 and the fifth of California's 21 Spanish missions, still anchors downtown San Luis Obispo.",
+     "source": "https://www.visitslo.com/about-the-city-of-san-luis-obispo/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Luis Obispo's Bubblegum Alley, on Higuera Street between Broad and Garden streets, is lined with 15-foot walls covered in chewed gum.",
+     "source": "https://www.visitslo.com/about-the-city-of-san-luis-obispo/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Every Thursday night, San Luis Obispo closes five blocks of Higuera Street to cars for its downtown farmers market.",
+     "source": "https://www.wikiwand.com/en/San_Luis_Obispo",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Luis Obispo sits along the Nine Sisters, a chain of peaks, six of which are open to the public for recreation.",
+     "source": "https://www.wikiwand.com/en/San_Luis_Obispo",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Luis Obispo was home to the Milestone Mo-Tel, credited as the first motel in the world.",
+     "source": "https://www.wikiwand.com/en/San_Luis_Obispo",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Luis Obispo, the county seat of San Luis Obispo County, was incorporated on Feb. 16, 1856, and counted 47,063 residents in the 2020 census.",
+     "source": "https://www.wikiwand.com/en/San_Luis_Obispo",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly students picked the Mustang as their mascot by vote in fall 1925, choosing it over the Mules, a name junior teams kept into the 1940s.",
+     "source": "https://magazine.calpoly.edu/spring-2022/the-musty-you-never-knew",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly's fight song, Ride High You Mustangs, and its alma mater, All Hail Green and Gold, were both written by H.P. Davidson.",
+     "source": "https://gopoly.com/sports/2020/6/4/fanzone-tradition",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly students began calling their costumed mascot Musty in 1962, and the school's first plush mascot suit arrived in 1981.",
+     "source": "https://magazine.calpoly.edu/spring-2022/the-musty-you-never-knew",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly was founded on March 8, 1901, and its Latin motto, Discere Faciendo, translates to Learn by Doing.",
+     "source": "https://en.wikipedia.org/wiki/California_Polytechnic_State_University,_San_Luis_Obispo",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The giant P on the hillside above Cal Poly grew out of a rivalry with San Luis Obispo High School and was first mentioned in a 1919 issue of the student newspaper.",
+     "source": "https://gopoly.com/sports/2020/6/4/fanzone-tradition",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "David Nwaba became the first Cal Poly alumnus to play in the NBA in 2017, when he joined the Los Angeles Lakers.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Cal_Poly_Mustangs_men's_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Cal Poly guard Kobe Sanders was taken 50th overall by the New York Knicks in the 2025 NBA draft and traded to the Clippers, the program's second draft pick after Lewis Cohen in 1978.",
+     "source": "https://gopoly.com/news/2025/6/26/mens-basketball-former-mustang-kobe-sanders-selected-50th-by-knicks-traded-to-clippers",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Mike DeGeorge was hired as Cal Poly's head coach on March 26, 2024, after going 141-43 in six seasons at Division II Colorado Mesa.",
+     "source": "https://gopoly.com/staff-directory/mike-degeorge/530",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal Poly won 30 games in Mike DeGeorge's first two seasons, the program's best two-season total in 13 years, and beat Stanford in 2024-25 and Utah in 2025-26.",
+     "source": "https://gopoly.com/staff-directory/mike-degeorge/530",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal Poly went 14-19 in 2025-26 under Mike DeGeorge and lost 72-69 to UC San Diego as the No. 8 seed in the Big West tournament in Henderson, Nev.",
+     "source": "https://gopoly.com/news/2026/3/11/mens-basketball-mustangs-edged-in-big-west-championship-opening-round-by-uc-san-diego-72-69",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal Poly's 89-79 win over rival UC Santa Barbara at Mott Athletics Center on Feb. 14, 2026, snapped a 17-game losing streak in the series.",
+     "source": "https://gopoly.com/news/2026/2/14/mens-basketball-mustangs-overwhelm-uc-santa-barbara-in-89-79-victory",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cal Poly and UC Santa Barbara, whose campuses sit less than 100 miles apart on the Central Coast, compete in the Blue-Green Rivalry, formalized in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Blue%E2%80%93Green_rivalry",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "A sellout crowd of 3,032 packed Cal Poly's Mott Gym for the Mustangs' 2007 regular-season finale against Pacific.",
+     "source": "https://mustangnews.net/mottspringsmemorieseternal/",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A crowd of 3,217, the attendance record for Cal Poly's Mott Athletics Center, watched the Mustangs play New Hampshire College in the NCAA Division II tournament on March 14, 1981.",
+     "source": "https://en.wikipedia.org/wiki/Robert_A._Mott_Athletics_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "csu-bakersfield": {
    "town": "Bakersfield",
    "home_floor": "the Icardo Center",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Cal State Bakersfield won NCAA Division II men's basketball national championships in 1993, 1994 and 1997 before the program moved up to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's 1992-93 team finished 33-0 under Pat Douglass and won the Division II national title.",
+     "source": "https://en.wikipedia.org/wiki/Pat_Douglass",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield beat Troy State 85-72 in Springfield, Massachusetts, in 1993 for its first Division II national championship, with Tyrone Davis named Most Outstanding Player.",
+     "source": "https://en.wikipedia.org/wiki/1993_NCAA_Division_II_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield won its third Division II title in five seasons in 1997, edging Northern Kentucky 57-56 in Louisville to finish 29-4.",
+     "source": "https://en.wikipedia.org/wiki/1997_NCAA_Division_II_men%27s_basketball_tournament",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield reached eight Division II Final Fours between 1982 and 1997 and finished as national runner-up in 1990.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield made 21 NCAA Division II tournament appearances and went 41-20 in those games.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's lone Division I NCAA tournament trip came in 2016, when the 15th-seeded Roadrunners lost 82-68 to Oklahoma in Oklahoma City.",
+     "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield earned its 2016 NCAA bid by beating top-seeded New Mexico State 57-54 in the WAC tournament final at Orleans Arena, capping a 24-9 season.",
+     "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield in 2017 became the first No. 8 seed to reach the NIT semifinals since seeding began in 2006, winning at California, Colorado State and UT Arlington.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's 2017 NIT run ended at Madison Square Garden with a 76-61 semifinal loss to Georgia Tech.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield went 25-10 in 2016-17 and won the WAC regular-season title with a 12-2 league record.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield began its move to Division I in 2006, became a full member in July 2010 and joined the Big West on July 1, 2020, after seven years in the WAC.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield takes its name from Thomas Baker, a lawyer and former Ohio militia colonel who settled on the banks of the Kern River in 1863.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield is the seat of Kern County, California's most productive oil county and the fourth most productive agricultural county in the nation by value.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield gave its name to the Bakersfield sound, an electric country style that grew up in the city's honky-tonks in the 1950s, with Buck Owens and Merle Haggard among its biggest stars.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield_sound",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield is home to the Buck Owens Crystal Palace, the nightclub and music museum the country star opened in 1996.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield_sound",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield sits near the southern end of the San Joaquin Valley, with the Sierra Nevada to the east and the Tehachapi Mountains to the south.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Many of Bakersfield's oldest restaurants serve Basque cuisine, a local tradition in a city that also answers to Bako and Nashville West.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield counted 403,455 residents in the 2020 census, making it the ninth-largest city in California.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bakersfield is linked to the Los Angeles area by Tejon Pass on Interstate 5, the route over the mountains at the south end of the San Joaquin Valley.",
+     "source": "https://en.wikipedia.org/wiki/Bakersfield,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield students chose Roadrunners as the school nickname in a November 1970 vote, picking it over El Cid.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield wears blue and gold, and its mascot is Rowdy the Roadrunner.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield held its first classes on Oct. 1, 1970, and its campus covers 375 acres.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Bakersfield",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's six original residence halls are named for places in J.R.R. Tolkien's The Lord of the Rings, among them Rivendell, Rohan and Lorien.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Bakersfield",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield won 29 NCAA Division II team national championships across six sports, including 13 in men's swimming and diving and eight in wrestling.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Bakersfield_Roadrunners",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield product Kebu Stewart was the 35th pick of the 1997 NBA draft and played 15 games for the Philadelphia 76ers in 1997-98.",
+     "source": "https://en.wikipedia.org/wiki/Kebu_Stewart",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Kebu Stewart led all of Division II with 13.4 rebounds a game for Cal State Bakersfield in 1996-97 and was named NABC Division II Player of the Year.",
+     "source": "https://en.wikipedia.org/wiki/Kebu_Stewart",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Pat Douglass went 257-61 in 10 seasons as Cal State Bakersfield's coach and won three Division II national titles before leaving in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Pat_Douglass",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's athletic alumni include former New England Patriot and NCAA champion wrestler Stephen Neal and U.S. men's national soccer team member Gyasi Zardes.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Bakersfield",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield named Todd Lee its head coach on March 26, 2026, bringing the former Roadrunners assistant back from an assistant's job at USC.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal State Bakersfield is in its first season under Todd Lee after going 8-24 overall and 2-18 in the Big West in 2025-26.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal State Bakersfield opens Big West play Dec. 3 against UC Santa Barbara at the Icardo Center.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2026-12-02"
+    },
+    {
+     "text": "Cal State Bakersfield is in its seventh Big West season, in a league that added California Baptist, Sacramento State and Utah Valley in 2026.",
+     "source": "https://en.wikipedia.org/wiki/Big_West_Conference",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal State Bakersfield and the rest of the Big West are due in Henderson, Nevada, in March for the conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-09"
+    },
+    {
+     "text": "Pat Douglass left Cal State Bakersfield in 1997 for UC Irvine, now one of the Roadrunners' Big West opponents, and coached there until 2010.",
+     "source": "https://en.wikipedia.org/wiki/Pat_Douglass",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield beat Utah Valley 81-80 in four overtimes in the 2017 WAC tournament semifinals, nine years before Utah Valley joined the Roadrunners in the Big West.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara ended Cal State Bakersfield's 2024-25 season in the first round of the Big West tournament after the Roadrunners went 14-19.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cal_State_Bakersfield_Roadrunners_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Icardo Center, Cal State Bakersfield's on-campus home, seats 3,497 and opened in 1989.",
+     "source": "https://en.wikipedia.org/wiki/Icardo_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield opened the Icardo Center on Feb. 18, 1989, with a 99-86 win over Cal Poly Pomona.",
+     "source": "https://gorunners.com/facilities/icardo-center/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield's arena opened as the CSUB Activities Center and now carries the names of Jimmie and Marjorie Icardo, boosters who gave more than $2.5 million to Roadrunner athletics.",
+     "source": "https://gorunners.com/facilities/icardo-center/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield installed a blue court at the Icardo Center in fall 2011, which the school bills as the first of its kind in college basketball.",
+     "source": "https://gorunners.com/facilities/icardo-center/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cal State Bakersfield moved its home games downtown to Centennial Garden in 1998-99 and did not return to the Icardo Center full-time until 2014-15.",
+     "source": "https://gorunners.com/facilities/icardo-center/1",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Icardo Center covers 44,000 square feet on the Cal State Bakersfield campus and also houses Roadrunner volleyball and wrestling.",
+     "source": "https://gorunners.com/facilities/icardo-center/1",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "cal-state-fullerton": {
    "town": "Fullerton",
    "home_floor": "Titan Gym",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Cal State Fullerton reached the NCAA Elite Eight in 1978 under coach Bobby Dye, and that 23-9 team was inducted into the school's athletics Hall of Fame in 2025.",
+     "source": "https://fullertontitans.com/honors/hall-of-fame/the-1977-78-mens-basketball-team/57",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In Albuquerque in 1978, Cal State Fullerton beat New Mexico 90-85 and San Francisco 75-72 before losing to Arkansas in the NCAA West Regional final.",
+     "source": "https://csufullerton.prestosports.com/sports/m-baskbl/2017-18/releases/20180315nk4vgl",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton has played in four NCAA tournaments, in 1978, 2008, 2018 and 2022, and holds a 2-4 record in the event.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Fullerton_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Cal State Fullerton's 2008 Big West tournament title ended a 30-year NCAA tournament drought and sent the Titans to Omaha to face Wisconsin.",
+     "source": "https://csufullerton.prestosports.com/sports/m-baskbl/2017-18/releases/20180315nk4vgl",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton has won Big West regular-season titles in 1976 and 2008 and conference tournament titles in 1978, 2008, 2018 and 2022.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Fullerton_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-06"
+    },
+    {
+     "text": "Cal State Fullerton's 2022 NCAA tournament game against Duke in Greenville, S.C., came in Mike Krzyzewski's last NCAA tournament before his retirement.",
+     "source": "https://csufullerton.prestosports.com/sports/m-baskbl/2022-23/releases/20230117kgc4c4",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton has retired three men's basketball numbers: No. 4 for Rodney Anderson, No. 20 for Leon Wood and No. 30 for Greg Bunch.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Fullerton_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Men's basketball was Cal State Fullerton's first intercollegiate team, and coach Alex Omalev took the Titans five rounds into the NAIA playoffs in 1961-62.",
+     "source": "https://csufullerton.prestosports.com/athletics/tradition",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton beat Oregon State and San Francisco in the 2005 NIT before losing to Georgetown in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Fullerton_Titans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2011-12 Cal State Fullerton men went 13-1 at Titan Gym, including 8-0 in Big West play.",
+     "source": "https://fullertontitans.com/facilities/?id=5",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fullerton was founded in 1887 by brothers George and Edward Amerige, and the town was named for railroad official George H. Fullerton.",
+     "source": "https://www.cityoffullerton.com/about-us/arts-culture/history-of-fullerton",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Edward Amerige marked the Fullerton townsite on July 5, 1887, at what is now the corner of Harbor Boulevard and Commonwealth Avenue.",
+     "source": "https://www.cityoffullerton.com/about-us/arts-culture/history-of-fullerton",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Leo Fender developed the first commercially successful solid-body electric guitar in Fullerton in 1949, and Fender production continued in the city until 1985.",
+     "source": "https://en.wikipedia.org/wiki/Fullerton,_CA",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fender's original Fullerton factory stood at Santa Fe and Pomona avenues, where a parking structure with murals honoring Leo Fender now stands.",
+     "source": "https://fullertonhistory.com/2024/01/05/photographs-then-and-now-fender-factory/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fullerton, a city of 143,617 at the 2020 census, sits about 25 miles southeast of downtown Los Angeles in northern Orange County.",
+     "source": "https://en.wikipedia.org/wiki/Fullerton,_CA",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fullerton College is the oldest community college in continuous operation in California.",
+     "source": "https://en.wikipedia.org/wiki/Fullerton,_CA",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton was created in 1957 as Orange County State College, and its first classes met in 1959 at Sunny Hills High School.",
+     "source": "https://fullertonhistory.com/2025/07/16/a-brief-history-of-csuf/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton students picked the Titans nickname in 1959, choosing it in a close vote over Aardvarks and Rebels.",
+     "source": "https://csufullerton.prestosports.com/traditions/name",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton's elephant mascot, Tuffy the Titan, traces to a spring 1962 intercollegiate elephant race on campus that drew an estimated crowd of more than 10,000.",
+     "source": "https://csufullerton.prestosports.com/traditions/name",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton wears orange because an athletic equipment manager chose it when the school was Orange County State College, and the Athletics Council formally acknowledged it in 1987.",
+     "source": "https://csufullerton.prestosports.com/traditions/name",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton alum Leon Wood was the No. 10 pick in the 1984 NBA draft, won Olympic gold that summer and became an NBA referee in 1996.",
+     "source": "https://en.wikipedia.org/wiki/Leon_Wood",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bruce Bowen played four seasons at Cal State Fullerton, went undrafted in 1993 and won three NBA titles with San Antonio, which retired his No. 12.",
+     "source": "https://en.wikipedia.org/wiki/Bruce_Bowen",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton alum Cedric Ceballos, a two-time All-Big West first-team pick, won the 1992 NBA Slam Dunk Contest with a blindfolded dunk.",
+     "source": "https://en.wikipedia.org/wiki/Cedric_Ceballos",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Dedrique Taylor has led Cal State Fullerton to two NCAA tournaments, in 2018 and 2022, the most by any coach in program history.",
+     "source": "https://fullertontitans.com/news/2026/5/7/mens-basketball-dedrique-taylor-signs-two-year-contract-extension.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Dedrique Taylor, a former UC Davis player, was the associate head coach at Arizona State before Cal State Fullerton hired him in April 2013.",
+     "source": "https://en.wikipedia.org/wiki/Dedrique_Taylor",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Dedrique Taylor entered the 2026-27 season with 179 wins at Cal State Fullerton, the most of any coach in program history.",
+     "source": "https://fullertontitans.com/news/2026/5/7/mens-basketball-dedrique-taylor-signs-two-year-contract-extension.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Picked last in the 2025-26 Big West preseason poll, Cal State Fullerton went 18-16 and 12-8 in the league, and Dedrique Taylor was named Big West Coach of the Year.",
+     "source": "https://fullertontitans.com/news/2026/5/7/mens-basketball-dedrique-taylor-signs-two-year-contract-extension.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal State Fullerton's 2025-26 season ended with a 78-63 loss to Hawai'i in the Big West semifinals after an 82-70 quarterfinal win over UC Davis.",
+     "source": "https://fullertontitans.com/news/2026/5/7/mens-basketball-dedrique-taylor-signs-two-year-contract-extension.aspx",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Cal State Fullerton plays 15 home games at Titan Gym in 2026-27, and the Big West Tournament opens March 10 in Henderson, Nev.",
+     "source": "https://fullertontitans.com/news/2026/9/1/mens-basketball-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "current",
+     "until": "2027-03-10"
+    },
+    {
+     "text": "Cal State Fullerton visits UCLA at Pauley Pavilion on Nov. 18.",
+     "source": "https://fullertontitans.com/news/2026/9/1/mens-basketball-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "current",
+     "until": "2026-11-18"
+    },
+    {
+     "text": "Cal State Fullerton rallied from 14 points down to beat Long Beach State 72-71 in the 2022 Big West final in Henderson, Nev., as E.J. Anosike scored 22 on 6-of-6 shooting.",
+     "source": "https://bigwest.org/news/2022/3/13/mens-basketball-cal-state-fullerton-downs-long-beach-state-in-thriller-to-claim-ncaa-tournament-berth.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Before 2022, the only conference tournament final between Cal State Fullerton and Long Beach State came in 1978, and Fullerton won it.",
+     "source": "https://longbeachstate.com/news/2022/3/12/mens-basketball-faces-cal-state-fullerton-in-big-west-tournament-championship-tonight",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton and UC Irvine are the only Division I universities in Orange County.",
+     "source": "https://en.wikipedia.org/wiki/Tuffy_the_Titan",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton beat UC Irvine 81-66 in the 2008 Big West final at the Anaheim Convention Center, with Josh Akognon scoring 23 points.",
+     "source": "https://www.sports-reference.com/cbb/boxscores/2008-03-15-california-irvine.html",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Cal State Fullerton beat UC Irvine 71-55 for the 2018 Big West tournament title.",
+     "source": "https://ucirvinesports.com/news/2019/3/16/mens-basketball-anteaters-primed-for-rematch-with-titans-in-big-west-final",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Cal State Fullerton's basketball teams have played home games at Titan Gym since the 1964-65 season.",
+     "source": "https://fullertontitans.com/facilities/?id=5",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Titan Gym holds about 4,000 after a 2005-06 expansion added balcony seating on the south side of the Cal State Fullerton building.",
+     "source": "https://fullertontitans.com/facilities/?id=5",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Titan Gym, at 800 North State College Blvd. in Fullerton, hosted handball competitions at the 1984 Summer Olympics.",
+     "source": "https://en.wikipedia.org/wiki/Titan_Gym",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Chairback seats replaced most of the bleachers at Cal State Fullerton's Titan Gym, which added an east-end video board for the 2012-13 season.",
+     "source": "https://fullertontitans.com/facilities/?id=5",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "csun": {
    "town": "Northridge",
    "home_floor": "the Matadome",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Cal State Northridge first fielded a men's basketball team in 1958-59, when the school was San Fernando Valley State College, and finished 3-13.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The first win in Cal State Northridge men's basketball history came on Dec. 13, 1958, a 73-64 decision over La Verne.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge posted its first winning season in 1964-65, going 18-8.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge has reached the NCAA Division I tournament twice, in 2001 and 2009, and is 0-2 in those games.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-15"
+    },
+    {
+     "text": "Cal State Northridge made its first NCAA Division I tournament in 2001 as a No. 13 seed and lost 99-75 to fourth-seeded Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge went to the 2009 NCAA tournament as a No. 15 seed and lost 81-70 to second-seeded Memphis.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge won both the Big Sky regular-season and tournament titles in 2000-01, finishing 22-10.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge won the 2009 Big West tournament by beating Pacific 71-66 in overtime in the final.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge knocked off 23rd-ranked Utah State in the semifinals of the 2004 Big West tournament.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge won five CCAA regular-season titles, in 1971, 1972, 1978, 1979 and 1985.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge played in the NCAA Division II tournament in 1978, 1979 and 1985, reaching a regional final in the first and last of those trips.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 1977-78 Cal State Northridge team won the CCAA and beat UC Davis 79-73 in the Division II regional before falling 70-67 to San Diego.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge's 1984-85 team won the CCAA and came within three points of a Division II regional title, losing the final 51-48.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge played in the NIT in 2025, losing 87-70 to Stanford in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal State Northridge's 2018-19 season ended in the College Basketball Invitational with a 92-84 first-round loss to Utah Valley.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brian Heinle is the career scoring leader at Cal State Northridge with 1,641 points.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Markus Carr holds the Cal State Northridge career assists record with 767.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jerry Joseph's 807 rebounds remain the career record at Cal State Northridge.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jim Malkin's 1,301 points stood as the Cal State Northridge career scoring record until Andre Chevalier passed him in 1994.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Paul McCracken, a former Cal State Northridge player, later played in the NBA.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bobby Braswell coached Cal State Northridge from 1996 to 2013, winning 205 games and taking the Matadors to both of their NCAA Division I tournaments.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "alumni",
+     "until": "2027-03-15"
+    },
+    {
+     "text": "Reggie Theus coached Cal State Northridge from 2013 to 2018.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Trent Johnson became the seventh head coach in Cal State Northridge history after serving as interim coach in 2021-22.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Andy Newman was named head coach at Cal State Northridge on April 15, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Matadome, Cal State Northridge's home gym, opened on Nov. 30, 1962, as Matador Gymnasium.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Matadome attendance record of 3,100 was set at Cal State Northridge's 1978 Division II regional game against San Diego.",
+     "source": "https://en.wikipedia.org/wiki/Cal_State_Northridge_Matadors_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "long-beach-state": {
    "town": "Long Beach",
    "home_floor": "the Walter Pyramid",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Long Beach State has made 10 NCAA tournament appearances, the most recent in 2024, and has twice reached the Elite Eight, most recently in 1972.",
+     "source": "https://longbeachstate.com/news/2024/3/18/long-beach-state-mens-basketball-returns-to-march-madness",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Long Beach State lost the 1971 NCAA West Regional final to UCLA 57-55 in Salt Lake City.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_centuryclub50_html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jerry Tarkanian went 122-20 as Long Beach State's coach from 1968 to 1973.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_coaches_html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lute Olson coached Long Beach State for one season, 1973-74, and went 24-2.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_coaches_html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State earned its 2024 NCAA tournament bid by beating UC Davis 74-70 in the Big West tournament final, its first trip since the 2011-12 season.",
+     "source": "https://longbeachstate.com/news/2024/3/18/long-beach-state-mens-basketball-returns-to-march-madness",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Seeded 15th, Long Beach State faced second-seeded Arizona at the Delta Center in Salt Lake City in the first round of the 2024 NCAA tournament.",
+     "source": "https://longbeachstate.com/news/2024/3/18/long-beach-state-mens-basketball-returns-to-march-madness",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State has won 14 regular-season conference titles in men's basketball, the most recent in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Long_Beach_State_Beach_men's_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Lucious Harris and Bryon Russell led Long Beach State to a 1993 upset of No. 1 Kansas in Lawrence.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_centuryclub50_html",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State was a charter member of the Big West, joining the league in 1969-70.",
+     "source": "https://ucsdtritons.com/news/2020/7/8/general-meet-our-new-rivals-long-beach-state.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State has retired the men's basketball numbers of Ed Ratleff (42), Bryon Russell (32), Lucious Harris (30) and Glenn McDonald (20).",
+     "source": "https://longbeachstate.com/news/2018/8/17/mens-basketball-glenn-mcdonald-to-have-jersey-retired-during-homecoming",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State changed its nickname from the 49ers to the Beach before the 2019-20 season.",
+     "source": "https://en.wikipedia.org/wiki/Long_Beach_State_Beach_men's_basketball",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's cobalt blue Pyramid rises 18 stories and is one of four true pyramids in the United States.",
+     "source": "https://longbeachstate.com/sports/2018/7/31/facilities-pyramid-html",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's largest home crowd was 12,987 at the Long Beach Arena for a 76-66 win over Marquette on March 3, 1973.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_centuryclub50_html",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's colors have been black and gold since a 2000 student referendum; the school's original colors were brown and gold.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_traditions_html",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's shark mascot, Elbee, debuted Aug. 17, 2020.",
+     "source": "https://csulb.edu/node/591771",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State students chose a shark as the school mascot in 2019 with 53 percent of the vote, a nod to the campus Shark Lab and its proximity to the beach.",
+     "source": "https://lbpost.com/news/final-verdict-sharks-are-in-as-csulbs-new-mascot/",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's Big Brown Music Machine band debuted in October 1958, its name drawn from the school's original colors of brown and gold.",
+     "source": "https://www.csulb.edu/node/599571",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State opened in 1949 as Los Angeles-Orange County State College, with 169 students in a converted apartment building on East Anaheim Street.",
+     "source": "https://csulb.edu/node/591771",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's campus sits at 1250 Bellflower Boulevard, about 3 miles from the Pacific Ocean.",
+     "source": "https://en.wikipedia.org/wiki/CSULB",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Long Beach, about 25 miles south of Los Angeles, is California's seventh-largest city with more than 466,000 residents and about 5.5 miles of sandy beaches.",
+     "source": "https://www.visitlongbeach.com/about-long-beach/frequently-asked-questions/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1,019-foot Queen Mary, which made its maiden voyage in May 1936, has been moored in Long Beach since 1967.",
+     "source": "https://visitlongbeach.com/things-to-do/attractions/the-queen-mary",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Grand Prix of Long Beach was first run through the city's streets in 1975 and was a Formula One race from 1976 to 1983.",
+     "source": "https://en.wikipedia.org/wiki/Grand_Prix_of_Long_Beach",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's Ed Ratleff was a two-time consensus All-American and co-captain of the 1972 U.S. Olympic team.",
+     "source": "https://longbeachstate.com/honors/hall-of-fame/ed-ratleff/14",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Glenn McDonald, a 1974 first-round pick out of Long Beach State, won the 1976 NBA championship with the Boston Celtics.",
+     "source": "https://longbeachstate.com/news/2018/8/17/mens-basketball-glenn-mcdonald-to-have-jersey-retired-during-homecoming",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Craig Hodges, who played at Long Beach State from 1978 to 1982, won the NBA Three-Point Contest three straight years from 1990 to 1992.",
+     "source": "https://en.wikipedia.org/wiki/Craig_Hodges",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bryon Russell went from Long Beach State to a 13-season NBA career after the Utah Jazz took him 45th overall in 1993.",
+     "source": "https://en.wikipedia.org/wiki/Bryon_Russell",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "James Ennis, the 2012-13 Big West Player of the Year at Long Beach State, spent eight years in the NBA and played in 395 games.",
+     "source": "https://longbeachstate.com/news/2026/1/15/mens-basketball-hall-of-fame-spotlight-james-ennis",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Tex Winter, who developed the triangle offense, coached Long Beach State from 1978 to 1983 and went 78-69.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_coaches_html",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State and UC Irvine compete across sports each year in the Black and Blue Rivalry, with the winning athletics department taking home a surfboard trophy.",
+     "source": "https://longbeachstate.com/sports/2025/9/29/2025-26-black-and-blue-rivalry",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Chris Acker, Long Beach State's coach since April 2024, was an assistant at San Diego State from 2019 to 2024, including the Aztecs' run to the 2023 national championship game.",
+     "source": "https://en.wikipedia.org/wiki/Chris_Acker",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Long Beach State went 10-22 last season and 6-14 in the Big West, finishing ninth.",
+     "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2025-26_Long_Beach_State_Beach_men's_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "McCaden Adams scored a game-high 21 points with four 3-pointers for Long Beach State in its season opener, a 66-63 loss at Utah on Nov. 2, 2026.",
+     "source": "https://www.deseret.com/sports/2026/11/02/three-takeaways-utah-basketball-season-opener-long-beach-state/",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The Pyramid at Long Beach State opened Nov. 30, 1994, when the 49ers beat Detroit 71-64 before 5,021 fans and an ESPN audience.",
+     "source": "https://longbeachstate.com/sports/2018/7/31/facilities-pyramid-html",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The record crowd at Long Beach State's Pyramid is 6,912, set for a men's basketball game against North Carolina on Nov. 16, 2012.",
+     "source": "https://en.wikipedia.org/wiki/LBS_Financial_Credit_Union_Pyramid",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State's arena was renamed the LBS Financial Credit Union Pyramid on Nov. 19, 2025, after carrying the Walter Pyramid name since 2005.",
+     "source": "https://en.wikipedia.org/wiki/LBS_Financial_Credit_Union_Pyramid",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Walter Pyramid name at Long Beach State honored Mike and Arline Walter, who gave $2.1 million; Mike Walter was dean of the College of Business Administration from 1993 to 2000.",
+     "source": "https://en.wikipedia.org/wiki/LBS_Financial_Credit_Union_Pyramid",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Each side of the Pyramid at Long Beach State measures 345 feet at its base, and each 81-ton seating platform can be raised hydraulically to expose the floor.",
+     "source": "https://longbeachstate.com/sports/2018/7/31/facilities-pyramid-html",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Long Beach State fans have a tradition of remaining on their feet until the visiting team scores its first basket.",
+     "source": "https://longbeachstate.com/sports/2018/8/1/_trads_traditions_html",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
   },
   "sacramento-state": {
    "town": "Sacramento",
    "home_floor": "the Hornets Nest",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Sacramento State has fielded a men's basketball team since the 1948-49 season.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State reached the 1962 NCAA Division II championship game and lost to Mount Saint Mary's 58-57 in overtime.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State needed two overtimes to beat Nebraska Wesleyan 74-73 in the 1962 NCAA Division II semifinals.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State made four NCAA Division II tournament appearances, in 1959, 1962, 1970 and 1988, and is still looking for its first Division I tournament bid.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Sacramento State's 2014-15 team went 21-12 and tied for third in the Big Sky at 13-5 before reaching the second round of the CollegeInsider.com Tournament.",
+     "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Sacramento_State_Hornets_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State went 13-1 in regular-season home games at the Hornets Nest in 2014-15, with the only loss an 80-75 decision to Portland.",
+     "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Sacramento_State_Hornets_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jack Heron won 196 games as Sacramento State's coach across two stints, from 1968 to 1978 and from 1979 to 1984.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State played baseball in the Big West as an affiliate member from 1997 to 2002, long before the Hornets joined the league as a full member in 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/Big_West_Conference",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State's first men's game at Hornet Pavilion was a 103-79 win over Dominican in November 2025, which was also Mike Bibby's debut as head coach.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Hornet Pavilion, Sacramento State played from 1955 to 2025 in a 1,012-seat campus facility.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at Sacramento State's old Hornets Nest was named Colberg Court in 2008 for Debby Colberg, who won 828 matches as the Hornets' volleyball coach.",
+     "source": "https://en.wikipedia.org/wiki/Hornets_Nest_(Sacramento_State)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacramento sits at the confluence of the Sacramento and American rivers and has been home to the California Legislature since 1854.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento was the western terminus of the Pony Express, and construction of the first transcontinental railroad began in the city in 1863.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento goes by the City of Trees and has marketed itself as America's Farm-to-Fork Capital since 2012.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento, incorporated in 1850, counted 524,943 residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Summer heat in Sacramento is sometimes moderated by the delta breeze, a sea breeze that comes from San Francisco Bay through the Sacramento-San Joaquin River Delta.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento has been an NBA city since the Kings arrived from Kansas City in 1985, and the Kings' downtown home, Golden 1 Center, opened in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Guy West Bridge, designed to resemble the Golden Gate Bridge, has linked the Sacramento State campus across the American River since 1967 and is 1,144 feet long.",
+     "source": "https://en.wikipedia.org/wiki/Guy_West_Bridge",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State's 305-acre campus holds more than 3,500 trees and is bordered by the American River to the east and Folsom Boulevard to the south.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State's mascot, Herky the Hornet, is short for Hercules and was chosen in December 1947 over the Elk.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State's fight song, Fight, Hornet, Fight!, was composed in 1949 by Don McDonald, a member of the class of 1952.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State has worn green and gold since 1947, the year the school opened as Sacramento State College.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Actor Tom Hanks and director Ryan Coogler are among Sacramento State's notable alumni.",
+     "source": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Sacramento State center Eric Stuteville was the first overall pick in the 2017 NBA G League Draft.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Brian Katz, a Sacramento native and 1980 Sacramento State graduate, coached the Hornets from 2008 to 2021 and won 150 games.",
+     "source": "https://en.wikipedia.org/wiki/Brian_Katz",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Brian Katz was named Big Sky Conference Co-Coach of the Year in 2015 after guiding Sacramento State to 21 wins.",
+     "source": "https://en.wikipedia.org/wiki/Brian_Katz",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State coach Mike Bibby, hired on March 24, 2025, spent seven of his 14 NBA seasons with the Sacramento Kings from 2001 to 2008.",
+     "source": "https://en.wikipedia.org/wiki/Mike_Bibby",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacramento State coach Mike Bibby won the 1997 NCAA championship as a player at Arizona and went second overall to the Vancouver Grizzlies in the 1998 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Mike_Bibby",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Mike Bibby is in his second season at Sacramento State after the Hornets went 10-21 overall and 6-12 in the Big Sky in 2025-26.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sacramento_State_Hornets_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacramento State is playing its first season in the Big West after 30 seasons in the Big Sky.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sacramento_State_Hornets_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacramento State's final Big Sky season ended in Boise, Idaho, where the eighth-seeded Hornets lost 68-45 to Idaho in the first round of the 2026 conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sacramento_State_Hornets_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sacramento State and UC Davis have contested the Causeway Cup across their common sports since 2004-05, and their football trophy is cut from a concrete core of the Yolo Causeway.",
+     "source": "https://en.wikipedia.org/wiki/Causeway_Classic",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "Hornet Pavilion opened on Nov. 3, 2025, and seats 3,000 for Sacramento State games on telescopic bleachers that retract when not in use.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A second-floor running track circles the court at Sacramento State's Hornet Pavilion and doubles as standing-room balcony space on game nights.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State built Hornet Pavilion for about $10 million inside The WELL, the campus recreation and wellness center that opened in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fans enter Sacramento State's Hornet Pavilion, at 6000 J Street, through the adjacent Hornet Stadium.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Sacramento State's Hornet Pavilion has food truck parking on its outdoor concourse.",
+     "source": "https://en.wikipedia.org/wiki/Hornet_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hornet Revue Pep Band performs at all Sacramento State home men's and women's basketball games.",
+     "source": "https://en.wikipedia.org/wiki/Sacramento_State_Hornets",
+     "kind": "campus-tradition",
+     "until": ""
+    }
+   ]
   },
   "uc-irvine": {
    "town": "Irvine",
    "home_floor": "the Bren Events Center",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "UC Irvine first put a men's basketball team on the floor in the 1965-66 season.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine made its first NCAA Division I tournament appearance in 2015, when the 13th-seeded Anteaters lost 57-55 to fourth-seeded Louisville.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine's lone NCAA Division I tournament win came in 2019, when the 13th-seeded Anteaters beat fourth-seeded Kansas State 70-64.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "UC Irvine's 2019 NCAA tournament run ended in the second round with a 73-54 loss to 12th-seeded Oregon.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before moving up to Division I, UC Irvine played in the NCAA Division II tournament four times: 1968, 1969, 1972 and 1975.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine beat UCLA 80-74 in the 1986 NIT before bowing out against BYU, 93-80.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine's first NIT trip, in 1982, opened with a 70-69 win over San Diego State and ended with an 80-77 loss to Oklahoma.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine won its first conference regular-season title in 2001 and repeated in 2002, reaching the NIT both years.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine has won the conference tournament twice, in 2015 and 2019, and both titles sent the Anteaters to the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "UC Irvine swept the conference regular-season and tournament titles in 2019, the same year it won its first NCAA tournament game.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine won eight conference regular-season titles from 2014 through 2026, all of them under Russell Turner, who took over the program in 2010.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine reached the 2025 NIT championship game, where the Anteaters lost 85-84 in overtime to Chattanooga.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine beat Northern Colorado, Jacksonville State, UAB and North Texas on its way to the 2025 NIT final.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine went 32-7 in 2024-25, finishing second in the Big West at 17-3 and playing for the NIT title.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine has retired two men's basketball numbers: Kevin Magee's No. 44 in 1995 and Scott Brooks' No. 12 in 2019.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Scott Brooks, whose No. 12 hangs retired at UC Irvine, played in the NBA from 1988 to 1999 for six franchises, including Houston and Philadelphia.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine product Tom Tolbert played in the NBA from 1988 to 1995 with Charlotte, Golden State, the Los Angeles Clippers and Orlando.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former UC Irvine forward Bob Thornton spent parts of 1986 through 1996 in the NBA with Minnesota, New York, Philadelphia, Utah and Washington.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine alumnus Ronnie Grandison played in the NBA between 1988 and 1996 for Atlanta, Boston, Charlotte, Miami and New York.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Tod Murphy went from UC Irvine to an NBA career that ran from 1987 to 1994 with Detroit, Golden State, the Los Angeles Clippers and Minnesota.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine products Ben McDonald, Johnny Rogers and Wayne Engelstad all reached the NBA in the 1980s.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Irvine counts Long Beach State as its rival in the Big West.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Russell Turner is in his 17th season as UC Irvine's head coach, having led the Anteaters since 2010.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Both of UC Irvine's NCAA Division I tournament trips, in 2015 and 2019, came under head coach Russell Turner.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "UC Irvine is the defending Big West regular-season champion after going 23-12 overall and 15-5 in the league in 2025-26.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-03-07"
+    },
+    {
+     "text": "UC Irvine's 2025-26 season ended with a 75-72 loss to UNLV in the first round of the NIT.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC Irvine has played in the NIT in each of the last four seasons, from 2023 through 2026.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "UC Irvine has made 10 NIT appearances, the first in 1982 and the most recent in 2026.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UC Irvine plays its home games at the Bren Events Center, which seats 5,000.",
+     "source": "https://en.wikipedia.org/wiki/UC_Irvine_Anteaters_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "uc-riverside": {
    "town": "Riverside",
    "home_floor": "the SRC Arena",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "UC Riverside made 17 NCAA Division II tournament appearances between 1970 and 1997 and went 29-18 in those games.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside played for the Division II national championship in 1995, falling 71-63 to Southern Indiana in the title game.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside won the Division II national third-place game twice, in 1970 and again in 1989.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's only NIT appearance came in 2025, when the Highlanders met Santa Clara in the first round.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders_men%27s_basketball",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC Riverside students voted in 1998 for a fee increase to move athletics to NCAA Division I, and the athletic department left Division II in 2000.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 22 wins UC Riverside posted in 2022-23 are the program's most in any season since its Division I record begins in 2001-02.",
+     "source": "https://www.sports-reference.com/cbb/schools/california-riverside/men/",
+     "kind": "program-history",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC Riverside is still looking for its first trip to the Division I NCAA Tournament.",
+     "source": "https://www.sports-reference.com/cbb/schools/california-riverside/men/",
+     "kind": "program-history",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "John Masi coached UC Riverside through its first four Division I seasons, from 2001-02 through 2004-05.",
+     "source": "https://www.sports-reference.com/cbb/schools/california-riverside/men/",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike Magpayo went 89-63 in five seasons at UC Riverside from 2020 to 2025 and was named Big West Coach of the Year in 2023.",
+     "source": "https://en.wikipedia.org/wiki/Mike_Magpayo",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside went 55-32 in Big West play across Mike Magpayo's five seasons, finishing in the league's top three in three of them.",
+     "source": "https://en.wikipedia.org/wiki/Mike_Magpayo",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Riverside sits about 50 miles east of downtown Los Angeles and is the most populous city in the Inland Empire.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's citrus history includes the three Brazilian navel orange trees Eliza Tibbets received in 1874.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's Parent Navel Orange Tree is the last of California's two original navel orange trees.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's Mission Inn is the nation's largest Mission Revival Style building.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's Festival of Lights begins with a lighting ceremony the day after Thanksgiving and runs through New Year's Day.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside, incorporated in 1883 and the seat of Riverside County, takes its name from its spot beside the Santa Ana River.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Riverside's Fox Theater hosted the first showing of the 1939 film Gone with the Wind.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Among Riverside's landmarks is a concrete paper cup about 68 feet tall, the Dixie Cup on Iowa Street.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Riverside County Historic Courthouse in downtown Riverside is a Beaux-Arts building modeled on the Petit Palais in Paris.",
+     "source": "https://en.wikipedia.org/wiki/Riverside,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's Highlanders nickname was inspired by the campus's high elevation, between 1,100 and 1,450 feet near Box Springs Mountain.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's mascot is a bear named Scotty Highlander, and students voted online in 2011 for the current design, a roaring bear in a plaid Tam o' Shanter.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's original mascot was a little bear in a kilt, and a 1998 redesign gave the bear a half-blue face in homage to William Wallace.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside has its own blue and gold tartan, a registered trademark worn by the campus pipe band and by the mascot.",
+     "source": "https://en.wikipedia.org/wiki/UC_Riverside_Highlanders",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's Bell Tower stands 161 feet tall and holds 48 bells, one of only five carillons in California.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside grew out of the UC Citrus Experiment Station, established in 1907, and opened its college on Feb. 14, 1954, with 65 faculty members and 127 students.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside tends a Citrus Variety Collection of about 1,800 trees, two each of 640 types of citrus.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's alumni include former U.S. Poet Laureate Billy Collins and Nobel Prize in Chemistry laureate Richard Schrock.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's athletic alumni include professional baseball player Joe Kelly and Brenda Martinez, who ran the 1,500 meters for the United States at the 2016 Rio Olympics.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Charles E. Young, UC Riverside's first student body president, went on to become chancellor of UCLA.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Riverside",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Gus Argenal is in his second season at UC Riverside, which hired him on May 1, 2025, from Cal State San Bernardino, 50-20 in his two seasons there.",
+     "source": "https://en.wikipedia.org/wiki/Gus_Argenal",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before UC Riverside hired him, Gus Argenal took Cal State San Bernardino to the Division II Final Four in 2024, a 27-8 season that was his first with the Coyotes.",
+     "source": "https://en.wikipedia.org/wiki/Gus_Argenal",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside coach Gus Argenal played four seasons at UC Davis, where he holds the Aggies' single-game record with 14 assists.",
+     "source": "https://en.wikipedia.org/wiki/Gus_Argenal",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC Riverside coach Gus Argenal grew up in Lafayette, California, and worked on the staffs at Nevada, Cal State Fullerton and Arkansas before returning to head coaching in 2023.",
+     "source": "https://en.wikipedia.org/wiki/Gus_Argenal",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC Riverside went 10-22 overall and 5-15 in the Big West in 2025-26, its first season under Gus Argenal.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UC_Riverside_Highlanders_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "SRC Arena, the home of UC Riverside basketball, seats up to 3,168.",
+     "source": "https://en.wikipedia.org/wiki/Student_Recreation_Center_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside's Student Recreation Center, which houses SRC Arena, first opened on Jan. 11, 1994.",
+     "source": "https://en.wikipedia.org/wiki/Student_Recreation_Center_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UC Riverside students voted in 2010 to expand the Student Recreation Center around SRC Arena, and the building reopened on Oct. 3, 2014, at 155,000 square feet, up from 80,000.",
+     "source": "https://en.wikipedia.org/wiki/Student_Recreation_Center_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The building that holds UC Riverside's SRC Arena also has an indoor climbing wall, an indoor track, a pool and a classroom kitchen.",
+     "source": "https://en.wikipedia.org/wiki/Student_Recreation_Center_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "SRC Arena does more than host UC Riverside men's basketball, serving also as the home of the women's basketball and women's volleyball teams and the site of commencement ceremonies.",
+     "source": "https://en.wikipedia.org/wiki/Student_Recreation_Center_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "uc-san-diego": {
    "town": "La Jolla",
    "home_floor": "LionTree Arena",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "UC San Diego has fielded a men's basketball team since 1965, when Jack Shawcroft coached the Tritons' first season.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego's first Division I NCAA tournament game came in 2025, when the 12th-seeded Tritons lost 68-65 to fifth-seeded Michigan in the first round.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego went 30-5 overall and 18-2 in the Big West in 2024-25, finishing first in the conference.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego won both the Big West regular-season and tournament championships in 2025.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego went 5-5 in NCAA Division II tournament games before moving up to Division I.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego reached the Division II Sweet Sixteen in 2016, beating Chico State and Cal Baptist before a 60-55 loss to Western Oregon.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego's first Division II tournament trip came in 2008 and ended with an 80-60 first-round loss to Alaska Anchorage.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego beat Cal Poly Pomona 61-50 in the 2019 Division II tournament before falling to Point Loma Nazarene in the second round.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego played in the NCAA Division III tournament four times, in 1990, 1991, 1992 and 1994, and went 2-4.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego won a Division III tournament game by a single point in 1994, edging Pomona-Pitzer 67-66.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego beat Claremont-Mudd-Scripps 76-72 in the 1991 Division III tournament before a 108-95 loss to Otterbein in the sectional semifinal.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego won five California Collegiate Athletic Association tournament titles, in 2008, 2017, 2018, 2019 and 2020, the most of any current or former CCAA member.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego won CCAA regular-season championships in 2017, 2019 and 2020 during its Division II years.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC San Diego finished second in the Big West at 15-5 in 2023-24, went 21-12 overall and lost 77-75 to Chicago State in the first round of the CBI.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Eric Olen went 210-114 as UC San Diego's head coach from 2013 to 2025.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Tom Marshall coached UC San Diego from 1983 to 1994, a stretch that included all four of the program's Division III tournament appearances.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Barry Cunningham had three separate stints as UC San Diego's head coach, from 1969 to 1972, 1974 to 1976 and 1977 to 1979.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Greg Lanthier led UC San Diego for a decade, from 1994 to 2004, and Chris Carlson coached the Tritons from 2007 to 2013.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "coach",
+     "until": ""
+    },
+    {
+     "text": "Clint Allard is in his second season as UC San Diego's head coach in 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "UC San Diego is scheduled to leave the Big West for the West Coast Conference in 2027-28.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UC San Diego plays its home games in La Jolla at LionTree Arena, which seats 4,200.",
+     "source": "https://en.wikipedia.org/wiki/UC_San_Diego_Tritons_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "uc-santa-barbara": {
    "town": "Santa Barbara",
    "home_floor": "the Thunderdome",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "UC Santa Barbara has made seven NCAA Division I tournament appearances, the first coming in 1988 as a No. 10 seed against Maryland.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's lone NCAA Division I tournament win came in 1990, when the ninth-seeded Gauchos beat No. 8 seed Houston 70-66.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara came within a point of an NCAA tournament win in 2021, falling 63-62 to fifth-seeded Creighton as a No. 12 seed.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara fell 86-81 to third-seeded Arizona as a No. 14 seed in the 2002 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara has won five conference tournament titles, in 2002, 2010, 2011, 2021 and 2023.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara has claimed six conference regular-season championships, in 1999, 2003, 2008, 2010, 2021 and 2023.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara has retired one men's basketball number, the No. 22 worn by guard Brian Shaw from 1986 to 1988.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before its Division I days, UC Santa Barbara reached the Elite Eight of the 1961 NCAA Division II tournament, where it lost 79-65 to South Dakota State.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara went 27-8 and 15-5 in conference play in 2022-23, a season that ended against third-seeded Baylor in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara was a founding member of the Big West Conference, then known as the Pacific Coast Athletic Association.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Santa Barbara sits about 90 miles west-northwest of Los Angeles.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Santa Barbara coast is sometimes called the American Riviera.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Barbara lies on a south-facing stretch of coastline between the Santa Ynez Mountains and the Pacific Ocean.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Channel Islands lie about 20 miles off the coast of Santa Barbara.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mission Santa Barbara, established on Dec. 4, 1786, is known as the Queen of the Missions.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Barbara's Stearns Wharf was built in 1872.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Barbara celebrates Old Spanish Days Fiesta every August.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara moved in 1949 to a 400-acre site in Goleta that had been Marine Corps Air Station Santa Barbara until 1946.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara carries a Santa Barbara mailing address, and its campus surrounds the unincorporated community of Isla Vista.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Storke Tower, completed in 1969 on the UC Santa Barbara campus, is the tallest steel and cement structure in Santa Barbara County.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The UC Santa Barbara campus has its own lagoon and borders the Pacific Ocean on two sides, with Campus Point jutting into the water.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara traces its roots to the Anna Blake School, founded in 1891, and joined the University of California system in 1944.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's teams were the Roadrunners until September 1934, when the student body voted to become the Gauchos.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara marked its 1934 switch to the Gauchos nickname with a ceremony of four riders on horseback before a football game.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's official mascot is Olé, and the Fantom of the 'Dome is an unofficial one.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's school colors are Pacific Blue and Gaucho Gold.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara won NCAA titles in men's water polo in 1979 and men's soccer in 2006, beating UCLA in both finals.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's NBA alumni include Brian Shaw, Gabe Vincent, Ajay Mitchell, Orlando Johnson, Alan Williams and James Nunnally.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Earlier UC Santa Barbara players to reach the NBA include Don Ford, John Tschogl, Richard Anderson and Conner Henry.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara's alumni roll includes actor Michael Douglas, musician Jack Johnson and Robert Ballard, the oceanographer who found the Titanic in 1985.",
+     "source": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Joe Pasternack is in his 10th season as UC Santa Barbara's head coach, having taken over the program in 2017.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Joe Pasternack's first UC Santa Barbara team went 23-9 in 2017-18, and he has taken the Gauchos to the NCAA tournament in 2021 and 2023.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "UC Santa Barbara is set to return in 2027-28 to the West Coast Conference, a league it previously belonged to from 1965 to 1969.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "current",
+     "until": "2027-06-30"
+    },
+    {
+     "text": "UC Santa Barbara's rivalry with Cal Poly, the Blue-Green Rivalry, began with a football game in November 1921 and has been scored across all sports on a points system since 2009.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Gauchos",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "UC Santa Barbara's Events Center opened in 1979 and was originally known as the Campus Events Center.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Thunderdome nickname for UC Santa Barbara's Events Center is traced to the Gauchos' 1987 upset of North Carolina State in the building.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd in the history of UC Santa Barbara's Thunderdome was 6,512, for a men's basketball game against Ohio State on Dec. 18, 1991.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In the 1980s, UC Santa Barbara students greeted the first Gaucho basket of each game at the Thunderdome by throwing toilet paper onto the court.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UC Santa Barbara students later traded toilet paper for tortillas at the Thunderdome, and the resulting delay-of-game call became known as the Tortilla Technical.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bleacher Report once ranked the floor at UC Santa Barbara's Thunderdome the 11th-best court design in college basketball.",
+     "source": "https://en.wikipedia.org/wiki/UC_Santa_Barbara_Events_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   },
   "utah-valley": {
    "town": "Orem",
    "home_floor": "the UCCU Center",
-   "lines": [],
-   "home_lines": []
+   "lines": [
+    {
+     "text": "Utah Valley won a program-record 28 games in 2022-23.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley beat New Mexico, Colorado and Cincinnati in the 2023 NIT before falling 88-86 in overtime to UAB in the semifinals.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley put up 114 points in a 114-101 win at BYU on Nov. 26, 2016, in front of 16,003 at the Marriott Center in Provo.",
+     "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley won five WAC regular-season titles, in 2014, 2021, 2023, 2025 and 2026.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley jumped straight from the junior college ranks to NCAA Division I in 2003 and became a full Division I member in July 2009.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley won 27 straight home games from Nov. 4, 2024, to Feb. 28, 2026, the longest home winning streak in program history.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ryan Toolson remains Utah Valley's career scoring leader with 2,163 points and its career leader in 3-pointers with 315.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fardaws Aimaq led NCAA Division I in rebounding at 15.0 per game for Utah Valley in 2020-21, the season he was named WAC Player of the Year.",
+     "source": "https://en.wikipedia.org/wiki/Fardaws_Aimaq",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dick Hunsaker coached Utah Valley from 2002 to 2015, a 13-year run that carried the program from junior college ball into the WAC.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In December 2022, Utah Valley won 75-60 at BYU's Marriott Center and 77-72 at Oregon's Matthew Knight Arena in a span of 13 days.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Orem sits about 45 miles south of Salt Lake City at roughly 4,767 feet, near the eastern shore of Utah Lake with Mount Timpanogos to the east.",
+     "source": "https://en.wikipedia.org/wiki/Orem,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Orem took its name in 1914 from Walter C. Orem, president of the Salt Lake and Utah Railroad, and was incorporated on May 5, 1919.",
+     "source": "https://en.wikipedia.org/wiki/Orem,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before it was Orem, the home of Utah Valley University was once called Sharon and also went by Provo Bench.",
+     "source": "https://en.wikipedia.org/wiki/Orem,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "WordPerfect, Novell and Blendtec all got their start in Orem, the Utah County city that bills itself as Family City USA.",
+     "source": "https://en.wikipedia.org/wiki/Orem,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Orem's summer festival, now called Oremfest, began in 1949 to celebrate the completion of State Street.",
+     "source": "https://en.wikipedia.org/wiki/Orem,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley began in fall 1941 as Central Utah Vocational School in Provo and started moving to its Orem campus in 1977.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley has had five other names since 1941 and did not become Utah Valley University until July 1, 2008.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley enrolled 48,670 students in fall 2025, making the Orem school the largest university in Utah.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley's student section has been called The Den since 2017-18, when the name replaced the MAWL.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley wears green and white, cheers behind a mascot named Willy the Wolverine and sings a fight song called Stand Up and Cheer.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Ronnie Price went undrafted in 2005, became the first player to go directly from Utah Valley to the NBA and played 544 games through 2017.",
+     "source": "https://en.wikipedia.org/wiki/Ronnie_Price",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ronnie Price averaged 24.3 points as a Utah Valley senior in 2004-05 and was inducted into the school's Hall of Fame in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Ronnie_Price",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Mark Pope went 77-56 in four seasons at Utah Valley from 2015 to 2019 before leaving for BYU, and Kentucky hired him in April 2024.",
+     "source": "https://en.wikipedia.org/wiki/Mark_Pope",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Mark Madsen, who won NBA titles with the Lakers in 2001 and 2002, went 70-51 as Utah Valley's coach from 2019 to 2023 before leaving for California.",
+     "source": "https://en.wikipedia.org/wiki/Mark_Madsen_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley counts two NBA draft picks among its former players: Michael McDonald, taken by Golden State in 1995, and Travis Hansen, taken by Atlanta in 2003.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Todd Phillips is in his fourth season as Utah Valley's head coach after being promoted on April 6, 2023, and went 66-34 over his first three.",
+     "source": "https://en.wikipedia.org/wiki/Todd_Phillips_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Utah Valley coach Todd Phillips went 205-58 in eight seasons at Salt Lake Community College and won the NJCAA Division I national title there in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Todd_Phillips_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Utah Valley is in its first Big West season, a move announced on June 4, 2025, that took effect July 1, 2026.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Utah Valley went 25-9 last season, won the WAC regular-season title at 14-4 and lost 79-78 to George Washington in the first round of the NIT.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Utah Valley has played in four NITs, most recently in 2026, and is still chasing its first NCAA Tournament bid as a Division I program.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines_men%27s_basketball",
+     "kind": "current",
+     "until": "2027-03-14"
+    },
+    {
+     "text": "Utah Valley's first Big West tournament is set for March 11-13 at Lee's Family Forum in Henderson, Nev.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "current",
+     "until": "2027-03-10"
+    },
+    {
+     "text": "California Baptist beat Utah Valley 63-61 in the 2026 WAC tournament final.",
+     "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley and California Baptist, new Big West rivals, meet Jan. 21 in Orem and Feb. 6 in Riverside, Calif.",
+     "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "rivalry",
+     "until": "2027-01-20"
+    },
+    {
+     "text": "Utah Valley's campus in Orem is 3.4 miles from BYU in Provo, and its series with Utah Tech is known as the Old Hammer Rivalry.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Valley_Wolverines",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ],
+   "home_lines": [
+    {
+     "text": "The UCCU Center, Utah Valley's home in Orem, opened in January 1996 as the McKay Events Center and seats 8,500.",
+     "source": "https://en.wikipedia.org/wiki/UCCU_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley's arena in Orem carried the name of David O. McKay until 2010, when Utah Community Credit Union acquired the naming rights.",
+     "source": "https://en.wikipedia.org/wiki/UCCU_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The UCCU Center, Utah Valley's home at 800 West University Parkway in Orem, cost $27.7 million to build.",
+     "source": "https://en.wikipedia.org/wiki/UCCU_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Utah Flash, an NBA D-League affiliate of the Utah Jazz, shared the UCCU Center in Orem with Utah Valley from 2007 to 2011.",
+     "source": "https://en.wikipedia.org/wiki/UCCU_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Utah Valley's only home game of its 2023 NIT run, a 74-68 quarterfinal win over Cincinnati, drew 5,289 to the UCCU Center in Orem.",
+     "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Utah_Valley_Wolverines_men%27s_basketball_team",
+     "kind": "arena",
+     "until": ""
+    }
+   ]
   }
  },
  "rivalries": {
