@@ -28,8 +28,9 @@ ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10"]  # th
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
-DROP_FIRST = ("star", "next")  # what goes first, from the last edition back, when the show runs long
+DROP_FIRST = ("star", "next", "offcourt", "pickem")  # what goes first, from the last edition back, when the show runs long
 WATCH_TOP = 6
+OFF_COURT = 2  # alumni stories per episode
 SAID = {"horizon": "Horizon League"}  # how an edition's name is read aloud, where the short name doesn't work
 NUM = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
 
@@ -142,6 +143,7 @@ def _leaders_line(e: dict) -> str:
 
 def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict[str, Any]:
     """The show as segments, one card each: intro, then each edition's block, the At-Large Watch, outro."""
+    from . import alumni, anchors, leagues, pickem
     blocks = sorted(blocks, key=lambda b: ORDER.index(b["key"]) if b["key"] in ORDER else 99)
     start, end = now - timedelta(days=7), now - timedelta(days=1)
     span = f"{start.strftime('%B %-d')} to {end.strftime('%B %-d')}" if start.month != end.month else f"{start.strftime('%B %-d')} to {end.day}"
@@ -162,6 +164,21 @@ def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict
             segs.append({"kind": "star", "edition": b["key"], "colors": b["colors"], "name": b["name"], "text": b["star"]["text"], "card": b["star"]})
         if b.get("next"):
             segs.append({"kind": "next", "edition": b["key"], "colors": b["colors"], "name": b["name"], "text": b["next"]["text"], "card": b["next"]["card"]})
+    # Off the court: two alumni stories a week, from schools already on the show, in different editions.
+    day = now.date().isoformat()
+    on_air = {k: sg for sg in segs if (k := anchors.team_of(sg))}
+    used: set[str] = set()
+    for k in alumni.choose(list(on_air), day, n=len(on_air)):
+        src = on_air[k]
+        if src["edition"] in used or len(used) >= OFF_COURT:
+            continue
+        team = next((tm for lg in leagues.ALL.values() for tm in lg.teams if tm.key == k), None)
+        sg = alumni.segment(k, day, team.short if team else k, team.color if team else None)
+        if sg:
+            used.add(src["edition"])
+            segs.append({**sg, "edition": src["edition"], "colors": src.get("colors"), "name": src.get("name")})
+    if (sg := pickem.board()):  # Anchor Pick'em: the season board from the Den's desk ledger
+        segs.append(sg)
     rows = [r for r in (watch or []) if r.get("games")][:WATCH_TOP]
     if rows:
         names = [f"{r['short']} of the {r['conf_short']}" for r in rows[:4]]

@@ -90,3 +90,19 @@ def test_mood_follows_the_team():
     assert anchors.mood(card, "toledo") == ""
     card["ats"] = "Toledo lost but covered as a 6-point underdog."  # told from the loser's side: no underdog line for Ohio
     assert anchors.mood(card, "ohio") == ""
+
+
+def test_rivalry_desk_speaks_up_only_when_rivals_meet():
+    from mac import anchors
+    col, roster = anchors.color(), anchors.roster()
+    key = next(k for k in roster if col[k]["rival"] in roster)
+    rival = col[key]["rival"]
+    other = next(k for k in roster if k not in (key, rival))
+
+    def seg(away):
+        return {"kind": "preview", "text": "Tonight.", "card": {"away": {"key": away, "mac": True}, "home": {"key": key, "mac": True}}}
+
+    segs = [seg(rival), seg(other)]
+    anchors.dress(segs, [{"key": key}, {"key": key}])
+    assert f"Rivalry Desk: {anchors.first_name(roster[rival]['name'])}, bring your best." in segs[0]["text"]
+    assert "Rivalry Desk" not in segs[1]["text"]
