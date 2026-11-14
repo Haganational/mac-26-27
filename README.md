@@ -79,7 +79,10 @@ pytest -q
 ## Navigation, colors and sharing
 
 - Every page imports `templates/_layout.html` for the head (Open Graph / X card tags),
-  the sticky top bar (pages, a Teams menu, search, share) and the footer.
+  the sticky top bar and the footer. The bar holds seven items however many conferences we cover:
+  the edition's name (a menu that switches to any other edition, with a find box past eight),
+  Teams, Schedule & TV, Weekly, Bricks Index, the Betting desk and More. Site-wide pages
+  (front, At-Large, the Den, masthead, media) share `templates/_hub_bar.html`: one Conferences menu.
 - `templates/static/nav.js` runs search (`/` or Ctrl+K) over `site/search.json`,
   builds the "On this page" bar, adds a copy-link `#` to every section heading and
   opens the share menu (native share sheet on phones).

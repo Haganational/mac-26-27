@@ -90,10 +90,7 @@
 </style>
 </head>
 <body>
-<header class="bar"><div class="bar-in">
-  <a class="brand" href="./">Hardwood Bricks</a>
-  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="at-large.html" aria-current="page">At-Large</a><a href="den.html">The Den</a><a href="masthead.html">About</a></nav>
-</div></header>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "at-large.html") }}
 <div class="bricks" aria-hidden="true"></div>
 <main class="al">
   <div class="dateline"><span>Ratings as of {{ as_of }}</span><span class="tag">The at-large picture, from the mid-major side</span><span>{{ season }}</span></div>
