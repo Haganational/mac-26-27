@@ -3,7 +3,7 @@
 Sends through Gmail's SMTP with an app password. Needs two repo secrets, set by the account
 owner: ALERT_SMTP_USER (the Workspace mailbox, e.g. matthew@hardwoodbricks.com) and
 ALERT_SMTP_PASSWORD (a Google app password, never the account password). ALERT_TO is optional
-and defaults to desk@hardwoodbricks.com. Without the secrets the alert is printed as a GitHub
+and defaults to matthew@hardwoodbricks.com. Without the secrets the alert is printed as a GitHub
 Actions warning instead, so it still shows on the run page. Sending never raises.
 """
 from __future__ import annotations
@@ -12,7 +12,7 @@ import os
 import smtplib
 from email.message import EmailMessage
 
-DEFAULT_TO = "desk@hardwoodbricks.com"
+DEFAULT_TO = "matthew@hardwoodbricks.com"
 HOST, PORT = "smtp.gmail.com", 465
 
 
