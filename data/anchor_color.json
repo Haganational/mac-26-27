@@ -1,0 +1,557 @@
+{
+ "_about": "Anchor color (Nov 14 2026 draft by Claude; Matthew edits). voice = a direction for the anchor's reference audition (Gemini TTS) and the tone their lines are written to; catch = opener the first time they speak in a show; signoff = their last line; rival = the anchor they needle when the teams meet. Bits target anchors and teams, never real players or coaches.",
+ "color": {
+  "akron": {
+   "voice": "Warm Akron baritone, quick and dry, a factory-floor straight shooter.",
+   "catch": "Rubber City, report.",
+   "signoff": "That's the bounce. Vance out.",
+   "rival": "kent-state"
+  },
+  "ball-state": {
+   "voice": "Bright, crisp Indiana alto, upbeat and organized, every number lands.",
+   "catch": "Muncie, let's go.",
+   "signoff": "Chirp chirp. Back to you.",
+   "rival": "miami-oh"
+  },
+  "bowling-green": {
+   "voice": "Gravelly northwest-Ohio grandpa, slow and wry, half-smiling.",
+   "catch": "Pull up a chair, folks.",
+   "signoff": "Ayup. That's the Falcon report.",
+   "rival": "toledo"
+  },
+  "buffalo": {
+   "voice": "Smooth, confident Western New York voice, lake-effect calm.",
+   "catch": "From the snow belt, here's the word.",
+   "signoff": "Stay warm, Buffalo.",
+   "rival": "umass"
+  },
+  "central-michigan": {
+   "voice": "Loud, eager young Michigander, talks like he's mid-workout.",
+   "catch": "Fire up, Chips!",
+   "signoff": "That's a takedown. I'm out.",
+   "rival": "western-michigan"
+  },
+  "eastern-michigan": {
+   "voice": "Measured, warm Detroit-area alto, a teacher who loves the underdog.",
+   "catch": "Ypsi checking in.",
+   "signoff": "Keep your heads up, Eagles.",
+   "rival": "ball-state"
+  },
+  "kent-state": {
+   "voice": "Gritty northeast-Ohio voice, fast, a little hoarse from yelling.",
+   "catch": "Flash, here we go.",
+   "signoff": "Wire to wire. DeLuca, done.",
+   "rival": "akron"
+  },
+  "miami-oh": {
+   "voice": "Polished, slightly prim southwest-Ohio alto, brick-and-ivy confident.",
+   "catch": "Good evening from Oxford.",
+   "signoff": "Love and honor. Goodnight.",
+   "rival": "ohio"
+  },
+  "ohio": {
+   "voice": "Easygoing Appalachian-Ohio drawl, unhurried, storyteller warmth.",
+   "catch": "Well now, Athens has news.",
+   "signoff": "Stay Bobcat, friends.",
+   "rival": "miami-oh"
+  },
+  "toledo": {
+   "voice": "Bubbly, rapid Gen-Z energy, laughs mid-sentence.",
+   "catch": "Rockets, we're live!",
+   "signoff": "Peace out, Glass City.",
+   "rival": "bowling-green"
+  },
+  "umass": {
+   "voice": "Fast Boston-area cadence, wisecracking, drops his r's a little.",
+   "catch": "Amherst, buckle up.",
+   "signoff": "That's the Minuteman minute.",
+   "rival": "buffalo"
+  },
+  "western-michigan": {
+   "voice": "Warm Kalamazoo grandmother, steady, quietly ruthless about stats.",
+   "catch": "Hi, hon. Here's the scoop.",
+   "signoff": "Broncos ride on. Bye now.",
+   "rival": "central-michigan"
+  },
+  "bellarmine": {
+   "voice": "Smooth Louisville bourbon baritone, relaxed, a little old-school.",
+   "catch": "From Louisville, let's pour one.",
+   "signoff": "Knights, that's the round.",
+   "rival": "lipscomb"
+  },
+  "fgcu": {
+   "voice": "Breezy Gulf Coast energy, quick, sunny, a hint of Miami.",
+   "catch": "Dunk City, wake up!",
+   "signoff": "Stay sunny, Eagles.",
+   "rival": "stetson"
+  },
+  "jacksonville": {
+   "voice": "Big, booming Jacksonville voice, swagger, loves a nickname.",
+   "catch": "Duval, Dolphins, let's ride.",
+   "signoff": "River City runs through us.",
+   "rival": "north-florida"
+  },
+  "lipscomb": {
+   "voice": "Gracious Nashville alto, unhurried, sweet with a sharp edge.",
+   "catch": "Bless your hearts, here we go.",
+   "signoff": "That's Lipscomb. Y'all be good.",
+   "rival": "bellarmine"
+  },
+  "north-florida": {
+   "voice": "Laid-back young Floridian, surfer pace, sudden bursts of hype.",
+   "catch": "Ospreys, we're dialed in.",
+   "signoff": "Swoop. Sato out.",
+   "rival": "jacksonville"
+  },
+  "queens": {
+   "voice": "Crisp Charlotte professional, precise and dry, a banker who loves hoops.",
+   "catch": "Charlotte, the numbers.",
+   "signoff": "Royals, that's the ledger.",
+   "rival": "west-florida"
+  },
+  "stetson": {
+   "voice": "Raspy, theatrical Central Florida veteran, a born raconteur.",
+   "catch": "Deland, gather round.",
+   "signoff": "Hats off, Hatters.",
+   "rival": "fgcu"
+  },
+  "west-florida": {
+   "voice": "Warm, quick Panhandle voice, easy laugh, beach-town cheer.",
+   "catch": "Pensacola, sun's up.",
+   "signoff": "Argos, that's a wrap.",
+   "rival": "queens"
+  },
+  "cleveland-state": {
+   "voice": "Blunt, warm Cleveland baritone, a lifer, deadpan humor.",
+   "catch": "This is Cleveland. Let's talk.",
+   "signoff": "Vikings, sail on. Kowalski out.",
+   "rival": "youngstown-state"
+  },
+  "detroit-mercy": {
+   "voice": "Confident Detroit alto, sharp, fast, no patience for nonsense.",
+   "catch": "Motor City, listen up.",
+   "signoff": "Titans keep rolling.",
+   "rival": "oakland"
+  },
+  "green-bay": {
+   "voice": "Folksy Wisconsin baritone, long o's, dad-joke delivery.",
+   "catch": "Oh, you betcha, Phoenix fans.",
+   "signoff": "Cheers from up north.",
+   "rival": "milwaukee"
+  },
+  "iu-indy": {
+   "voice": "Clear, bright Indianapolis voice, fast-talking and proud of the new name.",
+   "catch": "Indy, here's the latest.",
+   "signoff": "Jags out.",
+   "rival": "purdue-fort-wayne"
+  },
+  "milwaukee": {
+   "voice": "Smooth Milwaukee radio baritone, cool and unhurried.",
+   "catch": "Brew City, what's good.",
+   "signoff": "Panthers, keep it smooth.",
+   "rival": "green-bay"
+  },
+  "northern-illinois": {
+   "voice": "Flat Chicago-suburbs alto, sardonic, quick wit.",
+   "catch": "DeKalb, here's the deal.",
+   "signoff": "Huskie pride. Night.",
+   "rival": "robert-morris"
+  },
+  "northern-kentucky": {
+   "voice": "Young Cincinnati voice, quick, eager, a little nasal.",
+   "catch": "Norse, we're up!",
+   "signoff": "Valhalla awaits. Peace.",
+   "rival": "wright-state"
+  },
+  "oakland": {
+   "voice": "Warm, raspy Detroit-suburbs grandmother, sweet then savage.",
+   "catch": "Golden Grizzlies, sugar, sit down.",
+   "signoff": "Grizz up. Love you.",
+   "rival": "detroit-mercy"
+  },
+  "purdue-fort-wayne": {
+   "voice": "Precise, upbeat Fort Wayne engineer type, loves a stat.",
+   "catch": "Fort Wayne, data's in.",
+   "signoff": "Mastodons march on.",
+   "rival": "iu-indy"
+  },
+  "robert-morris": {
+   "voice": "Brisk Pittsburgh alto, a touch of yinzer, all business.",
+   "catch": "Colonials, n'at, let's get to it.",
+   "signoff": "That's RMU. Bye, yinz.",
+   "rival": "northern-illinois"
+  },
+  "wright-state": {
+   "voice": "Cheerful Dayton voice, eager, nerdy about aviation.",
+   "catch": "Dayton, cleared for takeoff.",
+   "signoff": "Raiders, wheels up.",
+   "rival": "northern-kentucky"
+  },
+  "youngstown-state": {
+   "voice": "Hard Mahoning Valley baritone, steelworker blunt, short sentences.",
+   "catch": "Penguins. Here it is.",
+   "signoff": "That's Youngstown. Done.",
+   "rival": "cleveland-state"
+  },
+  "air-force": {
+   "voice": "Clipped, commanding retired-officer voice, dry, exact.",
+   "catch": "Falcons, attention.",
+   "signoff": "Aim high. Sterling out.",
+   "rival": "wyoming"
+  },
+  "grand-canyon": {
+   "voice": "Energetic young Phoenix voice, hype, loves the Havocs crowd.",
+   "catch": "Lopes up, Phoenix!",
+   "signoff": "Havoc out!",
+   "rival": "uc-davis"
+  },
+  "hawaii": {
+   "voice": "Warm, easy, unhurried baritone, a gentle laugh in every line.",
+   "catch": "Aloha, Rainbow Warrior fans.",
+   "signoff": "A hui hou. Kekoa out.",
+   "rival": "san-jose-state"
+  },
+  "nevada": {
+   "voice": "Crisp Reno alto, dry humor, mountain-town practical.",
+   "catch": "Reno, here's the line.",
+   "signoff": "Battle Born. Goodnight.",
+   "rival": "unlv"
+  },
+  "new-mexico": {
+   "voice": "Warm Albuquerque baritone, fiery when the Pit is loud.",
+   "catch": "From the Pit, let's go.",
+   "signoff": "Lobos, howl on.",
+   "rival": "utep"
+  },
+  "san-jose-state": {
+   "voice": "Fast, precise Bay Area tech voice, crisp and quietly funny.",
+   "catch": "San Jose, pushing the update.",
+   "signoff": "Spartans, shipped.",
+   "rival": "hawaii"
+  },
+  "uc-davis": {
+   "voice": "Gentle NorCal farm-country baritone, slow, wry.",
+   "catch": "Aggies, howdy from Davis.",
+   "signoff": "Go Ags. Jennings out.",
+   "rival": "grand-canyon"
+  },
+  "unlv": {
+   "voice": "Polished Vegas host alto, smooth, a showroom smile in the voice.",
+   "catch": "Live from Las Vegas.",
+   "signoff": "The house always wins. Night.",
+   "rival": "nevada"
+  },
+  "utep": {
+   "voice": "Young El Paso voice, bilingual warmth, quick and joyful.",
+   "catch": "Picks up, El Paso!",
+   "signoff": "Miners dig deep. Adios.",
+   "rival": "new-mexico"
+  },
+  "wyoming": {
+   "voice": "Raspy high-plains rancher alto, slow, tough, funny.",
+   "catch": "Howdy from Laramie.",
+   "signoff": "Ride for the brand, Pokes.",
+   "rival": "air-force"
+  },
+  "canisius": {
+   "voice": "Gruff Buffalo baritone, old-school, a corner-bar storyteller.",
+   "catch": "Griffs, pull up a stool.",
+   "signoff": "That's the Griff report.",
+   "rival": "niagara"
+  },
+  "fairfield": {
+   "voice": "Bright Connecticut prep alto, quick and polished.",
+   "catch": "Stags, let's be quick.",
+   "signoff": "Fairfield out.",
+   "rival": "sacred-heart"
+  },
+  "iona": {
+   "voice": "Big New Rochelle baritone, New York swagger, loud laugh.",
+   "catch": "Gaels, ya ready?",
+   "signoff": "Iona, baby. Moretti out.",
+   "rival": "manhattan"
+  },
+  "manhattan": {
+   "voice": "Quick Bronx alto, sharp tongue, warm underneath.",
+   "catch": "Jaspers, listen up.",
+   "signoff": "Riverdale out.",
+   "rival": "iona"
+  },
+  "marist": {
+   "voice": "Steady Hudson Valley voice, dry, coach-like.",
+   "catch": "Red Foxes, here's the tape.",
+   "signoff": "Poughkeepsie out.",
+   "rival": "siena"
+  },
+  "merrimack": {
+   "voice": "Fast Massachusetts alto, bubbly, Boston-adjacent.",
+   "catch": "Warriors, wicked good news.",
+   "signoff": "Merrimack out.",
+   "rival": "quinnipiac"
+  },
+  "mount-st-marys": {
+   "voice": "Gentle, warm Maryland pastor voice, soft wit, perfect timing.",
+   "catch": "Peace be with you, Mount fans.",
+   "signoff": "Go in peace. Go Mount.",
+   "rival": "siena"
+  },
+  "niagara": {
+   "voice": "Warm Niagara Falls alto, upbeat, quick laugh.",
+   "catch": "Purple Eagles, hello!",
+   "signoff": "See you at the Falls.",
+   "rival": "canisius"
+  },
+  "quinnipiac": {
+   "voice": "Precise Connecticut professional, analytical, dry.",
+   "catch": "Bobcats, the numbers.",
+   "signoff": "Quinnipiac out.",
+   "rival": "merrimack"
+  },
+  "rider": {
+   "voice": "Brisk central Jersey alto, no-nonsense, a little sarcastic.",
+   "catch": "Broncs, here's the scoop.",
+   "signoff": "Rider out.",
+   "rival": "saint-peters"
+  },
+  "sacred-heart": {
+   "voice": "Fast young Connecticut voice, hype, gym-rat energy.",
+   "catch": "Pioneers, let's go!",
+   "signoff": "Pioneers out!",
+   "rival": "fairfield"
+  },
+  "saint-peters": {
+   "voice": "Warm Jersey City grandmother, gracious, sharp.",
+   "catch": "Peacocks, hello, my dears.",
+   "signoff": "Strut on, Peacocks.",
+   "rival": "rider"
+  },
+  "siena": {
+   "voice": "Warm Albany baritone, Irish-American storyteller, cheerful.",
+   "catch": "Saints, top of the evening.",
+   "signoff": "That's Siena. Slainte.",
+   "rival": "marist"
+  },
+  "cal-baptist": {
+   "voice": "Earnest young Inland Empire voice, upbeat, sincere.",
+   "catch": "Lancers, let's get after it.",
+   "signoff": "Lancers out.",
+   "rival": "csu-bakersfield"
+  },
+  "cal-poly": {
+   "voice": "Mellow Central Coast alto, outdoorsy, unhurried.",
+   "catch": "Mustangs, from San Luis Obispo.",
+   "signoff": "Ride on, Mustangs.",
+   "rival": "uc-santa-barbara"
+  },
+  "csu-bakersfield": {
+   "voice": "Warm Central Valley baritone, oilfield plainspoken.",
+   "catch": "Roadrunners, here's the word.",
+   "signoff": "Beep beep. Cisneros out.",
+   "rival": "cal-baptist"
+  },
+  "cal-state-fullerton": {
+   "voice": "Tough, quick Orange County alto, coach energy.",
+   "catch": "Titans, tie 'em up.",
+   "signoff": "That's Fullerton.",
+   "rival": "csun"
+  },
+  "csun": {
+   "voice": "Smooth Valley voice, cool, fast.",
+   "catch": "Matadors, what's up.",
+   "signoff": "Valley out.",
+   "rival": "cal-state-fullerton"
+  },
+  "long-beach-state": {
+   "voice": "Elegant Long Beach alto, calm, worldly.",
+   "catch": "The Beach is open.",
+   "signoff": "Go Beach. Goodnight.",
+   "rival": "uc-irvine"
+  },
+  "sacramento-state": {
+   "voice": "Easy Sacramento baritone, river-town casual.",
+   "catch": "Hornets, here it is.",
+   "signoff": "Sting on.",
+   "rival": "utah-valley"
+  },
+  "uc-irvine": {
+   "voice": "Crisp, fast Irvine alto, academic and competitive.",
+   "catch": "Anteaters, zot zot!",
+   "signoff": "Zot. Park out.",
+   "rival": "long-beach-state"
+  },
+  "uc-riverside": {
+   "voice": "Deep, calm Inland Empire baritone, wise and wry.",
+   "catch": "Highlanders, gather.",
+   "signoff": "That's Riverside.",
+   "rival": "uc-san-diego"
+  },
+  "uc-san-diego": {
+   "voice": "Quick San Diego alto, nerdy and proud, sunny.",
+   "catch": "Tritons, surf's up.",
+   "signoff": "Tritons out.",
+   "rival": "uc-riverside"
+  },
+  "uc-santa-barbara": {
+   "voice": "Laid-back Santa Barbara baritone, beach-casual, sneaky smart.",
+   "catch": "Gauchos, ola.",
+   "signoff": "Stay salty, Gauchos.",
+   "rival": "cal-poly"
+  },
+  "utah-valley": {
+   "voice": "Bright, kind Utah alto, upbeat, careful.",
+   "catch": "Wolverines, howdy from Orem.",
+   "signoff": "Go Dubs.",
+   "rival": "sacramento-state"
+  },
+  "davidson": {
+   "voice": "Booming circus-ringmaster baritone, grand, theatrical, rolls every r.",
+   "catch": "Ladies and gentlemen, Wildcats of all ages!",
+   "signoff": "And that concludes tonight's performance!",
+   "rival": "duquesne"
+  },
+  "dayton": {
+   "voice": "Calm mission-control alto, precise, a quiet thrill underneath.",
+   "catch": "Dayton, we have liftoff.",
+   "signoff": "Flyers, mission complete.",
+   "rival": "saint-louis"
+  },
+  "duquesne": {
+   "voice": "Pompous aristocratic baritone, slow, drawn out, delightfully snobbish.",
+   "catch": "Dukes, I bid you good evening.",
+   "signoff": "Dismissed. Toodle-oo.",
+   "rival": "davidson"
+  },
+  "fordham": {
+   "voice": "Intense, low, smoldering voice, short dramatic pauses.",
+   "catch": "Rams. The ring awaits.",
+   "signoff": "Olé. Bellini out.",
+   "rival": "st-bonaventure"
+  },
+  "george-mason": {
+   "voice": "Bubbly, breathless, sparkling alto, giggles at good news.",
+   "catch": "Patriots, let's sparkle!",
+   "signoff": "And stick the landing!",
+   "rival": "george-washington"
+  },
+  "george-washington": {
+   "voice": "Grand oratory baritone, founding-father pomp, speechifying.",
+   "catch": "Revolutionaries, hear ye, hear ye!",
+   "signoff": "Liberty, and a cover. Goodnight.",
+   "rival": "george-mason"
+  },
+  "la-salle": {
+   "voice": "Dramatic opera-diva alto, sweeping, every line a big finish.",
+   "catch": "Explorers, darlings, the curtain rises!",
+   "signoff": "And scene. Brava.",
+   "rival": "saint-josephs"
+  },
+  "loyola-chicago": {
+   "voice": "Solemn, warm knightly baritone, gentle wisdom, a priest's calm.",
+   "catch": "Ramblers, gather, and be blessed.",
+   "signoff": "Onward, Ramblers.",
+   "rival": "rhode-island"
+  },
+  "rhode-island": {
+   "voice": "Salty, hearty sea-captain baritone, laughing, booming.",
+   "catch": "Ahoy, Rams, all hands!",
+   "signoff": "Fair winds, Rhody.",
+   "rival": "loyola-chicago"
+  },
+  "richmond": {
+   "voice": "Peppy drum-major alto, crisp, counts everything in.",
+   "catch": "Spiders, five, six, seven, eight!",
+   "signoff": "Richmond, ten-hut. Out.",
+   "rival": "vcu"
+  },
+  "saint-josephs": {
+   "voice": "Velvet lounge-singer croon, smooth and slow, a wink in every word.",
+   "catch": "Hawks, hello, beautiful people.",
+   "signoff": "The Hawk will never die. Goodnight.",
+   "rival": "la-salle"
+  },
+  "saint-louis": {
+   "voice": "Theatrical Shakespearean alto, crisp diction, grand.",
+   "catch": "Billikens, attend!",
+   "signoff": "Exeunt, Billikens.",
+   "rival": "dayton"
+  },
+  "st-bonaventure": {
+   "voice": "Cheerful Victorian inventor, fast, giddy about gadgets.",
+   "catch": "Bonnies, the contraption is ready!",
+   "signoff": "Goggles off. Whitmore out.",
+   "rival": "fordham"
+  },
+  "vcu": {
+   "voice": "Cool, smoky disco-club alto, a groove under every line.",
+   "catch": "Rams, bring the havoc.",
+   "signoff": "Stay shining, VCU.",
+   "rival": "richmond"
+  },
+  "belmont": {
+   "voice": "Warm, twangy Nashville alto, sweet, quick to laugh.",
+   "catch": "Howdy, Bruins, hon.",
+   "signoff": "Y'all sparkle now.",
+   "rival": "murray-state"
+  },
+  "bradley": {
+   "voice": "Gravelly pirate-captain baritone, roguish, booming laugh.",
+   "catch": "Braves, all hands on deck!",
+   "signoff": "Hoist the colors. Hargrove out.",
+   "rival": "illinois-state"
+  },
+  "drake": {
+   "voice": "Breezy Jazz Age alto, fast patter, glamorous.",
+   "catch": "Bulldogs, darling, the party's started.",
+   "signoff": "Twenty-three skidoo, Drake.",
+   "rival": "northern-iowa"
+  },
+  "evansville": {
+   "voice": "Regal, plummy royal baritone, slow, magnificent.",
+   "catch": "Purple Aces, the crown speaks.",
+   "signoff": "Long live the Aces.",
+   "rival": "indiana-state"
+  },
+  "illinois-state": {
+   "voice": "Sparkly, bright alto, poised and competitive.",
+   "catch": "Redbirds, spin it!",
+   "signoff": "Ten-point-oh. Goodnight.",
+   "rival": "bradley"
+  },
+  "indiana-state": {
+   "voice": "Smooth lounge croon, Indiana warmth, a playful wink.",
+   "catch": "Sycamores, ladies and gents.",
+   "signoff": "Thank you, Terre Haute. Night.",
+   "rival": "evansville"
+  },
+  "murray-state": {
+   "voice": "Warm Kentucky alto, gracious, Derby-day elegance.",
+   "catch": "Racers, welcome to the paddock.",
+   "signoff": "Racers, run for the roses.",
+   "rival": "belmont"
+  },
+  "northern-iowa": {
+   "voice": "Booming Viking baritone, hearty, laughs like thunder.",
+   "catch": "Panthers, raise your horns!",
+   "signoff": "To Valhalla, Panthers.",
+   "rival": "drake"
+  },
+  "southern-illinois": {
+   "voice": "Regal, measured Egyptian-queen alto, serene, commanding.",
+   "catch": "Salukis, the throne addresses you.",
+   "signoff": "So it is written. Goodnight.",
+   "rival": "illinois-state"
+  },
+  "uic": {
+   "voice": "Smooth, fiery young Chicago voice, flair, dramatic pauses.",
+   "catch": "Flames, ignite.",
+   "signoff": "Olé, Chicago.",
+   "rival": "valparaiso"
+  },
+  "valparaiso": {
+   "voice": "Hearty Valkyrie elder alto, warm and fierce, battle-ready.",
+   "catch": "Beacons, shields up!",
+   "signoff": "To glory, Beacons.",
+   "rival": "uic"
+  }
+ }
+}

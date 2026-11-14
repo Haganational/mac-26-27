@@ -8,7 +8,7 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
+    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
 
 permissions:
   contents: write
@@ -65,6 +65,14 @@ jobs:
             [ -n "$VOICE_KEY" ] && echo "::warning::VOICE_KEY did not open voices/matthew.ogg.enc; testing with a Piper sample"
             echo "This is Mid Max Sixty, the Mid-American Conference in sixty seconds. Western Michigan beat Campbell eighty seven to seventy one last night, and Bowling Green hosts Cleveland State tonight at seven." \
               | python -m piper -m voices/$VOICE.onnx -f /tmp/ref.wav
+            echo "clone=yes" >> "$GITHUB_OUTPUT"
+          fi
+          # Anchors with an audition (voices/anchors/<key>.ogg, from anchor_voices.yml) are cloned too, host clip or not.
+          if ls voices/anchors/*.ogg >/dev/null 2>&1; then
+            mkdir -p /tmp/auditions
+            for f in voices/anchors/*.ogg; do ffmpeg -loglevel error -y -i "$f" -ac 1 -ar 24000 "/tmp/auditions/$(basename "$f" .ogg).wav"; done
+            echo "ANCHOR_AUDITIONS=/tmp/auditions" >> "$GITHUB_ENV"
+            echo "$(ls /tmp/auditions | wc -l) anchor auditions to clone"
             echo "clone=yes" >> "$GITHUB_OUTPUT"
           fi
       - name: Cache the clone model

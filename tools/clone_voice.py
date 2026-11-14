@@ -2,6 +2,9 @@
 
     python tools/clone_voice.py --ref voices/matthew.wav --jobs work/voice-jobs.json
 
+A job can carry its own "ref" (an anchor's audition clip, voices/anchors/<key>.wav); jobs
+without one use --ref. Jobs are grouped by reference so each voice is prepared once.
+
 Runs in its own virtualenv (torch and Chatterbox pin versions the site doesn't use),
 so it takes a JSON list of {"text", "out"} and writes one WAV per item, loading the
 model once. The reference clip must be over 5 seconds; 10 to 20 seconds of clean,
@@ -31,16 +34,22 @@ from chatterbox.tts_turbo import ChatterboxTurboTTS  # noqa: E402
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ref", required=True)
+    ap.add_argument("--ref", default=None)
     ap.add_argument("--jobs", required=True)
     a = ap.parse_args()
     jobs = json.load(open(a.jobs))
     torch.set_num_threads(max(1, torch.get_num_threads()))
     t0 = time.time()
     model = ChatterboxTurboTTS.from_pretrained(device="cpu")
-    model.prepare_conditionals(a.ref)
     print(f"model ready in {time.time() - t0:.0f}s", file=sys.stderr)
-    for j in jobs:
+    ready = None
+    for j in sorted(jobs, key=lambda j: j.get("ref") or a.ref or ""):
+        ref = j.get("ref") or a.ref
+        if not ref:
+            continue
+        if ref != ready:
+            model.prepare_conditionals(ref)
+            ready = ref
         t1 = time.time()
         wav = model.generate(j["text"])
         torchaudio.save(j["out"], wav, model.sr, encoding="PCM_S", bits_per_sample=16)  # 16-bit PCM for the wave module

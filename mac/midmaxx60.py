@@ -91,25 +91,34 @@ def wav_seconds(p: Path) -> float:
         return w.getnframes() / float(w.getframerate())
 
 
-def clone_all(texts: list[str], wavs: list[Path], work: Path) -> bool:
-    """Voice every segment in the cloned voice in one go (the model is slow to load).
+HOST = "host"
 
-    Needs VOICE_CLONE_PY (a Python with Chatterbox installed) and VOICE_REF (the reference clip).
-    Returns False, and the video falls back to Piper, if either is missing or the clone fails.
+
+def clone_all(texts: list[str], wavs: list[Path], work: Path, refs: list[str | None] | None = None) -> bool:
+    """Voice segments in cloned voices in one go (the model is slow to load).
+
+    refs[i] is an anchor's audition clip (voices/anchors/<key>.wav), HOST for a host segment (cloned
+    from VOICE_REF, Matthew's clip, when it is set), or None to leave that segment to Piper. Needs VOICE_CLONE_PY (a Python with
+    Chatterbox installed). Returns whether the host was cloned. Anything not cloned falls back to Piper.
     """
-    py, ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
-    if not (py and ref and Path(py).exists() and Path(ref).exists()):
+    py, host_ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
+    host_ok = bool(host_ref and Path(host_ref).exists())
+    refs = refs or [HOST] * len(texts)
+    jobs = [{"text": t, "out": str(w.resolve()), **({} if r == HOST else {"ref": r})}
+            for t, w, r in zip(texts, wavs, refs) if r and (r != HOST or host_ok)]
+    if not (py and Path(py).exists() and jobs):
         return False
-    jobs = work / "voice-jobs.json"
-    jobs.write_text(json.dumps([{"text": t, "out": str(w.resolve())} for t, w in zip(texts, wavs)]))
+    path = work / "voice-jobs.json"
+    path.write_text(json.dumps(jobs))
     tool = Path(__file__).resolve().parent.parent / "tools" / "clone_voice.py"
-    r = subprocess.run([py, str(tool), "--ref", ref, "--jobs", str(jobs)], timeout=3000)
-    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in wavs):
+    r = subprocess.run([py, str(tool), *(["--ref", host_ref] if host_ok else []), "--jobs", str(path)], timeout=3000)
+    done = [Path(j["out"]) for j in jobs]
+    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in done):
         print("voice clone failed; falling back to Piper", file=sys.stderr)
-        for w in wavs:
+        for w in done:
             w.unlink(missing_ok=True)
         return False
-    return True
+    return host_ok and any("ref" not in j for j in jobs)
 
 
 def speak(text: str, out: Path, voice_name: str | None = None, pace: float | None = None) -> None:
@@ -238,8 +247,9 @@ def voice_all(segs: list[dict], wavs: list[Path], work: Path) -> dict:
     for w in wavs:
         w.unlink(missing_ok=True)
     desk = [anchors.for_segment(sg) for sg in segs]
-    host = [i for i, a in enumerate(desk) if not a]
-    cloned = clone_all([spoken(segs[i]["text"]) for i in host], [wavs[i] for i in host], work) if host else False
+    anchors.dress(segs, desk)
+    refs = [HOST if not a else (str(p) if (p := anchors.audition(a["key"])) else None) for a in desk]
+    cloned = clone_all([spoken(sg["text"]) for sg in segs], wavs, work, refs)
     for sg, wav, a in zip(segs, wavs, desk):
         sg["anchor"] = a
         speak(spoken(sg["text"]), wav, a["voice"] if a else None, a["pace"] if a else None)

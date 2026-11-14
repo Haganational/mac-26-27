@@ -279,6 +279,12 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     else:
         results_label = f"Since {days[0].strftime('%A')}"
     results = [result_item(g, boxes.get(g["game_id"])) for g in sorted(fresh, key=lambda g: g["date"])]
+    # Each of our sides carries its current streak (W4, L3), which the anchors' storylines read (anchors.dress).
+    streaks = {r["key"]: r.get("streak") for r in standings if r.get("key")}
+    for r in results:
+        for side in (r["card"]["away"], r["card"]["home"]):
+            if side.get("key") in streaks:
+                side["streak"] = streaks[side["key"]]
 
     # Slate: today's games in Eastern time, else the next day with games.
     today_key = et_now.date().isoformat()
