@@ -1474,20 +1474,20 @@
     "name": "California Baptist Lancers",
     "abbr": "CBU",
     "score": 74,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2029",
     "key": null,
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": 58,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926777",
@@ -9790,5 +9790,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T05:32:26+00:00"
+ "live_at": "2026-11-14T05:47:21+00:00"
 }
