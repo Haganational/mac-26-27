@@ -93,7 +93,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
-          for L in asun horizon mw metro bigwest mvc a10; do LEAGUE=$L python -m mac.collect site; done
+          for L in asun horizon mw metro bigwest mvc a10 pac12 wcc; do LEAGUE=$L python -m mac.collect site; done
           python -m mac.collect site
       # Stale or empty data: skip today's video and email Matthew instead of publishing old news.
       # Pull requests always render, to test the path.

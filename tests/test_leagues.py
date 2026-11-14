@@ -100,6 +100,29 @@ def test_atlantic_10_names():
     assert lg.team_for_odds_name("Colorado St Rams") is None
 
 
+def test_pac_12_names():
+    lg = leagues.PAC12
+    assert lg.path == "pac12/" and len(lg.teams) == 9 and lg.theme == "timber"
+    assert lg.team_for_odds_name("San Diego St Aztecs") == "san-diego-state"
+    assert lg.team_for_odds_name("Colorado St Rams") == "colorado-state"
+    assert lg.team_for_odds_name("Washington St Cougars") == "washington-state"
+    assert lg.team_for_odds_name("Gonzaga Bulldogs") == "gonzaga"
+    assert lg.team_for_odds_name("San Diego Toreros") is None  # WCC
+    # The five schools that left are gone from the Mountain West edition.
+    assert not {t.key for t in lg.teams} & {t.key for t in leagues.MW.teams}
+
+
+def test_wcc_names():
+    lg = leagues.WCC
+    assert lg.path == "wcc/" and len(lg.teams) == 10 and lg.theme == "mission"
+    assert lg.team_for_odds_name("San Diego Toreros") == "san-diego"
+    assert lg.team_for_odds_name("Seattle Redhawks") == "seattle"
+    assert lg.team_for_odds_name("Saint Mary's Gaels") == "saint-marys"
+    assert lg.team_for_odds_name("Mt. St. Mary's Mountaineers") is None  # Metro
+    assert lg.team_for_odds_name("Portland St Vikings") is None
+    assert lg.team_for_odds_name("UC San Diego Tritons") is None  # Big West until 2027-28
+
+
 def test_no_odds_name_belongs_to_two_editions():
     from mac import book
     names = {n for s in book.load_odds() for e in s["events"] for n in (e[2], e[3])}
@@ -113,7 +136,8 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     tags = {lg.key: re.sub(r"\W", "", lg.hashtag or lg.short) for lg in leagues.ALL.values()}
     assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
                     "metro": "MetroConference", "bigwest": "BigWest",
-                    "mvc": "MVCHoops", "a10": "A10MBB"}
+                    "mvc": "MVCHoops", "a10": "A10MBB",
+                    "pac12": "Pac12MBB", "wcc": "WCCHoops"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]

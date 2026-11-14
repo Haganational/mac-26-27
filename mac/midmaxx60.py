@@ -391,10 +391,10 @@ def check(t: dict, data_time: str, now: datetime | None = None) -> str | None:
 
 def all_leagues() -> list:
     from . import leagues
-    return [leagues.MAC, leagues.HORIZON, leagues.ASUN, leagues.MW, leagues.METRO, leagues.BIGWEST, leagues.MVC, leagues.A10]
+    return [leagues.MAC, leagues.HORIZON, leagues.ASUN, leagues.MW, leagues.METRO, leagues.BIGWEST, leagues.MVC, leagues.A10, leagues.PAC12, leagues.WCC]
 
 
-SAID = {"Horizon": "Horizon League", "A-10": "Atlantic Ten"}  # how an edition's short name is read aloud
+SAID = {"Horizon": "Horizon League", "A-10": "Atlantic Ten", "Pac-12": "Pac-Twelve"}  # how an edition's short name is read aloud
 
 
 def combine(scripts: list[dict]) -> dict:
