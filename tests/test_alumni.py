@@ -7,21 +7,21 @@ from mac import alumni, anchors, gamer, midmaxx60
 
 STORY = {"name": "Ada Example", "years": "class of 1970", "known_for": "first woman to do a thing", "lean": "cheer",
          "fact": "Ada Example was the first woman to do a thing.", "evidence": "She was the first woman to do a thing.",
-         "source": "https://en.wikipedia.org/wiki/Ada_Example", "line": "Ada Example went first. Akron remembers."}
+         "source": "https://en.wikipedia.org/wiki/Ada_Example", "line": "Ada Example went first. Akron remembers.", "checked": True}
 
 
 @pytest.fixture
 def desk(tmp_path, monkeypatch):
     p = tmp_path / "alumni.json"
     p.write_text(json.dumps({"alumni": {"akron": [STORY, {**STORY, "name": "Bo Sample", "line": "Bo Sample, class act."}],
-                                        "toledo": [{**STORY, "source": ""}]}}))
+                                        "toledo": [{**STORY, "checked": False}]}}))
     monkeypatch.setattr(alumni, "PATH", p)
     alumni.load.cache_clear()
     yield
     alumni.load.cache_clear()
 
 
-def test_stories_need_a_line_a_fact_and_a_source(desk):
+def test_only_checked_stories_are_used(desk):
     assert len(alumni.stories("akron")) == 2
     assert alumni.stories("toledo") == [] and alumni.pick("toledo", "2026-11-14") is None
 
