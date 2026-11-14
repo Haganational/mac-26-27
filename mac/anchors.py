@@ -144,7 +144,7 @@ def backdrop(key: str) -> Path | None:
 def team_of(seg: dict) -> str | None:
     """Which of our schools a segment is about, from its card."""
     card = seg.get("card") or {}
-    if seg.get("kind") in ("star", "offcourt"):
+    if seg.get("kind") in ("star", "offcourt", "pickem"):
         return card.get("key")
     sides = [card.get(s) or {} for s in ("away", "home")]
     ours = [s for s in sides if s.get("mac") and s.get("key")]

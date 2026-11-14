@@ -103,6 +103,13 @@
     <div class="label">Player of the week <span>· {{ seg.name }}</span></div>
     <div class="player" style="--tc:{{ c.color }}">{{ logo(c) }}<div><div class="pname">{{ c.name }}</div><div class="pteam">{{ c.team }} · vs {{ c.opp }}</div>
       <div class="statline"><div><b>{{ c.pts }}</b><small>POINTS</small></div>{% if (c.reb or 0) >= 8 %}<div><b>{{ c.reb }}</b><small>REBOUNDS</small></div>{% endif %}{% if (c.ast or 0) >= 6 %}<div><b>{{ c.ast }}</b><small>ASSISTS</small></div>{% endif %}</div></div></div>
+  {% elif seg.kind == 'pickem' %}
+    {% set c = seg.card %}
+    <div class="label">Anchor Pick'em <span>· the season board</span></div>
+    <div class="split">
+      <div><div class="label" style="border:0">Desk points</div><div class="table">{% for r in c.desk %}<div style="--tc:{{ r.color }}">{{ r.name }}<span>{{ r.points }} pts</span></div>{% endfor %}</div></div>
+      {% if c.homer %}<div><div class="label" style="border:0">Homer ledger</div><div class="table">{% for r in c.homer %}<div style="--tc:{{ r.color }}">{{ r.school }}<span>{{ r.wins }}-{{ r.losses }}</span></div>{% endfor %}</div></div>{% endif %}
+    </div>
   {% elif seg.kind == 'offcourt' %}
     {% set c = seg.card %}
     <div class="label">Off the court <span>· {{ c.school }} alumni</span></div>

@@ -127,6 +127,11 @@
     <div class="label">Over-under watch · this season</div>
     <div class="ourec"><div class="{{ 'lead' if c.side == 'over' else '' }}"><b>{{ c.o }}</b><small>Overs</small></div><div class="{{ 'lead' if c.side == 'under' else '' }}"><b>{{ c.u }}</b><small>Unders</small></div></div>
     <div class="chips"><span class="chip gold">{{ '%+.1f'|format(c.diff) }} pts vs the close, per game</span><span class="chip">{{ c.n }} games with a {{ LG }} team</span></div>
+  {% elif seg.kind == 'pickem' %}
+    {% set c = seg.card %}
+    <div class="label">Anchor Pick'em · {{ c.school }} has the desk</div>
+    <div class="mini">{% for p in c.picks %}<div>{{ p.short }}<span>{{ 'Homer pick · ' if p.homer }}{{ p.worth }} pts</span></div>{% endfor %}</div>
+    <div class="chips">{% if c.last %}<span class="chip gold">Last night: {{ c.last.hits }} for {{ c.last.of }} · {{ c.last.points }} pts</span>{% endif %}<span class="chip">Beat the desk at the Den</span></div>
   {% elif seg.kind == 'offcourt' %}
     {% set c = seg.card %}
     <div class="label">Off the court · {{ c.school }} alumni</div>

@@ -28,7 +28,7 @@ ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10"]  # th
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
-DROP_FIRST = ("star", "next", "offcourt")  # what goes first, from the last edition back, when the show runs long
+DROP_FIRST = ("star", "next", "offcourt", "pickem")  # what goes first, from the last edition back, when the show runs long
 WATCH_TOP = 6
 OFF_COURT = 2  # alumni stories per episode
 SAID = {"horizon": "Horizon League"}  # how an edition's name is read aloud, where the short name doesn't work
@@ -143,7 +143,7 @@ def _leaders_line(e: dict) -> str:
 
 def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict[str, Any]:
     """The show as segments, one card each: intro, then each edition's block, the At-Large Watch, outro."""
-    from . import alumni, anchors, leagues
+    from . import alumni, anchors, leagues, pickem
     blocks = sorted(blocks, key=lambda b: ORDER.index(b["key"]) if b["key"] in ORDER else 99)
     start, end = now - timedelta(days=7), now - timedelta(days=1)
     span = f"{start.strftime('%B %-d')} to {end.strftime('%B %-d')}" if start.month != end.month else f"{start.strftime('%B %-d')} to {end.day}"
@@ -177,6 +177,8 @@ def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict
         if sg:
             used.add(src["edition"])
             segs.append({**sg, "edition": src["edition"], "colors": src.get("colors"), "name": src.get("name")})
+    if (sg := pickem.board()):  # Anchor Pick'em: the season board from the Den's desk ledger
+        segs.append(sg)
     rows = [r for r in (watch or []) if r.get("games")][:WATCH_TOP]
     if rows:
         names = [f"{r['short']} of the {r['conf_short']}" for r in rows[:4]]
