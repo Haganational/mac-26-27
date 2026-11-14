@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:16:53+00:00",
+ "fetched_at": "2026-11-14T23:04:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -1631,10 +1631,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 25.0
-   },
+   "tickets": null,
    "venue": "Ford Center",
    "venue_city": "Evansville",
    "venue_state": "IN",
@@ -1675,10 +1672,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 35.0
-   },
+   "tickets": null,
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
    "venue_state": "MI",
@@ -1687,7 +1681,7 @@
     "key": null,
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 34,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -1695,13 +1689,13 @@
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 30,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:20 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927377",
@@ -9373,6 +9367,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T22:32:57+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:16:22+00:00",
+ "fetched_at": "2026-11-14T23:03:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2693,50 +2693,6 @@
    "detail": ""
   },
   {
-   "game_id": "401920138",
-   "date": "2026-11-25T05:00Z",
-   "name": "Cal State Bakersfield Roadrunners at Pepperdine Waves",
-   "short_name": "CSUB @ PEPP",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
-    "low": 28.0
-   },
-   "venue": "Firestone Fieldhouse",
-   "venue_city": "Malibu",
-   "venue_state": "CA",
-   "home": {
-    "espn_id": "2492",
-    "key": null,
-    "name": "Pepperdine Waves",
-    "abbr": "PEPP",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2934",
-    "key": "csu-bakersfield",
-    "name": "Cal State Bakersfield Roadrunners",
-    "abbr": "CSUB",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401924268",
    "date": "2026-11-25T18:00Z",
    "name": "Southern Utah Thunderbirds at Long Beach State Beach",
@@ -2854,6 +2810,50 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920138",
+   "date": "2026-11-26T01:00Z",
+   "name": "Cal State Bakersfield Roadrunners at Pepperdine Waves",
+   "short_name": "CSUB @ PEPP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
+    "low": 28.0
+   },
+   "venue": "Firestone Fieldhouse",
+   "venue_city": "Malibu",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2492",
+    "key": null,
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2934",
+    "key": "csu-bakersfield",
+    "name": "Cal State Bakersfield Roadrunners",
+    "abbr": "CSUB",
     "score": null,
     "winner": null
    },
@@ -2998,7 +2998,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-11-28-2026--sports-ncaa-basketball/production/7863810?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -3212,7 +3215,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-12-3-2026--sports-ncaa-basketball/production/7863818?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -3508,7 +3514,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-12-5-2026--sports-ncaa-basketball/production/7863824?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -3762,7 +3771,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-utes-mens-basketball-tickets-huntsman-center-12-9-2026--sports-ncaa-basketball/production/7418469?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Jon M. Huntsman Center",
    "venue_city": "Salt Lake City",
@@ -4232,7 +4241,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-12-12-2026--sports-ncaa-basketball/production/7863828?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -5101,7 +5113,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-12-22-2026--sports-ncaa-basketball/production/7608578?wsUser=717",
-    "low": 26.0
+    "low": 20.0
    },
    "venue": "LBS Financial Credit Union Pyramid",
    "venue_city": "Long Beach",
@@ -5889,7 +5901,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-1-7-2027--sports-ncaa-basketball/production/7863830?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -6070,7 +6085,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-1-9-2027--sports-ncaa-basketball/production/7863832?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -6434,7 +6452,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-1-14-2027--sports-ncaa-basketball/production/7608588?wsUser=717",
-    "low": 28.0
+    "low": 24.0
    },
    "venue": "LBS Financial Credit Union Pyramid",
    "venue_city": "Long Beach",
@@ -7352,7 +7370,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-1-28-2027--sports-ncaa-basketball/production/7863836?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -7387,7 +7408,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-1-30-2027--sports-ncaa-basketball/production/7863840?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -8120,7 +8144,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-2-11-2027--sports-ncaa-basketball/production/7863842?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -8406,7 +8433,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-2-13-2027--sports-ncaa-basketball/production/7863844?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -8479,7 +8509,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-2-18-2027--sports-ncaa-basketball/production/7863846?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -9399,7 +9432,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-3-4-2027--sports-ncaa-basketball/production/7863850?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",
@@ -9577,7 +9613,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csu-bakersfield-roadrunners-mens-basketball-tickets-icardo-center-3-6-2027--sports-ncaa-basketball/production/7863856?wsUser=717",
+    "low": 30.0
+   },
    "venue": "Icardo Center",
    "venue_city": "Bakersfield",
    "venue_state": "CA",

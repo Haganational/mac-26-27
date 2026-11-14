@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:14:46+00:00",
+ "fetched_at": "2026-11-14T23:01:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -1883,10 +1883,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-14-2026--sports-ncaa-basketball/production/7632140?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Zidian Family Arena at Beeghly Center",
    "venue_city": "Youngstown",
    "venue_state": "OH",
@@ -1927,10 +1924,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-11-14-2026--sports-ncaa-basketball/production/7710572?wsUser=717",
-    "low": 40.0
-   },
+   "tickets": null,
    "venue": "Knights Hall",
    "venue_city": "Louisville",
    "venue_state": "KY",
@@ -1971,10 +1965,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-14-2026--sports-ncaa-basketball/production/7762858?wsUser=717",
-    "low": 16.0
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -2024,21 +2015,21 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 61,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2649",
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 71,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:56 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927387",
@@ -2056,10 +2047,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 35.0
-   },
+   "tickets": null,
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
    "venue_state": "MI",
@@ -2068,7 +2056,7 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 32,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -2076,13 +2064,13 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 28,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:32 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920961",
@@ -2272,7 +2260,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-11-17-2026--sports-ncaa-basketball/production/7339600?wsUser=717",
-    "low": 9.0
+    "low": 8.0
    },
    "venue": "Cintas Center",
    "venue_city": "Cincinnati",
@@ -2756,7 +2744,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 37.0
+    "low": 36.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -10455,6 +10443,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T22:31:13+00:00"
+ ]
 }

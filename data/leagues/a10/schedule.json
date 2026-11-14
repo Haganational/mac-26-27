@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:17:23+00:00",
+ "fetched_at": "2026-11-14T23:04:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -1959,10 +1959,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-11-14-2026--sports-ncaa-basketball/production/7575801?wsUser=717",
-    "low": 9.0
-   },
+   "tickets": null,
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",
    "venue_state": "CO",
@@ -2003,10 +2000,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/st-bonaventure-bonnies-mens-basketball-tickets-reilly-center-11-14-2026--sports-ncaa-basketball/production/7334763?wsUser=717",
-    "low": 40.0
-   },
+   "tickets": null,
    "venue": "Reilly Center",
    "venue_city": "Saint Bonaventure",
    "venue_state": "NY",
@@ -2015,21 +2009,21 @@
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": 63,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "322",
     "key": null,
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 41,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920193",
@@ -2142,7 +2136,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-womens-basketball-tickets-university-of-dayton-arena-11-14-2026--sports-ncaa-womens-basketball/production/7111404?wsUser=717",
-    "low": 29.0
+    "low": 46.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -2584,7 +2578,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/saint-josephs-hawks-mens-basketball-tickets-michael-j-hagan-arena-11-17-2026--sports-ncaa-basketball/production/7581668?wsUser=717",
-    "low": 25.0
+    "low": 20.0
    },
    "venue": "Michael J. Hagan '85 Arena",
    "venue_city": "Philadelphia",
@@ -11459,7 +11453,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-10-5-2026--sports-ncaa-basketball/production/7188138?wsUser=717",
-    "low": 57.0
+    "low": 41.0
    },
    "venue": "Siegel Center",
    "venue_city": "Richmond",
@@ -11497,7 +11491,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-10-7-2026--sports-ncaa-basketball/production/7187926?wsUser=717",
-    "low": 37.0
+    "low": 38.0
    },
    "venue": "UPMC Cooper Fieldhouse",
    "venue_city": "Pittsburgh",
@@ -12622,6 +12616,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T22:33:20+00:00"
+ ]
 }

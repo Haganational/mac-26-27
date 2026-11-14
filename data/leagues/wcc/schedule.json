@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:18:29+00:00",
+ "fetched_at": "2026-11-14T23:05:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -1476,10 +1476,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/denver-pioneers-mens-basketball-tickets-hamilton-gym---denver-11-14-2026--sports-ncaa-basketball/production/7647990?wsUser=717",
-    "low": 23.0
-   },
+   "tickets": null,
    "venue": "Hamilton Gymnasium",
    "venue_city": "Denver",
    "venue_state": "CO",
@@ -2654,50 +2651,6 @@
    "detail": ""
   },
   {
-   "game_id": "401926183",
-   "date": "2026-11-23T05:00Z",
-   "name": "UNC Greensboro Spartans at Pepperdine Waves",
-   "short_name": "UNCG @ PEPP",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 28.0
-   },
-   "venue": "Firestone Fieldhouse",
-   "venue_city": "Malibu",
-   "venue_state": "CA",
-   "home": {
-    "espn_id": "2492",
-    "key": "pepperdine",
-    "name": "Pepperdine Waves",
-    "abbr": "PEPP",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2430",
-    "key": null,
-    "name": "UNC Greensboro Spartans",
-    "abbr": "UNCG",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401911457",
    "date": "2026-11-23T21:30Z",
    "name": "Nevada Wolf Pack at San Francisco Dons",
@@ -2830,6 +2783,50 @@
    "detail": ""
   },
   {
+   "game_id": "401926183",
+   "date": "2026-11-24T02:30Z",
+   "name": "UNC Greensboro Spartans at Pepperdine Waves",
+   "short_name": "UNCG @ PEPP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
+    "low": 28.0
+   },
+   "venue": "Firestone Fieldhouse",
+   "venue_city": "Malibu",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2492",
+    "key": "pepperdine",
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2430",
+    "key": null,
+    "name": "UNC Greensboro Spartans",
+    "abbr": "UNCG",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401917676",
    "date": "2026-11-24T19:00Z",
    "name": "Oregon State Beavers at San Francisco Dons",
@@ -2919,13 +2916,13 @@
   },
   {
    "game_id": "401920138",
-   "date": "2026-11-25T05:00Z",
+   "date": "2026-11-26T01:00Z",
    "name": "Cal State Bakersfield Roadrunners at Pepperdine Waves",
    "short_name": "CSUB @ PEPP",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [
     {
      "name": "ESPN+",
@@ -5837,7 +5834,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-12-22-2026--sports-ncaa-basketball/production/7608578?wsUser=717",
-    "low": 26.0
+    "low": 20.0
    },
    "venue": "LBS Financial Credit Union Pyramid",
    "venue_city": "Long Beach",
@@ -9442,6 +9439,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T22:03:35+00:00"
+ ]
 }

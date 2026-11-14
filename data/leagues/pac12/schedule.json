@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:18:04+00:00",
+ "fetched_at": "2026-11-14T23:05:21+00:00",
  "season": 2027,
  "games": [
   {
@@ -1212,10 +1212,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-11-14-2026--sports-ncaa-basketball/production/7575801?wsUser=717",
-    "low": 9.0
-   },
+   "tickets": null,
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",
    "venue_state": "CO",
@@ -1256,10 +1253,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/gonzaga-bulldogs-mens-basketball-tickets-numerica-veterans-arena-11-14-2026--sports-ncaa-basketball/production/7153234?wsUser=717",
-    "low": 100.0
-   },
+   "tickets": null,
    "venue": "Spokane Numerica Veterans Arena",
    "venue_city": "Spokane",
    "venue_state": "WA",
@@ -1268,21 +1262,21 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": 79,
-    "winner": null
+    "score": 80,
+    "winner": false
    },
    "away": {
     "espn_id": "99",
     "key": null,
     "name": "LSU Tigers",
     "abbr": "LSU",
-    "score": 76,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:27 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926777",
@@ -1346,7 +1340,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-sanford-pentagon-11-15-2026--sports-ncaa-basketball/production/7008172?wsUser=717",
-    "low": 134.0
+    "low": 198.0
    },
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
@@ -1774,7 +1768,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-angel-of-the-winds-arena-11-18-2026--sports-ncaa-basketball/production/7744906?wsUser=717",
-    "low": 37.0
+    "low": 38.0
    },
    "venue": "Angel of the Winds Arena",
    "venue_city": "Everett",
@@ -3660,7 +3654,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-9-2026--sports-ncaa-basketball/production/6994980?wsUser=717",
-    "low": 118.0
+    "low": 124.0
    },
    "venue": "Marriott Center",
    "venue_city": "Provo",
@@ -8071,6 +8065,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T22:33:56+00:00"
+ ]
 }
