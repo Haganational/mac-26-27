@@ -1939,21 +1939,21 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 57,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
    "away": {
     "espn_id": "2459",
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 64,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911016",
@@ -1983,7 +1983,7 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 11,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -1991,13 +1991,13 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 12,
+    "score": 17,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:14 - 1st"
+   "detail": "7:18 - 1st"
   },
   {
    "game_id": "401928804",
@@ -10456,5 +10456,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T20:49:27+00:00"
+ "live_at": "2026-11-14T21:01:14+00:00"
 }
