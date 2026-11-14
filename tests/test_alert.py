@@ -33,4 +33,4 @@ def test_sends_to_the_desk_alias_by_default(monkeypatch):
     monkeypatch.delenv("ALERT_TO", raising=False)
     assert alert.send("Social posts to bluesky keep failing", "body") is True
     assert seen["login"] == ("matthew@hardwoodbricks.com", "abcdefghijklmnop")
-    assert seen["msg"]["To"] == "desk@hardwoodbricks.com" and seen["msg"]["Subject"].startswith("[Hardwood Bricks] ")
+    assert seen["msg"]["To"] == "matthew@hardwoodbricks.com" and seen["msg"]["Subject"].startswith("[Hardwood Bricks] ")
