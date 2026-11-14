@@ -56,7 +56,7 @@
         {% if tonight %}<ul class="tn">{% for g in tonight %}<li><a href="{{ g.href }}"><span class="kick" style="--c:{{ g.color }}"><span class="cf">{{ g.league }}</span></span><span class="tm">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %}<small>{{ g.tv }}</small>{% endif %}</span><span class="hd">{{ g.away_name }} at {{ g.home_name }}</span></a></li>{% endfor %}</ul>
         {% else %}<p class="none">No games on the board.</p>{% endif %}
         {% if den %}<a class="den-tz" href="den.html"><span class="kick">The Den</span><span>Tonight's Bricksanity: {{ den.eligible }} team{{ '' if den.eligible == 1 else 's' }} eligible</span></a>{% endif %}
-        <a class="den-tz" href="watch.html"><span class="kick">Watch</span><span>MidMaxx60 this morning, The Big Mid this week, and the anchor desk</span></a>
+        <a class="den-tz watch-tz" href="watch.html"><span class="kick">Watch</span><span>MidMaxx60 this morning, The Big Mid this week, and the anchor desk</span></a>
       </section>
       {% if river %}
       <section aria-labelledby="h-wire">

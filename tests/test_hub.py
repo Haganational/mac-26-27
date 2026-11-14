@@ -101,7 +101,7 @@ def test_den_page_and_its_quiet_front_page_line(tmp_path, monkeypatch):
     monkeypatch.setattr(hub, "den_data", lambda site_root, now: None)  # only the page and the line under test here
     hub.build(tmp_path, "https://x.com/")
     front = (tmp_path / "index.html").read_text()
-    assert 'href="den.html">The Den</a>' in front and 'class="den-tz"' not in front, "no slate, no teaser line"
+    assert 'href="den.html">The Den</a>' in front and 'class="den-tz" href="den.html"' not in front, "no slate, no teaser line"
     den = (tmp_path / "den.html").read_text()
     assert '<link rel="canonical" href="https://x.com/den.html">' in den and 'aria-current="page">The Den' in den
     today = datetime.now(timezone.utc).astimezone(hub.ET).strftime("%Y-%m-%d")
