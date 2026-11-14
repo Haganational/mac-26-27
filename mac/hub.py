@@ -251,6 +251,9 @@ def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE, mh: dict[str, Any]
     ]}
 
 
+PRIVACY_UPDATED = "November 14, 2026"
+
+
 def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root = site_root or SITE_ROOT
     eds = [e for lg in LEAGUES.values() if (e := edition(lg, site_root))]
@@ -298,6 +301,9 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, media=media, editor=editor,
         notes_eds=[e for e in eds if e["key"] in has_notes], samples=media_samples(media, sts),
         ld_json=json.dumps(mld).replace("</", "<\\/")))
+    # Privacy policy: the Google OAuth consent screen for the YouTube uploader links here.
+    (site_root / "privacy.html").write_text(env.get_template("privacy.html").render(
+        eds=eds, base=base, noindex=SITE_NOINDEX, mh=mh, updated=PRIVACY_UPDATED))
     return site_root / "index.html"
 
 

@@ -793,7 +793,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
-        for root_page in ("masthead.html", "media.html"):
+        for root_page in ("masthead.html", "media.html", "privacy.html"):
             if SITE_DIR / root_page not in pages:
                 pages.append(SITE_DIR / root_page)
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(

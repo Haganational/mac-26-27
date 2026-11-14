@@ -86,3 +86,11 @@ def test_media_samples_fall_back_to_newest_stories():
     sts.append({"title": "A at B prediction", "href": "games/p.html", "kind": "preview", "league": "MAC"})
     got = hub.media_samples({}, sts)
     assert [s["title"] for s in got] == ["R0", "R1", "R2", "A at B prediction"]
+
+
+def test_build_writes_privacy_page_for_google_oauth(tmp_path):
+    hub.build(tmp_path, "https://x.com/")
+    html = (tmp_path / "privacy.html").read_text()
+    assert '<link rel="canonical" href="https://x.com/privacy.html">' in html
+    assert "YouTube API Services" in html and "policies.google.com/privacy" in html
+    assert 'href="privacy.html"' in (tmp_path / "index.html").read_text()

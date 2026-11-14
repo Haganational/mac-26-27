@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Hardwood Bricks</title>
+<meta name="description" content="What Hardwood Bricks collects (almost nothing), what stays in your browser, and how our YouTube uploader uses Google's API.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% endif %}<link rel="canonical" href="{{ base }}privacy.html">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Hardwood Bricks</a>
+  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="masthead.html">About</a></nav>
+</div></header>
+<main class="mast">
+  <section class="hero" style="background:none;border:0;padding:28px 0 0">
+    <h1>Privacy policy</h1>
+    <p>Hardwood Bricks is a free, independent college basketball site. We don't run accounts, ad trackers or analytics cookies, and we don't sell or share personal information. Last updated {{ updated }}.</p>
+  </section>
+
+  <section id="collect" aria-labelledby="h-collect">
+    <h2 id="h-collect">What we collect</h2>
+    <ul>
+      <li><b>Nothing you type into a form.</b> The site has no sign-ups, comments or logins.</li>
+      <li><b>Server logs.</b> Our host, Vercel, records standard request details such as IP address, browser and the page asked for, to keep the site running and secure. We don't use these logs to identify or profile readers.</li>
+      <li><b>Email you send us.</b> If you write to {% if mh.email %}<a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% else %}us{% endif %} or any of our addresses, we keep the message so we can reply, and use it for nothing else.</li>
+    </ul>
+  </section>
+
+  <section id="browser" aria-labelledby="h-browser">
+    <h2 id="h-browser">What stays in your browser</h2>
+    <p>A few pages remember your choices, such as schedule filters or which odds market you last viewed, in your browser's local storage. That information never leaves your device, and clearing your browser's site data removes it.</p>
+  </section>
+
+  <section id="others" aria-labelledby="h-others">
+    <h2 id="h-others">Other services</h2>
+    <ul>
+      <li>The travel map loads its map library from Cloudflare's public CDN, which sees a standard web request.</li>
+      <li>We link to schools, broadcasters, news outlets, sportsbooks and ticket sellers. Once you follow a link, that site's own privacy policy applies. Some ticket links may be affiliate links, and they are labeled.</li>
+    </ul>
+  </section>
+
+  <section id="youtube" aria-labelledby="h-youtube">
+    <h2 id="h-youtube">YouTube and Google API services</h2>
+    <p>We publish our MidMaxx60 Shorts and The Big Mid to our own YouTube channel using an automated uploader built on the YouTube API Services. The uploader signs in only to the Hardwood Bricks channel and uses Google's API only to upload our videos and set their titles, descriptions and playlists. It never asks for, reads or stores any viewer's Google or YouTube data.</p>
+    <p>Watching our videos on YouTube is covered by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. To review or revoke an app's access to a Google account, visit <a href="https://myaccount.google.com/permissions" rel="noopener">Google security settings</a>.</p>
+  </section>
+
+  <section id="contact" aria-labelledby="h-contact">
+    <h2 id="h-contact">Children, changes and contact</h2>
+    <p>The site isn't directed at children under 13, and we don't knowingly collect their information. If this policy changes, we'll update this page and its date. Questions go to {% if mh.email %}<a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% else %}the editor{% endif %}.</p>
+  </section>
+</main>
+<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="./">All conferences</a></footer>
+</body>
+</html>
