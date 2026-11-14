@@ -289,6 +289,11 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         (site_root / "at-large.html").write_text(env.get_template("atlarge.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **al))
+    from . import den
+    try:  # data for the Den's games (site/den/*.json); the page itself is built elsewhere
+        den.build(site_root, now)
+    except Exception as e:  # never let the games take the front page down
+        print("den: skipped,", repr(e))
     media = mh.get("media") or {}
     has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
     mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {
