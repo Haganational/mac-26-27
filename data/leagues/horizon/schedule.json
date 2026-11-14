@@ -1813,7 +1813,7 @@
     "key": null,
     "name": "TCU Horned Frogs",
     "abbr": "TCU",
-    "score": 21,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -1821,13 +1821,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 22,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:42 - 1st"
+   "detail": "2:58 - 1st"
   },
   {
    "game_id": "401926117",
@@ -1857,7 +1857,7 @@
     "key": null,
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 28,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -1865,13 +1865,13 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 23,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920915",
@@ -10462,5 +10462,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T01:30:56+00:00"
+ "live_at": "2026-11-14T01:46:06+00:00"
 }
