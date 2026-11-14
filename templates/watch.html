@@ -69,7 +69,7 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px 12px; }
   .an { display: grid; gap: 6px; }
   .an .face { width: 100%; height: auto; aspect-ratio: 4 / 5; border-bottom: 4px solid var(--c); font-size: 34px; }
-  .an b { font: 600 16px/1.15 var(--serif); }
+  .an b { font: 600 16px/1.15 var(--serif); } a.an:hover b { text-decoration: underline; text-underline-offset: 3px; }
   .an small { font: 600 11.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
   .note { margin-top: 18px; font-size: 14px; color: var(--muted); max-width: 70ch; }
   @media (max-width: 640px) { .shows { grid-template-columns: minmax(0, 1fr); } .frame.tall, .show iframe.tall { max-width: 300px; } .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); } }
@@ -123,10 +123,10 @@
     <p>Each school has its own anchor, who reads that school's games and tells its stories.</p>
     {% for c in desk %}<div class="conf">
       <h3><b>{{ c.short }}</b> · {{ c.anchors|length }} anchors</h3>
-      <div class="grid">{% for a in c.anchors %}<div class="an" style="--c:{{ a.color }}">
+      <div class="grid">{% for a in c.anchors %}<a class="an" href="{{ a.href }}" style="--c:{{ a.color }}">
         <span class="face" style="--ink-on:{{ a.ink }}">{% if a.portrait %}<img src="{{ a.portrait }}" alt="{{ a.alt }}" loading="lazy">{% else %}{{ a.initials }}{% endif %}</span>
         <b>{{ a.name }}</b><small>{{ a.school }}</small>
-      </div>{% endfor %}</div>
+      </a>{% endfor %}</div>
     </div>{% endfor %}
     <p class="note">{{ disclosure }}</p>
   </section>

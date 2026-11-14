@@ -6,7 +6,9 @@ Everything on it comes from files the shows already use, so the page can't drift
 """
 from __future__ import annotations
 
+import shutil
 from datetime import datetime
+from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
@@ -39,7 +41,8 @@ def desk() -> list[dict[str, Any]]:
     color = anchors.color()
     out = []
     for lg in LEAGUES.values():
-        rows = [{**card, "catch": color.get(tm.key, {}).get("catch", "")} for tm in lg.teams if (card := den_connect.anchor_card(tm.key))]
+        rows = [{**card, "catch": color.get(tm.key, {}).get("catch", ""), "href": f"anchors/{tm.key}.html"}
+                for tm in lg.teams if (card := den_connect.anchor_card(tm.key))]
         if rows:
             out.append({"key": lg.key, "short": lg.short, "name": lg.name, "anchors": rows})
     return out
@@ -62,3 +65,38 @@ def page_context(now: datetime) -> dict[str, Any]:
             "handle": site_chrome.YOUTUBE_CHANNEL, "story": story(day),
             "tonight": {**tonight["card"], "anchor": den_connect.anchor_card(tonight["card"]["key"])} if tonight else None,
             "count": sum(len(c["anchors"]) for c in desk()), "disclosure": den_connect.DISCLOSURE}
+
+
+def profile(key: str, homer: dict[str, dict[str, Any]] | None = None) -> dict[str, Any] | None:
+    """One anchor's page: who they are on air, their rival, their school's stories and their homer record.
+    Paths are from the site root; the page sets <base href="../">."""
+    a, card = anchors.roster().get(key), den_connect.anchor_card(key)
+    if not a or not card:
+        return None
+    c = anchors.color().get(key, {})
+    lg, tm = next(((lg, tm) for lg in LEAGUES.values() for tm in lg.teams if tm.key == key), (None, None))
+    rival = den_connect.anchor_card(c.get("rival")) if c.get("rival") else None
+    return {**card, "catch": c.get("catch", ""), "signoff": c.get("signoff", ""), "brief": c.get("voice", ""),
+            "conf": lg.short if lg else "", "team_href": f"{lg.path}teams/{key}.html" if lg else None,
+            "rival": {**rival, "href": f"anchors/{rival['key']}.html"} if rival else None,
+            "stories": alumni.stories(key), "homer": (homer or {}).get(key),
+            "audio": f"anchors/audio/{key}.ogg" if (anchors.AUDITIONS / f"{key}.ogg").exists() else None}
+
+
+def build_profiles(env: Any, site_root: Path, **common: Any) -> int:
+    """Write site/anchors/<key>.html for every anchor, with their audition where one is recorded."""
+    out = site_root / "anchors"
+    (out / "audio").mkdir(parents=True, exist_ok=True)
+    ledgers = [x for p in sorted(den_connect.LEDGER_DIR.glob("*.json")) for x in [pickem._load(p)] if x]
+    results = {p.stem.removeprefix("results-"): r for p in (site_root / "den").glob("results-*.json") for r in [pickem._load(p)] if r}
+    homer = {r["key"]: r for r in den_connect.standings(ledgers, results)["homer"]}
+    tpl, n = env.get_template("anchor.html"), 0
+    for key in anchors.roster():
+        p = profile(key, homer)
+        if not p:
+            continue
+        if p["audio"]:
+            shutil.copyfile(anchors.AUDITIONS / f"{key}.ogg", site_root / p["audio"])
+        (out / f"{key}.html").write_text(tpl.render(a=p, disclosure=den_connect.DISCLOSURE, **common))
+        n += 1
+    return n

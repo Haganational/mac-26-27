@@ -31,7 +31,7 @@ MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
 DROP_FIRST = ("star", "next", "offcourt", "pickem")  # what goes first, from the last edition back, when the show runs long
 WATCH_TOP = 6
 OFF_COURT = 2  # alumni stories per episode
-SAID = {"horizon": "Horizon League"}  # how an edition's name is read aloud, where the short name doesn't work
+SAID = {"horizon": "Horizon League", "a10": "Atlantic Ten"}  # how an edition's name is read aloud, where the short name doesn't work
 NUM = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
 
 
