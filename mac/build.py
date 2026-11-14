@@ -48,7 +48,8 @@ TWO_WORD_MASCOTS = ("Nittany Lions", "Fighting Camels", "Golden Flashes", "Blue 
                     "Black Bears", "Purple Eagles", "Golden Hurricane", "Golden Gophers", "Scarlet Knights", "Red Wolves", "Thundering Herd",
                     "Golden Bears", "Mountain Hawks", "Big Green", "Big Red", "Green Wave", "Blue Hens", "Golden Lions", "Delta Devils",
                     "Purple Aces", "Golden Grizzlies", "Golden Panthers", "Blue Hose", "Fighting Hawks", "Red Flash", "Running Rebels",
-                    "Fighting Scots", "Golden Rams", "Golden Hawks", "Fighting Quakers", "Red Foxes", "Black Knights", "Lady Lions")
+                    "Fighting Scots", "Golden Rams", "Golden Hawks", "Fighting Quakers", "Red Foxes", "Black Knights", "Lady Lions",
+                    "Blue Demons", "Runnin' Bulldogs", "Ragin' Cajuns", "Wolf Pack", "Screaming Eagles", "River Hawks")
 
 
 def school(name: str) -> str:
@@ -360,6 +361,7 @@ def render_site() -> str:
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
     env.filters["school"] = school
+    env.filters["etday"] = lambda iso: (lambda t: f"{t:%a}, {t:%b} {t.day}, {t.year}")(schedule_view.to_et(iso)) if iso else ""
     env.globals["game_href"] = {}  # filled once box score and preview pages exist
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),

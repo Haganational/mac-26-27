@@ -27,7 +27,7 @@
     {% endfor %}
   </header>
   <div class="sub" style="margin:-8px 0 18px">
-    Final · {{ g.date[:10] }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
+    Final · {{ g.date|etday }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}">ESPN gamecast</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} (final)">Share this box score</a>
@@ -35,7 +35,7 @@
 
   <article class="gamer" id="gamer">
     <h1>{{ gm.headline }}</h1>
-    <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published[:10] }}</time></div>
+    <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published|etday }}</time></div>
     {% if hl %}<figure class="hl-video">
       <div class="hl-frame"><iframe src="{{ hl.embed }}" title="{{ hl.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
       <figcaption>Highlights from ESPN · <a href="{{ hl.watch }}" rel="noopener">Watch on ESPN</a></figcaption>
