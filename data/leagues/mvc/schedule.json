@@ -1599,7 +1599,7 @@
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 45,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -1607,13 +1607,13 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 49,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:52 - 2nd"
+   "detail": "0:15 - 2nd"
   },
   {
    "game_id": "401911015",
@@ -1643,7 +1643,7 @@
     "key": "evansville",
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": 32,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -1651,13 +1651,13 @@
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 25,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:34 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927387",
@@ -9374,5 +9374,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T19:32:08+00:00"
+ "live_at": "2026-11-14T20:02:36+00:00"
 }

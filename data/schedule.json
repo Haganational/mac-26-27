@@ -1585,7 +1585,7 @@
     "key": null,
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": 29,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -1593,13 +1593,13 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 25,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:00 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911016",
@@ -9552,5 +9552,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T19:30:29+00:00"
+ "live_at": "2026-11-14T20:00:36+00:00"
 }
