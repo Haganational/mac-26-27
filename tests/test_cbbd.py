@@ -63,3 +63,22 @@ def test_opening_bump_only_on_home_floors_early():
     assert R.opening_bump(p, 20, False) == 0.0
     assert R.opening_bump(p, 2, True) == 0.0
     assert R.opening_bump(p, None, False) == 0.0
+
+
+def test_halves_rows_and_lead_table(tmp_path, monkeypatch):
+    from mac import halves_study as H
+    monkeypatch.setattr(cbbd, "CACHE_DIR", tmp_path)
+    cbbd.store("games", 2026, [
+        {"id": 1, "startDate": "2025-11-05", "homeTeamId": 10, "awayTeamId": 20, "homePoints": 70, "awayPoints": 60,
+         "homePeriodPoints": [40, 30], "awayPeriodPoints": [30, 30]},
+        {"id": 2, "startDate": "2025-11-06", "homeTeamId": 10, "awayTeamId": 30, "homePoints": 60, "awayPoints": 65,
+         "homePeriodPoints": [35, 25], "awayPeriodPoints": [30, 35]},
+        {"id": 3, "startDate": "2025-11-07", "homeTeamId": 10, "awayTeamId": 30, "homePeriodPoints": None},
+    ])
+    cbbd.store("lines", 2026, [{"gameId": 1, "lines": [{"provider": "DraftKings", "spread": -6.5, "overUnder": 140.5}]}])
+    rows = H.game_halves(2026)
+    assert len(rows) == 2
+    r = rows[0]
+    assert (r["h1"], r["h2"], r["t1"], r["exp"], r["exp_total"]) == (10, 0, 70, 6.5, 140.5)
+    table = {b["lead"]: b for b in H.lead_table(rows)}
+    assert table["10-12"]["leader_won"] == 1.0 and table["4-6"]["leader_won"] == 0.0

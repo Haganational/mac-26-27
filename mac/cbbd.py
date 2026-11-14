@@ -136,7 +136,7 @@ def store(kind: str, season: int, rows: list[dict[str, Any]]) -> None:
         json.dump(rows, f, separators=(",", ":"))
 
 
-KINDS = {"teams": "/games/teams", "lines": "/lines", "players": "/games/players"}
+KINDS = {"teams": "/games/teams", "lines": "/lines", "players": "/games/players", "games": "/games"}
 
 
 def backfill(seasons: list[int], kinds: tuple[str, ...] = ("teams", "lines"), refresh: bool = False) -> dict[str, int]:
@@ -152,7 +152,7 @@ def backfill(seasons: list[int], kinds: tuple[str, ...] = ("teams", "lines"), re
                 seen: set[Any] = set()
                 for lo, hi in season_windows(season):
                     for r in fetch_window(KINDS[kind], season, lo, hi, getter):
-                        key = (r.get("gameId"), r.get("teamId")) if kind != "lines" else r.get("gameId")
+                        key = {"lines": r.get("gameId"), "games": r.get("id")}.get(kind, (r.get("gameId"), r.get("teamId")))
                         if key in seen:
                             continue
                         seen.add(key)
@@ -251,5 +251,8 @@ if __name__ == "__main__":
     elif cmd == "study":
         from .cbbd_study import main
         main(int(sys.argv[2]), int(sys.argv[3] if len(sys.argv) > 3 else sys.argv[2]))
+    elif cmd == "halves":
+        from .halves_study import main as halves_main
+        halves_main(int(sys.argv[2]), int(sys.argv[3] if len(sys.argv) > 3 else sys.argv[2]))
     else:
         print(__doc__)
