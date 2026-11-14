@@ -1599,7 +1599,7 @@
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1607,13 +1607,13 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:15 - 1st"
   },
   {
    "game_id": "401911015",
@@ -9373,5 +9373,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T18:31:55+00:00"
 }

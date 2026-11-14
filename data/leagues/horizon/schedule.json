@@ -1895,7 +1895,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1903,13 +1903,13 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:58 - 1st"
   },
   {
    "game_id": "401920915",
@@ -10455,5 +10455,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T18:30:52+00:00"
 }
