@@ -14,6 +14,12 @@ on:
       last:
         description: "Last season"
         default: "2026"
+      kinds:
+        description: "What to pull: teams, lines, games (scores by half), players; comma-separated"
+        default: "teams,lines,games"
+      study:
+        description: "Which study to run: cbbd (model v1.0 vs v1.1) or halves (first half vs second half)"
+        default: "cbbd"
 
 permissions:
   contents: write
@@ -40,7 +46,7 @@ jobs:
       - name: Backfill (cached seasons cost nothing; ~15 calls a new season)
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
-        run: python -m mac.cbbd backfill $(( ${{ inputs.first }} - 1 )) ${{ inputs.last }}
+        run: python -m mac.cbbd backfill $(( ${{ inputs.first }} - 1 )) ${{ inputs.last }} ${{ inputs.kinds }}
       # Saved even if the backfill stops partway, so calls already spent are never repeated.
       - uses: actions/cache/save@v4
         if: always()
@@ -48,12 +54,12 @@ jobs:
           path: data/cache/cbbd
           key: cbbd-${{ github.run_id }}
       - name: Study (no API calls)
-        run: python -m mac.cbbd study ${{ inputs.first }} ${{ inputs.last }}
+        run: python -m mac.cbbd ${{ inputs.study == 'halves' && 'halves' || 'study' }} ${{ inputs.first }} ${{ inputs.last }}
       - name: Commit summary
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          for f in data/cbbd_calls.jsonl data/model/cbbd_study.json; do if [ -f "$f" ]; then git add "$f"; fi; done
-          git diff --cached --quiet && echo "nothing new" || git commit -m "model: CBBD multi-season study ${{ inputs.first }}-${{ inputs.last }}"
+          for f in data/cbbd_calls.jsonl data/model/cbbd_study.json data/model/halves_study.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git diff --cached --quiet && echo "nothing new" || git commit -m "model: CBBD ${{ inputs.study }} study ${{ inputs.first }}-${{ inputs.last }}"
           git push || { git pull --rebase origin main && git push; }
