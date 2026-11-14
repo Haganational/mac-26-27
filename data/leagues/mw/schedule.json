@@ -1342,21 +1342,21 @@
     "key": null,
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 38,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
    "away": {
     "espn_id": "2751",
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 61,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917529",
@@ -8730,5 +8730,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T21:31:35+00:00"
+ "live_at": "2026-11-14T22:01:31+00:00"
 }
