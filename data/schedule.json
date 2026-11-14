@@ -1582,7 +1582,7 @@
     "key": null,
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": 56,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -1590,13 +1590,13 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 64,
+    "score": 77,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:23 - 2nd"
+   "detail": "4:02 - 2nd"
   },
   {
    "game_id": "401911016",
@@ -1626,7 +1626,7 @@
     "key": null,
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1634,13 +1634,13 @@
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:25 - 1st"
   },
   {
    "game_id": "401928804",
@@ -9549,5 +9549,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T20:30:26+00:00"
+ "live_at": "2026-11-14T20:48:52+00:00"
 }

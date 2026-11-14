@@ -1342,7 +1342,7 @@
     "key": null,
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 17,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1350,13 +1350,13 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 17,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:52 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917529",
@@ -8730,5 +8730,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T20:31:26+00:00"
+ "live_at": "2026-11-14T20:49:50+00:00"
 }
