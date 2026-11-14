@@ -78,3 +78,15 @@ def test_clone_jobs_route_auditions_host_and_piper(tmp_path, monkeypatch):
     assert mm.clone_all(["a", "b", "c"], wavs, tmp_path, refs) is True
     assert [j.get("ref") for j in seen["jobs"]] == [None, "/tmp/auditions/akron.wav"]
     assert not wavs[2].exists()  # left to the anchor's Piper voice
+
+
+def test_mood_follows_the_team():
+    side = lambda k, w, st: {"key": k, "name": k.replace("-", " ").title(), "mac": True, "winner": w, "streak": st}
+    card = {"away": side("kent-state", False, "L3"), "home": side("akron", True, "W4"), "ats": "Akron covered as a 3-point favorite."}
+    assert anchors.mood(card, "akron") == "That's 4 straight."
+    assert anchors.mood(card, "kent-state").startswith("That's 3 in a row the wrong way.")
+    card = {"away": side("ohio", True, "W1"), "home": side("toledo", False, "L1"), "ats": "Ohio covered as a 6-point underdog."}
+    assert anchors.mood(card, "ohio") == "Underdogs, folks."
+    assert anchors.mood(card, "toledo") == ""
+    card["ats"] = "Toledo lost but covered as a 6-point underdog."  # told from the loser's side: no underdog line for Ohio
+    assert anchors.mood(card, "ohio") == ""

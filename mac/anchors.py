@@ -66,6 +66,24 @@ def first_name(name: str) -> str:
 OPENERS = 2  # how many anchors open with their catchphrase; the rest go straight to the news, so a game is never cut for a bit
 
 
+def mood(card: dict, key: str) -> str:
+    """One line that follows the anchor's team: a run of wins, a skid, or a win as the underdog.
+    Read from the result card (its sides' streaks and the closing-line sentence), so it is always true."""
+    me = next((s for s in (card.get("away") or {}, card.get("home") or {}) if s.get("key") == key), None)
+    if not me:
+        return ""
+    st = str(me.get("streak") or "")
+    n = int(st[1:]) if st[1:].isdigit() else 0
+    if st.startswith("W") and n >= 3:
+        return f"That's {n} straight."
+    if st.startswith("L") and n >= 3:
+        return f"That's {n} in a row the wrong way. We'll get the next one."
+    ats = card.get("ats") or ""
+    if me.get("winner") and me.get("name") and ats.startswith(me["name"]) and "underdog" in ats:  # the line is about us, not them
+        return "Underdogs, folks."
+    return ""
+
+
 def dress(segs: list[dict], desk: list[dict | None]) -> None:
     """Put the anchors' color into the script before it is voiced: the first anchors on air open with
     their catchphrase, an anchor whose team beat their rival's says so, and the last anchor signs off.
@@ -84,6 +102,8 @@ def dress(segs: list[dict], desk: list[dict | None]) -> None:
         loser = next((s for s in (card.get("away") or {}, card.get("home") or {}) if s.get("mac") and s.get("winner") is False), None)
         if sg.get("kind") == "result" and loser and loser.get("key") == c.get("rival") and roster().get(c["rival"]):
             text = f"{text} {first_name(roster()[c['rival']]['name'])}, that one's for you."
+        if sg.get("kind") == "result":
+            text = f"{text} {mood(card, a['key'])}".rstrip()
         if i == last:
             text = f"{text} {c['signoff']}"
         sg["text"] = text
