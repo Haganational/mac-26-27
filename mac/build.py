@@ -475,12 +475,16 @@ def render_site() -> str:
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
-    # MAC90: the 90-second daily script, built only from our own data.
+    # MidMaxx60: the 60-second daily script, built only from our own data.
     ou = ou_study.build()
-    if LEAGUE.has("mac90"):
+    if LEAGUE.has("midmaxx60"):
         t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
-        (SITE_DIR / "mac90.json").write_text(json.dumps(t))
-        (SITE_DIR / "mac90.html").write_text(env.get_template("mac90.html").render(d=data, t=t, game_href=game_href))
+        (SITE_DIR / "midmaxx60.json").write_text(json.dumps(t))
+        (SITE_DIR / "midmaxx60.html").write_text(env.get_template("midmaxx60.html").render(d=data, t=t, game_href=game_href))
+        # MAC90 was renamed MidMaxx60 on Nov 14, 2026: keep the old address working.
+        (SITE_DIR / "mac90.html").write_text(
+            '<!doctype html><meta charset="utf-8"><title>MidMaxx60</title><link rel="canonical" href="midmaxx60.html">'
+            '<meta http-equiv="refresh" content="0; url=midmaxx60.html"><a href="midmaxx60.html">MAC90 is now MidMaxx60</a>\n')
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(

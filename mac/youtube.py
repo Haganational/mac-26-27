@@ -1,4 +1,4 @@
-"""Upload the day's MAC90 video to the YouTube channel as a Short.
+"""Upload the day's MidMaxx60 video to the YouTube channel as a Short.
 
 Needs three repo secrets, set by the channel owner: YT_CLIENT_ID and YT_CLIENT_SECRET (an OAuth
 client from a Google Cloud project with the YouTube Data API turned on) and YT_REFRESH_TOKEN
@@ -25,16 +25,16 @@ TOKEN_URL = "https://oauth2.googleapis.com/token"
 API = "https://www.googleapis.com/youtube/v3"
 UPLOAD = "https://www.googleapis.com/upload/youtube/v3"
 SPORTS = "17"  # YouTube category id
-TAGS = ["MAC90", "MACtion", "college basketball", "Mid-American Conference", "Hardwood Bricks"]
+TAGS = ["MidMaxx60", "MACtion", "college basketball", "Mid-American Conference", "Hardwood Bricks"]
 
 
 def title(stem: str) -> str:
-    """mac90-2026-11-12 -> 'MAC90: the MAC in 90 seconds, Nov. 12'."""
+    """midmaxx60-2026-11-12 -> 'MidMaxx60: the MAC in 60 seconds, Nov. 12'."""
     try:
         d = date.fromisoformat(stem[-10:])
-        return f"MAC90: the MAC in 90 seconds, {d.strftime('%b')}. {d.day}".replace("May.", "May")
+        return f"MidMaxx60: the MAC in 60 seconds, {d.strftime('%b')}. {d.day}".replace("May.", "May")
     except ValueError:
-        return "MAC90: the MAC in 90 seconds"
+        return "MidMaxx60: the MAC in 60 seconds"
 
 
 def body(stem: str, description: str, privacy: str) -> dict:
@@ -73,7 +73,7 @@ def already_up(token: str, name: str) -> bool:
 
 
 def upload(out: Path, token: str, privacy: str) -> str | None:
-    mp4 = sorted(out.glob("mac90-*.mp4"))[-1]
+    mp4 = sorted(out.glob("midmaxx60-*.mp4"))[-1]
     stem = mp4.stem
     meta = body(stem, (out / f"{stem}.txt").read_text() if (out / f"{stem}.txt").exists() else "", privacy)
     if already_up(token, meta["snippet"]["title"]):
@@ -106,10 +106,10 @@ def main() -> None:
     try:
         upload(Path(a.out), access_token(cid, secret, refresh), os.environ.get("YT_PRIVACY", "").strip() or "public")
     except urllib.error.HTTPError as e:
-        alert.send("MAC90 did not upload to YouTube", f"YouTube answered {e.code}: {e.read().decode(errors='replace')[:600]}")
+        alert.send("MidMaxx60 did not upload to YouTube", f"YouTube answered {e.code}: {e.read().decode(errors='replace')[:600]}")
         sys.exit(1)
     except Exception as e:  # noqa: BLE001
-        alert.send("MAC90 did not upload to YouTube", repr(e))
+        alert.send("MidMaxx60 did not upload to YouTube", repr(e))
         sys.exit(1)
 
 

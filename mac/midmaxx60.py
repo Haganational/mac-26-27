@@ -1,8 +1,8 @@
-"""Render the MAC90 video: one vertical card per script segment, voiced and stitched.
+"""Render the MidMaxx60 video: one vertical card per script segment, voiced and stitched.
 
-    python -m mac.mac90video --out out/
+    python -m mac.midmaxx60 --out out/
 
-Needs site/mac90.json (written by `python -m mac.collect site`), a headless Chrome
+Needs site/midmaxx60.json (written by `python -m mac.collect site`), a headless Chrome
 and ffmpeg. The voice is Piper when PIPER_VOICE points at a .onnx voice, else
 espeak-ng, else silence timed to the words (for layout checks only).
 """
@@ -22,9 +22,12 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 from . import alert
-from .config import SITE_DIR, TEAMS, TEMPLATES_DIR
+from .config import LEAGUE, SITE_DIR, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
+MAX_SECS = 59.0  # a Short is 60 seconds at most; keep a second of margin
+# Which segments go first when the read runs long: extras, then the latest previews, then the latest results.
+DROP_FIRST = ("tuneups_next", "tuneups", "note", "standings", "ou", "move")
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
@@ -37,7 +40,7 @@ BAR_Y, BAR_H = 342, 10  # progress bar, just under the team-color stripe
 
 def spoken(text: str) -> str:
     """Script text as it should be read aloud."""
-    t = text.replace("Miami (OH)", "Miami of Ohio").replace("MAC90", "MAC Ninety").replace("ESPN+", "ESPN Plus")
+    t = text.replace("Miami (OH)", "Miami of Ohio").replace("MidMaxx60", "Mid Max Sixty").replace("ESPN+", "ESPN Plus")
     t = re.sub(r"\b(\d{2,3})-(\d{2,3})\b", r"\1 to \2", t)  # scores, not "4.5-point"
     t = t.replace("p.m.", "P M").replace("a.m.", "A M").replace("Hardwood Bricks dot com", "Hardwood Bricks dot com")
     return t
@@ -200,31 +203,67 @@ def _counted(seg: dict, frac: float) -> dict:
     return {**seg, "card": card}
 
 
+def fit(segments: list[dict], secs: list[float], budget: float = MAX_SECS) -> list[int]:
+    """Indexes of the segments to keep so the voiced video runs `budget` seconds or less.
+
+    `secs` is each segment's length with its pause. Extras go first (DROP_FIRST order), then the
+    last result or preview from whichever list is longer; the intro and outro always stay.
+    """
+    keep = list(range(len(segments)))
+    over = lambda: sum(secs[j] for j in keep) > budget  # noqa: E731
+    for i in [i for k in DROP_FIRST for i, sg in enumerate(segments) if sg["kind"] == k]:
+        if not over():
+            return keep
+        keep.remove(i)
+    # Then trim results and previews from the end, the longer list first, so both nights stay on screen.
+    while over():
+        res = [j for j in keep if segments[j]["kind"] == "result"]
+        pre = [j for j in keep if segments[j]["kind"] == "preview"]
+        pick = pre if len(pre) >= len(res) else res
+        if not pick:
+            break
+        keep.remove(pick[-1])
+    return keep
+
+
 def render(t: dict, out: Path) -> Path:
     out = out.resolve()
     out.mkdir(parents=True, exist_ok=True)
     work = out / "work"
     work.mkdir(exist_ok=True)
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
-    tpl = env.get_template("mac90_card.html")
+    env.globals.update(LG=LEAGUE.short)  # "The MAC in 60 seconds"
+    tpl = env.get_template("midmaxx60_card.html")
     css = textures() + "\n" + font_faces()
     colors = {tm.short: tm.color for tm in TEAMS}
+    segs = t["segments"]
+    wavs = [work / f"seg{i:02d}.wav" for i in range(len(segs))]
+    for w in wavs:
+        w.unlink(missing_ok=True)
+    cloned = clone_all([spoken(seg["text"]) for seg in segs], wavs, work)
+    for seg, wav in zip(segs, wavs):
+        speak(spoken(seg["text"]), wav)
+    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs])
+    dropped = [segs[i]["kind"] for i in range(len(segs)) if i not in keep]
+    if dropped:
+        print(f"midmaxx60: over {MAX_SECS:.0f}s, left out {', '.join(dropped)}")
+    segs, wavs = [segs[i] for i in keep], [wavs[i] for i in keep]
+
     agenda = []
-    n_res = sum(1 for s in t["segments"] if s["kind"] == "result")
-    n_tune = sum(len(s.get("cards", [])) for s in t["segments"] if s["kind"] == "tuneups")
+    n_res = sum(1 for s in segs if s["kind"] == "result")
+    n_tune = sum(len(s.get("cards", [])) for s in segs if s["kind"] == "tuneups")
     if n_res or n_tune:
         agenda.append(f"{t['results_label']}: {n_res + n_tune} final{'s' if n_res + n_tune != 1 else ''}")
-    n_prev = sum(1 for s in t["segments"] if s["kind"] == "preview") + sum(len(s.get("cards", [])) for s in t["segments"] if s["kind"] == "tuneups_next")
+    n_prev = sum(1 for s in segs if s["kind"] == "preview") + sum(len(s.get("cards", [])) for s in segs if s["kind"] == "tuneups_next")
     if n_prev:
         agenda.append(f"{t['slate_label']}: {n_prev} game{'s' if n_prev != 1 else ''}")
-    agenda.append("The unbeaten and the winless")
+    if any(s["kind"] == "standings" for s in segs):
+        agenda.append("The unbeaten and the winless")
 
-    cloned = clone_all([spoken(seg["text"]) for seg in t["segments"]], [work / f"seg{i:02d}.wav" for i in range(len(t["segments"]))], work)
     common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=[tm.color for tm in TEAMS])
     clips, srt, events, clock = [], [], [], 0.0
-    for i, seg in enumerate(t["segments"]):
+    for i, (seg, wav) in enumerate(zip(segs, wavs)):
         png = work / f"card{i:02d}.png"
-        wav = work / f"seg{i:02d}.wav"
         clip = work / f"clip{i:02d}.mp4"
         frames: list[tuple[Path, float | None]] = []
         if seg["kind"] == "result" and seg.get("card"):  # scores count up from zero
@@ -238,7 +277,6 @@ def render(t: dict, out: Path) -> Path:
         html.write_text(tpl.render(seg=seg, live_caps=True, **common))
         shoot(html, png)
         frames.append((png, None))
-        speak(spoken(seg["text"]), wav)
         speech = wav_seconds(wav)
         dur = speech + PAD
         imgs = work / f"imgs{i:02d}.txt"
@@ -258,7 +296,7 @@ def render(t: dict, out: Path) -> Path:
         events += ass_events(seg["text"], clock, speech)
         clock += dur
 
-    stem = f"mac90-{t['date_iso']}"
+    stem = f"midmaxx60-{t['date_iso']}"
     lst = work / "clips.txt"
     lst.write_text("".join(f"file '{c.resolve()}'\n" for c in clips))
     joined = work / "joined.mp4"
@@ -275,7 +313,7 @@ def render(t: dict, out: Path) -> Path:
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     voiced = "Voiced by an AI model of Matthew Hagan's voice. " if cloned else ""
-    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
+    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/midmaxx60.html\n")
     print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
@@ -296,23 +334,23 @@ def check(t: dict, data_time: str, now: datetime | None = None) -> str | None:
     when = datetime.fromisoformat(data_time.replace("Z", "+00:00")) if data_time else None
     reason = skip_reason(t, when, now)
     if reason:
-        alert.send(f"MAC90 skipped for {t.get('date_label') or 'today'}",
-                   f"No MAC90 video was made this morning because {reason}.\n\n"
+        alert.send(f"MidMaxx60 skipped for {t.get('date_label') or 'today'}",
+                   f"No MidMaxx60 video was made this morning because {reason}.\n\n"
                    "Check the latest Collect run on GitHub Actions. Once data is flowing again, "
-                   "run the MAC90 video workflow by hand to publish today's episode.")
+                   "run the MidMaxx60 video workflow by hand to publish today's episode.")
     return reason
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="out")
-    ap.add_argument("--script", default=str(SITE_DIR / "mac90.json"))
+    ap.add_argument("--script", default=str(SITE_DIR / "midmaxx60.json"))
     ap.add_argument("--check", action="store_true", help="only decide whether to skip today's video; writes skip=<reason> to $GITHUB_OUTPUT")
     ap.add_argument("--data-time", default="", help="ISO time of the last data commit, for --check")
     a = ap.parse_args()
     if a.check:
         reason = check(json.loads(Path(a.script).read_text()), a.data_time)
-        print(f"mac90: skipped, {reason}" if reason else "mac90: script is fresh")
+        print(f"midmaxx60: skipped, {reason}" if reason else "midmaxx60: script is fresh")
         if reason and os.environ.get("GITHUB_OUTPUT"):
             with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                 f.write("skip=yes\n")

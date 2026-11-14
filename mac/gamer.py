@@ -1,6 +1,6 @@
 """The gamer: a short written recap for each box score page, plus its news-style structured data.
 
-Every fact comes from the box score, the closing line and the model, like MAC90: if a number
+Every fact comes from the box score, the closing line and the model, like MidMaxx60: if a number
 is missing, its sentence is left out. The one hand-written part is local flavor, from
 data/flavor.json (see FLAVOR_HELP below), so a page can carry a line about the town, the
 building or the rivalry that no box score has. Nothing there is generated; it is ours to write.

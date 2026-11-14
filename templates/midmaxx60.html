@@ -2,8 +2,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}MAC90 · {{ t.date_label }}{% endset %}{% set page_desc %}{{ LG }} men's basketball in 90 seconds: {{ t.results_label|lower or 'results' }}, {{ t.slate_label|lower }} and the standings, built from box scores and lines.{% endset %}
-{{ L.head(page_title, page_desc, root="", path="mac90.html") }}
+{% set page_title %}MidMaxx60 · {{ t.date_label }}{% endset %}{% set page_desc %}{{ LG }} men's basketball in 60 seconds: {{ t.results_label|lower or 'results' }}, {{ t.slate_label|lower }} and the standings, built from box scores and lines.{% endset %}
+{{ L.head(page_title, page_desc, root="", path="midmaxx60.html") }}
 <style>
   .td-hero { border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; color: #fff; background: linear-gradient(100deg, var(--brand) 0 55%, color-mix(in srgb, var(--brand) 35%, transparent)), var(--bricks) 0 0 / 96px 32px; }
   .td-hero .kick { font: 700 11px/1 Georgia, serif; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
@@ -35,26 +35,26 @@
 </style>
 </head>
 <body>
-{{ L.topbar(root="", active="mac90.html") }}
+{{ L.topbar(root="", active="midmaxx60.html") }}
 <main id="main">
   <header class="td-hero">
     <span class="kick">{{ site_name }}</span>
-    <h1>MAC90</h1>
+    <h1>MidMaxx60</h1>
     <span class="sub">{{ t.date_label }} · about {{ t.seconds }} seconds read aloud</span>
   </header>
 
-  <section class="m9vid" id="m9vid" hidden aria-label="Latest MAC90 video">
+  <section class="m9vid" id="m9vid" hidden aria-label="Latest MidMaxx60 video">
     <video id="m9v" controls playsinline preload="metadata"></video>
     <div class="m9v-side">
       <span class="m9v-k">Latest video</span>
-      <b id="m9v-title">MAC90</b>
+      <b id="m9v-title">MidMaxx60</b>
       <span class="dim">Vertical, made for YouTube Shorts, TikTok and Reels.</span>
       <div class="m9v-dl" id="m9v-dl">{% if youtube %}<a class="td-btn primary" href="https://www.youtube.com/@{{ youtube }}/shorts" target="_blank" rel="noopener">Watch on YouTube ↗</a>{% endif %}</div>
     </div>
   </section>
 
   <div class="td-wrap">
-    <article class="script" aria-label="MAC90 script">
+    <article class="script" aria-label="MidMaxx60 script">
       <div class="bar">
         <span class="meta"><b>{{ t.words }}</b> words · about <b>{{ t.seconds }}s</b> at a broadcast pace{% if t.over %} · running long{% endif %}</span>
         <button class="td-btn primary" type="button" id="td-play" hidden><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span>Listen</span></button>
@@ -79,9 +79,9 @@
 </main>
 {{ L.footer(root="", updated=d.generated_et) }}
 <script>
-(function () {  // newest MAC90 release: the video, captions, thumbnail and description
+(function () {  // newest MidMaxx60 release: the video, captions, thumbnail and description
   fetch('https://api.github.com/repos/{{ notes_repo }}/releases?per_page=15').then(function (r) { return r.ok ? r.json() : []; }).then(function (rels) {
-    var rel = (rels || []).find(function (x) { return /^mac90-/.test(x.tag_name); });
+    var rel = (rels || []).find(function (x) { return /^midmaxx60-/.test(x.tag_name); });
     if (!rel) return;
     var get = function (re) { var a = rel.assets.find(function (x) { return re.test(x.name); }); return a && a.browser_download_url; };
     var mp4 = get(/\.mp4$/), thumb = get(/-thumb\.png$/);
@@ -110,7 +110,7 @@
     if (on) return stop();
     on = true; label.textContent = 'Stop';
     paras.forEach(function (p, i) {
-      var u = new SpeechSynthesisUtterance(p.textContent.replace(/Miami \(OH\)/g, 'Miami of Ohio').replace(/MAC90/g, '{{ LG }} Ninety'));
+      var u = new SpeechSynthesisUtterance(p.textContent.replace(/Miami \(OH\)/g, 'Miami of Ohio').replace(/MidMaxx60/g, 'Mid Max Sixty'));
       u.rate = 1.0;
       u.onstart = function () { paras.forEach(function (x) { x.classList.remove('speaking'); }); p.classList.add('speaking'); };
       if (i === paras.length - 1) u.onend = stop;

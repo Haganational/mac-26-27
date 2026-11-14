@@ -50,8 +50,8 @@
         </div>
       </details>
       {#- Reader pages up front; everything behind the access code under one Betting desk menu. -#}
-      {% set reader = ['weekly.html', 'tv.html', 'power.html', 'notes.html', 'mac90.html'] %}
-      {% set reader_label = {'weekly.html': 'Weekly', 'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index', 'notes.html': 'Fieldhouse Notes', 'mac90.html': 'Video'} %}
+      {% set reader = ['weekly.html', 'tv.html', 'power.html', 'notes.html', 'midmaxx60.html'] %}
+      {% set reader_label = {'weekly.html': 'Weekly', 'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index', 'notes.html': 'Fieldhouse Notes', 'midmaxx60.html': 'Video'} %}
       {% set have = nav_pages|map(attribute=0)|list %}
       {% for path in reader if path in have %}<a href="{{ root }}{{ path }}" class="{{ 'on' if active == path }}"{% if active == path %} aria-current="page"{% endif %}>{{ reader_label[path] }}</a>{% endfor %}
       {% set desk = nav_pages[1:]|selectattr(0, 'in', desk_pages)|list %}
@@ -105,19 +105,19 @@
 {%- endmacro %}
 
 {% macro watch_shorts(handle, playlist, root="") -%}
-{% if playlist %}<section class="ytwatch" aria-label="MAC90 on YouTube">
+{% if playlist %}<section class="ytwatch" aria-label="MidMaxx60 on YouTube">
   <div class="yt-frame">
-    <button class="yt-play" type="button" data-yt-list="{{ playlist }}" aria-label="Play the latest MAC90 Short">
-      <span class="yt-plaque">MAC90</span>
+    <button class="yt-play" type="button" data-yt-list="{{ playlist }}" aria-label="Play the latest MidMaxx60 Short">
+      <span class="yt-plaque">MidMaxx60</span>
       <span class="wp-btn yt-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-      <span class="yt-cap">The {{ LG }} in 90 seconds<small>Tap to play the latest</small></span>
+      <span class="yt-cap">The {{ LG }} in 60 seconds<small>Tap to play the latest</small></span>
     </button>
   </div>
   <div class="yt-side">
     <span class="yt-k">Watch</span>
-    <b>MAC90 on YouTube</b>
+    <b>MidMaxx60 on YouTube</b>
     <span class="dim">Every morning: last night's results, tonight's lines and the model, in about a minute.</span>
-    <div class="yt-links"><a class="yt-sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a><a href="{{ root }}mac90.html">Read today's script →</a></div>
+    <div class="yt-links"><a class="yt-sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a><a href="{{ root }}midmaxx60.html">Read today's script →</a></div>
   </div>
 </section>{% endif %}
 {%- endmacro %}

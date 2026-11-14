@@ -2,13 +2,13 @@ from mac import youtube
 
 
 def test_title_and_body():
-    assert youtube.title("mac90-2026-11-12") == "MAC90: the MAC in 90 seconds, Nov. 12"
-    assert youtube.title("mac90-2027-05-03") == "MAC90: the MAC in 90 seconds, May 3"
-    assert youtube.title("mac90") == "MAC90: the MAC in 90 seconds"
-    b = youtube.body("mac90-2026-11-12", "Akron <won>.\n", "nonsense")
+    assert youtube.title("midmaxx60-2026-11-12") == "MidMaxx60: the MAC in 60 seconds, Nov. 12"
+    assert youtube.title("midmaxx60-2027-05-03") == "MidMaxx60: the MAC in 60 seconds, May 3"
+    assert youtube.title("midmaxx60") == "MidMaxx60: the MAC in 60 seconds"
+    b = youtube.body("midmaxx60-2026-11-12", "Akron <won>.\n", "nonsense")
     assert b["status"] == {"privacyStatus": "public", "selfDeclaredMadeForKids": False}
     assert b["snippet"]["description"].startswith("Akron won.") and "#Shorts" in b["snippet"]["description"]
-    assert youtube.body("mac90-2026-11-12", "x", "private")["status"]["privacyStatus"] == "private"
+    assert youtube.body("midmaxx60-2026-11-12", "x", "private")["status"]["privacyStatus"] == "private"
 
 
 def test_no_secrets_is_a_clean_skip(monkeypatch, capsys):
@@ -20,7 +20,7 @@ def test_no_secrets_is_a_clean_skip(monkeypatch, capsys):
 
 
 def test_upload_skips_a_day_already_on_the_channel(tmp_path, monkeypatch):
-    (tmp_path / "mac90-2026-11-12.mp4").write_bytes(b"x")
+    (tmp_path / "midmaxx60-2026-11-12.mp4").write_bytes(b"x")
     calls = []
     monkeypatch.setattr(youtube, "already_up", lambda token, name: True)
     monkeypatch.setattr(youtube, "_call", lambda *a, **k: calls.append(a) or ({}, {}))
@@ -28,8 +28,8 @@ def test_upload_skips_a_day_already_on_the_channel(tmp_path, monkeypatch):
 
 
 def test_upload_sends_video_then_thumbnail(tmp_path, monkeypatch):
-    (tmp_path / "mac90-2026-11-12.mp4").write_bytes(b"vid")
-    (tmp_path / "mac90-2026-11-12-thumb.png").write_bytes(b"png")
+    (tmp_path / "midmaxx60-2026-11-12.mp4").write_bytes(b"vid")
+    (tmp_path / "midmaxx60-2026-11-12-thumb.png").write_bytes(b"png")
     seen = []
 
     def fake(url, token="", data=None, ctype="application/json", method=None):

@@ -11,7 +11,7 @@ own data folder (data/leagues/<key>/). Pick one with the LEAGUE environment vari
 skips that page and its links:
     x          follow-on-X list and player handles
     research   coach, storylines and preseason research files
-    mac90      the daily 90-second script, video and YouTube card
+    midmaxx60      the daily 60-second script, video and YouTube card
     notes      Fieldhouse Notes and the author desk
     book       the Almanac (built once, by the MAC edition)
     athletics  per-school athletics-site news feeds (without it: Google News only)
@@ -89,7 +89,7 @@ MAC = League(
         Team("umass", "113", "MASS", "Massachusetts Minutemen", "UMass", "#881C1C", "#FFFFFF"),
         Team("western-michigan", "2711", "WMU", "Western Michigan Broncos", "Western Michigan", "#6C4023", "#F1C500"),
     ),
-    features=frozenset({"x", "research", "mac90", "notes", "book", "athletics"}),
+    features=frozenset({"x", "research", "midmaxx60", "notes", "book", "athletics"}),
     # Alternate spellings seen in odds feeds, mapped to our team key.
     odds_aliases={
         "Miami (OH) RedHawks": "miami-oh",

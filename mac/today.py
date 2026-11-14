@@ -1,4 +1,4 @@
-"""MAC90: a 90-second daily read built only from our own data.
+"""MidMaxx60: a 60-second daily read built only from our own data.
 
 Every fact in the script comes from the schedule, box scores, closing lines and the
 model. Nothing is invented: if a number is missing, the sentence is left out.
@@ -13,8 +13,8 @@ from typing import Any
 from . import schedule_view
 from .config import BY_KEY, LEAGUE
 
-WPM = 155  # a calm read; 90 seconds is about 230 words
-TARGET_WORDS = 230
+WPM = 155  # a calm read; 60 seconds is about 155 words
+TARGET_WORDS = 150  # the video keeps the segments that fit in 60 seconds (midmaxx60.fit)
 
 # Nicknames that are more than one word, so "Campbell Fighting Camels" becomes "Campbell".
 _TWO_WORD = {
@@ -273,7 +273,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     winless = [r["team"] for r in standings if r.get("l") and not r.get("w")]
 
     date_label = et_now.strftime("%A, %B %-d")
-    paras: list[str] = [f"This is MAC90 for {date_label}."]
+    paras: list[str] = [f"This is MidMaxx60 for {date_label}."]
     real = [r for r in results if not r["tune_up"]]
     tune = [r for r in results if r["tune_up"]]
     if results:
@@ -295,7 +295,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         paras.append(f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else ""))
     if note:
         paras.append(note["text"])
-    paras.append("That's MAC90. Every line, box score and rating is at Hardwood Bricks dot com.")
+    paras.append("That's MidMaxx60. Every line, box score and rating is at Hardwood Bricks dot com.")
 
     # The same script cut into segments, one card each, for the video.
     segs: list[dict] = [{"kind": "intro", "text": paras[0]}]
@@ -338,7 +338,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         "paragraphs_html": [link_text(p, links) for p in paras],
         "words": words,
         "seconds": round(words / WPM * 60),
-        "over": words > TARGET_WORDS + 40,
+        "over": words > TARGET_WORDS + 25,
     }
 
 
