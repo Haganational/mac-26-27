@@ -290,10 +290,65 @@ def page_context(root: Path = SHARED_DIR, now: int = SEASON) -> dict[str, Any] |
     }
 
 
-if __name__ == "__main__":  # python -m mac.atlarge net
+# ---------------------------------------------------------------- Bubble Watch: who moved since last week
+
+WEEKLY = DIR / "weekly"
+MOVE = 3  # spots a team must move to make the Bubble Watch, unless it changed zone
+
+
+def snapshot(today: str | None = None, folder: Path = WEEKLY, rows: list[dict[str, Any]] | None = None) -> Path | None:
+    """Keep one copy of the watch per week (named for its Monday), so next week can say who moved.
+    Written once: the first run of the week wins, later runs leave it alone."""
+    from datetime import date, timedelta
+    d = date.fromisoformat(today) if today else datetime.now(timezone.utc).date()
+    path = folder / f"{(d - timedelta(days=d.weekday())).isoformat()}.json"
+    if path.exists():
+        return None
+    if rows is None:
+        ratings = load_ratings()
+        rows = watch(ratings, load_bids(), net_ranks(load_net())) if ratings else []
+    rows = [r for r in rows if r.get("games")]
+    if not rows:
+        return None
+    folder.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"date": d.isoformat(), "rows": {r["key"]: {"rank": r["rank"], "zone": r["zone"]} for r in rows}}, indent=1) + "\n")
+    return path
+
+
+def movers(rows: list[dict[str, Any]], today: str, folder: Path = WEEKLY, most: int = 4) -> list[dict[str, Any]]:
+    """Teams on or near the bubble that moved since the last weekly copy at least five days old:
+    a zone change, or MOVE spots either way. Biggest moves first; nothing without an older copy."""
+    from datetime import date
+    old = None
+    for f in sorted(folder.glob("*.json"), reverse=True):
+        try:
+            d = json.loads(f.read_text())
+        except ValueError:
+            continue
+        if (date.fromisoformat(today) - date.fromisoformat(d["date"])).days >= 5:
+            old = d
+            break
+    if not old:
+        return []
+    out = []
+    for r in rows:
+        was = old["rows"].get(r["key"])
+        if not was or not r.get("games") or (r["zone"] == "auto" and was["zone"] == "auto"):
+            continue
+        delta = was["rank"] - r["rank"]  # up is positive
+        if abs(delta) >= MOVE or was["zone"] != r["zone"]:
+            out.append({"key": r["key"], "short": r["short"], "conf_short": r["conf_short"], "color": r["color"], "rank": r["rank"],
+                        "was": was["rank"], "delta": delta, "zone": r["zone"], "was_zone": was["zone"], "since": old["date"]})
+    out.sort(key=lambda m: (-(m["zone"] != m["was_zone"]), -abs(m["delta"]), m["rank"]))
+    return out[:most]
+
+
+if __name__ == "__main__":  # python -m mac.atlarge net | snap
     import sys
     if sys.argv[1:] == ["net"]:
         print(fetch_net())
+    elif sys.argv[1:] == ["snap"]:
+        print(snapshot() or "this week's copy is already kept")
     else:
         for r in watch(load_ratings() or {}, load_bids(), net_ranks(load_net()))[:25]:
             print(f"{r['rank']:>3} {r['short']:<20} {r['conf_short']:<14} ours {r['ours']:>3} net {r['net'] or '-':>3} "
