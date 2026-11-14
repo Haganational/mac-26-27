@@ -1,4 +1,4 @@
-"""Voice every MAC90 segment in Matthew's cloned voice with Chatterbox Turbo (MIT, runs on CPU).
+"""Voice every MidMaxx60 segment in Matthew's cloned voice with Chatterbox Turbo (MIT, runs on CPU).
 
     python tools/clone_voice.py --ref voices/matthew.wav --jobs work/voice-jobs.json
 

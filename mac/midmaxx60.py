@@ -1,8 +1,8 @@
-"""Render the MAC90 video: one vertical card per script segment, voiced and stitched.
+"""Render the MidMaxx60 video: one vertical card per script segment, voiced and stitched.
 
-    python -m mac.mac90video --out out/
+    python -m mac.midmaxx60 --out out/
 
-Needs site/mac90.json (written by `python -m mac.collect site`), a headless Chrome
+Needs site/midmaxx60.json (written by `python -m mac.collect site`), a headless Chrome
 and ffmpeg. The voice is Piper when PIPER_VOICE points at a .onnx voice, else
 espeak-ng, else silence timed to the words (for layout checks only).
 """
@@ -21,10 +21,13 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert
-from .config import SITE_DIR, TEAMS, TEMPLATES_DIR
+from . import alert, anchors
+from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
+MAX_SECS = 59.0  # a Short is 60 seconds at most; keep a second of margin
+# Which segments go first when the read runs long: extras, then the latest previews, then the latest results.
+DROP_FIRST = ("tuneups_next", "tuneups", "note", "standings", "ou", "move")
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
@@ -33,11 +36,12 @@ COUNT_STEPS = 10  # frames in a score count-up
 COUNT_SECS = 0.8  # how long the count-up takes
 GOLD, CREAM = "f0c75e", "f6efe3"
 BAR_Y, BAR_H = 342, 10  # progress bar, just under the team-color stripe
+ANCHOR_W = 430  # the anchor's portrait sits bottom-left; captions move right of it
 
 
 def spoken(text: str) -> str:
     """Script text as it should be read aloud."""
-    t = text.replace("Miami (OH)", "Miami of Ohio").replace("MAC90", "MAC Ninety").replace("ESPN+", "ESPN Plus")
+    t = text.replace("Miami (OH)", "Miami of Ohio").replace("MidMaxx60", "Mid Max Sixty").replace("ESPN+", "ESPN Plus")
     t = re.sub(r"\b(\d{2,3})-(\d{2,3})\b", r"\1 to \2", t)  # scores, not "4.5-point"
     t = t.replace("p.m.", "P M").replace("a.m.", "A M").replace("Hardwood Bricks dot com", "Hardwood Bricks dot com")
     return t
@@ -76,9 +80,9 @@ def chrome() -> str:
     raise SystemExit("no headless Chrome found; set CHROME_BIN")
 
 
-def shoot(html: Path, png: Path) -> None:
+def shoot(html: Path, png: Path, w: int = W, h: int = H) -> None:
     subprocess.run([chrome(), "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
-                    f"--window-size={W},{H}", "--virtual-time-budget=8000", f"--screenshot={png}", html.as_uri()],
+                    f"--window-size={w},{h}", "--virtual-time-budget=8000", f"--screenshot={png}", html.as_uri()],
                    check=True, capture_output=True, timeout=120)
 
 
@@ -108,12 +112,17 @@ def clone_all(texts: list[str], wavs: list[Path], work: Path) -> bool:
     return True
 
 
-def speak(text: str, out: Path) -> None:
+def speak(text: str, out: Path, voice_name: str | None = None, pace: float | None = None) -> None:
+    """Voice one segment. `voice_name` is an anchor's Piper voice (voices/<name>.onnx); without it,
+    or when that voice wasn't downloaded, the default PIPER_VOICE reads it."""
     if out.exists():  # already voiced by clone_all()
         return
     voice = os.environ.get("PIPER_VOICE")
+    if voice_name and (Path(voice).parent if voice else Path("voices")).joinpath(f"{voice_name}.onnx").exists():
+        voice = str((Path(voice).parent if voice else Path("voices")) / f"{voice_name}.onnx")
     if voice and Path(voice).exists():
-        subprocess.run([sys.executable, "-m", "piper", "-m", voice, "-f", str(out), "--length-scale", os.environ.get("PIPER_SPEED", "0.95"), "--sentence-silence", "0.2"],
+        speed = f"{pace:.2f}" if pace else os.environ.get("PIPER_SPEED", "0.95")
+        subprocess.run([sys.executable, "-m", "piper", "-m", voice, "-f", str(out), "--length-scale", speed, "--sentence-silence", "0.2"],
                        input=text.encode(), check=True, capture_output=True)
     elif shutil.which("espeak-ng"):
         subprocess.run(["espeak-ng", "-s", "165", "-w", str(out), text], check=True, capture_output=True)
@@ -162,7 +171,7 @@ def _ass_escape(w: str) -> str:
     return w.replace("\\", "\\\\").replace("{", "(").replace("}", ")")
 
 
-def ass_events(text: str, start: float, speech: float) -> list[str]:
+def ass_events(text: str, start: float, speech: float, margin_l: int = 0, margin_r: int = 0) -> list[str]:
     """Karaoke caption lines for one segment: each chunk on screen while it is spoken, words filling gold as they are read."""
     groups = chunks(text)
     total = sum(_weight(w) for g in groups for w in g) or 1.0
@@ -173,19 +182,19 @@ def ass_events(text: str, start: float, speech: float) -> list[str]:
         ks = [max(1, round(_weight(w) * per * 100)) for w in g]
         end = t + sum(ks) / 100
         body = " ".join(f"{{\\kf{k}}}{_ass_escape(w)}" for w, k in zip(g, ks))
-        lines.append(f"Dialogue: 0,{_ass_time(t)},{_ass_time(end)},Cap,,0,0,0,,{body}")
+        lines.append(f"Dialogue: 0,{_ass_time(t)},{_ass_time(end)},Cap,,{margin_l},{margin_r},0,,{body}")
         t = end
     return lines
 
 
-def ass_file(events: list[str]) -> str:
+def ass_file(events: list[str], w: int = W, h: int = H, size: int = 86, margin_v: int = 430) -> str:
     return "\n".join([
-        "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "ScaledBorderAndShadow: yes", "",
+        "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {w}", f"PlayResY: {h}", "WrapStyle: 0", "ScaledBorderAndShadow: yes", "",
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
         "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
         # Primary is the "already said" color, secondary the "coming up" color. Bottom-center, clear of the Shorts buttons.
-        f"Style: Cap,Barlow Condensed,86,{_ass_color(GOLD)},{_ass_color(CREAM)},&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,2,90,150,430,1",
+        f"Style: Cap,Barlow Condensed,{size},{_ass_color(GOLD)},{_ass_color(CREAM)},&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,3,2,90,150,{margin_v},1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text", *events, ""])
 
 
@@ -200,31 +209,88 @@ def _counted(seg: dict, frac: float) -> dict:
     return {**seg, "card": card}
 
 
+def fit(segments: list[dict], secs: list[float], budget: float = MAX_SECS) -> list[int]:
+    """Indexes of the segments to keep so the voiced video runs `budget` seconds or less.
+
+    `secs` is each segment's length with its pause. Extras go first (DROP_FIRST order), then the
+    last result or preview from whichever list is longer; the intro and outro always stay.
+    """
+    keep = list(range(len(segments)))
+    over = lambda: sum(secs[j] for j in keep) > budget  # noqa: E731
+    for i in [i for k in DROP_FIRST for i, sg in enumerate(segments) if sg["kind"] == k]:
+        if not over():
+            return keep
+        keep.remove(i)
+    # Then trim results and previews from the end, the longer list first, so both nights stay on screen.
+    while over():
+        res = [j for j in keep if segments[j]["kind"] == "result"]
+        pre = [j for j in keep if segments[j]["kind"] == "preview"]
+        pick = pre if len(pre) >= len(res) else res
+        if not pick:
+            break
+        keep.remove(pick[-1])
+    return keep
+
+
+def voice_all(segs: list[dict], wavs: list[Path], work: Path) -> dict:
+    """Voice every segment: each school's anchor reads its own games; the host (Matthew's clone
+    when it is set up, else the default voice) reads the rest. Sets seg["anchor"] for the cards."""
+    for w in wavs:
+        w.unlink(missing_ok=True)
+    desk = [anchors.for_segment(sg) for sg in segs]
+    host = [i for i, a in enumerate(desk) if not a]
+    cloned = clone_all([spoken(segs[i]["text"]) for i in host], [wavs[i] for i in host], work) if host else False
+    for sg, wav, a in zip(segs, wavs, desk):
+        sg["anchor"] = a
+        speak(spoken(sg["text"]), wav, a["voice"] if a else None, a["pace"] if a else None)
+    return {"cloned": cloned, "anchors": sorted({a["name"] for a in desk if a})}
+
+
+def disclosure(cloned: bool, names: list[str]) -> str:
+    """The AI disclosure line for a video's description."""
+    out = "The host is an AI model of Matthew Hagan's voice. " if cloned else ""
+    if names:
+        out += (f"Anchors {', '.join(names)} are fictional AI personas: their faces and voices are AI-generated "
+                "and they are not affiliated with any school. ")
+    return out
+
+
 def render(t: dict, out: Path) -> Path:
     out = out.resolve()
     out.mkdir(parents=True, exist_ok=True)
     work = out / "work"
     work.mkdir(exist_ok=True)
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
-    tpl = env.get_template("mac90_card.html")
+    env.globals.update(LG=t.get("league_label") or LEAGUE.short)  # "The MAC in 60 seconds"
+    tpl = env.get_template("midmaxx60_card.html")
     css = textures() + "\n" + font_faces()
-    colors = {tm.short: tm.color for tm in TEAMS}
+    every = [tm for lg in all_leagues() for tm in lg.teams]
+    colors = {tm.short: tm.color for tm in every}
+    segs = t["segments"]
+    wavs = [work / f"seg{i:02d}.wav" for i in range(len(segs))]
+    desk = voice_all(segs, wavs, work)
+    cloned = desk["cloned"]
+    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs])
+    dropped = [segs[i]["kind"] for i in range(len(segs)) if i not in keep]
+    if dropped:
+        print(f"midmaxx60: over {MAX_SECS:.0f}s, left out {', '.join(dropped)}")
+    segs, wavs = [segs[i] for i in keep], [wavs[i] for i in keep]
+
     agenda = []
-    n_res = sum(1 for s in t["segments"] if s["kind"] == "result")
-    n_tune = sum(len(s.get("cards", [])) for s in t["segments"] if s["kind"] == "tuneups")
+    n_res = sum(1 for s in segs if s["kind"] == "result")
+    n_tune = sum(len(s.get("cards", [])) for s in segs if s["kind"] == "tuneups")
     if n_res or n_tune:
         agenda.append(f"{t['results_label']}: {n_res + n_tune} final{'s' if n_res + n_tune != 1 else ''}")
-    n_prev = sum(1 for s in t["segments"] if s["kind"] == "preview") + sum(len(s.get("cards", [])) for s in t["segments"] if s["kind"] == "tuneups_next")
+    n_prev = sum(1 for s in segs if s["kind"] == "preview") + sum(len(s.get("cards", [])) for s in segs if s["kind"] == "tuneups_next")
     if n_prev:
         agenda.append(f"{t['slate_label']}: {n_prev} game{'s' if n_prev != 1 else ''}")
-    agenda.append("The unbeaten and the winless")
+    if any(s["kind"] == "standings" for s in segs):
+        agenda.append("The unbeaten and the winless")
 
-    cloned = clone_all([spoken(seg["text"]) for seg in t["segments"]], [work / f"seg{i:02d}.wav" for i in range(len(t["segments"]))], work)
-    common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=[tm.color for tm in TEAMS])
+    common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=t.get("stripe") or [tm.color for tm in TEAMS])
     clips, srt, events, clock = [], [], [], 0.0
-    for i, seg in enumerate(t["segments"]):
+    for i, (seg, wav) in enumerate(zip(segs, wavs)):
         png = work / f"card{i:02d}.png"
-        wav = work / f"seg{i:02d}.wav"
         clip = work / f"clip{i:02d}.mp4"
         frames: list[tuple[Path, float | None]] = []
         if seg["kind"] == "result" and seg.get("card"):  # scores count up from zero
@@ -238,7 +304,6 @@ def render(t: dict, out: Path) -> Path:
         html.write_text(tpl.render(seg=seg, live_caps=True, **common))
         shoot(html, png)
         frames.append((png, None))
-        speak(spoken(seg["text"]), wav)
         speech = wav_seconds(wav)
         dur = speech + PAD
         imgs = work / f"imgs{i:02d}.txt"
@@ -255,10 +320,10 @@ def render(t: dict, out: Path) -> Path:
                         "-c:a", "aac", "-b:a", "128k", "-ac", "2", str(clip)], check=True)
         clips.append(clip)
         srt.append(f"{i + 1}\n{srt_time(clock)} --> {srt_time(clock + speech)}\n{seg['text']}\n")
-        events += ass_events(seg["text"], clock, speech)
+        events += ass_events(seg["text"], clock, speech, margin_l=ANCHOR_W + 40 if (seg.get("anchor") or {}).get("portrait") else 0)
         clock += dur
 
-    stem = f"mac90-{t['date_iso']}"
+    stem = f"midmaxx60-{t['date_iso']}"
     lst = work / "clips.txt"
     lst.write_text("".join(f"file '{c.resolve()}'\n" for c in clips))
     joined = work / "joined.mp4"
@@ -274,8 +339,8 @@ def render(t: dict, out: Path) -> Path:
                     "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
-    voiced = "Voiced by an AI model of Matthew Hagan's voice. " if cloned else ""
-    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/mac90.html\n")
+    voiced = disclosure(cloned, desk["anchors"])
+    (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/midmaxx60.html\n")
     print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
@@ -296,28 +361,93 @@ def check(t: dict, data_time: str, now: datetime | None = None) -> str | None:
     when = datetime.fromisoformat(data_time.replace("Z", "+00:00")) if data_time else None
     reason = skip_reason(t, when, now)
     if reason:
-        alert.send(f"MAC90 skipped for {t.get('date_label') or 'today'}",
-                   f"No MAC90 video was made this morning because {reason}.\n\n"
+        alert.send(f"MidMaxx60 skipped for {t.get('date_label') or 'today'}",
+                   f"No MidMaxx60 video was made this morning because {reason}.\n\n"
                    "Check the latest Collect run on GitHub Actions. Once data is flowing again, "
-                   "run the MAC90 video workflow by hand to publish today's episode.")
+                   "run the MidMaxx60 video workflow by hand to publish today's episode.")
     return reason
+
+
+def all_leagues() -> list:
+    from . import leagues
+    return [leagues.MAC, leagues.HORIZON, leagues.ASUN, leagues.MW, leagues.METRO, leagues.BIGWEST]
+
+
+SAID = {"Horizon": "Horizon League"}  # how an edition's short name is read aloud
+
+
+def combine(scripts: list[dict]) -> dict:
+    """One show from every edition's script: an intro, each edition's results and previews dealt
+    round-robin (so the 60-second cut in fit() keeps every conference on screen), then the outro."""
+    order = [lg.key for lg in all_leagues()]
+    scripts = sorted(scripts, key=lambda t: order.index(t["league"]) if t.get("league") in order else 99)
+    lead = scripts[0]
+
+    def tagged(t: dict, kind: str) -> list[dict]:
+        out = []
+        for sg in t["segments"]:
+            if sg["kind"] != kind:
+                continue
+            text = sg["text"]
+            if sg.get("label") and text.startswith(sg["label"] + ": "):
+                text = text[len(sg["label"]) + 2:]
+            name = t.get("league_short") or t.get("league", "").upper()
+            out.append({**sg, "label": f"{sg.get('label', '')} · {name}", "text": f"{SAID.get(name, name)}: {text}"})
+        return out
+
+    def deal(lists: list[list[dict]]) -> list[dict]:
+        out, i = [], 0
+        while any(i < len(x) for x in lists):
+            out += [x[i] for x in lists if i < len(x)]
+            i += 1
+        return out
+
+    def once(segs: list[dict]) -> list[dict]:  # a game between two of our conferences shows up in both scripts
+        seen: set = set()
+        return [sg for sg in segs if not (sg.get("game_id") in seen or seen.add(sg.get("game_id")))]
+
+    results = once(deal([tagged(t, "result") for t in scripts]))
+    previews = once(deal([tagged(t, "preview") for t in scripts]))
+    n = len(scripts)
+    intro = f"This is MidMaxx60 for {lead['date_label']}. {n} conference{'s' if n != 1 else ''}, sixty seconds."
+    if results:
+        results[0]["text"] = f"{lead['results_label']}. " + results[0]["text"]
+    if previews:
+        previews[0]["text"] = f"{lead['slate_label']}. " + previews[0]["text"]
+    outro = "That's MidMaxx60. Every line, box score and rating is at Hardwood Bricks dot com."
+    segs = [{"kind": "intro", "text": intro}, *results, *previews, {"kind": "outro", "text": outro}]
+    return {**{k: lead[k] for k in ("date_label", "date_iso", "results_label", "slate_label")},
+            "league_label": "mid-majors", "paragraphs": [sg["text"] for sg in segs], "segments": segs,
+            "results": [r for t in scripts for r in t.get("results", [])], "previews": [p for t in scripts for p in t.get("previews", [])],
+            "stripe": [tm.color for lg in all_leagues() for tm in lg.teams if lg.key in {t.get("league") for t in scripts}]}
+
+
+def load_script(path: str) -> dict:
+    """The day's script: every edition's midmaxx60.json combined, or one file when --script names it."""
+    if path:
+        return json.loads(Path(path).read_text())
+    from .config import SITE_ROOT
+    found = [json.loads(p.read_text()) for p in sorted(SITE_ROOT.glob("**/midmaxx60.json"))]
+    if not found:
+        raise SystemExit("midmaxx60: no edition script found; run python -m mac.collect site for each edition first")
+    return combine(found) if len(found) > 1 else found[0]
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="out")
-    ap.add_argument("--script", default=str(SITE_DIR / "mac90.json"))
+    ap.add_argument("--script", default="", help="one script file; by default every edition's site/**/midmaxx60.json, combined")
     ap.add_argument("--check", action="store_true", help="only decide whether to skip today's video; writes skip=<reason> to $GITHUB_OUTPUT")
     ap.add_argument("--data-time", default="", help="ISO time of the last data commit, for --check")
     a = ap.parse_args()
     if a.check:
-        reason = check(json.loads(Path(a.script).read_text()), a.data_time)
-        print(f"mac90: skipped, {reason}" if reason else "mac90: script is fresh")
+        reason = check(load_script(a.script), a.data_time)
+        print(f"midmaxx60: skipped, {reason}" if reason else "midmaxx60: script is fresh")
         if reason and os.environ.get("GITHUB_OUTPUT"):
             with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                 f.write("skip=yes\n")
         return
-    render(json.loads(Path(a.script).read_text()), Path(a.out))
+    render(load_script(a.script), Path(a.out))
 
 
 if __name__ == "__main__":

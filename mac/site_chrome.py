@@ -20,7 +20,7 @@ from .config import LEAGUE, SEASON_LABEL, SITE_NOINDEX, SITE_URL, TEAMS, Team
 
 SITE_NAME = "Hardwood Bricks"
 FLOOR = "parquet"  # home hero hardwood: parquet, light or dark
-YOUTUBE_CHANNEL = "hardwoodbricks"  # where MAC90 videos post (youtube.com/@hardwoodbricks, "Hardwood Bricks", from 2026-11-12)
+YOUTUBE_CHANNEL = "hardwoodbricks"  # where MidMaxx60 videos post (youtube.com/@hardwoodbricks, "Hardwood Bricks", from 2026-11-12)
 YOUTUBE_CHANNEL_ID = "UCbh8k_bBCN7lUHmTmwyF7aQ"  # its Shorts playlist is "UUSH" + this id minus "UC"
 TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the YouTube Shorts player
 # House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
@@ -35,7 +35,7 @@ BRICK_TONES = ("#9e3b26", "#8c3322", "#a8452c", "#93371f", "#b04d31", "#98402a",
 # Pages in the order the top bar and footer list them. (path, label, one-line purpose, accent, search keywords)
 PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("index.html", f"{LEAGUE.short} home", "Tonight's games, teams, results, standings and against-the-spread records", "#2a78d6", "dashboard scores today tonight standings results"),
-    ("mac90.html", "MAC90", "The day in 90 seconds: last night's results, tonight's slate, read-aloud script", "#b8862b", "today in the mac daily recap podcast script 90 seconds roundup last night tonight"),
+    ("midmaxx60.html", "MidMaxx60", "The day in 60 seconds: last night's results, tonight's slate, read-aloud script", "#b8862b", "today in the mac daily recap podcast script 60 seconds roundup last night tonight"),
     ("tv.html", "Schedule & TV", "This week's grid and every game: tip time, TV, lines, model, rest and travel", "#6250d6", "schedule tv watch network espn+ calendar tip time this week tonight games rest travel"),
     ("odds.html", "Odds", "Every book's spread, total and moneyline, best price, open vs now", "#1baf7a", "odds lines spread total moneyline books best price betting"),
     ("ratings.html", "Ratings", "Power ratings, projected spreads and totals, where the model disagrees with the market", "#eb6834", "model ratings kenpom efficiency projections edge backtest"),
@@ -49,7 +49,7 @@ PAGES: tuple[tuple[str, str, str, str, str], ...] = (
     ("travel.html", "Travel", "Routes, miles, road trips, rest days and time zones for every team", "#0f8fa8", "travel map miles rest road trip fatigue"),
 )
 
-_PAGE_FEATURE = {"mac90.html": "mac90", "notes.html": "notes", "book.html": "book"}
+_PAGE_FEATURE = {"midmaxx60.html": "midmaxx60", "notes.html": "notes", "book.html": "book"}
 # Pages this league publishes: the MAC gets every page; other leagues skip the hand-built ones.
 PAGES = tuple(p for p in PAGES if LEAGUE.has(_PAGE_FEATURE.get(p[0], "")) or p[0] not in _PAGE_FEATURE)
 

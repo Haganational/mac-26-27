@@ -12,9 +12,9 @@
   .top { position: relative; height: 330px; background: var(--brand); }
   .top::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 24px; background: var(--bricks) 0 0 / 72px 24px; }
   .brandrow { position: absolute; left: 64px; right: 64px; top: 92px; z-index: 1; display: flex; align-items: flex-end; justify-content: space-between; }
-  .plaque { color: #f6ecd8; font: 600 150px/.9 var(--serif); letter-spacing: -.02em; }
+  .plaque { color: #f6ecd8; font: 600 104px/.9 var(--serif); letter-spacing: -.02em; }
   .plaque::first-letter { color: var(--gold); }
-  .date { text-align: right; font: 600 44px/1.1 var(--cond); letter-spacing: .02em; color: #f6ecd8; padding-bottom: 10px; }
+  .date { text-align: right; font: 600 36px/1.1 var(--cond); letter-spacing: .02em; color: #f6ecd8; padding-bottom: 10px; }
   .date em { display: block; font: 500 21px/1.6 var(--cond); font-style: normal; color: #d9cbb2; letter-spacing: .1em; text-transform: uppercase; }
   .date small { display: block; font: 600 22px/1.4 var(--cond); letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
   .stripe { display: flex; height: 12px; } .stripe i { flex: 1; }
@@ -49,7 +49,7 @@
   .teamchips { display: flex; flex-wrap: wrap; gap: 14px; }
   .teamchips b { font: 700 44px/1 var(--cond); letter-spacing: .03em; padding: 16px 24px 14px; background: none; color: var(--ink); border-left: 12px solid var(--tc); border-bottom: 1px solid var(--grid); }
   .hero { margin-top: 60px; text-align: center; }
-  .hero .big { font: 600 200px/1 var(--serif); color: #f6ecd8; letter-spacing: -.03em; }
+  .hero .big { font: 600 170px/1 var(--serif); color: #f6ecd8; letter-spacing: -.03em; }
   .hero p { font: 400 italic 48px/1.3 var(--serif); color: var(--ink2); margin: 24px 0 0; }
   .agenda { display: grid; gap: 0; margin-top: 30px; border-top: 6px solid var(--rule); }
   .agenda div { font: 600 48px/1.1 var(--cond); letter-spacing: .02em; padding: 26px 0; border-bottom: 1px solid var(--grid); }
@@ -68,17 +68,22 @@
   .ourec small { font: 600 32px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--ink2); }
   .notetitle { font: 600 66px/1.1 var(--serif); letter-spacing: -.01em; color: #f6ecd8; }
   .notequote { font: 400 italic 46px/1.4 var(--serif); color: var(--ink2); padding-left: 28px; border-left: 8px solid var(--gold); }
+  .anchor { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; }
+  .anchor img { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; object-fit: cover; object-position: top; }
+  .anchor .plate { position: absolute; left: 0; bottom: 90px; width: 430px; padding: 14px 20px 12px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
+  .anchor .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
+  .anchor .plate small { display: block; font: 600 22px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
   .foot { position: absolute; left: 64px; right: 64px; bottom: 380px; display: flex; justify-content: space-between; font: 500 24px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 </style>
 </head>
 <body>
 {% macro logo(s) %}<div class="logo">{% if s.espn_id %}<img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ s.espn_id }}.png" alt="" onerror="this.outerHTML='<b>{{ s.abbr }}</b>'">{% else %}<b>{{ s.abbr }}</b>{% endif %}</div>{% endmacro %}
 <div class="card">
-  <div class="top"><div class="brandrow"><span class="plaque">MAC90</span><span class="date"><small>Hardwood Bricks</small>{{ date_label }}<em>Stats: ESPN · Lines: The Odds API</em></span></div></div>
+  <div class="top"><div class="brandrow"><span class="plaque">MidMaxx60</span><span class="date"><small>Hardwood Bricks</small>{{ date_label }}<em>Stats: ESPN · Lines: The Odds API</em></span></div></div>
   <div class="stripe">{% for c in stripe %}<i style="background:{{ c }}"></i>{% endfor %}</div>
   <div class="body">
   {% if seg.kind == 'intro' %}
-    <div class="hero"><div class="big">MAC90</div><p>The {{ LG }} in 90 seconds</p></div>
+    <div class="hero"><div class="big">MidMaxx60</div><p>The {{ LG }} in 60 seconds</p></div>
     <div class="agenda">{% for a in agenda %}<div>{{ a }}</div>{% endfor %}</div>
   {% elif seg.kind == 'result' %}
     {% set c = seg.card %}
@@ -126,9 +131,10 @@
     <div class="notequote">“{{ c.quote }}”</div>
     <div class="chips"><span class="chip gold">Matthew Hagan · Hardwood Bricks</span></div>
   {% else %}
-    <div class="hero"><div class="big" style="font-size:130px">That's MAC90</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
+    <div class="hero"><div class="big" style="font-size:130px">That's MidMaxx60</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
   {% endif %}
   </div>
+  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}"><img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
   {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
 </div>
 </body>

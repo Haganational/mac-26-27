@@ -1,4 +1,4 @@
-"""MAC90: a 90-second daily read built only from our own data.
+"""MidMaxx60: a 60-second daily read built only from our own data.
 
 Every fact in the script comes from the schedule, box scores, closing lines and the
 model. Nothing is invented: if a number is missing, the sentence is left out.
@@ -13,8 +13,8 @@ from typing import Any
 from . import schedule_view
 from .config import BY_KEY, LEAGUE
 
-WPM = 155  # a calm read; 90 seconds is about 230 words
-TARGET_WORDS = 230
+WPM = 155  # a calm read; 60 seconds is about 155 words
+TARGET_WORDS = 150  # the video keeps the segments that fit in 60 seconds (midmaxx60.fit)
 
 # Nicknames that are more than one word, so "Campbell Fighting Camels" becomes "Campbell".
 _TWO_WORD = {
@@ -36,20 +36,42 @@ _NICK_LEAD = {"fighting", "golden", "blue", "red", "big", "mean", "black", "purp
               "horned", "yellow", "tar", "nittany", "rainbow", "sea", "war", "river", "mountain", "delta", "wolf"}
 
 
+def _every_team() -> dict[str, str]:
+    """ESPN display name -> our short name, for every edition's teams (a Metro script names MAC teams too)."""
+    from . import leagues
+    return {t.name: t.short for lg in (leagues.MAC, leagues.ASUN, leagues.HORIZON, leagues.MW, leagues.METRO, leagues.BIGWEST)
+            for t in lg.teams}
+
+
+_EVERY = _every_team()
+
+
 def school(name: str | None, key: str | None = None) -> str:
-    """Short school name: our own for MAC teams, ESPN's name minus the nickname otherwise."""
+    """Short school name: our own for teams in any edition, ESPN's name minus the nickname otherwise."""
     if key and key in BY_KEY:
         return BY_KEY[key].short
+    if name in _EVERY:
+        return _EVERY[name]
+    return _strip_nick(name)
+
+
+def _strip_nick(name: str | None) -> str:
+    """ESPN's display name minus the mascot."""
     words = (name or "").split()
     if len(words) >= 3 and (" ".join(words[-2:]).lower() in _TWO_WORD or words[-2].lower() in _NICK_LEAD):
         return " ".join(words[:-2])
     return " ".join(words[:-1]) if len(words) >= 2 else (name or "")
 
 
+_NICK = {"queens": "Royals"}  # ESPN: "Queens University Royals"
+
+
 def nickname(key: str) -> str:
     """The mascot alone. Our short name is not always how the full name starts (UMass, Massachusetts Minutemen)."""
     t = BY_KEY[key]
-    lead = t.short if t.name.startswith(t.short + " ") else school(t.name)
+    if key in _NICK:
+        return _NICK[key]
+    lead = t.short if t.name.startswith(t.short + " ") else _strip_nick(t.name)
     return t.name[len(lead):].strip() or t.name
 
 
@@ -118,7 +140,7 @@ def result_item(g: dict, box: dict | None) -> dict:
 
 
 def _side(x: dict) -> dict:
-    return {"name": school(x.get("name"), x.get("key")), "abbr": x.get("abbr"), "espn_id": x.get("espn_id"), "score": x.get("score"),
+    return {"name": school(x.get("name"), x.get("key")), "key": x.get("key") if x.get("key") in BY_KEY else None, "abbr": x.get("abbr"), "espn_id": x.get("espn_id"), "score": x.get("score"),
             "winner": x.get("winner"), "mac": x.get("key") in BY_KEY, "color": BY_KEY[x["key"]].color if x.get("key") in BY_KEY else None}
 
 
@@ -273,7 +295,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     winless = [r["team"] for r in standings if r.get("l") and not r.get("w")]
 
     date_label = et_now.strftime("%A, %B %-d")
-    paras: list[str] = [f"This is MAC90 for {date_label}."]
+    paras: list[str] = [f"This is MidMaxx60 for {date_label}."]
     real = [r for r in results if not r["tune_up"]]
     tune = [r for r in results if r["tune_up"]]
     if results:
@@ -295,18 +317,18 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         paras.append(f"Still unbeaten: {_list(unbeaten)}." + (f" Still looking for a first win: {_list(winless)}." if winless else ""))
     if note:
         paras.append(note["text"])
-    paras.append("That's MAC90. Every line, box score and rating is at Hardwood Bricks dot com.")
+    paras.append("That's MidMaxx60. Every line, box score and rating is at Hardwood Bricks dot com.")
 
     # The same script cut into segments, one card each, for the video.
     segs: list[dict] = [{"kind": "intro", "text": paras[0]}]
     for i, r in enumerate(real):
-        segs.append({"kind": "result", "label": results_label, "text": (f"{results_label}: " if i == 0 else "") + r["text"], "card": r["card"]})
+        segs.append({"kind": "result", "game_id": r["game_id"], "label": results_label, "text": (f"{results_label}: " if i == 0 else "") + r["text"], "card": r["card"]})
     if tune:
         segs.append({"kind": "tuneups", "label": results_label, "cards": [r["card"] for r in tune],
                      "text": (f"{results_label}: " if not real else "Also, ") + "; ".join(r["short"] for r in tune) + " against non-Division I competition."})
     lined_p = [p for p in previews if not p["tune_up"]]
     for i, p in enumerate(lined_p):
-        segs.append({"kind": "preview", "label": slate_label, "text": (f"{slate_label}: " if i == 0 else "") + p["text"], "card": p["card"]})
+        segs.append({"kind": "preview", "game_id": p["game_id"], "label": slate_label, "text": (f"{slate_label}: " if i == 0 else "") + p["text"], "card": p["card"]})
     tune_p = [p for p in previews if p["tune_up"]]
     if tune_p:
         names = [p["mac"] for p in tune_p]
@@ -327,6 +349,8 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     links = [ln for r in results for ln in r.get("links", [])]
     links += [(t.short, f"teams/{t.key}.html") for t in BY_KEY.values()]
     return {
+        "league": LEAGUE.key,
+        "league_short": LEAGUE.short,
         "date_label": date_label,
         "date_iso": et_now.date().isoformat(),
         "results_label": results_label,
@@ -338,7 +362,7 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
         "paragraphs_html": [link_text(p, links) for p in paras],
         "words": words,
         "seconds": round(words / WPM * 60),
-        "over": words > TARGET_WORDS + 40,
+        "over": words > TARGET_WORDS + 25,
     }
 
 

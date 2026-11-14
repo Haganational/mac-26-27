@@ -1,20 +1,20 @@
-name: MAC90 video
+name: MidMaxx60 video
 
 # Every morning at 8 a.m. Eastern (13:00 UTC in winter, 12:00 UTC in summer): build the
-# MAC90 script from the latest data, voice it, render vertical cards, and publish the MP4,
+# MidMaxx60 script from every edition's latest data, voice it with the anchor desk, render vertical cards, and publish the MP4,
 # captions, thumbnail and description as a GitHub release, then upload it to YouTube as a Short.
 on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/mac90video.py", "mac/today.py", "templates/mac90_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/mac90.yml"]
+    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
 
 permissions:
   contents: write
 
 concurrency:
-  group: mac90
+  group: midmaxx60
   cancel-in-progress: false
 
 env:
@@ -34,19 +34,16 @@ jobs:
       - run: pip install -r requirements.txt piper-tts
       - name: Fonts and ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
-      - name: Cache the Piper voice
+      - name: Cache the Piper voices
         uses: actions/cache@v4
         with:
           path: |
             voices/*.onnx
             voices/*.onnx.json
-          key: piper-${{ env.VOICE }}
-      - name: Download the Piper voice
-        run: |
-          mkdir -p voices
-          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
-          [ -f voices/$VOICE.onnx ] || curl -sSfL -o voices/$VOICE.onnx $base/$VOICE.onnx
-          [ -f voices/$VOICE.onnx.json ] || curl -sSfL -o voices/$VOICE.onnx.json $base/$VOICE.onnx.json
+          key: piper-${{ hashFiles('mac/anchors.py') }}
+      # The host voice plus every anchor's voice. An anchor whose voice will not download reads in the host voice.
+      - name: Download the Piper voices
+        run: tools/fetch_voices.sh
       # Matthew's cloned voice. His reference clip is committed only encrypted
       # (voices/matthew.ogg.enc); the key is the VOICE_KEY repo secret. Without both,
       # the video uses Piper. Pull requests clone a Piper sample instead, to test the path.
@@ -66,7 +63,7 @@ jobs:
             echo "::warning::VOICE_KEY did not open voices/matthew.ogg.enc; using Piper"
           elif [ "${{ github.event_name }}" = "pull_request" ]; then
             [ -n "$VOICE_KEY" ] && echo "::warning::VOICE_KEY did not open voices/matthew.ogg.enc; testing with a Piper sample"
-            echo "This is MAC Ninety, the Mid-American Conference in ninety seconds. Western Michigan beat Campbell eighty seven to seventy one last night, and Bowling Green hosts Cleveland State tonight at seven." \
+            echo "This is Mid Max Sixty, the Mid-American Conference in sixty seconds. Western Michigan beat Campbell eighty seven to seventy one last night, and Bowling Green hosts Cleveland State tonight at seven." \
               | python -m piper -m voices/$VOICE.onnx -f /tmp/ref.wav
             echo "clone=yes" >> "$GITHUB_OUTPUT"
           fi
@@ -84,10 +81,12 @@ jobs:
           /tmp/cbenv/bin/python -c "import perth; print('watermarker:', perth.PerthImplicitWatermarker)"
           echo "VOICE_CLONE_PY=/tmp/cbenv/bin/python" >> "$GITHUB_ENV"
           echo "VOICE_REF=/tmp/ref.wav" >> "$GITHUB_ENV"
-      - name: Build the script (render only, no API calls)
+      - name: Build every edition's script (render only, no API calls)
         env:
           SITE_URL: ${{ vars.SITE_URL }}
-        run: python -m mac.collect site
+        run: |
+          for L in asun horizon mw metro bigwest; do LEAGUE=$L python -m mac.collect site; done
+          python -m mac.collect site
       # Stale or empty data: skip today's video and email Matthew instead of publishing old news.
       # Pull requests always render, to test the path.
       - name: Skip and alert on stale data
@@ -98,30 +97,30 @@ jobs:
           ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
           ALERT_TO: ${{ vars.ALERT_TO }}
         run: |
-          python -m mac.mac90video --check --data-time "$(git log -1 --format=%cI -- data/)"
+          python -m mac.midmaxx60 --check --data-time "$(git log -1 --format=%cI -- data/)"
       - name: Render the video
         if: steps.fresh.outputs.skip != 'yes'
         env:
           PIPER_VOICE: voices/${{ env.VOICE }}.onnx
           CHROME_BIN: /usr/bin/google-chrome
-        run: python -m mac.mac90video --out out
+        run: python -m mac.midmaxx60 --out out
       - uses: actions/upload-artifact@v4
         if: steps.fresh.outputs.skip != 'yes'
         with:
-          name: mac90
-          path: out/mac90-*
+          name: midmaxx60
+          path: out/midmaxx60-*
       - name: Publish as a release
         if: github.event_name != 'pull_request' && steps.fresh.outputs.skip != 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          stem=$(basename out/mac90-*.mp4 .mp4)
+          stem=$(basename out/midmaxx60-*.mp4 .mp4)
           tag="$stem"
           files="out/$stem.mp4 out/$stem.srt out/$stem-thumb.png out/$stem.txt"
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" $files --clobber
           else
-            gh release create "$tag" $files --title "MAC90 · ${stem#mac90-}" --notes-file "out/$stem.txt"
+            gh release create "$tag" $files --title "MidMaxx60 · ${stem#midmaxx60-}" --notes-file "out/$stem.txt"
           fi
       # Needs the YT_* secrets from the channel owner; without them this warns and moves on.
       - name: Upload to YouTube

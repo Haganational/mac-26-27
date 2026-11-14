@@ -1,0 +1,609 @@
+{
+ "_about": "The Hardwood Bricks anchor desk: one AI anchor per school (Matthew's roster, Nov 14, 2026). Portraits are generated images on a green screen; tools/key_anchor.py keys them into anchors/<key>.webp. Every anchor is a fictional AI persona, disclosed as such in each video.",
+ "prompt": "Photorealistic vertical 9:16 head-and-shoulders studio portrait of a {age} {gender_word} sports anchor, wearing a {colors_lower} {gear_desc} with '{SCHOOL}' {placement}. Clean studio broadcast lighting, centered framing from chest up, standing in front of a flat, evenly lit solid bright chroma-key green screen background with no green spill.",
+ "anchors": {
+  "akron": {
+   "id": 1,
+   "school": "Akron",
+   "name": "Marcus Vance",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy Blue and Gold"
+  },
+  "ball-state": {
+   "id": 2,
+   "school": "Ball State",
+   "name": "Hannah Lindqvist",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Cardinal Red and White"
+  },
+  "bowling-green": {
+   "id": 3,
+   "school": "Bowling Green",
+   "name": "Gary Mercer",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Burnt Orange and Seal Brown"
+  },
+  "buffalo": {
+   "id": 4,
+   "school": "Buffalo",
+   "name": "Simone Baptiste",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Royal Blue and White"
+  },
+  "central-michigan": {
+   "id": 5,
+   "school": "Central Michigan",
+   "name": "Trevor Holloway",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Wrestling Singlet",
+   "colors": "Maroon and Gold"
+  },
+  "eastern-michigan": {
+   "id": 6,
+   "school": "Eastern Michigan",
+   "name": "Diane Okafor",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Forest Green and White"
+  },
+  "kent-state": {
+   "id": 7,
+   "school": "Kent State",
+   "name": "Nick DeLuca",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Navy Blue and Gold"
+  },
+  "miami-oh": {
+   "id": 8,
+   "school": "Miami (OH)",
+   "name": "Claire Beaumont",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and White"
+  },
+  "ohio": {
+   "id": 9,
+   "school": "Ohio",
+   "name": "Ray Abernathy",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "Polo Shirt",
+   "colors": "Hunter Green and White"
+  },
+  "toledo": {
+   "id": 10,
+   "school": "Toledo",
+   "name": "Tessa Morales",
+   "gender": "Woman",
+   "age": "Early 20s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Midnight Blue and Gold"
+  },
+  "umass": {
+   "id": 11,
+   "school": "UMass",
+   "name": "Kevin Donahue",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Maroon and White"
+  },
+  "western-michigan": {
+   "id": 12,
+   "school": "Western Michigan",
+   "name": "Patty Gallagher",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Polo Shirt",
+   "colors": "Brown and Gold"
+  },
+  "bellarmine": {
+   "id": 13,
+   "school": "Bellarmine",
+   "name": "Craig Halvorsen",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Scarlet Red and Silver"
+  },
+  "fgcu": {
+   "id": 14,
+   "school": "FGCU",
+   "name": "Elena Navarro",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Emerald Green and Cobalt Blue"
+  },
+  "jacksonville": {
+   "id": 15,
+   "school": "Jacksonville",
+   "name": "Darius Boone",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Kelly Green and White"
+  },
+  "lipscomb": {
+   "id": 16,
+   "school": "Lipscomb",
+   "name": "Susan Whitaker",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and Gold"
+  },
+  "north-florida": {
+   "id": 17,
+   "school": "North Florida",
+   "name": "Tyler Sato",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Wrestling Singlet",
+   "colors": "Navy Blue and Gray"
+  },
+  "queens": {
+   "id": 18,
+   "school": "Queens",
+   "name": "Monica Cho",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Navy Blue and Vegas Gold"
+  },
+  "stetson": {
+   "id": 19,
+   "school": "Stetson",
+   "name": "Frankie Castellano",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "3/4 Zip Pullover + Baseball Cap",
+   "colors": "Hunter Green and White"
+  },
+  "west-florida": {
+   "id": 20,
+   "school": "West Florida",
+   "name": "Brianna Jenkins",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Royal Blue and Kelly Green"
+  },
+  "cleveland-state": {
+   "id": 21,
+   "school": "Cleveland State",
+   "name": "Dan Kowalski",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Forest Green and White"
+  },
+  "detroit-mercy": {
+   "id": 22,
+   "school": "Detroit Mercy",
+   "name": "Nadia Haddad",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Titan Red and Royal Blue"
+  },
+  "green-bay": {
+   "id": 23,
+   "school": "Green Bay",
+   "name": "Mitch Carlson",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Green and White"
+  },
+  "iu-indy": {
+   "id": 24,
+   "school": "IU Indy",
+   "name": "Kendra Brooks",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Crimson Red and Gold"
+  },
+  "milwaukee": {
+   "id": 25,
+   "school": "Milwaukee",
+   "name": "Andre Bellamy",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Black and Gold"
+  },
+  "northern-illinois": {
+   "id": 26,
+   "school": "Northern Illinois",
+   "name": "Rachelle Novak",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Cardinal Red and Black"
+  },
+  "northern-kentucky": {
+   "id": 27,
+   "school": "Northern Kentucky",
+   "name": "Owen Fitzpatrick",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Gold and Black"
+  },
+  "oakland": {
+   "id": 28,
+   "school": "Oakland",
+   "name": "Brenda Whitfield",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Black and Gold"
+  },
+  "purdue-fort-wayne": {
+   "id": 29,
+   "school": "Purdue Fort Wayne",
+   "name": "Samir Patel",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Royal Blue and Gold"
+  },
+  "robert-morris": {
+   "id": 30,
+   "school": "Robert Morris",
+   "name": "Lauren McAllister",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy Blue and Red"
+  },
+  "wright-state": {
+   "id": 31,
+   "school": "Wright State",
+   "name": "Maya Delgado",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Hunter Green and Gold"
+  },
+  "youngstown-state": {
+   "id": 32,
+   "school": "Youngstown State",
+   "name": "Brett Callahan",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Wrestling Singlet",
+   "colors": "Crimson Red and White"
+  },
+  "air-force": {
+   "id": 33,
+   "school": "Air Force",
+   "name": "Col. Hank Sterling",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Air Force Blue and Silver"
+  },
+  "grand-canyon": {
+   "id": 34,
+   "school": "Grand Canyon",
+   "name": "Chloe Alverez",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Hoodie",
+   "colors": "Purple and White"
+  },
+  "hawaii": {
+   "id": 35,
+   "school": "Hawai'i",
+   "name": "Kaleo Kekoa",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Green and White"
+  },
+  "nevada": {
+   "id": 36,
+   "school": "Nevada",
+   "name": "Megan Sorensen",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy Blue and Silver"
+  },
+  "new-mexico": {
+   "id": 37,
+   "school": "New Mexico",
+   "name": "Mateo Sandoval",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Wrestling Singlet",
+   "colors": "Cherry Red and Silver"
+  },
+  "san-jose-state": {
+   "id": 38,
+   "school": "San José St",
+   "name": "Priya Deshmukh",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Royal Blue and Gold"
+  },
+  "uc-davis": {
+   "id": 39,
+   "school": "UC Davis",
+   "name": "Walter Jennings",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Aggie Blue and Gold"
+  },
+  "unlv": {
+   "id": 40,
+   "school": "UNLV",
+   "name": "Vanessa Cruz",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Scarlet Red and Gray"
+  },
+  "utep": {
+   "id": 41,
+   "school": "UTEP",
+   "name": "Hector Villalobos",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Dark Blue and Orange"
+  },
+  "wyoming": {
+   "id": 42,
+   "school": "Wyoming",
+   "name": "Darlene Pickett",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Hoodie",
+   "colors": "Brown and Prairie Gold"
+  },
+  "canisius": {
+   "id": 43,
+   "school": "Canisius",
+   "name": "Paulie Brennan",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "fairfield": {
+   "id": 44,
+   "school": "Fairfield",
+   "name": "Olivia Romano",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Cardinal Red and White"
+  },
+  "iona": {
+   "id": 45,
+   "school": "Iona",
+   "name": "Vinnie Moretti",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Maroon and Gold"
+  },
+  "manhattan": {
+   "id": 46,
+   "school": "Manhattan",
+   "name": "Siobhan Kelly",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Kelly Green and White"
+  },
+  "marist": {
+   "id": 47,
+   "school": "Marist",
+   "name": "Evan Gallagher",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Wrestling Singlet",
+   "colors": "Red and White"
+  },
+  "merrimack": {
+   "id": 48,
+   "school": "Merrimack",
+   "name": "Brooke Tremblay",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Hoodie",
+   "colors": "Navy Blue and Gold"
+  },
+  "mount-st-marys": {
+   "id": 49,
+   "school": "Mount St. Mary's",
+   "name": "Father Greg Connolly",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "Polo Shirt",
+   "colors": "Navy Blue and White"
+  },
+  "niagara": {
+   "id": 50,
+   "school": "Niagara",
+   "name": "Alicia Kowalczyk",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover + Baseball Cap",
+   "colors": "Purple and White"
+  },
+  "quinnipiac": {
+   "id": 51,
+   "school": "Quinnipiac",
+   "name": "Jared Goldstein",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Navy Blue and Gold"
+  },
+  "rider": {
+   "id": 52,
+   "school": "Rider",
+   "name": "Denise Holloway",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Cranberry Red and White"
+  },
+  "sacred-heart": {
+   "id": 53,
+   "school": "Sacred Heart",
+   "name": "Tommy DiNapoli",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Scarlet Red and White"
+  },
+  "saint-peters": {
+   "id": 54,
+   "school": "Saint Peter's",
+   "name": "Carmen Rosario",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Polo Shirt",
+   "colors": "Peacock Blue and White"
+  },
+  "siena": {
+   "id": 55,
+   "school": "Siena",
+   "name": "Sean McDonough Jr.",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Green and Gold"
+  },
+  "cal-baptist": {
+   "id": 56,
+   "school": "Cal Baptist",
+   "name": "Jordan Whitaker",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Navy Blue and Gold"
+  },
+  "cal-poly": {
+   "id": 57,
+   "school": "Cal Poly",
+   "name": "Heather Takahashi",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Forest Green and Gold"
+  },
+  "csu-bakersfield": {
+   "id": 58,
+   "school": "CSU Bakersfield",
+   "name": "Ramon Cisneros",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Royal Blue and Gold"
+  },
+  "cal-state-fullerton": {
+   "id": 59,
+   "school": "CS Fullerton",
+   "name": "Gina Mendoza",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Wrestling Singlet",
+   "colors": "Navy Blue and Orange"
+  },
+  "csun": {
+   "id": 60,
+   "school": "CSUN",
+   "name": "Devon Brooks",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and Black"
+  },
+  "long-beach-state": {
+   "id": 61,
+   "school": "Long Beach St",
+   "name": "Sharon Nakayama",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Black and Gold"
+  },
+  "sacramento-state": {
+   "id": 62,
+   "school": "Sacramento St",
+   "name": "Connor Briggs",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Green and Gold"
+  },
+  "uc-irvine": {
+   "id": 63,
+   "school": "UC Irvine",
+   "name": "Tiffany Park",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "uc-riverside": {
+   "id": 64,
+   "school": "UC Riverside",
+   "name": "Malcolm Reyes",
+   "gender": "Man",
+   "age": "Late 50s",
+   "gear": "Polo Shirt",
+   "colors": "Blue and Gold"
+  },
+  "uc-san-diego": {
+   "id": 65,
+   "school": "UC San Diego",
+   "name": "Natalie Lin",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Navy Blue and Gold"
+  },
+  "uc-santa-barbara": {
+   "id": 66,
+   "school": "UCSB",
+   "name": "Caleb Thornton",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy Blue and Gold"
+  },
+  "utah-valley": {
+   "id": 67,
+   "school": "Utah Valley",
+   "name": "Whitney Sorenson",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Forest Green and White"
+  }
+ }
+}

@@ -183,7 +183,7 @@ document.addEventListener('click', function (e) {
   b.replaceWith(f);
 });
 
-// MAC90 on Home: swap the card for the YouTube Shorts player (latest upload first).
+// MidMaxx60 on Home: swap the card for the YouTube Shorts player (latest upload first).
 document.addEventListener('click', function (e) {
   var b = e.target.closest('[data-yt-list]');
   if (!b) return;
@@ -191,7 +191,7 @@ document.addEventListener('click', function (e) {
   f.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(b.dataset.ytList) + '&autoplay=1&playsinline=1&rel=0';
   f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
   f.allowFullscreen = true;
-  f.title = 'MAC90 on YouTube';
+  f.title = 'MidMaxx60 on YouTube';
   var card = b.closest('.ytwatch');
   b.replaceWith(f);
   // The card sits compact until play, then opens to a full-size vertical player.

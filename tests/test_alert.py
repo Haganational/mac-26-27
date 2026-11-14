@@ -4,8 +4,8 @@ from mac import alert
 def test_without_secrets_it_warns_and_sends_nothing(monkeypatch, capsys):
     monkeypatch.delenv("ALERT_SMTP_USER", raising=False)
     monkeypatch.delenv("ALERT_SMTP_PASSWORD", raising=False)
-    assert alert.send("MAC90 skipped", "the data\nwas old") is False
-    assert "::warning::MAC90 skipped: the data was old" in capsys.readouterr().out
+    assert alert.send("MidMaxx60 skipped", "the data\nwas old") is False
+    assert "::warning::MidMaxx60 skipped: the data was old" in capsys.readouterr().out
 
 
 def test_sends_to_the_desk_alias_by_default(monkeypatch):
