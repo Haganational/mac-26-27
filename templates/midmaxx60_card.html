@@ -127,6 +127,12 @@
     <div class="label">Over-under watch · this season</div>
     <div class="ourec"><div class="{{ 'lead' if c.side == 'over' else '' }}"><b>{{ c.o }}</b><small>Overs</small></div><div class="{{ 'lead' if c.side == 'under' else '' }}"><b>{{ c.u }}</b><small>Unders</small></div></div>
     <div class="chips"><span class="chip gold">{{ '%+.1f'|format(c.diff) }} pts vs the close, per game</span><span class="chip">{{ c.n }} games with a {{ LG }} team</span></div>
+  {% elif seg.kind == 'offcourt' %}
+    {% set c = seg.card %}
+    <div class="label">Off the court · {{ c.school }} alumni</div>
+    <div class="notetitle">{{ c.name }}</div>
+    <div class="notequote" style="border-left-color:{{ c.color or 'var(--gold)' }}">{{ c.known_for }}{% if c.years %} · {{ c.years }}{% endif %}</div>
+    <div class="chips"><span class="chip">Source: {{ c.source }}</span></div>
   {% elif seg.kind == 'note' %}
     {% set c = seg.card %}
     <div class="label">From the Fieldhouse Notes</div>

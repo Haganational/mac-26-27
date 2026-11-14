@@ -103,6 +103,11 @@
     <div class="label">Player of the week <span>· {{ seg.name }}</span></div>
     <div class="player" style="--tc:{{ c.color }}">{{ logo(c) }}<div><div class="pname">{{ c.name }}</div><div class="pteam">{{ c.team }} · vs {{ c.opp }}</div>
       <div class="statline"><div><b>{{ c.pts }}</b><small>POINTS</small></div>{% if (c.reb or 0) >= 8 %}<div><b>{{ c.reb }}</b><small>REBOUNDS</small></div>{% endif %}{% if (c.ast or 0) >= 6 %}<div><b>{{ c.ast }}</b><small>ASSISTS</small></div>{% endif %}</div></div></div>
+  {% elif seg.kind == 'offcourt' %}
+    {% set c = seg.card %}
+    <div class="label">Off the court <span>· {{ c.school }} alumni</span></div>
+    <div class="player" style="--tc:{{ c.color or '#666' }};grid-template-columns:1fr"><div><div class="pname">{{ c.name }}</div><div class="pteam">{{ c.known_for }}{% if c.years %} · {{ c.years }}{% endif %}</div></div></div>
+    <div class="chips"><span class="chip">Source: {{ c.source }}</span></div>
   {% elif seg.kind == 'next' %}
     {% set c = seg.card %}
     <div class="label">Circle it <span>· {{ seg.name }} · {{ c.day }}</span></div>

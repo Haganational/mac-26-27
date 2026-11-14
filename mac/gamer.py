@@ -78,6 +78,14 @@ def load_flavor(path: Path = FLAVOR_PATH) -> dict[str, Any]:
     f.setdefault("settings", {})
     f.setdefault("teams", {})
     f.setdefault("rivalries", {})
+    if path == FLAVOR_PATH:  # the alumni desk's stories join each school's own lines (mac/alumni.py)
+        from . import alumni
+        from .leagues import ALL
+        for tm in (tm for lg in ALL.values() for tm in lg.teams):
+            more = alumni.flavor_lines(tm.key, tm.short)
+            if more:
+                t = f["teams"].setdefault(tm.key, {})
+                t["lines"] = list(t.get("lines", [])) + more
     return f
 
 

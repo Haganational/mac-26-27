@@ -21,13 +21,13 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert, anchors
+from . import alert, alumni, anchors
 from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
 MAX_SECS = 59.0  # a Short is 60 seconds at most; keep a second of margin
 # Which segments go first when the read runs long: extras, then the latest previews, then the latest results.
-DROP_FIRST = ("tuneups_next", "tuneups", "note", "standings", "ou", "move")
+DROP_FIRST = ("offcourt", "tuneups_next", "tuneups", "note", "standings", "ou", "move")  # a game is never cut for a story
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
@@ -436,7 +436,11 @@ def combine(scripts: list[dict]) -> dict:
     if previews:
         previews[0]["text"] = f"{lead['slate_label']}. " + previews[0]["text"]
     outro = "That's MidMaxx60. Every line, box score and rating is at Hardwood Bricks dot com."
-    segs = [{"kind": "intro", "text": intro}, *results, *previews, {"kind": "outro", "text": outro}]
+    # Off the court: one alumni story from a school with a result tonight, when the 60 seconds have room (fit()).
+    teams = {tm.key: tm for lg in all_leagues() for tm in lg.teams}
+    on_air = [k for k in (anchors.team_of(sg) for sg in results) if k in teams]
+    story = [sg for k in alumni.choose(on_air, lead["date_iso"]) if (sg := alumni.segment(k, lead["date_iso"], teams[k].short, teams[k].color))]
+    segs = [{"kind": "intro", "text": intro}, *results, *previews, *story, {"kind": "outro", "text": outro}]
     return {**{k: lead[k] for k in ("date_label", "date_iso", "results_label", "slate_label")},
             "league_label": "mid-majors", "paragraphs": [sg["text"] for sg in segs], "segments": segs,
             "results": [r for t in scripts for r in t.get("results", [])], "previews": [p for t in scripts for p in t.get("previews", [])],
