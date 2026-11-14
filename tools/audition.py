@@ -53,7 +53,7 @@ def script(key: str) -> str:
     who = f"{'man in his' if a['gender'] == 'Man' else 'woman in her'} {a['age'].lower()}"
     lines = (f"{c['catch']} Here's where it stands. A road win, a cover, and a crowd that never sat down. "
              f"The numbers say one thing, my gut says another, and tonight my gut wins. {c['signoff']}")
-    return f"Read this as a college basketball TV anchor, a {who}. Voice and delivery: {c['voice']}\n\n{lines}"
+    return f"Read this as a college basketball TV anchor, a {who}. Voice and delivery: {c['voice']} Keep the pace brisk, like a 60-second highlight show.\n\n{lines}"
 
 
 def record(key: str, out: Path, api_key: str) -> None:
@@ -96,12 +96,18 @@ def main() -> None:
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
         raise SystemExit("GEMINI_API_KEY is not set")
+    done = 0
     for k in todo[: a.most]:
         out = anchors.AUDITIONS / f"{k}.ogg"
-        record(k, out, api_key)
+        try:
+            record(k, out, api_key)
+        except SystemExit as e:  # out of free-tier quota (or another refusal): keep what we have, the next run carries on
+            print(f"stopping: {e}")
+            break
+        done += 1
         print(f"{out} ({gemini_voice(k)}) {out.stat().st_size // 1024} KB")
         time.sleep(7)  # stay under the free tier's requests per minute
-    print(f"{max(0, len(todo) - a.most)} still to record")
+    print(f"recorded {done}; {len(todo) - done} still to record")
 
 
 if __name__ == "__main__":

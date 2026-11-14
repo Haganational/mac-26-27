@@ -28,7 +28,7 @@ VOICE_POOL = {
     "Woman": ["en_US-lessac-high", "en_US-amy-medium", "en_US-kristin-medium", "en_US-hfc_female-medium",
               "en_US-ljspeech-high", "en_US-kathleen-low"],
 }
-PACE = {"Early 20s": 0.9, "Late 20s": 0.92, "Mid-30s": 0.94, "40s": 0.96, "50s": 0.98, "Late 50s": 1.0, "Early 60s": 1.02}
+PACE = {"Early 20s": 0.84, "Late 20s": 0.86, "Mid-30s": 0.87, "40s": 0.89, "50s": 0.91, "Late 50s": 0.93, "Early 60s": 0.95}  # Piper length-scale: lower is quicker (sped up Nov 14)
 
 
 def voice_path(name: str) -> str:
@@ -48,7 +48,7 @@ def roster() -> dict[str, dict[str, Any]]:
         start = int(hashlib.sha1(gender.encode()).hexdigest(), 16) % len(pool)
         for n, (_, k) in enumerate(mine):
             out[k]["voice"] = pool[(start + n) % len(pool)]
-            out[k]["pace"] = PACE.get(out[k]["age"], 0.95)
+            out[k]["pace"] = PACE.get(out[k]["age"], 0.88)
     return out
 
 
