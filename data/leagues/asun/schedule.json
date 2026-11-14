@@ -1301,7 +1301,7 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1309,13 +1309,13 @@
     "key": null,
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:28 - 1st"
   },
   {
    "game_id": "401922220",
@@ -1342,7 +1342,7 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -1350,13 +1350,13 @@
     "key": null,
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:24 - 1st"
   },
   {
    "game_id": "401922230",
@@ -1386,7 +1386,7 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -1394,13 +1394,13 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:53 - 1st"
   },
   {
    "game_id": "401920705",
@@ -8074,5 +8074,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T19:30:48+00:00"
 }

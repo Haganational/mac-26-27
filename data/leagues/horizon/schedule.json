@@ -1895,7 +1895,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 28,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -1903,13 +1903,13 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": 34,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:03 - 2nd"
   },
   {
    "game_id": "401920915",
@@ -1939,7 +1939,7 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1947,13 +1947,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:28 - 1st"
   },
   {
    "game_id": "401911016",
@@ -10456,5 +10456,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T19:01:04+00:00"
+ "live_at": "2026-11-14T19:30:59+00:00"
 }
