@@ -2010,7 +2010,7 @@
     "key": null,
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2018,13 +2018,13 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:57 - 1st"
   },
   {
    "game_id": "401920867",
@@ -11155,5 +11155,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T23:32:09+00:00"
 }

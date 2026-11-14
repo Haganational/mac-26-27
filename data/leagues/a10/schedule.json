@@ -2053,7 +2053,7 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2061,13 +2061,13 @@
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:31 - 1st"
   },
   {
    "game_id": "401925774",
@@ -12616,5 +12616,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T23:33:29+00:00"
 }

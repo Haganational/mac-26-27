@@ -2056,7 +2056,7 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 46,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2064,13 +2064,13 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 42,
+    "score": 52,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:50 - 2nd"
   },
   {
    "game_id": "401920961",
@@ -10443,5 +10443,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T23:31:20+00:00"
 }
