@@ -118,13 +118,16 @@ def norm(s: str) -> str:
 
 def query(q: str) -> list[dict[str, str]]:
     for attempt in range(4):
-        r = requests.get(SPARQL, params={"query": q, "format": "json"}, headers={"User-Agent": UA}, timeout=180)
+        r = requests.post(SPARQL, data={"query": q}, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=180)
         if r.status_code == 200:
-            return [{k: v["value"] for k, v in b.items()} for b in r.json()["results"]["bindings"]]
-        print("wikidata", r.status_code, r.text[:200])
+            try:
+                return [{k: v["value"] for k, v in b.items()} for b in r.json()["results"]["bindings"]]
+            except ValueError as e:  # a response cut off at the 60 s query limit
+                print("wikidata: bad JSON,", e)
+        else:
+            print("wikidata", r.status_code, r.text[:200])
         time.sleep(10 * (attempt + 1))
-    r.raise_for_status()
-    return []
+    raise SystemExit("wikidata: gave up after 4 tries")
 
 
 def our_teams() -> dict[str, dict[str, str]]:
@@ -153,30 +156,36 @@ def main() -> int:
             keys.setdefault(norm(lab), tid)
     label_franchise = {norm(lab): code for code, labs in FRANCHISE.items() for lab in labs}
 
-    # Every NBA player's teams (NBA and college) and universities.
-    rows = query(f"""
-SELECT ?p ?pLabel ?t ?tLabel ?nba WHERE {{
+    # Three small queries instead of one huge one (a single query came back cut off at 22 MB).
+    # 1. Every NBA roster spot: player -> NBA team item.
+    spots = query(f"SELECT ?p ?t WHERE {{ ?p wdt:P54 ?t . ?t wdt:P118 wd:{NBA} . }}")
+    # 2. English names of those NBA team items, and of the players.
+    tnames = {r["t"]: r["l"] for r in query(f"""
+SELECT DISTINCT ?t ?l WHERE {{ ?t wdt:P118 wd:{NBA} ; rdfs:label ?l . FILTER(LANG(?l) = "en") }}""")}
+    pnames = {r["p"]: r["l"] for r in query(f"""
+SELECT DISTINCT ?p ?l WHERE {{ ?p wdt:P54 ?t . ?t wdt:P118 wd:{NBA} . ?p rdfs:label ?l . FILTER(LANG(?l) = "en") }}""")}
+    # 3. Their college teams and universities, already narrowed to college-looking labels.
+    cols = query(f"""
+SELECT DISTINCT ?p ?l WHERE {{
   ?p wdt:P54 ?x . ?x wdt:P118 wd:{NBA} .
-  {{ ?p wdt:P54 ?t . OPTIONAL {{ ?t wdt:P118 ?lg . }} BIND(?lg = wd:{NBA} AS ?nba) }}
-  UNION {{ ?p wdt:P69 ?t . BIND(false AS ?nba) }}
-  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+  ?p wdt:P54|wdt:P69 ?c . ?c rdfs:label ?l . FILTER(LANG(?l) = "en")
+  FILTER(CONTAINS(?l, "basketball") || CONTAINS(?l, "Universit") || CONTAINS(?l, "College") || CONTAINS(?l, "Academy"))
 }}""")
-    print("rows", len(rows))
+    print("rows", len(spots), len(tnames), len(pnames), len(cols))
     players: dict[str, dict] = {}
     unknown_nba: dict[str, int] = {}
-    for r in rows:
-        p = players.setdefault(r["p"], {"name": r.get("pLabel", ""), "schools": set(), "teams": set()})
-        lab = r.get("tLabel", "")
-        if r.get("nba") == "true":
-            code = label_franchise.get(norm(lab))
-            if code:
-                p["teams"].add(code)
-            else:
-                unknown_nba[lab] = unknown_nba.get(lab, 0) + 1
+    for r in spots:
+        p = players.setdefault(r["p"], {"name": pnames.get(r["p"], ""), "schools": set(), "teams": set()})
+        lab = tnames.get(r["t"], "")
+        code = label_franchise.get(norm(lab))
+        if code:
+            p["teams"].add(code)
         else:
-            tid = keys.get(norm(lab))
-            if tid:
-                p["schools"].add(tid)
+            unknown_nba[lab] = unknown_nba.get(lab, 0) + 1
+    for r in cols:
+        tid = keys.get(norm(r["l"]))
+        if tid and r["p"] in players:
+            players[r["p"]]["schools"].add(tid)
     by_school: dict[str, list] = {tid: [] for tid in teams}
     for qid, p in players.items():
         if not p["teams"] or re.fullmatch(r"Q\d+", p["name"]):
