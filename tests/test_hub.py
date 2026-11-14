@@ -94,3 +94,21 @@ def test_build_writes_privacy_page_for_google_oauth(tmp_path):
     assert '<link rel="canonical" href="https://x.com/privacy.html">' in html
     assert "YouTube API Services" in html and "policies.google.com/privacy" in html
     assert 'href="privacy.html"' in (tmp_path / "index.html").read_text()
+
+
+def test_den_page_and_its_quiet_front_page_line(tmp_path):
+    from datetime import datetime, timezone
+    hub.build(tmp_path, "https://x.com/")
+    front = (tmp_path / "index.html").read_text()
+    assert 'href="den.html">The Den</a>' in front and 'class="den-tz"' not in front, "no slate, no teaser line"
+    den = (tmp_path / "den.html").read_text()
+    assert '<link rel="canonical" href="https://x.com/den.html">' in den and 'aria-current="page">The Den' in den
+    today = datetime.now(timezone.utc).astimezone(hub.ET).strftime("%Y-%m-%d")
+    (tmp_path / "den").mkdir()
+
+    def side(i, ed):
+        return {"key": f"t{i}", "id": str(i), "short": f"T{i}", "abbr": f"T{i}", "edition": ed}
+    (tmp_path / "den" / f"slate-{today}.json").write_text(json.dumps({"date": today, "games": [
+        {"id": "g1", "home": side(1, "mac"), "away": side(2, None)}, {"id": "g2", "home": side(3, "horizon"), "away": side(1, "mac")}]}))
+    hub.build(tmp_path, "https://x.com/")
+    assert "Tonight's Bricksanity: 2 teams eligible" in (tmp_path / "index.html").read_text()

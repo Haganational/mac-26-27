@@ -269,7 +269,8 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     editor = (staff(mh) or [{}])[0]
     for e in eds:
         e["color"] = CONF_COLORS.get(e["key"], "#a8441c")
-    html = env.get_template("hub.html").render(
+    den = den_page(env, site_root, eds, names, base, now)
+    html = env.get_template("hub.html").render(den=den,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         lead=lead, cards=cards, river=[x for x in rest if x not in cards][:8],
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,
@@ -310,6 +311,29 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     (site_root / "privacy.html").write_text(env.get_template("privacy.html").render(
         eds=eds, base=base, noindex=SITE_NOINDEX, mh=mh, updated=PRIVACY_UPDATED))
     return site_root / "index.html"
+
+
+def den_teaser(site_root: Path, now: datetime) -> dict[str, Any] | None:
+    """Tonight's line for the front page, from the Den's own slate file (None on a day with no slate)."""
+    f = site_root / "den" / f"slate-{now.astimezone(ET):%Y-%m-%d}.json"
+    try:
+        games = json.loads(f.read_text()).get("games") or []
+    except (OSError, ValueError, AttributeError):
+        return None
+    ours = {str(s["id"]) for g in games for s in (g.get("home") or {}, g.get("away") or {}) if s.get("edition") and s.get("id")}
+    return {"games": len(games), "eligible": len(ours)} if games else None
+
+
+def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
+    """The Den (/den.html): a static shell whose games run in the browser from site/den/*.json.
+    Always written, so the nav link never 404s; on a day with no slate the page shows a quiet empty state.
+    Returns the front page's one-line teaser, or None."""
+    site_root.mkdir(parents=True, exist_ok=True)
+    cfg = {"editions": {e["key"]: e["short"] for e in eds}, "colors": {**{e["key"]: e["color"] for e in eds}, **{e["short"]: e["color"] for e in eds}}}
+    (site_root / "den.html").write_text(env.get_template("den.html").render(
+        eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+        built=now.isoformat(timespec="minutes"), cfg_json=json.dumps(cfg).replace("</", "<\\/")))
+    return den_teaser(site_root, now)
 
 
 def media_samples(media: dict[str, Any], sts: list[dict[str, Any]]) -> list[dict[str, Any]]:

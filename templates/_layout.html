@@ -68,6 +68,7 @@
         <div class="tb-menu tb-list">
           {% for p in more %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
           {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a>{% endif %}
+          <a href="{{ root }}{{ site_up }}den.html"><b>The Den</b><small>Free daily games: Daily Five, Pick 4, Bricksanity, Brick by Brick</small></a>
           <a class="tb-league" href="{{ root }}{{ site_up }}index.html"><b>All conferences →</b><small>Every edition's games tonight and last night's finals</small></a>{% for lg in leagues if not lg.on %}<a class="tb-league" href="{{ root }}{{ site_up }}{{ lg.home }}"><b>{{ lg.short }} edition →</b><small>{{ site_name }} for the {{ lg.name }}: {{ lg.region }}</small></a>{% endfor %}
           <a href="{{ root }}{{ site_up }}masthead.html"><b>About and masthead</b><small>Who we are, how we work, corrections</small></a>
           <a href="{{ root }}{{ site_up }}media.html"><b>Media and credentials</b><small>For SIDs reviewing a credential request</small></a>
