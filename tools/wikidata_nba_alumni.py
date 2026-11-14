@@ -1,4 +1,4 @@
-"""All-time NBA alumni of our 67 schools, with the NBA franchises each one played for, from Wikidata.
+"""All-time NBA alumni of every school we cover (all editions in mac/leagues.py), with the NBA franchises each one played for, from Wikidata.
 
 Wikidata is CC0, so the result can be published. Run where wikidata.org is reachable (GitHub Actions):
 
@@ -28,8 +28,8 @@ SPARQL = "https://query.wikidata.org/sparql"
 UA = "HardwoodBricksDen/1.0 (https://hardwoodbricks.com; NBA alumni grid)"
 NBA = "Q155223"
 
-COVERED = {"Mid-American": "MAC", "Horizon": "Horizon", "Atlantic Sun": "ASUN", "Mountain West": "MW",
-           "Big West": "Big West", "Metro Conference": "Metro"}
+# Short tags for the grid's row labels; any edition not listed uses its league's short name.
+EDITION_TAG = {"mw": "MW", "mvc": "MVC"}
 
 # Every name an NBA franchise has gone by (Wikidata labels), mapped to today's franchise code.
 FRANCHISE = {
@@ -72,6 +72,13 @@ NICK = {"ATL": "Hawks", "BOS": "Celtics", "BKN": "Nets", "CHA": "Hornets", "CHI"
 
 # University or team labels that don't share words with our team names. Filled from the run log.
 SCHOOL_ALIASES: dict[str, list[str]] = {
+    "VCU Rams": ["Virginia Commonwealth University"],
+    "UIC Flames": ["University of Illinois Chicago", "University of Illinois at Chicago", "UIC Flames men's basketball"],
+    "Southern Illinois Salukis": ["Southern Illinois University Carbondale"],
+    "Loyola Chicago Ramblers": ["Loyola University Chicago", "Loyola Ramblers"],
+    "George Washington Revolutionaries": ["George Washington Colonials"],
+    "Valparaiso Beacons": ["Valparaiso Crusaders"],
+    "Saint Joseph's Hawks": ["St. Joseph's Hawks"],
     "UNLV Rebels": ["University of Nevada, Las Vegas", "UNLV Runnin' Rebels"],
     "Nevada Wolf Pack": ["University of Nevada, Reno"],
     "IU Indianapolis Jaguars": ["IUPUI Jaguars", "Indiana University-Purdue University Indianapolis", "Indiana University Indianapolis"],
@@ -131,18 +138,20 @@ def query(q: str) -> list[dict[str, str]]:
 
 
 def our_teams() -> dict[str, dict[str, str]]:
-    conf = json.loads((ROOT / "data" / "book" / "conferences.json").read_text())["conferences"]
-    names = {t["id"]: t for t in json.loads((ROOT / "data" / "model" / "ratings.json").read_text())["teams"]}
+    """Every school in every edition in mac/leagues.py, so a new conference is picked up with no edit here."""
+    sys.path.insert(0, str(ROOT))
+    from mac import leagues
+
+    try:
+        rated = {t["id"]: t for t in json.loads((ROOT / "data" / "model" / "ratings.json").read_text())["teams"]}
+    except (OSError, ValueError, KeyError):
+        rated = {}
     out = {}
-    for c in conf:
-        ed = next((v for k, v in COVERED.items() if k in c["name"]), None)
-        if not ed:
-            continue
-        for x in c["teams"]:
-            tid = str(x["id"] if isinstance(x, dict) else x)
-            t = names.get(tid)
-            if t:
-                out[tid] = {"id": tid, "name": t["name"], "short": t["short"], "edition": ed}
+    for key, lg in leagues.ALL.items():
+        for t in lg.teams:
+            r = rated.get(t.espn_id, {})
+            out[t.espn_id] = {"id": t.espn_id, "name": t.name, "short": r.get("short") or t.short,
+                              "long": t.short, "edition": EDITION_TAG.get(key, lg.short)}
     return out
 
 
@@ -150,8 +159,8 @@ def main() -> int:
     teams = our_teams()
     keys: dict[str, str] = {}  # normalized label -> our team id
     for tid, t in teams.items():
-        sh = t["short"]
-        generic = [f"University of {sh}", f"{sh} University", f"{sh} College"]
+        generic = [f for sh in {t["short"], t["long"]}
+                   for f in (f"University of {sh}", f"{sh} University", f"{sh} College")]
         for lab in [t["name"], *SCHOOL_ALIASES.get(t["name"], []), *generic]:
             keys.setdefault(norm(lab), tid)
     label_franchise = {norm(lab): code for code, labs in FRANCHISE.items() for lab in labs}

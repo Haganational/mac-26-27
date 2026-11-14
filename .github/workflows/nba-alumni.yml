@@ -1,8 +1,9 @@
 name: NBA alumni for the Den grid
 
-# Pulls every NBA player from our 67 schools, with the franchises they played for, from Wikidata
+# Pulls every NBA player from every school in every edition (mac/leagues.py), with the franchises they played for, from Wikidata
 # (CC0) into data/den/nba_alumni.json for Called Up. Wikidata isn't reachable from every dev
-# sandbox, so this runs here: by hand, once a month, and on pushes that change the fetch script.
+# sandbox, so this runs here: by hand, once a month, and on pushes that change the fetch script or the
+# list of editions, so a new conference joins the grid on its own.
 
 on:
   workflow_dispatch:
@@ -12,6 +13,7 @@ on:
     paths:
       - tools/wikidata_nba_alumni.py
       - .github/workflows/nba-alumni.yml
+      - mac/leagues.py
 
 permissions:
   contents: write
