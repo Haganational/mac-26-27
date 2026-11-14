@@ -1488,7 +1488,7 @@
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1496,13 +1496,13 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:21 - 1st"
+   "detail": "7:01 - 1st"
   },
   {
    "game_id": "401917529",
@@ -9442,5 +9442,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T20:33:24+00:00"
 }
