@@ -7,6 +7,7 @@ import json
 import re
 import shutil
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -688,7 +689,9 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                            for key, plist in profiles.items() for p in plist), key=lambda p: p["label"])
     desk = {
         "games": [{"id": r["game_id"], "label": f"{r['when']} · {r['label']}", "teams": game_keys.get(r["game_id"], []),
-                   "also": " ".join(key_abbr.get(k, k) for k in game_keys.get(r["game_id"], []))}  # "WMU" finds the game too
+                   "also": " ".join(key_abbr.get(k, k) for k in game_keys.get(r["game_id"], [])),  # "WMU" finds the game too
+                   "short": r["title"],
+                   "day": r["dt"].astimezone(ZoneInfo("America/New_York")).date().isoformat()}  # for the desk's one-tap game buttons
                   for r in sorted(rows, key=lambda r: r["dt"])],
         "players": players_list,
         "teams": [{"key": t.key, "short": t.short} for t in TEAMS],
@@ -790,6 +793,8 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     access.lock_site(SITE_DIR)  # no-op unless ACCESS_CODE is set; after the search index so sections are still indexed
 
     (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
+    if LEAGUE.has("notes"):
+        (SITE_DIR / "desk.webmanifest").write_text(site_chrome.desk_manifest())
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()
