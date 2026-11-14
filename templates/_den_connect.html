@@ -1,0 +1,167 @@
+{#- The Den's connectors (Agent 3). Data comes from mac/den_connect.connect() / build().
+
+Use in templates/den.html:
+  {% import "_den_connect.html" as dc %}
+  {{ dc.styles() }}                          once, in <head> or before first use
+  {{ dc.host(c.cards[g.id]) }}               inside each game card, under the matchup
+  {{ dc.ticket_link(c.cards[g.id].tickets) }} beside the game card (renders nothing until tickets are on)
+  {{ dc.desk(c.desk) }}                      next to Pick 4: "Beat the Desk"
+  {{ dc.bricks_call(c.bricksanity) }}        on the Bricksanity results view
+  {{ dc.partners(c.going, house_ad) }}       under the games: Going to the game + JuiceBox Nation
+  {{ dc.board(standings) }}                  season board (desk-standings.json)
+  {{ dc.disclosure(c.disclosure) }}          once per page, near the footer
+
+Anchors are fictional AI personas: every chip carries the "AI anchor" tag. Ads are marked "Ad",
+sit outside the games and never touch scoring.
+-#}
+
+{% macro styles() -%}
+<style>
+  .dc { --dc-pink:#d4146f; --dc-ink:var(--ink,#1a1410); --dc-ink2:var(--ink-2,#4f453d); --dc-muted:var(--muted,#857a70);
+        --dc-rule:var(--rule,rgba(26,20,16,.14)); --dc-surface:var(--surface,#fbf7ef); --dc-page:var(--page,#f4efe4);
+        --dc-accent:var(--accent,#a8441c); --dc-good:var(--good,#2c7a4b); --dc-bad:var(--bad,#c62828); --dc-chip:var(--chip,#ece4d4);
+        --dc-cond:var(--cond,"Barlow Condensed","Arial Narrow",Arial,sans-serif); --dc-serif:var(--serif,"Newsreader",Georgia,serif); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .dc { --dc-pink:#ff5fa2; } }
+  :root[data-theme="dark"] .dc { --dc-pink:#ff5fa2; }
+
+  .dc-chip { display:inline-flex; align-items:center; gap:8px; min-width:0; }
+  .dc-face { flex:none; width:36px; height:36px; border-radius:50%; overflow:hidden; background:var(--tc,#2a1a10); display:grid; place-items:center; box-shadow:0 0 0 2px var(--tc2,#f0c75e); }
+  .dc-face img { width:100%; height:100%; object-fit:cover; object-position:50% 18%; display:block; }
+  .dc-face.mono { color:var(--tci,#fff); font:800 14px/1 var(--dc-cond); letter-spacing:.04em; }
+  .dc-chip.lg .dc-face { width:56px; height:56px; }
+  .dc-chip.lg .dc-face.mono { font-size:20px; }
+  .dc-who { display:grid; min-width:0; }
+  .dc-who b { font:600 14px/1.2 var(--dc-serif); color:var(--dc-ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .dc-who small { font:600 10px/1.3 var(--dc-cond); letter-spacing:.12em; text-transform:uppercase; color:var(--dc-muted); }
+  .dc-who small i { font-style:normal; color:var(--dc-accent); }
+
+  .dc-host { display:flex; flex-direction:column; gap:6px; padding-top:8px; border-top:1px dashed var(--dc-rule); }
+  .dc-host q { font:italic 15px/1.4 var(--dc-serif); color:var(--dc-ink2); quotes:"\201C" "\201D"; }
+
+  .dc-tix { display:inline-flex; align-items:baseline; gap:6px; font:700 12px/1.2 var(--dc-cond); letter-spacing:.1em; text-transform:uppercase; color:var(--dc-pink); text-decoration:none; }
+  .dc-tix:hover span, .dc-tix:focus-visible span { text-decoration:underline; text-underline-offset:3px; }
+  .dc-tix:focus-visible { outline:2px solid var(--dc-pink); outline-offset:2px; }
+  .dc-ad { font:700 9px/1 var(--dc-cond); letter-spacing:.14em; text-transform:uppercase; color:var(--dc-muted); border:1px solid var(--dc-rule); padding:2px 4px; }
+
+  .dc-desk { background:var(--dc-surface); border:1px solid var(--dc-rule); padding:16px; display:flex; flex-direction:column; gap:12px; }
+  .dc-desk header { display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; }
+  .dc-eyebrow { font:700 11px/1 var(--dc-cond); letter-spacing:.14em; text-transform:uppercase; color:var(--dc-accent); }
+  .dc-picks { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:1px; background:var(--dc-rule); border:1px solid var(--dc-rule); }
+  .dc-picks li { background:var(--dc-page); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2px 10px; padding:8px 10px; }
+  .dc-picks b { font:700 17px/1.1 var(--dc-cond); letter-spacing:.02em; }
+  .dc-picks .w { font:700 17px/1.1 var(--dc-cond); font-variant-numeric:tabular-nums; text-align:right; }
+  .dc-picks small { grid-column:1 / -1; font:13px/1.35 var(--sans,"Barlow",sans-serif); color:var(--dc-muted); }
+  .dc-picks li.ok { box-shadow:inset 3px 0 0 var(--dc-good); } .dc-picks li.ok .w { color:var(--dc-good); }
+  .dc-picks li.no { box-shadow:inset 3px 0 0 var(--dc-bad); } .dc-picks li.no .w { color:var(--dc-bad); text-decoration:line-through; }
+  .dc-score { display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; font:700 13px/1 var(--dc-cond); letter-spacing:.1em; text-transform:uppercase; }
+  .dc-score b { color:var(--dc-accent); font-size:20px; }
+  .dc-verdict { font:italic 16px/1.4 var(--dc-serif); margin:0; min-height:1.4em; }
+  .dc-rule { font:13px/1.45 var(--sans,"Barlow",sans-serif); color:var(--dc-muted); margin:0; }
+
+  .dc-call { display:flex; gap:12px; align-items:flex-start; padding:12px; background:var(--dc-chip); }
+  .dc-call q { font:italic 16px/1.4 var(--dc-serif); quotes:"\201C" "\201D"; }
+
+  .dc-rail { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px; }
+  .dc-box { position:relative; border:1px solid var(--dc-rule); padding:16px 14px 12px; display:flex; flex-direction:column; gap:8px; }
+  .dc-box > .dc-ad { position:absolute; top:-8px; left:12px; background:var(--dc-page); }
+  .dc-box h3 { margin:0; font:700 18px/1.15 var(--dc-serif); }
+  .dc-box ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+  .dc-box p { margin:0; font:14px/1.45 var(--dc-serif); color:var(--dc-ink2); }
+  .dc-box.tix { border-color:color-mix(in srgb, var(--dc-pink) 45%, transparent); }
+  .dc-box.jb a.go { align-self:flex-start; font:700 12px/1 var(--dc-cond); letter-spacing:.1em; text-transform:uppercase; color:var(--dc-ink); border:1px solid var(--dc-ink); padding:9px 12px; text-decoration:none; }
+  .dc-box.jb a.go:hover { background:var(--dc-ink); color:var(--dc-page); }
+
+  .dc-board { width:100%; border-collapse:collapse; font:14px/1.3 var(--sans,"Barlow",sans-serif); }
+  .dc-board th { font:600 11px/1 var(--dc-cond); letter-spacing:.12em; text-transform:uppercase; color:var(--dc-muted); text-align:left; padding:6px 8px; border-bottom:1px solid var(--dc-rule); }
+  .dc-board td { padding:6px 8px; border-bottom:1px solid var(--dc-rule); }
+  .dc-board .n { text-align:right; font-variant-numeric:tabular-nums; }
+  .dc-board .dc-face { width:28px; height:28px; }
+  .dc-disclose { font:12px/1.45 var(--sans,"Barlow",sans-serif); color:var(--dc-muted); margin:0; }
+</style>
+{%- endmacro %}
+
+{% macro face(a) -%}
+<span class="dc-face{% if not a.portrait %} mono{% endif %}" style="--tc:{{ a.color }};--tc2:{{ a.color2 }};--tci:{{ a.ink }}">
+{%- if a.portrait %}<img src="{{ a.portrait }}" alt="{{ a.alt }}" width="56" height="56" loading="lazy" decoding="async">
+{%- else %}<span role="img" aria-label="{{ a.alt }}">{{ a.initials }}</span>{% endif -%}
+</span>
+{%- endmacro %}
+
+{% macro anchor_chip(a, size="") -%}
+{% if a %}<span class="dc-chip {{ size }}">{{ face(a) }}<span class="dc-who"><b>{{ a.name }}</b><small>{{ a.school }} · <i>{{ a.tag }}</i></small></span></span>{% endif %}
+{%- endmacro %}
+
+{% macro host(card) -%}
+{% if card and card.host %}<div class="dc dc-host">{{ anchor_chip(card.host) }}{% if card.line %}<q>{{ card.line }}</q>{% endif %}</div>{% endif %}
+{%- endmacro %}
+
+{% macro ticket_link(t) -%}
+{% if t %}<a class="dc dc-tix" href="{{ t.href }}" target="_blank" rel="sponsored noopener"><span>Tickets{% if t.low %} from ${{ t.low }}{% endif %}</span><span class="dc-ad">Ad</span></a>{% endif %}
+{%- endmacro %}
+
+{% macro desk(d) -%}
+{% if d %}<section class="dc dc-desk" aria-labelledby="dc-desk-h" data-max="{{ d.max }}"{% if d.score %} data-points="{{ d.score.points }}"{% endif %}>
+  <header><div><div class="dc-eyebrow">Beat the Desk</div><h3 id="dc-desk-h" style="margin:4px 0 0;font:700 22px/1.1 var(--dc-serif)">Tonight's desk Pick 4</h3></div>{{ anchor_chip(d.anchor, "lg") }}</header>
+  <ol class="dc-picks">
+  {%- for p in d.picks %}{% set m = d.score.marks[loop.index0] if d.score else none %}
+    <li{% if m == true %} class="ok"{% elif m == false %} class="no"{% endif %}><b>{{ p.short or p.abbr }}</b><span class="w">{{ p.worth }}</span><small>{{ p.why }}</small></li>
+  {%- endfor %}
+  </ol>
+  <div class="dc-score"><span>Desk {% if d.score and d.score.graded %}<b>{{ d.score.points }}</b>{% else %}<b>–</b>{% endif %} of {{ d.max }}</span><span>You <b data-dc-you>–</b></span></div>
+  <p class="dc-verdict" data-dc-verdict aria-live="polite">{% if d.locked %}The desk is locked in.{% else %}The desk can change picks until each game tips, same as you.{% endif %}</p>
+  <p class="dc-rule">{{ d.rule }}</p>
+</section>
+<script>
+/* Call denBeatDesk(yourPick4Points) from the Pick 4 code once results are in. */
+window.denBeatDesk = function (you) {
+  var s = document.querySelector(".dc-desk"); if (!s || s.dataset.points == null || you == null) return;
+  var desk = +s.dataset.points, name = {{ d.anchor.name|tojson }};
+  s.querySelector("[data-dc-you]").textContent = you;
+  s.querySelector("[data-dc-verdict]").textContent = you > desk ? "You beat the desk. " + name + " will hear about it." : you === desk ? "Dead even with " + name + "." : name + " takes this one. Back tomorrow.";
+};
+</script>{% endif %}
+{%- endmacro %}
+
+{% macro bricks_call(c) -%}
+{% if c %}<div class="dc dc-call">{{ face(c.anchor) }}<div><div class="dc-who"><b>{{ c.anchor.name }}</b><small>{{ c.anchor.school }} · <i>{{ c.anchor.tag }}</i> · Bricksanity call</small></div><q>{{ c.line }}</q></div></div>{% endif %}
+{%- endmacro %}
+
+{% macro partners(going, ad) -%}
+{% if going or ad %}<aside class="dc dc-rail" aria-label="Partners">
+  {%- if going %}
+  <div class="dc-box tix"><span class="dc-ad">Ad</span>
+    <h3>Going to the game</h3>
+    <ul>{% for t in going %}<li>{{ t.matchup }} · {{ ticket_link(t) }}</li>{% endfor %}</ul>
+    <p>Tickets through our partner {{ going[0].partner }}. Prices are from our last check and can change.</p>
+  </div>
+  {%- endif %}
+  {%- if ad %}
+  <div class="dc-box jb"><span class="dc-ad">Ad</span>
+    <h3>{{ ad.name }}</h3>
+    <p>{{ ad.line }}</p>
+    <a class="go" href="{{ ad.url }}" target="_blank" rel="sponsored noopener">{{ ad.cta }} →</a>
+  </div>
+  {%- endif %}
+</aside>{% endif %}
+{%- endmacro %}
+
+{% macro board(s, limit=10) -%}
+{% if s and (s.desk or s.homer) %}<section class="dc" aria-label="Anchor standings">
+  {%- if s.desk %}
+  <table class="dc-board"><caption class="dc-eyebrow" style="text-align:left;padding-bottom:6px">Desk nights</caption>
+    <thead><tr><th>Anchor</th><th class="n">Nights</th><th class="n">Hits</th><th class="n">Best</th><th class="n">Points</th></tr></thead>
+    <tbody>{% for r in s.desk[:limit] %}<tr><td>{{ anchor_chip(r.anchor) }}</td><td class="n">{{ r.nights }}</td><td class="n">{{ r.hits }}</td><td class="n">{{ r.best }}</td><td class="n"><b>{{ r.points }}</b></td></tr>{% endfor %}</tbody>
+  </table>
+  {%- endif %}
+  {%- if s.homer %}
+  <table class="dc-board"><caption class="dc-eyebrow" style="text-align:left;padding:14px 0 6px">The Homer Ledger: every anchor picks their own school</caption>
+    <thead><tr><th>Anchor</th><th class="n">Games</th><th class="n">Wins</th><th class="n">Points</th></tr></thead>
+    <tbody>{% for r in s.homer[:limit] %}<tr><td>{{ anchor_chip(r.anchor) }}</td><td class="n">{{ r.games }}</td><td class="n">{{ r.wins }}</td><td class="n"><b>{{ r.points }}</b></td></tr>{% endfor %}</tbody>
+  </table>
+  {%- endif %}
+</section>{% endif %}
+{%- endmacro %}
+
+{% macro disclosure(text) -%}
+<p class="dc dc-disclose">{{ text }}</p>
+{%- endmacro %}
