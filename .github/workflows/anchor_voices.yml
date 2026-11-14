@@ -1,0 +1,54 @@
+name: Anchor auditions
+
+# Records each anchor's audition with Gemini text-to-speech (tools/audition.py) and commits it as
+# voices/anchors/<key>.ogg. MidMaxx60 then clones that voice for every line the anchor reads.
+# Needs the GEMINI_API_KEY repo secret (a free Google AI Studio key). Runs nightly until every
+# anchor has one, a few at a time to stay inside the free tier; run it by hand to redo anchors.
+on:
+  workflow_dispatch:
+    inputs:
+      keys:
+        description: "Anchors to (re)record, space-separated school keys; blank = the next ones missing"
+        required: false
+        default: ""
+      most:
+        description: "Most auditions this run"
+        required: false
+        default: "10"
+  schedule:
+    - cron: "40 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anchor-voices
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt && sudo apt-get install -y -q ffmpeg
+      - name: Record auditions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          KEYS: ${{ inputs.keys }}
+          MOST: ${{ inputs.most || '10' }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then echo "::notice::GEMINI_API_KEY is not set; nothing to record"; exit 0; fi
+          # School keys only (letters, digits, dashes), so a typed input can't reach the shell.
+          python tools/audition.py --most "$MOST" $(printf %s "$KEYS" | tr -cd 'a-z0-9 -')
+      - name: Commit
+        run: |
+          git config user.name "mac-collector"
+          git config user.email "mac-collector@users.noreply.github.com"
+          git add voices/anchors/
+          git diff --cached --quiet && echo "no new auditions" && exit 0
+          git commit -m "voices: anchor auditions $(date -u +%Y-%m-%d)"
+          git push || { git pull --rebase origin main && git push; }

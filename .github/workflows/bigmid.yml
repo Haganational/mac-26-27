@@ -9,7 +9,7 @@ on:
     - cron: "0 14 * * 1"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/bigmid.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/bigmid_card.html", ".github/workflows/bigmid.yml"]
+    paths: ["mac/bigmid.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/bigmid_card.html", ".github/workflows/bigmid.yml"]
 
 permissions:
   contents: write
