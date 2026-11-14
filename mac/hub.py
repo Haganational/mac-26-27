@@ -329,6 +329,11 @@ def den_data(site_root: Path, now: datetime) -> None:
     except Exception as e:
         print("den: skipped,", repr(e))
         return
+    try:  # Called Up, the NBA alumni grid (needs data/den/nba_alumni.json)
+        from . import den_grid
+        den_grid.build(site_root, now)
+    except Exception as e:
+        print("den_grid: skipped,", repr(e))
     d = site_root / "den"
     today = now.astimezone(ET).strftime("%Y-%m-%d")
     try:
