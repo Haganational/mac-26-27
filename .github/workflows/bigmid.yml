@@ -1,0 +1,82 @@
+name: The Big Mid
+
+# Every Monday at 9 a.m. Eastern (14:00 UTC in winter): build every edition from the latest data,
+# write the week's recap (results, upset, player of the week, a game to circle, the At-Large Watch),
+# voice it with the anchor desk, render 16:9 cards, publish the MP4 as a GitHub release, then upload
+# it to YouTube as a regular video (about five minutes, chapters in the description).
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths: ["mac/bigmid.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/bigmid_card.html", ".github/workflows/bigmid.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bigmid
+  cancel-in-progress: false
+
+env:
+  VOICE: en_US-ryan-high
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt piper-tts
+      - name: Fonts and ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
+      - name: Cache the Piper voices
+        uses: actions/cache@v4
+        with:
+          path: |
+            voices/*.onnx
+            voices/*.onnx.json
+          key: piper-${{ hashFiles('mac/anchors.py') }}
+      - name: Download the Piper voices
+        run: tools/fetch_voices.sh
+      - name: Build every edition (render only, no API calls)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          for L in asun horizon mw metro bigwest; do LEAGUE=$L python -m mac.collect site; done
+          python -m mac.collect site
+      - name: Render the episode
+        env:
+          PIPER_VOICE: voices/${{ env.VOICE }}.onnx
+          CHROME_BIN: /usr/bin/google-chrome
+        run: python -m mac.bigmid --out out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bigmid
+          path: out/bigmid-*
+      - name: Publish as a release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          stem=$(basename out/bigmid-*.mp4 .mp4)
+          files="out/$stem.mp4 out/$stem.srt out/$stem-thumb.png out/$stem.txt"
+          if gh release view "$stem" >/dev/null 2>&1; then
+            gh release upload "$stem" $files --clobber
+          else
+            gh release create "$stem" $files --title "The Big Mid · ${stem#bigmid-}" --notes-file "out/$stem.txt"
+          fi
+      - name: Upload to YouTube
+        if: github.event_name != 'pull_request'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.youtube --out out --show bigmid

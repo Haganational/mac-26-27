@@ -51,3 +51,25 @@ def test_fit_keeps_the_short_under_sixty_seconds():
     long = fit(segs, [3.0, 20.0, 20.0, 5.0, 12.0, 12.0, 6.0, 5.0, 6.0, 5.0])
     assert [kinds[i] for i in long] == ["intro", "result", "preview", "outro"]
     assert fit(segs, [1.0] * 10) == list(range(10))
+
+
+def test_combine_dedupes_a_game_two_editions_share():
+    from mac import midmaxx60 as mm
+    game = {"kind": "result", "game_id": "g1", "label": "Since Thursday", "text": "Bowling Green beat Niagara 88-76.", "card": {}}
+    base = {"date_label": "Saturday, November 14", "date_iso": "2026-11-14", "results_label": "Since Thursday", "slate_label": "Tonight"}
+    a = {**base, "league": "mac", "league_short": "MAC", "segments": [{"kind": "intro", "text": "x"}, dict(game)]}
+    b = {**base, "league": "metro", "league_short": "Metro", "segments": [{"kind": "intro", "text": "x"}, dict(game)]}
+    segs = mm.combine([a, b])["segments"]
+    assert [s["kind"] for s in segs].count("result") == 1
+
+
+def test_anchor_reads_our_side():
+    from mac import anchors
+    seg = {"kind": "result", "card": {"away": {"mac": True, "key": "niagara", "winner": False},
+                                      "home": {"mac": True, "key": "siena", "winner": True}}}
+    assert anchors.team_of(seg) == "siena"
+    seg["card"]["home"]["mac"] = False
+    assert anchors.team_of(seg) == "niagara"
+    assert anchors.team_of({"kind": "intro"}) is None
+    a = anchors.for_segment(seg)
+    assert a["school"] and a["voice"] in anchors.VOICE_POOL[anchors.roster()["niagara"]["gender"]]

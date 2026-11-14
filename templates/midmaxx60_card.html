@@ -68,6 +68,11 @@
   .ourec small { font: 600 32px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--ink2); }
   .notetitle { font: 600 66px/1.1 var(--serif); letter-spacing: -.01em; color: #f6ecd8; }
   .notequote { font: 400 italic 46px/1.4 var(--serif); color: var(--ink2); padding-left: 28px; border-left: 8px solid var(--gold); }
+  .anchor { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; }
+  .anchor img { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; object-fit: cover; object-position: top; }
+  .anchor .plate { position: absolute; left: 0; bottom: 90px; width: 430px; padding: 14px 20px 12px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
+  .anchor .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
+  .anchor .plate small { display: block; font: 600 22px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
   .foot { position: absolute; left: 64px; right: 64px; bottom: 380px; display: flex; justify-content: space-between; font: 500 24px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 </style>
 </head>
@@ -129,6 +134,7 @@
     <div class="hero"><div class="big" style="font-size:130px">That's MidMaxx60</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
   {% endif %}
   </div>
+  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}"><img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
   {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
 </div>
 </body>

@@ -36,20 +36,42 @@ _NICK_LEAD = {"fighting", "golden", "blue", "red", "big", "mean", "black", "purp
               "horned", "yellow", "tar", "nittany", "rainbow", "sea", "war", "river", "mountain", "delta", "wolf"}
 
 
+def _every_team() -> dict[str, str]:
+    """ESPN display name -> our short name, for every edition's teams (a Metro script names MAC teams too)."""
+    from . import leagues
+    return {t.name: t.short for lg in (leagues.MAC, leagues.ASUN, leagues.HORIZON, leagues.MW, leagues.METRO, leagues.BIGWEST)
+            for t in lg.teams}
+
+
+_EVERY = _every_team()
+
+
 def school(name: str | None, key: str | None = None) -> str:
-    """Short school name: our own for MAC teams, ESPN's name minus the nickname otherwise."""
+    """Short school name: our own for teams in any edition, ESPN's name minus the nickname otherwise."""
     if key and key in BY_KEY:
         return BY_KEY[key].short
+    if name in _EVERY:
+        return _EVERY[name]
+    return _strip_nick(name)
+
+
+def _strip_nick(name: str | None) -> str:
+    """ESPN's display name minus the mascot."""
     words = (name or "").split()
     if len(words) >= 3 and (" ".join(words[-2:]).lower() in _TWO_WORD or words[-2].lower() in _NICK_LEAD):
         return " ".join(words[:-2])
     return " ".join(words[:-1]) if len(words) >= 2 else (name or "")
 
 
+_NICK = {"queens": "Royals"}  # ESPN: "Queens University Royals"
+
+
 def nickname(key: str) -> str:
     """The mascot alone. Our short name is not always how the full name starts (UMass, Massachusetts Minutemen)."""
     t = BY_KEY[key]
-    lead = t.short if t.name.startswith(t.short + " ") else school(t.name)
+    if key in _NICK:
+        return _NICK[key]
+    lead = t.short if t.name.startswith(t.short + " ") else _strip_nick(t.name)
     return t.name[len(lead):].strip() or t.name
 
 
@@ -118,7 +140,7 @@ def result_item(g: dict, box: dict | None) -> dict:
 
 
 def _side(x: dict) -> dict:
-    return {"name": school(x.get("name"), x.get("key")), "abbr": x.get("abbr"), "espn_id": x.get("espn_id"), "score": x.get("score"),
+    return {"name": school(x.get("name"), x.get("key")), "key": x.get("key") if x.get("key") in BY_KEY else None, "abbr": x.get("abbr"), "espn_id": x.get("espn_id"), "score": x.get("score"),
             "winner": x.get("winner"), "mac": x.get("key") in BY_KEY, "color": BY_KEY[x["key"]].color if x.get("key") in BY_KEY else None}
 
 
@@ -300,13 +322,13 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     # The same script cut into segments, one card each, for the video.
     segs: list[dict] = [{"kind": "intro", "text": paras[0]}]
     for i, r in enumerate(real):
-        segs.append({"kind": "result", "label": results_label, "text": (f"{results_label}: " if i == 0 else "") + r["text"], "card": r["card"]})
+        segs.append({"kind": "result", "game_id": r["game_id"], "label": results_label, "text": (f"{results_label}: " if i == 0 else "") + r["text"], "card": r["card"]})
     if tune:
         segs.append({"kind": "tuneups", "label": results_label, "cards": [r["card"] for r in tune],
                      "text": (f"{results_label}: " if not real else "Also, ") + "; ".join(r["short"] for r in tune) + " against non-Division I competition."})
     lined_p = [p for p in previews if not p["tune_up"]]
     for i, p in enumerate(lined_p):
-        segs.append({"kind": "preview", "label": slate_label, "text": (f"{slate_label}: " if i == 0 else "") + p["text"], "card": p["card"]})
+        segs.append({"kind": "preview", "game_id": p["game_id"], "label": slate_label, "text": (f"{slate_label}: " if i == 0 else "") + p["text"], "card": p["card"]})
     tune_p = [p for p in previews if p["tune_up"]]
     if tune_p:
         names = [p["mac"] for p in tune_p]
@@ -327,6 +349,8 @@ def build(now: datetime, recent: list[dict], upcoming: list[dict], boxes: dict[s
     links = [ln for r in results for ln in r.get("links", [])]
     links += [(t.short, f"teams/{t.key}.html") for t in BY_KEY.values()]
     return {
+        "league": LEAGUE.key,
+        "league_short": LEAGUE.short,
         "date_label": date_label,
         "date_iso": et_now.date().isoformat(),
         "results_label": results_label,

@@ -1,14 +1,14 @@
 name: MidMaxx60 video
 
 # Every morning at 8 a.m. Eastern (13:00 UTC in winter, 12:00 UTC in summer): build the
-# MidMaxx60 script from the latest data, voice it, render vertical cards, and publish the MP4,
+# MidMaxx60 script from every edition's latest data, voice it with the anchor desk, render vertical cards, and publish the MP4,
 # captions, thumbnail and description as a GitHub release, then upload it to YouTube as a Short.
 on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/midmaxx60.py", "mac/today.py", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
+    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
 
 permissions:
   contents: write
@@ -34,19 +34,16 @@ jobs:
       - run: pip install -r requirements.txt piper-tts
       - name: Fonts and ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
-      - name: Cache the Piper voice
+      - name: Cache the Piper voices
         uses: actions/cache@v4
         with:
           path: |
             voices/*.onnx
             voices/*.onnx.json
-          key: piper-${{ env.VOICE }}
-      - name: Download the Piper voice
-        run: |
-          mkdir -p voices
-          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
-          [ -f voices/$VOICE.onnx ] || curl -sSfL -o voices/$VOICE.onnx $base/$VOICE.onnx
-          [ -f voices/$VOICE.onnx.json ] || curl -sSfL -o voices/$VOICE.onnx.json $base/$VOICE.onnx.json
+          key: piper-${{ hashFiles('mac/anchors.py') }}
+      # The host voice plus every anchor's voice. An anchor whose voice will not download reads in the host voice.
+      - name: Download the Piper voices
+        run: tools/fetch_voices.sh
       # Matthew's cloned voice. His reference clip is committed only encrypted
       # (voices/matthew.ogg.enc); the key is the VOICE_KEY repo secret. Without both,
       # the video uses Piper. Pull requests clone a Piper sample instead, to test the path.
@@ -84,10 +81,12 @@ jobs:
           /tmp/cbenv/bin/python -c "import perth; print('watermarker:', perth.PerthImplicitWatermarker)"
           echo "VOICE_CLONE_PY=/tmp/cbenv/bin/python" >> "$GITHUB_ENV"
           echo "VOICE_REF=/tmp/ref.wav" >> "$GITHUB_ENV"
-      - name: Build the script (render only, no API calls)
+      - name: Build every edition's script (render only, no API calls)
         env:
           SITE_URL: ${{ vars.SITE_URL }}
-        run: python -m mac.collect site
+        run: |
+          for L in asun horizon mw metro bigwest; do LEAGUE=$L python -m mac.collect site; done
+          python -m mac.collect site
       # Stale or empty data: skip today's video and email Matthew instead of publishing old news.
       # Pull requests always render, to test the path.
       - name: Skip and alert on stale data

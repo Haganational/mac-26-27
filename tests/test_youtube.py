@@ -2,11 +2,11 @@ from mac import youtube
 
 
 def test_title_and_body():
-    assert youtube.title("midmaxx60-2026-11-12") == "MidMaxx60: the MAC in 60 seconds, Nov. 12"
-    assert youtube.title("midmaxx60-2027-05-03") == "MidMaxx60: the MAC in 60 seconds, May 3"
-    assert youtube.title("midmaxx60") == "MidMaxx60: the MAC in 60 seconds"
+    assert youtube.title("midmaxx60-2026-11-12") == "MidMaxx60: the mid-majors in 60 seconds, Nov. 12"
+    assert youtube.title("midmaxx60-2027-05-03") == "MidMaxx60: the mid-majors in 60 seconds, May 3"
+    assert youtube.title("midmaxx60") == "MidMaxx60: the mid-majors in 60 seconds"
     b = youtube.body("midmaxx60-2026-11-12", "Akron <won>.\n", "nonsense")
-    assert b["status"] == {"privacyStatus": "public", "selfDeclaredMadeForKids": False}
+    assert b["status"] == {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}
     assert b["snippet"]["description"].startswith("Akron won.") and "#Shorts" in b["snippet"]["description"]
     assert youtube.body("midmaxx60-2026-11-12", "x", "private")["status"]["privacyStatus"] == "private"
 
@@ -42,3 +42,9 @@ def test_upload_sends_video_then_thumbnail(tmp_path, monkeypatch):
     assert youtube.upload(tmp_path, "t", "public") == "abc123"
     assert seen[1] == ("https://upload.example/session", "video/mp4", "PUT")
     assert "thumbnails/set?videoId=abc123" in seen[2][0]
+
+
+def test_big_mid_is_a_regular_upload():
+    assert youtube.title("bigmid-2026-11-16") == "The Big Mid: the week in mid-majors, Nov. 16"
+    d = youtube.body("bigmid-2026-11-16", "x", "public")["snippet"]["description"]
+    assert "#Shorts" not in d and "#Midmaxxing" in d

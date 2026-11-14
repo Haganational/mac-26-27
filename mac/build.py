@@ -11,7 +11,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -485,6 +485,12 @@ def render_site() -> str:
         (SITE_DIR / "mac90.html").write_text(
             '<!doctype html><meta charset="utf-8"><title>MidMaxx60</title><link rel="canonical" href="midmaxx60.html">'
             '<meta http-equiv="refresh" content="0; url=midmaxx60.html"><a href="midmaxx60.html">MAC90 is now MidMaxx60</a>\n')
+
+    # The Big Mid: this edition's week, for the weekly recap video (python -m mac.bigmid reads every edition's file).
+    try:
+        (SITE_DIR / "bigmid.json").write_text(json.dumps(bigmid.edition(now, data["recent"], data["upcoming"], boxes, data["standings"])))
+    except Exception as exc:  # noqa: BLE001 - the site must still publish
+        print(f"bigmid: skipped ({exc!r})")
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
