@@ -1459,7 +1459,7 @@
     "key": null,
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -1467,13 +1467,13 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:28 - 1st"
   },
   {
    "game_id": "401911014",
@@ -9557,5 +9557,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T00:15:26+00:00"
 }
