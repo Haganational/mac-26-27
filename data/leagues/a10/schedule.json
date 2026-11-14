@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T14:01:16+00:00",
+ "fetched_at": "2026-11-14T18:04:40+00:00",
  "season": 2027,
  "games": [
   {
@@ -1905,8 +1905,8 @@
   {
    "game_id": "401920074",
    "date": "2026-11-14T18:00Z",
-   "name": "Bradley Braves at George Mason Patriots",
-   "short_name": "BRAD VS GMU",
+   "name": "George Mason Patriots at Bradley Braves",
+   "short_name": "GMU VS BRAD",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -1923,18 +1923,18 @@
    "venue_city": "St. Petersburg",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2244",
-    "key": "george-mason",
-    "name": "George Mason Patriots",
-    "abbr": "GMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "71",
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2244",
+    "key": "george-mason",
+    "name": "George Mason Patriots",
+    "abbr": "GMU",
     "score": null,
     "winner": null
    },
@@ -2142,7 +2142,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-womens-basketball-tickets-university-of-dayton-arena-11-14-2026--sports-ncaa-womens-basketball/production/7111404?wsUser=717",
-    "low": 39.0
+    "low": 33.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -3064,7 +3064,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drexel-dragons-mens-basketball-tickets-daskalakis-athletic-center-11-20-2026--sports-ncaa-basketball/production/7668555?wsUser=717",
-    "low": 12.0
+    "low": 61.0
    },
    "venue": "Daskalakis Athletic Center",
    "venue_city": "Philadelphia",
@@ -3278,7 +3278,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-classic-tickets-td-arena-11-22-2026--sports-ncaa-basketball/production/7398781?wsUser=717",
-    "low": 78.0
+    "low": 77.0
    },
    "venue": "TD Arena",
    "venue_city": "Charleston",
@@ -5221,7 +5221,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-5-2026--sports-ncaa-basketball/production/7462743?wsUser=717",
-    "low": 66.0
+    "low": 63.0
    },
    "venue": "Thomas M. Ryan Center",
    "venue_city": "Kingston",
@@ -6709,7 +6709,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "T-Mobile Center",
    "venue_city": "Kansas City",
@@ -9489,7 +9489,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-10-5-2026--sports-ncaa-basketball/production/7188030?wsUser=717",
-    "low": 37.0
+    "low": 39.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -10433,7 +10433,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-5-2026--sports-ncaa-basketball/production/7188102?wsUser=717",
-    "low": 37.0
+    "low": 59.0
    },
    "venue": "Chaifetz Arena",
    "venue_city": "St. Louis",
@@ -12482,7 +12482,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-7-2026--sports-ncaa-basketball/production/7188106?wsUser=717",
-    "low": 20.0
+    "low": 23.0
    },
    "venue": "Chaifetz Arena",
    "venue_city": "St. Louis",

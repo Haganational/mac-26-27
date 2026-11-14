@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T13:59:27+00:00",
+ "fetched_at": "2026-11-14T18:02:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -1367,7 +1367,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Alex G. Spanos Center",
    "venue_city": "Stockton",
@@ -1631,7 +1637,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-15-2026--sports-ncaa-basketball/production/7785756?wsUser=717",
-    "low": 12.0
+    "low": 9.0
    },
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
@@ -1807,7 +1813,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-18-2026--sports-ncaa-basketball/production/7785758?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
@@ -2653,7 +2659,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-28-2026--sports-ncaa-basketball/production/7419563?wsUser=717",
-    "low": 12.0
+    "low": 10.0
    },
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
@@ -3180,7 +3186,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-12-2-2026--sports-ncaa-basketball/production/7570908?wsUser=717",
-    "low": 47.0
+    "low": 45.0
    },
    "venue": "The Sobrato Center",
    "venue_city": "San Francisco",
@@ -3721,7 +3727,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-10-2026--sports-ncaa-basketball/production/7667253?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -7671,7 +7677,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-2-16-2027--sports-ncaa-basketball/production/7459168?wsUser=717",
-    "low": 31.0
+    "low": 36.0
    },
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",

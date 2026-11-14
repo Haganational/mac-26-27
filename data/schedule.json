@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T13:57:48+00:00",
+ "fetched_at": "2026-11-14T18:00:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -1541,7 +1541,7 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 26,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1549,13 +1549,13 @@
     "key": null,
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": 17,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:43 - 1st"
+   "detail": "0:01 - 1st"
   },
   {
    "game_id": "401911015",
@@ -1575,7 +1575,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -9551,6 +9551,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T17:30:24+00:00"
+ ]
 }

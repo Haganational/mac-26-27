@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T14:00:47+00:00",
+ "fetched_at": "2026-11-14T18:04:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -1577,8 +1577,8 @@
   {
    "game_id": "401920074",
    "date": "2026-11-14T18:00Z",
-   "name": "Bradley Braves at George Mason Patriots",
-   "short_name": "BRAD VS GMU",
+   "name": "George Mason Patriots at Bradley Braves",
+   "short_name": "GMU VS BRAD",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -1595,18 +1595,18 @@
    "venue_city": "St. Petersburg",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2244",
-    "key": null,
-    "name": "George Mason Patriots",
-    "abbr": "GMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "71",
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2244",
+    "key": null,
+    "name": "George Mason Patriots",
+    "abbr": "GMU",
     "score": null,
     "winner": null
    },
@@ -1633,7 +1633,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 17.0
+    "low": 20.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -1677,7 +1677,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 35.0
+    "low": 33.0
    },
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
@@ -1970,7 +1970,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-17-2026--sports-ncaa-basketball/production/7638017?wsUser=717",
-    "low": 17.0
+    "low": 14.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -5105,7 +5105,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "T-Mobile Center",
    "venue_city": "Kansas City",
