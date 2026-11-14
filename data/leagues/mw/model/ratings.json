@@ -1,8 +1,8 @@
 {
-"as_of": "2026-11-14T01:05:13+00:00",
-"mu": 105.88778053769863,
-"tau": 70.72690903104449,
-"hca": 2.771834598152602,
+"as_of": "2026-11-14T01:16:26+00:00",
+"mu": 105.88777808520328,
+"tau": 70.72690854795329,
+"hca": 2.7718297291857796,
 "params": {
 "half_life": 90.0,
 "cap": 45.0,
@@ -522,7 +522,7 @@
 "rk_adj_o": 29,
 "rk_adj_d": 34,
 "rk_adj_t": 100,
-"rk_sos": 204
+"rk_sos": 203
 },
 {
 "id": "2",
@@ -585,7 +585,7 @@
 "rk_adj_o": 115,
 "rk_adj_d": 5,
 "rk_adj_t": 239,
-"rk_sos": 195
+"rk_sos": 194
 },
 {
 "id": "167",
@@ -669,7 +669,7 @@
 "rk_adj_o": 84,
 "rk_adj_d": 13,
 "rk_adj_t": 221,
-"rk_sos": 125
+"rk_sos": 124
 },
 {
 "id": "66",
@@ -950,7 +950,7 @@
 "short": "Arizona St",
 "abbr": "ASU",
 "games": 3,
-"adj_o": 119.04,
+"adj_o": 119.03,
 "adj_d": 101.4,
 "adj_em": 17.63,
 "adj_t": 69.46,
@@ -1042,7 +1042,7 @@
 "raw_margin": 21.0,
 "raw_total": 137.0,
 "raw_poss": 70.43,
-"sos": -6.01,
+"sos": -6.02,
 "rk_adj_em": 49,
 "rk_adj_o": 80,
 "rk_adj_d": 30,
@@ -1058,7 +1058,7 @@
 "adj_o": 119.1,
 "adj_d": 102.89,
 "adj_em": 16.21,
-"adj_t": 69.79,
+"adj_t": 69.8,
 "net_pts": 11.47,
 "raw_margin": 21.67,
 "raw_total": 161.67,
@@ -1068,7 +1068,7 @@
 "rk_adj_o": 24,
 "rk_adj_d": 106,
 "rk_adj_t": 245,
-"rk_sos": 124
+"rk_sos": 125
 },
 {
 "id": "183",
@@ -1204,9 +1204,9 @@
 "games": 3,
 "adj_o": 118.63,
 "adj_d": 103.98,
-"adj_em": 14.65,
+"adj_em": 14.66,
 "adj_t": 71.65,
-"net_pts": 10.36,
+"net_pts": 10.37,
 "raw_margin": 16.33,
 "raw_total": 153.0,
 "raw_poss": 70.3,
@@ -1632,7 +1632,7 @@
 "raw_poss": 69.75,
 "sos": -4.82,
 "rk_adj_em": 77,
-"rk_adj_o": 149,
+"rk_adj_o": 150,
 "rk_adj_d": 40,
 "rk_adj_t": 258,
 "rk_sos": 150
@@ -1981,7 +1981,7 @@
 "games": 3,
 "adj_o": 101.97,
 "adj_d": 93.83,
-"adj_em": 8.13,
+"adj_em": 8.14,
 "adj_t": 68.9,
 "net_pts": 5.75,
 "raw_margin": 12.33,
@@ -2370,7 +2370,7 @@
 "rk_adj_o": 76,
 "rk_adj_d": 210,
 "rk_adj_t": 268,
-"rk_sos": 194
+"rk_sos": 195
 },
 {
 "id": "2603",
@@ -2462,7 +2462,7 @@
 "short": "Texas St",
 "abbr": "TXST",
 "games": 3,
-"adj_o": 109.4,
+"adj_o": 109.39,
 "adj_d": 104.82,
 "adj_em": 4.58,
 "adj_t": 69.27,
@@ -2493,7 +2493,7 @@
 "raw_poss": 65.98,
 "sos": -4.3,
 "rk_adj_em": 118,
-"rk_adj_o": 150,
+"rk_adj_o": 149,
 "rk_adj_d": 112,
 "rk_adj_t": 331,
 "rk_sos": 141
@@ -2701,7 +2701,7 @@
 "raw_margin": -8.5,
 "raw_total": 148.5,
 "raw_poss": 73.67,
-"sos": 12.4,
+"sos": 12.39,
 "rk_adj_em": 128,
 "rk_adj_o": 192,
 "rk_adj_d": 90,
@@ -2780,7 +2780,7 @@
 "adj_o": 105.75,
 "adj_d": 103.28,
 "adj_em": 2.46,
-"adj_t": 68.28,
+"adj_t": 68.29,
 "net_pts": 1.74,
 "raw_margin": 12.0,
 "raw_total": 134.67,
@@ -3058,7 +3058,7 @@
 "raw_margin": 8.5,
 "raw_total": 161.5,
 "raw_poss": 70.16,
-"sos": -7.98,
+"sos": -7.97,
 "rk_adj_em": 145,
 "rk_adj_o": 123,
 "rk_adj_d": 220,
@@ -3146,7 +3146,7 @@
 "rk_adj_em": 149,
 "rk_adj_o": 231,
 "rk_adj_d": 94,
-"rk_adj_t": 174,
+"rk_adj_t": 173,
 "rk_sos": 73
 },
 {
@@ -3283,7 +3283,7 @@
 "games": 3,
 "adj_o": 108.6,
 "adj_d": 108.53,
-"adj_em": 0.07,
+"adj_em": 0.06,
 "adj_t": 70.7,
 "net_pts": 0.05,
 "raw_margin": 20.33,
@@ -3461,7 +3461,7 @@
 "rk_adj_em": 164,
 "rk_adj_o": 164,
 "rk_adj_d": 199,
-"rk_adj_t": 173,
+"rk_adj_t": 174,
 "rk_sos": 209
 },
 {
@@ -3744,7 +3744,7 @@
 "abbr": "UVM",
 "games": 3,
 "adj_o": 107.51,
-"adj_d": 109.17,
+"adj_d": 109.16,
 "adj_em": -1.65,
 "adj_t": 66.45,
 "net_pts": -1.17,
@@ -4028,7 +4028,7 @@
 "rk_adj_em": 191,
 "rk_adj_o": 206,
 "rk_adj_d": 196,
-"rk_adj_t": 87,
+"rk_adj_t": 86,
 "rk_sos": 200
 },
 {
@@ -5110,7 +5110,7 @@
 "games": 4,
 "adj_o": 104.46,
 "adj_d": 111.31,
-"adj_em": -6.86,
+"adj_em": -6.85,
 "adj_t": 69.87,
 "net_pts": -4.85,
 "raw_margin": 9.75,
@@ -5172,7 +5172,7 @@
 "abbr": "NCAT",
 "games": 2,
 "adj_o": 100.3,
-"adj_d": 107.41,
+"adj_d": 107.42,
 "adj_em": -7.11,
 "adj_t": 71.11,
 "net_pts": -5.03,
@@ -5204,7 +5204,7 @@
 "rk_adj_em": 247,
 "rk_adj_o": 223,
 "rk_adj_d": 266,
-"rk_adj_t": 114,
+"rk_adj_t": 115,
 "rk_sos": 9
 },
 {
@@ -5267,7 +5267,7 @@
 "rk_adj_em": 250,
 "rk_adj_o": 200,
 "rk_adj_d": 294,
-"rk_adj_t": 86,
+"rk_adj_t": 87,
 "rk_sos": 352
 },
 {
@@ -5405,7 +5405,7 @@
 "adj_o": 105.15,
 "adj_d": 113.07,
 "adj_em": -7.92,
-"adj_t": 68.88,
+"adj_t": 68.89,
 "net_pts": -5.6,
 "raw_margin": 5.75,
 "raw_total": 156.75,
@@ -5541,7 +5541,7 @@
 "rk_adj_o": 286,
 "rk_adj_d": 224,
 "rk_adj_t": 283,
-"rk_sos": 203
+"rk_sos": 204
 },
 {
 "id": "3101",
@@ -6145,7 +6145,7 @@
 "raw_margin": -11.67,
 "raw_total": 128.33,
 "raw_poss": 63.64,
-"sos": 5.64,
+"sos": 5.63,
 "rk_adj_em": 292,
 "rk_adj_o": 333,
 "rk_adj_d": 176,
@@ -6160,7 +6160,7 @@
 "games": 3,
 "adj_o": 95.92,
 "adj_d": 106.98,
-"adj_em": -11.06,
+"adj_em": -11.07,
 "adj_t": 69.18,
 "net_pts": -7.83,
 "raw_margin": 7.67,
@@ -6582,7 +6582,7 @@
 "adj_d": 108.52,
 "adj_em": -12.72,
 "adj_t": 69.6,
-"net_pts": -8.99,
+"net_pts": -9.0,
 "raw_margin": -7.0,
 "raw_total": 139.5,
 "raw_poss": 70.62,
@@ -6748,7 +6748,7 @@
 "games": 3,
 "adj_o": 98.02,
 "adj_d": 111.84,
-"adj_em": -13.82,
+"adj_em": -13.81,
 "adj_t": 71.69,
 "net_pts": -9.77,
 "raw_margin": 3.0,
@@ -6915,7 +6915,7 @@
 "abbr": "EVAN",
 "games": 3,
 "adj_o": 98.5,
-"adj_d": 113.12,
+"adj_d": 113.11,
 "adj_em": -14.62,
 "adj_t": 69.24,
 "net_pts": -10.34,
@@ -7043,7 +7043,7 @@
 "adj_o": 94.34,
 "adj_d": 109.62,
 "adj_em": -15.28,
-"adj_t": 75.97,
+"adj_t": 75.96,
 "net_pts": -10.81,
 "raw_margin": -27.0,
 "raw_total": 150.33,
@@ -7670,7 +7670,7 @@
 "short": "Florida A&M",
 "abbr": "FAMU",
 "games": 4,
-"adj_o": 89.99,
+"adj_o": 90.0,
 "adj_d": 119.62,
 "adj_em": -29.62,
 "adj_t": 71.56,
@@ -7682,7 +7682,7 @@
 "rk_adj_em": 365,
 "rk_adj_o": 359,
 "rk_adj_d": 362,
-"rk_adj_t": 115,
+"rk_adj_t": 114,
 "rk_sos": 234
 }
 ]
