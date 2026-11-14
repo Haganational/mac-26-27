@@ -283,6 +283,12 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     (site_root / "masthead.html").write_text(env.get_template("masthead.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, staff=ppl, desks=desks(mh, eds),
         ld_json=json.dumps(ld).replace("</", "<\\/")))
+    from . import atlarge
+    al = atlarge.page_context()
+    if al:
+        (site_root / "at-large.html").write_text(env.get_template("atlarge.html").render(
+            eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+            built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **al))
     media = mh.get("media") or {}
     has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
     mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {
