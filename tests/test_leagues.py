@@ -78,11 +78,42 @@ def test_big_west_names():
     assert lg.team_for_odds_name("Hawaii Rainbow Warriors") is None  # Hawai'i moved to the Mountain West
 
 
+def test_missouri_valley_names():
+    lg = leagues.MVC
+    assert lg.path == "mvc/" and len(lg.teams) == 11 and lg.theme == "arch"
+    assert lg.team_for_odds_name("Murray St Racers") == "murray-state"
+    assert lg.team_for_odds_name("Illinois St Redbirds") == "illinois-state"
+    assert lg.team_for_odds_name("UIC Flames") == "uic"
+    assert lg.team_for_odds_name("Illinois Fighting Illini") is None
+    assert lg.team_for_odds_name("SIU-Edwardsville Cougars") is None  # SIUE is not Southern Illinois
+
+
+def test_atlantic_10_names():
+    lg = leagues.A10
+    assert lg.path == "a10/" and len(lg.teams) == 14 and lg.theme == "ironbridge"
+    assert lg.team_for_odds_name("GW Revolutionaries") == "george-washington"
+    assert lg.team_for_odds_name("Loyola (Chi) Ramblers") == "loyola-chicago"
+    assert lg.team_for_odds_name("Loyola (MD) Greyhounds") is None
+    assert lg.team_for_odds_name("St. Bonaventure Bonnies") == "st-bonaventure"
+    # Three schools called the Rams: two are ours, one is not.
+    assert lg.team_for_odds_name("VCU Rams") == "vcu" and lg.team_for_odds_name("Fordham Rams") == "fordham"
+    assert lg.team_for_odds_name("Colorado St Rams") is None
+
+
+def test_no_odds_name_belongs_to_two_editions():
+    from mac import book
+    names = {n for s in book.load_odds() for e in s["events"] for n in (e[2], e[3])}
+    for n in names:
+        owners = [lg.key for lg in leagues.ALL.values() if lg.team_for_odds_name(n)]
+        assert len(owners) <= 1, (n, owners)
+
+
 def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     import re
     tags = {lg.key: re.sub(r"\W", "", lg.hashtag or lg.short) for lg in leagues.ALL.values()}
     assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
-                    "metro": "MetroConference", "bigwest": "BigWest"}
+                    "metro": "MetroConference", "bigwest": "BigWest",
+                    "mvc": "MVCHoops", "a10": "A10MBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]
