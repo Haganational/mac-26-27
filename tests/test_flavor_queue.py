@@ -37,3 +37,8 @@ def test_pick_and_apply(tmp_path, monkeypatch):
     assert first[0] not in nxt
     assert nxt[0] == first[1]  # started ones come back first
     assert nxt[-1] == first[2]  # skipped ones go last
+
+
+def test_researched_notes_do_not_count_as_done():
+    assert not fq.has_lines({"lines": [{"text": "A fact.", "source": "https://x"}]})
+    assert fq.has_lines({"lines": [{"text": "A fact.", "source": "https://x"}], "home_lines": ["Mine."]})

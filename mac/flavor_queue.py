@@ -22,7 +22,7 @@ A number with nothing after it is left as it was.
 "home:" starts a home-games-only line, "|" separates lines, "town:" and "floor:" fix those names.
 
 Progress lives in data/flavor_progress.json. A school counts as done once its flavor.json
-entry has any line, so lines written by hand count too.
+entry has a plain-string line (his own voice); researched {"text", "source"} notes don't count.
 """
 from __future__ import annotations
 
@@ -76,7 +76,11 @@ def load_progress(path: Path = PROGRESS_PATH) -> dict[str, Any]:
 
 
 def has_lines(entry: dict[str, Any] | None) -> bool:
-    return bool(entry and (entry.get("lines") or entry.get("home_lines")))
+    """True once a school has a line in Matthew's own voice: a plain string. Researched notes from the
+    flavor desk are {"text", "source", ...} dicts and don't count, so the daily list keeps asking for his lines."""
+    if not entry:
+        return False
+    return any(isinstance(x, str) and x.strip() for x in (entry.get("lines") or []) + (entry.get("home_lines") or []))
 
 
 def all_schools() -> list[tuple[League, Team]]:
