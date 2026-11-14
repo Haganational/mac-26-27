@@ -29,7 +29,7 @@ PROJ_LOG = MODEL_DIR / "projections.jsonl"
 MAC_HISTORY = MODEL_DIR / "mac_history.jsonl"
 
 PARAMS = R.Params()
-MODEL_VERSION = "1.0"  # bump when the method or knobs change, so logged projections stay comparable
+MODEL_VERSION = "1.1"  # bump when the method or knobs change, so logged projections stay comparable
 EDGE_FLAG = 3.0  # points of disagreement with the market worth a look
 MAC_IDS = {t.espn_id for t in TEAMS}
 
@@ -86,7 +86,7 @@ def team_label(r: R.Ratings, tid: str) -> str:
 
 
 def project_upcoming(r: R.Ratings, games: list[dict[str, Any]], now: datetime, days: int = 10,
-                     p: R.Params = PARAMS) -> list[dict[str, Any]]:
+                     p: R.Params = PARAMS, season_start: datetime | None = None) -> list[dict[str, Any]]:
     rows_ = load_all_rows()
     history = analysis.line_history(rows_)
     mapping = analysis.match_lines_to_games(games, history)
@@ -97,7 +97,8 @@ def project_upcoming(r: R.Ratings, games: list[dict[str, Any]], now: datetime, d
         if g["completed"] or tip < now - timedelta(hours=3) or tip > horizon:
             continue
         h, a = team_label(r, g["home"]["espn_id"]), team_label(r, g["away"]["espn_id"])
-        pr = R.project(r, h, a, g["neutral_site"], p)
+        pr = R.project(r, h, a, g["neutral_site"], p,
+                       days_in=R.days_since(season_start, tip) if season_start else None)
         mkt = market_for(g, mapping, history)
         out.append({
             "game_id": g["game_id"], "date": g["date"], "conference_game": g["conference_game"],
@@ -273,7 +274,7 @@ def build_model(now: datetime | None = None, log: bool = False) -> dict[str, Any
     r, prior, rows, names = current_ratings(now)
     games = load_schedule()["games"]
     mac, table = mac_table(r, prior, rows, names, games, now)
-    upcoming = project_upcoming(r, games, now)
+    upcoming = project_upcoming(r, games, now, season_start=min((x["date"] for x in rows), default=None))
     by_id = {t["id"]: t for t in table}
     for u in upcoming:  # each side's ratings and D-I ranks, for the game preview pages
         for side in ("home", "away"):
