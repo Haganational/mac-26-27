@@ -325,14 +325,14 @@ def desk_pick4(slate: dict[str, Any], ratings: dict[str, Any] | None) -> dict[st
     for _, _, _, g, rh in rated[:3]:
         s = "home" if rh >= 0.5 else "away"
         ours, market = (rh if s == "home" else 1 - rh), (g["win_home"] if s == "home" else 1 - g["win_home"])
-        picks.append(_pick(g, s, f"Our ratings {ours:.0%}, market {market:.0%}.", "ratings"))
+        picks.append(_pick(g, s, f"Our ratings {ours:.0%}, pregame win chance {market:.0%}.", "ratings"))
     used = {p["game_id"] for p in picks}
     close = sorted((g for g in rest if str(g["id"]) not in used), key=lambda g: (abs(g["win_home"] - 0.5), g.get("tip") or "", str(g["id"])))
     for g in close[: 4 - len(picks)]:
         s = "home" if g["win_home"] >= 0.5 else "away"
-        picks.append(_pick(g, s, f"Closest game on the board; takes the market favorite ({max(g['win_home'], 1 - g['win_home']):.0%}).", "market"))
+        picks.append(_pick(g, s, f"Closest game on the board; takes the favorite ({max(g['win_home'], 1 - g['win_home']):.0%} win chance).", "market"))
     return {"anchor": anchor_card(key), "picks": picks, "max": sum(p["worth"] for p in picks),
-            "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the market, on our ratings' side."}
+            "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."}
 
 
 def homer_picks(slate: dict[str, Any]) -> list[dict[str, Any]]:

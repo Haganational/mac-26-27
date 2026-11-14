@@ -17,7 +17,13 @@
 <meta name="theme-color" content="#2a1a10">
 <link rel="icon" href="static/og/icon-192.png" type="image/png">
 {% include "_hub_style.html" %}
+{% import "_den_connect.html" as dc %}{{ dc.styles() }}
 <style>
+  .dc-gm { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 10px; padding: 2px 2px 4px; }
+  .dc-hostline { margin: 0; font: italic 14px/1.35 var(--serif); color: var(--ink-2); min-width: 0; }
+  .dc-hostline b { font-style: normal; font-family: var(--sans); color: var(--ink); }
+  .dc-hostline small { font: 600 10px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-style: normal; }
+  .den-partners { display: grid; gap: 18px; margin-block: 28px 8px; }
   /* The Den: the back page of the paper. Same paper, fonts and brick course as the hub; the hickory bar runs down into a den band. */
   :root { --good: #2c7a4b; --bad: #b3261e; --chip: #ebe3d3; --brick: #9e3b26; --field: #fbf7ef; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --good: #6cc790; --bad: #ef6b5f; --chip: #2a231c; --field: #1d1813; } }
@@ -214,6 +220,7 @@
           <div class="games" id="p4-games"></div>
           <div class="total"><span>Your Pick 4<small id="p4-sub"></small></span><b id="p4-tot">–</b></div>
         </div>
+        {% if connect and connect.desk %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.desk(connect.desk) }}</div>{% endif %}
       </section>
 
       <section class="room" aria-labelledby="h-bk">
@@ -227,6 +234,7 @@
           <p class="msg" id="bk-msg"></p>
           <div class="total"><span>Bricksanity<small id="bk-sub"></small></span><b id="bk-tot">–</b></div>
         </div>
+        {% if connect and connect.bricksanity %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.bricks_call(connect.bricksanity) }}</div>{% endif %}
       </section>
 
       <section class="room wide" aria-labelledby="h-bb">
@@ -251,6 +259,12 @@
     </div>
   </div>
 
+  <div class="den-partners">
+    {% if connect %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.partners(connect.going, house_ad) }}</div>{% else %}{{ dc.partners(none, house_ad) }}{% endif %}
+    {{ dc.board(standings) }}
+    {% if connect or (standings and (standings.desk or standings.homer)) %}{{ dc.disclosure((connect or standings).disclosure) }}{% endif %}
+  </div>
+
   <section class="rules" aria-labelledby="h-rules">
     <h2 id="h-rules">House rules</h2>
     <ul>
@@ -265,7 +279,7 @@
     </ul>
   </section>
 </main>
-<footer><a href="./">All conferences</a> · <a href="masthead.html">Masthead and standards</a> · <a href="at-large.html">At-Large Watch</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+<footer><a href="./">All conferences</a> · <a href="masthead.html">Masthead and standards</a> · <a href="at-large.html">At-Large Watch</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
 
 <script type="application/json" id="den-cfg">{{ cfg_json|safe }}</script>
 <script type="module">import("./static/den.js").then(function (m) { window.Den = m; }, function () {}).then(function () { window.denStart && window.denStart(); });</script>
@@ -436,6 +450,15 @@
   /* ---- Pick 4 and Brick by Brick share one game list ---- */
   function winChance(g, side) { return side === "home" ? g.win_home : 1 - g.win_home; }
   function pickedSide(g, tid) { return tid == null ? null : String(g.home.id) === String(tid) ? "home" : String(g.away.id) === String(tid) ? "away" : null; }
+  var CX = null;  // tonight's anchors and ticket links (den/connect-<date>.json), when the build wrote one
+  function hostLine(g, picked) {
+    // Quiet by default: the anchor's call shows once you pick that game (the ticket link shows either way).
+    var c = CX && CX.cards && CX.cards[g.id]; if (!c) return "";
+    var h = c.host, t = c.tickets, out = "";
+    if (h && c.line && picked) out += '<p class="dc dc-hostline"><b>' + esc(h.name) + '</b> <small>' + esc(h.school) + ' · <i>' + esc(h.tag) + '</i></small> “' + esc(c.line) + '”</p>';
+    if (t && !locked(g)) out += '<a class="dc dc-tix" href="' + esc(t.href) + '" target="_blank" rel="sponsored noopener"><span>Tickets' + (t.low ? " from $" + esc(t.low) : "") + '</span><span class="dc-ad">Ad</span></a>';
+    return out ? '<div class="dc-gm">' + out + '</div>' : "";
+  }
   function gameRows(map, kind) {
     // Games that tipped without a pick from you drop off the list: nothing left to do there.
     var priced = G.filter(function (g) { return g.win_home != null; });
@@ -451,7 +474,7 @@
         return '<button type="button" class="side ' + cls + '" aria-pressed="' + on + '" data-g="' + esc(g.id) + '" data-s="' + s + '"' + (lk ? " disabled" : "") + '><span>' + (s === "home" ? "at " : "") + esc(teamName(t)) + sc + '</span><b>' + val + '</b></button>';
       }
       var tl = fin ? "Final" : lk ? "Locked" : tipLabel(g.tip) + " ET";
-      return '<div class="gm"><div class="tipl"><span>' + tl + '</span><span>' + edSq(g.away.edition || g.home.edition) + '</span></div>' + btn("away") + btn("home") + '</div>';
+      return '<div class="gm"><div class="tipl"><span>' + tl + '</span><span>' + edSq(g.away.edition || g.home.edition) + '</span></div>' + btn("away") + btn("home") + (kind === "p4" ? hostLine(g, !!side) : "") + '</div>';
     }).join("") + note || '<p class="msg">No games with a win chance tonight.</p>';
   }
   function togglePick(map, b) {
@@ -477,6 +500,7 @@
     var tot = done ? score("pick4Score", list, R) : 0;
     $("p4-n").textContent = ids.length; $("p4-max").textContent = max;
     if (done) { $("p4-tot").textContent = tot; $("p4-sub").textContent = done < ids.length ? done + " of " + ids.length + " final" : "Final"; }
+    if (done && done === ids.length && nightDone() && window.denBeatDesk) window.denBeatDesk(tot);
     else { $("p4-tot").textContent = "–"; $("p4-sub").textContent = ids.length === 4 ? "Scores post after finals" : ""; }
   }
 
@@ -592,9 +616,11 @@
   $("dn-day").textContent = DATE === TODAY ? "Tonight · " + dayLabel(DATE) : dayLabel(DATE, { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   getJSON("den/index.json").then(function (ix) {
     var dates = indexDates(ix), prev = navDays(dates);
-    return Promise.all([getJSON("den/slate-" + DATE + ".json"), getJSON("den/results-" + DATE + ".json")]).then(function (x) {
+    return Promise.all([getJSON("den/slate-" + DATE + ".json"), getJSON("den/results-" + DATE + ".json"), getJSON("den/connect-" + DATE + ".json")]).then(function (x) {
       var slate = x[0];
       if (!slate || !(slate.games || []).length) { empty(prev, dates, !ix); return; }
+      document.querySelectorAll(".dc-today").forEach(function (el) { if (el.dataset.date !== DATE) el.hidden = true; });
+      CX = x[2] || null;
       setup(slate, x[1]); wire();
       $("dn-board").hidden = false; redraw();
       loadHistory().then(drawBB);

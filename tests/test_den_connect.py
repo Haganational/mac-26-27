@@ -154,7 +154,7 @@ def test_desk_pick4_homer_first_then_biggest_ratings_gaps():
     p = d["picks"]
     assert [x["game_id"] for x in p] == ["2", "5", "1", "3"]
     assert p[0] == {**p[0], "side": "away", "team_id": "195", "kind": "homer", "worth": 90}
-    assert p[1]["side"] == "home" and p[1]["kind"] == "ratings" and "market 30%" in p[1]["why"]
+    assert p[1]["side"] == "home" and p[1]["kind"] == "ratings" and "pregame win chance 30%" in p[1]["why"]
     assert p[2]["side"] == "away" and p[2]["abbr"] == "KENT", "ratings side, not the market favorite"
     assert d["max"] == sum(x["worth"] for x in p)
     assert dc.desk_pick4(slate(), RATINGS) == d, "deterministic"

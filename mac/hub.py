@@ -269,6 +269,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     editor = (staff(mh) or [{}])[0]
     for e in eds:
         e["color"] = CONF_COLORS.get(e["key"], "#a8441c")
+    den_data(site_root, now)  # site/den/*.json first, so the page and the front-page line read tonight's games
     den = den_page(env, site_root, eds, names, base, now)
     html = env.get_template("hub.html").render(den=den,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
@@ -293,11 +294,6 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         (site_root / "at-large.html").write_text(env.get_template("atlarge.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **al))
-    from . import den
-    try:  # data for the Den's games (site/den/*.json); the page itself is built elsewhere
-        den.build(site_root, now)
-    except Exception as e:  # never let the games take the front page down
-        print("den: skipped,", repr(e))
     media = mh.get("media") or {}
     has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
     mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {
@@ -324,6 +320,45 @@ def den_teaser(site_root: Path, now: datetime) -> dict[str, Any] | None:
     return {"games": len(games), "eligible": len(ours)} if games else None
 
 
+def den_data(site_root: Path, now: datetime) -> None:
+    """The Den's games (site/den/*.json via mac.den), then tonight's anchors, desk and partner links (mac.den_connect).
+    Each step is fenced: a Den failure prints a line and never takes the front page down."""
+    from . import den, den_connect
+    try:
+        den.build(site_root, now)
+    except Exception as e:
+        print("den: skipped,", repr(e))
+        return
+    d = site_root / "den"
+    today = now.astimezone(ET).strftime("%Y-%m-%d")
+    try:
+        slate = json.loads((d / f"slate-{today}.json").read_text())
+    except (OSError, ValueError):
+        return
+    try:
+        results = json.loads((d / f"results-{today}.json").read_text())
+    except (OSError, ValueError):
+        results = None
+    try:  # ledger_dir is read at call time so tests can point it at a temp folder
+        den_connect.build(site_root, slate, results, now=now, ledger_dir=den_connect.LEDGER_DIR)
+    except Exception as e:
+        print("den_connect: skipped,", repr(e))
+
+
+def den_connect_context(site_root: Path, now: datetime) -> dict[str, Any]:
+    """Tonight's anchor desk, partner rail and season board for den.html (empty when there is no slate tonight)."""
+    from .site_chrome import AD
+    d = site_root / "den"
+    today = now.astimezone(ET).strftime("%Y-%m-%d")
+    out: dict[str, Any] = {"connect": None, "standings": None, "house_ad": AD}
+    for k, f in (("connect", f"connect-{today}.json"), ("standings", "desk-standings.json")):
+        try:
+            out[k] = json.loads((d / f).read_text())
+        except (OSError, ValueError):
+            pass
+    return out
+
+
 def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
     """The Den (/den.html): a static shell whose games run in the browser from site/den/*.json.
     Always written, so the nav link never 404s; on a day with no slate the page shows a quiet empty state.
@@ -332,7 +367,8 @@ def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names
     cfg = {"editions": {e["key"]: e["short"] for e in eds}, "colors": {**{e["key"]: e["color"] for e in eds}, **{e["short"]: e["color"] for e in eds}}}
     (site_root / "den.html").write_text(env.get_template("den.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
-        built=now.isoformat(timespec="minutes"), cfg_json=json.dumps(cfg).replace("</", "<\\/")))
+        built=now.isoformat(timespec="minutes"), cfg_json=json.dumps(cfg).replace("</", "<\\/"),
+        **den_connect_context(site_root, now)))
     return den_teaser(site_root, now)
 
 

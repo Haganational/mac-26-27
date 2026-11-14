@@ -96,8 +96,9 @@ def test_build_writes_privacy_page_for_google_oauth(tmp_path):
     assert 'href="privacy.html"' in (tmp_path / "index.html").read_text()
 
 
-def test_den_page_and_its_quiet_front_page_line(tmp_path):
+def test_den_page_and_its_quiet_front_page_line(tmp_path, monkeypatch):
     from datetime import datetime, timezone
+    monkeypatch.setattr(hub, "den_data", lambda site_root, now: None)  # only the page and the line under test here
     hub.build(tmp_path, "https://x.com/")
     front = (tmp_path / "index.html").read_text()
     assert 'href="den.html">The Den</a>' in front and 'class="den-tz"' not in front, "no slate, no teaser line"
