@@ -58,3 +58,8 @@ def test_every_shipped_story_is_sourced_and_short():
         for s in rows:
             assert s["source"].startswith("https://") and s["evidence"] and s["fact"], (key, s["name"])
             assert s["lean"] in ("cheer", "scorn", "neutral") and len(s["line"].split()) <= 50, (key, s["name"])
+
+
+def test_every_edition_is_on_the_midmaxx60_desk():
+    from mac import leagues
+    assert {lg.key for lg in midmaxx60.all_leagues()} == set(leagues.ALL)
