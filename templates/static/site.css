@@ -1131,6 +1131,7 @@ h3 { font: 600 19px/1.25 var(--serif); }
 .tb-bricks { height: 6px; box-shadow: none; opacity: .9; }
 .tb-stripe { height: 3px; }
 .tb-menu { border-radius: 0; border: 1px solid var(--rule); box-shadow: 6px 6px 0 rgba(26,20,16,.12); background: var(--page); }
+@media (max-width: 1080px) { .tb-menu { background: transparent; border: 0; box-shadow: none; } } /* the phone menu sits on the hickory bar: no paper panel under its light text */
 a.tchip { border-radius: 0; border-bottom-width: 2px; font-family: var(--cond); font-size: 15px; letter-spacing: .03em; }
 .tb-list a { border-radius: 0; } .tb-list a b { font: 600 16px/1.2 var(--serif); }
 @media (max-width: 1080px) { .tb-nav > a, .tb-teams > summary { padding: 13px 12px; font-size: 17px; } .tb-in { padding: 0 16px; } main { padding: 20px 16px 64px; } }
