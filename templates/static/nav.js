@@ -30,6 +30,16 @@
     const open = nav.classList.toggle('open');
     menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
+  /* ---------- edition switcher: narrow the list as you type (the box shows once there are more than eight) */
+  $$('[data-ed-find]').forEach(inp => inp.addEventListener('input', () => {
+    const q = inp.value.trim().toLowerCase();
+    inp.parentNode.querySelectorAll('[data-ed]').forEach(a => { a.hidden = !!q && !a.dataset.ed.includes(q); });
+  }));
+  /* one menu open at a time */
+  $$('details.tb-teams').forEach(d => d.addEventListener('toggle', () => {
+    if (!d.open) return;
+    $$('details.tb-teams[open]').forEach(o => { if (o !== d) o.open = false; });
+  }));
   document.addEventListener('click', (e) => {
     $$('details.tb-teams[open]').forEach(d => { if (!d.contains(e.target)) d.open = false; });
     const pop = $('#sharepop');

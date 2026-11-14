@@ -180,4 +180,31 @@
     .front .rail > section:nth-child(2) { order: 4; margin-top: 26px; }
     .lead p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   }
+  /* Conferences menu (Nov 2026): every edition behind one door, so the bar holds at 27 conferences. */
+  .bar nav { align-items: center; }
+  .hb-eds { position: relative; }
+  .hb-eds > summary { list-style: none; cursor: pointer; padding: 6px 10px; font: 600 15px/1 var(--cond); letter-spacing: .09em; text-transform: uppercase; color: var(--gold); }
+  .hb-eds > summary::-webkit-details-marker { display: none; }
+  .hb-eds > summary::after { content: " \25BE"; font-size: 11px; opacity: .6; }
+  .hb-eds > summary:hover, .hb-eds[open] > summary { color: #fff; }
+  .hb-panel { position: absolute; top: calc(100% + 14px); left: 0; z-index: 60; width: min(620px, calc(100vw - 32px)); padding: 12px 16px 16px; background: var(--page); color: var(--ink); border: 1px solid var(--rule-2); box-shadow: 6px 6px 0 rgba(26,20,16,.12); }
+  .hb-k { margin: 0 0 6px; padding-bottom: 6px; border-bottom: 3px solid var(--rule-2); font: 600 12.5px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .hb-k span { float: right; }
+  .hb-find { width: 100%; height: 34px; margin: 4px 0 8px; padding: 0 10px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); font: 15px var(--sans); }
+  .hb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: 0 6px; max-height: min(60vh, 440px); overflow-y: auto; overscroll-behavior: contain; }
+  .bar .hb-grid a { display: block; padding: 7px 10px 8px; border-bottom: 1px solid var(--rule); color: var(--ink); letter-spacing: 0; text-transform: none; font: inherit; }
+  .bar .hb-grid a:hover { background: color-mix(in srgb, var(--gold) 18%, transparent); color: var(--ink); }
+  .hb-grid b { display: block; font: 600 15px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; }
+  .hb-grid small { display: block; font-size: 12px; line-height: 1.3; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hb-grid a[hidden] { display: none; }
+  .bar nav a[aria-current="page"] { color: #fff; box-shadow: inset 0 -3px 0 var(--gold); }
+  @media (max-width: 600px) {
+    .bar nav { overflow: visible; flex-wrap: wrap; margin: 0 -8px; width: auto; padding: 0; }
+    .hb-eds > summary { padding: 10px 9px; }
+    .hb-eds { position: static; }
+    .bar-in { position: relative; }
+    .hb-panel { left: 16px; right: 16px; width: auto; top: 100%; }
+    .hb-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 380px) { .hb-grid small { display: none; } }
 </style>

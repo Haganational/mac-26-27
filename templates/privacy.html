@@ -12,10 +12,7 @@
 {% include "_hub_style.html" %}
 </head>
 <body>
-<header class="bar"><div class="bar-in">
-  <a class="brand" href="./">Hardwood Bricks</a>
-  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="masthead.html">About</a></nav>
-</div></header>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "") }}
 <main class="mast">
   <section class="hero" style="background:none;border:0;padding:28px 0 0">
     <h1>Privacy policy</h1>

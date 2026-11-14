@@ -26,11 +26,7 @@
 {% include "_hub_style.html" %}
 </head>
 <body>
-<header class="bar"><div class="bar-in">
-  <a class="brand" href="./">Hardwood Bricks</a>
-  <nav aria-label="Conferences">{% for e in eds %}<a href="{{ e.href }}">{{ e.short }}</a>{% endfor %}<a href="at-large.html">At-Large</a><a href="den.html">The Den</a><a href="masthead.html">About</a></nav>
-  <div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
-</div></header>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True) }}
 <div class="bricks" aria-hidden="true"></div>
 <main>
   <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span>{{ names }} · {{ season }}</span></div>
