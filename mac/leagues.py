@@ -424,8 +424,110 @@ BIGWEST = League(
     tournament="the Big West tournament at Lee's Family Forum in Henderson, Nevada",
 )
 
+# Missouri Valley 2026-27 membership from ESPN's conference feed (data/book/conferences.json, group 18).
+# Colors are each school's primary and accent from their athletics branding; check them against the schools' style guides.
+MVC = League(
+    key="mvc", short="Missouri Valley", name="Missouri Valley Conference",
+    region="the Midwest: Illinois, Iowa and Indiana, plus Nashville and Murray, Kentucky",
+    teams=(
+        Team("belmont", "2057", "BEL", "Belmont Bruins", "Belmont", "#002469", "#C8102E"),
+        Team("bradley", "71", "BRAD", "Bradley Braves", "Bradley", "#A50000", "#FFFFFF"),
+        Team("drake", "2181", "DRKE", "Drake Bulldogs", "Drake", "#004477", "#FFFFFF"),
+        Team("evansville", "339", "EVAN", "Evansville Purple Aces", "Evansville", "#4E2A84", "#F68B1F"),
+        Team("illinois-state", "2287", "ILST", "Illinois State Redbirds", "Illinois State", "#CE1126", "#FFFFFF"),
+        Team("indiana-state", "282", "INST", "Indiana State Sycamores", "Indiana State", "#00669A", "#FFFFFF"),
+        Team("murray-state", "93", "MUR", "Murray State Racers", "Murray State", "#002148", "#ECAC00"),
+        Team("northern-iowa", "2460", "UNI", "Northern Iowa Panthers", "Northern Iowa", "#4B116F", "#FFCC00"),
+        Team("southern-illinois", "79", "SIU", "Southern Illinois Salukis", "Southern Illinois", "#720000", "#FFFFFF"),
+        Team("uic", "82", "UIC", "UIC Flames", "UIC", "#001E62", "#D50032"),
+        Team("valparaiso", "2674", "VAL", "Valparaiso Beacons", "Valparaiso", "#613318", "#FFCC00"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="mvc/",
+    theme="arch",
+    odds_aliases={
+        "Illinois St Redbirds": "illinois-state",
+        "Indiana St Sycamores": "indiana-state",
+        "Murray St Racers": "murray-state",
+        "Valparaiso Crusaders": "valparaiso",
+        "Valpo Beacons": "valparaiso",
+        "Illinois-Chicago Flames": "uic",
+    },
+    news_names={
+        "belmont": {"query": "Belmont Bruins basketball", "match": [r"\bBelmont\b"]},
+        "bradley": {"query": "Bradley Braves basketball", "match": [r"\bBradley Braves\b", r"\bBradley University\b", r"^Bradley\b"]},
+        "drake": {"query": "Drake Bulldogs basketball", "match": [r"\bDrake Bulldogs\b", r"\bDrake University\b", r"^Drake\b"]},
+        "evansville": {"query": "Evansville Purple Aces", "match": [r"\bEvansville\b", r"\bPurple Aces\b", r"\bUE\b"]},
+        "illinois-state": {"query": "Illinois State Redbirds", "match": [r"\bIllinois St(ate|\.)?\b", r"\bRedbirds\b"]},
+        "indiana-state": {"query": "Indiana State Sycamores", "match": [r"\bIndiana St(ate|\.)?\b", r"\bSycamores\b"]},
+        "murray-state": {"query": "Murray State Racers", "match": [r"\bMurray St(ate|\.)?\b", r"\bRacers\b"]},
+        "northern-iowa": {"query": "Northern Iowa Panthers", "match": [r"\bNorthern Iowa\b", r"\bUNI\b"]},
+        "southern-illinois": {"query": "Southern Illinois Salukis", "match": [r"\bSouthern Illinois\b", r"\bSalukis\b", r"\bSIU\b(?!-?E)"]},
+        "uic": {"query": "UIC Flames", "match": [r"\bUIC\b", r"\bIllinois Chicago\b"]},
+        "valparaiso": {"query": "Valparaiso Beacons", "match": [r"\bValparaiso\b", r"\bValpo\b", r"\bBeacons\b"]},
+    },
+    league_feed=("mvc-sports.com", "Missouri Valley (mvc-sports.com)"),
+    hashtag="MVCHoops",
+    tournament="Arch Madness, the Missouri Valley tournament in St. Louis",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST)}
+# Atlantic 10 2026-27 membership from ESPN's conference feed (group 3).
+A10 = League(
+    key="a10", short="A-10", name="Atlantic 10 Conference",
+    region="the East, from Rhode Island and the Bronx down to Richmond, and west to Dayton, St. Louis and Chicago",
+    teams=(
+        Team("davidson", "2166", "DAV", "Davidson Wildcats", "Davidson", "#D42121", "#000000"),
+        Team("dayton", "2168", "DAY", "Dayton Flyers", "Dayton", "#CE1141", "#004B8D"),
+        Team("duquesne", "2184", "DUQ", "Duquesne Dukes", "Duquesne", "#041E42", "#BA0C2F"),
+        Team("fordham", "2230", "FOR", "Fordham Rams", "Fordham", "#860038", "#FFFFFF"),
+        Team("george-mason", "2244", "GMU", "George Mason Patriots", "George Mason", "#006633", "#FFCC33"),
+        Team("george-washington", "45", "GW", "George Washington Revolutionaries", "George Washington", "#033C5A", "#AA9868"),
+        Team("la-salle", "2325", "LAS", "La Salle Explorers", "La Salle", "#00205B", "#FFC72C"),
+        Team("loyola-chicago", "2350", "LUC", "Loyola Chicago Ramblers", "Loyola Chicago", "#8A1538", "#FDB913"),
+        Team("rhode-island", "227", "URI", "Rhode Island Rams", "Rhode Island", "#68ABE8", "#002147"),
+        Team("richmond", "257", "RICH", "Richmond Spiders", "Richmond", "#990000", "#000066"),
+        Team("saint-josephs", "2603", "JOES", "Saint Joseph's Hawks", "Saint Joseph's", "#9E1B32", "#A2AAAD"),
+        Team("saint-louis", "139", "SLU", "Saint Louis Billikens", "Saint Louis", "#003DA5", "#FFFFFF"),
+        Team("st-bonaventure", "179", "SBU", "St. Bonaventure Bonnies", "St. Bonaventure", "#5A3825", "#FFFFFF"),
+        Team("vcu", "2670", "VCU", "VCU Rams", "VCU", "#000000", "#F8B800"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="a10/",
+    theme="ironbridge",
+    odds_aliases={
+        "GW Revolutionaries": "george-washington",
+        "George Washington Colonials": "george-washington",
+        "Loyola (Chi) Ramblers": "loyola-chicago",
+        "Loyola Chicago Ramblers": "loyola-chicago",
+        "St Bonaventure Bonnies": "st-bonaventure",
+        "St. Bonaventure Bonnies": "st-bonaventure",
+        "Saint Joseph's Hawks": "saint-josephs",
+        "St. Joseph's Hawks": "saint-josephs",
+        "Virginia Commonwealth Rams": "vcu",
+    },
+    news_names={
+        "davidson": {"query": "Davidson Wildcats basketball", "match": [r"\bDavidson\b"]},
+        "dayton": {"query": "Dayton Flyers", "match": [r"\bDayton Flyers\b", r"\bUD Arena\b", r"\bUniversity of Dayton\b", r"^Dayton\b"]},
+        "duquesne": {"query": "Duquesne Dukes basketball", "match": [r"\bDuquesne\b"]},
+        "fordham": {"query": "Fordham Rams basketball", "match": [r"\bFordham\b"]},
+        "george-mason": {"query": "George Mason Patriots basketball", "match": [r"\bGeorge Mason\b", r"\bGMU\b"]},
+        "george-washington": {"query": "George Washington Revolutionaries", "match": [r"\bGeorge Washington\b(?! Carver)", r"\bGW Revolutionaries\b", r"\bGWU\b"]},
+        "la-salle": {"query": "La Salle Explorers", "match": [r"\bLa Salle\b", r"\bExplorers\b"]},
+        "loyola-chicago": {"query": "Loyola Chicago Ramblers", "match": [r"\bLoyola Chicago\b", r"\bLoyola-Chicago\b", r"\bRamblers\b"]},
+        "rhode-island": {"query": "Rhode Island Rams basketball", "match": [r"\bRhode Island\b(?! College)", r"\bURI\b"]},
+        "richmond": {"query": "Richmond Spiders", "match": [r"\bRichmond Spiders\b", r"\bSpiders\b", r"\bUniversity of Richmond\b"]},
+        "saint-josephs": {"query": "Saint Joseph's Hawks", "match": [r"\bSaint Joseph[’']s\b", r"\bSt\.? Joseph[’']s\b", r"\bSt\.? Joe[’']s\b"]},
+        "saint-louis": {"query": "Saint Louis Billikens", "match": [r"\bSaint Louis\b(?! Cardinals)", r"\bBillikens\b", r"\bSLU\b"]},
+        "st-bonaventure": {"query": "St. Bonaventure Bonnies", "match": [r"\bSt\.? Bonaventure\b", r"\bBonnies\b"]},
+        "vcu": {"query": "VCU Rams basketball", "match": [r"\bVCU\b"]},
+    },
+    league_feed=("atlantic10.com", "Atlantic 10 (atlantic10.com)"),
+    hashtag="A10MBB",
+    tournament="the Atlantic 10 tournament",
+)
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10)}
 
 
 def current() -> League:

@@ -24,7 +24,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader
 
-ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest"]  # the order the editions run in the show
+ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10"]  # the order the editions run in the show
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
