@@ -1014,6 +1014,28 @@ html.lg-coast .topbar, html.lg-coast .tb-nav.open { background: linear-gradient(
 html.lg-coast .homehero { background: radial-gradient(110% 80% at 70% 70%, rgba(246,160,90,.32), transparent 60%), linear-gradient(rgba(14,36,54,.15), rgba(14,36,54,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(10,28,44,.6); --hh-soft: #f3e3d6; }
 html.lg-coast .homehero .hh-mac { color: #d9673f; -webkit-text-stroke: 2px #fff; }
 html.lg-coast .sitefoot { color: #e3eef3; }
+/* ---------------------------------------------------------------- Missouri Valley edition: Arch
+   The Gateway Arch over the river at dusk, where Arch Madness is played, with grain elevators on the
+   prairie bank; harvest gold for the accent. Set by html.lg-arch. */
+html.lg-arch { --brand: #1d2a3a; --brand-2: #2c3f55; --gold: #e2b866; --brick: #9a5a2a; --mortar: #e6dcc8;
+  --bricks: url("data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%2796%27%20height=%2732%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%270%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27%231d2a3a%27/%3E%3Cstop%20offset=%27.6%27%20stop-color=%27%237a4a2a%27/%3E%3Cstop%20offset=%27.7%27%20stop-color=%27%23d99a4a%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2732%27%20fill=%27url(%23g)%27/%3E%3Cpath%20d=%27M0%2023%20H96%20V32%20H0Z%27%20fill=%27%232a2a1c%27/%3E%3Cpath%20d=%27M0%2023%20Q12%2022%2024%2023%20T48%2023%20T72%2023%20T96%2023%27%20stroke=%27%23e2b866%27%20stroke-width=%27.6%27%20fill=%27none%27%20opacity=%27.5%27/%3E%3Cpath%20d=%27M34%2023%20Q48%20-2%2062%2023%27%20stroke=%27%23c9ccd2%27%20stroke-width=%271.6%27%20fill=%27none%27%20opacity=%27.85%27/%3E%3Cpath%20d=%27M0%2027%20H96%20M0%2029.5%20H96%27%20stroke=%27%23c9a24a%27%20stroke-width=%27.5%27%20opacity=%27.35%27/%3E%3Cpath%20d=%27M6%2023%20V17%20H9%20V23%20M10%2023%20V19%20H12%20V23%20M84%2023%20V16%20H88%20V23%27%20fill=%27%231a1a12%27%20stroke=%27%231a1a12%27%20stroke-width=%27.6%27/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) { html.lg-arch:not([data-theme="light"]) { --brand: #141e2a; --brand-2: #22324a; } }
+html.lg-arch[data-theme="dark"] { --brand: #141e2a; --brand-2: #22324a; }
+html.lg-arch .topbar, html.lg-arch .tb-nav.open { background: linear-gradient(180deg, rgba(20,30,42,.55), rgba(20,30,42,.8)), var(--bricks) 0 0 / 96px 32px; background-color: #141e2a; border-bottom: 2px solid #e2b866; }
+html.lg-arch .homehero { background: radial-gradient(110% 80% at 50% 80%, rgba(226,160,80,.3), transparent 60%), linear-gradient(rgba(20,30,42,.15), rgba(20,30,42,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(16,24,34,.6); --hh-soft: #f1e6d2; }
+html.lg-arch .homehero .hh-mac { color: #b8732e; -webkit-text-stroke: 2px #fff; }
+html.lg-arch .sitefoot { color: #ece3d2; }
+/* ---------------------------------------------------------------- Atlantic 10 edition: Iron Bridge
+   A steel truss bridge over a river at night (Pittsburgh, Philadelphia, Richmond, Dayton, St. Louis),
+   rust-orange steel for the accent and streetlight gold. Set by html.lg-ironbridge. */
+html.lg-ironbridge { --brand: #172231; --brand-2: #243650; --gold: #f0c75e; --brick: #b5682c; --mortar: #d5dde6;
+  --bricks: url("data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%2796%27%20height=%2732%27%3E%3Crect%20width=%2796%27%20height=%2732%27%20fill=%27%23172231%27/%3E%3Cpath%20d=%27M0%2022%20H96%20V32%20H0Z%27%20fill=%27%230f1823%27/%3E%3Cpath%20d=%27M0%2025%20Q8%2024%2016%2025%20T32%2025%20T48%2025%20T64%2025%20T80%2025%20T96%2025%27%20stroke=%27%236f8fb0%27%20stroke-width=%27.6%27%20fill=%27none%27%20opacity=%27.5%27/%3E%3Cpath%20d=%27M0%2018%20H96%27%20stroke=%27%23c58a3a%27%20stroke-width=%271.2%27/%3E%3Cpath%20d=%27M8%2018%20L16%2010%20H80%20L88%2018%20M16%2010%20L24%2018%20L32%2010%20L40%2018%20L48%2010%20L56%2018%20L64%2010%20L72%2018%20L80%2010%27%20stroke=%27%23c58a3a%27%20stroke-width=%27.8%27%20fill=%27none%27/%3E%3Cpath%20d=%27M8%2018%20V22%20M88%2018%20V22%27%20stroke=%27%23c58a3a%27%20stroke-width=%271.4%27/%3E%3Ccircle%20cx=%2720%27%20cy=%2727%27%20r=%27.6%27%20fill=%27%23f0c75e%27%20opacity=%27.7%27/%3E%3Ccircle%20cx=%2752%27%20cy=%2728%27%20r=%27.6%27%20fill=%27%23f0c75e%27%20opacity=%27.6%27/%3E%3Ccircle%20cx=%2776%27%20cy=%2727%27%20r=%27.6%27%20fill=%27%23f0c75e%27%20opacity=%27.7%27/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) { html.lg-ironbridge:not([data-theme="light"]) { --brand: #101824; --brand-2: #1c2b40; } }
+html.lg-ironbridge[data-theme="dark"] { --brand: #101824; --brand-2: #1c2b40; }
+html.lg-ironbridge .topbar, html.lg-ironbridge .tb-nav.open { background: linear-gradient(180deg, rgba(16,24,36,.5), rgba(16,24,36,.8)), var(--bricks) 0 0 / 96px 32px; background-color: #101824; border-bottom: 2px solid #c58a3a; }
+html.lg-ironbridge .homehero { background: radial-gradient(110% 80% at 30% 90%, rgba(197,138,58,.25), transparent 60%), linear-gradient(rgba(16,24,36,.2), rgba(16,24,36,.38)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(12,18,28,.6); --hh-soft: #dfe6ee; }
+html.lg-ironbridge .homehero .hh-mac { color: #c0702e; -webkit-text-stroke: 2px #fff; }
+html.lg-ironbridge .sitefoot { color: #e0e7ef; }
 /* News: each school tag wears its team color, lightly. */
 .hh-heads .hh-tag[class*=" t-"] { background: var(--tc); color: var(--tci); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
 #feed a.pill[class*=" t-"], .newslist a.pill[class*=" t-"] { box-shadow: inset 3px 0 0 var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }
@@ -1269,3 +1291,49 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .town-notes p { margin: 0; font: 400 17px/1.5 var(--serif); }
 .town-notes .src { font: 500 12px/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-left: 4px; }
 @media (max-width: 700px) { .town-notes li:nth-child(n+5) { display: none; } .sc-note p, .town-notes p { font-size: 16px; } }
+
+/* ---------- Top bar, Nov 2026: built to hold 27 conferences.
+   Seven items whatever we cover: the edition (a switcher to every other one), Teams, three
+   reader pages, the Betting desk and More. Editions live in the switcher, never in the bar. */
+.tb-nav { flex: 1 1 auto; min-width: 0; }
+.tb-search { margin-left: auto; flex: 0 0 auto; width: 190px; }
+.tb-ed > summary { color: var(--gold); padding-right: 16px; margin-right: 8px; position: relative; }
+.tb-ed > summary::before { content: ""; position: absolute; right: 0; top: 18px; bottom: 18px; border-right: 1px solid rgba(255,255,255,.2); }
+.tb-ed.on > summary, .tb-ed > summary:hover { color: var(--gold); }
+.tb-eds { width: min(620px, 94vw); grid-template-columns: 1fr 1fr; gap: 0 14px; padding: 14px 16px 16px; }
+.tb-eds a { display: block; padding: 8px 10px; color: var(--ink); text-decoration: none; }
+.tb-eds a:hover { background: var(--neutral); text-decoration: none; }
+.tb-eds a b { display: block; font: 600 16px/1.2 var(--serif); }
+.tb-eds a small { display: block; font-size: 12px; line-height: 1.3; color: var(--muted); }
+.tb-eds .ed-home, .tb-eds .ed-all { border-top: 3px solid var(--rule); padding-top: 9px; }
+.tb-eds .ed-home b { color: var(--brick); }
+.tb-eds .ed-k, .tb-k { grid-column: 1 / -1; margin: 14px 0 4px; padding-bottom: 5px; border-bottom: 1px solid var(--grid); font: 600 12.5px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.tb-eds .ed-k span { float: right; letter-spacing: .04em; }
+.tb-eds .ed-find { grid-column: 1 / -1; margin: 4px 0 6px; height: 34px; padding: 0 10px; border: 1px solid var(--grid); background: var(--surface); color: var(--ink); font: 15px var(--sans); border-radius: 0; }
+.tb-eds .ed-grid { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: 0 6px; max-height: min(52vh, 420px); overflow-y: auto; overscroll-behavior: contain; }
+.tb-eds .ed-grid a { padding: 6px 10px 7px; border-left: 3px solid transparent; }
+.tb-eds .ed-grid b { font: 600 15px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; }
+.tb-eds .ed-grid small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tb-eds .ed-grid a.on { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold) 16%, transparent); }
+.tb-eds .ed-grid a[hidden] { display: none; }
+.tb-list .tb-k { margin: 10px 10px 2px; }
+.tb-list .tb-k:first-child { margin-top: 4px; }
+.tb-more > .tb-list { max-height: calc(100vh - 90px); overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 1300px) { .tb-search { width: 40px; } }
+@media (min-width: 1081px) and (max-width: 1240px) { .tb-in { gap: 14px; } .tb-nav > a, .tb-teams > summary { padding-left: 8px; padding-right: 8px; letter-spacing: .06em; } .tb-ed > summary { padding-right: 12px; margin-right: 4px; } .tb-btn[data-share] span { display: none; } }
+@media (max-width: 1080px) {
+  .tb-ed > summary { margin-right: 0; }
+  .tb-ed > summary::before { display: none; }
+  .tb-eds { width: auto; padding: 0 0 8px; grid-template-columns: 1fr 1fr; }
+  .tb-eds a { color: #efe3cc; }
+  .tb-eds a small, .tb-eds .ed-k, .tb-k { color: #cdb99a; }
+  .tb-eds .ed-home, .tb-eds .ed-all { border-top-color: rgba(255,255,255,.35); }
+  .tb-eds .ed-home b { color: var(--gold); }
+  .tb-eds .ed-k, .tb-k { border-bottom-color: rgba(255,255,255,.18); }
+  .tb-eds a:hover, .tb-eds .ed-grid a.on { background: rgba(255,255,255,.10); }
+  .tb-eds .ed-grid { grid-template-columns: 1fr 1fr; max-height: none; }
+  .tb-eds .ed-find { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.25); color: #fff; }
+  .tb-more > .tb-list { max-height: none; }
+  .tb-nav.open { max-height: calc(100vh - 70px); max-height: calc(100dvh - 70px); overflow-y: auto; overscroll-behavior: contain; }
+}
+@media (max-width: 420px) { .tb-eds .ed-grid small { display: none; } }

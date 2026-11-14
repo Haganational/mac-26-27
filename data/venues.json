@@ -41,6 +41,12 @@
   "tz": "America/Detroit",
   "source": "geonames"
  },
+ "Annapolis|MD": {
+  "lat": 38.97859,
+  "lon": -76.49184,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Arlington|TX": {
   "lat": 32.73569,
   "lon": -97.10807,
@@ -111,6 +117,12 @@
   "lat": 42.09869,
   "lon": -75.91797,
   "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Birmingham|AL": {
+  "lat": 33.52066,
+  "lon": -86.80249,
+  "tz": "America/Chicago",
   "source": "geonames"
  },
  "Blacksburg|VA": {
@@ -215,6 +227,12 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Carbondale|IL": {
+  "lat": 37.72727,
+  "lon": -89.21675,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Carrollton|GA": {
   "lat": 33.58011,
   "lon": -85.07661,
@@ -239,9 +257,21 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Charleston|SC": {
+  "lat": 32.77632,
+  "lon": -79.93275,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Charlotte|NC": {
   "lat": 35.22709,
   "lon": -80.84313,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Chestnut Hill|MA": {
+  "lat": 42.33065,
+  "lon": -71.16616,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -347,6 +377,12 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Davidson|NC": {
+  "lat": 35.50233,
+  "lon": -80.83912,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Davis|CA": {
   "lat": 38.54491,
   "lon": -121.74052,
@@ -377,10 +413,22 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Denton|TX": {
+  "lat": 33.21484,
+  "lon": -97.13307,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Denver|CO": {
   "lat": 39.73915,
   "lon": -104.9847,
   "tz": "America/Denver",
+  "source": "geonames"
+ },
+ "Des Moines|IA": {
+  "lat": 41.60054,
+  "lon": -93.60911,
+  "tz": "America/Chicago",
   "source": "geonames"
  },
  "Detroit|MI": {
@@ -429,6 +477,12 @@
   "lat": 39.70454,
   "lon": -77.32693,
   "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Eugene|OR": {
+  "lat": 44.05207,
+  "lon": -123.08675,
+  "tz": "America/Los_Angeles",
   "source": "geonames"
  },
  "Evansville|IN": {
@@ -533,6 +587,18 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Greenville|NC": {
+  "lat": 35.61266,
+  "lon": -77.36635,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Greenville|SC": {
+  "lat": 34.85262,
+  "lon": -82.39401,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Hamden|CT": {
   "lat": 41.39593,
   "lon": -72.89677,
@@ -569,6 +635,18 @@
   "tz": "America/Los_Angeles",
   "source": "geonames"
  },
+ "Hershey|PA": {
+  "lat": 40.28592,
+  "lon": -76.65025,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "High Point|NC": {
+  "lat": 35.95569,
+  "lon": -80.00532,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "Highland Heights|KY": {
   "lat": 39.03312,
   "lon": -84.45189,
@@ -603,6 +681,12 @@
   "lat": 34.7304,
   "lon": -86.58594,
   "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Idaho Falls|ID": {
+  "lat": 43.46658,
+  "lon": -112.03414,
+  "tz": "America/Boise",
   "source": "geonames"
  },
  "Indianapolis|IN": {
@@ -713,6 +797,12 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Lawrence|KS": {
+  "lat": 38.97167,
+  "lon": -95.23525,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Lewisburg|PA": {
   "lat": 40.96453,
   "lon": -76.88441,
@@ -764,6 +854,12 @@
  "Lowell|MA": {
   "lat": 42.63342,
   "lon": -71.31617,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Lynchburg|VA": {
+  "lat": 37.41375,
+  "lon": -79.14225,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -863,11 +959,29 @@
   "tz": "America/Indiana/Indianapolis",
   "source": "geonames"
  },
+ "Murfreesboro|TN": {
+  "lat": 35.84562,
+  "lon": -86.39027,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "Murray|KY": {
+  "lat": 36.61033,
+  "lon": -88.31476,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Nashville|TN": {
   "lat": 36.16589,
   "lon": -86.78444,
   "tz": "America/Chicago",
   "source": "geonames"
+ },
+ "Nassau|Bahamas": {
+  "lat": 25.048,
+  "lon": -77.3554,
+  "tz": "America/Nassau",
+  "source": "override"
  },
  "Natchitoches|LA": {
   "lat": 31.76072,
@@ -1055,6 +1169,12 @@
   "tz": "America/Denver",
   "source": "geonames"
  },
+ "Pullman|WA": {
+  "lat": 46.73127,
+  "lon": -117.17962,
+  "tz": "America/Los_Angeles",
+  "source": "geonames"
+ },
  "Queens|NY": {
   "lat": 40.68149,
   "lon": -73.83652,
@@ -1070,6 +1190,12 @@
  "Richmond|KY": {
   "lat": 37.74786,
   "lon": -84.29465,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "Richmond|VA": {
+  "lat": 37.55376,
+  "lon": -77.46026,
   "tz": "America/New_York",
   "source": "geonames"
  },
@@ -1205,6 +1331,12 @@
   "tz": "America/Indiana/Indianapolis",
   "source": "geonames"
  },
+ "Southaven|MS": {
+  "lat": 34.98898,
+  "lon": -90.01259,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "Spartanburg|SC": {
   "lat": 34.94957,
   "lon": -81.93205,
@@ -1217,10 +1349,22 @@
   "tz": "America/New_York",
   "source": "geonames"
  },
+ "Springfield|MO": {
+  "lat": 37.21533,
+  "lon": -93.29824,
+  "tz": "America/Chicago",
+  "source": "geonames"
+ },
  "St. Louis|MO": {
   "lat": 38.62727,
   "lon": -90.19789,
   "tz": "America/Chicago",
+  "source": "geonames"
+ },
+ "St. Petersburg|FL": {
+  "lat": 27.77086,
+  "lon": -82.67927,
+  "tz": "America/New_York",
   "source": "geonames"
  },
  "Stanford|CA": {
@@ -1263,6 +1407,12 @@
   "lat": 37.9577,
   "lon": -121.29078,
   "tz": "America/Los_Angeles",
+  "source": "geonames"
+ },
+ "Stony Brook|NY": {
+  "lat": 40.92565,
+  "lon": -73.14094,
+  "tz": "America/New_York",
   "source": "geonames"
  },
  "Storrs|CT": {
@@ -1337,6 +1487,12 @@
   "tz": "America/Chicago",
   "source": "geonames"
  },
+ "Uncasville|CT": {
+  "lat": 41.43454,
+  "lon": -72.1098,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
  "University Park|PA": {
   "lat": 40.8122,
   "lon": -77.8561,
@@ -1382,6 +1538,12 @@
  "West Point|NY": {
   "lat": 41.39148,
   "lon": -73.95597,
+  "tz": "America/New_York",
+  "source": "geonames"
+ },
+ "White Sulphur Springs|WV": {
+  "lat": 37.79651,
+  "lon": -80.29757,
   "tz": "America/New_York",
   "source": "geonames"
  },
