@@ -1388,7 +1388,7 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 32,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1396,13 +1396,13 @@
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": 38,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:34 - 2nd"
   },
   {
    "game_id": "401920372",
@@ -1432,7 +1432,7 @@
     "key": null,
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -1440,13 +1440,13 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:55 - 1st"
   },
   {
    "game_id": "401920345",
@@ -9790,5 +9790,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T03:02:06+00:00"
+ "live_at": "2026-11-14T03:17:23+00:00"
 }

@@ -1813,21 +1813,21 @@
     "key": null,
     "name": "TCU Horned Frogs",
     "abbr": "TCU",
-    "score": 73,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "270",
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 61,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:40 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926117",
@@ -10462,5 +10462,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T03:01:06+00:00"
+ "live_at": "2026-11-14T03:16:06+00:00"
 }
