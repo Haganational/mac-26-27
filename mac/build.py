@@ -15,6 +15,7 @@ from . import weekly, highlights, hub, nba_alumni, power, prep, preview_story, a
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
+from . import anchors
 from .rosters import load_boxscores
 
 
@@ -367,6 +368,7 @@ def render_site() -> str:
                        leagues=league_links(), site_up="../" * LEAGUE.path.count("/"), home=HOME, home_path=HOME_PATH)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "teams").mkdir(exist_ok=True)
+    env.globals["courtside"] = anchors.refresh(now)  # Courtside: tonight's anchor thread, on its game page
 
     flavor = gamer.load_flavor()
     on = str(data.get("generated_at") or "")[:10]
@@ -591,6 +593,8 @@ def render_site() -> str:
     static = TEMPLATES_DIR / "static"
     if static.exists():
         shutil.copytree(static, SITE_DIR / "static", dirs_exist_ok=True)
+    if not LEAGUE.path:  # the Courtside page and its review desk live once, at the site root
+        anchors.render_pages(env, SITE_DIR, data)
     finish_site(games, have_box, profiles, standings, m)
     return str(SITE_DIR / HOME)
 
@@ -764,7 +768,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
         rel = f.relative_to(SITE_DIR).as_posix()
         html, found = site_chrome.anchor_sections(f.read_text())
         f.write_text(html)
-        if rel != "desk.html":
+        if rel not in ("desk.html", "courtside-desk.html"):
             sections[rel] = found
 
     coaches = {t.key: (players.team_context(t.key).get("coach") or {}).get("name") or "" for t in TEAMS}
@@ -787,7 +791,7 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
             if SITE_DIR / root_page not in pages:
                 pages.append(SITE_DIR / root_page)
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
-        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"
+        f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name not in ("desk.html", "courtside-desk.html")
         and not (f.parent.name == "games" and f.stem in CANON)))
 
     if not site_chrome.pillow_ok():

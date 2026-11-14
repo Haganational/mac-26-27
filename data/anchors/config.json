@@ -1,0 +1,14 @@
+{
+  "_help": "Courtside settings. auto_publish_from: null means Matthew approves every anchor take on courtside-desk.html; a date (YYYY-MM-DD) lets drafts from that night on publish without review (held ones stay down). comments.provider: blank for no reader comments, or giscus (repo, repo_id, category, category_id from giscus.app) or cusdis (app_id, host). enabled: false turns Courtside off everywhere.",
+  "enabled": true,
+  "auto_publish_from": null,
+  "editor_name": "Matthew",
+  "editor_title": "Editor",
+  "comments": {
+    "provider": "giscus",
+    "repo": "Haganational/mac-26-27",
+    "repo_id": "R_kgDOVmr7RA",
+    "category": "Courtside",
+    "category_id": ""
+  }
+}
