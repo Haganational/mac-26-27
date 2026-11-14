@@ -1,5 +1,5 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
-    Conferences sit behind one menu so the bar stays four items long at 6 editions or 27.
+    Conferences sit behind one menu so the bar stays five items long at 6 editions or 27.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
 {% macro hub_bar(eds, active="", socials=False) -%}
 <header class="bar"><div class="bar-in">
@@ -15,6 +15,7 @@
     </details>
     <a href="at-large.html"{% if active == 'at-large.html' %} aria-current="page"{% endif %}>At-Large</a>
     <a href="den.html"{% if active == 'den.html' %} aria-current="page"{% endif %}>The Den</a>
+    <a href="watch.html"{% if active == 'watch.html' %} aria-current="page"{% endif %}>Watch</a>
     <a href="masthead.html"{% if active == 'masthead.html' %} aria-current="page"{% endif %}>About</a>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}

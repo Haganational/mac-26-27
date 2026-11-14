@@ -294,6 +294,11 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         (site_root / "at-large.html").write_text(env.get_template("atlarge.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **al))
+    from . import watch
+    (site_root / "watch.html").write_text(env.get_template("watch.html").render(
+        eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+        today=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
+        built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **watch.page_context(now)))
     media = mh.get("media") or {}
     has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
     mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {
