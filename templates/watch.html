@@ -33,6 +33,9 @@
   .frame::after { content: ""; position: absolute; inset: auto 0 0 0; height: 8px; background: var(--gold); }
   .frame b { display: block; font: 600 clamp(28px, 4vw, 44px)/1 var(--serif); letter-spacing: -.02em; }
   .frame small { display: block; margin-top: 10px; font: 600 13px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: #d9c9a8; }
+  .frame.poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .frame.poster > span { position: relative; z-index: 1; padding: 18px 20px 22px; align-self: end; width: 100%; background: linear-gradient(transparent, rgba(20,12,6,.88) 45%); }
+  .frame.poster b { font-size: clamp(22px, 3vw, 32px); }
   .frame .play { display: inline-grid; place-items: center; width: 62px; height: 62px; border: 2px solid var(--gold); color: var(--gold); margin-bottom: 16px; }
   .frame:hover .play, .frame:focus-visible .play { background: var(--gold); color: var(--hick); }
   .show iframe { width: 100%; border: 0; display: block; background: #000; }
@@ -85,8 +88,9 @@
 
   <div class="shows">
     {% for s in shows %}<div class="show">
-      {% if s.list %}<button class="frame {{ 'tall' if s.key == 'midmaxx60' else 'wide' }}" type="button" data-list="{{ s.list }}" data-title="{{ s.name }}" aria-label="Play the latest {{ s.name }}">
-        <span><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><b>{{ s.name }}</b><small>{{ s.when }} · {{ s.length }}</small></span>
+      {% if s.list %}<button class="frame {{ 'tall' if s.key == 'midmaxx60' else 'wide' }}{{ ' poster' if s.latest }}" type="button" data-list="{{ s.list }}"{% if s.latest %} data-video="{{ s.latest.id }}"{% endif %} data-title="{{ s.name }}" aria-label="Play the latest {{ s.name }}{% if s.latest %}: {{ s.latest.title }}{% endif %}">
+        {% if s.latest %}<img src="https://i.ytimg.com/vi/{{ s.latest.id }}/{{ 'oar2' if s.key == 'midmaxx60' else 'hqdefault' }}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/{{ s.latest.id }}/hqdefault.jpg'}else{this.remove()}">{% endif %}
+        <span><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><b>{{ s.name }}</b><small>{% if s.latest %}Latest · {{ s.latest.published }}{% else %}{{ s.when }} · {{ s.length }}{% endif %}</small></span>
       </button>{% endif %}
       <h3>{{ s.name }}</h3>
       <p>{{ s.what }}</p>
@@ -137,7 +141,7 @@ document.addEventListener('click', function (e) {
   var b = e.target.closest('[data-list]');
   if (!b) return;
   var f = document.createElement('iframe');
-  f.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(b.dataset.list) + '&autoplay=1&playsinline=1&rel=0';
+  f.src = 'https://www.youtube-nocookie.com/embed/' + (b.dataset.video ? encodeURIComponent(b.dataset.video) + '?list=' : 'videoseries?list=') + encodeURIComponent(b.dataset.list) + '&autoplay=1&playsinline=1&rel=0';
   f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
   f.allowFullscreen = true;
   f.title = b.dataset.title + ' on YouTube';

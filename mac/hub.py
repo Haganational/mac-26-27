@@ -113,6 +113,9 @@ def _rel(url: str, base: str) -> str:
     return url[len(base):] if url.startswith(base) else url
 
 
+_CLIP = re.compile(r'<figure class="hl-video">\s*<div class="hl-frame"><iframe src="([^"]+)"')
+
+
 def front_stories(site_root: Path, now: datetime, base: str = SITE_BASE) -> list[dict[str, Any]]:
     """Our own recaps and previews, newest first, across every edition: headline, dek, card image, age.
     Read from each edition's news sitemap (the same list the social poster uses), so only canonical pages."""
@@ -129,10 +132,15 @@ def front_stories(site_root: Path, now: datetime, base: str = SITE_BASE) -> list
             continue
         img = _rel(_meta(it["page"], "og:image"), base)
         key = keys.get(it["league"], "mac")
+        html = it["page"].read_text() if it["page"] and it["page"].exists() else ""
+        clip = _CLIP.search(html)
         out.append({"href": _rel(it["url"], base), "title": it["title"], "kind": it["kind"],
                     "dek": _meta(it["page"], "og:description"),
-                    "video": bool(it["page"] and it["page"].exists() and 'class="hl-video"' in it["page"].read_text()),
+                    "video": 'class="hl-video"' in html,
                     "image": img if img and "/game-" in img else "",
+                    # A real photo (a Fieldhouse Notes picture on the game page) or the ESPN highlight, for the lead.
+                    "photo": img if img and "/game-" not in img and "/static/og/" not in img and not img.startswith("static/og/") else "",
+                    "clip": clip.group(1).replace("&amp;", "&") if clip else "",
                     "league": it["league"], "key": key, "color": CONF_COLORS.get(key, "#a8441c"),
                     "when": when, "age": _age(when, now)})
     out.sort(key=lambda s: s["when"], reverse=True)
@@ -262,7 +270,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
     recaps = [x for x in sts if x["kind"] == "recap"]
-    lead = next((x for x in recaps if x["image"]), recaps[0] if recaps else (sts[0] if sts else None))
+    lead = next((x for x in recaps if x["image"] or x["photo"]), recaps[0] if recaps else (sts[0] if sts else None))
     rest = [x for x in recaps if x is not lead]
     cards = [x for x in rest if x["image"]][:4]
     mh = load_masthead()

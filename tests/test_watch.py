@@ -40,3 +40,16 @@ def test_every_anchor_gets_a_page_with_their_stories(tmp_path):
     assert alumni.stories(key)[0]["name"] in html and anchors.roster()[key]["name"] in html and '<base href="../">' in html
     p = watch.profile(key)
     assert p["rival"]["href"].startswith("anchors/") and p["team_href"].endswith(f"teams/{key}.html")
+
+
+def test_latest_upload_comes_from_the_feed_and_survives_an_outage(tmp_path, monkeypatch):
+    from mac import watch
+    monkeypatch.setattr(watch, "LATEST", tmp_path / "yl.json")
+    xml = ("<feed><entry><id>yt:video:abcDEF12345</id><yt:videoId>abcDEF12345</yt:videoId><yt:channelId>UC1</yt:channelId>"
+           "<title>MidMaxx60 &amp; friends</title><published>2026-11-14T12:00:00+00:00</published></entry></feed>")
+    got = watch.latest(fetch=lambda url: xml)
+    assert got["midmaxx60"] == {"id": "abcDEF12345", "title": "MidMaxx60 & friends", "published": "Sat, Nov 14"}
+
+    def down(url):
+        raise OSError("feed down")
+    assert watch.latest(fetch=down)["midmaxx60"]["id"] == "abcDEF12345"  # last good poster kept

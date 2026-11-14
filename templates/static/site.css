@@ -1315,10 +1315,17 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 @media (max-width: 700px) { .town-notes li:nth-child(n+5) { display: none; } .sc-note p, .town-notes p { font-size: 16px; } }
 
 /* ---------- Top bar, Nov 2026: built to hold 27 conferences.
-   Seven items whatever we cover: the edition (a switcher to every other one), Teams, three
-   reader pages, the Betting desk and More. Editions live in the switcher, never in the bar. */
+   Nine items whatever we cover: the edition (a switcher to every other one), Teams, three
+   reader pages, the Den, Watch, the Betting desk and More. Editions live in the switcher, never in the bar. */
 .tb-nav { flex: 1 1 auto; min-width: 0; }
 .tb-search { margin-left: auto; flex: 0 0 auto; width: 190px; }
+/* With the Den and Watch in the bar (nine items), search folds to its icon and the items close up (the bar is capped at the 1200px page width). */
+@media (min-width: 1081px) {
+  .tb-search { width: 38px; padding: 0; justify-content: center; } .tb-search span, .tb-search kbd { display: none; }
+  .tb-nav > a, .tb-teams > summary { padding-left: 8px; padding-right: 8px; letter-spacing: .07em; }
+  .tb-in { gap: 14px; }
+}
+@media (min-width: 1081px) and (max-width: 1240px) { .tb-btn[data-share] span { display: none; } .tb-nav > a, .tb-teams > summary { padding-left: 6px; padding-right: 6px; font-size: 14px; } }
 .tb-ed > summary { color: var(--gold); padding-right: 16px; margin-right: 8px; position: relative; }
 .tb-ed > summary::before { content: ""; position: absolute; right: 0; top: 18px; bottom: 18px; border-right: 1px solid rgba(255,255,255,.2); }
 .tb-ed.on > summary, .tb-ed > summary:hover { color: var(--gold); }
