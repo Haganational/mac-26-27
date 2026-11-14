@@ -1846,7 +1846,7 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 12,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1854,13 +1854,13 @@
     "key": "iona",
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": 9,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:25 - 1st"
+   "detail": "3:26 - 1st"
   },
   {
    "game_id": "401924796",
@@ -1887,7 +1887,7 @@
     "key": null,
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": 19,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -1895,13 +1895,13 @@
     "key": "marist",
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 12,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:39 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401906772",
@@ -1931,7 +1931,7 @@
     "key": null,
     "name": "Florida Gators",
     "abbr": "FLA",
-    "score": 30,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -1939,13 +1939,13 @@
     "key": "merrimack",
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 23,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920379",
@@ -1975,7 +1975,7 @@
     "key": null,
     "name": "Virginia Tech Hokies",
     "abbr": "VT",
-    "score": 22,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -1983,13 +1983,13 @@
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": 17,
+    "score": 20,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:56 - 1st"
+   "detail": "3:49 - 1st"
   },
   {
    "game_id": "401919782",
@@ -11162,5 +11162,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T00:31:50+00:00"
+ "live_at": "2026-11-14T00:46:42+00:00"
 }
