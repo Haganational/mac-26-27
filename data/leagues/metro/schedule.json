@@ -1975,7 +1975,7 @@
     "key": null,
     "name": "Virginia Tech Hokies",
     "abbr": "VT",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1983,13 +1983,13 @@
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:38 - 1st"
   },
   {
    "game_id": "401919782",
@@ -11161,5 +11161,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-14T00:01:47+00:00"
 }
