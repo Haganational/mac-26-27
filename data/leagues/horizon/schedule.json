@@ -1983,7 +1983,7 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 17,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -1991,13 +1991,13 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 17,
+    "score": 22,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:18 - 1st"
+   "detail": "19:46 - 2nd"
   },
   {
    "game_id": "401928804",
@@ -2024,7 +2024,7 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2032,13 +2032,13 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": null,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:23 - 1st"
   },
   {
    "game_id": "401927387",
@@ -10456,5 +10456,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T21:01:14+00:00"
+ "live_at": "2026-11-14T21:31:09+00:00"
 }
