@@ -1846,21 +1846,21 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 55,
-    "winner": null
+    "score": 62,
+    "winner": true
    },
    "away": {
     "espn_id": "314",
     "key": "iona",
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": 56,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:07 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401924796",
@@ -11162,5 +11162,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T02:16:34+00:00"
+ "live_at": "2026-11-14T02:31:39+00:00"
 }
