@@ -141,3 +141,14 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]
+
+
+def test_two_word_mascots_come_off_school_names():
+    from mac.build import school
+    assert school("Southern Indiana Screaming Eagles") == "Southern Indiana"
+    assert school("Nevada Wolf Pack") == "Nevada"
+    assert school("DePaul Blue Demons") == "DePaul"
+    assert school("UMass Lowell River Hawks") == "UMass Lowell"
+    assert school("Louisiana Ragin' Cajuns") == "Louisiana"
+    assert school("Gardner-Webb Runnin' Bulldogs") == "Gardner-Webb"
+    assert school("Akron Zips") == "Akron"
