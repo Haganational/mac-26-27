@@ -1503,21 +1503,21 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": 82,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "2050",
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 58,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919004",
@@ -9558,5 +9558,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T04:15:22+00:00"
+ "live_at": "2026-11-14T04:30:24+00:00"
 }

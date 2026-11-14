@@ -1432,7 +1432,7 @@
     "key": null,
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 73,
+    "score": 95,
     "winner": null
    },
    "away": {
@@ -1440,13 +1440,13 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 34,
+    "score": 54,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:59 - 2nd"
+   "detail": "12:35 - 2nd"
   },
   {
    "game_id": "401920345",
@@ -1484,10 +1484,10 @@
     "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926777",
@@ -9790,5 +9790,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T04:16:53+00:00"
+ "live_at": "2026-11-14T04:31:46+00:00"
 }
