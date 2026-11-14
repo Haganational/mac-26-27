@@ -6,7 +6,11 @@ dispatch, pick its icon and what it is about, see the preview, and **Save draft*
 draft becomes its own pull request. **Publish** merges it, and the site republishes for
 everyone a few minutes later. The desk talks to GitHub with a fine-grained token that
 stays in your browser only. The **+ Add dispatch** buttons around the site (author mode)
-open the desk with the game, team or player filled in. You can also add a file here by hand:
+open the desk with the game, team or player filled in. On a phone the desk is built
+for filing fast: tap tonight's game, hit **Dictate** and talk ("new paragraph" makes a break),
+**Take photo** or pick from the gallery, **Publish**. Unsent words and photos stay on the phone
+if the signal drops. Add the desk to the home screen from the browser's share menu and it opens
+like an app. You can also add a file here by hand:
 
 ```
 ---

@@ -38,7 +38,28 @@
   .tokenbox ol { margin: 6px 0 6px 18px; padding: 0; font-size: 14px; color: var(--ink-2); }
   .preview-wrap { position: sticky; top: calc(var(--bar-h) + 30px); }
   .hint { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  /* quick filing from a phone: one-tap games, dictation, camera, thumb-reach actions */
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .chips:empty { display: none; }
+  .chips button { font: inherit; font-size: 13.5px; text-transform: none; letter-spacing: 0; width: auto; text-align: left; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+  .chips button.on { border-color: var(--fh); color: var(--fh); font-weight: 700; background: color-mix(in srgb, var(--fh) 10%, transparent); }
+  .bodyhead { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; }
+  .bodyhead .btn { margin-bottom: 4px; }
+  #dictate[aria-pressed=true] { background: var(--fh); border-color: var(--fh); color: #fff; }
+  #heard { min-height: 1.3em; font-style: italic; }
+  .snap { display: flex; flex-wrap: wrap; gap: 8px; }
+  .snap label.btn { margin: 0; text-transform: none; letter-spacing: 0; color: var(--ink); display: inline-flex; align-items: center; gap: 6px; }
+  .snap input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+  .desk details.more { margin-top: 14px; border-top: 1px solid var(--grid); padding-top: 4px; }
+  .desk details.more summary { cursor: pointer; font-size: 13px; color: var(--muted); padding: 8px 0; }
+  @media (max-width: 700px) {
+    .desk textarea { min-height: 200px; }
+    .btn { padding: 11px 16px; font-size: 15px; }
+    .acts { position: sticky; bottom: 0; z-index: 5; margin: 14px -12px 0; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: var(--page); border-top: 1px solid var(--border); }
+    .acts .msg { flex-basis: 100%; }
+  }
 </style>
+<script>try { document.querySelector('link[rel=manifest]').href = 'desk.webmanifest'; } catch (e) {}</script>
 </head>
 <body>
 {{ L.topbar(root="", active="") }}
@@ -70,9 +91,24 @@
         {% for k, v in notes_kinds.items() %}<label class="k-{{ k }}"><input type="radio" name="kind" value="{{ k }}"{% if k == 'arena' %} checked{% endif %}>{{ L.kind_icon(k, 16) }}<span>{{ v[0] }}</span></label>{% endfor %}
       </div>
       <label for="game">Game</label>
+      <div class="chips" id="gamechips"></div>
       <input type="text" id="game" list="games" placeholder="Start typing a team or date (leave blank for none)">
       <datalist id="games">{% for g in games %}<option value="{{ g.label }}"></option>{% endfor %}</datalist>
       <div class="hint" id="gamehint" aria-live="polite"></div>
+      <label for="title">Headline</label>
+      <input type="text" id="title" placeholder="Optional">
+      <div class="bodyhead"><label for="body">Dispatch</label><button class="btn" id="dictate" type="button" aria-pressed="false" hidden>🎙 Dictate</button></div>
+      <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
+      <div class="hint" id="heard" aria-live="polite"></div>
+      <label class="ed-only">Photos</label>
+      <div class="snap ed-only">
+        <label class="btn" for="camera">📷 Take photo</label><input type="file" id="camera" accept="image/*" capture="environment">
+        <label class="btn" for="photos">🖼 From gallery</label><input type="file" id="photos" accept="image/*" multiple>
+      </div>
+      <div id="photolist" class="ed-only"></div>
+      <div class="hint ed-only">Each photo is resized to 1600 px and its location data stripped on your phone before it uploads. Photos you have not published yet are kept on this phone, so a dropped signal or a closed tab does not lose them. Add a caption: who, what, when.</div>
+      <details class="more" id="more">
+        <summary>More: teams, player, byline, date</summary>
       <label>Teams</label>
       <div class="teamchk">{% for t in nav_teams %}<label><input type="checkbox" name="team" value="{{ t.key }}">{{ t.short }}</label>{% endfor %}</div>
       <div class="hint">A game note is filed with both teams automatically.</div>
@@ -82,16 +118,9 @@
       <div class="hint" id="playerhint" aria-live="polite"></div>
       <label for="author">Byline</label>
       <input type="text" id="author" placeholder="Leave blank for your own notes; a contributor's name otherwise">
-      <label for="title">Headline</label>
-      <input type="text" id="title" placeholder="Optional">
       <label for="date">Date</label>
       <input type="date" id="date">
-      <label for="body">Dispatch</label>
-      <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
-      <label for="photos" class="ed-only">Photos</label>
-      <input type="file" id="photos" class="ed-only" accept="image/*" multiple>
-      <div id="photolist" class="ed-only"></div>
-      <div class="hint ed-only">Straight from your phone's gallery. Each photo is resized to 1600 px and its location data stripped on your phone before it uploads. Add a caption: who, what, when.</div>
+      </details>
       <div class="acts">
         <button class="btn go ed-only" id="pubnow" type="button">Publish</button>
         <button class="btn ed-only" id="save" type="button">Save draft</button>
@@ -228,7 +257,7 @@
     editing = null; $('#formtitle').textContent = CONTRIB ? 'New dispatch from ' + CONTRIB : 'New dispatch'; $('#save').textContent = 'Save draft';
     $('#author').value = CONTRIB || '';
     $$('input[name=kind]').forEach(i => i.checked = i.value === 'arena'); $('#game').value = ''; $$('input[name=team]').forEach(i => i.checked = false);
-    $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; photos = []; drawPhotos(); render();
+    $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; photos.forEach(ph => ph.blob && kept.drop(ph.name)); photos = []; drawPhotos(); drawChips(); render();
   }
 
   /* ---------- photos: resized and re-encoded on the device (drops EXIF, including GPS) */
@@ -245,19 +274,37 @@
       <input type="text" data-cap="${i}" value="${esc(ph.caption)}" placeholder="Caption: who, what, when">
       <button class="btn" type="button" data-rm="${i}" title="Remove">✕</button>${ph.blob ? '<small class="dim">not uploaded yet</small>' : ''}</div>`).join('');
   }
-  $('#photos').addEventListener('change', async (e) => {
+  // Photos not uploaded yet are kept on the device (IndexedDB), so a reload or a dead signal does not lose them.
+  const kept = (() => {
+    let db;
+    const open = () => db || (db = new Promise((res, rej) => { const r = indexedDB.open('btb-desk', 1); r.onupgradeneeded = () => r.result.createObjectStore('photos'); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); }));
+    const run = (mode, fn) => Promise.resolve().then(open).then(d => new Promise((res, rej) => { const t = d.transaction('photos', mode), q = fn(t.objectStore('photos')); t.oncomplete = () => res(q.result); t.onerror = () => rej(t.error); })).catch(() => null);
+    return { put: (k, v) => run('readwrite', s => s.put(v, k)), drop: (k) => run('readwrite', s => s.delete(k)), get: (k) => run('readonly', s => s.get(k)) };
+  })();
+  async function restorePhotos() {
+    let found = 0;
+    for (const ph of photos) {
+      if (ph.blob) continue;
+      const blob = await kept.get(ph.name);
+      if (blob) { ph.blob = blob; ph.url = URL.createObjectURL(blob); found++; }
+    }
+    if (found) { drawPhotos(); render(); }
+  }
+  async function addPhotos(e) {
     const files = [...e.target.files]; e.target.value = '';
     for (const file of files) {
       try {
         const blob = await shrink(file);
         const name = `${$('#date').value || today()}-${Math.random().toString(36).slice(2, 8)}.jpg`;
         photos.push({ name, caption: '', blob, url: URL.createObjectURL(blob) });
+        kept.put(name, blob);
       } catch (err) { say('Could not read ' + esc(file.name) + ': ' + esc(err.message), true); }
     }
     drawPhotos(); render();
-  });
+  }
+  $('#photos').addEventListener('change', addPhotos); $('#camera').addEventListener('change', addPhotos);
   $('#photolist').addEventListener('input', (e) => { const i = e.target.dataset.cap; if (i != null) { photos[+i].caption = e.target.value; render(); } });
-  $('#photolist').addEventListener('click', (e) => { const i = e.target.dataset.rm; if (i != null) { photos.splice(+i, 1); drawPhotos(); render(); } });
+  $('#photolist').addEventListener('click', (e) => { const i = e.target.dataset.rm; if (i != null) { kept.drop(photos[+i].name); photos.splice(+i, 1); drawPhotos(); render(); } });
   async function blobB64(blob) {
     const buf = new Uint8Array(await blob.arrayBuffer()); let b = '';
     for (let i = 0; i < buf.length; i += 0x8000) b += String.fromCharCode.apply(null, buf.subarray(i, i + 0x8000));
@@ -269,7 +316,7 @@
       const ph = todo[i];
       say(`Uploading photo ${i + 1} of ${todo.length}…`);
       await gh(`/contents/notes/photos/${ph.name}`, { method: 'PUT', body: JSON.stringify({ message: 'Photo: ' + (ph.caption || ph.name), content: await blobB64(ph.blob), branch }) });
-      ph.blob = null;
+      ph.blob = null; kept.drop(ph.name);
     }
     drawPhotos();
   }
@@ -337,7 +384,7 @@
       }
       ok = true;
       if (!quiet) loadDrafts();
-    } catch (e) { say('Could not save: ' + esc(e.message), true); }
+    } catch (e) { say(navigator.onLine === false || e instanceof TypeError ? 'No signal. Your dispatch and photos are safe on this phone: try again when you have bars.' : 'Could not save: ' + esc(e.message), true); }
     $('#save').disabled = $('#pubnow').disabled = false;
     return ok;
   }
@@ -407,6 +454,56 @@
     loadDrafts();
   });
 
+  /* ---------- one-tap games: yesterday, today and tomorrow, so nobody types a matchup on a phone */
+  function drawChips() {
+    const box = $('#gamechips'); if (!box) return;
+    const day = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; };
+    const near = [[day(0), 'Today'], [day(-1), 'Yesterday'], [day(1), 'Tomorrow']];
+    const cur = $('#game').value;
+    box.innerHTML = near.flatMap(([d, word]) => D.games.filter(g => g.day === d).map(g =>
+      `<button type="button" data-g="${esc(g.id)}"${g.label === cur ? ' class="on"' : ''}>${esc(word)}: ${esc(g.short || g.label)}</button>`)).slice(0, 12).join('');
+  }
+  $('#gamechips').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-g]'); if (!b) return;
+    const g = gameById.get(b.dataset.g); $('#game').value = $('#game').value === g.label ? '' : g.label; drawChips(); render();
+  });
+  $('#game').addEventListener('input', drawChips);
+
+  /* ---------- dictation: the browser's own speech recognition, typed into the dispatch as you talk.
+     "new paragraph" and "new line" do what they say. Where the browser has none, the keyboard's microphone still works. */
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec = null, listening = false;
+  function spoken(t) {
+    t = t.trim().replace(/\s*\bnew paragraph\b[.,]?\s*/gi, '\n\n').replace(/\s*\bnew line\b[.,]?\s*/gi, '\n');
+    if (!t) return;
+    const el = $('#body'), v = el.value, fresh = !v.trim() || /[.!?]\s*$|\n\s*$/.test(v);
+    if (fresh) t = t.replace(/^(\s*)([a-z])/, (m, a, b) => a + b.toUpperCase());
+    el.value = v + (v && !/\s$/.test(v) && !/^\n/.test(t) ? ' ' : '') + t;
+    el.scrollTop = el.scrollHeight; render();
+  }
+  function stopDictation(why) {
+    listening = false; if (rec) { try { rec.stop(); } catch (e) {} }
+    const b = $('#dictate'); b.setAttribute('aria-pressed', 'false'); b.textContent = '🎙 Dictate'; $('#heard').textContent = why || '';
+  }
+  function startDictation() {
+    rec = new SR(); rec.lang = 'en-US'; rec.continuous = true; rec.interimResults = true;
+    rec.onresult = (e) => {
+      let interim = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) { const r = e.results[i]; if (r.isFinal) spoken(r[0].transcript); else interim += r[0].transcript; }
+      $('#heard').textContent = interim ? '… ' + interim : 'Listening. Say "new paragraph" for a break.';
+    };
+    rec.onerror = (e) => {
+      if (e.error === 'not-allowed' || e.error === 'service-not-allowed') stopDictation('The microphone is blocked for this site. Allow it in the browser, or use the microphone on your keyboard.');
+      else if (e.error === 'network') stopDictation('Dictation needs a signal here. The microphone on your keyboard works without one.');
+    };
+    rec.onend = () => { if (listening) { try { rec.start(); } catch (e) { stopDictation(); } } };  // phones stop after a pause: keep going until told to stop
+    listening = true; rec.start();
+    const b = $('#dictate'); b.setAttribute('aria-pressed', 'true'); b.textContent = '■ Stop'; $('#heard').textContent = 'Listening. Say "new paragraph" for a break.';
+  }
+  if (SR) { $('#dictate').hidden = false; $('#dictate').onclick = () => listening ? stopDictation() : startDictation(); }
+  else $('#heard').textContent = 'To dictate, tap the microphone on your keyboard.';
+  window.addEventListener('online', () => { if (/No signal/.test($('#msg').textContent)) say('Back online. Hit Publish again.'); });
+
   /* ---------- contributors: /desk.html?by=Name opens a desk with the byline locked and no GitHub.
      The browser remembers it, so the contributor can bookmark the plain desk afterwards. */
   const q0 = new URLSearchParams(location.search);
@@ -441,12 +538,14 @@
   $$('input[name=kind], input[name=team]').forEach(el => el.addEventListener('change', render));
   $('#save').onclick = () => save(); $('#pubnow').onclick = publishNow; $('#clear').onclick = () => { reset(); say(''); };
   const q = new URLSearchParams(location.search);
+  const keptDraft = store.get('btb-desk-draft');  // read before reset(), which saves the empty form over it
   reset();
   if (q.get('game') && gameById.get(q.get('game'))) $('#game').value = gameById.get(q.get('game')).label;
   if (q.get('team')) $$('input[name=team]').forEach(i => i.checked = i.value === q.get('team'));
   if (q.get('player') && playerById.get(q.get('player'))) $('#player').value = playerById.get(q.get('player')).label;
-  if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(store.get('btb-desk-draft') || 'null'); if (s && s.text && parseFile(s.text).body) fill(s.text); } catch (e) {} }
-  render();
+  if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(keptDraft || 'null'), f = s && s.text && parseFile(s.text); if (f && (f.body || f.meta.photos.length)) { fill(s.text); restorePhotos(); } } catch (e) {} }
+  $('#more').open = window.innerWidth >= 700 || !!($$('input[name=team]:checked').length || $('#player').value || (!CONTRIB && $('#author').value));
+  drawChips(); render();
   if (!CONTRIB) connect().then(async () => {
     const edit = q.get('edit');
     if (!edit || !token) return;

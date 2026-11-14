@@ -432,6 +432,14 @@ def manifest() -> str:
     }, indent=1)
 
 
+def desk_manifest() -> str:
+    """The author desk as its own home-screen app: added from desk.html, it opens straight to a new dispatch."""
+    m = json.loads(manifest())
+    m.update(name=f"{SITE_NAME} desk · {LEAGUE.short}", short_name="HB Desk", id="./desk.html",
+             description="File a Fieldhouse Notes dispatch: dictate it, add photos, publish.", start_url="./desk.html")
+    return json.dumps(m, indent=1)
+
+
 def robots() -> str:
     if SITE_NOINDEX:
         return "User-agent: *\nDisallow: /\n"

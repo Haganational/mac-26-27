@@ -58,3 +58,17 @@ def test_photos_parse_credit_and_copy(tmp_path):
 def test_photo_credit_line_wins(tmp_path):
     _write(tmp_path, "2026-11-08-x.md", "---\nauthor: Pat\ncredit: Sam Lee\nphoto: a.jpg\n---\nBody.")
     assert notes.load(tmp_path)[0]["photos"][0]["credit"] == "Sam Lee"
+
+
+def test_the_desk_installs_as_its_own_home_screen_app():
+    import json
+    from mac import site_chrome
+    m = json.loads(site_chrome.desk_manifest())
+    assert m["start_url"] == "./desk.html" and m["short_name"] == "HB Desk" and m["icons"]
+
+
+def test_the_desk_has_dictation_camera_and_one_tap_games():
+    from mac.config import TEMPLATES_DIR
+    page = (TEMPLATES_DIR / "desk.html").read_text()
+    for needle in ('id="dictate"', 'capture="environment"', 'id="gamechips"', "desk.webmanifest", "indexedDB.open('btb-desk'"):
+        assert needle in page
