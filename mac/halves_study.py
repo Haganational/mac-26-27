@@ -49,6 +49,7 @@ def game_halves(season: int) -> list[dict[str, Any]]:
             "home": str(g.get("homeTeamId")), "away": str(g.get("awayTeamId")),
             "h1": hp[0] - ap[0], "h2": hp[1] - ap[1], "t1": hp[0] + ap[0], "t2": hp[1] + ap[1],
             "ot": len(hp) > 2,
+            "tot_ot": sum(x for x in hp[2:] + ap[2:] if isinstance(x, (int, float))),
             "final": (g.get("homePoints") or sum(hp)) - (g.get("awayPoints") or sum(ap)),
             "exp": -ln["home_spread"] if ln.get("home_spread") is not None else None,
             "exp_total": ln.get("total"),
@@ -177,6 +178,53 @@ def totals_shape(rows: list[dict[str, Any]]) -> dict[str, Any]:
             "avg_second_half_points": round(float(np.mean([r["t2"] for r in reg])), 2) if reg else None}
 
 
+def _ou_rate(rs: list[dict[str, Any]]) -> dict[str, Any]:
+    o = sum(1 for r in rs if r["t1"] + r["t2"] + r.get("tot_ot", 0) > r["exp_total"])
+    u = sum(1 for r in rs if r["t1"] + r["t2"] + r.get("tot_ot", 0) < r["exp_total"])
+    n = o + u
+    return {"over": o, "under": u, "over_pct": round(o / n, 3) if n else None}
+
+
+def overs_unders(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    """Full-game over/under against the closing total, sliced by things known before tip
+    (spread size, total size) and by the first half (known only at halftime)."""
+    lined = [r for r in rows if r["exp_total"] is not None and r["exp"] is not None]
+    fit = [r for r in lined if r["season"] <= SPLIT]
+    chk = [r for r in lined if r["season"] > SPLIT]
+
+    def both(pred):
+        return {"fit": _ou_rate([r for r in fit if pred(r)]), "check": _ou_rate([r for r in chk if pred(r)])}
+
+    out: dict[str, Any] = {"all": both(lambda r: True)}
+    out["by_spread"] = {f"{lo}-{hi}": both(lambda r, lo=lo, hi=hi: lo <= abs(r["exp"]) < hi)
+                        for lo, hi in ((0, 3), (3, 7), (7, 12), (12, 18), (18, 99))}
+    totals = sorted(r["exp_total"] for r in fit)
+    q = [totals[int(len(totals) * f)] for f in (0.2, 0.4, 0.6, 0.8)] if totals else []
+    edges = [0.0] + q + [999.0]
+    out["by_total_quintile"] = {f"{edges[i]:.1f}-{edges[i + 1]:.1f}": both(lambda r, a=edges[i], b=edges[i + 1]: a <= r["exp_total"] < b)
+                                for i in range(len(edges) - 1)}
+    out["november_only"] = both(lambda r: r["date"][5:7] == "11")
+    # Halftime: first-half points vs the share of the total a first half usually gets.
+    share1 = sum(r["t1"] for r in fit) / sum(r["exp_total"] for r in fit) if fit else 0.473
+    out["first_half_share_of_total"] = round(share1, 4)
+    for r in lined:
+        r["_dev1"] = r["t1"] - share1 * r["exp_total"]
+    out["by_first_half_vs_pace"] = {f"{lo}..{hi}": both(lambda r, lo=lo, hi=hi: lo <= r["_dev1"] < hi)
+                                    for lo, hi in ((-99, -10), (-10, -5), (-5, 0), (0, 5), (5, 10), (10, 99))}
+    # Does the second half give back a hot/cold first half? Slope of H2 deviation on H1 deviation.
+    share2 = 1 - share1
+    x = np.array([r["_dev1"] for r in fit])
+    y = np.array([r["t2"] - share2 * r["exp_total"] for r in fit])
+    xc = np.array([r["_dev1"] for r in chk])
+    yc = np.array([r["t2"] - share2 * r["exp_total"] for r in chk])
+    if len(x) > 100 and len(xc) > 100:
+        out["second_half_carryover_slope"] = {"fit": round(float(np.polyfit(x, y, 1)[0]), 3), "check": round(float(np.polyfit(xc, yc, 1)[0]), 3)}
+        out["second_half_bias_vs_share"] = {"fit": round(float(y.mean()), 2), "check": round(float(yc.mean()), 2)}
+    for r in lined:
+        r.pop("_dev1", None)
+    return out
+
+
 def main(lo: int, hi: int) -> dict[str, Any]:
     rows = [r for s in range(lo, hi + 1) for r in game_halves(s)]
     by_season = defaultdict(int)
@@ -192,6 +240,7 @@ def main(lo: int, hi: int) -> dict[str, Any]:
         "second_half_teams_check_seasons_only": second_half_teams([r for r in rows if r["season"] > SPLIT]),
         "halftime_leads": lead_table(rows),
         "totals_shape": totals_shape(rows),
+        "overs_unders": overs_unders(rows),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(result, indent=1))
