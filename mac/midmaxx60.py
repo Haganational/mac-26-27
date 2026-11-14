@@ -92,6 +92,14 @@ def wav_seconds(p: Path) -> float:
 
 
 HOST = "host"
+ANCHOR_TEMPO = 1.08  # anchors read a touch quicker than their auditions (Matthew, Nov 14); pitch is kept
+
+
+def quicken(wav: Path, tempo: float = ANCHOR_TEMPO) -> None:
+    """Speed a cloned anchor line up in place without changing the pitch."""
+    tmp = wav.with_suffix(".fast.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-filter:a", f"atempo={tempo}", str(tmp)], check=True)
+    tmp.replace(wav)
 
 
 def clone_all(texts: list[str], wavs: list[Path], work: Path, refs: list[str | None] | None = None) -> bool:
@@ -250,6 +258,9 @@ def voice_all(segs: list[dict], wavs: list[Path], work: Path) -> dict:
     anchors.dress(segs, desk)
     refs = [HOST if not a else (str(p) if (p := anchors.audition(a["key"])) else None) for a in desk]
     cloned = clone_all([spoken(sg["text"]) for sg in segs], wavs, work, refs)
+    for wav, r in zip(wavs, refs):
+        if r and r != HOST and wav.exists():
+            quicken(wav)
     for sg, wav, a in zip(segs, wavs, desk):
         sg["anchor"] = a
         speak(spoken(sg["text"]), wav, a["voice"] if a else None, a["pace"] if a else None)
