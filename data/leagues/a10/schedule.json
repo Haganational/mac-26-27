@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:04:40+00:00",
+ "fetched_at": "2026-11-14T20:17:23+00:00",
  "season": 2027,
  "games": [
   {
@@ -1927,8 +1927,8 @@
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 60,
-    "winner": null
+    "score": 62,
+    "winner": true
    },
    "away": {
     "espn_id": "2244",
@@ -1936,12 +1936,12 @@
     "name": "George Mason Patriots",
     "abbr": "GMU",
     "score": 61,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911231",
@@ -1971,7 +1971,7 @@
     "key": null,
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 40,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1979,13 +1979,13 @@
     "key": "loyola-chicago",
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": 56,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:00 - 2nd"
+   "detail": "7:48 - 2nd"
   },
   {
    "game_id": "401911264",
@@ -2142,7 +2142,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-womens-basketball-tickets-university-of-dayton-arena-11-14-2026--sports-ncaa-womens-basketball/production/7111404?wsUser=717",
-    "low": 33.0
+    "low": 29.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -2496,7 +2496,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-11-17-2026--sports-ncaa-basketball/production/7413755?wsUser=717",
-    "low": 12.0
+    "low": 11.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -11193,7 +11193,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-6-2026--sports-ncaa-basketball/production/7188104?wsUser=717",
-    "low": 14.0
+    "low": 15.0
    },
    "venue": "Chaifetz Arena",
    "venue_city": "St. Louis",
@@ -12622,6 +12622,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T20:02:54+00:00"
+ ]
 }

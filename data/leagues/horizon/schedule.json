@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:02:06+00:00",
+ "fetched_at": "2026-11-14T20:14:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -1895,7 +1895,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 67,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1903,13 +1903,13 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": 63,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:47 - 2nd"
+   "detail": "0:08 - 2nd"
   },
   {
    "game_id": "401920915",
@@ -1939,7 +1939,7 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 31,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1947,13 +1947,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 27,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "17:04 - 2nd"
   },
   {
    "game_id": "401911016",
@@ -2058,7 +2058,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 33.0
+    "low": 35.0
    },
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
@@ -2272,7 +2272,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-11-17-2026--sports-ncaa-basketball/production/7339600?wsUser=717",
-    "low": 8.0
+    "low": 9.0
    },
    "venue": "Cintas Center",
    "venue_city": "Cincinnati",
@@ -2756,7 +2756,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 36.0
+    "low": 37.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -2844,7 +2844,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-21-2026--sports-ncaa-basketball/production/7603560?wsUser=717",
-    "low": 27.0
+    "low": 29.0
    },
    "venue": "Breslin Center",
    "venue_city": "East Lansing",
@@ -10455,6 +10455,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T20:01:14+00:00"
+ ]
 }

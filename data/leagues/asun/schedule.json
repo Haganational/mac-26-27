@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:01:46+00:00",
+ "fetched_at": "2026-11-14T20:14:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -1301,7 +1301,7 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 31,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1309,13 +1309,13 @@
     "key": null,
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 27,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "17:04 - 2nd"
   },
   {
    "game_id": "401922220",
@@ -1342,7 +1342,7 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 35,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1350,13 +1350,13 @@
     "key": null,
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": 29,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "19:26 - 2nd"
   },
   {
    "game_id": "401922230",
@@ -1374,10 +1374,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-11-14-2026--sports-ncaa-basketball/production/7596368?wsUser=717",
-    "low": 48.0
-   },
+   "tickets": null,
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
    "venue_state": "NC",
@@ -1505,7 +1502,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-11-16-2026--sports-ncaa-basketball/production/7402689?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "Stegeman Coliseum",
    "venue_city": "Athens",
@@ -1590,7 +1587,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-17-2026/production/7094384?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -8074,6 +8071,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-14T20:01:00+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:02:39+00:00",
+ "fetched_at": "2026-11-14T20:15:20+00:00",
  "season": 2027,
  "games": [
   {
@@ -1353,10 +1353,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:35 - 1st"
   },
   {
    "game_id": "401917529",
@@ -1567,6 +1567,47 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401934396",
+   "date": "2026-11-15T21:00Z",
+   "name": "Air Force Falcons at Pacific Tigers",
+   "short_name": "AF @ PAC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Alex G. Spanos Center",
+   "venue_city": "Stockton",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "279",
+    "key": null,
+    "name": "Pacific Tigers",
+    "abbr": "PAC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2005",
+    "key": "air-force",
+    "name": "Air Force Falcons",
+    "abbr": "AF",
     "score": null,
     "winner": null
    },
@@ -6844,7 +6885,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-1-30-2027--sports-ncaa-basketball/production/7699993?wsUser=717",
-    "low": 33.0
+    "low": 32.0
    },
    "venue": "Arena-Auditorium",
    "venue_city": "Laramie",
