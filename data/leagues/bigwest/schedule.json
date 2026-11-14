@@ -1388,7 +1388,7 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 51,
+    "score": 63,
     "winner": null
    },
    "away": {
@@ -1396,13 +1396,13 @@
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": 55,
+    "score": 67,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:43 - 2nd"
+   "detail": "3:42 - 2nd"
   },
   {
    "game_id": "401920372",
@@ -1432,7 +1432,7 @@
     "key": null,
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 35,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -1440,13 +1440,13 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 16,
+    "score": 24,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:34 - 1st"
+   "detail": "7:44 - 1st"
   },
   {
    "game_id": "401920345",
@@ -1473,7 +1473,7 @@
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1481,13 +1481,13 @@
     "key": null,
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:32 - 1st"
   },
   {
    "game_id": "401926777",
@@ -9790,5 +9790,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T03:32:20+00:00"
+ "live_at": "2026-11-14T03:46:44+00:00"
 }
