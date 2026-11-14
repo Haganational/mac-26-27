@@ -180,6 +180,7 @@ jobs:
         continue-on-error: true
         run: |
           if [ "$(date -u +%H)" = "12" ] || [ ! -f data/atlarge/net.json ]; then python -m mac.atlarge net; fi
+          python -m mac.atlarge snap  # one copy of the watch a week, so The Big Mid's Bubble Watch can say who moved
       - name: All-conference front page (hardwoodbricks.com/)
         # After the editions, so the hub shows every conference's latest games.
         continue-on-error: true

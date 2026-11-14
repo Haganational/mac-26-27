@@ -28,7 +28,7 @@ ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10"]  # th
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
-DROP_FIRST = ("star", "next", "offcourt", "pickem")  # what goes first, from the last edition back, when the show runs long
+DROP_FIRST = ("star", "next", "offcourt", "pickem", "bubble")  # what goes first, from the last edition back, when the show runs long
 WATCH_TOP = 6
 OFF_COURT = 2  # alumni stories per episode
 SAID = {"horizon": "Horizon League", "a10": "Atlantic Ten"}  # how an edition's name is read aloud, where the short name doesn't work
@@ -141,6 +141,23 @@ def _leaders_line(e: dict) -> str:
     return f"{'Atop the league standings' if conf else 'Best records so far'}: {_list(top)}."
 
 
+ZONE_SAID = {"in": "into the picture", "bubble": "onto the bubble", "fringe": "to the fringe", "auto": "out of the at-large picture"}
+
+
+def atlarge_movers(watch: list[dict], day: str) -> list[dict]:
+    from . import atlarge
+    return atlarge.movers(watch, day)
+
+
+def _moved(m: dict) -> str:
+    """One mover as a sentence: the zone change when there is one, otherwise the spots."""
+    n = abs(m["delta"])
+    spots = f"{n} spot{'' if n == 1 else 's'}"
+    if m["zone"] != m["was_zone"]:
+        return f"{m['short']} moves {ZONE_SAID[m['zone']]}, now number {m['rank']} on our watch."
+    return f"{m['short']} {'climbs' if m['delta'] > 0 else 'slips'} {spots} to number {m['rank']}."
+
+
 def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict[str, Any]:
     """The show as segments, one card each: intro, then each edition's block, the At-Large Watch, outro."""
     from . import alumni, anchors, leagues, pickem
@@ -184,6 +201,9 @@ def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict
         names = [f"{r['short']} of the {r['conf_short']}" for r in rows[:4]]
         segs.append({"kind": "atlarge", "rows": rows,
                      "text": f"The At-Large Watch, our read on who could earn a bid without the auto bid: {_list(names)} lead the line."})
+    moved = atlarge_movers(watch, day) if watch else []
+    if moved:
+        segs.append({"kind": "bubble", "rows": moved, "text": "Bubble Watch. " + " ".join(_moved(m) for m in moved[:3])})
     segs.append({"kind": "outro", "text": "That's The Big Mid. MidMaxx60 runs every morning, and every line, box score and rating "
                  "is at Hardwood Bricks dot com. Keep it mid. Keep it real."})
     return {"date_iso": now.date().isoformat(), "span": span, "segments": segs,

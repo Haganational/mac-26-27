@@ -129,6 +129,9 @@
       {% if c.total %}<div class="stat"><small>Total</small><b>{{ '%g'|format(c.total) }}</b></div>{% endif %}
       {% if c.model %}<div class="stat model"><small>Our model</small><b>{{ c.home.abbr if c.model < 0 else c.away.abbr }} −{{ '%.1f'|format(c.model|abs) }}</b></div>{% endif %}
     </div>{% endif %}
+  {% elif seg.kind == 'bubble' %}
+    <div class="label">Bubble Watch <span>· who moved since last week</span></div>
+    <div class="watch" style="grid-template-columns:1fr">{% for r in seg.rows %}<div style="--tc:{{ r.color }}"><i>{{ r.rank }}</i>{{ r.short }}<span>{{ '▲' if r.delta > 0 else '▼' }} {{ r.delta|abs }} · was {{ r.was }} · {{ r.conf_short }}</span></div>{% endfor %}</div>
   {% elif seg.kind == 'atlarge' %}
     <div class="label">The At-Large Watch <span>· who could get in without the auto bid</span></div>
     <div class="watch">{% for r in seg.rows %}<div style="--tc:{{ r.color }}"><i>{{ r.rank }}</i>{{ r.short }}<span>{{ r.conf_short }} · {{ r.zone }}</span></div>{% endfor %}</div>

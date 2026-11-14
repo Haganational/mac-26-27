@@ -71,3 +71,31 @@ def test_page_renders(tmp_path):
     html = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True).get_template("atlarge.html").render(
         eds=[], names="x", base="https://x.com/", season="2026-27", noindex=False, built="now", **ctx)
     assert "Watch rank = <b>S</b> − 10 × <b>C</b>" in html and "Miami (OH)" in html and "Iona" in html
+
+
+def _row(key, rank, zone, games=5):
+    return {"key": key, "short": key.title(), "conf_short": "MAC", "color": "#123", "rank": rank, "zone": zone, "games": games}
+
+
+def test_weekly_copy_is_kept_once_and_named_for_its_monday(tmp_path):
+    rows = [_row("akron", 12, "in"), _row("ohio", 40, "bubble"), _row("idle", 90, "auto", games=0)]
+    p = A.snapshot("2026-11-18", tmp_path, rows)
+    assert p.name == "2026-11-16.json" and A.snapshot("2026-11-19", tmp_path, [_row("akron", 1, "in")]) is None
+    assert set(__import__("json").loads(p.read_text())["rows"]) == {"akron", "ohio"}
+
+
+def test_bubble_watch_needs_an_older_copy_and_a_real_move(tmp_path):
+    then = [_row("akron", 12, "in"), _row("ohio", 40, "bubble"), _row("toledo", 60, "fringe"), _row("kent", 120, "auto"), _row("buffalo", 50, "bubble")]
+    A.snapshot("2026-11-16", tmp_path, then)
+    now = [_row("akron", 13, "in"), _row("ohio", 28, "in"), _row("toledo", 66, "fringe"), _row("kent", 100, "auto"), _row("buffalo", 51, "bubble")]
+    assert A.movers(now, "2026-11-18", tmp_path) == []  # the copy is two days old: not a week's move yet
+    got = A.movers(now, "2026-11-23", tmp_path)
+    assert [m["key"] for m in got] == ["ohio", "toledo"]  # the zone change first, then six spots; one spot and auto-to-auto stay out
+    assert got[0]["delta"] == 12 and got[0]["was_zone"] == "bubble" and got[1]["delta"] == -6
+
+
+def test_bubble_watch_reads_like_a_sentence():
+    from mac import bigmid
+    assert bigmid._moved({"short": "Ohio", "delta": 12, "rank": 28, "zone": "in", "was_zone": "bubble"}) == "Ohio moves into the picture, now number 28 on our watch."
+    assert bigmid._moved({"short": "Toledo", "delta": -6, "rank": 66, "zone": "fringe", "was_zone": "fringe"}) == "Toledo slips 6 spots to number 66."
+    assert "bubble" in bigmid.DROP_FIRST
