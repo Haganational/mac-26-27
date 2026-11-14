@@ -1983,21 +1983,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 39,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
    "away": {
     "espn_id": "2117",
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 44,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928804",
@@ -2024,7 +2024,7 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 40,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2032,13 +2032,13 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 42,
+    "score": 71,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "6:56 - 2nd"
   },
   {
    "game_id": "401927387",
@@ -2068,7 +2068,7 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2076,13 +2076,13 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:32 - 1st"
   },
   {
    "game_id": "401920961",
@@ -10456,5 +10456,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T22:01:07+00:00"
+ "live_at": "2026-11-14T22:31:13+00:00"
 }

@@ -1626,21 +1626,21 @@
     "key": null,
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 38,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
    "away": {
     "espn_id": "2117",
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 44,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:44 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928804",
@@ -1667,7 +1667,7 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 40,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -1675,13 +1675,13 @@
     "key": "toledo",
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 42,
+    "score": 71,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:50 - 2nd"
   },
   {
    "game_id": "401923393",
@@ -9549,5 +9549,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T22:00:30+00:00"
+ "live_at": "2026-11-14T22:30:28+00:00"
 }
