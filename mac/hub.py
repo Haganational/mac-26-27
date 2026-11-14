@@ -299,6 +299,8 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         today=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
         built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **watch.page_context(now)))
+    watch.build_profiles(env, site_root, eds=eds, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+                         built=datetime.now(timezone.utc).isoformat(timespec="minutes"))
     media = mh.get("media") or {}
     has_notes = {lg.key for lg in LEAGUES.values() if lg.has("notes")}
     mld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base), {

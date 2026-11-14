@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>{{ a.name }}, {{ a.school }} desk · Hardwood Bricks</title>
+<meta name="description" content="{{ a.name }} is the Hardwood Bricks AI anchor for {{ a.school }}: their voice on MidMaxx60, their rival across the desk, and the alumni stories they tell.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}anchors/{{ a.key }}.html">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="{{ a.name }}, the {{ a.school }} desk">
+<meta property="og:url" content="{{ base }}anchors/{{ a.key }}.html">
+<meta property="og:image" content="{{ base }}{{ a.portrait or 'static/og/site.png' }}">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .ap { max-width: 980px; }
+  .back { display: inline-block; margin-top: 18px; font: 600 12.5px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  .back:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .top { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 32px; margin-top: 14px; align-items: end; border-bottom: 3px solid var(--rule-2); }
+  .pic { background: {{ a.color }}; color: {{ a.ink }}; aspect-ratio: 4 / 5; display: grid; place-items: center; font: 600 72px/1 var(--serif); overflow: hidden; }
+  .pic img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .id { padding-bottom: 22px; }
+  .k { font: 600 12.5px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .id h1 { font: 600 clamp(36px, 5.6vw, 62px)/1.02 var(--serif); letter-spacing: -.025em; margin: 8px 0 12px; }
+  .catch { font: italic 400 clamp(20px, 2.6vw, 26px)/1.35 var(--serif); color: var(--ink-2); margin: 0; padding-left: 14px; border-left: 4px solid {{ a.color }}; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 16px; font: 600 12.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; }
+  .links a { color: var(--accent); } .links a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .ap section { border-top: 1px solid var(--rule); padding-top: 14px; margin: 30px 0 0; }
+  .ap section:first-of-type { border-top: 0; }
+  .ap h2 { font: 600 26px/1.1 var(--serif); letter-spacing: -.01em; margin: 0 0 8px; }
+  .ap section > p { font: 400 17px/1.55 var(--serif); color: var(--ink-2); max-width: 66ch; margin: 0 0 8px; }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 28px; }
+  .facts div { border-top: 1px solid var(--rule); padding: 12px 0; }
+  .facts div b { display: block; font: 600 19px/1.25 var(--serif); margin-top: 4px; }
+  audio { width: 100%; max-width: 420px; margin-top: 6px; }
+  .rv { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; align-items: center; margin-top: 8px; }
+  .rv span.f { width: 64px; height: 64px; background: var(--c); color: var(--i); display: grid; place-items: center; overflow: hidden; font: 600 22px/1 var(--serif); }
+  .rv img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .rv b { display: block; font: 600 19px/1.2 var(--serif); } .rv:hover b { text-decoration: underline; text-underline-offset: 3px; }
+  .st { list-style: none; margin: 10px 0 0; padding: 0; }
+  .st li { border-top: 1px solid var(--rule); padding: 14px 0; }
+  .st b { font: 600 19px/1.2 var(--serif); } .st .k { margin-left: 8px; }
+  .st p { margin: 6px 0 4px; font: 400 17px/1.5 var(--serif); max-width: 68ch; }
+  .st a { font: 600 12px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .note { margin-top: 26px; font-size: 14px; color: var(--muted); max-width: 70ch; }
+  @media (max-width: 640px) { .top { grid-template-columns: minmax(0, 1fr); gap: 16px; } .pic { max-width: 240px; } }
+</style>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "watch.html") }}
+<div class="bricks" aria-hidden="true"></div>
+<main class="ap">
+  <a class="back" href="watch.html">← The desk</a>
+  <div class="top">
+    <div class="pic">{% if a.portrait %}<img src="{{ a.portrait }}" alt="{{ a.alt }}">{% else %}{{ a.initials }}{% endif %}</div>
+    <div class="id">
+      <span class="k">{{ a.school }} desk · {{ a.conf }} · AI anchor</span>
+      <h1>{{ a.name }}</h1>
+      {% if a.catch %}<p class="catch">{{ a.catch }}</p>{% endif %}
+      <div class="links">{% if a.team_href %}<a href="{{ a.team_href }}">{{ a.school }} team page →</a>{% endif %}<a href="den.html">Tonight at the Den →</a></div>
+    </div>
+  </div>
+
+  <section aria-label="On air">
+    <div class="facts">
+      {% if a.signoff %}<div><span class="k">Signs off with</span><b>{{ a.signoff }}</b></div>{% endif %}
+      {% if a.homer %}<div><span class="k">Homer ledger</span><b>{{ a.school }} is {{ a.homer.wins }}-{{ a.homer.games - a.homer.wins }} when picked</b></div>{% endif %}
+      {% if a.rival %}<div><span class="k">Rival across the desk</span><a class="rv" href="{{ a.rival.href }}"><span class="f" style="--c:{{ a.rival.color }};--i:{{ a.rival.ink }}">{% if a.rival.portrait %}<img src="{{ a.rival.portrait }}" alt="{{ a.rival.alt }}" loading="lazy">{% else %}{{ a.rival.initials }}{% endif %}</span><span><b>{{ a.rival.name }}</b><span class="k">{{ a.rival.school }}</span></span></a></div>{% endif %}
+    </div>
+    {% if a.audio %}<div style="margin-top:14px"><span class="k">Hear the audition</span><br><audio controls preload="none" src="{{ a.audio }}"></audio></div>{% endif %}
+  </section>
+
+  {% if a.stories %}<section aria-labelledby="h-st">
+    <h2 id="h-st">Off the Court</h2>
+    <p>{{ a.school }} alumni, as {{ a.name }} tells it on the shows. Each story was checked against its source.</p>
+    <ul class="st">{% for s in a.stories %}<li><b>{{ s.name }}</b>{% if s.known_for %}<span class="k">{{ s.known_for }}</span>{% endif %}<p>{{ s.line }}</p><a href="{{ s.source }}" rel="noopener">Source</a></li>{% endfor %}</ul>
+  </section>{% endif %}
+
+  <p class="note">{{ disclosure }}</p>
+</main>
+<footer><a href="./">All conferences</a> · <a href="watch.html">Watch</a> · <a href="masthead.html">Masthead and standards</a> · Built {{ built }} UTC.</footer>
+</body>
+</html>

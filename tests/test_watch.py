@@ -28,3 +28,15 @@ def test_page_renders_with_and_without_a_desk_tonight():
     for tonight in (ctx["tonight"], None):
         html = tpl.render(eds=[], names="MAC", base="https://x/", season="2026-27", noindex=True, today="Saturday", built="now", **{**ctx, "tonight": tonight})
         assert "The Big Mid" in html and "AI personas" in html and html.count('class="an"') == len(anchors.roster())
+
+
+def test_every_anchor_gets_a_page_with_their_stories(tmp_path):
+    from mac import alumni
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+    n = watch.build_profiles(env, tmp_path, eds=[], base="https://x/", season="2026-27", noindex=True, built="now")
+    assert n == len(anchors.roster())
+    key = next(k for k in anchors.roster() if alumni.stories(k))
+    html = (tmp_path / "anchors" / f"{key}.html").read_text()
+    assert alumni.stories(key)[0]["name"] in html and anchors.roster()[key]["name"] in html and '<base href="../">' in html
+    p = watch.profile(key)
+    assert p["rival"]["href"].startswith("anchors/") and p["team_href"].endswith(f"teams/{key}.html")
