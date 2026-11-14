@@ -102,6 +102,10 @@ def dress(segs: list[dict], desk: list[dict | None]) -> None:
         loser = next((s for s in (card.get("away") or {}, card.get("home") or {}) if s.get("mac") and s.get("winner") is False), None)
         if sg.get("kind") == "result" and loser and loser.get("key") == c.get("rival") and roster().get(c["rival"]):
             text = f"{text} {first_name(roster()[c['rival']]['name'])}, that one's for you."
+        # Rivalry Desk: a preview or "circle it" where the anchor's school meets its rival gets a word across the desk.
+        sides = {s.get("key") for s in (card.get("away") or {}, card.get("home") or {})}
+        if sg.get("kind") in ("preview", "next") and c.get("rival") in sides and a["key"] in sides and roster().get(c["rival"]):
+            text = f"{text} Rivalry Desk: {first_name(roster()[c['rival']]['name'])}, bring your best."
         if sg.get("kind") == "result":
             text = f"{text} {mood(card, a['key'])}".rstrip()
         if i == last:
