@@ -54,7 +54,7 @@ class Params:
     cap: float = 45.0  # efficiency margin (per 100, ~30 pts) beyond which a margin is shrunk
     cap_slope: float = 0.7  # share of the margin past the cap that still counts
     prior_games: float = 2.0  # weight of the preseason prior, in games
-    regress: float = 0.2  # share of last season's rating discarded toward average
+    regress: float = 0.1  # share of last season's rating discarded toward average (0.2 before v1.1, Nov 2026: 0.1 fit better on 2025-26 and held on 2026-27)
     tempo_prior_games: float = 3.0
     tempo_regress: float = 0.25
     sigma_margin: float = 12.0  # std dev of the actual margin around the projection (backtest: 11.3 Jan on, 15 in Nov)
@@ -62,6 +62,11 @@ class Params:
     min_weight: float = 0.05  # floor on recency weight, so old games never vanish
     non_d1_weight: float = 0.5  # games against non-D-I opponents count this much
     hca_prior_games: float = 3000.0  # home edge is carried over from last season this firmly (in team-games)
+    # Opening fortnight: home teams beat the model by ~5-6 points in week one of both
+    # 2025-26 and 2026-27 (buy games, visitors on the road for their opener). Points of
+    # margin added to the home side on a non-neutral floor, by days since the season's first game.
+    open_home_wk1: float = 6.8
+    open_home_wk2: float = 1.5
 
 
 @dataclass
@@ -248,14 +253,30 @@ def norm_cdf(x: float) -> float:
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
 
 
-def project(r: Ratings, home: str, away: str, neutral: bool = False, p: Params = Params()) -> dict[str, float]:
-    """Projected score from the home team's side. spread follows the betting convention (negative = home favored)."""
+def opening_bump(p: Params, days_in: float | None, neutral: bool) -> float:
+    """Extra home margin early in the season (fit on 2025-26, checked on 2026-27)."""
+    if neutral or days_in is None or days_in < 0:
+        return 0.0
+    if days_in < 7:
+        return p.open_home_wk1
+    if days_in < 14:
+        return p.open_home_wk2
+    return 0.0
+
+
+def project(r: Ratings, home: str, away: str, neutral: bool = False, p: Params = Params(),
+            days_in: float | None = None) -> dict[str, float]:
+    """Projected score from the home team's side. spread follows the betting convention (negative = home favored).
+
+    days_in is days since the season's first game; it switches on the opening-fortnight home bump."""
     th, ta = r.team(home), r.team(away)
     loc = 0.0 if neutral else 1.0
     poss = r.tau + th["t"] + ta["t"]
     eh = r.mu + th["o"] + ta["d"] + r.hca * loc
     ea = r.mu + ta["o"] + th["d"] - r.hca * loc
     ph, pa = eh * poss / 100, ea * poss / 100
+    bump = opening_bump(p, days_in, neutral)
+    ph, pa = ph + bump / 2, pa - bump / 2
     margin = ph - pa
     return {
         "poss": poss, "home_pts": ph, "away_pts": pa,
@@ -320,6 +341,10 @@ def prior_from(r: Ratings) -> Ratings:
     return replace(r, teams={k: dict(v) for k, v in r.teams.items()})
 
 
+def days_since(season_start: datetime, when: datetime) -> float:
+    return (when - season_start).total_seconds() / 86400
+
+
 def walk_forward(rows: list[dict[str, Any]], p: Params, prior: Ratings | None,
                  start: datetime | None = None, step_days: int = 1) -> list[dict[str, Any]]:
     """Refit each morning and project that day's games with only earlier information."""
@@ -341,7 +366,7 @@ def walk_forward(rows: list[dict[str, Any]], p: Params, prior: Ratings | None,
         if slate:
             rt = fit(rows, day, p, prior)
             for g in slate:
-                pr = project(rt, g["home"], g["away"], g["neutral"], p)
+                pr = project(rt, g["home"], g["away"], g["neutral"], p, days_in=days_since(first, g["date"]))
                 out.append({**g, "proj": pr, "games_h": rt.team(g["home"])["games"], "games_a": rt.team(g["away"])["games"]})
         day += timedelta(days=step_days)
     return out

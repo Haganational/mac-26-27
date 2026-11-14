@@ -4,3 +4,6 @@ __pycache__/
 data/mac.sqlite
 site/
 .env
+
+# Raw CollegeBasketballData.com responses: their terms forbid a public mirror (see mac/cbbd.py)
+data/cache/
