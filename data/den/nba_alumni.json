@@ -1,0 +1,3227 @@
+{
+ "fetched_at": "2026-11-14T13:56:01+00:00",
+ "franchises": {
+  "ATL": "Hawks",
+  "BKN": "Nets",
+  "BOS": "Celtics",
+  "CHA": "Hornets",
+  "CHI": "Bulls",
+  "CLE": "Cavaliers",
+  "DAL": "Mavericks",
+  "DEN": "Nuggets",
+  "DET": "Pistons",
+  "GSW": "Warriors",
+  "HOU": "Rockets",
+  "IND": "Pacers",
+  "LAC": "Clippers",
+  "LAL": "Lakers",
+  "MEM": "Grizzlies",
+  "MIA": "Heat",
+  "MIL": "Bucks",
+  "MIN": "Timberwolves",
+  "NOP": "Pelicans",
+  "NYK": "Knicks",
+  "OKC": "Thunder",
+  "ORL": "Magic",
+  "PHI": "76ers",
+  "PHX": "Suns",
+  "POR": "Trail Blazers",
+  "SAC": "Kings",
+  "SAS": "Spurs",
+  "TOR": "Raptors",
+  "UTA": "Jazz",
+  "WAS": "Wizards"
+ },
+ "schools": {
+  "113": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q209921",
+     "teams": [
+      "BKN",
+      "PHI"
+     ]
+    },
+    {
+     "name": "A. J. Wynder",
+     "qid": "Q3600322",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Al Skinner",
+     "qid": "Q3607550",
+     "teams": [
+      "DET",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Lari Ketner",
+     "qid": "Q3827088",
+     "teams": [
+      "CHI",
+      "IND"
+     ]
+    },
+    {
+     "name": "Lou Roe",
+     "qid": "Q2350326",
+     "teams": [
+      "DET",
+      "GSW"
+     ]
+    },
+    {
+     "name": "Marcus Camby",
+     "qid": "Q361134",
+     "teams": [
+      "DEN",
+      "HOU",
+      "LAC",
+      "NYK",
+      "POR",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Stephane Lasme",
+     "qid": "Q775144",
+     "teams": [
+      "MIA"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Massachusetts Minutemen",
+   "short": "UMass"
+  },
+  "116": {
+   "alumni": [
+    {
+     "name": "Bob Riley",
+     "qid": "Q3641335",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Fred Carter",
+     "qid": "Q3752612",
+     "teams": [
+      "MIL",
+      "PHI"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Mount St. Mary's Mountaineers",
+   "short": "Mount St Marys"
+  },
+  "13": {
+   "alumni": [
+    {
+     "name": "David Ugochukwu Nwaba",
+     "qid": "Q27837999",
+     "teams": [
+      "CHI",
+      "CLE"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "Cal Poly Mustangs",
+   "short": "Cal Poly"
+  },
+  "16": {
+   "alumni": [],
+   "edition": "Big West",
+   "name": "Sacramento State Hornets",
+   "short": "Sacramento St"
+  },
+  "167": {
+   "alumni": [
+    {
+     "name": "Alex Kirk",
+     "qid": "Q16730887",
+     "teams": [
+      "CLE"
+     ]
+    },
+    {
+     "name": "Billy Reid",
+     "qid": "Q2650732",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Cameron Bairstow",
+     "qid": "Q16154592",
+     "teams": [
+      "CHI"
+     ]
+    },
+    {
+     "name": "Charles Smith",
+     "qid": "Q732825",
+     "teams": [
+      "DEN",
+      "LAC",
+      "MIA",
+      "POR",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Daniel Santiago",
+     "qid": "Q745776",
+     "teams": [
+      "MIL",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Danny Granger",
+     "qid": "Q318929",
+     "teams": [
+      "IND",
+      "LAC",
+      "MIA"
+     ]
+    },
+    {
+     "name": "Darington Hobson",
+     "qid": "Q2438886",
+     "teams": [
+      "MIL"
+     ]
+    },
+    {
+     "name": "Don Ford",
+     "qid": "Q3713516",
+     "teams": [
+      "CLE",
+      "LAL"
+     ]
+    },
+    {
+     "name": "Greg Howard",
+     "qid": "Q3776415",
+     "teams": [
+      "CLE",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Jerome Henderson",
+     "qid": "Q3807998",
+     "teams": [
+      "LAL",
+      "MIL"
+     ]
+    },
+    {
+     "name": "Kenny Thomas",
+     "qid": "Q2335114",
+     "teams": [
+      "HOU",
+      "PHI",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Luc Longley",
+     "qid": "Q705993",
+     "teams": [
+      "CHI",
+      "NYK",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Mel Daniels",
+     "qid": "Q288853",
+     "teams": [
+      "BKN",
+      "IND"
+     ]
+    },
+    {
+     "name": "Michael Cooper",
+     "qid": "Q971538",
+     "teams": [
+      "DEN",
+      "LAL"
+     ]
+    },
+    {
+     "name": "Tony Snell",
+     "qid": "Q7823453",
+     "teams": [
+      "CHI",
+      "DET"
+     ]
+    },
+    {
+     "name": "Willie Long",
+     "qid": "Q4020206",
+     "teams": [
+      "DEN"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "New Mexico Lobos",
+   "short": "New Mexico"
+  },
+  "189": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q5171327",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Al Bianchi",
+     "qid": "Q3607477",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Antonio Daniels",
+     "qid": "Q640253",
+     "teams": [
+      "NOP",
+      "PHI",
+      "POR",
+      "SAS",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Chuck Share",
+     "qid": "Q2734314",
+     "teams": [
+      "ATL",
+      "DET",
+      "LAL"
+     ]
+    },
+    {
+     "name": "Cliff Williams",
+     "qid": "Q18159179",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Don Otten",
+     "qid": "Q3713573",
+     "teams": [
+      "ATL",
+      "DET"
+     ]
+    },
+    {
+     "name": "Howard Komives",
+     "qid": "Q1460197",
+     "teams": [
+      "DET",
+      "LAC",
+      "NYK",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Keith McLeod",
+     "qid": "Q3814332",
+     "teams": [
+      "GSW",
+      "IND",
+      "MIN"
+     ]
+    },
+    {
+     "name": "Mac Otten",
+     "qid": "Q3206327",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Nate Thurmond",
+     "qid": "Q961786",
+     "teams": [
+      "CHI",
+      "CLE",
+      "GSW"
+     ]
+    },
+    {
+     "name": "Richaun Holmes",
+     "qid": "Q19880297",
+     "teams": [
+      "PHI",
+      "PHX",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Walt Piatkowski",
+     "qid": "Q4017995",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Wyndol Gray",
+     "qid": "Q4021145",
+     "teams": [
+      "BOS"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Bowling Green Falcons",
+   "short": "Bowling Green"
+  },
+  "193": {
+   "alumni": [
+    {
+     "name": "Fred Foster",
+     "qid": "Q3752620",
+     "teams": [
+      "CLE",
+      "DET",
+      "LAC",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Ira Newble",
+     "qid": "Q2735542",
+     "teams": [
+      "ATL",
+      "CLE",
+      "LAL",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Phil Lumpkin",
+     "qid": "Q3901333",
+     "teams": [
+      "PHX",
+      "POR"
+     ]
+    },
+    {
+     "name": "Randy Ayers",
+     "qid": "Q510147",
+     "teams": [
+      "NOP"
+     ]
+    },
+    {
+     "name": "Ron Harper",
+     "qid": "Q372180",
+     "teams": [
+      "CHI",
+      "CLE",
+      "LAC",
+      "LAL"
+     ]
+    },
+    {
+     "name": "Wally Szczerbiak",
+     "qid": "Q554624",
+     "teams": [
+      "BOS",
+      "MIN"
+     ]
+    },
+    {
+     "name": "Wayne Embry",
+     "qid": "Q2564695",
+     "teams": [
+      "BOS",
+      "MIL",
+      "SAC"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Miami (OH) RedHawks",
+   "short": "Miami OH"
+  },
+  "195": {
+   "alumni": [
+    {
+     "name": "Brandon Hunter",
+     "qid": "Q1842302",
+     "teams": [
+      "BOS",
+      "ORL"
+     ]
+    },
+    {
+     "name": "Dave Jamerson",
+     "qid": "Q1606753",
+     "teams": [
+      "BKN",
+      "HOU",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Dick Shrider",
+     "qid": "Q3791955",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Gary Trent",
+     "qid": "Q1061776",
+     "teams": [
+      "DAL",
+      "MIN",
+      "POR",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Howie Jolliff",
+     "qid": "Q3787269",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Jerry McKee",
+     "qid": "Q22279137",
+     "teams": [
+      "IND"
+     ]
+    },
+    {
+     "name": "Maurice Ndour",
+     "qid": "Q17916949",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Mike Wilhelm",
+     "qid": "Q6849270",
+     "teams": [
+      "CHI"
+     ]
+    },
+    {
+     "name": "Paul Graham",
+     "qid": "Q3898066",
+     "teams": [
+      "ATL"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Ohio Bobcats",
+   "short": "Ohio"
+  },
+  "2005": {
+   "alumni": [],
+   "edition": "MW",
+   "name": "Air Force Falcons",
+   "short": "Air Force"
+  },
+  "2006": {
+   "alumni": [
+    {
+     "name": "Bill Turner",
+     "qid": "Q3640007",
+     "teams": [
+      "GSW",
+      "LAL",
+      "POR",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Nate Barnett",
+     "qid": "Q3718722",
+     "teams": [
+      "IND"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Akron Zips",
+   "short": "Akron"
+  },
+  "2050": {
+   "alumni": [
+    {
+     "name": "Bonzi Wells",
+     "qid": "Q892931",
+     "teams": [
+      "HOU",
+      "MEM",
+      "NOP",
+      "POR",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Rawle Marshall",
+     "qid": "Q1363974",
+     "teams": [
+      "DAL",
+      "IND"
+     ]
+    },
+    {
+     "name": "Theron Smith",
+     "qid": "Q633781",
+     "teams": [
+      "CHA",
+      "MEM"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Ball State Cardinals",
+   "short": "Ball State"
+  },
+  "2084": {
+   "alumni": [
+    {
+     "name": "Bobby Hurley",
+     "qid": "Q1626464",
+     "teams": [
+      "MEM"
+     ]
+    },
+    {
+     "name": "Sam Pellom",
+     "qid": "Q1657660",
+     "teams": [
+      "ATL",
+      "MIL"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Buffalo Bulls",
+   "short": "Buffalo"
+  },
+  "2099": {
+   "alumni": [
+    {
+     "name": "Charles Jordan",
+     "qid": "Q3666422",
+     "teams": [
+      "IND"
+     ]
+    },
+    {
+     "name": "Herm Hedderick",
+     "qid": "Q4456405",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Jim Quinlan",
+     "qid": "Q19666627",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "John Morrison",
+     "qid": "Q5397323",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Johnny McCarthy",
+     "qid": "Q2345365",
+     "teams": [
+      "ATL",
+      "BOS",
+      "LAC"
+     ]
+    },
+    {
+     "name": "Larry Fogle",
+     "qid": "Q6402649",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Leon Gauchat",
+     "qid": "Q18812004",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Mel Thurston",
+     "qid": "Q2157582",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Mike Smrek",
+     "qid": "Q2328059",
+     "teams": [
+      "CHI",
+      "GSW",
+      "LAC",
+      "LAL",
+      "SAS"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Canisius Golden Griffins",
+   "short": "Canisius"
+  },
+  "2117": {
+   "alumni": [
+    {
+     "name": "Ben Kelso",
+     "qid": "Q3637939",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Ben Poquette",
+     "qid": "Q1626563",
+     "teams": [
+      "CHI",
+      "CLE",
+      "DET",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Chris Kaman",
+     "qid": "Q77044",
+     "teams": [
+      "DAL",
+      "LAC",
+      "LAL",
+      "NOP",
+      "POR"
+     ]
+    },
+    {
+     "name": "Dan Majerle",
+     "qid": "Q1159115",
+     "teams": [
+      "CLE",
+      "MIA",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Dan Roundfield",
+     "qid": "Q1463146",
+     "teams": [
+      "ATL",
+      "DET",
+      "IND",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Jim McElroy",
+     "qid": "Q3808358",
+     "teams": [
+      "ATL",
+      "DET"
+     ]
+    },
+    {
+     "name": "Nate Huffman",
+     "qid": "Q2660874",
+     "teams": [
+      "TOR"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Central Michigan Chippewas",
+   "short": "C Michigan"
+  },
+  "2174": {
+   "alumni": [
+    {
+     "name": "Bill Ebben",
+     "qid": "Q7001338",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Dave DeBusschere",
+     "qid": "Q918916",
+     "teams": [
+      "DET",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Dennis Boyd",
+     "qid": "Q5258221",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Desmond Ferguson",
+     "qid": "Q3705987",
+     "teams": [
+      "POR"
+     ]
+    },
+    {
+     "name": "Dorie Murrey",
+     "qid": "Q3714270",
+     "teams": [
+      "DET",
+      "POR",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Earl Cureton",
+     "qid": "Q2331753",
+     "teams": [
+      "CHA",
+      "CHI",
+      "DET",
+      "HOU",
+      "LAC",
+      "PHI",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Frank Russell",
+     "qid": "Q3751916",
+     "teams": [
+      "CHI"
+     ]
+    },
+    {
+     "name": "Guy Sparrow",
+     "qid": "Q3780056",
+     "teams": [
+      "GSW",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Jermaine Jackson",
+     "qid": "Q3807984",
+     "teams": [
+      "ATL",
+      "DET",
+      "MIL",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Joe Kopicki",
+     "qid": "Q3808666",
+     "teams": [
+      "DEN",
+      "WAS"
+     ]
+    },
+    {
+     "name": "John Long",
+     "qid": "Q533916",
+     "teams": [
+      "ATL",
+      "DET",
+      "IND",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Lee Knorek",
+     "qid": "Q3829373",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Norm Swanson",
+     "qid": "Q3878435",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "Owen Wells",
+     "qid": "Q3887746",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "Ray McCallum Jr.",
+     "qid": "Q10345670",
+     "teams": [
+      "MEM",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Spencer Haywood",
+     "qid": "Q1238103",
+     "teams": [
+      "DEN",
+      "LAL",
+      "NYK",
+      "UTA",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Terry Duerod",
+     "qid": "Q2331010",
+     "teams": [
+      "BOS",
+      "DAL",
+      "DET",
+      "GSW"
+     ]
+    },
+    {
+     "name": "Terry Thomas",
+     "qid": "Q3984827",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Terry Tyler",
+     "qid": "Q1608041",
+     "teams": [
+      "DAL",
+      "DET",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Willie Green",
+     "qid": "Q926204",
+     "teams": [
+      "ATL",
+      "LAC",
+      "NOP",
+      "ORL",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Willie McCarter",
+     "qid": "Q4020208",
+     "teams": [
+      "LAL",
+      "POR"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Detroit Mercy Titans",
+   "short": "Detroit Mercy"
+  },
+  "2199": {
+   "alumni": [
+    {
+     "name": "Carl Thomas",
+     "qid": "Q968402",
+     "teams": [
+      "GSW",
+      "ORL"
+     ]
+    },
+    {
+     "name": "Charles Thomas",
+     "qid": "Q3666602",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Derrick Dial",
+     "qid": "Q1616801",
+     "teams": [
+      "ORL",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Earl Boykins",
+     "qid": "Q313473",
+     "teams": [
+      "BKN",
+      "CHA",
+      "CLE",
+      "DEN",
+      "GSW",
+      "HOU",
+      "LAC",
+      "MIL",
+      "ORL",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Earle Higgins",
+     "qid": "Q6920666",
+     "teams": [
+      "IND"
+     ]
+    },
+    {
+     "name": "Fred Cofield",
+     "qid": "Q2652365",
+     "teams": [
+      "CHI",
+      "NYK"
+     ]
+    },
+    {
+     "name": "George Gervin",
+     "qid": "Q352110",
+     "teams": [
+      "CHI",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Grant Long",
+     "qid": "Q3775761",
+     "teams": [
+      "ATL",
+      "BOS",
+      "DET",
+      "MEM",
+      "MIA"
+     ]
+    },
+    {
+     "name": "Harvey Marlatt",
+     "qid": "Q1121849",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Kennedy McIntosh",
+     "qid": "Q926071",
+     "teams": [
+      "CHI"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Eastern Michigan Eagles",
+   "short": "E Michigan"
+  },
+  "2217": {
+   "alumni": [
+    {
+     "name": "A. J. Wynder",
+     "qid": "Q3600322",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Deng Gai",
+     "qid": "Q2466922",
+     "teams": [
+      "PHI"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Fairfield Stags",
+   "short": "Fairfield"
+  },
+  "2239": {
+   "alumni": [
+    {
+     "name": "Bobby Brown",
+     "qid": "Q82004",
+     "teams": [
+      "LAC",
+      "MIN",
+      "NOP",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Bruce Bowen",
+     "qid": "Q306553",
+     "teams": [
+      "BOS",
+      "MIA",
+      "PHI",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Cedric Ceballos",
+     "qid": "Q932879",
+     "teams": [
+      "DAL",
+      "DET",
+      "LAL",
+      "MIA",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Greg Bunch",
+     "qid": "Q1634182",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Josh Akognon",
+     "qid": "Q3810299",
+     "teams": [
+      "DAL"
+     ]
+    },
+    {
+     "name": "Kevin Henderson",
+     "qid": "Q893223",
+     "teams": [
+      "CLE",
+      "GSW"
+     ]
+    },
+    {
+     "name": "Leon Wood",
+     "qid": "Q2566198",
+     "teams": [
+      "ATL",
+      "BKN",
+      "PHI",
+      "SAC",
+      "SAS",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Mike Niles",
+     "qid": "Q3857432",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Ozell Jones",
+     "qid": "Q665879",
+     "teams": [
+      "LAC",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Pape Sow",
+     "qid": "Q2469672",
+     "teams": [
+      "TOR"
+     ]
+    },
+    {
+     "name": "Richard Morton",
+     "qid": "Q7327914",
+     "teams": [
+      "IND"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "Cal State Fullerton Titans",
+   "short": "Fullerton"
+  },
+  "2253": {
+   "alumni": [
+    {
+     "name": "Bayard Forrest",
+     "qid": "Q3637064",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Horacio Llamas",
+     "qid": "Q3786749",
+     "teams": [
+      "PHX"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "Grand Canyon Lopes",
+   "short": "Grand Canyon"
+  },
+  "23": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q1382444",
+     "teams": [
+      "DAL",
+      "DEN",
+      "ORL"
+     ]
+    },
+    {
+     "name": "Brandon Clarke",
+     "qid": "Q56809232",
+     "teams": [
+      "MEM"
+     ]
+    },
+    {
+     "name": "Chris McNealy",
+     "qid": "Q3675535",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Coby Dietrick",
+     "qid": "Q3681888",
+     "teams": [
+      "CHI",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Darnell Hillman",
+     "qid": "Q1616754",
+     "teams": [
+      "BKN",
+      "DEN",
+      "GSW",
+      "IND",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Harold Crisler",
+     "qid": "Q539543",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Tony Farmer",
+     "qid": "Q3531765",
+     "teams": [
+      "CHA",
+      "DEN",
+      "GSW"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "San José State Spartans",
+   "short": "San José St"
+  },
+  "2309": {
+   "alumni": [
+    {
+     "name": "Doug Sims",
+     "qid": "Q17274839",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "Jim Zoet",
+     "qid": "Q3808390",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "John Edwards",
+     "qid": "Q3809239",
+     "teams": [
+      "ATL",
+      "IND"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Kent State Golden Flashes",
+   "short": "Kent State"
+  },
+  "2363": {
+   "alumni": [
+    {
+     "name": "Brian Mahoney",
+     "qid": "Q3644479",
+     "teams": [
+      "BKN"
+     ]
+    },
+    {
+     "name": "Chris Smith",
+     "qid": "Q5108090",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Dick Murphy",
+     "qid": "Q3706957",
+     "teams": [
+      "BOS",
+      "NYK"
+     ]
+    },
+    {
+     "name": "George Bucci",
+     "qid": "Q3760450",
+     "teams": [
+      "BKN"
+     ]
+    },
+    {
+     "name": "Grady O'Malley",
+     "qid": "Q3774167",
+     "teams": [
+      "ATL"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Manhattan Jaspers",
+   "short": "Manhattan"
+  },
+  "2368": {
+   "alumni": [
+    {
+     "name": "Rik Smits",
+     "qid": "Q374536",
+     "teams": [
+      "IND"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Marist Red Foxes",
+   "short": "Marist"
+  },
+  "2439": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q2561495",
+     "teams": [
+      "ATL",
+      "DEN",
+      "LAL",
+      "MIN",
+      "POR"
+     ]
+    },
+    {
+     "name": "Anthony Bennett",
+     "qid": "Q4772101",
+     "teams": [
+      "BKN",
+      "CLE",
+      "MIN",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Armen Gilliam",
+     "qid": "Q2565189",
+     "teams": [
+      "BKN",
+      "CHA",
+      "MIL",
+      "NOP",
+      "PHI",
+      "PHX",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Christian Wood",
+     "qid": "Q20639748",
+     "teams": [
+      "DET",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Derrick Jones Jr.",
+     "qid": "Q27048881",
+     "teams": [
+      "POR"
+     ]
+    },
+    {
+     "name": "Dexter Boney",
+     "qid": "Q4454034",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Dwayne Polee",
+     "qid": "Q5318021",
+     "teams": [
+      "LAC"
+     ]
+    },
+    {
+     "name": "Earl Evans",
+     "qid": "Q6921450",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Gerald Paddio",
+     "qid": "Q3760872",
+     "teams": [
+      "IND",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Glen Gondrezick",
+     "qid": "Q937398",
+     "teams": [
+      "DEN",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Greg Anthony",
+     "qid": "Q1630233",
+     "teams": [
+      "CHI",
+      "MEM",
+      "MIL",
+      "NYK",
+      "POR"
+     ]
+    },
+    {
+     "name": "Jackie Robinson",
+     "qid": "Q1631748",
+     "teams": [
+      "CHI",
+      "DET"
+     ]
+    },
+    {
+     "name": "Jerry Baskerville",
+     "qid": "Q3808015",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Joel Anthony",
+     "qid": "Q521950",
+     "teams": [
+      "BOS",
+      "DET",
+      "MIA",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Kebu Stewart",
+     "qid": "Q3814216",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Keon Clark",
+     "qid": "Q2342473",
+     "teams": [
+      "DEN",
+      "SAC",
+      "TOR",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Larry Johnson",
+     "qid": "Q463635",
+     "teams": [
+      "CHA",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Larry Moffett",
+     "qid": "Q3827161",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "Lewis Brown",
+     "qid": "Q604638",
+     "teams": [
+      "WAS"
+     ]
+    },
+    {
+     "name": "Louis Amundson",
+     "qid": "Q681735",
+     "teams": [
+      "CHI",
+      "GSW",
+      "IND",
+      "MIN",
+      "NOP",
+      "NYK",
+      "PHI",
+      "PHX",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Marcus Banks",
+     "qid": "Q1530759",
+     "teams": [
+      "BOS",
+      "MIA",
+      "MIN",
+      "NOP",
+      "PHX",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Odis Allison",
+     "qid": "Q864225",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Patrick McCaw",
+     "qid": "Q24761491",
+     "teams": [
+      "CLE",
+      "GSW",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Rashad Vaughn",
+     "qid": "Q19973718",
+     "teams": [
+      "MIL"
+     ]
+    },
+    {
+     "name": "Reggie Theus",
+     "qid": "Q1424495",
+     "teams": [
+      "ATL",
+      "BKN",
+      "CHI",
+      "ORL",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Ricky Sobers",
+     "qid": "Q3935065",
+     "teams": [
+      "CHI",
+      "IND",
+      "PHX",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Robert Smith",
+     "qid": "Q1632228",
+     "teams": [
+      "BKN",
+      "CLE",
+      "DEN",
+      "LAC",
+      "MIL",
+      "SAS",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Sam Smith",
+     "qid": "Q3946360",
+     "teams": [
+      "CHI",
+      "MIL"
+     ]
+    },
+    {
+     "name": "Shawn Marion",
+     "qid": "Q311869",
+     "teams": [
+      "DAL",
+      "MIA",
+      "PHX",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Sidney Green",
+     "qid": "Q3960167",
+     "teams": [
+      "CHA",
+      "CHI",
+      "DET",
+      "NOP",
+      "NYK",
+      "ORL",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Stacey Augmon",
+     "qid": "Q2308814",
+     "teams": [
+      "ATL",
+      "CHA",
+      "DET",
+      "NOP",
+      "ORL",
+      "POR"
+     ]
+    },
+    {
+     "name": "Stephen Zimmerman",
+     "qid": "Q19665350",
+     "teams": [
+      "ORL"
+     ]
+    },
+    {
+     "name": "Steve Jones Jr.",
+     "qid": "Q51046895",
+     "teams": [
+      "BKN"
+     ]
+    },
+    {
+     "name": "Tyrone Nesby",
+     "qid": "Q1584515",
+     "teams": [
+      "LAC",
+      "WAS"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "UNLV Rebels",
+   "short": "UNLV"
+  },
+  "2440": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q553512",
+     "teams": [
+      "DAL",
+      "DEN",
+      "LAL",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Armon Johnson",
+     "qid": "Q2627265",
+     "teams": [
+      "BKN",
+      "POR"
+     ]
+    },
+    {
+     "name": "Caleb Martin",
+     "qid": "Q55367789",
+     "teams": [
+      "CHA"
+     ]
+    },
+    {
+     "name": "Cameron Oliver",
+     "qid": "Q30077055",
+     "teams": [
+      "POR"
+     ]
+    },
+    {
+     "name": "Cody Martin",
+     "qid": "Q55368019",
+     "teams": [
+      "CHA"
+     ]
+    },
+    {
+     "name": "David Wood",
+     "qid": "Q1631653",
+     "teams": [
+      "CHI",
+      "DAL",
+      "DET",
+      "GSW",
+      "HOU",
+      "MIL",
+      "PHX",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Edgar Jones",
+     "qid": "Q2343352",
+     "teams": [
+      "BKN",
+      "CLE",
+      "DET",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Johnny High",
+     "qid": "Q1622405",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Kevinn Pinkney",
+     "qid": "Q2897346",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Kirk Snyder",
+     "qid": "Q2572066",
+     "teams": [
+      "HOU",
+      "MIN",
+      "NOP",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Luke Babbitt",
+     "qid": "Q656414",
+     "teams": [
+      "NOP",
+      "POR"
+     ]
+    },
+    {
+     "name": "Ramon Sessions",
+     "qid": "Q509150",
+     "teams": [
+      "CHA",
+      "CLE",
+      "LAL",
+      "MIL",
+      "MIN"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "Nevada Wolf Pack",
+   "short": "Nevada"
+  },
+  "2454": {
+   "alumni": [
+    {
+     "name": "Sidney Green",
+     "qid": "Q3960167",
+     "teams": [
+      "CHA",
+      "CHI",
+      "DET",
+      "NOP",
+      "NYK",
+      "ORL",
+      "SAS"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "North Florida Ospreys",
+   "short": "North Florida"
+  },
+  "2459": {
+   "alumni": [
+    {
+     "name": "Abdel Nader",
+     "qid": "Q20711122",
+     "teams": [
+      "OKC"
+     ]
+    },
+    {
+     "name": "Donald Whiteside",
+     "qid": "Q3713660",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Jim Bradley",
+     "qid": "Q376230",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Kenny Battle",
+     "qid": "Q1612851",
+     "teams": [
+      "BOS",
+      "DEN",
+      "GSW",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Xavier Silas",
+     "qid": "Q3570801",
+     "teams": [
+      "PHI"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Northern Illinois Huskies",
+   "short": "N Illinois"
+  },
+  "2463": {
+   "alumni": [
+    {
+     "name": "Paul McCracken",
+     "qid": "Q1029117",
+     "teams": [
+      "CHI",
+      "HOU"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "Cal State Northridge Matadors",
+   "short": "CSU Northridge"
+  },
+  "2473": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q16228709",
+     "teams": [
+      "GSW",
+      "LAL",
+      "MIA"
+     ]
+    },
+    {
+     "name": "Jamal Cain",
+     "qid": "Q100766917",
+     "teams": [
+      "ORL"
+     ]
+    },
+    {
+     "name": "Kay Felder",
+     "qid": "Q22959105",
+     "teams": [
+      "TOR"
+     ]
+    },
+    {
+     "name": "Keith Benson",
+     "qid": "Q2015928",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Rawle Marshall",
+     "qid": "Q1363974",
+     "teams": [
+      "DAL",
+      "IND"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Oakland Golden Grizzlies",
+   "short": "Oakland"
+  },
+  "2511": {
+   "alumni": [
+    {
+     "name": "Charlie Hoefer",
+     "qid": "Q3666663",
+     "teams": [
+      "BOS"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "Queens University Royals",
+   "short": "Queens"
+  },
+  "2514": {
+   "alumni": [],
+   "edition": "Metro",
+   "name": "Quinnipiac Bobcats",
+   "short": "Quinnipiac"
+  },
+  "2520": {
+   "alumni": [
+    {
+     "name": "Jason Thompson",
+     "qid": "Q1339658",
+     "teams": [
+      "GSW",
+      "SAC",
+      "TOR"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Rider Broncs",
+   "short": "Rider"
+  },
+  "2523": {
+   "alumni": [
+    {
+     "name": "Earl Cureton",
+     "qid": "Q2331753",
+     "teams": [
+      "CHA",
+      "CHI",
+      "DET",
+      "HOU",
+      "LAC",
+      "PHI",
+      "TOR"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Robert Morris Colonials",
+   "short": "Robert Morris"
+  },
+  "2529": {
+   "alumni": [],
+   "edition": "Metro",
+   "name": "Sacred Heart Pioneers",
+   "short": "Sacred Heart"
+  },
+  "2540": {
+   "alumni": [
+    {
+     "name": "Ajay Mitchell",
+     "qid": "Q105925605",
+     "teams": [
+      "OKC"
+     ]
+    },
+    {
+     "name": "Alan Williams",
+     "qid": "Q16235975",
+     "teams": [
+      "BKN",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Conner Henry",
+     "qid": "Q3687045",
+     "teams": [
+      "BOS",
+      "HOU",
+      "MIL",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Gabe Vincent",
+     "qid": "Q61989472",
+     "teams": [
+      "MIA"
+     ]
+    },
+    {
+     "name": "Jim Eyen",
+     "qid": "Q16227040",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "John Tschogl",
+     "qid": "Q3809659",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Miles Norris",
+     "qid": "Q100892038",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Orlando Johnson",
+     "qid": "Q555477",
+     "teams": [
+      "IND",
+      "NOP",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Richard Anderson",
+     "qid": "Q3934757",
+     "teams": [
+      "CHA",
+      "DEN",
+      "HOU",
+      "NOP",
+      "POR"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "UC Santa Barbara Gauchos",
+   "short": "Santa Barbara"
+  },
+  "2561": {
+   "alumni": [
+    {
+     "name": "Edwin Ubiles",
+     "qid": "Q1295015",
+     "teams": [
+      "WAS"
+     ]
+    },
+    {
+     "name": "Kenny Hasbrouck",
+     "qid": "Q3814630",
+     "teams": [
+      "MIA"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Siena Saints",
+   "short": "Siena"
+  },
+  "2612": {
+   "alumni": [
+    {
+     "name": "Richard Rinaldi",
+     "qid": "Q3934740",
+     "teams": [
+      "BKN"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Saint Peter's Peacocks",
+   "short": "Saint Peter's"
+  },
+  "2638": {
+   "alumni": [
+    {
+     "name": "Antonio Davis",
+     "qid": "Q601776",
+     "teams": [
+      "CHI",
+      "IND",
+      "NYK",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Arnett Moultrie",
+     "qid": "Q48838",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Dave Feitl",
+     "qid": "Q3703030",
+     "teams": [
+      "BKN",
+      "GSW",
+      "HOU",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Dave Lattin",
+     "qid": "Q3703037",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Derrick Caracter",
+     "qid": "Q2632962",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Dick Gibbs",
+     "qid": "Q3706949",
+     "teams": [
+      "HOU",
+      "LAC",
+      "SAC",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Frank Schade",
+     "qid": "Q4120452",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "Gus Bailey",
+     "qid": "Q3779875",
+     "teams": [
+      "HOU",
+      "UTA",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Jim Barnes",
+     "qid": "Q1460233",
+     "teams": [
+      "BOS",
+      "CHI",
+      "LAL",
+      "NYK",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Julyan Stone",
+     "qid": "Q2060762",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Nate Archibald",
+     "qid": "Q451780",
+     "teams": [
+      "BKN",
+      "BOS",
+      "MIL",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Scott English",
+     "qid": "Q3952836",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Tim Hardaway",
+     "qid": "Q352319",
+     "teams": [
+      "DAL",
+      "DEN",
+      "GSW",
+      "IND",
+      "MIA"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "UTEP Miners",
+   "short": "UTEP"
+  },
+  "2649": {
+   "alumni": [
+    {
+     "name": "Cal Christensen",
+     "qid": "Q3649982",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "Casey Shaw",
+     "qid": "Q1053971",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Dave Minor",
+     "qid": "Q3703042",
+     "teams": [
+      "WAS"
+     ]
+    },
+    {
+     "name": "Dick Miller",
+     "qid": "Q3706956",
+     "teams": [
+      "IND",
+      "UTA"
+     ]
+    },
+    {
+     "name": "George Patterson",
+     "qid": "Q3760621",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Jim Ray",
+     "qid": "Q6197670",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Larry Jones",
+     "qid": "Q742049",
+     "teams": [
+      "DEN",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Paul Seymour",
+     "qid": "Q2563549",
+     "teams": [
+      "ATL",
+      "DET",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Phil Martin",
+     "qid": "Q7182150",
+     "teams": [
+      "ATL"
+     ]
+    },
+    {
+     "name": "Steve Mix",
+     "qid": "Q2385023",
+     "teams": [
+      "DEN",
+      "DET",
+      "LAL",
+      "MIL",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Tom Kozelko",
+     "qid": "Q3992497",
+     "teams": [
+      "WAS"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Toledo Rockets",
+   "short": "Toledo"
+  },
+  "2697": {
+   "alumni": [
+    {
+     "name": "Moochie Norris",
+     "qid": "Q3729034",
+     "teams": [
+      "HOU",
+      "MEM",
+      "NOP",
+      "NYK"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "West Florida Argonauts",
+   "short": "West Florida"
+  },
+  "27": {
+   "alumni": [],
+   "edition": "Big West",
+   "name": "UC Riverside Highlanders",
+   "short": "UC Riverside"
+  },
+  "270": {
+   "alumni": [],
+   "edition": "Horizon",
+   "name": "Milwaukee Panthers",
+   "short": "Milwaukee"
+  },
+  "2711": {
+   "alumni": [
+    {
+     "name": "Ben Handlogten",
+     "qid": "Q3637933",
+     "teams": [
+      "UTA"
+     ]
+    },
+    {
+     "name": "Paul Griffin",
+     "qid": "Q3898070",
+     "teams": [
+      "SAS"
+     ]
+    },
+    {
+     "name": "Shayne Whittington",
+     "qid": "Q17319073",
+     "teams": [
+      "IND"
+     ]
+    }
+   ],
+   "edition": "MAC",
+   "name": "Western Michigan Broncos",
+   "short": "W Michigan"
+  },
+  "2739": {
+   "alumni": [
+    {
+     "name": "Jeff Nordgaard",
+     "qid": "Q1464679",
+     "teams": [
+      "MIL"
+     ]
+    },
+    {
+     "name": "Logan Vander Velden",
+     "qid": "Q3836414",
+     "teams": [
+      "LAC"
+     ]
+    },
+    {
+     "name": "Tony Bennett",
+     "qid": "Q3993198",
+     "teams": [
+      "CHA"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Green Bay Phoenix",
+   "short": "Green Bay"
+  },
+  "2750": {
+   "alumni": [
+    {
+     "name": "Bill Edwards",
+     "qid": "Q1445455",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Vitaly Potapenko",
+     "qid": "Q645386",
+     "teams": [
+      "BOS",
+      "SAC"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Wright State Raiders",
+   "short": "Wright St"
+  },
+  "2751": {
+   "alumni": [
+    {
+     "name": "Bill Garnett",
+     "qid": "Q1617484",
+     "teams": [
+      "DAL",
+      "IND"
+     ]
+    },
+    {
+     "name": "Charles Bradley",
+     "qid": "Q3666350",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Eric Leckner",
+     "qid": "Q3731496",
+     "teams": [
+      "CHA",
+      "DET",
+      "MEM",
+      "NOP",
+      "PHI",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Fennis Dembo",
+     "qid": "Q2539924",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Flynn Robinson",
+     "qid": "Q2330086",
+     "teams": [
+      "CHI",
+      "LAL",
+      "MIL",
+      "WAS"
+     ]
+    },
+    {
+     "name": "George Nostrand",
+     "qid": "Q1633921",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "John Pilch",
+     "qid": "Q1123574",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Josh Davis",
+     "qid": "Q3185958",
+     "teams": [
+      "ATL",
+      "HOU",
+      "MIL",
+      "PHI",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Justin Williams",
+     "qid": "Q3811603",
+     "teams": [
+      "HOU",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Larry Nance Jr.",
+     "qid": "Q19605398",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Moe Radovich",
+     "qid": "Q8992149",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Reggie Slater",
+     "qid": "Q3931730",
+     "teams": [
+      "ATL",
+      "BKN",
+      "DAL",
+      "DEN",
+      "MIN",
+      "POR",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Ron Livingstone",
+     "qid": "Q1195813",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Theo Ratliff",
+     "qid": "Q516314",
+     "teams": [
+      "ATL",
+      "BOS",
+      "CHA",
+      "DET",
+      "LAL",
+      "MIN",
+      "PHI",
+      "POR",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Tim Breaux",
+     "qid": "Q1640858",
+     "teams": [
+      "HOU",
+      "MIL"
+     ]
+    },
+    {
+     "name": "Tony Windis",
+     "qid": "Q4274333",
+     "teams": [
+      "DET"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "Wyoming Cowboys",
+   "short": "Wyoming"
+  },
+  "2754": {
+   "alumni": [],
+   "edition": "Horizon",
+   "name": "Youngstown State Penguins",
+   "short": "Youngstown St"
+  },
+  "2771": {
+   "alumni": [],
+   "edition": "Metro",
+   "name": "Merrimack Warriors",
+   "short": "Merrimack"
+  },
+  "28": {
+   "alumni": [],
+   "edition": "Big West",
+   "name": "UC San Diego Tritons",
+   "short": "UC San Diego"
+  },
+  "2856": {
+   "alumni": [],
+   "edition": "Big West",
+   "name": "California Baptist Lancers",
+   "short": "CA Baptist"
+  },
+  "2870": {
+   "alumni": [],
+   "edition": "Horizon",
+   "name": "Purdue Fort Wayne Mastodons",
+   "short": "Purdue FW"
+  },
+  "288": {
+   "alumni": [],
+   "edition": "ASUN",
+   "name": "Lipscomb Bisons",
+   "short": "Lipscomb"
+  },
+  "2934": {
+   "alumni": [],
+   "edition": "Big West",
+   "name": "Cal State Bakersfield Roadrunners",
+   "short": "Bakersfield"
+  },
+  "294": {
+   "alumni": [
+    {
+     "name": "Artis Gilmore",
+     "qid": "Q965688",
+     "teams": [
+      "BOS",
+      "CHI",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Dee Brown",
+     "qid": "Q775184",
+     "teams": [
+      "BOS",
+      "ORL",
+      "TOR"
+     ]
+    },
+    {
+     "name": "James Ray",
+     "qid": "Q677332",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Leon Benbow",
+     "qid": "Q1615664",
+     "teams": [
+      "CHI"
+     ]
+    },
+    {
+     "name": "Otis Smith",
+     "qid": "Q1424170",
+     "teams": [
+      "DEN",
+      "GSW",
+      "ORL"
+     ]
+    },
+    {
+     "name": "Rex Morgan",
+     "qid": "Q3934007",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Ronnie Murphy",
+     "qid": "Q3941142",
+     "teams": [
+      "POR"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "Jacksonville Dolphins",
+   "short": "Jacksonville"
+  },
+  "299": {
+   "alumni": [
+    {
+     "name": "Al Brightman",
+     "qid": "Q3607479",
+     "teams": [
+      "BOS"
+     ]
+    },
+    {
+     "name": "Bob Gross",
+     "qid": "Q1607761",
+     "teams": [
+      "LAC",
+      "POR"
+     ]
+    },
+    {
+     "name": "Bryon Russell",
+     "qid": "Q995314",
+     "teams": [
+      "DEN",
+      "LAL",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Casper Ware",
+     "qid": "Q5049096",
+     "teams": [
+      "PHI"
+     ]
+    },
+    {
+     "name": "Chuck Terry",
+     "qid": "Q3676050",
+     "teams": [
+      "BKN",
+      "MIL",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Cliff Pondexter",
+     "qid": "Q3680679",
+     "teams": [
+      "CHI"
+     ]
+    },
+    {
+     "name": "Craig Dykema",
+     "qid": "Q933485",
+     "teams": [
+      "PHX"
+     ]
+    },
+    {
+     "name": "Craig Hodges",
+     "qid": "Q1273409",
+     "teams": [
+      "CHI",
+      "LAL",
+      "MIL",
+      "PHX"
+     ]
+    },
+    {
+     "name": "Ed Ratleff",
+     "qid": "Q2331924",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "Eric McWilliams",
+     "qid": "Q3731510",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "George Gervin",
+     "qid": "Q352110",
+     "teams": [
+      "CHI",
+      "SAS"
+     ]
+    },
+    {
+     "name": "George Trapp",
+     "qid": "Q3760661",
+     "teams": [
+      "ATL",
+      "DET"
+     ]
+    },
+    {
+     "name": "Glenn McDonald",
+     "qid": "Q2338196",
+     "teams": [
+      "BOS",
+      "MIL"
+     ]
+    },
+    {
+     "name": "James Ennis",
+     "qid": "Q13605936",
+     "teams": [
+      "MEM",
+      "MIA",
+      "NOP",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Juaquin Hawkins",
+     "qid": "Q3810961",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "Leonard Gray",
+     "qid": "Q3830303",
+     "teams": [
+      "WAS"
+     ]
+    },
+    {
+     "name": "Lucious Harris",
+     "qid": "Q3838976",
+     "teams": [
+      "BKN",
+      "CLE",
+      "DAL",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Michael Wiley",
+     "qid": "Q3856296",
+     "teams": [
+      "LAC",
+      "SAS"
+     ]
+    },
+    {
+     "name": "Morlon Wiley",
+     "qid": "Q3863037",
+     "teams": [
+      "ATL",
+      "DAL",
+      "MIA",
+      "ORL",
+      "SAS"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "Long Beach State Beach",
+   "short": "Long Beach St"
+  },
+  "300": {
+   "alumni": [
+    {
+     "name": "Ben McDonald",
+     "qid": "Q967072",
+     "teams": [
+      "GSW"
+     ]
+    },
+    {
+     "name": "Bob Thornton",
+     "qid": "Q3641347",
+     "teams": [
+      "MIN",
+      "NYK",
+      "PHI",
+      "UTA",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Johnny Rogers",
+     "qid": "Q163754",
+     "teams": [
+      "CLE",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Ronnie Grandison",
+     "qid": "Q3940968",
+     "teams": [
+      "ATL",
+      "BOS",
+      "CHA",
+      "MIA",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Tod Murphy",
+     "qid": "Q40490",
+     "teams": [
+      "DET",
+      "GSW",
+      "LAC",
+      "MIN"
+     ]
+    },
+    {
+     "name": "Tom Tolbert",
+     "qid": "Q3992539",
+     "teams": [
+      "CHA",
+      "GSW",
+      "LAC",
+      "ORL"
+     ]
+    },
+    {
+     "name": "Wayne Englestad",
+     "qid": "Q4018597",
+     "teams": [
+      "DEN"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "UC Irvine Anteaters",
+   "short": "UC Irvine"
+  },
+  "302": {
+   "alumni": [],
+   "edition": "MW",
+   "name": "UC Davis Aggies",
+   "short": "UC Davis"
+  },
+  "3084": {
+   "alumni": [
+    {
+     "name": "Michael McDonald",
+     "qid": "Q3856220",
+     "teams": [
+      "CHA"
+     ]
+    },
+    {
+     "name": "Ronnie Price",
+     "qid": "Q2311784",
+     "teams": [
+      "LAL",
+      "ORL",
+      "PHX",
+      "POR",
+      "SAC",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Travis Hansen",
+     "qid": "Q1260757",
+     "teams": [
+      "ATL"
+     ]
+    }
+   ],
+   "edition": "Big West",
+   "name": "Utah Valley Wolverines",
+   "short": "Utah Valley"
+  },
+  "314": {
+   "alumni": [
+    {
+     "name": "Bob Santini",
+     "qid": "Q4846393",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Brendan Malone",
+     "qid": "Q2337691",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Jeff Ruland",
+     "qid": "Q1444934",
+     "teams": [
+      "DET",
+      "PHI",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Richie Guerin",
+     "qid": "Q646481",
+     "teams": [
+      "ATL",
+      "NYK"
+     ]
+    },
+    {
+     "name": "Scott Machado",
+     "qid": "Q1577848",
+     "teams": [
+      "GSW",
+      "HOU"
+     ]
+    },
+    {
+     "name": "Sean Green",
+     "qid": "Q3953567",
+     "teams": [
+      "IND",
+      "PHI",
+      "UTA"
+     ]
+    },
+    {
+     "name": "Steve Burtt Sr.",
+     "qid": "Q2346231",
+     "teams": [
+      "GSW",
+      "LAC",
+      "PHX",
+      "WAS"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Iona Gaels",
+   "short": "Iona"
+  },
+  "315": {
+   "alumni": [
+    {
+     "name": "",
+     "qid": "Q3607482",
+     "teams": [
+      "BOS",
+      "NYK",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Bo Erias",
+     "qid": "Q3641240",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Calvin Murphy",
+     "qid": "Q1027716",
+     "teams": [
+      "HOU"
+     ]
+    },
+    {
+     "name": "Ed Fleming",
+     "qid": "Q3718844",
+     "teams": [
+      "LAL"
+     ]
+    },
+    {
+     "name": "Joe Arlauckas",
+     "qid": "Q1560424",
+     "teams": [
+      "SAC"
+     ]
+    },
+    {
+     "name": "Joe Smyth",
+     "qid": "Q3808701",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Larry Costello",
+     "qid": "Q2566731",
+     "teams": [
+      "CHI",
+      "MIL",
+      "PHI"
+     ]
+    },
+    {
+     "name": "Manny Leaks",
+     "qid": "Q3844781",
+     "teams": [
+      "BKN",
+      "PHI",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Nick Grunzweig",
+     "qid": "Q19622250",
+     "teams": [
+      "ATL"
+     ]
+    }
+   ],
+   "edition": "Metro",
+   "name": "Niagara Purple Eagles",
+   "short": "Niagara"
+  },
+  "325": {
+   "alumni": [
+    {
+     "name": "Bryn Forbes",
+     "qid": "Q19868265",
+     "teams": [
+      "SAS"
+     ]
+    },
+    {
+     "name": "Darren Tillis",
+     "qid": "Q3702836",
+     "teams": [
+      "BOS",
+      "CLE",
+      "GSW"
+     ]
+    },
+    {
+     "name": "Franklin Edwards",
+     "qid": "Q1607201",
+     "teams": [
+      "LAC",
+      "PHI",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Jim Les",
+     "qid": "Q1456855",
+     "teams": [
+      "ATL",
+      "LAC",
+      "SAC"
+     ]
+    },
+    {
+     "name": "Norris Cole",
+     "qid": "Q965431",
+     "teams": [
+      "MIA",
+      "NOP"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "Cleveland State Vikings",
+   "short": "Cleveland St"
+  },
+  "526": {
+   "alumni": [
+    {
+     "name": "Brandon Goodwin",
+     "qid": "Q50365734",
+     "teams": [
+      "DEN"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "Florida Gulf Coast Eagles",
+   "short": "FGCU"
+  },
+  "56": {
+   "alumni": [
+    {
+     "name": "Lorenzo Williams",
+     "qid": "Q3837112",
+     "teams": [
+      "BOS",
+      "CHA",
+      "DAL",
+      "ORL"
+     ]
+    }
+   ],
+   "edition": "ASUN",
+   "name": "Stetson Hatters",
+   "short": "Stetson"
+  },
+  "62": {
+   "alumni": [
+    {
+     "name": "Anthony Carter",
+     "qid": "Q572987",
+     "teams": [
+      "DEN",
+      "MIA",
+      "MIN",
+      "NYK",
+      "SAS",
+      "TOR"
+     ]
+    },
+    {
+     "name": "Bob Nash",
+     "qid": "Q1617777",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
+     "name": "Predrag Savović",
+     "qid": "Q1641714",
+     "teams": [
+      "DEN"
+     ]
+    },
+    {
+     "name": "Reggie Carter",
+     "qid": "Q3931717",
+     "teams": [
+      "NYK"
+     ]
+    },
+    {
+     "name": "Tom Henderson",
+     "qid": "Q929663",
+     "teams": [
+      "ATL",
+      "HOU",
+      "WAS"
+     ]
+    },
+    {
+     "name": "Trevor Ruffin",
+     "qid": "Q3538607",
+     "teams": [
+      "PHI",
+      "PHX"
+     ]
+    }
+   ],
+   "edition": "MW",
+   "name": "Hawai'i Rainbow Warriors",
+   "short": "Hawai'i"
+  },
+  "85": {
+   "alumni": [
+    {
+     "name": "George Hill",
+     "qid": "Q517675",
+     "teams": [
+      "CLE",
+      "IND",
+      "SAS"
+     ]
+    }
+   ],
+   "edition": "Horizon",
+   "name": "IU Indianapolis Jaguars",
+   "short": "IU Indy"
+  },
+  "91": {
+   "alumni": [],
+   "edition": "ASUN",
+   "name": "Bellarmine Knights",
+   "short": "Bellarmine"
+  },
+  "94": {
+   "alumni": [],
+   "edition": "Horizon",
+   "name": "Northern Kentucky Norse",
+   "short": "N Kentucky"
+  }
+ },
+ "source": "Wikidata (CC0): players with an NBA team (P54, league NBA) and our school's team (P54) or university (P69)."
+}
