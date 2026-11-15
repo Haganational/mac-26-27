@@ -725,7 +725,90 @@ SUNBELT = League(
 )
 
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT)}
+# Ivy League 2026-27 membership from ESPN's conference feed (group 12).
+IVY = League(
+    key="ivy", short="Ivy", name="Ivy League",
+    region="the Northeast, from Hanover and Ithaca down through Providence, Cambridge and New Haven to New York, Princeton and Philadelphia",
+    teams=(
+        Team("brown", "225", "BRWN", "Brown Bears", "Brown", "#4E3629", "#C00404"),
+        Team("columbia", "171", "COLU", "Columbia Lions", "Columbia", "#1D4F91", "#B9D9EB"),
+        Team("cornell", "172", "COR", "Cornell Big Red", "Cornell", "#B31B1B", "#FFFFFF"),
+        Team("dartmouth", "159", "DART", "Dartmouth Big Green", "Dartmouth", "#00693E", "#FFFFFF"),
+        Team("harvard", "108", "HARV", "Harvard Crimson", "Harvard", "#A51C30", "#1E1E1E"),
+        Team("penn", "219", "PENN", "Pennsylvania Quakers", "Penn", "#011F5B", "#990000"),
+        Team("princeton", "163", "PRIN", "Princeton Tigers", "Princeton", "#E77500", "#000000"),
+        Team("yale", "43", "YALE", "Yale Bulldogs", "Yale", "#00356B", "#FFFFFF"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="ivy/",
+    theme="quad",
+    odds_aliases={"Penn Quakers": "penn"},
+    news_names={
+        "brown": {"query": "Brown Bears basketball", "match": [r"\bBrown Bears\b", r"\bBrown University\b"]},
+        "columbia": {"query": "Columbia Lions basketball", "match": [r"\bColumbia Lions\b", r"\bColumbia University\b"]},
+        "cornell": {"query": "Cornell Big Red basketball", "match": [r"\bCornell\b", r"\bBig Red\b"]},
+        "dartmouth": {"query": "Dartmouth Big Green basketball", "match": [r"\bDartmouth\b", r"\bBig Green\b"]},
+        "harvard": {"query": "Harvard Crimson basketball", "match": [r"\bHarvard\b"]},
+        "penn": {"query": "Penn Quakers basketball", "match": [r"\bPenn Quakers\b", r"\bQuakers\b", r"^Penn\b(?! State| St\.?\b)"]},
+        "princeton": {"query": "Princeton Tigers basketball", "match": [r"\bPrinceton\b"]},
+        "yale": {"query": "Yale Bulldogs basketball", "match": [r"\bYale\b"]},
+    },
+    league_feed=("ivyleague.com", "Ivy League (ivyleague.com)"),
+    hashtag="IvyMBB",
+    tournament="Ivy Madness, the four-team Ivy League tournament",
+)
+
+# Coastal Athletic Association 2026-27 membership from ESPN's conference feed (group 10).
+CAA = League(
+    key="caa", short="CAA", name="Coastal Athletic Association",
+    region="the East Coast, from Boston and Long Island down through Philadelphia, Towson and Williamsburg to the Carolinas and Charleston",
+    teams=(
+        Team("campbell", "2097", "CAM", "Campbell Fighting Camels", "Campbell", "#F58025", "#000000"),
+        Team("charleston", "232", "COFC", "Charleston Cougars", "Charleston", "#800000", "#CBAE68"),
+        Team("drexel", "2182", "DREX", "Drexel Dragons", "Drexel", "#07294D", "#FFC600"),
+        Team("elon", "2210", "ELON", "Elon Phoenix", "Elon", "#73000A", "#B59A57"),
+        Team("hampton", "2261", "HAMP", "Hampton Pirates", "Hampton", "#0067AC", "#FFFFFF"),
+        Team("hofstra", "2275", "HOF", "Hofstra Pride", "Hofstra", "#00337D", "#FFC72C"),
+        Team("monmouth", "2405", "MONM", "Monmouth Hawks", "Monmouth", "#041E42", "#FFFFFF"),
+        Team("nc-at", "2448", "NCAT", "North Carolina A&T Aggies", "NC A&T", "#004684", "#FDB927"),
+        Team("northeastern", "111", "NE", "Northeastern Huskies", "Northeastern", "#C8102E", "#000000"),
+        Team("stony-brook", "2619", "STBK", "Stony Brook Seawolves", "Stony Brook", "#990000", "#16243E"),
+        Team("towson", "119", "TOW", "Towson Tigers", "Towson", "#000000", "#FFBB00"),
+        Team("uncw", "350", "UNCW", "UNC Wilmington Seahawks", "UNC Wilmington", "#006666", "#FFD400"),
+        Team("william-mary", "2729", "W&M", "William & Mary Tribe", "William & Mary", "#115740", "#B9975B"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="caa/",
+    theme="harbor",
+    odds_aliases={
+        "College of Charleston Cougars": "charleston",
+        "NC A&T Aggies": "nc-at",
+        "N Carolina A&T Aggies": "nc-at",
+        "UNCW Seahawks": "uncw",
+        "William and Mary Tribe": "william-mary",
+    },
+    news_names={
+        "campbell": {"query": "Campbell Fighting Camels basketball", "match": [r"\bFighting Camels\b", r"\bCampbell University\b"]},
+        "charleston": {"query": "Charleston Cougars basketball", "match": [r"\bCharleston Cougars\b", r"\bCollege of Charleston\b", r"\bCofC\b"]},
+        "drexel": {"query": "Drexel Dragons basketball", "match": [r"\bDrexel\b"]},
+        "elon": {"query": "Elon Phoenix basketball", "match": [r"\bElon Phoenix\b", r"\bElon University\b"]},
+        "hampton": {"query": "Hampton Pirates basketball", "match": [r"\bHampton Pirates\b", r"\bHampton University\b"]},
+        "hofstra": {"query": "Hofstra Pride basketball", "match": [r"\bHofstra\b"]},
+        "monmouth": {"query": "Monmouth Hawks basketball", "match": [r"\bMonmouth Hawks\b", r"\bMonmouth University\b"]},
+        "nc-at": {"query": "North Carolina A&T Aggies basketball", "match": [r"\bN\.?C\.? A&T\b", r"\bNorth Carolina A&T\b"]},
+        "northeastern": {"query": "Northeastern Huskies basketball", "match": [r"\bNortheastern\b(?! Illinois| State)"]},
+        "stony-brook": {"query": "Stony Brook Seawolves basketball", "match": [r"\bStony Brook\b", r"\bSeawolves\b"]},
+        "towson": {"query": "Towson Tigers basketball", "match": [r"\bTowson\b"]},
+        "uncw": {"query": "UNC Wilmington Seahawks basketball", "match": [r"\bUNCW\b", r"\bUNC Wilmington\b"]},
+        "william-mary": {"query": "William & Mary Tribe basketball", "match": [r"\bWilliam (&|and) Mary\b", r"\bW&M\b"]},
+    },
+    league_feed=("caasports.com", "CAA (caasports.com)"),
+    hashtag="CAAHoops",
+    tournament="the CAA tournament",
+)
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA)}
 
 
 def current() -> League:
