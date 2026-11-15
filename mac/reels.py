@@ -40,6 +40,7 @@ from typing import Any, Callable
 import requests
 
 from . import alert
+from . import tags as hashtags
 from .youtube import title
 
 REPO = "Haganational/mac-26-27"
@@ -57,11 +58,11 @@ SHOW_PAGE = {"midmaxx60": f"{SITE}/midmaxx60.html", "bigmid": f"{SITE}/watch.htm
 
 # ---------- the post text ----------
 
-def caption(stem: str, description: str, show: str, limit: int = 2200) -> str:
+def caption(stem: str, description: str, show: str, limit: int = 2200, specific: list[str] | None = None) -> str:
     """Title line (the dedupe key), the show's opening line, the link, tags and the AI disclosure."""
     paras = [p.strip() for p in description.split("\n\n") if p.strip()]
     lead = paras[0] if paras else ""
-    tags = "#Midmaxxing #MidMaxx60 #CollegeBasketball" if show == "midmaxx60" else "#Midmaxxing #TheBigMid #CollegeBasketball"
+    tags = hashtags.line(specific or [])
     parts = [title(stem), lead, f"Full slate: {SHOW_PAGE[show]}", tags, DISCLOSURE]
     text = "\n\n".join(p for p in parts if p)
     if len(text) > limit:  # drop the lead before anything else
@@ -69,9 +70,9 @@ def caption(stem: str, description: str, show: str, limit: int = 2200) -> str:
     return text[:limit]
 
 
-def short_caption(stem: str, show: str) -> str:
+def short_caption(stem: str, show: str, specific: list[str] | None = None) -> str:
     """For Bluesky's 300-character posts and Threads' 500: title, link, tags, disclosure."""
-    tags = "#Midmaxxing #CollegeBasketball"
+    tags = hashtags.line((specific or [])[:2])
     return f"{title(stem)}\n\n{SHOW_PAGE[show]}\n\n{tags}\n{DISCLOSURE}"
 
 
@@ -279,7 +280,8 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
     e = os.environ
     stem = mp4.stem
     head = title(stem)
-    long_text, short_text = caption(stem, description, show), short_caption(stem, show)
+    day = hashtags.from_file(mp4.with_suffix(".tags"))
+    long_text, short_text = caption(stem, description, show, specific=day), short_caption(stem, show, day)
     if net == "facebook":
         page = e["FB_PAGE_ID"].strip()
         token = page_token(page, e["FB_PAGE_TOKEN"].strip())
@@ -319,7 +321,8 @@ def run(out: Path, show: str) -> int:
     txt = out / f"{mp4.stem}.txt"
     description = txt.read_text() if txt.exists() else ""
     if os.environ.get("SOCIAL_DRY_RUN") == "1":
-        print(f"[dry] long caption:\n{caption(mp4.stem, description, show)}\n\n[dry] short caption:\n{short_caption(mp4.stem, show)}")
+        day = hashtags.from_file(mp4.with_suffix(".tags"))
+        print(f"[dry] long caption:\n{caption(mp4.stem, description, show, specific=day)}\n\n[dry] short caption:\n{short_caption(mp4.stem, show, day)}")
         print(f"[dry] would post to: {', '.join(networks(show)) or 'nothing (no secrets set)'}")
         return 0
     nets = networks(show)

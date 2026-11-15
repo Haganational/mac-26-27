@@ -21,7 +21,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert, alumni, anchors, outro, pickem
+from . import alert, alumni, anchors, outro, pickem, tags
 from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
@@ -276,6 +276,13 @@ def disclosure(cloned: bool, names: list[str]) -> str:
     return out
 
 
+def day_tags(segs: list[dict]) -> list[str]:
+    """One to three hashtags from the stories that made the cut, results first: #KentState #MACtion #Drake."""
+    where = {tm.key: (tm, lg) for lg in all_leagues() for tm in lg.teams}
+    order = [sg for sg in segs if sg.get("kind") == "result"] + [sg for sg in segs if sg.get("kind") != "result"]
+    return tags.specific(where[k] for k in (anchors.team_of(sg) for sg in order) if k in where)
+
+
 def render(t: dict, out: Path) -> Path:
     out = out.resolve()
     out.mkdir(parents=True, exist_ok=True)
@@ -362,6 +369,7 @@ def render(t: dict, out: Path) -> Path:
                     "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
     outro.append(video, tail, W, H, FPS)
     (out / f"{stem}.srt").write_text("\n".join(srt))
+    (out / f"{stem}.tags").write_text(" ".join(day_tags(segs)) + "\n")
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     voiced = disclosure(cloned, desk["anchors"])
     (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/midmaxx60.html\n")
