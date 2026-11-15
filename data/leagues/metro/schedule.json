@@ -2174,7 +2174,7 @@
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2182,13 +2182,13 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": null,
+    "score": 58,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:52 - 2nd"
+   "detail": "7:23 - 2nd"
   },
   {
    "game_id": "401909774",
@@ -2218,7 +2218,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2226,13 +2226,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:00 - 1st"
+   "detail": "6:13 - 1st"
   },
   {
    "game_id": "401911017",
@@ -11149,5 +11149,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T18:31:28+00:00"
 }

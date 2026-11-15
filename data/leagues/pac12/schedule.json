@@ -1347,7 +1347,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -1355,13 +1355,13 @@
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:47 - 1st"
+   "detail": "6:33 - 1st"
   },
   {
    "game_id": "401928789",
@@ -8062,5 +8062,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T18:32:39+00:00"
 }
