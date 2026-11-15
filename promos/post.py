@@ -36,12 +36,28 @@ def find_film(token: str, needle: str) -> str:
     return ""
 
 
-def yt_short(token: str, mp4: Path, thumb: Path, title: str, text: str, film: str) -> str:
+def yt_film(token: str, d: Path, f: dict, m: dict) -> str:
+    """Upload the full film itself (public) when the manifest carries a "film" block and it is not on the channel yet."""
+    meta = {"snippet": {"title": f["title"][:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
+                        "description": f["description"], "tags": m.get("yt_tags", [])},
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
+    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
+    vid = Y._call(head.get("Location") or head.get("location"), token, (d / f["file"]).read_bytes(), "video/mp4", "PUT")[0]["id"]
+    print(f"film: uploaded https://youtu.be/{vid}")
+    try:
+        Y._call(f"{Y.UPLOAD}/thumbnails/set?videoId={vid}&uploadType=media", token, (d / f["thumb"]).read_bytes(), "image/jpeg")
+        print("film: thumbnail set")
+    except Exception as ex:  # noqa: BLE001 - the film stays up; the thumbnail can be set by hand
+        print(f"film: thumbnail not set ({ex})")
+    return f"https://youtu.be/{vid}"
+
+
+def yt_short(token: str, mp4: Path, thumb: Path, title: str, text: str, film: str, m: dict) -> str:
     if Y.already_up(token, title):
         return "already on the channel"
     meta = {"snippet": {"title": title[:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
-                        "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{DISCLOSURE}\n\n#Shorts {TAGS}",
-                        "tags": ["Athens Ohio", "Ohio University", "history", "documentary", "Hardwood Bricks"]},
+                        "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{m.get('disclosure', DISCLOSURE)}\n\n#Shorts {m.get('tags', TAGS)}",
+                        "tags": m.get("yt_tags", ["Athens Ohio", "Ohio University", "history", "documentary", "Hardwood Bricks"])},
             "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
     _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
     vid = Y._call(head.get("Location") or head.get("location"), token, mp4.read_bytes(), "video/mp4", "PUT")[0]["id"]
@@ -75,6 +91,10 @@ def main() -> None:
     cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
     token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
     film = m.get("main_url", "").strip() or (find_film(token, m["main_title_contains"]) if token else "")
+    if not film and token and m.get("film") and stage != "dry":
+        film = yt_film(token, path.parent, m["film"], m)
+    if not film and stage == "dry" and m.get("film"):
+        film = "https://youtu.be/(the film, uploaded on the live run)"
     if not film:
         raise SystemExit("film: the full film is not on the channel yet and no main_url is set; nothing posted")
     print(f"film link: {film}")
@@ -82,8 +102,8 @@ def main() -> None:
     failed = 0
     for r in m["reels"]:
         mp4 = path.parent / r["file"]
-        long_text = f"{r['title']}\n\n{r['text']}\n\nWatch the full film: {film}\n\n{TAGS}\n\n{DISCLOSURE}"
-        short_text = f"{r['title']}\n\nFull film: {film}\n\n#Athens #Ohio #History"
+        long_text = f"{r['title']}\n\n{r['text']}\n\nWatch the full film: {film}\n\n{m.get('tags', TAGS)}\n\n{m.get('disclosure', DISCLOSURE)}"
+        short_text = f"{r['title']}\n\nFull film: {film}\n\n{m.get('short_tags', '#Athens #Ohio #History')}"
         assert len(short_text) <= 300, len(short_text)
         url = f"https://github.com/{repo}/releases/download/{m['release']}/{r['file']}"
         nets = R.networks("midmaxx60")
@@ -91,7 +111,7 @@ def main() -> None:
             print(f"--- {r['file']}\n[long]\n{long_text}\n[short]\n{short_text}\n[would post to] youtube, {', '.join(nets)}")
             continue
         try:
-            print(f"youtube: {r['title']}: {yt_short(token, mp4, path.parent / r['thumb'], r['title'], r['text'], film)}")
+            print(f"youtube: {r['title']}: {yt_short(token, mp4, path.parent / r['thumb'], r['title'], r['text'], film, m)}")
         except Exception as ex:  # noqa: BLE001
             failed += 1
             body = ex.read().decode(errors="replace")[:400] if hasattr(ex, "read") else ""

@@ -34,8 +34,8 @@ jobs:
           for m in branch/promos/*/promo.json; do
             d=$(dirname "$m"); tag=$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['release'])" "$m")
             [ "$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['stage'])" "$m")" = "all" ] || continue
-            if gh release view "$tag" >/dev/null 2>&1; then gh release upload "$tag" "$d"/*.mp4 --clobber
-            else gh release create "$tag" "$d"/*.mp4 --target main --title "Athens, Ohio: promo reels" --notes "Vertical promo reels for the film."; fi
+            if gh release view "$tag" >/dev/null 2>&1; then gh release upload "$tag" "$d"/*reel*.mp4 --clobber
+            else gh release create "$tag" "$d"/*reel*.mp4 --target main --title "$tag" --notes "Vertical promo reels for the film."; fi
           done
       - name: Post
         env:
