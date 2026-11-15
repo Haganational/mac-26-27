@@ -124,7 +124,7 @@
       <div class="row" style="--tc:{{ c.home.color or '#666' }}">{{ logo(c.home) }}<div class="nm">{{ c.home.name }}</div><div></div></div>
     </div>
     <div class="chips"><span class="chip">{{ c.day }} · {{ c.when }}</span>{% if c.on %}<span class="chip">{{ c.on }}</span>{% endif %}</div>
-    {% if c.spread is not none %}<div class="lines">
+    {% if c.spread is number %}<div class="lines">
       <div class="stat"><small>Market</small><b>{{ c.home.abbr if c.spread < 0 else c.away.abbr }} −{{ '%g'|format(c.spread|abs) }}</b></div>
       {% if c.total %}<div class="stat"><small>Total</small><b>{{ '%g'|format(c.total) }}</b></div>{% endif %}
       {% if c.model %}<div class="stat model"><small>Our model</small><b>{{ c.home.abbr if c.model < 0 else c.away.abbr }} −{{ '%.1f'|format(c.model|abs) }}</b></div>{% endif %}
