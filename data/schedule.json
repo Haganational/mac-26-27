@@ -1705,21 +1705,21 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:18 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911017",
@@ -1749,7 +1749,7 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1757,13 +1757,13 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:21 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928841",
@@ -9545,5 +9545,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T23:30:43+00:00"
 }

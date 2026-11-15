@@ -1644,21 +1644,21 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:35 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926733",
@@ -1685,7 +1685,7 @@
     "key": "ut-martin",
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": null,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -1693,13 +1693,13 @@
     "key": null,
     "name": "Ecclesia Royals",
     "abbr": "ECCL",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:05 - 1st"
+   "detail": "2:09 - 1st"
   },
   {
    "game_id": "401920962",
@@ -8208,5 +8208,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T23:38:48+00:00"
 }

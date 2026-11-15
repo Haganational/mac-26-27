@@ -1586,7 +1586,7 @@
     "name": "Pacific Tigers",
     "abbr": "PAC",
     "score": 93,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2005",
@@ -1594,12 +1594,12 @@
     "name": "Air Force Falcons",
     "abbr": "AF",
     "score": 69,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911472",
@@ -8714,5 +8714,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T23:31:55+00:00"
 }
