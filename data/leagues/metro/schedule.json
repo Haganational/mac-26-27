@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:00:17+00:00",
+ "fetched_at": "2026-11-15T19:53:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -2206,7 +2206,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-11-15-2026--sports-ncaa-basketball/production/7264702?wsUser=717",
+    "low": 8.0
+   },
    "venue": "Hilton Coliseum",
    "venue_city": "Ames",
    "venue_state": "IA",
@@ -2215,7 +2218,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": 42,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2223,13 +2226,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 36,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:06 - 2nd"
+   "detail": "6:13 - 2nd"
   },
   {
    "game_id": "401911017",
@@ -11146,6 +11149,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T19:32:11+00:00"
+ ]
 }

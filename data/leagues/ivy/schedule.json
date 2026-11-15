@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:15:22+00:00",
+ "fetched_at": "2026-11-15T19:58:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -1423,7 +1423,7 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 75,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1431,13 +1431,13 @@
     "key": "dartmouth",
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": 52,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:01 - 2nd"
+   "detail": "3:54 - 2nd"
   },
   {
    "game_id": "401912210",
@@ -1467,7 +1467,7 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": 54,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1475,13 +1475,13 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 57,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:32 - 2nd"
+   "detail": "5:03 - 2nd"
   },
   {
    "game_id": "401920065",
@@ -1511,7 +1511,7 @@
     "key": null,
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": 17,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1519,13 +1519,13 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": 16,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:01 - 1st"
+   "detail": "3:54 - 1st"
   },
   {
    "game_id": "401924744",
@@ -1555,7 +1555,7 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1563,13 +1563,13 @@
     "key": null,
     "name": "Emmanuel (MA) Lions",
     "abbr": "ECMA",
-    "score": 22,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:33 - 1st"
+   "detail": "1:43 - 1st"
   },
   {
    "game_id": "401921182",
@@ -7136,6 +7136,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T19:36:05+00:00"
+ ]
 }

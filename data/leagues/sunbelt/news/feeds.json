@@ -1,7 +1,7 @@
 {
  "google:app-state": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22App+State+Mou",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -9,8 +9,8 @@
   "url": "https://news.google.com/rss/search?q=%22App+State+Mountaineers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:arkansas-state": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Arkansas+Stat",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -18,8 +18,8 @@
   "url": "https://news.google.com/rss/search?q=%22Arkansas+State+Red+Wolves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:coastal-carolina": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Coastal+Carol",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -27,8 +27,8 @@
   "url": "https://news.google.com/rss/search?q=%22Coastal+Carolina+Chanticleers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:georgia-southern": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Georgia+South",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -36,8 +36,8 @@
   "url": "https://news.google.com/rss/search?q=%22Georgia+Southern+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:georgia-state": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Georgia+State",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -45,8 +45,8 @@
   "url": "https://news.google.com/rss/search?q=%22Georgia+State+Panthers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:james-madison": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22James+Madison",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -54,8 +54,8 @@
   "url": "https://news.google.com/rss/search?q=%22James+Madison+Dukes+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:louisiana": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Louisiana+Rag",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -63,8 +63,8 @@
   "url": "https://news.google.com/rss/search?q=%22Louisiana+Ragin%27+Cajuns+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:louisiana-tech": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Louisiana+Tec",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -72,14 +72,14 @@
   "url": "https://news.google.com/rss/search?q=%22Louisiana+Tech+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:marshall": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
+  "checked_at": "2026-11-15T19:57:33+00:00",
   "entries": 1,
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Marshall+Thun",
+  "error": null,
   "fallback": false,
   "kept": 1,
   "kind": "google",
-  "last_ok": "2026-11-15T18:17:33+00:00",
-  "ok": false,
+  "last_ok": "2026-11-15T19:57:33+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "marshall",
   "url": "https://news.google.com/rss/search?q=%22Marshall+Thundering+Herd+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -87,8 +87,8 @@
   "via_google": false
  },
  "google:old-dominion": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Old+Dominion+",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -96,8 +96,8 @@
   "url": "https://news.google.com/rss/search?q=%22Old+Dominion+Monarchs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:south-alabama": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22South+Alabama",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -105,8 +105,8 @@
   "url": "https://news.google.com/rss/search?q=%22South+Alabama+Jaguars+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:southern-miss": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Southern+Miss",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -114,14 +114,14 @@
   "url": "https://news.google.com/rss/search?q=%22Southern+Miss+Golden+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:troy": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
+  "checked_at": "2026-11-15T19:57:33+00:00",
   "entries": 1,
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Troy+Trojans+",
+  "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T18:17:33+00:00",
-  "ok": false,
+  "last_ok": "2026-11-15T19:57:33+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "troy",
   "url": "https://news.google.com/rss/search?q=%22Troy+Trojans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -129,8 +129,8 @@
   "via_google": false
  },
  "google:ul-monroe": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22UL+Monroe+War",
+  "checked_at": "2026-11-15T19:57:33+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -138,13 +138,13 @@
   "url": "https://news.google.com/rss/search?q=%22UL+Monroe+Warhawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:sunbelt": {
-  "checked_at": "2026-11-15T19:13:07+00:00",
+  "checked_at": "2026-11-15T19:57:33+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 10,
   "kind": "league",
-  "last_ok": "2026-11-15T19:13:07+00:00",
+  "last_ok": "2026-11-15T19:57:33+00:00",
   "ok": true,
   "source": "Sun Belt (sunbeltsports.org)",
   "team": null,

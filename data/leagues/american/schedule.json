@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:10:58+00:00",
+ "fetched_at": "2026-11-15T19:56:56+00:00",
  "season": 2027,
  "games": [
   {
@@ -1986,7 +1986,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-15-2026--sports-ncaa-basketball/production/7413987?wsUser=717",
+    "low": 41.0
+   },
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -1995,7 +1998,7 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": 64,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2003,13 +2006,13 @@
     "key": null,
     "name": "Louisville Cardinals",
     "abbr": "LOU",
-    "score": 61,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:03 - 2nd"
+   "detail": "7:21 - 2nd"
   },
   {
    "game_id": "401925812",
@@ -2036,7 +2039,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 23,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2044,13 +2047,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 29,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:43 - 1st"
+   "detail": "5:25 - 1st"
   },
   {
    "game_id": "401929200",
@@ -11560,7 +11563,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-10-7-2026--sports-ncaa-basketball/production/7405226?wsUser=717",
-    "low": 35.0
+    "low": 33.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
@@ -11814,6 +11817,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T19:34:53+00:00"
+ ]
 }

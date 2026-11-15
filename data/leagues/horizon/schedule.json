@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:57:05+00:00",
+ "fetched_at": "2026-11-15T19:52:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -2141,7 +2141,7 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 28,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2149,13 +2149,13 @@
     "key": null,
     "name": "Capital Crusaders",
     "abbr": "CAPU",
-    "score": 11,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:29 - 1st"
+   "detail": "0:57 - 1st"
   },
   {
    "game_id": "401921168",
@@ -7067,7 +7067,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-1-7-2027--sports-ncaa-basketball/production/7631619?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -8297,7 +8300,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-1-27-2027--sports-ncaa-basketball/production/7631637?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -9147,7 +9153,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-10-2027--sports-ncaa-basketball/production/7631641?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -9597,7 +9606,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-17-2027--sports-ncaa-basketball/production/7631643?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -10377,7 +10389,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-27-2027--sports-ncaa-basketball/production/7631651?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -10440,6 +10455,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T19:31:20+00:00"
+ ]
 }

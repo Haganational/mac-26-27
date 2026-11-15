@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:07:58+00:00",
+ "fetched_at": "2026-11-15T19:56:04+00:00",
  "season": 2027,
  "games": [
   {
@@ -1335,7 +1335,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-sanford-pentagon-11-15-2026--sports-ncaa-basketball/production/7008172?wsUser=717",
+    "low": 198.0
+   },
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -1344,7 +1347,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": 82,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1352,13 +1355,13 @@
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 59,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:39 - 2nd"
+   "detail": "2:22 - 2nd"
   },
   {
    "game_id": "401928789",
@@ -8059,6 +8062,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T19:34:14+00:00"
+ ]
 }

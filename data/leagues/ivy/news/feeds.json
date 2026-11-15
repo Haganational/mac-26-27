@@ -1,16 +1,22 @@
 {
  "google:brown": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Brown+Bears+b",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "entries": 9,
+  "error": null,
+  "fallback": false,
+  "kept": 7,
   "kind": "google",
-  "ok": false,
+  "last_ok": "2026-11-15T19:58:13+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "brown",
-  "url": "https://news.google.com/rss/search?q=%22Brown+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+  "url": "https://news.google.com/rss/search?q=%22Brown+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Brown+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
  },
  "google:columbia": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Columbia+Lion",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -18,8 +24,8 @@
   "url": "https://news.google.com/rss/search?q=%22Columbia+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:cornell": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Cornell+Big+R",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -27,8 +33,8 @@
   "url": "https://news.google.com/rss/search?q=%22Cornell+Big+Red+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:dartmouth": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Dartmouth+Big",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -36,8 +42,8 @@
   "url": "https://news.google.com/rss/search?q=%22Dartmouth+Big+Green+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:harvard": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Harvard+Crims",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -45,8 +51,8 @@
   "url": "https://news.google.com/rss/search?q=%22Harvard+Crimson+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:penn": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Penn+Quakers+",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -54,31 +60,43 @@
   "url": "https://news.google.com/rss/search?q=%22Penn+Quakers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:princeton": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Princeton+Tig",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "entries": 2,
+  "error": null,
+  "fallback": false,
+  "kept": 1,
   "kind": "google",
-  "ok": false,
+  "last_ok": "2026-11-15T19:58:13+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "princeton",
-  "url": "https://news.google.com/rss/search?q=%22Princeton+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+  "url": "https://news.google.com/rss/search?q=%22Princeton+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Princeton+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
  },
  "google:yale": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
-  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Yale+Bulldogs",
+  "checked_at": "2026-11-15T19:58:13+00:00",
+  "entries": 1,
+  "error": null,
+  "fallback": false,
+  "kept": 0,
   "kind": "google",
-  "ok": false,
+  "last_ok": "2026-11-15T19:58:13+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "yale",
-  "url": "https://news.google.com/rss/search?q=%22Yale+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+  "url": "https://news.google.com/rss/search?q=%22Yale+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Yale+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
  },
  "league:ivy": {
-  "checked_at": "2026-11-15T19:15:26+00:00",
+  "checked_at": "2026-11-15T19:58:13+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 10,
   "kind": "league",
-  "last_ok": "2026-11-15T19:15:26+00:00",
+  "last_ok": "2026-11-15T19:58:13+00:00",
   "ok": true,
   "source": "Ivy League (ivyleague.com)",
   "team": null,
