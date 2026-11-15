@@ -18,6 +18,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup, escape
 
 from . import weekly
 from .config import LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
@@ -96,7 +97,7 @@ def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
 
 
 # One accent per conference, used for its tag on the front page. Muted so they sit with the hickory and brick.
-CONF_COLORS = {"mac": "#a8441c", "asun": "#2e7258", "horizon": "#3d5a80", "mw": "#7b5b8f", "metro": "#7a2e3a", "bigwest": "#b0772a", "mvc": "#5c6b2e", "a10": "#4a4f8a", "pac12": "#2f5d62", "wcc": "#8a5a3c"}
+CONF_COLORS = {"mac": "#a8441c", "asun": "#2e7258", "horizon": "#3d5a80", "mw": "#7b5b8f", "metro": "#7a2e3a", "bigwest": "#b0772a", "mvc": "#5c6b2e", "a10": "#4a4f8a", "pac12": "#2f5d62", "wcc": "#8a5a3c", "american": "#356b8c", "sunbelt": "#9a4f6b"}
 
 
 def _age(when: datetime, now: datetime) -> str:
@@ -263,11 +264,19 @@ def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE, mh: dict[str, Any]
 PRIVACY_UPDATED = "November 14, 2026"
 
 
+def nobreak(text: str) -> Markup:
+    """Keep a score ("73-71") on one line: big headlines were breaking it at the hyphen."""
+    return Markup(re.sub(r"(\d+-\d+)", r'<span class="nw">\1</span>', str(escape(text))))
+
+
 def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root = site_root or SITE_ROOT
     eds = [e for lg in LEAGUES.values() if (e := edition(lg, site_root))]
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     names = ", ".join(e["short"] for e in eds[:-1]) + (f" and {eds[-1]['short']}" if len(eds) > 1 else (eds[0]["short"] if eds else ""))
+    # Counts for page titles and the dateline: a list of every conference's name stops reading well past a handful.
+    env.filters["nobreak"] = nobreak
+    env.globals.update(n_conf=len(eds), n_schools=sum(len(LEAGUES[e["key"]].teams) for e in eds if e["key"] in LEAGUES))
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
     recaps = [x for x in sts if x["kind"] == "recap"]

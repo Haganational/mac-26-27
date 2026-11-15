@@ -22,8 +22,8 @@ def test_build_links_canonical_copy_and_writes_robots(tmp_path):
     akron, ysu = ALL["mac"].teams[0].espn_id, next(t.espn_id for t in ALL["horizon"].teams if t.key == "youngstown-state")
     (tmp_path / "games").mkdir(); (tmp_path / "horizon" / "games").mkdir(parents=True)
     (tmp_path / "games" / "1.html").write_text("x"); (tmp_path / "horizon" / "games" / "1.html").write_text("x")
-    (tmp_path / "data.json").write_text(json.dumps({"recent": [_g("1", akron, ysu, True)], "upcoming": [_g("2", akron, "5", False)], "tonight": []}))
-    (tmp_path / "horizon" / "data.json").write_text(json.dumps({"recent": [_g("1", akron, ysu, True)], "tonight": [_g("1", akron, ysu, True), _g("3", ysu, "5", False)]}))
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [_g("1", akron, ysu, True)], "upcoming": [_g("2", akron, "99995", False)], "tonight": []}))
+    (tmp_path / "horizon" / "data.json").write_text(json.dumps({"recent": [_g("1", akron, ysu, True)], "tonight": [_g("1", akron, ysu, True), _g("3", ysu, "99995", False)]}))
     hub.build(tmp_path, "https://x.com/")
     html = (tmp_path / "index.html").read_text()
     assert '<link rel="canonical" href="https://x.com/">' in html and 'href="mac/index.html"' in html
@@ -44,7 +44,7 @@ def test_age_labels():
 def test_front_page_leads_with_our_newest_recap(tmp_path):
     akron = ALL["mac"].teams[0].espn_id
     (tmp_path / "games").mkdir()
-    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [_g("2", akron, "5", False)], "tonight": []}))
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [_g("2", akron, "99995", False)], "tonight": []}))
     page = '<meta property="og:description" content="{d}">\n<meta property="og:image" content="https://x.com/static/og/game-{i}.png">'
     (tmp_path / "games" / "7.html").write_text(page.format(d="Akron won going away.", i=7))
     (tmp_path / "games" / "8.html").write_text(page.format(d="Older one.", i=8))
@@ -62,7 +62,7 @@ def test_front_page_leads_with_our_newest_recap(tmp_path):
         social.SITE_BASE = old
     html = (tmp_path / "index.html").read_text()
     lead = html.index('class="lead')
-    assert html.index("Akron rolled past Toledo 90-70") > lead
+    assert html.index('Akron rolled past Toledo <span class="nw">90-70</span>') > lead
     assert "Akron won going away." not in html, "with the score card the dek would say the score a third time"
     assert 'src="static/og/game-7.png"' in html, "card images are site-relative"
     assert html.index("Akron rolled past Toledo") < html.index("Ohio beat Kent State"), "newest first"
@@ -71,7 +71,7 @@ def test_front_page_leads_with_our_newest_recap(tmp_path):
 def test_front_page_lead_prefers_the_highlight_then_a_photo(tmp_path):
     akron = ALL["mac"].teams[0].espn_id
     (tmp_path / "games").mkdir()
-    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [_g("2", akron, "5", False)], "tonight": []}))
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [], "upcoming": [_g("2", akron, "99995", False)], "tonight": []}))
     clip = ('<meta property="og:description" content="With video.">\n<meta property="og:image" content="https://x.com/static/og/game-7.png">\n'
             '<figure class="hl-video">\n      <div class="hl-frame"><iframe src="https://www.espn.com/core/video/iframe/_/id/42/endcard/false" title="t"></iframe></div></figure>')
     photo = '<meta property="og:description" content="With a photo.">\n<meta property="og:image" content="https://x.com/notes/photos/gym.jpg">'

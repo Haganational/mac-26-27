@@ -24,7 +24,9 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader
 
-ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10", "pac12", "wcc"]  # the order the editions run in the show
+from .leagues import ALL as _EDITIONS
+
+ORDER = list(_EDITIONS)  # the order the editions run in the show: the order of mac/leagues.py ALL, MAC first
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half

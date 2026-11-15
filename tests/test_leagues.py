@@ -123,6 +123,41 @@ def test_wcc_names():
     assert lg.team_for_odds_name("UC San Diego Tritons") is None  # Big West until 2027-28
 
 
+def test_american_names():
+    lg = leagues.AMERICAN
+    assert lg.path == "american/" and len(lg.teams) == 13 and lg.theme == "levee"
+    assert lg.team_for_odds_name("Wichita St Shockers") == "wichita-state"
+    assert lg.team_for_odds_name("Florida Atlantic Owls") == "fau"
+    assert lg.team_for_odds_name("Memphis Tigers") == "memphis"
+    assert lg.team_for_odds_name("Rice Owls") == "rice"
+    assert lg.team_for_odds_name("Kennesaw St Owls") is None  # CUSA
+
+
+def test_sun_belt_names():
+    lg = leagues.SUNBELT
+    assert lg.path == "sunbelt/" and len(lg.teams) == 14 and lg.theme == "liveoak"
+    assert lg.team_for_odds_name("Appalachian St Mountaineers") == "app-state"
+    assert lg.team_for_odds_name("Arkansas St Red Wolves") == "arkansas-state"
+    assert lg.team_for_odds_name("Georgia St Panthers") == "georgia-state"
+    assert lg.team_for_odds_name("Louisiana Ragin' Cajuns") == "louisiana"
+    assert lg.team_for_odds_name("Louisiana Tech Bulldogs") == "louisiana-tech"
+    assert lg.team_for_odds_name("SE Louisiana Lions") is None  # Southland
+    assert lg.team_for_odds_name("Texas St Bobcats") is None  # Pac-12 now
+
+
+def test_every_school_is_in_one_edition_and_editions_match_the_registry():
+    import json
+    seen = {}
+    for lg in leagues.ALL.values():
+        for t in lg.teams:
+            assert t.key not in seen, f"{t.key} is in {seen[t.key]} and {lg.key}"
+            seen[t.key] = lg.key
+    reg = {c["id"]: set(c["teams"]) for c in json.loads((leagues.ROOT / "data/book/conferences.json").read_text())["conferences"]}
+    groups = {"american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
+    for key, gid in groups.items():
+        assert {t.espn_id for t in leagues.ALL[key].teams} == reg[gid], key
+
+
 def test_no_odds_name_belongs_to_two_editions():
     from mac import book
     names = {n for s in book.load_odds() for e in s["events"] for n in (e[2], e[3])}
@@ -137,7 +172,8 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
                     "metro": "MetroConference", "bigwest": "BigWest",
                     "mvc": "MVCHoops", "a10": "A10MBB",
-                    "pac12": "Pac12MBB", "wcc": "WCCHoops"}
+                    "pac12": "Pac12MBB", "wcc": "WCCHoops",
+                    "american": "AmericanMBB", "sunbelt": "SunBeltMBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]

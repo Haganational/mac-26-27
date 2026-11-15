@@ -114,7 +114,7 @@
         {% for side in [away, home] %}{% set c = side.travel %}
         <tr><td>{{ side.abbr }}</td>
           {% if c %}<td class="num">{{ c.rest_days if c.rest_days is not none else "–" }}</td><td class="num">{{ "{:,}".format(c.miles_in) }}</td><td class="num">{{ c.road_streak or "–" }}</td><td class="num">{{ ("%+d h"|format(c.tz_shift)) if c.tz_shift else "same" }}</td>
-          {% else %}<td colspan="4" class="dim">non-MAC team, not tracked</td>{% endif %}</tr>
+          {% else %}<td colspan="4" class="dim">non-{{ LG }} team, not tracked</td>{% endif %}</tr>
         {% endfor %}
       </table>
       <div class="note">Rest is full days off between games. Miles are an estimate from the travel model (see the travel page).</div>

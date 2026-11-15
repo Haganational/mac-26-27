@@ -1,4 +1,4 @@
-"""The At-Large Watch: which teams in our six conferences have a real shot at an at-large NCAA bid.
+"""The At-Large Watch: which teams in our conferences have a real shot at an at-large NCAA bid.
 
 The method, in plain terms
 --------------------------
@@ -239,7 +239,7 @@ def zone(watch: float) -> str:
 
 def watch(ratings: dict[str, Any], bids: dict[str, dict[str, dict[str, Any]]], net: dict[str, int] | None = None,
           now: int = SEASON) -> list[dict[str, Any]]:
-    """Every team in our six conferences, best watch rank first."""
+    """Every team in our conferences, best watch rank first."""
     net = net or {}
     by_id = {t["id"]: t for t in ratings.get("teams", [])}
     n_teams = len(by_id)
