@@ -14,8 +14,10 @@ MidMaxx60 Reel, Facebook 3-4, Threads 4-6, Bluesky more):
   slate    Threads, Bluesky
   desk     Instagram, Facebook, Threads, Bluesky
 
-Same secrets and the same never-twice rule as mac.reels: before posting, the network's recent
-posts are checked for the first line of the caption this card would post there. A failure on one
+Never twice: each post leaves a small posted-<kind>-<network>.txt on the day's release, and a
+network that already has one is skipped. (The caption check alone was not enough: a rerun redraws
+the card from fresher data, its first line can change, and Threads got Players of the Night twice
+on Nov 15.) The network's recent posts are still checked for the caption's first line as a backup. A failure on one
 network does not stop the others; each emails Matthew and the step fails at the end.
 SOCIAL_DRY_RUN=1 prints the plan instead.
 """
@@ -24,7 +26,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
+import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -213,6 +218,31 @@ def post_one(net: str, man: dict[str, Any], folder: Path, tag: str) -> str:
     raise ValueError(net)
 
 
+def _mark(kind: str, net: str) -> str:
+    return f"posted-{kind}-{net}.txt"
+
+
+def marks(tag: str) -> set[str]:
+    """Names of the files on the day's release (empty when gh or the release is missing)."""
+    if not shutil.which("gh"):
+        return set()
+    r = subprocess.run(["gh", "release", "view", tag, "--json", "assets", "-q", ".assets[].name"],
+                       capture_output=True, text=True)
+    return set(r.stdout.split()) if r.returncode == 0 else set()
+
+
+def mark(tag: str, kind: str, net: str, result: str) -> None:
+    """Record on the day's release that this card is on this network."""
+    if not shutil.which("gh"):
+        return
+    with tempfile.TemporaryDirectory() as d:
+        f = Path(d) / _mark(kind, net)
+        f.write_text(f"{datetime.now(timezone.utc).isoformat()} {result}\n")
+        r = subprocess.run(["gh", "release", "upload", tag, str(f), "--clobber"], capture_output=True, text=True)
+        if r.returncode:
+            print(f"cardpost: could not record {f.name}: {r.stderr.strip()}")
+
+
 def run(folder: Path, kind: str, tag: str) -> int:
     f = folder / f"{kind}.json"
     if not f.exists():
@@ -227,9 +257,15 @@ def run(folder: Path, kind: str, tag: str) -> int:
         print(f"[dry] images: {', '.join(man['files'])}\n[dry] would post to: {', '.join(nets) or 'nothing (no secrets set)'}")
         return 0
     failed = 0
+    done = marks(tag)
     for net in nets:
+        if _mark(kind, net) in done:
+            print(f"cardpost: {kind} {net}: already posted today")
+            continue
         try:
-            print(f"cardpost: {kind} {net}: {post_one(net, man, folder, tag)}")
+            result = post_one(net, man, folder, tag)
+            print(f"cardpost: {kind} {net}: {result}")
+            mark(tag, kind, net, result)
         except Exception as ex:  # noqa: BLE001 - one network's trouble must not stop the others
             failed += 1
             print(f"cardpost: {kind} {net} failed: {ex}")
