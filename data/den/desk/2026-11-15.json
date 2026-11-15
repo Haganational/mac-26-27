@@ -1,0 +1,235 @@
+{
+ "date": "2026-11-15",
+ "desk": {
+  "anchor": {
+   "alt": "Alicia Kowalczyk, the Niagara AI anchor",
+   "color": "#582C83",
+   "color2": "#FFFFFF",
+   "initials": "AK",
+   "ink": "#ffffff",
+   "key": "niagara",
+   "name": "Alicia Kowalczyk",
+   "portrait": "den/anchors/niagara.webp",
+   "school": "Niagara",
+   "tag": "AI anchor"
+  },
+  "max": 193,
+  "picks": [
+   {
+    "abbr": "NIA",
+    "game_id": "401909774",
+    "kind": "homer",
+    "short": "Niagara",
+    "side": "away",
+    "team_id": "315",
+    "tip": "2026-11-15T18:00Z",
+    "why": "Homer pick: the anchor's own school, always.",
+    "worth": 97
+   },
+   {
+    "abbr": "EIU",
+    "game_id": "401926068",
+    "kind": "ratings",
+    "short": "E Illinois",
+    "side": "home",
+    "team_id": "2197",
+    "tip": "2026-11-15T20:00Z",
+    "why": "Our ratings 61%, pregame win chance 42%.",
+    "worth": 58
+   },
+   {
+    "abbr": "SLU",
+    "game_id": "401911251",
+    "kind": "ratings",
+    "short": "Saint Louis",
+    "side": "home",
+    "team_id": "139",
+    "tip": "2026-11-15T20:00Z",
+    "why": "Our ratings 88%, pregame win chance 70%.",
+    "worth": 30
+   },
+   {
+    "abbr": "LMU",
+    "game_id": "401917531",
+    "kind": "ratings",
+    "short": "LMU",
+    "side": "home",
+    "team_id": "2351",
+    "tip": "2026-11-15T21:00Z",
+    "why": "Our ratings 79%, pregame win chance 92%.",
+    "worth": 8
+   }
+  ],
+  "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
+ },
+ "homer": [
+  {
+   "abbr": "NIA",
+   "game_id": "401909774",
+   "key": "niagara",
+   "kind": "homer",
+   "short": "Niagara",
+   "side": "away",
+   "team_id": "315",
+   "tip": "2026-11-15T18:00Z",
+   "why": "Homer pick.",
+   "worth": 97
+  },
+  {
+   "abbr": "QUIN",
+   "game_id": "401924858",
+   "key": "quinnipiac",
+   "kind": "homer",
+   "short": "Quinnipiac",
+   "side": "away",
+   "team_id": "2514",
+   "tip": "2026-11-15T18:00Z",
+   "why": "Homer pick.",
+   "worth": 38
+  },
+  {
+   "abbr": "URI",
+   "game_id": "401920065",
+   "key": "rhode-island",
+   "kind": "homer",
+   "short": "Rhode Island",
+   "side": "home",
+   "team_id": "227",
+   "tip": "2026-11-15T19:00Z",
+   "why": "Homer pick.",
+   "worth": 25
+  },
+  {
+   "abbr": "CSUB",
+   "game_id": "401920136",
+   "key": "csu-bakersfield",
+   "kind": "homer",
+   "short": "CSU Bakersfield",
+   "side": "away",
+   "team_id": "2934",
+   "tip": "2026-11-15T19:00Z",
+   "why": "Homer pick.",
+   "worth": 63
+  },
+  {
+   "abbr": "LAS",
+   "game_id": "401925812",
+   "key": "la-salle",
+   "kind": "homer",
+   "short": "La Salle",
+   "side": "home",
+   "team_id": "2325",
+   "tip": "2026-11-15T19:00Z",
+   "why": "Homer pick.",
+   "worth": 49
+  },
+  {
+   "abbr": "SLU",
+   "game_id": "401911251",
+   "key": "saint-louis",
+   "kind": "homer",
+   "short": "Saint Louis",
+   "side": "home",
+   "team_id": "139",
+   "tip": "2026-11-15T20:00Z",
+   "why": "Homer pick.",
+   "worth": 30
+  },
+  {
+   "abbr": "PFW",
+   "game_id": "401926068",
+   "key": "purdue-fort-wayne",
+   "kind": "homer",
+   "short": "Purdue Fort Wayne",
+   "side": "away",
+   "team_id": "2870",
+   "tip": "2026-11-15T20:00Z",
+   "why": "Homer pick.",
+   "worth": 42
+  },
+  {
+   "abbr": "AF",
+   "game_id": "401934396",
+   "key": "air-force",
+   "kind": "homer",
+   "short": "Air Force",
+   "side": "away",
+   "team_id": "2005",
+   "tip": "2026-11-15T21:00Z",
+   "why": "Homer pick.",
+   "worth": 79
+  },
+  {
+   "abbr": "WMU",
+   "game_id": "401923393",
+   "key": "western-michigan",
+   "kind": "homer",
+   "short": "Western Michigan",
+   "side": "away",
+   "team_id": "2711",
+   "tip": "2026-11-15T21:30Z",
+   "why": "Homer pick.",
+   "worth": 27
+  },
+  {
+   "abbr": "BUF",
+   "game_id": "401911017",
+   "key": "buffalo",
+   "kind": "homer",
+   "short": "Buffalo",
+   "side": "home",
+   "team_id": "2084",
+   "tip": "2026-11-15T22:30Z",
+   "why": "Homer pick.",
+   "worth": 11
+  },
+  {
+   "abbr": "CAN",
+   "game_id": "401911017",
+   "key": "canisius",
+   "kind": "homer",
+   "short": "Canisius",
+   "side": "away",
+   "team_id": "2099",
+   "tip": "2026-11-15T22:30Z",
+   "why": "Homer pick.",
+   "worth": 89
+  },
+  {
+   "abbr": "CP",
+   "game_id": "401920124",
+   "key": "cal-poly",
+   "kind": "homer",
+   "short": "Cal Poly",
+   "side": "away",
+   "team_id": "13",
+   "tip": "2026-11-15T23:00Z",
+   "why": "Homer pick.",
+   "worth": 72
+  },
+  {
+   "abbr": "UTEP",
+   "game_id": "401929419",
+   "key": "utep",
+   "kind": "homer",
+   "short": "UTEP",
+   "side": "home",
+   "team_id": "2638",
+   "tip": "2026-11-16T01:00Z",
+   "why": "Homer pick.",
+   "worth": 7
+  },
+  {
+   "abbr": "SJSU",
+   "game_id": "401911472",
+   "key": "san-jose-state",
+   "kind": "homer",
+   "short": "San Jos\u00e9 St",
+   "side": "home",
+   "team_id": "23",
+   "tip": "2026-11-16T02:00Z",
+   "why": "Homer pick.",
+   "worth": 15
+  }
+ ]
+}
