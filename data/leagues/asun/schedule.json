@@ -1465,7 +1465,7 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -1473,13 +1473,13 @@
     "key": null,
     "name": "Abraham Baldwin Agricultural Stallions",
     "abbr": "ABAC",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:41 - 1st"
   },
   {
    "game_id": "401906783",
@@ -8068,5 +8068,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T17:30:43+00:00"
 }
