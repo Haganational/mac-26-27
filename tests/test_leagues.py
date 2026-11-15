@@ -155,6 +155,15 @@ def test_ivy_and_caa_names():
     assert leagues.CAA.team_for_odds_name("UNC Wilmington Seahawks") == "uncw"
 
 
+def test_cusa_and_socon_names():
+    assert leagues.CUSA.path == "cusa/" and len(leagues.CUSA.teams) == 10 and leagues.CUSA.theme == "watertower"
+    assert leagues.SOCON.path == "socon/" and len(leagues.SOCON.teams) == 11 and leagues.SOCON.theme == "blueridge"
+    assert leagues.CUSA.team_for_odds_name("Florida Int'l Golden Panthers") == "fiu"
+    assert leagues.CUSA.team_for_odds_name("Sam Houston St Bearkats") == "sam-houston"
+    assert leagues.SOCON.team_for_odds_name("Citadel Bulldogs") == "the-citadel"
+    assert leagues.SOCON.team_for_odds_name("East Tennessee St Buccaneers") == "etsu"
+
+
 def test_every_school_is_in_one_edition_and_editions_match_the_registry():
     import json
     seen = {}
@@ -163,7 +172,7 @@ def test_every_school_is_in_one_edition_and_editions_match_the_registry():
             assert t.key not in seen, f"{t.key} is in {seen[t.key]} and {lg.key}"
             seen[t.key] = lg.key
     reg = {c["id"]: set(c["teams"]) for c in json.loads((leagues.ROOT / "data/book/conferences.json").read_text())["conferences"]}
-    groups = {"ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
+    groups = {"cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
     for key, gid in groups.items():
         assert {t.espn_id for t in leagues.ALL[key].teams} == reg[gid], key
 
@@ -184,7 +193,8 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
                     "mvc": "MVCHoops", "a10": "A10MBB",
                     "pac12": "Pac12MBB", "wcc": "WCCHoops",
                     "american": "AmericanMBB", "sunbelt": "SunBeltMBB",
-                    "ivy": "IvyMBB", "caa": "CAAHoops"}
+                    "ivy": "IvyMBB", "caa": "CAAHoops",
+                    "cusa": "CUSAMBB", "socon": "SoConMBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]

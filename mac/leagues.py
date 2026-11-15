@@ -807,8 +807,105 @@ CAA = League(
     tournament="the CAA tournament",
 )
 
+# Conference USA 2026-27 membership from ESPN's conference feed (group 11).
+CUSA = League(
+    key="cusa", short="CUSA", name="Conference USA",
+    region="a long stretch of the South and beyond, from Newark, Delaware and Lynchburg down to Miami, west through Kennesaw, Murfreesboro and Bowling Green to Springfield, Huntsville and Las Cruces",
+    teams=(
+        Team("delaware", "48", "DEL", "Delaware Blue Hens", "Delaware", "#00539F", "#FFD200"),
+        Team("fiu", "2229", "FIU", "FIU Panthers", "FIU", "#081E3F", "#B6862C"),
+        Team("jacksonville-state", "55", "JVST", "Jacksonville State Gamecocks", "Jacksonville State", "#CC0000", "#FFFFFF"),
+        Team("kennesaw-state", "338", "KENN", "Kennesaw State Owls", "Kennesaw State", "#FDBB30", "#0B1315"),
+        Team("liberty", "2335", "LIB", "Liberty Flames", "Liberty", "#002D62", "#C41230"),
+        Team("middle-tennessee", "2393", "MTSU", "Middle Tennessee Blue Raiders", "Middle Tennessee", "#0066CC", "#FFFFFF"),
+        Team("missouri-state", "2623", "MOST", "Missouri State Bears", "Missouri State", "#5E0009", "#FFFFFF"),
+        Team("new-mexico-state", "166", "NMSU", "New Mexico State Aggies", "New Mexico State", "#8C0B42", "#FFFFFF"),
+        Team("sam-houston", "2534", "SHSU", "Sam Houston Bearkats", "Sam Houston", "#F76800", "#FFFFFF"),
+        Team("western-kentucky", "98", "WKU", "Western Kentucky Hilltoppers", "Western Kentucky", "#C60C30", "#FFFFFF"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="cusa/",
+    theme="watertower",
+    odds_aliases={
+        "Florida International Panthers": "fiu",
+        "Florida Int'l Golden Panthers": "fiu",
+        "Jacksonville St Gamecocks": "jacksonville-state",
+        "Kennesaw St Owls": "kennesaw-state",
+        "Middle Tennessee St Blue Raiders": "middle-tennessee",
+        "Missouri St Bears": "missouri-state",
+        "New Mexico St Aggies": "new-mexico-state",
+        "Sam Houston St Bearkats": "sam-houston",
+        "Sam Houston State Bearkats": "sam-houston",
+        "Western Kentucky Hilltoppers": "western-kentucky",
+    },
+    news_names={
+        "delaware": {"query": "Delaware Blue Hens basketball", "match": [r"\bBlue Hens\b", r"\bUniversity of Delaware\b"]},
+        "fiu": {"query": "FIU Panthers basketball", "match": [r"\bFIU\b", r"\bFlorida International\b"]},
+        "jacksonville-state": {"query": "Jacksonville State Gamecocks basketball", "match": [r"\bJacksonville State\b", r"\bJax State\b"]},
+        "kennesaw-state": {"query": "Kennesaw State Owls basketball", "match": [r"\bKennesaw State\b"]},
+        "liberty": {"query": "Liberty Flames basketball", "match": [r"\bLiberty Flames\b", r"\bLiberty University\b"]},
+        "middle-tennessee": {"query": "Middle Tennessee Blue Raiders basketball", "match": [r"\bMiddle Tennessee\b", r"\bMTSU\b", r"\bBlue Raiders\b"]},
+        "missouri-state": {"query": "Missouri State Bears basketball", "match": [r"\bMissouri State\b"]},
+        "new-mexico-state": {"query": "New Mexico State Aggies basketball", "match": [r"\bNew Mexico State\b", r"\bNMSU\b"]},
+        "sam-houston": {"query": "Sam Houston Bearkats basketball", "match": [r"\bSam Houston\b(?! Rockets)", r"\bBearkats\b"]},
+        "western-kentucky": {"query": "Western Kentucky Hilltoppers basketball", "match": [r"\bWestern Kentucky\b", r"\bWKU\b", r"\bHilltoppers\b"]},
+    },
+    league_feed=("conferenceusa.com", "Conference USA (conferenceusa.com)"),
+    hashtag="CUSAMBB",
+    tournament="the Conference USA tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA)}
+# Southern Conference 2026-27 membership from ESPN's conference feed (group 24).
+SOCON = League(
+    key="socon", short="SoCon", name="Southern Conference",
+    region="the Southern Appalachians and the Piedmont, from Lexington, Virginia and Greensboro through Johnson City, Cullowhee and Cookeville to Chattanooga, Spartanburg, Greenville, Charleston, Macon and Birmingham",
+    teams=(
+        Team("chattanooga", "236", "UTC", "Chattanooga Mocs", "Chattanooga", "#00386B", "#E0AA0F"),
+        Team("etsu", "2193", "ETSU", "East Tennessee State Buccaneers", "ETSU", "#041E42", "#FFC72C"),
+        Team("furman", "231", "FUR", "Furman Paladins", "Furman", "#582C83", "#FFFFFF"),
+        Team("mercer", "2382", "MER", "Mercer Bears", "Mercer", "#F76800", "#000000"),
+        Team("samford", "2535", "SAM", "Samford Bulldogs", "Samford", "#002D72", "#C8102E"),
+        Team("tennessee-tech", "2635", "TNTC", "Tennessee Tech Golden Eagles", "Tennessee Tech", "#4F2984", "#FFDD00"),
+        Team("the-citadel", "2643", "CIT", "The Citadel Bulldogs", "The Citadel", "#3975B7", "#FFFFFF"),
+        Team("unc-greensboro", "2430", "UNCG", "UNC Greensboro Spartans", "UNC Greensboro", "#0F2044", "#FFB71B"),
+        Team("vmi", "2678", "VMI", "VMI Keydets", "VMI", "#AE122A", "#FFD619"),
+        Team("western-carolina", "2717", "WCU", "Western Carolina Catamounts", "Western Carolina", "#592C88", "#C1A875"),
+        Team("wofford", "2747", "WOF", "Wofford Terriers", "Wofford", "#886E4C", "#000000"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="socon/",
+    theme="blueridge",
+    odds_aliases={
+        "UT Chattanooga Mocs": "chattanooga",
+        "Tenn-Chattanooga Mocs": "chattanooga",
+        "East Tennessee St Buccaneers": "etsu",
+        "ETSU Buccaneers": "etsu",
+        "Tennessee Tech Golden Eagles": "tennessee-tech",
+        "Citadel Bulldogs": "the-citadel",
+        "UNCG Spartans": "unc-greensboro",
+        "UNC Greensboro Spartans": "unc-greensboro",
+    },
+    news_names={
+        "chattanooga": {"query": "Chattanooga Mocs basketball", "match": [r"\bChattanooga Mocs\b", r"\bMocs\b", r"\bUTC\b"]},
+        "etsu": {"query": "ETSU Buccaneers basketball", "match": [r"\bETSU\b", r"\bEast Tennessee State\b"]},
+        "furman": {"query": "Furman Paladins basketball", "match": [r"\bFurman\b"]},
+        "mercer": {"query": "Mercer Bears basketball", "match": [r"\bMercer Bears\b", r"\bMercer University\b"]},
+        "samford": {"query": "Samford Bulldogs basketball", "match": [r"\bSamford\b"]},
+        "tennessee-tech": {"query": "Tennessee Tech Golden Eagles basketball", "match": [r"\bTennessee Tech\b"]},
+        "the-citadel": {"query": "The Citadel Bulldogs basketball", "match": [r"\bThe Citadel\b"]},
+        "unc-greensboro": {"query": "UNC Greensboro Spartans basketball", "match": [r"\bUNCG\b", r"\bUNC Greensboro\b"]},
+        "vmi": {"query": "VMI Keydets basketball", "match": [r"\bVMI\b", r"\bKeydets\b"]},
+        "western-carolina": {"query": "Western Carolina Catamounts basketball", "match": [r"\bWestern Carolina\b", r"\bCatamounts\b"]},
+        "wofford": {"query": "Wofford Terriers basketball", "match": [r"\bWofford\b"]},
+    },
+    league_feed=("soconsports.com", "SoCon (soconsports.com)"),
+    hashtag="SoConMBB",
+    tournament="the SoCon tournament in Asheville",
+)
+
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON)}
 
 
 def current() -> League:
