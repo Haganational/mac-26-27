@@ -75,3 +75,11 @@ def test_facebook_skips_a_day_already_posted(tmp_path, monkeypatch):
     monkeypatch.setattr(reels, "fb_already", lambda page, token, head: head.endswith("Nov. 14"))
     monkeypatch.setattr(reels, "fb_reel", lambda *a: (_ for _ in ()).throw(AssertionError("posted twice")))
     assert reels.post_one("facebook", "midmaxx60", mp4, DESC) == "already posted"
+
+
+def test_instagram_through_the_page_token():
+    env = {"FB_PAGE_ID": "1", "FB_PAGE_TOKEN": "pt", "IG_USER_ID": "1784"}
+    assert reels.networks("midmaxx60", env) == ["facebook", "instagram"]
+    assert reels.ig_auth(env) == ("pt", "1784", reels.GRAPH)
+    assert reels.ig_auth({**env, "IG_ACCESS_TOKEN": "it"}) == ("it", "1784", reels.IG)
+    assert reels.ig_auth({"IG_ACCESS_TOKEN": "it"}) == ("it", "me", reels.IG)

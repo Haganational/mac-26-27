@@ -8,9 +8,12 @@ on its own once its secrets are set; with none set this prints a note and exits 
 
   Facebook Page (Reel for MidMaxx60, regular Page video for The Big Mid):
       FB_PAGE_ID, FB_PAGE_TOKEN  (a Page token from a long-lived user token; it does not expire)
-  Instagram Reel (MidMaxx60 only; The Big Mid is 16:9):
+  Instagram Reel (MidMaxx60 only; The Big Mid is 16:9), either way:
+      IG_USER_ID alone, with the Instagram account linked to the Facebook Page: posts through
+          graph.facebook.com with FB_PAGE_TOKEN (needs instagram_basic + instagram_content_publish
+          on that token). The Page token does not expire, so this is the preferred setup.
       IG_ACCESS_TOKEN (Instagram API with Instagram Login, instagram_business_content_publish);
-      IG_USER_ID optional, defaults to "me". The token lasts about 60 days.
+          IG_USER_ID optional, defaults to "me". This token lasts about 60 days.
   Threads video (MidMaxx60 only; Threads video tops out at 5 minutes):
       THREADS_ACCESS_TOKEN, THREADS_USER_ID optional (the same secrets mac/social.py uses)
   Bluesky video (both shows; Bluesky takes up to 10 minutes):
@@ -138,19 +141,19 @@ def fb_video(page: str, token: str, mp4: Path, text: str, name: str) -> str:
 
 # ---------- Instagram ----------
 
-def ig_already(user: str, token: str, head: str) -> bool:
-    data = _ok(requests.get(f"{IG}/{user}/media", timeout=30,
+def ig_already(user: str, token: str, head: str, host: str = IG) -> bool:
+    data = _ok(requests.get(f"{host}/{user}/media", timeout=30,
                             params={"fields": "caption", "limit": 15, "access_token": token})).get("data", [])
     return any((m.get("caption") or "").startswith(head) for m in data)
 
 
-def ig_reel(user: str, token: str, url: str, text: str) -> str:
-    c = _ok(requests.post(f"{IG}/{user}/media", timeout=60, data={
+def ig_reel(user: str, token: str, url: str, text: str, host: str = IG) -> str:
+    c = _ok(requests.post(f"{host}/{user}/media", timeout=60, data={
         "media_type": "REELS", "video_url": url, "caption": text, "share_to_feed": "true", "access_token": token}))
     cid = c["id"]
-    _wait(lambda: _ok(requests.get(f"{IG}/{cid}", timeout=30, params={"fields": "status_code", "access_token": token})).get("status_code", ""),
+    _wait(lambda: _ok(requests.get(f"{host}/{cid}", timeout=30, params={"fields": "status_code", "access_token": token})).get("status_code", ""),
           {"FINISHED"}, {"ERROR", "EXPIRED"}, "Instagram")
-    return _ok(requests.post(f"{IG}/{user}/media_publish", timeout=60, data={"creation_id": cid, "access_token": token})).get("id", "")
+    return _ok(requests.post(f"{host}/{user}/media_publish", timeout=60, data={"creation_id": cid, "access_token": token})).get("id", "")
 
 
 # ---------- Threads ----------
@@ -236,6 +239,15 @@ def bsky_video(sess: dict[str, Any], mp4: Path, text: str, size: tuple[int, int]
                              json={"repo": sess["did"], "collection": "app.bsky.feed.post", "record": record})).get("uri", "")
 
 
+def ig_auth(e: Any) -> tuple[str, str, str]:
+    """(token, Instagram user id, API host): an Instagram Login token if set, else the Page token."""
+    own = e.get("IG_ACCESS_TOKEN", "").strip()
+    user = e.get("IG_USER_ID", "").strip()
+    if own:
+        return own, user or "me", IG
+    return e["FB_PAGE_TOKEN"].strip(), user, GRAPH
+
+
 # ---------- the run ----------
 
 def networks(show: str, env: dict[str, str] | None = None) -> list[str]:
@@ -244,7 +256,7 @@ def networks(show: str, env: dict[str, str] | None = None) -> list[str]:
     out = []
     if e.get("FB_PAGE_ID") and e.get("FB_PAGE_TOKEN"):
         out.append("facebook")
-    if show == "midmaxx60" and e.get("IG_ACCESS_TOKEN"):
+    if show == "midmaxx60" and (e.get("IG_ACCESS_TOKEN") or (e.get("IG_USER_ID") and e.get("FB_PAGE_TOKEN"))):
         out.append("instagram")
     if show == "midmaxx60" and e.get("THREADS_ACCESS_TOKEN"):
         out.append("threads")
@@ -265,14 +277,19 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
             return "already posted"
         vid = fb_reel(page, token, mp4, long_text) if show == "midmaxx60" else fb_video(page, token, mp4, long_text, head)
         return f"posted video {vid}"
-    if net in ("instagram", "threads"):
-        token = e[f"{'IG' if net == 'instagram' else 'THREADS'}_ACCESS_TOKEN"].strip()
-        user = e.get(f"{'IG' if net == 'instagram' else 'THREADS'}_USER_ID", "").strip() or "me"
-        if (ig_already if net == "instagram" else th_already)(user, token, head):
+    if net == "instagram":
+        token, user, host = ig_auth(e)
+        if ig_already(user, token, head, host):
             return "already posted"
         url = resolve(release_url(stem, e.get("GITHUB_REPOSITORY", "").strip() or REPO))
-        pid = ig_reel(user, token, url, long_text) if net == "instagram" else th_video(user, token, url, short_text)
-        return f"posted {pid}"
+        return f"posted {ig_reel(user, token, url, long_text, host)}"
+    if net == "threads":
+        token = e["THREADS_ACCESS_TOKEN"].strip()
+        user = e.get("THREADS_USER_ID", "").strip() or "me"
+        if th_already(user, token, head):
+            return "already posted"
+        url = resolve(release_url(stem, e.get("GITHUB_REPOSITORY", "").strip() or REPO))
+        return f"posted {th_video(user, token, url, short_text)}"
     if net == "bluesky":
         sess = bsky_session(e["BSKY_HANDLE"].strip(), e["BSKY_APP_PASSWORD"].strip())
         if bsky_already(sess, head):
