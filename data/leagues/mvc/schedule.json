@@ -1763,7 +1763,7 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 26,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -1771,13 +1771,13 @@
     "key": null,
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": 29,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:56 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927364",
@@ -9368,5 +9368,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T02:32:32+00:00"
+ "live_at": "2026-11-15T02:48:04+00:00"
 }
