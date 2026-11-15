@@ -83,3 +83,13 @@ def test_instagram_through_the_page_token():
     assert reels.ig_auth(env) == ("pt", "1784", reels.GRAPH)
     assert reels.ig_auth({**env, "IG_ACCESS_TOKEN": "it"}) == ("it", "1784", reels.IG)
     assert reels.ig_auth({"IG_ACCESS_TOKEN": "it"}) == ("it", "me", reels.IG)
+
+
+def test_page_token_swaps_a_user_token(monkeypatch):
+    class R:
+        def __init__(self, ok, body): self.ok, self._b = ok, body
+        def json(self): return self._b
+    monkeypatch.setattr(reels.requests, "get", lambda *a, **k: R(True, {"access_token": "page", "id": "1"}))
+    assert reels.page_token("1", "user") == "page"
+    monkeypatch.setattr(reels.requests, "get", lambda *a, **k: R(False, {"error": {}}))
+    assert reels.page_token("1", "page") == "page"

@@ -108,6 +108,15 @@ def _wait(check: Callable[[], str], done: set[str], failed: set[str], what: str)
 
 # ---------- Facebook Page ----------
 
+def page_token(page: str, token: str) -> str:
+    """The Page's own token. A user token (the usual paste mistake) is swapped for it; a Page token comes back as is."""
+    try:
+        r = requests.get(f"{GRAPH}/{page}", timeout=30, params={"fields": "access_token", "access_token": token})
+        return (r.json().get("access_token") if r.ok else None) or token
+    except requests.RequestException:
+        return token
+
+
 def fb_already(page: str, token: str, head: str) -> bool:
     for edge in ("video_reels", "videos"):
         data = _ok(requests.get(f"{GRAPH}/{page}/{edge}", timeout=30,
@@ -272,7 +281,8 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
     head = title(stem)
     long_text, short_text = caption(stem, description, show), short_caption(stem, show)
     if net == "facebook":
-        page, token = e["FB_PAGE_ID"].strip(), e["FB_PAGE_TOKEN"].strip()
+        page = e["FB_PAGE_ID"].strip()
+        token = page_token(page, e["FB_PAGE_TOKEN"].strip())
         if fb_already(page, token, head):
             return "already posted"
         vid = fb_reel(page, token, mp4, long_text) if show == "midmaxx60" else fb_video(page, token, mp4, long_text, head)
