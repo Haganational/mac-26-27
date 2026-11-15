@@ -52,9 +52,25 @@ def yt_film(token: str, d: Path, f: dict, m: dict) -> str:
     return f"https://youtu.be/{vid}"
 
 
+def rethumb(token: str, title: str, thumb: Path, m: dict) -> str:
+    """With "rethumb" set in the manifest, set the thumbnail again on a video that is already up."""
+    if not m.get("rethumb"):
+        return ""
+    ch = Y._call(f"{Y.API}/channels?part=contentDetails&mine=true", token)[0]
+    pl = ch["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    for i in Y._call(f"{Y.API}/playlistItems?part=snippet&maxResults=50&playlistId={pl}", token)[0].get("items", []):
+        if i["snippet"]["title"] == title:
+            try:
+                Y._call(f"{Y.UPLOAD}/thumbnails/set?videoId={i['snippet']['resourceId']['videoId']}&uploadType=media", token, thumb.read_bytes(), "image/jpeg")
+                return ", thumbnail set"
+            except Exception as ex:  # noqa: BLE001
+                return f", thumbnail not set ({ex})"
+    return ", not found for a thumbnail"
+
+
 def yt_short(token: str, mp4: Path, thumb: Path, title: str, text: str, film: str, m: dict) -> str:
     if Y.already_up(token, title):
-        return "already on the channel"
+        return "already on the channel" + rethumb(token, title, thumb, m)
     meta = {"snippet": {"title": title[:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
                         "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{m.get('disclosure', DISCLOSURE)}\n\n#Shorts {m.get('tags', TAGS)}",
                         "tags": m.get("yt_tags", ["Athens Ohio", "Ohio University", "history", "documentary", "Hardwood Bricks"])},
@@ -91,6 +107,8 @@ def main() -> None:
     cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
     token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
     film = m.get("main_url", "").strip() or (find_film(token, m["main_title_contains"]) if token else "")
+    if film and token and m.get("film") and stage != "dry":
+        print(f"film: already on the channel{rethumb(token, m['film']['title'], path.parent / m['film']['thumb'], m)}")
     if not film and token and m.get("film") and stage != "dry":
         film = yt_film(token, path.parent, m["film"], m)
     if not film and stage == "dry" and m.get("film"):
