@@ -1,0 +1,104 @@
+{
+ "google:eastern-illinois": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "eastern-illinois",
+  "url": "https://news.google.com/rss/search?q=%22Eastern+Illinois+Panthers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:lindenwood": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "lindenwood",
+  "url": "https://news.google.com/rss/search?q=%22Lindenwood+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:morehead-state": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "morehead-state",
+  "url": "https://news.google.com/rss/search?q=%22Morehead+State+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:siue": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "siue",
+  "url": "https://news.google.com/rss/search?q=%22SIU+Edwardsville+Cougars+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:southeast-missouri": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "southeast-missouri",
+  "url": "https://news.google.com/rss/search?q=%22Southeast+Missouri+State+Redhawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:southern-indiana": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "southern-indiana",
+  "url": "https://news.google.com/rss/search?q=%22Southern+Indiana+Screaming+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:tennessee-state": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "entries": 1,
+  "error": null,
+  "fallback": false,
+  "kept": 1,
+  "kind": "google",
+  "last_ok": "2026-11-15T21:37:27+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "tennessee-state",
+  "url": "https://news.google.com/rss/search?q=%22Tennessee+State+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Tennessee+State+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:ut-martin": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "ut-martin",
+  "url": "https://news.google.com/rss/search?q=%22UT+Martin+Skyhawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:western-illinois": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "western-illinois",
+  "url": "https://news.google.com/rss/search?q=%22Western+Illinois+Leathernecks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:ovc": {
+  "checked_at": "2026-11-15T21:37:27+00:00",
+  "entries": 10,
+  "error": null,
+  "fallback": false,
+  "kept": 10,
+  "kind": "league",
+  "last_ok": "2026-11-15T21:37:27+00:00",
+  "ok": true,
+  "source": "OVC (ovcsports.com)",
+  "team": null,
+  "url": "https://ovcsports.com/rss.aspx?path=mbball",
+  "used": "https://ovcsports.com/rss.aspx?path=mbball",
+  "via_google": false
+ }
+}

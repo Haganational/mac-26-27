@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:03:35+00:00",
+ "fetched_at": "2026-11-15T21:29:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -2219,21 +2219,21 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "218",
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:45 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920065",
@@ -2277,7 +2277,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:32 - 2nd"
+   "detail": "0:03 - 2nd"
   },
   {
    "game_id": "401911251",
@@ -2321,7 +2321,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:34 - 1st"
+   "detail": "15:16 - 2nd"
   },
   {
    "game_id": "401911211",
@@ -5859,7 +5859,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/howard-university-bison-mens-basketball-tickets-burr-gymnasium-12-10-2026--sports-ncaa-basketball/production/7849036?wsUser=717",
-    "low": 73.0
+    "low": 61.0
    },
    "venue": "Burr Gymnasium",
    "venue_city": "Washington",

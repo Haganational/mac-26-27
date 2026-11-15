@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:05:16+00:00",
+ "fetched_at": "2026-11-15T21:31:24+00:00",
  "season": 2027,
  "games": [
   {
@@ -2036,21 +2036,21 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "218",
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:45 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929200",
