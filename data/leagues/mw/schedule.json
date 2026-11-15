@@ -1512,7 +1512,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 15,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -1520,13 +1520,13 @@
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 29,
+    "score": 34,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:13 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401917530",
@@ -1556,7 +1556,7 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 47,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -1564,13 +1564,13 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 30,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:26 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401934396",
@@ -8727,5 +8727,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T03:46:34+00:00"
+ "live_at": "2026-11-15T04:01:12+00:00"
 }
