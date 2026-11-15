@@ -2100,7 +2100,7 @@
     "key": null,
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": 26,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2108,13 +2108,13 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 22,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:42 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928825",
@@ -10444,5 +10444,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T01:16:03+00:00"
+ "live_at": "2026-11-15T01:31:03+00:00"
 }
