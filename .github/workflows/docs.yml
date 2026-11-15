@@ -7,7 +7,7 @@ name: Documentary rough cut
 on:
   push:
     branches: ["claude/**"]
-    paths: ["docs/*/lines.json", "docs/*/broll_queries.json", "docs/*/clips.json", "tools/docs_render.py", "tools/broll_scout.py", ".github/workflows/docs.yml"]
+    paths: ["docs/*/lines.json", "docs/*/broll_queries.json", "docs/*/clips.json", "docs/*/clips/**", "docs/*/photos/**", "tools/docs_render.py", "tools/broll_scout.py", ".github/workflows/docs.yml"]
   workflow_dispatch:
     inputs:
       doc: {description: "Doc folder under docs/", default: "athens"}
