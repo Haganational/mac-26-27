@@ -1570,7 +1570,7 @@
     "key": "san-francisco",
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": 21,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -1578,13 +1578,13 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 43,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917530",
@@ -9440,5 +9440,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T00:49:18+00:00"
+ "live_at": "2026-11-15T01:04:01+00:00"
 }

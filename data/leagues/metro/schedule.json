@@ -2010,21 +2010,21 @@
     "key": null,
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": 74,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "2363",
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": 56,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920867",
@@ -2051,7 +2051,7 @@
     "key": "fairfield",
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 27,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2059,13 +2059,13 @@
     "key": null,
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 30,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:03 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921775",
@@ -2095,7 +2095,7 @@
     "key": null,
     "name": "Villanova Wildcats",
     "abbr": "VILL",
-    "score": 37,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2103,13 +2103,13 @@
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 20,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:26 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911308",
@@ -2150,10 +2150,10 @@
     "score": 44,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401909774",
@@ -11156,5 +11156,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T00:47:03+00:00"
+ "live_at": "2026-11-15T01:01:57+00:00"
 }
