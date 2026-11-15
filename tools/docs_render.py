@@ -17,7 +17,8 @@ ROOT = Path(__file__).resolve().parent.parent
 F = ROOT / "templates/static/fonts"
 W, H, FPS, SR = 1280, 720, 25, 24000
 PAGE, INK, MUTED, GOLD = (21, 17, 13), (239, 230, 214), (143, 132, 116), (240, 199, 94)
-GAP, TAIL, CARD = 0.22, 0.55, 4.0
+GAP, TAIL, CARD = 0.15, 0.4, 4.0
+TEMPO = float(os.environ.get("DOC_TEMPO", "1.1"))  # Matthew, Nov 14: voiceovers a touch faster
 CLIPDIR = Path(".")
 
 
@@ -115,11 +116,11 @@ def voice(lines, voices, work, use_voice):
                 out.append(read_wav(wav)); continue
         if not chunks:
             n = len(lines[i]["say"].split())
-            secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else max(2.2, n / 2.4 + TAIL)
+            secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else max(2.2, n / (2.4 * TEMPO) + TAIL)
             out.append(np.zeros(int(secs * SR), np.int16)); continue
         parts = []
         for c in chunks:
-            norm = c.with_suffix(".24k.wav"); ff("-i", str(c), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(norm))
+            norm = c.with_suffix(".24k.wav"); ff("-i", str(c), "-af", f"atempo={TEMPO}", "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(norm))
             parts += [read_wav(norm), np.zeros(int(GAP * SR), np.int16)]
         parts[-1] = np.zeros(int(TAIL * SR), np.int16)
         out.append(np.concatenate(parts))
