@@ -2,40 +2,29 @@
  "date": "2026-11-15",
  "desk": {
   "anchor": {
-   "alt": "Simone Baptiste, the Buffalo AI anchor",
-   "color": "#005BBB",
+   "alt": "Alicia Kowalczyk, the Niagara AI anchor",
+   "color": "#582C83",
    "color2": "#FFFFFF",
-   "initials": "SB",
+   "initials": "AK",
    "ink": "#ffffff",
-   "key": "buffalo",
-   "name": "Simone Baptiste",
-   "portrait": "den/anchors/buffalo.webp",
-   "school": "Buffalo",
+   "key": "niagara",
+   "name": "Alicia Kowalczyk",
+   "portrait": "den/anchors/niagara.webp",
+   "school": "Niagara",
    "tag": "AI anchor"
   },
-  "max": 140,
+  "max": 227,
   "picks": [
    {
-    "abbr": "BUF",
-    "game_id": "401911017",
+    "abbr": "NIA",
+    "game_id": "401909774",
     "kind": "homer",
-    "short": "Buffalo",
-    "side": "home",
-    "team_id": "2084",
-    "tip": "2026-11-15T22:30Z",
+    "short": "Niagara",
+    "side": "away",
+    "team_id": "315",
+    "tip": "2026-11-15T18:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 11
-   },
-   {
-    "abbr": "EIU",
-    "game_id": "401926068",
-    "kind": "ratings",
-    "short": "E Illinois",
-    "side": "home",
-    "team_id": "2197",
-    "tip": "2026-11-15T20:00Z",
-    "why": "Our ratings 61%, pregame win chance 42%.",
-    "worth": 58
+    "worth": 97
    },
    {
     "abbr": "SLU",
@@ -45,8 +34,19 @@
     "side": "home",
     "team_id": "139",
     "tip": "2026-11-15T20:00Z",
-    "why": "Our ratings 88%, pregame win chance 70%.",
+    "why": "Our ratings 89%, pregame win chance 70%.",
     "worth": 30
+   },
+   {
+    "abbr": "EIU",
+    "game_id": "401926068",
+    "kind": "ratings",
+    "short": "E Illinois",
+    "side": "home",
+    "team_id": "2197",
+    "tip": "2026-11-15T20:00Z",
+    "why": "Our ratings 60%, pregame win chance 42%.",
+    "worth": 58
    },
    {
     "abbr": "AAMU",
@@ -56,13 +56,25 @@
     "side": "home",
     "team_id": "2010",
     "tip": "2026-11-15T20:00Z",
-    "why": "Our ratings 74%, pregame win chance 59%.",
-    "worth": 41
+    "why": "Our ratings 74%, pregame win chance 58%.",
+    "worth": 42
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
  },
  "homer": [
+  {
+   "abbr": "QUIN",
+   "game_id": "401924858",
+   "key": "quinnipiac",
+   "kind": "homer",
+   "short": "Quinnipiac",
+   "side": "away",
+   "team_id": "2514",
+   "tip": "2026-11-15T17:00Z",
+   "why": "Homer pick.",
+   "worth": 38
+  },
   {
    "abbr": "NIA",
    "game_id": "401909774",
@@ -74,18 +86,6 @@
    "tip": "2026-11-15T18:00Z",
    "why": "Homer pick.",
    "worth": 97
-  },
-  {
-   "abbr": "QUIN",
-   "game_id": "401924858",
-   "key": "quinnipiac",
-   "kind": "homer",
-   "short": "Quinnipiac",
-   "side": "away",
-   "team_id": "2514",
-   "tip": "2026-11-15T18:00Z",
-   "why": "Homer pick.",
-   "worth": 38
   },
   {
    "abbr": "URI",
@@ -145,7 +145,7 @@
    "team_id": "325",
    "tip": "2026-11-15T20:00Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 58
   },
   {
    "abbr": "PFW",
@@ -218,18 +218,6 @@
    "tip": "2026-11-15T23:00Z",
    "why": "Homer pick.",
    "worth": 72
-  },
-  {
-   "abbr": "UTEP",
-   "game_id": "401929419",
-   "key": "utep",
-   "kind": "homer",
-   "short": "UTEP",
-   "side": "home",
-   "team_id": "2638",
-   "tip": "2026-11-16T01:00Z",
-   "why": "Homer pick.",
-   "worth": 6
   },
   {
    "abbr": "SJSU",

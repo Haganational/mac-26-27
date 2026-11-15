@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T23:02:56+00:00",
+ "fetched_at": "2026-11-15T12:02:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2083,10 +2083,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/villanova-wildcats-mens-basketball-tickets-finneran-pavilion-11-14-2026--sports-ncaa-basketball/production/7483897?wsUser=717",
-    "low": 9.0
-   },
+   "tickets": null,
    "venue": "Finneran Pavilion",
    "venue_city": "Villanova",
    "venue_state": "PA",
@@ -2127,10 +2124,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-11-14-2026--sports-ncaa-basketball/production/7518055?wsUser=717",
-    "low": 25.0
-   },
+   "tickets": null,
    "venue": "MVP Arena",
    "venue_city": "Albany",
    "venue_state": "NY",
@@ -2156,52 +2150,8 @@
    "detail": "Final"
   },
   {
-   "game_id": "401909774",
-   "date": "2026-11-15T18:00Z",
-   "name": "Niagara Purple Eagles at Iowa State Cyclones",
-   "short_name": "NIA @ ISU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN2",
-     "kind": "TV",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-11-15-2026--sports-ncaa-basketball/production/7264702?wsUser=717",
-    "low": 7.0
-   },
-   "venue": "Hilton Coliseum",
-   "venue_city": "Ames",
-   "venue_state": "IA",
-   "home": {
-    "espn_id": "66",
-    "key": null,
-    "name": "Iowa State Cyclones",
-    "abbr": "ISU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "315",
-    "key": "niagara",
-    "name": "Niagara Purple Eagles",
-    "abbr": "NIA",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401924858",
-   "date": "2026-11-15T18:00Z",
+   "date": "2026-11-15T17:00Z",
    "name": "Quinnipiac Bobcats at Central Connecticut Blue Devils",
    "short_name": "QUIN @ CCSU",
    "season_type": "reg",
@@ -2232,6 +2182,50 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401909774",
+   "date": "2026-11-15T18:00Z",
+   "name": "Niagara Purple Eagles at Iowa State Cyclones",
+   "short_name": "NIA @ ISU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN2",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-11-15-2026--sports-ncaa-basketball/production/7264702?wsUser=717",
+    "low": 6.0
+   },
+   "venue": "Hilton Coliseum",
+   "venue_city": "Ames",
+   "venue_state": "IA",
+   "home": {
+    "espn_id": "66",
+    "key": null,
+    "name": "Iowa State Cyclones",
+    "abbr": "ISU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "315",
+    "key": "niagara",
+    "name": "Niagara Purple Eagles",
+    "abbr": "NIA",
     "score": null,
     "winner": null
    },
@@ -6349,7 +6343,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-12-20-2026--sports-ncaa-basketball/production/7766039?wsUser=717",
-    "low": 43.0
+    "low": 35.0
    },
    "venue": "Leede Arena",
    "venue_city": "Hanover",
@@ -11155,6 +11149,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T02:16:33+00:00"
+ ]
 }
