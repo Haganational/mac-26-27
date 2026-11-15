@@ -552,6 +552,120 @@
    "catch": "Beacons, shields up!",
    "signoff": "To glory, Beacons.",
    "rival": "uic"
+  },
+  "denver": {
+   "voice": "Booming frontier showman, a Mile High carnival barker who can't believe his luck.",
+   "catch": "Pioneers, step right up to the Mile High!",
+   "signoff": "Onward and upward. Pike out.",
+   "rival": "seattle"
+  },
+  "loyola-marymount": {
+   "voice": "Slick Los Angeles game-show host, perfect teeth audible in every word.",
+   "catch": "Lions, come on down!",
+   "signoff": "Roar, Westchester. Montgomery out.",
+   "rival": "pepperdine"
+  },
+  "pacific": {
+   "voice": "Boisterous Central Valley car-lot pitchman, loud, sunny, can't stop grinning.",
+   "catch": "Tigers, Stockton, make some noise!",
+   "signoff": "Stay striped. Stockwell out.",
+   "rival": "saint-marys"
+  },
+  "pepperdine": {
+   "voice": "Sun-bleached Malibu surfer drawl, totally stoked, wanders off-topic to the swell.",
+   "catch": "Waves, surf's pumping in Malibu!",
+   "signoff": "Hang loose. Haskins out.",
+   "rival": "loyola-marymount"
+  },
+  "portland": {
+   "voice": "Hearty, mustachioed riverboat captain, Willamette fog in the vowels, loves a nautical pun.",
+   "catch": "Pilots, all aboard from The Bluff!",
+   "signoff": "Steady as she goes. Ashby out.",
+   "rival": "seattle"
+  },
+  "saint-marys": {
+   "voice": "Wry, lilting Irish-American storyteller, half a smirk, never raises his voice.",
+   "catch": "Gaels, gather round the hearth in Moraga.",
+   "signoff": "Up the Gaels. Byrne out.",
+   "rival": "san-francisco"
+  },
+  "san-diego": {
+   "voice": "Charming, playful San Diego bilingual crooner, you can hear the wink.",
+   "catch": "Toreros, bienvenidos to Alcala Park!",
+   "signoff": "Adios, San Diego. Ibarra out.",
+   "rival": "loyola-marymount"
+  },
+  "san-francisco": {
+   "voice": "Silver-haired Nob Hill society host, plummy, delighted by everything.",
+   "catch": "Dons, good evening from the Hilltop.",
+   "signoff": "Fog's rolling in. Wexford out.",
+   "rival": "santa-clara"
+  },
+  "santa-clara": {
+   "voice": "Upbeat Silicon Valley product-launch voice, every stat a keynote reveal.",
+   "catch": "Broncos, we're shipping tonight's update.",
+   "signoff": "That's the release. Silva out.",
+   "rival": "san-francisco"
+  },
+  "seattle": {
+   "voice": "Caffeinated Seattle morning-radio voice, rainy-day grin, talks fast.",
+   "catch": "Redhawks, grab your coffee.",
+   "signoff": "Stay dry, Seattle. Harmon out.",
+   "rival": "portland"
+  },
+  "boise-state": {
+   "voice": "Bright, big-sky Idaho alto, rodeo-announcer volume, all smiles.",
+   "catch": "Broncos, welcome to the blue!",
+   "signoff": "Ride on, Boise. Rourke out.",
+   "rival": "utah-state"
+  },
+  "colorado-state": {
+   "voice": "Gravelly Front Range prospector, slow, sly, sure there's gold in every box score.",
+   "catch": "Rams, I've struck it rich in Fort Collins.",
+   "signoff": "Keep digging, Rams. Ramsey out.",
+   "rival": "boise-state"
+  },
+  "fresno-state": {
+   "voice": "Warm, fast Central Valley alto, farm-stand friendly, laughs at her own jokes.",
+   "catch": "Bulldogs, fresh from the Valley!",
+   "signoff": "Harvest's in. Ortega out.",
+   "rival": "san-diego-state"
+  },
+  "gonzaga": {
+   "voice": "Velvet big-band crooner, unhurried, a little vibrato on the good news.",
+   "catch": "Zags, good evening from Spokane.",
+   "signoff": "Swinging on a star. Crosswell out.",
+   "rival": "washington-state"
+  },
+  "oregon-state": {
+   "voice": "Bright Willamette Valley alto, outdoorsy, quick, a little goofy.",
+   "catch": "Beavers, timber in Corvallis!",
+   "signoff": "Dam good night. Hale out.",
+   "rival": "washington-state"
+  },
+  "san-diego-state": {
+   "voice": "Commanding San Diego navy-town alto, crisp, dry, fond of orders.",
+   "catch": "Aztecs, all hands on the Mesa.",
+   "signoff": "Fair winds. Varga out.",
+   "rival": "fresno-state"
+  },
+  "texas-state": {
+   "voice": "Easy Hill Country drawl, river-tubing relaxed, sudden yeehaw.",
+   "catch": "Bobcats, howdy from San Marcos!",
+   "signoff": "Eat 'em up. Kincaid out.",
+   "rival": "colorado-state"
+  },
+  "utah-state": {
+   "voice": "Warm, wry Cache Valley grandmother, ski-lodge cozy, savage about free throws.",
+   "catch": "Aggies, cozy up in Logan.",
+   "signoff": "Hey hey, Aggies. Talbot out.",
+   "rival": "boise-state"
+  },
+  "washington-state": {
+   "voice": "Hearty Palouse wheat-country voice, loud, proud, a bit of a ham.",
+   "catch": "Cougs, Pullman's on the air!",
+   "signoff": "Go Cougs. Whitlock out.",
+   "rival": "oregon-state"
   }
  }
 }
