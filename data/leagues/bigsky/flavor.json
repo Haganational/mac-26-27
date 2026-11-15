@@ -1,0 +1,1367 @@
+{
+ "_help": "Big Sky local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "eastern-washington": {
+   "town": "Cheney",
+   "home_floor": "Reese Court",
+   "home_lines": [
+    {
+     "text": "Eastern Washington's 6,000-seat arena in Cheney opened on June 6, 1975, for the university's spring quarter commencement.",
+     "source": "https://en.wikipedia.org/wiki/Reese_Court",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Eastern Washington's court in Cheney was named in September 1980 for William B. 'Red' Reese, who coached football, basketball and track at the school.",
+     "source": "https://en.wikipedia.org/wiki/Reese_Court",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Reese Court sits in the Special Events Pavilion, called the gem of Eastern Washington's Sports and Recreation Center in Cheney, which hosted the 2004 Big Sky Conference men's basketball tournament.",
+     "source": "https://en.wikipedia.org/wiki/Reese_Court",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Off the main floor at Eastern Washington's Reese Court in Cheney is a conference room named for Red Reese, holding mementos from his coaching era.",
+     "source": "https://en.wikipedia.org/wiki/Reese_Court",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cheney, Washington, is named for Benjamin Pierce Cheney, a Boston railroad tycoon and Northern Pacific director who visited the town only once, on September 18, 1883.",
+     "source": "https://en.wikipedia.org/wiki/Cheney,_Washington",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before it settled on Cheney, the town went by Section Thirteen, Willow Springs, Depot Springs and Billings, the last for a Northern Pacific Company president.",
+     "source": "https://en.wikipedia.org/wiki/Cheney,_Washington",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "After Spokane Falls won a disputed vote for Spokane County seat, armed Cheney residents seized the auditor's records in the 'Grand Steal,' and Cheney held the seat until 1886.",
+     "source": "https://en.wikipedia.org/wiki/Cheney,_Washington",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cheney sits on rolling Palouse hills overlooking Channeled Scablands carved by the Missoula Floods, with Turnbull National Wildlife Refuge about six miles south of town.",
+     "source": "https://en.wikipedia.org/wiki/Cheney,_Washington",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Seattle Seahawks held most of their summer training camps at Eastern Washington in Cheney from 1976 to 1985 and again from 1997 through 2006.",
+     "source": "https://en.wikipedia.org/wiki/Cheney,_Washington",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Eastern Washington University traces its origins to the Benjamin P. Cheney Academy, established in Cheney in 1882 with a $10,000 donation from the railroad man himself.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Cheney school became Eastern Washington College of Education in 1937, Eastern Washington State College in 1961 and Eastern Washington University in 1977.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "William B. 'Red' Reese led Eastern Washington's teams, then the Savages, from 1930 to 1964, serving as head coach of football, basketball and track in Cheney.",
+     "source": "https://en.wikipedia.org/wiki/Reese_Court",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Eastern Washington played its first men's basketball season in 1903-04 and has been a member of the Big Sky Conference since 1987.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Eastern Washington reached its first NCAA tournament in 2004 as a 15 seed and lost 75-56 to second-seeded Oklahoma State.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 14 seed in the 2021 NCAA tournament, Eastern Washington lost 93-84 to third-seeded Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rodney Stuckey was the 2006 Big Sky MVP at Eastern Washington, went 15th overall to the Detroit Pistons in 2007 and had his No. 3 jersey retired in 2008.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "David Riley went 62-38 as Eastern Washington's coach from 2021 to 2024 and was named Big Sky Coach of the Year in 2023 and 2024.",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Washington_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    }
+   ]
+  },
+  "idaho": {
+   "town": "Moscow",
+   "home_floor": "ICCU Arena",
+   "home_lines": [
+    {
+     "text": "The Idaho Vandals play in Moscow at Idaho Central Credit Union Arena, which opened in 2021 and seats 4,200.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_Vandals_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Idaho's ICCU Arena in Moscow was built entirely of wood from the University of Idaho's Experimental Forest, under a curved wooden roof designed by StructureCraft.",
+     "source": "https://en.wikipedia.org/wiki/ICCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The playing surface of Idaho's ICCU Arena is Bud Ford Court, named after a $2.5 million donation, while the credit union holds 35-year naming rights tied to a $10 million gift.",
+     "source": "https://en.wikipedia.org/wiki/ICCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Idaho women played the first official game at ICCU Arena on November 9, 2021, beating Lewis-Clark College 95-46, and the Vandal men lost 95-89 in overtime to Long Beach State the next day.",
+     "source": "https://en.wikipedia.org/wiki/ICCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "ICCU Arena gave Idaho basketball a basketball-centric home in Moscow to replace Memorial Gymnasium, which the Vandal programs had left for the Kibbie Dome in 1976.",
+     "source": "https://en.wikipedia.org/wiki/ICCU_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Moscow's first permanent settlers arrived in 1871, and because farmers' pigs favored the abundant camas bulbs, the area was nicknamed 'Hog Heaven.'",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moscow's first post office opened in 1872 under the name Paradise Valley, and the town was renamed Moscow in 1875, though the old name lives on in Paradise Creek.",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "No conclusive proof links Moscow, Idaho, to the Russian capital, and one account traces the town's name to a Native American tribe called 'Masco.'",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moscow holds the Lionel Hampton Jazz Festival each April, and its Carnegie-funded library of 1906 is on the National Register of Historic Places.",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moscow is the county seat of Latah County on the Washington border, home to over 60 percent of the county's residents, with 4,983-foot Moscow Mountain to the northeast.",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The territorial legislature placed the University of Idaho in Moscow in 1889 to appease northern residents, and the school opened on October 3, 1892, with 40 students.",
+     "source": "https://en.wikipedia.org/wiki/Moscow,_Idaho",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Idaho's official colors are silver and gold, chosen to honor the state's mining tradition.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Idaho",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Hello Walk, one of the most traveled paths on the University of Idaho campus in Moscow, includes the Presidential Grove, where figures such as Theodore Roosevelt planted trees.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Idaho",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Idaho's 1962-63 team went 20-6 behind future Hall of Famer Gus Johnson, who became the 10th overall pick in the 1963 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_Vandals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho's 1981-82 team went 27-3 under Don Monson, finished sixth in both polls and beat Iowa 69-67 in overtime to reach the NCAA Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_Vandals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Orlando Lightfoot is the all-time leading scorer in the history of Idaho Vandals men's basketball, with 2,102 career points for the program.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_Vandals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho returned to the NCAA tournament in 2026 for the first time since 1990, losing 78-47 to Houston as a 15 seed under Alex Pribble.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_Vandals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho and Montana, the two original Big Sky members, had met 210 times in men's basketball before February 2026, and Idaho had won 112 of those games.",
+     "source": "https://govandals.com/news/2026/2/6/mens-basketball-vandals-to-renew-storied-history-with-griz-in-missoula.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Alex Pribble is the head men's basketball coach at Idaho and announced the Vandals' 2026-27 Big Sky schedule in August 2026.",
+     "source": "https://govandals.com/news/2026/8/25/mens-basketball-idaho-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "idaho-state": {
+   "town": "Pocatello",
+   "home_floor": "Reed Gym",
+   "home_lines": [
+    {
+     "text": "Reed Gym, the 3,214-seat home of Idaho State basketball in Pocatello, opened in 1951 and was renovated in 2002 and 2010.",
+     "source": "https://en.wikipedia.org/wiki/Reed_Gym",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Idaho State men's basketball played at Reed Gym from 1951 until the ASISU Minidome opened in 1970, then returned to the Pocatello gym full-time for the 2019-20 season.",
+     "source": "https://en.wikipedia.org/wiki/Reed_Gym",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A capacity crowd of 4,900 packed Reed Gym in Pocatello in 1963 for an Idaho State game against the Idaho Vandals with the King Spud Trophy at stake.",
+     "source": "https://en.wikipedia.org/wiki/Reed_Gym",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Reed Gym in Pocatello hosted the play-in game for the 1957 NCAA West Regionals, in which Idaho State beat Hardin-Simmons by nine points.",
+     "source": "https://en.wikipedia.org/wiki/Reed_Gym",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Pocatello, Idaho, takes its name from Chief Pocatello, a 19th-century leader of the Northern Shoshone.",
+     "source": "https://en.wikipedia.org/wiki/Pocatello,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pocatello was established in 1889, and the expansion of the Union Pacific Railroad turned Pocatello junction into an important transportation crossroads.",
+     "source": "https://en.wikipedia.org/wiki/Pocatello,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pocatello became known as The Gate City for its role as a gateway to Idaho and the Pacific Northwest, and its motto is Gateway to the Northwest.",
+     "source": "https://en.wikipedia.org/wiki/Pocatello,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pocatello sits on the Portneuf River at an elevation of 4,462 feet, and among its nicknames are Poky and U.S. Smile Capital.",
+     "source": "https://en.wikipedia.org/wiki/Pocatello,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pocatello's museums include the Idaho Museum of Natural History, the Fort Hall Replica and Museum, and the Museum of Clean.",
+     "source": "https://en.wikipedia.org/wiki/Pocatello,_Idaho",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Idaho State University in Pocatello began as the Academy of Idaho, created by a bill Governor Frank W. Hunt signed on March 11, 1901; it opened on September 22, 1902.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Idaho State adopted the Bengal in the early 1920s after football coach Ralph Hutchinson, a Princeton alumnus, pushed for a tiger mascot and orange and black as the school colors.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Idaho State's ASISU Minidome in Pocatello opened in 1970, was renamed Holt Arena in 1988, and is described as the oldest enclosed stadium on a college campus in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In the 1977 NCAA tournament, Idaho State upset No. 2 UCLA 76-75 in Provo, Utah, reaching the Elite Eight, still the furthest a Big Sky team has advanced.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_Bengals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho State won nine straight Rocky Mountain Athletic Conference regular-season titles from 1953 through 1961 and played in eight consecutive NCAA tournaments from 1953 to 1960.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_Bengals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho State coaches have moved on to bigger jobs: Steve Belko left for Oregon, John Grayson for Washington, and Jim Killingsworth for Oklahoma State after the 1977 Elite Eight run.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_Bengals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Idaho State's most recent NCAA tournament trip came in 1987, when the 16th-seeded Bengals lost 95-70 to top-seeded UNLV.",
+     "source": "https://en.wikipedia.org/wiki/Idaho_State_Bengals_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ryan Looney is the head coach of Idaho State men's basketball in Pocatello, where he assembled the Bengals' roster for the 2026-27 season.",
+     "source": "https://isubengals.com/news/2026/4/17/mens-basketball-announces-6-new-additions-for-2026-27.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "montana": {
+   "town": "Missoula",
+   "home_floor": "Dahlberg Arena",
+   "home_lines": [
+    {
+     "text": "Dahlberg Arena, the University of Montana's 7,321-seat home floor in Missoula, opened in 1953 as the UM Field House.",
+     "source": "https://en.wikipedia.org/wiki/Dahlberg_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Montana's arena in Missoula was renamed Harry Adams Field House in June 1966 for newly retired track coach Harry Adams, a name it kept until 1999.",
+     "source": "https://en.wikipedia.org/wiki/Dahlberg_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In the 1980s Montana's field house in Missoula was described as the toughest arena for visiting teams in the Big Sky, thanks to its belligerent crowd.",
+     "source": "https://en.wikipedia.org/wiki/Dahlberg_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Dahlberg Arena in Missoula has hosted the Big Sky Conference men's basketball tournament five times, in 1978, 1991, 1992, 2000 and 2012.",
+     "source": "https://en.wikipedia.org/wiki/Dahlberg_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The laminated wood arches of Montana's Dahlberg Arena were built in Portland, Oregon, and the Missoula floor sits about 3,200 feet above sea level.",
+     "source": "https://en.wikipedia.org/wiki/Dahlberg_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Missoula began in 1860 as a trading post called Hellgate Trading Post, founded by Christopher P. Higgins and Frank Worden when the area still belonged to Washington Territory.",
+     "source": "https://en.wikipedia.org/wiki/Missoula,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The name Missoula comes from the Salish name for the Clark Fork River, nmesuletkw, which roughly translates as 'place of frozen water.'",
+     "source": "https://en.wikipedia.org/wiki/Missoula,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "About 13,000 years ago the Missoula valley lay at the bottom of Glacial Lake Missoula, which stood about 950 feet deep over the site of the University of Montana.",
+     "source": "https://en.wikipedia.org/wiki/Missoula,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Missoula sits where five mountain ranges converge, the Bitterroot, Sapphire, Garnet, Rattlesnake and Reservation Divide, and is often called the 'hub of five valleys.'",
+     "source": "https://en.wikipedia.org/wiki/Missoula,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lumber was Missoula's economic mainstay for about 100 years, and the city remains home to the smokejumpers' headquarters and Region 1 of the U.S. Forest Service.",
+     "source": "https://en.wikipedia.org/wiki/Missoula,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Montana was established on February 13, 1893, after Missoula won the legislative vote for the new state university, and it formally opened in 1895.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Montana",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Montana's football team was known as the Bears in 1897, the Grizzlies name was adopted in 1923, and Monte, the grizzly mascot, was born in the mountains of Missoula in fall 1993.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Montana",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The 'M' on Mount Sentinel above the University of Montana began as whitewashed rocks, turned to wood in 1912, to whitewashed granite after a 1915 blizzard, and to concrete in 1968.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Montana",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Montana's deepest NCAA tournament run came in 1975, when Jud Heathcote's Grizzlies finished 21-8 and reached the Sweet 16.",
+     "source": "https://en.wikipedia.org/wiki/Montana_Grizzlies_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 12 seed in the 2006 NCAA tournament, Montana beat fifth-seeded Nevada 87-79 in the first round before falling to Boston College.",
+     "source": "https://en.wikipedia.org/wiki/Montana_Grizzlies_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike Montgomery coached the Montana Grizzlies in the Big Sky Conference for eight seasons, from 1978 to 1986.",
+     "source": "https://en.wikipedia.org/wiki/Montana_Grizzlies_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wayne Tinkle coached Montana from 2006 to 2014, went 158-90 and took the Grizzlies to the NCAA tournament in 2010, 2012 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/Montana_Grizzlies_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Montana State won the first nine basketball meetings with Montana and led 45-16 into the 1930s; the Grizzlies did not take their first series lead until 2018.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Travis DeCuire is the head coach of the Montana Grizzlies and finalized the program's 2026-27 schedule in September 2026.",
+     "source": "https://www.montanasports.com/college/montana-grizzlies/montana-mens-basketball-finalizes-schedule-for-2026-27-season",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "montana-state": {
+   "town": "Bozeman",
+   "home_floor": "Worthington Arena",
+   "home_lines": [
+    {
+     "text": "Montana State's Brick Breeden Fieldhouse in Bozeman, home of Worthington Arena, opened on January 11, 1957, as the MSC Fieldhouse, then the largest clear-span wooden structure in the world.",
+     "source": "https://en.wikipedia.org/wiki/Brick_Breeden_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Montana State's Bozeman fieldhouse was named for coach John 'Brick' Breeden in 1981 and its main arena became Worthington Arena in 1985; both men played on the 1929 Golden Bobcats.",
+     "source": "https://en.wikipedia.org/wiki/Brick_Breeden_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "On April 20, 1960, Gene Fullmer and Joey Giardello fought to a draw for a middleweight title in Bozeman's fieldhouse before a sellout crowd of 12,122.",
+     "source": "https://en.wikipedia.org/wiki/Brick_Breeden_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Montana State's fieldhouse in Bozeman hosted the College National Finals Rodeo every year from 1970 to 1996 except 1979, and its original main floor was dirt.",
+     "source": "https://en.wikipedia.org/wiki/Brick_Breeden_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Bozeman is named for John Bozeman, who platted the town with Daniel Rouse and William Beall in August 1864.",
+     "source": "https://en.wikipedia.org/wiki/Bozeman,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1863 John Bozeman and John Jacob opened the Bozeman Trail, a northern route off the Oregon Trail to Virginia City, which Red Cloud's War closed in 1868.",
+     "source": "https://en.wikipedia.org/wiki/Bozeman,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bozeman's Museum of the Rockies drew national attention through the 1980s fossil finds of Jack Horner, its first curator of paleontology and the model for Jurassic Park's Dr. Alan Grant.",
+     "source": "https://en.wikipedia.org/wiki/Bozeman,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bozeman was once called the 'Sweet Pea Capital of the Nation,' and its Sweet Pea Festival, an arts festival, has been held every year since 1977.",
+     "source": "https://en.wikipedia.org/wiki/Bozeman,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Nelson Story drove some 1,000 Longhorn cattle into Paradise Valley east of Bozeman in 1866 and later donated land to the state for the establishment of Montana State University.",
+     "source": "https://en.wikipedia.org/wiki/Bozeman,_Montana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Montana State University was founded in Bozeman in 1893 as the Agricultural College of the State of Montana, a land-grant school renamed in 1913.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Montana State's giant whitewashed 'M' on the side of Mount Baldy, in the foothills of the Bridger Range above Bozeman, was first built in 1916.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Montana State's colors are blue and gold, its mascot is named Champ, and its men's teams in Bozeman originally played as the Aggies.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Montana State began varsity intercollegiate competition in basketball in 1902, more than two decades before the Bobcats' recognized 1928-29 national championship season.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Montana State is retroactively recognized by the Helms Athletic Foundation and the Premo-Porretta Power Poll as national champion for 1928-29, though the NCAA does not count either title.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cat Thompson played for Montana State from 1926 to 1930, was a four-year All-American and the 1929 Helms Player of the Year, and entered the Naismith Hall of Fame in 1962.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Montana State's 1951 NCAA tournament trip, its first listed appearance, ended with a 50-46 loss to Oklahoma A&M in the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Montana_State_Bobcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Montana State won the first nine basketball meetings with Montana and led the series 45-16 into the 1930s, before the Grizzlies took their first lead in 2018.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Matt Logie is the head men's basketball coach at Montana State and announced the Bobcats' 2026-27 schedule in August 2026.",
+     "source": "https://msubobcats.com/news/2026/8/19/mens-basketball-mens-basketball-announces-2026-27-schedule",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "northern-arizona": {
+   "town": "Flagstaff",
+   "home_floor": "the Walkup Skydome",
+   "home_lines": [
+    {
+     "text": "Northern Arizona's Walkup Skydome cost $8.0 million and opened in 1977, and for its first six years it was the world's largest clear-span timber dome, until the Tacoma Dome arrived in 1983.",
+     "source": "https://en.wikipedia.org/wiki/Walkup_Skydome",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Walkup Skydome in Flagstaff was called the NAU Skydome until 1979, when it was named for J. Lawrence Walkup, Northern Arizona's president from 1957 to 1979.",
+     "source": "https://en.wikipedia.org/wiki/Walkup_Skydome",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Street level at Northern Arizona's Walkup Skydome sits 6,880 feet above sea level, and the building seats 7,000 for Lumberjacks basketball.",
+     "source": "https://en.wikipedia.org/wiki/Walkup_Skydome",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northern Arizona's Walkup Skydome in Flagstaff hosted the Big Sky men's basketball tournament in 1987, 1997, 1998 and 2006.",
+     "source": "https://en.wikipedia.org/wiki/Walkup_Skydome",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Flagstaff takes its name from a flagpole made of a stripped pine tree raised on July 4, 1876, though several competing accounts of the flag's origin survive.",
+     "source": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1894 A. E. Douglass recommended Flagstaff to Percival Lowell as an observatory site, and in 1930 Clyde Tombaugh discovered Pluto from Flagstaff's Lowell Observatory.",
+     "source": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On October 24, 2001, the International Dark-Sky Association recognized Flagstaff as the world's first International Dark-Sky City, building on a 1958 ordinance that banned large searchlights.",
+     "source": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Humphreys Peak, the highest point in Arizona at 12,637 feet, rises about 10 miles north of Flagstaff in the San Francisco Peaks, a sacred site in Hopi culture.",
+     "source": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Flagstaff lies within the largest contiguous ponderosa pine forest in North America, and in the 1890s the Riordan brothers founded the Arizona Lumber and Timber Company there to process timber.",
+     "source": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Arizona University opened on September 11, 1899, with 23 students and two faculty members, and gained university status under its current name in 1966.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Arizona_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The football team of Flagstaff's Northern Arizona Normal School became the Lumberjacks in the fall of 1915, when it beat Winslow High School 26-0, because lumbering was the town's most prominent industry.",
+     "source": "https://library.nau.edu/speccoll/exhibits/first100/Trivia/jacks.html",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Louie statue by Northern Arizona's Skydome was not made for the school; it was sold to the Lumberjack Cafe, appears in the opening of the 1969 film Easy Rider, and was later bought by NAU.",
+     "source": "https://ac.nau.edu/louieslegacy/?p=1911",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Arizona reached its first NCAA tournament in 1998 as a 15 seed and lost 65-62 to Cincinnati in the round of 64.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Arizona_Lumberjacks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Arizona won Big Sky tournament titles in 1998 and 2000, and its second NCAA trip ended with a 61-56 loss to St. John's as a 15 seed.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Arizona_Lumberjacks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Arizona reached the championship game of the 2015 CollegeInsider.com Postseason Tournament as a Big Sky member, losing 71-65 to Evansville.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Arizona_Lumberjacks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Long before Division I, Northern Arizona played in four NAIA tournaments, and its 1947 team finished third in the nation.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Arizona_Lumberjacks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Shane Burcar is the head coach of Northern Arizona men's basketball and added Ben Johnson and Nik Mains to his Lumberjacks staff in August 2026.",
+     "source": "https://nauathletics.com/news/2026/8/19/mens-basketball-ben-johnson-and-nik-mains-announced-to-nau-mens-basketball-coaching-staff.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "northern-colorado": {
+   "town": "Greeley",
+   "home_floor": "Bank of Colorado Arena",
+   "home_lines": [
+    {
+     "text": "Northern Colorado's arena opened on February 4, 1975, as Butler-Hancock Hall, named for longtime coaches Pete Butler and John W. Hancock.",
+     "source": "https://en.wikipedia.org/wiki/Bank_of_Colorado_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A 15-year naming rights deal announced on November 14, 2014, turned Northern Colorado's home floor in Greeley into the Bank of Colorado Arena.",
+     "source": "https://en.wikipedia.org/wiki/Bank_of_Colorado_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bank of Colorado Arena seats 2,992 for Northern Colorado, down from the 4,500 the building held when it opened as Butler-Hancock Hall in 1975.",
+     "source": "https://en.wikipedia.org/wiki/Bank_of_Colorado_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd recorded at Northern Colorado's Bank of Colorado Arena was 4,674, for a game against Wisconsin-Milwaukee on March 18, 1989.",
+     "source": "https://en.wikipedia.org/wiki/Bank_of_Colorado_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2011 Northern Colorado's Greeley arena, then called Butler-Hancock Hall, hosted the finals of the Big Sky Conference men's basketball tournament.",
+     "source": "https://en.wikipedia.org/wiki/Bank_of_Colorado_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Greeley began in 1869 as the Union Colony, an experimental farming community founded by New York Tribune agricultural reporter Nathan Meeker and later renamed for Tribune editor Horace Greeley.",
+     "source": "https://en.wikipedia.org/wiki/Greeley,_Colorado",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Membership in the Union Colony that became Greeley cost $160, and Nathan Meeker selected 700 applications from more than 3,000 people who answered his call for colonists of high moral standards.",
+     "source": "https://en.wikipedia.org/wiki/Union_Colony_of_Colorado",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Union Colony greatly advanced irrigation in northern Colorado, and in the 1870s nearly every member of the Greeley cooperative helped maintain at least one irrigation ditch.",
+     "source": "https://en.wikipedia.org/wiki/Union_Colony_of_Colorado",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Greeley remained a dry municipality until 1972, and neighboring Rosedale and Garden City were incorporated largely so saloons and liquor stores could serve University of Northern Colorado students and faculty.",
+     "source": "https://en.wikipedia.org/wiki/Union_Colony_of_Colorado",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "JBS USA, which began as Monfort of Colorado, is Greeley's largest employer, with 5,141 employees as of May 1, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Greeley,_Colorado",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Northern Colorado opened in Greeley on October 6, 1890, as the State Normal School of Colorado, with Thomas J. Gray as its first president.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Colorado",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Greeley school became Colorado State Teachers College in 1911, Colorado State College in 1957, and the University of Northern Colorado on May 1, 1970.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Colorado",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Colorado's athletes were once called the Teachers; the bear became the Greeley school's mascot in 1923, and the mascot today is Klawz the Bear.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Colorado",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Colorado reached its first NCAA Division I tournament in 2011 as a 15 seed and lost 68-50 to San Diego State, an appearance the NCAA later vacated.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Colorado_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Colorado won the 2018 CollegeInsider.com Postseason Tournament, beating UIC 76-71 in the championship game.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Colorado_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jordan Davis, who played at Northern Colorado from 2015 to 2019, is the Bears' career leader in points, with 2,272, and in assists, with 516.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Colorado_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Colorado completed its move to Division I in 2006, joining the Big Sky Conference after three seasons as an independent.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Colorado_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Steve Smiley is the head coach of Northern Colorado men's basketball and announced the Bears' 2026-27 schedule alongside the Big Sky Conference in August 2026.",
+     "source": "https://uncbears.com/news/2026/8/19/northern-colorado-mens-basketball-announces-2026-schedule",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Dalton Knecht led the Big Sky with 20.2 points per game for Northern Colorado in 2022-23, then went 17th overall to the Los Angeles Lakers in the 2024 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Dalton_Knecht",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "James A. Michener earned a master's degree in education at Colorado State Teachers College in Greeley, and Northern Colorado named its Michener Library for him in October 1972.",
+     "source": "https://en.wikipedia.org/wiki/James_A._Michener",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "portland-state": {
+   "town": "Portland",
+   "home_floor": "Viking Pavilion",
+   "home_lines": [
+    {
+     "text": "Portland State's Viking Pavilion originally opened in 1966 and was previously named for Peter W. Stott, whose $1 million challenge grant enabled an earlier renovation of the basketball court.",
+     "source": "https://en.wikipedia.org/wiki/Viking_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Renovation of Portland State's arena began on April 23, 2016, and the rebuilt Viking Pavilion was ready for the 2018-19 academic year at a cost of $52.1 million.",
+     "source": "https://en.wikipedia.org/wiki/Viking_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Viking Pavilion seats 3,094 for Portland State basketball and volleyball and 3,400 for concerts and other events.",
+     "source": "https://en.wikipedia.org/wiki/Viking_Pavilion",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Portland got its name from a coin toss that Francis Pettygrove of Portland, Maine, won two out of three times against Asa Lovejoy of Boston; the Portland Penny is kept at the Oregon Historical Society.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Portland's early settlement was called Stumptown and The Clearing because so many trees had been cut down to make room for it.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Portland's nickname City of Roses was unofficial from 1888 and became official in 2003, and the city holds its Rose Festival each June.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Portland sits at the confluence of the Willamette and Columbia rivers, its bridges have long earned it the nickname Bridgetown, and Tilikum Crossing, opened in 2015, is the newest downtown.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Portland, Oregon, was incorporated on February 8, 1851, when the settlement on the Willamette had over 800 inhabitants.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Portland State began in June 1946 as the Vanport Extension Center, founded by Stephen Edward Epler to serve World War II veterans studying on the G.I. Bill.",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "After the Vanport Flood of May 30, 1948, Portland State became known as 'the college that wouldn't die,' a phrase student Lois Hennessy coined in the Christian Science Monitor.",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Portland State moved downtown in 1953 into the old Lincoln High School buildings on SW Broadway, and its Latin motto translates as 'Let knowledge serve the city.'",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Portland State won the Big Sky tournament in 2008, and its first Division I NCAA tournament trip ended with an 85-61 loss to top-seeded Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Portland State repeated as Big Sky tournament champion in 2009 and lost 77-59 to Xavier as a 13 seed in the NCAA round of 64.",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Portland State fielded no men's basketball team from 1981-82 through 1995-96, returning in 1996-97 as a member of the Big Sky Conference.",
+     "source": "https://en.wikipedia.org/wiki/Portland_State_Vikings_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Portland State won the 2025-26 Big Sky regular-season title, its first in 18 seasons, finishing 20-11 overall and 13-5 in conference play.",
+     "source": "https://hoopdirt.com/?p=1065705",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jase Coburn coaches Portland State men's basketball and in April 2026 signed an extension through the 2030-31 season after being named Big Sky Coach of the Year.",
+     "source": "https://hoopdirt.com/?p=1065705",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Freeman Williams, Portland State's all-time leading scorer, won NCAA scoring titles in 1977 and 1978 and went eighth overall to the Boston Celtics in the 1978 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Freeman_Williams",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "southern-utah": {
+   "town": "Cedar City",
+   "home_floor": "the America First Event Center",
+   "home_lines": [
+    {
+     "text": "Southern Utah's America First Event Center in Cedar City was built in 1985 and was known as the Centrum Arena until it was renamed in 2017.",
+     "source": "https://en.wikipedia.org/wiki/America_First_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The America First Event Center in Cedar City seats 5,300 and is home to Southern Utah basketball, volleyball and gymnastics.",
+     "source": "https://en.wikipedia.org/wiki/America_First_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "America First Credit Union's naming-rights deal for Southern Utah's Cedar City arena was reported at $1.5 million over 10 years.",
+     "source": "https://en.wikipedia.org/wiki/America_First_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Beyond Southern Utah games, the America First Event Center in Cedar City is the centerpiece venue for the Utah Summer Games.",
+     "source": "https://en.wikipedia.org/wiki/America_First_Event_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cedar City was founded on November 11, 1851, by Mormon pioneers sent from Parowan to build an iron works in southern Utah.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_City,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cedar City's iron furnace ran from September 1852 for three years and produced about 25 tons of pig iron before the works closed in 1858.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_City,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cedar City was named for the abundant local trees, which were not cedars but junipers.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_City,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "After a railroad connection was completed in 1923, Cedar City became a tourism gateway to Bryce Canyon, Zion, the Grand Canyon and Cedar Breaks National Monument.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_City,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cedar City is home to the Utah Shakespeare Festival, founded in 1961 by Fred C. Adams on the Southern Utah University campus.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Shakespeare_Festival",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah University opened in Cedar City in 1897 as the Branch Normal School, the first teacher training school in southern Utah.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah has carried five names: Branch Normal School, Branch Agricultural College, College of Southern Utah, Southern Utah State College and, since January 1, 1991, Southern Utah University.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah University in Cedar City, whose athletic teams are the Thunderbirds, is nicknamed the University of the Parks.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah's only NCAA tournament appearance came in 2001, when the 14th-seeded Thunderbirds lost 68-65 to third-seeded Boston College in the East Regional.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_Thunderbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah men's basketball won the Big Sky regular-season championship in 2021, adding to American West tournament titles won in 1995 and 1996.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_Thunderbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah won three games in The Basketball Classic in 2022, beating Kent State, UTEP and Portland, before a 67-48 loss to Fresno State.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_Thunderbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern Utah's 2023 CBI run ended in a 108-106 double-overtime loss to Eastern Kentucky after wins over North Alabama and Rice.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Utah_Thunderbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rob Jeter is the head coach of Southern Utah men's basketball, which played its final Western Athletic Conference season in 2025-26 and moved to the Big Sky Conference for 2026-27.",
+     "source": "https://suutbirds.com/news/2026/3/23/mens-basketball-the-final-season-in-the-wac-is-a-wrap.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "utah-tech": {
+   "town": "St. George",
+   "home_floor": "Burns Arena",
+   "home_lines": [
+    {
+     "text": "Utah Tech's Burns Arena in St. George is named after M. Anthony Burns and has 4,779 permanent seats in 14 sections.",
+     "source": "https://en.wikipedia.org/wiki/Burns_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Utah Tech's Burns Arena in St. George was built in 1987 as the Dixie Center and took its present name when the current incarnation of the Dixie Center opened in 1998.",
+     "source": "https://en.wikipedia.org/wiki/Burns_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Burns Arena in St. George hosted a 1988 preseason game in which the Utah Jazz beat the Indiana Pacers.",
+     "source": "https://en.wikipedia.org/wiki/Burns_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The New Mexico men's basketball team temporarily relocated to Utah Tech's Burns Arena in St. George in January 2021.",
+     "source": "https://en.wikipedia.org/wiki/Burns_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "St. George was founded in 1861 as part of a cotton mission under Latter-day Saint apostle Erastus Snow, and was named after apostle George A. Smith.",
+     "source": "https://en.wikipedia.org/wiki/St._George,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The cotton mission earned the St. George area the nickname Dixie, though cotton never became a successful commodity there.",
+     "source": "https://en.wikipedia.org/wiki/St._George,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The St. George Utah Temple, completed in April 1877, was the church's third temple and is the oldest still in active use.",
+     "source": "https://en.wikipedia.org/wiki/St._George,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "St. George, in the northeasternmost part of the Mojave Desert, set Utah's statewide record high of 118 degrees on July 4, 2007.",
+     "source": "https://en.wikipedia.org/wiki/St._George,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "St. George is the headquarters of SkyWest Airlines and hosted the 2021 Ironman World Championship, the first held outside Hawai'i.",
+     "source": "https://en.wikipedia.org/wiki/St._George,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Utah Tech University was founded in St. George on September 19, 1911, as the St. George Stake Academy and became Utah Tech on July 1, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Utah Tech dropped the Dixie name, effective July 1, 2022, after continued controversy over the term; its teams had been the Rebels from 1952, with a Confederate soldier mascot from 1956.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The St. George school replaced the Rebels with the Red Storm in 2009, and in 2016 became the Trailblazers, with Brooks the Bison as mascot.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Coached by Neil Roberts, Dixie's 1984-85 team went 35-1 and won the junior college national title by beating Kankakee 57-55.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_Trailblazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dixie won its second national title the year after a 2001 Final Four trip, under coach Jeff Kidder and behind the play of Jaime Lloreda in its junior college days in St. George.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_Trailblazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "After moving to NCAA Division II in 2007, the St. George program reached the Division II Sweet 16 in 2011, beating Chaminade and Seattle Pacific.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_Trailblazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Utah Tech men's basketball, a Western Athletic Conference member, was slated to join the Big Sky Conference for the 2026-27 season.",
+     "source": "https://en.wikipedia.org/wiki/Utah_Tech_Trailblazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jon Judkins, the winningest collegiate coach in Utah, had 640 career wins in 34 seasons as of March 2026, 356 of them in 21 seasons at Utah Tech.",
+     "source": "https://utahtechtrailblazers.com/news/2026/3/5/mens-basketball-judkins-named-2025-26-hugh-durham-award-finalist.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "weber-state": {
+   "town": "Ogden",
+   "home_floor": "the Dee Events Center",
+   "home_lines": [
+    {
+     "text": "The Dee Events Center in Ogden opened on November 1, 1977, as a circular, domed arena with 11,592 seats, the largest arena in Utah north of Salt Lake City.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Weber State's Dee Events Center is named for the Lawrence T. Dee family, in recognition of Lawrence T. Dee's extensive work in building the arena.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Dee Events Center in Ogden hosted the 1983 NCAA West Regional, which was won by Jim Valvano's NC State.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Weber State's Dee Events Center sits about 4,780 feet above sea level at street level, the third-highest elevation in the Big Sky.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Dee Events Center in Ogden has hosted the Big Sky men's basketball tournament ten times and NCAA first- and second-round games in 1980, 1986 and 1994.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Ogden traces its start to Fort Buenaventura, established by Miles Goodyear about a mile west of the present downtown and regarded as the first permanent European-descent settlement in Utah.",
+     "source": "https://en.wikipedia.org/wiki/Ogden,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Captain James Brown bought Fort Buenaventura, some livestock and the land now making up Weber County for $3,000, and the settlement was called Brownsville before taking Peter Skene Ogden's name.",
+     "source": "https://en.wikipedia.org/wiki/Ogden,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ogden, nicknamed Junction City and the closest sizable city to the 1869 Golden Spike site, once adopted the chamber of commerce motto: You can't get anywhere without coming to Ogden.",
+     "source": "https://en.wikipedia.org/wiki/Ogden,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the 2002 Winter Olympics, Snowbasin east of Ogden staged alpine skiing and the Ice Sheet in Ogden hosted curling.",
+     "source": "https://en.wikipedia.org/wiki/Ogden,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ogden's largest employer is a regional Internal Revenue Service facility with more than 5,000 workers, and the Ogden and Weber Rivers meet just west of the city limits.",
+     "source": "https://en.wikipedia.org/wiki/Ogden,_Utah",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Weber State University was founded in Ogden in 1889 as Weber Stake Academy by The Church of Jesus Christ of Latter-day Saints, reaching university status on January 1, 1991.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Weber State takes its name from Weber County, which was named for John Henry Weber, an early fur trader in the region.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Weber State was a charter member of the Big Sky Conference in 1963, and its Alumni Association runs an annual Traditions Keeper scavenger hunt across the Ogden campus.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "As a 14th seed in 1995, Weber State upset third-seeded Michigan State 79-72 in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Harold Arceneaux scored 36 points, 20 of them after halftime, as 14th-seeded Weber State beat third-seeded North Carolina 76-74 in the 1999 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Weber State retired the No. 1 jersey of Damian Lillard, who played for the Wildcats from 2008 to 2012, in 2017.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dick Motta went 120-33 as Weber State's coach from 1962 to 1968, and his successor Phil Johnson went 68-16 over the next three seasons.",
+     "source": "https://en.wikipedia.org/wiki/Weber_State_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kaleb Canales, a Laredo, Texas, native who became the NBA's first Hispanic head coach as Portland's interim in 2012, was introduced as Weber State's head coach on April 3, 2026.",
+     "source": "https://weberstatesports.com/news/2026/4/3/mens-basketball-kaleb-canales-introduced-as-new-weber-state-mens-basketball-head-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "idaho|montana": {
+   "name": "Idaho-Montana series",
+   "lines": [
+    {
+     "text": "Idaho had won 112 of its 210 men's basketball games against Montana before February 2026, though the Vandals had dropped each of their last eight contests with the Grizzlies.",
+     "source": "https://govandals.com/news/2026/2/6/mens-basketball-vandals-to-renew-storied-history-with-griz-in-missoula.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Idaho and Montana, the two original Big Sky members, had played 210 men's basketball games before February 2026, and Idaho had won 112 of them.",
+     "source": "https://govandals.com/news/2026/2/6/mens-basketball-vandals-to-renew-storied-history-with-griz-in-missoula.aspx",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "idaho-state|weber-state": {
+   "name": "Idaho State vs. Weber State",
+   "lines": [
+    {
+     "text": "Idaho State's athletics site bills its men's basketball meetings with Weber State as a Big Sky rivalry, a series Weber State led 86-57 as of January 2026.",
+     "source": "https://isubengals.com/news/2026/1/30/mens-basketball-bengals-travel-to-ogden-for-big-sky-rivalry-clash-at-weber-state.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Dee Events Center's record crowd of 11,715 came for a Weber State game against Idaho State on February 23, 1980.",
+     "source": "https://en.wikipedia.org/wiki/Dee_Events_Center",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "idaho|idaho-state": {
+   "name": "King Spud Trophy",
+   "lines": [
+    {
+     "text": "Idaho State and the Idaho Vandals played for the King Spud Trophy and an unofficial state title in 1963, when a capacity crowd of 4,900 filled Pocatello's Reed Gym.",
+     "source": "https://en.wikipedia.org/wiki/Reed_Gym",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "montana|montana-state": {
+   "name": "Brawl of the Wild",
+   "lines": [
+    {
+     "text": "The Montana-Montana State basketball series, also called the Brawl of the Wild, dates back to 1902 and has been played in all but five seasons since 1912.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The 2020-21 Montana-Montana State basketball games were scrapped because of COVID-19, the first season since 1943-44 in which the two schools did not meet.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Montana State-Montana basketball series, also called the Brawl of the Wild, dates back to 1902 and was described in 2022 as the fifth most-played rivalry in college basketball history.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The 2020-21 Montana State-Montana basketball games were canceled because of COVID-19, the first season since 1943-44 in which the Bobcats and Grizzlies did not meet.",
+     "source": "https://gogriz.com/news/2022/1/7/mens-basketball-2-years-in-the-making-griz-cat-rivalry-set-to-make-resurgence-sunday-in-bozeman",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "southern-utah|utah-tech": {
+   "name": "Battle of the Ax",
+   "lines": [
+    {
+     "text": "The Battle of the Ax between Southern Utah and Utah Tech dates to 1937, when Dixie Junior College instructor H. Lorenzo Reid proposed an award to promote good sportsmanship with Branch Agricultural College.",
+     "source": "https://bulletin.utahtech.edu/2023/06/13/a-history-of-the-battle-of-the-ax/",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The original Battle of the Ax trophy was divided between Southern Utah and Utah Tech when the Axe Pact ended in 1963; the schools later made a new ax, now contested only at football games.",
+     "source": "https://bulletin.utahtech.edu/2023/06/13/a-history-of-the-battle-of-the-ax/",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}

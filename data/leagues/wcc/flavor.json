@@ -1,0 +1,1265 @@
+{
+ "_help": "West Coast Conference local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "denver": {
+   "town": "Denver",
+   "home_floor": "Hamilton Gymnasium",
+   "home_lines": [
+    {
+     "text": "Denver's 2,500-seat Hamilton Gymnasium connects through a common lobby to Magness Arena in the University of Denver's Ritchie Center, a 440,000-square-foot building that cost $84 million to construct.",
+     "source": "https://en.wikipedia.org/wiki/Ritchie_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "When Hamilton Gymnasium at the University of Denver is not in use for athletics, its seats roll back to expose three full-sized basketball courts for general recreation.",
+     "source": "https://en.wikipedia.org/wiki/Ritchie_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Denver Pioneers have played all their home games in Hamilton Gymnasium since late in the 2019-20 season, having formerly played most games at the larger Magness Arena.",
+     "source": "https://en.wikipedia.org/wiki/Denver_Pioneers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hamilton Gymnasium, with its retractable seating, is home to the University of Denver's men's and women's basketball programs and to Pioneer volleyball.",
+     "source": "https://denverpioneers.com/sports/2018/5/24/facilities-hamilton-gymnasium-html.aspx",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Denver was founded in 1858, during the Gold Rush era, at the confluence of Cherry Creek and the South Platte River.",
+     "source": "https://en.wikipedia.org/wiki/Denver",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Denver took its name from James W. Denver, then governor of the Kansas Territory, and Denver City shortened its name to plain Denver in 1866.",
+     "source": "https://en.wikipedia.org/wiki/Denver",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Denver's official elevation of one mile, 5,280 feet, is defined by a benchmark on the steps of the State Capitol building.",
+     "source": "https://en.wikipedia.org/wiki/Denver",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On June 24, 1870, Denver citizens cheered as the Denver Pacific completed the city's link to the transcontinental railroad.",
+     "source": "https://en.wikipedia.org/wiki/Denver",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Denver cooking is best known for its green and red chile sauce, and Red Rocks, the world-famous amphitheater in the foothills, sits in a Denver city park.",
+     "source": "https://en.wikipedia.org/wiki/Denver",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Denver dates to 1864, when John Evans founded the Colorado Seminary in a Denver that was still a mining camp; it took its present name in 1880.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Denver",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Denver has used the Pioneers nickname since 1925, after its teams were known as the Fighting Parsons or Fighting Ministers from 1919 to 1925.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Denver",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Denver has had no official mascot since 2008; Ruckus the red-tailed hawk served from 1999 to 2007, after the Denver Boone character drew controversy in 1984.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Denver",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Denver began intercollegiate basketball in 1904, playing its first game on January 16 against the Denver Athletic Club.",
+     "source": "https://en.wikipedia.org/wiki/Denver_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Vince Boryla, a 1948 selection, remains the University of Denver's first and only consensus All-American in men's basketball.",
+     "source": "https://en.wikipedia.org/wiki/Denver_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Through the 2025-26 season Denver had never appeared in the NCAA Division I tournament; the Pioneers' three NIT trips came in 1959, 2005 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/Denver_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Denver moved to NCAA Division II in 1990, reached the Division II tournament in 1992, 1994 and 1996, and rejoined Division I for the 1998-99 season.",
+     "source": "https://en.wikipedia.org/wiki/Denver_Pioneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The University of Denver left the Summit League in July 2026 to join the West Coast Conference.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Denver",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tim Bergstraser became Denver's men's basketball coach on April 14, 2025, arriving from Division II Minnesota State Moorhead.",
+     "source": "https://denverpioneers.com/news/2026/3/4/mens-basketball-denver-head-coach-tim-bergstraser-named-finalist-for-joe-b-hall-award",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "loyola-marymount": {
+   "town": "Westchester",
+   "home_floor": "Gersten Pavilion",
+   "home_lines": [
+    {
+     "text": "Gersten Pavilion opened on the Loyola Marymount campus on January 15, 1981, and hosted the weightlifting competition of the 1984 Summer Olympics.",
+     "source": "https://en.wikipedia.org/wiki/Gersten_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount alumni know Gersten Pavilion as 'Hank's House' in honor of Hank Gathers, and 'This is Hank's House' is recited before every men's basketball game.",
+     "source": "https://en.wikipedia.org/wiki/Gersten_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hank Gathers collapsed on the Gersten Pavilion court during a West Coast Conference tournament game on March 4, 1990, and later died.",
+     "source": "https://en.wikipedia.org/wiki/Gersten_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Gersten Pavilion at Loyola Marymount has also served the Los Angeles Lakers as a part-time practice home.",
+     "source": "https://en.wikipedia.org/wiki/Gersten_Pavilion",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Westchester, the Los Angeles neighborhood around Loyola Marymount, was developed in the late 1930s by Fritz Burns and Fred W. Marlow on the site of a former hog farm.",
+     "source": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Westchester grew with the aerospace industry near Mines Field, the old name of Los Angeles International Airport, which lies entirely within the neighborhood.",
+     "source": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Theme Building at LAX in Westchester opened in 1961, a piece of Googie architecture that resembles a flying saucer landed on its four legs.",
+     "source": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "As jet noise grew at LAX in the 1960s and the city bought out nearby property, Westchester lost 4,500 homes and 14,000 residents.",
+     "source": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Westchester hosted the cross-country portion of the equestrian eventing competition at the 1932 Summer Olympics, four years after Loyola University moved to the area in 1928.",
+     "source": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount traces its roots to St. Vincent's College for Boys, which the Vincentians were commissioned to found in 1865 and ran until 1911.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Loyola University and Marymount College officially merged in 1973 and took the name Loyola Marymount University.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount sits on the Del Rey Hills in Westchester, and its original 99 acres were donated by the real-estate developer Harry Culver.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Under Paul Westhead, Loyola Marymount led Division I in scoring in 1988, 1989 and 1990, peaking at 122.4 points per game in 1990.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount's run to the 1990 Elite Eight included a 149-115 win over Michigan before the Lions were eliminated by UNLV, which went on to win the national championship.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount's 181-150 win over United States International on January 31, 1989, produced a combined 331 points.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount has made five NCAA tournament appearances, in 1961, 1980, 1988, 1989 and 1990, with a combined record of 5-5, though the 1980 appearance was vacated by the NCAA.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stan Johnson is the head coach of Loyola Marymount men's basketball, heading the Lions' 2026-27 coaching staff.",
+     "source": "https://lmulions.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Hank Gathers, a Philadelphian who transferred from USC to Loyola Marymount, averaged 32.7 points and 13.7 rebounds in 1988-89, leading the nation in both.",
+     "source": "https://en.wikipedia.org/wiki/Hank_Gathers",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Bo Kimble led the nation at 35.3 points per game for Loyola Marymount in 1989-90 and shot his first free throw of each game left-handed in memory of Hank Gathers.",
+     "source": "https://en.wikipedia.org/wiki/Bo_Kimble",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "pacific": {
+   "town": "Stockton",
+   "home_floor": "the Spanos Center",
+   "home_lines": [
+    {
+     "text": "The Alex G. Spanos Center in Stockton opened on September 9, 1981, and was constructed for over $7 million.",
+     "source": "https://en.wikipedia.org/wiki/Alex_G._Spanos_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Pacific's Spanos Center is named for Alex Spanos, the late Pacific alumnus who owned the San Diego and Los Angeles Chargers.",
+     "source": "https://en.wikipedia.org/wiki/Alex_G._Spanos_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Spanos Center in Stockton seats 6,150 and can expand to 8,000, with 3,000 chair-back seats and the rest of the capacity in bleachers.",
+     "source": "https://en.wikipedia.org/wiki/Alex_G._Spanos_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Spanos Center was the premier sports and entertainment venue in the Stockton area until Adventist Health Arena was completed in 2005.",
+     "source": "https://en.wikipedia.org/wiki/Alex_G._Spanos_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Pacific's Spanos Center hosted a preseason NBA exhibition between the Los Angeles Clippers and the Sacramento Kings on October 15, 2008.",
+     "source": "https://en.wikipedia.org/wiki/Alex_G._Spanos_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Stockton was founded in 1849, during the Gold Rush, by Charles Maria Weber, who had acquired Rancho Campo de los Franceses.",
+     "source": "https://en.wikipedia.org/wiki/Stockton,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Stockton was named for the Mexican-American War commodore Robert F. Stockton and was the first California community with a name of neither Spanish nor Native American origin.",
+     "source": "https://en.wikipedia.org/wiki/Stockton,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Stockton Deepwater Channel to San Francisco Bay was completed in 1933, and Stockton and Sacramento are California's only inland sea ports.",
+     "source": "https://en.wikipedia.org/wiki/Stockton,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Gurdwara Sahib Stockton, the first Sikh temple in the United States, opened in Stockton on October 24, 1912.",
+     "source": "https://en.wikipedia.org/wiki/Stockton,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Stockton holds its Asparagus Festival every April and carries the nickname 'Asparagus Capital of America.'",
+     "source": "https://en.wikipedia.org/wiki/Stockton,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "University of the Pacific was chartered on July 10, 1851, in Santa Clara as California Wesleyan College, the first university chartered in California.",
+     "source": "https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States)",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "University of the Pacific moved from Santa Clara to San Jose in 1871, took the name College of the Pacific in 1911, and relocated to Stockton in 1924.",
+     "source": "https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States)",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pacific's Stockton campus has appeared in Hollywood films including Raiders of the Lost Ark, The Sure Thing and Flubber.",
+     "source": "https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States)",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pacific has appeared nine times in the NCAA Division I tournament, most recently in 2013, with a combined record of 4-10.",
+     "source": "https://en.wikipedia.org/wiki/Pacific_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pacific reached the 1967 Elite Eight by beating Texas Western 72-63 in the Sweet Sixteen before losing 80-64 to UCLA.",
+     "source": "https://en.wikipedia.org/wiki/Pacific_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pacific retired forward Keith Swagerty's No. 32 in 1967 after he was West Coast Conference Player of the Year in 1966 and 1967.",
+     "source": "https://en.wikipedia.org/wiki/Pacific_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pacific was a charter West Coast Conference member in 1952, left the league in 1971, and returned from the Big West to rejoin the WCC on July 15, 2013.",
+     "source": "https://en.wikipedia.org/wiki/Pacific_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dave Smart is the head coach of Pacific men's basketball, leading the Tigers' 2026-27 coaching staff.",
+     "source": "https://pacifictigers.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "pepperdine": {
+   "town": "Malibu",
+   "home_floor": "Firestone Fieldhouse",
+   "home_lines": [
+    {
+     "text": "Firestone Fieldhouse opened at Pepperdine in Malibu in 1973 and seats 3,104 for sporting events and up to 5,000 for concerts, graduations and lectures.",
+     "source": "https://en.wikipedia.org/wiki/Firestone_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine's Firestone Fieldhouse was officially dedicated on September 20, 1975, by President Gerald R. Ford.",
+     "source": "https://en.wikipedia.org/wiki/Firestone_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A year after its dedication, 4,500 fans crowded Pepperdine's Firestone Fieldhouse to see the Waves defeat the UNLV Runnin' Rebels 93-91.",
+     "source": "https://en.wikipedia.org/wiki/Firestone_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at Pepperdine's Firestone Fieldhouse measures 110 feet by 110 feet and has been replaced twice; the current floor is wooden.",
+     "source": "https://en.wikipedia.org/wiki/Firestone_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Malibu takes its name from Humaliwo, the Chumash settlement whose name is translated as 'The Surf Sounds Loudly.'",
+     "source": "https://en.wikipedia.org/wiki/Malibu,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Malibu was part of Rancho Topanga Malibu Sequit, a 13,000-acre land grant of 1802 that passed to Frederick Hastings Rindge in 1891.",
+     "source": "https://en.wikipedia.org/wiki/Malibu,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "May Rindge fought a lengthy court battle to keep a Southern Pacific railroad line off her Malibu ranch and, despite her vast holdings, died penniless.",
+     "source": "https://en.wikipedia.org/wiki/Malibu,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "May Rindge created a small ceramic tile factory in Malibu in 1926 to avoid selling land, and Malibu Potteries at its height employed over 100 workers.",
+     "source": "https://en.wikipedia.org/wiki/Malibu,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Malibu's strip of beaches stretches 21 miles along the Pacific coast, and its Surfrider Beach was dedicated as the first World Surfing Reserve on October 9, 2010.",
+     "source": "https://en.wikipedia.org/wiki/Malibu,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine was founded in 1937 by George Pepperdine, who built his fortune largely through the Western Auto Supply Company, founded in 1909 with a $5 investment.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine opened on September 21, 1937, with 167 new students on 34 acres at West 79th Street and South Vermont Avenue in Los Angeles.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine accepted 138 donated acres near Malibu from the Adamson-Rindge family in 1968, and its Malibu campus opened in September 1972.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine has appeared 13 times in the NCAA tournament, with a combined record of 5-14, and most recently made the field in 2002.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine beat No. 6 Indiana 77-57 in the 2000 NCAA tournament, the final game of Bob Knight's coaching career with the Hoosiers.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Under Jim Harrick, Pepperdine took NC State to double overtime in the 1983 NCAA tournament before losing 69-67.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine won the West Coast Conference tournament three times in four years, taking the titles in 1991, 1992 and 1994.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Griff Aldrich, named on March 30, 2026, is Pepperdine's 14th men's basketball head coach, arriving from Virginia, where he was associate head coach in 2025-26.",
+     "source": "https://www.pepperdine.edu/newsroom/articles/griff-aldrich-named-pepperdine-head-mens-basketball-coach-2026.htm",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "portland": {
+   "town": "Portland",
+   "home_floor": "the Chiles Center",
+   "home_lines": [
+    {
+     "text": "The Chiles Center, the University of Portland's arena in the University Park neighborhood, broke ground on May 18, 1983, and opened in October 1984 with an endowment from the Chiles Foundation.",
+     "source": "https://en.wikipedia.org/wiki/Chiles_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Chiles Center seats 4,852 and has been home to Portland Pilots men's and women's basketball and women's volleyball since 1984.",
+     "source": "https://en.wikipedia.org/wiki/Chiles_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Chiles Center on the University of Portland campus hosted the West Coast Conference men's basketball tournament in 1992 and again in 2007.",
+     "source": "https://en.wikipedia.org/wiki/Chiles_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Since the 2023-24 season the University of Portland's Chiles Center has also been home to the Rip City Remix, the Portland Trail Blazers' NBA G League affiliate.",
+     "source": "https://en.wikipedia.org/wiki/Chiles_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Portland, Oregon got its name from a coin toss that Francis W. Pettygrove won two out of three, and the coin is on display at the Oregon Historical Society's headquarters.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Early Portland was called Stumptown and The Clearing for the many trees cut down to make room for the settlement near the confluence of the Willamette and Columbia rivers.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Georgiana Pittock established the Portland Rose Society in 1889, and the City of Roses became Portland's official nickname in 2003.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1948 Vanport flood displaced many African Americans in the Portland area, and redlining later steered the displaced workers into the neighboring Albina district.",
+     "source": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University Park neighborhood of North Portland takes its name from Portland University, a Methodist school founded in 1891 that closed in 1900 after years of financial failure.",
+     "source": "https://en.wikipedia.org/wiki/University_Park,_Portland,_Oregon",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Portland opened on September 5, 1901, as Columbia University, named for the nearby Columbia River, with 52 male students and eight Catholic priests as professors.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Portland",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "University of Portland officials adopted the nickname Pilots on April 12, 1935, replacing the earlier team names the Irish and the Cliffdwellers after the school's renaming.",
+     "source": "https://sites.up.edu/museum/april-12-1935-pilots-on-the-bluff",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Portland sits on Waud's Bluff above the Willamette River, where its 100-foot bell tower, completed in 2009, is the tallest structure on campus.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Portland",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Portland's first NCAA tournament appearance came in 1959 and ended with a 57-56 loss to DePaul.",
+     "source": "https://en.wikipedia.org/wiki/Portland_Pilots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Portland won the 1996 West Coast Conference tournament and went to the NCAA tournament as a No. 14 seed, losing 92-58 to No. 3 Villanova.",
+     "source": "https://en.wikipedia.org/wiki/Portland_Pilots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In its NAIA days Portland reached the 1952 national third-place game, which the Pilots lost 78-68 to Southwest Texas State.",
+     "source": "https://en.wikipedia.org/wiki/Portland_Pilots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before the Chiles Center opened in 1984, Portland basketball's homes included Howard Hall, first used in 1927, and Memorial Coliseum, used from 1960 to 1984.",
+     "source": "https://en.wikipedia.org/wiki/Portland_Pilots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Shantay Legans, who took the Portland job in March 2021 after serving as Eastern Washington's head coach since 2017, leads the Pilots in 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/Shantay_Legans",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Erik Spoelstra started at point guard for Portland for four seasons from 1988 to 1992, was West Coast Conference Freshman of the Year in 1989, and later coached the Miami Heat to NBA titles in 2012 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/Erik_Spoelstra",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "saint-marys": {
+   "town": "Moraga",
+   "home_floor": "University Credit Union Pavilion",
+   "home_lines": [
+    {
+     "text": "Saint Mary's home floor in Moraga was built in 1978 and first named McKeon Pavilion, for former Board of Regents member George R. McKeon.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's renamed its Moraga gym in 2019, and McKeon Pavilion has since been known as University Credit Union Pavilion.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "University Credit Union Pavilion seats 3,500, which makes the Saint Mary's gym in Moraga one of the smaller gyms in the West Coast Conference.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Moraga, California was incorporated on November 13, 1974, when the communities of Moraga Town, Rheem and Rheem Valley joined as one town.",
+     "source": "https://en.wikipedia.org/wiki/Moraga,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moraga is named for Joaquin Moraga of the Californio family, a grandson of Jose Joaquin Moraga, who built the Presidio of San Francisco.",
+     "source": "https://en.wikipedia.org/wiki/Moraga,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moraga sits on Rancho Laguna de los Palos Colorados, the 1835 Mexican land grant given to Joaquin Moraga and his cousin Juan Bernal.",
+     "source": "https://en.wikipedia.org/wiki/Moraga,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moraga lies in a valley surrounded by rolling hills, covering about 9.47 square miles at an elevation of 499 feet, with 16,870 residents in the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Moraga,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's College began in San Francisco in 1863 as a diocesan college for boys founded by Archbishop Joseph Alemany, who handed it to the De La Salle Christian Brothers in 1868.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_College_of_California",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's spent 1889 to 1928 in Oakland at a site known as the Brickpile, moving to Moraga after a fire badly damaged the old campus.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_College_of_California",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's teams, once the Saints, became the Gaels in 1926, a name given to the football team by San Francisco Call-Bulletin writer Pat Frayne.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_College_of_California",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's first NCAA tournament, in 1959 under coach James Weaver, ended in the Elite Eight with a 66-46 loss to California.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 10 seed in 2010, Saint Mary's beat Richmond 80-71 and Villanova 75-68 before losing to Baylor in the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's has carried at least one Australian on every roster since Randy Bennett arrived in 2001, and the 2016-17 Gaels set a program record with seven.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Arizona State announced on March 23, 2026, that Randy Bennett, Saint Mary's head coach since 2001, would become its next head coach.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Mary's counts Gonzaga as its biggest rival, with San Francisco and Santa Clara as historic rivals among the West Coast Conference's Bay Area Catholic schools.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Gaels_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Mickey McConnell, who played for Saint Mary's from 2007 to 2011 and returned to Randy Bennett's staff in 2019, was named the Gaels' head coach on March 23, 2026.",
+     "source": "https://www.stmarys-ca.edu/news/saint-marys-announces-mickey-mcconnell-head-mens-basketball-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Patty Mills of Canberra averaged 16.4 points over two seasons at Saint Mary's, then helped lead Australia to a bronze medal at the Tokyo 2020 Olympics.",
+     "source": "https://en.wikipedia.org/wiki/Patty_Mills",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Matthew Dellavedova of Maryborough, Victoria left Saint Mary's in 2013 as its all-time leader in points and assists and won an NBA title with Cleveland in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Matthew_Dellavedova",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "san-diego": {
+   "town": "San Diego",
+   "home_floor": "the Jenny Craig Pavilion",
+   "home_lines": [
+    {
+     "text": "The Jenny Craig Pavilion opened on the University of San Diego campus on October 5, 2000, built at a cost of $17.5 million.",
+     "source": "https://en.wikipedia.org/wiki/Jenny_Craig_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of San Diego's Jenny Craig Pavilion is named for the weight-loss entrepreneur Jenny Craig and has a capacity of 5,100.",
+     "source": "https://en.wikipedia.org/wiki/Jenny_Craig_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Jenny Craig Pavilion in San Diego hosted the West Coast Conference basketball championships in 2001, 2002, 2003 and 2008.",
+     "source": "https://en.wikipedia.org/wiki/Jenny_Craig_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Beyond basketball, the University of San Diego's Jenny Craig Pavilion has hosted talks by the 14th Dalai Lama and Jane Goodall, along with a Maroon 5 concert.",
+     "source": "https://en.wikipedia.org/wiki/Jenny_Craig_Pavilion",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Juan Rodriguez Cabrillo claimed San Diego Bay for the Spanish Empire in 1542, and Sebastian Vizcaino later named the area San Diego de Alcala for Saint Didacus of Alcala.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Presidio and Mission San Diego de Alcala, founded in 1769, formed the first European settlement in what is now California.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The menagerie of exotic animals shown at San Diego's 1915 exposition in Balboa Park provided the basis for the San Diego Zoo.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Many homes in Linda Vista, the San Diego neighborhood around the University of San Diego, were built in 1940-41 in a government project to house aircraft workers.",
+     "source": "https://en.wikipedia.org/wiki/Linda_Vista,_San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Linda Vista Shopping Center, built in 1943 in the neighborhood that is home to the University of San Diego, was the first mall in San Diego and one of the first in the country.",
+     "source": "https://en.wikipedia.org/wiki/Linda_Vista,_San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Starting in the late 1970s, Vietnamese immigrants and refugees began resettling in Linda Vista, the San Diego neighborhood that is home to the University of San Diego.",
+     "source": "https://en.wikipedia.org/wiki/Linda_Vista,_San_Diego",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of San Diego traces to 1949 charters for the San Diego College for Women and San Diego University, chartered by Bishop Charles F. Buddy and Mother Rosalie Hill.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Diego",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of San Diego's buildings follow a Spanish Renaissance style meant to honor San Diego's Catholic heritage and the Universidad de Alcala in Spain.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Diego",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of San Diego campus, Alcala Park, sits atop the edge of a mesa overlooking Mission Bay and takes its name from Didacus of Alcala.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Diego",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "San Diego won its first West Coast Conference title in 1983-84, and as a 12 seed in the 1984 NCAA tournament it lost to Princeton, 65-56.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego_Toreros_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in the 2008 NCAA tournament, San Diego beat fourth-seeded Connecticut, 70-69, in overtime in the first round.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego_Toreros_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San Diego has won West Coast Conference tournament championships in 2003 and 2008, adding to regular-season titles in 1984 and 1987.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego_Toreros_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before its Division I years, the San Diego men's basketball program played at the Division II level and made five Division II tournament appearances.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego_Toreros_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The University of San Diego's biggest basketball rival is crosstown San Diego State, an opponent from outside the West Coast Conference.",
+     "source": "https://en.wikipedia.org/wiki/San_Diego_Toreros_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "San Diego hired JR Blount as head coach on March 9, 2026, after five years as an Iowa State assistant; Blount captained Loyola Chicago for three years as a player.",
+     "source": "https://www.nbcsandiego.com/news/sports/usd-hires-jr-blount-as-new-mens-basketball-head-coach/3992337/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "san-francisco": {
+   "town": "San Francisco",
+   "home_floor": "War Memorial Gym at the Sobrato Center",
+   "home_lines": [
+    {
+     "text": "War Memorial Gym at the Sobrato Center, home of University of San Francisco basketball, was originally built in 1958 and seats 5,300 people.",
+     "source": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of San Francisco's War Memorial Gym is dedicated to USF alumni who lost their lives in World War II, the Korean War and the Vietnam War.",
+     "source": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The San Francisco Warriors were briefly tenants of the University of San Francisco's War Memorial Gym during their 1966-67 season.",
+     "source": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 1982, the University of San Francisco's War Memorial Gym hosted CBS's first national college basketball broadcast, a game between USF and the University of Georgia.",
+     "source": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of San Francisco's War Memorial Gym hosted the West Coast Conference men's basketball tournament in 1987, 1989 and 1993.",
+     "source": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Settlers from New Spain established the Presidio of San Francisco at the Golden Gate on June 29, 1776.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Gold Rush swelled San Francisco's population from 1,000 in 1848 to 25,000 by December 1849.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "After the flames of the 1906 earthquake and fire died down, more than three-quarters of San Francisco was estimated to lie in ruins.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lone Mountain, the San Francisco neighborhood near the University of San Francisco, was once the site of a cemetery complex encompassing the Laurel Hill, Calvary, Masonic and Odd Fellows cemeteries.",
+     "source": "https://en.wikipedia.org/wiki/Lone_Mountain,_San_Francisco",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Spanish name for Lone Mountain, the San Francisco hill whose former college became part of the University of San Francisco in 1978, was El Divisadero.",
+     "source": "https://en.wikipedia.org/wiki/Lone_Mountain,_San_Francisco",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of San Francisco was founded by the Jesuits in 1855 as St. Ignatius Academy, a one-room schoolhouse on Market Street led by Anthony Maraschi.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Francisco",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "After the 1906 fire destroyed St. Ignatius College in San Francisco, the school occupied a hastily built structure called the Shirt Factory for 21 years before moving to Fulton Street in 1927.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Francisco",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of San Francisco's 1951 football team went 9-0, and when invited to the Orange Bowl without its Black stars Ollie Matson and Burl Toler, the team declined.",
+     "source": "https://en.wikipedia.org/wiki/University_of_San_Francisco",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Pete Newell coached San Francisco to the 1949 National Invitation Tournament championship, beating Loyola of Chicago, 48-47, in the final.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco_Dons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "San Francisco won NCAA championships in 1955 and 1956, beating La Salle, 77-63, and then Iowa, 83-71, in the title games.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco_Dons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bill Russell led San Francisco through a string of 55 consecutive victories on the way to its 1955 and 1956 titles, and coach Phil Woolpert won Coach of the Year honors both years.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco_Dons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "After a series of scandals, University of San Francisco president Lo Schiavo shut down the basketball program on July 29, 1982; San Francisco reinstated men's basketball in 1985.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco_Dons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chris Gerlufsen leads the University of San Francisco men's basketball program as head coach, and his staff signed guard Jaylen Hunter-Coleman in August 2026.",
+     "source": "https://usfdons.com/news/2026/8/25/mens-basketball-signs-guard-jaylen-hunter-coleman",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bill Russell came to the University of San Francisco after recruiter Hal DeJulio saw him in a high school game, and he was the NCAA tournament's most outstanding player in 1955.",
+     "source": "https://en.wikipedia.org/wiki/Bill_Russell",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "At the University of San Francisco, Bill Russell and his Black teammates became targets of racist jeers, particularly on the road, and the lane was widened for his junior year.",
+     "source": "https://en.wikipedia.org/wiki/Bill_Russell",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "santa-clara": {
+   "town": "Santa Clara",
+   "home_floor": "the Leavey Center",
+   "home_lines": [
+    {
+     "text": "Santa Clara's Leavey Center was built in 1975 as the Toso Pavilion for $4.6 million, and its listed capacity dropped from 5,000 to 4,500 in 2001.",
+     "source": "https://en.wikipedia.org/wiki/Leavey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The original Toso Pavilion at Santa Clara had an air-supported vinyl fabric roof, held up by 11 large fans that kept the air pressure inside higher than outside.",
+     "source": "https://en.wikipedia.org/wiki/Leavey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara deflated its inflated arena roof in April 2000 and replaced it with a much taller steel roof supported by eight concrete caissons; the building reopened December 13, 2000.",
+     "source": "https://en.wikipedia.org/wiki/Leavey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara's Leavey Center is named for Thomas E. Leavey, the Farmers Insurance founder who graduated from Santa Clara in 1922.",
+     "source": "https://en.wikipedia.org/wiki/Leavey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara's Leavey Center has hosted the West Coast Conference men's basketball tournament ten times and also hosted Stanford games while Maples Pavilion was renovated.",
+     "source": "https://en.wikipedia.org/wiki/Leavey_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The Tamien tribe of the Ohlone nation had inhabited the Santa Clara area for several millennia before the Spanish arrived.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The city of Santa Clara was founded by the Spanish in 1777 with the establishment of Mission Santa Clara de Asis; the name is Spanish for Saint Clare.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara was incorporated as a town in 1852, and its early economy centered on agriculture, with orchards and vegetables thriving in the valley.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara, once orchard country, is now home to the headquarters of Silicon Valley companies such as Intel, Advanced Micro Devices and Nvidia.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara is home to Levi's Stadium, where the San Francisco 49ers play, and to the amusement park California's Great America.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara,_California",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara University, established in 1851 on a site offered to Italian Jesuits John Nobili and Michael Accolti, is the oldest operating institution of higher learning in California.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Santa Clara University campus surrounds the historic Mission Santa Clara de Asis, which serves as the university chapel and dates to 1777.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara admitted women in 1961, becoming the first Catholic university in California to admit both men and women.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara reached the 1952 Final Four and followed with Elite Eight trips in 1953 and 1954.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1993 NCAA tournament, 15th-seeded Santa Clara upset second-seeded Arizona, 64-61, becoming the second 15 seed to beat a 2 seed.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Steve Nash became Santa Clara's most decorated player at the professional level, twice winning the NBA's Most Valuable Player award.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara won the College Basketball Invitational in 2013, and its West Coast Conference tournament titles came in 1987 and 1993.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Herb Sendek is entering his 11th season as Santa Clara's men's basketball head coach in 2026-27, according to the Broncos' announcement of their nonconference schedule.",
+     "source": "https://santaclarabroncos.com/news/2026/8/21/mens-basketball-announces-2026-27-nonconference-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "seattle": {
+   "town": "Seattle",
+   "home_floor": "the Redhawk Center",
+   "home_lines": [
+    {
+     "text": "The Redhawk Center on the Seattle University campus was built in 1959 and seats 999.",
+     "source": "https://en.wikipedia.org/wiki/Redhawk_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Seattle University renamed its Connolly Center the Redhawk Center in 2018, removing the name of Archbishop Thomas Connolly over his role in covering up a parish priest's sex crimes.",
+     "source": "https://en.wikipedia.org/wiki/Redhawk_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "From 2018 to 2021, while KeyArena was renovated, the Redhawk Center hosted every Seattle University home game.",
+     "source": "https://en.wikipedia.org/wiki/Redhawk_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Redhawk Center at Seattle University underwent a major remodel for the 2014-15 season, with new seating and a new court.",
+     "source": "https://en.wikipedia.org/wiki/Redhawk_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The Denny Party landed at Alki Point during a rainstorm on November 13, 1851, after sailing from Portland on the schooner Exact, and so began the settlement that became Seattle.",
+     "source": "https://en.wikipedia.org/wiki/Seattle",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Seattle is named in honor of Chief Seattle, a 19th-century leader of the Duwamish and Suquamish tribes.",
+     "source": "https://en.wikipedia.org/wiki/Seattle",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Great Seattle Fire of 1889 destroyed the city's central business district, and Seattle later became the main supply point for miners bound for Alaska and the Yukon.",
+     "source": "https://en.wikipedia.org/wiki/Seattle",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Seattle's First Hill is named as the first hill met traveling east from downtown, and it is called Pill Hill for its many medical buildings, among them Harborview, Swedish and Virginia Mason.",
+     "source": "https://en.wikipedia.org/wiki/First_Hill,_Seattle",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Seattle's First Hill was once known as Profanity Hill, after the complaints of lawyers making the steep climb to the courthouse.",
+     "source": "https://en.wikipedia.org/wiki/First_Hill,_Seattle",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Seattle University began in 1891, when Jesuit priest Adrian Sweere took over a small parish school at Broadway and Madison then called Immaculate Conception Parish School.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Seattle University teams were the Maroons until 1938, then the Chieftains in honor of Chief Seattle, and became the Redhawks in 2000.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Chapel of St. Ignatius at Seattle University, designed by Washington-born architect Steven Holl, won a national Honor Award from the American Institute of Architects in 1998.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Led by Elgin Baylor and coach John Castellani, Seattle reached the 1958 NCAA championship game and lost 84-72 to Kentucky, with Baylor named Most Outstanding Player.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_Redhawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Seattle beat the Harlem Globetrotters 84-81 on January 21, 1952, behind Johnny O'Brien, the first collegiate player to score 1,000 points in a season.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_Redhawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Seattle made 11 NCAA tournament appearances between 1953 and 1969, then dropped to the NAIA in 1980 after budget problems before working its way back to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_Redhawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "When the Seattle Center Coliseum, first built for the 1962 Century 21 Exposition, reopened as an arena, the Seattle University men's team became its first major tenant.",
+     "source": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Seattle University and the University of Washington play for the Battle for Seattle, and Seattle U's 79-70 win snapped a 46-year, 19-game losing streak in the series.",
+     "source": "https://en.wikipedia.org/wiki/Seattle_Redhawks_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Chris Victor enters his sixth season as Seattle University head coach in 2026-27, having taken over as interim coach days before the 2021-22 season.",
+     "source": "https://goseattleu.com/staff/chris-victor",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Elgin Baylor averaged 32.5 points for Seattle in 1957-58, then left school to become the No. 1 overall pick of the Minneapolis Lakers in the 1958 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Elgin_Baylor",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Elgin Baylor came to Seattle from Washington, D.C., where public schools were segregated and no major college recruited him; Seattle University named its court for him in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Elgin_Baylor",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "loyola-marymount|pepperdine": {
+   "name": "PCH Cup",
+   "lines": [
+    {
+     "text": "Loyola Marymount has fostered heated rivalries with all of its West Coast Conference opponents, especially Pepperdine.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Marymount_Lions_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Loyola Marymount and Pepperdine play for the PCH Cup in a series whose first game was played in the 1940-41 season.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine and Loyola Marymount play for the PCH Cup in a series whose first game was played in the 1940-41 season.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Pepperdine's longest winning streak in its PCH Cup series with Loyola Marymount is 13 straight games, from 1998 to 2004.",
+     "source": "https://en.wikipedia.org/wiki/Pepperdine_Waves_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "san-francisco|santa-clara": {
+   "name": "San Francisco vs. Santa Clara",
+   "lines": [
+    {
+     "text": "San Francisco and Santa Clara, Bay Area neighbors, have played each other in men's basketball more than 200 times, according to the Santa Clara program's history.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "An early St. Ignatius College team, forerunner of the San Francisco Dons, swept Santa Clara by scores of 38-31 and 22-13, and the Dons' history calls Santa Clara still a major rival.",
+     "source": "https://en.wikipedia.org/wiki/San_Francisco_Dons_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Santa Clara and San Francisco, Bay Area neighbors, have met more than 200 times in men's basketball, according to the Broncos' program history.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "saint-marys|santa-clara": {
+   "name": "Santa Clara vs. Saint Mary's",
+   "lines": [
+    {
+     "text": "Santa Clara and Saint Mary's first met in men's basketball in 1910, and the Broncos lead a series of more than 200 games.",
+     "source": "https://en.wikipedia.org/wiki/Santa_Clara_Broncos_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}
