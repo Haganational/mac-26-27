@@ -5,7 +5,8 @@
 Wikimedia Commons: searches the File namespace and keeps only public domain, CC0, CC BY
 and CC BY-SA files, with author and license from the file's own metadata. Library of
 Congress (photos and Chronicling America): keeps items, with their rights text recorded
-for review. Writes <out>/<key>-<n>.jpg, <out>/credits.json and <out>/contact.jpg.
+for review. "direct" entries are [key, image url, credit fields] for single pictures
+used by courtesy. Writes <out>/<key>-<n>.jpg, <out>/credits.json and <out>/contact.jpg.
 """
 import json, re, sys, time, html
 from pathlib import Path
@@ -83,6 +84,10 @@ def main():
         except Exception as e:
             print("loc", key, e)
         time.sleep(3)
+    for key, u, meta in q.get("direct", []):
+        if key in have:
+            continue
+        items.append({"key": key, "image": u, "date": "", "license_url": "", "description": "", **meta})
     kept, thumbs, count = list(old), [], {}
     for it in old:
         try:
@@ -93,7 +98,7 @@ def main():
         count[it["key"]] = count.get(it["key"], 0) + 1
         name = f"{it['key']}-{count[it['key']]}.jpg"
         try:
-            b = requests.get(it["image"], headers=UA, timeout=60); b.raise_for_status()
+            b = requests.get(it["image"], headers=UA if "wikimedia" in it["image"] or "loc.gov" in it["image"] else {"User-Agent": "Mozilla/5.0"}, timeout=60); b.raise_for_status()
             p = out / name; p.write_bytes(b.content)
             im = Image.open(p).convert("RGB"); im.thumbnail((1920, 1920)); im.save(p, quality=86)
         except Exception as e:
