@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:37:18+00:00",
+ "fetched_at": "2026-11-15T23:14:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -1644,7 +1644,7 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 38,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1652,13 +1652,13 @@
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 44,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "20:00 - 2nd"
+   "detail": "4:35 - 2nd"
   },
   {
    "game_id": "401926733",
@@ -1696,10 +1696,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:05 - 1st"
   },
   {
    "game_id": "401920962",
@@ -1801,7 +1801,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/minnesota-golden-gophers-mens-basketball-tickets-the-barn-by-blue-cross-and-blue-shield-of-minnesota-11-16-2026--sports-ncaa-basketball/production/7492997?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
    "venue_city": "Minneapolis",
@@ -2444,7 +2444,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-11-22-2026--sports-ncaa-basketball/production/7383696?wsUser=717",
-    "low": 10.0
+    "low": 8.0
    },
    "venue": "Moody Center",
    "venue_city": "Austin",
@@ -8208,6 +8208,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T22:38:38+00:00"
+ ]
 }

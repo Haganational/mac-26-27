@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:25:29+00:00",
+ "fetched_at": "2026-11-15T23:00:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -1705,7 +1705,7 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 38,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1713,13 +1713,13 @@
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 44,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "10:18 - 2nd"
   },
   {
    "game_id": "401911017",
@@ -1760,10 +1760,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:21 - 1st"
   },
   {
    "game_id": "401928841",
@@ -2482,7 +2482,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 28.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -3692,7 +3692,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-5-2026--sports-ncaa-basketball/production/7456029?wsUser=717",
-    "low": 33.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -4469,7 +4469,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-16-2026--sports-ncaa-basketball/production/7456031?wsUser=717",
-    "low": 30.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -5559,7 +5559,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-2-2027--sports-ncaa-basketball/production/7456001?wsUser=717",
-    "low": 40.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -6199,7 +6199,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-12-2027--sports-ncaa-basketball/production/7456003?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -6842,7 +6842,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-23-2027--sports-ncaa-basketball/production/7456009?wsUser=717",
-    "low": 40.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -8274,7 +8274,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-2-16-2027--sports-ncaa-basketball/production/7456017?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -8765,7 +8765,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-2-23-2027--sports-ncaa-basketball/production/7456019?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -9443,7 +9443,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-3-5-2027--sports-ncaa-basketball/production/7456021?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -9545,6 +9545,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T22:30:38+00:00"
+ ]
 }

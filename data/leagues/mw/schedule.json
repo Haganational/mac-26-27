@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:27:32+00:00",
+ "fetched_at": "2026-11-15T23:02:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -1585,7 +1585,7 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 65,
+    "score": 93,
     "winner": null
    },
    "away": {
@@ -1593,13 +1593,13 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 49,
+    "score": 69,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "10:16 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401911472",
@@ -3955,7 +3955,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-12-2026--sports-ncaa-basketball/production/7117728?wsUser=717",
-    "low": 31.0
+    "low": 26.0
    },
    "venue": "The Pit",
    "venue_city": "Albuquerque",
@@ -8714,6 +8714,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T22:31:51+00:00"
+ ]
 }

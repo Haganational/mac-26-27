@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:33:54+00:00",
+ "fetched_at": "2026-11-15T23:10:53+00:00",
  "season": 2027,
  "games": [
   {
@@ -1497,7 +1497,7 @@
     "key": null,
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 35,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1505,13 +1505,13 @@
     "key": "new-mexico-state",
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": 29,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:16 - 2nd"
   },
   {
    "game_id": "401925864",
@@ -2208,7 +2208,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 8.0
+    "low": 12.0
    },
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
@@ -3798,7 +3798,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-12-5-2026--sports-ncaa-basketball/production/7747387?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -8802,6 +8802,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T22:12:54+00:00"
+ ]
 }

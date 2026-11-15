@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T21:35:50+00:00",
+ "fetched_at": "2026-11-15T23:13:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -1679,7 +1679,7 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1687,13 +1687,13 @@
     "key": null,
     "name": "Doane Tigers",
     "abbr": "DOAN",
-    "score": 23,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:38 - 2nd"
   },
   {
    "game_id": "401919807",
@@ -7718,6 +7718,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T22:37:47+00:00"
+ ]
 }
