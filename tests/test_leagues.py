@@ -173,6 +173,15 @@ def test_big_sky_and_southland_names():
     assert leagues.SOUTHLAND.team_for_odds_name("Nicholls St Colonels") == "nicholls"
 
 
+def test_summit_and_uac_names():
+    assert leagues.SUMMIT.path == "summit/" and len(leagues.SUMMIT.teams) == 8 and leagues.SUMMIT.theme == "prairie"
+    assert leagues.UAC.path == "uac/" and len(leagues.UAC.teams) == 9 and leagues.UAC.theme == "silo"
+    assert leagues.SUMMIT.team_for_odds_name("UMKC Kangaroos") == "kansas-city"
+    assert leagues.SUMMIT.team_for_odds_name("St. Thomas (MN) Tommies") == "st-thomas"
+    assert leagues.UAC.team_for_odds_name("UT-Arlington Mavericks") == "ut-arlington"
+    assert leagues.UAC.team_for_odds_name("North Texas Mean Green") is None
+
+
 def test_every_school_is_in_one_edition_and_editions_match_the_registry():
     import json
     seen = {}
@@ -181,7 +190,7 @@ def test_every_school_is_in_one_edition_and_editions_match_the_registry():
             assert t.key not in seen, f"{t.key} is in {seen[t.key]} and {lg.key}"
             seen[t.key] = lg.key
     reg = {c["id"]: set(c["teams"]) for c in json.loads((leagues.ROOT / "data/book/conferences.json").read_text())["conferences"]}
-    groups = {"bigsky": "5", "southland": "25", "cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
+    groups = {"summit": "49", "uac": "30", "bigsky": "5", "southland": "25", "cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
     for key, gid in groups.items():
         assert {t.espn_id for t in leagues.ALL[key].teams} == reg[gid], key
 
@@ -204,7 +213,8 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
                     "american": "AmericanMBB", "sunbelt": "SunBeltMBB",
                     "ivy": "IvyMBB", "caa": "CAAHoops",
                     "cusa": "CUSAMBB", "socon": "SoConMBB",
-                    "bigsky": "BigSkyMBB", "southland": "SouthlandMBB"}
+                    "bigsky": "BigSkyMBB", "southland": "SouthlandMBB",
+                    "summit": "SummitMBB", "uac": "UACMBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]
@@ -219,3 +229,11 @@ def test_two_word_mascots_come_off_school_names():
     assert school("Louisiana Ragin' Cajuns") == "Louisiana"
     assert school("Gardner-Webb Runnin' Bulldogs") == "Gardner-Webb"
     assert school("Akron Zips") == "Akron"
+
+
+def test_every_news_pattern_finds_its_own_school():
+    import re
+    for lg in leagues.ALL.values():
+        for key, v in (lg.news_names or {}).items():
+            assert not any("\\\\" in m for m in v["match"]), (lg.key, key)  # a doubled backslash matches nothing real
+            assert any(re.search(m, v["query"]) for m in v["match"]), (lg.key, key)

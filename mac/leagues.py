@@ -932,17 +932,17 @@ BIGSKY = League(
         "Weber St Wildcats": "weber-state",
     },
     news_names={
-        "eastern-washington": {"query": "Eastern Washington Eagles basketball", "match": [r'\\bEastern Washington\\b', r'\\bEWU\\b']},
-        "idaho-state": {"query": "Idaho State Bengals basketball", "match": [r'\\bIdaho State\\b']},
-        "idaho": {"query": "Idaho Vandals basketball", "match": [r'\\bIdaho Vandals\\b', r'\\bVandals\\b']},
-        "montana": {"query": "Montana Grizzlies basketball", "match": [r'\\bMontana Grizzlies\\b', r'\\bGriz\\b', r'\\bGrizzlies\\b(?! basketball \\(NBA\\))']},
-        "montana-state": {"query": "Montana State Bobcats basketball", "match": [r'\\bMontana State\\b']},
-        "northern-arizona": {"query": "Northern Arizona Lumberjacks basketball", "match": [r'\\bNorthern Arizona\\b', r'\\bNAU\\b']},
-        "northern-colorado": {"query": "Northern Colorado Bears basketball", "match": [r'\\bNorthern Colorado\\b', r'\\bUNC Bears\\b']},
-        "portland-state": {"query": "Portland State Vikings basketball", "match": [r'\\bPortland State\\b']},
-        "southern-utah": {"query": "Southern Utah Thunderbirds basketball", "match": [r'\\bSouthern Utah\\b', r'\\bSUU\\b']},
-        "utah-tech": {"query": "Utah Tech Trailblazers basketball", "match": [r'\\bUtah Tech\\b']},
-        "weber-state": {"query": "Weber State Wildcats basketball", "match": [r'\\bWeber State\\b']},
+        "eastern-washington": {"query": "Eastern Washington Eagles basketball", "match": [r'\bEastern Washington\b', r'\bEWU\b']},
+        "idaho-state": {"query": "Idaho State Bengals basketball", "match": [r'\bIdaho State\b']},
+        "idaho": {"query": "Idaho Vandals basketball", "match": [r'\bIdaho Vandals\b', r'\bVandals\b']},
+        "montana": {"query": "Montana Grizzlies basketball", "match": [r'\bMontana Grizzlies\b', r'\bGriz\b']},
+        "montana-state": {"query": "Montana State Bobcats basketball", "match": [r'\bMontana State\b']},
+        "northern-arizona": {"query": "Northern Arizona Lumberjacks basketball", "match": [r'\bNorthern Arizona\b', r'\bNAU\b']},
+        "northern-colorado": {"query": "Northern Colorado Bears basketball", "match": [r'\bNorthern Colorado\b', r'\bUNC Bears\b']},
+        "portland-state": {"query": "Portland State Vikings basketball", "match": [r'\bPortland State\b']},
+        "southern-utah": {"query": "Southern Utah Thunderbirds basketball", "match": [r'\bSouthern Utah\b', r'\bSUU\b']},
+        "utah-tech": {"query": "Utah Tech Trailblazers basketball", "match": [r'\bUtah Tech\b']},
+        "weber-state": {"query": "Weber State Wildcats basketball", "match": [r'\bWeber State\b']},
     },
     league_feed=("bigskyconf.com", "Big Sky (bigskyconf.com)"),
     hashtag="BigSkyMBB",
@@ -982,18 +982,18 @@ SOUTHLAND = League(
         "Lamar Cardinals": "lamar",
     },
     news_names={
-        "east-texas-am": {"query": "East Texas A&M Lions basketball", "match": [r'\\bEast Texas A&M\\b']},
-        "houston-christian": {"query": "Houston Christian Huskies basketball", "match": [r'\\bHouston Christian\\b']},
-        "incarnate-word": {"query": "Incarnate Word Cardinals basketball", "match": [r'\\bIncarnate Word\\b', r'\\bUIW\\b']},
-        "new-orleans": {"query": "New Orleans Privateers basketball", "match": [r'\\bNew Orleans Privateers\\b', r'\\bUNO\\b', r'\\bPrivateers\\b']},
-        "lamar": {"query": "Lamar Cardinals basketball", "match": [r'\\bLamar Cardinals\\b', r'\\bLamar University\\b']},
-        "mcneese": {"query": "McNeese Cowboys basketball", "match": [r'\\bMcNeese\\b']},
-        "nicholls": {"query": "Nicholls Colonels basketball", "match": [r'\\bNicholls\\b']},
-        "northwestern-state": {"query": "Northwestern State Demons basketball", "match": [r'\\bNorthwestern State\\b']},
-        "southeastern-louisiana": {"query": "Southeastern Louisiana Lions basketball", "match": [r'\\bSoutheastern Louisiana\\b', r'\\bSE Louisiana\\b']},
-        "stephen-f-austin": {"query": "Stephen F. Austin Lumberjacks basketball", "match": [r'\\bStephen F\\.? Austin\\b', r'\\bSFA\\b']},
-        "texas-am-cc": {"query": "Texas A&M-Corpus Christi Islanders basketball", "match": [r'\\bCorpus Christi\\b', r'\\bTAMUCC\\b']},
-        "utrgv": {"query": "UTRGV Vaqueros basketball", "match": [r'\\bUTRGV\\b', r'\\bRio Grande Valley\\b']},
+        "east-texas-am": {"query": "East Texas A&M Lions basketball", "match": [r'\bEast Texas A&M\b']},
+        "houston-christian": {"query": "Houston Christian Huskies basketball", "match": [r'\bHouston Christian\b']},
+        "incarnate-word": {"query": "Incarnate Word Cardinals basketball", "match": [r'\bIncarnate Word\b', r'\bUIW\b']},
+        "new-orleans": {"query": "New Orleans Privateers basketball", "match": [r'\bNew Orleans Privateers\b', r'\bUNO\b', r'\bPrivateers\b']},
+        "lamar": {"query": "Lamar Cardinals basketball", "match": [r'\bLamar Cardinals\b', r'\bLamar University\b']},
+        "mcneese": {"query": "McNeese Cowboys basketball", "match": [r'\bMcNeese\b']},
+        "nicholls": {"query": "Nicholls Colonels basketball", "match": [r'\bNicholls\b']},
+        "northwestern-state": {"query": "Northwestern State Demons basketball", "match": [r'\bNorthwestern State\b']},
+        "southeastern-louisiana": {"query": "Southeastern Louisiana Lions basketball", "match": [r'\bSoutheastern Louisiana\b', r'\bSE Louisiana\b']},
+        "stephen-f-austin": {"query": "Stephen F. Austin Lumberjacks basketball", "match": [r'\bStephen F\.? Austin\b', r'\bSFA\b']},
+        "texas-am-cc": {"query": "Texas A&M-Corpus Christi Islanders basketball", "match": [r'\bCorpus Christi\b', r'\bTAMUCC\b']},
+        "utrgv": {"query": "UTRGV Vaqueros basketball", "match": [r'\bUTRGV\b', r'\bRio Grande Valley\b']},
     },
     league_feed=("southland.org", "Southland (southland.org)"),
     hashtag="SouthlandMBB",
@@ -1001,8 +1001,87 @@ SOUTHLAND = League(
 )
 
 
+# Summit League 2026-27 membership from ESPN's conference feed (group 49).
+SUMMIT = League(
+    key="summit", short="Summit", name="Summit League",
+    region="the Upper Midwest and the Plains, from Grand Forks, Fargo and St. Paul down through Vermillion, Brookings and Omaha to Kansas City and Tulsa",
+    teams=(
+        Team("kansas-city", "140", "KC", "Kansas City Roos", "Kansas City", "#0067B1", "#FFC82E"),
+        Team("north-dakota", "155", "UND", "North Dakota Fighting Hawks", "North Dakota", "#009A44", "#000000"),
+        Team("north-dakota-state", "2449", "NDSU", "North Dakota State Bison", "North Dakota State", "#0A5640", "#FFC82E"),
+        Team("omaha", "2437", "OMA", "Omaha Mavericks", "Omaha", "#D71920", "#000000"),
+        Team("oral-roberts", "198", "ORU", "Oral Roberts Golden Eagles", "Oral Roberts", "#002855", "#C5B783"),
+        Team("south-dakota", "233", "SDAK", "South Dakota Coyotes", "South Dakota", "#AD0000", "#FFFFFF"),
+        Team("south-dakota-state", "2571", "SDST", "South Dakota State Jackrabbits", "South Dakota State", "#0033A0", "#FFD100"),
+        Team("st-thomas", "2900", "STMN", "St. Thomas Tommies", "St. Thomas", "#510C76", "#FFFFFF"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="summit/",
+    theme="prairie",
+    odds_aliases={
+        "UMKC Kangaroos": "kansas-city",
+        "North Dakota St Bison": "north-dakota-state",
+        "South Dakota St Jackrabbits": "south-dakota-state",
+        "St. Thomas (MN) Tommies": "st-thomas",
+    },
+    news_names={
+        "kansas-city": {"query": "Kansas City Roos basketball", "match": [r"\bKansas City Roos\b", r"\bUMKC\b"]},
+        "north-dakota": {"query": "North Dakota Fighting Hawks basketball", "match": [r"\bNorth Dakota\b(?! State)", r"\bFighting Hawks\b"]},
+        "north-dakota-state": {"query": "North Dakota State Bison basketball", "match": [r"\bNorth Dakota State\b", r"\bNDSU\b"]},
+        "omaha": {"query": "Omaha Mavericks basketball", "match": [r"\bOmaha Mavericks\b", r"\bUNO Mavericks\b"]},
+        "oral-roberts": {"query": "Oral Roberts Golden Eagles basketball", "match": [r"\bOral Roberts\b", r"\bORU\b"]},
+        "south-dakota": {"query": "South Dakota Coyotes basketball", "match": [r"\bSouth Dakota\b(?! State)", r"\bUSD Coyotes\b"]},
+        "south-dakota-state": {"query": "South Dakota State Jackrabbits basketball", "match": [r"\bSouth Dakota State\b", r"\bJackrabbits\b"]},
+        "st-thomas": {"query": "St. Thomas Tommies basketball", "match": [r"\bSt\.? Thomas\b", r"\bTommies\b"]},
+    },
+    league_feed=("thesummitleague.org", "Summit League (thesummitleague.org)"),
+    hashtag="SummitMBB",
+    tournament="the Summit League tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND)}
+# United Athletic Conference 2026-27 membership from ESPN's conference feed (group 30).
+UAC = League(
+    key="uac", short="UAC", name="United Athletic Conference",
+    region="the South and Texas, from Richmond, Kentucky and Clarksville down through Florence, Carrollton, Conway and Little Rock to Arlington, Stephenville and Abilene",
+    teams=(
+        Team("abilene-christian", "2000", "ACU", "Abilene Christian Wildcats", "Abilene Christian", "#4F2683", "#FFFFFF"),
+        Team("austin-peay", "2046", "APSU", "Austin Peay Governors", "Austin Peay", "#C41E3A", "#FFFFFF"),
+        Team("central-arkansas", "2110", "UCA", "Central Arkansas Bears", "Central Arkansas", "#4F2D7F", "#818A8F"),
+        Team("eastern-kentucky", "2198", "EKU", "Eastern Kentucky Colonels", "Eastern Kentucky", "#861F41", "#FFFFFF"),
+        Team("little-rock", "2031", "UALR", "Little Rock Trojans", "Little Rock", "#6F263D", "#A2AAAD"),
+        Team("north-alabama", "2453", "UNA", "North Alabama Lions", "North Alabama", "#46166B", "#DB9F11"),
+        Team("tarleton-state", "2627", "TAR", "Tarleton State Texans", "Tarleton State", "#4F2D7F", "#FFFFFF"),
+        Team("ut-arlington", "250", "UTA", "UT Arlington Mavericks", "UT Arlington", "#0064B1", "#F58025"),
+        Team("west-georgia", "2698", "UWG", "West Georgia Wolves", "West Georgia", "#0656A5", "#E31B23"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="uac/",
+    theme="silo",
+    odds_aliases={
+        "UT-Arlington Mavericks": "ut-arlington",
+        "Arkansas-Little Rock Trojans": "little-rock",
+        "Little Rock Trojans": "little-rock",
+        "Central Arkansas Bears": "central-arkansas",
+    },
+    news_names={
+        "abilene-christian": {"query": "Abilene Christian Wildcats basketball", "match": [r"\bAbilene Christian\b"]},
+        "austin-peay": {"query": "Austin Peay Governors basketball", "match": [r"\bAustin Peay\b"]},
+        "central-arkansas": {"query": "Central Arkansas Bears basketball", "match": [r"\bCentral Arkansas\b"]},
+        "eastern-kentucky": {"query": "Eastern Kentucky Colonels basketball", "match": [r"\bEastern Kentucky\b", r"\bEKU\b"]},
+        "little-rock": {"query": "Little Rock Trojans basketball", "match": [r"\bLittle Rock Trojans\b", r"\bUALR\b"]},
+        "north-alabama": {"query": "North Alabama Lions basketball", "match": [r"\bNorth Alabama\b"]},
+        "tarleton-state": {"query": "Tarleton State Texans basketball", "match": [r"\bTarleton\b"]},
+        "ut-arlington": {"query": "UT Arlington Mavericks basketball", "match": [r"\bUT Arlington\b", r"\bUTA\b"]},
+        "west-georgia": {"query": "West Georgia Wolves basketball", "match": [r"\bWest Georgia\b"]},
+    },
+    league_feed=("uacsports.com", "UAC (uacsports.com)"),
+    hashtag="UACMBB",
+    tournament="the UAC tournament",
+)
+
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC)}
 
 
 def current() -> League:
