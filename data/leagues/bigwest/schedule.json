@@ -1511,7 +1511,7 @@
     "key": null,
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": 39,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -1519,13 +1519,13 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 13,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:53 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911520",
@@ -9823,5 +9823,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-14T23:47:12+00:00"
+ "live_at": "2026-11-15T00:01:48+00:00"
 }
