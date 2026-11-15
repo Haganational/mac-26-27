@@ -18,6 +18,7 @@ F = ROOT / "templates/static/fonts"
 W, H, FPS, SR = 1280, 720, 25, 24000
 PAGE, INK, MUTED, GOLD = (21, 17, 13), (239, 230, 214), (143, 132, 116), (240, 199, 94)
 GAP, TAIL, CARD = 0.22, 0.55, 4.0
+CLIPDIR = Path(".")
 
 
 def font(n, s):
@@ -105,6 +106,13 @@ def voice(lines, voices, work, use_voice):
         subprocess.run([sys.executable, "-m", "piper", "-m", str(model), "-f", str(raw)], input=s.encode(), check=True)
     out = []
     for i, chunks in enumerate(plan):
+        vis = lines[i].get("visual") or ""
+        if lines[i]["speaker"] == "CLIP" and vis.startswith("clip:"):
+            src = CLIPDIR / f"{vis[5:]}.mp4"
+            if src.exists():
+                wav = work / f"clip{i:03d}.wav"
+                ff("-i", str(src), "-vn", "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", "-af", "volume=0.8", str(wav))
+                out.append(read_wav(wav)); continue
         if not chunks:
             n = len(lines[i]["say"].split())
             secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else max(2.2, n / 2.4 + TAIL)
@@ -126,7 +134,8 @@ def srt_time(t):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("dir"); ap.add_argument("--out", required=True)
     ap.add_argument("--no-voice", action="store_true"); a = ap.parse_args()
-    d, out = Path(a.dir), Path(a.out); out.mkdir(parents=True, exist_ok=True); work = Path("/tmp/docwork"); work.mkdir(exist_ok=True)
+    global CLIPDIR
+    d, out = Path(a.dir), Path(a.out); CLIPDIR = d / "clips"; out.mkdir(parents=True, exist_ok=True); work = Path("/tmp/docwork"); work.mkdir(exist_ok=True)
     spec = json.load(open(d / "lines.json")); lines = spec["lines"]; voices = spec["voices"]
     for v in voices.values():
         r = v.get("ref")
@@ -134,6 +143,19 @@ def main():
             r = os.environ.get("MATTHEW_REF")
         if r and Path(r).exists():
             wav = work / (Path(r).stem + ".ref.wav"); ff("-i", r, "-ac", "1", "-ar", str(SR), str(wav)); v["ref_path"] = str(wav)
+    # closing credits for every Commons/LOC picture and fair-use clip used
+    cred = {c["file"][:-4]: c for c in json.load(open(d / "broll/credits.json"))} if (d / "broll/credits.json").exists() else {}
+    rows = []
+    for ln in lines:
+        v = ln.get("visual") or ""
+        if v in cred and not any(r[0] == v for r in rows):
+            c = cred[v]; ttl = re.sub(r"\s*-\s*DPLA\s*-\s*[0-9a-f]+|\.(jpe?g|png|tif)$", "", c["title"].replace("File:", ""), flags=re.I)
+            rows.append((v, f"{ttl[:80]} · {c['author'][:60] or 'author unknown'} · {c['license']} · {c['source']}"))
+        if v.startswith("clip:") and not any(r[0] == v for r in rows):
+            rows.append((v, ln["caption"]))
+    rows.append(("own", "Athens photographs by Matthew Hagan, 2017 to 2025"))
+    for k in range(0, len(rows), 7):
+        lines.append({"speaker": "TITLE", "say": "", "caption": "", "visual": "credits:" + "\n".join(r[1] for r in rows[k:k + 7])})
     audio = voice(lines, voices, work / "vo", not a.no_voice)
     durs = [len(x) / SR for x in audio]
     # shots: runs of lines that share a picture
@@ -145,7 +167,28 @@ def main():
     clips, t_abs, srt = [], 0.0, []
     for n, sh in enumerate(shots):
         vis = sh["visual"]
-        if vis.startswith("card:"):
+        clip_src = d / "clips" / f"{vis[5:]}.mp4" if vis.startswith("clip:") else None
+        if clip_src is not None:
+            if clip_src.exists():
+                D = sum(durs[i] for i in sh["idx"]); cp = work / f"c{n:03d}_clip.png"
+                credit = lines[sh["idx"][0]]["caption"]
+                im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dd = ImageDraw.Draw(im); fnt = font("Barlow-Regular.ttf", 20)
+                dd.rectangle([0, H - 44, W, H], fill=(15, 12, 9, 170)); dd.text((24, H - 34), credit, font=fnt, fill=INK); im.save(cp)
+                clip = work / f"s{n:03d}.mp4"
+                ff("-i", str(clip_src), "-i", str(cp), "-filter_complex",
+                   f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},format=yuv420p[v];[v][1:v]overlay=0:0[out]",
+                   "-map", "[out]", "-t", f"{D:.3f}", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", str(clip))
+                clips.append(clip); t_abs += D; print(f"shot {n}: {vis} {D:.1f}s", flush=True); continue
+            vis = "card:Clip missing|" + vis[5:]
+        if vis.startswith("credits:"):
+            img = work / f"v{n:03d}.png"; im = Image.new("RGB", (W, H), PAGE); dd = ImageDraw.Draw(im)
+            dd.text((80, 70), "PICTURE CREDITS", font=font("BarlowCondensed-Bold.ttf", 34), fill=GOLD); y = 140
+            for row in vis[8:].split("\n"):
+                for ln2 in textwrap.wrap(row, 96):
+                    dd.text((80, y), ln2, font=font("Barlow-Regular.ttf", 22), fill=INK); y += 30
+                y += 16
+            im.save(img)
+        elif vis.startswith("card:"):
             img = work / f"v{n:03d}.png"; t, s = vis[5:].split("|", 1); card(t, s, img)
         else:
             src = next((p for p in (d / "photos" / f"{vis}.jpg", d / "broll" / f"{vis}.jpg") if p.exists()), None)
@@ -162,7 +205,7 @@ def main():
                 caps.append((t0, t0 + durs[i]))
                 srt.append((t_abs + t0, t_abs + t0 + durs[i] - TAIL + 0.1, f"{v['name']}: {ln['caption']}"))
             t0 += durs[i]
-        if vis.startswith("card:") or not img.suffix == ".jpg":
+        if vis.startswith(("card:", "credits:")) or not img.suffix == ".jpg":
             f = f"[0:v]scale={W}:{H},format=yuv420p[b0]"
         else:
             z = "'min(1+0.00035*on,1.2)'" if n % 2 == 0 else "'max(1.2-0.00035*on,1)'"

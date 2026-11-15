@@ -64,20 +64,31 @@ def loc(key, url, out, n=6):
 
 def main():
     q = json.load(open(sys.argv[1])); out = Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
+    old = json.load(open(out / "credits.json")) if (out / "credits.json").exists() else []
+    have = {it["key"] for it in old}
     items = []
     for key, s in q.get("commons", []):
+        if key in have:
+            continue
         try:
             items += commons(key, s, out)
         except Exception as e:
             print("commons", key, e)
         time.sleep(1)
     for key, u in q.get("loc", []):
+        if key in have:
+            continue
         try:
             items += loc(key, u, out)
         except Exception as e:
             print("loc", key, e)
         time.sleep(3)
-    kept, thumbs, count = [], [], {}
+    kept, thumbs, count = list(old), [], {}
+    for it in old:
+        try:
+            thumbs.append((it["file"], Image.open(out / it["file"]).convert("RGB")))
+        except Exception:
+            pass
     for it in items:
         count[it["key"]] = count.get(it["key"], 0) + 1
         name = f"{it['key']}-{count[it['key']]}.jpg"

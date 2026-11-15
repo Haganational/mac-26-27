@@ -7,7 +7,7 @@ name: Documentary rough cut
 on:
   push:
     branches: ["claude/**"]
-    paths: ["docs/*/lines.json", "docs/*/broll_queries.json", "tools/docs_render.py", "tools/broll_scout.py", ".github/workflows/docs.yml"]
+    paths: ["docs/*/lines.json", "docs/*/broll_queries.json", "docs/*/clips.json", "tools/docs_render.py", "tools/broll_scout.py", ".github/workflows/docs.yml"]
   workflow_dispatch:
     inputs:
       doc: {description: "Doc folder under docs/", default: "athens"}
@@ -33,9 +33,23 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt piper-tts
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-      - name: Find B-roll (first run only; delete broll/credits.json to search again)
+      - name: Find B-roll (only for query keys not already in broll/credits.json)
+        run: python tools/broll_scout.py "$DOC/broll_queries.json" "$DOC/broll"
+      - name: Fair-use clips (clips.json; short excerpts only, credited on screen)
         run: |
-          if [ ! -f "$DOC/broll/credits.json" ]; then python tools/broll_scout.py "$DOC/broll_queries.json" "$DOC/broll"; fi
+          [ -f "$DOC/clips.json" ] || exit 0
+          pip install -q yt-dlp
+          python - <<'PY'
+          import json, os, subprocess
+          d = os.environ["DOC"]; os.makedirs(f"{d}/clips", exist_ok=True)
+          for c in json.load(open(f"{d}/clips.json")):
+              out = f"{d}/clips/{c['key']}.mp4"
+              if os.path.exists(out):
+                  continue
+              r = subprocess.run(["yt-dlp", "-q", "--download-sections", f"*{c['start']}-{c['end']}", "--force-keyframes-at-cuts",
+                                  "-f", "bv*[height<=720]+ba/b[height<=720]", "--merge-output-format", "mp4", "-o", out, c["url"]])
+              print(c["key"], "ok" if r.returncode == 0 and os.path.exists(out) else "FAILED")
+          PY
       - name: Piper fallback voice
         run: |
           mkdir -p voices && cd voices
@@ -65,6 +79,6 @@ jobs:
       - name: Commit the rough cut and B-roll back to this branch
         run: |
           git config user.name "docs-render"; git config user.email "actions@users.noreply.github.com"
-          git add "$DOC/out" "$DOC/broll"
+          git add "$DOC/out" "$DOC/broll" "$DOC/clips" 2>/dev/null; git add "$DOC/out" "$DOC/broll"
           git commit -m "docs: rough cut for $DOC" || exit 0
           for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
