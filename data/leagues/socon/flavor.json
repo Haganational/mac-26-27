@@ -1,0 +1,1299 @@
+{
+ "_help": "Southern Conference local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "chattanooga": {
+   "town": "Chattanooga",
+   "home_floor": "McKenzie Arena",
+   "home_lines": [
+    {
+     "text": "Chattanooga's McKenzie Arena, the primary basketball arena of the University of Tennessee at Chattanooga, opened on October 8, 1982, at a cost of $15.5 million.",
+     "source": "https://en.wikipedia.org/wiki/McKenzie_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of Tennessee at Chattanooga's basketball home, McKenzie Arena, is also called 'The Roundhouse.'",
+     "source": "https://en.wikipedia.org/wiki/McKenzie_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga's arena took the name McKenzie Arena on February 21, 2000, in honor of athletic supporters Toby and Brenda McKenzie of Cleveland, Tennessee.",
+     "source": "https://en.wikipedia.org/wiki/McKenzie_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first season at Chattanooga's McKenzie Arena included a visit from North Carolina, then the defending NCAA national champion.",
+     "source": "https://en.wikipedia.org/wiki/McKenzie_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga's McKenzie Arena, home of the Mocs, also hosted the professional wrestling event WCW Halloween Havoc in 1991.",
+     "source": "https://en.wikipedia.org/wiki/McKenzie_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "In 1816 John Ross, later Principal Chief of the Cherokee Nation, established Ross's Landing, the settlement that was incorporated as the city of Chattanooga in 1839.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before the Trail of Tears, the U.S. Army used Ross's Landing, at the heart of what is now Chattanooga, as one of three large internment camps for the Cherokee.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga was a rail hub connecting fifty percent of the Confederacy's arsenals, and on November 25, 1863, Grant's army routed the Confederates there in the Battle of Missionary Ridge.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1969 the federal government declared that Chattanooga had the dirtiest air in the nation, its scenic ring of mountains trapping the city's industrial pollutants.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga counts the world's first Coca-Cola bottling plant among its businesses, and later launched the first government-provided one-gigabit Internet service in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Tennessee at Chattanooga opened as Chattanooga University on September 15, 1886, and joined the University of Tennessee System in 1969 after merging with Zion College.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tennessee_at_Chattanooga",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga's teams were the Moccasins until 1996, when the name was shortened to Mocs; the name's origin is uncertain, though Moccasin Bend curves through the Tennessee River below the city.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tennessee_at_Chattanooga",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga's mascot, Scrappy, is a mockingbird dressed as a railroad engineer, named for former Mocs football coach A. C. 'Scrappy' Moore.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tennessee_at_Chattanooga",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga won the 1977 NCAA Division II national championship, finishing 27-5 while completing its move from Division II to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga_Mocs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1982 NCAA tournament, No. 10 seed Chattanooga beat No. 7 seed NC State 58-51 in the first round before falling 62-61 to No. 2 seed Minnesota.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga_Mocs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 14 seed in 1997, Chattanooga beat Georgia 73-70 and Illinois 75-63 to reach the Sweet Sixteen, where Providence ended the run 71-65.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga_Mocs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chattanooga won the 2025 NIT championship, beating UC Irvine 85-84 in overtime in the final.",
+     "source": "https://en.wikipedia.org/wiki/Chattanooga_Mocs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dan Earl is the head men's basketball coach at Chattanooga, listed at the top of the Mocs' 2026-27 staff.",
+     "source": "https://gomocs.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Before the San Francisco 49ers drafted him in the third round in 1996, Terrell Owens played basketball and football and ran track at the University of Tennessee at Chattanooga.",
+     "source": "https://en.wikipedia.org/wiki/Terrell_Owens",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "etsu": {
+   "town": "Johnson City",
+   "home_floor": "Freedom Hall",
+   "home_lines": [
+    {
+     "text": "Freedom Hall Civic Center in Johnson City opened in 1974 and seats 6,149 for East Tennessee State basketball, with room for 8,500 at other events.",
+     "source": "https://en.wikipedia.org/wiki/Freedom_Hall_Civic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Freedom Hall Civic Center is owned by the city of Johnson City and became the home floor for East Tennessee State basketball starting in 2014.",
+     "source": "https://en.wikipedia.org/wiki/Freedom_Hall_Civic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Johnson City's Freedom Hall, home of East Tennessee State basketball, has hosted concerts by Elvis Presley, professional wrestling shows and the Ringling Bros. and Barnum & Bailey Circus.",
+     "source": "https://en.wikipedia.org/wiki/Freedom_Hall_Civic_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Johnson City, home of East Tennessee State, was founded in 1856 by Henry Johnson as a railroad station called Johnson's Depot.",
+     "source": "https://en.wikipedia.org/wiki/Johnson_City,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Columbia Records held recording sessions in Johnson City in 1928, the Johnson City Sessions, which made local fiddler 'Fiddlin' Charlie' Bowman a national recording star.",
+     "source": "https://en.wikipedia.org/wiki/Johnson_City,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The citrus soda Mountain Dew originated in Johnson City, today an economic hub fueled largely by East Tennessee State and the medical 'Med-Tech' corridor.",
+     "source": "https://en.wikipedia.org/wiki/Johnson_City,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bootlegging ties earned Johnson City the nickname 'Little Chicago,' and stories persist that the town was one of several distribution centers for Chicago gang boss Al Capone during Prohibition.",
+     "source": "https://en.wikipedia.org/wiki/Johnson_City,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Buffalo Mountain, a ridge over 2,700 feet high on the south side of Johnson City, is kept as a city park.",
+     "source": "https://en.wikipedia.org/wiki/Johnson_City,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "East Tennessee State was founded in 1911 as the East Tennessee State Normal School, created to educate teachers, and became a university in 1963.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "From 1938 to 1967 East Tennessee State freshmen went through 'Rat Week,' by the 1950s bowing to Captain Kidd, the live goat mascot, until student body president Jerry S. Jones abolished it.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Mini-Dome, officially the Ballad Health Athletic Center, is the largest building on the East Tennessee State campus and hosts the university's commencement ceremonies.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "As a No. 16 seed in the 1989 NCAA tournament, East Tennessee State lost 72-71 to No. 1 seed Oklahoma, the program's most famous loss.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_Buccaneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "East Tennessee State upset Arizona in the opening round of the 1992 NCAA tournament before losing to Michigan in the second round.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_Buccaneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Under Steve Forbes, East Tennessee State won the 2019-20 Southern Conference regular-season title and a school-record 30 games.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_Buccaneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "East Tennessee State's largest home crowd, 12,884, came for a game against Chattanooga on February 4, 1991.",
+     "source": "https://en.wikipedia.org/wiki/East_Tennessee_State_Buccaneers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brooks Savage is the head men's basketball coach at East Tennessee State, listed atop the Buccaneers' 2026-27 coaching staff.",
+     "source": "https://etsubucs.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Kenny Chesney studied advertising at East Tennessee State, was a member of the ETSU Bluegrass Program, and graduated in 1990 after selling demo albums while playing Johnson City clubs.",
+     "source": "https://en.wikipedia.org/wiki/Kenny_Chesney",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "furman": {
+   "town": "Greenville",
+   "home_floor": "Timmons Arena",
+   "home_lines": [
+    {
+     "text": "Furman's Timmons Arena opened on December 30, 1997, with a men's basketball game against Northern Illinois on the university's campus in Greenville.",
+     "source": "https://en.wikipedia.org/wiki/Timmons_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Timmons Arena at Furman is named for the Timmons family, which pledged a $4 million lead gift toward the Greenville building's construction.",
+     "source": "https://en.wikipedia.org/wiki/Timmons_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Ground was broken on Furman's Timmons Arena on August 24, 1996, after the closing of Greenville Memorial Auditorium.",
+     "source": "https://en.wikipedia.org/wiki/Timmons_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In February 2024 Furman announced a $40 million renovation of Timmons Arena that added a glass facade, a redesigned seating bowl, offices and locker rooms.",
+     "source": "https://en.wikipedia.org/wiki/Timmons_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The renovated Timmons Arena held its first event on October 26, 2025, when Furman hosted Alabama in an exhibition game.",
+     "source": "https://en.wikipedia.org/wiki/Timmons_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Falls Park on the Reedy River, with its gardens and several waterfalls in Greenville's West End, has been called the birthplace of Greenville.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1797 a landowner named Alston used his holdings to establish a village called Pleasantburg, where he also built a stately mansion, on the site of today's Greenville.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "By 1915 Greenville was known as the Textile Center of the South, and for a long stretch the South Carolina city was also called the Textile Capital of the World.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Michelin moved its North America headquarters to Greenville in 1984, and in 1994 BMW opened its first plant outside Germany between Greenville and Spartanburg.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Greenville sits in the foothills of the Blue Ridge Mountains at an elevation of 955 feet, and counted 70,720 residents at the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Furman University was founded in 1826 and named for the Baptist pastor Richard Furman, though the school was incorporated in December 1825 in Edgefield.",
+     "source": "https://en.wikipedia.org/wiki/Furman_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Furman began construction on its present campus outside downtown Greenville in 1953, and classes on the new grounds started in 1958.",
+     "source": "https://en.wikipedia.org/wiki/Furman_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Furman's teams became the Paladins on September 15, 1961, when students voted to adopt a nickname a Greenville sportswriter had first used in the 1930s.",
+     "source": "https://en.wikipedia.org/wiki/Furman_Paladins",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Furman's Frank Selvy scored 100 points against Newberry on February 13, 1954, his final two coming on a desperate heave near midcourt at the buzzer.",
+     "source": "https://en.wikipedia.org/wiki/Frank_Selvy",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Frank Selvy averaged 41.7 points a game for Furman in 1953-54 to lead the NCAA, then went first overall to the Baltimore Bullets in the 1954 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Frank_Selvy",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Furman reached the NCAA tournament six times from 1971 through 1980, and in 1974 beat South Carolina 75-67 before losing to Pittsburgh in the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Furman_Paladins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in the 2023 NCAA tournament, Furman beat fourth-seeded Virginia 68-67 before losing 75-52 to San Diego State in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Furman_Paladins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bob Richey is the head coach at Furman, where he announced the addition of forward Nikos Koulisianis to the Paladins' roster for the 2026-27 season.",
+     "source": "https://furmanpaladins.com/news/2026/7/22/koulisianis-joins-furman-mens-basketball-roster-for-2026-27.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "mercer": {
+   "town": "Macon",
+   "home_floor": "Hawkins Arena",
+   "home_lines": [
+    {
+     "text": "Mercer's Hawkins Arena opened on January 8, 2004, inside the University Center, a large multi-purpose facility in the middle of the Macon campus.",
+     "source": "https://en.wikipedia.org/wiki/Hawkins_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hawkins Arena seats 3,500 and took its name in 2012 to honor J. B. Hawkins, a former high school athletic director and basketball coach in Crawford County, Georgia.",
+     "source": "https://en.wikipedia.org/wiki/Hawkins_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first men's game in Mercer's University Center was a 73-55 win over Georgia State on January 27, 2004.",
+     "source": "https://en.wikipedia.org/wiki/Hawkins_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2010 Mercer hosted the men's and women's Atlantic Sun Conference basketball tournaments in Macon, the first time in university history the school had staged them.",
+     "source": "https://en.wikipedia.org/wiki/Hawkins_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Mercer men went undefeated at Hawkins Arena in 2013 on the way to a regular-season conference title.",
+     "source": "https://en.wikipedia.org/wiki/Hawkins_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Macon was developed at the site of Fort Benjamin Hawkins, built in 1809 at President Thomas Jefferson's direction after the Creek were forced to cede lands east of the Ocmulgee River.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Macon was chartered as the seat of Bibb County in 1823 and named for Nathaniel Macon, a North Carolina statesman.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ocmulgee Mounds National Historical Park in Macon preserves some of Georgia's largest ancient earthwork mounds, raised by the Mississippian culture about a millennium ago.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Macon sits near the fall line of the Ocmulgee River, where rivers run rapidly toward the coast, and in the past those rivers powered the city's textile mills.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Capricorn Records, run by Macon native Phil Walden, made Macon a center of Southern rock in the late 1960s and 1970s, and the Allman Brothers Band's 'Big House' is now a museum.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the Civil War Macon served as the Confederacy's official arsenal, and Union forces took the city during Wilson's Raid on April 20, 1865.",
+     "source": "https://en.wikipedia.org/wiki/Macon,_Georgia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mercer University opened as Mercer Institute with 39 students on January 14, 1833, in Penfield, Georgia, and moved to Macon in 1871.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mercer University is named for Jesse Mercer, a Baptist leader who helped provide its founding endowment and served as the first chairman of its board.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mercer's debating society, founded in 1897, is described as the oldest debating society in the state of Georgia.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mercer has made three NCAA Tournament appearances, losing to Arkansas in 1981 and Georgia Tech in 1985 before breaking through in 2014.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mercer beat Duke in the 2014 NCAA Tournament, an upset that won the Bears the ESPY Award for Best Upset that year.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_University",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mercer won the 2012 CollegeInsider.com Tournament by beating Utah State 70-67 in the final, the first postseason title won by an Atlantic Sun team.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mercer has retired six men's basketball numbers, among them Glenn Wilkes's 13 and Sam Mitchell's 42.",
+     "source": "https://en.wikipedia.org/wiki/Mercer_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ryan Ridder coaches Mercer, and after a 19-13 season in 2025-26 he agreed to a contract extension running through the 2030-31 season.",
+     "source": "https://mercerbears.com/news/2026/6/9/mens-basketball-ridder-agrees-to-contract-extension-through-2030-31-season",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Sam Mitchell played at Mercer from 1981 to 1985 and later coached the Toronto Raptors, where he was named NBA Coach of the Year for 2006-07.",
+     "source": "https://en.wikipedia.org/wiki/Sam_Mitchell_(basketball)",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "samford": {
+   "town": "Homewood",
+   "home_floor": "the Pete Hanna Center",
+   "home_lines": [
+    {
+     "text": "Samford's Pete Hanna Center opened on October 18, 2007, with a lecture by the best-selling author Walter Isaacson.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Hanna_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pete Hanna Center cost $28 million and is named for Pete Hanna, owner and chief executive of Hanna Steel Corporation, while its arena honors former Samford president Thomas Corts and his wife Marla.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Hanna_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the Pete Hanna Center opened in Homewood, Samford's basketball and volleyball teams played in Seibert Hall.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Hanna_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pete Hanna Center's record crowd of 5,116 watched the Samford men play Davidson on January 31, 2009.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Hanna_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Homewood, the Birmingham suburb that is home to Samford, was incorporated on December 29, 1926, and annexed the community of Oak Grove in 1955.",
+     "source": "https://en.wikipedia.org/wiki/Homewood,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Homewood's Hollywood subdivision, developed by Clyde Nelson starting in 1926, was marketed with the slogan 'Out of the Smoke Zone, Into the Ozone.'",
+     "source": "https://en.wikipedia.org/wiki/Homewood,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Homewood is one of Birmingham's affluent 'Over the Mountain' suburbs, an area largely shielded from the industrial smoke and rough streets of the industrial city.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Birmingham, the city beside Samford's Homewood, was founded on June 1, 1871, by the Elyton Land Company and named for the English industrial city.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Birmingham District, next door to Samford's Homewood, is described as the only place worldwide with significant iron ore, coal and limestone, the three raw materials of steel, in close proximity.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Birmingham's Vulcan, the world's largest cast iron statue, was cast for the 1904 St. Louis Exposition and erected at Vulcan Park in 1938.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Samford University began in 1841 as Howard College, founded by Baptists in Marion, Alabama, and moved to the East Lake section of Birmingham in 1887.",
+     "source": "https://en.wikipedia.org/wiki/Samford_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Howard College opened its new Shades Valley campus in 1957, reached university status in 1965, and was renamed Samford University for longtime trustee Frank Park Samford.",
+     "source": "https://en.wikipedia.org/wiki/Samford_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Samford's Homewood campus is built in the Georgian Colonial style, modeled on Colonial Williamsburg as envisioned by Lena Vail Davis.",
+     "source": "https://en.wikipedia.org/wiki/Samford_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Samford reached its first NCAA Tournament in 1999 under Jimmy Tillette, whose 24-6 team won both the Trans America Athletic Conference regular-season and tournament titles.",
+     "source": "https://en.wikipedia.org/wiki/Samford_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jimmy Tillette coached Samford from 1997 to 2012, won a school-record 229 games and was named 1999 TAAC Coach of the Year.",
+     "source": "https://en.wikipedia.org/wiki/Samford_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bucky McMillan's 2023-24 Samford team went 29-6, a school record for wins, and won the program's first Southern Conference tournament title.",
+     "source": "https://en.wikipedia.org/wiki/Samford_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in the 2024 NCAA Tournament, Samford lost 93-89 to fourth-seeded Kansas, its closest result in three NCAA appearances.",
+     "source": "https://en.wikipedia.org/wiki/Samford_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Lennie Acuff is in his second season as Samford's head coach in 2026-27, with 16 of the Bulldogs' 32 games scheduled for the Pete Hanna Center.",
+     "source": "https://samfordsports.com/news/2026/8/10/samford-mens-basketball-sets-2026-27-schedule",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "tennessee-tech": {
+   "town": "Cookeville",
+   "home_floor": "the Eblen Center",
+   "home_lines": [
+    {
+     "text": "Tennessee Tech's Hooper Eblen Center opened in Cookeville on October 2, 1977, with a Phoebe Snow concert as its first event.",
+     "source": "https://en.wikipedia.org/wiki/Hooper_Eblen_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Elvis Presley was originally scheduled to give the first performance at Tennessee Tech's Eblen Center, but the plans were canceled after the singer's death that August 16.",
+     "source": "https://en.wikipedia.org/wiki/Hooper_Eblen_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech's 9,282-seat Eblen Center is named for Hooper Eblen, a former coach and professor at the school; students often call it 'The Hoop.'",
+     "source": "https://en.wikipedia.org/wiki/Hooper_Eblen_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first sell-out concert at Tennessee Tech's Eblen Center came on August 1, 1982, when Alabama drew 11,210 people.",
+     "source": "https://en.wikipedia.org/wiki/Hooper_Eblen_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cookeville, home of Tennessee Tech, is named for Richard Fielding Cooke, a pioneer who settled in the area in 1810 and helped establish Putnam County.",
+     "source": "https://en.wikipedia.org/wiki/Cookeville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cookeville sits on the Highland Rim at about 1,100 feet, a few hundred feet higher than Nashville or Knoxville, which keeps its temperatures and humidity somewhat lower.",
+     "source": "https://en.wikipedia.org/wiki/Cookeville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Tennessee Central Railroad built the Cookeville Depot in 1909; after passenger service ended in 1955, preservationists saved it and reopened it as a museum in 1985.",
+     "source": "https://en.wikipedia.org/wiki/Cookeville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the Jim Crow era, John's Place in Cookeville was one business where white and black locals could socialize together; it joined the National Register of Historic Places in 2011.",
+     "source": "https://en.wikipedia.org/wiki/Cookeville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On March 3, 2020, an EF4 tornado struck west of Cookeville, killing 19 people, injuring 87 and causing more than $100 million in damage.",
+     "source": "https://en.wikipedia.org/wiki/Cookeville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech began as the University of Dixie, chartered in November 1909 and established by members of the Broad Street Church of Christ, before the state took it over in 1915 as Tennessee Polytechnic Institute.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Technological_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The eagle statue on Tennessee Tech's Derryberry Hall was stolen by three students from the Monteagle Hotel lawn in 1952, first set atop Jere Whitson Hall, and moved to Derryberry in 1961.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Technological_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech's 'Blizzard,' a toilet-paper toss, began in 1984 after the team's first basket in a game against MTSU; since MTSU left for the Sun Belt, it is performed against Austin Peay.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Technological_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech has reached the NCAA tournament twice, in 1958 and 1963, losing in the regional quarterfinals to Notre Dame and then to Loyola-Chicago, 111-42.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Tech_Golden_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech won seven conference regular-season titles, in 1956, 1958, 1963, 1985, 2001, 2002 and 2005.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Tech_Golden_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech's 2002 NIT run included wins over Georgia State, Dayton and Yale before a quarterfinal loss to Memphis.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Tech_Golden_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech has retired four men's basketball jerseys: Stephen Kite's 23, Earl Wise's 32, Kenny Sidwell's 40 and Jim Hagan's 42.",
+     "source": "https://en.wikipedia.org/wiki/Tennessee_Tech_Golden_Eagles_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tennessee Tech hired Tobin Anderson as head coach; at Fairleigh Dickinson in 2023 his No. 16 seed beat No. 1 seed Purdue in the NCAA tournament's opening round.",
+     "source": "https://ttusports.com/sports/mbkb/2025-26/releases/20260313j0kn5a",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Country singer Dottie West attended Tennessee Polytechnic Institute, now Tennessee Tech, on a music scholarship, and married during her sophomore year there.",
+     "source": "https://en.wikipedia.org/wiki/Dottie_West",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "the-citadel": {
+   "town": "Charleston",
+   "home_floor": "McAlister Field House",
+   "home_lines": [
+    {
+     "text": "The Citadel's McAlister Field House was built in 1939 and was known as the Citadel Armory until 1973.",
+     "source": "https://en.wikipedia.org/wiki/McAlister_Field_House",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Citadel renamed its armory McAlister Field House on March 16, 1973, in honor of Col. David S. McAlister of the Class of 1924.",
+     "source": "https://en.wikipedia.org/wiki/McAlister_Field_House",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $7.9 million renovation of The Citadel's McAlister Field House in 1989 raised its seating from 4,500 to 6,000.",
+     "source": "https://en.wikipedia.org/wiki/McAlister_Field_House",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "After its renovation, McAlister Field House sold out for The Citadel's basketball games against Duke in 1991, South Carolina in 1997 and College of Charleston in 1999.",
+     "source": "https://en.wikipedia.org/wiki/McAlister_Field_House",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "On July 23, 2007, The Citadel's McAlister Field House in Charleston hosted the Democratic Party's CNN-YouTube presidential debate.",
+     "source": "https://en.wikipedia.org/wiki/McAlister_Field_House",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Charleston was founded as Charles Town in 1670 by English colonists, who named it in honor of Charles II of England.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Almost one-half of the enslaved people imported to the United States arrived through the South Carolina port of Charleston.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The first full battle of the Civil War came in Charleston Harbor on April 12, 1861, and Major Robert Anderson surrendered Fort Sumter after a 34-hour bombardment.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On August 31, 1886, a strong earthquake struck Charleston, damaging 2,000 buildings and causing $6 million worth of damage.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1822 members of the Charleston church now known as Mother Emanuel AME, led by the lay preacher Denmark Vesey, planned an uprising and escape to Haiti.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Citadel was founded in 1842 as the South Carolina Military Academy, rooted in a state arsenal built to guard white Charleston residents after Denmark Vesey's thwarted 1822 uprising.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In January 1861 Citadel cadets on Morris Island shelled the Union ship Star of the West, firing the first shots of the conflict.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "First-year cadets at The Citadel are sometimes called knobs, after their shaved heads, and the college moved from Marion Square to its campus on the Ashley River in 1922.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Citadel's basketball program dates its first season to 1900, and in 1927 the Bulldogs beat Mercer to win the Southern Intercollegiate Athletic Association tournament.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel_Bulldogs_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Citadel's deepest run in the Southern Conference tournament ended in the 1959 final with a loss to West Virginia.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel_Bulldogs_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Author Pat Conroy played for The Citadel from 1963 to 1967 and chronicled the 1966-67 Bulldogs in My Losing Season; his No. 22 jersey was honored in 2018.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel_Bulldogs_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Citadel's 2008-09 team won 20 games and earned the program's first postseason berth, losing to Old Dominion in the first round of the CollegeInsider.com Postseason Tournament.",
+     "source": "https://en.wikipedia.org/wiki/The_Citadel_Bulldogs_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ed Conroy, a Chicago native, is The Citadel's head coach and opens the 2026-27 season with the Bulldogs at Loyola Chicago in his hometown.",
+     "source": "https://www.live5news.com/2026/09/17/citadel-announces-complete-2026-27-basketball-schedule/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "unc-greensboro": {
+   "town": "Greensboro",
+   "home_floor": "Bodford Arena",
+   "home_lines": [
+    {
+     "text": "UNC Greensboro's Bodford Arena opened in June 1989 and was known as Fleming Gymnasium, after Greensboro civic leader Michael B. Fleming, from 1994 until 2025.",
+     "source": "https://en.wikipedia.org/wiki/Bodford_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UNC Greensboro renamed Fleming Gymnasium as Bodford Arena in November 2025 in recognition of a $2 million gift from the Bodford family.",
+     "source": "https://en.wikipedia.org/wiki/Bodford_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest crowd at UNC Greensboro's Bodford Arena was 2,302, for a 98-70 men's win over Charleston Southern on February 25, 1995.",
+     "source": "https://en.wikipedia.org/wiki/Bodford_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Boston Celtics held their preseason training camp in UNC Greensboro's gym, now Bodford Arena, before the 1996-97 NBA season.",
+     "source": "https://en.wikipedia.org/wiki/Bodford_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Greensboro was planned in 1808 around a central courthouse square to succeed Guilford Court House as the county seat, and was named for Major General Nathanael Greene.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Greensboro's namesake, Nathanael Greene, lost the Battle of Guilford Court House on March 15, 1781, but his forces inflicted heavy casualties on Cornwallis's British Army.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On February 1, 1960, four Black college students sat down at the all-white Woolworth's lunch counter in Greensboro, and the building now houses the International Civil Rights Center and Museum.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Greensboro became known as the Gate City for its role as a transportation hub for the North Carolina Piedmont.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Cone brothers' large textile plants turned Greensboro from a village into a city within a decade, and by 1900 it was a center of the Southern textile industry.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNC Greensboro was established in 1891 as the State Normal and Industrial School, founded by Charles Duncan McIver, its first chief executive, and opened in 1892.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Greensboro",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "From 1932 to 1963 UNC Greensboro was the Woman's College of the University of North Carolina, one of three charter institutions of the Consolidated University.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Greensboro",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UNC Greensboro's colors are gold, white and navy blue, its mascot is Spiro the Spartan, and a statue of Minerva has stood near the center of campus since 2003.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Greensboro",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UNC Greensboro basketball moved up to Division II in 1988 and reached Division I by 1991, with Mike Dement the architect of the move to Division I.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Greensboro_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNC Greensboro's first NCAA tournament came in 1996, when the 15th-seeded Spartans lost 66-61 to second-seeded Cincinnati in the first round.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Greensboro_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in the 2018 NCAA tournament, UNC Greensboro pushed fourth-seeded Gonzaga before losing 68-64.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Greensboro_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kyle Hines, Southern Conference Player of the Year as a junior, is UNC Greensboro's all-time leader in points with 2,187 and blocks with 349.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Greensboro_Spartans_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jerod Haase is UNC Greensboro's head coach in his first season, and says he wants to establish Bodford Arena as an elite home court advantage for the Spartans.",
+     "source": "https://uncgspartans.com/news/2026/8/14/mens-basketball-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "vmi": {
+   "town": "Lexington",
+   "home_floor": "Cameron Hall",
+   "home_lines": [
+    {
+     "text": "VMI's Cameron Hall opened on December 5, 1981, with a 76-49 Virginia win over the Keydets before 4,460 fans in Lexington.",
+     "source": "https://en.wikipedia.org/wiki/Cameron_Hall_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cameron Hall is named for brothers Bruce and Daniel Cameron of the VMI classes of 1938 and 1942, who paid $2.3 million of its $6.8 million cost.",
+     "source": "https://en.wikipedia.org/wiki/Cameron_Hall_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cameron Hall's first sellout came on January 17, 2009, when 5,029 fans watched Liberty beat VMI 91-80 in Lexington.",
+     "source": "https://en.wikipedia.org/wiki/Cameron_Hall_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Although Cameron Hall is mainly a basketball arena, VMI also holds its commencement there every May.",
+     "source": "https://en.wikipedia.org/wiki/Cameron_Hall_(arena)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Cameron Hall, VMI played basketball from the 1930s until 1980 in Cormack Field House, known as 'The Pit' and now used for indoor track.",
+     "source": "https://en.wikipedia.org/wiki/VMI_Keydets_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Lexington, Virginia, was named in 1778, the second of many American places named for Lexington, Massachusetts, where the first shot of the Revolution was fired.",
+     "source": "https://en.wikipedia.org/wiki/Lexington,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lexington is an independent city of 7,320 people at the 2020 census and the seat of Rockbridge County, though the two are separate jurisdictions.",
+     "source": "https://en.wikipedia.org/wiki/Lexington,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Maury River, a tributary of the James, forms the northeastern boundary of Lexington, a Shenandoah Valley town covering 2.53 square miles.",
+     "source": "https://en.wikipedia.org/wiki/Lexington,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Robert E. Lee and Thomas 'Stonewall' Jackson are both buried in Lexington, Lee in University Chapel at Washington and Lee and Jackson in Oak Grove Cemetery.",
+     "source": "https://en.wikipedia.org/wiki/Lexington,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lexington is the site of the only house Stonewall Jackson ever owned, now open to the public as a museum in the home town of VMI.",
+     "source": "https://en.wikipedia.org/wiki/Lexington,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "VMI grew out of a state arsenal in Lexington and formally separated from Washington College on November 11, 1839; the Old Barracks stands on the arsenal's site.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Military_Institute",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "At the Battle of New Market on May 15, 1864, 247 VMI cadets fought; five were killed that day and five more later died of wounds.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Military_Institute",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The VMI nickname Keydets is Southern-style slang for 'cadets,' and the Lexington school's colors are red, white and yellow.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Military_Institute",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "VMI enrolled its first 30 women in August 1997, after the Supreme Court ruled 7-1 in United States v. Virginia that the state school could not exclude them.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Military_Institute",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "VMI's 1976 team beat Tennessee and then DePaul in overtime in the NCAA Tournament before losing to Rutgers in the Elite Eight.",
+     "source": "https://en.wikipedia.org/wiki/VMI_Keydets_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "VMI won Southern Conference tournament titles in 1964, 1976 and 1977, and its 1977 team beat Duquesne before falling to Kentucky in the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/VMI_Keydets_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "VMI opened the 2008-09 season by upsetting Kentucky 111-103 inside Rupp Arena, a long way from the Keydets' home in Lexington.",
+     "source": "https://en.wikipedia.org/wiki/VMI_Keydets_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "VMI's 2006-07 team led the NCAA in scoring at 100.9 points per game, and Reggie Williams tops the Keydets' career scoring list with 2,556 points.",
+     "source": "https://en.wikipedia.org/wiki/VMI_Keydets_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Andrew Wilson is VMI's head coach for 2026-27, and he scheduled seven of the Keydets' 12 non-conference games at home in Lexington.",
+     "source": "https://vmikeydets.com/news/2026/8/12/mens-basketball-vmi-basketball-announces-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "George C. Marshall entered VMI at sixteen in September 1897, rose to first captain and graduated in the Class of 1901, long before his 1953 Nobel Peace Prize.",
+     "source": "https://en.wikipedia.org/wiki/George_C._Marshall",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "western-carolina": {
+   "town": "Cullowhee",
+   "home_floor": "the Ramsey Center",
+   "home_lines": [
+    {
+     "text": "Western Carolina's home floor in Cullowhee, the Liston B. Ramsey Regional Activity Center, opened on April 10, 1986, and was dedicated on December 6, 1986.",
+     "source": "https://en.wikipedia.org/wiki/Ramsey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina dedicated the Ramsey Center against N.C. State on December 6, 1986, before a crowd of 8,114, still the record for the Cullowhee arena.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_Catamounts_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina's Ramsey Center is nicknamed 'The Lair' and appears in the music video for Bon Jovi's 'Wanted Dead or Alive.'",
+     "source": "https://en.wikipedia.org/wiki/Ramsey_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first official game at Western Carolina's Ramsey Center was a women's game, a 65-61 Catamounts win over Mars Hill on December 4, 1986.",
+     "source": "https://en.wikipedia.org/wiki/Ramsey_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cullowhee, home of Western Carolina, was long thought to mean 'Valley of the Lilies,' but the name comes from the Cherokee joolth-cullah-wee, 'Judacullah's Place.'",
+     "source": "https://en.wikipedia.org/wiki/Cullowhee,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cullowhee's Judaculla Rock is listed on the National Register of Historic Places; Judacullah was a giant warrior and hunter the Cherokee believe lived in the area.",
+     "source": "https://en.wikipedia.org/wiki/Cullowhee,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cullowhee was historically a Cherokee town centered on the Cullowhee Mound on the Tuckasegee River, estimated to have been built by 1000 CE by people of the South Appalachian Mississippian culture.",
+     "source": "https://en.wikipedia.org/wiki/Cullowhee,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cullowhee, home of Western Carolina, is a census-designated place in central Jackson County, North Carolina, with a permanent population of 7,682 at the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Cullowhee,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1940 a massive flood caused severe damage to the business district of Cullowhee, the Tuckasegee River community that surrounds Western Carolina.",
+     "source": "https://en.wikipedia.org/wiki/Cullowhee,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina began in August 1889 as Cullowhee Academy, a semi-public secondary school founded by Robert Lee Madison, and took its current name in 1967.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina's Pride of the Mountains marching band, open to students of all majors, has performed in the Macy's Thanksgiving Day Parade and the Tournament of Roses Parade.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina alumnus Henry Logan became, in 1964, North Carolina's first African-American to play basketball for a 'white' public institution.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_University",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Western Carolina won the 1996 Southern Conference tournament to earn the program's first NCAA tournament appearance.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_Catamounts_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 16 seed in 1996, Western Carolina lost 73-71 to top-seeded Purdue, nearly becoming the first 16 seed to beat a 1 seed.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_Catamounts_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kevin Martin, who played in the NBA from 2004 to 2016, is among the notable players to come through Western Carolina's basketball program.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_Catamounts_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Appalachian State leads its all-time basketball series with Western Carolina 108-68; the Catamounts won the last meeting 72-71 on December 4, 2017, on a last-second dunk by Mike Amius.",
+     "source": "https://en.wikipedia.org/wiki/Western_Carolina_Catamounts_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Tim Craft is the head men's basketball coach at Western Carolina, leading the Catamounts in Cullowhee into the 2026-27 season.",
+     "source": "https://catamountsports.com/news/2026/7/27/socon-fast-break-tim-craft-and-western-carolinas-commitment.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Humorist David Sedaris briefly attended Western Carolina University before transferring to Kent State, which he left in 1977.",
+     "source": "https://en.wikipedia.org/wiki/David_Sedaris",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "wofford": {
+   "town": "Spartanburg",
+   "home_floor": "Jerry Richardson Indoor Stadium",
+   "home_lines": [
+    {
+     "text": "Construction of Wofford's Jerry Richardson Indoor Stadium began in January 2016, and the building replaced Benjamin Johnson Arena as the Terriers' home for the 2017-18 season.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Richardson_Indoor_Stadium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first event at Wofford's Jerry Richardson Indoor Stadium was a volleyball match against Furman on September 20, 2017, before the men's basketball debut against South Carolina on November 10, 2017.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Richardson_Indoor_Stadium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Jerry Richardson Indoor Stadium seats 3,400 for Wofford basketball and can hold 4,500 for concerts and commencements, with a separate 350-seat volleyball arena under the same roof in Spartanburg.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Richardson_Indoor_Stadium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Wofford's Jerry Richardson Indoor Stadium on Cummings Street in Spartanburg was designed by McMillan Pazdan Smith Architecture and built by Robins and Morton, with four open-air corner suites.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Richardson_Indoor_Stadium",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Spartanburg is thought to take its name from the Spartan Regiment, a local Revolutionary War militia that fought under Andrew Pickens at the Battle of Cowpens.",
+     "source": "https://en.wikipedia.org/wiki/Spartanburg,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Morgan Square, the original courthouse village at the heart of downtown Spartanburg, is named for Daniel Morgan, the American commander at Cowpens, whose statue was placed there in 1881.",
+     "source": "https://en.wikipedia.org/wiki/Spartanburg,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Spartanburg is known as the Hub City, a nickname tied to the railroad lines that once radiated from the town like the spokes of a wheel.",
+     "source": "https://en.wikipedia.org/wiki/Spartanburg,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Some 100,000 soldiers trained at Spartanburg's Camp Wadsworth during World War I, and Camp Croft trained troops in World War II before becoming Croft State Park.",
+     "source": "https://en.wikipedia.org/wiki/Spartanburg,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Spartanburg became a center of textile manufacturing in the late 19th century, and its economy now benefits from the BMW plant in Greer, in Spartanburg County.",
+     "source": "https://en.wikipedia.org/wiki/Spartanburg,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wofford College was founded in 1854 with a $100,000 bequest from Benjamin Wofford, a Methodist minister who wanted a college in his native district of Spartanburg.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wofford's Main Building, designed by Edward C. Jones in the Italianate style, is the oldest structure on a Spartanburg campus designated as a national arboretum.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wofford's colors are old gold and black, and its teams are represented by Boss, a Boston Terrier who serves as the Terriers' mascot.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wofford moved to Division I basketball for the 1995-96 season and joined the Southern Conference two years later, for the 1997-98 season.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_Terriers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wofford's first NCAA tournament game came in 2010, a 53-49 first-round loss to fourth-seeded Wisconsin after the Terriers won the Southern Conference tournament.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_Terriers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wofford beat Seton Hall 84-68 in the 2019 NCAA tournament, a game in which Fletcher Magee broke the all-time NCAA career record for three-pointers made.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_Terriers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "After beating Seton Hall in the 2019 NCAA tournament, seventh-seeded Wofford fell 62-56 to second-seeded Kentucky in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Wofford_Terriers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kevin Giltner is Wofford's men's basketball head coach and announced the Terriers' 32-game 2026-27 schedule, with 16 games at Jerry Richardson Indoor Stadium.",
+     "source": "https://woffordterriers.com/news/2026/8/6/mens-basketball-mens-basketball-releases-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {}
+}
