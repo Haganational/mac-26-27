@@ -1322,8 +1322,57 @@ MEAC = League(
 )
 
 
+# SWAC 2026-27 membership from ESPN's conference feed (group 26).
+SWAC = League(
+    key="swac", short="SWAC", name="Southwestern Athletic Conference",
+    region="the Deep South and Texas, from Huntsville, Montgomery, Tallahassee and Daytona Beach through Jackson, Itta Bena, Lorman, Grambling and Baton Rouge to Pine Bluff, Prairie View and Houston",
+    teams=(
+        Team("alabama-am", "2010", "AAMU", "Alabama A&M Bulldogs", "Alabama A&M", "#660000", "#FFFFFF"),
+        Team("grambling", "2755", "GRAM", "Grambling Tigers", "Grambling", "#000000", "#F0AB00"),
+        Team("prairie-view", "2504", "PV", "Prairie View A&M Panthers", "Prairie View", "#4F2D7F", "#FDB913"),
+        Team("jackson-state", "2296", "JKST", "Jackson State Tigers", "Jackson State", "#002147", "#FFFFFF"),
+        Team("alabama-state", "2011", "ALST", "Alabama State Hornets", "Alabama State", "#000000", "#C99700"),
+        Team("mvsu", "2400", "MVSU", "Mississippi Valley State Delta Devils", "Mississippi Valley State", "#00703C", "#FFFFFF"),
+        Team("alcorn", "2016", "ALCN", "Alcorn State Braves", "Alcorn State", "#46166B", "#E9A900"),
+        Team("uapb", "2029", "UAPB", "Arkansas-Pine Bluff Golden Lions", "Arkansas-Pine Bluff", "#000000", "#E3A100"),
+        Team("florida-am", "50", "FAMU", "Florida A&M Rattlers", "Florida A&M", "#F47321", "#008142"),
+        Team("texas-southern", "2640", "TXSO", "Texas Southern Tigers", "Texas Southern", "#860038", "#A7A9AC"),
+        Team("bethune-cookman", "2065", "BCU", "Bethune-Cookman Wildcats", "Bethune-Cookman", "#6F263D", "#F2A900"),
+        Team("southern-u", "2582", "SOU", "Southern Jaguars", "Southern", "#005DAA", "#F9C700"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="swac/",
+    theme="liveoak",
+    odds_aliases={
+        "Grambling St Tigers": "grambling",
+        "Prairie View Panthers": "prairie-view",
+        "Jackson St Tigers": "jackson-state",
+        "Alabama St Hornets": "alabama-state",
+        "Miss Valley St Delta Devils": "mvsu",
+        "Alcorn St Braves": "alcorn",
+    },
+    news_names={
+        "alabama-am": {"query": "Alabama A&M Bulldogs basketball", "match": [r"\bAlabama A&M\b"]},
+        "grambling": {"query": "Grambling Tigers basketball", "match": [r"\bGrambling\b"]},
+        "prairie-view": {"query": "Prairie View A&M Panthers basketball", "match": [r"\bPrairie View\b"]},
+        "jackson-state": {"query": "Jackson State Tigers basketball", "match": [r"\bJackson State\b"]},
+        "alabama-state": {"query": "Alabama State Hornets basketball", "match": [r"\bAlabama State\b"]},
+        "mvsu": {"query": "Mississippi Valley State Delta Devils basketball", "match": [r"\bMississippi Valley State\b", r"\bMVSU\b"]},
+        "alcorn": {"query": "Alcorn State Braves basketball", "match": [r"\bAlcorn State\b", r"\bAlcorn\b"]},
+        "uapb": {"query": "Arkansas-Pine Bluff Golden Lions basketball", "match": [r"\bArkansas-Pine Bluff\b", r"\bUAPB\b"]},
+        "florida-am": {"query": "Florida A&M Rattlers basketball", "match": [r"\bFlorida A&M\b", r"\bFAMU\b"]},
+        "texas-southern": {"query": "Texas Southern Tigers basketball", "match": [r"\bTexas Southern\b"]},
+        "bethune-cookman": {"query": "Bethune-Cookman Wildcats basketball", "match": [r"\bBethune-Cookman\b"]},
+        "southern-u": {"query": "Southern Jaguars basketball", "match": [r"\bSouthern Jaguars\b", r"\bSouthern University\b"]},
+    },
+    league_feed=("swac.org", "SWAC (swac.org)"),
+    hashtag="SWACMBB",
+    tournament="the SWAC tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC, AMEAST, PATRIOT, NEC, MEAC)}
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC, AMEAST, PATRIOT, NEC, MEAC, SWAC)}
 
 
 def current() -> League:
