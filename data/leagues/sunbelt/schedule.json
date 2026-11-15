@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:57:31+00:00",
+ "fetched_at": "2026-11-15T20:27:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2419,10 +2419,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-11-15-2026--sports-ncaa-basketball/production/7864136?wsUser=717",
-    "low": 24.0
-   },
+   "tickets": null,
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
    "venue_state": "GA",
@@ -2431,21 +2428,21 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "2450",
     "key": null,
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": null,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919825",
@@ -3649,7 +3646,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-11-22-2026--sports-ncaa-basketball/production/7508071?wsUser=717",
-    "low": 9.0
+    "low": 12.0
    },
    "venue": "Galen Center",
    "venue_city": "Los Angeles",

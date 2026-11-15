@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:55:21+00:00",
+ "fetched_at": "2026-11-15T20:25:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2219,7 +2219,7 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2227,13 +2227,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 46,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:25 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920065",
@@ -2277,7 +2277,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:54 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401911251",
@@ -2318,10 +2318,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:18 - 1st"
   },
   {
    "game_id": "401911211",

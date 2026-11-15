@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:56:56+00:00",
+ "fetched_at": "2026-11-15T20:27:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -1986,10 +1986,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-15-2026--sports-ncaa-basketball/production/7413987?wsUser=717",
-    "low": 41.0
-   },
+   "tickets": null,
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -1998,21 +1995,21 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "97",
     "key": null,
     "name": "Louisville Cardinals",
     "abbr": "LOU",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925812",
@@ -2039,7 +2036,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2047,13 +2044,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 46,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:25 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929200",

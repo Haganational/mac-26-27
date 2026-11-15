@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:58:12+00:00",
+ "fetched_at": "2026-11-15T20:28:25+00:00",
  "season": 2027,
  "games": [
   {
@@ -1411,10 +1411,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-15-2026--sports-ncaa-basketball/production/7710483?wsUser=717",
-    "low": 24.0
-   },
+   "tickets": null,
    "venue": "Case Gym",
    "venue_city": "Boston",
    "venue_state": "MA",
@@ -1423,21 +1420,21 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "159",
     "key": "dartmouth",
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401912210",
@@ -1455,10 +1452,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-15-2026--sports-basketball/production/7444587?wsUser=717",
-    "low": 50.0
-   },
+   "tickets": null,
    "venue": "Bender Arena",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -1467,21 +1461,21 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
    "away": {
     "espn_id": "108",
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920065",
@@ -1525,7 +1519,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:54 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401924744",
@@ -1569,7 +1563,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:43 - 1st"
+   "detail": "15:17 - 2nd"
   },
   {
    "game_id": "401921182",
@@ -2545,7 +2539,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 36.0
+    "low": 35.0
    },
    "venue": "Leede Arena",
    "venue_city": "Hanover",
@@ -3547,7 +3541,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-12-6-2026--sports-ncaa-basketball/production/7766037?wsUser=717",
-    "low": 36.0
+    "low": 35.0
    },
    "venue": "Leede Arena",
    "venue_city": "Hanover",

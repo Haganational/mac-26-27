@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T19:56:04+00:00",
+ "fetched_at": "2026-11-15T20:26:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -1335,10 +1335,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-sanford-pentagon-11-15-2026--sports-ncaa-basketball/production/7008172?wsUser=717",
-    "low": 198.0
-   },
+   "tickets": null,
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -1347,21 +1344,21 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": null,
-    "winner": null
+    "score": 102,
+    "winner": true
    },
    "away": {
     "espn_id": "68",
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928789",
@@ -2243,7 +2240,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-11-24-2026--sports-ncaa-basketball/production/7633995?wsUser=717",
-    "low": 5.0
+    "low": 6.0
    },
    "venue": "Beasley Coliseum",
    "venue_city": "Pullman",
