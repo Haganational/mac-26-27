@@ -2141,7 +2141,7 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2149,13 +2149,13 @@
     "key": null,
     "name": "Capital Crusaders",
     "abbr": "CAPU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:29 - 1st"
   },
   {
    "game_id": "401921168",
@@ -10440,5 +10440,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T19:31:20+00:00"
 }

@@ -1995,7 +1995,7 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": 41,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2003,13 +2003,13 @@
     "key": null,
     "name": "Louisville Cardinals",
     "abbr": "LOU",
-    "score": 52,
+    "score": 61,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:03 - 2nd"
   },
   {
    "game_id": "401925812",
@@ -2036,7 +2036,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2044,13 +2044,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:43 - 1st"
+   "detail": "8:43 - 1st"
   },
   {
    "game_id": "401929200",
@@ -11814,5 +11814,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T19:34:53+00:00"
 }

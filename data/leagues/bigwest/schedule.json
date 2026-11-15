@@ -1641,7 +1641,7 @@
     "key": null,
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1649,13 +1649,13 @@
     "key": "csu-bakersfield",
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:54 - 1st"
   },
   {
    "game_id": "401928353",
@@ -9813,5 +9813,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T19:32:44+00:00"
 }

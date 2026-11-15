@@ -1423,7 +1423,7 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -1431,13 +1431,13 @@
     "key": "dartmouth",
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": null,
+    "score": 52,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:38 - 2nd"
+   "detail": "7:01 - 2nd"
   },
   {
    "game_id": "401912210",
@@ -1467,7 +1467,7 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -1475,13 +1475,13 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:59 - 2nd"
+   "detail": "8:32 - 2nd"
   },
   {
    "game_id": "401920065",
@@ -1511,7 +1511,7 @@
     "key": null,
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -1519,13 +1519,13 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:28 - 1st"
+   "detail": "7:01 - 1st"
   },
   {
    "game_id": "401924744",
@@ -1555,7 +1555,7 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -1563,13 +1563,13 @@
     "key": null,
     "name": "Emmanuel (MA) Lions",
     "abbr": "ECMA",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:36 - 1st"
+   "detail": "4:33 - 1st"
   },
   {
    "game_id": "401921182",
@@ -7136,5 +7136,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T19:36:05+00:00"
 }
