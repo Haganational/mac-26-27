@@ -18,8 +18,34 @@ from pathlib import Path
 from mac import reels as R
 from mac import youtube as Y
 
+try:  # the tag rule lives on main (mac/tags.py); an older checkout falls back to the manifest's own tag text
+    from mac import tags as T
+except ImportError:  # pragma: no cover
+    T = None
+
 TAGS = "#Athens #Ohio #History #Documentary #HardwoodBricks"
 DISCLOSURE = "Ray, Marcus and Simone are fictional AI anchors. The narrator is real."
+
+
+def tag_line(m: dict, first: tuple[str, ...] = ()) -> str:
+    """Town film tags (Matthew, Nov 15 2026): the house line from mac.tags (#Midmaxxing, #CollegeBasketball) plus
+    the film's city tags ("city_tags", e.g. ["#ToledoOhio"]) and then its school or conference tags
+    ("specific_tags"), five at most. No @-mentions. A manifest without "city_tags" keeps its old "tags" text."""
+    if not m.get("city_tags") or T is None:
+        return " ".join([*first, m.get("tags", TAGS)])
+    return T.line(extra=[*m["city_tags"], *m.get("specific_tags", [])], first=first)
+
+
+def place(m: dict) -> dict:
+    """The video location from the manifest: "location": {"name": "Toledo, Ohio", "lat": 41.65, "lng": -83.54}."""
+    loc = m.get("location")
+    if not loc:
+        return {}
+    return {"recordingDetails": {"locationDescription": loc["name"], "location": {"latitude": loc["lat"], "longitude": loc["lng"]}}}
+
+
+def parts(m: dict) -> str:
+    return "snippet,status,recordingDetails" if m.get("location") else "snippet,status"
 
 
 def find_film(token: str, needle: str) -> str:
@@ -39,9 +65,9 @@ def find_film(token: str, needle: str) -> str:
 def yt_film(token: str, d: Path, f: dict, m: dict) -> str:
     """Upload the full film itself (public) when the manifest carries a "film" block and it is not on the channel yet."""
     meta = {"snippet": {"title": f["title"][:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
-                        "description": f["description"], "tags": m.get("yt_tags", [])},
-            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
-    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
+                        "description": f["description"] + (f"\n\n{tag_line(m)}" if m.get("city_tags") else ""), "tags": m.get("yt_tags", [])},
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}, **place(m)}
+    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part={parts(m)}", token, json.dumps(meta).encode())
     vid = Y._call(head.get("Location") or head.get("location"), token, (d / f["file"]).read_bytes(), "video/mp4", "PUT")[0]["id"]
     print(f"film: uploaded https://youtu.be/{vid}")
     try:
@@ -72,10 +98,10 @@ def yt_short(token: str, mp4: Path, thumb: Path, title: str, text: str, film: st
     if Y.already_up(token, title):
         return "already on the channel" + rethumb(token, title, thumb, m)
     meta = {"snippet": {"title": title[:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
-                        "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{m.get('disclosure', DISCLOSURE)}\n\n#Shorts {m.get('tags', TAGS)}",
+                        "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{m.get('disclosure', DISCLOSURE)}\n\n{tag_line(m, ('#Shorts',))}",
                         "tags": m.get("yt_tags", ["Athens Ohio", "Ohio University", "history", "documentary", "Hardwood Bricks"])},
-            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
-    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}, **place(m)}
+    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part={parts(m)}", token, json.dumps(meta).encode())
     vid = Y._call(head.get("Location") or head.get("location"), token, mp4.read_bytes(), "video/mp4", "PUT")[0]["id"]
     try:
         Y._call(f"{Y.UPLOAD}/thumbnails/set?videoId={vid}&uploadType=media", token, thumb.read_bytes(), "image/jpeg")
@@ -120,8 +146,12 @@ def main() -> None:
     failed = 0
     for r in m["reels"]:
         mp4 = path.parent / r["file"]
-        long_text = f"{r['title']}\n\n{r['text']}\n\nWatch the full film: {film}\n\n{m.get('tags', TAGS)}\n\n{m.get('disclosure', DISCLOSURE)}"
-        short_text = f"{r['title']}\n\nFull film: {film}\n\n{m.get('short_tags', '#Athens #Ohio #History')}"
+        long_text = f"{r['title']}\n\n{r['text']}\n\nWatch the full film: {film}\n\n{tag_line(m)}\n\n{m.get('disclosure', DISCLOSURE)}"
+        short_tags = tag_line(m) if m.get("city_tags") and T else m.get("short_tags", "#Athens #Ohio #History")
+        short_text = f"{r['title']}\n\nFull film: {film}\n\n{short_tags}"
+        while len(short_text) > 300 and " " in short_tags:  # Bluesky's limit: drop tags from the end, never the link
+            short_tags = short_tags.rsplit(" ", 1)[0]
+            short_text = f"{r['title']}\n\nFull film: {film}\n\n{short_tags}"
         assert len(short_text) <= 300, len(short_text)
         url = f"https://github.com/{repo}/releases/download/{m['release']}/{r['file']}"
         nets = R.networks("midmaxx60")
