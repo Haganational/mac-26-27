@@ -180,6 +180,22 @@ def main():
             r = os.environ.get("MATTHEW_REF")
         if r and Path(r).exists():
             wav = work / (Path(r).stem + ".ref.wav"); ff("-i", r, "-ac", "1", "-ar", str(SR), str(wav)); v["ref_path"] = str(wav)
+    if spec.get("revoice") and not a.no_voice:
+        # quick pass: re-speak only the listed anchor lines (e.g. "S-11") into out/vo, no picture
+        seen, pick = {}, []
+        for ln in lines:
+            if ln["speaker"] in voices:
+                seen[ln["speaker"]] = seen.get(ln["speaker"], 0) + 1
+                tag = f"{ln['speaker']}-{seen[ln['speaker']]:02d}"
+                if tag in spec["revoice"]:
+                    pick.append((tag, ln))
+        (out / "vo").mkdir(exist_ok=True)
+        for (tag, _), x in zip(pick, voice([ln for _, ln in pick], voices, work / "vo", True)):
+            tmp = work / "vo_tmp.wav"
+            with wave.open(str(tmp), "wb") as w:
+                w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(x[:max(len(x) - int(TAIL * SR), 1)].tobytes())
+            ff("-i", str(tmp), "-c:a", "libvorbis", "-q:a", "5", str(out / "vo" / f"{tag}.ogg")); print("revoiced", tag, flush=True)
+        return
     # closing credits for every Commons/LOC picture and fair-use clip used
     cred = {c["file"][:-4]: c for c in json.load(open(d / "broll/credits.json"))} if (d / "broll/credits.json").exists() else {}
     rows = []
