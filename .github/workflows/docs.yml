@@ -1,0 +1,70 @@
+name: Documentary rough cut
+
+# Long-form docs (Hardwood Bricks Media). On a push to a claude/ branch that changes a doc's
+# script, find free-license B-roll (once per doc), voice the script with the anchor desk and
+# Matthew's cloned voice, render a 720p rough cut, and commit it back to that branch.
+# Nothing is published or uploaded.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/lines.json", "docs/*/broll_queries.json", "tools/docs_render.py", "tools/broll_scout.py", ".github/workflows/docs.yml"]
+  workflow_dispatch:
+    inputs:
+      doc: {description: "Doc folder under docs/", default: "athens"}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      DOC: docs/${{ inputs.doc || 'athens' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt piper-tts
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Find B-roll (first run only; delete broll/credits.json to search again)
+        run: |
+          if [ ! -f "$DOC/broll/credits.json" ]; then python tools/broll_scout.py "$DOC/broll_queries.json" "$DOC/broll"; fi
+      - name: Piper fallback voice
+        run: |
+          mkdir -p voices && cd voices
+          for e in onnx onnx.json; do curl -sSfL -o en_US-ryan-high.$e https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high.$e; done
+          echo "PIPER_DIR=$PWD" >> "$GITHUB_ENV"
+      - name: Matthew's voice reference
+        env:
+          VOICE_KEY: ${{ secrets.VOICE_KEY }}
+        run: |
+          export VOICE_KEY="$(printf %s "$VOICE_KEY" | tr -d '[:space:]')"
+          if [ -n "$VOICE_KEY" ] && openssl enc -d -aes-256-cbc -pbkdf2 -pass env:VOICE_KEY -in voices/matthew.ogg.enc -out /tmp/matthew.ogg; then
+            echo "MATTHEW_REF=/tmp/matthew.ogg" >> "$GITHUB_ENV"; echo "Using Matthew's voice reference"
+          else
+            echo "::warning::No VOICE_KEY; Matthew's lines read with Piper"
+          fi
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: chatterbox-turbo-v1
+      - name: Install Chatterbox (CPU)
+        run: |
+          python -m venv /tmp/cbenv
+          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts "setuptools<81"
+          echo "VOICE_CLONE_PY=/tmp/cbenv/bin/python" >> "$GITHUB_ENV"
+      - name: Render
+        run: python tools/docs_render.py "$DOC" --out "$DOC/out"
+      - name: Commit the rough cut and B-roll back to this branch
+        run: |
+          git config user.name "docs-render"; git config user.email "actions@users.noreply.github.com"
+          git add "$DOC/out" "$DOC/broll"
+          git commit -m "docs: rough cut for $DOC" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
