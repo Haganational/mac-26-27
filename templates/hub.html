@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="impact-site-verification" value="e531e9e2-a768-4660-ab40-1912a3fd399b">
-<title>Hardwood Bricks: {{ names }} men's basketball scores, box scores and lines</title>
-<meta name="description" content="Every {{ names }} men's basketball game, {{ season }}: tonight's schedule and TV, final scores with a written recap and box score, player pages, lines and ratings.">
+<title>Hardwood Bricks: mid-major men's basketball scores, box scores and lines</title>
+<meta name="description" content="Every men's basketball game in {{ n_conf }} mid-major conferences, {{ season }}: tonight's schedule and TV, final scores with a written recap and box score, player pages, lines and ratings.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hardwood Bricks">
-<meta property="og:title" content="Hardwood Bricks: {{ names }} men's basketball">
-<meta property="og:description" content="Tonight's games, last night's finals, box scores and recaps for every team in the {{ names }}.">
+<meta property="og:title" content="Hardwood Bricks: mid-major men's basketball">
+<meta property="og:description" content="Tonight's games, last night's finals, box scores and recaps for {{ n_schools }} teams in {{ n_conf }} mid-major conferences.">
 <meta property="og:url" content="{{ base }}">
 <meta property="og:image" content="{{ base }}static/og/site.png">
 <meta property="og:image:width" content="1200">
@@ -29,8 +29,8 @@
 {% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True) }}
 <div class="bricks" aria-hidden="true"></div>
 <main>
-  <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span>{{ names }} · {{ season }}</span></div>
-  <h1 style="position:absolute;left:-9999px">Hardwood Bricks: {{ names }} men's basketball, every game</h1>
+  <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span title="{{ names }}">{{ n_conf }} conferences · {{ n_schools }} schools · {{ season }}</span></div>
+  <h1 style="position:absolute;left:-9999px">Hardwood Bricks: mid-major men's basketball, every game, in {{ n_conf }} conferences: {{ names }}</h1>
 
   <div class="front">
     <div>
@@ -41,15 +41,15 @@
       <a class="lead{{ '' if lead.image or lead.photo or lead.clip else ' noimg' }}" href="{{ lead.href }}">
         {% if not lead.clip %}{% if lead.photo %}<img class="lead-photo" src="{{ lead.photo }}" alt="" loading="eager">{% elif lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}{% endif %}
         <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}</span>
-        <h2>{{ lead.title }}</h2>
+        <h2>{{ lead.title|nobreak }}</h2>
         {% if lead.dek and (lead.clip or lead.photo or not lead.image) %}<p>{{ lead.dek }}</p>{% endif %}
       </a>
       {% else %}
-      <div class="lead noimg"><h2>{{ names }} men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
+      <div class="lead noimg"><h2>Mid-major men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
       {% endif %}
       {% if cards %}
       <div class="cards">
-        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}</span><h3>{{ c.title }}</h3></a>{% endfor %}
+        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}</span><h3>{{ c.title|nobreak }}</h3></a>{% endfor %}
       </div>
       {% endif %}
     </div>
@@ -64,7 +64,7 @@
       {% if river %}
       <section aria-labelledby="h-wire">
         <div class="sh"><h2 id="h-wire">Latest recaps</h2></div>
-        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{% if s.video %}▶ Video · {% endif %}{{ s.age }}</span><span class="hd">{{ s.title }}</span></a></li>{% endfor %}</ul>
+        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{% if s.video %}▶ Video · {% endif %}{{ s.age }}</span><span class="hd">{{ s.title|nobreak }}</span></a></li>{% endfor %}</ul>
       </section>
       {% endif %}
     </aside>

@@ -102,8 +102,9 @@
     </div>
     <aside class="bw-col" aria-label="{{ column.label or 'The Column' }}">
       <p class="bw-kick">{{ column.label or "The Column" }}</p>
-      <div class="bw-who"><img src="{{ root }}static/staff/matthew-hagan.jpg" alt="" width="54" height="54" loading="lazy" onerror="this.remove()">
-        <div><b>{{ column.byline or "Matthew Hagan" }}</b><span>{{ "Editor, Hardwood Bricks" if (column.byline or "Matthew Hagan") == "Matthew Hagan" else "Contributor" }}</span></div></div>
+      {% set by = column.byline or "Matthew Hagan" %}{# Matthew's photo only on his own column: a staff or contributor byline wore it too #}
+      <div class="bw-who">{% if by == "Matthew Hagan" %}<img src="{{ root }}static/staff/matthew-hagan.jpg" alt="" width="54" height="54" loading="lazy" onerror="this.remove()">{% endif %}
+        <div><b>{{ by }}</b>{% if by == "Matthew Hagan" %}<span>Editor, Hardwood Bricks</span>{% elif "staff" not in by|lower %}<span>Contributor</span>{% endif %}</div></div>
       <h3>{{ column.title }}</h3>
       {{ column.html|safe }}
       {% if column.href %}<a class="more" href="{{ root }}{{ column.href }}">More Fieldhouse Notes →</a>{% endif %}

@@ -617,8 +617,115 @@ WCC = League(
     tournament="the WCC tournament",
 )
 
+# American Conference 2026-27 membership from ESPN's conference feed (group 62). The league dropped "Athletic"
+# from its name in 2025. Colors are each school's primary and accent from their athletics branding.
+AMERICAN = League(
+    key="american", short="American", name="American Conference",
+    region="from Philadelphia and Charlotte down to Tampa and Boca Raton, and west through Memphis, Birmingham and New Orleans to Tulsa, Wichita, Denton, Houston and San Antonio",
+    teams=(
+        Team("charlotte", "2429", "CLT", "Charlotte 49ers", "Charlotte", "#005035", "#A49665"),
+        Team("east-carolina", "151", "ECU", "East Carolina Pirates", "East Carolina", "#592A8A", "#FDC82F"),
+        Team("fau", "2226", "FAU", "Florida Atlantic Owls", "FAU", "#003366", "#CC0000"),
+        Team("memphis", "235", "MEM", "Memphis Tigers", "Memphis", "#003087", "#898D8D"),
+        Team("north-texas", "249", "UNT", "North Texas Mean Green", "North Texas", "#00853E", "#000000"),
+        Team("rice", "242", "RICE", "Rice Owls", "Rice", "#00205B", "#C1C6C8"),
+        Team("south-florida", "58", "USF", "South Florida Bulls", "South Florida", "#006747", "#CFC493"),
+        Team("temple", "218", "TEM", "Temple Owls", "Temple", "#9D2235", "#FFFFFF"),
+        Team("tulane", "2655", "TULN", "Tulane Green Wave", "Tulane", "#006747", "#418FDE"),
+        Team("tulsa", "202", "TLSA", "Tulsa Golden Hurricane", "Tulsa", "#002D72", "#C5B783"),
+        Team("uab", "5", "UAB", "UAB Blazers", "UAB", "#1E6B52", "#F4C300"),
+        Team("utsa", "2636", "UTSA", "UTSA Roadrunners", "UTSA", "#0C2340", "#F15A22"),
+        Team("wichita-state", "2724", "WICH", "Wichita State Shockers", "Wichita State", "#FFC72C", "#000000"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="american/",
+    theme="levee",
+    odds_aliases={
+        "Wichita St Shockers": "wichita-state",
+        "FAU Owls": "fau",
+        "USF Bulls": "south-florida",
+        "UT San Antonio Roadrunners": "utsa",
+        "Texas-San Antonio Roadrunners": "utsa",
+        "Alabama-Birmingham Blazers": "uab",
+    },
+    news_names={
+        "charlotte": {"query": "Charlotte 49ers basketball", "match": [r"\bCharlotte 49ers\b", r"\bUNC Charlotte\b"]},
+        "east-carolina": {"query": "East Carolina Pirates basketball", "match": [r"\bEast Carolina\b", r"\bECU\b"]},
+        "fau": {"query": "FAU Owls basketball", "match": [r"\bFAU\b", r"\bFlorida Atlantic\b"]},
+        "memphis": {"query": "Memphis Tigers basketball", "match": [r"\bMemphis Tigers\b", r"\bMemphis\b(?! Grizzlies| Grizz)", r"\bPenny Hardaway\b"]},
+        "north-texas": {"query": "North Texas Mean Green basketball", "match": [r"\bNorth Texas\b", r"\bMean Green\b", r"\bUNT\b"]},
+        "rice": {"query": "Rice Owls basketball", "match": [r"\bRice Owls\b", r"\bRice University\b", r"^Rice\b"]},
+        "south-florida": {"query": "South Florida Bulls basketball", "match": [r"\bSouth Florida\b", r"\bUSF Bulls\b"]},
+        "temple": {"query": "Temple Owls basketball", "match": [r"\bTemple Owls\b", r"\bTemple University\b", r"^Temple\b"]},
+        "tulane": {"query": "Tulane Green Wave basketball", "match": [r"\bTulane\b", r"\bGreen Wave\b"]},
+        "tulsa": {"query": "Tulsa Golden Hurricane basketball", "match": [r"\bTulsa\b", r"\bGolden Hurricane\b"]},
+        "uab": {"query": "UAB Blazers basketball", "match": [r"\bUAB\b"]},
+        "utsa": {"query": "UTSA Roadrunners basketball", "match": [r"\bUTSA\b"]},
+        "wichita-state": {"query": "Wichita State Shockers basketball", "match": [r"\bWichita St(ate|\.)?\b", r"\bShockers\b"]},
+    },
+    league_feed=("theamerican.org", "American (theamerican.org)"),
+    hashtag="AmericanMBB",
+    tournament="the American tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC)}
+# Sun Belt 2026-27 membership from ESPN's conference feed (group 27). Texas State left for the Pac-12;
+# Louisiana Tech is new.
+SUNBELT = League(
+    key="sunbelt", short="Sun Belt", name="Sun Belt Conference",
+    region="the Southeast, from Boone, Harrisonburg and Huntington down the coast to Conway, Statesboro and Mobile, and west through Troy, Hattiesburg and Louisiana to Jonesboro",
+    teams=(
+        Team("app-state", "2026", "APP", "App State Mountaineers", "App State", "#222222", "#FFCC00"),
+        Team("arkansas-state", "2032", "ARST", "Arkansas State Red Wolves", "Arkansas State", "#CC092F", "#000000"),
+        Team("coastal-carolina", "324", "CCU", "Coastal Carolina Chanticleers", "Coastal Carolina", "#006F71", "#A27752"),
+        Team("georgia-southern", "290", "GASO", "Georgia Southern Eagles", "Georgia Southern", "#011E41", "#87714D"),
+        Team("georgia-state", "2247", "GAST", "Georgia State Panthers", "Georgia State", "#0039A6", "#C60C30"),
+        Team("james-madison", "256", "JMU", "James Madison Dukes", "James Madison", "#450084", "#CBB677"),
+        Team("louisiana", "309", "UL", "Louisiana Ragin' Cajuns", "Louisiana", "#CE181E", "#FFFFFF"),
+        Team("louisiana-tech", "2348", "LT", "Louisiana Tech Bulldogs", "Louisiana Tech", "#002F8B", "#E31B23"),
+        Team("marshall", "276", "MRSH", "Marshall Thundering Herd", "Marshall", "#00B140", "#000000"),
+        Team("old-dominion", "295", "ODU", "Old Dominion Monarchs", "Old Dominion", "#003057", "#7C878E"),
+        Team("south-alabama", "6", "USA", "South Alabama Jaguars", "South Alabama", "#00205B", "#BF0D3E"),
+        Team("southern-miss", "2572", "USM", "Southern Miss Golden Eagles", "Southern Miss", "#000000", "#FFAB00"),
+        Team("troy", "2653", "TROY", "Troy Trojans", "Troy", "#8A2432", "#B3B5B8"),
+        Team("ul-monroe", "2433", "ULM", "UL Monroe Warhawks", "UL Monroe", "#840029", "#BA9B37"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="sunbelt/",
+    theme="liveoak",
+    odds_aliases={
+        "Appalachian St Mountaineers": "app-state",
+        "Appalachian State Mountaineers": "app-state",
+        "Arkansas St Red Wolves": "arkansas-state",
+        "Georgia St Panthers": "georgia-state",
+        "Louisiana Ragin Cajuns": "louisiana",
+        "UL Lafayette Ragin' Cajuns": "louisiana",
+        "Louisiana-Lafayette Ragin' Cajuns": "louisiana",
+        "Louisiana-Monroe Warhawks": "ul-monroe",
+        "Southern Mississippi Golden Eagles": "southern-miss",
+    },
+    news_names={
+        "app-state": {"query": "App State Mountaineers basketball", "match": [r"\bApp(alachian)? St(ate|\.)?\b"]},
+        "arkansas-state": {"query": "Arkansas State Red Wolves basketball", "match": [r"\bArkansas St(ate|\.)?\b", r"\bRed Wolves\b", r"\bA-State\b"]},
+        "coastal-carolina": {"query": "Coastal Carolina Chanticleers basketball", "match": [r"\bCoastal Carolina\b", r"\bChanticleers\b"]},
+        "georgia-southern": {"query": "Georgia Southern Eagles basketball", "match": [r"\bGeorgia Southern\b"]},
+        "georgia-state": {"query": "Georgia State Panthers basketball", "match": [r"\bGeorgia St(ate|\.)?\b"]},
+        "james-madison": {"query": "James Madison Dukes basketball", "match": [r"\bJames Madison\b", r"\bJMU\b"]},
+        "louisiana": {"query": "Louisiana Ragin' Cajuns basketball", "match": [r"\bRagin[’']? Cajuns\b", r"\bUL Lafayette\b", r"\bLouisiana-Lafayette\b"]},
+        "louisiana-tech": {"query": "Louisiana Tech Bulldogs basketball", "match": [r"\bLouisiana Tech\b", r"\bLa\. Tech\b"]},
+        "marshall": {"query": "Marshall Thundering Herd basketball", "match": [r"\bThundering Herd\b", r"\bMarshall University\b", r"^Marshall\b"]},
+        "old-dominion": {"query": "Old Dominion Monarchs basketball", "match": [r"\bOld Dominion\b", r"\bODU\b"]},
+        "south-alabama": {"query": "South Alabama Jaguars basketball", "match": [r"\bSouth Alabama\b"]},
+        "southern-miss": {"query": "Southern Miss Golden Eagles basketball", "match": [r"\bSouthern Miss(issippi)?\b"]},
+        "troy": {"query": "Troy Trojans basketball", "match": [r"\bTroy Trojans\b", r"\bTroy University\b", r"^Troy\b"]},
+        "ul-monroe": {"query": "UL Monroe Warhawks basketball", "match": [r"\bUL Monroe\b", r"\bULM\b", r"\bLouisiana-Monroe\b", r"\bWarhawks\b"]},
+    },
+    league_feed=("sunbeltsports.org", "Sun Belt (sunbeltsports.org)"),
+    hashtag="SunBeltMBB",
+    tournament="the Sun Belt tournament",
+)
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT)}
 
 
 def current() -> League:
@@ -626,3 +733,11 @@ def current() -> League:
     if key not in ALL:
         raise SystemExit(f"LEAGUE={key!r} is not one of {sorted(ALL)}")
     return ALL[key]
+
+
+if __name__ == "__main__":  # python -m mac.leagues editions: every edition key but the MAC's, for the workflows' loops
+    import sys
+    if sys.argv[1:] == ["editions"]:
+        print(" ".join(k for k in ALL if k != "mac"))
+    else:
+        print(__doc__)

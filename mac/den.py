@@ -2,7 +2,7 @@
 
 Built with the hub (mac/hub.py). Writes, into site/den/:
 
-  slate-YYYY-MM-DD.json    one per ET date with a game involving our 67 schools, from the
+  slate-YYYY-MM-DD.json    one per ET date with a game involving any of our schools, from the
                            season's first such date through today + DAYS_AHEAD
   results-YYYY-MM-DD.json  one per ET date with at least one final
   index.json               which dates have what

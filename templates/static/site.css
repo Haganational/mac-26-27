@@ -450,6 +450,8 @@ tr[class^="t-"] td:first-child { box-shadow: inset 4px 0 0 var(--tc); }
 .sitefoot .dim { color: #93ad9f; font-size: 12px; }
 .sitefoot h4 { margin: 0 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--gold); }
 .sitefoot nav a { display: block; color: #efe3cc; padding: 3px 0; }
+.sitefoot .sf-eds { columns: 2; column-gap: 22px; max-width: 280px; }  /* A-Z like the switcher, two columns so 27 editions stay short */
+.sitefoot .sf-eds a[aria-current] { color: var(--gold); }
 .sf-teams { columns: 2; column-gap: 16px; }
 .sf-teams h4 { column-span: all; }
 .sf-teams a i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
@@ -1058,6 +1060,28 @@ html.lg-mission .topbar, html.lg-mission .tb-nav.open { background: linear-gradi
 html.lg-mission .homehero { background: radial-gradient(110% 80% at 40% 85%, rgba(217,139,85,.3), transparent 60%), linear-gradient(rgba(31,24,21,.15), rgba(31,24,21,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(24,18,15,.6); --hh-soft: #f1e6d8; }
 html.lg-mission .homehero .hh-mac { color: #c0603a; -webkit-text-stroke: 2px #fff; }
 html.lg-mission .sitefoot { color: #ede2d4; }
+/* ---------------------------------------------------------------- American edition: Levee
+   The river at dusk under a lit double-arch bridge (Memphis, New Orleans, the Gulf cities and the
+   Sun Belt downtowns up to Philadelphia), brass bridge lights for the accent. Set by html.lg-levee. */
+html.lg-levee { --brand: #1b2433; --brand-2: #2a3850; --gold: #ebc67a; --brick: #b0603a; --mortar: #dde2ea;
+  --bricks: url("data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%2796%27%20height=%2732%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%270%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27%23141b2b%27/%3E%3Cstop%20offset=%27.5%27%20stop-color=%27%232b3651%27/%3E%3Cstop%20offset=%27.68%27%20stop-color=%27%23a46a52%27/%3E%3Cstop%20offset=%27.72%27%20stop-color=%27%231a2233%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2732%27%20fill=%27url%28%23g%29%27/%3E%3Cpath%20d=%27M2%2021%20V17%20H6%20V21%20Z%20M8%2021%20V14%20H11%20V21%20Z%20M13%2021%20V18%20H17%20V21%20Z%20M84%2021%20V16%20H88%20V21%20Z%20M89%2021%20V12%20H92%20V21%20Z%27%20fill=%27%231c2537%27/%3E%3Cpath%20d=%27M24%2021%20Q36%209%2048%2021%20Q60%209%2072%2021%27%20fill=%27none%27%20stroke=%27%23e2b766%27%20stroke-width=%27.9%27%20opacity=%27.8%27/%3E%3Cpath%20d=%27M30%2015.5%20V21%20M36%2013%20V21%20M42%2015.5%20V21%20M54%2015.5%20V21%20M60%2013%20V21%20M66%2015.5%20V21%27%20stroke=%27%23e2b766%27%20stroke-width=%27.35%27%20opacity=%27.45%27/%3E%3Cpath%20d=%27M0%2021%20H96%27%20stroke=%27%230f1522%27%20stroke-width=%271.2%27/%3E%3Cpath%20d=%27M27%2025%20H33%20M38%2027%20H46%20M52%2025%20H58%20M62%2028%20H70%20M10%2026%20H16%20M80%2027%20H86%27%20stroke=%27%23e2b766%27%20stroke-width=%27.6%27%20opacity=%27.22%27/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) { html.lg-levee:not([data-theme="light"]) { --brand: #141b28; --brand-2: #212c40; } }
+html.lg-levee[data-theme="dark"] { --brand: #141b28; --brand-2: #212c40; }
+html.lg-levee .topbar, html.lg-levee .tb-nav.open { background: linear-gradient(180deg, rgba(20,27,40,.5), rgba(20,27,40,.8)), var(--bricks) 0 0 / 96px 32px; background-color: #141b28; border-bottom: 2px solid #c9a25a; }
+html.lg-levee .homehero { background: radial-gradient(110% 80% at 50% 85%, rgba(201,162,90,.24), transparent 60%), linear-gradient(rgba(20,27,40,.15), rgba(20,27,40,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(14,19,30,.6); --hh-soft: #e2e7ef; }
+html.lg-levee .homehero .hh-mac { color: #b8873a; -webkit-text-stroke: 2px #fff; }
+html.lg-levee .sitefoot { color: #e0e5ee; }
+/* ---------------------------------------------------------------- Sun Belt edition: Live Oak
+   A live oak hung with moss over the marsh at sundown (Statesboro, Mobile, Lafayette, Hattiesburg,
+   the Carolina and Georgia low country), with a magnolia-rose accent. Set by html.lg-liveoak. */
+html.lg-liveoak { --brand: #1e2a24; --brand-2: #2e3f35; --gold: #efcd88; --brick: #a8563a; --mortar: #e3e6da;
+  --bricks: url("data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%2796%27%20height=%2732%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%270%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27%231a2a30%27/%3E%3Cstop%20offset=%27.55%27%20stop-color=%27%233f4b45%27/%3E%3Cstop%20offset=%27.8%27%20stop-color=%27%23d48f6c%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2732%27%20fill=%27url%28%23g%29%27/%3E%3Ccircle%20cx=%2726%27%20cy=%2718%27%20r=%273%27%20fill=%27%23f3c88e%27%20opacity=%27.7%27/%3E%3Cpath%20d=%27M50%2014%20Q56%207%2066%209%20Q74%205%2082%2010%20Q92%209%2094%2015%20Q86%2017.5%2078%2016%20Q70%2018.5%2062%2016.5%20Q54%2018%2050%2014Z%27%20fill=%27%2316201b%27/%3E%3Cpath%20d=%27M70%2016%20L68.8%2027%20H73.2%20L72%2016Z%20M71%2018%20Q64%2019%2058%2016%20M72%2018%20Q80%2019%2086%2015%27%20fill=%27%2316201b%27%20stroke=%27%2316201b%27%20stroke-width=%27.9%27/%3E%3Cpath%20d=%27M55%2016.5%20V20%20M59%2017%20V21.5%20M63%2017%20V19.5%20M77%2017%20V20.5%20M81%2016.5%20V21%20M89%2016%20V19%27%20stroke=%27%2326332b%27%20stroke-width=%27.6%27/%3E%3Cpath%20d=%27M0%2026%20Q24%2024%2048%2026%20T96%2026%20V32%20H0Z%27%20fill=%27%23111914%27/%3E%3Cpath%20d=%27M8%2026%20L9%2023%20M10%2026%20L10.5%2022.5%20M36%2026%20L37%2023.5%20M38%2026%20L38.4%2023%20M90%2026%20L91%2023%27%20stroke=%27%23111914%27%20stroke-width=%27.7%27/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) { html.lg-liveoak:not([data-theme="light"]) { --brand: #16201b; --brand-2: #24332a; } }
+html.lg-liveoak[data-theme="dark"] { --brand: #16201b; --brand-2: #24332a; }
+html.lg-liveoak .topbar, html.lg-liveoak .tb-nav.open { background: linear-gradient(180deg, rgba(22,32,27,.5), rgba(22,32,27,.8)), var(--bricks) 0 0 / 96px 32px; background-color: #16201b; border-bottom: 2px solid #c9776a; }
+html.lg-liveoak .homehero { background: radial-gradient(110% 80% at 35% 85%, rgba(212,143,108,.28), transparent 60%), linear-gradient(rgba(22,32,27,.15), rgba(22,32,27,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(16,24,20,.6); --hh-soft: #e8ebe0; }
+html.lg-liveoak .homehero .hh-mac { color: #b8605a; -webkit-text-stroke: 2px #fff; }
+html.lg-liveoak .sitefoot { color: #e3e8df; }
 /* News: each school tag wears its team color, lightly. */
 .hh-heads .hh-tag[class*=" t-"] { background: var(--tc); color: var(--tci); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
 #feed a.pill[class*=" t-"], .newslist a.pill[class*=" t-"] { box-shadow: inset 3px 0 0 var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }
@@ -1366,3 +1390,4 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
   .tb-nav.open { max-height: calc(100vh - 70px); max-height: calc(100dvh - 70px); overflow-y: auto; overscroll-behavior: contain; }
 }
 @media (max-width: 420px) { .tb-eds .ed-grid small { display: none; } }
+.nw { white-space: nowrap; }  /* scores in headlines ("73-71") stay on one line */

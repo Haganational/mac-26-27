@@ -56,159 +56,30 @@ jobs:
           else
             python -m mac.collect all
           fi
-      - name: ASUN edition (hardwoodbricks.com/asun/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
+      - name: Conference editions (hardwoodbricks.com/<key>/)
+        # Every edition in mac/leagues.py ALL except the MAC, so a new conference needs no step here.
+        # Their lines came with the MAC run's odds pull above, so this step never calls the Odds API.
+        # One edition failing is logged and the loop moves on; nothing here blocks the MAC site from publishing.
         continue-on-error: true
         env:
-          LEAGUE: asun
           ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
+            CMD=site
           elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
+            CMD=live
           else
-            python -m mac.collect edition
+            CMD=edition
           fi
-      - name: Horizon League edition (hardwoodbricks.com/horizon/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: horizon
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Mountain West edition (hardwoodbricks.com/mw/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: mw
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Metro Conference edition (hardwoodbricks.com/metro/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: metro
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Big West edition (hardwoodbricks.com/bigwest/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: bigwest
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Missouri Valley edition (hardwoodbricks.com/mvc/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: mvc
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Atlantic 10 edition (hardwoodbricks.com/a10/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: a10
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: Pac-12 edition (hardwoodbricks.com/pac12/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: pac12
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
-      - name: West Coast Conference edition (hardwoodbricks.com/wcc/)
-        # Its lines came with the MAC run's odds pull above, so this step never calls the Odds API.
-        # A failure here is logged but never blocks the MAC site from publishing.
-        continue-on-error: true
-        env:
-          LEAGUE: wcc
-          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
-          SITE_URL: ${{ vars.SITE_URL }}
-          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python -m mac.collect site
-          elif [ "${{ inputs.mode }}" = "live" ] || { { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.mode }}" = "tick" ]; } && ! { case "$(date -u +%H)" in 12|18|23) [ "$(date -u +%M)" -lt 15 ];; *) false;; esac; }; }; then
-            python -m mac.collect live
-          else
-            python -m mac.collect edition
-          fi
+          failed=""
+          for L in $(python -m mac.leagues editions); do
+            echo "::group::$L ($CMD)"
+            LEAGUE=$L python -m mac.collect $CMD || { failed="$failed $L"; echo "::warning::$L edition failed"; }
+            echo "::endgroup::"
+          done
+          if [ -n "$failed" ]; then echo "Editions that failed:$failed"; exit 1; fi
       - name: NCAA NET rankings for the At-Large Watch
         # Once a day (the 12 UTC run, after the NCAA's morning update). Ignored until this season's NET is out.
         continue-on-error: true

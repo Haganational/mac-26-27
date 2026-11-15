@@ -116,7 +116,7 @@
         <tr><th>Team</th><th class="num">Rest days</th><th class="num">Miles in</th><th class="num">Time zone</th></tr>
         {% for side, c in [(away, g.travel_away), (home, g.travel_home)] %}
         <tr><td>{{ tlink(side) }}</td>{% if c %}<td class="num">{{ c.rest_days if c.rest_days is not none else '–' }}{% if c.rest_days is not none and c.rest_days <= 1 %} <b class="warnk">short</b>{% endif %}</td><td class="num">{{ "{:,}".format(c.miles_in) }}</td><td class="num">{{ ("%+d h"|format(c.tz_shift)) if c.tz_shift else "same" }}</td>
-        {% else %}<td colspan="3" class="dim">non-MAC team, not tracked</td>{% endif %}</tr>
+        {% else %}<td colspan="3" class="dim">non-{{ LG }} team, not tracked</td>{% endif %}</tr>
         {% endfor %}
       </table>
       <div class="note">Miles are an estimate from the <a href="../travel.html">travel model</a>.</div>
