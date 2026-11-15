@@ -2,29 +2,29 @@
  "date": "2026-11-15",
  "desk": {
   "anchor": {
-   "alt": "Alicia Kowalczyk, the Niagara AI anchor",
-   "color": "#582C83",
+   "alt": "Simone Baptiste, the Buffalo AI anchor",
+   "color": "#005BBB",
    "color2": "#FFFFFF",
-   "initials": "AK",
+   "initials": "SB",
    "ink": "#ffffff",
-   "key": "niagara",
-   "name": "Alicia Kowalczyk",
-   "portrait": "den/anchors/niagara.webp",
-   "school": "Niagara",
+   "key": "buffalo",
+   "name": "Simone Baptiste",
+   "portrait": "den/anchors/buffalo.webp",
+   "school": "Buffalo",
    "tag": "AI anchor"
   },
-  "max": 193,
+  "max": 139,
   "picks": [
    {
-    "abbr": "NIA",
-    "game_id": "401909774",
+    "abbr": "BUF",
+    "game_id": "401911017",
     "kind": "homer",
-    "short": "Niagara",
-    "side": "away",
-    "team_id": "315",
-    "tip": "2026-11-15T18:00Z",
+    "short": "Buffalo",
+    "side": "home",
+    "team_id": "2084",
+    "tip": "2026-11-15T22:30Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 97
+    "worth": 11
    },
    {
     "abbr": "EIU",
@@ -49,15 +49,15 @@
     "worth": 30
    },
    {
-    "abbr": "LMU",
-    "game_id": "401917531",
+    "abbr": "AAMU",
+    "game_id": "401921168",
     "kind": "ratings",
-    "short": "LMU",
+    "short": "Alabama A&M",
     "side": "home",
-    "team_id": "2351",
-    "tip": "2026-11-15T21:00Z",
-    "why": "Our ratings 79%, pregame win chance 92%.",
-    "worth": 8
+    "team_id": "2010",
+    "tip": "2026-11-15T20:00Z",
+    "why": "Our ratings 74%, pregame win chance 60%.",
+    "worth": 40
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -136,6 +136,18 @@
    "worth": 30
   },
   {
+   "abbr": "CLE",
+   "game_id": "401921168",
+   "key": "cleveland-state",
+   "kind": "homer",
+   "short": "Cleveland State",
+   "side": "away",
+   "team_id": "325",
+   "tip": "2026-11-15T20:00Z",
+   "why": "Homer pick.",
+   "worth": 60
+  },
+  {
    "abbr": "PFW",
    "game_id": "401926068",
    "key": "purdue-fort-wayne",
@@ -157,7 +169,7 @@
    "team_id": "2005",
    "tip": "2026-11-15T21:00Z",
    "why": "Homer pick.",
-   "worth": 79
+   "worth": 80
   },
   {
    "abbr": "WMU",
