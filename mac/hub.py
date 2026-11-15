@@ -117,6 +117,15 @@ def _rel(url: str, base: str) -> str:
 _CLIP = re.compile(r'<figure class="hl-video">\s*<div class="hl-frame"><iframe src="([^"]+)"')
 
 
+BLOWOUT = 30  # points
+
+
+def _margin(title: str) -> int:
+    """The winning margin in a recap headline like "Akron rolled past Toledo 90-70" (0 when there is no score)."""
+    m = re.search(r"(\d+)-(\d+)\s*$", title.strip())
+    return abs(int(m.group(1)) - int(m.group(2))) if m else 0
+
+
 def front_stories(site_root: Path, now: datetime, base: str = SITE_BASE) -> list[dict[str, Any]]:
     """Our own recaps and previews, newest first, across every edition: headline, dek, card image, age.
     Read from each edition's news sitemap (the same list the social poster uses), so only canonical pages."""
@@ -280,9 +289,12 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
     recaps = [x for x in sts if x["kind"] == "recap"]
-    lead = next((x for x in recaps if x["image"] or x["photo"]), recaps[0] if recaps else (sts[0] if sts else None))
+    # A 99-31 rout of a small-college visitor is a result, not a front page: the lead and the score cards
+    # go to the closer games among the newest recaps when there are any.
+    close = [x for x in recaps[:16] if _margin(x["title"]) < BLOWOUT]
+    lead = next((x for x in close + recaps if x["image"] or x["photo"]), recaps[0] if recaps else (sts[0] if sts else None))
     rest = [x for x in recaps if x is not lead]
-    cards = [x for x in rest if x["image"]][:4]
+    cards = ([x for x in rest if x["image"] and x in close] + [x for x in rest if x["image"] and x not in close])[:4]
     mh = load_masthead()
     editor = (staff(mh) or [{}])[0]
     for e in eds:

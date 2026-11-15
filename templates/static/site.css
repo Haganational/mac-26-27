@@ -1126,6 +1126,19 @@ html.lg-blueridge .topbar, html.lg-blueridge .tb-nav.open { background: linear-g
 html.lg-blueridge .homehero { background: radial-gradient(110% 80% at 60% 60%, rgba(230,183,101,.28), transparent 60%), linear-gradient(rgba(20,31,51,.15), rgba(20,31,51,.35)), var(--bricks) 0 0 / 192px 64px; --scrim: rgba(14,22,38,.6); --hh-soft: #e8e3f0; }
 html.lg-blueridge .homehero .hh-mac { color: #9a5fb0; -webkit-text-stroke: 2px #fff; }
 html.lg-blueridge .sitefoot { color: #e3e8f2; }
+/* Team page multimedia: a pinned film, then what our posts said about the school. */
+.teammedia .film { margin: 0 0 18px; }
+.teammedia .film-frame { position: relative; aspect-ratio: 16 / 9; background: #111; border-radius: 4px; overflow: hidden; max-width: 860px; }
+.teammedia .film-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.teammedia figcaption { margin-top: 8px; max-width: 860px; }
+.teammedia figcaption .kick { display: block; font: 600 11px/1.4 "Barlow Condensed", sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--brick); }
+.teammedia .honors-h { margin: 6px 0 6px; font-size: 1.05rem; }
+.teammedia .honors { list-style: none; padding: 0; margin: 0; }
+.teammedia .honors li { padding: 7px 0; border-top: 1px solid var(--rule, rgba(0,0,0,.12)); }
+.teammedia .h-kind { display: inline-block; min-width: 9.5em; font: 600 11px/1.4 "Barlow Condensed", sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--muted, #6b6258); }
+.teammedia .h-upset .h-kind { color: #2e7258; }
+.teammedia .h-bricked .h-kind { color: var(--brick); }
+@media (max-width: 600px) { .teammedia .h-kind { display: block; min-width: 0; } }
 /* News: each school tag wears its team color, lightly. */
 .hh-heads .hh-tag[class*=" t-"] { background: var(--tc); color: var(--tci); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
 #feed a.pill[class*=" t-"], .newslist a.pill[class*=" t-"] { box-shadow: inset 3px 0 0 var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }

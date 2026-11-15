@@ -141,3 +141,10 @@ def test_den_page_and_its_quiet_front_page_line(tmp_path, monkeypatch):
         {"id": "g1", "home": side(1, "mac"), "away": side(2, None)}, {"id": "g2", "home": side(3, "horizon"), "away": side(1, "mac")}]}))
     hub.build(tmp_path, "https://x.com/")
     assert "Tonight's Bricksanity: 2 teams eligible" in (tmp_path / "index.html").read_text()
+
+
+def test_margin_reads_the_headline_score():
+    from mac import hub
+    assert hub._margin("FGCU rolled past Abraham Baldwin Agricultural 99-31") == 68
+    assert hub._margin("Belmont beat Furman 72-62") == 10
+    assert hub._margin("Weekly preview") == 0
