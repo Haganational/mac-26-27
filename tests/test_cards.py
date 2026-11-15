@@ -73,3 +73,16 @@ def test_one_failure_does_not_stop_the_rest(tmp_path, monkeypatch):
     monkeypatch.setattr(cardpost.alert, "send", lambda *a, **k: None)
     assert cardpost.run(tmp_path, "desk", "cards-test") == 1
     assert seen == ["facebook", "bluesky"]
+
+
+def test_marked_networks_are_skipped(tmp_path, monkeypatch):
+    (tmp_path / "potn.json").write_text(json.dumps({"kind": "potn", "files": ["p.jpg"], "captions": {"threads": "t", "bluesky": "b"}}))
+    for k, v in {"THREADS_ACCESS_TOKEN": "t", "BSKY_HANDLE": "h", "BSKY_APP_PASSWORD": "p"}.items():
+        monkeypatch.setenv(k, v)
+    monkeypatch.delenv("SOCIAL_DRY_RUN", raising=False)
+    seen, marked = [], []
+    monkeypatch.setattr(cardpost, "marks", lambda tag: {"posted-potn-threads.txt"})
+    monkeypatch.setattr(cardpost, "mark", lambda tag, kind, net, result: marked.append(net))
+    monkeypatch.setattr(cardpost, "post_one", lambda net, *a: seen.append(net) or "posted 1")
+    assert cardpost.run(tmp_path, "potn", "cards-test") == 0
+    assert seen == ["bluesky"] and marked == ["bluesky"]
