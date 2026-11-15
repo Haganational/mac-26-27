@@ -129,6 +129,11 @@
   .mast td, .mast th { text-align: left; padding: 8px 6px; border-top: 1px solid var(--rule); vertical-align: top; }
   .mast th { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); border-top: 0; }
   .mast li { margin: 6px 0; }
+  .mast ul.eds { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0 22px; }
+  .mast ul.eds li { margin: 0; display: grid; grid-template-columns: 7.5em 1fr; align-items: baseline; gap: 12px; padding: 7px 0; border-top: 1px solid var(--rule); }
+  .mast ul.eds a { font-weight: 700; text-decoration: none; color: var(--ink); }
+  .mast ul.eds span { color: var(--ink-2); }
+  .mast .eds-rest { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
   .mast p { color: var(--ink-2); }
   .mast a { text-decoration: underline; }
 

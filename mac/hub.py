@@ -225,7 +225,7 @@ def desks(mh: dict[str, Any], eds: list[dict[str, Any]]) -> list[dict[str, Any]]
     out = []
     for e in eds:
         who = (named.get(e["key"]) or "").strip()
-        out.append({"key": e["key"], "name": e["name"], "href": e["href"], "editor": who or mh.get("editor", ""), "acting": not who})
+        out.append({"key": e["key"], "name": e["name"], "short": e.get("short") or e["name"], "href": e["href"], "editor": who or mh.get("editor", ""), "acting": not who})
     return out
 
 
