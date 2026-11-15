@@ -1,8 +1,19 @@
 {
- "_about": "Feature films pinned to the top of a team page's multimedia section, newest first. youtube = the video id. Toledo's film goes here when it is up (Matthew, Nov 15 2026).",
+ "_about": "Feature films pinned to the top of a team page's multimedia section, newest first. youtube = the video id.",
  "films": {
   "ohio": [
-   {"title": "South Bridge", "youtube": "H6GUKT38RN0", "dek": "Our film on Athens, Ohio, its river, its bricks and its Bobcats."}
+   {
+    "title": "South Bridge",
+    "youtube": "H6GUKT38RN0",
+    "dek": "Our film on Athens, Ohio, its river, its bricks and its Bobcats."
+   }
+  ],
+  "toledo": [
+   {
+    "title": "A Hundred Dollars to Fumble",
+    "youtube": "S7vx_vBG8qk",
+    "dek": "Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it."
+   }
   ]
  }
 }

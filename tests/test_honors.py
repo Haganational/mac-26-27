@@ -4,6 +4,7 @@ from mac import honors
 def test_ohio_film_is_pinned():
     f = honors.films()
     assert f["ohio"][0]["youtube"] == "H6GUKT38RN0" and f["ohio"][0]["title"]
+    assert f["toledo"][0]["youtube"] == "S7vx_vBG8qk"
 
 
 def test_line_reads_like_a_box_score():
