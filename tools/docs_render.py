@@ -95,8 +95,15 @@ def voice(lines, voices, work, use_voice):
     """One 24 kHz mono int16 array per line (silence for cards)."""
     work.mkdir(parents=True, exist_ok=True)
     jobs, piper, plan = [], [], []
+    # recorded takes: $DOC_TAKES/<speaker>-<NN>.wav, NN = that speaker's NNth line, replace the synthetic voice
+    tdir, seen, takes = os.environ.get("DOC_TAKES"), {}, {}
     for i, ln in enumerate(lines):
         v = voices.get(ln["speaker"])
+        if v:
+            seen[ln["speaker"]] = seen.get(ln["speaker"], 0) + 1
+            tk = Path(tdir) / f"{ln['speaker']}-{seen[ln['speaker']]:02d}.wav" if tdir else None
+            if tk and tk.exists():
+                takes[i] = tk; plan.append([]); continue
         if not v or not use_voice:
             plan.append([]); continue
         chunks = []
@@ -123,6 +130,9 @@ def voice(lines, voices, work, use_voice):
                 wav = work / f"clip{i:03d}.wav"
                 ff("-i", str(src), "-vn", "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", "-af", "volume=0.8", str(wav))
                 out.append(read_wav(wav)); continue
+        if i in takes:
+            norm = work / f"take{i:03d}.wav"; ff("-i", str(takes[i]), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(norm))
+            out.append(np.concatenate([read_wav(norm), np.zeros(int(TAIL * SR), np.int16)])); continue
         if not chunks:
             n = len(lines[i]["say"].split())
             secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else OUTRO if lines[i]["speaker"] == "OUTRO" else max(2.2, n / (2.4 * TEMPO) + TAIL)
@@ -143,10 +153,13 @@ def srt_time(t):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("dir"); ap.add_argument("--out", required=True)
-    ap.add_argument("--no-voice", action="store_true"); a = ap.parse_args()
+    ap.add_argument("--no-voice", action="store_true"); ap.add_argument("--first", type=int, help="render only the first N lines (preview)")
+    a = ap.parse_args()
     global CLIPDIR
     d, out = Path(a.dir), Path(a.out); CLIPDIR = d / "clips"; out.mkdir(parents=True, exist_ok=True); work = Path("/tmp/docwork"); work.mkdir(exist_ok=True)
     spec = json.load(open(d / "lines.json")); lines = spec["lines"]; voices = spec["voices"]
+    if a.first:
+        lines = lines[:a.first]
     for v in voices.values():
         r = v.get("ref")
         if r == "matthew":
