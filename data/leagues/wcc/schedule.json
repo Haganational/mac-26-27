@@ -1614,7 +1614,7 @@
     "key": "santa-clara",
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -1622,13 +1622,13 @@
     "key": null,
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:47 - 1st"
   },
   {
    "game_id": "401917531",
@@ -9440,5 +9440,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T02:18:11+00:00"
+ "live_at": "2026-11-15T03:03:59+00:00"
 }
