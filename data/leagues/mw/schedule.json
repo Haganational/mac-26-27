@@ -1468,21 +1468,21 @@
     "key": null,
     "name": "Sacramento State Hornets",
     "abbr": "SAC",
-    "score": 49,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
    "away": {
     "espn_id": "302",
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 69,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911455",
@@ -1512,7 +1512,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1520,13 +1520,13 @@
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:32 - 1st"
   },
   {
    "game_id": "401917530",
@@ -1556,7 +1556,7 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1564,13 +1564,13 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:56 - 1st"
   },
   {
    "game_id": "401934396",
@@ -8727,5 +8727,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T03:01:37+00:00"
+ "live_at": "2026-11-15T03:16:27+00:00"
 }
