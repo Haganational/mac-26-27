@@ -1421,7 +1421,7 @@
     "key": null,
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1429,13 +1429,13 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:49 - 1st"
   },
   {
    "game_id": "401929458",
@@ -8068,5 +8068,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T00:15:45+00:00"
 }

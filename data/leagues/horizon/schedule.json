@@ -2056,8 +2056,8 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 76,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
@@ -2065,12 +2065,12 @@
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
     "score": 76,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:11 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920961",
@@ -10444,5 +10444,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T00:00:58+00:00"
+ "live_at": "2026-11-15T00:15:57+00:00"
 }
