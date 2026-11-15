@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 F = ROOT / "templates/static/fonts"
 W, H, FPS, SR = 1280, 720, 25, 24000
 PAGE, INK, MUTED, GOLD = (21, 17, 13), (239, 230, 214), (143, 132, 116), (240, 199, 94)
-GAP, TAIL, CARD = 0.15, 0.4, 4.0
+GAP, TAIL, CARD, OUTRO = 0.15, 0.4, 4.0, 4.6
 TEMPO = float(os.environ.get("DOC_TEMPO", "1.1"))  # Matthew, Nov 14: voiceovers a touch faster
 CLIPDIR = Path(".")
 
@@ -50,6 +50,15 @@ def photo(src, path):
         bg = ImageEnhance.Brightness(bg.filter(ImageFilter.GaussianBlur(30))).enhance(0.45)
         fg = ImageOps.contain(im, (CW, CH)); bg.paste(fg, ((CW - fg.width) // 2, (CH - fg.height) // 2))
     bg.save(path, quality=92)
+
+
+def shake_filter():
+    e = "max(0,1-(t-1.6)/2.4)"
+    A = f"if(lt(t,0.3),0,if(lt(t,1.6),0.045*sin(2*PI*8*t),0.03*sin(2*PI*1.1*(t-1.6))*{e}))"
+    X = f"(iw-{W})/2+if(lt(t,0.3),0,if(lt(t,1.6),20*sin(2*PI*10*t),30*cos(2*PI*1.1*(t-1.6))*{e}))"
+    Y = f"(ih-{H})/2+if(lt(t,0.3),0,if(lt(t,1.6),14*cos(2*PI*12*t),30*sin(2*PI*1.1*(t-1.6))*{e}))"
+    return (f"[0:v]fps={FPS},rotate=a='{A}':c=0x0b0b1e:ow=iw:oh=ih,"
+            f"crop={W}:{H}:x='{X}':y='{Y}',format=yuv420p[b0]")
 
 
 def caption(name, text, path):
@@ -116,7 +125,7 @@ def voice(lines, voices, work, use_voice):
                 out.append(read_wav(wav)); continue
         if not chunks:
             n = len(lines[i]["say"].split())
-            secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else max(2.2, n / (2.4 * TEMPO) + TAIL)
+            secs = CARD if lines[i]["speaker"] in ("TITLE", "CHAP") else OUTRO if lines[i]["speaker"] == "OUTRO" else max(2.2, n / (2.4 * TEMPO) + TAIL)
             out.append(np.zeros(int(secs * SR), np.int16)); continue
         parts = []
         for c in chunks:
@@ -147,6 +156,8 @@ def main():
     # closing credits for every Commons/LOC picture and fair-use clip used
     cred = {c["file"][:-4]: c for c in json.load(open(d / "broll/credits.json"))} if (d / "broll/credits.json").exists() else {}
     rows = []
+    outro = [ln for ln in lines if ln["speaker"] == "OUTRO"]   # stings that play after the credits
+    lines[:] = [ln for ln in lines if ln["speaker"] != "OUTRO"]
     for ln in lines:
         v = ln.get("visual") or ""
         if v in cred and not any(r[0] == v for r in rows):
@@ -157,6 +168,7 @@ def main():
     rows.append(("own", "Athens photographs by Matthew Hagan, 2017 to 2025"))
     for k in range(0, len(rows), 7):
         lines.append({"speaker": "TITLE", "say": "", "caption": "", "visual": "credits:" + "\n".join(r[1] for r in rows[k:k + 7])})
+    lines += outro
     audio = voice(lines, voices, work / "vo", not a.no_voice)
     durs = [len(x) / SR for x in audio]
     # shots: runs of lines that share a picture
@@ -191,6 +203,9 @@ def main():
             im.save(img)
         elif vis.startswith("card:"):
             img = work / f"v{n:03d}.png"; t, s = vis[5:].split("|", 1); card(t, s, img)
+        elif vis.startswith("shake:") and (d / "photos" / f"{vis[6:]}.jpg").exists():
+            img = work / f"v{n:03d}.png"   # logo sting: shaken hard, then stirred, then it settles
+            ImageOps.fit(Image.open(d / "photos" / f"{vis[6:]}.jpg").convert("RGB"), (int(W * 1.2), int(H * 1.2))).save(img)
         elif vis.startswith("still:") and (d / "photos" / f"{vis[6:]}.jpg").exists():
             img = work / f"v{n:03d}.png"   # full-frame art (logos): shown as is, no pan
             ImageOps.fit(Image.open(d / "photos" / f"{vis[6:]}.jpg").convert("RGB"), (W, H)).save(img)
@@ -209,7 +224,9 @@ def main():
                 caps.append((t0, t0 + durs[i]))
                 srt.append((t_abs + t0, t_abs + t0 + durs[i] - TAIL + 0.1, f"{v['name']}: {ln['caption']}"))
             t0 += durs[i]
-        if vis.startswith(("card:", "credits:")) or not img.suffix == ".jpg":
+        if vis.startswith("shake:") and img.suffix == ".png":
+            f = shake_filter()
+        elif vis.startswith(("card:", "credits:")) or not img.suffix == ".jpg":
             f = f"[0:v]scale={W}:{H},format=yuv420p[b0]"
         else:
             z = "'min(1+0.00035*on,1.2)'" if n % 2 == 0 else "'max(1.2-0.00035*on,1)'"
