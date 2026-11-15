@@ -142,3 +142,21 @@ jobs:
           ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
           ALERT_TO: ${{ vars.ALERT_TO }}
         run: python -m mac.youtube --out out
+      # Cross-post the same video to Facebook, Instagram, Threads and Bluesky. Each network posts
+      # once its secrets are set (FB_*, IG_*, THREADS_*, BSKY_*); none set = no-op. A network that
+      # already has today's video is skipped, so a re-run only fills the gaps.
+      - name: Cross-post to Facebook, Instagram, Threads and Bluesky
+        if: ${{ !cancelled() && github.event_name != 'pull_request' && steps.fresh.outputs.skip != 'yes' }}
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.reels --out out --show midmaxx60
