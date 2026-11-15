@@ -201,6 +201,16 @@ def test_america_east_and_patriot_names():
     assert leagues.PATRIOT.team_for_odds_name("American Eagles") == "american-u"
 
 
+def test_nec_and_meac_names():
+    assert leagues.NEC.path == "nec/" and len(leagues.NEC.teams) == 9 and leagues.NEC.theme == "lighthouse"
+    assert leagues.MEAC.path == "meac/" and len(leagues.MEAC.teams) == 8 and leagues.MEAC.theme == "chesapeake"
+    assert leagues.NEC.team_for_odds_name("Central Connecticut St Blue Devils") == "central-connecticut"
+    assert leagues.NEC.team_for_odds_name("LIU Sharks") == "liu"
+    assert leagues.MEAC.team_for_odds_name("Maryland-Eastern Shore Hawks") == "umes"
+    assert leagues.MEAC.team_for_odds_name("Coppin St Eagles") == "coppin-state"
+    assert leagues.MEAC.team_for_odds_name("Howard Bison") == "howard"
+
+
 def test_every_school_is_in_one_edition_and_editions_match_the_registry():
     import json
     seen = {}
@@ -209,7 +219,7 @@ def test_every_school_is_in_one_edition_and_editions_match_the_registry():
             assert t.key not in seen, f"{t.key} is in {seen[t.key]} and {lg.key}"
             seen[t.key] = lg.key
     reg = {c["id"]: set(c["teams"]) for c in json.loads((leagues.ROOT / "data/book/conferences.json").read_text())["conferences"]}
-    groups = {"americaeast": "1", "patriot": "22", "bigsouth": "6", "ovc": "20", "summit": "49", "uac": "30", "bigsky": "5", "southland": "25", "cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
+    groups = {"nec": "19", "meac": "16", "americaeast": "1", "patriot": "22", "bigsouth": "6", "ovc": "20", "summit": "49", "uac": "30", "bigsky": "5", "southland": "25", "cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
     for key, gid in groups.items():
         assert {t.espn_id for t in leagues.ALL[key].teams} == reg[gid], key
 
@@ -235,7 +245,8 @@ def test_social_tags_are_single_words_and_league_feeds_are_hosts():
                     "bigsky": "BigSkyMBB", "southland": "SouthlandMBB",
                     "summit": "SummitMBB", "uac": "UACMBB",
                     "bigsouth": "BigSouthMBB", "ovc": "OVCMBB",
-                    "americaeast": "AEHoops", "patriot": "PatriotLeagueMBB"}
+                    "americaeast": "AEHoops", "patriot": "PatriotLeagueMBB",
+                    "nec": "NECMBB", "meac": "MEACMBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]

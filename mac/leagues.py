@@ -1242,8 +1242,88 @@ PATRIOT = League(
 )
 
 
+# Northeast Conference 2026-27 membership from ESPN's conference feed (group 19).
+NEC = League(
+    key="nec", short="NEC", name="Northeast Conference",
+    region="the Northeast and one outpost on the South Side, from Easton and New Britain through West Haven, Brooklyn, Staten Island and Hackensack to Syracuse, Erie and Chicago",
+    teams=(
+        Team("chicago-state", "2130", "CHS", "Chicago State Cougars", "Chicago State", "#006700", "#FFFFFF"),
+        Team("stonehill", "284", "STO", "Stonehill Skyhawks", "Stonehill", "#2F2975", "#FFFFFF"),
+        Team("central-connecticut", "2115", "CCSU", "Central Connecticut Blue Devils", "Central Connecticut", "#1B49A2", "#FFFFFF"),
+        Team("fairleigh-dickinson", "161", "FDU", "Fairleigh Dickinson Knights", "Fairleigh Dickinson", "#002D62", "#B2002D"),
+        Team("mercyhurst", "2385", "MERC", "Mercyhurst Lakers", "Mercyhurst", "#004236", "#0E3460"),
+        Team("le-moyne", "2330", "LEM", "Le Moyne Dolphins", "Le Moyne", "#00703C", "#FFC72C"),
+        Team("new-haven", "2441", "NHVN", "New Haven Chargers", "New Haven", "#002D72", "#FFC72C"),
+        Team("wagner", "2681", "WAG", "Wagner Seahawks", "Wagner", "#00483A", "#FFFFFF"),
+        Team("liu", "112358", "LIU", "Long Island University Sharks", "LIU", "#69B3E7", "#FFC72C"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="nec/",
+    theme="lighthouse",
+    odds_aliases={
+        "Central Connecticut St Blue Devils": "central-connecticut",
+        "Chicago St Cougars": "chicago-state",
+        "LIU Sharks": "liu",
+    },
+    news_names={
+        "chicago-state": {"query": "Chicago State Cougars basketball", "match": [r"\bChicago State\b"]},
+        "stonehill": {"query": "Stonehill Skyhawks basketball", "match": [r"\bStonehill\b"]},
+        "central-connecticut": {"query": "Central Connecticut Blue Devils basketball", "match": [r"\bCentral Connecticut\b", r"\bCCSU\b"]},
+        "fairleigh-dickinson": {"query": "Fairleigh Dickinson Knights basketball", "match": [r"\bFairleigh Dickinson\b", r"\bFDU\b"]},
+        "mercyhurst": {"query": "Mercyhurst Lakers basketball", "match": [r"\bMercyhurst\b"]},
+        "le-moyne": {"query": "Le Moyne Dolphins basketball", "match": [r"\bLe Moyne\b"]},
+        "new-haven": {"query": "New Haven Chargers basketball", "match": [r"\bNew Haven Chargers\b", r"\bUniversity of New Haven\b"]},
+        "wagner": {"query": "Wagner Seahawks basketball", "match": [r"\bWagner Seahawks\b", r"\bWagner College\b"]},
+        "liu": {"query": "Long Island University Sharks basketball", "match": [r"\bLIU\b", r"\bLong Island University\b"]},
+    },
+    league_feed=("northeastconference.org", "NEC (northeastconference.org)"),
+    hashtag="NECMBB",
+    tournament="the NEC tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC, AMEAST, PATRIOT)}
+# MEAC 2026-27 membership from ESPN's conference feed (group 16).
+MEAC = League(
+    key="meac", short="MEAC", name="Mid-Eastern Athletic Conference",
+    region="the Chesapeake and the Carolinas, from Dover, Princess Anne, Baltimore and Washington down through Norfolk to Durham and Orangeburg",
+    teams=(
+        Team("morgan-state", "2415", "MORG", "Morgan State Bears", "Morgan State", "#0033A0", "#F47937"),
+        Team("south-carolina-state", "2569", "SCST", "South Carolina State Bulldogs", "South Carolina State", "#862633", "#002D72"),
+        Team("norfolk-state", "2450", "NSU", "Norfolk State Spartans", "Norfolk State", "#007A53", "#F2A900"),
+        Team("delaware-state", "2169", "DSU", "Delaware State Hornets", "Delaware State", "#C8102E", "#41B6E6"),
+        Team("howard", "47", "HOW", "Howard Bison", "Howard", "#003A63", "#E51937"),
+        Team("umes", "2379", "UMES", "Maryland Eastern Shore Hawks", "Maryland Eastern Shore", "#862633", "#B3A369"),
+        Team("coppin-state", "2154", "COPP", "Coppin State Eagles", "Coppin State", "#2D2A6E", "#FFC72C"),
+        Team("nc-central", "2428", "NCCU", "North Carolina Central Eagles", "NC Central", "#880029", "#A2AAAD"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="meac/",
+    theme="chesapeake",
+    odds_aliases={
+        "Morgan St Bears": "morgan-state",
+        "South Carolina St Bulldogs": "south-carolina-state",
+        "Norfolk St Spartans": "norfolk-state",
+        "Delaware St Hornets": "delaware-state",
+        "Maryland-Eastern Shore Hawks": "umes",
+        "Coppin St Eagles": "coppin-state",
+    },
+    news_names={
+        "morgan-state": {"query": "Morgan State Bears basketball", "match": [r"\bMorgan State\b"]},
+        "south-carolina-state": {"query": "South Carolina State Bulldogs basketball", "match": [r"\bSouth Carolina State\b", r"\bSC State\b"]},
+        "norfolk-state": {"query": "Norfolk State Spartans basketball", "match": [r"\bNorfolk State\b"]},
+        "delaware-state": {"query": "Delaware State Hornets basketball", "match": [r"\bDelaware State\b"]},
+        "howard": {"query": "Howard Bison basketball", "match": [r"\bHoward Bison\b", r"\bHoward University\b"]},
+        "umes": {"query": "Maryland Eastern Shore Hawks basketball", "match": [r"\bMaryland Eastern Shore\b", r"\bUMES\b"]},
+        "coppin-state": {"query": "Coppin State Eagles basketball", "match": [r"\bCoppin State\b"]},
+        "nc-central": {"query": "North Carolina Central Eagles basketball", "match": [r"\bNorth Carolina Central\b", r"\bNC Central\b", r"\bNCCU\b"]},
+    },
+    league_feed=("meacsports.com", "MEAC (meacsports.com)"),
+    hashtag="MEACMBB",
+    tournament="the MEAC tournament",
+)
+
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC, AMEAST, PATRIOT, NEC, MEAC)}
 
 
 def current() -> League:
