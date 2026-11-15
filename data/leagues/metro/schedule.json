@@ -2051,8 +2051,8 @@
     "key": "fairfield",
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 61,
-    "winner": null
+    "score": 63,
+    "winner": true
    },
    "away": {
     "espn_id": "2885",
@@ -2060,12 +2060,12 @@
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
     "score": 60,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921775",
@@ -2095,21 +2095,21 @@
     "key": null,
     "name": "Villanova Wildcats",
     "abbr": "VILL",
-    "score": 96,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2520",
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 60,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911308",
@@ -2139,21 +2139,21 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 75,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "225",
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 72,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909774",
@@ -11156,5 +11156,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T02:01:48+00:00"
+ "live_at": "2026-11-15T02:16:33+00:00"
 }

@@ -2097,21 +2097,21 @@
     "key": "davidson",
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 56,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
    "away": {
     "espn_id": "47",
     "key": null,
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": 62,
-    "winner": null
+    "score": 64,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911188",
@@ -2146,7 +2146,7 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 53,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2154,13 +2154,13 @@
     "key": null,
     "name": "Cincinnati Bearcats",
     "abbr": "CIN",
-    "score": 65,
+    "score": 78,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:45 - 2nd"
+   "detail": "7:29 - 2nd"
   },
   {
    "game_id": "401911276",
@@ -2190,7 +2190,7 @@
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 52,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2198,13 +2198,13 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 36,
+    "score": 45,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:03 - 2nd"
+   "detail": "5:30 - 2nd"
   },
   {
    "game_id": "401925812",
@@ -12617,5 +12617,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T02:02:55+00:00"
+ "live_at": "2026-11-15T02:17:31+00:00"
 }
