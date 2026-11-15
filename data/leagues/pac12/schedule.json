@@ -1306,21 +1306,21 @@
     "key": "fresno-state",
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": 79,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "27",
     "key": null,
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 71,
-    "winner": null
+    "score": 80,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:55 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926063",
@@ -8066,5 +8066,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T01:03:44+00:00"
+ "live_at": "2026-11-15T01:18:14+00:00"
 }
