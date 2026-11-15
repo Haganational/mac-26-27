@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:16:48+00:00",
+ "fetched_at": "2026-11-15T19:10:58+00:00",
  "season": 2027,
  "games": [
   {
@@ -1986,10 +1986,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-15-2026--sports-ncaa-basketball/production/7413987?wsUser=717",
-    "low": 41.0
-   },
+   "tickets": null,
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -1998,7 +1995,7 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": 21,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2006,13 +2003,13 @@
     "key": null,
     "name": "Louisville Cardinals",
     "abbr": "LOU",
-    "score": 35,
+    "score": 52,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:19 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401925812",
@@ -2050,10 +2047,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:43 - 1st"
   },
   {
    "game_id": "401929200",
@@ -9815,7 +9812,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-2-2026--sports-ncaa-basketball/production/7613224?wsUser=717",
-    "low": 89.0
+    "low": 87.0
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
@@ -11817,6 +11814,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T18:33:03+00:00"
+ ]
 }

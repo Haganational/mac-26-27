@@ -1,13 +1,13 @@
 {
  "google:denver": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 3,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Denver+Pionee",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "denver",
   "url": "https://news.google.com/rss/search?q=%22Denver+Pioneers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -15,8 +15,8 @@
   "via_google": false
  },
  "google:loyola-marymount": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-15T19:09:27+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Loyola+Marymo",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -24,14 +24,14 @@
   "url": "https://news.google.com/rss/search?q=%22Loyola+Marymount+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:pacific": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 2,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Pacific+Tiger",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "pacific",
   "url": "https://news.google.com/rss/search?q=%22Pacific+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -39,8 +39,8 @@
   "via_google": false
  },
  "google:pepperdine": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-15T19:09:27+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Pepperdine+Wa",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -48,14 +48,14 @@
   "url": "https://news.google.com/rss/search?q=%22Pepperdine+Waves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:portland": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 3,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Portland+Pilo",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "portland",
   "url": "https://news.google.com/rss/search?q=%22Portland+Pilots+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -63,8 +63,8 @@
   "via_google": false
  },
  "google:saint-marys": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-15T19:09:27+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Saint+Mary%27",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -72,14 +72,14 @@
   "url": "https://news.google.com/rss/search?q=%22Saint+Mary%27s+Gaels+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:san-diego": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 4,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22San+Diego+Tor",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "san-diego",
   "url": "https://news.google.com/rss/search?q=%22San+Diego+Toreros+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -87,14 +87,14 @@
   "via_google": false
  },
  "google:san-francisco": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 2,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22San+Francisco",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "san-francisco",
   "url": "https://news.google.com/rss/search?q=%22San+Francisco+Dons+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -102,14 +102,14 @@
   "via_google": false
  },
  "google:santa-clara": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Santa+Clara+B",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T18:16:27+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "santa-clara",
   "url": "https://news.google.com/rss/search?q=%22Santa+Clara+Broncos+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -117,8 +117,8 @@
   "via_google": false
  },
  "google:seattle": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-15T19:09:27+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Seattle+U+Red",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -126,13 +126,13 @@
   "url": "https://news.google.com/rss/search?q=%22Seattle+U+Redhawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:wcc": {
-  "checked_at": "2026-11-15T18:16:27+00:00",
+  "checked_at": "2026-11-15T19:09:27+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 9,
   "kind": "league",
-  "last_ok": "2026-11-15T18:16:27+00:00",
+  "last_ok": "2026-11-15T19:09:27+00:00",
   "ok": true,
   "source": "WCC (wccsports.com)",
   "team": null,

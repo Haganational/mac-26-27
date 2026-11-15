@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:17:25+00:00",
+ "fetched_at": "2026-11-15T19:13:06+00:00",
  "season": 2027,
  "games": [
   {
@@ -2431,7 +2431,7 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2439,13 +2439,13 @@
     "key": null,
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": 18,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:10 - 1st"
+   "detail": "13:09 - 2nd"
   },
   {
    "game_id": "401919825",
@@ -7061,8 +7061,8 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-12-16-2026--sports-ncaa-basketball/production/7398524?wsUser=717",
-    "low": 39.0
+    "url": "https://www.vividseats.com/louisiana-monroe-warhawks-mens-basketball-tickets-fant-ewing-coliseum-12-16-2026--sports-ncaa-basketball/production/7398170?wsUser=717",
+    "low": 27.0
    },
    "venue": "Cajundome",
    "venue_city": "Lafayette",
@@ -8138,7 +8138,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-12-31-2026--sports-ncaa-basketball/production/7398190?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -8472,7 +8472,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-1-2-2027--sports-ncaa-basketball/production/7398202?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -9305,7 +9305,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-1-14-2027--sports-ncaa-basketball/production/7398246?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -9951,7 +9951,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-1-23-2027--sports-ncaa-basketball/production/7398278?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -10632,7 +10632,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-1-30-2027--sports-ncaa-basketball/production/7398300?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -11658,7 +11658,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-2-20-2027--sports-ncaa-basketball/production/7398358?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "GSU Convocation Center",
    "venue_city": "Atlanta",
@@ -12403,6 +12403,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T18:33:21+00:00"
+ ]
 }

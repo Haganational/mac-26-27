@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:14:03+00:00",
+ "fetched_at": "2026-11-15T19:00:17+00:00",
  "season": 2027,
  "games": [
   {
@@ -2174,7 +2174,7 @@
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": 50,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2182,13 +2182,13 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 58,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:23 - 2nd"
+   "detail": "0:18 - 2nd"
   },
   {
    "game_id": "401909774",
@@ -2206,10 +2206,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-11-15-2026--sports-ncaa-basketball/production/7264702?wsUser=717",
-    "low": 6.0
-   },
+   "tickets": null,
    "venue": "Hilton Coliseum",
    "venue_city": "Ames",
    "venue_state": "IA",
@@ -2218,7 +2215,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": 22,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2226,13 +2223,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 18,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "6:13 - 1st"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401911017",
@@ -11149,6 +11146,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T18:31:28+00:00"
+ ]
 }

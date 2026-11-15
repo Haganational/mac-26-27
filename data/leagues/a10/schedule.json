@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:15:29+00:00",
+ "fetched_at": "2026-11-15T19:05:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -2230,10 +2230,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:34 - 1st"
   },
   {
    "game_id": "401920065",
@@ -2274,10 +2274,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:15 - 1st"
   },
   {
    "game_id": "401911251",
@@ -4740,7 +4740,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-1-2026--sports-ncaa-basketball/production/7462739?wsUser=717",
-    "low": 15.0
+    "low": 14.0
    },
    "venue": "Thomas M. Ryan Center",
    "venue_city": "Kingston",
