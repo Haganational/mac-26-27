@@ -101,8 +101,8 @@ def voice(lines, voices, work, use_voice):
         v = voices.get(ln["speaker"])
         if v:
             seen[ln["speaker"]] = seen.get(ln["speaker"], 0) + 1
-            tk = Path(tdir) / f"{ln['speaker']}-{seen[ln['speaker']]:02d}.wav" if tdir else None
-            if tk and tk.exists():
+            tk = next((q for q in (Path(tdir) / f"{ln['speaker']}-{seen[ln['speaker']]:02d}{e}" for e in (".wav", ".ogg")) if q.exists()), None) if tdir else None
+            if tk:
                 takes[i] = tk; plan.append([]); continue
         if not v or not use_voice:
             plan.append([]); continue
@@ -183,6 +183,20 @@ def main():
         lines.append({"speaker": "TITLE", "say": "", "caption": "", "visual": "credits:" + "\n".join(r[1] for r in rows[k:k + 7])})
     lines += outro
     audio = voice(lines, voices, work / "vo", not a.no_voice)
+    if not a.no_voice and not a.first:
+        # keep each anchor line (not the narrator) so a later mix can pair them with recorded narration
+        vo, seen = out / "vo", {}; vo.mkdir(exist_ok=True)
+        for old in vo.glob("*.ogg"):
+            old.unlink()
+        for ln, x in zip(lines, audio):
+            sp = ln["speaker"]
+            if sp in voices:
+                seen[sp] = seen.get(sp, 0) + 1
+                if sp != "M":
+                    tmp = work / "vo_tmp.wav"
+                    with wave.open(str(tmp), "wb") as w:
+                        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(x[:max(len(x) - int(TAIL * SR), 1)].tobytes())
+                    ff("-i", str(tmp), "-c:a", "libvorbis", "-q:a", "5", str(vo / f"{sp}-{seen[sp]:02d}.ogg"))
     durs = [len(x) / SR for x in audio]
     # shots: runs of lines that share a picture
     shots = []
