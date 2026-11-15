@@ -1080,8 +1080,90 @@ UAC = League(
 )
 
 
+# Big South 2026-27 membership from ESPN's conference feed (group 6).
+BIGSOUTH = League(
+    key="bigsouth", short="Big South", name="Big South Conference",
+    region="the Carolinas and Virginia, from Farmville and Radford down through High Point, Boiling Springs and Asheville to Rock Hill, Spartanburg, Clinton and Charleston",
+    teams=(
+        Team("charleston-southern", "2127", "CHSO", "Charleston Southern Buccaneers", "Charleston Southern", "#002855", "#A89968"),
+        Team("gardner-webb", "2241", "GWEB", "Gardner-Webb Runnin' Bulldogs", "Gardner-Webb", "#BF2E1A", "#000000"),
+        Team("high-point", "2272", "HPU", "High Point Panthers", "High Point", "#330072", "#FFFFFF"),
+        Team("longwood", "2344", "LONG", "Longwood Lancers", "Longwood", "#002B5C", "#9EA2A2"),
+        Team("presbyterian", "2506", "PRE", "Presbyterian Blue Hose", "Presbyterian", "#0060A9", "#9D2235"),
+        Team("radford", "2515", "RAD", "Radford Highlanders", "Radford", "#C2011B", "#FFFFFF"),
+        Team("usc-upstate", "2908", "UPST", "South Carolina Upstate Spartans", "USC Upstate", "#00703C", "#000000"),
+        Team("unc-asheville", "2427", "UNCA", "UNC Asheville Bulldogs", "UNC Asheville", "#003DA5", "#FFFFFF"),
+        Team("winthrop", "2737", "WIN", "Winthrop Eagles", "Winthrop", "#872434", "#FFC72C"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="bigsouth/",
+    theme="porch",
+    odds_aliases={
+        "Gardner-Webb Bulldogs": "gardner-webb",
+        "SC Upstate Spartans": "usc-upstate",
+        "USC Upstate Spartans": "usc-upstate",
+    },
+    news_names={
+        "charleston-southern": {"query": "Charleston Southern Buccaneers basketball", "match": [r"\bCharleston Southern\b"]},
+        "gardner-webb": {"query": "Gardner-Webb Runnin' Bulldogs basketball", "match": [r"\bGardner-Webb\b"]},
+        "high-point": {"query": "High Point Panthers basketball", "match": [r"\bHigh Point\b"]},
+        "longwood": {"query": "Longwood Lancers basketball", "match": [r"\bLongwood\b"]},
+        "presbyterian": {"query": "Presbyterian Blue Hose basketball", "match": [r"\bPresbyterian\b", r"\bBlue Hose\b"]},
+        "radford": {"query": "Radford Highlanders basketball", "match": [r"\bRadford\b"]},
+        "usc-upstate": {"query": "South Carolina Upstate Spartans basketball", "match": [r"\bUSC Upstate\b", r"\bSouth Carolina Upstate\b"]},
+        "unc-asheville": {"query": "UNC Asheville Bulldogs basketball", "match": [r"\bUNC Asheville\b", r"\bUNCA\b"]},
+        "winthrop": {"query": "Winthrop Eagles basketball", "match": [r"\bWinthrop\b"]},
+    },
+    league_feed=("bigsouthsports.com", "Big South (bigsouthsports.com)"),
+    hashtag="BigSouthMBB",
+    tournament="the Big South tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC)}
+# Ohio Valley Conference 2026-27 membership from ESPN's conference feed (group 20).
+OVC = League(
+    key="ovc", short="OVC", name="Ohio Valley Conference",
+    region="the river country of the Midwest and the mid-South, from Macomb, Charleston and Edwardsville down through St. Charles, Evansville and Morehead to Cape Girardeau, Martin and Nashville",
+    teams=(
+        Team("eastern-illinois", "2197", "EIU", "Eastern Illinois Panthers", "Eastern Illinois", "#004B83", "#999999"),
+        Team("lindenwood", "2815", "LIN", "Lindenwood Lions", "Lindenwood", "#000000", "#B5A36A"),
+        Team("morehead-state", "2413", "MORE", "Morehead State Eagles", "Morehead State", "#005EB8", "#FFC82E"),
+        Team("siue", "2565", "SIUE", "SIU Edwardsville Cougars", "SIUE", "#E21836", "#000000"),
+        Team("southeast-missouri", "2546", "SEMO", "Southeast Missouri State Redhawks", "SEMO", "#C8102E", "#000000"),
+        Team("southern-indiana", "88", "USI", "Southern Indiana Screaming Eagles", "Southern Indiana", "#002D72", "#C8102E"),
+        Team("tennessee-state", "2634", "TNST", "Tennessee State Tigers", "Tennessee State", "#00539F", "#FFFFFF"),
+        Team("ut-martin", "2630", "UTM", "UT Martin Skyhawks", "UT Martin", "#0E1C59", "#F79728"),
+        Team("western-illinois", "2710", "WIU", "Western Illinois Leathernecks", "Western Illinois", "#663399", "#FFCC00"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="ovc/",
+    theme="riverboat",
+    odds_aliases={
+        "Morehead St Eagles": "morehead-state",
+        "SIU-Edwardsville Cougars": "siue",
+        "SE Missouri St Redhawks": "southeast-missouri",
+        "Southeast Missouri St Redhawks": "southeast-missouri",
+        "Tennessee St Tigers": "tennessee-state",
+        "Tenn-Martin Skyhawks": "ut-martin",
+    },
+    news_names={
+        "eastern-illinois": {"query": "Eastern Illinois Panthers basketball", "match": [r"\bEastern Illinois\b"]},
+        "lindenwood": {"query": "Lindenwood Lions basketball", "match": [r"\bLindenwood\b"]},
+        "morehead-state": {"query": "Morehead State Eagles basketball", "match": [r"\bMorehead State\b"]},
+        "siue": {"query": "SIU Edwardsville Cougars basketball", "match": [r"\bSIUE\b", r"\bSIU Edwardsville\b"]},
+        "southeast-missouri": {"query": "Southeast Missouri State Redhawks basketball", "match": [r"\bSoutheast Missouri\b", r"\bSEMO\b"]},
+        "southern-indiana": {"query": "Southern Indiana Screaming Eagles basketball", "match": [r"\bSouthern Indiana\b"]},
+        "tennessee-state": {"query": "Tennessee State Tigers basketball", "match": [r"\bTennessee State\b"]},
+        "ut-martin": {"query": "UT Martin Skyhawks basketball", "match": [r"\bUT Martin\b", r"\bSkyhawks\b"]},
+        "western-illinois": {"query": "Western Illinois Leathernecks basketball", "match": [r"\bWestern Illinois\b"]},
+    },
+    league_feed=("ovcsports.com", "OVC (ovcsports.com)"),
+    hashtag="OVCMBB",
+    tournament="the OVC tournament",
+)
+
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC)}
 
 
 def current() -> League:
