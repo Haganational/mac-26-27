@@ -1385,7 +1385,7 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 31,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1393,13 +1393,13 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": 27,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:53 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929200",
@@ -8060,5 +8060,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T22:09:21+00:00"
+ "live_at": "2026-11-15T22:33:58+00:00"
 }
