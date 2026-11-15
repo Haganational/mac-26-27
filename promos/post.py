@@ -1,0 +1,112 @@
+"""Post a film's vertical promo reels: YouTube Shorts first, then Facebook, Instagram, Threads and Bluesky.
+
+    PYTHONPATH=<checkout of main> python promos/post.py promos/athens/promo.json
+
+Every post links to the full film on YouTube. The film's link comes from "main_url" in the
+manifest or, when that is empty, from the channel's own uploads (the newest title containing
+"main_title_contains"). No link, no posts. "stage" in the manifest: "dry" prints the plan,
+"youtube" uploads the Shorts only, "all" uploads the Shorts and cross-posts. Each network is
+checked for the reel's title first, so a re-run only fills gaps and never posts twice.
+"""
+from __future__ import annotations
+
+import json
+import os
+import sys
+from pathlib import Path
+
+from mac import reels as R
+from mac import youtube as Y
+
+TAGS = "#Athens #Ohio #History #Documentary #HardwoodBricks"
+DISCLOSURE = "Ray, Marcus and Simone are fictional AI anchors. The narrator is real."
+
+
+def find_film(token: str, needle: str) -> str:
+    ch = Y._call(f"{Y.API}/channels?part=contentDetails&mine=true", token)[0]
+    pl = ch["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    items = Y._call(f"{Y.API}/playlistItems?part=snippet,status&maxResults=50&playlistId={pl}", token)[0].get("items", [])
+    for i in items:
+        s = i["snippet"]
+        if needle.lower() in s["title"].lower() and "#shorts" not in s.get("description", "").lower():
+            print(f"film: found {s['title']!r} ({i.get('status', {}).get('privacyStatus')})")
+            if i.get("status", {}).get("privacyStatus") != "public":
+                raise SystemExit("film: the full film is on the channel but not public yet; make it public, then re-run")
+            return f"https://youtu.be/{s['resourceId']['videoId']}"
+    return ""
+
+
+def yt_short(token: str, mp4: Path, thumb: Path, title: str, text: str, film: str) -> str:
+    if Y.already_up(token, title):
+        return "already on the channel"
+    meta = {"snippet": {"title": title[:100], "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en",
+                        "description": f"{text}\n\nWatch the full film: {film}\n\nLocal history... and college basketball. See more at {R.SITE}\n\n{DISCLOSURE}\n\n#Shorts {TAGS}",
+                        "tags": ["Athens Ohio", "Ohio University", "history", "documentary", "Hardwood Bricks"]},
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
+    _, head = Y._call(f"{Y.UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
+    vid = Y._call(head.get("Location") or head.get("location"), token, mp4.read_bytes(), "video/mp4", "PUT")[0]["id"]
+    try:
+        Y._call(f"{Y.UPLOAD}/thumbnails/set?videoId={vid}&uploadType=media", token, thumb.read_bytes(), "image/jpeg")
+    except Exception as ex:  # noqa: BLE001 - a Short keeps its own frame if the thumbnail is refused
+        print(f"youtube: thumbnail not set ({ex})")
+    return f"uploaded https://youtube.com/shorts/{vid}"
+
+
+def cross(net: str, mp4: Path, title: str, long_text: str, short_text: str, url: str) -> str:
+    e = os.environ
+    if net == "facebook":
+        page = e["FB_PAGE_ID"].strip()
+        tok = R.page_token(page, e["FB_PAGE_TOKEN"].strip())
+        return "already posted" if R.fb_already(page, tok, title) else f"posted {R.fb_reel(page, tok, mp4, long_text)}"
+    if net == "instagram":
+        tok, user, host = R.ig_auth(e)
+        return "already posted" if R.ig_already(user, tok, title, host) else f"posted {R.ig_reel(user, tok, R.resolve(url), long_text, host)}"
+    if net == "threads":
+        tok, user = e["THREADS_ACCESS_TOKEN"].strip(), e.get("THREADS_USER_ID", "").strip() or "me"
+        return "already posted" if R.th_already(user, tok, title) else f"posted {R.th_video(user, tok, R.resolve(url), short_text)}"
+    sess = R.bsky_session(e["BSKY_HANDLE"].strip(), e["BSKY_APP_PASSWORD"].strip())
+    return "already posted" if R.bsky_already(sess, title) else f"posted {R.bsky_video(sess, mp4, short_text, (1080, 1920))}"
+
+
+def main() -> None:
+    path = Path(sys.argv[1])
+    m = json.loads(path.read_text())
+    stage = m.get("stage", "dry")
+    cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
+    token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
+    film = m.get("main_url", "").strip() or (find_film(token, m["main_title_contains"]) if token else "")
+    if not film:
+        raise SystemExit("film: the full film is not on the channel yet and no main_url is set; nothing posted")
+    print(f"film link: {film}")
+    repo = os.environ.get("GITHUB_REPOSITORY", "").strip() or R.REPO
+    failed = 0
+    for r in m["reels"]:
+        mp4 = path.parent / r["file"]
+        long_text = f"{r['title']}\n\n{r['text']}\n\nWatch the full film: {film}\n\n{TAGS}\n\n{DISCLOSURE}"
+        short_text = f"{r['title']}\n\nFull film: {film}\n\n#Athens #Ohio #History"
+        assert len(short_text) <= 300, len(short_text)
+        url = f"https://github.com/{repo}/releases/download/{m['release']}/{r['file']}"
+        nets = R.networks("midmaxx60")
+        if stage == "dry":
+            print(f"--- {r['file']}\n[long]\n{long_text}\n[short]\n{short_text}\n[would post to] youtube, {', '.join(nets)}")
+            continue
+        try:
+            print(f"youtube: {r['title']}: {yt_short(token, mp4, path.parent / r['thumb'], r['title'], r['text'], film)}")
+        except Exception as ex:  # noqa: BLE001
+            failed += 1
+            body = ex.read().decode(errors="replace")[:400] if hasattr(ex, "read") else ""
+            print(f"youtube failed: {ex} {body}")
+            continue  # YouTube goes first; do not cross-post a reel that is not on YouTube
+        if stage != "all":
+            continue
+        for net in nets:
+            try:
+                print(f"{net}: {r['title']}: {cross(net, mp4, r['title'], long_text, short_text, url)}")
+            except Exception as ex:  # noqa: BLE001 - one network's trouble must not stop the others
+                failed += 1
+                print(f"{net} failed: {ex}")
+    sys.exit(1 if failed else 0)
+
+
+if __name__ == "__main__":
+    main()
