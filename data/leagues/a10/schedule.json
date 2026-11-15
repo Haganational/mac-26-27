@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:25:52+00:00",
+ "fetched_at": "2026-11-15T21:03:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2219,7 +2219,7 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2227,13 +2227,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 46,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "0:45 - 2nd"
   },
   {
    "game_id": "401920065",
@@ -2277,7 +2277,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "20:00 - 2nd"
+   "detail": "6:32 - 2nd"
   },
   {
    "game_id": "401911251",
@@ -2321,7 +2321,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:18 - 1st"
+   "detail": "0:34 - 1st"
   },
   {
    "game_id": "401911211",
@@ -5528,7 +5528,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-8-2026--sports-ncaa-basketball/production/7627379?wsUser=717",
-    "low": 12.0
+    "low": 11.0
    },
    "venue": "EagleBank Arena",
    "venue_city": "Fairfax",
@@ -6225,7 +6225,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-12-2026--sports-ncaa-basketball/production/7092333?wsUser=717",
-    "low": 31.0
+    "low": 36.0
    },
    "venue": "Chaifetz Arena",
    "venue_city": "St. Louis",

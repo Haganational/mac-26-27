@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:26:51+00:00",
+ "fetched_at": "2026-11-15T21:04:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -1769,10 +1769,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-11-15-2026--sports-ncaa-basketball/production/7636968?wsUser=717",
-    "low": 7.0
-   },
+   "tickets": null,
    "venue": "Matthew Knight Arena",
    "venue_city": "Eugene",
    "venue_state": "OR",
@@ -1781,7 +1778,7 @@
     "key": null,
     "name": "Oregon Ducks",
     "abbr": "ORE",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1789,13 +1786,13 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_POSTPONED",
    "completed": false,
    "live": false,
-   "detail": ""
+   "detail": "Postponed"
   },
   {
    "game_id": "401926228",
@@ -1859,7 +1856,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-16-2026--sports-ncaa-basketball/production/7687082?wsUser=717",
-    "low": 26.0
+    "low": 25.0
    },
    "venue": "University Credit Union Pavilion",
    "venue_city": "Moraga",
@@ -4935,7 +4932,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-12-13-2026--sports-ncaa-basketball/production/7648006?wsUser=717",
-    "low": 30.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -6492,8 +6489,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-colonial-life-arena-1-2-2027--sports-ncaa-basketball/production/7581843?wsUser=717",
-    "low": 46.0
+    "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-1-2-2027--sports-ncaa-basketball/production/7637203?wsUser=717",
+    "low": 49.0
    },
    "venue": "The Sobrato Center",
    "venue_city": "San Francisco",

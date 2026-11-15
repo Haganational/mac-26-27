@@ -1,0 +1,7722 @@
+{
+ "fetched_at": "2026-11-15T21:09:36+00:00",
+ "season": 2027,
+ "games": [
+  {
+   "game_id": "401929404",
+   "date": "2026-11-02T23:00Z",
+   "name": "Mount Marty Lancers at South Dakota Coyotes",
+   "short_name": "MMU @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": 95,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "573",
+    "key": null,
+    "name": "Mount Marty Lancers",
+    "abbr": "MMU",
+    "score": 57,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920842",
+   "date": "2026-11-03T00:00Z",
+   "name": "St. Thomas Tommies at Presbyterian Blue Hose",
+   "short_name": "STMN @ PRES",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Templeton Center",
+   "venue_city": "Clinton",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2506",
+    "key": null,
+    "name": "Presbyterian Blue Hose",
+    "abbr": "PRES",
+    "score": 78,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": 87,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401909490",
+   "date": "2026-11-03T01:00Z",
+   "name": "Kansas City Roos at Creighton Bluejays",
+   "short_name": "KC @ CREI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "CHI Health Center Omaha",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "156",
+    "key": null,
+    "name": "Creighton Bluejays",
+    "abbr": "CREI",
+    "score": 76,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929391",
+   "date": "2026-11-03T01:00Z",
+   "name": "Crookston (MN) Golden Eagles at North Dakota State Bison",
+   "short_name": "MNCR @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": 90,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2772",
+    "key": null,
+    "name": "Crookston (MN) Golden Eagles",
+    "abbr": "MNCR",
+    "score": 59,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929394",
+   "date": "2026-11-03T01:00Z",
+   "name": "Mid America Christian Evangels at Omaha Mavericks",
+   "short_name": "MAMC @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": 73,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "3126",
+    "key": null,
+    "name": "Mid America Christian Evangels",
+    "abbr": "MAMC",
+    "score": 65,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401917913",
+   "date": "2026-11-03T01:30Z",
+   "name": "Oral Roberts Golden Eagles at Central Arkansas Bears",
+   "short_name": "ORU @ CARK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Farris Center",
+   "venue_city": "Conway",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": 85,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": 55,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401916303",
+   "date": "2026-11-03T02:00Z",
+   "name": "North Dakota Fighting Hawks at Minnesota Golden Gophers",
+   "short_name": "UND @ MINN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "B1G+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
+   "venue_city": "Minneapolis",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "135",
+    "key": null,
+    "name": "Minnesota Golden Gophers",
+    "abbr": "MINN",
+    "score": 85,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": 50,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401909796",
+   "date": "2026-11-04T01:00Z",
+   "name": "South Dakota State Jackrabbits at Kansas State Wildcats",
+   "short_name": "SDST @ KSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Bramlage Coliseum",
+   "venue_city": "Manhattan",
+   "venue_state": "KS",
+   "home": {
+    "espn_id": "2306",
+    "key": null,
+    "name": "Kansas State Wildcats",
+    "abbr": "KSU",
+    "score": 66,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": 68,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401928811",
+   "date": "2026-11-05T01:00Z",
+   "name": "Northern Kentucky Norse at South Dakota Coyotes",
+   "short_name": "NKU @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": 94,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "94",
+    "key": null,
+    "name": "Northern Kentucky Norse",
+    "abbr": "NKU",
+    "score": 102,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401917512",
+   "date": "2026-11-05T03:00Z",
+   "name": "North Dakota State Bison at Saint Mary's Gaels",
+   "short_name": "NDSU @ SMC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "University Credit Union Pavilion",
+   "venue_city": "Moraga",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2608",
+    "key": null,
+    "name": "Saint Mary's Gaels",
+    "abbr": "SMC",
+    "score": 105,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": 64,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401916304",
+   "date": "2026-11-07T01:00Z",
+   "name": "St. Thomas Tommies at Minnesota Golden Gophers",
+   "short_name": "STMN @ MINN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
+   "venue_city": "Minneapolis",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "135",
+    "key": null,
+    "name": "Minnesota Golden Gophers",
+    "abbr": "MINN",
+    "score": 76,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": 62,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921739",
+   "date": "2026-11-07T02:00Z",
+   "name": "Omaha Mavericks at BYU Cougars",
+   "short_name": "OMA @ BYU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Marriott Center",
+   "venue_city": "Provo",
+   "venue_state": "UT",
+   "home": {
+    "espn_id": "252",
+    "key": null,
+    "name": "BYU Cougars",
+    "abbr": "BYU",
+    "score": 108,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": 67,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920952",
+   "date": "2026-11-07T02:15Z",
+   "name": "Southern Illinois Salukis at Kansas City Roos",
+   "short_name": "SIU @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": 100,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "79",
+    "key": null,
+    "name": "Southern Illinois Salukis",
+    "abbr": "SIU",
+    "score": 93,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929410",
+   "date": "2026-11-07T02:30Z",
+   "name": "Briar Cliff Chargers at South Dakota State Jackrabbits",
+   "short_name": "BRCF @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": 71,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "3065",
+    "key": null,
+    "name": "Briar Cliff Chargers",
+    "abbr": "BRCF",
+    "score": 49,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921061",
+   "date": "2026-11-07T03:00Z",
+   "name": "North Dakota State Bison at San Francisco Dons",
+   "short_name": "NDSU @ SF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "The Sobrato Center",
+   "venue_city": "San Francisco",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2539",
+    "key": null,
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": 79,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": 70,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401925707",
+   "date": "2026-11-07T17:00Z",
+   "name": "North Dakota Fighting Hawks at Winthrop Eagles",
+   "short_name": "UND @ WIN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Winthrop Coliseum",
+   "venue_city": "Rock Hill",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2737",
+    "key": null,
+    "name": "Winthrop Eagles",
+    "abbr": "WIN",
+    "score": 90,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": 93,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920156",
+   "date": "2026-11-07T19:00Z",
+   "name": "Cal State Fullerton Titans at South Dakota Coyotes",
+   "short_name": "CSUF @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": 85,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2239",
+    "key": null,
+    "name": "Cal State Fullerton Titans",
+    "abbr": "CSUF",
+    "score": 87,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929293",
+   "date": "2026-11-07T21:00Z",
+   "name": "Omaha Mavericks at Utah State Aggies",
+   "short_name": "OMA @ USU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Dee Glen Smith Spectrum",
+   "venue_city": "Logan",
+   "venue_state": "UT",
+   "home": {
+    "espn_id": "328",
+    "key": null,
+    "name": "Utah State Aggies",
+    "abbr": "USU",
+    "score": 90,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": 56,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929399",
+   "date": "2026-11-08T01:00Z",
+   "name": "Northwestern (OK) Rangers at Oral Roberts Golden Eagles",
+   "short_name": "NWOK @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": 94,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2823",
+    "key": null,
+    "name": "Northwestern (OK) Rangers",
+    "abbr": "NWOK",
+    "score": 39,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920843",
+   "date": "2026-11-08T19:00Z",
+   "name": "Green Bay Phoenix at St. Thomas Tommies",
+   "short_name": "GB @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": 67,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": 76,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920134",
+   "date": "2026-11-08T23:00Z",
+   "name": "North Dakota State Bison at Cal State Bakersfield Roadrunners",
+   "short_name": "NDSU @ CSUB",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Icardo Center",
+   "venue_city": "Bakersfield",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2934",
+    "key": null,
+    "name": "Cal State Bakersfield Roadrunners",
+    "abbr": "CSUB",
+    "score": 91,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": 80,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920877",
+   "date": "2026-11-10T00:00Z",
+   "name": "Kansas City Roos at Jacksonville Dolphins",
+   "short_name": "KC @ JAX",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Swisher Gymnasium",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "294",
+    "key": null,
+    "name": "Jacksonville Dolphins",
+    "abbr": "JAX",
+    "score": 79,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401918074",
+   "date": "2026-11-10T00:00Z",
+   "name": "North Dakota Fighting Hawks at Clemson Tigers",
+   "short_name": "UND @ CLEM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACCNX",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Littlejohn Coliseum",
+   "venue_city": "Clemson",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "228",
+    "key": null,
+    "name": "Clemson Tigers",
+    "abbr": "CLEM",
+    "score": 92,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": 77,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929395",
+   "date": "2026-11-11T01:00Z",
+   "name": "York (NE) Panthers at Omaha Mavericks",
+   "short_name": "YUNE @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": 78,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "109998",
+    "key": null,
+    "name": "York (NE) Panthers",
+    "abbr": "YUNE",
+    "score": 66,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401924952",
+   "date": "2026-11-11T01:00Z",
+   "name": "Houston Christian Huskies at South Dakota Coyotes",
+   "short_name": "HCU @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": 76,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2277",
+    "key": null,
+    "name": "Houston Christian Huskies",
+    "abbr": "HCU",
+    "score": 87,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921005",
+   "date": "2026-11-11T17:00Z",
+   "name": "Kansas City Roos at Florida A&M Rattlers",
+   "short_name": "KC VS FAMU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "McArthur Center",
+   "venue_city": "St. Petersburg",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "50",
+    "key": null,
+    "name": "Florida A&M Rattlers",
+    "abbr": "FAMU",
+    "score": 65,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": 87,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401925863",
+   "date": "2026-11-12T01:00Z",
+   "name": "Oral Roberts Golden Eagles at Tulsa Golden Hurricane",
+   "short_name": "ORU @ TLSA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Reynolds Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "202",
+    "key": null,
+    "name": "Tulsa Golden Hurricane",
+    "abbr": "TLSA",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": 71,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401928996",
+   "date": "2026-11-12T01:00Z",
+   "name": "Valparaiso Beacons at South Dakota State Jackrabbits",
+   "short_name": "VAL @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": 81,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2674",
+    "key": null,
+    "name": "Valparaiso Beacons",
+    "abbr": "VAL",
+    "score": 69,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920844",
+   "date": "2026-11-12T01:00Z",
+   "name": "Macalester Scots at St. Thomas Tommies",
+   "short_name": "MAC @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": 119,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2359",
+    "key": null,
+    "name": "Macalester Scots",
+    "abbr": "MAC",
+    "score": 82,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920073",
+   "date": "2026-11-12T20:00Z",
+   "name": "Kansas City Roos at George Mason Patriots",
+   "short_name": "KC VS GMU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "McArthur Center",
+   "venue_city": "St. Petersburg",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2244",
+    "key": null,
+    "name": "George Mason Patriots",
+    "abbr": "GMU",
+    "score": 76,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": 68,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401927363",
+   "date": "2026-11-14T00:30Z",
+   "name": "South Dakota Coyotes at Drake Bulldogs",
+   "short_name": "SDAK @ DRKE",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Knapp Center",
+   "venue_city": "Des Moines",
+   "venue_state": "IA",
+   "home": {
+    "espn_id": "2181",
+    "key": null,
+    "name": "Drake Bulldogs",
+    "abbr": "DRKE",
+    "score": 81,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": 72,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401927374",
+   "date": "2026-11-14T01:00Z",
+   "name": "Illinois State Redbirds at North Dakota State Bison",
+   "short_name": "ILST @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": 82,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2287",
+    "key": null,
+    "name": "Illinois State Redbirds",
+    "abbr": "ILST",
+    "score": 81,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
+  },
+  {
+   "game_id": "401929040",
+   "date": "2026-11-14T01:45Z",
+   "name": "Lindenwood Lions at Omaha Mavericks",
+   "short_name": "LIN @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": 67,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2815",
+    "key": null,
+    "name": "Lindenwood Lions",
+    "abbr": "LIN",
+    "score": 56,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401912229",
+   "date": "2026-11-14T18:00Z",
+   "name": "St. Thomas Tommies at Army Black Knights",
+   "short_name": "STMN @ ARMY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Christl Arena",
+   "venue_city": "West Point",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "349",
+    "key": null,
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
+    "score": 79,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": 77,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401925889",
+   "date": "2026-11-14T21:00Z",
+   "name": "South Dakota State Jackrabbits at Northern Colorado Bears",
+   "short_name": "SDST VS UNCO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "The Monument",
+   "venue_city": "Rapid City",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2458",
+    "key": null,
+    "name": "Northern Colorado Bears",
+    "abbr": "UNCO",
+    "score": 46,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": 71,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401929400",
+   "date": "2026-11-15T01:00Z",
+   "name": "Oklahoma City Okies at Oral Roberts Golden Eagles",
+   "short_name": "OKCY @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": 82,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2481",
+    "key": null,
+    "name": "Oklahoma City Okies",
+    "abbr": "OKCY",
+    "score": 39,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401922031",
+   "date": "2026-11-15T02:00Z",
+   "name": "Montana Grizzlies at North Dakota Fighting Hawks",
+   "short_name": "MONT @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": 71,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "149",
+    "key": null,
+    "name": "Montana Grizzlies",
+    "abbr": "MONT",
+    "score": 80,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920136",
+   "date": "2026-11-15T19:00Z",
+   "name": "Cal State Bakersfield Roadrunners at North Dakota State Bison",
+   "short_name": "CSUB @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2934",
+    "key": null,
+    "name": "Cal State Bakersfield Roadrunners",
+    "abbr": "CSUB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "live": true,
+   "detail": "0:15 - 2nd"
+  },
+  {
+   "game_id": "401929405",
+   "date": "2026-11-15T21:30Z",
+   "name": "Doane Tigers at South Dakota Coyotes",
+   "short_name": "DOAN @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2178",
+    "key": null,
+    "name": "Doane Tigers",
+    "abbr": "DOAN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401919807",
+   "date": "2026-11-17T00:00Z",
+   "name": "St. Thomas Tommies at Long Island University Sharks",
+   "short_name": "STMN @ LIU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Brooklyn Athletic Center",
+   "venue_city": "Brooklyn",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "112358",
+    "key": null,
+    "name": "Long Island University Sharks",
+    "abbr": "LIU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929411",
+   "date": "2026-11-17T01:00Z",
+   "name": "Mayville State Comets at South Dakota State Jackrabbits",
+   "short_name": "MYSU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-16-2026--sports-ncaa-basketball/production/7589446?wsUser=717",
+    "low": 16.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "561",
+    "key": null,
+    "name": "Mayville State Comets",
+    "abbr": "MYSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921006",
+   "date": "2026-11-18T01:00Z",
+   "name": "Newman Jets at Kansas City Roos",
+   "short_name": "NWM @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "580",
+    "key": null,
+    "name": "Newman Jets",
+    "abbr": "NWM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926143",
+   "date": "2026-11-18T01:00Z",
+   "name": "SIU Edwardsville Cougars at North Dakota Fighting Hawks",
+   "short_name": "SIUE @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-11-16-2026--sports-ncaa-basketball/production/7710686?wsUser=717",
+    "low": 27.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2565",
+    "key": null,
+    "name": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925012",
+   "date": "2026-11-18T01:00Z",
+   "name": "Lamar Cardinals at Omaha Mavericks",
+   "short_name": "LAM @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-11-17-2026--sports-ncaa-basketball/production/7656470?wsUser=717",
+    "low": 14.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2320",
+    "key": null,
+    "name": "Lamar Cardinals",
+    "abbr": "LAM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401918970",
+   "date": "2026-11-18T01:00Z",
+   "name": "Oral Roberts Golden Eagles at SMU Mustangs",
+   "short_name": "ORU @ SMU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ACCNX",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-17-2026--sports-ncaa-basketball/production/7558081?wsUser=717",
+    "low": 7.0
+   },
+   "venue": "Moody Coliseum (Dallas)",
+   "venue_city": "Dallas",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2567",
+    "key": null,
+    "name": "SMU Mustangs",
+    "abbr": "SMU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926064",
+   "date": "2026-11-19T01:30Z",
+   "name": "South Dakota Coyotes at Nebraska Cornhuskers",
+   "short_name": "SDAK @ NEB",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-pinnacle-bank-arena-11-18-2026--sports-ncaa-basketball/production/7359026?wsUser=717",
+    "low": 7.0
+   },
+   "venue": "Pinnacle Bank Arena",
+   "venue_city": "Lincoln",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "158",
+    "key": null,
+    "name": "Nebraska Cornhuskers",
+    "abbr": "NEB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929176",
+   "date": "2026-11-19T02:00Z",
+   "name": "North Dakota State Bison at Colorado State Rams",
+   "short_name": "NDSU @ CSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-11-18-2026--sports-ncaa-basketball/production/7575829?wsUser=717",
+    "low": 11.0
+   },
+   "venue": "Moby Arena",
+   "venue_city": "Fort Collins",
+   "venue_state": "CO",
+   "home": {
+    "espn_id": "36",
+    "key": null,
+    "name": "Colorado State Rams",
+    "abbr": "CSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929409",
+   "date": "2026-11-20T01:00Z",
+   "name": "Mayville State Comets at North Dakota Fighting Hawks",
+   "short_name": "MYSU @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-11-19-2026--sports-ncaa-basketball/production/7705542?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "561",
+    "key": null,
+    "name": "Mayville State Comets",
+    "abbr": "MYSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920845",
+   "date": "2026-11-20T01:00Z",
+   "name": "Southeast Missouri State Redhawks at St. Thomas Tommies",
+   "short_name": "SEMO @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-11-19-2026--sports-ncaa-basketball/production/7710739?wsUser=717",
+    "low": 42.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2546",
+    "key": null,
+    "name": "Southeast Missouri State Redhawks",
+    "abbr": "SEMO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922022",
+   "date": "2026-11-20T21:00Z",
+   "name": "South Dakota State Jackrabbits at Idaho State Bengals",
+   "short_name": "SDST @ IDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Reed Gym",
+   "venue_city": "Pocatello",
+   "venue_state": "ID",
+   "home": {
+    "espn_id": "304",
+    "key": null,
+    "name": "Idaho State Bengals",
+    "abbr": "IDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921007",
+   "date": "2026-11-21T00:00Z",
+   "name": "Kansas City Roos at Iona Gaels",
+   "short_name": "KC @ IONA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-11-20-2026--sports-ncaa-basketball/production/7470761?wsUser=717",
+    "low": 21.0
+   },
+   "venue": "Hynes Athletics Center",
+   "venue_city": "New Rochelle",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "314",
+    "key": null,
+    "name": "Iona Gaels",
+    "abbr": "IONA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920846",
+   "date": "2026-11-21T20:00Z",
+   "name": "St. Thomas Tommies at Milwaukee Panthers",
+   "short_name": "STMN @ MILW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-11-21-2026--sports-ncaa-basketball/production/7512851?wsUser=717",
+    "low": 24.0
+   },
+   "venue": "UW-Milwaukee Panther Arena",
+   "venue_city": "Milwaukee",
+   "venue_state": "WI",
+   "home": {
+    "espn_id": "270",
+    "key": null,
+    "name": "Milwaukee Panthers",
+    "abbr": "MILW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925099",
+   "date": "2026-11-22T01:00Z",
+   "name": "Texas A&M-Corpus Christi Islanders at Oral Roberts Golden Eagles",
+   "short_name": "AMCC @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-21-2026--sports-ncaa-basketball/production/7529805?wsUser=717",
+    "low": 19.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "357",
+    "key": null,
+    "name": "Texas A&M-Corpus Christi Islanders",
+    "abbr": "AMCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925942",
+   "date": "2026-11-22T19:00Z",
+   "name": "South Dakota Coyotes at Utah Tech Trailblazers",
+   "short_name": "SDAK VS UTU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
+    "low": 26.0
+   },
+   "venue": "Sanford Pentagon",
+   "venue_city": "Sioux Falls",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "3101",
+    "key": null,
+    "name": "Utah Tech Trailblazers",
+    "abbr": "UTU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929392",
+   "date": "2026-11-24T01:00Z",
+   "name": "Wisconsin Stout Blue Devils at North Dakota State Bison",
+   "short_name": "UWST @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2744",
+    "key": null,
+    "name": "Wisconsin Stout Blue Devils",
+    "abbr": "UWST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920546",
+   "date": "2026-11-24T20:00Z",
+   "name": "North Dakota Fighting Hawks at Detroit Mercy Titans",
+   "short_name": "UND VS DETM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "2174",
+    "key": null,
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921008",
+   "date": "2026-11-25T01:00Z",
+   "name": "Green Bay Phoenix at Kansas City Roos",
+   "short_name": "GB @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929359",
+   "date": "2026-11-25T01:00Z",
+   "name": "Oral Roberts Golden Eagles at UT Arlington Mavericks",
+   "short_name": "ORU @ UTA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "College Park Center",
+   "venue_city": "Arlington",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "250",
+    "key": null,
+    "name": "UT Arlington Mavericks",
+    "abbr": "UTA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929406",
+   "date": "2026-11-25T19:00Z",
+   "name": "Arkansas-Pine Bluff Golden Lions at South Dakota Coyotes",
+   "short_name": "UAPB @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2029",
+    "key": null,
+    "name": "Arkansas-Pine Bluff Golden Lions",
+    "abbr": "UAPB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917967",
+   "date": "2026-11-25T19:00Z",
+   "name": "Abilene Christian Wildcats at South Dakota State Jackrabbits",
+   "short_name": "ACU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
+    "low": 28.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920847",
+   "date": "2026-11-26T00:00Z",
+   "name": "St. Thomas Tommies at UNC Wilmington Seahawks",
+   "short_name": "STMN @ UNCW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-25-2026--sports-ncaa-basketball/production/7309044?wsUser=717",
+    "low": 10.0
+   },
+   "venue": "Trask Coliseum",
+   "venue_city": "Wilmington",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "350",
+    "key": null,
+    "name": "UNC Wilmington Seahawks",
+    "abbr": "UNCW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911522",
+   "date": "2026-11-26T01:30Z",
+   "name": "Omaha Mavericks at UC Davis Aggies",
+   "short_name": "OMA VS UCD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Resorts World Event Center",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "302",
+    "key": null,
+    "name": "UC Davis Aggies",
+    "abbr": "UCD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917546",
+   "date": "2026-11-27T03:30Z",
+   "name": "Pacific Tigers at Omaha Mavericks",
+   "short_name": "PAC VS OMA",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Resorts World Event Center",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "279",
+    "key": null,
+    "name": "Pacific Tigers",
+    "abbr": "PAC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920848",
+   "date": "2026-11-27T17:00Z",
+   "name": "Liberty Flames at St. Thomas Tommies",
+   "short_name": "LIB VS STMN",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Trask Coliseum",
+   "venue_city": "Wilmington",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2335",
+    "key": null,
+    "name": "Liberty Flames",
+    "abbr": "LIB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929407",
+   "date": "2026-11-27T19:00Z",
+   "name": "Clarke Pride at South Dakota Coyotes",
+   "short_name": "CKE @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2965",
+    "key": null,
+    "name": "Clarke Pride",
+    "abbr": "CKE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925829",
+   "date": "2026-11-28T01:00Z",
+   "name": "North Dakota State Bison at North Texas Mean Green",
+   "short_name": "NDSU VS UNT",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Mountain America Center",
+   "venue_city": "Idaho Falls",
+   "venue_state": "ID",
+   "home": {
+    "espn_id": "249",
+    "key": null,
+    "name": "North Texas Mean Green",
+    "abbr": "UNT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928624",
+   "date": "2026-11-28T01:00Z",
+   "name": "Missouri State Bears at Oral Roberts Golden Eagles",
+   "short_name": "MOST @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
+    "low": 27.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2623",
+    "key": null,
+    "name": "Missouri State Bears",
+    "abbr": "MOST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926783",
+   "date": "2026-11-28T03:30Z",
+   "name": "Jacksonville State Gamecocks at Omaha Mavericks",
+   "short_name": "JXST VS OMA",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Resorts World Event Center",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "55",
+    "key": null,
+    "name": "Jacksonville State Gamecocks",
+    "abbr": "JXST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920849",
+   "date": "2026-11-28T05:00Z",
+   "name": "Princeton Tigers at St. Thomas Tommies",
+   "short_name": "PRIN VS STMN",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Trask Coliseum",
+   "venue_city": "Wilmington",
+   "venue_state": "NC",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "163",
+    "key": null,
+    "name": "Princeton Tigers",
+    "abbr": "PRIN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921009",
+   "date": "2026-11-28T20:00Z",
+   "name": "Southeast Missouri State Redhawks at Kansas City Roos",
+   "short_name": "SEMO @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2546",
+    "key": null,
+    "name": "Southeast Missouri State Redhawks",
+    "abbr": "SEMO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401927367",
+   "date": "2026-11-28T23:00Z",
+   "name": "Drake Bulldogs at North Dakota State Bison",
+   "short_name": "DRKE VS NDSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Mountain America Center",
+   "venue_city": "Idaho Falls",
+   "venue_state": "ID",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2181",
+    "key": null,
+    "name": "Drake Bulldogs",
+    "abbr": "DRKE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929413",
+   "date": "2026-11-28T23:00Z",
+   "name": "South Alabama Jaguars at South Dakota State Jackrabbits",
+   "short_name": "USA VS SDST",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Convocation Center (LA)",
+   "venue_city": "New Orleans",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "6",
+    "key": null,
+    "name": "South Alabama Jaguars",
+    "abbr": "USA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928808",
+   "date": "2026-11-29T19:00Z",
+   "name": "North Dakota Fighting Hawks at Green Bay Phoenix",
+   "short_name": "UND @ GB",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/wisconsin-green-bay-phoenix-mens-basketball-tickets-kress-events-center-11-29-2026--sports-ncaa-basketball/production/7591998?wsUser=717",
+    "low": 58.0
+   },
+   "venue": "Resch Center",
+   "venue_city": "Ashwaubenon",
+   "venue_state": "WI",
+   "home": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925831",
+   "date": "2026-11-29T21:00Z",
+   "name": "North Dakota State Bison at Boise State Broncos",
+   "short_name": "NDSU VS BOIS",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "CW",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Mountain America Center",
+   "venue_city": "Idaho Falls",
+   "venue_state": "ID",
+   "home": {
+    "espn_id": "68",
+    "key": null,
+    "name": "Boise State Broncos",
+    "abbr": "BOIS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929182",
+   "date": "2026-11-29T23:00Z",
+   "name": "South Dakota State Jackrabbits at Fresno State Bulldogs",
+   "short_name": "SDST VS FRES",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Convocation Center (LA)",
+   "venue_city": "New Orleans",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "278",
+    "key": null,
+    "name": "Fresno State Bulldogs",
+    "abbr": "FRES",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921010",
+   "date": "2026-12-01T01:00Z",
+   "name": "Peru State PERU STATE at Kansas City Roos",
+   "short_name": "PSC @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "596",
+    "key": null,
+    "name": "Peru State PERU STATE",
+    "abbr": "PSC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925881",
+   "date": "2026-12-01T01:00Z",
+   "name": "Montana State Bobcats at South Dakota Coyotes",
+   "short_name": "MTST @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "147",
+    "key": null,
+    "name": "Montana State Bobcats",
+    "abbr": "MTST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929412",
+   "date": "2026-12-02T01:00Z",
+   "name": "Waldorf Warriors at North Dakota Fighting Hawks",
+   "short_name": "WLDF @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-12-1-2026--sports-ncaa-basketball/production/7705548?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3080",
+    "key": null,
+    "name": "Waldorf Warriors",
+    "abbr": "WLDF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929396",
+   "date": "2026-12-02T01:00Z",
+   "name": "Mount Marty Lancers at Omaha Mavericks",
+   "short_name": "MMU @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-1-2026--sports-ncaa-basketball/production/7649870?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "573",
+    "key": null,
+    "name": "Mount Marty Lancers",
+    "abbr": "MMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401909496",
+   "date": "2026-12-02T01:00Z",
+   "name": "Oral Roberts Golden Eagles at Creighton Bluejays",
+   "short_name": "ORU @ CREI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/creighton-bluejays-mens-basketball-tickets-chi-health-center-omaha-12-1-2026--sports-ncaa-basketball/production/7258045?wsUser=717",
+    "low": 7.0
+   },
+   "venue": "CHI Health Center Omaha",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "156",
+    "key": null,
+    "name": "Creighton Bluejays",
+    "abbr": "CREI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922225",
+   "date": "2026-12-04T00:00Z",
+   "name": "South Dakota Coyotes at North Florida Ospreys",
+   "short_name": "SDAK @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": null,
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911526",
+   "date": "2026-12-04T01:00Z",
+   "name": "UC Davis Aggies at North Dakota State Bison",
+   "short_name": "UCD @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "302",
+    "key": null,
+    "name": "UC Davis Aggies",
+    "abbr": "UCD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920850",
+   "date": "2026-12-04T01:00Z",
+   "name": "North Central (MN) Rams at St. Thomas Tommies",
+   "short_name": "NCU @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-12-3-2026--sports-ncaa-basketball/production/7710758?wsUser=717",
+    "low": 35.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "121894",
+    "key": null,
+    "name": "North Central (MN) Rams",
+    "abbr": "NCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921011",
+   "date": "2026-12-05T05:00Z",
+   "name": "Kansas City Roos at Duquesne Dukes",
+   "short_name": "KC VS DUQ",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "LeBron James Arena",
+   "venue_city": "Akron",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2184",
+    "key": null,
+    "name": "Duquesne Dukes",
+    "abbr": "DUQ",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929041",
+   "date": "2026-12-05T19:00Z",
+   "name": "Omaha Mavericks at Lindenwood Lions",
+   "short_name": "OMA @ LIN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/lindenwood-lions-mens-basketball-tickets-hyland-performance-arena-12-5-2026/production/7631813?wsUser=717",
+    "low": 31.0
+   },
+   "venue": "Hyland Arena",
+   "venue_city": "Saint Charles",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "2815",
+    "key": null,
+    "name": "Lindenwood Lions",
+    "abbr": "LIN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920851",
+   "date": "2026-12-05T19:00Z",
+   "name": "St. Thomas Tommies at Bucknell Bison",
+   "short_name": "STMN @ BUCK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-12-5-2026--sports-ncaa-basketball/production/7581608?wsUser=717",
+    "low": 43.0
+   },
+   "venue": "Sojka Pavilion",
+   "venue_city": "Lewisburg",
+   "venue_state": "PA",
+   "home": {
+    "espn_id": "2083",
+    "key": null,
+    "name": "Bucknell Bison",
+    "abbr": "BUCK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911536",
+   "date": "2026-12-05T21:00Z",
+   "name": "North Dakota Fighting Hawks at UTEP Miners",
+   "short_name": "UND @ UTEP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-12-5-2026--sports-ncaa-basketball/production/7660722?wsUser=717",
+    "low": 14.0
+   },
+   "venue": "Don Haskins Center",
+   "venue_city": "El Paso",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2638",
+    "key": null,
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929374",
+   "date": "2026-12-05T21:00Z",
+   "name": "Oral Roberts Golden Eagles at Arkansas Razorbacks",
+   "short_name": "ORU VS ARK",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-simmons-bank-arena-12-5-2026--sports-ncaa-basketball/production/7575777?wsUser=717",
+    "low": 59.0
+   },
+   "venue": "Simmons Bank Arena",
+   "venue_city": "North Little Rock",
+   "venue_state": "AR",
+   "home": {
+    "espn_id": "8",
+    "key": null,
+    "name": "Arkansas Razorbacks",
+    "abbr": "ARK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921067",
+   "date": "2026-12-06T00:00Z",
+   "name": "South Dakota Coyotes at San Francisco Dons",
+   "short_name": "SDAK @ SF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-12-5-2026--sports-ncaa-basketball/production/7570910?wsUser=717",
+    "low": 41.0
+   },
+   "venue": "The Sobrato Center",
+   "venue_city": "San Francisco",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2539",
+    "key": null,
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917970",
+   "date": "2026-12-06T00:00Z",
+   "name": "South Dakota State Jackrabbits at Abilene Christian Wildcats",
+   "short_name": "SDST @ ACU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Moody Coliseum (Abilene)",
+   "venue_city": "Abilene",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2000",
+    "key": null,
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929364",
+   "date": "2026-12-06T21:00Z",
+   "name": "North Dakota State Bison at Washington State Cougars",
+   "short_name": "NDSU @ WSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "CW",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-12-6-2026--sports-ncaa-basketball/production/7633999?wsUser=717",
+    "low": 10.0
+   },
+   "venue": "Beasley Coliseum",
+   "venue_city": "Pullman",
+   "venue_state": "WA",
+   "home": {
+    "espn_id": "265",
+    "key": null,
+    "name": "Washington State Cougars",
+    "abbr": "WSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921012",
+   "date": "2026-12-08T23:30Z",
+   "name": "Denver Pioneers at Kansas City Roos",
+   "short_name": "DEN @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/kansas-city-roos-mens-basketball-tickets-municipal-auditorium---mo-12-8-2026--sports-ncaa-basketball/production/7849540?wsUser=717",
+    "low": 20.0
+   },
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2172",
+    "key": null,
+    "name": "Denver Pioneers",
+    "abbr": "DEN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921135",
+   "date": "2026-12-09T00:30Z",
+   "name": "Omaha Mavericks at Texas Tech Red Raiders",
+   "short_name": "OMA @ TTU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/texas-tech-red-raiders-mens-basketball-tickets-united-supermarkets-arena-12-8-2026--sports-ncaa-basketball/production/7436699?wsUser=717",
+    "low": 12.0
+   },
+   "venue": "United Supermarkets Arena",
+   "venue_city": "Lubbock",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2641",
+    "key": null,
+    "name": "Texas Tech Red Raiders",
+    "abbr": "TTU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926870",
+   "date": "2026-12-09T01:00Z",
+   "name": "Milwaukee Panthers at South Dakota State Jackrabbits",
+   "short_name": "MILW @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-8-2026--sports-ncaa-basketball/production/7589454?wsUser=717",
+    "low": 46.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "270",
+    "key": null,
+    "name": "Milwaukee Panthers",
+    "abbr": "MILW",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922265",
+   "date": "2026-12-09T02:00Z",
+   "name": "North Dakota State Bison at Idaho Vandals",
+   "short_name": "NDSU @ IDHO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-12-8-2026--sports-ncaa-basketball/production/7710741?wsUser=717",
+    "low": 32.0
+   },
+   "venue": "ICCU Arena",
+   "venue_city": "Moscow",
+   "venue_state": "ID",
+   "home": {
+    "espn_id": "70",
+    "key": null,
+    "name": "Idaho Vandals",
+    "abbr": "IDHO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922034",
+   "date": "2026-12-09T02:00Z",
+   "name": "South Dakota Coyotes at Montana Grizzlies",
+   "short_name": "SDAK @ MONT",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-8-2026--sports-ncaa-basketball/production/7742951?wsUser=717",
+    "low": 38.0
+   },
+   "venue": "Dahlberg Arena",
+   "venue_city": "Missoula",
+   "venue_state": "MT",
+   "home": {
+    "espn_id": "149",
+    "key": null,
+    "name": "Montana Grizzlies",
+    "abbr": "MONT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921013",
+   "date": "2026-12-09T23:30Z",
+   "name": "Eastern Illinois Panthers at Kansas City Roos",
+   "short_name": "EIU @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2197",
+    "key": null,
+    "name": "Eastern Illinois Panthers",
+    "abbr": "EIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926148",
+   "date": "2026-12-10T00:00Z",
+   "name": "North Dakota Fighting Hawks at SIU Edwardsville Cougars",
+   "short_name": "UND @ SIUE",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-12-9-2026--sports-ncaa-basketball/production/7854365?wsUser=717",
+    "low": 32.0
+   },
+   "venue": "First Community Arena",
+   "venue_city": "Edwardsville",
+   "venue_state": "IL",
+   "home": {
+    "espn_id": "2565",
+    "key": null,
+    "name": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920852",
+   "date": "2026-12-11T01:00Z",
+   "name": "UNC Asheville Bulldogs at St. Thomas Tommies",
+   "short_name": "UNCA @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-12-10-2026--sports-ncaa-basketball/production/7710762?wsUser=717",
+    "low": 40.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2427",
+    "key": null,
+    "name": "UNC Asheville Bulldogs",
+    "abbr": "UNCA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922266",
+   "date": "2026-12-12T05:00Z",
+   "name": "Idaho Vandals at South Dakota State Jackrabbits",
+   "short_name": "IDHO @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": true,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-12-2026--sports-ncaa-basketball/production/7749741?wsUser=717",
+    "low": 69.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "70",
+    "key": null,
+    "name": "Idaho Vandals",
+    "abbr": "IDHO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922227",
+   "date": "2026-12-12T19:00Z",
+   "name": "North Florida Ospreys at South Dakota Coyotes",
+   "short_name": "UNF @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2454",
+    "key": null,
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929401",
+   "date": "2026-12-12T20:00Z",
+   "name": "Louisiana Ragin' Cajuns at Oral Roberts Golden Eagles",
+   "short_name": "UL @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-12-12-2026--sports-ncaa-basketball/production/7529808?wsUser=717",
+    "low": 59.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "309",
+    "key": null,
+    "name": "Louisiana Ragin' Cajuns",
+    "abbr": "UL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920853",
+   "date": "2026-12-12T20:00Z",
+   "name": "Arkansas State Red Wolves at St. Thomas Tommies",
+   "short_name": "ARST @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-12-12-2026--sports-ncaa-basketball/production/7710768?wsUser=717",
+    "low": 40.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2032",
+    "key": null,
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921014",
+   "date": "2026-12-12T21:30Z",
+   "name": "Kansas City Roos at Southeast Missouri State Redhawks",
+   "short_name": "KC @ SEMO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Show Me Center",
+   "venue_city": "Cape Girardeau",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "2546",
+    "key": null,
+    "name": "Southeast Missouri State Redhawks",
+    "abbr": "SEMO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920301",
+   "date": "2026-12-13T03:00Z",
+   "name": "North Dakota Fighting Hawks at Cal State Northridge Matadors",
+   "short_name": "UND @ CSUN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Premier America Credit Union Arena",
+   "venue_city": "Northridge",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2463",
+    "key": null,
+    "name": "Cal State Northridge Matadors",
+    "abbr": "CSUN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401927376",
+   "date": "2026-12-13T22:00Z",
+   "name": "North Dakota State Bison at Illinois State Redbirds",
+   "short_name": "NDSU @ ILST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/illinois-state-redbirds-mens-basketball-tickets-cefcu-arena-12-13-2026--sports-ncaa-basketball/production/7683454?wsUser=717",
+    "low": 29.0
+   },
+   "venue": "CEFCU Arena",
+   "venue_city": "Normal",
+   "venue_state": "IL",
+   "home": {
+    "espn_id": "2287",
+    "key": null,
+    "name": "Illinois State Redbirds",
+    "abbr": "ILST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929435",
+   "date": "2026-12-15T01:00Z",
+   "name": "Buena Vista Beavers at South Dakota State Jackrabbits",
+   "short_name": "BVU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-14-2026--sports-ncaa-basketball/production/7589458?wsUser=717",
+    "low": 14.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "63",
+    "key": null,
+    "name": "Buena Vista Beavers",
+    "abbr": "BVU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920375",
+   "date": "2026-12-16T01:00Z",
+   "name": "UC San Diego Tritons at St. Thomas Tommies",
+   "short_name": "UCSD @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-12-15-2026--sports-ncaa-basketball/production/7710780?wsUser=717",
+    "low": 41.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "28",
+    "key": null,
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928798",
+   "date": "2026-12-16T01:45Z",
+   "name": "Sam Houston Bearkats at Omaha Mavericks",
+   "short_name": "SHSU @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-15-2026--sports-ncaa-basketball/production/7656476?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2534",
+    "key": null,
+    "name": "Sam Houston Bearkats",
+    "abbr": "SHSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401919044",
+   "date": "2026-12-17T01:00Z",
+   "name": "Oral Roberts Golden Eagles at Oklahoma State Cowboys",
+   "short_name": "ORU @ OKST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-12-16-2026--sports-ncaa-basketball/production/7457400?wsUser=717",
+    "low": 15.0
+   },
+   "venue": "Gallagher-Iba Arena",
+   "venue_city": "Stillwater",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "197",
+    "key": null,
+    "name": "Oklahoma State Cowboys",
+    "abbr": "OKST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928809",
+   "date": "2026-12-18T01:00Z",
+   "name": "Green Bay Phoenix at North Dakota Fighting Hawks",
+   "short_name": "GB @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-12-17-2026--sports-ncaa-basketball/production/7710692?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929388",
+   "date": "2026-12-19T00:00Z",
+   "name": "South Dakota State Jackrabbits at Eastern Kentucky Colonels",
+   "short_name": "SDST @ EKU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-12-18-2026--sports-ncaa-basketball/production/7662713?wsUser=717",
+    "low": 14.0
+   },
+   "venue": "Baptist Health Arena",
+   "venue_city": "Richmond",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "2198",
+    "key": null,
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401919741",
+   "date": "2026-12-19T19:00Z",
+   "name": "Chicago State Cougars at South Dakota Coyotes",
+   "short_name": "CHST @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2130",
+    "key": null,
+    "name": "Chicago State Cougars",
+    "abbr": "CHST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921015",
+   "date": "2026-12-19T20:00Z",
+   "name": "Lindenwood Lions at Kansas City Roos",
+   "short_name": "LIN @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2815",
+    "key": null,
+    "name": "Lindenwood Lions",
+    "abbr": "LIN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917945",
+   "date": "2026-12-20T01:00Z",
+   "name": "Central Arkansas Bears at Oral Roberts Golden Eagles",
+   "short_name": "CARK @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-12-19-2026--sports-ncaa-basketball/production/7529809?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2110",
+    "key": null,
+    "name": "Central Arkansas Bears",
+    "abbr": "CARK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401922026",
+   "date": "2026-12-20T19:00Z",
+   "name": "Idaho State Bengals at North Dakota State Bison",
+   "short_name": "IDST @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "304",
+    "key": null,
+    "name": "Idaho State Bengals",
+    "abbr": "IDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925884",
+   "date": "2026-12-20T23:00Z",
+   "name": "North Dakota Fighting Hawks at Montana State Bobcats",
+   "short_name": "UND @ MTST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/montana-state-bobcats-mens-basketball-tickets-brick-breeden-fieldhouse-12-20-2026--sports-ncaa-basketball/production/7588801?wsUser=717",
+    "low": 32.0
+   },
+   "venue": "Worthington Arena",
+   "venue_city": "Bozeman",
+   "venue_state": "MT",
+   "home": {
+    "espn_id": "147",
+    "key": null,
+    "name": "Montana State Bobcats",
+    "abbr": "MTST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929397",
+   "date": "2026-12-21T00:00Z",
+   "name": "Omaha Mavericks at Kent State Golden Flashes",
+   "short_name": "OMA VS KENT",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Don Haskins Center",
+   "venue_city": "El Paso",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2309",
+    "key": null,
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921016",
+   "date": "2026-12-21T20:00Z",
+   "name": "SIU Edwardsville Cougars at Kansas City Roos",
+   "short_name": "SIUE @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2565",
+    "key": null,
+    "name": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928810",
+   "date": "2026-12-22T01:00Z",
+   "name": "Green Bay Phoenix at South Dakota State Jackrabbits",
+   "short_name": "GB @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-sanford-pentagon-12-21-2026--sports-ncaa-basketball/production/7585591?wsUser=717",
+    "low": 27.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2739",
+    "key": null,
+    "name": "Green Bay Phoenix",
+    "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929402",
+   "date": "2026-12-23T01:00Z",
+   "name": "Central Baptist Mustangs at Oral Roberts Golden Eagles",
+   "short_name": "CNTB @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3079",
+    "key": null,
+    "name": "Central Baptist Mustangs",
+    "abbr": "CNTB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920854",
+   "date": "2026-12-23T01:00Z",
+   "name": "St. Thomas Tommies at Stanford Cardinal",
+   "short_name": "STMN @ STAN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/stanford-cardinal-mens-basketball-tickets-maples-pavilion-12-22-2026--sports-ncaa-basketball/production/7457258?wsUser=717",
+    "low": 10.0
+   },
+   "venue": "Maples Pavilion",
+   "venue_city": "Stanford",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "24",
+    "key": null,
+    "name": "Stanford Cardinal",
+    "abbr": "STAN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401909769",
+   "date": "2026-12-23T02:00Z",
+   "name": "North Dakota Fighting Hawks at Colorado Buffaloes",
+   "short_name": "UND @ COLO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-22-2026--sports-ncaa-basketball/production/7418325?wsUser=717",
+    "low": 18.0
+   },
+   "venue": "CU Events Center",
+   "venue_city": "Boulder",
+   "venue_state": "CO",
+   "home": {
+    "espn_id": "38",
+    "key": null,
+    "name": "Colorado Buffaloes",
+    "abbr": "COLO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920303",
+   "date": "2026-12-23T03:00Z",
+   "name": "North Dakota State Bison at Cal State Northridge Matadors",
+   "short_name": "NDSU @ CSUN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Premier America Credit Union Arena",
+   "venue_city": "Northridge",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2463",
+    "key": null,
+    "name": "Cal State Northridge Matadors",
+    "abbr": "CSUN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401909806",
+   "date": "2026-12-30T01:00Z",
+   "name": "Omaha Mavericks at Kansas State Wildcats",
+   "short_name": "OMA @ KSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/kansas-state-wildcats-mens-basketball-tickets-bramlage-coliseum-12-28-2026--sports-ncaa-basketball/production/7349651?wsUser=717",
+    "low": 14.0
+   },
+   "venue": "Bramlage Coliseum",
+   "venue_city": "Manhattan",
+   "venue_state": "KS",
+   "home": {
+    "espn_id": "2306",
+    "key": null,
+    "name": "Kansas State Wildcats",
+    "abbr": "KSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401919055",
+   "date": "2026-12-30T01:00Z",
+   "name": "Oral Roberts Golden Eagles at TCU Horned Frogs",
+   "short_name": "ORU @ TCU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/tcu-horned-frogs-mens-basketball-tickets-schollmaier-arena-12-29-2026--sports-ncaa-basketball/production/7621970?wsUser=717",
+    "low": 20.0
+   },
+   "venue": "Schollmaier Arena",
+   "venue_city": "Fort Worth",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2628",
+    "key": null,
+    "name": "TCU Horned Frogs",
+    "abbr": "TCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920731",
+   "date": "2026-12-30T01:30Z",
+   "name": "South Dakota Coyotes at Iowa Hawkeyes",
+   "short_name": "SDAK @ IOWA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-12-29-2026--sports-ncaa-basketball/production/7463015?wsUser=717",
+    "low": 13.0
+   },
+   "venue": "Carver-Hawkeye Arena",
+   "venue_city": "Iowa City",
+   "venue_state": "IA",
+   "home": {
+    "espn_id": "2294",
+    "key": null,
+    "name": "Iowa Hawkeyes",
+    "abbr": "IOWA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911464",
+   "date": "2026-12-30T03:00Z",
+   "name": "South Dakota State Jackrabbits at Nevada Wolf Pack",
+   "short_name": "SDST @ NEV",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-29-2026--sports-ncaa-basketball/production/7459092?wsUser=717",
+    "low": 21.0
+   },
+   "venue": "Lawlor Events Center",
+   "venue_city": "Reno",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2440",
+    "key": null,
+    "name": "Nevada Wolf Pack",
+    "abbr": "NEV",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921017",
+   "date": "2026-12-31T01:30Z",
+   "name": "Lincoln (MO) Blue Tigers at Kansas City Roos",
+   "short_name": "LNMO @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2876",
+    "key": null,
+    "name": "Lincoln (MO) Blue Tigers",
+    "abbr": "LNMO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929414",
+   "date": "2026-12-31T02:00Z",
+   "name": "Minnesota Morris Cougars at North Dakota Fighting Hawks",
+   "short_name": "MNMO @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-womens-basketball-tickets-betty-engelstad-sioux-center-12-30-2026/production/7709101?wsUser=717",
+    "low": 26.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2399",
+    "key": null,
+    "name": "Minnesota Morris Cougars",
+    "abbr": "MNMO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929393",
+   "date": "2026-12-31T19:00Z",
+   "name": "Concordia (NE) Clippers at North Dakota State Bison",
+   "short_name": "CUNE @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "507",
+    "key": null,
+    "name": "Concordia (NE) Clippers",
+    "abbr": "CUNE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929398",
+   "date": "2026-12-31T19:00Z",
+   "name": "Park University Gilbert Buccaneers at Omaha Mavericks",
+   "short_name": "PUGB @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-31-2026--sports-ncaa-basketball/production/7656484?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123350",
+    "key": null,
+    "name": "Park University Gilbert Buccaneers",
+    "abbr": "PUGB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921018",
+   "date": "2027-01-02T20:00Z",
+   "name": "Spurgeon Knights at Kansas City Roos",
+   "short_name": "SPGN @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "125330",
+    "key": null,
+    "name": "Spurgeon Knights",
+    "abbr": "SPGN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920855",
+   "date": "2027-01-02T20:00Z",
+   "name": "St. Olaf Oles at St. Thomas Tommies",
+   "short_name": "OLAF @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-2-2027--sports-ncaa-basketball/production/7710784?wsUser=717",
+    "low": 40.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "133",
+    "key": null,
+    "name": "St. Olaf Oles",
+    "abbr": "OLAF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929408",
+   "date": "2027-01-02T22:00Z",
+   "name": "Ozark Christian Ambassadors at South Dakota Coyotes",
+   "short_name": "OCC @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "127162",
+    "key": null,
+    "name": "Ozark Christian Ambassadors",
+    "abbr": "OCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929436",
+   "date": "2027-01-02T22:30Z",
+   "name": "Dakota Wesleyan Tigers at South Dakota State Jackrabbits",
+   "short_name": "DWU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-1-2-2027--sports-ncaa-basketball/production/7589436?wsUser=717",
+    "low": 39.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "513",
+    "key": null,
+    "name": "Dakota Wesleyan Tigers",
+    "abbr": "DWU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401924917",
+   "date": "2027-01-03T01:00Z",
+   "name": "North Dakota Fighting Hawks at UNLV Rebels",
+   "short_name": "UND @ UNLV",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-2-2027--sports-ncaa-basketball/production/7419583?wsUser=717",
+    "low": 17.0
+   },
+   "venue": "Thomas & Mack Center",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2439",
+    "key": null,
+    "name": "UNLV Rebels",
+    "abbr": "UNLV",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929403",
+   "date": "2027-01-03T01:00Z",
+   "name": "Oklahoma Panhandle PANHANDLE ST at Oral Roberts Golden Eagles",
+   "short_name": "OPSU @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-1-2-2027--sports-ncaa-basketball/production/7529666?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2824",
+    "key": null,
+    "name": "Oklahoma Panhandle PANHANDLE ST",
+    "abbr": "OPSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905700",
+   "date": "2027-01-08T01:00Z",
+   "name": "South Dakota State Jackrabbits at Kansas City Roos",
+   "short_name": "SDST @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905697",
+   "date": "2027-01-08T01:00Z",
+   "name": "North Dakota Fighting Hawks at Omaha Mavericks",
+   "short_name": "UND @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-1-7-2027--sports-ncaa-basketball/production/7649862?wsUser=717",
+    "low": 24.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905698",
+   "date": "2027-01-08T01:00Z",
+   "name": "North Dakota State Bison at St. Thomas Tommies",
+   "short_name": "NDSU @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-7-2027--sports-ncaa-basketball/production/7710786?wsUser=717",
+    "low": 51.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905699",
+   "date": "2027-01-08T01:00Z",
+   "name": "South Dakota Coyotes at Oral Roberts Golden Eagles",
+   "short_name": "SDAK @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-1-7-2027--sports-ncaa-basketball/production/7529668?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905701",
+   "date": "2027-01-09T19:00Z",
+   "name": "North Dakota State Bison at Omaha Mavericks",
+   "short_name": "NDSU @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-1-9-2027--sports-ncaa-basketball/production/7656492?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905702",
+   "date": "2027-01-09T20:00Z",
+   "name": "South Dakota Coyotes at Kansas City Roos",
+   "short_name": "SDAK @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905703",
+   "date": "2027-01-10T01:00Z",
+   "name": "South Dakota State Jackrabbits at Oral Roberts Golden Eagles",
+   "short_name": "SDST @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905704",
+   "date": "2027-01-10T19:00Z",
+   "name": "North Dakota Fighting Hawks at St. Thomas Tommies",
+   "short_name": "UND @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-10-2027--sports-ncaa-basketball/production/7710788?wsUser=717",
+    "low": 45.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905706",
+   "date": "2027-01-15T01:00Z",
+   "name": "Kansas City Roos at North Dakota State Bison",
+   "short_name": "KC @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-1-14-2027--sports-ncaa-basketball/production/7369371?wsUser=717",
+    "low": 53.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905705",
+   "date": "2027-01-15T01:00Z",
+   "name": "Oral Roberts Golden Eagles at North Dakota Fighting Hawks",
+   "short_name": "ORU @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-1-14-2027--sports-ncaa-basketball/production/7705399?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905709",
+   "date": "2027-01-16T01:00Z",
+   "name": "South Dakota State Jackrabbits at South Dakota Coyotes",
+   "short_name": "SDST @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-coyote-sports-center-1-15-2027--sports-ncaa-basketball/production/7791562?wsUser=717",
+    "low": 59.0
+   },
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905707",
+   "date": "2027-01-16T19:00Z",
+   "name": "Kansas City Roos at North Dakota Fighting Hawks",
+   "short_name": "KC @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-1-16-2027--sports-ncaa-basketball/production/7705403?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905708",
+   "date": "2027-01-16T19:00Z",
+   "name": "Oral Roberts Golden Eagles at North Dakota State Bison",
+   "short_name": "ORU @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-1-16-2027--sports-ncaa-basketball/production/7369373?wsUser=717",
+    "low": 53.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905710",
+   "date": "2027-01-17T00:00Z",
+   "name": "Omaha Mavericks at St. Thomas Tommies",
+   "short_name": "OMA @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-16-2027--sports-ncaa-basketball/production/7710792?wsUser=717",
+    "low": 42.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905714",
+   "date": "2027-01-22T01:00Z",
+   "name": "Omaha Mavericks at Kansas City Roos",
+   "short_name": "OMA @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905711",
+   "date": "2027-01-22T01:00Z",
+   "name": "North Dakota Fighting Hawks at South Dakota Coyotes",
+   "short_name": "UND @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905712",
+   "date": "2027-01-22T01:00Z",
+   "name": "North Dakota State Bison at South Dakota State Jackrabbits",
+   "short_name": "NDSU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-1-21-2027--sports-ncaa-basketball/production/7403495?wsUser=717",
+    "low": 168.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905713",
+   "date": "2027-01-22T01:00Z",
+   "name": "St. Thomas Tommies at Oral Roberts Golden Eagles",
+   "short_name": "STMN @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-1-21-2027--sports-ncaa-basketball/production/7529670?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905716",
+   "date": "2027-01-23T19:00Z",
+   "name": "North Dakota State Bison at South Dakota Coyotes",
+   "short_name": "NDSU @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905715",
+   "date": "2027-01-23T20:00Z",
+   "name": "North Dakota Fighting Hawks at South Dakota State Jackrabbits",
+   "short_name": "UND @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-1-23-2027--sports-ncaa-basketball/production/7403503?wsUser=717",
+    "low": 47.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905717",
+   "date": "2027-01-24T01:00Z",
+   "name": "St. Thomas Tommies at Kansas City Roos",
+   "short_name": "STMN @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905718",
+   "date": "2027-01-24T01:00Z",
+   "name": "Omaha Mavericks at Oral Roberts Golden Eagles",
+   "short_name": "OMA @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-1-23-2027--sports-ncaa-basketball/production/7529795?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905719",
+   "date": "2027-01-29T01:00Z",
+   "name": "South Dakota Coyotes at Omaha Mavericks",
+   "short_name": "SDAK @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-1-28-2027--sports-ncaa-basketball/production/7656494?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905720",
+   "date": "2027-01-29T01:00Z",
+   "name": "South Dakota State Jackrabbits at St. Thomas Tommies",
+   "short_name": "SDST @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-28-2027--sports-ncaa-basketball/production/7710794?wsUser=717",
+    "low": 51.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905721",
+   "date": "2027-01-30T02:00Z",
+   "name": "North Dakota State Bison at North Dakota Fighting Hawks",
+   "short_name": "NDSU @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-1-29-2027--sports-ncaa-basketball/production/7710680?wsUser=717",
+    "low": 43.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905722",
+   "date": "2027-01-31T00:00Z",
+   "name": "South Dakota Coyotes at St. Thomas Tommies",
+   "short_name": "SDAK @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-1-30-2027--sports-ncaa-basketball/production/7710796?wsUser=717",
+    "low": 46.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905723",
+   "date": "2027-01-31T01:00Z",
+   "name": "Oral Roberts Golden Eagles at Kansas City Roos",
+   "short_name": "ORU @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905724",
+   "date": "2027-01-31T19:00Z",
+   "name": "South Dakota State Jackrabbits at Omaha Mavericks",
+   "short_name": "SDST @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-1-31-2027--sports-ncaa-basketball/production/7656496?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905727",
+   "date": "2027-02-05T01:00Z",
+   "name": "Kansas City Roos at South Dakota Coyotes",
+   "short_name": "KC @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905725",
+   "date": "2027-02-05T01:00Z",
+   "name": "St. Thomas Tommies at North Dakota Fighting Hawks",
+   "short_name": "STMN @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-2-4-2027--sports-ncaa-basketball/production/7705405?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905726",
+   "date": "2027-02-05T01:00Z",
+   "name": "Omaha Mavericks at North Dakota State Bison",
+   "short_name": "OMA @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-2-4-2027--sports-ncaa-basketball/production/7369376?wsUser=717",
+    "low": 36.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905728",
+   "date": "2027-02-05T01:00Z",
+   "name": "Oral Roberts Golden Eagles at South Dakota State Jackrabbits",
+   "short_name": "ORU @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-2-4-2027--sports-ncaa-basketball/production/7403523?wsUser=717",
+    "low": 39.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905729",
+   "date": "2027-02-06T19:00Z",
+   "name": "Omaha Mavericks at North Dakota Fighting Hawks",
+   "short_name": "OMA @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-2-6-2027--sports-ncaa-basketball/production/7705533?wsUser=717",
+    "low": 26.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905730",
+   "date": "2027-02-06T19:00Z",
+   "name": "St. Thomas Tommies at North Dakota State Bison",
+   "short_name": "STMN @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-2-6-2027--sports-ncaa-basketball/production/7369378?wsUser=717",
+    "low": 53.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905731",
+   "date": "2027-02-06T19:00Z",
+   "name": "Oral Roberts Golden Eagles at South Dakota Coyotes",
+   "short_name": "ORU @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905732",
+   "date": "2027-02-06T20:00Z",
+   "name": "Kansas City Roos at South Dakota State Jackrabbits",
+   "short_name": "KC @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-2-6-2027--sports-ncaa-basketball/production/7403525?wsUser=717",
+    "low": 113.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905733",
+   "date": "2027-02-12T01:00Z",
+   "name": "North Dakota Fighting Hawks at Kansas City Roos",
+   "short_name": "UND @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905734",
+   "date": "2027-02-12T01:00Z",
+   "name": "North Dakota State Bison at Oral Roberts Golden Eagles",
+   "short_name": "NDSU @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-2-11-2027--sports-ncaa-basketball/production/7529797?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905737",
+   "date": "2027-02-13T19:00Z",
+   "name": "South Dakota Coyotes at South Dakota State Jackrabbits",
+   "short_name": "SDAK @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-2-13-2027--sports-ncaa-basketball/production/7403526?wsUser=717",
+    "low": 55.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905736",
+   "date": "2027-02-13T20:00Z",
+   "name": "North Dakota State Bison at Kansas City Roos",
+   "short_name": "NDSU @ KC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Swinney Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905735",
+   "date": "2027-02-14T01:00Z",
+   "name": "North Dakota Fighting Hawks at Oral Roberts Golden Eagles",
+   "short_name": "UND @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-2-13-2027--sports-ncaa-basketball/production/7529799?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905738",
+   "date": "2027-02-14T01:00Z",
+   "name": "St. Thomas Tommies at Omaha Mavericks",
+   "short_name": "STMN @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-2-13-2027--sports-ncaa-basketball/production/7649864?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905741",
+   "date": "2027-02-19T01:00Z",
+   "name": "Kansas City Roos at St. Thomas Tommies",
+   "short_name": "KC @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-2-18-2027--sports-ncaa-basketball/production/7710798?wsUser=717",
+    "low": 42.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905739",
+   "date": "2027-02-19T01:00Z",
+   "name": "South Dakota State Jackrabbits at North Dakota Fighting Hawks",
+   "short_name": "SDST @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-2-18-2027--sports-ncaa-basketball/production/7705536?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905740",
+   "date": "2027-02-19T01:00Z",
+   "name": "South Dakota Coyotes at North Dakota State Bison",
+   "short_name": "SDAK @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-2-18-2027--sports-ncaa-basketball/production/7369380?wsUser=717",
+    "low": 63.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905742",
+   "date": "2027-02-19T01:00Z",
+   "name": "Oral Roberts Golden Eagles at Omaha Mavericks",
+   "short_name": "ORU @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-2-18-2027--sports-ncaa-basketball/production/7656504?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905743",
+   "date": "2027-02-20T19:00Z",
+   "name": "South Dakota Coyotes at North Dakota Fighting Hawks",
+   "short_name": "SDAK @ UND",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-2-20-2027--sports-ncaa-basketball/production/7705538?wsUser=717",
+    "low": 26.0
+   },
+   "venue": "Betty Engelstad Sioux Center",
+   "venue_city": "Grand Forks",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905744",
+   "date": "2027-02-20T19:00Z",
+   "name": "South Dakota State Jackrabbits at North Dakota State Bison",
+   "short_name": "SDST @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-2-20-2027--sports-ncaa-basketball/production/7369382?wsUser=717",
+    "low": 62.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905746",
+   "date": "2027-02-21T19:00Z",
+   "name": "Kansas City Roos at Omaha Mavericks",
+   "short_name": "KC @ OMA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-2-21-2027--sports-ncaa-basketball/production/7649866?wsUser=717",
+    "low": 22.0
+   },
+   "venue": "Baxter Arena",
+   "venue_city": "Omaha",
+   "venue_state": "NE",
+   "home": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905745",
+   "date": "2027-02-21T21:00Z",
+   "name": "Oral Roberts Golden Eagles at St. Thomas Tommies",
+   "short_name": "ORU @ STMN",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-2-21-2027--sports-ncaa-basketball/production/7710800?wsUser=717",
+    "low": 42.0
+   },
+   "venue": "Lee & Penny Anderson Arena",
+   "venue_city": "Saint Paul",
+   "venue_state": "MN",
+   "home": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905748",
+   "date": "2027-02-26T01:00Z",
+   "name": "Omaha Mavericks at South Dakota State Jackrabbits",
+   "short_name": "OMA @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-2-25-2027--sports-ncaa-basketball/production/7403528?wsUser=717",
+    "low": 40.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905747",
+   "date": "2027-02-26T01:00Z",
+   "name": "St. Thomas Tommies at South Dakota Coyotes",
+   "short_name": "STMN @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905750",
+   "date": "2027-02-27T19:00Z",
+   "name": "Omaha Mavericks at South Dakota Coyotes",
+   "short_name": "OMA @ SDAK",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Sanford Coyote Sports Center",
+   "venue_city": "Vermillion",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "233",
+    "key": "south-dakota",
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905751",
+   "date": "2027-02-27T20:00Z",
+   "name": "St. Thomas Tommies at South Dakota State Jackrabbits",
+   "short_name": "STMN @ SDST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-2-27-2027--sports-ncaa-basketball/production/7403530?wsUser=717",
+    "low": 113.0
+   },
+   "venue": "First Bank & Trust Arena",
+   "venue_city": "Brookings",
+   "venue_state": "SD",
+   "home": {
+    "espn_id": "2571",
+    "key": "south-dakota-state",
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905752",
+   "date": "2027-02-28T01:00Z",
+   "name": "Kansas City Roos at Oral Roberts Golden Eagles",
+   "short_name": "KC @ ORU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-2-27-2027--sports-ncaa-basketball/production/7529801?wsUser=717",
+    "low": 25.0
+   },
+   "venue": "Mabee Center",
+   "venue_city": "Tulsa",
+   "venue_state": "OK",
+   "home": {
+    "espn_id": "198",
+    "key": "oral-roberts",
+    "name": "Oral Roberts Golden Eagles",
+    "abbr": "ORU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "140",
+    "key": "kansas-city",
+    "name": "Kansas City Roos",
+    "abbr": "KC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401905749",
+   "date": "2027-02-28T01:00Z",
+   "name": "North Dakota Fighting Hawks at North Dakota State Bison",
+   "short_name": "UND @ NDSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-2-27-2027--sports-ncaa-basketball/production/7369384?wsUser=717",
+    "low": 47.0
+   },
+   "venue": "Scheels Center",
+   "venue_city": "Fargo",
+   "venue_state": "ND",
+   "home": {
+    "espn_id": "2449",
+    "key": "north-dakota-state",
+    "name": "North Dakota State Bison",
+    "abbr": "NDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:27:16+00:00",
+ "fetched_at": "2026-11-15T21:05:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2036,7 +2036,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2044,13 +2044,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 46,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "0:45 - 2nd"
   },
   {
    "game_id": "401929200",
@@ -2809,7 +2809,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-11-21-2026--sports-ncaa-basketball/production/7707035?wsUser=717",
-    "low": 46.0
+    "low": 31.0
    },
    "venue": "UTSA Convocation Center",
    "venue_city": "San Antonio",
@@ -3623,7 +3623,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 22.0
+    "low": 21.0
    },
    "venue": "Rupp Arena",
    "venue_city": "Lexington",
@@ -4010,7 +4010,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-11-29-2026--sports-ncaa-basketball/production/7854345?wsUser=717",
-    "low": 40.0
+    "low": 32.0
    },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",

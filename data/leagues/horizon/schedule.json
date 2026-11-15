@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:23:28+00:00",
+ "fetched_at": "2026-11-15T21:00:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -2129,10 +2129,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-11-15-2026--sports-ncaa-basketball/production/7638682?wsUser=717",
-    "low": 38.0
-   },
+   "tickets": null,
    "venue": "UPMC Events Center",
    "venue_city": "Moon Township",
    "venue_state": "PA",
@@ -2141,21 +2138,21 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "424",
     "key": null,
     "name": "Capital Crusaders",
     "abbr": "CAPU",
-    "score": null,
-    "winner": null
+    "score": 45,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "14:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921168",
@@ -2182,7 +2179,7 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2190,13 +2187,13 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:26 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926068",
@@ -2223,7 +2220,7 @@
     "key": null,
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2231,13 +2228,13 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "14:21 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401909544",
@@ -3668,7 +3665,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-11-25-2026--sports-ncaa-basketball/production/7854331?wsUser=717",
-    "low": 40.0
+    "low": 32.0
    },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",

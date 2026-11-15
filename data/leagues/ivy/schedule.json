@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:28:25+00:00",
+ "fetched_at": "2026-11-15T21:06:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -1519,7 +1519,7 @@
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "20:00 - 2nd"
+   "detail": "6:32 - 2nd"
   },
   {
    "game_id": "401924744",
@@ -1537,10 +1537,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/yale-bulldogs-mens-basketball-tickets-payne-whitney-gymnasium-11-15-2026--sports-ncaa-basketball/production/7641057?wsUser=717",
-    "low": 16.0
-   },
+   "tickets": null,
    "venue": "John J. Lee Amphitheater",
    "venue_city": "New Haven",
    "venue_state": "CT",
@@ -1549,21 +1546,21 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
-    "winner": null
+    "score": 103,
+    "winner": true
    },
    "away": {
     "espn_id": "2211",
     "key": null,
     "name": "Emmanuel (MA) Lions",
     "abbr": "ECMA",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "15:17 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921182",

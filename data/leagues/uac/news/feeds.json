@@ -1,0 +1,104 @@
+{
+ "google:abilene-christian": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "entries": 2,
+  "error": null,
+  "fallback": false,
+  "kept": 0,
+  "kind": "google",
+  "last_ok": "2026-11-15T21:10:15+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "abilene-christian",
+  "url": "https://news.google.com/rss/search?q=%22Abilene+Christian+Wildcats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Abilene+Christian+Wildcats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:austin-peay": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "austin-peay",
+  "url": "https://news.google.com/rss/search?q=%22Austin+Peay+Governors+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:central-arkansas": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "central-arkansas",
+  "url": "https://news.google.com/rss/search?q=%22Central+Arkansas+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:eastern-kentucky": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "eastern-kentucky",
+  "url": "https://news.google.com/rss/search?q=%22Eastern+Kentucky+Colonels+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:little-rock": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "little-rock",
+  "url": "https://news.google.com/rss/search?q=%22Little+Rock+Trojans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:north-alabama": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "north-alabama",
+  "url": "https://news.google.com/rss/search?q=%22North+Alabama+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:tarleton-state": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "tarleton-state",
+  "url": "https://news.google.com/rss/search?q=%22Tarleton+State+Texans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:ut-arlington": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "ut-arlington",
+  "url": "https://news.google.com/rss/search?q=%22UT+Arlington+Mavericks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:west-georgia": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "west-georgia",
+  "url": "https://news.google.com/rss/search?q=%22West+Georgia+Wolves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:uac": {
+  "checked_at": "2026-11-15T21:10:15+00:00",
+  "entries": 10,
+  "error": null,
+  "fallback": false,
+  "kept": 10,
+  "kind": "league",
+  "last_ok": "2026-11-15T21:10:15+00:00",
+  "ok": true,
+  "source": "UAC (uacsports.com)",
+  "team": null,
+  "url": "https://uacsports.com/rss.aspx?path=mbball",
+  "used": "https://uacsports.com/rss.aspx?path=mbball",
+  "via_google": false
+ }
+}
