@@ -1,0 +1,1757 @@
+{
+ "_help": "Atlantic 10 local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "davidson": {
+   "town": "Davidson",
+   "home_floor": "Belk Arena",
+   "home_lines": [
+    {
+     "text": "Belk Arena opened on November 12, 1989, and serves as the centerpiece of the Baker Sports Complex on the Davidson College campus.",
+     "source": "https://en.wikipedia.org/wiki/John_M._Belk_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Davidson's Belk Arena is named for alumnus and benefactor John M. Belk, a member of the Davidson College class of 1943.",
+     "source": "https://en.wikipedia.org/wiki/John_M._Belk_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Belk Arena in Davidson has hosted more than basketball: Bob Dylan played the building on May 2, 2006, during his North American tour.",
+     "source": "https://en.wikipedia.org/wiki/John_M._Belk_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The town of Davidson was founded in 1837 along with Davidson College, and it was called Davidson College until the name was shortened in 1891.",
+     "source": "https://en.wikipedia.org/wiki/Davidson,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The western edge of Davidson follows the shoreline of Lake Norman, and a portion of the town extends north from Mecklenburg into Iredell County.",
+     "source": "https://en.wikipedia.org/wiki/Davidson,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "After the railroad arrived, Davidson became a shipping point for cotton, and the Linden Cotton Factory, built in 1890 on Depot Street, was the town's first textile plant.",
+     "source": "https://en.wikipedia.org/wiki/Davidson,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Davidson's smart growth principles include a pedestrian orientation that led to a ban on drive-thrus, and the town's historic core became a National Register district in 2009.",
+     "source": "https://en.wikipedia.org/wiki/Davidson,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lake Norman, whose lakeside settlements include Davidson, was created between 1959 and 1964 by Duke Energy's Cowans Ford Dam and is named for former Duke Power president Norman Atwater Cocke.",
+     "source": "https://en.wikipedia.org/wiki/Lake_Norman",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Davidson College was founded in 1837 by the Concord Presbytery and named for General William Lee Davidson, killed at the nearby Battle of Cowan's Ford.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Davidson College students sign an honor code at the start of their first year, a pledge tied to the school's self-scheduled, unproctored final exams.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Chambers Building, the principal academic building at the center of the Davidson campus, burned on November 28, 1921, and its replacement was dedicated in 1930.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Under Lefty Driesell in the 1960s, Davidson basketball put together seven 20-win seasons in an eight-year span.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Davidson reached the NCAA Elite Eight in both 1968 and 1969, losing to North Carolina each time, 70-66 and then 87-85.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In 2008 Davidson beat Gonzaga, Georgetown and Wisconsin to reach the Elite Eight, where Stephen Curry's team lost 59-57 to eventual champion Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Davidson joined the Atlantic 10 Conference for the 2014-15 season, and Matt McKillop later succeeded his father Bob as coach after the 2021-22 season.",
+     "source": "https://en.wikipedia.org/wiki/Davidson_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Matt McKillop is the head men's basketball coach at Davidson College as the Wildcats assemble their roster for the 2026-27 season.",
+     "source": "https://davidsonwildcats.com/news/2026/6/2/mens-basketball-davidson-adds-seven-scholar-athletes-to-2026-27-roster",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "dayton": {
+   "town": "Dayton",
+   "home_floor": "UD Arena",
+   "home_lines": [
+    {
+     "text": "UD Arena, home of the Dayton Flyers, opened on December 6, 1969, and was built for approximately $4.5 million.",
+     "source": "https://en.wikipedia.org/wiki/UD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Dayton's UD Arena has hosted more men's NCAA Division I tournament games than any other venue in the country.",
+     "source": "https://en.wikipedia.org/wiki/UD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UD Arena in Dayton has hosted the NCAA First Four every year since 2011, with exceptions only in 2020 and 2021.",
+     "source": "https://en.wikipedia.org/wiki/UD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "For the 2021-22 season, every Dayton men's basketball game at UD Arena was sold out before the season began.",
+     "source": "https://en.wikipedia.org/wiki/UD_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Dayton was founded on April 1, 1796, by 12 settlers known as the Thompson Party along the Great Miami River, and it was named for Jonathan Dayton.",
+     "source": "https://en.wikipedia.org/wiki/Dayton,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Great Dayton Flood of March 1913 led to the creation of the Miami Conservancy District and its system of dams and pumps.",
+     "source": "https://en.wikipedia.org/wiki/Dayton,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1890 the city of Dayton, Ohio, had granted more patents per capita than any other city in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Dayton,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The talks that produced the Dayton Peace Accords, ending the war in Bosnia and Herzegovina, were held at Wright-Patterson Air Force Base in November 1995.",
+     "source": "https://en.wikipedia.org/wiki/Dayton,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Dayton-style pizza has a thin, crisp, salty crust with cornmeal on the bottom and is cut into bite-size squares.",
+     "source": "https://en.wikipedia.org/wiki/Dayton,_Ohio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Dayton was founded in 1850 by the Society of Mary as St. Mary's School for Boys, and it took its present name in 1920.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Dayton",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Dayton's Flyers nickname is a tribute to the Wright Brothers, and the mascot Rudy Flyer is a pun on the initials U.D.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Dayton",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Since 1964, University of Dayton students have hosted about 1,000 local schoolchildren each year, usually on December 8, the Feast of the Immaculate Conception.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Dayton",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Dayton reached the 1967 NCAA championship game, falling 79-64 to top-ranked UCLA in the final.",
+     "source": "https://en.wikipedia.org/wiki/Dayton_Flyers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dayton has won the National Invitation Tournament three times, in 1962, 1968 and 2010, the first of those titles under coach Tom Blackburn.",
+     "source": "https://en.wikipedia.org/wiki/Dayton_Flyers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dayton's 2019-20 team went 29-2 and 18-0 in the Atlantic 10 before the 2020 NCAA tournament was canceled on March 12, 2020.",
+     "source": "https://en.wikipedia.org/wiki/Dayton_Flyers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dayton reached the 2014 South Regional final as an Elite Eight team before falling to Florida, 62-52.",
+     "source": "https://en.wikipedia.org/wiki/Dayton_Flyers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Anthony Grant is the University of Dayton's head men's basketball coach as the Flyers prepare for the 2026-27 season.",
+     "source": "https://daytonflyers.com/news/2026/5/29/mens-basketball-mens-hoops-adds-deneen-elevates-napier-for-2026-27.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "duquesne": {
+   "town": "Pittsburgh",
+   "home_floor": "UPMC Cooper Fieldhouse",
+   "home_lines": [
+    {
+     "text": "Duquesne's UPMC Cooper Fieldhouse opened in 1988 as the A.J. Palumbo Center, which drew Tom Petty, Stevie Wonder and Elvis Costello as a mid-sized concert venue.",
+     "source": "https://en.wikipedia.org/wiki/UPMC_Cooper_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $45 million renovation and expansion of Duquesne's Palumbo Center began in March 2019, and the rebuilt fieldhouse opened on February 2, 2021.",
+     "source": "https://en.wikipedia.org/wiki/UPMC_Cooper_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UPMC Cooper Fieldhouse at 600 Forbes Avenue in Pittsburgh has 3,500 permanent seats, with standing areas that push Duquesne crowds above 4,200.",
+     "source": "https://en.wikipedia.org/wiki/UPMC_Cooper_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Duquesne's fieldhouse is named for alumnus Chuck Cooper, the Basketball Hall of Famer who was the first African American selected in an NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/UPMC_Cooper_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Duquesne's neighborhood, Uptown Pittsburgh, is also called the Bluff, and it was once known as Soho, after English emigre James Tustin's estate, and as Boyd's Hill.",
+     "source": "https://en.wikipedia.org/wiki/Bluff_(Pittsburgh)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Bluff was part of Pitt Township until Pittsburgh annexed it in 1846, after an 1845 fire destroyed 56 acres and 1,000 buildings.",
+     "source": "https://en.wikipedia.org/wiki/Bluff_(Pittsburgh)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "A 170-step city staircase connects Bluff Street to Second Avenue in Uptown Pittsburgh, the neighborhood Duquesne shares with Mercy Hospital and brick rowhouses.",
+     "source": "https://en.wikipedia.org/wiki/Bluff_(Pittsburgh)",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pittsburgh was named in 1758 by Scottish General John Forbes in honor of British statesman William Pitt, after Forbes took the forks of the Ohio, site of the French Fort Duquesne.",
+     "source": "https://en.wikipedia.org/wiki/Pittsburgh",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pittsburgh, home of Duquesne University, is sometimes called the City of Bridges for its 446 bridges.",
+     "source": "https://en.wikipedia.org/wiki/Pittsburgh",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Duquesne began on October 1, 1878, as the Pittsburgh Catholic College of the Holy Ghost, opening with 40 students in rented rooms above a bakery on Wylie Avenue.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On May 27, 1911, the Pittsburgh college was renamed Duquesne University of the Holy Ghost, a name honoring Michel-Ange Duquesne de Menneville, an eighteenth-century governor general of New France.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Old Main, Duquesne's five-story administration building on the Bluff in Pittsburgh, was completed in 1885 and remains in use.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Duquesne won the 1955 National Invitation Tournament, beating Louisville, Cincinnati and then Dayton, 70-58, in the final.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_Dukes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Duquesne's 1939-40 team went 20-3 and reached the Final Four of both the NIT and NCAA tournaments, losing to Indiana 39-30 in the NCAA Final Four.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_Dukes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Duquesne's Chuck Cooper became the first African American player selected in an NBA draft when the Boston Celtics took him in 1950.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_Dukes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As an 11 seed in 2024, Duquesne beat sixth-seeded BYU 71-67 for its first NCAA tournament win in 55 years.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_Dukes_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "When the Duquesne Gardens was slated for demolition, neighboring Pitt allowed the Duquesne Dukes to use Fitzgerald Field House for home games.",
+     "source": "https://en.wikipedia.org/wiki/Duquesne_Dukes_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Dru Joyce III enters the 2026-27 season as Duquesne's third-year head men's basketball coach, leading the Dukes from the Bluff.",
+     "source": "https://goduquesne.com/news/2026/8/26/mens-basketball-roster-for-dukes-for-2026-27-set.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "fordham": {
+   "town": "the Bronx",
+   "home_floor": "Rose Hill Gym",
+   "home_lines": [
+    {
+     "text": "Fordham's Rose Hill Gymnasium hosted its first basketball game on January 16, 1925, on the Rose Hill campus in the Bronx and seats 3,200 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/Rose_Hill_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rose Hill Gymnasium earned the nickname The Prairie because it was one of the largest on-campus facilities in the country when Fordham built it.",
+     "source": "https://en.wikipedia.org/wiki/Rose_Hill_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fordham's Rose Hill Gymnasium is the oldest on-campus venue currently used primarily for an NCAA Division I basketball team.",
+     "source": "https://en.wikipedia.org/wiki/Rose_Hill_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Fordham's Rose Hill Gymnasium hosted Lew Alcindor's final high school game, years before he became Kareem Abdul-Jabbar.",
+     "source": "https://en.wikipedia.org/wiki/Rose_Hill_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rose Hill Gymnasium at Fordham is built in Gothic Revival style, with buttresses, a crenellated parapet and walls of rough light field stone.",
+     "source": "https://en.wikipedia.org/wiki/Rose_Hill_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Fordham takes its name from the old village of Fordham in the Bronx, itself named for a shallow crossing of the Bronx River, a ford by the hamlet.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Edgar Allan Poe arrived in the village of Fordham in 1847 and struck up a friendship with the Jesuits at the college in Fordham.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Belmont, the Bronx neighborhood whose northern boundary meets Fordham University on Fordham Road, grew from the Lorillard family's tobacco holdings, which became known as the Belmont Estate.",
+     "source": "https://en.wikipedia.org/wiki/Belmont,_Bronx",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Belmont, beside Fordham University, is widely known as the Little Italy of the Bronx, centered on Arthur Avenue and East 187th Street.",
+     "source": "https://en.wikipedia.org/wiki/Belmont,_Bronx",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Construction of the Bronx Zoo and the Jerome Park Reservoir around the turn of the 20th century drew a large wave of Italian immigrants to Belmont, next to Fordham.",
+     "source": "https://en.wikipedia.org/wiki/Belmont,_Bronx",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fordham was founded as St. John's College by John Hughes, opening on June 24, 1841, with six students, and became Fordham University on March 7, 1907.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fordham's ram mascot dates to a slightly vulgar fan cheer at an 1893 football game against Army, with damn later sanitized to ram.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Fordham replaced magenta with maroon as its color in 1874, choosing maroon because it was not widely used at the time.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1940 Fordham played Pitt at Madison Square Garden in the nation's first televised college basketball game, and the Fordham Rams lost.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fordham has made four NCAA tournament appearances, in 1953, 1954, 1971 and 1992, and the 1971 team reached the Sweet 16.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Digger Phelps coached Fordham for a single season and went 26-3, a winning percentage of .897.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Fordham has retired four numbers: Bob Mullens's 7, Ed Conlin's 11, Charlie Yelverton's 34 and Ken Charles's 44.",
+     "source": "https://en.wikipedia.org/wiki/Fordham_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike Magpayo enters the 2026-27 season, his second at the helm of the program, as Fordham's head men's basketball coach.",
+     "source": "https://fordhamsports.com/news/2026/8/10/mens-basketball-mens-basketball-announces-2026-27-non-conference-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "george-mason": {
+   "town": "Fairfax",
+   "home_floor": "EagleBank Arena",
+   "home_lines": [
+    {
+     "text": "George Mason's EagleBank Arena opened officially on October 4, 1985, with an NBA preseason game between the Washington Bullets and the New York Knicks.",
+     "source": "https://en.wikipedia.org/wiki/EagleBank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "George Mason's arena in Fairfax was called the Patriot Center from 1985 until 2015, when it was renamed EagleBank Arena.",
+     "source": "https://en.wikipedia.org/wiki/EagleBank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "George Mason built its Fairfax arena for $16 million, and the 10,000-seat building received a $10 million renovation completed in 2009.",
+     "source": "https://en.wikipedia.org/wiki/EagleBank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "George Mason's men's basketball attendance record at EagleBank Arena is 9,900, set against Old Dominion on February 4, 2012.",
+     "source": "https://en.wikipedia.org/wiki/EagleBank_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The most points scored by one player in George Mason's EagleBank Arena are 53, by Bobby Aguirre of Macalester College in 1995.",
+     "source": "https://en.wikipedia.org/wiki/EagleBank_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Fairfax began as the Town of Providence, created by the Virginia legislature in 1805 at a crossroads that was already the county's administrative seat.",
+     "source": "https://en.wikipedia.org/wiki/Fairfax,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfax, Virginia, like the county around it, takes its name from Thomas Fairfax, 6th Lord Fairfax of Cameron.",
+     "source": "https://en.wikipedia.org/wiki/Fairfax,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Battle of Fairfax Court House, fought on June 1, 1861, ended indecisively and is described as the first land battle of the Civil War.",
+     "source": "https://en.wikipedia.org/wiki/Fairfax,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "John Quincy Marr, the first Confederate officer battle casualty of the Civil War, fell on the courthouse grounds in Fairfax, Virginia.",
+     "source": "https://en.wikipedia.org/wiki/Fairfax,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fairfax became a city by court order in 1961, separating from Fairfax County under Virginia law while remaining the county seat.",
+     "source": "https://en.wikipedia.org/wiki/Fairfax,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "George Mason University began in 1949 as a University of Virginia extension center for Northern Virginia and became independent under its present name in 1972.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Students at George Mason decorate the George Mason statue for campus events, and some rub its toe for luck.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Each spring, George Mason student organizations compete to paint one of the 38 benches on the Quad in front of Fenwick Library.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "George Mason's first NCAA tournament came in 1989, when the 15th-seeded Patriots lost 99-85 to second-seeded Indiana in the first round.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_Patriots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As an 11 seed in 2006, George Mason beat Michigan State, North Carolina and Wichita State, then top-seeded Connecticut 86-84 in overtime to reach the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_Patriots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "George Mason's 2006 Final Four run, the best finish in program history, ended in the national semifinals with a 73-58 loss to Florida.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason_Patriots_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "George Mason and VCU shared the Colonial Athletic Association from 1995 to 2012 and were reunited in the Atlantic 10 when Mason followed VCU in 2013.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason%E2%80%93VCU_rivalry",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Tony Skinn, a guard on George Mason's 2006 Final Four team, was named the Patriots' head men's basketball coach on March 30, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Tony_Skinn",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "george-washington": {
+   "town": "Washington",
+   "home_floor": "the Smith Center",
+   "home_lines": [
+    {
+     "text": "George Washington's Charles E. Smith Center opened on November 17, 1975, on the Foggy Bottom block bounded by 22nd, 23rd, F and G Streets NW.",
+     "source": "https://en.wikipedia.org/wiki/Charles_E._Smith_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Smith Center is named for Charles E. Smith, a George Washington University trustee who chaired the school's Committee on University Development.",
+     "source": "https://en.wikipedia.org/wiki/Charles_E._Smith_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $43 million update and expansion of George Washington's Smith Center began in February 2008, aided by a $10 million gift from the family of Charles E. Smith.",
+     "source": "https://en.wikipedia.org/wiki/Charles_E._Smith_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "George Washington's 5,000-seat Smith Center served as the temporary home of the Washington Mystics in 2018, when they made a run at a WNBA championship.",
+     "source": "https://en.wikipedia.org/wiki/Charles_E._Smith_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Jumbotron at George Washington's Smith Center collapsed onto the court during maintenance on September 11, 2018, and no one was injured.",
+     "source": "https://en.wikipedia.org/wiki/Charles_E._Smith_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The origin of Foggy Bottom's name is uncertain; it may refer to the neighborhood's swampy southern section or to factory smog along the Potomac.",
+     "source": "https://en.wikipedia.org/wiki/Foggy_Bottom",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jacob Funk laid out the street grid of his Foggy Bottom tract, called Hamburgh, in 1771 and divided it into 234 lots.",
+     "source": "https://en.wikipedia.org/wiki/Foggy_Bottom",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "German immigrant Christian Heurich founded his brewing company in Foggy Bottom in 1872, years after Washington Gas Light began building coal gas works there in 1856.",
+     "source": "https://en.wikipedia.org/wiki/Foggy_Bottom",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Watergate complex in Foggy Bottom, the location of the 1972 Watergate scandal, was built on the land of the neighborhood's old gas tanks.",
+     "source": "https://en.wikipedia.org/wiki/Foggy_Bottom",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Construction of the State Department headquarters in Foggy Bottom began in 1947, and Washington Gas finished dismantling its neighborhood plant in 1954.",
+     "source": "https://en.wikipedia.org/wiki/Foggy_Bottom",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "George Washington University began as Columbian College, whose congressional charter President James Monroe approved on February 9, 1821.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "George Washington retired its Colonials nickname in 2022 and announced Revolutionaries as the replacement in 2023.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The bells atop George Washington's Corcoran Hall toll the 1924 fight song, 'Hail to the Buff and Blue,' twice daily, at 12:15 p.m. and 6:00 p.m.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mike Jarvis took George Washington to the 1993 Sweet Sixteen, where the Colonials lost to Michigan's Fab Five team.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_Colonials_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "George Washington won the 2016 NIT championship with a 76-60 win over Valparaiso, after reaching the NIT final four at Madison Square Garden.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_Colonials_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bill Reinhart coached George Washington in two stints, 1936-42 and 1950-66, and won Southern Conference tournament titles in 1954 and 1961.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_Colonials_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Karl Hobbs led George Washington to three straight NCAA tournaments, in 2005, 2006 and 2007, during a decade as head coach.",
+     "source": "https://en.wikipedia.org/wiki/George_Washington_Colonials_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "George Washington and George Mason compete in the Revolutionary Rivalry, a year-long series between the two athletic departments, begun in 2013-14, for the Tri-Corner Hat Trophy.",
+     "source": "https://gomason.com/sports/2018/9/27/revolutionary-rivalry-george-mason-vs-george-washington.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Chris Caputo enters his fifth season as George Washington's men's basketball head coach in Foggy Bottom in 2026-27.",
+     "source": "https://gwsports.com/news/2026/6/3/mens-basketball-announces-11-newcomers-for-2026-27",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "la-salle": {
+   "town": "Philadelphia",
+   "home_floor": "John Glaser Arena",
+   "home_lines": [
+    {
+     "text": "La Salle's home floor opened as Tom Gola Arena on February 21, 1998, and the Explorers christened it with a 74-64 win over Virginia Tech.",
+     "source": "https://en.wikipedia.org/wiki/John_Glaser_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "La Salle's Tom Gola Arena reopened as John Glaser Arena after 2024 renovations, a project supported by a donation from the estate of John E. Glaser.",
+     "source": "https://en.wikipedia.org/wiki/John_Glaser_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The 2024 renovation of La Salle's John Glaser Arena rotated the court 90 degrees, creating a bowl-style arena with fans seated behind the baskets.",
+     "source": "https://en.wikipedia.org/wiki/John_Glaser_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before its own arena opened in 1998, La Salle played home games at the Palestra, the Philadelphia Civic Center and the First Union Spectrum.",
+     "source": "https://en.wikipedia.org/wiki/John_Glaser_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2021 Adam Sandler used La Salle's arena in Philadelphia, then called Tom Gola Arena, to film the Netflix movie 'Hustle.'",
+     "source": "https://en.wikipedia.org/wiki/John_Glaser_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Philadelphia's Olney neighborhood, which borders La Salle, is named for the estate of Alexander Wilson, who admired the poet William Cowper of Olney, England.",
+     "source": "https://en.wikipedia.org/wiki/Olney,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Olney, the Philadelphia neighborhood around La Salle, was hilly farmland until the late 19th century and was originally settled by German Americans.",
+     "source": "https://en.wikipedia.org/wiki/Olney,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "By 1986 up to 5,000 Koreans lived in Philadelphia's Olney neighborhood, many Korean businesses lined North Fifth Street, and many residents called the area 'Koreatown.'",
+     "source": "https://en.wikipedia.org/wiki/Olney,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Joseph Wharton laid out the 23-acre Fisher Park in Olney and donated it to the city of Philadelphia in 1908 as a 'Christmas gift.'",
+     "source": "https://en.wikipedia.org/wiki/Olney,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Olney's Colney Theatre was built in 1925 with room for almost 2,000 people, then the largest one-floor seating capacity in the world.",
+     "source": "https://en.wikipedia.org/wiki/Olney,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "La Salle College was founded in March 1863 by Brother Teliow and Archbishop James Wood, first at St. Michael's Parish in Philadelphia's Olde Kensington section.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "La Salle's Explorers nickname came from a 1931 sportswriter's mistake, believing the school was named for the explorer Sieur de La Salle; a student contest made it official in spring 1932.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Part of La Salle's campus in Philadelphia sits on Belfield, the former estate of the painter Charles Willson Peale.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "La Salle won the 1954 NCAA championship, beating Bradley 92-76 in the final, with Tom Gola named the tournament's most outstanding player.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_Explorers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "La Salle won the 1952 NIT, beating Dayton 75-64 in the final, two years before its national championship.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_Explorers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "La Salle has had three national players of the year: Tom Gola in 1955, Michael Brooks in 1980 and Lionel Simmons in 1990.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_Explorers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "La Salle has played in the Atlantic 10 since 1995, after stops in the Middle Atlantic, East Coast, Metro Atlantic and Midwestern Collegiate conferences.",
+     "source": "https://en.wikipedia.org/wiki/La_Salle_Explorers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "La Salle and Saint Joseph's were founding members of the Philadelphia Big 5, announced on November 23, 1954, with Penn, Temple and Villanova.",
+     "source": "https://en.wikipedia.org/wiki/Philadelphia_Big_5",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Darris Nichols is the head coach of La Salle men's basketball, listed atop the Explorers' 2026-27 coaching staff in Philadelphia.",
+     "source": "https://goexplorers.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "loyola-chicago": {
+   "town": "Rogers Park",
+   "home_floor": "Gentile Arena",
+   "home_lines": [
+    {
+     "text": "Loyola Chicago's Joseph J. Gentile Arena opened in 1996 and went by the Joseph J. Gentile Center, or simply 'The Joe,' until 2011.",
+     "source": "https://en.wikipedia.org/wiki/Joseph_J._Gentile_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Joe Gentile, whose name is on Loyola Chicago's arena at 6525 N Sheridan Road, was a Chicago-area car dealer who donated money to the university for the building.",
+     "source": "https://en.wikipedia.org/wiki/Joseph_J._Gentile_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Gentile Arena opened in 1996, Loyola Chicago played home games at venues including Chicago Stadium, the International Amphitheatre and the Rosemont Horizon.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Ramblers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The $26 million Norville Center for Intercollegiate Athletics opened beside Loyola Chicago's Gentile Arena on March 3, 2011, and renovations of the arena began that summer.",
+     "source": "https://en.wikipedia.org/wiki/Joseph_J._Gentile_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Rogers Park takes its name from Phillip Rogers, an Irishman who bought about 1,600 acres along Chicago's far North Side lakefront between the 1830s and 1856.",
+     "source": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Rogers Park voters incorporated their community as a village on April 29, 1878, and by 1893, with about 3,500 people, the village was annexed to Chicago.",
+     "source": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Rogers Park sits along Lake Michigan about nine miles north of the Loop, and its Howard Street station is the northernmost CTA rail stop in Chicago.",
+     "source": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Chicago Sun-Times reportedly called Rogers Park the community that most closely matches the ethnic makeup of Chicago as a whole.",
+     "source": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago's Mundelein Center for the Fine and Performing Arts in Rogers Park is one of the tallest Art Deco buildings in Chicago outside downtown.",
+     "source": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jesuit priest Arnold Damen founded Loyola Chicago as St. Ignatius College on June 30, 1870, and the school took the name Loyola University in 1909.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_University_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago's athletic nickname, the Ramblers, was first applied to the school's football team in 1926.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_University_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Madonna della Strada Chapel, an Art Deco building completed in 1939, is the center of religious life at Loyola Chicago.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_University_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago won the 1963 national championship under coach George Ireland, beating two-time defending champion Cincinnati 60-58 in overtime with all five starters playing the entire game.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Ramblers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago beat all-white Mississippi State 61-51 on March 15, 1963, at Jenison Fieldhouse in East Lansing, a meeting remembered as the Game of Change.",
+     "source": "https://en.wikipedia.org/wiki/Game_of_Change",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before the 1963 game against Loyola Chicago, Mississippi State sent its trainer and five reserves to the Starkville airport as decoys while a court injunction sought to block the trip.",
+     "source": "https://en.wikipedia.org/wiki/Game_of_Change",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago's 111-42 first-round win over Tennessee Tech in 1963 set the NCAA tournament record for margin of victory at 69 points.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Ramblers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Loyola Chicago reached the 2018 Final Four as an 11 seed, winning its first three tournament games by a combined four points and beating Kansas State 78-62 in the Elite Eight.",
+     "source": "https://en.wikipedia.org/wiki/Loyola_Ramblers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Drew Valentine was promoted to Loyola Chicago head coach in 2021 at age 29, after serving as the program's coordinator for defense, when Porter Moser left for Oklahoma.",
+     "source": "https://en.wikipedia.org/wiki/Drew_Valentine",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "rhode-island": {
+   "town": "Kingston",
+   "home_floor": "the Ryan Center",
+   "home_lines": [
+    {
+     "text": "The Ryan Center opened on the University of Rhode Island campus in Kingston on June 20, 2002, built at a cost of $54 million.",
+     "source": "https://en.wikipedia.org/wiki/Ryan_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rhode Island's Ryan Center is named for Thomas M. Ryan, a 1975 graduate, former CEO of CVS Pharmacy and the arena's lead benefactor.",
+     "source": "https://en.wikipedia.org/wiki/Ryan_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Rhode Island men christened the Ryan Center in November 2002 with a 73-71 overtime upset of Southern California.",
+     "source": "https://en.wikipedia.org/wiki/Ryan_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A standing-room-only crowd of 8,121 watched the Rhode Island men play second-ranked Pittsburgh at the Ryan Center in 2002.",
+     "source": "https://en.wikipedia.org/wiki/Ryan_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Ryan Center replaced Rhode Island's Keaney Gymnasium, which was built in 1953 for the needs of a much smaller student population.",
+     "source": "https://en.wikipedia.org/wiki/Ryan_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Kingston, Rhode Island, was first settled in the late seventeenth century as Little Rest, and the village took the name Kingston in 1826.",
+     "source": "https://en.wikipedia.org/wiki/Kingston,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Kingston served as the seat of Rhode Island's Washington County, formerly Kings County, from 1752 until a new courthouse went up in West Kingston in 1894.",
+     "source": "https://en.wikipedia.org/wiki/Kingston,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Kings County Court House in Kingston, Rhode Island, now a public library, is where the state last voted against the Constitution in 1790.",
+     "source": "https://en.wikipedia.org/wiki/Kingston,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The preacher Jemima Wilkinson, the Public Universal Friend, lived and preached in Kingston, Rhode Island, from the late 1770s, and as late as the 1900s inhabitants called a solidago 'Jemima weed.'",
+     "source": "https://en.wikipedia.org/wiki/Kingston,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Kingston, Rhode Island, is a village within South Kingstown, and its 2020 census population of 7,825 had a median age of 19.9 years.",
+     "source": "https://en.wikipedia.org/wiki/Kingston,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Rhode Island was first chartered in 1888 as the Rhode Island State Agricultural School, on the site of the Oliver Watson Farm in Kingston.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Rhode_Island",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Rhode Island was renamed Rhode Island State College in 1909 and received its present name from the General Assembly in 1951.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Rhode_Island",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The early buildings of the University of Rhode Island stand around a main quadrangle, built of locally quarried granite, under a 1890s plan by Olmsted, Olmsted and Eliot.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Rhode_Island",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Under coach Frank Keaney, Rhode Island State became the first college team to score more than 50 points per game in 1939.",
+     "source": "https://en.wikipedia.org/wiki/Frank_Keaney",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Frank Keaney's 1943 Rhode Island State team averaged 80.7 points per game, more than two points a minute, and was dubbed 'The Firehouse Gang.'",
+     "source": "https://en.wikipedia.org/wiki/Frank_Keaney",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Frank Keaney coached Rhode Island State basketball from 1920 to 1948, finished 401-124 and entered the Basketball Hall of Fame in 1960.",
+     "source": "https://en.wikipedia.org/wiki/Frank_Keaney",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rhode Island, an 8 seed, lost the 1998 Elite Eight to Stanford 79-77, one game short of what would have been its first Final Four.",
+     "source": "https://en.wikipedia.org/wiki/Rhode_Island_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Archie Miller, formerly head coach at Dayton and Indiana, reached a deal to become Rhode Island's head coach on March 18, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Archie_Miller_(basketball)",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "richmond": {
+   "town": "Richmond",
+   "home_floor": "the Robins Center",
+   "home_lines": [
+    {
+     "text": "The University of Richmond's Robins Center opened on December 2, 1972, at a cost of $12 million, named for E. Claiborne Robins Sr. of the class of 1931.",
+     "source": "https://en.wikipedia.org/wiki/Robins_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A renovation of Richmond's Robins Center, finished in January 2014, added four corner video boards and a new floor and cut seating from 9,071 to about 7,201.",
+     "source": "https://en.wikipedia.org/wiki/Robins_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Richmond's Robins Center hosted a 1992 presidential debate among Bill Clinton, George H. W. Bush and Ross Perot.",
+     "source": "https://en.wikipedia.org/wiki/Robins_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2015 the floor at Richmond's Robins Center was renamed Dick Tarrant Court for the school's all-time winningest coach.",
+     "source": "https://en.wikipedia.org/wiki/Robins_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "In 1737 William Byrd II had Major William Mayo lay out Richmond's town grid, and Byrd named the city for Richmond on the Thames because the James River's bend reminded him of home.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Patrick Henry delivered his 'Give me liberty or give me death' speech at St. John's Church in Richmond in 1775.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Confederate troops exploded Richmond's gunpowder magazine on April 3, 1865, during the evacuation, and fires destroyed about 25 percent of the city's buildings before Union troops contained them.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tobacco warehousing and processing played a central role in the economy of Richmond, Virginia, the state capital at the fall line of the James River.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Richmond's Hollywood Cemetery is the burial place of two U.S. presidents and many Civil War officers and soldiers.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Richmond traces its history to a meeting of the Baptist General Association of Virginia on June 8, 1830.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Richmond",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Richmond's Spiders nickname dates to 1894, when a local reporter likened pitcher Henry Ellyson's long arms and wind-up to a spider's.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Richmond",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1914 the University of Richmond moved to a new 350-acre campus of red brick Collegiate Gothic buildings, many of the originals designed by Ralph Adams Cram.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Richmond",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Richmond, a 12 seed, beat Charles Barkley's Auburn 72-71 in the first round of the 1984 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Richmond_Spiders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in 1988, Richmond beat defending national champion Indiana 72-69 and Georgia Tech 59-55 to reach the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Richmond_Spiders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Richmond became the first 15 seed to beat a 2 seed when it defeated Syracuse 73-69 in the first round of the 1991 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Richmond_Spiders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Richmond reached the 2011 Sweet Sixteen as a 12 seed, beating Vanderbilt and Morehead State before losing to top-seeded Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Richmond_Spiders_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Richmond won the first meeting with crosstown VCU 71-65 on January 29, 1976, at the Robins Center.",
+     "source": "https://en.wikipedia.org/wiki/Capital_City_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Chris Mooney is in his 22nd season as Richmond's head coach in 2026-27, a tenure that began in 2005-06 and includes NCAA tournament trips in 2010, 2011 and 2022.",
+     "source": "https://en.wikipedia.org/wiki/Richmond_Spiders_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "saint-josephs": {
+   "town": "Philadelphia",
+   "home_floor": "Hagan Arena",
+   "home_lines": [
+    {
+     "text": "Saint Joseph's home floor opened in 1949 as Alumni Memorial Fieldhouse and was dedicated on Veterans Day to 'all college soldier-heroes.'",
+     "source": "https://en.wikipedia.org/wiki/Hagan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $25 million renovation in 2009 turned Saint Joseph's fieldhouse into Hagan Arena, named for 1985 graduate Michael Hagan, who gave $10 million toward the project.",
+     "source": "https://en.wikipedia.org/wiki/Hagan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Martin Luther King Jr. spoke to 3,400 people in Saint Joseph's fieldhouse on October 26, 1967, a visit marked by a bronze plaque in the lobby.",
+     "source": "https://en.wikipedia.org/wiki/Hagan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's won 34 consecutive games in Alumni Memorial Fieldhouse, now Hagan Arena, from the late 1950s through the early 1960s.",
+     "source": "https://en.wikipedia.org/wiki/Hagan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Philadelphia 76ers practiced at Saint Joseph's fieldhouse, now Hagan Arena, in the mid-1970s and again in the 1990s.",
+     "source": "https://en.wikipedia.org/wiki/Hagan_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Philadelphia's Overbrook neighborhood is named for Overbrook station, opened in 1860 where the railroad tracks ran over the brook of Mill Creek.",
+     "source": "https://en.wikipedia.org/wiki/Overbrook,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Welsh settlers acquired land west of Philadelphia in the 1680s, and in 1704 the farmland near Indian and Mill Creeks in today's Overbrook joined Blockley Township.",
+     "source": "https://en.wikipedia.org/wiki/Overbrook,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Overbrook Farms, built from the 1890s through the 1920s as the first residential development in Philadelphia's Overbrook, became a historic district in 2019.",
+     "source": "https://en.wikipedia.org/wiki/Overbrook,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Will Smith, who attended Overbrook High School, named his production company Overbrook Entertainment after the Philadelphia neighborhood.",
+     "source": "https://en.wikipedia.org/wiki/Overbrook,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mill Creek, which gave Philadelphia's Overbrook station its name, flows underground through the neighborhood, while Indian Creek still runs mostly above ground through Morris Park.",
+     "source": "https://en.wikipedia.org/wiki/Overbrook,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's opened on September 15, 1851, with 36 students in a building beside Old St. Joseph's Church on Willings Alley, with Felix-Joseph Barbelin as first president.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's moved to its present City Avenue campus in November 1927, the year Barbelin Hall, its first academic building there, opened.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's fans end games chanting 'The Hawk Will Never Die,' which Sports Illustrated called the most defiant cheer in college sports.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Hawks_men%27s_basketball",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's finished the 2003-04 regular season 27-0 behind Jameer Nelson and Delonte West, then lost to Oklahoma State 64-62 in the Elite Eight.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 9 seed in 1981, Saint Joseph's beat top-seeded DePaul 49-48 and reached the Elite Eight before losing to eventual champion Indiana.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jack Ramsay coached Saint Joseph's from 1955 to 1966, going 234-72, and later won the 1977 NBA championship with the Portland Trail Blazers.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's won the inaugural Big 5 Classic in 2023, beating Temple 74-65 for its 21st Big 5 championship.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's was a founding member of the Philadelphia Big 5, whose round-robin city series began at the Palestra in the 1955-56 season.",
+     "source": "https://en.wikipedia.org/wiki/Philadelphia_Big_5",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Steve Donahue, a former Penn, Cornell and Boston College head coach, was promoted to lead Saint Joseph's in September 2025 after Billy Lange left for the New York Knicks.",
+     "source": "https://www.nbcsports.com/mens-college-basketball/news/saint-josephs-basketball-promotes-steve-donahue-to-head-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "saint-louis": {
+   "town": "St. Louis",
+   "home_floor": "Chaifetz Arena",
+   "home_lines": [
+    {
+     "text": "Chaifetz Arena opened on the Saint Louis University campus on April 10, 2008, and its first event was a Harlem Globetrotters game against the Washington Generals the next day.",
+     "source": "https://en.wikipedia.org/wiki/Chaifetz_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Chaifetz Arena, home of Saint Louis basketball, seats 10,600 and was built for $80.5 million at 1 South Compton Avenue in St. Louis.",
+     "source": "https://en.wikipedia.org/wiki/Chaifetz_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis University named Chaifetz Arena for Richard Chaifetz, a 1975 SLU graduate and chief executive of ComPsych Corporation, after his $12 million gift in February 2007.",
+     "source": "https://en.wikipedia.org/wiki/Chaifetz_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Chaifetz Arena, nicknamed the Jewel of Midtown in St. Louis, was called the toughest venue to play in the Atlantic 10 Conference by former VCU coach Shaka Smart.",
+     "source": "https://en.wikipedia.org/wiki/Chaifetz_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The attendance record at Saint Louis University's Chaifetz Arena, 11,727, belongs not to the Billikens but to a Sabrina Carpenter concert on October 17, 2024.",
+     "source": "https://en.wikipedia.org/wiki/Chaifetz_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "St. Louis was founded on February 14, 1764, by French fur traders including Pierre Laclede and his stepson Auguste Chouteau, who named it for King Louis IX of France.",
+     "source": "https://en.wikipedia.org/wiki/St._Louis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Gateway Arch in St. Louis rises 630 feet and is the tallest monument constructed in the United States.",
+     "source": "https://en.wikipedia.org/wiki/St._Louis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1904 St. Louis hosted both the Louisiana Purchase Exposition and the Summer Olympics, becoming the first non-European city to host the Games.",
+     "source": "https://en.wikipedia.org/wiki/St._Louis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "St. Louis lays claim to toasted ravioli, gooey butter cake and Provel cheese, the last a fixture of St. Louis-style pizza with its thin crust cut into small squares.",
+     "source": "https://en.wikipedia.org/wiki/St._Louis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Scott v. Sandford case, which produced the Dred Scott decision, was tried at the Old Courthouse in St. Louis in 1846.",
+     "source": "https://en.wikipedia.org/wiki/St._Louis",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis University traces its origins to the Saint Louis Academy, founded on November 16, 1818, by Bishop Louis William Valentine DuBourg, and is the oldest university west of the Mississippi River.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Billiken, a good-luck figure patented by Kansas City illustrator Florence Pretz in 1908, became the Saint Louis University mascot because it was said to resemble coach John R. Bender.",
+     "source": "https://en.wikipedia.org/wiki/Billiken",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis University has operated a campus in Madrid, Spain, since Raymond L. Sullivant launched it in 1967.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis won the 1948 National Invitation Tournament, beating NYU 65-52 in the final, and later finished NIT runner-up in 1961, 1989 and 1990.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_Billikens_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ed Macauley, who played at Saint Louis from 1945 to 1949, wore No. 50, which the Billikens have retired.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_Billikens_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis made its deepest NCAA tournament run in 1952, reaching the Elite Eight before losing to Kansas 74-55.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_Billikens_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Saint Louis beat Georgia 102-77 in the first round of the 2026 NCAA tournament, the program's eleventh NCAA appearance and its first since 2019.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Louis_Billikens_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Josh Schertz, hired by Saint Louis away from Indiana State, agreed in principle to a long-term contract extension with the Billikens in March 2026.",
+     "source": "https://www.foxsports.com/articles/cbk/saint-louis-coach-josh-schertz-agrees-in-principle-to-longterm-contract-extension",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "st-bonaventure": {
+   "town": "Olean",
+   "home_floor": "the Reilly Center",
+   "home_lines": [
+    {
+     "text": "The Reilly Center opened on the St. Bonaventure campus in 1966 and was known as the University Center until 1974.",
+     "source": "https://en.wikipedia.org/wiki/Reilly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure's Reilly Center is named for Mike Reilly, who coached both varsity football and basketball at the university.",
+     "source": "https://en.wikipedia.org/wiki/Reilly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Since 2007 the floor of St. Bonaventure's Reilly Center has been Bob Lanier Court, honoring the player who led the Bonnies to the 1970 Final Four.",
+     "source": "https://en.wikipedia.org/wiki/Reilly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2001 ESPN's Jay Bilas named St. Bonaventure's Reilly Center one of the five toughest places to play in college basketball.",
+     "source": "https://en.wikipedia.org/wiki/Reilly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure's Reilly Center has the highest seating capacity of any sports venue in Cattaraugus County and the western Southern Tier of New York.",
+     "source": "https://en.wikipedia.org/wiki/Reilly_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Olean's name, tied to the Latin oleum, was chosen because the neighborhood of a local oil spring suggested it, according to an 1804 letter by Adam Hoops.",
+     "source": "https://en.wikipedia.org/wiki/Olean,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Olean was the operations headquarters of Socony, Standard Oil's New York affiliate, and a pipeline linked the city to Standard Oil refineries in Bayonne, New Jersey.",
+     "source": "https://en.wikipedia.org/wiki/Olean,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cutco is headquartered in Olean and manufactures all of its knives in the city, the largest in Cattaraugus County, New York.",
+     "source": "https://en.wikipedia.org/wiki/Olean,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Olean sits where Olean Creek meets the Allegheny River, a major transportation route that was often too shallow for large steamboats.",
+     "source": "https://en.wikipedia.org/wiki/Olean,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Olean counted 13,937 residents in the 2020 census, down from an estimated peak of 25,000 in the mid-1950s.",
+     "source": "https://en.wikipedia.org/wiki/Olean,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Utica financier Nicholas Devereux and Bishop John Timon of Buffalo invited the Franciscans to Western New York, and a small group under Pamfilo da Magliano arrived in 1855 to start St. Bonaventure.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure campus lore ties Merton's Heart, a bald patch on a mountain visible from campus, to Thomas Merton, who taught English there, though the hillside was cleared for oil drilling in the 1920s.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The St. Bonaventure basketball team was known as the Brown Indians before it was renamed the Bonnies in 1992.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_Bonnies_men%27s_basketball",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure reached the 1970 Final Four, though Bob Lanier tore a ligament late in the East regional final win over Villanova and missed the semifinal loss to Jacksonville.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_Bonnies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure won the 1977 NIT under coach Jim Satalin, beating Houston 94-91 in the final.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_Bonnies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Butler Gym, built at St. Bonaventure in 1916, was unfinished when the school played its first intercollegiate game at the Olean Armory, and first hosted a game in 1919-20.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_Bonnies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "St. Bonaventure won its first outright Atlantic 10 regular-season title in 2021, then beat VCU 74-65 on March 14, 2021, for the conference tournament crown.",
+     "source": "https://en.wikipedia.org/wiki/St._Bonaventure_Bonnies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike MacDonald, who led Division II Daemen to a 61-3 record over two seasons, was hired in 2026 to succeed Mark Schmidt, St. Bonaventure's all-time wins leader with 341.",
+     "source": "https://wtop.com/ncaa-basketball/2026/03/st-bonaventure-hires-mike-macdonald-of-division-ii-power-daemen-to-succeed-the-retired-mark-schmidt/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "vcu": {
+   "town": "Richmond",
+   "home_floor": "the Siegel Center",
+   "home_lines": [
+    {
+     "text": "VCU's Stuart C. Siegel Center opened in 1999 at a cost of $30.1 million, named for the Richmond businessman whose $7 million gift helped build it.",
+     "source": "https://en.wikipedia.org/wiki/Stuart_C._Siegel_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "VCU's arena inside the Siegel Center was renamed E.J. Wade Arena before the 2016-17 season under a ten-year, $2.75 million deal.",
+     "source": "https://en.wikipedia.org/wiki/Stuart_C._Siegel_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "VCU sold out 166 consecutive home games at the Siegel Center between January 2011 and November 2021.",
+     "source": "https://en.wikipedia.org/wiki/Stuart_C._Siegel_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "VCU's Siegel Center student section, the Rowdy Rams, won the Naismith Student Section of the Year Award in 2012-13.",
+     "source": "https://en.wikipedia.org/wiki/Stuart_C._Siegel_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the Siegel Center opened, VCU played its home games at the Richmond Coliseum from 1971 until 1999.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Richmond sits at the fall line of the James River, and the Virginia state capital moved there from Williamsburg on April 18, 1780.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Freed slaves and their descendants built a thriving Black business community in Richmond, and the city's Jackson Ward became known as the 'Wall Street of Black America' and the 'Harlem of the South.'",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1903 Maggie L. Walker chartered St. Luke Penny Savings Bank in Richmond, served as its president, and became the first Black woman bank president in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Richmond's Fan district takes its name from the fan-shaped array of streets that spread west from Belvidere Street, at the eastern edge of Monroe Park.",
+     "source": "https://en.wikipedia.org/wiki/The_Fan,_Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Monument Avenue, which runs through Richmond's Fan district, once carried Confederate statuary; its only statue now is a modern one of tennis player Arthur Ashe.",
+     "source": "https://en.wikipedia.org/wiki/The_Fan,_Richmond,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "VCU's history began in 1838, when the Medical Department of Hampden-Sydney College opened in Richmond; it became the Medical College of Virginia in 1854.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Commonwealth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Virginia General Assembly created Virginia Commonwealth University in 1968 by merging the Medical College of Virginia with the Richmond Professional Institute.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Commonwealth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "VCU's 90.6-acre Monroe Park Campus sits west of downtown Richmond on the eastern end of the Fan, and the university's colors are black and gold.",
+     "source": "https://en.wikipedia.org/wiki/Virginia_Commonwealth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "VCU was the first team to go from the First Four to the Final Four, beating USC, Georgetown, Purdue, Florida State and Kansas in 2011 under Shaka Smart.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As an 11 seed in 2007, VCU beat Duke 79-77 when Eric Maynor hit the winner from just beyond the free-throw line in the final seconds.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Under J.D. Barnett from 1979 to 1985, VCU made five NCAA tournaments and won four Sun Belt regular-season titles.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "VCU's 2021 first-round NCAA game against Oregon was declared a no-contest after several positive COVID-19 tests in the VCU program.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "VCU's largest margin of victory over crosstown Richmond in the Capital City Classic came on February 1, 2025, a 90-49 win at the Siegel Center.",
+     "source": "https://en.wikipedia.org/wiki/Capital_City_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Phil Martelli Jr. became VCU's head coach in 2025 after two seasons leading Bryant, and is the son of longtime Saint Joseph's coach Phil Martelli.",
+     "source": "https://en.wikipedia.org/wiki/Phil_Martelli_Jr.",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "dayton|saint-louis": {
+   "name": "Arch Baron Cup",
+   "lines": [
+    {
+     "text": "Each year Dayton plays its Atlantic 10 rival Saint Louis University in a series contested for the rights to the Arch Baron Cup.",
+     "source": "https://en.wikipedia.org/wiki/Dayton_Flyers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "george-mason|vcu": {
+   "name": "Battle of I-95",
+   "lines": [
+    {
+     "text": "George Mason and VCU, whose matchups carry a 'Battle of I-95' narrative, first met in men's basketball on November 27, 1981, a George Mason win in Charlottesville.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason%E2%80%93VCU_rivalry",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "George Mason won at VCU's Siegel Center during its 2006 Final Four season, and VCU beat Mason in the 2011 CAA semifinals on its own way to the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason%E2%80%93VCU_rivalry",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "George Mason and VCU met in the conference tournament final in 2004, 2007 and 2009, and VCU won all three.",
+     "source": "https://en.wikipedia.org/wiki/George_Mason%E2%80%93VCU_rivalry",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "george-mason|george-washington": {
+   "name": "Revolutionary Rivalry",
+   "lines": [
+    {
+     "text": "George Mason and George Washington compete in the Revolutionary Rivalry, a year-long series between the two athletic departments, begun in 2013-14, for the Tri-Corner Hat Trophy.",
+     "source": "https://gomason.com/sports/2018/9/27/revolutionary-rivalry-george-mason-vs-george-washington.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "In the Revolutionary Rivalry between George Mason and George Washington, each men's basketball win counts one point toward the Tri-Corner Hat Trophy.",
+     "source": "https://gomason.com/sports/2018/9/27/revolutionary-rivalry-george-mason-vs-george-washington.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "George Washington won the first Revolutionary Rivalry against George Mason in 2013-14 and the inaugural Tri-Corner Hat Trophy, 11-8.",
+     "source": "https://gomason.com/sports/2018/9/27/revolutionary-rivalry-george-mason-vs-george-washington.aspx",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "In the Revolutionary Rivalry between George Washington and George Mason, each men's basketball win counts one point toward the Tri-Corner Hat Trophy.",
+     "source": "https://gomason.com/sports/2018/9/27/revolutionary-rivalry-george-mason-vs-george-washington.aspx",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "la-salle|saint-josephs": {
+   "name": "Big 5 rivalry",
+   "lines": [
+    {
+     "text": "The Saint Joseph's Hawk mascot made its debut on January 4, 1956, at the Palestra, where Saint Joseph's beat La Salle 69-56.",
+     "source": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_University",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "La Salle and Saint Joseph's met in the Big 5 city series, which began at the Palestra in the 1955-56 season with games often played as double- or triple-headers.",
+     "source": "https://en.wikipedia.org/wiki/Philadelphia_Big_5",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Saint Joseph's and La Salle were founding members of the Philadelphia Big 5, announced on November 23, 1954, with Penn, Temple and Villanova.",
+     "source": "https://en.wikipedia.org/wiki/Philadelphia_Big_5",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "richmond|vcu": {
+   "name": "Capital City Classic",
+   "lines": [
+    {
+     "text": "Richmond and VCU's series, once called the Black and Blue Classic among other names, was renamed the Capital City Classic for the 2014-15 season.",
+     "source": "https://en.wikipedia.org/wiki/Capital_City_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Richmond and VCU were Colonial Athletic Association rivals from 1995 to 2001 and became conference rivals again in 2012, when VCU joined Richmond in the Atlantic 10.",
+     "source": "https://en.wikipedia.org/wiki/Capital_City_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "VCU and Richmond, rivals in the same city, meet in the Capital City Classic, a men's basketball series formerly known as the Black and Blue Classic.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "In 2011 the two Richmond rivals made deep NCAA runs together, with Richmond reaching the Sweet Sixteen and VCU the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/VCU_Rams_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}

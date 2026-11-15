@@ -1,0 +1,1549 @@
+{
+ "_help": "SWAC local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "alabama-am": {
+   "town": "Huntsville",
+   "home_floor": "the Alabama A&M Events Center",
+   "home_lines": [
+    {
+     "text": "The Alabama A&M Events Center opened in 2022 and holds up to 6,000 people for games of the Bulldogs and Lady Bulldogs basketball teams.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M built its Events Center to replace Elmore Gymnasium, which stands northeast of Louis Crews Stadium, while the new arena lies south of the stadium.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Besides basketball and volleyball, the Alabama A&M Events Center also hosts the university's graduation ceremonies.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Events_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M won 12 home games in 2025-26, surpassing the program's Division I mark of 11 home wins, which had been reached three times.",
+     "source": "https://aamusports.com/news/2026/3/9/mens-basketball-bulldogs-finish-regular-season-with-first-winning-record-in-21-years.aspx",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Huntsville grew up around the Big Spring, a typical karst spring, and counts 1805, the year pioneer John Hunt arrived, as its recognized founding year.",
+     "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1819 Huntsville hosted a constitutional convention in Walker Allen's cabinet-making shop, where 44 delegates wrote a constitution for the new state of Alabama.",
+     "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Huntsville is nicknamed The Rocket City, and Wernher von Braun, who led a group of about 200 German scientists and engineers there, was the first director of NASA's Marshall Space Flight Center.",
+     "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The U.S. Space & Rocket Center in Huntsville features Space Camp and the only Saturn V rocket designated a National Historic Landmark.",
+     "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before the rockets, Huntsville's growth rested on cotton, and the city became a center for cotton textile mills such as Lincoln, Dallas and Merrimack.",
+     "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M opened on May 1, 1875, at a church on Eustis Street, after William Hooper Councill won approval for his Huntsville State Normal School for Negroes.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Normal, Alabama took its name in 1890 from the State Normal and Industrial School of Huntsville; it has no official boundaries and usually means the Alabama A&M campus and adjacent areas.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Alabama",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M's colors are maroon and white, its mascot is a bulldog named Butch, and its official marching band is the Marching Maroon & White.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "L. Vann Pettaway coached Alabama A&M from 1986 to 2010, went 440-264, and twice posted a school-best 28-3 record, in 1992-93 and 1995-96.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M reached its first and only NCAA Division I tournament in 2005, losing 79-69 to Oakland in a play-in game at UD Arena in Dayton on March 15.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Alabama_A%26M_Bulldogs_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On February 24, 2007, Alabama A&M's Mickell Gladness set a Division I single-game record with 16 blocked shots against Texas Southern.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M's Desmond Cambridge holds the Division I records for most steals in a single season and the highest steals-per-game average for a season.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M beat Alabama State 72-53 in the 2005 SWAC tournament championship game, earning the Bulldogs their first NCAA Division I tournament bid.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Alabama_A%26M_Bulldogs_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Donte' Jackson is the head coach at Alabama A&M, and in 2025-26 he led the Bulldogs to their first winning regular-season record in 21 years.",
+     "source": "https://aamusports.com/news/2026/3/9/mens-basketball-bulldogs-finish-regular-season-with-first-winning-record-in-21-years.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "John Stallworth, a Tuscaloosa native who played college football at Alabama A&M, won four Super Bowls with the Pittsburgh Steelers and entered the Pro Football Hall of Fame in 2002.",
+     "source": "https://en.wikipedia.org/wiki/John_Stallworth",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "grambling": {
+   "town": "Grambling",
+   "home_floor": "the Hobdy Assembly Center",
+   "home_lines": [
+    {
+     "text": "Grambling State plays its home games in the Fredrick C. Hobdy Assembly Center, a 7,500-seat multi-purpose arena on Grambling Road in Grambling, Louisiana.",
+     "source": "https://en.wikipedia.org/wiki/Fredrick_C._Hobdy_Assembly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hobdy Assembly Center in Grambling is named for Fred Hobdy, the former Grambling State Tigers head basketball coach, and also hosts concerts and other events.",
+     "source": "https://en.wikipedia.org/wiki/Fredrick_C._Hobdy_Assembly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hobdy Assembly Center opened at Grambling State in 2007, and its first use was as the site of funeral services for the longtime Grambling football coach Eddie Robinson.",
+     "source": "https://en.wikipedia.org/wiki/Fredrick_C._Hobdy_Assembly_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Grambling, Louisiana, takes its name from P. G. Grambling, and the community was designated a city only in the early 1990s, in either 1992 or 1993.",
+     "source": "https://en.wikipedia.org/wiki/Grambling,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grambling lies in Lincoln Parish, created on February 24, 1873, and named for Abraham Lincoln, which makes it one of Louisiana's Reconstruction parishes.",
+     "source": "https://en.wikipedia.org/wiki/Lincoln_Parish,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lincoln Parish, 472 square miles of north Louisiana, is home to two universities: Louisiana Tech in Ruston and Grambling State in Grambling.",
+     "source": "https://en.wikipedia.org/wiki/Lincoln_Parish,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grambling counted 5,239 residents at the 2020 census, a small north Louisiana city that is home to Grambling State University.",
+     "source": "https://en.wikipedia.org/wiki/Grambling,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Lincoln Parish seat moved by parish-wide vote in 1884 to the new railroad town of Ruston, Grambling's neighbor and host of the annual Peach Festival.",
+     "source": "https://en.wikipedia.org/wiki/Lincoln_Parish,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grambling State grew from the desire of African-American farmers in rural north Louisiana, whose North Louisiana Colored Agriculture Relief Association formed in 1896 under Lafayette Richmond.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Charles P. Adams, sent to help organize an industrial school after the farmers asked Booker T. Washington of Tuskegee for aid, became Grambling State's founder and first president when the school opened on November 1, 1901.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grambling State's World Famed marching band, founded in 1926, is the only HBCU band in the nation to have performed at two consecutive U.S. presidential inaugurations.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Grambling State won the 1961 NAIA national championship under Fred Hobdy, who went 572-288 as the Tigers' head coach from 1957 to 1986.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grambling State's basketball teams under Fred Hobdy won eight SWAC regular-season titles, five of them outright, across his three decades on the Tigers' bench.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grambling State made its first NCAA Division I tournament in 2024 and beat Montana State 88-81 in overtime in the First Four before losing 78-50 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Grambling_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Eddie Robinson, who retired as college football's career leader in wins with 408, also coached Grambling State basketball from 1943 to 1956.",
+     "source": "https://en.wikipedia.org/wiki/Eddie_Robinson_(American_football_coach)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Grambling State and Southern have met in football since 1932, and since 1974 the game has been the Bayou Classic, held in most years at the Superdome in New Orleans the Saturday after Thanksgiving.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Patrick Crarey is Grambling State's head coach, having come to the Tigers after one season as the head coach at Florida A&M.",
+     "source": "https://gsutigers.com/staff-directory/patrick-crarey/413",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Willis Reed, born in Hico, Louisiana, played at Grambling State from 1960 to 1964 under Fred Hobdy and entered the Naismith Memorial Basketball Hall of Fame in 1982.",
+     "source": "https://en.wikipedia.org/wiki/Willis_Reed",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Grambling State's Willis Reed won two NBA titles with the New York Knicks, in 1970 and 1973, and was voted Finals MVP both times.",
+     "source": "https://en.wikipedia.org/wiki/Willis_Reed",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "prairie-view": {
+   "town": "Prairie View",
+   "home_floor": "the William J. Nicks Building",
+   "home_lines": [
+    {
+     "text": "The William J. Nicks Building, home floor of Prairie View A&M basketball and volleyball, was built in 1964 and also serves the university as its commencement hall.",
+     "source": "https://en.wikipedia.org/wiki/William_J._Nicks_Building",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M's basketball arena carries the name of Billy Nicks, the school's longtime football coach and athletic director, rather than a basketball figure.",
+     "source": "https://en.wikipedia.org/wiki/William_J._Nicks_Building",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Because of its structural configuration, the William J. Nicks Building at Prairie View A&M is known around campus by the nickname the Baby Dome.",
+     "source": "https://en.wikipedia.org/wiki/William_J._Nicks_Building",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Renovation projects at Prairie View A&M's Nicks Building in 2011 and 2012 left every seat in the arena a chairback, and the locker rooms were redone in 2014.",
+     "source": "https://en.wikipedia.org/wiki/William_J._Nicks_Building",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The city of Prairie View, in Waller County on the northwestern edge of metropolitan Houston, was established in 1969 with the motto Productive, United, Indomitable.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Prairie View is a young town in every sense: the 2020 census counted 8,184 residents, and their median age was 20.3 years.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Near Prairie View, the Wyatt Chapel Community Cemetery sits on land once part of Jared E. Kirby's Alta Vista Plantation, set aside by the Kirby family, according to oral tradition, to bury enslaved people.",
+     "source": "https://www.hmdb.org/m.asp?m=155570",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Prairie View's first post office opened in 1892 in the home of Duncan D. Robertson and closed in 1938, when mail was rerouted through Hempstead.",
+     "source": "https://texasescapes.com/CentralTexasTownsSouth/Prairie-View-Texas.htm",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In Symm v. United States in 1979, the Supreme Court summarily affirmed a ruling that the Waller County voter registrar could not deny Prairie View students the presumption of bona fide residency.",
+     "source": "https://en.wikipedia.org/wiki/Symm_v._United_States",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M was founded in 1876 on the former Alta Vista Plantation as the Alta Vista Agricultural and Mechanical College of Texas for Colored Youth.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M's 1879 legislation was drafted by State Senators Matthew Gaines and Walter Moses Burton and Representative William H. Holland, all three former slaves turned political leaders.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Marching Storm, Prairie View A&M's band of close to 300 members, has played the Super Bowl XLV halftime show, the Macy's Thanksgiving Day Parade and the Tournament of Roses Parade.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M won the 1962 NAIA national title behind center Zelmo Beaty, who was named the tournament's Chuck Taylor MVP.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M reached its first NCAA tournament in 1998 with a 13-17 record and lost in the first round to Kansas, 110-52.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M's 2019 team went 17-1 in SWAC play, won both the regular-season and tournament titles, and lost to FDU 82-76 in the First Four.",
+     "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Prairie View A&M won the 2026 SWAC tournament as the No. 8 seed, then beat Lehigh 67-55 in Dayton for the first NCAA tournament win in program history.",
+     "source": "https://pvpanthers.com/news/2026/7/2/mens-basketball2025-26-season-recap.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Byron Smith, Prairie View A&M's head coach, completed his 11th season in 2025-26, the year the Panthers won their first NCAA tournament game.",
+     "source": "https://pvpanthers.com/news/2026/7/2/mens-basketball2025-26-season-recap.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Zelmo Beaty, a Prairie View A&M center from 1958 to 1962, went third overall to the St. Louis Hawks and entered the Naismith Hall of Fame in 2016.",
+     "source": "https://en.wikipedia.org/wiki/Zelmo_Beaty",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Ken Houston played at Prairie View A&M from 1963 to 1966 before an NFL career with the Oilers and Redskins that reached the Pro Football Hall of Fame in 1986.",
+     "source": "https://en.wikipedia.org/wiki/Ken_Houston",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "jackson-state": {
+   "town": "Jackson",
+   "home_floor": "the Williams Assembly Center",
+   "home_lines": [
+    {
+     "text": "Jackson State's Lee E. Williams Athletic and Assembly Center opened in 1981 as an 8,000-seat multi-purpose arena for the Tigers' men's and women's basketball teams.",
+     "source": "https://en.wikipedia.org/wiki/Williams_Assembly_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Jackson State's Williams Assembly Center stands at 1400 J.R. Lynch Street on the university's Jackson campus and is owned by Jackson State.",
+     "source": "https://en.wikipedia.org/wiki/Williams_Assembly_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Jackson, Mississippi began as a village known as LeFleur's Bluff on the Pearl River and was named for Andrew Jackson to honor his January 1815 victory.",
+     "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "After Union forces burned Jackson in 1863, the Mississippi capital was called Chimneyville because only the chimneys of houses were left standing.",
+     "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jackson's mass civil rights demonstrations of the 1960s were initiated with the arrival of more than 300 Freedom Riders, beginning on May 24, 1961.",
+     "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Medgar Evers, leader of the Mississippi chapter of the NAACP, was assassinated by a white supremacist in Jackson in June 1963.",
+     "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Jackson State shootings came 11 days after Kent State; damage is still visible on the facade of Alexander Hall, and the site is named Gibbs-Green Plaza.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_killings",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Jackson State began as Natchez Seminary, founded October 23, 1877, in Natchez, and moved to Jackson in 1883 under the name Jackson College.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Jackson State's marching band, the Sonic Boom of the South, began in the 1940s and took its name in 1971; its dance line, the Prancing J-Settes, is known for J-Setting.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Shortly after midnight on May 15, 1970, Jackson city police and Mississippi Highway Patrol officers opened fire on Jackson State's Alexander Hall dormitory, killing Phillip Lafayette Gibbs, 21, and James Earl Green, 17, and injuring twelve.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_killings",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Jackson State was the first team to win the SWAC tournament, in 1978, but without an automatic bid the Tigers did not reach the NCAA Division I tournament that year.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jackson State reached the NCAA tournament in 1997, 2000 and 2007, each time as a 16 seed, losing first-round games to Kansas, Arizona and Florida.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jackson State is the only team to forfeit a game in NCAA Division II tournament history, withdrawing in 1957 under a policy of the Mississippi Board of Trustees.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1993 National Invitation Tournament, Jackson State beat Connecticut in its opener before falling to Southwest Missouri State.",
+     "source": "https://en.wikipedia.org/wiki/Jackson_State_Tigers_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jackson State and Alcorn State meet in football's Soul Bowl, a rivalry whose first game, in 1927, went to Alcorn A&M by a score of 25-12.",
+     "source": "https://en.wikipedia.org/wiki/Soul_Bowl",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Trey Johnson, the 2006-07 SWAC Player of the Year who still holds Jackson State's single-season scoring records, was named the Tigers' head coach in April 2026.",
+     "source": "https://gojsutigers.com/news/2026/4/15/mens-basketball-trey-johnson-named-new-jackson-state-head-mens-basketball-coach.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Lindsey Hunter, who transferred from Alcorn State to Jackson State after his freshman year, went 10th overall to Detroit in the 1993 NBA draft and won titles with the Lakers and Pistons.",
+     "source": "https://en.wikipedia.org/wiki/Lindsey_Hunter",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "alabama-state": {
+   "town": "Montgomery",
+   "home_floor": "the Dunn-Oliver Acadome",
+   "home_lines": [
+    {
+     "text": "The Dunn-Oliver Acadome, a 7,400-seat multi-purpose arena in Montgomery, opened in 1992 as home to the Alabama State Hornets basketball team.",
+     "source": "https://en.wikipedia.org/wiki/Dunn%E2%80%93Oliver_Acadome",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Alabama State's arena was the Joe L. Reed Acadome until May 2008, when trustees renamed it for C.J. Dunn and James V. Oliver, the school's two most successful basketball coaches.",
+     "source": "https://en.wikipedia.org/wiki/Dunn%E2%80%93Oliver_Acadome",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In October 1996 the Alabama State Acadome in Montgomery hosted an NBA preseason game between the Atlanta Hawks and the Los Angeles Clippers.",
+     "source": "https://en.wikipedia.org/wiki/Dunn%E2%80%93Oliver_Acadome",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Montgomery was incorporated in 1819 as a merger of two towns along the Alabama River, and the state capital moved there from Tuscaloosa on January 28, 1846.",
+     "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In February 1861 Montgomery, already the capital of Alabama, was chosen as the first capital of the Confederate States of America.",
+     "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On December 1, 1955, Rosa Parks was arrested in Montgomery for refusing to give up her bus seat to a white man, and Dexter Avenue Baptist Church pastor Martin Luther King Jr. helped organize the boycott that followed.",
+     "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "At the end of the Selma to Montgomery march for voting rights, an estimated 25,000 marchers entered the Alabama capital to press their cause.",
+     "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The National Memorial for Peace and Justice opened in downtown Montgomery on April 26, 2018.",
+     "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Alabama State was founded in 1867 as the Lincoln Normal School of Marion, in Marion, Alabama, and opened at its new location in Montgomery in 1887.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alabama State's colors are black and old gold, its teams are the Hornets, and its marching band is officially known as The Mighty Marching Hornets.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Jo Ann Robinson, counted among Alabama State's notable figures, was a leader in the Montgomery Women's Political Council and in the Montgomery bus boycott.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alabama State won the 2025 SWAC tournament by beating Jackson State 60-56 at Gateway Center Arena in College Park, Georgia, on March 15.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Alabama_State_Hornets_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On March 18, 2025, Alabama State beat Saint Francis 70-68 in the First Four at UD Arena in Dayton for the first NCAA tournament win in Hornets history.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_State_Hornets_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama State's 2025 NCAA tournament run ended at Rupp Arena in Lexington, Kentucky, with an 83-63 first-round loss to top-seeded Auburn on March 20.",
+     "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Alabama_State_Hornets_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama State won the 2011 SWAC tournament under coach Lewis Jackson by beating Grambling 65-48, then lost 70-61 to UTSA in the First Four in Dayton on March 16.",
+     "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Alabama_State_Hornets_basketball_team",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alabama State fell 72-53 to Alabama A&M in the 2005 SWAC tournament championship game, which sent the Bulldogs to their first NCAA Division I tournament.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Alabama_A%26M_Bulldogs_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Chris Wright, who twice took Langston to the NAIA national championship game, was named head men's basketball coach of the Alabama State Hornets in April 2026.",
+     "source": "https://swac.org/news/2026/4/13/alabama-state-names-wright-head-mens-basketball-coach.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Fred Gray, who earned his bachelor's degree from Alabama State College for Negroes in 1951, defended Claudette Colvin and Rosa Parks and received the Presidential Medal of Freedom in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Fred_Gray_(attorney)",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "mvsu": {
+   "town": "Itta Bena",
+   "home_floor": "the Harrison HPER Complex",
+   "home_lines": [
+    {
+     "text": "Mississippi Valley State plays its home games in the Harrison HPER Complex, a 5,000-seat building on the Itta Bena campus that opened in 1977.",
+     "source": "https://en.wikipedia.org/wiki/Harrison_HPER_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Harrison HPER Complex at Mississippi Valley State received $17.5 million in upgrades in 2016, which modernized the building and added technology classrooms.",
+     "source": "https://en.wikipedia.org/wiki/Harrison_HPER_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Harrison HPER Complex in Itta Bena houses Mississippi Valley State's men's and women's basketball teams as well as its women's volleyball program.",
+     "source": "https://en.wikipedia.org/wiki/Harrison_HPER_Complex",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Itta Bena, Mississippi, takes its name from the Choctaw phrase iti bina, meaning forest camp, from a people who occupied the Delta for hundreds of years before European settlement.",
+     "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Itta Bena's founding is credited to Benjamin Grubb Humphreys, whose home there was built by enslaved people in 1857 and who was elected governor of Mississippi after the Civil War.",
+     "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Itta Bena grew as a trading center for Delta cotton plantations, and the Columbus and Greenville Railway, begun in 1888, stimulated its trade and growth.",
+     "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On a 1966 march between Itta Bena and nearby Greenwood, led by Martin Luther King Jr., Stokely Carmichael coined the rallying phrase Black power.",
+     "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The blues musician B.B. King was born near Itta Bena in 1925, in the Leflore County town that counted 1,679 residents at the 2020 census.",
+     "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State was created as Mississippi Vocational College in the hope it would draw Black applicants who might otherwise apply to Mississippi's whites-only universities, and the law was signed on April 5, 1946.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Vocational College became Mississippi Valley State College in 1964 and Mississippi Valley State University in 1974, on a campus a mile northwest of Itta Bena.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State's colors are forest green, red and white, and its marching band is known as the Mean Green Marching Machine.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State's first NCAA tournament came in 1986, when the 16th-seeded Delta Devils lost only 85-78 to top-seeded Duke.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_Delta_Devils_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State's most recent NCAA tournament trip, in 2012, ended with a 59-58 loss to Western Kentucky in the First Four.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_Delta_Devils_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State has won five SWAC tournament titles, in 1986, 1992, 1996, 2008 and 2012, each one sending the Delta Devils to the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_Delta_Devils_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State's lone NIT trip came in 2007, a year it won the SWAC regular season, and ended in an 82-63 first-round loss to Mississippi State.",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_Delta_Devils_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mike Davis, formerly head coach at Indiana, UAB and Texas Southern, was named Mississippi Valley State's 13th men's basketball head coach in 2026.",
+     "source": "https://www.wlbt.com/2026/05/01/mike-davis-named-mississippi-valley-state-mens-basketball-coach/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jerry Rice earned the nickname World at Mississippi Valley State, where in 1984 he caught 112 passes for 1,845 yards and 27 touchdowns for coach Archie Cooley.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Mississippi Valley State's Jerry Rice went 16th overall to San Francisco in 1985, won three Super Bowls with the 49ers and entered the Pro Football Hall of Fame in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Jerry_Rice",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "alcorn": {
+   "town": "Lorman",
+   "home_floor": "the Davey Whitney Complex",
+   "home_lines": [
+    {
+     "text": "Alcorn State's Davey Whitney Complex, a 7,000-seat multi-purpose arena and physical education center, was built in 1975.",
+     "source": "https://en.wikipedia.org/wiki/Davey_Whitney_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first game in Alcorn State's Davey Whitney Complex was the final game of the 1974-75 men's basketball season.",
+     "source": "https://en.wikipedia.org/wiki/Davey_Whitney_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State renamed its arena in 1993 for Davey Whitney, who coached the Braves from 1969 to 1989 and again from 1996 to 2003.",
+     "source": "https://en.wikipedia.org/wiki/Davey_Whitney_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Davey Whitney's return to Alcorn State made him one of the few Division I coaches to have coached in an arena or stadium named for him.",
+     "source": "https://en.wikipedia.org/wiki/Davey_Whitney_Complex",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Lorman is an unincorporated community in Jefferson County, Mississippi, located on the former Illinois Central Railroad.",
+     "source": "https://en.wikipedia.org/wiki/Lorman,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The post office at Lorman, Mississippi operated under the name Lee from 1884 to 1899 and first began operating under the name Lorman in 1899.",
+     "source": "https://en.wikipedia.org/wiki/Lorman,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The country around Lorman, Mississippi holds several historic plantations, including Blantonia, Canemount, China Grove, Prospect Hill and Rosswood.",
+     "source": "https://en.wikipedia.org/wiki/Lorman,_Mississippi",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Windsor Ruins near Alcorn State are 23 standing Corinthian columns of the largest antebellum Greek Revival mansion ever built in Mississippi, which burned on February 17, 1890.",
+     "source": "https://en.wikipedia.org/wiki/Windsor_Ruins",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Windsor Ruins, about 10 miles southwest of Port Gibson and near Alcorn State, appeared in the films Raintree County in 1957 and Ghosts of Mississippi in 1996.",
+     "source": "https://en.wikipedia.org/wiki/Windsor_Ruins",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State was founded in 1871 as the first Black land-grant college in the United States and is named after former Mississippi governor James L. Alcorn.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State was built on the site of Oakland College, defunct after the Civil War, and Hiram R. Revels resigned his seat to become Alcorn's first president.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State's colors are purple and gold, its teams are the Braves and Lady Braves, and its marching band, founded in the 1960s, is the Sounds of Dyn-O-mite.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State beat South Alabama 70-62 as an 8 seed in the 1980 NCAA tournament, then lost 98-88 to top-seeded LSU.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_Braves_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State lost 57-56 to Kansas in the 1984 NCAA tournament after beating Houston Baptist 79-60 in the preliminary round.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_Braves_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1979 NIT, Alcorn State beat Mississippi State 80-78 before losing 72-68 to Indiana.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_Braves_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State has won seven SWAC tournament titles, in 1979, 1980, 1982, 1983, 1984, 1999 and 2002, along with 18 SWAC regular-season championships.",
+     "source": "https://en.wikipedia.org/wiki/Alcorn_State_Braves_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State and Jackson State meet in football's Soul Bowl, a rivalry whose first game, in 1927, went to Alcorn A&M by a score of 25-12.",
+     "source": "https://en.wikipedia.org/wiki/Soul_Bowl",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Jake Morton, previously on Leonard Hamilton's staff at Florida State, was named the 15th head men's basketball coach in Alcorn State history in April 2025.",
+     "source": "https://swac.org/news/2025/4/28/morton-named-15th-head-mens-basketball-coach-at-alcorn-state.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Medgar Evers earned his bachelor's degree from Alcorn Agricultural and Mechanical College in 1952, competing in debate, football and track, and became the NAACP's first field secretary for Mississippi in 1954.",
+     "source": "https://en.wikipedia.org/wiki/Medgar_Evers",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "uapb": {
+   "town": "Pine Bluff",
+   "home_floor": "the K. L. Johnson Complex",
+   "home_lines": [
+    {
+     "text": "Arkansas-Pine Bluff plays its home games in the K. L. Johnson Complex, a 4,500-seat building on University Drive in Pine Bluff that opened in 1982.",
+     "source": "https://en.wikipedia.org/wiki/K._L._Johnson_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The basketball and volleyball floor inside Arkansas-Pine Bluff's K. L. Johnson Complex is called the Hubert O. Clemmons Basketball Arena, and the building was extensively renovated in 2006.",
+     "source": "https://en.wikipedia.org/wiki/K._L._Johnson_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The K. L. Johnson Complex at Arkansas-Pine Bluff hosted the NCAA Women's Division II Basketball Championship in both 1999 and 2000.",
+     "source": "https://en.wikipedia.org/wiki/K._L._Johnson_Complex",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Pine Bluff, Arkansas, is named for a bluff along the Arkansas River, where Joseph Bonne, of Quapaw, French and Plains Apache ancestry, moved five miles upstream after a flood in 1819.",
+     "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Jefferson County court officially named the town of Pine Bluff on October 16, 1832, and the city remains the county seat.",
+     "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On October 25, 1863, Confederate cavalry tried to drive Union occupiers out of Pine Bluff and were defeated by a combined force of federal troops and freedmen.",
+     "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pine Bluff's early wealth rested on cotton, a growing regional lumber industry fueled its expansion in the 1880s and 1890s, and the area's paper mills at times give the city a distinctive odor.",
+     "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Army broke ground on the Pine Bluff Arsenal in 1941, and the arsenal and Grider Field moved Pine Bluff toward a more diversified economy.",
+     "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Arkansas-Pine Bluff was authorized in 1873 by Arkansas's Reconstruction-era legislature as Branch Normal College and opened in 1875 with Joseph Carter Corbin as principal.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Branch Normal College became Arkansas AM&N in 1927, and in 1972 the Pine Bluff school rejoined what is now the University of Arkansas System.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Arkansas-Pine Bluff's black-and-gold Golden Lions march behind the Marching Musical Machine of the Mid-South, the M4, which was selected for the 2009 presidential inaugural parade.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Arkansas-Pine Bluff won the 2010 SWAC tournament, beat Winthrop 61-44 in the NCAA opening round and lost 73-44 to Duke, an appearance the NCAA later vacated over ineligible players.",
+     "source": "https://en.wikipedia.org/wiki/Arkansas%E2%80%93Pine_Bluff_Golden_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Playing as Arkansas AM&N, the Pine Bluff school won its lone SWAC regular-season title in 1967 and made its only NCAA Division II tournament that year.",
+     "source": "https://en.wikipedia.org/wiki/Arkansas%E2%80%93Pine_Bluff_Golden_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1967 Division II tournament, Arkansas AM&N, now Arkansas-Pine Bluff, lost 83-80 to Southwest Missouri State and then 105-93 to Arkansas State.",
+     "source": "https://en.wikipedia.org/wiki/Arkansas%E2%80%93Pine_Bluff_Golden_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Solomon Bozeman is Arkansas-Pine Bluff's head coach for the 2026-27 season, leading the Golden Lions from the K. L. Johnson Complex.",
+     "source": "https://uapblionsroar.com/sports/mens-basketball/roster",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Samuel L. Kountz, born in Lexa, Arkansas, graduated third in his class in 1952 at the Agricultural, Mechanical and Normal College of Arkansas, now Arkansas-Pine Bluff, and earned his medical degree in 1958.",
+     "source": "https://en.wikipedia.org/wiki/Samuel_L._Kountz",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Arkansas-Pine Bluff graduate Samuel L. Kountz performed the first successful kidney transplant between humans who were not identical twins in 1961, while working at Stanford University Medical Center.",
+     "source": "https://en.wikipedia.org/wiki/Samuel_L._Kountz",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "florida-am": {
+   "town": "Tallahassee",
+   "home_floor": "the Al Lawson Center",
+   "home_lines": [
+    {
+     "text": "Florida A&M's Al Lawson Center opened for basketball on April 4, 2009, with a ribbon cutting four days later, and seats 9,639 for Rattlers games.",
+     "source": "https://en.wikipedia.org/wiki/Al_Lawson_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M's arena is named for Congressman Al Lawson, a former Rattlers basketball player who helped secure its funding while serving in the Florida Legislature.",
+     "source": "https://en.wikipedia.org/wiki/Al_Lawson_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Al Lawson Center replaced Florida A&M's Jake Gaither Gymnasium, a 3,365-seat building, and cost $40 million to build.",
+     "source": "https://en.wikipedia.org/wiki/Al_Lawson_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Tallahassee became Florida's capital after territorial delegates decided to meet at a halfway point between Pensacola and St. Augustine, and the legislature met there in 1824.",
+     "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hernando de Soto wintered at the Apalachee town of Anhaica, in what is now Tallahassee, in 1539-40, often cited as the first Christmas celebrated in the continental United States.",
+     "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tallahassee was the only Confederate state capital east of the Mississippi River not captured by Union forces, and the only one not burned.",
+     "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tallahassee, at the southern end of the Red Hills Region, has nine officially designated canopy roads, and the Southern live oak is perhaps the city's most emblematic tree.",
+     "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Tallahassee bus boycott followed the May 26, 1956, arrest of Florida A&M students Wilhelmina Jakes and Carrie Patterson, and the Inter-Civic Council ended it on December 22, 1956.",
+     "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M began classes on October 3, 1887, as the State Normal College for Colored Students, with Thomas Desaille Tucker as its first president.",
+     "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M's Marching 100 marched in Bill Clinton's 1993 inaugural parade at his invitation and later in Barack Obama's inaugural parade and the 2019 Rose Parade.",
+     "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M wears orange and green, its teams are the Rattlers, and its mascot is Venom the Rattlesnake, on a campus just south of the Florida State Capitol.",
+     "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M beat Lehigh 72-57 in the 2004 NCAA play-in game in Dayton despite entering as the tournament's only team with a losing record, at 15-16.",
+     "source": "https://www.newson6.com/story/5e367e562f69d76f62091c0a/florida-am-routs-lehigh-in-playin-game",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M has made three Division I NCAA tournament appearances, the last in 2007, and four appearances in the Division II tournament.",
+     "source": "https://en.wikipedia.org/wiki/Florida_A%26M_Rattlers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida A&M's 2026-27 opener against Florida State in Tampa was set as the first regular-season basketball meeting between the Rattlers and Seminoles since 1991.",
+     "source": "https://famuathletics.com/news/2026/6/8/rattlers-to-open-2026-27-season-in-tampa-vs-seminoles.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Charlie Ward, the 1993 Heisman Trophy winner at Florida State and an 11-season NBA player, coaches Florida A&M and was born at the Rattlers' campus hospital.",
+     "source": "https://andscape.com/features/florida-am-coach-charlie-ward-is-guided-by-nba-and-collegiate-history-family-roots/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Althea Gibson entered Florida A&M on a full athletic scholarship in 1949, graduated in 1953, and won the 1956 French Championships and 1957 Wimbledon singles titles.",
+     "source": "https://en.wikipedia.org/wiki/Althea_Gibson",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Cannonball Adderley studied music at Florida A&M before joining Miles Davis in 1957 and playing on Milestones and Kind of Blue.",
+     "source": "https://en.wikipedia.org/wiki/Cannonball_Adderley",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "texas-southern": {
+   "town": "Houston",
+   "home_floor": "the H&PE Arena",
+   "home_lines": [
+    {
+     "text": "Texas Southern's Health and Physical Education Arena opened on the Houston campus in 1989 and seats 8,100 for Tigers basketball and volleyball.",
+     "source": "https://en.wikipedia.org/wiki/Health_and_Physical_Education_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern's H&PE Arena in Houston was designed by Houston architect Willie C. Jordan Jr. and is operated by the university.",
+     "source": "https://en.wikipedia.org/wiki/Health_and_Physical_Education_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of Houston played home basketball games during its 2017-18 season at Texas Southern's H&PE Arena while the Cougars' own building was being renovated.",
+     "source": "https://en.wikipedia.org/wiki/Health_and_Physical_Education_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern's H&PE Arena in Houston hosted a Democratic presidential debate on September 12, 2019.",
+     "source": "https://en.wikipedia.org/wiki/Health_and_Physical_Education_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Emancipation Park in Houston's Third Ward, near Texas Southern, was purchased around 1870 by owners who meant it to commemorate the end of slavery in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Third_Ward,_Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Dowling Street in Houston's Third Ward, which singer Big Robert Smith called the main street of black Houston, was renamed Emancipation Avenue in 2017.",
+     "source": "https://en.wikipedia.org/wiki/Third_Ward,_Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Houston's Third Ward, home of Texas Southern, counts Lightnin' Hopkins, Albert Collins, Johnny Copeland, Arnett Cobb and DJ Screw, originator of chopped and screwed music, among its notable people.",
+     "source": "https://en.wikipedia.org/wiki/Third_Ward,_Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In March 1960, Texas Southern students staged Houston's first sit-in at a Weingarten's lunch counter on Almeda, and more sit-ins followed across the city within months.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern opened on March 7, 1927, as Houston Colored Junior College, became Houston College for Negroes in 1934, and Texas State University for Negroes in 1947.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Texas created the school that became Texas Southern partly to keep Heman Marion Sweatt out of the University of Texas law school, a plan the Supreme Court rejected in Sweatt v. Painter in 1950.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On May 17, 1967, police raided the Texas Southern campus and arrested nearly 500 students; the five students charged with conspiracy and inciting a riot were later exonerated for lack of evidence.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern wears maroon and gray, answers to the Tigers, and marches behind the Ocean of Soul, the university's band.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern won the NAIA national championship in 1977, and the Tigers went 18-6 across seven NAIA tournament appearances.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In December 2014, Texas Southern beat Michigan State 71-64 in overtime in East Lansing, the first HBCU win over a team that went on to that season's Final Four.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern made 11 NCAA tournament appearances through 2023, with a combined NCAA tournament record of 3-11.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Corey Lowery, a former CIAA Coach of the Year at Lincoln University and a Seton Hall assistant, was approved as Texas Southern's head coach in August 2026.",
+     "source": "https://hbcubuzz.com/?p=107475",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Barbara Jordan graduated magna cum laude from Texas Southern in 1956 as a national champion debater, later serving in the Texas Senate and in Congress.",
+     "source": "https://en.wikipedia.org/wiki/Barbara_Jordan",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Michael Strahan played at Texas Southern from 1989 to 1992, went to the Giants in the 1993 second round, and set the NFL single-season sack record with 22.5.",
+     "source": "https://en.wikipedia.org/wiki/Michael_Strahan",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "bethune-cookman": {
+   "town": "Daytona Beach",
+   "home_floor": "Moore Gymnasium",
+   "home_lines": [
+    {
+     "text": "Bethune-Cookman's Moore Gymnasium is a 3,000-seat arena in Daytona Beach that houses Wildcats men's and women's basketball and women's volleyball.",
+     "source": "https://en.wikipedia.org/wiki/Moore_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Moore Gymnasium at Bethune-Cookman takes its name from Richard V. Moore, the university's third president.",
+     "source": "https://en.wikipedia.org/wiki/Moore_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Reggie Theus, Bethune-Cookman's coach and athletic director, considers Moore Gymnasium in Daytona Beach the best home environment in the SWAC because of the energy its fans bring.",
+     "source": "https://www.aol.com/articles/reggie-theus-bethune-cookman-chasing-100514130.html",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Daytona Beach was founded in 1870 and named for Mathias Day Jr., who bought the land in 1871 and lost title to it in 1872; the town incorporated in 1876.",
+     "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Malcolm Campbell's run of 276.816 mph on the sand at Daytona Beach on March 7, 1935, marked the end of the city's land speed racing days.",
+     "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "From 1936 to 1958, the Daytona Beach Road Course sent stock cars about two miles south on A1A and about two miles back north on the sandy beach.",
+     "source": "https://en.wikipedia.org/wiki/Daytona_Beach_Road_Course",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Daytona Beach still allows cars on some of its hard-packed sand beaches, held to a maximum speed of 10 mph in most areas.",
+     "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Daytona Beach, home of Bethune-Cookman, is split in two by the Halifax River lagoon, part of the Intracoastal Waterway.",
+     "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Mary McLeod Bethune started her Daytona school in 1904 with six students, five girls and her son Albert, raising money by selling sweet potato pies and ice cream to local work crews.",
+     "source": "https://en.wikipedia.org/wiki/Mary_McLeod_Bethune",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1923 Bethune's Daytona school merged with the Cookman Institute, founded in Jacksonville in 1872, and the combined school became the Daytona Cookman Collegiate Institute.",
+     "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Marching Wildcats of Bethune-Cookman began in 1930 with 30 instrumentalists, now number over 300, and were featured in the Netflix series Marching Orders.",
+     "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bethune-Cookman basketball reached the NCAA Division II tournament in 1965, 1968 and 1980 before moving to Division I in 1980.",
+     "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bethune-Cookman's only NIT appearance came in 2011, when the Wildcats lost to Virginia Tech 79-54 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Kevin Bradshaw, who holds the NCAA record for points scored in a single game, is counted among Bethune-Cookman's notable former basketball players.",
+     "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_Wildcats_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bethune-Cookman won its first SWAC regular-season men's basketball championship in 2025-26, going 13-3 in conference play.",
+     "source": "https://bcuathletics.com/news/2026/3/4/mens-basketball-theus-named-ben-jobe-award-finalist.aspx",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Reggie Theus, the ninth pick of the 1978 NBA draft and a 13-season NBA player, is both Bethune-Cookman's head coach and athletic director, unique in Division I.",
+     "source": "https://www.aol.com/articles/reggie-theus-bethune-cookman-chasing-100514130.html",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "southern-u": {
+   "town": "Baton Rouge",
+   "home_floor": "the F. G. Clark Center",
+   "home_lines": [
+    {
+     "text": "Southern University's basketball teams play in the F. G. Clark Center, a 7,500-seat multi-purpose arena on the Baton Rouge campus that opened in 1975.",
+     "source": "https://en.wikipedia.org/wiki/F._G._Clark_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The F. G. Clark Center at Southern is named for Felton Grandison Clark, the university's second president, who led the school from 1938 to 1969.",
+     "source": "https://en.wikipedia.org/wiki/F._G._Clark_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Southern's men's and women's basketball teams share the F. G. Clark Center in Baton Rouge, which also holds concerts and other events between seasons.",
+     "source": "https://en.wikipedia.org/wiki/F._G._Clark_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Baton Rouge takes its name from the French bâton rouge, meaning red stick, and the city on the eastern bank of the Mississippi River dates its founding to 1699.",
+     "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1846 the Louisiana legislature designated Baton Rouge as the state's new capital, replacing New Orleans.",
+     "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Baton Rouge's 450-foot art deco New Louisiana State Capitol was the tallest building in the South when it was completed.",
+     "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Port of Greater Baton Rouge is the tenth-largest in the United States by tonnage shipped, and ExxonMobil's Baton Rouge Refinery complex is the country's fifth-largest oil refinery.",
+     "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Southern University moved in 1914 to Scotlandville, just north of Baton Rouge on Scott's Bluff facing the Mississippi River, and the campus is still called The Bluff.",
+     "source": "https://en.wikipedia.org/wiki/Southern_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Southern University was proposed at Louisiana's 1879 constitutional convention by P. B. S. Pinchback, Theophile T. Allain and Henry Demas, and opened its doors on March 7, 1881, with 12 students.",
+     "source": "https://en.wikipedia.org/wiki/Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern University's marching band, the Human Jukebox, has represented the school since 1947, has been invited to the Rose Parade and presidential inaugurations, and has made six Super Bowl halftime presentations.",
+     "source": "https://en.wikipedia.org/wiki/Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On November 16, 1972, Southern University students Denver Smith and Leonard Brown were shot and killed during a protest outside the Old Auditorium, and their killings have never been solved.",
+     "source": "https://en.wikipedia.org/wiki/Southern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "As a 13 seed in the 1993 NCAA tournament, Southern beat Georgia Tech 93-78 in the first round, the highest seed given a SWAC team since the field expanded to 64 in 1985.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Jaguars_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern won four straight SWAC regular-season titles from 1951 through 1954, the start of a list of 14 league crowns that runs through 2025.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Jaguars_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern's NCAA tournament draws in the 1980s included Kentucky in 1988 and North Carolina in 1989, both first-round losses as a 15 seed.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Jaguars_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern played in the NAIA tournament only once, in 1965, going 2-1 before losing in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Jaguars_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern and Grambling State have played football since 1932, and since 1974 the meeting has been the Bayou Classic, held in most years at the Superdome in New Orleans the Saturday after Thanksgiving.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Kevin Johnson is Southern's head coach for the 2026-27 season, leading the Jaguars from the F. G. Clark Center in Baton Rouge.",
+     "source": "https://gojagsports.com/news/2026/9/28/mens-basketball-southern-mens-basketball-announces-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Avery Johnson, a New Orleans native, led NCAA Division I with 13.3 assists per game as a Southern senior in 1988 and then went undrafted.",
+     "source": "https://en.wikipedia.org/wiki/Avery_Johnson",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Southern's Avery Johnson won an NBA title with the 1998-99 San Antonio Spurs and later was named the 2006 NBA Coach of the Year with the Dallas Mavericks.",
+     "source": "https://en.wikipedia.org/wiki/Avery_Johnson",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "alabama-am|alabama-state": {
+   "name": "Alabama A&M vs. Alabama State",
+   "lines": [
+    {
+     "text": "The Alabama A&M men's basketball program names Alabama State as its rival, setting the Bulldogs of Huntsville against the Hornets of Montgomery.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Alabama A&M beat Alabama State 72-53 in the 2005 SWAC tournament championship game, earning the Bulldogs their first NCAA Division I tournament bid.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Alabama_A%26M_Bulldogs_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Alabama A&M men's basketball program names Alabama State as its rival, setting the Hornets of Montgomery against the Bulldogs of Huntsville.",
+     "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Alabama State fell 72-53 to Alabama A&M in the 2005 SWAC tournament championship game, which sent the Bulldogs to their first NCAA Division I tournament.",
+     "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Alabama_A%26M_Bulldogs_basketball_team",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "grambling|southern-u": {
+   "name": "Grambling vs. Southern",
+   "lines": [
+    {
+     "text": "The Grambling State-Southern football series was first played under the Bayou Classic name in 1974 at Tulane Stadium in New Orleans, though the two schools first met on the gridiron in 1932.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The two-part Battle of the Bands between Grambling State and Southern is a Bayou Classic highlight, with its final part held at halftime of the football game and no official judge.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Football coach Eddie Robinson led Grambling State from 1941 to 1942 and 1945 to 1997, while Ace Mumford coached Southern in two stints between 1936 and 1961; Robinson was briefly a Southern freshman.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Southern-Grambling State football series was first played under the Bayou Classic name in 1974 at Tulane Stadium in New Orleans, though the two schools first met on the gridiron in 1932.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The two-part Battle of the Bands between Southern and Grambling State is a Bayou Classic highlight, with its final part held at halftime of the football game and no official judge.",
+     "source": "https://en.wikipedia.org/wiki/Bayou_Classic",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "prairie-view|texas-southern": {
+   "name": "Prairie View A&M vs. Texas Southern",
+   "lines": [
+    {
+     "text": "Prairie View A&M and Texas Southern first met in football in 1947, and their football rivalry game, the Labor Day Classic, usually played in Houston or Prairie View, began in 1985.",
+     "source": "https://en.wikipedia.org/wiki/Labor_Day_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern and Prairie View A&M first met in football in 1947, and their football rivalry game, the Labor Day Classic, usually played in Houston or Prairie View, began in 1985.",
+     "source": "https://en.wikipedia.org/wiki/Labor_Day_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Texas Southern's basketball series with Prairie View A&M is called the highest-attended in the SWAC, and a February 2015 home meeting drew a crowd listed at 7,500-plus.",
+     "source": "https://en.wikipedia.org/wiki/Texas_Southern_Tigers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "alcorn|jackson-state": {
+   "name": "Jackson State vs. Alcorn State",
+   "lines": [
+    {
+     "text": "Jackson State and Alcorn State meet in football's Soul Bowl, a rivalry whose first game, in 1927, went to Alcorn A&M by a score of 25-12.",
+     "source": "https://en.wikipedia.org/wiki/Soul_Bowl",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Lindsey Hunter crossed the Jackson State and Alcorn State rivalry as a player, enrolling at Alcorn State and then transferring to Jackson State after his freshman year.",
+     "source": "https://en.wikipedia.org/wiki/Lindsey_Hunter",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Alcorn State and Jackson State meet in football's Soul Bowl, a rivalry whose first game, in 1927, went to Alcorn A&M by a score of 25-12.",
+     "source": "https://en.wikipedia.org/wiki/Soul_Bowl",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Lindsey Hunter enrolled at Alcorn State and then transferred to rival Jackson State after his freshman year, later going 10th overall in the 1993 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/Lindsey_Hunter",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "bethune-cookman|florida-am": {
+   "name": "Florida A&M vs. Bethune-Cookman",
+   "lines": [
+    {
+     "text": "Florida A&M and Bethune-Cookman first met in football in 1925, a 23-0 Rattlers win, and Florida A&M also won the first Florida Classic in 1978, 27-17.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Florida Classic, the football game between Florida A&M and Bethune-Cookman, moved from Tampa to Orlando in 1997 and drew a record 73,358 fans in 2003.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Bethune-Cookman and Florida A&M first met in football in 1925, and their Florida Classic football game, played in Tampa from 1978, moved to Orlando in 1997.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Classic",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The Florida Classic football game between Bethune-Cookman and Florida A&M drew its record crowd of 73,358 in Orlando in 2003.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Classic",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}
