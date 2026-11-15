@@ -21,7 +21,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert, alumni, anchors, pickem
+from . import alert, alumni, anchors, outro, pickem
 from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
@@ -291,7 +291,9 @@ def render(t: dict, out: Path) -> Path:
     wavs = [work / f"seg{i:02d}.wav" for i in range(len(segs))]
     desk = voice_all(segs, wavs, work)
     cloned = desk["cloned"]
-    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs])
+    tail = outro.for_day(datetime.fromisoformat(t["date_iso"]).date())
+    tail_secs = outro.seconds(tail)
+    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs], MAX_SECS - tail_secs)  # the outro shares the 60 seconds
     dropped = [segs[i]["kind"] for i in range(len(segs)) if i not in keep]
     if dropped:
         print(f"midmaxx60: over {MAX_SECS:.0f}s, left out {', '.join(dropped)}")
@@ -358,11 +360,12 @@ def render(t: dict, out: Path) -> Path:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-f", "lavfi", "-i", f"color=c=0x{GOLD}:s={W}x{BAR_H}:r={FPS}",
                     "-filter_complex", fc, "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
+    outro.append(video, tail, W, H, FPS)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     voiced = disclosure(cloned, desk["anchors"])
     (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/midmaxx60.html\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
+    print(f"{video} {clock + tail_secs:.1f}s, {len(clips)} segments + {tail.stem} outro, voice: {'clone' if cloned else 'piper'}")
     return video
 
 

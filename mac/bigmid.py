@@ -237,6 +237,7 @@ def load_blocks(site: Path, now: datetime) -> list[dict]:
 
 def render(ep: dict, out: Path) -> Path:
     from . import midmaxx60 as mm
+    from . import outro
     from .config import TEMPLATES_DIR
 
     out = out.resolve()
@@ -280,6 +281,8 @@ def render(ep: dict, out: Path) -> Path:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-vf", f"ass={ass.name}:fontsdir={mm.FONT_DIR.resolve()}",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy",
                     "-movflags", "+faststart", str(video)], check=True, cwd=work)
+    tail = outro.for_week(datetime.fromisoformat(ep["date_iso"]).date())
+    outro.append(video, tail, VW, VH, mm.FPS)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     chapters, t = [], 0.0
@@ -292,7 +295,7 @@ def render(ep: dict, out: Path) -> Path:
     (out / f"{stem}.txt").write_text(
         f"The Big Mid: every mid-major conference we cover, {ep['span']}.\n\n" + "\n".join(chapters) + "\n\n"
         + "\n\n".join(s["text"] for s in segs) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
+    print(f"{video} {clock:.1f}s + {tail.stem} outro, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
 
