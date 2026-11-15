@@ -1512,21 +1512,21 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 65,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "3084",
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 70,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917530",
@@ -1556,8 +1556,8 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 88,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "167",
@@ -1565,12 +1565,12 @@
     "name": "New Mexico Lobos",
     "abbr": "UNM",
     "score": 85,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401934396",
@@ -8727,5 +8727,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T05:16:37+00:00"
+ "live_at": "2026-11-15T05:31:48+00:00"
 }
