@@ -23,10 +23,18 @@ jobs:
   render:
     runs-on: ubuntu-latest
     timeout-minutes: 150
-    env:
-      DOC: docs/${{ inputs.doc || 'athens' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Which doc (the input, else the doc this push touched, else athens)
+        env:
+          DOC_IN: ${{ inputs.doc }}
+        run: |
+          d="$DOC_IN"
+          [ -n "$d" ] || d=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | sed -n 's#^docs/\([^/]*\)/.*#\1#p' | grep -v '/out/' | head -1)
+          [ -d "docs/$d" ] && [ -n "$d" ] || d=athens
+          echo "DOC=docs/$d" >> "$GITHUB_ENV"; echo "Rendering docs/$d"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

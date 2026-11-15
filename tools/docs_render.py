@@ -20,6 +20,7 @@ PAGE, INK, MUTED, GOLD = (21, 17, 13), (239, 230, 214), (143, 132, 116), (240, 1
 GAP, TAIL, CARD, OUTRO = 0.15, 0.4, 4.0, 4.6
 TEMPO = float(os.environ.get("DOC_TEMPO", "1.1"))  # Matthew, Nov 14: voiceovers a touch faster
 CLIPDIR = Path(".")
+OWN_CREDIT = "Athens photographs by Matthew Hagan, 2017 to 2025"
 
 
 def font(n, s):
@@ -210,7 +211,7 @@ def main():
             rows.append((v + ":credit", ln["credit"]))   # a line's own credit, e.g. a photo illustration
         if v.startswith("clip:") and ln["caption"] and not any(r[0] == v for r in rows):
             rows.append((v, ln["caption"]))
-    rows.append(("own", "Athens photographs by Matthew Hagan, 2017 to 2025"))
+    rows.append(("own", spec.get("own_credit", OWN_CREDIT)))
     for k in range(0, len(rows), 7):
         lines.append({"speaker": "TITLE", "say": "", "caption": "", "visual": "credits:" + "\n".join(r[1] for r in rows[k:k + 7])})
     lines += outro
