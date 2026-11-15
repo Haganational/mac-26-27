@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:02:33+00:00",
+ "fetched_at": "2026-11-15T18:14:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2174,7 +2174,7 @@
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": 32,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2182,13 +2182,13 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 39,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:52 - 2nd"
   },
   {
    "game_id": "401909774",
@@ -2229,10 +2229,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:00 - 1st"
   },
   {
    "game_id": "401911017",

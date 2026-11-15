@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T18:01:32+00:00",
+ "fetched_at": "2026-11-15T18:12:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -1453,7 +1453,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-11-15-2026--sports-ncaa-basketball/production/7610341?wsUser=717",
+    "low": 16.0
+   },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -1462,7 +1465,7 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": 48,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1470,13 +1473,13 @@
     "key": null,
     "name": "Abraham Baldwin Agricultural Stallions",
     "abbr": "ABAC",
-    "score": 17,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:32 - 2nd"
   },
   {
    "game_id": "401906783",
