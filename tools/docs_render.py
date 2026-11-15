@@ -176,6 +176,8 @@ def main():
         if v in cred and not any(r[0] == v for r in rows):
             c = cred[v]; ttl = re.sub(r"\s*-\s*DPLA\s*-\s*[0-9a-f]+|\.(jpe?g|png|tif)$", "", c["title"].replace("File:", ""), flags=re.I)
             rows.append((v, f"{ttl[:80]} · {c['author'][:60] or 'author unknown'} · {c['license']} · {c['source']}"))
+        if ln.get("credit") and not any(r[1] == ln["credit"] for r in rows):
+            rows.append((v + ":credit", ln["credit"]))   # a line's own credit, e.g. a photo illustration
         if v.startswith("clip:") and not any(r[0] == v for r in rows):
             rows.append((v, ln["caption"]))
     rows.append(("own", "Athens photographs by Matthew Hagan, 2017 to 2025"))
