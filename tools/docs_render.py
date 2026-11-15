@@ -124,7 +124,7 @@ def voice(lines, voices, work, use_voice):
     out = []
     for i, chunks in enumerate(plan):
         vis = lines[i].get("visual") or ""
-        if lines[i]["speaker"] == "CLIP" and vis.startswith("clip:"):
+        if lines[i]["speaker"] in ("CLIP", "OUTRO") and vis.startswith("clip:"):
             src = CLIPDIR / f"{vis[5:]}.mp4"
             if src.exists():
                 wav = work / f"clip{i:03d}.wav"
@@ -178,7 +178,7 @@ def main():
             rows.append((v, f"{ttl[:80]} · {c['author'][:60] or 'author unknown'} · {c['license']} · {c['source']}"))
         if ln.get("credit") and not any(r[1] == ln["credit"] for r in rows):
             rows.append((v + ":credit", ln["credit"]))   # a line's own credit, e.g. a photo illustration
-        if v.startswith("clip:") and not any(r[0] == v for r in rows):
+        if v.startswith("clip:") and ln["caption"] and not any(r[0] == v for r in rows):
             rows.append((v, ln["caption"]))
     rows.append(("own", "Athens photographs by Matthew Hagan, 2017 to 2025"))
     for k in range(0, len(rows), 7):
@@ -215,7 +215,9 @@ def main():
                 D = sum(durs[i] for i in sh["idx"]); cp = work / f"c{n:03d}_clip.png"
                 credit = lines[sh["idx"][0]]["caption"]
                 im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dd = ImageDraw.Draw(im); fnt = font("Barlow-Regular.ttf", 20)
-                dd.rectangle([0, H - 44, W, H], fill=(15, 12, 9, 170)); dd.text((24, H - 34), credit, font=fnt, fill=INK); im.save(cp)
+                if credit:   # outro stings carry no credit bar
+                    dd.rectangle([0, H - 44, W, H], fill=(15, 12, 9, 170)); dd.text((24, H - 34), credit, font=fnt, fill=INK)
+                im.save(cp)
                 clip = work / f"s{n:03d}.mp4"
                 ff("-i", str(clip_src), "-i", str(cp), "-filter_complex",
                    f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},format=yuv420p[v];[v][1:v]overlay=0:0[out]",
