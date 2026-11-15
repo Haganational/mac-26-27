@@ -1424,7 +1424,7 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 37,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -1432,13 +1432,13 @@
     "key": null,
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": 24,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911520",
@@ -1468,7 +1468,7 @@
     "key": null,
     "name": "Sacramento State Hornets",
     "abbr": "SAC",
-    "score": 31,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -1476,13 +1476,13 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 29,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:04 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911455",
@@ -8727,5 +8727,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T01:46:46+00:00"
+ "live_at": "2026-11-15T02:01:31+00:00"
 }
