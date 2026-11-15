@@ -75,6 +75,20 @@ def caption(name, text, path):
     im.save(path)
 
 
+def avatar_card(v, path):
+    """An anchor's keyed portrait at the lower right with a name plate, for their first line."""
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    av = Image.open(ROOT / v["avatar"]).convert("RGBA"); av = av.crop(av.getbbox())
+    hh = int(H * 0.74); av = av.resize((int(av.width * hh / av.height), hh), Image.LANCZOS)
+    x = W - av.width - 36; im.alpha_composite(av, (x, H - hh))
+    nm, sub = font("BarlowCondensed-Bold.ttf", 30), font("Barlow-Regular.ttf", 19)
+    name, desk = v["name"], v.get("desk", "")
+    pw = int(max(d.textlength(name, font=nm), d.textlength(desk, font=sub))) + 44; px, py = x - pw + 34, H - 318
+    d.rectangle([px, py, px + pw, py + 74], fill=(15, 12, 9, 225)); d.rectangle([px, py, px + 4, py + 74], fill=GOLD)
+    d.text((px + 20, py + 9), name, font=nm, fill=GOLD); d.text((px + 20, py + 45), desk, font=sub, fill=INK)
+    im.save(path)
+
+
 def read_wav(p):
     with wave.open(str(p)) as w:
         return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
@@ -206,7 +220,7 @@ def main():
         if ln["visual"] is not None or not shots:
             shots.append({"visual": ln["visual"], "idx": []})
         shots[-1]["idx"].append(i)
-    clips, t_abs, srt = [], 0.0, []
+    clips, t_abs, srt, met = [], 0.0, [], set()
     for n, sh in enumerate(shots):
         vis = sh["visual"]
         clip_src = d / "clips" / f"{vis[5:]}.mp4" if vis.startswith("clip:") else None
@@ -250,9 +264,12 @@ def main():
         args, caps, t0 = ["-loop", "1", "-i", str(img)], [], 0.0
         for k, i in enumerate(sh["idx"]):
             ln = lines[i]; v = voices.get(ln["speaker"])
+            if v and v.get("avatar") and ln["speaker"] not in met and not ln.get("no_avatar") and (ROOT / v["avatar"]).exists():
+                met.add(ln["speaker"]); ap = work / f"a{n:03d}_{k}.png"; avatar_card(v, ap); args += ["-i", str(ap)]
+                caps.append((t0, min(t0 + durs[i], t0 + 7.0), True))   # pops up for the anchor's first line
             if v:
                 cp = work / f"c{n:03d}_{k}.png"; caption(v["name"], ln["caption"], cp); args += ["-i", str(cp)]
-                caps.append((t0, t0 + durs[i]))
+                caps.append((t0, t0 + durs[i], False))
                 srt.append((t_abs + t0, t_abs + t0 + durs[i] - TAIL + 0.1, f"{v['name']}: {ln['caption']}"))
             t0 += durs[i]
         if vis.startswith("shake:") and img.suffix == ".png":
@@ -264,8 +281,9 @@ def main():
             f = (f"[0:v]scale={W*2}:-2,zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
                  f":d={fr}:s={W}x{H}:fps={FPS},format=yuv420p[b0]")
         last = "b0"
-        for j, (s0, s1) in enumerate(caps):
-            f += f";[{last}][{j+1}:v]overlay=0:0:enable='between(t,{s0:.3f},{s1:.3f})'[b{j+1}]"; last = f"b{j+1}"
+        for j, (s0, s1, pop) in enumerate(caps):
+            y = f"'if(lt(t,{s0+0.35:.3f}),(1-(t-{s0:.3f})/0.35)*{H},if(gt(t,{s1-0.35:.3f}),(1-({s1:.3f}-t)/0.35)*{H},0))'" if pop else "0"
+            f += f";[{last}][{j+1}:v]overlay=x=0:y={y}:enable='between(t,{s0:.3f},{s1:.3f})'[b{j+1}]"; last = f"b{j+1}"
         f += f";[{last}]fade=in:st=0:d=0.4,fade=out:st={max(D-0.4,0):.3f}:d=0.4[out]"
         clip = work / f"s{n:03d}.mp4"
         ff(*args, "-filter_complex", f, "-map", "[out]", "-t", f"{D:.3f}", "-r", str(FPS),

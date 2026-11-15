@@ -8,15 +8,21 @@
   },
   "R": {
    "name": "RAY ABERNATHY",
-   "ref": "voices/anchors/ohio.ogg"
+   "ref": "voices/anchors/ohio.ogg",
+   "avatar": "anchors/ohio.webp",
+   "desk": "Ohio desk · AI anchor"
   },
   "K": {
    "name": "MARCUS VANCE",
-   "ref": "voices/anchors/akron.ogg"
+   "ref": "voices/anchors/akron.ogg",
+   "avatar": "anchors/akron.webp",
+   "desk": "Akron desk · AI anchor"
   },
   "S": {
    "name": "SIMONE BAPTISTE",
-   "ref": "voices/anchors/buffalo.ogg"
+   "ref": "voices/anchors/buffalo.ogg",
+   "avatar": "anchors/buffalo.webp",
+   "desk": "Buffalo desk · AI anchor"
   }
  },
  "lines": [
@@ -115,7 +121,8 @@
    "speaker": "K",
    "say": "Ray, I've got the 1880 census open. Lee Township, Athens County. Christopher C. Davis, twenty-four, farm laborer near Albany. Wife Kenziah. A three-year-old daughter, Robertie, and a baby boy, Silas. That's an Ohio family.",
    "caption": "Ray, I've got the 1880 census open. Lee Township, Athens County. Christopher C. Davis, twenty-four, farm laborer near Albany. Wife Kenziah. A three-year-old daughter, Robertie, and a baby boy, Silas. That's an Ohio family.",
-   "visual": "davis-portrait-1"
+   "visual": "davis-portrait-1",
+   "no_avatar": true
   },
   {
    "speaker": "M",
