@@ -2146,7 +2146,7 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 61,
+    "score": 67,
     "winner": null
    },
    "away": {
@@ -2154,13 +2154,13 @@
     "key": null,
     "name": "Cincinnati Bearcats",
     "abbr": "CIN",
-    "score": 78,
+    "score": 90,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:29 - 2nd"
+   "detail": "2:59 - 2nd"
   },
   {
    "game_id": "401911276",
@@ -2190,7 +2190,7 @@
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 64,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -2198,13 +2198,13 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 45,
+    "score": 58,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "5:30 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401925812",
@@ -12617,5 +12617,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-15T02:17:31+00:00"
+ "live_at": "2026-11-15T02:32:51+00:00"
 }
