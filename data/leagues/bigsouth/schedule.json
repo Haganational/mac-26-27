@@ -1588,21 +1588,21 @@
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
    "away": {
     "espn_id": "2272",
     "key": "high-point",
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "13:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922283",
@@ -8739,5 +8739,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:16:02+00:00"
 }

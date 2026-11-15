@@ -1679,7 +1679,7 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1687,13 +1687,13 @@
     "key": null,
     "name": "Doane Tigers",
     "abbr": "DOAN",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:14 - 1st"
   },
   {
    "game_id": "401919807",
@@ -7718,5 +7718,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:15:11+00:00"
 }

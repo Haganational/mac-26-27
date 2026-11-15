@@ -1785,7 +1785,7 @@
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -1793,13 +1793,13 @@
     "key": "idaho-state",
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:39 - 1st"
+   "detail": "15:55 - 2nd"
   },
   {
    "game_id": "401920124",
@@ -9480,5 +9480,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:14:04+00:00"
 }

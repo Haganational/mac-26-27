@@ -1977,21 +1977,21 @@
     "key": "alabama-am",
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "325",
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401926772",
@@ -10779,5 +10779,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:18:51+00:00"
 }

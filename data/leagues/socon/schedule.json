@@ -1951,21 +1951,21 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": null,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "134850",
     "key": null,
     "name": "Wright State-Lake Lakers",
     "abbr": "WSUL",
-    "score": null,
-    "winner": null
+    "score": 34,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918075",
@@ -9781,5 +9781,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:13:22+00:00"
 }

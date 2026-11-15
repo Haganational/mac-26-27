@@ -1585,7 +1585,7 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -1593,13 +1593,13 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:18 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401911472",
@@ -8714,5 +8714,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:06:16+00:00"
 }

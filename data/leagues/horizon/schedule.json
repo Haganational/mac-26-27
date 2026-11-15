@@ -2179,7 +2179,7 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 73,
     "winner": null
    },
    "away": {
@@ -2187,13 +2187,13 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
+    "score": 74,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:58 - 2nd"
+   "detail": "0:08 - OT"
   },
   {
    "game_id": "401926068",
@@ -2220,21 +2220,21 @@
     "key": null,
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "12:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909544",
@@ -10452,5 +10452,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-15T22:05:36+00:00"
 }
