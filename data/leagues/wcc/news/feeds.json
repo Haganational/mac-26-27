@@ -1,13 +1,13 @@
 {
  "google:denver": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "entries": 3,
-  "error": null,
+  "error": "EmptyFeed: no entries",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-15T12:04:50+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "denver",
   "url": "https://news.google.com/rss/search?q=%22Denver+Pioneers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -15,7 +15,7 @@
   "via_google": false
  },
  "google:loyola-marymount": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -24,13 +24,13 @@
   "url": "https://news.google.com/rss/search?q=%22Loyola+Marymount+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:pacific": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "entries": 2,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "Google News",
   "team": "pacific",
@@ -39,7 +39,7 @@
   "via_google": false
  },
  "google:pepperdine": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -48,13 +48,13 @@
   "url": "https://news.google.com/rss/search?q=%22Pepperdine+Waves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:portland": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "entries": 3,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "Google News",
   "team": "portland",
@@ -63,7 +63,7 @@
   "via_google": false
  },
  "google:saint-marys": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -72,13 +72,13 @@
   "url": "https://news.google.com/rss/search?q=%22Saint+Mary%27s+Gaels+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:san-diego": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
-  "entries": 3,
+  "checked_at": "2026-11-15T18:04:39+00:00",
+  "entries": 4,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "Google News",
   "team": "san-diego",
@@ -87,13 +87,13 @@
   "via_google": false
  },
  "google:san-francisco": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
-  "entries": 1,
+  "checked_at": "2026-11-15T18:04:39+00:00",
+  "entries": 2,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "Google News",
   "team": "san-francisco",
@@ -102,13 +102,13 @@
   "via_google": false
  },
  "google:santa-clara": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "entries": 1,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "Google News",
   "team": "santa-clara",
@@ -117,7 +117,7 @@
   "via_google": false
  },
  "google:seattle": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -126,13 +126,13 @@
   "url": "https://news.google.com/rss/search?q=%22Seattle+U+Redhawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:wcc": {
-  "checked_at": "2026-11-15T12:04:50+00:00",
+  "checked_at": "2026-11-15T18:04:39+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 9,
   "kind": "league",
-  "last_ok": "2026-11-15T12:04:50+00:00",
+  "last_ok": "2026-11-15T18:04:39+00:00",
   "ok": true,
   "source": "WCC (wccsports.com)",
   "team": null,

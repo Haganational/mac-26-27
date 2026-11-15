@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T12:01:19+00:00",
+ "fetched_at": "2026-11-15T18:01:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -1453,10 +1453,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-11-15-2026--sports-ncaa-basketball/production/7610341?wsUser=717",
-    "low": 16.0
-   },
+   "tickets": null,
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -1465,7 +1462,7 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": 31,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -1473,13 +1470,13 @@
     "key": null,
     "name": "Abraham Baldwin Agricultural Stallions",
     "abbr": "ABAC",
-    "score": 8,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401906783",
@@ -1584,7 +1581,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-17-2026/production/7094384?wsUser=717",
-    "low": 10.0
+    "low": 8.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -1842,7 +1839,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-19-2026--sports-ncaa-basketball/production/7503567?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "KFC Yum! Center",
    "venue_city": "Louisville",
@@ -8068,6 +8065,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T17:30:43+00:00"
+ ]
 }
