@@ -243,7 +243,7 @@ def test_no_odds_name_belongs_to_two_editions():
 def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     import re
     tags = {lg.key: re.sub(r"\W", "", lg.hashtag or lg.short) for lg in leagues.ALL.values()}
-    assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
+    assert tags == {"mac": "MACtion", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
                     "metro": "MetroConference", "bigwest": "BigWest",
                     "mvc": "MVCHoops", "a10": "A10MBB",
                     "pac12": "Pac12MBB", "wcc": "WCCHoops",

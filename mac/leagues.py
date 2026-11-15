@@ -74,7 +74,7 @@ class League:
 
 
 MAC = League(
-    key="mac", short="MAC", name="Mid-American Conference", region="Ohio, Michigan, Indiana, New York and Massachusetts",
+    key="mac", short="MAC", name="Mid-American Conference", hashtag="MACtion", region="Ohio, Michigan, Indiana, New York and Massachusetts",
     teams=(
         Team("akron", "2006", "AKR", "Akron Zips", "Akron", "#041E42", "#A89968"),
         Team("ball-state", "2050", "BALL", "Ball State Cardinals", "Ball State", "#BA0C2F", "#FFFFFF"),

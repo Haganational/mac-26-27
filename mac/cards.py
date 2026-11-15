@@ -33,7 +33,7 @@ from typing import Any
 
 from PIL import Image
 
-from . import anchors
+from . import anchors, tags
 from .den import ET, TEAM, data_dirs, load_boxes, load_games, parse_iso
 from .leagues import ALL, ROOT
 
@@ -60,6 +60,28 @@ class Card:
 
 def team_of(espn_id: Any) -> tuple[Any, Any] | None:
     return TEAM.get(str(espn_id))
+
+
+def tagged(text: str, tagline: str, limit: int) -> str:
+    """The caption with its hashtags at the end, or without them if they would not fit."""
+    out = f"{text}\n\n{tagline}" if tagline else text
+    return out if len(out) <= limit else text
+
+
+def tag_caps(caps: dict[str, str], spec: list[str], extra: tuple[str, ...] = ()) -> dict[str, str]:
+    """Hashtags per network (Nov 15 2026): Instagram up to five, Bluesky and Facebook three or four,
+    Threads one topic (its limit). The first line, the never-twice key, is never touched."""
+    lines = {"instagram": (tags.line([*extra, *spec]), 2200), "bluesky": (tags.line([*extra, *spec][:1]), 300),
+             "facebook": (tags.line([*extra, *spec][:1]), 5000), "threads": ((spec or [tags.SPORT])[0], 500)}
+    out = dict(caps)
+    for net, (line, limit) in lines.items():
+        if out.get(net) and line not in out[net]:
+            if net == "instagram" or net == "facebook":  # keep the AI disclosure last
+                body, sep, tail = out[net].rpartition("\n\n" + DISCLOSURE)
+                out[net] = tagged(body, line, limit - len(sep)) + sep if sep else tagged(out[net], line, limit)
+            else:
+                out[net] = tagged(out[net], line, limit)
+    return out
 
 
 _NAMES: dict[str, dict[str, str]] | None = None
@@ -360,17 +382,17 @@ def potn_card(day: str, rows: list[dict[str, Any]]) -> Card | None:
     top = rows[0]
     big = stat_line(top)[0].replace("·", " and ")
     link = f"{SITE}/players.html"
-    tags = " ".join(sorted({"#" + (r["league"].hashtag or r["league"].short).lstrip("#").replace(" ", "").replace("-", "") for r in rows[:3]}))
+    spec = tags.specific((r["team"], r["league"]) for r in rows[:3])
     caps = {
         "instagram": f"Mid-Major Players of the Night, {pretty_day(day)}.\n\n{top['name']} put up {big} for {top['team'].short}. "
-                     f"Swipe for the best line in every edition we cover. Box scores: link in bio.\n\n#MidMaxxing #CollegeBasketball {tags}\n\n{DISCLOSURE}",
+                     f"Swipe for the best line in every edition we cover. Box scores: link in bio.\n\n{DISCLOSURE}",
         "facebook": f"Players of the Night from {n} mid-major leagues, {pretty_day(day)}.\n\n"
                     + "\n".join(f"{r['league'].short}: {r['name']}, {r['team'].short} ({stat_line(r)[0].replace('·', ' and ')})" for r in rows)
                     + f"\n\nBox scores and recaps: {link}\n\n{DISCLOSURE}",
         "threads": f"{n} leagues, {n} best lines from {Date.fromisoformat(day).strftime('%A')}. {top['team'].short}'s {top['name']} ({big}) leads the way. Which one's your guy?",
         "bluesky": f"Mid-Major Players of the Night, {pretty_day(day)} 🧱\n{top['name']}, {top['team'].short}: {big}.\nAll {n}: {link}",
     }
-    return Card("potn", day, slides, caps, alts, link)
+    return Card("potn", day, slides, tag_caps(caps, spec), alts, link)
 
 
 def bricked_card(day: str, b: dict[str, Any] | None, also: list[dict[str, Any]]) -> Card | None:
@@ -412,7 +434,8 @@ def bricked_card(day: str, b: dict[str, Any] | None, also: list[dict[str, Any]])
                     f"Every recap: {link}\n\n{DISCLOSURE}",
         "instagram_story": "",
     }
-    return Card("bricked", day, [slide], caps, [f"Bricked: {fname}, a {pts}-point favorite, lost {dog['score']}-{fav['score']} to {dname}."], link)
+    spec = tags.specific(tl for tl in (team_of(dog.get("espn_id")), team_of(fav.get("espn_id"))) if tl)
+    return Card("bricked", day, [slide], tag_caps(caps, spec), [f"Bricked: {fname}, a {pts}-point favorite, lost {dog['score']}-{fav['score']} to {dname}."], link)
 
 
 def slate_card(day: str, four: list[dict[str, Any]], total: int) -> Card | None:
@@ -449,7 +472,8 @@ def slate_card(day: str, four: list[dict[str, Any]], total: int) -> Card | None:
                    + ". Which one are you watching?",
         "instagram_story": "",
     }
-    return Card("slate", day, [slide], caps, [f"{head}: " + "; ".join(say(s) for s in four)], link)
+    spec = tags.specific(tl for tl in (team_of(s["lead"].get("espn_id")) for s in four) if tl)
+    return Card("slate", day, [slide], tag_caps(caps, spec), [f"{head}: " + "; ".join(say(s) for s in four)], link)
 
 
 def desk_card(day: str, d: dict[str, Any] | None) -> Card | None:
@@ -490,14 +514,15 @@ def desk_card(day: str, d: dict[str, Any] | None) -> Card | None:
     picks = ", ".join(p["short"] for p in d["picks"])
     caps = {
         "instagram": f"Beat the Desk, {pretty_day(day)}. Today's anchor is {a['name']} from the {a.get('school', '')} desk, and these are the four picks. "
-                     f"Think you can do better? Play in the Den: link in bio.\n\n#MidMaxxing #CollegeBasketball #BeatTheDesk\n\n{DISCLOSURE}",
+                     f"Think you can do better? Play in the Den: link in bio.\n\n{DISCLOSURE}",
         "facebook": f"Today's desk anchor is {a['name']} ({a.get('school', '')}). Four picks: {picks}. Think you can beat them? "
                     f"Make yours in the Den before tip: {link}\n\n{DISCLOSURE}",
         "threads": (f"{first} from the {a.get('school', '')} desk has {homer} today. Of course. " if homer else f"{first} is on the desk today. ")
                    + "Beat the four picks in the Den.",
         "bluesky": f"Beat the Desk, {pretty_day(day)}: {a['name']} ({a.get('school', '')}) picks {picks}. Your turn: {link}",
     }
-    return Card("desk", day, [slide], caps, [f"Beat the Desk: {a['name']} picks {picks}."], link)
+    spec = tags.specific(tl for tl in (team_of(p.get("team_id")) for p in d["picks"]) if tl)
+    return Card("desk", day, [slide], tag_caps(caps, spec, ("#BeatTheDesk",)), [f"Beat the Desk: {a['name']} picks {picks}."], link)
 
 
 def build(kind: str, today: str) -> Card | None:
