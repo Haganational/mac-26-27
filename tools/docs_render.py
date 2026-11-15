@@ -191,6 +191,9 @@ def main():
             im.save(img)
         elif vis.startswith("card:"):
             img = work / f"v{n:03d}.png"; t, s = vis[5:].split("|", 1); card(t, s, img)
+        elif vis.startswith("still:") and (d / "photos" / f"{vis[6:]}.jpg").exists():
+            img = work / f"v{n:03d}.png"   # full-frame art (logos): shown as is, no pan
+            ImageOps.fit(Image.open(d / "photos" / f"{vis[6:]}.jpg").convert("RGB"), (W, H)).save(img)
         else:
             src = next((p for p in (d / "photos" / f"{vis}.jpg", d / "broll" / f"{vis}.jpg") if p.exists()), None)
             if not src:
