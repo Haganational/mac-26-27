@@ -1162,8 +1162,88 @@ OVC = League(
 )
 
 
+# America East 2026-27 membership from ESPN's conference feed (group 1).
+AMEAST = League(
+    key="americaeast", short="America East", name="America East Conference",
+    region="New England and the Northeast, from Orono, Burlington and Durham down through Lowell, Smithfield and Albany to Binghamton, Newark and Baltimore",
+    teams=(
+        Team("binghamton", "2066", "BING", "Binghamton Bearcats", "Binghamton", "#005A43", "#FFFFFF"),
+        Team("bryant", "2803", "BRY", "Bryant Bulldogs", "Bryant", "#000000", "#B8A16E"),
+        Team("maine", "311", "ME", "Maine Black Bears", "Maine", "#003263", "#B0D7FF"),
+        Team("njit", "2885", "NJIT", "NJIT Highlanders", "NJIT", "#D22630", "#071D49"),
+        Team("new-hampshire", "160", "UNH", "New Hampshire Wildcats", "New Hampshire", "#003591", "#FFFFFF"),
+        Team("ualbany", "399", "ALB", "UAlbany Great Danes", "UAlbany", "#46166B", "#EEB211"),
+        Team("umbc", "2378", "UMBC", "UMBC Retrievers", "UMBC", "#000000", "#FDB515"),
+        Team("umass-lowell", "2349", "UML", "UMass Lowell River Hawks", "UMass Lowell", "#0067B1", "#C8102E"),
+        Team("vermont", "261", "UVM", "Vermont Catamounts", "Vermont", "#154734", "#FFD100"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="americaeast/",
+    theme="covered",
+    odds_aliases={
+        "Albany Great Danes": "ualbany",
+    },
+    news_names={
+        "binghamton": {"query": "Binghamton Bearcats basketball", "match": [r"\bBinghamton\b"]},
+        "bryant": {"query": "Bryant Bulldogs basketball", "match": [r"\bBryant Bulldogs\b", r"\bBryant University\b"]},
+        "maine": {"query": "Maine Black Bears basketball", "match": [r"\bMaine Black Bears\b", r"\bUniversity of Maine\b"]},
+        "njit": {"query": "NJIT Highlanders basketball", "match": [r"\bNJIT\b"]},
+        "new-hampshire": {"query": "New Hampshire Wildcats basketball", "match": [r"\bNew Hampshire Wildcats\b", r"\bUNH\b"]},
+        "ualbany": {"query": "UAlbany Great Danes basketball", "match": [r"\bUAlbany\b", r"\bAlbany Great Danes\b"]},
+        "umbc": {"query": "UMBC Retrievers basketball", "match": [r"\bUMBC\b"]},
+        "umass-lowell": {"query": "UMass Lowell River Hawks basketball", "match": [r"\bUMass Lowell\b"]},
+        "vermont": {"query": "Vermont Catamounts basketball", "match": [r"\bVermont Catamounts\b", r"\bUVM\b"]},
+    },
+    league_feed=("americaeast.com", "America East (americaeast.com)"),
+    hashtag="AEHoops",
+    tournament="the America East tournament",
+)
 
-ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC)}
+# Patriot League 2026-27 membership from ESPN's conference feed (group 22).
+PATRIOT = League(
+    key="patriot", short="Patriot", name="Patriot League",
+    region="the Northeast and the Mid-Atlantic, from Boston, Worcester and Hamilton through Lewisburg, Bethlehem, Easton and West Point to Baltimore, Annapolis and Washington",
+    teams=(
+        Team("american-u", "44", "AMER", "American University Eagles", "American", "#C4122F", "#002D72"),
+        Team("army", "349", "ARMY", "Army Black Knights", "Army", "#000000", "#D4BF91"),
+        Team("boston-u", "104", "BU", "Boston University Terriers", "Boston University", "#CC0000", "#FFFFFF"),
+        Team("bucknell", "2083", "BUCK", "Bucknell Bison", "Bucknell", "#003865", "#E87722"),
+        Team("colgate", "2142", "COLG", "Colgate Raiders", "Colgate", "#821019", "#FFFFFF"),
+        Team("holy-cross", "107", "HC", "Holy Cross Crusaders", "Holy Cross", "#602D89", "#FFFFFF"),
+        Team("lafayette", "322", "LAF", "Lafayette Leopards", "Lafayette", "#98002E", "#FFFFFF"),
+        Team("lehigh", "2329", "LEH", "Lehigh Mountain Hawks", "Lehigh", "#653819", "#FFFFFF"),
+        Team("loyola-md", "2352", "L-MD", "Loyola Maryland Greyhounds", "Loyola Maryland", "#00694E", "#B9B9B9"),
+        Team("navy", "2426", "NAVY", "Navy Midshipmen", "Navy", "#00205B", "#C5B783"),
+    ),
+    features=frozenset({"midmaxx60"}),
+    path="patriot/",
+    theme="colonial",
+    odds_aliases={
+        "American Eagles": "american-u",
+        "Army Knights": "army",
+        "Boston Univ. Terriers": "boston-u",
+        "Loyola (MD) Greyhounds": "loyola-md",
+    },
+    news_names={
+        "american-u": {"query": "American University Eagles basketball", "match": [r"\bAmerican University\b", r"\bAmerican Eagles\b"]},
+        "army": {"query": "Army Black Knights basketball", "match": [r"\bArmy Black Knights\b", r"\bArmy West Point\b"]},
+        "boston-u": {"query": "Boston University Terriers basketball", "match": [r"\bBoston University\b", r"\bBU Terriers\b"]},
+        "bucknell": {"query": "Bucknell Bison basketball", "match": [r"\bBucknell\b"]},
+        "colgate": {"query": "Colgate Raiders basketball", "match": [r"\bColgate\b"]},
+        "holy-cross": {"query": "Holy Cross Crusaders basketball", "match": [r"\bHoly Cross\b"]},
+        "lafayette": {"query": "Lafayette Leopards basketball", "match": [r"\bLafayette Leopards\b", r"\bLafayette College\b"]},
+        "lehigh": {"query": "Lehigh Mountain Hawks basketball", "match": [r"\bLehigh\b"]},
+        "loyola-md": {"query": "Loyola Maryland Greyhounds basketball", "match": [r"\bLoyola Maryland\b", r"\bLoyola \(Md\.?\)", r"\bGreyhounds\b"]},
+        "navy": {"query": "Navy Midshipmen basketball", "match": [r"\bNavy Midshipmen\b", r"\bNaval Academy\b"]},
+    },
+    league_feed=("patriotleague.org", "Patriot League (patriotleague.org)"),
+    hashtag="PatriotLeagueMBB",
+    tournament="the Patriot League tournament",
+)
+
+
+
+ALL: dict[str, League] = {lg.key: lg for lg in (MAC, ASUN, HORIZON, MW, METRO, BIGWEST, MVC, A10, PAC12, WCC, AMERICAN, SUNBELT, IVY, CAA, CUSA, SOCON, BIGSKY, SOUTHLAND, SUMMIT, UAC, BIGSOUTH, OVC, AMEAST, PATRIOT)}
 
 
 def current() -> League:
