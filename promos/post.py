@@ -4,7 +4,7 @@
 
 Every post links to the full film on YouTube. The film's link comes from "main_url" in the
 manifest or, when that is empty, from the channel's own uploads (the newest title containing
-"main_title_contains"). No link, no posts. "stage" in the manifest: "dry" prints the plan,
+"main_title_contains"). No link, no posts. "stage" in the manifest: "done" skips a released film, "dry" prints the plan,
 "youtube" uploads the Shorts only, "all" uploads the Shorts and cross-posts. Each network is
 checked for the reel's title first, so a re-run only fills gaps and never posts twice.
 """
@@ -130,6 +130,8 @@ def main() -> None:
     path = Path(sys.argv[1])
     m = json.loads(path.read_text())
     stage = m.get("stage", "dry")
+    if stage == "done":   # a released film: never touched again, so a later film's run cannot repost it
+        print(f"{path.parent.name}: released, nothing to do"); return
     cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
     token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
     film = m.get("main_url", "").strip() or (find_film(token, m["main_title_contains"]) if token else "")

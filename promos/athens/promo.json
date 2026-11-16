@@ -1,22 +1,22 @@
 {
-  "stage": "all",
-  "run": 3,
-  "main_title_contains": "Athens, Ohio",
-  "main_url": "",
-  "release": "athens-promos",
-  "reels": [
-    {
-      "file": "athens-reel-1-the-name.mp4",
-      "thumb": "athens-reel-1-the-name-thumb.jpg",
-      "title": "The name I never heard: Athens, Ohio, 1881",
-      "text": "I went to school in Athens, Ohio for four years and never heard the name Christopher Davis. A minute from our new film, Athens, Ohio: From South Bridge to 2025."
-    },
-    {
-      "file": "athens-reel-2-nobody-made-them.mp4",
-      "thumb": "athens-reel-2-nobody-made-them-thumb.jpg",
-      "title": "Nobody made them: Athens, Ohio, 1881 to 2025",
-      "text": "From a mob on the South Bridge in 1881 to the institutions that folded in 2025. Nobody made them. A minute from our new film, Athens, Ohio: From South Bridge to 2025."
-    }
-  ],
-  "rethumb": true
+ "stage": "done",
+ "run": 3,
+ "main_title_contains": "Athens, Ohio",
+ "main_url": "",
+ "release": "athens-promos",
+ "reels": [
+  {
+   "file": "athens-reel-1-the-name.mp4",
+   "thumb": "athens-reel-1-the-name-thumb.jpg",
+   "title": "The name I never heard: Athens, Ohio, 1881",
+   "text": "I went to school in Athens, Ohio for four years and never heard the name Christopher Davis. A minute from our new film, Athens, Ohio: From South Bridge to 2025."
+  },
+  {
+   "file": "athens-reel-2-nobody-made-them.mp4",
+   "thumb": "athens-reel-2-nobody-made-them-thumb.jpg",
+   "title": "Nobody made them: Athens, Ohio, 1881 to 2025",
+   "text": "From a mob on the South Bridge in 1881 to the institutions that folded in 2025. Nobody made them. A minute from our new film, Athens, Ohio: From South Bridge to 2025."
+  }
+ ],
+ "rethumb": false
 }
