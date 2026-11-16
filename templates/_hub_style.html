@@ -243,4 +243,17 @@
   }
   @media (max-width: 380px) { .hb-grid small { display: none; } }
   .nw { white-space: nowrap; }  /* scores in headlines stay on one line */
+  /* Landing hello: At-Large swells once (0-0.6 s), then Watch's eyes open, blink twice and close (0.6-1.5 s). */
+  .bar .hb-al span { display: inline-block; transform-origin: 50% 60%; }
+  .bar .hb-watch { position: relative; }
+  .bar .hb-eyes { position: absolute; left: 50%; top: -3px; margin-left: -11px; opacity: 0; transform-origin: 50% 50%; pointer-events: none; }
+  .bar.hello .hb-al span { animation: hb-swell .6s ease-in-out both; }
+  .bar.hello .hb-eyes { animation: hb-blink .9s ease-in-out .6s both; }
+  @keyframes hb-swell { 0% { transform: scale(1); } 45% { transform: scale(1.16); } 100% { transform: scale(1); } }
+  @keyframes hb-blink {
+    0% { opacity: 0; transform: scaleY(.1); } 12% { opacity: 1; transform: scaleY(1); }
+    30% { transform: scaleY(1); } 38% { transform: scaleY(.1); } 46% { transform: scaleY(1); }
+    60% { transform: scaleY(1); } 68% { transform: scaleY(.1); } 76% { transform: scaleY(1); }
+    90% { opacity: 1; } 100% { opacity: 0; transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) { .bar.hello .hb-al span, .bar.hello .hb-eyes { animation: none; } }
 </style>
