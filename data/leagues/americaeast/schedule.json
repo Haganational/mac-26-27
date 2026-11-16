@@ -1838,7 +1838,7 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -1846,13 +1846,13 @@
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": null,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "15:30 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401923325",
@@ -8628,5 +8628,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T23:43:58+00:00"
 }

@@ -2179,7 +2179,7 @@
     "key": null,
     "name": "Maryland Terrapins",
     "abbr": "MD",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2187,13 +2187,13 @@
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:36 - 1st"
+   "detail": "4:45 - 1st"
   },
   {
    "game_id": "401916317",
@@ -2223,7 +2223,7 @@
     "key": null,
     "name": "Ohio State Buckeyes",
     "abbr": "OSU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2231,13 +2231,13 @@
     "key": "prairie-view",
     "name": "Prairie View A&M Panthers",
     "abbr": "PV",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:51 - 1st"
   },
   {
    "game_id": "401921804",
@@ -10770,5 +10770,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T23:45:12+00:00"
 }
