@@ -1670,7 +1670,7 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -1678,13 +1678,13 @@
     "key": null,
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:23 - 1st"
   },
   {
    "game_id": "401924922",
@@ -8711,5 +8711,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T19:32:34+00:00"
 }
