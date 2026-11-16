@@ -30,6 +30,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -154,7 +155,18 @@ def th_images(user: str, token: str, urls: list[str], text: str, alts: list[str]
         cid = _ok(requests.post(f"{THREADS}/{user}/threads", timeout=120, data={
             "media_type": "CAROUSEL", "children": ",".join(kids), "text": text, "access_token": token}))["id"]
     _th_ready(cid, token)
-    return _ok(requests.post(f"{THREADS}/{user}/threads_publish", timeout=60, data={"creation_id": cid, "access_token": token})).get("id", "")
+    return th_publish(user, token, cid)
+
+
+def th_publish(user: str, token: str, cid: str, tries: int = 4, pause: float = 15) -> str:
+    """Publish a FINISHED container. Threads sometimes answers "Media Not Found" (subcode 4279009) for a
+    container it just called FINISHED (bricked, Nov 16 2026); a short wait and a retry clears it."""
+    for i in range(tries):
+        r = requests.post(f"{THREADS}/{user}/threads_publish", timeout=60, data={"creation_id": cid, "access_token": token})
+        if r.ok or "4279009" not in r.text or i == tries - 1:
+            return _ok(r).get("id", "")
+        time.sleep(pause)
+    return ""
 
 
 # ---------- Bluesky ----------
