@@ -209,7 +209,7 @@ def main():
             rows.append((v, f"{ttl[:80]} · {c['author'][:60] or 'author unknown'} · {c['license']} · {c['source']}"))
         if ln.get("credit") and not any(r[1] == ln["credit"] for r in rows):
             rows.append((v + ":credit", ln["credit"]))   # a line's own credit, e.g. a photo illustration
-        if v.startswith("clip:") and ln["caption"] and not any(r[0] == v for r in rows):
+        if v.startswith("clip:") and ln["speaker"] == "CLIP" and ln["caption"] and not any(r[0] == v for r in rows):
             rows.append((v, ln["caption"]))
     rows.append(("own", spec.get("own_credit", OWN_CREDIT)))
     for k in range(0, len(rows), 7):
@@ -244,14 +244,21 @@ def main():
         if clip_src is not None:
             if clip_src.exists():
                 D = sum(durs[i] for i in sh["idx"]); cp = work / f"c{n:03d}_clip.png"
-                credit = lines[sh["idx"][0]]["caption"]
+                first = lines[sh["idx"][0]]   # a clip under narration shows only its own credit, never the spoken line
+                credit = first["caption"] if first["speaker"] in ("CLIP", "OUTRO") else first.get("credit", "")
+                t0 = 0.0
+                for i in sh["idx"]:   # narration over a clip still gets its subtitle cue
+                    v = voices.get(lines[i]["speaker"])
+                    if v:
+                        srt.append((t_abs + t0, t_abs + t0 + durs[i] - TAIL + 0.1, f"{v['name']}: {lines[i]['caption']}"))
+                    t0 += durs[i]
                 im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dd = ImageDraw.Draw(im); fnt = font("Barlow-Regular.ttf", 20)
                 if credit:   # outro stings carry no credit bar
                     dd.rectangle([0, H - 44, W, H], fill=(15, 12, 9, 170)); dd.text((24, H - 34), credit, font=fnt, fill=INK)
                 im.save(cp)
                 clip = work / f"s{n:03d}.mp4"
                 ff("-i", str(clip_src), "-i", str(cp), "-filter_complex",
-                   f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},format=yuv420p[v];[v][1:v]overlay=0:0[out]",
+                   f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},tpad=stop_mode=clone:stop_duration=60,format=yuv420p[v];[v][1:v]overlay=0:0[out]",
                    "-map", "[out]", "-t", f"{D:.3f}", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", str(clip))
                 clips.append(clip); t_abs += D; print(f"shot {n}: {vis} {D:.1f}s", flush=True); continue
             vis = "card:Clip missing|" + vis[5:]
