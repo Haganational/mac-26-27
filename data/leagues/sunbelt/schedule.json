@@ -2513,7 +2513,7 @@
     "key": null,
     "name": "Wisconsin Badgers",
     "abbr": "WIS",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2521,13 +2521,13 @@
     "key": "coastal-carolina",
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:24 - 1st"
   },
   {
    "game_id": "401917981",
@@ -12397,5 +12397,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T01:25:09+00:00"
 }

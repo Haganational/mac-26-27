@@ -2021,7 +2021,7 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": 62,
+    "score": 91,
     "winner": null
    },
    "away": {
@@ -2029,13 +2029,13 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": 19,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:13 - 2nd"
   },
   {
    "game_id": "401925718",
@@ -2056,7 +2056,7 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2064,13 +2064,13 @@
     "key": null,
     "name": "Paine Lions",
     "abbr": "PANE",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:47 - 1st"
   },
   {
    "game_id": "401911472",
@@ -10780,5 +10780,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T01:07:17+00:00"
+ "live_at": "2026-11-16T01:30:18+00:00"
 }
