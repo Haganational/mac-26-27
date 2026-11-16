@@ -86,3 +86,16 @@ def test_marked_networks_are_skipped(tmp_path, monkeypatch):
     monkeypatch.setattr(cardpost, "post_one", lambda net, *a: seen.append(net) or "posted 1")
     assert cardpost.run(tmp_path, "potn", "cards-test") == 0
     assert seen == ["bluesky"] and marked == ["bluesky"]
+
+
+def test_threads_publish_retries_media_not_found(monkeypatch):
+    class R:
+        def __init__(self, ok, text):
+            self.ok, self.text, self.content, self.status_code = ok, text, text.encode(), 200 if ok else 400
+            self.request, self.url = type("Q", (), {"method": "POST"})(), "u"
+
+        def json(self):
+            return {"id": "42"} if self.ok else {}
+    answers = [R(False, '{"error":{"error_subcode":4279009}}'), R(True, '{"id":"42"}')]
+    monkeypatch.setattr(cardpost.requests, "post", lambda *a, **k: answers.pop(0))
+    assert cardpost.th_publish("me", "t", "c", pause=0) == "42"
