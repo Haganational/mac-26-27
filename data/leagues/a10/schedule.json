@@ -2345,7 +2345,7 @@
     "key": "george-washington",
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2353,13 +2353,13 @@
     "key": null,
     "name": "Ferrum Panthers",
     "abbr": "FC",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:49 - 1st"
   },
   {
    "game_id": "401911240",
@@ -12598,5 +12598,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T17:03:50+00:00"
 }
