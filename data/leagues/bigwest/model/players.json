@@ -1,5 +1,5 @@
 {
-"as_of": "2026-11-16T05:02:24+00:00",
+"as_of": "2026-11-16T05:18:43+00:00",
 "onoff_live": false,
 "onoff_start": "2026-12-01",
 "weights": {
@@ -560,7 +560,7 @@
 "on_poss": 78.84,
 "on_net": 45.66,
 "off_net": 36.85,
-"apm": 2.37,
+"apm": 2.36,
 "onoff": 8.82,
 "rk": 18
 },
@@ -753,7 +753,7 @@
 "usage": 30.8,
 "ts": 72.4,
 "off": -0.58,
-"def": 2.51,
+"def": 2.52,
 "net": 1.93,
 "raw_net": 7.6,
 "team_adj": -0.41,
@@ -1072,7 +1072,7 @@
 "usage": 23.8,
 "ts": 57.6,
 "off": 2.45,
-"def": -1.41,
+"def": -1.42,
 "net": 1.04,
 "raw_net": 2.54,
 "team_adj": 0.71,
@@ -2720,7 +2720,7 @@
 "gp": 3,
 "mpg": 14.3,
 "min_pct": 26.9,
-"poss": 74,
+"poss": 73,
 "ppg": 6.9,
 "usage": 38.4,
 "ts": 49.6,
@@ -3160,7 +3160,7 @@
 "ts": 28.8,
 "off": 0.67,
 "def": -2.21,
-"net": -1.54,
+"net": -1.53,
 "raw_net": -7.3,
 "team_adj": -0.16,
 "prior_share": 0.83,
@@ -3202,6 +3202,35 @@
 "rk": 109
 },
 {
+"id": "5175393",
+"name": "Rockwell Reynolds",
+"team_id": "2239",
+"team_key": "cal-state-fullerton",
+"team": "CS Fullerton",
+"abbr": "CSUF",
+"pos": "F",
+"gp": 3,
+"mpg": 9.7,
+"min_pct": 24.2,
+"poss": 56,
+"ppg": 4.8,
+"usage": 27.0,
+"ts": 44.8,
+"off": -1.61,
+"def": 0.04,
+"net": -1.57,
+"raw_net": -1.24,
+"team_adj": -0.53,
+"prior_share": 0.82,
+"returning": false,
+"on_poss": 54.01,
+"on_net": -9.26,
+"off_net": 11.06,
+"apm": -2.01,
+"onoff": -20.32,
+"rk": 110
+},
+{
 "id": "5464741",
 "name": "Sean Chris Tresvant",
 "team_id": "2239",
@@ -3228,7 +3257,7 @@
 "off_net": 4.93,
 "apm": -1.45,
 "onoff": 115.07,
-"rk": 110
+"rk": 111
 },
 {
 "id": "5312319",
@@ -3257,7 +3286,7 @@
 "off_net": 4.15,
 "apm": -1.52,
 "onoff": 51.59,
-"rk": 111
+"rk": 112
 },
 {
 "id": "5240513",
@@ -3286,35 +3315,6 @@
 "off_net": 19.74,
 "apm": -1.74,
 "onoff": -6.13,
-"rk": 112
-},
-{
-"id": "5175393",
-"name": "Rockwell Reynolds",
-"team_id": "2239",
-"team_key": "cal-state-fullerton",
-"team": "CS Fullerton",
-"abbr": "CSUF",
-"pos": "F",
-"gp": 3,
-"mpg": 9.7,
-"min_pct": 24.2,
-"poss": 56,
-"ppg": 4.8,
-"usage": 27.0,
-"ts": 44.8,
-"off": -1.61,
-"def": 0.04,
-"net": -1.58,
-"raw_net": -1.24,
-"team_adj": -0.53,
-"prior_share": 0.82,
-"returning": false,
-"on_poss": 54.01,
-"on_net": -9.26,
-"off_net": 11.06,
-"apm": -2.01,
-"onoff": -20.32,
 "rk": 113
 },
 {
@@ -4761,7 +4761,7 @@
 "on_poss": 175.94,
 "on_net": -5.12,
 "off_net": null,
-"apm": -6.12,
+"apm": -6.11,
 "rk": 163
 },
 {
