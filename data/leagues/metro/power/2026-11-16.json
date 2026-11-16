@@ -1,0 +1,944 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:03-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "siena",
+   "short": "Siena",
+   "rank": 1,
+   "score": 2.0,
+   "form": 1.1,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Dayton Flyers",
+     "site": "road",
+     "score": "99-89",
+     "date": "Nov 10",
+     "bonus": 0.89
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Dayton Flyers",
+     "site": "road",
+     "conf": false,
+     "result": "W 99-89"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Brown Bears",
+     "site": "home",
+     "conf": false,
+     "result": "W 79-74"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "St. John's Red Storm",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Bucknell Bison",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tim Ibukunoluwa",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 25.2,
+     "rpg": 11.2,
+     "apg": 1.8,
+     "gp": 4
+    },
+    {
+     "name": "Pace Prosser",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.0,
+     "rpg": 4.0,
+     "apg": 7.0,
+     "gp": 4
+    },
+    {
+     "name": "Trent Egbiremolen",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 15.0,
+     "rpg": 7.5,
+     "apg": 2.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "quinnipiac",
+   "short": "Quinnipiac",
+   "rank": 2,
+   "score": -2.4,
+   "form": -3.4,
+   "road": 1.0,
+   "road_wins": [
+    {
+     "opp": "Vermont Catamounts",
+     "site": "road",
+     "score": "79-76",
+     "date": "Nov 8",
+     "bonus": 0.96
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "Monmouth Hawks",
+     "site": "home",
+     "conf": false,
+     "result": "L 70-74"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Central Connecticut Blue Devils",
+     "site": "road",
+     "conf": false,
+     "result": "L 67-72"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "Maine Black Bears",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tayeshawn Cunningham-Pemberton",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 2.4,
+     "apg": 0.6,
+     "gp": 5
+    },
+    {
+     "name": "Keith McKnight",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 13.0,
+     "rpg": 7.8,
+     "apg": 1.4,
+     "gp": 5
+    },
+    {
+     "name": "Lucas Sekasi",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.6,
+     "rpg": 4.0,
+     "apg": 4.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "iona",
+   "short": "Iona",
+   "rank": 3,
+   "score": -2.6,
+   "form": -2.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Fordham Rams",
+     "site": "road",
+     "conf": false,
+     "result": "L 72-78"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Hofstra Pride",
+     "site": "road",
+     "conf": false,
+     "result": "L 59-62"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "UMBC Retrievers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Kansas City Roos",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kevon Vanderhorst",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 4.2,
+     "apg": 3.0,
+     "gp": 5
+    },
+    {
+     "name": "Kosy Akametu",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 1.8,
+     "apg": 1.8,
+     "gp": 5
+    },
+    {
+     "name": "Ore Odutayo",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 8.6,
+     "rpg": 4.6,
+     "apg": 0.6,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "merrimack",
+   "short": "Merrimack",
+   "rank": 4,
+   "score": -3.1,
+   "form": -3.4,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "UAlbany Great Danes",
+     "site": "road",
+     "score": "73-60",
+     "date": "Nov 8",
+     "bonus": 0.33
+    }
+   ],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Fri Nov 13",
+     "opp": "Florida Gators",
+     "site": "road",
+     "conf": false,
+     "result": "L 54-83"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Boston University Terriers",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "AJ Lesburt Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.5,
+     "rpg": 3.5,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Denver Anglin",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.2,
+     "rpg": 1.2,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "Ayden Johnson",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 7.8,
+     "rpg": 1.8,
+     "apg": 2.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "marist",
+   "short": "Marist",
+   "rank": 5,
+   "score": -3.8,
+   "form": -3.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Fri Nov 13",
+     "opp": "Lehigh Mountain Hawks",
+     "site": "road",
+     "conf": false,
+     "result": "L 60-65"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Army Black Knights",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Dywane Chess",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 16.8,
+     "rpg": 5.2,
+     "apg": 1.5,
+     "gp": 4
+    },
+    {
+     "name": "Jadin Collins-Roberts",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 4.5,
+     "apg": 3.0,
+     "gp": 4
+    },
+    {
+     "name": "Jordan Gabriel",
+     "class": "Sophomore",
+     "pos": "C",
+     "ppg": 10.2,
+     "rpg": 4.5,
+     "apg": 1.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "sacred-heart",
+   "short": "Sacred Heart",
+   "rank": 6,
+   "score": -5.2,
+   "form": -5.8,
+   "road": 0.6,
+   "road_wins": [
+    {
+     "opp": "New Hampshire Wildcats",
+     "site": "road",
+     "score": "81-76",
+     "date": "Nov 8",
+     "bonus": 0.61
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "Central Connecticut Blue Devils",
+     "site": "home",
+     "conf": false,
+     "result": "L 75-79"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Providence Friars",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jaylen Robinson",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 16.0,
+     "rpg": 6.2,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Jojo Wallace",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 3.2,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Griffin Barrouk",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 6.5,
+     "apg": 0.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "mount-st-marys",
+   "short": "Mount St. Mary's",
+   "rank": 7,
+   "score": -5.7,
+   "form": -5.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Fri Nov 13",
+     "opp": "Virginia Tech Hokies",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-82"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Lehigh Mountain Hawks",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Western Michigan Broncos",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Wilguens Jr. Exacte",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.7,
+     "rpg": 7.0,
+     "apg": 1.3,
+     "gp": 3
+    },
+    {
+     "name": "Redd Thompson Jr.",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.3,
+     "rpg": 3.7,
+     "apg": 4.0,
+     "gp": 3
+    },
+    {
+     "name": "Abdou Khadre Kebe",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.3,
+     "rpg": 6.0,
+     "apg": 1.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "fairfield",
+   "short": "Fairfield",
+   "rank": 8,
+   "score": -10.0,
+   "form": -10.3,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Bryant Bulldogs",
+     "site": "road",
+     "score": "68-59",
+     "date": "Nov 8",
+     "bonus": 0.33
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Wisconsin Badgers",
+     "site": "road",
+     "conf": false,
+     "result": "L 42-89"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "NJIT Highlanders",
+     "site": "home",
+     "conf": false,
+     "result": "W 63-60"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "St. Joseph's Brooklyn Bears",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Long Island University Sharks",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Declan Wucherpfennig",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 16.5,
+     "rpg": 8.2,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Cole Edelen",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 9.5,
+     "rpg": 2.2,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Tony Williams",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 8.0,
+     "rpg": 1.2,
+     "apg": 0.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "niagara",
+   "short": "Niagara",
+   "rank": 9,
+   "score": -10.8,
+   "form": -10.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "0-4",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "Bowling Green Falcons",
+     "site": "road",
+     "conf": false,
+     "result": "L 76-88"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Iowa State Cyclones",
+     "site": "road",
+     "conf": false,
+     "result": "L 45-66"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Delaware State Hornets",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Logan Woods",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.2,
+     "rpg": 4.0,
+     "apg": 1.5,
+     "gp": 4
+    },
+    {
+     "name": "Cole Farrell",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.8,
+     "rpg": 2.0,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "Fidel Rotta",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 7.5,
+     "rpg": 4.5,
+     "apg": 1.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "manhattan",
+   "short": "Manhattan",
+   "rank": 10,
+   "score": -11.0,
+   "form": -11.3,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Maine Black Bears",
+     "site": "road",
+     "score": "68-62",
+     "date": "Nov 8",
+     "bonus": 0.33
+    }
+   ],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Sat Nov 14",
+     "opp": "Le Moyne Dolphins",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-76"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Fordham Rams",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Miami Hurricanes",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Ben Pearce",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.5,
+     "rpg": 3.0,
+     "apg": 2.0,
+     "gp": 4
+    },
+    {
+     "name": "Novak Manojlovic",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 11.5,
+     "rpg": 2.0,
+     "apg": 0.0,
+     "gp": 2
+    },
+    {
+     "name": "Josiah Sabino",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.2,
+     "rpg": 4.2,
+     "apg": 0.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "canisius",
+   "short": "Canisius",
+   "rank": 11,
+   "score": -12.2,
+   "form": -12.6,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Brown Bears",
+     "site": "road",
+     "score": "86-81",
+     "date": "Nov 12",
+     "bonus": 0.45
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Hiram Terriers",
+     "site": "home",
+     "conf": false,
+     "result": "W 117-60"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "Brown Bears",
+     "site": "road",
+     "conf": false,
+     "result": "W 86-81"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Buffalo Bulls",
+     "site": "road",
+     "conf": false,
+     "result": "L 55-79"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Mercyhurst Lakers",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "UAlbany Great Danes",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Western Illinois Leathernecks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Michael Wilson Jr.",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 18.8,
+     "rpg": 5.0,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "Clinton Efinda",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 4.6,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Preist Ryan",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 9.0,
+     "rpg": 5.6,
+     "apg": 2.2,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "saint-peters",
+   "short": "Saint Peter's",
+   "rank": 12,
+   "score": -12.4,
+   "form": -12.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "0-4",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "South Carolina Gamecocks",
+     "site": "road",
+     "conf": false,
+     "result": "L 41-77"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "UMass Lowell River Hawks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Stony Brook Seawolves",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Bryce Eaton",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 3.5,
+     "apg": 3.2,
+     "gp": 4
+    },
+    {
+     "name": "Xavier Thomas",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 11.8,
+     "rpg": 4.5,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Ken Walker",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 7.2,
+     "rpg": 0.8,
+     "apg": 0.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "rider",
+   "short": "Rider",
+   "rank": 13,
+   "score": -16.5,
+   "form": -16.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "William Paterson Pioneers",
+     "site": "home",
+     "conf": false,
+     "result": "W 83-53"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Villanova Wildcats",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-99"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Miami Hurricanes",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Navy Midshipmen",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Rich Brisco",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 7.0,
+     "apg": 0.2,
+     "gp": 5
+    },
+    {
+     "name": "Khalil Farmer",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.4,
+     "rpg": 3.2,
+     "apg": 0.4,
+     "gp": 5
+    },
+    {
+     "name": "Bryce Baker",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 7.8,
+     "rpg": 3.2,
+     "apg": 1.2,
+     "gp": 5
+    }
+   ]
+  }
+ ]
+}

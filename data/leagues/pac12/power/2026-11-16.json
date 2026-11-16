@@ -1,0 +1,653 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:06-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "utah-state",
+   "short": "Utah State",
+   "rank": 1,
+   "score": 17.9,
+   "form": 17.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "4-0",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Utah Tech Trailblazers",
+     "site": "home",
+     "conf": false,
+     "result": "W 118-86"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "UC San Diego Tritons",
+     "site": "home",
+     "conf": false,
+     "result": "W 120-82"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Weber State Wildcats",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mason Falslev",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 22.0,
+     "rpg": 9.5,
+     "apg": 4.8,
+     "gp": 4
+    },
+    {
+     "name": "Solomon Callaghan",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.5,
+     "rpg": 2.8,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Dallin Hall",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.8,
+     "rpg": 3.8,
+     "apg": 6.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "gonzaga",
+   "short": "Gonzaga",
+   "rank": 2,
+   "score": 17.8,
+   "form": 16.9,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Purdue Boilermakers",
+     "site": "neutral",
+     "score": "78-72",
+     "date": "Nov 2",
+     "bonus": 0.9
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Sat Nov 14",
+     "opp": "LSU Tigers",
+     "site": "home",
+     "conf": false,
+     "result": "L 80-81"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Montana State Bobcats",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Davis Fogle",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 19.7,
+     "rpg": 5.7,
+     "apg": 4.7,
+     "gp": 3
+    },
+    {
+     "name": "Braden Huff",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 16.0,
+     "rpg": 6.7,
+     "apg": 1.3,
+     "gp": 3
+    },
+    {
+     "name": "Isiah Harwell",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.7,
+     "rpg": 3.0,
+     "apg": 1.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "san-diego-state",
+   "short": "San Diego St",
+   "rank": 3,
+   "score": 10.7,
+   "form": 10.0,
+   "road": 0.8,
+   "road_wins": [
+    {
+     "opp": "Colorado Buffaloes",
+     "site": "neutral",
+     "score": "77-66",
+     "date": "Nov 7",
+     "bonus": 0.76
+    }
+   ],
+   "prev_rank": null,
+   "record": "4-0",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Bethune-Cookman Wildcats",
+     "site": "home",
+     "conf": false,
+     "result": "W 88-75"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "New Mexico State Aggies",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 73-61"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Texas Southern Tigers",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Latrell Davis",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 20.0,
+     "rpg": 3.2,
+     "apg": 2.5,
+     "gp": 4
+    },
+    {
+     "name": "Elzie Harrington",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.2,
+     "rpg": 2.8,
+     "apg": 4.5,
+     "gp": 4
+    },
+    {
+     "name": "Bear Cherry",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.8,
+     "rpg": 4.5,
+     "apg": 1.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "boise-state",
+   "short": "Boise State",
+   "rank": 4,
+   "score": 8.9,
+   "form": 8.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Oakland Golden Grizzlies",
+     "site": "home",
+     "conf": false,
+     "result": "W 111-79"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Nebraska Cornhuskers",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 75-102"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Sam Houston Bearkats",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Aginaldo Neto",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 19.2,
+     "rpg": 3.5,
+     "apg": 5.8,
+     "gp": 4
+    },
+    {
+     "name": "Damari Wheeler-Thomas",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.5,
+     "rpg": 2.5,
+     "apg": 5.5,
+     "gp": 4
+    },
+    {
+     "name": "Spencer Ahrens",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 15.5,
+     "rpg": 5.0,
+     "apg": 2.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "texas-state",
+   "short": "Texas State",
+   "rank": 5,
+   "score": 4.7,
+   "form": 3.9,
+   "road": 0.8,
+   "road_wins": [
+    {
+     "opp": "UT Rio Grande Valley Vaqueros",
+     "site": "road",
+     "score": "72-65",
+     "date": "Nov 10",
+     "bonus": 0.78
+    }
+   ],
+   "prev_rank": null,
+   "record": "5-0",
+   "conf_record": "0-0",
+   "streak": "W5",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "UT Rio Grande Valley Vaqueros",
+     "site": "road",
+     "conf": false,
+     "result": "W 72-65"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Southern Miss Golden Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "W 85-65"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "UTSA Roadrunners",
+     "site": "road",
+     "conf": false,
+     "result": "W 87-67"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Incarnate Word Cardinals",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "McNeese Cowboys",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "DJ Hall",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 14.4,
+     "rpg": 8.6,
+     "apg": 3.0,
+     "gp": 5
+    },
+    {
+     "name": "Paul Djobet",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 4.6,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "Robert Fields",
+     "class": "Sophomore",
+     "pos": "C",
+     "ppg": 10.6,
+     "rpg": 5.4,
+     "apg": 0.8,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "oregon-state",
+   "short": "Oregon St",
+   "rank": 6,
+   "score": 3.5,
+   "form": 3.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "4-0",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Eastern Washington Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "W 94-84"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Mississippi Valley State Delta Devils",
+     "site": "home",
+     "conf": false,
+     "result": "W 81-65"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "East Texas A&M Lions",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Oregon Ducks",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Daniel Freitag",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.5,
+     "rpg": 3.8,
+     "apg": 3.2,
+     "gp": 4
+    },
+    {
+     "name": "Legend Smiley",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 16.8,
+     "rpg": 3.0,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "DeShawn Gory",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 13.8,
+     "rpg": 4.8,
+     "apg": 2.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "colorado-state",
+   "short": "Colorado St",
+   "rank": 7,
+   "score": 1.8,
+   "form": 1.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Portland State Vikings",
+     "site": "home",
+     "conf": false,
+     "result": "W 87-71"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Loyola Chicago Ramblers",
+     "site": "home",
+     "conf": false,
+     "result": "L 58-73"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "North Dakota State Bison",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Josh Pascarelli",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 2.5,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Carey Booth",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 6.8,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "Jase Butler",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.5,
+     "rpg": 5.5,
+     "apg": 5.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "washington-state",
+   "short": "Washington St",
+   "rank": 8,
+   "score": -2.9,
+   "form": -2.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Duquesne Dukes",
+     "site": "road",
+     "conf": false,
+     "result": "L 71-72"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Northwest University Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "W 123-87"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Hawai'i Rainbow Warriors",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Duke Blue Devils",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jaylen Harrell",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 15.8,
+     "rpg": 3.0,
+     "apg": 3.0,
+     "gp": 4
+    },
+    {
+     "name": "Lazerek Houston",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 15.0,
+     "rpg": 1.8,
+     "apg": 3.0,
+     "gp": 4
+    },
+    {
+     "name": "Sebastian Akins",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 3.2,
+     "apg": 3.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "fresno-state",
+   "short": "Fresno St",
+   "rank": 9,
+   "score": -4.7,
+   "form": -4.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Georgia State Panthers",
+     "site": "home",
+     "conf": false,
+     "result": "W 95-92"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "UC Riverside Highlanders",
+     "site": "home",
+     "conf": false,
+     "result": "W 89-80"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "San Jos\u00e9 State Spartans",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Alabama State Hornets",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Dragos Lungu",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 19.8,
+     "rpg": 7.5,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Ross Candelino",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 17.0,
+     "rpg": 4.5,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Bradey Henige",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 16.8,
+     "rpg": 7.8,
+     "apg": 0.0,
+     "gp": 4
+    }
+   ]
+  }
+ ]
+}
