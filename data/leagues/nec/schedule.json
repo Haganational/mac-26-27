@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T18:12:25+00:00",
+ "fetched_at": "2026-11-16T23:15:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -2067,7 +2067,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stonehill-skyhawks-mens-basketball-tickets-merkert-gymnasium-11-18-2026--sports-ncaa-basketball/production/7580707?wsUser=717",
-    "low": 17.0
+    "low": 12.0
    },
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
@@ -2272,7 +2272,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
@@ -2316,7 +2322,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stonehill-skyhawks-mens-basketball-tickets-merkert-gymnasium-11-21-2026--sports-ncaa-basketball/production/7580709?wsUser=717",
-    "low": 17.0
+    "low": 11.0
    },
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
@@ -2436,7 +2442,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
@@ -3224,7 +3236,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/west-virginia-mountaineers-mens-basketball-tickets-hope-coliseum-12-1-2026--sports-ncaa-basketball/production/7355649?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Hope Coliseum",
    "venue_city": "Morgantown",
@@ -3973,7 +3985,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-carnesecca-arena-12-8-2026--sports-ncaa-basketball/production/7555658?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Carnesecca Arena",
    "venue_city": "Queens",
@@ -4535,7 +4547,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-12-16-2026--sports-ncaa-basketball/production/7503576?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "KFC Yum! Center",
    "venue_city": "Louisville",
@@ -4945,7 +4957,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-pinnacle-bank-arena-12-20-2026--sports-ncaa-basketball/production/7359034?wsUser=717",
-    "low": 15.0
+    "low": 16.0
    },
    "venue": "Pinnacle Bank Arena",
    "venue_city": "Lincoln",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T18:13:17+00:00",
+ "fetched_at": "2026-11-16T23:16:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2126,10 +2126,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-11-15-2026--sports-ncaa-basketball/production/7657043?wsUser=717",
-    "low": 11.0
-   },
+   "tickets": null,
    "venue": "Don Haskins Center",
    "venue_city": "El Paso",
    "venue_state": "TX",
@@ -2172,7 +2169,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-xfinity-center---md-11-16-2026--sports-ncaa-basketball/production/7382593?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "XFINITY Center",
    "venue_city": "College Park",
@@ -2193,10 +2190,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:36 - 1st"
   },
   {
    "game_id": "401916317",
@@ -2216,7 +2213,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-16-2026--sports-ncaa-basketball/production/7534721?wsUser=717",
-    "low": 10.0
+    "low": 8.0
    },
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
@@ -2260,7 +2257,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-16-2026--sports-ncaa-basketball/production/7166218?wsUser=717",
-    "low": 10.0
+    "low": 14.0
    },
    "venue": "Rupp Arena",
    "venue_city": "Lexington",
@@ -2647,7 +2644,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-state-aztecs-mens-basketball-tickets-viejas-arena-11-18-2026--sports-ncaa-basketball/production/7563285?wsUser=717",
-    "low": 9.0
+    "low": 7.0
    },
    "venue": "Viejas Arena",
    "venue_city": "San Diego",
@@ -2767,7 +2764,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-11-20-2026--sports-ncaa-basketball/production/7575746?wsUser=717",
-    "low": 14.0
+    "low": 19.0
    },
    "venue": "Bud Walton Arena",
    "venue_city": "Fayetteville",
@@ -2811,7 +2808,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-11-20-2026--sports-ncaa-basketball/production/7631484?wsUser=717",
-    "low": 27.0
+    "low": 44.0
    },
    "venue": "Save Mart Center",
    "venue_city": "Fresno",
@@ -3068,7 +3065,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-24-2026--sports-ncaa-basketball/production/7743227?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
@@ -3569,7 +3566,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-tech-yellow-jackets-mens-basketball-tickets-mccamish-pavilion-11-28-2026--sports-ncaa-basketball/production/7453311?wsUser=717",
-    "low": 5.0
+    "low": 6.0
    },
    "venue": "McCamish Pavilion",
    "venue_city": "Atlanta",
@@ -4415,7 +4412,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-6-2026--sports-ncaa-basketball/production/7350033?wsUser=717",
-    "low": 15.0
+    "low": 14.0
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -6152,7 +6149,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-12-21-2026--sports-ncaa-basketball/production/7350062?wsUser=717",
-    "low": 17.0
+    "low": 16.0
    },
    "venue": "Tower Hill Arena",
    "venue_city": "Gainesville",
@@ -10773,6 +10770,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-16T21:11:13+00:00"
+ ]
 }

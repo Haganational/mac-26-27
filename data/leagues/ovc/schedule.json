@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T18:11:07+00:00",
+ "fetched_at": "2026-11-16T23:13:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -1798,7 +1798,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/minnesota-golden-gophers-mens-basketball-tickets-the-barn-by-blue-cross-and-blue-shield-of-minnesota-11-16-2026--sports-ncaa-basketball/production/7492997?wsUser=717",
-    "low": 6.0
+    "low": 7.0
    },
    "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
    "venue_city": "Minneapolis",
@@ -2192,7 +2192,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
@@ -2277,7 +2283,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 29.0
+    "low": 31.0
    },
    "venue": "State Farm Center",
    "venue_city": "Champaign",
@@ -2312,7 +2318,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
@@ -4419,7 +4431,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-12-13-2026--sports-ncaa-basketball/production/7463009?wsUser=717",
-    "low": 9.0
+    "low": 8.0
    },
    "venue": "Carver-Hawkeye Arena",
    "venue_city": "Iowa City",

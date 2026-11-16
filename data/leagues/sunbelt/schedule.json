@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T18:06:31+00:00",
+ "fetched_at": "2026-11-16T23:08:00+00:00",
  "season": 2027,
  "games": [
   {
@@ -2615,50 +2615,6 @@
    "detail": ""
   },
   {
-   "game_id": "401930568",
-   "date": "2026-11-18T00:00Z",
-   "name": "Spring Hill Badgers at South Alabama Jaguars",
-   "short_name": "SPRH @ USA",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-17-2026--sports-ncaa-basketball/production/7743157?wsUser=717",
-    "low": 37.0
-   },
-   "venue": "Mitchell Center",
-   "venue_city": "Mobile",
-   "venue_state": "AL",
-   "home": {
-    "espn_id": "6",
-    "key": "south-alabama",
-    "name": "South Alabama Jaguars",
-    "abbr": "USA",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2590",
-    "key": null,
-    "name": "Spring Hill Badgers",
-    "abbr": "SPRH",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401920297",
    "date": "2026-11-18T00:00Z",
    "name": "Cal State Northridge Matadors at Troy Trojans",
@@ -2782,6 +2738,50 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401930568",
+   "date": "2026-11-18T01:00Z",
+   "name": "Spring Hill Badgers at South Alabama Jaguars",
+   "short_name": "SPRH @ USA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-17-2026--sports-ncaa-basketball/production/7743157?wsUser=717",
+    "low": 31.0
+   },
+   "venue": "Mitchell Center",
+   "venue_city": "Mobile",
+   "venue_state": "AL",
+   "home": {
+    "espn_id": "6",
+    "key": "south-alabama",
+    "name": "South Alabama Jaguars",
+    "abbr": "USA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2590",
+    "key": null,
+    "name": "Spring Hill Badgers",
+    "abbr": "SPRH",
     "score": null,
     "winner": null
    },
@@ -3318,7 +3318,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-20-2026--sports-ncaa-basketball/production/7662324?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "Moody Coliseum (Dallas)",
    "venue_city": "Dallas",
@@ -3362,7 +3362,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-20-2026--sports-ncaa-basketball/production/7153195?wsUser=717",
-    "low": 15.0
+    "low": 13.0
    },
    "venue": "Dean E. Smith Center",
    "venue_city": "Chapel Hill",
@@ -3526,7 +3526,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-22-2026--sports-ncaa-basketball/production/7743179?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
@@ -4020,7 +4020,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 23.0
+    "low": 20.0
    },
    "venue": "Atlantic Union Bank Center",
    "venue_city": "Harrisonburg",
@@ -4196,7 +4196,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-24-2026--sports-ncaa-basketball/production/7743227?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
@@ -5204,7 +5204,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-12-2-2026--sports-ncaa-basketball/production/7596499?wsUser=717",
-    "low": 48.0
+    "low": 29.0
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -5292,7 +5292,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-12-2-2026--sports-ncaa-basketball/production/7420258?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Cam Henderson Center",
    "venue_city": "Huntington",
@@ -5579,7 +5579,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 42.0
+    "low": 41.0
    },
    "venue": "Rupp Arena",
    "venue_city": "Lexington",
@@ -5790,7 +5790,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-12-5-2026--sports-ncaa-basketball/production/7743245?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
@@ -5875,7 +5875,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-12-5-2026--sports-ncaa-basketball/production/7420270?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Cam Henderson Center",
    "venue_city": "Huntington",
@@ -6713,7 +6713,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-12-12-2026--sports-ncaa-basketball/production/7420274?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Cam Henderson Center",
    "venue_city": "Huntington",
@@ -7868,7 +7868,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-12-23-2026--sports-ncaa-basketball/production/7420286?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Cam Henderson Center",
    "venue_city": "Huntington",
@@ -8000,7 +8000,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-12-28-2026--sports-ncaa-basketball/production/7743247?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
