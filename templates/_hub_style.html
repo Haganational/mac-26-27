@@ -209,10 +209,13 @@
     .dateline { padding-top: 12px; }
     .front { display: flex; flex-direction: column; gap: 0; padding-top: 16px; }
     .front > div, .front > .rail { display: contents; }
+    /* Lead story, its four cards, the Home desk, Next up, then Latest recaps. Anything unordered would jump above the lead. */
+    .front > div > * { order: 2; }
     .front .lead { order: 1; }
-    .front .rail > section:first-child { order: 2; margin-top: 26px; }
-    .front .cards { order: 3; }
-    .front .rail > section:nth-child(2) { order: 4; margin-top: 26px; }
+    .front .cards { order: 2; }
+    .front .rail > section { order: 5; margin-top: 26px; }
+    .front .rail > .home-desk { order: 3; }
+    .front .rail > section[aria-labelledby="h-tonight"] { order: 4; }
     .lead p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   }
   /* Conferences menu (Nov 2026): every edition behind one door, so the bar holds at 27 conferences. */
@@ -256,4 +259,14 @@
     60% { transform: scaleY(1); } 68% { transform: scaleY(.1); } 76% { transform: scaleY(1); }
     90% { opacity: 1; } 100% { opacity: 0; transform: scaleY(1); } }
   @media (prefers-reduced-motion: reduce) { .bar.hello .hb-al span, .bar.hello .hb-eyes { animation: none; } }
+  /* The lead with an ESPN clip: headline first, the clip under it in a captioned frame tied to the story. */
+  .lead-v { border-top: 4px solid var(--c, var(--accent)); padding-top: 12px; }
+  .lead-v .lead-hd { display: block; color: var(--ink); }
+  .lead-v .lead-hd .kick { margin-top: 0; }
+  .lead-v .lead-hd:hover h2 { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .lead-v .lead-clip { margin: 4px 0 12px; border: 1px solid var(--rule); background: var(--surface); }
+  .lead-v .lead-clip figcaption { margin: 0; padding: 8px 10px; border-top: 3px solid var(--c, var(--accent)); color: var(--ink-2); letter-spacing: .06em; }
+  .lead-v .lead-clip figcaption span { color: var(--c, var(--accent)); margin-right: 4px; }
+  .lead-v .lead-more { display: inline-block; margin-top: 10px; font: 600 14px/1 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  .lead-v .lead-more:hover { text-decoration: underline; text-underline-offset: 3px; }
 </style>
