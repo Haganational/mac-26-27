@@ -1491,21 +1491,21 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": 80,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2225",
     "key": null,
     "name": "Fisk Bulldogs",
     "abbr": "FISK",
-    "score": 47,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:41 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928841",
@@ -8732,5 +8732,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T18:41:11+00:00"
+ "live_at": "2026-11-16T19:08:17+00:00"
 }
