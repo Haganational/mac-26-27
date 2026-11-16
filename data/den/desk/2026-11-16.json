@@ -13,7 +13,7 @@
    "school": "Drake",
    "tag": "AI anchor"
   },
-  "max": 42,
+  "max": 43,
   "picks": [
    {
     "abbr": "DRKE",
@@ -27,17 +27,6 @@
     "worth": 21
    },
    {
-    "abbr": "KSU",
-    "game_id": "401909798",
-    "kind": "ratings",
-    "short": "Kansas St",
-    "side": "home",
-    "team_id": "2306",
-    "tip": "2026-11-17T01:00Z",
-    "why": "Our ratings 77%, pregame win chance 91%.",
-    "worth": 9
-   },
-   {
     "abbr": "OKST",
     "game_id": "401917917",
     "kind": "ratings",
@@ -47,6 +36,17 @@
     "tip": "2026-11-17T01:00Z",
     "why": "Our ratings 80%, pregame win chance 94%.",
     "worth": 6
+   },
+   {
+    "abbr": "KSU",
+    "game_id": "401909798",
+    "kind": "ratings",
+    "short": "Kansas St",
+    "side": "home",
+    "team_id": "2306",
+    "tip": "2026-11-17T01:00Z",
+    "why": "Our ratings 77%, pregame win chance 90%.",
+    "worth": 10
    },
    {
     "abbr": "UCSD",
@@ -157,7 +157,7 @@
    "team_id": "204",
    "tip": "2026-11-17T02:30Z",
    "why": "Homer pick.",
-   "worth": 9
+   "worth": 8
   },
   {
    "abbr": "SMC",
