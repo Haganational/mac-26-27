@@ -2080,21 +2080,21 @@
     "key": "utsa",
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 64,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "326",
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 85,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925864",
@@ -11815,5 +11815,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T03:04:32+00:00"
+ "live_at": "2026-11-16T03:21:33+00:00"
 }
