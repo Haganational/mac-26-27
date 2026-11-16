@@ -1,0 +1,187 @@
+{
+ "date": "2026-11-16",
+ "desk": {
+  "anchor": {
+   "alt": "Vivian Sterling, the Drake AI anchor",
+   "color": "#004477",
+   "color2": "#FFFFFF",
+   "initials": "VS",
+   "ink": "#ffffff",
+   "key": "drake",
+   "name": "Vivian Sterling",
+   "portrait": "den/anchors/drake.webp",
+   "school": "Drake",
+   "tag": "AI anchor"
+  },
+  "max": 51,
+  "picks": [
+   {
+    "abbr": "DRKE",
+    "game_id": "401927364",
+    "kind": "homer",
+    "short": "Drake",
+    "side": "home",
+    "team_id": "2181",
+    "tip": "2026-11-17T00:30Z",
+    "why": "Homer pick: the anchor's own school, always.",
+    "worth": 20
+   },
+   {
+    "abbr": "OKST",
+    "game_id": "401917917",
+    "kind": "ratings",
+    "short": "Oklahoma St",
+    "side": "home",
+    "team_id": "197",
+    "tip": "2026-11-17T01:00Z",
+    "why": "Our ratings 80%, pregame win chance 95%.",
+    "worth": 5
+   },
+   {
+    "abbr": "KSU",
+    "game_id": "401909798",
+    "kind": "ratings",
+    "short": "Kansas St",
+    "side": "home",
+    "team_id": "2306",
+    "tip": "2026-11-17T01:00Z",
+    "why": "Our ratings 77%, pregame win chance 92%.",
+    "worth": 8
+   },
+   {
+    "abbr": "KENT",
+    "game_id": "401928841",
+    "kind": "ratings",
+    "short": "Kent State",
+    "side": "home",
+    "team_id": "2309",
+    "tip": "2026-11-17T00:00Z",
+    "why": "Our ratings 70%, pregame win chance 82%.",
+    "worth": 18
+   }
+  ],
+  "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
+ },
+ "homer": [
+  {
+   "abbr": "UTEP",
+   "game_id": "401929419",
+   "key": "utep",
+   "kind": "homer",
+   "short": "UTEP",
+   "side": "home",
+   "team_id": "2638",
+   "tip": "2026-11-16T19:00Z",
+   "why": "Homer pick.",
+   "worth": 6
+  },
+  {
+   "abbr": "IONA",
+   "game_id": "401921087",
+   "key": "iona",
+   "kind": "homer",
+   "short": "Iona",
+   "side": "away",
+   "team_id": "314",
+   "tip": "2026-11-16T23:00Z",
+   "why": "Homer pick.",
+   "worth": 42
+  },
+  {
+   "abbr": "JAX",
+   "game_id": "401906783",
+   "key": "jacksonville",
+   "kind": "homer",
+   "short": "Jacksonville",
+   "side": "away",
+   "team_id": "294",
+   "tip": "2026-11-17T00:00Z",
+   "why": "Homer pick.",
+   "worth": 96
+  },
+  {
+   "abbr": "RICH",
+   "game_id": "401911240",
+   "key": "richmond",
+   "kind": "homer",
+   "short": "Richmond",
+   "side": "away",
+   "team_id": "257",
+   "tip": "2026-11-17T00:00Z",
+   "why": "Homer pick.",
+   "worth": 88
+  },
+  {
+   "abbr": "KENT",
+   "game_id": "401928841",
+   "key": "kent-state",
+   "kind": "homer",
+   "short": "Kent State",
+   "side": "home",
+   "team_id": "2309",
+   "tip": "2026-11-17T00:00Z",
+   "why": "Homer pick.",
+   "worth": 18
+  },
+  {
+   "abbr": "DRKE",
+   "game_id": "401927364",
+   "key": "drake",
+   "kind": "homer",
+   "short": "Drake",
+   "side": "home",
+   "team_id": "2181",
+   "tip": "2026-11-17T00:30Z",
+   "why": "Homer pick.",
+   "worth": 20
+  },
+  {
+   "abbr": "COLU",
+   "game_id": "401920735",
+   "key": "columbia",
+   "kind": "homer",
+   "short": "Columbia",
+   "side": "away",
+   "team_id": "171",
+   "tip": "2026-11-17T01:00Z",
+   "why": "Homer pick.",
+   "worth": 86
+  },
+  {
+   "abbr": "ORST",
+   "game_id": "401929192",
+   "key": "oregon-state",
+   "kind": "homer",
+   "short": "Oregon St",
+   "side": "home",
+   "team_id": "204",
+   "tip": "2026-11-17T02:30Z",
+   "why": "Homer pick.",
+   "worth": 8
+  },
+  {
+   "abbr": "SMC",
+   "game_id": "401917532",
+   "key": "saint-marys",
+   "kind": "homer",
+   "short": "Saint Mary's",
+   "side": "home",
+   "team_id": "2608",
+   "tip": "2026-11-17T03:00Z",
+   "why": "Homer pick.",
+   "worth": 7
+  },
+  {
+   "abbr": "UCSD",
+   "game_id": "401920373",
+   "key": "uc-san-diego",
+   "kind": "homer",
+   "short": "UC San Diego",
+   "side": "home",
+   "team_id": "28",
+   "tip": "2026-11-17T03:00Z",
+   "why": "Homer pick.",
+   "worth": 7
+  }
+ ]
+}
