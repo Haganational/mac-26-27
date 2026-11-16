@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:01:44+00:00",
+ "fetched_at": "2026-11-16T18:01:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -1754,7 +1754,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-18-2026--sports-ncaa-basketball/production/7612559?wsUser=717",
-    "low": 11.0
+    "low": 20.0
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
@@ -1883,7 +1883,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-20-2026--sports-ncaa-basketball/production/7662703?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
@@ -1942,50 +1942,6 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401921811",
-   "date": "2026-11-21T05:00Z",
-   "name": "Queens University Royals at LSU Tigers",
-   "short_name": "QUC @ LSU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "SECN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 5.0
-   },
-   "venue": "Pete Maravich Assembly Center",
-   "venue_city": "Baton Rouge",
-   "venue_state": "LA",
-   "home": {
-    "espn_id": "99",
-    "key": null,
-    "name": "LSU Tigers",
-    "abbr": "LSU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2511",
-    "key": "queens",
-    "name": "Queens University Royals",
-    "abbr": "QUC",
     "score": null,
     "winner": null
    },
@@ -2077,6 +2033,50 @@
    "detail": ""
   },
   {
+   "game_id": "401921811",
+   "date": "2026-11-22T01:00Z",
+   "name": "Queens University Royals at LSU Tigers",
+   "short_name": "QUC @ LSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
+    "low": 6.0
+   },
+   "venue": "Pete Maravich Assembly Center",
+   "venue_city": "Baton Rouge",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "99",
+    "key": null,
+    "name": "LSU Tigers",
+    "abbr": "LSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401922252",
    "date": "2026-11-22T20:00Z",
    "name": "West Florida Argonauts at South Alabama Jaguars",
@@ -2138,7 +2138,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-11-22-2026--sports-ncaa-basketball/production/7804425?wsUser=717",
-    "low": 36.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -2929,7 +2929,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-29-2026--sports-ncaa-basketball/production/7534729?wsUser=717",
-    "low": 15.0
+    "low": 14.0
    },
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
@@ -3146,7 +3146,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-2-2026--sports-ncaa-basketball/production/7606326?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -3190,7 +3190,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-2-2026--sports-ncaa-basketball/production/7804429?wsUser=717",
-    "low": 36.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -3650,7 +3650,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-8-2026--sports-ncaa-basketball/production/7575841?wsUser=717",
-    "low": 13.0
+    "low": 10.0
    },
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",
@@ -3902,7 +3902,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-13-2026--sports-ncaa-basketball/production/7603967?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -4074,7 +4074,7 @@
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-12-14-2026--sports-ncaa-basketball/production/7466796?wsUser=717",
     "low": 6.0
    },
-   "venue": "Fifth Third Arena",
+   "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
    "home": {
@@ -4421,7 +4421,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-19-2026--sports-ncaa-basketball/production/7603969?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -4547,7 +4547,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-19-2026--sports-ncaa-basketball/production/7667548?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -4591,7 +4591,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-12-19-2026--sports-ncaa-basketball/production/7856657?wsUser=717",
-    "low": 36.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -4846,7 +4846,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-21-2026--sports-ncaa-basketball/production/7603973?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -5016,7 +5016,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-21-2026--sports-ncaa-basketball/production/7667255?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -5184,7 +5184,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-28-2026--sports-ncaa-basketball/production/7863290?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -5784,7 +5787,10 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-2-2027--sports-ncaa-basketball/production/7863296?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -5891,7 +5897,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-5-2027--sports-ncaa-basketball/production/7603983?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -6265,7 +6271,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-14-2027--sports-ncaa-basketball/production/7603863?wsUser=717",
-    "low": 36.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -6417,7 +6423,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-16-2027--sports-ncaa-basketball/production/7603877?wsUser=717",
-    "low": 32.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -6455,7 +6461,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-21-2027--sports-ncaa-basketball/production/7603985?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -6607,7 +6613,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-23-2027--sports-ncaa-basketball/production/7603997?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7057,7 +7063,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-4-2027--sports-ncaa-basketball/production/7603879?wsUser=717",
-    "low": 36.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -7095,7 +7101,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-6-2027--sports-ncaa-basketball/production/7604013?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7285,7 +7291,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-11-2027--sports-ncaa-basketball/production/7604031?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7399,7 +7405,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-13-2027--sports-ncaa-basketball/production/7604037?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7887,7 +7893,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-25-2027--sports-ncaa-basketball/production/7603881?wsUser=717",
-    "low": 36.0
+    "low": 25.0
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -8001,7 +8007,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-27-2027--sports-ncaa-basketball/production/7604054?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",

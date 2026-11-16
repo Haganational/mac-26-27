@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:16:39+00:00",
+ "fetched_at": "2026-11-16T18:12:25+00:00",
  "season": 2027,
  "games": [
   {
@@ -1693,10 +1693,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/penn-state-nittany-lions-mens-basketball-tickets-bryce-jordan-center-11-15-2026--sports-ncaa-basketball/production/7436693?wsUser=717",
-    "low": 9.0
-   },
+   "tickets": null,
    "venue": "Bryce Jordan Center",
    "venue_city": "University Park",
    "venue_state": "PA",
@@ -2230,13 +2227,13 @@
   },
   {
    "game_id": "401923312",
-   "date": "2026-11-21T05:00Z",
+   "date": "2026-11-21T18:00Z",
    "name": "New Hampshire Wildcats at New Haven Chargers",
    "short_name": "UNH @ NHVN",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-haven-chargers-mens-basketball-tickets-jeffery-p-hazell-athletic-center-11-21-2026/production/7788712?wsUser=717",
@@ -3681,7 +3678,10 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/morgan-state-bears-mens-basketball-tickets-hill-field-house-12-5-2026--sports-ncaa-basketball/production/7852731?wsUser=717",
+    "low": 49.0
+   },
    "venue": "Hill Field House",
    "venue_city": "Baltimore",
    "venue_state": "MD",
@@ -8239,6 +8239,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T23:39:48+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:07:12+00:00",
+ "fetched_at": "2026-11-16T18:05:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -1878,7 +1878,7 @@
   },
   {
    "game_id": "401917534",
-   "date": "2026-11-18T00:00Z",
+   "date": "2026-11-18T03:00Z",
    "name": "Pacific Union PACIFIC UNION at Pacific Tigers",
    "short_name": "PUC @ PAC",
    "season_type": "reg",
@@ -2226,50 +2226,6 @@
    "detail": ""
   },
   {
-   "game_id": "401917537",
-   "date": "2026-11-21T05:00Z",
-   "name": "Bradley Braves at Pacific Tigers",
-   "short_name": "BRAD @ PAC",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
-    "low": 64.0
-   },
-   "venue": "Alex G. Spanos Center",
-   "venue_city": "Stockton",
-   "venue_state": "CA",
-   "home": {
-    "espn_id": "279",
-    "key": "pacific",
-    "name": "Pacific Tigers",
-    "abbr": "PAC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "71",
-    "key": null,
-    "name": "Bradley Braves",
-    "abbr": "BRAD",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401920948",
    "date": "2026-11-21T18:00Z",
    "name": "Denver Pioneers at Eastern Michigan Eagles",
@@ -2287,7 +2243,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
@@ -2425,6 +2381,50 @@
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917537",
+   "date": "2026-11-22T03:00Z",
+   "name": "Bradley Braves at Pacific Tigers",
+   "short_name": "BRAD @ PAC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
+    "low": 64.0
+   },
+   "venue": "Alex G. Spanos Center",
+   "venue_city": "Stockton",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "279",
+    "key": "pacific",
+    "name": "Pacific Tigers",
+    "abbr": "PAC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "71",
+    "key": null,
+    "name": "Bradley Braves",
+    "abbr": "BRAD",
     "score": null,
     "winner": null
    },
@@ -2961,7 +2961,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-11-25-2026--sports-ncaa-basketball/production/7519430?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Gersten Pavilion",
    "venue_city": "Los Angeles",
@@ -3955,7 +3955,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-12-5-2026--sports-ncaa-basketball/production/7854355?wsUser=717",
+    "low": 32.0
+   },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",
    "venue_state": "IL",
@@ -4191,7 +4194,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stanford-cardinal-mens-basketball-tickets-maples-pavilion-12-6-2026--sports-ncaa-basketball/production/7457244?wsUser=717",
-    "low": 12.0
+    "low": 11.0
    },
    "venue": "Maples Pavilion",
    "venue_city": "Stanford",
@@ -5461,7 +5464,7 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": null,
-   "venue": "Comerica Center",
+   "venue": "Fifth Third Arena (TX)",
    "venue_city": "Frisco",
    "venue_state": "TX",
    "home": {
@@ -5535,7 +5538,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-12-19-2026--sports-ncaa-basketball/production/7648008?wsUser=717",
-    "low": 30.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -5660,7 +5663,7 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": null,
-   "venue": "Comerica Center",
+   "venue": "Fifth Third Arena (TX)",
    "venue_city": "Frisco",
    "venue_state": "TX",
    "home": {
@@ -6074,7 +6077,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-12-28-2026--sports-ncaa-basketball/production/7648010?wsUser=717",
-    "low": 30.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -6446,7 +6449,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-1-2-2027--sports-ncaa-basketball/production/7656392?wsUser=717",
-    "low": 47.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -6636,7 +6639,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-1-5-2027--sports-ncaa-basketball/production/7656394?wsUser=717",
-    "low": 33.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -7238,7 +7241,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-1-16-2027--sports-ncaa-basketball/production/7656396?wsUser=717",
-    "low": 33.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -7656,7 +7659,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-1-26-2027--sports-ncaa-basketball/production/7656398?wsUser=717",
-    "low": 33.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -8074,7 +8077,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-2-2-2027--sports-ncaa-basketball/production/7656400?wsUser=717",
-    "low": 59.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -8150,7 +8153,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-2-6-2027--sports-ncaa-basketball/production/7656973?wsUser=717",
-    "low": 33.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -8717,7 +8720,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-2-16-2027--sports-ncaa-basketball/production/7656975?wsUser=717",
-    "low": 101.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -8869,7 +8872,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/portland-pilots-mens-basketball-tickets-chiles-center-2-20-2027--sports-ncaa-basketball/production/7656977?wsUser=717",
-    "low": 33.0
+    "low": 24.0
    },
    "venue": "Chiles Center",
    "venue_city": "Portland",
@@ -9211,7 +9214,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-colonial-life-arena-2-23-2027--sports-ncaa-basketball/production/7581857?wsUser=717",
-    "low": 60.0
+    "low": 50.0
    },
    "venue": "The Sobrato Center",
    "venue_city": "San Francisco",
@@ -9424,6 +9427,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-15T23:34:17+00:00"
+ ]
 }

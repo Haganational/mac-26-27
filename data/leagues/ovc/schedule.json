@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:14:54+00:00",
+ "fetched_at": "2026-11-16T18:11:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -1632,10 +1632,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/southern-indiana-screaming-eagles-mens-basketball-tickets-liberty-arena---in-11-15-2026/production/7710404?wsUser=717",
-    "low": 34.0
-   },
+   "tickets": null,
    "venue": "Liberty Arena (IN)",
    "venue_city": "Evansville",
    "venue_state": "IN",
@@ -1726,21 +1723,21 @@
     "key": "morehead-state",
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": 98,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
    "away": {
     "espn_id": "124809",
     "key": null,
     "name": "Miami (OH) Hamilton Harriers",
     "abbr": "MHAM",
-    "score": 67,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926153",
@@ -1801,7 +1798,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/minnesota-golden-gophers-mens-basketball-tickets-the-barn-by-blue-cross-and-blue-shield-of-minnesota-11-16-2026--sports-ncaa-basketball/production/7492997?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
    "venue_city": "Minneapolis",
@@ -1845,7 +1842,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-17-2026--sports-ncaa-basketball/production/7413165?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -1889,7 +1886,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vanderbilt-commodores-mens-basketball-tickets-vanderbilt-memorial-gym-11-17-2026--sports-ncaa-basketball/production/7457171?wsUser=717",
-    "low": 9.0
+    "low": 7.0
    },
    "venue": "Memorial Gymnasium (TN)",
    "venue_city": "Nashville",
@@ -1982,7 +1979,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-dakota-fighting-hawks-mens-basketball-tickets-betty-engelstad-sioux-center-11-16-2026--sports-ncaa-basketball/production/7710686?wsUser=717",
-    "low": 27.0
+    "low": 26.0
    },
    "venue": "Betty Engelstad Sioux Center",
    "venue_city": "Grand Forks",
@@ -2026,7 +2023,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-11-18-2026--sports-ncaa-basketball/production/7580314?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -2280,7 +2277,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 31.0
+    "low": 29.0
    },
    "venue": "State Farm Center",
    "venue_city": "Champaign",
@@ -2444,7 +2441,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-11-22-2026--sports-ncaa-basketball/production/7383696?wsUser=717",
-    "low": 8.0
+    "low": 10.0
    },
    "venue": "Moody Center",
    "venue_city": "Austin",
@@ -2649,7 +2646,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 18.0
+    "low": 12.0
    },
    "venue": "Stony Brook Arena",
    "venue_city": "Stony Brook",
@@ -3364,7 +3361,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-2-2026--sports-ncaa-basketball/production/7606326?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -3663,7 +3660,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-5-2026--sports-ncaa-basketball/production/7606330?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -3705,7 +3702,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-12-5-2026--sports-ncaa-basketball/production/7854355?wsUser=717",
+    "low": 32.0
+   },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",
    "venue_state": "IL",
@@ -4504,7 +4504,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-15-2026--sports-ncaa-basketball/production/7606332?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -4917,7 +4917,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-asheville-bulldogs-mens-basketball-tickets-kimmel-arena-12-19-2026--sports-ncaa-basketball/production/7597860?wsUser=717",
-    "low": 58.0
+    "low": 41.0
    },
    "venue": "Kimmel Arena",
    "venue_city": "Asheville",
@@ -5046,7 +5046,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-21-2026--sports-ncaa-basketball/production/7606334?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -5816,7 +5816,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-1-7-2027--sports-ncaa-basketball/production/7606300?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -5997,7 +5997,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-1-9-2027--sports-ncaa-basketball/production/7606302?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -6143,7 +6143,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-1-13-2027--sports-ncaa-basketball/production/7606304?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -6366,7 +6366,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-1-16-2027--sports-ncaa-basketball/production/7854281?wsUser=717",
+    "low": 32.0
+   },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",
    "venue_state": "IL",
@@ -6441,7 +6444,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-1-21-2027--sports-ncaa-basketball/production/7606306?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -6587,7 +6590,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-1-23-2027--sports-ncaa-basketball/production/7606308?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -7034,7 +7037,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-2-4-2027--sports-ncaa-basketball/production/7606310?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -7259,7 +7262,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-2-6-2027--sports-ncaa-basketball/production/7606312?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -7887,7 +7890,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-2-20-2027--sports-ncaa-basketball/production/7606314?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -8208,6 +8211,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-16T17:43:44+00:00"
+ ]
 }

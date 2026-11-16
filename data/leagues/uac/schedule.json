@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:13:55+00:00",
+ "fetched_at": "2026-11-16T18:10:21+00:00",
  "season": 2027,
  "games": [
   {
@@ -1491,7 +1491,7 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": 35,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1499,13 +1499,13 @@
     "key": null,
     "name": "Fisk Bulldogs",
     "abbr": "FISK",
-    "score": 24,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:49 - 1st"
+   "detail": "17:46 - 2nd"
   },
   {
    "game_id": "401928841",
@@ -1654,7 +1654,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-16-2026--sports-ncaa-basketball/production/7457294?wsUser=717",
-    "low": 10.0
+    "low": 8.0
    },
    "venue": "Gallagher-Iba Arena",
    "venue_city": "Stillwater",
@@ -1906,7 +1906,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-11-19-2026--sports-ncaa-basketball/production/7856543?wsUser=717",
-    "low": 29.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -1994,7 +1994,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-20-2026--sports-ncaa-basketball/production/7662703?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
@@ -3243,7 +3243,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-2-2026--sports-ncaa-basketball/production/7863284?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -3659,7 +3662,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-8-2026--sports-ncaa-basketball/production/7863286?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -3961,7 +3967,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-12-2026--sports-ncaa-basketball/production/7863288?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -4177,7 +4186,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-13-2026--sports-ncaa-basketball/production/7575783?wsUser=717",
-    "low": 13.0
+    "low": 11.0
    },
    "venue": "Bud Walton Arena",
    "venue_city": "Fayetteville",
@@ -4262,7 +4271,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-15-2026--sports-ncaa-basketball/production/7606332?wsUser=717",
-    "low": 31.0
+    "low": 30.0
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -4646,7 +4655,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-19-2026--sports-ncaa-basketball/production/7603969?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -4731,7 +4740,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-19-2026--sports-ncaa-basketball/production/7667548?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -4775,7 +4784,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-12-19-2026--sports-ncaa-basketball/production/7856657?wsUser=717",
-    "low": 36.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -4977,7 +4986,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-21-2026--sports-ncaa-basketball/production/7603973?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -5147,7 +5156,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-21-2026--sports-ncaa-basketball/production/7667255?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -5276,7 +5285,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-28-2026--sports-ncaa-basketball/production/7667378?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -5318,7 +5327,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-28-2026--sports-ncaa-basketball/production/7863290?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -5874,7 +5886,10 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-2-2027--sports-ncaa-basketball/production/7863296?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -5981,7 +5996,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-5-2027--sports-ncaa-basketball/production/7603983?wsUser=717",
-    "low": 35.0
+    "low": 30.0
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -6093,7 +6108,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-6-2027--sports-ncaa-basketball/production/7863320?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -6239,7 +6257,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-9-2027--sports-ncaa-basketball/production/7863348?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -6276,7 +6297,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-1-9-2027--sports-ncaa-basketball/production/7710601?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -7028,7 +7049,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-27-2027--sports-ncaa-basketball/production/7863370?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -7101,7 +7125,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-30-2027--sports-ncaa-basketball/production/7863394?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -7439,7 +7466,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-2-6-2027--sports-ncaa-basketball/production/7710613?wsUser=717",
-    "low": 38.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -7627,7 +7654,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-2-10-2027--sports-ncaa-basketball/production/7863460?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -7775,7 +7805,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-2-13-2027--sports-ncaa-basketball/production/7710615?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -8030,7 +8060,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-2-20-2027--sports-ncaa-basketball/production/7863480?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -8179,7 +8212,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-2-24-2027--sports-ncaa-basketball/production/7863502?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -8328,7 +8364,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-2-27-2027--sports-ncaa-basketball/production/7863538?wsUser=717",
+    "low": 34.0
+   },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
    "venue_state": "TX",
@@ -8666,7 +8705,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-3-6-2027--sports-ncaa-basketball/production/7710629?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -8692,6 +8731,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-16T17:42:47+00:00"
+ ]
 }

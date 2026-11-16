@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:15:27+00:00",
+ "fetched_at": "2026-11-16T18:11:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -2278,13 +2278,13 @@
   },
   {
    "game_id": "401923312",
-   "date": "2026-11-21T05:00Z",
+   "date": "2026-11-21T18:00Z",
    "name": "New Hampshire Wildcats at New Haven Chargers",
    "short_name": "UNH @ NHVN",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-haven-chargers-mens-basketball-tickets-jeffery-p-hazell-athletic-center-11-21-2026/production/7788712?wsUser=717",
@@ -2464,7 +2464,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-11-21-2026--sports-ncaa-basketball/production/7626607?wsUser=717",
-    "low": 17.0
+    "low": 12.0
    },
    "venue": "Patrick Gymnasium",
    "venue_city": "Burlington",
@@ -2492,13 +2492,13 @@
   },
   {
    "game_id": "401921088",
-   "date": "2026-11-22T05:00Z",
+   "date": "2026-11-22T17:00Z",
    "name": "Lancaster Bible Chargers at UMBC Retrievers",
    "short_name": "LBC @ UMBC",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [
     {
      "name": "ESPN+",
@@ -2554,7 +2554,7 @@
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-11-22-2026--sports-ncaa-basketball/production/7466790?wsUser=717",
     "low": 5.0
    },
-   "venue": "Fifth Third Arena",
+   "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
    "home": {
@@ -3788,7 +3788,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-12-2-2026/production/7711415?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -3826,7 +3826,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-12-3-2026--sports-ncaa-basketball/production/7626611?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "Patrick Gymnasium",
    "venue_city": "Burlington",
@@ -4101,7 +4101,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-12-5-2026--sports-ncaa-basketball/production/7608747?wsUser=717",
-    "low": 34.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -4868,7 +4868,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-12-12-2026--sports-ncaa-basketball/production/7608763?wsUser=717",
-    "low": 69.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -4912,7 +4912,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-12-13-2026/production/7711153?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -5341,7 +5341,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-12-21-2026--sports-ncaa-basketball/production/7593894?wsUser=717",
+    "low": 32.0
+   },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
    "venue_state": "ME",
@@ -5838,7 +5841,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-12-29-2026--sports-ncaa-basketball/production/7608771?wsUser=717",
-    "low": 42.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -6177,7 +6180,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-1-7-2027--sports-ncaa-basketball/production/7608645?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -6396,7 +6399,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-1-14-2027/production/7711405?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -6805,7 +6808,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-1-21-2027--sports-ncaa-basketball/production/7608651?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -6916,7 +6919,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-1-23-2027--sports-ncaa-basketball/production/7608655?wsUser=717",
-    "low": 30.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -6954,7 +6957,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-1-23-2027/production/7711413?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -7363,7 +7366,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-2-4-2027--sports-ncaa-basketball/production/7608665?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -7550,7 +7553,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-2-6-2027--sports-ncaa-basketball/production/7608673?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -7702,7 +7705,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-2-11-2027/production/7711403?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -7851,7 +7854,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-2-13-2027--sports-ncaa-basketball/production/7608697?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -8292,7 +8295,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-2-25-2027/production/7711151?wsUser=717",
-    "low": 42.0
+    "low": 37.0
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -8549,7 +8552,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-3-2-2027--sports-ncaa-basketball/production/7608711?wsUser=717",
-    "low": 35.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",

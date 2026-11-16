@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T23:03:33+00:00",
+ "fetched_at": "2026-11-16T18:02:58+00:00",
  "season": 2027,
  "games": [
   {
@@ -2247,10 +2247,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-11-15-2026--sports-ncaa-basketball/production/7872834?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -2557,7 +2554,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/providence-college-friars-mens-basketball-tickets-amica-mutual-pavilion-11-17-2026--sports-ncaa-basketball/production/7326146?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Amica Mutual Pavilion",
    "venue_city": "Providence",
@@ -3035,7 +3032,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-11-21-2026--sports-ncaa-basketball/production/7724858?wsUser=717",
-    "low": 16.0
+    "low": 14.0
    },
    "venue": "Canastra Hammer Arena",
    "venue_city": "Lawrenceville",
@@ -3296,7 +3293,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-11-24-2026--sports-ncaa-basketball/production/7608606?wsUser=717",
-    "low": 24.0
+    "low": 21.0
    },
    "venue": "M&T Bank Arena",
    "venue_city": "Hamden",
@@ -3340,7 +3337,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-11-24-2026--sports-ncaa-basketball/production/7463031?wsUser=717",
-    "low": 12.0
+    "low": 10.0
    },
    "venue": "Jersey Mike\u2019s Arena",
    "venue_city": "Piscataway",
@@ -5276,7 +5273,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-12-12-2026--sports-ncaa-basketball/production/7603592?wsUser=717",
-    "low": 28.0
+    "low": 33.0
    },
    "venue": "Breslin Center",
    "venue_city": "East Lansing",
@@ -5446,7 +5443,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-12-12-2026--sports-ncaa-basketball/production/7608763?wsUser=717",
-    "low": 69.0
+    "low": 28.0
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -5821,7 +5818,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-12-16-2026--sports-ncaa-basketball/production/7463041?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Jersey Mike\u2019s Arena",
    "venue_city": "Piscataway",
@@ -6208,7 +6205,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-12-20-2026--sports-ncaa-basketball/production/7628272?wsUser=717",
-    "low": 26.0
+    "low": 23.0
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -6426,7 +6423,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-12-21-2026--sports-ncaa-basketball/production/7593894?wsUser=717",
+    "low": 32.0
+   },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
    "venue_state": "ME",
@@ -6641,7 +6641,7 @@
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-12-22-2026--sports-ncaa-basketball/production/7466800?wsUser=717",
     "low": 7.0
    },
-   "venue": "Fifth Third Arena",
+   "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
    "home": {
@@ -11146,6 +11146,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-16T00:26:22+00:00"
+ ]
 }
