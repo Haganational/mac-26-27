@@ -1726,21 +1726,21 @@
     "key": null,
     "name": "Montana State Bobcats",
     "abbr": "MTST",
-    "score": 59,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "13",
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": 40,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:38 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924265",
@@ -9811,5 +9811,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T00:27:00+00:00"
+ "live_at": "2026-11-16T00:55:55+00:00"
 }

@@ -1685,21 +1685,21 @@
     "key": "ut-martin",
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 116,
-    "winner": null
+    "score": 128,
+    "winner": true
    },
    "away": {
     "espn_id": "3120",
     "key": null,
     "name": "Ecclesia Royals",
     "abbr": "ECCL",
-    "score": 38,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920962",
@@ -8209,5 +8209,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T00:34:49+00:00"
+ "live_at": "2026-11-16T01:04:53+00:00"
 }
