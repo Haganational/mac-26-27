@@ -2056,21 +2056,21 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 81,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2488",
     "key": null,
     "name": "Paine Lions",
     "abbr": "PANE",
-    "score": 61,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911472",
@@ -2100,7 +2100,7 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": 28,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -2108,13 +2108,13 @@
     "key": "alabama-state",
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": 27,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:13 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929419",
@@ -10780,5 +10780,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-16T02:41:51+00:00"
+ "live_at": "2026-11-16T02:54:16+00:00"
 }
