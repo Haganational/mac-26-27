@@ -587,6 +587,7 @@ def render_site() -> str:
         print(f"honors: skipped ({e})")
         team_honors = {}
     team_films = honors.films()
+    team_songs = honors.fight_songs()
     for team in TEAMS:
         html = team_tpl.render(
             d=data,
@@ -605,7 +606,7 @@ def render_site() -> str:
             mvs={u["game_id"]: model_view.view(u) for u in m["upcoming"]} if m else {},
             prate=prate, prate_n=len(prate),
             town=gamer.around_town(team.key, flavor, on),
-            team_films=team_films.get(team.key, []), team_honors=team_honors.get(team.key, []),
+            team_films=team_films.get(team.key, []), team_song=team_songs.get(team.key), team_honors=team_honors.get(team.key, []),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))

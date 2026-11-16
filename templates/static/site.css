@@ -1131,6 +1131,8 @@ html.lg-blueridge .sitefoot { color: #e3e8f2; }
 .teammedia .film-frame { position: relative; aspect-ratio: 16 / 9; background: #111; border-radius: 4px; overflow: hidden; max-width: 860px; }
 .teammedia .film-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .teammedia figcaption { margin-top: 8px; max-width: 860px; }
+.teammedia .film-frame.tall { aspect-ratio: 9 / 16; max-width: 320px; }
+.teammedia .song figcaption { max-width: 320px; }
 .teammedia figcaption .kick { display: block; font: 600 11px/1.4 "Barlow Condensed", sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--brick); }
 .teammedia .honors-h { margin: 6px 0 6px; font-size: 1.05rem; }
 .teammedia .honors { list-style: none; padding: 0; margin: 0; }
