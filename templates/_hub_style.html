@@ -98,6 +98,32 @@
   @media (max-width: 960px) { .confs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media (max-width: 520px) { .confs { grid-template-columns: 1fr; } }
   .conf { border-top: 4px solid var(--c); padding-top: 10px; }
+  .confs-wrap { margin: 34px 0 10px; }
+  .confs-wrap .confs { margin-top: 12px; row-gap: 18px; }
+  .conf .top { display: block; font: 600 16px/1.3 var(--serif); color: var(--ink); margin: 6px 0 6px; text-wrap: balance; }
+  .conf .top:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .conf p.go { margin: 0 0 4px; font-size: 13px; }
+  .conf p.go a { color: var(--c); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .conf p.go a { color: color-mix(in srgb, var(--c) 55%, #fff); } }
+  :root[data-theme="dark"] .conf p.go a { color: color-mix(in srgb, var(--c) 55%, #fff); }
+  .conf details summary { cursor: pointer; font-size: 12.5px; color: var(--muted); padding: 2px 0; }
+  .conf details[open] summary { margin-bottom: 6px; }
+  .kick .why { margin-left: 2px; padding: 2px 5px 1px; border: 1px solid currentColor; color: var(--accent); font-size: .92em; letter-spacing: .06em; }
+  .home-desk { background: var(--surface); border: 1px solid var(--rule); padding: 12px 14px 6px; }
+  @media (max-width: 560px) { .cards .kick .why { display: none; } }
+  .home-desk .sh { margin-bottom: 4px; }
+  .home-desk .sub { font-size: 12px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+  .home-desk ul { list-style: none; margin: 0; padding: 0; }
+  .home-desk li { display: grid; gap: 1px; padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+  .home-desk li:last-child { border-bottom: 0; }
+  .home-desk .hd { display: flex; align-items: center; gap: 8px; color: var(--ink); }
+  .home-desk .hd b { font-weight: 700; }
+  .home-desk .hd b.pin { color: #2f6b3b; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .home-desk .hd b.pin { color: #7fc48f; } }
+  :root[data-theme="dark"] .home-desk .hd b.pin { color: #7fc48f; }
+  .home-desk .ln, .home-desk .ln a { color: var(--ink-2); }
+  .home-desk .ln a:hover { text-decoration: underline; }
+  .home-desk .nx { color: var(--muted); font-size: 13px; }
   .conf h2 { font: 700 21px/1.15 var(--serif); margin: 0; }
   .conf .rg { color: var(--muted); font-size: 12.5px; margin: 3px 0 10px; }
   .conf .go { display: inline-block; font-weight: 600; font-size: 14px; color: var(--c); margin-bottom: 8px; }
@@ -217,4 +243,17 @@
   }
   @media (max-width: 380px) { .hb-grid small { display: none; } }
   .nw { white-space: nowrap; }  /* scores in headlines stay on one line */
+  /* Landing hello: At-Large swells once (0-0.6 s), then Watch's eyes open, blink twice and close (0.6-1.5 s). */
+  .bar .hb-al span { display: inline-block; transform-origin: 50% 60%; }
+  .bar .hb-watch { position: relative; }
+  .bar .hb-eyes { position: absolute; left: 50%; top: -3px; margin-left: -11px; opacity: 0; transform-origin: 50% 50%; pointer-events: none; }
+  .bar.hello .hb-al span { animation: hb-swell .6s ease-in-out both; }
+  .bar.hello .hb-eyes { animation: hb-blink .9s ease-in-out .6s both; }
+  @keyframes hb-swell { 0% { transform: scale(1); } 45% { transform: scale(1.16); } 100% { transform: scale(1); } }
+  @keyframes hb-blink {
+    0% { opacity: 0; transform: scaleY(.1); } 12% { opacity: 1; transform: scaleY(1); }
+    30% { transform: scaleY(1); } 38% { transform: scaleY(.1); } 46% { transform: scaleY(1); }
+    60% { transform: scaleY(1); } 68% { transform: scaleY(.1); } 76% { transform: scaleY(1); }
+    90% { opacity: 1; } 100% { opacity: 0; transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) { .bar.hello .hb-al span, .bar.hello .hb-eyes { animation: none; } }
 </style>

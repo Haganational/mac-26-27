@@ -27,6 +27,13 @@
   </section>
   {% endif %}
 
+  {% if around %}
+  <section class="around" aria-labelledby="h-around">
+    <div class="sechead"><h2 id="h-around">Around the mid-majors</h2><span class="dim">Last night's top finals elsewhere</span></div>
+    <div class="ar-row">{% for a in around %}<a class="ar" href="{{ a.href }}" style="--c:{{ a.color }}"><span class="ar-k">{{ a.league }}{% if a.why %} · {{ a.why }}{% endif %}</span><b>{{ a.text|nobreak }}</b></a>{% endfor %}</div>
+  </section>
+  {% endif %}
+
   {% if d.tonight %}
   <section id="tonight">
     <div class="sechead"><h2>{{ 'Tonight & tomorrow' if d.tonight|map(attribute='et.day_key')|unique|list|length > 1 else 'Next up' }}</h2><span class="dim">{{ d.tonight[0].et.day_label }}{% if d.tonight[-1].et.day_label != d.tonight[0].et.day_label %} – {{ d.tonight[-1].et.day_label }}{% endif %}</span><a class="more" href="tv.html">Full schedule →</a></div>

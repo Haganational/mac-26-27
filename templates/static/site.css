@@ -1558,3 +1558,11 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 }
 @media (max-width: 420px) { .tb-eds .ed-grid small { display: none; } }
 .nw { white-space: nowrap; }  /* scores in headlines ("73-71") stay on one line */
+
+/* Around the mid-majors: the night's top finals from the other editions (mac.frontscore.around) */
+.around .ar-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 28px; }
+@media (max-width: 860px) { .around .ar-row { grid-template-columns: 1fr; } }
+.around .ar { display: grid; gap: 4px; padding: 10px 0 10px 12px; border-left: 3px solid var(--c); color: var(--ink); text-decoration: none; }
+.around .ar:hover b { text-decoration: underline; text-underline-offset: 3px; }
+.around .ar-k { font: 600 12px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.around .ar b { font: 600 17px/1.25 var(--serif); }
