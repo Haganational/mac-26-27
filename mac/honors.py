@@ -8,7 +8,7 @@ Two kinds of post land on a team page, newest first, for the whole season:
 
 Both come from the same functions the cards use (mac.cards), run over this edition's games, so a
 team page and the night's card always agree. Feature films pinned to the top of a team's
-multimedia section live in data/films.json.
+multimedia section live in data/films.json; fight song videos in data/fight_songs.json.
 """
 from __future__ import annotations
 
@@ -21,6 +21,7 @@ from .den import ET, load_boxes, load_games
 from .leagues import ROOT, League
 
 FILMS = ROOT / "data" / "films.json"
+FIGHT_SONGS = ROOT / "data" / "fight_songs.json"
 
 
 def films() -> dict[str, list[dict[str, Any]]]:
@@ -28,6 +29,18 @@ def films() -> dict[str, list[dict[str, Any]]]:
     if not FILMS.exists():
         return {}
     return {k: v for k, v in json.loads(FILMS.read_text()).get("films", {}).items() if v}
+
+
+def fight_songs() -> dict[str, dict[str, Any]]:
+    """team key -> its fight song video (a vertical Short), once one is published.
+
+    Only public-domain songs get a video (see data/fight_songs.json "_about"); a row without a
+    youtube id is research only and stays off the page.
+    """
+    if not FIGHT_SONGS.exists():
+        return {}
+    rows = json.loads(FIGHT_SONGS.read_text()).get("songs", {})
+    return {k: v for k, v in rows.items() if v.get("youtube")}
 
 
 def _line(r: dict[str, Any]) -> str:

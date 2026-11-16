@@ -37,7 +37,7 @@
   </div>
   {% endif %}
 
-  {% if team_films or team_honors %}
+  {% if team_films or team_song or team_honors %}
   <section id="multimedia" class="teammedia">
     <h2>Multimedia</h2>
     {% for f in team_films %}
@@ -46,6 +46,12 @@
       <figcaption>{% if loop.first %}<span class="kick">Pinned · Hardwood Bricks film</span>{% endif %}<strong>{{ f.title }}</strong>{% if f.dek %} <span class="dim">{{ f.dek }}</span>{% endif %}</figcaption>
     </figure>
     {% endfor %}
+    {% if team_song %}
+    <figure class="film song">
+      <div class="film-frame tall"><iframe src="https://www.youtube-nocookie.com/embed/{{ team_song.youtube }}" title="{{ team_song.title }}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+      <figcaption><span class="kick">Fight song{% if team_song.performer %} · sung by {{ team_song.performer }}{% endif %}</span><strong>{{ team_song.title }}</strong>{% if team_song.credit %} <span class="dim">{{ team_song.credit }}</span>{% endif %}</figcaption>
+    </figure>
+    {% endif %}
     {% if team_honors %}
     <h3 class="honors-h">From our posts</h3>
     <ul class="honors">
