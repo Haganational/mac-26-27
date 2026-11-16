@@ -2021,7 +2021,7 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2029,13 +2029,13 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:44 - 1st"
   },
   {
    "game_id": "401925718",
@@ -10779,5 +10779,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-16T00:10:50+00:00"
 }
