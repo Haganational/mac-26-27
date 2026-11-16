@@ -142,18 +142,27 @@ def rank(stories: list[dict[str, Any]], scorer: Scorer | None, edition: str | No
     applied, then everything else newest first (the order they came in). Adds "fs" (the score dict) to each."""
     if scorer is None:
         return list(stories)
-    scored, rest = [], []
+    # Only the newest two nights are scored (reading closing lines is the slow part); find them from game dates first.
+    day_of: dict[int, str] = {}
     for s in stories:
+        s["fs"] = None
         gid = game_id(s.get(href, ""))
-        fs = scorer.score(gid, edition) if gid and s.get("kind", "recap") == "recap" else None
-        s["fs"] = fs
-        (scored if fs else rest).append(s)
-    if not scored:
+        g = scorer.games.get(gid) if gid and s.get("kind", "recap") == "recap" else None
+        if g and g.get("completed"):
+            day_of[id(s)] = cards.et_day(g["date"])
+    if not day_of:
         return list(stories)
-    newest = max(s["fs"]["day"] for s in scored)
+    newest = max(day_of.values())
     cutoff = (Date.fromisoformat(newest) - timedelta(days=POOL_DAYS - 1)).isoformat()
-    pool = [s for s in scored if s["fs"]["day"] >= cutoff]
-    late = [s for s in scored if s["fs"]["day"] < cutoff]
+    pool, rest = [], []
+    for s in stories:
+        if day_of.get(id(s), "") >= cutoff:
+            s["fs"] = scorer.score(game_id(s.get(href, "")), edition)
+        (pool if s["fs"] else rest).append(s)
+    if not pool:
+        return list(stories)
+    newest = max(s["fs"]["day"] for s in pool)
+    late: list[dict[str, Any]] = []
     # The night before still competes, 10 points down, so a big upset can hold the cover through the next day.
     pool.sort(key=lambda s: -(s["fs"]["score"] - (0 if s["fs"]["day"] == newest else 10)))
     tonight = [s for s in pool if s["fs"]["day"] == newest]
