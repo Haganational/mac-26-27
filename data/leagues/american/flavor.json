@@ -1,0 +1,1601 @@
+{
+ "_help": "American Athletic Conference local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "charlotte": {
+   "town": "Charlotte",
+   "home_floor": "Halton Arena",
+   "home_lines": [
+    {
+     "text": "Charlotte's Dale F. Halton Arena opened on December 2, 1996, and the 49ers christened it with a win over Appalachian State.",
+     "source": "https://en.wikipedia.org/wiki/Dale_F._Halton_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Charlotte's Halton Arena seats 9,105 and is named for the former president and CEO of the Pepsi-Cola Bottling Company of Charlotte, a university trustee.",
+     "source": "https://en.wikipedia.org/wiki/Dale_F._Halton_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Charlotte students call Halton Arena 'The SAC,' short for the James H. Barnhardt Student Activity Center that houses it, and commencement is held there every December and May.",
+     "source": "https://en.wikipedia.org/wiki/Dale_F._Halton_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Halton Arena opened in 1996, Charlotte played at Belk Gymnasium, Bojangles Coliseum and, from 1988 to 1993, the Charlotte Coliseum.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Charlotte is named for Charlotte of Mecklenburg-Strelitz, who became queen consort in 1761, and the city is nicknamed the Queen City.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "British General Cornwallis occupied Charlotte during the Revolutionary War but was driven out by hostile residents and called the town 'a hornet's nest of rebellion.'",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1799 a 12-year-old named Conrad Reed found a 17-pound rock near Charlotte that his family used as a doorstop, and it set off the nation's first gold rush.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Charlotte Mint was founded in 1837, was seized by Confederate forces in 1861 at the start of the Civil War, and was not reopened afterward.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Textile manufacturing in Charlotte began with the 1881 Charlotte Cotton Mill, which still stands at Graham and 5th streets.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNC Charlotte began on September 23, 1946, as the Charlotte Center of the University of North Carolina, an extension center for the G.I. Bill surge that opened with 278 students.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Charlotte's 49ers nickname recalls 1949, when the school was saved from permanent closure, and its mascot, Norm the Niner, is a gold miner.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bonnie Cone, 'Miss Bonnie' to her students, became director of the Charlotte Center in 1947 and served as president of Charlotte College from 1949 to 1965.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Charlotte first fielded an intercollegiate basketball program in 1965, a dozen years before the 49ers reached the Final Four in 1977.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In Lee Rose's first season, 1975-76, Charlotte reached the NIT championship game and lost 71-67 to Kentucky.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Charlotte beat Michigan 75-68 in the 1977 Elite Eight to reach its first and only Final Four, a 28-5 season under Lee Rose.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1977 national semifinal at the Omni in Atlanta, a last-second play gave Marquette a 51-49 win over Charlotte.",
+     "source": "https://www.wbtv.com/2022/04/04/looking-back-unc-charlottes-final-four-run-45-years-later/?outputType=amp",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Henry Williams is Charlotte's all-time leading scorer with 2,383 points, while Cedric Maxwell, the star of the 1977 Final Four team, ranks seventh with 1,824.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Charlotte's rivalry with Davidson, known as the Hornet's Nest series, began in the 1979-80 season and is one of two rivalries the 49ers' program lists.",
+     "source": "https://en.wikipedia.org/wiki/Charlotte_49ers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Wes Miller, a former North Carolina player who coached UNC Greensboro and Cincinnati, was named Charlotte's head coach on March 23, 2026.",
+     "source": "https://www.thecharlottepost.com/news/2026/03/23/sports/wes-miller-named-next-charlotte-basketball-coach/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Kinston native Cedric Maxwell led Charlotte to the 1977 Final Four, went 12th in that year's NBA draft and was MVP of the 1981 NBA Finals with Boston.",
+     "source": "https://en.wikipedia.org/wiki/Cedric_Maxwell",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "east-carolina": {
+   "town": "Greenville",
+   "home_floor": "Minges Coliseum",
+   "home_lines": [
+    {
+     "text": "East Carolina's Minges Coliseum was dedicated on January 27, 1968, and its Williams Arena seats 8,000 for Pirates basketball in Greenville.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "East Carolina named its Greenville arena for the Minges and Williams families in honor of their longstanding support of the university.",
+     "source": "https://en.wikipedia.org/wiki/Williams_Arena_at_Minges_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "East Carolina's Minges Coliseum underwent a complete renovation prior to the 1994-95 season, more than a quarter century after the Greenville building opened.",
+     "source": "https://en.wikipedia.org/wiki/Williams_Arena_at_Minges_Coliseum",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Greenville, North Carolina, took its name in 1786, when the town was renamed Greenesville in honor of General Nathanael Greene, later shortened to Greenville.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Greenville sits on the south bank of the Tar River, which was navigable early on, and by the 1860s several steamboat lines carried passengers and goods.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cotton was Greenville's leading crop at first, but tobacco later surpassed it as the money crop, and Greenville became one of North Carolina's leading tobacco marketing and warehouse centers.",
+     "source": "https://en.wikipedia.org/wiki/Greenville,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In September 1999, after Hurricane Floyd, the Tar River crested at an unprecedented 29 feet in Pitt County, and flooding forced the evacuation of several thousand East Carolina students and campus employees.",
+     "source": "https://library.ecu.edu/specialcollections/2024/09/25/the-flood-of-the-century-25th-anniversary-of-hurricane-floyd-impacting-eastern-north-carolina/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On March 27, 1965, a Klan night rally outside Greenville drew 1,500 to 2,000 people, and East Carolina's student paper called the Klan's views 'the absurd right.'",
+     "source": "https://lib.ecu.edu/sites/chronicles/reactions-to-desegregation-ecc-and-the-kkk/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "East Carolina was chartered by the North Carolina General Assembly in 1907 as East Carolina Teachers Training School and opened its doors on October 5, 1909.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "East Carolina's teams were called the Teachers until 1934, when they became the Pirates, the same year the Tecoan yearbook introduced the pirate motif in its 1934 edition.",
+     "source": "https://ecupirates.com/sports/2016/7/6/why-pirates",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "East Carolina's alma mater, 'Hail to Thy Name So Fair,' was written by Harold A. McDougle and first appeared in the 1940-41 student handbook in Greenville.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Basketball became the first intercollegiate sport at East Carolina, beginning with the 1931-32 season in Greenville.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "East Carolina won the Southern Conference tournament in 1972 and reached its first NCAA tournament, losing 85-70 to Villanova in the first round.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "East Carolina returned to the NCAA tournament in 1993 as Colonial Athletic Association tournament champion under Eddie Payne and lost 85-65 to North Carolina.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "East Carolina won the CollegeInsider.com Tournament in 2013, beating Weber State in the championship game.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Blue Edwards was the Colonial Athletic Association Player of the Year for East Carolina in 1988-89 and went 21st overall to the Utah Jazz in the 1989 NBA draft.",
+     "source": "https://en.wikipedia.org/wiki/East_Carolina_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Michael Schwartz entered the 2026-27 season as East Carolina's fifth-year head coach, leading the Pirates from Minges Coliseum in Greenville.",
+     "source": "https://ecupirates.com/news/2026/6/8/mens-basketball-announces-2026-27-roster",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "fau": {
+   "town": "Boca Raton",
+   "home_floor": "Eleanor R. Baldwin Arena",
+   "home_lines": [
+    {
+     "text": "Florida Atlantic's arena opened to women's basketball in 1984 as FAU Arena, and the building is still commonly called The Burrow by Owls fans.",
+     "source": "https://en.wikipedia.org/wiki/Eleanor_R._Baldwin_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic modernized its Boca Raton arena with a $9 million renovation in 2007, followed by another round of work in the summer of 2008 that added club suites.",
+     "source": "https://en.wikipedia.org/wiki/Eleanor_R._Baldwin_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In November 2022 Florida Atlantic received a $7.5 million gift from Eleanor R. Baldwin to rename its basketball arena in Boca Raton, which now carries her name.",
+     "source": "https://en.wikipedia.org/wiki/Eleanor_R._Baldwin_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The record crowd at Florida Atlantic's Eleanor R. Baldwin Arena is 3,161, a figure the Boca Raton building has reached on multiple occasions.",
+     "source": "https://en.wikipedia.org/wiki/Eleanor_R._Baldwin_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Boca Raton's name descends from the Spanish Boca de Ratones, meaning Mouth of Mice, which appeared on early European maps as the name of an inlet.",
+     "source": "https://en.wikipedia.org/wiki/Boca_Raton,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Boca Raton was an unincorporated farming community of 100 people in 1920, before architect Addison Mizner arrived with plans for a resort city during the Florida land boom.",
+     "source": "https://en.wikipedia.org/wiki/Boca_Raton,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Addison Mizner's Cloister Inn, a 100-room hotel that cost $1,750,000, opened in Boca Raton on February 6, 1926, with a dinner for 500 guests; it is now a wing of the Boca Raton Resort & Club.",
+     "source": "https://en.wikipedia.org/wiki/Addison_Mizner",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In August 1981 IBM introduced the IBM PC from its Boca Raton factory, and by 1984 the company employed 8,500 people in Boca Raton.",
+     "source": "https://en.wikipedia.org/wiki/Boca_Raton,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Pearl City, the Boca Raton neighborhood platted on May 30, 1915, for blue-collar African American workers, is home to Ebenezer Baptist Church, founded there in 1918.",
+     "source": "https://en.wikipedia.org/wiki/Boca_Raton,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "From 1953 to 1961 the Africa U.S.A. park west of Boca Raton let some 200 exotic species roam 300 acres; the land is now the Camino Gardens neighborhood.",
+     "source": "https://thecoastalstar.com/profiles/blogs/boca-raton-wild-animals-long-gone-from-city-acreage-now-roam-free",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic University opened on September 14, 1964, with 867 students offering only upper-division and graduate courses; Boca Raton's university did not admit lower-division undergraduates until 1984.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic's first degree was an honorary doctorate given to President Lyndon B. Johnson on October 25, 1964, at the Boca Raton university's dedication.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic's Boca Raton campus was designated a burrowing owl sanctuary by the Audubon Society in 1971, and the old runways of the Boca Raton Army Air Field are mainly used for parking.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic basketball began play in the 1988-89 season, and the Owls opened with a 111-62 win over Palm Beach Atlantic.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic reached its first NCAA tournament in 2002 as a No. 15 seed, and heavily favored No. 2 seed Alabama held on to beat the Owls 86-78.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 9 seed in 2023, Florida Atlantic beat Memphis, Fairleigh Dickinson, Tennessee and Kansas State, the last by 79-76, to reach the Final Four.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic's 2023 Final Four ended with a 72-71 loss to San Diego State in the national semifinal.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Florida Atlantic basketball moved from Conference USA to the American Athletic Conference in July 2023, after earlier stops in the Atlantic Sun and the Sun Belt.",
+     "source": "https://en.wikipedia.org/wiki/Florida_Atlantic_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Jakus is the head coach of Florida Atlantic men's basketball and announced the hiring of assistant Mike Taylor to the Boca Raton staff in July 2026.",
+     "source": "https://fausports.com/news/2026/7/27/mens-basketball-owls-add-mike-taylor-as-assistant-coach",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "memphis": {
+   "town": "Memphis",
+   "home_floor": "FedExForum",
+   "home_lines": [
+    {
+     "text": "FedExForum opened in September 2004, built at a cost of $250 million, and the downtown Memphis arena is owned by the City of Memphis.",
+     "source": "https://en.wikipedia.org/wiki/FedExForum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "FedEx, one of the best-known businesses in Memphis, bought the naming rights to the city's downtown arena, FedExForum, for $92 million.",
+     "source": "https://en.wikipedia.org/wiki/FedExForum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "FedExForum in downtown Memphis is home to both the NBA's Memphis Grizzlies and the University of Memphis Tigers men's basketball program.",
+     "source": "https://en.wikipedia.org/wiki/FedExForum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "FedExForum, at 191 Beale Street in downtown Memphis, was the first arena to use the new see-through shot clock units.",
+     "source": "https://en.wikipedia.org/wiki/FedExForum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before moving to FedExForum in 2004, the Memphis Tigers played at the Mid-South Coliseum and then, from 1991, at The Pyramid, known as the Tomb of Doom.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Memphis was founded in 1819 by John Overton, James Winchester and Andrew Jackson, who named it after the ancient capital of Egypt on the Nile River.",
+     "source": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Memphis sits on the high Chickasaw Bluffs, a site that offered the young city natural protection from Mississippi River flooding.",
+     "source": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Within four days of a yellow fever outbreak being declared in Memphis, 20,000 residents fled, and the epidemic bankrupted the city, which lost its charter in 1879.",
+     "source": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Elvis, Johnny Cash, Jerry Lee Lewis, Carl Perkins and Roy Orbison all made their first recordings at Sam Phillips' Sun Studio in Memphis, which still stands and is open for tours.",
+     "source": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Martin Luther King Jr. was assassinated in Memphis on April 4, 1968, the year of the city's sanitation strike, and the Lorraine Motel was later converted into the National Civil Rights Museum.",
+     "source": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Memphis opened on September 10, 1912, as West Tennessee State Normal School, with Seymour A. Mynders as its first president.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Memphis",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Memphis Tigers nickname traces to a 1914 game, after which students chanted, \"We fight like Tigers,\" and the name stuck.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Memphis",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Since 1972 the University of Memphis sideline mascot has been a live Bengal tiger named TOM.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Memphis",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In the 1973 national championship game, Memphis State lost 87-66 to John Wooden's UCLA team led by Bill Walton; Larry Finch was a consensus All-American that season.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Memphis State reached the 1985 Final Four and lost to eventual champion Villanova, but the NCAA later stripped the school of its tournament appearances from 1982 to 1986.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Memphis lost the 2008 national championship game to Kansas 75-68 in overtime, and the NCAA later ordered the school to vacate all 38 wins from that season.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Memphis won the NIT in 2002 and again in 2021, when a win over Mississippi State in the final closed a 20-8 season for the Tigers.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The University of Memphis men's basketball program regards Louisville as its arch-rival and also counts Cincinnati among its rivals.",
+     "source": "https://en.wikipedia.org/wiki/Memphis_Tigers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Anfernee \"Penny\" Hardaway is the University of Memphis men's basketball head coach and in March 2026 named new staff for his ninth season leading the Tigers.",
+     "source": "https://gotigersgo.com/news/2026/3/30/hardaway-announces-new-additions-to-mens-basketball-staff",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Larry Finch, born in Memphis and a Melrose High School player from Orange Mound, coached Memphis State from 1986 to 1997 and left as the school's all-time winningest coach.",
+     "source": "https://en.wikipedia.org/wiki/Larry_Finch",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "north-texas": {
+   "town": "Denton",
+   "home_floor": "the Super Pit",
+   "home_lines": [
+    {
+     "text": "North Texas's UNT Coliseum in Denton opened on March 27, 1973, at a cost of $7.5 million, and is far more commonly called the Super Pit.",
+     "source": "https://en.wikipedia.org/wiki/UNT_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Super Pit in Denton seats 9,797 and was designed specifically to hold in crowd noise.",
+     "source": "https://en.wikipedia.org/wiki/UNT_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The seats inside North Texas's Super Pit were repainted green from their original bright orange.",
+     "source": "https://en.wikipedia.org/wiki/UNT_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "North Texas's Super Pit hosted first- and second-round games of the 1976 NCAA basketball tournament.",
+     "source": "https://en.wikipedia.org/wiki/UNT_Coliseum",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Denton and its county are named for John B. Denton, a preacher and lawyer killed in 1841, and the town was named county seat in 1857.",
+     "source": "https://en.wikipedia.org/wiki/Denton,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Around 1920 Denton's city government forcibly removed residents of Quakertown, a Black freedmen's settlement, to make way for a park.",
+     "source": "https://en.wikipedia.org/wiki/Denton,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Denton calls itself the Redbud Capital of Texas, and the city honors the title by holding an annual Redbud Festival.",
+     "source": "https://en.wikipedia.org/wiki/Denton,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Denton Arts and Jazz Festival draws more than 200,000 people a year to Civic Center Park for music, food and crafts.",
+     "source": "https://en.wikipedia.org/wiki/Denton,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Denton is home to Texas Woman's University, founded in 1901, and serves as headquarters for the truck maker Peterbilt.",
+     "source": "https://en.wikipedia.org/wiki/Denton,_Texas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of North Texas began in 1890 as Texas Normal College and Teacher Training Institute, and adopted green and white as its official colors in 1902-03.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Texas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Texas fans and media adopted the name Mean Green in 1966 for a football defense on which a sophomore named Joe Greene played left tackle.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Texas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Texas adopted the American eagle as its mascot on February 1, 1922, and was the first school in the world to offer a degree in jazz studies.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Texas",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Texas earned its first NCAA tournament win in 2021, beating No. 4 seed Purdue 78-69 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Texas won the 2023 NIT championship, defeating UAB in the final during a run of four straight NIT appearances.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before the Super Pit, North Texas played in Ken Bahnsen Gym, nicknamed the Snake Pit.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tony Mitchell, the only five-star recruit to play for North Texas, became the program's all-time leader in blocks within a single season and was a 2013 NBA second-round pick.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Texas counts UAB and FAU as its most contentious conference rivals in men's basketball.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Daniyal Robinson is the head coach of North Texas men's basketball, leading the Mean Green into the 2026-27 season in Denton.",
+     "source": "https://meangreensports.com/news/2026/7/27/mens-basketball-mean-green-ink-marcus-zelee",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "rice": {
+   "town": "Houston",
+   "home_floor": "Tudor Fieldhouse",
+   "home_lines": [
+    {
+     "text": "Rice's Tudor Fieldhouse in Houston opened in 1950 as Rice Gymnasium, built for the university's basketball, volleyball and swim teams.",
+     "source": "https://en.wikipedia.org/wiki/Tudor_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rice announced a $23 million renovation of its gym on February 7, 2007, and the building was renamed Tudor Fieldhouse for alumnus Bobby Tudor in 2008.",
+     "source": "https://en.wikipedia.org/wiki/Tudor_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The playing floor inside Rice's Tudor Fieldhouse is Autry Court, named in memory of Mrs. James L. Autry.",
+     "source": "https://en.wikipedia.org/wiki/Tudor_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Rice's student section at Autry Court is the Autry Army, and young fans who sink a free throw at the end of games win a basketball.",
+     "source": "https://en.wikipedia.org/wiki/Tudor_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Houston was founded by land investors on August 30, 1836, after the Allen brothers, Augustus Chapman and John Kirby, explored town sites on Buffalo Bayou and Galveston Bay.",
+     "source": "https://en.wikipedia.org/wiki/Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Houston is named after Sam Houston, president of the Republic of Texas, and the city briefly served as the republic's capital in the late 1830s.",
+     "source": "https://en.wikipedia.org/wiki/Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "President Woodrow Wilson opened the deep-water Port of Houston in 1914, seven years after digging began; the push for a port followed Galveston's devastating 1900 hurricane.",
+     "source": "https://en.wikipedia.org/wiki/Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Houston earned its Space City nickname in 1967 because of NASA's Johnson Space Center, home to the Mission Control Center.",
+     "source": "https://en.wikipedia.org/wiki/Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Houston is the largest city in the United States without formal zoning regulations and has been described as the most racially and ethnically diverse major city in the U.S.",
+     "source": "https://en.wikipedia.org/wiki/Houston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Coursework at the Rice Institute began on September 23, 1912, with 59 students, remembered at Rice as the 59 immortals.",
+     "source": "https://en.wikipedia.org/wiki/Rice_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On September 12, 1962, at Rice Stadium, President John F. Kennedy challenged the nation to send a man to the moon by the end of the decade.",
+     "source": "https://en.wikipedia.org/wiki/Rice_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Rice's Beer Bike, dating to 1957, is a combination intramural bicycle race and drinking competition held by the Houston university's students.",
+     "source": "https://en.wikipedia.org/wiki/Rice_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Rice played its first basketball season in 1914-15 and competed in the Southwest Conference from 1914 to 1996.",
+     "source": "https://en.wikipedia.org/wiki/Rice_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rice won regular-season conference basketball titles in 1918, 1935, 1940, 1942, 1943, 1944, 1945, 1949, 1954 and 1970.",
+     "source": "https://en.wikipedia.org/wiki/Rice_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rice has appeared in the NCAA tournament four times, most recently in 1970, and both of its tournament wins came in regional third-place games.",
+     "source": "https://en.wikipedia.org/wiki/Rice_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rice has retired the basketball numbers of Bill Henry, Gene Schwinger, Bill Closs, Bob Kinney, Ricky Pierce and Don Lance.",
+     "source": "https://en.wikipedia.org/wiki/Rice_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rob Lanier is Rice's men's basketball head coach, and in June 2026 the Owls announced five new signees for the 2026-27 school year.",
+     "source": "https://riceowls.com/news/2026/6/2/mens-basketball-mens-basketball-signs-five-for-2026-27",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Glenn Youngkin, the 74th governor of Virginia from 2022 to 2026, played four seasons of basketball at Rice on scholarship, totaling 82 points and 67 rebounds.",
+     "source": "https://en.wikipedia.org/wiki/Glenn_Youngkin",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "south-florida": {
+   "town": "Tampa",
+   "home_floor": "the Yuengling Center",
+   "home_lines": [
+    {
+     "text": "South Florida's Yuengling Center was known as the USF Sun Dome from 1980 to 2018, and Alice Cooper played the Tampa building's first concert on November 25, 1980.",
+     "source": "https://en.wikipedia.org/wiki/Yuengling_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The USF Sun Dome in Tampa originally had an inflatable roof, replaced by a hard dome in a 2000 renovation that cost about $8 million.",
+     "source": "https://en.wikipedia.org/wiki/Yuengling_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $35.6 million renovation completed in April 2012 made the Sun Dome's seating ADA compliant and earned the South Florida arena LEED Silver certification.",
+     "source": "https://en.wikipedia.org/wiki/Yuengling_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "South Florida announced a 10-year naming rights deal with the brewer Yuengling on June 12, 2018, and the Tampa arena took the Yuengling Center name that July.",
+     "source": "https://en.wikipedia.org/wiki/Yuengling_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "South Florida's Tampa arena hosted the WWE Royal Rumble in 1995 and later served as the WWE ThunderDome residency in 2021.",
+     "source": "https://en.wikipedia.org/wiki/Yuengling_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The earliest known form of Tampa's name, Tanpa, appears in the memoirs of Hernando de Escalante Fontaneda, who spent 17 years as a captive of the Calusa.",
+     "source": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tampa grew up around Fort Brooke, established in January 1824 at the mouth of the Hillsborough River on Tampa Bay.",
+     "source": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Tampa Board of Trade enticed Vicente Martinez Ybor to move his cigar manufacturing to the city, and his Ybor City factories rolled their first cigars in 1886.",
+     "source": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tampa is the birthplace of the Florida versions of the deviled crab and the Cuban sandwich, which the city has officially named its signature sandwich.",
+     "source": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tampa has staged Gasparilla, a mock pirate invasion of the city, since 1904, held in late January or early February.",
+     "source": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In Tampa's cigar factories, workers elected lectors to read aloud from newspapers and literature until owners banned the practice in 1931 and the lector was replaced by a radio.",
+     "source": "https://en.wikipedia.org/wiki/Tampa_cigar_makers%27_strike_of_1931",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of South Florida was established on December 18, 1956, on the former site of Henderson Air Field off Fowler Avenue in Tampa, though classes did not begin until 1960.",
+     "source": "https://en.wikipedia.org/wiki/University_of_South_Florida",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "South Florida students voted in 1962 to make the Golden Brahman their mascot, and it evolved into the Bulls in the early 1980s.",
+     "source": "https://en.wikipedia.org/wiki/University_of_South_Florida",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "South Florida's original colors were green, gold and purple before the Tampa university settled on green and gold alone.",
+     "source": "https://en.wikipedia.org/wiki/University_of_South_Florida",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "South Florida's official basketball team first tipped off as the Golden Brahmans on December 1, 1971.",
+     "source": "https://en.wikipedia.org/wiki/South_Florida_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "South Florida reached its first NCAA tournament in 1990 and lost 79-67 to No. 2 seed Arizona in the first round.",
+     "source": "https://en.wikipedia.org/wiki/South_Florida_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 12 seed in 2012, South Florida beat California 65-54 in the First Four and then upset No. 5 seed Temple 58-44 before losing 62-56 to Ohio.",
+     "source": "https://en.wikipedia.org/wiki/South_Florida_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "South Florida won the 2019 College Basketball Invitational, beating former Big East rival DePaul two games to one in the finals.",
+     "source": "https://en.wikipedia.org/wiki/South_Florida_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "South Florida coach Amir Abdur-Rahim died unexpectedly on October 24, 2024, at age 43, and the Bulls' student section in Tampa was renamed in his honor.",
+     "source": "https://en.wikipedia.org/wiki/South_Florida_Bulls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chris Mack, former head coach at Xavier, Louisville and College of Charleston, was named the 13th head coach of South Florida men's basketball on March 25, 2026.",
+     "source": "https://gousfbulls.com/news/2026/3/25/chris-mack-named-head-coach-of-usf-mens-basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "temple": {
+   "town": "North Philadelphia",
+   "home_floor": "the Liacouras Center",
+   "home_lines": [
+    {
+     "text": "Temple's Liacouras Center opened in 1997 as The Forum at The Apollo of Temple, and the Owls won the first game there, 76-61 over Fresno State.",
+     "source": "https://en.wikipedia.org/wiki/Liacouras_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Temple's arena was renamed for university president Peter J. Liacouras on February 13, 2000, just before his retirement.",
+     "source": "https://en.wikipedia.org/wiki/Liacouras_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In March 2020 Temple's Liacouras Center was turned into a field hospital, with 200 beds arranged on the basketball court.",
+     "source": "https://en.wikipedia.org/wiki/Liacouras_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Temple's McGonigle Hall opened on December 2, 1969, with a win over St. John's, and the Owls went 178-29 there before the Liacouras Center replaced it in 1997.",
+     "source": "https://en.wikipedia.org/wiki/McGonigle_Hall",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Temple's McGonigle Hall is named for Arthur T. McGonigle, a Temple trustee and pretzel magnate who donated the building's furniture and equipment.",
+     "source": "https://en.wikipedia.org/wiki/McGonigle_Hall",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "By 1964 North Philadelphia, home to Temple, was the center of the city's African American culture, with 400,000 of Philadelphia's 600,000 Black residents.",
+     "source": "https://en.wikipedia.org/wiki/North_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lower North Philadelphia, near Temple, became for a time a great center of Black culture and jazz, and musicians such as John Coltrane and Stan Getz came to North Philadelphia.",
+     "source": "https://en.wikipedia.org/wiki/North_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Philadelphia's Broad Street Line subway, begun during North Philadelphia's industrial expansion, was designed to carry a passenger from Olney to City Hall in under 20 minutes.",
+     "source": "https://en.wikipedia.org/wiki/North_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Columbia Avenue riot began in North Philadelphia, where Temple's main campus sits, on Friday, August 28, 1964, lasted three days, and left 726 buildings affected.",
+     "source": "https://philadelphiaencyclopedia.org/?p=13130",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Temple's main campus sits in the Cecil B. Moore neighborhood of North Philadelphia, about 1.5 miles north of Center City.",
+     "source": "https://en.wikipedia.org/wiki/Temple_University",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Temple was founded in 1884 by Baptist minister Russell Conwell and his congregation, growing out of his night tutoring of working-class Philadelphians in the basement of his Baptist Temple.",
+     "source": "https://en.wikipedia.org/wiki/Temple_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The owl has been Temple's mascot since its founding, a nocturnal bird for a night school, and Russell Conwell told students the owl of the night makes the eagle of the day.",
+     "source": "https://en.wikipedia.org/wiki/Temple_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Russell Conwell, Temple's founder and first president, delivered his lecture 'Acres of Diamonds' over 6,152 times before his death in 1925.",
+     "source": "https://en.wikipedia.org/wiki/Russell_Conwell",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Temple won the inaugural National Invitation Tournament in 1938, beating Colorado 60-36 in the final at the end of a three-game run.",
+     "source": "https://en.wikipedia.org/wiki/Temple_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Under coach Harry Litwack, Temple reached the NCAA Final Four in 1956 and 1958 and finished third both years.",
+     "source": "https://en.wikipedia.org/wiki/Temple_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Temple entered the 1988 NCAA tournament ranked No. 1 under John Chaney and lost 63-53 to Duke in the Elite Eight.",
+     "source": "https://en.wikipedia.org/wiki/Temple_Owls_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before Temple hired him in 1982, John Chaney won the 1978 NCAA Division II championship at Cheyney State, finishing that season 27-2.",
+     "source": "https://en.wikipedia.org/wiki/John_Chaney_(basketball,_born_1932)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Chaney, Temple's coach from 1982 until his retirement in 2006, took the Owls to 17 NCAA tournaments, reached five Elite Eights and was known for early-morning practices and a match-up zone.",
+     "source": "https://en.wikipedia.org/wiki/John_Chaney_(basketball,_born_1932)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Adam Fisher, a former Penn State associate head coach, was named Temple's 19th head coach on March 29, 2023.",
+     "source": "https://owlsports.com/staff-directory/adam-fisher/3314",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Philadelphia native Guy Rodgers played for Temple from 1955 to 1958, made the 1958 Final Four all-tournament team and entered the Hall of Fame in 2014.",
+     "source": "https://en.wikipedia.org/wiki/Guy_Rodgers",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "tulane": {
+   "town": "New Orleans",
+   "home_floor": "Devlin Fieldhouse",
+   "home_lines": [
+    {
+     "text": "Tulane's Devlin Fieldhouse opened in 1933 on the Uptown campus in New Orleans; construction of what was then Tulane Gym began in 1931.",
+     "source": "https://en.wikipedia.org/wiki/Devlin_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Tulane Gym was long known around campus as the Rose Bowl Gym because it was built with money from the football team's trip to the 1932 Rose Bowl.",
+     "source": "https://en.wikipedia.org/wiki/Devlin_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Tulane's gym in New Orleans hosted the East Regional games of the 1942 NCAA basketball tournament, won by Dartmouth.",
+     "source": "https://en.wikipedia.org/wiki/Devlin_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Tulane's arena was remodeled and renamed for Avron B. Fogelman in 1989, later added the names of supporters Bob and Kate Devlin, and seats 4,100.",
+     "source": "https://en.wikipedia.org/wiki/Devlin_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Barack Obama spoke to a capacity crowd in Tulane's Fogelman Arena in New Orleans in 2008 as part of his campaign for the Democratic nomination.",
+     "source": "https://en.wikipedia.org/wiki/Devlin_Fieldhouse",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "New Orleans was founded in the spring of 1718 by the French Mississippi Company under Jean-Baptiste Le Moyne de Bienville and named for Philippe II, Duke of Orleans.",
+     "source": "https://en.wikipedia.org/wiki/New_Orleans",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "American forces decisively defeated the British at the Battle of New Orleans on January 8, 1815; the city had become part of the United States in the Louisiana Purchase of 1803.",
+     "source": "https://en.wikipedia.org/wiki/New_Orleans",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hurricane Katrina flooded more than 80 percent of New Orleans, a city where half the land sits at or below local mean sea level.",
+     "source": "https://en.wikipedia.org/wiki/New_Orleans",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1929 streetcar strike in New Orleans, a city renowned for Creole cuisine and Mardi Gras, is credited with the creation of the distinctly Louisianan po' boy sandwich.",
+     "source": "https://en.wikipedia.org/wiki/New_Orleans",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Uptown New Orleans lies upriver of Canal Street, and its grand St. Charles Avenue is known for its streetcar line.",
+     "source": "https://en.wikipedia.org/wiki/New_Orleans",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tulane was founded in 1834 as the Medical College of Louisiana by a group of doctors, partly in response to fears of smallpox, yellow fever and cholera.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tulane University's primary campus sits on St. Charles Avenue in Uptown New Orleans, directly opposite Audubon Park.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Gifts from Josephine Louise Newcomb totaling more than $3.6 million established H. Sophie Newcomb Memorial College within Tulane University in New Orleans.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Tulane's men's basketball team played its first game on December 9, 1905, and won regular-season conference titles in 1924, 1944, 1976 and 1992.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_Green_Wave_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1982 NIT, Tulane beat LSU 83-72 at Baton Rouge in the first round and then defeated UNLV 56-51.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_Green_Wave_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tulane president Eamon Kelly disbanded the Green Wave basketball program in April 1985, in the wake of a point-shaving scandal, and later relented after several students convinced him they were being punished.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_Green_Wave_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Under Perry Clark, Tulane's 1991-92 team started 13-0 and beat St. John's 61-57 in the NCAA tournament, the first of Green Wave tournament trips in 1992, 1993 and 1995.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_Green_Wave_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tulane men's basketball regards LSU as its in-state rival, a series that includes a 119-81 LSU win over the Green Wave in 1980-81.",
+     "source": "https://en.wikipedia.org/wiki/Tulane_Green_Wave_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Ron Hunter is Tulane's men's basketball head coach and finalized his Green Wave coaching staff in May 2026 for the 2026-27 season.",
+     "source": "https://tulanegreenwave.com/news/2026/5/1/mens-basketball-mens-basketball-finalizes-staff-for-26-27-season",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "tulsa": {
+   "town": "Tulsa",
+   "home_floor": "the Reynolds Center",
+   "home_lines": [
+    {
+     "text": "Tulsa's Donald W. Reynolds Center opened on December 17, 1998, and was built for $28 million as the on-campus home of Golden Hurricane basketball.",
+     "source": "https://en.wikipedia.org/wiki/Reynolds_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Reynolds Center in Tulsa seats 8,355 for basketball and is named for Donald W. Reynolds.",
+     "source": "https://en.wikipedia.org/wiki/Reynolds_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the Reynolds Center, Tulsa played at the Expo Square Pavilion starting in 1947-48 and moved to the Tulsa Convention Center during the 1976-77 season.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Tulsa traces its beginnings to 1836, when the Lochapoka band of the Muscogee Creek settled under the Creek Council Oak at today's intersection of Cheyenne Avenue and 18th Street.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "For most of the 20th century Tulsa was known as the Oil Capital of the World, and a 76-foot Golden Driller statue still guards the Tulsa County Fairgrounds.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During sixteen hours of massacre in Tulsa's Greenwood district on May 31 and June 1, 1921, an official report claimed 23 Black and 16 white citizens were killed; other estimates suggest as many as 300 died, most of them Black.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tulsa businessman Cyrus Avery began his campaign in 1925 for a road linking Chicago to Los Angeles, which is why Tulsa calls itself the Birthplace of Route 66.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bob Wills and His Texas Playboys made Tulsa's Cain's Ballroom their base in 1935, and the hall is considered the birthplace of Western Swing.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Tulsa began in Muskogee, Indian Territory, in 1882 as a Presbyterian school offering primary education to young women of the Creek Nation.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tulsa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Henry Kendall College opened in Tulsa to 35 students in September 1907, two months before statehood, and became the University of Tulsa after a 1920 merger.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tulsa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Tulsa's teams were originally the Golden Tornadoes before becoming the Golden Hurricane, and the school's official colors are royal blue, old gold and crimson.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Tulsa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Nolan Richardson won the 1981 NIT championship in his first season as Tulsa's head coach, the start of the program's modern success.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bill Self took Tulsa to the Elite Eight of the 2000 NCAA tournament as a No. 7 seed, capping a 32-5 season.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tulsa won its second NIT championship in 2001 under Buzz Peterson, twenty years after Nolan Richardson's first.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Doug Wojcik, Tulsa's coach from 2005 to 2012, is the winningest coach in Golden Hurricane history with 140 victories.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tulsa counts Wichita State as its primary basketball rival, and the Golden Hurricane also keep a mild rivalry with Oral Roberts, which sits in southern Tulsa.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Eric Konkol is the head coach at Tulsa, whose 2025-26 team won 30 games, only the second 30-win season in program history, and reached the NIT finals.",
+     "source": "https://tulsahurricane.com/news/2026/6/8/mens-basketball-tulsa-announces-2026-27-roster-season-ticket-renewals-now-open",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "uab": {
+   "town": "Birmingham",
+   "home_floor": "Bartow Arena",
+   "home_lines": [
+    {
+     "text": "UAB's home floor opened as UAB Arena, and on December 3, 1988, the Blazers beat Vanderbilt 76-69 in the first game played there.",
+     "source": "https://en.wikipedia.org/wiki/Bartow_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The University of Alabama Board of Trustees renamed UAB Arena for Gene Bartow, the coach who built the school's men's basketball program from scratch.",
+     "source": "https://en.wikipedia.org/wiki/Bartow_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bartow Arena in Birmingham seats 8,508 and is the primary home of UAB men's and women's basketball as well as women's volleyball.",
+     "source": "https://en.wikipedia.org/wiki/Bartow_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2015 UAB's Bartow Arena hosted a World Heavyweight Boxing Championship fight between Deontay Wilder and Eric Molina.",
+     "source": "https://en.wikipedia.org/wiki/Bartow_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Birmingham was founded on June 1, 1871, by the Elyton Land Company and was named after the English industrial city of Birmingham.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Birmingham's rapid industrial growth from 1881 to 1920, built on nearby iron ore, coal and limestone, earned it the nicknames The Magic City and The Pittsburgh of the South.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Vulcan Park in Birmingham, the old iron and steel city, features the world's largest cast iron statue, depicting Vulcan at his forge.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Birmingham's Sloss Furnaces put two blast furnaces into production in April 1882 and May 1883, and the site is now an educational museum and home to metal-working artists.",
+     "source": "https://encyclopediaofalabama.org/article/sloss-furnaces/",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "A string of racially motivated bombings earned Birmingham the derisive nickname Bombingham, and a bomb planted at the 16th Street Baptist Church killed four Black girls.",
+     "source": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UAB traces its start to 1936, when the University of Alabama opened the Birmingham Extension Center in an old downtown house with 116 students.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UAB's Gurney Derby, established in 1994, is an annual race held during Homecoming week along 10th Avenue South in Birmingham.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UAB's official varsity colors are green and gold, and the Birmingham school's mascot is Blaze the Dragon.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UAB's men's basketball program was established in 1978 under Gene Bartow, and the Blazers played their first season, 1978-79, as an independent.",
+     "source": "https://en.wikipedia.org/wiki/UAB_Blazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1981-82 season UAB reached the Elite Eight, beating defending national champion Indiana and top-ranked Virginia along the way.",
+     "source": "https://en.wikipedia.org/wiki/UAB_Blazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 2015 NCAA tournament, UAB's men's basketball team upset third-seeded Iowa State by a single point, 60-59.",
+     "source": "https://en.wikipedia.org/wiki/UAB_Blazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UAB was a founding member of the Great Midwest Conference in 1991 and joined Conference USA in 1995 before moving to the American Conference.",
+     "source": "https://en.wikipedia.org/wiki/UAB_Blazers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Andy Kennedy is the UAB men's basketball head coach and is entering his seventh season leading the Blazers in 2026-27.",
+     "source": "https://uabsports.com/news/2026/6/25/mens-basketball-blazers-welcome-new-era-as-kennedy-rebuilds-roster-for-2026-27-season",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "utsa": {
+   "town": "San Antonio",
+   "home_floor": "the Convocation Center",
+   "home_lines": [
+    {
+     "text": "UTSA's on-campus Convocation Center in San Antonio was built in 1975 and remains home to Roadrunners basketball.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(University_of_Texas_at_San_Antonio)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Students and athletes call UTSA's Convocation Center The Convo, and students and alumni also know the San Antonio building as the Bird Cage.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(University_of_Texas_at_San_Antonio)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UTSA's Convocation Center in San Antonio hosted the Southland Conference men's basketball tournament in both 1992 and 2004.",
+     "source": "https://en.wikipedia.org/wiki/Convocation_Center_(University_of_Texas_at_San_Antonio)",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Spanish explorers reached the river and a Payaya settlement on June 13, 1691, the feast of St. Anthony of Padua, and named the place San Antonio in his honor.",
+     "source": "https://en.wikipedia.org/wiki/San_Antonio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Antonio dates to 1718, when the Spanish founded Mission San Antonio de Valero, later known as the Alamo, along with the Presidio San Antonio de Bexar.",
+     "source": "https://en.wikipedia.org/wiki/San_Antonio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Settlers from the Canary Islands marched overland from Veracruz and reached the Presidio San Antonio de Bexar on March 9, 1731.",
+     "source": "https://en.wikipedia.org/wiki/San_Antonio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The San Antonio Missions National Historical Park and the Alamo became UNESCO World Heritage sites in 2015.",
+     "source": "https://en.wikipedia.org/wiki/San_Antonio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "San Antonio's River Walk, which meanders through the downtown area of the city, is San Antonio's second-most-visited attraction.",
+     "source": "https://en.wikipedia.org/wiki/San_Antonio",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UTSA was founded on June 5, 1969, by the 61st Texas Legislature, and its first class of 671 graduate students began on June 5, 1973.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Texas_at_San_Antonio",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UTSA announced the roadrunner as its first and only mascot on December 9, 1977, and the Birds Up hand sign dates to 1979 at Wurstfest in New Braunfels.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Texas_at_San_Antonio",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Since 2012, UTSA class rings have been placed inside the Alamo overnight before each ring ceremony in San Antonio.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Texas_at_San_Antonio",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UTSA began men's basketball as an NCAA independent in 1981-82 under Don Eddy, who was named the program's first head coach on May 14, 1980.",
+     "source": "https://en.wikipedia.org/wiki/UTSA_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UTSA won its first NCAA tournament game in 2011, beating SWAC champion Alabama State 70-61 in the opening round.",
+     "source": "https://en.wikipedia.org/wiki/UTSA_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UTSA has made four NCAA tournament appearances, losing to Illinois in 1988, Connecticut in 1999, Stanford in 2004 and Ohio State in 2011.",
+     "source": "https://en.wikipedia.org/wiki/UTSA_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UTSA retired Derrick Gervin's No. 30 in 2006; he played for the Roadrunners from 1981 to 1985.",
+     "source": "https://en.wikipedia.org/wiki/UTSA_Roadrunners_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Nick Bowman was named UTSA's interim head coach on November 13, 2026, after taking over the Roadrunners as acting head coach at the start of the 2026-27 season.",
+     "source": "https://goutsa.com/staff/nick-bowman",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "wichita-state": {
+   "town": "Wichita",
+   "home_floor": "Charles Koch Arena",
+   "home_lines": [
+    {
+     "text": "Wichita State's Charles Koch Arena opened on December 3, 1955, as the University of Wichita Field House.",
+     "source": "https://en.wikipedia.org/wiki/Charles_Koch_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Wichita State's arena was renamed Levitt Arena in 1969 for Wichita department store magnate Henry Levitt, and the circular building was quickly nicknamed The Roundhouse.",
+     "source": "https://en.wikipedia.org/wiki/Charles_Koch_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A $25 million renovation in 2002-03, popularly known as the Roundhouse Renaissance, followed a $6 million endowment from Charles Koch, whose name Wichita State's arena now carries.",
+     "source": "https://en.wikipedia.org/wiki/Charles_Koch_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Charles Koch Arena in Wichita seats 10,506 and hosted opening-round games of the 1981 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Charles_Koch_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Wichita began as a trading post on the Chisholm Trail, took its name from the Wichita tribe, and formally incorporated as a city on July 21, 1870.",
+     "source": "https://en.wikipedia.org/wiki/Wichita,_Kansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "As a railhead for cattle drives from Texas, Wichita earned the nickname Cowtown, and Wyatt Earp served there as a police officer for about a year before going to Dodge City.",
+     "source": "https://en.wikipedia.org/wiki/Wichita,_Kansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Aeronautical Chamber of Commerce dubbed Wichita the Air Capital of the World in 1929, and Cessna and Beechcraft remain based in the city.",
+     "source": "https://en.wikipedia.org/wiki/Wichita,_Kansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "A number of fast-food franchises started in Wichita, beginning with White Castle in 1921 and including Pizza Hut in 1958.",
+     "source": "https://en.wikipedia.org/wiki/Wichita,_Kansas",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In July 1958 young members of the Wichita NAACP Youth Council sat in at the Dockum Drug Store lunch counter, about a year and a half before the Greensboro sit-ins of 1960.",
+     "source": "https://en.wikipedia.org/wiki/Dockum_Drug_Store_sit-in",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wichita State's Shockers name comes from early students who earned money shocking wheat; tradition credits student R.J. Kirk with coining Wheatshockers in 1904.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wichita State opened as Fairmount College in 1895, became the Municipal University of Wichita in 1926, and joined the Kansas state system on July 1, 1964.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The original building of the first Pizza Hut, a Wichita creation of 1958, now stands on the Wichita State campus.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On October 2, 1970, a chartered plane carrying the Wichita State football team crashed at Mount Trelease in the Colorado mountains, and 14 of the dead were Wichita State players.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_University_football_team_plane_crash",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Wichita State, then Fairmount College, first took the basketball court in 1906 under head coach Willis Bates.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wichita State reached its first Final Four in 1965 and lost the national semifinal to defending champion UCLA, 108-89.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wichita State's 2013-14 team became the first in college basketball history to reach 35-0 before losing to Kentucky in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Wichita State's basketball rivalry with Tulsa dates back to the 1930-31 season, and the Shockers also had an intense Missouri Valley rivalry with Creighton.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Paul Mills is the head coach at Wichita State, and in July 2026 he signed an extension running through June 30, 2031.",
+     "source": "https://goshockers.com/news/2026/7/31/mens-basketball-wichita-state-signs-mills-to-contract-extension.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "memphis|uab": {
+   "name": "Memphis vs. UAB",
+   "lines": [
+    {
+     "text": "UAB's men's basketball program names Memphis, a fellow member of the American Conference, as its primary rival on the court.",
+     "source": "https://en.wikipedia.org/wiki/UAB_Blazers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "north-texas|uab": {
+   "name": "North Texas vs. UAB",
+   "lines": [
+    {
+     "text": "North Texas counts UAB among its most contentious current conference rivals in men's basketball, alongside FAU.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "North Texas beat UAB in the final to win the 2023 NIT championship, the high point of four straight NIT trips.",
+     "source": "https://en.wikipedia.org/wiki/North_Texas_Mean_Green_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "tulsa|wichita-state": {
+   "name": "Tulsa vs. Wichita State",
+   "lines": [
+    {
+     "text": "Tulsa names Wichita State as its primary basketball rival, a series that faded somewhat before it was renewed indefinitely by 2017.",
+     "source": "https://en.wikipedia.org/wiki/Tulsa_Golden_Hurricane_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The men's basketball rivalry between Tulsa and Wichita State, now fellow members of the American, dates back to the 1930-31 season.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Wichita State's men's basketball rivalry with the Tulsa Golden Hurricane dates all the way back to the 1930-31 season.",
+     "source": "https://en.wikipedia.org/wiki/Wichita_State_Shockers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}
