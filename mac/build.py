@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -541,13 +541,25 @@ def render_site() -> str:
     preview_story.save(previews_saved)
     (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
     desk.sort(key=lambda x: x["published"], reverse=True)
+    # The Bricks Score picks the lead (mac.frontscore); on this edition's own front only its own home teams
+    # carry weight. "Around the mid-majors" is the night's top finals from the other editions.
+    around = []
+    try:
+        fs = frontscore.Scorer()
+        desk = frontscore.rank(desk, fs, edition=LEAGUE.key)
+        around = frontscore.around(fs, LEAGUE.key, built_at.astimezone(ZoneInfo("America/New_York")).date().isoformat())
+    except Exception as e:  # the front page must build even if a data file is bad
+        print("frontscore: skipped,", repr(e))
+    for a in around:
+        a["href"] = ("" if not LEAGUE.path else "../") + a["href"]
+        a["color"] = hub.CONF_COLORS.get(a["key"], "#a8441c")
     now_utc = built_at.astimezone(timezone.utc)
     for x in desk:
         try:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], around=around, scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),

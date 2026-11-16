@@ -28,6 +28,16 @@
 <body>
 {% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True) }}
 <div class="bricks" aria-hidden="true"></div>
+{% macro conf_tile(e) %}{% set top = tops.get(e.key) %}
+    <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
+      <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
+      {% if top %}<a class="top" href="{{ top.href }}">{{ top.title|nobreak }}</a>
+      {% elif e.finals %}{% set g = e.finals[0] %}<a class="top" href="{{ g.href }}">{% if g.away_win %}{{ g.away_name }} {{ g.away_score }}, {{ g.home_name }} {{ g.home_score }}{% else %}{{ g.home_name }} {{ g.home_score }}, {{ g.away_name }} {{ g.away_score }}{% endif %}</a>
+      {% else %}<p class="rg">{{ e.region }}</p>{% endif %}
+      <p class="go"><a href="{{ e.href }}">Front page</a>{% if e.weekly %} · <a href="{{ e.prefix }}weekly.html">BricksIt Weekly</a>{% endif %}</p>
+      <details><summary>{{ e.n_teams }} teams</summary><ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul></details>
+    </section>
+{% endmacro %}
 <main>
   <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span title="{{ names }}">{{ n_conf }} conferences · {{ n_schools }} schools · {{ season }}</span></div>
   <h1 style="position:absolute;left:-9999px">Hardwood Bricks: mid-major men's basketball, every game, in {{ n_conf }} conferences: {{ names }}</h1>
@@ -40,7 +50,7 @@
       {% if lead.clip %}<figure class="lead-clip"><div class="hl-frame"><iframe src="{{ lead.clip }}" title="Highlights: {{ lead.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><figcaption>Highlights from ESPN</figcaption></figure>{% endif %}
       <a class="lead{{ '' if lead.image or lead.photo or lead.clip else ' noimg' }}" href="{{ lead.href }}">
         {% if not lead.clip %}{% if lead.photo %}<img class="lead-photo" src="{{ lead.photo }}" alt="" loading="eager">{% elif lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}{% endif %}
-        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}</span>
+        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}{% if lead.fs and lead.fs.why %}<span class="why">{{ lead.fs.why }}</span>{% endif %}</span>
         <h2>{{ lead.title|nobreak }}</h2>
         {% if lead.dek and (lead.clip or lead.photo or not lead.image) %}<p>{{ lead.dek }}</p>{% endif %}
       </a>
@@ -49,11 +59,19 @@
       {% endif %}
       {% if cards %}
       <div class="cards">
-        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}</span><h3>{{ c.title|nobreak }}</h3></a>{% endfor %}
+        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}{% if c.fs and c.fs.why %}<span class="why">{{ c.fs.why }}</span>{% endif %}</span><h3>{{ c.title|nobreak }}</h3></a>{% endfor %}
       </div>
       {% endif %}
     </div>
     <aside class="rail">
+      {% if home %}
+      <section class="home-desk" aria-labelledby="h-home">
+        <div class="sh"><h2 id="h-home">Home desk</h2><span class="sub">MAC · Horizon</span></div>
+        <ul>{% for h in home %}<li><a class="hd" href="{{ h.href }}"><span class="kick" style="--c:{{ h.color }}"><span class="cf">{{ h.league }}</span></span>{% if h.pin %}<b class="pin">{{ h.short }}</b>{% else %}<b>{{ h.short }}</b>{% endif %}</a>
+          {% if h.last %}<span class="ln">{% if h.last_href %}<a href="{{ h.last_href }}">{{ h.last }}</a>{% else %}{{ h.last }}{% endif %}</span>{% endif %}
+          {% if h.next %}<span class="nx">Next: {{ h.next }}</span>{% endif %}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
       <section aria-labelledby="h-tonight">
         <div class="sh"><h2 id="h-tonight">Next up</h2></div>
         {% if tonight %}<ul class="tn">{% for g in tonight %}<li><a href="{{ g.href }}"><span class="kick" style="--c:{{ g.color }}"><span class="cf">{{ g.league }}</span></span><span class="tm">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %}<small>{{ g.tv }}</small>{% endif %}</span><span class="hd">{{ g.away_name }} at {{ g.home_name }}</span></a></li>{% endfor %}</ul>
@@ -85,18 +103,13 @@
   </section>
   {% endif %}
 
+  <section class="confs-wrap" aria-labelledby="h-confs">
+  <div class="sh"><h2 id="h-confs">Every conference</h2><span class="sub">Each edition's top story</span></div>
   <div class="confs">
-  {% for e in eds %}
-    <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
-      <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
-      <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
-      <a class="go" href="{{ e.href }}">{{ e.short }} front page →</a>
-      {% if e.weekly %}<a class="go" href="{{ e.prefix }}weekly.html">BricksIt Weekly →</a>{% endif %}
-      {% if e.finals %}<ul class="fin">{% for g in e.finals[:3] %}<li><a href="{{ g.href }}">{% if g.away_win %}<b>{{ g.away_name }} {{ g.away_score }}</b>, {{ g.home_name }} {{ g.home_score }}{% else %}<b>{{ g.home_name }} {{ g.home_score }}</b>, {{ g.away_name }} {{ g.away_score }}{% endif %}</a></li>{% endfor %}</ul>{% endif %}
-      <ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul>
-    </section>
-  {% endfor %}
+  {% for e in eds|sort(attribute='short') if e.key in ('mac', 'horizon') %}{{ conf_tile(e) }}{% endfor %}
+  {% for e in eds|sort(attribute='short') if e.key not in ('mac', 'horizon') %}{{ conf_tile(e) }}{% endfor %}
   </div>
+  </section>
 
   <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>

@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup, escape
 
-from . import weekly
+from . import frontscore, weekly
 from .config import LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
 
 
@@ -157,6 +157,67 @@ def front_stories(site_root: Path, now: datetime, base: str = SITE_BASE) -> list
     return out
 
 
+def _close_first(recaps: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """The old order, for when the scorer can't load: the closer games among the newest recaps first."""
+    close = [x for x in recaps[:16] if _margin(x["title"]) < BLOWOUT]
+    return close + [x for x in recaps if x not in close]
+
+
+def _scorer() -> frontscore.Scorer | None:
+    try:
+        return frontscore.Scorer()
+    except Exception as e:  # the cover must build even if a data file is bad
+        print("frontscore: skipped,", repr(e))
+        return None
+
+
+def _when(iso: str, today: str) -> str:
+    from .cards import parse_iso
+    t = parse_iso(iso).astimezone(ET)
+    day = "Today" if t.date().isoformat() == today else t.strftime("%a")
+    return f"{day} {t.strftime('%-I:%M %p')} ET"
+
+
+def home_desk(scorer: frontscore.Scorer, today: str, site_root: Path) -> list[dict[str, Any]]:
+    """The cover's MAC and Horizon box: Ohio pinned first, then Akron, Kent State and Cleveland State,
+    each with its latest result (last three days) and next game."""
+    out = []
+    for row in frontscore.home_desk(scorer, today):
+        tl = next(((t, lg) for lg in LEAGUES.values() for t in lg.teams if t.key == row["key"]), None)
+        if not tl:
+            continue
+        t, lg = tl
+        item = {"key": t.key, "short": t.short, "league": lg.short, "color": CONF_COLORS.get(lg.key, "#a8441c"),
+                "href": f"{lg.path}teams/{t.key}.html", "pin": t.key in frontscore.TOP3, "last": "", "last_href": "", "next": ""}
+        g = row["last"]
+        if g:
+            us, them = (g["home"], g["away"]) if g["home"].get("key") == t.key else (g["away"], g["home"])
+            won = (us.get("score") or 0) > (them.get("score") or 0)
+            where = "vs." if g["home"] is us or g.get("neutral_site") else "at"
+            ot = " (OT)" if "OT" in (g.get("detail") or "") else ""
+            item["last"] = f"{'W' if won else 'L'} {us.get('score')}-{them.get('score')}{ot} {where} {frontscore._name(them)}"
+            owner = game_owner(g["home"].get("espn_id"), g["away"].get("espn_id")) or lg
+            if (site_root / owner.path / "games" / f"{g['game_id']}.html").exists():
+                item["last_href"] = f"{owner.path}games/{g['game_id']}.html"
+        g = row["next"]
+        if g:
+            them = g["away"] if g["home"].get("key") == t.key else g["home"]
+            where = "vs." if g["home"].get("key") == t.key or g.get("neutral_site") else "at"
+            tv = ", ".join(b["name"] for b in (g.get("broadcasts") or [])[:1])
+            item["next"] = f"{where} {frontscore._name(them)} · {_when(g['date'], today)}{' · ' + tv if tv else ''}"
+        if item["last"] or item["next"]:
+            out.append(item)
+    return out
+
+
+def edition_tops(ranked: list[dict[str, Any]], eds: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Each edition's best-ranked recap, for its tile in the conference index."""
+    out: dict[str, dict[str, Any]] = {}
+    for x in ranked:
+        out.setdefault(x["key"], x)
+    return out
+
+
 def front_dispatches(site_root: Path, most: int = 3) -> list[dict[str, Any]]:
     """The newest Fieldhouse Notes from every edition, for the front page."""
     from . import notes
@@ -289,12 +350,17 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
     recaps = [x for x in sts if x["kind"] == "recap"]
-    # A 99-31 rout of a small-college visitor is a result, not a front page: the lead and the score cards
-    # go to the closer games among the newest recaps when there are any.
-    close = [x for x in recaps[:16] if _margin(x["title"]) < BLOWOUT]
-    lead = next((x for x in close + recaps if x["image"] or x["photo"]), recaps[0] if recaps else (sts[0] if sts else None))
-    rest = [x for x in recaps if x is not lead]
-    cards = ([x for x in rest if x["image"] and x in close] + [x for x in rest if x["image"] and x not in close])[:4]
+    # The Bricks Score orders the night's finals (mac.frontscore): upset, stakes, drama and the home weights
+    # (Ohio first, then Akron, Kent State and Cleveland State, the MAC, the Horizon). Recaps it can't score,
+    # and a 30-point rout among the newest when nothing else is there, fall back to newest first.
+    scorer = _scorer()
+    ranked = frontscore.rank(recaps, scorer) if scorer else _close_first(recaps)
+    lead = next((x for x in ranked[:3] if x["image"] or x["photo"]), ranked[0] if ranked else (sts[0] if sts else None))
+    rest = [x for x in ranked if x is not lead]
+    cards = [x for x in rest if x["image"]][:4]
+    today_et = now.astimezone(ET).date().isoformat()
+    home = home_desk(scorer, today_et, site_root) if scorer else []
+    tops = edition_tops(ranked, eds)
     mh = load_masthead()
     editor = (staff(mh) or [{}])[0]
     for e in eds:
@@ -303,7 +369,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     den = den_page(env, site_root, eds, names, base, now)
     html = env.get_template("hub.html").render(den=den,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
-        lead=lead, cards=cards, river=[x for x in rest if x not in cards][:8],
+        lead=lead, cards=cards, river=[x for x in recaps if x is not lead and x not in cards][:8], home=home, tops=tops,
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,
         today=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
         ld_json=json.dumps(json_ld(eds, base)).replace("</", "<\\/"),
