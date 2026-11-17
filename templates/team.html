@@ -11,7 +11,7 @@
   <nav class="crumbs"><a href="../{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> {{ team.name }}
     <span class="teamnav">{% for t in d.teams %}<a href="{{ t.key }}.html" class="t-{{ t.key }}{{ ' on' if t.key == team.key else '' }}">{{ t.abbr }}</a>{% endfor %}</span>
   </nav>
-  <header class="teamhead hero t-{{ team.key }}">
+  <header class="teamhead hero t-{{ team.key }}{% if backdrop %} has-bd{% endif %}"{% if backdrop %} style="--bd:url('../{{ site_up }}backdrops/{{ backdrop.file }}')"{% endif %}>
     <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ team.espn_id }}.png" alt="" width="64" height="64">
     <div>
       <h1>{{ team.name }}</h1>
@@ -25,7 +25,14 @@
         <button type="button" data-share data-share-title="{{ team.name }} · {{ LG }} {{ d.season }}">Share {{ team.short }}</button>
       </div>
     </div>
+    {% if backdrop %}<p class="bd-credit">{{ backdrop.caption }} · Photo: {% if backdrop.source %}<a href="{{ backdrop.source }}" target="_blank" rel="noopener">{{ backdrop.credit }}</a>{% else %}{{ backdrop.credit }}{% endif %}, {% if backdrop.license_url %}<a href="{{ backdrop.license_url }}" target="_blank" rel="noopener license">{{ backdrop.license }}</a>{% else %}{{ backdrop.license }}{% endif %}</p>{% endif %}
   </header>
+  {% if local_ad %}
+  <aside class="local-ad{{ ' house' if local_ad.house }}" aria-label="Local advertisement">
+    <span class="la-k">{{ 'Local line' if local_ad.house else 'Local advertisement' }}</span>
+    <p><b>{{ local_ad.sponsor }}</b> {{ local_ad.text }} <a href="{{ local_ad.url }}"{% if not local_ad.house %} rel="sponsored noopener" target="_blank"{% endif %}>{{ local_ad.cta or 'Visit' }} →</a></p>
+  </aside>
+  {% endif %}
 
   {% if rating %}
   <div class="tiles">
