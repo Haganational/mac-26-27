@@ -7,6 +7,9 @@ spec.json: {"place": "Toledo, Ohio", "subtitle": "A HUNDRED DOLLARS TO FUMBLE", 
 "thumb_t": seconds, "head": [lines], "sub": "...", "wide_thumb": false}]}.
 Each reel OPENS on its own thumbnail for COVER seconds (Matthew, Nov 15 2026: Threads, Bluesky and
 others use the first frame as the cover), then the cut, then the end card.
+Optional brand plates (Matthew, Nov 17 2026: "19 North name plate only way in, all on way out"):
+"plates_dir": folder of 16:9 logo plates, "open_plates": ["logo-19-north.jpg"] replaces the thumbnail
+cover (the plate is then the first frame), "close_plates": [...] play after the end card.
 """
 import json, subprocess, sys
 from pathlib import Path
@@ -20,6 +23,20 @@ W, H = 1080, 1920
 PY, PH = 430, 810  # picture box
 WIDE = set(SPEC.get("wide", []))
 COVER = 0.8
+PLATE_IN, PLATE_OUT = 1.6, 1.4
+PLATES = Path(sys.argv[3]).parent / SPEC['plates_dir'] if SPEC.get('plates_dir') else None
+
+
+def plate(src, path):
+    """A 16:9 logo plate set on a 9:16 frame: its centre (wide enough for the logo's wordmark), sharp, over a blurred fill of itself."""
+    im = Image.open(src).convert('RGB')
+    w, h = im.size
+    bg = im.resize((round(w * H / h), H), Image.LANCZOS)
+    bg = bg.crop(((bg.width - W) // 2, 0, (bg.width - W) // 2 + W, H)).filter(ImageFilter.GaussianBlur(40))
+    cw = round(h * 1.2)
+    sq = im.crop(((w - cw) // 2, 0, (w + cw) // 2, h)).resize((W, round(W / 1.2)), Image.LANCZOS)
+    bg.paste(sq, (0, (H - sq.height) // 2))
+    bg.save(path, quality=94)
 
 
 def font(n, s):
@@ -140,8 +157,24 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for a, d in segs:
         cmd += ['-ss', f'{a:.3f}', '-t', f'{d:.3f}', '-i', str(V)]
     cmd += ['-loop', '1', '-framerate', '25', '-t', str(END), '-i', str(R / 'end.png'), '-f', 'lavfi', '-t', str(END), '-i', 'anullsrc=r=48000:cl=mono']
-    cmd += ['-loop', '1', '-framerate', '25', '-t', str(COVER), '-i', str(R / f'{name}-thumb.jpg'), '-f', 'lavfi', '-t', str(COVER), '-i', 'anullsrc=r=48000:cl=mono']
     n = len(segs)
+    opens = [(R / f'{name}-thumb.jpg', COVER)]
+    closes = []
+    if PLATES and SPEC.get('open_plates'):
+        opens = []
+        for i, f in enumerate(SPEC['open_plates']):
+            plate(PLATES / f, R / f'plate-in-{i}.jpg'); opens.append((R / f'plate-in-{i}.jpg', PLATE_IN))
+    if PLATES:
+        for i, f in enumerate(SPEC.get('close_plates', [])):
+            plate(PLATES / f, R / f'plate-out-{i}.jpg'); closes.append((R / f'plate-out-{i}.jpg', PLATE_OUT))
+    k = n + 3  # next input index
+    pre, post = [], []
+    for lst, out, fin in ((opens, pre, False), (closes, post, True)):
+        for j, (img, d) in enumerate(lst):
+            cmd += ['-loop', '1', '-framerate', '25', '-t', str(d), '-i', str(img), '-f', 'lavfi', '-t', str(d), '-i', 'anullsrc=r=48000:cl=mono']
+            fade = (f',fade=t=in:d=0.25' if fin or j else '') + (f',fade=t=out:st={d - 0.25:.2f}:d=0.25' if fin and j == len(lst) - 1 else '')
+            out.append((f'[{k}:v]format=yuv420p,setsar=1{fade}[p{k}];', f'[p{k}][{k + 1}:a]'))
+            k += 2
     fc = ''
     for i, (a, d) in enumerate(segs):
         if ids[i][0] in WIDE:
@@ -151,11 +184,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         fc += f"[{i+1}:a]aresample=48000,afade=t=in:d=0.06,afade=t=out:st={d-0.08:.3f}:d=0.08[a{i}];"
     fc += ''.join(f'[v{i}][a{i}]' for i in range(n)) + f"concat=n={n}:v=1:a=1[pv][pa];"
     fc += f"[0:v]format=yuv420p[bg];[bg][pv]overlay=0:{PY}:shortest=1,ass={R / (name + '.ass')}:fontsdir={F}[body];"
-    fc += f"[{n+1}:v]format=yuv420p,setsar=1,fade=t=in:d=0.4[ev];[{n+3}:v]format=yuv420p,setsar=1[cv];[cv][{n+4}:a][body][pa][ev][{n+2}:a]concat=n=3:v=1:a=1[v][a]"
+    fc += f"[{n+1}:v]format=yuv420p,setsar=1,fade=t=in:d=0.4[ev];" + ''.join(a for a, _ in pre + post)
+    parts = [b for _, b in pre] + ['[body][pa]', f'[ev][{n+2}:a]'] + [b for _, b in post]
+    fc += ''.join(parts) + f"concat=n={len(parts)}:v=1:a=1[v][a]"
     out = R / f'{name}.mp4'
     cmd += ['-filter_complex', fc, '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', str(out)]
     subprocess.run(cmd, check=True)
-    print(name, round(COVER + body + END, 2), 's')
+    print(name, round(sum(d for _, d in opens + closes) + body + END, 2), 's')
 
 
 for r in SPEC['reels']:
