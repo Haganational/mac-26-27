@@ -21,7 +21,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert, alumni, anchors, outro, pickem, tags
+from . import alert, alumni, anchors, outro, pickem, studio, tags
 from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
@@ -36,7 +36,9 @@ COUNT_STEPS = 10  # frames in a score count-up
 COUNT_SECS = 0.8  # how long the count-up takes
 GOLD, CREAM = "f0c75e", "f6efe3"
 BAR_Y, BAR_H = 342, 10  # progress bar, just under the team-color stripe
-ANCHOR_W = 430  # the anchor's portrait sits bottom-left; captions move right of it
+ANCHOR_W = 480  # the anchor sits at the desk, bottom-left; captions move right of them
+DESK_H = 800  # the desk shot across the bottom of the card (mac/studio.py)
+DESK_X = 0.27  # where the anchor sits along the desk
 
 
 def spoken(text: str) -> str:
@@ -317,7 +319,15 @@ def render(t: dict, out: Path) -> Path:
     if any(s["kind"] == "standings" for s in segs):
         agenda.append("The unbeaten and the winless")
 
-    common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=t.get("stripe") or [tm.color for tm in TEAMS])
+    # The studio set: each reading anchor at the center desk (one picture per anchor), the room behind the board.
+    for seg in segs:
+        a = seg.get("anchor") or {}
+        if a.get("portrait") and a.get("key"):
+            pic = anchors.portrait(a["key"])
+            a["desk"] = studio.cached(work / "desk", a["key"], studio.desk_shot, portrait=pic, w=W, h=DESK_H, x=DESK_X, fade_top=170).as_uri()
+    sets = {"room": studio.ROOM, "side": studio.SIDE}
+    common = dict(date_label=t["date_label"], css=css, colors=colors, agenda=agenda, stripe=t.get("stripe") or [tm.color for tm in TEAMS],
+                  desk_h=DESK_H, **{k: (p.as_uri() if p.exists() else None) for k, p in sets.items()})
     clips, srt, events, clock = [], [], [], 0.0
     for i, (seg, wav) in enumerate(zip(segs, wavs)):
         png = work / f"card{i:02d}.png"

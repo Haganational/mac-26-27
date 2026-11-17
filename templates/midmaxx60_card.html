@@ -68,20 +68,30 @@
   .ourec small { font: 600 32px/1 var(--cond); letter-spacing: .22em; text-transform: uppercase; color: var(--ink2); }
   .notetitle { font: 600 66px/1.1 var(--serif); letter-spacing: -.01em; color: #f6ecd8; }
   .notequote { font: 400 italic 46px/1.4 var(--serif); color: var(--ink2); padding-left: 28px; border-left: 8px solid var(--gold); }
-  .anchor { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; }
-  /* The anchor's set: only behind the anchor, dimmed and softened, fading out toward the board, so the scores stay the subject. */
-  .anchor .set { position: absolute; inset: 0; background: 50% 55% / cover no-repeat; filter: blur(3px) brightness(.7) saturate(.85);
-                 mask-image: linear-gradient(to top, #000 55%, transparent), linear-gradient(to left, transparent, #000 30%); mask-composite: intersect; }
-  .anchor img { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; object-fit: cover; object-position: top; }
-  .anchor .plate { position: absolute; left: 0; bottom: 90px; width: 430px; padding: 14px 20px 12px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
-  .anchor .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
-  .anchor .plate small { display: block; font: 600 22px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
+  /* The studio set (MIDnight Weave plates, sets/): the room sits behind the whole card, dark under the board,
+     and the reading anchor sits at the center desk across the bottom (mac/studio.py composites them). */
+  .room { position: absolute; inset: 0; background: 50% 50% / cover no-repeat; filter: brightness(.34) saturate(.85); }
+  .room::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(21,17,13,.55) 0%, rgba(21,17,13,.35) 55%, rgba(21,17,13,0) 100%); }
+  .card > .top, .card > .stripe, .card > .body { position: relative; z-index: 1; }
+  .desk { position: absolute; left: 0; bottom: 0; width: 1080px; height: {{ desk_h }}px; z-index: 0; }
+  .desk img { display: block; width: 1080px; height: {{ desk_h }}px; }
+  .desk .plate { position: absolute; left: 64px; bottom: 74px; min-width: 360px; padding: 14px 24px 12px; background: rgba(21,17,13,.86); border-top: 6px solid var(--tc, var(--gold)); box-shadow: 0 10px 30px rgba(0,0,0,.45); }
+  .desk .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
+  .desk .plate small { display: block; font: 600 22px/1.3 var(--cond); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
+  /* The cover (first frame, the thumbnail on every network) and the sign-off show the room itself, lit. */
+  .card.cover .room { filter: brightness(1.2) saturate(1); background-position: 50% 62%; }
+  .card.signoff .room { filter: brightness(.95) saturate(.95); }
+  .card.cover .room::after { background: linear-gradient(180deg, rgba(21,17,13,.8) 0%, rgba(21,17,13,.45) 34%, rgba(21,17,13,0) 50%, rgba(21,17,13,0) 85%, rgba(21,17,13,.4) 100%); }
+  .card.signoff .room::after { background: linear-gradient(180deg, rgba(21,17,13,.85) 0%, rgba(21,17,13,.5) 40%, rgba(21,17,13,.1) 70%, rgba(21,17,13,.4) 100%); }
+  .card.cover .hero .big, .card.signoff .hero .big { text-shadow: 0 6px 40px rgba(0,0,0,.6); }
+  .card.cover .agenda { background: rgba(21,17,13,.62); padding: 0 28px; backdrop-filter: blur(6px); }
   .foot { position: absolute; left: 64px; right: 64px; bottom: 380px; display: flex; justify-content: space-between; font: 500 24px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 </style>
 </head>
 <body>
 {% macro logo(s) %}<div class="logo">{% if s.espn_id %}<img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ s.espn_id }}.png" alt="" onerror="this.outerHTML='<b>{{ s.abbr }}</b>'">{% else %}<b>{{ s.abbr }}</b>{% endif %}</div>{% endmacro %}
-<div class="card">
+<div class="card{{ ' cover' if seg.kind == 'intro' else ' signoff' if seg.kind == 'outro' else '' }}">
+  {% set bg = side if seg.kind == 'outro' else room %}{% if bg %}<div class="room" style="background-image:url('{{ bg }}')"></div>{% endif %}
   <div class="top"><div class="brandrow"><span class="plaque">MidMaxx60</span><span class="date"><small>Hardwood Bricks</small>{{ date_label }}<em>Stats: ESPN · Lines: The Odds API</em></span></div></div>
   <div class="stripe">{% for c in stripe %}<i style="background:{{ c }}"></i>{% endfor %}</div>
   <div class="body">
@@ -148,7 +158,8 @@
     <div class="hero"><div class="big" style="font-size:130px">That's MidMaxx60</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
   {% endif %}
   </div>
-  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}">{% if seg.anchor.set %}<div class="set" style="background-image:url('{{ seg.anchor.set }}')"></div>{% endif %}<img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
+  {% if seg.anchor and seg.anchor.desk %}<div class="desk" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}"><img src="{{ seg.anchor.desk }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>
+  {% elif seg.anchor and seg.anchor.portrait %}<div class="anchor" style="position:absolute;left:0;bottom:0;width:430px;height:770px"><img style="width:430px;height:770px;object-fit:cover;object-position:top" src="{{ seg.anchor.portrait }}" alt=""></div>{% endif %}
   {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
 </div>
 </body>
