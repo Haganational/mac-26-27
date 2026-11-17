@@ -27,7 +27,32 @@ _Longwood (Big South). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,096, 4,574 undergrad + 522 grad; Wikipedia gives no year
+- Tuition and fees, in state: $16,910 (2026-27), annual tuition + required fees, 30-credit yearly load (2026 board approval for 'coming academic year')
+- Tuition and fees, out of state: $29,150 (2026-27), annual, 30-credit yearly load
+- Endowment: $117.8 million (2025)
+- Football: none, no varsity football; club sport only
+
+**Farmville**
+- Population: 7,774 (ACS 2024 5-year)
+- Population in 2020: 7,473 (2020 census)
+- Median household income: $40,966 (ACS 2024 5-year)
+- Income per person: $23,637 (ACS 2024 5-year)
+- Median home value: $238,900 (ACS 2024 5-year)
+- Poverty rate: 20.4% (ACS 2024 5-year)
+- Median age: 24.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.0% (ACS 2024 5-year)
+- Average commute: 18.6 minutes (ACS 2024 5-year)
+- Veterans: 408 (ACS 2024 5-year)
+- Born abroad: 4.4% (ACS 2024 5-year)
+- Founded: 1798, formed 1798; incorporated 1912
+- County seat: yes, seat of Prince Edward County
+- January average: 36.7°F
+- Snow a year: 6.1 inches
+- Elevation: 351 feet
+- County: Prince Edward County
+- College-town index: 0.66 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,30 @@ _UMBC (America East). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,530 (Fall 2025)
+- Tuition and fees, in state: $14,101 (2026-27), page lists per semester $7,050.50 full-time tuition + mandatory fees; doubled (proposed rates)
+- Tuition and fees, out of state: $34,304 (2026-27), per semester $17,152.00, doubled (proposed rates)
+- Endowment: $179.1 million (2025)
+- Football: none (https://en.wikipedia.org/wiki/University_of_Maryland,_Baltimore_County)
+- Arena named for: Chesapeake Employers' Insurance (Chesapeake Employers Insurance Arena) (insurance company; 15-year naming-rights deal signed April 2021)
+
+**Catonsville**
+- Population: 43,368 (ACS 2024 5-year)
+- Population in 2020: 44,701 (2020 census)
+- Median household income: $114,109 (ACS 2024 5-year)
+- Income per person: $54,800 (ACS 2024 5-year)
+- Median home value: $416,900 (ACS 2024 5-year)
+- Poverty rate: 6.9% (ACS 2024 5-year)
+- Median age: 39.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 54.7% (ACS 2024 5-year)
+- Average commute: 24.6 minutes (ACS 2024 5-year)
+- Veterans: 2,118 (ACS 2024 5-year)
+- Born abroad: 12.6% (ACS 2024 5-year)
+- Founded: 1831, established January 20, 1831 per infobox
+- Elevation: 479 feet
+- County: Baltimore County
+- College-town index: 0.31 students per resident (a big presence)
 
 ## The program's best
 

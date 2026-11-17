@@ -27,7 +27,35 @@ _UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 41,613 (Fall 2024)
+- Tuition and fees, in state: $12,208 (2026-27), annual, full-time (fall 2026 + spring 2027)
+- Tuition and fees, out of state: $27,494 (2026-27), annual, full-time
+- Endowment: $223.2 million (FY2024), UTA alone, excluding UT System endowment
+- Football: none, discontinued after 1985 season
+
+**Arlington**
+- Population: 403,657 (ACS 2024 1-year)
+- Population in 2020: 394,266 (2020 census)
+- Median household income: $74,388 (ACS 2024 1-year)
+- Income per person: $36,161 (ACS 2024 1-year)
+- Median home value: $337,800 (ACS 2024 1-year)
+- Poverty rate: 12.3% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33.6% (ACS 2024 1-year)
+- Homeownership: 54.0% (2020 census (DP1))
+- Average commute: 27.2 minutes (ACS 2024 1-year)
+- Veterans: 15,654 (ACS 2024 1-year)
+- Born abroad: 23.1% (ACS 2024 1-year)
+- Founded: 1876, incorporated 1884
+- County seat: no, largest Texas city that is not a county seat
+- Biggest employer: General Motors (8,919 employees, 2024 CAFR)
+- January average: 44.7°F
+- Snow a year: 0.8 inches
+- Elevation: 604 feet
+- County: Tarrant County
+- ICE 287(g) agreement in the county: yes, Tarrant County Sheriff's Office (jail-based (page: 'All work under 287(g) occurs within the jail'; model not named))
+- College-town index: 0.10 students per resident (a guest in a bigger place)
 
 ## The program's best
 

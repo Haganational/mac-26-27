@@ -27,7 +27,33 @@ _Morehead State (OVC). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,401 (Fall 2025)
+- Tuition and fees, in state: $10,654 (2026-27), page gives per-semester figures: 5,201 tuition + 126 fees = 5,327/semester, doubled; full-time 12-18 hrs
+- Tuition and fees, out of state: $15,932 (2026-27), per semester 7,840 tuition + 126 fees = 7,966, doubled
+- Endowment: $91.0 million (2026)
+- Football: FCS, Pioneer Football League; other sports in OVC
+- Men's basketball coach's pay: $235,000 (2024-25 (contract through June 30, 2027))
+
+**Morehead**
+- Population: 6,870 (ACS 2024 5-year)
+- Population in 2020: 7,151 (2020 census)
+- Median household income: $36,741 (ACS 2024 5-year)
+- Income per person: $23,475 (ACS 2024 5-year)
+- Median home value: $184,900 (ACS 2024 5-year)
+- Poverty rate: 38% (ACS 2024 5-year)
+- Median age: 22 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30% (ACS 2024 5-year)
+- Average commute: 18.7 minutes (ACS 2024 5-year)
+- Veterans: 101 (ACS 2024 5-year)
+- Born abroad: 2.7% (ACS 2024 5-year)
+- Founded: 1869, incorporated 1869; first settled 1854
+- County seat: yes
+- Biggest employer: Morehead State University, page: had become city's largest employer by 1990
+- Elevation: 997 feet, infobox; article text says 748 ft
+- County: Rowan County
+- The coach's pay equals 6 median Morehead household incomes
+- College-town index: 1.22 students per resident (the school is the town)
 
 ## The program's best
 

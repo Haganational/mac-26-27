@@ -27,7 +27,31 @@ _North Dakota State (Summit). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,952 (Fall 2024), infobox; article text says enrollment fell to 11,609 in 2026
+- Endowment: $528.0 million (2025)
+- Football: FBS, joined Mountain West (football-only) and moved to FBS July 1, 2026; previously FCS/Missouri Valley
+
+**Fargo**
+- Population: 138,059 (ACS 2024 1-year)
+- Population in 2020: 125,990 (2020 census)
+- Median household income: $65,479 (ACS 2024 1-year)
+- Income per person: $44,176 (ACS 2024 1-year)
+- Median home value: $292,900 (ACS 2024 1-year)
+- Poverty rate: 12.6% (ACS 2024 1-year)
+- Median age: 33.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.8% (ACS 2024 1-year)
+- Average commute: 15.5 minutes (ACS 2024 5-year)
+- Veterans: 6,293 (ACS 2024 1-year)
+- Born abroad: 8.7% (ACS 2024 1-year)
+- Founded: 1871, incorporated 1874
+- County seat: yes
+- Biggest employer: Sanford Health, 6,278 FTE per city 2025 ACFR
+- January average: 8.6°F
+- Snow a year: 51.4 inches
+- Elevation: 906 feet
+- County: Cass County
+- College-town index: 0.09 students per resident (a guest in a bigger place)
 
 ## The program's best
 

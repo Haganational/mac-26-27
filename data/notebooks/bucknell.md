@@ -27,7 +27,30 @@ _Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Tuition and fees, in state: $73,500 (2026-27), annual tuition $72,600 + student fee $900
+- Tuition and fees, out of state: $73,500 (2026-27), private: same as in-state
+- Endowment: $1.26 billion (2025)
+- Football: FCS (https://en.wikipedia.org/wiki/Bucknell_University)
+- Arena named for: Dr. Gary Allan Sojka, former Bucknell president (Sojka Pavilion) (not a donor naming; honors former university president)
+
+**Lewisburg**
+- Population: 5,257 (ACS 2024 5-year)
+- Population in 2020: 5,158 (2020 census)
+- Median household income: $54,767 (ACS 2024 5-year)
+- Income per person: $26,743 (ACS 2024 5-year)
+- Median home value: $235,200 (ACS 2024 5-year)
+- Poverty rate: 20.8% (ACS 2024 5-year)
+- Median age: 26.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 42.2% (ACS 2024 5-year)
+- Average commute: 11.5 minutes (ACS 2024 5-year)
+- Veterans: 256 (ACS 2024 5-year)
+- Born abroad: 3.5% (ACS 2024 5-year)
+- Founded: 1785, founded 1785; borough 1812
+- County seat: yes
+- January average: 27.1°F, 1991-2020 NOAA normals
+- Snow a year: 28.8 inches
+- County: Union County
 
 ## The program's best
 

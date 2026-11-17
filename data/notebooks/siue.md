@@ -27,7 +27,31 @@ _SIUE (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,813 (Fall 2025)
+- Tuition and fees, in state: $13,299 (2026-27), annual, 2 semesters x 15 hrs: tuition 9,855 + general student fees 3,444; page does not separate residents and non-residents
+- Endowment: $45.1 million (FY2025)
+- Football: none, athletics page men's sports list has no football
+- Arena named for: First Community Credit Union (arena naming sponsor, 2021) at the Vadalabene Center (named for state senator Sam M. Vadalabene) (First Community is a credit union (sponsorship deal); Vadalabene was an Illinois state senator)
+
+**Edwardsville**
+- Population: 26,474 (ACS 2024 5-year)
+- Population in 2020: 26,808 (2020 census)
+- Median household income: $86,721 (ACS 2024 5-year)
+- Income per person: $48,734 (ACS 2024 5-year)
+- Median home value: $299,800 (ACS 2024 5-year)
+- Poverty rate: 11.6% (ACS 2024 5-year)
+- Median age: 31.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 52.6% (ACS 2024 5-year)
+- Average commute: 22.8 minutes (ACS 2024 5-year)
+- Veterans: 813 (ACS 2024 5-year)
+- Born abroad: 2.2% (ACS 2024 5-year)
+- Founded: 1818, incorporated 1818
+- County seat: yes
+- Elevation: 568 feet
+- County: Madison County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.48 students per resident (a big presence)
 
 ## The program's best
 

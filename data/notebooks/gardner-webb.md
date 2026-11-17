@@ -27,7 +27,30 @@ _Gardner-Webb (Big South). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,124 (Fall 2023)
+- Tuition and fees, in state: $38,030, annual = 2 x per-semester $19,015 (tuition $18,175 + activities $190 + health clinic $155 + Bulldog Bundle $405 + digital learning $90); page says per semester; academic year not stated on page; private: same figure both
+- Tuition and fees, out of state: $38,030, annual = 2 x per-semester $19,015 (tuition $18,175 + activities $190 + health clinic $155 + Bulldog Bundle $405 + digital learning $90); page says per semester; academic year not stated on page; private: same figure both
+- Endowment: $79.7 million, Wikipedia gives no fiscal year
+
+**Boiling Springs**
+- Population: 4,757 (ACS 2024 5-year)
+- Population in 2020: 4,615 (2020 census)
+- Median household income: $89,875 (ACS 2024 5-year)
+- Income per person: $28,734 (ACS 2024 5-year)
+- Median home value: $265,400 (ACS 2024 5-year)
+- Poverty rate: 2.2% (ACS 2024 5-year)
+- Median age: 22.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 43.8% (ACS 2024 5-year)
+- Average commute: 23.5 minutes (ACS 2024 5-year)
+- Veterans: 99 (ACS 2024 5-year)
+- Born abroad: 4.0% (ACS 2024 5-year)
+- Founded: 1911, incorporated 1911; settlement began 1843
+- County seat: no, Shelby is the Cleveland County seat
+- Elevation: 856 feet
+- County: Cleveland County
+- ICE 287(g) agreement in the county: yes, Cleveland County Sheriff's Office (warrant service officer (agreement dated 1/16/2020))
+- College-town index: 0.66 students per resident (the school is the town)
 
 ## The program's best
 

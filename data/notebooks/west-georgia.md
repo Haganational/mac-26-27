@@ -27,7 +27,29 @@ _West Georgia (UAC). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,072 (Fall 2025)
+- Endowment: $60.1 million, Wikipedia gives no fiscal year
+- Football: FCS, D-I, United Athletic Conference (football-only FCS league per https://en.wikipedia.org/wiki/University_of_North_Alabama); UAC becomes all-sports conference in 2026
+
+**Carrollton**
+- Population: 27,392 (ACS 2024 5-year)
+- Population in 2020: 26,738 (2020 census)
+- Median household income: $54,379 (ACS 2024 5-year)
+- Income per person: $32,873 (ACS 2024 5-year)
+- Median home value: $311,100 (ACS 2024 5-year)
+- Poverty rate: 25.4% (ACS 2024 5-year)
+- Median age: 28.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 35.2% (ACS 2024 5-year)
+- Average commute: 20.8 minutes (ACS 2024 5-year)
+- Veterans: 759 (ACS 2024 5-year)
+- Born abroad: 9.2% (ACS 2024 5-year)
+- Founded: 1829, incorporated December 1829
+- County seat: yes
+- Snow a year: 0.6 inches
+- Elevation: 1,102 feet
+- County: Carroll County
+- College-town index: 0.59 students per resident (the school is the town)
 
 ## The program's best
 

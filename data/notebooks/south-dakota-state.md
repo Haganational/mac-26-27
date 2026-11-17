@@ -27,7 +27,31 @@ _South Dakota State (Summit). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,139 (Fall 2025)
+- Endowment: $292.6 million (2025)
+- Football: FCS, Missouri Valley Football Conference
+
+**Brookings**
+- Population: 23,948 (ACS 2024 5-year)
+- Population in 2020: 23,377 (2020 census)
+- Median household income: $63,493 (ACS 2024 5-year)
+- Income per person: $32,470 (ACS 2024 5-year)
+- Median home value: $265,500 (ACS 2024 5-year)
+- Poverty rate: 16.9% (ACS 2024 5-year)
+- Median age: 24.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 47.5% (ACS 2024 5-year)
+- Average commute: 12.6 minutes (ACS 2024 5-year)
+- Veterans: 742 (ACS 2024 5-year)
+- Born abroad: 7.5% (ACS 2024 5-year)
+- Founded: 1879
+- County seat: yes
+- Biggest employer: South Dakota State University, 3,973 employees per city 2023 ACFR
+- January average: 12.8°F
+- Snow a year: 35.8 inches
+- Elevation: 1,660 feet
+- County: Brookings County
+- College-town index: 0.51 students per resident (the school is the town)
 
 ## The program's best
 

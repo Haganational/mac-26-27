@@ -27,7 +27,31 @@ _American (Patriot). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,019 (Fall 2023)
+- Tuition and fees, in state: $64,380 (2026-27), annual full-time tuition $62,680 + mandatory fees $1,700; Metro pass fee $272 additional
+- Tuition and fees, out of state: $64,380 (2026-27), private: same as in-state
+- Endowment: $1.12 billion (2025)
+- Football: none (https://en.wikipedia.org/wiki/American_University)
+- Arena named for: Howard and Sondra Bender (Bender Arena) (described only as Washington, D.C.-based philanthropists; source of wealth not stated)
+
+**Washington**
+- Population: 702,250 (ACS 2024 1-year)
+- Population in 2020: 689,545 (2020 census)
+- Median household income: $109,707 (ACS 2024 1-year)
+- Income per person: $76,604 (ACS 2024 1-year)
+- Median home value: $733,400 (ACS 2024 1-year)
+- Poverty rate: 17.3% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 65.5% (ACS 2024 1-year)
+- Average commute: 31 minutes (ACS 2024 1-year)
+- Veterans: 17,844 (ACS 2024 1-year)
+- Born abroad: 15.5% (ACS 2024 1-year)
+- Founded: 1790, Residence Act 1790; organized 1801
+- January average: 37.5°F, 1991-2020 normals, Reagan National Airport
+- Snow a year: 13.7 inches
+- County: District of Columbia (no county)
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

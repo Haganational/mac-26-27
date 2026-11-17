@@ -27,7 +27,32 @@ _St. Thomas (Summit). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,445 (Fall 2024)
+- Tuition and fees, in state: $58,598 (2026-27), private; page gives per-term figures: banded tuition 28,428 + mandatory fees 871 = 29,299 per term, doubled for fall+spring
+- Tuition and fees, out of state: $58,598 (2026-27), private, same figure
+- Endowment: $788.4 million (FY2025)
+- Football: FCS, Pioneer Football League
+- Arena named for: Lee and Penny Anderson (Lee & Penny Anderson Arena)
+
+**St. Paul**
+- Population: 307,484 (ACS 2024 1-year)
+- Population in 2020: 311,527 (2020 census)
+- Median household income: $70,182 (ACS 2024 1-year)
+- Income per person: $41,792 (ACS 2024 1-year)
+- Median home value: $301,800 (ACS 2024 1-year)
+- Poverty rate: 16.9% (ACS 2024 1-year)
+- Median age: 34.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 43.9% (ACS 2024 1-year)
+- Average commute: 20.6 minutes (ACS 2024 1-year)
+- Veterans: 6,954 (ACS 2024 1-year)
+- Born abroad: 17% (ACS 2024 1-year)
+- Founded: 1854, town established 1849; incorporated as city 1854
+- County seat: yes
+- January average: 16.3°F
+- Elevation: 823 feet
+- County: Ramsey County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,28 @@ _Colgate (Patriot). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Tuition and fees, in state: $77,290 (2026-27), annual tuition $76,828 + student activity fee $462
+- Tuition and fees, out of state: $77,290 (2026-27), private: same as in-state
+- Endowment: $1.34 billion (FY2025 (June 30, 2025))
+- Football: FCS (https://en.wikipedia.org/wiki/Colgate_University)
+- Arena named for: Wesley M. Cotterell, class of 1919, basketball letterwinner and trustee (Cotterell Court) (not stated on page)
+
+**Hamilton**
+- Population: 4,370 (ACS 2024 5-year)
+- Population in 2020: 4,107 (2020 census)
+- Median household income: $66,750 (ACS 2024 5-year)
+- Income per person: $18,891 (ACS 2024 5-year)
+- Median home value: $264,200 (ACS 2024 5-year)
+- Poverty rate: 13% (ACS 2024 5-year)
+- Median age: 20.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 59.2% (ACS 2024 5-year)
+- Average commute: 14.5 minutes (ACS 2024 5-year)
+- Veterans: 61 (ACS 2024 5-year)
+- Born abroad: 10.9% (ACS 2024 5-year)
+- Founded: 1795, settled c.1795 as Payne's Settlement; chartered 1812
+- Elevation: 1,122 feet
+- County: Madison County
 
 ## The program's best
 

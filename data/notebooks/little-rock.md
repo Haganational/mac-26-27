@@ -27,7 +27,32 @@ _Little Rock (UAC). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,026 (Fall 2025)
+- Tuition and fees, in state: $10,185 (2026-27), page lists average annual (academic year) tuition and fees; 5,092.63 per semester
+- Tuition and fees, out of state: $22,870 (2026-27), average annual; 11,434.85 per semester
+- Endowment: $144.6 million (FY2024)
+- Football: none, no football; not among listed sports
+
+**Little Rock**
+- Population: 204,793 (ACS 2024 1-year)
+- Population in 2020: 202,591 (2020 census)
+- Median household income: $66,553 (ACS 2024 1-year)
+- Income per person: $41,584 (ACS 2024 1-year)
+- Median home value: $270,700 (ACS 2024 1-year)
+- Poverty rate: 18.2% (ACS 2024 1-year)
+- Median age: 34.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 47% (ACS 2024 1-year)
+- Average commute: 18.7 minutes (ACS 2024 1-year)
+- Veterans: 10,226 (ACS 2024 1-year)
+- Born abroad: 9.6% (ACS 2024 1-year)
+- Founded: 1821, founded June 1, 1821; incorporated town 1831, city 1835
+- County seat: yes
+- January average: 40.7°F
+- Snow a year: 3.8 inches
+- Elevation: 279 feet
+- County: Pulaski County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

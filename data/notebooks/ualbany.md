@@ -27,7 +27,35 @@ _UAlbany (America East). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,426 (Fall 2025)
+- Tuition and fees, in state: $10,716 (2026-27), annual: tuition $7,070 + annual fees $3,646 (Fall 2026 & Spring 2027)
+- Tuition and fees, out of state: $32,776 (2026-27), annual: tuition $29,130 + annual fees $3,646
+- Endowment: $197.3 million (2025)
+- Football: FCS (https://en.wikipedia.org/wiki/University_at_Albany)
+- Men's basketball coach's pay: $365,000 (2021-22)
+- Arena named for: Broadview Federal Credit Union (Broadview Center, formerly SEFCU Arena) (credit union formed 2022 by merger of SEFCU (State Employees Federal Credit Union) and CAP COM; naming-rights deal)
+
+**Albany**
+- Population: 101,314 (ACS 2024 1-year)
+- Population in 2020: 99,224 (2020 census)
+- Median household income: $65,231 (ACS 2024 1-year)
+- Income per person: $44,687 (ACS 2024 1-year)
+- Median home value: $258,000 (ACS 2024 1-year)
+- Poverty rate: 20.7% (ACS 2024 1-year)
+- Median age: 33.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 47.9% (ACS 2024 1-year)
+- Average commute: 19.9 minutes (ACS 2024 1-year)
+- Veterans: 3,915 (ACS 2024 1-year)
+- Born abroad: 16.8% (ACS 2024 1-year)
+- Founded: 1614, settled 1614; chartered 1686
+- County seat: yes
+- January average: 24.4°F, 1991-2020 normals, Albany International Airport
+- Snow a year: 59.2 inches
+- Elevation: 148 feet
+- County: Albany County
+- The coach's pay equals 6 median Albany household incomes
+- College-town index: 0.17 students per resident (a big presence)
 
 ## The program's best
 

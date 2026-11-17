@@ -27,7 +27,31 @@ _Southern Indiana (OVC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,286 (Fall 2023)
+- Tuition and fees, in state: $9,036 (2026-27), Indiana Commission for Higher Education enacted resident undergraduate tuition and mandatory fees, listed per academic year (same 9,036 for 2025-26)
+- Endowment: $155.0 million (2021)
+- Football: none, athletics page lists no football team
+
+**Evansville**
+- Population: 114,812 (ACS 2024 1-year)
+- Population in 2020: 117,298 (2020 census)
+- Median household income: $52,094 (ACS 2024 1-year)
+- Income per person: $33,783 (ACS 2024 1-year)
+- Median home value: $159,800 (ACS 2024 1-year)
+- Poverty rate: 16.2% (ACS 2024 1-year)
+- Median age: 37.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.4% (ACS 2024 1-year)
+- Average commute: 17.5 minutes (ACS 2024 1-year)
+- Veterans: 5,326 (ACS 2024 1-year)
+- Born abroad: 5.3% (ACS 2024 1-year)
+- Founded: 1812, founded 1812, incorporated 1817
+- County seat: yes
+- January average: 33.6°F, climate box daily mean; article text says 32.5
+- Snow a year: 10.8 inches, climate box; article text says 11.8
+- Elevation: 384 feet
+- County: Vanderburgh County
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

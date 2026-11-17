@@ -27,7 +27,33 @@ _UT Martin (OVC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,507 (Fall 2024)
+- Tuition and fees, in state: $11,118 (2026-27), schedule labels 5,559 per semester at 12 credit hours, doubled; footnote adds a 15 media fee for full-time students, unclear if included
+- Tuition and fees, out of state: $17,158 (2026-27), 8,579 per semester (domestic out-of-state, 12 hrs), doubled; international 10,228/semester
+- Endowment: $51.0 million (2021)
+- Football: FCS, Ohio Valley Conference
+- Men's basketball coach's pay: $181,132 (effective July 1, 2025)
+
+**Martin**
+- Population: 10,915 (ACS 2024 5-year)
+- Population in 2020: 10,825 (2020 census)
+- Median household income: $43,381 (ACS 2024 5-year)
+- Income per person: $24,910 (ACS 2024 5-year)
+- Median home value: $198,300 (ACS 2024 5-year)
+- Poverty rate: 26.3% (ACS 2024 5-year)
+- Median age: 24.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30.4% (ACS 2024 5-year)
+- Average commute: 13.7 minutes (ACS 2024 5-year)
+- Veterans: 412 (ACS 2024 5-year)
+- Born abroad: 5% (ACS 2024 5-year)
+- Founded: 1874, laid out and incorporated 1874
+- January average: 36.2°F
+- Snow a year: 3.1 inches
+- Elevation: 407 feet
+- County: Weakley County
+- The coach's pay equals 4 median Martin household incomes
+- College-town index: 0.69 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,35 @@ _Eastern Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,107 (Fall 2025)
+- Tuition and fees, in state: $14,914 (2026-27), annual, 30 credit hours: tuition 10,690.20 + mandatory fees 4,224.00
+- Tuition and fees, out of state: $14,914 (2026-27), EIU charges domestic out-of-state undergrads the in-state rate per the page
+- Endowment: $139.9 million (FY2025)
+- Football: FCS, Ohio Valley Conference
+- Men's basketball coach's pay: $167,063 (2022)
+
+**Charleston**
+- Population: 17,062 (ACS 2024 5-year)
+- Population in 2020: 17,286 (2020 census)
+- Median household income: $49,300 (ACS 2024 5-year)
+- Income per person: $31,560 (ACS 2024 5-year)
+- Median home value: $137,400 (ACS 2024 5-year)
+- Poverty rate: 26.3% (ACS 2024 5-year)
+- Median age: 29.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 33.3% (ACS 2024 5-year)
+- Average commute: 15.2 minutes (ACS 2024 5-year)
+- Veterans: 658 (ACS 2024 5-year)
+- Born abroad: 4% (ACS 2024 5-year)
+- Founded: 1831, incorporated 1865
+- County seat: yes
+- January average: 29.3°F
+- Snow a year: 19.0 inches
+- Elevation: 699 feet
+- County: Coles County
+- ICE 287(g) agreement in the county: no
+- The coach's pay equals 3 median Charleston household incomes
+- College-town index: 0.48 students per resident (a big presence)
 
 ## The program's best
 

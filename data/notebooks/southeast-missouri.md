@@ -27,7 +27,32 @@ _SEMO (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,677 (Fall 2023)
+- Tuition and fees, in state: $10,560 (2026-27), annual estimate, 30 credit hours at 352/hr (305 tuition + 47 general fees); page lists one 'Domestic & Online' rate, not separate Missouri-resident rate
+- Tuition and fees, out of state: $10,560 (2026-27), page charges all domestic students the same 'Domestic & Online' rate; international (non-domestic) is 19,410
+- Endowment: $114.0 million (2021)
+- Football: FCS, Ohio Valley Conference athletics; school page does not name football conference
+
+**Cape Girardeau**
+- Population: 40,344 (ACS 2024 5-year)
+- Population in 2020: 39,540 (2020 census)
+- Median household income: $55,658 (ACS 2024 5-year)
+- Income per person: $32,930 (ACS 2024 5-year)
+- Median home value: $196,300 (ACS 2024 5-year)
+- Poverty rate: 20.8% (ACS 2024 5-year)
+- Median age: 34.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.9% (ACS 2024 5-year)
+- Average commute: 15.9 minutes (ACS 2024 5-year)
+- Veterans: 2,135 (ACS 2024 5-year)
+- Born abroad: 3.9% (ACS 2024 5-year)
+- Founded: 1793, infobox founded 1793; text says incorporated 1808, city 1843
+- Biggest employer: St. Francis Medical Center, 3,143 employees
+- January average: 34.6°F
+- Snow a year: 11.4 inches
+- Elevation: 371 feet
+- County: Cape Girardeau County
+- College-town index: 0.24 students per resident (a big presence)
 
 ## The program's best
 

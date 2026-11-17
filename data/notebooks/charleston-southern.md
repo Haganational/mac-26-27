@@ -27,7 +27,27 @@ _Charleston Southern (Big South). Anchors are fictional AI personas, not affilia
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,000 (Fall 2025), Wikipedia says 'more than 4,000 students'; approximate
+- Endowment: $29.8 million (2024)
+- Football: FCS, Big South Conference
+
+**North Charleston**
+- Population: 126,015 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 114,852 (2020 census)
+- Median household income: $61,445 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $36,737 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $347,200 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 9.6% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 36.9 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 27.7% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 24.5 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 10,280 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 10.4% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1972, incorporated June 12, 1972
+- Snow a year: 0.5 inches
+- Elevation: 39 feet
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _High Point (Big South). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,550 (Fall 2025), infobox lists 6,335; text says fall 2025 rose to 6,550
+- Tuition and fees, in state: $50,628 (2026-27), academic-year tuition $44,682 + fees $5,946 (page's academic-year column; spring tuition shows $22,431 vs fall $22,341, likely typo); private: same figure both
+- Tuition and fees, out of state: $50,628 (2026-27), academic-year tuition $44,682 + fees $5,946 (page's academic-year column; spring tuition shows $22,431 vs fall $22,341, likely typo); private: same figure both
+- Endowment: $194.9 million (FY2025)
+- Football: none, football not among the 16 varsity sports listed on Wikipedia
+- Arena named for: Nido and Mariana Qubein (Qubein Arena and Conference Center) (Nido Qubein, HPU president, described as businessman, motivational speaker and author)
+
+**High Point**
+- Population: 117,109 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 114,059 (2020 census)
+- Median household income: $62,483 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $33,700 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $260,900 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 15.3% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 39.7 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 33.1% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 20.7 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 4,998 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 14.4% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1859, chartered May 26, 1859; settled before 1750
+- Biggest employer: Ralph Lauren (3,008 employees, 2025 ACFR)
+- January average: 41.7°F
+- Snow a year: 1.9 inches, climate table; narrative text says 'more than 8 inches'
+- Elevation: 866 feet
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

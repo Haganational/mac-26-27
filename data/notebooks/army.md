@@ -27,7 +27,28 @@ _Army (Patriot). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Tuition and fees, in state: $0, cadets attend free of charge in exchange for service commitment
+- Tuition and fees, out of state: $0, cadets attend free of charge
+- Endowment: $590.6 million (2025)
+- Football: FBS (https://en.wikipedia.org/wiki/United_States_Military_Academy)
+- Arena named for: 1st Lt. Edward C. Christl Jr., USMA class of 1944, basketball captain killed in WWII (Christl Arena) (not a donor naming; memorial to a fallen graduate)
+
+**West Point**
+- Population: 6,349 (ACS 2024 5-year)
+- Population in 2020: 7,341 (2020 census)
+- Median household income: $135,333 (ACS 2024 5-year)
+- Income per person: $32,509 (ACS 2024 5-year)
+- Poverty rate: 3.3% (ACS 2024 5-year)
+- Median age: 21.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 78.8% (ACS 2024 5-year)
+- Average commute: 10.1 minutes (ACS 2024 5-year)
+- Veterans: 948 (ACS 2024 5-year)
+- Born abroad: 3.8% (ACS 2024 5-year)
+- Founded: 1778, first occupied by US forces Jan 1778; USMA established 1802
+- January average: 28.2°F, West Point NY station
+- Snow a year: 35.7 inches
+- County: Orange County
 
 ## The program's best
 

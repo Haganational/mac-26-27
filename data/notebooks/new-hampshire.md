@@ -27,7 +27,32 @@ _New Hampshire (America East). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,784 (2019)
+- Tuition and fees, in state: $20,172 (2026-27), annual Durham tuition $16,304 + fees $3,868 (estimate)
+- Tuition and fees, out of state: $41,864 (2026-27), annual tuition $37,996 + fees $3,868 (estimate)
+- Football: FCS (https://en.wikipedia.org/wiki/University_of_New_Hampshire)
+- Arena named for: Carl Lundholm (Lundholm Gym), UNH athletic director 1939-1963, class of 1921 (not a donor naming; honors former athletic director)
+
+**Durham**
+- Population: 10,681 (ACS 2024 5-year)
+- Population in 2020: 15,490 (2020 census), town (Census Reporter figures are for the Durham CDP)
+- Median household income: $112,070 (ACS 2024 5-year)
+- Income per person: $25,585 (ACS 2024 5-year)
+- Median home value: $498,000 (ACS 2024 5-year)
+- Poverty rate: 12.4% (ACS 2024 5-year)
+- Median age: 20.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 75.4% (ACS 2024 5-year)
+- Average commute: 17.2 minutes (ACS 2024 5-year)
+- Veterans: 234 (ACS 2024 5-year)
+- Born abroad: 4.4% (ACS 2024 5-year)
+- Founded: 1635, settled 1635; incorporated 1732
+- January average: 23.7°F, 1991-2020 normals, Durham NH
+- Snow a year: 54.2 inches
+- Elevation: 30 feet
+- County: Strafford County
+- ICE 287(g) agreement in the county: no
+- College-town index: 1.38 students per resident (the school is the town)
 
 ## The program's best
 

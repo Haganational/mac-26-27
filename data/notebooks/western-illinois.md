@@ -27,7 +27,31 @@ _Western Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,337 (Fall 2025)
+- Tuition and fees, in state: $13,550 (2026-27), annual, 15 hrs per semester: tuition 10,503 + fees 3,047
+- Tuition and fees, out of state: $13,550 (2026-27), page: 'All permanent domestic US residents receive in-state tuition'
+- Endowment: $84.3 million, fiscal year not stated on page
+- Football: FCS, Ohio Valley Conference (Missouri Valley Football Conference through 2023)
+
+**Macomb**
+- Population: 14,894 (ACS 2024 5-year)
+- Population in 2020: 15,051 (2020 census)
+- Median household income: $44,411 (ACS 2024 5-year)
+- Income per person: $28,907 (ACS 2024 5-year)
+- Median home value: $103,300 (ACS 2024 5-year)
+- Poverty rate: 25.1% (ACS 2024 5-year)
+- Median age: 27.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 35.4% (ACS 2024 5-year)
+- Average commute: 15.6 minutes (ACS 2024 5-year)
+- Veterans: 451 (ACS 2024 5-year)
+- Born abroad: 3.7% (ACS 2024 5-year)
+- Founded: 1830, incorporated Dec 24, 1830; first settled 1829
+- County seat: yes
+- Elevation: 643 feet
+- County: McDonough County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.36 students per resident (a big presence)
 
 ## The program's best
 

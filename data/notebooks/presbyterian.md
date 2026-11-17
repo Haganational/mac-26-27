@@ -27,7 +27,30 @@ _Presbyterian (Big South). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 1,199 (Fall 2022)
+- Tuition and fees, in state: $47,560 (2026-27), annual tuition $44,360 + fees $3,200; private: same figure both
+- Tuition and fees, out of state: $47,560 (2026-27), annual tuition $44,360 + fees $3,200; private: same figure both
+- Endowment: $95.6 million (FY2022)
+- Football: FCS, Pioneer Football League since 2021
+
+**Clinton**
+- Population: 7,676 (ACS 2024 5-year)
+- Population in 2020: 7,633 (2020 census)
+- Median household income: $44,522 (ACS 2024 5-year)
+- Income per person: $21,030 (ACS 2024 5-year)
+- Median home value: $173,400 (ACS 2024 5-year)
+- Poverty rate: 27.7% (ACS 2024 5-year)
+- Median age: 30.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 31.4% (ACS 2024 5-year)
+- Average commute: 18.5 minutes (ACS 2024 5-year)
+- Veterans: 241 (ACS 2024 5-year)
+- Born abroad: 2.2% (ACS 2024 5-year)
+- County seat: no, Laurens is the Laurens County seat
+- Elevation: 614 feet
+- County: Laurens County
+- ICE 287(g) agreement in the county: yes, Clinton Police Department (task force (signed 1/26/2026))
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

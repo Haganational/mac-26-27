@@ -27,7 +27,34 @@ _USC Upstate (Big South). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,913, infobox, no year; text says 'approximately 5,200'
+- Tuition and fees, in state: $11,838 (2026-27), annual = 2 x per-semester $5,919 (tuition $5,604 + technology $140 + security $50 + health & wellness $125); page states tuition is per semester
+- Tuition and fees, out of state: $23,340 (2026-27), annual = 2 x per-semester $11,670 (tuition $11,355 + same fees)
+- Endowment: $12.6 million, Wikipedia gives no fiscal year
+- Football: none, football not among sports listed on Wikipedia
+
+**Spartanburg**
+- Population: 38,910 (ACS 2024 5-year)
+- Population in 2020: 38,732 (2020 census)
+- Median household income: $51,964 (ACS 2024 5-year)
+- Income per person: $33,214 (ACS 2024 5-year)
+- Median home value: $203,700 (ACS 2024 5-year)
+- Poverty rate: 23.8% (ACS 2024 5-year)
+- Median age: 36.0 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 32.6% (ACS 2024 5-year)
+- Average commute: 20.2 minutes (ACS 2024 5-year)
+- Veterans: 1,605 (ACS 2024 5-year)
+- Born abroad: 6.1% (ACS 2024 5-year)
+- Founded: 1787, infobox 1787 (text also says formed 1785); incorporated 1831
+- County seat: yes
+- Biggest employer: Spartanburg Regional (9,648 employees, 2022 CAFR)
+- January average: 42.8°F
+- Snow a year: 0.8 inches, climate table; narrative says 1.4 in
+- Elevation: 745 feet
+- County: Spartanburg County
+- ICE 287(g) agreement in the county: yes, Spartanburg County Sheriff's Office (also Duncan PD and Wellford PD, task force) (warrant service officer (signed 4/2/2025))
+- College-town index: 0.13 students per resident (a guest in a bigger place)
 
 ## The program's best
 

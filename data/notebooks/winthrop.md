@@ -27,7 +27,32 @@ _Winthrop (Big South). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,287, infobox: 4,289 undergrad + 998 postgrad, no year given; article text gives 6,073 (also undated)
+- Tuition and fees, in state: $14,311 (2025-26), SC Commission on Higher Education summary: annualized full-time undergrad tuition and required fees
+- Tuition and fees, out of state: $28,700 (2025-26), SC CHE summary, annualized full-time undergrad tuition and required fees
+- Endowment: $92.1 million (FY2025)
+- Football: none, Wikipedia lists 18 intercollegiate teams, none football
+- Arena named for: Winthrop Coliseum (named for the university) (not a donor naming; carries the university's name)
+
+**Rock Hill**
+- Population: 75,787 (ACS 2024 1-year)
+- Population in 2020: 74,372 (2020 census)
+- Median household income: $71,309 (ACS 2024 1-year)
+- Income per person: $36,873 (ACS 2024 1-year)
+- Median home value: $306,800 (ACS 2024 1-year)
+- Poverty rate: 12.1% (ACS 2024 1-year)
+- Median age: 36 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.1% (ACS 2024 1-year)
+- Average commute: 25 minutes (ACS 2024 5-year)
+- Veterans: 3,994 (ACS 2024 1-year)
+- Born abroad: 7% (ACS 2024 1-year)
+- Founded: 1852, founded 1852; incorporated 1870 per text (infobox says 1892)
+- January average: 43.0°F
+- Elevation: 620 feet, infobox; article text says about 676 ft
+- County: York County
+- ICE 287(g) agreement in the county: yes, York County Sheriff's Office (jail enforcement)
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

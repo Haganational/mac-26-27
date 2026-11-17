@@ -27,7 +27,32 @@ _North Alabama (UAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,204, infobox gives no year; text says fall 2021 enrollment was 8,832
+- Tuition and fees, in state: $12,750 (2026-27), annual tuition $10,500 + per-credit-hour fees; $12,750 is the combined per-year figure for Education/Human Sciences and Arts, Sciences & Engineering colleges ($13,650 business, $13,950 nursing); as proposed to board June 2026
+- Tuition and fees, out of state: $21,000 (2026-27), annual TUITION only (double in-state); article gives no out-of-state fees figure
+- Endowment: $54.4 million (FY2024)
+- Football: FCS, United Athletic Conference (football-only)
+
+**Florence**
+- Population: 41,701 (ACS 2024 5-year)
+- Population in 2020: 40,184 (2020 census)
+- Median household income: $52,174 (ACS 2024 5-year)
+- Income per person: $31,735 (ACS 2024 5-year)
+- Median home value: $196,300 (ACS 2024 5-year)
+- Poverty rate: 17.9% (ACS 2024 5-year)
+- Median age: 35.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.5% (ACS 2024 5-year)
+- Average commute: 18.7 minutes (ACS 2024 5-year)
+- Veterans: 2,072 (ACS 2024 5-year)
+- Born abroad: 4.2% (ACS 2024 5-year)
+- Founded: 1818, founded March 12, 1818; incorporated 1826
+- County seat: yes
+- January average: 40.6°F
+- Snow a year: 2.25 inches
+- Elevation: 604 feet
+- County: Lauderdale County
+- College-town index: 0.24 students per resident (a big presence)
 
 ## The program's best
 

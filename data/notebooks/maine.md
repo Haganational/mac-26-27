@@ -27,7 +27,29 @@ _Maine (America East). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,878 (Fall 2024)
+- Endowment: $442.2 million (2025)
+- Football: FCS (https://en.wikipedia.org/wiki/University_of_Maine)
+
+**Orono**
+- Population: 11,151 (ACS 2024 5-year)
+- Population in 2020: 11,183 (2020 census), town (Census Reporter figures are for the Orono CDP)
+- Median household income: $59,784 (ACS 2024 5-year)
+- Income per person: $25,481 (ACS 2024 5-year)
+- Median home value: $262,900 (ACS 2024 5-year)
+- Poverty rate: 27% (ACS 2024 5-year)
+- Median age: 21.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 69.8% (ACS 2024 5-year)
+- Average commute: 15.3 minutes (ACS 2024 5-year)
+- Veterans: 257 (ACS 2024 5-year)
+- Born abroad: 5.7% (ACS 2024 5-year)
+- Founded: 1774, settled 1774; incorporated 1806
+- January average: 19.9°F, 1981-2010 normals, Orono (University of Maine) station
+- Snow a year: 71.8 inches
+- Elevation: 249 feet
+- County: Penobscot County
+- College-town index: 0.98 students per resident (the school is the town)
 
 ## The program's best
 
