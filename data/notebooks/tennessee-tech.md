@@ -27,7 +27,33 @@ _Tennessee Tech (SoCon). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,701 (Fall 2025)
+- Tuition and fees, in state: $12,596 (2026-27), Fall 2026 sheet: $6,298 per semester full-time in-state tuition and fees; doubled
+- Tuition and fees, out of state: $16,796 (2026-27), $8,398 per semester domestic out-of-state; doubled (international $14,230/semester)
+- Endowment: $120.5 million (2025)
+- Football: FCS, Ohio Valley Conference (football), per school Wikipedia page
+
+**Cookeville**
+- Population: 36,088 (ACS 2024 5-year)
+- Population in 2020: 34,842 (2020 census)
+- Median household income: $51,375 (ACS 2024 5-year)
+- Income per person: $29,350 (ACS 2024 5-year)
+- Median home value: $305,400 (ACS 2024 5-year)
+- Poverty rate: 23.5% (ACS 2024 5-year)
+- Median age: 29.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.8% (ACS 2024 5-year)
+- Average commute: 19.0 minutes (ACS 2024 5-year)
+- Veterans: 1,458 (ACS 2024 5-year)
+- Born abroad: 9.3% (ACS 2024 5-year)
+- Founded: 1854
+- County seat: yes
+- Biggest employer: Cookeville Regional Medical Center, first on 2009 list from city's 2030 Plan, 1,600 employees
+- January average: 37.0°F
+- Snow a year: 6.1 inches
+- Elevation: 1,089 feet
+- County: Putnam County
+- College-town index: 0.30 students per resident (a big presence)
 
 ## The program's best
 

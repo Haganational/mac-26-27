@@ -27,7 +27,32 @@ _Wofford (SoCon). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 1,800 (Dec 2020), infobox figure is undergraduates
+- Tuition and fees, in state: $60,580 (2026-27), private; $30,290 fall + $30,290 spring tuition and fees
+- Tuition and fees, out of state: $60,580 (2026-27), private, same figure
+- Endowment: $512.1 million (2025)
+
+**Spartanburg**
+- Population: 38,910 (ACS 2024 5-year)
+- Population in 2020: 38,732 (2020 census)
+- Median household income: $51,964 (ACS 2024 5-year)
+- Income per person: $33,214 (ACS 2024 5-year)
+- Median home value: $203,700 (ACS 2024 5-year)
+- Poverty rate: 23.8% (ACS 2024 5-year)
+- Median age: 36.0 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 32.6% (ACS 2024 5-year)
+- Average commute: 20.2 minutes (ACS 2024 5-year)
+- Veterans: 1,605 (ACS 2024 5-year)
+- Born abroad: 6.1% (ACS 2024 5-year)
+- Founded: 1787
+- County seat: yes
+- Biggest employer: Spartanburg Regional, 9,648 employees, 2022 ACFR
+- January average: 42.8°F
+- Snow a year: 0.8 inches
+- Elevation: 745 feet
+- County: Spartanburg County
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,31 @@ _McNeese (Southland). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,556 (Fall 2025)
+- Tuition and fees, in state: $9,668 (2026-27), estimate; 4,834 per semester x 2 as given on page, full-time undergrad
+- Tuition and fees, out of state: $10,668 (2026-27), estimate; 5,334 per semester x 2 as given on page
+- Football: FCS, Southland Conference
+
+**Lake Charles**
+- Population: 81,166 (ACS 2024 1-year)
+- Population in 2020: 84,872 (2020 census)
+- Median household income: $52,738 (ACS 2024 1-year)
+- Income per person: $36,086 (ACS 2024 1-year)
+- Median home value: $203,000 (ACS 2024 1-year)
+- Poverty rate: 21.1% (ACS 2024 1-year)
+- Median age: 38.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 23.8% (ACS 2024 1-year)
+- Average commute: 17.1 minutes (ACS 2024 5-year)
+- Veterans: 3,658 (ACS 2024 1-year)
+- Born abroad: 6.1% (ACS 2024 1-year)
+- Founded: 1861, article: founded/incorporated as Charleston 1861; infobox says about 1857
+- County seat: yes
+- Biggest employer: Calcasieu Parish School System
+- January average: 53.2°F
+- Elevation: 15 feet, infobox; text says about 13 ft
+- County: Calcasieu Parish
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

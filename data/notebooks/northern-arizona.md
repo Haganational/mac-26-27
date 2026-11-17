@@ -27,7 +27,34 @@ _Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 28,194 (Fall 2023), all campuses; 21,550 at Flagstaff
+- Tuition and fees, in state: $14,377 (2026-27), estimated: $12,000 tuition + $1,625 mandatory fees + $752 college fees; page implies annual but doesn't label it
+- Tuition and fees, out of state: $32,757 (2026-27), estimated: $30,000 tuition + $1,625 mandatory + $1,132 college fees
+- Endowment: $218.8 million (2024)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $198,000 (2025-26 (reported Apr 2026))
+
+**Flagstaff**
+- Population: 77,549 (ACS 2024 1-year)
+- Population in 2020: 76,831 (2020 census)
+- Median household income: $74,417 (ACS 2024 1-year)
+- Income per person: $45,566 (ACS 2024 1-year)
+- Median home value: $602,300 (ACS 2024 1-year)
+- Poverty rate: 18.7% (ACS 2024 1-year)
+- Median age: 25.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 56.2% (ACS 2024 1-year)
+- Average commute: 16.5 minutes (ACS 2024 5-year)
+- Veterans: 2,546 (ACS 2024 1-year)
+- Born abroad: 6.4% (ACS 2024 1-year)
+- Founded: 1876
+- County seat: yes
+- January average: 30.5°F
+- Snow a year: 90.1 inches
+- Elevation: 6,821 feet
+- County: Coconino County
+- The coach's pay equals 3 median Flagstaff household incomes
+- College-town index: 0.36 students per resident (a big presence)
 
 ## The program's best
 

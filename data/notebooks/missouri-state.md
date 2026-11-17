@@ -27,7 +27,35 @@ _Missouri State (CUSA). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 23,418 (Fall 2023)
+- Tuition and fees, in state: $11,340 (2026-27), computed from page: $317/credit hour x 15 hrs + per-semester flat fees (student services 630, athletic 200, technology 85) = $5,670 per semester, doubled; excludes college/program/course fees
+- Tuition and fees, out of state: $22,170 (2026-27), $678/credit hour x 15 + same fees = $11,085 per semester, doubled
+- Endowment: $193.0 million (2024)
+- Football: FBS, Conference USA
+- Men's basketball coach's pay: $650,000 (2026-27)
+
+**Springfield**
+- Population: 170,572 (ACS 2024 1-year)
+- Population in 2020: 169,176 (2020 census)
+- Median household income: $54,414 (ACS 2024 1-year)
+- Income per person: $32,220 (ACS 2024 1-year)
+- Median home value: $207,900 (ACS 2024 1-year)
+- Poverty rate: 14.7% (ACS 2024 1-year)
+- Median age: 34.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 32.6% (ACS 2024 1-year)
+- Average commute: 18.6 minutes (ACS 2024 1-year)
+- Veterans: 8,230 (ACS 2024 1-year)
+- Born abroad: 4.3% (ACS 2024 1-year)
+- Founded: 1834, founded 1834, incorporated 1838
+- County seat: yes
+- Biggest employer: CoxHealth, 12,178 metro-area employees (2023)
+- January average: 34.3°F
+- Snow a year: 13.7 inches
+- Elevation: 1,299 feet
+- County: Greene County
+- The coach's pay equals 12 median Springfield household incomes
+- College-town index: 0.14 students per resident (a guest in a bigger place)
 
 ## The program's best
 

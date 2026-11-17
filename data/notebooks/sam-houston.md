@@ -27,7 +27,33 @@ _Sam Houston (CUSA). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,679, infobox gives no year
+- Tuition and fees, in state: $11,370 (2026-27), annual full-time tuition and fees, 30 credit hours (15/semester), Texas resident
+- Tuition and fees, out of state: $23,810 (2026-27), annual full-time, non-resident
+- Endowment: $191.0 million (FY2024), SHSU alone
+- Football: FBS, Conference USA
+
+**Huntsville**
+- Population: 47,864 (ACS 2024 5-year)
+- Population in 2020: 45,941 (2020 census)
+- Median household income: $47,529 (ACS 2024 5-year)
+- Income per person: $22,918 (ACS 2024 5-year)
+- Median home value: $236,600 (ACS 2024 5-year)
+- Poverty rate: 23.9% (ACS 2024 5-year)
+- Median age: 31.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 24.3% (ACS 2024 5-year)
+- Average commute: 23.4 minutes (ACS 2024 5-year)
+- Veterans: 2,480 (ACS 2024 5-year)
+- Born abroad: 9.0% (ACS 2024 5-year)
+- Founded: 1835
+- County seat: yes
+- Biggest employer: Texas Department of Criminal Justice, 6,744 employees as of 2022
+- January average: 48.7°F
+- Snow a year: 0.0 inches
+- Elevation: 371 feet
+- County: Walker County
+- College-town index: 0.45 students per resident (a big presence)
 
 ## The program's best
 

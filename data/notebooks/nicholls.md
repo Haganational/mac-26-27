@@ -27,7 +27,30 @@ _Nicholls (Southland). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,366, infobox gives no year
+- Tuition and fees, in state: $9,554 (2026-27), planning estimate; 4,777 fall + 4,777 spring as given on page
+- Endowment: $30.0 million, infobox gives no year
+- Football: FCS, Southland Conference
+
+**Thibodaux**
+- Population: 15,732 (ACS 2024 5-year)
+- Population in 2020: 15,948 (2020 census)
+- Median household income: $52,072 (ACS 2024 5-year)
+- Income per person: $41,491 (ACS 2024 5-year)
+- Median home value: $232,500 (ACS 2024 5-year)
+- Poverty rate: 19.6% (ACS 2024 5-year)
+- Median age: 39 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.6% (ACS 2024 5-year)
+- Average commute: 20.9 minutes (ACS 2024 5-year)
+- Veterans: 531 (ACS 2024 5-year)
+- Born abroad: 2.2% (ACS 2024 5-year)
+- Founded: 1830, incorporated as a town 1830; trading post by 1808
+- County seat: yes
+- January average: 54.2°F
+- Elevation: 13 feet
+- County: Lafourche Parish
+- College-town index: 0.40 students per resident (a big presence)
 
 ## The program's best
 

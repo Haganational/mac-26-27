@@ -27,7 +27,35 @@ _Montana (Big Sky). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,064 (Fall 2025)
+- Tuition and fees, in state: $9,694 (2026-27 (FY2027)), Board of Regents chart gives $4,847 per semester (12 credits tuition + mandatory fees); doubled
+- Tuition and fees, out of state: $34,838 (2026-27 (FY2027)), $17,419 per semester; doubled
+- Endowment: $320.7 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $430,000 (2025-26)
+
+**Missoula**
+- Population: 78,213 (ACS 2024 1-year)
+- Population in 2020: 73,489 (2020 census)
+- Median household income: $69,832 (ACS 2024 1-year)
+- Income per person: $43,569 (ACS 2024 1-year)
+- Median home value: $562,000 (ACS 2024 1-year)
+- Poverty rate: 9.7% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 54% (ACS 2024 1-year)
+- Average commute: 15.8 minutes (ACS 2024 5-year)
+- Veterans: 4,690 (ACS 2024 1-year)
+- Born abroad: 2.6% (ACS 2024 1-year)
+- Founded: 1860
+- County seat: yes
+- Biggest employer: University of Montana
+- January average: 24.8°F
+- Snow a year: 43.0 inches
+- Elevation: 3,169 feet
+- County: Missoula County
+- The coach's pay equals 6 median Missoula household incomes
+- College-town index: 0.14 students per resident (a guest in a bigger place)
 
 ## The program's best
 

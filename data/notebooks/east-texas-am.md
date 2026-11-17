@@ -27,7 +27,33 @@ _East Texas A&M (Southland). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,500 (Fall 2023)
+- Tuition and fees, in state: $10,026 (2025-26), annual, 15 credits/semester; 2026-27 calculator not yet populated
+- Tuition and fees, out of state: $22,266 (2025-26), annual, 15 credits/semester
+- Endowment: $33.2 million (2022)
+- Football: FCS, moved to Division I FCS in 2022; Southland
+- Men's basketball coach's pay: $156,000 (2025 (data obtained Feb 10, 2025))
+
+**Commerce**
+- Population: 9,383 (ACS 2024 5-year)
+- Population in 2020: 9,090 (2020 census)
+- Median household income: $44,386 (ACS 2024 5-year)
+- Income per person: $22,169 (ACS 2024 5-year)
+- Median home value: $161,600 (ACS 2024 5-year)
+- Poverty rate: 23.5% (ACS 2024 5-year)
+- Median age: 26.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30% (ACS 2024 5-year)
+- Homeownership: 32.9% (2020 census), owner-occupied share of occupied units, Wikipedia citing 2020 decennial census (not ACS)
+- Average commute: 19.9 minutes (ACS 2024 5-year)
+- Veterans: 539 (ACS 2024 5-year)
+- Born abroad: 9.2% (ACS 2024 5-year)
+- Founded: 1872
+- Biggest employer: East Texas A&M University
+- Elevation: 535 feet
+- County: Hunt County
+- The coach's pay equals 4 median Commerce household incomes
+- College-town index: 1.23 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,30 @@ _ETSU (SoCon). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,728 (not stated in infobox)
+- Tuition and fees, in state: $11,816 (2026-27), Fall 2026 fee sheet: $5,908 per semester full-time in-state (tuition 4,380 + maintenance 1,144 + 384 fee); doubled. Table labels garbled, read from 12-hour row
+- Tuition and fees, out of state: $30,200 (2026-27), $15,100 per semester full-time out-of-state; doubled; same caveat
+- Endowment: $198.2 million (2025)
+- Football: FCS, Southern Conference; dropped 2003, reinstated 2014
+
+**Johnson City**
+- Population: 74,879 (ACS 2024 1-year)
+- Population in 2020: 71,046 (2020 census)
+- Median household income: $60,606 (ACS 2024 1-year)
+- Income per person: $36,352 (ACS 2024 1-year)
+- Median home value: $297,400 (ACS 2024 1-year)
+- Poverty rate: 15.8% (ACS 2024 1-year)
+- Median age: 35.0 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 44.0% (ACS 2024 1-year)
+- Average commute: 18.7 minutes (ACS 2024 5-year)
+- Veterans: 4,695 (ACS 2024 1-year)
+- Born abroad: 5.0% (ACS 2024 1-year)
+- Founded: 1856, founded 1856 as Johnson's Depot; incorporated 1869
+- Snow a year: 15.6 inches
+- Elevation: 1,634 feet
+- County: Washington County
+- College-town index: 0.18 students per resident (a big presence)
 
 ## The program's best
 

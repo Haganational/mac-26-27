@@ -27,7 +27,32 @@ _Chattanooga (SoCon). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,060 (Fall 2025)
+- Tuition and fees, in state: $11,084 (2026-27), 'Enrollment Fees' for 12+ hours from 2026-27 estimated cost of attendance; page does not label annual vs semester, but figures sit in annual COA totals
+- Tuition and fees, out of state: $19,390 (2026-27), 11,084 enrollment fees + 8,306 out-of-state tuition (campus students); same annual caveat
+- Endowment: $234.5 million (2025)
+- Football: FCS, Southern Conference
+
+**Chattanooga**
+- Population: 191,495 (ACS 2024 1-year)
+- Population in 2020: 181,099 (2020 census)
+- Median household income: $66,060 (ACS 2024 1-year)
+- Income per person: $39,941 (ACS 2024 1-year)
+- Median home value: $323,700 (ACS 2024 1-year)
+- Poverty rate: 23.0% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33.7% (ACS 2024 1-year)
+- Average commute: 19.0 minutes (ACS 2024 1-year)
+- Veterans: 9,333 (ACS 2024 1-year)
+- Born abroad: 10.3% (ACS 2024 1-year)
+- Founded: 1816, Ross's Landing 1816; incorporated December 20, 1839
+- County seat: yes
+- January average: 41.7°F
+- Snow a year: 3.6 inches
+- Elevation: 676 feet
+- County: Hamilton County
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

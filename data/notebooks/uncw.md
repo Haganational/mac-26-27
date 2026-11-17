@@ -27,7 +27,36 @@ _UNC Wilmington (CAA). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 19,895 (Fall 2025)
+- Tuition and fees, in state: $7,520 (2026-27), page gives $3,760.00 per semester (12+ hours, tuition + fees, main campus, NC resident); doubled for fall+spring
+- Tuition and fees, out of state: $26,219 (2026-27), page gives $13,109.50 per semester (12+ hours, non-resident); doubled
+- Endowment: $178.4 million (2025)
+- Football: none, no football; not in the school's list of men's varsity sports
+- Men's basketball coach's pay: $1.0 million (2026-27 onward (contract years 7-11))
+
+**Wilmington**
+- Population: 125,267 (ACS 2024 1-year)
+- Population in 2020: 115,451 (2020 census)
+- Median household income: $63,165 (ACS 2024 1-year)
+- Income per person: $50,349 (ACS 2024 1-year)
+- Median home value: $428,900 (ACS 2024 1-year)
+- Poverty rate: 15.6% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 48.0% (ACS 2024 1-year)
+- Average commute: 18.5 minutes (ACS 2024 5-year)
+- Veterans: 5,045 (ACS 2024 1-year)
+- Born abroad: 5.5% (ACS 2024 1-year)
+- Founded: 1739, settled 1732, incorporated 1739
+- County seat: yes
+- Biggest employer: Novant Health, 8,581 employees per 2023 city annual financial report as cited
+- January average: 46.8°F
+- Snow a year: 0.9 inches
+- Elevation: 43 feet
+- County: New Hanover County
+- ICE 287(g) agreement in the county: no
+- The coach's pay equals 16 median Wilmington household incomes
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

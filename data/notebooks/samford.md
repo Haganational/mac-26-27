@@ -27,7 +27,29 @@ _Samford (SoCon). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,522 (Fall 2025), infobox dates it fall 2026, body text fall 2025
+- Tuition and fees, in state: $43,790 (2026-27), private; FY2027 annual tuition and fees for fall+spring ($21,295 per semester tuition); program/course fees vary
+- Tuition and fees, out of state: $43,790 (2026-27), private, same figure
+- Endowment: $539.7 million (2024)
+- Football: FCS, Southern Conference
+
+**Homewood**
+- Population: 27,829 (ACS 2024 5-year)
+- Population in 2020: 26,414 (2020 census)
+- Median household income: $94,485 (ACS 2024 5-year)
+- Income per person: $53,746 (ACS 2024 5-year)
+- Median home value: $558,500 (ACS 2024 5-year)
+- Poverty rate: 8.9% (ACS 2024 5-year)
+- Median age: 29.0 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 70.9% (ACS 2024 5-year)
+- Average commute: 17.1 minutes (ACS 2024 5-year)
+- Veterans: 587 (ACS 2024 5-year)
+- Born abroad: 7.8% (ACS 2024 5-year)
+- Founded: 1926, incorporated 1926
+- Elevation: 705 feet
+- County: Jefferson County
+- College-town index: 0.23 students per resident (a big presence)
 
 ## The program's best
 

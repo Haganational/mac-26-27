@@ -27,7 +27,34 @@ _Western Kentucky (CUSA). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,762 (Fall 2024)
+- Tuition and fees, in state: $13,036 (2026-27), page gives $6,518 tuition + mandatory fees per semester (full-time resident); doubled
+- Tuition and fees, out of state: $27,760 (2026-27), page gives $13,880 per semester (non-resident); doubled. Tuition Incentive Program rate $7,448/semester also listed
+- Endowment: $305.6 million (2025)
+- Football: FBS, Conference USA since 2014
+- Arena named for: E. A. Diddle Arena: Edgar 'E.A.' Diddle, longtime WKU men's basketball coach and Hall of Famer (not a donor; named for the coach)
+
+**Bowling Green**
+- Population: 79,083 (ACS 2024 1-year)
+- Population in 2020: 72,294 (2020 census)
+- Median household income: $53,609 (ACS 2024 1-year)
+- Income per person: $30,815 (ACS 2024 1-year)
+- Median home value: $248,300 (ACS 2024 1-year)
+- Poverty rate: 23.4% (ACS 2024 1-year)
+- Median age: 29.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 30.2% (ACS 2024 1-year)
+- Average commute: 17.8 minutes (ACS 2024 5-year)
+- Veterans: 1,861 (ACS 2024 1-year)
+- Born abroad: 16.6% (ACS 2024 1-year)
+- Founded: 1798
+- County seat: yes
+- Biggest employer: Western Kentucky University
+- January average: 37.2°F
+- Snow a year: 9.1 inches
+- Elevation: 547 feet
+- County: Warren County
+- College-town index: 0.21 students per resident (a big presence)
 
 ## The program's best
 

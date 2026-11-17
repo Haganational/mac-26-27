@@ -27,7 +27,33 @@ _Lamar (Southland). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 18,050 (Fall 2025)
+- Tuition and fees, in state: $10,894, page lists 5,447 per semester for full-time (12+ hrs) undergrad, doubled; academic year not stated on page
+- Tuition and fees, out of state: $23,734, page lists 11,867 per semester, doubled; academic year not stated on page
+- Endowment: $182.0 million (FY2024), Lamar only; Texas State University System endowment 1.41 billion
+- Football: FCS, Southland Conference
+
+**Beaumont**
+- Population: 112,888 (ACS 2024 1-year)
+- Population in 2020: 115,282 (2020 census)
+- Median household income: $54,065 (ACS 2024 1-year)
+- Income per person: $31,939 (ACS 2024 1-year)
+- Median home value: $173,200 (ACS 2024 1-year)
+- Poverty rate: 25.2% (ACS 2024 1-year)
+- Median age: 35.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 25% (ACS 2024 1-year)
+- Average commute: 20.3 minutes (ACS 2024 5-year)
+- Veterans: 5,385 (ACS 2024 1-year)
+- Born abroad: 12.4% (ACS 2024 1-year)
+- Founded: 1838, text says founded 1838; infobox lists settled 1835
+- County seat: yes
+- Biggest employer: Lamar University, 2018 top-employers table lists Lamar University first (2,546); page calls ExxonMobil Beaumont Refinery the largest private employer
+- January average: 52.9°F
+- Snow a year: 0.1 inches
+- Elevation: 16 feet
+- County: Jefferson County
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

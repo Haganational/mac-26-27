@@ -27,7 +27,31 @@ _FIU (CUSA). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 55,811 (Fall 2025)
+- Tuition and fees, in state: $6,566 (2026-27), Florida Board of Governors cost-of-attendance report, full-time undergrad Florida residents, Fall/Spring 'Tuition & Fees' (average per year)
+- Endowment: $380.1 million (2025)
+- Football: FBS, Conference USA
+
+**Miami**
+- Population: 487,006 (ACS 2024 1-year)
+- Population in 2020: 442,241 (2020 census)
+- Median household income: $66,337 (ACS 2024 1-year)
+- Income per person: $48,147 (ACS 2024 1-year)
+- Median home value: $598,200 (ACS 2024 1-year)
+- Poverty rate: 19.9% (ACS 2024 1-year)
+- Median age: 38.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.8% (ACS 2024 1-year)
+- Average commute: 27.5 minutes (ACS 2024 1-year)
+- Veterans: 5,588 (ACS 2024 1-year)
+- Born abroad: 56.9% (ACS 2024 1-year)
+- Founded: 1896, incorporated July 28, 1896
+- County seat: yes, seat of Miami-Dade County
+- January average: 68.6°F
+- Elevation: 7 feet
+- County: Miami-Dade County
+- ICE 287(g) agreement in the county: yes, Miami-Dade Sheriff's Office (all 67 Florida county sheriffs) (task force)
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

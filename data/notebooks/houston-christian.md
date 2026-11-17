@@ -27,7 +27,32 @@ _Houston Christian (Southland). Anchors are fictional AI personas, not affiliate
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,693 (2025)
+- Tuition and fees, in state: $42,050 (2026-27), private; annual tuition 39,250 + fees 2,800, full-time traditional undergraduate (block rate 12-18 hrs)
+- Tuition and fees, out of state: $42,050 (2026-27), private, same figure
+- Endowment: $132.0 million (2021)
+- Football: FCS, Southland Conference football member; program began 2013
+
+**Houston**
+- Population: 2,387,910 (ACS 2024 1-year)
+- Population in 2020: 2,304,580 (2020 census)
+- Median household income: $64,361 (ACS 2024 1-year)
+- Income per person: $42,181 (ACS 2024 1-year)
+- Median home value: $301,200 (ACS 2024 1-year)
+- Poverty rate: 21.2% (ACS 2024 1-year)
+- Median age: 34 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38% (ACS 2024 1-year)
+- Average commute: 28.3 minutes (ACS 2024 1-year)
+- Veterans: 59,500 (ACS 2024 1-year)
+- Born abroad: 30.8% (ACS 2024 1-year)
+- Founded: 1836
+- County seat: yes
+- January average: 53.8°F, Intercontinental Airport climate box (Hobby: 55.0)
+- Snow a year: 0.1 inches
+- Elevation: 105 feet
+- County: Harris County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

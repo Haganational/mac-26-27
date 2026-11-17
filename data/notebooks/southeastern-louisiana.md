@@ -27,7 +27,29 @@ _SE Louisiana (Southland). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,298 (Fall 2018), infobox says fall 2018, body says fall 2019
+- Tuition and fees, in state: $9,340 (2026-27), annual, 12 credit hours x 2 semesters
+- Tuition and fees, out of state: $21,818 (2026-27), annual, 12 credit hours x 2 semesters
+- Endowment: $22.6 million (2021)
+- Football: FCS, Southland Conference
+
+**Hammond**
+- Population: 21,539 (ACS 2024 5-year)
+- Population in 2020: 19,584 (2020 census)
+- Median household income: $48,166 (ACS 2024 5-year)
+- Income per person: $26,753 (ACS 2024 5-year)
+- Median home value: $221,400 (ACS 2024 5-year)
+- Poverty rate: 28.9% (ACS 2024 5-year)
+- Median age: 27.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 27.7% (ACS 2024 5-year)
+- Average commute: 21 minutes (ACS 2024 5-year)
+- Veterans: 721 (ACS 2024 5-year)
+- Born abroad: 2.1% (ACS 2024 5-year)
+- Founded: 1818, settled 1818, chartered 1889
+- Elevation: 39 feet
+- County: Tangipahoa Parish
+- College-town index: 0.66 students per resident (the school is the town)
 
 ## The program's best
 

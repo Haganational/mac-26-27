@@ -27,7 +27,36 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,165 (Fall 2025)
+- Tuition and fees, in state: $9,441 (2026-27), chart gives $4,720.45 per semester (12+ credits, tuition + fees); doubled ($9,440.90)
+- Tuition and fees, out of state: $34,286 (2026-27), $17,142.85 per semester incl. nonresident additional tuition and building fee; doubled ($34,285.70)
+- Endowment: $319.6 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $210,000 (2025-26 (reported Apr 2026))
+- Arena named for: John "Brick" Breeden, MSU player (1929 Golden Bobcats), coach and athletic director (coach/AD; honorific naming in 1981, no donation mentioned)
+
+**Bozeman**
+- Population: 56,114 (ACS 2024 5-year)
+- Population in 2020: 53,293 (2020 census)
+- Median household income: $85,747 (ACS 2024 5-year)
+- Income per person: $52,507 (ACS 2024 5-year)
+- Median home value: $687,900 (ACS 2024 5-year)
+- Poverty rate: 13.7% (ACS 2024 5-year)
+- Median age: 28.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 65.1% (ACS 2024 5-year)
+- Average commute: 15.5 minutes (ACS 2024 5-year)
+- Veterans: 1,409 (ACS 2024 5-year)
+- Born abroad: 4.8% (ACS 2024 5-year)
+- Founded: 1864
+- County seat: yes
+- January average: 24.6°F
+- Snow a year: 91.3 inches
+- Elevation: 4,817 feet
+- County: Gallatin County
+- ICE 287(g) agreement in the county: yes, Gallatin County Sheriff's Office (warrant service officer)
+- The coach's pay equals 2 median Bozeman household incomes
+- College-town index: 0.31 students per resident (a big presence)
 
 ## The program's best
 
