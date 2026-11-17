@@ -1811,21 +1811,21 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 96,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
    "away": {
     "espn_id": "2640",
     "key": null,
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": 90,
-    "winner": null
+    "score": 92,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:08 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920297",
@@ -9808,5 +9808,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T05:11:21+00:00"
+ "live_at": "2026-11-17T05:41:45+00:00"
 }

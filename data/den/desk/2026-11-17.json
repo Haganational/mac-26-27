@@ -2,29 +2,29 @@
  "date": "2026-11-17",
  "desk": {
   "anchor": {
-   "alt": "Jersey Jo Romano, the Monmouth AI anchor",
-   "color": "#041E42",
-   "color2": "#FFFFFF",
-   "initials": "JJ",
+   "alt": "Gary Mercer, the Bowling Green AI anchor",
+   "color": "#FE5000",
+   "color2": "#4F2C1D",
+   "initials": "GM",
    "ink": "#ffffff",
-   "key": "monmouth",
-   "name": "Jersey Jo Romano",
-   "portrait": "den/anchors/monmouth.webp",
-   "school": "Monmouth",
+   "key": "bowling-green",
+   "name": "Gary Mercer",
+   "portrait": "den/anchors/bowling-green.webp",
+   "school": "Bowling Green",
    "tag": "AI anchor"
   },
-  "max": 168,
+  "max": 171,
   "picks": [
    {
-    "abbr": "MONM",
-    "game_id": "401909729",
+    "abbr": "BGSU",
+    "game_id": "401911018",
     "kind": "homer",
-    "short": "Monmouth",
+    "short": "Bowling Green",
     "side": "away",
-    "team_id": "2405",
+    "team_id": "189",
     "tip": "2026-11-18T00:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 90
+    "worth": 56
    },
    {
     "abbr": "DAY",
@@ -38,6 +38,17 @@
     "worth": 17
    },
    {
+    "abbr": "UWF",
+    "game_id": "401922251",
+    "kind": "ratings",
+    "short": "West Florida",
+    "side": "home",
+    "team_id": "2697",
+    "tip": "2026-11-18T00:00Z",
+    "why": "Our ratings 61%, pregame win chance 33%.",
+    "worth": 67
+   },
+   {
     "abbr": "UML",
     "game_id": "401923325",
     "kind": "ratings",
@@ -45,19 +56,8 @@
     "side": "home",
     "team_id": "2349",
     "tip": "2026-11-17T23:00Z",
-    "why": "Our ratings 89%, pregame win chance 70%.",
+    "why": "Our ratings 89%, pregame win chance 69%.",
     "worth": 31
-   },
-   {
-    "abbr": "EVAN",
-    "game_id": "401919783",
-    "kind": "ratings",
-    "short": "Evansville",
-    "side": "home",
-    "team_id": "339",
-    "tip": "2026-11-18T01:00Z",
-    "why": "Our ratings 51%, pregame win chance 70%.",
-    "worth": 30
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -121,7 +121,7 @@
    "team_id": "2612",
    "tip": "2026-11-17T23:00Z",
    "why": "Homer pick.",
-   "worth": 70
+   "worth": 69
   },
   {
    "abbr": "LIP",
@@ -265,7 +265,7 @@
    "team_id": "2463",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 57
+   "worth": 56
   },
   {
    "abbr": "MSM",
@@ -290,6 +290,30 @@
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
    "worth": 97
+  },
+  {
+   "abbr": "UWF",
+   "game_id": "401922251",
+   "key": "west-florida",
+   "kind": "homer",
+   "short": "West Florida",
+   "side": "home",
+   "team_id": "2697",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 67
+  },
+  {
+   "abbr": "GB",
+   "game_id": "401922251",
+   "key": "green-bay",
+   "kind": "homer",
+   "short": "Green Bay",
+   "side": "away",
+   "team_id": "2739",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 33
   },
   {
    "abbr": "AKR",
@@ -325,7 +349,7 @@
    "team_id": "113",
    "tip": "2026-11-18T00:30Z",
    "why": "Homer pick.",
-   "worth": 16
+   "worth": 17
   },
   {
    "abbr": "EVAN",
@@ -340,6 +364,30 @@
    "worth": 30
   },
   {
+   "abbr": "ILST",
+   "game_id": "401921106",
+   "key": "illinois-state",
+   "kind": "homer",
+   "short": "Illinois State",
+   "side": "home",
+   "team_id": "2287",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 8
+  },
+  {
+   "abbr": "BELL",
+   "game_id": "401921106",
+   "key": "bellarmine",
+   "kind": "homer",
+   "short": "Bellarmine",
+   "side": "away",
+   "team_id": "91",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 92
+  },
+  {
    "abbr": "UNI",
    "game_id": "401927388",
    "key": "northern-iowa",
@@ -349,7 +397,7 @@
    "team_id": "2460",
    "tip": "2026-11-18T01:00Z",
    "why": "Homer pick.",
-   "worth": 14
+   "worth": 13
   },
   {
    "abbr": "WYO",
