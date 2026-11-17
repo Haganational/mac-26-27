@@ -19,7 +19,7 @@ on:
         type: choice
         options: [all, potn, bricked, slate, desk]
   pull_request:
-    paths: ["mac/cards.py", "mac/cardpost.py", ".github/workflows/social_cards.yml"]
+    paths: ["mac/cards.py", "mac/studio.py", "sets/**", "mac/cardpost.py", ".github/workflows/social_cards.yml"]
 
 permissions:
   contents: write

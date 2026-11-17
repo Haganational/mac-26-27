@@ -33,7 +33,7 @@ from typing import Any
 
 from PIL import Image
 
-from . import anchors, tags
+from . import anchors, studio, tags
 from .den import ET, TEAM, data_dirs, load_boxes, load_games, parse_iso
 from .leagues import ALL, ROOT
 
@@ -319,6 +319,26 @@ def portrait_img(a: dict[str, Any] | None, style: str = "") -> str:
     return f'<img class="por" style="{style}" src="{a["portrait"].resolve().as_uri()}" alt="">'
 
 
+STUDIO_TMP = Path(tempfile.gettempdir()) / "hb-studio"  # desk shots, made once per anchor and size
+
+
+def set_bg(plate: Path, dim: float = 0.32, pos: str = "50% 50%", veil: str = "") -> str:
+    """The studio set behind a card, dimmed so the type stays the subject; veil = an optional gradient on top."""
+    if not plate.exists():
+        return ""
+    v = f'<div style="position:absolute;inset:0;background:{veil}"></div>' if veil else ""
+    return (f'<div style="position:absolute;inset:0;background:url(\'{plate.resolve().as_uri()}\') {pos}/cover no-repeat;'
+            f'filter:brightness({dim}) saturate(.9)"></div>{v}')
+
+
+def desk_img(a: dict[str, Any] | None, w: int, h: int, x: float = 0.5, style: str = "") -> str:
+    """The anchor seated at the studio's center desk, w by h, pinned bottom-right, melting into the card on the top and left."""
+    if not a or not a.get("portrait"):
+        return ""
+    pic = studio.cached(STUDIO_TMP, a["key"], studio.desk_shot, portrait=a["portrait"], w=w, h=h, x=x, fade_top=150, fade_left=170)
+    return f'<img style="position:absolute;right:0;bottom:0;width:{w}px;height:{h}px;z-index:1;{style}" src="{pic.resolve().as_uri()}" alt="">'
+
+
 def page(body: str) -> str:
     from .midmaxx60 import font_faces
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{font_faces()}{CSS}</style></head><body>{body}</body></html>'
@@ -348,7 +368,7 @@ def potn_card(day: str, rows: list[dict[str, Any]]) -> Card | None:
     n = len(rows)
     lines = "".join(f'{_esc(r["name"])} · {_esc(r["team"].short)} · {_esc(stat_line(r)[0].replace("·", " & "))}<br>' for r in rows[:4])
     more = f'<span style="color:var(--dim)">+ {n - 4} more · swipe →</span>' if n > 4 else '<span style="color:var(--dim)">swipe →</span>'
-    cover = f'''<div class="card"><div style="position:absolute;inset:0;background:radial-gradient(120% 70% at 50% 0%,#3a2a1e 0%,var(--night) 70%)"></div>
+    cover = f'''<div class="card">{set_bg(studio.ROOM, 1.05, "50% 66%", "linear-gradient(180deg,rgba(21,18,15,.86) 0%,rgba(21,18,15,.7) 45%,rgba(21,18,15,.2) 78%,rgba(21,18,15,.5) 100%)")}
  <div style="position:absolute;left:66px;right:66px;top:100px;z-index:2">
   <div class="kick" style="color:var(--gold)">{_esc(pretty_day(day))} · {n} edition{"s" if n != 1 else ""}</div>
   <div class="serif" style="font-weight:600;font-size:162px;line-height:.92;margin-top:44px">Mid-Major<br>Players<br><i style="font-weight:400">of the Night</i></div>
@@ -377,7 +397,7 @@ def potn_card(day: str, rows: list[dict[str, Any]]) -> Card | None:
   <div class="cond" style="font-weight:600;letter-spacing:.1em;font-size:36px;color:{c2}">{_esc(label)}</div>
   <div style="font-size:36px;color:var(--ink);margin-top:30px;line-height:1.35">{_esc(sub)}</div>
   {quote}
- </div>{portrait_img(a)}{brand("" if a and a.get("portrait") else "hardwoodbricks.com", "Hardwood Bricks · box score: link in bio")}</div>''')
+ </div>{desk_img(a, 600, 790, 0.56)}{brand("" if a and a.get("portrait") else "hardwoodbricks.com", "Hardwood Bricks · box score: link in bio")}</div>''')
         alts.append(f'{r["name"]} of {t.short}: {r["pts"]} points, {r["reb"]} rebounds, {r["ast"]} assists, {result_line(r)}.')
     top = rows[0]
     big = stat_line(top)[0].replace("·", " and ")
@@ -414,7 +434,7 @@ def bricked_card(day: str, b: dict[str, Any] | None, also: list[dict[str, Any]])
                      f'{x["dog"]["score"]}-{x["fav"]["score"]} to {_esc(nick(x["dog"]))}.')
     quote = (f'<div style="position:absolute;right:40px;top:440px;z-index:3;max-width:330px;text-align:right;background:rgba(21,18,15,.72);'
              f'padding:16px 22px;border-radius:10px" class="quote">“{_esc(a["catch"])}”<br><span class="who">{_esc(a["name"])}, AI anchor</span></div>') if a and a["catch"] else ""
-    slide = f'''<div class="card">
+    slide = f'''<div class="card">{set_bg(studio.SIDE, 0.34, "50% 70%", "linear-gradient(90deg,rgba(21,18,15,.85) 0%,rgba(21,18,15,.45) 70%,rgba(21,18,15,.2) 100%)")}
  <div style="position:absolute;left:54px;right:54px;top:54px;z-index:2">
   <div class="kick" style="color:var(--brick)">Bricked · {_esc(Date.fromisoformat(day).strftime("%A"))}'s biggest miss</div>
   <div class="cond" style="font-size:226px;line-height:.8;margin-top:30px">Bricked.</div>
@@ -424,7 +444,7 @@ def bricked_card(day: str, b: dict[str, Any] | None, also: list[dict[str, Any]])
    <div><span style="background:{dog_color};color:#fff;padding:0 20px">{_esc(dog.get("abbr") or dname)} {dog["score"]}</span></div>
    <div style="color:var(--dim)">{_esc(fav.get("abbr") or fname)} {fav["score"]}</div></div>
   <div style="font-size:34px;color:var(--dim);margin-top:50px;max-width:600px;line-height:1.4">{also_line}</div>
- </div>{portrait_img(a, "width:430px;right:-60px")}{quote}{brand("" if a and a.get("portrait") else "hardwoodbricks.com")}</div>'''
+ </div>{desk_img(a, 520, 760, 0.6)}{quote}{brand("" if a and a.get("portrait") else "hardwoodbricks.com")}</div>'''
     link = f"{SITE}/"
     head_score = f"{dname} {dog['score']}, {fname} {fav['score']}"
     caps = {
@@ -453,7 +473,7 @@ def slate_card(day: str, four: list[dict[str, Any]], total: int) -> Card | None:
   <div class="serif" style="font-style:italic;font-size:40px;color:var(--dim);padding-left:37px">{how} {_esc(other)}</div></div>
   <div class="cond" style="letter-spacing:.08em;font-size:34px;color:var(--gold);font-weight:600">{_esc(s["tv"])}</div></div>'''
     head = "Tonight's Four" if four[0]["tip"].hour >= 17 else "Today's Four"
-    slide = f'''<div class="card"><div style="position:absolute;left:66px;right:66px;top:66px;z-index:2">
+    slide = f'''<div class="card">{set_bg(studio.WIDE, 0.8, "50% 60%", "linear-gradient(180deg,rgba(21,18,15,.6) 0%,rgba(21,18,15,.8) 30%,rgba(21,18,15,.84) 100%)")}<div style="position:absolute;left:66px;right:66px;top:66px;z-index:2">
   <div class="kick" style="color:var(--gold)">{_esc(pretty_day(day))} · all times Eastern</div>
   <div class="serif" style="font-weight:600;font-size:130px;line-height:1;margin:22px 0 44px">{head}</div>
   {rows}
@@ -500,12 +520,11 @@ def desk_card(day: str, d: dict[str, Any] | None) -> Card | None:
  <div class="cond" style="font-size:58px;color:var(--gold)">{p.get("worth", "")}<span style="font-size:26px;font-weight:600"> PTS</span></div></div>'''
     c = a.get("color") or "#2c1846"
     quote = f'<div class="quote" style="font-size:36px;margin-top:26px">“{_esc(an["catch"])}”</div>' if an.get("catch") else ""
-    slide = f'''<div class="card" style="background:linear-gradient(180deg,{c} 0%,var(--night) 100%)">
- <div style="position:absolute;inset:0;background:rgba(10,8,6,.25)"></div>
+    slide = f'''<div class="card">{set_bg(studio.DESK, 0.4, "50% 30%", f"linear-gradient(180deg,{c}e6 0%,{c}99 35%,rgba(21,18,15,.88) 75%)")}
  <div style="position:absolute;left:54px;top:54px;right:54px;z-index:2">
   <div class="kick" style="color:var(--gold)">Beat the Desk · {_esc(pretty_day(day))}</div>
   <div class="cond" style="font-size:100px;line-height:.9;margin-top:22px">Think you're<br>smarter than<br>{_esc(first)}?</div>
- </div>{portrait_img(an, "width:470px;right:-50px")}
+ </div>{desk_img(an if an.get("portrait") else None, 560, 820, 0.58)}
  <div style="position:absolute;left:54px;top:450px;width:620px;z-index:2">{rows}{quote}
   <div class="cond" style="font-weight:600;letter-spacing:.08em;font-size:32px;color:var(--gold);margin-top:22px">Play in the Den · locks at tip</div>
  </div>{brand("", "Hardwood Bricks · the Den: link in bio")}</div>'''

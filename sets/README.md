@@ -1,11 +1,15 @@
 # Sets
 
-Backdrops behind the anchors on the MidMaxx60 and Big Mid cards. Each one shows only in the anchor's panel, blurred, dimmed and fading out toward the board.
+The studio set: the MIDnight Weave plates (Matthew's ImagineArt picks, Nov 2026), committed small.
+The daily Short (mac/midmaxx60.py) and the morning image posts (mac/cards.py) are shot here; mac/studio.py
+seats each anchor behind the center desk.
 
-An anchor's set is the first of these that exists (jpg, webp or png):
+- `desk-center.jpg`: the center chair, bookshelves and brass lamps behind the curved walnut desk. Every anchor sits here.
+- `desk-wide.jpg`: the three-chair desk, 16:9 (behind Tonight's Four).
+- `studio.jpg`: the whole room, vertical (the Short's cover frame, the room behind the board, the Players of the Night cover).
+- `studio-alt.jpg`: the side desk, vertical (the Short's sign-off, behind Bricked).
 
-1. `sets/<school key>.jpg`: a photo of that school's own arena, ideally one of Matthew's.
-2. `sets/<edition key>.jpg`: the edition backdrop (`mac`, `mvc`, `a10`, ...).
-3. `sets/studio.jpg`: the shared home studio.
+The desk's edge on `desk-center.jpg` is measured in mac/studio.py (`desk_edge`); a new center plate needs it measured again.
 
-With none, the panel stays plain night paper. Keep backdrops quiet: no people in focus, no logos, no text.
+Older lookup still in mac/anchors.backdrop() (The Big Mid): `sets/<school key>.jpg`, then `sets/<edition key>.jpg`, then `sets/studio.jpg`.
+Keep backdrops quiet: no people in focus, no logos, no text.

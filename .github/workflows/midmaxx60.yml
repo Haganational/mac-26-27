@@ -8,7 +8,7 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
+    paths: ["mac/midmaxx60.py", "mac/studio.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
 
 permissions:
   contents: write
