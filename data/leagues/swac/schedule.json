@@ -2179,21 +2179,21 @@
     "key": null,
     "name": "Maryland Terrapins",
     "abbr": "MD",
-    "score": 91,
-    "winner": null
+    "score": 117,
+    "winner": true
    },
    "away": {
     "espn_id": "2016",
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 45,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:01 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401916317",
@@ -2223,7 +2223,7 @@
     "key": null,
     "name": "Ohio State Buckeyes",
     "abbr": "OSU",
-    "score": 50,
+    "score": 78,
     "winner": null
    },
    "away": {
@@ -2231,13 +2231,13 @@
     "key": "prairie-view",
     "name": "Prairie View A&M Panthers",
     "abbr": "PV",
-    "score": 35,
+    "score": 55,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:05 - 2nd"
+   "detail": "3:30 - 2nd"
   },
   {
    "game_id": "401921804",
@@ -2267,7 +2267,7 @@
     "key": null,
     "name": "Kentucky Wildcats",
     "abbr": "UK",
-    "score": 29,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -2275,13 +2275,13 @@
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 24,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:51 - 1st"
+   "detail": "15:25 - 2nd"
   },
   {
    "game_id": "401920373",
@@ -10771,5 +10771,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T00:45:32+00:00"
+ "live_at": "2026-11-17T01:14:53+00:00"
 }

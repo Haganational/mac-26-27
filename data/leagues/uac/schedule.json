@@ -1535,7 +1535,7 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 22,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -1543,13 +1543,13 @@
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 28,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:12 - 1st"
+   "detail": "15:14 - 2nd"
   },
   {
    "game_id": "401927364",
@@ -1579,7 +1579,7 @@
     "key": null,
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 5,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1587,13 +1587,13 @@
     "key": "tarleton-state",
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": 12,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:13 - 1st"
+   "detail": "3:58 - 1st"
   },
   {
    "game_id": "401917964",
@@ -1620,7 +1620,7 @@
     "key": null,
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -1628,13 +1628,13 @@
     "key": "abilene-christian",
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:47 - 1st"
   },
   {
    "game_id": "401917917",
@@ -1664,7 +1664,7 @@
     "key": null,
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1672,13 +1672,13 @@
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:49 - 1st"
   },
   {
    "game_id": "401917952",
@@ -8732,5 +8732,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T00:43:08+00:00"
+ "live_at": "2026-11-17T01:12:06+00:00"
 }

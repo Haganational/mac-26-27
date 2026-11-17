@@ -1838,21 +1838,21 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": 65,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "314",
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": 56,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923325",
@@ -8629,5 +8629,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T00:44:06+00:00"
+ "live_at": "2026-11-17T01:13:13+00:00"
 }

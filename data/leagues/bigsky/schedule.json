@@ -1867,7 +1867,7 @@
     "key": null,
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1875,13 +1875,13 @@
     "key": "montana",
     "name": "Montana Grizzlies",
     "abbr": "MONT",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:20 - 1st"
   },
   {
    "game_id": "401917532",
@@ -9474,5 +9474,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T01:10:45+00:00"
 }
