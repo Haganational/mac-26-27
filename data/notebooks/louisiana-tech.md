@@ -27,7 +27,32 @@ _Louisiana Tech (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,084, infobox, no year given; text cites 12,463 for Fall 2018
+- Tuition and fees, in state: $11,400 (2025-26), Louisiana Board of Regents: total resident tuition+fees, 15 credit hours annualized
+- Endowment: $117.9 million (2021)
+- Football: FBS, Sun Belt per infobox (joined from Conference USA; article inconsistent)
+- Arena named for: Samuel M. Thomas (Thomas Assembly Center) (businessman and benefactor who supported the facility; business not specified on page)
+
+**Ruston**
+- Population: 22,284 (ACS 2024 5-year)
+- Population in 2020: 22,166 (2020 census)
+- Median household income: $31,120 (ACS 2024 5-year)
+- Income per person: $21,473 (ACS 2024 5-year)
+- Median home value: $225,300 (ACS 2024 5-year)
+- Poverty rate: 39.8% (ACS 2024 5-year)
+- Median age: 24.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40.2% (ACS 2024 5-year)
+- Average commute: 15.1 minutes (ACS 2024 5-year)
+- Veterans: 545 (ACS 2024 5-year)
+- Born abroad: 4.0% (ACS 2024 5-year)
+- Founded: 1885
+- County seat: yes
+- January average: 46.1°F
+- Snow a year: 0.4 inches
+- Elevation: 312 feet
+- County: Lincoln Parish
+- College-town index: 0.50 students per resident (a big presence)
 
 ## The program's best
 

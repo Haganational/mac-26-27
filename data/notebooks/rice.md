@@ -27,7 +27,32 @@ _Rice (American). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,880 (Fall 2024), 4,776 undergrad + 4,104 postgrad
+- Tuition and fees, in state: $72,124 (2026-27), private; first- through third-year students: tuition 71,140 + mandatory fees 984 (students beyond third year: 66,264)
+- Tuition and fees, out of state: $72,124 (2026-27), private, same figure
+- Endowment: $8.07 billion (FY2024)
+- Football: FBS, The American
+
+**Houston**
+- Population: 2,387,910 (ACS 2024 1-year)
+- Population in 2020: 2,304,580 (2020 census)
+- Median household income: $64,361 (ACS 2024 1-year)
+- Income per person: $42,181 (ACS 2024 1-year)
+- Median home value: $301,200 (ACS 2024 1-year)
+- Poverty rate: 21.2% (ACS 2024 1-year)
+- Median age: 34 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38% (ACS 2024 1-year)
+- Average commute: 28.3 minutes (ACS 2024 1-year)
+- Veterans: 59,500 (ACS 2024 1-year)
+- Born abroad: 30.8% (ACS 2024 1-year)
+- Founded: 1836
+- County seat: yes
+- January average: 53.8°F
+- Snow a year: 0.1 inches
+- Elevation: 105 feet
+- County: Harris County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,29 @@ _Tulane (American). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,027 (Fall 2022)
+- Tuition and fees, in state: $75,136 (2026-27), private; Newcomb-Tulane College full-time: tuition 70,622 + academic support 2,800 + health center 874 + activity 320 + recreation 520 (annual)
+- Tuition and fees, out of state: $75,136 (2026-27), private, same figure
+- Endowment: $2.47 billion (2025)
+- Football: FBS, The American
+
+**New Orleans**
+- Population: 362,701 (ACS 2024 1-year)
+- Population in 2020: 383,997 (2020 census)
+- Median household income: $58,821 (ACS 2024 1-year)
+- Income per person: $42,674 (ACS 2024 1-year)
+- Median home value: $305,100 (ACS 2024 1-year)
+- Poverty rate: 20.5% (ACS 2024 1-year)
+- Median age: 39.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 43.3% (ACS 2024 1-year)
+- Average commute: 22.2 minutes (ACS 2024 1-year)
+- Veterans: 12,956 (ACS 2024 1-year)
+- Born abroad: 6.5% (ACS 2024 1-year)
+- Founded: 1718
+- January average: 54.3°F
+- County: Orleans Parish
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

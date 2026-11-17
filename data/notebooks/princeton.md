@@ -27,7 +27,30 @@ _Princeton (Ivy). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,137 (Fall 2024)
+- Tuition and fees, in state: $68,454 (2026-27), private; tuition 68,140 + fees 314 (first-year to junior; seniors' fees 670). Admission site's fees page shows 71,200 + 328 under a garbled year label ('2028-28'), not used
+- Tuition and fees, out of state: $68,454 (2026-27), private, same figure
+- Endowment: $42.30 billion (2026)
+- Football: FCS, Ivy League
+
+**Princeton**
+- Population: 30,756 (ACS 2024 5-year)
+- Population in 2020: 30,681 (2020 census)
+- Median household income: $192,079 (ACS 2024 5-year)
+- Income per person: $87,301 (ACS 2024 5-year)
+- Median home value: $1.1 million (ACS 2024 5-year)
+- Poverty rate: 6.1% (ACS 2024 5-year)
+- Median age: 28.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 84.7% (ACS 2024 5-year)
+- Average commute: 24.2 minutes (ACS 2024 5-year)
+- Veterans: 395 (ACS 2024 5-year)
+- Born abroad: 30.9% (ACS 2024 5-year)
+- Founded: 1813, first house 1683; name used 1724; borough chartered 1813; current consolidated municipality 2013
+- January average: 31.3°F, Princeton Borough climate table
+- Snow a year: 24.5 inches
+- County: Mercer County
+- College-town index: 0.30 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,34 @@ _Georgia State (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 53,144 (Fall 2025)
+- Tuition and fees, in state: $9,180 (FY2025 (2024-25)), TUITION ONLY, excludes mandatory fees: USG posting 4,590 per semester (15 hrs) x 2
+- Tuition and fees, out of state: $29,400 (FY2025 (2024-25)), TUITION ONLY, excludes fees: 14,700 per semester x 2
+- Endowment: $256.5 million (2024)
+- Football: FBS, Sun Belt
+
+**Atlanta**
+- Population: 520,066 (ACS 2024 1-year)
+- Population in 2020: 498,715 (2020 census)
+- Median household income: $88,165 (ACS 2024 1-year)
+- Income per person: $66,986 (ACS 2024 1-year)
+- Median home value: $462,200 (ACS 2024 1-year)
+- Poverty rate: 15.8% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 62.1% (ACS 2024 1-year)
+- Average commute: 26.5 minutes (ACS 2024 1-year)
+- Veterans: 17,717 (ACS 2024 1-year)
+- Born abroad: 10.2% (ACS 2024 1-year)
+- Founded: 1847
+- County seat: yes
+- Biggest employer: Delta Air Lines
+- January average: 44.8°F
+- Snow a year: 2.2 inches
+- Elevation: 1,050 feet
+- County: Fulton County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.10 students per resident (a guest in a bigger place)
 
 ## The program's best
 

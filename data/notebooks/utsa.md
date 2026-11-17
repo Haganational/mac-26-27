@@ -27,7 +27,34 @@ _UTSA (American). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 38,223 (Fall 2025)
+- Tuition and fees, in state: $11,448 (2025-26), annual, full-time 15 hrs/term, Texas resident (cost of attendance page)
+- Tuition and fees, out of state: $27,598 (2025-26), annual, full-time 15 hrs/term, nonresident
+- Endowment: $1.15 billion (FY2024)
+- Football: FBS, American Conference
+- Arena named for: Convocation Center (generic name, not named for anyone)
+
+**San Antonio**
+- Population: 1,526,621 (ACS 2024 1-year)
+- Population in 2020: 1,434,625 (2020 census)
+- Median household income: $66,176 (ACS 2024 1-year)
+- Income per person: $35,099 (ACS 2024 1-year)
+- Median home value: $260,900 (ACS 2024 1-year)
+- Poverty rate: 17.1% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 29.4% (ACS 2024 1-year)
+- Average commute: 25.1 minutes (ACS 2024 1-year)
+- Veterans: 96,163 (ACS 2024 1-year)
+- Born abroad: 17.0% (ACS 2024 1-year)
+- Founded: 1718
+- County seat: yes
+- January average: 52.2°F
+- Snow a year: 0.2 inches
+- Elevation: 722 feet
+- County: Bexar County
+- ICE 287(g) agreement in the county: yes, Bexar County Sheriff's Office (warrant service officer)
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

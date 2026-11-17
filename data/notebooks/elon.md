@@ -27,7 +27,29 @@ _Elon (CAA). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,117 (2019), infobox figure undated; matches article's 2019 breakdown (6,291 undergrad + 826 grad)
+- Tuition and fees, in state: $51,368 (2026-27), private; tuition 50,386 + activity fee 292 + health/wellness fee 690, annual
+- Tuition and fees, out of state: $51,368 (2026-27), private, same figure
+- Endowment: $411.5 million (2025)
+- Football: FCS
+
+**Elon**
+- Population: 11,032 (ACS 2024 5-year)
+- Population in 2020: 11,336 (2020 census)
+- Median household income: $84,773 (ACS 2024 5-year)
+- Income per person: $28,605 (ACS 2024 5-year)
+- Median home value: $366,300 (ACS 2024 5-year)
+- Poverty rate: 20.0% (ACS 2024 5-year)
+- Median age: 21.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 51.5% (ACS 2024 5-year)
+- Average commute: 20.1 minutes (ACS 2024 5-year)
+- Veterans: 489 (ACS 2024 5-year)
+- Born abroad: 3.8% (ACS 2024 5-year)
+- Founded: 1881, founded 1881; incorporated 1893
+- Elevation: 705 feet
+- County: Alamance County
+- College-town index: 0.65 students per resident (the school is the town)
 
 ## The program's best
 

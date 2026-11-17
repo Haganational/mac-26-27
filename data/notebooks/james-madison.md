@@ -27,7 +27,31 @@ _James Madison (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 22,224 (2022), latest in infobox
+- Tuition and fees, in state: $14,768 (2026-27), SCHEV: tuition + mandatory E&G fees 8,546 + mandatory non-E&G fees 6,222 (sum computed); annual
+- Tuition and fees, out of state: $32,576 (2026-27), SCHEV: 26,354 + 6,222 non-E&G fees (sum computed); annual
+- Endowment: $181.0 million (2025)
+- Football: FBS, Sun Belt since July 2022 (moved from FCS)
+- Arena named for: Atlantic Union Bank (Atlantic Union Bank Center)
+
+**Harrisonburg**
+- Population: 51,392 (ACS 2024 5-year)
+- Population in 2020: 51,814 (2020 census)
+- Median household income: $62,254 (ACS 2024 5-year)
+- Income per person: $28,857 (ACS 2024 5-year)
+- Median home value: $299,100 (ACS 2024 5-year)
+- Poverty rate: 25.7% (ACS 2024 5-year)
+- Median age: 25.0 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 37.5% (ACS 2024 5-year)
+- Average commute: 17.1 minutes (ACS 2024 5-year)
+- Veterans: 1,471 (ACS 2024 5-year)
+- Born abroad: 17.8% (ACS 2024 5-year)
+- Founded: 1779
+- County seat: yes
+- Elevation: 1,325 feet
+- County: Rockingham County
+- College-town index: 0.43 students per resident (a big presence)
 
 ## The program's best
 

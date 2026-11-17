@@ -27,7 +27,33 @@ _NC A&T (CAA). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,275 (Fall 2025)
+- Tuition and fees, in state: $6,919 (2026-27), per-semester schedule: tuition 1,823 + total fees 1,636.50 = 3,459.50, doubled; excludes default student insurance 1,312/semester
+- Tuition and fees, out of state: $21,401 (2026-27), per-semester: tuition 9,064 + fees 1,636.50 = 10,700.50, doubled; excludes insurance
+- Endowment: $202.0 million (2024), article body says just over 331 million as of 2026
+- Football: FCS, CAA
+
+**Greensboro**
+- Population: 307,372 (ACS 2024 1-year)
+- Population in 2020: 299,035 (2020 census)
+- Median household income: $63,516 (ACS 2024 1-year)
+- Income per person: $38,812 (ACS 2024 1-year)
+- Median home value: $290,200 (ACS 2024 1-year)
+- Poverty rate: 15.2% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.4% (ACS 2024 1-year)
+- Average commute: 21.9 minutes (ACS 2024 1-year)
+- Veterans: 10,010 (ACS 2024 1-year)
+- Born abroad: 14.0% (ACS 2024 1-year)
+- Founded: 1808
+- County seat: yes
+- Biggest employer: Cone Health (13,000 employees, 2025)
+- January average: 39.7°F, Piedmont Triad International Airport climate table
+- Snow a year: 7.1 inches
+- Elevation: 897 feet
+- County: Guilford County
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,33 @@ _East Carolina (American). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 28,021 (infobox, year not stated), 22,463 undergrad + 5,558 graduate
+- Tuition and fees, in state: $7,789 (2026-27), entering freshmen, NC resident, tuition and fees (table titled 2026-27 academic year; annual not stated explicitly); continuing students 7,471
+- Tuition and fees, out of state: $24,555 (2026-27), entering freshmen, non-resident; continuing students 23,748
+- Endowment: $360.0 million (2025)
+- Football: FBS, The American
+
+**Greenville**
+- Population: 95,144 (ACS 2024 1-year)
+- Population in 2020: 87,521 (2020 census)
+- Median household income: $52,016 (ACS 2024 1-year)
+- Income per person: $35,466 (ACS 2024 1-year)
+- Median home value: $273,100 (ACS 2024 1-year)
+- Poverty rate: 24.3% (ACS 2024 1-year)
+- Median age: 27.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.9% (ACS 2024 1-year)
+- Average commute: 18.8 minutes (ACS 2024 5-year)
+- Veterans: 5,844 (ACS 2024 1-year)
+- Born abroad: 5.6% (ACS 2024 1-year)
+- Founded: 1774, founded 1774 as Martinsborough; renamed Greenville 1786
+- County seat: yes
+- Biggest employer: ECU Health
+- January average: 43.1°F
+- Snow a year: 3.3 inches
+- Elevation: 26 feet
+- County: Pitt County
+- College-town index: 0.29 students per resident (a big presence)
 
 ## The program's best
 

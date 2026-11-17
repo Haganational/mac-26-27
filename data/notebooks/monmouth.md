@@ -27,7 +27,31 @@ _Monmouth (CAA). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,167, infobox, undated (4,630 undergrad + 1,537 postgrad)
+- Tuition and fees, in state: $49,796 (2026-27), private; page says annual tuition and fees for full-time undergrads is 'approximately' 49,796
+- Tuition and fees, out of state: $49,796 (2026-27), private, same figure
+- Endowment: $153.1 million (2023)
+- Football: FCS, CAA
+- Arena named for: OceanFirst Bank (New Jersey bank that bought the naming rights in a 2016 agreement with the university)
+
+**West Long Branch**
+- Population: 8,586 (ACS 2024 5-year)
+- Population in 2020: 8,587 (2020 census)
+- Median household income: $114,271 (ACS 2024 5-year)
+- Income per person: $50,928 (ACS 2024 5-year)
+- Median home value: $684,300 (ACS 2024 5-year)
+- Poverty rate: 3.4% (ACS 2024 5-year)
+- Median age: 29.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 45.0% (ACS 2024 5-year)
+- Average commute: 23.2 minutes (ACS 2024 5-year)
+- Veterans: 127 (ACS 2024 5-year)
+- Born abroad: 9.1% (ACS 2024 5-year)
+- Founded: 1908, incorporated May 5, 1908
+- January average: 33.3°F
+- Elevation: 26 feet
+- County: Monmouth County
+- College-town index: 0.72 students per resident (the school is the town)
 
 ## The program's best
 

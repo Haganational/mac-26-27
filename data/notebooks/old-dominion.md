@@ -27,7 +27,35 @@ _Old Dominion (Sun Belt). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 23,469 (not stated in infobox), body text says 23,494 in 2023
+- Tuition and fees, in state: $10,758 (2025-26), ODU 'Rates Effective Fall 2025' page: per-semester total 5,379 for a 12-credit in-state undergraduate (tuition + mandatory fees), doubled for two semesters
+- Tuition and fees, out of state: $27,630 (2025-26), per-semester total 13,815 at 12 credits, doubled
+- Endowment: $388.9 million (2025)
+- Football: FBS, Sun Belt
+- Arena named for: Chartway Arena: naming-rights sponsor Chartway Federal Credit Union ($4.25M deal, June 2019); building's formal name is Ted Constant Convocation Center (Chartway is a member-owned credit union based in Hampton Roads)
+
+**Norfolk**
+- Population: 231,105 (ACS 2024 1-year)
+- Population in 2020: 238,005 (2020 census)
+- Median household income: $65,797 (ACS 2024 1-year)
+- Income per person: $41,032 (ACS 2024 1-year)
+- Median home value: $311,200 (ACS 2024 1-year)
+- Poverty rate: 14.1% (ACS 2024 1-year)
+- Median age: 33.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.6% (ACS 2024 1-year)
+- Average commute: 22.6 minutes (ACS 2024 1-year)
+- Veterans: 22,316 (ACS 2024 1-year)
+- Born abroad: 8.2% (ACS 2024 1-year)
+- Founded: 1680
+- County seat: no
+- Biggest employer: U.S. Department of Defense
+- January average: 42.2°F
+- Snow a year: 6.2 inches
+- Elevation: 6.9 feet
+- County: None (Norfolk is an independent city)
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.10 students per resident (a guest in a bigger place)
 
 ## The program's best
 

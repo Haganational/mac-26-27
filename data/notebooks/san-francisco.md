@@ -27,7 +27,31 @@ _San Francisco (WCC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,913 (infobox, year not stated)
+- Tuition and fees, in state: $64,492 (2026-27), private; annual tuition 63,880 + student activity fee 302 + transportation fee 310; document is the FY27 recommendation (file name says Board-approved final rates)
+- Tuition and fees, out of state: $64,492 (2026-27), private, same figure
+- Endowment: $566.0 million (2024)
+- Football: none, dropped 1952
+
+**Lone Mountain**
+- Population: 827,526 (ACS 2024 1-year)
+- Population in 2020: 873,965 (2020 census)
+- Median household income: $139,801 (ACS 2024 1-year)
+- Income per person: $92,786 (ACS 2024 1-year)
+- Median home value: $1.3 million (ACS 2024 1-year)
+- Poverty rate: 11.3% (ACS 2024 1-year)
+- Median age: 40.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 60.9% (ACS 2024 1-year)
+- Average commute: 32.2 minutes (ACS 2024 1-year)
+- Veterans: 15,902 (ACS 2024 1-year)
+- Born abroad: 34.2% (ACS 2024 1-year)
+- Founded: 1776
+- County seat: yes, consolidated city-county
+- January average: 52.2°F
+- Elevation: 52 feet
+- County: San Francisco
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

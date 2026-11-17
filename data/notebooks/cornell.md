@@ -27,7 +27,32 @@ _Cornell (Ivy). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 26,793 (Fall 2024)
+- Tuition and fees, in state: $49,816 (2026-27), tuition only (fees not in the release); NY residents in Cornell's state-supported contract colleges. Endowed colleges charge 73,946 to all
+- Tuition and fees, out of state: $73,946 (2026-27), tuition only; endowed-college rate and the non-resident rate at any Cornell college
+- Endowment: $11.80 billion (2025)
+- Football: FCS, Ivy League
+
+**Ithaca**
+- Population: 32,814 (ACS 2024 5-year)
+- Population in 2020: 32,108 (2020 census)
+- Median household income: $48,784 (ACS 2024 5-year)
+- Income per person: $31,599 (ACS 2024 5-year)
+- Median home value: $342,700 (ACS 2024 5-year)
+- Poverty rate: 30.4% (ACS 2024 5-year)
+- Median age: 23.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 67.7% (ACS 2024 5-year)
+- Average commute: 18.7 minutes (ACS 2024 5-year)
+- Veterans: 562 (ACS 2024 5-year)
+- Born abroad: 20.1% (ACS 2024 5-year)
+- Founded: 1790
+- County seat: yes
+- January average: 22.8°F
+- Snow a year: 62.9 inches
+- Elevation: 404 feet
+- County: Tompkins County
+- College-town index: 0.82 students per resident (the school is the town)
 
 ## The program's best
 

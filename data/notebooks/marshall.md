@@ -27,7 +27,36 @@ _Marshall (Sun Belt). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,239 (Fall 2025)
+- Tuition and fees, in state: $9,618 (2026-27), tuition & fees line of Marshall's undergraduate cost-of-attendance budget (WV resident); page does not say annual vs per semester, COA budgets are for the academic year; 2025-26 was 9388. Metro-rate 13264
+- Tuition and fees, out of state: $20,438 (2026-27), non-resident, same COA budget table; 2025-26 was 20390
+- Endowment: $232.8 million (2025)
+- Football: FBS, Sun Belt
+- Arena named for: Cam Henderson, Marshall football and basketball coach 1935-1955 (not a donor naming; honors former coach)
+
+**Huntington**
+- Population: 45,787 (ACS 2024 5-year)
+- Population in 2020: 46,842 (2020 census)
+- Median household income: $45,100 (ACS 2024 5-year)
+- Income per person: $32,226 (ACS 2024 5-year)
+- Median rent: $841 a month (2022 ACS)
+- Median home value: $127,200 (ACS 2024 5-year)
+- Poverty rate: 25.7% (ACS 2024 5-year)
+- Median age: 34.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 35.3% (ACS 2024 5-year)
+- Average commute: 19 minutes (ACS 2024 5-year)
+- Veterans: 2,440 (ACS 2024 5-year)
+- Born abroad: 1.9% (ACS 2024 5-year)
+- Founded: 1871
+- County seat: yes
+- Biggest employer: Marshall University
+- January average: 34.8°F
+- Snow a year: 19.8 inches
+- Elevation: 564 feet
+- County: Cabell County
+- ICE 287(g) agreement in the county: yes, Statewide agencies only: West Virginia State Police and WV National Guard (task force); WV Division of Corrections and Rehabilitation (warrant service officer). No Cabell County agency named (task force; warrant service)
+- College-town index: 0.29 students per resident (a big presence)
 
 ## The program's best
 

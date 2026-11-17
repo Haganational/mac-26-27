@@ -27,7 +27,32 @@ _Harvard (Ivy). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,189 (Fall 2024)
+- Tuition and fees, in state: $68,442 (2026-27), private; Harvard College tuition 62,226 + student services 4,272 + health services 1,944 (FAS registrar, summed)
+- Tuition and fees, out of state: $68,442 (2026-27), private; Harvard College tuition 62,226 + student services 4,272 + health services 1,944 (FAS registrar, summed)
+- Endowment: $55.70 billion (2025)
+- Football: FCS, Ivy League
+
+**Cambridge**
+- Population: 121,203 (ACS 2024 1-year)
+- Population in 2020: 118,403 (2020 census)
+- Median household income: $143,108 (ACS 2024 1-year)
+- Income per person: $77,226 (ACS 2024 1-year)
+- Median home value: $1.1 million (ACS 2024 1-year)
+- Poverty rate: 12.3% (ACS 2024 1-year)
+- Median age: 30.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 81.6% (ACS 2024 1-year)
+- Average commute: 26 minutes (ACS 2024 1-year)
+- Veterans: 1,108 (ACS 2024 1-year)
+- Born abroad: 30.8% (ACS 2024 1-year)
+- Founded: 1630
+- County seat: no
+- Biggest employer: Harvard University
+- January average: 28.8°F
+- Elevation: 39 feet
+- County: Middlesex County
+- College-town index: 0.17 students per resident (a big presence)
 
 ## The program's best
 

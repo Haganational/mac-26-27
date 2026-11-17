@@ -27,7 +27,34 @@ _Arkansas State (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,926 (Fall 2025)
+- Tuition and fees, in state: $10,850 (2026-27), annual (fall+spring) tuition and required fees at 15 hrs/semester; college support assessment and course fees extra
+- Tuition and fees, out of state: $19,520 (2026-27), 10,850 + non-resident additional 8,670/yr stated on page
+- Endowment: $153.4 million (2025)
+- Football: FBS, Sun Belt
+- Arena named for: First National Bank (First National Bank Arena; Convocation Center until 2017)
+
+**Jonesboro**
+- Population: 82,386 (ACS 2024 1-year)
+- Population in 2020: 78,576 (2020 census)
+- Median household income: $51,672 (ACS 2024 1-year)
+- Income per person: $33,977 (ACS 2024 1-year)
+- Median home value: $233,900 (ACS 2024 1-year)
+- Poverty rate: 23.1% (ACS 2024 1-year)
+- Median age: 33.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.6% (ACS 2024 1-year)
+- Average commute: 18.0 minutes (ACS 2024 5-year)
+- Veterans: 2,914 (ACS 2024 1-year)
+- Born abroad: 5.2% (ACS 2024 1-year)
+- Founded: 1859
+- County seat: yes
+- January average: 36.1°F
+- Snow a year: 3.9 inches
+- Elevation: 276 feet
+- County: Craighead County
+- ICE 287(g) agreement in the county: yes, Craighead County Sheriff's Office (jail enforcement)
+- College-town index: 0.22 students per resident (a big presence)
 
 ## The program's best
 

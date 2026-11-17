@@ -27,7 +27,33 @@ _UL Monroe (Sun Belt). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,678 (Fall 2025)
+- Tuition and fees, in state: $10,065 (2025-26), ULM Fall 2025 fee sheet: 5,032.54 per semester at 12 hours (tuition 2,893.76 + required fees 2,138.78), doubled for two semesters
+- Tuition and fees, out of state: $22,165 (2025-26), 11,082.54 per semester at 12 hours (incl. 6,050 non-resident fee), doubled
+- Football: FBS, Sun Belt
+
+**Monroe**
+- Population: 47,004 (ACS 2024 5-year)
+- Population in 2020: 47,702 (2020 census)
+- Median household income: $40,505 (ACS 2024 5-year)
+- Income per person: $30,526 (ACS 2024 5-year)
+- Median home value: $198,900 (ACS 2024 5-year)
+- Poverty rate: 35.9% (ACS 2024 5-year)
+- Median age: 35 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 32.4% (ACS 2024 5-year)
+- Average commute: 18.2 minutes (ACS 2024 5-year)
+- Veterans: 1,755 (ACS 2024 5-year)
+- Born abroad: 2.5% (ACS 2024 5-year)
+- Founded: 1785
+- County seat: yes
+- Biggest employer: Ouachita Parish School Board
+- January average: 46.8°F
+- Snow a year: 0.9 inches
+- Elevation: 72 feet
+- County: Ouachita Parish
+- ICE 287(g) agreement in the county: yes, Ouachita Parish Sheriff's Office (Sheriff Jay Russell signed; joined 287(g) in 2019) (None)
+- College-town index: 0.18 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,35 @@ _Tulsa (American). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,769 (2024), article text 'As of 2024'; infobox lists 4,154 with no year
+- Tuition and fees, in state: $52,566 (2025-26), private: tuition 50,760 + fees 1,266 + student service fee 540 for new full-time undergrads; annual (COA page)
+- Tuition and fees, out of state: $52,566 (2025-26), private, same as in-state
+- Endowment: $1.33 billion (2025)
+- Football: FBS, American Conference
+- Arena named for: Donald W. Reynolds (Reynolds Center)
+
+**Tulsa**
+- Population: 413,652 (ACS 2024 1-year)
+- Population in 2020: 413,066 (2020 census)
+- Median household income: $60,930 (ACS 2024 1-year)
+- Income per person: $38,442 (ACS 2024 1-year)
+- Median home value: $234,400 (ACS 2024 1-year)
+- Poverty rate: 16.9% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.0% (ACS 2024 1-year)
+- Average commute: 19.7 minutes (ACS 2024 1-year)
+- Veterans: 17,698 (ACS 2024 1-year)
+- Born abroad: 13.2% (ACS 2024 1-year)
+- Founded: 1830
+- County seat: yes
+- Biggest employer: American Airlines maintenance base at Tulsa International Airport
+- January average: 38.5°F
+- Snow a year: 8.7 inches
+- Elevation: 636 feet
+- County: Tulsa County
+- ICE 287(g) agreement in the county: yes, Tulsa County Sheriff's Office (None)
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

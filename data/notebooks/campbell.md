@@ -27,7 +27,30 @@ _Campbell (CAA). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,000, infobox says 'about 5,000', no year
+- Tuition and fees, in state: $44,140 (2026-27), private; schedule lists 22,070 per semester (tuition 20,625 + general fee 1,030 + book rental 415), doubled for Fall 2026 + Spring 2027
+- Tuition and fees, out of state: $44,140 (2026-27), private, same figure
+- Endowment: $209.3 million (2021)
+- Football: FCS, CAA Football
+
+**Buies Creek**
+- Population: 3,746 (ACS 2024 5-year)
+- Population in 2020: 3,253 (2020 census)
+- Median household income: $53,933 (ACS 2024 5-year)
+- Income per person: $22,779 (ACS 2024 5-year)
+- Median home value: $361,500 (ACS 2024 5-year)
+- Poverty rate: 40.7% (ACS 2024 5-year)
+- Median age: 22.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 64.5% (ACS 2024 5-year)
+- Average commute: 25.1 minutes (ACS 2024 5-year)
+- Veterans: 159 (ACS 2024 5-year)
+- Born abroad: 3.2% (ACS 2024 5-year)
+- Founded: 1914, incorporated as a town 1914 (Buies Creek Academy, now Campbell, founded 1887)
+- County seat: no, Lillington is the Harnett County seat
+- Elevation: 184 feet
+- County: Harnett County
+- College-town index: 1.33 students per resident (the school is the town)
 
 ## The program's best
 

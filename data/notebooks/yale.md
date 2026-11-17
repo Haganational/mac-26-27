@@ -27,7 +27,32 @@ _Yale (Ivy). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,657 (2025)
+- Tuition and fees, in state: $72,685 (2026-27), private; tuition 72,500 + student activity fee 185
+- Tuition and fees, out of state: $72,685 (2026-27), private, same figure
+- Endowment: $54.50 billion (2026), infobox dates it 2026; article body dates same figure 2025
+- Football: FCS, Ivy League
+
+**New Haven**
+- Population: 137,556 (ACS 2024 1-year)
+- Population in 2020: 134,023 (2020 census)
+- Median household income: $59,705 (ACS 2024 1-year)
+- Income per person: $40,024 (ACS 2024 1-year)
+- Median home value: $348,900 (ACS 2024 1-year)
+- Poverty rate: 25.1% (ACS 2024 1-year)
+- Median age: 31.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.1% (ACS 2024 1-year)
+- Average commute: 25.8 minutes (ACS 2024 1-year)
+- Veterans: 1,494 (ACS 2024 1-year)
+- Born abroad: 19.7% (ACS 2024 1-year)
+- Founded: 1638
+- Biggest employer: Yale University
+- January average: 30.5°F
+- Snow a year: 35.4 inches
+- Elevation: 59 feet
+- County: New Haven County
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 
