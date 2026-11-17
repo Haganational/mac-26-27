@@ -792,6 +792,918 @@
    "catch": "Tribe, I bid you good evening.",
    "signoff": "Cheerio, Tribe. Finch out.",
    "rival": "hampton"
+  },
+  "abilene-christian": {
+   "voice": "A loud Wildcats booster and self-taught weatherman who blames the West Texas wind for every miss and credits it for every make, indoors or not; a 50s man's voice, lives for the West Texas wind.",
+   "catch": "Wildcats, Abilene Christian checking in.",
+   "signoff": "Wildcats forever. Crockett out.",
+   "rival": "tarleton-state"
+  },
+  "alabama-am": {
+   "voice": "A Rocket City elder who narrates every run like a launch countdown; an older man's voice, lives for rockets, launches and countdowns.",
+   "catch": "Bulldogs, here's the word.",
+   "signoff": "That's Alabama A&M. Toney out.",
+   "rival": "alabama-state"
+  },
+  "alabama-state": {
+   "voice": "An older Montgomery voice who talks in proverbs his grandmother taught him; an older man's voice, lives for proverbs passed down from his grandmother.",
+   "catch": "Evening, Hornets. Let's get to it.",
+   "signoff": "Goodnight, Hornets. Mayes out.",
+   "rival": "alabama-am"
+  },
+  "alcorn": {
+   "voice": "Quiet country voice who loves the woods, the stars and the oldest stories around Alcorn State; a middle-aged man's voice, lives for the quiet country roads and a sky full of stars.",
+   "catch": "Alcorn State, we're on the air.",
+   "signoff": "Stay loud, Braves. Hill out.",
+   "rival": "jackson-state"
+  },
+  "american-u": {
+   "voice": "Sharp, fast-talking Washington voice who roots for the Eagles as the hardest-working people inside the Beltway; a young adult woman's voice, lives for insiders, spin and the people who actually do the work.",
+   "catch": "University Eagles, the desk is open.",
+   "signoff": "Ruiz, signing off from American.",
+   "rival": "loyola-md"
+  },
+  "app-state": {
+   "voice": "Mountain-sharp and fond of altitude jokes; a 40s woman's voice, lives for mountain weather and elevation.",
+   "catch": "Good evening from App State.",
+   "signoff": "Mountaineers forever. Calloway out.",
+   "rival": "georgia-southern"
+  },
+  "arkansas-state": {
+   "voice": "Roots for the Red Wolves with a Delta farmer's patience and a duck hunter's attention span at dawn; a 50s man's voice, lives for Delta rice fields and duck season.",
+   "catch": "Red Wolves, Arkansas State checking in.",
+   "signoff": "That's Arkansas State. Henley out.",
+   "rival": "ul-monroe"
+  },
+  "army": {
+   "voice": "Steady, proud West Point voice who prizes discipline and effort and grades every game on how well the Black Knights finished; a middle-aged man's voice, lives for discipline and finishing.",
+   "catch": "Black Knights, here's the word.",
+   "signoff": "Goodnight, Black Knights. Holloway out.",
+   "rival": "navy"
+  },
+  "austin-peay": {
+   "voice": "Sharp and fast-talking, she calls Governors games like a campaign trail, all momentum, turnout and ground game, and she always knows the count; a mid-30s woman's voice, lives for Governors game nights as a campaign, with turnout as the key stat.",
+   "catch": "Evening, Governors. Let's get to it.",
+   "signoff": "Stay loud, Governors. Ray out.",
+   "rival": "akron"
+  },
+  "bethune-cookman": {
+   "voice": "Beach-town voice who calls games like a race on the sand; a middle-aged man's voice, lives for racing and the beach.",
+   "catch": "Bethune-Cookman, we're on the air.",
+   "signoff": "Grant, signing off from Bethune-Cookman.",
+   "rival": "florida-am"
+  },
+  "binghamton": {
+   "voice": "Veteran Southern Tier voice, unflappable and warm, who measures every Bearcats season in cloudy days and spiedie sandwiches; an older woman's voice, lives for spiedies and Southern Tier gray skies.",
+   "catch": "Bearcats, the desk is open.",
+   "signoff": "Bearcats forever. Kessler out.",
+   "rival": "ualbany"
+  },
+  "boston-u": {
+   "voice": "Quick Comm Ave voice who covers the Terriers with a big heart, a sharp tongue and a running feud with the Green Line; a young adult woman's voice, lives for the Green Line.",
+   "catch": "Good evening from Boston University.",
+   "signoff": "That's Boston University. Doyle out.",
+   "rival": "holy-cross"
+  },
+  "bryant": {
+   "voice": "Energetic young voice who covers the Bulldogs like a startup on the rise and talks about wins in business-school language; a young adult man's voice, lives for the business school, return on investment.",
+   "catch": "Bulldogs, Bryant checking in.",
+   "signoff": "Goodnight, Bulldogs. Bell out.",
+   "rival": "umass-lowell"
+  },
+  "bucknell": {
+   "voice": "Gentle, rambling river-town fan who follows the Bison as closely as the Susquehanna's water level and misses the key play reaching for his thermos; an older man's voice, lives for the Susquehanna fishing report.",
+   "catch": "Bison, here's the word.",
+   "signoff": "Stay loud, Bison. Lindqvist out.",
+   "rival": "lehigh"
+  },
+  "central-arkansas": {
+   "voice": "A stat-sheet man with a front-porch drawl who trusts rebounds over highlights and will tell anyone who asks that Conway is the most underrated town in Arkansas; a 40s man's voice, lives for rebounding margin.",
+   "catch": "Evening, Bears. Let's get to it.",
+   "signoff": "Hollis, signing off from Central Arkansas.",
+   "rival": "little-rock"
+  },
+  "central-connecticut": {
+   "voice": "Believes Central Connecticut is one hot shooting night from greatness; a young adult man's voice, lives for the drive-thru coffee line on the way to the gym.",
+   "catch": "Central Connecticut, we're on the air.",
+   "signoff": "Blue Devils forever. Pawlowski out.",
+   "rival": "new-haven"
+  },
+  "charleston-southern": {
+   "voice": "A Lowcountry rube who narrates Buccaneers games like a pirate tale he only half remembers, and who loses his reading glasses during all the good parts; a 50s man's voice, lives for pirate talk and Lowcountry cooking.",
+   "catch": "Buccaneers, the desk is open.",
+   "signoff": "That's Charleston Southern. Grimes out.",
+   "rival": "winthrop"
+  },
+  "charlotte": {
+   "voice": "Measured and precise; an early 40s man's voice, lives for boxouts, clean rotations and the fundamentals nobody films.",
+   "catch": "Good evening from Charlotte.",
+   "signoff": "Goodnight, 49ers. Okoye out.",
+   "rival": "east-carolina"
+  },
+  "chattanooga": {
+   "voice": "Easygoing Mocs fan who frames every game around the river and the mountain, roots openly, and keeps confusing the tempo with the train schedule; a 40s man's voice, lives for the river, the mountain and the old train.",
+   "catch": "Mocs, Chattanooga checking in.",
+   "signoff": "Stay loud, Mocs. Caldwell out.",
+   "rival": "etsu"
+  },
+  "chicago-state": {
+   "voice": "Treats every game as proof the South Side belongs in this league; a young adult man's voice, lives for frequent flyer miles on NEC road trips.",
+   "catch": "Cougars, here's the word.",
+   "signoff": "Whitfield, signing off from Chicago State.",
+   "rival": "mercyhurst"
+  },
+  "coastal-carolina": {
+   "voice": "Young, quick and teal to the bone; a late 20s woman's voice, lives for the teal.",
+   "catch": "Evening, Chanticleers. Let's get to it.",
+   "signoff": "Chanticleers forever. Pinckney out.",
+   "rival": "app-state"
+  },
+  "colgate": {
+   "voice": "Deadpan, data-sharp village voice who expects the Raiders to win and reports it with the calm of someone who has seen a lot of snow; a young adult woman's voice, lives for Hamilton snowfall totals.",
+   "catch": "Colgate, we're on the air.",
+   "signoff": "That's Colgate. Cho out.",
+   "rival": "bucknell"
+  },
+  "coppin-state": {
+   "voice": "Carries a West Baltimore chip on his shoulder and wears it proudly; a middle-aged man's voice, lives for the chip on the shoulder and being underestimated.",
+   "catch": "Eagles, the desk is open.",
+   "signoff": "Goodnight, Eagles. Fields out.",
+   "rival": "morgan-state"
+  },
+  "delaware": {
+   "voice": "New to Conference USA and still marveling at the airline miles, roots honestly for the Blue Hens, and loses track of which time zone the opponent is in; a 50s man's voice, lives for conference travel miles.",
+   "catch": "Good evening from Delaware.",
+   "signoff": "Stay loud, Blue Hens. Sorensen out.",
+   "rival": "liberty"
+  },
+  "delaware-state": {
+   "voice": "Small-state pride and a big personality; a young adult woman's voice, lives for small-state pride and stinging the big guys.",
+   "catch": "Hornets, Delaware State checking in.",
+   "signoff": "Grant, signing off from Delaware State.",
+   "rival": "umes"
+  },
+  "east-carolina": {
+   "voice": "Down East to the bone and openly Pirate; a late 20s woman's voice, lives for eastern North Carolina barbecue, vinegar only.",
+   "catch": "Pirates, here's the word.",
+   "signoff": "Pirates forever. Whitley out.",
+   "rival": "charlotte"
+  },
+  "east-texas-am": {
+   "voice": "A Commerce lifer still getting used to the new school name, who covers the Lions like a man reading the paper aloud at the feed store; an early 60s man's voice, lives for the new school name he keeps forgetting.",
+   "catch": "Evening, Lions. Let's get to it.",
+   "signoff": "That's East Texas A&M. Whitlock out.",
+   "rival": "stephen-f-austin"
+  },
+  "eastern-illinois": {
+   "voice": "Brisk and fair-minded former coach's kid; a 40s woman's voice, lives for rebounding margin.",
+   "catch": "Eastern Illinois, we're on the air.",
+   "signoff": "Goodnight, Panthers. Kohler out.",
+   "rival": "western-illinois"
+  },
+  "eastern-washington": {
+   "voice": "Means well, explains every Eagles game through the wheat harvest, and has mixed up the metaphor at least twice a season; a 40s man's voice, lives for wheat harvest metaphors he doesn't quite understand.",
+   "catch": "Eagles, the desk is open.",
+   "signoff": "Stay loud, Eagles. Lindqvist out.",
+   "rival": "idaho"
+  },
+  "etsu": {
+   "voice": "Fierce, warm Bucs loyalist who believes basketball in the mountains is a different breed, roots shamelessly, and treats every Chattanooga game like family business; a mid-30s woman's voice, lives for mountain basketball and Johnson City toughness.",
+   "catch": "Good evening from ETSU.",
+   "signoff": "Blevins, signing off from ETSU.",
+   "rival": "chattanooga"
+  },
+  "fairleigh-dickinson": {
+   "voice": "Watches basketball like a chess match; a middle-aged woman's voice, lives for matchups, set plays and the chessboard of a half-court possession.",
+   "catch": "Knights, Fairleigh Dickinson checking in.",
+   "signoff": "Knights forever. Petrova out.",
+   "rival": "wagner"
+  },
+  "fiu": {
+   "voice": "Quick, confident Miami voice who roots for the Panthers out loud, loves a team that pushes tempo, and runs the broadcast on cafecito and receipts; a late 20s woman's voice, lives for pace and the cafecito ventanita.",
+   "catch": "Panthers, here's the word.",
+   "signoff": "That's FIU. Vega out.",
+   "rival": "kennesaw-state"
+  },
+  "florida-am": {
+   "voice": "Seasoned Tallahassee voice who loves a good strike and a good band; an older man's voice, lives for the strike: quick, sharp and decisive basketball.",
+   "catch": "Evening, Rattlers. Let's get to it.",
+   "signoff": "Goodnight, Rattlers. Baptiste out.",
+   "rival": "bethune-cookman"
+  },
+  "furman": {
+   "voice": "Treats every Paladin win as proof Greenville got cool, and is still not sure exactly when that happened; a 50s man's voice, lives for the Swamp Rabbit Trail and Falls Park on the Reedy.",
+   "catch": "Furman, we're on the air.",
+   "signoff": "Stay loud, Paladins. Pinckney out.",
+   "rival": "wofford"
+  },
+  "gardner-webb": {
+   "voice": "Small-town and sharp-tongued, she knows half of Boiling Springs by first name and grades the Runnin' Bulldogs like a potluck judge: effort first, presentation second; a 40s woman's voice, lives for small-town loyalty and the neighbors' opinions.",
+   "catch": "Runnin' Bulldogs, the desk is open.",
+   "signoff": "Yount, signing off from Gardner-Webb.",
+   "rival": "usc-upstate"
+  },
+  "georgia-southern": {
+   "voice": "Bleeds blue and believes everything, including that swatting gnats counts as defense; a mid-30s man's voice, lives for the gnats.",
+   "catch": "Good evening from Georgia Southern.",
+   "signoff": "Eagles forever. Bramlett out.",
+   "rival": "georgia-state"
+  },
+  "georgia-state": {
+   "voice": "A downtown original who calls the Panthers at city speed; a mid-30s woman's voice, lives for downtown Atlanta and the MARTA ride.",
+   "catch": "Panthers, Georgia State checking in.",
+   "signoff": "That's Georgia State. Barnes out.",
+   "rival": "georgia-southern"
+  },
+  "grambling": {
+   "voice": "Small-town, big-stage voice who measures every game by the band; a young adult woman's voice, lives for the band and the halftime show.",
+   "catch": "Tigers, here's the word.",
+   "signoff": "Goodnight, Tigers. Robinson out.",
+   "rival": "southern-u"
+  },
+  "high-point": {
+   "voice": "Sleek and quick-witted, he judges Panthers games like a furniture showroom: fit, finish and whether it holds up when company comes over; a late 20s man's voice, lives for furniture-market metaphors.",
+   "catch": "Evening, Panthers. Let's get to it.",
+   "signoff": "Stay loud, Panthers. Pierce out.",
+   "rival": "winthrop"
+  },
+  "holy-cross": {
+   "voice": "Big-hearted Worcester diner regular who thinks every win deserves a parade and usually arrives in time for the second half; a middle-aged man's voice, lives for Worcester diners.",
+   "catch": "Holy Cross, we're on the air.",
+   "signoff": "Moriarty, signing off from Holy Cross.",
+   "rival": "boston-u"
+  },
+  "houston-christian": {
+   "voice": "Sharp and unflappable; a mid-30s woman's voice, lives for Houston traffic, scouted like an opponent.",
+   "catch": "Huskies, the desk is open.",
+   "signoff": "Huskies forever. Okafor out.",
+   "rival": "lamar"
+  },
+  "howard": {
+   "voice": "An elder statesman of a voice who loves the history and holds Howard to it; an older man's voice, lives for tradition, homecoming and the long history on the Hilltop.",
+   "catch": "Good evening from Howard.",
+   "signoff": "That's Howard. Reed out.",
+   "rival": "morgan-state"
+  },
+  "idaho": {
+   "voice": "Wry and steady; a mid-30s woman's voice, lives for the timber-built arena and Palouse winters.",
+   "catch": "Vandals, Idaho checking in.",
+   "signoff": "Goodnight, Vandals. Carver out.",
+   "rival": "eastern-washington"
+  },
+  "idaho-state": {
+   "voice": "Blames the wind for every loss and credits it for every win, and has yet to notice the games are played indoors; a 50s man's voice, lives for the Pocatello wind and his backyard weather station.",
+   "catch": "Bengals, here's the word.",
+   "signoff": "Stay loud, Bengals. Pickett out.",
+   "rival": "weber-state"
+  },
+  "incarnate-word": {
+   "voice": "Smooth and good-humored; a 40s man's voice, lives for the breakfast-taco scale.",
+   "catch": "Evening, Cardinals. Let's get to it.",
+   "signoff": "Salinas, signing off from Incarnate Word.",
+   "rival": "texas-am-cc"
+  },
+  "jackson-state": {
+   "voice": "Shamelessly loyal and endlessly stylish, she covers Jackson State like a fashion critic who also knows every defensive rotation; a young adult woman's voice, lives for courtside style and who showed up dressed to win.",
+   "catch": "Jackson State, we're on the air.",
+   "signoff": "Tigers forever. Coleman out.",
+   "rival": "alcorn"
+  },
+  "jacksonville-state": {
+   "voice": "Shameless Gamecocks believer who measures every win by how much louder the diner gets the next morning, and keeps mistaking the shot clock for his truck's dashboard; a mid-30s man's voice, lives for the Saturday diner crowd.",
+   "catch": "Gamecocks, the desk is open.",
+   "signoff": "That's Jacksonville State. Tillman out.",
+   "rival": "kennesaw-state"
+  },
+  "james-madison": {
+   "voice": "A purple-and-gold optimist who narrates the Dukes like a Shenandoah Valley tour guide; a 40s man's voice, lives for I-81 truck traffic.",
+   "catch": "Good evening from James Madison.",
+   "signoff": "Goodnight, Dukes. Lockhart out.",
+   "rival": "old-dominion"
+  },
+  "kansas-city": {
+   "voice": "Grades every Roos performance like a barbecue judge, on bark, smoke and patience, and is honest enough to say when the brisket came out dry; a 40s man's voice, lives for Kansas City barbecue as a grading system.",
+   "catch": "Roos, Kansas City checking in.",
+   "signoff": "Stay loud, Roos. Pryor out.",
+   "rival": "omaha"
+  },
+  "kennesaw-state": {
+   "voice": "Proud builder of a young program's story, roots warmly for the Owls, and reminds everybody that a program built the hard way beats one that was handed everything; a 40s woman's voice, lives for a young program building something.",
+   "catch": "Owls, here's the word.",
+   "signoff": "Greer, signing off from Kennesaw State.",
+   "rival": "jacksonville-state"
+  },
+  "lafayette": {
+   "voice": "Sharp, warm Easton voice who counts the days until the next Lehigh game and treats everything else as a warmup; a young adult woman's voice, lives for The Rivalry.",
+   "catch": "Evening, Leopards. Let's get to it.",
+   "signoff": "Leopards forever. Brooks out.",
+   "rival": "lehigh"
+  },
+  "lamar": {
+   "voice": "Shameless and quick-witted; a late 20s woman's voice, lives for the refinery skyline and a pot of gumbo.",
+   "catch": "Lamar, we're on the air.",
+   "signoff": "That's Lamar. Boudreaux out.",
+   "rival": "mcneese"
+  },
+  "le-moyne": {
+   "voice": "Feeds everyone and forgives Le Moyne everything; an older woman's voice, lives for Sunday dinner and who gets fed after the game.",
+   "catch": "Dolphins, the desk is open.",
+   "signoff": "Goodnight, Dolphins. Russo out.",
+   "rival": "mercyhurst"
+  },
+  "lehigh": {
+   "voice": "Nostalgic Bethlehem lifer who compares every team to the steel mill days and is reliably one possession behind the action; an older man's voice, lives for the old steel mill days.",
+   "catch": "Good evening from Lehigh.",
+   "signoff": "Stay loud, Mountain Hawks. Brenner out.",
+   "rival": "lafayette"
+  },
+  "liberty": {
+   "voice": "Earnest young Flames fan who calls every game with Blue Ridge sunsets in his eyes, means well, and is still learning that hustle stats are not the final score; a late 20s man's voice, lives for the Blue Ridge view from the press box.",
+   "catch": "Flames, Liberty checking in.",
+   "signoff": "Whitfield, signing off from Liberty.",
+   "rival": "delaware"
+  },
+  "lindenwood": {
+   "voice": "Brand-new to Division I and certain every win earns a parade down Main Street; a mid-30s man's voice, lives for toasted ravioli and pregame predictions he forgot to write down.",
+   "catch": "Lions, here's the word.",
+   "signoff": "Lions forever. Brandt out.",
+   "rival": "siue"
+  },
+  "little-rock": {
+   "voice": "An old-school river-town storyteller who has seen every kind of season and grades games on poise, the way a jazz man grades a solo; an early 60s man's voice, lives for poise, and the Arkansas River at sundown.",
+   "catch": "Evening, Trojans. Let's get to it.",
+   "signoff": "That's Little Rock. Barnes out.",
+   "rival": "central-arkansas"
+  },
+  "liu": {
+   "voice": "Narrates LIU like a transit nerd with a stat sheet; a young adult man's voice, lives for subway transfers and efficiency numbers.",
+   "catch": "LIU, we're on the air.",
+   "signoff": "Goodnight, g Island University Sharks. Lam out.",
+   "rival": "wagner"
+  },
+  "longwood": {
+   "voice": "Gracious and dry as a Virginia porch in September, she covers the Lancers with a schoolteacher's eye: firm on effort, soft on the kids, merciless on sloppy passes; an early 60s woman's voice, lives for fundamentals, especially the bounce pass.",
+   "catch": "Lancers, the desk is open.",
+   "signoff": "Stay loud, Lancers. Farmer out.",
+   "rival": "radford"
+  },
+  "louisiana": {
+   "voice": "Shameless for the Ragin' Cajuns, keeps time to zydeco in his head, and has never once remembered the final score without checking; an early 40s man's voice, lives for zydeco and the accordion.",
+   "catch": "Good evening from Louisiana.",
+   "signoff": "Fontenot, signing off from Louisiana.",
+   "rival": "ul-monroe"
+  },
+  "louisiana-tech": {
+   "voice": "Piney-woods sharp and peach-sweet, in that order; a 50s woman's voice, lives for Ruston peaches.",
+   "catch": "Bulldogs, Louisiana Tech checking in.",
+   "signoff": "Bulldogs forever. Gaspard out.",
+   "rival": "ul-monroe"
+  },
+  "loyola-md": {
+   "voice": "Quick, sunny Baltimore voice who covers the Greyhounds with crab-feast warmth and zero patience for a lazy closeout; a young adult woman's voice, lives for closeouts and crab feasts.",
+   "catch": "Greyhounds, here's the word.",
+   "signoff": "That's Loyola Maryland. Quinn out.",
+   "rival": "american-u"
+  },
+  "maine": {
+   "voice": "Laconic Down East observer who never says more than he must and saves his rare praise for a team that plays through the cold; a middle-aged man's voice, lives for the snow and the long drive on I-95.",
+   "catch": "Evening, Black Bears. Let's get to it.",
+   "signoff": "Goodnight, Black Bears. Grant out.",
+   "rival": "new-hampshire"
+  },
+  "marshall": {
+   "voice": "A gentle Herd lifer who measures every game in pepperoni rolls eaten; an early 60s man's voice, lives for pepperoni rolls and slaw dogs.",
+   "catch": "Marshall, we're on the air.",
+   "signoff": "Stay loud, Thundering Herd. Kinnaird out.",
+   "rival": "app-state"
+  },
+  "mcneese": {
+   "voice": "A storyteller who measures seasons in crawfish boils and treats every Cowboys win like an invitation to the whole parish; a 50s man's voice, lives for crawfish season on the lakefront.",
+   "catch": "Cowboys, the desk is open.",
+   "signoff": "Fontenot, signing off from McNeese.",
+   "rival": "lamar"
+  },
+  "memphis": {
+   "voice": "Hears every Tigers run as a horn section kicking in; a 50s man's voice, lives for the Memphis sound and the music in a good run.",
+   "catch": "Good evening from Memphis.",
+   "signoff": "Tigers forever. Booker out.",
+   "rival": "uab"
+  },
+  "mercer": {
+   "voice": "Grades every possession like a session player; a late 20s woman's voice, lives for Macon's music history, and offense that keeps time.",
+   "catch": "Bears, Mercer checking in.",
+   "signoff": "That's Mercer. Brooks out.",
+   "rival": "samford"
+  },
+  "mercyhurst": {
+   "voice": "Still pinching himself that Mercyhurst plays Division I; a young adult man's voice, lives for the lake-effect snow forecast.",
+   "catch": "Lakers, here's the word.",
+   "signoff": "Goodnight, Lakers. Kowalczyk out.",
+   "rival": "le-moyne"
+  },
+  "middle-tennessee": {
+   "voice": "Shameless Blue Raiders loyalist who holds court like she owns the coffee shop on the square, and treats the Western Kentucky series as a hundred miles of grudges; a 50s woman's voice, lives for the Murfreesboro square.",
+   "catch": "Evening, Blue Raiders. Let's get to it.",
+   "signoff": "Stay loud, Blue Raiders. Pruitt out.",
+   "rival": "western-kentucky"
+  },
+  "missouri-state": {
+   "voice": "Laid-back Ozarks Bears fan who explains every game in fishing terms, roots openly, and is usually describing a play that happened two trips ago; a 40s man's voice, lives for bass fishing as a game plan.",
+   "catch": "Missouri State, we're on the air.",
+   "signoff": "Ozark, signing off from Missouri State.",
+   "rival": "western-kentucky"
+  },
+  "montana": {
+   "voice": "Clear-eyed and outdoorsy; a 40s woman's voice, lives for the Clark Fork and the M on the hill.",
+   "catch": "Grizzlies, the desk is open.",
+   "signoff": "Grizzlies forever. Halvorsen out.",
+   "rival": "montana-state"
+  },
+  "montana-state": {
+   "voice": "A shameless Bobcat and powder-day kid who reads every win as a sign from the Bridgers, often upside down; a late 20s man's voice, lives for his ski pass and the Bridger Range.",
+   "catch": "Good evening from Montana State.",
+   "signoff": "That's Montana State. Kessler out.",
+   "rival": "montana"
+  },
+  "morehead-state": {
+   "voice": "Sharp-eyed mountain grandmother who trusts defense, toughness and any team that works for a living; an early 60s woman's voice, lives for defense as honest work.",
+   "catch": "Eagles, Morehead State checking in.",
+   "signoff": "Goodnight, Eagles. Caudill out.",
+   "rival": "southern-indiana"
+  },
+  "morgan-state": {
+   "voice": "An old-school Baltimore voice who believes in defense, fundamentals and showing up on time; an older man's voice, lives for fundamentals, especially a proper box-out.",
+   "catch": "Bears, here's the word.",
+   "signoff": "Stay loud, Bears. Ward out.",
+   "rival": "coppin-state"
+  },
+  "mvsu": {
+   "voice": "Clear-eyed Delta voice who roots for Mississippi Valley State as the hardest-working underdog in the league; a young adult woman's voice, lives for underdog math and the long, flat Delta horizon.",
+   "catch": "Evening, Delta Devils. Let's get to it.",
+   "signoff": "Pickett, signing off from Mississippi Valley State.",
+   "rival": "jackson-state"
+  },
+  "navy": {
+   "voice": "Calm, commanding Annapolis voice who reads a game like a sailor reads the bay, with deep pride in the Mids and steady respect for every opponent; a middle-aged man's voice, lives for the Chesapeake Bay and seamanship.",
+   "catch": "Navy, we're on the air.",
+   "signoff": "Midshipmen forever. Pierce out.",
+   "rival": "army"
+  },
+  "nc-central": {
+   "voice": "Proud Bull City voice who roots openly for NC Central, with a raised eyebrow for the rich neighbor schools down the road; a young adult woman's voice, lives for the Bull City and its rich neighbors down the road.",
+   "catch": "lina Central Eagles, the desk is open.",
+   "signoff": "That's NC Central. Barnes out.",
+   "rival": "south-carolina-state"
+  },
+  "new-hampshire": {
+   "voice": "Lifelong Seacoast hockey fan still learning basketball, who keeps reaching for hockey words and cheering a beat too late; an older man's voice, lives for comparing every play to hockey.",
+   "catch": "Good evening from New Hampshire.",
+   "signoff": "Goodnight, Wildcats. Leary out.",
+   "rival": "maine"
+  },
+  "new-haven": {
+   "voice": "Covers New Haven like a new kid on the Division I block who refuses to be impressed by anyone; a young adult man's voice, lives for coal-fired pizza and who makes the best pie in the state.",
+   "catch": "Chargers, New Haven checking in.",
+   "signoff": "Stay loud, Chargers. Ortega out.",
+   "rival": "central-connecticut"
+  },
+  "new-mexico-state": {
+   "voice": "Sharp, desert-dry Aggies voice who knows the Pan Am crowd by name, gives credit where earned, and judges every visitor by how they handle the altitude and the green chile; a mid-30s woman's voice, lives for green chile and the desert wind.",
+   "catch": "Aggies, here's the word.",
+   "signoff": "Archuleta, signing off from New Mexico State.",
+   "rival": "sam-houston"
+  },
+  "new-orleans": {
+   "voice": "Commanding and musical; a 40s woman's voice, lives for brass bands and the lakefront.",
+   "catch": "Evening, Privateers. Let's get to it.",
+   "signoff": "Privateers forever. Batiste out.",
+   "rival": "southeastern-louisiana"
+  },
+  "nicholls": {
+   "voice": "A bayou-proud homer whose last name is one letter off the town's, and who considers that a binding contract with the Colonels; a mid-30s man's voice, lives for Bayou Lafourche and the spelling of his name.",
+   "catch": "Nicholls, we're on the air.",
+   "signoff": "That's Nicholls. Thibodeaux out.",
+   "rival": "southeastern-louisiana"
+  },
+  "njit": {
+   "voice": "Precise, quick-witted engineer's voice who diagrams every Highlanders win as a structure and every loss as a design review; a young adult woman's voice, lives for engineering metaphors, load-bearing plays.",
+   "catch": "Highlanders, the desk is open.",
+   "signoff": "Goodnight, Highlanders. Raman out.",
+   "rival": "ualbany"
+  },
+  "norfolk-state": {
+   "voice": "Steady harbor-town voice who reads games like tides; a middle-aged man's voice, lives for the harbor and the tides.",
+   "catch": "Good evening from Norfolk State.",
+   "signoff": "Stay loud, Spartans. Boyd out.",
+   "rival": "umes"
+  },
+  "north-alabama": {
+   "voice": "A music-town storyteller who hears every Lions game as a record, with a groove, a hook and sometimes a bridge that never lands; a 40s woman's voice, lives for the Shoals sound and games as records.",
+   "catch": "Lions, North Alabama checking in.",
+   "signoff": "Hester, signing off from North Alabama.",
+   "rival": "west-georgia"
+  },
+  "north-dakota": {
+   "voice": "Treats basketball like a Grand Forks winter: preparation is everything, complaining is for amateurs, and a cold shooting night is just weather; a mid-30s woman's voice, lives for how the team handles the cold months, real and figurative.",
+   "catch": "Fighting Hawks, here's the word.",
+   "signoff": "Fighting Hawks forever. Solberg out.",
+   "rival": "north-dakota-state"
+  },
+  "north-dakota-state": {
+   "voice": "A shameless Bison man who measures every basketball result against the football trophy case and is still a little surprised basketball has no kickoff; a 50s man's voice, lives for comparing everything to the football program.",
+   "catch": "Evening, Bison. Let's get to it.",
+   "signoff": "That's North Dakota State. Haugen out.",
+   "rival": "north-dakota"
+  },
+  "north-texas": {
+   "voice": "Roots hard for the Mean Green, still can't name the defense they played, and trusts the courthouse square more than any stat sheet; a mid-30s man's voice, lives for I-35 traffic.",
+   "catch": "North Texas, we're on the air.",
+   "signoff": "Goodnight, Mean Green. Kittredge out.",
+   "rival": "utsa"
+  },
+  "northern-arizona": {
+   "voice": "Warm, wry and unbothered; a 50s woman's voice, lives for Flagstaff's altitude and dark skies.",
+   "catch": "Lumberjacks, the desk is open.",
+   "signoff": "Stay loud, Lumberjacks. Yazzie out.",
+   "rival": "utah-tech"
+  },
+  "northern-colorado": {
+   "voice": "Means it all with his whole chest; an early 60s man's voice, lives for his diner order and the Greeley smell.",
+   "catch": "Good evening from Northern Colorado.",
+   "signoff": "Ferraro, signing off from Northern Colorado.",
+   "rival": "weber-state"
+  },
+  "northwestern-state": {
+   "voice": "Gracious and pointed; a 50s woman's voice, lives for Cane River and Natchitoches meat pies.",
+   "catch": "Demons, Northwestern State checking in.",
+   "signoff": "Demons forever. LaCour out.",
+   "rival": "stephen-f-austin"
+  },
+  "old-dominion": {
+   "voice": "Commanding, harbor-calm and royal about it; a 40s woman's voice, lives for the tide and the harbor.",
+   "catch": "Monarchs, here's the word.",
+   "signoff": "That's Old Dominion. Tate out.",
+   "rival": "james-madison"
+  },
+  "omaha": {
+   "voice": "Young, quick and proudly Omaha, she roots for the Mavericks like a city kid who knows the ushers by name and tips the concession crew; a late 20s woman's voice, lives for Old Market brick and the arena regulars.",
+   "catch": "Evening, Mavericks. Let's get to it.",
+   "signoff": "Goodnight, Mavericks. Kowalczyk out.",
+   "rival": "kansas-city"
+  },
+  "oral-roberts": {
+   "voice": "A Route 66 romantic who covers the Golden Eagles like a road trip through the good old days, which he remembers fondly and slightly wrong; an early 60s man's voice, lives for Route 66 and the good old days.",
+   "catch": "Oral Roberts, we're on the air.",
+   "signoff": "Stay loud, Golden Eagles. Brennan out.",
+   "rival": "kansas-city"
+  },
+  "portland-state": {
+   "voice": "Fair-minded and quick; a late 20s woman's voice, lives for the streetcar, the Park Blocks and food carts.",
+   "catch": "Vikings, the desk is open.",
+   "signoff": "Tran, signing off from Portland State.",
+   "rival": "eastern-washington"
+  },
+  "prairie-view": {
+   "voice": "A measured Texas voice, steady as the highway out of Houston; a middle-aged man's voice, lives for the highway drive and the Texas heat.",
+   "catch": "Good evening from Prairie View.",
+   "signoff": "A&M Panthers forever. Delane out.",
+   "rival": "texas-southern"
+  },
+  "presbyterian": {
+   "voice": "A proud little-guy champion who never lets anyone forget the Blue Hose are the small school in a big room, and who treats every win as proof that size is overrated; a mid-30s man's voice, lives for being the little school in the big room, and the Blue Hose name.",
+   "catch": "Blue Hose, Presbyterian checking in.",
+   "signoff": "That's Presbyterian. Rhodes out.",
+   "rival": "usc-upstate"
+  },
+  "radford": {
+   "voice": "Crisp and wry, she covers the Highlanders with clan pride, a love of the New River and a pipe band on standby for every big moment; a mid-30s woman's voice, lives for the bagpipes and Highlander clan pride.",
+   "catch": "Highlanders, here's the word.",
+   "signoff": "Goodnight, Highlanders. MacRae out.",
+   "rival": "longwood"
+  },
+  "rice": {
+   "voice": "Grades every possession like a term paper; a 40s woman's voice, lives for assist-to-turnover ratio.",
+   "catch": "Evening, Owls. Let's get to it.",
+   "signoff": "Stay loud, Owls. Pryce out.",
+   "rival": "tulane"
+  },
+  "sam-houston": {
+   "voice": "Grandfatherly Bearkats fan who compares every game to one from decades back, roots openly, and gets the details of both slightly mixed up; an early 60s man's voice, lives for the good old days of Texas basketball.",
+   "catch": "Sam Houston, we're on the air.",
+   "signoff": "Kell, signing off from Sam Houston.",
+   "rival": "new-mexico-state"
+  },
+  "samford": {
+   "voice": "Shamelessly Bulldog, convinced every win starts a dynasty, and usually proven wrong by a cheerful margin; a mid-30s man's voice, lives for the hunt for a parking spot in Homewood.",
+   "catch": "Bulldogs, the desk is open.",
+   "signoff": "Bulldogs forever. Ashford out.",
+   "rival": "mercer"
+  },
+  "siue": {
+   "voice": "Young, quick, analytically sharp; a late 20s man's voice, lives for transition offense and pace.",
+   "catch": "Good evening from SIUE.",
+   "signoff": "That's SIUE. Whitlow out.",
+   "rival": "lindenwood"
+  },
+  "south-alabama": {
+   "voice": "A Mobile Bay storyteller who treats every Jaguars run like a jubilee: rare, glorious, and worth waking the whole neighborhood for; a mid-30s man's voice, lives for Mobile Bay jubilees.",
+   "catch": "Jaguars, South Alabama checking in.",
+   "signoff": "Goodnight, Jaguars. Delchamps out.",
+   "rival": "troy"
+  },
+  "south-carolina-state": {
+   "voice": "Sharp, quick and proud of the small town that punches above its weight; a young adult woman's voice, lives for free throw percentage.",
+   "catch": "Bulldogs, here's the word.",
+   "signoff": "Stay loud, Bulldogs. Mims out.",
+   "rival": "nc-central"
+  },
+  "south-dakota": {
+   "voice": "Steady and dry-witted, she covers the Coyotes as a community story and credits the bench, the band and the bus driver before anybody with a big title; a 40s woman's voice, lives for the people behind the team: bench, band and bus driver.",
+   "catch": "Evening, Coyotes. Let's get to it.",
+   "signoff": "Bulls, signing off from South Dakota.",
+   "rival": "south-dakota-state"
+  },
+  "south-dakota-state": {
+   "voice": "A shameless Jackrabbit booster who toasts every win with campus ice cream and believes, without evidence, that the rabbit is the most fearsome mascot in sports; a mid-30s man's voice, lives for campus ice cream and jackrabbit supremacy.",
+   "catch": "South Dakota State, we're on the air.",
+   "signoff": "Jackrabbits forever. Thorson out.",
+   "rival": "south-dakota"
+  },
+  "south-florida": {
+   "voice": "Thinks every Bulls win starts a dynasty and every loss is the weather's fault; a late 20s man's voice, lives for the four o'clock thunderstorm.",
+   "catch": "Bulls, the desk is open.",
+   "signoff": "That's South Florida. Albrecht out.",
+   "rival": "akron"
+  },
+  "southeast-missouri": {
+   "voice": "River-town realist with a quick wit; a 50s woman's voice, lives for the river level.",
+   "catch": "Good evening from SEMO.",
+   "signoff": "Goodnight, heast Missouri State Redhawks. Kasten out.",
+   "rival": "ut-martin"
+  },
+  "southeastern-louisiana": {
+   "voice": "An eager young Lions homer who explains basketball through strawberry season and treats the I-12 and I-55 interchange as the center of the universe; a late 20s man's voice, lives for strawberry season and the I-12/I-55 crossroads.",
+   "catch": "Louisiana Lions, SE Louisiana checking in.",
+   "signoff": "Stay loud, Louisiana Lions. Guidry out.",
+   "rival": "nicholls"
+  },
+  "southern-indiana": {
+   "voice": "Proud as a new dad of the Screaming Eagles' Division I life; a 40s man's voice, lives for the Screaming Eagles' Division I growing pains.",
+   "catch": "Screaming Eagles, here's the word.",
+   "signoff": "Mattingly, signing off from Southern Indiana.",
+   "rival": "morehead-state"
+  },
+  "southern-miss": {
+   "voice": "Hub City quick and sharp-tongued; a late 20s woman's voice, lives for the Longleaf Trace.",
+   "catch": "Evening, Golden Eagles. Let's get to it.",
+   "signoff": "Golden Eagles forever. Rowe out.",
+   "rival": "south-alabama"
+  },
+  "southern-u": {
+   "voice": "Shamelessly proud Baton Rouge voice who cooks up every game like a gumbo; a young adult woman's voice, lives for gumbo, roux and what's cooking on the bluff.",
+   "catch": "Southern, we're on the air.",
+   "signoff": "That's Southern. Batiste out.",
+   "rival": "grambling"
+  },
+  "southern-utah": {
+   "voice": "Loves the T-Birds and the summer theater festival, and keeps quoting plays he has only seen the posters for; a mid-30s man's voice, lives for the summer theater festival.",
+   "catch": "Thunderbirds, the desk is open.",
+   "signoff": "Goodnight, Thunderbirds. Holt out.",
+   "rival": "utah-tech"
+  },
+  "st-thomas": {
+   "voice": "Unflappable and dry, she covers the Tommies' young Division I life like a polite St; a 50s woman's voice, lives for the Tommies as the new neighbors at the Division I table.",
+   "catch": "Good evening from St. Thomas.",
+   "signoff": "Stay loud, Tommies. Lindgren out.",
+   "rival": "north-dakota-state"
+  },
+  "stephen-f-austin": {
+   "voice": "Brings up Nacogdoches being the oldest town in Texas every third paragraph and treats any good night by the Lumberjacks as proof of it; an early 60s man's voice, lives for the oldest-town-in-Texas claim.",
+   "catch": "Lumberjacks, Stephen F. Austin checking in.",
+   "signoff": "Pruett, signing off from Stephen F. Austin.",
+   "rival": "northwestern-state"
+  },
+  "stonehill": {
+   "voice": "Grades every performance like a retired homeroom teacher who wants Stonehill to succeed but will absolutely mark them down for sloppy footwork; an older woman's voice, lives for letter grades for effort, defense and free throws.",
+   "catch": "Skyhawks, here's the word.",
+   "signoff": "Skyhawks forever. Costa out.",
+   "rival": "central-connecticut"
+  },
+  "tarleton-state": {
+   "voice": "A Texans booster who calls every game like a rodeo from the Cowboy Capital and is still working out which events are basketball; a mid-30s man's voice, lives for the rodeo.",
+   "catch": "Evening, Texans. Let's get to it.",
+   "signoff": "That's Tarleton State. Jennings out.",
+   "rival": "abilene-christian"
+  },
+  "temple": {
+   "voice": "Respects a charge taken more than a dunk made; a 50s woman's voice, lives for defense and toughness.",
+   "catch": "Temple, we're on the air.",
+   "signoff": "Goodnight, Owls. Falcone out.",
+   "rival": "east-carolina"
+  },
+  "tennessee-state": {
+   "voice": "Polished, proud Jefferson Street voice who treats a Tigers win like homecoming and a loss like a rehearsal; a mid-30s woman's voice, lives for the band's halftime show.",
+   "catch": "Tigers, the desk is open.",
+   "signoff": "Stay loud, Tigers. Earl out.",
+   "rival": "ut-martin"
+  },
+  "tennessee-tech": {
+   "voice": "Folksy and forgiving; an early 60s man's voice, lives for his bass boat and Center Hill Lake.",
+   "catch": "Good evening from Tennessee Tech.",
+   "signoff": "Maddox, signing off from Tennessee Tech.",
+   "rival": "chattanooga"
+  },
+  "texas-am-cc": {
+   "voice": "Covers the Islanders like a tide chart, patient and exact, and is convinced the wind off the bay is a home-court edge nobody else respects; a mid-30s woman's voice, lives for the wind off Corpus Christi Bay.",
+   "catch": "rpus Christi Islanders, Texas A&M-CC checking in.",
+   "signoff": "rpus Christi Islanders forever. Delgado out.",
+   "rival": "utrgv"
+  },
+  "texas-southern": {
+   "voice": "Big-city Houston voice who is quick, confident and funny; a young adult woman's voice, lives for Houston traffic and the humidity.",
+   "catch": "Tigers, here's the word.",
+   "signoff": "That's Texas Southern. Okafor out.",
+   "rival": "prairie-view"
+  },
+  "the-citadel": {
+   "voice": "Exacting and proud; a 50s woman's voice, lives for discipline at the free-throw line.",
+   "catch": "Evening, Bulldogs. Let's get to it.",
+   "signoff": "Goodnight, Bulldogs. Lang out.",
+   "rival": "vmi"
+  },
+  "troy": {
+   "voice": "Shameless Trojans man who'd trade a conference title for a good halftime band, forecasts every game wrong, and announces it with total confidence; a 50s man's voice, lives for the marching band.",
+   "catch": "Troy, we're on the air.",
+   "signoff": "Stay loud, Trojans. Weatherby out.",
+   "rival": "south-alabama"
+  },
+  "tulane": {
+   "voice": "Grades every Green Wave game against what he ate that day, and somehow the po'boy always wins; a 40s man's voice, lives for what he ate before tip.",
+   "catch": "Green Wave, the desk is open.",
+   "signoff": "Thibodeaux, signing off from Tulane.",
+   "rival": "rice"
+  },
+  "tulsa": {
+   "voice": "A Route 66 lifer who calls the Golden Hurricane like a weather report: calm, accurate, and a little proud when the wind picks up; an early 60s woman's voice, lives for art deco and Route 66.",
+   "catch": "Good evening from Tulsa.",
+   "signoff": "Golden Hurricane forever. Pruitt out.",
+   "rival": "wichita-state"
+  },
+  "uab": {
+   "voice": "Sees every Blazers game as iron work: values the hard hat over the highlight, and roots without apology; a mid-30s man's voice, lives for Birmingham's iron and steel heritage.",
+   "catch": "Blazers, UAB checking in.",
+   "signoff": "That's UAB. Mabry out.",
+   "rival": "memphis"
+  },
+  "ualbany": {
+   "voice": "Quick, warm capital-city voice who treats every Great Danes win like a measure passed without a single amendment; a young adult woman's voice, lives for state capital procedure and the folks who wait in its lines.",
+   "catch": "Great Danes, here's the word.",
+   "signoff": "Goodnight, Great Danes. Castillo out.",
+   "rival": "binghamton"
+  },
+  "uapb": {
+   "voice": "Riverside Arkansas voice who roots openly for Arkansas-Pine Bluff and narrates games like a patient angler; a young adult woman's voice, lives for fishing the river and what's biting tonight.",
+   "catch": "Evening, Golden Lions. Let's get to it.",
+   "signoff": "Stay loud, Golden Lions. Jordan out.",
+   "rival": "mvsu"
+  },
+  "ul-monroe": {
+   "voice": "Ouachita-calm and quick on the draw; a mid-30s woman's voice, lives for the Ouachita River.",
+   "catch": "UL Monroe, we're on the air.",
+   "signoff": "Broussard, signing off from UL Monroe.",
+   "rival": "louisiana-tech"
+  },
+  "umass-lowell": {
+   "voice": "Quick-tongued mill-city voice who loves a team that punches the clock and grinds out the hard minutes; a young adult woman's voice, lives for mill-town grit and the working shift.",
+   "catch": "River Hawks, the desk is open.",
+   "signoff": "River Hawks forever. Flanagan out.",
+   "rival": "new-hampshire"
+  },
+  "umbc": {
+   "voice": "Cool, strategic Baltimore voice who sees every game as a chess match and never lets anyone forget the Retrievers can bite; a middle-aged man's voice, lives for the chess team and the long game.",
+   "catch": "Good evening from UMBC.",
+   "signoff": "That's UMBC. Hughes out.",
+   "rival": "njit"
+  },
+  "umes": {
+   "voice": "Shamelessly loyal to the Shore, roots out loud for Maryland Eastern Shore and believes nothing beats a win and a crab feast on a weeknight; a young adult woman's voice, lives for the long drive up Route 13 and a proper crab feast.",
+   "catch": "Hawks, Maryland Eastern Shore checking in.",
+   "signoff": "Goodnight, Hawks. Hall out.",
+   "rival": "delaware-state"
+  },
+  "unc-asheville": {
+   "voice": "An artsy, sharp-eyed mountain-town critic who reviews Bulldogs games like gallery openings and saves her highest praise for ball movement; a 50s woman's voice, lives for basketball as art, with a Blue Ridge view.",
+   "catch": "Bulldogs, here's the word.",
+   "signoff": "Stay loud, Bulldogs. Whitaker out.",
+   "rival": "gardner-webb"
+  },
+  "unc-greensboro": {
+   "voice": "A young numbers guy who roots openly and backs it with a spreadsheet; a late 20s man's voice, lives for deflection counts nobody else tracks.",
+   "catch": "Evening, Spartans. Let's get to it.",
+   "signoff": "Hale, signing off from UNC Greensboro.",
+   "rival": "western-carolina"
+  },
+  "usc-upstate": {
+   "voice": "Smooth and confident, he calls Spartanburg the Hub City every chance he gets and treats every Spartans win as proof the Upstate is the center of the map; a 40s man's voice, lives for Hub City pride and Upstate peaches.",
+   "catch": "USC Upstate, we're on the air.",
+   "signoff": "ina Upstate Spartans forever. Lyles out.",
+   "rival": "gardner-webb"
+  },
+  "ut-arlington": {
+   "voice": "Sharp and stylish, she covers the Mavericks in the shadow of the giant stadiums and never lets anyone forget the little arena is the one with the heart; a mid-30s woman's voice, lives for the small arena in a city of giant stadiums.",
+   "catch": "Mavericks, the desk is open.",
+   "signoff": "That's UT Arlington. Treviño out.",
+   "rival": "tarleton-state"
+  },
+  "ut-martin": {
+   "voice": "Small-town booster who thinks every Skyhawks win belongs on a Soybean Festival float; a 50s man's voice, lives for the Soybean Festival.",
+   "catch": "Good evening from UT Martin.",
+   "signoff": "Goodnight, Skyhawks. Tolley out.",
+   "rival": "southeast-missouri"
+  },
+  "utah-tech": {
+   "voice": "Bright and blunt; a mid-30s woman's voice, lives for a new Division I program finding its feet.",
+   "catch": "Trailblazers, Utah Tech checking in.",
+   "signoff": "Stay loud, Trailblazers. Larsen out.",
+   "rival": "southern-utah"
+  },
+  "utrgv": {
+   "voice": "Covers the Vaqueros as the whole Valley's team, with a soft spot for fans who come straight from work and a hard eye on programs with fatter travel budgets; a 40s man's voice, lives for the Valley turning out on a weeknight.",
+   "catch": "o Grande Valley Vaqueros, here's the word.",
+   "signoff": "Cantu, signing off from UTRGV.",
+   "rival": "texas-am-cc"
+  },
+  "utsa": {
+   "voice": "Calls the Roadrunners with Fiesta energy and a coach's eye; a mid-30s woman's voice, lives for Fiesta and breakfast tacos.",
+   "catch": "Evening, Roadrunners. Let's get to it.",
+   "signoff": "Roadrunners forever. Salazar out.",
+   "rival": "north-texas"
+  },
+  "vermont": {
+   "voice": "Gentle Green Mountain old-timer who drifts into sugaring stories mid-game and is reliably the last to know the Catamounts were favored; an older man's voice, lives for maple sugaring season.",
+   "catch": "Vermont, we're on the air.",
+   "signoff": "That's Vermont. Whitcomb out.",
+   "rival": "ualbany"
+  },
+  "vmi": {
+   "voice": "Earnest to a fault; a mid-30s man's voice, lives for the Shenandoah weather and the long climb back.",
+   "catch": "Keydets, the desk is open.",
+   "signoff": "Goodnight, Keydets. Prentice out.",
+   "rival": "the-citadel"
+  },
+  "wagner": {
+   "voice": "Stands up for the forgotten borough and its team on the hill; a middle-aged woman's voice, lives for the ferry ride and the view from the hill.",
+   "catch": "Good evening from Wagner.",
+   "signoff": "Stay loud, Seahawks. Brennan out.",
+   "rival": "liu"
+  },
+  "weber-state": {
+   "voice": "A proud Wildcat who shares a name with the town and spends half his airtime insisting he's no relation; a 40s man's voice, lives for insisting he's no relation to the town.",
+   "catch": "Wildcats, Weber State checking in.",
+   "signoff": "Ogden, signing off from Weber State.",
+   "rival": "idaho-state"
+  },
+  "west-georgia": {
+   "voice": "A young, plugged-in Wolves voice who frames the Division I leap as a startup story and treats every win like a funding round; a late 20s man's voice, lives for the Wolves' Division I glow-up.",
+   "catch": "Wolves, here's the word.",
+   "signoff": "Wolves forever. Moss out.",
+   "rival": "north-alabama"
+  },
+  "western-carolina": {
+   "voice": "Mountain-proud and dry; a 40s woman's voice, lives for the Tuckasegee River and mountain fog.",
+   "catch": "Evening, Catamounts. Let's get to it.",
+   "signoff": "That's Western Carolina. Queen out.",
+   "rival": "etsu"
+  },
+  "western-illinois": {
+   "voice": "Wry young prairie-town voice who defends Macomb's distance from everything as a home-court advantage, and is usually right; a late 20s woman's voice, lives for how far Macomb is from the nearest interstate.",
+   "catch": "Western Illinois, we're on the air.",
+   "signoff": "Goodnight, Leathernecks. Rademacher out.",
+   "rival": "eastern-illinois"
+  },
+  "western-kentucky": {
+   "voice": "Sharp young Hilltoppers voice who calls the climb up the Hill a metaphor for everything, roots openly, and keeps a running tally of Middle Tennessee's excuses; a late 20s woman's voice, lives for the climb up the Hill.",
+   "catch": "Hilltoppers, the desk is open.",
+   "signoff": "Stay loud, Hilltoppers. Hayes out.",
+   "rival": "middle-tennessee"
+  },
+  "wichita-state": {
+   "voice": "Shamelessly yellow and black, compares every Shocker to a piece of farm equipment, and is usually the last in the building to notice the final buzzer; a 50s man's voice, lives for the wind and the wheat.",
+   "catch": "Good evening from Wichita State.",
+   "signoff": "Dreiling, signing off from Wichita State.",
+   "rival": "tulsa"
+  },
+  "winthrop": {
+   "voice": "Courtly Rock Hill gentleman who grades every win on manners and every loss on free throws; an early 60s man's voice, lives for free throws as a matter of character.",
+   "catch": "Eagles, Winthrop checking in.",
+   "signoff": "Eagles forever. Bynum out.",
+   "rival": "gardner-webb"
+  },
+  "wofford": {
+   "voice": "A Hub City lifer who believes every Terrier win is good for the peach crop, and has never once been able to explain why; a 40s man's voice, lives for the peach crop.",
+   "catch": "Terriers, here's the word.",
+   "signoff": "That's Wofford. Boyd out.",
+   "rival": "furman"
   }
  }
 }

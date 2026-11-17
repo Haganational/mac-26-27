@@ -1189,6 +1189,1374 @@
    "age": "50s",
    "gear": "18th-Century Sequined Velvet Coat + Powdered Wig",
    "colors": "Green and Gold"
+  },
+  "charlotte": {
+   "id": 133,
+   "school": "Charlotte",
+   "name": "Desmond Okoye",
+   "gender": "Man",
+   "age": "Early 40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Green and Gold"
+  },
+  "east-carolina": {
+   "id": 134,
+   "school": "East Carolina",
+   "name": "Tamsin Whitley",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Hoodie",
+   "colors": "Purple and Gold"
+  },
+  "memphis": {
+   "id": 135,
+   "school": "Memphis",
+   "name": "Calvin Booker",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gray"
+  },
+  "north-texas": {
+   "id": 136,
+   "school": "North Texas",
+   "name": "Wade Kittredge",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Green and Black"
+  },
+  "rice": {
+   "id": 137,
+   "school": "Rice",
+   "name": "Eleanor Pryce",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Blue and Gray"
+  },
+  "south-florida": {
+   "id": 138,
+   "school": "South Florida",
+   "name": "Nico Albrecht",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Green and Gold"
+  },
+  "temple": {
+   "id": 139,
+   "school": "Temple",
+   "name": "Gina Falcone",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Cherry and White"
+  },
+  "tulane": {
+   "id": 140,
+   "school": "Tulane",
+   "name": "Beau Thibodeaux",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Olive Green and Sky Blue"
+  },
+  "tulsa": {
+   "id": 141,
+   "school": "Tulsa",
+   "name": "Darla Pruitt",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "uab": {
+   "id": 142,
+   "school": "UAB",
+   "name": "Terrence Mabry",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Green and Gold"
+  },
+  "utsa": {
+   "id": 143,
+   "school": "UTSA",
+   "name": "Ximena Salazar",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover + Baseball Cap",
+   "colors": "Navy Blue and Orange"
+  },
+  "wichita-state": {
+   "id": 144,
+   "school": "Wichita State",
+   "name": "Hank Dreiling",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Yellow and Black"
+  },
+  "app-state": {
+   "id": 145,
+   "school": "App State",
+   "name": "Ruthie Calloway",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Black and Gold"
+  },
+  "arkansas-state": {
+   "id": 146,
+   "school": "Arkansas State",
+   "name": "Boyd Henley",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Scarlet and Black"
+  },
+  "coastal-carolina": {
+   "id": 147,
+   "school": "Coastal Carolina",
+   "name": "Jada Pinckney",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Teal and Bronze"
+  },
+  "georgia-southern": {
+   "id": 148,
+   "school": "Georgia Southern",
+   "name": "Luke Bramlett",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy Blue and Gold"
+  },
+  "georgia-state": {
+   "id": 149,
+   "school": "Georgia State",
+   "name": "Keisha Barnes",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie + Baseball Cap",
+   "colors": "Blue and Red"
+  },
+  "james-madison": {
+   "id": 150,
+   "school": "James Madison",
+   "name": "Grant Lockhart",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and Gold"
+  },
+  "louisiana": {
+   "id": 151,
+   "school": "Louisiana",
+   "name": "Remy Fontenot",
+   "gender": "Man",
+   "age": "Early 40s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Red and White"
+  },
+  "louisiana-tech": {
+   "id": 152,
+   "school": "Louisiana Tech",
+   "name": "Lacey Gaspard",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Red"
+  },
+  "marshall": {
+   "id": 153,
+   "school": "Marshall",
+   "name": "Dale Kinnaird",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Kelly Green and White"
+  },
+  "old-dominion": {
+   "id": 154,
+   "school": "Old Dominion",
+   "name": "Monique Tate",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Navy Blue and Silver"
+  },
+  "south-alabama": {
+   "id": 155,
+   "school": "South Alabama",
+   "name": "Curtis Delchamps",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Navy Blue and Red"
+  },
+  "southern-miss": {
+   "id": 156,
+   "school": "Southern Miss",
+   "name": "Savannah Rowe",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Black and Gold"
+  },
+  "troy": {
+   "id": 157,
+   "school": "Troy",
+   "name": "Earl Weatherby",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Polo Shirt + Baseball Cap",
+   "colors": "Cardinal and Silver"
+  },
+  "ul-monroe": {
+   "id": 158,
+   "school": "UL Monroe",
+   "name": "Celeste Broussard",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Maroon and Gold"
+  },
+  "delaware": {
+   "id": 159,
+   "school": "Delaware",
+   "name": "Hank Sorensen",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "fiu": {
+   "id": 160,
+   "school": "FIU",
+   "name": "Marisol Vega",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Gold"
+  },
+  "jacksonville-state": {
+   "id": 161,
+   "school": "Jacksonville State",
+   "name": "Beau Tillman",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Red and White"
+  },
+  "kennesaw-state": {
+   "id": 162,
+   "school": "Kennesaw State",
+   "name": "Tasha Greer",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Gold and Black"
+  },
+  "liberty": {
+   "id": 163,
+   "school": "Liberty",
+   "name": "Caleb Whitfield",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Red"
+  },
+  "middle-tennessee": {
+   "id": 164,
+   "school": "Middle Tennessee",
+   "name": "Darlene Pruitt",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Blue and White"
+  },
+  "missouri-state": {
+   "id": 165,
+   "school": "Missouri State",
+   "name": "Wes Ozark",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Maroon and White"
+  },
+  "new-mexico-state": {
+   "id": 166,
+   "school": "New Mexico State",
+   "name": "Lupe Archuleta",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Crimson and White"
+  },
+  "sam-houston": {
+   "id": 167,
+   "school": "Sam Houston",
+   "name": "Travis Kell",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Hoodie",
+   "colors": "Orange and White"
+  },
+  "western-kentucky": {
+   "id": 168,
+   "school": "Western Kentucky",
+   "name": "Mallory Hayes",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and White"
+  },
+  "chattanooga": {
+   "id": 169,
+   "school": "Chattanooga",
+   "name": "Rhett Caldwell",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Gold"
+  },
+  "etsu": {
+   "id": 170,
+   "school": "ETSU",
+   "name": "Josie Blevins",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Navy and Gold"
+  },
+  "furman": {
+   "id": 171,
+   "school": "Furman",
+   "name": "Grady Pinckney",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and White"
+  },
+  "mercer": {
+   "id": 172,
+   "school": "Mercer",
+   "name": "Imani Brooks",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Orange and Black"
+  },
+  "samford": {
+   "id": 173,
+   "school": "Samford",
+   "name": "Will Ashford",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Navy and Red"
+  },
+  "tennessee-tech": {
+   "id": 174,
+   "school": "Tennessee Tech",
+   "name": "Ronnie Maddox",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and Gold"
+  },
+  "the-citadel": {
+   "id": 175,
+   "school": "The Citadel",
+   "name": "Col. Avery Lang",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Light Blue and White"
+  },
+  "unc-greensboro": {
+   "id": 176,
+   "school": "UNC Greensboro",
+   "name": "Desmond Hale",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Hoodie",
+   "colors": "Navy and Gold"
+  },
+  "vmi": {
+   "id": 177,
+   "school": "VMI",
+   "name": "Cadet Sam Prentice",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red, White and Gold"
+  },
+  "western-carolina": {
+   "id": 178,
+   "school": "Western Carolina",
+   "name": "Laurel Queen",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and Gold"
+  },
+  "wofford": {
+   "id": 179,
+   "school": "Wofford",
+   "name": "Tucker Boyd",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Old Gold and Black"
+  },
+  "eastern-washington": {
+   "id": 180,
+   "school": "Eastern Washington",
+   "name": "Cody Lindqvist",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and White"
+  },
+  "idaho": {
+   "id": 181,
+   "school": "Idaho",
+   "name": "Josie Carver",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Silver, Gold and Black"
+  },
+  "idaho-state": {
+   "id": 182,
+   "school": "Idaho State",
+   "name": "Dale Pickett",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Orange and Black"
+  },
+  "montana": {
+   "id": 183,
+   "school": "Montana",
+   "name": "Wren Halvorsen",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Maroon and Silver"
+  },
+  "montana-state": {
+   "id": 184,
+   "school": "Montana State",
+   "name": "Brody Kessler",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Blue and Gold"
+  },
+  "northern-arizona": {
+   "id": 185,
+   "school": "Northern Arizona",
+   "name": "Rita Yazzie",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Blue and Gold"
+  },
+  "northern-colorado": {
+   "id": 186,
+   "school": "Northern Colorado",
+   "name": "Gus Ferraro",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy and Gold"
+  },
+  "portland-state": {
+   "id": 187,
+   "school": "Portland State",
+   "name": "Juniper Tran",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Green and White"
+  },
+  "southern-utah": {
+   "id": 188,
+   "school": "Southern Utah",
+   "name": "Tanner Holt",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Red and White"
+  },
+  "utah-tech": {
+   "id": 189,
+   "school": "Utah Tech",
+   "name": "Kenzie Larsen",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy and Red"
+  },
+  "weber-state": {
+   "id": 190,
+   "school": "Weber State",
+   "name": "Mitch Ogden",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and White"
+  },
+  "east-texas-am": {
+   "id": 191,
+   "school": "East Texas A&M",
+   "name": "Earl Whitlock",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Hoodie",
+   "colors": "Navy and Gold"
+  },
+  "houston-christian": {
+   "id": 192,
+   "school": "Houston Christian",
+   "name": "Grace Okafor",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Royal Blue and Orange"
+  },
+  "incarnate-word": {
+   "id": 193,
+   "school": "Incarnate Word",
+   "name": "Rudy Salinas",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Red and Black"
+  },
+  "lamar": {
+   "id": 194,
+   "school": "Lamar",
+   "name": "Cassie Boudreaux",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "Hoodie",
+   "colors": "Red and White"
+  },
+  "mcneese": {
+   "id": 195,
+   "school": "McNeese",
+   "name": "Jean-Luc Fontenot",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "new-orleans": {
+   "id": 196,
+   "school": "New Orleans",
+   "name": "Tamika Batiste",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Royal Blue and Silver"
+  },
+  "nicholls": {
+   "id": 197,
+   "school": "Nicholls",
+   "name": "Remy Thibodeaux",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Red and Gray"
+  },
+  "northwestern-state": {
+   "id": 198,
+   "school": "Northwestern State",
+   "name": "Darla LaCour",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and Orange"
+  },
+  "southeastern-louisiana": {
+   "id": 199,
+   "school": "SE Louisiana",
+   "name": "Bryce Guidry",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Green and Gold"
+  },
+  "stephen-f-austin": {
+   "id": 200,
+   "school": "Stephen F. Austin",
+   "name": "Hollis Pruett",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Hoodie",
+   "colors": "Purple and White"
+  },
+  "texas-am-cc": {
+   "id": 201,
+   "school": "Texas A&M-CC",
+   "name": "Marisa Delgado",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Green"
+  },
+  "utrgv": {
+   "id": 202,
+   "school": "UTRGV",
+   "name": "Diego Cantu",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Orange and Blue"
+  },
+  "kansas-city": {
+   "id": 203,
+   "school": "Kansas City",
+   "name": "Marcus Pryor",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "north-dakota": {
+   "id": 204,
+   "school": "North Dakota",
+   "name": "Ingrid Solberg",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Green and Black"
+  },
+  "north-dakota-state": {
+   "id": 205,
+   "school": "North Dakota State",
+   "name": "Lars Haugen",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Green and Yellow"
+  },
+  "omaha": {
+   "id": 206,
+   "school": "Omaha",
+   "name": "Tess Kowalczyk",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and Black"
+  },
+  "oral-roberts": {
+   "id": 207,
+   "school": "Oral Roberts",
+   "name": "Hal Brennan",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Gold"
+  },
+  "south-dakota": {
+   "id": 208,
+   "school": "South Dakota",
+   "name": "Kayla Two Bulls",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Red and White"
+  },
+  "south-dakota-state": {
+   "id": 209,
+   "school": "South Dakota State",
+   "name": "Jace Thorson",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Yellow"
+  },
+  "st-thomas": {
+   "id": 210,
+   "school": "St. Thomas",
+   "name": "Nora Lindgren",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and Gray"
+  },
+  "abilene-christian": {
+   "id": 211,
+   "school": "Abilene Christian",
+   "name": "Wade Crockett",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Purple and White"
+  },
+  "austin-peay": {
+   "id": 212,
+   "school": "Austin Peay",
+   "name": "Shelby Ray",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and White"
+  },
+  "central-arkansas": {
+   "id": 213,
+   "school": "Central Arkansas",
+   "name": "Dwayne Hollis",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and Gray"
+  },
+  "little-rock": {
+   "id": 214,
+   "school": "Little Rock",
+   "name": "Reggie Barnes",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Maroon and Silver"
+  },
+  "north-alabama": {
+   "id": 215,
+   "school": "North Alabama",
+   "name": "Callie Mae Hester",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Purple and Gold"
+  },
+  "tarleton-state": {
+   "id": 216,
+   "school": "Tarleton State",
+   "name": "Bo Jennings",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Purple and White"
+  },
+  "ut-arlington": {
+   "id": 217,
+   "school": "UT Arlington",
+   "name": "Rosa Treviño",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Orange"
+  },
+  "west-georgia": {
+   "id": 218,
+   "school": "West Georgia",
+   "name": "Terrell Moss",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Blue and Red"
+  },
+  "charleston-southern": {
+   "id": 219,
+   "school": "Charleston Southern",
+   "name": "Lowell Grimes",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Gold"
+  },
+  "gardner-webb": {
+   "id": 220,
+   "school": "Gardner-Webb",
+   "name": "Mary Beth Yount",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Hoodie",
+   "colors": "Red and Black"
+  },
+  "high-point": {
+   "id": 221,
+   "school": "High Point",
+   "name": "Jalen Pierce",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and White"
+  },
+  "longwood": {
+   "id": 222,
+   "school": "Longwood",
+   "name": "Hattie Farmer",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "Polo Shirt",
+   "colors": "Navy and Gray"
+  },
+  "presbyterian": {
+   "id": 223,
+   "school": "Presbyterian",
+   "name": "Calvin Rhodes",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Blue and Garnet"
+  },
+  "radford": {
+   "id": 224,
+   "school": "Radford",
+   "name": "Ainsley MacRae",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Red and White"
+  },
+  "usc-upstate": {
+   "id": 225,
+   "school": "USC Upstate",
+   "name": "Darius Lyles",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Green and Black"
+  },
+  "unc-asheville": {
+   "id": 226,
+   "school": "UNC Asheville",
+   "name": "Fern Whitaker",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Royal Blue and White"
+  },
+  "winthrop": {
+   "id": 227,
+   "school": "Winthrop",
+   "name": "Royce Bynum",
+   "gender": "Man",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Garnet and Gold"
+  },
+  "eastern-illinois": {
+   "id": 228,
+   "school": "Eastern Illinois",
+   "name": "Dana Kohler",
+   "gender": "Woman",
+   "age": "40s",
+   "gear": "Polo Shirt",
+   "colors": "Blue and Gray"
+  },
+  "lindenwood": {
+   "id": 229,
+   "school": "Lindenwood",
+   "name": "Mike Brandt",
+   "gender": "Man",
+   "age": "Mid-30s",
+   "gear": "Hoodie",
+   "colors": "Black and Gold"
+  },
+  "morehead-state": {
+   "id": 230,
+   "school": "Morehead State",
+   "name": "Opal Caudill",
+   "gender": "Woman",
+   "age": "Early 60s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Blue and Gold"
+  },
+  "siue": {
+   "id": 231,
+   "school": "SIUE",
+   "name": "Andre Whitlow",
+   "gender": "Man",
+   "age": "Late 20s",
+   "gear": "Polo Shirt",
+   "colors": "Red and Black"
+  },
+  "southeast-missouri": {
+   "id": 232,
+   "school": "SEMO",
+   "name": "Bonnie Kasten",
+   "gender": "Woman",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Red and Black"
+  },
+  "southern-indiana": {
+   "id": 233,
+   "school": "Southern Indiana",
+   "name": "Clint Mattingly",
+   "gender": "Man",
+   "age": "40s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Navy and Red"
+  },
+  "tennessee-state": {
+   "id": 234,
+   "school": "Tennessee State",
+   "name": "Vivian Earl",
+   "gender": "Woman",
+   "age": "Mid-30s",
+   "gear": "Polo Shirt",
+   "colors": "Royal Blue and White"
+  },
+  "ut-martin": {
+   "id": 235,
+   "school": "UT Martin",
+   "name": "Buck Tolley",
+   "gender": "Man",
+   "age": "50s",
+   "gear": "Hoodie",
+   "colors": "Navy and Orange"
+  },
+  "western-illinois": {
+   "id": 236,
+   "school": "Western Illinois",
+   "name": "Jess Rademacher",
+   "gender": "Woman",
+   "age": "Late 20s",
+   "gear": "3/4 Zip Pullover",
+   "colors": "Purple and Gold"
+  },
+  "binghamton": {
+   "id": 237,
+   "school": "Binghamton",
+   "name": "Dana Kessler",
+   "gender": "Woman",
+   "age": "Older",
+   "gear": "hoodie",
+   "colors": "green and white"
+  },
+  "bryant": {
+   "id": 238,
+   "school": "Bryant",
+   "name": "Marcus Bell",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "black and gold"
+  },
+  "maine": {
+   "id": 239,
+   "school": "Maine",
+   "name": "Hollis Grant",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "polo shirt",
+   "colors": "navy and light blue"
+  },
+  "njit": {
+   "id": 240,
+   "school": "NJIT",
+   "name": "Priya Raman",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "red and navy"
+  },
+  "new-hampshire": {
+   "id": 241,
+   "school": "New Hampshire",
+   "name": "Tom Leary",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "quarter-zip pullover",
+   "colors": "blue and white"
+  },
+  "ualbany": {
+   "id": 242,
+   "school": "UAlbany",
+   "name": "Renee Castillo",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "purple and gold"
+  },
+  "umbc": {
+   "id": 243,
+   "school": "UMBC",
+   "name": "Darnell Hughes",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "hoodie",
+   "colors": "black and gold"
+  },
+  "umass-lowell": {
+   "id": 244,
+   "school": "UMass Lowell",
+   "name": "Kerry Flanagan",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "blue and red"
+  },
+  "vermont": {
+   "id": 245,
+   "school": "Vermont",
+   "name": "Asa Whitcomb",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "polo shirt",
+   "colors": "green and gold"
+  },
+  "american-u": {
+   "id": 246,
+   "school": "American",
+   "name": "Monica Ruiz",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "red and navy"
+  },
+  "army": {
+   "id": 247,
+   "school": "Army",
+   "name": "Grant Holloway",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "quarter-zip pullover",
+   "colors": "black and gold"
+  },
+  "boston-u": {
+   "id": 248,
+   "school": "Boston University",
+   "name": "Siobhan Doyle",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "scarlet and white"
+  },
+  "bucknell": {
+   "id": 249,
+   "school": "Bucknell",
+   "name": "Pete Lindqvist",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "hoodie",
+   "colors": "navy and orange"
+  },
+  "colgate": {
+   "id": 250,
+   "school": "Colgate",
+   "name": "Lauren Cho",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "maroon and white"
+  },
+  "holy-cross": {
+   "id": 251,
+   "school": "Holy Cross",
+   "name": "Frank Moriarty",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "polo shirt",
+   "colors": "purple and white"
+  },
+  "lafayette": {
+   "id": 252,
+   "school": "Lafayette",
+   "name": "Nadia Brooks",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "maroon and white"
+  },
+  "lehigh": {
+   "id": 253,
+   "school": "Lehigh",
+   "name": "Carl Brenner",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "quarter-zip pullover",
+   "colors": "brown and white"
+  },
+  "loyola-md": {
+   "id": 254,
+   "school": "Loyola Maryland",
+   "name": "Tessa Quinn",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "green and gray"
+  },
+  "navy": {
+   "id": 255,
+   "school": "Navy",
+   "name": "Jamal Pierce",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "hoodie",
+   "colors": "navy and gold"
+  },
+  "chicago-state": {
+   "id": 256,
+   "school": "Chicago State",
+   "name": "Andre Whitfield",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "green and white"
+  },
+  "stonehill": {
+   "id": 257,
+   "school": "Stonehill",
+   "name": "Megan Costa",
+   "gender": "Woman",
+   "age": "Older",
+   "gear": "polo shirt",
+   "colors": "purple and white"
+  },
+  "central-connecticut": {
+   "id": 258,
+   "school": "Central Connecticut",
+   "name": "Joe Pawlowski",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "blue and white"
+  },
+  "fairleigh-dickinson": {
+   "id": 259,
+   "school": "Fairleigh Dickinson",
+   "name": "Alina Petrova",
+   "gender": "Woman",
+   "age": "Middle-Aged",
+   "gear": "quarter-zip pullover",
+   "colors": "navy and red"
+  },
+  "mercyhurst": {
+   "id": 260,
+   "school": "Mercyhurst",
+   "name": "Brian Kowalczyk",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "green and navy"
+  },
+  "le-moyne": {
+   "id": 261,
+   "school": "Le Moyne",
+   "name": "Gina Russo",
+   "gender": "Woman",
+   "age": "Older",
+   "gear": "hoodie",
+   "colors": "green and gold"
+  },
+  "new-haven": {
+   "id": 262,
+   "school": "New Haven",
+   "name": "Luis Ortega",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "navy and gold"
+  },
+  "wagner": {
+   "id": 263,
+   "school": "Wagner",
+   "name": "Kate Brennan",
+   "gender": "Woman",
+   "age": "Middle-Aged",
+   "gear": "polo shirt",
+   "colors": "green and white"
+  },
+  "liu": {
+   "id": 264,
+   "school": "LIU",
+   "name": "Victor Lam",
+   "gender": "Man",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "light blue and gold"
+  },
+  "morgan-state": {
+   "id": 265,
+   "school": "Morgan State",
+   "name": "Cedric Ward",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "quarter-zip pullover",
+   "colors": "blue and orange"
+  },
+  "south-carolina-state": {
+   "id": 266,
+   "school": "South Carolina State",
+   "name": "Janelle Mims",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "garnet and blue"
+  },
+  "norfolk-state": {
+   "id": 267,
+   "school": "Norfolk State",
+   "name": "Terrence Boyd",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "hoodie",
+   "colors": "green and gold"
+  },
+  "delaware-state": {
+   "id": 268,
+   "school": "Delaware State",
+   "name": "Alicia Grant",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "red and light blue"
+  },
+  "howard": {
+   "id": 269,
+   "school": "Howard",
+   "name": "Malcolm Reed",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "polo shirt",
+   "colors": "navy and red"
+  },
+  "umes": {
+   "id": 270,
+   "school": "Maryland Eastern Shore",
+   "name": "Shanice Hall",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "maroon and gray"
+  },
+  "coppin-state": {
+   "id": 271,
+   "school": "Coppin State",
+   "name": "Derrick Fields",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "quarter-zip pullover",
+   "colors": "royal blue and gold"
+  },
+  "nc-central": {
+   "id": 272,
+   "school": "NC Central",
+   "name": "Toya Barnes",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "maroon and gray"
+  },
+  "alabama-am": {
+   "id": 273,
+   "school": "Alabama A&M",
+   "name": "Reginald Toney",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "hoodie",
+   "colors": "maroon and white"
+  },
+  "grambling": {
+   "id": 274,
+   "school": "Grambling",
+   "name": "Keisha Robinson",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "black and gold"
+  },
+  "prairie-view": {
+   "id": 275,
+   "school": "Prairie View",
+   "name": "Marcus Delane",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "polo shirt",
+   "colors": "purple and gold"
+  },
+  "jackson-state": {
+   "id": 276,
+   "school": "Jackson State",
+   "name": "Brianna Coleman",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "navy and white"
+  },
+  "alabama-state": {
+   "id": 277,
+   "school": "Alabama State",
+   "name": "Curtis Mayes",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "quarter-zip pullover",
+   "colors": "black and gold"
+  },
+  "mvsu": {
+   "id": 278,
+   "school": "Mississippi Valley State",
+   "name": "Lorraine Pickett",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "green and white"
+  },
+  "alcorn": {
+   "id": 279,
+   "school": "Alcorn State",
+   "name": "Darius Hill",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "hoodie",
+   "colors": "purple and gold"
+  },
+  "uapb": {
+   "id": 280,
+   "school": "Arkansas-Pine Bluff",
+   "name": "Tamika Jordan",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "quarter-zip pullover",
+   "colors": "black and gold"
+  },
+  "florida-am": {
+   "id": 281,
+   "school": "Florida A&M",
+   "name": "Andre Baptiste",
+   "gender": "Man",
+   "age": "Older",
+   "gear": "polo shirt",
+   "colors": "orange and green"
+  },
+  "texas-southern": {
+   "id": 282,
+   "school": "Texas Southern",
+   "name": "Simone Okafor",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "hoodie",
+   "colors": "maroon and gray"
+  },
+  "bethune-cookman": {
+   "id": 283,
+   "school": "Bethune-Cookman",
+   "name": "Isaiah Grant",
+   "gender": "Man",
+   "age": "Middle-Aged",
+   "gear": "quarter-zip pullover",
+   "colors": "maroon and gold"
+  },
+  "southern-u": {
+   "id": 284,
+   "school": "Southern",
+   "name": "Monique Batiste",
+   "gender": "Woman",
+   "age": "Young Adult",
+   "gear": "polo shirt",
+   "colors": "Columbia blue and gold"
   }
  }
 }
