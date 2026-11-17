@@ -573,7 +573,7 @@ def main():
                 last_pic = last_pic if on_card else v
             lines.append({"speaker": sp, "say": t, "caption": t, "visual": v})
         spec = {"title": f"Lucky Seven {e['n']} {e['state']}", "own_credit": "Pictures from Wikimedia Commons, credited above",
-                "save_all_vo": True, "voices": {k: v for k, v in VOICES.items() if k in used}, "lines": lines}
+                "save_all_vo": True, "rev": 2, "voices": {k: v for k, v in VOICES.items() if k in used}, "lines": lines}
         json.dump(spec, open(d / "lines.json", "w"), indent=1, ensure_ascii=False)
         json.dump({"commons": e["queries"]}, open(d / "broll_queries.json", "w"), indent=1)
         words = sum(len(t.split()) for _, t, _ in e["lines"])
