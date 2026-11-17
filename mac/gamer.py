@@ -226,6 +226,62 @@ def flavor_lines(g: dict[str, Any], flavor: dict[str, Any], names: dict[str, str
     return res
 
 
+def bench_notes(us: dict[str, Any], them: dict[str, Any], un: str, tn: str, us_won: bool,
+                us_spread: float | None, margin: int, already: str = "") -> list[str]:
+    """The second anchor's notes (Matthew, Nov 17 2026: two reporters on a game, the other one's notes in a
+    different shade "particularly when daylight or delta emerges in how the anchors would report the facts").
+
+    `us` is the second anchor's team, `them` the lead anchor's. Only box-score and closing-line facts that the
+    other bench would lead with and the lead story doesn't: the losing side's stat wins, a lead it held, a
+    cover, a free-throw gap; the winning side's wire-to-wire night. Best two, or none when there is no daylight.
+    Sentences already in the story (`already`) are left out."""
+    us_s, th_s = us.get("stats") or {}, them.get("stats") or {}
+
+    def n(st: dict[str, Any], key: str) -> int | None:
+        return _num(st, key)
+
+    cands: list[tuple[float, str]] = []
+    ua = _att(us_s, "freeThrowsMade-freeThrowsAttempted")
+    ta = _att(th_s, "freeThrowsMade-freeThrowsAttempted")
+    if ua is not None and ta is not None and ta - ua >= 10:
+        cands.append(((ta - ua) / 10 + (0.5 if not us_won else 0), f"{tn} shot {ta} free throws; {un} shot {ua}."))
+    if not us_won:
+        ll = n(us_s, "largestLead")
+        if ll is not None and ll >= 8:
+            cands.append((1 + ll / 10, f"{un} led by as many as {ll}."))
+        if us_spread is not None and us_spread > 0 and margin < us_spread:
+            cands.append((1.6 + (us_spread - margin) / 5, f"{un} lost by {margin} as a {us_spread:g}-point underdog, a cover."))
+        for key, label, high, gap_min in (("totalRebounds", "rebounds", True, 6),
+                                          ("offensiveRebounds", "offensive rebounds", True, 5),
+                                          ("totalTurnovers", "turnovers", False, 5),
+                                          ("threePointFieldGoalsMade-threePointFieldGoalsAttempted", "3-pointers", True, 4),
+                                          ("pointsInPaint", "points in the paint", True, 10),
+                                          ("fastBreakPoints", "fast-break points", True, 8)):
+            x, y = n(us_s, key), n(th_s, key)
+            if x is None or y is None:
+                continue
+            gap = (x - y) if high else (y - x)
+            if gap < gap_min:
+                continue
+            text = (f"{un} committed {x} turnovers to {tn}'s {y}." if key == "totalTurnovers"
+                    else f"{un} had {x} {label} to {tn}'s {y}.")
+            cands.append((gap / gap_min, text))
+    else:
+        tl = n(th_s, "largestLead")
+        if tl == 0 and margin >= 1:
+            cands.append((1.5, f"{un} never trailed."))
+    cands.sort(key=lambda x: -x[0])
+    out = [t for _, t in cands if t not in already]
+    return out[:2]
+
+
+def _att(stats: dict[str, Any], key: str) -> int | None:
+    try:
+        return int(str(stats.get(key)).split("-")[1])
+    except (TypeError, ValueError, IndexError):
+        return None
+
+
 def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str, Any] | None = None,
           bios: dict[str, dict[str, Any]] | None = None, nba: tuple[dict, dict] | None = None) -> dict[str, Any]:
     """Headline, paragraphs and flavor lines for one finished game, from game_page_context().
@@ -312,9 +368,30 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
     towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
     asides = press.game_asides(hk, ak, home_won, spread, {"home": hn, "away": an}, towns, margin,
                                str(g.get("game_id")), neutral=bool(g.get("neutral_site")), before=g.get("date"))
+    lead = press.lead_key(hk, ak)
+    # the other bench may be in another edition, whose teams carry no key on this edition's pages
+    from .cards import team_of
+    hk2 = hk or ((team_of(home.get("espn_id")) or (None,))[0] or None)
+    ak2 = ak or ((team_of(away.get("espn_id")) or (None,))[0] or None)
+    hk2, ak2 = getattr(hk2, "key", hk2), getattr(ak2, "key", ak2)
+    other = (ak2 if lead == hk2 else hk2) if lead else None
+    second, notes = press.desk(other), []
+    if second and second.get("name") and other != lead:
+        us, them = (away, home) if other == ak2 else (home, away)
+        un, tn = (an, hn) if other == ak2 else (hn, an)
+        us_spread = None if spread is None else (float(spread) if other == hk2 else -float(spread))
+        notes = bench_notes(us, them, un, tn, (other == hk2) == home_won, us_spread, margin, " ".join(paras))
+    if not notes:
+        second = None
     return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
             "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),
-            "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides}
+            "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides,
+            "second": second, "notes": notes, "second_color": _color(other) if second else None}
+
+
+def _color(key: str | None) -> str | None:
+    from .leagues import ALL
+    return next((t.color for lg in ALL.values() for t in lg.teams if t.key == key), None) if key else None
 
 
 def scoring_line(sides: list[tuple[str, list[dict[str, Any]]]]) -> str:
