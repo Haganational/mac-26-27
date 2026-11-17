@@ -10,18 +10,18 @@
 "flavor": [
 "The original building of the first Pizza Hut, a Wichita creation of 1958, now stands on the Wichita State campus."
 ],
-"byline": "Hank Dreiling",
+"byline": "Hank Dreiling, The Wichita Ledger",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "wichita-state",
 "name": "Hank Dreiling",
-"paper": null,
-"town": "",
+"paper": "The Wichita Ledger",
+"town": "Wichita",
 "href": "anchors/wichita-state.html"
 },
 "asides": [],
 "published": "2026-11-17T13:07:19Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401918949": {
 "headline": "Louisville vs. Memphis prediction: model has Louisville by 8",
@@ -45,18 +45,18 @@
 "flavor": [
 "South Florida's Yuengling Center was known as the USF Sun Dome from 1980 to 2018, and Alice Cooper played the Tampa building's first concert on November 25, 1980."
 ],
-"byline": "Nico Albrecht",
+"byline": "Nico Albrecht, The Tampa Argus",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "south-florida",
 "name": "Nico Albrecht",
-"paper": null,
-"town": "",
+"paper": "The Tampa Argus",
+"town": "Tampa",
 "href": "anchors/south-florida.html"
 },
 "asides": [],
 "published": "2026-11-16T12:38:25Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401919018": {
 "headline": "Florida International vs. UAB prediction: model has Florida International by 1",
@@ -68,13 +68,13 @@
 "flavor": [
 "UAB was a founding member of the Great Midwest Conference in 1991 and joined Conference USA in 1995 before moving to the American Conference."
 ],
-"byline": "Terrence Mabry",
+"byline": "Terrence Mabry, The Birmingham Intelligencer",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "uab",
 "name": "Terrence Mabry",
-"paper": null,
-"town": "",
+"paper": "The Birmingham Intelligencer",
+"town": "Birmingham",
 "href": "anchors/uab.html"
 },
 "asides": [
@@ -82,11 +82,11 @@
 "key": "uab",
 "text": "Florida International plays fast. My hunch: UAB drags this into the mud, and nobody wins a mud fight with the Blazers.",
 "name": "Terrence Mabry",
-"paper": ""
+"paper": "The Birmingham Intelligencer"
 }
 ],
 "published": "2026-11-16T12:38:25Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401921097": {
 "headline": "Texas A&M-Corpus Christi vs. Rice prediction: model has Rice by 3",
@@ -98,18 +98,18 @@
 "flavor": [
 "Rob Lanier is Rice's men's basketball head coach, and in June 2026 the Owls announced five new signees for the 2026-27 school year."
 ],
-"byline": "Eleanor Pryce",
+"byline": "Eleanor Pryce, The Houston Almanac",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "rice",
 "name": "Eleanor Pryce",
-"paper": null,
-"town": "",
+"paper": "The Houston Almanac",
+"town": "Houston",
 "href": "anchors/rice.html"
 },
 "asides": [],
 "published": "2026-11-16T13:05:15Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401922212": {
 "headline": "FGCU vs. FAU prediction",
@@ -121,19 +121,25 @@
 "flavor": [
 "In November 2022 Florida Atlantic received a $7.5 million gift from Eleanor R. Baldwin to rename its basketball arena in Boca Raton, which now carries her name."
 ],
-"byline": "Hardwood Bricks staff",
+"byline": "The Boca Raton Clarion",
 "staff": "Hardwood Bricks staff",
-"lead": null,
+"lead": {
+"key": "fau",
+"name": null,
+"paper": "The Boca Raton Clarion",
+"town": "Boca Raton",
+"href": null
+},
 "asides": [
 {
 "key": "fau",
 "text": "Watch the first ten minutes; if FAU hit early, the whole gym will be on its feet, even the folks in loafers.",
 "name": "",
-"paper": ""
+"paper": "The Boca Raton Clarion"
 }
 ],
 "published": "2026-11-17T12:07:42Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401925775": {
 "headline": "Charlotte vs. Davidson prediction: model has Davidson by 7",
@@ -145,18 +151,18 @@
 "flavor": [
 "Wes Miller, a former North Carolina player who coached UNC Greensboro and Cincinnati, was named Charlotte's head coach on March 23, 2026."
 ],
-"byline": "Desmond Okoye",
+"byline": "Desmond Okoye, The Charlotte Courant",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "charlotte",
 "name": "Desmond Okoye",
-"paper": null,
-"town": "",
+"paper": "The Charlotte Courant",
+"town": "Charlotte",
 "href": "anchors/charlotte.html"
 },
 "asides": [],
 "published": "2026-11-16T12:38:25Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 },
 "401925812": {
 "headline": "Temple vs. La Salle prediction: model has La Salle by 5",
@@ -207,13 +213,13 @@
 "flavor": [
 "UTSA retired Derrick Gervin's No. 30 in 2006; he played for the Roadrunners from 1981 to 1985."
 ],
-"byline": "Ximena Salazar",
+"byline": "Ximena Salazar, The San Antonio Beacon",
 "staff": "Hardwood Bricks staff",
 "lead": {
 "key": "utsa",
 "name": "Ximena Salazar",
-"paper": null,
-"town": "",
+"paper": "The San Antonio Beacon",
+"town": "San Antonio",
 "href": "anchors/utsa.html"
 },
 "asides": [
@@ -221,10 +227,10 @@
 "key": "utsa",
 "text": "Florida A&M is good in the half court. UTSA has to win the scramble moments: loose balls, long rebounds, extra effort.",
 "name": "Ximena Salazar",
-"paper": ""
+"paper": "The San Antonio Beacon"
 }
 ],
 "published": "2026-11-17T13:07:19Z",
-"modified": "2026-11-17T18:35:55Z"
+"modified": "2026-11-17T19:05:35Z"
 }
 }

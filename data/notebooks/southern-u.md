@@ -21,9 +21,9 @@ _Southern (SWAC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**13 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
+**37 of 100, testy.** Record 1-5 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 83% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -37,7 +37,7 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -47,3 +47,5 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 - 2026-11-11: L 47-84 at Iowa State Cyclones. Barometer 19 (despondent). <!-- g:401909773 -->
 - 2026-11-13: L 61-91 at Minnesota Golden Gophers. Barometer 13 (despondent). <!-- g:401916306 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/swac/games/401928360.html <!-- post:401928360:preview -->
+- 2026-11-17: W 100-58 vs Louisiana Christian Wildcats. Barometer 37 (testy). <!-- g:401928360 -->
+- 2026-11-17: Social recap posted (W 100-58 vs Louisiana Christian Wildcats): https://hardwoodbricks.com/swac/games/401928360.html <!-- post:401928360:recap -->
