@@ -2145,21 +2145,21 @@
     "key": null,
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": 63,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2275",
     "key": "hofstra",
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 61,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926834",
@@ -11594,5 +11594,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T19:07:01+00:00"
+ "live_at": "2026-11-17T19:35:53+00:00"
 }

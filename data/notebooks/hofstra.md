@@ -21,9 +21,9 @@ _Hofstra (CAA). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sal editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sal editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -38,7 +38,7 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -49,3 +49,5 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 - 2026-11-14: W 62-59 vs Iona Gaels. Barometer 50 (steady). <!-- g:401921191 -->
 - 2026-11-14: Social recap posted (W 62-59 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401921191.html <!-- post:401921191:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:preview -->
+- 2026-11-17: L 66-82 vs (neutral) Murray State Racers. Barometer 42 (testy). <!-- g:401927381 -->
+- 2026-11-17: Social recap posted (L 66-82 vs Murray State Racers): https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:recap -->

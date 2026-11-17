@@ -21,9 +21,9 @@ _Murray State (Missouri Valley). Anchors are fictional AI personas, not affiliat
 
 ## Barometer
 
-**84 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**88 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Magnolia editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Magnolia editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -38,7 +38,7 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -47,3 +47,5 @@ _Not filled in yet. The desk is researching enrollment, tuition, endowment, foot
 - 2026-11-11: W 94-57 vs Alcorn State Braves. Barometer 78 (buoyant). <!-- g:401925685 -->
 - 2026-11-14: W 99-78 vs Texas Southern Tigers. Barometer 84 (giddy). <!-- g:401927380 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:preview -->
+- 2026-11-17: W 82-66 vs (neutral) Hofstra Pride. Barometer 88 (giddy). <!-- g:401927381 -->
+- 2026-11-17: Social recap posted (W 82-66 vs Hofstra Pride): https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:recap -->
