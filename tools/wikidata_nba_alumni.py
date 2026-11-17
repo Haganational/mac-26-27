@@ -73,6 +73,34 @@ NICK = {"ATL": "Hawks", "BOS": "Celtics", "BKN": "Nets", "CHA": "Hornets", "CHI"
 # University or team labels that don't share words with our team names. Filled from the run log.
 SCHOOL_ALIASES: dict[str, list[str]] = {
     "VCU Rams": ["Virginia Commonwealth University"],
+    "Pennsylvania Quakers": ["University of Pennsylvania", "Penn Quakers"],
+    "Seattle U Redhawks": ["Seattle University", "Seattle Redhawks", "Seattle Chieftains"],
+    "Grambling Tigers": ["Grambling State University", "Grambling State Tigers"],
+    "Prairie View A&M Panthers": ["Prairie View A&M University"],
+    "App State Mountaineers": ["Appalachian State University", "Appalachian State Mountaineers"],
+    "Milwaukee Panthers": ["University of Wisconsin-Milwaukee", "UW-Milwaukee Panthers", "Wisconsin-Milwaukee Panthers"],
+    "Sacramento State Hornets": ["California State University, Sacramento", "Sacramento State University"],
+    "Stephen F. Austin Lumberjacks": ["Stephen F. Austin State University"],
+    "UL Monroe Warhawks": ["University of Louisiana at Monroe", "Northeast Louisiana University", "Louisiana-Monroe Warhawks", "Northeast Louisiana Indians"],
+    "UNC Greensboro Spartans": ["University of North Carolina at Greensboro"],
+    "UNC Asheville Bulldogs": ["University of North Carolina at Asheville"],
+    "Arkansas-Pine Bluff Golden Lions": ["University of Arkansas at Pine Bluff"],
+    "Maryland Eastern Shore Hawks": ["University of Maryland Eastern Shore"],
+    "SIU Edwardsville Cougars": ["Southern Illinois University Edwardsville"],
+    "UT Arlington Mavericks": ["University of Texas at Arlington", "Texas-Arlington Mavericks"],
+    "UT Martin Skyhawks": ["University of Tennessee at Martin", "Tennessee-Martin Skyhawks"],
+    "Omaha Mavericks": ["University of Nebraska Omaha", "Nebraska-Omaha Mavericks"],
+    "UAlbany Great Danes": ["University at Albany, SUNY", "Albany Great Danes", "University at Albany"],
+    "The Citadel Bulldogs": ["The Citadel", "The Citadel, The Military College of South Carolina"],
+    "NJIT Highlanders": ["New Jersey Institute of Technology"],
+    "Loyola Maryland Greyhounds": ["Loyola University Maryland", "Loyola Greyhounds", "Loyola College in Maryland"],
+    "St. Thomas Tommies": ["University of St. Thomas (Minnesota)", "St. Thomas Tommies"],
+    "East Texas A&M Lions": ["Texas A&M University-Commerce", "East Texas State University", "Texas A&M-Commerce Lions", "East Texas State Lions"],
+    "Sam Houston Bearkats": ["Sam Houston State University", "Sam Houston State Bearkats"],
+    "Texas A&M-Corpus Christi Islanders": ["Texas A&M University-Corpus Christi"],
+    "Bethune-Cookman Wildcats": ["Bethune-Cookman University"],
+    "Gardner-Webb Runnin' Bulldogs": ["Gardner-Webb University"],
+    "Southern Indiana Screaming Eagles": ["University of Southern Indiana"],
     "UIC Flames": ["University of Illinois Chicago", "University of Illinois at Chicago", "UIC Flames men's basketball"],
     "Southern Illinois Salukis": ["Southern Illinois University Carbondale"],
     "Loyola Chicago Ramblers": ["Loyola University Chicago", "Loyola Ramblers"],
@@ -118,6 +146,7 @@ SCHOOL_ALIASES: dict[str, list[str]] = {
 
 
 def norm(s: str) -> str:
+    s = re.sub("[\u2010-\u2015\u2212/]", " ", s)  # Wikidata writes Arkansas–Pine Bluff with an en dash
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = s.replace("men's basketball", "").replace("basketball", "")
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
@@ -197,7 +226,7 @@ SELECT DISTINCT ?p ?pl ?cl WHERE {{
     print("rows", len(tnames), rows, len(players))
     by_school: dict[str, list] = {tid: [] for tid in teams}
     for qid, p in players.items():
-        if not p["teams"] or re.fullmatch(r"Q\d+", p["name"]):
+        if not p["teams"] or not p["name"] or re.fullmatch(r"Q\d+", p["name"]):
             continue
         for tid in p["schools"]:
             by_school[tid].append({"name": p["name"], "qid": qid.rsplit("/", 1)[-1], "teams": sorted(p["teams"])})
