@@ -200,6 +200,7 @@ def facts_lines(key: str) -> list[str]:
     row("Population", "population")
     row("Population in 2020", "population_2020")
     row("Median household income", "median_household_income", _money)
+    row("Income per person", "per_capita_income", _money)
     row("Median rent", "median_gross_rent", lambda v: f"${v:,.0f} a month")
     row("Median home value", "median_home_value", _money)
     row("Poverty rate", "poverty_rate", lambda v: f"{v}%")

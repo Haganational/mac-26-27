@@ -31,7 +31,31 @@ _Kent State (MAC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 25,830 (Fall 2025)
+- Endowment: $218.5 million (FY2025)
+- Football: FBS
+- Men's basketball coach's pay: $500,000 (2025-26 through 2030-31)
+
+**Kent**
+- Population: 27,116 (ACS 2024 5-year)
+- Median household income: $42,964 (ACS 2024 5-year)
+- Income per person: $28,098 (ACS 2024 5-year)
+- Median home value: $219,900 (ACS 2024 5-year)
+- Poverty rate: 27.1% (ACS 2024 5-year)
+- Median age: 23.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 47.1% (ACS 2024 5-year)
+- Average commute: 20.8 minutes (ACS 2024 5-year)
+- Veterans: 892 (ACS 2024 5-year)
+- Born abroad: 6.7% (ACS 2024 5-year)
+- Founded: 1805
+- Biggest employer: Kent State University
+- Snow a year: 47.5 inches
+- Elevation: 1,056 feet
+- County: Portage County
+- ICE 287(g) agreement in the county: yes, Portage County Sheriff's Office (None)
+- The coach's pay equals 12 median Kent household incomes
+- College-town index: 0.95 students per resident (the school is the town)
 
 ## The program's best
 

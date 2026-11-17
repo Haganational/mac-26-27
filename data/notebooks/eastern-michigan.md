@@ -31,7 +31,32 @@ _Eastern Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,176 (Fall 2024)
+- Tuition and fees, in state: $16,240 (2024-25)
+- Tuition and fees, out of state: $16,240 (2024-25)
+- Endowment: $94.0 million (FY2022 (as of July 31, 2022))
+- Football: FBS
+- Men's basketball coach's pay: $400,000 (2026 hire (six-year deal))
+- Students on Pell Grants: 38% (2022-23)
+- Arena named for: George Gervin (Hall of Famer, EMU alum) plus GameAbove (sponsor name) (Gervin: NBA/ABA career; GameAbove company not identified on page; no gift amount stated)
+
+**Ypsilanti**
+- Population: 19,857 (ACS 2024 5-year)
+- Median household income: $46,588 (ACS 2024 5-year)
+- Income per person: $32,628 (ACS 2024 5-year)
+- Median home value: $232,700 (ACS 2024 5-year)
+- Poverty rate: 24.8% (ACS 2024 5-year)
+- Median age: 27.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 46.9% (ACS 2024 5-year)
+- Average commute: 23 minutes (ACS 2024 5-year)
+- Veterans: 595 (ACS 2024 5-year)
+- Born abroad: 10.7% (ACS 2024 5-year)
+- Founded: 1823
+- Elevation: 719 feet
+- County: Washtenaw County
+- The coach's pay equals 9 median Ypsilanti household incomes
+- College-town index: 0.61 students per resident (the school is the town)
 
 ## The program's best
 

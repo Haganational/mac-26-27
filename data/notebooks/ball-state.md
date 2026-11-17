@@ -31,7 +31,34 @@ _Ball State (MAC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,089 (Fall 2024)
+- Tuition and fees, in state: $11,082 (2024-25)
+- Tuition and fees, out of state: $29,630 (2024-25)
+- Endowment: $411.0 million (FY2024)
+- Football: FBS
+- Students on Pell Grants: 37% (2023-24)
+- Arena named for: John E. Worthen (former Ball State president) (university president; no naming gift reported)
+
+**Muncie**
+- Population: 65,055 (ACS 2024 1-year)
+- Median household income: $41,417 (ACS 2024 1-year)
+- Income per person: $25,080 (ACS 2024 1-year)
+- Median home value: $97,200 (ACS 2024 1-year)
+- Poverty rate: 30.7% (ACS 2024 1-year)
+- Median age: 29.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.7% (ACS 2024 1-year)
+- Average commute: 18.1 minutes (ACS 2024 5-year)
+- Veterans: 2,214 (ACS 2024 1-year)
+- Born abroad: 4.1% (ACS 2024 1-year)
+- Founded: 1827
+- County seat: yes
+- Biggest employer: Ball State University
+- January average: 28.6°F
+- Snow a year: 25.4 inches
+- Elevation: 935 feet
+- County: Delaware County
+- College-town index: 0.32 students per resident (a big presence)
 
 ## The program's best
 

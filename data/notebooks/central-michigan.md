@@ -31,7 +31,31 @@ _Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,423 (Fall 2023)
+- Tuition and fees, in state: $14,190 (2023-24)
+- Tuition and fees, out of state: $14,190 (2023-24)
+- Endowment: $284.3 million (2025)
+- Football: FBS
+- Students on Pell Grants: 31% (2022-23)
+
+**Mount Pleasant**
+- Population: 21,236 (ACS 2024 5-year)
+- Median household income: $44,706 (ACS 2024 5-year)
+- Income per person: $26,603 (ACS 2024 5-year)
+- Median home value: $173,100 (ACS 2024 5-year)
+- Poverty rate: 31.4% (ACS 2024 5-year)
+- Median age: 23.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 42.9% (ACS 2024 5-year)
+- Average commute: 15 minutes (ACS 2024 5-year)
+- Veterans: 737 (ACS 2024 5-year)
+- Born abroad: 5.6% (ACS 2024 5-year)
+- Founded: 1889
+- County seat: yes
+- January average: 22.7°F
+- Elevation: 771 feet
+- County: Isabella County
+- College-town index: 0.68 students per resident (the school is the town)
 
 ## The program's best
 

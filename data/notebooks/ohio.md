@@ -31,7 +31,32 @@ _Ohio (MAC). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,937 (Fall 2023)
+- Tuition and fees, in state: $14,366 (2025-26 cohort)
+- Tuition and fees, out of state: $25,580 (2025-26 cohort)
+- Endowment: $1.00 billion (April 2026)
+- Football: FBS
+
+**Athens**
+- Population: 23,396 (ACS 2024 5-year)
+- Median household income: $38,204 (ACS 2024 5-year)
+- Income per person: $26,028 (ACS 2024 5-year)
+- Median home value: $247,000 (ACS 2024 5-year)
+- Poverty rate: 40% (ACS 2024 5-year)
+- Median age: 21.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 64.1% (ACS 2024 5-year)
+- Average commute: 16.2 minutes (ACS 2024 5-year)
+- Veterans: 671 (ACS 2024 5-year)
+- Born abroad: 6.6% (ACS 2024 5-year)
+- Founded: 1811
+- County seat: yes
+- Biggest employer: Ohio University
+- January average: 29.8°F
+- Snow a year: 17.6 inches
+- Elevation: 709 feet
+- County: Athens County
+- College-town index: 1.07 students per resident (the school is the town)
 
 ## The program's best
 

@@ -31,7 +31,31 @@ _Miami (OH) (MAC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 18,838 (Fall 2024)
+- Tuition and fees, in state: $18,161 (2024-25)
+- Tuition and fees, out of state: $41,221 (2024-25)
+- Endowment: $1.09 billion (FY2025)
+- Football: FBS
+- Students on Pell Grants: 13% (2023-24)
+- Arena named for: John D. Millett (Miami's 16th president) (university president; no naming gift reported)
+
+**Oxford**
+- Population: 21,753 (ACS 2024 5-year)
+- Median household income: $40,764 (ACS 2024 5-year)
+- Income per person: $21,879 (ACS 2024 5-year)
+- Median home value: $238,000 (ACS 2024 5-year)
+- Poverty rate: 45.5% (ACS 2024 5-year)
+- Median age: 21.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 61.1% (ACS 2024 5-year)
+- Average commute: 15.2 minutes (ACS 2024 5-year)
+- Veterans: 478 (ACS 2024 5-year)
+- Born abroad: 9.7% (ACS 2024 5-year)
+- Founded: 1810
+- Elevation: 912 feet
+- County: Butler County
+- ICE 287(g) agreement in the county: yes, Butler County Sheriff's Office (None)
+- College-town index: 0.87 students per resident (the school is the town)
 
 ## The program's best
 

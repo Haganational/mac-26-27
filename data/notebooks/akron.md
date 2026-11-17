@@ -31,7 +31,34 @@ _Akron (MAC). Anchors are fictional AI personas, not affiliated with any school.
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,318 (Fall 2025)
+- Tuition and fees, in state: $13,135 (2024-25)
+- Tuition and fees, out of state: $20,815 (2024-25)
+- Endowment: $235.3 million (FY2020)
+- Football: FBS
+- Students on Pell Grants: 33% (2023-24)
+- Arena named for: Jim Rhodes (former Ohio governor) (politician; not a donor naming (state-funded arena))
+
+**Akron**
+- Population: 189,669 (ACS 2024 1-year)
+- Median household income: $48,521 (ACS 2024 1-year)
+- Income per person: $29,903 (ACS 2024 1-year)
+- Median home value: $142,200 (ACS 2024 1-year)
+- Poverty rate: 22.1% (ACS 2024 1-year)
+- Median age: 37.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 24.2% (ACS 2024 1-year)
+- Average commute: 22.4 minutes (ACS 2024 1-year)
+- Veterans: 7,292 (ACS 2024 1-year)
+- Born abroad: 9.9% (ACS 2024 1-year)
+- Founded: 1825
+- County seat: yes
+- Biggest employer: Summa Health System
+- January average: 27.9°F
+- Snow a year: 47.2 inches
+- Elevation: 945 feet
+- County: Summit County
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 
