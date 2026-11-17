@@ -1,0 +1,44 @@
+name: NBA alumni for the Den grid
+
+# Pulls every NBA player from every school in every edition (mac/leagues.py), with the franchises they played for, from Wikidata
+# (CC0) into data/den/nba_alumni.json for Called Up. Wikidata isn't reachable from every dev
+# sandbox, so this runs here: by hand, once a month, and on pushes that change the fetch script or the
+# list of editions, so a new conference joins the grid on its own.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 9 3 * *"
+  push:
+    paths:
+      - tools/wikidata_nba_alumni.py
+      - .github/workflows/nba-alumni.yml
+      - mac/leagues.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-alumni-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python tools/wikidata_nba_alumni.py
+      - name: Commit the alumni file if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add data/den/nba_alumni.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "data: NBA alumni for the Den grid (Wikidata)"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1
