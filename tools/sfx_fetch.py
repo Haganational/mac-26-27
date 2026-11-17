@@ -36,12 +36,13 @@ for kind, q in jobs:
             print("skip license", lic, p["title"]); continue
         url = ii.get("url", "")
         ext = url.rsplit(".", 1)[-1].lower()
-        if ext not in ("ogg", "oga", "wav", "flac", "mp3", "opus"):
-            continue
+        if ext not in ("ogg", "oga", "wav", "flac", "mp3", "opus", "webm"):
+            print("skip type", ext, url[:90], p["title"]); continue
+        if ii.get("size", 0) > 60_000_000:
+            print("skip size", ii.get("size"), p["title"]); continue
         slug = re.sub(r"[^a-z0-9]+", "-", p["title"][5:].rsplit(".", 1)[0].lower()).strip("-")[:60]
         data = requests.get(url, headers=UA, timeout=120).content
-        if len(data) > 40_000_000:
-            continue
+
         (out / f"{slug}.{ext}").write_bytes(data)
         seen.add(p["title"]); n += 1
         credits.append({"file": f"{slug}.{ext}", "query": q, "title": p["title"], "page": ii.get("descriptionurl", ""),
