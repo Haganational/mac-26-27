@@ -2,29 +2,29 @@
  "date": "2026-11-17",
  "desk": {
   "anchor": {
-   "alt": "Magnus Lindstrom, the Northern Iowa AI anchor",
-   "color": "#4B116F",
-   "color2": "#FFCC00",
-   "initials": "ML",
+   "alt": "Savannah Rowe, the Southern Miss AI anchor",
+   "color": "#000000",
+   "color2": "#FFAB00",
+   "initials": "SR",
    "ink": "#ffffff",
-   "key": "northern-iowa",
-   "name": "Magnus Lindstrom",
-   "portrait": "den/anchors/northern-iowa.webp",
-   "school": "Northern Iowa",
+   "key": "southern-miss",
+   "name": "Savannah Rowe",
+   "portrait": "den/anchors/southern-miss.webp",
+   "school": "Southern Miss",
    "tag": "AI anchor"
   },
-  "max": 129,
+  "max": 156,
   "picks": [
    {
-    "abbr": "UNI",
-    "game_id": "401927388",
+    "abbr": "USM",
+    "game_id": "401929358",
     "kind": "homer",
-    "short": "Northern Iowa",
+    "short": "Southern Miss",
     "side": "home",
-    "team_id": "2460",
+    "team_id": "2572",
     "tip": "2026-11-18T01:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 14
+    "worth": 42
    },
    {
     "abbr": "DAY",
@@ -49,15 +49,15 @@
     "worth": 67
    },
    {
-    "abbr": "UML",
-    "game_id": "401923325",
+    "abbr": "EVAN",
+    "game_id": "401919783",
     "kind": "ratings",
-    "short": "UMass Lowell",
+    "short": "Evansville",
     "side": "home",
-    "team_id": "2349",
-    "tip": "2026-11-17T23:00Z",
-    "why": "Our ratings 89%, pregame win chance 69%.",
-    "worth": 31
+    "team_id": "339",
+    "tip": "2026-11-18T01:00Z",
+    "why": "Our ratings 51%, pregame win chance 70%.",
+    "worth": 30
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -88,6 +88,18 @@
    "worth": 85
   },
   {
+   "abbr": "ARMY",
+   "game_id": "401912230",
+   "key": "army",
+   "kind": "homer",
+   "short": "Army",
+   "side": "home",
+   "team_id": "349",
+   "tip": "2026-11-17T23:00Z",
+   "why": "Homer pick.",
+   "worth": 53
+  },
+  {
    "abbr": "MRST",
    "game_id": "401912230",
    "key": "marist",
@@ -112,6 +124,30 @@
    "worth": 47
   },
   {
+   "abbr": "LIB",
+   "game_id": "401920953",
+   "key": "liberty",
+   "kind": "homer",
+   "short": "Liberty",
+   "side": "away",
+   "team_id": "2335",
+   "tip": "2026-11-17T23:00Z",
+   "why": "Homer pick.",
+   "worth": 53
+  },
+  {
+   "abbr": "UML",
+   "game_id": "401923325",
+   "key": "umass-lowell",
+   "kind": "homer",
+   "short": "UMass Lowell",
+   "side": "home",
+   "team_id": "2349",
+   "tip": "2026-11-17T23:00Z",
+   "why": "Homer pick.",
+   "worth": 30
+  },
+  {
    "abbr": "SPU",
    "game_id": "401923325",
    "key": "saint-peters",
@@ -121,7 +157,7 @@
    "team_id": "2612",
    "tip": "2026-11-17T23:00Z",
    "why": "Homer pick.",
-   "worth": 69
+   "worth": 70
   },
   {
    "abbr": "LIP",
@@ -134,6 +170,18 @@
    "tip": "2026-11-17T23:30Z",
    "why": "Homer pick.",
    "worth": 94
+  },
+  {
+   "abbr": "WCU",
+   "game_id": "401902279",
+   "key": "western-carolina",
+   "kind": "homer",
+   "short": "Western Carolina",
+   "side": "away",
+   "team_id": "2717",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 85
   },
   {
    "abbr": "SHU",
@@ -241,7 +289,7 @@
    "team_id": "2363",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 84
+   "worth": 85
   },
   {
    "abbr": "FOR",
@@ -256,6 +304,30 @@
    "worth": 16
   },
   {
+   "abbr": "USF",
+   "game_id": "401918994",
+   "key": "south-florida",
+   "kind": "homer",
+   "short": "South Florida",
+   "side": "home",
+   "team_id": "58",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 16
+  },
+  {
+   "abbr": "TNST",
+   "game_id": "401918994",
+   "key": "tennessee-state",
+   "kind": "homer",
+   "short": "Tennessee State",
+   "side": "away",
+   "team_id": "2634",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 84
+  },
+  {
    "abbr": "JOES",
    "game_id": "401920194",
    "key": "saint-josephs",
@@ -265,7 +337,31 @@
    "team_id": "2603",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 9
+   "worth": 8
+  },
+  {
+   "abbr": "WAG",
+   "game_id": "401920194",
+   "key": "wagner",
+   "kind": "homer",
+   "short": "Wagner",
+   "side": "away",
+   "team_id": "2681",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 92
+  },
+  {
+   "abbr": "TROY",
+   "game_id": "401920297",
+   "key": "troy",
+   "kind": "homer",
+   "short": "Troy",
+   "side": "home",
+   "team_id": "2653",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 44
   },
   {
    "abbr": "CSUN",
@@ -280,6 +376,42 @@
    "worth": 56
   },
   {
+   "abbr": "NSU",
+   "game_id": "401920308",
+   "key": "norfolk-state",
+   "kind": "homer",
+   "short": "Norfolk State",
+   "side": "away",
+   "team_id": "2450",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 96
+  },
+  {
+   "abbr": "MRSH",
+   "game_id": "401920857",
+   "key": "marshall",
+   "kind": "homer",
+   "short": "Marshall",
+   "side": "home",
+   "team_id": "276",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 47
+  },
+  {
+   "abbr": "ETSU",
+   "game_id": "401920857",
+   "key": "etsu",
+   "kind": "homer",
+   "short": "ETSU",
+   "side": "away",
+   "team_id": "2193",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 53
+  },
+  {
    "abbr": "MSM",
    "game_id": "401920921",
    "key": "mount-st-marys",
@@ -290,6 +422,18 @@
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
    "worth": 48
+  },
+  {
+   "abbr": "LEH",
+   "game_id": "401920921",
+   "key": "lehigh",
+   "kind": "homer",
+   "short": "Lehigh",
+   "side": "away",
+   "team_id": "2329",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 52
   },
   {
    "abbr": "RID",
@@ -328,6 +472,18 @@
    "worth": 33
   },
   {
+   "abbr": "BUCK",
+   "game_id": "401924941",
+   "key": "bucknell",
+   "kind": "homer",
+   "short": "Bucknell",
+   "side": "home",
+   "team_id": "2083",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 88
+  },
+  {
    "abbr": "AKR",
    "game_id": "401924941",
    "key": "akron",
@@ -337,7 +493,7 @@
    "team_id": "2006",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 13
+   "worth": 12
   },
   {
    "abbr": "DAV",
@@ -349,7 +505,31 @@
    "team_id": "2166",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 40
+   "worth": 39
+  },
+  {
+   "abbr": "CLT",
+   "game_id": "401925775",
+   "key": "charlotte",
+   "kind": "homer",
+   "short": "Charlotte",
+   "side": "away",
+   "team_id": "2429",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 61
+  },
+  {
+   "abbr": "KENN",
+   "game_id": "401906761",
+   "key": "kennesaw-state",
+   "kind": "homer",
+   "short": "Kennesaw State",
+   "side": "away",
+   "team_id": "338",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 97
   },
   {
    "abbr": "MASS",
@@ -361,7 +541,91 @@
    "team_id": "113",
    "tip": "2026-11-18T00:30Z",
    "why": "Homer pick.",
-   "worth": 17
+   "worth": 16
+  },
+  {
+   "abbr": "BRY",
+   "game_id": "401911020",
+   "key": "bryant",
+   "kind": "homer",
+   "short": "Bryant",
+   "side": "away",
+   "team_id": "2803",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 84
+  },
+  {
+   "abbr": "UAB",
+   "game_id": "401919018",
+   "key": "uab",
+   "kind": "homer",
+   "short": "UAB",
+   "side": "home",
+   "team_id": "5",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 38
+  },
+  {
+   "abbr": "FIU",
+   "game_id": "401919018",
+   "key": "fiu",
+   "kind": "homer",
+   "short": "FIU",
+   "side": "away",
+   "team_id": "2229",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 62
+  },
+  {
+   "abbr": "LT",
+   "game_id": "401926781",
+   "key": "louisiana-tech",
+   "kind": "homer",
+   "short": "Louisiana Tech",
+   "side": "home",
+   "team_id": "2348",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 45
+  },
+  {
+   "abbr": "JVST",
+   "game_id": "401926781",
+   "key": "jacksonville-state",
+   "kind": "homer",
+   "short": "Jacksonville State",
+   "side": "away",
+   "team_id": "55",
+   "tip": "2026-11-18T00:30Z",
+   "why": "Homer pick.",
+   "worth": 55
+  },
+  {
+   "abbr": "UMES",
+   "game_id": "401909504",
+   "key": "umes",
+   "kind": "homer",
+   "short": "Maryland Eastern Shore",
+   "side": "away",
+   "team_id": "2379",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 97
+  },
+  {
+   "abbr": "ORU",
+   "game_id": "401918970",
+   "key": "oral-roberts",
+   "kind": "homer",
+   "short": "Oral Roberts",
+   "side": "away",
+   "team_id": "198",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 97
   },
   {
    "abbr": "EVAN",
@@ -374,6 +638,66 @@
    "tip": "2026-11-18T01:00Z",
    "why": "Homer pick.",
    "worth": 30
+  },
+  {
+   "abbr": "LEM",
+   "game_id": "401919783",
+   "key": "le-moyne",
+   "kind": "homer",
+   "short": "Le Moyne",
+   "side": "away",
+   "team_id": "2330",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 71
+  },
+  {
+   "abbr": "GASO",
+   "game_id": "401921027",
+   "key": "georgia-southern",
+   "kind": "homer",
+   "short": "Georgia Southern",
+   "side": "home",
+   "team_id": "290",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 55
+  },
+  {
+   "abbr": "MTSU",
+   "game_id": "401921027",
+   "key": "middle-tennessee",
+   "kind": "homer",
+   "short": "Middle Tennessee",
+   "side": "away",
+   "team_id": "2393",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 45
+  },
+  {
+   "abbr": "RICE",
+   "game_id": "401921097",
+   "key": "rice",
+   "kind": "homer",
+   "short": "Rice",
+   "side": "home",
+   "team_id": "242",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 46
+  },
+  {
+   "abbr": "AMCC",
+   "game_id": "401921097",
+   "key": "texas-am-cc",
+   "kind": "homer",
+   "short": "Texas A&M-CC",
+   "side": "away",
+   "team_id": "357",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 54
   },
   {
    "abbr": "ILST",
@@ -400,6 +724,66 @@
    "worth": 92
   },
   {
+   "abbr": "EIU",
+   "game_id": "401921826",
+   "key": "eastern-illinois",
+   "kind": "homer",
+   "short": "Eastern Illinois",
+   "side": "away",
+   "team_id": "2197",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 97
+  },
+  {
+   "abbr": "OMA",
+   "game_id": "401925012",
+   "key": "omaha",
+   "kind": "homer",
+   "short": "Omaha",
+   "side": "home",
+   "team_id": "2437",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 54
+  },
+  {
+   "abbr": "LAM",
+   "game_id": "401925012",
+   "key": "lamar",
+   "kind": "homer",
+   "short": "Lamar",
+   "side": "away",
+   "team_id": "2320",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 46
+  },
+  {
+   "abbr": "UND",
+   "game_id": "401926143",
+   "key": "north-dakota",
+   "kind": "homer",
+   "short": "North Dakota",
+   "side": "home",
+   "team_id": "155",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 42
+  },
+  {
+   "abbr": "SIUE",
+   "game_id": "401926143",
+   "key": "siue",
+   "kind": "homer",
+   "short": "SIUE",
+   "side": "away",
+   "team_id": "2565",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 58
+  },
+  {
    "abbr": "UNI",
    "game_id": "401927388",
    "key": "northern-iowa",
@@ -409,7 +793,55 @@
    "team_id": "2460",
    "tip": "2026-11-18T01:00Z",
    "why": "Homer pick.",
-   "worth": 14
+   "worth": 13
+  },
+  {
+   "abbr": "LIN",
+   "game_id": "401927388",
+   "key": "lindenwood",
+   "kind": "homer",
+   "short": "Lindenwood",
+   "side": "away",
+   "team_id": "2815",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 87
+  },
+  {
+   "abbr": "USM",
+   "game_id": "401929358",
+   "key": "southern-miss",
+   "kind": "homer",
+   "short": "Southern Miss",
+   "side": "home",
+   "team_id": "2572",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 42
+  },
+  {
+   "abbr": "UTA",
+   "game_id": "401929358",
+   "key": "ut-arlington",
+   "kind": "homer",
+   "short": "UT Arlington",
+   "side": "away",
+   "team_id": "250",
+   "tip": "2026-11-18T01:00Z",
+   "why": "Homer pick.",
+   "worth": 58
+  },
+  {
+   "abbr": "EWU",
+   "game_id": "401920720",
+   "key": "eastern-washington",
+   "kind": "homer",
+   "short": "Eastern Washington",
+   "side": "away",
+   "team_id": "331",
+   "tip": "2026-11-18T01:30Z",
+   "why": "Homer pick.",
+   "worth": 86
   },
   {
    "abbr": "WYO",
@@ -424,6 +856,30 @@
    "worth": 15
   },
   {
+   "abbr": "SHSU",
+   "game_id": "401924922",
+   "key": "sam-houston",
+   "kind": "homer",
+   "short": "Sam Houston",
+   "side": "away",
+   "team_id": "2534",
+   "tip": "2026-11-18T01:30Z",
+   "why": "Homer pick.",
+   "worth": 85
+  },
+  {
+   "abbr": "NICH",
+   "game_id": "401925064",
+   "key": "nicholls",
+   "kind": "homer",
+   "short": "Nicholls",
+   "side": "away",
+   "team_id": "2447",
+   "tip": "2026-11-18T01:30Z",
+   "why": "Homer pick.",
+   "worth": 97
+  },
+  {
    "abbr": "UCD",
    "game_id": "401911521",
    "key": "uc-davis",
@@ -434,6 +890,30 @@
    "tip": "2026-11-18T02:00Z",
    "why": "Homer pick.",
    "worth": 17
+  },
+  {
+   "abbr": "ALST",
+   "game_id": "401911521",
+   "key": "alabama-state",
+   "kind": "homer",
+   "short": "Alabama State",
+   "side": "away",
+   "team_id": "2011",
+   "tip": "2026-11-18T02:00Z",
+   "why": "Homer pick.",
+   "worth": 83
+  },
+  {
+   "abbr": "ODU",
+   "game_id": "401920426",
+   "key": "old-dominion",
+   "kind": "homer",
+   "short": "Old Dominion",
+   "side": "away",
+   "team_id": "295",
+   "tip": "2026-11-18T02:00Z",
+   "why": "Homer pick.",
+   "worth": 98
   },
   {
    "abbr": "UNLV",
@@ -493,7 +973,19 @@
    "team_id": "2250",
    "tip": "2026-11-18T04:00Z",
    "why": "Homer pick.",
-   "worth": 3
+   "worth": 4
+  },
+  {
+   "abbr": "MTST",
+   "game_id": "401925879",
+   "key": "montana-state",
+   "kind": "homer",
+   "short": "Montana State",
+   "side": "away",
+   "team_id": "147",
+   "tip": "2026-11-18T04:00Z",
+   "why": "Homer pick.",
+   "worth": 97
   }
  ]
 }
