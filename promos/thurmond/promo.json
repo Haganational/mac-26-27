@@ -1,13 +1,33 @@
 {
- "stage": "all",
+ "stage": "done",
  "run": 1,
  "main_title_contains": "Bowling Green, Ohio: The Lightest Banner in Basketball",
  "release": "thurmond-promos",
- "city_tags": ["#BowlingGreen"],
- "specific_tags": ["#BGSU", "#Cavs"],
- "location": {"name": "Bowling Green, Ohio", "lat": 41.3748, "lng": -83.6513},
+ "city_tags": [
+  "#BowlingGreen"
+ ],
+ "specific_tags": [
+  "#BGSU",
+  "#Cavs"
+ ],
+ "location": {
+  "name": "Bowling Green, Ohio",
+  "lat": 41.3748,
+  "lng": -83.6513
+ },
  "disclosure": "Matthew appears as an AI video avatar made with HeyGen. The research is real.",
- "yt_tags": ["Nate Thurmond", "Bowling Green", "BGSU", "Falcons", "Cleveland Cavaliers", "Golden State Warriors", "retired numbers", "Miracle of Richfield", "MAC basketball", "Hardwood Bricks"],
+ "yt_tags": [
+  "Nate Thurmond",
+  "Bowling Green",
+  "BGSU",
+  "Falcons",
+  "Cleveland Cavaliers",
+  "Golden State Warriors",
+  "retired numbers",
+  "Miracle of Richfield",
+  "MAC basketball",
+  "Hardwood Bricks"
+ ],
  "film": {
   "file": "thurmond-film.mp4",
   "thumb": "thurmond-thumbnail.jpg",
@@ -28,5 +48,6 @@
    "text": "We love Nate Thurmond. We also have a spreadsheet. 114 games and 566 points for Cleveland, and the Cavs retired his number first. Pound for pound, the lightest banner in basketball. From our new film."
   }
  ],
- "rethumb": false
+ "rethumb": false,
+ "main_url": "https://youtu.be/yg-gdhcFoP8"
 }
