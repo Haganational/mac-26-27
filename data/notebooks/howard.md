@@ -27,7 +27,29 @@ _Howard (MEAC). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,941 (Spring 2024)
+- Tuition and fees, in state: $38,936 (2026-27), private; annual tuition $37,996 + mandatory fees $940 (off-campus/at-home; on-campus fee $1,040 gives $39,036). No increase from 2025-26
+- Tuition and fees, out of state: $38,936 (2026-27), private, same figure
+- Endowment: $1.12 billion (2025)
+- Football: FCS, infobox: NCAA Division I FCS - MEAC; NEC
+
+**Washington**
+- Population: 702,250 (ACS 2024 1-year)
+- Median household income: $109,707 (ACS 2024 1-year)
+- Income per person: $76,604 (ACS 2024 1-year)
+- Median home value: $733,400 (ACS 2024 1-year)
+- Poverty rate: 17.3% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 65.5% (ACS 2024 1-year)
+- Average commute: 31 minutes (ACS 2024 1-year)
+- Veterans: 17,844 (ACS 2024 1-year)
+- Born abroad: 15.5% (ACS 2024 1-year)
+- Founded: 1790, Residence Act of July 16, 1790
+- Biggest employer: Georgetown University, first in 2022 top employers by headcount list (federal government not ranked there)
+- January average: 37.5°F, Reagan National
+- Snow a year: 13.7 inches, Reagan National
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

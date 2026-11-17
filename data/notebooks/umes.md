@@ -27,7 +27,29 @@ _Maryland Eastern Shore (MEAC). Anchors are fictional AI personas, not affiliate
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,163 (Fall 2024), 2,467 undergraduates + 696 postgraduates per infobox
+- Tuition and fees, in state: $9,680 (2026-27 (FY2027)), USM annual: tuition $6,101 + mandatory fees $3,579.50
+- Tuition and fees, out of state: $21,920 (2026-27 (FY2027)), tuition $18,341 + fees $3,579.50; Eastern Shore regional out-of-state rate is $12,752.50
+- Endowment: $26.2 million (2017)
+- Football: none, dropped after 1979 season; 2013 task force kept it discontinued
+
+**Princess Anne**
+- Population: 3,569 (ACS 2024 5-year)
+- Median household income: $69,116 (ACS 2024 5-year)
+- Income per person: $29,722 (ACS 2024 5-year)
+- Median home value: $231,900 (ACS 2024 5-year)
+- Poverty rate: 22.7% (ACS 2024 5-year)
+- Median age: 27.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.8% (ACS 2024 5-year)
+- Average commute: 19.8 minutes (ACS 2024 5-year)
+- Veterans: 110 (ACS 2024 5-year)
+- Born abroad: 15.0% (ACS 2024 5-year)
+- Founded: 1733
+- County seat: yes, seat of Somerset County
+- Elevation: 16 feet
+- County: Somerset County
+- College-town index: 0.89 students per resident (the school is the town)
 
 ## The program's best
 

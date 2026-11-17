@@ -30043,6 +30043,3717 @@
     "source": "https://www.wrdw.com/2026/07/14/which-south-carolina-law-enforcement-agencies-partner-with-ice/"
    },
    "notes": "Coach pay null: May 2025 extension release gives no salary; no SC salary source fetched. county_seat null: Rock Hill Wikipedia does not say. largest_employer null: page lists top-10 employers without ranking (3D Systems listed first). Climate box has no snowfall. Arena page not fetched; namesake inferred from arena name. College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons. median_gross_rent and homeownership_pct are not on the Census Reporter profile."
+  },
+  "alabama-am": {
+   "key": "alabama-am",
+   "school": "Alabama A&M",
+   "town": "Huntsville",
+   "state": "Alabama",
+   "enrollment": {
+    "value": 7808,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_University"
+   },
+   "endowment": {
+    "value": 48000000,
+    "year": "FY2019",
+    "note": "as of June 30, 2019",
+    "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "SWAC",
+    "source": "https://en.wikipedia.org/wiki/Alabama_A%26M_University"
+   },
+   "mbb_coach": {
+    "value": "Donte' Jackson",
+    "note": "July 28, 2026 release; hired April 2025 from Grambling",
+    "source": "https://aamusports.com/news/2026/7/28/mens-basketball-alabama-am-samford-set-for-ballin-in-boutwell-rematch.aspx"
+   },
+   "median_household_income": {
+    "value": 83235,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "median_home_value": {
+    "value": 339400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "poverty_rate": {
+    "value": 10.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "population": {
+    "value": 230157,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "median_age": {
+    "value": 36.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "bachelors_pct": {
+    "value": 49.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "commute_minutes": {
+    "value": 19.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "veterans": {
+    "value": 18932,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "foreign_born_pct": {
+    "value": 6.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "per_capita_income": {
+    "value": 47988,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0137000-huntsville-al/"
+   },
+   "founded": {
+    "value": 1805,
+    "note": "John Hunt's arrival; established as Twickenham Dec. 23, 1809",
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "seat of Madison County",
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "jan_avg_temp_f": {
+    "value": 42.7,
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "snowfall_in": {
+    "value": 2.4,
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "elevation_ft": {
+    "value": 577,
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "county": {
+    "value": "Madison County",
+    "source": "https://en.wikipedia.org/wiki/Huntsville,_Alabama"
+   },
+   "notes": "Tuition null: Fall 2026 AAMU main-campus fee sheet (https://www.aamu.edu/admissions-aid/tuition-fees/_documents/_2026-2027/fall-2026-aamu-main-campus-fees-undergrad-and-graduate.pdf) lists tuition $293 resident / $585 non-resident plus $881 mandatory fees (10+ hours) per semester; the tuition appears to be per credit hour but the sheet doesn't say, so no annual figure. Coach pay null: not found within budget. largest_employer null: page names Redstone Arsenal etc. as hubs but no largest employer. ice_287g null: search turned up only Madison County NY/KY/MS reports, none for Madison County AL. Arena: Alabama A&M Events Center (opened 2022); namesake not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "alabama-state": {
+   "key": "alabama-state",
+   "school": "Alabama State",
+   "town": "Montgomery",
+   "state": "Alabama",
+   "enrollment": {
+    "value": 4081,
+    "year": "Fall 2024",
+    "note": "infobox; body text says nearly 6,000",
+    "source": "https://en.wikipedia.org/wiki/Alabama_State_University"
+   },
+   "tuition_in": {
+    "value": 11248,
+    "year": "2025-26",
+    "note": "annual: tuition $8,328 + institutional fees $2,920 (fees include health insurance, athletic, general university), 12 hrs/sem",
+    "source": "https://alasu.edu/financial-aid/cost-of-attendance-2025-2026.pdf"
+   },
+   "tuition_out": {
+    "value": 19576,
+    "year": "2025-26",
+    "note": "annual: tuition $16,656 + institutional fees $2,920",
+    "source": "https://alasu.edu/financial-aid/cost-of-attendance-2025-2026.pdf"
+   },
+   "endowment": {
+    "value": 125000000,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/Alabama_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Alabama_State_University"
+   },
+   "mbb_coach": {
+    "value": "Chris Wright",
+    "note": "named Apr 13, 2026 from Langston, replacing Tony Madlock",
+    "source": "https://www.wvasfm.org/wvas-local/2026-04-13/asu-names-new-hornets-mens-basketball-coach"
+   },
+   "population": {
+    "value": 195826,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "median_age": {
+    "value": 37.1,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "median_household_income": {
+    "value": 59292,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "per_capita_income": {
+    "value": 38284,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "poverty_rate": {
+    "value": 22.5,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "median_home_value": {
+    "value": 197700,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "commute_minutes": {
+    "value": 20.7,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "bachelors_pct": {
+    "value": 35.9,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "foreign_born_pct": {
+    "value": 6.0,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "veterans": {
+    "value": 11991,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US0151000-montgomery-al/"
+   },
+   "population_2020": {
+    "value": 200603,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "founded": {
+    "value": 1819,
+    "note": "incorporated Dec 3, 1819",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "largest_employer": {
+    "value": "Maxwell-Gunter Air Force Base (12,280 employees, 2022 city CAFR)",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "jan_avg_temp_f": {
+    "value": 48.1,
+    "note": "climate box; body text says 46.6",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "snowfall_in": {
+    "value": 0.4,
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "elevation_ft": {
+    "value": 240,
+    "note": "infobox; text says ~220",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "county": {
+    "value": "Montgomery County",
+    "source": "https://en.wikipedia.org/wiki/Montgomery,_Alabama"
+   },
+   "notes": "Coach pay null: no terms in announcement. Home arena ASU Acadome per Wikipedia; namesake not given. ice_287g null: AL.com chart (https://datawrapper.dwcdn.net/fw536/2/) says 30+ Alabama agencies have 287(g) but its agency list did not load. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "alcorn": {
+   "key": "alcorn",
+   "school": "Alcorn State",
+   "town": "Lorman",
+   "state": "Mississippi",
+   "enrollment": {
+    "value": 2933,
+    "year": "Fall 2022",
+    "note": "infobox; body says ~3,700 UG + 600 grad",
+    "source": "https://en.wikipedia.org/wiki/Alcorn_State_University"
+   },
+   "endowment": {
+    "value": 21300000,
+    "year": "2021",
+    "source": "https://en.wikipedia.org/wiki/Alcorn_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Alcorn_State_University"
+   },
+   "mbb_coach": {
+    "value": "Jake Morton",
+    "note": "listed as Head Coach on current staff directory; hired Apr 23, 2025; no 2026 departure found in SWAC coaching-change searches",
+    "source": "https://alcornsports.com/staff-directory/jake-morton/387"
+   },
+   "elevation_ft": {
+    "value": 217,
+    "source": "https://en.wikipedia.org/wiki/Lorman,_Mississippi"
+   },
+   "county": {
+    "value": "Jefferson County",
+    "source": "https://en.wikipedia.org/wiki/Lorman,_Mississippi"
+   },
+   "notes": "Lorman is an unincorporated community (Wikipedia), not a census place: no Census Reporter place profile, so all census fields null. Tuition null: Alcorn Fall 2026 sheet (https://www.alcorn.edu/wp-content/uploads/2026/07/Tuition_Fees__RoomBoard-PDF.pdf) is per semester: resident tuition $4,052.50 for 12 hrs plus tech fee $20/hr, capital improvement $50, activity $50; out-of-state charge unclear ('flat rate of $500'); annual not computed. Coach pay null: not reported. ice_287g not searched for Jefferson County MS separately. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "bethune-cookman": {
+   "key": "bethune-cookman",
+   "school": "Bethune-Cookman",
+   "town": "Daytona Beach",
+   "state": "Florida",
+   "enrollment": {
+    "value": 3100,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_University"
+   },
+   "tuition_in": {
+    "value": 15534,
+    "year": "2026-27",
+    "note": "private; annual tuition $14,536 + fees $998 (excludes optional Book Smart $680)",
+    "source": "https://cookman.edu/osas/tuition.html"
+   },
+   "tuition_out": {
+    "value": 15534,
+    "year": "2026-27",
+    "note": "private; same as in-state",
+    "source": "https://cookman.edu/osas/tuition.html"
+   },
+   "endowment": {
+    "value": 60000000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "school page says Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Bethune%E2%80%93Cookman_University"
+   },
+   "mbb_coach": {
+    "value": "Reggie Theus",
+    "note": "contract extended three years (Jan 2026) and promoted to VP of Athletics; also on bcuathletics.com coaches page (2025-26)",
+    "source": "https://hbcugameday.com/2026/01/26/reggie-theus-extension-promotion-bethune-cookman/"
+   },
+   "population": {
+    "value": 86007,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "median_age": {
+    "value": 43.2,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "median_household_income": {
+    "value": 57583,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "per_capita_income": {
+    "value": 35926,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "poverty_rate": {
+    "value": 20.1,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "median_home_value": {
+    "value": 331500,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "commute_minutes": {
+    "value": 21.4,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "bachelors_pct": {
+    "value": 31.8,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "foreign_born_pct": {
+    "value": 9.5,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "veterans": {
+    "value": 6504,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US1216525-daytona-beach-fl/"
+   },
+   "population_2020": {
+    "value": 72647,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "founded": {
+    "value": 1870,
+    "note": "founded 1870; Town of Daytona incorporated 1876",
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "largest_employer": {
+    "value": "Volusia County School District (7,623 employees, 2019 city CAFR)",
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "jan_avg_temp_f": {
+    "value": 58.8,
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "elevation_ft": {
+    "value": 13,
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "county": {
+    "value": "Volusia County",
+    "source": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida"
+   },
+   "ice_287g": {
+    "value": true,
+    "agency": "Volusia County Sheriff's Office (article: every Florida county sheriff's office signed)",
+    "model": "task force",
+    "source": "https://news.wfsu.org/state-news/2025-02-26/florida-sheriffs-offices-can-now-do-street-level-immigration-enforcement"
+   },
+   "notes": "Coach pay null: private, not disclosed. county_seat null: Wikipedia page does not say. No snowfall in climate box. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "central-connecticut": {
+   "key": "central-connecticut",
+   "school": "Central Connecticut",
+   "town": "New Britain",
+   "state": "Connecticut",
+   "enrollment": {
+    "value": 10039,
+    "year": "Spring 2025",
+    "source": "https://en.wikipedia.org/wiki/Central_Connecticut_State_University"
+   },
+   "tuition_in": {
+    "value": 12970,
+    "year": "2026-27",
+    "note": "rate sheet gives $6,485 per semester (tuition $3,499 + general fee $2,358 + state university fee $528 + activity/media $100); doubled to annual",
+    "source": "https://www.ccsu.edu/sites/default/files/2026-03/2026-2027%20rates.pdf"
+   },
+   "tuition_out": {
+    "value": 26910,
+    "year": "2026-27",
+    "note": "rate sheet gives $13,455 per semester (tuition $10,469 + same fees); doubled to annual",
+    "source": "https://www.ccsu.edu/sites/default/files/2026-03/2026-2027%20rates.pdf"
+   },
+   "endowment": {
+    "value": 80000000,
+    "year": "2020",
+    "source": "https://en.wikipedia.org/wiki/Central_Connecticut_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Northeast Conference",
+    "source": "https://en.wikipedia.org/wiki/Central_Connecticut_State_University"
+   },
+   "mbb_coach": {
+    "value": "Patrick Sellers",
+    "note": "named head coach in release on 2026-27 transfer addition (spring 2026)",
+    "source": "https://ccsubluedevils.com/sports/mbkb/2025-26/releases/20260529gi2gy9"
+   },
+   "median_household_income": {
+    "value": 62152,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "median_home_value": {
+    "value": 268200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "poverty_rate": {
+    "value": 19.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "population": {
+    "value": 75861,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "population_2020": {
+    "value": 74135,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/New_Britain,_Connecticut"
+   },
+   "median_age": {
+    "value": 34.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "bachelors_pct": {
+    "value": 22.4,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "commute_minutes": {
+    "value": 21.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "veterans": {
+    "value": 1924,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "foreign_born_pct": {
+    "value": 18.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "per_capita_income": {
+    "value": 31553,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US0950370-new-britain-ct/"
+   },
+   "founded": {
+    "value": 1850,
+    "note": "settled 1687; parish 1754; township 1850; city 1871",
+    "source": "https://en.wikipedia.org/wiki/New_Britain,_Connecticut"
+   },
+   "largest_employer": {
+    "value": "Central Connecticut State University",
+    "note": "2,879 employees per city 2024 ACFR",
+    "source": "https://en.wikipedia.org/wiki/New_Britain,_Connecticut"
+   },
+   "elevation_ft": {
+    "value": 207,
+    "source": "https://en.wikipedia.org/wiki/New_Britain,_Connecticut"
+   },
+   "county": {
+    "value": "Hartford County",
+    "source": "https://en.wikipedia.org/wiki/New_Britain,_Connecticut"
+   },
+   "notes": "commute_minutes is ACS 2024 5-year per Census Reporter page; other census figures ACS 2024 1-year. Endowment figure is old (2020) per infobox. Coach pay: one search found no reported contract figure. county_seat null: not stated on town page; no climate box (jan temp, snowfall null). Arena namesake not sourced. ice_287g null: one search named no Hartford County agency. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "chicago-state": {
+   "key": "chicago-state",
+   "school": "Chicago State",
+   "town": "Chicago",
+   "state": "Illinois",
+   "enrollment": {
+    "value": 2505,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/Chicago_State_University"
+   },
+   "endowment": {
+    "value": 10000000,
+    "year": "FY2024",
+    "source": "https://en.wikipedia.org/wiki/Chicago_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "starts 2026: FCS independent in 2026, joins Northeast Conference 2027; opener Aug 29, 2026",
+    "source": "https://hbcusports.com/2026/02/18/hbcu-football-teams-to-play-upstart-chicago-state-in-26-season/"
+   },
+   "mbb_coach": {
+    "value": "Landon Bussie",
+    "note": "hired March 2025; named head coach in July 2, 2026 hoopdirt item on assistant hire",
+    "source": "https://hoopdirt.com/?p=1067743"
+   },
+   "median_household_income": {
+    "value": 80613,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "median_home_value": {
+    "value": 341200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "poverty_rate": {
+    "value": 16.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "population": {
+    "value": 2721326,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "population_2020": {
+    "value": 2746388,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "median_age": {
+    "value": 35.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "bachelors_pct": {
+    "value": 46.4,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "commute_minutes": {
+    "value": 33.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "veterans": {
+    "value": 57764,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "foreign_born_pct": {
+    "value": 22.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "per_capita_income": {
+    "value": 51976,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1714000-chicago-il/"
+   },
+   "founded": {
+    "value": 1837,
+    "note": "settled c.1780; town 1833; incorporated as city March 4, 1837",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Cook County",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "jan_avg_temp_f": {
+    "value": 26.2,
+    "note": "Midway Airport 1991-2020 normals; O'Hare 25.2F",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "snowfall_in": {
+    "value": 38.8,
+    "note": "Midway; O'Hare 38.4",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "elevation_ft": {
+    "value": 597,
+    "note": "infobox mean 597.18 ft; body text says average 579 ft",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "arena_named_for": {
+    "value": "Emil and Patricia Jones Convocation Center",
+    "who": "person",
+    "money_from": "not stated on page fetched (Chicago State Wikipedia page; arena page not fetched)",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Chicago_State_University"
+   },
+   "county": {
+    "value": "Cook County",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+   },
+   "notes": "Tuition null: CSU bursar page (https://csu.edu/financialoperations/bursar/tuition/) gives only per-credit-hour rates, no annual total: Illinois resident undergrad $364 tuition + $121 mandatory fee = $485/credit hour (new/non-guaranteed; $473 for those admitted Fall 2025-Summer 2026); undergrad international / graduate non-resident $721 + $121 = $842/credit hour; plus U-Pass $170 and health insurance $686 for full-time, period not stated. Coach pay: one search found no reported contract figure. largest_employer not named on Chicago Wikipedia page. Arena: CSU page names the Jones Convocation Center as main arena but doesn't say explicitly it's the MBB home. ice_287g null: one search named no Cook County agency. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "coppin-state": {
+   "key": "coppin-state",
+   "school": "Coppin State",
+   "town": "Baltimore",
+   "state": "Maryland",
+   "enrollment": {
+    "value": 2210,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Coppin_State_University"
+   },
+   "tuition_in": {
+    "value": 7524,
+    "year": "2026-27 (FY2027)",
+    "note": "USM annual: tuition $5,236 + mandatory fees $2,288",
+    "source": "https://www.usmd.edu/usm/adminfinance/budget/FY2027/CSU_Tuition_and_Fees_2027.pdf"
+   },
+   "tuition_out": {
+    "value": 14726,
+    "year": "2026-27 (FY2027)",
+    "note": "tuition $12,438 + mandatory fees $2,288",
+    "source": "https://www.usmd.edu/usm/adminfinance/budget/FY2027/CSU_Tuition_and_Fees_2027.pdf"
+   },
+   "mbb_coach": {
+    "value": "Larry Stewart",
+    "note": "Aug. 17, 2026 schedule release",
+    "source": "https://coppinstatesports.com/news/2026/8/17/mens-basketball-five-non-conference-home-games-headline-2026-27-mens-basketball-schedule.aspx"
+   },
+   "median_household_income": {
+    "value": 64778,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "median_home_value": {
+    "value": 247400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "poverty_rate": {
+    "value": 17.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "population": {
+    "value": 568271,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "median_age": {
+    "value": 36.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "bachelors_pct": {
+    "value": 38.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "commute_minutes": {
+    "value": 30.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "veterans": {
+    "value": 24584,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "foreign_born_pct": {
+    "value": 10.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "per_capita_income": {
+    "value": 41644,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "founded": {
+    "value": 1729,
+    "note": "town founded August 8, 1729",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "county_seat": {
+    "value": false,
+    "note": "independent city since 1851; was Baltimore County seat 1768-1851",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "largest_employer": {
+    "value": "Johns Hopkins Hospital and University",
+    "note": "'the city's top employers'",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "jan_avg_temp_f": {
+    "value": 34.3,
+    "note": "BWI climate table",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "snowfall_in": {
+    "value": 19.3,
+    "note": "BWI climate table",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "county": {
+    "value": "none (independent city)",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "notes": "endowment null: Wikipedia page gives no endowment. football null: Wikipedia lists no football team among Coppin's sports but doesn't state it explicitly, and no athletics Wikipedia page was opened. Coach pay null: no figure found within budget. elevation null: Baltimore infobox gives only a 0-492 ft range. Home arena: PEC Arena; namesake not researched. ice_287g null: per desk lessons Maryland ended 287(g) agreements by law in 2026; no page opened says otherwise. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "delaware-state": {
+   "key": "delaware-state",
+   "school": "Delaware State",
+   "town": "Dover",
+   "state": "Delaware",
+   "enrollment": {
+    "value": 6623,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Delaware_State_University"
+   },
+   "tuition_in": {
+    "value": 11789,
+    "year": "2026-27",
+    "note": "yearly total tuition $10,169 + mandatory fees $1,620; excludes $1,200 waivable student health insurance",
+    "source": "https://www.desu.edu/admissions/financial-aid/tuition-fees"
+   },
+   "tuition_out": {
+    "value": 21792,
+    "year": "2026-27",
+    "note": "yearly tuition $20,172 + mandatory fees $1,620; excludes waivable health insurance",
+    "source": "https://www.desu.edu/admissions/financial-aid/tuition-fees"
+   },
+   "endowment": {
+    "value": 43000000,
+    "year": "2021",
+    "source": "https://en.wikipedia.org/wiki/Delaware_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "MEAC",
+    "source": "https://en.wikipedia.org/wiki/Delaware_State_University"
+   },
+   "mbb_coach": {
+    "value": "Stan Waterman",
+    "note": "Wikipedia lists him as current coach (through 2025-26, no departure noted); July 2025 extension runs through 2027-28 (https://dsuhornets.com/news/2025/7/17/mens-basketball-waterman-agrees-to-contract-extension.aspx). No 2026-27-dated page opened (DSU schedule release on bvmsports failed to load)",
+    "source": "https://en.wikipedia.org/wiki/Delaware_State_Hornets_men%27s_basketball"
+   },
+   "median_household_income": {
+    "value": 60199,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "median_home_value": {
+    "value": 258900,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "poverty_rate": {
+    "value": 15.0,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "population": {
+    "value": 39837,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "median_age": {
+    "value": 34.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "bachelors_pct": {
+    "value": 26.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "commute_minutes": {
+    "value": 22.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "veterans": {
+    "value": 2893,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "foreign_born_pct": {
+    "value": 10.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "per_capita_income": {
+    "value": 31743,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1021200-dover-de/"
+   },
+   "founded": {
+    "value": 1683,
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "seat of Kent County (also state capital)",
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "largest_employer": {
+    "value": "State of Delaware government",
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "jan_avg_temp_f": {
+    "value": 36.0,
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "snowfall_in": {
+    "value": 13.2,
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "elevation_ft": {
+    "value": 30,
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "county": {
+    "value": "Kent County",
+    "source": "https://en.wikipedia.org/wiki/Dover,_Delaware"
+   },
+   "ice_287g": {
+    "value": false,
+    "agency": null,
+    "model": null,
+    "note": "Delaware HB 182 (signed July 2025) bars local 287(g) agreements; Camden PD (Kent County) had briefly joined then paused",
+    "source": "https://spotlightdelaware.org/2025/07/14/delaware-outlaws-ice-partnerships/"
+   },
+   "notes": "Coach pay null: extension release gives no salary. Arena: Memorial Hall (1,800 seats); namesake not stated on the program Wikipedia page. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "fairleigh-dickinson": {
+   "key": "fairleigh-dickinson",
+   "school": "Fairleigh Dickinson",
+   "town": "Teaneck",
+   "state": "New Jersey",
+   "enrollment": {
+    "value": 10899,
+    "year": null,
+    "note": "national total given in body with no year; intro says 'over 12,000'; Fall 2024 campus totals: Metropolitan 8,045, Florham 2,885",
+    "source": "https://en.wikipedia.org/wiki/Fairleigh_Dickinson_University"
+   },
+   "tuition_in": {
+    "value": 39820,
+    "year": "2026-27",
+    "note": "private; Metropolitan Campus annual tuition $38,600 (12-18 credits) + technology fee $1,080 + wellness fee $140",
+    "source": "https://www.fdu.edu/admissions/tuition-fees/metropolitan-campus-tuition-fees/"
+   },
+   "tuition_out": {
+    "value": 39820,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.fdu.edu/admissions/tuition-fees/metropolitan-campus-tuition-fees/"
+   },
+   "endowment": {
+    "value": 107200000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Fairleigh_Dickinson_University"
+   },
+   "mbb_coach": {
+    "value": "Jack Castleberry",
+    "note": "Head Coach on 2026-27 coaching staff page",
+    "source": "https://fduknights.com/sports/mens-basketball/coaches"
+   },
+   "median_household_income": {
+    "value": 144075,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "median_home_value": {
+    "value": 546100,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "poverty_rate": {
+    "value": 5.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "population": {
+    "value": 41876,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "population_2020": {
+    "value": 41246,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey"
+   },
+   "median_age": {
+    "value": 38.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "bachelors_pct": {
+    "value": 57.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "commute_minutes": {
+    "value": 34.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "veterans": {
+    "value": 1169,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "foreign_born_pct": {
+    "value": 27.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "per_capita_income": {
+    "value": 62638,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US3400372360-teaneck-township-bergen-county-nj/"
+   },
+   "founded": {
+    "value": 1895,
+    "note": "incorporated Feb 19, 1895",
+    "source": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey"
+   },
+   "elevation_ft": {
+    "value": 128,
+    "source": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey"
+   },
+   "county": {
+    "value": "Bergen County",
+    "source": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey"
+   },
+   "notes": "Census Reporter profile is the county subdivision (Teaneck township, Bergen County). football null: FDU Wikipedia page doesn't mention football and no athletics page confirming 'none' was fetched. Coach pay: private, not disclosed. county_seat not stated on town page; no climate box (jan temp, snowfall null); largest_employer not named. Arena: Bogota Savings Bank Center (per Aug 20, 2026 schedule release); namesake page not fetched. ice_287g null: one search; result headlines indicate New Jersey law bars local ICE contracts and Bergen ended ICE cooperation, but no page was opened to confirm. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "florida-am": {
+   "key": "florida-am",
+   "school": "Florida A&M",
+   "town": "Tallahassee",
+   "state": "Florida",
+   "enrollment": {
+    "value": 9313,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University"
+   },
+   "tuition_in": {
+    "value": 5645,
+    "year": "2026-27",
+    "note": "Florida BOG cost of attendance, full-time UG Florida resident, average per year",
+    "source": "https://www.flbog.edu/wp-content/uploads/2026/07/2026-2027-Cost_of_Attendance-Report-1.pdf"
+   },
+   "endowment": {
+    "value": 135700000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Florida_A%26M_University"
+   },
+   "mbb_coach": {
+    "value": "Charlie Ward",
+    "note": "named head coach in 2026-27 schedule release",
+    "source": "https://famuathletics.com/news/2026/6/8/rattlers-to-open-2026-27-season-in-tampa-vs-seminoles.aspx"
+   },
+   "mbb_coach_pay": {
+    "value": 175000,
+    "year": "2025-26",
+    "what": "starting annual salary in reported five-year agreement (Athlon Sports, Apr 2025, pending approval); escalates to $215,000 in final year; 2026-27 figure not given",
+    "source": "https://www.yardbarker.com/nba/articles/charlie_wards_florida_a_m_contract_details/s1_17615_42065768"
+   },
+   "population": {
+    "value": 205091,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "median_age": {
+    "value": 28.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "median_household_income": {
+    "value": 56511,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "per_capita_income": {
+    "value": 34829,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "poverty_rate": {
+    "value": 28.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "median_home_value": {
+    "value": 294500,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "commute_minutes": {
+    "value": 19.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "bachelors_pct": {
+    "value": 53.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "foreign_born_pct": {
+    "value": 9.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "veterans": {
+    "value": 7195,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/"
+   },
+   "population_2020": {
+    "value": 196169,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "founded": {
+    "value": 1824,
+    "note": "established 1824; incorporated 1825",
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "largest_employer": {
+    "value": "State of Florida (27,748 employees, 2024)",
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "jan_avg_temp_f": {
+    "value": 51.0,
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "elevation_ft": {
+    "value": 125,
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "county": {
+    "value": "Leon County",
+    "source": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "ice_287g": {
+    "value": true,
+    "agency": "Leon County Sheriff's Office (article: every Florida county sheriff's office signed)",
+    "model": "task force",
+    "source": "https://news.wfsu.org/state-news/2025-02-26/florida-sheriffs-offices-can-now-do-street-level-immigration-enforcement"
+   },
+   "notes": "tuition_out null: Florida BOG report content did not include FAMU non-resident figure. Snowfall not in climate box. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "grambling": {
+   "key": "grambling",
+   "school": "Grambling",
+   "town": "Grambling",
+   "state": "Louisiana",
+   "enrollment": {
+    "value": 5232,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/Grambling_State_University"
+   },
+   "tuition_in": {
+    "value": 7852.2,
+    "year": "2026-27",
+    "note": "page gives per-semester full-time (12-16 hrs) commuter rate $3,926.10; doubled. Differential-fee majors pay $4,043.60/semester",
+    "source": "https://gram.edu/finaid/tuition/fall26_spr27.php"
+   },
+   "tuition_out": {
+    "value": 16875.2,
+    "year": "2026-27",
+    "note": "per-semester non-resident $8,437.60 doubled",
+    "source": "https://gram.edu/finaid/tuition/fall26_spr27.php"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "SWAC",
+    "source": "https://en.wikipedia.org/wiki/Grambling_State_University"
+   },
+   "mbb_coach": {
+    "value": "Patrick Crarey II",
+    "note": "May 18, 2026 article; hired April 2025",
+    "source": "https://lincolnparishjournal.com/2026/05/18/levett-joins-gsu-hoops-staff/"
+   },
+   "median_home_value": {
+    "value": 181700,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "poverty_rate": {
+    "value": 52.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "population": {
+    "value": 5287,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "median_age": {
+    "value": 21.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "bachelors_pct": {
+    "value": 35.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "commute_minutes": {
+    "value": 20.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "veterans": {
+    "value": 226,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "foreign_born_pct": {
+    "value": 3.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "per_capita_income": {
+    "value": 11379,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2230515-grambling-la/"
+   },
+   "founded": {
+    "value": 1992,
+    "note": "incorporated as city 1992 (page says 1992 or 1993)",
+    "source": "https://en.wikipedia.org/wiki/Grambling,_Louisiana"
+   },
+   "elevation_ft": {
+    "value": 302,
+    "source": "https://en.wikipedia.org/wiki/Grambling,_Louisiana"
+   },
+   "county": {
+    "value": "Lincoln Parish",
+    "source": "https://en.wikipedia.org/wiki/Grambling,_Louisiana"
+   },
+   "notes": "endowment null: infobox gives $7 million with no year. median_household_income null: not shown on the Census Reporter profile. Coach pay null: only a job-posting starting figure ($230k) reported (hbcugameday), not his contract. county_seat null: page doesn't say (Lincoln Parish seat not stated). jan_avg_temp_f, snowfall_in null: no climate box. largest_employer not named. ice_287g null: one search found nothing for Lincoln Parish. Arena: Frederick C. Hobdy Assembly Center; namesake not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "holy-cross": {
+   "key": "holy-cross",
+   "school": "Holy Cross",
+   "town": "Worcester",
+   "state": "Massachusetts",
+   "enrollment": {
+    "value": 3256,
+    "year": "2024",
+    "note": "infobox undergraduates figure; no separate total given (body text says 3,142 undergrads)",
+    "source": "https://en.wikipedia.org/wiki/College_of_the_Holy_Cross"
+   },
+   "tuition_in": {
+    "value": 71150,
+    "year": "2026-27",
+    "note": "private; annual total tuition ($70,220) + required health service and activity fees",
+    "source": "https://www.holycross.edu/admissions-aid/tuition-fees"
+   },
+   "tuition_out": {
+    "value": 71150,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.holycross.edu/admissions-aid/tuition-fees"
+   },
+   "endowment": {
+    "value": 1210000000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/College_of_the_Holy_Cross"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Patriot League",
+    "source": "https://en.wikipedia.org/wiki/College_of_the_Holy_Cross"
+   },
+   "mbb_coach": {
+    "value": "Dave Paulsen",
+    "note": "named head coach in May 30, 2026 program release",
+    "source": "https://goholycross.com/news/2026/5/30/mens-basketball-mens-basketball-announces-additions-to-program.aspx"
+   },
+   "median_household_income": {
+    "value": 71042,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "median_home_value": {
+    "value": 411700,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "poverty_rate": {
+    "value": 17.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "population": {
+    "value": 211289,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "population_2020": {
+    "value": 206518,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "median_age": {
+    "value": 36.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "bachelors_pct": {
+    "value": 34.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "commute_minutes": {
+    "value": 23.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "veterans": {
+    "value": 5494,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "foreign_born_pct": {
+    "value": 30.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "per_capita_income": {
+    "value": 38792,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2582000-worcester-ma/"
+   },
+   "founded": {
+    "value": 1722,
+    "note": "settled 1673; incorporated as town 1722; city 1848",
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Worcester County",
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "largest_employer": {
+    "value": "UMass Memorial Health Care",
+    "note": "13,745 employees per 2018 CAFR",
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "jan_avg_temp_f": {
+    "value": 24.7,
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "snowfall_in": {
+    "value": 72.9,
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "elevation_ft": {
+    "value": 479,
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "county": {
+    "value": "Worcester County",
+    "source": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts"
+   },
+   "notes": "Coach pay: private, not disclosed. Arena (Hart Center) namesake not sourced; no arena page fetched. ice_287g null: one search found no current Worcester County 287(g) agreement named. pell_pct null (College Navigator not tried per desk lessons); grants/news/median_debt/detention skipped per desk lessons. median_gross_rent/homeownership not on Census Reporter page or town wiki."
+  },
+  "howard": {
+   "key": "howard",
+   "school": "Howard",
+   "town": "Washington",
+   "state": "District of Columbia",
+   "enrollment": {
+    "value": 12941,
+    "year": "Spring 2024",
+    "source": "https://en.wikipedia.org/wiki/Howard_University"
+   },
+   "tuition_in": {
+    "value": 38936,
+    "year": "2026-27",
+    "note": "private; annual tuition $37,996 + mandatory fees $940 (off-campus/at-home; on-campus fee $1,040 gives $39,036). No increase from 2025-26",
+    "source": "https://financialservices.howard.edu/2026-2027-estimated-cost-attendance"
+   },
+   "tuition_out": {
+    "value": 38936,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://financialservices.howard.edu/2026-2027-estimated-cost-attendance"
+   },
+   "endowment": {
+    "value": 1120000000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Howard_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "infobox: NCAA Division I FCS - MEAC; NEC",
+    "source": "https://en.wikipedia.org/wiki/Howard_University"
+   },
+   "mbb_coach": {
+    "value": "Kenneth Blakeney",
+    "note": "Aug. 15, 2026 release",
+    "source": "https://hubison.com/news/2026/8/15/mens-basketball-mens-basketball-set-to-host-inaugural-dream-factory-classic.aspx"
+   },
+   "median_household_income": {
+    "value": 109707,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "median_home_value": {
+    "value": 733400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "poverty_rate": {
+    "value": 17.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "population": {
+    "value": 702250,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "median_age": {
+    "value": 34.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "bachelors_pct": {
+    "value": 65.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "commute_minutes": {
+    "value": 31,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "veterans": {
+    "value": 17844,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "foreign_born_pct": {
+    "value": 15.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "per_capita_income": {
+    "value": 76604,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1150000-washington-dc/"
+   },
+   "founded": {
+    "value": 1790,
+    "note": "Residence Act of July 16, 1790",
+    "source": "https://en.wikipedia.org/wiki/Washington,_D.C."
+   },
+   "largest_employer": {
+    "value": "Georgetown University",
+    "note": "first in 2022 top employers by headcount list (federal government not ranked there)",
+    "source": "https://en.wikipedia.org/wiki/Washington,_D.C."
+   },
+   "jan_avg_temp_f": {
+    "value": 37.5,
+    "note": "Reagan National",
+    "source": "https://en.wikipedia.org/wiki/Washington,_D.C."
+   },
+   "snowfall_in": {
+    "value": 13.7,
+    "note": "Reagan National",
+    "source": "https://en.wikipedia.org/wiki/Washington,_D.C."
+   },
+   "notes": "Coach pay: private, not disclosed. county_seat and county null: DC has no counties. elevation null: infobox gives highest point (409 ft, Fort Reno) and sea level, no single figure. ice_287g null: one search found no report naming a DC agency. Arena: Burr Gymnasium (inferred from athletics site facilities list); namesake not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "jackson-state": {
+   "key": "jackson-state",
+   "school": "Jackson State",
+   "town": "Jackson",
+   "state": "Mississippi",
+   "enrollment": {
+    "value": 6564,
+    "year": "Fall 2023",
+    "source": "https://en.wikipedia.org/wiki/Jackson_State_University"
+   },
+   "endowment": {
+    "value": 60000000,
+    "year": "2019",
+    "source": "https://en.wikipedia.org/wiki/Jackson_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Jackson_State_University"
+   },
+   "mbb_coach": {
+    "value": "Trey Johnson",
+    "note": "named head coach Apr 15, 2026, replacing Mo Williams (left for Kentucky staff)",
+    "source": "https://gojsutigers.com/news/2026/4/15/mens-basketball-trey-johnson-named-new-jackson-state-head-mens-basketball-coach.aspx"
+   },
+   "population": {
+    "value": 141376,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "median_age": {
+    "value": 34.5,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "median_household_income": {
+    "value": 44516,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "per_capita_income": {
+    "value": 27523,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "poverty_rate": {
+    "value": 26.3,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "median_home_value": {
+    "value": 110200,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "commute_minutes": {
+    "value": 19.9,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "bachelors_pct": {
+    "value": 27.4,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "foreign_born_pct": {
+    "value": 2.6,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "veterans": {
+    "value": 5303,
+    "year": "ACS 2024 1-year (commute: ACS 2024 5-year)",
+    "source": "https://censusreporter.org/profiles/16000US2836000-jackson-ms/"
+   },
+   "population_2020": {
+    "value": 153701,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "founded": {
+    "value": 1821,
+    "note": "founded 1821 as state capital; incorporated 1822",
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "one of two Hinds County seats (with Raymond)",
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "largest_employer": {
+    "value": "University of Mississippi Medical Center (top employer as of 2020)",
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "jan_avg_temp_f": {
+    "value": 47.0,
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "snowfall_in": {
+    "value": 0.6,
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "elevation_ft": {
+    "value": 361,
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "county": {
+    "value": "Hinds County",
+    "source": "https://en.wikipedia.org/wiki/Jackson,_Mississippi"
+   },
+   "notes": "Tuition null: JSU FY 2026-27 UG fee sheet (https://www.jsums.edu/businessfinance/files/2026/06/FY-26-27-Fee-Sheet-UG.pdf) gives 12-19 hr totals of $4,924 resident / $6,924 non-resident (tuition + $220 fees) but does not say per semester; not doubled. Coach pay null: Apr 2026 release gives no terms. ice_287g null: one search found no report naming a Hinds County agency (Mississippi Today article failed to load). Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "lafayette": {
+   "key": "lafayette",
+   "school": "Lafayette",
+   "town": "Easton",
+   "state": "Pennsylvania",
+   "enrollment": {
+    "value": 2675,
+    "year": "Fall 2025",
+    "note": "infobox undergraduates; no graduate/total figure given",
+    "source": "https://en.wikipedia.org/wiki/Lafayette_College"
+   },
+   "tuition_in": {
+    "value": 70846,
+    "year": "2026-27",
+    "note": "private; tuition $70,486 + student activity fee $360. Catalog doesn't say annual vs semester, but tuition+activity+room+board on it sum exactly to the $91,742 2026-27 cost of attendance reported by The Lafayette (Jan 23, 2026), so treated as annual",
+    "source": "https://lafayette.smartcatalogiq.com/en/current/catalog/admissions-and-costs/fees"
+   },
+   "tuition_out": {
+    "value": 70846,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://lafayette.smartcatalogiq.com/en/current/catalog/admissions-and-costs/fees"
+   },
+   "endowment": {
+    "value": 1200000000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Lafayette_College"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Patriot League",
+    "source": "https://en.wikipedia.org/wiki/Lafayette_Leopards"
+   },
+   "mbb_coach": {
+    "value": "Mike McGarvey",
+    "note": "named head coach in Aug 24, 2026 release on 2026-27 roster",
+    "source": "https://goleopards.com/news/2026/8/24/mens-basketball-mens-hoops-brings-in-seven-newcomers.aspx"
+   },
+   "median_household_income": {
+    "value": 69348,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "median_home_value": {
+    "value": 196300,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "poverty_rate": {
+    "value": 16.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "population": {
+    "value": 29739,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "population_2020": {
+    "value": 28127,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Pennsylvania"
+   },
+   "median_age": {
+    "value": 31.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "bachelors_pct": {
+    "value": 28.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "commute_minutes": {
+    "value": 27.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "veterans": {
+    "value": 860,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "foreign_born_pct": {
+    "value": 14.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "per_capita_income": {
+    "value": 29811,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4221648-easton-pa/"
+   },
+   "founded": {
+    "value": 1752,
+    "note": "settled 1739; incorporated as town 1752; city 1887",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Pennsylvania"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Northampton County",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Pennsylvania"
+   },
+   "elevation_ft": {
+    "value": 211,
+    "source": "https://en.wikipedia.org/wiki/Easton,_Pennsylvania"
+   },
+   "county": {
+    "value": "Northampton County",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Pennsylvania"
+   },
+   "notes": "Coach pay: private, not disclosed. jan_avg_temp_f null: Easton climate box gives only Jan mean max 36F / mean min 19F, no daily mean. snowfall_in null: no climate-box snowfall row (text says 'about 30 inches'). largest_employer not named on town page. Arena: Kirby Sports Center; Lafayette Leopards Wikipedia page doesn't give namesake (arena page not fetched). ice_287g null: search and Inquirer Nov 5, 2026 287(g) roundup named no Northampton County agency (list explicitly partial). pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "le-moyne": {
+   "key": "le-moyne",
+   "school": "Le Moyne",
+   "town": "Syracuse",
+   "state": "New York",
+   "enrollment": {
+    "value": 3409,
+    "year": "Fall 2021",
+    "note": "infobox; text says 'more than 3,700' as of 2020",
+    "source": "https://en.wikipedia.org/wiki/Le_Moyne_College"
+   },
+   "tuition_in": {
+    "value": 43414,
+    "year": "2026-27",
+    "note": "private; tuition $42,080 + full-time comprehensive school fee $1,334, in table column headed 'Year' under 'Tuition, Housing and Meals: 2026-2027'",
+    "source": "https://www.lemoyne.edu/undergraduate-tuition-fees/"
+   },
+   "tuition_out": {
+    "value": 43414,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.lemoyne.edu/undergraduate-tuition-fees/"
+   },
+   "endowment": {
+    "value": 289800000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Le_Moyne_College"
+   },
+   "mbb_coach": {
+    "value": "Nate Champion",
+    "note": "listed head coach on 2026-27 roster page (Wright III '85 and Cathy Lassiter Endowed Head Men's Basketball Coach)",
+    "source": "https://lemoynedolphins.com/sports/mens-basketball/roster"
+   },
+   "median_household_income": {
+    "value": 51770,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "median_home_value": {
+    "value": 158100,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "poverty_rate": {
+    "value": 26.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "population": {
+    "value": 146091,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "population_2020": {
+    "value": 148620,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "median_age": {
+    "value": 32.4,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "bachelors_pct": {
+    "value": 35.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "commute_minutes": {
+    "value": 18.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "veterans": {
+    "value": 4380,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "foreign_born_pct": {
+    "value": 16.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "per_capita_income": {
+    "value": 30104,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3673000-syracuse-ny/"
+   },
+   "founded": {
+    "value": 1820,
+    "note": "formally established 1820; village 1825; city 1847",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Onondaga County",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "largest_employer": {
+    "value": "SUNY Upstate Medical University",
+    "note": "10,959 employees; page calls it Central New York's largest employer",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "jan_avg_temp_f": {
+    "value": 24.1,
+    "note": "climate box; body text gives 23.6F",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "snowfall_in": {
+    "value": 127.8,
+    "note": "climate box; body text says 115.6 in",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "county": {
+    "value": "Onondaga County",
+    "source": "https://en.wikipedia.org/wiki/Syracuse,_New_York"
+   },
+   "notes": "football null: Le Moyne Wikipedia page doesn't mention football; no athletics page confirming 'none' fetched. Enrollment figure is old (fall 2021). Coach pay: private, not disclosed. elevation_ft null: page gives a range 381-443 ft. Arena: Ted Grant Court (per July 30, 2026 schedule release); namesake not sourced. ice_287g null per desk lesson (New York ended 287(g) agreements by law in 2026); no search done. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "lehigh": {
+   "key": "lehigh",
+   "school": "Lehigh",
+   "town": "Bethlehem",
+   "state": "Pennsylvania",
+   "enrollment": {
+    "value": 7909,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/Lehigh_University"
+   },
+   "tuition_in": {
+    "value": 70590,
+    "year": "2026-27",
+    "note": "private; full-time tuition $69,420/yr ($34,710/semester) + technology $630 + activity $290 + wellness $250 annual; excludes $910 engineering & science fee charged only to some majors",
+    "source": "https://financeadmin.lehigh.edu/content/fiscal-year-2026-2027-schedule-fees"
+   },
+   "tuition_out": {
+    "value": 70590,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://financeadmin.lehigh.edu/content/fiscal-year-2026-2027-schedule-fees"
+   },
+   "endowment": {
+    "value": 2000000000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/Lehigh_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Patriot League",
+    "source": "https://en.wikipedia.org/wiki/Lehigh_University"
+   },
+   "mbb_coach": {
+    "value": "Brett Reed",
+    "note": "listed on 2026-2027 coaching staff page as Murray H. Goodman '48 Head Coach",
+    "source": "https://lehighsports.com/sports/mens-basketball/coaches"
+   },
+   "median_household_income": {
+    "value": 75194,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "median_home_value": {
+    "value": 289200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "poverty_rate": {
+    "value": 14.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "population": {
+    "value": 79959,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "population_2020": {
+    "value": 75781,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Bethlehem,_Pennsylvania"
+   },
+   "median_age": {
+    "value": 35.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "bachelors_pct": {
+    "value": 37.8,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "commute_minutes": {
+    "value": 22.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "veterans": {
+    "value": 4160,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "foreign_born_pct": {
+    "value": 8.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "per_capita_income": {
+    "value": 37862,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4206088-bethlehem-pa/"
+   },
+   "founded": {
+    "value": 1741,
+    "note": "founded Dec 24, 1741; borough 1845",
+    "source": "https://en.wikipedia.org/wiki/Bethlehem,_Pennsylvania"
+   },
+   "elevation_ft": {
+    "value": 360,
+    "source": "https://en.wikipedia.org/wiki/Bethlehem,_Pennsylvania"
+   },
+   "arena_named_for": {
+    "value": "Stabler Arena, named for Donald B. Stabler (Lehigh 1930), primary donor with wife Dorothy",
+    "who": "person",
+    "money_from": "founder of Stabler Companies Inc.",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Stabler_Arena"
+   },
+   "notes": "commute_minutes is ACS 2024 5-year per Census Reporter page; other census figures ACS 2024 1-year. Coach pay: private, not disclosed. county null: Bethlehem spans Lehigh and Northampton counties and no opened page says which the campus is in. county_seat null: town page doesn't state it. jan_avg_temp_f null: climate box gives only Jan mean max 37F / min 21F. snowfall_in null: no snowfall row. largest_employer not explicitly named (St. Luke's called 'major economic anchor'). ice_287g null: Inquirer Nov 5, 2026 roundup names no Northampton/Lehigh County agency definitively (it lists 'Lehigh Township Police Department' without county). pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "liu": {
+   "key": "liu",
+   "school": "LIU",
+   "town": "Brooklyn",
+   "state": "New York",
+   "enrollment": {
+    "value": 16689,
+    "year": "Fall 2024",
+    "note": "all LIU campuses",
+    "source": "https://en.wikipedia.org/wiki/Long_Island_University"
+   },
+   "endowment": {
+    "value": 510150000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Long_Island_University"
+   },
+   "mbb_coach": {
+    "value": "Rod Strickland",
+    "note": "Sept. 2, 2026 schedule release; 2025-26 NEC Coach of the Year",
+    "source": "https://liuathletics.com/news/2026/9/2/mens-basketball-liu-mens-basketball-announces-2026-27-schedule-tickets-available-now.aspx"
+   },
+   "median_household_income": {
+    "value": 81228,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "median_home_value": {
+    "value": 778600,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "poverty_rate": {
+    "value": 18.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "population": {
+    "value": 8478072,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "median_age": {
+    "value": 38.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "bachelors_pct": {
+    "value": 42.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "commute_minutes": {
+    "value": 40.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "veterans": {
+    "value": 121547,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "foreign_born_pct": {
+    "value": 36.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "per_capita_income": {
+    "value": 52504,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "founded": {
+    "value": 1634,
+    "note": "settled 1634",
+    "source": "https://en.wikipedia.org/wiki/Brooklyn"
+   },
+   "snowfall_in": {
+    "value": 24.5,
+    "note": "Avenue V climate box",
+    "source": "https://en.wikipedia.org/wiki/Brooklyn"
+   },
+   "county": {
+    "value": "Kings County",
+    "note": "coterminous with Brooklyn",
+    "source": "https://en.wikipedia.org/wiki/Brooklyn"
+   },
+   "notes": "Tuition null: liu.edu tuition page shows 'Annual Undergraduate Tuition' sets of $41,052 + $2,074 fee and $41,874 + $2,116 fee without saying which academic year each is (https://www.liu.edu/enrollment-services/tuition-fees). football null: LIU Wikipedia page doesn't address football and no athletics page was opened for it. Census figures are for New York city as a whole (Brooklyn is a borough). Coach pay: private, not disclosed. Home arena: Brooklyn Athletic Center (per LIU schedule release); namesake not researched. Brooklyn page names Brooklyn Navy Yard only as the historical (WWII) largest employer, so largest_employer null. jan_avg_temp_f null: climate box gives only daily max 39.7F/min 27.5F, no daily mean. elevation null: page gives only highest point (220 ft). county_seat null: not stated. ice_287g null: per desk lessons New York ended 287(g) agreements by law in 2026; no page opened says otherwise. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "loyola-md": {
+   "key": "loyola-md",
+   "school": "Loyola Maryland",
+   "town": "Baltimore",
+   "state": "Maryland",
+   "enrollment": {
+    "value": 4897,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Loyola_University_Maryland"
+   },
+   "tuition_in": {
+    "value": 61810,
+    "year": "2026-27",
+    "note": "private; full-time flat-rate tuition, academic-year total ($30,905/semester). Page lists no separate required fees",
+    "source": "https://www.loyola.edu/department/financial-aid/undergraduate/tuition-price-affordability/cost-breakdown"
+   },
+   "tuition_out": {
+    "value": 61810,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.loyola.edu/department/financial-aid/undergraduate/tuition-price-affordability/cost-breakdown"
+   },
+   "endowment": {
+    "value": 323900000,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/Loyola_University_Maryland"
+   },
+   "football": {
+    "value": "none",
+    "note": "defunct since 1933",
+    "source": "https://en.wikipedia.org/wiki/Loyola_Greyhounds"
+   },
+   "mbb_coach": {
+    "value": "Josh Loeffler",
+    "note": "head coach on 2026-27 coaching staff page",
+    "source": "https://loyolagreyhounds.com/sports/mens-basketball/coaches"
+   },
+   "median_household_income": {
+    "value": 64778,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "median_home_value": {
+    "value": 247400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "poverty_rate": {
+    "value": 17.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "population": {
+    "value": 568271,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "population_2020": {
+    "value": 585708,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "median_age": {
+    "value": 36.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "bachelors_pct": {
+    "value": 38.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "commute_minutes": {
+    "value": 30.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "veterans": {
+    "value": 24584,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "foreign_born_pct": {
+    "value": 10.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "per_capita_income": {
+    "value": 41644,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "founded": {
+    "value": 1729,
+    "note": "Town of Baltimore 1729; city incorporated 1796-97",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "county_seat": {
+    "value": false,
+    "note": "independent city, no county (was Baltimore County seat 1768-1851)",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "largest_employer": {
+    "value": "Johns Hopkins Hospital and University",
+    "note": "page calls them 'the city's top employers'",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "jan_avg_temp_f": {
+    "value": 34.3,
+    "note": "BWI Airport climate table; Maryland Science Center table 36.9F",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "snowfall_in": {
+    "value": 19,
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "arena_named_for": {
+    "value": "Reitz Arena, named for Lefty Reitz",
+    "who": "person",
+    "money_from": "not a donor naming; page says 'named in his honor' (Loyola figure, 1938-1973)",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Loyola_Greyhounds"
+   },
+   "county": {
+    "value": "Baltimore City (independent city)",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "notes": "Coach pay: private, not disclosed. elevation_ft null: infobox gives a range 0-492 ft. ice_287g null per desk lesson (Maryland ended 287(g) agreements by law in 2026); no search done. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "mercyhurst": {
+   "key": "mercyhurst",
+   "school": "Mercyhurst",
+   "town": "Erie",
+   "state": "Pennsylvania",
+   "enrollment": {
+    "value": 2632,
+    "year": "Fall 2024",
+    "note": "2,274 undergraduate + 358 postgraduate",
+    "source": "https://en.wikipedia.org/wiki/Mercyhurst_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "all sports joined Division I in fall 2024; NEC primary conference for most sports",
+    "source": "https://en.wikipedia.org/wiki/Mercyhurst_Lakers"
+   },
+   "mbb_coach": {
+    "value": "Gary Manchel",
+    "note": "named head coach in July 31, 2026 schedule release",
+    "source": "https://hurstathletics.com/news/2026/7/31/mercyhurst-mens-basketball-announces-2026-27-schedule-following-historic-nec-championship-run.aspx"
+   },
+   "median_household_income": {
+    "value": 47733,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "median_home_value": {
+    "value": 135200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "poverty_rate": {
+    "value": 22.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "population": {
+    "value": 92936,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "population_2020": {
+    "value": 94831,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "median_age": {
+    "value": 34.8,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "bachelors_pct": {
+    "value": 26.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "commute_minutes": {
+    "value": 18.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "veterans": {
+    "value": 2859,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "foreign_born_pct": {
+    "value": 9.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "per_capita_income": {
+    "value": 28244,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4224000-erie-pa/"
+   },
+   "founded": {
+    "value": 1795,
+    "note": "founded April 18, 1795; incorporated as city 1851",
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Erie County",
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "jan_avg_temp_f": {
+    "value": 28.2,
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "snowfall_in": {
+    "value": 104.3,
+    "note": "1991-2020 normals",
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "elevation_ft": {
+    "value": 728,
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "county": {
+    "value": "Erie County",
+    "source": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania"
+   },
+   "notes": "Tuition null: https://mercyhurst.edu/aid table 'Estimated Tuition, Fees, Costs (2026-2027)' lists Basic Tuition $45,900 + Standard Fees $2,930 = $48,830 (private, same for all) but does not say annual vs per semester. Endowment null: Wikipedia says only 'more than US$20 million' with no year. Coach pay: private, not disclosed. largest_employer not identified on Erie page (lists Erie Insurance, Wabtec, UPMC Hamot, Saint Vincent). Arena: Mercyhurst Athletic Center; no namesake. ice_287g null: Inquirer Nov 5, 2026 287(g) roundup named no Erie County agency (list partial). pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "morgan-state": {
+   "key": "morgan-state",
+   "school": "Morgan State",
+   "town": "Baltimore",
+   "state": "Maryland",
+   "enrollment": {
+    "value": 11559,
+    "year": "Fall 2025",
+    "note": "article text; infobox gives 10,739 (fall 2024)",
+    "source": "https://en.wikipedia.org/wiki/Morgan_State_University"
+   },
+   "tuition_in": {
+    "value": 8466,
+    "year": "2026-27",
+    "note": "page gives per-semester full-time total $4,233 (tuition $2,967.50 + fees $1,265.50); doubled. Excludes mandatory health insurance",
+    "source": "https://www.morgan.edu/bursar/tuition-and-fees/fall-2026-spring-2027"
+   },
+   "tuition_out": {
+    "value": 19796,
+    "year": "2026-27",
+    "note": "per-semester $9,898 doubled",
+    "source": "https://www.morgan.edu/bursar/tuition-and-fees/fall-2026-spring-2027"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "MEAC; last FCS playoff appearance 2014",
+    "source": "https://en.wikipedia.org/wiki/Morgan_State_University"
+   },
+   "mbb_coach": {
+    "value": "Kevin Broadus",
+    "note": "Aug. 27, 2026 schedule release; reigning MEAC Coach of the Year",
+    "source": "https://morganstatebears.com/news/2026/8/27/bears-announce-full-non-conference-mens-basketball-schedule.aspx"
+   },
+   "median_household_income": {
+    "value": 64778,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "median_home_value": {
+    "value": 247400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "poverty_rate": {
+    "value": 17.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "population": {
+    "value": 568271,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "median_age": {
+    "value": 36.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "bachelors_pct": {
+    "value": 38.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "commute_minutes": {
+    "value": 30.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "veterans": {
+    "value": 24584,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "foreign_born_pct": {
+    "value": 10.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "per_capita_income": {
+    "value": 41644,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2404000-baltimore-md/"
+   },
+   "founded": {
+    "value": 1729,
+    "note": "town founded August 8, 1729",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "county_seat": {
+    "value": false,
+    "note": "independent city since 1851; was Baltimore County seat 1768-1851",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "largest_employer": {
+    "value": "Johns Hopkins Hospital and University",
+    "note": "'the city's top employers'",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "jan_avg_temp_f": {
+    "value": 34.3,
+    "note": "BWI climate table",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "snowfall_in": {
+    "value": 19.3,
+    "note": "BWI climate table",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "county": {
+    "value": "none (independent city)",
+    "source": "https://en.wikipedia.org/wiki/Baltimore"
+   },
+   "notes": "endowment null: Wikipedia article gives no current endowment figure. Coach pay null: no current contract figure found within budget. elevation null: Baltimore infobox gives only a 0-492 ft range. Home arena: Hill Field House; namesake not researched. ice_287g null: per desk lessons Maryland ended 287(g) agreements by law in 2026; no page opened says otherwise. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "mvsu": {
+   "key": "mvsu",
+   "school": "Mississippi Valley State",
+   "town": "Itta Bena",
+   "state": "Mississippi",
+   "enrollment": {
+    "value": 2196,
+    "year": "Fall 2023",
+    "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University"
+   },
+   "endowment": {
+    "value": 3650000,
+    "year": "2021",
+    "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Mississippi_Valley_State_University"
+   },
+   "mbb_coach": {
+    "value": "Mike Davis",
+    "note": "hired Apr 29, 2026 (https://hbcugameday.com/2026/04/29/mississippi-valley-state-officially-tabs-mike-davis-as-coach/), replacing George Ivory; Wikipedia still lists Ivory",
+    "source": "https://swac.org/news/2026/4/30/mississippi-valley-state-names-davis-head-mens-basketball-coach.aspx"
+   },
+   "population": {
+    "value": 1967,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "median_age": {
+    "value": 37.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "median_household_income": {
+    "value": 36033,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "per_capita_income": {
+    "value": 18195,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "poverty_rate": {
+    "value": 20.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "median_home_value": {
+    "value": 87400,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "commute_minutes": {
+    "value": 19.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "bachelors_pct": {
+    "value": 13.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "veterans": {
+    "value": 39,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2835260-itta-bena-ms/"
+   },
+   "population_2020": {
+    "value": 1679,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi"
+   },
+   "elevation_ft": {
+    "value": 125,
+    "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi"
+   },
+   "county": {
+    "value": "Leflore County",
+    "source": "https://en.wikipedia.org/wiki/Itta_Bena,_Mississippi"
+   },
+   "notes": "Tuition null: no MVSU tuition page found in search within budget. Coach pay null: no terms reported. Town Wikipedia gives no founding/incorporation year, county-seat statement or climate box. foreign_born_pct not reported on Census Reporter page. Home arena Harrison HPER Complex; namesake not given. ice_287g null: one search found nothing naming a Leflore County agency. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "navy": {
+   "key": "navy",
+   "school": "Navy",
+   "town": "Annapolis",
+   "state": "Maryland",
+   "enrollment": {
+    "value": 4576,
+    "year": null,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+   },
+   "tuition_in": {
+    "value": 0,
+    "year": null,
+    "note": "page: 'Tuition for midshipmen is fully funded by the Navy' in exchange for active-duty service obligation",
+    "source": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+   },
+   "tuition_out": {
+    "value": 0,
+    "year": null,
+    "note": "same; tuition fully funded by the Navy",
+    "source": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+   },
+   "endowment": {
+    "value": 319400000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "American Athletic Conference",
+    "source": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+   },
+   "mbb_coach": {
+    "value": "Jon Perry",
+    "note": "named head coach in July 17, 2026 release",
+    "source": "https://navysports.com/news/2026/7/17/mens-basketball-scott-wagers-promoted-to-associate-head-coach-for-navy-mens-basketball.aspx"
+   },
+   "median_household_income": {
+    "value": 113860,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "median_home_value": {
+    "value": 548900,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "poverty_rate": {
+    "value": 7.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "population": {
+    "value": 40720,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "population_2020": {
+    "value": 40812,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "median_age": {
+    "value": 43,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "bachelors_pct": {
+    "value": 53.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "commute_minutes": {
+    "value": 29.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "veterans": {
+    "value": 2968,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "foreign_born_pct": {
+    "value": 10.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "per_capita_income": {
+    "value": 69520,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2401600-annapolis-md/"
+   },
+   "founded": {
+    "value": 1649,
+    "note": "settled as Providence 1649; city incorporated 1708",
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "Anne Arundel County",
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "largest_employer": {
+    "value": "United States Naval Academy",
+    "note": "2,500 employees per city 2018 CAFR, excluding state and local government",
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "jan_avg_temp_f": {
+    "value": 36.5,
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "elevation_ft": {
+    "value": 43,
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "county": {
+    "value": "Anne Arundel County",
+    "source": "https://en.wikipedia.org/wiki/Annapolis,_Maryland"
+   },
+   "notes": "Coach pay: not found (federal service academy; no pay source fetched). Arena: Alumni Hall; namesake not given on USNA page. snowfall_in null: Annapolis climate box has no snowfall row. ice_287g null per desk lesson (Maryland ended 287(g) agreements by law in 2026); no search done. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "nc-central": {
+   "key": "nc-central",
+   "school": "NC Central",
+   "town": "Durham",
+   "state": "North Carolina",
+   "enrollment": {
+    "value": 9160,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/North_Carolina_Central_University"
+   },
+   "tuition_in": {
+    "value": 6930,
+    "year": "2026-27",
+    "note": "schedule is per semester: tuition $1,920 + required fees $1,545 (excluding $1,312 student insurance) = $3,465, doubled",
+    "source": "https://myeol.nccu.edu/sites/default/files/2026-07/2026-2027-Approved-Tuition-and-Fees-Schedule.pdf"
+   },
+   "tuition_out": {
+    "value": 20358,
+    "year": "2026-27",
+    "note": "per semester tuition $8,634 + fees $1,545 = $10,179, doubled; excludes insurance",
+    "source": "https://myeol.nccu.edu/sites/default/files/2026-07/2026-2027-Approved-Tuition-and-Fees-Schedule.pdf"
+   },
+   "endowment": {
+    "value": 89000000,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/North_Carolina_Central_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "MEAC",
+    "source": "https://en.wikipedia.org/wiki/North_Carolina_Central_University"
+   },
+   "mbb_coach": {
+    "value": "LeVelle Moton",
+    "note": "Sept. 9, 2026 schedule release",
+    "source": "https://nccueaglepride.com/news/2026/9/9/mens-basketball-nccu-mens-basketball-non-conference-slate-is-set.aspx"
+   },
+   "median_household_income": {
+    "value": 82916,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "median_home_value": {
+    "value": 439400,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "poverty_rate": {
+    "value": 11.4,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "population": {
+    "value": 301877,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "median_age": {
+    "value": 35.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "bachelors_pct": {
+    "value": 58.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "commute_minutes": {
+    "value": 21.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "veterans": {
+    "value": 12998,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "foreign_born_pct": {
+    "value": 15.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "per_capita_income": {
+    "value": 50736,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3719000-durham-nc/"
+   },
+   "founded": {
+    "value": 1869,
+    "note": "incorporated April 10, 1869; post office date April 26, 1853 is the city's official birthday",
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "seat of Durham County",
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "largest_employer": {
+    "value": "Duke University and Duke University Health System",
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "jan_avg_temp_f": {
+    "value": 41.9,
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "snowfall_in": {
+    "value": 5.2,
+    "note": "climate table; body text says 7 in.",
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "elevation_ft": {
+    "value": 404,
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "county": {
+    "value": "Durham County",
+    "source": "https://en.wikipedia.org/wiki/Durham,_North_Carolina"
+   },
+   "notes": "Coach pay null: no current contract figure found within budget. ice_287g null: one search found only the sheriff's 2018-era exit from 287(g) and no current agreement report. Arena: McDougald-McLendon Arena; namesake not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "new-haven": {
+   "key": "new-haven",
+   "school": "New Haven",
+   "town": "West Haven",
+   "state": "Connecticut",
+   "enrollment": {
+    "value": 6719,
+    "year": null,
+    "note": "infobox (4,972 undergrad + 1,747 postgrad), no year given",
+    "source": "https://en.wikipedia.org/wiki/University_of_New_Haven"
+   },
+   "tuition_in": {
+    "value": 51270,
+    "year": "2026-27",
+    "note": "private; full-time day yearly tuition $49,340 + general student fee $1,930 (excludes waivable health insurance $1,900)",
+    "source": "https://www.newhaven.edu/about/departments/bursars/tuition/undergraduate-2026-2027.php"
+   },
+   "tuition_out": {
+    "value": 51270,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.newhaven.edu/about/departments/bursars/tuition/undergraduate-2026-2027.php"
+   },
+   "endowment": {
+    "value": 94000000,
+    "year": null,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/University_of_New_Haven"
+   },
+   "mbb_coach": {
+    "value": "Ted Hotaling",
+    "note": "named in July 27, 2026 release on 2026-27 home schedule",
+    "source": "https://newhavenchargers.com/news/2026/7/27/new-haven-mens-basketball-to-open-home-schedule-against-army-on-nov-10.aspx"
+   },
+   "median_household_income": {
+    "value": 74382,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "median_home_value": {
+    "value": 291700,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "poverty_rate": {
+    "value": 14.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "population": {
+    "value": 55351,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "population_2020": {
+    "value": 55584,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/West_Haven,_Connecticut"
+   },
+   "median_age": {
+    "value": 35.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "bachelors_pct": {
+    "value": 30.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "commute_minutes": {
+    "value": 22.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "veterans": {
+    "value": 2022,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "foreign_born_pct": {
+    "value": 21.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "per_capita_income": {
+    "value": 35740,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0982800-west-haven-ct/"
+   },
+   "founded": {
+    "value": 1921,
+    "note": "settled 1648 as West Farms; town 1921; city 1961",
+    "source": "https://en.wikipedia.org/wiki/West_Haven,_Connecticut"
+   },
+   "elevation_ft": {
+    "value": 33,
+    "source": "https://en.wikipedia.org/wiki/West_Haven,_Connecticut"
+   },
+   "county": {
+    "value": "New Haven County",
+    "source": "https://en.wikipedia.org/wiki/West_Haven,_Connecticut"
+   },
+   "notes": "football null: New Haven Chargers Wikipedia page says Division I since July 1, 2025 with football in the Northeast Conference, but does not state FCS/FBS. Coach pay: private, not disclosed. Arena: Jeffrey P. Hazell Center; namesake not explained on page. county_seat not stated; no climate box (jan temp, snowfall null); largest_employer not named. ice_287g null: one Connecticut 287(g) search named no New Haven County agency. pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "norfolk-state": {
+   "key": "norfolk-state",
+   "school": "Norfolk State",
+   "town": "Norfolk",
+   "state": "Virginia",
+   "enrollment": {
+    "value": 5616,
+    "year": "Fall 2019",
+    "note": "infobox figure is from fall 2019",
+    "source": "https://en.wikipedia.org/wiki/Norfolk_State_University"
+   },
+   "tuition_in": {
+    "value": 10842,
+    "year": "2026-27",
+    "note": "page gives per-semester full-time total $5,421 (tuition $3,223 + mandatory fees $2,198); doubled",
+    "source": "https://www.nsu.edu/About/Administrative-Offices-Services/Student-Accounts-Department/Tuition-and-Fees/2026-2027/Tuition-and-Fees-2026-2027.aspx"
+   },
+   "tuition_out": {
+    "value": 23804,
+    "year": "2026-27",
+    "note": "per-semester $11,902 (tuition $9,324 + capital outlay $380 + fees $2,198) doubled",
+    "source": "https://www.nsu.edu/About/Administrative-Offices-Services/Student-Accounts-Department/Tuition-and-Fees/2026-2027/Tuition-and-Fees-2026-2027.aspx"
+   },
+   "endowment": {
+    "value": 109500000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Norfolk_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "MEAC",
+    "source": "https://en.wikipedia.org/wiki/Norfolk_State_University"
+   },
+   "mbb_coach": {
+    "value": "Robert Jones",
+    "note": "Sept. 3, 2026: entering 14th season; extended through 2031-32 in March 2025. University Wikipedia page's mention of Anthony Evans as 'current interim' is stale (2013)",
+    "source": "https://nsuspartans.com/news/2026/9/3/norfolk-state-announces-2026-27-mens-basketball-schedule.aspx"
+   },
+   "median_household_income": {
+    "value": 65797,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "median_home_value": {
+    "value": 311200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "poverty_rate": {
+    "value": 14.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "population": {
+    "value": 231105,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "median_age": {
+    "value": 33.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "bachelors_pct": {
+    "value": 34.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "commute_minutes": {
+    "value": 22.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "veterans": {
+    "value": 22316,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "foreign_born_pct": {
+    "value": 8.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "per_capita_income": {
+    "value": 41032,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US5157000-norfolk-va/"
+   },
+   "founded": {
+    "value": 1680,
+    "note": "infobox: founded 1680 as town; body text also gives 1682",
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "county_seat": {
+    "value": false,
+    "note": "independent city, no county",
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "largest_employer": {
+    "value": "U.S. Department of Defense",
+    "note": "2016 Virginia Employment Commission ranking",
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "jan_avg_temp_f": {
+    "value": 42.2,
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "snowfall_in": {
+    "value": 6.2,
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "elevation_ft": {
+    "value": 6.9,
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "county": {
+    "value": "none (independent city)",
+    "source": "https://en.wikipedia.org/wiki/Norfolk,_Virginia"
+   },
+   "ice_287g": {
+    "value": false,
+    "agency": null,
+    "model": null,
+    "note": "as of July 9, 2025 none of Virginia's 19 287(g) localities were in Hampton Roads; Norfolk honors 48-hour detainers only",
+    "source": "https://www.yahoo.com/news/hampton-roads-sheriffs-working-ice-152900446.html"
+   },
+   "notes": "Coach pay null: March 2025 extension reports opened (hbcusports) give no salary. ice_287g reflects a July 2025 report; not re-verified for 2026. Arena: Joseph G. Echols Memorial Hall; namesake not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "prairie-view": {
+   "key": "prairie-view",
+   "school": "Prairie View",
+   "town": "Prairie View",
+   "state": "Texas",
+   "enrollment": {
+    "value": 10085,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University"
+   },
+   "tuition_in": {
+    "value": 11299,
+    "year": "2025-26",
+    "note": "annual estimated tuition & fees (Fall+Spring, 15 hrs/sem); same figure listed for 2026-27",
+    "source": "https://www.pvamu.edu/faid/cost-of-attendance/"
+   },
+   "tuition_out": {
+    "value": 26874,
+    "year": "2025-26",
+    "note": "annual estimated tuition & fees, non-resident; same for 2026-27",
+    "source": "https://www.pvamu.edu/faid/cost-of-attendance/"
+   },
+   "endowment": {
+    "value": 148500000,
+    "note": "Wikipedia infobox gives no fiscal year",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Division I FCS, SWAC (school Wikipedia page)",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View_A%26M_University"
+   },
+   "mbb_coach": {
+    "value": "Byron Smith",
+    "note": "listed as head coach on 2026-27 staff page",
+    "source": "https://pvpanthers.com/coaches.aspx?rc=628"
+   },
+   "population": {
+    "value": 8431,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "median_age": {
+    "value": 21,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "median_household_income": {
+    "value": 21060,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "per_capita_income": {
+    "value": 11320,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "poverty_rate": {
+    "value": 38.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "median_home_value": {
+    "value": 167600,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "commute_minutes": {
+    "value": 23.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "bachelors_pct": {
+    "value": 46.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "foreign_born_pct": {
+    "value": 6.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "veterans": {
+    "value": 31,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4859336-prairie-view-tx/"
+   },
+   "population_2020": {
+    "value": 8184,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas"
+   },
+   "founded": {
+    "value": 1969,
+    "note": "city established 1969 per Wikipedia",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas"
+   },
+   "elevation_ft": {
+    "value": 269,
+    "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas"
+   },
+   "county": {
+    "value": "Waller County",
+    "source": "https://en.wikipedia.org/wiki/Prairie_View,_Texas"
+   },
+   "notes": "Coach pay null: no contract figures found. county_seat null: Wikipedia page does not say. No climate box on town page. ice_287g null: Texas law requires jail-operating sheriffs to join 287(g) by Dec 1, 2026 (https://www.redriverradio.org/news/2025-12-30/mandatory-agreements-by-texas-sheriffs-with-ice-begin-thursday-despite-concerns), but no page confirmed Waller County's agreement. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "south-carolina-state": {
+   "key": "south-carolina-state",
+   "school": "South Carolina State",
+   "town": "Orangeburg",
+   "state": "South Carolina",
+   "enrollment": {
+    "value": 2649,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/South_Carolina_State_University"
+   },
+   "endowment": {
+    "value": 17200000,
+    "year": "2023",
+    "source": "https://en.wikipedia.org/wiki/South_Carolina_State_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "MEAC",
+    "source": "https://en.wikipedia.org/wiki/South_Carolina_State_University"
+   },
+   "mbb_coach": {
+    "value": "Erik Martin",
+    "note": "Sept. 17, 2026 schedule release",
+    "source": "https://www.live5news.com/2026/09/17/sc-state-mens-basketball-announces-2026-27-schedule/"
+   },
+   "median_household_income": {
+    "value": 38635,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "median_home_value": {
+    "value": 163500,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "poverty_rate": {
+    "value": 32.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "population": {
+    "value": 13253,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "median_age": {
+    "value": 36.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "bachelors_pct": {
+    "value": 26.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "commute_minutes": {
+    "value": 24.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "veterans": {
+    "value": 464,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "foreign_born_pct": {
+    "value": 1.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "per_capita_income": {
+    "value": 19990,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US4553080/"
+   },
+   "founded": {
+    "value": 1704,
+    "note": "European settlement began 1704",
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "seat of Orangeburg County",
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "jan_avg_temp_f": {
+    "value": 48.1,
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "snowfall_in": {
+    "value": 0.1,
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "elevation_ft": {
+    "value": 197,
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "county": {
+    "value": "Orangeburg County",
+    "source": "https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina"
+   },
+   "ice_287g": {
+    "value": true,
+    "agency": "Bowman, Branchville, Elloree, Eutawville, Holly Hill, North and Santee police departments (Orangeburg County municipalities); not the sheriff or Orangeburg city police",
+    "model": "task force",
+    "source": "https://www.wrdw.com/2026/07/14/which-south-carolina-law-enforcement-agencies-partner-with-ice/"
+   },
+   "notes": "Tuition null: the only SCSU fee sheet found is AY2025-26 (https://scsu.edu/financial-aid/previous_forms/AY2025-2026%20Fee%20Sheet.pdf) showing in-state $5,730 and out-of-state $11,285 tuition and required fees, but the sheet doesn't label whether these are per semester or annual. Coach pay null: no figure found within budget. Census profile URL with slug redirect-looped; fetched by geoid (16000US4553080). largest_employer null: not named on page. Arena not researched. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "southern-u": {
+   "key": "southern-u",
+   "school": "Southern",
+   "town": "Baton Rouge",
+   "state": "Louisiana",
+   "enrollment": {
+    "value": 7483,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Southern_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Division I (FCS for football), SWAC",
+    "source": "https://en.wikipedia.org/wiki/Southern_University"
+   },
+   "mbb_coach": {
+    "value": "Kevin Johnson",
+    "note": "Head Men's Basketball Coach; bio says entering his fourth season (2026-27) after reaching 2026 SWAC title game",
+    "source": "https://gojagsports.com/staff-directory/kevin-johnson/220"
+   },
+   "population": {
+    "value": 220901,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "median_age": {
+    "value": 31.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "median_household_income": {
+    "value": 50332,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "per_capita_income": {
+    "value": 33350,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "poverty_rate": {
+    "value": 27.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "median_home_value": {
+    "value": 251100,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "commute_minutes": {
+    "value": 21.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "bachelors_pct": {
+    "value": 37.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "foreign_born_pct": {
+    "value": 7.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "veterans": {
+    "value": 7155,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2205000/"
+   },
+   "population_2020": {
+    "value": 227470,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "founded": {
+    "value": 1699,
+    "note": "founded 1699; incorporated 1817",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "parish seat of East Baton Rouge Parish",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "jan_avg_temp_f": {
+    "value": 51.7,
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "snowfall_in": {
+    "value": 0.2,
+    "note": "climate box; text says 0.1",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "elevation_ft": {
+    "value": 46,
+    "note": "infobox; text says 56-62 ft",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "county": {
+    "value": "East Baton Rouge Parish",
+    "source": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana"
+   },
+   "notes": "Tuition null: Spring 2026 SUBR fee schedule (https://www.subr.edu/assets/subr/TuitionFees/2026-Spring-Student-Fee-Schedule1.pdf) lists resident total full-time fees $4,979 (12+ hrs), apparently per semester but not stated; out-of-state add-on unclear. Endowment null: not on the Wikipedia page fetched. Coach pay null. ice_287g null: WAFB Nov 2026 list of new Baton Rouge-area 287(g) agencies (https://www.wafb.com/2026/11/09/10-local-agencies-join-ice-program-targeting-illegal-immigration/) does not include EBR Sheriff or Baton Rouge Police (Louisiana State Police is a participant). Census Reporter slug URL redirected; used geoid-only URL. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "stonehill": {
+   "key": "stonehill",
+   "school": "Stonehill",
+   "town": "Easton",
+   "state": "Massachusetts",
+   "enrollment": {
+    "value": 2491,
+    "year": null,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/Stonehill_College"
+   },
+   "tuition_in": {
+    "value": 62110,
+    "year": "2026-27",
+    "note": "private; annual tuition $60,610 + general service fee $1,500 (excludes school-specific per-semester fees)",
+    "source": "https://www.stonehill.edu/offices-and-services/financial-aid/undergraduate-students/cost-of-attendance/"
+   },
+   "tuition_out": {
+    "value": 62110,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://www.stonehill.edu/offices-and-services/financial-aid/undergraduate-students/cost-of-attendance/"
+   },
+   "endowment": {
+    "value": 326500000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Stonehill_College"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "Division I (FCS); NEC",
+    "source": "https://en.wikipedia.org/wiki/Stonehill_Skyhawks"
+   },
+   "mbb_coach": {
+    "value": "Chris Kraus",
+    "note": "Aug 4, 2026 schedule release: entering his 13th season",
+    "source": "https://stonehillskyhawks.com/news/2026/8/4/mens-basketball-unveils-2026-2027-schedule.aspx"
+   },
+   "median_household_income": {
+    "value": 124271,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "median_home_value": {
+    "value": 581200,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "poverty_rate": {
+    "value": 6.0,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "population": {
+    "value": 25316,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "population_2020": {
+    "value": 25058,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Massachusetts"
+   },
+   "median_age": {
+    "value": 42.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "bachelors_pct": {
+    "value": 53.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "commute_minutes": {
+    "value": 30.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "veterans": {
+    "value": 1156,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "foreign_born_pct": {
+    "value": 7.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "per_capita_income": {
+    "value": 62509,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/06000US2500520100-easton-town-bristol-county-ma"
+   },
+   "founded": {
+    "value": 1725,
+    "note": "settled 1694; incorporated 1725",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Massachusetts"
+   },
+   "elevation_ft": {
+    "value": 112,
+    "source": "https://en.wikipedia.org/wiki/Easton,_Massachusetts"
+   },
+   "county": {
+    "value": "Bristol County",
+    "source": "https://en.wikipedia.org/wiki/Easton,_Massachusetts"
+   },
+   "notes": "Census Reporter profile is the county subdivision (Easton town, Bristol County), not a place. Coach pay: private, not disclosed. county_seat null: town page doesn't say (no climate box either, so jan temp/snowfall null). largest_employer not named. Arena: Merkert Gymnasium; namesake not given on Stonehill Skyhawks page. ice_287g null: one search found only a report of the Bristol County sheriff limiting ICE cooperation, nothing confirming a current 287(g). pell_pct null per desk lessons; grants/news/median_debt/detention skipped."
+  },
+  "texas-southern": {
+   "key": "texas-southern",
+   "school": "Texas Southern",
+   "town": "Houston",
+   "state": "Texas",
+   "enrollment": {
+    "value": 7366,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Texas_Southern_University"
+   },
+   "tuition_in": {
+    "value": 9174,
+    "year": "2027-28",
+    "note": "annual (Fall & Spring) estimated projection as labeled on TSU College Costs page",
+    "source": "https://tsu.edu/admissions/financial-aid/college-costs.php"
+   },
+   "tuition_out": {
+    "value": 21416,
+    "year": "2027-28",
+    "note": "annual (Fall & Spring) estimated projection, non-resident",
+    "source": "https://tsu.edu/admissions/financial-aid/college-costs.php"
+   },
+   "endowment": {
+    "value": 100000000,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/Texas_Southern_University"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/Texas_Southern_University"
+   },
+   "mbb_coach": {
+    "value": "Corey Lowery",
+    "note": "introduced Aug 19, 2026, replacing Johnny Jones (left for LSU); player protests over hire",
+    "source": "https://www.fox26houston.com/sports/texas-southern-university-names-ashley-robinson-athletic-director"
+   },
+   "population": {
+    "value": 2387910,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "median_age": {
+    "value": 34,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "median_household_income": {
+    "value": 64361,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "per_capita_income": {
+    "value": 42181,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "poverty_rate": {
+    "value": 21.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "median_home_value": {
+    "value": 301200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "commute_minutes": {
+    "value": 28.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "bachelors_pct": {
+    "value": 38.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "foreign_born_pct": {
+    "value": 30.8,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "veterans": {
+    "value": 59500,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US4835000-houston-tx/"
+   },
+   "population_2020": {
+    "value": 2304580,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "founded": {
+    "value": 1836,
+    "note": "founded Aug 30, 1836; incorporated 1837",
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "jan_avg_temp_f": {
+    "value": 53.8,
+    "note": "Intercontinental Airport 1991-2020",
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "snowfall_in": {
+    "value": 0.1,
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "elevation_ft": {
+    "value": 105,
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "county": {
+    "value": "Harris County",
+    "source": "https://en.wikipedia.org/wiki/Houston"
+   },
+   "notes": "Coach pay null: no figures in hiring coverage. Houston Wikipedia gives median gross rent $1,041 (2015-2019) and 42.3% homeownership (2019) without explicit ACS attribution, so left null. Home arena H&PE Arena; no namesake. ice_287g null: Texas law requires jail-operating sheriffs to join 287(g) by Dec 1, 2026 (https://www.redriverradio.org/news/2025-12-30/mandatory-agreements-by-texas-sheriffs-with-ice-begin-thursday-despite-concerns), but no page confirmed Harris County's agreement. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "uapb": {
+   "key": "uapb",
+   "school": "Arkansas-Pine Bluff",
+   "town": "Pine Bluff",
+   "state": "Arkansas",
+   "enrollment": {
+    "value": 2100,
+    "year": "2023",
+    "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff"
+   },
+   "endowment": {
+    "value": 7000000,
+    "note": "infobox gives no year",
+    "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS, SWAC",
+    "source": "https://en.wikipedia.org/wiki/University_of_Arkansas_at_Pine_Bluff"
+   },
+   "mbb_coach": {
+    "value": "Solomon Bozeman",
+    "note": "head coach on 2026-27 staff page",
+    "source": "https://uapblionsroar.com/sports/mens-basketball/coaches"
+   },
+   "population": {
+    "value": 39743,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "median_age": {
+    "value": 37.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "median_household_income": {
+    "value": 42718,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "per_capita_income": {
+    "value": 22242,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "poverty_rate": {
+    "value": 24.0,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "median_home_value": {
+    "value": 89400,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "commute_minutes": {
+    "value": 19.3,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "bachelors_pct": {
+    "value": 20.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "foreign_born_pct": {
+    "value": 2.0,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "veterans": {
+    "value": 1749,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US0555310-pine-bluff-ar/"
+   },
+   "population_2020": {
+    "value": 41253,
+    "year": "2020 census",
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "founded": {
+    "value": 1832,
+    "note": "named by county court Oct 16, 1832; incorporated 1839",
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "jan_avg_temp_f": {
+    "value": 42.5,
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "snowfall_in": {
+    "value": 2.5,
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "elevation_ft": {
+    "value": 226,
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "county": {
+    "value": "Jefferson County",
+    "source": "https://en.wikipedia.org/wiki/Pine_Bluff,_Arkansas"
+   },
+   "notes": "Tuition null: UAPB page (https://uapb.edu/admissions/undergraduate-admissions/tuition-and-fees) gives Fall 2026 per-credit-hour rates only: tuition $219.93 resident / $522.00 non-resident, plus $98.75/hr fees and $101/semester fees; no annual total. Wikipedia lists major employers (Jefferson Regional Medical Center, Simmons First, Tyson, Evergreen Packaging, Pine Bluff Arsenal, Union Pacific) unranked. Coach pay null. ice_287g null: one search found nothing naming a Jefferson County AR agency. Skipped per desk lessons: grants_terminated_2025, news_outlets_county, news_desert, median_debt, detention_center_nearby. pell_pct null (College Navigator not tried per desk lessons). arena_named_for null: arena Wikipedia page not fetched (fetch budget)."
+  },
+  "umes": {
+   "key": "umes",
+   "school": "Maryland Eastern Shore",
+   "town": "Princess Anne",
+   "state": "Maryland",
+   "enrollment": {
+    "value": 3163,
+    "year": "Fall 2024",
+    "note": "2,467 undergraduates + 696 postgraduates per infobox",
+    "source": "https://en.wikipedia.org/wiki/University_of_Maryland_Eastern_Shore"
+   },
+   "tuition_in": {
+    "value": 9680.5,
+    "year": "2026-27 (FY2027)",
+    "note": "USM annual: tuition $6,101 + mandatory fees $3,579.50",
+    "source": "https://www.usmd.edu/usm/adminfinance/budget/FY2027/UMES_Tuition_and_Fees_2027.pdf"
+   },
+   "tuition_out": {
+    "value": 21920.5,
+    "year": "2026-27 (FY2027)",
+    "note": "tuition $18,341 + fees $3,579.50; Eastern Shore regional out-of-state rate is $12,752.50",
+    "source": "https://www.usmd.edu/usm/adminfinance/budget/FY2027/UMES_Tuition_and_Fees_2027.pdf"
+   },
+   "endowment": {
+    "value": 26200000,
+    "year": "2017",
+    "source": "https://en.wikipedia.org/wiki/University_of_Maryland_Eastern_Shore"
+   },
+   "football": {
+    "value": "none",
+    "note": "dropped after 1979 season; 2013 task force kept it discontinued",
+    "source": "https://en.wikipedia.org/wiki/University_of_Maryland_Eastern_Shore"
+   },
+   "mbb_coach": {
+    "value": "Cleo Hill Jr.",
+    "note": "UMES staff directory lists Hill as head coach and references his 2025-26 season; hired June 2024. University Wikipedia page's mention of Jason Crafton is outdated. No 2026-27-dated release opened",
+    "source": "https://umeshawksports.com/staff-directory/tba-/247"
+   },
+   "median_household_income": {
+    "value": 69116,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "median_home_value": {
+    "value": 231900,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "poverty_rate": {
+    "value": 22.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "population": {
+    "value": 3569,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "median_age": {
+    "value": 27.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "bachelors_pct": {
+    "value": 34.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "commute_minutes": {
+    "value": 19.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "veterans": {
+    "value": 110,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "foreign_born_pct": {
+    "value": 15.0,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "per_capita_income": {
+    "value": 29722,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2464000-princess-anne-md/"
+   },
+   "founded": {
+    "value": 1733,
+    "source": "https://en.wikipedia.org/wiki/Princess_Anne,_Maryland"
+   },
+   "county_seat": {
+    "value": true,
+    "note": "seat of Somerset County",
+    "source": "https://en.wikipedia.org/wiki/Princess_Anne,_Maryland"
+   },
+   "elevation_ft": {
+    "value": 16,
+    "source": "https://en.wikipedia.org/wiki/Princess_Anne,_Maryland"
+   },
+   "county": {
+    "value": "Somerset County",
+    "source": "https://en.wikipedia.org/wiki/Princess_Anne,_Maryland"
+   },
+   "notes": "Coach pay null: no figure found within budget. jan_avg_temp_f and snowfall_in null: Princess Anne page has no climate box (text says 5-10 in. snow). largest_employer not named. Arena not researched. ice_287g null: per desk lessons Maryland ended 287(g) agreements by law in 2026; no page opened says otherwise. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
+  },
+  "wagner": {
+   "key": "wagner",
+   "school": "Wagner",
+   "town": "Staten Island",
+   "state": "New York",
+   "enrollment": {
+    "value": 1932,
+    "year": "2023",
+    "source": "https://en.wikipedia.org/wiki/Wagner_College"
+   },
+   "tuition_in": {
+    "value": 56482,
+    "year": "2026-27",
+    "note": "private; annual tuition $54,318 + annual student fees $2,164 (excludes waivable health insurance, opt-out book fee, refund insurance)",
+    "source": "https://wagner.edu/business-office/tuition_rates/"
+   },
+   "tuition_out": {
+    "value": 56482,
+    "year": "2026-27",
+    "note": "private, same figure",
+    "source": "https://wagner.edu/business-office/tuition_rates/"
+   },
+   "endowment": {
+    "value": 100500000,
+    "year": "2024",
+    "source": "https://en.wikipedia.org/wiki/Wagner_College"
+   },
+   "football": {
+    "value": "FCS",
+    "note": "NCAA Division I FCS per infobox",
+    "source": "https://en.wikipedia.org/wiki/Wagner_College"
+   },
+   "mbb_coach": {
+    "value": "Dwan McMillan",
+    "note": "named head coach April 20, 2026 after serving as interim since Oct. 28, 2025",
+    "source": "https://wagnerathletics.com/news/2026/4/20/mens-basketball-wagner-names-dwan-mcmillan-head-mens-basketball-coach.aspx"
+   },
+   "median_household_income": {
+    "value": 81228,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "median_home_value": {
+    "value": 778600,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "poverty_rate": {
+    "value": 18.0,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "population": {
+    "value": 8478072,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "median_age": {
+    "value": 38.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "bachelors_pct": {
+    "value": 42.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "commute_minutes": {
+    "value": 40.6,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "veterans": {
+    "value": 121547,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "foreign_born_pct": {
+    "value": 36.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "per_capita_income": {
+    "value": 52504,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3651000-new-york-ny/"
+   },
+   "founded": {
+    "value": 1661,
+    "note": "settled 1661 (first permanent Dutch settlement, Oude Dorp)",
+    "source": "https://en.wikipedia.org/wiki/Staten_Island"
+   },
+   "notes": "Census figures are for New York city as a whole (Staten Island is a borough, not a Census place). Coach pay: private, not disclosed. county null: Staten Island page did not state the county in what I read. county_seat, largest_employer, jan_avg_temp_f, snowfall_in null: Staten Island page has no climate box and names no largest employer; elevation null: page gives only Todt Hill summit (401 ft), not a town elevation. Arena not researched (budget). ice_287g null: per desk lessons New York ended 287(g) agreements by law in 2026; no page opened says otherwise. median_gross_rent, homeownership_pct and population_2020 are not on the Census Reporter profile (null). College Navigator not tried per desk lessons (pell_pct, median_debt null); grants_terminated_2025, news_outlets_county, news_desert, detention_center_nearby skipped per desk lessons."
   }
  }
 }

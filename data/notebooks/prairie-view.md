@@ -27,7 +27,29 @@ _Prairie View (SWAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,085 (Fall 2025)
+- Tuition and fees, in state: $11,299 (2025-26), annual estimated tuition & fees (Fall+Spring, 15 hrs/sem); same figure listed for 2026-27
+- Tuition and fees, out of state: $26,874 (2025-26), annual estimated tuition & fees, non-resident; same for 2026-27
+- Endowment: $148.5 million, Wikipedia infobox gives no fiscal year
+- Football: FCS, Division I FCS, SWAC (school Wikipedia page)
+
+**Prairie View**
+- Population: 8,431 (ACS 2024 5-year)
+- Population in 2020: 8,184 (2020 census)
+- Median household income: $21,060 (ACS 2024 5-year)
+- Income per person: $11,320 (ACS 2024 5-year)
+- Median home value: $167,600 (ACS 2024 5-year)
+- Poverty rate: 38.1% (ACS 2024 5-year)
+- Median age: 21 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 46.1% (ACS 2024 5-year)
+- Average commute: 23.5 minutes (ACS 2024 5-year)
+- Veterans: 31 (ACS 2024 5-year)
+- Born abroad: 6.6% (ACS 2024 5-year)
+- Founded: 1969, city established 1969 per Wikipedia
+- Elevation: 269 feet
+- County: Waller County
+- College-town index: 1.20 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,14 @@ _Alcorn State (SWAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,933 (Fall 2022), infobox; body says ~3,700 UG + 600 grad
+- Endowment: $21.3 million (2021)
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Lorman**
+- Elevation: 217 feet
+- County: Jefferson County
 
 ## The program's best
 

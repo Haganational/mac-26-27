@@ -27,7 +27,33 @@ _Loyola Maryland (Patriot). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,897 (Fall 2024)
+- Tuition and fees, in state: $61,810 (2026-27), private; full-time flat-rate tuition, academic-year total ($30,905/semester). Page lists no separate required fees
+- Tuition and fees, out of state: $61,810 (2026-27), private, same figure
+- Endowment: $323.9 million (2024)
+- Football: none, defunct since 1933
+- Arena named for: Reitz Arena, named for Lefty Reitz (not a donor naming; page says 'named in his honor' (Loyola figure, 1938-1973))
+
+**Baltimore**
+- Population: 568,271 (ACS 2024 1-year)
+- Population in 2020: 585,708 (2020 census)
+- Median household income: $64,778 (ACS 2024 1-year)
+- Income per person: $41,644 (ACS 2024 1-year)
+- Median home value: $247,400 (ACS 2024 1-year)
+- Poverty rate: 17.7% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38.1% (ACS 2024 1-year)
+- Average commute: 30.2 minutes (ACS 2024 1-year)
+- Veterans: 24,584 (ACS 2024 1-year)
+- Born abroad: 10.6% (ACS 2024 1-year)
+- Founded: 1729, Town of Baltimore 1729; city incorporated 1796-97
+- County seat: no, independent city, no county (was Baltimore County seat 1768-1851)
+- Biggest employer: Johns Hopkins Hospital and University, page calls them 'the city's top employers'
+- January average: 34.3°F, BWI Airport climate table; Maryland Science Center table 36.9F
+- Snow a year: 19 inches
+- County: Baltimore City (independent city)
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

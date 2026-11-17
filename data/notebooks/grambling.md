@@ -27,7 +27,26 @@ _Grambling (SWAC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,232, infobox gives no year
+- Tuition and fees, in state: $7,852 (2026-27), page gives per-semester full-time (12-16 hrs) commuter rate $3,926.10; doubled. Differential-fee majors pay $4,043.60/semester
+- Tuition and fees, out of state: $16,875 (2026-27), per-semester non-resident $8,437.60 doubled
+- Football: FCS, SWAC
+
+**Grambling**
+- Population: 5,287 (ACS 2024 5-year)
+- Income per person: $11,379 (ACS 2024 5-year)
+- Median home value: $181,700 (ACS 2024 5-year)
+- Poverty rate: 52.4% (ACS 2024 5-year)
+- Median age: 21.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 35.5% (ACS 2024 5-year)
+- Average commute: 20.3 minutes (ACS 2024 5-year)
+- Veterans: 226 (ACS 2024 5-year)
+- Born abroad: 3.6% (ACS 2024 5-year)
+- Founded: 1992, incorporated as city 1992 (page says 1992 or 1993)
+- Elevation: 302 feet
+- County: Lincoln Parish
+- College-town index: 0.99 students per resident (the school is the town)
 
 ## The program's best
 

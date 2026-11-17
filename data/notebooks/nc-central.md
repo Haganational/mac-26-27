@@ -27,7 +27,32 @@ _NC Central (MEAC). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,160 (Fall 2025)
+- Tuition and fees, in state: $6,930 (2026-27), schedule is per semester: tuition $1,920 + required fees $1,545 (excluding $1,312 student insurance) = $3,465, doubled
+- Tuition and fees, out of state: $20,358 (2026-27), per semester tuition $8,634 + fees $1,545 = $10,179, doubled; excludes insurance
+- Endowment: $89.0 million (2024)
+- Football: FCS, MEAC
+
+**Durham**
+- Population: 301,877 (ACS 2024 1-year)
+- Median household income: $82,916 (ACS 2024 1-year)
+- Income per person: $50,736 (ACS 2024 1-year)
+- Median home value: $439,400 (ACS 2024 1-year)
+- Poverty rate: 11.4% (ACS 2024 1-year)
+- Median age: 35.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 58.9% (ACS 2024 1-year)
+- Average commute: 21.3 minutes (ACS 2024 1-year)
+- Veterans: 12,998 (ACS 2024 1-year)
+- Born abroad: 15.5% (ACS 2024 1-year)
+- Founded: 1869, incorporated April 10, 1869; post office date April 26, 1853 is the city's official birthday
+- County seat: yes, seat of Durham County
+- Biggest employer: Duke University and Duke University Health System
+- January average: 41.9°F
+- Snow a year: 5.2 inches, climate table; body text says 7 in.
+- Elevation: 404 feet
+- County: Durham County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

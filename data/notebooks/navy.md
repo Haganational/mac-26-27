@@ -27,7 +27,32 @@ _Navy (Patriot). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,576, infobox gives no year
+- Tuition and fees, in state: $0, page: 'Tuition for midshipmen is fully funded by the Navy' in exchange for active-duty service obligation
+- Tuition and fees, out of state: $0, same; tuition fully funded by the Navy
+- Endowment: $319.4 million (2025)
+- Football: FBS, American Athletic Conference
+
+**Annapolis**
+- Population: 40,720 (ACS 2024 5-year)
+- Population in 2020: 40,812 (2020 census)
+- Median household income: $113,860 (ACS 2024 5-year)
+- Income per person: $69,520 (ACS 2024 5-year)
+- Median home value: $548,900 (ACS 2024 5-year)
+- Poverty rate: 7.8% (ACS 2024 5-year)
+- Median age: 43 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 53.8% (ACS 2024 5-year)
+- Average commute: 29.5 minutes (ACS 2024 5-year)
+- Veterans: 2,968 (ACS 2024 5-year)
+- Born abroad: 10.3% (ACS 2024 5-year)
+- Founded: 1649, settled as Providence 1649; city incorporated 1708
+- County seat: yes, Anne Arundel County
+- Biggest employer: United States Naval Academy, 2,500 employees per city 2018 CAFR, excluding state and local government
+- January average: 36.5°F
+- Elevation: 43 feet
+- County: Anne Arundel County
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

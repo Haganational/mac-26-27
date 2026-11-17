@@ -27,7 +27,34 @@ _Florida A&M (SWAC). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,313 (Fall 2024)
+- Tuition and fees, in state: $5,645 (2026-27), Florida BOG cost of attendance, full-time UG Florida resident, average per year
+- Endowment: $135.7 million (2025)
+- Football: FCS, NCAA Division I FCS, SWAC
+- Men's basketball coach's pay: $175,000 (2025-26)
+
+**Tallahassee**
+- Population: 205,091 (ACS 2024 1-year)
+- Population in 2020: 196,169 (2020 census)
+- Median household income: $56,511 (ACS 2024 1-year)
+- Income per person: $34,829 (ACS 2024 1-year)
+- Median home value: $294,500 (ACS 2024 1-year)
+- Poverty rate: 28.6% (ACS 2024 1-year)
+- Median age: 28.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 53.9% (ACS 2024 1-year)
+- Average commute: 19.1 minutes (ACS 2024 1-year)
+- Veterans: 7,195 (ACS 2024 1-year)
+- Born abroad: 9.0% (ACS 2024 1-year)
+- Founded: 1824, established 1824; incorporated 1825
+- County seat: yes
+- Biggest employer: State of Florida (27,748 employees, 2024)
+- January average: 51.0°F
+- Elevation: 125 feet
+- County: Leon County
+- ICE 287(g) agreement in the county: yes, Leon County Sheriff's Office (article: every Florida county sheriff's office signed) (task force)
+- The coach's pay equals 3 median Tallahassee household incomes
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

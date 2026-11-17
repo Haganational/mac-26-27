@@ -27,7 +27,30 @@ _Central Connecticut (NEC). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,039 (Spring 2025)
+- Tuition and fees, in state: $12,970 (2026-27), rate sheet gives $6,485 per semester (tuition $3,499 + general fee $2,358 + state university fee $528 + activity/media $100); doubled to annual
+- Tuition and fees, out of state: $26,910 (2026-27), rate sheet gives $13,455 per semester (tuition $10,469 + same fees); doubled to annual
+- Endowment: $80.0 million (2020)
+- Football: FCS, Northeast Conference
+
+**New Britain**
+- Population: 75,861 (ACS 2024 1-year)
+- Population in 2020: 74,135 (2020 census)
+- Median household income: $62,152 (ACS 2024 1-year)
+- Income per person: $31,553 (ACS 2024 1-year)
+- Median home value: $268,200 (ACS 2024 1-year)
+- Poverty rate: 19.3% (ACS 2024 1-year)
+- Median age: 34.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.4% (ACS 2024 1-year)
+- Average commute: 21.5 minutes (ACS 2024 1-year)
+- Veterans: 1,924 (ACS 2024 1-year)
+- Born abroad: 18.5% (ACS 2024 1-year)
+- Founded: 1850, settled 1687; parish 1754; township 1850; city 1871
+- Biggest employer: Central Connecticut State University, 2,879 employees per city 2024 ACFR
+- Elevation: 207 feet
+- County: Hartford County
+- College-town index: 0.13 students per resident (a guest in a bigger place)
 
 ## The program's best
 

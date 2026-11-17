@@ -27,7 +27,33 @@ _Alabama State (SWAC). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,081 (Fall 2024), infobox; body text says nearly 6,000
+- Tuition and fees, in state: $11,248 (2025-26), annual: tuition $8,328 + institutional fees $2,920 (fees include health insurance, athletic, general university), 12 hrs/sem
+- Tuition and fees, out of state: $19,576 (2025-26), annual: tuition $16,656 + institutional fees $2,920
+- Endowment: $125.0 million (2024)
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Montgomery**
+- Population: 195,826 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 200,603 (2020 census)
+- Median household income: $59,292 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $38,284 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $197,700 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 22.5% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 37.1 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 35.9% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 20.7 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 11,991 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 6.0% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1819, incorporated Dec 3, 1819
+- County seat: yes
+- Biggest employer: Maxwell-Gunter Air Force Base (12,280 employees, 2022 city CAFR)
+- January average: 48.1°F, climate box; body text says 46.6
+- Snow a year: 0.4 inches
+- Elevation: 240 feet, infobox; text says ~220
+- County: Montgomery County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

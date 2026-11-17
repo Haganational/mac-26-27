@@ -27,7 +27,30 @@ _South Carolina State (MEAC). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,649, infobox gives no year
+- Endowment: $17.2 million (2023)
+- Football: FCS, MEAC
+
+**Orangeburg**
+- Population: 13,253 (ACS 2024 5-year)
+- Median household income: $38,635 (ACS 2024 5-year)
+- Income per person: $19,990 (ACS 2024 5-year)
+- Median home value: $163,500 (ACS 2024 5-year)
+- Poverty rate: 32.7% (ACS 2024 5-year)
+- Median age: 36.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 26.3% (ACS 2024 5-year)
+- Average commute: 24.3 minutes (ACS 2024 5-year)
+- Veterans: 464 (ACS 2024 5-year)
+- Born abroad: 1.5% (ACS 2024 5-year)
+- Founded: 1704, European settlement began 1704
+- County seat: yes, seat of Orangeburg County
+- January average: 48.1°F
+- Snow a year: 0.1 inches
+- Elevation: 197 feet
+- County: Orangeburg County
+- ICE 287(g) agreement in the county: yes, Bowman, Branchville, Elloree, Eutawville, Holly Hill, North and Santee police departments (Orangeburg County municipalities); not the sheriff or Orangeburg city police (task force)
+- College-town index: 0.20 students per resident (a big presence)
 
 ## The program's best
 

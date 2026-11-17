@@ -27,7 +27,30 @@ _Arkansas-Pine Bluff (SWAC). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,100 (2023)
+- Endowment: $7.0 million, infobox gives no year
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Pine Bluff**
+- Population: 39,743 (ACS 2024 5-year)
+- Population in 2020: 41,253 (2020 census)
+- Median household income: $42,718 (ACS 2024 5-year)
+- Income per person: $22,242 (ACS 2024 5-year)
+- Median home value: $89,400 (ACS 2024 5-year)
+- Poverty rate: 24.0% (ACS 2024 5-year)
+- Median age: 37.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 20.2% (ACS 2024 5-year)
+- Average commute: 19.3 minutes (ACS 2024 5-year)
+- Veterans: 1,749 (ACS 2024 5-year)
+- Born abroad: 2.0% (ACS 2024 5-year)
+- Founded: 1832, named by county court Oct 16, 1832; incorporated 1839
+- County seat: yes
+- January average: 42.5°F
+- Snow a year: 2.5 inches
+- Elevation: 226 feet
+- County: Jefferson County
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

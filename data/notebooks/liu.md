@@ -27,7 +27,25 @@ _LIU (NEC). Anchors are fictional AI personas, not affiliated with any school. T
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,689 (Fall 2024), all LIU campuses
+- Endowment: $510.1 million (2025)
+
+**Brooklyn**
+- Population: 8,478,072 (ACS 2024 1-year)
+- Median household income: $81,228 (ACS 2024 1-year)
+- Income per person: $52,504 (ACS 2024 1-year)
+- Median home value: $778,600 (ACS 2024 1-year)
+- Poverty rate: 18.0% (ACS 2024 1-year)
+- Median age: 38.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 42.5% (ACS 2024 1-year)
+- Average commute: 40.6 minutes (ACS 2024 1-year)
+- Veterans: 121,547 (ACS 2024 1-year)
+- Born abroad: 36.7% (ACS 2024 1-year)
+- Founded: 1634, settled 1634
+- Snow a year: 24.5 inches, Avenue V climate box
+- County: Kings County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,33 @@ _Delaware State (MEAC). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,623 (2025)
+- Tuition and fees, in state: $11,789 (2026-27), yearly total tuition $10,169 + mandatory fees $1,620; excludes $1,200 waivable student health insurance
+- Tuition and fees, out of state: $21,792 (2026-27), yearly tuition $20,172 + mandatory fees $1,620; excludes waivable health insurance
+- Endowment: $43.0 million (2021)
+- Football: FCS, MEAC
+
+**Dover**
+- Population: 39,837 (ACS 2024 5-year)
+- Median household income: $60,199 (ACS 2024 5-year)
+- Income per person: $31,743 (ACS 2024 5-year)
+- Median home value: $258,900 (ACS 2024 5-year)
+- Poverty rate: 15.0% (ACS 2024 5-year)
+- Median age: 34.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 26.7% (ACS 2024 5-year)
+- Average commute: 22.9 minutes (ACS 2024 5-year)
+- Veterans: 2,893 (ACS 2024 5-year)
+- Born abroad: 10.9% (ACS 2024 5-year)
+- Founded: 1683
+- County seat: yes, seat of Kent County (also state capital)
+- Biggest employer: State of Delaware government
+- January average: 36.0°F
+- Snow a year: 13.2 inches
+- Elevation: 30 feet
+- County: Kent County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.17 students per resident (a big presence)
 
 ## The program's best
 
