@@ -27,7 +27,31 @@ _Cal Poly (Big West). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 23,245 (Fall 2025 (22,313 undergrad + 932 grad))
+- Tuition and fees, in state: $14,682 (2026-27), new students, Science/Math, Business, Liberal Arts; Engineering/Architecture/Agriculture $15,720
+- Tuition and fees, out of state: $37,616 (2026-27), CA rate + nonresident tuition $14,130 (30 units x $471) + nonresident opportunity fee $8,804; Engineering etc. $38,654
+- Endowment: $335.8 million (2025)
+- Football: FCS, football in Big Sky
+
+**San Luis Obispo**
+- Population: 48,491 (ACS 2024 5-year)
+- Median household income: $73,685 (ACS 2024 5-year)
+- Income per person: $48,106 (ACS 2024 5-year)
+- Median home value: $935,100 (ACS 2024 5-year)
+- Poverty rate: 30.4% (ACS 2024 5-year)
+- Median age: 26.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 54.4% (ACS 2024 5-year)
+- Average commute: 16.1 minutes (ACS 2024 5-year)
+- Veterans: 1,356 (ACS 2024 5-year)
+- Born abroad: 8.2% (ACS 2024 5-year)
+- Founded: 1772
+- County seat: yes
+- Biggest employer: Cal Poly (3,100 employees, 2021 CAFR)
+- January average: 54.4°F
+- Elevation: 233 feet
+- County: San Luis Obispo County
+- College-town index: 0.48 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,813 (Fall 2024)
+- Endowment: $879.5 million (2024)
+- Football: FBS, Mountain West
+- Men's basketball coach's pay: $875,000 (2026-27)
+
+**Laramie**
+- Population: 32,234 (ACS 2024 5-year)
+- Median household income: $55,613 (ACS 2024 5-year)
+- Income per person: $35,096 (ACS 2024 5-year)
+- Median home value: $319,500 (ACS 2024 5-year)
+- Poverty rate: 22.5% (ACS 2024 5-year)
+- Median age: 27.2 (2020 census)
+- Adults with a bachelor's degree: 56.2% (ACS 2024 5-year)
+- Average commute: 14 minutes (ACS 2024 5-year)
+- Veterans: 1,477 (ACS 2024 5-year)
+- Born abroad: 8.4% (ACS 2024 5-year)
+- Founded: 1868, founded mid-1860s as tent city; settled 1868
+- County seat: yes
+- January average: 21.9°F
+- Snow a year: 48 inches
+- Elevation: 7,165 feet
+- County: Albany County
+- ICE 287(g) agreement in the county: no
+- The coach's pay equals 16 median Laramie household incomes
+- College-town index: 0.34 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Grand Canyon (Mountain West). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 113,257 (Fall 2024), includes online; 75,936 undergrad + 37,321 postgrad
+- Tuition and fees, in state: $16,500 (2026-27), traditional on-campus block tuition 8,250 per semester (12-18 credits) x2; fees on separate page not included
+- Tuition and fees, out of state: $16,500 (2026-27), private: same rate
+- Football: none, no football among GCU's 20 sports
+- Arena named for: Global Credit Union (Global Credit Union Arena, corporate naming) (Global Credit Union, a credit union)
+
+**Phoenix**
+- Population: 1,673,122 (ACS 2024 1-year)
+- Population in 2020: 1,608,139 (2020 census)
+- Median household income: $85,246 (ACS 2024 1-year)
+- Income per person: $42,655 (ACS 2024 1-year)
+- Median home value: $454,900 (ACS 2024 1-year)
+- Poverty rate: 12% (ACS 2024 1-year)
+- Median age: 35.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.9% (ACS 2024 1-year)
+- Average commute: 26.7 minutes (ACS 2024 1-year)
+- Veterans: 62,763 (ACS 2024 1-year)
+- Born abroad: 19.4% (ACS 2024 1-year)
+- Founded: 1867
+- County seat: yes
+- Biggest employer: Banner Health
+- January average: 56.8°F
+- Elevation: 1,086 feet
+- County: Maricopa County
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

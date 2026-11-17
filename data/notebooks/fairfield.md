@@ -27,7 +27,26 @@ _Fairfield (Metro). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,864 (Fall 2024)
+- Endowment: $502.7 million (2025)
+- Football: none, no varsity football
+
+**Fairfield**
+- Population: 65,289 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median household income: $184,222 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $84,046 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $815,000 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 2.8% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 37.7 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 70.5% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 32.9 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 1,286 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 13.1% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1639
+- Elevation: 59 feet
+- County: Fairfield County (Greater Bridgeport Planning Region)
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

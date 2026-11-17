@@ -27,7 +27,26 @@ _Merrimack (Metro). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,862 (Fall 2024)
+- Endowment: $97.4 million (2025)
+- Football: FCS, FCS independent per MAAC page (listed as Independent)
+
+**North Andover**
+- Population: 31,490 (ACS 2024 5-year)
+- Median household income: $140,670 (ACS 2024 5-year)
+- Income per person: $66,661 (ACS 2024 5-year)
+- Median home value: $732,900 (ACS 2024 5-year)
+- Poverty rate: 9.4% (ACS 2024 5-year)
+- Median age: 39.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 61.1% (ACS 2024 5-year)
+- Average commute: 31.8 minutes (ACS 2024 5-year)
+- Veterans: 905 (ACS 2024 5-year)
+- Born abroad: 12.4% (ACS 2024 5-year)
+- Founded: 1855, incorporated as North Andover Apr 7, 1855; settled 1634
+- Elevation: 75 feet
+- County: Essex County
+- College-town index: 0.19 students per resident (a big presence)
 
 ## The program's best
 

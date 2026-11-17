@@ -27,7 +27,32 @@ _IU Indy (Horizon). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 29,390 (Fall 2020), IUPUI-era figure; stale after 2024 split
+- Tuition and fees, in state: $10,762 (2025-26), tuition $9,518 + required fees $1,244 (IPEDS cost submission)
+- Tuition and fees, out of state: $35,227 (2025-26), tuition $33,983 + fees $1,244
+- Endowment: $1.15 billion (2020), IUPUI-era figure
+- Football: none, no football mentioned
+
+**Indianapolis**
+- Population: 890,315 (ACS 2024 1-year)
+- Median household income: $66,900 (ACS 2024 1-year)
+- Income per person: $37,801 (ACS 2024 1-year)
+- Median home value: $241,500 (ACS 2024 1-year)
+- Poverty rate: 15.8% (ACS 2024 1-year)
+- Median age: 34.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.2% (ACS 2024 1-year)
+- Average commute: 24.6 minutes (ACS 2024 1-year)
+- Veterans: 33,515 (ACS 2024 1-year)
+- Born abroad: 14.9% (ACS 2024 1-year)
+- Founded: 1821
+- County seat: yes
+- Biggest employer: Eli Lilly and Company
+- January average: 28.5°F
+- Snow a year: 25.5 inches
+- Elevation: 719 feet
+- County: Marion County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

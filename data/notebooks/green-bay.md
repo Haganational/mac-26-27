@@ -27,7 +27,33 @@ _Green Bay (Horizon). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,188 (Fall 2024), text figure, all campuses; infobox says 9,870 without year
+- Tuition and fees, in state: $9,133 (2026-27 estimate), Wisconsin resident, Green Bay campus
+- Tuition and fees, out of state: $17,721 (2026-27 estimate), non-resident; Midwest rate $12,912, Minnesota $10,855
+- Endowment: $61.8 million (FY2025)
+- Football: none, no football program
+
+**Green Bay**
+- Population: 106,312 (ACS 2024 1-year)
+- Median household income: $65,820 (ACS 2024 1-year)
+- Income per person: $33,435 (ACS 2024 1-year)
+- Median home value: $246,300 (ACS 2024 1-year)
+- Poverty rate: 11.5% (ACS 2024 1-year)
+- Median age: 35 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 27.6% (ACS 2024 1-year)
+- Average commute: 19.2 minutes (ACS 2024 5-year)
+- Veterans: 5,025 (ACS 2024 1-year)
+- Born abroad: 11.4% (ACS 2024 1-year)
+- Founded: 1764
+- County seat: yes
+- Biggest employer: Bellin Health
+- January average: 18.3°F
+- Snow a year: 55.6 inches
+- Elevation: 581 feet
+- County: Brown County
+- ICE 287(g) agreement in the county: yes, Brown County Sheriff's Office (warrant service)
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

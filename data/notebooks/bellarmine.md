@@ -27,7 +27,33 @@ _Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,077 (Fall 2025)
+- Tuition and fees, in state: $50,490 (2025-26), tuition $48,900 + comprehensive fee $1,590
+- Tuition and fees, out of state: $50,490 (2025-26), private, same rate
+- Endowment: $61.4 million (FY2025)
+- Football: none, no NCAA football; school lists a sprint football club/varsity sport outside NCAA football
+- Arena named for: Freedom Hall (not a person or company; a generic civic name for the Kentucky Exposition Center arena)
+
+**Louisville**
+- Population: 640,793 (ACS 2024 1-year)
+- Median household income: $67,251 (ACS 2024 1-year)
+- Income per person: $39,418 (ACS 2024 1-year)
+- Median home value: $241,700 (ACS 2024 1-year)
+- Poverty rate: 15.5% (ACS 2024 1-year)
+- Median age: 38.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33.6% (ACS 2024 1-year)
+- Average commute: 23.7 minutes (ACS 2024 1-year)
+- Veterans: 28,108 (ACS 2024 1-year)
+- Born abroad: 12% (ACS 2024 1-year)
+- Founded: 1778
+- County seat: yes
+- Biggest employer: United Parcel Service (UPS)
+- January average: 35.7°F
+- Snow a year: 13.4 inches
+- Elevation: 466 feet
+- County: Jefferson County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

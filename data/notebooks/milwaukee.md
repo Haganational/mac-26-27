@@ -27,7 +27,34 @@ _Milwaukee (Horizon). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 22,937 (2023)
+- Tuition and fees, in state: $10,398 (2025-26), UWM estimate of annual undergraduate tuition (2026-27 estimate: 11,154)
+- Tuition and fees, out of state: $22,398 (2025-26), UWM estimate, non-resident (2026-27 estimate: 24,004)
+- Endowment: $323.0 million (2023)
+- Football: none, dropped after 1974 season
+- Men's basketball coach's pay: $430,000 (from April 2025 (5-year extension))
+
+**Milwaukee**
+- Population: 563,512 (ACS 2024 1-year)
+- Population in 2020: 577,222 (2020 census)
+- Median household income: $56,792 (ACS 2024 1-year)
+- Income per person: $31,785 (ACS 2024 1-year)
+- Median home value: $207,900 (ACS 2024 1-year)
+- Poverty rate: 21.2% (ACS 2024 1-year)
+- Median age: 32.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 30.7% (ACS 2024 1-year)
+- Average commute: 22.5 minutes (ACS 2024 1-year)
+- Veterans: 14,875 (ACS 2024 1-year)
+- Born abroad: 12% (ACS 2024 1-year)
+- Founded: 1846
+- County seat: yes
+- January average: 24.0°F
+- Snow a year: 48.7 inches
+- Elevation: 617 feet
+- County: Milwaukee County
+- The coach's pay equals 8 median Milwaukee household incomes
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

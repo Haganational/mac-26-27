@@ -27,7 +27,30 @@ _Oakland (Horizon). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,108 (Fall 2022)
+- Tuition and fees, in state: $17,235 (2026-27 (computed)), OU charges per credit hour only (no separate fees): 574.50/credit lower-division Arts & Sciences resident x 30 credits; upper division 669.25/credit
+- Tuition and fees, out of state: $23,873 (2026-27 (computed)), 795.75/credit lower-division non-resident x 30 credits; upper division 853.25/credit
+- Endowment: $171.4 million (August 2025)
+- Football: none, no varsity football; Horizon League
+- Men's basketball coach's pay: $329,609 (2023-24)
+
+**Auburn Hills**
+- Population: 25,105 (ACS 2024 5-year)
+- Population in 2020: 24,360 (2020 census)
+- Median household income: $84,375 (ACS 2024 5-year)
+- Income per person: $49,513 (ACS 2024 5-year)
+- Median home value: $245,000 (ACS 2024 5-year)
+- Poverty rate: 11.1% (ACS 2024 5-year)
+- Adults with a bachelor's degree: 49.6% (ACS 2024 5-year)
+- Average commute: 22.1 minutes (ACS 2024 5-year)
+- Veterans: 913 (ACS 2024 5-year)
+- Born abroad: 18.5% (ACS 2024 5-year)
+- Founded: 1821
+- Elevation: 961 feet
+- County: Oakland County
+- The coach's pay equals 4 median Auburn Hills household incomes
+- College-town index: 0.64 students per resident (the school is the town)
 
 ## The program's best
 

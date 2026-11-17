@@ -27,7 +27,28 @@ _CS Fullerton (Big West). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 43,662 (Fall 2024)
+- Endowment: $148.7 million (2023-24)
+
+**Fullerton**
+- Population: 140,051 (ACS 2024 1-year (commute: 2024 5-year))
+- Median household income: $94,261 (ACS 2024 1-year (commute: 2024 5-year))
+- Income per person: $47,091 (ACS 2024 1-year (commute: 2024 5-year))
+- Median home value: $924,900 (ACS 2024 1-year (commute: 2024 5-year))
+- Poverty rate: 10% (ACS 2024 1-year (commute: 2024 5-year))
+- Median age: 38.6 (ACS 2024 1-year (commute: 2024 5-year))
+- Adults with a bachelor's degree: 41.2% (ACS 2024 1-year (commute: 2024 5-year))
+- Average commute: 30.5 minutes (ACS 2024 1-year (commute: 2024 5-year))
+- Veterans: 2,120 (ACS 2024 1-year (commute: 2024 5-year))
+- Born abroad: 30.6% (ACS 2024 1-year (commute: 2024 5-year))
+- Founded: 1887
+- County seat: no
+- Biggest employer: California State University, Fullerton (3,000 employees)
+- January average: 57.6°F
+- Elevation: 160 feet
+- County: Orange County
+- College-town index: 0.31 students per resident (a big presence)
 
 ## The program's best
 

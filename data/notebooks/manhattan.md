@@ -27,7 +27,26 @@ _Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,227 (Fall 2024)
+- Endowment: $114.9 million (2020)
+- Football: none, varsity football 1924-1942, never reactivated; club 1965-1987
+
+**the Bronx**
+- Population: 1,384,724 (ACS 2024 1-year)
+- Median household income: $46,040 (ACS 2024 1-year)
+- Income per person: $27,099 (ACS 2024 1-year)
+- Median home value: $567,700 (ACS 2024 1-year)
+- Poverty rate: 28.8% (ACS 2024 1-year)
+- Median age: 36.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.8% (ACS 2024 1-year)
+- Average commute: 43.3 minutes (ACS 2024 1-year)
+- Veterans: 21,236 (ACS 2024 1-year)
+- Born abroad: 34.7% (ACS 2024 1-year)
+- Founded: 1639, European settlement began 1639
+- Elevation: 280 feet
+- County: Bronx County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

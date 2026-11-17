@@ -27,7 +27,32 @@ _Detroit Mercy (Horizon). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,587 (Fall 2024)
+- Tuition and fees, in state: $34,276 (2026-27), annual tuition for most colleges; Architecture & Engineering $35,498; page says fees may vary
+- Tuition and fees, out of state: $34,276 (2026-27), private, same rate
+- Endowment: $128.8 million (FY2025)
+- Football: none, dropped after 1964 season
+- Arena named for: Bob Calihan (former Titans All-American player and coach; no fortune)
+
+**Detroit**
+- Population: 645,702 (ACS 2024 1-year)
+- Median household income: $39,209 (ACS 2024 1-year)
+- Income per person: $24,766 (ACS 2024 1-year)
+- Median home value: $95,900 (ACS 2024 1-year)
+- Poverty rate: 34.5% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 18.9% (ACS 2024 1-year)
+- Average commute: 22.9 minutes (ACS 2024 1-year)
+- Veterans: 15,295 (ACS 2024 1-year)
+- Born abroad: 8.3% (ACS 2024 1-year)
+- Founded: 1701
+- County seat: yes
+- January average: 25.8°F
+- Snow a year: 45.0 inches
+- Elevation: 597 feet
+- County: Wayne County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

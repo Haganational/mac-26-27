@@ -27,7 +27,31 @@ _Stetson (ASUN). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,837 (Fall 2025), all students, all campuses
+- Tuition and fees, in state: $59,690 (2025-26), tuition $59,290 + fees $400
+- Tuition and fees, out of state: $59,690 (2025-26), private, same rate
+- Endowment: $416.1 million (FY2025)
+- Football: FCS, Pioneer Football League
+
+**DeLand**
+- Population: 41,611 (ACS 2024 5-year)
+- Median household income: $71,863 (ACS 2024 5-year)
+- Income per person: $35,865 (ACS 2024 5-year)
+- Median home value: $330,900 (ACS 2024 5-year)
+- Poverty rate: 11% (ACS 2024 5-year)
+- Median age: 39 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 33.7% (ACS 2024 5-year)
+- Average commute: 28.4 minutes (ACS 2024 5-year)
+- Veterans: 3,063 (ACS 2024 5-year)
+- Born abroad: 9% (ACS 2024 5-year)
+- Founded: 1876
+- County seat: yes
+- January average: 56.9°F
+- Elevation: 72 feet
+- County: Volusia County
+- ICE 287(g) agreement in the county: yes, Volusia County Sheriff's Office (task force)
+- College-town index: 0.09 students per resident (a guest in a bigger place)
 
 ## The program's best
 

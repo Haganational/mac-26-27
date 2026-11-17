@@ -27,7 +27,29 @@ _CSU Bakersfield (Big West). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,664 (Fall 2024)
+- Endowment: $42.7 million (2024)
+
+**Bakersfield**
+- Population: 417,461 (ACS 2024 1-year)
+- Median household income: $82,093 (ACS 2024 1-year)
+- Income per person: $33,380 (ACS 2024 1-year)
+- Median home value: $406,500 (ACS 2024 1-year)
+- Poverty rate: 15.5% (ACS 2024 1-year)
+- Median age: 32.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 24.1% (ACS 2024 1-year)
+- Average commute: 22.9 minutes (ACS 2024 1-year)
+- Veterans: 11,003 (ACS 2024 1-year)
+- Born abroad: 21.4% (ACS 2024 1-year)
+- Founded: 1860
+- County seat: yes
+- Biggest employer: County of Kern (7,559 employees, 2024)
+- January average: 49.5°F
+- Snow a year: 0.1 inches
+- Elevation: 404 feet
+- County: Kern County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,33 @@ _Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,646 (Fall 2024)
+- Tuition and fees, in state: $42,396 (2025-26), $21,198 per semester block rate x2 (page states annual $42,396)
+- Tuition and fees, out of state: $42,396 (2025-26), private, same rate
+- Endowment: $131.9 million (2025)
+- Football: none, no football; 17 varsity sports
+- Arena named for: James C. and Linda Allen (not stated on arena page; James Allen is a Lipscomb trustee and former university employee)
+
+**Nashville**
+- Population: 704,965 (ACS 2024 1-year)
+- Median household income: $80,090 (ACS 2024 1-year)
+- Income per person: $51,787 (ACS 2024 1-year)
+- Median home value: $438,800 (ACS 2024 1-year)
+- Poverty rate: 12.1% (ACS 2024 1-year)
+- Median age: 34.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 50.8% (ACS 2024 1-year)
+- Average commute: 25.2 minutes (ACS 2024 1-year)
+- Veterans: 25,133 (ACS 2024 1-year)
+- Born abroad: 15.6% (ACS 2024 1-year)
+- Founded: 1779
+- County seat: yes
+- Biggest employer: Vanderbilt University Medical Center
+- January average: 39.6°F
+- Snow a year: 4.7 inches
+- Elevation: 554 feet
+- County: Davidson County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

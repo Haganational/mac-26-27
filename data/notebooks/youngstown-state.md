@@ -27,7 +27,37 @@ _Youngstown State (Horizon). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,076 (Fall 2023)
+- Tuition and fees, in state: $11,717 (2026-27 (Penguin Tuition Promise cohort 9)), full-time 5,858.64 per semester (instructional + general fee), x2
+- Tuition and fees, out of state: $12,077 (2026-27), in-state rate plus Affordable Tuition Advantage nonresident surcharge 180 per semester, x2; surcharge sheet shows no other full-time undergrad out-of-state rate
+- Endowment: $399.9 million (2025)
+- Football: FCS, Missouri Valley Football Conference
+- Men's basketball coach's pay: $280,500 (from June 2025)
+
+**Youngstown**
+- Population: 59,331 (ACS 2024 5-year)
+- Population in 2020: 60,068 (2020 census)
+- Median household income: $34,408 (ACS 2024 5-year)
+- Income per person: $20,390 (ACS 2024 5-year)
+- Median home value: $63,300 (ACS 2024 5-year)
+- Poverty rate: 37.3% (ACS 2024 5-year)
+- Median age: 37.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 15.5% (ACS 2024 5-year)
+- Average commute: 20.3 minutes (ACS 2024 5-year)
+- Veterans: 2,857 (ACS 2024 5-year)
+- Born abroad: 3.1% (ACS 2024 5-year)
+- Founded: 1797
+- County seat: yes
+- Biggest employer: Youngstown State University
+- January average: 26.8°F
+- Snow a year: 67.8 inches
+- Elevation: 856 feet
+- County: Mahoning County
+- ICE 287(g) agreement in the county: no
+- Nearest ICE detention site: Mahoning County Jail (Youngstown); ACLU also lists Northeast Ohio Correctional Center
+- The coach's pay equals 8 median Youngstown household incomes
+- College-town index: 0.19 students per resident (a big presence)
 
 ## The program's best
 

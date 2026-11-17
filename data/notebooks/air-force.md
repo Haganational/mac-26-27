@@ -27,7 +27,33 @@ _Air Force (Mountain West). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,094 (2024), cadets
+- Tuition and fees, in state: $0 (current), no tuition: tuition, room and board and a monthly stipend paid by the Air Force in exchange for a service commitment (typically 5 years active + 3 reserve)
+- Tuition and fees, out of state: $0 (current), same; no residency distinction
+- Endowment: $98.9 million (2019)
+- Football: FBS
+
+**Colorado Springs**
+- Population: 493,540 (ACS 2024 1-year)
+- Population in 2020: 478,961 (2020 census)
+- Median household income: $83,672 (ACS 2024 1-year)
+- Income per person: $47,059 (ACS 2024 1-year)
+- Median home value: $479,500 (ACS 2024 1-year)
+- Poverty rate: 8.8% (ACS 2024 1-year)
+- Median age: 36 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 44.4% (ACS 2024 1-year)
+- Average commute: 23.3 minutes (ACS 2024 1-year)
+- Veterans: 54,526 (ACS 2024 1-year)
+- Born abroad: 8.6% (ACS 2024 1-year)
+- Founded: 1871
+- County seat: yes
+- January average: 31.8°F
+- Snow a year: 32.5 inches
+- Elevation: 6,011 feet
+- County: El Paso County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

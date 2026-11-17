@@ -27,7 +27,32 @@ _New Mexico (Mountain West). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 25,441 (Fall 2021)
+- Endowment: $887.0 million (2025)
+- Football: FBS, Mountain West
+- Men's basketball coach's pay: $1.2 million (2026-27)
+- Arena named for: The Pit (nickname; formerly University Arena) (not named for a person or company; officially known by its nickname)
+
+**Albuquerque**
+- Population: 560,333 (ACS 2024 1-year)
+- Median household income: $71,494 (ACS 2024 1-year)
+- Income per person: $42,457 (ACS 2024 1-year)
+- Median home value: $324,600 (ACS 2024 1-year)
+- Poverty rate: 14.7% (ACS 2024 1-year)
+- Median age: 38.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.2% (ACS 2024 1-year)
+- Average commute: 23.1 minutes (ACS 2024 1-year)
+- Veterans: 31,693 (ACS 2024 1-year)
+- Born abroad: 11.7% (ACS 2024 1-year)
+- Founded: 1706, founded as La Villa de Alburquerque
+- County seat: yes
+- January average: 37.4°F
+- Snow a year: 7.9 inches
+- Elevation: 5,312 feet
+- County: Bernalillo County
+- The coach's pay equals 17 median Albuquerque household incomes
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,29 @@ _CSUN (Big West). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 36,960 (Fall 2025)
+- Tuition and fees, in state: $8,328 (2026-27), tuition and other fees, full year, 7+ units
+- Tuition and fees, out of state: $22,458 (2026-27), $8,328 + $471/unit nonresident tuition x 30 units (computed; page gives per-unit rate only)
+- Endowment: $262.1 million (2025)
+- Football: none, dropped after 2001 season
+- Men's basketball coach's pay: $304,520 (2023)
+
+**Northridge**
+- Population: 3,878,718 (ACS 2024 1-year)
+- Median household income: $82,263 (ACS 2024 1-year)
+- Income per person: $48,230 (ACS 2024 1-year)
+- Median home value: $947,900 (ACS 2024 1-year)
+- Poverty rate: 16% (ACS 2024 1-year)
+- Median age: 37.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.9% (ACS 2024 1-year)
+- Average commute: 31.7 minutes (ACS 2024 1-year)
+- Veterans: 68,438 (ACS 2024 1-year)
+- Born abroad: 36.1% (ACS 2024 1-year)
+- Founded: 1908
+- County: Los Angeles County
+- The coach's pay equals 4 median Northridge household incomes
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 
