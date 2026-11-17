@@ -1518,21 +1518,21 @@
     "key": "nc-central",
     "name": "North Carolina Central Eagles",
     "abbr": "NCCU",
-    "score": 84,
-    "winner": null
+    "score": 117,
+    "winner": true
    },
    "away": {
     "espn_id": "3229",
     "key": null,
     "name": "Virginia Lynchburg Dragons",
     "abbr": "VUL",
-    "score": 52,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920308",
@@ -7343,5 +7343,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:14:30+00:00"
+ "live_at": "2026-11-17T01:49:47+00:00"
 }

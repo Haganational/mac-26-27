@@ -1506,7 +1506,7 @@
     "key": null,
     "name": "Georgia Bulldogs",
     "abbr": "UGA",
-    "score": 50,
+    "score": 82,
     "winner": null
    },
    "away": {
@@ -1514,13 +1514,13 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 31,
+    "score": 46,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "8:44 - 2nd"
   },
   {
    "game_id": "401922240",
@@ -1547,7 +1547,7 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 40,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -1555,13 +1555,13 @@
     "key": null,
     "name": "Florida Memorial Lions",
     "abbr": "FMU",
-    "score": 27,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "9:06 - 2nd"
   },
   {
    "game_id": "401920706",
@@ -8072,5 +8072,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:03:17+00:00"
+ "live_at": "2026-11-17T01:35:24+00:00"
 }

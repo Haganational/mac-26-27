@@ -1801,7 +1801,7 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 13,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -1809,13 +1809,13 @@
     "key": null,
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": 23,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928997",
@@ -1842,7 +1842,7 @@
     "key": "valparaiso",
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": 4,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1850,13 +1850,13 @@
     "key": null,
     "name": "Calumet St. Joseph Crimson Wave",
     "abbr": "CSJ",
-    "score": 4,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:19 - 1st"
+   "detail": "5:41 - 1st"
   },
   {
    "game_id": "401927381",
@@ -9362,5 +9362,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:05:42+00:00"
+ "live_at": "2026-11-17T01:38:30+00:00"
 }

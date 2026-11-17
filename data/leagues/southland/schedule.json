@@ -1874,7 +1874,7 @@
     "key": null,
     "name": "Texas A&M Aggies",
     "abbr": "TA&M",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1882,13 +1882,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:57 - 1st"
   },
   {
    "game_id": "401929192",
@@ -9793,5 +9793,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T01:45:37+00:00"
 }
