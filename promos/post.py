@@ -166,7 +166,9 @@ def main() -> None:
             failed += 1
             body = ex.read().decode(errors="replace")[:400] if hasattr(ex, "read") else ""
             print(f"youtube failed: {ex} {body}")
-            continue  # YouTube goes first; do not cross-post a reel that is not on YouTube
+            if "quota" not in body.lower():
+                continue  # YouTube goes first; do not cross-post a reel that is not on YouTube
+            print("youtube: out of daily upload quota; cross-posting anyway, the Short goes up on a later re-run")
         if stage != "all":
             continue
         for net in nets:
