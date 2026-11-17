@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -609,9 +609,13 @@ def render_site() -> str:
             town=gamer.around_town(team.key, flavor, on),
             press_desk=press.desk(team.key),
             team_films=team_films.get(team.key, []), team_song=team_songs.get(team.key), team_honors=team_honors.get(team.key, []),
+            backdrop=local.backdrop(team.key) if LEAGUE.key in local.BETA else None,
+            local_ad=local.ad(team.key, press.desk(team.key), team.short) if LEAGUE.key in local.BETA else None,
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
+    if LEAGUE.key in local.BETA:
+        local.publish(SITE_DIR.joinpath(*[".."] * LEAGUE.path.count("/")).resolve())
 
     if m:
         (SITE_DIR / "ratings.html").write_text(env.get_template("ratings.html").render(d=data, m=model_page_context(m)))
