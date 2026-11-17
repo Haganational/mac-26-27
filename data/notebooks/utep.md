@@ -27,7 +27,35 @@ _UTEP (Mountain West). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 25,039 (Fall 2024)
+- Tuition and fees, in state: $9,744 (2024-25)
+- Tuition and fees, out of state: $25,502 (2024-25)
+- Endowment: $386.8 million (FY2024)
+- Football: FBS, Mountain West
+- Men's basketball coach's pay: $712,000 (2025-26 onward (contract effective June 1, 2025))
+- Students on Pell Grants: 62% (2023-24)
+- Arena named for: Don Haskins (Hall of Fame UTEP basketball coach; renamed for him 1997, not a naming gift)
+
+**El Paso**
+- Population: 681,724 (ACS 2024 1-year)
+- Median household income: $59,932 (ACS 2024 1-year)
+- Income per person: $29,977 (ACS 2024 1-year)
+- Median home value: $209,600 (ACS 2024 1-year)
+- Poverty rate: 18.3% (ACS 2024 1-year)
+- Adults with a bachelor's degree: 28.7% (ACS 2024 1-year)
+- Average commute: 23.5 minutes (ACS 2024 1-year)
+- Veterans: 41,779 (ACS 2024 1-year)
+- Born abroad: 21.9% (ACS 2024 1-year)
+- Founded: 1873, incorporated 1873; first settlement 1680; settled as Franklin 1849
+- County seat: yes
+- Biggest employer: Fort Bliss
+- January average: 46.5°F
+- Snow a year: 2.8 inches
+- Elevation: 3,763 feet
+- County: El Paso County
+- The coach's pay equals 12 median El Paso household incomes
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

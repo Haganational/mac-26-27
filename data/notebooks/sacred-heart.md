@@ -27,7 +27,28 @@ _Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,730 (not stated (infobox 6,524 undergrad + 4,206 grad))
+- Tuition and fees, in state: $54,520 (2026-27), $27,260/semester (tuition $27,085 + student services fee $175) x2; excludes waivable $3,252 health insurance
+- Tuition and fees, out of state: $54,520 (2026-27), private: same as in-state
+- Endowment: $356.8 million (2025)
+- Football: FCS
+
+**Fairfield**
+- Population: 65,289 (ACS 2024 1-year (commute: 2024 5-year))
+- Median household income: $184,222 (ACS 2024 1-year (commute: 2024 5-year))
+- Income per person: $84,046 (ACS 2024 1-year (commute: 2024 5-year))
+- Median home value: $815,000 (ACS 2024 1-year (commute: 2024 5-year))
+- Poverty rate: 2.8% (ACS 2024 1-year (commute: 2024 5-year))
+- Median age: 37.7 (ACS 2024 1-year (commute: 2024 5-year))
+- Adults with a bachelor's degree: 70.5% (ACS 2024 1-year (commute: 2024 5-year))
+- Average commute: 32.9 minutes (ACS 2024 1-year (commute: 2024 5-year))
+- Veterans: 1,286 (ACS 2024 1-year (commute: 2024 5-year))
+- Born abroad: 13.1% (ACS 2024 1-year (commute: 2024 5-year))
+- Founded: 1639
+- Elevation: 59 feet
+- County: Fairfield County
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

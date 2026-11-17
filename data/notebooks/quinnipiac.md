@@ -27,7 +27,29 @@ _Quinnipiac (Metro). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,744 (2020)
+- Tuition and fees, in state: $59,430 (2026-27), returning student: tuition $56,430 + student fees $2,140 + technology fee $860 (first-year $59,630 incl. orientation)
+- Tuition and fees, out of state: $59,430 (2026-27), private: same as in-state
+- Endowment: $744.8 million (2025)
+- Football: none, Wikipedia: no football team
+
+**Hamden**
+- Population: 61,045 (ACS 2024 5-year)
+- Median household income: $98,306 (ACS 2024 5-year)
+- Income per person: $48,272 (ACS 2024 5-year)
+- Median home value: $298,200 (ACS 2024 5-year)
+- Poverty rate: 9.3% (ACS 2024 5-year)
+- Median age: 38.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 47.8% (ACS 2024 5-year)
+- Average commute: 21.8 minutes (ACS 2024 5-year)
+- Veterans: 2,646 (ACS 2024 5-year)
+- Born abroad: 13.8% (ACS 2024 5-year)
+- Founded: 1786
+- Biggest employer: Town of Hamden/Board of Education (1,612 employees, 2022 CAFR)
+- Elevation: 184 feet
+- County: New Haven County
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,33 @@ _Nevada (Mountain West). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 20,945 (Fall 2022)
+- Tuition and fees, in state: $11,079 (2026-27), in-state freshman, 30 credits: base tuition 9,383 + mandatory fees 1,696
+- Tuition and fees, out of state: $31,268 (2026-27), out-of-state freshman (non-WUE): 9,383 + non-resident tuition 20,189 + fees 1,696
+- Endowment: $640.3 million (2025)
+- Football: FBS, Mountain West
+
+**Reno**
+- Population: 281,684 (ACS 2024 1-year)
+- Population in 2020: 264,165 (2020 census)
+- Median household income: $85,605 (ACS 2024 1-year)
+- Income per person: $50,836 (ACS 2024 1-year)
+- Median home value: $567,700 (ACS 2024 1-year)
+- Poverty rate: 11% (ACS 2024 1-year)
+- Median age: 36 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 40% (ACS 2024 1-year)
+- Average commute: 20.7 minutes (ACS 2024 1-year)
+- Veterans: 14,640 (ACS 2024 1-year)
+- Born abroad: 16.6% (ACS 2024 1-year)
+- Founded: 1868
+- County seat: yes
+- Biggest employer: Washoe County School District (tied with Renown Regional Medical Center, ~7,500 each, FY2025)
+- January average: 36.9°F
+- Snow a year: 20.9 inches
+- Elevation: 4,505 feet
+- County: Washoe County
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

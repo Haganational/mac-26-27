@@ -27,7 +27,32 @@ _Purdue Fort Wayne (Horizon). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,206 (Fall 2024)
+- Tuition and fees, in state: $9,532 (2026-27), annual banded rate, 12-18 credits, tuition and mandatory fees
+- Tuition and fees, out of state: $24,281 (2026-27), annual banded rate, 12-18 credits
+- Football: none, no football; not among PFW's 14 sports
+- Arena named for: Hilliard Gates (Hilliard Gates Sports Center) (Fort Wayne-area sportscaster; honorific naming, no gift stated)
+
+**Fort Wayne**
+- Population: 273,425 (ACS 2024 1-year)
+- Population in 2020: 263,886 (2020 census)
+- Median household income: $61,436 (ACS 2024 1-year)
+- Income per person: $35,220 (ACS 2024 1-year)
+- Median home value: $219,900 (ACS 2024 1-year)
+- Poverty rate: 15.3% (ACS 2024 1-year)
+- Median age: 35.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 31% (ACS 2024 1-year)
+- Average commute: 21.5 minutes (ACS 2024 1-year)
+- Veterans: 11,840 (ACS 2024 1-year)
+- Born abroad: 10.1% (ACS 2024 1-year)
+- Founded: 1794
+- County seat: yes
+- January average: 25.5°F
+- Snow a year: 33.6 inches
+- Elevation: 758 feet
+- County: Allen County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,28 @@ _Marist (Metro). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,356 (not stated in infobox)
+- Endowment: $585.0 million (2025)
+- Football: FCS, Pioneer Football League
+
+**Poughkeepsie**
+- Population: 31,958 (ACS 2024 5-year)
+- Median household income: $60,741 (ACS 2024 5-year)
+- Income per person: $44,215 (ACS 2024 5-year)
+- Median home value: $283,700 (ACS 2024 5-year)
+- Poverty rate: 17.6% (ACS 2024 5-year)
+- Median age: 38.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 31.9% (ACS 2024 5-year)
+- Average commute: 23.8 minutes (ACS 2024 5-year)
+- Veterans: 934 (ACS 2024 5-year)
+- Born abroad: 22.5% (ACS 2024 5-year)
+- Founded: 1686, village 1799; city chartered 1854
+- County seat: yes
+- January average: 27.1°F
+- Elevation: 180 feet
+- County: Dutchess County
+- College-town index: 0.20 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,33 @@ _Hawai'i (Mountain West). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 20,012 (Fall 2024)
+- Tuition and fees, in state: $12,402 (2025-26), tuition 11,520 + fees 882, full-time 12 credits/semester budget
+- Tuition and fees, out of state: $34,434 (2025-26), tuition 33,552 + fees 882
+- Endowment: $632.1 million (2025), UH system-wide
+- Football: FBS, Mountain West football-only member
+- Men's basketball coach's pay: $350,000 (pre-April 2026 contract)
+
+**Honolulu**
+- Population: 344,977 (ACS 2024 1-year)
+- Population in 2020: 350,964 (2020 census)
+- Median household income: $86,169 (ACS 2024 1-year)
+- Income per person: $49,311 (ACS 2024 1-year)
+- Median home value: $850,100 (ACS 2024 1-year)
+- Poverty rate: 10.5% (ACS 2024 1-year)
+- Median age: 42.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 43.8% (ACS 2024 1-year)
+- Average commute: 22.8 minutes (ACS 2024 1-year)
+- Veterans: 17,761 (ACS 2024 1-year)
+- Born abroad: 27.8% (ACS 2024 1-year)
+- Founded: 1907
+- County seat: yes
+- January average: 73.6°F
+- Elevation: 16 feet
+- County: City and County of Honolulu
+- The coach's pay equals 4 median Honolulu household incomes
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

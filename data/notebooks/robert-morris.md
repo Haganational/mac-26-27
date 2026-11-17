@@ -27,7 +27,32 @@ _Robert Morris (Horizon). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,737 (undated (infobox)), 3,769 undergraduates + 968 postgraduates; page says 'nearly 5,000'
+- Tuition and fees, in state: $38,530 (2026-27), tuition 37,090 + university service fee 1,190 + recreation fee 250; engineering/nursing tuition 40,800
+- Tuition and fees, out of state: $38,530 (2026-27), private: same as in-state
+- Endowment: $53.9 million (2025)
+- Football: FCS
+- Arena named for: UPMC (UPMC Events Center, corporate naming) (UPMC, Pittsburgh hospital and insurance system)
+
+**Moon Township**
+- Population: 26,902 (ACS 2024 5-year)
+- Population in 2020: 27,261 (2020 census)
+- Median household income: $113,170 (ACS 2024 5-year)
+- Income per person: $59,324 (ACS 2024 5-year)
+- Median home value: $293,000 (ACS 2024 5-year)
+- Poverty rate: 3.3% (ACS 2024 5-year)
+- Median age: 40.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 53.8% (ACS 2024 5-year)
+- Average commute: 28.2 minutes (ACS 2024 5-year)
+- Veterans: 1,328 (ACS 2024 5-year)
+- Born abroad: 6.9% (ACS 2024 5-year)
+- Founded: 1788
+- County seat: no
+- January average: 27.5°F
+- Elevation: 1,175 feet
+- County: Allegheny County
+- College-town index: 0.18 students per resident (a big presence)
 
 ## The program's best
 

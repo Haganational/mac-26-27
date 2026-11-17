@@ -27,7 +27,28 @@ _Saint Peter's (Metro). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,572 (Fall 2024)
+- Tuition and fees, in state: $43,170 (2026-27), Arts & Sciences flat tuition $41,770 + comprehensive fee $1,400
+- Tuition and fees, out of state: $43,170 (2026-27), private: same as in-state
+- Football: none, disbandment announced June 14, 2007
+
+**Jersey City**
+- Population: 302,822 (ACS 2024 1-year)
+- Median household income: $100,751 (ACS 2024 1-year)
+- Income per person: $63,896 (ACS 2024 1-year)
+- Median home value: $571,700 (ACS 2024 1-year)
+- Poverty rate: 16.1% (ACS 2024 1-year)
+- Median age: 34.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 58.4% (ACS 2024 1-year)
+- Average commute: 39 minutes (ACS 2024 1-year)
+- Veterans: 3,908 (ACS 2024 1-year)
+- Born abroad: 45.7% (ACS 2024 1-year)
+- Founded: 1838
+- County seat: yes
+- Elevation: 20 feet
+- County: Hudson County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,26 @@ _Iona (Metro). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,041 (Fall 2025)
+- Endowment: $253.9 million (2025)
+- Football: none, no varsity football
+
+**New Rochelle**
+- Population: 85,509 (ACS 2024 1-year)
+- Median household income: $105,762 (ACS 2024 1-year)
+- Income per person: $71,752 (ACS 2024 1-year)
+- Median home value: $762,000 (ACS 2024 1-year)
+- Poverty rate: 8.4% (ACS 2024 1-year)
+- Median age: 42.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 51.3% (ACS 2024 1-year)
+- Average commute: 34.5 minutes (ACS 2024 1-year)
+- Veterans: 1,127 (ACS 2024 1-year)
+- Born abroad: 33.5% (ACS 2024 1-year)
+- Founded: 1688, settled 1688; city 1899
+- Elevation: 85 feet
+- County: Westchester County
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,35 @@ _North Florida (ASUN). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,406 (Fall 2022)
+- Tuition and fees, in state: $6,389 (2025-26), 2 semesters/30 credit hours ($6,389.40)
+- Tuition and fees, out of state: $20,793 (2025-26), 2 semesters/30 credit hours ($20,793.30)
+- Endowment: $164.5 million (2025)
+- Football: none, no football program
+- Men's basketball coach's pay: $225,000 (2026 contract)
+- Arena named for: UNF Arena (named for the university itself)
+
+**Jacksonville**
+- Population: 1,009,831 (ACS 2024 1-year)
+- Median household income: $72,389 (ACS 2024 1-year)
+- Income per person: $39,415 (ACS 2024 1-year)
+- Median home value: $325,300 (ACS 2024 1-year)
+- Poverty rate: 12.3% (ACS 2024 1-year)
+- Median age: 37 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.4% (ACS 2024 1-year)
+- Average commute: 25.6 minutes (ACS 2024 1-year)
+- Veterans: 78,545 (ACS 2024 1-year)
+- Born abroad: 14.2% (ACS 2024 1-year)
+- Founded: 1822
+- County seat: yes
+- Biggest employer: U.S. military
+- January average: 54.2°F
+- Elevation: 3 feet
+- County: Duval County
+- ICE 287(g) agreement in the county: yes, Jacksonville Sheriff's Office (Duval County) (task force)
+- The coach's pay equals 3 median Jacksonville household incomes
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

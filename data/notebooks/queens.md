@@ -27,7 +27,33 @@ _Queens (ASUN). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 1,599 (Fall 2024)
+- Tuition and fees, in state: $49,715 (2026-27), tuition $47,390 + fees $2,325
+- Tuition and fees, out of state: $49,715 (2026-27), private, same rate
+- Endowment: $185.0 million, no year given on Wikipedia
+- Football: none, no football listed
+
+**Charlotte**
+- Population: 943,474 (ACS 2024 1-year)
+- Median household income: $86,416 (ACS 2024 1-year)
+- Income per person: $53,099 (ACS 2024 1-year)
+- Median home value: $431,900 (ACS 2024 1-year)
+- Poverty rate: 11.9% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 49.4% (ACS 2024 1-year)
+- Average commute: 25.3 minutes (ACS 2024 1-year)
+- Veterans: 30,721 (ACS 2024 1-year)
+- Born abroad: 19.7% (ACS 2024 1-year)
+- Founded: 1768
+- County seat: yes
+- Biggest employer: Atrium Health
+- January average: 42.1°F
+- Snow a year: 3.5 inches
+- Elevation: 746 feet
+- County: Mecklenburg County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

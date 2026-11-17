@@ -27,7 +27,33 @@ _UNLV (Mountain West). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 31,142 (2020)
+- Endowment: $470.9 million (2025)
+- Football: FBS, Mountain West
+- Men's basketball coach's pay: $1.0 million (2026-27)
+- Arena named for: E. Parry Thomas and Jerome D. Mack (two prominent Nevada bankers who funded the feasibility and land studies; page names no businesses or gift amount)
+
+**Las Vegas**
+- Population: 678,924 (ACS 2024 1-year)
+- Median household income: $78,556 (ACS 2024 1-year)
+- Income per person: $41,016 (ACS 2024 1-year)
+- Median home value: $458,300 (ACS 2024 1-year)
+- Poverty rate: 13.9% (ACS 2024 1-year)
+- Median age: 38.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 28.0% (ACS 2024 1-year)
+- Average commute: 26.6 minutes (ACS 2024 1-year)
+- Veterans: 36,840 (ACS 2024 1-year)
+- Born abroad: 20.0% (ACS 2024 1-year)
+- Founded: 1905, founded as a city 1905; incorporated 1911
+- County seat: yes
+- January average: 49.5°F
+- Snow a year: 0.2 inches
+- Elevation: 2,000 feet
+- County: Clark County
+- ICE 287(g) agreement in the county: yes, Las Vegas Metropolitan Police Department (warrant service officer (Clark County Detention Center))
+- The coach's pay equals 13 median Las Vegas household incomes
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

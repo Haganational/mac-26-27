@@ -27,7 +27,33 @@ _Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,068 (Fall 2025)
+- Tuition and fees, in state: $13,262 (2025-26), new Ohio-resident full-time, tuition + mandatory fees
+- Tuition and fees, out of state: $18,973 (2025-26 cohort), non-resident domestic $9,486.60 for 12-18 credits x2; page does not say per semester, but in-state $6,629.40 x2 matches Signal Cleveland's $13,262 annual
+- Endowment: $143.7 million (2026)
+- Football: none, never had football in modern era; 2008 student vote declined fee
+- Arena named for: Bert and Iris Wolstein (Cleveland-area real estate development)
+
+**Cleveland**
+- Population: 365,391 (ACS 2024 1-year)
+- Median household income: $43,383 (ACS 2024 1-year)
+- Income per person: $29,308 (ACS 2024 1-year)
+- Median home value: $109,600 (ACS 2024 1-year)
+- Poverty rate: 28.3% (ACS 2024 1-year)
+- Median age: 37.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 24% (ACS 2024 1-year)
+- Average commute: 21.7 minutes (ACS 2024 1-year)
+- Veterans: 12,570 (ACS 2024 1-year)
+- Born abroad: 6.4% (ACS 2024 1-year)
+- Founded: 1796
+- County seat: yes
+- Biggest employer: Cleveland Clinic
+- January average: 29.1°F
+- Snow a year: 63.8 inches
+- Elevation: 653 feet
+- County: Cuyahoga County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

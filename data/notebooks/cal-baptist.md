@@ -27,7 +27,31 @@ _Cal Baptist (Big West). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,466 (Fall 2025)
+- Tuition and fees, in state: $46,116 (2027-28), page shows 2027-28 annual tuition $43,966 (13-18 units) + fees $2,150; 2026-27 rate is in a linked document not fetched
+- Tuition and fees, out of state: $46,116 (2027-28), private: same as in-state
+- Endowment: $157.6 million (2024)
+- Football: none, no football among sports listed
+
+**Riverside**
+- Population: 323,792 (ACS 2024 1-year)
+- Median household income: $90,004 (ACS 2024 1-year)
+- Income per person: $35,700 (ACS 2024 1-year)
+- Median home value: $616,400 (ACS 2024 1-year)
+- Poverty rate: 10.5% (ACS 2024 1-year)
+- Median age: 34.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 25.4% (ACS 2024 1-year)
+- Average commute: 31.5 minutes (ACS 2024 1-year)
+- Veterans: 9,376 (ACS 2024 1-year)
+- Born abroad: 21.7% (ACS 2024 1-year)
+- Founded: 1883
+- County seat: yes
+- Biggest employer: County of Riverside (24,399 employees, 2023 CAFR)
+- January average: 55.6°F
+- Elevation: 827 feet
+- County: Riverside County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

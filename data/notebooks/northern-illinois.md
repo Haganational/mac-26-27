@@ -27,7 +27,32 @@ _Northern Illinois (Horizon). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,078 (Fall 2025)
+- Tuition and fees, in state: $13,693 (2025-26), per-term tuition 5,371.11 + general fee 1,225.44 + APE fee 250, x2 (bursar sheet is per semester); excludes waivable health insurance 1,378/term
+- Tuition and fees, out of state: $13,693 (2025-26), NIU's sheet is a single 'undergraduate domestic' rate; same for out-of-state domestic students
+- Endowment: $122.6 million (2025)
+- Football: FBS, football-only member of Mountain West (other sports Horizon)
+
+**DeKalb**
+- Population: 40,443 (ACS 2024 5-year)
+- Population in 2020: 40,290 (2020 census)
+- Median household income: $46,481 (ACS 2024 5-year)
+- Income per person: $27,086 (ACS 2024 5-year)
+- Median home value: $204,700 (ACS 2024 5-year)
+- Poverty rate: 24.9% (ACS 2024 5-year)
+- Median age: 26.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 33.7% (ACS 2024 5-year)
+- Average commute: 23.8 minutes (ACS 2024 5-year)
+- Veterans: 1,369 (ACS 2024 5-year)
+- Born abroad: 9.1% (ACS 2024 5-year)
+- Founded: 1856
+- Biggest employer: Northern Illinois University
+- January average: 20.6°F
+- Snow a year: 33.1 inches
+- Elevation: 883 feet
+- County: DeKalb County
+- College-town index: 0.40 students per resident (a big presence)
 
 ## The program's best
 

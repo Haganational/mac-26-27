@@ -27,7 +27,34 @@ _Northern Kentucky (Horizon). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,370 (Fall 2024)
+- Tuition and fees, in state: $11,496 (2025-26), KY/OH/IN full-time rate 5,556 per semester + campus rec fee 192 per semester, x2 (schedule gives per-semester only)
+- Tuition and fees, out of state: $15,384 (2025-26), non-resident new-student (AY26 admit) rate 7,500 per semester + 192 fee, x2; continuing non-residents pay 11,184/semester
+- Endowment: $150.9 million (2025)
+- Football: none, no varsity football; not listed among Horizon League sports
+- Men's basketball coach's pay: $574,000 (2026-27 (computed))
+- Arena named for: Truist (Truist Arena, corporate naming rights) (Truist Financial, a bank holding company)
+
+**Highland Heights**
+- Population: 6,444 (ACS 2024 5-year)
+- Population in 2020: 6,662 (2020 census)
+- Median household income: $53,275 (ACS 2024 5-year)
+- Income per person: $35,632 (ACS 2024 5-year)
+- Median home value: $169,700 (ACS 2024 5-year)
+- Poverty rate: 19.9% (ACS 2024 5-year)
+- Median age: 30.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40.7% (ACS 2024 5-year)
+- Average commute: 20.4 minutes (ACS 2024 5-year)
+- Veterans: 201 (ACS 2024 5-year)
+- Born abroad: 5.1% (ACS 2024 5-year)
+- Founded: 1927
+- Elevation: 843 feet
+- County: Campbell County
+- ICE 287(g) agreement in the county: no
+- Nearest ICE detention site: Campbell County Detention Center (holds ICE detainees under U.S. Marshals contract)
+- The coach's pay equals 11 median Highland Heights household incomes
+- College-town index: 2.39 students per resident (the school is the town)
 
 ## The program's best
 

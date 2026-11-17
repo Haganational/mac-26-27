@@ -27,7 +27,28 @@ _Niagara (Metro). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,033 (Fall 2024)
+- Tuition and fees, in state: $41,180 (2026-27), $39,260 tuition + $1,920 undergraduate student fee; per-semester x2 as page shows
+- Tuition and fees, out of state: $41,180 (2026-27), private: same as in-state
+- Endowment: $111.0 million (2022)
+- Football: none, page does not mention football
+
+**Lewiston**
+- Population: 2,588 (ACS 2024 5-year)
+- Median household income: $73,821 (ACS 2024 5-year)
+- Income per person: $51,262 (ACS 2024 5-year)
+- Median home value: $238,100 (ACS 2024 5-year)
+- Poverty rate: 5.9% (ACS 2024 5-year)
+- Median age: 52.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 45.5% (ACS 2024 5-year)
+- Average commute: 21 minutes (ACS 2024 5-year)
+- Veterans: 141 (ACS 2024 5-year)
+- Born abroad: 14.9% (ACS 2024 5-year)
+- Founded: 1822
+- Elevation: 430 feet
+- County: Niagara County
+- College-town index: 1.56 students per resident (the school is the town)
 
 ## The program's best
 

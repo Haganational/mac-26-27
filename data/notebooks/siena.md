@@ -27,7 +27,27 @@ _Siena (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,623 (Fall 2023)
+- Tuition and fees, in state: $50,545 (2026-27), new first-year student: tuition $48,300 + activity $400 + programming/support $1,000 + first-year seminar $300 + orientation $545
+- Tuition and fees, out of state: $50,545 (2026-27), private: same as in-state
+- Endowment: $200.0 million (2026)
+- Football: none, page does not mention football; 21 D-I sports
+
+**Loudonville**
+- Population: 10,527 (ACS 2024 5-year)
+- Median household income: $142,829 (ACS 2024 5-year)
+- Income per person: $78,664 (ACS 2024 5-year)
+- Median home value: $391,200 (ACS 2024 5-year)
+- Poverty rate: 3.3% (ACS 2024 5-year)
+- Adults with a bachelor's degree: 62.9% (ACS 2024 5-year)
+- Average commute: 21.7 minutes (ACS 2024 5-year)
+- Veterans: 467 (ACS 2024 5-year)
+- Born abroad: 9.8% (ACS 2024 5-year)
+- Founded: 1830
+- Elevation: 348 feet
+- County: Albany County
+- College-town index: 0.34 students per resident (a big presence)
 
 ## The program's best
 

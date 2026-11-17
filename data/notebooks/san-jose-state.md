@@ -27,7 +27,33 @@ _San José St (Mountain West). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 37,661 (Fall 2024)
+- Tuition and fees, in state: $8,410 (2024-25)
+- Tuition and fees, out of state: $21,010 (2024-25)
+- Endowment: $264.6 million (2025-26)
+- Football: FBS, Mountain West
+- Students on Pell Grants: 36% (2023-24)
+- Arena named for: Provident Credit Union Event Center (Provident Credit Union (name implies sponsor; Wikipedia page does not confirm a naming deal))
+
+**San Jose**
+- Population: 997,395 (ACS 2024 1-year)
+- Median household income: $148,226 (ACS 2024 1-year)
+- Income per person: $67,272 (ACS 2024 1-year)
+- Median home value: $1.3 million (ACS 2024 1-year)
+- Poverty rate: 8.1% (ACS 2024 1-year)
+- Median age: 38.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 49.0% (ACS 2024 1-year)
+- Average commute: 28.7 minutes (ACS 2024 1-year)
+- Veterans: 20,936 (ACS 2024 1-year)
+- Born abroad: 42.9% (ACS 2024 1-year)
+- Founded: 1777, pueblo founded Nov 29, 1777
+- County seat: yes
+- Biggest employer: County of Santa Clara
+- January average: 50.8°F
+- Elevation: 82 feet
+- County: Santa Clara County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

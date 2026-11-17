@@ -27,7 +27,30 @@ _Canisius (Metro). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,451 (Fall 2024)
+- Endowment: $155.8 million (2025)
+- Football: none, no varsity football; MAAC dropped football after 2007
+
+**Buffalo**
+- Population: 276,618 (ACS 2024 1-year)
+- Median household income: $52,211 (ACS 2024 1-year)
+- Income per person: $32,455 (ACS 2024 1-year)
+- Median home value: $187,000 (ACS 2024 1-year)
+- Poverty rate: 23.0% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 32.7% (ACS 2024 1-year)
+- Average commute: 19.3 minutes (ACS 2024 1-year)
+- Veterans: 10,173 (ACS 2024 1-year)
+- Born abroad: 14.0% (ACS 2024 1-year)
+- Founded: 1801
+- County seat: yes
+- Biggest employer: New York State
+- January average: 25.5°F
+- Snow a year: 95.4 inches
+- Elevation: 600 feet
+- County: Erie County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

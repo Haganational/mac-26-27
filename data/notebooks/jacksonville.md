@@ -27,7 +27,32 @@ _Jacksonville (ASUN). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,247 (Fall 2024), 2,946 undergraduates + 1,301 postgraduates
+- Tuition and fees, in state: $50,000 (2026-27), tuition $48,500 + comprehensive fee $1,500
+- Tuition and fees, out of state: $50,000 (2026-27), private, same rate
+- Endowment: $59.2 million (2022)
+- Football: none, FCS program 1998-2019; discontinued after 2019 season
+
+**Jacksonville**
+- Population: 1,009,831 (ACS 2024 1-year)
+- Median household income: $72,389 (ACS 2024 1-year)
+- Income per person: $39,415 (ACS 2024 1-year)
+- Median home value: $325,300 (ACS 2024 1-year)
+- Poverty rate: 12.3% (ACS 2024 1-year)
+- Median age: 37 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.4% (ACS 2024 1-year)
+- Average commute: 25.6 minutes (ACS 2024 1-year)
+- Veterans: 78,545 (ACS 2024 1-year)
+- Born abroad: 14.2% (ACS 2024 1-year)
+- Founded: 1822
+- County seat: yes
+- Biggest employer: U.S. military
+- January average: 54.2°F
+- Elevation: 3 feet
+- County: Duval County
+- ICE 287(g) agreement in the county: yes, Jacksonville Sheriff's Office (Duval County) (task force)
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

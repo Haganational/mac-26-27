@@ -27,7 +27,27 @@ _Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,240 (2014-15)
+- Football: none, no football among 22 sports
+
+**Emmitsburg**
+- Population: 2,845 (ACS 2024 5-year)
+- Median household income: $81,250 (ACS 2024 5-year)
+- Income per person: $36,300 (ACS 2024 5-year)
+- Median home value: $324,300 (ACS 2024 5-year)
+- Poverty rate: 11.6% (ACS 2024 5-year)
+- Median age: 35.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 28.5% (ACS 2024 5-year)
+- Average commute: 36.9 minutes (ACS 2024 5-year)
+- Veterans: 121 (ACS 2024 5-year)
+- Born abroad: 9.3% (ACS 2024 5-year)
+- Founded: 1785
+- January average: 31.1°F
+- Snow a year: 27.5 inches
+- Elevation: 400 feet
+- County: Frederick County
+- College-town index: 0.79 students per resident (the school is the town)
 
 ## The program's best
 

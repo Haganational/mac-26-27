@@ -27,7 +27,32 @@ _FGCU (ASUN). Anchors are fictional AI personas, not affiliated with any school.
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,612 (Fall 2024)
+- Tuition and fees, in state: $6,171 (2025-26), 2 semesters/30 credit hours, FL BOG report ($6,170.70)
+- Tuition and fees, out of state: $25,214 (2025-26), 2 semesters/30 credit hours ($25,214.40)
+- Endowment: $129.3 million (2022)
+- Football: none, no football program
+- Arena named for: Alico, Inc. (Florida agribusiness (citrus, cattle, land))
+
+**Fort Myers**
+- Population: 99,929 (ACS 2024 1-year)
+- Median household income: $70,480 (ACS 2024 1-year)
+- Income per person: $42,528 (ACS 2024 1-year)
+- Median home value: $416,200 (ACS 2024 1-year)
+- Poverty rate: 16.3% (ACS 2024 1-year)
+- Median age: 42.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33% (ACS 2024 1-year)
+- Average commute: 25.2 minutes (ACS 2024 5-year)
+- Veterans: 4,828 (ACS 2024 1-year)
+- Born abroad: 26.9% (ACS 2024 1-year)
+- Founded: 1885
+- County seat: yes
+- January average: 64.7°F
+- Elevation: 10 feet
+- County: Lee County
+- ICE 287(g) agreement in the county: yes, Lee County Sheriff's Office (task force)
+- College-town index: 0.17 students per resident (a big presence)
 
 ## The program's best
 

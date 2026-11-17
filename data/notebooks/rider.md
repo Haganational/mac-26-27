@@ -27,7 +27,28 @@ _Rider (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,693 (not stated on page)
+- Tuition and fees, in state: $45,150 (2026-27), tuition $43,580 + general student fee $1,570, per year
+- Tuition and fees, out of state: $45,150 (2026-27), private: same as in-state
+- Endowment: $89.6 million (2025)
+- Football: none, dropped 1951
+
+**Lawrenceville**
+- Population: 3,924 (ACS 2024 5-year)
+- Median household income: $122,614 (ACS 2024 5-year)
+- Income per person: $66,857 (ACS 2024 5-year)
+- Median home value: $411,900 (ACS 2024 5-year)
+- Poverty rate: 0.3% (ACS 2024 5-year)
+- Median age: 43.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 71.3% (ACS 2024 5-year)
+- Average commute: 27.5 minutes (ACS 2024 5-year)
+- Veterans: 76 (ACS 2024 5-year)
+- Born abroad: 10.9% (ACS 2024 5-year)
+- Founded: 1697
+- Elevation: 184 feet
+- County: Mercer County
+- College-town index: 0.94 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,28 @@ _UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 40,848 (Fall 2023)
+- Endowment: $770.4 million (2024)
+- Football: FCS, football stays in the Big Sky after other sports join the Mountain West on July 1, 2026
+
+**Davis**
+- Population: 67,129 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median household income: $76,706 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $47,198 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $901,500 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 33.6% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 24.7 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 78.4% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 22.4 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 1,534 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 16.0% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1917, incorporated Mar 28, 1917; railroad depot Davisville 1868
+- Biggest employer: University of California, Davis
+- January average: 46.9°F
+- Elevation: 52 feet
+- County: Yolo County
+- College-town index: 0.61 students per resident (the school is the town)
 
 ## The program's best
 
