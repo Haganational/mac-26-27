@@ -165,36 +165,36 @@ def main() -> int:
             keys.setdefault(norm(lab), tid)
     label_franchise = {norm(lab): code for code, labs in FRANCHISE.items() for lab in labs}
 
-    # Three small queries instead of one huge one (a single query came back cut off at 22 MB).
-    # 1. Every NBA roster spot: player -> NBA team item.
-    spots = query(f"SELECT ?p ?t WHERE {{ ?p wdt:P54 ?t . ?t wdt:P118 wd:{NBA} . }}")
-    # 2. English names of those NBA team items, and of the players.
+    # One query per NBA team instead of league-wide ones: the league-wide queries come back cut off
+    # (22 MB at first, then ~2 MB at Wikidata's 60 s limit on a busy night). Each team's query is small.
     tnames = {r["t"]: r["l"] for r in query(f"""
 SELECT DISTINCT ?t ?l WHERE {{ ?t wdt:P118 wd:{NBA} ; rdfs:label ?l . FILTER(LANG(?l) = "en") }}""")}
-    pnames = {r["p"]: r["l"] for r in query(f"""
-SELECT DISTINCT ?p ?l WHERE {{ ?p wdt:P54 ?t . ?t wdt:P118 wd:{NBA} . ?p rdfs:label ?l . FILTER(LANG(?l) = "en") }}""")}
-    # 3. Their college teams and universities, already narrowed to college-looking labels.
-    cols = query(f"""
-SELECT DISTINCT ?p ?l WHERE {{
-  ?p wdt:P54 ?x . ?x wdt:P118 wd:{NBA} .
-  ?p wdt:P54|wdt:P69 ?c . ?c rdfs:label ?l . FILTER(LANG(?l) = "en")
-  FILTER(CONTAINS(?l, "basketball") || CONTAINS(?l, "Universit") || CONTAINS(?l, "College") || CONTAINS(?l, "Academy"))
-}}""")
-    print("rows", len(spots), len(tnames), len(pnames), len(cols))
     players: dict[str, dict] = {}
     unknown_nba: dict[str, int] = {}
-    for r in spots:
-        p = players.setdefault(r["p"], {"name": pnames.get(r["p"], ""), "schools": set(), "teams": set()})
-        lab = tnames.get(r["t"], "")
+    rows = 0
+    for t, lab in sorted(tnames.items(), key=lambda x: x[1]):
         code = label_franchise.get(norm(lab))
-        if code:
-            p["teams"].add(code)
-        else:
+        if not code:
             unknown_nba[lab] = unknown_nba.get(lab, 0) + 1
-    for r in cols:
-        tid = keys.get(norm(r["l"]))
-        if tid and r["p"] in players:
-            players[r["p"]]["schools"].add(tid)
+            continue
+        qid = t.rsplit("/", 1)[-1]
+        got = query(f"""
+SELECT DISTINCT ?p ?pl ?cl WHERE {{
+  ?p wdt:P54 wd:{qid} .
+  ?p wdt:P54|wdt:P69 ?c . ?c rdfs:label ?cl . FILTER(LANG(?cl) = "en")
+  FILTER(CONTAINS(?cl, "basketball") || CONTAINS(?cl, "Universit") || CONTAINS(?cl, "College") || CONTAINS(?cl, "Academy"))
+  OPTIONAL {{ ?p rdfs:label ?pl . FILTER(LANG(?pl) = "en") }}
+}}""")
+        rows += len(got)
+        for r in got:
+            pl = players.setdefault(r["p"], {"name": r.get("pl", ""), "schools": set(), "teams": set()})
+            pl["name"] = pl["name"] or r.get("pl", "")
+            pl["teams"].add(code)
+            tid = keys.get(norm(r["cl"]))
+            if tid:
+                pl["schools"].add(tid)
+        time.sleep(1)  # be gentle with the public endpoint
+    print("rows", len(tnames), rows, len(players))
     by_school: dict[str, list] = {tid: [] for tid in teams}
     for qid, p in players.items():
         if not p["teams"] or re.fullmatch(r"Q\d+", p["name"]):
