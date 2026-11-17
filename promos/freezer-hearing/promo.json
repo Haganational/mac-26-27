@@ -1,13 +1,33 @@
 {
- "stage": "all",
+ "stage": "done",
  "run": 1,
  "main_title_contains": "The Freezer Hearing",
  "release": "freezer-hearing-promos",
- "city_tags": ["#HockingMiami", "#MIDnightWeave"],
- "specific_tags": ["#RedHawks"],
+ "city_tags": [
+  "#HockingMiami",
+  "#MIDnightWeave"
+ ],
+ "specific_tags": [
+  "#RedHawks"
+ ],
  "disclosure": "A sketch. Every character is a fictional AI anchor with an AI voice. No real Miami University staff, players or policies are depicted.",
- "location": {"name": "Oxford, Ohio", "lat": 39.507, "lng": -84.745},
- "yt_tags": ["The Freezer Hearing", "Hocking Miami", "MIDnight Weave", "comedy sketch", "Miami RedHawks", "Oxford Ohio", "MAC", "mid-majors", "college basketball", "Hardwood Bricks"],
+ "location": {
+  "name": "Oxford, Ohio",
+  "lat": 39.507,
+  "lng": -84.745
+ },
+ "yt_tags": [
+  "The Freezer Hearing",
+  "Hocking Miami",
+  "MIDnight Weave",
+  "comedy sketch",
+  "Miami RedHawks",
+  "Oxford Ohio",
+  "MAC",
+  "mid-majors",
+  "college basketball",
+  "Hardwood Bricks"
+ ],
  "film": {
   "file": "freezer-film.mp4",
   "thumb": "freezer-thumbnail.jpg",
@@ -29,5 +49,5 @@
   }
  ],
  "rethumb": false,
- "main_url": ""
+ "main_url": "https://youtu.be/_sZo1sDUvrc"
 }
