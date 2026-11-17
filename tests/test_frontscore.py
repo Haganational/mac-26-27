@@ -73,3 +73,17 @@ def test_unscored_and_older_stories_fall_back_to_newest_first():
     st = [{"href": "games/77.html", "kind": "recap", "id": "77"}, {"href": "games/5.html", "kind": "preview", "id": "p"}] + _stories("1")
     assert [s["id"] for s in frontscore.rank(st, sc)] == ["1", "77", "p"]
     assert frontscore.rank(st, None) == st
+
+
+def test_byline_head_crops_cover_every_portrait():
+    """Every anchor portrait has a committed byline head crop (tools/anchor_heads.py), so the build only copies."""
+    from mac import anchors
+    portraits = {p.name for p in anchors.PORTRAITS.glob("*.webp")}
+    heads = {p.name for p in (anchors.PORTRAITS / "heads").glob("*.webp")}
+    assert portraits - heads == set()
+
+
+def test_press_desk_flags_portrait():
+    from mac import press
+    d = press.desk("ohio")
+    assert d and d["portrait"] is True

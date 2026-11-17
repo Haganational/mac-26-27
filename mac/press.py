@@ -64,6 +64,7 @@ def desk(key: str | None, depth: int = 0) -> dict[str, Any] | None:
         return None
     p = papers().get(key) or {}
     return {"key": key, "name": a["name"] if a else None, "paper": title, "town": p.get("town") or "",
+            "portrait": bool(a and anchors.portrait(key)),
             "href": ("../" * depth) + f"anchors/{key}.html" if a else None}
 
 

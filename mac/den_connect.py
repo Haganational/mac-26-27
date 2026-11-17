@@ -158,6 +158,47 @@ def publish_portraits(site_root: Path, sub: str = "den/anchors") -> int:
     return n
 
 
+HEAD_PX = 96  # byline head crops are drawn at 30px, so 96 covers 3x screens
+
+
+def head_crop(src: Path, size: int = HEAD_PX):
+    """A square head-and-collar crop of a keyed portrait, found from its alpha: the crop starts just above
+    the top of the head, is centered on the head, and is 68% of the portrait's width wide."""
+    from PIL import Image
+    im = Image.open(src).convert("RGBA")
+    w, h = im.size
+    a = im.getchannel("A").point(lambda v: 255 if v > 128 else 0)
+    bb = a.getbbox()
+    top = bb[1] if bb else 0
+    row = a.crop((0, top, w, min(h, top + int(w * .25)))).getbbox()
+    cx = (row[0] + row[2]) // 2 if row else w // 2
+    side = min(w, h, int(w * .68))
+    x = max(0, min(w - side, cx - side // 2))
+    y = max(0, min(h - side, top - int(side * .05)))
+    return im.crop((x, y, x + side, y + side)).resize((size, size), Image.LANCZOS)
+
+
+def publish_heads(site_root: Path, sub: str = "den/anchors/heads") -> int:
+    """Small head crops for recap and preview bylines (templates/_press.html). The crops are committed in
+    anchors/heads/ (tools/anchor_heads.py makes them) and copied here; a portrait with no crop yet gets one made
+    on the spot (rerun the tool when a portrait is replaced). Returns how many it copied or made."""
+    dest = Path(site_root) / sub
+    dest.mkdir(parents=True, exist_ok=True)
+    made = anchor_desk.PORTRAITS / "heads"
+    n = 0
+    for p in sorted(anchor_desk.PORTRAITS.glob("*.webp")):
+        out, have = dest / p.name, made / p.name
+        try:
+            if have.exists():
+                shutil.copy2(have, out)
+            else:
+                head_crop(p).save(out, "WEBP", quality=82)
+            n += 1
+        except (OSError, ValueError):
+            continue
+    return n
+
+
 def _side_key(side: dict[str, Any]) -> str | None:
     key = side.get("key")
     if not key and isinstance(side.get("anchor"), str):
@@ -482,6 +523,7 @@ def build(site_root: Path, slate: dict[str, Any], results: dict[str, Any] | None
     (den / f"connect-{slate['date']}.json").write_text(json.dumps(out, separators=(",", ":")))
     if not (den / "anchors").exists():
         publish_portraits(site_root)
+    publish_heads(site_root)
     ledgers, res = [], {}
     for p in sorted(Path(ledger_dir).glob("*.json")):
         try:
