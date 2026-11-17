@@ -186,6 +186,15 @@ def facts_lines(key: str) -> list[str]:
     row("Endowment", "endowment", _money)
     row("Football", "football")
     row("Men's basketball coach's pay", "mbb_coach_pay", _money)
+    row("Students on Pell Grants", "pell_pct", lambda v: f"{v}%")
+    row("Median debt at graduation", "median_debt", _money)
+    g = f.get("grants_terminated_2025")
+    if isinstance(g, dict) and (g.get("count") or g.get("dollars")):
+        out.append(f"- Federal research grants cut in 2025: {g.get('count') or '?'}" + (f", {_money(g['dollars'])}" if g.get("dollars") else ""))
+    a = f.get("arena_named_for")
+    if isinstance(a, dict) and a.get("value"):
+        out.append(f"- Arena named for: {a['value']}" + (f" ({a['money_from']})" if a.get("money_from") else "")
+                   + (", a billionaire" if a.get("billionaire") else ""))
     out.append("")
     out.append(f"**{f.get('town') or 'Town'}**")
     row("Population", "population")
@@ -206,11 +215,32 @@ def facts_lines(key: str) -> list[str]:
     row("January average", "jan_avg_temp_f", lambda v: f"{v}°F")
     row("Snow a year", "snowfall_in", lambda v: f"{v} inches")
     row("Elevation", "elevation_ft", lambda v: f"{v:,} feet")
+    if f.get("county"):
+        out.append(f"- County: {_v(f, 'county')}")
+    row("Local news outlets in the county", "news_outlets_county")
+    row("News desert", "news_desert", lambda v: "yes" if v else "no")
+    ice = f.get("ice_287g")
+    if isinstance(ice, dict) and ice.get("value") is not None:
+        out.append("- ICE 287(g) agreement in the county: " + (f"yes, {ice.get('agency', '')} ({ice.get('model', '')})" if ice["value"] else "no"))
+    det = f.get("detention_center_nearby")
+    if isinstance(det, dict) and det.get("value"):
+        out.append(f"- Nearest ICE detention site: {det['value']}" + (f", {det['miles']} miles" if det.get("miles") else ""))
+    h = households(f)
+    if h:
+        out.append(f"- The coach's pay equals {h} median {f.get('town') or 'town'} household incomes")
     idx = college_town_index(f)
     if idx is not None:
         out.append(f"- College-town index: {idx:.2f} students per resident "
                    f"({'the school is the town' if idx >= 0.5 else 'a big presence' if idx >= 0.15 else 'a guest in a bigger place'})")
     return out
+
+
+def households(f: dict[str, Any]) -> int | None:
+    """How many of the town's median household incomes the men's basketball coach's pay comes to."""
+    pay, inc = _v(f, "mbb_coach_pay"), _v(f, "median_household_income")
+    if isinstance(pay, (int, float)) and isinstance(inc, (int, float)) and inc > 0:
+        return int(round(pay / inc))
+    return None
 
 
 def college_town_index(f: dict[str, Any]) -> float | None:
