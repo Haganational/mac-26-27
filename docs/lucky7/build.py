@@ -559,6 +559,23 @@ def apply_extras():
 
 apply_extras()
 
+WORDS = ["One", "Two", "Three", "Four", "Five", "Six", "Seven"]
+
+
+def add_recaps():
+    """Before each episode's sign-off, Matthew runs the seven facts back, one card each: the lucky seven."""
+    for e in EPISODES:
+        facts = [v.split("|", 1)[1] for _, _, v in e["lines"] if v and v.startswith("card:Fact ")]
+        rec = [("M", f"So, {e['state']}. Your lucky seven, one more time.", f"card:{e['state']}|The lucky seven")]
+        for k, f in enumerate(facts[:7]):
+            said = ". ".join(x[:1].upper() + x[1:] for x in f.split(" · "))
+            rec.append(("M", f"{WORDS[k]}. {said}.", f"card:{WORDS[k]}|{f}"))
+        i = next(k for k, (_, t, _) in enumerate(e["lines"]) if t == f"{e['state']}. Keep it real." or t.startswith("Seven states. Seven governors."))
+        e["lines"][i:i] = rec
+
+
+add_recaps()
+
 
 def main():
     for e in EPISODES:
