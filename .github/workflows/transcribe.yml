@@ -27,7 +27,10 @@ jobs:
           from faster_whisper import WhisperModel
           src = sys.argv[1]
           m = WhisperModel("small.en", device="cpu", compute_type="int8")
-          segs, _ = m.transcribe(src, word_timestamps=True)
+          import subprocess, numpy as np
+          raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"], capture_output=True, check=True).stdout
+          audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+          segs, _ = m.transcribe(audio, word_timestamps=True)
           out = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
                   "words": [[round(w.start, 2), round(w.end, 2), w.word.strip()] for w in s.words]} for s in segs]
           json.dump(out, open(src[:-4] + ".json", "w"), indent=1)
