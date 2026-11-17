@@ -231,6 +231,7 @@ def main():
                         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(x[:max(len(x) - int(TAIL * SR), 1)].tobytes())
                     ff("-i", str(tmp), "-c:a", "libvorbis", "-q:a", "5", str(vo / f"{sp}-{seen[sp]:02d}.ogg"))
     durs = [len(x) / SR for x in audio]
+    (out / "timeline.json").write_text(json.dumps([{"speaker": l["speaker"], "visual": l.get("visual"), "dur": round(d, 3)} for l, d in zip(lines, durs)]))
     # shots: runs of lines that share a picture
     shots = []
     for i, ln in enumerate(lines):
