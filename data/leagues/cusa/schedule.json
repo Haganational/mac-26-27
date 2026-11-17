@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:12:18+00:00",
+ "fetched_at": "2026-11-17T23:09:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -1672,10 +1672,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:51 - 1st"
   },
   {
    "game_id": "401919018",
@@ -2878,7 +2878,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
     "low": 27.0
@@ -2916,7 +2927,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -2951,7 +2968,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-28-2026--sports-ncaa-basketball/production/7309048?wsUser=717",
     "low": 15.0
@@ -3071,7 +3094,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-28-2026--sports-ncaa-basketball/production/7661797?wsUser=717",
     "low": 34.0
@@ -4844,7 +4878,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-12-19-2026--sports-ncaa-basketball/production/7558849?wsUser=717",
-    "low": 61.0
+    "low": 60.0
    },
    "venue": "Liberty Arena (VA)",
    "venue_city": "Lynchburg",

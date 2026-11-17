@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:15:48+00:00",
+ "fetched_at": "2026-11-17T23:11:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2609,7 +2609,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
     "low": 28.0
@@ -2858,7 +2869,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": true,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "H&PE Arena",
    "venue_city": "Houston",
@@ -3101,7 +3118,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-1-2026--sports-ncaa-basketball/production/7575837?wsUser=717",
     "low": 10.0

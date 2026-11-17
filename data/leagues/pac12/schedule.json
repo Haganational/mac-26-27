@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:07:35+00:00",
+ "fetched_at": "2026-11-17T23:05:53+00:00",
  "season": 2027,
  "games": [
   {
@@ -1630,7 +1630,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-18-2026--sports-ncaa-basketball/production/7785758?wsUser=717",
-    "low": 24.0
+    "low": 20.0
    },
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
@@ -1756,7 +1756,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-angel-of-the-winds-arena-11-18-2026--sports-ncaa-basketball/production/7744906?wsUser=717",
-    "low": 36.0
+    "low": 38.0
    },
    "venue": "Angel of the Winds Arena",
    "venue_city": "Everett",
@@ -1932,7 +1932,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7199789?wsUser=717",
-    "low": 51.0
+    "low": 57.0
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
@@ -1976,7 +1976,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 23.0
+    "low": 21.0
    },
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
@@ -2278,7 +2278,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-t-mobile-arena-11-24-2026--sports-ncaa-basketball/production/7288695?wsUser=717",
-    "low": 100.0
+    "low": 96.0
    },
    "venue": "T-Mobile Arena",
    "venue_city": "Las Vegas",
@@ -2348,7 +2348,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-25-2026--sports-ncaa-basketball/production/7401148?wsUser=717",
     "low": 48.0
@@ -2509,7 +2515,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -2544,10 +2556,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-11-27-2026--sports-ncaa-basketball/production/7633997?wsUser=717",
-    "low": 6.0
+    "low": 8.0
    },
    "venue": "Beasley Coliseum",
    "venue_city": "Pullman",
@@ -2582,7 +2600,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -2617,7 +2641,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
     "low": 10.0
@@ -2740,7 +2770,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-29-2026--sports-ncaa-basketball/production/7633884?wsUser=717",
     "low": 23.0
@@ -2857,7 +2893,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-1-2026--sports-ncaa-basketball/production/7575837?wsUser=717",
     "low": 10.0
@@ -3402,7 +3444,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-12-6-2026--sports-ncaa-basketball/production/7633999?wsUser=717",
-    "low": 9.0
+    "low": 8.0
    },
    "venue": "Beasley Coliseum",
    "venue_city": "Pullman",
@@ -4055,7 +4097,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-12-14-2026--sports-ncaa-basketball/production/7631679?wsUser=717",
-    "low": 30.0
+    "low": 29.0
    },
    "venue": "Gill Coliseum",
    "venue_city": "Corvallis",
@@ -5993,7 +6035,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-1-21-2027--sports-ncaa-basketball/production/7631418?wsUser=717",
-    "low": 22.0
+    "low": 21.0
    },
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",

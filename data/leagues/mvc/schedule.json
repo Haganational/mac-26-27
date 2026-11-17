@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:05:47+00:00",
+ "fetched_at": "2026-11-17T23:04:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -1955,7 +1955,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-17-2026--sports-ncaa-basketball/production/7638017?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -2919,7 +2919,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-24-2026--sports-ncaa-basketball/production/7349915?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Mizzou Arena",
    "venue_city": "Columbia",
@@ -2995,7 +2995,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679892?wsUser=717",
     "low": 65.0
@@ -3033,7 +3039,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -3241,7 +3253,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -3358,7 +3376,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -4214,7 +4238,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-bridgestone-arena-12-6-2026--sports-ncaa-basketball/production/7096249?wsUser=717",
-    "low": 52.0
+    "low": 49.0
    },
    "venue": "Bridgestone Arena",
    "venue_city": "Nashville",
@@ -4425,7 +4449,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-12-9-2026--sports-ncaa-basketball/production/7717528?wsUser=717",
-    "low": 20.0
+    "low": 21.0
    },
    "venue": "CFSB Center",
    "venue_city": "Murray",
@@ -9364,6 +9388,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T19:33:05+00:00"
+ ]
 }

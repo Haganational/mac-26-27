@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:02:34+00:00",
+ "fetched_at": "2026-11-17T23:02:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -2254,7 +2254,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-11-17-2026--sports-ncaa-basketball/production/7339600?wsUser=717",
-    "low": 7.0
+    "low": 8.0
    },
    "venue": "Cintas Center",
    "venue_city": "Cincinnati",
@@ -2738,7 +2738,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-20-2026--sports-ncaa-basketball/production/7398045?wsUser=717",
-    "low": 10.0
+    "low": 14.0
    },
    "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
@@ -3705,6 +3705,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "RESN",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3797,7 +3802,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 59.0
+    "low": 52.0
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -4049,7 +4054,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
     "low": 10.0

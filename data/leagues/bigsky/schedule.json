@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:13:43+00:00",
+ "fetched_at": "2026-11-17T23:10:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2453,7 +2453,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-11-21-2026--sports-ncaa-basketball/production/7877446?wsUser=717",
+    "low": 10.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -2780,7 +2783,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hard Rock Hotel Riviera Maya",
    "venue_city": "Cancun",
@@ -3120,7 +3129,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-11-25-2026--sports-ncaa-basketball/production/7519430?wsUser=717",
-    "low": 12.0
+    "low": 6.0
    },
    "venue": "Gersten Pavilion",
    "venue_city": "Los Angeles",
@@ -3199,10 +3208,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-11-27-2026--sports-ncaa-basketball/production/7633997?wsUser=717",
-    "low": 6.0
+    "low": 8.0
    },
    "venue": "Beasley Coliseum",
    "venue_city": "Pullman",
@@ -3495,7 +3510,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-11-29-2026--sports-ncaa-basketball/production/7699976?wsUser=717",
     "low": 28.0
@@ -3533,7 +3554,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Sanford Coyote Sports Center",
    "venue_city": "Vermillion",
@@ -3577,7 +3609,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-state-sun-devils-mens-basketball-tickets-desert-financial-arena-11-30-2026--sports-ncaa-basketball/production/7507704?wsUser=717",
-    "low": 6.0
+    "low": 7.0
    },
    "venue": "Desert Financial Arena",
    "venue_city": "Tempe",
@@ -3619,7 +3651,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-12-3-2026--sports-ncaa-basketball/production/7877450?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -3821,7 +3856,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-12-5-2026--sports-ncaa-basketball/production/7877452?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -5291,7 +5329,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-12-20-2026--sports-ncaa-basketball/production/7877456?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -6552,7 +6593,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-1-14-2027--sports-ncaa-basketball/production/7877458?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -6844,7 +6888,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-1-16-2027--sports-ncaa-basketball/production/7877460?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -7282,7 +7329,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-1-25-2027--sports-ncaa-basketball/production/7877466?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -7837,7 +7887,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-2-4-2027--sports-ncaa-basketball/production/7877472?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -8015,7 +8068,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-2-6-2027--sports-ncaa-basketball/production/7877476?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -8599,7 +8655,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-2-18-2027--sports-ncaa-basketball/production/7877478?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -8745,7 +8804,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-2-20-2027--sports-ncaa-basketball/production/7877482?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -9332,7 +9394,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-3-1-2027--sports-ncaa-basketball/production/7877486?wsUser=717",
+    "low": 15.0
+   },
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",

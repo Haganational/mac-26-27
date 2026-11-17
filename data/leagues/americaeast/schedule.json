@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:17:34+00:00",
+ "fetched_at": "2026-11-17T23:12:58+00:00",
  "season": 2027,
  "games": [
   {
@@ -1890,10 +1890,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:58 - 1st"
   },
   {
    "game_id": "401911020",
@@ -2171,7 +2171,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-19-2026--sports-ncaa-basketball/production/7534723?wsUser=717",
-    "low": 10.0
+    "low": 9.0
    },
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
@@ -2511,7 +2511,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-11-22-2026--sports-ncaa-basketball/production/7748246?wsUser=717",
-    "low": 47.0
+    "low": 31.0
    },
    "venue": "Chesapeake Employers Insurance Arena",
    "venue_city": "Baltimore",
@@ -2769,7 +2769,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-24-2026--sports-ncaa-basketball/production/7465781?wsUser=717",
-    "low": 22.0
+    "low": 23.0
    },
    "venue": "Prudential Center",
    "venue_city": "Newark",
@@ -2945,7 +2945,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-25-2026--sports-ncaa-basketball/production/7539434?wsUser=717",
-    "low": 8.0
+    "low": 5.0
    },
    "venue": "JMA Wireless Dome",
    "venue_city": "Syracuse",
@@ -2980,7 +2980,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -3135,7 +3141,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3419,7 +3431,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3495,7 +3513,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Bogota Savings Bank Center",
    "venue_city": "Hackensack",
@@ -4028,7 +4052,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-12-5-2026--sports-ncaa-basketball/production/7752180?wsUser=717",
-    "low": 47.0
+    "low": 33.0
    },
    "venue": "Events Center (Binghamton)",
    "venue_city": "Binghamton",
@@ -4247,7 +4271,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-12-7-2026--sports-ncaa-basketball/production/7465797?wsUser=717",
-    "low": 16.0
+    "low": 17.0
    },
    "venue": "Prudential Center",
    "venue_city": "Newark",
@@ -4458,7 +4482,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/depaul-blue-demons-mens-basketball-tickets-wintrust-arena-12-8-2026--sports-ncaa-basketball/production/7258842?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Wintrust Arena",
    "venue_city": "Chicago",

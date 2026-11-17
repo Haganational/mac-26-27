@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:14:28+00:00",
+ "fetched_at": "2026-11-17T23:10:43+00:00",
  "season": 2027,
  "games": [
   {
@@ -2039,7 +2039,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ole-miss-rebels-mens-basketball-tickets-the-sandy-and-john-black-pavilion-at-ole-miss-11-17-2026--sports-ncaa-basketball/production/7600218?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "The Sandy and John Black Pavilion at Ole Miss",
    "venue_city": "Oxford",
@@ -2671,7 +2671,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 23.0
+    "low": 21.0
    },
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
@@ -2785,7 +2785,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hard Rock Hotel Riviera Maya",
    "venue_city": "Cancun",
@@ -3022,7 +3028,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-11-25-2026--sports-ncaa-basketball/production/7638781?wsUser=717",
     "low": 27.0
@@ -3060,7 +3072,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-28-2026--sports-ncaa-basketball/production/7419563?wsUser=717",
     "low": 10.0
@@ -3227,7 +3245,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-29-2026--sports-ncaa-basketball/production/7633884?wsUser=717",
     "low": 23.0
@@ -3265,7 +3289,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-11-29-2026--sports-ncaa-basketball/production/7436731?wsUser=717",
     "low": 8.0
@@ -3567,7 +3597,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-12-1-2026--sports-ncaa-basketball/production/7363511?wsUser=717",
-    "low": 12.0
+    "low": 11.0
    },
    "venue": "McKale Center at ALKEME Arena",
    "venue_city": "Tucson",
@@ -5667,7 +5697,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-12-29-2026--sports-ncaa-basketball/production/7383709?wsUser=717",
-    "low": 8.0
+    "low": 11.0
    },
    "venue": "Moody Center",
    "venue_city": "Austin",

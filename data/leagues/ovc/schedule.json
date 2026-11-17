@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:16:55+00:00",
+ "fetched_at": "2026-11-17T23:12:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -1839,7 +1839,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-17-2026--sports-ncaa-basketball/production/7413165?wsUser=717",
-    "low": 10.0
+    "low": 6.0
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -2652,7 +2652,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
     "low": 12.0
@@ -2819,7 +2825,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Swinney Center",
    "venue_city": "Kansas City",

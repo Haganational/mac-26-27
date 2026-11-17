@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:04:05+00:00",
+ "fetched_at": "2026-11-17T23:03:24+00:00",
  "season": 2027,
  "games": [
   {
@@ -2507,7 +2507,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-11-17-2026--sports-ncaa-basketball/production/7339379?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "Watsco Center",
    "venue_city": "Coral Gables",
@@ -2812,7 +2812,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-20-2026--sports-ncaa-basketball/production/7672802?wsUser=717",
-    "low": 25.0
+    "low": 26.0
    },
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
@@ -3666,6 +3666,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": null,
@@ -3752,7 +3757,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-28-2026--sports-ncaa-basketball/production/7465787?wsUser=717",
-    "low": 21.0
+    "low": 15.0
    },
    "venue": "Prudential Center",
    "venue_city": "Newark",
@@ -3951,10 +3956,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/hofstra-pride-mens-basketball-tickets-mack-sports-complex-at-hofstra-university-11-28-2026/production/7763336?wsUser=717",
-    "low": 17.0
+    "low": 46.0
    },
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -4033,7 +4044,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",

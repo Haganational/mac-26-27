@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:08:54+00:00",
+ "fetched_at": "2026-11-17T23:06:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2196,7 +2196,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-17-2026--sports-ncaa-basketball/production/7413165?wsUser=717",
-    "low": 10.0
+    "low": 6.0
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -2715,7 +2715,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 46.0
+    "low": 42.0
    },
    "venue": "Charles Koch Arena",
    "venue_city": "Wichita",
@@ -3289,7 +3289,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679892?wsUser=717",
     "low": 65.0
@@ -3362,7 +3368,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679896?wsUser=717",
     "low": 65.0
@@ -3573,7 +3585,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -3617,7 +3635,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 17.0
+    "low": 18.0
    },
    "venue": "Rupp Arena",
    "venue_city": "Lexington",
@@ -3652,7 +3670,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -4039,7 +4063,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Mountain America Center",
    "venue_city": "Idaho Falls",
@@ -4590,7 +4620,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/baylor-bears-mens-basketball-tickets-foster-pavilion-12-5-2026--sports-ncaa-basketball/production/7324078?wsUser=717",
-    "low": 47.0
+    "low": 18.0
    },
    "venue": "Foster Pavilion",
    "venue_city": "Waco",
@@ -9812,7 +9842,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-2-2026--sports-ncaa-basketball/production/7613224?wsUser=717",
-    "low": 81.0
+    "low": 70.0
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",

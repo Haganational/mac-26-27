@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:06:31+00:00",
+ "fetched_at": "2026-11-17T23:05:10+00:00",
  "season": 2027,
  "games": [
   {
@@ -2466,7 +2466,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-11-17-2026--sports-ncaa-basketball/production/7413755?wsUser=717",
-    "low": 9.0
+    "low": 6.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -2554,7 +2554,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/saint-josephs-hawks-mens-basketball-tickets-michael-j-hagan-arena-11-17-2026--sports-ncaa-basketball/production/7581668?wsUser=717",
-    "low": 20.0
+    "low": 14.0
    },
    "venue": "Michael J. Hagan '85 Arena",
    "venue_city": "Philadelphia",
@@ -4001,7 +4001,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679896?wsUser=717",
     "low": 65.0
@@ -4294,7 +4300,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NBC Sports Phil",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
@@ -4598,6 +4615,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -7016,7 +7038,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-12-19-2026--sports-ncaa-basketball/production/7558849?wsUser=717",
-    "low": 61.0
+    "low": 60.0
    },
    "venue": "Liberty Arena (VA)",
    "venue_city": "Lynchburg",
@@ -8331,7 +8353,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-10-7-2026--sports-ncaa-basketball/production/7188142?wsUser=717",
-    "low": 42.0
+    "low": 45.0
    },
    "venue": "Siegel Center",
    "venue_city": "Richmond",
@@ -8787,7 +8809,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-4-2026--sports-ncaa-basketball/production/7187902?wsUser=717",
-    "low": 31.0
+    "low": 22.0
    },
    "venue": "John M. Belk Arena",
    "venue_city": "Davidson",
@@ -10757,7 +10779,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-9-2026--sports-ncaa-basketball/production/7187912?wsUser=717",
-    "low": 27.0
+    "low": 26.0
    },
    "venue": "John M. Belk Arena",
    "venue_city": "Davidson",
@@ -10909,7 +10931,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-4-2026--sports-ncaa-basketball/production/7188100?wsUser=717",
-    "low": 21.0
+    "low": 20.0
    },
    "venue": "Chaifetz Arena",
    "venue_city": "St. Louis",
@@ -11023,7 +11045,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-7-2026--sports-ncaa-basketball/production/7187908?wsUser=717",
-    "low": 27.0
+    "low": 29.0
    },
    "venue": "John M. Belk Arena",
    "venue_city": "Davidson",

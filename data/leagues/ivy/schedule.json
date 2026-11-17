@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:10:50+00:00",
+ "fetched_at": "2026-11-17T23:08:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -1659,7 +1659,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-17-2026--sports-ncaa-basketball/production/7766033?wsUser=717",
-    "low": 30.0
+    "low": 26.0
    },
    "venue": "Leede Arena",
    "venue_city": "Hanover",
@@ -2562,7 +2562,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-27-2026--sports-ncaa-basketball/production/7309046?wsUser=717",
     "low": 15.0
@@ -2609,7 +2615,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -2767,7 +2773,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-11-28-2026--sports-ncaa-basketball/production/7383942?wsUser=717",
     "low": 15.0
@@ -2990,7 +3002,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-carnesecca-arena-12-1-2026--sports-ncaa-basketball/production/7555656?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Carnesecca Arena",
    "venue_city": "Queens",
@@ -3362,7 +3374,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-4-2026--sports-ncaa-basketball/production/7390386?wsUser=717",
-    "low": 196.0
+    "low": 197.0
    },
    "venue": "Cameron Indoor Stadium",
    "venue_city": "Durham",

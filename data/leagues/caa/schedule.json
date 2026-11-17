@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T18:11:26+00:00",
+ "fetched_at": "2026-11-17T23:08:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -3379,7 +3379,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
     "low": 12.0
@@ -3461,7 +3467,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-25-2026--sports-ncaa-basketball/production/7309044?wsUser=717",
     "low": 10.0
@@ -3499,7 +3511,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -3534,7 +3552,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-27-2026--sports-ncaa-basketball/production/7309046?wsUser=717",
     "low": 15.0
@@ -3572,7 +3596,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3616,7 +3646,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3704,7 +3734,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-28-2026--sports-ncaa-basketball/production/7538351?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Lenovo Center",
    "venue_city": "Raleigh",
@@ -3809,7 +3839,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-28-2026--sports-ncaa-basketball/production/7309048?wsUser=717",
     "low": 15.0
@@ -3847,10 +3883,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/hofstra-pride-mens-basketball-tickets-mack-sports-complex-at-hofstra-university-11-28-2026/production/7763336?wsUser=717",
-    "low": 17.0
+    "low": 46.0
    },
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3964,7 +4006,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-28-2026--sports-ncaa-basketball/production/7661797?wsUser=717",
     "low": 34.0
@@ -4002,7 +4055,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NBC Sports Phil",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
@@ -4037,7 +4101,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-11-29-2026--sports-ncaa-basketball/production/7746323?wsUser=717",
     "low": 24.0
@@ -4075,7 +4145,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -4198,7 +4274,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
@@ -4277,7 +4359,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/william-and-mary-tribe-mens-basketball-tickets-kaplan-arena-12-1-2026--sports-ncaa-basketball/production/7565135?wsUser=717",
     "low": 20.0
@@ -11593,6 +11681,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T19:35:53+00:00"
+ ]
 }
