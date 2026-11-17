@@ -25,6 +25,33 @@
   .dc-hostline small { font: 600 10px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-style: normal; }
   .den-partners { display: grid; gap: 18px; margin-block: 28px 8px; }
   /* Called Up: the NBA alumni grid. Nine bricks, school rows, franchise columns. */
+  /* One game at a time: a tab row, and a game filter shared by the four slate games */
+  .den-tabs { display: flex; gap: 0; margin: 22px 0 0; border-bottom: 2px solid var(--ink); overflow-x: auto; scrollbar-width: none; }
+  .den-tabs::-webkit-scrollbar { display: none; }
+  .den-tabs button { flex: 0 0 auto; background: transparent; color: var(--muted); border: 0; border-bottom: 4px solid transparent; margin-bottom: -2px; padding: 12px 16px 10px; min-height: 44px; font: 700 14px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; display: flex; gap: 8px; align-items: baseline; }
+  .den-tabs button:hover { color: var(--ink); }
+  .den-tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  .den-tabs button small { font: 700 12px/1 var(--cond); color: var(--accent); letter-spacing: .04em; }
+  .den-tabs button small:empty { display: none; }
+  @media (max-width: 520px) { .den-tabs button { padding: 12px 9px 10px; font-size: 12.5px; letter-spacing: .06em; gap: 5px; } }
+  .focus { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin: 14px 0 0; font: 600 12.5px/1.2 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .focus .seg { display: flex; gap: 6px; }
+  .focus button { padding: 8px 12px; min-height: 36px; font-size: 12.5px; background: transparent; color: var(--ink); border-color: var(--rule); }
+  .focus button[aria-pressed="true"] { background: var(--ink); color: var(--page); border-color: var(--ink); }
+  .focus select { min-height: 36px; padding: 6px 30px 6px 10px; font: 600 13px/1 var(--cond); letter-spacing: .06em; text-transform: uppercase; color: var(--ink); background: var(--page); border: 1px solid var(--rule); border-radius: 0; max-width: 100%; }
+  .focus select.on { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+  .focus .why { text-transform: none; letter-spacing: 0; font: italic 400 15px/1.3 var(--serif); color: var(--muted); }
+  .more { margin: 4px 0 0; font: 400 15px/1.4 var(--serif); color: var(--muted); }
+  .more button { background: none; border: 0; padding: 0; min-height: 0; color: var(--accent); font: inherit; text-transform: none; letter-spacing: 0; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .den.tabbed .rooms { grid-template-columns: minmax(0, 1fr); padding-top: 18px; }
+  .den.tabbed .room { border-top: 0; padding-top: 0; }
+  .den.tabbed .cu { border-top: 0; padding-top: 0; margin-top: 18px; }
+  @media (min-width: 901px) { .den.tabbed .games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 22px; align-items: start; } .den.tabbed .games > .fine, .den.tabbed .games > .msg, .den.tabbed .games > .more { grid-column: 1 / -1; } }
+  .den.tabbed[data-show="d5"] [data-room]:not([data-room~="d5"]),
+  .den.tabbed[data-show="p4"] [data-room]:not([data-room~="p4"]),
+  .den.tabbed[data-show="bk"] [data-room]:not([data-room~="bk"]),
+  .den.tabbed[data-show="bb"] [data-room]:not([data-room~="bb"]),
+  .den.tabbed[data-show="cu"] [data-room]:not([data-room~="cu"]) { display: none; }
   .cu { border-top: 3px solid var(--rule-2); padding-top: 12px; margin-top: 36px; display: grid; gap: 12px; }
   .cu-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 20px 32px; align-items: start; }
   @media (max-width: 820px) { .cu-wrap { grid-template-columns: minmax(0, 1fr); } }
@@ -208,32 +235,44 @@
   <div class="dateline"><span id="dn-day">Tonight</span><span class="tag" id="dn-tag">Four games, one night of hoops</span><span>{{ season }}</span></div>
   <nav class="days-nav" aria-label="Other nights"><a id="dn-prev" href="den.html" aria-disabled="true">‹ Earlier</a><a id="dn-next" href="den.html" aria-disabled="true">Later ›</a></nav>
 
+  <div class="den-tabs" id="dn-tabs" role="tablist" aria-label="Games" hidden>
+    <button type="button" role="tab" data-tab="d5" aria-selected="false">Daily Five <small id="tb-d5"></small></button>
+    <button type="button" role="tab" data-tab="p4" aria-selected="false">Pick 4 <small id="tb-p4"></small></button>
+    <button type="button" role="tab" data-tab="bk" aria-selected="false">Bricksanity <small id="tb-bk"></small></button>
+    <button type="button" role="tab" data-tab="bb" aria-selected="false">Brick by Brick <small id="tb-bb"></small></button>
+    <button type="button" role="tab" data-tab="cu" aria-selected="false">Called Up <small id="tb-cu"></small></button>
+  </div>
+
   <noscript><div class="quiet"><h2>The Den needs JavaScript</h2><p>The games run in your browser and keep your picks on this device. Turn JavaScript on to play.</p></div></noscript>
 
   <div class="quiet" id="dn-empty" hidden>
     <h2 id="dn-empty-h">No games tonight</h2>
-    <p id="dn-empty-p">None of our 67 teams play today, so the Den is resting. Your Brick by Brick wall stands as it is.</p>
+    <p id="dn-empty-p">None of our teams play today, so the Den is resting. Your Brick by Brick wall stands as it is.</p>
     <a id="dn-empty-a" href="den.html" hidden></a>
   </div>
 
   <div id="dn-board" hidden>
     <div class="strip" role="status"><span><b id="st-open">0</b> of <span id="st-n">0</span> games open</span><span id="st-next"></span><span class="sp" id="st-saved">Picks save on this device</span></div>
+    <div class="focus" id="dn-focus" data-room="d5 p4 bk bb" role="group" aria-label="Which games to show">
+      <div class="seg"><button type="button" data-f="best" aria-pressed="true">Tonight's best</button><button type="button" data-f="all" aria-pressed="false">All <span id="f-n"></span></button></div>
+      <select id="f-conf" aria-label="One conference"><option value="">One conference…</option></select>
+      <span class="why" id="f-why"></span>
+    </div>
 
     <div class="rooms">
-      <section class="room wide" aria-labelledby="h-d5">
+      <section class="room wide" data-room="d5" aria-labelledby="h-d5">
         <span class="kick">Daily fantasy <span>· five players and a defense</span></span>
         <h2 id="h-d5">The Daily Five</h2>
         <p class="how">Five players and one team defense from tonight's games. Swap anyone until their game tips.</p>
         <div class="board">
           <div class="lineup" id="d5-slots"></div>
-          <div class="tabs" id="d5-tabs" role="group" aria-label="Filter by conference"></div>
           <div class="pool"><table><thead><tr><th>Player</th><th class="num">Pts</th><th class="num xs">Reb</th><th class="num xs">Ast</th><th class="num">Proj</th><th><span style="position:absolute;left:-9999px">Pick</span></th></tr></thead><tbody id="d5-pool"></tbody></table></div>
           <p class="fine"><b>Scoring.</b> Players: 1 per point, 1.2 per rebound, 1.5 per assist, 2 per block, 2 per steal. Team D: 1 per block and steal, plus half a point for every point allowed under 75 and every point of opponent field-goal percentage under 45 (both can go negative). Proj is the season average run through the same formula. Weights are a first draft.</p>
           <div class="total"><span>Lineup<small id="d5-sub"></small></span><b id="d5-tot">–</b></div>
         </div>
       </section>
 
-      <section class="room" aria-labelledby="h-p4">
+      <section class="room" data-room="p4" aria-labelledby="h-p4">
         <span class="kick">Daily <span>· four winners</span></span>
         <h2 id="h-p4">Pick 4</h2>
         <p class="how">Pick four games straight up. A right pick is worth 100 minus the win chance of the side you took, so a heavy favorite is worth 5 and a coin flip 50.</p>
@@ -245,10 +284,10 @@
         {% if connect and connect.desk %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.desk(connect.desk) }}</div>{% endif %}
       </section>
 
-      <section class="room" aria-labelledby="h-bk">
+      <section class="room" data-room="bk" aria-labelledby="h-bk">
         <span class="kick">Daily <span>· two guesses</span></span>
         <h2 id="h-bk">Bricksanity</h2>
-        <p class="how">Which of our teams shoots the worst tonight? Field goals and free throws together, makes over attempts. Two guesses.</p>
+        <p class="how">Which team shoots the worst tonight? Field goals and free throws together, makes over attempts. Two guesses.</p>
         <div class="board">
           <div class="count"><span>Guesses <b id="bk-n">0</b> / 2</span><span>Eligible <b id="bk-e">0</b></span></div>
           <div class="teams" id="bk-grid"></div>
@@ -259,7 +298,7 @@
         {% if connect and connect.bricksanity %}<div class="dc-today" data-date="{{ connect.date }}">{{ dc.bricks_call(connect.bricksanity) }}</div>{% endif %}
       </section>
 
-      <section class="room wide" aria-labelledby="h-bb">
+      <section class="room wide" data-room="bb" aria-labelledby="h-bb">
         <span class="kick">Season-long <span>· streak game</span></span>
         <h2 id="h-bb">Brick by Brick</h2>
         <p class="how">Pick four outright winners a day. Hit all four and you lay a brick. Miss one and the wall comes down. Sit a day out and your wall stands, but anyone still playing can build past you.</p>
@@ -281,7 +320,7 @@
     </div>
   </div>
 
-  <section class="cu" id="called-up" aria-labelledby="h-cu" hidden>
+  <section class="cu" id="called-up" data-room="cu" aria-labelledby="h-cu" hidden>
     <span class="kick" style="font:700 11px/1 var(--cond);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">Daily <span style="color:var(--muted)">· nine squares</span></span>
     <h2 id="h-cu" style="font:600 32px/1.05 var(--serif);letter-spacing:-.015em;margin:0">Called Up</h2>
     <p class="how" style="margin:0;color:var(--ink-2);font:400 17px/1.5 var(--serif);max-width:62ch">Three of our schools down the side, three NBA franchises across the top. Fill each square with a former player from that school who played for that franchise. Nine guesses, and each player counts once.</p>
@@ -315,7 +354,7 @@
     <ul>
       <li>Your picks live in this browser only. Clearing site data or switching phones starts you fresh.</li>
       <li>Win chance is the pregame consensus for each side, set before tip and never updated during the game.</li>
-      <li>Only our 67 teams count for Bricksanity and the team defenses.</li>
+      <li>Only teams from the conferences we cover count for Bricksanity and the team defenses.</li>
       <li>Called Up uses Wikidata's record of who played where. If a player is missing, tell us and we'll fix it at the source.</li>
     </ul>
   </section>
@@ -404,6 +443,63 @@
     G.forEach(function (g) { ["away", "home"].forEach(function (s) { var t = g[s]; if (t.edition && !seen[t.id]) { seen[t.id] = 1; ELIG.push(t); } }); });
   }
 
+  /* ---- Which games show: tonight's best (default), one conference, or all ---- */
+  var FKEY = "den:focus:v1", FOCUS = "best", BEST = {}, BEST_N = 8;
+  try { FOCUS = localStorage.getItem(FKEY) || "best"; } catch (e) {}
+  function inFocus(g) {
+    if (FOCUS === "all") return true;
+    if (FOCUS === "best") return !!BEST[g.id];
+    return g.home.edition === FOCUS || g.away.edition === FOCUS;
+  }
+  function chooseBest() {
+    // The closest open games, by pregame win chance; on a small night that is every game.
+    var open = G.filter(function (g) { return !locked(g); });
+    var ranked = open.slice().sort(function (a, b) {
+      var ca = a.win_home == null ? 1 : Math.abs(a.win_home - 0.5), cb = b.win_home == null ? 1 : Math.abs(b.win_home - 0.5);
+      return ca - cb || Date.parse(a.tip) - Date.parse(b.tip);
+    });
+    BEST = {}; ranked.slice(0, BEST_N).forEach(function (g) { BEST[g.id] = 1; });
+    if (!open.length) G.forEach(function (g) { BEST[g.id] = 1; });
+  }
+  function drawFocus() {
+    var eds = [];
+    G.forEach(function (g) { [g.away.edition, g.home.edition].forEach(function (e) { if (e && eds.indexOf(e) < 0) eds.push(e); }); });
+    eds.sort(function (a, b) { return edLabel(a).localeCompare(edLabel(b)); });
+    if (FOCUS !== "best" && FOCUS !== "all" && eds.indexOf(FOCUS) < 0) FOCUS = "best";
+    var small = G.length <= BEST_N;
+    $("dn-focus").hidden = small;  // a small night shows everything, no filter needed
+    if (small) { FOCUS = "all"; return; }
+    $("f-n").textContent = G.length;
+    $("dn-focus").querySelectorAll("button[data-f]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.f === FOCUS)); });
+    var sel = $("f-conf");
+    sel.innerHTML = '<option value="">One conference…</option>' + eds.map(function (e) { return '<option value="' + esc(e) + '"' + (e === FOCUS ? " selected" : "") + '>' + esc(edLabel(e)) + '</option>'; }).join("");
+    sel.classList.toggle("on", FOCUS !== "best" && FOCUS !== "all");
+    $("f-why").textContent = FOCUS === "best" ? "The " + Object.keys(BEST).length + " closest games still open, plus any you've picked." : "";
+  }
+  function setFocus(f) { FOCUS = f || "best"; try { localStorage.setItem(FKEY, FOCUS); } catch (e) {} drawFocus(); drawD5(); drawP4(); drawBK(); drawBB(); }
+  function moreLine(hidden) { return hidden > 0 && FOCUS !== "all" ? '<p class="more">' + hidden + ' more game' + (hidden === 1 ? "" : "s") + ' tonight. <button type="button" data-f="all">Show all ' + G.length + '</button></p>' : ""; }
+
+  /* ---- Tabs: one game on screen at a time ---- */
+  var TKEY = "den:tab:v1", TABS = ["d5", "p4", "bk", "bb", "cu"];
+  function showTab(t, keep) {
+    if (TABS.indexOf(t) < 0) t = "d5";
+    var main = document.querySelector("main.den"); main.classList.add("tabbed"); main.dataset.show = t;
+    $("dn-tabs").hidden = false;
+    $("dn-tabs").querySelectorAll("button[data-tab]").forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.tab === t)); });
+    if (!keep) { try { localStorage.setItem(TKEY, t); } catch (e) {} }
+  }
+  function firstTab() {
+    var h = (location.hash || "").replace("#", ""), map = { "called-up": "cu", "daily-five": "d5", "pick-4": "p4", "bricksanity": "bk", "brick-by-brick": "bb" };
+    if (map[h]) return map[h];
+    try { var t = localStorage.getItem(TKEY); if (TABS.indexOf(t) >= 0) return t; } catch (e) {}
+    return "d5";
+  }
+  function badges() {
+    var d5 = PICKS.d5, n5 = d5.players.filter(function (x) { return x != null; }).length + (d5.def != null ? 1 : 0);
+    $("tb-d5").textContent = n5 ? n5 + "/6" : ""; $("tb-p4").textContent = Object.keys(PICKS.p4).length ? Object.keys(PICKS.p4).length + "/4" : "";
+    $("tb-bk").textContent = PICKS.bk.length ? PICKS.bk.length + "/2" : ""; $("tb-bb").textContent = $("bb-wall").textContent !== "0" ? "▮" + $("bb-wall").textContent : "";
+  }
+
   /* ---- Strip ---- */
   function drawStrip() {
     var open = G.filter(function (g) { return !locked(g); });
@@ -435,22 +531,18 @@
     }
     $("d5-slots").innerHTML = slots.join("") + d;
 
-    var eds = [];
-    G.forEach(function (g) { [g.away.edition, g.home.edition].forEach(function (e) { if (e && eds.indexOf(e) < 0) eds.push(e); }); });
-    if (tab !== "all" && eds.indexOf(tab) < 0) tab = "all";
-    $("d5-tabs").innerHTML = ["all"].concat(eds).map(function (e) { return '<button type="button" aria-pressed="' + (e === tab) + '" data-t="' + esc(e) + '">' + (e === "all" ? "All games" : esc(edLabel(e))) + '</button>'; }).join("");
-
-    var full = L.players.every(function (x) { return x != null; }), rows = "", gone = 0;
+    var one = FOCUS !== "best" && FOCUS !== "all" ? FOCUS : null;
+    var full = L.players.every(function (x) { return x != null; }), rows = "", gone = 0, hidden = 0;
     G.forEach(function (g) {
-      if (tab !== "all" && g.home.edition !== tab && g.away.edition !== tab) return;
+      if (!inFocus(g)) { if (!locked(g)) hidden++; return; }
       if (locked(g)) { gone++; return; }
       rows += '<tr class="gh"><td colspan="6">' + esc(g.away.abbr) + ' at ' + esc(g.home.abbr) + ' <span>· ' + tipLabel(g.tip) + ' ET</span></td></tr>';
       [g.away, g.home].forEach(function (t) {
-        if (defs.indexOf(String(t.id)) < 0 || (tab !== "all" && t.edition !== tab)) return;
+        if (defs.indexOf(String(t.id)) < 0 || (one && t.edition !== one)) return;
         var on = String(L.def) === String(t.id);
         rows += '<tr><td><span class="nm">' + esc(teamName(t)) + ' defense</span><span class="tm">Team D</span></td><td></td><td class="xs"></td><td class="xs"></td><td></td><td class="num"><button type="button" class="' + (on ? "" : "ghost") + '" data-d="' + esc(t.id) + '" aria-pressed="' + on + '">' + (on ? "Picked" : "Pick") + '</button></td></tr>';
       });
-      players.filter(function (p) { var t = TEAM[p.team_id]; return GAME_OF[p.team_id] === g && (tab === "all" || (t && t.edition === tab)); })
+      players.filter(function (p) { var t = TEAM[p.team_id]; return GAME_OF[p.team_id] === g && (!one || (t && t.edition === one)); })
         .map(function (p) { return { p: p, pj: proj(p) }; }).sort(function (a, b) { return b.pj - a.pj; })
         .forEach(function (x) {
           var p = x.p, a = p.avg || {}, inl = L.players.map(String).indexOf(String(p.id)) >= 0, t = TEAM[p.team_id] || {};
@@ -460,8 +552,9 @@
     });
     if (!rows) rows = '<tr class="empty"><td colspan="6">' + (gone ? "Every game here has tipped. Your lineup is set." : "No players on the board.") + '</td></tr>';
     else if (gone) rows += '<tr class="empty"><td colspan="6">' + gone + ' game' + (gone === 1 ? " has" : "s have") + ' tipped and left the pool.</td></tr>';
+    if (hidden && FOCUS !== "all") rows += '<tr class="empty"><td colspan="6">' + moreLine(hidden) + '</td></tr>';
     $("d5-pool").innerHTML = rows;
-    var shut = G.every(locked); $("d5-tabs").hidden = shut; $("d5-pool").closest(".pool").hidden = shut;  // nothing left to add
+    var shut = G.every(locked); $("d5-pool").closest(".pool").hidden = shut;  // nothing left to add
 
     var n = L.players.filter(function (x) { return x != null; }).length + (L.def != null ? 1 : 0);
     var scored = 0, pend = 0, tot = 0;
@@ -473,7 +566,7 @@
   function d5Click(e) {
     var b = e.target.closest("button"); if (!b) return;
     var L = PICKS.d5;
-    if (b.dataset.t) { tab = b.dataset.t; drawD5(); return; }
+    if (b.dataset.f) { setFocus(b.dataset.f); return; }
     if (b.dataset.drop) { var p = PLAYER[L.players[+b.dataset.drop]]; if (p && GAME_OF[p.team_id] && locked(GAME_OF[p.team_id])) return; L.players[+b.dataset.drop] = null; }
     else if (b.dataset.dropd) { if (GAME_OF[L.def] && locked(GAME_OF[L.def])) return; L.def = null; }
     else if (b.dataset.k) {
@@ -503,8 +596,9 @@
   function gameRows(map, kind) {
     // Games that tipped without a pick from you drop off the list: nothing left to do there.
     var priced = G.filter(function (g) { return g.win_home != null; });
-    var shown = priced.filter(function (g) { return !locked(g) || map[g.id] != null; }), gone = priced.length - shown.length;
-    var note = gone ? '<p class="fine">' + gone + ' game' + (gone === 1 ? " has" : "s have") + ' tipped without a pick from you.</p>' : "";
+    var live = priced.filter(function (g) { return !locked(g) || map[g.id] != null; }), gone = priced.length - live.length;
+    var shown = live.filter(function (g) { return map[g.id] != null || inFocus(g); }), hidden = live.length - shown.length;
+    var note = (gone ? '<p class="fine">' + gone + ' game' + (gone === 1 ? " has" : "s have") + ' tipped without a pick from you.</p>' : "") + moreLine(hidden);
     return shown.map(function (g) {
       var lk = locked(g), fin = FINAL[g.id], side = pickedSide(g, map[g.id]);
       function btn(s) {
@@ -549,12 +643,15 @@
   function drawBK() {
     var picks = PICKS.bk.map(String), shoot = R && R.shooting || {}, done = nightDone();
     $("bk-e").textContent = ELIG.length; $("bk-n").textContent = picks.length;
-    $("bk-grid").innerHTML = ELIG.map(function (t) {
+    var showT = ELIG.filter(function (t) { return picks.indexOf(String(t.id)) >= 0 || done || inFocus(GAME_OF[t.id]); });
+    var hidT = ELIG.length - showT.length;
+    $("bk-msg").innerHTML = "";
+    $("bk-grid").innerHTML = showT.map(function (t) {
       var on = picks.indexOf(String(t.id)) >= 0, g = GAME_OF[t.id], lk = locked(g), fin = FINAL[g.id];
       var worst = done && R && String(R.worst_shooter) === String(t.id);
       var sub = fin && shoot[t.id] != null ? (100 * shoot[t.id]).toFixed(1) + "%" : lk ? "Locked" : tipLabel(g.tip);
       return '<button type="button" aria-pressed="' + on + '" data-t="' + esc(t.id) + '" class="' + (worst ? "worst" : "") + '"' + (lk ? " disabled" : "") + '><small>' + edSq(t.edition) + esc(edLabel(t.edition)) + ' · ' + sub + '</small>' + esc(teamName(t)) + '</button>';
-    }).join("");
+    }).join("") + (hidT && FOCUS !== "all" ? '<div style="grid-column:1/-1">' + moreLine(Math.ceil(hidT / 2)).replace(/game(s?) tonight/, "game$1 tonight (" + hidT + " teams)") + '</div>' : "");
     if (done && R && R.worst_shooter != null) {
       var ranked = ELIG.filter(function (t) { return shoot[t.id] != null; }).sort(function (a, b) { return shoot[a.id] - shoot[b.id]; }).slice(0, 5);
       $("bk-ladder").hidden = false;
@@ -611,9 +708,13 @@
   }
 
   /* ---- Wiring ---- */
-  function redraw() { drawStrip(); drawD5(); drawP4(); drawBK(); drawBB(); }
+  function redraw() { drawStrip(); chooseBest(); drawFocus(); drawD5(); drawP4(); drawBK(); drawBB(); badges(); }
   function wire() {
-    $("d5-slots").addEventListener("click", d5Click); $("d5-pool").addEventListener("click", d5Click); $("d5-tabs").addEventListener("click", d5Click);
+    $("d5-slots").addEventListener("click", d5Click); $("d5-pool").addEventListener("click", d5Click);
+    $("dn-focus").addEventListener("click", function (e) { var b = e.target.closest("button[data-f]"); if (b) setFocus(b.dataset.f); });
+    $("f-conf").addEventListener("change", function (e) { setFocus(e.target.value || "best"); });
+    ["p4-games", "bb-games", "bk-grid"].forEach(function (id) { $(id).addEventListener("click", function (e) { var b = e.target.closest("button[data-f]"); if (b) { e.stopPropagation(); setFocus(b.dataset.f); } }, true); });
+    document.addEventListener("click", function () { setTimeout(badges, 0); });
     $("p4-games").addEventListener("click", function (e) { var b = e.target.closest("button.side"); if (b && togglePick(PICKS.p4, b)) { persist(); drawP4(); drawBB(); } });
     $("bb-games").addEventListener("click", function (e) { var b = e.target.closest("button.side"); if (b && togglePick(PICKS.bb, b)) { persist(); drawBB(); } });
     $("bk-grid").addEventListener("click", function (e) {
@@ -648,7 +749,7 @@
     if (noIndex) { $("dn-empty-h").textContent = "The Den opens with the first slate"; $("dn-empty-p").textContent = "Games appear here the morning of each game day. Check back then."; return; }
     var later = dates.filter(function (d) { return d > DATE; });
     if (DATE !== TODAY) $("dn-empty-h").textContent = "No games on " + dayLabel(DATE, { weekday: "long", month: "long", day: "numeric" });
-    $("dn-empty-p").textContent = "None of our 67 teams play " + (DATE === TODAY ? "today" : "that day") + ", so the Den is resting. Your Brick by Brick wall stands as it is." + (later.length && DATE === TODAY ? " The next slate goes up " + dayLabel(later[0]) + "." : "");
+    $("dn-empty-p").textContent = "None of our teams play " + (DATE === TODAY ? "today" : "that day") + ", so the Den is resting. Your Brick by Brick wall stands as it is." + (later.length && DATE === TODAY ? " The next slate goes up " + dayLabel(later[0]) + "." : "");
     if (prev) { var a = $("dn-empty-a"); a.hidden = false; a.href = "den.html?d=" + prev; a.textContent = "See how " + dayLabel(prev, { weekday: "long" }) + " went →"; }
   }
 
@@ -664,6 +765,8 @@
       CX = x[2] || null;
       setup(slate, x[1]); wire();
       $("dn-board").hidden = false; redraw();
+      showTab(firstTab(), true);
+      $("dn-tabs").addEventListener("click", function (e) { var b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab); });
       loadHistory().then(drawBB);
     });
   });
