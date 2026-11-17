@@ -1,0 +1,40 @@
+name: Transcribe
+
+# Word-timed transcript of a narration track (docs/<doc>/transcribe/*.mp3), committed back as JSON for editing.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/transcribe/*.mp3"]
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install faster-whisper
+      - name: Transcribe changed tracks
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD | grep -E '^docs/[^/]+/transcribe/[^/]+\.mp3$'); do
+            python - "$f" <<'PY'
+          import json, sys
+          from faster_whisper import WhisperModel
+          src = sys.argv[1]
+          m = WhisperModel("small.en", device="cpu", compute_type="int8")
+          segs, _ = m.transcribe(src, word_timestamps=True)
+          out = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
+                  "words": [[round(w.start, 2), round(w.end, 2), w.word.strip()] for w in s.words]} for s in segs]
+          json.dump(out, open(src[:-4] + ".json", "w"), indent=1)
+          PY
+          done
+      - name: Commit
+        run: |
+          git config user.name "docs-transcribe"; git config user.email "actions@users.noreply.github.com"
+          git add docs/*/transcribe/*.json; git commit -m "docs: transcript" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
