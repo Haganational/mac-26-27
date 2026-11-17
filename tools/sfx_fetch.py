@@ -15,10 +15,15 @@ OK = re.compile(r"^(public domain|pd|cc0|cc by(-sa)? [0-9.]+)", re.I)
 spec, out = json.loads(Path(sys.argv[1]).read_text()), Path(sys.argv[2])
 out.mkdir(parents=True, exist_ok=True)
 credits, seen = [], set()
-for q in spec["queries"]:
-    r = requests.get(API, params={"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
-                                  "gsrsearch": f"{q} filetype:audio", "gsrlimit": 20, "prop": "imageinfo",
-                                  "iiprop": "url|size|mime|extmetadata"}, headers=UA, timeout=60).json()
+jobs = [("search", q) for q in spec.get("queries", [])] + [("cat", c) for c in spec.get("categories", [])]
+for kind, q in jobs:
+    base = {"action": "query", "format": "json", "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata"}
+    if kind == "search":
+        base.update({"generator": "search", "gsrnamespace": 6, "gsrsearch": f"{q} filemime:audio", "gsrlimit": 20})
+    else:
+        base.update({"generator": "categorymembers", "gcmtitle": q, "gcmtype": "file", "gcmlimit": 30})
+    r = requests.get(API, params=base, headers=UA, timeout=60).json()
+    print(kind, q, "->", len(r.get("query", {}).get("pages", {})), r.get("error", ""))
     pages = sorted(r.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
     n = 0
     for p in pages:
