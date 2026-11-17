@@ -1470,21 +1470,21 @@
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": 88,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "2837",
     "key": null,
     "name": "East Texas A&M Lions",
     "abbr": "ETAM",
-    "score": 55,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:27 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925879",
@@ -8057,5 +8057,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T04:08:35+00:00"
+ "live_at": "2026-11-17T04:43:17+00:00"
 }
