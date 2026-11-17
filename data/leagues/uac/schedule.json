@@ -1535,7 +1535,7 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 7,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -1543,13 +1543,13 @@
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 8,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:24 - 1st"
+   "detail": "2:12 - 1st"
   },
   {
    "game_id": "401927364",
@@ -1579,7 +1579,7 @@
     "key": null,
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -1587,13 +1587,13 @@
     "key": "tarleton-state",
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:13 - 1st"
   },
   {
    "game_id": "401917964",
@@ -8732,5 +8732,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T00:12:09+00:00"
+ "live_at": "2026-11-17T00:43:08+00:00"
 }

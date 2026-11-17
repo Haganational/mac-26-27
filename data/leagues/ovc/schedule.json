@@ -1764,7 +1764,7 @@
     "key": "southeast-missouri",
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1772,13 +1772,13 @@
     "key": null,
     "name": "Midway Eagles",
     "abbr": "MIDW",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:25 - 1st"
   },
   {
    "game_id": "401916307",
@@ -8223,5 +8223,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:43:46+00:00"
 }

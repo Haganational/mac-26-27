@@ -1787,7 +1787,7 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1795,13 +1795,13 @@
     "key": null,
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:11 - 1st"
   },
   {
    "game_id": "401924941",
@@ -9539,5 +9539,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:35:02+00:00"
 }

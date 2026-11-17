@@ -1801,7 +1801,7 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -1809,13 +1809,13 @@
     "key": null,
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:19 - 1st"
   },
   {
    "game_id": "401928997",
@@ -9361,5 +9361,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:37:38+00:00"
 }
