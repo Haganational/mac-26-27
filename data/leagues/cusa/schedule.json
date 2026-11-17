@@ -1582,21 +1582,21 @@
     "key": "missouri-state",
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": 68,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
    "away": {
     "espn_id": "2000",
     "key": null,
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": 61,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920904",
@@ -8806,5 +8806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T03:11:56+00:00"
+ "live_at": "2026-11-17T03:41:20+00:00"
 }

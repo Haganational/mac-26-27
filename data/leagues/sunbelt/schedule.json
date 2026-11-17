@@ -2554,21 +2554,21 @@
     "key": "ul-monroe",
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": 90,
-    "winner": null
+    "score": 118,
+    "winner": true
    },
    "away": {
     "espn_id": "2937",
     "key": null,
     "name": "Dallas Christian Crusaders",
     "abbr": "DCC",
-    "score": 54,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920857",
@@ -12398,5 +12398,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T03:10:17+00:00"
+ "live_at": "2026-11-17T03:39:40+00:00"
 }
