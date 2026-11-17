@@ -148,3 +148,16 @@ def test_margin_reads_the_headline_score():
     assert hub._margin("FGCU rolled past Abraham Baldwin Agricultural 99-31") == 68
     assert hub._margin("Belmont beat Furman 72-62") == 10
     assert hub._margin("Weekly preview") == 0
+
+
+def test_weave_leads_until_noon_the_next_day(tmp_path):
+    from datetime import datetime, timezone
+    f = tmp_path / "weave.json"
+    f.write_text(json.dumps({"shows": [{"aired": "2026-11-16", "youtube": "abc", "title": "Pilot"}]}))
+    at = lambda s: datetime.fromisoformat(s).astimezone(timezone.utc)  # noqa: E731
+    assert hub.weave_billing(at("2026-11-16T23:40:00-05:00"), f)["youtube"] == "abc"
+    assert hub.weave_billing(at("2026-11-17T11:58:00-05:00"), f)["until"].startswith("2026-11-17T11:59")
+    assert hub.weave_billing(at("2026-11-17T11:59:00-05:00"), f) is None
+    assert hub.weave_billing(at("2026-11-16T12:00:00-05:00"), f)["youtube"] == "abc"
+    assert hub.weave_billing(at("2026-11-15T23:00:00-05:00"), f) is None
+    assert hub.weave_billing(at("2026-11-16T23:00:00-05:00"), tmp_path / "missing.json") is None

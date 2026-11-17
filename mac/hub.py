@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -367,7 +367,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         e["color"] = CONF_COLORS.get(e["key"], "#a8441c")
     den_data(site_root, now)  # site/den/*.json first, so the page and the front-page line read tonight's games
     den = den_page(env, site_root, eds, names, base, now)
-    html = env.get_template("hub.html").render(den=den,
+    html = env.get_template("hub.html").render(den=den, weave=weave_billing(now),
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         lead=lead, cards=cards, river=[x for x in recaps if x is not lead and x not in cards][:8], home=home, tops=tops,
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,
@@ -410,6 +410,25 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     (site_root / "privacy.html").write_text(env.get_template("privacy.html").render(
         eds=eds, base=base, noindex=SITE_NOINDEX, mh=mh, updated=PRIVACY_UPDATED))
     return site_root / "index.html"
+
+
+def weave_billing(now: datetime, path: Path | None = None) -> dict[str, Any] | None:
+    """MIDnight Weave on the front page (Matthew, Nov 16 2026): a published show gets top billing until
+    11:59 AM ET the day after it aired. data/weave.json lists the shows; the newest one still in its window wins.
+    "until" goes on the page too, so a copy built before noon hides the band once the window closes."""
+    f = path or SHARED_DIR / "weave.json"
+    try:
+        shows = json.loads(f.read_text()).get("shows") or []
+    except (OSError, ValueError):
+        return None
+    for s in shows:
+        if not s.get("youtube") or not s.get("aired"):
+            continue
+        aired = datetime.fromisoformat(s["aired"]).date()
+        until = datetime.combine(aired + timedelta(days=1), time(11, 59), tzinfo=ET)
+        if now.astimezone(ET).date() >= aired and now < until:
+            return {**s, "until": until.isoformat(), "until_ms": int(until.timestamp() * 1000)}
+    return None
 
 
 def den_teaser(site_root: Path, now: datetime) -> dict[str, Any] | None:
