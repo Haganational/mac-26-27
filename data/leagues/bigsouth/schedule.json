@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:13:11+00:00",
+ "fetched_at": "2026-11-17T12:13:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -1971,7 +1971,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-11-19-2026--sports-ncaa-basketball/production/7606406?wsUser=717",
-    "low": 43.0
+    "low": 34.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -2033,50 +2033,6 @@
     "key": "usc-upstate",
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401911394",
-   "date": "2026-11-21T17:00Z",
-   "name": "Gardner-Webb Runnin' Bulldogs at VMI Keydets",
-   "short_name": "GWEB @ VMI",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-21-2026--sports-ncaa-basketball/production/7767065?wsUser=717",
-    "low": 31.0
-   },
-   "venue": "Cameron Hall",
-   "venue_city": "Lexington",
-   "venue_state": "VA",
-   "home": {
-    "espn_id": "2678",
-    "key": null,
-    "name": "VMI Keydets",
-    "abbr": "VMI",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2241",
-    "key": "gardner-webb",
-    "name": "Gardner-Webb Runnin' Bulldogs",
-    "abbr": "GWEB",
     "score": null,
     "winner": null
    },
@@ -2215,6 +2171,50 @@
    "detail": ""
   },
   {
+   "game_id": "401911394",
+   "date": "2026-11-22T00:00Z",
+   "name": "Gardner-Webb Runnin' Bulldogs at VMI Keydets",
+   "short_name": "GWEB @ VMI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-21-2026--sports-ncaa-basketball/production/7767065?wsUser=717",
+    "low": 31.0
+   },
+   "venue": "Cameron Hall",
+   "venue_city": "Lexington",
+   "venue_state": "VA",
+   "home": {
+    "espn_id": "2678",
+    "key": null,
+    "name": "VMI Keydets",
+    "abbr": "VMI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2241",
+    "key": "gardner-webb",
+    "name": "Gardner-Webb Runnin' Bulldogs",
+    "abbr": "GWEB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401920975",
    "date": "2026-11-22T00:00Z",
    "name": "Radford Highlanders at Chattanooga Mocs",
@@ -2320,7 +2320,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-22-2026--sports-ncaa-basketball/production/7457788?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "Pete Hanna Center",
    "venue_city": "Homewood",
@@ -3636,7 +3636,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-4-2026--sports-ncaa-basketball/production/7606472?wsUser=717",
-    "low": 56.0
+    "low": 50.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -5265,7 +5265,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-20-2026--sports-ncaa-basketball/production/7402695?wsUser=717",
-    "low": 10.0
+    "low": 9.0
    },
    "venue": "Stegeman Coliseum",
    "venue_city": "Athens",
@@ -5353,7 +5353,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-12-21-2026--sports-ncaa-basketball/production/7339393?wsUser=717",
-    "low": 10.0
+    "low": 9.0
    },
    "venue": "Watsco Center",
    "venue_city": "Coral Gables",
@@ -5441,7 +5441,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-21-2026--sports-ncaa-basketball/production/7606478?wsUser=717",
-    "low": 41.0
+    "low": 38.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -6191,7 +6191,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-1-3-2027--sports-ncaa-basketball/production/7606484?wsUser=717",
-    "low": 52.0
+    "low": 50.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -6755,7 +6755,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-1-13-2027--sports-ncaa-basketball/production/7606486?wsUser=717",
-    "low": 56.0
+    "low": 44.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -7319,7 +7319,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-1-28-2027--sports-ncaa-basketball/production/7606498?wsUser=717",
-    "low": 55.0
+    "low": 50.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -7804,7 +7804,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-2-6-2027--sports-ncaa-basketball/production/7606500?wsUser=717",
-    "low": 124.0
+    "low": 120.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",

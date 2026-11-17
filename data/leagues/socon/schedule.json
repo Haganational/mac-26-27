@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:10:29+00:00",
+ "fetched_at": "2026-11-17T12:10:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -1980,10 +1980,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/clemson-tigers-mens-basketball-tickets-littlejohn-coliseum-11-16-2026--sports-ncaa-basketball/production/7156708?wsUser=717",
-    "low": 6.0
-   },
+   "tickets": null,
    "venue": "Littlejohn Coliseum",
    "venue_city": "Clemson",
    "venue_state": "SC",
@@ -2026,7 +2023,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-17-2026--sports-ncaa-basketball/production/7420204?wsUser=717",
-    "low": 14.0
+    "low": 15.0
    },
    "venue": "Cam Henderson Center",
    "venue_city": "Huntington",
@@ -2534,50 +2531,6 @@
    "detail": ""
   },
   {
-   "game_id": "401911394",
-   "date": "2026-11-21T17:00Z",
-   "name": "Gardner-Webb Runnin' Bulldogs at VMI Keydets",
-   "short_name": "GWEB @ VMI",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-21-2026--sports-ncaa-basketball/production/7767065?wsUser=717",
-    "low": 31.0
-   },
-   "venue": "Cameron Hall",
-   "venue_city": "Lexington",
-   "venue_state": "VA",
-   "home": {
-    "espn_id": "2678",
-    "key": "vmi",
-    "name": "VMI Keydets",
-    "abbr": "VMI",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2241",
-    "key": null,
-    "name": "Gardner-Webb Runnin' Bulldogs",
-    "abbr": "GWEB",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401909730",
    "date": "2026-11-21T19:00Z",
    "name": "Western Carolina Catamounts at Wake Forest Demon Deacons",
@@ -2666,6 +2619,44 @@
    "detail": ""
   },
   {
+   "game_id": "401926113",
+   "date": "2026-11-21T21:00Z",
+   "name": "Clinton Golden Bears at Furman Paladins",
+   "short_name": "CTON @ FUR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-21-2026--sports-ncaa-basketball/production/7513277?wsUser=717",
+    "low": 24.0
+   },
+   "venue": "Timmons Arena",
+   "venue_city": "Greenville",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "231",
+    "key": "furman",
+    "name": "Furman Paladins",
+    "abbr": "FUR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "126954",
+    "key": null,
+    "name": "Clinton Golden Bears",
+    "abbr": "CTON",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401925709",
    "date": "2026-11-21T22:00Z",
    "name": "Winthrop Eagles at Wofford Terriers",
@@ -2701,44 +2692,6 @@
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401926113",
-   "date": "2026-11-21T23:30Z",
-   "name": "Clinton Golden Bears at Furman Paladins",
-   "short_name": "CTON @ FUR",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-21-2026--sports-ncaa-basketball/production/7513277?wsUser=717",
-    "low": 24.0
-   },
-   "venue": "Timmons Arena",
-   "venue_city": "Greenville",
-   "venue_state": "SC",
-   "home": {
-    "espn_id": "231",
-    "key": "furman",
-    "name": "Furman Paladins",
-    "abbr": "FUR",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "126954",
-    "key": null,
-    "name": "Clinton Golden Bears",
-    "abbr": "CTON",
     "score": null,
     "winner": null
    },
@@ -2833,6 +2786,50 @@
    "detail": ""
   },
   {
+   "game_id": "401911394",
+   "date": "2026-11-22T00:00Z",
+   "name": "Gardner-Webb Runnin' Bulldogs at VMI Keydets",
+   "short_name": "GWEB @ VMI",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-21-2026--sports-ncaa-basketball/production/7767065?wsUser=717",
+    "low": 31.0
+   },
+   "venue": "Cameron Hall",
+   "venue_city": "Lexington",
+   "venue_state": "VA",
+   "home": {
+    "espn_id": "2678",
+    "key": "vmi",
+    "name": "VMI Keydets",
+    "abbr": "VMI",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2241",
+    "key": null,
+    "name": "Gardner-Webb Runnin' Bulldogs",
+    "abbr": "GWEB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401926217",
    "date": "2026-11-22T00:30Z",
    "name": "Presbyterian Blue Hose at Tennessee Tech Golden Eagles",
@@ -2894,7 +2891,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-22-2026--sports-ncaa-basketball/production/7457788?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "Pete Hanna Center",
    "venue_city": "Homewood",
@@ -9787,6 +9784,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T02:11:58+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:14:09+00:00",
+ "fetched_at": "2026-11-17T12:14:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -1826,10 +1826,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-11-16-2026--sports-ncaa-basketball/production/7748244?wsUser=717",
-    "low": 24.0
-   },
+   "tickets": null,
    "venue": "Chesapeake Employers Insurance Arena",
    "venue_city": "Baltimore",
    "venue_state": "MD",
@@ -2130,7 +2127,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-11-19-2026--sports-ncaa-basketball/production/7608600?wsUser=717",
-    "low": 20.0
+    "low": 21.0
    },
    "venue": "M&T Bank Arena",
    "venue_city": "Hamden",
@@ -2338,7 +2335,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-11-21-2026--sports-ncaa-basketball/production/7752178?wsUser=717",
-    "low": 33.0
+    "low": 47.0
    },
    "venue": "Events Center (Binghamton)",
    "venue_city": "Binghamton",
@@ -2587,8 +2584,8 @@
   {
    "game_id": "401923323",
    "date": "2026-11-22T20:30Z",
-   "name": "UAlbany Great Danes at Mercyhurst Lakers",
-   "short_name": "UALB VS MERC",
+   "name": "Mercyhurst Lakers at UAlbany Great Danes",
+   "short_name": "MERC VS UALB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2605,18 +2602,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2385",
-    "key": null,
-    "name": "Mercyhurst Lakers",
-    "abbr": "MERC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "399",
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2385",
+    "key": null,
+    "name": "Mercyhurst Lakers",
+    "abbr": "MERC",
     "score": null,
     "winner": null
    },
@@ -2772,7 +2769,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-24-2026--sports-ncaa-basketball/production/7465781?wsUser=717",
-    "low": 22.0
+    "low": 23.0
    },
    "venue": "Prudential Center",
    "venue_city": "Newark",
@@ -5935,7 +5932,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-12-29-2026--sports-ncaa-basketball/production/7264756?wsUser=717",
-    "low": 13.0
+    "low": 11.0
    },
    "venue": "Hilton Coliseum",
    "venue_city": "Ames",
@@ -6230,7 +6227,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-1-7-2027--sports-ncaa-basketball/production/7626518?wsUser=717",
-    "low": 18.0
+    "low": 17.0
    },
    "venue": "Patrick Gymnasium",
    "venue_city": "Burlington",
@@ -7264,7 +7261,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-1-30-2027--sports-ncaa-basketball/production/7626537?wsUser=717",
-    "low": 27.0
+    "low": 30.0
    },
    "venue": "Patrick Gymnasium",
    "venue_city": "Burlington",
@@ -8628,6 +8625,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T01:13:13+00:00"
+ ]
 }

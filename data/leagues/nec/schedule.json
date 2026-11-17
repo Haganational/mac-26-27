@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:15:14+00:00",
+ "fetched_at": "2026-11-17T12:15:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2436,8 +2436,8 @@
   {
    "game_id": "401923323",
    "date": "2026-11-22T20:30Z",
-   "name": "UAlbany Great Danes at Mercyhurst Lakers",
-   "short_name": "UALB VS MERC",
+   "name": "Mercyhurst Lakers at UAlbany Great Danes",
+   "short_name": "MERC VS UALB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2454,18 +2454,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2385",
-    "key": "mercyhurst",
-    "name": "Mercyhurst Lakers",
-    "abbr": "MERC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "399",
     "key": null,
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2385",
+    "key": "mercyhurst",
+    "name": "Mercyhurst Lakers",
+    "abbr": "MERC",
     "score": null,
     "winner": null
    },
@@ -3581,7 +3581,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-4-2026--sports-ncaa-basketball/production/7606472?wsUser=717",
-    "low": 56.0
+    "low": 50.0
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -3780,7 +3780,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/clemson-tigers-mens-basketball-tickets-littlejohn-coliseum-12-6-2026--sports-ncaa-basketball/production/7156718?wsUser=717",
-    "low": 7.0
+    "low": 8.0
    },
    "venue": "Littlejohn Coliseum",
    "venue_city": "Clemson",
@@ -5490,7 +5490,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northwestern-wildcats-mens-basketball-tickets-welsh-ryan-arena-12-29-2026--sports-ncaa-basketball/production/7484441?wsUser=717",
-    "low": 12.0
+    "low": 9.0
    },
    "venue": "Welsh-Ryan Arena",
    "venue_city": "Evanston",
@@ -8251,6 +8251,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T02:14:51+00:00"
+ ]
 }

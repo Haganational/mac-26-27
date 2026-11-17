@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:01:45+00:00",
+ "fetched_at": "2026-11-17T12:02:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -1494,10 +1494,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-11-16-2026--sports-ncaa-basketball/production/7402689?wsUser=717",
-    "low": 6.0
-   },
+   "tickets": null,
    "venue": "Stegeman Coliseum",
    "venue_city": "Athens",
    "venue_state": "GA",
@@ -1608,6 +1605,47 @@
    "detail": ""
   },
   {
+   "game_id": "401922221",
+   "date": "2026-11-18T00:00Z",
+   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
+   "short_name": "UFTL @ UNF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "UNF Arena",
+   "venue_city": "Jacksonville",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2454",
+    "key": "north-florida",
+    "name": "North Florida Ospreys",
+    "abbr": "UNF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "123362",
+    "key": null,
+    "name": "Fort Lauderdale Eagles",
+    "abbr": "UFTL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401922251",
    "date": "2026-11-18T00:00Z",
    "name": "Green Bay Phoenix at West Florida Argonauts",
@@ -1696,47 +1734,6 @@
    "detail": ""
   },
   {
-   "game_id": "401922221",
-   "date": "2026-11-18T01:00Z",
-   "name": "Fort Lauderdale Eagles at North Florida Ospreys",
-   "short_name": "UFTL @ UNF",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": null,
-   "venue": "UNF Arena",
-   "venue_city": "Jacksonville",
-   "venue_state": "FL",
-   "home": {
-    "espn_id": "2454",
-    "key": "north-florida",
-    "name": "North Florida Ospreys",
-    "abbr": "UNF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "123362",
-    "key": null,
-    "name": "Fort Lauderdale Eagles",
-    "abbr": "UFTL",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401922212",
    "date": "2026-11-19T00:00Z",
    "name": "Florida Gulf Coast Eagles at Florida Atlantic Owls",
@@ -1754,7 +1751,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-18-2026--sports-ncaa-basketball/production/7612559?wsUser=717",
-    "low": 20.0
+    "low": 16.0
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
@@ -1839,7 +1836,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-19-2026--sports-ncaa-basketball/production/7503567?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "KFC Yum! Center",
    "venue_city": "Louisville",
@@ -2050,7 +2047,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "Pete Maravich Assembly Center",
    "venue_city": "Baton Rouge",
@@ -2428,7 +2425,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 39.0
+    "low": 30.0
    },
    "venue": "Neville Arena",
    "venue_city": "Auburn",
@@ -2929,7 +2926,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-29-2026--sports-ncaa-basketball/production/7534729?wsUser=717",
-    "low": 14.0
+    "low": 13.0
    },
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
@@ -5230,7 +5227,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-29-2026--sports-ncaa-basketball/production/7402697?wsUser=717",
-    "low": 10.0
+    "low": 9.0
    },
    "venue": "Stegeman Coliseum",
    "venue_city": "Athens",
@@ -8071,6 +8068,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T02:06:52+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:15:47+00:00",
+ "fetched_at": "2026-11-17T12:15:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -1631,7 +1631,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/depaul-blue-demons-mens-basketball-tickets-wintrust-arena-11-17-2026--sports-ncaa-basketball/production/7258838?wsUser=717",
-    "low": 6.0
+    "low": 5.0
    },
    "venue": "Wintrust Arena",
    "venue_city": "Chicago",
@@ -1716,7 +1716,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-11-18-2026--sports-ncaa-basketball/production/7627771?wsUser=717",
-    "low": 32.0
+    "low": 26.0
    },
    "venue": "Ocean Center",
    "venue_city": "Daytona Beach",
@@ -2112,44 +2112,6 @@
    "detail": ""
   },
   {
-   "game_id": "401932055",
-   "date": "2026-11-23T05:00Z",
-   "name": "Notre Dame (MD) Gators at Howard Bison",
-   "short_name": "NDMD @ HOW",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/howard-university-bison-mens-basketball-tickets-burr-gymnasium-11-23-2026--sports-ncaa-basketball/production/7849006?wsUser=717",
-    "low": 61.0
-   },
-   "venue": "Burr Gymnasium",
-   "venue_city": "Washington",
-   "venue_state": "DC",
-   "home": {
-    "espn_id": "47",
-    "key": "howard",
-    "name": "Howard Bison",
-    "abbr": "HOW",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "128342",
-    "key": null,
-    "name": "Notre Dame (MD) Gators",
-    "abbr": "NDMD",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401920752",
    "date": "2026-11-23T23:30Z",
    "name": "Maryland Eastern Shore Hawks at Youngstown State Penguins",
@@ -2220,6 +2182,44 @@
     "key": null,
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401932055",
+   "date": "2026-11-24T00:00Z",
+   "name": "Notre Dame (MD) Gators at Howard Bison",
+   "short_name": "NDMD @ HOW",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/howard-university-bison-mens-basketball-tickets-burr-gymnasium-11-23-2026--sports-ncaa-basketball/production/7849006?wsUser=717",
+    "low": 61.0
+   },
+   "venue": "Burr Gymnasium",
+   "venue_city": "Washington",
+   "venue_state": "DC",
+   "home": {
+    "espn_id": "47",
+    "key": "howard",
+    "name": "Howard Bison",
+    "abbr": "HOW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "128342",
+    "key": null,
+    "name": "Notre Dame (MD) Gators",
+    "abbr": "NDMD",
     "score": null,
     "winner": null
    },
@@ -2910,7 +2910,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-12-2-2026--sports-ncaa-basketball/production/7661801?wsUser=717",
-    "low": 30.0
+    "low": 24.0
    },
    "venue": "Stony Brook Arena",
    "venue_city": "Stony Brook",
@@ -5000,7 +5000,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-29-2026--sports-ncaa-basketball/production/7350090?wsUser=717",
-    "low": 9.0
+    "low": 8.0
    },
    "venue": "Food City Center",
    "venue_city": "Knoxville",
@@ -7342,6 +7342,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T01:49:47+00:00"
+ ]
 }

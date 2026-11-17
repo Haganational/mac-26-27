@@ -1,7 +1,7 @@
 {
  "google:coppin-state": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Coppin+State+",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -9,8 +9,8 @@
   "url": "https://news.google.com/rss/search?q=%22Coppin+State+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:delaware-state": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Delaware+Stat",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -18,8 +18,8 @@
   "url": "https://news.google.com/rss/search?q=%22Delaware+State+Hornets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:howard": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Howard+Bison+",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -27,7 +27,7 @@
   "url": "https://news.google.com/rss/search?q=%22Howard+Bison+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:morgan-state": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
+  "checked_at": "2026-11-17T12:15:48+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -36,8 +36,8 @@
   "url": "https://news.google.com/rss/search?q=%22Morgan+State+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:nc-central": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22North+Carolina+",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22North+Carolin",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -45,8 +45,8 @@
   "url": "https://news.google.com/rss/search?q=%22North+Carolina+Central+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:norfolk-state": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Norfolk+State+S",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Norfolk+State",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -54,7 +54,7 @@
   "url": "https://news.google.com/rss/search?q=%22Norfolk+State+Spartans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:south-carolina-state": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
+  "checked_at": "2026-11-17T12:15:48+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -63,8 +63,8 @@
   "url": "https://news.google.com/rss/search?q=%22South+Carolina+State+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:umes": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-17T12:15:48+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Maryland+East",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -72,13 +72,13 @@
   "url": "https://news.google.com/rss/search?q=%22Maryland+Eastern+Shore+Hawks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:meac": {
-  "checked_at": "2026-11-16T23:15:49+00:00",
+  "checked_at": "2026-11-17T12:15:48+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 4,
   "kind": "league",
-  "last_ok": "2026-11-16T23:15:49+00:00",
+  "last_ok": "2026-11-17T12:15:48+00:00",
   "ok": true,
   "source": "MEAC (meacsports.com)",
   "team": null,

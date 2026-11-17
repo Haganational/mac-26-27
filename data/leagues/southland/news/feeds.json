@@ -1,6 +1,6 @@
 {
  "google:east-texas-am": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -9,8 +9,8 @@
   "url": "https://news.google.com/rss/search?q=%22East+Texas+A%26M+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:houston-christian": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Houston+Christi",
+  "checked_at": "2026-11-17T12:11:53+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -18,14 +18,14 @@
   "url": "https://news.google.com/rss/search?q=%22Houston+Christian+Huskies+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:incarnate-word": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
-  "entries": 2,
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Incarnate+Word+",
+  "checked_at": "2026-11-17T12:11:53+00:00",
+  "entries": 1,
+  "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-16T18:09:32+00:00",
-  "ok": false,
+  "last_ok": "2026-11-17T12:11:53+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "incarnate-word",
   "url": "https://news.google.com/rss/search?q=%22Incarnate+Word+Cardinals+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -33,14 +33,14 @@
   "via_google": false
  },
  "google:lamar": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "entries": 1,
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Lamar+Cardinals",
+  "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-16T18:09:32+00:00",
-  "ok": false,
+  "last_ok": "2026-11-17T12:11:53+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "lamar",
   "url": "https://news.google.com/rss/search?q=%22Lamar+Cardinals+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -48,13 +48,13 @@
   "via_google": false
  },
  "google:mcneese": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "entries": 1,
   "error": null,
   "fallback": false,
   "kept": 1,
   "kind": "google",
-  "last_ok": "2026-11-16T23:11:44+00:00",
+  "last_ok": "2026-11-17T12:11:53+00:00",
   "ok": true,
   "source": "Google News",
   "team": "mcneese",
@@ -63,13 +63,13 @@
   "via_google": false
  },
  "google:new-orleans": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "entries": 2,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-16T23:11:44+00:00",
+  "last_ok": "2026-11-17T12:11:53+00:00",
   "ok": true,
   "source": "Google News",
   "team": "new-orleans",
@@ -78,8 +78,8 @@
   "via_google": false
  },
  "google:nicholls": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Nicholls+Colone",
+  "checked_at": "2026-11-17T12:11:53+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -87,13 +87,13 @@
   "url": "https://news.google.com/rss/search?q=%22Nicholls+Colonels+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:northwestern-state": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
-  "entries": 9,
+  "checked_at": "2026-11-17T12:11:53+00:00",
+  "entries": 7,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-16T23:11:44+00:00",
+  "last_ok": "2026-11-17T12:11:53+00:00",
   "ok": true,
   "source": "Google News",
   "team": "northwestern-state",
@@ -102,7 +102,7 @@
   "via_google": false
  },
  "google:southeastern-louisiana": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -111,7 +111,7 @@
   "url": "https://news.google.com/rss/search?q=%22Southeastern+Louisiana+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:stephen-f-austin": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -120,7 +120,7 @@
   "url": "https://news.google.com/rss/search?q=%22Stephen+F.+Austin+Lumberjacks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:texas-am-cc": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -129,8 +129,8 @@
   "url": "https://news.google.com/rss/search?q=%22Texas+A%26M-Corpus+Christi+Islanders+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:utrgv": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
-  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22UTRGV+Vaqueros+",
+  "checked_at": "2026-11-17T12:11:53+00:00",
+  "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -138,13 +138,13 @@
   "url": "https://news.google.com/rss/search?q=%22UTRGV+Vaqueros+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:southland": {
-  "checked_at": "2026-11-16T23:11:44+00:00",
+  "checked_at": "2026-11-17T12:11:53+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 9,
   "kind": "league",
-  "last_ok": "2026-11-16T23:11:44+00:00",
+  "last_ok": "2026-11-17T12:11:53+00:00",
   "ok": true,
   "source": "Southland (southland.org)",
   "team": null,

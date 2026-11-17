@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T23:02:13+00:00",
+ "fetched_at": "2026-11-17T12:02:44+00:00",
  "season": 2027,
  "games": [
   {
@@ -2342,7 +2342,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-18-2026--sports-ncaa-basketball/production/7661637?wsUser=717",
-    "low": 24.0
+    "low": 23.0
    },
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
@@ -2721,52 +2721,8 @@
    "detail": ""
   },
   {
-   "game_id": "401926134",
-   "date": "2026-11-21T00:00Z",
-   "name": "Oakland Golden Grizzlies at Purdue Boilermakers",
-   "short_name": "OAK @ PUR",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "BTN",
-     "kind": "TV",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 31.0
-   },
-   "venue": "Mackey Arena",
-   "venue_city": "West Lafayette",
-   "venue_state": "IN",
-   "home": {
-    "espn_id": "2509",
-    "key": null,
-    "name": "Purdue Boilermakers",
-    "abbr": "PUR",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2473",
-    "key": "oakland",
-    "name": "Oakland Golden Grizzlies",
-    "abbr": "OAK",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401909698",
-   "date": "2026-11-21T01:00Z",
+   "date": "2026-11-20T17:00Z",
    "name": "Green Bay Phoenix at Florida State Seminoles",
    "short_name": "GB @ FSU",
    "season_type": "reg",
@@ -2800,6 +2756,50 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401926134",
+   "date": "2026-11-21T00:00Z",
+   "name": "Oakland Golden Grizzlies at Purdue Boilermakers",
+   "short_name": "OAK @ PUR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "BTN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
+    "low": 30.0
+   },
+   "venue": "Mackey Arena",
+   "venue_city": "West Lafayette",
+   "venue_state": "IN",
+   "home": {
+    "espn_id": "2509",
+    "key": null,
+    "name": "Purdue Boilermakers",
+    "abbr": "PUR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2473",
+    "key": "oakland",
+    "name": "Oakland Golden Grizzlies",
+    "abbr": "OAK",
     "score": null,
     "winner": null
    },
@@ -3452,7 +3452,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Tower Hill Arena",
    "venue_city": "Gainesville",
@@ -3797,7 +3797,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 57.0
+    "low": 59.0
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -4052,7 +4052,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Gill Coliseum",
    "venue_city": "Corvallis",
@@ -4483,7 +4483,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-green-bay-phoenix-mens-basketball-tickets-kress-events-center-12-5-2026--sports-ncaa-basketball/production/7592010?wsUser=717",
-    "low": 69.0
+    "low": 67.0
    },
    "venue": "Resch Center",
    "venue_city": "Ashwaubenon",
@@ -5628,7 +5628,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-12-17-2026--sports-ncaa-basketball/production/7631681?wsUser=717",
-    "low": 15.0
+    "low": 14.0
    },
    "venue": "Gill Coliseum",
    "venue_city": "Corvallis",
