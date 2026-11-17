@@ -47,9 +47,8 @@ def main():
                 else:
                     missing.append(f"{ep.name} {sp}-{local_n[sp]:02d}")
             lines.append(ln)
-    names = ", ".join(v["name"].title() for k, v in voices.items() if k != "M")
     lines.append({"speaker": "TITLE", "say": "", "caption": "",
-                  "visual": f"card:A Hardwood Bricks film|{names} are fictional AI anchors with AI voices"})
+                  "visual": "card:A Hardwood Bricks film|Gary Mercer and the Ivy desk are fictional AI anchors with AI voices"})
     lines += [{"speaker": "OUTRO", "say": "", "caption": "", "visual": v} for v in ("clip:hardwood-outro", "clip:juicebox-outro", "still:logo-19-north")]
     json.dump(credits, open(film / "broll/credits.json", "w"), indent=1)
     json.dump({"title": "Lucky Seven", "own_credit": "Pictures from Wikimedia Commons under the licenses listed",
