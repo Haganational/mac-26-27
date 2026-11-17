@@ -1573,3 +1573,8 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .gamer .aside { margin: 14px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--rule-2, #c9b9a6); font: italic 400 1em/1.5 var(--serif, Georgia, serif); color: var(--ink-2); }
 .gamer .aside-by { display: block; font: 600 11.5px/1.4 var(--cond, sans-serif); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
 .gamer .aside-note { font-size: 13px; color: var(--muted); margin-top: 12px; }
+
+/* Byline anchor photo (recaps and previews): the lead anchor's head crop (den_connect.publish_heads), square like the rest of the house. */
+.sub.by-face { line-height: 30px; }
+.by-pic { display: inline-block; vertical-align: middle; margin: -2px 4px 0 0; width: 30px; height: 30px; overflow: hidden; background: var(--chip, #ece4d4); box-shadow: 0 0 0 1px var(--rule, rgba(26,20,16,.14)); }
+.by-pic img { width: 100%; height: 100%; display: block; }
