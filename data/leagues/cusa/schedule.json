@@ -1541,7 +1541,7 @@
     "key": null,
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1549,13 +1549,13 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:43 - 1st"
   },
   {
    "game_id": "401917964",
@@ -8805,5 +8805,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:09:22+00:00"
 }

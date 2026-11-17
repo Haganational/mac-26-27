@@ -1587,7 +1587,7 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1595,13 +1595,13 @@
     "key": null,
     "name": "DeSales Bulldogs",
     "abbr": "DSLU",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:59 - 1st"
   },
   {
    "game_id": "401920735",
@@ -7124,5 +7124,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:08:11+00:00"
 }

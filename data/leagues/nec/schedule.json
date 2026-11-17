@@ -1743,7 +1743,7 @@
     "key": "liu",
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -1751,13 +1751,13 @@
     "key": null,
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:40 - 1st"
   },
   {
    "game_id": "401925751",
@@ -8251,5 +8251,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:14:35+00:00"
 }

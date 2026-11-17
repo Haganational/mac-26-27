@@ -1992,7 +1992,7 @@
     "key": null,
     "name": "Clemson Tigers",
     "abbr": "CLEM",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2000,13 +2000,13 @@
     "key": "the-citadel",
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:51 - 1st"
   },
   {
    "game_id": "401920857",
@@ -9787,5 +9787,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T00:09:51+00:00"
 }
