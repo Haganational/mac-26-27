@@ -1767,21 +1767,21 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": 86,
-    "winner": null
+    "score": 105,
+    "winner": true
    },
    "away": {
     "espn_id": "299",
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": 54,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920373",
@@ -1811,7 +1811,7 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 82,
+    "score": 96,
     "winner": null
    },
    "away": {
@@ -1819,13 +1819,13 @@
     "key": null,
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": 71,
+    "score": 90,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:21 - 2nd"
+   "detail": "0:08 - 2nd"
   },
   {
    "game_id": "401920297",
@@ -9808,5 +9808,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T04:41:15+00:00"
+ "live_at": "2026-11-17T05:11:21+00:00"
 }
