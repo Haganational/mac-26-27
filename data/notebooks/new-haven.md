@@ -27,7 +27,28 @@ _New Haven (NEC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,719, infobox (4,972 undergrad + 1,747 postgrad), no year given
+- Tuition and fees, in state: $51,270 (2026-27), private; full-time day yearly tuition $49,340 + general student fee $1,930 (excludes waivable health insurance $1,900)
+- Tuition and fees, out of state: $51,270 (2026-27), private, same figure
+- Endowment: $94.0 million, infobox gives no year
+
+**West Haven**
+- Population: 55,351 (ACS 2024 5-year)
+- Population in 2020: 55,584 (2020 census)
+- Median household income: $74,382 (ACS 2024 5-year)
+- Income per person: $35,740 (ACS 2024 5-year)
+- Median home value: $291,700 (ACS 2024 5-year)
+- Poverty rate: 14.1% (ACS 2024 5-year)
+- Median age: 35.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30.5% (ACS 2024 5-year)
+- Average commute: 22.9 minutes (ACS 2024 5-year)
+- Veterans: 2,022 (ACS 2024 5-year)
+- Born abroad: 21.1% (ACS 2024 5-year)
+- Founded: 1921, settled 1648 as West Farms; town 1921; city 1961
+- Elevation: 33 feet
+- County: New Haven County
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

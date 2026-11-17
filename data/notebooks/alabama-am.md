@@ -27,7 +27,29 @@ _Alabama A&M (SWAC). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,808, infobox gives no year
+- Endowment: $48.0 million (FY2019), as of June 30, 2019
+- Football: FCS, SWAC
+
+**Huntsville**
+- Population: 230,157 (ACS 2024 1-year)
+- Median household income: $83,235 (ACS 2024 1-year)
+- Income per person: $47,988 (ACS 2024 1-year)
+- Median home value: $339,400 (ACS 2024 1-year)
+- Poverty rate: 10.7% (ACS 2024 1-year)
+- Median age: 36.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 49.1% (ACS 2024 1-year)
+- Average commute: 19.7 minutes (ACS 2024 5-year)
+- Veterans: 18,932 (ACS 2024 1-year)
+- Born abroad: 6.9% (ACS 2024 1-year)
+- Founded: 1805, John Hunt's arrival; established as Twickenham Dec. 23, 1809
+- County seat: yes, seat of Madison County
+- January average: 42.7°F
+- Snow a year: 2.4 inches
+- Elevation: 577 feet
+- County: Madison County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

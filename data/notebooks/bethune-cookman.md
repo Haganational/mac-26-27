@@ -27,7 +27,32 @@ _Bethune-Cookman (SWAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,100 (Fall 2025)
+- Tuition and fees, in state: $15,534 (2026-27), private; annual tuition $14,536 + fees $998 (excludes optional Book Smart $680)
+- Tuition and fees, out of state: $15,534 (2026-27), private; same as in-state
+- Endowment: $60.0 million (2025)
+- Football: FCS, school page says Division I FCS, SWAC
+
+**Daytona Beach**
+- Population: 86,007 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 72,647 (2020 census)
+- Median household income: $57,583 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $35,926 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $331,500 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 20.1% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 43.2 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 31.8% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 21.4 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 6,504 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 9.5% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1870, founded 1870; Town of Daytona incorporated 1876
+- Biggest employer: Volusia County School District (7,623 employees, 2019 city CAFR)
+- January average: 58.8°F
+- Elevation: 13 feet
+- County: Volusia County
+- ICE 287(g) agreement in the county: yes, Volusia County Sheriff's Office (article: every Florida county sheriff's office signed) (task force)
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

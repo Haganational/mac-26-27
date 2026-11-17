@@ -27,7 +27,30 @@ _Morgan State (MEAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,559 (Fall 2025), article text; infobox gives 10,739 (fall 2024)
+- Tuition and fees, in state: $8,466 (2026-27), page gives per-semester full-time total $4,233 (tuition $2,967.50 + fees $1,265.50); doubled. Excludes mandatory health insurance
+- Tuition and fees, out of state: $19,796 (2026-27), per-semester $9,898 doubled
+- Football: FCS, MEAC; last FCS playoff appearance 2014
+
+**Baltimore**
+- Population: 568,271 (ACS 2024 1-year)
+- Median household income: $64,778 (ACS 2024 1-year)
+- Income per person: $41,644 (ACS 2024 1-year)
+- Median home value: $247,400 (ACS 2024 1-year)
+- Poverty rate: 17.7% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38.1% (ACS 2024 1-year)
+- Average commute: 30.2 minutes (ACS 2024 1-year)
+- Veterans: 24,584 (ACS 2024 1-year)
+- Born abroad: 10.6% (ACS 2024 1-year)
+- Founded: 1729, town founded August 8, 1729
+- County seat: no, independent city since 1851; was Baltimore County seat 1768-1851
+- Biggest employer: Johns Hopkins Hospital and University, 'the city's top employers'
+- January average: 34.3°F, BWI climate table
+- Snow a year: 19.3 inches, BWI climate table
+- County: none (independent city)
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

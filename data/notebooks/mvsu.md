@@ -27,7 +27,25 @@ _Mississippi Valley State (SWAC). Anchors are fictional AI personas, not affilia
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,196 (Fall 2023)
+- Endowment: $3.6 million (2021)
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Itta Bena**
+- Population: 1,967 (ACS 2024 5-year)
+- Population in 2020: 1,679 (2020 census)
+- Median household income: $36,033 (ACS 2024 5-year)
+- Income per person: $18,195 (ACS 2024 5-year)
+- Median home value: $87,400 (ACS 2024 5-year)
+- Poverty rate: 20.1% (ACS 2024 5-year)
+- Median age: 37.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 13.3% (ACS 2024 5-year)
+- Average commute: 19.8 minutes (ACS 2024 5-year)
+- Veterans: 39 (ACS 2024 5-year)
+- Elevation: 125 feet
+- County: Leflore County
+- College-town index: 1.12 students per resident (the school is the town)
 
 ## The program's best
 

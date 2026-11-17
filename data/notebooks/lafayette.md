@@ -27,7 +27,30 @@ _Lafayette (Patriot). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,675 (Fall 2025), infobox undergraduates; no graduate/total figure given
+- Tuition and fees, in state: $70,846 (2026-27), private; tuition $70,486 + student activity fee $360. Catalog doesn't say annual vs semester, but tuition+activity+room+board on it sum exactly to the $91,742 2026-27 cost of attendance reported by The Lafayette (Jan 23, 2026), so treated as annual
+- Tuition and fees, out of state: $70,846 (2026-27), private, same figure
+- Endowment: $1.20 billion (2025)
+- Football: FCS, Patriot League
+
+**Easton**
+- Population: 29,739 (ACS 2024 5-year)
+- Population in 2020: 28,127 (2020 census)
+- Median household income: $69,348 (ACS 2024 5-year)
+- Income per person: $29,811 (ACS 2024 5-year)
+- Median home value: $196,300 (ACS 2024 5-year)
+- Poverty rate: 16.3% (ACS 2024 5-year)
+- Median age: 31.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 28.2% (ACS 2024 5-year)
+- Average commute: 27.8 minutes (ACS 2024 5-year)
+- Veterans: 860 (ACS 2024 5-year)
+- Born abroad: 14.4% (ACS 2024 5-year)
+- Founded: 1752, settled 1739; incorporated as town 1752; city 1887
+- County seat: yes, Northampton County
+- Elevation: 211 feet
+- County: Northampton County
+- College-town index: 0.09 students per resident (a guest in a bigger place)
 
 ## The program's best
 

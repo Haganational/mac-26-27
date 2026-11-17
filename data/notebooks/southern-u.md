@@ -27,7 +27,29 @@ _Southern (SWAC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,483 (Fall 2024)
+- Football: FCS, Division I (FCS for football), SWAC
+
+**Baton Rouge**
+- Population: 220,901 (ACS 2024 1-year)
+- Population in 2020: 227,470 (2020 census)
+- Median household income: $50,332 (ACS 2024 1-year)
+- Income per person: $33,350 (ACS 2024 1-year)
+- Median home value: $251,100 (ACS 2024 1-year)
+- Poverty rate: 27.5% (ACS 2024 1-year)
+- Median age: 31.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.5% (ACS 2024 1-year)
+- Average commute: 21.7 minutes (ACS 2024 1-year)
+- Veterans: 7,155 (ACS 2024 1-year)
+- Born abroad: 7.7% (ACS 2024 1-year)
+- Founded: 1699, founded 1699; incorporated 1817
+- County seat: yes, parish seat of East Baton Rouge Parish
+- January average: 51.7°F
+- Snow a year: 0.2 inches, climate box; text says 0.1
+- Elevation: 46 feet, infobox; text says 56-62 ft
+- County: East Baton Rouge Parish
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

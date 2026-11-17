@@ -27,7 +27,31 @@ _Chicago State (NEC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,505 (Fall 2025)
+- Endowment: $10.0 million (FY2024)
+- Football: FCS, starts 2026: FCS independent in 2026, joins Northeast Conference 2027; opener Aug 29, 2026
+- Arena named for: Emil and Patricia Jones Convocation Center (not stated on page fetched (Chicago State Wikipedia page; arena page not fetched))
+
+**Chicago**
+- Population: 2,721,326 (ACS 2024 1-year)
+- Population in 2020: 2,746,388 (2020 census)
+- Median household income: $80,613 (ACS 2024 1-year)
+- Income per person: $51,976 (ACS 2024 1-year)
+- Median home value: $341,200 (ACS 2024 1-year)
+- Poverty rate: 16.6% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 46.4% (ACS 2024 1-year)
+- Average commute: 33.5 minutes (ACS 2024 1-year)
+- Veterans: 57,764 (ACS 2024 1-year)
+- Born abroad: 22.0% (ACS 2024 1-year)
+- Founded: 1837, settled c.1780; town 1833; incorporated as city March 4, 1837
+- County seat: yes, Cook County
+- January average: 26.2°F, Midway Airport 1991-2020 normals; O'Hare 25.2F
+- Snow a year: 38.8 inches, Midway; O'Hare 38.4
+- Elevation: 597 feet, infobox mean 597.18 ft; body text says average 579 ft
+- County: Cook County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

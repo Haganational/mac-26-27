@@ -27,7 +27,31 @@ _Le Moyne (NEC). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,409 (Fall 2021), infobox; text says 'more than 3,700' as of 2020
+- Tuition and fees, in state: $43,414 (2026-27), private; tuition $42,080 + full-time comprehensive school fee $1,334, in table column headed 'Year' under 'Tuition, Housing and Meals: 2026-2027'
+- Tuition and fees, out of state: $43,414 (2026-27), private, same figure
+- Endowment: $289.8 million (2025)
+
+**Syracuse**
+- Population: 146,091 (ACS 2024 1-year)
+- Population in 2020: 148,620 (2020 census)
+- Median household income: $51,770 (ACS 2024 1-year)
+- Income per person: $30,104 (ACS 2024 1-year)
+- Median home value: $158,100 (ACS 2024 1-year)
+- Poverty rate: 26.0% (ACS 2024 1-year)
+- Median age: 32.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.3% (ACS 2024 1-year)
+- Average commute: 18.6 minutes (ACS 2024 1-year)
+- Veterans: 4,380 (ACS 2024 1-year)
+- Born abroad: 16.0% (ACS 2024 1-year)
+- Founded: 1820, formally established 1820; village 1825; city 1847
+- County seat: yes, Onondaga County
+- Biggest employer: SUNY Upstate Medical University, 10,959 employees; page calls it Central New York's largest employer
+- January average: 24.1°F, climate box; body text gives 23.6F
+- Snow a year: 127.8 inches, climate box; body text says 115.6 in
+- County: Onondaga County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

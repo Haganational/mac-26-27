@@ -27,7 +27,29 @@ _Mercyhurst (NEC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,632 (Fall 2024), 2,274 undergraduate + 358 postgraduate
+- Football: FCS, all sports joined Division I in fall 2024; NEC primary conference for most sports
+
+**Erie**
+- Population: 92,936 (ACS 2024 1-year)
+- Population in 2020: 94,831 (2020 census)
+- Median household income: $47,733 (ACS 2024 1-year)
+- Income per person: $28,244 (ACS 2024 1-year)
+- Median home value: $135,200 (ACS 2024 1-year)
+- Poverty rate: 22.7% (ACS 2024 1-year)
+- Median age: 34.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.1% (ACS 2024 1-year)
+- Average commute: 18.1 minutes (ACS 2024 1-year)
+- Veterans: 2,859 (ACS 2024 1-year)
+- Born abroad: 9.1% (ACS 2024 1-year)
+- Founded: 1795, founded April 18, 1795; incorporated as city 1851
+- County seat: yes, Erie County
+- January average: 28.2°F
+- Snow a year: 104.3 inches, 1991-2020 normals
+- Elevation: 728 feet
+- County: Erie County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Texas Southern (SWAC). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,366 (Fall 2024)
+- Tuition and fees, in state: $9,174 (2027-28), annual (Fall & Spring) estimated projection as labeled on TSU College Costs page
+- Tuition and fees, out of state: $21,416 (2027-28), annual (Fall & Spring) estimated projection, non-resident
+- Endowment: $100.0 million (2024)
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Houston**
+- Population: 2,387,910 (ACS 2024 1-year)
+- Population in 2020: 2,304,580 (2020 census)
+- Median household income: $64,361 (ACS 2024 1-year)
+- Income per person: $42,181 (ACS 2024 1-year)
+- Median home value: $301,200 (ACS 2024 1-year)
+- Poverty rate: 21.2% (ACS 2024 1-year)
+- Median age: 34 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38.0% (ACS 2024 1-year)
+- Average commute: 28.3 minutes (ACS 2024 1-year)
+- Veterans: 59,500 (ACS 2024 1-year)
+- Born abroad: 30.8% (ACS 2024 1-year)
+- Founded: 1836, founded Aug 30, 1836; incorporated 1837
+- County seat: yes
+- January average: 53.8°F, Intercontinental Airport 1991-2020
+- Snow a year: 0.1 inches
+- Elevation: 105 feet
+- County: Harris County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

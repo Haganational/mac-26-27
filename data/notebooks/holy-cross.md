@@ -27,7 +27,33 @@ _Holy Cross (Patriot). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,256 (2024), infobox undergraduates figure; no separate total given (body text says 3,142 undergrads)
+- Tuition and fees, in state: $71,150 (2026-27), private; annual total tuition ($70,220) + required health service and activity fees
+- Tuition and fees, out of state: $71,150 (2026-27), private, same figure
+- Endowment: $1.21 billion (FY2025)
+- Football: FCS, Patriot League
+
+**Worcester**
+- Population: 211,289 (ACS 2024 1-year)
+- Population in 2020: 206,518 (2020 census)
+- Median household income: $71,042 (ACS 2024 1-year)
+- Income per person: $38,792 (ACS 2024 1-year)
+- Median home value: $411,700 (ACS 2024 1-year)
+- Poverty rate: 17.6% (ACS 2024 1-year)
+- Median age: 36.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.5% (ACS 2024 1-year)
+- Average commute: 23.2 minutes (ACS 2024 1-year)
+- Veterans: 5,494 (ACS 2024 1-year)
+- Born abroad: 30.5% (ACS 2024 1-year)
+- Founded: 1722, settled 1673; incorporated as town 1722; city 1848
+- County seat: yes, Worcester County
+- Biggest employer: UMass Memorial Health Care, 13,745 employees per 2018 CAFR
+- January average: 24.7°F
+- Snow a year: 72.9 inches
+- Elevation: 479 feet
+- County: Worcester County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

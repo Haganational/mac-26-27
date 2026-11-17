@@ -27,7 +27,26 @@ _Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 1,932 (2023)
+- Tuition and fees, in state: $56,482 (2026-27), private; annual tuition $54,318 + annual student fees $2,164 (excludes waivable health insurance, opt-out book fee, refund insurance)
+- Tuition and fees, out of state: $56,482 (2026-27), private, same figure
+- Endowment: $100.5 million (2024)
+- Football: FCS, NCAA Division I FCS per infobox
+
+**Staten Island**
+- Population: 8,478,072 (ACS 2024 1-year)
+- Median household income: $81,228 (ACS 2024 1-year)
+- Income per person: $52,504 (ACS 2024 1-year)
+- Median home value: $778,600 (ACS 2024 1-year)
+- Poverty rate: 18.0% (ACS 2024 1-year)
+- Median age: 38.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 42.5% (ACS 2024 1-year)
+- Average commute: 40.6 minutes (ACS 2024 1-year)
+- Veterans: 121,547 (ACS 2024 1-year)
+- Born abroad: 36.7% (ACS 2024 1-year)
+- Founded: 1661, settled 1661 (first permanent Dutch settlement, Oude Dorp)
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,29 @@ _Stonehill (NEC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,491, infobox gives no year
+- Tuition and fees, in state: $62,110 (2026-27), private; annual tuition $60,610 + general service fee $1,500 (excludes school-specific per-semester fees)
+- Tuition and fees, out of state: $62,110 (2026-27), private, same figure
+- Endowment: $326.5 million (2025)
+- Football: FCS, Division I (FCS); NEC
+
+**Easton**
+- Population: 25,316 (ACS 2024 5-year)
+- Population in 2020: 25,058 (2020 census)
+- Median household income: $124,271 (ACS 2024 5-year)
+- Income per person: $62,509 (ACS 2024 5-year)
+- Median home value: $581,200 (ACS 2024 5-year)
+- Poverty rate: 6.0% (ACS 2024 5-year)
+- Median age: 42.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 53.4% (ACS 2024 5-year)
+- Average commute: 30.1 minutes (ACS 2024 5-year)
+- Veterans: 1,156 (ACS 2024 5-year)
+- Born abroad: 7.4% (ACS 2024 5-year)
+- Founded: 1725, settled 1694; incorporated 1725
+- Elevation: 112 feet
+- County: Bristol County
+- College-town index: 0.10 students per resident (a guest in a bigger place)
 
 ## The program's best
 

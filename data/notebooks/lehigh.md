@@ -27,7 +27,29 @@ _Lehigh (Patriot). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,909 (2024)
+- Tuition and fees, in state: $70,590 (2026-27), private; full-time tuition $69,420/yr ($34,710/semester) + technology $630 + activity $290 + wellness $250 annual; excludes $910 engineering & science fee charged only to some majors
+- Tuition and fees, out of state: $70,590 (2026-27), private, same figure
+- Endowment: $2.00 billion (FY2025)
+- Football: FCS, Patriot League
+- Arena named for: Stabler Arena, named for Donald B. Stabler (Lehigh 1930), primary donor with wife Dorothy (founder of Stabler Companies Inc.)
+
+**Bethlehem**
+- Population: 79,959 (ACS 2024 1-year)
+- Population in 2020: 75,781 (2020 census)
+- Median household income: $75,194 (ACS 2024 1-year)
+- Income per person: $37,862 (ACS 2024 1-year)
+- Median home value: $289,200 (ACS 2024 1-year)
+- Poverty rate: 14.9% (ACS 2024 1-year)
+- Median age: 35.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.8% (ACS 2024 1-year)
+- Average commute: 22.1 minutes (ACS 2024 1-year)
+- Veterans: 4,160 (ACS 2024 1-year)
+- Born abroad: 8.0% (ACS 2024 1-year)
+- Founded: 1741, founded Dec 24, 1741; borough 1845
+- Elevation: 360 feet
+- College-town index: 0.10 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,28 @@ _Fairleigh Dickinson (NEC). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,899, national total given in body with no year; intro says 'over 12,000'; Fall 2024 campus totals: Metropolitan 8,045, Florham 2,885
+- Tuition and fees, in state: $39,820 (2026-27), private; Metropolitan Campus annual tuition $38,600 (12-18 credits) + technology fee $1,080 + wellness fee $140
+- Tuition and fees, out of state: $39,820 (2026-27), private, same figure
+- Endowment: $107.2 million (2025)
+
+**Teaneck**
+- Population: 41,876 (ACS 2024 5-year)
+- Population in 2020: 41,246 (2020 census)
+- Median household income: $144,075 (ACS 2024 5-year)
+- Income per person: $62,638 (ACS 2024 5-year)
+- Median home value: $546,100 (ACS 2024 5-year)
+- Poverty rate: 5.6% (ACS 2024 5-year)
+- Median age: 38.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 57.2% (ACS 2024 5-year)
+- Average commute: 34.4 minutes (ACS 2024 5-year)
+- Veterans: 1,169 (ACS 2024 5-year)
+- Born abroad: 27.1% (ACS 2024 5-year)
+- Founded: 1895, incorporated Feb 19, 1895
+- Elevation: 128 feet
+- County: Bergen County
+- College-town index: 0.26 students per resident (a big presence)
 
 ## The program's best
 

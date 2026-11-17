@@ -27,7 +27,29 @@ _Coppin State (MEAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,210 (Fall 2024)
+- Tuition and fees, in state: $7,524 (2026-27 (FY2027)), USM annual: tuition $5,236 + mandatory fees $2,288
+- Tuition and fees, out of state: $14,726 (2026-27 (FY2027)), tuition $12,438 + mandatory fees $2,288
+
+**Baltimore**
+- Population: 568,271 (ACS 2024 1-year)
+- Median household income: $64,778 (ACS 2024 1-year)
+- Income per person: $41,644 (ACS 2024 1-year)
+- Median home value: $247,400 (ACS 2024 1-year)
+- Poverty rate: 17.7% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 38.1% (ACS 2024 1-year)
+- Average commute: 30.2 minutes (ACS 2024 1-year)
+- Veterans: 24,584 (ACS 2024 1-year)
+- Born abroad: 10.6% (ACS 2024 1-year)
+- Founded: 1729, town founded August 8, 1729
+- County seat: no, independent city since 1851; was Baltimore County seat 1768-1851
+- Biggest employer: Johns Hopkins Hospital and University, 'the city's top employers'
+- January average: 34.3°F, BWI climate table
+- Snow a year: 19.3 inches, BWI climate table
+- County: none (independent city)
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

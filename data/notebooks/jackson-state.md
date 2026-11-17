@@ -27,7 +27,31 @@ _Jackson State (SWAC). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,564 (Fall 2023)
+- Endowment: $60.0 million (2019)
+- Football: FCS, NCAA Division I FCS, SWAC
+
+**Jackson**
+- Population: 141,376 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 153,701 (2020 census)
+- Median household income: $44,516 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $27,523 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $110,200 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 26.3% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 34.5 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 27.4% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 19.9 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 5,303 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 2.6% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1821, founded 1821 as state capital; incorporated 1822
+- County seat: yes, one of two Hinds County seats (with Raymond)
+- Biggest employer: University of Mississippi Medical Center (top employer as of 2020)
+- January average: 47.0°F
+- Snow a year: 0.6 inches
+- Elevation: 361 feet
+- County: Hinds County
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

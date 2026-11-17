@@ -27,7 +27,33 @@ _Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,616 (Fall 2019), infobox figure is from fall 2019
+- Tuition and fees, in state: $10,842 (2026-27), page gives per-semester full-time total $5,421 (tuition $3,223 + mandatory fees $2,198); doubled
+- Tuition and fees, out of state: $23,804 (2026-27), per-semester $11,902 (tuition $9,324 + capital outlay $380 + fees $2,198) doubled
+- Endowment: $109.5 million (2025)
+- Football: FCS, MEAC
+
+**Norfolk**
+- Population: 231,105 (ACS 2024 1-year)
+- Median household income: $65,797 (ACS 2024 1-year)
+- Income per person: $41,032 (ACS 2024 1-year)
+- Median home value: $311,200 (ACS 2024 1-year)
+- Poverty rate: 14.1% (ACS 2024 1-year)
+- Median age: 33.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34.6% (ACS 2024 1-year)
+- Average commute: 22.6 minutes (ACS 2024 1-year)
+- Veterans: 22,316 (ACS 2024 1-year)
+- Born abroad: 8.2% (ACS 2024 1-year)
+- Founded: 1680, infobox: founded 1680 as town; body text also gives 1682
+- County seat: no, independent city, no county
+- Biggest employer: U.S. Department of Defense, 2016 Virginia Employment Commission ranking
+- January average: 42.2°F
+- Snow a year: 6.2 inches
+- Elevation: 6.9 feet
+- County: none (independent city)
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 
