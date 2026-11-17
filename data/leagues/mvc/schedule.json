@@ -1921,7 +1921,7 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -1929,13 +1929,13 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:16 - 1st"
   },
   {
    "game_id": "401919783",
@@ -9388,5 +9388,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T23:33:05+00:00"
 }
