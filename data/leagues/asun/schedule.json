@@ -1588,7 +1588,7 @@
     "key": null,
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1596,13 +1596,13 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:23 - 1st"
   },
   {
    "game_id": "401922221",
@@ -8073,5 +8073,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T23:46:22+00:00"
 }
