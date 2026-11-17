@@ -27,7 +27,34 @@ _Pepperdine (WCC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,030 (Fall 2022), article text gives 9,545 for fall 2023
+- Tuition and fees, in state: $75,202 (2026-27), private; Seaver flat tuition 74,370 (37,185/semester) + wellness 580 + campus life 252, annual
+- Tuition and fees, out of state: $75,202 (2026-27), private, same figure
+- Endowment: $1.30 billion (2024)
+- Football: none, Wikipedia places Pepperdine among non-football Division I schools; no drop date found
+
+**Malibu**
+- Population: 10,421 (ACS 2024 5-year)
+- Population in 2020: 10,654 (2020 census)
+- Median household income: $194,421 (ACS 2024 5-year)
+- Income per person: $141,203 (ACS 2024 5-year)
+- Median home value: $2.0 million (ACS 2024 5-year), Census Reporter shows $2,000,001, the ACS top-code (2,000,000+)
+- Poverty rate: 12.6% (ACS 2024 5-year)
+- Median age: 53.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 68.6% (ACS 2024 5-year)
+- Homeownership: 69.9% (2020 census)
+- Average commute: 32.1 minutes (ACS 2024 5-year)
+- Veterans: 222 (ACS 2024 5-year)
+- Born abroad: 14.7% (ACS 2024 5-year)
+- Founded: 1991, incorporated March 28, 1991; no separate founding year
+- County seat: no, Los Angeles is the LA County seat
+- Biggest employer: HRL Laboratories
+- January average: 55.9°F, computed as mean of climate-box January daily max 66.2 and min 45.6 (no mean row)
+- Elevation: 105 feet
+- County: Los Angeles County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.96 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,31 @@ _George Washington (A-10). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,500 (2025), 11,148 undergrad + 12,936 postgrad per infobox
+- Tuition and fees, in state: $72,770 (2026-27), private; 72000 tuition + 770 mandatory fees
+- Tuition and fees, out of state: $72,770 (2026-27), private; same
+- Endowment: $3.60 billion (2026)
+- Football: none, dropped 1966 (played 1881-1966)
+- Arena named for: Charles E. Smith (not stated on fetched page)
+
+**Washington**
+- Population: 702,250 (ACS 2024 1-year)
+- Population in 2020: 689,545 (2020 census)
+- Median household income: $109,707 (ACS 2024 1-year)
+- Income per person: $76,604 (ACS 2024 1-year)
+- Median home value: $733,400 (ACS 2024 1-year)
+- Poverty rate: 17.3% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 65.5% (ACS 2024 1-year)
+- Average commute: 31 minutes (ACS 2024 1-year)
+- Veterans: 17,844 (ACS 2024 1-year)
+- Born abroad: 15.5% (ACS 2024 1-year)
+- Founded: 1790, Residence Act 1790; federal district organized 1801
+- January average: 37.5°F
+- Snow a year: 13.7 inches
+- County: District of Columbia (no county)
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

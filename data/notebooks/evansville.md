@@ -27,7 +27,31 @@ _Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,109 (Fall 2023), text also gives 2,443 incl. part-time, adult, grad, Harlaxton (no year)
+- Tuition and fees, in state: $47,414 (2025-26), private: tuition $45,800 + full-time fees $1,614, annual; page fetched at the 2026-27 URL displayed 2025-26 figures
+- Tuition and fees, out of state: $47,414 (2025-26), private: tuition $45,800 + full-time fees $1,614, annual; page fetched at the 2026-27 URL displayed 2025-26 figures
+- Endowment: $157.0 million (2022)
+
+**Evansville**
+- Population: 114,812 (ACS 2024 1-year)
+- Population in 2020: 117,298 (2020 census)
+- Median household income: $52,094 (ACS 2024 1-year)
+- Income per person: $33,783 (ACS 2024 1-year)
+- Median home value: $159,800 (ACS 2024 1-year)
+- Poverty rate: 16.2% (ACS 2024 1-year)
+- Median age: 37.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.4% (ACS 2024 1-year)
+- Average commute: 17.5 minutes (ACS 2024 1-year)
+- Veterans: 5,326 (ACS 2024 1-year)
+- Born abroad: 5.3% (ACS 2024 1-year)
+- Founded: 1812, founded 1812; incorporated 1817
+- County seat: yes
+- January average: 33.6°F
+- Snow a year: 10.8 inches
+- Elevation: 384 feet
+- County: Vanderburgh County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

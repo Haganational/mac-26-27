@@ -27,7 +27,30 @@ _Davidson (A-10). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,079 (not stated (infobox)), undergraduate-only college; body text says 1,973
+- Tuition and fees, in state: $73,740 (2026-27), private; tuition 73090 + required fees 650
+- Tuition and fees, out of state: $73,740 (2026-27), private; same
+- Endowment: $1.46 billion (2025)
+- Football: FCS, Pioneer Football League (non-scholarship)
+- Arena named for: John M. Belk (Davidson class of 1943)
+
+**Davidson**
+- Population: 15,660 (ACS 2024 5-year)
+- Population in 2020: 15,106 (2020 census)
+- Median household income: $166,556 (ACS 2024 5-year)
+- Income per person: $86,576 (ACS 2024 5-year)
+- Median home value: $687,700 (ACS 2024 5-year)
+- Poverty rate: 7.0% (ACS 2024 5-year)
+- Median age: 41.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 75.8% (ACS 2024 5-year)
+- Average commute: 24.2 minutes (ACS 2024 5-year)
+- Veterans: 598 (ACS 2024 5-year)
+- Born abroad: 5.8% (ACS 2024 5-year)
+- Founded: 1837, founded 1837; incorporated 1879
+- Elevation: 833 feet
+- County: Mecklenburg County
+- College-town index: 0.13 students per resident (a guest in a bigger place)
 
 ## The program's best
 

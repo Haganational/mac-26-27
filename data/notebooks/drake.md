@@ -27,7 +27,33 @@ _Drake (Missouri Valley). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,774 (Spring 2022)
+- Tuition and fees, in state: $53,598 (2026-27), private: per semester $26,494 tuition (entering 2026-27) + $130 activity + $175 wellness fee = $26,799, doubled; excludes $85/semester new student fee
+- Tuition and fees, out of state: $53,598 (2026-27), private: per semester $26,494 tuition (entering 2026-27) + $130 activity + $175 wellness fee = $26,799, doubled; excludes $85/semester new student fee
+- Endowment: $333.6 million (2025)
+- Football: FCS, Pioneer Football League
+
+**Des Moines**
+- Population: 213,188 (ACS 2024 1-year)
+- Population in 2020: 214,133 (2020 census)
+- Median household income: $67,297 (ACS 2024 1-year)
+- Income per person: $36,822 (ACS 2024 1-year)
+- Median home value: $213,300 (ACS 2024 1-year)
+- Poverty rate: 16.1% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 31% (ACS 2024 1-year)
+- Average commute: 18.8 minutes (ACS 2024 1-year)
+- Veterans: 7,740 (ACS 2024 1-year)
+- Born abroad: 13.6% (ACS 2024 1-year)
+- Founded: 1851, fort built 1843; city incorporated Sept 22, 1851
+- County seat: yes
+- Biggest employer: Wells Fargo & Co. (13,500 employees; 2021 list of top non-government employers)
+- January average: 22.3°F
+- Snow a year: 36.5 inches
+- Elevation: 794 feet
+- County: Polk County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

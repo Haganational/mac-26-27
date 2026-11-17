@@ -27,7 +27,34 @@ _Rhode Island (A-10). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,210 (Fall 2024)
+- Tuition and fees, in state: $18,080 (2026-27), 15,684 tuition + 2,396 mandatory fees
+- Tuition and fees, out of state: $39,746 (2026-27), 37,350 tuition + 2,396 mandatory fees
+- Endowment: $278.7 million (2025)
+- Football: FCS
+- Men's basketball coach's pay: $1.9 million (2026-27 (year 5 of 2022 contract))
+- Arena named for: Thomas M. Ryan (Ryan Center) (URI 1975 alumnus, former CEO of CVS Pharmacy; lead benefactor (amount not stated))
+
+**Kingston**
+- Population: 7,332 (ACS 2024 5-year)
+- Population in 2020: 7,825 (2020 census)
+- Median household income: $107,404 (ACS 2024 5-year)
+- Income per person: $16,640 (ACS 2024 5-year)
+- Median home value: $553,400 (ACS 2024 5-year)
+- Poverty rate: 1.8% (ACS 2024 5-year)
+- Median age: 19.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 77% (ACS 2024 5-year)
+- Average commute: 18.5 minutes (ACS 2024 5-year)
+- Veterans: 45 (ACS 2024 5-year)
+- Born abroad: 5.7% (ACS 2024 5-year)
+- County seat: no
+- January average: 30.5°F
+- Snow a year: 34.5 inches
+- Elevation: 246 feet
+- County: Washington County
+- The coach's pay equals 17 median Kingston household incomes
+- College-town index: 2.35 students per resident (the school is the town)
 
 ## The program's best
 

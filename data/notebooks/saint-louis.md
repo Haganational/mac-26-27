@@ -27,7 +27,32 @@ _Saint Louis (A-10). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,334 (Fall 2024), article text: 17,059 in 2025-26
+- Tuition and fees, in state: $59,960 (2026-27), 58,960 tuition + 1,000 fees, main undergraduate program
+- Tuition and fees, out of state: $59,960 (2026-27), private; same
+- Endowment: $2.02 billion (2025)
+- Football: none, no current football program mentioned
+- Arena named for: Richard Chaifetz (Chaifetz Arena) (SLU 1975 alumnus, CEO of ComPsych Corporation; gave $12M in 2007)
+
+**St. Louis**
+- Population: 279,695 (ACS 2024 1-year)
+- Median household income: $53,374 (ACS 2024 1-year)
+- Income per person: $44,949 (ACS 2024 1-year)
+- Median home value: $214,500 (ACS 2024 1-year)
+- Poverty rate: 21.7% (ACS 2024 1-year)
+- Median age: 37.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 45% (ACS 2024 1-year)
+- Average commute: 23.6 minutes (ACS 2024 1-year)
+- Veterans: 12,555 (ACS 2024 1-year)
+- Born abroad: 8.8% (ACS 2024 1-year)
+- Founded: 1764
+- Biggest employer: BJC HealthCare (metro); Washington University (city)
+- January average: 32.1°F
+- Snow a year: 16.6 inches
+- Elevation: 466 feet
+- County: independent city (no county)
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

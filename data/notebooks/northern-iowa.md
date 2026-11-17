@@ -27,7 +27,31 @@ _Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affilia
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,204 (Fall 2025), article text; infobox shows 9,283 for fall 2024
+- Tuition and fees, in state: $10,201 (current (page as fetched Nov 2026)), annual: 8792 tuition + 1409 mandatory fees; per semester 5100.50
+- Tuition and fees, out of state: $22,359 (current (page as fetched Nov 2026)), annual: 20950 tuition + 1409 mandatory fees; per semester 11179.50
+- Endowment: $211.4 million (2024)
+- Football: FCS, Missouri Valley Football Conference
+- Men's basketball coach's pay: $400,000 (2026-27 (contract through 2031))
+
+**Cedar Falls**
+- Population: 40,888 (ACS 2024 5-year)
+- Population in 2020: 40,713 (2020 census)
+- Median household income: $76,987 (ACS 2024 5-year)
+- Income per person: $41,428 (ACS 2024 5-year)
+- Median home value: $263,600 (ACS 2024 5-year)
+- Poverty rate: 15.7% (ACS 2024 5-year)
+- Median age: 29.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 50.4% (ACS 2024 5-year)
+- Average commute: 14 minutes (ACS 2024 5-year)
+- Veterans: 1,568 (ACS 2024 5-year)
+- Born abroad: 3.4% (ACS 2024 5-year)
+- Founded: 1845
+- Elevation: 879 feet
+- County: Black Hawk County
+- The coach's pay equals 5 median Cedar Falls household incomes
+- College-town index: 0.23 students per resident (a big presence)
 
 ## The program's best
 

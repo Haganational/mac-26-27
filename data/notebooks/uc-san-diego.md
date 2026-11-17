@@ -27,7 +27,31 @@ _UC San Diego (Big West). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 46,178 (Fall 2025)
+- Tuition and fees, in state: $18,052 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees
+- Tuition and fees, out of state: $57,322 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees; includes nonresident supplemental tuition
+- Endowment: $1.59 billion (2024)
+- Football: none, fielded football only in 1968
+
+**La Jolla**
+- Population: 1,404,461 (ACS 2024 1-year)
+- Population in 2020: 1,386,932 (2020 census)
+- Median household income: $111,032 (ACS 2024 1-year)
+- Income per person: $58,812 (ACS 2024 1-year)
+- Median home value: $980,700 (ACS 2024 1-year)
+- Poverty rate: 10.4% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 53.6% (ACS 2024 1-year)
+- Average commute: 24.1 minutes (ACS 2024 1-year)
+- Veterans: 64,888 (ACS 2024 1-year)
+- Born abroad: 26.7% (ACS 2024 1-year)
+- Founded: 1769, established July 16, 1769; incorporated Mar 27, 1850
+- County seat: yes
+- Biggest employer: Naval Base San Diego (38,852 employees, 2025 ACFR)
+- January average: 58.4°F
+- County: San Diego County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,34 @@ _Fresno St (Pac-12). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,310 (Fall 2024)
+- Tuition and fees, in state: $8,634 (2026-27), 6,838 tuition + 1,796 campus fees, CA resident 7+ units, financial aid standard budget
+- Endowment: $254.8 million (2023-24)
+- Football: FBS
+- Men's basketball coach's pay: $608,000 (2026-27 (year 3 of contract signed April 2024))
+- Arena named for: Save Mart Supermarkets (Save Mart Center) (grocery chain; $40M for 20-year naming rights (ownership/base not stated on page))
+
+**Fresno**
+- Population: 550,091 (ACS 2024 1-year)
+- Population in 2020: 542,107 (2020 census)
+- Median household income: $74,491 (ACS 2024 1-year)
+- Income per person: $31,943 (ACS 2024 1-year)
+- Median home value: $396,300 (ACS 2024 1-year)
+- Poverty rate: 18.7% (ACS 2024 1-year)
+- Median age: 33.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 24.8% (ACS 2024 1-year)
+- Average commute: 23.2 minutes (ACS 2024 1-year)
+- Veterans: 17,099 (ACS 2024 1-year)
+- Born abroad: 20.7% (ACS 2024 1-year)
+- Founded: 1872
+- County seat: yes
+- Biggest employer: Fresno Unified School District
+- January average: 48.0°F
+- Elevation: 308 feet
+- County: Fresno County
+- The coach's pay equals 8 median Fresno household incomes
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

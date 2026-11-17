@@ -27,7 +27,33 @@ _Belmont (Missouri Valley). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,910 (Fall 2022), 7,384 undergrad + 1,526 grad; page says nearly 9,000 in 2025
+- Tuition and fees, in state: $45,200 (2026-27), private: $21,485 tuition + $1,115 consolidated fee per semester; page gives $45,200 per year (excludes required health insurance unless waived)
+- Tuition and fees, out of state: $45,200 (2026-27), private: $21,485 tuition + $1,115 consolidated fee per semester; page gives $45,200 per year (excludes required health insurance unless waived)
+- Endowment: $356.8 million (2022)
+- Arena named for: Curb Event Center: Mike Curb, prime donor (music executive (Curb Records) and former lieutenant governor of California)
+
+**Nashville**
+- Population: 704,965 (ACS 2024 1-year)
+- Population in 2020: 689,447 (2020 census)
+- Median household income: $80,090 (ACS 2024 1-year)
+- Income per person: $51,787 (ACS 2024 1-year)
+- Median home value: $438,800 (ACS 2024 1-year)
+- Poverty rate: 12.1% (ACS 2024 1-year)
+- Median age: 34.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 50.8% (ACS 2024 1-year)
+- Average commute: 25.2 minutes (ACS 2024 1-year)
+- Veterans: 25,133 (ACS 2024 1-year)
+- Born abroad: 15.6% (ACS 2024 1-year)
+- Founded: 1779, founded 1779; incorporated 1806
+- County seat: yes
+- Biggest employer: Vanderbilt University Medical Center (28,300 employees)
+- January average: 39.6°F
+- Snow a year: 4.7 inches
+- Elevation: 554 feet
+- County: Davidson County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

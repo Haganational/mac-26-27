@@ -27,7 +27,33 @@ _UCSB (Big West). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 26,133 (Fall 2024)
+- Tuition and fees, in state: $17,695 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees
+- Tuition and fees, out of state: $56,965 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees; includes nonresident supplemental tuition
+- Endowment: $665.9 million (2024)
+- Football: none, D-I football dropped Dec 1971; student-run D-III team 1987-91, dropped again 1992
+- Arena named for: UCSB Events Center ("The Thunderdome"): not named for a person or company (generic name; no donor named on athletics Wikipedia page)
+
+**Santa Barbara**
+- Population: 87,291 (ACS 2024 1-year)
+- Population in 2020: 88,665 (2020 census)
+- Median household income: $106,800 (ACS 2024 1-year)
+- Income per person: $65,269 (ACS 2024 1-year)
+- Median home value: $1.7 million (ACS 2024 1-year)
+- Poverty rate: 15.2% (ACS 2024 1-year)
+- Median age: 41 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 55.2% (ACS 2024 1-year)
+- Average commute: 17 minutes (ACS 2024 1-year)
+- Veterans: 2,373 (ACS 2024 1-year)
+- Born abroad: 20.2% (ACS 2024 1-year)
+- Founded: 1850, incorporated Apr 9, 1850
+- County seat: yes
+- Biggest employer: County of Santa Barbara (4,307 employees, June 2021)
+- January average: 56.6°F
+- Elevation: 49 feet
+- County: Santa Barbara County
+- College-town index: 0.30 students per resident (a big presence)
 
 ## The program's best
 

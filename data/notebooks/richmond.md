@@ -27,7 +27,31 @@ _Richmond (A-10). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,914 (Spring 2021)
+- Tuition and fees, in state: $70,725 (2026-27), combined tuition and fees, full-time undergrad (A&S, Business, Jepson)
+- Tuition and fees, out of state: $70,725 (2026-27), private; same
+- Endowment: $3.49 billion (2025)
+- Football: FCS, page implies FCS via 2008 FCS national title
+- Arena named for: E. Claiborne Robins Sr. (Robins Center) (UR alumnus (1931) and leading benefactor; arena page does not state source of fortune)
+
+**Richmond**
+- Population: 233,655 (ACS 2024 1-year)
+- Median household income: $63,390 (ACS 2024 1-year)
+- Income per person: $46,268 (ACS 2024 1-year)
+- Median home value: $377,900 (ACS 2024 1-year)
+- Poverty rate: 18.1% (ACS 2024 1-year)
+- Median age: 35.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 48.2% (ACS 2024 1-year)
+- Average commute: 22.6 minutes (ACS 2024 1-year)
+- Veterans: 10,132 (ACS 2024 1-year)
+- Born abroad: 7.6% (ACS 2024 1-year)
+- Founded: 1737
+- January average: 38.3°F
+- Snow a year: 8.8 inches
+- Elevation: 213 feet
+- County: independent city (no county)
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

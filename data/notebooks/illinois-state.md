@@ -27,7 +27,33 @@ _Illinois State (Missouri Valley). Anchors are fictional AI personas, not affili
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,577 (Fall 2026)
+- Tuition and fees, in state: $16,816 (2026-27), annual estimate, 15 hrs/semester: tuition $12,670 + fees $4,146; some colleges differ
+- Tuition and fees, out of state: $29,484 (2026-27), annual estimate: tuition $25,338 + fees $4,146
+- Endowment: $270.0 million (2026)
+- Football: FCS, Missouri Valley Football Conference
+- Men's basketball coach's pay: $550,000 (2025 extension)
+
+**Normal**
+- Population: 53,569 (ACS 2024 5-year)
+- Population in 2020: 52,736 (2020 census)
+- Median household income: $64,785 (ACS 2024 5-year)
+- Income per person: $36,168 (ACS 2024 5-year)
+- Median home value: $213,600 (ACS 2024 5-year)
+- Poverty rate: 21.4% (ACS 2024 5-year)
+- Median age: 25 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 52.9% (ACS 2024 5-year)
+- Average commute: 16.5 minutes (ACS 2024 5-year)
+- Veterans: 1,487 (ACS 2024 5-year)
+- Born abroad: 8.1% (ACS 2024 5-year)
+- Founded: 1867, renamed Normal Feb 1865; incorporated Feb 25, 1867
+- January average: 24.5°F
+- Snow a year: 20.1 inches
+- Elevation: 830 feet
+- County: McLean County
+- The coach's pay equals 8 median Normal household incomes
+- College-town index: 0.40 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,31 @@ _St. Bonaventure (A-10). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,053 (Fall 2025)
+- Tuition and fees, in state: $45,520 (2026-27), 43,995 tuition + 1,525 fees (annual estimated costs)
+- Tuition and fees, out of state: $45,520 (2026-27), private; same
+- Endowment: $103.8 million (2025)
+- Football: none, no football among 19 varsity programs
+- Arena named for: Mike Reilly (Reilly Center) (former St. Bonaventure football and basketball coach; no donor named)
+
+**Olean**
+- Population: 13,738 (ACS 2024 5-year)
+- Population in 2020: 13,937 (2020 census)
+- Median household income: $51,261 (ACS 2024 5-year)
+- Income per person: $29,512 (ACS 2024 5-year)
+- Median home value: $86,100 (ACS 2024 5-year)
+- Poverty rate: 26.7% (ACS 2024 5-year)
+- Median age: 39 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 29.9% (ACS 2024 5-year)
+- Average commute: 14.4 minutes (ACS 2024 5-year)
+- Veterans: 558 (ACS 2024 5-year)
+- Born abroad: 3.2% (ACS 2024 5-year)
+- Founded: 1854
+- January average: 22.4°F
+- Snow a year: 64.7 inches
+- County: Cattaraugus County
+- College-town index: 0.22 students per resident (a big presence)
 
 ## The program's best
 

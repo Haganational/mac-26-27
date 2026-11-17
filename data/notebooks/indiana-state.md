@@ -27,7 +27,32 @@ _Indiana State (Missouri Valley). Anchors are fictional AI personas, not affilia
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,305 (Fall 2023)
+- Tuition and fees, in state: $10,258 (2025-26), annual: 9978 tuition + 280 required fees
+- Tuition and fees, out of state: $14,058 (2025-26), annual non-resident 'reduced rate': 13778 tuition + 280 fees
+- Endowment: $120.4 million (2025)
+- Football: FCS, Missouri Valley Football Conference
+- Arena named for: Hulman family (Tony Hulman)
+
+**Terre Haute**
+- Population: 58,427 (ACS 2024 5-year)
+- Population in 2020: 58,389 (2020 census)
+- Median household income: $43,126 (ACS 2024 5-year)
+- Income per person: $25,369 (ACS 2024 5-year)
+- Median home value: $115,700 (ACS 2024 5-year)
+- Poverty rate: 24.7% (ACS 2024 5-year)
+- Median age: 32.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 24.6% (ACS 2024 5-year)
+- Average commute: 18.5 minutes (ACS 2024 5-year)
+- Veterans: 2,910 (ACS 2024 5-year)
+- Born abroad: 4.1% (ACS 2024 5-year)
+- Founded: 1816
+- County seat: yes
+- January average: 28.7°F
+- Elevation: 505 feet
+- County: Vigo County
+- College-town index: 0.14 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,36 @@ _Colorado St (Pac-12). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 34,412 (Fall 2025)
+- Tuition and fees, in state: $14,115 (2026-27), 7,057.45 per semester (12 credits; tuition after COF stipend + general, tech, facility, transport fees) x2; page gives per-semester
+- Tuition and fees, out of state: $37,684 (2026-27), 18,841.79 per semester x2
+- Endowment: $667.5 million (2025)
+- Football: FBS, Mountain West per infobox (Pac-12 from 2026 per desk league list)
+- Men's basketball coach's pay: $900,000 (2025-26 onward (5-year deal from March 2025))
+- Arena named for: Moby Dick (Moby Arena) (nickname: hump-shaped building likened to a beached whale; no donor)
+
+**Fort Collins**
+- Population: 170,927 (ACS 2024 1-year)
+- Population in 2020: 169,810 (2020 census)
+- Median household income: $81,199 (ACS 2024 1-year)
+- Income per person: $48,392 (ACS 2024 1-year)
+- Median home value: $612,600 (ACS 2024 1-year)
+- Poverty rate: 15% (ACS 2024 1-year)
+- Median age: 31.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 62.3% (ACS 2024 1-year)
+- Average commute: 18.7 minutes (ACS 2024 1-year)
+- Veterans: 6,076 (ACS 2024 1-year)
+- Born abroad: 7% (ACS 2024 1-year)
+- Founded: 1864
+- County seat: yes
+- Biggest employer: Colorado State University
+- January average: 31.6°F
+- Snow a year: 51.4 inches
+- Elevation: 4,997 feet
+- County: Larimer County
+- The coach's pay equals 11 median Fort Collins household incomes
+- College-town index: 0.20 students per resident (a big presence)
 
 ## The program's best
 

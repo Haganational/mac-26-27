@@ -27,7 +27,34 @@ _Duquesne (A-10). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,294 (Fall 2025)
+- Tuition and fees, in state: $53,238 (2026-27), private; annual (two-semester) flat tuition, general/liberal arts rate; separate fees page not fetched, fees not included
+- Tuition and fees, out of state: $53,238 (2026-27), private; same
+- Endowment: $739.9 million (2025)
+- Football: FCS, Northeast Conference
+- Arena named for: Chuck Cooper (Duquesne alumnus, first Black player drafted in the NBA); UPMC holds naming rights (n/a (honoree, not a donor); UPMC is a nonprofit health system)
+
+**Pittsburgh**
+- Population: 307,670 (ACS 2024 1-year)
+- Population in 2020: 302,971 (2020 census)
+- Median household income: $66,954 (ACS 2024 1-year)
+- Income per person: $49,351 (ACS 2024 1-year)
+- Median home value: $220,400 (ACS 2024 1-year)
+- Poverty rate: 20.2% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 53.3% (ACS 2024 1-year)
+- Average commute: 24.4 minutes (ACS 2024 1-year)
+- Veterans: 12,076 (ACS 2024 1-year)
+- Born abroad: 8.9% (ACS 2024 1-year)
+- Founded: 1758, 1758 (Fort Pitt); borough 1794, city 1816
+- County seat: yes
+- Biggest employer: University of Pittsburgh Medical Center (UPMC), 48,000 employees
+- January average: 28.8°F
+- Snow a year: 44.1 inches
+- County: Allegheny County
+- ICE 287(g) agreement in the county: yes, Stowe Township Police (also Springdale Police; Robinson Police disputed) (task force (Stowe))
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

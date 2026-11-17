@@ -27,7 +27,33 @@ _Bradley (Missouri Valley). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,217 (Fall 2023)
+- Tuition and fees, in state: $44,728 (2026-27), private: tuition $43,718 + mandatory fees $1,010 per year
+- Tuition and fees, out of state: $44,728 (2026-27), private: tuition $43,718 + mandatory fees $1,010 per year
+- Endowment: $394.2 million (2025)
+- Football: none, football disbanded 1970
+
+**Peoria**
+- Population: 115,996 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 113,150 (2020 census)
+- Median household income: $65,078 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $38,209 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $177,900 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 21.8% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 35.7 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 42.5% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 17.9 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 4,305 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 7.7% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1845, settled 1691; village 1835; city 1845
+- County seat: yes
+- Biggest employer: OSF Saint Francis Medical Center (13,500 employees, 2023 ACFR)
+- January average: 25.6°F
+- Snow a year: 26.2 inches
+- Elevation: 712 feet
+- County: Peoria County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

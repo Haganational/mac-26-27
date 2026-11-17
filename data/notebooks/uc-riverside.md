@@ -27,7 +27,31 @@ _UC Riverside (Big West). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 26,809 (2022)
+- Tuition and fees, in state: $16,790 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees
+- Tuition and fees, out of state: $56,060 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees; includes nonresident supplemental tuition
+- Endowment: $249.9 million (2023)
+- Football: none, football not among UCR varsity teams (page gives no drop date)
+
+**Riverside**
+- Population: 323,792 (ACS 2024 1-year)
+- Median household income: $90,004 (ACS 2024 1-year)
+- Income per person: $35,700 (ACS 2024 1-year)
+- Median home value: $616,400 (ACS 2024 1-year)
+- Poverty rate: 10.5% (ACS 2024 1-year)
+- Median age: 34.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 25.4% (ACS 2024 1-year)
+- Average commute: 31.5 minutes (ACS 2024 1-year)
+- Veterans: 9,376 (ACS 2024 1-year)
+- Born abroad: 21.7% (ACS 2024 1-year)
+- Founded: 1883, founded early 1870s; incorporated Oct 11, 1883
+- County seat: yes
+- Biggest employer: County of Riverside (24,399 employees, 2023 ACFR)
+- January average: 55.6°F
+- Elevation: 827 feet
+- County: Riverside County
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,35 @@ _LMU (WCC). Anchors are fictional AI personas, not affiliated with any school. T
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,000 (Fall 2024), 7,094 undergrad + 2,906 grad
+- Tuition and fees, in state: $68,939 (2026-27), private; annual tuition and mandatory fees, full-time undergrad (2025-26: 65,367)
+- Tuition and fees, out of state: $68,939 (2026-27), private, same figure
+- Endowment: $722.7 million (2024)
+- Football: none, discontinued Dec 1951 after 1951 season
+
+**Westchester**
+- Population: 3,878,718 (ACS 2024 1-year)
+- Population in 2020: 3,898,747 (2020 census)
+- Median household income: $82,263 (ACS 2024 1-year)
+- Income per person: $48,230 (ACS 2024 1-year)
+- Median rent: $1,879 a month (2019-2023 ACS)
+- Median home value: $947,900 (ACS 2024 1-year)
+- Poverty rate: 16.0% (ACS 2024 1-year)
+- Median age: 37.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.9% (ACS 2024 1-year)
+- Homeownership: 36.3% (2019-2023 ACS)
+- Average commute: 31.7 minutes (ACS 2024 1-year)
+- Veterans: 68,438 (ACS 2024 1-year)
+- Born abroad: 36.1% (ACS 2024 1-year)
+- Founded: 1781
+- County seat: yes
+- Biggest employer: Kaiser Permanente, largest non-government employer in Los Angeles County (44,769, June 2023), not city-only
+- January average: 58.4°F
+- Elevation: 233 feet
+- County: Los Angeles County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

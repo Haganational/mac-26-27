@@ -27,7 +27,34 @@ _Utah State (Pac-12). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 32,286 (Fall 2026)
+- Tuition and fees, in state: $9,064 (2026-27), page gives 4,532 per semester (Logan, full-time 12+ credits); doubled
+- Tuition and fees, out of state: $26,510 (2026-27), page gives 13,255 per semester; doubled
+- Endowment: $616.7 million (FY2025 (June 30, 2025))
+- Football: FBS, joined Pac-12 in 2026 from Mountain West
+- Arena named for: Dee Glen Smith (Dee Glen Smith Spectrum) (founder of Smith's Food and Drug grocery chain; his gift funded a 1988 renovation)
+
+**Logan**
+- Population: 54,907 (ACS 2024 5-year)
+- Population in 2020: 52,778 (2020 census)
+- Median household income: $60,687 (ACS 2024 5-year)
+- Income per person: $26,214 (ACS 2024 5-year)
+- Median home value: $383,600 (ACS 2024 5-year)
+- Poverty rate: 22.3% (ACS 2024 5-year)
+- Median age: 23.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40.3% (ACS 2024 5-year)
+- Average commute: 15.2 minutes (ACS 2024 5-year)
+- Veterans: 1,296 (ACS 2024 5-year)
+- Born abroad: 9.3% (ACS 2024 5-year)
+- Founded: 1859
+- County seat: yes
+- Biggest employer: Utah State University
+- January average: 24.9°F
+- Snow a year: 61.5 inches
+- Elevation: 4,534 feet
+- County: Cache County
+- College-town index: 0.59 students per resident (the school is the town)
 
 ## The program's best
 

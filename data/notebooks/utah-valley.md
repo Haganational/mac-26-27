@@ -27,7 +27,32 @@ _Utah Valley (Big West). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 48,670 (Fall 2025)
+- Tuition and fees, in state: $6,873 (2026-27), annual (two semesters): tuition $6,204 + fees $669.10
+- Tuition and fees, out of state: $19,577 (2026-27), annual: nonresident tuition $18,908 + fees $669.10
+- Endowment: $120.7 million (2025)
+- Arena named for: UCCU Center: Utah Community Credit Union (naming rights; formerly David O. McKay Events Center) (Utah Community Credit Union, a Utah credit union)
+
+**Orem**
+- Population: 96,642 (ACS 2024 1-year)
+- Population in 2020: 98,129 (2020 census)
+- Median household income: $85,292 (ACS 2024 1-year)
+- Income per person: $38,262 (ACS 2024 1-year)
+- Median home value: $528,700 (ACS 2024 1-year)
+- Poverty rate: 10.8% (ACS 2024 1-year)
+- Median age: 26.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 44.2% (ACS 2024 1-year)
+- Average commute: 21.2 minutes (ACS 2024 1-year)
+- Veterans: 2,146 (ACS 2024 1-year)
+- Born abroad: 13.8% (ACS 2024 1-year)
+- Founded: 1877, settled 1877; incorporated May 5, 1919
+- County seat: no
+- Biggest employer: Utah Valley University (3,030 employees, 2023 CAFR)
+- Elevation: 4,767 feet
+- County: Utah County
+- ICE 287(g) agreement in the county: yes, Utah County Sheriff's Office (task force and warrant service officer (MOAs approved by Utah County Commission July 16, 2025))
+- College-town index: 0.50 students per resident (the school is the town)
 
 ## The program's best
 
