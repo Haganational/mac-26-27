@@ -26,7 +26,7 @@ TWITCH_CHANNEL = "juiceboxtv"  # kept for live streams; Home now leads with the 
 # House banner ad. Placeholder until real sponsors: JuiceBox Nation, Matthew's own site.
 TIP = {"venmo": "hardwoodbricks", "url": "https://venmo.com/u/hardwoodbricks",
        "line": "Hardwood Bricks is free and independent. Tips cover the data feeds, gas and arena trips."}
-AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Fresh takes, live streams and the JuiceBox crew.", "cta": "Visit juiceboxnation.com"}
+AD = {"name": "JuiceBox Nation", "url": "https://juiceboxnation.com/", "line": "Free games, no sign-in, plus fresh takes and live streams from the JuiceBox crew.", "cta": "Play free at juiceboxnation.com"}
 BRAND = "#2a1a10"  # dark hickory: share cards, app icon and the phone address-bar tint (was green)
 GOLD = "#f0c75e"
 MORTAR = "#cdb99a"

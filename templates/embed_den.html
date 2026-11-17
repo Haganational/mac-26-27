@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Tonight in the Den · Hardwood Bricks</title>
+<style>
+  @font-face { font-family: "HB Serif"; src: url("../static/fonts/Newsreader-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
+  @font-face { font-family: "HB Serif"; src: url("../static/fonts/Newsreader-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+  @font-face { font-family: "HB Cond"; src: url("../static/fonts/BarlowCondensed-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+  @font-face { font-family: "HB Cond"; src: url("../static/fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
+  @font-face { font-family: "HB Sans"; src: url("../static/fonts/Barlow-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
+  :root {
+    --page: #f3eee4; --card: #faf6ee; --ink: #1d1712; --muted: #7d7468; --rule: #d6ccb9;
+    --brick: #9e3b26; --mortar: #cdb99a; --hick: #2a1a10; --gold: #f0c75e;
+    --serif: "HB Serif", Georgia, serif; --cond: "HB Cond", "Arial Narrow", sans-serif; --sans: "HB Sans", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --page: #14100d; --card: #1d1814; --ink: #f0e9dd; --muted: #a39887; --rule: #3a3129; --brick: #d0644a; --mortar: #5a4a37;
+  } }
+  :root[data-theme="dark"] { --page: #14100d; --card: #1d1814; --ink: #f0e9dd; --muted: #a39887; --rule: #3a3129; --brick: #d0644a; --mortar: #5a4a37; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: transparent; color: var(--ink); }
+  body { font: 400 15px/1.4 var(--sans); }
+  .w { border: 1px solid var(--rule); background: var(--card); overflow: hidden; }
+  .hd { background: var(--hick); color: #f4ead8; padding: 12px 14px 10px; display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .hd b { font: 600 22px/1 var(--serif); letter-spacing: -.01em; }
+  .hd b i { color: var(--gold); font-style: normal; }
+  .hd small { font: 600 11px/1 var(--cond); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); white-space: nowrap; }
+  .bricks { height: 6px; background: repeating-linear-gradient(90deg, var(--brick) 0 22px, var(--mortar) 22px 24px); }
+  .sec { padding: 12px 14px 4px; }
+  .k { font: 700 11px/1 var(--cond); letter-spacing: .14em; text-transform: uppercase; color: var(--brick); margin: 0 0 8px; }
+  .k span { color: var(--muted); }
+  .gm { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 8px 0; border-top: 1px solid var(--rule); align-items: baseline; }
+  .gm:first-of-type { border-top: 0; }
+  .gm .t { font: 600 15px/1.2 var(--sans); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .gm .p { font: 700 15px/1 var(--cond); color: var(--brick); letter-spacing: .02em; }
+  .gm .m { grid-column: 1 / -1; font: 600 11px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .cu { display: grid; grid-template-columns: 1.25fr 1fr 1fr 1fr; gap: 4px; margin-top: 2px; }
+  .cu div { min-height: 34px; }
+  .cu div { background: var(--page); border: 1px solid var(--rule); padding: 7px 6px; font: 700 12px/1.1 var(--cond); letter-spacing: .06em; text-transform: uppercase; text-align: center; }
+  .cu div:not(.s) { font-size: 11px; letter-spacing: .02em; display: flex; align-items: center; justify-content: center; }
+  .cu .c { background: var(--hick); color: var(--gold); border-color: var(--hick); }
+  .cu .s { text-align: left; }
+  .ft { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 14px; border-top: 1px solid var(--rule); margin-top: 8px; }
+  .ft a.go { background: var(--ink); color: var(--page); text-decoration: none; font: 700 13px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; padding: 10px 14px; }
+  .ft a.go:hover { background: var(--brick); }
+  .ft span { font: italic 400 13px/1.3 var(--serif); color: var(--muted); }
+  .ft a.go { white-space: nowrap; }
+  @media (max-width: 340px) { .ft { flex-direction: column; align-items: stretch; text-align: center; } .ft a.go { text-align: center; } .cu .s { font-size: 11px; letter-spacing: .02em; } }
+  .quiet { padding: 6px 0 4px; font: italic 400 15px/1.4 var(--serif); color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="w">
+  <div class="hd"><b>The Den<i>.</i></b><small id="e-day">Tonight</small></div>
+  <div class="bricks" aria-hidden="true"></div>
+  <div class="sec">
+    <p class="k">Pick 4 <span>· closest games tonight</span></p>
+    <div id="e-games"><p class="quiet">Loading tonight's games…</p></div>
+  </div>
+  <div class="sec" id="e-cu-wrap" hidden>
+    <p class="k">Called Up <span>· today's grid</span></p>
+    <div class="cu" id="e-cu"></div>
+  </div>
+  <div class="ft"><span>Free. No money. Picks lock at tip.</span><a class="go" id="e-go" href="{{ base }}den.html?ref=embed" target="_top" rel="noopener">Play the Den →</a></div>
+</div>
+<script>
+(function () {
+  "use strict";
+  var q = new URLSearchParams(location.search), N = Math.max(1, Math.min(8, +q.get("n") || 4));
+  if (q.get("theme") === "dark" || q.get("theme") === "light") document.documentElement.dataset.theme = q.get("theme");
+  var ref = q.get("ref"); if (ref && /^[a-z0-9-]{1,32}$/i.test(ref)) document.getElementById("e-go").href = "{{ base }}den.html?ref=" + ref;
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+  var TZ = "America/New_York";
+  function etDate(t) { var p = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(t); var g = function (k) { return p.filter(function (x) { return x.type === k; })[0].value; }; return g("year") + "-" + g("month") + "-" + g("day"); }
+  function tip(iso) { return new Date(iso).toLocaleTimeString("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit" }).replace(":00", "").replace("12 PM", "Noon") + " ET"; }
+  function getJSON(p) { return fetch(p, { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  var day = etDate(new Date()), now = Date.now();
+  document.getElementById("e-day").textContent = new Date(day + "T12:00:00Z").toLocaleDateString("en-US", { timeZone: "UTC", weekday: "short", month: "short", day: "numeric" });
+  function resize() { try { parent.postMessage({ hbEmbed: "den", height: document.querySelector(".w").offsetHeight + 2 }, "*"); } catch (e) {} }
+  Promise.all([getJSON("../den/slate-" + day + ".json"), getJSON("../den/grid-" + day + ".json")]).then(function (x) {
+    var s = x[0], g = x[1], box = document.getElementById("e-games");
+    var open = ((s && s.games) || []).filter(function (gm) { return gm.win_home != null && Date.parse(gm.tip) > now; });
+    open.sort(function (a, b) { return Math.abs(a.win_home - 0.5) - Math.abs(b.win_home - 0.5) || Date.parse(a.tip) - Date.parse(b.tip); });
+    box.innerHTML = open.length ? open.slice(0, N).sort(function (a, b) { return Date.parse(a.tip) - Date.parse(b.tip); }).map(function (gm) {
+      var pa = Math.round(100 * (1 - gm.win_home)), ph = 100 - pa;
+      return '<div class="gm"><span class="t">' + esc(gm.away.short) + ' at ' + esc(gm.home.short) + '</span><span class="p">' + pa + '–' + ph + '</span><span class="m">' + esc(tip(gm.tip)) + (gm.home.edition || gm.away.edition ? ' · ' + esc(gm.home.edition || gm.away.edition) : '') + '</span></div>';
+    }).join("") : '<p class="quiet">' + ((s && s.games && s.games.length) ? "Every game tonight has tipped. Scores post after finals." : "No games tonight. Called Up is still on.") + '</p>';
+    if (g && g.rows && g.cols) {
+      var h = '<div class="c">Called Up</div>' + g.cols.map(function (c) { return '<div>' + esc(c.name) + '</div>'; }).join("");
+      g.rows.forEach(function (r) { h += '<div class="s">' + esc(r.short) + '</div><div></div><div></div><div></div>'; });
+      document.getElementById("e-cu").innerHTML = h; document.getElementById("e-cu-wrap").hidden = false;
+    }
+    resize();
+  });
+  window.addEventListener("resize", resize);
+})();
+</script>
+</body>
+</html>

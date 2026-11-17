@@ -132,6 +132,8 @@ def test_den_page_and_its_quiet_front_page_line(tmp_path, monkeypatch):
     assert 'href="den.html">The Den</a>' in front and 'class="den-tz" href="den.html"' not in front, "no slate, no teaser line"
     den = (tmp_path / "den.html").read_text()
     assert '<link rel="canonical" href="https://x.com/den.html">' in den and 'aria-current="page">The Den' in den
+    embed = (tmp_path / "embed" / "den.html").read_text()
+    assert 'href="https://x.com/den.html?ref=embed" target="_top"' in embed and "../den/slate-" in embed, "frameable Den widget"
     today = datetime.now(timezone.utc).astimezone(hub.ET).strftime("%Y-%m-%d")
     (tmp_path / "den").mkdir()
 
