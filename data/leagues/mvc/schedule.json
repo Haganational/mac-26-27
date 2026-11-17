@@ -1880,7 +1880,7 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1888,13 +1888,13 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "20:00 - 1st"
   },
   {
    "game_id": "401920953",
@@ -9358,5 +9358,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T17:03:12+00:00"
 }

@@ -2334,7 +2334,7 @@
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2342,13 +2342,13 @@
     "key": null,
     "name": "Louisiana Christian Wildcats",
     "abbr": "LCHR",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:33 - 1st"
   },
   {
    "game_id": "401911521",
@@ -10758,5 +10758,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T17:10:35+00:00"
 }
