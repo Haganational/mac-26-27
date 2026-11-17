@@ -27,7 +27,33 @@ _NJIT (America East). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,309 (Fall 2025)
+- Tuition and fees, in state: $22,426 (2026-27), annual tuition $18,352 + fees $4,074, two semesters full-time
+- Tuition and fees, out of state: $42,300 (2026-27), annual tuition $38,226 + fees $4,074
+- Endowment: $203.4 million (2025)
+- Football: none (https://en.wikipedia.org/wiki/New_Jersey_Institute_of_Technology)
+- Arena named for: Joel and Diane Bloom (Joel and Diane Bloom Wellness and Events Center) (not stated on pages fetched)
+
+**Newark**
+- Population: 317,303 (ACS 2024 1-year)
+- Population in 2020: 311,549 (2020 census)
+- Median household income: $58,490 (ACS 2024 1-year)
+- Income per person: $26,359 (ACS 2024 1-year)
+- Median home value: $396,600 (ACS 2024 1-year)
+- Poverty rate: 21.8% (ACS 2024 1-year)
+- Median age: 33.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 21.5% (ACS 2024 1-year)
+- Average commute: 32.7 minutes (ACS 2024 1-year)
+- Veterans: 3,515 (ACS 2024 1-year)
+- Born abroad: 38.5% (ACS 2024 1-year)
+- Founded: 1666, settled 1666 (colony founded 1663); city 1836
+- County seat: yes
+- January average: 32.8°F, 1991-2020 normals, Newark Liberty International Airport
+- Snow a year: 31.5 inches
+- Elevation: 13 feet
+- County: Essex County
+- College-town index: 0.04 students per resident (a guest in a bigger place)
 
 ## The program's best
 

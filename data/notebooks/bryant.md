@@ -27,7 +27,30 @@ _Bryant (America East). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,751, no year given on page
+- Tuition and fees, in state: $57,919 (2027-28), private; per-year tuition 56,582 + student involvement 618 + experiential learning 200 + technology 519; page currently lists 2027-28 rates (no 2026-27 figure seen)
+- Tuition and fees, out of state: $57,919 (2027-28), private, same figure
+- Endowment: $249.3 million (FY2025)
+- Football: FCS, CAA Football member since 2024
+
+**Smithfield**
+- Population: 22,233 (ACS 2024 5-year)
+- Population in 2020: 22,118 (2020 census)
+- Median household income: $102,077 (ACS 2024 5-year)
+- Income per person: $46,875 (ACS 2024 5-year)
+- Median home value: $446,400 (ACS 2024 5-year)
+- Poverty rate: 6.2% (ACS 2024 5-year)
+- Median age: 41.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40% (ACS 2024 5-year)
+- Average commute: 24.6 minutes (ACS 2024 5-year)
+- Veterans: 834 (ACS 2024 5-year)
+- Born abroad: 5.4% (ACS 2024 5-year)
+- Founded: 1731, incorporated February 1731
+- Biggest employer: Fidelity Investments, 4,400 employees per town's 2024 Comprehensive Annual Financial Report
+- Elevation: 367 feet
+- County: Providence County
+- College-town index: 0.17 students per resident (a big presence)
 
 ## The program's best
 

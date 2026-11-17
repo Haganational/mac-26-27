@@ -27,7 +27,32 @@ _Tarleton State (UAC). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,258 (Fall 2024)
+- Tuition and fees, in state: $10,181 (2026-27), annual: labeled 15/15 hours (fall+spring); tarleton.edu/finaid/cost says COA covers one academic year, fall and spring
+- Tuition and fees, out of state: $23,021 (2026-27), annual: 15/15 hours (fall+spring)
+- Endowment: $112.0 million (2024)
+- Football: FCS, Wikipedia lists WAC and UAC affiliations; UAC is the football-only conference whose members play FCS (per https://en.wikipedia.org/wiki/University_of_North_Alabama)
+
+**Stephenville**
+- Population: 21,682 (ACS 2024 5-year)
+- Population in 2020: 20,897 (2020 census), infobox/table figure; body text says 20,847
+- Median household income: $53,015 (ACS 2024 5-year)
+- Income per person: $27,593 (ACS 2024 5-year)
+- Median home value: $241,300 (ACS 2024 5-year)
+- Poverty rate: 20.0% (ACS 2024 5-year)
+- Median age: 25.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 33.3% (ACS 2024 5-year)
+- Average commute: 16.0 minutes (ACS 2024 5-year)
+- Veterans: 697 (ACS 2024 5-year)
+- Born abroad: 5.3% (ACS 2024 5-year)
+- Founded: 1854, incorporated 1889
+- County seat: yes
+- January average: 45.0°F
+- Snow a year: 0.7 inches
+- Elevation: 1,342 feet
+- County: Erath County
+- College-town index: 0.80 students per resident (the school is the town)
 
 ## The program's best
 

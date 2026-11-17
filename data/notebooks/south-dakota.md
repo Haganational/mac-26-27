@@ -27,7 +27,32 @@ _South Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,405, page gives no year
+- Endowment: $338.6 million (FY2025)
+- Football: FCS, Missouri Valley Football Conference
+- Arena named for: Sanford Health (Sanford Coyote Sports Center) (health system; university page calls it 'a major supporter of USD Athletics')
+
+**Vermillion**
+- Population: 11,878 (ACS 2024 5-year)
+- Population in 2020: 11,695 (2020 census)
+- Median household income: $50,456 (ACS 2024 5-year)
+- Income per person: $26,468 (ACS 2024 5-year)
+- Median home value: $219,000 (ACS 2024 5-year)
+- Poverty rate: 24.4% (ACS 2024 5-year)
+- Median age: 23.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 50.6% (ACS 2024 5-year)
+- Average commute: 16.9 minutes (ACS 2024 5-year)
+- Veterans: 458 (ACS 2024 5-year)
+- Born abroad: 4.3% (ACS 2024 5-year)
+- Founded: 1859
+- County seat: yes
+- Biggest employer: University of South Dakota, about 800 employees
+- January average: 20.4°F
+- Snow a year: 32.7 inches
+- Elevation: 1,234 feet, infobox; text says 1,221 ft
+- County: Clay County
+- College-town index: 0.88 students per resident (the school is the town)
 
 ## The program's best
 

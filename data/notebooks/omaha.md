@@ -27,7 +27,32 @@ _Omaha (Summit). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,058 (Fall 2022)
+- Endowment: $110.0 million, page gives no fiscal year
+- Football: none, dropped football before 2011 move to Division I (exact year not on page)
+
+**Omaha**
+- Population: 489,263 (ACS 2024 1-year)
+- Population in 2020: 486,051 (2020 census)
+- Median household income: $71,640 (ACS 2024 1-year)
+- Income per person: $40,776 (ACS 2024 1-year)
+- Median home value: $269,500 (ACS 2024 1-year)
+- Poverty rate: 14.2% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.8% (ACS 2024 1-year)
+- Average commute: 20 minutes (ACS 2024 1-year)
+- Veterans: 18,001 (ACS 2024 1-year)
+- Born abroad: 12.6% (ACS 2024 1-year)
+- Founded: 1854
+- County seat: yes
+- Biggest employer: Offutt Air Force Base, 7,500+ per Greater Omaha Chamber list cited on Wikipedia
+- January average: 24.4°F
+- Snow a year: 27.1 inches
+- Elevation: 1,060 feet
+- County: Douglas County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

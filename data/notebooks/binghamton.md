@@ -27,7 +27,32 @@ _Binghamton (America East). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 18,652 (Fall 2025)
+- Tuition and fees, in state: $10,567 (2026-27), NY resident tuition 7,070 + fees 3,497, listed within the annual (nine-month) estimated cost of attendance
+- Tuition and fees, out of state: $33,337 (2026-27), non-resident tuition 29,840 + fees 3,497, annual cost-of-attendance listing
+- Endowment: $330.0 million (2026), page gives calendar year, not fiscal year
+- Football: none, list of 21 varsity sports omits football; only intramural co-rec football mentioned
+
+**Binghamton**
+- Population: 47,151 (ACS 2024 5-year)
+- Population in 2020: 47,969 (2020 census)
+- Median household income: $45,578 (ACS 2024 5-year)
+- Income per person: $30,320 (ACS 2024 5-year)
+- Median home value: $124,800 (ACS 2024 5-year)
+- Poverty rate: 32.6% (ACS 2024 5-year)
+- Median age: 35.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30.7% (ACS 2024 5-year)
+- Average commute: 19 minutes (ACS 2024 5-year)
+- Veterans: 1,402 (ACS 2024 5-year)
+- Born abroad: 11.7% (ACS 2024 5-year)
+- Founded: 1800, settled 1800; village 1834, city 1867
+- County seat: yes
+- January average: 22.5°F
+- Snow a year: 86.5 inches
+- Elevation: 866 feet
+- County: Broome County
+- College-town index: 0.40 students per resident (a big presence)
 
 ## The program's best
 

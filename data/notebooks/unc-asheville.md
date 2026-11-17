@@ -27,7 +27,33 @@ _UNC Asheville (Big South). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,054 (Fall 2024), infobox; body text gives 3,030
+- Tuition and fees, in state: $7,628 (2026-27), annual = 2 x per-semester full-time (tuition $2,092 + required fees $1,722); excludes $32 loan fee
+- Tuition and fees, out of state: $24,914 (2026-27), annual = 2 x per-semester (tuition $10,735 + required fees $1,722)
+- Endowment: $83.0 million (FY2025)
+- Football: none, football not among sports listed on Wikipedia
+
+**Asheville**
+- Population: 94,983 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 94,589 (2020 census)
+- Median household income: $78,996 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $53,338 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $500,400 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 15.4% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 43.7 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 57.7% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 18.2 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 3,923 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 7.8% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1797, incorporated 1797; established as Morristown 1793
+- County seat: yes
+- Biggest employer: Mission Health System (3,000+ employees, 2009 CAFR; dated)
+- January average: 38.7°F, climate table; body text says 37.1
+- Snow a year: 10.3 inches
+- Elevation: 2,130 feet
+- County: Buncombe County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

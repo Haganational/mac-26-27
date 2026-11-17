@@ -27,7 +27,19 @@ _Austin Peay (UAC). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,185 (Fall 2025), article text; infobox lists 9,945 with no year
+- Endowment: $79.3 million, no fiscal year given
+
+**Clarksville**
+- Population in 2020: 166,722 (2020 census)
+- Founded: 1784, infobox 1784 (text says Dec 29, 1785); incorporated 1807/1808
+- County seat: yes
+- Biggest employer: Trane, described as Clarksville's largest private employer
+- January average: 37.3°F
+- Snow a year: 7.2 inches
+- Elevation: 476 feet
+- County: Montgomery County
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Abilene Christian (UAC). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,877, infobox gives no year
+- Tuition and fees, in state: $49,250 (2027-28), private; annual block 'Tuition & Student Activity Fee' (up to 36 hours fall/spring/summer); page lists 2027-28, not 2026-27
+- Tuition and fees, out of state: $49,250 (2027-28), private, same figure
+- Endowment: $1.00 billion (FY2026)
+- Football: FCS, United Athletic Conference (since after 2022 season)
+
+**Abilene**
+- Population: 130,033 (ACS 2024 1-year)
+- Population in 2020: 125,182 (2020 census)
+- Median household income: $60,605 (ACS 2024 1-year)
+- Income per person: $32,194 (ACS 2024 1-year)
+- Median home value: $185,900 (ACS 2024 1-year)
+- Poverty rate: 16.6% (ACS 2024 1-year)
+- Median age: 32.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.3% (ACS 2024 1-year)
+- Average commute: 15.6 minutes (ACS 2024 5-year)
+- Veterans: 7,413 (ACS 2024 1-year)
+- Born abroad: 5.2% (ACS 2024 1-year)
+- Founded: 1881
+- County seat: yes, seat of Taylor County; city also extends into Jones County
+- Biggest employer: Dyess Air Force Base, 8,864 per city FY24 ACFR
+- January average: 46.3°F
+- Snow a year: 3.7 inches
+- Elevation: 1,729 feet
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,35 @@ _Oral Roberts (Summit). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,213 (2025)
+- Tuition and fees, in state: $38,430 (2026-27), private; annual tuition 36,250 + general fee 1,320 + technology fee 500 + academic fee 360 (sum of listed annual figures)
+- Tuition and fees, out of state: $38,430 (2026-27), private, same figure
+- Endowment: $45.0 million (2019)
+- Football: none, no football; not among listed sports
+- Arena named for: John and Lottie Mabee (Mabee Center) (founders of the Tulsa-based Mabee Foundation (1948); page gives no further detail on the fortune)
+
+**Tulsa**
+- Population: 413,652 (ACS 2024 1-year)
+- Population in 2020: 413,066 (2020 census)
+- Median household income: $60,930 (ACS 2024 1-year)
+- Income per person: $38,442 (ACS 2024 1-year)
+- Median home value: $234,400 (ACS 2024 1-year)
+- Poverty rate: 16.9% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35% (ACS 2024 1-year)
+- Average commute: 19.7 minutes (ACS 2024 1-year)
+- Veterans: 17,698 (ACS 2024 1-year)
+- Born abroad: 13.2% (ACS 2024 1-year)
+- Founded: 1898, incorporated January 18, 1898; infobox 'Established 1830'
+- County seat: yes
+- Biggest employer: American Airlines maintenance base, American Airlines maintenance base at Tulsa International Airport
+- January average: 38.5°F
+- Snow a year: 8.7 inches
+- Elevation: 636 feet
+- County: Tulsa County
+- ICE 287(g) agreement in the county: yes, Tulsa County Sheriff's Office (None)
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

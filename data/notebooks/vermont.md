@@ -27,7 +27,35 @@ _Vermont (America East). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,320 (Fall 2023)
+- Tuition and fees, in state: $19,996 (2026-27), annual tuition $16,938 + comprehensive fee $3,058; some colleges add $1,000 program fee
+- Tuition and fees, out of state: $49,713 (2026-27), annual tuition $46,655 + comprehensive fee $3,058
+- Endowment: $896.0 million (2024)
+- Football: none (https://en.wikipedia.org/wiki/University_of_Vermont)
+- Men's basketball coach's pay: $375,920 (2023-24)
+
+**Burlington**
+- Population: 44,675 (ACS 2024 5-year)
+- Population in 2020: 44,743 (2020 census)
+- Median household income: $71,109 (ACS 2024 5-year)
+- Income per person: $40,192 (ACS 2024 5-year)
+- Median home value: $444,800 (ACS 2024 5-year)
+- Poverty rate: 20.5% (ACS 2024 5-year)
+- Median age: 26.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 60.5% (ACS 2024 5-year)
+- Average commute: 18.7 minutes (ACS 2024 5-year)
+- Veterans: 814 (ACS 2024 5-year)
+- Born abroad: 7.1% (ACS 2024 5-year)
+- Founded: 1783, settled 1783; town 1785; city 1865
+- County seat: yes
+- Biggest employer: University of Vermont Medical Center (8,200+ employees)
+- January average: 20.9°F, Burlington International Airport
+- Snow a year: 87.5 inches
+- Elevation: 98 feet
+- County: Chittenden County
+- The coach's pay equals 5 median Burlington household incomes
+- College-town index: 0.32 students per resident (a big presence)
 
 ## The program's best
 

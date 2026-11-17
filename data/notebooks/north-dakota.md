@@ -27,7 +27,31 @@ _North Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,844 (Fall 2025)
+- Endowment: $471.4 million (2025)
+- Football: FCS, Missouri Valley Football Conference
+
+**Grand Forks**
+- Population: 59,042 (ACS 2024 5-year)
+- Population in 2020: 59,166 (2020 census)
+- Median household income: $63,627 (ACS 2024 5-year)
+- Income per person: $39,857 (ACS 2024 5-year)
+- Median home value: $249,900 (ACS 2024 5-year)
+- Poverty rate: 15.5% (ACS 2024 5-year)
+- Median age: 29.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40% (ACS 2024 5-year)
+- Average commute: 14.8 minutes (ACS 2024 5-year)
+- Veterans: 2,949 (ACS 2024 5-year)
+- Born abroad: 7.7% (ACS 2024 5-year)
+- Founded: 1870, post office 1870; incorporated 1881
+- County seat: yes
+- Biggest employer: University of North Dakota, 5,562 employees per city 2024 ACFR
+- January average: 6.3°F
+- Snow a year: 48.4 inches
+- Elevation: 837 feet
+- County: Grand Forks County
+- College-town index: 0.27 students per resident (a big presence)
 
 ## The program's best
 

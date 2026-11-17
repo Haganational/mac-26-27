@@ -22,7 +22,32 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,673 (Fall 2024)
+- Tuition and fees, in state: $12,066 (2026-27), page gives per-semester 5,325 tuition + 708 mandatory fees = 6,033 (12-15 hrs), doubled
+- Tuition and fees, out of state: $13,656 (2026-27), per-semester 6,120 + 708 = 6,828, doubled
+- Endowment: $107.0 million (2025)
+- Football: FCS, United Athletic Conference
+- Men's basketball coach's pay: $350,000 (2023 contract (runs through April 2027))
+
+**Richmond**
+- Population: 37,111 (ACS 2024 5-year)
+- Population in 2020: 34,585 (2020 census)
+- Median household income: $50,870 (ACS 2024 5-year)
+- Income per person: $29,276 (ACS 2024 5-year)
+- Median home value: $214,900 (ACS 2024 5-year)
+- Poverty rate: 19.5% (ACS 2024 5-year)
+- Median age: 28.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 34.9% (ACS 2024 5-year)
+- Average commute: 23 minutes (ACS 2024 5-year)
+- Veterans: 2,086 (ACS 2024 5-year)
+- Born abroad: 3.6% (ACS 2024 5-year)
+- Founded: 1798
+- County seat: yes
+- Elevation: 978 feet
+- County: Madison County
+- The coach's pay equals 7 median Richmond household incomes
+- College-town index: 0.42 students per resident (a big presence)
 
 ## The program's best
 

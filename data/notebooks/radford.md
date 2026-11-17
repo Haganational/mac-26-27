@@ -27,7 +27,28 @@ _Radford (Big South). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,812 (Fall 2024)
+- Tuition and fees, in state: $13,396, annual = 2 x per-semester (page gives per-semester): tuition $4,447 + technology $60 + comprehensive $2,191; page's current unlabeled listing (separate from its section labeled 2025-2026); 2026-27 not stated
+- Tuition and fees, out of state: $27,862, annual = 2 x per-semester: tuition $11,446 + technology $60 + comprehensive $2,191 + capital $234; page's current unlabeled listing (separate from its section labeled 2025-2026); 2026-27 not stated
+- Endowment: $77.6 million (2025)
+
+**Radford**
+- Population: 16,726 (ACS 2024 5-year)
+- Population in 2020: 16,070 (2020 census)
+- Median household income: $57,348 (ACS 2024 5-year)
+- Income per person: $26,815 (ACS 2024 5-year)
+- Median home value: $220,700 (ACS 2024 5-year)
+- Poverty rate: 28.7% (ACS 2024 5-year)
+- Median age: 23.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 37.9% (ACS 2024 5-year)
+- Average commute: 18.3 minutes (ACS 2024 5-year)
+- Veterans: 485 (ACS 2024 5-year)
+- Born abroad: 2.1% (ACS 2024 5-year)
+- Founded: 1887
+- Elevation: 2,103 feet
+- County: none (independent city)
+- College-town index: 0.47 students per resident (a big presence)
 
 ## The program's best
 

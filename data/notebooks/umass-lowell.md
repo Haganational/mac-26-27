@@ -27,7 +27,32 @@ _UMass Lowell (America East). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,797 (Fall 2024)
+- Tuition and fees, in state: $18,252 (2026-27), annual tuition $17,402 + fees $850 (estimate)
+- Tuition and fees, out of state: $37,460 (2026-27), annual tuition $36,610 + fees $850 (estimate)
+- Endowment: $200.0 million (2025)
+- Football: none (https://en.wikipedia.org/wiki/University_of_Massachusetts_Lowell)
+
+**Lowell**
+- Population: 120,418 (ACS 2024 1-year)
+- Population in 2020: 115,554 (2020 census)
+- Median household income: $82,956 (ACS 2024 1-year)
+- Income per person: $36,773 (ACS 2024 1-year)
+- Median home value: $468,700 (ACS 2024 1-year)
+- Poverty rate: 17.4% (ACS 2024 1-year)
+- Median age: 35.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.2% (ACS 2024 1-year)
+- Average commute: 27.9 minutes (ACS 2024 5-year)
+- Veterans: 2,591 (ACS 2024 1-year)
+- Born abroad: 28.7% (ACS 2024 1-year)
+- Founded: 1652, settled 1652; incorporated 1826
+- County seat: yes
+- January average: 24.9°F, 1991-2020 normals, Lowell MA
+- Snow a year: 56.1 inches
+- Elevation: 102 feet
+- County: Middlesex County
+- College-town index: 0.14 students per resident (a guest in a bigger place)
 
 ## The program's best
 

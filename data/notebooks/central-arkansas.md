@@ -27,7 +27,33 @@ _Central Arkansas (UAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,962 (Fall 2025)
+- Tuition and fees, in state: $11,384 (2026-27), statement gives per-semester totals for 15 hours (5,692 incl. per-semester fees), doubled for fall+spring; excludes course/lab fees
+- Tuition and fees, out of state: $19,394 (2026-27), per-semester 9,697 (15 hours incl. 4,005 out-of-state fees), doubled; out-of-state fees waived for contiguous states
+- Endowment: $68.6 million (2025)
+- Football: FCS, United Athletic Conference (football only; other sports ASUN)
+
+**Conway**
+- Population: 70,704 (ACS 2024 1-year)
+- Population in 2020: 64,134 (2020 census)
+- Median household income: $65,896 (ACS 2024 1-year)
+- Income per person: $36,089 (ACS 2024 1-year)
+- Median home value: $298,200 (ACS 2024 1-year)
+- Poverty rate: 13.8% (ACS 2024 1-year)
+- Median age: 30.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 45.3% (ACS 2024 1-year)
+- Average commute: 22.8 minutes (ACS 2024 5-year)
+- Veterans: 3,016 (ACS 2024 1-year)
+- Born abroad: 5.7% (ACS 2024 1-year)
+- Founded: 1872, incorporated 1875
+- County seat: yes
+- Biggest employer: Conway Regional Health System, 1,650 employees as of May 2023
+- January average: 38.1°F
+- Snow a year: 2.3 inches
+- Elevation: 331 feet
+- County: Faulkner County
+- College-town index: 0.14 students per resident (a guest in a bigger place)
 
 ## The program's best
 
