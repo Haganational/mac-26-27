@@ -1,10 +1,24 @@
 import json
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import pytest
+
 from mac import den_connect as dc
+
+
+@pytest.fixture(autouse=True)
+def _canisius_without_portrait(tmp_path, monkeypatch):
+    """Every anchor has a portrait now, so pretend Canisius doesn't to keep the monogram fallback covered."""
+    pics = tmp_path / "anchor-pics"
+    pics.mkdir()
+    for p in dc.anchor_desk.PORTRAITS.glob("*.webp"):
+        if p.stem != "canisius":
+            shutil.copy(p, pics / p.name)
+    monkeypatch.setattr(dc.anchor_desk, "PORTRAITS", pics)
 
 TEMPLATES = Path(__file__).resolve().parent.parent / "templates"
 EARLY = datetime(2026, 11, 22, 17, tzinfo=timezone.utc)  # before every tip
