@@ -2,7 +2,7 @@
 
     python tools/promo_reels.py <film.mp4> <film.srt> <spec.json> <outdir>
 
-spec.json: {"place": "Toledo, Ohio", "subtitle": "A HUNDRED DOLLARS TO FUMBLE", "film_title": "...",
+spec.json: {"full": [caption numbers shown as the whole 16:9 frame], "place": "Toledo, Ohio", "subtitle": "A HUNDRED DOLLARS TO FUMBLE", "film_title": "...",
 "wide": [caption numbers shown on a title card], "reels": [{"name", "ids": [[caption numbers]...],
 "thumb_t": seconds, "head": [lines], "sub": "...", "wide_thumb": false}]}.
 Each reel OPENS on its own thumbnail for COVER seconds (Matthew, Nov 15 2026: Threads, Bluesky and
@@ -19,6 +19,7 @@ PAGE, INK, MUTED, GOLD = (21, 17, 13), (239, 230, 214), (143, 132, 116), (240, 1
 W, H = 1080, 1920
 PY, PH = 430, 810  # picture box
 WIDE = set(SPEC.get("wide", []))
+FULL = set(SPEC.get("full", []))  # whole 16:9 frame letterboxed in the picture box (charts)
 COVER = 0.8
 
 
@@ -144,7 +145,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     n = len(segs)
     fc = ''
     for i, (a, d) in enumerate(segs):
-        if ids[i][0] in WIDE:
+        if ids[i][0] in FULL:
+            fc += f"[{i+1}:v]scale={W}:-2:flags=lanczos,pad={W}:{PH}:0:(oh-ih)/2:color=0x15110D,fps=25,format=yuv420p,setsar=1[v{i}];"
+        elif ids[i][0] in WIDE:
             fc += f"[{i+1}:v]crop=960:400:160:140,scale={W}:-2:flags=lanczos,pad={W}:{PH}:0:(oh-ih)/2:color=0x15110D,fps=25,format=yuv420p,setsar=1[v{i}];"
         else:
             fc += f"[{i+1}:v]crop=720:540:280:0,scale={W}:{PH}:flags=lanczos,fps=25,format=yuv420p,setsar=1[v{i}];"
