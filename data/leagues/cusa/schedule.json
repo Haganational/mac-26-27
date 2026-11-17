@@ -1620,7 +1620,7 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -1628,13 +1628,13 @@
     "key": null,
     "name": "Wilson WILSON",
     "abbr": "WLSN",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:11 - 1st"
   },
   {
    "game_id": "401920953",
@@ -8802,5 +8802,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T16:10:25+00:00"
 }
