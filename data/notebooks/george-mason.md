@@ -27,7 +27,33 @@ _George Mason (A-10). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 39,638 (Fall 2025)
+- Tuition and fees, in state: $14,808 (2026-27), annual: 10752 tuition + 4056 mandatory student fee
+- Tuition and fees, out of state: $39,804 (2026-27), annual: 35748 tuition + 4056 mandatory student fee
+- Endowment: $257.6 million (2025)
+- Football: none, no football among Mason's Division I sports
+- Men's basketball coach's pay: $1.9 million (2026-27)
+
+**Fairfax**
+- Population: 25,026 (ACS 2024 5-year)
+- Population in 2020: 24,146 (2020 census)
+- Median household income: $132,348 (ACS 2024 5-year)
+- Income per person: $63,647 (ACS 2024 5-year)
+- Median home value: $722,600 (ACS 2024 5-year)
+- Poverty rate: 9.1% (ACS 2024 5-year)
+- Median age: 36.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 62.4% (ACS 2024 5-year)
+- Average commute: 28 minutes (ACS 2024 5-year)
+- Veterans: 1,396 (ACS 2024 5-year)
+- Born abroad: 30.6% (ACS 2024 5-year)
+- Founded: 1869, infobox founded 1869; town 1874, city 1961
+- County seat: yes
+- Biggest employer: City of Fairfax, 600 employees (town page; GMU campus is just outside city limits)
+- Elevation: 312 feet
+- County: Fairfax County
+- The coach's pay equals 15 median Fairfax household incomes
+- College-town index: 1.58 students per resident (the school is the town)
 
 ## The program's best
 

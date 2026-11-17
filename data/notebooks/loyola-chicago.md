@@ -27,7 +27,32 @@ _Loyola Chicago (A-10). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,579 (2025)
+- Tuition and fees, in state: $56,930 (2026-27), full-time undergraduate tuition only; mandatory fees not stated on page
+- Tuition and fees, out of state: $56,930 (2026-27), private; tuition only, fees excluded
+- Endowment: $1.37 billion (2026)
+- Football: none, no football among 11 varsity teams; 'Ramblers' nickname dates to 1926 football team
+- Arena named for: Joseph J. Gentile (Gentile Arena) (Chicago-area car dealer; gave $3.5M toward the arena (per cited Sun-Times headline))
+
+**Chicago**
+- Population: 2,721,326 (ACS 2024 1-year)
+- Median household income: $80,613 (ACS 2024 1-year)
+- Income per person: $51,976 (ACS 2024 1-year)
+- Median home value: $341,200 (ACS 2024 1-year)
+- Poverty rate: 16.6% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 46.4% (ACS 2024 1-year)
+- Average commute: 33.5 minutes (ACS 2024 1-year)
+- Veterans: 57,764 (ACS 2024 1-year)
+- Born abroad: 22% (ACS 2024 1-year)
+- Founded: 1833
+- County seat: yes
+- January average: 26.2°F
+- Snow a year: 38.8 inches
+- Elevation: 597 feet
+- County: Cook County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

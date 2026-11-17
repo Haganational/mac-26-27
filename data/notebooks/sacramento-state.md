@@ -27,7 +27,34 @@ _Sacramento St (Big West). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 30,883 (Fall 2024), infobox; body text says 30,833
+- Tuition and fees, in state: $9,656 (2026-27), tuition & fees in cost-of-attendance sheet (residents)
+- Endowment: $96.4 million (2024-25)
+- Football: FBS, moved to FBS in 2026; football joined the Mid-American Conference
+- Men's basketball coach's pay: $521,004 (2025 five-year contract)
+- Arena named for: Colberg Court: named for volleyball coach Debby Colberg (not a donor name; honors longtime Sac State volleyball coach)
+
+**Sacramento**
+- Population: 535,787 (ACS 2024 1-year)
+- Population in 2020: 524,943 (2020 census)
+- Median household income: $91,387 (ACS 2024 1-year)
+- Income per person: $43,869 (ACS 2024 1-year)
+- Median home value: $515,800 (ACS 2024 1-year)
+- Poverty rate: 12.2% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.6% (ACS 2024 1-year)
+- Average commute: 25.3 minutes (ACS 2024 1-year)
+- Veterans: 16,897 (ACS 2024 1-year)
+- Born abroad: 24.2% (ACS 2024 1-year)
+- Founded: 1848, laid out Dec 1848; incorporated Feb 27, 1850
+- County seat: yes
+- Biggest employer: State of California (113,610 employees, 2024)
+- January average: 47.6°F
+- Elevation: 26 feet
+- County: Sacramento County
+- The coach's pay equals 6 median Sacramento household incomes
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Valparaiso (Missouri Valley). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,451 (Fall 2025)
+- Tuition and fees, in state: $52,280 (2026-27), private; annual tuition 50650 + general fee 1630 (2025-26 was 50390)
+- Tuition and fees, out of state: $52,280 (2026-27), private; same as in-state
+- Endowment: $321.4 million (2025)
+- Football: FCS, Pioneer Football League
+
+**Valparaiso**
+- Population: 34,733 (ACS 2024 5-year)
+- Population in 2020: 34,151 (2020 census)
+- Median household income: $69,872 (ACS 2024 5-year)
+- Income per person: $38,894 (ACS 2024 5-year)
+- Median home value: $267,300 (ACS 2024 5-year)
+- Poverty rate: 14.9% (ACS 2024 5-year)
+- Median age: 37 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 40.6% (ACS 2024 5-year)
+- Average commute: 24.8 minutes (ACS 2024 5-year)
+- Veterans: 1,297 (ACS 2024 5-year)
+- Born abroad: 5.6% (ACS 2024 5-year)
+- Founded: 1836, established as Portersville 1836; renamed 1837
+- County seat: yes
+- January average: 26.2°F
+- Snow a year: 40 inches
+- Elevation: 791 feet
+- County: Porter County
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

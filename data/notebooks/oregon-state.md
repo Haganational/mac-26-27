@@ -27,7 +27,35 @@ _Oregon St (Pac-12). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 37,121 (Spring 2023)
+- Tuition and fees, in state: $14,783 (2025-26), resident tuition 12,675 (15 cr x 3 terms) + recurring Corvallis mandatory fees 2,107.89 (702.63/term x3); 2026-27 continuing 15,503, new 15,548
+- Tuition and fees, out of state: $39,968 (2025-26), nonresident tuition 37,860 + fees 2,107.89; 2026-27 continuing 42,083, new 42,263
+- Endowment: $1.01 billion (2025)
+- Football: FBS, Pac-12
+- Arena named for: Amory T. 'Slats' Gill (Gill Coliseum) (former Oregon State basketball coach, not a donor)
+
+**Corvallis**
+- Population: 59,960 (ACS 2024 5-year)
+- Population in 2020: 59,922 (2020 census)
+- Median household income: $65,012 (ACS 2024 5-year)
+- Income per person: $40,092 (ACS 2024 5-year)
+- Median home value: $502,900 (ACS 2024 5-year)
+- Poverty rate: 24.3% (ACS 2024 5-year)
+- Median age: 27.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 61.4% (ACS 2024 5-year)
+- Homeownership: 40.1% (2020 census)
+- Average commute: 16.1 minutes (ACS 2024 5-year)
+- Veterans: 1,808 (ACS 2024 5-year)
+- Born abroad: 12.7% (ACS 2024 5-year)
+- Founded: 1845
+- County seat: yes
+- Biggest employer: Oregon State University
+- January average: 40.9°F
+- Snow a year: 2.9 inches
+- Elevation: 256 feet
+- County: Benton County
+- College-town index: 0.62 students per resident (the school is the town)
 
 ## The program's best
 

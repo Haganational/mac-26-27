@@ -27,7 +27,32 @@ _Southern Illinois (Missouri Valley). Anchors are fictional AI personas, not aff
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,785 (Fall 2025)
+- Tuition and fees, in state: $13,784 (2026-27), annual (2 semesters x 15 credits): 9833 tuition + 3951 on-campus fees
+- Endowment: $228.5 million (2025)
+- Football: FCS, Missouri Valley Football Conference
+- Men's basketball coach's pay: $600,000 (2024 hire (six-year contract))
+
+**Carbondale**
+- Population: 22,158 (ACS 2024 5-year)
+- Population in 2020: 21,857 (2020 census)
+- Median household income: $32,128 (ACS 2024 5-year)
+- Income per person: $22,315 (ACS 2024 5-year)
+- Median home value: $127,900 (ACS 2024 5-year)
+- Poverty rate: 37.4% (ACS 2024 5-year)
+- Median age: 24.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 48.2% (ACS 2024 5-year)
+- Average commute: 16.4 minutes (ACS 2024 5-year)
+- Veterans: 421 (ACS 2024 5-year)
+- Born abroad: 10.2% (ACS 2024 5-year)
+- Founded: 1852
+- January average: 32.4°F
+- Snow a year: 11.4 inches
+- Elevation: 449 feet
+- County: Jackson County
+- The coach's pay equals 19 median Carbondale household incomes
+- College-town index: 0.53 students per resident (the school is the town)
 
 ## The program's best
 

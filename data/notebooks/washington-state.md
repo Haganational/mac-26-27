@@ -27,7 +27,35 @@ _Washington St (Pac-12). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 25,477 (Fall 2025)
+- Tuition and fees, in state: $14,361 (2026-27), annual: tuition 11,370 + mandatory fees 2,990.53 (Pullman, full-time)
+- Tuition and fees, out of state: $32,032 (2026-27), annual: tuition 28,400 + mandatory fees 3,631.53
+- Endowment: $800.3 million (2025)
+- Football: FBS, Pac-12
+- Men's basketball coach's pay: $650,000 (2026-27)
+- Arena named for: Wallis Beasley (Beasley Coliseum) (WSU sociology professor, executive vice president and interim president; not a donor)
+
+**Pullman**
+- Population: 32,229 (ACS 2024 5-year)
+- Population in 2020: 32,901 (2020 census)
+- Median household income: $46,812 (ACS 2024 5-year)
+- Income per person: $31,584 (ACS 2024 5-year)
+- Median home value: $424,800 (ACS 2024 5-year)
+- Poverty rate: 30.4% (ACS 2024 5-year)
+- Median age: 23.2 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 61.4% (ACS 2024 5-year)
+- Average commute: 14.6 minutes (ACS 2024 5-year)
+- Veterans: 737 (ACS 2024 5-year)
+- Born abroad: 9.8% (ACS 2024 5-year)
+- Founded: 1888
+- Biggest employer: Washington State University
+- January average: 32.7°F
+- Snow a year: 32.7 inches
+- Elevation: 2,513 feet
+- County: Whitman County
+- The coach's pay equals 14 median Pullman household incomes
+- College-town index: 0.79 students per resident (the school is the town)
 
 ## The program's best
 

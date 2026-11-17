@@ -27,7 +27,36 @@ _Boise State (Pac-12). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 28,519 (Fall 2025)
+- Tuition and fees, in state: $9,789 (2026-27), 4,894.50 per semester x2 (11-16 credit tier), page gives both
+- Tuition and fees, out of state: $29,477 (2026-27), 14,738.50 per semester x2
+- Endowment: $184.2 million (2025)
+- Football: FBS, Mountain West (Pac-12 from 2026 per desk league list)
+- Men's basketball coach's pay: $1.1 million (FY2027 (2026-27))
+- Arena named for: ExtraMile (ExtraMile Arena) (convenience store chain jointly owned by Chevron and Jacksons; 15-year, $8.4M naming deal (2019))
+
+**Boise**
+- Population: 237,959 (ACS 2024 1-year)
+- Population in 2020: 235,684 (2020 census)
+- Median household income: $81,102 (ACS 2024 1-year)
+- Income per person: $49,839 (ACS 2024 1-year)
+- Median home value: $498,500 (ACS 2024 1-year)
+- Poverty rate: 12.9% (ACS 2024 1-year)
+- Median age: 40 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 49.2% (ACS 2024 1-year)
+- Average commute: 20 minutes (ACS 2024 1-year)
+- Veterans: 12,905 (ACS 2024 1-year)
+- Born abroad: 8.3% (ACS 2024 1-year)
+- Founded: 1863
+- County seat: yes
+- Biggest employer: St. Luke's Health System
+- January average: 32.2°F
+- Snow a year: 17.6 inches
+- Elevation: 2,703 feet
+- County: Ada County
+- The coach's pay equals 14 median Boise household incomes
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

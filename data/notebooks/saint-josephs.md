@@ -27,7 +27,32 @@ _Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,159 (Fall 2024)
+- Tuition and fees, in state: $57,940 (2026-27), full-year undergraduate rate (fall+spring) as listed
+- Tuition and fees, out of state: $57,940 (2026-27), private; same
+- Endowment: $484.2 million (2025)
+- Football: none, no football; Sweeney Field built for football in 1929 now hosts other sports
+- Arena named for: Michael J. Hagan (Hagan Arena) (SJU 1985 graduate; gave $10M for renovation; source of wealth not stated on page)
+
+**Philadelphia**
+- Population: 1,573,916 (ACS 2024 1-year)
+- Median household income: $60,521 (ACS 2024 1-year)
+- Income per person: $39,443 (ACS 2024 1-year)
+- Median home value: $253,600 (ACS 2024 1-year)
+- Poverty rate: 19.7% (ACS 2024 1-year)
+- Median age: 35.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 36.4% (ACS 2024 1-year)
+- Average commute: 33.2 minutes (ACS 2024 1-year)
+- Veterans: 45,118 (ACS 2024 1-year)
+- Born abroad: 16.1% (ACS 2024 1-year)
+- Founded: 1682
+- County seat: yes
+- January average: 33.7°F
+- Snow a year: 23.1 inches
+- Elevation: 39 feet
+- County: Philadelphia County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

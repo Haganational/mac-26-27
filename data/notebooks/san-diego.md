@@ -27,7 +27,33 @@ _San Diego (WCC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,041 (Spring 2022), 5,702 undergrad + 2,529 postgrad + 810 other
+- Tuition and fees, in state: $65,199 (2026-27), private; tuition 64,100 + fees 1,099 per year (page gives per-semester 32,050 + 549.50 and per-year columns)
+- Tuition and fees, out of state: $65,199 (2026-27), private, same figure
+- Endowment: $767.0 million (2025)
+- Football: FCS, Pioneer Football League (non-scholarship)
+- Arena named for: Jenny Craig (Jenny Craig Pavilion) (co-founder of the Jenny Craig weight-loss company; her gift helped fund the arena)
+
+**Linda Vista**
+- Population: 1,404,461 (ACS 2024 1-year)
+- Population in 2020: 1,386,932 (2020 census)
+- Median household income: $111,032 (ACS 2024 1-year)
+- Income per person: $58,812 (ACS 2024 1-year)
+- Median home value: $980,700 (ACS 2024 1-year)
+- Poverty rate: 10.4% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 53.6% (ACS 2024 1-year)
+- Average commute: 24.1 minutes (ACS 2024 1-year)
+- Veterans: 64,888 (ACS 2024 1-year)
+- Born abroad: 26.7% (ACS 2024 1-year)
+- Founded: 1769
+- County seat: yes
+- Biggest employer: Naval Base San Diego
+- January average: 58.4°F
+- County: San Diego County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

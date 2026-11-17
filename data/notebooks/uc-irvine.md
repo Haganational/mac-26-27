@@ -27,7 +27,33 @@ _UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 37,297 (2024), 30,204 undergrad + 7,093 grad
+- Tuition and fees, in state: $16,891 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees
+- Tuition and fees, out of state: $56,161 (2026-27), tuition + Student Services Fee for students entering 2026-27 (cohort-based, flat up to six years); excludes campus-based fees; includes nonresident supplemental tuition
+- Endowment: $1.03 billion (2025)
+- Football: none, no football team listed among UCI's 18 varsity sports
+- Arena named for: Bren Events Center: Donald Bren (real estate; chairman of the Irvine Company (renamed after a $1.5 million gift))
+
+**Irvine**
+- Population: 318,693 (ACS 2024 1-year)
+- Population in 2020: 307,670 (2020 census)
+- Median household income: $145,731 (ACS 2024 1-year)
+- Income per person: $65,631 (ACS 2024 1-year)
+- Median home value: $1.5 million (ACS 2024 1-year)
+- Poverty rate: 9.8% (ACS 2024 1-year)
+- Median age: 34.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 71.3% (ACS 2024 1-year)
+- Average commute: 25.7 minutes (ACS 2024 1-year)
+- Veterans: 5,318 (ACS 2024 1-year)
+- Born abroad: 41.5% (ACS 2024 1-year)
+- Founded: 1971, incorporated Dec 28, 1971; name dates to 1888
+- County seat: no
+- Biggest employer: University of California, Irvine (18,373 employees, 2021)
+- January average: 58.8°F
+- Elevation: 56 feet
+- County: Orange County
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

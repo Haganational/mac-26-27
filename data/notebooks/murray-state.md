@@ -27,7 +27,32 @@ _Murray State (Missouri Valley). Anchors are fictional AI personas, not affiliat
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,932 (Fall 2025)
+- Tuition and fees, in state: $11,530 (2026-27), annual: 5265/semester flat tuition + up to 500/semester mandatory fees, x2; tuition alone 10530
+- Tuition and fees, out of state: $16,990 (2026-27), annual: 7995/semester flat tuition + up to 500/semester fees, x2 (students admitted Summer 2020 or later); tuition alone 15990
+- Endowment: $135.0 million (2025)
+- Football: FCS
+
+**Murray**
+- Population: 18,080 (ACS 2024 5-year)
+- Population in 2020: 17,307 (2020 census)
+- Median household income: $44,091 (ACS 2024 5-year)
+- Income per person: $26,129 (ACS 2024 5-year)
+- Median home value: $195,000 (ACS 2024 5-year)
+- Poverty rate: 24.1% (ACS 2024 5-year)
+- Median age: 25.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 36.1% (ACS 2024 5-year)
+- Average commute: 12.3 minutes (ACS 2024 5-year)
+- Veterans: 505 (ACS 2024 5-year)
+- Born abroad: 5.3% (ACS 2024 5-year)
+- Founded: 1822
+- County seat: yes
+- January average: 36.5°F
+- Snow a year: 6.5 inches
+- Elevation: 535 feet
+- County: Calloway County
+- College-town index: 0.55 students per resident (the school is the town)
 
 ## The program's best
 

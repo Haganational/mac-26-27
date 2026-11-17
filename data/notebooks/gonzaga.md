@@ -27,7 +27,33 @@ _Gonzaga (Pac-12). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,470 (Fall 2024)
+- Tuition and fees, in state: $59,490 (2026-27), 29,745 per semester (29,195 tuition + tech, fitness, insurance/wellness fees) x2; page gives per-semester
+- Tuition and fees, out of state: $59,490 (2026-27), private; same
+- Endowment: $498.8 million (2025)
+- Football: none, put on hiatus 1942 (WWII), never resumed
+- Arena named for: Philip and Thomas McCarthey (McCarthey Athletic Center) (Salt Lake City brothers, Gonzaga alumni, former owners of The Salt Lake Tribune)
+
+**Spokane**
+- Population: 230,604 (ACS 2024 1-year)
+- Population in 2020: 228,989 (2020 census)
+- Median household income: $78,583 (ACS 2024 1-year)
+- Income per person: $40,880 (ACS 2024 1-year)
+- Median home value: $379,300 (ACS 2024 1-year)
+- Poverty rate: 12.7% (ACS 2024 1-year)
+- Median age: 37 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 35.8% (ACS 2024 1-year)
+- Average commute: 20.3 minutes (ACS 2024 1-year)
+- Veterans: 13,617 (ACS 2024 1-year)
+- Born abroad: 5.5% (ACS 2024 1-year)
+- Founded: 1873
+- County seat: yes
+- January average: 29.6°F
+- Snow a year: 45.4 inches
+- Elevation: 1,844 feet
+- County: Spokane County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

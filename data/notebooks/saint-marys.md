@@ -27,7 +27,32 @@ _Saint Mary's (WCC). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,736 (Fall 2024)
+- Tuition and fees, in state: $59,769 (2025-26), private; annual tuition 59,251 + student activity 208 + student enhancement 310; page total with medical insurance fee (2,179) is 61,948
+- Tuition and fees, out of state: $59,769 (2025-26), private, same figure
+- Endowment: $215.0 million (2021)
+- Football: none, dropped 2004
+
+**Moraga**
+- Population: 16,769 (ACS 2024 5-year)
+- Population in 2020: 16,870 (2020 census)
+- Median household income: $216,193 (ACS 2024 5-year)
+- Income per person: $94,211 (ACS 2024 5-year)
+- Median home value: $1.7 million (ACS 2024 5-year)
+- Poverty rate: 7.3% (ACS 2024 5-year)
+- Median age: 40.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 81.8% (ACS 2024 5-year)
+- Homeownership: 81.2% (2020 census)
+- Average commute: 30.6 minutes (ACS 2024 5-year)
+- Veterans: 579 (ACS 2024 5-year)
+- Born abroad: 20% (ACS 2024 5-year)
+- Founded: 1974, incorporated November 13, 1974
+- January average: 44.1°F
+- Elevation: 499 feet
+- County: Contra Costa County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

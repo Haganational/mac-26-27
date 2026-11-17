@@ -27,7 +27,33 @@ _San Diego St (Pac-12). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 38,369 (Fall 2024), article also reports record 41,184 in fall 2025
+- Tuition and fees, in state: $9,780 (2026-27), CSU basic tuition 6,838 + campus fees 2,942, annual (SDSU cost-of-attendance table)
+- Tuition and fees, out of state: $26,910 (2026-27), 9,780 + nonresident tuition 14,130 (30 units) + out-of-state/international student fee 3,000 (applies to students entering fall 2023 or later); 23,910 without that fee
+- Endowment: $456.6 million (2023-24)
+- Football: FBS, Pac-12
+- Arena named for: Viejas Band of Kumeyaay Indians (Viejas Arena) (tribal government; naming rights deal (10 years, from 2009); tribe owns Viejas Casino (casino not stated on fetched page))
+
+**San Diego**
+- Population: 1,404,461 (ACS 2024 1-year)
+- Population in 2020: 1,386,932 (2020 census)
+- Median household income: $111,032 (ACS 2024 1-year)
+- Income per person: $58,812 (ACS 2024 1-year)
+- Median home value: $980,700 (ACS 2024 1-year)
+- Poverty rate: 10.4% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 53.6% (ACS 2024 1-year)
+- Average commute: 24.1 minutes (ACS 2024 1-year)
+- Veterans: 64,888 (ACS 2024 1-year)
+- Born abroad: 26.7% (ACS 2024 1-year)
+- Founded: 1769
+- County seat: yes
+- Biggest employer: Naval Base San Diego
+- January average: 58.4°F
+- County: San Diego County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

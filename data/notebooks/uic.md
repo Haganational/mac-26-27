@@ -27,7 +27,32 @@ _UIC (Missouri Valley). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 35,869 (Fall 2025)
+- Tuition and fees, in state: $14,652 (2025-26), annual: base tuition 11424 + mandatory fees 3228 (UI System tables 1, 11, 14); FY27 rates not in document
+- Tuition and fees, out of state: $30,754 (2025-26), annual: nonresident base tuition 27526 + mandatory fees 3228 (sum computed by us)
+- Endowment: $527.9 million (2025)
+- Football: none, no football in UIC varsity sports list
+
+**Chicago**
+- Population: 2,721,326 (ACS 2024 1-year)
+- Population in 2020: 2,746,388 (2020 census)
+- Median household income: $80,613 (ACS 2024 1-year)
+- Income per person: $51,976 (ACS 2024 1-year)
+- Median home value: $341,200 (ACS 2024 1-year)
+- Poverty rate: 16.6% (ACS 2024 1-year)
+- Median age: 35.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 46.4% (ACS 2024 1-year)
+- Average commute: 33.5 minutes (ACS 2024 1-year)
+- Veterans: 57,764 (ACS 2024 1-year)
+- Born abroad: 22.0% (ACS 2024 1-year)
+- Founded: 1837, city incorporated March 4, 1837 (town organized 1833)
+- County seat: yes
+- January average: 26.2°F, Midway Airport (O'Hare 25.2)
+- Snow a year: 38.8 inches, Midway Airport (O'Hare 38.4)
+- Elevation: 597 feet, infobox mean 597.18 ft; body text says 579 ft
+- County: Cook County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

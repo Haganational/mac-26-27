@@ -27,7 +27,35 @@ _Portland (WCC). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,285 (Fall 2024), infobox; intro says approximately 3,700
+- Tuition and fees, in state: $60,100 (2025-26), private; full-time tuition 29,400/semester x2 = 58,800 + ASUP activities fee 300 + campus access fee 1,000 per year; excludes estimated health insurance (3,286/yr) and one-time 250 new-student fee
+- Tuition and fees, out of state: $60,100 (2025-26), private, same figure
+- Endowment: $367.8 million (2025)
+- Football: none, disbanded 1950 for lack of funding
+- Arena named for: Earle A. and Virginia H. Chiles (Chiles Center) (Chiles Foundation endowment funded 1983 construction and $5M in 2023; source of the family fortune not stated on page)
+
+**Portland**
+- Population: 636,958 (ACS 2024 1-year)
+- Population in 2020: 652,503 (2020 census)
+- Median household income: $91,478 (ACS 2024 1-year)
+- Income per person: $57,668 (ACS 2024 1-year)
+- Median home value: $588,200 (ACS 2024 1-year)
+- Poverty rate: 13% (ACS 2024 1-year)
+- Median age: 39 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 54.5% (ACS 2024 1-year)
+- Homeownership: 49.8% (2020 census)
+- Average commute: 24.4 minutes (ACS 2024 1-year)
+- Veterans: 20,525 (ACS 2024 1-year)
+- Born abroad: 12.9% (ACS 2024 1-year)
+- Founded: 1845
+- County seat: yes
+- Biggest employer: Providence Health & Services, text says Providence became largest in 2023; 2024 employer table lists Intel first (conflict)
+- January average: 41.9°F
+- Snow a year: 4.2 inches
+- Elevation: 161 feet
+- County: Multnomah County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

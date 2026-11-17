@@ -27,7 +27,26 @@ _Fordham (A-10). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,150 (Fall 2026)
+- Endowment: $1.05 billion (2025)
+- Football: FCS, Patriot League (football associate member)
+
+**the Bronx**
+- Population: 1,384,724 (ACS 2024 1-year)
+- Population in 2020: 1,472,654 (2020 census)
+- Median household income: $46,040 (ACS 2024 1-year)
+- Income per person: $27,099 (ACS 2024 1-year)
+- Median home value: $567,700 (ACS 2024 1-year)
+- Poverty rate: 28.8% (ACS 2024 1-year)
+- Median age: 36.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.8% (ACS 2024 1-year)
+- Average commute: 43.3 minutes (ACS 2024 1-year)
+- Veterans: 21,236 (ACS 2024 1-year)
+- Born abroad: 34.7% (ACS 2024 1-year)
+- Founded: 1639, first European settlement (Jonas Bronck) 1639; borough of NYC 1898
+- County: Bronx County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

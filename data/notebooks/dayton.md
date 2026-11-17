@@ -27,7 +27,34 @@ _Dayton (A-10). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,378 (Fall 2023), 8,192 undergrad + 3,186 grad; text elsewhere cites about 10,506 for 2026
+- Tuition and fees, in state: $51,910 (2026-27), private; catalog says annual tuition 'about $51,910' (fall+spring); fees not separately given
+- Tuition and fees, out of state: $51,910 (2026-27), private; same
+- Endowment: $938.7 million (2025)
+- Football: FCS, Pioneer Football League (non-scholarship)
+- Arena named for: University of Dayton (UD Arena; no individual or corporate namesake)
+
+**Dayton**
+- Population: 136,343 (ACS 2024 1-year)
+- Population in 2020: 137,644 (2020 census)
+- Median household income: $45,846 (ACS 2024 1-year)
+- Income per person: $26,683 (ACS 2024 1-year)
+- Median home value: $117,500 (ACS 2024 1-year)
+- Poverty rate: 25.5% (ACS 2024 1-year)
+- Median age: 34.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.1% (ACS 2024 1-year)
+- Average commute: 20.1 minutes (ACS 2024 1-year)
+- Veterans: 8,297 (ACS 2024 1-year)
+- Born abroad: 4.9% (ACS 2024 1-year)
+- Founded: 1796
+- County seat: yes
+- Biggest employer: Premier Health Partners, 11,738 employees in 2024
+- January average: 29.4°F, Dayton International Airport (downtown 28.2)
+- Snow a year: 25.0 inches, airport climate table
+- Elevation: 742 feet
+- County: Montgomery County
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _La Salle (A-10). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 3,285 (Fall 2025)
+- Tuition and fees, in state: $40,000 (2025-26), 38,200 annual tuition + 1,800 recurring fees (900/semester x2); 2026-27 page not found
+- Tuition and fees, out of state: $40,000 (2025-26), private; same as in-state
+- Endowment: $64.7 million (2024)
+- Football: none, team disbanded during World War II for lack of players
+- Arena named for: John E. Glaser (arena renamed from Tom Gola Arena after 2024 renovation) (La Salle class of 1962 alumnus; his estate funded the renovation (source of wealth not stated))
+
+**Philadelphia**
+- Population: 1,573,916 (ACS 2024 1-year)
+- Median household income: $60,521 (ACS 2024 1-year)
+- Income per person: $39,443 (ACS 2024 1-year)
+- Median home value: $253,600 (ACS 2024 1-year)
+- Poverty rate: 19.7% (ACS 2024 1-year)
+- Median age: 35.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 36.4% (ACS 2024 1-year)
+- Average commute: 33.2 minutes (ACS 2024 1-year)
+- Veterans: 45,118 (ACS 2024 1-year)
+- Born abroad: 16.1% (ACS 2024 1-year)
+- Founded: 1682
+- County seat: yes
+- January average: 33.7°F
+- Snow a year: 23.1 inches
+- Elevation: 39 feet
+- County: Philadelphia County
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

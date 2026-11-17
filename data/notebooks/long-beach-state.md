@@ -27,7 +27,33 @@ _Long Beach St (Big West). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 42,174 (Fall 2025)
+- Tuition and fees, in state: $8,748 (2026-27), tuition $6,838 + mandatory fees $1,910
+- Tuition and fees, out of state: $20,994 (2026-27), adds nonresident tuition $12,246
+- Endowment: $216.6 million (2024-25)
+- Football: none, dropped after 1991 season (budget)
+- Arena named for: LBS Financial Credit Union (naming sponsor; formerly Walter Pyramid) (LBS Financial Credit Union, a Long Beach credit union)
+
+**Long Beach**
+- Population: 450,917 (ACS 2024 1-year)
+- Population in 2020: 466,742 (2020 census)
+- Median household income: $91,318 (ACS 2024 1-year)
+- Income per person: $45,520 (ACS 2024 1-year)
+- Median home value: $849,500 (ACS 2024 1-year)
+- Poverty rate: 14.3% (ACS 2024 1-year)
+- Median age: 38 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.3% (ACS 2024 1-year)
+- Average commute: 31.2 minutes (ACS 2024 1-year)
+- Veterans: 10,895 (ACS 2024 1-year)
+- Born abroad: 23.9% (ACS 2024 1-year)
+- Founded: 1897, incorporated Dec 13, 1897
+- County seat: no
+- Biggest employer: Long Beach Unified School District (12,049 employees, 2022)
+- January average: 57.1°F
+- Elevation: 52 feet
+- County: Los Angeles County
+- College-town index: 0.09 students per resident (a guest in a bigger place)
 
 ## The program's best
 

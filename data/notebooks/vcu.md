@@ -27,7 +27,31 @@ _VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 28,919 (2021-22), text says more than 29,280 in 2025
+- Tuition and fees, in state: $17,963 (2026-27), tuition + mandatory fees, 15 credits/semester
+- Tuition and fees, out of state: $41,127 (2026-27), tuition + mandatory fees
+- Endowment: $3.23 billion (2025)
+- Football: none, no football among listed sports
+- Arena named for: Stuart C. Siegel (Siegel Center) (Richmond businessman; gave $7M of $30.1M cost; business not stated on page)
+
+**Richmond**
+- Population: 233,655 (ACS 2024 1-year)
+- Median household income: $63,390 (ACS 2024 1-year)
+- Income per person: $46,268 (ACS 2024 1-year)
+- Median home value: $377,900 (ACS 2024 1-year)
+- Poverty rate: 18.1% (ACS 2024 1-year)
+- Median age: 35.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 48.2% (ACS 2024 1-year)
+- Average commute: 22.6 minutes (ACS 2024 1-year)
+- Veterans: 10,132 (ACS 2024 1-year)
+- Born abroad: 7.6% (ACS 2024 1-year)
+- Founded: 1737
+- January average: 38.3°F
+- Snow a year: 8.8 inches
+- Elevation: 213 feet
+- County: independent city (no county)
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

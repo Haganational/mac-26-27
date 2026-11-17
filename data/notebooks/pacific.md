@@ -27,7 +27,35 @@ _Pacific (WCC). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,852 (2025)
+- Tuition and fees, in state: $60,760 (2026-27), private; tuition 29,780 per semester x2 = 59,560 + mandatory wellness/ASUOP/activity fees 600/semester x2; excludes waivable health insurance (1,984/semester) and one-time matriculation fee
+- Tuition and fees, out of state: $60,760 (2026-27), private, same figure
+- Endowment: $643.2 million (2024)
+- Football: none, dropped after 1995 season
+- Arena named for: Alex G. Spanos (Alex G. Spanos Center) (Pacific alumnus, real estate developer and owner of the San Diego/Los Angeles Chargers)
+
+**Stockton**
+- Population: 324,980 (ACS 2024 1-year)
+- Population in 2020: 320,804 (2020 census)
+- Median household income: $78,627 (ACS 2024 1-year)
+- Income per person: $31,948 (ACS 2024 1-year)
+- Median home value: $456,800 (ACS 2024 1-year)
+- Poverty rate: 15.6% (ACS 2024 1-year)
+- Median age: 34.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.9% (ACS 2024 1-year)
+- Homeownership: 50.9% (2020 census), Wikipedia 2020 census section; no inline citation on that sentence
+- Average commute: 31.1 minutes (ACS 2024 1-year)
+- Veterans: 6,922 (ACS 2024 1-year)
+- Born abroad: 28.9% (ACS 2024 1-year)
+- Founded: 1849
+- County seat: yes
+- Biggest employer: Amazon
+- January average: 48.0°F
+- Elevation: 13 feet
+- County: San Joaquin County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

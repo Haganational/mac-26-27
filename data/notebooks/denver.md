@@ -27,7 +27,33 @@ _Denver (WCC). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,813 (Fall 2024), 6,613 undergrad + 6,200 grad
+- Tuition and fees, in state: $65,304 (2026-27), private; tuition 63,720 (21,240/quarter x 3) + 1,584 full-time fees (tech, health & counseling, activity) per page's example; excludes 2,200 waivable health insurance
+- Tuition and fees, out of state: $65,304 (2026-27), private, same figure
+- Endowment: $1.15 billion (2025)
+- Football: none, discontinued early 1961 for financial reasons
+
+**Denver**
+- Population: 729,019 (ACS 2024 1-year)
+- Population in 2020: 715,522 (2020 census)
+- Median household income: $92,504 (ACS 2024 1-year)
+- Income per person: $65,979 (ACS 2024 1-year)
+- Median home value: $636,400 (ACS 2024 1-year)
+- Poverty rate: 12.1% (ACS 2024 1-year)
+- Median age: 35.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 58.6% (ACS 2024 1-year)
+- Average commute: 24.9 minutes (ACS 2024 1-year)
+- Veterans: 22,184 (ACS 2024 1-year)
+- Born abroad: 16.1% (ACS 2024 1-year)
+- Founded: 1858
+- County seat: yes, consolidated city and county since 1902 (previously Arapahoe County seat 1861-1902)
+- Biggest employer: City and County of Denver
+- January average: 31.7°F
+- Snow a year: 49.0 inches
+- Elevation: 5,280 feet
+- County: Denver County (consolidated)
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

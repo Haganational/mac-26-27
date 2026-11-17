@@ -27,7 +27,35 @@ _Texas State (Pac-12). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 47,513 (Fall 2026), record; fall 2025 was 44,596
+- Tuition and fees, in state: $12,240 (2026-27), estimated annual tuition and fees, 15 hours/semester, fall+spring
+- Tuition and fees, out of state: $25,080 (2026-27), estimated annual, 15 hours/semester
+- Endowment: $463.0 million (FY2025), TXST's own endowment; Wikipedia gives $1.6B including its $1.14B share of the Texas University Fund
+- Football: FBS, Pac-12
+- Men's basketball coach's pay: $415,000 (data obtained Feb 10, 2025 (2024-25))
+
+**San Marcos**
+- Population: 74,319 (ACS 2024 1-year)
+- Population in 2020: 67,553 (2020 census)
+- Median household income: $48,091 (ACS 2024 1-year)
+- Income per person: $26,507 (ACS 2024 1-year)
+- Median home value: $364,600 (ACS 2024 1-year)
+- Poverty rate: 30.1% (ACS 2024 1-year)
+- Median age: 24.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.2% (ACS 2024 1-year)
+- Average commute: 24 minutes (ACS 2024 5-year)
+- Veterans: 3,459 (ACS 2024 1-year)
+- Born abroad: 10.3% (ACS 2024 1-year)
+- Founded: 1851
+- County seat: yes
+- Biggest employer: Amazon
+- January average: 50.6°F
+- Snow a year: 0.0 inches
+- Elevation: 574 feet
+- County: Hays County
+- The coach's pay equals 9 median San Marcos household incomes
+- College-town index: 0.64 students per resident (the school is the town)
 
 ## The program's best
 
