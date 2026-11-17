@@ -27,7 +27,30 @@ _Columbia (Ivy). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 36,649 (not stated in infobox), text gives 31,455 for 2020
+- Tuition and fees, in state: $61,850 (2019-20), private; 'Tuition and Fees: $61,850' on the CC/SEAS financial aid facts page, which is still labeled 2019-2020 costs (stale; a 2026-27 cost page failed to load)
+- Tuition and fees, out of state: $61,850 (2019-20), private; 'Tuition and Fees: $61,850' on the CC/SEAS financial aid facts page, which is still labeled 2019-2020 costs (stale; a 2026-27 cost page failed to load)
+- Endowment: $15.90 billion (2025)
+- Football: FCS, Ivy League
+
+**Morningside Heights**
+- Population: 8,478,072 (ACS 2024 1-year)
+- Population in 2020: 8,804,190 (2020 census)
+- Median household income: $81,228 (ACS 2024 1-year)
+- Income per person: $52,504 (ACS 2024 1-year)
+- Median home value: $778,600 (ACS 2024 1-year)
+- Poverty rate: 18% (ACS 2024 1-year)
+- Median age: 38.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 42.5% (ACS 2024 1-year)
+- Average commute: 40.6 minutes (ACS 2024 1-year)
+- Veterans: 121,547 (ACS 2024 1-year)
+- Born abroad: 36.7% (ACS 2024 1-year)
+- Founded: 1624
+- January average: 33.7°F
+- Snow a year: 29.8 inches
+- County: New York County (Manhattan; borough coextensive with county)
+- College-town index: 0.00 students per resident (a guest in a bigger place)
 
 ## The program's best
 

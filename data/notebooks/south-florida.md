@@ -27,7 +27,33 @@ _South Florida (American). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 49,875 (2025-26)
+- Tuition and fees, in state: $6,380 (2026-27), annual tuition and required fees, 30 credit hours, USF Tampa (6,379.70), Florida Board of Governors report
+- Tuition and fees, out of state: $20,187 (2026-27), annual, 30 credit hours (20,186.60)
+- Endowment: $768.0 million (FY2025), infobox; article body gives 889 million
+- Football: FBS, The American
+
+**Tampa**
+- Population: 414,575 (ACS 2024 1-year)
+- Population in 2020: 384,959 (2020 census)
+- Median household income: $84,114 (ACS 2024 1-year)
+- Income per person: $54,445 (ACS 2024 1-year)
+- Median home value: $494,400 (ACS 2024 1-year)
+- Poverty rate: 14.7% (ACS 2024 1-year)
+- Median age: 35.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 48.4% (ACS 2024 1-year)
+- Average commute: 26.1 minutes (ACS 2024 1-year)
+- Veterans: 21,485 (ACS 2024 1-year)
+- Born abroad: 19% (ACS 2024 1-year)
+- Founded: 1849, incorporated as Village of Tampa Jan 18, 1849; Fort Brooke 1824; infobox settled 1823
+- County seat: yes
+- Biggest employer: BayCare Health System, 19,600 employees, per 2013 table on Wikipedia
+- January average: 62.0°F
+- Elevation: 10 feet
+- County: Hillsborough County
+- ICE 287(g) agreement in the county: yes, Hillsborough County Sheriff's Office (task force)
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

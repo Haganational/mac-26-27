@@ -27,7 +27,33 @@ _Drexel (CAA). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,205, infobox figure undated; text says more than 24,000 as of 2020
+- Tuition and fees, in state: $65,498 (2026-27), private; first-year estimated tuition 63,078 + fees 2,420
+- Tuition and fees, out of state: $65,498 (2026-27), private, same figure
+- Endowment: $1.13 billion (2025)
+- Football: none, no varsity football; drop date not given on page
+
+**Philadelphia**
+- Population: 1,573,916 (ACS 2024 1-year)
+- Population in 2020: 1,603,797 (2020 census)
+- Median household income: $60,521 (ACS 2024 1-year)
+- Income per person: $39,443 (ACS 2024 1-year)
+- Median home value: $253,600 (ACS 2024 1-year)
+- Poverty rate: 19.7% (ACS 2024 1-year)
+- Median age: 35.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 36.4% (ACS 2024 1-year)
+- Average commute: 33.2 minutes (ACS 2024 1-year)
+- Veterans: 45,118 (ACS 2024 1-year)
+- Born abroad: 16.1% (ACS 2024 1-year)
+- Founded: 1682
+- County seat: yes, city is the seat of its own county
+- Biggest employer: University of Pennsylvania (largest private employer; federal and city governments are the two largest overall)
+- January average: 33.7°F
+- Snow a year: 23.1 inches
+- Elevation: 39 feet
+- County: Philadelphia County
+- College-town index: 0.02 students per resident (a guest in a bigger place)
 
 ## The program's best
 

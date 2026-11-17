@@ -27,7 +27,36 @@ _UAB (American). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 20,905 (Fall 2024)
+- Tuition and fees, in state: $11,640 (2026-27), UAB summary table figure for Arts & Sciences/Education; period not stated on page. Per-credit rate 399 x 30 hrs = 11,970. Higher for business/engineering/health. Excludes $225/semester dining fee
+- Tuition and fees, out of state: $28,980 (2026-27), summary table, Arts & Sciences/Education, period not stated; per-credit 994 x 30 = 29,820
+- Endowment: $1.00 billion, infobox '$1 billion', no fiscal year given; text says reached >$1B after 2018 campaign
+- Football: FBS, dropped after 2014 season, reinstated 2017; American Conference
+- Men's basketball coach's pay: $1.5 million (2026-27)
+- Arena named for: Gene Bartow (Bartow Arena) (none; founding UAB men's basketball coach, renamed for him in Dec 1996 after retirement)
+
+**Birmingham**
+- Population: 198,477 (ACS 2024 1-year)
+- Population in 2020: 200,733 (2020 census)
+- Median household income: $51,355 (ACS 2024 1-year)
+- Income per person: $32,023 (ACS 2024 1-year)
+- Median home value: $189,800 (ACS 2024 1-year)
+- Poverty rate: 22.3% (ACS 2024 1-year)
+- Median age: 37.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33.0% (ACS 2024 1-year)
+- Average commute: 20.8 minutes (ACS 2024 5-year)
+- Veterans: 6,056 (ACS 2024 1-year)
+- Born abroad: 7.1% (ACS 2024 1-year)
+- Founded: 1871
+- County seat: yes
+- Biggest employer: University of Alabama at Birmingham
+- January average: 44.7°F
+- Snow a year: 1.4 inches
+- Elevation: 597 feet
+- County: Jefferson County
+- The coach's pay equals 29 median Birmingham household incomes
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

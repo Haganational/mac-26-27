@@ -27,7 +27,33 @@ _North Texas (American). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 46,940 (Fall 2024), infobox; body text gives 46,180 for fall 2024
+- Tuition and fees, in state: $8,403 (2026-27), TUITION ONLY, excludes mandatory fees: Texas resident traditional rate 280.11 per credit hour x 30 hours (page lists per-credit-hour rates only)
+- Tuition and fees, out of state: $21,243 (2026-27), TUITION ONLY, excludes mandatory fees: non-resident 708.11 per credit hour x 30 hours
+- Endowment: $1.54 billion (FY2025), about 356M UNT endowment plus 1.18B Texas University Fund share, per infobox
+
+**Denton**
+- Population: 165,986 (ACS 2024 1-year)
+- Population in 2020: 139,869 (2020 census)
+- Median household income: $80,908 (ACS 2024 1-year)
+- Income per person: $37,282 (ACS 2024 1-year)
+- Median home value: $379,900 (ACS 2024 1-year)
+- Poverty rate: 14.4% (ACS 2024 1-year)
+- Median age: 30.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.1% (ACS 2024 1-year)
+- Average commute: 24 minutes (ACS 2024 1-year)
+- Veterans: 6,680 (ACS 2024 1-year)
+- Born abroad: 13.8% (ACS 2024 1-year)
+- Founded: 1866, incorporated 1866
+- County seat: yes
+- Biggest employer: University of North Texas
+- January average: 45.0°F
+- Snow a year: 2.4 inches, from article text; climate table has no snowfall row
+- Elevation: 659 feet
+- County: Denton County
+- ICE 287(g) agreement in the county: yes, Denton County Sheriff's Office (jail enforcement and task force)
+- College-town index: 0.28 students per resident (a big presence)
 
 ## The program's best
 

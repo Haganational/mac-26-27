@@ -27,7 +27,36 @@ _Wichita State (American). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,640 (Fall 2026), all campuses; main campus 18,003
+- Tuition and fees, in state: $10,329 (2026-27), annual estimate, 15 hrs/semester: tuition 8,174.40 + required fees 2,154.60; course fees extra
+- Tuition and fees, out of state: $21,517 (2026-27), annual: tuition 19,362.60 + required fees 2,154.60
+- Endowment: $350.9 million (2025)
+- Football: none, dropped after 1986 season
+- Men's basketball coach's pay: $1.8 million (2026-27)
+- Arena named for: Charles Koch (Charles Koch Arena)
+
+**Wichita**
+- Population: 400,993 (ACS 2024 1-year)
+- Population in 2020: 397,532 (2020 census)
+- Median household income: $65,855 (ACS 2024 1-year)
+- Income per person: $37,402 (ACS 2024 1-year)
+- Median home value: $212,900 (ACS 2024 1-year)
+- Poverty rate: 14.4% (ACS 2024 1-year)
+- Median age: 36.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 31.8% (ACS 2024 1-year)
+- Average commute: 17.3 minutes (ACS 2024 1-year)
+- Veterans: 20,365 (ACS 2024 1-year)
+- Born abroad: 11.7% (ACS 2024 1-year)
+- Founded: 1868
+- County seat: yes
+- January average: 33.2°F
+- Snow a year: 12.7 inches
+- Elevation: 1,303 feet
+- County: Sedgwick County
+- ICE 287(g) agreement in the county: yes, Sedgwick County Sheriff's Office (warrant service officer)
+- The coach's pay equals 27 median Wichita household incomes
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

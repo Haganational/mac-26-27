@@ -27,7 +27,33 @@ _Charlotte (American). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 32,207 (Fall 2025)
+- Tuition and fees, in state: $7,211 (2026-27), annual; tuition 3,926 + fees 3,285; estimates pending legislative approval
+- Tuition and fees, out of state: $25,303 (2026-27), annual; tuition 22,018 + fees 3,285; estimates
+- Endowment: $376.7 million (2025)
+- Football: FBS, moved up to FBS 2015; American since 2023
+
+**Charlotte**
+- Population: 943,474 (ACS 2024 1-year)
+- Population in 2020: 874,579 (2020 census)
+- Median household income: $86,416 (ACS 2024 1-year)
+- Income per person: $53,099 (ACS 2024 1-year)
+- Median home value: $431,900 (ACS 2024 1-year)
+- Poverty rate: 11.9% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 49.4% (ACS 2024 1-year)
+- Average commute: 25.3 minutes (ACS 2024 1-year)
+- Veterans: 30,721 (ACS 2024 1-year)
+- Born abroad: 19.7% (ACS 2024 1-year)
+- Founded: 1768, incorporated Dec 3, 1768; settled c. 1755
+- County seat: yes
+- Biggest employer: Atrium Health
+- January average: 42.1°F
+- Snow a year: 3.5 inches
+- Elevation: 746 feet
+- County: Mecklenburg County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

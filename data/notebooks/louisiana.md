@@ -27,7 +27,36 @@ _Louisiana (Sun Belt). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 19,056 (Fall 2023)
+- Tuition and fees, in state: $12,076 (2026-27 (Spring 2027 rate)), page gives 6,038 PER SEMESTER (Tier 1, 15 hrs, tuition+fees); doubled. Regents 2025-26 annual resident total at 15 hrs was 12,085
+- Tuition and fees, out of state: $25,804 (2026-27 (Spring 2027 rate)), page gives 12,902 PER SEMESTER (Tier 1, 15 hrs); doubled
+- Endowment: $241.6 million (2025)
+- Football: FBS, Sun Belt
+- Men's basketball coach's pay: $500,000 (contract signed March 2025, through Mar 31, 2030)
+- Arena named for: Cajundome (not named for a person or company per page)
+
+**Lafayette**
+- Population: 122,273 (ACS 2024 1-year)
+- Population in 2020: 121,374 (2020 census)
+- Median household income: $59,445 (ACS 2024 1-year)
+- Income per person: $40,255 (ACS 2024 1-year)
+- Median home value: $263,600 (ACS 2024 1-year)
+- Poverty rate: 20.4% (ACS 2024 1-year)
+- Median age: 39.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.3% (ACS 2024 1-year)
+- Average commute: 20.0 minutes (ACS 2024 5-year)
+- Veterans: 4,848 (ACS 2024 1-year)
+- Born abroad: 7.9% (ACS 2024 1-year)
+- Founded: 1821
+- County seat: yes
+- Biggest employer: Lafayette Parish School System
+- January average: 52.8°F
+- Elevation: 23 feet
+- County: Lafayette Parish
+- ICE 287(g) agreement in the county: yes, Lafayette Parish Sheriff's Office (None)
+- The coach's pay equals 8 median Lafayette household incomes
+- College-town index: 0.16 students per resident (a big presence)
 
 ## The program's best
 

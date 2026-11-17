@@ -27,7 +27,33 @@ _App State (Sun Belt). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,798 (2025)
+- Tuition and fees, in state: $7,609 (2026-27), annual: tuition 4,348 + mandatory fees 3,261
+- Tuition and fees, out of state: $26,469 (2026-27), annual: tuition 23,208 + mandatory fees 3,261
+- Endowment: $192.0 million (2025)
+- Football: FBS, Sun Belt; moved to FBS 2014
+- Arena named for: George M. Holmes (Holmes Convocation Center); arena floor named for Seby Jones (1954 App State graduate who served in the NC General Assembly; page does not say he funded it)
+
+**Boone**
+- Population: 20,032 (ACS 2024 5-year)
+- Population in 2020: 19,092 (2020 census)
+- Median household income: $30,065 (ACS 2024 5-year)
+- Income per person: $17,773 (ACS 2024 5-year)
+- Median home value: $411,100 (ACS 2024 5-year)
+- Poverty rate: 51.2% (ACS 2024 5-year)
+- Median age: 21.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 56.8% (ACS 2024 5-year)
+- Average commute: 15.8 minutes (ACS 2024 5-year)
+- Veterans: 230 (ACS 2024 5-year)
+- Born abroad: 4.5% (ACS 2024 5-year)
+- Founded: 1872
+- County seat: yes
+- January average: 31.5°F
+- Snow a year: 25.6 inches
+- Elevation: 3,232 feet
+- County: Watauga County
+- College-town index: 1.09 students per resident (the school is the town)
 
 ## The program's best
 

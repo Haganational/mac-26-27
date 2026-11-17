@@ -27,7 +27,29 @@ _Stony Brook (CAA). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 27,252 (Fall 2025)
+- Tuition and fees, in state: $10,930 (2026-27), estimate: NYS resident tuition 7,070 + fees 3,860 (page updated 02/20/2026; SUNY sets tuition in June)
+- Tuition and fees, out of state: $34,910 (2026-27), estimate: out-of-state tuition 31,050 + fees 3,860
+- Endowment: $1.00 billion (May 2026)
+- Football: FCS, CAA Football
+- Arena named for: Island Federal Credit Union (a credit union; arena formerly named Stony Brook University Arena)
+
+**Stony Brook**
+- Population: 12,868 (ACS 2024 5-year)
+- Population in 2020: 13,467 (2020 census)
+- Median household income: $174,872 (ACS 2024 5-year)
+- Income per person: $72,994 (ACS 2024 5-year)
+- Median home value: $623,300 (ACS 2024 5-year)
+- Poverty rate: 6.5% (ACS 2024 5-year)
+- Median age: 44.9 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 68.3% (ACS 2024 5-year)
+- Average commute: 29.7 minutes (ACS 2024 5-year)
+- Veterans: 247 (ACS 2024 5-year)
+- Born abroad: 17.1% (ACS 2024 5-year)
+- Elevation: 89 feet
+- County: Suffolk County
+- College-town index: 2.12 students per resident (the school is the town)
 
 ## The program's best
 

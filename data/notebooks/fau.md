@@ -22,7 +22,34 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 32,185 (Fall 2025)
+- Tuition and fees, in state: $5,984 (2026-27), annual estimate, average tuition and fees for full-time fall+spring, incl. transportation access fee
+- Tuition and fees, out of state: $22,888 (2026-27), annual estimate, same basis
+- Endowment: $295.1 million (2024)
+- Football: FBS, The American
+- Men's basketball coach's pay: $1.0 million (contract signed March 2024 (5 years))
+
+**Boca Raton**
+- Population: 102,235 (ACS 2024 1-year)
+- Population in 2020: 97,422 (2020 census)
+- Median household income: $121,629 (ACS 2024 1-year)
+- Income per person: $82,337 (ACS 2024 1-year)
+- Median home value: $853,200 (ACS 2024 1-year)
+- Poverty rate: 10.9% (ACS 2024 1-year)
+- Median age: 43.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 65.1% (ACS 2024 1-year)
+- Average commute: 21.2 minutes (ACS 2024 5-year)
+- Veterans: 3,055 (ACS 2024 1-year)
+- Born abroad: 20.3% (ACS 2024 1-year)
+- Founded: 1925, incorporated as Boca Raton May 26, 1925 (as Bocaratone Aug 2, 1924)
+- Biggest employer: Florida Atlantic University
+- January average: 67.0°F, computed as midpoint of climate box January mean max 76 and mean min 58; box gives no daily mean row
+- Elevation: 13 feet
+- County: Palm Beach County
+- ICE 287(g) agreement in the county: yes, Palm Beach County Sheriff's Office (None)
+- The coach's pay equals 8 median Boca Raton household incomes
+- College-town index: 0.31 students per resident (a big presence)
 
 ## The program's best
 

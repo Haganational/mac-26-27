@@ -27,7 +27,34 @@ _Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,606 (Fall 2020)
+- Tuition and fees, in state: $10,794 (2026-27), flat-rate tuition and required fees 5,397 per term (12-19 hours), doubled for fall+spring
+- Tuition and fees, out of state: $12,794 (2026-27), 6,397 per term incl. 1,000 additional non-resident tuition, doubled
+- Endowment: $169.3 million (2025)
+- Football: FBS, Sun Belt
+- Men's basketball coach's pay: $400,000 (2023 extension (through 2026-27))
+
+**Hattiesburg**
+- Population: 48,619 (ACS 2024 5-year)
+- Population in 2020: 48,730 (2020 census)
+- Median household income: $46,342 (ACS 2024 5-year)
+- Income per person: $31,585 (ACS 2024 5-year)
+- Median home value: $165,900 (ACS 2024 5-year)
+- Poverty rate: 28.3% (ACS 2024 5-year)
+- Median age: 29.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 37.3% (ACS 2024 5-year)
+- Average commute: 17.4 minutes (ACS 2024 5-year)
+- Veterans: 2,020 (ACS 2024 5-year)
+- Born abroad: 3.4% (ACS 2024 5-year)
+- Founded: 1882
+- County seat: yes
+- January average: 48.8°F
+- Snow a year: 0.9 inches
+- Elevation: 171 feet
+- County: Forrest County (city seat; city also extends into Lamar County)
+- The coach's pay equals 9 median Hattiesburg household incomes
+- College-town index: 0.30 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,31 @@ _Santa Clara (WCC). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,635 (Fall 2024)
+- Tuition and fees, in state: $65,736 (2026-27), private; annual tuition 64,956 (21,652/quarter) + Student Engagement and Well-Being Fee 780 (billing period not stated); health insurance TBD excluded
+- Tuition and fees, out of state: $65,736 (2026-27), private, same figure
+- Endowment: $1.55 billion (2024)
+- Football: none, dropped 1993
+
+**Santa Clara**
+- Population: 133,151 (ACS 2024 1-year)
+- Population in 2020: 127,647 (2020 census)
+- Median household income: $180,631 (ACS 2024 1-year)
+- Income per person: $96,439 (ACS 2024 1-year)
+- Median home value: $1.6 million (ACS 2024 1-year)
+- Poverty rate: 7.7% (ACS 2024 1-year)
+- Median age: 34.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 67.5% (ACS 2024 1-year)
+- Average commute: 22.7 minutes (ACS 2024 1-year)
+- Veterans: 2,428 (ACS 2024 1-year)
+- Born abroad: 48.3% (ACS 2024 1-year)
+- Founded: 1852, incorporated 1852; Mission Santa Clara founded 1777
+- Biggest employer: Applied Materials
+- January average: 48.0°F, computed as midpoint of climate box January mean max 58 and mean min 38; box gives no daily mean row
+- Elevation: 72 feet
+- County: Santa Clara County
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

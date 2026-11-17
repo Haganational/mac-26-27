@@ -27,7 +27,32 @@ _South Alabama (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 13,768 (Fall 2023)
+- Tuition and fees, out of state: $20,486 (2026-27), international-student estimated annual tuition and fees (international students are non-residents), College of Arts & Sciences rate at 12 credit hours fall and spring; the page does not label it out-of-state
+- Endowment: $742.1 million (2025), total of USA's two endowments
+- Football: FBS, Sun Belt
+
+**Mobile**
+- Population: 201,355 (ACS 2024 1-year)
+- Population in 2020: 187,041 (2020 census)
+- Median household income: $55,307 (ACS 2024 1-year)
+- Income per person: $34,216 (ACS 2024 1-year)
+- Median home value: $200,000 (ACS 2024 1-year)
+- Poverty rate: 18.2% (ACS 2024 1-year)
+- Median age: 36.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 33.4% (ACS 2024 1-year)
+- Average commute: 22.8 minutes (ACS 2024 1-year)
+- Veterans: 8,078 (ACS 2024 1-year)
+- Born abroad: 4.7% (ACS 2024 1-year)
+- Founded: 1702
+- County seat: yes
+- Biggest employer: University of South Alabama
+- January average: 51.1°F
+- Snow a year: 0.2 inches
+- Elevation: 33 feet
+- County: Mobile County
+- College-town index: 0.07 students per resident (a guest in a bigger place)
 
 ## The program's best
 

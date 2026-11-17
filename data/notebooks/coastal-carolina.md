@@ -27,7 +27,34 @@ _Coastal Carolina (Sun Belt). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,881 (Fall 2025)
+- Tuition and fees, in state: $11,640 (2024-25), page gives 5,820 per semester (full-time, incl. tech fee); doubled for two semesters
+- Tuition and fees, out of state: $29,628 (2024-25), page gives 14,814 per semester; doubled
+- Endowment: $76.2 million (2024)
+- Football: FBS, Sun Belt
+- Men's basketball coach's pay: $383,437 (per SC state salary database as reported Feb 2025)
+
+**Conway**
+- Population: 27,263 (ACS 2024 5-year)
+- Population in 2020: 24,849 (2020 census)
+- Median household income: $56,650 (ACS 2024 5-year)
+- Income per person: $26,388 (ACS 2024 5-year)
+- Median home value: $260,900 (ACS 2024 5-year)
+- Poverty rate: 21.0% (ACS 2024 5-year)
+- Median age: 32.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 19.6% (ACS 2024 5-year)
+- Average commute: 24.0 minutes (ACS 2024 5-year)
+- Veterans: 1,450 (ACS 2024 5-year)
+- Born abroad: 4.3% (ACS 2024 5-year)
+- Founded: 1732
+- County seat: yes
+- January average: 46.7°F
+- Elevation: 16 feet
+- County: Horry County
+- ICE 287(g) agreement in the county: yes, Horry County Sheriff's Office (jail enforcement)
+- The coach's pay equals 7 median Conway household incomes
+- College-town index: 0.44 students per resident (a big presence)
 
 ## The program's best
 

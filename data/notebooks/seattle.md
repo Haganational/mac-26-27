@@ -27,7 +27,33 @@ _Seattle U (WCC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 7,189 (Fall 2024)
+- Tuition and fees, in state: $60,756 (current page (fetched Nov 2026; year not stated)), private; tuition 59,400 (19,800/quarter x3) + wellness 516 + technology 642 + activity 198, per page's recurring total
+- Tuition and fees, out of state: $60,756 (current page (fetched Nov 2026; year not stated)), private, same figure
+- Endowment: $318.3 million (2024)
+- Arena named for: the Redhawk mascot (Redhawk Center; renamed 2018 from the Connolly Center, after Archbishop Thomas Connolly) (not a donor naming)
+
+**First Hill**
+- Population: 780,992 (ACS 2024 1-year)
+- Population in 2020: 737,015 (2020 census)
+- Median household income: $118,745 (ACS 2024 1-year)
+- Income per person: $87,150 (ACS 2024 1-year)
+- Median home value: $950,800 (ACS 2024 1-year)
+- Poverty rate: 9.4% (ACS 2024 1-year)
+- Median age: 35.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 70.1% (ACS 2024 1-year)
+- Average commute: 26 minutes (ACS 2024 1-year)
+- Veterans: 21,144 (ACS 2024 1-year)
+- Born abroad: 19.9% (ACS 2024 1-year)
+- Founded: 1851
+- County seat: yes
+- Biggest employer: Boeing, largest private employer in the Seattle metro area per Wikipedia
+- January average: 42.8°F
+- Snow a year: 6.3 inches
+- Elevation: 148 feet
+- County: King County
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

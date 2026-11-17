@@ -27,7 +27,32 @@ _Charleston (CAA). Anchors are fictional AI personas, not affiliated with any sc
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,926 (Fall 2024)
+- Tuition and fees, in state: $12,518 (2026-27), report of CofC trustees' 2026-27 budget: 6,259 per semester for SC residents, doubled; tuition only, other fees not given
+- Tuition and fees, out of state: $39,344 (2026-27), 19,672 per semester out-of-state, doubled; tuition only
+- Endowment: $157.1 million (2025)
+
+**Charleston**
+- Population: 159,011 (ACS 2024 1-year)
+- Population in 2020: 150,227 (2020 census)
+- Median household income: $98,085 (ACS 2024 1-year)
+- Income per person: $57,364 (ACS 2024 1-year)
+- Median home value: $600,300 (ACS 2024 1-year)
+- Poverty rate: 13.5% (ACS 2024 1-year)
+- Median age: 36.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 60.5% (ACS 2024 1-year)
+- Average commute: 25.5 minutes (ACS 2024 1-year)
+- Veterans: 9,813 (ACS 2024 1-year)
+- Born abroad: 7.2% (ACS 2024 1-year)
+- Founded: 1670
+- County seat: yes
+- January average: 49.5°F, Charleston International Airport table (downtown table 50.8)
+- Snow a year: 0.3 inches
+- Elevation: 3 feet
+- County: Charleston County
+- ICE 287(g) agreement in the county: yes, Charleston County Sheriff's Office (None)
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

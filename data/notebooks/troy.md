@@ -27,7 +27,30 @@ _Troy (Sun Belt). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,156 (Fall 2022), all campuses and online; body text says 14,881
+- Endowment: $168.3 million (2025)
+- Football: FBS, Sun Belt
+
+**Troy**
+- Population: 17,716 (ACS 2024 5-year)
+- Population in 2020: 17,727 (2020 census)
+- Median household income: $50,717 (ACS 2024 5-year)
+- Income per person: $28,552 (ACS 2024 5-year)
+- Median home value: $231,400 (ACS 2024 5-year)
+- Poverty rate: 25.0% (ACS 2024 5-year)
+- Median age: 25.3 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 39.7% (ACS 2024 5-year)
+- Average commute: 18.2 minutes (ACS 2024 5-year)
+- Veterans: 1,063 (ACS 2024 5-year)
+- Born abroad: 4.5% (ACS 2024 5-year)
+- Founded: 1838
+- County seat: yes
+- January average: 47.6°F
+- Snow a year: 0.1 inches
+- Elevation: 535 feet
+- County: Pike County
+- College-town index: 0.80 students per resident (the school is the town)
 
 ## The program's best
 

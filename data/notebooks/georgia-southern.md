@@ -27,7 +27,32 @@ _Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 34,541 (Fall 2026), infobox; text says approx 30,000 in 2026
+- Tuition and fees, in state: $5,610 (FY2025 (2024-25)), TUITION ONLY, excludes mandatory fees: USG posting 2,805 per semester (15 hrs) x 2
+- Tuition and fees, out of state: $20,250 (FY2025 (2024-25)), TUITION ONLY, excludes fees: 10,125 per semester x 2
+- Endowment: $117.4 million (2025)
+- Football: FBS, Sun Belt
+- Arena named for: Jack Hill and Ruth Ann Hill (Hill Convocation Center, opened Dec 2024) (Jack Hill was a Georgia state senator and GSU alumnus honored for work on facilities funding; page does not describe a private fortune)
+
+**Statesboro**
+- Population: 34,149 (ACS 2024 5-year)
+- Population in 2020: 33,438 (2020 census)
+- Median household income: $44,737 (ACS 2024 5-year)
+- Income per person: $20,069 (ACS 2024 5-year)
+- Median home value: $197,900 (ACS 2024 5-year)
+- Poverty rate: 36.0% (ACS 2024 5-year)
+- Median age: 22.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 31.6% (ACS 2024 5-year)
+- Average commute: 22.9 minutes (ACS 2024 5-year)
+- Veterans: 879 (ACS 2024 5-year)
+- Born abroad: 2.8% (ACS 2024 5-year)
+- Founded: 1803
+- County seat: yes
+- Biggest employer: Georgia Southern University
+- Elevation: 253 feet
+- County: Bulloch County
+- College-town index: 1.01 students per resident (the school is the town)
 
 ## The program's best
 

@@ -27,7 +27,36 @@ _Memphis (American). Anchors are fictional AI personas, not affiliated with any 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 20,276 (infobox, year not stated)
+- Tuition and fees, in state: $11,760 (2026-27), Tennessee resident undergraduate tuition and fees, fall/spring (annual) estimate
+- Endowment: $413.0 million (2025)
+- Football: FBS, The American
+- Men's basketball coach's pay: $2.9 million (2026)
+- Arena named for: FedEx (FedExForum) (FedEx, Memphis-based shipping company; bought naming rights for $92 million)
+
+**Memphis**
+- Population: 610,936 (ACS 2024 1-year)
+- Population in 2020: 633,104 (2020 census)
+- Median household income: $52,679 (ACS 2024 1-year)
+- Income per person: $33,449 (ACS 2024 1-year)
+- Median home value: $209,800 (ACS 2024 1-year)
+- Poverty rate: 24% (ACS 2024 1-year)
+- Median age: 34.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 28.6% (ACS 2024 1-year)
+- Average commute: 21.4 minutes (ACS 2024 1-year)
+- Veterans: 21,845 (ACS 2024 1-year)
+- Born abroad: 7.7% (ACS 2024 1-year)
+- Founded: 1819
+- County seat: yes
+- Biggest employer: FedEx
+- January average: 42.1°F
+- Snow a year: 2.7 inches
+- Elevation: 338 feet
+- County: Shelby County
+- ICE 287(g) agreement in the county: yes, Shelby County Sheriff's Office (jail enforcement)
+- The coach's pay equals 55 median Memphis household incomes
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

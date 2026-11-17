@@ -27,7 +27,32 @@ _Dartmouth (Ivy). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 6,746 (Fall 2023)
+- Tuition and fees, in state: $73,854 (2026-27), private; tuition 71,697 + fees 2,157 from Dartmouth's 2026-27 cost of attendance page (sum computed; excludes one-time 269 first-year fee and 5,216 health insurance)
+- Tuition and fees, out of state: $73,854 (2026-27), private; tuition 71,697 + fees 2,157 from Dartmouth's 2026-27 cost of attendance page (sum computed; excludes one-time 269 first-year fee and 5,216 health insurance)
+- Endowment: $9.00 billion (2025)
+- Football: FCS, Ivy League
+
+**Hanover**
+- Population: 8,479 (ACS 2024 5-year)
+- Population in 2020: 11,870 (2020 census), town of Hanover; Hanover CDP was 9,078
+- Median household income: $153,281 (ACS 2024 5-year)
+- Income per person: $61,792 (ACS 2024 5-year)
+- Median home value: $842,600 (ACS 2024 5-year)
+- Poverty rate: 8% (ACS 2024 5-year)
+- Median age: 21.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 89.3% (ACS 2024 5-year)
+- Average commute: 19 minutes (ACS 2024 5-year)
+- Veterans: 196 (ACS 2024 5-year)
+- Born abroad: 16.8% (ACS 2024 5-year)
+- Founded: 1761
+- January average: 21.6°F
+- Snow a year: 60.6 inches
+- Elevation: 1,096 feet
+- County: Grafton County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.80 students per resident (the school is the town)
 
 ## The program's best
 

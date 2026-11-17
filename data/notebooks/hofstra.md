@@ -27,7 +27,30 @@ _Hofstra (CAA). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,685 (2025)
+- Tuition and fees, in state: $62,110 (2026-27), private; 31,055 per term (tuition 30,468 + university fee 392 + technology 115 + activity 80) x Fall+Spring
+- Tuition and fees, out of state: $62,110 (2026-27), private, same figure
+- Endowment: $955.8 million (2025)
+- Football: none, dropped 2009 (announced Dec. 3, 2009)
+
+**Hempstead**
+- Population: 58,801 (ACS 2024 5-year)
+- Population in 2020: 59,169 (2020 census)
+- Median household income: $90,420 (ACS 2024 5-year)
+- Income per person: $34,304 (ACS 2024 5-year)
+- Median home value: $459,500 (ACS 2024 5-year)
+- Poverty rate: 14.4% (ACS 2024 5-year)
+- Median age: 38.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 21.5% (ACS 2024 5-year)
+- Average commute: 33.3 minutes (ACS 2024 5-year)
+- Veterans: 872 (ACS 2024 5-year)
+- Born abroad: 38.6% (ACS 2024 5-year)
+- Founded: 1853, settled 1643; village incorporated 1853
+- County seat: no, Mineola is the Nassau County seat
+- January average: 32.5°F, computed as mean of climate-box January daily max 39 and min 26 (no mean row)
+- County: Nassau County
+- College-town index: 0.18 students per resident (a big presence)
 
 ## The program's best
 

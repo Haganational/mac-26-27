@@ -27,7 +27,33 @@ _Brown (Ivy). Anchors are fictional AI personas, not affiliated with any school.
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,005 (not stated in infobox)
+- Tuition and fees, in state: $77,552 (2026-27), private; tuition 74,568 + student resources fee 1,136 + health services fee 1,296 + student activities fee 442 + recreation fee 110, summed from Brown's FY27 announcement (page gives no single total)
+- Tuition and fees, out of state: $77,552 (2026-27), private; tuition 74,568 + student resources fee 1,136 + health services fee 1,296 + student activities fee 442 + recreation fee 110, summed from Brown's FY27 announcement (page gives no single total)
+- Endowment: $8.00 billion (2025)
+- Football: FCS, Ivy League
+- Arena named for: Paul Bailey Pizzitola, Brown class of 1981 (Pizzitola Sports Center); his father gave $2 million toward construction (not stated on the arena's Wikipedia page)
+
+**Providence**
+- Population: 194,710 (ACS 2024 1-year)
+- Population in 2020: 190,934 (2020 census)
+- Median household income: $61,797 (ACS 2024 1-year)
+- Income per person: $35,453 (ACS 2024 1-year)
+- Median home value: $413,800 (ACS 2024 1-year)
+- Poverty rate: 25.9% (ACS 2024 1-year)
+- Median age: 32.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 34% (ACS 2024 1-year)
+- Average commute: 24 minutes (ACS 2024 1-year)
+- Veterans: 3,560 (ACS 2024 1-year)
+- Born abroad: 33.1% (ACS 2024 1-year)
+- Founded: 1636
+- County seat: yes
+- January average: 30.2°F
+- Snow a year: 36.6 inches
+- Elevation: 10 feet
+- County: Providence County
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

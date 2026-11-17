@@ -27,7 +27,34 @@ _Penn (Ivy). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 23,374 (Fall 2022)
+- Tuition and fees, in state: $73,978 (2026-27), private; tuition 65,670 + fees 8,308 per Penn Today trustees release (summed)
+- Tuition and fees, out of state: $73,978 (2026-27), private; tuition 65,670 + fees 8,308 per Penn Today trustees release (summed)
+- Endowment: $31.10 billion (2026)
+- Football: FCS, Ivy League
+
+**Philadelphia**
+- Population: 1,573,916 (ACS 2024 1-year)
+- Population in 2020: 1,603,797 (2020 census)
+- Median household income: $60,521 (ACS 2024 1-year)
+- Income per person: $39,443 (ACS 2024 1-year)
+- Median home value: $253,600 (ACS 2024 1-year)
+- Poverty rate: 19.7% (ACS 2024 1-year)
+- Median age: 35.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 36.4% (ACS 2024 1-year)
+- Average commute: 33.2 minutes (ACS 2024 1-year)
+- Veterans: 45,118 (ACS 2024 1-year)
+- Born abroad: 16.1% (ACS 2024 1-year)
+- Founded: 1682
+- County seat: yes
+- Biggest employer: University of Pennsylvania (largest private employer; federal and city governments are the two largest overall)
+- January average: 33.7°F
+- Snow a year: 23.1 inches
+- Elevation: 39 feet
+- County: Philadelphia County
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

@@ -27,7 +27,32 @@ _Hampton (CAA). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 4,243 (Fall 2024)
+- Tuition and fees, in state: $33,086 (2026-27), private; tuition 29,722 + comprehensive fee 3,364 per school year (10-17 hours); insurance, technology fee and e-books listed separately
+- Tuition and fees, out of state: $33,086 (2026-27), private, same figure
+- Endowment: $280.6 million (2020)
+- Football: FCS, CAA
+
+**Hampton**
+- Population: 137,596 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Population in 2020: 137,148 (2020 census)
+- Median household income: $69,277 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Income per person: $37,018 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median home value: $266,100 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Poverty rate: 13.9% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Median age: 37.3 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Adults with a bachelor's degree: 28.8% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Average commute: 22.5 minutes (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Veterans: 15,307 (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Born abroad: 7.0% (ACS 2024 1-year (commute: ACS 2024 5-year))
+- Founded: 1610
+- January average: 42.2°F, Norfolk International Airport climate table
+- Snow a year: 6.2 inches, Norfolk International Airport climate table
+- Elevation: 10 feet
+- County: None (independent city)
+- ICE 287(g) agreement in the county: no
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 
