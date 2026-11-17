@@ -1880,7 +1880,7 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": null,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -1888,13 +1888,13 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": null,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:39 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920953",
@@ -9364,5 +9364,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T18:33:53+00:00"
 }
