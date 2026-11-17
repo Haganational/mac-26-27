@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:07:36+00:00",
+ "fetched_at": "2026-11-17T18:08:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -2240,7 +2240,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-17-2026--sports-ncaa-basketball/production/7632055?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
@@ -3494,7 +3494,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-27-2026--sports-ncaa-basketball/production/7632059?wsUser=717",
-    "low": 19.0
+    "low": 15.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
@@ -3617,7 +3617,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 19.0
+    "low": 17.0
    },
    "venue": "Rupp Arena",
    "venue_city": "Lexington",
@@ -4162,7 +4162,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-12-1-2026--sports-ncaa-basketball/production/7387447?wsUser=717",
     "low": 11.0
@@ -4335,7 +4341,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-12-2-2026--sports-ncaa-basketball/production/7632069?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
@@ -5214,7 +5220,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-12-9-2026--sports-ncaa-basketball/production/7612567?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
@@ -6184,7 +6190,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-12-16-2026--sports-ncaa-basketball/production/7276169?wsUser=717",
-    "low": 24.0
+    "low": 25.0
    },
    "venue": "Moody Center",
    "venue_city": "Austin",

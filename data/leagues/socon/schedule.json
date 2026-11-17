@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:10:41+00:00",
+ "fetched_at": "2026-11-17T18:12:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -3967,7 +3967,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-1-2026--sports-ncaa-basketball/production/7745860?wsUser=717",
     "low": 37.0
@@ -4181,7 +4187,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/la-salle-explorers-mens-basketball-tickets-john-glaser-arena-12-1-2026--sports-ncaa-basketball/production/7627947?wsUser=717",
     "low": 29.0
@@ -4313,7 +4325,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-12-2-2026--sports-ncaa-basketball/production/7632069?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:09:31+00:00",
+ "fetched_at": "2026-11-17T18:11:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -2145,7 +2145,7 @@
     "key": null,
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": 16,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2153,13 +2153,13 @@
     "key": "hofstra",
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 12,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:47 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401926834",
@@ -3128,7 +3128,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-23-2026--sports-ncaa-basketball/production/7463025?wsUser=717",
-    "low": 15.0
+    "low": 14.0
    },
    "venue": "Dean E. Smith Center",
    "venue_city": "Chapel Hill",
@@ -4233,7 +4233,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-12-1-2026--sports-ncaa-basketball/production/7399882?wsUser=717",
     "low": 39.0
@@ -4356,7 +4362,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-12-2-2026--sports-ncaa-basketball/production/7661801?wsUser=717",
-    "low": 30.0
+    "low": 24.0
    },
    "venue": "Stony Brook Arena",
    "venue_city": "Stony Brook",
@@ -6399,7 +6405,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-12-19-2026--sports-ncaa-basketball/production/7546516?wsUser=717",
-    "low": 32.0
+    "low": 28.0
    },
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -11587,6 +11593,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T17:39:40+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:05:13+00:00",
+ "fetched_at": "2026-11-17T18:05:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -1880,7 +1880,7 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": 14,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1888,13 +1888,13 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 7,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:43 - 1st"
+   "detail": "2:39 - 1st"
   },
   {
    "game_id": "401920953",
@@ -3525,7 +3525,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-12-1-2026--sports-ncaa-basketball/production/7588380?wsUser=717",
     "low": 14.0
@@ -4419,7 +4425,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-12-9-2026--sports-ncaa-basketball/production/7717528?wsUser=717",
-    "low": 23.0
+    "low": 20.0
    },
    "venue": "CFSB Center",
    "venue_city": "Murray",
@@ -9358,6 +9364,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T17:34:56+00:00"
+ ]
 }

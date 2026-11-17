@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:11:50+00:00",
+ "fetched_at": "2026-11-17T18:14:28+00:00",
  "season": 2027,
  "games": [
   {
@@ -1951,7 +1951,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-11-17-2026--sports-ncaa-basketball/production/7656470?wsUser=717",
-    "low": 12.0
+    "low": 9.0
    },
    "venue": "Baxter Arena",
    "venue_city": "Omaha",
@@ -3422,14 +3422,20 @@
   },
   {
    "game_id": "401925081",
-   "date": "2026-12-01T05:00Z",
+   "date": "2026-12-01T18:00Z",
    "name": "Ecclesia Royals at Northwestern State Demons",
    "short_name": "ECCL @ NWST",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [],
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Prather Coliseum",
    "venue_city": "Natchitoches",
@@ -6343,7 +6349,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-1-9-2027--sports-ncaa-basketball/production/7880316?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -6775,7 +6784,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-1-16-2027--sports-ncaa-basketball/production/7880360?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -7032,7 +7044,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-1-18-2027--sports-ncaa-basketball/production/7880362?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -7251,7 +7266,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-1-23-2027--sports-ncaa-basketball/production/7880364?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -7467,7 +7485,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-1-26-2027--sports-ncaa-basketball/production/7880366?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -7867,7 +7888,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-2-1-2027--sports-ncaa-basketball/production/7880374?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -8527,7 +8551,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-2-13-2027--sports-ncaa-basketball/production/7880378?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -8708,7 +8735,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-2-15-2027--sports-ncaa-basketball/production/7880380?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",
@@ -8888,7 +8918,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-2-15-2027--sports-ncaa-basketball/production/7752099?wsUser=717",
-    "low": 30.0
+    "low": 25.0
    },
    "venue": "William R. Johnson Coliseum",
    "venue_city": "Nacogdoches",
@@ -9356,7 +9386,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southeastern-louisiana-lions-mens-basketball-tickets-university-center-selu-2-27-2027--sports-ncaa-basketball/production/7880382?wsUser=717",
+    "low": 49.0
+   },
    "venue": "University Center",
    "venue_city": "Hammond",
    "venue_state": "LA",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:10:11+00:00",
+ "fetched_at": "2026-11-17T18:12:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -1598,7 +1598,7 @@
   {
    "game_id": "401920904",
    "date": "2026-11-17T16:00Z",
-   "name": "Wilson WILSON at Delaware Blue Hens",
+   "name": "Wilson Phoenix at Delaware Blue Hens",
    "short_name": "WLSN @ DEL",
    "season_type": "reg",
    "neutral_site": false,
@@ -1620,21 +1620,21 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": 88,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
    "away": {
     "espn_id": "111914",
     "key": null,
-    "name": "Wilson WILSON",
+    "name": "Wilson Phoenix",
     "abbr": "WLSN",
-    "score": 45,
-    "winner": null
+    "score": 47,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920953",
@@ -1695,7 +1695,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-17-2026--sports-ncaa-basketball/production/7632055?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
@@ -1783,7 +1783,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/alabama-crimson-tide-mens-basketball-tickets-coleman-coliseum-11-17-2026--sports-ncaa-basketball/production/7340409?wsUser=717",
-    "low": 5.0
+    "low": 6.0
    },
    "venue": "Coleman Coliseum",
    "venue_city": "Tuscaloosa",
@@ -2205,7 +2205,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 11.0
+    "low": 9.0
    },
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
@@ -5582,7 +5582,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center---vystar-arena-2-2-2027--sports-ncaa-basketball/production/7574884?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -5956,7 +5956,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-1-9-2027--sports-ncaa-basketball/production/7290218?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -6447,7 +6447,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-1-21-2027--sports-ncaa-basketball/production/7290222?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -6672,7 +6672,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-1-23-2027--sports-ncaa-basketball/production/7290224?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -7496,7 +7496,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-2-11-2027--sports-ncaa-basketball/production/7290228?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -7610,7 +7610,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-2-13-2027--sports-ncaa-basketball/production/7290230?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -8177,7 +8177,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center---vystar-arena-2-25-2027--sports-ncaa-basketball/production/7575044?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -8288,7 +8288,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-2-27-2027--sports-ncaa-basketball/production/7290232?wsUser=717",
-    "low": 18.0
+    "low": 15.0
    },
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
@@ -8802,6 +8802,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T17:40:26+00:00"
+ ]
 }

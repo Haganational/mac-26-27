@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T12:16:56+00:00",
+ "fetched_at": "2026-11-17T18:20:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -2334,7 +2334,7 @@
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": 54,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2342,13 +2342,13 @@
     "key": null,
     "name": "Louisiana Christian Wildcats",
     "abbr": "LCHR",
-    "score": 32,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:12 - 1st"
+   "detail": "16:02 - 2nd"
   },
   {
    "game_id": "401911521",
@@ -2544,7 +2544,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-18-2026--sports-ncaa-basketball/production/7349896?wsUser=717",
-    "low": 7.0
+    "low": 6.0
    },
    "venue": "Mizzou Arena",
    "venue_city": "Columbia",
@@ -2632,7 +2632,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-state-aztecs-mens-basketball-tickets-viejas-arena-11-18-2026--sports-ncaa-basketball/production/7563285?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Viejas Arena",
    "venue_city": "San Diego",
@@ -2870,13 +2870,13 @@
   },
   {
    "game_id": "401928389",
-   "date": "2026-11-23T05:00Z",
+   "date": "2026-11-23T16:00Z",
    "name": "Ecclesia Royals at Grambling Tigers",
    "short_name": "ECCL @ GRAM",
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [],
    "tickets": null,
    "venue": "Fredrick C. Hobdy Assembly Center",
@@ -3538,7 +3538,7 @@
   },
   {
    "game_id": "401920310",
-   "date": "2026-11-29T00:00Z",
+   "date": "2026-11-28T18:00Z",
    "name": "Alcorn State Braves at Georgia Tech Yellow Jackets",
    "short_name": "ALCN @ GT",
    "season_type": "reg",
@@ -3823,7 +3823,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-1-2026--sports-ncaa-basketball/production/7745860?wsUser=717",
     "low": 37.0
@@ -3905,7 +3911,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-12-2-2026--sports-ncaa-basketball/production/7264749?wsUser=717",
     "low": 9.0
@@ -4400,7 +4412,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-6-2026--sports-ncaa-basketball/production/7350033?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -4444,7 +4456,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-humphrey-coliseum-12-7-2026--sports-ncaa-basketball/production/7349719?wsUser=717",
-    "low": 6.0
+    "low": 10.0
    },
    "venue": "Humphrey Coliseum",
    "venue_city": "Starkville",
@@ -4743,7 +4755,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-12-9-2026--sports-ncaa-basketball/production/7717528?wsUser=717",
-    "low": 23.0
+    "low": 21.0
    },
    "venue": "CFSB Center",
    "venue_city": "Murray",
@@ -5235,7 +5247,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-humphrey-coliseum-12-15-2026--sports-ncaa-basketball/production/7369252?wsUser=717",
-    "low": 9.0
+    "low": 11.0
    },
    "venue": "Humphrey Coliseum",
    "venue_city": "Starkville",
@@ -6758,7 +6770,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-29-2026--sports-ncaa-basketball/production/7350039?wsUser=717",
-    "low": 22.0
+    "low": 14.0
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -10758,6 +10770,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-17T17:47:07+00:00"
+ ]
 }
