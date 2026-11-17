@@ -27,7 +27,32 @@ _Kansas City (Summit). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,238 (Fall 2026)
+- Tuition and fees, in state: $13,216 (2025-26), annual estimate, base/general education rate, 28 credit hours fall + spring (2026-27 per-credit tuition is 427.70 excluding fees)
+- Endowment: $254.0 million (2026)
+- Football: none, 16 sponsored sports, no football
+- Men's basketball coach's pay: $200,000 (2026-27)
+
+**Kansas City**
+- Population: 516,045 (ACS 2024 1-year)
+- Population in 2020: 508,090 (2020 census)
+- Median household income: $69,958 (ACS 2024 1-year)
+- Income per person: $41,380 (ACS 2024 1-year)
+- Median home value: $261,600 (ACS 2024 1-year)
+- Poverty rate: 15.7% (ACS 2024 1-year)
+- Median age: 35.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.1% (ACS 2024 1-year)
+- Average commute: 21.8 minutes (ACS 2024 1-year)
+- Veterans: 23,164 (ACS 2024 1-year)
+- Born abroad: 10.2% (ACS 2024 1-year)
+- Founded: 1850, settled 1830s; incorporated June 1, 1850
+- County seat: yes, one of two Jackson County seats (with Independence)
+- January average: 31.0°F, Downtown Airport (KCI: 29.0)
+- Snow a year: 11.0 inches, Downtown Airport (KCI: 18.2)
+- Elevation: 909 feet
+- The coach's pay equals 3 median Kansas City household incomes
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

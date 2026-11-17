@@ -27,7 +27,29 @@ _UTRGV (Southland). Anchors are fictional AI personas, not affiliated with any s
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 36,466 (Fall 2025), Wikipedia says fall 2026 but its citation is titled 'UTRGV opens Fall 2025 with another record enrollment'
+- Endowment: $190.5 million (FY2024), UTRGV only
+- Football: FCS, started 2025; Southland Conference
+
+**Edinburg**
+- Population: 108,746 (ACS 2024 1-year)
+- Population in 2020: 100,243 (2020 census)
+- Median household income: $59,851 (ACS 2024 1-year)
+- Income per person: $27,423 (ACS 2024 1-year)
+- Median home value: $223,900 (ACS 2024 1-year)
+- Poverty rate: 20.3% (ACS 2024 1-year)
+- Median age: 31.4 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 27.3% (ACS 2024 1-year)
+- Average commute: 21.8 minutes (ACS 2024 5-year)
+- Veterans: 2,251 (ACS 2024 1-year)
+- Born abroad: 21.9% (ACS 2024 1-year)
+- Founded: 1908
+- County seat: yes
+- January average: 59.6°F
+- Elevation: 95 feet
+- County: Hidalgo County
+- College-town index: 0.34 students per resident (a big presence)
 
 ## The program's best
 

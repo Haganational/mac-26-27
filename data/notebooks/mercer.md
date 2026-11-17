@@ -27,7 +27,32 @@ _Mercer (SoCon). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,124 (Fall 2023)
+- Tuition and fees, in state: $45,284 (2026-27), private; residential undergraduate tuition 44,784 + facility & technology fee 500, annual
+- Tuition and fees, out of state: $45,284 (2026-27), private, same figure
+- Endowment: $502.0 million (2022)
+- Football: FCS, Southern Conference; reinstated 2013
+
+**Macon**
+- Population: 157,056 (ACS 2024 1-year)
+- Population in 2020: 157,346 (2020 census)
+- Median household income: $47,018 (ACS 2024 1-year)
+- Income per person: $31,186 (ACS 2024 1-year)
+- Median home value: $207,100 (ACS 2024 1-year)
+- Poverty rate: 25.1% (ACS 2024 1-year)
+- Median age: 36.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.8% (ACS 2024 1-year)
+- Average commute: 22.2 minutes (ACS 2024 5-year)
+- Veterans: 9,118 (ACS 2024 1-year)
+- Born abroad: 3.5% (ACS 2024 1-year)
+- Founded: 1809
+- County seat: yes
+- January average: 47.6°F
+- Snow a year: 0.7 inches
+- Elevation: 381 feet
+- County: Bibb County (consolidated Macon-Bibb County)
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

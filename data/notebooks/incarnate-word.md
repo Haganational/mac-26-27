@@ -27,7 +27,33 @@ _Incarnate Word (Southland). Anchors are fictional AI personas, not affiliated w
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,188 (Fall 2025)
+- Tuition and fees, in state: $40,200 (2026-27), private; flat-rate tuition 18,900/semester + student university fee 1,200/semester, doubled per page's per-semester figures (37,800 + 2,400); excludes 2,134 health insurance
+- Tuition and fees, out of state: $40,200 (2026-27), private, same figure
+- Endowment: $188.0 million (2024)
+- Football: FCS, Southland Conference
+
+**San Antonio**
+- Population: 1,526,621 (ACS 2024 1-year)
+- Population in 2020: 1,434,625 (2020 census)
+- Median household income: $66,176 (ACS 2024 1-year)
+- Income per person: $35,099 (ACS 2024 1-year)
+- Median home value: $260,900 (ACS 2024 1-year)
+- Poverty rate: 17.1% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 29.4% (ACS 2024 1-year)
+- Average commute: 25.1 minutes (ACS 2024 1-year)
+- Veterans: 96,163 (ACS 2024 1-year)
+- Born abroad: 17% (ACS 2024 1-year)
+- Founded: 1718
+- County seat: yes
+- January average: 52.2°F
+- Snow a year: 0.2 inches
+- Elevation: 722 feet, infobox; article text says about 662 ft
+- County: Bexar County
+- ICE 287(g) agreement in the county: yes, Bexar County Sheriff's Office (warrant service officer)
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

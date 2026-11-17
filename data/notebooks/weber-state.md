@@ -27,7 +27,35 @@ _Weber State (Big Sky). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 30,536 (Fall 2023), body text; infobox gives 29,914 for fall 2022
+- Tuition and fees, in state: $6,579 (2026-27), annual: full-time tuition (2 semesters) $5,768 + student fees $811, students under 60 credits; over 60 credits $6,081 + $811
+- Tuition and fees, out of state: $17,567 (2026-27), annual: $16,756 + $811 fees, under 60 credits; over 60 credits $17,156 + $811
+- Endowment: $238.0 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $270,000 (2026-27 (contract effective Apr 3, 2026, through 2029-30))
+- Arena named for: Lawrence T. Dee family (Dee Events Center) (not stated on Wikipedia page; named for Lawrence T. Dee's contributions to building the arena)
+
+**Ogden**
+- Population: 88,661 (ACS 2024 1-year)
+- Population in 2020: 87,321 (2020 census)
+- Median household income: $74,449 (ACS 2024 1-year)
+- Income per person: $35,803 (ACS 2024 1-year)
+- Median home value: $370,500 (ACS 2024 1-year)
+- Poverty rate: 13.7% (ACS 2024 1-year)
+- Median age: 33.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 26.2% (ACS 2024 1-year)
+- Average commute: 22.1 minutes (ACS 2024 1-year)
+- Veterans: 3,893 (ACS 2024 1-year)
+- Born abroad: 13% (ACS 2024 1-year)
+- Founded: 1844
+- County seat: yes
+- Biggest employer: Internal Revenue Service
+- January average: 28.5°F
+- Elevation: 4,341 feet
+- County: Weber County
+- The coach's pay equals 4 median Ogden household incomes
+- College-town index: 0.34 students per resident (a big presence)
 
 ## The program's best
 

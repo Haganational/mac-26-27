@@ -27,7 +27,33 @@ _UNC Greensboro (SoCon). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 19,764 (Fall 2020)
+- Tuition and fees, in state: $7,864 (2026-27), page is per semester: $3,932 full-time NC resident incl. fees; doubled. Rates pending NC General Assembly approval
+- Tuition and fees, out of state: $25,347 (2026-27), $12,673.50 per semester non-resident; doubled; same caveat
+- Endowment: $471.0 million (2025)
+- Football: none, no varsity football; football listed only as a club sport
+
+**Greensboro**
+- Population: 307,372 (ACS 2024 1-year)
+- Population in 2020: 299,035 (2020 census)
+- Median household income: $63,516 (ACS 2024 1-year)
+- Income per person: $38,812 (ACS 2024 1-year)
+- Median home value: $290,200 (ACS 2024 1-year)
+- Poverty rate: 15.2% (ACS 2024 1-year)
+- Median age: 34.9 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.4% (ACS 2024 1-year)
+- Average commute: 21.9 minutes (ACS 2024 1-year)
+- Veterans: 10,010 (ACS 2024 1-year)
+- Born abroad: 14.0% (ACS 2024 1-year)
+- Founded: 1808
+- County seat: yes
+- Biggest employer: Cone Health, 13,000 employees, city 2025 ACFR
+- January average: 39.7°F
+- Snow a year: 7.1 inches
+- Elevation: 897 feet
+- County: Guilford County
+- College-town index: 0.06 students per resident (a guest in a bigger place)
 
 ## The program's best
 

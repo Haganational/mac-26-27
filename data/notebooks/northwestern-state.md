@@ -27,7 +27,28 @@ _Northwestern State (Southland). Anchors are fictional AI personas, not affiliat
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,081 (Fall 2018), only figure on page; enrollment declined since
+- Football: FCS, Southland Conference football member
+
+**Natchitoches**
+- Population: 17,577 (ACS 2024 5-year)
+- Population in 2020: 18,039 (2020 census)
+- Median household income: $37,133 (ACS 2024 5-year)
+- Income per person: $23,599 (ACS 2024 5-year)
+- Median home value: $193,200 (ACS 2024 5-year)
+- Poverty rate: 35.9% (ACS 2024 5-year)
+- Median age: 26.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 30.3% (ACS 2024 5-year)
+- Average commute: 16.2 minutes (ACS 2024 5-year)
+- Veterans: 654 (ACS 2024 5-year)
+- Born abroad: 1.9% (ACS 2024 5-year)
+- Founded: 1714
+- County seat: yes
+- January average: 49.5°F
+- Elevation: 112 feet
+- County: Natchitoches Parish
+- College-town index: 0.63 students per resident (the school is the town)
 
 ## The program's best
 

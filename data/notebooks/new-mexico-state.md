@@ -27,7 +27,33 @@ _New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 23,888 (Fall 2025), system-wide headcount per cited Fall 2025 census report; Las Cruces campus 16,076
+- Tuition and fees, in state: $8,637 (2026-27), Fall 2026 term rate sheet: flat rate (15+ credits) $4,318.55 per semester (tuition 3,364.10 + general 651.60 + athletic 179.85 + IT 123.00), NM resident; doubled and rounded; excludes $17.33/credit academic service fee
+- Tuition and fees, out of state: $26,964 (2026-27), $13,481.75 per semester flat rate, non-resident; doubled and rounded
+- Endowment: $421.5 million (2025)
+- Football: FBS, Conference USA since July 1, 2023
+
+**Las Cruces**
+- Population: 116,992 (ACS 2024 1-year)
+- Population in 2020: 111,385 (2020 census)
+- Median household income: $58,871 (ACS 2024 1-year)
+- Income per person: $31,808 (ACS 2024 1-year)
+- Median home value: $260,400 (ACS 2024 1-year)
+- Poverty rate: 21.2% (ACS 2024 1-year)
+- Median age: 34.0 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.4% (ACS 2024 1-year)
+- Average commute: 18.9 minutes (ACS 2024 5-year)
+- Veterans: 5,912 (ACS 2024 1-year)
+- Born abroad: 7.8% (ACS 2024 1-year)
+- Founded: 1849, founded 1849, incorporated 1907
+- County seat: yes
+- Biggest employer: Federal government (White Sands Test Facility and White Sands Missile Range)
+- January average: 44.2°F
+- Snow a year: 1.0 inches
+- Elevation: 3,901 feet
+- County: Doña Ana County
+- College-town index: 0.20 students per resident (a big presence)
 
 ## The program's best
 

@@ -27,7 +27,36 @@ _Idaho (Big Sky). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,383 (Fall 2025)
+- Tuition and fees, in state: $9,825 (2026-27), annual full-time total incl. $2,396 consolidated mandatory fee (student newspaper report of approved rates)
+- Tuition and fees, out of state: $29,300 (2026-27), annual full-time total
+- Endowment: $474.0 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $190,000 (2025-26 (reported Apr 2026))
+- Arena named for: Idaho Central Credit Union (ICCU Arena) (Idaho credit union; bought naming rights Sept 16, 2020 (price not on page))
+
+**Moscow**
+- Population: 26,286 (ACS 2024 5-year)
+- Population in 2020: 25,435 (2020 census)
+- Median household income: $57,022 (ACS 2024 5-year)
+- Income per person: $32,818 (ACS 2024 5-year)
+- Median home value: $376,400 (ACS 2024 5-year)
+- Poverty rate: 25.1% (ACS 2024 5-year)
+- Median age: 25.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 50% (ACS 2024 5-year)
+- Average commute: 14.3 minutes (ACS 2024 5-year)
+- Veterans: 937 (ACS 2024 5-year)
+- Born abroad: 5.2% (ACS 2024 5-year)
+- Founded: 1887
+- County seat: yes
+- Biggest employer: University of Idaho
+- January average: 29.8°F
+- Snow a year: 50.9 inches
+- Elevation: 2,582 feet
+- County: Latah County
+- The coach's pay equals 3 median Moscow household incomes
+- College-town index: 0.47 students per resident (a big presence)
 
 ## The program's best
 

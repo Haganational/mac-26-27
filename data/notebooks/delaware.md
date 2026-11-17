@@ -27,7 +27,30 @@ _Delaware (CUSA). Anchors are fictional AI personas, not affiliated with any sch
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 24,221 (Fall 2023)
+- Tuition and fees, in state: $18,290 (2026-27), Newark campus full-time: tuition 15,740 + mandatory fees 2,550 (annual 'Billable Academic Year Total'); some colleges add differential charges
+- Tuition and fees, out of state: $45,020 (2026-27), tuition 42,470 + mandatory fees 2,550
+- Endowment: $2.06 billion (2025)
+- Football: FBS, moved to FBS / Conference USA in 2025
+
+**Newark**
+- Population: 30,330 (ACS 2024 5-year)
+- Population in 2020: 30,601 (2020 census)
+- Median household income: $76,912 (ACS 2024 5-year)
+- Income per person: $35,264 (ACS 2024 5-year)
+- Median home value: $382,500 (ACS 2024 5-year)
+- Poverty rate: 27.7% (ACS 2024 5-year)
+- Median age: 22.1 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 58.2% (ACS 2024 5-year)
+- Average commute: 19.0 minutes (ACS 2024 5-year)
+- Veterans: 912 (ACS 2024 5-year)
+- Born abroad: 12.9% (ACS 2024 5-year)
+- Founded: 1694, founded 1694, incorporated 1758
+- January average: 33.8°F
+- Elevation: 128 feet
+- County: New Castle County
+- College-town index: 0.80 students per resident (the school is the town)
 
 ## The program's best
 

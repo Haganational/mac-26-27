@@ -27,7 +27,34 @@ _Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 20,488 (Fall 2024)
+- Tuition and fees, in state: $11,136 (2026-27), schedule gives $5,568 per semester at 12 hours (tuition 4,380 + program services fee 1,188), in-state; doubled. Hours above 12 add $72/hr
+- Tuition and fees, out of state: $33,840 (2026-27), $16,920 per semester at 12 hours (tuition 15,732 + fee 1,188), out-of-state; doubled. Hours above 12 add $262/hr
+- Endowment: $167.7 million (2025)
+- Football: FBS, Conference USA
+
+**Murfreesboro**
+- Population: 168,382 (ACS 2024 1-year)
+- Population in 2020: 152,769 (2020 census)
+- Median household income: $84,457 (ACS 2024 1-year)
+- Income per person: $41,646 (ACS 2024 1-year)
+- Median home value: $456,700 (ACS 2024 1-year)
+- Poverty rate: 9.2% (ACS 2024 1-year)
+- Median age: 31.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.4% (ACS 2024 1-year)
+- Average commute: 26.7 minutes (ACS 2024 5-year)
+- Veterans: 8,830 (ACS 2024 1-year)
+- Born abroad: 7.5% (ACS 2024 1-year)
+- Founded: 1817, settled 1811, incorporated 1817
+- County seat: yes
+- Biggest employer: Nissan, about 8,000 employees, per 2023 annual financial report figures for Rutherford County as cited
+- January average: 37.7°F
+- Snow a year: 2.2 inches
+- Elevation: 610 feet
+- County: Rutherford County
+- ICE 287(g) agreement in the county: yes, Rutherford County Sheriff's Office (warrant service)
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

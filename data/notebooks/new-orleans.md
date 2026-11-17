@@ -27,7 +27,30 @@ _New Orleans (Southland). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 5,200, 3,800 undergrad + 1,400 graduate; page gives no year
+- Tuition and fees, in state: $9,829, estimated annual tuition and fees (two semesters); academic year not stated; uno.edu now redirects to lsuneworleans.edu
+- Tuition and fees, out of state: $14,665, estimated annual, two semesters
+- Endowment: $25.8 million (2021)
+- Football: none, Southland non-football member; students voted down a fee that would have added football (Nov 2022)
+
+**New Orleans**
+- Population: 362,701 (ACS 2024 1-year)
+- Population in 2020: 383,997 (2020 census)
+- Median household income: $58,821 (ACS 2024 1-year)
+- Income per person: $42,674 (ACS 2024 1-year)
+- Median home value: $305,100 (ACS 2024 1-year)
+- Poverty rate: 20.5% (ACS 2024 1-year)
+- Median age: 39.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 43.3% (ACS 2024 1-year)
+- Average commute: 22.2 minutes (ACS 2024 1-year)
+- Veterans: 12,956 (ACS 2024 1-year)
+- Born abroad: 6.5% (ACS 2024 1-year)
+- Founded: 1718
+- County seat: yes, city is coterminous with Orleans Parish
+- January average: 54.3°F, Louis Armstrong airport climate box (Audubon Park 55.4)
+- County: Orleans Parish
+- College-town index: 0.01 students per resident (a guest in a bigger place)
 
 ## The program's best
 

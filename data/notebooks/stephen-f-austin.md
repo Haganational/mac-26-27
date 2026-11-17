@@ -27,7 +27,33 @@ _Stephen F. Austin (Southland). Anchors are fictional AI personas, not affiliate
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,472 (Fall 2024)
+- Tuition and fees, in state: $12,188 (2026-27), rate table gives 6,094 per semester (UG flat rate 12-21 hrs, tuition + mandatory fees), doubled
+- Tuition and fees, out of state: $25,028 (2026-27), rate table gives 12,514 per semester at 15 hrs, doubled
+- Endowment: $133.0 million (FY2024), SFA only (now in UT System)
+- Football: FCS, SFA Wikipedia says United Athletic Conference; Southland Conference Wikipedia lists SFA as a Southland football member
+
+**Nacogdoches**
+- Population: 32,197 (ACS 2024 5-year)
+- Population in 2020: 32,147 (2020 census)
+- Median household income: $39,281 (ACS 2024 5-year)
+- Income per person: $25,159 (ACS 2024 5-year)
+- Median home value: $186,000 (ACS 2024 5-year)
+- Poverty rate: 31.6% (ACS 2024 5-year)
+- Median age: 25.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 31.3% (ACS 2024 5-year)
+- Average commute: 15.8 minutes (ACS 2024 5-year)
+- Veterans: 1,203 (ACS 2024 5-year)
+- Born abroad: 6.6% (ACS 2024 5-year)
+- Founded: 1779, Spanish mission 1716; designated a pueblo 1779; incorporated 1837
+- County seat: yes
+- Biggest employer: Stephen F. Austin State University, 1,659 employees (2017)
+- January average: 47.1°F
+- Snow a year: 0.1 inches
+- Elevation: 331 feet
+- County: Nacogdoches County
+- College-town index: 0.33 students per resident (a big presence)
 
 ## The program's best
 

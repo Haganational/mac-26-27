@@ -27,7 +27,35 @@ _Southern Utah (Big Sky). Anchors are fictional AI personas, not affiliated with
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 15,444 (Fall 2024)
+- Tuition and fees, in state: $7,267 (2026-27), page gives $3,633.50 per semester (12-18 credits: $3,311 tuition + $322.50 fees); doubled
+- Tuition and fees, out of state: $22,195 (2026-27), $11,097.50 per semester; doubled
+- Endowment: $45.9 million (2025)
+- Football: FCS, United Athletic Conference (football-only); school in WAC per infobox, Big Sky per desk list
+- Men's basketball coach's pay: $251,000 (2025)
+- Arena named for: America First Credit Union (America First Event Center; formerly Centrum Arena) (Utah credit union; naming deal announced 2017, reportedly $1.5M over 10 years)
+
+**Cedar City**
+- Population: 38,524 (ACS 2024 5-year)
+- Population in 2020: 35,235 (2020 census)
+- Median household income: $63,589 (ACS 2024 5-year)
+- Income per person: $30,229 (ACS 2024 5-year)
+- Median home value: $377,000 (ACS 2024 5-year)
+- Poverty rate: 18.9% (ACS 2024 5-year)
+- Median age: 26.8 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 35.6% (ACS 2024 5-year)
+- Average commute: 13.4 minutes (ACS 2024 5-year)
+- Veterans: 1,476 (ACS 2024 5-year)
+- Born abroad: 5.8% (ACS 2024 5-year)
+- Founded: 1851
+- Biggest employer: Southern Utah University
+- January average: 30.4°F
+- Snow a year: 47.8 inches
+- Elevation: 5,670 feet
+- County: Iron County
+- The coach's pay equals 4 median Cedar City household incomes
+- College-town index: 0.40 students per resident (a big presence)
 
 ## The program's best
 

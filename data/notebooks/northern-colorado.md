@@ -27,7 +27,36 @@ _Northern Colorado (Big Sky). Anchors are fictional AI personas, not affiliated 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 8,869 (Fall 2024)
+- Tuition and fees, in state: $15,161 (2026-27), page gives $7,580.56 per semester (12 credits, tuition + mandatory fees) before the state College Opportunity Fund stipend; doubled. Net of COF ($1,392/sem) student pays $6,188.56/sem ($12,377/yr). Rates subject to trustee approval
+- Tuition and fees, out of state: $27,989 (2026-27), page gives $13,994.56 per semester (12 credits); doubled
+- Endowment: $131.4 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $185,000 (2025-26 (reported Apr 2026))
+- Arena named for: Bank of Colorado (Bank of Colorado Arena; originally Butler-Hancock Hall for UNC coaches Pete Butler and John W. Hancock) (Colorado bank; 15-year naming-rights deal announced Nov 14, 2014 (amount not on page))
+
+**Greeley**
+- Population: 114,366 (ACS 2024 1-year)
+- Population in 2020: 108,795 (2020 census)
+- Median household income: $76,462 (ACS 2024 1-year)
+- Income per person: $36,847 (ACS 2024 1-year)
+- Median home value: $428,700 (ACS 2024 1-year)
+- Poverty rate: 13.9% (ACS 2024 1-year)
+- Median age: 33.7 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 28.9% (ACS 2024 1-year)
+- Average commute: 24.3 minutes (ACS 2024 5-year)
+- Veterans: 5,519 (ACS 2024 1-year)
+- Born abroad: 13.5% (ACS 2024 1-year)
+- Founded: 1869
+- County seat: yes
+- Biggest employer: JBS USA
+- January average: 30.8°F
+- Snow a year: 34.9 inches
+- Elevation: 4,676 feet
+- County: Weld County
+- The coach's pay equals 2 median Greeley household incomes
+- College-town index: 0.08 students per resident (a guest in a bigger place)
 
 ## The program's best
 

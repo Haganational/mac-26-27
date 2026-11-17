@@ -27,7 +27,29 @@ _Western Carolina (SoCon). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 11,877 (Spring 2023)
+- Endowment: $130.0 million (2022)
+- Football: FCS, Southern Conference
+
+**Cullowhee**
+- Population: 7,973 (ACS 2024 5-year)
+- Population in 2020: 7,682 (2020 census)
+- Median household income: $35,929 (ACS 2024 5-year)
+- Income per person: $15,461 (ACS 2024 5-year)
+- Median home value: $382,300 (ACS 2024 5-year)
+- Poverty rate: 45.8% (ACS 2024 5-year)
+- Median age: 21.0 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 38.3% (ACS 2024 5-year)
+- Average commute: 19.3 minutes (ACS 2024 5-year)
+- Veterans: 289 (ACS 2024 5-year)
+- Born abroad: 5.9% (ACS 2024 5-year)
+- County seat: no
+- January average: 37.1°F
+- Snow a year: 4.3 inches
+- Elevation: 2,156 feet
+- County: Jackson County
+- College-town index: 1.49 students per resident (the school is the town)
 
 ## The program's best
 

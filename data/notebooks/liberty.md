@@ -27,7 +27,32 @@ _Liberty (CUSA). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 104,327 (Fall 2024), includes online students; 52,961 undergrad + 51,366 postgrad
+- Tuition and fees, in state: $26,650 (2026-27), private; residential undergrad annual tuition 25,390 + activity/student center fee 920 + student health fee 340; per-course fees extra
+- Tuition and fees, out of state: $26,650 (2026-27), private; residential undergrad annual tuition 25,390 + activity/student center fee 920 + student health fee 340; per-course fees extra
+- Endowment: $3.50 billion (2026), infobox; article also gives $1.71 billion for 2023
+- Football: FBS, Conference USA
+
+**Lynchburg**
+- Population: 80,301 (ACS 2024 1-year)
+- Population in 2020: 79,009 (2020 census)
+- Median household income: $56,983 (ACS 2024 1-year)
+- Income per person: $30,049 (ACS 2024 1-year)
+- Median home value: $249,200 (ACS 2024 1-year)
+- Poverty rate: 18.1% (ACS 2024 1-year)
+- Median age: 29.6 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 39.6% (ACS 2024 1-year)
+- Average commute: 16.8 minutes (ACS 2024 5-year)
+- Veterans: 3,847 (ACS 2024 1-year)
+- Born abroad: 6.9% (ACS 2024 1-year)
+- Founded: 1786, infobox 1786; incorporated as town 1805, city 1852
+- Biggest employer: Liberty University, described as largest employer in the Lynchburg region
+- January average: 35.9°F
+- Snow a year: 11.6 inches
+- Elevation: 630 feet
+- County: Lynchburg (independent city)
+- College-town index: 1.30 students per resident (the school is the town)
 
 ## The program's best
 

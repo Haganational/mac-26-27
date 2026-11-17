@@ -27,7 +27,32 @@ _Furman (SoCon). Anchors are fictional AI personas, not affiliated with any scho
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 2,443 (Fall 2022), 2,283 undergrad + 160 grad
+- Tuition and fees, in state: $63,288 (2026-27), private; tuition 62,878 + SGA activity fee 410, annual
+- Tuition and fees, out of state: $63,288 (2026-27), private, same figure
+- Endowment: $885.5 million (2025)
+- Football: FCS, Southern Conference
+
+**Greenville**
+- Population: 74,386 (ACS 2024 1-year)
+- Population in 2020: 70,720 (2020 census)
+- Median household income: $81,573 (ACS 2024 1-year)
+- Income per person: $61,102 (ACS 2024 1-year)
+- Median home value: $553,700 (ACS 2024 1-year)
+- Poverty rate: 14.4% (ACS 2024 1-year)
+- Median age: 35.8 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 58.4% (ACS 2024 1-year)
+- Average commute: 19.0 minutes (ACS 2024 5-year)
+- Veterans: 2,599 (ACS 2024 1-year)
+- Born abroad: 4.7% (ACS 2024 1-year)
+- Founded: 1797
+- County seat: yes
+- January average: 42.5°F
+- Snow a year: 3.9 inches
+- Elevation: 955 feet
+- County: Greenville County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

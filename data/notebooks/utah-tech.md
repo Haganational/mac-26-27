@@ -27,7 +27,35 @@ _Utah Tech (Big Sky). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 12,556 (Fall 2022)
+- Tuition and fees, in state: $6,666 (2026-27), annual, 15 credits/semester: $5,811 tuition + $855 fees (USHE board agenda, Mar 2026)
+- Tuition and fees, out of state: $19,431 (2026-27), annual: $18,576 tuition + $855 fees
+- Endowment: $40.2 million (2025)
+- Football: FCS, infobox lists Big Sky; body text mentions UAC (football-only) after 2022
+- Men's basketball coach's pay: $221,000 (2025)
+- Arena named for: M. Anthony Burns (Burns Arena) (not stated on Wikipedia page)
+
+**St. George**
+- Population: 106,289 (ACS 2024 1-year)
+- Population in 2020: 95,342 (2020 census)
+- Median household income: $83,984 (ACS 2024 1-year)
+- Income per person: $39,189 (ACS 2024 1-year)
+- Median home value: $519,600 (ACS 2024 1-year)
+- Poverty rate: 11.3% (ACS 2024 1-year)
+- Median age: 37.2 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 41.4% (ACS 2024 1-year)
+- Average commute: 17.2 minutes (ACS 2024 5-year)
+- Veterans: 3,921 (ACS 2024 1-year)
+- Born abroad: 7.1% (ACS 2024 1-year)
+- Founded: 1861
+- County seat: yes
+- January average: 41.2°F
+- Snow a year: 1.2 inches
+- Elevation: 2,530 feet
+- County: Washington County
+- The coach's pay equals 3 median St. George household incomes
+- College-town index: 0.12 students per resident (a guest in a bigger place)
 
 ## The program's best
 

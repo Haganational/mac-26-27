@@ -27,7 +27,28 @@ _Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with a
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 51,375 (Fall 2025)
+- Endowment: $133.1 million (2025)
+- Football: FBS, Conference USA
+
+**Kennesaw**
+- Population: 34,605 (ACS 2024 5-year)
+- Population in 2020: 33,036 (2020 census)
+- Median household income: $83,356 (ACS 2024 5-year)
+- Income per person: $42,172 (ACS 2024 5-year)
+- Median home value: $335,400 (ACS 2024 5-year)
+- Poverty rate: 10.3% (ACS 2024 5-year)
+- Median age: 35.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 47.3% (ACS 2024 5-year)
+- Average commute: 28.6 minutes (ACS 2024 5-year)
+- Veterans: 2,057 (ACS 2024 5-year)
+- Born abroad: 16.1% (ACS 2024 5-year)
+- Founded: 1887, incorporated September 21, 1887
+- Elevation: 1,089 feet
+- County: Cobb County
+- ICE 287(g) agreement in the county: yes, Marietta Police Department (task force)
+- College-town index: 1.48 students per resident (the school is the town)
 
 ## The program's best
 

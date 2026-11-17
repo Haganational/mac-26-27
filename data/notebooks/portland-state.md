@@ -27,7 +27,35 @@ _Portland State (Big Sky). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 21,040 (Fall 2023)
+- Tuition and fees, in state: $13,593 (2026-27), annual estimate incl. mandatory fees, 16 credits/term average
+- Tuition and fees, out of state: $36,249 (2026-27), annual estimate incl. mandatory fees
+- Endowment: $127.5 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $185,000 (2025-26 (reported Apr 2026))
+
+**Portland**
+- Population: 636,958 (ACS 2024 1-year)
+- Population in 2020: 652,503 (2020 census)
+- Median household income: $91,478 (ACS 2024 1-year)
+- Income per person: $57,668 (ACS 2024 1-year)
+- Median home value: $588,200 (ACS 2024 1-year)
+- Poverty rate: 13% (ACS 2024 1-year)
+- Median age: 39 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 54.5% (ACS 2024 1-year)
+- Homeownership: 49.8% (2020 census), owner-occupied share of occupied units, Wikipedia citing 2020 census DP (not ACS)
+- Average commute: 24.4 minutes (ACS 2024 1-year)
+- Veterans: 20,525 (ACS 2024 1-year)
+- Born abroad: 12.9% (ACS 2024 1-year)
+- Founded: 1845
+- County seat: yes
+- January average: 41.9°F
+- Snow a year: 4.2 inches
+- Elevation: 161 feet
+- County: Multnomah County
+- The coach's pay equals 2 median Portland household incomes
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

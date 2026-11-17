@@ -27,7 +27,32 @@ _Towson (CAA). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 22,294, infobox gives no year
+- Tuition and fees, in state: $12,690 (2026-27), full-time undergrad tuition and fees, Maryland resident, from academic-year cost of attendance table
+- Tuition and fees, out of state: $32,948 (2026-27), full-time undergrad tuition and fees, non-resident
+- Endowment: $100.1 million (2025), per TU Spring 2025 Investment Report as cited
+- Football: FCS, CAA Football
+- Men's basketball coach's pay: $530,000 (2026-27)
+
+**Towson**
+- Population: 58,679 (ACS 2024 5-year)
+- Population in 2020: 59,553 (2020 census)
+- Median household income: $101,320 (ACS 2024 5-year)
+- Income per person: $61,912 (ACS 2024 5-year)
+- Median home value: $469,000 (ACS 2024 5-year)
+- Poverty rate: 12.1% (ACS 2024 5-year)
+- Median age: 33.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 69.3% (ACS 2024 5-year)
+- Average commute: 25.1 minutes (ACS 2024 5-year)
+- Veterans: 1,811 (ACS 2024 5-year)
+- Born abroad: 10.6% (ACS 2024 5-year)
+- Founded: 1752
+- County seat: yes, seat of Baltimore County
+- Elevation: 463 feet
+- County: Baltimore County
+- The coach's pay equals 5 median Towson household incomes
+- College-town index: 0.38 students per resident (a big presence)
 
 ## The program's best
 

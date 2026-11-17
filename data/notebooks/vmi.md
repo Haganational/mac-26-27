@@ -27,7 +27,32 @@ _VMI (SoCon). Anchors are fictional AI personas, not affiliated with any school.
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 1,560 (Fall 2023)
+- Tuition and fees, in state: $18,270 (2026-27), annual: tuition 10,680 + medical 630 + athletic 4,312 + cadet facilities/activities 2,648; excludes housing, food, quartermaster
+- Tuition and fees, out of state: $50,810 (2026-27), annual: tuition 43,220 + same fees
+- Endowment: $835.0 million (2025)
+- Football: FCS, Southern Conference
+
+**Lexington**
+- Population: 7,525 (ACS 2024 5-year)
+- Population in 2020: 7,320 (2020 census)
+- Median household income: $84,517 (ACS 2024 5-year)
+- Income per person: $31,955 (ACS 2024 5-year)
+- Median home value: $275,200 (ACS 2024 5-year)
+- Poverty rate: 14.0% (ACS 2024 5-year)
+- Median age: 22.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 50.7% (ACS 2024 5-year)
+- Average commute: 12.7 minutes (ACS 2024 5-year)
+- Veterans: 196 (ACS 2024 5-year)
+- Born abroad: 5.8% (ACS 2024 5-year)
+- Founded: 1778
+- County seat: yes
+- January average: 34.2°F
+- Snow a year: 13.5 inches
+- Elevation: 1,063 feet
+- County: Independent city (seat of surrounding Rockbridge County)
+- College-town index: 0.21 students per resident (a big presence)
 
 ## The program's best
 

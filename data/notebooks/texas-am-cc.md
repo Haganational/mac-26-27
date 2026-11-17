@@ -27,7 +27,32 @@ _Texas A&M-CC (Southland). Anchors are fictional AI personas, not affiliated wit
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 10,855 (Fall 2023)
+- Tuition and fees, in state: $10,031 (2026-27), annual estimate, 12 hrs fall + spring
+- Tuition and fees, out of state: $24,469 (2026-27), annual estimate, 12 hrs fall + spring
+- Endowment: $21.3 million (2022)
+- Football: none, Southland non-football member; school has never sponsored football per its athletics list
+
+**Corpus Christi**
+- Population: 317,314 (ACS 2024 1-year)
+- Population in 2020: 317,863 (2020 census)
+- Median household income: $66,967 (ACS 2024 1-year)
+- Income per person: $34,994 (ACS 2024 1-year)
+- Median home value: $234,000 (ACS 2024 1-year)
+- Poverty rate: 15.2% (ACS 2024 1-year)
+- Median age: 37.3 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 27.1% (ACS 2024 1-year)
+- Average commute: 21.3 minutes (ACS 2024 1-year)
+- Veterans: 21,290 (ACS 2024 1-year)
+- Born abroad: 9.8% (ACS 2024 1-year)
+- Founded: 1852, incorporated 1852
+- County seat: yes
+- Biggest employer: Naval Air Station Corpus Christi
+- January average: 58.0°F
+- Elevation: 6.6 feet
+- County: Nueces County
+- College-town index: 0.03 students per resident (a guest in a bigger place)
 
 ## The program's best
 

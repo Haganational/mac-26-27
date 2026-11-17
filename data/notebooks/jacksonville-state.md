@@ -27,7 +27,28 @@ _Jacksonville State (CUSA). Anchors are fictional AI personas, not affiliated wi
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,955 (Fall 2024), article body says enrollment passed 10,000 in Fall 2025 (8,906 undergrad + 1,135 grad)
+- Endowment: $57.0 million (2023)
+- Football: FBS, Conference USA
+
+**Jacksonville**
+- Population: 14,437 (ACS 2024 5-year)
+- Population in 2020: 14,385 (2020 census)
+- Median household income: $51,814 (ACS 2024 5-year)
+- Income per person: $24,089 (ACS 2024 5-year)
+- Median home value: $185,500 (ACS 2024 5-year)
+- Poverty rate: 23.1% (ACS 2024 5-year)
+- Median age: 25.6 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 31.2% (ACS 2024 5-year)
+- Average commute: 20.0 minutes (ACS 2024 5-year)
+- Veterans: 878 (ACS 2024 5-year)
+- Born abroad: 2.3% (ACS 2024 5-year)
+- Founded: 1833
+- County seat: no, former Calhoun County seat; seat moved to Anniston in the 20th century
+- Elevation: 738 feet
+- County: Calhoun County
+- College-town index: 0.69 students per resident (the school is the town)
 
 ## The program's best
 

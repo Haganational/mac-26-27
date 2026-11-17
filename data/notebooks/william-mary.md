@@ -27,7 +27,32 @@ _William & Mary (CAA). Anchors are fictional AI personas, not affiliated with an
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,818 (Fall 2024)
+- Tuition and fees, in state: $27,235 (2026-27), page gives $13,617.50 per semester (full-time undergrad tuition + mandatory fees, Virginia resident); doubled
+- Tuition and fees, out of state: $54,249 (2026-27), page gives $27,124.50 per semester (non-resident, incl. $270 state building fee); doubled
+- Endowment: $1.90 billion (2026)
+- Football: FCS, football becomes associate member of the Patriot League starting 2026; other sports stay in CAA
+
+**Williamsburg**
+- Population: 15,798 (ACS 2024 5-year)
+- Population in 2020: 15,425 (2020 census)
+- Median household income: $75,604 (ACS 2024 5-year)
+- Income per person: $37,442 (ACS 2024 5-year)
+- Median home value: $428,100 (ACS 2024 5-year)
+- Poverty rate: 18.8% (ACS 2024 5-year)
+- Median age: 23.7 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 45.8% (ACS 2024 5-year)
+- Average commute: 19.5 minutes (ACS 2024 5-year)
+- Veterans: 898 (ACS 2024 5-year)
+- Born abroad: 10.2% (ACS 2024 5-year)
+- Founded: 1699, named Williamsburg 1699; incorporated as city 1884
+- County seat: yes, independent city that is also the county seat of James City County
+- January average: 39.8°F
+- Snow a year: 4.3 inches
+- Elevation: 49 feet
+- County: Williamsburg (independent city)
+- College-town index: 0.62 students per resident (the school is the town)
 
 ## The program's best
 

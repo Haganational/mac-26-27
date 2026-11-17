@@ -27,7 +27,35 @@ _Eastern Washington (Big Sky). Anchors are fictional AI personas, not affiliated
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 9,922 (2025)
+- Tuition and fees, in state: $9,231 (2026-27), annual estimate: $8,037 tuition + $1,194 listed mandatory fees (tech, health/wellness, transportation, rec center, PUB renovation)
+- Tuition and fees, out of state: $26,226 (2026-27), annual estimate: $25,032 tuition + $1,194 fees
+- Endowment: $41.2 million (2025)
+- Football: FCS, Big Sky
+- Men's basketball coach's pay: $196,000 (2025-26 (reported Apr 2026))
+- Arena named for: William B. "Red" Reese (Reese Court), longtime EWU coach 1930-1964 (coach; court named in 1980, no donation mentioned)
+
+**Cheney**
+- Population: 12,804 (ACS 2024 5-year)
+- Population in 2020: 13,255 (2020 census)
+- Median household income: $54,503 (ACS 2024 5-year)
+- Income per person: $28,586 (ACS 2024 5-year)
+- Median home value: $395,900 (ACS 2024 5-year)
+- Poverty rate: 31.3% (ACS 2024 5-year)
+- Median age: 24.4 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 38% (ACS 2024 5-year)
+- Average commute: 21.4 minutes (ACS 2024 5-year)
+- Veterans: 668 (ACS 2024 5-year)
+- Born abroad: 5.5% (ACS 2024 5-year)
+- Founded: 1883
+- County seat: no
+- Biggest employer: Eastern Washington University
+- Snow a year: 42.4 inches
+- Elevation: 2,352 feet
+- County: Spokane County
+- The coach's pay equals 4 median Cheney household incomes
+- College-town index: 0.77 students per resident (the school is the town)
 
 ## The program's best
 
