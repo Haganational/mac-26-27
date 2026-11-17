@@ -1,0 +1,31 @@
+name: Sound effects
+
+# Free-license sound effects from Wikimedia Commons for a doc (docs/<doc>/sfx_queries.json), committed back.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/sfx_queries.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  sfx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - name: Fetch
+        run: |
+          for q in $(git diff --name-only HEAD~1 HEAD | grep -E '^docs/[^/]+/sfx_queries\.json$'); do
+            python tools/sfx_fetch.py "$q" "$(dirname "$q")/sfx"
+          done
+      - name: Commit
+        run: |
+          git config user.name "docs-sfx"; git config user.email "actions@users.noreply.github.com"
+          git add docs/*/sfx; git commit -m "docs: sound effects" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
