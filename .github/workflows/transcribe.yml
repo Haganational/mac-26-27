@@ -4,7 +4,7 @@ name: Transcribe
 on:
   push:
     branches: ["claude/**"]
-    paths: ["docs/*/transcribe/*.mp3"]
+    paths: ["docs/*/transcribe/*.wav"]
 
 permissions:
   contents: write
@@ -21,14 +21,14 @@ jobs:
       - run: pip install faster-whisper
       - name: Transcribe changed tracks
         run: |
-          for f in $(git diff --name-only HEAD~1 HEAD | grep -E '^docs/[^/]+/transcribe/[^/]+\.mp3$'); do
+          for f in $(git diff --name-only HEAD~1 HEAD | grep -E '^docs/[^/]+/transcribe/[^/]+\.wav$'); do
             python - "$f" <<'PY'
           import json, sys
           from faster_whisper import WhisperModel
           src = sys.argv[1]
           m = WhisperModel("small.en", device="cpu", compute_type="int8")
-          import subprocess, numpy as np
-          raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"], capture_output=True, check=True).stdout
+          import wave, numpy as np
+          raw = wave.open(src).readframes(10**9)  # 16 kHz mono 16-bit wav
           audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
           segs, _ = m.transcribe(audio, word_timestamps=True)
           out = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
