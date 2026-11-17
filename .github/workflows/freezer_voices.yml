@@ -5,7 +5,7 @@ name: Freezer Hearing voices
 on:
   push:
     branches: [claude/project-thread-04lxpf]
-    paths: [sketches/freezer-hearing/lines.json, sketches/freezer-hearing/voice.py, sketches/freezer-hearing/.rerun]
+    paths: [sketches/freezer-hearing/lines.json, sketches/freezer-hearing/clone_jobs.py, sketches/freezer-hearing/.rerun, .github/workflows/freezer_voices.yml]
 
 permissions:
   contents: write
@@ -23,11 +23,23 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Voice takes
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: sudo apt-get install -y -q ffmpeg
+      - name: Cache the clone model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: chatterbox-turbo-v1
+      - name: Install Chatterbox (CPU)
+        run: |
+          python -m venv /tmp/cbenv
+          /tmp/cbenv/bin/pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" chatterbox-tts "setuptools<81"
+      - name: Clone the missing takes from each anchor's audition
         continue-on-error: true
-        run: python sketches/freezer-hearing/voice.py
+        run: |
+          mkdir -p /tmp/auditions
+          for f in voices/anchors/*.ogg; do ffmpeg -loglevel error -y -i "$f" -ac 1 -ar 24000 "/tmp/auditions/$(basename "$f" .ogg).wav"; done
+          python sketches/freezer-hearing/clone_jobs.py
+          /tmp/cbenv/bin/python tools/clone_voice.py --jobs /tmp/voice-jobs.json
       - name: Commit
         if: always()
         run: |
