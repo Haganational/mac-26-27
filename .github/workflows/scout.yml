@@ -1,0 +1,39 @@
+name: Image scout
+
+# Wide free-license image sweep for a doc (Commons + Library of Congress), committed back for review.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/scout_queries.json", "tools/commons_wide.py"]
+  workflow_dispatch:
+    inputs:
+      doc: {description: "Doc folder under docs/", default: "thurmond"}
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Which doc
+        env:
+          DOC_IN: ${{ inputs.doc }}
+        run: |
+          d="$DOC_IN"
+          [ -n "$d" ] || d=$(git diff --name-only HEAD~1 HEAD | sed -n 's#^docs/\([^/]*\)/scout_queries.json#\1#p' | head -1)
+          [ -n "$d" ] || d=thurmond
+          echo "DOC=docs/$d" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests pillow
+      - run: python tools/commons_wide.py "$DOC/scout_queries.json" "$DOC/scout"
+      - name: Commit the sweep
+        run: |
+          git config user.name "docs-scout"; git config user.email "actions@users.noreply.github.com"
+          git add "$DOC/scout"; git commit -m "docs: image scout for $DOC" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
