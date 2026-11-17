@@ -24,7 +24,11 @@ def call(model: str, prompt: str, voice: str, key: str) -> bytes:
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
     with urllib.request.urlopen(req, timeout=180) as r:
         data = json.load(r)
-    return base64.b64decode(data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+    try:
+        return base64.b64decode(data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+    except (KeyError, IndexError):
+        print("  no audio:", json.dumps(data)[:300])
+        return b""
 
 
 def main() -> None:
@@ -38,14 +42,18 @@ def main() -> None:
         if dest.exists():
             continue
         c = spec["cast"][t["who"]]
-        prompt = (f"This is a comedy sketch. Read the line as {c['who']}. Direction: {t['how']} "
-                  f"Perform it like an actor, not a newsreader, unless the direction says newsreader.\n\n{t['text']}")
+        prompts = [f"Read this aloud as {c['who']}. Delivery: {t['how']}\n\n{t['text']}",
+                   f"Read this aloud as {c['who']}.\n\n{t['text']}",
+                   f"Say: {t['text']}"]
         pcm = None
         while models and pcm is None:
             for attempt in range(3):
                 try:
-                    pcm = call(models[0], prompt, gemini_voice(c["key"]), key)
-                    break
+                    got = call(models[0], prompts[min(attempt, 2)], gemini_voice(c["key"]), key)
+                    if got:
+                        pcm = got
+                        break
+                    continue
                 except urllib.error.HTTPError as e:
                     msg = e.read().decode()[:300]
                     print(f"{t['id']} {models[0]}: {e.code} {msg}")

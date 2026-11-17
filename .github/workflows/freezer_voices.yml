@@ -26,8 +26,10 @@ jobs:
       - name: Voice takes
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        continue-on-error: true
         run: python sketches/freezer-hearing/voice.py
       - name: Commit
+        if: always()
         run: |
           git config user.name "mac-collector"
           git config user.email "mac-collector@users.noreply.github.com"
