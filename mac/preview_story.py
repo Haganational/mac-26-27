@@ -17,7 +17,7 @@ from typing import Any
 import json
 from pathlib import Path
 
-from . import gamer
+from . import gamer, press
 from .config import DATA_DIR
 from .today import school
 
@@ -157,8 +157,13 @@ def write(g: dict[str, Any], standings: list[dict[str, Any]] | None = None,
     if fav and margin >= 0.5:
         by = int(margin + 0.5)
         headline += f": model has {fav} by {by}" if by else f": model has {fav} by a hair"
+    staff = flavor.get("settings", {}).get("byline") or "Hardwood Bricks staff"
+    hk, ak = home.get("key"), away.get("key")
+    teams = flavor.get("teams", {})
+    towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
+    asides = press.preview_aside(hk, ak, {"home": hn, "away": an}, towns, str(g.get("game_id")))
     return {"headline": headline, "paragraphs": paras, "flavor": flv,
-            "byline": flavor.get("settings", {}).get("byline") or "Hardwood Bricks staff"}
+            "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides}
 
 
 def json_ld(g: dict[str, Any], story: dict[str, Any], published: str, modified: str, site_name: str,

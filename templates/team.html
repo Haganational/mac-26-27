@@ -111,9 +111,9 @@
 
   {% if town %}
   <section id="around-town" class="town">
-    <div class="sechead"><h2>Around {{ town.town or team.short }}</h2><span class="dim">{% if town.floor %}Home floor: {{ town.floor }}{% endif %}</span></div>
+    <div class="sechead"><h2>Around {{ town.town or team.short }}</h2><span class="dim">{% if press_desk and press_desk.paper %}From <i>{{ press_desk.paper }}</i>{% if press_desk.name %}, edited by <a href="../{{ site_up }}anchors/{{ team.key }}.html">{{ press_desk.name }}</a>{% endif %}{% if town.floor %} · {% endif %}{% endif %}{% if town.floor %}Home floor: {{ town.floor }}{% endif %}</span></div>
     <ol class="town-notes">{% for n in town.notes %}<li><span class="tn-k">{{ n.label }}</span><p>{{ n.text }}{% if n.source %} <a class="src" href="{{ n.source }}" target="_blank" rel="noopener">{{ n.host }}</a>{% endif %}</p></li>{% endfor %}</ol>
-    <p class="note">From the Hardwood Bricks research desk: {{ town.total }} checked notes on {{ team.short }}, its town and its history. A different set shows each day, and the same notes color our game stories.</p>
+    <p class="note">{% if press_desk and press_desk.paper %}<i>{{ press_desk.paper }}</i> is our hometown paper for {{ team.short }}{% if press_desk.name %}, and {{ press_desk.name }}, its editor, is a fictional AI anchor not affiliated with the school{% endif %}. {% endif %}From the Hardwood Bricks research desk: {{ town.total }} checked notes on {{ team.short }}, its town and its history. A different set shows each day, and the same notes color our game stories.</p>
   </section>
   {% endif %}
 
