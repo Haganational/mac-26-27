@@ -1,1 +1,1378 @@
-{"_about":"Campus and town facts per school (desk research from Nov 17 2026). Each field {value, year, source}; null = not found. Town figures are Census ACS via QuickFacts unless the source says otherwise.","schools":{}}
+{
+ "_about": "Campus and town facts per school (desk research from Nov 17 2026). Each field {value, year, source}; null = not found. Town figures are Census ACS via QuickFacts unless the source says otherwise.",
+ "schools": {
+  "akron": {
+   "key": "akron",
+   "school": "Akron",
+   "town": "Akron",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 15318,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/University_of_Akron"
+   },
+   "tuition_in": {
+    "value": 13135,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=200800"
+   },
+   "tuition_out": {
+    "value": 20815,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=200800"
+   },
+   "endowment": {
+    "value": 235300000,
+    "year": "FY2020",
+    "source": "https://en.wikipedia.org/wiki/University_of_Akron"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/University_of_Akron"
+   },
+   "mbb_coach": {
+    "value": "Dustin Ford",
+    "source": "https://gozips.com/news/2026/4/15/dustin-ford-introduced-as-university-of-akron-head-mens-basketball-coach"
+   },
+   "founded": {
+    "value": 1825,
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "largest_employer": {
+    "value": "Summa Health System",
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "jan_avg_temp_f": {
+    "value": 27.9,
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "snowfall_in": {
+    "value": 47.2,
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 945,
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "arena_named_for": {
+    "value": "Jim Rhodes (former Ohio governor)",
+    "who": "person",
+    "money_from": "politician; not a donor naming (state-funded arena)",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/James_A._Rhodes_Arena"
+   },
+   "pell_pct": {
+    "value": 33,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=200800"
+   },
+   "county": {
+    "value": "Summit County",
+    "source": "https://en.wikipedia.org/wiki/Akron,_Ohio"
+   },
+   "notes": "Enrollment: Wikipedia fall 2025 (College Navigator Fall 2024 total is 13,332). Ford replaced John Groce (left for Charleston, March 2026); hire announcement gives no pay; USA Today salary database blocked. Endowment figure on Wikipedia is old (FY2020). Largest employer per city's 2020 CAFR as cited on Wikipedia. Census figures from Census Reporter (ACS 2024 1-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted.",
+   "median_household_income": {
+    "value": 48521,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "per_capita_income": {
+    "value": 29903,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "median_home_value": {
+    "value": 142200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "poverty_rate": {
+    "value": 22.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "population": {
+    "value": 189669,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "median_age": {
+    "value": 37.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "bachelors_pct": {
+    "value": 24.2,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "commute_minutes": {
+    "value": 22.4,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "veterans": {
+    "value": 7292,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 9.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3901000-akron-oh/"
+   }
+  },
+  "ball-state": {
+   "key": "ball-state",
+   "school": "Ball State",
+   "town": "Muncie",
+   "state": "Indiana",
+   "enrollment": {
+    "value": 21089,
+    "year": "Fall 2024",
+    "source": "https://nces.ed.gov/collegenavigator/?id=150136"
+   },
+   "tuition_in": {
+    "value": 11082,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=150136"
+   },
+   "tuition_out": {
+    "value": 29630,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=150136"
+   },
+   "endowment": {
+    "value": 411000000,
+    "year": "FY2024",
+    "source": "https://en.wikipedia.org/wiki/Ball_State_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Ball_State_University"
+   },
+   "mbb_coach": {
+    "value": "Chris Capko",
+    "source": "https://indianapublicradio.org/news/2026/03/ball-state-mens-basketball-hires-new-head-coach/"
+   },
+   "founded": {
+    "value": 1827,
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "largest_employer": {
+    "value": "Ball State University",
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "jan_avg_temp_f": {
+    "value": 28.6,
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "snowfall_in": {
+    "value": 25.4,
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "elevation_ft": {
+    "value": 935,
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "arena_named_for": {
+    "value": "John E. Worthen (former Ball State president)",
+    "who": "person",
+    "money_from": "university president; no naming gift reported",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Worthen_Arena"
+   },
+   "pell_pct": {
+    "value": 37,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=150136"
+   },
+   "county": {
+    "value": "Delaware County",
+    "source": "https://en.wikipedia.org/wiki/Muncie,_Indiana"
+   },
+   "notes": "Capko hired March 2026; article gives no pay; USA Today salary database blocked. Founded = year platted as Muncietown. Largest employer per Wikipedia (July 2022). Census figures from Census Reporter (ACS 2024 1-year; commute is ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted.",
+   "median_household_income": {
+    "value": 41417,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "per_capita_income": {
+    "value": 25080,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "median_home_value": {
+    "value": 97200,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "poverty_rate": {
+    "value": 30.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "population": {
+    "value": 65055,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "median_age": {
+    "value": 29.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "bachelors_pct": {
+    "value": 22.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "commute_minutes": {
+    "value": 18.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "veterans": {
+    "value": 2214,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   },
+   "foreign_born_pct": {
+    "value": 4.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US1851876-muncie-in/"
+   }
+  },
+  "bowling-green": {
+   "key": "bowling-green",
+   "school": "Bowling Green",
+   "town": "Bowling Green",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 17027,
+    "year": "Fall 2023",
+    "source": "https://nces.ed.gov/collegenavigator/?id=201441"
+   },
+   "tuition_in": {
+    "value": 14467,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=201441"
+   },
+   "tuition_out": {
+    "value": 22455,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=201441"
+   },
+   "endowment": {
+    "value": 259400000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green_State_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green_State_University"
+   },
+   "mbb_coach": {
+    "value": "Todd Simon",
+    "source": "https://bgfalconmedia.com/180569/sports/mens-basketball-simon-and-bowling-green-agree-to-contract-extension/"
+   },
+   "founded": {
+    "value": 1832,
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "jan_avg_temp_f": {
+    "value": 25.9,
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "snowfall_in": {
+    "value": 21.3,
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 689,
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "arena_named_for": {
+    "value": "Kermit and Mary Lu Stroh (Stroh Center)",
+    "who": "family",
+    "money_from": "donors gave $8.7M ($7.7M to arena); BGSU trustee 1993-2002; source of wealth not stated on page",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Stroh_Center"
+   },
+   "pell_pct": {
+    "value": 26,
+    "year": "2022-23",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=201441"
+   },
+   "county": {
+    "value": "Wood County",
+    "source": "https://en.wikipedia.org/wiki/Bowling_Green,_Ohio"
+   },
+   "notes": "Enrollment from College Navigator (main campus, Fall 2023 as shown); Wikipedia infobox 20,395 has no year. Simon extended through March 31, 2030 (May 2026 article) but pay not disclosed in it; USA Today database blocked. Founded = first settled 1832. Largest employer not named on Wikipedia. Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. Corrections Center of Northwest Ohio (holds ICE detainees per ACLU of Ohio) may be within range, but distance not sourced; left null.",
+   "median_household_income": {
+    "value": 45154,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "per_capita_income": {
+    "value": 27972,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "median_home_value": {
+    "value": 226100,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "poverty_rate": {
+    "value": 28.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "population": {
+    "value": 29983,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "median_age": {
+    "value": 23.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "bachelors_pct": {
+    "value": 44.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "commute_minutes": {
+    "value": 17.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "veterans": {
+    "value": 984,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 4.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3907972-bowling-green-oh/"
+   }
+  },
+  "buffalo": {
+   "key": "buffalo",
+   "school": "Buffalo",
+   "town": "Buffalo",
+   "state": "New York",
+   "enrollment": {
+    "value": 31656,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/University_at_Buffalo"
+   },
+   "tuition_in": {
+    "value": 10936,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=196088"
+   },
+   "tuition_out": {
+    "value": 31536,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=196088"
+   },
+   "endowment": {
+    "value": 1170000000,
+    "year": "2025 (fiscal year not specified)",
+    "source": "https://en.wikipedia.org/wiki/University_at_Buffalo"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/University_at_Buffalo"
+   },
+   "mbb_coach": {
+    "value": "George Halcovage III",
+    "source": "https://ubbulls.com/news/2026/7/1/mens-basketball-halcovage-signs-contract-extension"
+   },
+   "founded": {
+    "value": 1801,
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "largest_employer": {
+    "value": "New York State (regional largest employer; largest private: Kaleida Health)",
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "jan_avg_temp_f": {
+    "value": 25.5,
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "snowfall_in": {
+    "value": 95.4,
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "elevation_ft": {
+    "value": 600,
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "pell_pct": {
+    "value": 33,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=196088"
+   },
+   "county": {
+    "value": "Erie County",
+    "source": "https://en.wikipedia.org/wiki/Buffalo,_New_York"
+   },
+   "notes": "Halcovage extended through 2029-30 (July 2026); release gives no pay; USA Today database blocked. Wikipedia names New York State as the region's largest employer, not specifically the city's. Census figures from Census Reporter (ACS 2024 1-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. Arena (Alumni Arena) page not fetched (generic name, fetch budget).",
+   "median_household_income": {
+    "value": 52211,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "per_capita_income": {
+    "value": 32455,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "median_home_value": {
+    "value": 187000,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "poverty_rate": {
+    "value": 23,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "population": {
+    "value": 276618,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "median_age": {
+    "value": 34.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "bachelors_pct": {
+    "value": 32.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "commute_minutes": {
+    "value": 19.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "veterans": {
+    "value": 10173,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   },
+   "foreign_born_pct": {
+    "value": 14,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3611000-buffalo-ny/"
+   }
+  },
+  "central-michigan": {
+   "key": "central-michigan",
+   "school": "Central Michigan",
+   "town": "Mount Pleasant",
+   "state": "Michigan",
+   "enrollment": {
+    "value": 14423,
+    "year": "Fall 2023",
+    "source": "https://en.wikipedia.org/wiki/Central_Michigan_University"
+   },
+   "tuition_in": {
+    "value": 14190,
+    "year": "2023-24",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169248"
+   },
+   "tuition_out": {
+    "value": 14190,
+    "year": "2023-24",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169248"
+   },
+   "endowment": {
+    "value": 284300000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Central_Michigan_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Central_Michigan_University"
+   },
+   "mbb_coach": {
+    "value": "Andy Bronkema",
+    "source": "https://cm-life.com/article/2025/04/d_newmbballheadcoach_04142025"
+   },
+   "founded": {
+    "value": 1889,
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan"
+   },
+   "jan_avg_temp_f": {
+    "value": 22.7,
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan"
+   },
+   "elevation_ft": {
+    "value": 771,
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan"
+   },
+   "pell_pct": {
+    "value": 31,
+    "year": "2022-23",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169248"
+   },
+   "county": {
+    "value": "Isabella County",
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Michigan"
+   },
+   "notes": "College Navigator lists a single undergraduate tuition-and-fees figure (no in/out split), so the same value is used for both. Bronkema hired April 2025 (source is the hire article; no later confirmation fetched); pay not given; USA Today database blocked. Founded = incorporated 1889. Climate box has no snowfall row. Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. Arena (McGuirk Arena) Wikipedia fetch gave a contradictory namesake, so arena_named_for left null.",
+   "median_household_income": {
+    "value": 44706,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "per_capita_income": {
+    "value": 26603,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "median_home_value": {
+    "value": 173100,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "poverty_rate": {
+    "value": 31.4,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "population": {
+    "value": 21236,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "median_age": {
+    "value": 23.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "bachelors_pct": {
+    "value": 42.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "commute_minutes": {
+    "value": 15,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "veterans": {
+    "value": 737,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   },
+   "foreign_born_pct": {
+    "value": 5.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2656020-mount-pleasant-mi/"
+   }
+  },
+  "eastern-michigan": {
+   "key": "eastern-michigan",
+   "school": "Eastern Michigan",
+   "town": "Ypsilanti",
+   "state": "Michigan",
+   "enrollment": {
+    "value": 12176,
+    "year": "Fall 2024",
+    "source": "https://en.wikipedia.org/wiki/Eastern_Michigan_University"
+   },
+   "tuition_in": {
+    "value": 16240,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169798"
+   },
+   "tuition_out": {
+    "value": 16240,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169798"
+   },
+   "endowment": {
+    "value": 94008564,
+    "year": "FY2022 (as of July 31, 2022)",
+    "source": "https://en.wikipedia.org/wiki/Eastern_Michigan_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Eastern_Michigan_University"
+   },
+   "mbb_coach": {
+    "value": "Billy Donlon",
+    "source": "https://www.easternecho.com/article/2026/03/a-new-flight-path-billy-donlon-takes-the-reins-of-emu-mens-basketball"
+   },
+   "mbb_coach_pay": {
+    "value": 400000,
+    "year": "2026 hire (six-year deal)",
+    "what": "reported minimum annual pay ('at least $400,000 annually') per press reports; official terms not released",
+    "source": "https://www.easternecho.com/article/2026/03/a-new-flight-path-billy-donlon-takes-the-reins-of-emu-mens-basketball"
+   },
+   "founded": {
+    "value": 1823,
+    "source": "https://en.wikipedia.org/wiki/Ypsilanti,_Michigan"
+   },
+   "elevation_ft": {
+    "value": 719,
+    "source": "https://en.wikipedia.org/wiki/Ypsilanti,_Michigan"
+   },
+   "arena_named_for": {
+    "value": "George Gervin (Hall of Famer, EMU alum) plus GameAbove (sponsor name)",
+    "who": "person",
+    "money_from": "Gervin: NBA/ABA career; GameAbove company not identified on page; no gift amount stated",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/George_Gervin_GameAbove_Center"
+   },
+   "pell_pct": {
+    "value": 38,
+    "year": "2022-23",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=169798"
+   },
+   "county": {
+    "value": "Washtenaw County",
+    "source": "https://en.wikipedia.org/wiki/Ypsilanti,_Michigan"
+   },
+   "notes": "College Navigator lists a single undergraduate tuition-and-fees figure (no in/out split), so the same value is used for both. Founded = settled 1823. Ypsilanti Wikipedia page does not state county seat status and has no climate box. Endowment on Wikipedia is old (FY2022). Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted.",
+   "median_household_income": {
+    "value": 46588,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "per_capita_income": {
+    "value": 32628,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "median_home_value": {
+    "value": 232700,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "poverty_rate": {
+    "value": 24.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "population": {
+    "value": 19857,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "median_age": {
+    "value": 27.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "bachelors_pct": {
+    "value": 46.9,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "commute_minutes": {
+    "value": 23,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "veterans": {
+    "value": 595,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   },
+   "foreign_born_pct": {
+    "value": 10.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2689140-ypsilanti-mi/"
+   }
+  },
+  "kent-state": {
+   "key": "kent-state",
+   "school": "Kent State",
+   "town": "Kent",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 25830,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/Kent_State_University"
+   },
+   "endowment": {
+    "value": 218500000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/Kent_State_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Kent_State_University"
+   },
+   "mbb_coach": {
+    "value": "Rob Senderoff",
+    "source": "https://kentstater.com/128676/sports/i-dont-think-i-ever-wanted-to-leave-mens-basketball-coach-explains-his-decision-to-sign-six-year-extension"
+   },
+   "mbb_coach_pay": {
+    "value": 500000,
+    "year": "2025-26 through 2030-31",
+    "what": "contract base salary per year, excluding incentives (Kent Stater, March 2025)",
+    "source": "https://kentstater.com/128676/sports/i-dont-think-i-ever-wanted-to-leave-mens-basketball-coach-explains-his-decision-to-sign-six-year-extension"
+   },
+   "founded": {
+    "value": 1805,
+    "source": "https://en.wikipedia.org/wiki/Kent,_Ohio"
+   },
+   "largest_employer": {
+    "value": "Kent State University",
+    "source": "https://en.wikipedia.org/wiki/Kent,_Ohio"
+   },
+   "snowfall_in": {
+    "value": 47.5,
+    "source": "https://en.wikipedia.org/wiki/Kent,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 1056,
+    "source": "https://en.wikipedia.org/wiki/Kent,_Ohio"
+   },
+   "county": {
+    "value": "Portage County",
+    "source": "https://en.wikipedia.org/wiki/Kent,_Ohio"
+   },
+   "ice_287g": {
+    "value": true,
+    "agency": "Portage County Sheriff's Office",
+    "model": null,
+    "source": "https://www.acluohio.org/app/uploads/2026/03/ICEinOhio260409Web.pdf"
+   },
+   "notes": "Enrollment is Kent campus; all campuses 33,319 (fall 2025). Tuition null: College Navigator blocked this school (robots_disallowed); kent.edu 2025-26 Kent Campus Golden Guarantee page lists 12-18 hr rate $6,722.60 (Ohio) / $11,947.40 (nonresident) without stating the term (likely per semester), so no annual figure recorded. Kent Wikipedia does not state county seat status; climate box has no January daily mean (max 34, min 20). Founded = township settled 1805. Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. 287(g): ACLU of Ohio 'ICE in Ohio' (updated Apr 9, 2026) lists Portage County Sheriff's Office; model not stated. pell_pct null: College Navigator blocked for this school. Arena page not fetched (generic arena name, fetch budget).",
+   "median_household_income": {
+    "value": 42964,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "per_capita_income": {
+    "value": 28098,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "median_home_value": {
+    "value": 219900,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "poverty_rate": {
+    "value": 27.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "population": {
+    "value": 27116,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "median_age": {
+    "value": 23.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "bachelors_pct": {
+    "value": 47.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "commute_minutes": {
+    "value": 20.8,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "veterans": {
+    "value": 892,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 6.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3939872-kent-oh/"
+   }
+  },
+  "miami-oh": {
+   "key": "miami-oh",
+   "school": "Miami (Ohio)",
+   "town": "Oxford",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 18838,
+    "year": "Fall 2024",
+    "source": "https://nces.ed.gov/collegenavigator/?id=204024"
+   },
+   "tuition_in": {
+    "value": 18161,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=204024"
+   },
+   "tuition_out": {
+    "value": 41221,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=204024"
+   },
+   "endowment": {
+    "value": 1090000000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/Miami_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Miami_University"
+   },
+   "mbb_coach": {
+    "value": "Travis Steele",
+    "source": "https://en.wikipedia.org/wiki/Miami_University"
+   },
+   "founded": {
+    "value": 1810,
+    "source": "https://en.wikipedia.org/wiki/Oxford,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 912,
+    "source": "https://en.wikipedia.org/wiki/Oxford,_Ohio"
+   },
+   "arena_named_for": {
+    "value": "John D. Millett (Miami's 16th president)",
+    "who": "person",
+    "money_from": "university president; no naming gift reported",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Millett_Hall"
+   },
+   "pell_pct": {
+    "value": 13,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=204024"
+   },
+   "county": {
+    "value": "Butler County",
+    "source": "https://en.wikipedia.org/wiki/Oxford,_Ohio"
+   },
+   "ice_287g": {
+    "value": true,
+    "agency": "Butler County Sheriff's Office",
+    "model": null,
+    "source": "https://www.acluohio.org/app/uploads/2026/03/ICEinOhio260409Web.pdf"
+   },
+   "notes": "Enrollment is Miami University-Oxford campus. Steele extended through 2033-34 (May 2026, https://www.wcpo.com/sports/local-sports/miami-university-hoops-coach-travis-steele-signs-contract-extension-through-2033-34) but pay not disclosed; USA Today database blocked. Oxford Wikipedia page has no climate box and does not state county seat status. Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. 287(g): ACLU of Ohio report lists Butler County Sheriff's Office; model ambiguous in report chart.",
+   "median_household_income": {
+    "value": 40764,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "per_capita_income": {
+    "value": 21879,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "median_home_value": {
+    "value": 238000,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "poverty_rate": {
+    "value": 45.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "population": {
+    "value": 21753,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "median_age": {
+    "value": 21.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "bachelors_pct": {
+    "value": 61.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "commute_minutes": {
+    "value": 15.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "veterans": {
+    "value": 478,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 9.7,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3959234-oxford-oh/"
+   }
+  },
+  "ohio": {
+   "key": "ohio",
+   "school": "Ohio",
+   "town": "Athens",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 24937,
+    "year": "Fall 2023",
+    "source": "https://en.wikipedia.org/wiki/Ohio_University"
+   },
+   "tuition_in": {
+    "value": 14366,
+    "year": "2025-26 cohort",
+    "source": "https://www.ohio.edu/bursar/ohio-guarantee/2025-2026"
+   },
+   "tuition_out": {
+    "value": 25580,
+    "year": "2025-26 cohort",
+    "source": "https://www.ohio.edu/bursar/ohio-guarantee/2025-2026"
+   },
+   "endowment": {
+    "value": 1000000000,
+    "year": "April 2026",
+    "source": "https://en.wikipedia.org/wiki/Ohio_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Ohio_University"
+   },
+   "mbb_coach": {
+    "value": "Jeff Boals",
+    "source": "https://ohiobobcats.com/news/2026/4/15/mens-basketball-ohio-mens-basketball-adds-ch-brogan-to-roster-for-2026-27-season"
+   },
+   "founded": {
+    "value": 1811,
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "largest_employer": {
+    "value": "Ohio University",
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "jan_avg_temp_f": {
+    "value": 29.8,
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "snowfall_in": {
+    "value": 17.6,
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 709,
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "county": {
+    "value": "Athens County",
+    "source": "https://en.wikipedia.org/wiki/Athens,_Ohio"
+   },
+   "notes": "Enrollment is Athens campus. College Navigator blocked this school (robots_disallowed); tuition is Athens campus OHIO Guarantee full-time rate, per-semester x2 (excludes small per-hour fees). Boals pay not found; USA Today database blocked. Founded = incorporated as village 1811. Wikipedia names Ohio University as the county's largest employer. Census figures from Census Reporter (ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. pell_pct null: College Navigator blocked for this school. Arena page not fetched (generic arena name, fetch budget).",
+   "median_household_income": {
+    "value": 38204,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "per_capita_income": {
+    "value": 26028,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "median_home_value": {
+    "value": 247000,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "poverty_rate": {
+    "value": 40,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "population": {
+    "value": 23396,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "median_age": {
+    "value": 21.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "bachelors_pct": {
+    "value": 64.1,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "commute_minutes": {
+    "value": 16.2,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "veterans": {
+    "value": 671,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 6.6,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US3902736-athens-oh/"
+   }
+  },
+  "toledo": {
+   "key": "toledo",
+   "school": "Toledo",
+   "town": "Toledo",
+   "state": "Ohio",
+   "enrollment": {
+    "value": 14440,
+    "year": "Fall 2024 (per cited enrollment report; infobox undated)",
+    "source": "https://en.wikipedia.org/wiki/University_of_Toledo"
+   },
+   "endowment": {
+    "value": 689100000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/University_of_Toledo"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/University_of_Toledo"
+   },
+   "mbb_coach": {
+    "value": "Tod Kowalczyk",
+    "source": "https://hoopdirt.com/?p=1056709"
+   },
+   "founded": {
+    "value": 1837,
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "jan_avg_temp_f": {
+    "value": 27.5,
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "snowfall_in": {
+    "value": 37.4,
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "elevation_ft": {
+    "value": 604,
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "arena_named_for": {
+    "value": "John F. Savage (UT alumnus, class of 1952)",
+    "who": "person",
+    "money_from": "page does not say where his money came from or confirm a gift amount",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Savage_Arena"
+   },
+   "county": {
+    "value": "Lucas County",
+    "source": "https://en.wikipedia.org/wiki/Toledo,_Ohio"
+   },
+   "detention_center_nearby": {
+    "value": "Corrections Center of Northwest Ohio",
+    "miles": null,
+    "source": "https://www.acluohio.org/app/uploads/2026/03/ICEinOhio260409Web.pdf"
+   },
+   "notes": "Tuition null: College Navigator blocked (robots_disallowed); utoledo.edu treasurer page shows 2026-27 cohort 12-18 hr rate $6,450.36 in-state / $11,130.36 out-of-state but the term basis was unclear. Coach source is a May 2024 extension through 2027-28; not re-confirmed for 2026-27; pay not given; USA Today database blocked. Wikipedia median income $41,671 (2021 dollars) not attributed to ACS, so not used. Census figures from Census Reporter (ACS 2024 1-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. Detention: ACLU of Ohio report says Corrections Center of Northwest Ohio holds ICE detainees under jail bed-space contracts; distance not in source. ACLU lists no 287(g) agency for Lucas County, but its review was partial, so ice_287g left null. pell_pct null: College Navigator blocked for this school.",
+   "median_household_income": {
+    "value": 50562,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "per_capita_income": {
+    "value": 28915,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "median_home_value": {
+    "value": 122600,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "poverty_rate": {
+    "value": 23.1,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "population": {
+    "value": 265651,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "median_age": {
+    "value": 36,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "bachelors_pct": {
+    "value": 22.7,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "commute_minutes": {
+    "value": 20,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "veterans": {
+    "value": 10734,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   },
+   "foreign_born_pct": {
+    "value": 4.5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US3977000-toledo-oh/"
+   }
+  },
+  "umass": {
+   "key": "umass",
+   "school": "UMass",
+   "town": "Amherst",
+   "state": "Massachusetts",
+   "enrollment": {
+    "value": 31318,
+    "year": "Fall 2025",
+    "source": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+   },
+   "tuition_in": {
+    "value": 17772,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=166629"
+   },
+   "tuition_out": {
+    "value": 40449,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=166629"
+   },
+   "endowment": {
+    "value": 672000000,
+    "year": "FY2025",
+    "source": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "joined MAC as full member (incl. football) in 2025",
+    "source": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+   },
+   "mbb_coach": {
+    "value": "Frank Martin",
+    "source": "https://www.gazettenet.com/Frank-Martin-signs-2-year-extension-after-first-UMass-20-win-season-in-a-decade-55687570"
+   },
+   "mbb_coach_pay": {
+    "value": 1000000,
+    "year": "2022 contract (as reported June 2024)",
+    "what": "base salary under original 2022 contract; 2024 extension raise undisclosed; bonuses extra",
+    "source": "https://www.gazettenet.com/Frank-Martin-signs-2-year-extension-after-first-UMass-20-win-season-in-a-decade-55687570"
+   },
+   "median_household_income": {
+    "value": 66968,
+    "year": "ACS 5-year as cited on Wikipedia (period ambiguous; 2024 dollars)",
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "founded": {
+    "value": 1759,
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "county_seat": {
+    "value": false,
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "jan_avg_temp_f": {
+    "value": 23.9,
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "snowfall_in": {
+    "value": 36.5,
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "elevation_ft": {
+    "value": 300,
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "arena_named_for": {
+    "value": "William D. Mullins (Mass. state representative from Ludlow)",
+    "who": "person",
+    "money_from": "politician; state-built arena, no naming gift",
+    "billionaire": false,
+    "source": "https://en.wikipedia.org/wiki/Mullins_Center"
+   },
+   "pell_pct": {
+    "value": 20,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=166629"
+   },
+   "county": {
+    "value": "Hampshire County",
+    "source": "https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
+   },
+   "notes": "Endowment is Amherst campus only (system-wide $1.8B FY2025). Coach source is June 2024 (extension through 2028-29); not re-confirmed for 2026-27. Founded = incorporated 1759 (settled 1703). Wikipedia lists major employers but not the largest. Census QuickFacts failed to load, and Census Reporter profiles for Amherst town (06000US2501501325) and Amherst Center CDP (16000US2501360) both failed to load (client_error); only median_household_income sourced from town Wikipedia (cites ACS). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted."
+  },
+  "western-michigan": {
+   "key": "western-michigan",
+   "school": "Western Michigan",
+   "town": "Kalamazoo",
+   "state": "Michigan",
+   "enrollment": {
+    "value": 16744,
+    "year": "Fall 2024",
+    "source": "https://nces.ed.gov/collegenavigator/?id=172699"
+   },
+   "tuition_in": {
+    "value": 15252,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=172699"
+   },
+   "tuition_out": {
+    "value": 19034,
+    "year": "2024-25",
+    "source": "https://nces.ed.gov/collegenavigator/?id=172699"
+   },
+   "endowment": {
+    "value": 854400000,
+    "year": "2025",
+    "source": "https://en.wikipedia.org/wiki/Western_Michigan_University"
+   },
+   "football": {
+    "value": "FBS",
+    "note": "",
+    "source": "https://en.wikipedia.org/wiki/Western_Michigan_University"
+   },
+   "mbb_coach": {
+    "value": "Kahil Fennell",
+    "source": "https://wtop.com/ncaa-basketball/2026/03/kahil-fennell-of-texas-rio-grande-valley-takes-over-struggling-western-michigan-program/"
+   },
+   "founded": {
+    "value": 1829,
+    "source": "https://en.wikipedia.org/wiki/Kalamazoo,_Michigan"
+   },
+   "county_seat": {
+    "value": true,
+    "source": "https://en.wikipedia.org/wiki/Kalamazoo,_Michigan"
+   },
+   "jan_avg_temp_f": {
+    "value": 24.8,
+    "source": "https://en.wikipedia.org/wiki/Kalamazoo,_Michigan"
+   },
+   "elevation_ft": {
+    "value": 784,
+    "source": "https://en.wikipedia.org/wiki/Kalamazoo,_Michigan"
+   },
+   "pell_pct": {
+    "value": 27,
+    "year": "2023-24",
+    "what": "all undergraduate degree/certificate-seeking students",
+    "source": "https://nces.ed.gov/collegenavigator/?id=172699"
+   },
+   "county": {
+    "value": "Kalamazoo County",
+    "source": "https://en.wikipedia.org/wiki/Kalamazoo,_Michigan"
+   },
+   "notes": "Wikipedia infobox enrollment is 17,605 (2024). Fennell hired March 2026 replacing Dwayne Stephens; pay not given; USA Today database blocked. Founded = settled 1829. Climate box has no snowfall row. Census figures from Census Reporter (ACS 2024 1-year; commute is ACS 2024 5-year). Round 2: median_debt null (College Navigator shows only average loans; College Scorecard is a JS app not fetched). grants_terminated_2025 null (Grant Witness redirects to grantwitness.org, whose data loads via JavaScript; no per-school figures). news_outlets_county/news_desert null (Medill State of Local News page has no county data in fetchable form). ice_287g null unless noted (ice.gov 287(g) list failed: client_error). detention_center_nearby null unless noted. Arena page not fetched (generic arena name, fetch budget).",
+   "median_household_income": {
+    "value": 59226,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "per_capita_income": {
+    "value": 31221,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "median_home_value": {
+    "value": 196100,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "poverty_rate": {
+    "value": 18.9,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "population": {
+    "value": 73280,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "median_age": {
+    "value": 28,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "bachelors_pct": {
+    "value": 37.3,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "commute_minutes": {
+    "value": 18.5,
+    "year": "ACS 2024 5-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "veterans": {
+    "value": 1864,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   },
+   "foreign_born_pct": {
+    "value": 5,
+    "year": "ACS 2024 1-year",
+    "source": "https://censusreporter.org/profiles/16000US2642160-kalamazoo-mi/"
+   }
+  }
+ }
+}

@@ -31,7 +31,33 @@ _Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 17,027 (Fall 2023)
+- Tuition and fees, in state: $14,467 (2024-25)
+- Tuition and fees, out of state: $22,455 (2024-25)
+- Endowment: $259.4 million (FY2025)
+- Football: FBS
+- Students on Pell Grants: 26% (2022-23)
+- Arena named for: Kermit and Mary Lu Stroh (Stroh Center) (donors gave $8.7M ($7.7M to arena); BGSU trustee 1993-2002; source of wealth not stated on page)
+
+**Bowling Green**
+- Population: 29,983 (ACS 2024 5-year)
+- Median household income: $45,154 (ACS 2024 5-year)
+- Income per person: $27,972 (ACS 2024 5-year)
+- Median home value: $226,100 (ACS 2024 5-year)
+- Poverty rate: 28.6% (ACS 2024 5-year)
+- Median age: 23.5 (ACS 2024 5-year)
+- Adults with a bachelor's degree: 44.2% (ACS 2024 5-year)
+- Average commute: 17.5 minutes (ACS 2024 5-year)
+- Veterans: 984 (ACS 2024 5-year)
+- Born abroad: 4.2% (ACS 2024 5-year)
+- Founded: 1832
+- County seat: yes
+- January average: 25.9°F
+- Snow a year: 21.3 inches
+- Elevation: 689 feet
+- County: Wood County
+- College-town index: 0.57 students per resident (the school is the town)
 
 ## The program's best
 

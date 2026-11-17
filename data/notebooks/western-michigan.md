@@ -31,7 +31,31 @@ _Western Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 16,744 (Fall 2024)
+- Tuition and fees, in state: $15,252 (2024-25)
+- Tuition and fees, out of state: $19,034 (2024-25)
+- Endowment: $854.4 million (2025)
+- Football: FBS
+- Students on Pell Grants: 27% (2023-24)
+
+**Kalamazoo**
+- Population: 73,280 (ACS 2024 1-year)
+- Median household income: $59,226 (ACS 2024 1-year)
+- Income per person: $31,221 (ACS 2024 1-year)
+- Median home value: $196,100 (ACS 2024 1-year)
+- Poverty rate: 18.9% (ACS 2024 1-year)
+- Median age: 28 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 37.3% (ACS 2024 1-year)
+- Average commute: 18.5 minutes (ACS 2024 5-year)
+- Veterans: 1,864 (ACS 2024 1-year)
+- Born abroad: 5% (ACS 2024 1-year)
+- Founded: 1829
+- County seat: yes
+- January average: 24.8°F
+- Elevation: 784 feet
+- County: Kalamazoo County
+- College-town index: 0.23 students per resident (a big presence)
 
 ## The program's best
 

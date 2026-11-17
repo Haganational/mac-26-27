@@ -31,7 +31,31 @@ _Toledo (MAC). Anchors are fictional AI personas, not affiliated with any school
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 14,440 (Fall 2024 (per cited enrollment report; infobox undated))
+- Endowment: $689.1 million (FY2025)
+- Football: FBS
+- Arena named for: John F. Savage (UT alumnus, class of 1952) (page does not say where his money came from or confirm a gift amount)
+
+**Toledo**
+- Population: 265,651 (ACS 2024 1-year)
+- Median household income: $50,562 (ACS 2024 1-year)
+- Income per person: $28,915 (ACS 2024 1-year)
+- Median home value: $122,600 (ACS 2024 1-year)
+- Poverty rate: 23.1% (ACS 2024 1-year)
+- Median age: 36 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 22.7% (ACS 2024 1-year)
+- Average commute: 20 minutes (ACS 2024 1-year)
+- Veterans: 10,734 (ACS 2024 1-year)
+- Born abroad: 4.5% (ACS 2024 1-year)
+- Founded: 1837
+- County seat: yes
+- January average: 27.5°F
+- Snow a year: 37.4 inches
+- Elevation: 604 feet
+- County: Lucas County
+- Nearest ICE detention site: Corrections Center of Northwest Ohio
+- College-town index: 0.05 students per resident (a guest in a bigger place)
 
 ## The program's best
 

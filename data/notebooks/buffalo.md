@@ -31,7 +31,33 @@ _Buffalo (MAC). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 31,656 (Fall 2025)
+- Tuition and fees, in state: $10,936 (2024-25)
+- Tuition and fees, out of state: $31,536 (2024-25)
+- Endowment: $1.17 billion (2025 (fiscal year not specified))
+- Football: FBS
+- Students on Pell Grants: 33% (2023-24)
+
+**Buffalo**
+- Population: 276,618 (ACS 2024 1-year)
+- Median household income: $52,211 (ACS 2024 1-year)
+- Income per person: $32,455 (ACS 2024 1-year)
+- Median home value: $187,000 (ACS 2024 1-year)
+- Poverty rate: 23% (ACS 2024 1-year)
+- Median age: 34.5 (ACS 2024 1-year)
+- Adults with a bachelor's degree: 32.7% (ACS 2024 1-year)
+- Average commute: 19.3 minutes (ACS 2024 1-year)
+- Veterans: 10,173 (ACS 2024 1-year)
+- Born abroad: 14% (ACS 2024 1-year)
+- Founded: 1801
+- County seat: yes
+- Biggest employer: New York State (regional largest employer; largest private: Kaleida Health)
+- January average: 25.5°F
+- Snow a year: 95.4 inches
+- Elevation: 600 feet
+- County: Erie County
+- College-town index: 0.11 students per resident (a guest in a bigger place)
 
 ## The program's best
 

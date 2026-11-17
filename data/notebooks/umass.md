@@ -31,7 +31,25 @@ _UMass (MAC). Anchors are fictional AI personas, not affiliated with any school.
 
 ## School and town
 
-_Not filled in yet. The desk is researching enrollment, tuition, endowment, football, the coach's pay and the town's Census figures._
+**School**
+- Enrollment: 31,318 (Fall 2025)
+- Tuition and fees, in state: $17,772 (2024-25)
+- Tuition and fees, out of state: $40,449 (2024-25)
+- Endowment: $672.0 million (FY2025)
+- Football: FBS, joined MAC as full member (incl. football) in 2025
+- Men's basketball coach's pay: $1.0 million (2022 contract (as reported June 2024))
+- Students on Pell Grants: 20% (2023-24)
+- Arena named for: William D. Mullins (Mass. state representative from Ludlow) (politician; state-built arena, no naming gift)
+
+**Amherst**
+- Median household income: $66,968 (ACS 5-year as cited on Wikipedia (period ambiguous; 2024 dollars))
+- Founded: 1759
+- County seat: no
+- January average: 23.9°F
+- Snow a year: 36.5 inches
+- Elevation: 300 feet
+- County: Hampshire County
+- The coach's pay equals 15 median Amherst household incomes
 
 ## The program's best
 
