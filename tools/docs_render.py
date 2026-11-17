@@ -225,7 +225,7 @@ def main():
             sp = ln["speaker"]
             if sp in voices:
                 seen[sp] = seen.get(sp, 0) + 1
-                if sp != "M":
+                if sp != "M" or spec.get("save_all_vo"):   # a series keeps the narrator too, for the final mix
                     tmp = work / "vo_tmp.wav"
                     with wave.open(str(tmp), "wb") as w:
                         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(x[:max(len(x) - int(TAIL * SR), 1)].tobytes())

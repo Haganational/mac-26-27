@@ -16,13 +16,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: docs-${{ github.ref }}
-  cancel-in-progress: true
+  # one group per commit, so a series can render its episodes side by side (one push per episode)
+  group: docs-${{ github.sha }}
+  cancel-in-progress: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
         with:
@@ -61,7 +62,11 @@ jobs:
       - name: Piper fallback voice
         run: |
           mkdir -p voices && cd voices
-          for e in onnx onnx.json; do curl -sSfL -o en_US-ryan-high.$e https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high.$e; done
+          # en_US-ryan-high reads by default; the others give anchors without a cloned voice their own sound
+          for v in en_US/ryan/high en_US/amy/medium en_US/kristin/medium en_US/hfc_female/medium en_GB/jenny_dioco/medium en_US/joe/medium en_GB/alan/medium en_GB/northern_english_male/medium; do
+            n="$(echo "$v" | cut -d/ -f1)-$(echo "$v" | cut -d/ -f2)-$(echo "$v" | cut -d/ -f3)"
+            for e in onnx onnx.json; do curl -sSfL -o "$n.$e" "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/$v/$n.$e" || echo "::warning::no $n"; done
+          done
           echo "PIPER_DIR=$PWD" >> "$GITHUB_ENV"
       - name: Matthew's voice reference
         env:
