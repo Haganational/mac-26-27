@@ -1,12 +1,28 @@
 {
- "stage": "all",
+ "stage": "done",
  "run": 1,
  "main_title_contains": "MIDnight Weave: She's Over There",
  "release": "weave-pilot-promos",
- "city_tags": ["#MIDnightWeave"],
- "specific_tags": ["#EKU", "#UTEP"],
+ "city_tags": [
+  "#MIDnightWeave"
+ ],
+ "specific_tags": [
+  "#EKU",
+  "#UTEP"
+ ],
  "disclosure": "Lacey Combs and Mateo Sandoval are fictional AI anchors. The host is real.",
- "yt_tags": ["MIDnight Weave", "mid-majors", "college basketball", "Eastern Kentucky", "EKU", "Kent State", "UTEP", "Florida A&M", "studio show", "Hardwood Bricks"],
+ "yt_tags": [
+  "MIDnight Weave",
+  "mid-majors",
+  "college basketball",
+  "Eastern Kentucky",
+  "EKU",
+  "Kent State",
+  "UTEP",
+  "Florida A&M",
+  "studio show",
+  "Hardwood Bricks"
+ ],
  "film": {
   "file": "weave-pilot-show.mp4",
   "thumb": "weave-pilot-thumbnail.jpg",
@@ -27,5 +43,6 @@
    "text": "Aunt Brenda calls in from Richmond, Kentucky, and UTEP hangs 79 on Florida A&M while Mateo Sandoval takes it personally. From the first MIDnight Weave."
   }
  ],
- "rethumb": false
+ "rethumb": false,
+ "main_url": "https://youtu.be/P8L3A3wDqgM"
 }
