@@ -355,9 +355,19 @@ def envelope(a):
     return e
 
 
-def build(audio_dir):
+CUT_AT = 8.8  # seconds into 02_simone where v2 picks up ("...and her pint... gone.")
+TAKES["02b_simone"] = {"id": "02b_simone", "who": "simone",
+                       "text": "...and her pint... gone. Arena cameras place Trevor Holloway at the freezer at seven-twelve. We do not believe Trevor ate it. We believe he knows who did. Trevor. Give us the name, and you stay on the travel roster for Kalamazoo."}
+SALSA = "/mnt/project-files/docs/south-florida/music/calle-ocho-build-v1.mp3"
+CARD = 7.0
+
+
+def build(audio_dir, cut=False):
     """Returns (events, takes) where each event has start, dur, scene, speaker/take and extras."""
-    takes = {tid: load_take(audio_dir, tid) for tid in TAKES}
+    takes = {tid: load_take(audio_dir, tid) for tid in TAKES if tid != "02b_simone"}
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(Path(audio_dir) / "02_simone.wav"), "-f", "f32le", "-ac", "1",
+                          "-ar", str(SR), "-"], capture_output=True, check=True).stdout
+    takes["02b_simone"] = np.frombuffer(raw, np.float32)[int(CUT_AT * SR):].copy()
     ev, t = [], 0.0
 
     def add(scene, dur=None, take=None, gap=0.35, **kw):
@@ -368,10 +378,14 @@ def build(audio_dir):
         t += dur + gap
         return ev[-1]
 
-    add("cover", 1.6, gap=0, sfx=[(0, "sting")])
-    add("claire_open", take="01_claire", gap=0.6)
-    add("hearing", 2.2, gap=0, sfx=[(0.1, "taps")], shot="establish")
-    add("hearing", take="02_simone", shot="simone", gap=0.3)
+    if cut:
+        add("hmcard", CARD, gap=0, music=True)
+        add("hearing", take="02b_simone", shot="wide", gap=0.3)
+    else:
+        add("cover", 1.6, gap=0, sfx=[(0, "sting")])
+        add("claire_open", take="01_claire", gap=0.6)
+        add("hearing", 2.2, gap=0, sfx=[(0.1, "taps")], shot="establish")
+        add("hearing", take="02_simone", shot="simone", gap=0.3)
     add("hearing", 2.0, shot="claire_lid", gap=0)
     add("weave", take="03_trevor", gap=0.05, sfx=[(0, "whoosh")])
     add("weave", take="04_gary", gap=0.6)
@@ -509,6 +523,12 @@ def mix(ev, takes, total):
                 s0, s1 = int((e["start"] - a0) * SR), int((e["start"] + e["dur"] - a0) * SR)
                 duck[max(0, s0):max(0, s1)] = 0.35
         put(bed * fade * duck, a0, 0.8)
+    for e in ev:
+        if e.get("music"):
+            y = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "6.5", "-t", str(e["dur"] + 1.6), "-i", SALSA,
+                                "-af", f"afade=t=in:d=2.2,afade=t=out:st={e['dur'] - 0.2}:d=1.8", "-f", "f32le", "-ac", "1",
+                                "-ar", str(SR), "-"], capture_output=True, check=True).stdout
+            put(np.frombuffer(y, np.float32), e["start"], 0.55)
     out += hum * gate
     peak = np.max(np.abs(out)) or 1
     return (out / peak * 0.89).astype(np.float32)
@@ -679,7 +699,7 @@ def hearing_frame(fi, gt, e, lt, envs, state):
     elif shot == "gasp":
         z, cx, cy = 1.3, 700, 650
     img = camera(img, cx, cy, z, sh, fi)
-    if shot in ("simone", "front", "pace", "gary_mid", "marcus", "claire_close") and sp:
+    if shot in ("simone", "front", "pace", "gary_mid", "marcus", "claire_close", "wide") and sp:
         tag(img, 70, H - 190, NAMES[sp], 30)
     return img
 
@@ -914,8 +934,34 @@ def exit_frame(fi, gt, e, lt, envs, state, kind):
     return camera(img, W / 2, H / 2, 1.0, sh, fi)
 
 
+@lru_cache(None)
+def hm_card_base():
+    img = Image.new("RGB", (W, H), (22, 18, 14))
+    a = np.asarray(img).astype(np.float32)
+    yy, xx = np.mgrid[0:H, 0:W]
+    v = 1 - 0.35 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2)
+    a = a * v[..., None] + np.random.default_rng(7).normal(0, 2.0, (H, W, 1))
+    img = Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2, 300), "A  H A R D W O O D   B R I C K S   E X C L U S I V E", font=font(26), fill=(150, 136, 118), anchor="mm")
+    d.text((W / 2, 470), "Hocking Miami", font=font(150, str(REPO / "templates/static/fonts/Newsreader-SemiBold.ttf")),
+           fill=(242, 234, 220), anchor="mm")
+    d.line([(W / 2 - 70, 590), (W / 2 + 70, 590)], fill=GOLD, width=3)
+    d.text((W / 2, 650), "THE FREEZER HEARING", font=font(46), fill=(232, 222, 204), anchor="mm")
+    d.text((W / 2, 712), "OXFORD, OHIO  ·  7:14 P.M.  ·  ONE PINT, MISSING", font=font(28), fill=(170, 152, 128), anchor="mm")
+    return img
+
+
+def hm_card(lt, dur):
+    img = hm_card_base()
+    k = 0.3 + 0.7 * ease(lt / 1.6)
+    if lt > dur - 0.5:
+        k *= max(0.0, (dur - lt) / 0.5)
+    return Image.eval(img, lambda px: int(px * k))
+
+
 def frame(args):
-    fi, ev, envs, out_dir = args
+    fi, ev, envs, out_dir = args[:4]
     gt = fi / FPS
     e = ev[0]
     for x in ev:
@@ -931,7 +977,9 @@ def frame(args):
     if state["wb_hit"] is not None and gt < state["wb_hit"]:
         state["wb_hit"] = None
     sc = e["scene"]
-    if sc == "cover":
+    if sc == "hmcard":
+        img = hm_card(lt, e["dur"])
+    elif sc == "cover":
         img = paper_scene(fi, gt, e, lt, envs, "cover")
     elif sc == "endcard":
         img = paper_scene(fi, gt, e, lt, envs, "endcard")
@@ -940,7 +988,8 @@ def frame(args):
     elif sc == "button":
         img = claire_desk(fi, gt, e, lt, envs, "alt")
     elif sc == "hearing":
-        if e.get("take") == "02_simone" and 0.42 < lt / e["dur"] < 0.68:
+        if (e.get("take") == "02_simone" and 0.42 < lt / e["dur"] < 0.68) or \
+                (e.get("take") == "02b_simone" and 0.16 < lt / e["dur"] < 0.42):
             img = paper_scene(fi, gt, e, lt, envs, "cctv")
         else:
             img = hearing_frame(fi, gt, e, lt, envs, state)
@@ -974,8 +1023,9 @@ def main():
     ap.add_argument("--audio", default=str(REPO / "sketches/freezer-hearing/audio"))
     ap.add_argument("--test", type=float, nargs="*")
     ap.add_argument("--out", default=str(HERE / "freezer-hearing.mp4"))
+    ap.add_argument("--cut", action="store_true", help="v2: Hocking Miami card + salsa, open at 0:38 of v1")
     a = ap.parse_args()
-    ev, takes, total = build(a.audio)
+    ev, takes, total = build(a.audio, a.cut)
     envs = {k: envelope(v) for k, v in takes.items()}
     out_dir = HERE / "frames"
     out_dir.mkdir(exist_ok=True)
