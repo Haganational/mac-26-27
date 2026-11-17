@@ -496,6 +496,9 @@ def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         built=now.isoformat(timespec="minutes"), cfg_json=json.dumps(cfg).replace("</", "<\\/"),
         **den_connect_context(site_root, now)))
+    # A small widget other sites (JuiceBox Nation) can frame: tonight's closest games and the Called Up grid.
+    (site_root / "embed").mkdir(exist_ok=True)
+    (site_root / "embed" / "den.html").write_text(env.get_template("embed_den.html").render(base=base))
     return den_teaser(site_root, now)
 
 
