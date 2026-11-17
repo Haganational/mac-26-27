@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from . import alumni, anchors, den_connect, pickem, site_chrome
+from . import alumni, anchors, den_connect, pickem, press, site_chrome
 from .config import SHARED_DIR
 from .leagues import ALL as LEAGUES
 
@@ -114,6 +114,8 @@ def profile(key: str, homer: dict[str, dict[str, Any]] | None = None) -> dict[st
             "conf": lg.short if lg else "", "team_href": f"{lg.path}teams/{key}.html" if lg else None,
             "rival": {**rival, "href": f"anchors/{rival['key']}.html"} if rival else None,
             "stories": alumni.stories(key), "homer": (homer or {}).get(key),
+            "paper": press.paper(key), "town": (press.papers().get(key) or {}).get("town", ""),
+            "lean": (press.leans().get(key) or {}).get("lean", ""),
             "audio": f"anchors/audio/{key}.ogg" if (anchors.AUDITIONS / f"{key}.ogg").exists() else None}
 
 

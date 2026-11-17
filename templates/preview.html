@@ -1,3 +1,4 @@
+{% from "_press.html" import press_by, press_asides %}
 {% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
@@ -42,10 +43,10 @@
   {% if story %}
   <article class="gamer" id="gamer">
     <h1>{{ story.headline }}</h1>
-    <div class="sub">By {{ story.byline }} · <time datetime="{{ story.published }}">{{ story.published[:10] }}</time></div>
+    {% set _pub %}<time datetime="{{ story.published }}">{{ story.published[:10] }}</time>{% endset %}{{ press_by(story, _pub) }}
     {% for p in story.paragraphs %}<p>{{ p }}</p>
     {% endfor %}{% for f in story.flavor %}<p class="flavor">{{ f }}</p>
-    {% endfor %}
+    {% endfor %}{{ press_asides(story) }}
   </article>
   {% endif %}
 
