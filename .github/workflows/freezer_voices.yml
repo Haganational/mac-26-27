@@ -1,0 +1,37 @@
+name: Freezer Hearing voices
+
+# Sketch-only: voices sketches/freezer-hearing/lines.json with Gemini TTS on this branch and commits
+# the takes to sketches/freezer-hearing/audio/. Not for main.
+on:
+  push:
+    branches: [claude/project-thread-04lxpf]
+    paths: [sketches/freezer-hearing/lines.json, sketches/freezer-hearing/voice.py, sketches/freezer-hearing/.rerun]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: freezer-voices
+  cancel-in-progress: false
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Voice takes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python sketches/freezer-hearing/voice.py
+      - name: Commit
+        run: |
+          git config user.name "mac-collector"
+          git config user.email "mac-collector@users.noreply.github.com"
+          git add sketches/freezer-hearing/audio/
+          git diff --cached --quiet && echo "no new takes" && exit 0
+          git commit -m "sketch: freezer hearing takes"
+          git push

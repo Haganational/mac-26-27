@@ -1,0 +1,39 @@
+{
+  "cast": {
+    "claire":  {"key": "miami-oh",         "who": "a TV news anchor, a woman in her mid-30s, composed and precise, with grief leaking through the professionalism"},
+    "gary":    {"key": "bowling-green",    "who": "a retired AM radio play-by-play man in his early 60s, loud, gravelly, theatrical, a blustering old-school Ohio guy"},
+    "simone":  {"key": "buffalo",          "who": "a compliance officer, a woman in her 40s, clipped, procedural, exasperated, a stickler"},
+    "trevor":  {"key": "central-michigan", "who": "a nervous young man in his late 20s, a benched walk-on, sweating, voice cracking"},
+    "diane":   {"key": "eastern-michigan", "who": "a committee member, a woman in her 50s, bone-dry deadpan"},
+    "patty":   {"key": "western-michigan", "who": "a warm woman in her early 60s, a little teary, clapping"},
+    "marcus":  {"key": "akron",            "who": "a committee member, a man in his mid-30s, mumbling while writing on a clipboard"}
+  },
+  "takes": [
+    {"id": "01_claire", "who": "claire", "how": "Calm newsreader open. Pause before 'it was my pint'.", "text": "Good evening from Oxford. Claire Beaumont. What you're about to see is a Hocking Miami Exclusive. In the interest of full disclosure... it was my pint. Black raspberry chocolate chip. Labeled. Red tape. My name, in capital letters, on three sides. The media room freezer. Seven-fourteen p.m. ... We take you now to the hearing."},
+    {"id": "02_simone", "who": "simone", "how": "Procedural, tapping a pen.", "text": "This review is now in session. At seven-fourteen p.m., during the under-eight timeout, Ms. Beaumont found the media room freezer ajar, and her pint... gone. Arena cameras place Trevor Holloway at the freezer at seven-twelve. We do not believe Trevor ate it. We believe he knows who did. Trevor. Give us the name, and you stay on the travel roster for Kalamazoo."},
+    {"id": "03_trevor", "who": "trevor", "how": "Trembling, trailing off, cut off mid-sentence.", "text": "I... I mean, I don't really know if I should—"},
+    {"id": "04_gary", "who": "gary", "how": "Low, quiet, firm.", "text": "Zip it, son."},
+    {"id": "05_simone", "who": "simone", "how": "Weary.", "text": "Mr. Mercer. You are here because Trevor listed you as his emergency contact. You are not staff. You are not faculty. You are not even from this school."},
+    {"id": "06_gary", "who": "gary", "how": "Indignant, booming, proud.", "text": "Not from this school? I called this league on AM radio for thirty-one winters. I did a double-overtime in Mount Pleasant with a thermos and a transistor and no feeling in my feet. I've got more standing than the bleachers, lady."},
+    {"id": "07_simone", "who": "simone", "how": "Flat.", "text": "You retired in 2019."},
+    {"id": "08_gary", "who": "gary", "how": "Smug.", "text": "And I've un-retired every Tuesday since."},
+    {"id": "09_diane", "who": "diane", "how": "Bone dry.", "text": "Why is the young man in a wrestling singlet?"},
+    {"id": "10_simone", "who": "simone", "how": "Eyes closed, tired.", "text": "His warmups were taken into evidence."},
+    {"id": "11_gary", "who": "gary", "how": "Rising anger, pointing.", "text": "What kind of program are you running here? A snitch academy? You're holding a bus seat to Kalamazoo over this kid's head so he'll rat out a teammate."},
+    {"id": "12_simone", "who": "simone", "how": "Reading from the rulebook, sharp.", "text": "It is a violation of the Student-Athlete Handbook, section nine... Shared Freezer Conduct. If he won't give us a name, he's off the travel roster. Effective tonight."},
+    {"id": "13_trevor", "who": "trevor", "how": "Voice cracking, pleading.", "text": "Coach Mercer, it's fine, I can just tell her—"},
+    {"id": "14_gary", "who": "gary", "how": "Snapping, loud, then a grumbled afterthought.", "text": "Sit! Sit down. Say nothing. And I'm not a coach."},
+    {"id": "15_gary", "who": "gary", "how": "Big speech, building, pacing. Warm pride at the end.", "text": "Look at him. Twenty-eight years old. Seventh year of eligibility. Three redshirts, a pandemic, and a waiver nobody in this room can explain. He has never scored a point. He has never been fed a meal on a road trip that wasn't from a gas station. He rebounds for guys who don't learn his name. And when the heat comes down... he sits there in a singlet and says nothing. You know what that is? That's a teammate. You can't recruit that. You can't put it on a lanyard."},
+    {"id": "16_simone", "who": "simone", "how": "Sharp interruption.", "text": "Mr. Mercer, this is not germane."},
+    {"id": "17_gary", "who": "gary", "how": "Roaring, then deflating into a grumble for the joke.", "text": "Germane? Lady, I haven't been germane since the Carter administration! And I'd stand up straighter to argue it, but I got my eyes dilated at four o'clock and this entire room is a soft red blob. Which, in Oxford, is accurate."},
+    {"id": "18_gary", "who": "gary", "how": "The climax. Builds to a shout, then a long dramatic pause before the quiet confession 'I ate it.'", "text": "I have seen a grown point guard cry over a ball that wouldn't hold air. I have seen an athletic director hide in a mop closet during a coaching search. I've seen a team bus leave Buffalo without the radio crew. Twice. But when the bracket breaks, and the bus is late, and the vending machine eats your last dollar, there is nothing lower in this sport than a guy who sells out his bench! You're ending this kid's career over six dollars and twenty-nine cents of ice cream. Well, call off the bus, ma'am. He didn't eat it. ... I ate it."},
+    {"id": "19_simone", "who": "simone", "how": "Stunned.", "text": "You don't have a credential. How did you even get past the press gate?"},
+    {"id": "20_gary", "who": "gary", "how": "Proud confession, savoring it, a long pause before the final line.", "text": "I walked in behind the pep band. Nobody stops a tuba. I went straight to that freezer. I peeled off that red tape. I didn't have a spoon, so I used the little wooden paddle off a corn dog. And if you ran the tape back and gave me the night over again, I'd do it the same way. ... And I'd lick the lid."},
+    {"id": "21_claire", "who": "claire", "how": "Small, devastated whisper.", "text": "He licked the lid."},
+    {"id": "22_patty", "who": "patty", "how": "Warm, teary, amazed at herself.", "text": "That's a Falcon. And I'm clapping. Write that down, somebody."},
+    {"id": "23_marcus", "who": "marcus", "how": "Mumbled, eyes on the clipboard.", "text": "Writing it down."},
+    {"id": "24_gary", "who": "gary", "how": "Gruff, satisfied, heading out.", "text": "Come on, Trevor. I'm parked in the band bus lane, and I need new readers."},
+    {"id": "25_trevor", "who": "trevor", "how": "Quiet, flat deadpan to camera.", "text": "For the record... it was the radio guy."},
+    {"id": "26_claire", "who": "claire", "how": "Back to newsreader calm, wounded on the ice cream line.", "text": "Trevor Holloway is back on the travel roster. Gary Mercer has been banned from Millett Hall for life, which he tells us is his third lifetime ban. The radio crew has declined to comment. ... I still don't have my ice cream. This has been a Hocking Miami Exclusive. Goodnight."}
+  ]
+}
