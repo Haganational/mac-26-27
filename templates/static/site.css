@@ -1568,3 +1568,8 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .around .ar:hover b { text-decoration: underline; text-underline-offset: 3px; }
 .around .ar-k { font: 600 12px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .around .ar b { font: 600 17px/1.25 var(--serif); }
+
+/* Anchor asides on game stories and previews (mac/press.py): a signed line of opinion, set apart from the facts. */
+.gamer .aside { margin: 14px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--rule-2, #c9b9a6); font: italic 400 1em/1.5 var(--serif, Georgia, serif); color: var(--ink-2); }
+.gamer .aside-by { display: block; font: 600 11.5px/1.4 var(--cond, sans-serif); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.gamer .aside-note { font-size: 13px; color: var(--muted); margin-top: 12px; }

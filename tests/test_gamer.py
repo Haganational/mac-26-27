@@ -1,7 +1,7 @@
 import json
 from datetime import datetime, timezone
 
-from mac import gamer
+from mac import gamer, press
 
 
 def ctx(home_score=80, away_score=70, neutral=False):
@@ -30,7 +30,8 @@ def test_gamer_uses_only_box_facts():
     assert "Akron had 15 offensive rebounds to Kent State's 6." in gm["paragraphs"][2]
     assert "Akron covered the closing spread." in gm["paragraphs"][2]
     assert "4.2 points" in gm["paragraphs"][2] or "4.3 points" in gm["paragraphs"][2]
-    assert gm["byline"] == "Desk"
+    assert gm["staff"] == "Desk"  # the facts are the staff's; the byline is the home anchor's hometown paper
+    assert gm["byline"] == (press.byline("akron") or "Desk")
 
 
 def test_rivalry_line_wins_and_fills_knobs():

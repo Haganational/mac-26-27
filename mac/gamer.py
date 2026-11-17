@@ -17,6 +17,7 @@ from typing import Any
 
 from markupsafe import Markup, escape
 
+from . import press
 from .config import DATA_DIR, SITE_BASE, SITE_URL
 from .today import school
 
@@ -301,9 +302,19 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
         if para:
             paras.append(para)
 
+    staff = flavor.get("settings", {}).get("byline") or "Hardwood Bricks staff"
+    hk, ak = home.get("key"), away.get("key")
+    spread = (c.get("box") or {}).get("espn_line", {}) or {}
+    spread = spread.get("home_spread")
+    if spread is None and c.get("snap"):
+        spread = ((c["snap"] or {}).get("latest") or {}).get("spread")
+    teams = flavor.get("teams", {})
+    towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
+    asides = press.game_asides(hk, ak, home_won, spread, {"home": hn, "away": an}, towns, margin,
+                               str(g.get("game_id")), neutral=bool(g.get("neutral_site")))
     return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
             "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),
-            "byline": flavor.get("settings", {}).get("byline") or "Hardwood Bricks staff"}
+            "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides}
 
 
 def scoring_line(sides: list[tuple[str, list[dict[str, Any]]]]) -> str:
@@ -409,7 +420,7 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         "mainEntityOfPage": url,
         "url": url,
         "image": [photo_ld(ph, site_url) for ph in (photos or [])] + [f"{site_url}static/og/game-{g['game_id']}.png"],
-        "author": [{"@type": "Organization", "name": gm["byline"], "url": f"{SITE_BASE}masthead.html#automation"}],
+        "author": [{"@type": "Organization", "name": gm.get("staff") or gm["byline"], "url": f"{SITE_BASE}masthead.html#automation"}],
         "publisher": org,
         "about": {"@id": url + "#game"},
         "isAccessibleForFree": True,

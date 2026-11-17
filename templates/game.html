@@ -1,3 +1,4 @@
+{% from "_press.html" import press_by, press_asides %}
 {% import "_layout.html" as L %}
 <!doctype html>
 <html lang="en">
@@ -35,7 +36,7 @@
 
   <article class="gamer" id="gamer">
     <h1>{{ gm.headline }}</h1>
-    <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published|etday }}</time></div>
+    {% set _pub %}<time datetime="{{ published }}">{{ published|etday }}</time>{% endset %}{{ press_by(gm, _pub) }}
     {% if hl %}<figure class="hl-video">
       <div class="hl-frame"><iframe src="{{ hl.embed }}" title="{{ hl.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
       <figcaption>Highlights from ESPN · <a href="{{ hl.watch }}" rel="noopener">Watch on ESPN</a></figcaption>
@@ -43,7 +44,7 @@
     {% for p in gm.html %}<p>{{ p }}</p>
     {% endfor %}{% if gm.scoring %}<p class="scoring"><b>Scoring</b> · {{ gm.scoring_html }}</p>
     {% endif %}{% for f in gm.flavor %}<p class="flavor">{{ f }}</p>
-    {% endfor %}
+    {% endfor %}{{ press_asides(gm) }}
   </article>
 
   {% if pre %}

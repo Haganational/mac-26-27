@@ -68,7 +68,9 @@
 
   <section aria-label="On air">
     <div class="facts">
+      {% if a.paper %}<div><span class="k">Edits the hometown paper</span><b><i>{{ a.paper }}</i>{% if a.town %}, {{ a.town }}{% endif %}</b></div>{% endif %}
       {% if a.signoff %}<div><span class="k">Signs off with</span><b>{{ a.signoff }}</b></div>{% endif %}
+      {% if a.lean %}<div><span class="k">How they lean</span><b>{{ a.lean }}</b></div>{% endif %}
       {% if a.homer %}<div><span class="k">Homer ledger</span><b>{{ a.school }} is {{ a.homer.wins }}-{{ a.homer.games - a.homer.wins }} when picked</b></div>{% endif %}
       {% if a.rival %}<div><span class="k">Rival across the desk</span><a class="rv" href="{{ a.rival.href }}"><span class="f" style="--c:{{ a.rival.color }};--i:{{ a.rival.ink }}">{% if a.rival.portrait %}<img src="{{ a.rival.portrait }}" alt="{{ a.rival.alt }}" loading="lazy">{% else %}{{ a.rival.initials }}{% endif %}</span><span><b>{{ a.rival.name }}</b><span class="k">{{ a.rival.school }}</span></span></a></div>{% endif %}
     </div>

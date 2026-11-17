@@ -1,0 +1,8 @@
+{# Hometown paper bylines and anchor asides (mac/press.py). st = a game story or preview from gamer/preview_story. #}
+{% macro press_by(st, published_html) -%}
+<div class="sub">By {% if st.lead and st.lead.name %}{% if st.lead.href %}<a href="../{{ site_up }}anchors/{{ st.lead.key }}.html">{{ st.lead.name }}</a>{% else %}{{ st.lead.name }}{% endif %}{% if st.lead.paper %}, <i>{{ st.lead.paper }}</i>{% endif %}{% elif st.lead and st.lead.paper %}<i>{{ st.lead.paper }}</i>{% else %}{{ st.byline }}{% endif %} · {{ published_html }}</div>
+{%- endmacro %}
+{% macro press_asides(st) -%}
+{% for a in st.asides %}<p class="aside"><span class="aside-by">{{ a.name or a.paper }}{% if a.name and a.paper %} · {{ a.paper }}{% endif %}</span>{{ a.text }}</p>
+{% endfor %}{% if st.asides or (st.lead and st.lead.name) %}<p class="aside-note">{% if st.lead and st.lead.name %}{{ st.lead.name }} is a fictional AI anchor, as are all our anchors, and none is affiliated with any school.{% else %}Our anchors are fictional AI personas, not affiliated with any school.{% endif %}{% if st.asides %} The signed asides are their opinions; the facts come from {{ st.staff }}.{% endif %}</p>{% endif %}
+{%- endmacro %}
