@@ -154,7 +154,12 @@ def norm(s: str) -> str:
 
 def query(q: str) -> list[dict[str, str]]:
     for attempt in range(4):
-        r = requests.post(SPARQL, data={"query": q}, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=180)
+        try:
+            r = requests.post(SPARQL, data={"query": q}, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=180)
+        except requests.RequestException as e:  # e.g. the stream ends early ("Response ended prematurely")
+            print("wikidata: request failed,", e)
+            time.sleep(10 * (attempt + 1))
+            continue
         if r.status_code == 200:
             try:
                 return [{k: v["value"] for k, v in b.items()} for b in r.json()["results"]["bindings"]]
