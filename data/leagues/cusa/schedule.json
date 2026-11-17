@@ -1541,21 +1541,21 @@
     "key": null,
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": 56,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
    "away": {
     "espn_id": "98",
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": 55,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:08 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917964",
@@ -1582,7 +1582,7 @@
     "key": "missouri-state",
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": 31,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -1590,13 +1590,13 @@
     "key": null,
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": 28,
+    "score": 34,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:04 - 2nd"
+   "detail": "11:09 - 2nd"
   },
   {
    "game_id": "401920904",
@@ -8806,5 +8806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T02:11:41+00:00"
+ "live_at": "2026-11-17T02:39:14+00:00"
 }
