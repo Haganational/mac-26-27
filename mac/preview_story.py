@@ -161,7 +161,7 @@ def write(g: dict[str, Any], standings: list[dict[str, Any]] | None = None,
     hk, ak = home.get("key"), away.get("key")
     teams = flavor.get("teams", {})
     towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
-    asides = press.preview_aside(hk, ak, {"home": hn, "away": an}, towns, str(g.get("game_id")))
+    asides = press.preview_aside(hk, ak, {"home": hn, "away": an}, towns, str(g.get("game_id")), before=g.get("date"))
     return {"headline": headline, "paragraphs": paras, "flavor": flv,
             "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides}
 

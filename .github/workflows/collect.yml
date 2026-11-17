@@ -107,6 +107,9 @@ jobs:
           ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
           ALERT_TO: ${{ vars.ALERT_TO }}
         run: python -m mac.collect social
+      - name: Anchor notebooks (data/notebooks/<key>.md, one growing file per anchor)
+        continue-on-error: true
+        run: python -m mac.notebook
       - name: Commit new data
         run: |
           git config user.name "mac-collector"

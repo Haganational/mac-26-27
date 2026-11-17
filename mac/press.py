@@ -10,8 +10,10 @@ papers.json   {"papers": {key: {"title", "town", "state", "status", "existing": 
 anchor_leans  {"settings": {"aside_rate", "rejoinder_rate"}, "leans": {key: {"homer", "lean", "pet", "rival",
                "asides": {"win", "loss", "road_win", "road_loss", "rival_win", "rival_loss", "upset", "preview"}}}}
 
-Asides may use {us}, {them}, {town}, {margin} and {rival}. They target anchors, towns and teams, never real
-people. Anchors are fictional AI personas, and every page that shows one says so.
+Asides may use {us}, {them}, {town}, {margin} and {rival}. They target anchors, towns and teams, and (Matthew,
+Nov 17 2026) the Trump administration, its officials and fascist groups, for their public conduct; never
+players, coaches, students, fans or other private people, and never a made-up quote. The house stance is
+logic and empathy, not power and cruelty. Anchors are fictional AI personas, and every page that shows one says so.
 """
 from __future__ import annotations
 
@@ -85,13 +87,18 @@ def _roll(seed: str) -> float:
 
 
 def aside(key: str | None, situation: str, seed: str, fill: dict[str, Any], rate: float | None = None,
-          avoid: tuple[str, ...] = ()) -> dict[str, str] | None:
+          avoid: tuple[str, ...] = (), before: str | None = None) -> dict[str, str] | None:
     """One of the anchor's lines for this situation, or None (no lean, no line, or this story isn't one
-    the anchor editorializes: `rate` of stories get one, picked by the seed so a page never flips)."""
+    the anchor editorializes: `rate` of stories get one, picked by the seed so a page never flips).
+    before = the game's tip time: the anchor's barometer going into it (mac/notebook.py) raises the rate
+    when the team is on a tear or in a slump. It is worked out as of the tip, so the page still never flips."""
     ln = leans().get(key or "")
     if not ln:
         return None
     rate = settings()["aside_rate"] if rate is None else rate
+    if before:
+        from . import notebook
+        rate = min(1.0, rate * notebook.mood_rate(key, before))
     if _roll(seed + "|gate") >= rate:
         return None
     pool = [s for s in (ln.get("asides") or {}).get(situation, []) if isinstance(s, str) and s.strip()
@@ -131,7 +138,8 @@ def game_situation(us_won: bool, at_home: bool, rival_game: bool, underdog: bool
 
 
 def game_asides(home_key: str | None, away_key: str | None, home_won: bool, home_spread: float | None,
-                names: dict[str, str], towns: dict[str, str], margin: int, seed: str, neutral: bool = False) -> list[dict[str, str]]:
+                names: dict[str, str], towns: dict[str, str], margin: int, seed: str, neutral: bool = False,
+                before: str | None = None) -> list[dict[str, str]]:
     """The lead (home) anchor's aside on a finished game, then sometimes the visiting anchor's rejoinder."""
     out = []
     rv = bool(home_key and away_key and (rival(home_key) == away_key or rival(away_key) == home_key))
@@ -144,13 +152,14 @@ def game_asides(home_key: str | None, away_key: str | None, home_won: bool, home
         sit = game_situation(won, at_home, rv, dog)
         fill = {"us": names.get(us, ""), "them": names.get(them, ""), "town": towns.get(k, ""),
                 "margin": margin, "rival": _school(rival(k))}
-        a = aside(k, sit, f"{seed}|{k}", fill, rate)
+        a = aside(k, sit, f"{seed}|{k}", fill, rate, before=before)
         if a:
             out.append(a)
     return out
 
 
-def preview_aside(home_key: str | None, away_key: str | None, names: dict[str, str], towns: dict[str, str], seed: str) -> list[dict[str, str]]:
+def preview_aside(home_key: str | None, away_key: str | None, names: dict[str, str], towns: dict[str, str], seed: str,
+                  before: str | None = None) -> list[dict[str, str]]:
     out = []
     for k, us, them, rate in ((home_key, "home", "away", None), (away_key, "away", "home", settings()["rejoinder_rate"] if home_key in leans() else None)):
         if not k:
@@ -158,7 +167,7 @@ def preview_aside(home_key: str | None, away_key: str | None, names: dict[str, s
         fill = {"us": names.get(us, ""), "them": names.get(them, ""), "town": towns.get(k, ""), "margin": "",
                 "rival": _school(rival(k))}
         # the visitors' anchor isn't in their own town for this one, so skip their lines that name it
-        a = aside(k, "preview", f"{seed}|pre|{k}", fill, rate, avoid=("town",) if k == away_key else ())
+        a = aside(k, "preview", f"{seed}|pre|{k}", fill, rate, avoid=("town",) if k == away_key else (), before=before)
         if a:
             out.append(a)
     return out

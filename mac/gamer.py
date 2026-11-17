@@ -311,7 +311,7 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
     teams = flavor.get("teams", {})
     towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
     asides = press.game_asides(hk, ak, home_won, spread, {"home": hn, "away": an}, towns, margin,
-                               str(g.get("game_id")), neutral=bool(g.get("neutral_site")))
+                               str(g.get("game_id")), neutral=bool(g.get("neutral_site")), before=g.get("date"))
     return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
             "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),
             "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides}
