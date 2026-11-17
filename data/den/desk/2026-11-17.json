@@ -2,29 +2,29 @@
  "date": "2026-11-17",
  "desk": {
   "anchor": {
-   "alt": "Gary Mercer, the Bowling Green AI anchor",
-   "color": "#FE5000",
-   "color2": "#4F2C1D",
-   "initials": "GM",
+   "alt": "Magnus Lindstrom, the Northern Iowa AI anchor",
+   "color": "#4B116F",
+   "color2": "#FFCC00",
+   "initials": "ML",
    "ink": "#ffffff",
-   "key": "bowling-green",
-   "name": "Gary Mercer",
-   "portrait": "den/anchors/bowling-green.webp",
-   "school": "Bowling Green",
+   "key": "northern-iowa",
+   "name": "Magnus Lindstrom",
+   "portrait": "den/anchors/northern-iowa.webp",
+   "school": "Northern Iowa",
    "tag": "AI anchor"
   },
-  "max": 171,
+  "max": 127,
   "picks": [
    {
-    "abbr": "BGSU",
-    "game_id": "401911018",
+    "abbr": "UNI",
+    "game_id": "401927388",
     "kind": "homer",
-    "short": "Bowling Green",
-    "side": "away",
-    "team_id": "189",
-    "tip": "2026-11-18T00:00Z",
+    "short": "Northern Iowa",
+    "side": "home",
+    "team_id": "2460",
+    "tip": "2026-11-18T01:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 56
+    "worth": 14
    },
    {
     "abbr": "DAY",
@@ -45,8 +45,8 @@
     "side": "home",
     "team_id": "2697",
     "tip": "2026-11-18T00:00Z",
-    "why": "Our ratings 61%, pregame win chance 33%.",
-    "worth": 67
+    "why": "Our ratings 61%, pregame win chance 34%.",
+    "worth": 66
    },
    {
     "abbr": "UML",
@@ -56,8 +56,8 @@
     "side": "home",
     "team_id": "2349",
     "tip": "2026-11-17T23:00Z",
-    "why": "Our ratings 89%, pregame win chance 69%.",
-    "worth": 31
+    "why": "Our ratings 89%, pregame win chance 70%.",
+    "worth": 30
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -121,7 +121,7 @@
    "team_id": "2612",
    "tip": "2026-11-17T23:00Z",
    "why": "Homer pick.",
-   "worth": 69
+   "worth": 70
   },
   {
    "abbr": "LIP",
@@ -256,6 +256,18 @@
    "worth": 16
   },
   {
+   "abbr": "JOES",
+   "game_id": "401920194",
+   "key": "saint-josephs",
+   "kind": "homer",
+   "short": "Saint Joseph's",
+   "side": "home",
+   "team_id": "2603",
+   "tip": "2026-11-18T00:00Z",
+   "why": "Homer pick.",
+   "worth": 9
+  },
+  {
    "abbr": "CSUN",
    "game_id": "401920297",
    "key": "csun",
@@ -265,7 +277,7 @@
    "team_id": "2463",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 56
+   "worth": 57
   },
   {
    "abbr": "MSM",
@@ -277,7 +289,7 @@
    "team_id": "116",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 48
   },
   {
    "abbr": "RID",
@@ -301,7 +313,7 @@
    "team_id": "2697",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 67
+   "worth": 66
   },
   {
    "abbr": "GB",
@@ -313,7 +325,7 @@
    "team_id": "2739",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 33
+   "worth": 34
   },
   {
    "abbr": "AKR",
@@ -325,7 +337,7 @@
    "team_id": "2006",
    "tip": "2026-11-18T00:00Z",
    "why": "Homer pick.",
-   "worth": 12
+   "worth": 13
   },
   {
    "abbr": "DAV",
@@ -397,7 +409,7 @@
    "team_id": "2460",
    "tip": "2026-11-18T01:00Z",
    "why": "Homer pick.",
-   "worth": 13
+   "worth": 14
   },
   {
    "abbr": "WYO",
