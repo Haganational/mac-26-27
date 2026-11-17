@@ -1808,21 +1808,21 @@
     "key": null,
     "name": "Minnesota Golden Gophers",
     "abbr": "MINN",
-    "score": 88,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2710",
     "key": "western-illinois",
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": 55,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918994",
@@ -8224,5 +8224,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T02:42:19+00:00"
+ "live_at": "2026-11-17T03:14:55+00:00"
 }

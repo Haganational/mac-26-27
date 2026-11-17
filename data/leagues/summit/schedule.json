@@ -1769,21 +1769,21 @@
     "key": "south-dakota-state",
     "name": "South Dakota State Jackrabbits",
     "abbr": "SDST",
-    "score": 80,
-    "winner": null
+    "score": 107,
+    "winner": true
    },
    "away": {
     "espn_id": "561",
     "key": null,
     "name": "Mayville State Comets",
     "abbr": "MYSU",
-    "score": 51,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921006",
@@ -7719,5 +7719,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T02:41:09+00:00"
+ "live_at": "2026-11-17T03:13:48+00:00"
 }

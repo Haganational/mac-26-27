@@ -1816,7 +1816,7 @@
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1824,13 +1824,13 @@
     "key": null,
     "name": "Colorado Colorado Springs Mountain Lions",
     "abbr": "UCCS",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:27 - 1st"
   },
   {
    "game_id": "401917532",
@@ -1860,7 +1860,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -1868,13 +1868,13 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:38 - 1st"
   },
   {
    "game_id": "401917534",
@@ -9427,5 +9427,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T03:09:16+00:00"
 }

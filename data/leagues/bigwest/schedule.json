@@ -1811,7 +1811,7 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1819,13 +1819,13 @@
     "key": null,
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:52 - 1st"
   },
   {
    "game_id": "401920297",
@@ -9807,5 +9807,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T03:07:17+00:00"
 }
