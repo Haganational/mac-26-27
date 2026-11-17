@@ -1,0 +1,1010 @@
+{
+ "_help": "Ivy League local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "brown": {
+   "town": "Providence",
+   "home_floor": "the Pizzitola Sports Center",
+   "home_lines": [
+    {
+     "text": "Brown's Pizzitola Sports Center opened in February 1989 at a cost of $7.6 million, replacing Marvel Gymnasium, which stood next to Brown Stadium.",
+     "source": "https://en.wikipedia.org/wiki/Pizzitola_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Pizzitola Sports Center is named for Paul Bailey Pizzitola of Brown's class of 1981, whose father gave $2 million toward its construction.",
+     "source": "https://en.wikipedia.org/wiki/Pizzitola_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Brown students call the Pizzitola Sports Center 'the Pitz,' and the 2,800-seat building also houses Brown volleyball, gymnastics, wrestling and squash.",
+     "source": "https://en.wikipedia.org/wiki/Pizzitola_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The lobby of Brown's Pizzitola Sports Center honors John Heisman, and a 'TICKETS' sign salvaged from old Marvel Gymnasium is installed at the ticket window.",
+     "source": "https://en.wikipedia.org/wiki/Pizzitola_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Providence was settled in June 1636 by Roger Williams, who named the place in honor of 'God's merciful Providence.'",
+     "source": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1772 a group from Providence burned the British customs schooner Gaspee south of the city, more than a year before the Boston Tea Party.",
+     "source": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Providence grew on textiles and then on machine tools, jewelry and silverware, and in the 1960s trade magazines called the city 'the jewelry capital of the world.'",
+     "source": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The dome of the Rhode Island State House in Providence is the fourth-largest self-supporting marble dome in the world.",
+     "source": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Providence Athenaeum, on Benefit Street on Brown's home turf of College Hill, is the fourth-oldest library in America.",
+     "source": "https://en.wikipedia.org/wiki/College_Hill,_Providence,_Rhode_Island",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Brown was founded on September 15, 1764, as Rhode Island College at the site of the First Baptist Church in Warren, and moved to Providence in 1770.",
+     "source": "https://en.wikipedia.org/wiki/Brown_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Rhode Island College offered its naming rights for a $5,000 gift in 1803, and Nicholas Brown Jr. answered the appeal the following year, giving Brown University its name.",
+     "source": "https://en.wikipedia.org/wiki/Brown_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "At Brown the central Van Wickle Gate opens inward for new students at Convocation and outward for graduates at Commencement; a superstition holds that passing through it a second time too early means not graduating.",
+     "source": "https://en.wikipedia.org/wiki/Brown_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Brown played in the inaugural NCAA tournament in 1939, losing 42-30 to Villanova in the quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Brown_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brown won the Ivy League regular-season title in 1986 and returned to the NCAA tournament, where Syracuse beat the Bears 101-52 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Brown_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brown's only appearance in the NIT came in 2003, when the Bears lost 89-73 to Virginia in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Brown_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brown beat UAB 83-78 in the 2019 College Basketball Invitational before falling 83-61 to Loyola Marymount in the next round.",
+     "source": "https://en.wikipedia.org/wiki/Brown_Bears_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Eric Reveno is Brown's men's basketball head coach for the 2026-27 season, according to the Brown athletics website.",
+     "source": "https://brownbears.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Charles Evans Hughes graduated from Brown third in his class at 19 and later served as governor of New York, secretary of state and chief justice.",
+     "source": "https://en.wikipedia.org/wiki/Charles_Evans_Hughes",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Janet Yellen graduated summa cum laude from Brown in 1967 and became the first woman to chair the Federal Reserve and the first woman to lead the Treasury.",
+     "source": "https://en.wikipedia.org/wiki/Janet_Yellen",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "columbia": {
+   "town": "Morningside Heights",
+   "home_floor": "Levien Gymnasium",
+   "home_lines": [
+    {
+     "text": "Columbia's Levien Gymnasium was completed on December 7, 1974, after construction began on August 1, 1972, as part of the Marcellus Hartley Dodge Physical Fitness Center.",
+     "source": "https://en.wikipedia.org/wiki/Levien_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Levien Gymnasium at Columbia is named for Francis S. Levien, a New York lawyer and industrialist who lived from 1905 to 1995.",
+     "source": "https://en.wikipedia.org/wiki/Levien_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The playing court inside Columbia's Levien Gymnasium is named for Jonathan D. Schiller, a former Columbia basketball player and university trustee.",
+     "source": "https://en.wikipedia.org/wiki/Levien_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Columbia's Levien Gymnasium hosted the 2016 CollegeInsider.com Postseason Tournament championship game and both the men's and women's 2024 Ivy League basketball tournaments.",
+     "source": "https://en.wikipedia.org/wiki/Levien_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The Battle of Harlem Heights was fought in Morningside Heights on September 16, 1776, and a plaque by the Columbia gate at 117th Street and Broadway marks it.",
+     "source": "https://en.wikipedia.org/wiki/Morningside_Heights,_Manhattan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before Columbia arrived, Morningside Heights was home to the Bloomingdale Insane Asylum, which opened in 1821 and moved to suburban Westchester County in 1888.",
+     "source": "https://en.wikipedia.org/wiki/Morningside_Heights,_Manhattan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Projects including a cathedral, St. Luke's Hospital and the Woman's Hospital led to Morningside Heights, the Manhattan neighborhood around Columbia, being known as an 'Academic Acropolis.'",
+     "source": "https://en.wikipedia.org/wiki/Morningside_Heights,_Manhattan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Tom's Restaurant, on Broadway at 112th Street in Morningside Heights, was featured in the 1980s song 'Tom's Diner' and stood in for the diner on Seinfeld.",
+     "source": "https://en.wikipedia.org/wiki/Morningside_Heights,_Manhattan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Grant's Tomb, the mausoleum of President Ulysses S. Grant, sits in the middle of Riverside Drive at 122nd Street in Morningside Heights.",
+     "source": "https://en.wikipedia.org/wiki/Morningside_Heights,_Manhattan",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Columbia was founded on October 31, 1754, as King's College by royal charter of George II, and the state legislature renamed it Columbia College in 1784.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Columbia moved to Morningside Heights in 1896 under president Seth Low, leaving 49th Street and Madison Avenue and taking the name Columbia University.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Daniel Chester French's Alma Mater statue sits on the steps of Low Memorial Library, the centerpiece of the Columbia campus and a National Historic Landmark.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Helms Athletic Foundation listed Columbia as national champions for 1904, 1905 and 1910, unofficial selections the NCAA does not recognize as titles.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Columbia reached the NCAA tournament in 1948 and lost 76-53 to Kentucky in the regional semifinal before falling to Michigan in the third-place game.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Columbia's 1968 NCAA tournament team beat La Salle 83-69, lost 61-59 to Davidson in the regional semifinal and beat St. Bonaventure 95-75 for third place.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Columbia won the CollegeInsider.com Postseason Tournament in 2016, two years after an earlier appearance in the same event in 2014.",
+     "source": "https://en.wikipedia.org/wiki/Columbia_Lions_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jim McMillian led Columbia to a 63-14 record from 1967 to 1970, was a three-time All-American and later won the 1972 NBA title with the Lakers.",
+     "source": "https://en.wikipedia.org/wiki/Jim_McMillian",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Barack Obama transferred to Columbia as a junior in 1981, lived off campus on West 109th Street and earned his bachelor's degree in 1983.",
+     "source": "https://en.wikipedia.org/wiki/Barack_Obama",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "cornell": {
+   "town": "Ithaca",
+   "home_floor": "Newman Arena",
+   "home_lines": [
+    {
+     "text": "Newman Arena opened in January 1990 inside Bartels Hall, the Cornell building that stands next to Lynah Rink on the Ithaca campus.",
+     "source": "https://en.wikipedia.org/wiki/Newman_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Cornell's Newman Arena is named for the late Floyd R. Newman, a member of the Class of 1912 and a major benefactor to the university.",
+     "source": "https://en.wikipedia.org/wiki/Newman_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Newman Arena replaced Barton Hall as Cornell's basketball home in Ithaca, and Barton Hall was remodeled to become a full-time indoor track venue for the university.",
+     "source": "https://en.wikipedia.org/wiki/Newman_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Ithaca sits on the southern shore of Cayuga Lake in the Finger Lakes region, and its streams carved the gorges, rapids and waterfalls the area is known for.",
+     "source": "https://en.wikipedia.org/wiki/Ithaca,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ithaca takes its name from the Greek island home of Ulysses, a name chosen by surveyor Simeon De Witt or his clerk, Robert Harpur.",
+     "source": "https://en.wikipedia.org/wiki/Ithaca,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ithaca claims the ice cream sundae, first served in 1892 by fountain shop owner Chester Platt, though Two Rivers, Wisconsin, has long disputed the claim.",
+     "source": "https://en.wikipedia.org/wiki/Ithaca,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Moosewood Restaurant in Ithaca was founded as a collective in 1973 and went on to publish a number of vegetarian cookbooks.",
+     "source": "https://en.wikipedia.org/wiki/Ithaca,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the early 20th century Ithaca was an important center of the silent film industry, until production centralized in Hollywood and work in Ithaca effectively ceased.",
+     "source": "https://en.wikipedia.org/wiki/Ithaca,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cornell University was founded on April 27, 1865, by Ezra Cornell and Andrew Dickson White, both New York state senators at the time.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cornell's unofficial mascot in Ithaca is a bear, a tradition dating to Touchdown, a live bear introduced in 1915.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cornell's Dragon Day, founded in 1901 and held near St. Patrick's Day, has first-year architecture students build a dragon and parade it around central campus.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Cornell played its first basketball game on December 13, 1898, a 48-12 victory over the Waverly YMCA, and finished that short season 1-3.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_Big_Red_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "From February 16, 1919, Cornell basketball played its home games in Barton Hall, which was first known simply as the New Armory.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_Big_Red_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 2010 NCAA tournament, 12th-seeded Cornell beat Temple 78-65 and Wisconsin 87-69 before losing to top-seeded Kentucky 62-45 in the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_Big_Red_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cornell's 78-65 win over Temple in 2010 was the first NCAA tournament victory in the history of the Big Red men's basketball program.",
+     "source": "https://en.wikipedia.org/wiki/Cornell_Big_Red_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jon Jaques, a Cornell graduate of the Class of 2010, is the Robert E. Gallagher '44 Head Coach of Men's Basketball at Cornell.",
+     "source": "https://cornellbigred.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Janet Reno enrolled at Cornell in 1956 and majored in chemistry, and in 1993 she became the first woman to serve as U.S. Attorney General.",
+     "source": "https://en.wikipedia.org/wiki/Janet_Reno",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "dartmouth": {
+   "town": "Hanover",
+   "home_floor": "Leede Arena",
+   "home_lines": [
+    {
+     "text": "Leede Arena, a 2,100-seat venue in Hanover, was dedicated on May 22, 1987, and has been home to Dartmouth's men's and women's basketball teams since.",
+     "source": "https://en.wikipedia.org/wiki/Leede_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth's Leede Arena honors Edward Leede, a 1949 graduate who was one of the school's leading basketball scorers.",
+     "source": "https://en.wikipedia.org/wiki/Leede_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Leede Arena sits inside the John W. Berry Sports Center in Hanover and was built to replace the old Alumni Gym next door.",
+     "source": "https://en.wikipedia.org/wiki/Leede_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Leede Arena in Hanover hosts the nation's longest-running women's basketball tournament and staged its 34th edition, the Blue Sky Classic, in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Leede_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Hanover was chartered by Governor Benning Wentworth on July 4, 1761, and its first European settlers, mostly from Connecticut, arrived in 1765 and 1766.",
+     "source": "https://en.wikipedia.org/wiki/Hanover,_New_Hampshire",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hanover lies along the Connecticut River in Grafton County, New Hampshire, and the Appalachian Trail crosses the town on its way north.",
+     "source": "https://en.wikipedia.org/wiki/Hanover,_New_Hampshire",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In the 1780s Dresden, the southwest corner of Hanover around the Plain, briefly defected to the Vermont Republic before returning to New Hampshire at George Washington's heated insistence.",
+     "source": "https://en.wikipedia.org/wiki/Hanover,_New_Hampshire",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hanover and Norwich, Vermont, share the Dresden School District, the first and one of the few interstate school districts in the nation.",
+     "source": "https://en.wikipedia.org/wiki/Hanover,_New_Hampshire",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1939 film Winter Carnival was shot in Hanover, the New Hampshire town that has been home to Dartmouth College since 1769.",
+     "source": "https://en.wikipedia.org/wiki/Hanover,_New_Hampshire",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth was established by a royal charter issued on December 13, 1769, in the name of King George III, with Eleazar Wheelock as its founder.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth's Big Green nickname dates to the 1860s, after students adopted Dartmouth Green as the college's official color in 1866.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth's Winter Carnival was started in 1911 by the Dartmouth Outing Club to promote winter sports in Hanover.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_College",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth reached the NCAA championship game in 1942 and lost to Stanford 53-38, the first of two title-game appearances for the Big Green.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_Big_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth returned to the NCAA championship game in 1944 and lost to Utah 42-40 in overtime.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_Big_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Dartmouth made seven NCAA tournament appearances between 1941 and 1959, and the Big Green have an overall tournament record of 10-7.",
+     "source": "https://en.wikipedia.org/wiki/Dartmouth_Big_Green_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brett MacConnell is Dartmouth's men's basketball head coach, hired in 2026 after spending the 2025-26 season as an assistant coach at Stanford.",
+     "source": "https://dartmouthsports.com/sports/mens-basketball/roster/coaches/brett-macconnell/10639",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Daniel Webster graduated from Dartmouth in 1801 and later argued the college's side in Dartmouth College v. Woodward, where the Marshall Court ruled for Dartmouth against the New Hampshire legislature.",
+     "source": "https://en.wikipedia.org/wiki/Daniel_Webster",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "harvard": {
+   "town": "Cambridge",
+   "home_floor": "Lavietes Pavilion",
+   "home_lines": [
+    {
+     "text": "Harvard's Lavietes Pavilion opened in 1926 and was originally the Briggs Athletic Center, named for LeBaron Russell Briggs, a Harvard College dean who also served as NCAA president.",
+     "source": "https://en.wikipedia.org/wiki/Lavietes_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before Harvard basketball moved in, the Briggs building in Allston held an indoor track and batting cages that drew local baseball players, Ted Williams among them.",
+     "source": "https://en.wikipedia.org/wiki/Lavietes_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Harvard's men played their first game at what is now Lavietes Pavilion in November 1982, against neighbor and rival MIT, a day after the women's opener against Chicago.",
+     "source": "https://en.wikipedia.org/wiki/Lavietes_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In March 1996 Harvard rededicated its Allston gym to Ray Lavietes '36, a two-time basketball letterman whose $2.1 million gift funded a refurbishment.",
+     "source": "https://en.wikipedia.org/wiki/Lavietes_Pavilion",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "With 1,636 seats, Harvard's Lavietes Pavilion is the smallest basketball arena in the Ivy League and the second-oldest college basketball arena still in use, behind Fordham's Rose Hill Gymnasium.",
+     "source": "https://en.wikipedia.org/wiki/Lavietes_Pavilion",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cambridge was founded in December 1630 as Newtowne, and the settlement was later renamed Cambridge in honor of the University of Cambridge in England.",
+     "source": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "George Washington arrived in Cambridge in July 1775 and took command of the Patriot soldiers camped on Cambridge Common.",
+     "source": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cambridge was home to more than 250 biotech companies in 2022, with over 120 of them in the Kendall Square ZIP code alone.",
+     "source": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Allston, the Boston neighborhood that is home to Harvard's Lavietes Pavilion and is bordered by the Charles River, is named for the American painter and poet Washington Allston.",
+     "source": "https://en.wikipedia.org/wiki/Allston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Allston was long a rail and livestock district, with a major Boston and Albany Railroad yard and stockyards and an abattoir nearby in northern Brighton.",
+     "source": "https://en.wikipedia.org/wiki/Allston",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Harvard was founded in 1636 by a vote of the Great and General Court of the Massachusetts Bay Colony and is the oldest institution of higher learning in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Harvard College took its name in 1639 from the clergyman John Harvard, who bequeathed the young school 780 pounds and a library of some 320 volumes.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Harvard students debuted the Harvard Turkey as the school's first unofficial mascot at the 2022 Harvard-Yale football game.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Harvard reached the 1946 NCAA tournament and lost 46-38 to Ohio State, and the Crimson then went 66 years before returning to the field in 2012.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Harvard's share of the 2010-11 Ivy League title was the program's first men's basketball Ivy championship since the league formed in the 1956-57 season.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 2014 NCAA tournament Harvard upset fifth-seeded Cincinnati 61-57 before falling to fourth-seeded Michigan State 80-73 in the round of 32.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Tommy Amaker was named Harvard's men's basketball coach on April 11, 2007, and in January 2009 his team beat Boston College for the program's first win over a ranked opponent.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Harvard's Ivy rivalry with Yale reached a pitch in 2015, when the Crimson beat the Bulldogs 53-51 in a playoff at the Palestra for the NCAA bid.",
+     "source": "https://en.wikipedia.org/wiki/Harvard_Crimson_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Tommy Amaker, Harvard's men's basketball head coach, enters his 20th season in Cambridge in 2026-27, with home games again at Lavietes Pavilion.",
+     "source": "https://gocrimson.com/news/2026/8/21/mens-basketball-mens-basketball-reveals-2026-27-schedule.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jeremy Lin earned an economics degree from Harvard in 2010 as a unanimous first-team All-Ivy pick and later became the first Asian American player to win an NBA championship.",
+     "source": "https://en.wikipedia.org/wiki/Jeremy_Lin",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "penn": {
+   "town": "Philadelphia",
+   "home_floor": "the Palestra",
+   "home_lines": [
+    {
+     "text": "Penn's Palestra opened on January 1, 1927, seating about 10,000 at first, and now holds 8,725 for basketball in Philadelphia.",
+     "source": "https://en.wikipedia.org/wiki/The_Palestra",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Palestra was designed by Charles Klauder and named by Penn Greek professor William N. Bates for the palaestra, an ancient enclosure where athletes competed before spectators.",
+     "source": "https://en.wikipedia.org/wiki/The_Palestra",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Penn's Palestra, called the Cathedral of College Basketball, has hosted more games, more visiting teams and more NCAA tournaments than any other facility in college basketball.",
+     "source": "https://en.wikipedia.org/wiki/The_Palestra",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Philadelphia's Big 5 originally played all of its games at Penn's Palestra, which also hosted the inaugural Ivy League men's and women's tournaments in 2017.",
+     "source": "https://en.wikipedia.org/wiki/The_Palestra",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Palestra was set as the site of the 2027 Ivy League Tournament, on March 12 and 13, in celebration of the Philadelphia arena's 100th anniversary.",
+     "source": "https://pennathletics.com/news/2026/8/4/mens-basketball-announces-ivy-league-slate-ahead-of-palestras-100th-anniversary.aspx",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "The name University City was coined in the mid-1950s by two realtors who were Penn graduates, hoping to draw Penn faculty back to the neighborhoods near the Penn campus.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Much of the University City area colloquially known as the Black Bottom, around Greenville, was destroyed under a 1960s gentrification plan in West Philadelphia.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "University City sits directly across the Schuylkill River from Center City Philadelphia and holds 30th Street Station, one of the nation's busiest passenger train stations.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Andrew Hamilton bought land in 1735, and the area that is now part of Philadelphia's University City came to be known as Hamilton Village.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Woodlands estate in University City once held a sprawling botanical garden and mansion, and its gardens in West Philadelphia are now the Woodlands Cemetery.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Pennsylvania officially dates its founding to 1740, a date its trustees adopted in 1899, though Penn's archivist has cited other possible founding years.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Pennsylvania",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Penn's medical school, opened in 1765, is described as the first medical school in America, and Penn's Latin motto translates as 'Laws without morals are useless.'",
+     "source": "https://en.wikipedia.org/wiki/University_of_Pennsylvania",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Penn Relays have been held at Franklin Field since 1895 and are the oldest and largest track-and-field competition in the United States.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Pennsylvania",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Helms Athletic Foundation retroactively named Penn the national champion for 1919-20 and 1920-21, titles the NCAA does not officially recognize.",
+     "source": "https://en.wikipedia.org/wiki/Penn_Quakers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Led by Tony Price, Penn reached the 1979 Final Four in Salt Lake City by beating Iona, North Carolina, Syracuse and St. John's.",
+     "source": "https://en.wikipedia.org/wiki/Penn_Quakers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Penn lost the 1979 national semifinal 101-67 to a Michigan State team featuring Earvin 'Magic' Johnson, then fell 96-93 to DePaul in the third-place game.",
+     "source": "https://en.wikipedia.org/wiki/Penn_Quakers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Penn's 1979 team remains the last Ivy League team to reach the Final Four and the Elite Eight, and the Quakers are members of Philadelphia's Big 5.",
+     "source": "https://en.wikipedia.org/wiki/Penn_Quakers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Penn's main Ivy League basketball rival is Princeton, and the two schools used to always meet in the last game of the regular season.",
+     "source": "https://en.wikipedia.org/wiki/Penn_Quakers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Fran McCaffery leads Penn into the 2026-27 season and announced the Quakers' Ivy League schedule in August 2026, ahead of the Palestra's 100th anniversary.",
+     "source": "https://pennathletics.com/news/2026/8/4/mens-basketball-announces-ivy-league-slate-ahead-of-palestras-100th-anniversary.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "princeton": {
+   "town": "Princeton",
+   "home_floor": "Jadwin Gymnasium",
+   "home_lines": [
+    {
+     "text": "Princeton's Jadwin Gymnasium hosted the Tigers for the first time on January 25, 1969, and has been their home court ever since.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_Tigers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Jadwin Gymnasium in Princeton was designed by Walker O. Cain and is known for a roof made of three interlocking shells.",
+     "source": "https://en.wikipedia.org/wiki/Jadwin_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Princeton's Jadwin Gymnasium is named for Leander Stockwell Jadwin, class of 1928, a track captain who died months after graduating; the university put $6.5 million of his mother's $27 million gift toward it.",
+     "source": "https://en.wikipedia.org/wiki/Jadwin_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Jadwin Gymnasium holds 250,000 square feet of floor space on five levels and hosted first-round NCAA men's basketball tournament games in Princeton in 1970 and 1972.",
+     "source": "https://en.wikipedia.org/wiki/Jadwin_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Henry Greenland, who built a house in 1683, was the first European to make his home within the bounds of present-day Princeton, where the Lenape were the earliest identifiable inhabitants.",
+     "source": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The name Princeton first appeared in 1724 and is said to honor Prince William of Orange, though no documentary evidence confirms the story.",
+     "source": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "General Hugh Mercer was mortally wounded at the Battle of Princeton on January 3, 1777, a pivotal victory for George Washington.",
+     "source": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Princeton's separate borough and township merged after a 2011 vote, with the consolidation taking effect on January 1, 2013.",
+     "source": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Albert Einstein, the physicist who lived from 1879 to 1955, was a fellow at the Institute for Advanced Study in Princeton, New Jersey.",
+     "source": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Princeton University was founded in 1746 in Elizabeth as the College of New Jersey, moved to Newark, and settled in Princeton in 1756.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Princeton's Nassau Hall served as the seat of the Congress of the Confederation from June 30 to November 4, 1783, making it the capitol of the United States.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Two bronze tigers have flanked the front entrance of Princeton's Nassau Hall since 1911, standing watch for the school's Tigers.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Princeton reached the 1965 Final Four, and Bill Bradley was named the tournament's Most Outstanding Player as the Tigers finished third.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Pete Carril coached Princeton from 1967 to 1996, going 514-261 and winning or sharing 13 Ivy League championships with the Princeton offense.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Carril",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In 1996 Princeton beat defending national champion UCLA 43-41 in the first round of the NCAA tournament, Pete Carril's final college victory.",
+     "source": "https://en.wikipedia.org/wiki/Pete_Carril",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 15th seed in 2023, Princeton beat Arizona 59-55 and Missouri 78-63 to reach the Sweet 16, where Creighton won 86-75.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Princeton's 16th-seeded team lost 50-49 to Georgetown in the first round of the 1989 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Princeton_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Mitch Henderson enters his 15th season as Princeton's men's basketball head coach in 2026-27, according to the Princeton athletics website.",
+     "source": "https://goprincetontigers.com/news/2026/7/27/mens-basketball-mens-basketball-2026-27-season-tickets-on-sale-now",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Bill Bradley scored 2,503 points at Princeton, won NBA titles with the Knicks in 1970 and 1973, and served New Jersey as a U.S. senator from 1979 to 1997.",
+     "source": "https://en.wikipedia.org/wiki/Bill_Bradley",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "yale": {
+   "town": "New Haven",
+   "home_floor": "John J. Lee Amphitheater",
+   "home_lines": [
+    {
+     "text": "Yale plays in John J. Lee Amphitheater inside Payne Whitney Gymnasium, which opened in New Haven in 1932 to a design by John Russell Pope.",
+     "source": "https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Yale's Payne Whitney Gymnasium, known as the cathedral of sweat for its Gothic Revival style, is called the second-largest gym in the world by cubic feet.",
+     "source": "https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "John Hay Whitney gave Yale its New Haven gymnasium in honor of his father, Payne Whitney, and the building rises to a nine-story tower.",
+     "source": "https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Yale's 2,532-seat basketball arena was named in 1996 for John J. Lee, a former Yale basketball star and benefactor of the university.",
+     "source": "https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "New Haven was founded in 1638 when about 500 Puritans led by Reverend John Davenport and merchant Theophilus Eaton sailed into the harbor.",
+     "source": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "New Haven was laid out on a Nine Square Plan around a central common, now the 16-acre Green at the heart of downtown.",
+     "source": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "New Haven shared the role of Connecticut's capital from 1701 until 1873, and the Amistad mutineers were tried in its federal court in 1839.",
+     "source": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "New Haven-style pizza, known locally as apizza, debuted at Frank Pepe Pizzeria Napoletana in 1925.",
+     "source": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The regicides Edward Whalley and William Goffe, who signed the death warrant of Charles I, hid at West Rock in New Haven with John Davenport's help.",
+     "source": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Yale began as the Collegiate School, established by an act of Connecticut's General Court in 1701, and its trustees voted in 1716 to move it to New Haven.",
+     "source": "https://en.wikipedia.org/wiki/Yale_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Collegiate School became Yale College in 1718 on Cotton Mather's suggestion; Elihu Yale had donated nine bales of goods that sold for more than 560 pounds.",
+     "source": "https://en.wikipedia.org/wiki/Yale_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Yale's bulldog mascot, Handsome Dan, began with a dog bought by Yale student Andrew Barbey Graves, and Handsome Dan XIX was announced as mascot in 2021.",
+     "source": "https://en.wikipedia.org/wiki/Handsome_Dan",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Penn and Yale played the first college basketball game with five men on a team in 1897, a year after Yale's first basketball season.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The Helms Athletic Foundation named Yale the national champion in 1901 and 1903, early in the life of the New Haven program.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Yale won its first NCAA tournament game in 2016, beating Baylor 79-75 in the first round.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 13 seed and a 13.5-point underdog in 2024, Yale beat fourth-seeded Auburn 78-76 in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "James Jones, the Joel E. Smilow '54 Head Coach of Men's Basketball and Yale's all-time winningest coach, leads the Bulldogs again in 2026-27.",
+     "source": "https://yalebulldogs.com/news/2026/9/4/mens-basketball-mens-basketball-releases-2026-27-slate.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Chris Dudley played at Yale from 1983 to 1987, spent 16 seasons in the NBA, and was Oregon's Republican nominee for governor in 2010.",
+     "source": "https://en.wikipedia.org/wiki/Chris_Dudley",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "harvard|yale": {
+   "name": "Harvard-Yale",
+   "lines": [
+    {
+     "text": "Harvard and Yale tied for the 2015 Ivy League title, and Harvard won the playoff 53-51 at the Palestra, keeping Yale out of the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Yale beat Harvard 97-85 in 2019 to win its first Ivy League men's basketball tournament.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Yale and Harvard tied for the 2015 Ivy League title, and Harvard won the playoff 53-51 at the Palestra, keeping Yale out of the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "penn|princeton": {
+   "name": "Penn-Princeton",
+   "lines": [
+    {
+     "text": "Penn and Princeton play what the Daily Pennsylvanian calls the third-oldest rivalry in the sport, a series in which each side has won more than 120 games.",
+     "source": "https://www.thedp.com/article/2026/02/penn-princeton-mens-basketball-rivalry-ivy-league-college-sports",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Princeton took the all-time series lead over Penn for the first time with a comeback win on January 5, 2026, in a game Penn had led by 13 points.",
+     "source": "https://www.thedp.com/article/2026/02/penn-princeton-mens-basketball-rivalry-ivy-league-college-sports",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Princeton and Penn play what the Daily Pennsylvanian calls the third-oldest rivalry in the sport, a series in which each side has won more than 120 games.",
+     "source": "https://www.thedp.com/article/2026/02/penn-princeton-mens-basketball-rivalry-ivy-league-college-sports",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Princeton's comeback win over Penn on January 5, 2026, gave the Tigers the all-time series lead for the first time, after Penn had led that game by 13 points.",
+     "source": "https://www.thedp.com/article/2026/02/penn-princeton-mens-basketball-rivalry-ivy-league-college-sports",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "google:eastern-washington": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Eastern+Washing",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "eastern-washington",
+  "url": "https://news.google.com/rss/search?q=%22Eastern+Washington+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:idaho": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "entries": 3,
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Idaho+Vandals+b",
+  "fallback": false,
+  "kept": 0,
+  "kind": "google",
+  "last_ok": "2026-11-16T18:09:02+00:00",
+  "ok": false,
+  "source": "Google News",
+  "team": "idaho",
+  "url": "https://news.google.com/rss/search?q=%22Idaho+Vandals+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Idaho+Vandals+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:idaho-state": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "idaho-state",
+  "url": "https://news.google.com/rss/search?q=%22Idaho+State+Bengals+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:montana": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "entries": 6,
+  "error": null,
+  "fallback": false,
+  "kept": 3,
+  "kind": "google",
+  "last_ok": "2026-11-16T23:11:09+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "montana",
+  "url": "https://news.google.com/rss/search?q=%22Montana+Grizzlies+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Montana+Grizzlies+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:montana-state": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "montana-state",
+  "url": "https://news.google.com/rss/search?q=%22Montana+State+Bobcats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:northern-arizona": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "entries": 6,
+  "error": null,
+  "fallback": false,
+  "kept": 0,
+  "kind": "google",
+  "last_ok": "2026-11-16T23:11:09+00:00",
+  "ok": true,
+  "source": "Google News",
+  "team": "northern-arizona",
+  "url": "https://news.google.com/rss/search?q=%22Northern+Arizona+Lumberjacks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Northern+Arizona+Lumberjacks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:northern-colorado": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "northern-colorado",
+  "url": "https://news.google.com/rss/search?q=%22Northern+Colorado+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:portland-state": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Portland+State+",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "portland-state",
+  "url": "https://news.google.com/rss/search?q=%22Portland+State+Vikings+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:southern-utah": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Southern+Utah+T",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "southern-utah",
+  "url": "https://news.google.com/rss/search?q=%22Southern+Utah+Thunderbirds+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:utah-tech": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "utah-tech",
+  "url": "https://news.google.com/rss/search?q=%22Utah+Tech+Trailblazers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:weber-state": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "weber-state",
+  "url": "https://news.google.com/rss/search?q=%22Weber+State+Wildcats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:bigsky": {
+  "checked_at": "2026-11-16T23:11:09+00:00",
+  "entries": 10,
+  "error": null,
+  "fallback": false,
+  "kept": 10,
+  "kind": "league",
+  "last_ok": "2026-11-16T23:11:09+00:00",
+  "ok": true,
+  "source": "Big Sky (bigskyconf.com)",
+  "team": null,
+  "url": "https://bigskyconf.com/rss.aspx?path=mbball",
+  "used": "https://bigskyconf.com/rss.aspx?path=mbball",
+  "via_google": false
+ }
+}

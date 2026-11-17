@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T13:58:58+00:00",
+ "fetched_at": "2026-11-16T23:02:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -557,7 +557,7 @@
     }
    ],
    "tickets": null,
-   "venue": "Fifth Third Arena",
+   "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
    "home": {
@@ -1883,10 +1883,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-14-2026--sports-ncaa-basketball/production/7632140?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Zidian Family Arena at Beeghly Center",
    "venue_city": "Youngstown",
    "venue_state": "OH",
@@ -1895,21 +1892,21 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "276",
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920915",
@@ -1927,10 +1924,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-11-14-2026--sports-ncaa-basketball/production/7710572?wsUser=717",
-    "low": 40.0
-   },
+   "tickets": null,
    "venue": "Knights Hall",
    "venue_city": "Louisville",
    "venue_state": "KY",
@@ -1939,21 +1933,21 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
    "away": {
     "espn_id": "2459",
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911016",
@@ -1971,10 +1965,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-14-2026--sports-ncaa-basketball/production/7762858?wsUser=717",
-    "low": 16.0
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -1983,21 +1974,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
    "away": {
     "espn_id": "2117",
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928804",
@@ -2024,21 +2015,21 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2649",
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927387",
@@ -2056,10 +2047,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 35.0
-   },
+   "tickets": null,
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
    "venue_state": "MI",
@@ -2068,21 +2056,21 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920961",
@@ -2100,10 +2088,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-11-14-2026--sports-ncaa-basketball/production/7606322?wsUser=717",
-    "low": 31.0
-   },
+   "tickets": null,
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
    "venue_state": "KY",
@@ -2112,21 +2097,21 @@
     "key": null,
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "85",
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928825",
@@ -2144,10 +2129,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-11-15-2026--sports-ncaa-basketball/production/7638682?wsUser=717",
-    "low": 35.0
-   },
+   "tickets": null,
    "venue": "UPMC Events Center",
    "venue_city": "Moon Township",
    "venue_state": "PA",
@@ -2156,21 +2138,21 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "424",
     "key": null,
     "name": "Capital Crusaders",
     "abbr": "CAPU",
-    "score": null,
-    "winner": null
+    "score": 45,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921168",
@@ -2197,21 +2179,21 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "325",
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401926068",
@@ -2238,21 +2220,21 @@
     "key": null,
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909544",
@@ -2272,7 +2254,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-11-17-2026--sports-ncaa-basketball/production/7339600?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Cintas Center",
    "venue_city": "Cincinnati",
@@ -2404,7 +2386,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-state-nittany-lions-mens-basketball-tickets-bryce-jordan-center-11-18-2026--sports-ncaa-basketball/production/7436697?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Bryce Jordan Center",
    "venue_city": "University Park",
@@ -2448,7 +2430,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-11-18-2026--sports-ncaa-basketball/production/7269707?wsUser=717",
-    "low": 8.0
+    "low": 7.0
    },
    "venue": "Fiserv Forum",
    "venue_city": "Milwaukee",
@@ -2538,7 +2520,7 @@
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-11-18-2026--sports-ncaa-basketball/production/7466786?wsUser=717",
     "low": 6.0
    },
-   "venue": "Fifth Third Arena",
+   "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
    "home": {
@@ -2756,7 +2738,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 36.0
+    "low": 31.0
    },
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
@@ -2800,7 +2782,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-20-2026--sports-ncaa-basketball/production/7398045?wsUser=717",
-    "low": 7.0
+    "low": 9.0
    },
    "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
@@ -2844,7 +2826,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-21-2026--sports-ncaa-basketball/production/7603560?wsUser=717",
-    "low": 27.0
+    "low": 28.0
    },
    "venue": "Breslin Center",
    "venue_city": "East Lansing",
@@ -2929,7 +2911,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 28.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -3014,7 +2996,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-11-21-2026--sports-ncaa-basketball/production/7512851?wsUser=717",
-    "low": 24.0
+    "low": 23.0
    },
    "venue": "UW-Milwaukee Panther Arena",
    "venue_city": "Milwaukee",
@@ -3470,7 +3452,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 12.0
+    "low": 16.0
    },
    "venue": "Tower Hill Arena",
    "venue_city": "Gainesville",
@@ -3683,7 +3665,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-illinois-edwardsville-cougars-mens-basketball-tickets-first-community-arena-11-25-2026--sports-ncaa-basketball/production/7854331?wsUser=717",
-    "low": 40.0
+    "low": 32.0
    },
    "venue": "First Community Arena",
    "venue_city": "Edwardsville",
@@ -3815,7 +3797,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 59.0
+    "low": 57.0
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -3859,7 +3841,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "Memorial Coliseum (IN)",
    "venue_city": "Fort Wayne",
@@ -4070,7 +4052,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 13.0
+    "low": 11.0
    },
    "venue": "Gill Coliseum",
    "venue_city": "Corvallis",
@@ -4662,7 +4644,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-12-8-2026--sports-ncaa-basketball/production/7588382?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Carver Arena",
    "venue_city": "Peoria",
@@ -4744,7 +4726,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-state-wildcats-mens-basketball-tickets-bramlage-coliseum-12-8-2026--sports-ncaa-basketball/production/7355612?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Bramlage Coliseum",
    "venue_city": "Manhattan",
@@ -4837,7 +4819,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-12-9-2026--sports-ncaa-basketball/production/7339604?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Cintas Center",
    "venue_city": "Cincinnati",
@@ -5989,7 +5971,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-21-2026--sports-ncaa-basketball/production/7522605?wsUser=717",
-    "low": 13.0
+    "low": 19.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
@@ -6077,7 +6059,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-21-2026--sports-ncaa-basketball/production/7355795?wsUser=717",
-    "low": 11.0
+    "low": 10.0
    },
    "venue": "Petersen Events Center",
    "venue_city": "Pittsburgh",
@@ -6159,7 +6141,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-12-21-2026--sports-ncaa-basketball/production/7363515?wsUser=717",
-    "low": 13.0
+    "low": 16.0
    },
    "venue": "McKale Center at ALKEME Arena",
    "venue_city": "Tucson",
@@ -7082,7 +7064,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-1-7-2027--sports-ncaa-basketball/production/7631619?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -8312,7 +8297,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-1-27-2027--sports-ncaa-basketball/production/7631637?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -9162,7 +9150,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-10-2027--sports-ncaa-basketball/production/7631641?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -9612,7 +9603,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-17-2027--sports-ncaa-basketball/production/7631643?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",
@@ -10392,7 +10386,10 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/northern-illinois-huskies-mens-basketball-tickets-niu-convocation-center-2-27-2027--sports-ncaa-basketball/production/7631651?wsUser=717",
+    "low": 24.0
+   },
    "venue": "NIU Convocation Center",
    "venue_city": "Dekalb",
    "venue_state": "IL",

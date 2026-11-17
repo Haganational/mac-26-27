@@ -1,0 +1,667 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:14-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "ut-martin",
+   "short": "UT Martin",
+   "rank": 1,
+   "score": 1.7,
+   "form": 0.8,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Arkansas State Red Wolves",
+     "site": "road",
+     "score": "82-65",
+     "date": "Nov 10",
+     "bonus": 0.86
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Arkansas State Red Wolves",
+     "site": "road",
+     "conf": false,
+     "result": "W 82-65"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Champion Christian Tigers",
+     "site": "home",
+     "conf": false,
+     "result": "W 86-57"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Ecclesia Royals",
+     "site": "home",
+     "conf": false,
+     "result": "W 128-44"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Southern Illinois Salukis",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Davi Remagen",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 18.0,
+     "rpg": 4.4,
+     "apg": 4.2,
+     "gp": 5
+    },
+    {
+     "name": "Kaan Onat",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 11.6,
+     "rpg": 7.0,
+     "apg": 3.2,
+     "gp": 5
+    },
+    {
+     "name": "Sasha Savkov",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 10.6,
+     "rpg": 6.8,
+     "apg": 2.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "tennessee-state",
+   "short": "Tennessee State",
+   "rank": 2,
+   "score": 1.0,
+   "form": 1.0,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Fisk Bulldogs",
+     "site": "home",
+     "conf": false,
+     "result": "W 123-73"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Tennessee Volunteers",
+     "site": "road",
+     "conf": false,
+     "result": "L 78-83"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "South Florida Bulls",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Ty-Laur Johnson",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 3.8,
+     "apg": 6.5,
+     "gp": 4
+    },
+    {
+     "name": "Aaron Bradshaw",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 6.8,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Arterio Morris",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 3.0,
+     "apg": 4.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "southeast-missouri",
+   "short": "SEMO",
+   "rank": 3,
+   "score": -3.9,
+   "form": -3.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Fri Nov 13",
+     "opp": "Middle Tennessee Blue Raiders",
+     "site": "road",
+     "conf": false,
+     "result": "L 75-88"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Midway Eagles",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "St. Thomas Tommies",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Fontaine Williams Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.2,
+     "rpg": 3.5,
+     "apg": 3.2,
+     "gp": 4
+    },
+    {
+     "name": "Marqueas Bell",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.5,
+     "rpg": 5.5,
+     "apg": 2.0,
+     "gp": 4
+    },
+    {
+     "name": "PJ Farmer",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 9.2,
+     "rpg": 2.2,
+     "apg": 2.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "lindenwood",
+   "short": "Lindenwood",
+   "rank": 4,
+   "score": -5.5,
+   "form": -5.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Nebraska Cornhuskers",
+     "site": "road",
+     "conf": false,
+     "result": "L 60-94"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Omaha Mavericks",
+     "site": "road",
+     "conf": false,
+     "result": "L 56-67"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Northern Iowa Panthers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Makhan Diouf",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 12.2,
+     "rpg": 6.0,
+     "apg": 0.2,
+     "gp": 4
+    },
+    {
+     "name": "Shamiere Green",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 2.6,
+     "apg": 1.8,
+     "gp": 5
+    },
+    {
+     "name": "Malek Archie",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 6.2,
+     "apg": 4.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "siue",
+   "short": "SIUE",
+   "rank": 5,
+   "score": -5.5,
+   "form": -5.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Missouri Tigers",
+     "site": "road",
+     "conf": false,
+     "result": "L 58-96"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Duke Blue Devils",
+     "site": "road",
+     "conf": false,
+     "result": "L 47-90"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "North Dakota Fighting Hawks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "North Park Vikings",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jordan Pickett",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.8,
+     "rpg": 2.0,
+     "apg": 1.4,
+     "gp": 5
+    },
+    {
+     "name": "Gianni Cobb",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.8,
+     "rpg": 1.2,
+     "apg": 2.4,
+     "gp": 5
+    },
+    {
+     "name": "David Wilson",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 9.0,
+     "rpg": 4.8,
+     "apg": 0.6,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "southern-indiana",
+   "short": "Southern Indiana",
+   "rank": 6,
+   "score": -6.7,
+   "form": -6.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "IU Indianapolis Jaguars",
+     "site": "road",
+     "conf": false,
+     "result": "L 70-74"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Western Michigan Broncos",
+     "site": "home",
+     "conf": false,
+     "result": "L 59-80"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Lindsey Wilson Blue Raiders",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Texas Longhorns",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kaden Brown",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 3.0,
+     "apg": 0.4,
+     "gp": 5
+    },
+    {
+     "name": "Afan Trnka",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.8,
+     "rpg": 2.6,
+     "apg": 2.8,
+     "gp": 5
+    },
+    {
+     "name": "Josh Smith",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 8.2,
+     "rpg": 3.5,
+     "apg": 1.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "morehead-state",
+   "short": "Morehead State",
+   "rank": 7,
+   "score": -10.4,
+   "form": -10.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Sat Nov 14",
+     "opp": "IU Indianapolis Jaguars",
+     "site": "home",
+     "conf": false,
+     "result": "W 79-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Miami (OH) Hamilton Harriers",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "Ohio Bobcats",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Elon Phoenix",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Clayton Parker",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 16.0,
+     "rpg": 4.8,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Chase Dawson",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.5,
+     "rpg": 1.0,
+     "apg": 3.2,
+     "gp": 4
+    },
+    {
+     "name": "Kyrell Shaw",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.5,
+     "rpg": 5.5,
+     "apg": 1.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "eastern-illinois",
+   "short": "Eastern Illinois",
+   "rank": 8,
+   "score": -12.5,
+   "form": -12.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Notre Dame Fighting Irish",
+     "site": "road",
+     "conf": false,
+     "result": "L 70-94"
+    },
+    {
+     "date": "Wed Nov 11",
+     "opp": "Blackburn Beavers",
+     "site": "home",
+     "conf": false,
+     "result": "W 102-44"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Purdue Fort Wayne Mastodons",
+     "site": "home",
+     "conf": false,
+     "result": "L 74-86"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Vanderbilt Commodores",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Illinois Fighting Illini",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Gavin Welch",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 2.0,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Demar Burton",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.5,
+     "rpg": 1.2,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Tanner Vogel",
+     "class": "Senior",
+     "pos": "C",
+     "ppg": 9.0,
+     "rpg": 6.8,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "western-illinois",
+   "short": "Western Illinois",
+   "rank": 9,
+   "score": -13.3,
+   "form": -13.3,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Simpson (IA) Storm",
+     "site": "home",
+     "conf": false,
+     "result": "W 90-48"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "Cal State Bakersfield Roadrunners",
+     "site": "home",
+     "conf": false,
+     "result": "L 83-91"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Minnesota Golden Gophers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "UAlbany Great Danes",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Mercyhurst Lakers",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Canisius Golden Griffins",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Daivion Traylor",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 14.2,
+     "rpg": 6.5,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Danny Stephens",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 13.0,
+     "rpg": 2.5,
+     "apg": 0.0,
+     "gp": 4
+    },
+    {
+     "name": "Makai Kvamme",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 11.8,
+     "rpg": 2.2,
+     "apg": 2.0,
+     "gp": 4
+    }
+   ]
+  }
+ ]
+}

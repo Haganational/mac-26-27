@@ -27,7 +27,7 @@
     {% endfor %}
   </header>
   <div class="sub" style="margin:-8px 0 18px">
-    Final · {{ g.date[:10] }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
+    Final · {{ g.date|etday }} · {{ g.venue }}, {{ g.venue_city }}, {{ g.venue_state }}{% if box.attendance %} · attendance {{ "{:,}".format(box.attendance) }}{% endif %}
     {% if g.conference_game %} · <span class="pill">{{ LG }}</span>{% endif %}
     · <a href="https://www.espn.com/mens-college-basketball/game/_/gameId/{{ g.game_id }}">ESPN gamecast</a>
     · <a href="#" data-share data-share-title="{{ away.abbr }} {{ away.score }}, {{ home.abbr }} {{ home.score }} (final)">Share this box score</a>
@@ -35,7 +35,7 @@
 
   <article class="gamer" id="gamer">
     <h1>{{ gm.headline }}</h1>
-    <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published[:10] }}</time></div>
+    <div class="sub">By {{ gm.byline }} · <time datetime="{{ published }}">{{ published|etday }}</time></div>
     {% if hl %}<figure class="hl-video">
       <div class="hl-frame"><iframe src="{{ hl.embed }}" title="{{ hl.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
       <figcaption>Highlights from ESPN · <a href="{{ hl.watch }}" rel="noopener">Watch on ESPN</a></figcaption>
@@ -114,7 +114,7 @@
         {% for side in [away, home] %}{% set c = side.travel %}
         <tr><td>{{ side.abbr }}</td>
           {% if c %}<td class="num">{{ c.rest_days if c.rest_days is not none else "–" }}</td><td class="num">{{ "{:,}".format(c.miles_in) }}</td><td class="num">{{ c.road_streak or "–" }}</td><td class="num">{{ ("%+d h"|format(c.tz_shift)) if c.tz_shift else "same" }}</td>
-          {% else %}<td colspan="4" class="dim">non-MAC team, not tracked</td>{% endif %}</tr>
+          {% else %}<td colspan="4" class="dim">non-{{ LG }} team, not tracked</td>{% endif %}</tr>
         {% endfor %}
       </table>
       <div class="note">Rest is full days off between games. Miles are an estimate from the travel model (see the travel page).</div>

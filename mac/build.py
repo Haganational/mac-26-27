@@ -7,11 +7,12 @@ import json
 import re
 import shutil
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, model, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -47,7 +48,8 @@ TWO_WORD_MASCOTS = ("Nittany Lions", "Fighting Camels", "Golden Flashes", "Blue 
                     "Black Bears", "Purple Eagles", "Golden Hurricane", "Golden Gophers", "Scarlet Knights", "Red Wolves", "Thundering Herd",
                     "Golden Bears", "Mountain Hawks", "Big Green", "Big Red", "Green Wave", "Blue Hens", "Golden Lions", "Delta Devils",
                     "Purple Aces", "Golden Grizzlies", "Golden Panthers", "Blue Hose", "Fighting Hawks", "Red Flash", "Running Rebels",
-                    "Fighting Scots", "Golden Rams", "Golden Hawks", "Fighting Quakers", "Red Foxes", "Black Knights", "Lady Lions")
+                    "Fighting Scots", "Golden Rams", "Golden Hawks", "Fighting Quakers", "Red Foxes", "Black Knights", "Lady Lions",
+                    "Blue Demons", "Runnin' Bulldogs", "Ragin' Cajuns", "Wolf Pack", "Screaming Eagles", "River Hawks")
 
 
 def school(name: str) -> str:
@@ -359,6 +361,8 @@ def render_site() -> str:
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     env.filters["book"] = oddsboard.book_name
     env.filters["school"] = school
+    env.filters["nobreak"] = hub.nobreak  # "73-71" never splits at the hyphen in a headline
+    env.filters["etday"] = lambda iso: (lambda t: f"{t:%a}, {t:%b} {t.day}, {t.year}")(schedule_view.to_et(iso)) if iso else ""
     env.globals["game_href"] = {}  # filled once box score and preview pages exist
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
@@ -537,13 +541,25 @@ def render_site() -> str:
     preview_story.save(previews_saved)
     (SITE_DIR / "news-sitemap.xml").write_text(site_chrome.news_sitemap(news_items, built_at))
     desk.sort(key=lambda x: x["published"], reverse=True)
+    # The Bricks Score picks the lead (mac.frontscore); on this edition's own front only its own home teams
+    # carry weight. "Around the mid-majors" is the night's top finals from the other editions.
+    around = []
+    try:
+        fs = frontscore.Scorer()
+        desk = frontscore.rank(desk, fs, edition=LEAGUE.key)
+        around = frontscore.around(fs, LEAGUE.key, built_at.astimezone(ZoneInfo("America/New_York")).date().isoformat())
+    except Exception as e:  # the front page must build even if a data file is bad
+        print("frontscore: skipped,", repr(e))
+    for a in around:
+        a["href"] = ("" if not LEAGUE.path else "../") + a["href"]
+        a["color"] = hub.CONF_COLORS.get(a["key"], "#a8441c")
     now_utc = built_at.astimezone(timezone.utc)
     for x in desk:
         try:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], around=around, scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),
@@ -564,6 +580,14 @@ def render_site() -> str:
                 d=data, notes=notes_by_player.get(p["espn_id"], []), ld_json=json.dumps(ld).replace("</", "<\\/"), **pc))
     env.globals["phref"] = phref
     team_tpl = env.get_template("team.html")
+    from . import honors
+    try:
+        team_honors = honors.season(LEAGUE, now)
+    except Exception as e:  # a bad box score or line file must not take the team pages down
+        print(f"honors: skipped ({e})")
+        team_honors = {}
+    team_films = honors.films()
+    team_songs = honors.fight_songs()
     for team in TEAMS:
         html = team_tpl.render(
             d=data,
@@ -582,6 +606,7 @@ def render_site() -> str:
             mvs={u["game_id"]: model_view.view(u) for u in m["upcoming"]} if m else {},
             prate=prate, prate_n=len(prate),
             town=gamer.around_town(team.key, flavor, on),
+            team_films=team_films.get(team.key, []), team_song=team_songs.get(team.key), team_honors=team_honors.get(team.key, []),
         )
         (SITE_DIR / "teams" / f"{team.key}.html").write_text(html)
     (SITE_DIR / "players.json").write_text(json.dumps(profiles))
@@ -688,7 +713,9 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
                            for key, plist in profiles.items() for p in plist), key=lambda p: p["label"])
     desk = {
         "games": [{"id": r["game_id"], "label": f"{r['when']} · {r['label']}", "teams": game_keys.get(r["game_id"], []),
-                   "also": " ".join(key_abbr.get(k, k) for k in game_keys.get(r["game_id"], []))}  # "WMU" finds the game too
+                   "also": " ".join(key_abbr.get(k, k) for k in game_keys.get(r["game_id"], [])),  # "WMU" finds the game too
+                   "short": r["title"],
+                   "day": r["dt"].astimezone(ZoneInfo("America/New_York")).date().isoformat()}  # for the desk's one-tap game buttons
                   for r in sorted(rows, key=lambda r: r["dt"])],
         "players": players_list,
         "teams": [{"key": t.key, "short": t.short} for t in TEAMS],
@@ -790,6 +817,8 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
     access.lock_site(SITE_DIR)  # no-op unless ACCESS_CODE is set; after the search index so sections are still indexed
 
     (SITE_DIR / "manifest.webmanifest").write_text(site_chrome.manifest())
+    if LEAGUE.has("notes"):
+        (SITE_DIR / "desk.webmanifest").write_text(site_chrome.desk_manifest())
     (SITE_DIR / "robots.txt").write_text(site_chrome.robots())
     if not LEAGUE.path:  # the root: the all-conference hub and the robots.txt crawlers actually read
         hub.build()

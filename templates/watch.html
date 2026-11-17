@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch · Hardwood Bricks</title>
+<meta name="description" content="MidMaxx60 every morning and The Big Mid every week: mid-major basketball video from the Hardwood Bricks anchor desk, covering the {{ names }}.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}watch.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="Watch Hardwood Bricks: MidMaxx60 and The Big Mid">
+<meta property="og:url" content="{{ base }}watch.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .wt { max-width: 1100px; }
+  .wt h1 { font: 600 clamp(36px, 5.4vw, 60px)/1.02 var(--serif); letter-spacing: -.025em; margin: 22px 0 10px; }
+  .wt .dek { font: 400 20px/1.5 var(--serif); color: var(--ink-2); max-width: 62ch; margin: 0 0 8px; }
+  .wt section { border-top: 3px solid var(--rule-2); padding-top: 12px; margin: 38px 0 0; }
+  .wt h2 { font: 600 28px/1.1 var(--serif); letter-spacing: -.01em; margin: 0 0 6px; }
+  .wt section > p { font: 400 17px/1.55 var(--serif); color: var(--ink-2); max-width: 66ch; margin: 0; }
+  .k { font: 600 12.5px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+  /* The two players: the Short stands tall, the weekly show lies wide */
+  .shows { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 28px; margin-top: 20px; align-items: start; }
+  .show { display: grid; gap: 10px; min-width: 0; grid-template-columns: minmax(0, 1fr); }
+  .frame { position: relative; background: var(--hick); color: #f3e9d6; display: grid; place-items: center; width: 100%; border: 0; padding: 0; cursor: pointer; text-align: center; }
+  .frame.tall { aspect-ratio: 9 / 16; } .frame.wide { aspect-ratio: 16 / 9; }
+  .frame::after { content: ""; position: absolute; inset: auto 0 0 0; height: 8px; background: var(--gold); }
+  .frame b { display: block; font: 600 clamp(28px, 4vw, 44px)/1 var(--serif); letter-spacing: -.02em; }
+  .frame small { display: block; margin-top: 10px; font: 600 13px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: #d9c9a8; }
+  .frame.poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .frame.poster > span { position: relative; z-index: 1; padding: 18px 20px 22px; align-self: end; width: 100%; background: linear-gradient(transparent, rgba(20,12,6,.88) 45%); }
+  .frame.poster b { font-size: clamp(22px, 3vw, 32px); }
+  .frame .play { display: inline-grid; place-items: center; width: 62px; height: 62px; border: 2px solid var(--gold); color: var(--gold); margin-bottom: 16px; }
+  .frame:hover .play, .frame:focus-visible .play { background: var(--gold); color: var(--hick); }
+  .show iframe { width: 100%; border: 0; display: block; background: #000; }
+  .show iframe.tall { aspect-ratio: 9 / 16; } .show iframe.wide { aspect-ratio: 16 / 9; }
+  .show h3 { font: 600 22px/1.15 var(--serif); margin: 0; }
+  .show p { margin: 0; font-size: 15.5px; color: var(--ink-2); max-width: 52ch; }
+  .sub { justify-self: start; font: 600 13px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--rule-2); padding: 10px 14px; }
+  .sub:hover { border-color: var(--accent); }
+
+  /* What runs on the shows */
+  .segs { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0 28px; margin-top: 14px; }
+  .segs div { border-top: 1px solid var(--rule); padding: 12px 0 14px; }
+  .segs b { display: block; font: 600 19px/1.2 var(--serif); }
+  .segs span { display: block; font-size: 15px; color: var(--ink-2); margin-top: 4px; }
+  .segs a { display: inline-block; margin-top: 6px; font: 600 12.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .segs a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* Tonight's desk and today's story, side by side */
+  .today { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; margin-top: 14px; }
+  .who { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 14px; align-items: center; }
+  .face { width: 76px; height: 76px; background: var(--c, var(--hick)); color: var(--ink-on, #fff); display: grid; place-items: center; overflow: hidden; font: 600 26px/1 var(--serif); }
+  .face img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .who b { display: block; font: 600 20px/1.15 var(--serif); }
+  .picks { list-style: none; margin: 12px 0 0; padding: 0; border-top: 2px solid var(--rule-2); font-variant-numeric: tabular-nums; }
+  .picks li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--rule); font: 600 17px/1.2 var(--serif); }
+  .picks span { font: 600 12.5px/1.6 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .quote { margin: 12px 0 0; padding-left: 14px; border-left: 4px solid var(--c, var(--gold)); font: 400 18px/1.5 var(--serif); color: var(--ink); }
+  .quote + .k { display: block; margin-top: 8px; } .quote + .k a { color: var(--accent); }
+
+  /* The desk */
+  .conf { margin-top: 22px; }
+  .conf h3 { font: 600 13px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .conf h3 b { color: var(--ink); font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px 12px; }
+  .an { display: grid; gap: 6px; }
+  .an .face { width: 100%; height: auto; aspect-ratio: 4 / 5; border-bottom: 4px solid var(--c); font-size: 34px; }
+  .an b { font: 600 16px/1.15 var(--serif); } a.an:hover b { text-decoration: underline; text-underline-offset: 3px; }
+  .an small { font: 600 11.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .note { margin-top: 18px; font-size: 14px; color: var(--muted); max-width: 70ch; }
+  @media (max-width: 640px) { .shows { grid-template-columns: minmax(0, 1fr); } .frame.tall, .show iframe.tall { max-width: 300px; } .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); } }
+</style>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "watch.html") }}
+<div class="bricks" aria-hidden="true"></div>
+<main class="wt">
+  <div class="dateline"><span>{{ today }}</span><span class="tag">The Hardwood Bricks desk</span><span>{{ season }}</span></div>
+  <h1>Watch</h1>
+  <p class="dek">Two shows and {{ count }} anchors, each one a voice from a school we cover. The numbers come from the same box scores and lines as the rest of the site.</p>
+
+  <div class="shows">
+    {% for s in shows %}<div class="show">
+      {% if s.list %}<button class="frame {{ 'tall' if s.key == 'midmaxx60' else 'wide' }}{{ ' poster' if s.latest }}" type="button" data-list="{{ s.list }}"{% if s.latest %} data-video="{{ s.latest.id }}"{% endif %} data-title="{{ s.name }}" aria-label="Play the latest {{ s.name }}{% if s.latest %}: {{ s.latest.title }}{% endif %}">
+        {% if s.latest %}<img src="https://i.ytimg.com/vi/{{ s.latest.id }}/{{ 'oar2' if s.key == 'midmaxx60' else 'hqdefault' }}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/{{ s.latest.id }}/hqdefault.jpg'}else{this.remove()}">{% endif %}
+        <span><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><b>{{ s.name }}</b><small>{% if s.latest %}Latest · {{ s.latest.published }}{% else %}{{ s.when }} · {{ s.length }}{% endif %}</small></span>
+      </button>{% endif %}
+      <h3>{{ s.name }}</h3>
+      <p>{{ s.what }}</p>
+      {% if loop.first and handle %}<a class="sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube ↗</a>{% endif %}
+    </div>{% endfor %}
+  </div>
+
+  <section aria-labelledby="h-segs">
+    <h2 id="h-segs">On the shows</h2>
+    <div class="segs">{% for g in segments %}<div><b>{{ g.name }}</b><span>{{ g.what }}</span>{% if g.href %}<a href="{{ g.href }}">{{ g.link }} →</a>{% endif %}</div>{% endfor %}</div>
+  </section>
+
+  {% if tonight or story %}<section aria-labelledby="h-today">
+    <h2 id="h-today">Today at the desk</h2>
+    <div class="today">
+      {% if tonight %}<div>
+        <span class="k">Anchor Pick'em · tonight's desk</span>
+        <div class="who" style="margin-top:10px"><span class="face" style="--c:{{ tonight.anchor.color }};--ink-on:{{ tonight.anchor.ink }}">{% if tonight.anchor.portrait %}<img src="{{ tonight.anchor.portrait }}" alt="{{ tonight.anchor.alt }}" loading="lazy">{% else %}{{ tonight.anchor.initials }}{% endif %}</span>
+          <span><b>{{ tonight.name }}</b><span class="k">{{ tonight.school }} desk · AI anchor</span></span></div>
+        <ul class="picks">{% for p in tonight.picks %}<li>{{ p.short }}<span>{{ 'Homer pick · ' if p.homer }}{{ p.worth }} pts</span></li>{% endfor %}</ul>
+      </div>{% endif %}
+      {% if story %}<div>
+        <span class="k">Off the Court · {{ story.anchor.school }} alumni</span>
+        <div class="who" style="margin-top:10px"><span class="face" style="--c:{{ story.anchor.color }};--ink-on:{{ story.anchor.ink }}">{% if story.anchor.portrait %}<img src="{{ story.anchor.portrait }}" alt="{{ story.anchor.alt }}" loading="lazy">{% else %}{{ story.anchor.initials }}{% endif %}</span>
+          <span><b>{{ story.name }}</b><span class="k">Told by {{ story.anchor.name }}</span></span></div>
+        <p class="quote" style="--c:{{ story.anchor.color }}">{{ story.line }}</p>
+        <span class="k"><a href="{{ story.source }}" rel="noopener">Source</a></span>
+      </div>{% endif %}
+    </div>
+  </section>{% endif %}
+
+  <section aria-labelledby="h-desk">
+    <h2 id="h-desk">The desk</h2>
+    <p>Each school has its own anchor, who reads that school's games and tells its stories.</p>
+    {% for c in desk %}<div class="conf">
+      <h3><b>{{ c.short }}</b> · {{ c.anchors|length }} anchors</h3>
+      <div class="grid">{% for a in c.anchors %}<a class="an" href="{{ a.href }}" style="--c:{{ a.color }}">
+        <span class="face" style="--ink-on:{{ a.ink }}">{% if a.portrait %}<img src="{{ a.portrait }}" alt="{{ a.alt }}" loading="lazy">{% else %}{{ a.initials }}{% endif %}</span>
+        <b>{{ a.name }}</b><small>{{ a.school }}</small>
+      </a>{% endfor %}</div>
+    </div>{% endfor %}
+    <p class="note">{{ disclosure }}</p>
+  </section>
+</main>
+<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="masthead.html">Masthead and standards</a> · <a href="privacy.html">Privacy</a> · Built {{ built }} UTC.</footer>
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('[data-list]');
+  if (!b) return;
+  var f = document.createElement('iframe');
+  f.src = 'https://www.youtube-nocookie.com/embed/' + (b.dataset.video ? encodeURIComponent(b.dataset.video) + '?list=' : 'videoseries?list=') + encodeURIComponent(b.dataset.list) + '&autoplay=1&playsinline=1&rel=0';
+  f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  f.allowFullscreen = true;
+  f.title = b.dataset.title + ' on YouTube';
+  f.className = b.classList.contains('tall') ? 'tall' : 'wide';
+  b.replaceWith(f);
+});
+</script>
+</body>
+</html>

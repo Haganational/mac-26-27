@@ -1,0 +1,653 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:16-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "howard",
+   "short": "Howard",
+   "rank": 1,
+   "score": 3.1,
+   "form": 0.8,
+   "road": 2.2,
+   "road_wins": [
+    {
+     "opp": "Alcorn State Braves",
+     "site": "road",
+     "score": "94-83",
+     "date": "Nov 5",
+     "bonus": 0.3
+    },
+    {
+     "opp": "Davidson Wildcats",
+     "site": "road",
+     "score": "64-58",
+     "date": "Nov 14",
+     "bonus": 1.94
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Pennsylvania Quakers",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-78"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "Stetson Hatters",
+     "site": "home",
+     "conf": false,
+     "result": "W 75-62"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Davidson Wildcats",
+     "site": "road",
+     "conf": false,
+     "result": "W 64-58"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Duquesne Dukes",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Mon Nov 23",
+     "opp": "Notre Dame (MD) Gators",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Cedric Taylor III",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 17.6,
+     "rpg": 6.6,
+     "apg": 3.4,
+     "gp": 5
+    },
+    {
+     "name": "Cam Gillus",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.4,
+     "rpg": 4.6,
+     "apg": 3.4,
+     "gp": 5
+    },
+    {
+     "name": "Drew Harris",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 10.2,
+     "rpg": 3.6,
+     "apg": 1.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "morgan-state",
+   "short": "Morgan State",
+   "rank": 2,
+   "score": -8.4,
+   "form": -8.9,
+   "road": 0.5,
+   "road_wins": [
+    {
+     "opp": "Niagara Purple Eagles",
+     "site": "road",
+     "score": "73-67",
+     "date": "Nov 7",
+     "bonus": 0.32
+    },
+    {
+     "opp": "Loyola Maryland Greyhounds",
+     "site": "neutral",
+     "score": "63-61",
+     "date": "Nov 14",
+     "bonus": 0.2
+    }
+   ],
+   "prev_rank": null,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "UMBC Retrievers",
+     "site": "road",
+     "conf": false,
+     "result": "L 70-85"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Loyola Maryland Greyhounds",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 63-61"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "North Carolina A&T Aggies",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Cornell Big Red",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Alfred Worrell Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 22.2,
+     "rpg": 5.4,
+     "apg": 1.0,
+     "gp": 5
+    },
+    {
+     "name": "Keith Richard",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 4.8,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Ibrahima Traore",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 8.4,
+     "rpg": 8.8,
+     "apg": 1.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "nc-central",
+   "short": "NC Central",
+   "rank": 3,
+   "score": -8.7,
+   "form": -8.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "0-4",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "VMI Keydets",
+     "site": "road",
+     "conf": false,
+     "result": "L 51-65"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Liberty Flames",
+     "site": "road",
+     "conf": false,
+     "result": "L 66-74"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Virginia Lynchburg Dragons",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "George Mason Patriots",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tyler Mason",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.0,
+     "rpg": 6.0,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Cristian Sanon",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 3.2,
+     "apg": 0.0,
+     "gp": 4
+    },
+    {
+     "name": "Darius Kane",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.5,
+     "rpg": 3.2,
+     "apg": 5.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "south-carolina-state",
+   "short": "South Carolina State",
+   "rank": 4,
+   "score": -9.1,
+   "form": -9.7,
+   "road": 0.6,
+   "road_wins": [
+    {
+     "opp": "South Carolina Upstate Spartans",
+     "site": "road",
+     "score": "78-70",
+     "date": "Nov 6",
+     "bonus": 0.31
+    },
+    {
+     "opp": "Chicago State Cougars",
+     "site": "road",
+     "score": "82-67",
+     "date": "Nov 9",
+     "bonus": 0.34
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Chicago State Cougars",
+     "site": "road",
+     "conf": false,
+     "result": "W 82-67"
+    },
+    {
+     "date": "Wed Nov 11",
+     "opp": "Notre Dame Fighting Irish",
+     "site": "road",
+     "conf": false,
+     "result": "L 59-99"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Charleston Cougars",
+     "site": "road",
+     "conf": false,
+     "result": "L 66-90"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "The Citadel Bulldogs",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Noah Treadwell",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 9.8,
+     "rpg": 1.6,
+     "apg": 0.4,
+     "gp": 5
+    },
+    {
+     "name": "DeShaun Jackson Jr.",
+     "class": "Junior",
+     "pos": "PG",
+     "ppg": 9.2,
+     "rpg": 2.6,
+     "apg": 3.6,
+     "gp": 5
+    },
+    {
+     "name": "Mitchell Taylor",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.0,
+     "rpg": 2.8,
+     "apg": 3.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "coppin-state",
+   "short": "Coppin State",
+   "rank": 5,
+   "score": -9.1,
+   "form": -9.1,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Cheyney (PA) Wolves",
+     "site": "home",
+     "conf": false,
+     "result": "W 90-53"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "Bradley Braves",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 54-56"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "South Florida Bulls",
+     "site": "road",
+     "conf": false,
+     "result": "L 63-73"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "La Salle Explorers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Georgetown Hoyas",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Brendan Johnson",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.6,
+     "rpg": 3.4,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "Camaren Sparrow",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.0,
+     "rpg": 3.8,
+     "apg": 0.6,
+     "gp": 5
+    },
+    {
+     "name": "Tafara Gapare",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 7.2,
+     "rpg": 2.8,
+     "apg": 2.2,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "umes",
+   "short": "Maryland Eastern Shore",
+   "rank": 6,
+   "score": -10.9,
+   "form": -10.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Boston College Eagles",
+     "site": "road",
+     "conf": false,
+     "result": "L 54-82"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "Rhode Island Rams",
+     "site": "road",
+     "conf": false,
+     "result": "L 47-67"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "DePaul Blue Demons",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Bloomfield Deacons",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "IU Indianapolis Jaguars",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Bobby Gardner",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.8,
+     "rpg": 3.0,
+     "apg": 3.4,
+     "gp": 5
+    },
+    {
+     "name": "Isaiah Griffin",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 15.2,
+     "rpg": 2.8,
+     "apg": 1.8,
+     "gp": 5
+    },
+    {
+     "name": "Saadiq Moore",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 7.8,
+     "rpg": 1.8,
+     "apg": 2.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "delaware-state",
+   "short": "Delaware State",
+   "rank": 7,
+   "score": -11.0,
+   "form": -11.0,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Georgetown Hoyas",
+     "site": "road",
+     "conf": false,
+     "result": "L 78-83"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "East Carolina Pirates",
+     "site": "road",
+     "conf": false,
+     "result": "L 48-72"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Cheyney (PA) Wolves",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Niagara Purple Eagles",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Nehemiah Reedus",
+     "class": "Senior",
+     "pos": "SG",
+     "ppg": 16.2,
+     "rpg": 6.0,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Nasir Muhammad",
+     "class": "Senior",
+     "pos": "PG",
+     "ppg": 13.0,
+     "rpg": 3.2,
+     "apg": 2.8,
+     "gp": 4
+    },
+    {
+     "name": "Joshua Obiora",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 9.8,
+     "rpg": 4.8,
+     "apg": 0.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "norfolk-state",
+   "short": "Norfolk State",
+   "rank": 8,
+   "score": -17.3,
+   "form": -17.3,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Old Dominion Monarchs",
+     "site": "home",
+     "conf": false,
+     "result": "L 60-71"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Georgia State Panthers",
+     "site": "road",
+     "conf": false,
+     "result": "L 53-78"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Georgia Tech Yellow Jackets",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "UNC Wilmington Seahawks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Bahsil Laster",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.4,
+     "rpg": 3.8,
+     "apg": 3.0,
+     "gp": 5
+    },
+    {
+     "name": "Jordan Skyers",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 12.6,
+     "rpg": 4.6,
+     "apg": 2.8,
+     "gp": 5
+    },
+    {
+     "name": "Chris Walker",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.2,
+     "rpg": 3.0,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:08-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "penn",
+   "short": "Penn",
+   "rank": 1,
+   "score": 0.4,
+   "form": 0.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Howard Bison",
+     "site": "home",
+     "conf": false,
+     "result": "W 78-65"
+    },
+    {
+     "date": "Wed Nov 11",
+     "opp": "Navy Midshipmen",
+     "site": "road",
+     "conf": false,
+     "result": "L 76-81"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Saint Joseph's Hawks",
+     "site": "road",
+     "conf": false,
+     "result": "L 77-83"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "DeSales Bulldogs",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "La Salle Explorers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Michael Zanoni",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 18.2,
+     "rpg": 2.0,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "TJ Power",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 17.8,
+     "rpg": 6.5,
+     "apg": 3.2,
+     "gp": 4
+    },
+    {
+     "name": "Sir Mohammed",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 5.7,
+     "apg": 2.7,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "columbia",
+   "short": "Columbia",
+   "rank": 2,
+   "score": 0.0,
+   "form": -0.4,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Bucknell Bison",
+     "site": "road",
+     "score": "77-59",
+     "date": "Nov 13",
+     "bonus": 0.39
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Stonehill Skyhawks",
+     "site": "home",
+     "conf": false,
+     "result": "W 75-55"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Bucknell Bison",
+     "site": "road",
+     "conf": false,
+     "result": "W 77-59"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Northwestern Wildcats",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Boston University Terriers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Gerard O'Keefe",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 15.5,
+     "rpg": 1.5,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Josiah Cunningham",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.2,
+     "rpg": 2.5,
+     "apg": 0.2,
+     "gp": 4
+    },
+    {
+     "name": "Connor Igoe",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 11.0,
+     "rpg": 9.2,
+     "apg": 4.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "yale",
+   "short": "Yale",
+   "rank": 3,
+   "score": -0.9,
+   "form": -0.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Baylor Bears",
+     "site": "road",
+     "conf": false,
+     "result": "L 61-90"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Northeastern Huskies",
+     "site": "road",
+     "conf": false,
+     "result": "L 73-84"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Emmanuel (MA) Lions",
+     "site": "home",
+     "conf": false,
+     "result": "W 103-58"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Vermont Catamounts",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Trevor Mullin",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.2,
+     "rpg": 3.6,
+     "apg": 2.2,
+     "gp": 5
+    },
+    {
+     "name": "Riley Fox",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 13.4,
+     "rpg": 4.2,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Daniel Ogunyemi",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 11.2,
+     "rpg": 8.6,
+     "apg": 1.8,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "princeton",
+   "short": "Princeton",
+   "rank": 4,
+   "score": -2.0,
+   "form": -2.0,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Stony Brook Seawolves",
+     "site": "home",
+     "conf": false,
+     "result": "W 69-59"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Rhode Island Rams",
+     "site": "road",
+     "conf": false,
+     "result": "L 72-79"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Monmouth Hawks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jackson Hicke",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.6,
+     "rpg": 6.4,
+     "apg": 4.0,
+     "gp": 5
+    },
+    {
+     "name": "Christopher Kirkpatrick",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 2.0,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Jack Stanton",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.7,
+     "rpg": 3.7,
+     "apg": 0.7,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "cornell",
+   "short": "Cornell",
+   "rank": 5,
+   "score": -3.9,
+   "form": -3.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "St. Bonaventure Bonnies",
+     "site": "road",
+     "conf": false,
+     "result": "L 64-88"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Syracuse Orange",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Morgan State Bears",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jacob Beccles",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.8,
+     "rpg": 2.2,
+     "apg": 2.0,
+     "gp": 4
+    },
+    {
+     "name": "Jax Abalos",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 10.5,
+     "rpg": 1.0,
+     "apg": 0.0,
+     "gp": 2
+    },
+    {
+     "name": "Quinn Gibson",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 9.8,
+     "rpg": 7.8,
+     "apg": 2.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "dartmouth",
+   "short": "Dartmouth",
+   "rank": 6,
+   "score": -3.9,
+   "form": -4.8,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Marist Red Foxes",
+     "site": "road",
+     "score": "69-62",
+     "date": "Nov 2",
+     "bonus": 0.53
+    },
+    {
+     "opp": "UAlbany Great Danes",
+     "site": "road",
+     "score": "85-76",
+     "date": "Nov 11",
+     "bonus": 0.36
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "UAlbany Great Danes",
+     "site": "road",
+     "conf": false,
+     "result": "W 85-76"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Boston University Terriers",
+     "site": "road",
+     "conf": false,
+     "result": "L 75-90"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Maine Augusta Moose",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Cameron McNamee",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 4.4,
+     "apg": 1.0,
+     "gp": 5
+    },
+    {
+     "name": "Anton Strelnikov",
+     "class": "Sophomore",
+     "pos": "C",
+     "ppg": 13.0,
+     "rpg": 3.2,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "CJ Aldrich III",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 6.0,
+     "apg": 2.0,
+     "gp": 1
+    }
+   ]
+  },
+  {
+   "key": "harvard",
+   "short": "Harvard",
+   "rank": 7,
+   "score": -4.0,
+   "form": -4.3,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Chicago Maroons",
+     "site": "road",
+     "score": "63-47",
+     "date": "Nov 8",
+     "bonus": 0.33
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Northeastern Huskies",
+     "site": "road",
+     "conf": false,
+     "result": "L 70-74"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "George Washington Revolutionaries",
+     "site": "road",
+     "conf": false,
+     "result": "L 57-85"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "American University Eagles",
+     "site": "road",
+     "conf": false,
+     "result": "L 64-70"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Boston College Eagles",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Holy Cross Crusaders",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Thomas Batties II",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 15.8,
+     "rpg": 4.6,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Tey Barbour",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.6,
+     "rpg": 4.2,
+     "apg": 0.6,
+     "gp": 5
+    },
+    {
+     "name": "Robert Hinton",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.6,
+     "rpg": 3.2,
+     "apg": 1.8,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "brown",
+   "short": "Brown",
+   "rank": 8,
+   "score": -6.0,
+   "form": -6.4,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Lehigh Mountain Hawks",
+     "site": "road",
+     "score": "65-55",
+     "date": "Nov 8",
+     "bonus": 0.4
+    }
+   ],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "Canisius Golden Griffins",
+     "site": "home",
+     "conf": false,
+     "result": "L 81-86"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Siena Saints",
+     "site": "road",
+     "conf": false,
+     "result": "L 74-79"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Holy Cross Crusaders",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Vermont Catamounts",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jeremiah Jenkins",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 3.0,
+     "apg": 5.0,
+     "gp": 5
+    },
+    {
+     "name": "Isaiah Langham",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 3.5,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "N'famara Dabo",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.4,
+     "rpg": 8.6,
+     "apg": 0.4,
+     "gp": 5
+    }
+   ]
+  }
+ ]
+}

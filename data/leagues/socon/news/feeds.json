@@ -1,0 +1,122 @@
+{
+ "google:chattanooga": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "entries": 10,
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Chattanooga+Moc",
+  "fallback": false,
+  "kept": 2,
+  "kind": "google",
+  "last_ok": "2026-11-16T18:08:32+00:00",
+  "ok": false,
+  "source": "Google News",
+  "team": "chattanooga",
+  "url": "https://news.google.com/rss/search?q=%22Chattanooga+Mocs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Chattanooga+Mocs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
+ },
+ "google:etsu": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "etsu",
+  "url": "https://news.google.com/rss/search?q=%22ETSU+Buccaneers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:furman": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "furman",
+  "url": "https://news.google.com/rss/search?q=%22Furman+Paladins+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:mercer": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "mercer",
+  "url": "https://news.google.com/rss/search?q=%22Mercer+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:samford": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "samford",
+  "url": "https://news.google.com/rss/search?q=%22Samford+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:tennessee-tech": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "tennessee-tech",
+  "url": "https://news.google.com/rss/search?q=%22Tennessee+Tech+Golden+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:the-citadel": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "the-citadel",
+  "url": "https://news.google.com/rss/search?q=%22The+Citadel+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:unc-greensboro": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "unc-greensboro",
+  "url": "https://news.google.com/rss/search?q=%22UNC+Greensboro+Spartans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:vmi": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "vmi",
+  "url": "https://news.google.com/rss/search?q=%22VMI+Keydets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:western-carolina": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "western-carolina",
+  "url": "https://news.google.com/rss/search?q=%22Western+Carolina+Catamounts+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:wofford": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "wofford",
+  "url": "https://news.google.com/rss/search?q=%22Wofford+Terriers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:socon": {
+  "checked_at": "2026-11-16T23:10:30+00:00",
+  "entries": 10,
+  "error": null,
+  "fallback": false,
+  "kept": 9,
+  "kind": "league",
+  "last_ok": "2026-11-16T23:10:30+00:00",
+  "ok": true,
+  "source": "SoCon (soconsports.com)",
+  "team": null,
+  "url": "https://soconsports.com/rss.aspx?path=mbball",
+  "used": "https://soconsports.com/rss.aspx?path=mbball",
+  "via_google": false
+ }
+}

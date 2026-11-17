@@ -1,0 +1,98 @@
+{
+ "google:charleston-southern": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "charleston-southern",
+  "url": "https://news.google.com/rss/search?q=%22Charleston+Southern+Buccaneers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:gardner-webb": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "gardner-webb",
+  "url": "https://news.google.com/rss/search?q=%22Gardner-Webb+Runnin%27+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:high-point": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "high-point",
+  "url": "https://news.google.com/rss/search?q=%22High+Point+Panthers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:longwood": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "longwood",
+  "url": "https://news.google.com/rss/search?q=%22Longwood+Lancers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:presbyterian": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "presbyterian",
+  "url": "https://news.google.com/rss/search?q=%22Presbyterian+Blue+Hose+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:radford": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "radford",
+  "url": "https://news.google.com/rss/search?q=%22Radford+Highlanders+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:unc-asheville": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "unc-asheville",
+  "url": "https://news.google.com/rss/search?q=%22UNC+Asheville+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:usc-upstate": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22South+Carolina+",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "usc-upstate",
+  "url": "https://news.google.com/rss/search?q=%22South+Carolina+Upstate+Spartans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "google:winthrop": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "error": "EmptyFeed: no entries",
+  "kind": "google",
+  "ok": false,
+  "source": "Google News",
+  "team": "winthrop",
+  "url": "https://news.google.com/rss/search?q=%22Winthrop+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+ },
+ "league:bigsouth": {
+  "checked_at": "2026-11-16T23:13:12+00:00",
+  "entries": 10,
+  "error": null,
+  "fallback": false,
+  "kept": 10,
+  "kind": "league",
+  "last_ok": "2026-11-16T23:13:12+00:00",
+  "ok": true,
+  "source": "Big South (bigsouthsports.com)",
+  "team": null,
+  "url": "https://bigsouthsports.com/rss.aspx?path=mbball",
+  "used": "https://bigsouthsports.com/rss.aspx?path=mbball",
+  "via_google": false
+ }
+}

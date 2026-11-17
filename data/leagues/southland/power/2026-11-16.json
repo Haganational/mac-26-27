@@ -1,0 +1,891 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:12-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "mcneese",
+   "short": "McNeese",
+   "rank": 1,
+   "score": 7.1,
+   "form": 6.7,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "UAB Blazers",
+     "site": "neutral",
+     "score": "99-78",
+     "date": "Nov 2",
+     "bonus": 0.37
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "College of Biblical Studies Ambassadors",
+     "site": "home",
+     "conf": false,
+     "result": "W 135-87"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sun Nov 22",
+     "opp": "Texas State Bobcats",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Larry Johnson",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 23.3,
+     "rpg": 3.7,
+     "apg": 3.3,
+     "gp": 3
+    },
+    {
+     "name": "Elijah Moore",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 17.0,
+     "rpg": 2.0,
+     "apg": 1.0,
+     "gp": 3
+    },
+    {
+     "name": "Jaylon Dean-Vines",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 5.0,
+     "apg": 2.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "stephen-f-austin",
+   "short": "Stephen F. Austin",
+   "rank": 2,
+   "score": 2.4,
+   "form": 2.0,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Abilene Christian Wildcats",
+     "site": "road",
+     "score": "76-71",
+     "date": "Nov 11",
+     "bonus": 0.36
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Abilene Christian Wildcats",
+     "site": "road",
+     "conf": false,
+     "result": "W 76-71"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Rice Owls",
+     "site": "home",
+     "conf": false,
+     "result": "L 78-81"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Indiana State Sycamores",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Erik Makke",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 16.0,
+     "rpg": 2.5,
+     "apg": 2.5,
+     "gp": 4
+    },
+    {
+     "name": "Gediminas Alisas",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 11.2,
+     "rpg": 5.5,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Marcus Scurry",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 2.8,
+     "apg": 0.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "east-texas-am",
+   "short": "East Texas A&M",
+   "rank": 3,
+   "score": 0.2,
+   "form": -2.8,
+   "road": 3.0,
+   "road_wins": [
+    {
+     "opp": "Oklahoma Sooners",
+     "site": "road",
+     "score": "68-64",
+     "date": "Nov 2",
+     "bonus": 1.1
+    },
+    {
+     "opp": "Rice Owls",
+     "site": "road",
+     "score": "72-71",
+     "date": "Nov 5",
+     "bonus": 0.76
+    },
+    {
+     "opp": "Portland Pilots",
+     "site": "road",
+     "score": "94-88",
+     "date": "Nov 13",
+     "bonus": 1.1
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Fairleigh Dickinson Knights",
+     "site": "home",
+     "conf": false,
+     "result": "L 76-80"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Portland Pilots",
+     "site": "road",
+     "conf": false,
+     "result": "W 94-88"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Oregon State Beavers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "California Golden Bears",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mohamed Diakite",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 18.0,
+     "rpg": 6.8,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Alonzo Dodd",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 17.5,
+     "rpg": 6.2,
+     "apg": 4.2,
+     "gp": 4
+    },
+    {
+     "name": "Bo Aldridge",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 15.2,
+     "rpg": 3.0,
+     "apg": 4.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "lamar",
+   "short": "Lamar",
+   "rank": 4,
+   "score": -1.5,
+   "form": -1.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Centenary (LA) Ladies",
+     "site": "home",
+     "conf": false,
+     "result": "W 122-57"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Omaha Mavericks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Rice Owls",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Quante Berry",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 21.7,
+     "rpg": 4.7,
+     "apg": 1.0,
+     "gp": 3
+    },
+    {
+     "name": "Dominic Eason",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 15.0,
+     "rpg": 3.3,
+     "apg": 0.7,
+     "gp": 3
+    },
+    {
+     "name": "Filip Radakovic",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.5,
+     "rpg": 7.0,
+     "apg": 1.5,
+     "gp": 2
+    }
+   ]
+  },
+  {
+   "key": "texas-am-cc",
+   "short": "Texas A&M-CC",
+   "rank": 5,
+   "score": -2.0,
+   "form": -2.3,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Louisiana Ragin' Cajuns",
+     "site": "road",
+     "score": "67-60",
+     "date": "Nov 6",
+     "bonus": 0.31
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Dallas Christian Crusaders",
+     "site": "home",
+     "conf": false,
+     "result": "W 102-58"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Florida State Seminoles",
+     "site": "road",
+     "conf": false,
+     "result": "L 60-84"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Rice Owls",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Oral Roberts Golden Eagles",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Desmond Kent Jr.",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 3.2,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Daniel Michelini-Jackson",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.8,
+     "rpg": 2.0,
+     "apg": 1.5,
+     "gp": 4
+    },
+    {
+     "name": "CJ Worsham",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 8.0,
+     "rpg": 3.3,
+     "apg": 0.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "houston-christian",
+   "short": "Houston Christian",
+   "rank": 6,
+   "score": -2.9,
+   "form": -3.4,
+   "road": 0.5,
+   "road_wins": [
+    {
+     "opp": "Western Illinois Leathernecks",
+     "site": "neutral",
+     "score": "74-67",
+     "date": "Nov 7",
+     "bonus": 0.16
+    },
+    {
+     "opp": "South Dakota Coyotes",
+     "site": "road",
+     "score": "87-76",
+     "date": "Nov 10",
+     "bonus": 0.35
+    }
+   ],
+   "prev_rank": null,
+   "record": "4-0",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "South Dakota Coyotes",
+     "site": "road",
+     "conf": false,
+     "result": "W 87-76"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "College of Biblical Studies Ambassadors",
+     "site": "home",
+     "conf": false,
+     "result": "W 108-73"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "Georgia Southern Eagles",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Max Alexander",
+     "class": "Senior",
+     "pos": "PG",
+     "ppg": 16.8,
+     "rpg": 1.2,
+     "apg": 4.0,
+     "gp": 4
+    },
+    {
+     "name": "Jonas Nichols",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 1.5,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Mambourou Mara",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.5,
+     "rpg": 9.0,
+     "apg": 0.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "utrgv",
+   "short": "UTRGV",
+   "rank": 7,
+   "score": -2.9,
+   "form": -2.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Texas State Bobcats",
+     "site": "home",
+     "conf": false,
+     "result": "L 65-72"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "UT Arlington Mavericks",
+     "site": "road",
+     "conf": false,
+     "result": "L 77-85"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "College of Biblical Studies Ambassadors",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Austin Peay Governors",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jace Posey",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 19.0,
+     "rpg": 8.0,
+     "apg": 2.5,
+     "gp": 4
+    },
+    {
+     "name": "B.B. Knight",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.5,
+     "rpg": 1.8,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "Caden Bell",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.0,
+     "rpg": 2.2,
+     "apg": 1.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "nicholls",
+   "short": "Nicholls",
+   "rank": 8,
+   "score": -4.4,
+   "form": -4.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Tulane Green Wave",
+     "site": "road",
+     "conf": false,
+     "result": "L 63-77"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Louisiana Tech Bulldogs",
+     "site": "home",
+     "conf": false,
+     "result": "W 71-68"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Ole Miss Rebels",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Southern Miss Golden Eagles",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Troy Trojans",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "AJ Dent",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 14.8,
+     "rpg": 6.5,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Doyel Cockrill III",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.2,
+     "rpg": 2.0,
+     "apg": 3.0,
+     "gp": 4
+    },
+    {
+     "name": "Sheridan Sharp",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.5,
+     "rpg": 4.2,
+     "apg": 5.5,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "southeastern-louisiana",
+   "short": "SE Louisiana",
+   "rank": 9,
+   "score": -8.4,
+   "form": -8.7,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Little Rock Trojans",
+     "site": "road",
+     "score": "83-79",
+     "date": "Nov 7",
+     "bonus": 0.33
+    }
+   ],
+   "prev_rank": null,
+   "record": "1-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Ole Miss Rebels",
+     "site": "road",
+     "conf": false,
+     "result": "L 51-91"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Texas A&M Aggies",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Kennesaw State Owls",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jackson Furman",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 3.0,
+     "apg": 0.7,
+     "gp": 3
+    },
+    {
+     "name": "Tyler Rolison",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.7,
+     "rpg": 3.0,
+     "apg": 3.7,
+     "gp": 3
+    },
+    {
+     "name": "Ashley Sims II",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 9.7,
+     "rpg": 4.3,
+     "apg": 1.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "northwestern-state",
+   "short": "Northwestern State",
+   "rank": 10,
+   "score": -8.6,
+   "form": -8.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Millsaps Majors",
+     "site": "home",
+     "conf": false,
+     "result": "W 77-49"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Little Rock Trojans",
+     "site": "road",
+     "conf": false,
+     "result": "L 83-84"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "UT Arlington Mavericks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kai Simpson",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 19.6,
+     "rpg": 4.0,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Izzy Miles",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.0,
+     "rpg": 5.0,
+     "apg": 0.0,
+     "gp": 1
+    },
+    {
+     "name": "Isaiah Vick",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 8.6,
+     "rpg": 5.0,
+     "apg": 0.6,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "new-orleans",
+   "short": "New Orleans",
+   "rank": 11,
+   "score": -8.7,
+   "form": -8.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-1",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Sat Nov 14",
+     "opp": "Southern New Orleans Knights",
+     "site": "home",
+     "conf": false,
+     "result": "W 98-82"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Texas Tech Red Raiders",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Texas Southern Tigers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kahlil Singleton",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 19.7,
+     "rpg": 0.3,
+     "apg": 1.0,
+     "gp": 3
+    },
+    {
+     "name": "Kedrick Osby",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 3.7,
+     "apg": 2.3,
+     "gp": 3
+    },
+    {
+     "name": "Yohandry Ortiz",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.5,
+     "rpg": 4.0,
+     "apg": 0.5,
+     "gp": 2
+    }
+   ]
+  },
+  {
+   "key": "incarnate-word",
+   "short": "Incarnate Word",
+   "rank": 12,
+   "score": -13.6,
+   "form": -13.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "0-4",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "UC Davis Aggies",
+     "site": "road",
+     "conf": false,
+     "result": "L 69-81"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Texas State Bobcats",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Central Baptist Mustangs",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Godswill Erheriene",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 7.5,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Ismail Habib",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.8,
+     "rpg": 2.0,
+     "apg": 2.0,
+     "gp": 4
+    },
+    {
+     "name": "D'Arrae Goodwin",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 9.0,
+     "rpg": 6.5,
+     "apg": 0.8,
+     "gp": 4
+    }
+   ]
+  }
+ ]
+}

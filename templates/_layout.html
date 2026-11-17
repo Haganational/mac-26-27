@@ -42,8 +42,8 @@
   <div class="tb-in">
     <a class="brand" href="{{ root }}{{ site_up }}index.html" aria-label="{{ site_name }} front page"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
     <nav class="tb-nav" id="tbnav" aria-label="Site">
-      {#- The bar holds seven things however many conferences we cover: this edition (a switcher
-          to every other one), Teams, three reader pages, the Betting desk and More. -#}
+      {#- The bar holds nine things however many conferences we cover: this edition (a switcher
+          to every other one), Teams, three reader pages, the Den, Watch, the Betting desk and More. -#}
       {% set eds = leagues|sort(attribute='short', case_sensitive=False) %}
       <details class="tb-teams tb-ed{{ ' on' if active == 'index.html' }}">
         <summary aria-label="{{ LG }} edition: switch conference">{{ LG }}</summary>
@@ -66,6 +66,8 @@
       {% set reader_label = {'weekly.html': 'Weekly', 'tv.html': 'Schedule & TV', 'power.html': 'Bricks Index'} %}
       {% set have = nav_pages|map(attribute=0)|list %}
       {% for path in reader if path in have %}<a href="{{ root }}{{ path }}" class="{{ 'on' if active == path }}"{% if active == path %} aria-current="page"{% endif %}>{{ reader_label[path] }}</a>{% endfor %}
+      <a href="{{ root }}{{ site_up }}den.html">The Den</a>
+      <a href="{{ root }}{{ site_up }}watch.html">Watch</a>
       {% set desk = nav_pages[1:]|selectattr(0, 'in', desk_pages)|list %}
       <details class="tb-teams tb-more tb-bet{{ ' on' if active in desk|map(attribute=0)|list }}">
         <summary>Betting desk</summary>
@@ -83,7 +85,6 @@
           {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a>{% endif %}
           <p class="tb-k">Every conference</p>
           <a href="{{ root }}{{ site_up }}at-large.html"><b>At-Large Watch</b><small>Which mid-majors could get in without the auto bid</small></a>
-          <a href="{{ root }}{{ site_up }}den.html"><b>The Den</b><small>Free daily games: Daily Five, Pick 4, Bricksanity, Brick by Brick</small></a>
           <p class="tb-k">Hardwood Bricks</p>
           <a href="{{ root }}{{ site_up }}masthead.html"><b>About and masthead</b><small>Who we are, how we work, corrections</small></a>
           <a href="{{ root }}{{ site_up }}media.html"><b>Media and credentials</b><small>For SIDs reviewing a credential request</small></a>
@@ -133,7 +134,7 @@
     <span class="yt-k">Watch</span>
     <b>MidMaxx60 on YouTube</b>
     <span class="dim">Every morning: last night's results, tonight's lines and the model, in about a minute.</span>
-    <div class="yt-links"><a class="yt-sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a><a href="{{ root }}midmaxx60.html">Read today's script →</a></div>
+    <div class="yt-links"><a class="yt-sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a></div>
   </div>
 </section>{% endif %}
 {%- endmacro %}
@@ -168,7 +169,7 @@
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
     </div>
-    <nav aria-label="Pages"><h4>Read</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages if p[0] not in desk_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}<a href="{{ root }}{{ site_up }}masthead.html">Masthead</a><a href="{{ root }}{{ site_up }}media.html">Media</a><h4 class="sf-ed">Betting desk</h4>{% for p in nav_pages if p[0] in desk_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4>{% for lg in leagues %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</nav>
+    <nav aria-label="Pages"><h4>Read</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages if p[0] not in desk_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}<a href="{{ root }}{{ site_up }}masthead.html">Masthead</a><a href="{{ root }}{{ site_up }}media.html">Media</a><h4 class="sf-ed">Betting desk</h4>{% for p in nav_pages if p[0] in desk_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4><div class="sf-eds">{% for lg in leagues|sort(attribute='short') %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</div></nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>

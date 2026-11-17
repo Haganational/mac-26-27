@@ -1,5 +1,5 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
-    Conferences sit behind one menu so the bar stays four items long at 6 editions or 27.
+    Conferences sit behind one menu so the bar stays five items long at 6 editions or 27.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
 {% macro hub_bar(eds, active="", socials=False) -%}
 <header class="bar"><div class="bar-in">
@@ -13,8 +13,9 @@
         <div class="hb-grid">{% for e in eds|sort(attribute='short', case_sensitive=False) %}<a href="{{ e.href }}" data-ed="{{ e.short|lower }} {{ e.name|lower }}"><b>{{ e.short }}</b><small>{{ e.name }}</small></a>{% endfor %}</div>
       </div>
     </details>
-    <a href="at-large.html"{% if active == 'at-large.html' %} aria-current="page"{% endif %}>At-Large</a>
+    <a class="hb-al" href="at-large.html"{% if active == 'at-large.html' %} aria-current="page"{% endif %}><span>At-Large</span></a>
     <a href="den.html"{% if active == 'den.html' %} aria-current="page"{% endif %}>The Den</a>
+    <a class="hb-watch" href="watch.html"{% if active == 'watch.html' %} aria-current="page"{% endif %}>Watch<svg class="hb-eyes" viewBox="0 0 22 10" width="22" height="10" aria-hidden="true"><ellipse cx="5" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><ellipse cx="17" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><circle cx="6" cy="5.6" r="1.9" fill="#2a1a10"/><circle cx="18" cy="5.6" r="1.9" fill="#2a1a10"/></svg></a>
     <a href="masthead.html"{% if active == 'masthead.html' %} aria-current="page"{% endif %}>About</a>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}
@@ -22,5 +23,8 @@
 <script>(function(){var d=document.currentScript.previousElementSibling.querySelector('.hb-eds');if(!d)return;
 document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus()}});
+/* Landing hello (Matthew, Nov 16 2026, a trial): At-Large swells once, then Watch's eyes blink twice. About 1.5 s,
+   on the first page of a visit only, and never for readers who ask for reduced motion. */
+try{var bar=d.closest('.bar');if(!sessionStorage.getItem('hb-hello')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.setItem('hb-hello','1');bar.classList.add('hello');setTimeout(function(){bar.classList.remove('hello')},1700)}}catch(e){}
 var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();d.querySelectorAll('[data-ed]').forEach(function(a){a.hidden=!!q&&a.dataset.ed.indexOf(q)<0})});})();</script>
 {%- endmacro %}

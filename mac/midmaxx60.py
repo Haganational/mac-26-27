@@ -21,13 +21,13 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from . import alert, anchors
+from . import alert, alumni, anchors, outro, pickem, tags
 from .config import LEAGUE, TEAMS, TEMPLATES_DIR
 
 STALE_HOURS = 6  # data older than this at render time means the collector has stopped
 MAX_SECS = 59.0  # a Short is 60 seconds at most; keep a second of margin
 # Which segments go first when the read runs long: extras, then the latest previews, then the latest results.
-DROP_FIRST = ("tuneups_next", "tuneups", "note", "standings", "ou", "move")
+DROP_FIRST = ("offcourt", "pickem", "tuneups_next", "tuneups", "note", "standings", "ou", "move")  # a game is never cut for a story
 
 W, H = 1080, 1920
 PAD = 0.45  # seconds of air after each segment
@@ -91,25 +91,42 @@ def wav_seconds(p: Path) -> float:
         return w.getnframes() / float(w.getframerate())
 
 
-def clone_all(texts: list[str], wavs: list[Path], work: Path) -> bool:
-    """Voice every segment in the cloned voice in one go (the model is slow to load).
+HOST = "host"
+ANCHOR_TEMPO = 1.08  # anchors read a touch quicker than their auditions (Matthew, Nov 14); pitch is kept
 
-    Needs VOICE_CLONE_PY (a Python with Chatterbox installed) and VOICE_REF (the reference clip).
-    Returns False, and the video falls back to Piper, if either is missing or the clone fails.
+
+def quicken(wav: Path, tempo: float = ANCHOR_TEMPO) -> None:
+    """Speed a cloned anchor line up in place without changing the pitch."""
+    tmp = wav.with_suffix(".fast.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-filter:a", f"atempo={tempo}", str(tmp)], check=True)
+    tmp.replace(wav)
+
+
+def clone_all(texts: list[str], wavs: list[Path], work: Path, refs: list[str | None] | None = None) -> bool:
+    """Voice segments in cloned voices in one go (the model is slow to load).
+
+    refs[i] is an anchor's audition clip (voices/anchors/<key>.wav), HOST for a host segment (cloned
+    from VOICE_REF, Matthew's clip, when it is set), or None to leave that segment to Piper. Needs VOICE_CLONE_PY (a Python with
+    Chatterbox installed). Returns whether the host was cloned. Anything not cloned falls back to Piper.
     """
-    py, ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
-    if not (py and ref and Path(py).exists() and Path(ref).exists()):
+    py, host_ref = os.environ.get("VOICE_CLONE_PY"), os.environ.get("VOICE_REF")
+    host_ok = bool(host_ref and Path(host_ref).exists())
+    refs = refs or [HOST] * len(texts)
+    jobs = [{"text": t, "out": str(w.resolve()), **({} if r == HOST else {"ref": r})}
+            for t, w, r in zip(texts, wavs, refs) if r and (r != HOST or host_ok)]
+    if not (py and Path(py).exists() and jobs):
         return False
-    jobs = work / "voice-jobs.json"
-    jobs.write_text(json.dumps([{"text": t, "out": str(w.resolve())} for t, w in zip(texts, wavs)]))
+    path = work / "voice-jobs.json"
+    path.write_text(json.dumps(jobs))
     tool = Path(__file__).resolve().parent.parent / "tools" / "clone_voice.py"
-    r = subprocess.run([py, str(tool), "--ref", ref, "--jobs", str(jobs)], timeout=3000)
-    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in wavs):
+    r = subprocess.run([py, str(tool), *(["--ref", host_ref] if host_ok else []), "--jobs", str(path)], timeout=3000)
+    done = [Path(j["out"]) for j in jobs]
+    if r.returncode != 0 or not all(w.exists() and w.stat().st_size > 1000 for w in done):
         print("voice clone failed; falling back to Piper", file=sys.stderr)
-        for w in wavs:
+        for w in done:
             w.unlink(missing_ok=True)
         return False
-    return True
+    return host_ok and any("ref" not in j for j in jobs)
 
 
 def speak(text: str, out: Path, voice_name: str | None = None, pace: float | None = None) -> None:
@@ -238,8 +255,12 @@ def voice_all(segs: list[dict], wavs: list[Path], work: Path) -> dict:
     for w in wavs:
         w.unlink(missing_ok=True)
     desk = [anchors.for_segment(sg) for sg in segs]
-    host = [i for i, a in enumerate(desk) if not a]
-    cloned = clone_all([spoken(segs[i]["text"]) for i in host], [wavs[i] for i in host], work) if host else False
+    anchors.dress(segs, desk)
+    refs = [HOST if not a else (str(p) if (p := anchors.audition(a["key"])) else None) for a in desk]
+    cloned = clone_all([spoken(sg["text"]) for sg in segs], wavs, work, refs)
+    for wav, r in zip(wavs, refs):
+        if r and r != HOST and wav.exists():
+            quicken(wav)
     for sg, wav, a in zip(segs, wavs, desk):
         sg["anchor"] = a
         speak(spoken(sg["text"]), wav, a["voice"] if a else None, a["pace"] if a else None)
@@ -253,6 +274,13 @@ def disclosure(cloned: bool, names: list[str]) -> str:
         out += (f"Anchors {', '.join(names)} are fictional AI personas: their faces and voices are AI-generated "
                 "and they are not affiliated with any school. ")
     return out
+
+
+def day_tags(segs: list[dict]) -> list[str]:
+    """One to three hashtags from the stories that made the cut, results first: #KentState #MACtion #Drake."""
+    where = {tm.key: (tm, lg) for lg in all_leagues() for tm in lg.teams}
+    order = [sg for sg in segs if sg.get("kind") == "result"] + [sg for sg in segs if sg.get("kind") != "result"]
+    return tags.specific(where[k] for k in (anchors.team_of(sg) for sg in order) if k in where)
 
 
 def render(t: dict, out: Path) -> Path:
@@ -270,7 +298,9 @@ def render(t: dict, out: Path) -> Path:
     wavs = [work / f"seg{i:02d}.wav" for i in range(len(segs))]
     desk = voice_all(segs, wavs, work)
     cloned = desk["cloned"]
-    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs])
+    tail = outro.for_day(datetime.fromisoformat(t["date_iso"]).date())
+    tail_secs = outro.seconds(tail)
+    keep = fit(segs, [wav_seconds(w) + PAD for w in wavs], MAX_SECS - tail_secs)  # the outro shares the 60 seconds
     dropped = [segs[i]["kind"] for i in range(len(segs)) if i not in keep]
     if dropped:
         print(f"midmaxx60: over {MAX_SECS:.0f}s, left out {', '.join(dropped)}")
@@ -337,11 +367,13 @@ def render(t: dict, out: Path) -> Path:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-f", "lavfi", "-i", f"color=c=0x{GOLD}:s={W}x{BAR_H}:r={FPS}",
                     "-filter_complex", fc, "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(video)], check=True, cwd=work)
+    outro.append(video, tail, W, H, FPS)
     (out / f"{stem}.srt").write_text("\n".join(srt))
+    (out / f"{stem}.tags").write_text(" ".join(day_tags(segs)) + "\n")
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     voiced = disclosure(cloned, desk["anchors"])
     (out / f"{stem}.txt").write_text("\n\n".join(t["paragraphs"]) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/midmaxx60.html\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
+    print(f"{video} {clock + tail_secs:.1f}s, {len(clips)} segments + {tail.stem} outro, voice: {'clone' if cloned else 'piper'}")
     return video
 
 
@@ -370,10 +402,10 @@ def check(t: dict, data_time: str, now: datetime | None = None) -> str | None:
 
 def all_leagues() -> list:
     from . import leagues
-    return [leagues.MAC, leagues.HORIZON, leagues.ASUN, leagues.MW, leagues.METRO, leagues.BIGWEST]
+    return list(leagues.ALL.values())  # every edition, MAC first; a new conference joins the Short on its own
 
 
-SAID = {"Horizon": "Horizon League"}  # how an edition's short name is read aloud
+SAID = {"Horizon": "Horizon League", "A-10": "Atlantic Ten", "Pac-12": "Pac-Twelve"}  # how an edition's short name is read aloud
 
 
 def combine(scripts: list[dict]) -> dict:
@@ -415,7 +447,13 @@ def combine(scripts: list[dict]) -> dict:
     if previews:
         previews[0]["text"] = f"{lead['slate_label']}. " + previews[0]["text"]
     outro = "That's MidMaxx60. Every line, box score and rating is at Hardwood Bricks dot com."
-    segs = [{"kind": "intro", "text": intro}, *results, *previews, {"kind": "outro", "text": outro}]
+    # Off the court: one alumni story from a school with a result tonight, when the 60 seconds have room (fit()).
+    teams = {tm.key: tm for lg in all_leagues() for tm in lg.teams}
+    on_air = [k for k in (anchors.team_of(sg) for sg in results) if k in teams]
+    story = [sg for k in alumni.choose(on_air, lead["date_iso"]) if (sg := alumni.segment(k, lead["date_iso"], teams[k].short, teams[k].color))]
+    # Anchor Pick'em: the anchor with tonight's desk calls their four (the Den's Beat the Desk ledger), room permitting.
+    desk = [sg] if (sg := pickem.segment(lead["date_iso"])) else []
+    segs = [{"kind": "intro", "text": intro}, *results, *previews, *desk, *story, {"kind": "outro", "text": outro}]
     return {**{k: lead[k] for k in ("date_label", "date_iso", "results_label", "slate_label")},
             "league_label": "mid-majors", "paragraphs": [sg["text"] for sg in segs], "segments": segs,
             "results": [r for t in scripts for r in t.get("results", [])], "previews": [p for t in scripts for p in t.get("previews", [])],

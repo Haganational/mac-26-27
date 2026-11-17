@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="impact-site-verification" value="e531e9e2-a768-4660-ab40-1912a3fd399b">
-<title>Hardwood Bricks: {{ names }} men's basketball scores, box scores and lines</title>
-<meta name="description" content="Every {{ names }} men's basketball game, {{ season }}: tonight's schedule and TV, final scores with a written recap and box score, player pages, lines and ratings.">
+<title>Hardwood Bricks: mid-major men's basketball scores, box scores and lines</title>
+<meta name="description" content="Every men's basketball game in {{ n_conf }} mid-major conferences, {{ season }}: tonight's schedule and TV, final scores with a written recap and box score, player pages, lines and ratings.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hardwood Bricks">
-<meta property="og:title" content="Hardwood Bricks: {{ names }} men's basketball">
-<meta property="og:description" content="Tonight's games, last night's finals, box scores and recaps for every team in the {{ names }}.">
+<meta property="og:title" content="Hardwood Bricks: mid-major men's basketball">
+<meta property="og:description" content="Tonight's games, last night's finals, box scores and recaps for {{ n_schools }} teams in {{ n_conf }} mid-major conferences.">
 <meta property="og:url" content="{{ base }}">
 <meta property="og:image" content="{{ base }}static/og/site.png">
 <meta property="og:image:width" content="1200">
@@ -28,39 +28,88 @@
 <body>
 {% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True) }}
 <div class="bricks" aria-hidden="true"></div>
+{% macro conf_tile(e) %}{% set top = tops.get(e.key) %}
+    <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
+      <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
+      {% if top %}<a class="top" href="{{ top.href }}">{{ top.title|nobreak }}</a>
+      {% elif e.finals %}{% set g = e.finals[0] %}<a class="top" href="{{ g.href }}">{% if g.away_win %}{{ g.away_name }} {{ g.away_score }}, {{ g.home_name }} {{ g.home_score }}{% else %}{{ g.home_name }} {{ g.home_score }}, {{ g.away_name }} {{ g.away_score }}{% endif %}</a>
+      {% else %}<p class="rg">{{ e.region }}</p>{% endif %}
+      <p class="go"><a href="{{ e.href }}">Front page</a>{% if e.weekly %} · <a href="{{ e.prefix }}weekly.html">BricksIt Weekly</a>{% endif %}</p>
+      <details><summary>{{ e.n_teams }} teams</summary><ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul></details>
+    </section>
+{% endmacro %}
 <main>
-  <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span>{{ names }} · {{ season }}</span></div>
-  <h1 style="position:absolute;left:-9999px">Hardwood Bricks: {{ names }} men's basketball, every game</h1>
+  <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span title="{{ names }}">{{ n_conf }} conferences · {{ n_schools }} schools · {{ season }}</span></div>
+  <h1 style="position:absolute;left:-9999px">Hardwood Bricks: mid-major men's basketball, every game, in {{ n_conf }} conferences: {{ names }}</h1>
 
+  {% if weave %}
+  {#- MIDnight Weave top billing: leads the page until 11:59 AM ET the day after the show (the script hides it once that passes). -#}
+  <section class="weave" id="weave" data-until="{{ weave.until_ms }}" aria-labelledby="h-weave">
+    <div class="weave-vid"><div class="hl-frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ weave.youtube }}?rel=0" title="MIDnight Weave: {{ weave.title }}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div></div>
+    <div class="weave-txt">
+      <p class="weave-show">MID<b>night</b> Weave <span>The Mid-Majors tonight</span></p>
+      <h2 id="h-weave"><a href="https://youtu.be/{{ weave.youtube }}">{{ weave.title|nobreak }}</a></h2>
+      {% if weave.dek %}<p class="weave-dek">{{ weave.dek }}</p>{% endif %}
+      {% if weave.cast %}<p class="weave-cast">{{ weave.cast }}</p>{% endif %}
+      <a class="weave-go" href="https://youtu.be/{{ weave.youtube }}">Watch on YouTube ↗</a>
+    </div>
+  </section>
+  <script>(function(){var w=document.getElementById('weave');if(w&&Date.now()>+w.dataset.until)w.remove();})();</script>
+  {% endif %}
   <div class="front">
     <div>
       {% if lead %}
-      <a class="lead{{ '' if lead.image else ' noimg' }}" href="{{ lead.href }}">
-        {% if lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}
-        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}</span>
-        <h2>{{ lead.title }}</h2>
+      {#- The lead's picture: the ESPN highlight if there is one, else a game photo, else the score card.
+          With the card the headline already gives the score, so the dek (which opens with it again) is left off. -#}
+      {% if lead.clip %}
+      {#- With an ESPN highlight the story leads and the clip sits under its headline, captioned, so it reads as part of the recap. -#}
+      <article class="lead lead-v" style="--c:{{ lead.color }}">
+        <a class="lead-hd" href="{{ lead.href }}">
+          <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }} · {{ lead.age }}{% if lead.fs and lead.fs.why %}<span class="why">{{ lead.fs.why }}</span>{% endif %}</span>
+          <h2>{{ lead.title|nobreak }}</h2>
+        </a>
+        <figure class="lead-clip"><div class="hl-frame"><iframe src="{{ lead.clip }}" title="Highlights: {{ lead.title }}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          <figcaption><span>▶ Highlights</span> {{ lead.title|nobreak }} · Video: ESPN</figcaption></figure>
         {% if lead.dek %}<p>{{ lead.dek }}</p>{% endif %}
-      </a>
+        <a class="lead-more" href="{{ lead.href }}">Read the recap and box score →</a>
+      </article>
       {% else %}
-      <div class="lead noimg"><h2>{{ names }} men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
+      <a class="lead{{ '' if lead.image or lead.photo else ' noimg' }}" href="{{ lead.href }}">
+        {% if lead.photo %}<img class="lead-photo" src="{{ lead.photo }}" alt="" loading="eager">{% elif lead.image %}<img src="{{ lead.image }}" alt="" width="1200" height="630">{% endif %}
+        <span class="kick" style="--c:{{ lead.color }}"><span class="cf">{{ lead.league }}</span>{{ 'Recap' if lead.kind == 'recap' else 'Preview' }}{% if lead.video %} · ▶ Video{% endif %} · {{ lead.age }}{% if lead.fs and lead.fs.why %}<span class="why">{{ lead.fs.why }}</span>{% endif %}</span>
+        <h2>{{ lead.title|nobreak }}</h2>
+        {% if lead.dek and (lead.photo or not lead.image) %}<p>{{ lead.dek }}</p>{% endif %}
+      </a>
+      {% endif %}
+      {% else %}
+      <div class="lead noimg"><h2>Mid-major men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
       {% endif %}
       {% if cards %}
       <div class="cards">
-        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}</span><h3>{{ c.title }}</h3></a>{% endfor %}
+        {% for c in cards %}<a href="{{ c.href }}"><img src="{{ c.image }}" alt="" width="1200" height="630" loading="lazy"><span class="kick" style="--c:{{ c.color }}"><span class="cf">{{ c.league }}</span>{% if c.video %}▶ Video · {% endif %}{{ c.age }}{% if c.fs and c.fs.why %}<span class="why">{{ c.fs.why }}</span>{% endif %}</span><h3>{{ c.title|nobreak }}</h3></a>{% endfor %}
       </div>
       {% endif %}
     </div>
     <aside class="rail">
+      {% if home %}
+      <section class="home-desk" aria-labelledby="h-home">
+        <div class="sh"><h2 id="h-home">Home desk</h2><span class="sub">MAC · Horizon</span></div>
+        <ul>{% for h in home %}<li><a class="hd" href="{{ h.href }}"><span class="kick" style="--c:{{ h.color }}"><span class="cf">{{ h.league }}</span></span>{% if h.pin %}<b class="pin">{{ h.short }}</b>{% else %}<b>{{ h.short }}</b>{% endif %}</a>
+          {% if h.last %}<span class="ln">{% if h.last_href %}<a href="{{ h.last_href }}">{{ h.last }}</a>{% else %}{{ h.last }}{% endif %}</span>{% endif %}
+          {% if h.next %}<span class="nx">Next: {{ h.next }}</span>{% endif %}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
       <section aria-labelledby="h-tonight">
         <div class="sh"><h2 id="h-tonight">Next up</h2></div>
         {% if tonight %}<ul class="tn">{% for g in tonight %}<li><a href="{{ g.href }}"><span class="kick" style="--c:{{ g.color }}"><span class="cf">{{ g.league }}</span></span><span class="tm">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %}<small>{{ g.tv }}</small>{% endif %}</span><span class="hd">{{ g.away_name }} at {{ g.home_name }}</span></a></li>{% endfor %}</ul>
         {% else %}<p class="none">No games on the board.</p>{% endif %}
         {% if den %}<a class="den-tz" href="den.html"><span class="kick">The Den</span><span>Tonight's Bricksanity: {{ den.eligible }} team{{ '' if den.eligible == 1 else 's' }} eligible</span></a>{% endif %}
+        <a class="den-tz watch-tz" href="watch.html"><span class="kick">Watch</span><span>MidMaxx60 this morning, The Big Mid this week, and the anchor desk</span></a>
       </section>
       {% if river %}
       <section aria-labelledby="h-wire">
         <div class="sh"><h2 id="h-wire">Latest recaps</h2></div>
-        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{% if s.video %}▶ Video · {% endif %}{{ s.age }}</span><span class="hd">{{ s.title }}</span></a></li>{% endfor %}</ul>
+        <ul class="wire">{% for s in river %}<li><a href="{{ s.href }}"><span class="kick" style="--c:{{ s.color }}"><span class="cf">{{ s.league }}</span>{% if s.video %}▶ Video · {% endif %}{{ s.age }}</span><span class="hd">{{ s.title|nobreak }}</span></a></li>{% endfor %}</ul>
       </section>
       {% endif %}
     </aside>
@@ -81,21 +130,16 @@
   </section>
   {% endif %}
 
+  <section class="confs-wrap" aria-labelledby="h-confs">
+  <div class="sh"><h2 id="h-confs">Every conference</h2><span class="sub">Each edition's top story</span></div>
   <div class="confs">
-  {% for e in eds %}
-    <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
-      <h2 id="h-{{ e.key }}"><a href="{{ e.href }}">{{ e.name }}</a></h2>
-      <p class="rg">{{ e.n_teams }} teams · {{ e.region }}</p>
-      <a class="go" href="{{ e.href }}">{{ e.short }} front page →</a>
-      {% if e.weekly %}<a class="go" href="{{ e.prefix }}weekly.html">BricksIt Weekly →</a>{% endif %}
-      {% if e.finals %}<ul class="fin">{% for g in e.finals[:3] %}<li><a href="{{ g.href }}">{% if g.away_win %}<b>{{ g.away_name }} {{ g.away_score }}</b>, {{ g.home_name }} {{ g.home_score }}{% else %}<b>{{ g.home_name }} {{ g.home_score }}</b>, {{ g.away_name }} {{ g.away_score }}{% endif %}</a></li>{% endfor %}</ul>{% endif %}
-      <ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul>
-    </section>
-  {% endfor %}
+  {% for e in eds|sort(attribute='short') if e.key in ('mac', 'horizon') %}{{ conf_tile(e) }}{% endfor %}
+  {% for e in eds|sort(attribute='short') if e.key not in ('mac', 'horizon') %}{{ conf_tile(e) }}{% endfor %}
   </div>
+  </section>
 
   <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>
-<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="den.html">The Den</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
 </body>
 </html>

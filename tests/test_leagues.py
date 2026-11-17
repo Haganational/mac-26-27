@@ -100,6 +100,138 @@ def test_atlantic_10_names():
     assert lg.team_for_odds_name("Colorado St Rams") is None
 
 
+def test_pac_12_names():
+    lg = leagues.PAC12
+    assert lg.path == "pac12/" and len(lg.teams) == 9 and lg.theme == "timber"
+    assert lg.team_for_odds_name("San Diego St Aztecs") == "san-diego-state"
+    assert lg.team_for_odds_name("Colorado St Rams") == "colorado-state"
+    assert lg.team_for_odds_name("Washington St Cougars") == "washington-state"
+    assert lg.team_for_odds_name("Gonzaga Bulldogs") == "gonzaga"
+    assert lg.team_for_odds_name("San Diego Toreros") is None  # WCC
+    # The five schools that left are gone from the Mountain West edition.
+    assert not {t.key for t in lg.teams} & {t.key for t in leagues.MW.teams}
+
+
+def test_wcc_names():
+    lg = leagues.WCC
+    assert lg.path == "wcc/" and len(lg.teams) == 10 and lg.theme == "mission"
+    assert lg.team_for_odds_name("San Diego Toreros") == "san-diego"
+    assert lg.team_for_odds_name("Seattle Redhawks") == "seattle"
+    assert lg.team_for_odds_name("Saint Mary's Gaels") == "saint-marys"
+    assert lg.team_for_odds_name("Mt. St. Mary's Mountaineers") is None  # Metro
+    assert lg.team_for_odds_name("Portland St Vikings") is None
+    assert lg.team_for_odds_name("UC San Diego Tritons") is None  # Big West until 2027-28
+
+
+def test_american_names():
+    lg = leagues.AMERICAN
+    assert lg.path == "american/" and len(lg.teams) == 13 and lg.theme == "levee"
+    assert lg.team_for_odds_name("Wichita St Shockers") == "wichita-state"
+    assert lg.team_for_odds_name("Florida Atlantic Owls") == "fau"
+    assert lg.team_for_odds_name("Memphis Tigers") == "memphis"
+    assert lg.team_for_odds_name("Rice Owls") == "rice"
+    assert lg.team_for_odds_name("Kennesaw St Owls") is None  # CUSA
+
+
+def test_sun_belt_names():
+    lg = leagues.SUNBELT
+    assert lg.path == "sunbelt/" and len(lg.teams) == 14 and lg.theme == "liveoak"
+    assert lg.team_for_odds_name("Appalachian St Mountaineers") == "app-state"
+    assert lg.team_for_odds_name("Arkansas St Red Wolves") == "arkansas-state"
+    assert lg.team_for_odds_name("Georgia St Panthers") == "georgia-state"
+    assert lg.team_for_odds_name("Louisiana Ragin' Cajuns") == "louisiana"
+    assert lg.team_for_odds_name("Louisiana Tech Bulldogs") == "louisiana-tech"
+    assert lg.team_for_odds_name("SE Louisiana Lions") is None  # Southland
+    assert lg.team_for_odds_name("Texas St Bobcats") is None  # Pac-12 now
+
+
+def test_ivy_and_caa_names():
+    assert leagues.IVY.path == "ivy/" and len(leagues.IVY.teams) == 8 and leagues.IVY.theme == "quad"
+    assert leagues.CAA.path == "caa/" and len(leagues.CAA.teams) == 13 and leagues.CAA.theme == "harbor"
+    assert leagues.IVY.team_for_odds_name("Pennsylvania Quakers") == "penn"
+    assert leagues.IVY.team_for_odds_name("Penn State Nittany Lions") is None
+    assert leagues.CAA.team_for_odds_name("Charleston Cougars") == "charleston"
+    assert leagues.CAA.team_for_odds_name("Charleston Southern Buccaneers") is None  # Big South
+    assert leagues.CAA.team_for_odds_name("UNC Wilmington Seahawks") == "uncw"
+
+
+def test_cusa_and_socon_names():
+    assert leagues.CUSA.path == "cusa/" and len(leagues.CUSA.teams) == 10 and leagues.CUSA.theme == "watertower"
+    assert leagues.SOCON.path == "socon/" and len(leagues.SOCON.teams) == 11 and leagues.SOCON.theme == "blueridge"
+    assert leagues.CUSA.team_for_odds_name("Florida Int'l Golden Panthers") == "fiu"
+    assert leagues.CUSA.team_for_odds_name("Sam Houston St Bearkats") == "sam-houston"
+    assert leagues.SOCON.team_for_odds_name("Citadel Bulldogs") == "the-citadel"
+    assert leagues.SOCON.team_for_odds_name("East Tennessee St Buccaneers") == "etsu"
+
+
+def test_big_sky_and_southland_names():
+    assert leagues.BIGSKY.path == "bigsky/" and len(leagues.BIGSKY.teams) == 11 and leagues.BIGSKY.theme == "peaks"
+    assert leagues.SOUTHLAND.path == "southland/" and len(leagues.SOUTHLAND.teams) == 12 and leagues.SOUTHLAND.theme == "bayou"
+    assert leagues.BIGSKY.team_for_odds_name("N Colorado Bears") == "northern-colorado"
+    assert leagues.BIGSKY.team_for_odds_name("Portland Pilots") is None  # WCC
+    assert leagues.SOUTHLAND.team_for_odds_name("Texas A&M-CC Islanders") == "texas-am-cc"
+    assert leagues.SOUTHLAND.team_for_odds_name("Nicholls St Colonels") == "nicholls"
+
+
+def test_summit_and_uac_names():
+    assert leagues.SUMMIT.path == "summit/" and len(leagues.SUMMIT.teams) == 8 and leagues.SUMMIT.theme == "prairie"
+    assert leagues.UAC.path == "uac/" and len(leagues.UAC.teams) == 9 and leagues.UAC.theme == "silo"
+    assert leagues.SUMMIT.team_for_odds_name("UMKC Kangaroos") == "kansas-city"
+    assert leagues.SUMMIT.team_for_odds_name("St. Thomas (MN) Tommies") == "st-thomas"
+    assert leagues.UAC.team_for_odds_name("UT-Arlington Mavericks") == "ut-arlington"
+    assert leagues.UAC.team_for_odds_name("North Texas Mean Green") is None
+
+
+def test_big_south_and_ovc_names():
+    assert leagues.BIGSOUTH.path == "bigsouth/" and len(leagues.BIGSOUTH.teams) == 9 and leagues.BIGSOUTH.theme == "porch"
+    assert leagues.OVC.path == "ovc/" and len(leagues.OVC.teams) == 9 and leagues.OVC.theme == "riverboat"
+    assert leagues.BIGSOUTH.team_for_odds_name("Gardner-Webb Bulldogs") == "gardner-webb"
+    assert leagues.BIGSOUTH.team_for_odds_name("Charleston Southern Buccaneers") == "charleston-southern"
+    assert leagues.OVC.team_for_odds_name("Tenn-Martin Skyhawks") == "ut-martin"
+    assert leagues.OVC.team_for_odds_name("SIU-Edwardsville Cougars") == "siue"
+
+
+def test_america_east_and_patriot_names():
+    assert leagues.AMEAST.path == "americaeast/" and len(leagues.AMEAST.teams) == 9 and leagues.AMEAST.theme == "covered"
+    assert leagues.PATRIOT.path == "patriot/" and len(leagues.PATRIOT.teams) == 10 and leagues.PATRIOT.theme == "colonial"
+    assert leagues.AMEAST.team_for_odds_name("Albany Great Danes") == "ualbany"
+    assert leagues.AMEAST.team_for_odds_name("UMass Lowell River Hawks") == "umass-lowell"
+    assert leagues.PATRIOT.team_for_odds_name("Boston Univ. Terriers") == "boston-u"
+    assert leagues.PATRIOT.team_for_odds_name("Loyola (MD) Greyhounds") == "loyola-md"
+    assert leagues.PATRIOT.team_for_odds_name("American Eagles") == "american-u"
+
+
+def test_nec_and_meac_names():
+    assert leagues.NEC.path == "nec/" and len(leagues.NEC.teams) == 9 and leagues.NEC.theme == "lighthouse"
+    assert leagues.MEAC.path == "meac/" and len(leagues.MEAC.teams) == 8 and leagues.MEAC.theme == "chesapeake"
+    assert leagues.NEC.team_for_odds_name("Central Connecticut St Blue Devils") == "central-connecticut"
+    assert leagues.NEC.team_for_odds_name("LIU Sharks") == "liu"
+    assert leagues.MEAC.team_for_odds_name("Maryland-Eastern Shore Hawks") == "umes"
+    assert leagues.MEAC.team_for_odds_name("Coppin St Eagles") == "coppin-state"
+    assert leagues.MEAC.team_for_odds_name("Howard Bison") == "howard"
+
+
+def test_swac_names():
+    assert leagues.SWAC.path == "swac/" and len(leagues.SWAC.teams) == 12 and leagues.SWAC.theme == "liveoak"
+    assert leagues.SWAC.team_for_odds_name("Miss Valley St Delta Devils") == "mvsu"
+    assert leagues.SWAC.team_for_odds_name("Grambling St Tigers") == "grambling"
+    assert leagues.SWAC.team_for_odds_name("Southern Jaguars") == "southern-u"
+    assert leagues.SWAC.team_for_odds_name("South Alabama Jaguars") is None
+
+
+def test_every_school_is_in_one_edition_and_editions_match_the_registry():
+    import json
+    seen = {}
+    for lg in leagues.ALL.values():
+        for t in lg.teams:
+            assert t.key not in seen, f"{t.key} is in {seen[t.key]} and {lg.key}"
+            seen[t.key] = lg.key
+    reg = {c["id"]: set(c["teams"]) for c in json.loads((leagues.ROOT / "data/book/conferences.json").read_text())["conferences"]}
+    groups = {"swac": "26", "nec": "19", "meac": "16", "americaeast": "1", "patriot": "22", "bigsouth": "6", "ovc": "20", "summit": "49", "uac": "30", "bigsky": "5", "southland": "25", "cusa": "11", "socon": "24", "ivy": "12", "caa": "10", "american": "62", "sunbelt": "27", "pac12": "21", "wcc": "29", "a10": "3", "mvc": "18"}
+    for key, gid in groups.items():
+        assert {t.espn_id for t in leagues.ALL[key].teams} == reg[gid], key
+
+
 def test_no_odds_name_belongs_to_two_editions():
     from mac import book
     names = {n for s in book.load_odds() for e in s["events"] for n in (e[2], e[3])}
@@ -111,9 +243,37 @@ def test_no_odds_name_belongs_to_two_editions():
 def test_social_tags_are_single_words_and_league_feeds_are_hosts():
     import re
     tags = {lg.key: re.sub(r"\W", "", lg.hashtag or lg.short) for lg in leagues.ALL.values()}
-    assert tags == {"mac": "MAC", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
+    assert tags == {"mac": "MACtion", "asun": "ASUN", "horizon": "HorizonLeague", "mw": "MountainWest",
                     "metro": "MetroConference", "bigwest": "BigWest",
-                    "mvc": "MVCHoops", "a10": "A10MBB"}
+                    "mvc": "MVCHoops", "a10": "A10MBB",
+                    "pac12": "Pac12MBB", "wcc": "WCCHoops",
+                    "american": "AmericanMBB", "sunbelt": "SunBeltMBB",
+                    "ivy": "IvyMBB", "caa": "CAAHoops",
+                    "cusa": "CUSAMBB", "socon": "SoConMBB",
+                    "bigsky": "BigSkyMBB", "southland": "SouthlandMBB",
+                    "summit": "SummitMBB", "uac": "UACMBB",
+                    "bigsouth": "BigSouthMBB", "ovc": "OVCMBB",
+                    "americaeast": "AEHoops", "patriot": "PatriotLeagueMBB",
+                    "nec": "NECMBB", "meac": "MEACMBB", "swac": "SWACMBB"}
     for lg in leagues.ALL.values():
         if lg.league_feed:
             assert re.fullmatch(r"[a-z0-9.-]+\.[a-z]+", lg.league_feed[0]) and lg.league_feed[0] in lg.league_feed[1]
+
+
+def test_two_word_mascots_come_off_school_names():
+    from mac.build import school
+    assert school("Southern Indiana Screaming Eagles") == "Southern Indiana"
+    assert school("Nevada Wolf Pack") == "Nevada"
+    assert school("DePaul Blue Demons") == "DePaul"
+    assert school("UMass Lowell River Hawks") == "UMass Lowell"
+    assert school("Louisiana Ragin' Cajuns") == "Louisiana"
+    assert school("Gardner-Webb Runnin' Bulldogs") == "Gardner-Webb"
+    assert school("Akron Zips") == "Akron"
+
+
+def test_every_news_pattern_finds_its_own_school():
+    import re
+    for lg in leagues.ALL.values():
+        for key, v in (lg.news_names or {}).items():
+            assert not any("\\\\" in m for m in v["match"]), (lg.key, key)  # a doubled backslash matches nothing real
+            assert any(re.search(m, v["query"]) for m in v["match"]), (lg.key, key)

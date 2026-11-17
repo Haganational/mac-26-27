@@ -7,7 +7,7 @@ name: Collector heartbeat
 # of itself before the 6-hour job limit. Runner minutes are free on a public repo.
 # The cron below only restarts the loop if it ever stops; the newest heartbeat
 # cancels any older one, so only one runs at a time. It also starts the daily
-# MidMaxx60 video at 13:00 UTC (8 a.m. Eastern).
+# MidMaxx60 video at 13:00 UTC (8 a.m. Eastern) and the social cards at 13:30 UTC.
 
 on:
   workflow_dispatch:
@@ -52,6 +52,10 @@ jobs:
             # MidMaxx60's own 8 a.m. ET cron is just as unreliable, so the heartbeat starts it too.
             if [ "$(date -u +%H:%M)" = "13:00" ]; then
               gh workflow run midmaxx60.yml --ref main || echo "MidMaxx60 dispatch failed"
+            fi
+            # The morning image posts (Players of the Night, Bricked, Tonight's Four, Beat the Desk).
+            if [ "$(date -u +%H:%M)" = "13:30" ]; then
+              gh workflow run social_cards.yml --ref main || echo "Social cards dispatch failed"
             fi
           done
       - name: Hand off to a fresh heartbeat

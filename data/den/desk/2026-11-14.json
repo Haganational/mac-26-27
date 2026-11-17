@@ -2,29 +2,29 @@
  "date": "2026-11-14",
  "desk": {
   "anchor": {
-   "alt": "Marcus Vance, the Akron AI anchor",
-   "color": "#041E42",
-   "color2": "#A89968",
-   "initials": "MV",
+   "alt": "Nadia Haddad, the Detroit Mercy AI anchor",
+   "color": "#A5093E",
+   "color2": "#002D72",
+   "initials": "NH",
    "ink": "#ffffff",
-   "key": "akron",
-   "name": "Marcus Vance",
-   "portrait": "den/anchors/akron.webp",
-   "school": "Akron",
+   "key": "detroit-mercy",
+   "name": "Nadia Haddad",
+   "portrait": "den/anchors/detroit-mercy.webp",
+   "school": "Detroit Mercy",
    "tag": "AI anchor"
   },
-  "max": 147,
+  "max": 184,
   "picks": [
    {
-    "abbr": "AKR",
-    "game_id": "401919004",
+    "abbr": "DETM",
+    "game_id": "401928804",
     "kind": "homer",
-    "short": "Akron",
+    "short": "Detroit Mercy",
     "side": "home",
-    "team_id": "2006",
-    "tip": "2026-11-14T17:00Z",
+    "team_id": "2174",
+    "tip": "2026-11-14T21:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 14
+    "worth": 82
    },
    {
     "abbr": "UCR",
@@ -34,8 +34,8 @@
     "side": "away",
     "team_id": "27",
     "tip": "2026-11-14T23:00Z",
-    "why": "Our ratings 64%, pregame win chance 35%.",
-    "worth": 65
+    "why": "Our ratings 64%, pregame win chance 39%.",
+    "worth": 61
    },
    {
     "abbr": "WYO",
@@ -45,19 +45,19 @@
     "side": "away",
     "team_id": "2751",
     "tip": "2026-11-14T20:00Z",
-    "why": "Our ratings 53%, pregame win chance 74%.",
-    "worth": 26
+    "why": "Our ratings 53%, pregame win chance 73%.",
+    "worth": 27
    },
    {
-    "abbr": "SAC",
-    "game_id": "401911520",
+    "abbr": "GMU",
+    "game_id": "401920074",
     "kind": "ratings",
-    "short": "Sacramento St",
-    "side": "home",
-    "team_id": "16",
-    "tip": "2026-11-15T01:00Z",
-    "why": "Our ratings 78%, pregame win chance 58%.",
-    "worth": 42
+    "short": "George Mason",
+    "side": "away",
+    "team_id": "2244",
+    "tip": "2026-11-14T18:00Z",
+    "why": "Our ratings 68%, pregame win chance 86%.",
+    "worth": 14
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -73,6 +73,30 @@
    "team_id": "2006",
    "tip": "2026-11-14T17:00Z",
    "why": "Homer pick.",
+   "worth": 15
+  },
+  {
+   "abbr": "BRAD",
+   "game_id": "401920074",
+   "key": "bradley",
+   "kind": "homer",
+   "short": "Bradley",
+   "side": "away",
+   "team_id": "71",
+   "tip": "2026-11-14T18:00Z",
+   "why": "Homer pick.",
+   "worth": 86
+  },
+  {
+   "abbr": "GMU",
+   "game_id": "401920074",
+   "key": "george-mason",
+   "kind": "homer",
+   "short": "George Mason",
+   "side": "home",
+   "team_id": "2244",
+   "tip": "2026-11-14T18:00Z",
+   "why": "Homer pick.",
    "worth": 14
   },
   {
@@ -85,7 +109,31 @@
    "team_id": "2754",
    "tip": "2026-11-14T18:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 51
+  },
+  {
+   "abbr": "LUC",
+   "game_id": "401911231",
+   "key": "loyola-chicago",
+   "kind": "homer",
+   "short": "Loyola Chicago",
+   "side": "away",
+   "team_id": "2350",
+   "tip": "2026-11-14T18:30Z",
+   "why": "Homer pick.",
+   "worth": 76
+  },
+  {
+   "abbr": "EVAN",
+   "game_id": "401911015",
+   "key": "evansville",
+   "kind": "homer",
+   "short": "Evansville",
+   "side": "home",
+   "team_id": "339",
+   "tip": "2026-11-14T19:00Z",
+   "why": "Homer pick.",
+   "worth": 78
   },
   {
    "abbr": "M-OH",
@@ -109,7 +157,7 @@
    "team_id": "91",
    "tip": "2026-11-14T19:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 53
   },
   {
    "abbr": "NIU",
@@ -121,7 +169,7 @@
    "team_id": "2459",
    "tip": "2026-11-14T19:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 47
   },
   {
    "abbr": "UNF",
@@ -133,7 +181,7 @@
    "team_id": "2454",
    "tip": "2026-11-14T19:00Z",
    "why": "Homer pick.",
-   "worth": 38
+   "worth": 39
   },
   {
    "abbr": "QUC",
@@ -145,7 +193,7 @@
    "team_id": "2511",
    "tip": "2026-11-14T19:00Z",
    "why": "Homer pick.",
-   "worth": 30
+   "worth": 31
   },
   {
    "abbr": "WYO",
@@ -157,7 +205,7 @@
    "team_id": "2751",
    "tip": "2026-11-14T20:00Z",
    "why": "Homer pick.",
-   "worth": 26
+   "worth": 27
   },
   {
    "abbr": "NKU",
@@ -169,7 +217,7 @@
    "team_id": "94",
    "tip": "2026-11-14T20:30Z",
    "why": "Homer pick.",
-   "worth": 39
+   "worth": 41
   },
   {
    "abbr": "CMU",
@@ -181,7 +229,19 @@
    "team_id": "2117",
    "tip": "2026-11-14T20:30Z",
    "why": "Homer pick.",
-   "worth": 61
+   "worth": 59
+  },
+  {
+   "abbr": "SBU",
+   "game_id": "401911264",
+   "key": "st-bonaventure",
+   "kind": "homer",
+   "short": "St. Bonaventure",
+   "side": "home",
+   "team_id": "179",
+   "tip": "2026-11-14T21:00Z",
+   "why": "Homer pick.",
+   "worth": 9
   },
   {
    "abbr": "DETM",
@@ -193,7 +253,7 @@
    "team_id": "2174",
    "tip": "2026-11-14T21:00Z",
    "why": "Homer pick.",
-   "worth": 84
+   "worth": 81
   },
   {
    "abbr": "TOL",
@@ -205,7 +265,7 @@
    "team_id": "2649",
    "tip": "2026-11-14T21:00Z",
    "why": "Homer pick.",
-   "worth": 16
+   "worth": 19
   },
   {
    "abbr": "OAK",
@@ -220,6 +280,18 @@
    "worth": 48
   },
   {
+   "abbr": "UNI",
+   "game_id": "401927387",
+   "key": "northern-iowa",
+   "kind": "homer",
+   "short": "Northern Iowa",
+   "side": "away",
+   "team_id": "2460",
+   "tip": "2026-11-14T22:00Z",
+   "why": "Homer pick.",
+   "worth": 52
+  },
+  {
    "abbr": "MAN",
    "game_id": "401919782",
    "key": "manhattan",
@@ -229,7 +301,7 @@
    "team_id": "2363",
    "tip": "2026-11-14T23:00Z",
    "why": "Homer pick.",
-   "worth": 57
+   "worth": 55
   },
   {
    "abbr": "UCR",
@@ -241,7 +313,19 @@
    "team_id": "27",
    "tip": "2026-11-14T23:00Z",
    "why": "Homer pick.",
-   "worth": 65
+   "worth": 60
+  },
+  {
+   "abbr": "JOES",
+   "game_id": "401920193",
+   "key": "saint-josephs",
+   "kind": "homer",
+   "short": "Saint Joseph's",
+   "side": "home",
+   "team_id": "2603",
+   "tip": "2026-11-14T23:30Z",
+   "why": "Homer pick.",
+   "worth": 39
   },
   {
    "abbr": "SIE",
@@ -253,7 +337,7 @@
    "team_id": "2561",
    "tip": "2026-11-15T00:00Z",
    "why": "Homer pick.",
-   "worth": 16
+   "worth": 19
   },
   {
    "abbr": "LIP",
@@ -265,7 +349,7 @@
    "team_id": "288",
    "tip": "2026-11-15T00:00Z",
    "why": "Homer pick.",
-   "worth": 60
+   "worth": 62
   },
   {
    "abbr": "FAIR",
@@ -292,6 +376,42 @@
    "worth": 97
   },
   {
+   "abbr": "DAV",
+   "game_id": "401925774",
+   "key": "davidson",
+   "kind": "homer",
+   "short": "Davidson",
+   "side": "home",
+   "team_id": "2166",
+   "tip": "2026-11-15T00:00Z",
+   "why": "Homer pick.",
+   "worth": 18
+  },
+  {
+   "abbr": "DAY",
+   "game_id": "401911188",
+   "key": "dayton",
+   "kind": "homer",
+   "short": "Dayton",
+   "side": "home",
+   "team_id": "2168",
+   "tip": "2026-11-15T00:30Z",
+   "why": "Homer pick.",
+   "worth": 70
+  },
+  {
+   "abbr": "DUQ",
+   "game_id": "401911276",
+   "key": "duquesne",
+   "kind": "homer",
+   "short": "Duquesne",
+   "side": "home",
+   "team_id": "2184",
+   "tip": "2026-11-15T00:30Z",
+   "why": "Homer pick.",
+   "worth": 7
+  },
+  {
    "abbr": "IUIN",
    "game_id": "401920961",
    "key": "iu-indy",
@@ -301,7 +421,7 @@
    "team_id": "85",
    "tip": "2026-11-15T00:30Z",
    "why": "Homer pick.",
-   "worth": 44
+   "worth": 45
   },
   {
    "abbr": "GCU",
@@ -325,7 +445,7 @@
    "team_id": "16",
    "tip": "2026-11-15T01:00Z",
    "why": "Homer pick.",
-   "worth": 42
+   "worth": 40
   },
   {
    "abbr": "UCD",
@@ -337,7 +457,19 @@
    "team_id": "302",
    "tip": "2026-11-15T01:00Z",
    "why": "Homer pick.",
-   "worth": 58
+   "worth": 60
+  },
+  {
+   "abbr": "BEL",
+   "game_id": "401920760",
+   "key": "belmont",
+   "kind": "homer",
+   "short": "Belmont",
+   "side": "home",
+   "team_id": "2057",
+   "tip": "2026-11-15T01:30Z",
+   "why": "Homer pick.",
+   "worth": 43
   },
   {
    "abbr": "NEV",
@@ -373,7 +505,7 @@
    "team_id": "167",
    "tip": "2026-11-15T03:00Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 46
   }
  ]
 }

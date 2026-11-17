@@ -1,0 +1,1489 @@
+{
+ "_help": "CAA local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "campbell": {
+   "town": "Buies Creek",
+   "home_floor": "the John W. Pope Jr. Convocation Center",
+   "home_lines": [
+    {
+     "text": "Campbell has played at the John W. Pope Jr. Convocation Center in Buies Creek since 2008, after playing in Carter Gymnasium from 1953 to 2008.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_Fighting_Camels_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Campbell's John W. Pope Jr. Convocation Center replaced Carter Gymnasium, which held just 947 seats and was the second-smallest gym in Division I basketball.",
+     "source": "https://en.wikipedia.org/wiki/Gore_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The arena at Campbell's Pope Convocation Center, Gore Arena, is named for Gilbert Craig Gore, the late son of a Campbell alum, and the building also hosts commencement.",
+     "source": "https://en.wikipedia.org/wiki/Gore_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Campbell's John W. Pope Jr. Convocation Center in Buies Creek hosted the Big South Conference men's basketball tournament from March 3 to 6, 2016.",
+     "source": "https://en.wikipedia.org/wiki/Gore_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Buies Creek takes its name from a tributary of the Cape Fear River that drains the community, which lies 5 miles east of Lillington on U.S. Route 421.",
+     "source": "https://en.wikipedia.org/wiki/Buies_Creek,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Buies Creek was incorporated by the North Carolina General Assembly in 1914, and its town charter was repealed in 1967, leaving it a census-designated place.",
+     "source": "https://en.wikipedia.org/wiki/Buies_Creek,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Buies Creek counted 3,253 residents in the 2020 census, up from 2,942 in 2010, and the community's median age was 21.9.",
+     "source": "https://en.wikipedia.org/wiki/Buies_Creek,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The James Archibald Campbell House in Buies Creek, home of Campbell University's founder, was listed on the National Register of Historic Places in 1977.",
+     "source": "https://en.wikipedia.org/wiki/Buies_Creek,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Campbell University was founded on January 5, 1887, as Buies Creek Academy by James Archibald Campbell, a 26-year-old Baptist minister, and opened with 16 students.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Campbell, founded as Buies Creek Academy in Buies Creek, became a senior college in 1961 and a university in 1979.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Campbell's Academic Circle in Buies Creek is a grass thoroughfare laced with sidewalks and magnolia trees.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Campbell's only NCAA tournament appearance came in 1992, a 56-82 loss to Duke, which went on to win the national championship.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_Fighting_Camels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before its Division I years, Campbell reached an NAIA national championship game and lost 44-71 to Texas Southern.",
+     "source": "https://en.wikipedia.org/wiki/Campbell_Fighting_Camels_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Campbell guard Chris Clemons, a 5-foot-9 Raleigh native who played from 2015 to 2019, became the third-highest scorer in college basketball history and the Big South's all-time leading scorer.",
+     "source": "https://en.wikipedia.org/wiki/Chris_Clemons_(basketball)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Chris Clemons scored 51 points for Campbell in an 81-79 win over UNC Asheville in the Big South Tournament, breaking the tournament scoring record, and his No. 3 is retired.",
+     "source": "https://en.wikipedia.org/wiki/Chris_Clemons_(basketball)",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jimmie Williams was named Campbell's head coach on April 8, 2026, after four seasons as head coach at Division II Anderson in Anderson, South Carolina.",
+     "source": "https://news.campbell.edu/articles/campbell-mens-basketball-names-jimmie-williams-head-coach/",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "charleston": {
+   "town": "Charleston",
+   "home_floor": "TD Arena",
+   "home_lines": [
+    {
+     "text": "TD Arena, the College of Charleston's home floor at 301 Meeting Street in Charleston, opened on November 14, 2008, and seats 5,100 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/TD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The College of Charleston's arena opened in 2008 as Carolina First Arena and was formally renamed TD Arena in the fall of 2011.",
+     "source": "https://en.wikipedia.org/wiki/TD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "TD Arena was built to replace the College of Charleston's F. Mitchell Johnson Physical Education Center and the John Kresse Arena inside it.",
+     "source": "https://en.wikipedia.org/wiki/TD_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "On June 26, 2015, TD Arena in Charleston hosted the funeral of a South Carolina state senator and pastor, with President Barack Obama delivering the eulogy to about 6,000 mourners.",
+     "source": "https://en.wikipedia.org/wiki/TD_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Charleston was founded as Charles Town in 1670 by English colonists, who named it in honor of King Charles II of England.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The first full battle of the Civil War came at Fort Sumter in Charleston Harbor, where Major Robert Anderson surrendered the fort after a 34-hour bombardment.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Charleston played a central role in the Atlantic slave trade, and almost one-half of the enslaved people imported to the United States arrived there.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Charleston's Emanuel AME Church houses the oldest Black congregation south of Baltimore, and in 1822 Denmark Vesey planned an uprising in Charleston and an escape to Haiti.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Charleston is known for shrimp and grits, she-crab soup and fried oysters, and its Spoleto Festival USA, founded in 1977, is held each year in late spring.",
+     "source": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The College of Charleston was founded in 1770 and chartered in 1785, making it the oldest university in South Carolina.",
+     "source": "https://en.wikipedia.org/wiki/College_of_Charleston",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The founders of the College of Charleston included six Founding Fathers, three who signed the Declaration of Independence and three who signed the Constitution.",
+     "source": "https://en.wikipedia.org/wiki/College_of_Charleston",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "College of Charleston students voted in the 1970-71 school year to change the nickname from the Maroons to the Cougars, honoring a cougar recently arrived at the Charles Towne Landing Animal Forest.",
+     "source": "https://en.wikipedia.org/wiki/College_of_Charleston",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "While a member of the NAIA, the College of Charleston won the national championship in 1983.",
+     "source": "https://en.wikipedia.org/wiki/Charleston_Cougars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Kresse coached the College of Charleston for 23 years and finished with a career record of 560-143.",
+     "source": "https://en.wikipedia.org/wiki/Charleston_Cougars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Kresse's College of Charleston team made program history in 1997 by upsetting fifth-seeded Maryland 75-66 in the first round of the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Charleston_Cougars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On December 5, 1998, the College of Charleston upset North Carolina, then ranked third in the country, by a score of 66-64.",
+     "source": "https://en.wikipedia.org/wiki/Charleston_Cougars_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Groce, formerly the head coach at Akron, is in his first season as the College of Charleston's men's basketball coach in 2026-27.",
+     "source": "https://en.wikipedia.org/wiki/Charleston_Cougars_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "drexel": {
+   "town": "Philadelphia",
+   "home_floor": "the Daskalakis Athletic Center",
+   "home_lines": [
+    {
+     "text": "Drexel's Daskalakis Athletic Center opened in February 1975 as the Physical Education Center and was sometimes simply called the New Gym.",
+     "source": "https://en.wikipedia.org/wiki/Daskalakis_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The basketball court inside Drexel's Daskalakis Athletic Center was named Cozen Court in January 2005, after former Dragons men's basketball coach Sam Cozen.",
+     "source": "https://en.wikipedia.org/wiki/Daskalakis_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Daskalakis Athletic Center seats 2,509 for basketball, and Drexel kept its swing-down baskets because pro-style floor baskets would have pushed the south bleachers nine feet farther from the court.",
+     "source": "https://en.wikipedia.org/wiki/Daskalakis_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Drexel's arena takes its name from John A. Daskalakis, a 1963 Drexel graduate and former Dragons lacrosse player.",
+     "source": "https://en.wikipedia.org/wiki/Daskalakis_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Daskalakis Athletic Center hosted four games of the 2013 Women's NIT, which Drexel won by beating Utah 46-43 in the final.",
+     "source": "https://en.wikipedia.org/wiki/Daskalakis_Athletic_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Philadelphia was founded in 1682 by William Penn, an English Quaker, who gave the city a name that is Greek for 'brotherly love'.",
+     "source": "https://en.wikipedia.org/wiki/Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "University City, Drexel's Philadelphia neighborhood, got its name in the mid-1950s, when two realtors who were Penn graduates coined it to attract Penn faculty back to the area.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Drexel's University City corner of Philadelphia was once part of Blockley, the name William Warner gave to the 1,500 acres he bought there in 1677.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Philadelphia lawyer Andrew Hamilton bought 300 acres in what is now University City in 1735, and the gardens of the estate that grew there, The Woodlands, are now Woodlands Cemetery.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Much of Greenville, the University City area near Drexel that was colloquially called the Black Bottom, was destroyed as part of a gentrification plan in the 1960s.",
+     "source": "https://en.wikipedia.org/wiki/University_City,_Philadelphia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Drexel University was founded in 1891 by Philadelphia financier Anthony J. Drexel as the Drexel Institute of Art, Science and Industry, and took its current name in 1970.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drexel's cooperative education program, in which students alternate periods of classroom study with periods of full-time practical work experience, was introduced in 1919.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drexel's dragon mascot, Mario the Magnificent, is named for alumnus and trustee Mario V. Mascioli, and the first written reference to the Dragons came in The Triangle in 1928.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drexel played its first basketball season in 1895, making it the fifth school in the United States to take up the college game.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_Dragons_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Drexel's only NCAA tournament win came in 1996, when Malik Rose led the Dragons to an upset of fifth-seeded Memphis and their only second-round appearance.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_Dragons_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before the Daskalakis Athletic Center opened, Drexel played its home basketball games at the 33rd Street Armory from 1969 to 1975.",
+     "source": "https://en.wikipedia.org/wiki/Drexel_Dragons_men's_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Zach Spiker led Drexel to the 2021 CAA tournament title, five years after he came over from Army to replace Bruiser Flint.",
+     "source": "https://en.wikipedia.org/wiki/Zach_Spiker",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Zach Spiker, who coached Army from 2009 to 2016, became Drexel's head men's basketball coach in March 2016, replacing Bruiser Flint.",
+     "source": "https://en.wikipedia.org/wiki/Zach_Spiker",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Malik Rose, Drexel's America East Player of the Year in 1995 and 1996, went on to win NBA titles with the San Antonio Spurs in 1999 and 2003.",
+     "source": "https://en.wikipedia.org/wiki/Malik_Rose",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Drexel retired Malik Rose's No. 00, and the former Dragons star was named head of basketball operations for the NBA G League in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Malik_Rose",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "elon": {
+   "town": "Elon",
+   "home_floor": "the Schar Center",
+   "home_lines": [
+    {
+     "text": "Elon's Schar Center opened in the fall of 2018 as a 5,100-seat, 160,000-square-foot arena, triple the capacity of the previous home of Elon basketball and volleyball.",
+     "source": "https://elonphoenix.com/sports/2018/11/13/schar-center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Elon's first men's basketball game at the Schar Center came on November 9, 2018, against No. 7 North Carolina before a program-record 5,245 fans.",
+     "source": "https://elonphoenix.com/sports/2018/11/13/schar-center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Schar Center at Elon is named for Elon parents Dwight and Martha Schar, who contributed $9 million to the project.",
+     "source": "https://elonphoenix.com/sports/2018/11/13/schar-center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first event in Elon's Schar Center was a volleyball match on August 28, 2018, in which Elon beat North Carolina A&T 3-0 before 1,465 fans.",
+     "source": "https://elonphoenix.com/sports/2018/11/13/schar-center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Elon began in 1881 as a North Carolina Railroad depot between the Goldsboro and Charlotte stations, and a post office in 1888 made the settlement more permanent.",
+     "source": "https://en.wikipedia.org/wiki/Elon,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The 1881 depot at what is now Elon was called Mill Point, after a plan to ship goods for area cotton mills, though locals knew it as Boone's Crossing.",
+     "source": "https://en.wikipedia.org/wiki/Elon,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Elon was incorporated in 1893 and was called Elon College until the school became Elon University, when the town officially changed its name to Elon.",
+     "source": "https://en.wikipedia.org/wiki/Elon,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Elon is a town in Alamance County, North Carolina, and is counted as part of the Burlington metropolitan statistical area.",
+     "source": "https://en.wikipedia.org/wiki/Elon,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Elon University was founded in 1889 as Elon College by the Christian Connection, and its name comes from the Hebrew word for oak, after the grove where it was built.",
+     "source": "https://en.wikipedia.org/wiki/Elon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Elon's mascot was the Fighting Christian until 2000, when the school chose the Phoenix, drawn from the 1923 fire that destroyed almost the entire campus.",
+     "source": "https://en.wikipedia.org/wiki/Elon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Elon gives each new student an acorn at New Student Convocation, a custom begun in 1999, and each graduate an oak sapling, a custom begun in 1991.",
+     "source": "https://en.wikipedia.org/wiki/Elon_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Elon made three NAIA tournaments in the 1950s, losing in the first round in 1952, 1956 and 1957.",
+     "source": "https://en.wikipedia.org/wiki/Elon_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Elon retired its first basketball jerseys on February 9, 2009, honoring All-Americans Jesse Branson of the class of 1965 and Tommy Cole of the class of 1972.",
+     "source": "https://en.wikipedia.org/wiki/Elon_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Elon joined the Colonial Athletic Association on July 1, 2014, after an 11-season stay in the Southern Conference.",
+     "source": "https://en.wikipedia.org/wiki/Elon_Phoenix_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Elon's 2024-25 team won at Notre Dame, the program's fourth win over a power-conference opponent in its Division I era, and finished 17-16 for its first winning season since 2016-17.",
+     "source": "https://elonphoenix.com/sports/mens-basketball/roster/coaches/billy-taylor/1650",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Billy Taylor is in his fifth season as Elon's head coach in 2026-27, having been named the program's 19th head coach on April 15, 2022.",
+     "source": "https://elonphoenix.com/sports/mens-basketball/roster/coaches/billy-taylor/1650",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "hampton": {
+   "town": "Hampton",
+   "home_floor": "the Hampton Convocation Center",
+   "home_lines": [
+    {
+     "text": "The Hampton Convocation Center, a 7,200-seat multi-purpose arena in Hampton, Virginia, opened on September 12, 1993, and is home to the Hampton Pirates basketball team.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_Convocation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hampton Convocation Center seats 8,200 for concerts and conventions and has hosted graduation ceremonies and special events alongside Hampton's men's and women's basketball.",
+     "source": "https://hamptonpirates.com/sports/2006/8/8/convocationcenter",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hampton's Convocation Center, home to the Pirates' men's and women's basketball teams, includes a removable Final Four basketball floor.",
+     "source": "https://hamptonpirates.com/sports/2006/8/8/convocationcenter",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Colonists established their own small town at Hampton on July 9, 1610, after seizing the Native American community of Kecoughtan under Virginia governor Sir Thomas Gates.",
+     "source": "https://en.wikipedia.org/wiki/Hampton,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hampton, Virginia, claims to be the oldest continuously occupied English settlement in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Hampton,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In late August 1619, the White Lion delivered approximately 20 enslaved Africans, from present-day Angola, to Point Comfort, now part of Hampton.",
+     "source": "https://en.wikipedia.org/wiki/Hampton,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Fort Monroe in Hampton remained in Union hands during the Civil War and became a historic and symbolic site of early freedom for formerly enslaved people.",
+     "source": "https://en.wikipedia.org/wiki/Hampton,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hampton is home to Langley Air Force Base and NASA's Langley Research Center, and many bridges along its Mercury Boulevard honor the original NASA astronauts who trained at Langley.",
+     "source": "https://en.wikipedia.org/wiki/Hampton,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hampton University was founded in 1868 as Hampton Agricultural and Industrial Institute by leaders of the American Missionary Association and was first led by former Union general Samuel Chapman Armstrong.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1863 the Emancipation Proclamation was read beneath Hampton University's Emancipation Oak, the first place in the Confederate states to hear it.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Hampton University Museum, founded in 1868, is the nation's oldest African American museum and the oldest museum of the African diaspora in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hampton reached the second round of the 2001 NCAA tournament after the 15th-seeded Pirates beat second-seeded Iowa State 58-57.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hampton has appeared in the NCAA Division I men's basketball tournament six times, most recently in 2016, with a combined record of 2-6.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_Pirates_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hampton's athletic teams played in the MEAC from 1995 to 2018 and the Big South from 2018 to 2022 before joining the Coastal Athletic Association in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Hampton_Pirates",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ivan Thomas is head coach of Hampton men's basketball, listed atop the Pirates' 2026-27 coaching staff in Hampton, Virginia.",
+     "source": "https://hamptonpirates.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Booker T. Washington made his way to Hampton Institute mostly on foot at age 16, worked as a janitor to pay for his studies and graduated at 19.",
+     "source": "https://en.wikipedia.org/wiki/Booker_T._Washington",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "hofstra": {
+   "town": "Hempstead",
+   "home_floor": "the David S. Mack Sports and Exhibition Complex",
+   "home_lines": [
+    {
+     "text": "Hofstra's arena opened on January 2, 2000, as Hofstra Arena, replacing the Hofstra Physical Fitness Center, and was renamed the David S. Mack Sports and Exhibition Complex in 2006.",
+     "source": "https://en.wikipedia.org/wiki/David_S._Mack_Sports_and_Exhibition_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hofstra's David S. Mack Sports and Exhibition Complex hosted presidential debates in 2008, 2012 and 2016, the last of them the first debate of the 2016 race between Donald Trump and Hillary Clinton.",
+     "source": "https://en.wikipedia.org/wiki/David_S._Mack_Sports_and_Exhibition_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hofstra once won 28 consecutive regular-season home games at the David S. Mack Sports and Exhibition Complex before an overtime loss to Drexel ended the run.",
+     "source": "https://en.wikipedia.org/wiki/David_S._Mack_Sports_and_Exhibition_Complex",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Hofstra's David S. Mack Sports and Exhibition Complex hosted the America East men's tournament title games in 2000 and 2001, along with two NIT games in 2006.",
+     "source": "https://en.wikipedia.org/wiki/David_S._Mack_Sports_and_Exhibition_Complex",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Hempstead was settled in the spring of 1644 by about 30 to 40 families from Stamford, Connecticut, an English settlement planted inside Dutch-controlled New Netherland.",
+     "source": "https://en.wikipedia.org/wiki/Hempstead_(village),_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hempstead's name may come from Hemel Hempstead, England, the birthplace of founder John Carman, though another theory ties it to Heemstede in the Netherlands.",
+     "source": "https://en.wikipedia.org/wiki/Hempstead_(village),_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hempstead's Puritan settlers founded a Presbyterian church described as the oldest continually active Presbyterian congregation in the nation.",
+     "source": "https://en.wikipedia.org/wiki/Hempstead_(village),_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the American Revolution, Hempstead was a center of British sympathizers, and the British used St. George's Church as a headquarters and place of worship.",
+     "source": "https://en.wikipedia.org/wiki/Hempstead_(village),_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hempstead incorporated on May 6, 1853, the first community in Queens County to do so, and is now the most populous village in New York.",
+     "source": "https://en.wikipedia.org/wiki/Hempstead_(village),_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hofstra began in 1935 as an extension of New York University on the estate of William S. Hofstra and his wife, Kate Mason, and held its first classes on September 23, 1935.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hofstra's teams were the Flying Dutchmen from 1935 until 2001, when the official name became the Pride, drawn from an image campaign the university began in 1987.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hofstra keeps its Dutch heritage in view with a miniature windmill near admissions, residence halls named for Dutch cities, and a spring Dutch Festival with the Hofstra University Tulip as a focal point.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Hofstra has played in the NCAA tournament in 1976, 1977, 2000, 2001 and 2026, the most recent trip ending with a 90-70 first-round loss to Alabama.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_Pride_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jay Wright coached Hofstra from 1994 to 2001 and went 122-85, and the Pride won the America East tournament in both 2000 and 2001.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_Pride_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hofstra won the Holiday Festival at Madison Square Garden in three seasons, taking the title in 1998, 1999 and again in 2006.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_Pride_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hofstra retired the No. 22 of Charles Jenkins, the school's all-time leading scorer, on February 26, 2011.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_University",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Hofstra coach Speedy Claxton was named All-Met Co-Coach of the Year after leading the Pride to 24 wins, the CAA championship and an NCAA tournament appearance.",
+     "source": "https://gohofstra.com/news/2026/4/19/mens-basketball-claxton-headlines-hofstras-all-met-honors.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Francis Ford Coppola entered Hofstra in 1955 as a theater arts major, earned his degree there in 1960, and then enrolled in UCLA Film School.",
+     "source": "https://en.wikipedia.org/wiki/Francis_Ford_Coppola",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "monmouth": {
+   "town": "West Long Branch",
+   "home_floor": "the Hackensack Meridian Athletic Center",
+   "home_lines": [
+    {
+     "text": "Monmouth's arena opened in 2009 as the Multipurpose Activity Center, was the OceanFirst Bank Center from 2016, and became the Hackensack Meridian Athletic Center in July 2026.",
+     "source": "https://en.wikipedia.org/wiki/OceanFirst_Bank_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hackensack Meridian Athletic Center, home of Monmouth basketball in West Long Branch, cost $57 million to build.",
+     "source": "https://en.wikipedia.org/wiki/OceanFirst_Bank_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Monmouth's Hackensack Meridian Athletic Center in West Long Branch has 3,886 seats for spectators and a listed capacity of 4,100.",
+     "source": "https://en.wikipedia.org/wiki/OceanFirst_Bank_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "West Long Branch was incorporated on May 5, 1908, when voters approved its separation from Eatontown Township in a referendum.",
+     "source": "https://en.wikipedia.org/wiki/West_Long_Branch,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "West Long Branch takes its name from neighboring Long Branch, named for the long, or south, branch of the Shrewsbury River; the area was earlier called Mechanicsville and then Branchburg.",
+     "source": "https://en.wikipedia.org/wiki/West_Long_Branch,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Long Branch, next door to West Long Branch, was known as the Nation's First Seaside Resort, and Ulysses S. Grant's family summered there in a beachfront cottage.",
+     "source": "https://en.wikipedia.org/wiki/Long_Branch,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "President James Garfield was brought to Long Branch, beside West Long Branch, to recover after being shot in 1881, and he died there on September 19, 1881.",
+     "source": "https://en.wikipedia.org/wiki/Long_Branch,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Bruce Springsteen was born in Long Branch, the shore city next to West Long Branch, and was raised in Freehold Borough.",
+     "source": "https://en.wikipedia.org/wiki/Long_Branch,_New_Jersey",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Monmouth University was founded in 1933 as Monmouth Junior College, holding evening classes inside Long Branch High School.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Monmouth moved in 1955 to Shadow Lawn, a West Long Branch estate whose original mansion hosted Woodrow Wilson during his 1916 campaign.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Monmouth's Great Hall at Shadow Lawn, built as a residence for former Woolworth chief Hubert Templeton Parson, appears in scenes of the film Annie shot inside and outside the building.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Monmouth won its only Division I NCAA tournament game in 2006, beating Hampton 71-49 in the opening round before falling to top-seeded Villanova, 58-45.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Monmouth drew a No. 16 seed against top-seeded Duke in the 2001 NCAA tournament and lost, 95-52.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In 2015-16, Monmouth beat UCLA, Notre Dame, USC, Georgetown and Rutgers and received votes in the AP poll for the first time.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_Hawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Monmouth played in the MAAC from 2013 to 2022 before joining the CAA on July 1, 2022.",
+     "source": "https://en.wikipedia.org/wiki/Monmouth_University",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "King Rice, a co-captain of North Carolina's 1991 Final Four team, has been Monmouth's head coach since replacing Dave Calloway on March 29, 2011.",
+     "source": "https://en.wikipedia.org/wiki/King_Rice",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "nc-at": {
+   "town": "Greensboro",
+   "home_floor": "the Corbett Sports Center",
+   "home_lines": [
+    {
+     "text": "North Carolina A&T's Corbett Sports Center, at 1601 East Market Street in Greensboro, opened on December 3, 1978, after a groundbreaking in 1976.",
+     "source": "https://en.wikipedia.org/wiki/Corbett_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Corbett Sports Center at North Carolina A&T is named for Ellis F. Corbett, a 1931 graduate known as 'Mr. A&T' and longtime executive secretary of the national alumni association.",
+     "source": "https://en.wikipedia.org/wiki/Corbett_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 2005 North Carolina A&T named the floor of the Corbett Sports Center the Cal Irvin-Don Corbett court, after two of the program's most notable coaches.",
+     "source": "https://en.wikipedia.org/wiki/Corbett_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "An espn.com fan poll ranked North Carolina A&T's Corbett Sports Center 14th in the nation for atmosphere, and it was the only HBCU building in that poll.",
+     "source": "https://en.wikipedia.org/wiki/Corbett_Sports_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Greensboro was established in 1808 as a planned county seat around a courthouse square and named for Major General Nathanael Greene, the American commander at Guilford Court House.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Baltimore industrialists Moses and Caesar Cone built large textile plants in Greensboro in the 1890s, and by 1900 the city was a Southern center for denim, flannel and overalls.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On July 25, 1960, four Black employees of the Greensboro Woolworth store quietly became the first Black people served at its lunch counter.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro_sit-ins",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The International Civil Rights Center and Museum opened in Greensboro's former Woolworth building on February 1, 2010, fifty years after the sit-in, with the original lunch counter still in place.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On November 3, 1979, Klansmen and neo-Nazis arrived at Greensboro's Morningside Homes, the KKK and Communist Workers Party groups exchanged gunfire, and five CWP members were killed.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "North Carolina A&T was founded on March 9, 1891, as the Agricultural and Mechanical College for the Colored Race, beginning as an annex of Shaw University in Raleigh before moving to Greensboro.",
+     "source": "https://en.wikipedia.org/wiki/North_Carolina_A%26T_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "On February 1, 1960, North Carolina A&T freshmen Joseph McNeil, Franklin McCain, Ezell Blair Jr. and David Richmond sat down at the whites-only Woolworth lunch counter on South Elm Street in Greensboro.",
+     "source": "https://en.wikipedia.org/wiki/Greensboro_sit-ins",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Carolina A&T's week-long homecoming, known on campus as the Greatest Homecoming on Earth, drew crowds above 130,000 in 2024 by law enforcement count.",
+     "source": "https://en.wikipedia.org/wiki/North_Carolina_A%26T_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "North Carolina A&T reached the NCAA Division I tournament seven straight years from 1982 through 1988, part of 10 appearances that also include 1994, 1995 and 2013.",
+     "source": "https://en.wikipedia.org/wiki/North_Carolina_A%26T_Aggies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "North Carolina A&T won its first Division I postseason game in 2013, beating Liberty 73-72 in the NCAA tournament's First Four.",
+     "source": "https://en.wikipedia.org/wiki/North_Carolina_A%26T_Aggies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Before its Division I years, North Carolina A&T made four NCAA Division II tournaments and won the national third-place game in both 1959 and 1964.",
+     "source": "https://en.wikipedia.org/wiki/North_Carolina_A%26T_Aggies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Cal Irvin coached North Carolina A&T for 18 seasons without a losing record, finishing 308-105 with CIAA titles in 1958, 1959, 1962, 1964 and 1967.",
+     "source": "https://en.wikipedia.org/wiki/Corbett_Sports_Center",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Monté Ross is head coach of North Carolina A&T, listed atop the Aggies' 2026-27 coaching staff after leading the program into the Coastal Athletic Association.",
+     "source": "https://ncataggies.com/news/2025/11/10/mens-basketball-adds-everything-in-an-effort-to-win-caa-title.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Astronaut Ronald McNair earned a physics degree magna cum laude from North Carolina A&T in 1971 and died aboard the Space Shuttle Challenger on January 28, 1986.",
+     "source": "https://en.wikipedia.org/wiki/Ronald_McNair",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Jesse Jackson transferred to North Carolina A&T, where he played quarterback, was elected student body president and graduated with a sociology degree in 1964.",
+     "source": "https://en.wikipedia.org/wiki/Jesse_Jackson",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "northeastern": {
+   "town": "Boston",
+   "home_floor": "the Cabot Center",
+   "home_lines": [
+    {
+     "text": "The Cabot Center, built in 1954 and named in 1957 for patron Godfrey Lowell Cabot, became the full-time home of Northeastern men's basketball after Matthews Arena closed in late 2025.",
+     "source": "https://en.wikipedia.org/wiki/Cabot_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northeastern's Cabot Center stands on the site of the Huntington Avenue Grounds, where the first World Series game between the modern American and National Leagues was played in 1903.",
+     "source": "https://en.wikipedia.org/wiki/Huntington_Avenue_Grounds",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 1993 a statue of Cy Young was placed where the Huntington Avenue Grounds pitcher's mound used to be, on the old ballpark site where Northeastern's Cabot Center has stood since 1954.",
+     "source": "https://en.wikipedia.org/wiki/Huntington_Avenue_Grounds",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Cabot Center court honors Bernard 'Bunny' Solomon, called Northeastern's number one fan, who led fundraising for a $2 million restoration in 2000.",
+     "source": "https://www.stadiumjourney.com/stadiums/cabot-center-northeastern-huskies",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Seats at Northeastern's Cabot Center run on all four sides of the court but only seven rows deep, and the Huskies' men's team now calls the building home.",
+     "source": "https://www.stadiumjourney.com/stadiums/cabot-center-northeastern-huskies",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Fenway Park, home of the Boston Red Sox, sits in Boston's Fenway-Kenmore neighborhood, which also takes in parts of Northeastern University and Berklee College of Music.",
+     "source": "https://en.wikipedia.org/wiki/Fenway%E2%80%93Kenmore",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Part of Boston's Fenway-Kenmore neighborhood, home to much of Northeastern, was formed from land filled in during the 1890s for Frederick Law Olmsted's parks.",
+     "source": "https://en.wikipedia.org/wiki/Fenway%E2%80%93Kenmore",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Boston's Huntington Avenue was originally called Western Avenue and was renamed for Ralph Huntington, one of the men who moved to have the Back Bay filled in.",
+     "source": "https://en.wikipedia.org/wiki/Huntington_Avenue",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "A section of Boston's Huntington Avenue is officially designated the Avenue of the Arts, lined by Symphony Hall, the New England Conservatory, Northeastern and the Museum of Fine Arts.",
+     "source": "https://en.wikipedia.org/wiki/Huntington_Avenue",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Green Line E branch follows Boston's Huntington Avenue for most of its length, running underground between Opera Place and Ring Road.",
+     "source": "https://en.wikipedia.org/wiki/Huntington_Avenue",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northeastern was founded by the Boston Young Men's Christian Association in 1898 as an all-male institute and gained university status in 1922.",
+     "source": "https://en.wikipedia.org/wiki/Northeastern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northeastern's cooperative education program, launched in 1909, is described as one of the largest and oldest co-op programs in the world.",
+     "source": "https://en.wikipedia.org/wiki/Northeastern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northeastern teams have been the Huskies since 1927, and King Husky I arrived on the Boston campus on March 4, 1927, to a celebration.",
+     "source": "https://en.wikipedia.org/wiki/Northeastern_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northeastern won a Division I NCAA tournament game in 1981, beating Fresno State 55-53, before losing 94-69 to Utah in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Northeastern_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northeastern won seven America East tournament titles between 1981 and 1991, joined the CAA in 2005, and won CAA tournament titles in 2015 and 2019.",
+     "source": "https://en.wikipedia.org/wiki/Northeastern_Huskies_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northeastern basketball once played at Matthews Arena, which opened as the Boston Arena on April 25, 1910, and where the Celtics played their first ever game on November 5, 1946.",
+     "source": "https://en.wikipedia.org/wiki/Matthews_Arena",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Matthews Arena hosted its final hockey game on December 13, 2025, demolition began in March 2026, and Northeastern basketball plays at the Cabot Center while a new arena is built.",
+     "source": "https://en.wikipedia.org/wiki/Matthews_Arena",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bill Coen, Northeastern's men's basketball coach, announced eight newcomers to the Huskies' 2026-27 roster in August 2026, four transfers and four freshmen.",
+     "source": "https://nuhuskies.com/news/2026/8/17/mens-basketball-northeastern-welcomes-eight-newcomers-to-2026-27-roster.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Reggie Lewis scored 2,708 points at Northeastern from 1983 to 1987, still the school record, and the Huskies won the ECAC North in each of his four seasons.",
+     "source": "https://en.wikipedia.org/wiki/Reggie_Lewis",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Reggie Lewis, a Baltimore native drafted 22nd overall by the Celtics in 1987, became Boston's captain after Larry Bird retired and died on July 27, 1993.",
+     "source": "https://en.wikipedia.org/wiki/Reggie_Lewis",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "stony-brook": {
+   "town": "Stony Brook",
+   "home_floor": "Stony Brook Arena",
+   "home_lines": [
+    {
+     "text": "Stony Brook Arena opened in 1990 at a construction cost of $17 million and reopened on October 3, 2014, after a $21.1 million renovation.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "During the renovation of Stony Brook Arena, the court was rotated 90 degrees and the seating bowl was built around it.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "A 2019 renovation of the Stony Brook Arena court added a silhouette of Long Island that spans the entire length of the floor.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first home basketball game in the renovated Stony Brook Arena, on November 14, 2014, ended with Stony Brook beating Columbia 57-56 on a game-winning layup.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook Arena hosted the America East men's tournament finals in 2012 and 2016, and the 2019 NBA G League Finals for the Long Island Nets.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Stony Brook is a hamlet in the Town of Brookhaven on Long Island's North Shore and has never been incorporated, though residents often call it a village.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "A gristmill was built in Stony Brook in 1699 on what is now Mill Pond, and the 1751 structure that replaced it ground grain into the 1940s.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Beginning in 1939, Ward Melville reshaped part of Stony Brook, and his planned Village Center, built in New England clapboard style, opened in 1941.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook, originally called Wopowog, grew up at the mouth of Stony Brook Harbor, a narrow inlet of Long Island Sound.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Long Island Rail Road reached Stony Brook in the 1870s, and the hamlet on the North Shore became a popular summer resort.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook,_New_York",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook University was founded in 1957 at Oyster Bay on the Planting Fields estate and moved to Stony Brook in 1962, aided by land donated by Ward Melville.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook teams were the Patriots from 1966 until 1994, when they became the Seawolves as the school prepared to move to Division I.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Since 1989, Stony Brook has held the Roth Pond Regatta, in which groups race boats built from cardboard and tape to get across Roth Pond first without sinking.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook basketball began in 1960-61, when the school was the State University College on Long Island, and its Division III team reached the Final Four in 1977-78.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Seawolves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook entered Division I in 1999 and reached its first NCAA tournament in 2016 as a No. 13 seed, losing 85-57 to Kentucky.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Seawolves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jameel Warney, a three-time America East Player of the Year at Stony Brook, had his No. 20 retired in February 2017.",
+     "source": "https://en.wikipedia.org/wiki/Stony_Brook_Seawolves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Geno Ford is Stony Brook's men's basketball head coach, and in May 2026 he added Peter Farkas to the Seawolves staff as assistant coach and director of basketball operations.",
+     "source": "https://stonybrookathletics.com/news/2026/5/18/mens-basketball-adds-peter-farkas-as-director-of-operations.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Joe Nathan first played shortstop for Stony Brook's then Division III Patriots, and in 2006 he became the first athlete to have his number, 22, retired by the school.",
+     "source": "https://en.wikipedia.org/wiki/Joe_Nathan",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "towson": {
+   "town": "Towson",
+   "home_floor": "SECU Arena",
+   "home_lines": [
+    {
+     "text": "Towson's SECU Arena opened on June 19, 2013, replacing the Towson Center, which had been in use since 1976.",
+     "source": "https://en.wikipedia.org/wiki/SECU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "SECU Arena, a 5,200-seat multipurpose arena on the Towson campus, has hosted an annual Harlem Globetrotters performance since the building opened.",
+     "source": "https://en.wikipedia.org/wiki/SECU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Towson's arena carried the SECU name from 2013 to 2023, became TU Arena, then took back the SECU name in 2025 under a seven-year naming deal.",
+     "source": "https://en.wikipedia.org/wiki/SECU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Baltimore Blast indoor soccer team moved into Towson's SECU Arena in 2017 after 37 years at what is now CFG Bank Arena.",
+     "source": "https://en.wikipedia.org/wiki/SECU_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Towson was settled in 1752 by William and Thomas Towson, Pennsylvania brothers who farmed near present-day York and Joppa roads, and the village became known as Towsontown.",
+     "source": "https://en.wikipedia.org/wiki/Towson,_Maryland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Towson became the seat of Baltimore County by popular vote on February 13, 1854, yet the county seat remains an unincorporated community.",
+     "source": "https://en.wikipedia.org/wiki/Towson,_Maryland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1864, Confederate cavalry under Harry Gilmor camped in Towson during what became known as Gilmor's Raid, three years after Union troops seized weapons at Ady's Hotel.",
+     "source": "https://en.wikipedia.org/wiki/Towson,_Maryland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Towson's Hampton National Historic Site preserves the house and grounds that were once the core of the vast Ridgely estate.",
+     "source": "https://en.wikipedia.org/wiki/Towson,_Maryland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "From 1930 to 1979, the Glassips company manufactured drinking straws and swizzle sticks in Towson, the Baltimore County seat.",
+     "source": "https://en.wikipedia.org/wiki/Towson,_Maryland",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Towson University was founded in Baltimore in 1866 as the Maryland State Normal School, the state's first training school for teachers, and began classes on its Towson campus in September 1915.",
+     "source": "https://en.wikipedia.org/wiki/Towson_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Towson teams were the Knights until student John Schuerholz pushed for a new mascot, and the tiger was officially adopted in 1962.",
+     "source": "https://en.wikipedia.org/wiki/Towson_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Towson unveiled a bronze tiger statue outside Stephens Hall, one of the buildings that opened the campus in 1915, on February 8, 2007.",
+     "source": "https://en.wikipedia.org/wiki/Towson_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Towson reached the NCAA Division II Elite Eight in 1977, finishing 27-3 after an 85-82 loss to Sacred Heart.",
+     "source": "https://en.wikipedia.org/wiki/Towson_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Towson won three straight East Coast Conference tournaments from 1990 to 1992 and reached the NCAA tournament in 1990 and 1991, losing to Oklahoma and Ohio State.",
+     "source": "https://en.wikipedia.org/wiki/Towson_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Towson went 1-31 in 2011-12, then improved to 18-13 and finished second in its conference the following season.",
+     "source": "https://en.wikipedia.org/wiki/Towson_Tigers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Gary Neal scored 25.3 points per game as a Towson senior and became the fourth player in NCAA history to score 1,000 points at two different schools.",
+     "source": "https://en.wikipedia.org/wiki/Gary_Neal",
+     "kind": "alumni",
+     "until": ""
+    },
+    {
+     "text": "Former Towson scorer Gary Neal went undrafted in 2007, then scored 24 points for San Antonio in Game 3 of the 2013 NBA Finals, a 113-77 Spurs win.",
+     "source": "https://en.wikipedia.org/wiki/Gary_Neal",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  },
+  "uncw": {
+   "town": "Wilmington",
+   "home_floor": "Trask Coliseum",
+   "home_lines": [
+    {
+     "text": "Trask Coliseum, UNC Wilmington's home floor, opened in 1977 and is named for Raiford Graham Trask, a trustee of Wilmington College.",
+     "source": "https://en.wikipedia.org/wiki/Trask_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Trask Coliseum is a 5,200-seat multi-purpose arena in Wilmington, North Carolina, and the home of the UNC Wilmington Seahawks basketball team.",
+     "source": "https://en.wikipedia.org/wiki/Trask_Coliseum",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Trask Coliseum in Wilmington has hosted more than basketball: the hard rock group Cinderella played the building on September 1, 1989.",
+     "source": "https://en.wikipedia.org/wiki/Trask_Coliseum",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Wilmington was named for Spencer Compton, 1st Earl of Wilmington, and was incorporated on February 20, 1739, after earlier names including New Carthage, New London and Newton.",
+     "source": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wilmington's residential area lies between the Cape Fear River and the Atlantic Ocean, and the city developed as a commercial port in the colonial era.",
+     "source": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During the Civil War, Wilmington was the major base for blockade runners, and it was the last Confederate port to be captured, in February 1865.",
+     "source": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1898, Wilmington was the site of the only coup d'etat in United States history, when whites attacked and killed an estimated 60 to more than 300 people.",
+     "source": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wilmington's place in cinema through the 1980s and 1990s earned it the moniker 'Hollywood East,' and the World War II battleship USS North Carolina is moored across from downtown.",
+     "source": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UNC Wilmington opened on September 4, 1947, as Wilmington College, a junior college, and became the fifth campus of the University of North Carolina system in 1969.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_Wilmington",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Teal is the official school color of UNC Wilmington, with navy and gold as alternates, and the Seahawks' mascot is Sammy C. Hawk.",
+     "source": "https://en.wikipedia.org/wiki/University_of_North_Carolina_Wilmington",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UNC Wilmington began playing NCAA Division I men's basketball in the 1976-77 season, after earlier years as a junior college and NAIA program.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Wilmington_Seahawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UNC Wilmington has appeared in the NCAA tournament seven times, in 2000, 2002, 2003, 2006, 2016, 2017 and 2025, with a combined record of 1-7.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Wilmington_Seahawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "At the 2002 NCAA tournament, UNC Wilmington won its first NCAA tournament game, upsetting fourth-seeded USC 93-89 in overtime.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Wilmington_Seahawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Calipari appears among UNC Wilmington's former men's basketball players, with his years with the Seahawks listed as 1978 to 1980.",
+     "source": "https://en.wikipedia.org/wiki/UNC_Wilmington_Seahawks_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Takayo Siddle is head men's basketball coach at UNC Wilmington, listed atop the Seahawks' 2026-27 roster page.",
+     "source": "https://uncwsports.com/sports/mens-basketball/roster",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "william-mary": {
+   "town": "Williamsburg",
+   "home_floor": "Kaplan Arena",
+   "home_lines": [
+    {
+     "text": "Kaplan Arena, William & Mary's home floor in Williamsburg, opened on December 5, 1971, as William & Mary Hall and seats 8,600, or 11,300 with extra bleachers.",
+     "source": "https://en.wikipedia.org/wiki/Kaplan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "William & Mary Hall cost $5.3 million, and its first event was a basketball game against North Carolina played before construction of the building was complete.",
+     "source": "https://en.wikipedia.org/wiki/Kaplan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "William & Mary's arena in Williamsburg hosted the ninth G7 summit in 1983, bringing some of the world's political leaders to the campus.",
+     "source": "https://en.wikipedia.org/wiki/Kaplan_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The largest concert crowd at William & Mary's Kaplan Arena building was 13,514 for The Police on January 25, 1982.",
+     "source": "https://en.wikipedia.org/wiki/Kaplan_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "English settlers founded Middle Plantation in 1632 as a fortified settlement on high ground, on the site that later became Williamsburg.",
+     "source": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Williamsburg was established at the site of Middle Plantation in 1699 and named in honor of King William III; Virginia's capital moved from there to Richmond in 1780.",
+     "source": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Dr. W. A. R. Goodwin championed one of the nation's largest historic restorations in Williamsburg, and with the Rockefellers' support the effort created Colonial Williamsburg.",
+     "source": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "At the Battle of Williamsburg on May 5, 1862, Confederate defenders succeeded in delaying the Union forces near the colonial capital.",
+     "source": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Eastern State Hospital in Williamsburg, established by the Virginia colonial legislature on June 4, 1770, is described as the first purpose-built psychiatric hospital in the United States.",
+     "source": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "William & Mary received its royal charter from King William III and Queen Mary II on February 8, 1693, making it the second-oldest institution of higher learning in the United States.",
+     "source": "https://en.wikipedia.org/wiki/College_of_William_%26_Mary",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "William & Mary's Wren Building in Williamsburg is the oldest academic building still standing in the United States.",
+     "source": "https://en.wikipedia.org/wiki/College_of_William_%26_Mary",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "William & Mary educated three future presidents of the United States: Thomas Jefferson, James Monroe and John Tyler.",
+     "source": "https://en.wikipedia.org/wiki/College_of_William_%26_Mary",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Among the charter members of Division I men's basketball, only William & Mary, The Citadel and Army have never reached the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/William_%26_Mary_Tribe_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "William & Mary came closest to the NCAA tournament in the 2014 CAA tournament final, a 75-74 loss to Delaware.",
+     "source": "https://en.wikipedia.org/wiki/William_%26_Mary_Tribe_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "William & Mary has played in the NIT three times, losing to Virginia Tech in 1983, North Carolina in 2010 and Tulsa in 2015.",
+     "source": "https://en.wikipedia.org/wiki/William_%26_Mary_Tribe_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bill Chambers holds William & Mary's single-game rebound record with 51, set on February 14, 1953.",
+     "source": "https://en.wikipedia.org/wiki/William_%26_Mary_Tribe_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Brian Earl is head coach of William & Mary men's basketball, listed atop the Tribe's 2026-27 coaching staff in Williamsburg.",
+     "source": "https://tribeathletics.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    },
+    {
+     "text": "Jon Stewart graduated from William & Mary in 1984 and was a three-year starter for the Tribe men's soccer team in 1981, 1982 and 1983.",
+     "source": "https://en.wikipedia.org/wiki/Jon_Stewart",
+     "kind": "alumni",
+     "until": ""
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "hofstra|stony-brook": {
+   "name": "Battle of Long Island",
+   "lines": [
+    {
+     "text": "Hofstra has a local rivalry with SUNY Stony Brook, its Long Island neighbor, that is often called the Battle of Long Island after the Revolutionary War battle of 1776.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_Pride_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Stony Brook and Hofstra, the two Long Island programs, have a local rivalry that is often referred to as the Battle of Long Island.",
+     "source": "https://en.wikipedia.org/wiki/Hofstra_Pride_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}

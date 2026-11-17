@@ -24,13 +24,16 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader
 
-ORDER = ["mac", "horizon", "asun", "mw", "metro", "bigwest", "mvc", "a10"]  # the order the editions run in the show
+from .leagues import ALL as _EDITIONS
+
+ORDER = list(_EDITIONS)  # the order the editions run in the show: the order of mac/leagues.py ALL, MAC first
 WEEK = timedelta(days=7)
 VW, VH = 1920, 1080
 MAX_SECS = 6 * 60 + 30  # "five-ish minutes": trim past six and a half
-DROP_FIRST = ("star", "next")  # what goes first, from the last edition back, when the show runs long
+DROP_FIRST = ("star", "next", "offcourt", "pickem", "bubble")  # what goes first, from the last edition back, when the show runs long
 WATCH_TOP = 6
-SAID = {"horizon": "Horizon League"}  # how an edition's name is read aloud, where the short name doesn't work
+OFF_COURT = 2  # alumni stories per episode
+SAID = {"horizon": "Horizon League", "a10": "Atlantic Ten", "pac12": "Pac-Twelve"}  # how an edition's name is read aloud, where the short name doesn't work
 NUM = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
 
 
@@ -140,8 +143,26 @@ def _leaders_line(e: dict) -> str:
     return f"{'Atop the league standings' if conf else 'Best records so far'}: {_list(top)}."
 
 
+ZONE_SAID = {"in": "into the picture", "bubble": "onto the bubble", "fringe": "to the fringe", "auto": "out of the at-large picture"}
+
+
+def atlarge_movers(watch: list[dict], day: str) -> list[dict]:
+    from . import atlarge
+    return atlarge.movers(watch, day)
+
+
+def _moved(m: dict) -> str:
+    """One mover as a sentence: the zone change when there is one, otherwise the spots."""
+    n = abs(m["delta"])
+    spots = f"{n} spot{'' if n == 1 else 's'}"
+    if m["zone"] != m["was_zone"]:
+        return f"{m['short']} moves {ZONE_SAID[m['zone']]}, now number {m['rank']} on our watch."
+    return f"{m['short']} {'climbs' if m['delta'] > 0 else 'slips'} {spots} to number {m['rank']}."
+
+
 def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict[str, Any]:
     """The show as segments, one card each: intro, then each edition's block, the At-Large Watch, outro."""
+    from . import alumni, anchors, leagues, pickem
     blocks = sorted(blocks, key=lambda b: ORDER.index(b["key"]) if b["key"] in ORDER else 99)
     start, end = now - timedelta(days=7), now - timedelta(days=1)
     span = f"{start.strftime('%B %-d')} to {end.strftime('%B %-d')}" if start.month != end.month else f"{start.strftime('%B %-d')} to {end.day}"
@@ -162,11 +183,29 @@ def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict
             segs.append({"kind": "star", "edition": b["key"], "colors": b["colors"], "name": b["name"], "text": b["star"]["text"], "card": b["star"]})
         if b.get("next"):
             segs.append({"kind": "next", "edition": b["key"], "colors": b["colors"], "name": b["name"], "text": b["next"]["text"], "card": b["next"]["card"]})
+    # Off the court: two alumni stories a week, from schools already on the show, in different editions.
+    day = now.date().isoformat()
+    on_air = {k: sg for sg in segs if (k := anchors.team_of(sg))}
+    used: set[str] = set()
+    for k in alumni.choose(list(on_air), day, n=len(on_air)):
+        src = on_air[k]
+        if src["edition"] in used or len(used) >= OFF_COURT:
+            continue
+        team = next((tm for lg in leagues.ALL.values() for tm in lg.teams if tm.key == k), None)
+        sg = alumni.segment(k, day, team.short if team else k, team.color if team else None)
+        if sg:
+            used.add(src["edition"])
+            segs.append({**sg, "edition": src["edition"], "colors": src.get("colors"), "name": src.get("name")})
+    if (sg := pickem.board()):  # Anchor Pick'em: the season board from the Den's desk ledger
+        segs.append(sg)
     rows = [r for r in (watch or []) if r.get("games")][:WATCH_TOP]
     if rows:
         names = [f"{r['short']} of the {r['conf_short']}" for r in rows[:4]]
         segs.append({"kind": "atlarge", "rows": rows,
                      "text": f"The At-Large Watch, our read on who could earn a bid without the auto bid: {_list(names)} lead the line."})
+    moved = atlarge_movers(watch, day) if watch else []
+    if moved:
+        segs.append({"kind": "bubble", "rows": moved, "text": "Bubble Watch. " + " ".join(_moved(m) for m in moved[:3])})
     segs.append({"kind": "outro", "text": "That's The Big Mid. MidMaxx60 runs every morning, and every line, box score and rating "
                  "is at Hardwood Bricks dot com. Keep it mid. Keep it real."})
     return {"date_iso": now.date().isoformat(), "span": span, "segments": segs,
@@ -200,6 +239,7 @@ def load_blocks(site: Path, now: datetime) -> list[dict]:
 
 def render(ep: dict, out: Path) -> Path:
     from . import midmaxx60 as mm
+    from . import outro
     from .config import TEMPLATES_DIR
 
     out = out.resolve()
@@ -243,6 +283,8 @@ def render(ep: dict, out: Path) -> Path:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined.name, "-vf", f"ass={ass.name}:fontsdir={mm.FONT_DIR.resolve()}",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy",
                     "-movflags", "+faststart", str(video)], check=True, cwd=work)
+    tail = outro.for_week(datetime.fromisoformat(ep["date_iso"]).date())
+    outro.append(video, tail, VW, VH, mm.FPS)
     (out / f"{stem}.srt").write_text("\n".join(srt))
     shutil.copy(work / "card00.png", out / f"{stem}-thumb.png")
     chapters, t = [], 0.0
@@ -255,7 +297,7 @@ def render(ep: dict, out: Path) -> Path:
     (out / f"{stem}.txt").write_text(
         f"The Big Mid: every mid-major conference we cover, {ep['span']}.\n\n" + "\n".join(chapters) + "\n\n"
         + "\n\n".join(s["text"] for s in segs) + f"\n\n{voiced}Stats: ESPN. Lines: The Odds API. https://hardwoodbricks.com/\n")
-    print(f"{video} {clock:.1f}s, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
+    print(f"{video} {clock:.1f}s + {tail.stem} outro, {len(clips)} segments, voice: {'clone' if cloned else 'piper'}")
     return video
 
 

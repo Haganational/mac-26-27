@@ -1,0 +1,1351 @@
+{
+ "_help": "Missouri Valley local flavor for team pages, edition fronts and game write-ups. Same knobs as data/flavor.json (see FLAVOR_HELP in mac/gamer.py). Notes are fact-checked against the source URL each carries.",
+ "settings": {
+  "enabled": true,
+  "byline": "Hardwood Bricks staff",
+  "max_lines": 2
+ },
+ "teams": {
+  "belmont": {
+   "town": "Nashville",
+   "home_floor": "the Curb Event Center",
+   "home_lines": [
+    {
+     "text": "Belmont's Curb Event Center opened on September 8, 2003, replacing the former Striplin Gym, and is home to the Bruins' men's and women's basketball and volleyball teams.",
+     "source": "https://en.wikipedia.org/wiki/Curb_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Curb Event Center in Nashville takes its name from its prime donor, Mike Curb, a music executive and former lieutenant governor of California.",
+     "source": "https://en.wikipedia.org/wiki/Curb_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Belmont's Curb Event Center seats 5,085 for sporting events and hundreds more for concerts and graduations, and it cost $47.4 million to build.",
+     "source": "https://en.wikipedia.org/wiki/Curb_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Belmont's Curb Event Center hosted U.S. presidential debates in 2008 and 2020, and staged the nationally televised CMT Music Awards on April 10, 2006.",
+     "source": "https://en.wikipedia.org/wiki/Curb_Event_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Curb Event Center hosted the Atlantic Sun Conference men's basketball tournaments in 2004 and 2005, two seasons after it opened on Belmont's Nashville campus.",
+     "source": "https://en.wikipedia.org/wiki/Curb_Event_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Nashville traces its start to 1779, when a party led by James Robertson and John Donelson reached the French Lick and built Fort Nashborough.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Nashville is named for Francis Nash, a Continental Army general in the Revolutionary War, and was chartered by North Carolina's General Assembly on April 19, 1784.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Nashville's 'Music City' nickname dates to 1950, when WSM radio announcer David Cobb ad-libbed that listeners were hearing sounds from 'Music City, U.S.A.'",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "From February 13 to May 10, 1960, sit-ins were held at Nashville lunch counters until city officials and local businesses agreed to desegregate them.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The first Prince's Hot Chicken Shack opened in 1945 at Jefferson Street and 28th Avenue, and hot chicken is among Nashville's more popular local dishes.",
+     "source": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Belmont University began as Belmont Women's College, founded in 1890 by Susan Ledley Heron and Ida Emily Hood on the site of the Belmont Mansion.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Belmont dropped its old Rebels mascot in the mid-1990s over its association with the Confederacy and became the Bruins, from the Middle English word for bear.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The Bell Tower on Belmont's Nashville campus held the first carillon in Tennessee, one of the first 25 installed in North America.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Belmont made eight NCAA Division I tournament appearances between 2006 and 2019, and also qualified for the 2020 tournament before it was canceled.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Belmont's lone NCAA tournament victory came in the 2019 First Four, an 81-70 win over Temple.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 2008 NCAA tournament, Belmont rallied from deficits against No. 2 seed Duke before losing by a single point, 71-70.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rick Byrd coached Belmont from 1986 through 2019, going 713-346 overall and 378-110 in conference play.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Belmont and Murray State combined to win every Ohio Valley Conference regular-season title from 2012 to 2022, and met in the OVC tournament final from 2018 to 2020.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Evan Bradds, Belmont's Division I-era career scoring leader with 1,921 points, was named the program's 11th head men's basketball coach on March 19, 2026.",
+     "source": "https://belmontbruins.com/news/2026/3/19/belmont-names-evan-bradds-head-mens-basketball-coach.aspx",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "bradley": {
+   "town": "Peoria",
+   "home_floor": "Carver Arena",
+   "home_lines": [
+    {
+     "text": "Carver Arena is part of the Peoria Civic Center, the complex in Peoria, Illinois, that opened on June 6, 1982.",
+     "source": "https://en.wikipedia.org/wiki/Carver_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Carver Arena and the rest of the Peoria Civic Center in Peoria were designed by the architects Philip Johnson and John Burgee.",
+     "source": "https://en.wikipedia.org/wiki/Carver_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Carver Arena in Peoria hosted the Illinois High School Association boys' basketball state finals for two weeks every March from 1996 until 2019.",
+     "source": "https://en.wikipedia.org/wiki/Carver_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Bob Seger set the highest-grossing concert record at Peoria's Carver Arena on January 22, 2019, topping an Elton John show from 2011.",
+     "source": "https://en.wikipedia.org/wiki/Carver_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Peoria takes its name from the Peoria tribe, a member of the Illinois Confederation, and grew up on the Illinois River as a port and shipping center.",
+     "source": "https://en.wikipedia.org/wiki/Peoria,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1942, the fungus used to produce penicillin industrially was first isolated from a moldy cantaloupe bought at a Peoria grocery store.",
+     "source": "https://en.wikipedia.org/wiki/Peoria,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Before Prohibition, Peoria was a major American whiskey center, with over 24 distilleries and 73 breweries operating in the city between 1837 and 1919.",
+     "source": "https://en.wikipedia.org/wiki/Peoria,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Abraham Lincoln delivered his Peoria speech, an attack on the Kansas-Nebraska Act, in the Illinois river city on October 16, 1854.",
+     "source": "https://en.wikipedia.org/wiki/Peoria,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Caterpillar kept its world headquarters in Peoria for over 110 years before completing a move to Deerfield, Illinois, in 2018.",
+     "source": "https://en.wikipedia.org/wiki/Peoria,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Lydia Moss Bradley founded Bradley Polytechnic Institute in Peoria in 1897 in memory of her husband, Tobias, and their six children, all of whom died before her.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1892, Lydia Moss Bradley bought a controlling interest in Parsons Horological School, the first watchmaker school in America, and moved it to Peoria.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Westlake Hall, built in 1897, is the oldest building on the Bradley University campus in Peoria, and a later renovation kept its signature clock tower.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bradley reached the NCAA championship game in 1950 and 1954, losing to CCNY in the first and to La Salle, 92-76, in the second.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bradley has won four championships in the National Invitation Tournament, the NIT, taking the title in 1957, 1960, 1964 and 1982.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On January 16, 1960, Bradley beat No. 1 Cincinnati at Robertson Fieldhouse in Peoria in a game later selected as the 'Game of the Century.'",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a No. 13 seed in 2006, Bradley upset Kansas and Pittsburgh to reach its first Sweet Sixteen since 1955, then lost to top-seeded Memphis, 80-64.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Bradley and Illinois State, schools less than 40 miles apart on Interstate 74, meet every year in the I-74 Rivalry, also called the War on I-74.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Brian Wardle holds the title of men's basketball head coach at Bradley University, leading the Braves from the sideline in Peoria.",
+     "source": "https://bradleybraves.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "drake": {
+   "town": "Des Moines",
+   "home_floor": "the Knapp Center",
+   "home_lines": [
+    {
+     "text": "Drake's Knapp Center opened on December 1, 1992, and the Bulldogs played their first basketball game there four days later, on December 5.",
+     "source": "https://en.wikipedia.org/wiki/Knapp_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Knapp Center is named for William Knapp, the Iowa Realty chairman whose $3 million gift helped finance the $12.5 million Drake arena.",
+     "source": "https://en.wikipedia.org/wiki/Knapp_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Drake's Knapp Center has seated 6,424 since 2022, down from 7,152, after renovations reduced seating in the lower bowl.",
+     "source": "https://en.wikipedia.org/wiki/Knapp_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The floor at Drake's Knapp Center has been named Ron Pearson Court since September 18, 2010, after the Drake alumnus and former Hy-Vee chief executive.",
+     "source": "https://en.wikipedia.org/wiki/Knapp_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "During the Drake Relays, the Knapp Center hosts the Beautiful Bulldog Contest along with the meet's media center and athletes' warm-up and locker room space.",
+     "source": "https://en.wikipedia.org/wiki/Knapp_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Des Moines began as Fort Des Moines, built in May 1843 under Captain James Allen where the Des Moines and Raccoon rivers meet, a name preferred over his 'Fort Raccoon.'",
+     "source": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Des Moines became Iowa's capital in 1857, succeeding Iowa City, and its State Capitol dome rises 275 feet under a covering of 23-karat gold leaf.",
+     "source": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Des Moines is sometimes called the 'Hartford of the West' for its insurance industry, helped by Iowa's insurance premium tax of 1%.",
+     "source": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On July 11, 1993, floodwaters submerged the Des Moines Water Works, leaving about 250,000 people without running water for 12 days and drinking water for 20.",
+     "source": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Ronald Reagan once worked as a sportscaster for WHO, the 50,000-watt Des Moines radio station at 1040 AM.",
+     "source": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Drake University was founded in Des Moines in March 1881 by George T. Carpenter, a teacher and pastor, and Francis Marion Drake, a Union general.",
+     "source": "https://en.wikipedia.org/wiki/Drake_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drake's teams, once the Ducklings and Ganders, became the Bulldogs in 1904 after a sportswriter noticed John L. Griffith bringing his pet bulldogs to practice.",
+     "source": "https://en.wikipedia.org/wiki/Drake_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drake students paint street art along Carpenter Avenue before the Drake Relays, a meet that began in 1910 in a blizzard with fewer than 100 participants.",
+     "source": "https://en.wikipedia.org/wiki/Drake_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Drake reached the 1969 Final Four, lost to UCLA 85-82 in the national semifinal, then beat North Carolina 104-84 to finish third.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Drake reached the Elite Eight in both 1970 and 1971, the second run ending in a 73-71 loss to Kansas.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Maury John coached Drake from 1958 to 1971, compiling a school-record 211-131 mark before leaving for Iowa State.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Keno Davis's 2008 Drake team won both Missouri Valley titles and went 28-5, a school-best record, before losing 101-99 in overtime to Western Kentucky.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Drake lost 70-43 to in-state conference rival Northern Iowa in 2020, then six days later beat top-seeded Northern Iowa 77-56 in the Arch Madness quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Eric Henderson, who went 129-60 in six seasons at South Dakota State, was hired on March 28, 2025, as Drake's 31st head men's basketball coach.",
+     "source": "https://godrakebulldogs.com/staff-directory/eric-henderson/563",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "evansville": {
+   "town": "Evansville",
+   "home_floor": "the Ford Center",
+   "home_lines": [
+    {
+     "text": "Evansville's Ford Center opened on November 5, 2011, with an IceMen hockey game, and the Purple Aces played their first game there on November 12, beating Butler in overtime.",
+     "source": "https://en.wikipedia.org/wiki/Ford_Center_(Evansville)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The $127.5 million Ford Center replaced Roberts Municipal Stadium as Evansville's arena and seats 10,000 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/Ford_Center_(Evansville)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Ford Center's name comes from a 10-year, $4.2 million agreement with the Tri-State Ford Dealers, a local dealer group in Evansville.",
+     "source": "https://en.wikipedia.org/wiki/Ford_Center_(Evansville)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Evansville's Colt Ryan set the Ford Center scoring record with 39 points against Bradley on January 18, 2012.",
+     "source": "https://en.wikipedia.org/wiki/Ford_Center_(Evansville)",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Evansville's Ford Center hosted the NCAA Division II men's basketball championship in 2014, 2015, 2019 and 2021 through 2025.",
+     "source": "https://en.wikipedia.org/wiki/Ford_Center_(Evansville)",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Hugh McGary Jr. bought about 441 acres for McGary's Landing on March 27, 1812, and in 1814 renamed the village Evansville after Colonel Robert Morgan Evans.",
+     "source": "https://en.wikipedia.org/wiki/Evansville,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Evansville sits on a meander of the Ohio River and is often called 'River City' or 'Crescent Valley.'",
+     "source": "https://en.wikipedia.org/wiki/Evansville,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Ohio River flood of 1937 covered 500 Evansville city blocks and put the city under martial law, after which higher levees hid the river behind berms and walls.",
+     "source": "https://en.wikipedia.org/wiki/Evansville,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "During World War II, Evansville produced 167 LSTs, the Landing Ship-Tanks, and 6,242 P-47 fighters, almost half of all P-47s made nationally.",
+     "source": "https://en.wikipedia.org/wiki/Evansville,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Evansville's West Side Nut Club Fall Festival, held the first full week of October, draws 100,000 to 150,000 people daily and is known for fried-brain sandwiches.",
+     "source": "https://en.wikipedia.org/wiki/Evansville,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The University of Evansville was founded in 1854 as the Moores Hill Male and Female Collegiate Institute, moved to Evansville in 1919 and became a university in 1967.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Evansville",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "University of Evansville teams were originally the Pioneers before becoming the Purple Aces, who wear purple, white and orange and are represented by the mascot Ace Purple.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Evansville",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "The University of Evansville operates Harlaxton College, its British campus at Harlaxton Manor near Grantham, Lincolnshire, which Stanford University previously controlled.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Evansville",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Before moving up to Division I, Evansville won five Division II national championships, in 1959, 1960, 1964, 1965 and 1971.",
+     "source": "https://en.wikipedia.org/wiki/Evansville_Purple_Aces_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Former Evansville coach Arad McCutchan was the first NCAA College Division coach selected to the Naismith Basketball Hall of Fame.",
+     "source": "https://en.wikipedia.org/wiki/Evansville_Purple_Aces_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On December 13, 1977, a chartered DC-3 carrying the Evansville basketball team crashed near Evansville Regional Airport, killing every player and coach aboard.",
+     "source": "https://en.wikipedia.org/wiki/Evansville_Purple_Aces_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On November 12, 2019, Evansville upset top-ranked Kentucky at Rupp Arena, one of the biggest victories in the program's Division I history.",
+     "source": "https://en.wikipedia.org/wiki/Evansville_Purple_Aces_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "David Ragland is head men's basketball coach at the University of Evansville, listed at the top of the Purple Aces' 2026-27 coaching staff.",
+     "source": "https://gopurpleaces.com/sports/mens-basketball/roster",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "illinois-state": {
+   "town": "Normal",
+   "home_floor": "CEFCU Arena",
+   "home_lines": [
+    {
+     "text": "Illinois State's CEFCU Arena opened on January 11, 1989, after a groundbreaking on May 8, 1986, and cost $17.4 million to build.",
+     "source": "https://en.wikipedia.org/wiki/CEFCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Illinois State's home floor seats 10,200 and was called Redbird Arena until a 10-year naming-rights deal with CEFCU began with the 2023-24 academic year.",
+     "source": "https://en.wikipedia.org/wiki/CEFCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The court inside Illinois State's arena in Normal was named for Doug Collins at the Bradley game in the 2006-07 season, when new scoreboards were first used.",
+     "source": "https://en.wikipedia.org/wiki/CEFCU_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Beyond Illinois State basketball, the arena in Normal has hosted the IHSA girls' volleyball tournament since 1990 and the girls' basketball tournament since 1992.",
+     "source": "https://en.wikipedia.org/wiki/CEFCU_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Normal was laid out as North Bloomington on June 7, 1854, by Joseph Parkinson, with Jesse W. Fell steering the railroad across land he controlled.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The town of Normal took its name from the teacher-training school at its center, Illinois State Normal University, known today as Illinois State University.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The original Steak 'n Shake opened in Normal in 1934, making the college town the birthplace of the burger chain.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Normal plant opened by the Mitsubishi-Chrysler venture Diamond-Star Motors in 1986 closed in 2016, and Rivian bought it in January 2017 to build electric vehicles.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Every August, Uptown Normal hosts the Sweet Corn Blues Festival, which serves more than 50,000 ears of fresh sweet corn.",
+     "source": "https://en.wikipedia.org/wiki/Normal,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Illinois State was founded in 1857 as Illinois State Normal University, and Abraham Lincoln drew up the legal documents securing its funding as the board's attorney.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Illinois State's Redbirds nickname refers to the cardinal, the state bird of Illinois, and the school's colors are red and white.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Illinois State is home to the Gamma Phi Circus, founded in 1929, one of two collegiate circuses in the United States and the oldest in the world.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Doug Collins of Illinois State went first overall to the Philadelphia 76ers in the 1973 NBA Draft, and his No. 20 is the program's only retired number.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_Redbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 1998 NCAA tournament, ninth-seeded Illinois State beat eighth-seeded Tennessee 82-81 in overtime before losing to top-seeded Arizona.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_Redbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "On April 7, 2015, a plane carrying Illinois State assistant coach Torrey Ward and six others crashed near Bloomington after the NCAA final in Indianapolis, with no survivors.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_Redbirds_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Illinois State's men's basketball series with Missouri Valley Conference rival Bradley is known as the I-74 Rivalry.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_Redbirds_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Ryan Pedon is the head coach of the Illinois State Redbirds men's basketball program in Normal.",
+     "source": "https://goredbirds.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "indiana-state": {
+   "town": "Terre Haute",
+   "home_floor": "the Hulman Center",
+   "home_lines": [
+    {
+     "text": "Indiana State's Hulman Center opened on December 14, 1973, at a cost of $10 million, originally under the name Hulman Civic University Center.",
+     "source": "https://en.wikipedia.org/wiki/Hulman_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Hulman Center in Terre Haute was funded by donations and bonds after a $2.5 million challenge gift from philanthropist Tony Hulman.",
+     "source": "https://en.wikipedia.org/wiki/Hulman_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Indiana State spent $50 million renovating the Hulman Center in Terre Haute from 2018 to 2020.",
+     "source": "https://en.wikipedia.org/wiki/Hulman_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Indiana State's Hulman Center hosted the 1974 Midwest Region of the NCAA tournament, and Elvis Presley performed in the Terre Haute arena in 1975.",
+     "source": "https://en.wikipedia.org/wiki/Hulman_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Terre Haute takes its name from a French phrase meaning highland, given in the early 18th century by French-Canadian explorers and fur trappers to the site above the Wabash River.",
+     "source": "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "U.S. 40 and U.S. 41 run through Terre Haute as Wabash Avenue and 3rd Street, and the city carries the nickname Crossroads of America.",
+     "source": "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Socialist leader Eugene V. Debs, a five-time presidential nominee, lived in Terre Haute, and his former home is a National Historic Landmark and museum.",
+     "source": "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Terre Haute's Clabber Girl Museum is housed in the 1892 Hulman & Company building, next to the plant where Clabber Girl baking powder is still made.",
+     "source": "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Terre Haute was struck by the 1913 Easter tornado, which killed 21 people, and a 1935 general strike brought martial law for several months.",
+     "source": "https://en.wikipedia.org/wiki/Terre_Haute,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Indiana State was established on December 20, 1865, as the Indiana State Normal School, with a $73,000 donation from Chauncey Rose securing the Terre Haute site.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Indiana State's athletes were once the Fighting Teachers until a January 1922 student vote chose Sycamores, for the trees of the Wabash River Valley.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In 1899, Indiana State announced that Yale blue and white would replace its colors of salmon pink and white, and the school now wears royal blue and white.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Larry Bird's 1979 Indiana State team finished 33-1, losing only the national championship game, 75-64, to Magic Johnson's Michigan State.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_Sycamores_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "John Wooden coached Indiana State in Terre Haute from 1946 to 1948 and compiled a 44-15 record with the Sycamores.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_Sycamores_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Indiana State won the 1950 NAIA national championship, beating East Central State of Oklahoma 61-57 in the final.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_Sycamores_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "As a 13th seed in 2001, Indiana State upset fourth-seeded Oklahoma 70-68 in overtime in the NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_Sycamores_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Indiana State reached the 2024 NIT final, where the Sycamores lost to Seton Hall by a score of 79-77.",
+     "source": "https://en.wikipedia.org/wiki/Indiana_State_Sycamores_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Matthew Graves is the head coach of the Indiana State Sycamores men's basketball program in Terre Haute.",
+     "source": "https://gosycamores.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "murray-state": {
+   "town": "Murray",
+   "home_floor": "the CFSB Center",
+   "home_lines": [
+    {
+     "text": "Murray State's CFSB Center was completed in June 1998 at a cost of $20 million and seats 8,602 for basketball.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The first Murray State game in the CFSB Center was a 65-62 win over Southern Illinois on November 14, 1998.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Murray State's arena was known as the RSEC until September 2010, when a $3.3 million gift from Community Financial Services Bank renamed it the CFSB Center.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before the CFSB Center, Murray State played for 43 years in Racer Arena, a 5,500-seat building opened in 1954 that now serves only volleyball.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Murray was called Williston, then Pooltown, then Pleasant Springs, before its incorporation on January 17, 1844, under a name honoring Representative John Murray.",
+     "source": "https://en.wikipedia.org/wiki/Murray,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Wadesboro was the first seat of Calloway County, but after Marshall County was created in 1842, Murray was chosen as the seat because it sat at the county's geographic center.",
+     "source": "https://en.wikipedia.org/wiki/Murray,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Murray and Calloway County were strongly pro-Confederate in the Civil War, and in the winter of 1864-65 Union soldiers from Paducah torched every building on the east side of Murray's court square.",
+     "source": "https://en.wikipedia.org/wiki/Murray,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Murray lies about seven miles north of the Tennessee border and about 15 miles west of the Land Between the Lakes National Recreation Area.",
+     "source": "https://en.wikipedia.org/wiki/Murray,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Murray's Playhouse in the Park, one of Kentucky's oldest community theatres, performs in a railroad depot built in 1907.",
+     "source": "https://en.wikipedia.org/wiki/Murray,_Kentucky",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Murray State opened on September 24, 1923, as the Murray State Normal School, with Rainey T. Wells recognized as the university's founder.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Murray State's teams were historically the Thoroughbreds, a change to Racers that baseball completed last in 2014; the mascots are the live Racer One and the costumed Dunker.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Murray State's blue shield with a double gold border carries the coat of arms of the family of William Murray, Earl of Mansfield, and its three stars stand for hope, endeavor and achievement.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Murray State has retired 15 jersey numbers, including Ja Morant's No. 12, the most of any NCAA Division I men's program.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In the 2019 NCAA tournament, Ja Morant posted 17 points, 11 rebounds and 16 assists as 12th-seeded Murray State beat Marquette 83-64.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Senior Danero Thomas hit a buzzer-beater as 13th-seeded Murray State beat Vanderbilt 66-65 in the 2010 NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Murray State spent 74 seasons in the Ohio Valley Conference, winning 28 regular-season titles, before joining the Missouri Valley Conference in 2022.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Murray State and Belmont, longtime Ohio Valley powers, met in three straight OVC tournament finals from 2018 to 2020 before both moved to the Missouri Valley.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Ryan Miller is the head coach of the Murray State Racers men's basketball program in Murray, Kentucky.",
+     "source": "https://goracers.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "northern-iowa": {
+   "town": "Cedar Falls",
+   "home_floor": "the McLeod Center",
+   "home_lines": [
+    {
+     "text": "Northern Iowa's McLeod Center opened on November 18, 2006, and the Panthers men played their first game there the next day against Milwaukee.",
+     "source": "https://en.wikipedia.org/wiki/McLeod_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The McLeod Center in Cedar Falls seats 7,018 and cost $26 million, with ground broken on October 9, 2004.",
+     "source": "https://en.wikipedia.org/wiki/McLeod_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa's McLeod Center replaced the UNI-Dome as home of Panthers basketball, and a covered walkway linking the two holds an athletic hall of fame.",
+     "source": "https://en.wikipedia.org/wiki/McLeod_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The McLeod Center in Cedar Falls had its first sellout of every seat on November 12, 2023, for a women's game against Iowa and Caitlin Clark.",
+     "source": "https://en.wikipedia.org/wiki/McLeod_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Cedar Falls began in March 1845, when William R. Sturgis and Erasmus D. Adams settled on the Cedar River at a spot first called Sturgis Falls.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_Falls,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Cedar Falls was chosen as the first seat of Black Hawk County in 1853, but an April 1855 referendum moved the seat to Waterloo.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_Falls,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Water power from the Cedar River made Cedar Falls a milling and manufacturing center, and in 1911 local entrepreneurs founded what became Viking Pump, a maker of industrial pumps.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_Falls,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The city of Cedar Falls owns its own power, gas, water and cable TV services, and its municipal utility offers residents gigabit internet speeds.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_Falls,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The annual Sturgis Falls Celebration in Cedar Falls grew out of the 1976 Bicentennial and honors the city's original name.",
+     "source": "https://en.wikipedia.org/wiki/Cedar_Falls,_Iowa",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa was founded in 1876 as the Iowa State Normal School, when the state no longer needed the orphan home it had run for children of its Civil War veterans.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Iowa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa was the Iowa State Teachers College from 1909 to 1961 and the State College of Iowa until 1967, when it took its current name.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Iowa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa's purple-and-gold Panthers are represented by TC, short for The Cat, and his sister TK.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Northern_Iowa",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "In the 1990 NCAA tournament, 14th-seeded Northern Iowa beat third-seeded Missouri 74-71 before falling to Minnesota in the second round.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Ali Farokhmanesh hit the clinching shot as ninth-seeded Northern Iowa beat top-seeded Kansas 69-67 in 2010, sending the Panthers to the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "In 2016, Northern Iowa beat Texas 75-72 in the NCAA tournament, then lost to Texas A&M 92-88 in double overtime.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa won the 2026 Missouri Valley tournament as a sixth seed, the lowest seed to win it to that point; Ben Jacobson left for Utah State that March 30.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa once played two or three of its Iowa neighbors each season for the Iowa Big Four, a mythical state championship in men's college basketball.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Kyle Green, formerly an associate head coach at Iowa State, was hired on April 1, 2026, as Northern Iowa's 26th head men's basketball coach.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "southern-illinois": {
+   "town": "Carbondale",
+   "home_floor": "the Banterra Center",
+   "home_lines": [
+    {
+     "text": "The Banterra Center opened on December 1, 1964, as SIU Arena, and Southern Illinois christened it with a 78-55 win over Oklahoma State on the way to a 14-1 home record.",
+     "source": "https://en.wikipedia.org/wiki/Banterra_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois' arena in Carbondale went 55 years as SIU Arena until a ten-year naming rights deal with Banterra Bank was announced on May 16, 2019.",
+     "source": "https://en.wikipedia.org/wiki/Banterra_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "In 1969 Southern Illinois' arena in Carbondale hosted an NBA regular-season game as well as two first-round games of that year's NCAA tournament.",
+     "source": "https://en.wikipedia.org/wiki/Banterra_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Banterra Center in Carbondale seats 8,284 and cost $4.3 million to build after a groundbreaking in March 1962, with construction taking nearly two years.",
+     "source": "https://en.wikipedia.org/wiki/Banterra_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Elvis Presley sold out Southern Illinois' arena in Carbondale in October 1976, and Peter Gabriel recorded part of his Plays Live album there in December 1983.",
+     "source": "https://en.wikipedia.org/wiki/Banterra_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Daniel Harmon Brush, John Asgill Conner and Dr. William Richart bought the 360-acre tract that became Carbondale in August 1853, placing it between planned railroad stations and two county seats.",
+     "source": "https://en.wikipedia.org/wiki/Carbondale,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The first train through Carbondale arrived on July 4, 1854, running north from Cairo on the main line, and the town grew into a regional transportation and business hub.",
+     "source": "https://en.wikipedia.org/wiki/Carbondale,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On April 29, 1866, Carbondale's Woodlawn Cemetery held one of the first formal Memorial Day observances after the Civil War, with local resident General John A. Logan giving the principal address.",
+     "source": "https://en.wikipedia.org/wiki/Carbondale,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "On November 12, 1970, a large shootout broke out between Carbondale police and members of the local Black Panther Party chapter, the same year anti-war protests temporarily closed Southern Illinois University.",
+     "source": "https://en.wikipedia.org/wiki/Carbondale,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Carbondale lay in the path of totality for both the August 21, 2017 and April 8, 2024 solar eclipses, which came less than seven years apart.",
+     "source": "https://en.wikipedia.org/wiki/Carbondale,_Illinois",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois was chartered on March 9, 1869, as the state's second state-supported normal school, but a contractor's accidental death and other setbacks delayed its Carbondale opening until 1874.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_University_Carbondale",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois teams were first called the Maroons, and on March 19, 1951, students voted to become the Salukis, after a royal dog of ancient Egypt, a nod often tied to the 'Little Egypt' region.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_University_Carbondale",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois holds the Great Cardboard Boat Regatta on Campus Lake each spring, a Carbondale custom that professor Richard Archer started in 1974 as the final exam for his freshman design class.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_University_Carbondale",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois won the NAIA national championship in 1946, and the Salukis later finished as Division II national runners-up in both 1965 and 1966.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_Salukis_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois won the 1967 National Invitation Tournament under coach Jack Hartman, beating Marquette 71-56 in the final, and Walt Frazier was named the tournament's Most Valuable Player.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_Salukis_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Southern Illinois has reached the Division I Sweet Sixteen three times, in 1977, 2002 and 2007, losing to Wake Forest, Connecticut and Kansas, the last by 61-58.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_Salukis_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "The 2006-07 Southern Illinois team under Chris Lowery went 29-7 and climbed to No. 11 in the national polls, the highest ranking the Salukis have reached.",
+     "source": "https://en.wikipedia.org/wiki/Southern_Illinois_Salukis_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Scott Nagy is listed as head coach on Southern Illinois' 2026-27 men's basketball coaching staff, leading the Salukis from the Banterra Center in Carbondale.",
+     "source": "https://siusalukis.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "uic": {
+   "town": "Chicago",
+   "home_floor": "Credit Union 1 Arena",
+   "home_lines": [
+    {
+     "text": "Credit Union 1 Arena opened on May 31, 1982, as the UIC Pavilion, a $10 million Skidmore, Owings and Merrill building at 525 South Racine Avenue on Chicago's Near West Side.",
+     "source": "https://en.wikipedia.org/wiki/Credit_Union_1_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "UIC's arena took the Credit Union 1 Arena name on November 15, 2018, under a 15-year naming rights agreement with the Illinois credit union.",
+     "source": "https://en.wikipedia.org/wiki/Credit_Union_1_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Madonna played UIC's arena, then the UIC Pavilion, on May 18, 1985, during her first tour, the Virgin Tour, with the Beastie Boys as the opening act.",
+     "source": "https://en.wikipedia.org/wiki/Credit_Union_1_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Before taking its current name, UIC's arena hosted the Horizon League men's basketball tournament in 1984, 1999 and 2000, and the Starrcade '87 wrestling card on November 26, 1987.",
+     "source": "https://en.wikipedia.org/wiki/Credit_Union_1_Arena",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Brandon Johnson was inaugurated as mayor of Chicago at UIC's Credit Union 1 Arena on the Near West Side on May 15, 2023.",
+     "source": "https://en.wikipedia.org/wiki/Credit_Union_1_Arena",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Jane Addams and Ellen Gates Starr founded Hull House on September 18, 1889, in the mansion Charles Hull built in 1856 at 800 South Halsted Street, now part of UIC in Chicago.",
+     "source": "https://en.wikipedia.org/wiki/Hull_House",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Hull House grew to 13 buildings, most of them demolished in the mid-1960s for UIC's Chicago campus, leaving the mansion and one dining hall as the Jane Addams Hull-House Museum.",
+     "source": "https://en.wikipedia.org/wiki/Hull_House",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Chicago's Taylor Street was the port of call for the city's Italian immigrants, and by 1927 Italians in Chicago owned 500 grocery stores, 257 restaurants and 240 pastry shops.",
+     "source": "https://en.wikipedia.org/wiki/Little_Italy,_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Building UIC's Chicago campus demolished about 200 businesses and 800 homes in Little Italy and displaced roughly 5,000 residents, over protest marches led by neighborhood resident Florence Scala.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Illinois_Chicago",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "In 1994 Chicago moved the Maxwell Street Market, in the neighborhood called the birthplace of Chicago blues, a few blocks east to Canal Street to make way for UIC's expansion.",
+     "source": "https://en.wikipedia.org/wiki/Maxwell_Street",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "UIC began in October 1946 as a temporary University of Illinois branch on Chicago's Navy Pier, and its degree-granting Harrison and Halsted campus opened in February 1965.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Illinois_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UIC's Flames nickname refers to the Great Chicago Fire of 1871, and the University of Illinois Chicago mascot that carries the name is Sparky.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Illinois_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Walter Netsch of Skidmore, Owings and Merrill designed UIC's original Chicago Circle campus in the brutalist style, though its second-story elevated walkways were removed in phases in the early 1990s.",
+     "source": "https://en.wikipedia.org/wiki/University_of_Illinois_Chicago",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "UIC has reached the NCAA tournament three times, in 1998, 2002 and 2004, losing to Charlotte, Oklahoma and Kansas.",
+     "source": "https://en.wikipedia.org/wiki/UIC_Flames_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Jimmy Collins coached UIC from 1996 to 2010, going 218-208 and taking the 1997-98 Flames to a 22-6 record and an NCAA tournament berth.",
+     "source": "https://en.wikipedia.org/wiki/UIC_Flames_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UIC reached the 2018 CollegeInsider.com Postseason Tournament final, beating Saint Francis (PA), Austin Peay and Liberty before losing 76-71 to Northern Colorado.",
+     "source": "https://en.wikipedia.org/wiki/UIC_Flames_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "UIC joined the Missouri Valley Conference in 2022 after membership in the Horizon League from 1994 to 2022 and the Mid-Continent Conference from 1982 to 1994.",
+     "source": "https://en.wikipedia.org/wiki/UIC_Flames_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Rob Ehsan is listed as head coach on UIC's 2026-27 men's basketball coaching staff, leading the Flames from their campus on Chicago's Near West Side.",
+     "source": "https://uicflames.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  },
+  "valparaiso": {
+   "town": "Valparaiso",
+   "home_floor": "the Athletics-Recreation Center",
+   "home_lines": [
+    {
+     "text": "Valparaiso's Athletics-Recreation Center opened on November 27, 1984, with a men's game against Western Michigan, and Notre Dame was the opponent for its dedication game on December 9, 1984.",
+     "source": "https://en.wikipedia.org/wiki/Athletics%E2%80%93Recreation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Athletics-Recreation Center at Valparaiso cost $7.25 million and added 84,000 square feet to Hilltop Gym, bringing the complex to 142,000 square feet.",
+     "source": "https://en.wikipedia.org/wiki/Athletics%E2%80%93Recreation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso's old Hilltop Gym, opened in 1939, hosted Larry Bird during his Indiana State career and a campaign speech by Robert F. Kennedy before becoming a practice facility.",
+     "source": "https://en.wikipedia.org/wiki/Athletics%E2%80%93Recreation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "The Athletics-Recreation Center's record crowd of 5,444 came for a 2016 NIT quarterfinal against Saint Mary's, breaking the 5,432 mark set against Butler in 2008.",
+     "source": "https://en.wikipedia.org/wiki/Athletics%E2%80%93Recreation_Center",
+     "kind": "arena",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso's Athletics-Recreation Center hosted the Horizon League men's basketball tournament finals in 2012, 2013 and 2015, during the university's ten seasons in that league.",
+     "source": "https://en.wikipedia.org/wiki/Athletics%E2%80%93Recreation_Center",
+     "kind": "arena",
+     "until": ""
+    }
+   ],
+   "lines": [
+    {
+     "text": "Valparaiso was established in 1836 as Portersville, the Porter County seat, and renamed in 1837 after Valparaiso, Chile, near where county namesake David Porter fought in the War of 1812.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso holds its Popcorn Festival on the first Saturday after Labor Day in honor of Orville Redenbacher, a former resident who built a popcorn factory in the city.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso sits on the Valparaiso Moraine, which left the city with mostly clay soil in a corner of Northwest Indiana marked by kettle lakes and knobs.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso had no African-American residents from the 1890s until 1969, a history attributed to its status as a sundown town, and the first Black family to move there faced intimidation and later left.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "The Porter County Courthouse in Valparaiso replaced an earlier brick building in 1883, and a 1934 fire damaged its interior and required the removal of its tower.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso,_Indiana",
+     "kind": "town",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso University opened on September 21, 1859, as Valparaiso Male and Female College with 75 students, and Henry Baker Brown reopened it in 1873 as the Northern Indiana Normal School and Business Institute.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Facing a $375,000 debt in 1923, Valparaiso University almost sold itself to the Ku Klux Klan, a deal stopped by legal technicalities, before the Lutheran University Association bought it in July 1925.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso announced in February 2021 that it would retire its Crusaders nickname, citing the negative connotation and violence associated with Crusader imagery, and named the Beacons on August 10, 2021.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_University",
+     "kind": "campus-tradition",
+     "until": ""
+    },
+    {
+     "text": "Bryce Drew's last-second shot gave Valparaiso a 70-69 win over fourth-seeded Ole Miss in the 1998 NCAA tournament, and the team then beat Florida State in overtime to reach the Sweet Sixteen.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_Beacons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Homer Drew became Valparaiso's head coach in 1988, and both of his sons later held the job, with Bryce Drew leading the team to the 2013 and 2015 NCAA tournaments.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_Beacons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso reached the 2016 NIT championship game, beating Texas Southern, Florida State, Saint Mary's and BYU before losing 76-60 to George Washington.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_Beacons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Valparaiso joined the Missouri Valley Conference in 2017, replacing Wichita State, after ten seasons in the Horizon League and an earlier run as a charter member of the Mid-Continent Conference.",
+     "source": "https://en.wikipedia.org/wiki/Valparaiso_Beacons_men%27s_basketball",
+     "kind": "program-history",
+     "until": ""
+    },
+    {
+     "text": "Roger Powell Jr. is listed as head coach on Valparaiso's 2026-27 men's basketball coaching staff, leading the Beacons from the Athletics-Recreation Center.",
+     "source": "https://valpoathletics.com/sports/mens-basketball/coaches",
+     "kind": "coach",
+     "until": "2027-04-10"
+    }
+   ]
+  }
+ },
+ "rivalries": {
+  "belmont|murray-state": {
+   "name": "Belmont-Murray State",
+   "lines": [
+    {
+     "text": "The Belmont-Murray State rivalry dates to Belmont's 2012 entry into the Ohio Valley Conference, and the two shared the OVC regular-season titles of 2018-19 and 2019-20.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Belmont and Murray State met in three straight Ohio Valley Conference tournament finals from 2018 to 2020, with Belmont winning the last of them in 2020.",
+     "source": "https://en.wikipedia.org/wiki/Belmont_Bruins_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Murray State and Belmont dominated Ohio Valley Conference regular-season titles and met in three consecutive OVC tournament finals, from 2018 through 2020.",
+     "source": "https://en.wikipedia.org/wiki/Murray_State_Racers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "bradley|illinois-state": {
+   "name": "I-74 Rivalry",
+   "lines": [
+    {
+     "text": "Bradley and Illinois State, schools less than 40 miles apart on Interstate 74, meet every year in the I-74 Rivalry, also called the War on I-74.",
+     "source": "https://en.wikipedia.org/wiki/Bradley_Braves_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "The I-74 Rivalry is the name for the men's basketball series between Illinois State, in Normal, and Missouri Valley Conference rival Bradley.",
+     "source": "https://en.wikipedia.org/wiki/Illinois_State_Redbirds_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  },
+  "drake|northern-iowa": {
+   "name": "Drake-Northern Iowa",
+   "lines": [
+    {
+     "text": "Drake lost 70-43 to in-state conference rival Northern Iowa in 2020, then six days later beat top-seeded Northern Iowa 77-56 in the Arch Madness quarterfinals.",
+     "source": "https://en.wikipedia.org/wiki/Drake_Bulldogs_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    },
+    {
+     "text": "Northern Iowa names the Drake Bulldogs among its three Missouri Valley rivals, along with Bradley and UIC.",
+     "source": "https://en.wikipedia.org/wiki/Northern_Iowa_Panthers_men%27s_basketball",
+     "kind": "rivalry",
+     "until": ""
+    }
+   ]
+  }
+ }
+}

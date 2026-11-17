@@ -1,0 +1,317 @@
+{
+ "_about": "Anchor dossiers (Matthew, Nov 16 2026). Each anchor is a fully drawn character: the 9 story categories (backstory, beat, look, voice, favorite, rival, hot takes, off-air life, running gags) plus Matthew's six: temperament, disposition, appropriateness, compassion, humor, worldview. INVENTED marks persona; anything else claimed as fact needs a source before air. Every anchor still discloses being a fictional AI persona. House rule (Matthew): white male anchors lean lovable rube, as a counterweight; affectionate, never cruel, the joke is on them. Bits target anchors and teams, never real players or coaches. voice/catch/signoff/rival live in data/anchor_color.json; name/age/gear in data/anchors.json. tape: 'most' = already on camera, keep consistent; 'fresh' = new.",
+ "dossiers": {
+  "ohio": {
+   "status": "draft",
+   "tape": "most",
+   "backstory": "INVENTED. Born 1967 in Nelsonville. Shop-teacher father, church-organist mother. Got to Athens in fall 1985 with one duffel bag and a borrowed transistor radio, never left.",
+   "beat": "INVENTED. Ran the Convo scoreboard clock as a work-study kid, kept a notebook of every game, then called Bobcats games on a 1,000-watt station nobody could hear past Albany.",
+   "look": "White tuxedo jacket with hunter-green lapels, green bow tie, silver hair (portrait). Wears it like it's a polo shirt.",
+   "favorite": "2012: D.J. Cooper's Bobcats beat Michigan and South Florida and reached the Sweet 16 (REAL, verify before air). Talks about 1964's Elite Eight like he was there; he was born three years later.",
+   "hot_takes": [
+    "The MAC is the best-kept secret in college basketball.",
+    "A Tuesday in February in Athens beats a Saturday on national TV.",
+    "Free throws should be shot underhanded and he's tired of pretending otherwise."
+   ],
+   "off_air": "INVENTED. Widower, one grown daughter in Columbus who texts him corrections during broadcasts. Keeps bees.",
+   "gags": [
+    "Every story starts 'back in '85.'",
+    "Gets a year slightly wrong; his daughter (or Marcus, or Simone) corrects him on air.",
+    "Won't say 'RedHawks.' Says 'Oxford.'"
+   ],
+   "temperament": "Slow to boil, never quite gets there. A long exhale instead of a temper.",
+   "disposition": "Sunny, nostalgic, sure things were better in '85 and usually wrong about it.",
+   "appropriateness": "PG. 'Aw, heck' is his ceiling.",
+   "compassion": "Deep, a little clumsy. Remembers every walk-on's name and hometown.",
+   "humor": "Self-deprecating dad jokes; laughs at his own punchline a beat early.",
+   "worldview": "Small towns hold more than people think. Learns, slowly and on camera, that his priors from last century need checking. Takes the correction gracefully.",
+   "rube": "Yes: the desk's 'slightly modest rube' (already on tape in the town films). Last-century priors, checked by Marcus and Simone."
+  },
+  "akron": {
+   "status": "draft",
+   "tape": "most",
+   "backstory": "INVENTED. Grew up in Akron's North Hill, grandson of a Goodyear tire builder. Engineering degree from Akron, quit a plant-floor management job to talk basketball.",
+   "beat": "INVENTED. Started a Zips podcast in his garage that outdrew the local AM station. Hardwood Bricks hired him on the strength of one episode about free-throw arc.",
+   "look": "Navy tuxedo jacket with gold lapels, gold bow tie, close beard (portrait). Immaculate.",
+   "favorite": "To research: a real Zips player or era he can champion, with a source.",
+   "hot_takes": [
+    "Akron is the most underrated sports town in Ohio.",
+    "Kent State fans are mostly armor and noise.",
+    "Rules matter, and the people who write them should follow them first."
+   ],
+   "off_air": "INVENTED. Married, two young daughters who build soap box cars with him every summer. Restores old bicycles.",
+   "gags": [
+    "Explains the physics of every bad shot.",
+    "'Factory-floor' metaphors for everything: 'That zone has a bad gasket.'",
+    "Corrects Ray and Nick, kindly, with a source in hand."
+   ],
+   "temperament": "Even, steely under pressure. Gets quieter, not louder, when he's angry.",
+   "disposition": "Optimistic realist. Trusts evidence over reputation.",
+   "appropriateness": "PG. Sharp but clean.",
+   "compassion": "Hardest on the adults at the top, gentle on kids and players (on tape in the Akron Derby film).",
+   "humor": "Dry, deadpan, one raised eyebrow.",
+   "worldview": "Fairness and accountability. Asks 'who's really at fault here?' and looks up the chain of command.",
+   "rube": "No."
+  },
+  "buffalo": {
+   "status": "draft",
+   "tape": "most",
+   "backstory": "INVENTED. Born in Buffalo's East Side to Haitian parents; her mother ran a bakery on Jefferson Avenue. UB grad, communications.",
+   "beat": "INVENTED. Twenty years in local TV news, covered three blizzards and one Bills playoff run, then asked for basketball 'because it's indoors.'",
+   "look": "Royal-blue suit, crisp white shirt, blue tie (portrait). Anchor-desk polish.",
+   "favorite": "To research: a real Bulls player or era, with a source.",
+   "hot_takes": [
+    "Snow is not an excuse; it's a home-court advantage.",
+    "UMass hasn't earned its swagger since the '90s.",
+    "If you can't name the team's women's coach, you don't know the program."
+   ],
+   "off_air": "INVENTED. Sings in a church choir, makes pikliz by the gallon, has a teenage son who thinks she's embarrassing.",
+   "gags": [
+    "Gives every bad stretch of play a lake-effect forecast.",
+    "Calmly fact-checks Ray mid-story, then pats his hand.",
+    "Brings up the Meredith Willson fight song she isn't allowed to play."
+   ],
+   "temperament": "Unflappable. Lake-effect calm.",
+   "disposition": "Warm, sly, quietly competitive.",
+   "appropriateness": "PG. Shade, never swearing.",
+   "compassion": "High. Checks on the people a story leaves behind.",
+   "humor": "Sly understatement; the joke lands two seconds after she's moved on.",
+   "worldview": "Communities carry teams, not the other way around. Asks who got left out of the story.",
+   "rube": "No. With Marcus, the desk's fact-checker for Ray."
+  },
+  "ball-state": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Grew up in a Muncie apartment over a tire shop. Valedictorian who kept a color-coded binder of every Cardinals box score since sixth grade.",
+   "beat": "INVENTED. Was the stats intern so long they gave her a microphone to make her go home.",
+   "look": "Cardinal-red polo, straw-blond hair, permanently frazzled, looks like she slept at the arena (portrait). She did.",
+   "favorite": "To research: a real Cardinals player or season, with a source.",
+   "hot_takes": [
+    "Possessions, not points, and she will die on this hill.",
+    "Miami's uniforms are a cry for help.",
+    "Muncie gets mocked by people who've never seen the sunset over the Village."
+   ],
+   "off_air": "INVENTED. Two cats named Assist and Turnover. Runs a 5 a.m. spreadsheet club. Hasn't had a full night's sleep since conference play started.",
+   "gags": [
+    "Every number lands perfectly; her life does not.",
+    "Signs off with 'Chirp chirp' no matter how bad the night was.",
+    "Visibly falls apart, then nails the stat."
+   ],
+   "temperament": "Anxious and over-prepared; channels panic into precision.",
+   "disposition": "Upbeat on air, held together with coffee.",
+   "appropriateness": "PG.",
+   "compassion": "Fierce about walk-ons and benchwarmers; makes sure their minutes get counted.",
+   "humor": "Frantic, self-aware, a little unhinged.",
+   "worldview": "Everybody deserves to be counted correctly. The data is a form of respect.",
+   "rube": "No."
+  },
+  "bowling-green": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Third-generation Wood County farmer who sold the soybean ground and kept the pickup. Took night classes at BGSU at fifty-five.",
+   "beat": "INVENTED. Called in to the Falcons radio postgame show every night for thirty years until they gave him a chair.",
+   "look": "Burnt-orange and brown quarter-zip, white hair, tan from a lifetime outside (portrait).",
+   "favorite": "To research: a real Falcons player or era, with a source.",
+   "hot_takes": [
+    "Toledo is a nice place to drive through.",
+    "Kids today don't box out, and he can't prove it but he knows it.",
+    "The weather in Bowling Green explains every loss since 1971."
+   ],
+   "off_air": "INVENTED. Married fifty years to June, who is smarter than him and runs the household budget. Grows tomatoes he enters in the county fair and never wins.",
+   "gags": [
+    "Confidently explains how 'they did it in my day', gets the rule wrong.",
+    "'Ayup' as a complete sentence.",
+    "Thinks the transfer portal is a physical door."
+   ],
+   "temperament": "Patient to the point of falling asleep.",
+   "disposition": "Wry, contented, mildly suspicious of anything invented after 1990.",
+   "appropriateness": "PG, with the occasional 'dagnabbit.'",
+   "compassion": "Big-hearted with neighbors, slower with change; gets there.",
+   "humor": "Half-smiling grandpa wit; the butt of his own jokes.",
+   "worldview": "Learning, late and sincerely, that the world got bigger while he was farming. June keeps him honest.",
+   "rube": "Yes: the lovable farm-country rube."
+  },
+  "central-michigan": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Grew up in Midland, two-sport high school athlete, walked on at CMU and never left the end of the bench.",
+   "beat": "INVENTED. Started posting hype videos from the weight room; one went semi-viral; now he's here.",
+   "look": "Maroon tuxedo jacket with gold lapels, gold bow tie, big grin, hair with product in it (portrait).",
+   "favorite": "To research: a real Chippewas player or era, with a source.",
+   "hot_takes": [
+    "Every game is the biggest game of the year.",
+    "Western Michigan is a state of mind and that state is sad.",
+    "Leg day explains defense."
+   ],
+   "off_air": "INVENTED. Lives with three roommates, owns one pan, drinks protein shakes during broadcasts.",
+   "gags": [
+    "Shouts 'Fire up, Chips!' at inappropriate moments.",
+    "Mispronounces stats with total confidence.",
+    "Asks Patty Gallagher to explain a stat, then explains it back to her wrong."
+   ],
+   "temperament": "Loud and eager, all gas, no brakes.",
+   "disposition": "Relentlessly positive, slightly clueless.",
+   "appropriateness": "PG. Bleeped exactly once, for 'freaking.'",
+   "compassion": "Golden retriever kind: hugs everyone, misses the point, means well.",
+   "humor": "Unintentional. He thinks he's the straight man.",
+   "worldview": "Teamwork and hustle fix everything. Slowly learning they don't.",
+   "rube": "Yes: the young gym-bro rube."
+  },
+  "eastern-michigan": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Born in Detroit to Nigerian parents, taught high school civics in Ypsilanti for twenty-two years, coached the girls' JV team.",
+   "beat": "INVENTED. Retired from teaching, started grading the Eagles' games on a public rubric, got hired for it.",
+   "look": "White polo, green-and-white ball cap, warm smile (portrait).",
+   "favorite": "To research: a real Eagles player or era, with a source.",
+   "hot_takes": [
+    "Underdogs are the whole point of sports.",
+    "Ball State has the stats; Eastern has the heart.",
+    "Attendance is a civic duty."
+   ],
+   "off_air": "INVENTED. Grandmother of four, deacon, makes jollof that settles family arguments.",
+   "gags": [
+    "Grades every performance A through F, with comments.",
+    "Gives Trevor a detention.",
+    "'See me after class' as a sign-off threat."
+   ],
+   "temperament": "Calm, firm, the teacher who never has to raise her voice.",
+   "disposition": "Hopeful, stubborn on the underdog's behalf.",
+   "appropriateness": "G. She will not repeat what the student section chanted.",
+   "compassion": "Deep and practical: who's struggling and what do they need.",
+   "humor": "Teacher's deadpan; a look that does the punchline.",
+   "worldview": "Every kid deserves a fair shot and someone in their corner.",
+   "rube": "No."
+  },
+  "kent-state": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Grew up in Ravenna, played D-III, worked eleven years selling cars in Cuyahoga Falls.",
+   "beat": "INVENTED. Did the PA at Kent home games for a season and refused to give the microphone back.",
+   "look": "A full suit of steel plate armor with KENT STATE across the chest (portrait). He has never explained the armor and won't.",
+   "favorite": "To research: a real Golden Flashes player or era, with a source.",
+   "hot_takes": [
+    "Akron is a suburb of Kent.",
+    "Every ref is out to get the Flashes specifically.",
+    "The armor is for protection from bad takes."
+   ],
+   "off_air": "INVENTED. Divorced, coaches his son's travel team, yells at the TV even when it's off.",
+   "gags": [
+    "The armor clanks every time he gestures.",
+    "'Kid cheated, end of story' energy (on tape in the Akron film); Marcus corrects him.",
+    "Calls every win 'wire to wire' even when it wasn't."
+   ],
+   "temperament": "Hot. Hoarse by halftime.",
+   "disposition": "Combative, loyal, quick to judge, slower to admit he was wrong.",
+   "appropriateness": "PG-13 on a bad night; mostly bleeped.",
+   "compassion": "Under the armor, a softie for his son and for any kid from Portage County.",
+   "humor": "Loud bluster; the joke is usually on him.",
+   "worldview": "Loyalty above all. Learning that loyalty isn't the same as being right.",
+   "rube": "Yes: the armored blowhard rube (already on tape in the Akron film)."
+  },
+  "miami-oh": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Old Cincinnati money, Miami legacy three generations deep, Phi Beta Kappa, sorority president.",
+   "beat": "INVENTED. Was supposed to go to law school. Took one broadcasting elective as a joke. Has been 'taking a gap year' for twelve years.",
+   "look": "A faded red MIAMI hoodie, frizzy hair, red eyes; she looks like she's been crying (portrait). Her voice stays prim and polished anyway.",
+   "favorite": "To research: a real RedHawks player or era, with a source.",
+   "hot_takes": [
+    "Miami was a university before Ohio was a state (it wasn't; Ray corrects her).",
+    "Athens is a lovely place to visit, once.",
+    "Brick sidewalks should be on the National Register, specifically hers."
+   ],
+   "off_air": "INVENTED. Going through it. A broken engagement, a parked Volvo she won't sell, a rescue greyhound named Uptown.",
+   "gags": [
+    "Polished delivery from a woman visibly falling apart.",
+    "Ends every report 'Love and honor. Goodnight.' even when it's 2 p.m.",
+    "Trades barbs with Ray, then quietly asks him for advice off camera."
+   ],
+   "temperament": "Brittle composure; cracks show, she keeps going.",
+   "disposition": "Proud, prim, privately heartbroken, funnier than she knows.",
+   "appropriateness": "PG. Her cruelest word is 'quaint.'",
+   "compassion": "Hidden but real; first to send flowers.",
+   "humor": "Prim put-downs undercut by her own sadness.",
+   "worldview": "Learning that pedigree doesn't keep you from a bad year, and that's fine.",
+   "rube": "No."
+  },
+  "toledo": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Grew up in Toledo's Old South End, first in her family to go to college, Toledo journalism senior.",
+   "beat": "INVENTED. Live-streamed the student section from her phone; the stream outdrew the broadcast.",
+   "look": "Navy Toledo polo with gold trim, long dark hair, big smile (portrait).",
+   "favorite": "To research: a real Rockets player or era, with a source.",
+   "hot_takes": [
+    "Glass City is the best nickname in Ohio.",
+    "Bowling Green is where Toledo keeps its farmland.",
+    "Old people overrate the '80s."
+   ],
+   "off_air": "INVENTED. Works shifts at her family's taqueria, runs a mural club, has 40,000 followers and a mom who calls during broadcasts.",
+   "gags": [
+    "Laughs mid-sentence.",
+    "Explains slang to Gary Mercer, who gets it wrong.",
+    "'Peace out, Glass City' with a two-handed sign."
+   ],
+   "temperament": "Bubbly, quick, never down for long.",
+   "disposition": "Optimistic, irreverent, loyal to her neighborhood.",
+   "appropriateness": "PG.",
+   "compassion": "Big, especially for students and people paying their own way.",
+   "humor": "Fast, playful, meme-literate.",
+   "worldview": "Your neighborhood is your team. Look after who's next to you.",
+   "rube": "No."
+  },
+  "umass": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. From Worcester, son of a Boston firefighter, a UMass dropout who 'took the scenic route.'",
+   "beat": "INVENTED. Ran a sports-talk call-in show from a sub shop in Hadley until the owner sold the shop out from under him.",
+   "look": "Maroon suit, striped tie, slick hair, a smile like he's selling you a used car (portrait).",
+   "favorite": "To research: a real Minutemen player or era, with a source.",
+   "hot_takes": [
+    "The '90s Minutemen were the greatest thing that ever happened.",
+    "Buffalo is just Worcester with snow.",
+    "Everything was better before the MAC — and also the MAC is great, don't quote him."
+   ],
+   "off_air": "INVENTED. Lives in his mom's basement 'temporarily.' Plays rec-league hoops and fouls out every week.",
+   "gags": [
+    "Drops his r's; Simone repeats his words back with the r's in.",
+    "Starts every take with 'Listen, listen, listen.'",
+    "Bets Simone on every Buffalo game and loses."
+   ],
+   "temperament": "Hot-headed, cools off fast.",
+   "disposition": "Cocky, nostalgic, secretly insecure.",
+   "appropriateness": "PG-13 on a bad night.",
+   "compassion": "Loyal to his guys; would give you his last sub.",
+   "humor": "Wisecracking, mouthy, the butt of his own setups.",
+   "worldview": "Loyalty and old glory; slowly learning the world doesn't owe him the '90s back.",
+   "rube": "Yes: the mouthy Massachusetts rube."
+  },
+  "western-michigan": {
+   "status": "draft",
+   "tape": "fresh",
+   "backstory": "INVENTED. Kalamazoo native, retired WMU math professor, widowed, keeps a spreadsheet of every Broncos game since 1976.",
+   "beat": "INVENTED. Wrote letters to the editor correcting the paper's box scores until they gave her a column, then a camera.",
+   "look": "Brown quarter-zip with gold trim, silver bob, grandmother smile (portrait).",
+   "favorite": "To research: a real Broncos player or era, with a source.",
+   "hot_takes": [
+    "Central Michigan should be audited.",
+    "Most 'momentum' is regression to the mean, dear.",
+    "Tempo-free stats are the only honest stats."
+   ],
+   "off_air": "INVENTED. Bakes for the whole newsroom, does the Sunday crossword in pen, beats her grandkids at Mario Kart.",
+   "gags": [
+    "'Hi, hon' then a devastating statistic.",
+    "Quietly ruthless about Trevor's math.",
+    "Brings cookies and a correction."
+   ],
+   "temperament": "Steady as a metronome.",
+   "disposition": "Warm on the surface, ruthless about accuracy.",
+   "appropriateness": "G. Her worst insult is 'bless your heart.'",
+   "compassion": "Motherly; notices who's eating alone.",
+   "humor": "Sweet delivery, savage content.",
+   "worldview": "Precision is a kindness. Getting it right respects people.",
+   "rube": "No."
+  }
+ }
+}

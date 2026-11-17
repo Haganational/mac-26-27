@@ -1,0 +1,836 @@
+{
+ "week": "2026-11-16",
+ "frozen_at": "2026-11-16T06:10-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "furman",
+   "short": "Furman",
+   "rank": 1,
+   "score": 4.3,
+   "form": 3.5,
+   "road": 0.8,
+   "road_wins": [
+    {
+     "opp": "Bethune-Cookman Wildcats",
+     "site": "neutral",
+     "score": "79-70",
+     "date": "Nov 2",
+     "bonus": 0.4
+    },
+    {
+     "opp": "Holy Cross Crusaders",
+     "site": "road",
+     "score": "80-67",
+     "date": "Nov 11",
+     "bonus": 0.36
+    }
+   ],
+   "prev_rank": null,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Holy Cross Crusaders",
+     "site": "road",
+     "conf": false,
+     "result": "W 80-67"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Belmont Bruins",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-72"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Radford Highlanders",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Clinton Golden Bears",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tom House",
+     "class": null,
+     "pos": null,
+     "ppg": 17.8,
+     "rpg": 3.4,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Abijah Franklin",
+     "class": null,
+     "pos": null,
+     "ppg": 12.4,
+     "rpg": 4.8,
+     "apg": 1.6,
+     "gp": 5
+    },
+    {
+     "name": "Charles Johnston",
+     "class": null,
+     "pos": null,
+     "ppg": 12.2,
+     "rpg": 7.6,
+     "apg": 3.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "etsu",
+   "short": "ETSU",
+   "rank": 2,
+   "score": 4.1,
+   "form": 4.1,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Campbell Fighting Camels",
+     "site": "home",
+     "conf": false,
+     "result": "W 68-53"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Marshall Thundering Herd",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Longwood Lancers",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "BJ Ward",
+     "class": null,
+     "pos": null,
+     "ppg": 16.7,
+     "rpg": 3.7,
+     "apg": 4.0,
+     "gp": 3
+    },
+    {
+     "name": "Tyran Mason",
+     "class": null,
+     "pos": null,
+     "ppg": 13.7,
+     "rpg": 5.3,
+     "apg": 1.7,
+     "gp": 3
+    },
+    {
+     "name": "Trevor Hennig",
+     "class": null,
+     "pos": null,
+     "ppg": 10.3,
+     "rpg": 4.0,
+     "apg": 1.7,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "western-carolina",
+   "short": "Western Carolina",
+   "rank": 3,
+   "score": 1.5,
+   "form": 1.0,
+   "road": 0.5,
+   "road_wins": [
+    {
+     "opp": "UNC Asheville Bulldogs",
+     "site": "road",
+     "score": "83-75",
+     "date": "Nov 7",
+     "bonus": 0.55
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Virginia Lynchburg Dragons",
+     "site": "home",
+     "conf": false,
+     "result": "W 136-68"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Lipscomb Bisons",
+     "site": "home",
+     "conf": false,
+     "result": "L 68-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Butler Bulldogs",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Wake Forest Demon Deacons",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jaeden Roberts",
+     "class": null,
+     "pos": null,
+     "ppg": 14.5,
+     "rpg": 2.8,
+     "apg": 1.0,
+     "gp": 4
+    },
+    {
+     "name": "Jaxon Prunty",
+     "class": null,
+     "pos": null,
+     "ppg": 14.2,
+     "rpg": 1.8,
+     "apg": 2.5,
+     "gp": 4
+    },
+    {
+     "name": "Isaiah Manning",
+     "class": null,
+     "pos": null,
+     "ppg": 12.0,
+     "rpg": 4.2,
+     "apg": 1.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "chattanooga",
+   "short": "Chattanooga",
+   "rank": 4,
+   "score": 0.4,
+   "form": -0.8,
+   "road": 1.2,
+   "road_wins": [
+    {
+     "opp": "Elon Phoenix",
+     "site": "road",
+     "score": "77-70",
+     "date": "Nov 13",
+     "bonus": 1.17
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "Covenant Fighting Scots",
+     "site": "home",
+     "conf": false,
+     "result": "W 97-67"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Elon Phoenix",
+     "site": "road",
+     "conf": false,
+     "result": "W 77-70"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Winthrop Eagles",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Radford Highlanders",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kobe McDowell-White",
+     "class": null,
+     "pos": null,
+     "ppg": 13.8,
+     "rpg": 4.0,
+     "apg": 5.5,
+     "gp": 4
+    },
+    {
+     "name": "Matt Hampton",
+     "class": null,
+     "pos": null,
+     "ppg": 13.2,
+     "rpg": 3.2,
+     "apg": 1.8,
+     "gp": 4
+    },
+    {
+     "name": "Lenny Anigbata",
+     "class": null,
+     "pos": null,
+     "ppg": 12.0,
+     "rpg": 6.0,
+     "apg": 1.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "mercer",
+   "short": "Mercer",
+   "rank": 5,
+   "score": -0.5,
+   "form": -1.2,
+   "road": 0.6,
+   "road_wins": [
+    {
+     "opp": "Georgia Southern Eagles",
+     "site": "road",
+     "score": "97-91",
+     "date": "Nov 10",
+     "bonus": 0.64
+    }
+   ],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Georgia Southern Eagles",
+     "site": "road",
+     "conf": false,
+     "result": "W 97-91"
+    },
+    {
+     "date": "Thu Nov 12",
+     "opp": "West Virginia Mountaineers",
+     "site": "road",
+     "conf": false,
+     "result": "L 61-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Presbyterian Blue Hose",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Charleston Southern Buccaneers",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Quinton Perkins II",
+     "class": null,
+     "pos": null,
+     "ppg": 14.8,
+     "rpg": 1.6,
+     "apg": 3.6,
+     "gp": 5
+    },
+    {
+     "name": "Shane Cherry",
+     "class": null,
+     "pos": null,
+     "ppg": 13.2,
+     "rpg": 2.4,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Karon Boyd",
+     "class": null,
+     "pos": null,
+     "ppg": 11.2,
+     "rpg": 7.6,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "tennessee-tech",
+   "short": "Tennessee Tech",
+   "rank": 6,
+   "score": -2.8,
+   "form": -2.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Thu Nov 12",
+     "opp": "Indiana Hoosiers",
+     "site": "road",
+     "conf": false,
+     "result": "L 66-90"
+    },
+    {
+     "date": "Sun Nov 15",
+     "opp": "Wright State-Lake Lakers",
+     "site": "home",
+     "conf": false,
+     "result": "W 101-34"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "UNC Asheville Bulldogs",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Presbyterian Blue Hose",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Caleb Sanders",
+     "class": null,
+     "pos": null,
+     "ppg": 18.0,
+     "rpg": 7.2,
+     "apg": 2.2,
+     "gp": 4
+    },
+    {
+     "name": "Cbo Newton",
+     "class": null,
+     "pos": null,
+     "ppg": 12.2,
+     "rpg": 3.4,
+     "apg": 1.8,
+     "gp": 5
+    },
+    {
+     "name": "De'Ante Green",
+     "class": null,
+     "pos": null,
+     "ppg": 12.0,
+     "rpg": 5.4,
+     "apg": 0.8,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "samford",
+   "short": "Samford",
+   "rank": 7,
+   "score": -4.4,
+   "form": -4.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "1-2",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Fri Nov 13",
+     "opp": "Wright State Raiders",
+     "site": "home",
+     "conf": false,
+     "result": "L 66-90"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "South Carolina Upstate Spartans",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "UNC Asheville Bulldogs",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Will Shaver",
+     "class": null,
+     "pos": null,
+     "ppg": 15.3,
+     "rpg": 6.7,
+     "apg": 1.0,
+     "gp": 3
+    },
+    {
+     "name": "Cade Norris",
+     "class": null,
+     "pos": null,
+     "ppg": 12.3,
+     "rpg": 5.0,
+     "apg": 2.3,
+     "gp": 3
+    },
+    {
+     "name": "Cooper Noard",
+     "class": null,
+     "pos": null,
+     "ppg": 11.7,
+     "rpg": 3.3,
+     "apg": 1.3,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "the-citadel",
+   "short": "The Citadel",
+   "rank": 8,
+   "score": -6.6,
+   "form": -6.9,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "North Florida Ospreys",
+     "site": "road",
+     "score": "77-74",
+     "date": "Nov 14",
+     "bonus": 0.4
+    }
+   ],
+   "prev_rank": null,
+   "record": "3-1",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Tue Nov 10",
+     "opp": "Virginia Lynchburg Dragons",
+     "site": "home",
+     "conf": false,
+     "result": "W 131-50"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "North Florida Ospreys",
+     "site": "road",
+     "conf": false,
+     "result": "W 77-74"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Clemson Tigers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "South Carolina State Bulldogs",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tyler Mrus",
+     "class": null,
+     "pos": null,
+     "ppg": 15.5,
+     "rpg": 5.2,
+     "apg": 0.5,
+     "gp": 4
+    },
+    {
+     "name": "Aaron Ekwere",
+     "class": null,
+     "pos": null,
+     "ppg": 13.8,
+     "rpg": 5.8,
+     "apg": 3.8,
+     "gp": 4
+    },
+    {
+     "name": "Marcus Banks",
+     "class": null,
+     "pos": null,
+     "ppg": 11.5,
+     "rpg": 2.2,
+     "apg": 5.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "wofford",
+   "short": "Wofford",
+   "rank": 9,
+   "score": -7.2,
+   "form": -7.2,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "Voorhees Tigers",
+     "site": "home",
+     "conf": false,
+     "result": "W 91-47"
+    },
+    {
+     "date": "Sat Nov 14",
+     "opp": "Queens University Royals",
+     "site": "road",
+     "conf": false,
+     "result": "L 92-97"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Charleston Southern Buccaneers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Winthrop Eagles",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Cutter Sisk",
+     "class": null,
+     "pos": null,
+     "ppg": 11.6,
+     "rpg": 3.4,
+     "apg": 1.0,
+     "gp": 5
+    },
+    {
+     "name": "Cam Lowe",
+     "class": null,
+     "pos": null,
+     "ppg": 11.4,
+     "rpg": 4.4,
+     "apg": 2.8,
+     "gp": 5
+    },
+    {
+     "name": "Jyi Dawkins",
+     "class": null,
+     "pos": null,
+     "ppg": 11.0,
+     "rpg": 4.0,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "unc-greensboro",
+   "short": "UNC Greensboro",
+   "rank": 10,
+   "score": -7.5,
+   "form": -7.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "2-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Mon Nov 9",
+     "opp": "UIC Flames",
+     "site": "road",
+     "conf": false,
+     "result": "L 72-82"
+    },
+    {
+     "date": "Wed Nov 11",
+     "opp": "Lees McRae Bobcats",
+     "site": "home",
+     "conf": false,
+     "result": "W 91-84"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "South Carolina Upstate Spartans",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Dionte Neal",
+     "class": null,
+     "pos": null,
+     "ppg": 16.5,
+     "rpg": 2.2,
+     "apg": 6.8,
+     "gp": 4
+    },
+    {
+     "name": "RJ Greer",
+     "class": null,
+     "pos": null,
+     "ppg": 15.0,
+     "rpg": 3.0,
+     "apg": 0.2,
+     "gp": 4
+    },
+    {
+     "name": "Ante Beljan",
+     "class": null,
+     "pos": null,
+     "ppg": 14.0,
+     "rpg": 4.0,
+     "apg": 0.0,
+     "gp": 1
+    }
+   ]
+  },
+  {
+   "key": "vmi",
+   "short": "VMI",
+   "rank": 11,
+   "score": -9.0,
+   "form": -9.0,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": null,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Wed Nov 11",
+     "opp": "North Carolina Central Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "W 65-51"
+    },
+    {
+     "date": "Fri Nov 13",
+     "opp": "Mary Baldwin Fighting Squirrels",
+     "site": "home",
+     "conf": false,
+     "result": "W 71-53"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Longwood Lancers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Gardner-Webb Runnin' Bulldogs",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "TJ Johnson",
+     "class": null,
+     "pos": null,
+     "ppg": 15.8,
+     "rpg": 3.8,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Rickey Bradley Jr.",
+     "class": null,
+     "pos": null,
+     "ppg": 11.6,
+     "rpg": 5.2,
+     "apg": 3.6,
+     "gp": 5
+    },
+    {
+     "name": "AJ Clark",
+     "class": null,
+     "pos": null,
+     "ppg": 10.5,
+     "rpg": 1.0,
+     "apg": 1.5,
+     "gp": 2
+    }
+   ]
+  }
+ ]
+}

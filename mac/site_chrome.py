@@ -348,7 +348,9 @@ def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
     d.rectangle([72, 52, W - 72, 59], fill=INK)
-    _spaced(d, (72, 76), f"FINAL · {g['date'][:10]}", _font(28, face="cond"), BRICK, 0.14)
+    from .schedule_view import to_et
+    t = to_et(g["date"])  # the game's own (Eastern) day, not the UTC date, which runs a day ahead for late tips
+    _spaced(d, (72, 76), f"FINAL · {t:%a %b} {t.day}".upper(), _font(28, face="cond"), BRICK, 0.14)
     venue = (g.get("venue") or "")[:44].upper()
     vf = _font(24, face="cond")
     _spaced(d, (W - 72 - _spaced_len(d, venue, vf, 0.1), 80), venue, vf, MUTED, 0.1)
@@ -430,6 +432,14 @@ def manifest() -> str:
             {"src": "static/og/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
         ],
     }, indent=1)
+
+
+def desk_manifest() -> str:
+    """The author desk as its own home-screen app: added from desk.html, it opens straight to a new dispatch."""
+    m = json.loads(manifest())
+    m.update(name=f"{SITE_NAME} desk · {LEAGUE.short}", short_name="HB Desk", id="./desk.html",
+             description="File a Fieldhouse Notes dispatch: dictate it, add photos, publish.", start_url="./desk.html")
+    return json.dumps(m, indent=1)
 
 
 def robots() -> str:

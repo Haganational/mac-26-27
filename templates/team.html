@@ -37,7 +37,34 @@
   </div>
   {% endif %}
 
-  <div class="grid two">
+  {% if team_films or team_song or team_honors %}
+  <section id="multimedia" class="teammedia">
+    <h2>Multimedia</h2>
+    {% for f in team_films %}
+    <figure class="film{{ ' pinned' if loop.first else '' }}">
+      <div class="film-frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ f.youtube }}" title="{{ f.title }}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+      <figcaption>{% if loop.first %}<span class="kick">Pinned · Hardwood Bricks film</span>{% endif %}<strong>{{ f.title }}</strong>{% if f.dek %} <span class="dim">{{ f.dek }}</span>{% endif %}</figcaption>
+    </figure>
+    {% endfor %}
+    {% if team_song %}
+    <figure class="film song">
+      <div class="film-frame tall"><iframe src="https://www.youtube-nocookie.com/embed/{{ team_song.youtube }}" title="{{ team_song.title }}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+      <figcaption><span class="kick">Fight song{% if team_song.performer %} · sung by {{ team_song.performer }}{% endif %}</span><strong>{{ team_song.title }}</strong>{% if team_song.credit %} <span class="dim">{{ team_song.credit }}</span>{% endif %}</figcaption>
+    </figure>
+    {% endif %}
+    {% if team_honors %}
+    <h3 class="honors-h">From our posts</h3>
+    <ul class="honors">
+      {% for h in team_honors[:12] %}
+      <li class="h-{{ h.kind }}"><span class="h-kind">{{ h.label }}</span> <a href="../games/{{ h.game_id }}.html">{{ h.text }}</a> <span class="dim">{{ h.when }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {#- Rotation, then the schedule, each full width: the schedule's eight columns don't fit beside the roster. -#}
+  <div class="grid">
     <section>
       <h2>Rotation</h2>
       <div class="scroll"><table class="players">

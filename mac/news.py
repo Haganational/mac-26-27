@@ -51,7 +51,9 @@ ATHLETICS: dict[str, str] = LEAGUE.athletics if LEAGUE.has("athletics") else {}
 NAMES: dict[str, dict[str, Any]] = LEAGUE.news_names
 
 # Words that mark a general-news headline as being about men's hoops.
-HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\b(MAC|ASUN|A-Sun|Atlantic Sun) (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
+# "<this edition's league> tournament" counts too, so every edition's own tournament news gets through, not just the MAC's.
+_TOURNEY = "|".join(sorted({"MAC", "ASUN", "A-Sun", "Atlantic Sun", re.escape(LEAGUE.short)}))
+HOOPS = re.compile(r"basketball|hoops|\bMBB\b|\b(" + _TOURNEY + r") (tournament|tourney|title)|tip-?off|point guard|three-pointer|\bKenPom\b|NCAA tournament|March Madness", re.I)
 WOMENS = re.compile(r"women[’']?s|minutewomen|\bWBB\b|\blady\b|\bW\. ?Basketball\b", re.I)
 # A school site reached through Google News covers every sport, and "MAC Tournament" or
 # "NCAA Tournament" alone is just as likely soccer or volleyball: the headline has to say basketball.

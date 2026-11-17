@@ -69,6 +69,9 @@
   .notetitle { font: 600 66px/1.1 var(--serif); letter-spacing: -.01em; color: #f6ecd8; }
   .notequote { font: 400 italic 46px/1.4 var(--serif); color: var(--ink2); padding-left: 28px; border-left: 8px solid var(--gold); }
   .anchor { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; }
+  /* The anchor's set: only behind the anchor, dimmed and softened, fading out toward the board, so the scores stay the subject. */
+  .anchor .set { position: absolute; inset: 0; background: 50% 55% / cover no-repeat; filter: blur(3px) brightness(.7) saturate(.85);
+                 mask-image: linear-gradient(to top, #000 55%, transparent), linear-gradient(to left, transparent, #000 30%); mask-composite: intersect; }
   .anchor img { position: absolute; left: 0; bottom: 0; width: 430px; height: 770px; object-fit: cover; object-position: top; }
   .anchor .plate { position: absolute; left: 0; bottom: 90px; width: 430px; padding: 14px 20px 12px; background: rgba(21,17,13,.88); border-top: 6px solid var(--tc, var(--gold)); }
   .anchor .plate b { display: block; font: 600 40px/1.05 var(--serif); color: #f6ecd8; }
@@ -124,6 +127,17 @@
     <div class="label">Over-under watch · this season</div>
     <div class="ourec"><div class="{{ 'lead' if c.side == 'over' else '' }}"><b>{{ c.o }}</b><small>Overs</small></div><div class="{{ 'lead' if c.side == 'under' else '' }}"><b>{{ c.u }}</b><small>Unders</small></div></div>
     <div class="chips"><span class="chip gold">{{ '%+.1f'|format(c.diff) }} pts vs the close, per game</span><span class="chip">{{ c.n }} games with a {{ LG }} team</span></div>
+  {% elif seg.kind == 'pickem' %}
+    {% set c = seg.card %}
+    <div class="label">Anchor Pick'em · {{ c.school }} has the desk</div>
+    <div class="mini">{% for p in c.picks %}<div>{{ p.short }}<span>{{ 'Homer pick · ' if p.homer }}{{ p.worth }} pts</span></div>{% endfor %}</div>
+    <div class="chips">{% if c.last %}<span class="chip gold">Last night: {{ c.last.hits }} for {{ c.last.of }} · {{ c.last.points }} pts</span>{% endif %}<span class="chip">Beat the desk at the Den</span></div>
+  {% elif seg.kind == 'offcourt' %}
+    {% set c = seg.card %}
+    <div class="label">Off the court · {{ c.school }} alumni</div>
+    <div class="notetitle">{{ c.name }}</div>
+    <div class="notequote" style="border-left-color:{{ c.color or 'var(--gold)' }}">{{ c.known_for }}{% if c.years %} · {{ c.years }}{% endif %}</div>
+    <div class="chips"><span class="chip">Source: {{ c.source }}</span></div>
   {% elif seg.kind == 'note' %}
     {% set c = seg.card %}
     <div class="label">From the Fieldhouse Notes</div>
@@ -134,7 +148,7 @@
     <div class="hero"><div class="big" style="font-size:130px">That's MidMaxx60</div><p>Every line, box score and rating</p><p style="color:var(--gold);font:700 66px/1 var(--cond);font-style:normal;letter-spacing:.06em;margin-top:40px">HARDWOODBRICKS.COM</p></div>
   {% endif %}
   </div>
-  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}"><img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
+  {% if seg.anchor and seg.anchor.portrait %}<div class="anchor" style="--tc:{{ colors.get(seg.anchor.school, '#f0c75e') }}">{% if seg.anchor.set %}<div class="set" style="background-image:url('{{ seg.anchor.set }}')"></div>{% endif %}<img src="{{ seg.anchor.portrait }}" alt=""><div class="plate"><b>{{ seg.anchor.name }}</b><small>{{ seg.anchor.school }} desk · AI anchor</small></div></div>{% endif %}
   {% if not live_caps %}<div class="caption">{{ seg.text }}</div>{% endif %}
 </div>
 </body>

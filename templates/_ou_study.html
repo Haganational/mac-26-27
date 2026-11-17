@@ -5,7 +5,7 @@
 {% macro diffcell(v) %}<span class="oudiff {{ 'pos' if v and v > 0 else ('neg' if v and v < 0 else '') }}">{{ '%+.1f'|format(v) if v is not none else '–' }}</span>{% endmacro %}
   <section id="overunder">
     <div class="sechead"><h2>Over/under study</h2><span class="dim">Closing total vs what was scored · {{ ou.seasons|join(' and ') }}</span></div>
-    <p class="sub dim">Every game involving a {{ LG }} team that had a closing total: DraftKings' number as ESPN carried it at tip. "Miss" is points scored minus the close, so a plus is an over. A {{ LG }}-vs-MAC game counts once in league totals and once for each team in the team table.</p>
+    <p class="sub dim">Every game involving a {{ LG }} team that had a closing total: DraftKings' number as ESPN carried it at tip. "Miss" is points scored minus the close, so a plus is an over. A {{ LG }}-vs-{{ LG }} game counts once in league totals and once for each team in the team table.</p>
 
     <div class="oucards">
       {% for c in ou.season_cards %}

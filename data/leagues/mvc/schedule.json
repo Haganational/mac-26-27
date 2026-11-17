@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T14:00:47+00:00",
+ "fetched_at": "2026-11-16T23:04:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -1577,8 +1577,8 @@
   {
    "game_id": "401920074",
    "date": "2026-11-14T18:00Z",
-   "name": "Bradley Braves at George Mason Patriots",
-   "short_name": "BRAD VS GMU",
+   "name": "George Mason Patriots at Bradley Braves",
+   "short_name": "GMU VS BRAD",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -1595,25 +1595,25 @@
    "venue_city": "St. Petersburg",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2244",
-    "key": null,
-    "name": "George Mason Patriots",
-    "abbr": "GMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "71",
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2244",
+    "key": null,
+    "name": "George Mason Patriots",
+    "abbr": "GMU",
+    "score": 61,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911015",
@@ -1631,10 +1631,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 17.0
-   },
+   "tickets": null,
    "venue": "Ford Center",
    "venue_city": "Evansville",
    "venue_state": "IN",
@@ -1643,21 +1640,21 @@
     "key": "evansville",
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
    "away": {
     "espn_id": "193",
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927387",
@@ -1675,10 +1672,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-11-14-2026--sports-ncaa-basketball/production/7655985?wsUser=717",
-    "low": 35.0
-   },
+   "tickets": null,
    "venue": "OU Credit Union O'rena",
    "venue_city": "Rochester",
    "venue_state": "MI",
@@ -1687,21 +1681,21 @@
     "key": null,
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927377",
@@ -1713,10 +1707,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/indiana-state-sycamores-mens-basketball-tickets-hulman-center-11-14-2026--sports-ncaa-basketball/production/7613048?wsUser=717",
-    "low": 17.0
-   },
+   "tickets": null,
    "venue": "Hulman Center",
    "venue_city": "Terre Haute",
    "venue_state": "IN",
@@ -1725,21 +1716,21 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "2189",
     "key": null,
     "name": "Earlham Quakers",
     "abbr": "EARL",
-    "score": null,
-    "winner": null
+    "score": 37,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920760",
@@ -1757,10 +1748,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-11-14-2026--sports-ncaa-basketball/production/7747383?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
    "venue_state": "TN",
@@ -1769,21 +1757,21 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "231",
     "key": null,
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927364",
@@ -1803,7 +1791,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-11-16-2026--sports-ncaa-basketball/production/7590195?wsUser=717",
-    "low": 15.0
+    "low": 17.0
    },
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
@@ -1813,21 +1801,21 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "2627",
     "key": null,
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928997",
@@ -1854,21 +1842,21 @@
     "key": "valparaiso",
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": null,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
    "away": {
     "espn_id": "502",
     "key": null,
     "name": "Calumet St. Joseph Crimson Wave",
     "abbr": "CSJ",
-    "score": null,
-    "winner": null
+    "score": 35,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927381",
@@ -1970,7 +1958,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-17-2026--sports-ncaa-basketball/production/7638017?wsUser=717",
-    "low": 17.0
+    "low": 14.0
    },
    "venue": "Ford Center",
    "venue_city": "Evansville",
@@ -2146,7 +2134,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-11-18-2026--sports-ncaa-basketball/production/7747385?wsUser=717",
-    "low": 42.0
+    "low": 30.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -2428,50 +2416,6 @@
    "detail": ""
   },
   {
-   "game_id": "401917537",
-   "date": "2026-11-21T05:00Z",
-   "name": "Bradley Braves at Pacific Tigers",
-   "short_name": "BRAD @ PAC",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
-    "low": 64.0
-   },
-   "venue": "Alex G. Spanos Center",
-   "venue_city": "Stockton",
-   "venue_state": "CA",
-   "home": {
-    "espn_id": "279",
-    "key": null,
-    "name": "Pacific Tigers",
-    "abbr": "PAC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "71",
-    "key": "bradley",
-    "name": "Bradley Braves",
-    "abbr": "BRAD",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401927365",
    "date": "2026-11-21T20:00Z",
    "name": "Drake Bulldogs at Missouri State Bears",
@@ -2545,6 +2489,50 @@
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401917537",
+   "date": "2026-11-22T03:00Z",
+   "name": "Bradley Braves at Pacific Tigers",
+   "short_name": "BRAD @ PAC",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
+    "low": 64.0
+   },
+   "venue": "Alex G. Spanos Center",
+   "venue_city": "Stockton",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "279",
+    "key": null,
+    "name": "Pacific Tigers",
+    "abbr": "PAC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "71",
+    "key": "bradley",
+    "name": "Bradley Braves",
+    "abbr": "BRAD",
     "score": null,
     "winner": null
    },
@@ -3839,7 +3827,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-texas-mean-green-mens-basketball-tickets-super-pit-at-unt-coliseum-12-4-2026--sports-ncaa-basketball/production/7589646?wsUser=717",
-    "low": 22.0
+    "low": 14.0
    },
    "venue": "The Super Pit",
    "venue_city": "Denton",
@@ -4047,7 +4035,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-12-5-2026--sports-ncaa-basketball/production/7309050?wsUser=717",
-    "low": 10.0
+    "low": 13.0
    },
    "venue": "Trask Coliseum",
    "venue_city": "Wilmington",
@@ -4091,7 +4079,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-12-5-2026--sports-ncaa-basketball/production/7747387?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -4223,7 +4211,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-bridgestone-arena-12-6-2026--sports-ncaa-basketball/production/7096249?wsUser=717",
-    "low": 81.0
+    "low": 52.0
    },
    "venue": "Bridgestone Arena",
    "venue_city": "Nashville",
@@ -4349,7 +4337,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-12-8-2026--sports-ncaa-basketball/production/7588382?wsUser=717",
-    "low": 16.0
+    "low": 15.0
    },
    "venue": "Carver Arena",
    "venue_city": "Peoria",
@@ -4935,7 +4923,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-12-14-2026--sports-ncaa-basketball/production/7747389?wsUser=717",
-    "low": 42.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -5105,7 +5093,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 25.0
+    "low": 24.0
    },
    "venue": "T-Mobile Center",
    "venue_city": "Kansas City",
@@ -5659,7 +5647,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-12-29-2026--sports-ncaa-basketball/production/7747391?wsUser=717",
-    "low": 42.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -5905,7 +5893,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-1-2027--sports-ncaa-basketball/production/7747393?wsUser=717",
-    "low": 32.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -6279,7 +6267,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-8-2027--sports-ncaa-basketball/production/7747395?wsUser=717",
-    "low": 42.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -6653,7 +6641,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-1-25-2027--sports-ncaa-basketball/production/7717538?wsUser=717",
-    "low": 25.0
+    "low": 23.0
    },
    "venue": "CFSB Center",
    "venue_city": "Murray",
@@ -6729,7 +6717,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-16-2027--sports-ncaa-basketball/production/7747397?wsUser=717",
-    "low": 33.0
+    "low": 30.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -6805,7 +6793,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-18-2027--sports-ncaa-basketball/production/7747399?wsUser=717",
-    "low": 42.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -7439,7 +7427,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-27-2027--sports-ncaa-basketball/production/7747401?wsUser=717",
-    "low": 33.0
+    "low": 30.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -7585,7 +7573,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-1-30-2027--sports-ncaa-basketball/production/7601029?wsUser=717",
-    "low": 57.0
+    "low": 43.0
    },
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
@@ -8219,7 +8207,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-9-2027--sports-ncaa-basketball/production/7747403?wsUser=717",
-    "low": 33.0
+    "low": 30.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -8295,7 +8283,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-2-12-2027--sports-ncaa-basketball/production/7601045?wsUser=717",
-    "low": 57.0
+    "low": 32.0
    },
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
@@ -8371,7 +8359,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-12-2027--sports-ncaa-basketball/production/7747405?wsUser=717",
-    "low": 42.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -8713,7 +8701,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-2-18-2027--sports-ncaa-basketball/production/7605423?wsUser=717",
-    "low": 57.0
+    "low": 32.0
    },
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
@@ -8821,7 +8809,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-20-2027--sports-ncaa-basketball/production/7747407?wsUser=717",
-    "low": 46.0
+    "low": 31.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -9049,7 +9037,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-24-2027--sports-ncaa-basketball/production/7747409?wsUser=717",
-    "low": 33.0
+    "low": 30.0
    },
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
@@ -9087,7 +9075,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-2-24-2027--sports-ncaa-basketball/production/7601047?wsUser=717",
-    "low": 85.0
+    "low": 32.0
    },
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
@@ -9373,5 +9361,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T03:07:46+00:00"
 }

@@ -8,7 +8,7 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:
   pull_request:
-    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "anchors/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
+    paths: ["mac/midmaxx60.py", "mac/today.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/midmaxx60_card.html", "tools/clone_voice.py", "voices/**", ".github/workflows/midmaxx60.yml"]
 
 permissions:
   contents: write
@@ -67,6 +67,14 @@ jobs:
               | python -m piper -m voices/$VOICE.onnx -f /tmp/ref.wav
             echo "clone=yes" >> "$GITHUB_OUTPUT"
           fi
+          # Anchors with an audition (voices/anchors/<key>.ogg, from anchor_voices.yml) are cloned too, host clip or not.
+          if ls voices/anchors/*.ogg >/dev/null 2>&1; then
+            mkdir -p /tmp/auditions
+            for f in voices/anchors/*.ogg; do ffmpeg -loglevel error -y -i "$f" -ac 1 -ar 24000 "/tmp/auditions/$(basename "$f" .ogg).wav"; done
+            echo "ANCHOR_AUDITIONS=/tmp/auditions" >> "$GITHUB_ENV"
+            echo "$(ls /tmp/auditions | wc -l) anchor auditions to clone"
+            echo "clone=yes" >> "$GITHUB_OUTPUT"
+          fi
       - name: Cache the clone model
         if: steps.ref.outputs.clone == 'yes'
         uses: actions/cache@v4
@@ -85,7 +93,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
-          for L in asun horizon mw metro bigwest mvc a10; do LEAGUE=$L python -m mac.collect site; done
+          for L in $(python -m mac.leagues editions); do LEAGUE=$L python -m mac.collect site; done
           python -m mac.collect site
       # Stale or empty data: skip today's video and email Matthew instead of publishing old news.
       # Pull requests always render, to test the path.
@@ -134,3 +142,21 @@ jobs:
           ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
           ALERT_TO: ${{ vars.ALERT_TO }}
         run: python -m mac.youtube --out out
+      # Cross-post the same video to Facebook, Instagram, Threads and Bluesky. Each network posts
+      # once its secrets are set (FB_*, IG_*, THREADS_*, BSKY_*); none set = no-op. A network that
+      # already has today's video is skipped, so a re-run only fills the gaps.
+      - name: Cross-post to Facebook, Instagram, Threads and Bluesky
+        if: ${{ !cancelled() && github.event_name != 'pull_request' && steps.fresh.outputs.skip != 'yes' }}
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.reels --out out --show midmaxx60

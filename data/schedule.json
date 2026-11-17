@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T13:57:48+00:00",
+ "fetched_at": "2026-11-16T23:00:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -1529,10 +1529,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/akron-zips-mens-basketball-tickets-rhodes-arena-11-14-2026--sports-ncaa-basketball/production/7630642?wsUser=717",
-    "low": 14.0
-   },
+   "tickets": null,
    "venue": "James A. Rhodes Arena",
    "venue_city": "Akron",
    "venue_state": "OH",
@@ -1541,21 +1538,21 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
    "away": {
     "espn_id": "2655",
     "key": null,
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": null,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911015",
@@ -1573,10 +1570,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/evansville-purple-aces-mens-basketball-tickets-ford-center-evansville-11-14-2026--sports-ncaa-basketball/production/7274635?wsUser=717",
-    "low": 17.0
-   },
+   "tickets": null,
    "venue": "Ford Center",
    "venue_city": "Evansville",
    "venue_state": "IN",
@@ -1585,21 +1579,21 @@
     "key": null,
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
    "away": {
     "espn_id": "193",
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911016",
@@ -1617,10 +1611,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-14-2026--sports-ncaa-basketball/production/7762858?wsUser=717",
-    "low": 16.0
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -1629,21 +1620,21 @@
     "key": null,
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
    "away": {
     "espn_id": "2117",
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928804",
@@ -1670,21 +1661,21 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2649",
     "key": "toledo",
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923393",
@@ -1702,10 +1693,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/southern-indiana-screaming-eagles-mens-basketball-tickets-liberty-arena---in-11-15-2026/production/7710404?wsUser=717",
-    "low": 34.0
-   },
+   "tickets": null,
    "venue": "Liberty Arena (IN)",
    "venue_city": "Evansville",
    "venue_state": "IN",
@@ -1714,21 +1702,21 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911017",
@@ -1746,10 +1734,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-11-15-2026--sports-ncaa-basketball/production/7872834?wsUser=717",
-    "low": 30.0
-   },
+   "tickets": null,
    "venue": "Broadview Arena",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -1758,21 +1743,21 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2099",
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
-    "winner": null
+    "score": 55,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928841",
@@ -1802,21 +1787,21 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
    "away": {
     "espn_id": "2198",
     "key": null,
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924941",
@@ -1967,7 +1952,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-11-17-2026--sports-ncaa-basketball/production/7413755?wsUser=717",
-    "low": 12.0
+    "low": 10.0
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -2011,7 +1996,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-17-2026--sports-ncaa-basketball/production/7413911?wsUser=717",
-    "low": 20.0
+    "low": 24.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -2099,7 +2084,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-18-2026--sports-ncaa-basketball/production/7639756?wsUser=717",
-    "low": 18.0
+    "low": 16.0
    },
    "venue": "Millett Hall",
    "venue_city": "Oxford",
@@ -2143,7 +2128,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-11-18-2026--sports-ncaa-basketball/production/7580314?wsUser=717",
-    "low": 14.0
+    "low": 12.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -2318,7 +2303,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-11-20-2026--sports-ncaa-basketball/production/7356335?wsUser=717",
-    "low": 15.0
+    "low": 21.0
    },
    "venue": "Petersen Events Center",
    "venue_city": "Pittsburgh",
@@ -2406,7 +2391,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 20.0
+    "low": 19.0
    },
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
@@ -2491,7 +2476,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 28.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -2901,7 +2886,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-24-2026--sports-ncaa-basketball/production/7456027?wsUser=717",
-    "low": 29.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -2945,7 +2930,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 13.0
+    "low": 12.0
    },
    "venue": "Purcell Pavilion",
    "venue_city": "South Bend",
@@ -3701,7 +3686,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-5-2026--sports-ncaa-basketball/production/7456029?wsUser=717",
-    "low": 33.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -3833,7 +3818,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-12-5-2026--sports-ncaa-basketball/production/7425546?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -3965,7 +3950,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-12-9-2026--sports-ncaa-basketball/production/7425548?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -4053,7 +4038,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-12-9-2026--sports-ncaa-basketball/production/7456093?wsUser=717",
-    "low": 20.0
+    "low": 26.0
    },
    "venue": "Mullins Center",
    "venue_city": "Amherst",
@@ -4346,7 +4331,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-13-2026--sports-ncaa-basketball/production/7580368?wsUser=717",
-    "low": 21.0
+    "low": 19.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -4478,7 +4463,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-16-2026--sports-ncaa-basketball/production/7456031?wsUser=717",
-    "low": 30.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -4607,7 +4592,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-12-19-2026--sports-ncaa-basketball/production/7424791?wsUser=717",
-    "low": 34.0
+    "low": 32.0
    },
    "venue": "Millett Hall",
    "venue_city": "Oxford",
@@ -4932,7 +4917,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-22-2026--sports-ncaa-basketball/production/7456033?wsUser=717",
-    "low": 30.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -5238,7 +5223,10 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-12-29-2026--sports-ncaa-basketball/production/7425550?wsUser=717",
+    "low": 30.0
+   },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
    "venue_state": "MI",
@@ -5275,7 +5263,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-12-29-2026--sports-ncaa-basketball/production/7456035?wsUser=717",
-    "low": 33.0
+    "low": 22.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -5451,7 +5439,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 20.0
+    "low": 22.0
    },
    "venue": "Crisler Center",
    "venue_city": "Ann Arbor",
@@ -5565,7 +5553,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-2-2027--sports-ncaa-basketball/production/7456001?wsUser=717",
-    "low": 40.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -5679,7 +5667,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-1-2-2027--sports-ncaa-basketball/production/7425552?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -5831,7 +5819,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-1-5-2027--sports-ncaa-basketball/production/7425554?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -6018,7 +6006,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ball-state-cardinals-mens-basketball-tickets-john-e-worthen-arena-1-9-2027--sports-ncaa-basketball/production/7456071?wsUser=717",
-    "low": 32.0
+    "low": 30.0
    },
    "venue": "Worthen Arena",
    "venue_city": "Muncie",
@@ -6091,7 +6079,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-1-9-2027--sports-ncaa-basketball/production/7424990?wsUser=717",
-    "low": 30.0
+    "low": 27.0
    },
    "venue": "Convocation Center (OH)",
    "venue_city": "Athens",
@@ -6205,7 +6193,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-12-2027--sports-ncaa-basketball/production/7456003?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -6243,7 +6231,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-1-12-2027--sports-ncaa-basketball/production/7425556?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -6582,7 +6570,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-16-2027--sports-ncaa-basketball/production/7436293?wsUser=717",
-    "low": 14.0
+    "low": 17.0
    },
    "venue": "M.A.C. Center",
    "venue_city": "Kent",
@@ -6734,7 +6722,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-19-2027--sports-ncaa-basketball/production/7456005?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -6848,7 +6836,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-1-23-2027--sports-ncaa-basketball/production/7456009?wsUser=717",
-    "low": 40.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -6924,7 +6912,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-1-23-2027--sports-ncaa-basketball/production/7425558?wsUser=717",
-    "low": 58.61
+    "low": 37.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -7675,7 +7663,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-2-2-2027--sports-ncaa-basketball/production/7425560?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -7865,7 +7853,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-2-9-2027--sports-ncaa-basketball/production/7425564?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -8052,7 +8040,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-2-13-2027--sports-ncaa-basketball/production/7479316?wsUser=717",
-    "low": 40.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -8280,7 +8268,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-2-16-2027--sports-ncaa-basketball/production/7456017?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -8619,7 +8607,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-2-20-2027--sports-ncaa-basketball/production/7425566?wsUser=717",
-    "low": 58.61
+    "low": 37.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -8771,7 +8759,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-2-23-2027--sports-ncaa-basketball/production/7456019?wsUser=717",
-    "low": 36.0
+    "low": 28.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -9148,7 +9136,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-3-2-2027--sports-ncaa-basketball/production/7425568?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -9411,7 +9399,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/central-michigan-chippewas-mens-basketball-tickets-mcguirk-arena-3-5-2027--sports-ncaa-basketball/production/7425570?wsUser=717",
-    "low": 58.61
+    "low": 30.0
    },
    "venue": "McGuirk Arena",
    "venue_city": "Mount Pleasant",
@@ -9449,7 +9437,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-3-5-2027--sports-ncaa-basketball/production/7456021?wsUser=717",
-    "low": 37.0
+    "low": 31.0
    },
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
@@ -9551,5 +9539,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-17T02:06:24+00:00"
 }

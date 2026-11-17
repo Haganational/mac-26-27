@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -21,15 +22,15 @@ from datetime import date
 from pathlib import Path
 
 from . import alert
+from . import tags as hashtags
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 API = "https://www.googleapis.com/youtube/v3"
 UPLOAD = "https://www.googleapis.com/upload/youtube/v3"
 SPORTS = "17"  # YouTube category id
-TAGS = ["MidMaxx60", "Midmaxxing", "mid-major basketball", "college basketball", "MACtion", "Horizon League", "ASUN",
-        "Mountain West", "MAAC", "Big West", "Hardwood Bricks"]
-SHOWS = {"midmaxx60": ("MidMaxx60: the mid-majors in 60 seconds", "#Shorts #Midmaxxing #MACtion"),
-         "bigmid": ("The Big Mid: the week in mid-majors", "#Midmaxxing #CollegeBasketball")}
+TAGS = ["MidMaxx60", "Midmaxxing", "mid-major basketball", "college basketball", "Hardwood Bricks"]
+SHOWS = {"midmaxx60": ("MidMaxx60: the mid-majors in 60 seconds", ("#Shorts",)),
+         "bigmid": ("The Big Mid: the week in mid-majors", ())}
 
 
 def title(stem: str) -> str:
@@ -42,12 +43,17 @@ def title(stem: str) -> str:
         return show
 
 
-def body(stem: str, description: str, privacy: str) -> dict:
-    """The video resource. YouTube allows 100 characters of title and 5,000 of description, no angle brackets."""
+def body(stem: str, description: str, privacy: str, specific: list[str] | None = None) -> dict:
+    """The video resource. YouTube allows 100 characters of title and 5,000 of description, no angle brackets.
+    The description ends on five hashtags at most (YouTube shows the first three above the title); the
+    day's schools and conferences also go in the search tags, as plain words."""
     text = description.replace("<", "").replace(">", "").strip()
-    tags = SHOWS["bigmid" if stem.startswith("bigmid") else "midmaxx60"][1]
+    first = SHOWS["bigmid" if stem.startswith("bigmid") else "midmaxx60"][1]
+    specific = specific or []
+    tags = hashtags.line(first=[*first, *specific[:2]])  # school and conference among the three shown
+    words = [re.sub(r"(?<=[a-z])(?=[A-Z])", " ", t.lstrip("#")) for t in specific]
     return {"snippet": {"title": title(stem)[:100], "description": (text + "\n\n" + tags)[:5000],
-                        "tags": TAGS, "categoryId": SPORTS, "defaultLanguage": "en", "defaultAudioLanguage": "en"},
+                        "tags": TAGS + [w for w in words if w not in TAGS], "categoryId": SPORTS, "defaultLanguage": "en", "defaultAudioLanguage": "en"},
             "status": {"privacyStatus": privacy if privacy in ("public", "unlisted", "private") else "public",
                        "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
 
@@ -81,7 +87,8 @@ def already_up(token: str, name: str) -> bool:
 def upload(out: Path, token: str, privacy: str, show: str = "midmaxx60") -> str | None:
     mp4 = sorted(out.glob(f"{show}-*.mp4"))[-1]
     stem = mp4.stem
-    meta = body(stem, (out / f"{stem}.txt").read_text() if (out / f"{stem}.txt").exists() else "", privacy)
+    meta = body(stem, (out / f"{stem}.txt").read_text() if (out / f"{stem}.txt").exists() else "", privacy,
+                hashtags.from_file(out / f"{stem}.tags"))
     if already_up(token, meta["snippet"]["title"]):
         print(f"youtube: {meta['snippet']['title']!r} is already on the channel, not uploading again")
         return None

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Masthead and standards · Hardwood Bricks</title>
-<meta name="description" content="Who runs Hardwood Bricks, independent men's college basketball coverage of the {{ names }}: editors, contact, how recaps and previews are written, corrections and ethics.">
+<meta name="description" content="Who runs Hardwood Bricks, independent men's college basketball coverage of {{ n_conf }} mid-major conferences: editors, contact, how recaps and previews are written, corrections and ethics.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}masthead.html">
@@ -43,11 +43,12 @@
 
   <section id="editors" aria-labelledby="h-editors">
     <h2 id="h-editors">Conference editors</h2>
-    <table>
-      <tr><th>Conference</th><th>Editor</th></tr>
-      {% for e in desks %}<tr><td><a href="{{ e.href }}">{{ e.name }}</a></td><td>{{ e.editor }}{% if e.acting %} <span class="role" style="text-transform:none;letter-spacing:0">(acting)</span>{% endif %}</td></tr>
+    {% set named = desks|rejectattr("acting")|list %}{% set acting = desks|selectattr("acting")|list %}
+    {% if named %}<ul class="eds">
+      {% for e in named %}<li><a href="{{ e.href }}">{{ e.short }}</a><span>{{ e.editor }}</span></li>
       {% endfor %}
-    </table>
+    </ul>{% endif %}
+    {% if acting %}<p class="eds-rest">{% if not named %}Every edition is{% elif acting|length == 1 %}The other edition is{% else %}The other {{ acting|length }} editions are{% endif %} edited by {{ mh.editor }} until a conference editor is named: {% for e in acting %}<a href="{{ e.href }}" title="{{ e.name }}">{{ e.short }}</a>{{ ", " if not loop.last }}{% endfor %}.</p>{% endif %}
   </section>
 
   <section id="contact" aria-labelledby="h-contact">
