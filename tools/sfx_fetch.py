@@ -34,7 +34,9 @@ for kind, q in jobs:
         dur = ii.get("duration") or 0
         if not OK.match(lic):
             print("skip license", lic, p["title"]); continue
-        url = ii.get("url", "")
+        url = ii.get("url", "").split("?")[0]
+        if not re.match(r"(audio/|application/ogg|video/webm)", ii.get("mime", "")):
+            continue
         ext = url.rsplit(".", 1)[-1].lower()
         if ext not in ("ogg", "oga", "wav", "flac", "mp3", "opus", "webm"):
             print("skip type", ext, url[:90], p["title"]); continue
