@@ -1587,21 +1587,21 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 69,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "111949",
     "key": null,
     "name": "DeSales Bulldogs",
     "abbr": "DSLU",
-    "score": 43,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920735",
@@ -1631,7 +1631,7 @@
     "key": null,
     "name": "Northwestern Wildcats",
     "abbr": "NU",
-    "score": 19,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -1639,13 +1639,13 @@
     "key": "columbia",
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 25,
+    "score": 39,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:53 - 1st"
+   "detail": "15:52 - 2nd"
   },
   {
    "game_id": "401920236",
@@ -7125,5 +7125,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:42:35+00:00"
+ "live_at": "2026-11-17T02:10:59+00:00"
 }

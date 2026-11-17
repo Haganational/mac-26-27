@@ -1764,21 +1764,21 @@
     "key": "southeast-missouri",
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": 83,
-    "winner": null
+    "score": 115,
+    "winner": true
    },
    "away": {
     "espn_id": "111166",
     "key": null,
     "name": "Midway Eagles",
     "abbr": "MIDW",
-    "score": 30,
-    "winner": null
+    "score": 45,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401916307",
@@ -1808,7 +1808,7 @@
     "key": null,
     "name": "Minnesota Golden Gophers",
     "abbr": "MINN",
-    "score": 54,
+    "score": 67,
     "winner": null
    },
    "away": {
@@ -1816,13 +1816,13 @@
     "key": "western-illinois",
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": 27,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "13:51 - 2nd"
   },
   {
    "game_id": "401918994",
@@ -8224,5 +8224,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:47:39+00:00"
+ "live_at": "2026-11-17T02:13:54+00:00"
 }

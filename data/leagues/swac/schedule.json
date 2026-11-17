@@ -2267,21 +2267,21 @@
     "key": null,
     "name": "Kentucky Wildcats",
     "abbr": "UK",
-    "score": 76,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2755",
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 52,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920373",
@@ -10771,5 +10771,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T01:50:15+00:00"
+ "live_at": "2026-11-17T02:15:27+00:00"
 }
