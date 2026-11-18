@@ -1,5 +1,5 @@
 {
-"as_of": "2026-11-18T21:37:11+00:00",
+"as_of": "2026-11-18T22:08:03+00:00",
 "onoff_live": false,
 "onoff_start": "2026-12-01",
 "weights": {
@@ -1503,7 +1503,7 @@
 "gp": 4,
 "mpg": 10.8,
 "min_pct": 26.9,
-"poss": 73,
+"poss": 72,
 "ppg": 4.2,
 "usage": 21.3,
 "ts": 60.4,
@@ -2508,6 +2508,35 @@
 "rk": 85
 },
 {
+"id": "4684843",
+"name": "TJ Power",
+"team_id": "219",
+"team_key": "penn",
+"team": "Penn",
+"abbr": "PENN",
+"pos": "F",
+"gp": 5,
+"mpg": 34.0,
+"min_pct": 85.0,
+"poss": 306,
+"ppg": 15.6,
+"usage": 30.0,
+"ts": 45.8,
+"off": -3.41,
+"def": 1.73,
+"net": -1.68,
+"raw_net": -5.42,
+"team_adj": 0.37,
+"prior_share": 0.45,
+"returning": true,
+"on_poss": 294.29,
+"on_net": 0.68,
+"off_net": -29.86,
+"apm": -0.96,
+"onoff": 30.54,
+"rk": 86
+},
+{
 "id": "5459460",
 "name": "Isaiah Carroll",
 "team_id": "219",
@@ -2534,7 +2563,7 @@
 "off_net": -6.09,
 "apm": -1.86,
 "onoff": 7.22,
-"rk": 86
+"rk": 87
 },
 {
 "id": "5460684",
@@ -2563,35 +2592,6 @@
 "off_net": 0.0,
 "apm": -0.38,
 "onoff": 30.14,
-"rk": 87
-},
-{
-"id": "4684843",
-"name": "TJ Power",
-"team_id": "219",
-"team_key": "penn",
-"team": "Penn",
-"abbr": "PENN",
-"pos": "F",
-"gp": 5,
-"mpg": 34.0,
-"min_pct": 85.0,
-"poss": 306,
-"ppg": 15.6,
-"usage": 30.0,
-"ts": 45.8,
-"off": -3.41,
-"def": 1.73,
-"net": -1.69,
-"raw_net": -5.42,
-"team_adj": 0.37,
-"prior_share": 0.45,
-"returning": true,
-"on_poss": 294.29,
-"on_net": 0.68,
-"off_net": -29.86,
-"apm": -0.96,
-"onoff": 30.54,
 "rk": 88
 },
 {
@@ -3866,7 +3866,7 @@
 "on_poss": 207.91,
 "on_net": 3.37,
 "off_net": 14.12,
-"apm": -8.85,
+"apm": -8.84,
 "onoff": -10.75,
 "rk": 132
 }
