@@ -2116,7 +2116,7 @@
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2124,13 +2124,13 @@
     "key": "chattanooga",
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:20 - 1st"
   },
   {
    "game_id": "401922283",
@@ -2206,7 +2206,7 @@
     "key": null,
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:29 - 1st"
   },
   {
    "game_id": "401922055",
@@ -9971,5 +9971,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T23:42:31+00:00"
 }

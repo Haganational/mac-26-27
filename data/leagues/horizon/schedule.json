@@ -2347,7 +2347,7 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2355,13 +2355,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "20:00 - 1st"
   },
   {
    "game_id": "401917181",
@@ -2392,7 +2392,7 @@
     "key": null,
     "name": "Penn State Nittany Lions",
     "abbr": "PSU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2400,13 +2400,13 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:34 - 1st"
   },
   {
    "game_id": "401909526",
@@ -10630,5 +10630,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T23:32:27+00:00"
 }
