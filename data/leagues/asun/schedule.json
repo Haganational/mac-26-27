@@ -1717,21 +1717,21 @@
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": 68,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "91",
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 50,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922212",
@@ -8074,5 +8074,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:48:31+00:00"
+ "live_at": "2026-11-18T03:17:31+00:00"
 }

@@ -1837,21 +1837,21 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 71,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
    "away": {
     "espn_id": "2393",
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 73,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924922",
@@ -1881,7 +1881,7 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 49,
+    "score": 76,
     "winner": null
    },
    "away": {
@@ -1889,13 +1889,13 @@
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 44,
+    "score": 65,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:52 - 2nd"
+   "detail": "4:07 - 2nd"
   },
   {
    "game_id": "401911534",
@@ -8837,5 +8837,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:55:47+00:00"
+ "live_at": "2026-11-18T03:24:50+00:00"
 }

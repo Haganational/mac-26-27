@@ -21,9 +21,9 @@ _Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## Barometer
 
-**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
+**35 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mike editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mike editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -74,3 +74,4 @@ _Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-12: L 60-94 at Nebraska Cornhuskers. Barometer 49 (steady). <!-- g:401926062 -->
 - 2026-11-14: L 56-67 at Omaha Mavericks. Barometer 42 (testy). <!-- g:401929040 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
+- 2026-11-18: L 74-81 at Northern Iowa Panthers. Barometer 35 (testy). <!-- g:401927388 -->

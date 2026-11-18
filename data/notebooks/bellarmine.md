@@ -21,9 +21,9 @@ _Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any s
 
 ## Barometer
 
-**37 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
+**32 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -77,3 +77,4 @@ _Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-14: L 64-72 vs Northern Illinois Huskies. Barometer 37 (testy). <!-- g:401920915 -->
 - 2026-11-14: Social recap posted (L 64-72 vs Northern Illinois Huskies): https://hardwoodbricks.com/asun/games/401920915.html <!-- post:401920915:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:preview -->
+- 2026-11-18: L 59-76 at Illinois State Redbirds. Barometer 32 (testy). <!-- g:401921106 -->

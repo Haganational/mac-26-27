@@ -66,7 +66,7 @@ _Eastern Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,4 @@ _Eastern Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-15: Social recap posted (L 74-86 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401926068.html <!-- post:401926068:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/ovc/games/401921826.html <!-- post:401921826:preview -->
 - 2026-11-18: L 50-96 at Vanderbilt Commodores. Barometer 31 (testy). <!-- g:401921826 -->
+- 2026-11-18: Social recap posted (L 50-96 vs Vanderbilt Commodores): https://hardwoodbricks.com/ovc/games/401921826.html <!-- post:401921826:recap -->

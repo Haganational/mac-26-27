@@ -21,9 +21,9 @@ _UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any 
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**72 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rosa editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rosa editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ _UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-10: W 116-65 vs (neutral) Bethesda Flames. Barometer 63 (steady). <!-- g:401929357 -->
 - 2026-11-15: W 85-77 vs UT Rio Grande Valley Vaqueros. Barometer 66 (buoyant). <!-- g:401925108 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:preview -->
+- 2026-11-18: W 83-72 at Southern Miss Golden Eagles. Barometer 72 (buoyant). <!-- g:401929358 -->

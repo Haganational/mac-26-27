@@ -60,7 +60,7 @@ _Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -70,3 +70,4 @@ _Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-14: L 59-77 vs Columbia Lions. Barometer 16 (despondent). <!-- g:401924704 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:preview -->
 - 2026-11-18: W 53-49 vs Akron Zips. Barometer 35 (testy). <!-- g:401924941 -->
+- 2026-11-18: Social recap posted (W 53-49 vs Akron Zips): https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:recap -->

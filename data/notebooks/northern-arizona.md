@@ -21,9 +21,9 @@ _Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated w
 
 ## Barometer
 
-**20 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**40 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rita editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rita editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -74,3 +74,4 @@ _Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated w
 - 2026-11-11: L 59-90 at Arizona Wildcats. Barometer 23 (despondent). <!-- g:401909740 -->
 - 2026-11-14: L 77-78 at Kentucky Wildcats. Barometer 20 (despondent). <!-- g:401921803 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:preview -->
+- 2026-11-18: W 72-59 vs Embry Riddle (AZ) Eagles. Barometer 40 (testy). <!-- g:401927867 -->

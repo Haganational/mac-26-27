@@ -2771,21 +2771,21 @@
     "key": "georgia-southern",
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 70,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
    "away": {
     "espn_id": "2393",
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 70,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929358",
@@ -2812,7 +2812,7 @@
     "key": "southern-miss",
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 62,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -2820,13 +2820,13 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 68,
+    "score": 82,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:05 - 2nd"
+   "detail": "0:27 - 2nd"
   },
   {
    "game_id": "401920426",
@@ -2856,7 +2856,7 @@
     "key": null,
     "name": "Virginia Cavaliers",
     "abbr": "UVA",
-    "score": 35,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2864,13 +2864,13 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": 26,
+    "score": 33,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:47 - 1st"
+   "detail": "15:24 - 2nd"
   },
   {
    "game_id": "401926838",
@@ -12407,5 +12407,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:53:58+00:00"
+ "live_at": "2026-11-18T03:23:01+00:00"
 }

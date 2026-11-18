@@ -69,7 +69,7 @@ _Akron (MAC). Anchors are fictional AI personas, not affiliated with any school.
 ## What we've made about them
 
 - Film: *The Magnet in the Nose* (https://youtu.be/IK-7KOKkbv0). Our film on the 1973 Soap Box Derby scandal in Akron, and who the real cheater was.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,4 @@ _Akron (MAC). Anchors are fictional AI personas, not affiliated with any school.
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:preview -->
 - 2026-11-17: Film: *The Magnet in the Nose* (https://youtu.be/IK-7KOKkbv0). Our film on the 1973 Soap Box Derby scandal in Akron, and who the real cheater was. <!-- film:IK-7KOKkbv0 -->
 - 2026-11-18: L 49-53 at Bucknell Bison. Barometer 59 (steady). <!-- g:401924941 -->
+- 2026-11-18: Social recap posted (L 49-53 vs Bucknell Bison): https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:recap -->

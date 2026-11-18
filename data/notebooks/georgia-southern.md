@@ -21,9 +21,9 @@ _Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated 
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**26 of 100, despondent.** Record 1-4 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated 
 - 2026-11-11: L 91-97 vs Mercer Bears. Barometer 41 (testy). <!-- g:401921025 -->
 - 2026-11-14: L 70-84 at UCF Knights. Barometer 32 (testy). <!-- g:401921026 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:preview -->
+- 2026-11-18: L 78-85 vs Middle Tennessee Blue Raiders. Barometer 26 (despondent). <!-- g:401921027 -->

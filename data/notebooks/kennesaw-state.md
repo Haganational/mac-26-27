@@ -59,7 +59,7 @@ _Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -69,3 +69,4 @@ _Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-13: W 107-54 vs LaGrange Panthers. Barometer 80 (giddy). <!-- g:401926788 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/cusa/games/401906761.html <!-- post:401906761:preview -->
 - 2026-11-18: L 91-109 at Alabama Crimson Tide. Barometer 60 (steady). <!-- g:401906761 -->
+- 2026-11-18: Social recap posted (L 91-109 vs Alabama Crimson Tide): https://hardwoodbricks.com/cusa/games/401906761.html <!-- post:401906761:recap -->

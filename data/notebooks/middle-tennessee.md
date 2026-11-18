@@ -21,9 +21,9 @@ _Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -74,3 +74,4 @@ _Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with
 - 2026-11-11: W 73-68 vs Evansville Purple Aces. Barometer 56 (steady). <!-- g:401927369 -->
 - 2026-11-14: W 88-75 vs Southeast Missouri State Redhawks. Barometer 62 (steady). <!-- g:401926152 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:preview -->
+- 2026-11-18: W 85-78 at Georgia Southern Eagles. Barometer 69 (buoyant). <!-- g:401921027 -->

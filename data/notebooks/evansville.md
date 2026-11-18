@@ -21,9 +21,9 @@ _Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**54 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated
 - 2026-11-14: L 78-86 vs Miami (OH) RedHawks. Barometer 45 (steady). <!-- g:401911015 -->
 - 2026-11-14: Social recap posted (L 78-86 vs Miami (OH) RedHawks): https://hardwoodbricks.com/games/401911015.html <!-- post:401911015:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:preview -->
+- 2026-11-18: W 79-65 vs Le Moyne Dolphins. Barometer 54 (steady). <!-- g:401919783 -->

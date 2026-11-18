@@ -2003,21 +2003,21 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": 74,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "2803",
     "key": null,
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 71,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:27 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401920947",
@@ -9537,5 +9537,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:47:46+00:00"
+ "live_at": "2026-11-18T03:16:47+00:00"
 }

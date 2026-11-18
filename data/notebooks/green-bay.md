@@ -63,7 +63,7 @@ _Green Bay (Horizon). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,4 @@ _Green Bay (Horizon). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-13: Social recap posted (W 66-46 vs Viterbo V-Hawks): https://hardwoodbricks.com/horizon/games/401928807.html <!-- post:401928807:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:preview -->
 - 2026-11-18: L 69-87 at West Florida Argonauts. Barometer 47 (steady). <!-- g:401922251 -->
+- 2026-11-18: Social recap posted (L 69-87 vs West Florida Argonauts): https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:recap -->

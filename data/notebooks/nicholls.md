@@ -21,9 +21,9 @@ _Nicholls (Southland). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**41 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _Nicholls (Southland). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-11: L 63-77 at Tulane Green Wave. Barometer 41 (testy). <!-- g:401919003 -->
 - 2026-11-15: W 71-68 vs Louisiana Tech Bulldogs. Barometer 50 (steady). <!-- g:401925063 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925064.html <!-- post:401925064:preview -->
+- 2026-11-18: L 41-76 at Ole Miss Rebels. Barometer 41 (testy). <!-- g:401925064 -->

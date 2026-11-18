@@ -21,9 +21,9 @@ _Illinois State (Missouri Valley). Anchors are fictional AI personas, not affili
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**51 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Illinois State (Missouri Valley). Anchors are fictional AI personas, not affili
 - 2026-11-10: L 59-76 at Purdue Boilermakers. Barometer 44 (testy). <!-- g:401926132 -->
 - 2026-11-14: L 81-82 at North Dakota State Bison. Barometer 40 (testy). <!-- g:401927374 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:preview -->
+- 2026-11-18: W 76-59 vs Bellarmine Knights. Barometer 51 (steady). <!-- g:401921106 -->

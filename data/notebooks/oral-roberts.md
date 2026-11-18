@@ -21,9 +21,9 @@ _Oral Roberts (Summit). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**55 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hal editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hal editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ _Oral Roberts (Summit). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-12: L 71-80 at Tulsa Golden Hurricane. Barometer 44 (testy). <!-- g:401925863 -->
 - 2026-11-15: W 82-39 vs Oklahoma City Okies. Barometer 55 (steady). <!-- g:401929400 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401918970.html <!-- post:401918970:preview -->
+- 2026-11-18: L 72-76 at SMU Mustangs. Barometer 48 (steady). <!-- g:401918970 -->

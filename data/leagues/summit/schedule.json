@@ -1812,21 +1812,21 @@
     "key": "kansas-city",
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 57,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "580",
     "key": null,
     "name": "Newman Jets",
     "abbr": "NWM",
-    "score": 58,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:13 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926143",
@@ -1861,7 +1861,7 @@
     "key": "north-dakota",
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": 66,
+    "score": 83,
     "winner": null
    },
    "away": {
@@ -1869,13 +1869,13 @@
     "key": null,
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": 64,
+    "score": 78,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "1:59 - 2nd"
+   "detail": "End of OT"
   },
   {
    "game_id": "401925012",
@@ -1910,21 +1910,21 @@
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 64,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "2320",
     "key": null,
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 90,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918970",
@@ -1954,21 +1954,21 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": 74,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "198",
     "key": "oral-roberts",
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": 71,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926064",
@@ -7851,5 +7851,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:57:51+00:00"
+ "live_at": "2026-11-18T03:26:57+00:00"
 }

@@ -21,9 +21,9 @@ _Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affilia
 
 ## Barometer
 
-**41 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**50 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Magnus editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Magnus editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -74,3 +74,4 @@ _Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affilia
 - 2026-11-14: L 76-80 at Oakland Golden Grizzlies. Barometer 41 (testy). <!-- g:401927387 -->
 - 2026-11-15: Social recap posted (L 76-80 vs Oakland Golden Grizzlies): https://hardwoodbricks.com/horizon/games/401927387.html <!-- post:401927387:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
+- 2026-11-18: W 81-74 vs Lindenwood Lions. Barometer 50 (steady). <!-- g:401927388 -->

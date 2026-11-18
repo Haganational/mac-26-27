@@ -67,7 +67,7 @@ _UAB (American). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,4 @@ _UAB (American). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-15: L 68-71 at Jacksonville State Gamecocks. Barometer 51 (steady). <!-- g:401919017 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:preview -->
 - 2026-11-18: W 94-82 vs Florida International Panthers. Barometer 58 (steady). <!-- g:401919018 -->
+- 2026-11-18: Social recap posted (W 94-82 vs Florida International Panthers): https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:recap -->

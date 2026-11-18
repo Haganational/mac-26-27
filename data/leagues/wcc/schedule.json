@@ -1898,7 +1898,7 @@
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -1906,13 +1906,13 @@
     "key": null,
     "name": "Pacific Union Pioneers",
     "abbr": "PUC",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:57 - 1st"
   },
   {
    "game_id": "401917533",
@@ -1939,7 +1939,7 @@
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1947,13 +1947,13 @@
     "key": "seattle",
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:26 - 1st"
   },
   {
    "game_id": "401909762",
@@ -9439,5 +9439,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T03:21:55+00:00"
 }

@@ -21,9 +21,9 @@ _Lamar (Southland). Anchors are fictional AI personas, not affiliated with any s
 
 ## Barometer
 
-**62 of 100, steady.** Record 2-1 (0-0 in conference), streak W1, last five WLW.
+**68 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cassie editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cassie editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _Lamar (Southland). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-07: L 81-83 at Abilene Christian Wildcats. Barometer 52 (steady). <!-- g:401917962 -->
 - 2026-11-12: W 122-57 vs Centenary (LA) Ladies. Barometer 62 (steady). <!-- g:401925011 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:preview -->
+- 2026-11-18: W 104-74 at Omaha Mavericks. Barometer 68 (buoyant). <!-- g:401925012 -->

@@ -59,7 +59,7 @@ _Jacksonville State (CUSA). Anchors are fictional AI personas, not affiliated wi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -69,3 +69,4 @@ _Jacksonville State (CUSA). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-15: W 71-68 vs UAB Blazers. Barometer 50 (steady). <!-- g:401919017 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:preview -->
 - 2026-11-18: L 63-68 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401926781 -->
+- 2026-11-18: Social recap posted (L 63-68 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:recap -->

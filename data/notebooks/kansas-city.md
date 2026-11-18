@@ -21,9 +21,9 @@ _Kansas City (Summit). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**52 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Kansas City (Summit). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-11: W 87-65 vs (neutral) Florida A&M Rattlers. Barometer 52 (steady). <!-- g:401921005 -->
 - 2026-11-12: L 68-76 vs (neutral) George Mason Patriots. Barometer 45 (steady). <!-- g:401920073 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401921006.html <!-- post:401921006:preview -->
+- 2026-11-18: W 68-64 vs Newman Jets. Barometer 52 (steady). <!-- g:401921006 -->

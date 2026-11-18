@@ -59,7 +59,7 @@ _Rider (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -72,3 +72,4 @@ _Rider (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 - 2026-11-15: Social recap posted (L 62-99 vs Villanova Wildcats): https://hardwoodbricks.com/metro/games/401921775.html <!-- post:401921775:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:preview -->
 - 2026-11-18: L 48-95 at Miami Hurricanes. Barometer 31 (testy). <!-- g:401921722 -->
+- 2026-11-18: Social recap posted (L 48-95 vs Miami Hurricanes): https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:recap -->

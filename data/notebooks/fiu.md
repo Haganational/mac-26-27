@@ -62,7 +62,7 @@ _FIU (CUSA). Anchors are fictional AI personas, not affiliated with any school. 
 ## What we've made about them
 
 - Film: *The Badge on Campus (Part II)* (https://youtu.be/P5lvhlSbBcw). Our film on FIU campus police joining ICE's 287(g) program and the students who pushed back. Part two of two.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _FIU (CUSA). Anchors are fictional AI personas, not affiliated with any school. 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:preview -->
 - 2026-11-17: Film: *The Badge on Campus (Part II)* (https://youtu.be/P5lvhlSbBcw). Our film on FIU campus police joining ICE's 287(g) program and the students who pushed back. Part two of two. <!-- film:P5lvhlSbBcw -->
 - 2026-11-18: L 82-94 at UAB Blazers. Barometer 58 (steady). <!-- g:401919018 -->
+- 2026-11-18: Social recap posted (L 82-94 vs UAB Blazers): https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:recap -->

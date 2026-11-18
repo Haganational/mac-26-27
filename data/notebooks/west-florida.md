@@ -63,7 +63,7 @@ _West Florida (ASUN). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -77,3 +77,4 @@ _West Florida (ASUN). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-13: Social recap posted (L 83-85 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/asun/games/401922250.html <!-- post:401922250:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:preview -->
 - 2026-11-18: W 87-69 vs Green Bay Phoenix. Barometer 55 (steady). <!-- g:401922251 -->
+- 2026-11-18: Social recap posted (W 87-69 vs Green Bay Phoenix): https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:recap -->

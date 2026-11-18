@@ -21,9 +21,9 @@ _Omaha (Summit). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**56 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**46 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Omaha (Summit). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-11: W 78-66 vs York (NE) Panthers. Barometer 48 (steady). <!-- g:401929395 -->
 - 2026-11-14: W 67-56 vs Lindenwood Lions. Barometer 56 (steady). <!-- g:401929040 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:preview -->
+- 2026-11-18: L 74-104 vs Lamar Cardinals. Barometer 46 (steady). <!-- g:401925012 -->

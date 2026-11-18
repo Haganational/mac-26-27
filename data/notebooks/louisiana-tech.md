@@ -62,7 +62,7 @@ _Louisiana Tech (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -72,3 +72,4 @@ _Louisiana Tech (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-15: L 68-71 at Nicholls Colonels. Barometer 46 (steady). <!-- g:401925063 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:preview -->
 - 2026-11-18: W 68-63 vs Jacksonville State Gamecocks. Barometer 53 (steady). <!-- g:401926781 -->
+- 2026-11-18: Social recap posted (W 68-63 vs Jacksonville State Gamecocks): https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:recap -->

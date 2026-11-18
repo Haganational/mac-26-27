@@ -61,7 +61,7 @@ _Troy (Sun Belt). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -71,3 +71,4 @@ _Troy (Sun Belt). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-14: L 62-81 at NC State Wolfpack. Barometer 36 (testy). <!-- g:401918958 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:preview -->
 - 2026-11-18: W 84-74 vs Cal State Northridge Matadors. Barometer 47 (steady). <!-- g:401920297 -->
+- 2026-11-18: Social recap posted (W 84-74 vs Cal State Northridge Matadors): https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:recap -->

@@ -60,7 +60,7 @@ _CSUN (Big West). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -71,3 +71,4 @@ _CSUN (Big West). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-13: Social recap posted (W 108-69 vs Grace (CA) Talons): https://hardwoodbricks.com/bigwest/games/401920296.html <!-- post:401920296:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:preview -->
 - 2026-11-18: L 74-84 at Troy Trojans. Barometer 40 (testy). <!-- g:401920297 -->
+- 2026-11-18: Social recap posted (L 74-84 vs Troy Trojans): https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:recap -->
