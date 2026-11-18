@@ -62,7 +62,7 @@ _Charleston (CAA). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -72,3 +72,4 @@ _Charleston (CAA). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-15: W 90-66 vs South Carolina State Bulldogs. Barometer 82 (giddy). <!-- g:401925926 -->
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:preview -->
 - 2026-11-15: Social recap posted (W 90-66 vs South Carolina State Bulldogs): https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:preview -->

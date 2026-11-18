@@ -63,7 +63,7 @@ _Little Rock (UAC). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -71,3 +71,4 @@ _Little Rock (UAC). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-08: L 79-83 vs SE Louisiana Lions. Barometer 35 (testy). <!-- g:401920816 -->
 - 2026-11-11: L 69-94 at New Mexico Lobos. Barometer 26 (despondent). <!-- g:401924896 -->
 - 2026-11-15: W 84-83 vs Northwestern State Demons. Barometer 40 (testy). <!-- g:401925079 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:preview -->

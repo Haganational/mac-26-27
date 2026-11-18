@@ -66,7 +66,7 @@ _Toledo (MAC). Anchors are fictional AI personas, not affiliated with any school
 ## What we've made about them
 
 - Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ _Toledo (MAC). Anchors are fictional AI personas, not affiliated with any school
 - 2026-11-14: W 85-72 at Detroit Mercy Titans. Barometer 49 (steady). <!-- g:401928804 -->
 - 2026-11-14: Social recap posted (W 85-72 vs Detroit Mercy Titans): https://hardwoodbricks.com/games/401928804.html <!-- post:401928804:recap -->
 - 2026-11-17: Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it. <!-- film:S7vx_vBG8qk -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:preview -->

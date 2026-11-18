@@ -62,7 +62,7 @@ _Jacksonville (ASUN). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -72,3 +72,4 @@ _Jacksonville (ASUN). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/asun/games/401906783.html <!-- post:401906783:preview -->
 - 2026-11-17: L 62-107 at Georgia Bulldogs. Barometer 47 (steady). <!-- g:401906783 -->
 - 2026-11-17: Social recap posted (L 62-107 vs Georgia Bulldogs): https://hardwoodbricks.com/asun/games/401906783.html <!-- post:401906783:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:preview -->

@@ -61,7 +61,7 @@ _St. Bonaventure (A-10). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -71,3 +71,4 @@ _St. Bonaventure (A-10). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-14: W 81-58 vs Lafayette Leopards. Barometer 72 (buoyant). <!-- g:401911264 -->
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/a10/games/401911264.html <!-- post:401911264:preview -->
 - 2026-11-14: Social recap posted (W 81-58 vs Lafayette Leopards): https://hardwoodbricks.com/a10/games/401911264.html <!-- post:401911264:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->

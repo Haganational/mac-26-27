@@ -63,7 +63,7 @@ _Robert Morris (Horizon). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _Robert Morris (Horizon). Anchors are fictional AI personas, not affiliated with
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/horizon/games/401928825.html <!-- post:401928825:preview -->
 - 2026-11-15: W 94-45 vs Capital Crusaders. Barometer 41 (testy). <!-- g:401928825 -->
 - 2026-11-15: Social recap posted (W 94-45 vs Capital Crusaders): https://hardwoodbricks.com/horizon/games/401928825.html <!-- post:401928825:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:preview -->

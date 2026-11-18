@@ -64,7 +64,7 @@ _Drake (Missouri Valley). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _Drake (Missouri Valley). Anchors are fictional AI personas, not affiliated with
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:preview -->
 - 2026-11-17: L 79-83 vs Tarleton State Texans. Barometer 59 (steady). <!-- g:401927364 -->
 - 2026-11-17: Social recap posted (L 79-83 vs Tarleton State Texans): https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:preview -->

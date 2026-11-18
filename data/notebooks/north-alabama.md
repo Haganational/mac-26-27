@@ -63,7 +63,7 @@ _North Alabama (UAC). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _North Alabama (UAC). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/uac/games/401929371.html <!-- post:401929371:preview -->
 - 2026-11-16: W 87-49 vs Fisk Bulldogs. Barometer 53 (steady). <!-- g:401929371 -->
 - 2026-11-16: Social recap posted (W 87-49 vs Fisk Bulldogs): https://hardwoodbricks.com/uac/games/401929371.html <!-- post:401929371:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401929373.html <!-- post:401929373:preview -->

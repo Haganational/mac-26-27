@@ -68,7 +68,7 @@ _Buffalo (MAC). Anchors are fictional AI personas, not affiliated with any schoo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ _Buffalo (MAC). Anchors are fictional AI personas, not affiliated with any schoo
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:preview -->
 - 2026-11-15: W 79-55 vs Canisius Golden Griffins. Barometer 56 (steady). <!-- g:401911017 -->
 - 2026-11-16: Social recap posted (W 79-55 vs Canisius Golden Griffins): https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->

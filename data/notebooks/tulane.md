@@ -60,7 +60,7 @@ _Tulane (American). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -70,3 +70,4 @@ _Tulane (American). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/games/401919004.html <!-- post:401919004:preview -->
 - 2026-11-14: L 63-65 at Akron Zips. Barometer 50 (steady). <!-- g:401919004 -->
 - 2026-11-14: Social recap posted (L 63-65 vs Akron Zips): https://hardwoodbricks.com/games/401919004.html <!-- post:401919004:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:preview -->
