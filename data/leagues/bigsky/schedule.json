@@ -1946,7 +1946,7 @@
     "key": "northern-arizona",
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -1954,13 +1954,13 @@
     "key": null,
     "name": "Embry Riddle (AZ) Eagles",
     "abbr": "ERAZ",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:09 - 1st"
   },
   {
    "game_id": "401920720",
@@ -9533,5 +9533,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T01:16:29+00:00"
 }

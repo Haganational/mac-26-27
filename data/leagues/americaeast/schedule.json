@@ -1879,21 +1879,21 @@
     "key": "umass-lowell",
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 64,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
    "away": {
     "espn_id": "2612",
     "key": null,
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": 46,
-    "winner": null
+    "score": 51,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:16 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911020",
@@ -1923,7 +1923,7 @@
     "key": null,
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": 3,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -1931,13 +1931,13 @@
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 5,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:48 - 1st"
+   "detail": "2:39 - 1st"
   },
   {
    "game_id": "401911277",
@@ -8659,5 +8659,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:46:59+00:00"
+ "live_at": "2026-11-18T01:18:27+00:00"
 }

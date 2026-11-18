@@ -2264,7 +2264,7 @@
     "key": null,
     "name": "Xavier Musketeers",
     "abbr": "XAV",
-    "score": 27,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2272,13 +2272,13 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 20,
+    "score": 32,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:30 - 1st"
+   "detail": "19:09 - 2nd"
   },
   {
    "game_id": "401922251",
@@ -2308,7 +2308,7 @@
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 19,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2316,13 +2316,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 21,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:54 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920947",
@@ -10464,5 +10464,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:33:54+00:00"
+ "live_at": "2026-11-18T01:10:52+00:00"
 }

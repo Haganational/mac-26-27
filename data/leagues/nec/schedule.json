@@ -1784,7 +1784,7 @@
     "key": "central-connecticut",
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": 55,
+    "score": 93,
     "winner": null
    },
    "away": {
@@ -1792,13 +1792,13 @@
     "key": null,
     "name": "Vermont State Lyndon Hornets",
     "abbr": "VTSL",
-    "score": 23,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "3:02 - 2nd"
   },
   {
    "game_id": "401920194",
@@ -1828,7 +1828,7 @@
     "key": null,
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 43,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -1836,13 +1836,13 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": 26,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:20 - 1st"
+   "detail": "14:42 - 2nd"
   },
   {
    "game_id": "401919783",
@@ -1872,7 +1872,7 @@
     "key": null,
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1880,13 +1880,13 @@
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:39 - 1st"
   },
   {
    "game_id": "401919735",
@@ -8275,5 +8275,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:48:08+00:00"
+ "live_at": "2026-11-18T01:19:07+00:00"
 }

@@ -21,9 +21,9 @@ _Southern Illinois (Missouri Valley). Anchors are fictional AI personas, not aff
 
 ## Barometer
 
-**59 of 100, steady.** Record 2-1 (0-0 in conference), streak W1, last five WLW.
+**49 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cleo editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cleo editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _Southern Illinois (Missouri Valley). Anchors are fictional AI personas, not aff
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -71,3 +71,5 @@ _Southern Illinois (Missouri Valley). Anchors are fictional AI personas, not aff
 - 2026-11-07: L 93-100 at Kansas City Roos. Barometer 51 (steady). <!-- g:401920952 -->
 - 2026-11-13: W 80-70 vs Richmond Spiders. Barometer 59 (steady). <!-- g:401911239 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:preview -->
+- 2026-11-17: L 78-87 vs (neutral) Liberty Flames. Barometer 49 (steady). <!-- g:401920953 -->
+- 2026-11-18: Social recap posted (L 78-87 vs Liberty Flames): https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:recap -->

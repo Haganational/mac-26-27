@@ -21,9 +21,9 @@ _Army (Patriot). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**45 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -59,7 +59,7 @@ _Army (Patriot). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -68,3 +68,5 @@ _Army (Patriot). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-11: L 55-63 at New Haven Chargers. Barometer 44 (testy). <!-- g:401912228 -->
 - 2026-11-14: W 79-77 vs St. Thomas Tommies. Barometer 52 (steady). <!-- g:401912229 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:preview -->
+- 2026-11-17: L 68-73 vs Marist Red Foxes. Barometer 45 (steady). <!-- g:401912230 -->
+- 2026-11-18: Social recap posted (L 68-73 vs Marist Red Foxes): https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:recap -->

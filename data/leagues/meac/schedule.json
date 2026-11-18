@@ -1562,7 +1562,7 @@
     "key": null,
     "name": "Georgia Tech Yellow Jackets",
     "abbr": "GT",
-    "score": 30,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -1570,13 +1570,13 @@
     "key": "norfolk-state",
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": 34,
+    "score": 49,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:03 - 1st"
+   "detail": "16:33 - 2nd"
   },
   {
    "game_id": "401927342",
@@ -1597,7 +1597,7 @@
     "key": "delaware-state",
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": 49,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -1605,13 +1605,13 @@
     "key": null,
     "name": "Cheyney (PA) Wolves",
     "abbr": "CHEY",
-    "score": 33,
+    "score": 49,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:23 - 1st"
+   "detail": "13:23 - 2nd"
   },
   {
    "game_id": "401909504",
@@ -1641,7 +1641,7 @@
     "key": null,
     "name": "DePaul Blue Demons",
     "abbr": "DEP",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -1649,13 +1649,13 @@
     "key": "umes",
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401921156",
@@ -7379,5 +7379,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:48:43+00:00"
+ "live_at": "2026-11-18T01:19:27+00:00"
 }

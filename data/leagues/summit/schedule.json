@@ -1812,7 +1812,7 @@
     "key": "kansas-city",
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -1820,13 +1820,13 @@
     "key": null,
     "name": "Newman Jets",
     "abbr": "NWM",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:55 - 1st"
   },
   {
    "game_id": "401926143",
@@ -1861,7 +1861,7 @@
     "key": "north-dakota",
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1869,13 +1869,13 @@
     "key": null,
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:13 - 1st"
   },
   {
    "game_id": "401925012",
@@ -1910,7 +1910,7 @@
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1918,13 +1918,13 @@
     "key": null,
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:49 - 1st"
   },
   {
    "game_id": "401918970",
@@ -1954,7 +1954,7 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1962,13 +1962,13 @@
     "key": "oral-roberts",
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:15 - 1st"
   },
   {
    "game_id": "401926064",
@@ -7850,5 +7850,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T01:17:14+00:00"
 }

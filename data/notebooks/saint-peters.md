@@ -21,9 +21,9 @@ _Saint Peter's (Metro). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**21 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**16 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmen editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmen editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -58,7 +58,7 @@ _Saint Peter's (Metro). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -67,3 +67,5 @@ _Saint Peter's (Metro). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-08: L 52-54 at NJIT Highlanders. Barometer 28 (despondent). <!-- g:401920865 -->
 - 2026-11-12: L 41-77 at South Carolina Gamecocks. Barometer 21 (despondent). <!-- g:401921821 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:preview -->
+- 2026-11-17: L 51-66 at UMass Lowell River Hawks. Barometer 16 (despondent). <!-- g:401923325 -->
+- 2026-11-18: Social recap posted (L 51-66 vs UMass Lowell River Hawks): https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:recap -->

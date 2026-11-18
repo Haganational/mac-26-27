@@ -1961,7 +1961,7 @@
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1969,13 +1969,13 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:54 - 1st"
   },
   {
    "game_id": "401921097",
@@ -2005,7 +2005,7 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2013,13 +2013,13 @@
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:08 - 1st"
   },
   {
    "game_id": "401925064",
@@ -9850,5 +9850,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T01:16:52+00:00"
 }

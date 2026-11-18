@@ -2162,7 +2162,7 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 13,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2170,13 +2170,13 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": 30,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:54 - 1st"
+   "detail": "16:07 - 2nd"
   },
   {
    "game_id": "401918994",
@@ -2206,7 +2206,7 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 28,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": null,
     "name": "Tennessee State Tigers",
     "abbr": "TNST",
-    "score": 26,
+    "score": 38,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401919018",
@@ -2250,7 +2250,7 @@
     "key": "uab",
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": 9,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2258,13 +2258,13 @@
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 5,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:47 - 1st"
+   "detail": "3:57 - 1st"
   },
   {
    "game_id": "401921097",
@@ -2294,7 +2294,7 @@
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2302,13 +2302,13 @@
     "key": null,
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:22 - 1st"
   },
   {
    "game_id": "401922212",
@@ -11845,5 +11845,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:39:22+00:00"
+ "live_at": "2026-11-18T01:14:01+00:00"
 }

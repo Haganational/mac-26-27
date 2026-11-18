@@ -1699,7 +1699,7 @@
     "key": "austin-peay",
     "name": "Austin Peay Governors",
     "abbr": "APSU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1707,13 +1707,13 @@
     "key": null,
     "name": "Life University Running Eagles",
     "abbr": "LIFE",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:14 - 1st"
   },
   {
    "game_id": "401929358",
@@ -1740,7 +1740,7 @@
     "key": null,
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1748,13 +1748,13 @@
     "key": "ut-arlington",
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:08 - 1st"
   },
   {
    "game_id": "401917902",
@@ -8745,5 +8745,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T01:17:33+00:00"
 }

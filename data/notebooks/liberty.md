@@ -21,9 +21,9 @@ _Liberty (CUSA). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**60 of 100, steady.** Record 2-1 (0-0 in conference), streak W2, last five LWW.
+**68 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _Liberty (CUSA). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -71,3 +71,5 @@ _Liberty (CUSA). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-07: W 113-54 vs Boyce Bulldogs. Barometer 53 (steady). <!-- g:401926793 -->
 - 2026-11-14: W 74-66 vs North Carolina Central Eagles. Barometer 60 (steady). <!-- g:401926794 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:preview -->
+- 2026-11-17: W 87-78 vs (neutral) Southern Illinois Salukis. Barometer 68 (buoyant). <!-- g:401920953 -->
+- 2026-11-18: Social recap posted (W 87-78 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:recap -->

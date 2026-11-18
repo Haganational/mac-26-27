@@ -1822,7 +1822,7 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 14,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -1830,13 +1830,13 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 5,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:30 - 1st"
+   "detail": "18:47 - 2nd"
   },
   {
    "game_id": "401909697",
@@ -1866,7 +1866,7 @@
     "key": null,
     "name": "Florida State Seminoles",
     "abbr": "FSU",
-    "score": 24,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -1874,13 +1874,13 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 18,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:19 - 1st"
+   "detail": "18:34 - 2nd"
   },
   {
    "game_id": "401911018",
@@ -1910,7 +1910,7 @@
     "key": null,
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 21,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -1918,13 +1918,13 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 18,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:32 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911019",
@@ -1959,7 +1959,7 @@
     "key": null,
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 25,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -1967,13 +1967,13 @@
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 17,
+    "score": 32,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:34 - 1st"
+   "detail": "16:25 - 2nd"
   },
   {
    "game_id": "401911020",
@@ -2003,7 +2003,7 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2011,13 +2011,13 @@
     "key": null,
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:40 - 1st"
   },
   {
    "game_id": "401920947",
@@ -9537,5 +9537,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:32:31+00:00"
+ "live_at": "2026-11-18T01:09:59+00:00"
 }

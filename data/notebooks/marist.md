@@ -21,9 +21,9 @@ _Marist (Metro). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Evan editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Evan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -58,7 +58,7 @@ _Marist (Metro). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -69,3 +69,5 @@ _Marist (Metro). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-14: L 60-65 at Lehigh Mountain Hawks. Barometer 40 (testy). <!-- g:401924796 -->
 - 2026-11-14: Social recap posted (L 60-65 vs Lehigh Mountain Hawks): https://hardwoodbricks.com/metro/games/401924796.html <!-- post:401924796:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:preview -->
+- 2026-11-17: W 73-68 at Army Black Knights. Barometer 48 (steady). <!-- g:401912230 -->
+- 2026-11-18: Social recap posted (W 73-68 vs Army Black Knights): https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:recap -->

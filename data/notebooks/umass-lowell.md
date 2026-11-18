@@ -21,9 +21,9 @@ _UMass Lowell (America East). Anchors are fictional AI personas, not affiliated 
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**63 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kerry editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kerry editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _UMass Lowell (America East). Anchors are fictional AI personas, not affiliated 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -73,3 +73,5 @@ _UMass Lowell (America East). Anchors are fictional AI personas, not affiliated 
 - 2026-11-12: L 62-72 at Massachusetts Minutemen. Barometer 57 (steady). <!-- g:401911012 -->
 - 2026-11-12: Social recap posted (L 62-72 vs Massachusetts Minutemen): https://hardwoodbricks.com/games/401911012.html <!-- post:401911012:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:preview -->
+- 2026-11-17: W 66-51 vs Saint Peter's Peacocks. Barometer 63 (steady). <!-- g:401923325 -->
+- 2026-11-18: Social recap posted (W 66-51 vs Saint Peter's Peacocks): https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:recap -->
