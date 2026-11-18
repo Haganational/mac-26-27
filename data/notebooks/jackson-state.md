@@ -27,9 +27,9 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**37 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 - 2026-11-12: L 80-84 at Southern Miss Golden Eagles. Barometer 35 (testy). <!-- g:401921037 -->
 - 2026-11-14: W 76-72 at Winthrop Eagles. Barometer 45 (steady). <!-- g:401921038 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401909753.html <!-- post:401909753:preview -->
+- 2026-11-18: L 55-104 at Baylor Bears. Barometer 37 (testy). <!-- g:401909753 -->
+- 2026-11-18: Social recap posted (L 55-104 vs Baylor Bears): https://hardwoodbricks.com/swac/games/401909753.html <!-- post:401909753:recap -->
