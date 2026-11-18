@@ -64,7 +64,7 @@ _East Texas A&M (Southland). Anchors are fictional AI personas, not affiliated w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -75,3 +75,4 @@ _East Texas A&M (Southland). Anchors are fictional AI personas, not affiliated w
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/pac12/games/401929192.html <!-- post:401929192:preview -->
 - 2026-11-17: L 71-109 at Oregon State Beavers. Barometer 48 (steady). <!-- g:401929192 -->
 - 2026-11-17: Social recap posted (L 71-109 vs Oregon State Beavers): https://hardwoodbricks.com/pac12/games/401929192.html <!-- post:401929192:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/southland/games/401918056.html <!-- post:401918056:preview -->

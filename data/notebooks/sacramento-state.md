@@ -65,7 +65,7 @@ _Sacramento St (Big West). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _Sacramento St (Big West). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/mw/games/401911520.html <!-- post:401911520:preview -->
 - 2026-11-15: L 56-75 vs UC Davis Aggies. Barometer 40 (testy). <!-- g:401911520 -->
 - 2026-11-15: Social recap posted (L 56-75 vs UC Davis Aggies): https://hardwoodbricks.com/mw/games/401911520.html <!-- post:401911520:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920349.html <!-- post:401920349:preview -->

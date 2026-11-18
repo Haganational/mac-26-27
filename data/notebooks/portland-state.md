@@ -66,7 +66,7 @@ _Portland State (Big Sky). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ _Portland State (Big Sky). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-15: Social recap posted (W 84-68 vs San Francisco Dons): https://hardwoodbricks.com/wcc/games/401921063.html <!-- post:401921063:recap -->
 - 2026-11-17: L 78-94 at Saint Mary's Gaels. Barometer 42 (testy). <!-- g:401917532 -->
 - 2026-11-17: Social recap posted (L 78-94 vs Saint Mary's Gaels): https://hardwoodbricks.com/wcc/games/401917532.html <!-- post:401917532:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925916.html <!-- post:401925916:preview -->
