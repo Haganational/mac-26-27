@@ -108,6 +108,15 @@ def parse_event(event: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def keep_ticket_since(games: dict[str, dict[str, Any]], before: dict[str, dict[str, Any]], now: datetime) -> None:
+    """Stamp each ticket listing with when we first saw it, kept across refreshes (the offer's validFrom)."""
+    stamp = now.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for gid, g in games.items():
+        if g.get("tickets"):
+            old = (before.get(gid) or {}).get("tickets") or {}
+            g["tickets"]["since"] = old.get("since") or stamp
+
+
 def refresh_schedule() -> dict[str, Any]:
     """Fetch every MAC team's schedule, dedupe by game id, write data/schedule.json."""
     games: dict[str, dict[str, Any]] = {}
@@ -116,9 +125,15 @@ def refresh_schedule() -> dict[str, Any]:
         for event in payload.get("events", []):
             parsed = parse_event(event)
             games[parsed["game_id"]] = parsed
+    now = datetime.now(timezone.utc)
+    try:
+        before = {g["game_id"]: g for g in json.loads(SCHEDULE_PATH.read_text()).get("games", [])}
+    except (OSError, ValueError):
+        before = {}
+    keep_ticket_since(games, before, now)
     ordered = sorted(games.values(), key=lambda g: g["date"])
     out = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "fetched_at": now.isoformat(timespec="seconds"),
         "season": SEASON,
         "games": ordered,
     }

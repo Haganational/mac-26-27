@@ -55,3 +55,13 @@ def test_parse_tickets_takes_event_link_and_low_price():
     ev["competitions"][0]["ticketsAvailable"] = False
     assert espn.parse_event(ev)["tickets"] is None
     assert espn.parse_event(_event("pre"))["tickets"] is None
+
+
+def test_ticket_since_kept_across_refreshes():
+    now = datetime(2026, 11, 14, 12, 0, tzinfo=timezone.utc)
+    games = {"1": {"tickets": {"url": "https://tix.example/e", "low": 14.0}}, "2": {"tickets": {"url": "https://tix.example/f", "low": None}}, "3": {"tickets": None}}
+    before = {"1": {"tickets": {"url": "https://tix.example/e", "since": "2026-11-12T23:00:00Z"}}}
+    espn.keep_ticket_since(games, before, now)
+    assert games["1"]["tickets"]["since"] == "2026-11-12T23:00:00Z"
+    assert games["2"]["tickets"]["since"] == "2026-11-14T12:00:00Z"
+    assert games["3"]["tickets"] is None

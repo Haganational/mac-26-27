@@ -439,6 +439,8 @@ def _team_ld(side: dict[str, Any]) -> dict[str, Any]:
     t = {"@type": "SportsTeam", "name": side["name"], "sport": "Basketball"}
     if side.get("key"):
         t["url"] = f"{SITE_URL}teams/{side['key']}.html"
+    elif side.get("espn_id"):  # a team outside the conference: its ESPN team page, so Google's organizer has a url
+        t["url"] = f"https://www.espn.com/mens-college-basketball/team/_/id/{side['espn_id']}"
     return t
 
 
@@ -510,5 +512,7 @@ def json_ld(c: dict[str, Any], gm: dict[str, Any], published: str, modified: str
         offer = {"@type": "Offer", "url": tix["url"], "availability": "https://schema.org/InStock", "priceCurrency": "USD"}
         if tix.get("low"):
             offer["price"] = f"{tix['low']:.2f}"
+        if tix.get("since"):  # when we first saw tickets listed, the closest we know to their on-sale time
+            offer["validFrom"] = tix["since"]
         event["offers"] = offer
     return {"@context": "https://schema.org", "@graph": [article, event]}

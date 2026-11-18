@@ -189,3 +189,14 @@ def test_around_town_rotates_by_day_and_drops_stale_news():
     assert any(n["host"] == "example.edu" for n in a["notes"] if n["source"])
     assert gamer.around_town("nobody", fl, "2026-11-13") is None
     assert all(n["kind"] != "arena" for n in gamer.around_town("t", fl, "2026-11-13", n=20, home=False)["notes"])
+
+
+def test_offer_valid_from_and_outside_organizer_url():
+    c = ctx()
+    c["g"]["tickets"] = {"url": "https://tix.example/event", "low": 14.0, "since": "2026-11-12T23:00:00Z"}
+    c["g"]["completed"] = False
+    c["home"] = {**c["home"], "key": None}
+    gm = gamer.write(ctx(), None, FLAVOR)
+    ev = gamer.json_ld(c, gm, "2026-11-04T01:05:00Z", "2026-11-04T02:00:00Z", "Hardwood Bricks", "https://hardwoodbricks.com/")["@graph"][1]
+    assert ev["offers"]["validFrom"] == "2026-11-12T23:00:00Z"
+    assert ev["organizer"]["url"] == "https://www.espn.com/mens-college-basketball/team/_/id/2006"
