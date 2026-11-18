@@ -1849,7 +1849,7 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1857,13 +1857,13 @@
     "key": "tennessee-state",
     "name": "Tennessee State Tigers",
     "abbr": "TNST",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:33 - 1st"
   },
   {
    "game_id": "401921826",
@@ -8237,5 +8237,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:15:00+00:00"
 }

@@ -1784,7 +1784,7 @@
     "key": "central-connecticut",
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -1792,13 +1792,13 @@
     "key": null,
     "name": "Vermont State Lyndon Hornets",
     "abbr": "VTSL",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:28 - 1st"
   },
   {
    "game_id": "401920194",
@@ -1828,7 +1828,7 @@
     "key": null,
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1836,13 +1836,13 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:03 - 1st"
   },
   {
    "game_id": "401919783",
@@ -8274,5 +8274,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:16:44+00:00"
 }

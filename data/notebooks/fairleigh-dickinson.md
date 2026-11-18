@@ -1,6 +1,6 @@
 # Alina Petrova, The Teaneck Mercury
 
-_Fairleigh Dickinson (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-17._
+_Fairleigh Dickinson (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-18._
 
 ## Who they are
 

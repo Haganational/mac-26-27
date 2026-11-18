@@ -1,6 +1,6 @@
 # Brianna Coleman, The Jackson Almanac
 
-_Jackson State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-17._
+_Jackson State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-18._
 
 ## Who they are
 

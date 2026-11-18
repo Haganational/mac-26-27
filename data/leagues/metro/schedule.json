@@ -2341,7 +2341,7 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 34,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2349,13 +2349,13 @@
     "key": "marist",
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 30,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:17 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401923325",
@@ -2396,10 +2396,10 @@
     "score": 26,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:22 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911198",
@@ -2429,7 +2429,7 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2437,13 +2437,13 @@
     "key": null,
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:28 - 1st"
   },
   {
    "game_id": "401920921",
@@ -2517,7 +2517,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2525,13 +2525,13 @@
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:42 - 1st"
   },
   {
    "game_id": "401909535",
@@ -2561,7 +2561,7 @@
     "key": null,
     "name": "Providence Friars",
     "abbr": "PROV",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2569,13 +2569,13 @@
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:03 - 1st"
   },
   {
    "game_id": "401924763",
@@ -11161,5 +11161,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T23:47:48+00:00"
+ "live_at": "2026-11-18T00:03:40+00:00"
 }

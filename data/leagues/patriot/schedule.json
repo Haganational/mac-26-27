@@ -1899,7 +1899,7 @@
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 41,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1907,13 +1907,13 @@
     "key": null,
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 35,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "17:08 - 2nd"
   },
   {
    "game_id": "401924941",
@@ -1937,7 +1937,7 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1945,13 +1945,13 @@
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:56 - 1st"
   },
   {
    "game_id": "401920921",
@@ -1981,7 +1981,7 @@
     "key": null,
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -1989,13 +1989,13 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:11 - 1st"
   },
   {
    "game_id": "401909516",
@@ -9201,5 +9201,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-17T23:57:24+00:00"
+ "live_at": "2026-11-18T00:16:08+00:00"
 }

@@ -2427,7 +2427,7 @@
     "key": "davidson",
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2435,13 +2435,13 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:42 - 1st"
   },
   {
    "game_id": "401911019",
@@ -2520,7 +2520,7 @@
     "key": null,
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2528,13 +2528,13 @@
     "key": "fordham",
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:12 - 1st"
   },
   {
    "game_id": "401920194",
@@ -2564,7 +2564,7 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2572,13 +2572,13 @@
     "key": null,
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:44 - 1st"
   },
   {
    "game_id": "401925782",
@@ -12626,5 +12626,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:05:49+00:00"
 }

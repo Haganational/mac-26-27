@@ -2595,7 +2595,7 @@
     "key": "marshall",
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2603,13 +2603,13 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:02 - 1st"
   },
   {
    "game_id": "401930568",
@@ -2639,7 +2639,7 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2647,13 +2647,13 @@
     "key": null,
     "name": "Spring Hill Badgers",
     "abbr": "SPRH",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:43 - 1st"
   },
   {
    "game_id": "401920297",
@@ -2683,7 +2683,7 @@
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2691,13 +2691,13 @@
     "key": null,
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:53 - 1st"
   },
   {
    "game_id": "401926781",
@@ -12406,5 +12406,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:08:38+00:00"
 }

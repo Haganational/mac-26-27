@@ -1849,7 +1849,7 @@
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -1857,13 +1857,13 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:09 - 1st"
   },
   {
    "game_id": "401917533",
@@ -9801,5 +9801,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:04:29+00:00"
 }

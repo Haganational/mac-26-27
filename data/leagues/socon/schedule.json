@@ -2033,7 +2033,7 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2041,13 +2041,13 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:34 - 1st"
   },
   {
    "game_id": "401902279",
@@ -2077,7 +2077,7 @@
     "key": null,
     "name": "Butler Bulldogs",
     "abbr": "BTLR",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2085,13 +2085,13 @@
     "key": "western-carolina",
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:13 - 1st"
   },
   {
    "game_id": "401920974",
@@ -9802,5 +9802,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:11:26+00:00"
 }

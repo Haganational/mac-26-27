@@ -2162,7 +2162,7 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2170,13 +2170,13 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:46 - 1st"
   },
   {
    "game_id": "401918994",
@@ -2206,7 +2206,7 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": null,
     "name": "Tennessee State Tigers",
     "abbr": "TNST",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:12 - 1st"
   },
   {
    "game_id": "401919018",
@@ -11844,5 +11844,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T00:07:53+00:00"
 }
