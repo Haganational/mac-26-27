@@ -21,7 +21,7 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 
 ## Barometer
 
-**54 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Brody editorializes: 62% of stories right now.
 
@@ -67,7 +67,7 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 - 2026-11-15: W 77-52 vs Cal Poly Mustangs. Barometer 54 (steady). <!-- g:401920124 -->
 - 2026-11-16: Social recap posted (W 77-52 vs Cal Poly Mustangs): https://hardwoodbricks.com/bigwest/games/401920124.html <!-- post:401920124:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:preview -->
+- 2026-11-18: L 62-74 at Gonzaga Bulldogs. Barometer 46 (steady). <!-- g:401925879 -->
+- 2026-11-18: Social recap posted (L 62-74 vs Gonzaga Bulldogs): https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:recap -->

@@ -21,9 +21,9 @@ _Gonzaga (Pac-12). Anchors are fictional AI personas, not affiliated with any sc
 
 ## Barometer
 
-**57 of 100, steady.** Record 2-1 (0-0 in conference), streak L1, last five WWL.
+**63 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Stan editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Stan editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _Gonzaga (Pac-12). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -73,3 +73,5 @@ _Gonzaga (Pac-12). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/pac12/games/401921689.html <!-- post:401921689:preview -->
 - 2026-11-14: Social recap posted (L 80-81 vs LSU Tigers): https://hardwoodbricks.com/pac12/games/401921689.html <!-- post:401921689:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:preview -->
+- 2026-11-18: W 74-62 vs Montana State Bobcats. Barometer 63 (steady). <!-- g:401925879 -->
+- 2026-11-18: Social recap posted (W 74-62 vs Montana State Bobcats): https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:recap -->
