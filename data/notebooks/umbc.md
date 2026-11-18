@@ -60,7 +60,7 @@ _UMBC (America East). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -72,3 +72,4 @@ _UMBC (America East). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/metro/games/401921087.html <!-- post:401921087:preview -->
 - 2026-11-16: W 75-67 vs Iona Gaels. Barometer 53 (steady). <!-- g:401921087 -->
 - 2026-11-17: Social recap posted (W 75-67 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401921087.html <!-- post:401921087:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/americaeast/games/401916318.html <!-- post:401916318:preview -->

@@ -60,7 +60,7 @@ _Quinnipiac (Metro). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -73,3 +73,4 @@ _Quinnipiac (Metro). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/metro/games/401924858.html <!-- post:401924858:preview -->
 - 2026-11-15: L 67-72 at Central Connecticut Blue Devils. Barometer 43 (testy). <!-- g:401924858 -->
 - 2026-11-15: Social recap posted (L 67-72 vs Central Connecticut Blue Devils): https://hardwoodbricks.com/metro/games/401924858.html <!-- post:401924858:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/metro/games/401923304.html <!-- post:401923304:preview -->

@@ -65,7 +65,7 @@ _Northern Kentucky (Horizon). Anchors are fictional AI personas, not affiliated 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -76,3 +76,4 @@ _Northern Kentucky (Horizon). Anchors are fictional AI personas, not affiliated 
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/games/401911016.html <!-- post:401911016:preview -->
 - 2026-11-14: L 57-68 vs Central Michigan Chippewas. Barometer 33 (testy). <!-- g:401911016 -->
 - 2026-11-14: Social recap posted (L 57-68 vs Central Michigan Chippewas): https://hardwoodbricks.com/games/401911016.html <!-- post:401911016:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/horizon/games/401928812.html <!-- post:401928812:preview -->

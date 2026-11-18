@@ -56,7 +56,7 @@ _Grambling (SWAC). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -65,3 +65,4 @@ _Grambling (SWAC). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/swac/games/401921804.html <!-- post:401921804:preview -->
 - 2026-11-17: L 59-88 at Kentucky Wildcats. Barometer 36 (testy). <!-- g:401921804 -->
 - 2026-11-17: Social recap posted (L 59-88 vs Kentucky Wildcats): https://hardwoodbricks.com/swac/games/401921804.html <!-- post:401921804:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:preview -->

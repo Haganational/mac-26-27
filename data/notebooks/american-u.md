@@ -62,7 +62,7 @@ _American (Patriot). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -72,3 +72,4 @@ _American (Patriot). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-15: W 70-64 vs Harvard Crimson. Barometer 52 (steady). <!-- g:401912210 -->
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ivy/games/401912210.html <!-- post:401912210:preview -->
 - 2026-11-15: Social recap posted (W 70-64 vs Harvard Crimson): https://hardwoodbricks.com/ivy/games/401912210.html <!-- post:401912210:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:preview -->

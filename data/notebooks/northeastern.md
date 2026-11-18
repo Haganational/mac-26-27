@@ -62,7 +62,7 @@ _Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -70,3 +70,4 @@ _Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-06: L 72-97 at Virginia Cavaliers. Barometer 31 (testy). <!-- g:401920423 -->
 - 2026-11-11: W 74-70 vs Harvard Crimson. Barometer 44 (testy). <!-- g:401920356 -->
 - 2026-11-14: W 84-73 vs Yale Bulldogs. Barometer 53 (steady). <!-- g:401920747 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:preview -->

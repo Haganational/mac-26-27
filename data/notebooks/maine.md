@@ -60,7 +60,7 @@ _Maine (America East). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -69,3 +69,4 @@ _Maine (America East). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-08: L 62-68 vs Manhattan Jaspers. Barometer 41 (testy). <!-- g:401921684 -->
 - 2026-11-11: L 65-71 at Rhode Island Rams. Barometer 37 (testy). <!-- g:401920063 -->
 - 2026-11-14: L 64-66 vs Drexel Dragons. Barometer 31 (testy). <!-- g:401923303 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/metro/games/401923304.html <!-- post:401923304:preview -->

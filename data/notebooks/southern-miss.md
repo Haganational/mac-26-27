@@ -64,7 +64,7 @@ _Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -75,3 +75,4 @@ _Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:preview -->
 - 2026-11-18: L 72-83 vs UT Arlington Mavericks. Barometer 39 (testy). <!-- g:401929358 -->
 - 2026-11-18: Social recap posted (L 72-83 vs UT Arlington Mavericks): https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:preview -->

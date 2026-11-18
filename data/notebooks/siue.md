@@ -62,7 +62,7 @@ _SIUE (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _SIUE (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:preview -->
 - 2026-11-18: L 78-83 at North Dakota Fighting Hawks. Barometer 29 (despondent). <!-- g:401926143 -->
 - 2026-11-18: Social recap posted (L 78-83 vs North Dakota Fighting Hawks): https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:preview -->

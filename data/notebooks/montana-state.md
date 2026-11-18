@@ -67,7 +67,7 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ _Montana State (Big Sky). Anchors are fictional AI personas, not affiliated with
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:preview -->
 - 2026-11-18: L 62-74 at Gonzaga Bulldogs. Barometer 46 (steady). <!-- g:401925879 -->
 - 2026-11-18: Social recap posted (L 62-74 vs Gonzaga Bulldogs): https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:preview -->

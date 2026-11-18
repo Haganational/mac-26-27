@@ -63,7 +63,7 @@ _High Point (Big South). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _High Point (Big South). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/a10/games/401911251.html <!-- post:401911251:preview -->
 - 2026-11-15: W 68-58 at Saint Louis Billikens. Barometer 85 (giddy). <!-- g:401911251 -->
 - 2026-11-15: Social recap posted (W 68-58 vs Saint Louis Billikens): https://hardwoodbricks.com/a10/games/401911251.html <!-- post:401911251:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:preview -->
