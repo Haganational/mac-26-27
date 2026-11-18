@@ -1,12 +1,30 @@
 {
- "stage": "all",
+ "stage": "done",
  "run": 1,
  "main_title_contains": "Study Hall: Tonight's 10 PM Class",
  "release": "study-hall-pilot-promos",
- "city_tags": ["#StudyHall"],
- "specific_tags": ["#UCIrvine", "#UNLV", "#Gonzaga"],
+ "city_tags": [
+  "#StudyHall"
+ ],
+ "specific_tags": [
+  "#UCIrvine",
+  "#UNLV",
+  "#Gonzaga"
+ ],
  "disclosure": "Tiffany Park and Mateo Sandoval are fictional AI anchors. The host is real.",
- "yt_tags": ["Study Hall", "mid-majors", "college basketball", "UC Irvine", "Stanford", "UNLV", "Kansas", "Montana State", "Gonzaga", "picks", "Hardwood Bricks"],
+ "yt_tags": [
+  "Study Hall",
+  "mid-majors",
+  "college basketball",
+  "UC Irvine",
+  "Stanford",
+  "UNLV",
+  "Kansas",
+  "Montana State",
+  "Gonzaga",
+  "picks",
+  "Hardwood Bricks"
+ ],
  "film": {
   "file": "study-hall-pilot-show.mp4",
   "thumb": "study-hall-pilot-thumbnail.jpg",
@@ -27,5 +45,6 @@
    "text": "Mateo Sandoval has no lines tonight. He does not need them. From the first Study Hall, brought to you by juiceboxnation.com."
   }
  ],
- "rethumb": false
+ "rethumb": false,
+ "main_url": "https://youtu.be/EtOMCtOBZeQ"
 }
