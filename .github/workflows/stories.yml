@@ -3,6 +3,7 @@ name: Stories
 # Facebook Page + Instagram Stories from the library (mac/stories.py). Runs hourly: each run pushes
 # at most one brand-new item and fills the 7 AM / 11 AM / 4 PM / 9 PM Eastern slot when it is due.
 # Run it by hand with "now" to post one pick to Facebook and Instagram right away.
+# GitHub's cron is unreliable here, so heartbeat.yml also starts this at the top of every hour.
 on:
   schedule:
     - cron: "4 * * * *"
