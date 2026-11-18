@@ -2422,7 +2422,7 @@
     "key": null,
     "name": "Baylor Bears",
     "abbr": "BAY",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2430,13 +2430,13 @@
     "key": "jackson-state",
     "name": "Jackson State Tigers",
     "abbr": "JKST",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:28 - 1st"
   },
   {
    "game_id": "401928398",
@@ -10806,5 +10806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T04:47:17+00:00"
+ "live_at": "2026-11-18T17:14:39+00:00"
 }
