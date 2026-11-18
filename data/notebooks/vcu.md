@@ -62,10 +62,11 @@ _VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
 - 2026-11-03: W 82-72 vs Little Rock Trojans. Barometer 61 (steady). <!-- g:401920201 -->
 - 2026-11-07: L 88-89 at Memphis Tigers. Barometer 50 (steady). <!-- g:401918986 -->
 - 2026-11-12: W 87-49 vs NJIT Highlanders. Barometer 60 (steady). <!-- g:401920202 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:preview -->

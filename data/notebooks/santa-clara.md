@@ -61,7 +61,7 @@ _Santa Clara (WCC). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -72,3 +72,4 @@ _Santa Clara (WCC). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/mw/games/401917530.html <!-- post:401917530:preview -->
 - 2026-11-15: W 90-85 vs New Mexico Lobos. Barometer 83 (giddy). <!-- g:401917530 -->
 - 2026-11-15: Social recap posted (W 90-85 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401917530.html <!-- post:401917530:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:preview -->
