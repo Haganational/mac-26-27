@@ -63,7 +63,7 @@ _UCSB (Big West). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _UCSB (Big West). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/bigwest/games/401928353.html <!-- post:401928353:preview -->
 - 2026-11-15: W 97-47 vs UC Merced Bobcats. Barometer 83 (giddy). <!-- g:401928353 -->
 - 2026-11-15: Social recap posted (W 97-47 vs UC Merced Bobcats): https://hardwoodbricks.com/bigwest/games/401928353.html <!-- post:401928353:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:preview -->

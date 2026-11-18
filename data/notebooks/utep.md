@@ -65,7 +65,7 @@ _UTEP (Mountain West). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,4 @@ _UTEP (Mountain West). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/mw/games/401929419.html <!-- post:401929419:preview -->
 - 2026-11-16: W 79-46 vs Florida A&M Rattlers. Barometer 70 (buoyant). <!-- g:401929419 -->
 - 2026-11-16: Social recap posted (W 79-46 vs Florida A&M Rattlers): https://hardwoodbricks.com/mw/games/401929419.html <!-- post:401929419:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->

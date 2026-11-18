@@ -66,7 +66,7 @@ _Utah Tech (Big Sky). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -74,3 +74,4 @@ _Utah Tech (Big Sky). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-05: W 103-52 vs Grace (CA) Talons. Barometer 52 (steady). <!-- g:401925939 -->
 - 2026-11-11: L 86-118 at Utah State Aggies. Barometer 41 (testy). <!-- g:401925940 -->
 - 2026-11-14: L 73-79 at California Golden Bears. Barometer 37 (testy). <!-- g:401918055 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925941.html <!-- post:401925941:preview -->

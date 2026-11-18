@@ -65,7 +65,7 @@ _Pepperdine (WCC). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -74,3 +74,4 @@ _Pepperdine (WCC). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-08: W 116-43 vs Bethesda Flames. Barometer 64 (steady). <!-- g:401931195 -->
 - 2026-11-12: L 77-85 at Sam Houston Bearkats. Barometer 53 (steady). <!-- g:401928794 -->
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/wcc/games/401926073.html <!-- post:401926073:preview -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:preview -->

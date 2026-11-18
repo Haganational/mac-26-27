@@ -64,7 +64,7 @@ _New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,4 @@ _New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/pac12/games/401928789.html <!-- post:401928789:preview -->
 - 2026-11-15: L 61-73 vs (neutral) San Diego State Aztecs. Barometer 32 (testy). <!-- g:401928789 -->
 - 2026-11-15: Social recap posted (L 61-73 vs San Diego State Aztecs): https://hardwoodbricks.com/pac12/games/401928789.html <!-- post:401928789:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->

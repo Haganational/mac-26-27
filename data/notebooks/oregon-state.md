@@ -66,7 +66,7 @@ _Oregon St (Pac-12). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ _Oregon St (Pac-12). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/pac12/games/401929192.html <!-- post:401929192:preview -->
 - 2026-11-17: W 109-71 vs East Texas A&M Lions. Barometer 87 (giddy). <!-- g:401929192 -->
 - 2026-11-17: Social recap posted (W 109-71 vs East Texas A&M Lions): https://hardwoodbricks.com/pac12/games/401929192.html <!-- post:401929192:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/pac12/games/401930884.html <!-- post:401930884:preview -->
