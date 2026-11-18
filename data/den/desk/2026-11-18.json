@@ -2,29 +2,29 @@
  "date": "2026-11-18",
  "desk": {
   "anchor": {
-   "alt": "Nadia Haddad, the Detroit Mercy AI anchor",
-   "color": "#A5093E",
-   "color2": "#002D72",
-   "initials": "NH",
+   "alt": "Libby Hartwell, the Cornell AI anchor",
+   "color": "#B31B1B",
+   "color2": "#FFFFFF",
+   "initials": "LH",
    "ink": "#ffffff",
-   "key": "detroit-mercy",
-   "name": "Nadia Haddad",
-   "portrait": "den/anchors/detroit-mercy.webp",
-   "school": "Detroit Mercy",
+   "key": "cornell",
+   "name": "Libby Hartwell",
+   "portrait": "den/anchors/cornell.webp",
+   "school": "Cornell",
    "tag": "AI anchor"
   },
-  "max": 170,
+  "max": 204,
   "picks": [
    {
-    "abbr": "DETM",
-    "game_id": "401920947",
+    "abbr": "COR",
+    "game_id": "401924721",
     "kind": "homer",
-    "short": "Detroit Mercy",
+    "short": "Cornell",
     "side": "away",
-    "team_id": "2174",
-    "tip": "2026-11-18T23:30Z",
+    "team_id": "172",
+    "tip": "2026-11-19T01:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 83
+    "worth": 94
    },
    {
     "abbr": "CHSO",
@@ -45,19 +45,19 @@
     "side": "home",
     "team_id": "2325",
     "tip": "2026-11-19T00:00Z",
-    "why": "Our ratings 64%, pregame win chance 90%.",
+    "why": "Our ratings 62%, pregame win chance 90%.",
     "worth": 10
    },
    {
-    "abbr": "SAM",
-    "game_id": "401922283",
+    "abbr": "HAW",
+    "game_id": "401929004",
     "kind": "ratings",
-    "short": "Samford",
-    "side": "away",
-    "team_id": "2535",
-    "tip": "2026-11-18T23:30Z",
-    "why": "Our ratings 53%, pregame win chance 74%.",
-    "worth": 26
+    "short": "Hawai'i",
+    "side": "home",
+    "team_id": "62",
+    "tip": "2026-11-19T03:00Z",
+    "why": "Our ratings 74%, pregame win chance 51%.",
+    "worth": 49
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -385,7 +385,7 @@
    "team_id": "261",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 74
+   "worth": 75
   },
   {
    "abbr": "OHIO",
@@ -397,7 +397,7 @@
    "team_id": "195",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 10
+   "worth": 9
   },
   {
    "abbr": "MORE",
@@ -409,7 +409,7 @@
    "team_id": "2413",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 90
+   "worth": 91
   },
   {
    "abbr": "ELON",
@@ -433,7 +433,7 @@
    "team_id": "2448",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 26
+   "worth": 25
   },
   {
    "abbr": "MORG",
@@ -493,7 +493,7 @@
    "team_id": "231",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 38
+   "worth": 37
   },
   {
    "abbr": "FGCU",
@@ -673,7 +673,7 @@
    "team_id": "108",
    "tip": "2026-11-19T01:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 61
   },
   {
    "abbr": "LUC",
@@ -877,7 +877,7 @@
    "team_id": "2501",
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
-   "worth": 90
+   "worth": 89
   },
   {
    "abbr": "SJSU",
@@ -949,7 +949,7 @@
    "team_id": "2692",
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
-   "worth": 98
+   "worth": 99
   },
   {
    "abbr": "CSU",
@@ -1024,6 +1024,18 @@
    "worth": 93
   },
   {
+   "abbr": "UNLV",
+   "game_id": "401920516",
+   "key": "unlv",
+   "kind": "homer",
+   "short": "UNLV",
+   "side": "away",
+   "team_id": "2439",
+   "tip": "2026-11-19T03:00Z",
+   "why": "Homer pick.",
+   "worth": 78
+  },
+  {
    "abbr": "SF",
    "game_id": "401921064",
    "key": "san-francisco",
@@ -1033,7 +1045,7 @@
    "team_id": "2539",
    "tip": "2026-11-19T03:00Z",
    "why": "Homer pick.",
-   "worth": 17
+   "worth": 18
   },
   {
    "abbr": "UL",
@@ -1105,7 +1117,7 @@
    "team_id": "2239",
    "tip": "2026-11-19T03:30Z",
    "why": "Homer pick.",
-   "worth": 99
+   "worth": 93
   }
  ]
 }

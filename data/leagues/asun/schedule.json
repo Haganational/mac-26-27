@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T23:01:52+00:00",
+ "fetched_at": "2026-11-18T23:02:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -1576,10 +1576,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-west-lafayette-mackey-arena-11-17-2026/production/7094384?wsUser=717",
-    "low": 7.0
-   },
+   "tickets": null,
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
    "venue_state": "IN",
@@ -1661,10 +1658,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-11-17-2026--sports-basketball/production/7367645?wsUser=717",
-    "low": 32.0
-   },
+   "tickets": null,
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
    "venue_state": "FL",
@@ -1705,10 +1699,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/illinois-state-redbirds-mens-basketball-tickets-cefcu-arena-11-17-2026--sports-ncaa-basketball/production/7683434?wsUser=717",
-    "low": 24.0
-   },
+   "tickets": null,
    "venue": "CEFCU Arena",
    "venue_city": "Normal",
    "venue_state": "IL",
@@ -1751,7 +1742,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-18-2026--sports-ncaa-basketball/production/7612559?wsUser=717",
-    "low": 16.0
+    "low": 16.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
@@ -1836,7 +1828,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-11-19-2026--sports-ncaa-basketball/production/7503567?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "KFC Yum! Center",
    "venue_city": "Louisville",
@@ -1880,7 +1873,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-20-2026--sports-ncaa-basketball/production/7662703?wsUser=717",
-    "low": 11.0
+    "low": 9.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
@@ -1939,6 +1933,51 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921811",
+   "date": "2026-11-21T18:00Z",
+   "name": "Queens University Royals at LSU Tigers",
+   "short_name": "QUC @ LSU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SECN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
+    "low": 6.0,
+    "since": "2026-11-18T23:02:30Z"
+   },
+   "venue": "Pete Maravich Assembly Center",
+   "venue_city": "Baton Rouge",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "99",
+    "key": null,
+    "name": "LSU Tigers",
+    "abbr": "LSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2511",
+    "key": "queens",
+    "name": "Queens University Royals",
+    "abbr": "QUC",
     "score": null,
     "winner": null
    },
@@ -2030,50 +2069,6 @@
    "detail": ""
   },
   {
-   "game_id": "401921811",
-   "date": "2026-11-22T01:00Z",
-   "name": "Queens University Royals at LSU Tigers",
-   "short_name": "QUC @ LSU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "SECN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 6.0
-   },
-   "venue": "Pete Maravich Assembly Center",
-   "venue_city": "Baton Rouge",
-   "venue_state": "LA",
-   "home": {
-    "espn_id": "99",
-    "key": null,
-    "name": "LSU Tigers",
-    "abbr": "LSU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2511",
-    "key": "queens",
-    "name": "Queens University Royals",
-    "abbr": "QUC",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401922252",
    "date": "2026-11-22T20:00Z",
    "name": "West Florida Argonauts at South Alabama Jaguars",
@@ -2091,7 +2086,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-22-2026--sports-ncaa-basketball/production/7743179?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
@@ -2135,7 +2131,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-11-22-2026--sports-ncaa-basketball/production/7804425?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -2173,7 +2170,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679884?wsUser=717",
-    "low": 65.0
+    "low": 65.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
@@ -2293,7 +2291,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wofford-college-terriers-mens-basketball-tickets-jerry-richardson-indoor-stadium-11-24-2026--sports-ncaa-basketball/production/7595584?wsUser=717",
-    "low": 32.0
+    "low": 32.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Jerry Richardson Indoor Stadium",
    "venue_city": "Spartanburg",
@@ -2337,7 +2336,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
    "venue_city": "Bloomington",
@@ -2381,7 +2381,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 9.0
+    "low": 9.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -2425,7 +2426,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 30.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
    "venue_city": "Auburn",
@@ -2504,7 +2506,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679902?wsUser=717",
-    "low": 65.0
+    "low": 65.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
@@ -2594,7 +2597,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
@@ -2638,7 +2642,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-11-27-2026--sports-ncaa-basketball/production/7119705?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Hinkle Fieldhouse",
    "venue_city": "Indianapolis",
@@ -2682,7 +2687,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/columbia-lions-mens-basketball-tickets-levien-gymnasium-11-28-2026--sports-ncaa-basketball/production/7490016?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Levien Gymnasium",
    "venue_city": "New York",
@@ -2802,7 +2808,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-pensacola-bay-center-11-29-2026/production/7479262?wsUser=717",
-    "low": 17.0
+    "low": 17.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2846,7 +2853,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-29-2026--sports-ncaa-basketball/production/7589488?wsUser=717",
-    "low": 39.0
+    "low": 36.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Fertitta Center",
    "venue_city": "Houston",
@@ -2931,7 +2939,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-29-2026--sports-ncaa-basketball/production/7534729?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
@@ -2975,7 +2984,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-1-2026--sports-ncaa-basketball/production/7483122?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Addition Financial Arena",
    "venue_city": "Orlando",
@@ -3019,7 +3029,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-12-2-2026--sports-ncaa-basketball/production/7596499?wsUser=717",
-    "low": 29.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -3104,7 +3115,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-12-2-2026--sports-ncaa-basketball/production/7413175?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -3148,7 +3160,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/morehead-state-eagles-mens-basketball-tickets-ellis-t-johnson-arena-12-2-2026--sports-ncaa-basketball/production/7606326?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Ellis T. Johnson Arena",
    "venue_city": "Morehead",
@@ -3192,7 +3205,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-2-2026--sports-ncaa-basketball/production/7804429?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -3277,7 +3291,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/gardner-webb-bulldogs-mens-basketball-tickets-paul-porter-arena-12-5-2026--sports-ncaa-basketball/production/7341840?wsUser=717",
-    "low": 48.0
+    "low": 48.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Paul Porter Arena",
    "venue_city": "Boiling Springs",
@@ -3304,44 +3319,6 @@
    "detail": ""
   },
   {
-   "game_id": "401922255",
-   "date": "2026-12-05T18:00Z",
-   "name": "Pensacola Christian PENSACOLA CHRISTIAN at West Florida Argonauts",
-   "short_name": "PCC @ UWF",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-5-2026--sports-basketball/production/7367647?wsUser=717",
-    "low": 32.0
-   },
-   "venue": "UWF Field House",
-   "venue_city": "Pensacola",
-   "venue_state": "FL",
-   "home": {
-    "espn_id": "2697",
-    "key": "west-florida",
-    "name": "West Florida Argonauts",
-    "abbr": "UWF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "3173",
-    "key": null,
-    "name": "Pensacola Christian PENSACOLA CHRISTIAN",
-    "abbr": "PCC",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401921109",
    "date": "2026-12-05T19:00Z",
    "name": "Eastern Illinois Panthers at Bellarmine Knights",
@@ -3359,7 +3336,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-12-5-2026--sports-ncaa-basketball/production/7710576?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -3427,6 +3405,51 @@
    "detail": ""
   },
   {
+   "game_id": "401922255",
+   "date": "2026-12-05T19:00Z",
+   "name": "Pensacola Christian PENSACOLA CHRISTIAN at West Florida Argonauts",
+   "short_name": "PCC @ UWF",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-5-2026--sports-basketball/production/7367647?wsUser=717",
+    "low": 32.0,
+    "since": "2026-11-18T23:02:30Z"
+   },
+   "venue": "UWF Field House",
+   "venue_city": "Pensacola",
+   "venue_state": "FL",
+   "home": {
+    "espn_id": "2697",
+    "key": "west-florida",
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3173",
+    "key": null,
+    "name": "Pensacola Christian PENSACOLA CHRISTIAN",
+    "abbr": "PCC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401920881",
    "date": "2026-12-05T20:00Z",
    "name": "Florida International Panthers at Jacksonville Dolphins",
@@ -3485,7 +3508,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-5-2026--sports-ncaa-basketball/production/7804433?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -3529,7 +3553,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-12-5-2026--sports-ncaa-basketball/production/7339385?wsUser=717",
-    "low": 11.0
+    "low": 11.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Watsco Center",
    "venue_city": "Coral Gables",
@@ -3614,7 +3639,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-7-2026--sports-ncaa-basketball/production/7519437?wsUser=717",
-    "low": 11.0
+    "low": 11.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Gersten Pavilion",
    "venue_city": "Los Angeles",
@@ -3652,7 +3678,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-8-2026--sports-ncaa-basketball/production/7575841?wsUser=717",
-    "low": 10.0
+    "low": 10.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Moby Arena",
    "venue_city": "Fort Collins",
@@ -3696,7 +3723,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-12-9-2026--sports-ncaa-basketball/production/7413177?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
@@ -3740,7 +3768,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/baylor-bears-mens-basketball-tickets-foster-pavilion-12-9-2026--sports-ncaa-basketball/production/7365187?wsUser=717",
-    "low": 9.0
+    "low": 9.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Foster Pavilion",
    "venue_city": "Waco",
@@ -3768,7 +3797,7 @@
   },
   {
    "game_id": "401921110",
-   "date": "2026-12-11T00:00Z",
+   "date": "2026-12-10T23:30Z",
    "name": "Spalding Pelicans at Bellarmine Knights",
    "short_name": "SPLD @ BELL",
    "season_type": "reg",
@@ -3784,7 +3813,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-12-10-2026--sports-ncaa-basketball/production/7710584?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -3904,7 +3934,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-13-2026--sports-ncaa-basketball/production/7603967?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -3939,10 +3970,17 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-13-2026--sports-basketball/production/7367653?wsUser=717",
-    "low": 47.0
+    "low": 47.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -3986,7 +4024,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-12-13-2026--sports-ncaa-basketball/production/7662711?wsUser=717",
-    "low": 11.0
+    "low": 11.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
@@ -4030,7 +4069,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-12-14-2026--sports-ncaa-basketball/production/7685648?wsUser=717",
-    "low": 27.0
+    "low": 27.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "William H. Pitt Center",
    "venue_city": "Fairfield",
@@ -4074,7 +4114,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-12-14-2026--sports-ncaa-basketball/production/7466796?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
@@ -4118,7 +4159,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-12-16-2026--sports-ncaa-basketball/production/7398138?wsUser=717",
-    "low": 14.0
+    "low": 13.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
@@ -4203,7 +4245,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-12-16-2026--sports-ncaa-basketball/production/7596630?wsUser=717",
-    "low": 29.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -4247,7 +4290,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wright-state-raiders-mens-basketball-tickets-nutter-center-12-16-2026--sports-ncaa-basketball/production/7676473?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Nutter Center",
    "venue_city": "Dayton",
@@ -4291,7 +4335,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-16-2026--sports-basketball/production/7367705?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -4335,7 +4380,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/western-kentucky-hilltoppers-mens-basketball-tickets-diddle-arena-12-16-2026--sports-ncaa-basketball/production/7555406?wsUser=717",
-    "low": 7.0
+    "low": 7.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "E.A. Diddle Arena",
    "venue_city": "Bowling Green",
@@ -4379,7 +4425,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-indiana-screaming-eagles-mens-basketball-tickets-liberty-arena---in-12-16-2026/production/7710412?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Liberty Arena (IN)",
    "venue_city": "Evansville",
@@ -4423,7 +4470,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-19-2026--sports-ncaa-basketball/production/7603969?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -4549,7 +4597,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-19-2026--sports-ncaa-basketball/production/7667548?wsUser=717",
-    "low": 19.0
+    "low": 20.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -4593,7 +4642,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-12-19-2026--sports-ncaa-basketball/production/7856657?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -4637,7 +4687,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-12-19-2026--sports-ncaa-basketball/production/7508077?wsUser=717",
-    "low": 19.0
+    "low": 19.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Galen Center",
    "venue_city": "Los Angeles",
@@ -4681,7 +4732,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-19-2026--sports-ncaa-basketball/production/7804439?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -4766,7 +4818,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-12-21-2026--sports-ncaa-basketball/production/7710586?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -4804,7 +4857,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-21-2026--sports-ncaa-basketball/production/7350037?wsUser=717",
-    "low": 10.0
+    "low": 12.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -4848,7 +4902,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-21-2026--sports-ncaa-basketball/production/7603973?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -4974,7 +5029,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-12-21-2026--sports-ncaa-basketball/production/7856665?wsUser=717",
-    "low": 27.0
+    "low": 27.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
    "venue_city": "Florence",
@@ -5018,7 +5074,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-21-2026--sports-ncaa-basketball/production/7667255?wsUser=717",
-    "low": 19.0
+    "low": 20.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
@@ -5062,7 +5119,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-12-28-2026--sports-ncaa-basketball/production/7603979?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -5188,7 +5246,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-12-28-2026--sports-ncaa-basketball/production/7863290?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
@@ -5232,7 +5291,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-29-2026--sports-ncaa-basketball/production/7402697?wsUser=717",
-    "low": 9.0
+    "low": 9.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Stegeman Coliseum",
    "venue_city": "Athens",
@@ -5317,7 +5377,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-12-31-2026--sports-ncaa-basketball/production/7710592?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -5484,7 +5545,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-31-2026--sports-ncaa-basketball/production/7804445?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -5569,7 +5631,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-31-2026--sports-basketball/production/7367709?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -5607,7 +5670,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-1-2-2027--sports-ncaa-basketball/production/7710635?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -5715,7 +5779,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-1-2-2027--sports-basketball/production/7367713?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -5753,7 +5818,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-2-2027--sports-ncaa-basketball/production/7804411?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -5791,7 +5857,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/tarleton-state-texans-mens-basketball-tickets-eecu-center-1-2-2027--sports-ncaa-basketball/production/7863296?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "EECU Center",
    "venue_city": "Stephenville",
@@ -5899,7 +5966,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-5-2027--sports-ncaa-basketball/production/7603983?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -5972,7 +6040,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-7-2027--sports-ncaa-basketball/production/7595610?wsUser=717",
-    "low": 40.0
+    "low": 40.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -6010,7 +6079,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-1-9-2027--sports-ncaa-basketball/production/7600923?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -6048,7 +6118,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-1-9-2027/production/7602340?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
@@ -6086,7 +6157,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-1-9-2027--sports-basketball/production/7367718?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -6124,7 +6196,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-9-2027--sports-ncaa-basketball/production/7595614?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -6197,7 +6270,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-1-14-2027--sports-ncaa-basketball/production/7444625?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -6235,7 +6309,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-1-14-2027--sports-ncaa-basketball/production/7595638?wsUser=717",
-    "low": 29.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -6273,7 +6348,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-14-2027--sports-ncaa-basketball/production/7603863?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -6311,7 +6387,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-1-16-2027--sports-ncaa-basketball/production/7444627?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -6349,7 +6426,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-1-16-2027--sports-basketball/production/7367728?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -6387,7 +6465,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-1-16-2027--sports-ncaa-basketball/production/7595644?wsUser=717",
-    "low": 37.0
+    "low": 37.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -6425,7 +6504,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-16-2027--sports-ncaa-basketball/production/7603877?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -6463,7 +6543,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-21-2027--sports-ncaa-basketball/production/7603985?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -6501,7 +6582,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-1-21-2027--sports-ncaa-basketball/production/7600925?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -6539,7 +6621,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-23-2027--sports-ncaa-basketball/production/7595618?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -6577,7 +6660,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-1-23-2027--sports-ncaa-basketball/production/7600927?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -6615,7 +6699,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-1-23-2027--sports-ncaa-basketball/production/7603997?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -6653,7 +6738,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-1-23-2027--sports-ncaa-basketball/production/7605556?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -6691,7 +6777,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-28-2027--sports-ncaa-basketball/production/7595620?wsUser=717",
-    "low": 40.0
+    "low": 40.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -6729,7 +6816,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-1-28-2027--sports-basketball/production/7367738?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -6767,7 +6855,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-1-28-2027--sports-ncaa-basketball/production/7595728?wsUser=717",
-    "low": 29.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -6805,7 +6894,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-1-28-2027/production/7602316?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
@@ -6843,7 +6933,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-1-30-2027--sports-basketball/production/7367743?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -6916,7 +7007,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-1-30-2027/production/7602324?wsUser=717",
-    "low": 47.0
+    "low": 47.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
@@ -6954,7 +7046,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-30-2027--sports-ncaa-basketball/production/7595622?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -7027,7 +7120,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-2-4-2027--sports-ncaa-basketball/production/7444629?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -7065,7 +7159,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-4-2027--sports-ncaa-basketball/production/7603879?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -7103,7 +7198,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-6-2027--sports-ncaa-basketball/production/7604013?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7141,7 +7237,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-2-6-2027--sports-ncaa-basketball/production/7444631?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -7179,7 +7276,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-2-6-2027--sports-ncaa-basketball/production/7595821?wsUser=717",
-    "low": 37.0
+    "low": 37.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -7217,7 +7315,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-6-2027--sports-ncaa-basketball/production/7605558?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -7255,7 +7354,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-2-11-2027--sports-ncaa-basketball/production/7600931?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -7293,7 +7393,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-11-2027--sports-ncaa-basketball/production/7604031?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7331,7 +7432,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-2-11-2027--sports-ncaa-basketball/production/7601039?wsUser=717",
-    "low": 40.0
+    "low": 40.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -7369,7 +7471,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-2-11-2027/production/7602366?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
@@ -7407,7 +7510,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-13-2027--sports-ncaa-basketball/production/7604037?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7445,7 +7549,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-2-13-2027--sports-ncaa-basketball/production/7600935?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -7518,7 +7623,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-2-13-2027--sports-ncaa-basketball/production/7595628?wsUser=717",
-    "low": 34.0
+    "low": 34.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
    "venue_city": "Jacksonville",
@@ -7556,7 +7662,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-2-18-2027--sports-basketball/production/7367770?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -7594,7 +7701,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-2-18-2027--sports-ncaa-basketball/production/7595988?wsUser=717",
-    "low": 29.0
+    "low": 29.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -7667,7 +7775,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-2-20-2027--sports-basketball/production/7367774?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -7705,7 +7814,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/queens-royals-mens-basketball-tickets-curry-arena-2-20-2027--sports-ncaa-basketball/production/7596130?wsUser=717",
-    "low": 37.0
+    "low": 37.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Curry Arena",
    "venue_city": "Charlotte",
@@ -7743,7 +7853,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-2-20-2027--sports-ncaa-basketball/production/7444633?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -7781,7 +7892,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-2-25-2027--sports-ncaa-basketball/production/7444639?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -7819,7 +7931,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-25-2027--sports-ncaa-basketball/production/7604045?wsUser=717",
-    "low": 47.0
+    "low": 47.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -7857,7 +7970,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-2-25-2027--sports-ncaa-basketball/production/7610229?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -7895,7 +8009,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-25-2027--sports-ncaa-basketball/production/7603881?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -7933,7 +8048,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-knights-hall---bellarmine-university-2-27-2027--sports-ncaa-basketball/production/7444645?wsUser=717",
-    "low": 41.0
+    "low": 41.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Knights Hall",
    "venue_city": "Louisville",
@@ -7971,7 +8087,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/stetson-hatters-mens-basketball-tickets-edmunds-center-2-27-2027--sports-ncaa-basketball/production/7610233?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Insight Credit Union Arena at Edmunds Center",
    "venue_city": "DeLand",
@@ -8009,7 +8126,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gulf-coast-eagles-mens-basketball-tickets-alico-arena-2-27-2027--sports-ncaa-basketball/production/7604054?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Alico Arena",
    "venue_city": "Fort Myers",
@@ -8047,7 +8165,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-2-27-2027--sports-ncaa-basketball/production/7605560?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
    "venue_city": "Nashville",
@@ -8073,6 +8192,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-18T03:17:31+00:00"
+ ]
 }

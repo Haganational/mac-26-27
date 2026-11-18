@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T23:13:26+00:00",
+ "fetched_at": "2026-11-18T23:20:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -1887,10 +1887,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-17-2026--sports-ncaa-basketball/production/7341569?wsUser=717",
-    "low": 17.0
-   },
+   "tickets": null,
    "venue": "Christl Arena",
    "venue_city": "West Point",
    "venue_state": "NY",
@@ -1925,10 +1922,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-11-17-2026--sports-ncaa-basketball/production/7581604?wsUser=717",
-    "low": 43.0
-   },
+   "tickets": null,
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
    "venue_state": "PA",
@@ -1969,10 +1963,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mount-st-marys-mountaineers-mens-basketball-tickets-knott-arena-11-17-2026--sports-ncaa-basketball/production/7711301?wsUser=717",
-    "low": 20.0
-   },
+   "tickets": null,
    "venue": "Knott Arena",
    "venue_city": "Emmitsburg",
    "venue_state": "MD",
@@ -2020,7 +2011,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-capital-one-arena-11-18-2026--sports-ncaa-basketball/production/7217267?wsUser=717",
-    "low": 8.0
+    "low": 7.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Capital One Arena",
    "venue_city": "Washington",
@@ -2064,7 +2056,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-11-18-2026--sports-ncaa-basketball/production/7733296?wsUser=717",
-    "low": 14.0
+    "low": 14.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Lawler Arena",
    "venue_city": "North Andover",
@@ -2108,7 +2101,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-11-18-2026--sports-ncaa-basketball/production/7628264?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -2152,7 +2146,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-11-18-2026--sports-ncaa-basketball/production/7584087?wsUser=717",
-    "low": 26.0
+    "low": 26.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -2237,7 +2232,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-19-2026--sports-basketball/production/7444589?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -2281,7 +2277,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-11-20-2026--sports-ncaa-basketball/production/7584090?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -2325,7 +2322,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-11-20-2026--sports-ncaa-basketball/production/7532395?wsUser=717",
-    "low": 7.0
+    "low": 8.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "John Paul Jones Arena",
    "venue_city": "Charlottesville",
@@ -2410,7 +2408,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-11-21-2026--sports-ncaa-basketball/production/7581606?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -2459,7 +2458,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-21-2026--sports-ncaa-basketball/production/7710488?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -2503,7 +2503,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-11-21-2026--sports-ncaa-basketball/production/7628268?wsUser=717",
-    "low": 26.0
+    "low": 26.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -2547,7 +2548,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-21-2026--sports-ncaa-basketball/production/7328007?wsUser=717",
-    "low": 4.0
+    "low": 5.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "JMA Wireless Dome",
    "venue_city": "Syracuse",
@@ -2591,7 +2593,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-11-21-2026--sports-ncaa-basketball/production/7724858?wsUser=717",
-    "low": 14.0
+    "low": 25.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Canastra Hammer Arena",
    "venue_city": "Lawrenceville",
@@ -2635,7 +2638,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-11-21-2026--sports-ncaa-basketball/production/7752178?wsUser=717",
-    "low": 47.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Events Center (Binghamton)",
    "venue_city": "Binghamton",
@@ -2679,7 +2683,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-22-2026--sports-basketball/production/7444591?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -2728,7 +2733,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-11-24-2026--sports-ncaa-basketball/production/7537664?wsUser=717",
-    "low": 14.0
+    "low": 14.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -2777,7 +2783,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467533?wsUser=717",
-    "low": 20.0
+    "low": 20.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Lavietes Pavilion",
    "venue_city": "Cambridge",
@@ -2949,7 +2956,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Newman Arena",
    "venue_city": "Ithaca",
@@ -2993,7 +3001,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Leede Arena",
    "venue_city": "Hanover",
@@ -3037,7 +3046,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-11-26-2026--sports-ncaa-basketball/production/7707038?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "UTSA Convocation Center",
    "venue_city": "San Antonio",
@@ -3203,7 +3213,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-27-2026--sports-basketball/production/7444597?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -3323,7 +3334,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 17.0
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -3489,7 +3501,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-28-2026--sports-basketball/production/7444603?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -3574,7 +3587,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-28-2026--sports-ncaa-basketball/production/7546513?wsUser=717",
-    "low": 34.0
+    "low": 28.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3659,7 +3673,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-11-29-2026--sports-ncaa-basketball/production/7584097?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -3744,7 +3759,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-29-2026--sports-basketball/production/7444605?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -3839,7 +3855,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-12-1-2026--sports-ncaa-basketball/production/7609089?wsUser=717",
-    "low": 36.0
+    "low": 36.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Rose Hill Gym",
    "venue_city": "Bronx",
@@ -3883,7 +3900,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-12-2-2026--sports-ncaa-basketball/production/7341577?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -3927,7 +3945,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-xfinity-center---md-12-2-2026--sports-ncaa-basketball/production/7382615?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "XFINITY Center",
    "venue_city": "College Park",
@@ -3971,7 +3990,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-12-2-2026--sports-ncaa-basketball/production/7648568?wsUser=717",
-    "low": 21.0
+    "low": 21.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bob Carpenter Center",
    "venue_city": "Newark",
@@ -4091,7 +4111,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-2-2026--sports-ncaa-basketball/production/7413775?wsUser=717",
-    "low": 14.0
+    "low": 11.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "UD Arena",
    "venue_city": "Dayton",
@@ -4135,7 +4156,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/njit-highlanders-mens-basketball-tickets-njit-wellness-and-events-center-12-2-2026/production/7711415?wsUser=717",
-    "low": 37.0
+    "low": 37.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Joel & Diane Bloom Wellness and Events Center",
    "venue_city": "Newark",
@@ -4249,7 +4271,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-12-5-2026--sports-ncaa-basketball/production/7581608?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -4293,7 +4316,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-12-5-2026--sports-ncaa-basketball/production/7628270?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -4378,7 +4402,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-12-5-2026--sports-ncaa-basketball/production/7710490?wsUser=717",
-    "low": 22.0
+    "low": 22.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -4413,10 +4438,17 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/albany-great-danes-mens-basketball-tickets-broadview-center-12-5-2026--sports-ncaa-basketball/production/7608747?wsUser=717",
-    "low": 28.0
+    "low": 28.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Broadview Center",
    "venue_city": "Albany",
@@ -4460,7 +4492,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-6-2026--sports-ncaa-basketball/production/7483124?wsUser=717",
-    "low": 6.0
+    "low": 6.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Addition Financial Arena",
    "venue_city": "Orlando",
@@ -4498,7 +4531,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-12-6-2026--sports-ncaa-basketball/production/7383946?wsUser=717",
-    "low": 36.0
+    "low": 36.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Clune Arena",
    "venue_city": "Colorado Springs",
@@ -4533,10 +4567,17 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-12-7-2026--sports-ncaa-basketball/production/7341587?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -4621,7 +4662,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-8-2026--sports-ncaa-basketball/production/7748248?wsUser=717",
-    "low": 36.0
+    "low": 36.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
    "venue_city": "Baltimore",
@@ -4665,7 +4707,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/saint-josephs-hawks-mens-basketball-tickets-michael-j-hagan-arena-12-8-2026--sports-ncaa-basketball/production/7581672?wsUser=717",
-    "low": 35.0
+    "low": 35.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Michael J. Hagan '85 Arena",
    "venue_city": "Philadelphia",
@@ -4709,7 +4752,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-12-8-2026--sports-ncaa-basketball/production/7517631?wsUser=717",
-    "low": 4.0
+    "low": 4.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "JMA Wireless Dome",
    "venue_city": "Syracuse",
@@ -4753,7 +4797,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-12-8-2026--sports-ncaa-basketball/production/7584101?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -4797,7 +4842,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/manhattan-jaspers-mens-basketball-tickets-draddy-gymnasium-12-8-2026--sports-ncaa-basketball/production/7711531?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Draddy Gymnasium",
    "venue_city": "Riverdale",
@@ -4841,7 +4887,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-12-9-2026--sports-ncaa-basketball/production/7625622?wsUser=717",
-    "low": 8.0
+    "low": 8.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Charles E. Smith Center",
    "venue_city": "Washington",
@@ -4876,10 +4923,17 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/columbia-lions-mens-basketball-tickets-levien-gymnasium-12-11-2026--sports-ncaa-basketball/production/7490028?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Levien Gymnasium",
    "venue_city": "New York",
@@ -4923,7 +4977,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-12-12-2026--sports-ncaa-basketball/production/7593892?wsUser=717",
-    "low": 20.0
+    "low": 20.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
@@ -4967,7 +5022,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-12-12-2026--sports-ncaa-basketball/production/7470771?wsUser=717",
-    "low": 19.0
+    "low": 19.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hynes Athletics Center",
    "venue_city": "New Rochelle",
@@ -5002,10 +5058,17 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-uwf-field-house-12-13-2026--sports-basketball/production/7367653?wsUser=717",
-    "low": 47.0
+    "low": 47.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "UWF Field House",
    "venue_city": "Pensacola",
@@ -5043,7 +5106,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-eastern-shore-hawks-mens-basketball-tickets-hytche-athletic-center-12-13-2026--sports-ncaa-basketball/production/7854762?wsUser=717",
-    "low": 30.0
+    "low": 30.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hytche Center",
    "venue_city": "Princess Anne",
@@ -5128,7 +5192,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-12-15-2026--sports-ncaa-basketball/production/7584105?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -5172,7 +5237,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-am-aggies-mens-basketball-tickets-reed-arena-12-17-2026--sports-ncaa-basketball/production/7350035?wsUser=717",
-    "low": 12.0
+    "low": 12.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Reed Arena",
    "venue_city": "College Station",
@@ -5216,7 +5282,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-12-18-2026--sports-ncaa-basketball/production/7581610?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -5295,7 +5362,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-12-19-2026--sports-ncaa-basketball/production/7537668?wsUser=717",
-    "low": 19.0
+    "low": 19.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -5339,7 +5407,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-state-nittany-lions-mens-basketball-tickets-bryce-jordan-center-12-19-2026--sports-ncaa-basketball/production/7436711?wsUser=717",
-    "low": 46.0
+    "low": 46.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Rec Hall",
    "venue_city": "University Park",
@@ -5383,7 +5452,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tcu-horned-frogs-mens-basketball-tickets-schollmaier-arena-12-19-2026--sports-ncaa-basketball/production/7621958?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Schollmaier Arena",
    "venue_city": "Fort Worth",
@@ -5427,7 +5497,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-12-20-2026--sports-ncaa-basketball/production/7463047?wsUser=717",
-    "low": 14.0
+    "low": 14.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Jersey Mike\u2019s Arena",
    "venue_city": "Piscataway",
@@ -5471,7 +5542,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-12-20-2026--sports-ncaa-basketball/production/7628272?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -5515,7 +5587,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-lowell-river-hawks-mens-basketball-tickets-kennedy-family-athletic-complex-12-20-2026--sports-ncaa-basketball/production/7776476?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Kennedy Family Athletic Complex",
    "venue_city": "Lowell",
@@ -5559,7 +5632,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-12-20-2026--sports-ncaa-basketball/production/7745950?wsUser=717",
-    "low": 12.0
+    "low": 12.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
@@ -5597,7 +5671,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hofstra-pride-mens-basketball-tickets-mack-sports-complex-at-hofstra-university-12-21-2026/production/7763334?wsUser=717",
-    "low": 17.0
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -5641,7 +5716,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-12-21-2026--sports-ncaa-basketball/production/7290639?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Robins Center",
    "venue_city": "Richmond",
@@ -5685,7 +5761,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-21-2026--sports-ncaa-basketball/production/7606478?wsUser=717",
-    "low": 38.0
+    "low": 38.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Qubein Center",
    "venue_city": "High Point",
@@ -5729,7 +5806,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/clemson-tigers-mens-basketball-tickets-littlejohn-coliseum-12-22-2026--sports-ncaa-basketball/production/7350054?wsUser=717",
-    "low": 8.0
+    "low": 8.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Littlejohn Coliseum",
    "venue_city": "Clemson",
@@ -5773,7 +5851,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-12-22-2026--sports-ncaa-basketball/production/7546517?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -5817,7 +5896,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-22-2026--sports-ncaa-basketball/production/7294910?wsUser=717",
-    "low": 50.0
+    "low": 46.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Neville Arena",
    "venue_city": "Auburn",
@@ -5861,7 +5941,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-12-30-2026--sports-ncaa-basketball/production/7584111?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -5940,7 +6021,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-12-30-2026--sports-ncaa-basketball/production/7537672?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -6025,7 +6107,8 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-12-30-2026--sports-ncaa-basketball/production/7581612?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -6098,7 +6181,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-1-2-2027/production/7843675?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -6171,7 +6255,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-1-2-2027--sports-ncaa-basketball/production/7537674?wsUser=717",
-    "low": 32.0
+    "low": 32.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -6244,7 +6329,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-1-6-2027--sports-ncaa-basketball/production/7623092?wsUser=717",
-    "low": 20.0
+    "low": 20.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -6282,7 +6368,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-6-2027--sports-ncaa-basketball/production/7710497?wsUser=717",
-    "low": 13.0
+    "low": 13.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -6320,7 +6407,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-1-6-2027--sports-ncaa-basketball/production/7628274?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -6358,7 +6446,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-1-6-2027--sports-ncaa-basketball/production/7584117?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -6431,7 +6520,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-9-2027--sports-ncaa-basketball/production/7710502?wsUser=717",
-    "low": 17.0
+    "low": 15.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -6469,7 +6559,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-1-9-2027--sports-ncaa-basketball/production/7628276?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -6507,7 +6598,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-1-9-2027--sports-ncaa-basketball/production/7581614?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -6650,7 +6742,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-1-13-2027--sports-ncaa-basketball/production/7628301?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -6688,7 +6781,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-1-13-2027--sports-ncaa-basketball/production/7537676?wsUser=717",
-    "low": 17.0
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -6796,7 +6890,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-16-2027--sports-ncaa-basketball/production/7710504?wsUser=717",
-    "low": 17.0
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -6834,7 +6929,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-1-16-2027--sports-ncaa-basketball/production/7581616?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -6872,7 +6968,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-1-16-2027--sports-ncaa-basketball/production/7584119?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -6945,7 +7042,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-1-17-2027--sports-ncaa-basketball/production/7628305?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -6983,7 +7081,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-1-18-2027--sports-ncaa-basketball/production/7628278?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -7021,7 +7120,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-1-20-2027/production/7843667?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -7094,7 +7194,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-1-20-2027--sports-ncaa-basketball/production/7581618?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -7202,7 +7303,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-1-23-2027--sports-ncaa-basketball/production/7613597?wsUser=717",
-    "low": 59.0
+    "low": 59.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -7240,7 +7342,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-1-23-2027--sports-ncaa-basketball/production/7584121?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -7278,7 +7381,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-1-23-2027--sports-ncaa-basketball/production/7628281?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -7386,7 +7490,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-1-27-2027--sports-ncaa-basketball/production/7613599?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -7424,7 +7529,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-27-2027--sports-ncaa-basketball/production/7710508?wsUser=717",
-    "low": 12.0
+    "low": 12.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -7462,7 +7568,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-1-27-2027/production/7843683?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -7500,7 +7607,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-1-27-2027--sports-ncaa-basketball/production/7537689?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -7538,7 +7646,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-1-30-2027--sports-ncaa-basketball/production/7628283?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -7576,7 +7685,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-1-30-2027--sports-ncaa-basketball/production/7584125?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -7614,7 +7724,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-1-30-2027/production/7843671?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -7652,7 +7763,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-1-30-2027--sports-ncaa-basketball/production/7581620?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -7760,7 +7872,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-2-3-2027--sports-ncaa-basketball/production/7628303?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -7798,7 +7911,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-3-2027--sports-ncaa-basketball/production/7710512?wsUser=717",
-    "low": 10.0
+    "low": 10.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -7836,7 +7950,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-2-3-2027--sports-ncaa-basketball/production/7581622?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -7909,7 +8024,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-2-6-2027--sports-ncaa-basketball/production/7627481?wsUser=717",
-    "low": 25.0
+    "low": 25.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -7982,7 +8098,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-2-6-2027--sports-ncaa-basketball/production/7628285?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -8020,7 +8137,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-2-6-2027--sports-ncaa-basketball/production/7537695?wsUser=717",
-    "low": 26.0
+    "low": 26.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -8058,7 +8176,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-2-6-2027/production/7843679?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -8096,7 +8215,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-2-8-2027/production/7843669?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -8134,7 +8254,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-10-2027--sports-ncaa-basketball/production/7710514?wsUser=717",
-    "low": 11.0
+    "low": 11.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -8207,7 +8328,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-2-10-2027--sports-ncaa-basketball/production/7584129?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -8280,7 +8402,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-2-13-2027--sports-ncaa-basketball/production/7627505?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -8318,7 +8441,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-13-2027--sports-ncaa-basketball/production/7710518?wsUser=717",
-    "low": 15.0
+    "low": 15.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -8356,7 +8480,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-2-13-2027--sports-ncaa-basketball/production/7581624?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -8394,7 +8519,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-2-13-2027--sports-ncaa-basketball/production/7584137?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -8432,7 +8558,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-2-13-2027--sports-ncaa-basketball/production/7537700?wsUser=717",
-    "low": 22.0
+    "low": 22.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -8470,7 +8597,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-2-15-2027--sports-ncaa-basketball/production/7581626?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -8543,7 +8671,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-2-17-2027/production/7843673?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -8581,7 +8710,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-2-17-2027--sports-ncaa-basketball/production/7628287?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -8654,7 +8784,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-2-20-2027--sports-ncaa-basketball/production/7537706?wsUser=717",
-    "low": 90.0
+    "low": 90.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -8727,7 +8858,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-21-2027--sports-ncaa-basketball/production/7710520?wsUser=717",
-    "low": 14.0
+    "low": 14.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -8800,7 +8932,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-2-21-2027/production/7843685?wsUser=717",
-    "low": 31.0
+    "low": 31.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Bender Arena",
    "venue_city": "Washington",
@@ -8838,7 +8971,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-2-24-2027--sports-ncaa-basketball/production/7615387?wsUser=717",
-    "low": 23.0
+    "low": 23.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
    "venue_city": "West Point",
@@ -8876,7 +9010,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-2-24-2027--sports-ncaa-basketball/production/7537723?wsUser=717",
-    "low": 18.0
+    "low": 18.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
@@ -8914,7 +9049,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-2-24-2027--sports-ncaa-basketball/production/7581628?wsUser=717",
-    "low": 43.0
+    "low": 43.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
@@ -8952,7 +9088,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-2-24-2027--sports-ncaa-basketball/production/7628289?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -8990,7 +9127,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-2-24-2027--sports-ncaa-basketball/production/7584143?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -9028,7 +9166,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-2-27-2027--sports-ncaa-basketball/production/7584149?wsUser=717",
-    "low": 33.0
+    "low": 33.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
@@ -9066,7 +9205,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-27-2027--sports-ncaa-basketball/production/7710522?wsUser=717",
-    "low": 14.0
+    "low": 14.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
    "venue_city": "Boston",
@@ -9139,7 +9279,8 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-2-27-2027--sports-ncaa-basketball/production/7628291?wsUser=717",
-    "low": 24.0
+    "low": 24.0,
+    "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
@@ -9200,6 +9341,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-18T02:23:08+00:00"
+ ]
 }
