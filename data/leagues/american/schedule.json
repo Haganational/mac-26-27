@@ -2250,21 +2250,21 @@
     "key": "uab",
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": 77,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2229",
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 65,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:31 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921097",
@@ -2294,7 +2294,7 @@
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 38,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2302,13 +2302,13 @@
     "key": null,
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": 31,
+    "score": 56,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:15 - 2nd"
+   "detail": "6:53 - 2nd"
   },
   {
    "game_id": "401922212",
@@ -11845,5 +11845,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:16:33+00:00"
+ "live_at": "2026-11-18T02:53:21+00:00"
 }

@@ -25,9 +25,9 @@ _Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ _Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,5 @@ _Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-13: Social recap posted (W 88-76 vs Niagara Purple Eagles): https://hardwoodbricks.com/games/401911013.html <!-- post:401911013:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:preview -->
 - 2026-11-17: Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least. <!-- film:yg-gdhcFoP8 -->
+- 2026-11-18: L 73-77 at William & Mary Tribe. Barometer 59 (steady). <!-- g:401911018 -->
+- 2026-11-18: Social recap posted (L 73-77 vs William & Mary Tribe): https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:recap -->

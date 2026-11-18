@@ -67,7 +67,7 @@ _Marshall (Sun Belt). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,4 @@ _Marshall (Sun Belt). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-14: Social recap posted (L 71-74 vs Youngstown State Penguins): https://hardwoodbricks.com/horizon/games/401920750.html <!-- post:401920750:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:preview -->
 - 2026-11-18: W 67-55 vs East Tennessee State Buccaneers. Barometer 49 (steady). <!-- g:401920857 -->
+- 2026-11-18: Social recap posted (W 67-55 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:recap -->

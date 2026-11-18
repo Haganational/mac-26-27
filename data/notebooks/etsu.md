@@ -61,7 +61,7 @@ _ETSU (SoCon). Anchors are fictional AI personas, not affiliated with any school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -70,3 +70,4 @@ _ETSU (SoCon). Anchors are fictional AI personas, not affiliated with any school
 - 2026-11-12: W 68-53 vs Campbell Fighting Camels. Barometer 47 (steady). <!-- g:401920740 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:preview -->
 - 2026-11-18: L 55-67 at Marshall Thundering Herd. Barometer 40 (testy). <!-- g:401920857 -->
+- 2026-11-18: Social recap posted (L 55-67 vs Marshall Thundering Herd): https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:recap -->

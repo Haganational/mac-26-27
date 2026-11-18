@@ -1673,21 +1673,21 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 80,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2739",
     "key": null,
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 64,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921106",
@@ -1717,7 +1717,7 @@
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": 45,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -1725,13 +1725,13 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 26,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:30 - 2nd"
+   "detail": "5:30 - 2nd"
   },
   {
    "game_id": "401922212",
@@ -8074,5 +8074,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:11:43+00:00"
+ "live_at": "2026-11-18T02:48:31+00:00"
 }

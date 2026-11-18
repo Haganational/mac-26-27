@@ -21,9 +21,9 @@ _Maryland Eastern Shore (MEAC). Anchors are fictional AI personas, not affiliate
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**25 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _Maryland Eastern Shore (MEAC). Anchors are fictional AI personas, not affiliate
 - 2026-11-11: L 54-82 at Boston College Eagles. Barometer 38 (testy). <!-- g:401909553 -->
 - 2026-11-13: L 47-67 at Rhode Island Rams. Barometer 32 (testy). <!-- g:401920064 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/meac/games/401909504.html <!-- post:401909504:preview -->
+- 2026-11-18: L 39-83 at DePaul Blue Demons. Barometer 25 (despondent). <!-- g:401909504 -->

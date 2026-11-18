@@ -59,7 +59,7 @@ _Western Carolina (SoCon). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -71,3 +71,4 @@ _Western Carolina (SoCon). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-15: Social recap posted (L 68-75 vs Lipscomb Bisons): https://hardwoodbricks.com/asun/games/401920705.html <!-- post:401920705:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/socon/games/401902279.html <!-- post:401902279:preview -->
 - 2026-11-18: L 64-89 at Butler Bulldogs. Barometer 42 (testy). <!-- g:401902279 -->
+- 2026-11-18: Social recap posted (L 64-89 vs Butler Bulldogs): https://hardwoodbricks.com/socon/games/401902279.html <!-- post:401902279:recap -->

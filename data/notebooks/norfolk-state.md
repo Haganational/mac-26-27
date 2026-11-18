@@ -63,7 +63,7 @@ _Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,4 @@ _Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-15: Social recap posted (L 53-78 vs Georgia State Panthers): https://hardwoodbricks.com/sunbelt/games/401925896.html <!-- post:401925896:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:preview -->
 - 2026-11-18: L 79-93 at Georgia Tech Yellow Jackets. Barometer 26 (despondent). <!-- g:401920308 -->
+- 2026-11-18: Social recap posted (L 79-93 vs Georgia Tech Yellow Jackets): https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:recap -->

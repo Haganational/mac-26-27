@@ -21,9 +21,9 @@ _FIU (CUSA). Anchors are fictional AI personas, not affiliated with any school. 
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**58 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marisol editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marisol editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _FIU (CUSA). Anchors are fictional AI personas, not affiliated with any school. 
 - 2026-11-14: Social recap posted (W 89-80 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401922211.html <!-- post:401922211:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:preview -->
 - 2026-11-17: Film: *The Badge on Campus (Part II)* (https://youtu.be/P5lvhlSbBcw). Our film on FIU campus police joining ICE's 287(g) program and the students who pushed back. Part two of two. <!-- film:P5lvhlSbBcw -->
+- 2026-11-18: L 82-94 at UAB Blazers. Barometer 58 (steady). <!-- g:401919018 -->

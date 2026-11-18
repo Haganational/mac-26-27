@@ -1711,7 +1711,7 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 28,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -1719,13 +1719,13 @@
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 26,
+    "score": 38,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:50 - 1st"
+   "detail": "18:19 - 2nd"
   },
   {
    "game_id": "401911521",
@@ -1755,7 +1755,7 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 6,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -1763,13 +1763,13 @@
     "key": null,
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": 11,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:11 - 1st"
+   "detail": "3:16 - 1st"
   },
   {
    "game_id": "401909787",
@@ -1799,7 +1799,7 @@
     "key": null,
     "name": "Kansas Jayhawks",
     "abbr": "KU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1807,13 +1807,13 @@
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:57 - 1st"
   },
   {
    "game_id": "401911473",
@@ -8769,5 +8769,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:12:44+00:00"
+ "live_at": "2026-11-18T02:49:31+00:00"
 }

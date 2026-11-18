@@ -60,7 +60,7 @@ _Davidson (A-10). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -72,3 +72,4 @@ _Davidson (A-10). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-15: Social recap posted (L 58-64 vs Howard Bison): https://hardwoodbricks.com/a10/games/401925774.html <!-- post:401925774:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
 - 2026-11-18: L 66-73 vs Charlotte 49ers. Barometer 51 (steady). <!-- g:401925775 -->
+- 2026-11-18: Social recap posted (L 66-73 vs Charlotte 49ers): https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:recap -->

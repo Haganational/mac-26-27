@@ -21,9 +21,9 @@ _Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**80 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**60 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tasha editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tasha editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,3 +68,4 @@ _Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-11: W 88-79 vs Winthrop Eagles. Barometer 73 (buoyant). <!-- g:401925708 -->
 - 2026-11-13: W 107-54 vs LaGrange Panthers. Barometer 80 (giddy). <!-- g:401926788 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/cusa/games/401906761.html <!-- post:401906761:preview -->
+- 2026-11-18: L 91-109 at Alabama Crimson Tide. Barometer 60 (steady). <!-- g:401906761 -->

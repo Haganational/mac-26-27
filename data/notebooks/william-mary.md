@@ -21,7 +21,7 @@ _William & Mary (CAA). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**53 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Sir editorializes: 62% of stories right now.
 
@@ -63,7 +63,7 @@ _William & Mary (CAA). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,5 @@ _William & Mary (CAA). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/caa/games/401918453.html <!-- post:401918453:preview -->
 - 2026-11-15: Social recap posted (L 79-123 vs Michigan Wolverines): https://hardwoodbricks.com/caa/games/401918453.html <!-- post:401918453:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:preview -->
+- 2026-11-18: W 77-73 vs Bowling Green Falcons. Barometer 53 (steady). <!-- g:401911018 -->
+- 2026-11-18: Social recap posted (W 77-73 vs Bowling Green Falcons): https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:recap -->

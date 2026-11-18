@@ -21,9 +21,9 @@ _Le Moyne (NEC). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**55 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Le Moyne (NEC). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-14: W 76-62 vs Manhattan Jaspers. Barometer 55 (steady). <!-- g:401919782 -->
 - 2026-11-15: Social recap posted (W 76-62 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401919782.html <!-- post:401919782:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:preview -->
+- 2026-11-18: L 65-79 at Evansville Purple Aces. Barometer 46 (steady). <!-- g:401919783 -->

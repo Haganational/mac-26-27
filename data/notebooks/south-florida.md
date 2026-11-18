@@ -63,7 +63,7 @@ _South Florida (American). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _South Florida (American). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-14: W 73-63 vs Coppin State Eagles. Barometer 54 (steady). <!-- g:401918993 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
 - 2026-11-18: W 98-71 vs Tennessee State Tigers. Barometer 62 (steady). <!-- g:401918994 -->
+- 2026-11-18: Social recap posted (W 98-71 vs Tennessee State Tigers): https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:recap -->

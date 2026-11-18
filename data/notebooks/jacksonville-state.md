@@ -21,9 +21,9 @@ _Jacksonville State (CUSA). Anchors are fictional AI personas, not affiliated wi
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,3 +68,4 @@ _Jacksonville State (CUSA). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-12: L 46-92 at Houston Cougars. Barometer 41 (testy). <!-- g:401925702 -->
 - 2026-11-15: W 71-68 vs UAB Blazers. Barometer 50 (steady). <!-- g:401919017 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:preview -->
+- 2026-11-18: L 63-68 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401926781 -->

@@ -63,7 +63,7 @@ _Charlotte (American). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Charlotte (American). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-14: L 60-66 vs App State Mountaineers. Barometer 46 (steady). <!-- g:401925820 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
 - 2026-11-18: W 73-66 at Davidson Wildcats. Barometer 54 (steady). <!-- g:401925775 -->
+- 2026-11-18: Social recap posted (W 73-66 vs Davidson Wildcats): https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:recap -->

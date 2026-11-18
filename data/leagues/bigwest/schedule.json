@@ -1850,7 +1850,7 @@
     "name": "Troy Trojans",
     "abbr": "TROY",
     "score": 84,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2463",
@@ -1858,12 +1858,12 @@
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
     "score": 74,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917533",
@@ -9802,5 +9802,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:13:53+00:00"
+ "live_at": "2026-11-18T02:50:40+00:00"
 }

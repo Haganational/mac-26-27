@@ -21,9 +21,9 @@ _Eastern Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
+**31 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dana editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dana editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ _Eastern Illinois (OVC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-15: L 74-86 vs Purdue Fort Wayne Mastodons. Barometer 36 (testy). <!-- g:401926068 -->
 - 2026-11-15: Social recap posted (L 74-86 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401926068.html <!-- post:401926068:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/ovc/games/401921826.html <!-- post:401921826:preview -->
+- 2026-11-18: L 50-96 at Vanderbilt Commodores. Barometer 31 (testy). <!-- g:401921826 -->

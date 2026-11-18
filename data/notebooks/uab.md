@@ -21,9 +21,9 @@ _UAB (American). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
+**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ _UAB (American). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-10: W 92-64 vs Florida A&M Rattlers. Barometer 60 (steady). <!-- g:401919016 -->
 - 2026-11-15: L 68-71 at Jacksonville State Gamecocks. Barometer 51 (steady). <!-- g:401919017 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:preview -->
+- 2026-11-18: W 94-82 vs Florida International Panthers. Barometer 58 (steady). <!-- g:401919018 -->

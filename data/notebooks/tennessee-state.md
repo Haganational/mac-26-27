@@ -63,7 +63,7 @@ _Tennessee State (OVC). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Tennessee State (OVC). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-14: L 78-83 at Tennessee Volunteers. Barometer 52 (steady). <!-- g:401906850 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
 - 2026-11-18: L 71-98 at South Florida Bulls. Barometer 43 (testy). <!-- g:401918994 -->
+- 2026-11-18: Social recap posted (L 71-98 vs South Florida Bulls): https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:recap -->

@@ -2517,21 +2517,21 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": 91,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2520",
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 41,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909535",
@@ -11161,5 +11161,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:13:12+00:00"
+ "live_at": "2026-11-18T02:50:00+00:00"
 }

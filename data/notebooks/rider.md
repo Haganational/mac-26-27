@@ -21,9 +21,9 @@ _Rider (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
+**31 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Denise editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Denise editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -71,3 +71,4 @@ _Rider (Metro). Anchors are fictional AI personas, not affiliated with any schoo
 - 2026-11-15: L 62-99 at Villanova Wildcats. Barometer 36 (testy). <!-- g:401921775 -->
 - 2026-11-15: Social recap posted (L 62-99 vs Villanova Wildcats): https://hardwoodbricks.com/metro/games/401921775.html <!-- post:401921775:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:preview -->
+- 2026-11-18: L 48-95 at Miami Hurricanes. Barometer 31 (testy). <!-- g:401921722 -->

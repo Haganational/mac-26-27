@@ -21,7 +21,7 @@ _West Florida (ASUN). Anchors are fictional AI personas, not affiliated with any
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**55 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 63% of stories right now.
 
@@ -76,3 +76,4 @@ _West Florida (ASUN). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-13: Social recap posted (L 67-69 vs Cleveland State Vikings): https://hardwoodbricks.com/asun/games/401921167.html <!-- post:401921167:recap -->
 - 2026-11-13: Social recap posted (L 83-85 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/asun/games/401922250.html <!-- post:401922250:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:preview -->
+- 2026-11-18: W 87-69 vs Green Bay Phoenix. Barometer 55 (steady). <!-- g:401922251 -->

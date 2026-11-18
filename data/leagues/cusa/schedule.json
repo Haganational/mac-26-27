@@ -1705,21 +1705,21 @@
     "key": null,
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": 79,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2229",
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 69,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:13 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926781",
@@ -1749,21 +1749,21 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 61,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "55",
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 58,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401906761",
@@ -1793,21 +1793,21 @@
     "key": null,
     "name": "Alabama Crimson Tide",
     "abbr": "ALA",
-    "score": 85,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "338",
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 64,
-    "winner": null
+    "score": 91,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:53 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921027",
@@ -1837,7 +1837,7 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 48,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -1845,13 +1845,13 @@
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 38,
+    "score": 73,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:24 - 2nd"
+   "detail": "4:57 - 2nd"
   },
   {
    "game_id": "401924922",
@@ -1881,7 +1881,7 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 33,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -1889,13 +1889,13 @@
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 31,
+    "score": 44,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:15 - 1st"
+   "detail": "15:52 - 2nd"
   },
   {
    "game_id": "401911534",
@@ -8837,5 +8837,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:18:58+00:00"
+ "live_at": "2026-11-18T02:55:47+00:00"
 }

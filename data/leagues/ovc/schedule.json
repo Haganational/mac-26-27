@@ -1893,21 +1893,21 @@
     "key": null,
     "name": "Vanderbilt Commodores",
     "abbr": "VAN",
-    "score": 64,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "2197",
     "key": "eastern-illinois",
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": 39,
-    "winner": null
+    "score": 50,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "12:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927388",
@@ -1937,7 +1937,7 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 46,
+    "score": 74,
     "winner": null
    },
    "away": {
@@ -1945,13 +1945,13 @@
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": 41,
+    "score": 66,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:40 - 2nd"
+   "detail": "1:11 - 2nd"
   },
   {
    "game_id": "401926143",
@@ -1986,7 +1986,7 @@
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": 48,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -1994,13 +1994,13 @@
     "key": "siue",
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": 36,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:32 - 2nd"
+   "detail": "1:33 - 2nd"
   },
   {
    "game_id": "401920963",
@@ -8238,5 +8238,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T02:22:13+00:00"
+ "live_at": "2026-11-18T02:59:05+00:00"
 }

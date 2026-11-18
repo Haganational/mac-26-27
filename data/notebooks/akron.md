@@ -25,9 +25,9 @@ _Akron (MAC). Anchors are fictional AI personas, not affiliated with any school.
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ _Akron (MAC). Anchors are fictional AI personas, not affiliated with any school.
 - 2026-11-14: Social recap posted (W 65-63 vs Tulane Green Wave): https://hardwoodbricks.com/games/401919004.html <!-- post:401919004:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:preview -->
 - 2026-11-17: Film: *The Magnet in the Nose* (https://youtu.be/IK-7KOKkbv0). Our film on the 1973 Soap Box Derby scandal in Akron, and who the real cheater was. <!-- film:IK-7KOKkbv0 -->
+- 2026-11-18: L 49-53 at Bucknell Bison. Barometer 59 (steady). <!-- g:401924941 -->

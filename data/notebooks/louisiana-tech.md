@@ -21,7 +21,7 @@ _Louisiana Tech (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**53 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Lacey editorializes: 62% of stories right now.
 
@@ -71,3 +71,4 @@ _Louisiana Tech (Sun Belt). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-10: L 50-90 at LSU Tigers. Barometer 53 (steady). <!-- g:401921810 -->
 - 2026-11-15: L 68-71 at Nicholls Colonels. Barometer 46 (steady). <!-- g:401925063 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:preview -->
+- 2026-11-18: W 68-63 vs Jacksonville State Gamecocks. Barometer 53 (steady). <!-- g:401926781 -->
