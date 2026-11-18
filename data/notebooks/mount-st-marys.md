@@ -21,9 +21,9 @@ _Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-2 (0-0 in conference), streak L1, last five LWL.
+**33 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -58,7 +58,7 @@ _Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -68,3 +68,5 @@ _Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-14: L 62-82 at Virginia Tech Hokies. Barometer 40 (testy). <!-- g:401920379 -->
 - 2026-11-14: Social recap posted (L 62-82 vs Virginia Tech Hokies): https://hardwoodbricks.com/metro/games/401920379.html <!-- post:401920379:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:preview -->
+- 2026-11-18: L 65-99 vs Lehigh Mountain Hawks. Barometer 33 (testy). <!-- g:401920921 -->
+- 2026-11-18: Social recap posted (L 65-99 vs Lehigh Mountain Hawks): https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:recap -->

@@ -21,9 +21,9 @@ _Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated wi
 
 ## Barometer
 
-**56 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**48 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ _Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated wi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -78,3 +78,5 @@ _Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-15: W 74-73 at Alabama A&M Bulldogs. Barometer 56 (steady). <!-- g:401921168 -->
 - 2026-11-15: Social recap posted (W 74-73 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/horizon/games/401921168.html <!-- post:401921168:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/horizon/games/401909544.html <!-- post:401909544:preview -->
+- 2026-11-18: L 67-75 at Xavier Musketeers. Barometer 48 (steady). <!-- g:401909544 -->
+- 2026-11-18: Social recap posted (L 67-75 vs Xavier Musketeers): https://hardwoodbricks.com/horizon/games/401909544.html <!-- post:401909544:recap -->

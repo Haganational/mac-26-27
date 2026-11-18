@@ -25,9 +25,9 @@ _Ball State (MAC). Anchors are fictional AI personas, not affiliated with any sc
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hannah editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hannah editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ _Ball State (MAC). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,5 @@ _Ball State (MAC). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-14: L 65-90 at SMU Mustangs. Barometer 40 (testy). <!-- g:401911014 -->
 - 2026-11-14: Social recap posted (L 65-90 vs SMU Mustangs): https://hardwoodbricks.com/games/401911014.html <!-- post:401911014:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:preview -->
+- 2026-11-18: L 71-85 at Florida State Seminoles. Barometer 35 (testy). <!-- g:401909697 -->
+- 2026-11-18: Social recap posted (L 71-85 vs Florida State Seminoles): https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:recap -->

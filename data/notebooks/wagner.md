@@ -21,9 +21,9 @@ _Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school
 
 ## Barometer
 
-**41 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kate editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kate editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -56,7 +56,7 @@ _Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -65,3 +65,5 @@ _Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school
 - 2026-11-10: L 41-83 at UConn Huskies. Barometer 22 (despondent). <!-- g:401920686 -->
 - 2026-11-12: W 117-51 vs Bryant & Stratton-Albany Bobcats. Barometer 41 (testy). <!-- g:401926060 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:preview -->
+- 2026-11-18: L 65-84 at Saint Joseph's Hawks. Barometer 34 (testy). <!-- g:401920194 -->
+- 2026-11-18: Social recap posted (L 65-84 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:recap -->

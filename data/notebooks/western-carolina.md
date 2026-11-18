@@ -21,9 +21,9 @@ _Western Carolina (SoCon). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
+**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Laurel editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Laurel editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _Western Carolina (SoCon). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-15: L 68-75 vs Lipscomb Bisons. Barometer 51 (steady). <!-- g:401920705 -->
 - 2026-11-15: Social recap posted (L 68-75 vs Lipscomb Bisons): https://hardwoodbricks.com/asun/games/401920705.html <!-- post:401920705:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/socon/games/401902279.html <!-- post:401902279:preview -->
+- 2026-11-18: L 64-89 at Butler Bulldogs. Barometer 42 (testy). <!-- g:401902279 -->

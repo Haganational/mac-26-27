@@ -21,9 +21,9 @@ _Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any 
 
 ## Barometer
 
-**16 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**35 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,3 +69,4 @@ _Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-11: L 61-95 at Virginia Cavaliers. Barometer 22 (despondent). <!-- g:401920425 -->
 - 2026-11-14: L 59-77 vs Columbia Lions. Barometer 16 (despondent). <!-- g:401924704 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:preview -->
+- 2026-11-18: W 53-49 vs Akron Zips. Barometer 35 (testy). <!-- g:401924941 -->

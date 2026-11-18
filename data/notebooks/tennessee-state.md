@@ -21,9 +21,9 @@ _Tennessee State (OVC). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
+**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _Tennessee State (OVC). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-10: W 123-73 vs Fisk Bulldogs. Barometer 62 (steady). <!-- g:401920766 -->
 - 2026-11-14: L 78-83 at Tennessee Volunteers. Barometer 52 (steady). <!-- g:401906850 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
+- 2026-11-18: L 71-98 at South Florida Bulls. Barometer 43 (testy). <!-- g:401918994 -->

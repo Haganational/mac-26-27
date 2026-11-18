@@ -21,9 +21,9 @@ _Marshall (Sun Belt). Anchors are fictional AI personas, not affiliated with any
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ _Marshall (Sun Belt). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-14: L 71-74 at Youngstown State Penguins. Barometer 35 (testy). <!-- g:401920750 -->
 - 2026-11-14: Social recap posted (L 71-74 vs Youngstown State Penguins): https://hardwoodbricks.com/horizon/games/401920750.html <!-- post:401920750:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:preview -->
+- 2026-11-18: W 67-55 vs East Tennessee State Buccaneers. Barometer 49 (steady). <!-- g:401920857 -->

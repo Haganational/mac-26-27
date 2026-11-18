@@ -21,9 +21,9 @@ _Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**41 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tommy editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tommy editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -59,7 +59,7 @@ _Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -70,3 +70,5 @@ _Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/metro/games/401924876.html <!-- post:401924876:preview -->
 - 2026-11-13: Social recap posted (L 75-79 vs Central Connecticut Blue Devils): https://hardwoodbricks.com/metro/games/401924876.html <!-- post:401924876:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401909535.html <!-- post:401909535:preview -->
+- 2026-11-18: L 67-86 at Providence Friars. Barometer 41 (testy). <!-- g:401909535 -->
+- 2026-11-18: Social recap posted (L 67-86 vs Providence Friars): https://hardwoodbricks.com/metro/games/401909535.html <!-- post:401909535:recap -->

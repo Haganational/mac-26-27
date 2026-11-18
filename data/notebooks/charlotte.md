@@ -21,7 +21,7 @@ _Charlotte (American). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**54 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 62% of stories right now.
 
@@ -72,3 +72,4 @@ _Charlotte (American). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-10: L 62-68 vs (neutral) Seton Hall Pirates. Barometer 54 (steady). <!-- g:401920887 -->
 - 2026-11-14: L 60-66 vs App State Mountaineers. Barometer 46 (steady). <!-- g:401925820 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
+- 2026-11-18: W 73-66 at Davidson Wildcats. Barometer 54 (steady). <!-- g:401925775 -->

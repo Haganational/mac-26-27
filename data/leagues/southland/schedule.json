@@ -1961,7 +1961,7 @@
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 29,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -1969,13 +1969,13 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 35,
+    "score": 52,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:50 - 1st"
+   "detail": "18:22 - 2nd"
   },
   {
    "game_id": "401921097",
@@ -2005,7 +2005,7 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 32,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2013,13 +2013,13 @@
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": 25,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:00 - 1st"
+   "detail": "17:53 - 2nd"
   },
   {
    "game_id": "401925064",
@@ -2049,7 +2049,7 @@
     "key": null,
     "name": "Ole Miss Rebels",
     "abbr": "MISS",
-    "score": 11,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2057,13 +2057,13 @@
     "key": "nicholls",
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": 2,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:35 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921134",
@@ -9851,5 +9851,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T01:48:14+00:00"
+ "live_at": "2026-11-18T02:20:30+00:00"
 }

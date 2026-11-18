@@ -21,9 +21,9 @@ _Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**34 of 100, testy.** Record 2-3 (0-0 in conference), streak L3, last five WWLLL.
+**26 of 100, despondent.** Record 2-4 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ _Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925896.html <!-- post:401925896:preview -->
 - 2026-11-15: Social recap posted (L 53-78 vs Georgia State Panthers): https://hardwoodbricks.com/sunbelt/games/401925896.html <!-- post:401925896:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:preview -->
+- 2026-11-18: L 79-93 at Georgia Tech Yellow Jackets. Barometer 26 (despondent). <!-- g:401920308 -->

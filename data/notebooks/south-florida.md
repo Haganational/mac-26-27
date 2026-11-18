@@ -21,9 +21,9 @@ _South Florida (American). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**54 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**62 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nico editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nico editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _South Florida (American). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-11: L 80-83 vs (neutral) Saint Joseph's Hawks. Barometer 45 (steady). <!-- g:401918992 -->
 - 2026-11-14: W 73-63 vs Coppin State Eagles. Barometer 54 (steady). <!-- g:401918993 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
+- 2026-11-18: W 98-71 vs Tennessee State Tigers. Barometer 62 (steady). <!-- g:401918994 -->

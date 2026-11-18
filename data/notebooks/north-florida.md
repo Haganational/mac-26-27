@@ -21,9 +21,9 @@ _North Florida (ASUN). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**31 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**47 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tyler editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tyler editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ _North Florida (ASUN). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,5 @@ _North Florida (ASUN). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-14: L 74-77 vs The Citadel Bulldogs. Barometer 31 (testy). <!-- g:401922220 -->
 - 2026-11-14: Social recap posted (L 74-77 vs The Citadel Bulldogs): https://hardwoodbricks.com/asun/games/401922220.html <!-- post:401922220:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401922221.html <!-- post:401922221:preview -->
+- 2026-11-18: W 98-59 vs Fort Lauderdale Eagles. Barometer 47 (steady). <!-- g:401922221 -->
+- 2026-11-18: Social recap posted (W 98-59 vs Fort Lauderdale Eagles): https://hardwoodbricks.com/asun/games/401922221.html <!-- post:401922221:recap -->

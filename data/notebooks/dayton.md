@@ -21,9 +21,9 @@ _Dayton (A-10). Anchors are fictional AI personas, not affiliated with any schoo
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ _Dayton (A-10). Anchors are fictional AI personas, not affiliated with any schoo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,5 @@ _Dayton (A-10). Anchors are fictional AI personas, not affiliated with any schoo
 - 2026-11-15: L 72-95 vs Cincinnati Bearcats. Barometer 32 (testy). <!-- g:401911188 -->
 - 2026-11-15: Social recap posted (L 72-95 vs Cincinnati Bearcats): https://hardwoodbricks.com/a10/games/401911188.html <!-- post:401911188:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:preview -->
+- 2026-11-18: W 88-63 vs Central Michigan Chippewas. Barometer 48 (steady). <!-- g:401911019 -->
+- 2026-11-18: Social recap posted (W 88-63 vs Central Michigan Chippewas): https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:recap -->

@@ -25,9 +25,9 @@ _Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 
 ## Barometer
 
-**80 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**59 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Trevor editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Trevor editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ _Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -77,3 +77,5 @@ _Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-14: W 68-57 at Northern Kentucky Norse. Barometer 80 (giddy). <!-- g:401911016 -->
 - 2026-11-14: Social recap posted (W 68-57 vs Northern Kentucky Norse): https://hardwoodbricks.com/games/401911016.html <!-- post:401911016:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:preview -->
+- 2026-11-18: L 63-88 at Dayton Flyers. Barometer 59 (steady). <!-- g:401911019 -->
+- 2026-11-18: Social recap posted (L 63-88 vs Dayton Flyers): https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:recap -->

@@ -2378,7 +2378,7 @@
     "key": null,
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2386,13 +2386,13 @@
     "key": "alabama-state",
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:47 - 1st"
   },
   {
    "game_id": "401909753",
@@ -10805,5 +10805,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T02:24:30+00:00"
 }

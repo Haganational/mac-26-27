@@ -21,9 +21,9 @@ _Davidson (A-10). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**60 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**51 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -71,3 +71,4 @@ _Davidson (A-10). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-15: L 58-64 vs Howard Bison. Barometer 60 (steady). <!-- g:401925774 -->
 - 2026-11-15: Social recap posted (L 58-64 vs Howard Bison): https://hardwoodbricks.com/a10/games/401925774.html <!-- post:401925774:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
+- 2026-11-18: L 66-73 vs Charlotte 49ers. Barometer 51 (steady). <!-- g:401925775 -->

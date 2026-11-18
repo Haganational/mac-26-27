@@ -21,9 +21,9 @@ _Delaware State (MEAC). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**33 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Delaware State (MEAC). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-10: L 78-83 at Georgetown Hoyas. Barometer 43 (testy). <!-- g:401909514 -->
 - 2026-11-14: L 48-72 at East Carolina Pirates. Barometer 33 (testy). <!-- g:401918979 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/meac/games/401927342.html <!-- post:401927342:preview -->
+- 2026-11-18: W 90-70 vs Cheyney (PA) Wolves. Barometer 48 (steady). <!-- g:401927342 -->

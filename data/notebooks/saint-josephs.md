@@ -21,9 +21,9 @@ _Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**76 of 100, buoyant.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**83 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -62,7 +62,7 @@ _Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -73,3 +73,5 @@ _Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/a10/games/401920193.html <!-- post:401920193:preview -->
 - 2026-11-15: Social recap posted (W 83-77 vs Pennsylvania Quakers): https://hardwoodbricks.com/a10/games/401920193.html <!-- post:401920193:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:preview -->
+- 2026-11-18: W 84-65 vs Wagner Seahawks. Barometer 83 (giddy). <!-- g:401920194 -->
+- 2026-11-18: Social recap posted (W 84-65 vs Wagner Seahawks): https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:recap -->

@@ -21,9 +21,9 @@ _Fordham (A-10). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
+**77 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 77% of stories right now.
 
 ## School and town
 
@@ -57,7 +57,7 @@ _Fordham (A-10). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -66,3 +66,5 @@ _Fordham (A-10). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-11: W 78-72 vs Iona Gaels. Barometer 59 (steady). <!-- g:401911196 -->
 - 2026-11-14: W 80-58 vs Long Island University Sharks. Barometer 69 (buoyant). <!-- g:401911197 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:preview -->
+- 2026-11-18: W 80-61 at Manhattan Jaspers. Barometer 77 (buoyant). <!-- g:401911198 -->
+- 2026-11-18: Social recap posted (W 80-61 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:recap -->

@@ -21,9 +21,9 @@ _Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any s
 
 ## Barometer
 
-**38 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**32 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -57,7 +57,7 @@ _Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -68,3 +68,5 @@ _Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-14: L 62-76 at Le Moyne Dolphins. Barometer 38 (testy). <!-- g:401919782 -->
 - 2026-11-15: Social recap posted (L 62-76 vs Le Moyne Dolphins): https://hardwoodbricks.com/metro/games/401919782.html <!-- post:401919782:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:preview -->
+- 2026-11-18: L 61-80 vs Fordham Rams. Barometer 32 (testy). <!-- g:401911198 -->
+- 2026-11-18: Social recap posted (L 61-80 vs Fordham Rams): https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:recap -->
