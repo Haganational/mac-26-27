@@ -1799,21 +1799,21 @@
     "key": null,
     "name": "Kansas Jayhawks",
     "abbr": "KU",
-    "score": 90,
-    "winner": null
+    "score": 102,
+    "winner": true
    },
    "away": {
     "espn_id": "2439",
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": 56,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:50 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911473",
@@ -8769,5 +8769,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T04:32:15+00:00"
+ "live_at": "2026-11-18T05:06:55+00:00"
 }

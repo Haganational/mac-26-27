@@ -21,9 +21,9 @@ _Cal Baptist (Big West). Anchors are fictional AI personas, not affiliated with 
 
 ## Barometer
 
-**41 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -62,7 +62,7 @@ _Cal Baptist (Big West). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -73,3 +73,5 @@ _Cal Baptist (Big West). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-14: W 74-60 vs Arkansas-Pine Bluff Golden Lions. Barometer 41 (testy). <!-- g:401920345 -->
 - 2026-11-14: Social recap posted (W 74-60 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/bigwest/games/401920345.html <!-- post:401920345:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:preview -->
+- 2026-11-18: L 54-83 vs Seattle U Redhawks. Barometer 34 (testy). <!-- g:401917533 -->
+- 2026-11-18: Social recap posted (L 54-83 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:recap -->

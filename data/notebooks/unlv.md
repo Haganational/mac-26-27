@@ -21,9 +21,9 @@ _UNLV (Mountain West). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**73 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**55 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vanessa editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vanessa editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _UNLV (Mountain West). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -73,3 +73,5 @@ _UNLV (Mountain West). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-14: W 76-68 vs Stanford Cardinal. Barometer 73 (buoyant). <!-- g:401921728 -->
 - 2026-11-14: Social recap posted (W 76-68 vs Stanford Cardinal): https://hardwoodbricks.com/mw/games/401921728.html <!-- post:401921728:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401909787.html <!-- post:401909787:preview -->
+- 2026-11-18: L 77-102 vs (neutral) Kansas Jayhawks. Barometer 55 (steady). <!-- g:401909787 -->
+- 2026-11-18: Social recap posted (L 77-102 vs Kansas Jayhawks): https://hardwoodbricks.com/mw/games/401909787.html <!-- post:401909787:recap -->

@@ -59,7 +59,7 @@ _UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -71,3 +71,4 @@ _UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-15: Social recap posted (W 75-56 vs Sacramento State Hornets): https://hardwoodbricks.com/mw/games/401911520.html <!-- post:401911520:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:preview -->
 - 2026-11-18: L 68-75 vs Alabama State Hornets. Barometer 57 (steady). <!-- g:401911521 -->
+- 2026-11-18: Social recap posted (L 68-75 vs Alabama State Hornets): https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:recap -->

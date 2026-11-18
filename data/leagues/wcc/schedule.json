@@ -1898,21 +1898,21 @@
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 92,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "594",
     "key": null,
     "name": "Pacific Union Pioneers",
     "abbr": "PUC",
-    "score": 39,
-    "winner": null
+    "score": 41,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:09 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917533",
@@ -1939,21 +1939,21 @@
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": 44,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
    "away": {
     "espn_id": "2547",
     "key": "seattle",
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": 66,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:49 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909762",
@@ -9440,5 +9440,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T04:36:28+00:00"
+ "live_at": "2026-11-18T05:11:18+00:00"
 }

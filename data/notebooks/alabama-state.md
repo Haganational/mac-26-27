@@ -64,7 +64,7 @@ _Alabama State (SWAC). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,4 @@ _Alabama State (SWAC). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-16: Social recap posted (L 68-80 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401911472.html <!-- post:401911472:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:preview -->
 - 2026-11-18: W 75-68 at UC Davis Aggies. Barometer 48 (steady). <!-- g:401911521 -->
+- 2026-11-18: Social recap posted (W 75-68 vs UC Davis Aggies): https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:recap -->

@@ -21,9 +21,9 @@ _Seattle U (WCC). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**61 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _Seattle U (WCC). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,5 @@ _Seattle U (WCC). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-15: W 77-70 vs Idaho State Bengals. Barometer 52 (steady). <!-- g:401917528 -->
 - 2026-11-15: Social recap posted (W 77-70 vs Idaho State Bengals): https://hardwoodbricks.com/wcc/games/401917528.html <!-- post:401917528:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:preview -->
+- 2026-11-18: W 83-54 at California Baptist Lancers. Barometer 61 (steady). <!-- g:401917533 -->
+- 2026-11-18: Social recap posted (W 83-54 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:recap -->
