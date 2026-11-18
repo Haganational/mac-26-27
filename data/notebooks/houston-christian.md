@@ -63,7 +63,7 @@ _Houston Christian (Southland). Anchors are fictional AI personas, not affiliate
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -71,3 +71,4 @@ _Houston Christian (Southland). Anchors are fictional AI personas, not affiliate
 - 2026-11-08: W 74-67 vs (neutral) Western Illinois Leathernecks. Barometer 68 (buoyant). <!-- g:401924951 -->
 - 2026-11-11: W 87-76 at South Dakota Coyotes. Barometer 74 (buoyant). <!-- g:401924952 -->
 - 2026-11-14: W 108-73 vs College of Biblical Studies Ambassadors. Barometer 81 (giddy). <!-- g:401924953 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:preview -->

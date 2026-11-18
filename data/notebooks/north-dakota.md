@@ -62,7 +62,7 @@ _North Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -73,3 +73,4 @@ _North Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:preview -->
 - 2026-11-18: W 83-78 vs SIU Edwardsville Cougars. Barometer 45 (steady). <!-- g:401926143 -->
 - 2026-11-18: Social recap posted (W 83-78 vs SIU Edwardsville Cougars): https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401929409.html <!-- post:401929409:preview -->

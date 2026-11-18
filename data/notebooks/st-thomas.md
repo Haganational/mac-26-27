@@ -63,7 +63,7 @@ _St. Thomas (Summit). Anchors are fictional AI personas, not affiliated with any
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -75,3 +75,4 @@ _St. Thomas (Summit). Anchors are fictional AI personas, not affiliated with any
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/summit/games/401919807.html <!-- post:401919807:preview -->
 - 2026-11-17: W 79-70 at Long Island University Sharks. Barometer 53 (steady). <!-- g:401919807 -->
 - 2026-11-17: Social recap posted (W 79-70 vs Long Island University Sharks): https://hardwoodbricks.com/summit/games/401919807.html <!-- post:401919807:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:preview -->

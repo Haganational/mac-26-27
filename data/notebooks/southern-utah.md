@@ -66,7 +66,7 @@ _Southern Utah (Big Sky). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -75,3 +75,4 @@ _Southern Utah (Big Sky). Anchors are fictional AI personas, not affiliated with
 - 2026-11-08: W 143-49 vs Bethesda Flames. Barometer 78 (buoyant). <!-- g:401931055 -->
 - 2026-11-13: L 59-88 at High Point Panthers. Barometer 59 (steady). <!-- g:401920412 -->
 - 2026-11-14: L 51-89 at Wake Forest Demon Deacons. Barometer 48 (steady). <!-- g:401909728 -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401906867.html <!-- post:401906867:preview -->

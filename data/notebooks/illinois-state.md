@@ -64,7 +64,7 @@ _Illinois State (Missouri Valley). Anchors are fictional AI personas, not affili
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -75,3 +75,4 @@ _Illinois State (Missouri Valley). Anchors are fictional AI personas, not affili
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:preview -->
 - 2026-11-18: W 76-59 vs Bellarmine Knights. Barometer 51 (steady). <!-- g:401921106 -->
 - 2026-11-18: Social recap posted (W 76-59 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401927375.html <!-- post:401927375:preview -->

@@ -63,7 +63,7 @@ _SEMO (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _SEMO (OVC). Anchors are fictional AI personas, not affiliated with any school. 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ovc/games/401926153.html <!-- post:401926153:preview -->
 - 2026-11-17: W 115-45 vs Midway Eagles. Barometer 55 (steady). <!-- g:401926153 -->
 - 2026-11-17: Social recap posted (W 115-45 vs Midway Eagles): https://hardwoodbricks.com/ovc/games/401926153.html <!-- post:401926153:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:preview -->

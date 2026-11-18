@@ -62,7 +62,7 @@ _Stetson (ASUN). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _Stetson (ASUN). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/asun/games/401922240.html <!-- post:401922240:preview -->
 - 2026-11-17: W 91-56 vs Florida Memorial Lions. Barometer 39 (testy). <!-- g:401922240 -->
 - 2026-11-17: Social recap posted (W 91-56 vs Florida Memorial Lions): https://hardwoodbricks.com/asun/games/401922240.html <!-- post:401922240:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401918950.html <!-- post:401918950:preview -->
