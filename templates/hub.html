@@ -26,7 +26,7 @@
 {% include "_hub_style.html" %}
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True) }}
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True, mateo=True) }}
 <div class="bricks" aria-hidden="true"></div>
 {% macro conf_tile(e) %}{% set top = tops.get(e.key) %}
     <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
