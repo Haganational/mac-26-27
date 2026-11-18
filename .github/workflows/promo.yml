@@ -18,7 +18,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
@@ -27,6 +27,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12", cache: pip}
       - run: pip install -r requirements.txt
+      - name: Join films split into parts (GitHub refuses files over 100 MB)
+        run: |
+          for p in branch/promos/*/*.mp4.part-0; do [ -e "$p" ] || continue; cat "${p%.part-0}".part-* > "${p%.part-0}"; ls -la "${p%.part-0}"; done
       - name: Publish the reels as a release (Instagram and Threads fetch them from there)
         env:
           GH_TOKEN: ${{ github.token }}
