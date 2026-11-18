@@ -115,7 +115,7 @@ def profile(key: str, homer: dict[str, dict[str, Any]] | None = None) -> dict[st
             "rival": {**rival, "href": f"anchors/{rival['key']}.html"} if rival else None,
             "stories": alumni.stories(key), "homer": (homer or {}).get(key),
             "paper": press.paper(key), "town": (press.papers().get(key) or {}).get("town", ""),
-            "lean": (press.leans().get(key) or {}).get("lean", ""),
+            "lean": (press.leans().get(key) or {}).get("lean", ""), "bio": anchors.bio(key),
             "audio": f"anchors/audio/{key}.ogg" if (anchors.AUDITIONS / f"{key}.ogg").exists() else None}
 
 

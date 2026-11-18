@@ -66,6 +66,11 @@
     </div>
   </div>
 
+  {% if a.bio %}<section aria-labelledby="h-bio">
+    <h2 id="h-bio">Who they are</h2>
+    <p>{{ a.bio }}</p>
+  </section>{% endif %}
+
   <section aria-label="On air">
     <div class="facts">
       {% if a.paper %}<div><span class="k">Edits the hometown paper</span><b><i>{{ a.paper }}</i>{% if a.town %}, {{ a.town }}{% endif %}</b></div>{% endif %}
