@@ -1,0 +1,17 @@
+name: Fetch fonts
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/fonts/urls.txt"]
+permissions:
+  contents: write
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          for f in docs/*/fonts/urls.txt; do d=$(dirname $f); while read u n; do [ -n "$u" ] && curl -fsSL "$u" -o "$d/$n"; done < $f; done
+          git config user.name "docs-scout"; git config user.email "actions@users.noreply.github.com"
+          git add docs/*/fonts; git commit -m "docs: fetched OFL fonts" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
