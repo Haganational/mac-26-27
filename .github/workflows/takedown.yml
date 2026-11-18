@@ -1,0 +1,35 @@
+name: Retire a released cut
+
+# Runs promos/takedown.py on each promos/<film>/takedown.json that changed. YouTube: private + retired title.
+# Facebook, Instagram, Threads, Bluesky: delete. Only on Matthew's say-so.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["promos/*/takedown.json"]
+
+permissions:
+  contents: read
+
+jobs:
+  takedown:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/checkout@v4
+        with: {path: branch}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: Take down
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: PYTHONPATH=. python branch/promos/takedown.py branch/promos/*/takedown.json
