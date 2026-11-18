@@ -186,15 +186,31 @@ def load_ledger(now: datetime) -> dict[str, Any]:
     return led
 
 
+def _gh(*a: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(["gh", "release", *a], check=False, capture_output=True, text=True)
+
+
+def _ensure_ledger_release() -> None:
+    if _gh("view", LEDGER_TAG).returncode != 0:
+        _gh("create", LEDGER_TAG, "--title", "Stories ledger",
+            "--notes", "What mac/stories.py has posted as Facebook and Instagram Stories, plus trimmed cuts. Not a show.")
+
+
+def publish_cut(mp4: Path) -> str:
+    """Put a trimmed Story cut on the ledger release and return its public URL."""
+    _ensure_ledger_release()
+    up = _gh("upload", LEDGER_TAG, str(mp4), "--clobber")
+    if up.returncode != 0:
+        raise RuntimeError(f"could not publish the trimmed cut: {up.stderr[:300]}")
+    return f"https://github.com/{REPO}/releases/download/{LEDGER_TAG}/{mp4.name}"
+
+
 def save_ledger(led: dict[str, Any]) -> None:
     led["log"] = led["log"][-500:]
     path = Path(tempfile.gettempdir()) / LEDGER_FILE
     path.write_text(json.dumps(led, indent=1, sort_keys=True))
-    sh = lambda *a: subprocess.run(["gh", "release", *a], check=False, capture_output=True, text=True)  # noqa: E731
-    if sh("view", LEDGER_TAG).returncode != 0:
-        sh("create", LEDGER_TAG, "--title", "Stories ledger",
-           "--notes", "What mac/stories.py has posted as Facebook and Instagram Stories. Not a show.")
-    up = sh("upload", LEDGER_TAG, str(path), "--clobber")
+    _ensure_ledger_release()
+    up = _gh("upload", LEDGER_TAG, str(path), "--clobber")
     if up.returncode != 0:
         raise RuntimeError(f"could not save the stories ledger: {up.stderr[:300]}")
 
@@ -290,11 +306,11 @@ def post(item: Item, nets: list[str]) -> dict[str, str]:
                     sid = fb_video_story(page, token, mp4) if mp4 else fb_photo_story(page, token, item.url)
                     results[net] = f"posted {sid}"
                 elif net == "instagram":
-                    if item.kind == "video" and secs > MAX_SECONDS:
-                        results[net] = "skipped (over a minute; Instagram Stories take the trimmed cut only on Facebook)"
-                        continue
+                    url = item.url
+                    if mp4 and secs > MAX_SECONDS:  # Instagram fetches by URL, so publish the trimmed cut first
+                        url = publish_cut(mp4)
                     token, user, host = ig_auth(e)
-                    results[net] = f"posted {ig_story(user, token, host, resolve(item.url), item.kind)}"
+                    results[net] = f"posted {ig_story(user, token, host, resolve(url), item.kind)}"
             except Exception as ex:  # noqa: BLE001 - one network's trouble must not stop the other
                 results[net] = f"failed: {ex}"
     return results

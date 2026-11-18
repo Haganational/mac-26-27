@@ -12,6 +12,9 @@ on:
         description: "Post one pick to Facebook and Instagram right now, whatever the hour"
         type: boolean
         default: true
+      networks:
+        description: "Which networks (comma-separated)"
+        default: "facebook,instagram"
 
 permissions:
   contents: write
@@ -33,6 +36,7 @@ jobs:
       ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
       ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
       ALERT_TO: ${{ vars.ALERT_TO }}
+      STORY_NETWORKS: ${{ github.event.inputs.networks || 'facebook,instagram' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
