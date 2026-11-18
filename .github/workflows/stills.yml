@@ -1,0 +1,35 @@
+name: Film stills (Commons)
+
+# Downloads the exact free-license Commons files a film lists in docs/<film>/stills.json and
+# commits them back to the same claude/ branch. Nothing is published.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/stills.json", "tools/fetch_stills.py", ".github/workflows/stills.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pillow
+      - name: Fetch every film whose stills.json changed
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD | grep -E '^docs/[^/]+/stills.json$' || true); do
+            python tools/fetch_stills.py "$(dirname "$f")"
+          done
+      - name: Commit stills back
+        run: |
+          git config user.name "docs-stills"; git config user.email "actions@users.noreply.github.com"
+          git add docs/*/stills || true
+          git commit -m "docs: film stills from Commons" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && break; sleep 5; done
