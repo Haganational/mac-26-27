@@ -21,9 +21,9 @@ _UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with an
 
 ## Barometer
 
-**77 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**61 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 77% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ _UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -72,3 +72,5 @@ _UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-08: W 91-79 vs San José State Spartans. Barometer 69 (buoyant). <!-- g:401911470 -->
 - 2026-11-12: W 90-40 vs Lincoln (CA) Oaklanders. Barometer 77 (buoyant). <!-- g:401929625 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921729.html <!-- post:401921729:preview -->
+- 2026-11-18: L 61-65 at Stanford Cardinal. Barometer 61 (steady). <!-- g:401921729 -->
+- 2026-11-18: Social recap posted (L 61-65 vs Stanford Cardinal): https://hardwoodbricks.com/bigwest/games/401921729.html <!-- post:401921729:recap -->

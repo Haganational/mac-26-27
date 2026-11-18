@@ -1934,8 +1934,8 @@
     "key": null,
     "name": "Stanford Cardinal",
     "abbr": "STAN",
-    "score": 63,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
    "away": {
     "espn_id": "300",
@@ -1943,12 +1943,12 @@
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
     "score": 61,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917535",
@@ -9802,5 +9802,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T05:08:26+00:00"
+ "live_at": "2026-11-18T05:41:00+00:00"
 }
