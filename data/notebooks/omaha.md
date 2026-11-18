@@ -63,7 +63,7 @@ _Omaha (Summit). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -74,3 +74,4 @@ _Omaha (Summit). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-14: W 67-56 vs Lindenwood Lions. Barometer 56 (steady). <!-- g:401929040 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:preview -->
 - 2026-11-18: L 74-104 vs Lamar Cardinals. Barometer 46 (steady). <!-- g:401925012 -->
+- 2026-11-18: Social recap posted (L 74-104 vs Lamar Cardinals): https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:recap -->

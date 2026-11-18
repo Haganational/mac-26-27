@@ -21,9 +21,9 @@ _Sam Houston (CUSA). Anchors are fictional AI personas, not affiliated with any 
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
+**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Travis editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Travis editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Sam Houston (CUSA). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-12: W 85-77 vs Pepperdine Waves. Barometer 60 (steady). <!-- g:401928794 -->
 - 2026-11-14: L 86-108 at Illinois Fighting Illini. Barometer 47 (steady). <!-- g:401913528 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:preview -->
+- 2026-11-18: L 79-81 at Wyoming Cowboys. Barometer 42 (testy). <!-- g:401924922 -->

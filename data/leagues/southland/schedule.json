@@ -2006,7 +2006,7 @@
     "name": "Rice Owls",
     "abbr": "RICE",
     "score": 81,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "357",
@@ -2014,12 +2014,12 @@
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
     "score": 74,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925064",
@@ -9851,5 +9851,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:26:25+00:00"
+ "live_at": "2026-11-18T04:02:56+00:00"
 }

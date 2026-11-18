@@ -1990,21 +1990,21 @@
     "key": null,
     "name": "Utah Utes",
     "abbr": "UTAH",
-    "score": 56,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "331",
     "key": "eastern-washington",
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": 59,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925879",
@@ -9534,5 +9534,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:25:53+00:00"
+ "live_at": "2026-11-18T04:02:24+00:00"
 }

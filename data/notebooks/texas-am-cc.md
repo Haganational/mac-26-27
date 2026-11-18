@@ -21,9 +21,9 @@ _Texas A&M-CC (Southland). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**49 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
+**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marisa editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marisa editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _Texas A&M-CC (Southland). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-11: W 102-58 vs Dallas Christian Crusaders. Barometer 61 (steady). <!-- g:401925098 -->
 - 2026-11-13: L 60-84 at Florida State Seminoles. Barometer 49 (steady). <!-- g:401909696 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:preview -->
+- 2026-11-18: L 74-81 at Rice Owls. Barometer 42 (testy). <!-- g:401921097 -->

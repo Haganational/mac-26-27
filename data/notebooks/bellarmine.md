@@ -64,7 +64,7 @@ _Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ _Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-14: Social recap posted (L 64-72 vs Northern Illinois Huskies): https://hardwoodbricks.com/asun/games/401920915.html <!-- post:401920915:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:preview -->
 - 2026-11-18: L 59-76 at Illinois State Redbirds. Barometer 32 (testy). <!-- g:401921106 -->
+- 2026-11-18: Social recap posted (L 59-76 vs Illinois State Redbirds): https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:recap -->

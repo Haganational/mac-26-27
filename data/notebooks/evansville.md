@@ -62,7 +62,7 @@ _Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated
 - 2026-11-14: Social recap posted (L 78-86 vs Miami (OH) RedHawks): https://hardwoodbricks.com/games/401911015.html <!-- post:401911015:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:preview -->
 - 2026-11-18: W 79-65 vs Le Moyne Dolphins. Barometer 54 (steady). <!-- g:401919783 -->
+- 2026-11-18: Social recap posted (W 79-65 vs Le Moyne Dolphins): https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:recap -->

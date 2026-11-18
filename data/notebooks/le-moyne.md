@@ -62,7 +62,7 @@ _Le Moyne (NEC). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -74,3 +74,4 @@ _Le Moyne (NEC). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-15: Social recap posted (W 76-62 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401919782.html <!-- post:401919782:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:preview -->
 - 2026-11-18: L 65-79 at Evansville Purple Aces. Barometer 46 (steady). <!-- g:401919783 -->
+- 2026-11-18: Social recap posted (L 65-79 vs Evansville Purple Aces): https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:recap -->

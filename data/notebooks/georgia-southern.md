@@ -63,7 +63,7 @@ _Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated 
 - 2026-11-14: L 70-84 at UCF Knights. Barometer 32 (testy). <!-- g:401921026 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:preview -->
 - 2026-11-18: L 78-85 vs Middle Tennessee Blue Raiders. Barometer 26 (despondent). <!-- g:401921027 -->
+- 2026-11-18: Social recap posted (L 78-85 vs Middle Tennessee Blue Raiders): https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:recap -->

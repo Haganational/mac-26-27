@@ -21,9 +21,9 @@ _Rice (American). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -72,3 +72,4 @@ _Rice (American). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-10: L 73-91 at Stanford Cardinal. Barometer 42 (testy). <!-- g:401921095 -->
 - 2026-11-14: W 81-78 at Stephen F. Austin Lumberjacks. Barometer 50 (steady). <!-- g:401921096 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:preview -->
+- 2026-11-18: W 81-74 vs Texas A&M-Corpus Christi Islanders. Barometer 57 (steady). <!-- g:401921097 -->

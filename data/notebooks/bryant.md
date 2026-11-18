@@ -61,7 +61,7 @@ _Bryant (America East). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -72,3 +72,4 @@ _Bryant (America East). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-13: L 51-72 at Rutgers Scarlet Knights. Barometer 22 (despondent). <!-- g:401923270 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911020.html <!-- post:401911020:preview -->
 - 2026-11-18: W 83-79 at Massachusetts Minutemen. Barometer 39 (testy). <!-- g:401911020 -->
+- 2026-11-18: Social recap posted (W 83-79 vs Massachusetts Minutemen): https://hardwoodbricks.com/games/401911020.html <!-- post:401911020:recap -->

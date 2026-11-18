@@ -65,7 +65,7 @@ _Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -75,3 +75,4 @@ _Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with
 - 2026-11-14: W 88-75 vs Southeast Missouri State Redhawks. Barometer 62 (steady). <!-- g:401926152 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:preview -->
 - 2026-11-18: W 85-78 at Georgia Southern Eagles. Barometer 69 (buoyant). <!-- g:401921027 -->
+- 2026-11-18: Social recap posted (W 85-78 vs Georgia Southern Eagles): https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:recap -->

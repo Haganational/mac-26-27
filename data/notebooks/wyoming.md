@@ -21,9 +21,9 @@ _Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with
 
 ## Barometer
 
-**64 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
+**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with
 - 2026-11-14: W 76-53 at Denver Pioneers. Barometer 64 (steady). <!-- g:401924921 -->
 - 2026-11-14: Social recap posted (W 76-53 vs Denver Pioneers): https://hardwoodbricks.com/mw/games/401924921.html <!-- post:401924921:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:preview -->
+- 2026-11-18: W 81-79 vs Sam Houston Bearkats. Barometer 66 (buoyant). <!-- g:401924922 -->

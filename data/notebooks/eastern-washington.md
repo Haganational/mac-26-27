@@ -21,9 +21,9 @@ _Eastern Washington (Big Sky). Anchors are fictional AI personas, not affiliated
 
 ## Barometer
 
-**44 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**51 of 100, steady.** Record 2-3 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cody editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cody editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ _Eastern Washington (Big Sky). Anchors are fictional AI personas, not affiliated
 - 2026-11-10: L 84-94 at Oregon State Beavers. Barometer 25 (despondent). <!-- g:401920718 -->
 - 2026-11-14: W 102-68 vs Corban Warriors. Barometer 44 (testy). <!-- g:401920719 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:preview -->
+- 2026-11-18: W 71-67 at Utah Utes. Barometer 51 (steady). <!-- g:401920720 -->

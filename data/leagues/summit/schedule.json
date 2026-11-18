@@ -1862,7 +1862,7 @@
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
     "score": 83,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2565",
@@ -1870,12 +1870,12 @@
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
     "score": 78,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401925012",
@@ -7851,5 +7851,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:26:57+00:00"
+ "live_at": "2026-11-18T04:03:29+00:00"
 }

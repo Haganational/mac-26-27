@@ -2813,20 +2813,20 @@
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
     "score": 72,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "250",
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 82,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:27 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920426",
@@ -2856,7 +2856,7 @@
     "key": null,
     "name": "Virginia Cavaliers",
     "abbr": "UVA",
-    "score": 50,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -2864,13 +2864,13 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": 33,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:24 - 2nd"
+   "detail": "4:24 - 2nd"
   },
   {
    "game_id": "401926838",
@@ -12407,5 +12407,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:23:01+00:00"
+ "live_at": "2026-11-18T03:59:30+00:00"
 }

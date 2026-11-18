@@ -21,9 +21,9 @@ _North Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**45 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ingrid editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ingrid editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -71,3 +71,4 @@ _North Dakota (Summit). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-10: L 77-92 at Clemson Tigers. Barometer 40 (testy). <!-- g:401918074 -->
 - 2026-11-15: L 71-80 vs Montana Grizzlies. Barometer 35 (testy). <!-- g:401922031 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:preview -->
+- 2026-11-18: W 83-78 vs SIU Edwardsville Cougars. Barometer 45 (steady). <!-- g:401926143 -->

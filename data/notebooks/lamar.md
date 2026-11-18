@@ -64,7 +64,7 @@ _Lamar (Southland). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Lamar (Southland). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-12: W 122-57 vs Centenary (LA) Ladies. Barometer 62 (steady). <!-- g:401925011 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:preview -->
 - 2026-11-18: W 104-74 at Omaha Mavericks. Barometer 68 (buoyant). <!-- g:401925012 -->
+- 2026-11-18: Social recap posted (W 104-74 vs Omaha Mavericks): https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:recap -->

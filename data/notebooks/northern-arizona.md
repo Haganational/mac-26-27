@@ -65,7 +65,7 @@ _Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -75,3 +75,4 @@ _Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated w
 - 2026-11-14: L 77-78 at Kentucky Wildcats. Barometer 20 (despondent). <!-- g:401921803 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:preview -->
 - 2026-11-18: W 72-59 vs Embry Riddle (AZ) Eagles. Barometer 40 (testy). <!-- g:401927867 -->
+- 2026-11-18: Social recap posted (W 72-59 vs Embry Riddle (AZ) Eagles): https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:recap -->

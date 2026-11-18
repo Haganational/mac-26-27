@@ -1890,7 +1890,7 @@
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": 10,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -1898,13 +1898,13 @@
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": 23,
+    "score": 48,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:17 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401921729",
@@ -1934,7 +1934,7 @@
     "key": null,
     "name": "Stanford Cardinal",
     "abbr": "STAN",
-    "score": 7,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -1942,13 +1942,13 @@
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 14,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:52 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917535",
@@ -9802,5 +9802,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:19:41+00:00"
+ "live_at": "2026-11-18T03:56:10+00:00"
 }

@@ -21,9 +21,9 @@ _Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**39 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -73,3 +73,4 @@ _Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-12: W 84-80 vs Jackson State Tigers. Barometer 55 (steady). <!-- g:401921037 -->
 - 2026-11-14: L 65-85 at Texas State Bobcats. Barometer 44 (testy). <!-- g:401929199 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:preview -->
+- 2026-11-18: L 72-83 vs UT Arlington Mavericks. Barometer 39 (testy). <!-- g:401929358 -->

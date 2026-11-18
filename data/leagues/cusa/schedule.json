@@ -1881,21 +1881,21 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 76,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "2534",
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 65,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911534",
@@ -8837,5 +8837,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:24:50+00:00"
+ "live_at": "2026-11-18T04:01:21+00:00"
 }

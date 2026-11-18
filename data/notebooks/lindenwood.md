@@ -64,7 +64,7 @@ _Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -75,3 +75,4 @@ _Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any sc
 - 2026-11-14: L 56-67 at Omaha Mavericks. Barometer 42 (testy). <!-- g:401929040 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
 - 2026-11-18: L 74-81 at Northern Iowa Panthers. Barometer 35 (testy). <!-- g:401927388 -->
+- 2026-11-18: Social recap posted (L 74-81 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->

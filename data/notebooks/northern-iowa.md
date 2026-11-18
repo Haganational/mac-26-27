@@ -62,7 +62,7 @@ _Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affilia
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,4 @@ _Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affilia
 - 2026-11-15: Social recap posted (L 76-80 vs Oakland Golden Grizzlies): https://hardwoodbricks.com/horizon/games/401927387.html <!-- post:401927387:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
 - 2026-11-18: W 81-74 vs Lindenwood Lions. Barometer 50 (steady). <!-- g:401927388 -->
+- 2026-11-18: Social recap posted (W 81-74 vs Lindenwood Lions): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->
