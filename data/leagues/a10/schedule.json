@@ -2427,7 +2427,7 @@
     "key": "davidson",
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 0,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2435,13 +2435,13 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": 2,
+    "score": 26,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:42 - 1st"
+   "detail": "5:41 - 1st"
   },
   {
    "game_id": "401911019",
@@ -2476,7 +2476,7 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2484,13 +2484,13 @@
     "key": null,
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:30 - 1st"
   },
   {
    "game_id": "401911198",
@@ -2520,7 +2520,7 @@
     "key": null,
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": 6,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2528,13 +2528,13 @@
     "key": "fordham",
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": 0,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:12 - 1st"
+   "detail": "4:14 - 1st"
   },
   {
    "game_id": "401920194",
@@ -2564,7 +2564,7 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 6,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2572,13 +2572,13 @@
     "key": null,
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": 2,
+    "score": 21,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:44 - 1st"
+   "detail": "5:10 - 1st"
   },
   {
    "game_id": "401925782",
@@ -12627,5 +12627,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:05:49+00:00"
+ "live_at": "2026-11-18T00:37:21+00:00"
 }

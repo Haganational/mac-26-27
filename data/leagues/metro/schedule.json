@@ -2341,7 +2341,7 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 41,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -2349,13 +2349,13 @@
     "key": "marist",
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 35,
+    "score": 54,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "10:00 - 2nd"
   },
   {
    "game_id": "401923325",
@@ -2385,7 +2385,7 @@
     "key": null,
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 24,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2393,13 +2393,13 @@
     "key": "saint-peters",
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": 26,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "6:33 - 2nd"
   },
   {
    "game_id": "401911198",
@@ -2429,7 +2429,7 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": 0,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2437,13 +2437,13 @@
     "key": null,
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": 0,
+    "score": 23,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:28 - 1st"
+   "detail": "5:31 - 1st"
   },
   {
    "game_id": "401920921",
@@ -2473,7 +2473,7 @@
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2481,13 +2481,13 @@
     "key": null,
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:35 - 1st"
   },
   {
    "game_id": "401921722",
@@ -2517,7 +2517,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": 2,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2525,13 +2525,13 @@
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 2,
+    "score": 10,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:42 - 1st"
+   "detail": "8:27 - 1st"
   },
   {
    "game_id": "401909535",
@@ -2561,7 +2561,7 @@
     "key": null,
     "name": "Providence Friars",
     "abbr": "PROV",
-    "score": 2,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2569,13 +2569,13 @@
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": 0,
+    "score": 23,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:03 - 1st"
+   "detail": "5:56 - 1st"
   },
   {
    "game_id": "401924763",
@@ -11161,5 +11161,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:03:40+00:00"
+ "live_at": "2026-11-18T00:35:15+00:00"
 }

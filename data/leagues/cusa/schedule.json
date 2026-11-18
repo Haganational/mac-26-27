@@ -1661,7 +1661,7 @@
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 34,
+    "score": 62,
     "winner": null
    },
    "away": {
@@ -1669,13 +1669,13 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 53,
+    "score": 71,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:48 - 2nd"
+   "detail": "3:48 - 2nd"
   },
   {
    "game_id": "401919018",
@@ -1705,7 +1705,7 @@
     "key": null,
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1713,13 +1713,13 @@
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:11 - 1st"
   },
   {
    "game_id": "401926781",
@@ -1749,7 +1749,7 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1757,13 +1757,13 @@
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:01 - 1st"
   },
   {
    "game_id": "401906761",
@@ -1793,7 +1793,7 @@
     "key": null,
     "name": "Alabama Crimson Tide",
     "abbr": "ALA",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1801,13 +1801,13 @@
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:54 - 1st"
   },
   {
    "game_id": "401921027",
@@ -8837,5 +8837,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T00:10:52+00:00"
+ "live_at": "2026-11-18T00:42:19+00:00"
 }
