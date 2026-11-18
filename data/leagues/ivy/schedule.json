@@ -1669,21 +1669,21 @@
     "key": "dartmouth",
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": 93,
-    "winner": null
+    "score": 117,
+    "winner": true
    },
    "away": {
     "espn_id": "126890",
     "key": null,
     "name": "Maine Augusta Moose",
     "abbr": "UMA",
-    "score": 48,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911309",
@@ -7131,5 +7131,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T01:14:59+00:00"
+ "live_at": "2026-11-18T01:46:18+00:00"
 }

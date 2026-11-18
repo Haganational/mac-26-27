@@ -2595,7 +2595,7 @@
     "key": "marshall",
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": 28,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -2603,13 +2603,13 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 26,
+    "score": 48,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:43 - 2nd"
+   "detail": "3:32 - 2nd"
   },
   {
    "game_id": "401930568",
@@ -2639,21 +2639,21 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": 83,
-    "winner": null
+    "score": 122,
+    "winner": true
    },
    "away": {
     "espn_id": "2590",
     "key": null,
     "name": "Spring Hill Badgers",
     "abbr": "SPRH",
-    "score": 46,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:14 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920297",
@@ -2683,7 +2683,7 @@
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": 43,
+    "score": 70,
     "winner": null
    },
    "away": {
@@ -2691,13 +2691,13 @@
     "key": null,
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": 34,
+    "score": 56,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:43 - 2nd"
+   "detail": "7:22 - 2nd"
   },
   {
    "game_id": "401926781",
@@ -2727,7 +2727,7 @@
     "key": "louisiana-tech",
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 26,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2735,13 +2735,13 @@
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 29,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:02 - 2nd"
   },
   {
    "game_id": "401921027",
@@ -2771,7 +2771,7 @@
     "key": "georgia-southern",
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 3,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2779,13 +2779,13 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 3,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:34 - 1st"
+   "detail": "6:30 - 1st"
   },
   {
    "game_id": "401929358",
@@ -2812,7 +2812,7 @@
     "key": "southern-miss",
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 10,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2820,13 +2820,13 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 14,
+    "score": 33,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:29 - 1st"
+   "detail": "3:56 - 1st"
   },
   {
    "game_id": "401920426",
@@ -12407,5 +12407,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T01:14:28+00:00"
+ "live_at": "2026-11-18T01:45:44+00:00"
 }

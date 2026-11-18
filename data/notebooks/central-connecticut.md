@@ -21,9 +21,9 @@ _Central Connecticut (NEC). Anchors are fictional AI personas, not affiliated wi
 
 ## Barometer
 
-**61 of 100, steady.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**70 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Joe editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Joe editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -61,7 +61,7 @@ _Central Connecticut (NEC). Anchors are fictional AI personas, not affiliated wi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -75,3 +75,5 @@ _Central Connecticut (NEC). Anchors are fictional AI personas, not affiliated wi
 - 2026-11-15: W 72-67 vs Quinnipiac Bobcats. Barometer 61 (steady). <!-- g:401924858 -->
 - 2026-11-15: Social recap posted (W 72-67 vs Quinnipiac Bobcats): https://hardwoodbricks.com/metro/games/401924858.html <!-- post:401924858:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/nec/games/401925751.html <!-- post:401925751:preview -->
+- 2026-11-18: W 98-55 vs Vermont State Lyndon Hornets. Barometer 70 (buoyant). <!-- g:401925751 -->
+- 2026-11-18: Social recap posted (W 98-55 vs Vermont State Lyndon Hornets): https://hardwoodbricks.com/nec/games/401925751.html <!-- post:401925751:recap -->

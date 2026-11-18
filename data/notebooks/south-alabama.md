@@ -21,9 +21,9 @@ _South Alabama (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**55 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _South Alabama (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,5 @@ _South Alabama (Sun Belt). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-13: W 79-72 vs (neutral) Loyola Marymount Lions. Barometer 52 (steady). <!-- g:401917524 -->
 - 2026-11-14: L 65-66 at North Texas Mean Green. Barometer 46 (steady). <!-- g:401925827 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401930568.html <!-- post:401930568:preview -->
+- 2026-11-18: W 122-69 vs Spring Hill Badgers. Barometer 55 (steady). <!-- g:401930568 -->
+- 2026-11-18: Social recap posted (W 122-69 vs Spring Hill Badgers): https://hardwoodbricks.com/sunbelt/games/401930568.html <!-- post:401930568:recap -->

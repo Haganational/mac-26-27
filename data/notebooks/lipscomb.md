@@ -21,9 +21,9 @@ _Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**49 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ _Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,5 @@ _Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-15: W 75-68 at Western Carolina Catamounts. Barometer 62 (steady). <!-- g:401920705 -->
 - 2026-11-15: Social recap posted (W 75-68 vs Western Carolina Catamounts): https://hardwoodbricks.com/asun/games/401920705.html <!-- post:401920705:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401920706.html <!-- post:401920706:preview -->
+- 2026-11-17: L 78-95 at Purdue Boilermakers. Barometer 49 (steady). <!-- g:401920706 -->
+- 2026-11-18: Social recap posted (L 78-95 vs Purdue Boilermakers): https://hardwoodbricks.com/asun/games/401920706.html <!-- post:401920706:recap -->

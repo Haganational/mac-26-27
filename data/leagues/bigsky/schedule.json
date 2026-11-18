@@ -1946,7 +1946,7 @@
     "key": "northern-arizona",
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": 14,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1954,13 +1954,13 @@
     "key": null,
     "name": "Embry Riddle (AZ) Eagles",
     "abbr": "ERAZ",
-    "score": 9,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:09 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920720",
@@ -1990,7 +1990,7 @@
     "key": null,
     "name": "Utah Utes",
     "abbr": "UTAH",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1998,13 +1998,13 @@
     "key": "eastern-washington",
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:31 - 1st"
   },
   {
    "game_id": "401925879",
@@ -9534,5 +9534,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T01:16:29+00:00"
+ "live_at": "2026-11-18T01:47:51+00:00"
 }

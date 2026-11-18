@@ -1711,7 +1711,7 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1719,13 +1719,13 @@
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:22 - 1st"
   },
   {
    "game_id": "401911521",
@@ -8768,5 +8768,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T01:42:12+00:00"
 }

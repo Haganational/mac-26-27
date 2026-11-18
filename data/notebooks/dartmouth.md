@@ -21,9 +21,9 @@ _Dartmouth (Ivy). Anchors are fictional AI personas, not affiliated with any sch
 
 ## Barometer
 
-**51 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Winnie editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Winnie editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ _Dartmouth (Ivy). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,5 @@ _Dartmouth (Ivy). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ivy/games/401920235.html <!-- post:401920235:preview -->
 - 2026-11-15: Social recap posted (L 75-90 vs Boston University Terriers): https://hardwoodbricks.com/ivy/games/401920235.html <!-- post:401920235:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/ivy/games/401920236.html <!-- post:401920236:preview -->
+- 2026-11-17: W 117-67 vs Maine Augusta Moose. Barometer 59 (steady). <!-- g:401920236 -->
+- 2026-11-18: Social recap posted (W 117-67 vs Maine Augusta Moose): https://hardwoodbricks.com/ivy/games/401920236.html <!-- post:401920236:recap -->
