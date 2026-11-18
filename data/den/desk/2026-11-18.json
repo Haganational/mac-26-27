@@ -2,29 +2,29 @@
  "date": "2026-11-18",
  "desk": {
   "anchor": {
-   "alt": "Derrick Fields, the Coppin State AI anchor",
-   "color": "#2D2A6E",
-   "color2": "#FFC72C",
-   "initials": "DF",
+   "alt": "Nadia Haddad, the Detroit Mercy AI anchor",
+   "color": "#A5093E",
+   "color2": "#002D72",
+   "initials": "NH",
    "ink": "#ffffff",
-   "key": "coppin-state",
-   "name": "Derrick Fields",
-   "portrait": "den/anchors/coppin-state.webp",
-   "school": "Coppin State",
+   "key": "detroit-mercy",
+   "name": "Nadia Haddad",
+   "portrait": "den/anchors/detroit-mercy.webp",
+   "school": "Detroit Mercy",
    "tag": "AI anchor"
   },
   "max": 197,
   "picks": [
    {
-    "abbr": "COPP",
-    "game_id": "401925632",
+    "abbr": "DETM",
+    "game_id": "401920947",
     "kind": "homer",
-    "short": "Coppin State",
+    "short": "Detroit Mercy",
     "side": "away",
-    "team_id": "2154",
-    "tip": "2026-11-19T00:00Z",
+    "team_id": "2174",
+    "tip": "2026-11-18T23:30Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 89
+    "worth": 84
    },
    {
     "abbr": "CHSO",
@@ -34,19 +34,19 @@
     "side": "home",
     "team_id": "2127",
     "tip": "2026-11-19T00:00Z",
-    "why": "Our ratings 77%, pregame win chance 46%.",
-    "worth": 54
+    "why": "Our ratings 77%, pregame win chance 47%.",
+    "worth": 53
    },
    {
-    "abbr": "OU",
-    "game_id": "401906805",
+    "abbr": "LAS",
+    "game_id": "401925632",
     "kind": "ratings",
-    "short": "Oklahoma",
+    "short": "La Salle",
     "side": "home",
-    "team_id": "201",
-    "tip": "2026-11-19T01:00Z",
-    "why": "Our ratings 75%, pregame win chance 95%.",
-    "worth": 5
+    "team_id": "2325",
+    "tip": "2026-11-19T00:00Z",
+    "why": "Our ratings 64%, pregame win chance 89%.",
+    "worth": 11
    },
    {
     "abbr": "HAW",
@@ -193,7 +193,7 @@
    "team_id": "322",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 38
+   "worth": 37
   },
   {
    "abbr": "BING",
@@ -205,7 +205,7 @@
    "team_id": "2066",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 62
+   "worth": 63
   },
   {
    "abbr": "HC",
@@ -241,7 +241,7 @@
    "team_id": "2127",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 54
+   "worth": 53
   },
   {
    "abbr": "WOF",
@@ -253,7 +253,7 @@
    "team_id": "2747",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 46
+   "worth": 47
   },
   {
    "abbr": "UIC",
@@ -313,7 +313,7 @@
    "team_id": "112358",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 80
+   "worth": 79
   },
   {
    "abbr": "UNCW",
@@ -325,7 +325,7 @@
    "team_id": "350",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 20
+   "worth": 21
   },
   {
    "abbr": "GMU",
@@ -493,7 +493,7 @@
    "team_id": "231",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 35
+   "worth": 36
   },
   {
    "abbr": "FGCU",
@@ -505,7 +505,7 @@
    "team_id": "526",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 68
+   "worth": 67
   },
   {
    "abbr": "MRMK",
@@ -793,7 +793,7 @@
    "team_id": "2032",
    "tip": "2026-11-19T01:00Z",
    "why": "Homer pick.",
-   "worth": 3
+   "worth": 2
   },
   {
    "abbr": "UAPB",
@@ -805,7 +805,7 @@
    "team_id": "2029",
    "tip": "2026-11-19T01:00Z",
    "why": "Homer pick.",
-   "worth": 97
+   "worth": 98
   },
   {
    "abbr": "TXST",
@@ -925,7 +925,7 @@
    "team_id": "2458",
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
-   "worth": 98
+   "worth": 99
   },
   {
    "abbr": "USU",
@@ -937,7 +937,7 @@
    "team_id": "328",
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
-   "worth": 6
+   "worth": 2
   },
   {
    "abbr": "WEB",
@@ -949,7 +949,7 @@
    "team_id": "2692",
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
-   "worth": 94
+   "worth": 98
   },
   {
    "abbr": "CSU",
@@ -1045,7 +1045,7 @@
    "team_id": "309",
    "tip": "2026-11-19T03:00Z",
    "why": "Homer pick.",
-   "worth": 84
+   "worth": 83
   },
   {
    "abbr": "HAW",
@@ -1094,6 +1094,18 @@
    "tip": "2026-11-19T03:00Z",
    "why": "Homer pick.",
    "worth": 97
+  },
+  {
+   "abbr": "CSUF",
+   "game_id": "401920158",
+   "key": "cal-state-fullerton",
+   "kind": "homer",
+   "short": "CS Fullerton",
+   "side": "away",
+   "team_id": "2239",
+   "tip": "2026-11-19T03:30Z",
+   "why": "Homer pick.",
+   "worth": 99
   }
  ]
 }
