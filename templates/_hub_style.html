@@ -272,6 +272,25 @@
     60% { transform: scaleY(1); } 68% { transform: scaleY(.1); } 76% { transform: scaleY(1); }
     90% { opacity: 1; } 100% { opacity: 0; transform: scaleY(1); } }
   @media (prefers-reduced-motion: reduce) { .bar.hello .hb-al span, .bar.hello .hb-eyes { animation: none; } }
+  /* Mateo peek-a-boo (front page, once per visit): he rises from behind Watch (0.5-1.1 s), shimmies, and sinks back (to 3.4 s).
+     The window is clipped at the top of the bar and at the foot of the word, so the word sits on his sequin collar. */
+  .bar { position: relative; }
+  .bar .hb-watch { z-index: 2; }
+  .hb-mateo { position: absolute; z-index: 1; width: var(--mw, 58px); overflow: hidden; pointer-events: none; display: none; }
+  .bar.mateo .hb-mateo { display: block; }
+  .hb-mateo i { position: absolute; left: 0; bottom: 0; width: var(--mw, 58px); height: var(--mh, 48px); transform: translateY(105%); }
+  .hb-mateo img { display: block; width: 100%; height: 100%; }
+  .hb-mateo i::after { content: "\2726"; position: absolute; left: 13px; top: 13px; font: 9px/1 var(--sans); color: #fff; text-shadow: 0 0 4px #fff, 0 0 8px #e8cf8a; opacity: 0; transform: scale(.3); }
+  .bar.mateo .hb-mateo i { animation: hb-peek 2.9s ease-in-out .5s both; }
+  .bar.mateo .hb-mateo i::after { animation: hb-glint 2.9s ease-in-out .5s both; }
+  .bar.mateo .hb-watch { color: #fff; text-shadow: 0 0 3px #1a0f08, 0 0 6px #1a0f08, 0 1px 1px #1a0f08; }
+  .bar.mateo .hb-eyes { animation: none; opacity: 0; }
+  @keyframes hb-peek {
+    0% { transform: translateY(105%); } 18% { transform: translateY(-5%); animation-timing-function: ease-out; } 24% { transform: translateY(0); }
+    34% { transform: translateY(0) rotate(-5deg); } 44% { transform: translateY(0) rotate(4deg); } 52% { transform: translateY(0) rotate(0); }
+    74% { transform: translateY(0); animation-timing-function: ease-in; } 100% { transform: translateY(105%); } }
+  @keyframes hb-glint { 0%, 26% { opacity: 0; transform: scale(.3) rotate(0); } 34% { opacity: 1; transform: scale(1.2) rotate(45deg); } 44%, 100% { opacity: 0; transform: scale(.3) rotate(90deg); } }
+  @media (prefers-reduced-motion: reduce) { .hb-mateo { display: none !important; } }
   /* The lead with an ESPN clip: headline first, the clip under it in a captioned frame tied to the story. */
   .lead-v { border-top: 4px solid var(--c, var(--accent)); padding-top: 12px; }
   .lead-v .lead-hd { display: block; color: var(--ink); }
