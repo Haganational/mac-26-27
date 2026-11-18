@@ -2856,21 +2856,21 @@
     "key": null,
     "name": "Virginia Cavaliers",
     "abbr": "UVA",
-    "score": 75,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "295",
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": 57,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926838",
@@ -12407,5 +12407,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T03:59:30+00:00"
+ "live_at": "2026-11-18T04:37:52+00:00"
 }

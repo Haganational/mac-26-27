@@ -63,7 +63,7 @@ _Texas A&M-CC (Southland). Anchors are fictional AI personas, not affiliated wit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Texas A&M-CC (Southland). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-13: L 60-84 at Florida State Seminoles. Barometer 49 (steady). <!-- g:401909696 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:preview -->
 - 2026-11-18: L 74-81 at Rice Owls. Barometer 42 (testy). <!-- g:401921097 -->
+- 2026-11-18: Social recap posted (L 74-81 vs Rice Owls): https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:recap -->

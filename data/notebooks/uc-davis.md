@@ -21,9 +21,9 @@ _UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated wit
 
 ## Barometer
 
-**71 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
+**57 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated wit
 - 2026-11-15: W 75-56 at Sacramento State Hornets. Barometer 71 (buoyant). <!-- g:401911520 -->
 - 2026-11-15: Social recap posted (W 75-56 vs Sacramento State Hornets): https://hardwoodbricks.com/mw/games/401911520.html <!-- post:401911520:recap -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:preview -->
+- 2026-11-18: L 68-75 vs Alabama State Hornets. Barometer 57 (steady). <!-- g:401911521 -->

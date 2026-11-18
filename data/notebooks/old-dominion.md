@@ -21,9 +21,9 @@ _Old Dominion (Sun Belt). Anchors are fictional AI personas, not affiliated with
 
 ## Barometer
 
-**85 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**61 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ _Old Dominion (Sun Belt). Anchors are fictional AI personas, not affiliated with
 - 2026-11-12: W 71-60 at Norfolk State Spartans. Barometer 82 (giddy). <!-- g:401925895 -->
 - 2026-11-14: W 80-74 vs Longwood Lancers. Barometer 85 (giddy). <!-- g:401922046 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920426.html <!-- post:401920426:preview -->
+- 2026-11-18: L 65-85 at Virginia Cavaliers. Barometer 61 (steady). <!-- g:401920426 -->

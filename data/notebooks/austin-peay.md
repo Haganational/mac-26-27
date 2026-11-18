@@ -50,7 +50,7 @@ _Austin Peay (UAC). Anchors are fictional AI personas, not affiliated with any s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -60,3 +60,4 @@ _Austin Peay (UAC). Anchors are fictional AI personas, not affiliated with any s
 - 2026-11-15: L 60-76 at Wichita State Shockers. Barometer 50 (steady). <!-- g:401917951 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/uac/games/401917952.html <!-- post:401917952:preview -->
 - 2026-11-18: W 70-57 vs Life University Running Eagles. Barometer 58 (steady). <!-- g:401917952 -->
+- 2026-11-18: Social recap posted (W 70-57 vs Life University Running Eagles): https://hardwoodbricks.com/uac/games/401917952.html <!-- post:401917952:recap -->

@@ -66,7 +66,7 @@ _Eastern Washington (Big Sky). Anchors are fictional AI personas, not affiliated
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ _Eastern Washington (Big Sky). Anchors are fictional AI personas, not affiliated
 - 2026-11-14: W 102-68 vs Corban Warriors. Barometer 44 (testy). <!-- g:401920719 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:preview -->
 - 2026-11-18: W 71-67 at Utah Utes. Barometer 51 (steady). <!-- g:401920720 -->
+- 2026-11-18: Social recap posted (W 71-67 vs Utah Utes): https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:recap -->

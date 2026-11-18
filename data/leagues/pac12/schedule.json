@@ -1508,7 +1508,7 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -1516,13 +1516,13 @@
     "key": null,
     "name": "Montana State Bobcats",
     "abbr": "MTST",
-    "score": null,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:30 - 1st"
   },
   {
    "game_id": "401929201",
@@ -8095,5 +8095,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-18T04:35:57+00:00"
 }

@@ -63,7 +63,7 @@ _Kansas City (Summit). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -74,3 +74,4 @@ _Kansas City (Summit). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-12: L 68-76 vs (neutral) George Mason Patriots. Barometer 45 (steady). <!-- g:401920073 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401921006.html <!-- post:401921006:preview -->
 - 2026-11-18: W 68-64 vs Newman Jets. Barometer 52 (steady). <!-- g:401921006 -->
+- 2026-11-18: Social recap posted (W 68-64 vs Newman Jets): https://hardwoodbricks.com/summit/games/401921006.html <!-- post:401921006:recap -->

@@ -61,7 +61,7 @@ _Nicholls (Southland). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -71,3 +71,4 @@ _Nicholls (Southland). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-15: W 71-68 vs Louisiana Tech Bulldogs. Barometer 50 (steady). <!-- g:401925063 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925064.html <!-- post:401925064:preview -->
 - 2026-11-18: L 41-76 at Ole Miss Rebels. Barometer 41 (testy). <!-- g:401925064 -->
+- 2026-11-18: Social recap posted (L 41-76 vs Ole Miss Rebels): https://hardwoodbricks.com/southland/games/401925064.html <!-- post:401925064:recap -->

@@ -66,7 +66,7 @@ _UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,4 @@ _UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any 
 - 2026-11-15: W 85-77 vs UT Rio Grande Valley Vaqueros. Barometer 66 (buoyant). <!-- g:401925108 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:preview -->
 - 2026-11-18: W 83-72 at Southern Miss Golden Eagles. Barometer 72 (buoyant). <!-- g:401929358 -->
+- 2026-11-18: Social recap posted (W 83-72 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:recap -->

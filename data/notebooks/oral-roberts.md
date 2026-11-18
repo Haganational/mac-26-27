@@ -66,7 +66,7 @@ _Oral Roberts (Summit). Anchors are fictional AI personas, not affiliated with a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ _Oral Roberts (Summit). Anchors are fictional AI personas, not affiliated with a
 - 2026-11-15: W 82-39 vs Oklahoma City Okies. Barometer 55 (steady). <!-- g:401929400 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401918970.html <!-- post:401918970:preview -->
 - 2026-11-18: L 72-76 at SMU Mustangs. Barometer 48 (steady). <!-- g:401918970 -->
+- 2026-11-18: Social recap posted (L 72-76 vs SMU Mustangs): https://hardwoodbricks.com/summit/games/401918970.html <!-- post:401918970:recap -->

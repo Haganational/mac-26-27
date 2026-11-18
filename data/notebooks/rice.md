@@ -63,7 +63,7 @@ _Rice (American). Anchors are fictional AI personas, not affiliated with any sch
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -73,3 +73,4 @@ _Rice (American). Anchors are fictional AI personas, not affiliated with any sch
 - 2026-11-14: W 81-78 at Stephen F. Austin Lumberjacks. Barometer 50 (steady). <!-- g:401921096 -->
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:preview -->
 - 2026-11-18: W 81-74 vs Texas A&M-Corpus Christi Islanders. Barometer 57 (steady). <!-- g:401921097 -->
+- 2026-11-18: Social recap posted (W 81-74 vs Texas A&M-Corpus Christi Islanders): https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:recap -->
