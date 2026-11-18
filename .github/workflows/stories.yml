@@ -1,0 +1,46 @@
+name: Stories
+
+# Facebook Page + Instagram Stories from the library (mac/stories.py). Runs hourly: each run pushes
+# at most one brand-new item and fills the 7 AM / 11 AM / 4 PM / 9 PM Eastern slot when it is due.
+# Run it by hand with "now" to post one pick to Facebook and Instagram right away.
+on:
+  schedule:
+    - cron: "4 * * * *"
+  workflow_dispatch:
+    inputs:
+      now:
+        description: "Post one pick to Facebook and Instagram right now, whatever the hour"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stories
+  cancel-in-progress: false
+
+jobs:
+  stories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+      ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+      ALERT_TO: ${{ vars.ALERT_TO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Post what's due
+        run: python -m mac.stories ${{ github.event.inputs.now == 'true' && '--now' || '' }}
