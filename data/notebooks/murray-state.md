@@ -63,7 +63,7 @@ _Murray State (Missouri Valley). Anchors are fictional AI personas, not affiliat
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _Murray State (Missouri Valley). Anchors are fictional AI personas, not affiliat
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:preview -->
 - 2026-11-17: W 82-66 vs (neutral) Hofstra Pride. Barometer 88 (giddy). <!-- g:401927381 -->
 - 2026-11-17: Social recap posted (W 82-66 vs Hofstra Pride): https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401918959.html <!-- post:401918959:preview -->
