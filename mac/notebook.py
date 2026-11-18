@@ -328,6 +328,8 @@ def render(key: str, today: str | None = None) -> str:
          f"_{t['short']} ({t['league_name']}). {DISCLOSURE} This file grows: everything above the log is refreshed "
          f"each run, and the log keeps every entry. Last refreshed {today}._", "",
          "## Who they are", ""]
+    if dos.get("bio"):
+        L += [dos["bio"], ""]
     if a:
         L.append(f"- {a.get('age', '')} {a.get('gender', '').lower()}, edits *{paper}* in {p.get('town') or 'town'}, {p.get('state') or ''}".rstrip(", "))
     if col.get("voice"):

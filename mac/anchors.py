@@ -18,6 +18,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent.parent
 ROSTER = ROOT / "data" / "anchors.json"
 COLOR = ROOT / "data" / "anchor_color.json"  # voice brief, catchphrase, sign-off and rival per anchor
+DOSSIERS = ROOT / "data" / "anchor_dossiers.json"  # full character profile + on-site bio per anchor
 PORTRAITS = ROOT / "anchors"
 SETS = ROOT / "sets"  # backdrops behind the anchor: <school>.jpg (Matthew's arena photos), <edition>.jpg, then studio.jpg
 
@@ -55,6 +56,16 @@ def roster() -> dict[str, dict[str, Any]]:
 @lru_cache(maxsize=1)
 def color() -> dict[str, dict[str, str]]:
     return json.loads(COLOR.read_text())["color"] if COLOR.exists() else {}
+
+
+@lru_cache(maxsize=1)
+def dossiers() -> dict[str, dict[str, Any]]:
+    return json.loads(DOSSIERS.read_text())["dossiers"] if DOSSIERS.exists() else {}
+
+
+def bio(key: str) -> str:
+    """The short on-site bio from the anchor's dossier, or '' if none is written yet."""
+    return (dossiers().get(key) or {}).get("bio", "")
 
 
 def first_name(name: str) -> str:

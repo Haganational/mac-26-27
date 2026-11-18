@@ -40,6 +40,9 @@ def test_every_anchor_gets_a_page_with_their_stories(tmp_path):
     assert alumni.stories(key)[0]["name"] in html and anchors.roster()[key]["name"] in html and '<base href="../">' in html
     p = watch.profile(key)
     assert p["rival"]["href"].startswith("anchors/") and p["team_href"].endswith(f"teams/{key}.html")
+    with_bio = next(k for k in anchors.roster() if anchors.bio(k))
+    page = (tmp_path / "anchors" / f"{with_bio}.html").read_text()
+    assert "Who they are" in page and anchors.bio(with_bio)[:40].replace("'", "&#39;").replace('"', "&#34;") in page
 
 
 def test_latest_upload_comes_from_the_feed_and_survives_an_outage(tmp_path, monkeypatch):

@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FIELDS = {"backstory", "beat", "look", "favorite", "hot_takes", "off_air", "gags", "temperament", "disposition",
-          "appropriateness", "compassion", "humor", "worldview", "rube", "status", "tape"}
+          "appropriateness", "compassion", "humor", "worldview", "rube", "status", "tape", "bio"}
 
 
 def test_every_dossier_is_a_known_anchor_with_every_category():
@@ -12,6 +12,8 @@ def test_every_dossier_is_a_known_anchor_with_every_category():
     for key, d in json.loads((ROOT / "data" / "anchor_dossiers.json").read_text())["dossiers"].items():
         assert key in anchors, key
         assert FIELDS <= set(d), (key, FIELDS - set(d))
+        assert 40 <= len(d["bio"].split()) <= 120, (key, len(d["bio"].split()))
+        assert "\u2014" not in d["bio"], key  # house style: no em-dashes
 
 
 def test_roster_tool_covers_every_school():
