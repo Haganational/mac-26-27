@@ -63,7 +63,7 @@ _Tarleton State (UAC). Anchors are fictional AI personas, not affiliated with an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -74,3 +74,4 @@ _Tarleton State (UAC). Anchors are fictional AI personas, not affiliated with an
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:preview -->
 - 2026-11-17: W 83-79 at Drake Bulldogs. Barometer 70 (buoyant). <!-- g:401927364 -->
 - 2026-11-17: Social recap posted (W 83-79 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:recap -->
+- 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:preview -->
