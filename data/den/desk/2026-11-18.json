@@ -2,29 +2,29 @@
  "date": "2026-11-18",
  "desk": {
   "anchor": {
-   "alt": "Elena Navarro, the FGCU AI anchor",
-   "color": "#002D72",
-   "color2": "#00885A",
-   "initials": "EN",
+   "alt": "Tom Leary, the New Hampshire AI anchor",
+   "color": "#003591",
+   "color2": "#FFFFFF",
+   "initials": "TL",
    "ink": "#ffffff",
-   "key": "fgcu",
-   "name": "Elena Navarro",
-   "portrait": "den/anchors/fgcu.webp",
-   "school": "FGCU",
+   "key": "new-hampshire",
+   "name": "Tom Leary",
+   "portrait": "den/anchors/new-hampshire.webp",
+   "school": "New Hampshire",
    "tag": "AI anchor"
   },
-  "max": 144,
+  "max": 139,
   "picks": [
    {
-    "abbr": "FGCU",
-    "game_id": "401922212",
+    "abbr": "UNH",
+    "game_id": "401919848",
     "kind": "homer",
-    "short": "FGCU",
+    "short": "New Hampshire",
     "side": "away",
-    "team_id": "526",
-    "tip": "2026-11-19T00:00Z",
+    "team_id": "160",
+    "tip": "2026-11-19T01:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 70
+    "worth": 44
    },
    {
     "abbr": "CHSO",
@@ -45,19 +45,19 @@
     "side": "home",
     "team_id": "2325",
     "tip": "2026-11-19T00:00Z",
-    "why": "Our ratings 64%, pregame win chance 89%.",
-    "worth": 11
+    "why": "Our ratings 64%, pregame win chance 90%.",
+    "worth": 10
    },
    {
-    "abbr": "OU",
-    "game_id": "401906805",
+    "abbr": "SJU",
+    "game_id": "401920682",
     "kind": "ratings",
-    "short": "Oklahoma",
+    "short": "St John's",
     "side": "home",
-    "team_id": "201",
-    "tip": "2026-11-19T01:00Z",
-    "why": "Our ratings 75%, pregame win chance 96%.",
-    "worth": 4
+    "team_id": "2599",
+    "tip": "2026-11-19T00:00Z",
+    "why": "Our ratings 98%, pregame win chance 74%.",
+    "worth": 26
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -193,7 +193,7 @@
    "team_id": "322",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 43
+   "worth": 44
   },
   {
    "abbr": "BING",
@@ -205,7 +205,7 @@
    "team_id": "2066",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 57
+   "worth": 56
   },
   {
    "abbr": "HC",
@@ -328,6 +328,42 @@
    "worth": 17
   },
   {
+   "abbr": "GMU",
+   "game_id": "401920075",
+   "key": "george-mason",
+   "kind": "homer",
+   "short": "George Mason",
+   "side": "home",
+   "team_id": "2244",
+   "tip": "2026-11-19T00:00Z",
+   "why": "Homer pick.",
+   "worth": 4
+  },
+  {
+   "abbr": "NCCU",
+   "game_id": "401920075",
+   "key": "nc-central",
+   "kind": "homer",
+   "short": "NC Central",
+   "side": "away",
+   "team_id": "2428",
+   "tip": "2026-11-19T00:00Z",
+   "why": "Homer pick.",
+   "worth": 96
+  },
+  {
+   "abbr": "SIE",
+   "game_id": "401920682",
+   "key": "siena",
+   "kind": "homer",
+   "short": "Siena",
+   "side": "away",
+   "team_id": "2561",
+   "tip": "2026-11-19T00:00Z",
+   "why": "Homer pick.",
+   "worth": 74
+  },
+  {
    "abbr": "YALE",
    "game_id": "401920694",
    "key": "yale",
@@ -421,7 +457,7 @@
    "team_id": "2344",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 29
+   "worth": 30
   },
   {
    "abbr": "VMI",
@@ -433,7 +469,7 @@
    "team_id": "2678",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 71
+   "worth": 70
   },
   {
    "abbr": "RAD",
@@ -469,7 +505,7 @@
    "team_id": "526",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 70
+   "worth": 71
   },
   {
    "abbr": "MRMK",
@@ -505,7 +541,7 @@
    "team_id": "2325",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 11
+   "worth": 10
   },
   {
    "abbr": "COPP",
@@ -517,7 +553,7 @@
    "team_id": "2154",
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
-   "worth": 89
+   "worth": 90
   },
   {
    "abbr": "DUQ",
@@ -590,6 +626,30 @@
    "tip": "2026-11-19T00:00Z",
    "why": "Homer pick.",
    "worth": 57
+  },
+  {
+   "abbr": "NIU",
+   "game_id": "401909526",
+   "key": "northern-illinois",
+   "kind": "homer",
+   "short": "Northern Illinois",
+   "side": "away",
+   "team_id": "2459",
+   "tip": "2026-11-19T00:30Z",
+   "why": "Homer pick.",
+   "worth": 94
+  },
+  {
+   "abbr": "YSU",
+   "game_id": "401920751",
+   "key": "youngstown-state",
+   "kind": "homer",
+   "short": "Youngstown State",
+   "side": "away",
+   "team_id": "2754",
+   "tip": "2026-11-19T00:30Z",
+   "why": "Homer pick.",
+   "worth": 74
   },
   {
    "abbr": "CAM",
@@ -757,7 +817,7 @@
    "team_id": "326",
    "tip": "2026-11-19T01:00Z",
    "why": "Homer pick.",
-   "worth": 8
+   "worth": 7
   },
   {
    "abbr": "UIW",
@@ -769,7 +829,7 @@
    "team_id": "2916",
    "tip": "2026-11-19T01:00Z",
    "why": "Homer pick.",
-   "worth": 92
+   "worth": 93
   },
   {
    "abbr": "UTSA",
@@ -854,6 +914,18 @@
    "tip": "2026-11-19T02:00Z",
    "why": "Homer pick.",
    "worth": 96
+  },
+  {
+   "abbr": "UNCO",
+   "game_id": "401921742",
+   "key": "northern-colorado",
+   "kind": "homer",
+   "short": "Northern Colorado",
+   "side": "away",
+   "team_id": "2458",
+   "tip": "2026-11-19T02:00Z",
+   "why": "Homer pick.",
+   "worth": 98
   },
   {
    "abbr": "CSU",
@@ -961,7 +1033,7 @@
    "team_id": "62",
    "tip": "2026-11-19T03:00Z",
    "why": "Homer pick.",
-   "worth": 48
+   "worth": 47
   },
   {
    "abbr": "WSU",
@@ -974,6 +1046,30 @@
    "tip": "2026-11-19T03:00Z",
    "why": "Homer pick.",
    "worth": 53
+  },
+  {
+   "abbr": "SDSU",
+   "game_id": "401929146",
+   "key": "san-diego-state",
+   "kind": "homer",
+   "short": "San Diego St",
+   "side": "home",
+   "team_id": "21",
+   "tip": "2026-11-19T03:00Z",
+   "why": "Homer pick.",
+   "worth": 2
+  },
+  {
+   "abbr": "TXSO",
+   "game_id": "401929146",
+   "key": "texas-southern",
+   "kind": "homer",
+   "short": "Texas Southern",
+   "side": "away",
+   "team_id": "2640",
+   "tip": "2026-11-19T03:00Z",
+   "why": "Homer pick.",
+   "worth": 98
   }
  ]
 }
