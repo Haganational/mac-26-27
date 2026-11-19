@@ -70,7 +70,7 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -78,3 +78,4 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 - 2026-11-05: W 108-43 vs Christendom Crusaders. Barometer 70 (buoyant). <!-- g:401929438 -->
 - 2026-11-10: L 53-75 at Auburn Tigers. Barometer 54 (steady). <!-- g:401920799 -->
 - 2026-11-14: W 66-60 at Charlotte 49ers. Barometer 60 (steady). <!-- g:401925820 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925828.html <!-- post:401925828:preview -->

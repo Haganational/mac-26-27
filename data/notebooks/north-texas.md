@@ -70,7 +70,7 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -78,3 +78,4 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 - 2026-11-05: W 77-67 vs McNeese Cowboys. Barometer 69 (buoyant). <!-- g:401925031 -->
 - 2026-11-12: L 71-76 vs Santa Clara Broncos. Barometer 56 (steady). <!-- g:401917522 -->
 - 2026-11-14: W 66-65 vs South Alabama Jaguars. Barometer 60 (steady). <!-- g:401925827 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925828.html <!-- post:401925828:preview -->
