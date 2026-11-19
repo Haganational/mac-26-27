@@ -77,7 +77,32 @@
     "why": "Model is 10.4 points off the number."
    }
   ],
-  "shark": []
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401928354",
+    "tip": "2026-11-20T02:00Z",
+    "matchup": "UC Santa Barbara Gauchos at Pepperdine Waves",
+    "side": "home",
+    "team": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "line": 2.5,
+    "label": "Pepperdine Waves +2.5",
+    "why": "Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money.",
+    "added_at": "2026-11-19T20:31+00:00"
+   },
+   {
+    "kind": "total",
+    "game": "401928354",
+    "tip": "2026-11-20T02:00Z",
+    "matchup": "UC Santa Barbara Gauchos at Pepperdine Waves",
+    "side": "under",
+    "line": 150.5,
+    "label": "Under 150.5",
+    "why": "My dry cleaner sent my shirt back with somebody else's receipt in the pocket. Forty pounds of anchovies. Under. That's all I can say.",
+    "added_at": "2026-11-19T20:31+00:00"
+   }
+  ]
  },
  "column": {
   "byline": "shark",
@@ -106,7 +131,7 @@
    {
     "key": "shark",
     "who": "The Shark",
-    "text": "No home dog in the Shark's window tonight. He says he's 'visiting a friend.'"
+    "text": "Pepperdine Waves +2.5. Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money. Under 150.5. My dry cleaner sent my shirt back with somebody else's receipt in the pocket. Forty pounds of anchovies. Under. That's all I can say."
    }
   ],
   "close": "Season ledger starts tonight. Everybody's even."
