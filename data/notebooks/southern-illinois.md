@@ -69,7 +69,7 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -79,3 +79,4 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:preview -->
 - 2026-11-17: L 78-87 vs (neutral) Liberty Flames. Barometer 49 (steady). <!-- g:401920953 -->
 - 2026-11-18: Social recap posted (L 78-87 vs Liberty Flames): https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/mvc/games/401916124.html <!-- post:401916124:preview -->

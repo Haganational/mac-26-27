@@ -70,7 +70,7 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 - 2026-11-15: W 128-44 vs Ecclesia Royals. Barometer 69 (buoyant). <!-- g:401926733 -->
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ovc/games/401926733.html <!-- post:401926733:preview -->
 - 2026-11-16: Social recap posted (W 128-44 vs Ecclesia Royals): https://hardwoodbricks.com/ovc/games/401926733.html <!-- post:401926733:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/mvc/games/401916124.html <!-- post:401916124:preview -->

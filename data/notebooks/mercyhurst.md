@@ -66,7 +66,7 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 - 2026-11-15: L 71-80 at James Madison Dukes. Barometer 34 (testy). <!-- g:401919825 -->
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401919825.html <!-- post:401919825:preview -->
 - 2026-11-15: Social recap posted (L 71-80 vs James Madison Dukes): https://hardwoodbricks.com/sunbelt/games/401919825.html <!-- post:401919825:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:preview -->

@@ -67,7 +67,7 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:preview -->
 - 2026-11-15: L 55-79 at Buffalo Bulls. Barometer 44 (testy). <!-- g:401911017 -->
 - 2026-11-16: Social recap posted (L 55-79 vs Buffalo Bulls): https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:preview -->

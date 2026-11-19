@@ -70,7 +70,7 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:preview -->
 - 2026-11-18: W 88-63 vs Central Michigan Chippewas. Barometer 48 (steady). <!-- g:401911019 -->
 - 2026-11-18: Social recap posted (W 88-63 vs Central Michigan Chippewas): https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401921419.html <!-- post:401921419:preview -->
