@@ -2,29 +2,40 @@
  "date": "2026-11-19",
  "desk": {
   "anchor": {
-   "alt": "Grant Silva, the Santa Clara AI anchor",
-   "color": "#862633",
-   "color2": "#FFFFFF",
-   "initials": "GS",
+   "alt": "Hollis Grant, the Maine AI anchor",
+   "color": "#003263",
+   "color2": "#B0D7FF",
+   "initials": "HG",
    "ink": "#ffffff",
-   "key": "santa-clara",
-   "name": "Grant Silva",
-   "portrait": "den/anchors/santa-clara.webp",
-   "school": "Santa Clara",
+   "key": "maine",
+   "name": "Hollis Grant",
+   "portrait": "den/anchors/maine.webp",
+   "school": "Maine",
    "tag": "AI anchor"
   },
-  "max": 173,
+  "max": 206,
   "picks": [
    {
-    "abbr": "SCU",
-    "game_id": "401917536",
+    "abbr": "ME",
+    "game_id": "401923304",
     "kind": "homer",
-    "short": "Santa Clara",
-    "side": "home",
-    "team_id": "2541",
-    "tip": "2026-11-20T03:30Z",
+    "short": "Maine",
+    "side": "away",
+    "team_id": "311",
+    "tip": "2026-11-20T00:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 47
+    "worth": 82
+   },
+   {
+    "abbr": "OSU",
+    "game_id": "401916318",
+    "kind": "ratings",
+    "short": "Ohio State",
+    "side": "home",
+    "team_id": "194",
+    "tip": "2026-11-20T00:00Z",
+    "why": "Our ratings 96%, pregame win chance 74%.",
+    "worth": 26
    },
    {
     "abbr": "COFC",
@@ -47,17 +58,6 @@
     "tip": "2026-11-20T02:00Z",
     "why": "Our ratings 69%, pregame win chance 54%.",
     "worth": 47
-   },
-   {
-    "abbr": "TOL",
-    "game_id": "401928826",
-    "kind": "ratings",
-    "short": "Toledo",
-    "side": "home",
-    "team_id": "2649",
-    "tip": "2026-11-20T00:00Z",
-    "why": "Our ratings 87%, pregame win chance 72%.",
-    "worth": 28
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -112,6 +112,18 @@
    "worth": 84
   },
   {
+   "abbr": "UMBC",
+   "game_id": "401916318",
+   "key": "umbc",
+   "kind": "homer",
+   "short": "UMBC",
+   "side": "away",
+   "team_id": "2378",
+   "tip": "2026-11-20T00:00Z",
+   "why": "Homer pick.",
+   "worth": 74
+  },
+  {
    "abbr": "HPU",
    "game_id": "401920413",
    "key": "high-point",
@@ -145,7 +157,7 @@
    "team_id": "294",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 43
+   "worth": 44
   },
   {
    "abbr": "UALR",
@@ -157,7 +169,7 @@
    "team_id": "2031",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 57
+   "worth": 56
   },
   {
    "abbr": "QUIN",
@@ -313,7 +325,7 @@
    "team_id": "2277",
    "tip": "2026-11-20T01:00Z",
    "why": "Homer pick.",
-   "worth": 39
+   "worth": 40
   },
   {
    "abbr": "GASO",
@@ -325,7 +337,7 @@
    "team_id": "290",
    "tip": "2026-11-20T01:00Z",
    "why": "Homer pick.",
-   "worth": 61
+   "worth": 60
   },
   {
    "abbr": "NMSU",
@@ -457,7 +469,7 @@
    "team_id": "2627",
    "tip": "2026-11-20T04:00Z",
    "why": "Homer pick.",
-   "worth": 98
+   "worth": 97
   }
  ]
 }
