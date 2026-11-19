@@ -2085,7 +2085,7 @@
     "key": null,
     "name": "Texas Tech Red Raiders",
     "abbr": "TTU",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2093,13 +2093,13 @@
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:49 - 1st"
   },
   {
    "game_id": "401925109",
@@ -2126,7 +2126,7 @@
     "key": "utrgv",
     "name": "UT Rio Grande Valley Vaqueros",
     "abbr": "RGV",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2134,13 +2134,13 @@
     "key": null,
     "name": "College of Biblical Studies Ambassadors",
     "abbr": "CBS",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:40 - 1st"
   },
   {
    "game_id": "401929201",
@@ -9977,5 +9977,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:49:25+00:00"
 }

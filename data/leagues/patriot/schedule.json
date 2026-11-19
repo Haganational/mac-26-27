@@ -2022,7 +2022,7 @@
     "key": null,
     "name": "Georgetown Hoyas",
     "abbr": "GTWN",
-    "score": 40,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2030,13 +2030,13 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 16,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:41 - 2nd"
   },
   {
    "game_id": "401923401",
@@ -2067,7 +2067,7 @@
     "key": null,
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 13,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2075,13 +2075,13 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 10,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:04 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920772",
@@ -2112,7 +2112,7 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": 36,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2120,13 +2120,13 @@
     "key": null,
     "name": "Utica Pioneers",
     "abbr": "UTIC",
-    "score": 14,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:53 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911309",
@@ -2157,7 +2157,7 @@
     "key": "holy-cross",
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": 15,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2165,13 +2165,13 @@
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 16,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911277",
@@ -2198,7 +2198,7 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 19,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2206,13 +2206,13 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 15,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:36 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401912211",
@@ -9342,5 +9342,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:23:48+00:00"
+ "live_at": "2026-11-19T00:51:39+00:00"
 }
