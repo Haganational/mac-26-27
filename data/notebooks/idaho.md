@@ -27,9 +27,9 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 - 2026-11-14: L 74-83 vs Cal Poly Mustangs. Barometer 50 (steady). <!-- g:401920123 -->
 - 2026-11-14: Social recap posted (L 74-83 vs Cal Poly Mustangs): https://hardwoodbricks.com/bigwest/games/401920123.html <!-- post:401920123:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911456.html <!-- post:401911456:preview -->
+- 2026-11-19: L 74-91 at Nevada Wolf Pack. Barometer 42 (testy). <!-- g:401911456 -->

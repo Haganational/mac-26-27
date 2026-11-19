@@ -27,9 +27,9 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Malcolm editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Malcolm editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 - 2026-11-14: L 80-89 at Fresno State Bulldogs. Barometer 57 (steady). <!-- g:401926777 -->
 - 2026-11-15: Social recap posted (L 80-89 vs Fresno State Bulldogs): https://hardwoodbricks.com/bigwest/games/401926777.html <!-- post:401926777:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:preview -->
+- 2026-11-19: L 62-71 at San Diego Toreros. Barometer 48 (steady). <!-- g:401917535 -->

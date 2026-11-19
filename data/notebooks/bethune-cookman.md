@@ -69,7 +69,7 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,4 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 - 2026-11-16: Social recap posted (W 88-64 vs Stillman Tigers): https://hardwoodbricks.com/swac/games/401925718.html <!-- post:401925718:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401909494.html <!-- post:401909494:preview -->
 - 2026-11-19: L 65-88 at Creighton Bluejays. Barometer 34 (testy). <!-- g:401909494 -->
+- 2026-11-19: Social recap posted (L 65-88 vs Creighton Bluejays): https://hardwoodbricks.com/swac/games/401909494.html <!-- post:401909494:recap -->

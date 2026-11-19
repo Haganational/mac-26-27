@@ -27,9 +27,9 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 
 ## Barometer
 
-**63 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
+**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 - 2026-11-11: L 75-83 at Colorado Buffaloes. Barometer 54 (steady). <!-- g:401909761 -->
 - 2026-11-14: W 87-67 vs Chicago State Cougars. Barometer 63 (steady). <!-- g:401917526 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:preview -->
+- 2026-11-19: W 71-62 vs UC Riverside Highlanders. Barometer 66 (buoyant). <!-- g:401917535 -->

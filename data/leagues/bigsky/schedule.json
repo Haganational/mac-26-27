@@ -2163,21 +2163,21 @@
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 55,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "70",
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 43,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "12:58 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920413",
@@ -9686,5 +9686,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T04:30:27+00:00"
+ "live_at": "2026-11-19T05:08:28+00:00"
 }

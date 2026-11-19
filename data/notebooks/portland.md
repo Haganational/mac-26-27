@@ -72,7 +72,7 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -83,3 +83,4 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 - 2026-11-14: L 88-94 vs East Texas A&M Lions. Barometer 55 (steady). <!-- g:401917527 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401909762.html <!-- post:401909762:preview -->
 - 2026-11-19: W 77-74 at Colorado Buffaloes. Barometer 60 (steady). <!-- g:401909762 -->
+- 2026-11-19: Social recap posted (W 77-74 vs Colorado Buffaloes): https://hardwoodbricks.com/wcc/games/401909762.html <!-- post:401909762:recap -->

@@ -27,9 +27,9 @@ Simone Okafor grew up in Houston's Third Ward, the daughter of Nigerian-born par
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**26 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Simone Okafor grew up in Houston's Third Ward, the daughter of Nigerian-born par
 - 2026-11-17: L 92-97 at UC San Diego Tritons. Barometer 34 (testy). <!-- g:401920373 -->
 - 2026-11-17: Social recap posted (L 92-97 vs UC San Diego Tritons): https://hardwoodbricks.com/bigwest/games/401920373.html <!-- post:401920373:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929146.html <!-- post:401929146:preview -->
+- 2026-11-19: L 51-97 at San Diego State Aztecs. Barometer 26 (despondent). <!-- g:401929146 -->

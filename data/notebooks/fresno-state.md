@@ -70,7 +70,7 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,4 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 - 2026-11-15: Social recap posted (W 89-80 vs UC Riverside Highlanders): https://hardwoodbricks.com/bigwest/games/401926777.html <!-- post:401926777:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:preview -->
 - 2026-11-19: L 86-92 at San José State Spartans. Barometer 52 (steady). <!-- g:401911473 -->
+- 2026-11-19: Social recap posted (L 86-92 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:recap -->

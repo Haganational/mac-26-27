@@ -50,7 +50,7 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -63,3 +63,4 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 - 2026-11-17: Social recap posted (L 57-117 vs Maryland Terrapins): https://hardwoodbricks.com/swac/games/401916298.html <!-- post:401916298:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401921816.html <!-- post:401921816:preview -->
 - 2026-11-19: L 41-102 at Missouri Tigers. Barometer 12 (despondent). <!-- g:401921816 -->
+- 2026-11-19: Social recap posted (L 41-102 vs Missouri Tigers): https://hardwoodbricks.com/swac/games/401921816.html <!-- post:401921816:recap -->

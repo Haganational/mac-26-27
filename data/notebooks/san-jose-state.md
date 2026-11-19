@@ -70,7 +70,7 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 - 2026-11-16: Social recap posted (W 80-68 vs Alabama State Hornets): https://hardwoodbricks.com/mw/games/401911472.html <!-- post:401911472:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:preview -->
 - 2026-11-19: W 92-86 vs Fresno State Bulldogs. Barometer 58 (steady). <!-- g:401911473 -->
+- 2026-11-19: Social recap posted (W 92-86 vs Fresno State Bulldogs): https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:recap -->
