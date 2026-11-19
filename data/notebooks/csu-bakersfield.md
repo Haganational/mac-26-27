@@ -66,7 +66,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920136.html <!-- post:401920136:preview -->
 - 2026-11-15: W 73-69 at North Dakota State Bison. Barometer 78 (buoyant). <!-- g:401920136 -->
 - 2026-11-15: Social recap posted (W 73-69 vs North Dakota State Bison): https://hardwoodbricks.com/bigwest/games/401920136.html <!-- post:401920136:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:preview -->

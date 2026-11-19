@@ -73,7 +73,7 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:preview -->
 - 2026-11-18: W 67-55 vs East Tennessee State Buccaneers. Barometer 49 (steady). <!-- g:401920857 -->
 - 2026-11-18: Social recap posted (W 67-55 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401912710.html <!-- post:401912710:preview -->

@@ -70,7 +70,7 @@ Travis Kell taught high school history in Huntsville for thirty-four years and s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Travis Kell taught high school history in Huntsville for thirty-four years and s
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:preview -->
 - 2026-11-18: L 79-81 at Wyoming Cowboys. Barometer 42 (testy). <!-- g:401924922 -->
 - 2026-11-18: Social recap posted (L 79-81 vs Wyoming Cowboys): https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:preview -->

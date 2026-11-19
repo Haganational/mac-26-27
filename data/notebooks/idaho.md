@@ -72,7 +72,7 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911456.html <!-- post:401911456:preview -->
 - 2026-11-19: L 74-91 at Nevada Wolf Pack. Barometer 42 (testy). <!-- g:401911456 -->
 - 2026-11-19: Social recap posted (L 74-91 vs Nevada Wolf Pack): https://hardwoodbricks.com/mw/games/401911456.html <!-- post:401911456:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:preview -->

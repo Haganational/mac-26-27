@@ -72,7 +72,7 @@ Dana Kohler grew up in the bleachers of a Coles County gym where her father coac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Dana Kohler grew up in the bleachers of a Coles County gym where her father coac
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/ovc/games/401921826.html <!-- post:401921826:preview -->
 - 2026-11-18: L 50-96 at Vanderbilt Commodores. Barometer 31 (testy). <!-- g:401921826 -->
 - 2026-11-18: Social recap posted (L 50-96 vs Vanderbilt Commodores): https://hardwoodbricks.com/ovc/games/401921826.html <!-- post:401921826:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/ovc/games/401913529.html <!-- post:401913529:preview -->
