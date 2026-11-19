@@ -163,3 +163,48 @@ def test_weave_leads_until_noon_the_next_day(tmp_path):
     assert hub.weave_billing(at("2026-11-16T12:00:00-05:00"), f)["youtube"] == "abc"
     assert hub.weave_billing(at("2026-11-15T23:00:00-05:00"), f) is None
     assert hub.weave_billing(at("2026-11-16T23:00:00-05:00"), tmp_path / "missing.json") is None
+
+
+def _night_site(tmp_path):
+    akron = ALL["mac"].teams[0].espn_id
+    ohio = next(t.espn_id for t in ALL["mac"].teams if t.key == "ohio")
+    (tmp_path / "games").mkdir()
+    y = _g("1", akron, "99990", True, date="2026-11-18T00:00Z")  # last night, 7 PM ET
+    live = _g("2", "99991", "99992", False, live=True, detail="2nd - 8:12", date="2026-11-19T00:00Z")
+    soon = _g("3", ohio, "99993", False, date="2026-11-19T01:00Z")
+    late = _g("4", "99994", "99995", False, date="2026-11-19T03:00Z")
+    (tmp_path / "data.json").write_text(json.dumps({"recent": [y], "upcoming": [soon, late], "tonight": [live, soon, late]}))
+    return tmp_path
+
+
+def test_game_night_puts_tonight_on_main_not_yesterdays_finals(tmp_path):
+    from datetime import datetime, timezone
+    site = _night_site(tmp_path)
+    eds = [e for lg in ALL.values() if (e := hub.edition(lg, site))]
+    now = datetime(2026, 11, 19, 0, 30, tzinfo=timezone.utc)  # 7:30 PM ET
+    n = hub.game_night(eds, now)
+    assert n and [g["game_id"] for g in n["games"]] == ["2", "3", "4"], "live first, then Ohio, then the rest; last night's final left out"
+    assert n["live"] == 1 and n["left"] == 2
+    # Morning: nothing live, before noon -> last night's finals lead again.
+    assert hub.game_night(eds, datetime(2026, 11, 19, 14, tzinfo=timezone.utc)) is None
+    # 12:30 AM ET with a West Coast game still live: still last night's slate.
+    for e in eds:
+        for g in e["night"]:
+            g["live"] = g["game_id"] == "4"
+    late = hub.game_night(eds, datetime(2026, 11, 19, 5, 30, tzinfo=timezone.utc))
+    assert late and late["games"][0]["game_id"] == "4"
+    for e in eds:
+        for g in e["night"]:
+            g["live"], g["completed"] = False, True
+    assert hub.game_night(eds, datetime(2026, 11, 19, 6, 30, tzinfo=timezone.utc)) is None, "all final after midnight: recaps lead"
+
+
+def test_game_night_renders_scoreboard_in_place_of_lead(tmp_path):
+    from datetime import datetime, timezone
+    site = _night_site(tmp_path)
+    with patch.object(hub, "datetime", wraps=datetime) as dt:
+        dt.now.return_value = datetime(2026, 11, 19, 0, 30, tzinfo=timezone.utc)
+        hub.build(site, "https://x.com/")
+    html = (site / "index.html").read_text()
+    assert 'id="h-night"' in html and "Tonight's games" in html and "1 live" in html
+    assert 'class="lead' not in html
