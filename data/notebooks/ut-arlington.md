@@ -72,7 +72,7 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -84,3 +84,4 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:preview -->
 - 2026-11-18: W 83-72 at Southern Miss Golden Eagles. Barometer 72 (buoyant). <!-- g:401929358 -->
 - 2026-11-18: Social recap posted (W 83-72 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:preview -->

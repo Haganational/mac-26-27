@@ -65,7 +65,7 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -74,3 +74,4 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 - 2026-11-08: L 71-93 at Murray State Racers. Barometer 22 (despondent). <!-- g:401925077 -->
 - 2026-11-11: W 77-49 vs Millsaps Majors. Barometer 41 (testy). <!-- g:401925078 -->
 - 2026-11-15: L 83-84 at Little Rock Trojans. Barometer 38 (testy). <!-- g:401925079 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:preview -->

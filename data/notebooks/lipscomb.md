@@ -70,7 +70,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401920706.html <!-- post:401920706:preview -->
 - 2026-11-17: L 78-95 at Purdue Boilermakers. Barometer 49 (steady). <!-- g:401920706 -->
 - 2026-11-18: Social recap posted (L 78-95 vs Purdue Boilermakers): https://hardwoodbricks.com/asun/games/401920706.html <!-- post:401920706:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:preview -->

@@ -69,7 +69,7 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/mw/games/401911455.html <!-- post:401911455:preview -->
 - 2026-11-15: W 73-71 at Nevada Wolf Pack. Barometer 72 (buoyant). <!-- g:401911455 -->
 - 2026-11-15: Social recap posted (W 73-71 vs Nevada Wolf Pack): https://hardwoodbricks.com/mw/games/401911455.html <!-- post:401911455:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:preview -->

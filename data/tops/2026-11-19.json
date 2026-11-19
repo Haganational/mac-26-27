@@ -1,0 +1,114 @@
+{
+ "date": "2026-11-19",
+ "locked_at": "2026-11-19T13:21+00:00",
+ "board": 24,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401920349",
+    "tip": "2026-11-20T03:00Z",
+    "matchup": "Sacramento State Hornets at Stanford Cardinal",
+    "side": "under",
+    "line": 155.0,
+    "label": "Under 155",
+    "why": "Model has it 12.1 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401906867",
+    "tip": "2026-11-20T01:00Z",
+    "matchup": "Southern Utah Thunderbirds at Texas Longhorns",
+    "side": "home",
+    "team": "Texas Longhorns",
+    "abbr": "TEX",
+    "line": -38.5,
+    "label": "Texas Longhorns -38.5",
+    "why": "Third-stingiest defense on the board: 60.8 allowed a game."
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401920520",
+    "tip": "2026-11-20T01:30Z",
+    "matchup": "Rutgers Scarlet Knights vs. UNLV Rebels",
+    "side": "over",
+    "line": 156.5,
+    "label": "Over 156.5",
+    "why": "Model has it 11.0 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401906867",
+    "tip": "2026-11-20T01:00Z",
+    "matchup": "Southern Utah Thunderbirds at Texas Longhorns",
+    "side": "away",
+    "team": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "line": 38.5,
+    "label": "Southern Utah Thunderbirds +38.5",
+    "why": "Second-highest scoring team on the board: 96.8 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401906867",
+    "tip": "2026-11-20T01:00Z",
+    "matchup": "Southern Utah Thunderbirds at Texas Longhorns",
+    "side": "away",
+    "team": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "line": 38.5,
+    "label": "Southern Utah Thunderbirds +38.5",
+    "why": "Model is 11.7 points off the number."
+   },
+   {
+    "kind": "side",
+    "game": "401916318",
+    "tip": "2026-11-20T00:00Z",
+    "matchup": "UMBC Retrievers at Ohio State Buckeyes",
+    "side": "away",
+    "team": "UMBC Retrievers",
+    "abbr": "UMBC",
+    "line": 31.0,
+    "label": "UMBC Retrievers +31",
+    "why": "Model is 10.4 points off the number."
+   }
+  ],
+  "shark": []
+ },
+ "column": {
+  "byline": "shark",
+  "by": "Edwin \u201cThe Shark\u201d Sinclair",
+  "head": "Picks are in for Thursday",
+  "paras": [
+   "I'm writing this from a booth with my back to the wall, like always.",
+   "Nothing graded from last night. Clean slate."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 155. Model has it 12.1 under the total. Nobody's scoring on anybody in my world. Texas Longhorns -38.5. Third-stingiest defense on the board: 60.8 allowed a game. I've seen that team guard a man into retirement."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 156.5. Model has it 11.0 over the total. Turn the scoreboard up, honey. Southern Utah Thunderbirds +38.5. Second-highest scoring team on the board: 96.8 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Southern Utah Thunderbirds +38.5. Model is 11.7 points off the number. The spreadsheet has spoken. UMBC Retrievers +31. Model is 10.4 points off the number. Big number, big hair, big night."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "No home dog in the Shark's window tonight. He says he's 'visiting a friend.'"
+   }
+  ],
+  "close": "Season ledger starts tonight. Everybody's even."
+ }
+}

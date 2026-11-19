@@ -70,7 +70,7 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -78,3 +78,4 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 - 2026-11-07: L 75-78 vs UNC Wilmington Seahawks. Barometer 50 (steady). <!-- g:401918977 -->
 - 2026-11-11: W 72-67 vs North Carolina A&T Aggies. Barometer 57 (steady). <!-- g:401918978 -->
 - 2026-11-14: W 72-48 vs Delaware State Hornets. Barometer 65 (buoyant). <!-- g:401918979 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:preview -->

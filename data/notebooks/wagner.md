@@ -62,7 +62,7 @@ Kate Brennan edits The Staten Island Pilot and stands up for the forgotten borou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -73,3 +73,4 @@ Kate Brennan edits The Staten Island Pilot and stands up for the forgotten borou
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:preview -->
 - 2026-11-18: L 65-84 at Saint Joseph's Hawks. Barometer 34 (testy). <!-- g:401920194 -->
 - 2026-11-18: Social recap posted (L 65-84 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/nec/games/401916299.html <!-- post:401916299:preview -->

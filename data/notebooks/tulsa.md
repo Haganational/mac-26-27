@@ -72,7 +72,7 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/american/games/401925864.html <!-- post:401925864:preview -->
 - 2026-11-17: W 67-64 vs Western Kentucky Hilltoppers. Barometer 79 (buoyant). <!-- g:401925864 -->
 - 2026-11-17: Social recap posted (W 67-64 vs Western Kentucky Hilltoppers): https://hardwoodbricks.com/american/games/401925864.html <!-- post:401925864:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925865.html <!-- post:401925865:preview -->
