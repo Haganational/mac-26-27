@@ -2018,21 +2018,21 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": 52,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "2239",
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": 49,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928354",
@@ -9922,5 +9922,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T04:59:55+00:00"
+ "live_at": "2026-11-19T05:42:27+00:00"
 }

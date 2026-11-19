@@ -27,9 +27,9 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 
 ## Barometer
 
-**56 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**63 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 - 2026-11-15: L 68-84 vs Portland State Vikings. Barometer 56 (steady). <!-- g:401921063 -->
 - 2026-11-15: Social recap posted (L 68-84 vs Portland State Vikings): https://hardwoodbricks.com/wcc/games/401921063.html <!-- post:401921063:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:preview -->
+- 2026-11-19: W 77-56 vs Louisiana Ragin' Cajuns. Barometer 63 (steady). <!-- g:401921064 -->
+- 2026-11-19: Social recap posted (W 77-56 vs Louisiana Ragin' Cajuns): https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:recap -->

@@ -2071,21 +2071,21 @@
     "key": "san-francisco",
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": 75,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "309",
     "key": null,
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": 52,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928354",
@@ -9626,5 +9626,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T05:02:58+00:00"
+ "live_at": "2026-11-19T05:45:37+00:00"
 }

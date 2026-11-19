@@ -27,9 +27,9 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 
 ## Barometer
 
-**48 of 100, steady.** Record 1-2 (0-0 in conference), streak W1, last five LLW.
+**39 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -81,3 +81,5 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 - 2026-11-07: L 60-67 vs Texas A&M-Corpus Christi Islanders. Barometer 33 (testy). <!-- g:401925097 -->
 - 2026-11-10: W 56-39 vs Southern New Orleans Knights. Barometer 48 (steady). <!-- g:401929455 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:preview -->
+- 2026-11-19: L 56-77 at San Francisco Dons. Barometer 39 (testy). <!-- g:401921064 -->
+- 2026-11-19: Social recap posted (L 56-77 vs San Francisco Dons): https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:recap -->

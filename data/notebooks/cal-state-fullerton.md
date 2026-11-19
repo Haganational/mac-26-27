@@ -27,9 +27,9 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 
 ## Barometer
 
-**59 of 100, steady.** Record 2-1 (0-0 in conference), streak W2, last five LWW.
+**50 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,5 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920157.html <!-- post:401920157:preview -->
 - 2026-11-13: Social recap posted (W 101-71 vs Lincoln (CA) Oaklanders): https://hardwoodbricks.com/bigwest/games/401920157.html <!-- post:401920157:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920158.html <!-- post:401920158:preview -->
+- 2026-11-19: L 71-75 at UCLA Bruins. Barometer 50 (steady). <!-- g:401920158 -->
+- 2026-11-19: Social recap posted (L 71-75 vs UCLA Bruins): https://hardwoodbricks.com/bigwest/games/401920158.html <!-- post:401920158:recap -->

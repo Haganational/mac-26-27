@@ -13,7 +13,7 @@
    "school": "Santa Clara",
    "tag": "AI anchor"
   },
-  "max": 196,
+  "max": 172,
   "picks": [
    {
     "abbr": "SCU",
@@ -38,6 +38,17 @@
     "worth": 51
    },
    {
+    "abbr": "TOL",
+    "game_id": "401928826",
+    "kind": "ratings",
+    "short": "Toledo",
+    "side": "home",
+    "team_id": "2649",
+    "tip": "2026-11-20T00:00Z",
+    "why": "Our ratings 87%, pregame win chance 72%.",
+    "worth": 28
+   },
+   {
     "abbr": "ORE",
     "game_id": "401930884",
     "kind": "ratings",
@@ -47,17 +58,6 @@
     "tip": "2026-11-20T02:00Z",
     "why": "Our ratings 69%, pregame win chance 55%.",
     "worth": 45
-   },
-   {
-    "abbr": "LT",
-    "game_id": "401919005",
-    "kind": "ratings",
-    "short": "Louisiana Tech",
-    "side": "home",
-    "team_id": "2348",
-    "tip": "2026-11-20T00:30Z",
-    "why": "Our ratings 63%, pregame win chance 48%.",
-    "worth": 52
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -109,7 +109,7 @@
    "team_id": "2084",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 83
+   "worth": 84
   },
   {
    "abbr": "HPU",
@@ -121,7 +121,7 @@
    "team_id": "2272",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 14
+   "worth": 12
   },
   {
    "abbr": "MTST",
@@ -133,7 +133,7 @@
    "team_id": "147",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 86
+   "worth": 88
   },
   {
    "abbr": "JAX",
@@ -217,7 +217,7 @@
    "team_id": "2649",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 27
+   "worth": 28
   },
   {
    "abbr": "RMU",
@@ -229,7 +229,7 @@
    "team_id": "2523",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 73
+   "worth": 72
   },
   {
    "abbr": "LT",
@@ -289,7 +289,7 @@
    "team_id": "2900",
    "tip": "2026-11-20T01:00Z",
    "why": "Homer pick.",
-   "worth": 29
+   "worth": 28
   },
   {
    "abbr": "SEMO",
@@ -301,7 +301,7 @@
    "team_id": "2546",
    "tip": "2026-11-20T01:00Z",
    "why": "Homer pick.",
-   "worth": 71
+   "worth": 72
   },
   {
    "abbr": "HCU",
@@ -361,7 +361,7 @@
    "team_id": "3101",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 93
+   "worth": 92
   },
   {
    "abbr": "PEPP",
@@ -373,7 +373,7 @@
    "team_id": "2492",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 57
   },
   {
    "abbr": "UCSB",
@@ -385,7 +385,7 @@
    "team_id": "2540",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 41
+   "worth": 43
   },
   {
    "abbr": "ORST",
@@ -409,7 +409,7 @@
    "team_id": "2837",
    "tip": "2026-11-20T03:00Z",
    "why": "Homer pick.",
-   "worth": 89
+   "worth": 87
   },
   {
    "abbr": "SAC",

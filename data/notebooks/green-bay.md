@@ -69,7 +69,7 @@ Mitch Carlson grew up on a dairy farm outside De Pere and drove a snowplow for t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Mitch Carlson grew up on a dairy farm outside De Pere and drove a snowplow for t
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:preview -->
 - 2026-11-18: L 69-87 at West Florida Argonauts. Barometer 47 (steady). <!-- g:401922251 -->
 - 2026-11-18: Social recap posted (L 69-87 vs West Florida Argonauts): https://hardwoodbricks.com/asun/games/401922251.html <!-- post:401922251:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/horizon/games/401909698.html <!-- post:401909698:preview -->
