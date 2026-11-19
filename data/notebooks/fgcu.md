@@ -27,9 +27,9 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**44 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Elena editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Elena editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 - 2026-11-15: W 99-31 vs Abraham Baldwin Agricultural Stallions. Barometer 51 (steady). <!-- g:401929458 -->
 - 2026-11-15: Social recap posted (W 99-31 vs Abraham Baldwin Agricultural Stallions): https://hardwoodbricks.com/asun/games/401929458.html <!-- post:401929458:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:preview -->
+- 2026-11-19: L 76-86 at Florida Atlantic Owls. Barometer 44 (testy). <!-- g:401922212 -->

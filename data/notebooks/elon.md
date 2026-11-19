@@ -66,7 +66,7 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 - 2026-11-14: L 70-77 vs Chattanooga Mocs. Barometer 44 (testy). <!-- g:401920973 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921141.html <!-- post:401921141:preview -->
 - 2026-11-19: L 72-80 at South Carolina Gamecocks. Barometer 36 (testy). <!-- g:401921141 -->
+- 2026-11-19: Social recap posted (L 72-80 vs South Carolina Gamecocks): https://hardwoodbricks.com/caa/games/401921141.html <!-- post:401921141:recap -->

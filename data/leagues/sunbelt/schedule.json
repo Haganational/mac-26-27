@@ -2883,21 +2883,21 @@
     "key": null,
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": 27,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
    "away": {
     "espn_id": "256",
     "key": "james-madison",
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": 30,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928398",
@@ -2928,7 +2928,7 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 46,
+    "score": 63,
     "winner": null
    },
    "away": {
@@ -2936,13 +2936,13 @@
     "key": null,
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": 30,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:54 - 2nd"
   },
   {
    "game_id": "401917982",
@@ -2973,7 +2973,7 @@
     "key": null,
     "name": "LSU Tigers",
     "abbr": "LSU",
-    "score": 43,
+    "score": 73,
     "winner": null
    },
    "away": {
@@ -2981,13 +2981,13 @@
     "key": "ul-monroe",
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": 45,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:21 - 2nd"
+   "detail": "4:25 - 2nd"
   },
   {
    "game_id": "401921064",
@@ -12617,5 +12617,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:15:36+00:00"
+ "live_at": "2026-11-19T02:46:52+00:00"
 }

@@ -65,7 +65,7 @@ Luis Ortega edits The West Haven Beacon and covers the Chargers like a new kid o
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -77,3 +77,4 @@ Luis Ortega edits The West Haven Beacon and covers the Chargers like a new kid o
 - 2026-11-15: Social recap posted (L 52-86 vs Penn State Nittany Lions): https://hardwoodbricks.com/nec/games/401917175.html <!-- post:401917175:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/nec/games/401929014.html <!-- post:401929014:preview -->
 - 2026-11-19: W 96-50 vs MCLA Mohawks. Barometer 48 (steady). <!-- g:401929014 -->
+- 2026-11-19: Social recap posted (W 96-50 vs MCLA Mohawks): https://hardwoodbricks.com/nec/games/401929014.html <!-- post:401929014:recap -->

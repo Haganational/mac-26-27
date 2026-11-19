@@ -1973,7 +1973,7 @@
     "key": null,
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1981,13 +1981,13 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:33 - 1st"
   },
   {
    "game_id": "401920158",
@@ -9921,5 +9921,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T02:43:16+00:00"
 }

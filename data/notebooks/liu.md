@@ -27,9 +27,9 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 
 ## Barometer
 
-**14 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**34 of 100, testy.** Record 1-6 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Victor editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Victor editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 - 2026-11-17: L 70-79 vs St. Thomas Tommies. Barometer 14 (despondent). <!-- g:401919807 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401919808.html <!-- post:401919808:preview -->
 - 2026-11-17: Social recap posted (L 70-79 vs St. Thomas Tommies): https://hardwoodbricks.com/summit/games/401919807.html <!-- post:401919807:recap -->
+- 2026-11-19: W 115-114 vs UNC Wilmington Seahawks. Barometer 34 (testy). <!-- g:401919808 -->

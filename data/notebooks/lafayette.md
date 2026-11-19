@@ -67,7 +67,7 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,4 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 - 2026-11-14: Social recap posted (L 58-81 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/a10/games/401911264.html <!-- post:401911264:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911277.html <!-- post:401911277:preview -->
 - 2026-11-19: W 80-65 vs Binghamton Bearcats. Barometer 54 (steady). <!-- g:401911277 -->
+- 2026-11-19: Social recap posted (W 80-65 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911277.html <!-- post:401911277:recap -->

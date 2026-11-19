@@ -27,9 +27,9 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 - 2026-11-11: W 80-76 at East Texas A&M Lions. Barometer 53 (steady). <!-- g:401919759 -->
 - 2026-11-14: L 58-74 at Oklahoma Sooners. Barometer 44 (testy). <!-- g:401906804 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:preview -->
+- 2026-11-19: W 78-66 vs NJIT Highlanders. Barometer 53 (steady). <!-- g:401919760 -->

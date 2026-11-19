@@ -66,7 +66,7 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,4 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-14: W 63-61 vs (neutral) Loyola Maryland Greyhounds. Barometer 62 (steady). <!-- g:401920567 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:preview -->
 - 2026-11-19: L 70-82 at North Carolina A&T Aggies. Barometer 52 (steady). <!-- g:401921156 -->
+- 2026-11-19: Social recap posted (L 70-82 vs North Carolina A&T Aggies): https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:recap -->

@@ -27,9 +27,9 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 
 ## Barometer
 
-**77 of 100, buoyant.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**81 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 77% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 - 2026-11-15: W 71-58 vs Binghamton Bearcats. Barometer 77 (buoyant). <!-- g:401911276 -->
 - 2026-11-15: Social recap posted (W 71-58 vs Binghamton Bearcats): https://hardwoodbricks.com/a10/games/401911276.html <!-- post:401911276:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:preview -->
+- 2026-11-19: W 74-68 vs (neutral) Howard Bison. Barometer 81 (giddy). <!-- g:401925782 -->

@@ -2161,7 +2161,7 @@
     "key": null,
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": 25,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2169,13 +2169,13 @@
     "key": "samford",
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 33,
+    "score": 39,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:58 - 1st"
+   "detail": "17:00 - 2nd"
   },
   {
    "game_id": "401922292",
@@ -2297,7 +2297,7 @@
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
     "score": 88,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2382",
@@ -2305,12 +2305,12 @@
     "name": "Mercer Bears",
     "abbr": "MER",
     "score": 84,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922047",
@@ -2431,7 +2431,7 @@
     "key": null,
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": 41,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2439,13 +2439,13 @@
     "key": "unc-greensboro",
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": 50,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:25 - 2nd"
+   "detail": "5:39 - 2nd"
   },
   {
    "game_id": "401925927",
@@ -9972,5 +9972,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:17:24+00:00"
+ "live_at": "2026-11-19T02:49:25+00:00"
 }

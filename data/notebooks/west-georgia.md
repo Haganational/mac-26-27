@@ -66,7 +66,7 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 - 2026-11-15: L 68-92 at Charleston Southern Buccaneers. Barometer 19 (despondent). <!-- g:401911376 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/uac/games/401917902.html <!-- post:401917902:preview -->
 - 2026-11-19: W 85-50 vs Columbia (SC) Fighting Koalas. Barometer 40 (testy). <!-- g:401917902 -->
+- 2026-11-19: Social recap posted (W 85-50 vs Columbia (SC) Fighting Koalas): https://hardwoodbricks.com/uac/games/401917902.html <!-- post:401917902:recap -->

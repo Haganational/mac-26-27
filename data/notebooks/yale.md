@@ -27,7 +27,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
+**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five LLLWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Thurston editorializes: 62% of stories right now.
 
@@ -80,3 +80,4 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ivy/games/401924744.html <!-- post:401924744:preview -->
 - 2026-11-15: Social recap posted (W 103-58 vs Emmanuel (MA) Lions): https://hardwoodbricks.com/ivy/games/401924744.html <!-- post:401924744:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:preview -->
+- 2026-11-19: W 76-74 vs Vermont Catamounts. Barometer 53 (steady). <!-- g:401920694 -->

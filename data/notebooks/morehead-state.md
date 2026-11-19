@@ -27,9 +27,9 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**49 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Opal editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Opal editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 - 2026-11-16: W 104-69 vs Miami (OH) Hamilton Harriers. Barometer 59 (steady). <!-- g:401920962 -->
 - 2026-11-16: Social recap posted (W 104-69 vs Miami (OH) Hamilton Harriers): https://hardwoodbricks.com/ovc/games/401920962.html <!-- post:401920962:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:preview -->
+- 2026-11-19: L 77-91 at Ohio Bobcats. Barometer 49 (steady). <!-- g:401920963 -->

@@ -27,9 +27,9 @@ Tamika Batiste played trumpet in a high school marching band, taught music in Ge
 
 ## Barometer
 
-**61 of 100, steady.** Record 2-1 (0-0 in conference), streak W2, last five LWW.
+**49 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five LWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tamika editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tamika editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Tamika Batiste played trumpet in a high school marching band, taught music in Ge
 - 2026-11-07: W 90-65 vs Loyola New Orleans Wolfpack. Barometer 52 (steady). <!-- g:401925047 -->
 - 2026-11-14: W 98-82 vs Southern New Orleans Knights. Barometer 61 (steady). <!-- g:401925048 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/southland/games/401921134.html <!-- post:401921134:preview -->
+- 2026-11-19: L 41-86 at Texas Tech Red Raiders. Barometer 49 (steady). <!-- g:401921134 -->

@@ -2404,21 +2404,21 @@
     "key": "towson",
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": 27,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
    "away": {
     "espn_id": "256",
     "key": null,
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": 30,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919808",
@@ -2445,21 +2445,21 @@
     "key": null,
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 96,
-    "winner": null
+    "score": 115,
+    "winner": true
    },
    "away": {
     "espn_id": "350",
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 93,
-    "winner": null
+    "score": 114,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:50 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401906805",
@@ -2490,7 +2490,7 @@
     "key": null,
     "name": "Oklahoma Sooners",
     "abbr": "OU",
-    "score": 54,
+    "score": 74,
     "winner": null
    },
    "away": {
@@ -2498,13 +2498,13 @@
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": 53,
+    "score": 71,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:48 - 2nd"
+   "detail": "3:53 - 2nd"
   },
   {
    "game_id": "401902280",
@@ -11902,5 +11902,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:16:31+00:00"
+ "live_at": "2026-11-19T02:48:11+00:00"
 }

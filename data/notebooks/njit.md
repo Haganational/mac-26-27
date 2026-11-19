@@ -27,9 +27,9 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 
 ## Barometer
 
-**26 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
+**20 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 - 2026-11-15: L 60-63 at Fairfield Stags. Barometer 26 (despondent). <!-- g:401920867 -->
 - 2026-11-15: Social recap posted (L 60-63 vs Fairfield Stags): https://hardwoodbricks.com/metro/games/401920867.html <!-- post:401920867:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:preview -->
+- 2026-11-19: L 66-78 at Fairleigh Dickinson Knights. Barometer 20 (despondent). <!-- g:401919760 -->

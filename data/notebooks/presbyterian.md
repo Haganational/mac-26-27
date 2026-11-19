@@ -27,9 +27,9 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 
 ## Barometer
 
-**24 of 100, despondent.** Record 0-3 (0-0 in conference), streak L3, last five LLL.
+**40 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 - 2026-11-07: L 77-91 at Georgia Bulldogs. Barometer 32 (testy). <!-- g:401906780 -->
 - 2026-11-11: L 60-94 at NC State Wolfpack. Barometer 24 (despondent). <!-- g:401918957 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:preview -->
+- 2026-11-19: W 88-84 vs Mercer Bears. Barometer 40 (testy). <!-- g:401928347 -->

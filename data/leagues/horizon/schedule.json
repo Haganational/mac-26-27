@@ -2437,21 +2437,21 @@
     "key": null,
     "name": "Marquette Golden Eagles",
     "abbr": "MARQ",
-    "score": 66,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2459",
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 52,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928829",
@@ -2483,20 +2483,20 @@
     "name": "Wright State Raiders",
     "abbr": "WRST",
     "score": 77,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "556",
     "key": null,
     "name": "Malone Pioneers",
     "abbr": "MLN",
-    "score": 53,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:40 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920751",
@@ -2527,21 +2527,21 @@
     "key": null,
     "name": "Cincinnati Bearcats",
     "abbr": "CIN",
-    "score": 73,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2754",
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 41,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927357",
@@ -2572,7 +2572,7 @@
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 39,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -2580,13 +2580,13 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 44,
+    "score": 69,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:37 - 2nd"
+   "detail": "3:36 - 2nd"
   },
   {
    "game_id": "401921734",
@@ -2617,7 +2617,7 @@
     "key": null,
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
-    "score": 11,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2625,13 +2625,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 8,
+    "score": 22,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:37 - 1st"
+   "detail": "3:36 - 1st"
   },
   {
    "game_id": "401928812",
@@ -10631,5 +10631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:11:34+00:00"
+ "live_at": "2026-11-19T02:41:21+00:00"
 }

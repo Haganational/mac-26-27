@@ -1981,7 +1981,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": 9,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -1989,13 +1989,13 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 17,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:21 - 1st"
+   "detail": "1:45 - 1st"
   },
   {
    "game_id": "401917535",
@@ -2026,7 +2026,7 @@
     "key": "san-diego",
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2034,13 +2034,13 @@
     "key": null,
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:39 - 1st"
   },
   {
    "game_id": "401921064",
@@ -9626,5 +9626,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:14:43+00:00"
+ "live_at": "2026-11-19T02:45:41+00:00"
 }

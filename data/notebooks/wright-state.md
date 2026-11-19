@@ -27,9 +27,9 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 
 ## Barometer
 
-**82 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**87 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Maya editorializes: 80% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Maya editorializes: 83% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 - 2026-11-14: W 90-66 at Samford Bulldogs. Barometer 82 (giddy). <!-- g:401926117 -->
 - 2026-11-14: Social recap posted (W 90-66 vs Samford Bulldogs): https://hardwoodbricks.com/horizon/games/401926117.html <!-- post:401926117:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401928829.html <!-- post:401928829:preview -->
+- 2026-11-19: W 77-60 vs Malone Pioneers. Barometer 87 (giddy). <!-- g:401928829 -->

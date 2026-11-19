@@ -27,9 +27,9 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**39 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brett editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brett editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 - 2026-11-14: W 74-71 vs Marshall Thundering Herd. Barometer 47 (steady). <!-- g:401920750 -->
 - 2026-11-14: Social recap posted (W 74-71 vs Marshall Thundering Herd): https://hardwoodbricks.com/horizon/games/401920750.html <!-- post:401920750:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401920751.html <!-- post:401920751:preview -->
+- 2026-11-19: L 54-91 at Cincinnati Bearcats. Barometer 39 (testy). <!-- g:401920751 -->

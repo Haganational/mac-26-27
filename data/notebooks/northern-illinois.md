@@ -27,9 +27,9 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 
 ## Barometer
 
-**64 of 100, steady.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**51 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rachelle editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rachelle editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 - 2026-11-14: W 72-64 at Bellarmine Knights. Barometer 64 (steady). <!-- g:401920915 -->
 - 2026-11-14: Social recap posted (W 72-64 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401920915.html <!-- post:401920915:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401909526.html <!-- post:401909526:preview -->
+- 2026-11-19: L 65-79 at Marquette Golden Eagles. Barometer 51 (steady). <!-- g:401909526 -->

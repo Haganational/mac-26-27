@@ -27,9 +27,9 @@ Ray Abernathy was born in Nelsonville, rolled into Athens in the fall of 1985 wi
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-1 (0-0 in conference), streak L1, last five WWL.
+**60 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ray editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ray editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Ray Abernathy was born in Nelsonville, rolled into Athens in the fall of 1985 wi
 - 2026-11-17: Film: *South Bridge* (https://youtu.be/H6GUKT38RN0). Our film on Athens, Ohio, its river, its bricks and its Bobcats. <!-- film:H6GUKT38RN0 -->
 - 2026-11-17: Fight song: *Stand Up and Cheer* (https://youtu.be/Zc_R-kJrtxo) <!-- song:Zc_R-kJrtxo -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:preview -->
+- 2026-11-19: W 91-77 vs Morehead State Eagles. Barometer 60 (steady). <!-- g:401920963 -->

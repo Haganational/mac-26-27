@@ -27,9 +27,9 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**56 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Diego editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Diego editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 - 2026-11-11: L 65-72 vs Texas State Bobcats. Barometer 55 (steady). <!-- g:401925107 -->
 - 2026-11-15: L 77-85 at UT Arlington Mavericks. Barometer 46 (steady). <!-- g:401925108 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/southland/games/401925109.html <!-- post:401925109:preview -->
+- 2026-11-19: W 98-40 vs College of Biblical Studies Ambassadors. Barometer 56 (steady). <!-- g:401925109 -->

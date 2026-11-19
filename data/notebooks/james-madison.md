@@ -27,9 +27,9 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 
 ## Barometer
 
-**55 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**65 of 100, buoyant.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401919825.html <!-- post:401919825:preview -->
 - 2026-11-15: Social recap posted (W 80-71 vs Mercyhurst Lakers): https://hardwoodbricks.com/sunbelt/games/401919825.html <!-- post:401919825:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926838.html <!-- post:401926838:preview -->
+- 2026-11-19: W 70-52 at Towson Tigers. Barometer 65 (buoyant). <!-- g:401926838 -->

@@ -27,9 +27,9 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 
 ## Barometer
 
-**82 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**64 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 80% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 - 2026-11-12: Social recap posted (W 91-73 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401926863.html <!-- post:401926863:recap -->
 - 2026-11-14: W 100-41 vs Montreat Cavaliers. Barometer 82 (giddy). <!-- g:401934189 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401919808.html <!-- post:401919808:preview -->
+- 2026-11-19: L 114-115 at Long Island University Sharks. Barometer 64 (steady). <!-- g:401919808 -->

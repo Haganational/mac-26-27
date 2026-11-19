@@ -1756,8 +1756,8 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 73,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "261",
@@ -1765,12 +1765,12 @@
     "name": "Vermont Catamounts",
     "abbr": "UVM",
     "score": 74,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:04 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401924721",
@@ -1801,7 +1801,7 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": 53,
+    "score": 73,
     "winner": null
    },
    "away": {
@@ -1809,13 +1809,13 @@
     "key": "cornell",
     "name": "Cornell Big Red",
     "abbr": "COR",
-    "score": 43,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:07 - 2nd"
+   "detail": "6:32 - 2nd"
   },
   {
    "game_id": "401909555",
@@ -1846,7 +1846,7 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 22,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -1854,13 +1854,13 @@
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 30,
+    "score": 52,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "20:00 - 2nd"
+   "detail": "9:56 - 2nd"
   },
   {
    "game_id": "401920357",
@@ -7278,5 +7278,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:16:10+00:00"
+ "live_at": "2026-11-19T02:47:42+00:00"
 }

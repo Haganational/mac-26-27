@@ -68,7 +68,7 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -79,3 +79,4 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-14: L 74-80 at Old Dominion Monarchs. Barometer 55 (steady). <!-- g:401922046 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:preview -->
 - 2026-11-19: W 82-76 vs VMI Keydets. Barometer 60 (steady). <!-- g:401922047 -->
+- 2026-11-19: Social recap posted (W 82-76 vs VMI Keydets): https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:recap -->

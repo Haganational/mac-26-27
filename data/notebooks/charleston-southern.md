@@ -64,7 +64,7 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -74,3 +74,4 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-15: W 92-68 vs West Georgia Wolves. Barometer 53 (steady). <!-- g:401911376 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:preview -->
 - 2026-11-19: L 77-79 vs Wofford Terriers. Barometer 47 (steady). <!-- g:401911377 -->
+- 2026-11-19: Social recap posted (L 77-79 vs Wofford Terriers): https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:recap -->

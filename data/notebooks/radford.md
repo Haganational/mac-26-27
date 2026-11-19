@@ -65,7 +65,7 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -75,3 +75,4 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 - 2026-11-14: W 102-63 vs Shenandoah Hornets. Barometer 42 (testy). <!-- g:401922054 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922055.html <!-- post:401922055:preview -->
 - 2026-11-19: L 71-78 vs Furman Paladins. Barometer 38 (testy). <!-- g:401922055 -->
+- 2026-11-19: Social recap posted (L 71-78 vs Furman Paladins): https://hardwoodbricks.com/socon/games/401922055.html <!-- post:401922055:recap -->
