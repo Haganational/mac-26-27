@@ -72,7 +72,7 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/wcc/games/401917528.html <!-- post:401917528:preview -->
 - 2026-11-15: L 70-77 at Seattle U Redhawks. Barometer 20 (despondent). <!-- g:401917528 -->
 - 2026-11-15: Social recap posted (L 70-77 vs Seattle U Redhawks): https://hardwoodbricks.com/wcc/games/401917528.html <!-- post:401917528:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:preview -->
