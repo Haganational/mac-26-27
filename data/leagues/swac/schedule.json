@@ -2551,7 +2551,7 @@
     "key": null,
     "name": "Missouri Tigers",
     "abbr": "MIZ",
-    "score": 72,
+    "score": 91,
     "winner": null
    },
    "away": {
@@ -2559,13 +2559,13 @@
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 30,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:06 - 2nd"
+   "detail": "3:55 - 2nd"
   },
   {
    "game_id": "401909494",
@@ -2596,7 +2596,7 @@
     "key": null,
     "name": "Creighton Bluejays",
     "abbr": "CREI",
-    "score": 56,
+    "score": 81,
     "winner": null
    },
    "away": {
@@ -2604,13 +2604,13 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 42,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:10 - 2nd"
+   "detail": "3:10 - 2nd"
   },
   {
    "game_id": "401929146",
@@ -2641,7 +2641,7 @@
     "key": null,
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 45,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -2649,13 +2649,13 @@
     "key": "texas-southern",
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": 17,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:04 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928388",
@@ -10924,5 +10924,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:41:46+00:00"
+ "live_at": "2026-11-19T04:00:54+00:00"
 }

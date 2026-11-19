@@ -69,7 +69,7 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -79,3 +79,4 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 - 2026-11-12: L 64-88 at St. Bonaventure Bonnies. Barometer 47 (steady). <!-- g:401911263 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401924721.html <!-- post:401924721:preview -->
 - 2026-11-19: L 82-91 at Syracuse Orange. Barometer 40 (testy). <!-- g:401924721 -->
+- 2026-11-19: Social recap posted (L 82-91 vs Syracuse Orange): https://hardwoodbricks.com/ivy/games/401924721.html <!-- post:401924721:recap -->

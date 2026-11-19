@@ -70,7 +70,7 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -80,3 +80,4 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 - 2026-11-12: W 91-84 vs Lees McRae Bobcats. Barometer 51 (steady). <!-- g:401926182 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:preview -->
 - 2026-11-19: W 78-72 at Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911393 -->
+- 2026-11-19: Social recap posted (W 78-72 vs Gardner-Webb Runnin' Bulldogs): https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:recap -->

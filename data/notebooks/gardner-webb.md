@@ -67,7 +67,7 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,4 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 - 2026-11-14: L 62-79 at South Carolina Gamecocks. Barometer 38 (testy). <!-- g:401911392 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:preview -->
 - 2026-11-19: L 72-78 vs UNC Greensboro Spartans. Barometer 34 (testy). <!-- g:401911393 -->
+- 2026-11-19: Social recap posted (L 72-78 vs UNC Greensboro Spartans): https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:recap -->

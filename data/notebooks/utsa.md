@@ -71,7 +71,7 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 - 2026-11-16: Social recap posted (L 67-87 vs Texas State Bobcats): https://hardwoodbricks.com/pac12/games/401929200.html <!-- post:401929200:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:preview -->
 - 2026-11-19: W 98-78 vs Florida A&M Rattlers. Barometer 57 (steady). <!-- g:401929420 -->
+- 2026-11-19: Social recap posted (W 98-78 vs Florida A&M Rattlers): https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:recap -->

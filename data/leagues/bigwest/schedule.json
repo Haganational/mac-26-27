@@ -1973,7 +1973,7 @@
     "key": null,
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": 36,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -1981,13 +1981,13 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 22,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:27 - 2nd"
   },
   {
    "game_id": "401920158",
@@ -2018,7 +2018,7 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2026,13 +2026,13 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:43 - 1st"
   },
   {
    "game_id": "401928354",
@@ -9922,5 +9922,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:33:03+00:00"
+ "live_at": "2026-11-19T03:48:53+00:00"
 }

@@ -27,9 +27,9 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 
 ## Barometer
 
-**84 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**89 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 - 2026-11-14: W 120-82 vs UC San Diego Tritons. Barometer 84 (giddy). <!-- g:401920372 -->
 - 2026-11-14: Social recap posted (W 120-82 vs UC San Diego Tritons): https://hardwoodbricks.com/bigwest/games/401920372.html <!-- post:401920372:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:preview -->
+- 2026-11-19: W 101-71 vs Weber State Wildcats. Barometer 89 (giddy). <!-- g:401925949 -->

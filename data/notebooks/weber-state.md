@@ -27,9 +27,9 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 
 ## Barometer
 
-**42 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mitch editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mitch editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 - 2026-11-11: L 64-85 at Utah Utes. Barometer 24 (despondent). <!-- g:401921699 -->
 - 2026-11-14: W 80-57 vs Lincoln (CA) Oaklanders. Barometer 42 (testy). <!-- g:401925948 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:preview -->
+- 2026-11-19: L 71-101 at Utah State Aggies. Barometer 35 (testy). <!-- g:401925949 -->
