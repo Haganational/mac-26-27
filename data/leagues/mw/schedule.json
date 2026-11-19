@@ -1835,7 +1835,7 @@
     "key": "san-jose-state",
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": 30,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -1843,13 +1843,13 @@
     "key": null,
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": 33,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:03 - 1st"
+   "detail": "16:03 - 2nd"
   },
   {
    "game_id": "401929004",
@@ -1874,7 +1874,7 @@
     "key": "hawaii",
     "name": "Hawai'i Rainbow Warriors",
     "abbr": "HAW",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -1882,13 +1882,13 @@
     "key": null,
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:05 - 1st"
   },
   {
    "game_id": "401911456",
@@ -1919,7 +1919,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1927,13 +1927,13 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:08 - 1st"
   },
   {
    "game_id": "401920516",
@@ -8968,5 +8968,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:42:01+00:00"
+ "live_at": "2026-11-19T03:17:20+00:00"
 }

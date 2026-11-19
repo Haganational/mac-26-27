@@ -27,9 +27,9 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 
 ## Barometer
 
-**41 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LLLLW.
+**36 of 100, testy.** Record 2-6 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Celeste editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Celeste editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 - 2026-11-17: W 118-81 vs Dallas Christian Crusaders. Barometer 41 (testy). <!-- g:401917981 -->
 - 2026-11-17: Social recap posted (W 118-81 vs Dallas Christian Crusaders): https://hardwoodbricks.com/sunbelt/games/401917981.html <!-- post:401917981:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917982.html <!-- post:401917982:preview -->
+- 2026-11-19: L 67-79 at LSU Tigers. Barometer 36 (testy). <!-- g:401917982 -->

@@ -66,7 +66,7 @@ Malcolm Reed edits The Shaw Courier and talks about Howard basketball with the p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Malcolm Reed edits The Shaw Courier and talks about Howard basketball with the p
 - 2026-11-15: Social recap posted (W 64-58 vs Davidson Wildcats): https://hardwoodbricks.com/a10/games/401925774.html <!-- post:401925774:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:preview -->
 - 2026-11-19: L 68-74 vs (neutral) Duquesne Dukes. Barometer 50 (steady). <!-- g:401925782 -->
+- 2026-11-19: Social recap posted (L 68-74 vs Duquesne Dukes): https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:recap -->

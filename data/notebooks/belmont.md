@@ -70,7 +70,7 @@ Dolly McAllister grew up above her father's guitar-repair shop in East Nashville
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,4 @@ Dolly McAllister grew up above her father's guitar-repair shop in East Nashville
 - 2026-11-15: Social recap posted (W 72-62 vs Furman Paladins): https://hardwoodbricks.com/mvc/games/401920760.html <!-- post:401920760:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mvc/games/401920761.html <!-- post:401920761:preview -->
 - 2026-11-19: W 86-44 vs Union Commonwealth (KY) Bulldogs. Barometer 68 (buoyant). <!-- g:401920761 -->
+- 2026-11-19: Social recap posted (W 86-44 vs Union Commonwealth (KY) Bulldogs): https://hardwoodbricks.com/mvc/games/401920761.html <!-- post:401920761:recap -->

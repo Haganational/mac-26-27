@@ -27,9 +27,9 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 
 ## Barometer
 
-**29 of 100, despondent.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
+**21 of 100, despondent.** Record 1-4 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-10: L 55-75 at Columbia Lions. Barometer 38 (testy). <!-- g:401919846 -->
 - 2026-11-14: L 37-88 at Texas Tech Red Raiders. Barometer 29 (despondent). <!-- g:401919847 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919848.html <!-- post:401919848:preview -->
+- 2026-11-19: L 70-90 vs New Hampshire Wildcats. Barometer 21 (despondent). <!-- g:401919848 -->

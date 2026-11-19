@@ -27,9 +27,9 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 
 ## Barometer
 
-**53 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Samir editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Samir editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 - 2026-11-15: W 86-74 at Eastern Illinois Panthers. Barometer 53 (steady). <!-- g:401926068 -->
 - 2026-11-15: Social recap posted (W 86-74 vs Eastern Illinois Panthers): https://hardwoodbricks.com/horizon/games/401926068.html <!-- post:401926068:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:preview -->
+- 2026-11-19: W 78-73 at Bradley Braves. Barometer 58 (steady). <!-- g:401927357 -->

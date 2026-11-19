@@ -71,7 +71,7 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 - 2026-11-15: Social recap posted (W 71-58 vs Binghamton Bearcats): https://hardwoodbricks.com/a10/games/401911276.html <!-- post:401911276:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:preview -->
 - 2026-11-19: W 74-68 vs (neutral) Howard Bison. Barometer 81 (giddy). <!-- g:401925782 -->
+- 2026-11-19: Social recap posted (W 74-68 vs Howard Bison): https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:recap -->

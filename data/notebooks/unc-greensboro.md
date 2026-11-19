@@ -27,9 +27,9 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 - 2026-11-10: L 72-82 at UIC Flames. Barometer 42 (testy). <!-- g:401926181 -->
 - 2026-11-12: W 91-84 vs Lees McRae Bobcats. Barometer 51 (steady). <!-- g:401926182 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:preview -->
+- 2026-11-19: W 78-72 at Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911393 -->

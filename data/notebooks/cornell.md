@@ -27,9 +27,9 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**40 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Libby editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Libby editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 - 2026-11-08: W 99-59 vs Keuka Storm. Barometer 58 (steady). <!-- g:401924719 -->
 - 2026-11-12: L 64-88 at St. Bonaventure Bonnies. Barometer 47 (steady). <!-- g:401911263 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401924721.html <!-- post:401924721:preview -->
+- 2026-11-19: L 82-91 at Syracuse Orange. Barometer 40 (testy). <!-- g:401924721 -->

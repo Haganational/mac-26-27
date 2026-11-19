@@ -27,9 +27,9 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**71 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-12: W 113-60 vs Friends Falcons. Barometer 60 (steady). <!-- g:401919030 -->
 - 2026-11-15: W 76-60 vs Austin Peay Governors. Barometer 66 (buoyant). <!-- g:401917951 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401911232.html <!-- post:401911232:preview -->
+- 2026-11-19: W 79-75 at Loyola Chicago Ramblers. Barometer 71 (buoyant). <!-- g:401911232 -->

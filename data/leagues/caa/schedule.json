@@ -2490,21 +2490,21 @@
     "key": null,
     "name": "Oklahoma Sooners",
     "abbr": "OU",
-    "score": 74,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2097",
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": 71,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:53 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401902280",
@@ -11902,5 +11902,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:48:11+00:00"
+ "live_at": "2026-11-19T03:22:02+00:00"
 }

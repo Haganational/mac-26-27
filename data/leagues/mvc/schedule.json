@@ -2179,21 +2179,21 @@
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 68,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 71,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918959",
@@ -9535,5 +9535,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:43:50+00:00"
+ "live_at": "2026-11-19T03:18:46+00:00"
 }

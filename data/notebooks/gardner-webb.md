@@ -27,9 +27,9 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 
 ## Barometer
 
-**38 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 - 2026-11-12: W 88-66 vs Erskine Flying Fleet. Barometer 45 (steady). <!-- g:401911391 -->
 - 2026-11-14: L 62-79 at South Carolina Gamecocks. Barometer 38 (testy). <!-- g:401911392 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:preview -->
+- 2026-11-19: L 72-78 vs UNC Greensboro Spartans. Barometer 34 (testy). <!-- g:401911393 -->

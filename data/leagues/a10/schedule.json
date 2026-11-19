@@ -2732,21 +2732,21 @@
     "key": "loyola-chicago",
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": 58,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2724",
     "key": null,
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": 65,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:42 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911021",
@@ -12884,5 +12884,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:44:25+00:00"
+ "live_at": "2026-11-19T03:19:12+00:00"
 }

@@ -2572,21 +2572,21 @@
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 65,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 69,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921734",
@@ -2617,7 +2617,7 @@
     "key": null,
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
-    "score": 22,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2625,13 +2625,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 22,
+    "score": 36,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:36 - 1st"
+   "detail": "16:05 - 2nd"
   },
   {
    "game_id": "401928812",
@@ -10631,5 +10631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:41:21+00:00"
+ "live_at": "2026-11-19T03:16:48+00:00"
 }

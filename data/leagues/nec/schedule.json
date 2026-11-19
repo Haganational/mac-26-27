@@ -2073,21 +2073,21 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 64,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "160",
     "key": null,
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": 85,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919827",
@@ -8392,5 +8392,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:54:09+00:00"
+ "live_at": "2026-11-19T03:26:46+00:00"
 }

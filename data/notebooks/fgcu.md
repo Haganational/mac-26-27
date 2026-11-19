@@ -69,7 +69,7 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 - 2026-11-15: Social recap posted (W 99-31 vs Abraham Baldwin Agricultural Stallions): https://hardwoodbricks.com/asun/games/401929458.html <!-- post:401929458:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:preview -->
 - 2026-11-19: L 76-86 at Florida Atlantic Owls. Barometer 44 (testy). <!-- g:401922212 -->
+- 2026-11-19: Social recap posted (L 76-86 vs Florida Atlantic Owls): https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:recap -->

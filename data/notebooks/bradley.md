@@ -27,9 +27,9 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**48 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Clyde editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Clyde editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/mvc/games/401920074.html <!-- post:401920074:preview -->
 - 2026-11-14: Social recap posted (W 62-61 vs George Mason Patriots): https://hardwoodbricks.com/mvc/games/401920074.html <!-- post:401920074:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:preview -->
+- 2026-11-19: L 73-78 vs Purdue Fort Wayne Mastodons. Barometer 48 (steady). <!-- g:401927357 -->

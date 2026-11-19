@@ -27,9 +27,9 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 
 ## Barometer
 
-**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tom editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tom editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 - 2026-11-15: L 55-67 at Boston College Eagles. Barometer 52 (steady). <!-- g:401909554 -->
 - 2026-11-15: Social recap posted (L 55-67 vs Boston College Eagles): https://hardwoodbricks.com/americaeast/games/401909554.html <!-- post:401909554:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919848.html <!-- post:401919848:preview -->
+- 2026-11-19: W 90-70 at Stonehill Skyhawks. Barometer 60 (steady). <!-- g:401919848 -->

@@ -27,9 +27,9 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 
 ## Barometer
 
-**19 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**13 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rudy editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rudy editorializes: 83% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 - 2026-11-09: L 60-79 at UTEP Miners. Barometer 23 (despondent). <!-- g:401929352 -->
 - 2026-11-11: L 69-81 at UC Davis Aggies. Barometer 19 (despondent). <!-- g:401911519 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:preview -->
+- 2026-11-19: L 51-84 at Texas State Bobcats. Barometer 13 (despondent). <!-- g:401929201 -->

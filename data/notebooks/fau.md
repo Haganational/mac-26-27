@@ -60,7 +60,7 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - Film: *Owlcatraz (Part I)* (https://youtu.be/EWtQcKFFuto). Our film on the 2013 fight over a private prison company's name on FAU's stadium. Part one of two.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -71,3 +71,4 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-17: Film: *Owlcatraz (Part I)* (https://youtu.be/EWtQcKFFuto). Our film on the 2013 fight over a private prison company's name on FAU's stadium. Part one of two. <!-- film:EWtQcKFFuto -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:preview -->
 - 2026-11-19: W 86-76 vs Florida Gulf Coast Eagles. Barometer 69 (buoyant). <!-- g:401922212 -->
+- 2026-11-19: Social recap posted (W 86-76 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:recap -->

@@ -69,7 +69,7 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 - 2026-11-14: Social recap posted (W 72-64 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401920915.html <!-- post:401920915:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401909526.html <!-- post:401909526:preview -->
 - 2026-11-19: L 65-79 at Marquette Golden Eagles. Barometer 51 (steady). <!-- g:401909526 -->
+- 2026-11-19: Social recap posted (L 65-79 vs Marquette Golden Eagles): https://hardwoodbricks.com/horizon/games/401909526.html <!-- post:401909526:recap -->

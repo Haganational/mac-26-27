@@ -2073,7 +2073,7 @@
     "key": null,
     "name": "BYU Cougars",
     "abbr": "BYU",
-    "score": 45,
+    "score": 67,
     "winner": null
    },
    "away": {
@@ -2081,13 +2081,13 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 27,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:36 - 2nd"
   },
   {
    "game_id": "401925949",
@@ -2118,7 +2118,7 @@
     "key": null,
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 47,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2126,13 +2126,13 @@
     "key": "weber-state",
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": 29,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:29 - 1st"
+   "detail": "13:53 - 2nd"
   },
   {
    "game_id": "401911456",
@@ -2163,7 +2163,7 @@
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2171,13 +2171,13 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:54 - 1st"
   },
   {
    "game_id": "401920413",
@@ -9686,5 +9686,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:50:04+00:00"
+ "live_at": "2026-11-19T03:23:30+00:00"
 }

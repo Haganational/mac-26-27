@@ -2064,8 +2064,8 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 85,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2877",
@@ -2073,12 +2073,12 @@
     "name": "Lindsey Wilson Blue Raiders",
     "abbr": "LWU",
     "score": 81,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:34 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926144",
@@ -8321,5 +8321,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T02:52:34+00:00"
+ "live_at": "2026-11-19T03:25:32+00:00"
 }

@@ -27,9 +27,9 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 
 ## Barometer
 
-**87 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**89 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 83% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 - 2026-11-16: W 87-67 at UTSA Roadrunners. Barometer 87 (giddy). <!-- g:401929200 -->
 - 2026-11-16: Social recap posted (W 87-67 vs UTSA Roadrunners): https://hardwoodbricks.com/pac12/games/401929200.html <!-- post:401929200:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:preview -->
+- 2026-11-19: W 84-51 vs Incarnate Word Cardinals. Barometer 89 (giddy). <!-- g:401929201 -->
