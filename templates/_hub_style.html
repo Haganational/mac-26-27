@@ -290,20 +290,20 @@
   /* Mateo peek-a-boo (front page, every load): he rises from the foot of the bar behind Watch (0.4-1 s), shimmies, blows a kiss
      (a pink heart floats off), and sinks back under it by about 4 s. Watch stays on top of him and clickable. */
   .bar { position: relative; }
-  .bar .hb-watch { z-index: 2; }
-  .hb-mateo { position: absolute; z-index: 1; overflow: hidden; pointer-events: none; display: none; }
-  .bar.mateo .hb-mateo { display: block; }
-  .hb-mateo i { position: absolute; left: 50%; bottom: 0; width: var(--mw, 67px); height: var(--mh, 60px); margin-left: calc(var(--mw, 67px) / -2); transform: translateY(102%); transform-origin: 50% 100%; }
-  .hb-mateo img { display: block; width: 100%; height: 100%; filter: drop-shadow(0 0 6px rgba(232,207,138,.35)); }
+  .bar .hb-watch, .bar .hb-al { position: relative; z-index: 2; }
+  .hb-peek { position: absolute; z-index: 1; overflow: hidden; pointer-events: none; display: none; }
+  .hb-peek.on { display: block; }
+  .hb-peek i { position: absolute; left: 50%; bottom: 0; width: var(--mw, 67px); height: var(--mh, 60px); margin-left: calc(var(--mw, 67px) / -2); transform: translateY(102%); transform-origin: 50% 100%; }
+  .hb-peek img { display: block; width: 100%; height: 100%; filter: drop-shadow(0 0 6px rgba(232,207,138,.35)); }
   .hb-mateo i::after { content: "\2726"; position: absolute; left: 30%; top: 30%; font: 11px/1 var(--sans); color: #fff; text-shadow: 0 0 4px #fff, 0 0 9px #e8cf8a; opacity: 0; transform: scale(.3); }
   .hb-mateo i b { position: absolute; left: 56%; top: 52%; width: 9px; height: 9px; background: #d4146f; transform: rotate(45deg) scale(0); opacity: 0; box-shadow: 0 0 6px rgba(212,20,111,.6); }
   .hb-mateo i b::before, .hb-mateo i b::after { content: ""; position: absolute; width: 9px; height: 9px; border-radius: 50%; background: #d4146f; }
   .hb-mateo i b::before { left: -4.5px; top: 0; } .hb-mateo i b::after { left: 0; top: -4.5px; }
-  .bar.mateo .hb-mateo i { animation: hb-peek 3.6s ease-in-out .4s both; }
-  .bar.mateo .hb-mateo i::after { animation: hb-glint 3.6s ease-in-out .4s both; }
-  .bar.mateo .hb-mateo i b { animation: hb-kiss 3.6s ease-out .4s both; }
-  .bar.mateo .hb-watch { color: #fff; text-shadow: 0 0 3px #1a0f08, 0 0 6px #1a0f08, 0 1px 1px #1a0f08; }
-  .bar.mateo .hb-eyes { animation: none; opacity: 0; }
+  .hb-mateo.on i { animation: hb-peek 3.6s ease-in-out .4s both; }
+  .hb-mateo.on i::after { animation: hb-glint 3.6s ease-in-out .4s both; }
+  .hb-mateo.on i b { animation: hb-kiss 3.6s ease-out .4s both; }
+  .bar .pk-on { color: #fff; text-shadow: 0 0 3px #1a0f08, 0 0 6px #1a0f08, 0 1px 1px #1a0f08; }
+  .bar .pk-on .hb-eyes { animation: none; opacity: 0; }
   @keyframes hb-peek {
     0% { transform: translateY(102%); } 15% { transform: translateY(-4%) scale(1.04); animation-timing-function: ease-out; } 20% { transform: translateY(0) scale(1); }
     27% { transform: rotate(-6deg); } 34% { transform: rotate(5deg); } 40% { transform: rotate(-3deg); } 45% { transform: rotate(0); }
@@ -315,7 +315,19 @@
     56% { opacity: 1; transform: translate(4px, -4px) rotate(45deg) scale(1); }
     80% { opacity: .9; transform: translate(26px, -30px) rotate(45deg) scale(.9); }
     90%, 100% { opacity: 0; transform: translate(32px, -40px) rotate(45deg) scale(.6); } }
-  @media (prefers-reduced-motion: reduce) { .hb-mateo { display: none !important; } }
+  /* Tiffany: rises behind At-Large a beat after Mateo (1.0 s), her wig wobbles, a curtsy dip, a gold glint on the wig, back down by 4.6 s. */
+  .hb-tiff img { filter: none; -webkit-mask-image: linear-gradient(#000 80%, transparent); mask-image: linear-gradient(#000 80%, transparent); }  /* soft neck edge when she is lifted */
+  .hb-tiff i::after { content: "\2726"; position: absolute; left: 70%; top: 24%; font: 10px/1 var(--sans); color: #ffe9a8; text-shadow: 0 0 4px #fff, 0 0 9px #e8cf8a; opacity: 0; transform: scale(.3); }
+  .hb-tiff.on i { animation: hb-tiff 3.6s ease-in-out 1s both; }
+  .hb-tiff.on i::after { animation: hb-glint 3.6s ease-in-out 1.25s both; }
+  @keyframes hb-tiff {
+    0% { transform: translateY(102%); } 16% { transform: translateY(calc(-3% - var(--lift, 0px))); animation-timing-function: ease-out; } 21% { transform: translateY(calc(0px - var(--lift, 0px))); }
+    28% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(4deg); } 34% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(-4deg); }
+    40% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(2deg); } 45% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(0); }
+    53% { transform: translateY(calc(14% - var(--lift, 0px))); } 61% { transform: translateY(calc(0px - var(--lift, 0px))); }
+    78% { transform: translateY(calc(0px - var(--lift, 0px))); animation-timing-function: ease-in; } 100% { transform: translateY(102%); } }
+  .bar .brand { position: relative; z-index: 2; }
+  @media (prefers-reduced-motion: reduce) { .hb-peek { display: none !important; } }
   /* The lead with an ESPN clip: headline first, the clip under it in a captioned frame tied to the story. */
   .lead-v { border-top: 4px solid var(--c, var(--accent)); padding-top: 12px; }
   .lead-v .lead-hd { display: block; color: var(--ink); }
