@@ -68,7 +68,7 @@
   <header class="fh-hero">
     <h1>Author desk</h1>
     <span class="sub ed-only">Only for you. Write a dispatch and hit Publish, or save it as a draft to finish later. Each one is still filed as its own pull request behind the scenes. Readers see it on the site a few minutes after you publish.</span>
-    <span class="sub co-only">Write your dispatch and hit <b>Send to the editor</b>. It opens an email to {{ editor_email }} with the dispatch inside, and the editor publishes it under your byline. Your work in progress is kept in this browser.</span>
+    <span class="sub co-only">Write your dispatch and hit <b>Send to the editor</b>. It opens an email to {{ editor_email }} with the dispatch (and any photos) inside, and the editor publishes it under your byline. Nothing goes live until the editor does. Your work in progress is kept in this browser.</span>
   </header>
 
   <div class="tokenbox ed-only" id="tokenbox" hidden>
@@ -100,12 +100,13 @@
       <div class="bodyhead"><label for="body">Dispatch</label><button class="btn" id="dictate" type="button" aria-pressed="false" hidden>🎙 Dictate</button></div>
       <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
       <div class="hint" id="heard" aria-live="polite"></div>
-      <label class="ed-only">Photos</label>
-      <div class="snap ed-only">
+      <label>Photos</label>
+      <div class="snap">
         <label class="btn" for="camera">📷 Take photo</label><input type="file" id="camera" accept="image/*" capture="environment">
         <label class="btn" for="photos">🖼 From gallery</label><input type="file" id="photos" accept="image/*" multiple>
       </div>
-      <div id="photolist" class="ed-only"></div>
+      <div id="photolist"></div>
+      <div class="hint co-only">Photos are resized and their location data stripped on your phone. When you hit Send, your phone's share sheet opens with the dispatch and the photos together: pick your email app and send it to {{ editor_email }}.</div>
       <div class="hint ed-only">Each photo is resized to 1600 px and its location data stripped on your phone before it uploads. Photos you have not published yet are kept on this phone, so a dropped signal or a closed tab does not lose them. Add a caption: who, what, when.</div>
       <details class="more" id="more">
         <summary>More: teams, player, byline, date</summary>
@@ -272,7 +273,7 @@
     const box = $('#photolist'); if (!box) return;
     box.innerHTML = photos.map((ph, i) => `<div class="ph" data-i="${i}"><img src="${esc(ph.url)}" alt="" onerror="this.style.visibility='hidden'">
       <input type="text" data-cap="${i}" value="${esc(ph.caption)}" placeholder="Caption: who, what, when">
-      <button class="btn" type="button" data-rm="${i}" title="Remove">✕</button>${ph.blob ? '<small class="dim">not uploaded yet</small>' : ''}</div>`).join('');
+      <button class="btn" type="button" data-rm="${i}" title="Remove">✕</button>${ph.need ? '<small class="msg err">add this photo from the email (🖼 From gallery)</small>' : ph.blob ? '<small class="dim">not uploaded yet</small>' : ''}</div>`).join('');
   }
   // Photos not uploaded yet are kept on the device (IndexedDB), so a reload or a dead signal does not lose them.
   const kept = (() => {
@@ -295,6 +296,9 @@
     for (const file of files) {
       try {
         const blob = await shrink(file);
+        // A contributor's emailed photo fills the slot its pasted dispatch names (by file name, else the next empty slot).
+        const slot = photos.find(ph => ph.need && ph.name === file.name) || photos.find(ph => ph.need);
+        if (slot) { slot.blob = blob; slot.url = URL.createObjectURL(blob); slot.need = false; kept.put(slot.name, blob); continue; }
         const name = `${$('#date').value || today()}-${Math.random().toString(36).slice(2, 8)}.jpg`;
         photos.push({ name, caption: '', blob, url: URL.createObjectURL(blob) });
         kept.put(name, blob);
@@ -355,6 +359,8 @@
     if (!token) { say('Connect GitHub first (box at the top).', true); return false; }
     const f = form();
     if (!f.body.trim() && !photos.length) { say('Write something or add a photo first.', true); return false; }
+    const missing = photos.filter(ph => ph.need).length;
+    if (missing) { say(`Add the ${missing === 1 ? 'photo' : missing + ' photos'} from the contributor's email first (🖼 From gallery), or remove ${missing === 1 ? 'it' : 'them'} with ✕.`, true); return false; }
     const text = toFile(f);
     $('#save').disabled = $('#pubnow').disabled = true;
     let ok = false;
@@ -520,17 +526,31 @@
     const text = toFile(f);
     try { await navigator.clipboard.writeText(text); } catch (e) {}
     const subject = 'Dispatch: ' + (f.title || f.body.trim().split('\n')[0].slice(0, 60)) + ' (' + CONTRIB + ')';
+    const pics = photos.filter(ph => ph.blob);
+    if (pics.length) {
+      const files = pics.map(ph => new File([ph.blob], ph.name, { type: 'image/jpeg' }));
+      if (navigator.canShare && navigator.canShare({ files })) {
+        try {
+          await navigator.share({ title: subject, text: 'To: ' + EDITOR + '\n\n' + text, files });
+          say('Shared. If your email app opened, check it is going to ' + esc(EDITOR) + ' and send. The dispatch is also copied.');
+        } catch (err) { if (err.name !== 'AbortError') say('Could not open the share sheet: ' + esc(err.message), true); }
+        return;
+      }
+    }
     const long = text.length > 1600;
     const body = long ? 'The dispatch is on my clipboard; pasting it below.\n\n' : text;
     location.href = 'mailto:' + EDITOR + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    say(long ? 'Your email app should open. The dispatch is copied: paste it into the email and send.' : 'Your email app should open with the dispatch inside. Send it and you are done. It is also copied, in case the email comes up empty.');
+    const attach = pics.length ? ` Attach your ${pics.length === 1 ? 'photo' : pics.length + ' photos'} to the email too.` : '';
+    say((long ? 'Your email app should open. The dispatch is copied: paste it into the email and send.' : 'Your email app should open with the dispatch inside. Send it and you are done. It is also copied, in case the email comes up empty.') + attach);
   };
   // The editor pastes a contributor's emailed dispatch (it starts with ---) into the body and the form fills itself.
   $('#body').addEventListener('paste', (e) => {
     const t = (e.clipboardData || window.clipboardData).getData('text');
     const i = t.indexOf('---\nkind:');
     if (i < 0 || CONTRIB) return;
-    e.preventDefault(); fill(t.slice(i).replace(/\r\n/g, '\n')); say('Loaded the pasted dispatch. Check it, then Publish.');
+    e.preventDefault(); fill(t.slice(i).replace(/\r\n/g, '\n'));
+    photos.forEach(ph => { ph.need = true; }); drawPhotos(); render();
+    say(photos.length ? `Loaded the pasted dispatch. Add its ${photos.length === 1 ? 'photo' : photos.length + ' photos'} from the email with 🖼 From gallery, then Publish.` : 'Loaded the pasted dispatch. Check it, then Publish.');
   });
 
   /* ---------- start: ?game= / ?team= / ?player= prefill, ?edit= loads a published dispatch */
