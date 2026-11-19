@@ -93,4 +93,27 @@ def test_a_masthead_byline_gets_a_face_and_a_masthead_link():
     base = {"kind": "arena", "kind_label": "Arena", "slug": "s", "file": "s.md", "date": "2026-11-19", "teams": [], "html": "", "photos": [], "title": ""}
     html = tpl.render(items=[dict(base, author="Pat Writer"), dict(base, author="Someone Else", slug="t")])
     assert 'href="../../masthead.html#pat-writer"' in html and 'src="../../static/staff/pat-writer.jpg"' in html
-    assert ", Contributor, Athens" in html and "By Someone Else</div>" in html
+    assert ", Contributor, Athens" in html and "By Someone Else</span></div>" in html
+
+
+def test_articles_videos_and_conference_notes(tmp_path):
+    _write(tmp_path, "2026-11-19-metro-1400.md", "---\nkind: arena\ntitle: Long read\nformat: article\nabout: conference\n"
+           "video: dQw4w9WgXcQ | The Big Mid: Week 3\n---\nFirst graf.")
+    _write(tmp_path, "2026-11-19-bad-1500.md", "---\nkind: tv\nvideo: not-a-video-id-at-all\n---\nNote.")
+    art, note = notes.load(tmp_path)[1], notes.load(tmp_path)[0]
+    assert art["article"] and art["href"] == "articles/2026-11-19-metro-1400.html" and art["about"] == "conference"
+    assert art["video"] == {"id": "dQw4w9WgXcQ", "title": "The Big Mid: Week 3", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+    assert note["video"] is None and note["href"] == "notes.html#n-2026-11-19-bad-1500"
+    assert notes.feed_items([art])[0]["url"] == "articles/2026-11-19-metro-1400.html"
+
+
+def test_the_plus_sign_files_to_the_conference_a_video_or_an_article():
+    from jinja2 import Environment, FileSystemLoader
+    from mac.config import TEMPLATES_DIR
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+    env.globals.update(feat=["notes"])
+    t = env.from_string('{% import "_layout.html" as L %}{{ L.add_dispatch("", "x", conf=True) }}|{{ L.add_dispatch("", "v", video="dQw4w9WgXcQ", vtitle="Big Mid: 3") }}|{{ L.add_dispatch("", "", article=True) }}')
+    conf, vid, art = t.render().split("|")
+    assert 'href="desk.html?conf=1"' in conf and "+</span>" in conf
+    assert "video=dQw4w9WgXcQ&amp;vt=Big%20Mid%3A%203" in vid
+    assert 'href="desk.html?article=1"' in art and "+ Article" in art

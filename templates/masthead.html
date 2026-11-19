@@ -31,7 +31,7 @@
     <div class="who">
     {% for p in staff %}
       <div class="person" id="{{ p.slug }}">
-        {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.name }}" width="120" height="150" loading="lazy" style="float:right;width:120px;height:150px;object-fit:cover;border-radius:10px;filter:grayscale(1) contrast(1.08);margin:0 0 8px 12px">{% endif %}
+        {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.name }}" width="120" height="150" loading="lazy"{% if p.photo_fx %} class="specs" data-fx="{{ p.photo_fx }}"{% endif %} style="float:right;width:120px;height:150px;object-fit:cover;border-radius:10px;filter:grayscale(1) contrast(1.08);margin:0 0 8px 12px">{% endif %}
         <div class="role">{{ p.title }}</div>
         <b>{{ p.name }}</b>
         {% if p.bio %}<p style="margin:4px 0 0">{{ p.bio }}</p>{% endif %}
@@ -81,5 +81,6 @@
   </section>
 </main>
 <footer><a href="media.html">Media and credentials</a> · Stats from ESPN. <a href="./">All conferences</a> · <a href="privacy.html">Privacy</a></footer>
+<script src="static/specs.js" defer></script>
 </body>
 </html>

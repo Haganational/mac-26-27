@@ -32,7 +32,7 @@
 <link rel="stylesheet" href="{{ root }}static/site.css?v={{ asset_v }}">
 <link rel="stylesheet" href="{{ root }}static/teams.css">
 {% if theme != 'brick' %}<script>document.documentElement.classList.add('lg-{{ theme }}')</script>
-{% endif %}<script>try{var q=new URLSearchParams(location.search).get('author');if(q==='1')localStorage.setItem('btb-author','1');if(q==='0')localStorage.removeItem('btb-author');if(localStorage.getItem('btb-author')==='1')document.documentElement.classList.add('author')}catch(e){}</script>
+{% endif %}<script>try{var q=new URLSearchParams(location.search).get('author');if(q==='1')localStorage.setItem('btb-author','1');if(q==='0')localStorage.removeItem('btb-author');if(localStorage.getItem('btb-author')==='1')document.documentElement.classList.add('author');if(localStorage.getItem('btb-contrib'))document.documentElement.classList.add('contrib')}catch(e){}</script>
 {%- endmacro %}
 
 {% macro topbar(root="", active="") -%}
@@ -82,7 +82,7 @@
         <div class="tb-menu tb-list">
           <p class="tb-k">{{ LG }}</p>
           {% for p in more %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
-          {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a>{% endif %}
+          {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a><a class="author-only tb-desk" href="{{ root }}desk.html?article=1"><b>+ New article</b><small>An original piece with its own page</small></a>{% endif %}
           <p class="tb-k">Every conference</p>
           <a href="{{ root }}{{ site_up }}at-large.html"><b>At-Large Watch</b><small>Which mid-majors could get in without the auto bid</small></a>
           <p class="tb-k">Hardwood Bricks</p>
@@ -174,6 +174,7 @@
   </div>
 </footer>
 <script src="{{ root }}static/nav.js?v={{ asset_v }}" defer data-root="{{ root }}" data-site="{{ site_url }}"></script>
+<script src="{{ root }}static/specs.js?v={{ asset_v }}" defer></script>
 {%- endmacro %}
 
 {#- Fieldhouse Notes. The add button only shows in author mode; GitHub decides who can actually commit. -#}
@@ -181,8 +182,19 @@
 <svg class="fh-ic k-{{ kind }}" viewBox="0 0 20 20" width="{{ size }}" height="{{ size }}" role="img" aria-label="{{ notes_kinds[kind][0] }}"><title>{{ notes_kinds[kind][0] }}</title>{{ notes_kinds[kind][1]|safe }}</svg>
 {%- endmacro %}
 
-{% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="", root="") -%}
-{% if 'notes' in feat %}<a class="author-only btn-dispatch{{ ' sm' if small }}" href="{{ root }}desk.html{% if gid %}?game={{ gid }}{% elif team %}?team={{ team }}{% elif player %}?player={{ player }}{% endif %}" title="Write a Fieldhouse Notes dispatch{{ ' about ' ~ title if title }}">+ {{ 'dispatch' if small else 'Add dispatch' }}</a>{% endif %}
+{#- The author's plus sign: opens the desk filed to a game, team, player, the conference or a video; article=True starts an original article. -#}
+{% macro add_dispatch(gid="", title="", small=False, team="", player="", pname="", root="", conf=False, video="", vtitle="", article=False) -%}
+{% if 'notes' in feat %}{% set q = [] %}
+{%- if gid %}{% set _ = q.append('game=' ~ gid) %}{% elif team %}{% set _ = q.append('team=' ~ team) %}{% elif player %}{% set _ = q.append('player=' ~ player) %}{% elif conf %}{% set _ = q.append('conf=1') %}{% endif %}
+{%- if video %}{% set _ = q.append('video=' ~ video|urlencode) %}{% if vtitle %}{% set _ = q.append('vt=' ~ vtitle|urlencode) %}{% endif %}{% endif %}
+{%- if article %}{% set _ = q.append('article=1') %}{% endif %}
+{%- set what = ('Write an original article' if article else 'Add a dispatch') ~ (' about ' ~ title if title else '') -%}
+<a class="author-only btn-dispatch{{ ' sm' if small }}{{ ' art' if article }}" href="{{ root }}desk.html{{ '?' ~ q|join('&') if q }}" title="{{ what }}" aria-label="{{ what }}">{% if article %}+ Article{% else %}<span aria-hidden="true">+</span>{% endif %}</a>{% endif %}
+{%- endmacro %}
+
+{#- A byline: masthead staff get their face (glasses_fx = color-cycling specs) and a masthead link. -#}
+{% macro byline(n, root="") -%}
+{% set bl = bylines.get(n.author) %}<div class="byline{{ ' by-face' if bl and bl.photo }}">{% if bl and bl.photo %}<img src="{{ root }}{{ site_up }}{{ bl.photo }}" alt="" width="28" height="28" loading="lazy"{% if bl.photo_fx %} class="specs" data-fx="{{ bl.photo_fx }}"{% endif %}>{% endif %}<span>By {% if bl %}<a href="{{ root }}{{ site_up }}masthead.html#{{ bl.slug }}">{{ n.author }}</a>{% if bl.title %}<span class="by-title">, {{ bl.title }}</span>{% endif %}{% else %}{{ n.author }}{% endif %}</span></div>
 {%- endmacro %}
 
 {% macro dispatches(items, root="", game_links={}, player_links={}) -%}
@@ -193,12 +205,14 @@
     {%- for t in n.teams %}{% set tm = nav_teams|selectattr('key', 'equalto', t)|first %}{% if tm %} · <a href="{{ root }}teams/{{ t }}.html">{{ tm.short }}</a>{% endif %}{% endfor %}
     {%- if n.player and player_links.get(n.player) %} · <a href="{{ root }}{{ player_links[n.player].href }}">{{ player_links[n.player].label }}</a>{% endif %}
     <a class="author-only edit" href="{{ root }}desk.html?edit={{ n.file|urlencode }}">edit</a></div>
-  {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
-  {% if n.author %}{% set bl = bylines.get(n.author) %}<div class="byline{{ ' by-face' if bl and bl.photo }}">{% if bl and bl.photo %}<img src="{{ root }}{{ site_up }}{{ bl.photo }}" alt="" width="28" height="28" loading="lazy">{% endif %}By {% if bl %}<a href="{{ root }}{{ site_up }}masthead.html#{{ bl.slug }}">{{ n.author }}</a>{% if bl.title %}<span class="by-title">, {{ bl.title }}</span>{% endif %}{% else %}{{ n.author }}{% endif %}</div>{% endif %}
+  {% if n.article %}<h3><a href="{{ root }}{{ n.href }}">{{ n.title or 'Article' }}</a></h3>{% elif n.title %}<h3>{{ n.title }}</h3>{% endif %}
+  {% if n.author %}{{ byline(n, root) }}{% endif %}
+  {% if n.article %}<div class="body"><p>{{ n.text|truncate(260) }}</p><p><a class="read-on" href="{{ root }}{{ n.href }}">Read the article →</a></p></div>{% else %}
   <div class="body">{{ n.html|safe }}</div>
+  {% if n.video %}<p class="on-video"><a href="{{ n.video.url }}" target="_blank" rel="noopener">▶ On the video: {{ n.video.title }}</a></p>{% endif %}
   {% for ph in n.photos %}<figure class="photo"><a href="{{ root }}{{ ph.src }}"><img src="{{ root }}{{ ph.src }}" alt="{{ ph.caption or n.title or 'Game photo' }}" loading="lazy"></a>
     <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
-  {% endfor %}
+  {% endfor %}{% endif %}
 </article>
 {% endfor %}
 {%- endmacro %}

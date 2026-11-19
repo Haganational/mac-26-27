@@ -318,7 +318,7 @@ METRO = League(
         Team("saint-peters", "2612", "SPU", "Saint Peter's Peacocks", "Saint Peter's", "#0057B8", "#FFFFFF"),
         Team("siena", "2561", "SIE", "Siena Saints", "Siena", "#006A4E", "#FFC72C"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),  # Fieldhouse Notes from Darin Paintrags, the Metro editor
     path="metro/",
     theme="harbor",
     hashtag="MetroConference",

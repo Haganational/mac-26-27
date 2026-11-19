@@ -743,6 +743,13 @@ def render_notes(env: Environment, data: dict[str, Any], season: list[dict[str, 
         d=data, games=desk["games"], players=players_list, editor_email=_editor_email(),
         desk_json=json.dumps(desk).replace("</", "<\\/")))
 
+    # Original articles (format: article) each get their own page; Fieldhouse Notes shows a teaser.
+    art_tpl = env.get_template("article.html")
+    for n in dispatches:
+        if n.get("article"):
+            (SITE_DIR / "articles").mkdir(parents=True, exist_ok=True)
+            (SITE_DIR / "articles" / f"{n['slug']}.html").write_text(art_tpl.render(d=data, n=n))
+
     (SITE_DIR / "notes.html").write_text(env.get_template("notes.html").render(
         d=data, notes=dispatches, game_links=links, author_games=[(k, v) for k, v in groups if v],
         player_links={str(p["espn_id"]): {"href": f"teams/{key}.html#p{p['espn_id']}", "label": p["name"]}
