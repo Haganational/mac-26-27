@@ -2327,7 +2327,7 @@
     "key": "fau",
     "name": "Florida Atlantic Owls",
     "abbr": "FAU",
-    "score": 43,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2335,13 +2335,13 @@
     "key": null,
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": 29,
+    "score": 45,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:18 - 1st"
+   "detail": "15:11 - 2nd"
   },
   {
    "game_id": "401929420",
@@ -2372,7 +2372,7 @@
     "key": "utsa",
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2380,13 +2380,13 @@
     "key": null,
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:38 - 1st"
   },
   {
    "game_id": "401911232",
@@ -2417,7 +2417,7 @@
     "key": null,
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2425,13 +2425,13 @@
     "key": "wichita-state",
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:55 - 1st"
   },
   {
    "game_id": "401919005",
@@ -12125,5 +12125,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:46:04+00:00"
+ "live_at": "2026-11-19T01:20:20+00:00"
 }

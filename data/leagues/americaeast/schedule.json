@@ -1958,7 +1958,7 @@
     "key": null,
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 38,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -1966,13 +1966,13 @@
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 28,
+    "score": 50,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "10:05 - 2nd"
   },
   {
    "game_id": "401919760",
@@ -1999,7 +1999,7 @@
     "key": null,
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": 43,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2007,13 +2007,13 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 25,
+    "score": 44,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "12:21 - 2nd"
   },
   {
    "game_id": "401920694",
@@ -2044,7 +2044,7 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 25,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2052,13 +2052,13 @@
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 30,
+    "score": 38,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:06 - 1st"
+   "detail": "12:19 - 2nd"
   },
   {
    "game_id": "401919848",
@@ -2089,7 +2089,7 @@
     "key": null,
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -2097,13 +2097,13 @@
     "key": "new-hampshire",
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:42 - 1st"
   },
   {
    "game_id": "401923304",
@@ -8812,5 +8812,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:51:16+00:00"
+ "live_at": "2026-11-19T01:27:42+00:00"
 }

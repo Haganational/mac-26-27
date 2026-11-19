@@ -1553,7 +1553,7 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1561,13 +1561,13 @@
     "key": null,
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:57 - 1st"
   },
   {
    "game_id": "401929176",
@@ -8233,5 +8233,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T01:19:14+00:00"
 }

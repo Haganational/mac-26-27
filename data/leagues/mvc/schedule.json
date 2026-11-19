@@ -2089,7 +2089,7 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": 31,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -2097,13 +2097,13 @@
     "key": null,
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": 29,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:51 - 1st"
+   "detail": "15:57 - 2nd"
   },
   {
    "game_id": "401920761",
@@ -2134,7 +2134,7 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 12,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2142,13 +2142,13 @@
     "key": null,
     "name": "Union Commonwealth (KY) Bulldogs",
     "abbr": "UNKY",
-    "score": 4,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:02 - 1st"
+   "detail": "2:54 - 1st"
   },
   {
    "game_id": "401927357",
@@ -2179,7 +2179,7 @@
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2187,13 +2187,13 @@
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:56 - 1st"
   },
   {
    "game_id": "401918959",
@@ -9535,5 +9535,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:44:12+00:00"
+ "live_at": "2026-11-19T01:17:45+00:00"
 }

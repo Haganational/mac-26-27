@@ -2318,7 +2318,7 @@
     "key": null,
     "name": "South Carolina Gamecocks",
     "abbr": "SC",
-    "score": 58,
+    "score": 70,
     "winner": null
    },
    "away": {
@@ -2326,13 +2326,13 @@
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": 37,
+    "score": 49,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:05 - 1st"
+   "detail": "11:45 - 2nd"
   },
   {
    "game_id": "401921156",
@@ -2359,7 +2359,7 @@
     "key": "nc-at",
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": 36,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2367,13 +2367,13 @@
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": 27,
+    "score": 39,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:57 - 1st"
+   "detail": "17:00 - 2nd"
   },
   {
    "game_id": "401926838",
@@ -2415,10 +2415,10 @@
     "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:15 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401919808",
@@ -2445,7 +2445,7 @@
     "key": null,
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 42,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2453,13 +2453,13 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 41,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:45 - 1st"
+   "detail": "15:54 - 2nd"
   },
   {
    "game_id": "401906805",
@@ -2490,7 +2490,7 @@
     "key": null,
     "name": "Oklahoma Sooners",
     "abbr": "OU",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2498,13 +2498,13 @@
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:30 - 1st"
   },
   {
    "game_id": "401902280",
@@ -11902,5 +11902,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:47:37+00:00"
+ "live_at": "2026-11-19T01:22:28+00:00"
 }

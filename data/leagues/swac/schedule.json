@@ -2461,7 +2461,7 @@
     "key": null,
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2469,13 +2469,13 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:47 - 1st"
   },
   {
    "game_id": "401929420",
@@ -2506,7 +2506,7 @@
     "key": null,
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2514,13 +2514,13 @@
     "key": "florida-am",
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:51 - 1st"
   },
   {
    "game_id": "401921816",
@@ -10923,5 +10923,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T01:29:52+00:00"
 }

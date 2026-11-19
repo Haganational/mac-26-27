@@ -1911,7 +1911,7 @@
     "key": null,
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": 32,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1919,13 +1919,13 @@
     "key": "chicago-state",
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": 30,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:00 - 1st"
+   "detail": "11:32 - 2nd"
   },
   {
    "game_id": "401919760",
@@ -1952,7 +1952,7 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": 43,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -1960,13 +1960,13 @@
     "key": null,
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 25,
+    "score": 44,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "11:56 - 2nd"
   },
   {
    "game_id": "401929014",
@@ -1987,7 +1987,7 @@
     "key": "new-haven",
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": 48,
+    "score": 79,
     "winner": null
    },
    "away": {
@@ -1995,13 +1995,13 @@
     "key": null,
     "name": "MCLA Mohawks",
     "abbr": "MCLA",
-    "score": 15,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "8:01 - 2nd"
   },
   {
    "game_id": "401919808",
@@ -2028,7 +2028,7 @@
     "key": "liu",
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 48,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -2036,13 +2036,13 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 43,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:57 - 1st"
+   "detail": "12:47 - 2nd"
   },
   {
    "game_id": "401919848",
@@ -2073,7 +2073,7 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -2081,13 +2081,13 @@
     "key": null,
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:42 - 1st"
   },
   {
    "game_id": "401919827",
@@ -8392,5 +8392,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:52:03+00:00"
+ "live_at": "2026-11-19T01:28:49+00:00"
 }

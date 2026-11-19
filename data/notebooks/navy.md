@@ -27,9 +27,9 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 
 ## Barometer
 
-**72 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
+**54 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jamal editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jamal editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 - 2026-11-11: W 81-76 vs Pennsylvania Quakers. Barometer 67 (buoyant). <!-- g:401921181 -->
 - 2026-11-14: W 58-56 vs Hampton Pirates. Barometer 72 (buoyant). <!-- g:401921221 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/patriot/games/401909516.html <!-- post:401909516:preview -->
+- 2026-11-18: L 53-84 at Georgetown Hoyas. Barometer 54 (steady). <!-- g:401909516 -->
+- 2026-11-19: Social recap posted (L 53-84 vs Georgetown Hoyas): https://hardwoodbricks.com/patriot/games/401909516.html <!-- post:401909516:recap -->

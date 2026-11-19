@@ -1675,7 +1675,7 @@
     "key": "unc-asheville",
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 38,
+    "score": 74,
     "winner": null
    },
    "away": {
@@ -1683,13 +1683,13 @@
     "key": null,
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": 69,
+    "score": 92,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:17 - 2nd"
+   "detail": "3:09 - 2nd"
   },
   {
    "game_id": "401920974",
@@ -1720,7 +1720,7 @@
     "key": "winthrop",
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": 41,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -1728,13 +1728,13 @@
     "key": null,
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": 59,
+    "score": 88,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:32 - 2nd"
+   "detail": "1:03 - 2nd"
   },
   {
    "game_id": "401911377",
@@ -1765,7 +1765,7 @@
     "key": "charleston-southern",
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 29,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -1773,13 +1773,13 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 38,
+    "score": 59,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:17 - 2nd"
   },
   {
    "game_id": "401922047",
@@ -1810,7 +1810,7 @@
     "key": "longwood",
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": 38,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -1818,13 +1818,13 @@
     "key": null,
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": 29,
+    "score": 49,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:16 - 1st"
+   "detail": "14:35 - 2nd"
   },
   {
    "game_id": "401928347",
@@ -1855,7 +1855,7 @@
     "key": "presbyterian",
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": 41,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -1863,13 +1863,13 @@
     "key": null,
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": 32,
+    "score": 45,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:11 - 1st"
+   "detail": "15:26 - 2nd"
   },
   {
    "game_id": "401922055",
@@ -1900,7 +1900,7 @@
     "key": "radford",
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": 37,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -1908,13 +1908,13 @@
     "key": null,
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": 31,
+    "score": 53,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:14 - 1st"
+   "detail": "12:53 - 2nd"
   },
   {
    "game_id": "401911393",
@@ -1945,7 +1945,7 @@
     "key": "gardner-webb",
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -1953,13 +1953,13 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:29 - 1st"
   },
   {
    "game_id": "401920413",
@@ -8912,5 +8912,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T00:50:34+00:00"
+ "live_at": "2026-11-19T01:26:42+00:00"
 }
