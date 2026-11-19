@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T12:08:59+00:00",
+ "fetched_at": "2026-11-19T18:08:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2510,8 +2510,8 @@
   {
    "game_id": "401919019",
    "date": "2026-11-20T19:00Z",
-   "name": "George Washington Revolutionaries at UAB Blazers",
-   "short_name": "GW VS UAB",
+   "name": "UAB Blazers at George Washington Revolutionaries",
+   "short_name": "UAB VS GW",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2528,18 +2528,18 @@
    "venue_city": "White Sulphur Springs",
    "venue_state": "WV",
    "home": {
-    "espn_id": "5",
-    "key": "uab",
-    "name": "UAB Blazers",
-    "abbr": "UAB",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "45",
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "5",
+    "key": "uab",
+    "name": "UAB Blazers",
+    "abbr": "UAB",
     "score": null,
     "winner": null
    },
@@ -3076,7 +3076,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-23-2026--sports-ncaa-basketball/production/7519339?wsUser=717",
-    "low": 35.0,
+    "low": 37.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -7545,7 +7545,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-10-4-2026--sports-ncaa-basketball/production/7405208?wsUser=717",
-    "low": 41.0,
+    "low": 38.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -8895,7 +8895,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-10-2-2026--sports-ncaa-basketball/production/7405200?wsUser=717",
-    "low": 64.0,
+    "low": 38.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -10650,7 +10650,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-10-5-2026--sports-ncaa-basketball/production/7405218?wsUser=717",
-    "low": 60.0,
+    "low": 38.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",

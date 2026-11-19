@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T12:03:42+00:00",
+ "fetched_at": "2026-11-19T18:03:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2826,7 +2826,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-11-28-2026--sports-ncaa-basketball/production/7895674?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:03:35Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -3633,7 +3637,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-5-2026--sports-ncaa-basketball/production/7436755?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Global Credit Union Arena",
@@ -3912,7 +3916,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-12-10-2026--sports-ncaa-basketball/production/7667253?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "F&M Bank Arena",
@@ -5075,7 +5079,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-22-2026--sports-ncaa-basketball/production/7519459?wsUser=717",
-    "low": 20.0,
+    "low": 6.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Gersten Pavilion",

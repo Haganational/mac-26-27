@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T12:06:43+00:00",
+ "fetched_at": "2026-11-19T18:06:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2830,8 +2830,8 @@
   {
    "game_id": "401919019",
    "date": "2026-11-20T19:00Z",
-   "name": "George Washington Revolutionaries at UAB Blazers",
-   "short_name": "GW VS UAB",
+   "name": "UAB Blazers at George Washington Revolutionaries",
+   "short_name": "UAB VS GW",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2848,18 +2848,18 @@
    "venue_city": "White Sulphur Springs",
    "venue_state": "WV",
    "home": {
-    "espn_id": "5",
-    "key": null,
-    "name": "UAB Blazers",
-    "abbr": "UAB",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "45",
     "key": "george-washington",
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "5",
+    "key": null,
+    "name": "UAB Blazers",
+    "abbr": "UAB",
     "score": null,
     "winner": null
    },
@@ -3013,7 +3013,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drexel-dragons-mens-basketball-tickets-daskalakis-athletic-center-11-20-2026--sports-ncaa-basketball/production/7668555?wsUser=717",
-    "low": 61.0,
+    "low": 39.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Daskalakis Athletic Center",
@@ -3094,7 +3094,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
     "low": 58.0,
@@ -3232,7 +3238,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-classic-tickets-td-arena-11-22-2026--sports-ncaa-basketball/production/7398781?wsUser=717",
-    "low": 68.0,
+    "low": 57.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "TD Arena",
@@ -4355,7 +4361,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-28-2026--sports-ncaa-basketball/production/7290631?wsUser=717",
-    "low": 15.0,
+    "low": 17.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Robins Center",
@@ -6307,7 +6313,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-12-2026--sports-ncaa-basketball/production/7092333?wsUser=717",
-    "low": 36.0,
+    "low": 35.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -7677,7 +7683,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-22-2026--sports-ncaa-basketball/production/7156093?wsUser=717",
-    "low": 29.0,
+    "low": 25.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Marriott Center",
@@ -8250,7 +8256,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-6-2026--sports-ncaa-basketball/production/7187906?wsUser=717",
-    "low": 26.0,
+    "low": 31.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -10348,7 +10354,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-3-2026--sports-ncaa-basketball/production/7187900?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -10972,7 +10978,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-9-2026--sports-ncaa-basketball/production/7187912?wsUser=717",
-    "low": 26.0,
+    "low": 21.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -11245,7 +11251,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-7-2026--sports-ncaa-basketball/production/7187908?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -11943,7 +11949,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-8-2026--sports-ncaa-basketball/production/7187910?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -12684,7 +12690,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-1-2026--sports-ncaa-basketball/production/7187896?wsUser=717",
-    "low": 20.0,
+    "low": 21.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",

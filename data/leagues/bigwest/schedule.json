@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T12:05:16+00:00",
+ "fetched_at": "2026-11-19T18:05:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2252,7 +2252,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
     "low": 58.0,
@@ -2937,7 +2943,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-11-28-2026--sports-ncaa-basketball/production/7895674?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -3461,7 +3471,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-12-5-2026--sports-ncaa-basketball/production/7895676?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -3803,7 +3817,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-12-9-2026--sports-ncaa-basketball/production/7631488?wsUser=717",
-    "low": 19.0,
+    "low": 17.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Save Mart Center",
@@ -4618,7 +4632,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-barbara-gauchos-mens-basketball-tickets-ucsb-events-center-12-18-2026--sports-ncaa-basketball/production/7605287?wsUser=717",
-    "low": 69.0,
+    "low": 31.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "The Thunderdome",
@@ -4747,7 +4761,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 16.0,
+    "low": 17.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Gersten Pavilion",
@@ -4831,7 +4845,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-12-20-2026--sports-ncaa-basketball/production/7890197?wsUser=717",
+    "low": 19.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "Titan Gym",
    "venue_city": "Fullerton",
    "venue_state": "CA",
@@ -4913,7 +4931,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-12-21-2026--sports-ncaa-basketball/production/7037659?wsUser=717",
-    "low": 29.0,
+    "low": 26.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Mackey Arena",
@@ -5677,7 +5695,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-1-2-2027--sports-ncaa-basketball/production/7896240?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -6351,7 +6373,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-1-14-2027--sports-ncaa-basketball/production/7896298?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -6460,7 +6486,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-1-14-2027--sports-ncaa-basketball/production/7890247?wsUser=717",
+    "low": 19.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "Titan Gym",
    "venue_city": "Fullerton",
    "venue_state": "CA",
@@ -6799,7 +6829,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-1-21-2027--sports-ncaa-basketball/production/7897296?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -7257,7 +7291,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/santa-barbara-gauchos-mens-basketball-tickets-ucsb-events-center-1-28-2027--sports-ncaa-basketball/production/7605301?wsUser=717",
-    "low": 80.0,
+    "low": 31.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "The Thunderdome",
@@ -7734,7 +7768,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-2-4-2027--sports-ncaa-basketball/production/7890263?wsUser=717",
+    "low": 19.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "Titan Gym",
    "venue_city": "Fullerton",
    "venue_state": "CA",
@@ -8151,7 +8189,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-2-11-2027--sports-ncaa-basketball/production/7897309?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -9199,7 +9241,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-2-25-2027--sports-ncaa-basketball/production/7897325?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
@@ -9273,7 +9319,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-valley-wolverines-mens-basketball-tickets-uccu-center-2-27-2027--sports-ncaa-basketball/production/7897337?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-19T18:05:07Z"
+   },
    "venue": "UCCU Center",
    "venue_city": "Orem",
    "venue_state": "UT",
