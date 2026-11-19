@@ -72,3 +72,25 @@ def test_the_desk_has_dictation_camera_and_one_tap_games():
     page = (TEMPLATES_DIR / "desk.html").read_text()
     for needle in ('id="dictate"', 'capture="environment"', 'id="gamechips"', "desk.webmanifest", "indexedDB.open('btb-desk'"):
         assert needle in page
+
+
+def test_contributors_send_photos_and_the_editor_fills_them_from_the_email():
+    from mac.config import TEMPLATES_DIR
+    page = (TEMPLATES_DIR / "desk.html").read_text()
+    assert "navigator.share(" in page and "navigator.canShare" in page  # dispatch + photos in one share sheet
+    assert "ph.need" in page  # a pasted dispatch's photos wait for the emailed files before Publish
+
+
+def test_a_masthead_byline_gets_a_face_and_a_masthead_link():
+    from jinja2 import Environment, FileSystemLoader
+    from mac.config import TEMPLATES_DIR
+    from mac import hub
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+    env.globals.update(nav_teams=[], feat=[], site_up="../", notes_kinds={"arena": ("Arena", "")}, notes_color={"arena": "#000"},
+                       bylines={s["name"]: s for s in hub.staff({"staff": [
+                           {"name": "Pat Writer", "title": "Contributor, Athens", "photo": "static/staff/pat-writer.jpg"}]})})
+    tpl = env.from_string('{% import "_layout.html" as L %}{{ L.dispatches(items, root="../") }}')
+    base = {"kind": "arena", "kind_label": "Arena", "slug": "s", "file": "s.md", "date": "2026-11-19", "teams": [], "html": "", "photos": [], "title": ""}
+    html = tpl.render(items=[dict(base, author="Pat Writer"), dict(base, author="Someone Else", slug="t")])
+    assert 'href="../../masthead.html#pat-writer"' in html and 'src="../../static/staff/pat-writer.jpg"' in html
+    assert ", Contributor, Athens" in html and "By Someone Else</div>" in html

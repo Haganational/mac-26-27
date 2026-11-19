@@ -194,7 +194,7 @@
     {%- if n.player and player_links.get(n.player) %} · <a href="{{ root }}{{ player_links[n.player].href }}">{{ player_links[n.player].label }}</a>{% endif %}
     <a class="author-only edit" href="{{ root }}desk.html?edit={{ n.file|urlencode }}">edit</a></div>
   {% if n.title %}<h3>{{ n.title }}</h3>{% endif %}
-  {% if n.author %}<div class="byline">By {{ n.author }}</div>{% endif %}
+  {% if n.author %}{% set bl = bylines.get(n.author) %}<div class="byline{{ ' by-face' if bl and bl.photo }}">{% if bl and bl.photo %}<img src="{{ root }}{{ site_up }}{{ bl.photo }}" alt="" width="28" height="28" loading="lazy">{% endif %}By {% if bl %}<a href="{{ root }}{{ site_up }}masthead.html#{{ bl.slug }}">{{ n.author }}</a>{% if bl.title %}<span class="by-title">, {{ bl.title }}</span>{% endif %}{% else %}{{ n.author }}{% endif %}</div>{% endif %}
   <div class="body">{{ n.html|safe }}</div>
   {% for ph in n.photos %}<figure class="photo"><a href="{{ root }}{{ ph.src }}"><img src="{{ root }}{{ ph.src }}" alt="{{ ph.caption or n.title or 'Game photo' }}" loading="lazy"></a>
     <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
