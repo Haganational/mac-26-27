@@ -65,7 +65,7 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:preview -->
 - 2026-11-18: W 99-65 at Mount St. Mary's Mountaineers. Barometer 59 (steady). <!-- g:401920921 -->
 - 2026-11-18: Social recap posted (W 99-65 vs Mount St. Mary's Mountaineers): https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/patriot/games/401926755.html <!-- post:401926755:preview -->

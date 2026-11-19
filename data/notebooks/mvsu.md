@@ -62,7 +62,7 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -70,3 +70,4 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 - 2026-11-10: L 64-77 at Washington Huskies. Barometer 31 (testy). <!-- g:401925737 -->
 - 2026-11-12: L 66-100 at Oregon Ducks. Barometer 23 (despondent). <!-- g:401925738 -->
 - 2026-11-14: L 65-81 at Oregon State Beavers. Barometer 18 (despondent). <!-- g:401925739 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/swac/games/401925740.html <!-- post:401925740:preview -->
