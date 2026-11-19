@@ -18,6 +18,18 @@
     <div class="hh-stripe" aria-hidden="true">{% for t in nav_teams %}<i style="background:{{ t.color }}"></i>{% endfor %}</div>
   </header>
 
+  {% if edition_editor %}{% set ed = edition_editor %}
+  <aside class="ed-card" aria-label="{{ LG }} editor">
+    {% if ed.photo %}<a href="{{ site_up }}masthead.html#{{ ed.slug }}" class="ed-pic"><img src="{{ site_up }}{{ ed.photo }}" alt="{{ ed.name }}" width="84" height="105"{% if ed.photo_fx %} class="specs" data-fx="{{ ed.photo_fx }}"{% endif %}></a>{% endif %}
+    <div class="ed-txt">
+      <span class="ed-role">{{ ed.role }}</span>
+      <a class="ed-name" href="{{ site_up }}masthead.html#{{ ed.slug }}">{{ ed.name }}</a>
+      {% if ed.bio %}<p>{{ ed.bio }}</p>{% endif %}
+      <span class="ed-more">{% if 'notes' in feat %}<a href="notes.html">Fieldhouse Notes →</a> · {% endif %}<a href="{{ site_up }}masthead.html">Masthead</a></span>
+    </div>
+  </aside>
+  {% endif %}
+
   {% if desk %}
   <section id="stories" class="stories">
     <div class="sechead"><h2>Latest from Hardwood Bricks</h2>{{ L.add_dispatch("", "the " ~ LG, small=True, conf=True) }}{{ L.add_dispatch("", "", small=True, article=True) }}<span class="dim">Recaps and previews</span><a class="more" href="news.html">School news →</a></div>

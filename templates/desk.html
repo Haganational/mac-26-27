@@ -34,6 +34,10 @@
   .btn:disabled { opacity: .5; cursor: default; }
   .msg { font-size: 14px; }
   html.contrib .ed-only, html:not(.contrib) .co-only { display: none !important; }
+  /* a contributor's desk is one column: game, headline, dispatch, photos, Send. The rest waits under More. */
+  html.contrib .desk { grid-template-columns: 1fr; max-width: 680px; }
+  html.contrib .desk > section:last-child { display: none; }
+  html.contrib .fh-hero { padding-bottom: 14px; }
   .msg.err { color: var(--bad); }
   .drafts .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--grid); }
   .drafts .row .t { flex: 1 1 220px; min-width: 0; }
@@ -68,11 +72,11 @@
 <body>
 {{ L.topbar(root="", active="") }}
 <main id="main">
-  <nav class="crumbs"><a href="notes.html">Fieldhouse Notes</a> <span class="dim">/</span> Author desk</nav>
+  <nav class="crumbs ed-only"><a href="notes.html">Fieldhouse Notes</a> <span class="dim">/</span> Author desk</nav>
   <header class="fh-hero">
     <h1>Author desk</h1>
     <span class="sub ed-only">Only for you. Write a dispatch and hit Publish, or save it as a draft to finish later. Each one is still filed as its own pull request behind the scenes. Readers see it on the site a few minutes after you publish.</span>
-    <span class="sub co-only">Write your dispatch and hit <b>Send to the editor</b>. It opens an email to {{ editor_email }} with the dispatch (and any photos) inside, and the editor publishes it under your byline. Nothing goes live until the editor does. Your work in progress is kept in this browser.</span>
+    <span class="sub co-only">Write it, add a photo, hit <b>Send</b>. The editor publishes it under your byline. Your work is saved on this phone as you go.</span>
   </header>
 
   <div class="tokenbox ed-only" id="tokenbox" hidden>
@@ -90,11 +94,11 @@
   <div class="desk">
     <section>
       <h2 id="formtitle">New dispatch</h2>
-      <label>Filed as</label>
-      <div class="kinds">
+      <label id="kindlabel">Filed as</label>
+      <div class="kinds" id="kinds">
         {% for k, v in notes_kinds.items() %}<label class="k-{{ k }}"><input type="radio" name="kind" value="{{ k }}"{% if k == 'arena' %} checked{% endif %}>{{ L.kind_icon(k, 16) }}<span>{{ v[0] }}</span></label>{% endfor %}
       </div>
-      <label for="game">Game</label>
+      <label for="game" id="gamelabel">Game</label>
       <div class="chips" id="gamechips"></div>
       <input type="text" id="game" list="games" placeholder="Start typing a team or date (leave blank for none)">
       <datalist id="games">{% for g in games %}<option value="{{ g.label }}"></option>{% endfor %}</datalist>
@@ -115,7 +119,7 @@
       <div class="hint co-only">Photos are resized and their location data stripped on your phone. When you hit Send, your phone's share sheet opens with the dispatch and the photos together: pick your email app and send it to {{ editor_email }}.</div>
       <div class="hint ed-only">Each photo is resized to 1600 px and its location data stripped on your phone before it uploads. Photos you have not published yet are kept on this phone, so a dropped signal or a closed tab does not lose them. Add a caption: who, what, when.</div>
       <details class="more" id="more">
-        <summary>More: teams, player, byline, date</summary>
+        <summary id="moresum">More: teams, player, byline, date</summary>
       <label>Teams</label>
       <div class="teamchk">{% for t in nav_teams %}<label><input type="checkbox" name="team" value="{{ t.key }}">{{ t.short }}</label>{% endfor %}</div>
       <div class="hint">A game note is filed with both teams automatically.</div>
@@ -131,7 +135,7 @@
       <div class="acts">
         <button class="btn go ed-only" id="pubnow" type="button">Publish</button>
         <button class="btn ed-only" id="save" type="button">Save draft</button>
-        <button class="btn go co-only" id="send" type="button">Send to the editor</button>
+        <button class="btn go co-only" id="send" type="button">Send</button>
         <button class="btn" id="clear" type="button">New</button>
         <span class="msg" id="msg"></span>
       </div>
@@ -540,6 +544,12 @@
     if (!q0.has('by')) { try { q0.set('by', CONTRIB); history.replaceState(null, '', location.pathname + '?' + q0.toString()); } catch (e) {} }
     $('#author').value = CONTRIB; $('#author').readOnly = true;
     $('#formtitle').textContent = 'New dispatch from ' + CONTRIB;
+    // Simpler first screen: tap a game, write, add photos, Send. How it was gathered, typing a game,
+    // the article switch, teams, player and date move under More.
+    const more = $('#more'), sum = $('#moresum');
+    sum.textContent = 'More: how you got it, other games, article, teams, player, date';
+    [$('#kindlabel'), $('#kinds'), $('#game'), $('#gamehint'), $('#article').closest('label')].reverse().forEach(el => sum.after(el));
+    $('#gamelabel').textContent = 'Which game? (tap one, or none)';
   }
   $('#send').onclick = async () => {
     const f = form();
@@ -589,7 +599,7 @@
   $('#aboutclear').onclick = () => { setAbout(false, null); render(); };
   $('#article').addEventListener('change', render);
   if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(keptDraft || 'null'), f = s && s.text && parseFile(s.text); if (f && (f.body || f.meta.photos.length)) { fill(s.text); restorePhotos(); } } catch (e) {} }
-  $('#more').open = window.innerWidth >= 700 || !!($$('input[name=team]:checked').length || $('#player').value || (!CONTRIB && $('#author').value));
+  $('#more').open = (!CONTRIB && window.innerWidth >= 700) || !!($$('input[name=team]:checked').length || $('#player').value || (!CONTRIB && $('#author').value));
   drawChips(); render();
   if (!CONTRIB) connect().then(async () => {
     const edit = q.get('edit');
