@@ -9,6 +9,7 @@ which is the only robots.txt search engines read, listing every edition's sitema
 """
 from __future__ import annotations
 
+import html
 import json
 import re
 from datetime import datetime, time, timedelta, timezone
@@ -349,6 +350,28 @@ def staff(mh: dict[str, Any]) -> list[dict[str, Any]]:
     return people
 
 
+def desk_links(site_root: Path, people: list[dict[str, Any]]) -> list[str]:
+    """Short links for contributors: hardwoodbricks.com/<desk_link>/ opens their edition's desk with the byline set.
+
+    A staff entry with "desk_link": "darin" and "edition": "metro" gets site/darin/index.html.
+    """
+    from urllib.parse import quote
+    made = []
+    for p in people:
+        short = (p.get("desk_link") or "").strip().strip("/")
+        if not short or not short.replace("-", "").isalnum():
+            continue
+        ed = (p.get("edition") or "").strip().strip("/")
+        url = f"/{ed + '/' if ed else ''}desk.html?by={quote(p['name'])}"
+        (site_root / short).mkdir(parents=True, exist_ok=True)
+        (site_root / short / "index.html").write_text(
+            f'<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(p["name"])} · desk</title>'
+            f'<meta http-equiv="refresh" content="0; url={html.escape(url)}"><a href="{html.escape(url)}">Open your desk</a>\n')
+        made.append(short)
+    return made
+
+
 def desks(mh: dict[str, Any], eds: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """One row per conference: its editor, or the editor in chief as acting editor until one is named."""
     named = mh.get("conference_editors") or {}
@@ -447,6 +470,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     (site_root / "masthead.html").write_text(env.get_template("masthead.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX, mh=mh, staff=ppl, desks=desks(mh, eds),
         ld_json=json.dumps(ld).replace("</", "<\\/")))
+    desk_links(site_root, ppl)
     from . import atlarge
     al = atlarge.page_context()
     if al:

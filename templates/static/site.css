@@ -1608,3 +1608,13 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .local-ad p { margin: 0; flex: 1 1 300px; font: 400 15px/1.45 var(--serif, Georgia, serif); color: var(--ink-2); }
 .local-ad p b { font-style: italic; font-weight: 600; color: var(--ink); margin-right: 4px; }
 .local-ad a { white-space: nowrap; font: 600 12px/1 var(--cond, sans-serif); letter-spacing: .08em; text-transform: uppercase; }
+
+/* the edition's human editor, under the front-page hero */
+.ed-card { display: flex; gap: 16px; align-items: flex-start; margin: 14px 0 6px; padding: 14px 16px; border: 1px solid var(--border); border-left: 4px solid var(--brick); background: var(--surface); }
+.ed-card .ed-pic img { display: block; width: 84px; height: 105px; object-fit: cover; filter: grayscale(1) contrast(1.08); }
+.ed-card .ed-txt { min-width: 0; }
+.ed-card .ed-role { display: block; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--brick); }
+.ed-card .ed-name { display: inline-block; font-size: 22px; font-weight: 800; color: var(--ink); text-decoration: none; margin: 2px 0 4px; }
+.ed-card p { margin: 0 0 6px; font-size: 14.5px; color: var(--ink-2); max-width: 70ch; }
+.ed-card .ed-more { font-size: 13px; }
+@media (max-width: 560px) { .ed-card .ed-pic img { width: 64px; height: 80px; } .ed-card p { font-size: 14px; } }

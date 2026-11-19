@@ -34,6 +34,29 @@ def bylines() -> dict[str, dict[str, Any]]:
     return {}
 
 
+def edition_editor() -> dict[str, Any] | None:
+    """This edition's conference editor from the masthead (conference_editors), with their staff entry.
+
+    No named editor means none is featured. The editor in chief editing their own edition also gets
+    their masthead title ("MAC editor · Editor and publisher").
+    """
+    for p in (DATA_DIR / "masthead.json", SHARED_DIR / "masthead.json"):
+        if p.exists():
+            mh = json.loads(p.read_text())
+            break
+    else:
+        return None
+    name = ((mh.get("conference_editors") or {}).get(LEAGUE.key) or "").strip()
+    if not name:
+        return None
+    who = dict(bylines().get(name) or {"name": name, "slug": hub._slug(name)})
+    role = f"{LEAGUE.short} editor"
+    if name == mh.get("editor") and mh.get("editor_title"):
+        role += f" · {mh['editor_title']}"
+    who["role"] = role
+    return who
+
+
 def espn_lines_by_game() -> dict[str, dict[str, Any]]:
     """DraftKings line ESPN carried for finished games, keyed by ESPN game id."""
     return {b["game_id"]: b["espn_line"] for b in load_boxscores() if b.get("espn_line")}
@@ -374,6 +397,7 @@ def render_site() -> str:
     env.globals["game_href"] = {}  # filled once box score and preview pages exist
     env.globals["site_up"] = "../" * LEAGUE.path.count("/")  # from an edition's root back to the site root (anchor pages live there)
     env.globals["bylines"] = bylines()  # masthead staff by name: a dispatch byline gets their face and a masthead link
+    env.globals["edition_editor"] = edition_editor()  # the human editor featured on this edition's front page
     env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
                        LG=LEAGUE.short, LG_name=LEAGUE.name, LG_region=LEAGUE.region, LG_key=LEAGUE.key, LG_tourney=LEAGUE.tournament,

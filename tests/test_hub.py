@@ -208,3 +208,10 @@ def test_game_night_renders_scoreboard_in_place_of_lead(tmp_path):
     html = (site / "index.html").read_text()
     assert 'id="h-night"' in html and "Tonight's games" in html and "1 live" in html
     assert 'class="lead' not in html
+
+
+def test_a_contributor_short_link_opens_their_desk(tmp_path):
+    from mac import hub
+    made = hub.desk_links(tmp_path, [{"name": "Pat Writer", "desk_link": "pat", "edition": "metro"}, {"name": "No Link"}])
+    page = (tmp_path / "pat" / "index.html").read_text()
+    assert made == ["pat"] and 'url=/metro/desk.html?by=Pat%20Writer' in page and "noindex" in page
