@@ -71,7 +71,7 @@ Mallory Hayes gave campus tours at Western Kentucky for four years and walked up
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Mallory Hayes gave campus tours at Western Kentucky for four years and walked up
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/american/games/401925864.html <!-- post:401925864:preview -->
 - 2026-11-17: L 64-67 at Tulsa Golden Hurricane. Barometer 56 (steady). <!-- g:401925864 -->
 - 2026-11-17: Social recap posted (L 64-67 vs Tulsa Golden Hurricane): https://hardwoodbricks.com/american/games/401925864.html <!-- post:401925864:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401927396.html <!-- post:401927396:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:20:39+00:00",
+ "fetched_at": "2026-11-19T12:17:58+00:00",
  "season": 2027,
  "games": [
   {
@@ -2009,11 +2009,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-capital-one-arena-11-18-2026--sports-ncaa-basketball/production/7217267?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Capital One Arena",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -2054,11 +2050,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-11-18-2026--sports-ncaa-basketball/production/7733296?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Lawler Arena",
    "venue_city": "North Andover",
    "venue_state": "MA",
@@ -2099,11 +2091,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-11-18-2026--sports-ncaa-basketball/production/7628264?wsUser=717",
-    "low": 23.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
    "venue_state": "NY",
@@ -2144,11 +2132,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-11-18-2026--sports-ncaa-basketball/production/7584087?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
    "venue_state": "MA",
@@ -2322,7 +2306,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-11-20-2026--sports-ncaa-basketball/production/7532395?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "John Paul Jones Arena",
@@ -2548,7 +2532,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-21-2026--sports-ncaa-basketball/production/7328007?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "JMA Wireless Dome",
@@ -2593,7 +2577,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-11-21-2026--sports-ncaa-basketball/production/7724858?wsUser=717",
-    "low": 25.0,
+    "low": 24.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Canastra Hammer Arena",
@@ -2900,8 +2884,8 @@
   {
    "game_id": "401911338",
    "date": "2026-11-25T01:00Z",
-   "name": "Air Force Falcons at Army Black Knights",
-   "short_name": "AF VS ARMY",
+   "name": "Army Black Knights at Air Force Falcons",
+   "short_name": "ARMY VS AF",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2918,18 +2902,18 @@
    "venue_city": "San Antonio",
    "venue_state": "TX",
    "home": {
-    "espn_id": "349",
-    "key": "army",
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2005",
     "key": null,
     "name": "Air Force Falcons",
     "abbr": "AF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "349",
+    "key": "army",
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
     "score": null,
     "winner": null
    },
@@ -5896,7 +5880,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-22-2026--sports-ncaa-basketball/production/7294910?wsUser=717",
-    "low": 46.0,
+    "low": 43.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Neville Arena",
@@ -9341,6 +9325,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T02:20:25+00:00"
+ ]
 }

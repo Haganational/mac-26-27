@@ -58,7 +58,7 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -69,3 +69,4 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/games/401928841.html <!-- post:401928841:preview -->
 - 2026-11-17: W 65-49 at Kent State Golden Flashes. Barometer 69 (buoyant). <!-- g:401928841 -->
 - 2026-11-17: Social recap posted (W 65-49 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401928841.html <!-- post:401928841:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:10:13+00:00",
+ "fetched_at": "2026-11-19T12:08:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -2314,11 +2314,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-18-2026--sports-ncaa-basketball/production/7612559?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
    "venue_city": "Boca Raton",
    "venue_state": "FL",
@@ -2359,11 +2355,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-11-18-2026--sports-ncaa-basketball/production/7707450?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "UTSA Convocation Center",
    "venue_city": "San Antonio",
    "venue_state": "TX",
@@ -2404,11 +2396,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-11-18-2026--sports-ncaa-basketball/production/7617738?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Gentile Arena",
    "venue_city": "Chicago",
    "venue_state": "IL",
@@ -3213,7 +3201,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -3258,7 +3246,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -3514,7 +3502,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-27-2026--sports-ncaa-basketball/production/7632059?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -4535,7 +4523,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-2-2026--sports-ncaa-basketball/production/7892479?wsUser=717",
+    "low": 33.0,
+    "since": "2026-11-19T12:08:59Z"
+   },
    "venue": "Reed Green Coliseum",
    "venue_city": "Hattiesburg",
    "venue_state": "MS",
@@ -4836,7 +4828,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-12-5-2026--sports-ncaa-basketball/production/7851864?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-19T12:08:59Z"
+   },
    "venue": "Trojan Arena",
    "venue_city": "Troy",
    "venue_state": "AL",
@@ -5326,7 +5322,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-12-9-2026--sports-ncaa-basketball/production/7612567?wsUser=717",
-    "low": 6.0,
+    "low": 26.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -6414,47 +6410,8 @@
    "detail": ""
   },
   {
-   "game_id": "401911235",
-   "date": "2026-12-18T19:00Z",
-   "name": "Florida Atlantic Owls at Loyola Chicago Ramblers",
-   "short_name": "FAU VS LUC",
-   "season_type": "reg",
-   "neutral_site": true,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
-   "venue": "Fifth Third Arena (TX)",
-   "venue_city": "Frisco",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "2350",
-    "key": null,
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2226",
-    "key": "fau",
-    "name": "Florida Atlantic Owls",
-    "abbr": "FAU",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401925825",
-   "date": "2026-12-19T00:00Z",
+   "date": "2026-12-18T17:00Z",
    "name": "Charlotte 49ers at UIC Flames",
    "short_name": "CLT @ UIC",
    "season_type": "reg",
@@ -6489,6 +6446,45 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911235",
+   "date": "2026-12-18T19:00Z",
+   "name": "Florida Atlantic Owls at Loyola Chicago Ramblers",
+   "short_name": "FAU VS LUC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
+    "low": 17.0,
+    "since": "2026-11-18T23:10:13Z"
+   },
+   "venue": "Fifth Third Arena (TX)",
+   "venue_city": "Frisco",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2350",
+    "key": null,
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2226",
+    "key": "fau",
+    "name": "Florida Atlantic Owls",
+    "abbr": "FAU",
     "score": null,
     "winner": null
    },
@@ -8431,7 +8427,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-1-10-2027--sports-ncaa-basketball/production/7631524?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -9601,7 +9597,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-1-30-2027--sports-ncaa-basketball/production/7631531?wsUser=717",
-    "low": 33.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -9640,7 +9636,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-5-2026--sports-ncaa-basketball/production/7613230?wsUser=717",
-    "low": 80.0,
+    "low": 82.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -10342,7 +10338,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-4-2026--sports-ncaa-basketball/production/7613228?wsUser=717",
-    "low": 51.0,
+    "low": 49.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -10459,7 +10455,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-2-11-2027--sports-ncaa-basketball/production/7631536?wsUser=717",
-    "low": 33.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -10615,7 +10611,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-2-14-2027--sports-ncaa-basketball/production/7631569?wsUser=717",
-    "low": 37.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -11590,7 +11586,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-2-28-2027--sports-ncaa-basketball/production/7631587?wsUser=717",
-    "low": 37.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -12124,6 +12120,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T03:20:32+00:00"
+ ]
 }

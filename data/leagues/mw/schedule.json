@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:04:04+00:00",
+ "fetched_at": "2026-11-19T12:03:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -1822,11 +1822,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-11-18-2026--sports-ncaa-basketball/production/7785758?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Provident Credit Union Event Center",
    "venue_city": "San Jose",
    "venue_state": "CA",
@@ -1861,11 +1857,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-angel-of-the-winds-arena-11-18-2026--sports-ncaa-basketball/production/7744906?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Angel of the Winds Arena",
    "venue_city": "Everett",
    "venue_state": "WA",
@@ -1906,11 +1898,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-18-2026--sports-ncaa-basketball/production/7459073?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Lawlor Events Center",
    "venue_city": "Reno",
    "venue_state": "NV",
@@ -1937,7 +1925,7 @@
   },
   {
    "game_id": "401920516",
-   "date": "2026-11-19T03:00Z",
+   "date": "2026-11-19T03:30Z",
    "name": "UNLV Rebels at Auburn Tigers",
    "short_name": "UNLV VS AUB",
    "season_type": "reg",
@@ -1975,6 +1963,47 @@
    "completed": true,
    "live": false,
    "detail": "Final"
+  },
+  {
+   "game_id": "401920520",
+   "date": "2026-11-20T01:30Z",
+   "name": "Rutgers Scarlet Knights at UNLV Rebels",
+   "short_name": "RUTG VS UNLV",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN2",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Michelob ULTRA Arena",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2439",
+    "key": "unlv",
+    "name": "UNLV Rebels",
+    "abbr": "UNLV",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "164",
+    "key": null,
+    "name": "Rutgers Scarlet Knights",
+    "abbr": "RUTG",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
   },
   {
    "game_id": "401911534",
@@ -2372,8 +2401,8 @@
   {
    "game_id": "401911338",
    "date": "2026-11-25T01:00Z",
-   "name": "Air Force Falcons at Army Black Knights",
-   "short_name": "AF VS ARMY",
+   "name": "Army Black Knights at Air Force Falcons",
+   "short_name": "ARMY VS AF",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2390,18 +2419,18 @@
    "venue_city": "San Antonio",
    "venue_state": "TX",
    "home": {
-    "espn_id": "349",
-    "key": null,
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2005",
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "349",
+    "key": null,
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
     "score": null,
     "winner": null
    },
@@ -2594,7 +2623,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-11-25-2026--sports-ncaa-basketball/production/7638781?wsUser=717",
-    "low": 29.0,
+    "low": 22.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -2709,7 +2738,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-11-28-2026--sports-ncaa-basketball/production/7383942?wsUser=717",
-    "low": 15.0,
+    "low": 12.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Clune Arena",
@@ -3110,7 +3139,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-1-2026--sports-ncaa-basketball/production/7418287?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "CU Events Center",
@@ -3838,7 +3867,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-9-2026--sports-ncaa-basketball/production/7638787?wsUser=717",
-    "low": 29.0,
+    "low": 22.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -4166,7 +4195,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-12-2026--sports-ncaa-basketball/production/7638793?wsUser=717",
-    "low": 40.0,
+    "low": 29.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -4765,7 +4794,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-20-2026--sports-ncaa-basketball/production/7638795?wsUser=717",
-    "low": 47.0,
+    "low": 41.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -6569,7 +6598,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-19-2027--sports-ncaa-basketball/production/7422144?wsUser=717",
-    "low": 40.0,
+    "low": 38.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -7037,7 +7066,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-1-30-2027--sports-ncaa-basketball/production/7661763?wsUser=717",
-    "low": 35.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Don Haskins Center",
@@ -7115,7 +7144,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-30-2027--sports-ncaa-basketball/production/7419612?wsUser=717",
-    "low": 35.0,
+    "low": 32.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -8967,6 +8996,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T06:03:04+00:00"
+ ]
 }

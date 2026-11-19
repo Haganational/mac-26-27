@@ -1,7 +1,7 @@
 {
  "google:alabama-am": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Alabama+A%26M",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -9,8 +9,8 @@
   "url": "https://news.google.com/rss/search?q=%22Alabama+A%26M+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:alabama-state": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Alabama+State",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -18,8 +18,8 @@
   "url": "https://news.google.com/rss/search?q=%22Alabama+State+Hornets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:alcorn": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Alcorn+State+",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -27,14 +27,14 @@
   "url": "https://news.google.com/rss/search?q=%22Alcorn+State+Braves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:bethune-cookman": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
+  "checked_at": "2026-11-19T12:20:44+00:00",
   "entries": 2,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Bethune-Cookm",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-18T23:22:54+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "bethune-cookman",
   "url": "https://news.google.com/rss/search?q=%22Bethune-Cookman+Wildcats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -42,8 +42,8 @@
   "via_google": false
  },
  "google:florida-am": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Florida+A%26M",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -51,8 +51,8 @@
   "url": "https://news.google.com/rss/search?q=%22Florida+A%26M+Rattlers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:grambling": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Grambling+Tig",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -60,14 +60,14 @@
   "url": "https://news.google.com/rss/search?q=%22Grambling+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:jackson-state": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
+  "checked_at": "2026-11-19T12:20:44+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Jackson+State",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-18T23:22:54+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "jackson-state",
   "url": "https://news.google.com/rss/search?q=%22Jackson+State+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -75,8 +75,8 @@
   "via_google": false
  },
  "google:mvsu": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Mississippi+V",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -84,8 +84,8 @@
   "url": "https://news.google.com/rss/search?q=%22Mississippi+Valley+State+Delta+Devils+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:prairie-view": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Prairie+View+",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -93,8 +93,8 @@
   "url": "https://news.google.com/rss/search?q=%22Prairie+View+A%26M+Panthers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:southern-u": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Southern+Jagu",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -102,8 +102,8 @@
   "url": "https://news.google.com/rss/search?q=%22Southern+Jaguars+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:texas-southern": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Texas+Souther",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -111,8 +111,8 @@
   "url": "https://news.google.com/rss/search?q=%22Texas+Southern+Tigers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:uapb": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:20:44+00:00",
+  "error": "EmptyFeed: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Arkansas-Pine",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -120,13 +120,13 @@
   "url": "https://news.google.com/rss/search?q=%22Arkansas-Pine+Bluff+Golden+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:swac": {
-  "checked_at": "2026-11-18T23:22:54+00:00",
+  "checked_at": "2026-11-19T12:20:44+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
-  "kept": 8,
+  "kept": 9,
   "kind": "league",
-  "last_ok": "2026-11-18T23:22:54+00:00",
+  "last_ok": "2026-11-19T12:20:44+00:00",
   "ok": true,
   "source": "SWAC (swac.org)",
   "team": null,

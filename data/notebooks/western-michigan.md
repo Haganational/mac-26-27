@@ -68,7 +68,7 @@ Patty Gallagher is a Kalamazoo native and a retired Western Michigan math profes
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,4 @@ Patty Gallagher is a Kalamazoo native and a retired Western Michigan math profes
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/games/401923393.html <!-- post:401923393:preview -->
 - 2026-11-15: W 80-59 at Southern Indiana Screaming Eagles. Barometer 79 (buoyant). <!-- g:401923393 -->
 - 2026-11-15: Social recap posted (W 80-59 vs Southern Indiana Screaming Eagles): https://hardwoodbricks.com/games/401923393.html <!-- post:401923393:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:preview -->

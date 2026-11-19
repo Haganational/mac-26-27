@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:11:12+00:00",
+ "fetched_at": "2026-11-19T12:09:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2870,11 +2870,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/towson-tigers-mens-basketball-tickets-secu-arena-11-18-2026--sports-ncaa-basketball/production/7707500?wsUser=717",
-    "low": 23.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "SECU Arena",
    "venue_city": "Towson",
    "venue_state": "MD",
@@ -2915,11 +2911,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/arkansas-state-red-wolves-mens-basketball-tickets-first-national-bank-arena-11-18-2026--sports-ncaa-basketball/production/7469469?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "First National Bank Arena",
    "venue_city": "Jonesboro",
    "venue_state": "AR",
@@ -2960,11 +2952,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-18-2026--sports-ncaa-basketball/production/7349937?wsUser=717",
-    "low": 5.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Pete Maravich Assembly Center",
    "venue_city": "Baton Rouge",
    "venue_state": "LA",
@@ -3005,11 +2993,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-11-18-2026--sports-ncaa-basketball/production/7570898?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "The Sobrato Center",
    "venue_city": "San Francisco",
    "venue_state": "CA",
@@ -3033,41 +3017,6 @@
    "completed": true,
    "live": false,
    "detail": "Final"
-  },
-  {
-   "game_id": "401928388",
-   "date": "2026-11-20T00:00Z",
-   "name": "Southern Miss Golden Eagles at Grambling Tigers",
-   "short_name": "USM @ GRAM",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": null,
-   "venue": "Fredrick C. Hobdy Assembly Center",
-   "venue_city": "Grambling",
-   "venue_state": "LA",
-   "home": {
-    "espn_id": "2755",
-    "key": null,
-    "name": "Grambling Tigers",
-    "abbr": "GRAM",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2572",
-    "key": "southern-miss",
-    "name": "Southern Miss Golden Eagles",
-    "abbr": "USM",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
   },
   {
    "game_id": "401919005",
@@ -3147,6 +3096,41 @@
     "key": "georgia-southern",
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401928388",
+   "date": "2026-11-20T02:00Z",
+   "name": "Southern Miss Golden Eagles at Grambling Tigers",
+   "short_name": "USM @ GRAM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Fredrick C. Hobdy Assembly Center",
+   "venue_city": "Grambling",
+   "venue_state": "LA",
+   "home": {
+    "espn_id": "2755",
+    "key": null,
+    "name": "Grambling Tigers",
+    "abbr": "GRAM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2572",
+    "key": "southern-miss",
+    "name": "Southern Miss Golden Eagles",
+    "abbr": "USM",
     "score": null,
     "winner": null
    },
@@ -3394,7 +3378,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-21-2026--sports-ncaa-basketball/production/7403497?wsUser=717",
-    "low": 13.0,
+    "low": 10.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4059,7 +4043,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 23.0,
+    "low": 20.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Chartway Arena",
@@ -5011,7 +4995,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-11-29-2026--sports-ncaa-basketball/production/7892473?wsUser=717",
+    "low": 33.0,
+    "since": "2026-11-19T12:09:49Z"
+   },
    "venue": "Reed Green Coliseum",
    "venue_city": "Hattiesburg",
    "venue_state": "MS",
@@ -5367,7 +5355,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lamar-university-cardinals-mens-basketball-tickets-neches-federal-credit-union-arena-at-the-montagne-center-12-2-2026--sports-ncaa-basketball/production/7850469?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-19T12:09:49Z"
+   },
    "venue": "Montagne Center",
    "venue_city": "Beaumont",
    "venue_state": "TX",
@@ -5492,7 +5484,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-2-2026--sports-ncaa-basketball/production/7892479?wsUser=717",
+    "low": 33.0,
+    "since": "2026-11-19T12:09:49Z"
+   },
    "venue": "Reed Green Coliseum",
    "venue_city": "Hattiesburg",
    "venue_state": "MS",
@@ -5615,7 +5611,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 41.0,
+    "low": 39.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -5879,7 +5875,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-12-5-2026--sports-ncaa-basketball/production/7851864?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-19T12:09:49Z"
+   },
    "venue": "Trojan Arena",
    "venue_city": "Troy",
    "venue_state": "AL",
@@ -6914,7 +6914,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-14-2026--sports-ncaa-basketball/production/7892481?wsUser=717",
+    "low": 33.0,
+    "since": "2026-11-19T12:09:49Z"
+   },
    "venue": "Reed Green Coliseum",
    "venue_city": "Hattiesburg",
    "venue_state": "MS",
@@ -7182,7 +7186,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-12-16-2026--sports-ncaa-basketball/production/7398172?wsUser=717",
-    "low": 25.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -7407,7 +7411,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-12-19-2026--sports-ncaa-basketball/production/7398176?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -8377,7 +8381,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-12-31-2026--sports-ncaa-basketball/production/7398186?wsUser=717",
-    "low": 26.0,
+    "low": 30.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -8545,7 +8549,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-1-2-2027--sports-ncaa-basketball/production/7398198?wsUser=717",
-    "low": 29.0,
+    "low": 30.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -8779,7 +8783,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-1-6-2027--sports-ncaa-basketball/production/7398210?wsUser=717",
-    "low": 25.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -9282,7 +9286,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-1-9-2027--sports-ncaa-basketball/production/7398228?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -9399,7 +9403,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-1-13-2027--sports-ncaa-basketball/production/7398242?wsUser=717",
-    "low": 113.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Reed Green Coliseum",
@@ -9750,7 +9754,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-1-16-2027--sports-ncaa-basketball/production/7398262?wsUser=717",
-    "low": 31.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -9906,7 +9910,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-1-20-2027--sports-ncaa-basketball/production/7398266?wsUser=717",
-    "low": 113.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Reed Green Coliseum",
@@ -10062,7 +10066,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-1-23-2027--sports-ncaa-basketball/production/7398276?wsUser=717",
-    "low": 29.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -10409,7 +10413,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-1-27-2027--sports-ncaa-basketball/production/7398292?wsUser=717",
-    "low": 25.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -10682,7 +10686,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-1-30-2027--sports-ncaa-basketball/production/7398310?wsUser=717",
-    "low": 28.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -10838,7 +10842,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-3-2027--sports-ncaa-basketball/production/7398312?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -11150,7 +11154,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-2-10-2027--sports-ncaa-basketball/production/7398328?wsUser=717",
-    "low": 31.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -11306,7 +11310,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-2-11-2027--sports-ncaa-basketball/production/7398334?wsUser=717",
-    "low": 113.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Reed Green Coliseum",
@@ -11462,7 +11466,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-13-2027--sports-ncaa-basketball/production/7398336?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -11618,7 +11622,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-17-2027--sports-ncaa-basketball/production/7398348?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -12043,7 +12047,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/troy-trojans-mens-basketball-tickets-trojan-arena-2-20-2027--sports-ncaa-basketball/production/7398370?wsUser=717",
-    "low": 28.0,
+    "low": 24.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Trojan Arena",
@@ -12160,7 +12164,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-23-2027--sports-ncaa-basketball/production/7398372?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -12316,7 +12320,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-2-24-2027--sports-ncaa-basketball/production/7398380?wsUser=717",
-    "low": 113.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Reed Green Coliseum",
@@ -12589,7 +12593,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-2-26-2027--sports-ncaa-basketball/production/7398394?wsUser=717",
-    "low": 113.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Reed Green Coliseum",
@@ -12616,6 +12620,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T05:47:10+00:00"
+ ]
 }

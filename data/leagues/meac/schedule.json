@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:22:09+00:00",
+ "fetched_at": "2026-11-19T12:19:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -1708,11 +1708,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-11-18-2026--sports-ncaa-basketball/production/7627771?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Ocean Center",
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
@@ -1753,11 +1749,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/la-salle-explorers-mens-basketball-tickets-john-glaser-arena-11-18-2026--sports-ncaa-basketball/production/7627911?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "John Glaser Arena",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -1798,11 +1790,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-18-2026--sports-ncaa-basketball/production/7627355?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "EagleBank Arena",
    "venue_city": "Fairfax",
    "venue_state": "VA",
@@ -3836,7 +3824,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/hampton-pirates-mens-basketball-tickets-hampton-convocation-center-12-12-2026--sports-ncaa-basketball/production/7877380?wsUser=717",
+    "low": 67.0,
+    "since": "2026-11-19T12:19:15Z"
+   },
    "venue": "Convocation Center (VA)",
    "venue_city": "Hampton",
    "venue_state": "VA",
@@ -5112,7 +5104,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-29-2026--sports-ncaa-basketball/production/7350090?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Food City Center",
@@ -5157,7 +5149,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-29-2026--sports-ncaa-basketball/production/7294917?wsUser=717",
-    "low": 77.0,
+    "low": 68.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Neville Arena",
@@ -7490,6 +7482,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T02:54:40+00:00"
+ ]
 }

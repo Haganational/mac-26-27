@@ -63,7 +63,7 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -77,3 +77,4 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/metro/games/401921087.html <!-- post:401921087:preview -->
 - 2026-11-16: L 67-75 at UMBC Retrievers. Barometer 30 (testy). <!-- g:401921087 -->
 - 2026-11-17: Social recap posted (L 67-75 vs UMBC Retrievers): https://hardwoodbricks.com/metro/games/401921087.html <!-- post:401921087:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:preview -->

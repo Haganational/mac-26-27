@@ -69,7 +69,7 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401921006.html <!-- post:401921006:preview -->
 - 2026-11-18: W 68-64 vs Newman Jets. Barometer 52 (steady). <!-- g:401921006 -->
 - 2026-11-18: Social recap posted (W 68-64 vs Newman Jets): https://hardwoodbricks.com/summit/games/401921006.html <!-- post:401921006:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:preview -->

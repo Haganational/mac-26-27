@@ -70,7 +70,7 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:preview -->
 - 2026-11-18: L 59-76 at Illinois State Redbirds. Barometer 32 (testy). <!-- g:401921106 -->
 - 2026-11-18: Social recap posted (L 59-76 vs Illinois State Redbirds): https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:09:25+00:00",
+ "fetched_at": "2026-11-19T12:08:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -1968,11 +1968,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-11-18-2026--sports-ncaa-basketball/production/7418283?wsUser=717",
-    "low": 5.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "CU Events Center",
    "venue_city": "Boulder",
    "venue_state": "CO",
@@ -2013,11 +2009,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-diego-toreros-mens-basketball-tickets-jenny-craig-pavilion-11-18-2026--sports-ncaa-basketball/production/7647882?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Jenny Craig Pavilion",
    "venue_city": "San Diego",
    "venue_state": "CA",
@@ -2058,11 +2050,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-11-18-2026--sports-ncaa-basketball/production/7570898?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "The Sobrato Center",
    "venue_city": "San Francisco",
    "venue_state": "CA",
@@ -2150,7 +2138,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-19-2026--sports-ncaa-basketball/production/7036792?wsUser=717",
-    "low": 26.0,
+    "low": 20.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -2169,6 +2157,41 @@
     "key": null,
     "name": "VCU Rams",
     "abbr": "VCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401935675",
+   "date": "2026-11-21T01:00Z",
+   "name": "West Coast Baptist Eagles at Pepperdine Waves",
+   "short_name": "WCBC @ PEPP",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Firestone Fieldhouse",
+   "venue_city": "Malibu",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2492",
+    "key": "pepperdine",
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "110418",
+    "key": null,
+    "name": "West Coast Baptist Eagles",
+    "abbr": "WCBC",
     "score": null,
     "winner": null
    },
@@ -2279,7 +2302,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 37.0,
+    "low": 58.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2318,7 +2341,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 37.0,
+    "low": 58.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2363,7 +2386,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 37.0,
+    "low": 58.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2567,7 +2590,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-22-2026--sports-ncaa-basketball/production/7686819?wsUser=717",
     "low": 27.0,
@@ -2795,7 +2824,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -2930,7 +2959,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -3477,7 +3506,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stanford-cardinal-mens-basketball-tickets-maples-pavilion-11-29-2026--sports-ncaa-basketball/production/7457242?wsUser=717",
-    "low": 8.0,
+    "low": 11.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Maples Pavilion",
@@ -6494,7 +6523,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-francisco-dons-mens-basketball-tickets-war-memorial-gymnasium-12-29-2026--sports-ncaa-basketball/production/7570918?wsUser=717",
-    "low": 36.0,
+    "low": 41.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "The Sobrato Center",
@@ -9625,6 +9654,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T05:45:37+00:00"
+ ]
 }

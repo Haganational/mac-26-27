@@ -2,29 +2,29 @@
  "date": "2026-11-19",
  "desk": {
   "anchor": {
-   "alt": "Hollis Grant, the Maine AI anchor",
-   "color": "#003263",
-   "color2": "#B0D7FF",
-   "initials": "HG",
+   "alt": "Vanessa Cruz, the UNLV AI anchor",
+   "color": "#CF0A2C",
+   "color2": "#CAC8C8",
+   "initials": "VC",
    "ink": "#ffffff",
-   "key": "maine",
-   "name": "Hollis Grant",
-   "portrait": "den/anchors/maine.webp",
-   "school": "Maine",
+   "key": "unlv",
+   "name": "Vanessa Cruz",
+   "portrait": "den/anchors/unlv.webp",
+   "school": "UNLV",
    "tag": "AI anchor"
   },
-  "max": 207,
+  "max": 184,
   "picks": [
    {
-    "abbr": "ME",
-    "game_id": "401923304",
+    "abbr": "UNLV",
+    "game_id": "401920520",
     "kind": "homer",
-    "short": "Maine",
-    "side": "away",
-    "team_id": "311",
-    "tip": "2026-11-20T00:00Z",
+    "short": "UNLV",
+    "side": "home",
+    "team_id": "2439",
+    "tip": "2026-11-20T01:30Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 82
+    "worth": 58
    },
    {
     "abbr": "COFC",
@@ -34,7 +34,7 @@
     "side": "away",
     "team_id": "232",
     "tip": "2026-11-20T00:30Z",
-    "why": "Our ratings 70%, pregame win chance 49%.",
+    "why": "Our ratings 69%, pregame win chance 49%.",
     "worth": 51
    },
    {
@@ -56,8 +56,8 @@
     "side": "home",
     "team_id": "2649",
     "tip": "2026-11-20T00:00Z",
-    "why": "Our ratings 87%, pregame win chance 73%.",
-    "worth": 27
+    "why": "Our ratings 86%, pregame win chance 72%.",
+    "worth": 28
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -196,30 +196,6 @@
    "worth": 82
   },
   {
-   "abbr": "GRAM",
-   "game_id": "401928388",
-   "key": "grambling",
-   "kind": "homer",
-   "short": "Grambling",
-   "side": "home",
-   "team_id": "2755",
-   "tip": "2026-11-20T00:00Z",
-   "why": "Homer pick.",
-   "worth": 53
-  },
-  {
-   "abbr": "USM",
-   "game_id": "401928388",
-   "key": "southern-miss",
-   "kind": "homer",
-   "short": "Southern Miss",
-   "side": "away",
-   "team_id": "2572",
-   "tip": "2026-11-20T00:00Z",
-   "why": "Homer pick.",
-   "worth": 47
-  },
-  {
    "abbr": "TOL",
    "game_id": "401928826",
    "key": "toledo",
@@ -229,7 +205,7 @@
    "team_id": "2649",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 27
+   "worth": 28
   },
   {
    "abbr": "RMU",
@@ -241,7 +217,7 @@
    "team_id": "2523",
    "tip": "2026-11-20T00:00Z",
    "why": "Homer pick.",
-   "worth": 73
+   "worth": 72
   },
   {
    "abbr": "LT",
@@ -340,6 +316,18 @@
    "worth": 61
   },
   {
+   "abbr": "UNLV",
+   "game_id": "401920520",
+   "key": "unlv",
+   "kind": "homer",
+   "short": "UNLV",
+   "side": "home",
+   "team_id": "2439",
+   "tip": "2026-11-20T01:30Z",
+   "why": "Homer pick.",
+   "worth": 58
+  },
+  {
    "abbr": "NMSU",
    "game_id": "401911534",
    "key": "new-mexico-state",
@@ -398,6 +386,30 @@
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
    "worth": 43
+  },
+  {
+   "abbr": "GRAM",
+   "game_id": "401928388",
+   "key": "grambling",
+   "kind": "homer",
+   "short": "Grambling",
+   "side": "home",
+   "team_id": "2755",
+   "tip": "2026-11-20T02:00Z",
+   "why": "Homer pick.",
+   "worth": 53
+  },
+  {
+   "abbr": "USM",
+   "game_id": "401928388",
+   "key": "southern-miss",
+   "kind": "homer",
+   "short": "Southern Miss",
+   "side": "away",
+   "team_id": "2572",
+   "tip": "2026-11-20T02:00Z",
+   "why": "Homer pick.",
+   "worth": 47
   },
   {
    "abbr": "ORST",

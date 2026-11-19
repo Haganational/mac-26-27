@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:18:36+00:00",
+ "fetched_at": "2026-11-19T12:16:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -1602,51 +1602,6 @@
    "detail": "Final"
   },
   {
-   "game_id": "401922283",
-   "date": "2026-11-18T23:30Z",
-   "name": "Samford Bulldogs at South Carolina Upstate Spartans",
-   "short_name": "SAM @ UPST",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-carolina-upstate-spartans-mens-basketball-tickets-gb-hodge-center-11-18-2026--sports-ncaa-basketball/production/7629714?wsUser=717",
-    "low": 47.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
-   "venue": "G.B. Hodge Center",
-   "venue_city": "Spartanburg",
-   "venue_state": "SC",
-   "home": {
-    "espn_id": "2908",
-    "key": "usc-upstate",
-    "name": "South Carolina Upstate Spartans",
-    "abbr": "UPST",
-    "score": 64,
-    "winner": false
-   },
-   "away": {
-    "espn_id": "2535",
-    "key": null,
-    "name": "Samford Bulldogs",
-    "abbr": "SAM",
-    "score": 74,
-    "winner": true
-   },
-   "status": "STATUS_FINAL",
-   "completed": true,
-   "live": false,
-   "detail": "Final"
-  },
-  {
    "game_id": "401922292",
    "date": "2026-11-18T23:30Z",
    "name": "Tennessee Tech Golden Eagles at UNC Asheville Bulldogs",
@@ -1662,11 +1617,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unc-asheville-bulldogs-mens-basketball-tickets-kimmel-arena-11-18-2026--sports-ncaa-basketball/production/7597854?wsUser=717",
-    "low": 41.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Kimmel Arena",
    "venue_city": "Asheville",
    "venue_state": "NC",
@@ -1707,11 +1658,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/winthrop-eagles-mens-basketball-tickets-winthrop-coliseum-11-18-2026--sports-ncaa-basketball/production/7629879?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Winthrop Coliseum",
    "venue_city": "Rock Hill",
    "venue_state": "SC",
@@ -1752,11 +1699,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/charleston-southern-buccaneers-mens-basketball-tickets-buccaneer-field-11-18-2026--sports-ncaa-basketball/production/7444687?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Buccaneer Fieldhouse",
    "venue_city": "Charleston",
    "venue_state": "SC",
@@ -1797,11 +1740,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/longwood-university-lancers-mens-basketball-tickets-joan-perry-brock-center-11-18-2026--sports-ncaa-basketball/production/7629220?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Joan Perry Brock Center",
    "venue_city": "Farmville",
    "venue_state": "VA",
@@ -1842,11 +1781,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/presbyterian-blue-hose-mens-basketball-tickets-templeton-physical-education-center-at-presbyterian-college-11-18-2026--sports-ncaa-basketball/production/7766087?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Templeton Center",
    "venue_city": "Clinton",
    "venue_state": "SC",
@@ -1880,18 +1815,8 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/radford-highlanders-mens-basketball-tickets-dedmon-center-11-18-2026--sports-ncaa-basketball/production/7629303?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "broadcasts": [],
+   "tickets": null,
    "venue": "The Dedmon Center",
    "venue_city": "Radford",
    "venue_state": "VA",
@@ -1932,11 +1857,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/gardner-webb-bulldogs-mens-basketball-tickets-paul-porter-arena-11-18-2026--sports-ncaa-basketball/production/7341818?wsUser=717",
-    "low": 48.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Paul Porter Arena",
    "venue_city": "Boiling Springs",
    "venue_state": "NC",
@@ -1962,6 +1883,41 @@
    "detail": "Final"
   },
   {
+   "game_id": "401922283",
+   "date": "2026-11-19T01:30Z",
+   "name": "Samford Bulldogs at South Carolina Upstate Spartans",
+   "short_name": "SAM @ UPST",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Timmons Arena",
+   "venue_city": "Greenville",
+   "venue_state": "SC",
+   "home": {
+    "espn_id": "2908",
+    "key": "usc-upstate",
+    "name": "South Carolina Upstate Spartans",
+    "abbr": "UPST",
+    "score": 64,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2535",
+    "key": null,
+    "name": "Samford Bulldogs",
+    "abbr": "SAM",
+    "score": 74,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
    "game_id": "401920413",
    "date": "2026-11-20T00:00Z",
    "name": "Montana State Bobcats at High Point Panthers",
@@ -1979,7 +1935,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-11-19-2026--sports-ncaa-basketball/production/7606406?wsUser=717",
-    "low": 14.0,
+    "low": 21.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Qubein Center",
@@ -3674,7 +3630,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-4-2026--sports-ncaa-basketball/production/7606472?wsUser=717",
-    "low": 50.0,
+    "low": 15.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Qubein Center",
@@ -3969,7 +3925,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-6-2026--sports-ncaa-basketball/production/7606474?wsUser=717",
-    "low": 20.0,
+    "low": 15.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Qubein Center",
@@ -8911,6 +8867,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T03:39:33+00:00"
+ ]
 }

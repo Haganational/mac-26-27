@@ -68,7 +68,7 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -79,3 +79,4 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/a10/games/401911240.html <!-- post:401911240:preview -->
 - 2026-11-17: L 68-85 at Virginia Tech Hokies. Barometer 50 (steady). <!-- g:401911240 -->
 - 2026-11-17: Social recap posted (L 68-85 vs Virginia Tech Hokies): https://hardwoodbricks.com/a10/games/401911240.html <!-- post:401911240:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401927396.html <!-- post:401927396:preview -->

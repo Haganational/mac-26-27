@@ -1,12 +1,12 @@
 {
  "google:chattanooga": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 2,
   "kind": "google",
-  "last_ok": "2026-11-18T23:14:45+00:00",
+  "last_ok": "2026-11-19T12:12:53+00:00",
   "ok": true,
   "source": "Google News",
   "team": "chattanooga",
@@ -15,7 +15,7 @@
   "via_google": false
  },
  "google:etsu": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -24,17 +24,23 @@
   "url": "https://news.google.com/rss/search?q=%22ETSU+Buccaneers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:furman": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:12:53+00:00",
+  "entries": 1,
+  "error": null,
+  "fallback": false,
+  "kept": 0,
   "kind": "google",
-  "ok": false,
+  "last_ok": "2026-11-19T12:12:53+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "furman",
-  "url": "https://news.google.com/rss/search?q=%22Furman+Paladins+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+  "url": "https://news.google.com/rss/search?q=%22Furman+Paladins+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22Furman+Paladins+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
  },
  "google:mercer": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:12:53+00:00",
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Mercer+Bears+ba",
   "kind": "google",
   "ok": false,
   "source": "Google News",
@@ -42,7 +48,7 @@
   "url": "https://news.google.com/rss/search?q=%22Mercer+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:samford": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -51,7 +57,7 @@
   "url": "https://news.google.com/rss/search?q=%22Samford+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:tennessee-tech": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -60,7 +66,7 @@
   "url": "https://news.google.com/rss/search?q=%22Tennessee+Tech+Golden+Eagles+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:the-citadel": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -69,7 +75,7 @@
   "url": "https://news.google.com/rss/search?q=%22The+Citadel+Bulldogs+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:unc-greensboro": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -78,16 +84,22 @@
   "url": "https://news.google.com/rss/search?q=%22UNC+Greensboro+Spartans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:vmi": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
-  "error": "EmptyFeed: no entries",
+  "checked_at": "2026-11-19T12:12:53+00:00",
+  "entries": 1,
+  "error": null,
+  "fallback": false,
+  "kept": 0,
   "kind": "google",
-  "ok": false,
+  "last_ok": "2026-11-19T12:12:53+00:00",
+  "ok": true,
   "source": "Google News",
   "team": "vmi",
-  "url": "https://news.google.com/rss/search?q=%22VMI+Keydets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
+  "url": "https://news.google.com/rss/search?q=%22VMI+Keydets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "used": "https://news.google.com/rss/search?q=%22VMI+Keydets+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "via_google": false
  },
  "google:western-carolina": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -96,14 +108,14 @@
   "url": "https://news.google.com/rss/search?q=%22Western+Carolina+Catamounts+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:wofford": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Wofford+Terrier",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-18T23:14:45+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "wofford",
   "url": "https://news.google.com/rss/search?q=%22Wofford+Terriers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -111,13 +123,13 @@
   "via_google": false
  },
  "league:socon": {
-  "checked_at": "2026-11-18T23:14:45+00:00",
+  "checked_at": "2026-11-19T12:12:53+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 9,
   "kind": "league",
-  "last_ok": "2026-11-18T23:14:45+00:00",
+  "last_ok": "2026-11-19T12:12:53+00:00",
   "ok": true,
   "source": "SoCon (soconsports.com)",
   "team": null,

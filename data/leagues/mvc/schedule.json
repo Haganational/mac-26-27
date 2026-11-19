@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T23:06:45+00:00",
+ "fetched_at": "2026-11-19T12:06:00+00:00",
  "season": 2027,
  "games": [
   {
@@ -2076,11 +2076,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/uic-flames-mens-basketball-tickets-credit-union-1-arena-at-uic-11-18-2026--sports-ncaa-basketball/production/7667020?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Credit Union 1 Arena",
    "venue_city": "Chicago",
    "venue_state": "IL",
@@ -2121,11 +2117,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-11-18-2026--sports-ncaa-basketball/production/7747385?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Curb Event Center Arena",
    "venue_city": "Nashville",
    "venue_state": "TN",
@@ -2166,11 +2158,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-11-18-2026--sports-ncaa-basketball/production/7588376?wsUser=717",
-    "low": 12.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Carver Arena",
    "venue_city": "Peoria",
    "venue_state": "IL",
@@ -2254,7 +2242,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-11-19-2026--sports-ncaa-basketball/production/7590197?wsUser=717",
-    "low": 20.0,
+    "low": 17.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -2299,7 +2287,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-state-redbirds-mens-basketball-tickets-cefcu-arena-11-19-2026--sports-ncaa-basketball/production/7683436?wsUser=717",
-    "low": 23.0,
+    "low": 21.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "CEFCU Arena",
@@ -5159,47 +5147,8 @@
    "detail": ""
   },
   {
-   "game_id": "401925777",
-   "date": "2026-12-19T00:00Z",
-   "name": "Drake Bulldogs at Davidson Wildcats",
-   "short_name": "DRKE VS DAV",
-   "season_type": "reg",
-   "neutral_site": true,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
-   "venue": "T-Mobile Center",
-   "venue_city": "Kansas City",
-   "venue_state": "MO",
-   "home": {
-    "espn_id": "2166",
-    "key": null,
-    "name": "Davidson Wildcats",
-    "abbr": "DAV",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2181",
-    "key": "drake",
-    "name": "Drake Bulldogs",
-    "abbr": "DRKE",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401925825",
-   "date": "2026-12-19T00:00Z",
+   "date": "2026-12-18T17:00Z",
    "name": "Charlotte 49ers at UIC Flames",
    "short_name": "CLT @ UIC",
    "season_type": "reg",
@@ -5234,6 +5183,45 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401925777",
+   "date": "2026-12-19T00:00Z",
+   "name": "Drake Bulldogs at Davidson Wildcats",
+   "short_name": "DRKE VS DAV",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-18T23:06:45Z"
+   },
+   "venue": "T-Mobile Center",
+   "venue_city": "Kansas City",
+   "venue_state": "MO",
+   "home": {
+    "espn_id": "2166",
+    "key": null,
+    "name": "Davidson Wildcats",
+    "abbr": "DAV",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2181",
+    "key": "drake",
+    "name": "Drake Bulldogs",
+    "abbr": "DRKE",
     "score": null,
     "winner": null
    },
@@ -9203,7 +9191,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-24-2027--sports-ncaa-basketball/production/7747409?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Curb Event Center Arena",
@@ -9534,6 +9522,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-19T03:18:46+00:00"
+ ]
 }

@@ -64,7 +64,7 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,4 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:preview -->
 - 2026-11-18: L 65-99 vs Lehigh Mountain Hawks. Barometer 33 (testy). <!-- g:401920921 -->
 - 2026-11-18: Social recap posted (L 65-99 vs Lehigh Mountain Hawks): https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:preview -->
