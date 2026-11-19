@@ -117,6 +117,16 @@ def result_item(g: dict, box: dict | None) -> dict:
     sc = _scorer_line(top, f"the {nickname(mac['key'])}")
     if sc:
         sent.append(sc)
+    try:  # how it turned, from the play-by-play: one short spoken line when there's a real moment
+        from . import moments
+        mo = moments.shared().moments(g["game_id"], g.get("date"))
+        beat = moments.short_line(mo, "home" if mac is h else "away",
+                                  {"home": school(h["name"], h.get("key")), "away": school(a["name"], a.get("key"))})
+    except Exception:  # noqa: BLE001 - the script never waits on the book
+        beat = None
+    if beat:
+        sent.append(beat)
+    n_before = len(sent)
     tune_up = g.get("closing_spread") is None
     if not tune_up:
         sp = g["closing_spread"] if mac is h else -g["closing_spread"]
@@ -134,7 +144,7 @@ def result_item(g: dict, box: dict | None) -> dict:
             sent.append(f"{me} won but didn't cover {role}." if won else f"{me} failed to cover {role}.")
     links = [(top["name"], f"teams/{mac['key']}.html#p{top['espn_id']}")] if sc and top.get("espn_id") else []
     card = {"away": _side(a), "home": _side(h), "top": ({"name": top["name"], "pts": top["pts"], "reb": top.get("reb"), "ast": top.get("ast"),
-            "team": mac.get("abbr")} if sc else None), "ats": sent[-1] if not tune_up and len(sent) > 1 else None, "final": True}
+            "team": mac.get("abbr")} if sc else None), "ats": sent[-1] if not tune_up and len(sent) > n_before else None, "final": True}
     return {"game_id": g["game_id"], "text": " ".join(sent), "tune_up": tune_up, "won": won, "links": links, "card": card,
             "short": f"{me} {'beat' if won else 'lost to'} {them} {ms}-{os_}"}
 
