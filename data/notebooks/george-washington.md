@@ -68,7 +68,7 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -79,3 +79,4 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/a10/games/401911211.html <!-- post:401911211:preview -->
 - 2026-11-16: W 94-57 vs Ferrum Panthers. Barometer 88 (giddy). <!-- g:401911211 -->
 - 2026-11-16: Social recap posted (W 94-57 vs Ferrum Panthers): https://hardwoodbricks.com/a10/games/401911211.html <!-- post:401911211:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401919019.html <!-- post:401919019:preview -->
