@@ -31,7 +31,7 @@
     <section class="author-only">
       <h2>Write a dispatch</h2>
       <p class="sub">Only you see this panel. Every button opens your <a href="desk.html"><b>author desk</b></a> with the game, team or player already filled in. Save a draft there, publish it when it's ready, and readers see it a few minutes later. Turn author mode off on this device with <a href="notes.html?author=0">notes.html?author=0</a>.</p>
-      <p>{{ L.add_dispatch("", "") }} <span class="sub dim">a general note</span></p>
+      <p>{{ L.add_dispatch("", "") }} <span class="sub dim">a general note</span> &nbsp; {{ L.add_dispatch("", "the " ~ LG, conf=True) }} <span class="sub dim">about the conference</span> &nbsp; {{ L.add_dispatch("", "", article=True) }} <span class="sub dim">an original article with its own page</span></p>
       <p class="sub">Every dispatch is filed with an icon: {% for k, v in notes_kinds.items() %}{{ L.kind_icon(k) }} {{ v[0] }}{{ ', ' if not loop.last }}{% endfor %}. Set it on the <code>kind:</code> line. Game notes file with the game and both teams, team notes with the team, player notes with the player (add those from the player's card on his team page).</p>
       <h3>Teams</h3>
       <div class="fh-games">{% for t in nav_teams %}<div class="row"><span class="m"><a href="teams/{{ t.key }}.html">{{ t.short }}</a></span>{{ L.add_dispatch("", t.short ~ " notes", small=True, team=t.key) }}</div>{% endfor %}</div>

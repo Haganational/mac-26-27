@@ -14,6 +14,9 @@ Each dispatch is a Markdown file in notes/dispatches/, committed to the repo:
     draft: true              optional: stays off the site
     photo: 2026-11-12-akron-1.jpg | Caption   optional, repeatable: a photo in notes/photos/
     credit: Matthew Hagan    optional: photo credit (the byline, else the masthead editor)
+    about: conference        optional: a note about the whole conference rather than one game or team
+    video: dQw4w9WgXcQ | Title   optional: the YouTube video the dispatch is about
+    format: article          optional: an original article, published on its own page (articles/<slug>.html)
     ---
     The dispatch itself, in Markdown.
 
@@ -45,6 +48,7 @@ from .config import LEAGUE, ROOT
 
 NOTES_DIR = ROOT / "notes" / "dispatches"
 PHOTOS_DIR = ROOT / "notes" / "photos"
+VIDEO_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 PHOTO_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*\.(jpe?g|png|webp)$", re.I)
 REPO = "Haganational/mac-26-27"
 BRANCH = "main"
@@ -141,6 +145,15 @@ def photos_of(meta: dict[str, str], credit: str) -> list[dict[str, str]]:
     return out
 
 
+def video_of(v: str | None) -> dict[str, str] | None:
+    """'<YouTube id> | Title' -> {id, title, url}; anything that isn't an 11-character video id is ignored."""
+    vid, _, title = (v or "").partition("|")
+    vid = vid.strip()
+    if not VIDEO_RE.match(vid):
+        return None
+    return {"id": vid, "title": title.strip() or "the video", "url": f"https://www.youtube.com/watch?v={vid}"}
+
+
 def default_credit() -> str:
     from .config import DATA_DIR, SHARED_DIR
     import json
@@ -204,6 +217,10 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
             "text": text,
             "words": len(body.split()),
             "edit_url": f"https://github.com/{REPO}/edit/{BRANCH}/notes/dispatches/{quote(path.name)}",
+            "about": (meta.get("about") or "").lower(),
+            "video": video_of(meta.get("video")),
+            "article": (meta.get("format") or "").lower() == "article",
+            "href": f"articles/{path.stem}.html" if (meta.get("format") or "").lower() == "article" else f"notes.html#n-{path.stem}",
         })
     out.sort(key=lambda d: (d["published"], d["file"]), reverse=True)
     return out
@@ -227,7 +244,7 @@ def feed_items(dispatches: list[dict[str, Any]], root: str = "") -> list[dict[st
     out = []
     for d in dispatches:
         title = d["title"] or (d["text"][:110] + ("…" if len(d["text"]) > 110 else ""))
-        out.append({"title": title, "url": f"{root}notes.html#n-{d['slug']}", "source": "Fieldhouse Notes",
+        out.append({"title": title, "url": f"{root}{d.get('href') or 'notes.html#n-' + d['slug']}", "source": "Fieldhouse Notes",
                     "teams": d["teams"], "published": d["published"], "mine": True,
                     "kind": d["kind"], "kind_label": d["kind_label"]})
     return out

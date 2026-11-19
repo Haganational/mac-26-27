@@ -12,6 +12,15 @@
       "photo": "static/staff/matthew-hagan.jpg",
       "email": "",
       "x": ""
+    },
+    {
+      "name": "Darin Paintrags",
+      "title": "Metro Conference editor",
+      "bio": "Darin Paintrags leads Hardwood Bricks' Metro Conference coverage, Canisius to Mount St. Mary's. A storytelling, frequently laughing writer out of Northeast Ohio and an Ohio University alum, he files Fieldhouse Notes from the Metro and wears the loudest glasses on press row.",
+      "photo": "static/staff/darin-paintrags.jpg",
+      "photo_fx": "glasses",
+      "email": "",
+      "x": ""
     }
   ],
   "conference_editors": {
@@ -19,7 +28,7 @@
     "horizon": "",
     "asun": "",
     "mw": "",
-    "metro": "",
+    "metro": "Darin Paintrags",
     "bigwest": "",
     "mvc": "",
     "a10": "",
@@ -51,5 +60,5 @@
     "in_person": "Home games in Northeast Ohio (Akron, Kent State, Cleveland State and Youngstown State) and the MAC tournament in Cleveland. Other venues only when a trip is planned, and the request says so.",
     "samples": []
   },
-  "_note": "Fill these in as they go live; blank fields are hidden. staff: everyone on the masthead page (bio is one or two sentences; photo is a path like static/staff/matthew-hagan.jpg (files live in templates/static/staff/, 4:5 portrait), shown in black and white). conference_editors: a name per edition key; blank means the editor above is acting editor. x handles without the @. media: the Media page (media.html) for SIDs reviewing credential requests. in_person is where the editor covers games in the building. samples is an optional hand-picked list of {\"title\", \"href\", \"kind\"} (href relative to the site root, e.g. \"notes.html#n-<file>\"); empty shows the newest recaps and previews."
+  "_note": "Fill these in as they go live; blank fields are hidden. staff: everyone on the masthead page (bio is one or two sentences; photo is a path like static/staff/matthew-hagan.jpg (files live in templates/static/staff/, 4:5 portrait), shown in black and white; photo_fx \"glasses\" keeps a black-and-white photo's colored frames and cycles their color). conference_editors: a name per edition key; blank means the editor above is acting editor. x handles without the @. media: the Media page (media.html) for SIDs reviewing credential requests. in_person is where the editor covers games in the building. samples is an optional hand-picked list of {\"title\", \"href\", \"kind\"} (href relative to the site root, e.g. \"notes.html#n-<file>\"); empty shows the newest recaps and previews."
 }

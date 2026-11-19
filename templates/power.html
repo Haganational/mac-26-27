@@ -35,7 +35,7 @@
 <main id="main">
   <nav class="crumbs"><a href="{{ root }}{{ home }}">{{ LG }} {{ d.season }}</a> <span class="dim">/</span> Power Rankings</nav>
   <header>
-    <h1>Power rankings</h1>
+    <h1>Power rankings {{ L.add_dispatch("", "this week's power rankings", small=True, conf=True, root=root) }}</h1>
     <span class="sub">Week of {{ wk(snap.week) }}. The Bricks Index leans on the last three weeks and pays extra for winning away from home.</span>
     <div class="wknav">
       {% if prev_week %}<a href="{{ root }}power/{{ prev_week }}.html">← Week of {{ wk(prev_week) }}</a>{% endif %}

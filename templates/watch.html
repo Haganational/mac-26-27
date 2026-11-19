@@ -92,7 +92,7 @@
         {% if s.latest %}<img src="https://i.ytimg.com/vi/{{ s.latest.id }}/{{ 'oar2' if s.key == 'midmaxx60' else 'hqdefault' }}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/{{ s.latest.id }}/hqdefault.jpg'}else{this.remove()}">{% endif %}
         <span><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><b>{{ s.name }}</b><small>{% if s.latest %}Latest · {{ s.latest.published }}{% else %}{{ s.when }} · {{ s.length }}{% endif %}</small></span>
       </button>{% endif %}
-      <h3>{{ s.name }}</h3>
+      <h3>{{ s.name }}{% if s.latest %} <a class="hb-plus" hidden href="desk.html?video={{ s.latest.id|urlencode }}&amp;vt={{ (s.name ~ ': ' ~ s.latest.title)|urlencode }}" title="Add a dispatch about this video" aria-label="Add a dispatch about this video">+</a>{% endif %}</h3>
       <p>{{ s.what }}</p>
       {% if loop.first and handle %}<a class="sub" href="https://www.youtube.com/@{{ handle }}?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube ↗</a>{% endif %}
     </div>{% endfor %}
@@ -149,5 +149,7 @@ document.addEventListener('click', function (e) {
   b.replaceWith(f);
 });
 </script>
+<style>.hb-plus{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;border:1px dashed currentColor;font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle;opacity:.8}</style>
+<script>try{if(localStorage.getItem('btb-author')==='1')document.querySelectorAll('.hb-plus').forEach(function(a){a.hidden=false})}catch(e){}</script>
 </body>
 </html>

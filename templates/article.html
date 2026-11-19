@@ -1,0 +1,35 @@
+{% import "_layout.html" as L %}
+<!doctype html>
+<html lang="en">
+<head>
+{% set page_title %}{{ n.title or 'Article' }} · {{ site_name }}{% endset %}{% set page_desc %}{{ n.text|truncate(155) }}{% endset %}
+{{ L.head(page_title, page_desc, root="../", path="articles/" ~ n.slug ~ ".html", image=(n.photos[0].src if n.photos else "static/og/notes.png"), og_type="article") }}
+<style>
+  .article { max-width: 720px; }
+  .article h1 { margin: 6px 0 8px; line-height: 1.15; }
+  .article .meta { font-size: 13px; color: var(--muted); }
+  .article .body { font-size: 17.5px; line-height: 1.65; }
+  .article figure.photo img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+{{ L.topbar(root="../", active="notes.html") }}
+<main id="main">
+  <nav class="crumbs"><a href="../{{ home }}">{{ site_name }}</a> <span class="dim">/</span> <a href="../notes.html">Fieldhouse Notes</a> <span class="dim">/</span> Article</nav>
+  <article class="article dispatch k-{{ n.kind }}" id="n-{{ n.slug }}">
+    <div class="meta"><span class="fh-kind">{{ L.kind_icon(n.kind, 15) }} {{ n.kind_label }}</span> · {{ n.date }}
+      {%- for t in n.teams %}{% set tm = nav_teams|selectattr('key', 'equalto', t)|first %}{% if tm %} · <a href="../teams/{{ t }}.html">{{ tm.short }}</a>{% endif %}{% endfor %}
+      <a class="author-only edit" href="../desk.html?edit={{ n.file|urlencode }}">edit</a></div>
+    <h1>{{ n.title or 'Article' }}</h1>
+    {% if n.author %}{{ L.byline(n, "../") }}{% endif %}
+    <div class="body">{{ n.html|safe }}</div>
+    {% if n.video %}<p class="on-video"><a href="{{ n.video.url }}" target="_blank" rel="noopener">▶ On the video: {{ n.video.title }}</a></p>{% endif %}
+    {% for ph in n.photos %}<figure class="photo"><a href="../{{ ph.src }}"><img src="../{{ ph.src }}" alt="{{ ph.caption or n.title or 'Photo' }}" loading="lazy"></a>
+      <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
+    {% endfor %}
+  </article>
+  <p><a href="../notes.html">← More Fieldhouse Notes</a></p>
+</main>
+{{ L.footer(root="../", updated=d.generated_et) }}
+</body>
+</html>

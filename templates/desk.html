@@ -21,6 +21,10 @@
   #photolist .ph img { width: 64px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); }
   #photolist .ph input { flex: 1; }
   .preview figure.photo img, article figure.photo img { max-width: 100%; border-radius: 8px; }
+  .aboutref { display: flex; align-items: center; gap: 8px; margin: 8px 0 0; padding: 6px 10px; border: 1px solid var(--fh); border-radius: 9px; font-size: 14px; }
+  .aboutref .btn { padding: 2px 8px; margin-left: auto; }
+  label.artchk { display: flex; gap: 8px; align-items: flex-start; text-transform: none; letter-spacing: 0; font-size: 14px; color: var(--ink); margin-top: 10px; cursor: pointer; }
+  label.artchk input { width: auto; margin-top: 3px; }
   .teamchk { display: flex; flex-wrap: wrap; gap: 6px; }
   .teamchk label { margin: 0; display: inline-flex; gap: 5px; align-items: center; padding: 4px 9px; border: 1px solid var(--border); border-radius: 8px; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--ink); cursor: pointer; }
   .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; align-items: center; }
@@ -95,8 +99,10 @@
       <input type="text" id="game" list="games" placeholder="Start typing a team or date (leave blank for none)">
       <datalist id="games">{% for g in games %}<option value="{{ g.label }}"></option>{% endfor %}</datalist>
       <div class="hint" id="gamehint" aria-live="polite"></div>
+      <div class="aboutref" id="aboutref" hidden><span id="abouttxt"></span> <button class="btn" type="button" id="aboutclear" title="Not about this">✕</button></div>
       <label for="title">Headline</label>
       <input type="text" id="title" placeholder="Optional">
+      <label class="artchk"><input type="checkbox" id="article"> <span><b>Original article</b>: gets its own page, with a teaser on Fieldhouse Notes. Give it a headline.</span></label>
       <div class="bodyhead"><label for="body">Dispatch</label><button class="btn" id="dictate" type="button" aria-pressed="false" hidden>🎙 Dictate</button></div>
       <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
       <div class="hint" id="heard" aria-live="polite"></div>
@@ -147,7 +153,7 @@
 <script id="deskdata" type="application/json">{{ desk_json|safe }}</script>
 <script>
 (function () {
-  const LEAGUE = {{ LG_key|tojson }};
+  const LEAGUE = {{ LG_key|tojson }}, LEAGUE_NAME = {{ LG_name|tojson }};
   const REPO = {{ notes_repo|tojson }}, API = 'https://api.github.com/repos/' + REPO, DIR = 'notes/dispatches/';
   const D = JSON.parse(document.getElementById('deskdata').textContent);
   const EDITOR = {{ editor_email|tojson }};
@@ -159,6 +165,7 @@
   const gameByLabel = new Map(D.games.map(g => [g.label, g])), gameById = new Map(D.games.map(g => [g.id, g]));
   const playerByLabel = new Map(D.players.map(p => [p.label, p])), playerById = new Map(D.players.map(p => [p.id, p]));
   const teamName = Object.fromEntries(D.teams.map(t => [t.key, t.short]));
+  let about = { conf: false, video: null };  // {conf, video: {id, title}}: a conference note or one about a video
   let editing = null; // {branch, path, sha, pr} when editing a draft or a published dispatch
   let photos = [];     // [{name, caption, blob?, url}] in the order they show; blob = not uploaded yet
 
@@ -205,7 +212,7 @@
     const g = lookup($('#game').value, gameByLabel), p = lookup($('#player').value, playerByLabel);
     hint('#gamehint', $('#game').value, g, 'game'); hint('#playerhint', $('#player').value, p, 'player');
     return { kind: ($('input[name=kind]:checked') || {}).value || 'arena', game: g ? g.id : '', teams: $$('input[name=team]:checked').map(i => i.value),
-             player: p ? p.id : '', playerName: p ? p.name : '', author: $('#author').value.trim(), title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
+             player: p ? p.id : '', playerName: p ? p.name : '', article: $('#article').checked, author: $('#author').value.trim(), title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
   }
   function toFile(f) {
     const L = ['---', 'kind: ' + f.kind];
@@ -215,6 +222,9 @@
     if (f.title) L.push('title: ' + f.title.replace(/\n/g, ' '));
     if (LEAGUE !== 'mac') L.push('league: ' + LEAGUE);
     if (f.author) L.push('author: ' + f.author.replace(/\n/g, ' '));
+    if (about.conf) L.push('about: conference');
+    if (about.video) L.push('video: ' + about.video.id + (about.video.title ? ' | ' + about.video.title.replace(/[\n#]/g, ' ') : ''));
+    if (f.article) L.push('format: article');
     photos.forEach(ph => L.push('photo: ' + ph.name + (ph.caption ? ' | ' + ph.caption.replace(/[\n#]/g, ' ') : '')));
     L.push('date: ' + f.date, '---', '', f.body.trim(), '');
     return L.join('\n');
@@ -242,21 +252,28 @@
     const p = playerById.get(meta.player || ''); $('#player').value = p ? p.label : '';
     photos = (meta.photos || []).map(v => { const [name, ...cap] = v.split('|'); return { name: name.trim(), caption: cap.join('|').trim(), url: 'photos/' + name.trim() }; }).filter(ph => ph.name);
     drawPhotos();
+    const vm = (meta.video || '').split('|'); setAbout(meta.about === 'conference', vm[0].trim() ? { id: vm[0].trim(), title: vm.slice(1).join('|').trim() } : null);
+    $('#article').checked = (meta.format || '').toLowerCase() === 'article';
     $('#author').value = meta.author || ''; $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
     render();
+  }
+  function setAbout(conf, video) {
+    about = { conf: !!conf, video: video || null };
+    const t = about.video ? '▶ About the video: ' + (about.video.title || about.video.id) : about.conf ? 'About the ' + LEAGUE_NAME + ' as a whole' : '';
+    $('#abouttxt').textContent = t; $('#aboutref').hidden = !t;
   }
   function render() {
     const f = form(), g = gameById.get(f.game), teams = [...new Set([...(g ? g.teams : []), ...f.teams])];
     const where = [g ? esc(g.label) : '', ...teams.map(t => esc(teamName[t] || t)), f.player ? esc(f.playerName) : ''].filter(Boolean).join(' · ');
     $('#preview').innerHTML = `<article class="dispatch k-${f.kind}"><div class="meta"><span class="fh-kind">${KINDS[f.kind][1]} ${esc(KINDS[f.kind][0])}</span> · ${esc(f.date)}${where ? ' · ' + where : ''}</div>`
-      + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : (photos.length ? '' : '<p class="dim">Your dispatch will appear here.</p>')}</div>`
+      + (f.article ? '<div class="hint"><b>Original article</b>: its own page, teaser on Fieldhouse Notes</div>' : '') + (f.title ? `<h3>${esc(f.title)}</h3>` : '') + (f.author ? `<div class="byline">By ${esc(f.author)}</div>` : '') + `<div class="body">${f.body.trim() ? md(f.body) : (photos.length ? '' : '<p class="dim">Your dispatch will appear here.</p>')}</div>`
       + photos.map(ph => `<figure class="photo"><img src="${esc(ph.url)}" alt="" onerror="this.style.display='none'"><figcaption>${esc(ph.caption)}</figcaption></figure>`).join('') + `</article>`
       + (where ? '' : '<p class="hint">Not filed to a game, team or player: it shows on the Notes page and in the feed.</p>');
     try { store.set('btb-desk-draft', JSON.stringify({ text: toFile(f) })); } catch (e) {}
   }
   function reset() {
     editing = null; $('#formtitle').textContent = CONTRIB ? 'New dispatch from ' + CONTRIB : 'New dispatch'; $('#save').textContent = 'Save draft';
-    $('#author').value = CONTRIB || '';
+    $('#author').value = CONTRIB || ''; $('#article').checked = false; setAbout(false, null);
     $$('input[name=kind]').forEach(i => i.checked = i.value === 'arena'); $('#game').value = ''; $$('input[name=team]').forEach(i => i.checked = false);
     $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; photos.forEach(ph => ph.blob && kept.drop(ph.name)); photos = []; drawPhotos(); drawChips(); render();
   }
@@ -517,6 +534,10 @@
   const CONTRIB = store.get('btb-contrib');
   if (CONTRIB) {
     document.documentElement.classList.add('contrib');
+    // A home-screen shortcut can have its own storage (iPhone), so the address itself carries the byline:
+    // detach the desk manifest (its start_url has no ?by=) and keep ?by= in the address bar.
+    try { const m = document.querySelector('link[rel=manifest]'); if (m) m.parentNode.removeChild(m); } catch (e) {}
+    if (!q0.has('by')) { try { q0.set('by', CONTRIB); history.replaceState(null, '', location.pathname + '?' + q0.toString()); } catch (e) {} }
     $('#author').value = CONTRIB; $('#author').readOnly = true;
     $('#formtitle').textContent = 'New dispatch from ' + CONTRIB;
   }
@@ -563,6 +584,10 @@
   if (q.get('game') && gameById.get(q.get('game'))) $('#game').value = gameById.get(q.get('game')).label;
   if (q.get('team')) $$('input[name=team]').forEach(i => i.checked = i.value === q.get('team'));
   if (q.get('player') && playerById.get(q.get('player'))) $('#player').value = playerById.get(q.get('player')).label;
+  if (q.get('conf') || q.get('video')) setAbout(!!q.get('conf'), /^[A-Za-z0-9_-]{11}$/.test(q.get('video') || '') ? { id: q.get('video'), title: q.get('vt') || '' } : null);
+  if (q.get('article')) { $('#article').checked = true; $('#formtitle').textContent = CONTRIB ? 'New article from ' + CONTRIB : 'New article'; }
+  $('#aboutclear').onclick = () => { setAbout(false, null); render(); };
+  $('#article').addEventListener('change', render);
   if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(keptDraft || 'null'), f = s && s.text && parseFile(s.text); if (f && (f.body || f.meta.photos.length)) { fill(s.text); restorePhotos(); } } catch (e) {} }
   $('#more').open = window.innerWidth >= 700 || !!($$('input[name=team]:checked').length || $('#player').value || (!CONTRIB && $('#author').value));
   drawChips(); render();

@@ -469,7 +469,13 @@ html.author .author-only { display: inline-flex !important; }
 html.author div.author-only, html.author section.author-only { display: block !important; }
 .btn-dispatch { align-items: center; gap: 6px; padding: 5px 11px; border-radius: 8px; border: 1px dashed var(--brick); color: var(--brick); background: color-mix(in srgb, var(--brick) 7%, transparent); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
 .btn-dispatch:hover { background: color-mix(in srgb, var(--brick) 15%, transparent); text-decoration: none; }
-.btn-dispatch.sm { padding: 1px 7px; font-size: 12px; margin-left: 6px; }
+/* the author's plus sign: a small round + (articles get a word) */
+.btn-dispatch { justify-content: center; width: 26px; height: 26px; padding: 0; border-radius: 50%; font-size: 18px; font-weight: 700; line-height: 1; vertical-align: middle; }
+.btn-dispatch.sm { width: 20px; height: 20px; font-size: 15px; margin-left: 6px; }
+.btn-dispatch.art { width: auto; height: auto; padding: 5px 11px; border-radius: 8px; font-size: 13px; }
+html.contrib .author-only.edit { display: none !important; }
+html.author .tb-list a.tb-desk + a.tb-desk { border-top: 0; margin-top: 0; }
+.dispatch .on-video a, .dispatch .read-on { font-weight: 700; }
 .dispatch { border-left: 4px solid var(--brick); padding: 4px 0 4px 16px; margin: 0 0 22px; }
 .dispatch h3 { margin: 0 0 2px; font-family: var(--serif); font-size: 21px; }
 .dispatch .meta { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
