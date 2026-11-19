@@ -1,7 +1,7 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
     Conferences sit behind one menu so the bar stays five items long at 6 editions or 27.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
-{% macro hub_bar(eds, active="", socials=False, mateo=False) -%}
+{% macro hub_bar(eds, active="", socials=False, mateo=False) -%}{#- mateo=True puts the front-page peek-a-boo (Mateo over Watch, Tiffany over At-Large) in the bar. -#}
 <header class="bar"><div class="bar-in">
   <a class="brand" href="./">Hardwood Bricks</a>
   <nav aria-label="Site">
@@ -19,22 +19,26 @@
     <a href="masthead.html"{% if active == 'masthead.html' %} aria-current="page"{% endif %}>About</a>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}
-</div>{% if mateo %}<span class="hb-mateo" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
+</div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".65" data-eyes=".62" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="39" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
 <script>(function(){var d=document.currentScript.previousElementSibling.querySelector('.hb-eds');if(!d)return;
 document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus()}});
 /* Landing hello (Matthew, Nov 16 2026, a trial): At-Large swells once, then Watch's eyes blink twice. About 1.5 s,
    on the first page of a visit only, and never for readers who ask for reduced motion. */
 try{var bar=d.closest('.bar');if(!sessionStorage.getItem('hb-hello')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.setItem('hb-hello','1');bar.classList.add('hello');setTimeout(function(){bar.classList.remove('hello')},1700)}}catch(e){}
-/* Mateo peek-a-boo (Matthew, Nov 18 2026): on the front page, every load and refresh, Mateo Sandoval rises from the foot
-   of the bar behind Watch, shimmies, blows a kiss and sinks back under it. About 3.5 s, never for reduced motion, and clicks
-   go straight through him. */
-try{var pk=bar.querySelector('.hb-mateo'),w=bar.querySelector('.hb-watch');if(pk&&w&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+/* Peek-a-boo (Matthew, Nov 18-19 2026): on the front page, every load and refresh, Mateo Sandoval rises from the foot of the
+   bar behind Watch (shimmy, blown kiss) and Tiffany Park rises behind At-Large (wig wobble, a curtsy dip), then both sink back.
+   About 4.5 s, never for reduced motion, and clicks go straight through them. Each span names its tab (data-at), art ratio (data-ar)
+   and extra width for effects (data-pad). */
+try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches)bar.querySelectorAll('.hb-peek').forEach(function(pk){var w=bar.querySelector(pk.dataset.at);if(!w)return;
 var im=pk.querySelector('img'),go=function(){var br=bar.getBoundingClientRect(),wr=w.getBoundingClientRect();if(!wr.width)return;
-var h=Math.min(Math.round(br.height),92),sw=Math.round(h*268/240),ww=sw+48;
+var h=Math.min(Math.round(br.height),92),sw=Math.round(h*parseFloat(pk.dataset.ar)),ww=sw+(+pk.dataset.pad||0);
 pk.style.setProperty('--mh',h+'px');pk.style.setProperty('--mw',sw+'px');pk.style.width=ww+'px';pk.style.height=h+'px';pk.style.top=Math.round(br.height-h)+'px';
-pk.style.left=Math.round(wr.left-br.left+wr.width/2-ww/2)+'px';bar.classList.add('mateo');setTimeout(function(){bar.classList.remove('mateo')},4300)};
-/* Measure after the web fonts land, or he sits over the wrong word on a cold load. */
-im.onload=function(){(document.fonts&&document.fonts.ready||Promise.resolve()).then(function(){requestAnimationFrame(go)})};im.src=im.dataset.src}}catch(e){}
+pk.style.left=Math.round(wr.left-br.left+wr.width/2-ww/2)+'px';
+/* data-eyes: where her eyes sit in the art. Lift her until the tab's word clears them (the wig can clip at the top of the bar). */
+if(pk.dataset.eyes){var lift=Math.max(0,Math.min(h*.45,(br.height-h)+h*parseFloat(pk.dataset.eyes)-(wr.top-br.top)+6));pk.style.setProperty('--lift',Math.round(lift)+'px')}
+pk.classList.add('on');w.classList.add('pk-on');setTimeout(function(){pk.classList.remove('on');w.classList.remove('pk-on')},4800)};
+/* Measure after the web fonts land, or they sit over the wrong word on a cold load. */
+im.onload=function(){(document.fonts&&document.fonts.ready||Promise.resolve()).then(function(){requestAnimationFrame(go)})};im.src=im.dataset.src})}catch(e){}
 var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();d.querySelectorAll('[data-ed]').forEach(function(a){a.hidden=!!q&&a.dataset.ed.indexOf(q)<0})});})();</script>
 {%- endmacro %}
