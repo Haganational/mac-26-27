@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -266,7 +266,7 @@ def game_page_context(g: dict[str, Any], box: dict[str, Any], snap: dict[str, An
     return {
         "g": g, "box": box, "snap": snap,
         "home": sides["home"], "away": sides["away"],
-        "result": {"margin": margin, "ats": ats, "points": points, "total_res": total_res},
+        "result": {"margin": margin, "ats": ats, "points": points, "total_res": total_res, "line": line, "total": total},
         "stat_rows": STAT_ROWS,
     }
 
@@ -422,6 +422,8 @@ def render_site() -> str:
         snap = history.get(mapping.get(gid, ""))
         mp = model_view.past_view(said.get(gid))
         gc = game_page_context(g, box, snap, ctx)
+        gc["moments"] = moments.shared().moments(gid, g["date"], gc["result"]["line"], gc["result"]["total"])
+        gc["highs"] = moments.shared().highs() if gc["moments"] is not None else None
         gm = gamer.write(gc, mp, flavor, bios, nba=nba)
         pre = previews_saved.get(gid)  # the preview we ran before tip, kept under the recap
         links = {pl["name"]: "../" + phref[str(pl["espn_id"])] for side in ("home", "away") for pl in gc[side]["players"]

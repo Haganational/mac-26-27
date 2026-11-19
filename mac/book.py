@@ -5,7 +5,7 @@ D-I-wide lives under data/book/<season>/ in compact, gzipped, write-once files s
 repo stays light (a full season of every game is a few MB, not hundreds):
 
   conferences.json                 32 conferences and their team ids (ESPN standings)
-  <season>/games/YYYY-MM-DD.json.gz   per game: player lines + lineup stints, as arrays
+  <season>/games/YYYY-MM-DD.json.gz   per game: player lines + lineup stints + scoring plays ("e"), as arrays
   <season>/odds/YYYYMMDDTHHMM.json.gz one file per odds snapshot, every D-I game, every book
 
 Game files are keyed by the game's UTC date and only rewritten while that date is
@@ -133,8 +133,12 @@ def encode_game(game: dict[str, Any]) -> dict[str, Any]:
     st = [[s["secs"], [idx[x] for x in s["home"]], [idx[x] for x in s["away"]], s["pts_h"], s["pts_a"], s["poss"],
            1 if s.get("bad") else 0] for s in game["stints"]]
     teams = {t["home_away"]: [t["espn_id"], t.get("abbr")] for t in game["teams"] if t["home_away"] in SIDES}
-    return {"d": game.get("date"), "n": 1 if game.get("neutral_site") else 0,
-            "t": [teams.get("home"), teams.get("away")], "p": rows, "s": st}
+    out = {"d": game.get("date"), "n": 1 if game.get("neutral_site") else 0,
+           "t": [teams.get("home"), teams.get("away")], "p": rows, "s": st}
+    if "events" in game:  # scoring plays (mac/moments.py): [secs, period, home, away, player row or -1, kind, wp before, wp after]
+        out["e"] = [[e["t"], e["per"], e["h"], e["a"], idx.get(e["pid"], -1) if e.get("pid") else -1, e["kind"], e.get("wb"), e.get("wa")]
+                    for e in game["events"]]
+    return out
 
 
 def decode_game(game_id: str, g: dict[str, Any]) -> dict[str, Any]:
@@ -151,8 +155,10 @@ def decode_game(game_id: str, g: dict[str, Any]) -> dict[str, Any]:
     ids = [r[0] for r in g["p"]]
     stints = [{"secs": s[0], "home": [ids[i] for i in s[1]], "away": [ids[i] for i in s[2]],
                "pts_h": s[3], "pts_a": s[4], "poss": s[5], **({"bad": True} if s[6] else {})} for s in g["s"]]
+    events = [{"t": e[0], "per": e[1], "h": e[2], "a": e[3], "pid": ids[e[4]] if 0 <= e[4] < len(ids) else None,
+               "kind": e[5], "wb": e[6], "wa": e[7]} for e in g.get("e") or []]
     return {"game_id": game_id, "date": g["d"], "neutral_site": bool(g["n"]), "teams": teams,
-            "players": players, "stints": stints}
+            "players": players, "stints": stints, "events": events}
 
 
 def _day(date_str: str | None) -> str:

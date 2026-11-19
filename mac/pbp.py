@@ -157,6 +157,7 @@ def fetch_game(game_id: str) -> dict[str, Any]:
 def game_from_summary(game_id: str, summary: dict[str, Any]) -> dict[str, Any]:
     box = parse_summary(game_id, summary)
     st = build_stints(summary)
+    from .moments import events_from_summary
     header = (summary.get("header") or {}).get("competitions", [{}])[0]
     return {
         "game_id": game_id,
@@ -165,6 +166,7 @@ def game_from_summary(game_id: str, summary: dict[str, Any]) -> dict[str, Any]:
         "teams": [{k: t[k] for k in ("espn_id", "abbr", "name", "home_away")} for t in box["teams"]],
         "players": box["players"],
         "stints": st["stints"],
+        "events": events_from_summary(summary),  # scoring plays, for mac/moments.py
     }
 
 

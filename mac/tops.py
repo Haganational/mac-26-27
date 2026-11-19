@@ -488,6 +488,64 @@ PASS = {"merv": "Merv found nothing he trusts tonight. He's going to bed at seve
         "shark": "No home dog in the Shark's window tonight. He says he's 'visiting a friend.'"}
 
 
+BAD_BEAT = ["{who}'s {label} died {when}, on {scorer}'s {shot}.",
+            "Bad beat for {who}: {label} was cashing until {scorer}'s {shot} {when}.",
+            "{who} had {label} in the bag until {when}. Then {scorer} hit a {shot}."]
+GOOD_BEAT = ["{who} got {label} home {when}, on {scorer}'s {shot}.",
+             "{label} was dead for {who} until {scorer}'s {shot} {when}. Back door, front door, still a door."]
+MY_BAD_BEAT = {"merv": "My {label} died {when} on a {shot}. Sixty-one years and it still stings.",
+               "leslie": "My {label} went down {when} on a {shot}. Honey, I felt that one in my rings.",
+               "brett": "{label} lost {when} on a {shot}. The machine calls that variance. I call it rude.",
+               "shark": "{label} went sideways {when} on a {shot}. My associates are looking into it."}
+MY_GOOD_BEAT = {"merv": "{label} came home {when} on a {shot}. You wait long enough, the game pays you.",
+                "leslie": "{label} cashed {when} on a {shot}. Mama didn't raise a quitter.",
+                "brett": "{label} flipped to a win {when} on a {shot}. Deltas, baby.",
+                "shark": "{label} came through {when} on a {shot}. Like I said, I heard things."}
+
+
+def beats(card: dict[str, Any] | None, book: Any = None, most: int = 2) -> list[dict[str, Any]]:
+    """Last night's picks the play-by-play says were decided late (mac/moments.py), bad beats first."""
+    from . import moments
+
+    if not card:
+        return []
+    bk = book or moments.shared()
+    out = []
+    for key, ps in (card.get("picks") or {}).items():
+        for p in ps:
+            if p.get("result") not in ("win", "loss"):
+                continue
+            try:
+                g = bk.game(p["game"], et_day(p["tip"]) if p.get("tip") else None)
+            except (KeyError, ValueError):
+                g = None
+            ev = (g or {}).get("events") or []
+            f = moments.flip(ev, p["kind"], p["side"], float(p["line"])) if ev else None
+            if not f or f["left"] > moments.LATE or f["result"] != p["result"]:
+                continue
+            e = ev[f["i"]]
+            names = {str(x["espn_id"]): x.get("name") for x in g.get("players", [])}
+            scorer = names.get(str(e.get("pid")))
+            if not scorer:
+                continue
+            last_per = max(x["per"] for x in ev)
+            out.append({"key": key, "label": p["label"], "result": p["result"], "scorer": scorer,
+                        "shot": moments.KINDS.get(e["kind"], "basket"), "when": moments.when(e, last_per), "left": f["left"]})
+    out.sort(key=lambda b: (b["result"] != "loss", b["left"], b["key"]))
+    return out[:most]
+
+
+def beat_line(b: dict[str, Any], by: str, day: str) -> str:
+    who = BY_KEY[b["key"]]["first"]
+    if b["key"] == by:
+        bank = MY_BAD_BEAT if b["result"] == "loss" else MY_GOOD_BEAT
+        text = bank[by]
+    else:
+        text = _choose(BAD_BEAT if b["result"] == "loss" else GOOD_BEAT, "beat", day, b["key"])
+    text = text.format(who=who, label=b["label"], when=b["when"], scorer=b["scorer"], shot=b["shot"])
+    return text[0].upper() + text[1:]
+
+
 def _u(v: float) -> str:
     return f"{v:+.2f} units".replace("+0.00", "even")
 
@@ -496,7 +554,8 @@ def _byline(day: str) -> str:
     return CAPPERS[Date.fromisoformat(day).toordinal() % len(CAPPERS)]["key"]
 
 
-def column(day: str, picks: dict[str, list[dict[str, Any]]], last: dict[str, Any] | None, season: list[dict[str, Any]]) -> dict[str, Any]:
+def column(day: str, picks: dict[str, list[dict[str, Any]]], last: dict[str, Any] | None, season: list[dict[str, Any]],
+           late: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     """The 8:15 column: one handicapper's byline, last night's tops and bottoms, tonight's card in four voices."""
     by = _byline(day)
     me = BY_KEY[by]
@@ -518,6 +577,8 @@ def column(day: str, picks: dict[str, list[dict[str, Any]]], last: dict[str, Any
         for r in night:
             if r["l"] == 0 and r["w"] >= 2 and r["p"] == 0:
                 paras.append(SWEEP_LINE.format(who=r["first"], rec=r["record"]))
+        for b in late or []:  # the play-by-play's late flips: bad beats and back doors
+            paras.append(beat_line(b, by, day))
     else:
         paras.append(_choose(NO_NIGHT, "none", day))
     lines = []
@@ -559,10 +620,17 @@ def lock(now: datetime, tops_dir: Path | None = None, dirs: list[Path] | None = 
     prev = (Date.fromisoformat(day) - timedelta(days=1)).isoformat()
     last = next((c for c in cards if c.get("date") == prev), None)
     card = {"date": day, "locked_at": now.astimezone(timezone.utc).isoformat(timespec="minutes"),
-            "board": len(bd), "picks": picks, "column": column(day, picks, last, standings(cards))}
+            "board": len(bd), "picks": picks, "column": column(day, picks, last, standings(cards), late=_safe_beats(last))}
     d.mkdir(parents=True, exist_ok=True)
     f.write_text(json.dumps(card, indent=1) + "\n")
     return card
+
+
+def _safe_beats(card: dict[str, Any] | None) -> list[dict[str, Any]]:
+    try:
+        return beats(card)
+    except Exception:  # noqa: BLE001 - the column never waits on the book
+        return []
 
 
 def grade_all(tops_dir: Path | None = None, scores: dict[str, dict[str, Any]] | None = None) -> int:

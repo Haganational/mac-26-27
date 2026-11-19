@@ -17,7 +17,7 @@ from typing import Any
 
 from markupsafe import Markup, escape
 
-from . import press
+from . import moments, press
 from .config import DATA_DIR, SITE_BASE, SITE_URL
 from .today import school
 
@@ -334,7 +334,16 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
                 s += f" {tl['name']} had {line} for {ln}."
         if rb is not None and rb is not tw and rb is not tl:
             s += f" {native(rb)} led all players with {rb['reb']} rebounds for {rteam}."
+        highs = c.get("highs")
+        for p_ in (tw, tl):
+            if p_ and highs and p_.get("pts") and moments.high_note(str(p_.get("espn_id")), p_["pts"], g.get("date") or "", highs):
+                s += f" The {p_['pts']} points were a season high for {p_['name']}."
         paras.append(s)
+    # How it turned, from the play-by-play (mac/moments.py): the late basket, the run, the drought.
+    mo = c.get("moments")
+    turn = moments.recap_lines(mo, {"home": hn, "away": an}, seed=str(g.get("game_id")))
+    if turn:
+        paras.append(" ".join(turn))
     edge = _edge_sentence(w, l, wn, ln)
     res = c.get("result") or {}
     tail = []
@@ -343,7 +352,9 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
     if res.get("ats") and res["ats"] != "push":
         covered = res["ats"].split(" ")[0]
         team = hn if covered == home["abbr"] else an
-        tail.append(f"{team} covered the closing spread.")
+        tail.append(moments.cover_line(mo, {"home": hn, "away": an}, team) or f"{team} covered the closing spread.")
+    if res.get("total_res") == "over" and moments.over_line(mo):
+        tail.append(moments.over_line(mo))
     if mp and mp.get("model_err") is not None:
         tail.append(f"Our model missed the final margin by {mp['model_err']:.1f} points.")
     if tail:
@@ -367,7 +378,8 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
     teams = flavor.get("teams", {})
     towns = {k: (teams.get(k, {}).get("town") or (press.papers().get(k) or {}).get("town") or "") for k in (hk, ak) if k}
     asides = press.game_asides(hk, ak, home_won, spread, {"home": hn, "away": an}, towns, margin,
-                               str(g.get("game_id")), neutral=bool(g.get("neutral_site")), before=g.get("date"))
+                               str(g.get("game_id")), neutral=bool(g.get("neutral_site")), before=g.get("date"),
+                               moment=mo)
     lead = press.lead_key(hk, ak)
     # the other bench may be in another edition, whose teams carry no key on this edition's pages
     from .cards import team_of

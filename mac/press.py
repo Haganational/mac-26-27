@@ -87,8 +87,29 @@ def _roll(seed: str) -> float:
     return int(hashlib.sha1(seed.encode()).hexdigest()[:8], 16) / 0xFFFFFFFF
 
 
+# Lines for how a game turned (mac/moments.py), shared by every anchor. Team-level only: the stretch, the
+# finish, the comeback. Never a player, the same rule as every other aside.
+MOMENT_ASIDES: dict[str, list[str]] = {
+    "late_win": ["{us} waited until {when} to win it. I aged a year, and I would do it again.",
+                 "Won it {when}. That is the only way {us} knows how to do anything.",
+                 "Nobody sat down {when}. {us} made sure it was worth standing for."],
+    "late_loss": ["Lost it {when}. I will be replaying that finish at three in the morning.",
+                  "{them} got the last word {when}. I have no further comment, and also several.",
+                  "Forty minutes of work, and it came down to {when}. {them} wanted it a little more."],
+    "comeback": ["Down {deficit} and {us} came all the way back. Nobody leave early ever again.",
+                 "{us} trailed by {deficit}. Write that number down, because it did not matter."],
+    "collapse": ["Up {deficit} and lost. I need a walk, and possibly a new hobby.",
+                 "A {deficit}-point lead is supposed to be a cushion. {us} used it as a trampoline for {them}."],
+    "run_win": ["That {run} run is the stretch people in this town will still talk about in March.",
+                "{us} went {run} on {them} and the building felt it."],
+    "run_loss": ["{them} went {run} and {us} stood and watched it happen. Film session should be fun.",
+                 "One {run} stretch, and that was the game. {us} has to find a timeout before that."],
+}
+MOMENT_RATE = 0.5  # of the asides an anchor writes on a game with a moment, how many are about the moment
+
+
 def aside(key: str | None, situation: str, seed: str, fill: dict[str, Any], rate: float | None = None,
-          avoid: tuple[str, ...] = (), before: str | None = None) -> dict[str, str] | None:
+          avoid: tuple[str, ...] = (), before: str | None = None, pool: list[str] | None = None) -> dict[str, str] | None:
     """One of the anchor's lines for this situation, or None (no lean, no line, or this story isn't one
     the anchor editorializes: `rate` of stories get one, picked by the seed so a page never flips).
     before = the game's tip time: the anchor's barometer going into it (mac/notebook.py) raises the rate
@@ -102,12 +123,12 @@ def aside(key: str | None, situation: str, seed: str, fill: dict[str, Any], rate
         rate = min(1.0, rate * notebook.mood_rate(key, before))
     if _roll(seed + "|gate") >= rate:
         return None
-    pool = [s for s in (ln.get("asides") or {}).get(situation, []) if isinstance(s, str) and s.strip()
+    pool = [s for s in (pool if pool is not None else (ln.get("asides") or {}).get(situation, [])) if isinstance(s, str) and s.strip()
             and not any("{" + a + "}" in s for a in avoid)]
     if not pool:
         return None
     text = pool[int(_roll(seed + "|" + situation) * len(pool)) % len(pool)]
-    vals = {k: "" for k in PLACEHOLDERS}
+    vals = {k: "" for k in PLACEHOLDERS + ("when", "deficit", "run")}
     vals.update({k: v for k, v in fill.items() if v is not None})
     try:
         text = text.format(**vals)
@@ -140,7 +161,7 @@ def game_situation(us_won: bool, at_home: bool, rival_game: bool, underdog: bool
 
 def game_asides(home_key: str | None, away_key: str | None, home_won: bool, home_spread: float | None,
                 names: dict[str, str], towns: dict[str, str], margin: int, seed: str, neutral: bool = False,
-                before: str | None = None) -> list[dict[str, str]]:
+                before: str | None = None, moment: dict[str, Any] | None = None) -> list[dict[str, str]]:
     """The lead (home) anchor's aside on a finished game, then sometimes the visiting anchor's rejoinder."""
     out = []
     rv = bool(home_key and away_key and (rival(home_key) == away_key or rival(away_key) == home_key))
@@ -153,7 +174,15 @@ def game_asides(home_key: str | None, away_key: str | None, home_won: bool, home
         sit = game_situation(won, at_home, rv, dog)
         fill = {"us": names.get(us, ""), "them": names.get(them, ""), "town": towns.get(k, ""),
                 "margin": margin, "rival": _school(rival(k))}
-        a = aside(k, sit, f"{seed}|{k}", fill, rate, before=before)
+        a = None
+        if moment:  # the play-by-play found a finish, a comeback or a run: sometimes that is what the anchor talks about
+            from .moments import anchor_moment
+            am = anchor_moment(moment, us)
+            if am and _roll(f"{seed}|{k}|moment") < MOMENT_RATE:
+                msit, mfill = am
+                a = aside(k, msit, f"{seed}|{k}", {**fill, **mfill}, rate, before=before, pool=MOMENT_ASIDES.get(msit, []))
+        if a is None:
+            a = aside(k, sit, f"{seed}|{k}", fill, rate, before=before)
         if a:
             out.append(a)
     return out
