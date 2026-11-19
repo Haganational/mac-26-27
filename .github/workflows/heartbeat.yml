@@ -8,6 +8,7 @@ name: Collector heartbeat
 # The cron below only restarts the loop if it ever stops; the newest heartbeat
 # cancels any older one, so only one runs at a time. It also starts the daily
 # MidMaxx60 video at 13:00 UTC (8 a.m. Eastern), the social cards at 13:30 UTC, and Stories hourly.
+# At 8:15 a.m. Eastern it starts one extra collect run so Tops and Bottoms locks its picks on time.
 
 on:
   workflow_dispatch:
@@ -38,6 +39,11 @@ jobs:
             sleep $(( next - now + 5 ))
             min=$(date -u +%M)
             if [ "$min" = "15" ] || [ "$min" = "45" ]; then
+              # Tops and Bottoms: picks lock and the column goes up at 8:15 AM Eastern (mac/tops.py runs in the hub step).
+              if [ "$(TZ=America/New_York date +%H%M)" = "0815" ]; then
+                echo "tops $(date -u +%H:%M)"
+                gh workflow run collect.yml --ref main -f mode=tick || echo "Tops dispatch failed, the 8:30 tick will lock it"
+              fi
               # Game nights, 6:30 PM to 1:30 AM Eastern: a live-score run between the half-hour ticks.
               # ESPN only, so it spends no Odds API credits.
               et=$((10#$(TZ=America/New_York date +%H%M)))

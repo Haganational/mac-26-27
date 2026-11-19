@@ -119,6 +119,7 @@
         {% else %}<p class="none">No games on the board.</p>{% endif %}
         {% else %}<div class="sh"><h2 id="h-tonight">Tonight</h2></div>{% endif %}
         {% if den %}<a class="den-tz" href="den.html"><span class="kick">The Den</span><span>Tonight's Bricksanity: {{ den.eligible }} team{{ '' if den.eligible == 1 else 's' }} eligible</span></a>{% endif %}
+        {% if tb %}<a class="den-tz tops-tz" href="tops.html"><span class="kick">Tops and Bottoms</span><span>{{ tb.text }} · JuiceBox Nation's wagering board</span></a>{% endif %}
         <a class="den-tz watch-tz" href="watch.html"><span class="kick">Watch</span><span>MidMaxx60 this morning, The Big Mid this week, and the anchor desk</span></a>
       </section>
       {% if river %}
@@ -155,6 +156,6 @@
 
   <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>
-<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="tops.html">Tops and Bottoms</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
 </body>
 </html>
