@@ -71,7 +71,7 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -81,3 +81,4 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 - 2026-11-11: L 76-85 vs Dartmouth Big Green. Barometer 44 (testy). <!-- g:401920234 -->
 - 2026-11-15: W 62-60 at Holy Cross Crusaders. Barometer 51 (steady). <!-- g:401921287 -->
 - 2026-11-15: Social recap posted (W 62-60 vs Holy Cross Crusaders): https://hardwoodbricks.com/americaeast/games/401921287.html <!-- post:401921287:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/ovc/games/401919826.html <!-- post:401919826:preview -->
