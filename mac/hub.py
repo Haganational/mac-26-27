@@ -428,6 +428,8 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     names = ", ".join(e["short"] for e in eds[:-1]) + (f" and {eds[-1]['short']}" if len(eds) > 1 else (eds[0]["short"] if eds else ""))
     # Counts for page titles and the dateline: a list of every conference's name stops reading well past a handful.
     env.filters["nobreak"] = nobreak
+    import hashlib
+    env.globals["specs_v"] = hashlib.sha1((TEMPLATES_DIR / "static" / "specs.js").read_bytes()).hexdigest()[:8]
     env.globals.update(n_conf=len(eds), n_schools=sum(len(LEAGUES[e["key"]].teams) for e in eds if e["key"] in LEAGUES))
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
