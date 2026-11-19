@@ -27,9 +27,9 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
+**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 - 2026-11-10: W 73-66 at Hawai'i Rainbow Warriors. Barometer 65 (buoyant). <!-- g:401929003 -->
 - 2026-11-14: L 88-94 vs East Texas A&M Lions. Barometer 55 (steady). <!-- g:401917527 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401909762.html <!-- post:401909762:preview -->
+- 2026-11-19: W 77-74 at Colorado Buffaloes. Barometer 60 (steady). <!-- g:401909762 -->

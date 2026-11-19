@@ -27,9 +27,9 @@ Lars Haugen has had football season tickets since he was eight and still measure
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five LLLWL.
+**36 of 100, testy.** Record 2-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lars editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lars editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Lars Haugen has had football season tickets since he was eight and still measure
 - 2026-11-15: L 69-73 vs Cal State Bakersfield Roadrunners. Barometer 40 (testy). <!-- g:401920136 -->
 - 2026-11-15: Social recap posted (L 69-73 vs Cal State Bakersfield Roadrunners): https://hardwoodbricks.com/bigwest/games/401920136.html <!-- post:401920136:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929176.html <!-- post:401929176:preview -->
+- 2026-11-19: L 64-71 at Colorado State Rams. Barometer 36 (testy). <!-- g:401929176 -->

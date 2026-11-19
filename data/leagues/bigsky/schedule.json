@@ -2073,8 +2073,8 @@
     "key": null,
     "name": "BYU Cougars",
     "abbr": "BYU",
-    "score": 94,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "2458",
@@ -2082,12 +2082,12 @@
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
     "score": 54,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925949",
@@ -2163,7 +2163,7 @@
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 33,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2171,13 +2171,13 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 31,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:38 - 1st"
+   "detail": "12:58 - 2nd"
   },
   {
    "game_id": "401920413",
@@ -9686,5 +9686,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:55:48+00:00"
+ "live_at": "2026-11-19T04:30:27+00:00"
 }

@@ -66,7 +66,7 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-14: L 37-88 at Texas Tech Red Raiders. Barometer 29 (despondent). <!-- g:401919847 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919848.html <!-- post:401919848:preview -->
 - 2026-11-19: L 70-90 vs New Hampshire Wildcats. Barometer 21 (despondent). <!-- g:401919848 -->
+- 2026-11-19: Social recap posted (L 70-90 vs New Hampshire Wildcats): https://hardwoodbricks.com/americaeast/games/401919848.html <!-- post:401919848:recap -->

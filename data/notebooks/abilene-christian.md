@@ -27,9 +27,9 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 - 2026-11-17: L 64-73 at Missouri State Bears. Barometer 36 (testy). <!-- g:401917964 -->
 - 2026-11-17: Social recap posted (L 64-73 vs Missouri State Bears): https://hardwoodbricks.com/cusa/games/401917964.html <!-- post:401917964:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/uac/games/401917965.html <!-- post:401917965:preview -->
+- 2026-11-19: W 103-41 vs McMurry War Hawks. Barometer 49 (steady). <!-- g:401917965 -->

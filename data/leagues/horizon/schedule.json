@@ -2617,21 +2617,21 @@
     "key": null,
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
-    "score": 48,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "2473",
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 54,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:41 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928812",
@@ -10631,5 +10631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:47:00+00:00"
+ "live_at": "2026-11-19T04:19:21+00:00"
 }

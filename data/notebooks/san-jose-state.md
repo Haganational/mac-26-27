@@ -27,9 +27,9 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 - 2026-11-16: W 80-68 vs Alabama State Hornets. Barometer 52 (steady). <!-- g:401911472 -->
 - 2026-11-16: Social recap posted (W 80-68 vs Alabama State Hornets): https://hardwoodbricks.com/mw/games/401911472.html <!-- post:401911472:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:preview -->
+- 2026-11-19: W 92-86 vs Fresno State Bulldogs. Barometer 58 (steady). <!-- g:401911473 -->

@@ -27,9 +27,9 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**34 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Isaiah editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Isaiah editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 - 2026-11-16: W 88-64 vs Stillman Tigers. Barometer 40 (testy). <!-- g:401925718 -->
 - 2026-11-16: Social recap posted (W 88-64 vs Stillman Tigers): https://hardwoodbricks.com/swac/games/401925718.html <!-- post:401925718:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401909494.html <!-- post:401909494:preview -->
+- 2026-11-19: L 65-88 at Creighton Bluejays. Barometer 34 (testy). <!-- g:401909494 -->

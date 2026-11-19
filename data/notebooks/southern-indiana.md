@@ -68,7 +68,7 @@ Clint Mattingly edits The Evansville Lantern and is as proud of the Screaming Ea
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Clint Mattingly edits The Evansville Lantern and is as proud of the Screaming Ea
 - 2026-11-15: Social recap posted (L 59-80 vs Western Michigan Broncos): https://hardwoodbricks.com/games/401923393.html <!-- post:401923393:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ovc/games/401923394.html <!-- post:401923394:preview -->
 - 2026-11-19: W 87-81 vs Lindsey Wilson Blue Raiders. Barometer 44 (testy). <!-- g:401923394 -->
+- 2026-11-19: Social recap posted (W 87-81 vs Lindsey Wilson Blue Raiders): https://hardwoodbricks.com/ovc/games/401923394.html <!-- post:401923394:recap -->

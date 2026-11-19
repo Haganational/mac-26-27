@@ -27,9 +27,9 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 
 ## Barometer
 
-**14 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
+**12 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -62,3 +62,4 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 - 2026-11-16: L 57-117 at Maryland Terrapins. Barometer 14 (despondent). <!-- g:401916298 -->
 - 2026-11-17: Social recap posted (L 57-117 vs Maryland Terrapins): https://hardwoodbricks.com/swac/games/401916298.html <!-- post:401916298:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401921816.html <!-- post:401921816:preview -->
+- 2026-11-19: L 41-102 at Missouri Tigers. Barometer 12 (despondent). <!-- g:401921816 -->

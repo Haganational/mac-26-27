@@ -67,7 +67,7 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 - 2026-11-16: Social recap posted (L 46-122 vs USC Trojans): https://hardwoodbricks.com/swac/games/401926772.html <!-- post:401926772:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:preview -->
 - 2026-11-19: L 69-100 at Arkansas State Red Wolves. Barometer 10 (despondent). <!-- g:401928398 -->
+- 2026-11-19: Social recap posted (L 69-100 vs Arkansas State Red Wolves): https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:recap -->

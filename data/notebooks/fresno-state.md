@@ -27,9 +27,9 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 
 ## Barometer
 
-**61 of 100, steady.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vic editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vic editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 - 2026-11-14: W 89-80 vs UC Riverside Highlanders. Barometer 61 (steady). <!-- g:401926777 -->
 - 2026-11-15: Social recap posted (W 89-80 vs UC Riverside Highlanders): https://hardwoodbricks.com/bigwest/games/401926777.html <!-- post:401926777:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:preview -->
+- 2026-11-19: L 86-92 at San José State Spartans. Barometer 52 (steady). <!-- g:401911473 -->
