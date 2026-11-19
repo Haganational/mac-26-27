@@ -585,7 +585,7 @@ def shared() -> Book:
 
 def backfill(season: int | None = None, limit: int = 200, workers: int = 4) -> dict[str, int]:
     """Games the book stored before scoring plays were kept get one more summary call, newest first,
-    `limit` per run, so the backlog clears in a few collector runs and then this costs nothing."""
+    `limit` per run (500 in the 3-a-day D-I refresh), so the backlog clears in a day and then this costs nothing."""
     from concurrent.futures import ThreadPoolExecutor
 
     import requests
