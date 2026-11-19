@@ -138,12 +138,12 @@ def test_page_renders_with_a_card_and_without(tmp_path):
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
     kw = dict(eds=[], names="", base="https://x.com/", season="2026-27", noindex=True, today_label="Thursday", built="now", n_conf=27)
     html = env.get_template("tops.html").render(**kw, **tops.page_context(LOCK, tmp_path))
-    assert "Tops and Bottoms" in html and "The first card" in html and "1-800-GAMBLER" in html
+    assert "Tops and Bottoms" in html and "The first card" in html and "1-800-GAMBLER" in html and "fictional AI" not in html
     d = tmp_path / "lg"
     _write_day(d, [_sg("1", "1", "2"), _sg("2", "3", "4")], [_pr("1", -5.0, -12.0, 140, 131), _pr("2", 4.5, 4.0, 150, 158)])
     tops.lock(LOCK, tmp_path, [d], scoring={})
     html = env.get_template("tops.html").render(**kw, **tops.page_context(LOCK, tmp_path))
-    assert "Today's card" in html and "Team 3 +4.5" in html and "fictional AI" in html
+    assert "Today's card" in html and "Team 3 +4.5" in html
     assert tops.teaser(LOCK, tmp_path)["text"]
 
 
