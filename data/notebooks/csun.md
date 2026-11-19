@@ -66,7 +66,7 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:preview -->
 - 2026-11-18: L 74-84 at Troy Trojans. Barometer 40 (testy). <!-- g:401920297 -->
 - 2026-11-18: Social recap posted (L 74-84 vs Troy Trojans): https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920298.html <!-- post:401920298:preview -->

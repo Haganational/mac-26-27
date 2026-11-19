@@ -67,7 +67,7 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -79,3 +79,4 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401911020.html <!-- post:401911020:preview -->
 - 2026-11-18: W 83-79 at Massachusetts Minutemen. Barometer 39 (testy). <!-- g:401911020 -->
 - 2026-11-18: Social recap posted (W 83-79 vs Massachusetts Minutemen): https://hardwoodbricks.com/games/401911020.html <!-- post:401911020:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/americaeast/games/401929460.html <!-- post:401929460:preview -->
