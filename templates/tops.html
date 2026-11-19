@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tops and Bottoms · Hardwood Bricks</title>
+<meta name="description" content="Tops and Bottoms from JuiceBox Nation: four fictional handicappers, four fixed rules, picks in at 8:15 AM Eastern and a ledger that keeps every unit. Entertainment only.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}tops.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="Tops and Bottoms: the JuiceBox wagering board">
+<meta property="og:description" content="{% if card %}{{ card.column.head }} {% endif %}Merv, Leslie, Brett and the Shark. Picks in at 8:15 AM Eastern.">
+<meta property="og:url" content="{{ base }}tops.html">
+<meta property="og:image" content="{{ base }}static/art/tops/set.webp">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  /* JuiceBox on the bricks: the house paper and type, with the JuiceBox stripe and set as the guest's colors */
+  .tb { max-width: 1100px; --jb: linear-gradient(90deg, #d4146f, #e8731c 38%, #f0c75e 55%, #1f8a7a 78%, #2f5d8a); }
+  .tb-hero { position: relative; margin: 18px 0 0; color: #fff7ea; background: #120c08; overflow: hidden; min-height: 300px; display: grid; align-items: end; }
+  .tb-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 6%; opacity: .6; }
+  .tb-hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 6px; background: var(--jb); }
+  .tb-hero > div { position: relative; z-index: 1; padding: 26px 24px 30px; background: linear-gradient(transparent, rgba(14,9,6,.92) 42%); }
+  .tb-pres { font: 700 12.5px/1.2 var(--cond); letter-spacing: .18em; text-transform: uppercase; color: #f0c75e; margin: 0; }
+  .tb h1 { font: 600 clamp(40px, 6.4vw, 72px)/1 var(--serif); letter-spacing: -.025em; margin: 6px 0 10px; }
+  .tb-hero p.dek { font: 400 19px/1.45 var(--serif); color: #eadfcd; max-width: 60ch; margin: 0; }
+  .tb-lock { display: inline-block; margin-top: 14px; font: 700 13px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; padding: 9px 12px; border: 1px solid rgba(255,247,234,.45); }
+  .tb section { border-top: 3px solid var(--rule-2); padding-top: 12px; margin: 38px 0 0; }
+  .tb h2 { font: 600 28px/1.1 var(--serif); letter-spacing: -.01em; margin: 0 0 6px; }
+  .tb .sub { font: 400 16px/1.5 var(--serif); color: var(--ink-2); margin: 0 0 14px; max-width: 66ch; }
+  .k { font: 600 12px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+  /* The four, as a ledger */
+  .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+  .cap { background: var(--surface); border: 1px solid var(--rule); border-top: 5px solid var(--c); display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 12px 14px; padding: 14px; }
+  .cap .face { width: 88px; height: 88px; overflow: hidden; background: var(--c); }
+  .cap .face img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .cap h3 { margin: 0; font: 600 20px/1.15 var(--serif); }
+  .cap .t { font: 600 12px/1.3 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--c); margin-top: 3px; }
+  .cap .lean { grid-column: 1 / -1; margin: 0; font: italic 400 15px/1.45 var(--serif); color: var(--ink-2); }
+  .cap .nums { grid-column: 1 / -1; display: flex; gap: 0; border-top: 1px solid var(--rule); padding-top: 10px; }
+  .cap .nums div { flex: 1; min-width: 0; }
+  .cap .nums b { display: block; font: 600 22px/1.1 var(--serif); font-variant-numeric: tabular-nums; }
+  .cap .nums b.up { color: #1b8a52; } .cap .nums b.down { color: #b23a2a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cap .nums b.up { color: #5fd18f; } :root:not([data-theme="light"]) .cap .nums b.down { color: #ff7a66; } }
+  :root[data-theme="dark"] .cap .nums b.up { color: #5fd18f; } :root[data-theme="dark"] .cap .nums b.down { color: #ff7a66; }
+  .rank { font: 700 12px/1 var(--cond); letter-spacing: .1em; color: var(--muted); }
+
+  /* Today's card */
+  .card { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 28px; }
+  .who { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid var(--c); padding: 14px 0 8px; }
+  .who img { width: 34px; height: 34px; object-fit: cover; object-position: top; border-radius: 50%; }
+  .who b { font: 600 18px/1.1 var(--serif); }
+  .pk { border-bottom: 1px solid var(--rule); padding: 10px 0 11px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; }
+  .pk .lbl { font: 600 18px/1.25 var(--serif); }
+  .pk .m { font-size: 13.5px; color: var(--muted); grid-column: 1; }
+  .pk .why { grid-column: 1 / -1; font: italic 400 15px/1.45 var(--serif); color: var(--ink-2); margin: 4px 0 0; }
+  .res { grid-row: 1; grid-column: 2; align-self: start; font: 700 12px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; padding: 6px 8px; border: 1px solid var(--rule-2); color: var(--muted); white-space: nowrap; }
+  .res.win { background: #1b8a52; border-color: #1b8a52; color: #fff; }
+  .res.loss { background: #b23a2a; border-color: #b23a2a; color: #fff; }
+  .pass { font: italic 400 15px/1.45 var(--serif); color: var(--muted); padding: 10px 0; margin: 0; }
+
+  /* The column */
+  .col { max-width: 70ch; }
+  .col h3 { font: 600 clamp(26px, 3.4vw, 36px)/1.1 var(--serif); letter-spacing: -.015em; margin: 4px 0 10px; }
+  .by { display: flex; align-items: center; gap: 10px; font: 600 13px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  .by img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; object-position: top; }
+  .col p { font: 400 18px/1.6 var(--serif); margin: 0 0 14px; }
+  .col p.line b { font-family: var(--cond); letter-spacing: .06em; text-transform: uppercase; font-size: 15px; color: var(--c); margin-right: 4px; }
+  .col p.close { font-style: italic; color: var(--ink-2); }
+
+  /* Recent nights */
+  .nights { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  .nights th, .nights td { text-align: left; padding: 9px 10px 9px 0; border-bottom: 1px solid var(--rule); font-size: 15px; }
+  .nights th { font: 600 12px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .nights td small { color: var(--muted); }
+  .scroll { overflow-x: auto; }
+  .fine { margin-top: 34px; padding: 14px 16px; border: 1px solid var(--rule); background: var(--surface); font-size: 14px; color: var(--ink-2); max-width: 78ch; }
+  .fine p { margin: 0 0 8px; } .fine p:last-child { margin: 0; }
+  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0 28px; }
+  .rules div { border-top: 1px solid var(--rule); padding: 10px 0 12px; font-size: 15px; color: var(--ink-2); }
+  .rules b { display: block; font: 600 17px/1.2 var(--serif); color: var(--ink); margin-bottom: 3px; }
+  @media (max-width: 520px) { .tb-hero > div { padding: 20px 16px 24px; } .cap { grid-template-columns: 72px minmax(0, 1fr); } .cap .face { width: 72px; height: 72px; } }
+</style>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "tops.html") }}
+<div class="bricks" aria-hidden="true"></div>
+<main class="tb">
+  <div class="dateline"><span>{{ today_label }}</span><span class="tag">A JuiceBox Nation property, on the bricks</span><span>{{ season }}</span></div>
+
+  <header class="tb-hero">
+    <img src="static/art/tops/set.webp" alt="" width="1079" height="1148">
+    <div>
+      <p class="tb-pres">JuiceBox Nation presents</p>
+      <h1>Tops and Bottoms</h1>
+      <p class="dek">The daily wagering board, part ledger and part column. Four handicappers, four fixed rules, one lock every morning, and every unit kept.</p>
+      {% if is_today %}<span class="tb-lock">Picks locked {{ lock_label }} · {{ card_label }}</span>
+      {% else %}<span class="tb-lock">Today's picks land at {{ lock_label }}</span>{% endif %}
+    </div>
+  </header>
+
+  <section aria-labelledby="h-ledger">
+    <h2 id="h-ledger">The ledger</h2>
+    <p class="sub">Season to date. Every pick is one unit at -110: a win pays 0.91, a loss costs 1.</p>
+    <div class="four">
+      {% for r in ledger %}<article class="cap" style="--c: {{ r.color }}">
+        <div class="face"><img src="static/art/tops/{{ r.key }}.webp" alt="{{ r.name }}, fictional AI handicapper" width="88" height="88" loading="lazy"></div>
+        <div><span class="rank">No. {{ r.rank }}</span><h3>{{ r.name }}</h3><div class="t">{{ r.title }}</div></div>
+        <p class="lean">{{ r.lean }}</p>
+        <div class="nums">
+          <div><span class="k">Record</span><b>{{ r.record }}</b></div>
+          <div><span class="k">Units</span><b class="{{ 'up' if r.units > 0 else 'down' if r.units < 0 }}">{{ '%+.2f'|format(r.units) }}</b></div>
+          <div><span class="k">{% if r.streak %}Streak{% else %}ROI{% endif %}</span><b>{% if r.streak %}{{ r.streak }}{% elif r.roi is not none %}{{ '%+.1f'|format(r.roi) }}%{% else %}·{% endif %}</b></div>
+        </div>
+      </article>{% endfor %}
+    </div>
+  </section>
+
+  {% if card %}
+  <section aria-labelledby="h-card">
+    <h2 id="h-card">{% if is_today %}Today's card{% else %}The last card{% endif %}</h2>
+    <p class="sub">{{ card_label }}. {{ card.board }} game{{ '' if card.board == 1 else 's' }} on the board at the lock.{% if not is_today %} Today's picks land at {{ lock_label }}.{% endif %}</p>
+    <div class="card">
+      {% for c in cappers %}{% set ps = card.picks.get(c.key) or [] %}<div style="--c: {{ c.color }}">
+        <div class="who"><img src="static/art/tops/{{ c.key }}.webp" alt="" width="34" height="34" loading="lazy"><b>{{ c.name }}</b></div>
+        {% for p in ps %}<div class="pk">
+          <span class="lbl">{{ p.label }}</span>
+          <span class="res {{ p.result or '' }}">{% if p.result %}{{ p.result }}{% if p.final %} · {{ p.final }}{% endif %}{% else %}{{ p.tip_et }} ET{% endif %}</span>
+          <span class="m">{{ p.matchup }}</span>
+          <p class="why">{{ p.why }}</p>
+        </div>{% else %}<p class="pass">No play. The rule found nothing on the board.</p>{% endfor %}
+      </div>{% endfor %}
+    </div>
+  </section>
+
+  <section aria-labelledby="h-col" class="col">
+    <span class="k">The column</span>
+    <h3 id="h-col">{{ card.column.head }}</h3>
+    {% set w = by_key[card.column.byline] %}<div class="by"><img src="static/art/tops/{{ w.key }}.webp" alt="" width="40" height="40" loading="lazy"><span>By {{ card.column.by }}</span></div>
+    {% for p in card.column.paras %}<p>{{ p }}</p>{% endfor %}
+    {% for l in card.column.lines %}<p class="line" style="--c: {{ by_key[l.key].color }}"><b>{{ l.who }}:</b> {{ l.text }}</p>{% endfor %}
+    <p class="close">{{ card.column.close }}</p>
+  </section>
+  {% else %}
+  <section><h2>The first card</h2><p class="sub">The board opens at {{ lock_label }}. Merv, Leslie, Brett and the Shark are sharpening pencils, combing pompadours and making phone calls.</p></section>
+  {% endif %}
+
+  {% if recent %}
+  <section aria-labelledby="h-nights">
+    <h2 id="h-nights">Recent nights</h2>
+    <div class="scroll"><table class="nights">
+      <thead><tr><th>Night</th>{% for c in cappers %}<th>{{ c.first }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for n in recent %}{% set by = {} %}{% for r in n.rows %}{% set _ = by.update({r.key: r}) %}{% endfor %}<tr>
+        <td>{{ n.label }}</td>
+        {% for c in cappers %}{% set r = by.get(c.key) %}<td>{% if r and (r.w + r.l + r.p) %}{{ r.record }} <small>{{ '%+.2f'|format(r.units) }}</small>{% elif r and r.pending %}<small>pending</small>{% else %}<small>no play</small>{% endif %}</td>{% endfor %}
+      </tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+  {% endif %}
+
+  <section aria-labelledby="h-rules">
+    <h2 id="h-rules">House rules</h2>
+    <div class="rules">
+      <div><b>Merv Crutch</b>One under where the model sits furthest below the total, plus the team with the night's third-lowest points allowed per game, against the spread.</div>
+      <div><b>Leslie Phyllis</b>One over where the model sits furthest above the total, plus the night's second-highest scoring team, against the spread.</div>
+      <div><b>Brett Busberger</b>The two games where our model sits furthest from the spread, on the model's side.</div>
+      <div><b>The Shark</b>One home dog getting 3 to 10 points, and that game's total on inside information that has nothing to do with the game.</div>
+    </div>
+    <div class="fine">
+      <p>{{ disclosure }}</p>
+      <p>The board is every game our {{ n_conf }} editions cover with a posted spread and total at the lock. Lines are the market consensus our odds screen records; points per game count D-I games only.</p>
+      <p>{{ helpline }} 21+ where legal.</p>
+    </div>
+  </section>
+</main>
+<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="https://juiceboxnation.com/">JuiceBox Nation</a> · <a href="masthead.html">Masthead and standards</a> · Built {{ built }} UTC.</footer>
+</body>
+</html>

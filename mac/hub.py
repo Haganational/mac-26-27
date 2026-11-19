@@ -426,10 +426,11 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         e["color"] = CONF_COLORS.get(e["key"], "#a8441c")
     den_data(site_root, now)  # site/den/*.json first, so the page and the front-page line read tonight's games
     den = den_page(env, site_root, eds, names, base, now)
+    tb = tops_page(env, site_root, eds, names, base, now)
     night = game_night(eds, now)
     if night:  # game night: tonight's games take the main column; last night's recaps move to the rail
         lead, cards = None, []
-    html = env.get_template("hub.html").render(den=den, weave=weave_billing(now), night=night,
+    html = env.get_template("hub.html").render(den=den, tb=tb, weave=weave_billing(now), night=night,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         lead=lead, cards=cards, river=[x for x in recaps if x is not lead and x not in cards][:8], home=home, tops=tops,
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,
@@ -562,6 +563,25 @@ def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names
     (site_root / "embed").mkdir(exist_ok=True)
     (site_root / "embed" / "den.html").write_text(env.get_template("embed_den.html").render(base=base))
     return den_teaser(site_root, now)
+
+
+def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
+    """Tops and Bottoms (/tops.html, mac.tops): grade what's final, lock today's card at 8:15 AM ET, render the page.
+    Fenced like the Den: a failure prints a line and the front page carries on. Returns the front page's rail line."""
+    from . import tops
+    try:
+        print("tops:", tops.run(now))
+    except Exception as e:
+        print("tops: picks skipped,", repr(e))
+    try:
+        (site_root / "tops.html").write_text(env.get_template("tops.html").render(
+            eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+            today_label=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
+            built=now.isoformat(timespec="minutes"), **tops.page_context(now)))
+        return tops.teaser(now)
+    except Exception as e:
+        print("tops: page skipped,", repr(e))
+        return None
 
 
 def media_samples(media: dict[str, Any], sts: list[dict[str, Any]]) -> list[dict[str, Any]]:
