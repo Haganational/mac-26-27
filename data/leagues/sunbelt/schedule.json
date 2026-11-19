@@ -2928,21 +2928,21 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 94,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "2029",
     "key": null,
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": 63,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917982",
@@ -3018,7 +3018,7 @@
     "key": null,
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": 16,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -3026,13 +3026,13 @@
     "key": "louisiana",
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": 9,
+    "score": 14,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:13 - 1st"
+   "detail": "8:18 - 1st"
   },
   {
    "game_id": "401928388",
@@ -12617,5 +12617,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:21:02+00:00"
+ "live_at": "2026-11-19T03:35:42+00:00"
 }

@@ -2462,7 +2462,7 @@
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
     "score": 100,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2029",
@@ -2470,12 +2470,12 @@
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
     "score": 69,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929420",
@@ -2551,7 +2551,7 @@
     "key": null,
     "name": "Missouri Tigers",
     "abbr": "MIZ",
-    "score": 57,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -2559,13 +2559,13 @@
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 20,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:29 - 2nd"
+   "detail": "10:06 - 2nd"
   },
   {
    "game_id": "401909494",
@@ -2596,7 +2596,7 @@
     "key": null,
     "name": "Creighton Bluejays",
     "abbr": "CREI",
-    "score": 45,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2604,13 +2604,13 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 36,
+    "score": 42,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:35 - 2nd"
+   "detail": "11:10 - 2nd"
   },
   {
    "game_id": "401929146",
@@ -2641,7 +2641,7 @@
     "key": null,
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 28,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2649,13 +2649,13 @@
     "key": "texas-southern",
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": 12,
+    "score": 17,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:18 - 1st"
+   "detail": "5:04 - 1st"
   },
   {
    "game_id": "401928388",
@@ -10924,5 +10924,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:27:32+00:00"
+ "live_at": "2026-11-19T03:41:46+00:00"
 }

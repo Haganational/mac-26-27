@@ -68,7 +68,7 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -79,3 +79,4 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 - 2026-11-13: L 61-75 at West Virginia Mountaineers. Barometer 42 (testy). <!-- g:401921768 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:preview -->
 - 2026-11-19: L 84-88 at Presbyterian Blue Hose. Barometer 38 (testy). <!-- g:401928347 -->
+- 2026-11-19: Social recap posted (L 84-88 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:recap -->

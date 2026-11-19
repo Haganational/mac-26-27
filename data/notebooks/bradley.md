@@ -70,7 +70,7 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 - 2026-11-14: Social recap posted (W 62-61 vs George Mason Patriots): https://hardwoodbricks.com/mvc/games/401920074.html <!-- post:401920074:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:preview -->
 - 2026-11-19: L 73-78 vs Purdue Fort Wayne Mastodons. Barometer 48 (steady). <!-- g:401927357 -->
+- 2026-11-19: Social recap posted (L 73-78 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:recap -->

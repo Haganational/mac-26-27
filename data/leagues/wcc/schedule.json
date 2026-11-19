@@ -1981,7 +1981,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": 41,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -1989,13 +1989,13 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 47,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:58 - 2nd"
+   "detail": "9:24 - 2nd"
   },
   {
    "game_id": "401917535",
@@ -2037,10 +2037,10 @@
     "score": 22,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "0:30 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921064",
@@ -2071,7 +2071,7 @@
     "key": "san-francisco",
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": 15,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2079,13 +2079,13 @@
     "key": null,
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": 9,
+    "score": 14,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:22 - 1st"
+   "detail": "8:18 - 1st"
   },
   {
    "game_id": "401928354",
@@ -9626,5 +9626,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:20:08+00:00"
+ "live_at": "2026-11-19T03:34:49+00:00"
 }

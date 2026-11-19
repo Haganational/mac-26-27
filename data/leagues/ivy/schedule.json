@@ -1847,20 +1847,20 @@
     "name": "Harvard Crimson",
     "abbr": "HARV",
     "score": 69,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "103",
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 73,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920357",
@@ -7278,5 +7278,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:21:40+00:00"
+ "live_at": "2026-11-19T03:36:18+00:00"
 }

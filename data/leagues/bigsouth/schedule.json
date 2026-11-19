@@ -1630,21 +1630,21 @@
     "key": "usc-upstate",
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": 61,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
    "away": {
     "espn_id": "2535",
     "key": null,
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 68,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922292",
@@ -8912,5 +8912,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T03:25:12+00:00"
+ "live_at": "2026-11-19T03:39:33+00:00"
 }

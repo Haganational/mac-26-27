@@ -69,7 +69,7 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 - 2026-11-15: Social recap posted (W 86-74 vs Eastern Illinois Panthers): https://hardwoodbricks.com/horizon/games/401926068.html <!-- post:401926068:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:preview -->
 - 2026-11-19: W 78-73 at Bradley Braves. Barometer 58 (steady). <!-- g:401927357 -->
+- 2026-11-19: Social recap posted (W 78-73 vs Bradley Braves): https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:recap -->

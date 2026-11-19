@@ -65,7 +65,7 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 - 2026-11-14: L 58-74 at Oklahoma Sooners. Barometer 44 (testy). <!-- g:401906804 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:preview -->
 - 2026-11-19: W 78-66 vs NJIT Highlanders. Barometer 53 (steady). <!-- g:401919760 -->
+- 2026-11-19: Social recap posted (W 78-66 vs NJIT Highlanders): https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:recap -->

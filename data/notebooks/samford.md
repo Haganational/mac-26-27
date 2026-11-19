@@ -27,9 +27,9 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-2 (0-0 in conference), streak L2, last five WLL.
+**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 - 2026-11-14: L 66-90 vs Wright State Raiders. Barometer 40 (testy). <!-- g:401926117 -->
 - 2026-11-14: Social recap posted (L 66-90 vs Wright State Raiders): https://hardwoodbricks.com/horizon/games/401926117.html <!-- post:401926117:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922283.html <!-- post:401922283:preview -->
+- 2026-11-18: W 74-64 at South Carolina Upstate Spartans. Barometer 50 (steady). <!-- g:401922283 -->

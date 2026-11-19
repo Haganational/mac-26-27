@@ -71,7 +71,7 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -81,3 +81,4 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 - 2026-11-14: W 104-59 vs Plattsburgh Cardinals. Barometer 57 (steady). <!-- g:401920693 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:preview -->
 - 2026-11-19: L 74-76 at Yale Bulldogs. Barometer 49 (steady). <!-- g:401920694 -->
+- 2026-11-19: Social recap posted (L 74-76 vs Yale Bulldogs): https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:recap -->

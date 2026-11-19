@@ -27,9 +27,9 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**59 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-11: L 65-82 vs UT Martin Skyhawks. Barometer 37 (testy). <!-- g:401926731 -->
 - 2026-11-15: W 99-65 vs Dillard Blue Devils. Barometer 50 (steady). <!-- g:401929444 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:preview -->
+- 2026-11-19: W 100-69 vs Arkansas-Pine Bluff Golden Lions. Barometer 59 (steady). <!-- g:401928398 -->

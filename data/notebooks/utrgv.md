@@ -66,7 +66,7 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -76,3 +76,4 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 - 2026-11-15: L 77-85 at UT Arlington Mavericks. Barometer 46 (steady). <!-- g:401925108 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/southland/games/401925109.html <!-- post:401925109:preview -->
 - 2026-11-19: W 98-40 vs College of Biblical Studies Ambassadors. Barometer 56 (steady). <!-- g:401925109 -->
+- 2026-11-19: Social recap posted (W 98-40 vs College of Biblical Studies Ambassadors): https://hardwoodbricks.com/southland/games/401925109.html <!-- post:401925109:recap -->

@@ -68,7 +68,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,4 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 - 2026-11-15: Social recap posted (W 103-58 vs Emmanuel (MA) Lions): https://hardwoodbricks.com/ivy/games/401924744.html <!-- post:401924744:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:preview -->
 - 2026-11-19: W 76-74 vs Vermont Catamounts. Barometer 53 (steady). <!-- g:401920694 -->
+- 2026-11-19: Social recap posted (W 76-74 vs Vermont Catamounts): https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:recap -->
