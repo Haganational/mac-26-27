@@ -27,9 +27,9 @@ Toya Barnes edits The Durham Courant and roots openly for NC Central, with a rai
 
 ## Barometer
 
-**42 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**35 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Toya editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Toya editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Toya Barnes edits The Durham Courant and roots openly for NC Central, with a rai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Toya Barnes edits The Durham Courant and roots openly for NC Central, with a rai
 - 2026-11-17: W 117-71 vs Virginia Lynchburg Dragons. Barometer 42 (testy). <!-- g:401927352 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401920075.html <!-- post:401920075:preview -->
 - 2026-11-17: Social recap posted (W 117-71 vs Virginia Lynchburg Dragons): https://hardwoodbricks.com/meac/games/401927352.html <!-- post:401927352:recap -->
+- 2026-11-19: L 60-83 at George Mason Patriots. Barometer 35 (testy). <!-- g:401920075 -->
+- 2026-11-19: Social recap posted (L 60-83 vs George Mason Patriots): https://hardwoodbricks.com/a10/games/401920075.html <!-- post:401920075:recap -->

@@ -1981,7 +1981,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1989,13 +1989,13 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:21 - 1st"
   },
   {
    "game_id": "401917535",
@@ -9625,5 +9625,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T02:14:43+00:00"
 }

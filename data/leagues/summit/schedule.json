@@ -1990,7 +1990,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": 4,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -1998,13 +1998,13 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": 2,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:39 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401929176",
@@ -2035,7 +2035,7 @@
     "key": null,
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2043,13 +2043,13 @@
     "key": "north-dakota-state",
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:24 - 1st"
   },
   {
    "game_id": "401929409",
@@ -7944,5 +7944,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:42:41+00:00"
+ "live_at": "2026-11-19T02:18:41+00:00"
 }

@@ -27,9 +27,9 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 
 ## Barometer
 
-**38 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**48 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 - 2026-11-15: L 74-79 at Siena Saints. Barometer 38 (testy). <!-- g:401911308 -->
 - 2026-11-15: Social recap posted (L 74-79 vs Siena Saints): https://hardwoodbricks.com/metro/games/401911308.html <!-- post:401911308:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401911309.html <!-- post:401911309:preview -->
+- 2026-11-19: W 74-63 at Holy Cross Crusaders. Barometer 48 (steady). <!-- g:401911309 -->
+- 2026-11-19: Social recap posted (W 74-63 vs Holy Cross Crusaders): https://hardwoodbricks.com/ivy/games/401911309.html <!-- post:401911309:recap -->

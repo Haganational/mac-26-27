@@ -27,9 +27,9 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 
 ## Barometer
 
-**54 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**61 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dominique editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dominique editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 - 2026-11-11: L 67-72 at East Carolina Pirates. Barometer 43 (testy). <!-- g:401918978 -->
 - 2026-11-14: W 104-76 vs Cheyney (PA) Wolves. Barometer 54 (steady). <!-- g:401921155 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:preview -->
+- 2026-11-19: W 82-70 vs Morgan State Bears. Barometer 61 (steady). <!-- g:401921156 -->

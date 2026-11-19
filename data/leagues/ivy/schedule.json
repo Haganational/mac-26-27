@@ -1711,21 +1711,21 @@
     "key": null,
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": 52,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
    "away": {
     "espn_id": "225",
     "key": "brown",
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 50,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920694",
@@ -1756,7 +1756,7 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 50,
+    "score": 73,
     "winner": null
    },
    "away": {
@@ -1764,13 +1764,13 @@
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 47,
+    "score": 74,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:47 - 2nd"
+   "detail": "0:04 - OT"
   },
   {
    "game_id": "401924721",
@@ -1801,7 +1801,7 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": 30,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -1809,13 +1809,13 @@
     "key": "cornell",
     "name": "Cornell Big Red",
     "abbr": "COR",
-    "score": 28,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:18 - 1st"
+   "detail": "16:07 - 2nd"
   },
   {
    "game_id": "401909555",
@@ -1846,7 +1846,7 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 8,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -1854,13 +1854,13 @@
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 19,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:03 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401920357",
@@ -7278,5 +7278,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:39:49+00:00"
+ "live_at": "2026-11-19T02:16:10+00:00"
 }

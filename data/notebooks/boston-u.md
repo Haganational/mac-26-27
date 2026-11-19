@@ -27,9 +27,9 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**71 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,5 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ivy/games/401920235.html <!-- post:401920235:preview -->
 - 2026-11-15: Social recap posted (W 90-75 vs Dartmouth Big Green): https://hardwoodbricks.com/ivy/games/401920235.html <!-- post:401920235:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:preview -->
+- 2026-11-19: W 65-60 at Merrimack Warriors. Barometer 71 (buoyant). <!-- g:401923401 -->
+- 2026-11-19: Social recap posted (W 65-60 vs Merrimack Warriors): https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:recap -->

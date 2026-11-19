@@ -2067,21 +2067,21 @@
     "key": null,
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 57,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
    "away": {
     "espn_id": "104",
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 61,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:50 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920772",
@@ -2157,21 +2157,21 @@
     "key": "holy-cross",
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": 54,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
    "away": {
     "espn_id": "225",
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 57,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911277",
@@ -2198,21 +2198,21 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 71,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2066",
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 59,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401912211",
@@ -9342,5 +9342,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:44:39+00:00"
+ "live_at": "2026-11-19T02:20:25+00:00"
 }

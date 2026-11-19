@@ -1676,21 +1676,21 @@
     "key": null,
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": 69,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2415",
     "key": "morgan-state",
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": 57,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925782",
@@ -1721,7 +1721,7 @@
     "key": null,
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 50,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -1729,13 +1729,13 @@
     "key": "howard",
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": 49,
+    "score": 66,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:33 - 2nd"
+   "detail": "0:19 - 2nd"
   },
   {
    "game_id": "401925632",
@@ -1766,21 +1766,21 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 75,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2154",
     "key": "coppin-state",
     "name": "Coppin State Eagles",
     "abbr": "COPP",
-    "score": 45,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920075",
@@ -1811,21 +1811,21 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 72,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "2428",
     "key": "nc-central",
     "name": "North Carolina Central Eagles",
     "abbr": "NCCU",
-    "score": 53,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925841",
@@ -7491,5 +7491,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:45:33+00:00"
+ "live_at": "2026-11-19T02:21:12+00:00"
 }

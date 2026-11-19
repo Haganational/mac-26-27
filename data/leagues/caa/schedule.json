@@ -2318,21 +2318,21 @@
     "key": null,
     "name": "South Carolina Gamecocks",
     "abbr": "SC",
-    "score": 75,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2210",
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": 63,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921156",
@@ -2359,21 +2359,21 @@
     "key": "nc-at",
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": 66,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2415",
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": 54,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926838",
@@ -2445,7 +2445,7 @@
     "key": null,
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 71,
+    "score": 96,
     "winner": null
    },
    "away": {
@@ -2453,13 +2453,13 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 79,
+    "score": 93,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:35 - 2nd"
+   "detail": "2:50 - OT"
   },
   {
    "game_id": "401906805",
@@ -2490,7 +2490,7 @@
     "key": null,
     "name": "Oklahoma Sooners",
     "abbr": "OU",
-    "score": 30,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2498,13 +2498,13 @@
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": 44,
+    "score": 53,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:29 - 1st"
+   "detail": "15:48 - 2nd"
   },
   {
    "game_id": "401902280",
@@ -11902,5 +11902,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:40:13+00:00"
+ "live_at": "2026-11-19T02:16:31+00:00"
 }

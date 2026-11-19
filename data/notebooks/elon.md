@@ -27,9 +27,9 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-2 (0-0 in conference), streak L2, last five WWLL.
+**36 of 100, testy.** Record 2-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Phoenix editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Phoenix editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 - 2026-11-11: L 50-69 at George Washington Revolutionaries. Barometer 52 (steady). <!-- g:401911209 -->
 - 2026-11-14: L 70-77 vs Chattanooga Mocs. Barometer 44 (testy). <!-- g:401920973 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921141.html <!-- post:401921141:preview -->
+- 2026-11-19: L 72-80 at South Carolina Gamecocks. Barometer 36 (testy). <!-- g:401921141 -->

@@ -27,9 +27,9 @@ Luis Ortega edits The West Haven Beacon and covers the Chargers like a new kid o
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Luis editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Luis editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ Luis Ortega edits The West Haven Beacon and covers the Chargers like a new kid o
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/nec/games/401917175.html <!-- post:401917175:preview -->
 - 2026-11-15: Social recap posted (L 52-86 vs Penn State Nittany Lions): https://hardwoodbricks.com/nec/games/401917175.html <!-- post:401917175:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/nec/games/401929014.html <!-- post:401929014:preview -->
+- 2026-11-19: W 96-50 vs MCLA Mohawks. Barometer 48 (steady). <!-- g:401929014 -->

@@ -1835,7 +1835,7 @@
     "key": "san-jose-state",
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -1843,13 +1843,13 @@
     "key": null,
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:38 - 1st"
   },
   {
    "game_id": "401929004",
@@ -8967,5 +8967,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T02:12:03+00:00"
 }

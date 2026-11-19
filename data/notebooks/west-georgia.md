@@ -27,9 +27,9 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 
 ## Barometer
 
-**19 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**40 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrell editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrell editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -75,3 +75,4 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 - 2026-11-12: L 70-73 vs UNC Asheville Bulldogs. Barometer 26 (despondent). <!-- g:401917901 -->
 - 2026-11-15: L 68-92 at Charleston Southern Buccaneers. Barometer 19 (despondent). <!-- g:401911376 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/uac/games/401917902.html <!-- post:401917902:preview -->
+- 2026-11-19: W 85-50 vs Columbia (SC) Fighting Koalas. Barometer 40 (testy). <!-- g:401917902 -->

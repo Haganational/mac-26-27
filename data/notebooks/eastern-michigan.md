@@ -27,9 +27,9 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 
 ## Barometer
 
-**56 of 100, steady.** Record 2-1 (0-0 in conference), streak W1, last five WLW.
+**64 of 100, steady.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Diane editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Diane editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,5 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 - 2026-11-11: W 108-44 vs Great Lakes Christian Crusaders. Barometer 56 (steady). <!-- g:401920946 -->
 - 2026-11-12: Social recap posted (W 108-44 vs Great Lakes Christian Crusaders): https://hardwoodbricks.com/games/401920946.html <!-- post:401920946:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:preview -->
+- 2026-11-18: W 99-62 vs Detroit Mercy Titans. Barometer 64 (steady). <!-- g:401920947 -->
+- 2026-11-19: Social recap posted (W 99-62 vs Detroit Mercy Titans): https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:recap -->

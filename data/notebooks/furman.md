@@ -27,9 +27,9 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
+**65 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grady editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grady editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 - 2026-11-15: L 62-72 at Belmont Bruins. Barometer 62 (steady). <!-- g:401920760 -->
 - 2026-11-15: Social recap posted (L 62-72 vs Belmont Bruins): https://hardwoodbricks.com/mvc/games/401920760.html <!-- post:401920760:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922055.html <!-- post:401922055:preview -->
+- 2026-11-19: W 78-71 at Radford Highlanders. Barometer 65 (buoyant). <!-- g:401922055 -->

@@ -27,9 +27,9 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**54 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tucker editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tucker editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 - 2026-11-14: L 92-97 at Queens University Royals. Barometer 48 (steady). <!-- g:401922230 -->
 - 2026-11-14: Social recap posted (L 92-97 vs Queens University Royals): https://hardwoodbricks.com/asun/games/401922230.html <!-- post:401922230:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:preview -->
+- 2026-11-19: W 79-77 at Charleston Southern Buccaneers. Barometer 54 (steady). <!-- g:401911377 -->

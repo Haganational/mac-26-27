@@ -27,9 +27,9 @@ Andre Whitfield edits The Roseland Clarion and treats every Cougars game as proo
 
 ## Barometer
 
-**36 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
+**30 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Andre Whitfield edits The Roseland Clarion and treats every Cougars game as proo
 - 2026-11-15: L 49-86 at Loyola Marymount Lions. Barometer 36 (testy). <!-- g:401917531 -->
 - 2026-11-15: Social recap posted (L 49-86 vs Loyola Marymount Lions): https://hardwoodbricks.com/wcc/games/401917531.html <!-- post:401917531:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mvc/games/401919735.html <!-- post:401919735:preview -->
+- 2026-11-19: L 52-60 at UIC Flames. Barometer 30 (testy). <!-- g:401919735 -->

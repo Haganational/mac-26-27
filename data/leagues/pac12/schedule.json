@@ -1553,7 +1553,7 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 30,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -1561,13 +1561,13 @@
     "key": null,
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": 17,
+    "score": 32,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:38 - 1st"
+   "detail": "15:01 - 2nd"
   },
   {
    "game_id": "401929176",
@@ -1598,7 +1598,7 @@
     "key": "colorado-state",
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -1606,13 +1606,13 @@
     "key": null,
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:17 - 1st"
   },
   {
    "game_id": "401911473",
@@ -1643,7 +1643,7 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -1651,13 +1651,13 @@
     "key": "fresno-state",
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:36 - 1st"
   },
   {
    "game_id": "401925949",
@@ -1688,7 +1688,7 @@
     "key": "utah-state",
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -1696,13 +1696,13 @@
     "key": null,
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:55 - 1st"
   },
   {
    "game_id": "401929146",
@@ -8234,5 +8234,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:37:46+00:00"
+ "live_at": "2026-11-19T02:14:23+00:00"
 }

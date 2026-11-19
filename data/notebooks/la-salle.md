@@ -27,9 +27,9 @@ Yvette Moreau grew up in Philadelphia's Germantown, the daughter of a Haitian-bo
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**47 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Yvette editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Yvette editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Yvette Moreau grew up in Philadelphia's Germantown, the daughter of a Haitian-bo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Yvette Moreau grew up in Philadelphia's Germantown, the daughter of a Haitian-bo
 - 2026-11-15: L 71-84 vs Temple Owls. Barometer 34 (testy). <!-- g:401925812 -->
 - 2026-11-15: Social recap posted (L 71-84 vs Temple Owls): https://hardwoodbricks.com/a10/games/401925812.html <!-- post:401925812:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401925632.html <!-- post:401925632:preview -->
+- 2026-11-19: W 88-61 vs Coppin State Eagles. Barometer 47 (steady). <!-- g:401925632 -->
+- 2026-11-19: Social recap posted (W 88-61 vs Coppin State Eagles): https://hardwoodbricks.com/a10/games/401925632.html <!-- post:401925632:recap -->

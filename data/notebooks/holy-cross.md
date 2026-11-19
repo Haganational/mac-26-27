@@ -27,9 +27,9 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 
 ## Barometer
 
-**20 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**16 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Frank editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Frank editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,5 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 - 2026-11-15: L 60-62 vs UAlbany Great Danes. Barometer 20 (despondent). <!-- g:401921287 -->
 - 2026-11-15: Social recap posted (L 60-62 vs UAlbany Great Danes): https://hardwoodbricks.com/americaeast/games/401921287.html <!-- post:401921287:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401911309.html <!-- post:401911309:preview -->
+- 2026-11-19: L 63-74 vs Brown Bears. Barometer 16 (despondent). <!-- g:401911309 -->
+- 2026-11-19: Social recap posted (L 63-74 vs Brown Bears): https://hardwoodbricks.com/ivy/games/401911309.html <!-- post:401911309:recap -->

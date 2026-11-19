@@ -27,9 +27,9 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 
 ## Barometer
 
-**42 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**38 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ainsley editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ainsley editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -74,3 +74,4 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 - 2026-11-10: L 47-70 at Tennessee Volunteers. Barometer 24 (despondent). <!-- g:401906849 -->
 - 2026-11-14: W 102-63 vs Shenandoah Hornets. Barometer 42 (testy). <!-- g:401922054 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922055.html <!-- post:401922055:preview -->
+- 2026-11-19: L 71-78 vs Furman Paladins. Barometer 38 (testy). <!-- g:401922055 -->

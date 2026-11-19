@@ -16,9 +16,9 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-14: W 78-63 vs Coastal Georgia Mariner. Barometer 62 (steady). <!-- g:401923261 -->
 - 2026-11-17: Film: *Owlcatraz (Part I)* (https://youtu.be/EWtQcKFFuto). Our film on the 2013 fight over a private prison company's name on FAU's stadium. Part one of two. <!-- film:EWtQcKFFuto -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:preview -->
+- 2026-11-19: W 86-76 vs Florida Gulf Coast Eagles. Barometer 69 (buoyant). <!-- g:401922212 -->

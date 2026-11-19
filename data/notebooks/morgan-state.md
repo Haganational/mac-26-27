@@ -27,9 +27,9 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-12: L 70-85 at UMBC Retrievers. Barometer 58 (steady). <!-- g:401921086 -->
 - 2026-11-14: W 63-61 vs (neutral) Loyola Maryland Greyhounds. Barometer 62 (steady). <!-- g:401920567 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:preview -->
+- 2026-11-19: L 70-82 at North Carolina A&T Aggies. Barometer 52 (steady). <!-- g:401921156 -->

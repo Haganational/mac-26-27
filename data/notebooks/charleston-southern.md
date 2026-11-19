@@ -27,7 +27,7 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 
 ## Barometer
 
-**53 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**47 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 62% of stories right now.
 
@@ -73,3 +73,4 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-11: L 64-82 at Wake Forest Demon Deacons. Barometer 42 (testy). <!-- g:401909727 -->
 - 2026-11-15: W 92-68 vs West Georgia Wolves. Barometer 53 (steady). <!-- g:401911376 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:preview -->
+- 2026-11-19: L 77-79 vs Wofford Terriers. Barometer 47 (steady). <!-- g:401911377 -->

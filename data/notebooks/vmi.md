@@ -27,9 +27,9 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 
 ## Barometer
 
-**60 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**52 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 - 2026-11-11: W 65-51 vs North Carolina Central Eagles. Barometer 52 (steady). <!-- g:401926202 -->
 - 2026-11-14: W 71-53 vs Mary Baldwin Fighting Squirrels. Barometer 60 (steady). <!-- g:401926203 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:preview -->
+- 2026-11-19: L 76-82 at Longwood Lancers. Barometer 52 (steady). <!-- g:401922047 -->

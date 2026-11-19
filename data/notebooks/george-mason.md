@@ -27,9 +27,9 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 
 ## Barometer
 
-**60 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**67 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Zelda editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Zelda editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/mvc/games/401920074.html <!-- post:401920074:preview -->
 - 2026-11-14: Social recap posted (L 61-62 vs Bradley Braves): https://hardwoodbricks.com/mvc/games/401920074.html <!-- post:401920074:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401920075.html <!-- post:401920075:preview -->
+- 2026-11-19: W 83-60 vs North Carolina Central Eagles. Barometer 67 (buoyant). <!-- g:401920075 -->
+- 2026-11-19: Social recap posted (W 83-60 vs North Carolina Central Eagles): https://hardwoodbricks.com/a10/games/401920075.html <!-- post:401920075:recap -->

@@ -27,9 +27,9 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
+**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-11: W 101-45 vs St. Mary's (MD) Seahawks. Barometer 65 (buoyant). <!-- g:401922045 -->
 - 2026-11-14: L 74-80 at Old Dominion Monarchs. Barometer 55 (steady). <!-- g:401922046 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:preview -->
+- 2026-11-19: W 82-76 vs VMI Keydets. Barometer 60 (steady). <!-- g:401922047 -->

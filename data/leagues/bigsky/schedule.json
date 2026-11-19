@@ -2073,7 +2073,7 @@
     "key": null,
     "name": "BYU Cougars",
     "abbr": "BYU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -2081,13 +2081,13 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:00 - 1st"
   },
   {
    "game_id": "401925949",
@@ -2118,7 +2118,7 @@
     "key": null,
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2126,13 +2126,13 @@
     "key": "weber-state",
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:10 - 1st"
   },
   {
    "game_id": "401911456",
@@ -9685,5 +9685,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T02:17:52+00:00"
 }

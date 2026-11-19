@@ -27,9 +27,9 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 
 ## Barometer
 
-**68 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
+**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sean editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sean editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,5 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 - 2026-11-15: W 79-74 vs Brown Bears. Barometer 68 (buoyant). <!-- g:401911308 -->
 - 2026-11-15: Social recap posted (W 79-74 vs Brown Bears): https://hardwoodbricks.com/metro/games/401911308.html <!-- post:401911308:recap -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401920682.html <!-- post:401920682:preview -->
+- 2026-11-19: L 72-119 at St. John's Red Storm. Barometer 52 (steady). <!-- g:401920682 -->
+- 2026-11-19: Social recap posted (L 72-119 vs St. John's Red Storm): https://hardwoodbricks.com/metro/games/401920682.html <!-- post:401920682:recap -->
