@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T18:21:42+00:00",
+ "fetched_at": "2026-11-19T23:24:24+00:00",
  "season": 2027,
  "games": [
   {
@@ -2731,7 +2731,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-11-20-2026--sports-ncaa-basketball/production/7575746?wsUser=717",
-    "low": 16.0,
+    "low": 22.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Bud Walton Arena",
@@ -3065,51 +3065,6 @@
    "detail": ""
   },
   {
-   "game_id": "401924897",
-   "date": "2026-11-25T05:00Z",
-   "name": "Mississippi Valley State Delta Devils at New Mexico Lobos",
-   "short_name": "MVSU @ UNM",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "MW+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
-   "venue": "The Pit",
-   "venue_city": "Albuquerque",
-   "venue_state": "NM",
-   "home": {
-    "espn_id": "167",
-    "key": null,
-    "name": "New Mexico Lobos",
-    "abbr": "UNM",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2400",
-    "key": "mvsu",
-    "name": "Mississippi Valley State Delta Devils",
-    "abbr": "MVSU",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401929406",
    "date": "2026-11-25T19:00Z",
    "name": "Arkansas-Pine Bluff Golden Lions at South Dakota Coyotes",
@@ -3403,6 +3358,51 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401924897",
+   "date": "2026-11-26T02:00Z",
+   "name": "Mississippi Valley State Delta Devils at New Mexico Lobos",
+   "short_name": "MVSU @ UNM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
+    "low": 13.0,
+    "since": "2026-11-18T23:22:50Z"
+   },
+   "venue": "The Pit",
+   "venue_city": "Albuquerque",
+   "venue_state": "NM",
+   "home": {
+    "espn_id": "167",
+    "key": null,
+    "name": "New Mexico Lobos",
+    "abbr": "UNM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2400",
+    "key": "mvsu",
+    "name": "Mississippi Valley State Delta Devils",
+    "abbr": "MVSU",
     "score": null,
     "winner": null
    },
@@ -3861,7 +3861,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-1-2026--sports-ncaa-basketball/production/7745860?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "McKenzie Arena",
@@ -4086,7 +4086,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-2-2026--sports-ncaa-basketball/production/7400623?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Chaifetz Arena",
@@ -4502,7 +4502,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-humphrey-coliseum-12-7-2026--sports-ncaa-basketball/production/7349719?wsUser=717",
-    "low": 10.0,
+    "low": 5.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Humphrey Coliseum",
@@ -5313,7 +5313,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-humphrey-coliseum-12-15-2026--sports-ncaa-basketball/production/7369252?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Humphrey Coliseum",

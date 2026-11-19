@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T18:03:35+00:00",
+ "fetched_at": "2026-11-19T23:04:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -2520,53 +2520,8 @@
    "detail": ""
   },
   {
-   "game_id": "401924897",
-   "date": "2026-11-25T05:00Z",
-   "name": "Mississippi Valley State Delta Devils at New Mexico Lobos",
-   "short_name": "MVSU @ UNM",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "MW+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
-   "venue": "The Pit",
-   "venue_city": "Albuquerque",
-   "venue_state": "NM",
-   "home": {
-    "espn_id": "167",
-    "key": "new-mexico",
-    "name": "New Mexico Lobos",
-    "abbr": "UNM",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2400",
-    "key": null,
-    "name": "Mississippi Valley State Delta Devils",
-    "abbr": "MVSU",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401911522",
-   "date": "2026-11-26T01:30Z",
+   "date": "2026-11-26T01:00Z",
    "name": "Omaha Mavericks at UC Davis Aggies",
    "short_name": "OMA VS UCD",
    "season_type": "reg",
@@ -2597,6 +2552,51 @@
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401924897",
+   "date": "2026-11-26T02:00Z",
+   "name": "Mississippi Valley State Delta Devils at New Mexico Lobos",
+   "short_name": "MVSU @ UNM",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
+    "low": 13.0,
+    "since": "2026-11-18T23:04:04Z"
+   },
+   "venue": "The Pit",
+   "venue_city": "Albuquerque",
+   "venue_state": "NM",
+   "home": {
+    "espn_id": "167",
+    "key": "new-mexico",
+    "name": "New Mexico Lobos",
+    "abbr": "UNM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2400",
+    "key": null,
+    "name": "Mississippi Valley State Delta Devils",
+    "abbr": "MVSU",
     "score": null,
     "winner": null
    },
@@ -3098,7 +3098,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-1-2026--sports-ncaa-basketball/production/7656410?wsUser=717",
-    "low": 25.0,
+    "low": 28.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -3481,7 +3481,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 32.0,
+    "low": 33.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -3637,7 +3637,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-5-2026--sports-ncaa-basketball/production/7436755?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Global Credit Union Arena",
@@ -4277,7 +4277,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-14-2026--sports-ncaa-basketball/production/7656412?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -4394,7 +4394,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-17-2026--sports-ncaa-basketball/production/7656414?wsUser=717",
-    "low": 20.0,
+    "low": 28.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -4433,7 +4433,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 17.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -5192,7 +5192,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-28-2026--sports-ncaa-basketball/production/7656416?wsUser=717",
-    "low": 27.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -5861,7 +5861,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-1-9-2027--sports-ncaa-basketball/production/7459096?wsUser=717",
-    "low": 33.0,
+    "low": 31.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",

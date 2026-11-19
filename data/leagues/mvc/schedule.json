@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T18:05:51+00:00",
+ "fetched_at": "2026-11-19T23:07:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2186,8 +2186,8 @@
   {
    "game_id": "401918959",
    "date": "2026-11-19T23:00Z",
-   "name": "NC State Wolfpack at Murray State Racers",
-   "short_name": "NCSU VS MUR",
+   "name": "Murray State Racers at NC State Wolfpack",
+   "short_name": "MUR VS NCSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2204,14 +2204,6 @@
    "venue_city": "Nassau",
    "venue_state": "Bahamas",
    "home": {
-    "espn_id": "93",
-    "key": "murray-state",
-    "name": "Murray State Racers",
-    "abbr": "MUR",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "152",
     "key": null,
     "name": "NC State Wolfpack",
@@ -2219,10 +2211,18 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "93",
+    "key": "murray-state",
+    "name": "Murray State Racers",
+    "abbr": "MUR",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:39 - 1st"
   },
   {
    "game_id": "401926814",
@@ -2287,7 +2287,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-state-redbirds-mens-basketball-tickets-cefcu-arena-11-19-2026--sports-ncaa-basketball/production/7683436?wsUser=717",
-    "low": 21.0,
+    "low": 16.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "CEFCU Arena",
@@ -4818,7 +4818,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-12-2026--sports-ncaa-basketball/production/7636970?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Matthew Knight Arena",

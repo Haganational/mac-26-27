@@ -13,7 +13,7 @@
    "school": "UNLV",
    "tag": "AI anchor"
   },
-  "max": 185,
+  "max": 198,
   "picks": [
    {
     "abbr": "UNLV",
@@ -38,6 +38,17 @@
     "worth": 53
    },
    {
+    "abbr": "NCSU",
+    "game_id": "401918959",
+    "kind": "ratings",
+    "short": "NC State",
+    "side": "home",
+    "team_id": "152",
+    "tip": "2026-11-19T23:00Z",
+    "why": "Our ratings 77%, pregame win chance 60%.",
+    "worth": 40
+   },
+   {
     "abbr": "ORE",
     "game_id": "401930884",
     "kind": "ratings",
@@ -47,17 +58,6 @@
     "tip": "2026-11-20T02:00Z",
     "why": "Our ratings 69%, pregame win chance 53%.",
     "worth": 47
-   },
-   {
-    "abbr": "TOL",
-    "game_id": "401928826",
-    "kind": "ratings",
-    "short": "Toledo",
-    "side": "home",
-    "team_id": "2649",
-    "tip": "2026-11-20T00:00Z",
-    "why": "Our ratings 86%, pregame win chance 73%.",
-    "worth": 27
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -337,7 +337,7 @@
    "team_id": "166",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 48
+   "worth": 47
   },
   {
    "abbr": "UTEP",
@@ -373,7 +373,7 @@
    "team_id": "2492",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 54
+   "worth": 55
   },
   {
    "abbr": "UCSB",
@@ -385,7 +385,7 @@
    "team_id": "2540",
    "tip": "2026-11-20T02:00Z",
    "why": "Homer pick.",
-   "worth": 46
+   "worth": 45
   },
   {
    "abbr": "GRAM",
