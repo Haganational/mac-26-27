@@ -27,9 +27,9 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**46 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vanessa editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vanessa editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 - 2026-11-18: L 77-102 vs (neutral) Kansas Jayhawks. Barometer 55 (steady). <!-- g:401909787 -->
 - 2026-11-18: Social recap posted (L 77-102 vs Kansas Jayhawks): https://hardwoodbricks.com/mw/games/401909787.html <!-- post:401909787:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401920516.html <!-- post:401920516:preview -->
+- 2026-11-19: L 71-86 vs (neutral) Auburn Tigers. Barometer 46 (steady). <!-- g:401920516 -->
+- 2026-11-19: Social recap posted (L 71-86 vs Auburn Tigers): https://hardwoodbricks.com/mw/games/401920516.html <!-- post:401920516:recap -->
