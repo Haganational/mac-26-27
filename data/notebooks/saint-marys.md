@@ -69,7 +69,7 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/wcc/games/401917532.html <!-- post:401917532:preview -->
 - 2026-11-17: W 94-78 vs Portland State Vikings. Barometer 69 (buoyant). <!-- g:401917532 -->
 - 2026-11-17: Social recap posted (W 94-78 vs Portland State Vikings): https://hardwoodbricks.com/wcc/games/401917532.html <!-- post:401917532:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:preview -->
