@@ -48,7 +48,7 @@ def refresh_ncaa() -> dict:
     out["pbp"] = pbp.refresh(SEASON)  # MAC games enrichment missed, if any
     try:  # games stored before the book kept scoring plays: a capped catch-up, then nothing
         from . import moments
-        out["moments"] = moments.backfill(SEASON, limit=200)
+        out["moments"] = moments.backfill(SEASON, limit=500)
     except Exception as exc:  # noqa: BLE001 - never fail the run over it
         print(f"moments: skipped ({exc})", file=sys.stderr)
     return out
