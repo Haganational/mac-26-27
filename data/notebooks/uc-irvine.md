@@ -20,7 +20,7 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 ## How they look
 
 - Portrait: anchors/uc-irvine.webp
-- Wears a blue and gold 3/4 zip pullover
+- Wears a blue and gold powdered rococo wig + brocade coat
 - Beaming smile under a towering white powdered rococo wig, in a blue-and-gold brocade coat with a lace jabot and UC IRVINE stitched across the front (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

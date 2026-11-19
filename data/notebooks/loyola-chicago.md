@@ -20,7 +20,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 ## How they look
 
 - Portrait: anchors/loyola-chicago.webp
-- Wears a maroon and gold medieval knight's plate armor
+- Wears a maroon and gold puffer vest over sweater
 - Gray hair and a warm, crinkly smile, in a maroon puffer vest with LOYOLA CHICAGO stitched on the chest, over a gold sweater (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

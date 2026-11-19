@@ -2347,7 +2347,7 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 76,
+    "score": 92,
     "winner": null
    },
    "away": {
@@ -2355,13 +2355,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 40,
+    "score": 53,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:01 - 2nd"
+   "detail": "3:44 - 2nd"
   },
   {
    "game_id": "401917181",
@@ -2392,21 +2392,21 @@
     "key": null,
     "name": "Penn State Nittany Lions",
     "abbr": "PSU",
-    "score": 65,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "85",
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 61,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:27 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909526",
@@ -2437,7 +2437,7 @@
     "key": null,
     "name": "Marquette Golden Eagles",
     "abbr": "MARQ",
-    "score": 41,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2448,10 +2448,10 @@
     "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928829",
@@ -2482,7 +2482,7 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 37,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -2490,13 +2490,13 @@
     "key": null,
     "name": "Malone Pioneers",
     "abbr": "MLN",
-    "score": 21,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:55 - 2nd"
   },
   {
    "game_id": "401920751",
@@ -2527,7 +2527,7 @@
     "key": null,
     "name": "Cincinnati Bearcats",
     "abbr": "CIN",
-    "score": 39,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2535,13 +2535,13 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 19,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:29 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927357",
@@ -2572,7 +2572,7 @@
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 11,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2580,13 +2580,13 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 6,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:10 - 1st"
+   "detail": "5:39 - 1st"
   },
   {
    "game_id": "401921734",
@@ -10631,5 +10631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:15:05+00:00"
+ "live_at": "2026-11-19T01:34:34+00:00"
 }

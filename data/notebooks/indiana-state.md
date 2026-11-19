@@ -20,7 +20,7 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 ## How they look
 
 - Portrait: anchors/indiana-state.webp
-- Wears a royal blue and white 1970s rhinestone elvis jumpsuit
+- Wears a royal blue and white track jacket
 - Royal-blue Indiana State track jacket with white stripes, full brown beard, big easy grin; no rhinestone jumpsuit in this shot (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

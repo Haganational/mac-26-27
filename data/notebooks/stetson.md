@@ -20,7 +20,7 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 ## How they look
 
 - Portrait: anchors/stetson.webp
-- Wears a hunter green and white 3/4 zip pullover + baseball cap
+- Wears a hunter green and white bowling shirt + baseball cap
 - Gray beard and a weathered face under a white-and-green cap, in a cream-and-green STETSON bowling shirt with a well-loved pocket (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

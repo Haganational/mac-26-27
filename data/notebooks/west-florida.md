@@ -20,7 +20,7 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 ## How they look
 
 - Portrait: anchors/west-florida.webp
-- Wears a royal blue and kelly green hoodie
+- Wears a royal blue and kelly green wrestling singlet
 - Locs pulled up and back, in a royal-blue and kelly-green WEST FLORIDA wrestling singlet, with a skeptical, been-on-shift-all-day look (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

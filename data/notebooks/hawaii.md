@@ -20,7 +20,7 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 ## How they look
 
 - Portrait: anchors/hawaii.webp
-- Wears a green and white polo shirt + baseball cap
+- Wears a green and white beekeeper suit + veiled hat
 - White beekeeper suit with green trim and HAWAI'I on the chest, round veiled bee hat pushed up, warm brown complexion, calm half-smile (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

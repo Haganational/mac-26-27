@@ -20,7 +20,7 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 ## How they look
 
 - Portrait: anchors/air-force.webp
-- Wears a air force blue and silver 3/4 zip pullover
+- Wears a air force blue and silver tuxedo + bow tie
 - Navy tuxedo with silver satin lapels and a silver bow tie, white dress shirt, close-cropped silver hair, square jaw at parade rest (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

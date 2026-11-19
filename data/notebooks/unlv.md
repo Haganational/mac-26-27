@@ -20,7 +20,7 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 ## How they look
 
 - Portrait: anchors/unlv.webp
-- Wears a scarlet red and gray 3/4 zip pullover
+- Wears a scarlet red and gray tuxedo jacket + bow tie
 - Red tuxedo jacket with silver satin lapels and a UNLV crest, white shirt, silver bow tie, dark wavy hair, showroom smile (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

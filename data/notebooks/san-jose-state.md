@@ -20,7 +20,7 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 ## How they look
 
 - Portrait: anchors/san-jose-state.webp
-- Wears a royal blue and gold polo shirt
+- Wears a royal blue and gold blazer + striped tie
 - Royal blue blazer with SAN JOSE STATE crest, white shirt, blue and gold striped tie, long dark hair, bright confident smile (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

@@ -20,7 +20,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 ## How they look
 
 - Portrait: anchors/lipscomb.webp
-- Wears a purple and gold 3/4 zip pullover
+- Wears a purple and gold hoodie
 - Wild silver curls and dark-framed glasses, in a purple LIPSCOMB hoodie with gold drawstrings, giving a small smile that suggests she's grading you (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

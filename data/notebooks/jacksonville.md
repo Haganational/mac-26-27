@@ -20,7 +20,7 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 ## How they look
 
 - Portrait: anchors/jacksonville.webp
-- Wears a kelly green and white hoodie + baseball cap
+- Wears a kelly green and white bowling shirt
 - Short twists and a full beard, in a crisp white-and-kelly-green JACKSONVILLE bowling shirt, giving the camera a cool, unimpressed look (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

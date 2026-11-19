@@ -27,9 +27,9 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**38 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -80,3 +80,5 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 - 2026-11-12: W 73-70 at West Georgia Wolves. Barometer 52 (steady). <!-- g:401917901 -->
 - 2026-11-14: L 74-75 at Georgia Tech Yellow Jackets. Barometer 46 (steady). <!-- g:401920307 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:preview -->
+- 2026-11-18: L 77-98 vs Tennessee Tech Golden Eagles. Barometer 38 (testy). <!-- g:401922292 -->
+- 2026-11-19: Social recap posted (L 77-98 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:recap -->

@@ -20,7 +20,7 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 ## How they look
 
 - Portrait: anchors/utah-valley.webp
-- Wears a forest green and white polo shirt
+- Wears a forest green and white steampunk top hat, goggles + band jacket
 - Warm, careful smile under a white top hat with brass goggles, in a white-and-forest-green steampunk band jacket fastened with buckles and UTAH VALLEY across the chest (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

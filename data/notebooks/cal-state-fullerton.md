@@ -20,7 +20,7 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 ## How they look
 
 - Portrait: anchors/cal-state-fullerton.webp
-- Wears a navy blue and orange wrestling singlet
+- Wears a navy blue and orange astronaut spacesuit
 - Long dark hair and a big confident smile, in a bright orange spacesuit with a CS FULLERTON name tape, mission patches and the helmet ring still on (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

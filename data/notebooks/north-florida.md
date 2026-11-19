@@ -20,7 +20,7 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 ## How they look
 
 - Portrait: anchors/north-florida.webp
-- Wears a navy blue and gray wrestling singlet
+- Wears a navy blue and gray rumpled blazer + tie
 - Messy black hair and a few days of stubble, in a rumpled navy blazer with a North Florida patch, gray shirt and a loosened striped tie, looking like he came straight from the beach to the desk (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

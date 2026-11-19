@@ -20,7 +20,7 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 ## How they look
 
 - Portrait: anchors/uc-riverside.webp
-- Wears a blue and gold polo shirt
+- Wears a blue and gold vintage brass-collar diving suit
 - Weathered face and short gray hair, with a steady gaze, in a vintage brass-collar diving suit of faded blue canvas stenciled UC RIVERSIDE (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

@@ -20,7 +20,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## How they look
 
 - Portrait: anchors/new-mexico.webp
-- Wears a cherry red and silver wrestling singlet
+- Wears a cherry red and silver sequined bodysuit
 - Red and silver sequined bodysuit spelling NEW MEXICO, glittering face jewels around the eyes, sculpted black hair and beard, beaming (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

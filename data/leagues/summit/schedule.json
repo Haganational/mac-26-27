@@ -1990,7 +1990,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1998,13 +1998,13 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:39 - 1st"
   },
   {
    "game_id": "401929176",
@@ -7943,5 +7943,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T01:42:41+00:00"
 }

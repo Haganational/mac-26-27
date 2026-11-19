@@ -20,7 +20,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## How they look
 
 - Portrait: anchors/csu-bakersfield.webp
-- Wears a royal blue and gold hoodie + baseball cap
+- Wears a royal blue and gold renaissance brocade doublet + elizabethan ruff
 - Slicked gray-black hair and a stern, patient stare, in a giant white Elizabethan ruff and a royal-blue-and-gold brocade doublet with CSU BAKERSFIELD across the chest (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

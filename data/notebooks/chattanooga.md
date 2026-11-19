@@ -27,9 +27,9 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 
 ## Barometer
 
-**56 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**65 of 100, buoyant.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 - 2026-11-10: W 97-67 vs Covenant Fighting Scots. Barometer 49 (steady). <!-- g:401920972 -->
 - 2026-11-14: W 77-70 at Elon Phoenix. Barometer 56 (steady). <!-- g:401920973 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:preview -->
+- 2026-11-18: W 90-79 at Winthrop Eagles. Barometer 65 (buoyant). <!-- g:401920974 -->
+- 2026-11-19: Social recap posted (W 90-79 vs Winthrop Eagles): https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:recap -->

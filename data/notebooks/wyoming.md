@@ -20,7 +20,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 ## How they look
 
 - Portrait: anchors/wyoming.webp
-- Wears a brown and prairie gold hoodie
+- Wears a brown and prairie gold medieval knight's plate armor
 - Full suit of polished steel plate armor with brass trim and WYOMING engraved on the chest, silver bob, steady unimpressed gaze (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

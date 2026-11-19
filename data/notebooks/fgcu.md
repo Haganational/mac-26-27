@@ -20,7 +20,7 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 ## How they look
 
 - Portrait: anchors/fgcu.webp
-- Wears a emerald green and cobalt blue 3/4 zip pullover
+- Wears a emerald green and cobalt blue blazer + loosened tie
 - Dark hair in a falling-apart bun, royal-blue FGCU blazer over a white shirt with a loosened green tie, looking like she's been up since the last storm (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

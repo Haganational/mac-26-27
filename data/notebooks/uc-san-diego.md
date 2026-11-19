@@ -20,7 +20,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 ## How they look
 
 - Portrait: anchors/uc-san-diego.webp
-- Wears a navy blue and gold hoodie + baseball cap
+- Wears a navy blue and gold drum major shako + tunic
 - Huge, laughing smile under a navy-and-gold drum major shako with a tall plume, in a navy tunic with gold braid, epaulets and UC SAN DIEGO across the chest (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

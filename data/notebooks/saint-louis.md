@@ -20,7 +20,7 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 ## How they look
 
 - Portrait: anchors/saint-louis.webp
-- Wears a royal blue and white renaissance velvet doublet + elizabethan ruff
+- Wears a royal blue and white 3/4 zip pullover
 - Shoulder-length blonde hair and a warm, confident smile, in a royal-blue SAINT LOUIS quarter-zip, looking more PTA president than Shakespearean director (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

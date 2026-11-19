@@ -20,7 +20,7 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 ## How they look
 
 - Portrait: anchors/queens.webp
-- Wears a navy blue and vegas gold polo shirt
+- Wears a navy blue and vegas gold medieval knight's plate armor
 - Short dark hair and a level stare, in full silver plate armor trimmed in navy and gold with QUEENS stamped across the breastplate (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

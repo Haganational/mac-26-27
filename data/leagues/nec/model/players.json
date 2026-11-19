@@ -1,5 +1,5 @@
 {
-"as_of": "2026-11-19T01:28:49+00:00",
+"as_of": "2026-11-19T01:45:08+00:00",
 "onoff_live": false,
 "onoff_start": "2026-12-01",
 "weights": {
@@ -116,7 +116,7 @@
 "usage": 11.0,
 "ts": 47.0,
 "off": 1.8,
-"def": 1.0,
+"def": 0.99,
 "net": 2.79,
 "raw_net": 9.58,
 "team_adj": -1.07,
@@ -3570,7 +3570,7 @@
 "net": -6.4,
 "raw_net": -4.71,
 "team_adj": -0.35,
-"prior_share": 0.73,
+"prior_share": 0.74,
 "returning": true,
 "on_poss": 94.59,
 "on_net": 41.23,
@@ -3827,7 +3827,7 @@
 "usage": 44.8,
 "ts": 56.8,
 "off": -4.32,
-"def": -7.08,
+"def": -7.07,
 "net": -11.4,
 "raw_net": -13.59,
 "team_adj": -1.07,

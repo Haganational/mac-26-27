@@ -20,7 +20,7 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 ## How they look
 
 - Portrait: anchors/csun.webp
-- Wears a red and black 3/4 zip pullover
+- Wears a red and black sequined matador jacket
 - Trimmed beard and an intense, unblinking stare, in a red-and-black sequined matador jacket with CSUN in gold, a ruffled white shirt and a skinny black tie (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

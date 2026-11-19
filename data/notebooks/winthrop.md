@@ -27,9 +27,9 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 
 ## Barometer
 
-**24 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**19 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Royce editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Royce editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 - 2026-11-11: L 79-88 at Kennesaw State Owls. Barometer 29 (despondent). <!-- g:401925708 -->
 - 2026-11-14: L 72-76 vs Jackson State Tigers. Barometer 24 (despondent). <!-- g:401921038 -->
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:preview -->
+- 2026-11-18: L 79-90 vs Chattanooga Mocs. Barometer 19 (despondent). <!-- g:401920974 -->
+- 2026-11-19: Social recap posted (L 79-90 vs Chattanooga Mocs): https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:recap -->

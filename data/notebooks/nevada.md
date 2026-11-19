@@ -20,7 +20,7 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 ## How they look
 
 - Portrait: anchors/nevada.webp
-- Wears a navy blue and silver 3/4 zip pullover
+- Wears a navy blue and silver satin short-sleeve shirt
 - Navy and silver satin short-sleeve shirt with NEVADA script, shoulder-length blond waves, easy confident smile (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

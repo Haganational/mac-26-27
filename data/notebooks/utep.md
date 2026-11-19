@@ -20,7 +20,7 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 ## How they look
 
 - Portrait: anchors/utep.webp
-- Wears a dark blue and orange polo shirt
+- Wears a dark blue and orange wrestling singlet
 - Navy and orange wrestling singlet with UTEP across the chest, athletic build, short dark hair, wide easy grin (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

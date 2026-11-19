@@ -20,7 +20,7 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 ## How they look
 
 - Portrait: anchors/long-beach-state.webp
-- Wears a black and gold polo shirt + baseball cap
+- Wears a black and gold sequined rhinestone jacket
 - Silver-gray bob and a radiant smile, in a black-and-gold sequined, rhinestone-studded jacket with LONG BEACH STATE in glittering letters (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

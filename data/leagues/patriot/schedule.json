@@ -2067,7 +2067,7 @@
     "key": null,
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 47,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -2075,13 +2075,13 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 50,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:53 - 2nd"
+   "detail": "2:50 - 2nd"
   },
   {
    "game_id": "401920772",
@@ -2112,21 +2112,21 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": 107,
-    "winner": null
+    "score": 109,
+    "winner": true
    },
    "away": {
     "espn_id": "390",
     "key": null,
     "name": "Utica Pioneers",
     "abbr": "UTIC",
-    "score": 47,
-    "winner": null
+    "score": 50,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911309",
@@ -2157,7 +2157,7 @@
     "key": "holy-cross",
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": 40,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2165,13 +2165,13 @@
     "key": null,
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 48,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:37 - 2nd"
+   "detail": "5:25 - 2nd"
   },
   {
    "game_id": "401911277",
@@ -2198,7 +2198,7 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 58,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -2206,13 +2206,13 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 50,
+    "score": 59,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:56 - 2nd"
+   "detail": "3:29 - 2nd"
   },
   {
    "game_id": "401912211",
@@ -9342,5 +9342,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-19T01:28:14+00:00"
+ "live_at": "2026-11-19T01:44:39+00:00"
 }

@@ -20,7 +20,7 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 ## How they look
 
 - Portrait: anchors/uc-santa-barbara.webp
-- Wears a navy blue and gold 3/4 zip pullover
+- Wears a navy blue and gold pirate tricorne + captain's coat
 - Full brown beard and a calm squint under a navy-and-gold pirate tricorne with feathers, in a velvet captain's coat with gold braid, a leather baldric and lace cuffs (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

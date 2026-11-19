@@ -20,7 +20,7 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 ## How they look
 
 - Portrait: anchors/grand-canyon.webp
-- Wears a purple and white hoodie
+- Wears a purple and white rhinestone dance-team costume
 - Purple rhinestone dance-team costume spelling GRAND CANYON, crystal face gems around the eyes, dark hair slicked back, huge smile (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

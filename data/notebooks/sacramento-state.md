@@ -20,7 +20,7 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 ## How they look
 
 - Portrait: anchors/sacramento-state.webp
-- Wears a green and gold hoodie
+- Wears a green and gold pharaoh headdress + jeweled collar over t-shirt
 - Blank, earnest stare under a striped green-and-gold pharaoh's headdress and jeweled collar, worn over a gold SACRAMENTO STATE T-shirt (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

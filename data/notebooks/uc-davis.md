@@ -20,7 +20,7 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 ## How they look
 
 - Portrait: anchors/uc-davis.webp
-- Wears a aggie blue and gold hoodie + baseball cap
+- Wears a aggie blue and gold beekeeper suit + veiled hat
 - White beekeeper suit with navy trim and a UC DAVIS patch, round veiled bee hat, wire-rimmed glasses, gentle crinkled grin (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.

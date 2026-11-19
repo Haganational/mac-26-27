@@ -20,7 +20,7 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 ## How they look
 
 - Portrait: anchors/bellarmine.webp
-- Wears a scarlet red and silver polo shirt
+- Wears a scarlet red and silver bowling shirt
 - Gray, tousled hair and a tired stubble, in a red-and-silver BELLARMINE bowling shirt with the collar slightly crooked (portrait).
 - Set: sets/studio.jpg
 - House look: sequins or rhinestones in team colors, never green on a green screen.
