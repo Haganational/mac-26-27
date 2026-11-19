@@ -2208,7 +2208,7 @@
     "key": null,
     "name": "NC State Wolfpack",
     "abbr": "NCSU",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2216,13 +2216,13 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:39 - 1st"
+   "detail": "8:14 - 1st"
   },
   {
    "game_id": "401926814",
@@ -9522,5 +9522,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T23:34:56+00:00"
 }
