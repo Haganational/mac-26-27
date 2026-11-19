@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tops and Bottoms · Hardwood Bricks</title>
-<meta name="description" content="Tops and Bottoms from JuiceBox Nation: four fictional handicappers, four fixed rules, picks in at 8:15 AM Eastern and a ledger that keeps every unit. Entertainment only.">
+<meta name="description" content="Tops and Bottoms from JuiceBox Nation: four handicappers, picks in at 8:15 AM Eastern, and a ledger that keeps every unit.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}tops.html">
@@ -78,11 +78,6 @@
   .nights th { font: 600 12px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
   .nights td small { color: var(--muted); }
   .scroll { overflow-x: auto; }
-  .fine { margin-top: 34px; padding: 14px 16px; border: 1px solid var(--rule); background: var(--surface); font-size: 14px; color: var(--ink-2); max-width: 78ch; }
-  .fine p { margin: 0 0 8px; } .fine p:last-child { margin: 0; }
-  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0 28px; }
-  .rules div { border-top: 1px solid var(--rule); padding: 10px 0 12px; font-size: 15px; color: var(--ink-2); }
-  .rules b { display: block; font: 600 17px/1.2 var(--serif); color: var(--ink); margin-bottom: 3px; }
   @media (max-width: 520px) { .tb-hero > div { padding: 20px 16px 24px; } .cap { grid-template-columns: 72px minmax(0, 1fr); } .cap .face { width: 72px; height: 72px; } }
 </style>
 </head>
@@ -97,7 +92,7 @@
     <div>
       <p class="tb-pres">JuiceBox Nation presents</p>
       <h1>Tops and Bottoms</h1>
-      <p class="dek">The daily wagering board, part ledger and part column. Four handicappers, four fixed rules, one lock every morning, and every unit kept.</p>
+      <p class="dek">Four handicappers. One lock. Every unit kept.</p>
       {% if is_today %}<span class="tb-lock">Picks locked {{ lock_label }} · {{ card_label }}</span>
       {% else %}<span class="tb-lock">Today's picks land at {{ lock_label }}</span>{% endif %}
     </div>
@@ -105,10 +100,9 @@
 
   <section aria-labelledby="h-ledger">
     <h2 id="h-ledger">The ledger</h2>
-    <p class="sub">Season to date. Every pick is one unit at -110: a win pays 0.91, a loss costs 1.</p>
     <div class="four">
       {% for r in ledger %}<article class="cap" style="--c: {{ r.color }}">
-        <div class="face"><img src="static/art/tops/{{ r.key }}.webp" alt="{{ r.name }}, fictional AI handicapper" width="88" height="88" loading="lazy"></div>
+        <div class="face"><img src="static/art/tops/{{ r.key }}.webp" alt="{{ r.name }}" width="88" height="88" loading="lazy"></div>
         <div><span class="rank">No. {{ r.rank }}</span><h3>{{ r.name }}</h3><div class="t">{{ r.title }}</div></div>
         <p class="lean">{{ r.lean }}</p>
         <div class="nums">
@@ -123,7 +117,7 @@
   {% if card %}
   <section aria-labelledby="h-card">
     <h2 id="h-card">{% if is_today %}Today's card{% else %}The last card{% endif %}</h2>
-    <p class="sub">{{ card_label }}. {{ card.board }} game{{ '' if card.board == 1 else 's' }} on the board at the lock.{% if not is_today %} Today's picks land at {{ lock_label }}.{% endif %}</p>
+    <p class="sub">{{ card_label }}</p>
     <div class="card">
       {% for c in cappers %}{% set ps = card.picks.get(c.key) or [] %}<div style="--c: {{ c.color }}">
         <div class="who"><img src="static/art/tops/{{ c.key }}.webp" alt="" width="34" height="34" loading="lazy"><b>{{ c.name }}</b></div>
@@ -146,7 +140,7 @@
     <p class="close">{{ card.column.close }}</p>
   </section>
   {% else %}
-  <section><h2>The first card</h2><p class="sub">The board opens at {{ lock_label }}. Merv, Leslie, Brett and the Shark are sharpening pencils, combing pompadours and making phone calls.</p></section>
+  <section><h2>The first card</h2><p class="sub">Board opens at {{ lock_label }}.</p></section>
   {% endif %}
 
   {% if recent %}
@@ -162,21 +156,7 @@
   </section>
   {% endif %}
 
-  <section aria-labelledby="h-rules">
-    <h2 id="h-rules">House rules</h2>
-    <div class="rules">
-      <div><b>Merv Crutch</b>One under where the model sits furthest below the total, plus the team with the night's third-lowest points allowed per game, against the spread.</div>
-      <div><b>Leslie Phyllis</b>One over where the model sits furthest above the total, plus the night's second-highest scoring team, against the spread.</div>
-      <div><b>Brett Busberger</b>The two games where our model sits furthest from the spread, on the model's side.</div>
-      <div><b>The Shark</b>One home dog getting 3 to 10 points, and that game's total on inside information that has nothing to do with the game.</div>
-    </div>
-    <div class="fine">
-      <p>{{ disclosure }}</p>
-      <p>The board is every game our {{ n_conf }} editions cover with a posted spread and total at the lock. Lines are the market consensus our odds screen records; points per game count D-I games only.</p>
-      <p>{{ helpline }} 21+ where legal.</p>
-    </div>
-  </section>
 </main>
-<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="https://juiceboxnation.com/">JuiceBox Nation</a> · <a href="masthead.html">Masthead and standards</a> · Built {{ built }} UTC.</footer>
+<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="https://juiceboxnation.com/">JuiceBox Nation</a> · <a href="masthead.html">Masthead and standards</a> · 21+ · 1-800-GAMBLER · Built {{ built }} UTC.</footer>
 </body>
 </html>
