@@ -68,7 +68,20 @@ def _game(g: dict[str, Any], site_root: Path, prefix: str) -> dict[str, Any]:
         "away_name": _school(g["away"]), "home_name": _school(g["home"]),
         "day": et.get("day_label") or "",
         "href": prefix + f"games/{g['game_id']}.html" if box else prefix + f"tv.html#g{g['game_id']}",
+        "completed": bool(g.get("completed")), "detail": (g.get("detail") or "").replace(" - ", " "),
+        "day_key": _day_key(g), "keys": [k for k in (g["home"].get("key"), g["away"].get("key")) if k],
     }
+
+
+def _day_key(g: dict[str, Any]) -> str:
+    """The game's date in Eastern time, YYYY-MM-DD."""
+    k = (g.get("et") or {}).get("day_key")
+    if k:
+        return k
+    try:
+        return datetime.fromisoformat((g.get("date") or "").replace("Z", "+00:00")).astimezone(ET).date().isoformat()
+    except ValueError:
+        return ""
 
 
 def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
@@ -85,12 +98,17 @@ def edition(lg: Any, site_root: Path) -> dict[str, Any] | None:
     if not upcoming:
         upcoming = [g for g in d.get("upcoming", []) if not g.get("completed")][:4]
     finals = [g for g in d.get("recent", []) if g.get("completed")][:4]
+    # Every game of the last day or so, finished or not, for the game-night scoreboard (game_night below).
+    seen: set[str] = set()
+    night = [g for g in (d.get("tonight") or []) + (d.get("recent") or [])[:30]
+             if g.get("game_id") and not (g["game_id"] in seen or seen.add(g["game_id"]))]
     return {
         "key": lg.key, "short": lg.short, "name": lg.name, "region": lg.region,
         "href": front_page(lg), "prefix": prefix, "weekly": bool(weekly.issues(lg.key)), "n_teams": len(lg.teams),
         "tonight": [_game(g, site_root, prefix) for g in upcoming[:6]],
         "upcoming_all": [_game(g, site_root, prefix) for g in upcoming[:12]],
         "finals": [_game(g, site_root, prefix) for g in finals],
+        "night": [_game(g, site_root, prefix) for g in night],
         "teams": [{"key": t.key, "short": t.short, "href": prefix + f"teams/{t.key}.html"} for t in lg.teams],
         "updated": d.get("generated_et") or "",
     }
@@ -266,6 +284,47 @@ def tonight_across(eds: list[dict[str, Any]], most: int = 10) -> list[dict[str, 
     return out[:most]
 
 
+GAME_NIGHT_FROM = 12  # noon ET: from here on, today's slate takes the main column over last night's finals
+NIGHT_ENDS = 6  # before 6 AM ET the night is still yesterday's (late West Coast tips)
+SLATE_SHOWN = 12  # tiles before "All N games"
+
+
+def game_night(eds: list[dict[str, Any]], now: datetime) -> dict[str, Any] | None:
+    """Tonight's games across every edition, for the cover's main column on game nights (Matthew, Nov 18 2026:
+    "we shouldn't have yesterday's scores up during game nights on main").
+
+    On from noon ET when today has games, and any other hour while a game is live; after the last
+    late game ends (or by 6 AM ET) it steps aside and the night's finals lead again. Live games first,
+    then the ones still to tip, soonest first, then tonight's finals, newest first; Ohio, Akron, Kent
+    State and Cleveland State, then the MAC and the Horizon, go first within each group."""
+    et = now.astimezone(ET)
+    day = (et - timedelta(hours=NIGHT_ENDS)).date().isoformat()
+    seen, games = set(), []
+    for e in eds:
+        for g in e.get("night", []):
+            if g["day_key"] != day or g["game_id"] in seen:
+                continue
+            seen.add(g["game_id"])
+            games.append({**g, "league": e["short"], "color": CONF_COLORS.get(e["key"], "#a8441c")})
+    if not games:
+        return None
+    live = [g for g in games if g["live"]]
+    if not live and not (GAME_NIGHT_FROM <= et.hour and et.date().isoformat() == day):
+        return None
+
+    def weight(g: dict[str, Any]) -> int:
+        w = max([frontscore.HOME_TEAM.get(k, 0) for k in g["keys"]] + [0])
+        lg = [lg.key for k in g["keys"] for lg in LEAGUES.values() if any(t.key == k for t in lg.teams)]
+        return w + max([frontscore.HOME_CONF.get(k, 0) for k in lg] + [0])
+
+    upcoming = sorted((g for g in games if not g["live"] and not g["completed"]), key=lambda g: (-weight(g), g["date"]))
+    finals = sorted((g for g in games if g["completed"]), key=lambda g: g["date"], reverse=True)
+    finals.sort(key=lambda g: -weight(g))
+    order = sorted(live, key=lambda g: (-weight(g), g["date"])) + upcoming + finals
+    return {"games": order[:SLATE_SHOWN], "more": order[SLATE_SHOWN:], "n": len(order), "live": len(live),
+            "left": len(upcoming), "finals": len(finals), "label": datetime.fromisoformat(day).strftime("%A, %B %-d")}
+
+
 def robots(base: str = SITE_BASE, noindex: bool = SITE_NOINDEX) -> str:
     if noindex:
         return "User-agent: *\nDisallow: /\n"
@@ -367,7 +426,10 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         e["color"] = CONF_COLORS.get(e["key"], "#a8441c")
     den_data(site_root, now)  # site/den/*.json first, so the page and the front-page line read tonight's games
     den = den_page(env, site_root, eds, names, base, now)
-    html = env.get_template("hub.html").render(den=den, weave=weave_billing(now),
+    night = game_night(eds, now)
+    if night:  # game night: tonight's games take the main column; last night's recaps move to the rail
+        lead, cards = None, []
+    html = env.get_template("hub.html").render(den=den, weave=weave_billing(now), night=night,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         lead=lead, cards=cards, river=[x for x in recaps if x is not lead and x not in cards][:8], home=home, tops=tops,
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,

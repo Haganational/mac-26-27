@@ -58,7 +58,20 @@
   {% endif %}
   <div class="front">
     <div>
-      {% if lead %}
+      {% if night %}
+      {#- Game night (mac.hub.game_night): tonight's games lead instead of last night's finals, which move to the rail. -#}
+      <section class="night" aria-labelledby="h-night">
+        <div class="night-hd"><span class="kick" style="--c:var(--live)">{% if night.live %}<span class="cf">Live now</span>{% else %}<span class="cf">Game night</span>{% endif %}{{ night.label }}</span>
+          <h2 id="h-night">Tonight's games</h2>
+          <p class="night-sub">{{ night.n }} game{{ '' if night.n == 1 else 's' }}{% if night.live %} · {{ night.live }} live{% endif %}{% if night.left %} · {{ night.left }} still to tip{% endif %}{% if night.finals %} · {{ night.finals }} final{{ '' if night.finals == 1 else 's' }}{% endif %} · Scores refresh every 15 minutes</p></div>
+        {% macro ng(g) %}<a class="ng{{ ' is-live' if g.live }}{{ ' is-final' if g.completed }}" href="{{ g.href }}" style="--c:{{ g.color }}">
+          <span class="kick"><span class="cf">{{ g.league }}</span>{% if g.live %}<span class="live">Live{% if g.detail %} · {{ g.detail }}{% endif %}</span>{% elif g.completed %}{{ g.detail or 'Final' }}{% else %}{{ g.when }} ET{% endif %}{% if g.tv and not g.completed %} · {{ g.tv }}{% endif %}</span>
+          {% set started = g.live or g.completed %}<span class="ng-row{{ ' lose' if g.completed and not g.away_win }}"><span>{{ g.away_name }}</span>{% if started %}<b>{{ g.away_score if g.away_score is not none else 0 }}</b>{% endif %}</span>
+          <span class="ng-row{{ ' lose' if g.completed and not g.home_win }}"><span>{{ g.home_name }}</span>{% if started %}<b>{{ g.home_score if g.home_score is not none else 0 }}</b>{% endif %}</span></a>{% endmacro %}
+        <div class="ng-grid">{% for g in night.games %}{{ ng(g) }}{% endfor %}</div>
+        {% if night.more %}<details class="ng-more"><summary>All {{ night.n }} games tonight</summary><div class="ng-grid">{% for g in night.more %}{{ ng(g) }}{% endfor %}</div></details>{% endif %}
+      </section>
+      {% elif lead %}
       {#- The lead's picture: the ESPN highlight if there is one, else a game photo, else the score card.
           With the card the headline already gives the score, so the dek (which opens with it again) is left off. -#}
       {% if lead.clip %}
@@ -100,9 +113,11 @@
       </section>
       {% endif %}
       <section aria-labelledby="h-tonight">
+        {% if not night %}{#- On game nights the main column already has tonight's games. -#}
         <div class="sh"><h2 id="h-tonight">Next up</h2></div>
         {% if tonight %}<ul class="tn">{% for g in tonight %}<li><a href="{{ g.href }}"><span class="kick" style="--c:{{ g.color }}"><span class="cf">{{ g.league }}</span></span><span class="tm">{% if g.live %}<span class="live">Live</span>{% else %}{{ g.when }}{% endif %}{% if g.tv %}<small>{{ g.tv }}</small>{% endif %}</span><span class="hd">{{ g.away_name }} at {{ g.home_name }}</span></a></li>{% endfor %}</ul>
         {% else %}<p class="none">No games on the board.</p>{% endif %}
+        {% else %}<div class="sh"><h2 id="h-tonight">Tonight</h2></div>{% endif %}
         {% if den %}<a class="den-tz" href="den.html"><span class="kick">The Den</span><span>Tonight's Bricksanity: {{ den.eligible }} team{{ '' if den.eligible == 1 else 's' }} eligible</span></a>{% endif %}
         <a class="den-tz watch-tz" href="watch.html"><span class="kick">Watch</span><span>MidMaxx60 this morning, The Big Mid this week, and the anchor desk</span></a>
       </section>
