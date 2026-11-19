@@ -1,0 +1,22 @@
+name: Spring Forward temp VO
+# Temp narration + crowd chants for the "Spring Forward" film (Gemini TTS). Never publishes anything.
+on:
+  push:
+    branches: ["claude/project-thread-wwwv6s"]
+    paths: ["spring/vo.json", "tools/spring_tts.py"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Record
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 tools/spring_tts.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add spring/out && git commit -m "spring: temp VO takes" && git push || echo "nothing new"
