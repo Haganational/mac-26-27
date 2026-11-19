@@ -1911,7 +1911,7 @@
     "key": null,
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -1919,13 +1919,13 @@
     "key": "chicago-state",
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:31 - 1st"
   },
   {
    "game_id": "401919760",
@@ -1952,7 +1952,7 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1960,13 +1960,13 @@
     "key": null,
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:18 - 1st"
   },
   {
    "game_id": "401929014",
@@ -1987,7 +1987,7 @@
     "key": "new-haven",
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -1995,13 +1995,13 @@
     "key": null,
     "name": "MCLA Mohawks",
     "abbr": "MCLA",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:54 - 1st"
   },
   {
    "game_id": "401919808",
@@ -2028,7 +2028,7 @@
     "key": "liu",
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2036,13 +2036,13 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:57 - 1st"
   },
   {
    "game_id": "401919848",
@@ -8391,5 +8391,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:24:13+00:00"
 }

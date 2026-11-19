@@ -2089,7 +2089,7 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2097,13 +2097,13 @@
     "key": null,
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:03 - 1st"
   },
   {
    "game_id": "401920761",
@@ -9534,5 +9534,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:15:54+00:00"
 }

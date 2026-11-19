@@ -1958,7 +1958,7 @@
     "key": null,
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1966,13 +1966,13 @@
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:53 - 1st"
   },
   {
    "game_id": "401919760",
@@ -1999,7 +1999,7 @@
     "key": null,
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2007,13 +2007,13 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:18 - 1st"
   },
   {
    "game_id": "401920694",
@@ -2044,7 +2044,7 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2052,13 +2052,13 @@
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:46 - 1st"
   },
   {
    "game_id": "401919848",
@@ -8811,5 +8811,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:23:23+00:00"
 }

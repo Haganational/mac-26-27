@@ -2019,7 +2019,7 @@
     "key": null,
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2027,13 +2027,13 @@
     "key": "morehead-state",
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:16 - 1st"
   },
   {
    "game_id": "401923394",
@@ -8320,5 +8320,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:22:58+00:00"
 }

@@ -2883,7 +2883,7 @@
     "key": null,
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2891,13 +2891,13 @@
     "key": "james-madison",
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:10 - 1st"
   },
   {
    "game_id": "401928398",
@@ -12616,5 +12616,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:18:22+00:00"
 }

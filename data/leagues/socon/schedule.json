@@ -2116,7 +2116,7 @@
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": 4,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2124,13 +2124,13 @@
     "key": "chattanooga",
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": 16,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "14:20 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401922283",
@@ -2206,7 +2206,7 @@
     "key": null,
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 5,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": 15,
+    "score": 45,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:29 - 1st"
+   "detail": "3:40 - 1st"
   },
   {
    "game_id": "401922055",
@@ -2251,7 +2251,7 @@
     "key": null,
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2259,13 +2259,13 @@
     "key": "furman",
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:51 - 1st"
   },
   {
    "game_id": "401928347",
@@ -2296,7 +2296,7 @@
     "key": null,
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2304,13 +2304,13 @@
     "key": "mercer",
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:34 - 1st"
   },
   {
    "game_id": "401922047",
@@ -2341,7 +2341,7 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2349,13 +2349,13 @@
     "key": "vmi",
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:53 - 1st"
   },
   {
    "game_id": "401911377",
@@ -2386,7 +2386,7 @@
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2394,13 +2394,13 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:22 - 1st"
   },
   {
    "game_id": "401911393",
@@ -9972,5 +9972,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-18T23:42:31+00:00"
+ "live_at": "2026-11-19T00:20:24+00:00"
 }

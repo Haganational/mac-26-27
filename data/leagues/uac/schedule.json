@@ -1778,7 +1778,7 @@
     "key": "west-georgia",
     "name": "West Georgia Wolves",
     "abbr": "WGA",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1786,13 +1786,13 @@
     "key": null,
     "name": "Columbia (SC) Fighting Koalas",
     "abbr": "CCSC",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:25 - 1st"
   },
   {
    "game_id": "401917965",
@@ -8862,5 +8862,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:22:15+00:00"
 }

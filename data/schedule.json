@@ -2033,7 +2033,7 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2041,13 +2041,13 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:30 - 1st"
   },
   {
    "game_id": "401928843",
@@ -2078,7 +2078,7 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2086,13 +2086,13 @@
     "key": null,
     "name": "Defiance Yellow Jackets",
     "abbr": "DFC",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:26 - 1st"
   },
   {
    "game_id": "401920963",
@@ -2123,7 +2123,7 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2131,13 +2131,13 @@
     "key": null,
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:55 - 1st"
   },
   {
    "game_id": "401911021",
@@ -9702,5 +9702,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:12:51+00:00"
 }

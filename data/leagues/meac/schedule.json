@@ -1676,7 +1676,7 @@
     "key": null,
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -1684,13 +1684,13 @@
     "key": "morgan-state",
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:19 - 1st"
   },
   {
    "game_id": "401925782",
@@ -1721,7 +1721,7 @@
     "key": null,
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1729,13 +1729,13 @@
     "key": "howard",
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:57 - 1st"
   },
   {
    "game_id": "401925632",
@@ -1766,7 +1766,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1774,13 +1774,13 @@
     "key": "coppin-state",
     "name": "Coppin State Eagles",
     "abbr": "COPP",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:40 - 1st"
   },
   {
    "game_id": "401920075",
@@ -1811,7 +1811,7 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -1819,13 +1819,13 @@
     "key": "nc-central",
     "name": "North Carolina Central Eagles",
     "abbr": "NCCU",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:24 - 1st"
   },
   {
    "game_id": "401925841",
@@ -7490,5 +7490,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:24:38+00:00"
 }

@@ -2318,7 +2318,7 @@
     "key": null,
     "name": "South Carolina Gamecocks",
     "abbr": "SC",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2326,13 +2326,13 @@
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:08 - 1st"
   },
   {
    "game_id": "401921156",
@@ -2359,7 +2359,7 @@
     "key": "nc-at",
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2367,13 +2367,13 @@
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:15 - 1st"
   },
   {
    "game_id": "401926838",
@@ -2404,7 +2404,7 @@
     "key": "towson",
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2412,13 +2412,13 @@
     "key": null,
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:10 - 1st"
   },
   {
    "game_id": "401919808",
@@ -2445,7 +2445,7 @@
     "key": null,
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2453,13 +2453,13 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:29 - 1st"
   },
   {
    "game_id": "401906805",
@@ -11901,5 +11901,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:19:26+00:00"
 }

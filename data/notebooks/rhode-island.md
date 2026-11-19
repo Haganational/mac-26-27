@@ -1,6 +1,6 @@
 # Capt. Declan O'Malley, The Kingston Register
 
-_Rhode Island (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-18._
+_Rhode Island (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-19._
 
 ## Who they are
 

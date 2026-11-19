@@ -1711,7 +1711,7 @@
     "key": null,
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1719,13 +1719,13 @@
     "key": "brown",
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:45 - 1st"
   },
   {
    "game_id": "401920694",
@@ -1756,7 +1756,7 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -1764,13 +1764,13 @@
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:05 - 1st"
   },
   {
    "game_id": "401924721",
@@ -7277,5 +7277,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:19:02+00:00"
 }

@@ -1753,7 +1753,7 @@
     "key": null,
     "name": "Florida Atlantic Owls",
     "abbr": "FAU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1761,13 +1761,13 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:25 - 1st"
   },
   {
    "game_id": "401920878",
@@ -8192,5 +8192,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:13:31+00:00"
 }

@@ -2584,7 +2584,7 @@
     "key": "fairfield",
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2592,13 +2592,13 @@
     "key": null,
     "name": "St. Joseph's Brooklyn Bears",
     "abbr": "SJBK",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:18 - 1st"
   },
   {
    "game_id": "401923401",
@@ -2629,7 +2629,7 @@
     "key": "merrimack",
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2637,13 +2637,13 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:45 - 1st"
   },
   {
    "game_id": "401920682",
@@ -2674,7 +2674,7 @@
     "key": null,
     "name": "St. John's Red Storm",
     "abbr": "SJU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2682,13 +2682,13 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:38 - 1st"
   },
   {
    "game_id": "401923304",
@@ -11361,5 +11361,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:14:51+00:00"
 }

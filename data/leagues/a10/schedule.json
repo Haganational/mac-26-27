@@ -2597,7 +2597,7 @@
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2605,13 +2605,13 @@
     "key": null,
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:13 - 1st"
   },
   {
    "game_id": "401920075",
@@ -2642,7 +2642,7 @@
     "key": "george-mason",
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2650,13 +2650,13 @@
     "key": null,
     "name": "North Carolina Central Eagles",
     "abbr": "NCCU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:34 - 1st"
   },
   {
    "game_id": "401925632",
@@ -2687,7 +2687,7 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2695,13 +2695,13 @@
     "key": null,
     "name": "Coppin State Eagles",
     "abbr": "COPP",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:40 - 1st"
   },
   {
    "game_id": "401911232",
@@ -12883,5 +12883,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-19T00:16:22+00:00"
 }
