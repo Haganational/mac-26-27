@@ -65,7 +65,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -76,3 +76,4 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:preview -->
 - 2026-11-18: L 63-68 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401926781 -->
 - 2026-11-18: Social recap posted (L 63-68 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:preview -->

@@ -69,7 +69,7 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -77,3 +77,4 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 - 2026-11-07: W 77-74 vs Colgate Raiders. Barometer 48 (steady). <!-- g:401920770 -->
 - 2026-11-12: L 64-66 vs American University Eagles. Barometer 42 (testy). <!-- g:401912209 -->
 - 2026-11-14: W 66-64 at Maine Black Bears. Barometer 50 (steady). <!-- g:401923303 -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:preview -->

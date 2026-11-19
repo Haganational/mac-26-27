@@ -71,7 +71,7 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920896.html <!-- post:401920896:preview -->
 - 2026-11-16: L 81-89 at Wisconsin Badgers. Barometer 48 (steady). <!-- g:401920896 -->
 - 2026-11-16: Social recap posted (L 81-89 vs Wisconsin Badgers): https://hardwoodbricks.com/sunbelt/games/401920896.html <!-- post:401920896:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401906852.html <!-- post:401906852:preview -->

@@ -67,7 +67,7 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 - 2026-11-15: L 66-90 at Charleston Cougars. Barometer 46 (steady). <!-- g:401925926 -->
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:preview -->
 - 2026-11-15: Social recap posted (L 66-90 vs Charleston Cougars): https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:preview -->

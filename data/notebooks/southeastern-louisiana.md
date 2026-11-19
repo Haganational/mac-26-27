@@ -66,7 +66,7 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -76,3 +76,4 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/southland/games/401920808.html <!-- post:401920808:preview -->
 - 2026-11-17: L 69-101 at Texas A&M Aggies. Barometer 32 (testy). <!-- g:401920808 -->
 - 2026-11-17: Social recap posted (L 69-101 vs Texas A&M Aggies): https://hardwoodbricks.com/southland/games/401920808.html <!-- post:401920808:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:preview -->

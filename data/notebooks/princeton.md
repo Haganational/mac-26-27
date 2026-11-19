@@ -66,7 +66,7 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/a10/games/401920065.html <!-- post:401920065:preview -->
 - 2026-11-15: L 72-79 at Rhode Island Rams. Barometer 51 (steady). <!-- g:401920065 -->
 - 2026-11-15: Social recap posted (L 72-79 vs Rhode Island Rams): https://hardwoodbricks.com/a10/games/401920065.html <!-- post:401920065:recap -->
+- 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:preview -->
