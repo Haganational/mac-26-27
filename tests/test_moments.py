@@ -142,3 +142,13 @@ def test_anchor_moment_lines_never_name_players():
             assert "{" not in t.format(us="Toledo", them="Akron", when="at the buzzer", deficit=12, run="14-0", town="", margin=3, rival="")
     m = M.analyze(_game(_close_game()), home_spread=-5.0)
     assert M.anchor_moment(m, "home")[0] == "late_win" and M.anchor_moment(m, "away")[0] == "late_loss"
+
+
+def test_articles_read_right_aloud():
+    assert [M.an(n) for n in (8, 11, 18, 84, 12, 1)] == ["an", "an", "an", "an", "a", "a"]
+    run = {"before": [30, 22], "after": [41, 22]}
+    assert M._run_phrase(run, "X") == "stretching an 8-point lead to 19"
+
+
+def test_run_phrase_from_behind():
+    assert M._run_phrase({"before": [10, 16], "after": [24, 16]}, "X") == "turning a 6-point deficit into an 8-point lead"

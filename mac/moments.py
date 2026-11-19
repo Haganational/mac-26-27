@@ -377,8 +377,14 @@ def _score(us: int, them: int) -> str:
     return f"{us}-{them}"
 
 
+def an(n: int) -> str:
+    """'a' or 'an' before a number said aloud: an 8, an 11, an 18, an 80-something."""
+    s = str(n)
+    return "an" if s.startswith("8") or s in ("11", "18") else "a"
+
+
 def _pts(n: int) -> str:
-    return f"{n}-point"
+    return f"{an(n)} {n}-point"
 
 
 def _run_phrase(run: dict[str, Any], team: str) -> str:
@@ -386,14 +392,14 @@ def _run_phrase(run: dict[str, Any], team: str) -> str:
     b, a = run["before"], run["after"]
     d0, d1 = b[0] - b[1], a[0] - a[1]
     if d0 == 0:
-        return f"from {b[0]}-all to a {_pts(d1)} lead" if b[0] else f"to open the game"
+        return f"from {b[0]}-all to {_pts(d1)} lead" if b[0] else f"to open the game"
     if d0 < 0:
         if d1 > 0:
-            return f"turning a {_pts(-d0)} deficit into a {_pts(d1)} lead"
+            return f"turning {_pts(-d0)} deficit into {_pts(d1)} lead"
         if d1 == 0:
-            return f"erasing a {_pts(-d0)} deficit to tie it at {a[0]}"
-        return f"cutting a {_pts(-d0)} deficit to {-d1}"
-    return f"stretching a {_pts(d0)} lead to {d1}"
+            return f"erasing {_pts(-d0)} deficit to tie it at {a[0]}"
+        return f"cutting {_pts(-d0)} deficit to {-d1}"
+    return f"stretching {_pts(d0)} lead to {d1}"
 
 
 def recap_lines(m: dict[str, Any] | None, names: dict[str, str], seed: str = "", most: int = 3) -> list[str]:
@@ -409,7 +415,10 @@ def recap_lines(m: dict[str, Any] | None, names: dict[str, str], seed: str = "",
     if fg and fg.get("who") and fg["crunch"]:
         score = _score(*((fg["h"], fg["a"]) if win == "home" else (fg["a"], fg["h"])))
         if fg["left"] <= 1:
-            out.append(f"{fg['who']} won it with a {fg['shot']} {fg['when']}, {score}.")
+            if fg["kind"] == "ft":
+                out.append(f"{fg['who']} won it at the free-throw line with no time left, {score}.")
+            else:
+                out.append(f"{fg['who']} won it with {'an' if fg['shot'][0] in 'aeiou' else 'a'} {fg['shot']} {fg['when']}, {score}.")
         else:
             verb = "put" if fg["was"] == "behind" else "broke the tie and put"
             lead = _pick([f"{_poss(fg['who'])} {fg['shot']} {fg['when']} {verb} {wn} ahead for good, {score}.",
@@ -425,10 +434,14 @@ def recap_lines(m: dict[str, Any] | None, names: dict[str, str], seed: str = "",
         team = names.get(run["side"], "")
         phrase = _run_phrase(run, team)
         if run["side"] == win:
-            out.append(_pick([f"{team} took control with a {run['pts']}-0 run {run['where']}, {phrase}.",
-                              f"The game turned on a {run['pts']}-0 {team} run {run['where']}, {phrase}."], seed + "run"))
+            ahead = run["after"][0] > run["after"][1]
+            if ahead:
+                out.append(_pick([f"{team} took control with {an(run['pts'])} {run['pts']}-0 run {run['where']}, {phrase}.",
+                                  f"The game turned on {an(run['pts'])} {run['pts']}-0 {team} run {run['where']}, {phrase}."], seed + "run"))
+            else:
+                out.append(f"{team} rallied with {an(run['pts'])} {run['pts']}-0 run {run['where']}, {phrase}.")
         else:
-            out.append(f"{team} made a {run['pts']}-0 run {run['where']}, {phrase}, but could not hold it.")
+            out.append(f"{team} made {an(run['pts'])} {run['pts']}-0 run {run['where']}, {phrase}, but could not hold it.")
     cb = m.get("comeback")
     if cb:
         out.append(f"{wn} trailed by {cb['deficit']} {cb['when']} and came all the way back." if cb["per"] >= 2
@@ -475,10 +488,10 @@ def short_line(m: dict[str, Any] | None, side: str, names: dict[str, str]) -> st
     fg = m.get("for_good")
     won = m["winner"] == side
     if fg and fg["crunch"] and fg.get("who"):
-        secs = int(round(fg["left"]))
-        clock = "at the buzzer" if secs <= 1 else (f"with {secs} seconds left" if secs < 60 else f"with {secs // 60}:{secs % 60:02d} left")
-        if fg["per"] >= 3:
-            clock += " in overtime"
+        clock = when({"t": fg["t"], "per": fg["per"]}, m.get("periods"))
+        if fg["kind"] == "ft" and fg["left"] <= 1:
+            return (f"{fg['who']} won it at the line with no time left." if won
+                    else f"{fg['who']} beat them at the line with no time left.")
         if won:
             return f"{_poss(fg['who'])} {fg['shot']} {clock} won it."
         return f"{_poss(fg['who'])} {fg['shot']} {clock} beat them."
@@ -487,7 +500,7 @@ def short_line(m: dict[str, Any] | None, side: str, names: dict[str, str]) -> st
         team = names.get(run["side"], "")
         when_ = run["where"].replace("midway through", "in the middle of")
         if run["side"] == side and won:
-            return f"A {run['pts']}-0 run {when_} did it."
+            return f"{an(run['pts']).capitalize()} {run['pts']}-0 run {when_} did it."
         if run["side"] != side and not won:
             return f"{team} ran off {run['pts']} straight {when_}."
     cb = m.get("comeback")
