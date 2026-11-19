@@ -53,7 +53,10 @@ def test_shark_only_takes_a_home_dog_from_3_to_10_and_that_games_total():
     assert any(i in ps[1]["why"] for i in tops.INSIDE)
     assert tops.shark(_board(), DAY) == ps, "same morning, same pick"
     neutral = [dict(b, neutral=True) for b in _board()]
-    assert tops.shark(neutral, DAY) == [], "a neutral floor has no home dog"
+    assert len(tops.shark(neutral, DAY)) == 2, "no home dogs at all: he still takes a home team and its total"
+    outside = [b for b in _board() if b["id"] != "2"]  # only dog left is +12, outside the window
+    ps = tops.shark(outside, DAY)
+    assert ps[0]["game"] == "4" and ps[0]["line"] == 12.0, "nearest home dog to the window"
 
 
 def test_min_games_keeps_one_game_teams_off_the_points_rankings():
@@ -108,7 +111,9 @@ def test_neutral_site_with_disagreeing_favorites_gets_no_side(tmp_path):
     d = tmp_path / "lg"
     _write_day(d, [_sg("1", "1", "2", neutral_site=True)], [_pr("1", 6.0, -6.0, 140, 139)])
     bd = tops.board(DAY, LOCK, [d], scoring={})
-    assert bd[0]["sides_ok"] is False and tops.brett(bd, DAY) == []
+    assert bd[0]["sides_ok"] is False
+    ok = _board()
+    assert [p["game"] for p in tops.brett(bd + ok, DAY)] == ["1", "3"], "games we can't orient go to the back of the line"
 
 
 def test_lock_once_at_815_then_grade_and_rank(tmp_path):
@@ -151,3 +156,17 @@ def test_inside_information_names_no_real_people():
     # House rule: the Shark's sources are invented. Keep real names out of the bank.
     for line in tops.INSIDE:
         assert "Trump" not in line and "Bellini" not in line
+
+
+def test_every_capper_makes_two_picks_even_on_a_thin_board():
+    one = [_b("9", -1.0, -1.0, 140.0, 140.0, _team(1, 70, 70, g=0), _team(2, 70, 70, g=0))]
+    for k, rule in tops.RULES.items():
+        ps = rule(one, DAY)
+        assert len(ps) == 2, k
+        assert len({(p["game"], p["kind"]) for p in ps}) == 2, k
+    # Merv with only two ranked teams moves up the list to the second-stingiest
+    two = [_b("1", -5.0, -6.0, 140.0, 141.0, _team(1, 80, 60), _team(2, 70, 75))]
+    ps = tops.merv(two, DAY)
+    assert ps[0]["label"] == "Under 140" and "Closest thing" in ps[0]["why"]
+    assert ps[1]["team"] == "Team 2" and ps[1]["why"].startswith("Second-stingiest")
+    assert tops.make_picks([], DAY) == {k: [] for k in tops.RULES}

@@ -15,6 +15,10 @@ The four and their rules (Matthew's words, made exact here):
                                   real person or business (house rule). Which dog and which way are a coin
                                   seeded by the date, so a rerun on the same morning picks the same thing.
 
+Every handicapper makes two picks a night (Matthew, Nov 19 2026). When a rule comes up short, the pick moves to the
+next one up or down the same list (the closest under, the nearest home dog to the window, the next team on the
+points list), and only when the list is empty does a coin seeded by the date choose.
+
 "The board" is every game on our 27 editions' schedules tipping that Eastern day with a pre-game spread and total
 (our model logs both, data/**/model/projections.jsonl), neither side non-D-I. Points per game and allowed are this
 season's D-I results before that day (data/ncaa/games-<season>.json), two games minimum.
@@ -274,65 +278,129 @@ def model_side(b: dict[str, Any]) -> str:
     return "home" if b["model_spread"] - b["spread"] < 0 else "away"
 
 
-def brett(bd: list[dict[str, Any]], day: str) -> list[dict[str, Any]]:
-    ok = [b for b in bd if b["sides_ok"] and b["model_spread"] != b["spread"]]
-    ok.sort(key=lambda b: (-abs(b["model_spread"] - b["spread"]), b["id"]))
-    out = []
-    for b in ok[:2]:
-        gap = abs(b["model_spread"] - b["spread"])
-        out.append(side_pick(b, model_side(b), f"Model is {gap:.1f} points off the number."))
+PICKS_EACH = 2  # Matthew, Nov 19 2026: every handicapper makes two picks a night, rules or no rules
+
+
+def _gap_rank(bd: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Games by the model's distance from the spread, biggest first; games we can't orient go last."""
+    return sorted(bd, key=lambda b: (not b["sides_ok"], -abs(b["model_spread"] - b["spread"]), b["id"]))
+
+
+def _random_pick(bd: list[dict[str, Any]], day: str, who: str, n: int, taken: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """Last resort when a rule comes up empty: a seeded coin picks a game and a side or total."""
+    used = {(p["game"], p["kind"]) for p in taken}
+    opts = [(b, k) for b in sorted(bd, key=lambda b: b["id"]) for k in ("side", "total") if (b["id"], k) not in used]
+    if not opts:
+        return None
+    b, k = _choose(opts, who, "random", day, n)
+    if k == "side":
+        side = _choose(["home", "away"], who, "random-side", day, n)
+        return side_pick(b, side, "Nothing on the board fit the rule tonight, so this one's a coin flip.")
+    way = _choose(["over", "under"], who, "random-way", day, n)
+    return total_pick(b, way, "Nothing on the board fit the rule tonight, so this one's a coin flip.")
+
+
+def _fill(out: list[dict[str, Any]], bd: list[dict[str, Any]], day: str, who: str) -> list[dict[str, Any]]:
+    while len(out) < PICKS_EACH:
+        p = _random_pick(bd, day, who, len(out), out)
+        if not p:
+            break
+        out.append(p)
     return out
 
 
+def brett(bd: list[dict[str, Any]], day: str) -> list[dict[str, Any]]:
+    out = []
+    for b in _gap_rank(bd)[:PICKS_EACH]:
+        gap = abs(b["model_spread"] - b["spread"])
+        out.append(side_pick(b, model_side(b), f"Model is {gap:.1f} points off the number."))
+    return _fill(out, bd, day, "brett")
+
+
 def _best_total(bd: list[dict[str, Any]], way: str) -> dict[str, Any] | None:
+    """The game where the model leans hardest `way`; if none leans that way, the one closest to it."""
     sign = 1 if way == "over" else -1
-    ok = [b for b in bd if b["totals_ok"] and sign * (b["model_total"] - b["total"]) > 0]
-    ok.sort(key=lambda b: (-sign * (b["model_total"] - b["total"]), b["id"]))
+    ok = sorted(bd, key=lambda b: (not b["totals_ok"], -sign * (b["model_total"] - b["total"]), b["id"]))
     return ok[0] if ok else None
 
 
+def _total_why(b: dict[str, Any], way: str) -> str:
+    gap = (b["model_total"] - b["total"]) * (1 if way == "over" else -1)
+    if gap > 0:
+        return f"Model has it {gap:.1f} {way} the total."
+    return f"Closest thing to an {way} on the board tonight."
+
+
 def _ranked_teams(bd: list[dict[str, Any]], stat: str, reverse: bool) -> list[tuple[dict[str, Any], str]]:
-    """(board game, side) for every team on the board with enough games, best first on `stat`."""
-    rows = [(b, s) for b in bd if b["sides_ok"] for s in ("home", "away")
-            if b[s].get("g", 0) >= MIN_GAMES and b[s].get(stat) is not None]
-    rows.sort(key=lambda x: (-x[0][x[1]][stat] if reverse else x[0][x[1]][stat], x[0][x[1]]["id"]))
+    """(board game, side) for every team on the board with a number, best first on `stat`.
+    Teams with enough games come first; short samples and games we can't orient fill in behind them."""
+    rows = [(b, s) for b in bd for s in ("home", "away") if b[s].get(stat) is not None]
+    rows.sort(key=lambda x: (not x[0]["sides_ok"], x[0][x[1]].get("g", 0) < MIN_GAMES,
+                             -x[0][x[1]][stat] if reverse else x[0][x[1]][stat], x[0][x[1]]["id"]))
     return rows
+
+
+def _nth(rows: list[Any], n: int) -> Any:
+    """The nth (0-based) if it's there, else the nearest one up the list."""
+    return rows[min(n, len(rows) - 1)] if rows else None
+
+
+STINGY = {1: "Stingiest", 2: "Second-stingiest", 3: "Third-stingiest"}
 
 
 def merv(bd: list[dict[str, Any]], day: str) -> list[dict[str, Any]]:
     out = []
     u = _best_total(bd, "under")
     if u:
-        out.append(total_pick(u, "under", f"Model has it {u['total'] - u['model_total']:.1f} under the total."))
+        out.append(total_pick(u, "under", _total_why(u, "under")))
     ranked = _ranked_teams(bd, "papg", reverse=False)
-    if len(ranked) >= 3:
-        b, s = ranked[2]
-        out.append(side_pick(b, s, f"Third-stingiest defense on the board: {b[s]['papg']:.1f} allowed a game."))
-    return out
+    hit = _nth(ranked, 2)
+    if hit:
+        b, s = hit
+        i = ranked.index(hit) + 1
+        out.append(side_pick(b, s, f"{STINGY[i]} defense on the board: {b[s]['papg']:.1f} allowed a game."))
+    return _fill(out, bd, day, "merv")
 
 
 def leslie(bd: list[dict[str, Any]], day: str) -> list[dict[str, Any]]:
     out = []
     o = _best_total(bd, "over")
     if o:
-        out.append(total_pick(o, "over", f"Model has it {o['model_total'] - o['total']:.1f} over the total."))
+        out.append(total_pick(o, "over", _total_why(o, "over")))
     ranked = _ranked_teams(bd, "ppg", reverse=True)
-    if len(ranked) >= 2:
-        b, s = ranked[1]
-        out.append(side_pick(b, s, f"Second-highest scoring team on the board: {b[s]['ppg']:.1f} a game."))
-    return out
+    hit = _nth(ranked, 1)
+    if hit:
+        b, s = hit
+        i = ranked.index(hit) + 1
+        out.append(side_pick(b, s, f"{'Second-highest' if i == 2 else 'Highest'} scoring team on the board: {b[s]['ppg']:.1f} a game."))
+    return _fill(out, bd, day, "leslie")
+
+
+def _dog_distance(b: dict[str, Any]) -> float:
+    """How far a home team's number sits outside the 3-to-10 window (0 inside it)."""
+    return max(DOG_MIN - b["spread"], b["spread"] - DOG_MAX, 0.0)
 
 
 def shark(bd: list[dict[str, Any]], day: str) -> list[dict[str, Any]]:
-    dogs = [b for b in bd if not b["neutral"] and DOG_MIN <= b["spread"] <= DOG_MAX]
-    if not dogs:
-        return []
-    dogs.sort(key=lambda b: b["id"])
-    b = _choose(dogs, "shark-dog", day)
     way = _choose(["over", "under"], "shark-way", day)
     info = _choose(INSIDE, "shark-info", day)
-    return [side_pick(b, "home", "Home dog in the window. I like a building that owes me money."),
-            total_pick(b, way, info + " " + _choose(SHARK_SIGNOFF[way], "shark-sign", day))]
+    total_why = info + " " + _choose(SHARK_SIGNOFF[way], "shark-sign", day)
+    dogs = sorted([b for b in bd if not b["neutral"] and DOG_MIN <= b["spread"] <= DOG_MAX], key=lambda b: b["id"])
+    if dogs:
+        b = _choose(dogs, "shark-dog", day)
+        why = "Home dog in the window. I like a building that owes me money."
+    else:
+        # Nothing in the window: the home team nearest it, up or down the list. Then any game at all.
+        homes = sorted([b for b in bd if not b["neutral"]], key=lambda b: (_dog_distance(b), b["id"]))
+        if homes:
+            b = homes[0]
+            why = "Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money."
+        elif bd:
+            b = _choose(sorted(bd, key=lambda b: b["id"]), "shark-any", day)
+            why = "No home dogs tonight. I'm taking the home team anyway. Call it loyalty."
+        else:
+            return []
+    return [side_pick(b, "home", why), total_pick(b, way, total_why)]
 
 
 RULES = {"merv": merv, "leslie": leslie, "brett": brett, "shark": shark}
