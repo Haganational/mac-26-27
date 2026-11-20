@@ -70,7 +70,7 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:preview -->
 - 2026-11-20: W 86-70 vs Charleston Cougars. Barometer 65 (buoyant). <!-- g:401926814 -->
 - 2026-11-20: Social recap posted (W 86-70 vs Charleston Cougars): https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:preview -->

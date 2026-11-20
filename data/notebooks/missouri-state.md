@@ -72,7 +72,7 @@ Wes Ozark runs a tackle shop on the edge of Springfield and guides bass anglers 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Wes Ozark runs a tackle shop on the edge of Springfield and guides bass anglers 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/cusa/games/401917964.html <!-- post:401917964:preview -->
 - 2026-11-17: W 73-64 vs Abilene Christian Wildcats. Barometer 82 (giddy). <!-- g:401917964 -->
 - 2026-11-17: Social recap posted (W 73-64 vs Abilene Christian Wildcats): https://hardwoodbricks.com/cusa/games/401917964.html <!-- post:401917964:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:preview -->
