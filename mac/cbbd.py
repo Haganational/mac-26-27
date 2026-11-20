@@ -254,5 +254,8 @@ if __name__ == "__main__":
     elif cmd == "halves":
         from .halves_study import main as halves_main
         halves_main(int(sys.argv[2]), int(sys.argv[3] if len(sys.argv) > 3 else sys.argv[2]))
+    elif cmd == "edge":
+        from .edge_study import main as edge_main
+        edge_main("cbbd", int(sys.argv[2]), int(sys.argv[3] if len(sys.argv) > 3 else sys.argv[2]))
     else:
         print(__doc__)

@@ -18,7 +18,7 @@ on:
         description: "What to pull: teams, lines, games (scores by half), players; comma-separated"
         default: "teams,lines,games"
       study:
-        description: "Which study to run: cbbd (model v1.0 vs v1.1) or halves (first half vs second half)"
+        description: "Which study to run: cbbd (model v1.0 vs v1.1), halves (first half vs second half) or edge (biggest nightly model-vs-spread edge)"
         default: "cbbd"
 
 permissions:
@@ -54,12 +54,12 @@ jobs:
           path: data/cache/cbbd
           key: cbbd-${{ github.run_id }}
       - name: Study (no API calls)
-        run: python -m mac.cbbd ${{ inputs.study == 'halves' && 'halves' || 'study' }} ${{ inputs.first }} ${{ inputs.last }}
+        run: python -m mac.cbbd ${{ inputs.study == 'halves' && 'halves' || inputs.study == 'edge' && 'edge' || 'study' }} ${{ inputs.first }} ${{ inputs.last }}
       - name: Commit summary
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          for f in data/cbbd_calls.jsonl data/model/cbbd_study.json data/model/halves_study.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          for f in data/cbbd_calls.jsonl data/model/cbbd_study.json data/model/halves_study.json data/model/edge_study_cbbd.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet && echo "nothing new" || git commit -m "model: CBBD ${{ inputs.study }} study ${{ inputs.first }}-${{ inputs.last }}"
           git push || { git pull --rebase origin main && git push; }
