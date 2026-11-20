@@ -172,7 +172,7 @@
   const gameByLabel = new Map(D.games.map(g => [g.label, g])), gameById = new Map(D.games.map(g => [g.id, g]));
   const playerByLabel = new Map(D.players.map(p => [p.label, p])), playerById = new Map(D.players.map(p => [p.id, p]));
   const teamName = Object.fromEntries(D.teams.map(t => [t.key, t.short]));
-  let about = { conf: false, video: null };  // {conf, video: {id, title}}: a conference note or one about a video
+  let about = { conf: false, video: null, ref: null };  // a conference note, or one about a video or any page of the site ({url, title})
   let editing = null; // {branch, path, sha, pr} when editing a draft or a published dispatch
   let photos = [];     // [{name, caption, blob?, url}] in the order they show; blob = not uploaded yet
 
@@ -231,6 +231,7 @@
     if (f.author) L.push('author: ' + f.author.replace(/\n/g, ' '));
     if (about.conf) L.push('about: conference');
     if (about.video) L.push('video: ' + about.video.id + (about.video.title ? ' | ' + about.video.title.replace(/[\n#]/g, ' ') : ''));
+    if (about.ref) L.push('ref: ' + about.ref.url.replace(/#/g, '%23') + (about.ref.title ? ' | ' + about.ref.title.replace(/[\n#|]/g, ' ') : ''));
     if (f.article) L.push('format: article');
     photos.forEach(ph => L.push('photo: ' + ph.name + (ph.caption ? ' | ' + ph.caption.replace(/[\n#]/g, ' ') : '')));
     L.push('date: ' + f.date, '---', '', f.body.trim(), '');
@@ -259,14 +260,16 @@
     const p = playerById.get(meta.player || ''); $('#player').value = p ? p.label : '';
     photos = (meta.photos || []).map(v => { const [name, ...cap] = v.split('|'); return { name: name.trim(), caption: cap.join('|').trim(), url: 'photos/' + name.trim() }; }).filter(ph => ph.name);
     drawPhotos();
-    const vm = (meta.video || '').split('|'); setAbout(meta.about === 'conference', vm[0].trim() ? { id: vm[0].trim(), title: vm.slice(1).join('|').trim() } : null);
+    const vm = (meta.video || '').split('|'), rm = (meta.ref || '').split('|');
+    setAbout(meta.about === 'conference', vm[0].trim() ? { id: vm[0].trim(), title: vm.slice(1).join('|').trim() } : null,
+             rm[0].trim() ? { url: rm[0].trim().replace(/%23/g, '#'), title: rm.slice(1).join('|').trim() } : null);
     $('#article').checked = (meta.format || '').toLowerCase() === 'article';
     $('#author').value = meta.author || ''; $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
     render();
   }
-  function setAbout(conf, video) {
-    about = { conf: !!conf, video: video || null };
-    const t = about.video ? '▶ About the video: ' + (about.video.title || about.video.id) : about.conf ? 'About the ' + LEAGUE_NAME + ' as a whole' : '';
+  function setAbout(conf, video, ref) {
+    about = { conf: !!conf, video: video || null, ref: ref || null };
+    const t = about.video ? '▶ About the video: ' + (about.video.title || about.video.id) : about.ref ? '↗ About: ' + (about.ref.title || about.ref.url) : about.conf ? 'About the ' + LEAGUE_NAME + ' as a whole' : '';
     $('#abouttxt').textContent = t; $('#aboutref').hidden = !t;
   }
   function render() {
@@ -597,7 +600,8 @@
   if (q.get('game') && gameById.get(q.get('game'))) $('#game').value = gameById.get(q.get('game')).label;
   if (q.get('team')) $$('input[name=team]').forEach(i => i.checked = i.value === q.get('team'));
   if (q.get('player') && playerById.get(q.get('player'))) $('#player').value = playerById.get(q.get('player')).label;
-  if (q.get('conf') || q.get('video')) setAbout(!!q.get('conf'), /^[A-Za-z0-9_-]{11}$/.test(q.get('video') || '') ? { id: q.get('video'), title: q.get('vt') || '' } : null);
+  if (q.get('conf') || q.get('video') || q.get('ref')) setAbout(!!q.get('conf'), /^[A-Za-z0-9_-]{11}$/.test(q.get('video') || '') ? { id: q.get('video'), title: q.get('vt') || '' } : null,
+    /^\/[A-Za-z0-9\/_.~%#?=&+-]*$/.test(q.get('ref') || '') ? { url: q.get('ref'), title: (q.get('rt') || '').slice(0, 140) } : null);
   if (q.get('article')) { $('#article').checked = true; $('#formtitle').textContent = CONTRIB ? 'New article from ' + CONTRIB : 'New article'; }
   // At-large: every edition has a desk. Switching keeps the byline (?by=), the GitHub sign-in and the draft (all in this browser).
   $('#confpick').addEventListener('change', (e) => { render(); location.href = e.target.value + (CONTRIB ? '?by=' + encodeURIComponent(CONTRIB) : ''); });

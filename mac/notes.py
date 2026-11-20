@@ -17,6 +17,7 @@ Each dispatch is a Markdown file in notes/dispatches/, committed to the repo:
     about: conference        optional: a note about the whole conference rather than one game or team
     video: dQw4w9WgXcQ | Title   optional: the YouTube video the dispatch is about
     format: article          optional: an original article, published on its own page (articles/<slug>.html)
+    ref: /tops.html | Title  optional: the page of the site it is about (a pick, a ranking, a list): a path from the site root
     ---
     The dispatch itself, in Markdown.
 
@@ -48,6 +49,7 @@ from .config import LEAGUE, ROOT
 
 NOTES_DIR = ROOT / "notes" / "dispatches"
 PHOTOS_DIR = ROOT / "notes" / "photos"
+REF_RE = re.compile(r"^/[A-Za-z0-9/_.~%#?=&+-]*$")
 VIDEO_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 PHOTO_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*\.(jpe?g|png|webp)$", re.I)
 REPO = "Haganational/mac-26-27"
@@ -154,6 +156,15 @@ def video_of(v: str | None) -> dict[str, str] | None:
     return {"id": vid, "title": title.strip() or "the video", "url": f"https://www.youtube.com/watch?v={vid}"}
 
 
+def ref_of(v: str | None) -> dict[str, str] | None:
+    """'/path/on/the/site | Title' -> {url, title}; only paths on this site (from its root) are kept."""
+    url, _, title = (v or "").partition("|")
+    url = url.strip().replace("%23", "#")
+    if not REF_RE.match(url) or url.startswith("//"):
+        return None
+    return {"url": url, "title": title.strip() or url}
+
+
 def default_credit() -> str:
     from .config import DATA_DIR, SHARED_DIR
     import json
@@ -219,6 +230,7 @@ def load(notes_dir: Path | None = None, include_drafts: bool = False,
             "edit_url": f"https://github.com/{REPO}/edit/{BRANCH}/notes/dispatches/{quote(path.name)}",
             "about": (meta.get("about") or "").lower(),
             "video": video_of(meta.get("video")),
+            "ref": ref_of(meta.get("ref")),
             "article": (meta.get("format") or "").lower() == "article",
             "href": f"articles/{path.stem}.html" if (meta.get("format") or "").lower() == "article" else f"notes.html#n-{path.stem}",
         })
