@@ -40,11 +40,13 @@ import requests
 from . import alert
 from .reels import (GRAPH, PDS, REPO, THREADS, _facets, _ok, _wait, bsky_session, ig_auth, page_token, resolve)
 
+# No Threads here: Threads gets about one automated post a day (the MidMaxx60 video, mac/reels.py)
+# plus the pushes Matthew asks for (Matthew, Nov 20 2026). Add "threads" back to a route to resume.
 ROUTES = {
-    "potn": ("instagram", "facebook", "threads", "bluesky"),
-    "bricked": ("facebook", "threads", "bluesky"),
-    "slate": ("threads", "bluesky"),
-    "desk": ("instagram", "facebook", "threads", "bluesky"),
+    "potn": ("instagram", "facebook", "bluesky"),
+    "bricked": ("facebook", "bluesky"),
+    "slate": ("bluesky",),
+    "desk": ("instagram", "facebook", "bluesky"),
 }
 NAMES = {"potn": "Players of the Night", "bricked": "Bricked", "slate": "Tonight's Four", "desk": "Beat the Desk"}
 IG_MAX, TH_MAX, BSKY_MAX = 10, 20, 4

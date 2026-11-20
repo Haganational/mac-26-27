@@ -46,6 +46,8 @@ def test_routes_and_secrets(tmp_path):
     env = {"FB_PAGE_ID": "1", "FB_PAGE_TOKEN": "t", "IG_USER_ID": "2", "BSKY_HANDLE": "h", "BSKY_APP_PASSWORD": "p"}
     assert cardpost.networks("potn", man, env) == ["instagram", "facebook", "bluesky"]
     assert cardpost.networks("slate", man, env) == ["bluesky"]
+    env["THREADS_ACCESS_TOKEN"] = "x"
+    assert all("threads" not in cardpost.networks(k, man, env) for k in cardpost.ROUTES)
     assert cardpost.networks("desk", man, {}) == []
 
 
