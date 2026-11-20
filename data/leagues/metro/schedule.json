@@ -2752,7 +2752,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2760,13 +2760,13 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:04 - 1st"
   },
   {
    "game_id": "401919827",
@@ -11401,5 +11401,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T22:03:35+00:00"
 }
