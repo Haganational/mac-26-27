@@ -72,7 +72,7 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -84,3 +84,4 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401929004.html <!-- post:401929004:preview -->
 - 2026-11-19: W 79-63 vs (neutral) Hawai'i Rainbow Warriors. Barometer 55 (steady). <!-- g:401929004 -->
 - 2026-11-19: Social recap posted (W 79-63 vs Hawai'i Rainbow Warriors): https://hardwoodbricks.com/mw/games/401929004.html <!-- post:401929004:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/pac12/games/401909567.html <!-- post:401909567:preview -->
