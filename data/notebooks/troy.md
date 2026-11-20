@@ -67,7 +67,7 @@ Earl Weatherby directed high school marching bands across the Wiregrass for thir
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ Earl Weatherby directed high school marching bands across the Wiregrass for thir
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:preview -->
 - 2026-11-18: W 84-74 vs Cal State Northridge Matadors. Barometer 47 (steady). <!-- g:401920297 -->
 - 2026-11-18: Social recap posted (W 84-74 vs Cal State Northridge Matadors): https://hardwoodbricks.com/bigwest/games/401920297.html <!-- post:401920297:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:preview -->

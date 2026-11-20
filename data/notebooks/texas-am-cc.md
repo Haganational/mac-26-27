@@ -69,7 +69,7 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:preview -->
 - 2026-11-18: L 74-81 at Rice Owls. Barometer 42 (testy). <!-- g:401921097 -->
 - 2026-11-18: Social recap posted (L 74-81 vs Rice Owls): https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401925099.html <!-- post:401925099:preview -->

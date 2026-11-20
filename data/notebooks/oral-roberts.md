@@ -72,7 +72,7 @@ Hal Brennan drove a delivery truck along old Route 66 for thirty years and remem
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -83,3 +83,4 @@ Hal Brennan drove a delivery truck along old Route 66 for thirty years and remem
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/summit/games/401918970.html <!-- post:401918970:preview -->
 - 2026-11-18: L 72-76 at SMU Mustangs. Barometer 48 (steady). <!-- g:401918970 -->
 - 2026-11-18: Social recap posted (L 72-76 vs SMU Mustangs): https://hardwoodbricks.com/summit/games/401918970.html <!-- post:401918970:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401925099.html <!-- post:401925099:preview -->

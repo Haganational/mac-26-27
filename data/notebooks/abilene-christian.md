@@ -69,7 +69,7 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/uac/games/401917965.html <!-- post:401917965:preview -->
 - 2026-11-19: W 103-41 vs McMurry War Hawks. Barometer 49 (steady). <!-- g:401917965 -->
 - 2026-11-19: Social recap posted (W 103-41 vs McMurry War Hawks): https://hardwoodbricks.com/uac/games/401917965.html <!-- post:401917965:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/uac/games/401917966.html <!-- post:401917966:preview -->
