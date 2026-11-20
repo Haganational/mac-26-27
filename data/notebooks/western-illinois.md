@@ -68,7 +68,7 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 - 2026-11-17: L 63-99 at Minnesota Golden Gophers. Barometer 34 (testy). <!-- g:401916307 -->
 - 2026-11-17: Social recap posted (L 63-99 vs Minnesota Golden Gophers): https://hardwoodbricks.com/ovc/games/401916307.html <!-- post:401916307:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ovc/games/401919826.html <!-- post:401919826:preview -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:preview -->
