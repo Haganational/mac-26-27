@@ -69,7 +69,7 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:preview -->
 - 2026-11-18: L 62-99 at Eastern Michigan Eagles. Barometer 17 (despondent). <!-- g:401920947 -->
 - 2026-11-19: Social recap posted (L 62-99 vs Eastern Michigan Eagles): https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401925756.html <!-- post:401925756:preview -->

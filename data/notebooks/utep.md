@@ -27,9 +27,9 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
+**77 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hector editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hector editorializes: 77% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,5 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 - 2026-11-16: W 79-46 vs Florida A&M Rattlers. Barometer 70 (buoyant). <!-- g:401929419 -->
 - 2026-11-16: Social recap posted (W 79-46 vs Florida A&M Rattlers): https://hardwoodbricks.com/mw/games/401929419.html <!-- post:401929419:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->
+- 2026-11-20: W 84-69 at New Mexico State Aggies. Barometer 77 (buoyant). <!-- g:401911534 -->
+- 2026-11-20: Social recap posted (W 84-69 vs New Mexico State Aggies): https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:recap -->

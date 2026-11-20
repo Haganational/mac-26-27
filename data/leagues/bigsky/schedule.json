@@ -2327,21 +2327,21 @@
     "key": "portland-state",
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 125,
-    "winner": null
+    "score": 132,
+    "winner": true
    },
    "away": {
     "espn_id": "3218",
     "key": null,
     "name": "Northwest Indian RedHawks",
     "abbr": "NWIC",
-    "score": 35,
-    "winner": null
+    "score": 41,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922022",
@@ -9694,5 +9694,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T04:34:34+00:00"
+ "live_at": "2026-11-20T05:07:16+00:00"
 }

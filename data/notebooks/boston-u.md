@@ -70,7 +70,7 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:preview -->
 - 2026-11-19: W 65-60 at Merrimack Warriors. Barometer 71 (buoyant). <!-- g:401923401 -->
 - 2026-11-19: Social recap posted (W 65-60 vs Merrimack Warriors): https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:preview -->

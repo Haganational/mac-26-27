@@ -27,9 +27,9 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 
 ## Barometer
 
-**83 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**86 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,5 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 - 2026-11-15: W 97-47 vs UC Merced Bobcats. Barometer 83 (giddy). <!-- g:401928353 -->
 - 2026-11-15: Social recap posted (W 97-47 vs UC Merced Bobcats): https://hardwoodbricks.com/bigwest/games/401928353.html <!-- post:401928353:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:preview -->
+- 2026-11-20: W 88-80 at Pepperdine Waves. Barometer 86 (giddy). <!-- g:401928354 -->
+- 2026-11-20: Social recap posted (W 88-80 vs Pepperdine Waves): https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:recap -->

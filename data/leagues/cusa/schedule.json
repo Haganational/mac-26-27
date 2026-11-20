@@ -1908,7 +1908,7 @@
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
     "score": 69,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2638",
@@ -1916,12 +1916,12 @@
     "name": "UTEP Miners",
     "abbr": "UTEP",
     "score": 84,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401916122",
@@ -8997,5 +8997,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T04:33:02+00:00"
+ "live_at": "2026-11-20T05:06:25+00:00"
 }
