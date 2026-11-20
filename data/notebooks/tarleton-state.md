@@ -27,9 +27,9 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
+**54 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bo editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bo editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 - 2026-11-17: W 83-79 at Drake Bulldogs. Barometer 70 (buoyant). <!-- g:401927364 -->
 - 2026-11-17: Social recap posted (W 83-79 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:preview -->
+- 2026-11-20: L 51-96 at USC Trojans. Barometer 54 (steady). <!-- g:401926773 -->
+- 2026-11-20: Social recap posted (L 51-96 vs USC Trojans): https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:recap -->

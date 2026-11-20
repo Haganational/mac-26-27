@@ -70,7 +70,7 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/horizon/games/401909544.html <!-- post:401909544:preview -->
 - 2026-11-18: L 67-75 at Xavier Musketeers. Barometer 48 (steady). <!-- g:401909544 -->
 - 2026-11-18: Social recap posted (L 67-75 vs Xavier Musketeers): https://hardwoodbricks.com/horizon/games/401909544.html <!-- post:401909544:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:preview -->

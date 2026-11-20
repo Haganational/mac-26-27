@@ -2811,21 +2811,21 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 71,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
    "away": {
     "espn_id": "2670",
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": 71,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401919019",
@@ -12874,5 +12874,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T05:38:03+00:00"
+ "live_at": "2026-11-20T06:16:19+00:00"
 }

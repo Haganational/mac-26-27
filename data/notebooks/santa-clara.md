@@ -27,9 +27,9 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 
 ## Barometer
 
-**83 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**62 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 - 2026-11-15: W 90-85 vs New Mexico Lobos. Barometer 83 (giddy). <!-- g:401917530 -->
 - 2026-11-15: Social recap posted (W 90-85 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401917530.html <!-- post:401917530:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:preview -->
+- 2026-11-20: L 77-83 vs VCU Rams. Barometer 62 (steady). <!-- g:401917536 -->
+- 2026-11-20: Social recap posted (L 77-83 vs VCU Rams): https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:recap -->
