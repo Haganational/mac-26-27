@@ -55,6 +55,11 @@ def bets(proj: list[dict[str, Any]], line_key: str = "home_spread") -> list[dict
             "side": "home" if take_home else "away", "line": line,
             "model": round(r["proj"]["spread"], 1), "margin": r["pts_h"] - r["pts_a"],
             "games_min": min(r.get("games_h", 0), r.get("games_a", 0)),
+            "book": r["line"].get(f"{line_key}_book", "espn"),
+            # the model sits near the line's mirror image: a sign-flipped line is likely
+            "flip_suspect": abs(line) >= 3 and abs(r["proj"]["spread"] + line) <= 3,
+            "line_err": abs(-line - (r["pts_h"] - r["pts_a"])),
+            "model_err": abs(r["proj"]["margin"] - (r["pts_h"] - r["pts_a"])),
             "outcome": "P" if result == 0 else ("W" if (result > 0) == take_home else "L"),
         })
     return out
@@ -117,7 +122,21 @@ def strategies(b: list[dict[str, Any]]) -> dict[str, Any]:
     }
     for t in THRESHOLDS:
         s[f"edge_{t}plus"] = (lambda t=t: [x for x in b if x["edge"] >= t])
-    return {k: record(f()) for k, f in s.items()}
+    out = {k: record(f()) for k, f in s.items()}
+    # data-quality checks: are the big edges real disagreements or bad lines?
+    clean = [x for x in b if not x["flip_suspect"]]
+    out["top1_per_night_no_flip_suspects"] = record(top_n_per_night(clean, 1))
+    for t in (7, 10):
+        big = [x for x in b if x["edge"] >= t]
+        out[f"edge_{t}plus_no_flip_suspects"] = record([x for x in big if not x["flip_suspect"]])
+        out[f"edge_{t}plus_flip_suspects"] = record([x for x in big if x["flip_suspect"]])
+        out[f"edge_{t}plus_by_book"] = {bk: record([x for x in big if x["book"] == bk])
+                                        for bk in sorted({x["book"] for x in big})}
+        if big:
+            out[f"edge_{t}plus_mae"] = {"line": round(sum(x["line_err"] for x in big) / len(big), 2),
+                                        "model": round(sum(x["model_err"] for x in big) / len(big), 2)}
+    out["books_all_games"] = {bk: sum(x["book"] == bk for x in b) for bk in sorted({x["book"] for x in b})}
+    return out
 
 
 def run(proj_by_season: dict[int, list[dict[str, Any]]], source: str) -> dict[str, Any]:

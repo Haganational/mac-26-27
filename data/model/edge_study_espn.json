@@ -122,6 +122,126 @@
     "roi": -0.1016,
     "units": -3.45,
     "avg_edge": 17.68
+   },
+   "top1_per_night_no_flip_suspects": {
+    "bets": 126,
+    "w": 62,
+    "l": 64,
+    "push": 0,
+    "pct": 0.4921,
+    "ci95": [
+     0.406,
+     0.578
+    ],
+    "p_vs_breakeven": 0.789,
+    "roi": -0.0606,
+    "units": -7.64,
+    "avg_edge": 8.14
+   },
+   "edge_7plus_no_flip_suspects": {
+    "bets": 103,
+    "w": 53,
+    "l": 50,
+    "push": 0,
+    "pct": 0.5146,
+    "ci95": [
+     0.419,
+     0.609
+    ],
+    "p_vs_breakeven": 0.6132,
+    "roi": -0.0177,
+    "units": -1.82,
+    "avg_edge": 11.16
+   },
+   "edge_7plus_flip_suspects": {
+    "bets": 3,
+    "w": 1,
+    "l": 2,
+    "push": 0,
+    "pct": 0.3333,
+    "ci95": [
+     0.061,
+     0.792
+    ],
+    "p_vs_breakeven": 0.892,
+    "roi": -0.3636,
+    "units": -1.09,
+    "avg_edge": 7.45
+   },
+   "edge_7plus_by_book": {
+    "espn": {
+     "bets": 106,
+     "w": 54,
+     "l": 52,
+     "push": 0,
+     "pct": 0.5094,
+     "ci95": [
+      0.416,
+      0.603
+     ],
+     "p_vs_breakeven": 0.6534,
+     "roi": -0.0274,
+     "units": -2.91,
+     "avg_edge": 11.06
+    }
+   },
+   "edge_7plus_mae": {
+    "line": 8.79,
+    "model": 12.71
+   },
+   "edge_10plus_no_flip_suspects": {
+    "bets": 34,
+    "w": 16,
+    "l": 18,
+    "push": 0,
+    "pct": 0.4706,
+    "ci95": [
+     0.315,
+     0.633
+    ],
+    "p_vs_breakeven": 0.7862,
+    "roi": -0.1016,
+    "units": -3.45,
+    "avg_edge": 17.68
+   },
+   "edge_10plus_flip_suspects": {
+    "bets": 0,
+    "w": 0,
+    "l": 0,
+    "push": 0,
+    "pct": null,
+    "ci95": [
+     0.0,
+     1.0
+    ],
+    "p_vs_breakeven": null,
+    "roi": null,
+    "units": 0.0,
+    "avg_edge": null
+   },
+   "edge_10plus_by_book": {
+    "espn": {
+     "bets": 34,
+     "w": 16,
+     "l": 18,
+     "push": 0,
+     "pct": 0.4706,
+     "ci95": [
+      0.315,
+      0.633
+     ],
+     "p_vs_breakeven": 0.7862,
+     "roi": -0.1016,
+     "units": -3.45,
+     "avg_edge": 17.68
+    }
+   },
+   "edge_10plus_mae": {
+    "line": 8.82,
+    "model": 17.18
+   },
+   "books_all_games": {
+    "espn": 4766
    }
   },
   "2027": {
@@ -244,6 +364,126 @@
     "roi": -0.0882,
     "units": -5.91,
     "avg_edge": 12.22
+   },
+   "top1_per_night_no_flip_suspects": {
+    "bets": 19,
+    "w": 8,
+    "l": 11,
+    "push": 0,
+    "pct": 0.4211,
+    "ci95": [
+     0.231,
+     0.637
+    ],
+    "p_vs_breakeven": 0.87,
+    "roi": -0.1962,
+    "units": -3.73,
+    "avg_edge": 12.79
+   },
+   "edge_7plus_no_flip_suspects": {
+    "bets": 174,
+    "w": 75,
+    "l": 99,
+    "push": 0,
+    "pct": 0.431,
+    "ci95": [
+     0.36,
+     0.505
+    ],
+    "p_vs_breakeven": 0.9942,
+    "roi": -0.1771,
+    "units": -30.82,
+    "avg_edge": 9.74
+   },
+   "edge_7plus_flip_suspects": {
+    "bets": 6,
+    "w": 4,
+    "l": 2,
+    "push": 0,
+    "pct": 0.6667,
+    "ci95": [
+     0.3,
+     0.903
+    ],
+    "p_vs_breakeven": 0.3894,
+    "roi": 0.2727,
+    "units": 1.64,
+    "avg_edge": 10.18
+   },
+   "edge_7plus_by_book": {
+    "espn": {
+     "bets": 180,
+     "w": 79,
+     "l": 101,
+     "push": 0,
+     "pct": 0.4389,
+     "ci95": [
+      0.368,
+      0.512
+     ],
+     "p_vs_breakeven": 0.9907,
+     "roi": -0.1621,
+     "units": -29.18,
+     "avg_edge": 9.76
+    }
+   },
+   "edge_7plus_mae": {
+    "line": 10.48,
+    "model": 14.31
+   },
+   "edge_10plus_no_flip_suspects": {
+    "bets": 63,
+    "w": 29,
+    "l": 34,
+    "push": 0,
+    "pct": 0.4603,
+    "ci95": [
+     0.343,
+     0.582
+    ],
+    "p_vs_breakeven": 0.8718,
+    "roi": -0.1212,
+    "units": -7.64,
+    "avg_edge": 12.31
+   },
+   "edge_10plus_flip_suspects": {
+    "bets": 4,
+    "w": 3,
+    "l": 1,
+    "push": 0,
+    "pct": 0.75,
+    "ci95": [
+     0.301,
+     0.954
+    ],
+    "p_vs_breakeven": 0.349,
+    "roi": 0.4318,
+    "units": 1.73,
+    "avg_edge": 10.89
+   },
+   "edge_10plus_by_book": {
+    "espn": {
+     "bets": 67,
+     "w": 32,
+     "l": 35,
+     "push": 0,
+     "pct": 0.4776,
+     "ci95": [
+      0.363,
+      0.595
+     ],
+     "p_vs_breakeven": 0.8105,
+     "roi": -0.0882,
+     "units": -5.91,
+     "avg_edge": 12.22
+    }
+   },
+   "edge_10plus_mae": {
+    "line": 8.98,
+    "model": 14.26
+   },
+   "books_all_games": {
+    "espn": 776
    }
   }
  },
@@ -367,6 +607,126 @@
    "roi": -0.0927,
    "units": -9.36,
    "avg_edge": 14.06
+  },
+  "top1_per_night_no_flip_suspects": {
+   "bets": 145,
+   "w": 70,
+   "l": 75,
+   "push": 0,
+   "pct": 0.4828,
+   "ci95": [
+    0.403,
+    0.563
+   ],
+   "p_vs_breakeven": 0.8583,
+   "roi": -0.0784,
+   "units": -11.36,
+   "avg_edge": 8.75
+  },
+  "edge_7plus_no_flip_suspects": {
+   "bets": 277,
+   "w": 128,
+   "l": 149,
+   "push": 0,
+   "pct": 0.4621,
+   "ci95": [
+    0.404,
+    0.521
+   ],
+   "p_vs_breakeven": 0.9828,
+   "roi": -0.1178,
+   "units": -32.64,
+   "avg_edge": 10.27
+  },
+  "edge_7plus_flip_suspects": {
+   "bets": 9,
+   "w": 5,
+   "l": 4,
+   "push": 0,
+   "pct": 0.5556,
+   "ci95": [
+    0.267,
+    0.811
+   ],
+   "p_vs_breakeven": 0.5584,
+   "roi": 0.0606,
+   "units": 0.55,
+   "avg_edge": 9.27
+  },
+  "edge_7plus_by_book": {
+   "espn": {
+    "bets": 286,
+    "w": 133,
+    "l": 153,
+    "push": 0,
+    "pct": 0.465,
+    "ci95": [
+     0.408,
+     0.523
+    ],
+    "p_vs_breakeven": 0.9797,
+    "roi": -0.1122,
+    "units": -32.09,
+    "avg_edge": 10.24
+   }
+  },
+  "edge_7plus_mae": {
+   "line": 9.85,
+   "model": 13.72
+  },
+  "edge_10plus_no_flip_suspects": {
+   "bets": 97,
+   "w": 45,
+   "l": 52,
+   "push": 0,
+   "pct": 0.4639,
+   "ci95": [
+    0.368,
+    0.563
+   ],
+   "p_vs_breakeven": 0.9001,
+   "roi": -0.1143,
+   "units": -11.09,
+   "avg_edge": 14.19
+  },
+  "edge_10plus_flip_suspects": {
+   "bets": 4,
+   "w": 3,
+   "l": 1,
+   "push": 0,
+   "pct": 0.75,
+   "ci95": [
+    0.301,
+    0.954
+   ],
+   "p_vs_breakeven": 0.349,
+   "roi": 0.4318,
+   "units": 1.73,
+   "avg_edge": 10.89
+  },
+  "edge_10plus_by_book": {
+   "espn": {
+    "bets": 101,
+    "w": 48,
+    "l": 53,
+    "push": 0,
+    "pct": 0.4752,
+    "ci95": [
+     0.381,
+     0.572
+    ],
+    "p_vs_breakeven": 0.8592,
+    "roi": -0.0927,
+    "units": -9.36,
+    "avg_edge": 14.06
+   }
+  },
+  "edge_10plus_mae": {
+   "line": 8.93,
+   "model": 15.25
+  },
+  "books_all_games": {
+   "espn": 5542
   }
  },
  "top1_picks": {
@@ -382,6 +742,10 @@
     "model": -11.5,
     "margin": 3,
     "games_min": 5,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 20.5,
+    "model_err": 8.547528547619649,
     "outcome": "W"
    },
    {
@@ -395,6 +759,10 @@
     "model": -6.2,
     "margin": 5,
     "games_min": 4,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 1.1998851508939907,
     "outcome": "W"
    },
    {
@@ -408,6 +776,10 @@
     "model": -41.0,
     "margin": 10,
     "games_min": 8,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 30.99020481976393,
     "outcome": "L"
    },
    {
@@ -421,6 +793,10 @@
     "model": 16.1,
     "margin": -9,
     "games_min": 6,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 7.135953616491136,
     "outcome": "L"
    },
    {
@@ -434,6 +810,10 @@
     "model": -17.3,
     "margin": 25,
     "games_min": 6,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 7.654090738485792,
     "outcome": "W"
    },
    {
@@ -447,6 +827,10 @@
     "model": -24.0,
     "margin": 37,
     "games_min": 6,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 12.969626580051198,
     "outcome": "L"
    },
    {
@@ -460,6 +844,10 @@
     "model": -12.3,
     "margin": 4,
     "games_min": 7,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 8.338580563499775,
     "outcome": "W"
    },
    {
@@ -473,6 +861,10 @@
     "model": -48.5,
     "margin": 22,
     "games_min": 8,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 26.522132142230312,
     "outcome": "L"
    },
    {
@@ -486,6 +878,10 @@
     "model": -11.2,
     "margin": 26,
     "games_min": 6,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 14.831309929617717,
     "outcome": "L"
    },
    {
@@ -499,6 +895,10 @@
     "model": -13.6,
     "margin": 9,
     "games_min": 8,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 4.588735990444476,
     "outcome": "W"
    },
    {
@@ -512,6 +912,10 @@
     "model": -23.7,
     "margin": 16,
     "games_min": 7,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 7.686543275685686,
     "outcome": "L"
    },
    {
@@ -525,6 +929,10 @@
     "model": -28.3,
     "margin": 24,
     "games_min": 7,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 4.335218227767406,
     "outcome": "W"
    },
    {
@@ -538,6 +946,10 @@
     "model": -19.2,
     "margin": 24,
     "games_min": 7,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 16.5,
+    "model_err": 4.843917046274768,
     "outcome": "W"
    },
    {
@@ -551,6 +963,10 @@
     "model": -31.8,
     "margin": 33,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 19.5,
+    "model_err": 1.2436630160093642,
     "outcome": "W"
    },
    {
@@ -564,6 +980,10 @@
     "model": -14.8,
     "margin": 26,
     "games_min": 8,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 11.159763999307614,
     "outcome": "L"
    },
    {
@@ -577,6 +997,10 @@
     "model": -32.9,
     "margin": 36,
     "games_min": 9,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 3.1462215002374307,
     "outcome": "W"
    },
    {
@@ -590,6 +1014,10 @@
     "model": -14.4,
     "margin": 30,
     "games_min": 8,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 15.628516685676829,
     "outcome": "L"
    },
    {
@@ -603,6 +1031,10 @@
     "model": -20.6,
     "margin": 8,
     "games_min": 9,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 18.5,
+    "model_err": 12.612138476197003,
     "outcome": "W"
    },
    {
@@ -616,6 +1048,10 @@
     "model": 0.1,
     "margin": 1,
     "games_min": 9,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 1.0910035716334932,
     "outcome": "W"
    },
    {
@@ -629,6 +1065,10 @@
     "model": -20.3,
     "margin": 23,
     "games_min": 9,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 2.6695002679333015,
     "outcome": "W"
    },
    {
@@ -642,6 +1082,10 @@
     "model": -38.2,
     "margin": 28,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 10.177209570512417,
     "outcome": "W"
    },
    {
@@ -655,6 +1099,10 @@
     "model": -14.0,
     "margin": 4,
     "games_min": 9,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 10.026888558879335,
     "outcome": "W"
    },
    {
@@ -668,6 +1116,10 @@
     "model": -17.2,
     "margin": 11,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 14.5,
+    "model_err": 6.231263899004517,
     "outcome": "W"
    },
    {
@@ -681,6 +1133,10 @@
     "model": -61.8,
     "margin": 41,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 20.762223874200494,
     "outcome": "L"
    },
    {
@@ -694,6 +1150,10 @@
     "model": -7.1,
     "margin": -15,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 22.098826687234848,
     "outcome": "L"
    },
    {
@@ -707,6 +1167,10 @@
     "model": -22.4,
     "margin": -2,
     "games_min": 10,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 14.5,
+    "model_err": 24.41665616615677,
     "outcome": "L"
    },
    {
@@ -720,6 +1184,10 @@
     "model": 30.4,
     "margin": -9,
     "games_min": 13,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 21.43527736045658,
     "outcome": "L"
    },
    {
@@ -733,6 +1201,10 @@
     "model": -27.5,
     "margin": 38,
     "games_min": 11,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 10.489200684542041,
     "outcome": "L"
    },
    {
@@ -746,6 +1218,10 @@
     "model": -15.2,
     "margin": 24,
     "games_min": 12,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 8.803622956875913,
     "outcome": "L"
    },
    {
@@ -759,6 +1235,10 @@
     "model": -20.4,
     "margin": 26,
     "games_min": 11,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 5.575187986370366,
     "outcome": "W"
    },
    {
@@ -772,6 +1252,10 @@
     "model": -15.5,
     "margin": 8,
     "games_min": 12,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 7.4944066213335105,
     "outcome": "W"
    },
    {
@@ -785,6 +1269,10 @@
     "model": 3.8,
     "margin": 9,
     "games_min": 13,
+    "book": "espn",
+    "flip_suspect": true,
+    "line_err": 5.5,
+    "model_err": 12.83073975948303,
     "outcome": "L"
    },
    {
@@ -798,6 +1286,10 @@
     "model": -26.4,
     "margin": 22,
     "games_min": 11,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 4.385835077381273,
     "outcome": "W"
    },
    {
@@ -811,6 +1303,10 @@
     "model": -37.9,
     "margin": 51,
     "games_min": 12,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 13.138112390841265,
     "outcome": "L"
    },
    {
@@ -824,6 +1320,10 @@
     "model": -15.4,
     "margin": -4,
     "games_min": 13,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 19.444580677752995,
     "outcome": "L"
    },
    {
@@ -837,6 +1337,10 @@
     "model": -19.0,
     "margin": 26,
     "games_min": 14,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 6.983615337773564,
     "outcome": "W"
    },
    {
@@ -850,6 +1354,10 @@
     "model": 23.3,
     "margin": -26,
     "games_min": 13,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 20.5,
+    "model_err": 2.6628334240548526,
     "outcome": "W"
    },
    {
@@ -863,6 +1371,10 @@
     "model": 3.4,
     "margin": -5,
     "games_min": 15,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 1.6215349896686462,
     "outcome": "W"
    },
    {
@@ -876,6 +1388,10 @@
     "model": 20.3,
     "margin": 3,
     "games_min": 14,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 23.27696041899533,
     "outcome": "L"
    },
    {
@@ -889,6 +1405,10 @@
     "model": -10.8,
     "margin": 17,
     "games_min": 12,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 6.207760058474534,
     "outcome": "W"
    },
    {
@@ -902,6 +1422,10 @@
     "model": -4.5,
     "margin": 2,
     "games_min": 14,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 2.5119643171854875,
     "outcome": "W"
    },
    {
@@ -915,6 +1439,10 @@
     "model": -21.9,
     "margin": 38,
     "games_min": 15,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 21.5,
+    "model_err": 16.12132146717218,
     "outcome": "W"
    },
    {
@@ -928,6 +1456,10 @@
     "model": -30.1,
     "margin": -2,
     "games_min": 13,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 9.5,
+    "model_err": 32.07820849422724,
     "outcome": "L"
    },
    {
@@ -941,6 +1473,10 @@
     "model": -14.9,
     "margin": 18,
     "games_min": 14,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 3.0606304816713106,
     "outcome": "W"
    },
    {
@@ -954,6 +1490,10 @@
     "model": -38.8,
     "margin": 4,
     "games_min": 16,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 34.834862454445556,
     "outcome": "L"
    },
    {
@@ -967,6 +1507,10 @@
     "model": -6.7,
     "margin": 1,
     "games_min": 14,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 5.7439533177595905,
     "outcome": "L"
    },
    {
@@ -980,6 +1524,10 @@
     "model": -12.4,
     "margin": 26,
     "games_min": 17,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 17.5,
+    "model_err": 13.584883902081145,
     "outcome": "W"
    },
    {
@@ -993,6 +1541,10 @@
     "model": -12.6,
     "margin": 8,
     "games_min": 16,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 4.599900956426829,
     "outcome": "W"
    },
    {
@@ -1006,6 +1558,10 @@
     "model": 8.6,
     "margin": -9,
     "games_min": 18,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 0.4199997197193568,
     "outcome": "W"
    },
    {
@@ -1019,6 +1575,10 @@
     "model": -10.0,
     "margin": 11,
     "games_min": 16,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 1.0204128627360376,
     "outcome": "W"
    },
    {
@@ -1032,6 +1592,10 @@
     "model": -0.7,
     "margin": 5,
     "games_min": 17,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 4.267905026865392,
     "outcome": "W"
    },
    {
@@ -1045,6 +1609,10 @@
     "model": 28.9,
     "margin": -8,
     "games_min": 15,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 20.919078890376717,
     "outcome": "W"
    },
    {
@@ -1058,6 +1626,10 @@
     "model": -24.0,
     "margin": 26,
     "games_min": 16,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 1.9594275728232802,
     "outcome": "W"
    },
    {
@@ -1071,6 +1643,10 @@
     "model": 20.7,
     "margin": 2,
     "games_min": 18,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 22.694812616161407,
     "outcome": "L"
    },
    {
@@ -1084,6 +1660,10 @@
     "model": 3.2,
     "margin": -6,
     "games_min": 18,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 2.7741072122918524,
     "outcome": "W"
    },
    {
@@ -1097,6 +1677,10 @@
     "model": -35.0,
     "margin": 24,
     "games_min": 20,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 11.030035137382065,
     "outcome": "L"
    },
    {
@@ -1110,6 +1694,10 @@
     "model": 4.0,
     "margin": 2,
     "games_min": 19,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 6.0146904445796565,
     "outcome": "W"
    },
    {
@@ -1123,6 +1711,10 @@
     "model": 16.4,
     "margin": 21,
     "games_min": 19,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 17.5,
+    "model_err": 37.352949172026186,
     "outcome": "L"
    },
    {
@@ -1136,6 +1728,10 @@
     "model": -4.8,
     "margin": -15,
     "games_min": 18,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 19.795823308665405,
     "outcome": "L"
    },
    {
@@ -1149,6 +1745,10 @@
     "model": -11.6,
     "margin": 2,
     "games_min": 20,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 9.558661368964252,
     "outcome": "L"
    },
    {
@@ -1162,6 +1762,10 @@
     "model": -11.6,
     "margin": -1,
     "games_min": 20,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 8.5,
+    "model_err": 12.631755484983955,
     "outcome": "L"
    },
    {
@@ -1175,6 +1779,10 @@
     "model": -13.1,
     "margin": 2,
     "games_min": 20,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 11.071479622897755,
     "outcome": "L"
    },
    {
@@ -1188,6 +1796,10 @@
     "model": 9.1,
     "margin": -47,
     "games_min": 20,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 33.5,
+    "model_err": 37.896939118591106,
     "outcome": "L"
    },
    {
@@ -1201,6 +1813,10 @@
     "model": -5.9,
     "margin": -9,
     "games_min": 22,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 14.921600634230629,
     "outcome": "L"
    },
    {
@@ -1214,6 +1830,10 @@
     "model": -23.7,
     "margin": 14,
     "games_min": 21,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 9.720896418473373,
     "outcome": "L"
    },
    {
@@ -1227,6 +1847,10 @@
     "model": 20.0,
     "margin": -12,
     "games_min": 21,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 8.001453565351085,
     "outcome": "W"
    },
    {
@@ -1240,6 +1864,10 @@
     "model": -16.0,
     "margin": -1,
     "games_min": 21,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 16.980992865714867,
     "outcome": "L"
    },
    {
@@ -1253,6 +1881,10 @@
     "model": -11.5,
     "margin": -5,
     "games_min": 21,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 16.545274099639713,
     "outcome": "L"
    },
    {
@@ -1266,6 +1898,10 @@
     "model": -11.0,
     "margin": 3,
     "games_min": 22,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 8.046117297893844,
     "outcome": "L"
    },
    {
@@ -1279,6 +1915,10 @@
     "model": -15.1,
     "margin": 4,
     "games_min": 22,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 11.127767940773609,
     "outcome": "L"
    },
    {
@@ -1292,6 +1932,10 @@
     "model": -30.7,
     "margin": 9,
     "games_min": 23,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 21.714700731037823,
     "outcome": "W"
    },
    {
@@ -1305,6 +1949,10 @@
     "model": -14.2,
     "margin": 20,
     "games_min": 22,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 5.822960097303081,
     "outcome": "W"
    },
    {
@@ -1318,6 +1966,10 @@
     "model": -31.8,
     "margin": 2,
     "games_min": 24,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 29.787653650202877,
     "outcome": "L"
    },
    {
@@ -1331,6 +1983,10 @@
     "model": -1.6,
     "margin": 6,
     "games_min": 23,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 4.423116643853007,
     "outcome": "L"
    },
    {
@@ -1344,6 +2000,10 @@
     "model": -23.7,
     "margin": 5,
     "games_min": 24,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 18.671379252948014,
     "outcome": "W"
    },
    {
@@ -1357,6 +2017,10 @@
     "model": -18.1,
     "margin": 13,
     "games_min": 23,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 8.5,
+    "model_err": 5.077975646321775,
     "outcome": "W"
    },
    {
@@ -1370,6 +2034,10 @@
     "model": 3.1,
     "margin": -10,
     "games_min": 23,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 6.91637278833565,
     "outcome": "W"
    },
    {
@@ -1383,6 +2051,10 @@
     "model": -28.0,
     "margin": 7,
     "games_min": 25,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 20.963907128222402,
     "outcome": "L"
    },
    {
@@ -1396,6 +2068,10 @@
     "model": -14.0,
     "margin": 16,
     "games_min": 24,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 8.5,
+    "model_err": 2.041236574817276,
     "outcome": "W"
    },
    {
@@ -1409,6 +2085,10 @@
     "model": 22.7,
     "margin": -15,
     "games_min": 26,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 7.725196455663806,
     "outcome": "W"
    },
    {
@@ -1422,6 +2102,10 @@
     "model": -0.5,
     "margin": -7,
     "games_min": 25,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 7.53553604821883,
     "outcome": "L"
    },
    {
@@ -1435,6 +2119,10 @@
     "model": -3.7,
     "margin": 3,
     "games_min": 25,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 0.7004551833974944,
     "outcome": "W"
    },
    {
@@ -1448,6 +2136,10 @@
     "model": -1.9,
     "margin": 24,
     "games_min": 25,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 22.090091764548518,
     "outcome": "L"
    },
    {
@@ -1461,6 +2153,10 @@
     "model": -10.9,
     "margin": 9,
     "games_min": 27,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 1.9221657381106922,
     "outcome": "W"
    },
    {
@@ -1474,6 +2170,10 @@
     "model": 30.3,
     "margin": -2,
     "games_min": 27,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 28.313289823102735,
     "outcome": "L"
    },
    {
@@ -1487,6 +2187,10 @@
     "model": -3.6,
     "margin": 5,
     "games_min": 25,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 1.3830041324085727,
     "outcome": "W"
    },
    {
@@ -1500,6 +2204,10 @@
     "model": 19.7,
     "margin": -9,
     "games_min": 26,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 10.65943922536809,
     "outcome": "W"
    },
    {
@@ -1513,6 +2221,10 @@
     "model": -0.0,
     "margin": -6,
     "games_min": 28,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 6.015238725987658,
     "outcome": "L"
    },
    {
@@ -1526,6 +2238,10 @@
     "model": 0.7,
     "margin": 3,
     "games_min": 27,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 3.6681831690047346,
     "outcome": "W"
    },
    {
@@ -1539,6 +2255,10 @@
     "model": -27.0,
     "margin": -6,
     "games_min": 28,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 33.01970747336872,
     "outcome": "L"
    },
    {
@@ -1552,6 +2272,10 @@
     "model": 4.8,
     "margin": -11,
     "games_min": 29,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 6.172301485829621,
     "outcome": "L"
    },
    {
@@ -1565,6 +2289,10 @@
     "model": -24.7,
     "margin": 26,
     "games_min": 29,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 21.5,
+    "model_err": 1.254707989926736,
     "outcome": "W"
    },
    {
@@ -1578,6 +2306,10 @@
     "model": -7.8,
     "margin": -13,
     "games_min": 30,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 17.5,
+    "model_err": 20.76045771971242,
     "outcome": "L"
    },
    {
@@ -1591,6 +2323,10 @@
     "model": -29.7,
     "margin": 5,
     "games_min": 28,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 24.65658966911503,
     "outcome": "L"
    },
    {
@@ -1604,6 +2340,10 @@
     "model": 4.7,
     "margin": -13,
     "games_min": 28,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 8.2926349019218,
     "outcome": "W"
    },
    {
@@ -1617,6 +2357,10 @@
     "model": -3.0,
     "margin": 8,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 4.96990274073012,
     "outcome": "W"
    },
    {
@@ -1630,6 +2374,10 @@
     "model": -13.0,
     "margin": -8,
     "games_min": 29,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 16.5,
+    "model_err": 20.952322275083816,
     "outcome": "L"
    },
    {
@@ -1643,6 +2391,10 @@
     "model": -27.0,
     "margin": 14,
     "games_min": 29,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 13.029678284109245,
     "outcome": "L"
    },
    {
@@ -1656,6 +2408,10 @@
     "model": -5.7,
     "margin": -11,
     "games_min": 28,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 16.658716352081058,
     "outcome": "L"
    },
    {
@@ -1669,6 +2425,10 @@
     "model": 1.8,
     "margin": -8,
     "games_min": 30,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 6.224879797948461,
     "outcome": "L"
    },
    {
@@ -1682,6 +2442,10 @@
     "model": 4.2,
     "margin": -4,
     "games_min": 30,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 0.15831395266381776,
     "outcome": "W"
    },
    {
@@ -1695,6 +2459,10 @@
     "model": -2.0,
     "margin": -4,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 6.02097941990435,
     "outcome": "L"
    },
    {
@@ -1708,6 +2476,10 @@
     "model": -1.1,
     "margin": 13,
     "games_min": 32,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 14.5,
+    "model_err": 11.875000954700837,
     "outcome": "W"
    },
    {
@@ -1721,6 +2493,10 @@
     "model": -10.9,
     "margin": 22,
     "games_min": 30,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 14.5,
+    "model_err": 11.12104368927163,
     "outcome": "W"
    },
    {
@@ -1734,6 +2510,10 @@
     "model": -1.8,
     "margin": 4,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 2.1899466080142673,
     "outcome": "W"
    },
    {
@@ -1747,6 +2527,10 @@
     "model": 2.6,
     "margin": -22,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 14.5,
+    "model_err": 19.366305962606077,
     "outcome": "L"
    },
    {
@@ -1760,6 +2544,10 @@
     "model": -5.0,
     "margin": 14,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 9.00400251470711,
     "outcome": "L"
    },
    {
@@ -1773,6 +2561,10 @@
     "model": -5.7,
     "margin": 15,
     "games_min": 31,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 9.349598602209369,
     "outcome": "W"
    },
    {
@@ -1786,6 +2578,10 @@
     "model": -3.7,
     "margin": 15,
     "games_min": 32,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 8.5,
+    "model_err": 11.275820480481372,
     "outcome": "L"
    },
    {
@@ -1799,6 +2595,10 @@
     "model": -3.4,
     "margin": -3,
     "games_min": 33,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 6.430638752640661,
     "outcome": "L"
    },
    {
@@ -1812,6 +2612,10 @@
     "model": -7.5,
     "margin": 21,
     "games_min": 32,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 16.5,
+    "model_err": 13.485908266115985,
     "outcome": "W"
    },
    {
@@ -1825,6 +2629,10 @@
     "model": -19.8,
     "margin": 35,
     "games_min": 29,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 9.5,
+    "model_err": 15.203933556471597,
     "outcome": "L"
    },
    {
@@ -1838,6 +2646,10 @@
     "model": -21.1,
     "margin": 33,
     "games_min": 34,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 11.92871223827369,
     "outcome": "L"
    },
    {
@@ -1851,6 +2663,10 @@
     "model": 0.1,
     "margin": -19,
     "games_min": 33,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 18.852674588124927,
     "outcome": "L"
    },
    {
@@ -1864,6 +2680,10 @@
     "model": -5.3,
     "margin": -3,
     "games_min": 33,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 8.329769884498987,
     "outcome": "W"
    },
    {
@@ -1877,6 +2697,10 @@
     "model": -11.1,
     "margin": 15,
     "games_min": 35,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 3.8633282246885443,
     "outcome": "W"
    },
    {
@@ -1890,6 +2714,10 @@
     "model": -6.0,
     "margin": -6,
     "games_min": 34,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 13.5,
+    "model_err": 12.043063307986571,
     "outcome": "W"
    },
    {
@@ -1903,6 +2731,10 @@
     "model": -1.0,
     "margin": -10,
     "games_min": 34,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 12.5,
+    "model_err": 11.023102323886874,
     "outcome": "W"
    },
    {
@@ -1916,6 +2748,10 @@
     "model": 0.8,
     "margin": 4,
     "games_min": 34,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 4.808512719926995,
     "outcome": "L"
    },
    {
@@ -1929,6 +2765,10 @@
     "model": -3.4,
     "margin": 15,
     "games_min": 37,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 9.5,
+    "model_err": 11.60890236011113,
     "outcome": "L"
    },
    {
@@ -1942,6 +2782,10 @@
     "model": -5.9,
     "margin": 33,
     "games_min": 36,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 24.5,
+    "model_err": 27.124051778564706,
     "outcome": "L"
    },
    {
@@ -1955,6 +2799,10 @@
     "model": 6.0,
     "margin": -4,
     "games_min": 32,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 5.5,
+    "model_err": 2.0060008444574464,
     "outcome": "W"
    },
    {
@@ -1968,6 +2816,10 @@
     "model": -0.9,
     "margin": 5,
     "games_min": 32,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 2.5,
+    "model_err": 4.093101808612289,
     "outcome": "L"
    },
    {
@@ -1981,6 +2833,10 @@
     "model": 0.8,
     "margin": -18,
     "games_min": 38,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 19.5,
+    "model_err": 17.18509935748223,
     "outcome": "W"
    },
    {
@@ -1994,6 +2850,10 @@
     "model": -4.4,
     "margin": 6,
     "games_min": 37,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 1.611344780676518,
     "outcome": "L"
    },
    {
@@ -2007,6 +2867,10 @@
     "model": -6.7,
     "margin": 6,
     "games_min": 39,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 0.5,
+    "model_err": 0.6900335937002069,
     "outcome": "L"
    }
   ],
@@ -2022,6 +2886,10 @@
     "model": -4.3,
     "margin": 2,
     "games_min": 0,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 2.2876166120379438,
     "outcome": "W"
    },
    {
@@ -2035,6 +2903,10 @@
     "model": -19.4,
     "margin": 1,
     "games_min": 0,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 18.374482434380425,
     "outcome": "W"
    },
    {
@@ -2048,6 +2920,10 @@
     "model": -23.6,
     "margin": -8,
     "games_min": 0,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 18.5,
+    "model_err": 31.588195669561756,
     "outcome": "L"
    },
    {
@@ -2061,6 +2937,10 @@
     "model": -31.9,
     "margin": 23,
     "games_min": 1,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 8.93372570250807,
     "outcome": "W"
    },
    {
@@ -2074,6 +2954,10 @@
     "model": -20.5,
     "margin": -2,
     "games_min": 1,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 7.5,
+    "model_err": 22.500802002201347,
     "outcome": "L"
    },
    {
@@ -2087,6 +2971,10 @@
     "model": -4.0,
     "margin": 10,
     "games_min": 1,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 6.016357404382589,
     "outcome": "W"
    },
    {
@@ -2100,6 +2988,10 @@
     "model": -12.6,
     "margin": 12,
     "games_min": 1,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 0.5901969250229087,
     "outcome": "W"
    },
    {
@@ -2113,6 +3005,10 @@
     "model": -21.1,
     "margin": -7,
     "games_min": 2,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 15.5,
+    "model_err": 28.123974623212895,
     "outcome": "L"
    },
    {
@@ -2126,6 +3022,10 @@
     "model": -14.3,
     "margin": 40,
     "games_min": 2,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 25.68804304308371,
     "outcome": "L"
    },
    {
@@ -2139,6 +3039,10 @@
     "model": -27.2,
     "margin": 37,
     "games_min": 2,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 1.5,
+    "model_err": 9.844322922938822,
     "outcome": "L"
    },
    {
@@ -2152,6 +3056,10 @@
     "model": -8.9,
     "margin": 8,
     "games_min": 2,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 0.9027276887948119,
     "outcome": "W"
    },
    {
@@ -2165,6 +3073,10 @@
     "model": -10.7,
     "margin": 29,
     "games_min": 3,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 6.5,
+    "model_err": 18.312487189620782,
     "outcome": "L"
    },
    {
@@ -2178,6 +3090,10 @@
     "model": 15.3,
     "margin": 2,
     "games_min": 3,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 17.25055634186883,
     "outcome": "L"
    },
    {
@@ -2191,6 +3107,10 @@
     "model": -8.9,
     "margin": 2,
     "games_min": 3,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 3.5,
+    "model_err": 6.867715188038403,
     "outcome": "W"
    },
    {
@@ -2204,6 +3124,10 @@
     "model": -14.1,
     "margin": 34,
     "games_min": 3,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 10.5,
+    "model_err": 19.854430842752777,
     "outcome": "L"
    },
    {
@@ -2217,6 +3141,10 @@
     "model": -20.6,
     "margin": 60,
     "games_min": 3,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 25.5,
+    "model_err": 39.4344500229646,
     "outcome": "L"
    },
    {
@@ -2230,6 +3158,10 @@
     "model": 0.0,
     "margin": 25,
     "games_min": 4,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 25.014418526959986,
     "outcome": "L"
    },
    {
@@ -2243,6 +3175,10 @@
     "model": -8.7,
     "margin": 9,
     "games_min": 4,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 11.5,
+    "model_err": 0.30559522669362593,
     "outcome": "W"
    },
    {
@@ -2256,11 +3192,15 @@
     "model": 4.4,
     "margin": -13,
     "games_min": 5,
+    "book": "espn",
+    "flip_suspect": false,
+    "line_err": 4.5,
+    "model_err": 8.565864867105105,
     "outcome": "L"
    }
   ]
  },
- "generated_at": "2026-11-20T02:03:45+00:00",
+ "generated_at": "2026-11-20T02:47:17+00:00",
  "params": {
   "half_life": 90.0,
   "cap": 45.0,
