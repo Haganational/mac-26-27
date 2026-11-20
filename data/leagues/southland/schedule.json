@@ -2286,21 +2286,21 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": 77,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "282",
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 68,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929353",
@@ -10070,5 +10070,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T22:11:03+00:00"
+ "live_at": "2026-11-20T22:40:57+00:00"
 }
