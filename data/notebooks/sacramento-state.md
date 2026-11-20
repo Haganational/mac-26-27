@@ -27,9 +27,9 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-2 (0-0 in conference), streak L2, last five WLL.
+**32 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Connor editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Connor editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 - 2026-11-15: L 56-75 vs UC Davis Aggies. Barometer 40 (testy). <!-- g:401911520 -->
 - 2026-11-15: Social recap posted (L 56-75 vs UC Davis Aggies): https://hardwoodbricks.com/mw/games/401911520.html <!-- post:401911520:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920349.html <!-- post:401920349:preview -->
+- 2026-11-20: L 65-78 at Stanford Cardinal. Barometer 32 (testy). <!-- g:401920349 -->
+- 2026-11-20: Social recap posted (L 65-78 vs Stanford Cardinal): https://hardwoodbricks.com/bigwest/games/401920349.html <!-- post:401920349:recap -->

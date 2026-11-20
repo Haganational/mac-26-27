@@ -3123,21 +3123,21 @@
     "key": null,
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 85,
-    "winner": null
+    "score": 100,
+    "winner": false
    },
    "away": {
     "espn_id": "2572",
     "key": "southern-miss",
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 83,
-    "winner": null
+    "score": 103,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:11 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401925828",
@@ -12621,5 +12621,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T05:04:52+00:00"
+ "live_at": "2026-11-20T05:41:27+00:00"
 }

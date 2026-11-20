@@ -27,9 +27,9 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-2 (0-0 in conference), streak L2, last five WLL.
+**30 of 100, testy.** Record 1-3 (0-0 in conference), streak L3, last five WLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Keisha editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Keisha editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -62,7 +62,7 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -72,3 +72,5 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 - 2026-11-17: L 59-88 at Kentucky Wildcats. Barometer 36 (testy). <!-- g:401921804 -->
 - 2026-11-17: Social recap posted (L 59-88 vs Kentucky Wildcats): https://hardwoodbricks.com/swac/games/401921804.html <!-- post:401921804:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:preview -->
+- 2026-11-20: L 100-103 vs Southern Miss Golden Eagles. Barometer 30 (testy). <!-- g:401928388 -->
+- 2026-11-20: Social recap posted (L 100-103 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:recap -->
