@@ -72,7 +72,7 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/wcc/games/401917534.html <!-- post:401917534:preview -->
 - 2026-11-18: W 96-41 vs Pacific Union Pioneers. Barometer 70 (buoyant). <!-- g:401917534 -->
 - 2026-11-18: Social recap posted (W 96-41 vs Pacific Union Pioneers): https://hardwoodbricks.com/wcc/games/401917534.html <!-- post:401917534:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:preview -->
