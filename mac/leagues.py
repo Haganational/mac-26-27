@@ -203,7 +203,7 @@ HORIZON = League(
         Team("wright-state", "2750", "WRST", "Wright State Raiders", "Wright State", "#007A33", "#CBA052"),
         Team("youngstown-state", "2754", "YSU", "Youngstown State Penguins", "Youngstown State", "#C8102E", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="horizon/",
     league_feed=("horizonleague.org", "Horizon League (horizonleague.org)"),
     hashtag="HorizonLeague",
@@ -262,7 +262,7 @@ MW = League(
         Team("utep", "2638", "UTEP", "UTEP Miners", "UTEP", "#FF8200", "#041E42"),
         Team("wyoming", "2751", "WYO", "Wyoming Cowboys", "Wyoming", "#492F24", "#FFC425"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="mw/",
     league_feed=("themw.com", "Mountain West (themw.com)"),
     hashtag="MountainWest",
@@ -380,7 +380,7 @@ BIGWEST = League(
         Team("uc-santa-barbara", "2540", "UCSB", "UC Santa Barbara Gauchos", "UCSB", "#003660", "#FEBC11"),
         Team("utah-valley", "3084", "UVU", "Utah Valley Wolverines", "Utah Valley", "#275D38", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="bigwest/",
     theme="coast",
     odds_aliases={
@@ -442,7 +442,7 @@ MVC = League(
         Team("uic", "82", "UIC", "UIC Flames", "UIC", "#001E62", "#D50032"),
         Team("valparaiso", "2674", "VAL", "Valparaiso Beacons", "Valparaiso", "#613318", "#FFCC00"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="mvc/",
     theme="arch",
     odds_aliases={
@@ -491,7 +491,7 @@ A10 = League(
         Team("st-bonaventure", "179", "SBU", "St. Bonaventure Bonnies", "St. Bonaventure", "#5A3825", "#FFFFFF"),
         Team("vcu", "2670", "VCU", "VCU Rams", "VCU", "#000000", "#F8B800"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="a10/",
     theme="ironbridge",
     odds_aliases={
@@ -543,7 +543,7 @@ PAC12 = League(
         Team("utah-state", "328", "USU", "Utah State Aggies", "Utah State", "#0F2439", "#8A8D8F"),
         Team("washington-state", "265", "WSU", "Washington State Cougars", "Washington St", "#981E32", "#5E6A71"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="pac12/",
     theme="timber",
     odds_aliases={
@@ -589,7 +589,7 @@ WCC = League(
         Team("santa-clara", "2541", "SCU", "Santa Clara Broncos", "Santa Clara", "#862633", "#FFFFFF"),
         Team("seattle", "2547", "SEA", "Seattle U Redhawks", "Seattle U", "#AA0000", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="wcc/",
     theme="mission",
     odds_aliases={
@@ -637,7 +637,7 @@ AMERICAN = League(
         Team("utsa", "2636", "UTSA", "UTSA Roadrunners", "UTSA", "#0C2340", "#F15A22"),
         Team("wichita-state", "2724", "WICH", "Wichita State Shockers", "Wichita State", "#FFC72C", "#000000"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="american/",
     theme="levee",
     odds_aliases={
@@ -689,7 +689,7 @@ SUNBELT = League(
         Team("troy", "2653", "TROY", "Troy Trojans", "Troy", "#8A2432", "#B3B5B8"),
         Team("ul-monroe", "2433", "ULM", "UL Monroe Warhawks", "UL Monroe", "#840029", "#BA9B37"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="sunbelt/",
     theme="liveoak",
     odds_aliases={
@@ -739,7 +739,7 @@ IVY = League(
         Team("princeton", "163", "PRIN", "Princeton Tigers", "Princeton", "#E77500", "#000000"),
         Team("yale", "43", "YALE", "Yale Bulldogs", "Yale", "#00356B", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="ivy/",
     theme="quad",
     odds_aliases={"Penn Quakers": "penn"},
@@ -777,7 +777,7 @@ CAA = League(
         Team("uncw", "350", "UNCW", "UNC Wilmington Seahawks", "UNC Wilmington", "#006666", "#FFD400"),
         Team("william-mary", "2729", "W&M", "William & Mary Tribe", "William & Mary", "#115740", "#B9975B"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="caa/",
     theme="harbor",
     odds_aliases={
@@ -823,7 +823,7 @@ CUSA = League(
         Team("sam-houston", "2534", "SHSU", "Sam Houston Bearkats", "Sam Houston", "#F76800", "#FFFFFF"),
         Team("western-kentucky", "98", "WKU", "Western Kentucky Hilltoppers", "Western Kentucky", "#C60C30", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="cusa/",
     theme="watertower",
     odds_aliases={
@@ -872,7 +872,7 @@ SOCON = League(
         Team("western-carolina", "2717", "WCU", "Western Carolina Catamounts", "Western Carolina", "#592C88", "#C1A875"),
         Team("wofford", "2747", "WOF", "Wofford Terriers", "Wofford", "#886E4C", "#000000"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="socon/",
     theme="blueridge",
     odds_aliases={
@@ -921,7 +921,7 @@ BIGSKY = League(
         Team("utah-tech", "3101", "UTU", "Utah Tech Trailblazers", "Utah Tech", "#003058", "#BA1C21"),
         Team("weber-state", "2692", "WEB", "Weber State Wildcats", "Weber State", "#492365", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="bigsky/",
     theme="peaks",
     odds_aliases={
@@ -967,7 +967,7 @@ SOUTHLAND = League(
         Team("texas-am-cc", "357", "AMCC", "Texas A&M-Corpus Christi Islanders", "Texas A&M-CC", "#0067C5", "#007F3E"),
         Team("utrgv", "292", "RGV", "UT Rio Grande Valley Vaqueros", "UTRGV", "#F05023", "#005893"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="southland/",
     theme="bayou",
     odds_aliases={
@@ -1015,7 +1015,7 @@ SUMMIT = League(
         Team("south-dakota-state", "2571", "SDST", "South Dakota State Jackrabbits", "South Dakota State", "#0033A0", "#FFD100"),
         Team("st-thomas", "2900", "STMN", "St. Thomas Tommies", "St. Thomas", "#510C76", "#FFFFFF"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="summit/",
     theme="prairie",
     odds_aliases={
@@ -1054,7 +1054,7 @@ UAC = League(
         Team("ut-arlington", "250", "UTA", "UT Arlington Mavericks", "UT Arlington", "#0064B1", "#F58025"),
         Team("west-georgia", "2698", "UWG", "West Georgia Wolves", "West Georgia", "#0656A5", "#E31B23"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="uac/",
     theme="silo",
     odds_aliases={
@@ -1095,7 +1095,7 @@ BIGSOUTH = League(
         Team("unc-asheville", "2427", "UNCA", "UNC Asheville Bulldogs", "UNC Asheville", "#003DA5", "#FFFFFF"),
         Team("winthrop", "2737", "WIN", "Winthrop Eagles", "Winthrop", "#872434", "#FFC72C"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="bigsouth/",
     theme="porch",
     odds_aliases={
@@ -1134,7 +1134,7 @@ OVC = League(
         Team("ut-martin", "2630", "UTM", "UT Martin Skyhawks", "UT Martin", "#0E1C59", "#F79728"),
         Team("western-illinois", "2710", "WIU", "Western Illinois Leathernecks", "Western Illinois", "#663399", "#FFCC00"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="ovc/",
     theme="riverboat",
     odds_aliases={
@@ -1177,7 +1177,7 @@ AMEAST = League(
         Team("umass-lowell", "2349", "UML", "UMass Lowell River Hawks", "UMass Lowell", "#0067B1", "#C8102E"),
         Team("vermont", "261", "UVM", "Vermont Catamounts", "Vermont", "#154734", "#FFD100"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="americaeast/",
     theme="covered",
     odds_aliases={
@@ -1215,7 +1215,7 @@ PATRIOT = League(
         Team("loyola-md", "2352", "L-MD", "Loyola Maryland Greyhounds", "Loyola Maryland", "#00694E", "#B9B9B9"),
         Team("navy", "2426", "NAVY", "Navy Midshipmen", "Navy", "#00205B", "#C5B783"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="patriot/",
     theme="colonial",
     odds_aliases={
@@ -1257,7 +1257,7 @@ NEC = League(
         Team("wagner", "2681", "WAG", "Wagner Seahawks", "Wagner", "#00483A", "#FFFFFF"),
         Team("liu", "112358", "LIU", "Long Island University Sharks", "LIU", "#69B3E7", "#FFC72C"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="nec/",
     theme="lighthouse",
     odds_aliases={
@@ -1295,7 +1295,7 @@ MEAC = League(
         Team("coppin-state", "2154", "COPP", "Coppin State Eagles", "Coppin State", "#2D2A6E", "#FFC72C"),
         Team("nc-central", "2428", "NCCU", "North Carolina Central Eagles", "NC Central", "#880029", "#A2AAAD"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="meac/",
     theme="chesapeake",
     odds_aliases={
@@ -1340,7 +1340,7 @@ SWAC = League(
         Team("bethune-cookman", "2065", "BCU", "Bethune-Cookman Wildcats", "Bethune-Cookman", "#6F263D", "#F2A900"),
         Team("southern-u", "2582", "SOU", "Southern Jaguars", "Southern", "#005DAA", "#F9C700"),
     ),
-    features=frozenset({"midmaxx60"}),
+    features=frozenset({"notes", "midmaxx60"}),
     path="swac/",
     theme="liveoak",
     odds_aliases={
