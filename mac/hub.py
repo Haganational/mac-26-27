@@ -440,7 +440,10 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     # and a 30-point rout among the newest when nothing else is there, fall back to newest first.
     scorer = _scorer()
     ranked = frontscore.rank(recaps, scorer) if scorer else _close_first(recaps)
-    lead = next((x for x in ranked[:3] if x["image"] or x["photo"]), ranked[0] if ranked else (sts[0] if sts else None))
+    # The lead may skip to a story with a picture, but never back to an older night than the top story's.
+    top_day = (ranked[0].get("fs") or {}).get("day") if ranked else None
+    lead = next((x for x in ranked[:3] if (x["image"] or x["photo"]) and (x.get("fs") or {}).get("day") == top_day),
+                ranked[0] if ranked else (sts[0] if sts else None))
     rest = [x for x in ranked if x is not lead]
     cards = [x for x in rest if x["image"]][:4]
     today_et = now.astimezone(ET).date().isoformat()

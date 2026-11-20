@@ -163,8 +163,10 @@ def rank(stories: list[dict[str, Any]], scorer: Scorer | None, edition: str | No
         return list(stories)
     newest = max(s["fs"]["day"] for s in pool)
     late: list[dict[str, Any]] = []
-    # The night before still competes, 10 points down, so a big upset can hold the cover through the next day.
-    pool.sort(key=lambda s: -(s["fs"]["score"] - (0 if s["fs"]["day"] == newest else 10)))
+    # The newest slate always leads: every final from the newest night ranks ahead of the night before, which
+    # follows in its own score order (Matthew, Nov 20 2026: "A game from Wednesday shouldn't be leading off our
+    # page on Friday morning. We are timely"). A 10-point handicap let a Wednesday thriller top Thursday's finals.
+    pool.sort(key=lambda s: (s["fs"]["day"] != newest, -s["fs"]["score"]))
     tonight = [s for s in pool if s["fs"]["day"] == newest]
     due: dict[int, int] = {}  # id(story) -> the last index it may sit at
     for st in tonight:

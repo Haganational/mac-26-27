@@ -75,6 +75,18 @@ def test_unscored_and_older_stories_fall_back_to_newest_first():
     assert frontscore.rank(st, None) == st
 
 
+def test_the_newest_night_always_leads():
+    """Nov 20 2026: a Wednesday 115-114 upset led the cover on Friday morning over Thursday's finals."""
+    bradley, mason, drake, siu = _t("mvc", "bradley"), _t("a10", "george-mason"), _t("mvc", "drake"), _t("mvc", "southern-illinois")
+    games = [_game("wed", _side(bradley, 115, True), _side(mason, 114, False), day="2026-11-18", detail="Final/2OT"),
+             _game("thu", _side(drake, 90, True), _side(siu, 70, False), day="2026-11-19")]
+    spreads = [{"points": 8.5, "fav_key": "george-mason", "dog_key": "bradley"},
+               {"points": 4.0, "fav_key": "drake", "dog_key": "southern-illinois"}]
+    sc = _scorer(games, spreads)
+    assert sc.score("wed")["score"] > sc.score("thu")["score"] + 10
+    assert [s["id"] for s in frontscore.rank(_stories("thu", "wed"), sc)] == ["thu", "wed"]
+
+
 def test_byline_head_crops_cover_every_portrait():
     """Every anchor portrait has a committed byline head crop (tools/anchor_heads.py), so the build only copies."""
     from mac import anchors
