@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T23:21:17+00:00",
+ "fetched_at": "2026-11-20T18:17:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -2113,11 +2113,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-11-19-2026--sports-ncaa-basketball/production/7608600?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "M&T Bank Arena",
    "venue_city": "Hamden",
    "venue_state": "CT",
@@ -2158,11 +2154,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-19-2026--sports-ncaa-basketball/production/7534723?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Schottenstein Center",
    "venue_city": "Columbus",
    "venue_state": "OH",
@@ -2416,7 +2408,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-21-2026--sports-ncaa-basketball/production/7413913?wsUser=717",
-    "low": 23.0,
+    "low": 30.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Mullins Center",
@@ -4040,7 +4032,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-5-2026--sports-ncaa-basketball/production/7905543?wsUser=717",
+    "low": 50.0,
+    "since": "2026-11-20T18:17:46Z"
+   },
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -4308,7 +4304,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-12-7-2026--sports-ncaa-basketball/production/7465797?wsUser=717",
-    "low": 16.0,
+    "low": 17.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Prudential Center",
@@ -4435,7 +4431,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-8-2026--sports-ncaa-basketball/production/7905545?wsUser=717",
+    "low": 50.0,
+    "since": "2026-11-20T18:17:46Z"
+   },
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -8807,6 +8807,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T02:54:51+00:00"
+ ]
 }

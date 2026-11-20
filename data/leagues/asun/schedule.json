@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:02:17+00:00",
+ "fetched_at": "2026-11-20T18:02:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2813,7 +2813,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ACCNX",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/west-florida-argonauts-mens-basketball-tickets-pensacola-bay-center-11-29-2026/production/7479262?wsUser=717",
     "low": 17.0,
@@ -3784,7 +3790,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/baylor-bears-mens-basketball-tickets-foster-pavilion-12-9-2026--sports-ncaa-basketball/production/7365187?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Foster Pavilion",

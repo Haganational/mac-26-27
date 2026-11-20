@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:02:53+00:00",
+ "fetched_at": "2026-11-20T18:02:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -2703,11 +2703,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-20-2026--sports-ncaa-basketball/production/7398045?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Donald L. Tucker Center",
    "venue_city": "Tallahassee",
    "venue_state": "FL",
@@ -2716,7 +2712,7 @@
     "key": null,
     "name": "Florida State Seminoles",
     "abbr": "FSU",
-    "score": 23,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2724,13 +2720,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 22,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:54 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926134",
@@ -3427,7 +3423,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Tower Hill Arena",
@@ -10594,6 +10590,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T17:34:17+00:00"
+ ]
 }

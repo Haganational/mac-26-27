@@ -27,9 +27,9 @@ Sir Alistair Finch was born in Leicester to an Indian family, moved to Virginia 
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
+**61 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sir editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sir editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Sir Alistair Finch was born in Leicester to an Indian family, moved to Virginia 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,5 @@ Sir Alistair Finch was born in Leicester to an Indian family, moved to Virginia 
 - 2026-11-18: W 77-73 vs Bowling Green Falcons. Barometer 53 (steady). <!-- g:401911018 -->
 - 2026-11-18: Social recap posted (W 77-73 vs Bowling Green Falcons): https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/caa/games/401918454.html <!-- post:401918454:preview -->
+- 2026-11-20: W 85-39 vs Averett Cougars. Barometer 61 (steady). <!-- g:401918454 -->
+- 2026-11-20: Social recap posted (W 85-39 vs Averett Cougars): https://hardwoodbricks.com/caa/games/401918454.html <!-- post:401918454:recap -->

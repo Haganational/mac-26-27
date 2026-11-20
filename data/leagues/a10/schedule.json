@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:06:48+00:00",
+ "fetched_at": "2026-11-20T18:06:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -2919,7 +2919,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/shriners-childrens-charleston-classic-tickets-td-arena-11-20-2026--sports-ncaa-basketball/production/7398783?wsUser=717",
-    "low": 51.0,
+    "low": 49.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "TD Arena",
@@ -3307,7 +3307,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
     "low": 54.0,
@@ -4120,6 +4126,51 @@
    "detail": ""
   },
   {
+   "game_id": "401927392",
+   "date": "2026-11-26T18:00Z",
+   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
+   "short_name": "LUC @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
+    "low": 31.0,
+    "since": "2026-11-18T23:07:36Z"
+   },
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": null,
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": "loyola-chicago",
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401921417",
    "date": "2026-11-27T20:30Z",
    "name": "La Salle Explorers at Bucknell Bison",
@@ -4462,51 +4513,6 @@
     "key": null,
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401927392",
-   "date": "2026-11-29T18:00Z",
-   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
-   "short_name": "LUC @ MASS",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
-   "venue": "Mullins Center",
-   "venue_city": "Amherst",
-   "venue_state": "MA",
-   "home": {
-    "espn_id": "113",
-    "key": null,
-    "name": "Massachusetts Minutemen",
-    "abbr": "MASS",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2350",
-    "key": "loyola-chicago",
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
     "score": null,
     "winner": null
    },
@@ -6350,7 +6356,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-12-2026--sports-ncaa-basketball/production/7116695?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -8365,7 +8371,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-9-2026--sports-ncaa-basketball/production/7188110?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -9921,7 +9927,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-8-2026--sports-ncaa-basketball/production/7188108?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -12721,7 +12727,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-7-2026--sports-ncaa-basketball/production/7188106?wsUser=717",
-    "low": 23.0,
+    "low": 22.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",

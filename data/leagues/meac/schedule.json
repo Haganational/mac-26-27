@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:18:38+00:00",
+ "fetched_at": "2026-11-20T18:19:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -1844,7 +1844,7 @@
     "key": "umes",
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": 42,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1852,13 +1852,13 @@
     "key": null,
     "name": "Bloomfield Deacons",
     "abbr": "BFC",
-    "score": 30,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:58 - 2nd"
   },
   {
    "game_id": "401925927",
@@ -2419,7 +2419,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-25-2026--sports-ncaa-basketball/production/7538349?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Lenovo Center",
@@ -2714,7 +2714,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-huskies-mens-basketball-tickets-alaska-airlines-arena-11-29-2026--sports-ncaa-basketball/production/7540596?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Alaska Airlines Arena",
@@ -7574,6 +7574,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T17:46:40+00:00"
+ ]
 }

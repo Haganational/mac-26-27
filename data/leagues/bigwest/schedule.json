@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:05:17+00:00",
+ "fetched_at": "2026-11-20T18:05:17+00:00",
  "season": 2027,
  "games": [
   {
@@ -2383,7 +2383,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
     "low": 54.0,
@@ -2900,7 +2906,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/presbyterian-blue-hose-mens-basketball-tickets-templeton-physical-education-center-at-presbyterian-college-11-28-2026--sports-ncaa-basketball/production/7766093?wsUser=717",
-    "low": 26.0,
+    "low": 25.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Templeton Center",
@@ -3794,7 +3800,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-utes-mens-basketball-tickets-huntsman-center-12-9-2026--sports-ncaa-basketball/production/7418469?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Jon M. Huntsman Center",

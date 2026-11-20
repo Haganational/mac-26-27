@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:00:50+00:00",
+ "fetched_at": "2026-11-20T18:00:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2271,7 +2271,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-11-20-2026--sports-ncaa-basketball/production/7356335?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Petersen Events Center",
@@ -3096,6 +3096,51 @@
    "detail": ""
   },
   {
+   "game_id": "401927392",
+   "date": "2026-11-26T18:00Z",
+   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
+   "short_name": "LUC @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
+    "low": 31.0,
+    "since": "2026-11-18T23:00:48Z"
+   },
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": "umass",
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": null,
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401911030",
    "date": "2026-11-27T23:00Z",
    "name": "Bowling Green Falcons at Indiana Hoosiers",
@@ -3253,51 +3298,6 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401927392",
-   "date": "2026-11-29T18:00Z",
-   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
-   "short_name": "LUC @ MASS",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
-   "venue": "Mullins Center",
-   "venue_city": "Amherst",
-   "venue_state": "MA",
-   "home": {
-    "espn_id": "113",
-    "key": "umass",
-    "name": "Massachusetts Minutemen",
-    "abbr": "MASS",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2350",
-    "key": null,
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
     "score": null,
     "winner": null
    },
@@ -4073,7 +4073,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-novant-health-fieldhouse-at-greensboro-complex-12-12-2026--sports-ncaa-basketball/production/7551682?wsUser=717",
-    "low": 62.0,
+    "low": 63.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Novant Health Fieldhouse",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:12:24+00:00",
+ "fetched_at": "2026-11-20T18:12:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -1948,7 +1948,7 @@
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 12,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1956,13 +1956,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 9,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:10 - 1st"
+   "detail": "5:48 - 1st"
   },
   {
    "game_id": "401920066",
@@ -2109,7 +2109,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-11-20-2026--sports-ncaa-basketball/production/7574472?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "VyStar Arena",
@@ -3414,7 +3414,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-12-2-2026--sports-ncaa-basketball/production/7648568?wsUser=717",
-    "low": 21.0,
+    "low": 15.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Bob Carpenter Center",
@@ -9000,6 +9000,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T17:41:22+00:00"
+ ]
 }

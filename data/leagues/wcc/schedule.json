@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:08:25+00:00",
+ "fetched_at": "2026-11-20T18:08:22+00:00",
  "season": 2027,
  "games": [
   {
@@ -2471,7 +2471,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
     "low": 54.0,
@@ -2510,7 +2516,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
     "low": 54.0,
@@ -2783,7 +2795,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 15.0,
+    "low": 21.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Allen Fieldhouse",
@@ -3088,7 +3100,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 51.0,
+    "low": 50.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3954,7 +3966,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-4-2026--sports-ncaa-basketball/production/7519434?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -4247,7 +4259,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-5-2026--sports-ncaa-basketball/production/7785760?wsUser=717",
-    "low": 25.0,
+    "low": 47.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Provident Credit Union Event Center",
@@ -5374,7 +5386,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-utes-mens-basketball-tickets-huntsman-center-12-16-2026--sports-ncaa-basketball/production/7418535?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jon M. Huntsman Center",

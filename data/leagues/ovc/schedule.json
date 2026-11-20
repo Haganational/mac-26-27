@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T23:20:30+00:00",
+ "fetched_at": "2026-11-20T18:17:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2134,11 +2134,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-11-19-2026--sports-ncaa-basketball/production/7710739?wsUser=717",
-    "low": 36.0,
-    "since": "2026-11-18T23:19:12Z"
-   },
+   "tickets": null,
    "venue": "Lee & Penny Anderson Arena",
    "venue_city": "Saint Paul",
    "venue_state": "MN",
@@ -2263,7 +2259,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 41.0,
+    "low": 29.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "State Farm Center",
@@ -2347,7 +2343,11 @@
      "market": "Home"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-11-21-2026--sports-ncaa-basketball/production/7883566?wsUser=717",
+    "low": 36.0,
+    "since": "2026-11-20T18:17:07Z"
+   },
    "venue": "Schar Center",
    "venue_city": "Elon",
    "venue_state": "NC",
@@ -3988,7 +3988,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/western-illinois-leathernecks-mens-basketball-tickets-western-hall-12-8-2026--sports-ncaa-basketball/production/7770306?wsUser=717",
-    "low": 42.0,
+    "low": 29.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Western Hall",
@@ -4240,7 +4240,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/western-illinois-leathernecks-mens-basketball-tickets-western-hall-12-11-2026--sports-ncaa-basketball/production/7770326?wsUser=717",
-    "low": 42.0,
+    "low": 29.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Western Hall",
@@ -5172,7 +5172,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/western-illinois-leathernecks-mens-basketball-tickets-western-hall-12-21-2026--sports-ncaa-basketball/production/7770362?wsUser=717",
-    "low": 42.0,
+    "low": 29.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Western Hall",
@@ -5217,7 +5217,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-state-wildcats-mens-basketball-tickets-bramlage-coliseum-12-21-2026--sports-ncaa-basketball/production/7355616?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Bramlage Coliseum",
@@ -8312,6 +8312,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T03:12:49+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:09:06+00:00",
+ "fetched_at": "2026-11-20T18:09:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2487,7 +2487,7 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2495,13 +2495,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 3,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:53 - 1st"
+   "detail": "5:54 - 1st"
   },
   {
    "game_id": "401919019",
@@ -2693,7 +2693,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 46.0,
+    "low": 47.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -3629,7 +3629,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 32.0,
+    "low": 33.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3940,7 +3940,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-charlotte-49ers-mens-basketball-tickets-halton-arena-11-29-2026--sports-ncaa-basketball/production/7790802?wsUser=717",
-    "low": 19.0,
+    "low": 52.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Halton Arena",
@@ -5752,7 +5752,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-12-2026--sports-ncaa-basketball/production/7116695?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "UD Arena",
@@ -12116,6 +12116,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T17:38:53+00:00"
+ ]
 }

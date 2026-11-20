@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T12:11:33+00:00",
+ "fetched_at": "2026-11-20T18:11:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -2592,11 +2592,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/william-and-mary-tribe-mens-basketball-tickets-kaplan-arena-11-20-2026--sports-ncaa-basketball/production/7565131?wsUser=717",
-    "low": 39.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Kaplan Arena",
    "venue_city": "Williamsburg",
    "venue_state": "VA",
@@ -2605,21 +2601,21 @@
     "key": "william-mary",
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 67,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2047",
     "key": null,
     "name": "Averett Cougars",
     "abbr": "AVER",
-    "score": 33,
-    "winner": null
+    "score": 39,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920195",
@@ -2729,7 +2725,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-state-wildcats-mens-basketball-tickets-bramlage-coliseum-11-20-2026--sports-ncaa-basketball/production/7349645?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Bramlage Coliseum",
@@ -3120,7 +3116,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-23-2026--sports-ncaa-basketball/production/7463025?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Dean E. Smith Center",
@@ -3647,7 +3643,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 24.0,
+    "low": 21.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Palestra",
@@ -3737,7 +3733,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-28-2026--sports-ncaa-basketball/production/7538351?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Lenovo Center",
@@ -5782,7 +5778,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-12-12-2026--sports-ncaa-basketball/production/7513297?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Timmons Arena",
@@ -6216,7 +6212,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-15-2026--sports-ncaa-basketball/production/7401253?wsUser=717",
-    "low": 83.0,
+    "low": 88.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -11459,7 +11455,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-hackensack-meridian-athletic-center-2-25-2027--sports-ncaa-basketball/production/7883503?wsUser=717",
-    "low": 35.0,
+    "low": 27.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Hackensack Meridian Athletic Center",
@@ -11981,6 +11977,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T17:40:43+00:00"
+ ]
 }
