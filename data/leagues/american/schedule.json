@@ -2488,20 +2488,20 @@
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
     "score": 76,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "218",
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 82,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:13 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919019",
@@ -2528,7 +2528,7 @@
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": 25,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2536,13 +2536,13 @@
     "key": "uab",
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": 39,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:21 - 1st"
+   "detail": "18:37 - 2nd"
   },
   {
    "game_id": "401925828",
@@ -12117,5 +12117,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T19:39:34+00:00"
+ "live_at": "2026-11-20T20:07:52+00:00"
 }

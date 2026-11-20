@@ -2184,7 +2184,7 @@
     "key": null,
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2192,13 +2192,13 @@
     "key": "western-illinois",
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:28 - 1st"
   },
   {
    "game_id": "401916124",
@@ -8312,5 +8312,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T20:15:04+00:00"
 }
