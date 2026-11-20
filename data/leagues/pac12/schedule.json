@@ -1793,21 +1793,21 @@
     "key": null,
     "name": "Oregon Ducks",
     "abbr": "ORE",
-    "score": 59,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "204",
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": 59,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:35 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928795",
@@ -8210,5 +8210,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T03:46:27+00:00"
+ "live_at": "2026-11-20T04:28:05+00:00"
 }

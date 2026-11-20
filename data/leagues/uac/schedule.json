@@ -1950,7 +1950,7 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -1958,13 +1958,13 @@
     "key": "tarleton-state",
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:53 - 1st"
   },
   {
    "game_id": "401921107",
@@ -8863,5 +8863,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:52:56+00:00"
+ "live_at": "2026-11-20T04:36:47+00:00"
 }

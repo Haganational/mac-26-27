@@ -27,9 +27,9 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 
 ## Barometer
 
-**37 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**29 of 100, despondent.** Record 1-4 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kenzie editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kenzie editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -81,3 +81,5 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 - 2026-11-11: L 86-118 at Utah State Aggies. Barometer 41 (testy). <!-- g:401925940 -->
 - 2026-11-14: L 73-79 at California Golden Bears. Barometer 37 (testy). <!-- g:401918055 -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925941.html <!-- post:401925941:preview -->
+- 2026-11-20: L 69-82 at Washington Huskies. Barometer 29 (despondent). <!-- g:401925941 -->
+- 2026-11-20: Social recap posted (L 69-82 vs Washington Huskies): https://hardwoodbricks.com/bigsky/games/401925941.html <!-- post:401925941:recap -->

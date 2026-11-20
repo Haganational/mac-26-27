@@ -66,7 +66,7 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:preview -->
 - 2026-11-18: W 53-49 vs Akron Zips. Barometer 35 (testy). <!-- g:401924941 -->
 - 2026-11-18: Social recap posted (W 53-49 vs Akron Zips): https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:preview -->

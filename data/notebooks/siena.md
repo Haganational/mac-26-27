@@ -64,7 +64,7 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -77,3 +77,4 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401920682.html <!-- post:401920682:preview -->
 - 2026-11-19: L 72-119 at St. John's Red Storm. Barometer 52 (steady). <!-- g:401920682 -->
 - 2026-11-19: Social recap posted (L 72-119 vs St. John's Red Storm): https://hardwoodbricks.com/metro/games/401920682.html <!-- post:401920682:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:preview -->
