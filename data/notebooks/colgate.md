@@ -65,7 +65,7 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -77,3 +77,4 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/patriot/games/401920772.html <!-- post:401920772:preview -->
 - 2026-11-19: W 109-50 vs Utica Pioneers. Barometer 42 (testy). <!-- g:401920772 -->
 - 2026-11-19: Social recap posted (W 109-50 vs Utica Pioneers): https://hardwoodbricks.com/patriot/games/401920772.html <!-- post:401920772:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/patriot/games/401920773.html <!-- post:401920773:preview -->
