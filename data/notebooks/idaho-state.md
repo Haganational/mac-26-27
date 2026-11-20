@@ -27,9 +27,9 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 
 ## Barometer
 
-**20 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**40 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 - 2026-11-15: L 70-77 at Seattle U Redhawks. Barometer 20 (despondent). <!-- g:401917528 -->
 - 2026-11-15: Social recap posted (L 70-77 vs Seattle U Redhawks): https://hardwoodbricks.com/wcc/games/401917528.html <!-- post:401917528:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:preview -->
+- 2026-11-20: W 86-71 vs South Dakota State Jackrabbits. Barometer 40 (testy). <!-- g:401922022 -->
+- 2026-11-20: Social recap posted (W 86-71 vs South Dakota State Jackrabbits): https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:recap -->

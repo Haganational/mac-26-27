@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:10:56+00:00",
+ "fetched_at": "2026-11-20T23:22:43+00:00",
  "season": 2027,
  "games": [
   {
@@ -1959,7 +1959,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-21-2026--sports-ncaa-basketball/production/7710488?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Case Gym",
@@ -3392,7 +3392,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-4-2026--sports-ncaa-basketball/production/7390386?wsUser=717",
-    "low": 172.0,
+    "low": 174.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -3482,7 +3482,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-12-5-2026--sports-ncaa-basketball/production/7648570?wsUser=717",
-    "low": 21.0,
+    "low": 15.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Bob Carpenter Center",
@@ -3592,8 +3592,8 @@
   {
    "game_id": "401911315",
    "date": "2026-12-06T20:30Z",
-   "name": "Central Connecticut Blue Devils at Brown Bears",
-   "short_name": "CCSU VS BRWN",
+   "name": "Brown Bears at Central Connecticut Blue Devils",
+   "short_name": "BRWN VS CCSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3614,18 +3614,18 @@
    "venue_city": "Springfield",
    "venue_state": "MA",
    "home": {
-    "espn_id": "225",
-    "key": "brown",
-    "name": "Brown Bears",
-    "abbr": "BRWN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2115",
     "key": null,
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "225",
+    "key": "brown",
+    "name": "Brown Bears",
+    "abbr": "BRWN",
     "score": null,
     "winner": null
    },

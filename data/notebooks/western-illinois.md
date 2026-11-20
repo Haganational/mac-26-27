@@ -27,9 +27,9 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
+**29 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jess editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jess editorializes: 73% of stories right now.
 
 ## School and town
 

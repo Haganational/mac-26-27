@@ -27,9 +27,9 @@ Jace Thorson grew up in Brookings, worked the campus dairy bar through college a
 
 ## Barometer
 
-**87 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**64 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 83% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jace Thorson grew up in Brookings, worked the campus dairy bar through college a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,5 @@ Jace Thorson grew up in Brookings, worked the campus dairy bar through college a
 - 2026-11-17: W 107-67 vs Mayville State Comets. Barometer 87 (giddy). <!-- g:401929411 -->
 - 2026-11-17: Social recap posted (W 107-67 vs Mayville State Comets): https://hardwoodbricks.com/summit/games/401929411.html <!-- post:401929411:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:preview -->
+- 2026-11-20: L 71-86 at Idaho State Bengals. Barometer 64 (steady). <!-- g:401922022 -->
+- 2026-11-20: Social recap posted (L 71-86 vs Idaho State Bengals): https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:recap -->

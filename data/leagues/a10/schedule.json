@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:06:46+00:00",
+ "fetched_at": "2026-11-20T23:18:50+00:00",
  "season": 2027,
  "games": [
   {
@@ -2885,7 +2885,7 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 39,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2893,13 +2893,13 @@
     "key": "rhode-island",
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": 27,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "3:50 - 2nd"
   },
   {
    "game_id": "401921419",
@@ -2917,11 +2917,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/shriners-childrens-charleston-classic-tickets-td-arena-11-20-2026--sports-ncaa-basketball/production/7398783?wsUser=717",
-    "low": 49.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "TD Arena",
    "venue_city": "Charleston",
    "venue_state": "SC",
@@ -2930,7 +2926,7 @@
     "key": null,
     "name": "Utah Utes",
     "abbr": "UTAH",
-    "score": 1,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2938,13 +2934,13 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 3,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "17:42 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927396",
@@ -3050,7 +3046,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-20-2026--sports-ncaa-basketball/production/7686817?wsUser=717",
-    "low": 47.0,
+    "low": 88.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -3095,7 +3091,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -3316,7 +3312,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 54.0,
+    "low": 37.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -3484,7 +3480,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 54.0,
+    "low": 37.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -3787,7 +3783,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 37.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -4117,51 +4113,6 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401927392",
-   "date": "2026-11-26T18:00Z",
-   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
-   "short_name": "LUC @ MASS",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
-   "venue": "Mullins Center",
-   "venue_city": "Amherst",
-   "venue_state": "MA",
-   "home": {
-    "espn_id": "113",
-    "key": null,
-    "name": "Massachusetts Minutemen",
-    "abbr": "MASS",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2350",
-    "key": "loyola-chicago",
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
     "score": null,
     "winner": null
    },
@@ -4513,6 +4464,51 @@
     "key": null,
     "name": "Memphis Tigers",
     "abbr": "MEM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401927392",
+   "date": "2026-11-29T18:00Z",
+   "name": "Loyola Chicago Ramblers at Massachusetts Minutemen",
+   "short_name": "LUC @ MASS",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
+    "low": 31.0,
+    "since": "2026-11-18T23:07:36Z"
+   },
+   "venue": "Mullins Center",
+   "venue_city": "Amherst",
+   "venue_state": "MA",
+   "home": {
+    "espn_id": "113",
+    "key": null,
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": "loyola-chicago",
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
     "score": null,
     "winner": null
    },
@@ -5629,7 +5625,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-12-8-2026--sports-ncaa-basketball/production/7883469?wsUser=717",
+    "low": 170.0,
+    "since": "2026-11-20T23:18:50Z"
+   },
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
    "venue_state": "NJ",
@@ -12871,6 +12871,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T22:35:08+00:00"
+ ]
 }
