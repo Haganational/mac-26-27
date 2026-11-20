@@ -2160,7 +2160,7 @@
     "key": null,
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2168,13 +2168,13 @@
     "key": "south-dakota-state",
     "name": "South Dakota State Jackrabbits",
     "abbr": "SDST",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:49 - 1st"
   },
   {
    "game_id": "401921007",
@@ -7959,5 +7959,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T21:11:28+00:00"
 }

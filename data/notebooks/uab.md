@@ -27,9 +27,9 @@ Terrence Mabry welded beams in a Birmingham fabrication shop for twelve years, l
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five LWWLW.
+**62 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Terrence Mabry welded beams in a Birmingham fabrication shop for twelve years, l
 - 2026-11-18: W 94-82 vs Florida International Panthers. Barometer 58 (steady). <!-- g:401919018 -->
 - 2026-11-18: Social recap posted (W 94-82 vs Florida International Panthers): https://hardwoodbricks.com/american/games/401919018.html <!-- post:401919018:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401919019.html <!-- post:401919019:preview -->
+- 2026-11-20: W 81-76 vs (neutral) George Washington Revolutionaries. Barometer 62 (steady). <!-- g:401919019 -->
