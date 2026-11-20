@@ -2752,7 +2752,7 @@
     "key": null,
     "name": "Miami Hurricanes",
     "abbr": "MIA",
-    "score": 16,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -2760,13 +2760,13 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": 12,
+    "score": 23,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:42 - 1st"
+   "detail": "4:29 - 1st"
   },
   {
    "game_id": "401919827",
@@ -2797,7 +2797,7 @@
     "key": "canisius",
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2805,13 +2805,13 @@
     "key": null,
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:56 - 1st"
   },
   {
    "game_id": "401921007",
@@ -11402,5 +11402,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T22:33:23+00:00"
+ "live_at": "2026-11-20T22:54:38+00:00"
 }

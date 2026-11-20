@@ -2225,7 +2225,7 @@
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2233,13 +2233,13 @@
     "key": "ut-martin",
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:02 - 1st"
   },
   {
    "game_id": "401913529",
@@ -8313,5 +8313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T22:12:55+00:00"
+ "live_at": "2026-11-20T23:06:58+00:00"
 }

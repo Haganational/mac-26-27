@@ -2110,7 +2110,7 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2118,13 +2118,13 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:55 - 1st"
   },
   {
    "game_id": "401916299",
@@ -8403,5 +8403,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:08:51+00:00"
 }
