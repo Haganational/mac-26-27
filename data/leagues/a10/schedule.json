@@ -2844,7 +2844,7 @@
     "key": "george-washington",
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2852,13 +2852,13 @@
     "key": null,
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": null,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:34 - 1st"
   },
   {
    "game_id": "401920066",
@@ -12871,5 +12871,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T19:36:59+00:00"
 }

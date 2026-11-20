@@ -2712,21 +2712,21 @@
     "key": null,
     "name": "Florida State Seminoles",
     "abbr": "FSU",
-    "score": 69,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2739",
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 57,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:31 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926134",
@@ -10591,5 +10591,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T19:02:14+00:00"
+ "live_at": "2026-11-20T19:32:37+00:00"
 }
