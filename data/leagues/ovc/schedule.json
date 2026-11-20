@@ -2097,7 +2097,7 @@
     "key": "siue",
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2105,13 +2105,13 @@
     "key": null,
     "name": "North Park Vikings",
     "abbr": "NPU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:26 - 1st"
   },
   {
    "game_id": "401920845",
@@ -8312,5 +8312,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:23:11+00:00"
 }

@@ -1,6 +1,6 @@
 # Carlos Varga, The San Diego Pilot
 
-_San Diego St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-19._
+_San Diego St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-20._
 
 ## Who they are
 

@@ -2126,7 +2126,7 @@
     "key": null,
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2134,13 +2134,13 @@
     "key": "maine",
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:53 - 1st"
   },
   {
    "game_id": "401916318",
@@ -2171,7 +2171,7 @@
     "key": null,
     "name": "Ohio State Buckeyes",
     "abbr": "OSU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2179,13 +2179,13 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:49 - 1st"
   },
   {
    "game_id": "401919826",
@@ -8807,5 +8807,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:23:37+00:00"
 }

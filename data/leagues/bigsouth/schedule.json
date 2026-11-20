@@ -1946,7 +1946,7 @@
     "key": "high-point",
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -1954,13 +1954,13 @@
     "key": null,
     "name": "Montana State Bobcats",
     "abbr": "MTST",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:50 - 1st"
   },
   {
    "game_id": "401922284",
@@ -8867,5 +8867,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:22:48+00:00"
 }

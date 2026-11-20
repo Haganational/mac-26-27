@@ -1790,7 +1790,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1798,13 +1798,13 @@
     "key": null,
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:00 - 1st"
   },
   {
    "game_id": "401918950",
@@ -8188,5 +8188,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:12:45+00:00"
 }

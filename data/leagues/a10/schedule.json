@@ -2766,7 +2766,7 @@
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2774,13 +2774,13 @@
     "key": null,
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:27 - 1st"
   },
   {
    "game_id": "401917536",
@@ -12873,5 +12873,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:15:55+00:00"
 }

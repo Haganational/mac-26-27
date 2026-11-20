@@ -2161,7 +2161,7 @@
     "key": null,
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2169,13 +2169,13 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:46 - 1st"
   },
   {
    "game_id": "401928826",
@@ -2206,7 +2206,7 @@
     "key": "toledo",
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": null,
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:20 - 1st"
   },
   {
    "game_id": "401928834",
@@ -9690,5 +9690,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:12:00+00:00"
 }
