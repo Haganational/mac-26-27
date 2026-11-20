@@ -2077,7 +2077,7 @@
     "key": "north-dakota",
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2085,13 +2085,13 @@
     "key": null,
     "name": "Mayville State Comets",
     "abbr": "MYSU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:08 - 1st"
   },
   {
    "game_id": "401920845",
@@ -2127,7 +2127,7 @@
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2135,13 +2135,13 @@
     "key": null,
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:15 - 1st"
   },
   {
    "game_id": "401922022",
@@ -7935,5 +7935,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T01:35:10+00:00"
 }

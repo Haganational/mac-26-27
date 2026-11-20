@@ -2204,7 +2204,7 @@
     "key": "houston-christian",
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2212,13 +2212,13 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": null,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:06 - 1st"
   },
   {
    "game_id": "401918056",
@@ -10017,5 +10017,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T01:34:32+00:00"
 }

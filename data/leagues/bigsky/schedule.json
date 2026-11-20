@@ -2196,7 +2196,7 @@
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": 37,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2204,13 +2204,13 @@
     "key": "montana-state",
     "name": "Montana State Bobcats",
     "abbr": "MTST",
-    "score": 37,
+    "score": 55,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:35 - 2nd"
   },
   {
    "game_id": "401906867",
@@ -2241,7 +2241,7 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2249,13 +2249,13 @@
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:14 - 1st"
   },
   {
    "game_id": "401925941",
@@ -9694,5 +9694,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T00:58:44+00:00"
+ "live_at": "2026-11-20T01:33:55+00:00"
 }

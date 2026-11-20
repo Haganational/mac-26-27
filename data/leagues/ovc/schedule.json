@@ -2097,7 +2097,7 @@
     "key": "siue",
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": 36,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -2105,13 +2105,13 @@
     "key": null,
     "name": "North Park Vikings",
     "abbr": "NPU",
-    "score": 25,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "6:27 - 2nd"
   },
   {
    "game_id": "401920845",
@@ -2147,7 +2147,7 @@
     "key": null,
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2155,13 +2155,13 @@
     "key": "southeast-missouri",
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:46 - 1st"
   },
   {
    "game_id": "401919826",
@@ -8313,5 +8313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T01:00:58+00:00"
+ "live_at": "2026-11-20T01:36:38+00:00"
 }

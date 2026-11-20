@@ -2523,7 +2523,7 @@
     "key": null,
     "name": "Butler Bulldogs",
     "abbr": "BTLR",
-    "score": 42,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2531,13 +2531,13 @@
     "key": "northeastern",
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 39,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:36 - 2nd"
   },
   {
    "game_id": "401926814",
@@ -2568,7 +2568,7 @@
     "key": null,
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 11,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2576,13 +2576,13 @@
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": 14,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401918454",
@@ -11894,5 +11894,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T00:57:09+00:00"
+ "live_at": "2026-11-20T01:31:59+00:00"
 }
