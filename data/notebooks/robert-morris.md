@@ -27,9 +27,9 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 
 ## Barometer
 
-**41 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**37 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,5 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 - 2026-11-15: W 94-45 vs Capital Crusaders. Barometer 41 (testy). <!-- g:401928825 -->
 - 2026-11-15: Social recap posted (W 94-45 vs Capital Crusaders): https://hardwoodbricks.com/horizon/games/401928825.html <!-- post:401928825:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:preview -->
+- 2026-11-20: L 76-83 at Toledo Rockets. Barometer 37 (testy). <!-- g:401928826 -->
+- 2026-11-20: Social recap posted (L 76-83 vs Toledo Rockets): https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:recap -->

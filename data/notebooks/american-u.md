@@ -27,9 +27,9 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**64 of 100, steady.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/ivy/games/401912210.html <!-- post:401912210:preview -->
 - 2026-11-15: Social recap posted (W 70-64 vs Harvard Crimson): https://hardwoodbricks.com/ivy/games/401912210.html <!-- post:401912210:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:preview -->
+- 2026-11-20: W 82-51 vs Mary Baldwin Fighting Squirrels. Barometer 64 (steady). <!-- g:401912211 -->
+- 2026-11-20: Social recap posted (W 82-51 vs Mary Baldwin Fighting Squirrels): https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:recap -->

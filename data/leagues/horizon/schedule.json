@@ -2634,21 +2634,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 68,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
    "away": {
     "espn_id": "2061",
     "key": null,
     "name": "Berea Mountaineers",
     "abbr": "BERE",
-    "score": 29,
-    "winner": null
+    "score": 41,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:28 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928826",
@@ -2679,21 +2679,21 @@
     "key": null,
     "name": "Toledo Rockets",
     "abbr": "TOL",
-    "score": 58,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "2523",
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 47,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909698",
@@ -10603,5 +10603,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T01:24:40+00:00"
+ "live_at": "2026-11-20T02:01:51+00:00"
 }

@@ -27,9 +27,9 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 
 ## Barometer
 
-**29 of 100, despondent.** Record 2-4 (0-0 in conference), streak L4, last five WLLLL.
+**47 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 - 2026-11-18: L 78-83 at North Dakota Fighting Hawks. Barometer 29 (despondent). <!-- g:401926143 -->
 - 2026-11-18: Social recap posted (L 78-83 vs North Dakota Fighting Hawks): https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:preview -->
+- 2026-11-20: W 64-45 vs North Park Vikings. Barometer 47 (steady). <!-- g:401926144 -->
+- 2026-11-20: Social recap posted (W 64-45 vs North Park Vikings): https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:recap -->

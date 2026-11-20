@@ -1989,7 +1989,7 @@
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1997,13 +1997,13 @@
     "key": null,
     "name": "Rutgers Scarlet Knights",
     "abbr": "RUTG",
-    "score": null,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:52 - 1st"
   },
   {
    "game_id": "401911534",
@@ -9000,5 +9000,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T02:02:37+00:00"
 }

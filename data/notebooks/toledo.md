@@ -27,9 +27,9 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 
 ## Barometer
 
-**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LLWLW.
+**56 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 ## What we've made about them
 
 - Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 - 2026-11-14: Social recap posted (W 85-72 vs Detroit Mercy Titans): https://hardwoodbricks.com/games/401928804.html <!-- post:401928804:recap -->
 - 2026-11-17: Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it. <!-- film:S7vx_vBG8qk -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:preview -->
+- 2026-11-20: W 83-76 vs Robert Morris Colonials. Barometer 56 (steady). <!-- g:401928826 -->
+- 2026-11-20: Social recap posted (W 83-76 vs Robert Morris Colonials): https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:recap -->

@@ -2196,7 +2196,7 @@
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": 55,
+    "score": 85,
     "winner": null
    },
    "away": {
@@ -2204,13 +2204,13 @@
     "key": "montana-state",
     "name": "Montana State Bobcats",
     "abbr": "MTST",
-    "score": 55,
+    "score": 74,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "11:35 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401906867",
@@ -2241,7 +2241,7 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": 26,
+    "score": 46,
     "winner": null
    },
    "away": {
@@ -2249,13 +2249,13 @@
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": 31,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:14 - 1st"
+   "detail": "17:11 - 2nd"
   },
   {
    "game_id": "401925941",
@@ -2286,7 +2286,7 @@
     "key": null,
     "name": "Washington Huskies",
     "abbr": "WASH",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2294,13 +2294,13 @@
     "key": "utah-tech",
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:14 - 1st"
   },
   {
    "game_id": "401925916",
@@ -9694,5 +9694,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T01:33:55+00:00"
+ "live_at": "2026-11-20T02:12:09+00:00"
 }

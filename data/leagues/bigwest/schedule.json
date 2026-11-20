@@ -2055,7 +2055,7 @@
     "key": null,
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2063,13 +2063,13 @@
     "key": "uc-santa-barbara",
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:47 - 1st"
   },
   {
    "game_id": "401920349",
@@ -9983,5 +9983,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T02:04:07+00:00"
 }

@@ -27,9 +27,9 @@ Owen Fitzpatrick grew up in Fort Thomas, Kentucky, the youngest son of a firefig
 
 ## Barometer
 
-**33 of 100, testy.** Record 2-3 (0-0 in conference), streak L3, last five WWLLL.
+**48 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Owen editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Owen editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Owen Fitzpatrick grew up in Fort Thomas, Kentucky, the youngest son of a firefig
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Owen Fitzpatrick grew up in Fort Thomas, Kentucky, the youngest son of a firefig
 - 2026-11-14: L 57-68 vs Central Michigan Chippewas. Barometer 33 (testy). <!-- g:401911016 -->
 - 2026-11-14: Social recap posted (L 57-68 vs Central Michigan Chippewas): https://hardwoodbricks.com/games/401911016.html <!-- post:401911016:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/horizon/games/401928812.html <!-- post:401928812:preview -->
+- 2026-11-20: W 93-41 vs Berea Mountaineers. Barometer 48 (steady). <!-- g:401928812 -->
+- 2026-11-20: Social recap posted (W 93-41 vs Berea Mountaineers): https://hardwoodbricks.com/horizon/games/401928812.html <!-- post:401928812:recap -->
