@@ -69,7 +69,7 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 ## What we've made about them
 
 - Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,4 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 - 2026-11-17: Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least. <!-- film:yg-gdhcFoP8 -->
 - 2026-11-18: L 73-77 at William & Mary Tribe. Barometer 59 (steady). <!-- g:401911018 -->
 - 2026-11-18: Social recap posted (L 73-77 vs William & Mary Tribe): https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:preview -->

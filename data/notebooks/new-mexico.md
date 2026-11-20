@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 - 2026-11-15: L 85-90 at Santa Clara Broncos. Barometer 62 (steady). <!-- g:401917530 -->
 - 2026-11-15: Social recap posted (L 85-90 vs Santa Clara Broncos): https://hardwoodbricks.com/mw/games/401917530.html <!-- post:401917530:recap -->
 - 2026-11-17: On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM) <!-- weave:P8L3A3wDqgM -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->

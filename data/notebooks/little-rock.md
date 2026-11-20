@@ -69,7 +69,7 @@ Reggie Barnes played jazz piano in Little Rock clubs for thirty years and grades
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Reggie Barnes played jazz piano in Little Rock clubs for thirty years and grades
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:preview -->
 - 2026-11-20: W 78-72 at Jacksonville Dolphins. Barometer 49 (steady). <!-- g:401920878 -->
 - 2026-11-20: Social recap posted (W 78-72 vs Jacksonville Dolphins): https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/asun/games/401922222.html <!-- post:401922222:preview -->

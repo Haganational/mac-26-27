@@ -68,7 +68,7 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926838.html <!-- post:401926838:preview -->
 - 2026-11-19: W 70-52 at Towson Tigers. Barometer 65 (buoyant). <!-- g:401926838 -->
 - 2026-11-19: Social recap posted (W 70-52 vs Towson Tigers): https://hardwoodbricks.com/sunbelt/games/401926838.html <!-- post:401926838:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929452.html <!-- post:401929452:preview -->

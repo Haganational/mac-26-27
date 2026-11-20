@@ -68,7 +68,7 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/patriot/games/401909516.html <!-- post:401909516:preview -->
 - 2026-11-18: L 53-84 at Georgetown Hoyas. Barometer 54 (steady). <!-- g:401909516 -->
 - 2026-11-19: Social recap posted (L 53-84 vs Georgetown Hoyas): https://hardwoodbricks.com/patriot/games/401909516.html <!-- post:401909516:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401921222.html <!-- post:401921222:preview -->

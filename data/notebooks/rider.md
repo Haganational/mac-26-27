@@ -65,7 +65,7 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:preview -->
 - 2026-11-18: L 48-95 at Miami Hurricanes. Barometer 31 (testy). <!-- g:401921722 -->
 - 2026-11-18: Social recap posted (L 48-95 vs Miami Hurricanes): https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401921222.html <!-- post:401921222:preview -->
