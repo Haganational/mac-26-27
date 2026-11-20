@@ -1845,7 +1845,7 @@
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
     "score": 87,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2854",
@@ -1853,12 +1853,12 @@
     "name": "Bloomfield Deacons",
     "abbr": "BFC",
     "score": 77,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925927",
@@ -7575,5 +7575,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T18:51:21+00:00"
+ "live_at": "2026-11-20T19:14:32+00:00"
 }

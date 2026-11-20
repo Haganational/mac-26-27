@@ -2487,7 +2487,7 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 42,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -2495,13 +2495,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 51,
+    "score": 67,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "10:53 - 2nd"
   },
   {
    "game_id": "401919019",
@@ -2528,7 +2528,7 @@
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2536,13 +2536,13 @@
     "key": "uab",
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:03 - 1st"
   },
   {
    "game_id": "401925828",
@@ -12117,5 +12117,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T18:39:34+00:00"
+ "live_at": "2026-11-20T19:06:45+00:00"
 }

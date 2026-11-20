@@ -27,9 +27,9 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 
 ## Barometer
 
-**25 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
+**39 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 - 2026-11-18: L 39-83 at DePaul Blue Demons. Barometer 25 (despondent). <!-- g:401909504 -->
 - 2026-11-18: Social recap posted (L 39-83 vs DePaul Blue Demons): https://hardwoodbricks.com/meac/games/401909504.html <!-- post:401909504:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:preview -->
+- 2026-11-20: W 87-77 vs Bloomfield Deacons. Barometer 39 (testy). <!-- g:401925841 -->
+- 2026-11-20: Social recap posted (W 87-77 vs Bloomfield Deacons): https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:recap -->
