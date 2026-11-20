@@ -69,7 +69,7 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:preview -->
 - 2026-11-18: L 79-93 at Georgia Tech Yellow Jackets. Barometer 26 (despondent). <!-- g:401920308 -->
 - 2026-11-18: Social recap posted (L 79-93 vs Georgia Tech Yellow Jackets): https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:preview -->

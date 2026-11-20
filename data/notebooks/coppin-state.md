@@ -66,7 +66,7 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401925632.html <!-- post:401925632:preview -->
 - 2026-11-19: L 61-88 at La Salle Explorers. Barometer 28 (despondent). <!-- g:401925632 -->
 - 2026-11-19: Social recap posted (L 61-88 vs La Salle Explorers): https://hardwoodbricks.com/a10/games/401925632.html <!-- post:401925632:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/meac/games/401909517.html <!-- post:401909517:preview -->
