@@ -68,7 +68,7 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -79,3 +79,4 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:preview -->
 - 2026-11-20: L 77-84 at Butler Bulldogs. Barometer 46 (steady). <!-- g:401902280 -->
 - 2026-11-20: Social recap posted (L 77-84 vs Butler Bulldogs): https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:preview -->

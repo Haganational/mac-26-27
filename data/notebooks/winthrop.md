@@ -69,7 +69,7 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:preview -->
 - 2026-11-18: L 79-90 vs Chattanooga Mocs. Barometer 19 (despondent). <!-- g:401920974 -->
 - 2026-11-19: Social recap posted (L 79-90 vs Chattanooga Mocs): https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401925709.html <!-- post:401925709:preview -->

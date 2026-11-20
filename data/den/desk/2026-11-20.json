@@ -2,29 +2,29 @@
  "date": "2026-11-20",
  "desk": {
   "anchor": {
-   "alt": "Keisha Barnes, the Georgia State AI anchor",
-   "color": "#0039A6",
-   "color2": "#C60C30",
-   "initials": "KB",
+   "alt": "Mallory Hayes, the Western Kentucky AI anchor",
+   "color": "#C60C30",
+   "color2": "#FFFFFF",
+   "initials": "MH",
    "ink": "#ffffff",
-   "key": "georgia-state",
-   "name": "Keisha Barnes",
-   "portrait": "den/anchors/georgia-state.webp",
-   "school": "Georgia State",
+   "key": "western-kentucky",
+   "name": "Mallory Hayes",
+   "portrait": "den/anchors/western-kentucky.webp",
+   "school": "Western Kentucky",
    "tag": "AI anchor"
   },
-  "max": 210,
+  "max": 208,
   "picks": [
    {
-    "abbr": "GAST",
-    "game_id": "401926782",
+    "abbr": "WKU",
+    "game_id": "401927396",
     "kind": "homer",
-    "short": "Georgia State",
-    "side": "away",
-    "team_id": "2247",
+    "short": "Western Kentucky",
+    "side": "home",
+    "team_id": "98",
     "tip": "2026-11-21T00:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 53
+    "worth": 51
    },
    {
     "abbr": "MTSU",
@@ -229,7 +229,7 @@
    "team_id": "79",
    "tip": "2026-11-20T22:30Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 50
   },
   {
    "abbr": "UTM",
@@ -253,7 +253,7 @@
    "team_id": "2099",
    "tip": "2026-11-20T22:30Z",
    "why": "Homer pick.",
-   "worth": 56
+   "worth": 57
   },
   {
    "abbr": "MERC",
@@ -265,7 +265,7 @@
    "team_id": "2385",
    "tip": "2026-11-20T22:30Z",
    "why": "Homer pick.",
-   "worth": 44
+   "worth": 43
   },
   {
    "abbr": "DAY",
@@ -301,7 +301,7 @@
    "team_id": "48",
    "tip": "2026-11-20T23:00Z",
    "why": "Homer pick.",
-   "worth": 71
+   "worth": 72
   },
   {
    "abbr": "APP",
@@ -637,7 +637,7 @@
    "team_id": "250",
    "tip": "2026-11-21T00:30Z",
    "why": "Homer pick.",
-   "worth": 40
+   "worth": 39
   },
   {
    "abbr": "TLSA",
@@ -697,7 +697,7 @@
    "team_id": "2010",
    "tip": "2026-11-21T01:00Z",
    "why": "Homer pick.",
-   "worth": 68
+   "worth": 69
   },
   {
    "abbr": "LIP",
@@ -709,7 +709,7 @@
    "team_id": "288",
    "tip": "2026-11-21T01:00Z",
    "why": "Homer pick.",
-   "worth": 32
+   "worth": 31
   },
   {
    "abbr": "USA",
@@ -734,6 +734,18 @@
    "tip": "2026-11-21T02:00Z",
    "why": "Homer pick.",
    "worth": 94
+  },
+  {
+   "abbr": "EIU",
+   "game_id": "401913529",
+   "key": "eastern-illinois",
+   "kind": "homer",
+   "short": "Eastern Illinois",
+   "side": "away",
+   "team_id": "2197",
+   "tip": "2026-11-21T02:00Z",
+   "why": "Homer pick.",
+   "worth": 97
   },
   {
    "abbr": "IDHO",

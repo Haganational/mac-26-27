@@ -70,7 +70,7 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:preview -->
 - 2026-11-20: W 103-100 at Grambling Tigers. Barometer 47 (steady). <!-- g:401928388 -->
 - 2026-11-20: Social recap posted (W 103-100 vs Grambling Tigers): https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:preview -->
