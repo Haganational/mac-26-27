@@ -67,7 +67,7 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:preview -->
 - 2026-11-19: W 88-84 vs Mercer Bears. Barometer 40 (testy). <!-- g:401928347 -->
 - 2026-11-19: Social recap posted (W 88-84 vs Mercer Bears): https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->

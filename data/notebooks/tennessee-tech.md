@@ -70,7 +70,7 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:preview -->
 - 2026-11-18: W 98-77 at UNC Asheville Bulldogs. Barometer 64 (steady). <!-- g:401922292 -->
 - 2026-11-19: Social recap posted (W 98-77 vs UNC Asheville Bulldogs): https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->
