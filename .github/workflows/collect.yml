@@ -32,6 +32,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued run (concurrency: collect) otherwise checks out the commit it was triggered on, which is stale
+          # once the run ahead of it pushes its snapshot; its own snapshot then can't rebase onto main and the
+          # deploy is skipped (Nov 20 2026: runs 799 and 801). Take main's tip when the job actually starts.
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
