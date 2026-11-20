@@ -70,7 +70,7 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:preview -->
 - 2026-11-19: W 71-62 vs UC Riverside Highlanders. Barometer 66 (buoyant). <!-- g:401917535 -->
 - 2026-11-19: Social recap posted (W 71-62 vs UC Riverside Highlanders): https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:preview -->

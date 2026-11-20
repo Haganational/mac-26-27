@@ -70,7 +70,7 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921729.html <!-- post:401921729:preview -->
 - 2026-11-18: L 61-65 at Stanford Cardinal. Barometer 61 (steady). <!-- g:401921729 -->
 - 2026-11-18: Social recap posted (L 61-65 vs Stanford Cardinal): https://hardwoodbricks.com/bigwest/games/401921729.html <!-- post:401921729:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:preview -->
