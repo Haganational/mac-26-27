@@ -27,9 +27,9 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 
 ## Barometer
 
-**81 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**62 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grace editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grace editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 - 2026-11-11: W 87-76 at South Dakota Coyotes. Barometer 74 (buoyant). <!-- g:401924952 -->
 - 2026-11-14: W 108-73 vs College of Biblical Studies Ambassadors. Barometer 81 (giddy). <!-- g:401924953 -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:preview -->
+- 2026-11-20: L 79-86 vs Georgia Southern Eagles. Barometer 62 (steady). <!-- g:401921028 -->
+- 2026-11-20: Social recap posted (L 79-86 vs Georgia Southern Eagles): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->

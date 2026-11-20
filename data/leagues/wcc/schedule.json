@@ -2104,7 +2104,7 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": 40,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2112,13 +2112,13 @@
     "key": null,
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": 42,
+    "score": 66,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:35 - 2nd"
   },
   {
    "game_id": "401917536",
@@ -2149,7 +2149,7 @@
     "key": "santa-clara",
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2157,13 +2157,13 @@
     "key": null,
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:35 - 1st"
   },
   {
    "game_id": "401935675",
@@ -9667,5 +9667,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T03:06:33+00:00"
+ "live_at": "2026-11-20T03:46:54+00:00"
 }

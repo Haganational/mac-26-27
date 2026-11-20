@@ -27,9 +27,9 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 
 ## Barometer
 
-**26 of 100, despondent.** Record 1-4 (0-0 in conference), streak L4, last five WLLLL.
+**43 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 - 2026-11-18: L 78-85 vs Middle Tennessee Blue Raiders. Barometer 26 (despondent). <!-- g:401921027 -->
 - 2026-11-18: Social recap posted (L 78-85 vs Middle Tennessee Blue Raiders): https://hardwoodbricks.com/sunbelt/games/401921027.html <!-- post:401921027:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:preview -->
+- 2026-11-20: W 86-79 at Houston Christian Huskies. Barometer 43 (testy). <!-- g:401921028 -->
+- 2026-11-20: Social recap posted (W 86-79 vs Houston Christian Huskies): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->

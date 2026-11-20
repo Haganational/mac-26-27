@@ -27,9 +27,9 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 
 ## Barometer
 
-**39 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**34 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Frankie editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Frankie editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,5 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 - 2026-11-17: W 91-56 vs Florida Memorial Lions. Barometer 39 (testy). <!-- g:401922240 -->
 - 2026-11-17: Social recap posted (W 91-56 vs Florida Memorial Lions): https://hardwoodbricks.com/asun/games/401922240.html <!-- post:401922240:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401918950.html <!-- post:401918950:preview -->
+- 2026-11-20: L 69-83 at Louisville Cardinals. Barometer 34 (testy). <!-- g:401918950 -->
+- 2026-11-20: Social recap posted (L 69-83 vs Louisville Cardinals): https://hardwoodbricks.com/asun/games/401918950.html <!-- post:401918950:recap -->

@@ -27,9 +27,9 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**37 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tanner editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tanner editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -82,3 +82,5 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 - 2026-11-13: L 59-88 at High Point Panthers. Barometer 59 (steady). <!-- g:401920412 -->
 - 2026-11-14: L 51-89 at Wake Forest Demon Deacons. Barometer 48 (steady). <!-- g:401909728 -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401906867.html <!-- post:401906867:preview -->
+- 2026-11-20: L 68-92 at Texas Longhorns. Barometer 37 (testy). <!-- g:401906867 -->
+- 2026-11-20: Social recap posted (L 68-92 vs Texas Longhorns): https://hardwoodbricks.com/bigsky/games/401906867.html <!-- post:401906867:recap -->
