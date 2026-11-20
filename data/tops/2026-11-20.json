@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-20",
+ "locked_at": "2026-11-20T13:16+00:00",
+ "board": 44,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401906852",
+    "tip": "2026-11-21T00:00Z",
+    "matchup": "Coastal Carolina Chanticleers at Tennessee Volunteers",
+    "side": "under",
+    "line": 143.0,
+    "label": "Under 143",
+    "why": "Model has it 10.9 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401921723",
+    "tip": "2026-11-20T22:00Z",
+    "matchup": "Manhattan Jaspers at Miami Hurricanes",
+    "side": "home",
+    "team": "Miami Hurricanes",
+    "abbr": "MIA",
+    "line": -39.5,
+    "label": "Miami Hurricanes -39.5",
+    "why": "Third-stingiest defense on the board: 57.0 allowed a game."
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401929459",
+    "tip": "2026-11-21T01:00Z",
+    "matchup": "South Alabama Jaguars at SMU Mustangs",
+    "side": "over",
+    "line": 146.5,
+    "label": "Over 146.5",
+    "why": "Model has it 13.1 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401913529",
+    "tip": "2026-11-21T02:00Z",
+    "matchup": "Eastern Illinois Panthers at Illinois Fighting Illini",
+    "side": "home",
+    "team": "Illinois Fighting Illini",
+    "abbr": "ILL",
+    "line": -50.5,
+    "label": "Illinois Fighting Illini -50.5",
+    "why": "Second-highest scoring team on the board: 103.4 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401916299",
+    "tip": "2026-11-21T00:00Z",
+    "matchup": "Wagner Seahawks at Maryland Terrapins",
+    "side": "away",
+    "team": "Wagner Seahawks",
+    "abbr": "WAG",
+    "line": 35.5,
+    "label": "Wagner Seahawks +35.5",
+    "why": "Model is 14.3 points off the number."
+   },
+   {
+    "kind": "side",
+    "game": "401925740",
+    "tip": "2026-11-21T01:00Z",
+    "matchup": "Mississippi Valley State Delta Devils at Arkansas Razorbacks",
+    "side": "away",
+    "team": "Mississippi Valley State Delta Devils",
+    "abbr": "MVSU",
+    "line": 40.5,
+    "label": "Mississippi Valley State Delta Devils +40.5",
+    "why": "Model is 11.8 points off the number."
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401925828",
+    "tip": "2026-11-20T23:30Z",
+    "matchup": "North Texas Mean Green at App State Mountaineers",
+    "side": "home",
+    "team": "App State Mountaineers",
+    "abbr": "APP",
+    "line": 3.0,
+    "label": "App State Mountaineers +3",
+    "why": "Home dog in the window. I like a building that owes me money."
+   },
+   {
+    "kind": "total",
+    "game": "401925828",
+    "tip": "2026-11-20T23:30Z",
+    "matchup": "North Texas Mean Green at App State Mountaineers",
+    "side": "over",
+    "line": 130.5,
+    "label": "Over 130.5",
+    "why": "Somebody's been buying every rubber duck in South Jersey. Every single one. Over. That's all I can say."
+   }
+  ]
+ },
+ "column": {
+  "byline": "merv",
+  "by": "Merv Crutch",
+  "head": "Tops: Leslie. Bottoms: The Shark.",
+  "paras": [
+   "They put me in the Hall of Fame for knowing when to shut up and take the under.",
+   "Leslie owned last night: 2-0, +1.82 units.",
+   "Bottom of the barrel: The Shark, 0-2, -2.00 units.",
+   "Leslie went 2-0. A clean sweep.",
+   "The Shark had Under 150.5 in the bag until with 1:26 left. Then CJ Shaw hit a layup.",
+   "Leslie got Over 156.5 home with 1:04 left, on Tyrin Jones's dunk."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 143. Model has it 10.9 under the total. Nobody's scoring on anybody in my world. Miami Hurricanes -39.5. Third-stingiest defense on the board: 57.0 allowed a game. I've seen that team guard a man into retirement."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 146.5. Model has it 13.1 over the total. Turn the scoreboard up, honey. Illinois Fighting Illini -50.5. Second-highest scoring team on the board: 103.4 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Wagner Seahawks +35.5. Model is 14.3 points off the number. I don't make the rules. The machine does. Mississippi Valley State Delta Devils +40.5. Model is 11.8 points off the number. I don't make the rules. The machine does."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "App State Mountaineers +3. Home dog in the window. I like a building that owes me money. Over 130.5. Somebody's been buying every rubber duck in South Jersey. Every single one. Over. That's all I can say."
+   }
+  ],
+  "close": "Season ledger: Leslie leads at 2-0, +1.82 units."
+ }
+}
