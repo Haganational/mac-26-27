@@ -2845,7 +2845,7 @@
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
     "score": 76,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "5",
@@ -2853,12 +2853,12 @@
     "name": "UAB Blazers",
     "abbr": "UAB",
     "score": 81,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920066",
@@ -2885,7 +2885,7 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2893,13 +2893,13 @@
     "key": "rhode-island",
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:13 - 1st"
   },
   {
    "game_id": "401921419",
@@ -12872,5 +12872,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T21:05:03+00:00"
+ "live_at": "2026-11-20T21:36:54+00:00"
 }
