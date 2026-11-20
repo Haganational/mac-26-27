@@ -67,7 +67,7 @@ Josie Blevins played point guard for her high school in Johnson City and then sp
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Josie Blevins played point guard for her high school in Johnson City and then sp
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:preview -->
 - 2026-11-18: L 55-67 at Marshall Thundering Herd. Barometer 40 (testy). <!-- g:401920857 -->
 - 2026-11-18: Social recap posted (L 55-67 vs Marshall Thundering Herd): https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:preview -->

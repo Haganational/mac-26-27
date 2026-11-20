@@ -70,7 +70,7 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/uac/games/401917917.html <!-- post:401917917:preview -->
 - 2026-11-17: L 66-99 at Oklahoma State Cowboys. Barometer 40 (testy). <!-- g:401917917 -->
 - 2026-11-17: Social recap posted (L 66-99 vs Oklahoma State Cowboys): https://hardwoodbricks.com/uac/games/401917917.html <!-- post:401917917:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:preview -->

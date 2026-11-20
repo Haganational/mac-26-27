@@ -69,7 +69,7 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
 - 2026-11-18: W 98-71 vs Tennessee State Tigers. Barometer 62 (steady). <!-- g:401918994 -->
 - 2026-11-18: Social recap posted (W 98-71 vs Tennessee State Tigers): https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:preview -->
