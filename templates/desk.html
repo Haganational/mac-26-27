@@ -94,6 +94,9 @@
   <div class="desk">
     <section>
       <h2 id="formtitle">New dispatch</h2>
+      <label for="confpick">Conference</label>
+      <select id="confpick" aria-describedby="confhint">{% for lg in leagues|sort(attribute='short') %}<option value="{{ site_up }}{{ lg.path }}desk.html"{% if lg.on %} selected{% endif %}>{{ lg.short }}</option>{% endfor %}</select>
+      <div class="hint" id="confhint">Filing to the {{ LG_name }} edition. Pick another conference to see its games, teams and players; your draft and byline come with you.</div>
       <label id="kindlabel">Filed as</label>
       <div class="kinds" id="kinds">
         {% for k, v in notes_kinds.items() %}<label class="k-{{ k }}"><input type="radio" name="kind" value="{{ k }}"{% if k == 'arena' %} checked{% endif %}>{{ L.kind_icon(k, 16) }}<span>{{ v[0] }}</span></label>{% endfor %}
@@ -596,6 +599,8 @@
   if (q.get('player') && playerById.get(q.get('player'))) $('#player').value = playerById.get(q.get('player')).label;
   if (q.get('conf') || q.get('video')) setAbout(!!q.get('conf'), /^[A-Za-z0-9_-]{11}$/.test(q.get('video') || '') ? { id: q.get('video'), title: q.get('vt') || '' } : null);
   if (q.get('article')) { $('#article').checked = true; $('#formtitle').textContent = CONTRIB ? 'New article from ' + CONTRIB : 'New article'; }
+  // At-large: every edition has a desk. Switching keeps the byline (?by=), the GitHub sign-in and the draft (all in this browser).
+  $('#confpick').addEventListener('change', (e) => { render(); location.href = e.target.value + (CONTRIB ? '?by=' + encodeURIComponent(CONTRIB) : ''); });
   $('#aboutclear').onclick = () => { setAbout(false, null); render(); };
   $('#article').addEventListener('change', render);
   if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(keptDraft || 'null'), f = s && s.text && parseFile(s.text); if (f && (f.body || f.meta.photos.length)) { fill(s.text); restorePhotos(); } } catch (e) {} }
