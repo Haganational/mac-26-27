@@ -27,9 +27,9 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 
 ## Barometer
 
-**45 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLLWL.
+**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Renee editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Renee editorializes: 64% of stories right now.
 
 ## School and town
 

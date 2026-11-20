@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:17:46+00:00",
+ "fetched_at": "2026-11-20T23:28:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -2182,8 +2182,8 @@
   {
    "game_id": "401919826",
    "date": "2026-11-20T20:00Z",
-   "name": "Western Illinois Leathernecks at UAlbany Great Danes",
-   "short_name": "WIU VS UALB",
+   "name": "UAlbany Great Danes at Western Illinois Leathernecks",
+   "short_name": "UALB VS WIU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2200,18 +2200,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "399",
-    "key": "ualbany",
-    "name": "UAlbany Great Danes",
-    "abbr": "UALB",
-    "score": 60,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2710",
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
+    "score": 60,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "399",
+    "key": "ualbany",
+    "name": "UAlbany Great Danes",
+    "abbr": "UALB",
     "score": 65,
     "winner": true
    },
@@ -2245,7 +2245,7 @@
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2253,13 +2253,13 @@
     "key": null,
     "name": "Worcester State Lancers",
     "abbr": "WORC",
-    "score": 7,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:41 - 1st"
+   "detail": "11:42 - 1st"
   },
   {
    "game_id": "401923312",
@@ -2363,7 +2363,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-21-2026--sports-ncaa-basketball/production/7672806?wsUser=717",
-    "low": 25.0,
+    "low": 27.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Koessler Athletic Center",
@@ -2760,7 +2760,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-24-2026--sports-ncaa-basketball/production/7465781?wsUser=717",
-    "low": 18.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Prudential Center",
@@ -3645,7 +3645,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-state-nittany-lions-mens-basketball-tickets-bryce-jordan-center-12-1-2026--sports-ncaa-basketball/production/7436701?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Bryce Jordan Center",
@@ -4304,7 +4304,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-12-7-2026--sports-ncaa-basketball/production/7465797?wsUser=717",
-    "low": 17.0,
+    "low": 16.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Prudential Center",
@@ -8807,6 +8807,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T23:07:35+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:19:06+00:00",
+ "fetched_at": "2026-11-20T23:29:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -2099,7 +2099,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-20-2026--sports-ncaa-basketball/production/7672802?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Koessler Athletic Center",
@@ -2110,7 +2110,7 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 20,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2118,13 +2118,13 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": 13,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:55 - 1st"
+   "detail": "3:04 - 1st"
   },
   {
    "game_id": "401916299",
@@ -2189,7 +2189,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-20-2026--sports-ncaa-basketball/production/7349909?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Mizzou Arena",
@@ -2258,8 +2258,8 @@
   {
    "game_id": "401919828",
    "date": "2026-11-21T18:30Z",
-   "name": "Mercyhurst Lakers at Western Illinois Leathernecks",
-   "short_name": "MERC VS WIU",
+   "name": "Western Illinois Leathernecks at Mercyhurst Lakers",
+   "short_name": "WIU VS MERC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2276,18 +2276,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2710",
-    "key": null,
-    "name": "Western Illinois Leathernecks",
-    "abbr": "WIU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2385",
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2710",
+    "key": null,
+    "name": "Western Illinois Leathernecks",
+    "abbr": "WIU",
     "score": null,
     "winner": null
    },
@@ -2359,7 +2359,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-11-22-2026--sports-ncaa-basketball/production/7269709?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Fiserv Forum",
@@ -3429,7 +3429,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-12-2-2026--sports-ncaa-basketball/production/7717526?wsUser=717",
-    "low": 23.0,
+    "low": 19.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "CFSB Center",
@@ -3855,8 +3855,8 @@
   {
    "game_id": "401911315",
    "date": "2026-12-06T20:30Z",
-   "name": "Central Connecticut Blue Devils at Brown Bears",
-   "short_name": "CCSU VS BRWN",
+   "name": "Brown Bears at Central Connecticut Blue Devils",
+   "short_name": "BRWN VS CCSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3877,18 +3877,18 @@
    "venue_city": "Springfield",
    "venue_state": "MA",
    "home": {
-    "espn_id": "225",
-    "key": null,
-    "name": "Brown Bears",
-    "abbr": "BRWN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2115",
     "key": "central-connecticut",
     "name": "Central Connecticut Blue Devils",
     "abbr": "CCSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "225",
+    "key": null,
+    "name": "Brown Bears",
+    "abbr": "BRWN",
     "score": null,
     "winner": null
    },
@@ -5583,7 +5583,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northwestern-wildcats-mens-basketball-tickets-welsh-ryan-arena-12-29-2026--sports-ncaa-basketball/production/7484441?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Welsh-Ryan Arena",
@@ -8403,6 +8403,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T23:08:51+00:00"
+ ]
 }

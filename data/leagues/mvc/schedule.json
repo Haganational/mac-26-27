@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:06:02+00:00",
+ "fetched_at": "2026-11-20T23:18:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -2372,7 +2372,7 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 12,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2380,13 +2380,13 @@
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 9,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:15 - 1st"
+   "detail": "7:59 - 1st"
   },
   {
    "game_id": "401921692",
@@ -2775,7 +2775,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 48.0,
+    "low": 37.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -2896,7 +2896,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 37.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -3498,7 +3498,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-11-30-2026--sports-ncaa-basketball/production/7339979?wsUser=717",
-    "low": 23.0,
+    "low": 19.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "CFSB Center",
@@ -3809,7 +3809,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/murray-state-racers-mens-basketball-tickets-cfsb-center-12-2-2026--sports-ncaa-basketball/production/7717526?wsUser=717",
-    "low": 23.0,
+    "low": 19.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "CFSB Center",
@@ -4851,7 +4851,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-12-2026--sports-ncaa-basketball/production/7636970?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Matthew Knight Arena",
@@ -9555,6 +9555,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T22:56:14+00:00"
+ ]
 }

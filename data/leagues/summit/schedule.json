@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:15:22+00:00",
+ "fetched_at": "2026-11-20T23:26:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2160,21 +2160,21 @@
     "key": null,
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": 81,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "2571",
     "key": "south-dakota-state",
     "name": "South Dakota State Jackrabbits",
     "abbr": "SDST",
-    "score": 66,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921007",
@@ -2323,7 +2323,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
-    "low": 21.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Sanford Pentagon",
@@ -2896,7 +2896,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 19.0,
+    "low": 14.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Mabee Center",
@@ -7959,6 +7959,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T23:05:15+00:00"
+ ]
 }

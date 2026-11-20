@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:17:07+00:00",
+ "fetched_at": "2026-11-20T23:28:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -2162,8 +2162,8 @@
   {
    "game_id": "401919826",
    "date": "2026-11-20T20:00Z",
-   "name": "Western Illinois Leathernecks at UAlbany Great Danes",
-   "short_name": "WIU VS UALB",
+   "name": "UAlbany Great Danes at Western Illinois Leathernecks",
+   "short_name": "UALB VS WIU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2180,18 +2180,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "399",
-    "key": null,
-    "name": "UAlbany Great Danes",
-    "abbr": "UALB",
-    "score": 60,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2710",
     "key": "western-illinois",
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
+    "score": 60,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "399",
+    "key": null,
+    "name": "UAlbany Great Danes",
+    "abbr": "UALB",
     "score": 65,
     "winner": true
    },
@@ -2225,7 +2225,7 @@
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 18,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2233,13 +2233,13 @@
     "key": "ut-martin",
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 17,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:02 - 1st"
+   "detail": "5:58 - 1st"
   },
   {
    "game_id": "401913529",
@@ -2259,7 +2259,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 29.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "State Farm Center",
@@ -2289,8 +2289,8 @@
   {
    "game_id": "401919828",
    "date": "2026-11-21T18:30Z",
-   "name": "Mercyhurst Lakers at Western Illinois Leathernecks",
-   "short_name": "MERC VS WIU",
+   "name": "Western Illinois Leathernecks at Mercyhurst Lakers",
+   "short_name": "WIU VS MERC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2307,18 +2307,18 @@
    "venue_city": "Buffalo",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2710",
-    "key": "western-illinois",
-    "name": "Western Illinois Leathernecks",
-    "abbr": "WIU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2385",
     "key": null,
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2710",
+    "key": "western-illinois",
+    "name": "Western Illinois Leathernecks",
+    "abbr": "WIU",
     "score": null,
     "winner": null
    },
@@ -8312,6 +8312,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T23:06:58+00:00"
+ ]
 }

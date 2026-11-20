@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T18:12:30+00:00",
+ "fetched_at": "2026-11-20T23:24:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -1989,7 +1989,7 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 55,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1997,13 +1997,13 @@
     "key": null,
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": 41,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:00 - 2nd"
+   "detail": "2:47 - 2nd"
   },
   {
    "game_id": "401920298",
@@ -2045,10 +2045,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:24 - 1st"
   },
   {
    "game_id": "401926782",
@@ -2195,7 +2195,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "ExtraMile Arena",
@@ -2889,7 +2889,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 19.0,
+    "low": 14.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Mabee Center",
@@ -3152,7 +3152,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/middle-tennessee-state-blue-raiders-mens-basketball-tickets-murphy-center-11-28-2026--sports-ncaa-basketball/production/7639583?wsUser=717",
-    "low": 21.0,
+    "low": 18.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Murphy Center",
@@ -3639,7 +3639,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-12-5-2026--sports-ncaa-basketball/production/7648570?wsUser=717",
-    "low": 21.0,
+    "low": 15.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Bob Carpenter Center",
@@ -4022,7 +4022,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-12-9-2026--sports-ncaa-basketball/production/7864146?wsUser=717",
-    "low": 15.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "GSU Convocation Center",
@@ -4372,7 +4372,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 34.0,
+    "low": 25.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Lawlor Events Center",
@@ -9000,6 +9000,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T23:02:27+00:00"
+ ]
 }
