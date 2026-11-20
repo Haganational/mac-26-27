@@ -59,6 +59,9 @@ def test_threads_needs_only_token(monkeypatch):
     for k in ("BSKY_HANDLE", "BSKY_APP_PASSWORD", "THREADS_USER_ID"):
         monkeypatch.delenv(k, raising=False)
     monkeypatch.setenv("THREADS_ACCESS_TOKEN", "tok")
+    monkeypatch.delenv("THREADS_LINK_POSTS", raising=False)
+    assert social._networks() == []  # Threads link posts are off by default (one Threads post a day)
+    monkeypatch.setenv("THREADS_LINK_POSTS", "1")
     assert [p for p, _ in social._networks()] == ["threads:"]
 
 

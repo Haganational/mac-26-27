@@ -16,7 +16,9 @@ Needs two repo secrets, set by the account owner: BSKY_HANDLE (e.g. hardwoodbric
 and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account password).
 Threads needs THREADS_ACCESS_TOKEN (from a Meta developer app with threads_basic and
 threads_content_publish; the token lasts about 60 days). THREADS_USER_ID is optional and
-defaults to "me", the account the token belongs to. Each network
+defaults to "me", the account the token belongs to. Threads link posts are OFF unless
+THREADS_LINK_POSTS=1 (Matthew, Nov 20 2026: Threads gets about one automated post a day, which is
+the MidMaxx60 video from mac/reels.py, plus the pushes he asks for). Each network
 posts on its own once its secrets are set; with none, this does nothing. SOCIAL_DRY_RUN=1 prints the posts instead of sending them.
 """
 from __future__ import annotations
@@ -184,7 +186,7 @@ def _networks() -> list[tuple[str, Any]]:
         nets.append(("", bsky))
     uid = os.environ.get("THREADS_USER_ID", "").strip() or "me"
     token = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
-    if token:
+    if token and os.environ.get("THREADS_LINK_POSTS", "").strip() == "1":
         nets.append(("threads:", lambda it, now: post_threads(uid, token, it)))
     return nets
 
