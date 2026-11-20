@@ -1,0 +1,1732 @@
+{
+ "source": "cbbd",
+ "breakeven": 0.5238,
+ "by_season": {
+  "2014": {
+   "all_lined_games": {
+    "bets": 3811,
+    "w": 1921,
+    "l": 1890,
+    "push": 95,
+    "pct": 0.5041,
+    "ci95": [
+     0.488,
+     0.52
+    ],
+    "p_vs_breakeven": 0.993,
+    "roi": -0.0368,
+    "units": -143.64,
+    "avg_edge": 2.11
+   },
+   "top1_per_night": {
+    "bets": 144,
+    "w": 85,
+    "l": 59,
+    "push": 3,
+    "pct": 0.5903,
+    "ci95": [
+     0.509,
+     0.667
+    ],
+    "p_vs_breakeven": 0.0647,
+    "roi": 0.1243,
+    "units": 18.27,
+    "avg_edge": 7.68
+   },
+   "top3_per_night": {
+    "bets": 415,
+    "w": 228,
+    "l": 187,
+    "push": 12,
+    "pct": 0.5494,
+    "ci95": [
+     0.501,
+     0.597
+    ],
+    "p_vs_breakeven": 0.16,
+    "roi": 0.0475,
+    "units": 20.27,
+    "avg_edge": 5.64
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 129,
+    "w": 72,
+    "l": 57,
+    "push": 3,
+    "pct": 0.5581,
+    "ci95": [
+     0.472,
+     0.641
+    ],
+    "p_vs_breakeven": 0.2446,
+    "roi": 0.064,
+    "units": 8.45,
+    "avg_edge": 6.39
+   },
+   "edge_3plus": {
+    "bets": 756,
+    "w": 400,
+    "l": 356,
+    "push": 25,
+    "pct": 0.5291,
+    "ci95": [
+     0.493,
+     0.564
+    ],
+    "p_vs_breakeven": 0.3996,
+    "roi": 0.0098,
+    "units": 7.64,
+    "avg_edge": 5.71
+   },
+   "edge_5plus": {
+    "bets": 286,
+    "w": 148,
+    "l": 138,
+    "push": 10,
+    "pct": 0.5175,
+    "ci95": [
+     0.46,
+     0.575
+    ],
+    "p_vs_breakeven": 0.608,
+    "roi": -0.0117,
+    "units": -3.45,
+    "avg_edge": 8.81
+   },
+   "edge_7plus": {
+    "bets": 136,
+    "w": 83,
+    "l": 53,
+    "push": 5,
+    "pct": 0.6103,
+    "ci95": [
+     0.526,
+     0.688
+    ],
+    "p_vs_breakeven": 0.0261,
+    "roi": 0.1593,
+    "units": 22.45,
+    "avg_edge": 12.13
+   },
+   "edge_10plus": {
+    "bets": 61,
+    "w": 38,
+    "l": 23,
+    "push": 3,
+    "pct": 0.623,
+    "ci95": [
+     0.497,
+     0.734
+    ],
+    "p_vs_breakeven": 0.0769,
+    "roi": 0.1804,
+    "units": 11.55,
+    "avg_edge": 16.81
+   }
+  },
+  "2015": {
+   "all_lined_games": {
+    "bets": 3886,
+    "w": 2028,
+    "l": 1858,
+    "push": 108,
+    "pct": 0.5219,
+    "ci95": [
+     0.506,
+     0.538
+    ],
+    "p_vs_breakeven": 0.6018,
+    "roi": -0.0036,
+    "units": -14.36,
+    "avg_edge": 2.05
+   },
+   "top1_per_night": {
+    "bets": 136,
+    "w": 70,
+    "l": 66,
+    "push": 4,
+    "pct": 0.5147,
+    "ci95": [
+     0.431,
+     0.597
+    ],
+    "p_vs_breakeven": 0.6177,
+    "roi": -0.0169,
+    "units": -2.36,
+    "avg_edge": 6.84
+   },
+   "top3_per_night": {
+    "bets": 395,
+    "w": 207,
+    "l": 188,
+    "push": 10,
+    "pct": 0.5241,
+    "ci95": [
+     0.475,
+     0.573
+    ],
+    "p_vs_breakeven": 0.5166,
+    "roi": 0.0004,
+    "units": 0.18,
+    "avg_edge": 5.23
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 125,
+    "w": 64,
+    "l": 61,
+    "push": 4,
+    "pct": 0.512,
+    "ci95": [
+     0.425,
+     0.598
+    ],
+    "p_vs_breakeven": 0.6387,
+    "roi": -0.0218,
+    "units": -2.82,
+    "avg_edge": 5.12
+   },
+   "edge_3plus": {
+    "bets": 757,
+    "w": 405,
+    "l": 352,
+    "push": 14,
+    "pct": 0.535,
+    "ci95": [
+     0.499,
+     0.57
+    ],
+    "p_vs_breakeven": 0.2809,
+    "roi": 0.021,
+    "units": 16.18,
+    "avg_edge": 5.83
+   },
+   "edge_5plus": {
+    "bets": 339,
+    "w": 180,
+    "l": 159,
+    "push": 3,
+    "pct": 0.531,
+    "ci95": [
+     0.478,
+     0.583
+    ],
+    "p_vs_breakeven": 0.4173,
+    "roi": 0.0136,
+    "units": 4.64,
+    "avg_edge": 8.34
+   },
+   "edge_7plus": {
+    "bets": 159,
+    "w": 95,
+    "l": 64,
+    "push": 0,
+    "pct": 0.5975,
+    "ci95": [
+     0.52,
+     0.671
+    ],
+    "p_vs_breakeven": 0.0371,
+    "roi": 0.1407,
+    "units": 22.36,
+    "avg_edge": 11.2
+   },
+   "edge_10plus": {
+    "bets": 62,
+    "w": 42,
+    "l": 20,
+    "push": 0,
+    "pct": 0.6774,
+    "ci95": [
+     0.554,
+     0.78
+    ],
+    "p_vs_breakeven": 0.0102,
+    "roi": 0.2933,
+    "units": 18.18,
+    "avg_edge": 15.81
+   }
+  },
+  "2016": {
+   "all_lined_games": {
+    "bets": 3905,
+    "w": 1963,
+    "l": 1942,
+    "push": 92,
+    "pct": 0.5027,
+    "ci95": [
+     0.487,
+     0.518
+    ],
+    "p_vs_breakeven": 0.9961,
+    "roi": -0.0394,
+    "units": -157.45,
+    "avg_edge": 1.96
+   },
+   "top1_per_night": {
+    "bets": 140,
+    "w": 90,
+    "l": 50,
+    "push": 2,
+    "pct": 0.6429,
+    "ci95": [
+     0.561,
+     0.717
+    ],
+    "p_vs_breakeven": 0.0029,
+    "roi": 0.2241,
+    "units": 31.82,
+    "avg_edge": 7.09
+   },
+   "top3_per_night": {
+    "bets": 405,
+    "w": 219,
+    "l": 186,
+    "push": 7,
+    "pct": 0.5407,
+    "ci95": [
+     0.492,
+     0.589
+    ],
+    "p_vs_breakeven": 0.2637,
+    "roi": 0.0318,
+    "units": 13.09,
+    "avg_edge": 5.28
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 128,
+    "w": 80,
+    "l": 48,
+    "push": 2,
+    "pct": 0.625,
+    "ci95": [
+     0.539,
+     0.704
+    ],
+    "p_vs_breakeven": 0.0134,
+    "roi": 0.1902,
+    "units": 24.73,
+    "avg_edge": 5.91
+   },
+   "edge_3plus": {
+    "bets": 687,
+    "w": 361,
+    "l": 326,
+    "push": 13,
+    "pct": 0.5255,
+    "ci95": [
+     0.488,
+     0.563
+    ],
+    "p_vs_breakeven": 0.4807,
+    "roi": 0.0031,
+    "units": 2.18,
+    "avg_edge": 5.93
+   },
+   "edge_5plus": {
+    "bets": 291,
+    "w": 173,
+    "l": 118,
+    "push": 5,
+    "pct": 0.5945,
+    "ci95": [
+     0.537,
+     0.649
+    ],
+    "p_vs_breakeven": 0.0091,
+    "roi": 0.1327,
+    "units": 39.27,
+    "avg_edge": 8.86
+   },
+   "edge_7plus": {
+    "bets": 150,
+    "w": 90,
+    "l": 60,
+    "push": 2,
+    "pct": 0.6,
+    "ci95": [
+     0.52,
+     0.675
+    ],
+    "p_vs_breakeven": 0.0366,
+    "roi": 0.1435,
+    "units": 21.82,
+    "avg_edge": 11.67
+   },
+   "edge_10plus": {
+    "bets": 74,
+    "w": 52,
+    "l": 22,
+    "push": 0,
+    "pct": 0.7027,
+    "ci95": [
+     0.591,
+     0.795
+    ],
+    "p_vs_breakeven": 0.0013,
+    "roi": 0.3415,
+    "units": 25.27,
+    "avg_edge": 15.44
+   }
+  },
+  "2017": {
+   "all_lined_games": {
+    "bets": 3873,
+    "w": 1938,
+    "l": 1935,
+    "push": 105,
+    "pct": 0.5004,
+    "ci95": [
+     0.485,
+     0.516
+    ],
+    "p_vs_breakeven": 0.9983,
+    "roi": -0.0435,
+    "units": -173.18,
+    "avg_edge": 1.92
+   },
+   "top1_per_night": {
+    "bets": 140,
+    "w": 74,
+    "l": 66,
+    "push": 1,
+    "pct": 0.5286,
+    "ci95": [
+     0.446,
+     0.609
+    ],
+    "p_vs_breakeven": 0.4893,
+    "roi": 0.009,
+    "units": 1.27,
+    "avg_edge": 6.81
+   },
+   "top3_per_night": {
+    "bets": 402,
+    "w": 223,
+    "l": 179,
+    "push": 9,
+    "pct": 0.5547,
+    "ci95": [
+     0.506,
+     0.603
+    ],
+    "p_vs_breakeven": 0.1167,
+    "roi": 0.0577,
+    "units": 23.73,
+    "avg_edge": 5.14
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 128,
+    "w": 65,
+    "l": 63,
+    "push": 1,
+    "pct": 0.5078,
+    "ci95": [
+     0.422,
+     0.593
+    ],
+    "p_vs_breakeven": 0.6743,
+    "roi": -0.0303,
+    "units": -3.91,
+    "avg_edge": 5.43
+   },
+   "edge_3plus": {
+    "bets": 618,
+    "w": 311,
+    "l": 307,
+    "push": 12,
+    "pct": 0.5032,
+    "ci95": [
+     0.464,
+     0.543
+    ],
+    "p_vs_breakeven": 0.8564,
+    "roi": -0.0385,
+    "units": -24.27,
+    "avg_edge": 6.34
+   },
+   "edge_5plus": {
+    "bets": 286,
+    "w": 151,
+    "l": 135,
+    "push": 6,
+    "pct": 0.528,
+    "ci95": [
+     0.47,
+     0.585
+    ],
+    "p_vs_breakeven": 0.4678,
+    "roi": 0.0078,
+    "units": 2.27,
+    "avg_edge": 9.24
+   },
+   "edge_7plus": {
+    "bets": 164,
+    "w": 99,
+    "l": 65,
+    "push": 2,
+    "pct": 0.6037,
+    "ci95": [
+     0.527,
+     0.675
+    ],
+    "p_vs_breakeven": 0.0241,
+    "roi": 0.1506,
+    "units": 25.0,
+    "avg_edge": 11.83
+   },
+   "edge_10plus": {
+    "bets": 74,
+    "w": 49,
+    "l": 25,
+    "push": 2,
+    "pct": 0.6622,
+    "ci95": [
+     0.549,
+     0.76
+    ],
+    "p_vs_breakeven": 0.0111,
+    "roi": 0.2572,
+    "units": 19.55,
+    "avg_edge": 15.98
+   }
+  },
+  "2018": {
+   "all_lined_games": {
+    "bets": 3966,
+    "w": 2007,
+    "l": 1959,
+    "push": 71,
+    "pct": 0.5061,
+    "ci95": [
+     0.49,
+     0.522
+    ],
+    "p_vs_breakeven": 0.9879,
+    "roi": -0.0333,
+    "units": -134.45,
+    "avg_edge": 2.3
+   },
+   "top1_per_night": {
+    "bets": 140,
+    "w": 78,
+    "l": 62,
+    "push": 1,
+    "pct": 0.5571,
+    "ci95": [
+     0.474,
+     0.637
+    ],
+    "p_vs_breakeven": 0.2407,
+    "roi": 0.0632,
+    "units": 8.91,
+    "avg_edge": 7.53
+   },
+   "top3_per_night": {
+    "bets": 407,
+    "w": 228,
+    "l": 179,
+    "push": 5,
+    "pct": 0.5602,
+    "ci95": [
+     0.512,
+     0.608
+    ],
+    "p_vs_breakeven": 0.0776,
+    "roi": 0.0686,
+    "units": 28.27,
+    "avg_edge": 5.91
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 129,
+    "w": 68,
+    "l": 61,
+    "push": 0,
+    "pct": 0.5271,
+    "ci95": [
+     0.441,
+     0.611
+    ],
+    "p_vs_breakeven": 0.5056,
+    "roi": 0.0063,
+    "units": 0.82,
+    "avg_edge": 5.78
+   },
+   "edge_3plus": {
+    "bets": 885,
+    "w": 488,
+    "l": 397,
+    "push": 20,
+    "pct": 0.5514,
+    "ci95": [
+     0.518,
+     0.584
+    ],
+    "p_vs_breakeven": 0.0535,
+    "roi": 0.0515,
+    "units": 46.64,
+    "avg_edge": 5.99
+   },
+   "edge_5plus": {
+    "bets": 367,
+    "w": 220,
+    "l": 147,
+    "push": 5,
+    "pct": 0.5995,
+    "ci95": [
+     0.549,
+     0.648
+    ],
+    "p_vs_breakeven": 0.0021,
+    "roi": 0.1425,
+    "units": 53.0,
+    "avg_edge": 9.09
+   },
+   "edge_7plus": {
+    "bets": 178,
+    "w": 116,
+    "l": 62,
+    "push": 0,
+    "pct": 0.6517,
+    "ci95": [
+     0.579,
+     0.718
+    ],
+    "p_vs_breakeven": 0.0004,
+    "roi": 0.2441,
+    "units": 43.45,
+    "avg_edge": 12.68
+   },
+   "edge_10plus": {
+    "bets": 91,
+    "w": 70,
+    "l": 21,
+    "push": 0,
+    "pct": 0.7692,
+    "ci95": [
+     0.673,
+     0.844
+    ],
+    "p_vs_breakeven": 0.0,
+    "roi": 0.4685,
+    "units": 42.64,
+    "avg_edge": 16.92
+   }
+  },
+  "2019": {
+   "all_lined_games": {
+    "bets": 5435,
+    "w": 2736,
+    "l": 2699,
+    "push": 100,
+    "pct": 0.5034,
+    "ci95": [
+     0.49,
+     0.517
+    ],
+    "p_vs_breakeven": 0.9988,
+    "roi": -0.0383,
+    "units": -211.73,
+    "avg_edge": 2.01
+   },
+   "top1_per_night": {
+    "bets": 147,
+    "w": 70,
+    "l": 77,
+    "push": 4,
+    "pct": 0.4762,
+    "ci95": [
+     0.397,
+     0.557
+    ],
+    "p_vs_breakeven": 0.8922,
+    "roi": -0.0885,
+    "units": -13.36,
+    "avg_edge": 6.01
+   },
+   "top3_per_night": {
+    "bets": 427,
+    "w": 212,
+    "l": 215,
+    "push": 10,
+    "pct": 0.4965,
+    "ci95": [
+     0.449,
+     0.544
+    ],
+    "p_vs_breakeven": 0.8807,
+    "roi": -0.051,
+    "units": -22.27,
+    "avg_edge": 4.99
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 134,
+    "w": 68,
+    "l": 66,
+    "push": 4,
+    "pct": 0.5075,
+    "ci95": [
+     0.424,
+     0.591
+    ],
+    "p_vs_breakeven": 0.6795,
+    "roi": -0.0303,
+    "units": -4.18,
+    "avg_edge": 5.06
+   },
+   "edge_3plus": {
+    "bets": 1113,
+    "w": 572,
+    "l": 541,
+    "push": 22,
+    "pct": 0.5139,
+    "ci95": [
+     0.485,
+     0.543
+    ],
+    "p_vs_breakeven": 0.755,
+    "roi": -0.0185,
+    "units": -21.0,
+    "avg_edge": 5.25
+   },
+   "edge_5plus": {
+    "bets": 414,
+    "w": 222,
+    "l": 192,
+    "push": 10,
+    "pct": 0.5362,
+    "ci95": [
+     0.488,
+     0.584
+    ],
+    "p_vs_breakeven": 0.3241,
+    "roi": 0.0232,
+    "units": 9.82,
+    "avg_edge": 7.72
+   },
+   "edge_7plus": {
+    "bets": 189,
+    "w": 94,
+    "l": 95,
+    "push": 4,
+    "pct": 0.4974,
+    "ci95": [
+     0.427,
+     0.568
+    ],
+    "p_vs_breakeven": 0.7885,
+    "roi": -0.0495,
+    "units": -9.55,
+    "avg_edge": 9.98
+   },
+   "edge_10plus": {
+    "bets": 73,
+    "w": 40,
+    "l": 33,
+    "push": 2,
+    "pct": 0.5479,
+    "ci95": [
+     0.434,
+     0.657
+    ],
+    "p_vs_breakeven": 0.3845,
+    "roi": 0.0448,
+    "units": 3.36,
+    "avg_edge": 12.62
+   }
+  },
+  "2020": {
+   "all_lined_games": {
+    "bets": 5245,
+    "w": 2628,
+    "l": 2617,
+    "push": 80,
+    "pct": 0.501,
+    "ci95": [
+     0.488,
+     0.515
+    ],
+    "p_vs_breakeven": 0.9995,
+    "roi": -0.0428,
+    "units": -227.91,
+    "avg_edge": 2.44
+   },
+   "top1_per_night": {
+    "bets": 123,
+    "w": 75,
+    "l": 48,
+    "push": 3,
+    "pct": 0.6098,
+    "ci95": [
+     0.521,
+     0.691
+    ],
+    "p_vs_breakeven": 0.034,
+    "roi": 0.1602,
+    "units": 20.18,
+    "avg_edge": 10.48
+   },
+   "top3_per_night": {
+    "bets": 369,
+    "w": 208,
+    "l": 161,
+    "push": 8,
+    "pct": 0.5637,
+    "ci95": [
+     0.513,
+     0.613
+    ],
+    "p_vs_breakeven": 0.069,
+    "roi": 0.0745,
+    "units": 28.09,
+    "avg_edge": 7.88
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 111,
+    "w": 67,
+    "l": 44,
+    "push": 3,
+    "pct": 0.6036,
+    "ci95": [
+     0.511,
+     0.69
+    ],
+    "p_vs_breakeven": 0.0556,
+    "roi": 0.1483,
+    "units": 16.91,
+    "avg_edge": 8.58
+   },
+   "edge_3plus": {
+    "bets": 1263,
+    "w": 679,
+    "l": 584,
+    "push": 18,
+    "pct": 0.5376,
+    "ci95": [
+     0.51,
+     0.565
+    ],
+    "p_vs_breakeven": 0.1701,
+    "roi": 0.026,
+    "units": 33.27,
+    "avg_edge": 6.16
+   },
+   "edge_5plus": {
+    "bets": 528,
+    "w": 306,
+    "l": 222,
+    "push": 8,
+    "pct": 0.5795,
+    "ci95": [
+     0.537,
+     0.621
+    ],
+    "p_vs_breakeven": 0.0058,
+    "roi": 0.1048,
+    "units": 56.18,
+    "avg_edge": 9.4
+   },
+   "edge_7plus": {
+    "bets": 273,
+    "w": 167,
+    "l": 106,
+    "push": 5,
+    "pct": 0.6117,
+    "ci95": [
+     0.553,
+     0.668
+    ],
+    "p_vs_breakeven": 0.0021,
+    "roi": 0.1648,
+    "units": 45.82,
+    "avg_edge": 12.73
+   },
+   "edge_10plus": {
+    "bets": 127,
+    "w": 83,
+    "l": 44,
+    "push": 4,
+    "pct": 0.6535,
+    "ci95": [
+     0.567,
+     0.731
+    ],
+    "p_vs_breakeven": 0.0021,
+    "roi": 0.2401,
+    "units": 31.45,
+    "avg_edge": 17.8
+   }
+  },
+  "2021": {
+   "all_lined_games": {
+    "bets": 3867,
+    "w": 1928,
+    "l": 1939,
+    "push": 63,
+    "pct": 0.4986,
+    "ci95": [
+     0.483,
+     0.514
+    ],
+    "p_vs_breakeven": 0.9992,
+    "roi": -0.0474,
+    "units": -186.27,
+    "avg_edge": 2.86
+   },
+   "top1_per_night": {
+    "bets": 122,
+    "w": 77,
+    "l": 45,
+    "push": 2,
+    "pct": 0.6311,
+    "ci95": [
+     0.543,
+     0.712
+    ],
+    "p_vs_breakeven": 0.0108,
+    "roi": 0.2016,
+    "units": 25.0,
+    "avg_edge": 9.17
+   },
+   "top3_per_night": {
+    "bets": 360,
+    "w": 207,
+    "l": 153,
+    "push": 3,
+    "pct": 0.575,
+    "ci95": [
+     0.523,
+     0.625
+    ],
+    "p_vs_breakeven": 0.029,
+    "roi": 0.0969,
+    "units": 35.18,
+    "avg_edge": 7.36
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 109,
+    "w": 59,
+    "l": 50,
+    "push": 2,
+    "pct": 0.5413,
+    "ci95": [
+     0.448,
+     0.632
+    ],
+    "p_vs_breakeven": 0.3944,
+    "roi": 0.0328,
+    "units": 3.64,
+    "avg_edge": 6.55
+   },
+   "edge_3plus": {
+    "bets": 1324,
+    "w": 676,
+    "l": 648,
+    "push": 24,
+    "pct": 0.5106,
+    "ci95": [
+     0.484,
+     0.537
+    ],
+    "p_vs_breakeven": 0.8394,
+    "roi": -0.0248,
+    "units": -33.45,
+    "avg_edge": 5.77
+   },
+   "edge_5plus": {
+    "bets": 608,
+    "w": 314,
+    "l": 294,
+    "push": 10,
+    "pct": 0.5164,
+    "ci95": [
+     0.477,
+     0.556
+    ],
+    "p_vs_breakeven": 0.6571,
+    "roi": -0.0138,
+    "units": -8.55,
+    "avg_edge": 7.99
+   },
+   "edge_7plus": {
+    "bets": 269,
+    "w": 161,
+    "l": 108,
+    "push": 7,
+    "pct": 0.5985,
+    "ci95": [
+     0.539,
+     0.655
+    ],
+    "p_vs_breakeven": 0.0082,
+    "roi": 0.139,
+    "units": 38.36,
+    "avg_edge": 10.67
+   },
+   "edge_10plus": {
+    "bets": 99,
+    "w": 73,
+    "l": 26,
+    "push": 1,
+    "pct": 0.7374,
+    "ci95": [
+     0.643,
+     0.814
+    ],
+    "p_vs_breakeven": 0.0,
+    "roi": 0.4036,
+    "units": 40.36,
+    "avg_edge": 14.84
+   }
+  },
+  "2022": {
+   "all_lined_games": {
+    "bets": 5384,
+    "w": 2755,
+    "l": 2629,
+    "push": 74,
+    "pct": 0.5117,
+    "ci95": [
+     0.498,
+     0.525
+    ],
+    "p_vs_breakeven": 0.9634,
+    "roi": -0.0228,
+    "units": -124.45,
+    "avg_edge": 2.56
+   },
+   "top1_per_night": {
+    "bets": 142,
+    "w": 82,
+    "l": 60,
+    "push": 0,
+    "pct": 0.5775,
+    "ci95": [
+     0.495,
+     0.656
+    ],
+    "p_vs_breakeven": 0.1156,
+    "roi": 0.1024,
+    "units": 14.55,
+    "avg_edge": 9.26
+   },
+   "top3_per_night": {
+    "bets": 410,
+    "w": 227,
+    "l": 183,
+    "push": 3,
+    "pct": 0.5537,
+    "ci95": [
+     0.505,
+     0.601
+    ],
+    "p_vs_breakeven": 0.1228,
+    "roi": 0.0566,
+    "units": 23.36,
+    "avg_edge": 7.31
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 130,
+    "w": 72,
+    "l": 58,
+    "push": 0,
+    "pct": 0.5538,
+    "ci95": [
+     0.468,
+     0.637
+    ],
+    "p_vs_breakeven": 0.2753,
+    "roi": 0.0573,
+    "units": 7.45,
+    "avg_edge": 7.06
+   },
+   "edge_3plus": {
+    "bets": 1433,
+    "w": 797,
+    "l": 636,
+    "push": 23,
+    "pct": 0.5562,
+    "ci95": [
+     0.53,
+     0.582
+    ],
+    "p_vs_breakeven": 0.0076,
+    "roi": 0.0608,
+    "units": 88.55,
+    "avg_edge": 6.25
+   },
+   "edge_5plus": {
+    "bets": 677,
+    "w": 398,
+    "l": 279,
+    "push": 8,
+    "pct": 0.5879,
+    "ci95": [
+     0.55,
+     0.624
+    ],
+    "p_vs_breakeven": 0.0005,
+    "roi": 0.1209,
+    "units": 82.82,
+    "avg_edge": 9.0
+   },
+   "edge_7plus": {
+    "bets": 356,
+    "w": 233,
+    "l": 123,
+    "push": 5,
+    "pct": 0.6545,
+    "ci95": [
+     0.604,
+     0.702
+    ],
+    "p_vs_breakeven": 0.0,
+    "roi": 0.246,
+    "units": 88.82,
+    "avg_edge": 11.8
+   },
+   "edge_10plus": {
+    "bets": 165,
+    "w": 121,
+    "l": 44,
+    "push": 2,
+    "pct": 0.7333,
+    "ci95": [
+     0.661,
+     0.795
+    ],
+    "p_vs_breakeven": 0.0,
+    "roi": 0.3952,
+    "units": 66.0,
+    "avg_edge": 16.05
+   }
+  },
+  "2023": {
+   "all_lined_games": {
+    "bets": 5767,
+    "w": 2919,
+    "l": 2848,
+    "push": 3,
+    "pct": 0.5062,
+    "ci95": [
+     0.493,
+     0.519
+    ],
+    "p_vs_breakeven": 0.9965,
+    "roi": -0.0337,
+    "units": -194.36,
+    "avg_edge": 2.35
+   },
+   "top1_per_night": {
+    "bets": 141,
+    "w": 75,
+    "l": 66,
+    "push": 0,
+    "pct": 0.5319,
+    "ci95": [
+     0.45,
+     0.612
+    ],
+    "p_vs_breakeven": 0.4574,
+    "roi": 0.0155,
+    "units": 2.18,
+    "avg_edge": 7.99
+   },
+   "top3_per_night": {
+    "bets": 414,
+    "w": 199,
+    "l": 215,
+    "push": 1,
+    "pct": 0.4807,
+    "ci95": [
+     0.433,
+     0.529
+    ],
+    "p_vs_breakeven": 0.9645,
+    "roi": -0.0821,
+    "units": -34.09,
+    "avg_edge": 6.31
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 128,
+    "w": 66,
+    "l": 62,
+    "push": 0,
+    "pct": 0.5156,
+    "ci95": [
+     0.43,
+     0.6
+    ],
+    "p_vs_breakeven": 0.6084,
+    "roi": -0.0156,
+    "units": -2.0,
+    "avg_edge": 5.91
+   },
+   "edge_3plus": {
+    "bets": 1506,
+    "w": 774,
+    "l": 732,
+    "push": 2,
+    "pct": 0.5139,
+    "ci95": [
+     0.489,
+     0.539
+    ],
+    "p_vs_breakeven": 0.786,
+    "roi": -0.0188,
+    "units": -28.36,
+    "avg_edge": 5.45
+   },
+   "edge_5plus": {
+    "bets": 556,
+    "w": 287,
+    "l": 269,
+    "push": 2,
+    "pct": 0.5162,
+    "ci95": [
+     0.475,
+     0.557
+    ],
+    "p_vs_breakeven": 0.6565,
+    "roi": -0.0145,
+    "units": -8.09,
+    "avg_edge": 8.23
+   },
+   "edge_7plus": {
+    "bets": 251,
+    "w": 135,
+    "l": 116,
+    "push": 1,
+    "pct": 0.5378,
+    "ci95": [
+     0.476,
+     0.598
+    ],
+    "p_vs_breakeven": 0.3515,
+    "roi": 0.0267,
+    "units": 6.73,
+    "avg_edge": 11.16
+   },
+   "edge_10plus": {
+    "bets": 99,
+    "w": 61,
+    "l": 38,
+    "push": 1,
+    "pct": 0.6162,
+    "ci95": [
+     0.518,
+     0.706
+    ],
+    "p_vs_breakeven": 0.0404,
+    "roi": 0.1745,
+    "units": 17.45,
+    "avg_edge": 15.7
+   }
+  },
+  "2024": {
+   "all_lined_games": {
+    "bets": 5307,
+    "w": 2682,
+    "l": 2625,
+    "push": 0,
+    "pct": 0.5054,
+    "ci95": [
+     0.492,
+     0.519
+    ],
+    "p_vs_breakeven": 0.9966,
+    "roi": -0.0352,
+    "units": -186.82,
+    "avg_edge": 2.36
+   },
+   "top1_per_night": {
+    "bets": 148,
+    "w": 65,
+    "l": 83,
+    "push": 0,
+    "pct": 0.4392,
+    "ci95": [
+     0.362,
+     0.52
+    ],
+    "p_vs_breakeven": 0.984,
+    "roi": -0.1615,
+    "units": -23.91,
+    "avg_edge": 6.75
+   },
+   "top3_per_night": {
+    "bets": 435,
+    "w": 213,
+    "l": 222,
+    "push": 0,
+    "pct": 0.4897,
+    "ci95": [
+     0.443,
+     0.537
+    ],
+    "p_vs_breakeven": 0.9297,
+    "roi": -0.0652,
+    "units": -28.36,
+    "avg_edge": 5.64
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 136,
+    "w": 56,
+    "l": 80,
+    "push": 0,
+    "pct": 0.4118,
+    "ci95": [
+     0.333,
+     0.496
+    ],
+    "p_vs_breakeven": 0.9966,
+    "roi": -0.2139,
+    "units": -29.09,
+    "avg_edge": 5.65
+   },
+   "edge_3plus": {
+    "bets": 1426,
+    "w": 732,
+    "l": 694,
+    "push": 0,
+    "pct": 0.5133,
+    "ci95": [
+     0.487,
+     0.539
+    ],
+    "p_vs_breakeven": 0.7937,
+    "roi": -0.02,
+    "units": -28.55,
+    "avg_edge": 5.22
+   },
+   "edge_5plus": {
+    "bets": 548,
+    "w": 277,
+    "l": 271,
+    "push": 0,
+    "pct": 0.5055,
+    "ci95": [
+     0.464,
+     0.547
+    ],
+    "p_vs_breakeven": 0.8165,
+    "roi": -0.035,
+    "units": -19.18,
+    "avg_edge": 7.47
+   },
+   "edge_7plus": {
+    "bets": 239,
+    "w": 116,
+    "l": 123,
+    "push": 0,
+    "pct": 0.4854,
+    "ci95": [
+     0.423,
+     0.548
+    ],
+    "p_vs_breakeven": 0.8952,
+    "roi": -0.0734,
+    "units": -17.55,
+    "avg_edge": 9.6
+   },
+   "edge_10plus": {
+    "bets": 74,
+    "w": 42,
+    "l": 32,
+    "push": 0,
+    "pct": 0.5676,
+    "ci95": [
+     0.454,
+     0.674
+    ],
+    "p_vs_breakeven": 0.2625,
+    "roi": 0.0835,
+    "units": 6.18,
+    "avg_edge": 12.83
+   }
+  },
+  "2025": {
+   "all_lined_games": {
+    "bets": 5430,
+    "w": 2705,
+    "l": 2725,
+    "push": 0,
+    "pct": 0.4982,
+    "ci95": [
+     0.485,
+     0.511
+    ],
+    "p_vs_breakeven": 0.9999,
+    "roi": -0.049,
+    "units": -265.91,
+    "avg_edge": 2.31
+   },
+   "top1_per_night": {
+    "bets": 145,
+    "w": 72,
+    "l": 73,
+    "push": 0,
+    "pct": 0.4966,
+    "ci95": [
+     0.416,
+     0.577
+    ],
+    "p_vs_breakeven": 0.7706,
+    "roi": -0.052,
+    "units": -7.55,
+    "avg_edge": 6.42
+   },
+   "top3_per_night": {
+    "bets": 428,
+    "w": 204,
+    "l": 224,
+    "push": 0,
+    "pct": 0.4766,
+    "ci95": [
+     0.43,
+     0.524
+    ],
+    "p_vs_breakeven": 0.9773,
+    "roi": -0.0901,
+    "units": -38.55,
+    "avg_edge": 5.52
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 130,
+    "w": 67,
+    "l": 63,
+    "push": 0,
+    "pct": 0.5154,
+    "ci95": [
+     0.43,
+     0.6
+    ],
+    "p_vs_breakeven": 0.6107,
+    "roi": -0.0161,
+    "units": -2.09,
+    "avg_edge": 5.32
+   },
+   "edge_3plus": {
+    "bets": 1396,
+    "w": 681,
+    "l": 715,
+    "push": 0,
+    "pct": 0.4878,
+    "ci95": [
+     0.462,
+     0.514
+    ],
+    "p_vs_breakeven": 0.9967,
+    "roi": -0.0687,
+    "units": -95.91,
+    "avg_edge": 5.27
+   },
+   "edge_5plus": {
+    "bets": 552,
+    "w": 280,
+    "l": 272,
+    "push": 0,
+    "pct": 0.5072,
+    "ci95": [
+     0.466,
+     0.549
+    ],
+    "p_vs_breakeven": 0.7945,
+    "roi": -0.0316,
+    "units": -17.45,
+    "avg_edge": 7.5
+   },
+   "edge_7plus": {
+    "bets": 245,
+    "w": 127,
+    "l": 118,
+    "push": 0,
+    "pct": 0.5184,
+    "ci95": [
+     0.456,
+     0.58
+    ],
+    "p_vs_breakeven": 0.5931,
+    "roi": -0.0104,
+    "units": -2.55,
+    "avg_edge": 9.58
+   },
+   "edge_10plus": {
+    "bets": 75,
+    "w": 35,
+    "l": 40,
+    "push": 0,
+    "pct": 0.4667,
+    "ci95": [
+     0.358,
+     0.578
+    ],
+    "p_vs_breakeven": 0.8657,
+    "roi": -0.1091,
+    "units": -8.18,
+    "avg_edge": 12.55
+   }
+  },
+  "2026": {
+   "all_lined_games": {
+    "bets": 5659,
+    "w": 2849,
+    "l": 2810,
+    "push": 89,
+    "pct": 0.5034,
+    "ci95": [
+     0.49,
+     0.516
+    ],
+    "p_vs_breakeven": 0.999,
+    "roi": -0.0383,
+    "units": -220.0,
+    "avg_edge": 2.39
+   },
+   "top1_per_night": {
+    "bets": 144,
+    "w": 75,
+    "l": 69,
+    "push": 3,
+    "pct": 0.5208,
+    "ci95": [
+     0.44,
+     0.601
+    ],
+    "p_vs_breakeven": 0.562,
+    "roi": -0.0056,
+    "units": -0.82,
+    "avg_edge": 7.89
+   },
+   "top3_per_night": {
+    "bets": 424,
+    "w": 217,
+    "l": 207,
+    "push": 7,
+    "pct": 0.5118,
+    "ci95": [
+     0.464,
+     0.559
+    ],
+    "p_vs_breakeven": 0.707,
+    "roi": -0.0226,
+    "units": -9.73,
+    "avg_edge": 6.36
+   },
+   "top1_both_teams_5plus_games": {
+    "bets": 129,
+    "w": 70,
+    "l": 59,
+    "push": 3,
+    "pct": 0.5426,
+    "ci95": [
+     0.457,
+     0.626
+    ],
+    "p_vs_breakeven": 0.3675,
+    "roi": 0.0351,
+    "units": 4.64,
+    "avg_edge": 6.44
+   },
+   "edge_3plus": {
+    "bets": 1453,
+    "w": 727,
+    "l": 726,
+    "push": 15,
+    "pct": 0.5003,
+    "ci95": [
+     0.475,
+     0.526
+    ],
+    "p_vs_breakeven": 0.9654,
+    "roi": -0.0443,
+    "units": -65.09,
+    "avg_edge": 5.67
+   },
+   "edge_5plus": {
+    "bets": 613,
+    "w": 315,
+    "l": 298,
+    "push": 7,
+    "pct": 0.5139,
+    "ci95": [
+     0.474,
+     0.553
+    ],
+    "p_vs_breakeven": 0.7033,
+    "roi": -0.0188,
+    "units": -11.64,
+    "avg_edge": 8.16
+   },
+   "edge_7plus": {
+    "bets": 297,
+    "w": 148,
+    "l": 149,
+    "push": 6,
+    "pct": 0.4983,
+    "ci95": [
+     0.442,
+     0.555
+    ],
+    "p_vs_breakeven": 0.8258,
+    "roi": -0.0477,
+    "units": -14.45,
+    "avg_edge": 10.58
+   },
+   "edge_10plus": {
+    "bets": 111,
+    "w": 60,
+    "l": 51,
+    "push": 1,
+    "pct": 0.5405,
+    "ci95": [
+     0.448,
+     0.63
+    ],
+    "p_vs_breakeven": 0.3989,
+    "roi": 0.0317,
+    "units": 3.55,
+    "avg_edge": 14.56
+   }
+  }
+ },
+ "pooled": {
+  "all_lined_games": {
+   "bets": 61535,
+   "w": 31059,
+   "l": 30476,
+   "push": 880,
+   "pct": 0.5047,
+   "ci95": [
+    0.501,
+    0.509
+   ],
+   "p_vs_breakeven": 1.0,
+   "roi": -0.0359,
+   "units": -2240.55,
+   "avg_edge": 2.29
+  },
+  "top1_per_night": {
+   "bets": 1812,
+   "w": 988,
+   "l": 824,
+   "push": 23,
+   "pct": 0.5453,
+   "ci95": [
+    0.522,
+    0.568
+   ],
+   "p_vs_breakeven": 0.0355,
+   "roi": 0.0404,
+   "units": 74.18,
+   "avg_edge": 7.64
+  },
+  "top3_per_night": {
+   "bets": 5291,
+   "w": 2792,
+   "l": 2499,
+   "push": 75,
+   "pct": 0.5277,
+   "ci95": [
+    0.514,
+    0.541
+   ],
+   "p_vs_breakeven": 0.2908,
+   "roi": 0.0073,
+   "units": 39.18,
+   "avg_edge": 6.01
+  },
+  "top1_both_teams_5plus_games": {
+   "bets": 1646,
+   "w": 874,
+   "l": 772,
+   "push": 22,
+   "pct": 0.531,
+   "ci95": [
+    0.507,
+    0.555
+   ],
+   "p_vs_breakeven": 0.2885,
+   "roi": 0.0135,
+   "units": 22.55,
+   "avg_edge": 6.06
+  },
+  "edge_3plus": {
+   "bets": 14617,
+   "w": 7603,
+   "l": 7014,
+   "push": 188,
+   "pct": 0.5201,
+   "ci95": [
+    0.512,
+    0.528
+   ],
+   "p_vs_breakeven": 0.8145,
+   "roi": -0.0069,
+   "units": -102.18,
+   "avg_edge": 5.71
+  },
+  "edge_5plus": {
+   "bets": 6065,
+   "w": 3271,
+   "l": 2794,
+   "push": 74,
+   "pct": 0.5393,
+   "ci95": [
+    0.527,
+    0.552
+   ],
+   "p_vs_breakeven": 0.008,
+   "roi": 0.0293,
+   "units": 179.64,
+   "avg_edge": 8.38
+  },
+  "edge_7plus": {
+   "bets": 2906,
+   "w": 1664,
+   "l": 1242,
+   "push": 37,
+   "pct": 0.5726,
+   "ci95": [
+    0.555,
+    0.59
+   ],
+   "p_vs_breakeven": 0.0,
+   "roi": 0.092,
+   "units": 270.73,
+   "avg_edge": 11.15
+  },
+  "edge_10plus": {
+   "bets": 1185,
+   "w": 766,
+   "l": 419,
+   "push": 16,
+   "pct": 0.6464,
+   "ci95": [
+    0.619,
+    0.673
+   ],
+   "p_vs_breakeven": 0.0,
+   "roi": 0.2309,
+   "units": 277.36,
+   "avg_edge": 15.39
+  }
+ },
+ "generated_at": "2026-11-20T02:46:15+00:00",
+ "params": {
+  "half_life": 90.0,
+  "cap": 45.0,
+  "cap_slope": 0.7,
+  "prior_games": 2.0,
+  "regress": 0.1,
+  "tempo_prior_games": 3.0,
+  "tempo_regress": 0.25,
+  "sigma_margin": 12.0,
+  "sigma_total": 17.0,
+  "min_weight": 0.05,
+  "non_d1_weight": 0.5,
+  "hca_prior_games": 3000.0,
+  "open_home_wk1": 6.8,
+  "open_home_wk2": 1.5
+ },
+ "attribution": "Data provided by CollegeBasketballData.com"
+}
