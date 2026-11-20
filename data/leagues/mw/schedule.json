@@ -1989,7 +1989,7 @@
     "key": "unlv",
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": 32,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -1997,13 +1997,13 @@
     "key": null,
     "name": "Rutgers Scarlet Knights",
     "abbr": "RUTG",
-    "score": 51,
+    "score": 66,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:40 - 2nd"
   },
   {
    "game_id": "401911534",
@@ -2030,7 +2030,7 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": 21,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2038,13 +2038,13 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 24,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:03 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401919031",
@@ -9001,5 +9001,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:39:42+00:00"
+ "live_at": "2026-11-20T03:03:11+00:00"
 }

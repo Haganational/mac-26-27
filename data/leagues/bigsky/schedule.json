@@ -2241,7 +2241,7 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": 74,
+    "score": 92,
     "winner": null
    },
    "away": {
@@ -2249,13 +2249,13 @@
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": 62,
+    "score": 68,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "5:40 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401925941",
@@ -2286,7 +2286,7 @@
     "key": null,
     "name": "Washington Huskies",
     "abbr": "WASH",
-    "score": 46,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -2294,13 +2294,13 @@
     "key": "utah-tech",
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": 33,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:59 - 1st"
+   "detail": "15:51 - 2nd"
   },
   {
    "game_id": "401925916",
@@ -2327,7 +2327,7 @@
     "key": "portland-state",
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2335,13 +2335,13 @@
     "key": null,
     "name": "Northwest Indian RedHawks",
     "abbr": "NWIC",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:42 - 1st"
   },
   {
    "game_id": "401922022",
@@ -9694,5 +9694,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:50:42+00:00"
+ "live_at": "2026-11-20T03:10:31+00:00"
 }

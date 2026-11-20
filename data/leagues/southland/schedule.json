@@ -2204,7 +2204,7 @@
     "key": "houston-christian",
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
-    "score": 78,
+    "score": 79,
     "winner": null
    },
    "away": {
@@ -2212,13 +2212,13 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 76,
+    "score": 86,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:17 - 2nd"
+   "detail": "0:24 - 2nd"
   },
   {
    "game_id": "401918056",
@@ -2249,7 +2249,7 @@
     "key": null,
     "name": "California Golden Bears",
     "abbr": "CAL",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2257,13 +2257,13 @@
     "key": "east-texas-am",
     "name": "East Texas A&M Lions",
     "abbr": "ETAM",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:23 - 1st"
   },
   {
    "game_id": "401916123",
@@ -10018,5 +10018,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:51:29+00:00"
+ "live_at": "2026-11-20T03:11:02+00:00"
 }
