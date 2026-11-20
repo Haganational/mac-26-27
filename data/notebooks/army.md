@@ -65,7 +65,7 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -76,3 +76,4 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:preview -->
 - 2026-11-17: L 68-73 vs Marist Red Foxes. Barometer 45 (steady). <!-- g:401912230 -->
 - 2026-11-18: Social recap posted (L 68-73 vs Marist Red Foxes): https://hardwoodbricks.com/metro/games/401912230.html <!-- post:401912230:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:preview -->

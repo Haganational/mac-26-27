@@ -71,7 +71,7 @@ Andre Bellamy grew up in Milwaukee's Bay View, the son of a brewery maintenance 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Andre Bellamy grew up in Milwaukee's Bay View, the son of a brewery maintenance 
 - 2026-11-12: Social recap posted (W 82-73 vs Indiana State Sycamores): https://hardwoodbricks.com/horizon/games/401926868.html <!-- post:401926868:recap -->
 - 2026-11-14: L 64-76 at TCU Horned Frogs. Barometer 46 (steady). <!-- g:401919049 -->
 - 2026-11-14: Social recap posted (L 64-76 vs TCU Horned Frogs): https://hardwoodbricks.com/horizon/games/401919049.html <!-- post:401919049:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:preview -->

@@ -69,7 +69,7 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:preview -->
 - 2026-11-20: W 93-61 vs Southeast Missouri State Redhawks. Barometer 61 (steady). <!-- g:401920845 -->
 - 2026-11-20: Social recap posted (W 93-61 vs Southeast Missouri State Redhawks): https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:preview -->
