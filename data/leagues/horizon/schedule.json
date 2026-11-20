@@ -2712,7 +2712,7 @@
     "key": null,
     "name": "Florida State Seminoles",
     "abbr": "FSU",
-    "score": 41,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -2720,13 +2720,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 33,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:30 - 2nd"
   },
   {
    "game_id": "401926134",
@@ -10590,5 +10590,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T18:32:41+00:00"
 }
