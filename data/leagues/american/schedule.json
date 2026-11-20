@@ -2487,7 +2487,7 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2495,13 +2495,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:53 - 1st"
   },
   {
    "game_id": "401919019",
@@ -12116,5 +12116,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T17:38:53+00:00"
 }
