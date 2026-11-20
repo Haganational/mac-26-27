@@ -1989,21 +1989,21 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "227",
     "key": null,
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920298",
@@ -2034,7 +2034,7 @@
     "key": null,
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2042,13 +2042,13 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:24 - 1st"
+   "detail": "3:45 - 1st"
   },
   {
    "game_id": "401926782",
@@ -9000,5 +9000,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:45:14+00:00"
 }

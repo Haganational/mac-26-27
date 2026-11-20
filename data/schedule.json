@@ -2237,7 +2237,7 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2245,13 +2245,13 @@
     "key": null,
     "name": "WVU Tech Golden Bears",
     "abbr": "WVUT",
-    "score": null,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:35 - 1st"
   },
   {
    "game_id": "401909709",
@@ -9682,5 +9682,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:36:56+00:00"
 }

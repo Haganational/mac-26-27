@@ -2885,21 +2885,21 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "227",
     "key": "rhode-island",
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:50 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921419",
@@ -2926,7 +2926,7 @@
     "key": null,
     "name": "Utah Utes",
     "abbr": "UTAH",
-    "score": 17,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2934,13 +2934,13 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 37,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:51 - 2nd"
   },
   {
    "game_id": "401927396",
@@ -12871,5 +12871,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:41:01+00:00"
 }

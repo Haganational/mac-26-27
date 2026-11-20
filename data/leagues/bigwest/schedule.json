@@ -2137,7 +2137,7 @@
     "key": "csun",
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2145,13 +2145,13 @@
     "key": null,
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:42 - 1st"
+   "detail": "5:11 - 1st"
   },
   {
    "game_id": "401916125",
@@ -10137,5 +10137,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:39:55+00:00"
 }

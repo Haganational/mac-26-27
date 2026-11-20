@@ -2245,7 +2245,7 @@
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2253,13 +2253,13 @@
     "key": null,
     "name": "Worcester State Lancers",
     "abbr": "WORC",
-    "score": null,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:42 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401923312",
@@ -8807,5 +8807,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:49:10+00:00"
 }

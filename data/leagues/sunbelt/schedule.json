@@ -3164,7 +3164,7 @@
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3172,13 +3172,13 @@
     "key": null,
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:18 - 1st"
   },
   {
    "game_id": "401906852",
@@ -12628,5 +12628,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T23:43:21+00:00"
 }
