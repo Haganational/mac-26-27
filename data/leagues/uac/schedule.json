@@ -1860,7 +1860,7 @@
     "key": null,
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 11,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -1868,13 +1868,13 @@
     "key": "little-rock",
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": 15,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929373",
@@ -1905,7 +1905,7 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -1913,13 +1913,13 @@
     "key": null,
     "name": "Tusculum Pioneers",
     "abbr": "TUSC",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:10 - 1st"
   },
   {
    "game_id": "401926773",
@@ -8863,5 +8863,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T00:22:24+00:00"
+ "live_at": "2026-11-20T01:00:11+00:00"
 }

@@ -2208,7 +2208,7 @@
     "key": null,
     "name": "NC State Wolfpack",
     "abbr": "NCSU",
-    "score": 48,
+    "score": 78,
     "winner": null
    },
    "away": {
@@ -2216,13 +2216,13 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": 29,
+    "score": 56,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:48 - 2nd"
   },
   {
    "game_id": "401926814",
@@ -2253,7 +2253,7 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2261,13 +2261,13 @@
     "key": null,
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:28 - 1st"
   },
   {
    "game_id": "401927375",
@@ -9523,5 +9523,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T00:15:23+00:00"
+ "live_at": "2026-11-20T00:53:27+00:00"
 }

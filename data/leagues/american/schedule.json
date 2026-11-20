@@ -2450,7 +2450,7 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2458,13 +2458,13 @@
     "key": "tulane",
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:01 - 1st"
   },
   {
    "game_id": "401916122",
@@ -12120,5 +12120,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T00:55:27+00:00"
 }
