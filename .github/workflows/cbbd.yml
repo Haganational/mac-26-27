@@ -25,7 +25,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: collect
+  # Runs on main share the data-commit queue; a branch run commits only to its branch.
+  group: ${{ github.ref == 'refs/heads/main' && 'collect' || format('cbbd-{0}', github.ref) }}
   cancel-in-progress: false
 
 jobs:
@@ -62,4 +63,4 @@ jobs:
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
           for f in data/cbbd_calls.jsonl data/model/cbbd_study.json data/model/halves_study.json data/model/edge_study_cbbd.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           git diff --cached --quiet && echo "nothing new" || git commit -m "model: CBBD ${{ inputs.study }} study ${{ inputs.first }}-${{ inputs.last }}"
-          git push || { git pull --rebase origin main && git push; }
+          git push || { git pull --rebase origin ${{ github.ref_name }} && git push; }
