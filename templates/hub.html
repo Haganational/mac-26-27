@@ -64,10 +64,10 @@
         <div class="night-hd"><span class="kick" style="--c:var(--live)">{% if night.live %}<span class="cf">Live now</span>{% else %}<span class="cf">Game night</span>{% endif %}{{ night.label }}</span>
           <h2 id="h-night">Tonight's games</h2>
           <p class="night-sub">{{ night.n }} game{{ '' if night.n == 1 else 's' }}{% if night.live %} · {{ night.live }} live{% endif %}{% if night.left %} · {{ night.left }} still to tip{% endif %}{% if night.finals %} · {{ night.finals }} final{{ '' if night.finals == 1 else 's' }}{% endif %} · Scores refresh every 15 minutes</p></div>
-        {% macro ng(g) %}<a class="ng{{ ' is-live' if g.live }}{{ ' is-final' if g.completed }}" href="{{ g.href }}" style="--c:{{ g.color }}">
+        {% macro ng(g) %}<div class="ng-wrap">{% if g.desk %}<a class="ng-plus" hidden style="--c:{{ g.color }}" href="{{ g.desk }}" title="Add a dispatch about {{ g.away_name }} at {{ g.home_name }}" aria-label="Add a dispatch about {{ g.away_name }} at {{ g.home_name }}">+</a>{% endif %}<a class="ng{{ ' is-live' if g.live }}{{ ' is-final' if g.completed }}" href="{{ g.href }}" style="--c:{{ g.color }}">
           <span class="kick"><span class="cf">{{ g.league }}</span>{% if g.live %}<span class="live">Live{% if g.detail %} · {{ g.detail }}{% endif %}</span>{% elif g.completed %}{{ g.detail or 'Final' }}{% else %}{{ g.when }} ET{% endif %}{% if g.tv and not g.completed %} · {{ g.tv }}{% endif %}</span>
           {% set started = g.live or g.completed %}<span class="ng-row{{ ' lose' if g.completed and not g.away_win }}"><span>{{ g.away_name }}</span>{% if started %}<b>{{ g.away_score if g.away_score is not none else 0 }}</b>{% endif %}</span>
-          <span class="ng-row{{ ' lose' if g.completed and not g.home_win }}"><span>{{ g.home_name }}</span>{% if started %}<b>{{ g.home_score if g.home_score is not none else 0 }}</b>{% endif %}</span></a>{% endmacro %}
+          <span class="ng-row{{ ' lose' if g.completed and not g.home_win }}"><span>{{ g.home_name }}</span>{% if started %}<b>{{ g.home_score if g.home_score is not none else 0 }}</b>{% endif %}</span></a></div>{% endmacro %}
         <div class="ng-grid">{% for g in night.games %}{{ ng(g) }}{% endfor %}</div>
         {% if night.more %}<details class="ng-more"><summary>All {{ night.n }} games tonight</summary><div class="ng-grid">{% for g in night.more %}{{ ng(g) }}{% endfor %}</div></details>{% endif %}
       </section>
@@ -157,5 +157,6 @@
   <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>
 <footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="tops.html">Tops and Bottoms</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+<script>try{if(localStorage.getItem('btb-author')==='1'){document.documentElement.classList.add('is-author');}if(localStorage.getItem('btb-author')==='1')document.querySelectorAll(".ng-plus").forEach(function(a){a.hidden=false})}catch(e){}</script>
 </body>
 </html>

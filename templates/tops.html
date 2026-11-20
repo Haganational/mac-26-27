@@ -125,6 +125,7 @@
       {% for c in cappers %}{% set ps = card.picks.get(c.key) or [] %}<div style="--c: {{ c.color }}">
         <div class="who"><img src="static/art/tops/{{ c.key }}.webp" alt="" width="34" height="34" loading="lazy"><b>{{ c.name }}</b></div>
         {% for p in ps %}<div class="pk">
+          <a class="pk-plus" hidden href="desk.html?ref={{ '/tops.html'|urlencode }}&amp;rt={{ ('JuiceBox pick: ' ~ c.name ~ ', ' ~ p.label ~ ' (' ~ p.matchup ~ ')')|urlencode }}" title="Add a dispatch about this pick" aria-label="Add a dispatch about {{ c.name }}'s pick">+</a>
           <span class="lbl">{{ p.label }}</span>
           <span class="res {{ p.result or '' }}">{% if p.result %}{{ p.result }}{% if p.final %} · {{ p.final }}{% endif %}{% else %}{{ p.tip_et }} ET{% endif %}</span>
           <span class="m">{{ p.matchup }}</span>

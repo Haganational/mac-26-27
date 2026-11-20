@@ -117,3 +117,10 @@ def test_the_plus_sign_files_to_the_conference_a_video_or_an_article():
     assert 'href="desk.html?conf=1"' in conf and "+</span>" in conf
     assert "video=dQw4w9WgXcQ&amp;vt=Big%20Mid%3A%203" in vid
     assert 'href="desk.html?article=1"' in art and "+ Article" in art
+
+
+def test_a_dispatch_about_any_page_of_the_site():
+    assert notes.ref_of("/tops.html | JuiceBox pick: Merv, UTEP -3") == {"url": "/tops.html", "title": "JuiceBox pick: Merv, UTEP -3"}
+    assert notes.ref_of("/metro/power.html%23w3 | Power") == {"url": "/metro/power.html#w3", "title": "Power"}
+    assert notes.ref_of("https://evil.example/x | nope") is None and notes.ref_of("//evil.example | nope") is None
+    assert notes.ref_of("javascript:alert(1)") is None

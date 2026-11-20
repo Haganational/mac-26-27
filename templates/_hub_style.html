@@ -66,6 +66,16 @@
   .ng-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
   @media (max-width: 960px) { .ng-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media (max-width: 420px) { .ng-grid { grid-template-columns: 1fr; } }
+  .ng-wrap { position: relative; min-width: 0; display: flex; }
+  .ng-wrap > a.ng { flex: 1; }
+  /* the author's + (author mode only): files a dispatch on this game at its edition's desk */
+  .ng-plus { position: absolute; right: 8px; top: 7px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px dashed var(--c, currentColor); background: var(--surface); color: var(--c, currentColor); font-weight: 700; font-size: 17px; line-height: 1; text-decoration: none; }
+  .ng-plus[hidden] { display: none; }
+  .pk { position: relative; }
+  .pk-plus { position: absolute; right: 0; top: 9px; display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border: 1px dashed var(--c, currentColor); color: var(--c, currentColor); background: var(--surface); font-weight: 700; font-size: 16px; line-height: 1; text-decoration: none; }
+  .pk-plus[hidden] { display: none; }
+  html.is-author .pk { padding-right: 34px; }
+  html.is-author a.ng .kick { padding-right: 30px; min-height: 24px; align-items: center; }
   a.ng { display: block; padding: 9px 11px 10px; background: var(--surface); border: 1px solid var(--rule); border-top: 3px solid var(--c); border-radius: 3px; color: var(--ink); min-width: 0; }
   a.ng.is-live { border-color: color-mix(in srgb, var(--live) 45%, transparent); border-top-color: var(--live); }
   a.ng .kick { font-size: 10px; display: flex; flex-wrap: wrap; margin-bottom: 4px; }

@@ -306,7 +306,8 @@ def game_night(eds: list[dict[str, Any]], now: datetime) -> dict[str, Any] | Non
             if g["day_key"] != day or g["game_id"] in seen:
                 continue
             seen.add(g["game_id"])
-            games.append({**g, "league": e["short"], "color": CONF_COLORS.get(e["key"], "#a8441c")})
+            games.append({**g, "league": e["short"], "color": CONF_COLORS.get(e["key"], "#a8441c"),
+                          "desk": f"{e.get('prefix', '')}desk.html?game={g['game_id']}"})  # the author's + on the tile
     if not games:
         return None
     live = [g for g in games if g["live"]]

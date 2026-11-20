@@ -175,6 +175,7 @@
 </footer>
 <script src="{{ root }}static/nav.js?v={{ asset_v }}" defer data-root="{{ root }}" data-site="{{ site_url }}"></script>
 <script src="{{ root }}static/specs.js?v={{ asset_v }}" defer></script>
+{% if 'notes' in feat %}<a class="fab-dispatch" hidden data-desk="{{ root }}desk.html" href="{{ root }}desk.html" title="Write a dispatch about this page">+ Dispatch</a><style>.fab-dispatch{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;display:inline-flex;align-items:center;gap:6px;padding:10px 15px;background:#a33a2a;color:#fff;font:700 14px/1 system-ui,sans-serif;letter-spacing:.02em;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.28);border:0}.fab-dispatch[hidden]{display:none}.fab-dispatch:hover{filter:brightness(1.08)}</style><script>(function(){try{if(localStorage.getItem('btb-author')!=='1'||/desk\.html$/.test(location.pathname))return;var f=document.querySelector('.fab-dispatch');if(!f)return;f.hidden=false;f.addEventListener('click',function(){var h=document.querySelector('h1'),t=document.title;if(h){h=h.cloneNode(true);h.querySelectorAll('.author-only,.btn-dispatch').forEach(function(x){x.parentNode.removeChild(x)});t=h.textContent||t}t=t.replace(/\s+/g,' ').trim().slice(0,120);f.href=f.dataset.desk+'?ref='+encodeURIComponent(location.pathname+location.hash)+'&rt='+encodeURIComponent(t)})}catch(e){}})();</script>{% endif %}
 {%- endmacro %}
 
 {#- Fieldhouse Notes. The add button only shows in author mode; GitHub decides who can actually commit. -#}
@@ -210,6 +211,7 @@
   {% if n.article %}<div class="body"><p>{{ n.text|truncate(260) }}</p><p><a class="read-on" href="{{ root }}{{ n.href }}">Read the article →</a></p></div>{% else %}
   <div class="body">{{ n.html|safe }}</div>
   {% if n.video %}<p class="on-video"><a href="{{ n.video.url }}" target="_blank" rel="noopener">▶ On the video: {{ n.video.title }}</a></p>{% endif %}
+  {% if n.ref %}<p class="on-video"><a href="{{ n.ref.url }}">↗ About: {{ n.ref.title }}</a></p>{% endif %}
   {% for ph in n.photos %}<figure class="photo"><a href="{{ root }}{{ ph.src }}"><img src="{{ root }}{{ ph.src }}" alt="{{ ph.caption or n.title or 'Game photo' }}" loading="lazy"></a>
     <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
   {% endfor %}{% endif %}

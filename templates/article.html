@@ -24,6 +24,7 @@
     {% if n.author %}{{ L.byline(n, "../") }}{% endif %}
     <div class="body">{{ n.html|safe }}</div>
     {% if n.video %}<p class="on-video"><a href="{{ n.video.url }}" target="_blank" rel="noopener">▶ On the video: {{ n.video.title }}</a></p>{% endif %}
+  {% if n.ref %}<p class="on-video"><a href="{{ n.ref.url }}">↗ About: {{ n.ref.title }}</a></p>{% endif %}
     {% for ph in n.photos %}<figure class="photo"><a href="../{{ ph.src }}"><img src="../{{ ph.src }}" alt="{{ ph.caption or n.title or 'Photo' }}" loading="lazy"></a>
       <figcaption>{{ ph.caption }}{% if ph.credit %}{% if ph.caption %} · {% endif %}<span class="credit">Photo: {{ ph.credit }}</span>{% endif %}</figcaption></figure>
     {% endfor %}
