@@ -27,9 +27,9 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 
 ## Barometer
 
-**56 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**48 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 - 2026-11-15: W 79-55 vs Canisius Golden Griffins. Barometer 56 (steady). <!-- g:401911017 -->
 - 2026-11-16: Social recap posted (W 79-55 vs Canisius Golden Griffins): https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->
+- 2026-11-20: L 69-78 at St. Bonaventure Bonnies. Barometer 48 (steady). <!-- g:401911021 -->
+- 2026-11-20: Social recap posted (L 69-78 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->

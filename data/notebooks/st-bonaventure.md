@@ -27,9 +27,9 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 
 ## Barometer
 
-**72 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W3, last five LWWW.
+**78 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/a10/games/401911264.html <!-- post:401911264:preview -->
 - 2026-11-14: Social recap posted (W 81-58 vs Lafayette Leopards): https://hardwoodbricks.com/a10/games/401911264.html <!-- post:401911264:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->
+- 2026-11-20: W 78-69 vs Buffalo Bulls. Barometer 78 (buoyant). <!-- g:401911021 -->
+- 2026-11-20: Social recap posted (W 78-69 vs Buffalo Bulls): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->

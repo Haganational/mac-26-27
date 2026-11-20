@@ -27,7 +27,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 
 ## Barometer
 
-**85 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**86 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Jalen editorializes: 82% of stories right now.
 
@@ -69,7 +69,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 - 2026-11-15: W 68-58 at Saint Louis Billikens. Barometer 85 (giddy). <!-- g:401911251 -->
 - 2026-11-15: Social recap posted (W 68-58 vs Saint Louis Billikens): https://hardwoodbricks.com/a10/games/401911251.html <!-- post:401911251:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:preview -->
+- 2026-11-20: W 85-74 vs Montana State Bobcats. Barometer 86 (giddy). <!-- g:401920413 -->
+- 2026-11-20: Social recap posted (W 85-74 vs Montana State Bobcats): https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:recap -->

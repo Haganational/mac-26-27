@@ -27,7 +27,7 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**55 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Ingrid editorializes: 63% of stories right now.
 
@@ -80,3 +80,4 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 - 2026-11-18: W 83-78 vs SIU Edwardsville Cougars. Barometer 45 (steady). <!-- g:401926143 -->
 - 2026-11-18: Social recap posted (W 83-78 vs SIU Edwardsville Cougars): https://hardwoodbricks.com/summit/games/401926143.html <!-- post:401926143:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401929409.html <!-- post:401929409:preview -->
+- 2026-11-20: W 91-66 vs Mayville State Comets. Barometer 55 (steady). <!-- g:401929409 -->

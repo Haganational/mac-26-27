@@ -27,7 +27,7 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 
 ## Barometer
 
-**53 of 100, steady.** Record 2-2 (0-0 in conference), streak W2, last five LLWW.
+**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Nora editorializes: 62% of stories right now.
 
@@ -68,7 +68,7 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,5 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 - 2026-11-11: W 74-70 vs Harvard Crimson. Barometer 44 (testy). <!-- g:401920356 -->
 - 2026-11-14: W 84-73 vs Yale Bulldogs. Barometer 53 (steady). <!-- g:401920747 -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:preview -->
+- 2026-11-20: L 77-84 at Butler Bulldogs. Barometer 46 (steady). <!-- g:401902280 -->
+- 2026-11-20: Social recap posted (L 77-84 vs Butler Bulldogs): https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:recap -->

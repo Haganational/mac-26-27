@@ -27,9 +27,9 @@ Reggie Barnes played jazz piano in Little Rock clubs for thirty years and grades
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Reggie editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Reggie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Reggie Barnes played jazz piano in Little Rock clubs for thirty years and grades
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Reggie Barnes played jazz piano in Little Rock clubs for thirty years and grades
 - 2026-11-11: L 69-94 at New Mexico Lobos. Barometer 26 (despondent). <!-- g:401924896 -->
 - 2026-11-15: W 84-83 vs Northwestern State Demons. Barometer 40 (testy). <!-- g:401925079 -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:preview -->
+- 2026-11-20: W 78-72 at Jacksonville Dolphins. Barometer 49 (steady). <!-- g:401920878 -->
+- 2026-11-20: Social recap posted (W 78-72 vs Jacksonville Dolphins): https://hardwoodbricks.com/asun/games/401920878.html <!-- post:401920878:recap -->

@@ -27,9 +27,9 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**59 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,5 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 - 2026-11-18: W 76-59 vs Bellarmine Knights. Barometer 51 (steady). <!-- g:401921106 -->
 - 2026-11-18: Social recap posted (W 76-59 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921106.html <!-- post:401921106:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401927375.html <!-- post:401927375:preview -->
+- 2026-11-20: W 123-48 vs Eureka Red Devils. Barometer 59 (steady). <!-- g:401927375 -->
+- 2026-11-20: Social recap posted (W 123-48 vs Eureka Red Devils): https://hardwoodbricks.com/mvc/games/401927375.html <!-- post:401927375:recap -->

@@ -27,9 +27,9 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 - 2026-11-17: L 79-83 vs Tarleton State Texans. Barometer 59 (steady). <!-- g:401927364 -->
 - 2026-11-17: Social recap posted (L 79-83 vs Tarleton State Texans): https://hardwoodbricks.com/mvc/games/401927364.html <!-- post:401927364:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:preview -->
+- 2026-11-20: W 86-70 vs Charleston Cougars. Barometer 65 (buoyant). <!-- g:401926814 -->
+- 2026-11-20: Social recap posted (W 86-70 vs Charleston Cougars): https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:recap -->

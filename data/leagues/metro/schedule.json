@@ -2711,21 +2711,21 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 64,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "311",
     "key": null,
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": 68,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921723",
@@ -11354,5 +11354,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:03:16+00:00"
+ "live_at": "2026-11-20T02:40:27+00:00"
 }

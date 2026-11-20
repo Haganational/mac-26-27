@@ -2656,7 +2656,7 @@
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2664,13 +2664,13 @@
     "key": null,
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401920707",
@@ -10907,5 +10907,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T02:57:37+00:00"
 }

@@ -1790,21 +1790,21 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 66,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2031",
     "key": null,
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": 71,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918950",
@@ -1835,7 +1835,7 @@
     "key": null,
     "name": "Louisville Cardinals",
     "abbr": "LOU",
-    "score": 42,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -1843,13 +1843,13 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 37,
+    "score": 45,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:58 - 2nd"
   },
   {
    "game_id": "401921107",
@@ -8189,5 +8189,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:01:18+00:00"
+ "live_at": "2026-11-20T02:38:10+00:00"
 }

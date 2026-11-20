@@ -1793,7 +1793,7 @@
     "key": null,
     "name": "Oregon Ducks",
     "abbr": "ORE",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -1801,13 +1801,13 @@
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:38 - 1st"
   },
   {
    "game_id": "401928795",
@@ -8209,5 +8209,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-20T02:44:05+00:00"
 }

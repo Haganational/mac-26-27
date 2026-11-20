@@ -1861,7 +1861,7 @@
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
     "score": 72,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2031",
@@ -1869,12 +1869,12 @@
     "name": "Little Rock Trojans",
     "abbr": "LR",
     "score": 78,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929373",
@@ -1905,21 +1905,21 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": 58,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "2839",
     "key": null,
     "name": "Tusculum Pioneers",
     "abbr": "TUSC",
-    "score": 56,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926773",
@@ -8863,5 +8863,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T02:14:07+00:00"
+ "live_at": "2026-11-20T02:52:56+00:00"
 }

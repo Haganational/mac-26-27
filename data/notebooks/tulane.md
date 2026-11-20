@@ -27,9 +27,9 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -77,3 +77,5 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 - 2026-11-14: L 63-65 at Akron Zips. Barometer 50 (steady). <!-- g:401919004 -->
 - 2026-11-14: Social recap posted (L 63-65 vs Akron Zips): https://hardwoodbricks.com/games/401919004.html <!-- post:401919004:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:preview -->
+- 2026-11-20: L 67-74 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401919005 -->
+- 2026-11-20: Social recap posted (L 67-74 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:recap -->

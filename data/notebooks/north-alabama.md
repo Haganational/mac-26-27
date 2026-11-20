@@ -27,9 +27,9 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Callie editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Callie editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -81,3 +81,4 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 - 2026-11-16: W 87-49 vs Fisk Bulldogs. Barometer 53 (steady). <!-- g:401929371 -->
 - 2026-11-16: Social recap posted (W 87-49 vs Fisk Bulldogs): https://hardwoodbricks.com/uac/games/401929371.html <!-- post:401929371:recap -->
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401929373.html <!-- post:401929373:preview -->
+- 2026-11-20: W 74-67 vs Tusculum Pioneers. Barometer 59 (steady). <!-- g:401929373 -->
