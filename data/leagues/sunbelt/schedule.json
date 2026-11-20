@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T23:11:53+00:00",
+ "fetched_at": "2026-11-20T12:09:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -3034,11 +3034,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-tech-bulldogs-mens-basketball-tickets-thomas-assembly-center-11-19-2026--sports-ncaa-basketball/production/7667287?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Thomas Assembly Center",
    "venue_city": "Ruston",
    "venue_state": "LA",
@@ -3288,7 +3284,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-20-2026--sports-ncaa-basketball/production/7662324?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Moody Coliseum (Dallas)",
@@ -3378,7 +3374,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-21-2026--sports-ncaa-basketball/production/7403497?wsUser=717",
-    "low": 10.0,
+    "low": 5.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -3828,7 +3824,11 @@
    "conference_game": false,
    "time_tba": true,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
+    "low": 31.0,
+    "since": "2026-11-20T12:09:57Z"
+   },
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -3953,7 +3953,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 31.0,
+    "low": 32.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -4043,7 +4043,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 20.0,
+    "low": 15.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Chartway Arena",
@@ -4817,7 +4817,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 41.0,
+    "low": 35.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -5523,7 +5523,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-12-3-2026--sports-ncaa-basketball/production/7883578?wsUser=717",
+    "low": 36.0,
+    "since": "2026-11-20T12:09:57Z"
+   },
    "venue": "Schar Center",
    "venue_city": "Elon",
    "venue_state": "NC",
@@ -5611,7 +5615,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 37.0,
+    "low": 39.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -5656,7 +5660,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-southern-eagles-mens-basketball-tickets-jack-and-ruth-ann-hill-convocation-center-12-5-2026--sports-ncaa-basketball/production/7729273?wsUser=717",
-    "low": 42.0,
+    "low": 35.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Jack and Ruth Ann Hill Convocation Center",
@@ -8201,7 +8205,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-12-31-2026--sports-ncaa-basketball/production/7396554?wsUser=717",
-    "low": 41.0,
+    "low": 35.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -10374,7 +10378,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-1-27-2027--sports-ncaa-basketball/production/7398288?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -12620,6 +12624,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T05:41:27+00:00"
+ ]
 }

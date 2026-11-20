@@ -70,7 +70,7 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:preview -->
 - 2026-11-19: L 77-91 at Ohio Bobcats. Barometer 49 (steady). <!-- g:401920963 -->
 - 2026-11-19: Social recap posted (L 77-91 vs Ohio Bobcats): https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401920964.html <!-- post:401920964:preview -->

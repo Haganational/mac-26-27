@@ -71,7 +71,7 @@ Rita Yazzie spent twenty-five years running the visitor programs at an observato
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Rita Yazzie spent twenty-five years running the visitor programs at an observato
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:preview -->
 - 2026-11-18: W 72-59 vs Embry Riddle (AZ) Eagles. Barometer 40 (testy). <!-- g:401927867 -->
 - 2026-11-18: Social recap posted (W 72-59 vs Embry Riddle (AZ) Eagles): https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:preview -->

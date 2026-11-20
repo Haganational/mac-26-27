@@ -68,7 +68,7 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:preview -->
 - 2026-11-19: L 76-82 at Longwood Lancers. Barometer 52 (steady). <!-- g:401922047 -->
 - 2026-11-19: Social recap posted (L 76-82 vs Longwood Lancers): https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:preview -->

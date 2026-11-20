@@ -68,7 +68,7 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 - 2026-11-14: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920124.html <!-- post:401920124:preview -->
 - 2026-11-15: L 52-77 at Montana State Bobcats. Barometer 40 (testy). <!-- g:401920124 -->
 - 2026-11-16: Social recap posted (L 52-77 vs Montana State Bobcats): https://hardwoodbricks.com/bigwest/games/401920124.html <!-- post:401920124:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:preview -->

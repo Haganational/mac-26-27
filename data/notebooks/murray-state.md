@@ -69,7 +69,7 @@ Magnolia Dupree grew up in Murray, spent her teens walking hot horses on a Kentu
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Magnolia Dupree grew up in Murray, spent her teens walking hot horses on a Kentu
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401918959.html <!-- post:401918959:preview -->
 - 2026-11-19: L 83-93 vs (neutral) NC State Wolfpack. Barometer 66 (buoyant). <!-- g:401918959 -->
 - 2026-11-20: Social recap posted (L 83-93 vs NC State Wolfpack): https://hardwoodbricks.com/mvc/games/401918959.html <!-- post:401918959:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401921692.html <!-- post:401921692:preview -->

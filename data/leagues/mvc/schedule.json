@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T23:07:07+00:00",
+ "fetched_at": "2026-11-20T12:06:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2240,11 +2240,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-11-19-2026--sports-ncaa-basketball/production/7590197?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Knapp Center",
    "venue_city": "Des Moines",
    "venue_state": "IA",
@@ -2285,11 +2281,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/illinois-state-redbirds-mens-basketball-tickets-cefcu-arena-11-19-2026--sports-ncaa-basketball/production/7683436?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "CEFCU Arena",
    "venue_city": "Normal",
    "venue_state": "IL",
@@ -2388,6 +2380,47 @@
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921692",
+   "date": "2026-11-21T00:00Z",
+   "name": "Wisconsin Badgers at Murray State Racers",
+   "short_name": "WIS VS MUR",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Baha Mar Convention Center",
+   "venue_city": "Nassau",
+   "venue_state": "Bahamas",
+   "home": {
+    "espn_id": "93",
+    "key": "murray-state",
+    "name": "Murray State Racers",
+    "abbr": "MUR",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "275",
+    "key": null,
+    "name": "Wisconsin Badgers",
+    "abbr": "WIS",
     "score": null,
     "winner": null
    },
@@ -2576,7 +2609,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 25.0,
+    "low": 20.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "FedExForum",
@@ -4036,7 +4069,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-12-5-2026--sports-ncaa-basketball/production/7603584?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Breslin Center",
@@ -4255,7 +4288,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-bridgestone-arena-12-6-2026--sports-ncaa-basketball/production/7096249?wsUser=717",
-    "low": 49.0,
+    "low": 44.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Bridgestone Arena",
@@ -4646,7 +4679,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-12-11-2026--sports-ncaa-basketball/production/7590199?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -5551,7 +5584,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-22-2026--sports-ncaa-basketball/production/7109834?wsUser=717",
-    "low": 42.0,
+    "low": 38.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -5596,7 +5629,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-12-22-2026--sports-ncaa-basketball/production/7601049?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -6248,7 +6281,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-1-5-2027--sports-ncaa-basketball/production/7601019?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -6552,7 +6585,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-1-12-2027--sports-ncaa-basketball/production/7601023?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -7160,7 +7193,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-1-21-2027--sports-ncaa-basketball/production/7601025?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -8115,7 +8148,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drake-bulldogs-mens-basketball-tickets-drake-knapp-center-2-6-2027--sports-ncaa-basketball/production/7601033?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Knapp Center",
@@ -9522,6 +9555,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T02:42:12+00:00"
+ ]
 }

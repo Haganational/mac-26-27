@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T23:14:49+00:00",
+ "fetched_at": "2026-11-20T12:12:24+00:00",
  "season": 2027,
  "games": [
   {
@@ -2021,7 +2021,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/csun-matadors-mens-basketball-tickets-premier-america-credit-union-arena-11-20-2026--sports-basketball/production/7889972?wsUser=717",
+    "low": 30.0,
+    "since": "2026-11-20T12:12:24Z"
+   },
    "venue": "Premier America Credit Union Arena",
    "venue_city": "Northridge",
    "venue_state": "CA",
@@ -4368,7 +4372,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 33.0,
+    "low": 34.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Lawlor Events Center",
@@ -8996,6 +9000,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-20T05:06:25+00:00"
+ ]
 }

@@ -68,7 +68,7 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:preview -->
 - 2026-11-18: L 54-83 vs Seattle U Redhawks. Barometer 34 (testy). <!-- g:401917533 -->
 - 2026-11-18: Social recap posted (L 54-83 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:recap -->
+- 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:preview -->
