@@ -70,7 +70,7 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->
 - 2026-11-20: L 69-84 vs UTEP Miners. Barometer 24 (despondent). <!-- g:401911534 -->
 - 2026-11-20: Social recap posted (L 69-84 vs UTEP Miners): https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401928790.html <!-- post:401928790:preview -->
