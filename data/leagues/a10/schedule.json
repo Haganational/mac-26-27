@@ -3053,7 +3053,7 @@
     "key": null,
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3061,13 +3061,13 @@
     "key": "saint-louis",
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:58 - 1st"
   },
   {
    "game_id": "401911199",
@@ -12867,5 +12867,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T04:14:38+00:00"
 }

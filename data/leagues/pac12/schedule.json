@@ -1834,7 +1834,7 @@
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 57,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -1842,13 +1842,13 @@
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 70,
+    "score": 75,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:08 - 2nd"
+   "detail": "1:32 - 2nd"
   },
   {
    "game_id": "401925664",
@@ -1879,7 +1879,7 @@
     "key": "fresno-state",
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": 44,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -1887,13 +1887,13 @@
     "key": null,
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": 29,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:21 - 2nd"
   },
   {
    "game_id": "401909567",
@@ -8206,5 +8206,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T04:00:08+00:00"
+ "live_at": "2026-11-21T04:15:21+00:00"
 }

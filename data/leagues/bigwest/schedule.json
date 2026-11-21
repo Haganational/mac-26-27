@@ -2220,7 +2220,7 @@
     "name": "Idaho Vandals",
     "abbr": "IDHO",
     "score": 84,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2934",
@@ -2228,12 +2228,12 @@
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
     "score": 81,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917538",
@@ -10134,5 +10134,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:58:28+00:00"
+ "live_at": "2026-11-21T04:13:34+00:00"
 }
