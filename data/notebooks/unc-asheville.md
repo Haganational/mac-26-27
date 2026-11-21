@@ -70,7 +70,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:preview -->
 - 2026-11-18: L 77-98 vs Tennessee Tech Golden Eagles. Barometer 38 (testy). <!-- g:401922292 -->
 - 2026-11-19: Social recap posted (L 77-98 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:preview -->

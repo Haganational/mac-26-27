@@ -70,7 +70,7 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:preview -->
 - 2026-11-18: W 104-74 at Omaha Mavericks. Barometer 68 (buoyant). <!-- g:401925012 -->
 - 2026-11-18: Social recap posted (W 104-74 vs Omaha Mavericks): https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:preview -->

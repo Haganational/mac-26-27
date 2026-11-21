@@ -65,7 +65,7 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -77,3 +77,4 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920158.html <!-- post:401920158:preview -->
 - 2026-11-19: L 71-75 at UCLA Bruins. Barometer 50 (steady). <!-- g:401920158 -->
 - 2026-11-19: Social recap posted (L 71-75 vs UCLA Bruins): https://hardwoodbricks.com/bigwest/games/401920158.html <!-- post:401920158:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920159.html <!-- post:401920159:preview -->
