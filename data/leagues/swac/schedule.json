@@ -2784,7 +2784,7 @@
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
     "score": 80,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2011",
@@ -2792,12 +2792,12 @@
     "name": "Alabama State Hornets",
     "abbr": "ALST",
     "score": 68,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925049",
@@ -10904,5 +10904,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T05:06:57+00:00"
+ "live_at": "2026-11-21T05:24:01+00:00"
 }
