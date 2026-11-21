@@ -2205,7 +2205,7 @@
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2213,13 +2213,13 @@
     "key": "kansas-city",
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:17 - 1st"
   },
   {
    "game_id": "401920846",
@@ -7959,5 +7959,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:09:54+00:00"
 }

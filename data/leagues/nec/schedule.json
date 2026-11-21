@@ -2110,7 +2110,7 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 36,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2118,13 +2118,13 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": 24,
+    "score": 39,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:15 - 2nd"
+   "detail": "7:30 - 2nd"
   },
   {
    "game_id": "401916299",
@@ -2155,7 +2155,7 @@
     "key": null,
     "name": "Maryland Terrapins",
     "abbr": "MD",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2163,13 +2163,13 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:10 - 1st"
   },
   {
    "game_id": "401919784",
@@ -8404,5 +8404,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T23:50:09+00:00"
+ "live_at": "2026-11-21T00:14:12+00:00"
 }

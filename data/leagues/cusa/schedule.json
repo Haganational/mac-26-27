@@ -2034,7 +2034,7 @@
     "key": null,
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": 33,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2042,13 +2042,13 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": 30,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926782",
@@ -2075,7 +2075,7 @@
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2083,13 +2083,13 @@
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:30 - 1st"
   },
   {
    "game_id": "401920818",
@@ -2120,7 +2120,7 @@
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2128,13 +2128,13 @@
     "key": null,
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:14 - 1st"
   },
   {
    "game_id": "401927396",
@@ -2161,7 +2161,7 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2169,13 +2169,13 @@
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:29 - 1st"
   },
   {
    "game_id": "401928795",
@@ -9001,5 +9001,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T23:45:14+00:00"
+ "live_at": "2026-11-21T00:06:33+00:00"
 }

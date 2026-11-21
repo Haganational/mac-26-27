@@ -1987,7 +1987,7 @@
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -1995,13 +1995,13 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:36 - 1st"
   },
   {
    "game_id": "401917903",
@@ -8930,5 +8930,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:10:36+00:00"
 }

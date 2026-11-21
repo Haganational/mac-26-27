@@ -1881,7 +1881,7 @@
     "key": null,
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -1889,13 +1889,13 @@
     "key": "south-carolina-state",
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:39 - 1st"
   },
   {
    "game_id": "401924844",
@@ -1926,7 +1926,7 @@
     "key": "delaware-state",
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1934,13 +1934,13 @@
     "key": null,
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:21 - 1st"
   },
   {
    "game_id": "401924722",
@@ -7570,5 +7570,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:14:56+00:00"
 }

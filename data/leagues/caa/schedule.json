@@ -2691,7 +2691,7 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2699,13 +2699,13 @@
     "key": "monmouth",
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:25 - 1st"
   },
   {
    "game_id": "401909799",
@@ -11989,5 +11989,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:05:32+00:00"
 }

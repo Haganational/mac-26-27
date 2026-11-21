@@ -2376,7 +2376,7 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2384,13 +2384,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:41 - 1st"
   },
   {
    "game_id": "401925080",
@@ -10069,5 +10069,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:09:02+00:00"
 }

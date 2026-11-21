@@ -1875,7 +1875,7 @@
     "key": null,
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -1883,13 +1883,13 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:51 - 1st"
   },
   {
    "game_id": "401924736",
@@ -1920,7 +1920,7 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -1928,13 +1928,13 @@
     "key": null,
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:24 - 1st"
   },
   {
    "game_id": "401923402",
@@ -7261,5 +7261,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:04:51+00:00"
 }
