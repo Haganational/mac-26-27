@@ -27,9 +27,9 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 
 ## Barometer
 
-**77 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
+**83 of 100, giddy.** Record 5-1 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 77% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,5 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 - 2026-11-18: Social recap posted (W 80-61 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401911199.html <!-- post:401911199:preview -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401911200.html <!-- post:401911200:preview -->
+- 2026-11-21: W 87-69 vs (neutral) Portland Pilots. Barometer 83 (giddy). <!-- g:401911199 -->
+- 2026-11-21: Social recap posted (W 87-69 vs Portland Pilots): https://hardwoodbricks.com/a10/games/401911199.html <!-- post:401911199:recap -->

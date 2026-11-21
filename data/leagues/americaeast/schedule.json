@@ -2329,7 +2329,7 @@
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 32,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -2337,13 +2337,13 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 17,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:39 - 1st"
+   "detail": "19:40 - 2nd"
   },
   {
    "game_id": "401923322",
@@ -2374,7 +2374,7 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2382,13 +2382,13 @@
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:51 - 1st"
   },
   {
    "game_id": "401911023",
@@ -8808,5 +8808,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:21:13+00:00"
+ "live_at": "2026-11-21T21:44:40+00:00"
 }

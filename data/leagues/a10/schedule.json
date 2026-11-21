@@ -3094,21 +3094,21 @@
     "key": null,
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 66,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "2230",
     "key": "fordham",
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": 84,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:42 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918995",
@@ -3139,7 +3139,7 @@
     "key": "george-mason",
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 6,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3147,13 +3147,13 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 0,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:35 - 1st"
+   "detail": "6:13 - 1st"
   },
   {
    "game_id": "401921183",
@@ -3184,7 +3184,7 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 2,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -3192,13 +3192,13 @@
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 7,
+    "score": 34,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:05 - 1st"
+   "detail": "3:27 - 1st"
   },
   {
    "game_id": "401920736",
@@ -12864,5 +12864,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:07:44+00:00"
+ "live_at": "2026-11-21T21:35:29+00:00"
 }

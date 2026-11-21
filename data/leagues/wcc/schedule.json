@@ -2307,8 +2307,8 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 68,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "2230",
@@ -2316,12 +2316,12 @@
     "name": "Fordham Rams",
     "abbr": "FOR",
     "score": 87,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917538",
@@ -9671,5 +9671,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:09:46+00:00"
+ "live_at": "2026-11-21T21:36:50+00:00"
 }

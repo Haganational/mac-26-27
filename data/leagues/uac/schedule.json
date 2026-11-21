@@ -2110,21 +2110,21 @@
     "key": null,
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 91,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2031",
     "key": "little-rock",
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": 81,
-    "winner": null
+    "score": 87,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917953",
@@ -2155,7 +2155,7 @@
     "key": "austin-peay",
     "name": "Austin Peay Governors",
     "abbr": "APSU",
-    "score": 36,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -2163,13 +2163,13 @@
     "key": null,
     "name": "UT Rio Grande Valley Vaqueros",
     "abbr": "RGV",
-    "score": 30,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:19 - 2nd"
   },
   {
    "game_id": "401917918",
@@ -2196,7 +2196,7 @@
     "key": null,
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 17,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2204,13 +2204,13 @@
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": 22,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:27 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917966",
@@ -8927,5 +8927,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:19:05+00:00"
+ "live_at": "2026-11-21T21:43:11+00:00"
 }

@@ -27,7 +27,7 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLWLW.
+**47 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LWLWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 62% of stories right now.
 
@@ -67,7 +67,7 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 - 2026-11-19: W 80-65 vs Binghamton Bearcats. Barometer 54 (steady). <!-- g:401911277 -->
 - 2026-11-19: Social recap posted (W 80-65 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911277.html <!-- post:401911277:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/patriot/games/401909719.html <!-- post:401909719:preview -->
+- 2026-11-21: L 81-84 at Syracuse Orange. Barometer 47 (steady). <!-- g:401909719 -->
+- 2026-11-21: Social recap posted (L 81-84 vs Syracuse Orange): https://hardwoodbricks.com/patriot/games/401909719.html <!-- post:401909719:recap -->

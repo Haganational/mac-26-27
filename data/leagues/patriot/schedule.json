@@ -2531,21 +2531,21 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": 80,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "322",
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 75,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921222",
@@ -2621,7 +2621,7 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 32,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -2629,13 +2629,13 @@
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 17,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:21 - 1st"
+   "detail": "18:46 - 2nd"
   },
   {
    "game_id": "401912212",
@@ -9313,5 +9313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:22:00+00:00"
+ "live_at": "2026-11-21T21:45:12+00:00"
 }

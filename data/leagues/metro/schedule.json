@@ -3048,20 +3048,20 @@
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
     "score": 52,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2619",
     "key": null,
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": 63,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923322",
@@ -3092,7 +3092,7 @@
     "key": "canisius",
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3100,13 +3100,13 @@
     "key": null,
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:59 - 1st"
   },
   {
    "game_id": "401929023",
@@ -11377,5 +11377,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:04:47+00:00"
+ "live_at": "2026-11-21T21:33:30+00:00"
 }

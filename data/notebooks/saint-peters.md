@@ -27,9 +27,9 @@ Carmen Rosario spent her whole career as a public school guidance counselor in J
 
 ## Barometer
 
-**16 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
+**14 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmen editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmen editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Carmen Rosario spent her whole career as a public school guidance counselor in J
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -76,3 +76,5 @@ Carmen Rosario spent her whole career as a public school guidance counselor in J
 - 2026-11-17: L 51-66 at UMass Lowell River Hawks. Barometer 16 (despondent). <!-- g:401923325 -->
 - 2026-11-18: Social recap posted (L 51-66 vs UMass Lowell River Hawks): https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:preview -->
+- 2026-11-21: L 52-67 vs Stony Brook Seawolves. Barometer 14 (despondent). <!-- g:401924882 -->
+- 2026-11-21: Social recap posted (L 52-67 vs Stony Brook Seawolves): https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:recap -->
