@@ -16,7 +16,7 @@ from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, pr
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
-from .rosters import load_boxscores
+from .rosters import load_boxscores, load_rosters
 
 
 def _editor_email() -> str:
@@ -904,5 +904,10 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
                                bg=t.color, accent=site_chrome.accent_for(t), lines=lines)
     colors = {t.key: t.color for t in TEAMS}
     by_id = {g["game_id"]: g for g in games}
+    boxes = {b["game_id"]: b for b in load_boxscores()}
+    jersey = {str(p.get("espn_id")): p.get("jersey") for ps in load_rosters().get("rosters", {}).values() for p in ps if p.get("jersey")}
     for gid in have_box:
-        site_chrome.game_card(og / f"game-{gid}.png", by_id[gid], colors)
+        box = boxes.get(gid)
+        if box:  # our own roster's jersey numbers onto the box rows, for the top-performer roundel
+            box = {**box, "players": [{**p, "jersey": jersey.get(str(p.get("espn_id")))} for p in box.get("players", [])]}
+        site_chrome.game_card(og / f"game-{gid}.png", by_id[gid], colors, box)
