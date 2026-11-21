@@ -63,7 +63,7 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,4 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401924763.html <!-- post:401924763:preview -->
 - 2026-11-19: W 93-62 vs St. Joseph's Brooklyn Bears. Barometer 58 (steady). <!-- g:401924763 -->
 - 2026-11-19: Social recap posted (W 93-62 vs St. Joseph's Brooklyn Bears): https://hardwoodbricks.com/metro/games/401924763.html <!-- post:401924763:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:preview -->

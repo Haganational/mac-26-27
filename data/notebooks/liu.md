@@ -62,7 +62,7 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -77,3 +77,4 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 - 2026-11-17: Social recap posted (L 70-79 vs St. Thomas Tommies): https://hardwoodbricks.com/summit/games/401919807.html <!-- post:401919807:recap -->
 - 2026-11-19: W 115-114 vs UNC Wilmington Seahawks. Barometer 34 (testy). <!-- g:401919808 -->
 - 2026-11-19: Social recap posted (W 115-114 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401919808.html <!-- post:401919808:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:preview -->

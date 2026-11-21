@@ -2221,21 +2221,21 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 82,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "139",
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 68,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:17 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920948",
@@ -9675,5 +9675,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T05:56:38+00:00"
+ "live_at": "2026-11-21T06:18:20+00:00"
 }

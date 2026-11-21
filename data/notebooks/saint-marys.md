@@ -27,9 +27,9 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**76 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Fergus editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Fergus editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 - 2026-11-17: W 94-78 vs Portland State Vikings. Barometer 69 (buoyant). <!-- g:401917532 -->
 - 2026-11-17: Social recap posted (W 94-78 vs Portland State Vikings): https://hardwoodbricks.com/wcc/games/401917532.html <!-- post:401917532:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:preview -->
+- 2026-11-21: W 95-78 vs Saint Louis Billikens. Barometer 76 (buoyant). <!-- g:401911252 -->
+- 2026-11-21: Social recap posted (W 95-78 vs Saint Louis Billikens): https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:recap -->

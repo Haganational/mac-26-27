@@ -27,9 +27,9 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**49 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Anastasia editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Anastasia editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 - 2026-11-15: L 58-68 vs High Point Panthers. Barometer 59 (steady). <!-- g:401911251 -->
 - 2026-11-15: Social recap posted (L 58-68 vs High Point Panthers): https://hardwoodbricks.com/a10/games/401911251.html <!-- post:401911251:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:preview -->
+- 2026-11-21: L 78-95 at Saint Mary's Gaels. Barometer 49 (steady). <!-- g:401911252 -->
+- 2026-11-21: Social recap posted (L 78-95 vs Saint Mary's Gaels): https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:recap -->

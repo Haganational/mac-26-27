@@ -68,7 +68,7 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:preview -->
 - 2026-11-20: W 65-60 vs (neutral) UAlbany Great Danes. Barometer 44 (testy). <!-- g:401919826 -->
 - 2026-11-20: Social recap posted (W 65-60 vs UAlbany Great Danes): https://hardwoodbricks.com/ovc/games/401919826.html <!-- post:401919826:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401929023.html <!-- post:401929023:preview -->
