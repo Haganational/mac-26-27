@@ -2655,21 +2655,21 @@
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 80,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "151",
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 76,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919031",
@@ -12154,5 +12154,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:24:32+00:00"
+ "live_at": "2026-11-21T03:45:34+00:00"
 }

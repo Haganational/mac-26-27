@@ -66,7 +66,7 @@ Reginald Toney spent thirty-five years as a rocket-engine test technician in Hun
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Reginald Toney spent thirty-five years as a rocket-engine test technician in Hun
 - 2026-11-15: Social recap posted (L 73-74 vs Cleveland State Vikings): https://hardwoodbricks.com/horizon/games/401921168.html <!-- post:401921168:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:preview -->
 - 2026-11-21: W 85-69 vs Lipscomb Bisons. Barometer 59 (steady). <!-- g:401920707 -->
+- 2026-11-21: Social recap posted (W 85-69 vs Lipscomb Bisons): https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:recap -->

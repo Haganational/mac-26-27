@@ -27,9 +27,9 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 
 ## Barometer
 
-**72 of 100, buoyant.** Record 3-0 (0-0 in conference), streak W3, last five WWW.
+**78 of 100, buoyant.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Whitney editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Whitney editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 - 2026-11-15: W 73-71 at Nevada Wolf Pack. Barometer 72 (buoyant). <!-- g:401911455 -->
 - 2026-11-15: Social recap posted (W 73-71 vs Nevada Wolf Pack): https://hardwoodbricks.com/mw/games/401911455.html <!-- post:401911455:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:preview -->
+- 2026-11-21: W 90-79 vs (neutral) East Carolina Pirates. Barometer 78 (buoyant). <!-- g:401916125 -->
+- 2026-11-21: Social recap posted (W 90-79 vs East Carolina Pirates): https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:recap -->
