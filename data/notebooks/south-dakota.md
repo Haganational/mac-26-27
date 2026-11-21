@@ -69,7 +69,7 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/summit/games/401926064.html <!-- post:401926064:preview -->
 - 2026-11-19: L 47-73 at Nebraska Cornhuskers. Barometer 39 (testy). <!-- g:401926064 -->
 - 2026-11-19: Social recap posted (L 47-73 vs Nebraska Cornhuskers): https://hardwoodbricks.com/summit/games/401926064.html <!-- post:401926064:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925942.html <!-- post:401925942:preview -->
