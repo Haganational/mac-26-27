@@ -1987,7 +1987,7 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -1995,13 +1995,13 @@
     "key": "usc-upstate",
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:15 - 1st"
   },
   {
    "game_id": "401922048",
@@ -8879,5 +8879,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T16:15:10+00:00"
 }

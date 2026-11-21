@@ -2961,7 +2961,7 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2969,13 +2969,13 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:30 - 1st"
   },
   {
    "game_id": "401921222",
@@ -11381,5 +11381,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T02:56:42+00:00"
+ "live_at": "2026-11-21T16:03:53+00:00"
 }
