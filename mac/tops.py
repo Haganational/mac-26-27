@@ -45,7 +45,10 @@ from .leagues import ALL, ROOT
 ET = ZoneInfo("America/New_York")
 TOPS_DIR = ROOT / "data" / "tops"
 NCAA_DIR = ROOT / "data" / "ncaa"
-LOCK_AT = time(8, 15)  # Eastern: picks in, column up
+# Picks lock in the first collect run from 7:30 AM Eastern, so the page is published by 8:15 (Matthew's deadline).
+# A full collect run takes ~25 minutes and the site only deploys at its end; locking at 8:15 put the page up ~8:27
+# (Nov 21 2026). collect.yml locks in an early step, before the slow edition loop; the hub step is the backup.
+LOCK_AT = time(7, 30)
 WIN, LOSS = 0.91, -1.0  # 1 unit at -110
 MIN_GAMES = 2  # a team needs this many D-I games for points per game to count
 DOG_MIN, DOG_MAX = 3.0, 10.0  # the Shark's home dog window, inclusive
@@ -744,7 +747,7 @@ def teaser(now: datetime, tops_dir: Path | None = None) -> dict[str, Any] | None
         if not n:
             return {"text": "No board today. The four are off"}
         return {"text": c["column"]["head"]}
-    return {"text": "Picks in at 8:15 AM Eastern"}
+    return {"text": "Picks in by 8:15 AM Eastern"}
 
 
 def run(now: datetime | None = None) -> dict[str, Any]:

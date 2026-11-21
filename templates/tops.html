@@ -96,8 +96,8 @@
       <p class="tb-pres">JuiceBox Nation presents</p>
       <h1>Tops and Bottoms</h1>
       <p class="dek">Four handicappers. Eight picks a night. Every unit kept.</p>
-      {% if is_today %}<span class="tb-lock">Picks locked {{ lock_label }} · {{ card_label }}</span>
-      {% else %}<span class="tb-lock">Today's picks land at {{ lock_label }}</span>{% endif %}
+      {% if is_today %}<span class="tb-lock">Picks in · {{ card_label }}</span>
+      {% else %}<span class="tb-lock">Today's picks land by {{ lock_label }}</span>{% endif %}
     </div>
   </header>
 
@@ -144,7 +144,7 @@
     <p class="close">{{ card.column.close }}</p>
   </section>
   {% else %}
-  <section><h2>The first card</h2><p class="sub">Board opens at {{ lock_label }}.</p></section>
+  <section><h2>The first card</h2><p class="sub">Board opens by {{ lock_label }}.</p></section>
   {% endif %}
 
   {% if recent %}
