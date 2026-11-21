@@ -2441,7 +2441,7 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 48,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -2449,13 +2449,13 @@
     "key": null,
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 53,
+    "score": 76,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:48 - 2nd"
+   "detail": "0:28 - OT"
   },
   {
    "game_id": "401920773",
@@ -2486,7 +2486,7 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2494,13 +2494,13 @@
     "key": null,
     "name": "Penn State Behrend Lions",
     "abbr": "PSBH",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:15 - 1st"
   },
   {
    "game_id": "401909719",
@@ -2531,7 +2531,7 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2539,13 +2539,13 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:49 - 1st"
   },
   {
    "game_id": "401921222",
@@ -2576,7 +2576,7 @@
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2584,13 +2584,13 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:07 - 1st"
   },
   {
    "game_id": "401911278",
@@ -9313,5 +9313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:45:41+00:00"
+ "live_at": "2026-11-21T19:11:49+00:00"
 }

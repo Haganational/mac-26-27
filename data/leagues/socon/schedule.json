@@ -2514,7 +2514,7 @@
     "key": null,
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2522,13 +2522,13 @@
     "key": "western-carolina",
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:34 - 1st"
   },
   {
    "game_id": "401922048",
@@ -9927,5 +9927,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T19:05:22+00:00"
 }

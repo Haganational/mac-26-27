@@ -2360,7 +2360,7 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 11,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2368,13 +2368,13 @@
     "key": null,
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 16,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:23 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921169",
@@ -2401,7 +2401,7 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 10,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2409,13 +2409,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 21,
+    "score": 38,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:29 - 1st"
+   "detail": "0:01 - 1st"
   },
   {
    "game_id": "401911022",
@@ -9671,5 +9671,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:25:08+00:00"
+ "live_at": "2026-11-21T18:50:52+00:00"
 }

@@ -2769,7 +2769,7 @@
     "key": null,
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2777,13 +2777,13 @@
     "key": "stony-brook",
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:42 - 1st"
   },
   {
    "game_id": "401919849",
@@ -12017,5 +12017,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T19:03:29+00:00"
 }
