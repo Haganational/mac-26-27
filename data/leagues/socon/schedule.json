@@ -2559,7 +2559,7 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 39,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2567,13 +2567,13 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": 27,
+    "score": 42,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:30 - 1st"
+   "detail": "18:08 - 2nd"
   },
   {
    "game_id": "401926113",
@@ -2598,7 +2598,7 @@
     "key": "furman",
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": 46,
+    "score": 74,
     "winner": null
    },
    "away": {
@@ -2606,13 +2606,13 @@
     "key": null,
     "name": "Clinton Golden Bears",
     "abbr": "CTON",
-    "score": 31,
+    "score": 42,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:17 - 1st"
+   "detail": "13:07 - 2nd"
   },
   {
    "game_id": "401925709",
@@ -2643,7 +2643,7 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:30 - 1st"
   },
   {
    "game_id": "401920975",
@@ -9928,5 +9928,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:40:45+00:00"
+ "live_at": "2026-11-21T22:09:46+00:00"
 }

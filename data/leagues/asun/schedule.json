@@ -2003,8 +2003,8 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 96,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2031",
@@ -2012,12 +2012,12 @@
     "name": "Little Rock Trojans",
     "abbr": "LR",
     "score": 87,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917918",
@@ -2044,7 +2044,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 27,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2052,13 +2052,13 @@
     "key": null,
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": 31,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:39 - 1st"
+   "detail": "18:01 - 2nd"
   },
   {
    "game_id": "401922252",
@@ -8261,5 +8261,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:31:48+00:00"
+ "live_at": "2026-11-21T22:01:34+00:00"
 }

@@ -27,9 +27,9 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 
 ## Barometer
 
-**55 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five LWWWL.
+**61 of 100, steady.** Record 5-2 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 - 2026-11-20: L 76-85 vs (neutral) Temple Owls. Barometer 55 (steady). <!-- g:401916122 -->
 - 2026-11-20: Social recap posted (L 76-85 vs Temple Owls): https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:preview -->
+- 2026-11-21: W 69-59 vs (neutral) Indiana State Sycamores. Barometer 61 (steady). <!-- g:401920569 -->

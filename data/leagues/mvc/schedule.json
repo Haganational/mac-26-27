@@ -2454,21 +2454,21 @@
     "key": null,
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": 55,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
    "away": {
     "espn_id": "2181",
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 52,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920569",
@@ -2495,7 +2495,7 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 44,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -2503,13 +2503,13 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 53,
+    "score": 69,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:00 - 2nd"
+   "detail": "0:00 - 2nd"
   },
   {
    "game_id": "401920570",
@@ -9644,5 +9644,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:34:52+00:00"
+ "live_at": "2026-11-21T22:04:24+00:00"
 }

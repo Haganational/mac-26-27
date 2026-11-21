@@ -27,9 +27,9 @@ Wes Ozark runs a tackle shop on the edge of Springfield and guides bass anglers 
 
 ## Barometer
 
-**82 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**84 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 80% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Wes Ozark runs a tackle shop on the edge of Springfield and guides bass anglers 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Wes Ozark runs a tackle shop on the edge of Springfield and guides bass anglers 
 - 2026-11-17: W 73-64 vs Abilene Christian Wildcats. Barometer 82 (giddy). <!-- g:401917964 -->
 - 2026-11-17: Social recap posted (W 73-64 vs Abilene Christian Wildcats): https://hardwoodbricks.com/cusa/games/401917964.html <!-- post:401917964:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:preview -->
+- 2026-11-21: W 67-65 vs Drake Bulldogs. Barometer 84 (giddy). <!-- g:401927365 -->
+- 2026-11-21: Social recap posted (W 67-65 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:recap -->

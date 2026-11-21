@@ -2741,7 +2741,7 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 28,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2749,13 +2749,13 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 18,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:24 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911337",
@@ -2786,7 +2786,7 @@
     "key": "utsa",
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2794,13 +2794,13 @@
     "key": null,
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:47 - 1st"
   },
   {
    "game_id": "401920570",
@@ -12207,5 +12207,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T21:37:25+00:00"
+ "live_at": "2026-11-21T22:06:45+00:00"
 }
