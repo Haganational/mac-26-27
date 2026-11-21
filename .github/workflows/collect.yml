@@ -42,6 +42,10 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Tops and Bottoms (lock today's picks from 7:30 AM ET, grade finals)
+        # Early, so the lock rides this run's deploy instead of waiting out the edition loop. Once a day; a no-op otherwise.
+        continue-on-error: true
+        run: python -m mac.tops
       - name: Refresh schedule, snapshot lines, render site
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
