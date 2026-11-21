@@ -68,7 +68,7 @@ Andre Whitfield edits The Roseland Clarion and treats every Cougars game as proo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Andre Whitfield edits The Roseland Clarion and treats every Cougars game as proo
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mvc/games/401919735.html <!-- post:401919735:preview -->
 - 2026-11-19: L 52-60 at UIC Flames. Barometer 30 (testy). <!-- g:401919735 -->
 - 2026-11-19: Social recap posted (L 52-60 vs UIC Flames): https://hardwoodbricks.com/mvc/games/401919735.html <!-- post:401919735:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/nec/games/401909527.html <!-- post:401909527:preview -->

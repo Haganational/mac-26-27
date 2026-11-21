@@ -68,7 +68,7 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:preview -->
 - 2026-11-20: W 82-51 vs Mary Baldwin Fighting Squirrels. Barometer 64 (steady). <!-- g:401912211 -->
 - 2026-11-20: Social recap posted (W 82-51 vs Mary Baldwin Fighting Squirrels): https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:preview -->
