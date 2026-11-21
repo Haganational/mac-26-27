@@ -60,7 +60,7 @@
       {% if v.firsts %}<span><b>First to post:</b> {% for n, k in v.firsts %}{{ n }} {{ k }}{{ ', ' if not loop.last }}{% endfor %}</span>{% endif %}
     </div>
     {% if v.games %}
-    <div class="clocks">
+    <div class="clocks" data-fold="6" data-fold-label="games">
       {% for g in v.games %}
       <article class="clockcard" id="c{{ g.id }}">
         <h3>{{ g.away }} at {{ g.home }}</h3>

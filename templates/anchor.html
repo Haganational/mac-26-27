@@ -52,7 +52,7 @@
 </style>
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "watch.html") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "watch.html") }}
 <div class="bricks" aria-hidden="true"></div>
 <main class="ap">
   <a class="back" href="watch.html">← The desk</a>
@@ -90,6 +90,6 @@
 
   <p class="note">{{ disclosure }}</p>
 </main>
-<footer><a href="./">All conferences</a> · <a href="watch.html">Watch</a> · <a href="masthead.html">Masthead and standards</a> · Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}Built {{ built }} UTC.{% endcall %}
 </body>
 </html>

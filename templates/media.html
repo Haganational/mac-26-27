@@ -19,7 +19,7 @@
 {% include "_hub_style.html" %}
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "") }}
 <main class="mast">
   <section class="hero" style="background:none;border:0;padding:28px 0 0">
     <h1>Media and credentials</h1>
@@ -70,6 +70,6 @@
     <p>Questions about a request, or a credential decision{% if mh.email %}: <a href="mailto:{{ mh.email }}">{{ mh.email }}</a>{% else %}: contact the editor through the masthead{% endif %}.</p>
   </section>
 </main>
-<footer><a href="masthead.html">Masthead and standards</a> · <a href="./">All conferences</a> · <a href="privacy.html">Privacy</a></footer>
+{% call hub_foot(eds) %}{% endcall %}
 </body>
 </html>

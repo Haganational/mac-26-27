@@ -1,5 +1,6 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
-    Conferences sit behind one menu so the bar stays five items long at 6 editions or 27.
+    Conferences sit behind one menu so the bar stays five items long at 6 editions or 27:
+    Conferences, Big Board, The Den, Watch, About.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
 {% macro hub_bar(eds, active="", socials=False, mateo=False) -%}{#- mateo=True puts the front-page peek-a-boo (Mateo over Watch, Tiffany over At-Large) in the bar. -#}
 <header class="bar"><div class="bar-in">
@@ -13,16 +14,35 @@
         <div class="hb-grid">{% for e in eds|sort(attribute='short', case_sensitive=False) %}<a href="{{ e.href }}" data-ed="{{ e.short|lower }} {{ e.name|lower }}"><b>{{ e.short }}</b><small>{{ e.name }}</small></a>{% endfor %}</div>
       </div>
     </details>
-    <a class="hb-al" href="at-large.html"{% if active == 'at-large.html' %} aria-current="page"{% endif %}><span>At-Large</span></a>
+    {#- Tidy bar (Nov 21 2026): Big Board holds the every-conference boards; The Den and Watch stay one tap; About holds the house pages.
+        Editions carry the same Big Board, The Den and Watch, in the same order, after their own pages. -#}
+    {% set board = [('at-large.html', 'At-Large Watch', 'Which mid-majors could crash the field without the auto bid'), ('crunch-time.html', 'Crunch Time', 'Comeback Kings, Final Exams, The Cardiologists, Foul Him, Dunking and Donuts'), ('tops.html', 'Tops and Bottoms', "JuiceBox Nation's wagering board: four handicappers, one winner a day")] %}
+    {% set house = [('masthead.html', 'About and masthead', 'Who we are, how we work, corrections'), ('media.html', 'Media and credentials', 'For SIDs reviewing a credential request'), ('privacy.html', 'Privacy', 'What we keep (very little) and why')] %}
+    <details class="hb-eds hb-sec hb-al{{ ' on' if active in board|map(attribute=0)|list }}">
+      <summary><span>Big Board</span></summary>
+      <div class="hb-panel hb-list">
+        <p class="hb-k">Every conference, one board</p>
+        {% for p in board %}<a href="{{ p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
+      </div>
+    </details>
     <a href="den.html"{% if active == 'den.html' %} aria-current="page"{% endif %}>The Den</a>
     <a class="hb-watch" href="watch.html"{% if active == 'watch.html' %} aria-current="page"{% endif %}>Watch<svg class="hb-eyes" viewBox="0 0 22 10" width="22" height="10" aria-hidden="true"><ellipse cx="5" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><ellipse cx="17" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><circle cx="6" cy="5.6" r="1.9" fill="#2a1a10"/><circle cx="18" cy="5.6" r="1.9" fill="#2a1a10"/></svg></a>
-    <a href="masthead.html"{% if active == 'masthead.html' %} aria-current="page"{% endif %}>About</a>
+    <details class="hb-eds hb-sec hb-end{{ ' on' if active in house|map(attribute=0)|list }}">
+      <summary>About</summary>
+      <div class="hb-panel hb-list">
+        <p class="hb-k">Hardwood Bricks</p>
+        {% for p in house %}<a href="{{ p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
+        <a class="author-only" href="desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a>
+      </div>
+    </details>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}
 </div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".909" data-eyes=".405" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="55" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
-<script>(function(){var d=document.currentScript.previousElementSibling.querySelector('.hb-eds');if(!d)return;
-document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus()}});
+<script>(function(){var ds=[].slice.call(document.currentScript.previousElementSibling.querySelectorAll('details.hb-eds')),d=ds[0];if(!d)return;
+/* One menu open at a time; a tap outside or Escape closes it. */
+ds.forEach(function(x){x.addEventListener('toggle',function(){if(x.open)ds.forEach(function(o){if(o!==x)o.open=false})})});
+document.addEventListener('click',function(e){ds.forEach(function(x){if(x.open&&!x.contains(e.target))x.open=false})});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')ds.forEach(function(x){if(x.open){x.open=false;x.querySelector('summary').focus()}})});
 /* Landing hello (Matthew, Nov 16 2026, a trial): At-Large swells once, then Watch's eyes blink twice. About 1.5 s,
    on the first page of a visit only, and never for readers who ask for reduced motion. */
 try{var bar=d.closest('.bar');if(!sessionStorage.getItem('hb-hello')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.setItem('hb-hello','1');bar.classList.add('hello');setTimeout(function(){bar.classList.remove('hello')},1700)}}catch(e){}
@@ -41,5 +61,20 @@ pk.classList.add('on');w.classList.add('pk-on');setTimeout(function(){pk.classLi
 /* Measure after the web fonts land, or they sit over the wrong word on a cold load. */
 im.onload=function(){(document.fonts&&document.fonts.ready||Promise.resolve()).then(function(){requestAnimationFrame(go)})};im.src=im.dataset.src})}catch(e){}
 var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();d.querySelectorAll('[data-ed]').forEach(function(a){a.hidden=!!q&&a.dataset.ed.indexOf(q)<0})});})();</script>
+<link rel="stylesheet" href="static/tidy.css"><script src="static/tidy.js" defer></script>
 <a class="fab-dispatch" hidden data-desk="desk.html" href="desk.html" title="Write a dispatch about this page">+ Dispatch</a><style>.fab-dispatch{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;display:inline-flex;align-items:center;gap:6px;padding:10px 15px;background:#a33a2a;color:#fff;font:700 14px/1 system-ui,sans-serif;letter-spacing:.02em;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.28);border:0}.fab-dispatch[hidden]{display:none}.fab-dispatch:hover{filter:brightness(1.08)}</style><script>(function(){try{if(localStorage.getItem('btb-author')!=='1'||/desk\.html$/.test(location.pathname))return;var f=document.querySelector('.fab-dispatch');if(!f)return;f.hidden=false;document.documentElement.classList.add('is-author');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.ng-plus,.pk-plus').forEach(function(a){a.hidden=false})});f.addEventListener('click',function(){var h=document.querySelector('h1'),t=document.title;if(h){h=h.cloneNode(true);h.querySelectorAll('.author-only,.btn-dispatch').forEach(function(x){x.parentNode.removeChild(x)});t=h.textContent||t}t=t.replace(/\s+/g,' ').trim().slice(0,120);f.href=f.dataset.desk+'?ref='+encodeURIComponent(location.pathname+location.hash)+'&rt='+encodeURIComponent(t)})}catch(e){}})();</script>
+{%- endmacro %}
+
+{#- One footer for every site-wide page (Nov 21 2026): the bar's sections again, in the same order and words, then the page's own small print.
+    {% call hub_foot(eds) %}Stats from ESPN. Built {{ built }} UTC.{% endcall %} -#}
+{% macro hub_foot(eds) -%}
+<footer class="hf">
+  <nav class="hf-cols" aria-label="Site map">
+    <div><h4>Conferences</h4><a href="./">All conferences</a>{% for e in eds|sort(attribute='short', case_sensitive=False) %}{% if loop.index <= 6 %}<a href="{{ e.href }}">{{ e.short }}</a>{% endif %}{% endfor %}{% if eds|length > 6 %}<span class="hf-more">and {{ eds|length - 6 }} more under Conferences</span>{% endif %}</div>
+    <div><h4>Big Board</h4><a href="at-large.html">At-Large Watch</a><a href="crunch-time.html">Crunch Time</a><a href="tops.html">Tops and Bottoms</a></div>
+    <div><h4>The Den &amp; Watch</h4><a href="den.html">The Den</a><a href="watch.html">Watch</a><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
+    <div><h4>About</h4><a href="masthead.html">About and masthead</a><a href="media.html">Media and credentials</a><a href="privacy.html">Privacy</a></div>
+  </nav>
+  <p class="hf-fine"><b>Hardwood Bricks</b> <i>Keep it mid. Keep it real.</i> {{ caller() }}</p>
+</footer>
 {%- endmacro %}
