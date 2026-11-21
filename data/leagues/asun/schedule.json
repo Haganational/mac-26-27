@@ -1958,7 +1958,7 @@
     "key": null,
     "name": "LSU Tigers",
     "abbr": "LSU",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -1966,13 +1966,13 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:11 - 1st"
+   "detail": "10:37 - 1st"
   },
   {
    "game_id": "401922222",
@@ -8260,5 +8260,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T18:26:21+00:00"
 }

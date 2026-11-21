@@ -2307,7 +2307,7 @@
     "key": null,
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2315,13 +2315,13 @@
     "key": "western-illinois",
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:28 - 1st"
   },
   {
    "game_id": "401920964",
@@ -8349,5 +8349,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T18:44:07+00:00"
 }

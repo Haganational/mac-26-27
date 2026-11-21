@@ -2227,7 +2227,7 @@
     "key": "new-haven",
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2235,13 +2235,13 @@
     "key": null,
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": null,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:25 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401919828",
@@ -2268,7 +2268,7 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2276,13 +2276,13 @@
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:57 - 1st"
   },
   {
    "game_id": "401919849",
@@ -8391,5 +8391,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T18:46:31+00:00"
 }

@@ -2794,7 +2794,7 @@
     "key": null,
     "name": "Michigan State Spartans",
     "abbr": "MSU",
-    "score": 42,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -2802,13 +2802,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 27,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:10 - 2nd"
   },
   {
    "game_id": "401921169",
@@ -2835,7 +2835,7 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2843,13 +2843,13 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:54 - 1st"
   },
   {
    "game_id": "401911022",
@@ -10582,5 +10582,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T18:27:03+00:00"
 }

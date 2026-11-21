@@ -27,9 +27,9 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**33 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 - 2026-11-18: W 53-49 vs Akron Zips. Barometer 35 (testy). <!-- g:401924941 -->
 - 2026-11-18: Social recap posted (W 53-49 vs Akron Zips): https://hardwoodbricks.com/games/401924941.html <!-- post:401924941:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:preview -->
+- 2026-11-21: L 87-93 vs Siena Saints. Barometer 33 (testy). <!-- g:401924884 -->
+- 2026-11-21: Social recap posted (L 87-93 vs Siena Saints): https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:recap -->
