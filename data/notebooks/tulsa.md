@@ -27,9 +27,9 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 
 ## Barometer
 
-**79 of 100, buoyant.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**60 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 - 2026-11-17: W 67-64 vs Western Kentucky Hilltoppers. Barometer 79 (buoyant). <!-- g:401925864 -->
 - 2026-11-17: Social recap posted (W 67-64 vs Western Kentucky Hilltoppers): https://hardwoodbricks.com/american/games/401925864.html <!-- post:401925864:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925865.html <!-- post:401925865:preview -->
+- 2026-11-21: L 61-72 vs (neutral) Mississippi State Bulldogs. Barometer 60 (steady). <!-- g:401925865 -->
+- 2026-11-21: Social recap posted (L 61-72 vs Mississippi State Bulldogs): https://hardwoodbricks.com/american/games/401925865.html <!-- post:401925865:recap -->

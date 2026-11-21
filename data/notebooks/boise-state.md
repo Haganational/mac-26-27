@@ -27,9 +27,9 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**49 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,5 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 - 2026-11-15: L 75-102 vs (neutral) Nebraska Cornhuskers. Barometer 59 (steady). <!-- g:401926063 -->
 - 2026-11-15: Social recap posted (L 75-102 vs Nebraska Cornhuskers): https://hardwoodbricks.com/pac12/games/401926063.html <!-- post:401926063:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:preview -->
+- 2026-11-21: L 69-83 vs Sam Houston Bearkats. Barometer 49 (steady). <!-- g:401928795 -->
+- 2026-11-21: Social recap posted (L 69-83 vs Sam Houston Bearkats): https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:recap -->

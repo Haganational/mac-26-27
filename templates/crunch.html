@@ -60,7 +60,7 @@
 </style>
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "crunch-time.html") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "crunch-time.html") }}
 <div class="bricks" aria-hidden="true"></div>
 <main class="ct">
   <div class="dateline"><span>Through {{ through }}</span><span class="tag">Late-game rankings from the play-by-play</span><span>{{ season }}</span></div>
@@ -181,6 +181,6 @@
     </ul>
   </section>
 </main>
-<footer><a href="./">All conferences</a> · <a href="at-large.html">At-Large Watch</a> · <a href="masthead.html">Masthead and standards</a> · Play-by-play from ESPN. Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}Play-by-play from ESPN. Built {{ built }} UTC.{% endcall %}
 </body>
 </html>

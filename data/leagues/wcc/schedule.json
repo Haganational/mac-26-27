@@ -2176,21 +2176,21 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
-    "winner": null
+    "score": 140,
+    "winner": true
    },
    "away": {
     "espn_id": "110418",
     "key": null,
     "name": "West Coast Baptist Eagles",
     "abbr": "WCBC",
-    "score": null,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911252",
@@ -2221,7 +2221,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2229,13 +2229,13 @@
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": null,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:49 - 2nd"
   },
   {
    "game_id": "401920948",
@@ -9674,5 +9674,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T05:33:45+00:00"
 }

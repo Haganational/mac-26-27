@@ -27,9 +27,9 @@ Curtis Mayes spent thirty years as an aircraft mechanic at the Air Force base in
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LLWLW.
+**41 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Curtis Mayes spent thirty years as an aircraft mechanic at the Air Force base in
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Curtis Mayes spent thirty years as an aircraft mechanic at the Air Force base in
 - 2026-11-18: W 75-68 at UC Davis Aggies. Barometer 48 (steady). <!-- g:401911521 -->
 - 2026-11-18: Social recap posted (W 75-68 vs UC Davis Aggies): https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/pac12/games/401925664.html <!-- post:401925664:preview -->
+- 2026-11-21: L 68-80 at Fresno State Bulldogs. Barometer 41 (testy). <!-- g:401925664 -->
+- 2026-11-21: Social recap posted (L 68-80 vs Fresno State Bulldogs): https://hardwoodbricks.com/pac12/games/401925664.html <!-- post:401925664:recap -->

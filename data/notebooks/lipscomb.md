@@ -27,9 +27,9 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LWWWL.
+**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 - 2026-11-17: L 78-95 at Purdue Boilermakers. Barometer 49 (steady). <!-- g:401920706 -->
 - 2026-11-18: Social recap posted (L 78-95 vs Purdue Boilermakers): https://hardwoodbricks.com/asun/games/401920706.html <!-- post:401920706:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:preview -->
+- 2026-11-21: L 69-85 at Alabama A&M Bulldogs. Barometer 42 (testy). <!-- g:401920707 -->
+- 2026-11-21: Social recap posted (L 69-85 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:recap -->

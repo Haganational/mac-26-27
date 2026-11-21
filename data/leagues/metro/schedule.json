@@ -2916,21 +2916,21 @@
     "key": null,
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": null,
-    "winner": null
+    "score": 101,
+    "winner": false
    },
    "away": {
     "espn_id": "315",
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
-    "winner": null
+    "score": 103,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:47 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401924884",
@@ -11380,5 +11380,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T02:56:42+00:00"
 }

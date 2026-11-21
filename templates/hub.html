@@ -26,7 +26,7 @@
 {% include "_hub_style.html" %}
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "", socials=True, mateo=True) }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "", socials=True, mateo=True) }}
 <div class="bricks" aria-hidden="true"></div>
 {% macro conf_tile(e) %}{% set top = tops.get(e.key) %}
     <section class="conf" id="{{ e.key }}" style="--c:{{ e.color }}" aria-labelledby="h-{{ e.key }}">
@@ -38,7 +38,7 @@
       <details><summary>{{ e.n_teams }} teams</summary><ul aria-label="{{ e.short }} teams">{% for t in e.teams %}<li><a href="{{ t.href }}">{{ t.short }}</a></li>{% endfor %}</ul></details>
     </section>
 {% endmacro %}
-<main>
+<main data-nojump>
   <div class="dateline"><span>{{ today }}</span><span class="tag">Mid-major men's basketball, every game</span><span title="{{ names }}">{{ n_conf }} conferences · {{ n_schools }} schools · {{ season }}</span></div>
   <h1 style="position:absolute;left:-9999px">Hardwood Bricks: mid-major men's basketball, every game, in {{ n_conf }} conferences: {{ names }}</h1>
 
@@ -156,7 +156,7 @@
 
   <div class="follow"><b>Follow Hardwood Bricks</b><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
 </main>
-<footer><a href="masthead.html">Masthead and standards</a> · <a href="media.html">Media and credentials</a> · <a href="at-large.html">At-Large Watch</a> · <a href="crunch-time.html">Crunch Time</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="tops.html">Tops and Bottoms</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}Stats from ESPN. Built {{ built }} UTC.{% endcall %}
 <script>try{if(localStorage.getItem('btb-author')==='1'){document.documentElement.classList.add('is-author');}if(localStorage.getItem('btb-author')==='1')document.querySelectorAll(".ng-plus").forEach(function(a){a.hidden=false})}catch(e){}</script>
 </body>
 </html>

@@ -27,9 +27,9 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 
 ## Barometer
 
-**78 of 100, buoyant.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**61 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ramon editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ramon editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,5 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 - 2026-11-15: W 73-69 at North Dakota State Bison. Barometer 78 (buoyant). <!-- g:401920136 -->
 - 2026-11-15: Social recap posted (W 73-69 vs North Dakota State Bison): https://hardwoodbricks.com/bigwest/games/401920136.html <!-- post:401920136:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:preview -->
+- 2026-11-21: L 81-84 at Idaho Vandals. Barometer 61 (steady). <!-- g:401920137 -->
+- 2026-11-21: Social recap posted (L 81-84 vs Idaho Vandals): https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:recap -->
