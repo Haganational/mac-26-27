@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:18:50+00:00",
+ "fetched_at": "2026-11-21T02:33:17+00:00",
  "season": 2027,
  "games": [
   {
@@ -2945,8 +2945,8 @@
   {
    "game_id": "401927396",
    "date": "2026-11-21T00:00Z",
-   "name": "Richmond Spiders at Western Kentucky Hilltoppers",
-   "short_name": "RICH VS WKU",
+   "name": "Western Kentucky Hilltoppers at Richmond Spiders",
+   "short_name": "WKU VS RICH",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2963,18 +2963,18 @@
    "venue_city": "White Sulphur Springs",
    "venue_state": "WV",
    "home": {
-    "espn_id": "98",
-    "key": null,
-    "name": "Western Kentucky Hilltoppers",
-    "abbr": "WKU",
-    "score": 68,
-    "winner": false
-   },
-   "away": {
     "espn_id": "257",
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
+    "score": 68,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "98",
+    "key": null,
+    "name": "Western Kentucky Hilltoppers",
+    "abbr": "WKU",
     "score": 82,
     "winner": true
    },
@@ -2999,11 +2999,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/drexel-dragons-mens-basketball-tickets-daskalakis-athletic-center-11-20-2026--sports-ncaa-basketball/production/7668555?wsUser=717",
-    "low": 39.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Daskalakis Athletic Center",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -5846,7 +5842,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-ppg-paints-arena-12-9-2026--sports-ncaa-basketball/production/7187064?wsUser=717",
-    "low": 82.0,
+    "low": 84.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "PPG Paints Arena",
@@ -7507,7 +7503,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-22-2026--sports-ncaa-basketball/production/7462745?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -12871,6 +12867,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:07:31+00:00"
+ ]
 }

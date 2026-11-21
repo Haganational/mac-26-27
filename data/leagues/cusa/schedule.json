@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:24:02+00:00",
+ "fetched_at": "2026-11-21T02:40:23+00:00",
  "season": 2027,
  "games": [
   {
@@ -2021,11 +2021,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/csun-matadors-mens-basketball-tickets-premier-america-credit-union-arena-11-20-2026--sports-basketball/production/7889972?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-20T12:12:24Z"
-   },
+   "tickets": null,
    "venue": "Premier America Credit Union Arena",
    "venue_city": "Northridge",
    "venue_state": "CA",
@@ -2107,11 +2103,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-11-20-2026--sports-ncaa-basketball/production/7574472?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
    "venue_state": "GA",
@@ -2139,8 +2131,8 @@
   {
    "game_id": "401927396",
    "date": "2026-11-21T00:00Z",
-   "name": "Richmond Spiders at Western Kentucky Hilltoppers",
-   "short_name": "RICH VS WKU",
+   "name": "Western Kentucky Hilltoppers at Richmond Spiders",
+   "short_name": "WKU VS RICH",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2157,18 +2149,18 @@
    "venue_city": "White Sulphur Springs",
    "venue_state": "WV",
    "home": {
-    "espn_id": "98",
-    "key": "western-kentucky",
-    "name": "Western Kentucky Hilltoppers",
-    "abbr": "WKU",
-    "score": 68,
-    "winner": false
-   },
-   "away": {
     "espn_id": "257",
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
+    "score": 68,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "98",
+    "key": "western-kentucky",
+    "name": "Western Kentucky Hilltoppers",
+    "abbr": "WKU",
     "score": 82,
     "winner": true
    },
@@ -2195,7 +2187,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 7.0,
+    "low": 8.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "ExtraMile Arena",
@@ -2206,7 +2198,7 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 3,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2214,13 +2206,54 @@
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:08 - 1st"
+   "detail": "5:17 - 1st"
+  },
+  {
+   "game_id": "401920569",
+   "date": "2026-11-21T20:00Z",
+   "name": "Middle Tennessee Blue Raiders at Indiana State Sycamores",
+   "short_name": "MTSU VS INST",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "282",
+    "key": null,
+    "name": "Indiana State Sycamores",
+    "abbr": "INST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2393",
+    "key": "middle-tennessee",
+    "name": "Middle Tennessee Blue Raiders",
+    "abbr": "MTSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
   },
   {
    "game_id": "401927365",
@@ -9000,6 +9033,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:13:56+00:00"
+ ]
 }

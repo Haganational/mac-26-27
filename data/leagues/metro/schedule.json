@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:16:35+00:00",
+ "fetched_at": "2026-11-21T02:30:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -2739,11 +2739,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-11-20-2026--sports-ncaa-basketball/production/7339381?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Watsco Center",
    "venue_city": "Coral Gables",
    "venue_state": "FL",
@@ -2784,11 +2780,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-20-2026--sports-ncaa-basketball/production/7672802?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -2829,11 +2821,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-11-20-2026--sports-ncaa-basketball/production/7470761?wsUser=717",
-    "low": 21.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Hynes Athletics Center",
    "venue_city": "New Rochelle",
    "venue_state": "NY",
@@ -2874,11 +2862,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mount-st-marys-mountaineers-mens-basketball-tickets-knott-arena-11-20-2026--sports-ncaa-basketball/production/7711309?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Knott Arena",
    "venue_city": "Emmitsburg",
    "venue_state": "MD",
@@ -2887,21 +2871,21 @@
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": 60,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2711",
     "key": null,
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 68,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:38 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924844",
@@ -2932,7 +2916,7 @@
     "key": null,
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": 81,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2940,13 +2924,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 84,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:15 - 2nd"
+   "detail": "1:47 - OT"
   },
   {
    "game_id": "401924884",
@@ -3749,7 +3733,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-28-2026--sports-ncaa-basketball/production/7465787?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Prudential Center",
@@ -4664,7 +4648,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-12-4-2026--sports-ncaa-basketball/production/7470517?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -7668,7 +7652,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-1-8-2027--sports-ncaa-basketball/production/7470543?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -7980,7 +7964,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-1-13-2027--sports-ncaa-basketball/production/7470563?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -9731,7 +9715,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-5-2027--sports-ncaa-basketball/production/7470631?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -10316,7 +10300,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-13-2027--sports-ncaa-basketball/production/7470669?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -10667,7 +10651,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-19-2027--sports-ncaa-basketball/production/7470745?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -11291,7 +11275,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-28-2027--sports-ncaa-basketball/production/7470749?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -11396,6 +11380,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:04:51+00:00"
+ ]
 }

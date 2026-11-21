@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:15:13+00:00",
+ "fetched_at": "2026-11-21T02:28:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2744,11 +2744,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-11-20-2026--sports-ncaa-basketball/production/7134607?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Mackey Arena",
    "venue_city": "West Lafayette",
    "venue_state": "IN",
@@ -2758,7 +2754,7 @@
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
     "score": 95,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2473",
@@ -2766,12 +2762,12 @@
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
     "score": 49,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925756",
@@ -2791,7 +2787,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-21-2026--sports-ncaa-basketball/production/7603560?wsUser=717",
-    "low": 19.0,
+    "low": 22.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Breslin Center",
@@ -3423,7 +3419,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 14.0,
+    "low": 15.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Tower Hill Arena",
@@ -3687,7 +3683,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -4612,7 +4608,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-12-8-2026--sports-ncaa-basketball/production/7762878?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -4915,7 +4911,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-ppg-paints-arena-12-9-2026--sports-ncaa-basketball/production/7187064?wsUser=717",
-    "low": 82.0,
+    "low": 84.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "PPG Paints Arena",
@@ -10590,6 +10586,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:03:10+00:00"
+ ]
 }

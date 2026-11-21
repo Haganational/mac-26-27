@@ -27,9 +27,9 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 
 ## Barometer
 
-**72 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
+**77 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rosa editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rosa editorializes: 77% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 - 2026-11-18: W 83-72 at Southern Miss Golden Eagles. Barometer 72 (buoyant). <!-- g:401929358 -->
 - 2026-11-18: Social recap posted (W 83-72 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401929358.html <!-- post:401929358:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:preview -->
+- 2026-11-21: W 69-62 at Northwestern State Demons. Barometer 77 (buoyant). <!-- g:401925080 -->

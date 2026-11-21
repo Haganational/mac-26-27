@@ -27,9 +27,9 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 
 ## Barometer
 
-**18 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**12 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lorraine editorializes: 80% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lorraine editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -71,3 +71,4 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 - 2026-11-12: L 66-100 at Oregon Ducks. Barometer 23 (despondent). <!-- g:401925738 -->
 - 2026-11-14: L 65-81 at Oregon State Beavers. Barometer 18 (despondent). <!-- g:401925739 -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/swac/games/401925740.html <!-- post:401925740:preview -->
+- 2026-11-21: L 48-92 at Arkansas Razorbacks. Barometer 12 (despondent). <!-- g:401925740 -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:33:01+00:00",
+ "fetched_at": "2026-11-21T02:50:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -2697,7 +2697,7 @@
     "key": "alabama-am",
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": 53,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2705,13 +2705,13 @@
     "key": null,
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": 33,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:22 - 2nd"
+   "detail": "9:33 - 2nd"
   },
   {
    "game_id": "401925740",
@@ -2729,11 +2729,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-11-20-2026--sports-ncaa-basketball/production/7575746?wsUser=717",
-    "low": 22.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
+   "tickets": null,
    "venue": "Bud Walton Arena",
    "venue_city": "Fayetteville",
    "venue_state": "AR",
@@ -2742,21 +2738,21 @@
     "key": null,
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
-    "score": 74,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
    "away": {
     "espn_id": "2400",
     "key": "mvsu",
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": 37,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925664",
@@ -3214,7 +3210,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-25-2026--sports-ncaa-basketball/production/7420216?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Cam Henderson Center",
@@ -3474,7 +3470,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-27-2026--sports-ncaa-basketball/production/7349921?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Mizzou Arena",
@@ -5198,7 +5194,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-13-2026--sports-ncaa-basketball/production/7294908?wsUser=717",
-    "low": 45.0,
+    "low": 41.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Neville Arena",
@@ -10907,6 +10903,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:22:43+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:17:23+00:00",
+ "fetched_at": "2026-11-21T02:31:23+00:00",
  "season": 2027,
  "games": [
   {
@@ -2124,11 +2124,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/csun-matadors-mens-basketball-tickets-premier-america-credit-union-arena-11-20-2026--sports-basketball/production/7889972?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-20T12:05:17Z"
-   },
+   "tickets": null,
    "venue": "Premier America Credit Union Arena",
    "venue_city": "Northridge",
    "venue_state": "CA",
@@ -2156,8 +2152,8 @@
   {
    "game_id": "401916125",
    "date": "2026-11-21T01:00Z",
-   "name": "Utah Valley Wolverines at East Carolina Pirates",
-   "short_name": "UVU VS ECU",
+   "name": "East Carolina Pirates at Utah Valley Wolverines",
+   "short_name": "ECU VS UVU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2174,25 +2170,25 @@
    "venue_city": "Charlotte Amalie",
    "venue_state": "Virgin Islands",
    "home": {
-    "espn_id": "151",
-    "key": null,
-    "name": "East Carolina Pirates",
-    "abbr": "ECU",
-    "score": 43,
-    "winner": null
-   },
-   "away": {
     "espn_id": "3084",
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 32,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "away": {
+    "espn_id": "151",
+    "key": null,
+    "name": "East Carolina Pirates",
+    "abbr": "ECU",
+    "score": 39,
+    "winner": null
+   },
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:25 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920137",
@@ -2212,7 +2208,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-20-2026--sports-ncaa-basketball/production/7710731?wsUser=717",
-    "low": 29.0,
+    "low": 24.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "ICCU Arena",
@@ -2223,7 +2219,7 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 4,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2231,13 +2227,13 @@
     "key": "csu-bakersfield",
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": 7,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:03 - 1st"
+   "detail": "6:45 - 1st"
   },
   {
    "game_id": "401917538",
@@ -10137,6 +10133,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:05:52+00:00"
+ ]
 }

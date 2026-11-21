@@ -27,9 +27,9 @@ Magnolia Dupree grew up in Murray, spent her teens walking hot horses on a Kentu
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**70 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Magnolia editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Magnolia editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Magnolia Dupree grew up in Murray, spent her teens walking hot horses on a Kentu
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Magnolia Dupree grew up in Murray, spent her teens walking hot horses on a Kentu
 - 2026-11-19: L 83-93 vs (neutral) NC State Wolfpack. Barometer 66 (buoyant). <!-- g:401918959 -->
 - 2026-11-20: Social recap posted (L 83-93 vs NC State Wolfpack): https://hardwoodbricks.com/mvc/games/401918959.html <!-- post:401918959:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401921692.html <!-- post:401921692:preview -->
+- 2026-11-21: W 70-53 vs (neutral) Wisconsin Badgers. Barometer 70 (buoyant). <!-- g:401921692 -->
+- 2026-11-21: Social recap posted (W 70-53 vs Wisconsin Badgers): https://hardwoodbricks.com/mvc/games/401921692.html <!-- post:401921692:recap -->

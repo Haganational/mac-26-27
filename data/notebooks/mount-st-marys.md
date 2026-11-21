@@ -27,9 +27,9 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 
 ## Barometer
 
-**33 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**28 of 100, despondent.** Record 1-4 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -77,3 +77,5 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 - 2026-11-18: L 65-99 vs Lehigh Mountain Hawks. Barometer 33 (testy). <!-- g:401920921 -->
 - 2026-11-18: Social recap posted (L 65-99 vs Lehigh Mountain Hawks): https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:preview -->
+- 2026-11-21: L 67-73 vs Western Michigan Broncos. Barometer 28 (despondent). <!-- g:401920922 -->
+- 2026-11-21: Social recap posted (L 67-73 vs Western Michigan Broncos): https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:recap -->

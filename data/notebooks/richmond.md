@@ -27,9 +27,9 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 
 ## Barometer
 
-**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
+**39 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 67% of stories right now.
 
 ## School and town
 

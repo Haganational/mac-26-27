@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:29:57+00:00",
+ "fetched_at": "2026-11-21T02:48:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2097,11 +2097,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-20-2026--sports-ncaa-basketball/production/7672802?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -2142,11 +2138,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-xfinity-center---md-11-20-2026--sports-ncaa-basketball/production/7382607?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "XFINITY Center",
    "venue_city": "College Park",
    "venue_state": "MD",
@@ -2189,7 +2181,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-20-2026--sports-ncaa-basketball/production/7349909?wsUser=717",
-    "low": 9.0,
+    "low": 12.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Mizzou Arena",
@@ -2200,7 +2192,7 @@
     "key": null,
     "name": "Missouri Tigers",
     "abbr": "MIZ",
-    "score": 64,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2208,13 +2200,13 @@
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": 38,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:49 - 2nd"
+   "detail": "1:49 - 2nd"
   },
   {
    "game_id": "401923312",
@@ -8403,6 +8395,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:21:24+00:00"
+ ]
 }

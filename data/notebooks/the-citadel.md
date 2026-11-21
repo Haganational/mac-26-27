@@ -67,7 +67,7 @@ Col. Avery Lang spent twenty-six years in the Army as a logistics officer and re
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Col. Avery Lang spent twenty-six years in the Army as a logistics officer and re
 - 2026-11-17: Social recap posted (L 51-87 vs Clemson Tigers): https://hardwoodbricks.com/socon/games/401918075.html <!-- post:401918075:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:preview -->
 - 2026-11-21: W 79-63 vs South Carolina State Bulldogs. Barometer 60 (steady). <!-- g:401925927 -->
+- 2026-11-21: Social recap posted (W 79-63 vs South Carolina State Bulldogs): https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:recap -->

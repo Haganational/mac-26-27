@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:28:12+00:00",
+ "fetched_at": "2026-11-21T02:46:10+00:00",
  "season": 2027,
  "games": [
   {
@@ -2259,7 +2259,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 31.0,
+    "low": 33.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "State Farm Center",
@@ -2270,7 +2270,7 @@
     "key": null,
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
-    "score": 13,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2278,13 +2278,13 @@
     "key": "eastern-illinois",
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": 9,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:11 - 1st"
+   "detail": "3:45 - 1st"
   },
   {
    "game_id": "401919828",
@@ -8312,6 +8312,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:19:12+00:00"
+ ]
 }

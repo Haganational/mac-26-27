@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:29:20+00:00",
+ "fetched_at": "2026-11-21T02:47:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2255,11 +2255,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/holy-cross-crusaders-mens-basketball-tickets-hart-center-11-20-2026--sports-ncaa-basketball/production/7584090?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Hart Center Arena",
    "venue_city": "Worcester",
    "venue_state": "MA",
@@ -2300,11 +2296,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-11-20-2026--sports-ncaa-basketball/production/7532395?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "John Paul Jones Arena",
    "venue_city": "Charlottesville",
    "venue_state": "VA",
@@ -2354,7 +2346,7 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": 44,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2362,13 +2354,13 @@
     "key": null,
     "name": "Neumann Knights",
     "abbr": "NEU",
-    "score": 23,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:32 - 2nd"
+   "detail": "3:20 - 2nd"
   },
   {
    "game_id": "401924884",
@@ -2438,7 +2430,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-21-2026--sports-ncaa-basketball/production/7710488?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -2528,7 +2520,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-21-2026--sports-ncaa-basketball/production/7328007?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "JMA Wireless Dome",
@@ -9320,6 +9312,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:20:37+00:00"
+ ]
 }

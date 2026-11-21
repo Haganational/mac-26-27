@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:25:57+00:00",
+ "fetched_at": "2026-11-21T02:43:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -2318,11 +2318,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/incarnate-word-cardinals-mens-basketball-tickets-mcdermott-convocation-center-11-20-2026--sports-ncaa-basketball/production/7818061?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "McDermott Center",
    "venue_city": "San Antonio",
    "venue_state": "TX",
@@ -2363,11 +2359,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-11-20-2026--sports-ncaa-basketball/production/7574472?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "VyStar Arena",
    "venue_city": "Kennesaw",
    "venue_state": "GA",
@@ -2417,7 +2409,7 @@
     "key": "northwestern-state",
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": 56,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2425,13 +2417,13 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 61,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:42 - 2nd"
+   "detail": "0:10 - 2nd"
   },
   {
    "game_id": "401917953",
@@ -2711,6 +2703,47 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921205",
+   "date": "2026-11-22T22:30Z",
+   "name": "Temple Owls at Stephen F. Austin Lumberjacks",
+   "short_name": "TEM VS SFA",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "2617",
+    "key": "stephen-f-austin",
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "218",
+    "key": null,
+    "name": "Temple Owls",
+    "abbr": "TEM",
     "score": null,
     "winner": null
    },
@@ -10069,6 +10102,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:16:22+00:00"
+ ]
 }

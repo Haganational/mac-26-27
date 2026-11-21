@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T23:25:17+00:00",
+ "fetched_at": "2026-11-21T02:42:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2390,7 +2390,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-20-2026--sports-ncaa-basketball/production/7710731?wsUser=717",
-    "low": 29.0,
+    "low": 24.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ICCU Arena",
@@ -2401,7 +2401,7 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 13,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2409,13 +2409,13 @@
     "key": null,
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": 9,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:23 - 1st"
+   "detail": "3:28 - 1st"
   },
   {
    "game_id": "401925890",
@@ -9729,6 +9729,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T02:15:32+00:00"
+ ]
 }
