@@ -58,7 +58,7 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -72,3 +72,4 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:preview -->
 - 2026-11-21: L 76-79 vs Bellarmine Knights. Barometer 59 (steady). <!-- g:401921107 -->
 - 2026-11-21: Social recap posted (L 76-79 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/uac/games/401929387.html <!-- post:401929387:preview -->
