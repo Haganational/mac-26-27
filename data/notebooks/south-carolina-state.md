@@ -27,9 +27,9 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 
 ## Barometer
 
-**46 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**36 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Janelle editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Janelle editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:preview -->
 - 2026-11-15: Social recap posted (L 66-90 vs Charleston Cougars): https://hardwoodbricks.com/caa/games/401925926.html <!-- post:401925926:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:preview -->
+- 2026-11-21: L 63-79 at The Citadel Bulldogs. Barometer 36 (testy). <!-- g:401925927 -->

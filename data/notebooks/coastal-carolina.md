@@ -27,9 +27,9 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**40 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jada editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jada editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 - 2026-11-16: L 81-89 at Wisconsin Badgers. Barometer 48 (steady). <!-- g:401920896 -->
 - 2026-11-16: Social recap posted (L 81-89 vs Wisconsin Badgers): https://hardwoodbricks.com/sunbelt/games/401920896.html <!-- post:401920896:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401906852.html <!-- post:401906852:preview -->
+- 2026-11-21: L 51-78 at Tennessee Volunteers. Barometer 40 (testy). <!-- g:401906852 -->
+- 2026-11-21: Social recap posted (L 51-78 vs Tennessee Volunteers): https://hardwoodbricks.com/sunbelt/games/401906852.html <!-- post:401906852:recap -->

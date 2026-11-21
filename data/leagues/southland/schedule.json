@@ -2376,21 +2376,21 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 86,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "2545",
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 55,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925080",
@@ -2417,7 +2417,7 @@
     "key": "northwestern-state",
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": 47,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2425,13 +2425,13 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 42,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:01 - 2nd"
+   "detail": "3:42 - 2nd"
   },
   {
    "game_id": "401917953",
@@ -10070,5 +10070,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:53:19+00:00"
+ "live_at": "2026-11-21T02:16:22+00:00"
 }

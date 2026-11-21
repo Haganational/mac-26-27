@@ -70,7 +70,7 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 - 2026-11-19: Social recap posted (L 63-74 vs Brown Bears): https://hardwoodbricks.com/ivy/games/401911309.html <!-- post:401911309:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:preview -->
 - 2026-11-21: L 65-77 vs Harvard Crimson. Barometer 15 (despondent). <!-- g:401920357 -->
+- 2026-11-21: Social recap posted (L 65-77 vs Harvard Crimson): https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:recap -->

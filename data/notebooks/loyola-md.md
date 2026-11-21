@@ -27,9 +27,9 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**27 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 - 2026-11-13: L 60-90 at Towson Tigers. Barometer 38 (testy). <!-- g:401920566 -->
 - 2026-11-14: L 61-63 vs (neutral) Morgan State Bears. Barometer 35 (testy). <!-- g:401920567 -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/patriot/games/401920427.html <!-- post:401920427:preview -->
+- 2026-11-21: L 61-103 at Virginia Cavaliers. Barometer 27 (despondent). <!-- g:401920427 -->

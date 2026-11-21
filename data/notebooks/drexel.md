@@ -27,9 +27,9 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five LWLW.
+**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Draco editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Draco editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,5 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 - 2026-11-12: L 64-66 vs American University Eagles. Barometer 42 (testy). <!-- g:401912209 -->
 - 2026-11-14: W 66-64 at Maine Black Bears. Barometer 50 (steady). <!-- g:401923303 -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:preview -->
+- 2026-11-21: W 75-64 vs Saint Joseph's Hawks. Barometer 58 (steady). <!-- g:401920195 -->
+- 2026-11-21: Social recap posted (W 75-64 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->

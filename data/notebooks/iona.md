@@ -27,9 +27,9 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 
 ## Barometer
 
-**30 of 100, testy.** Record 2-4 (0-0 in conference), streak L4, last five WLLLL.
+**44 of 100, testy.** Record 3-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vinnie editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vinnie editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -78,3 +78,5 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 - 2026-11-16: L 67-75 at UMBC Retrievers. Barometer 30 (testy). <!-- g:401921087 -->
 - 2026-11-17: Social recap posted (L 67-75 vs UMBC Retrievers): https://hardwoodbricks.com/metro/games/401921087.html <!-- post:401921087:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:preview -->
+- 2026-11-21: W 62-61 vs Kansas City Roos. Barometer 44 (testy). <!-- g:401921007 -->
+- 2026-11-21: Social recap posted (W 62-61 vs Kansas City Roos): https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:recap -->

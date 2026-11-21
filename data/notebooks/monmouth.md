@@ -27,9 +27,9 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 
 ## Barometer
 
-**38 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jersey editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jersey editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,5 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 - 2026-11-18: L 76-81 at Wake Forest Demon Deacons. Barometer 38 (testy). <!-- g:401909729 -->
 - 2026-11-18: Social recap posted (L 76-81 vs Wake Forest Demon Deacons): https://hardwoodbricks.com/caa/games/401909729.html <!-- post:401909729:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:preview -->
+- 2026-11-21: L 64-75 at Princeton Tigers. Barometer 34 (testy). <!-- g:401924736 -->
+- 2026-11-21: Social recap posted (L 64-75 vs Princeton Tigers): https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:recap -->

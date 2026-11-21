@@ -27,9 +27,9 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 
 ## Barometer
 
-**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
+**51 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -77,3 +77,5 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 - 2026-11-18: L 63-68 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401926781 -->
 - 2026-11-18: Social recap posted (L 63-68 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401926781.html <!-- post:401926781:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:preview -->
+- 2026-11-21: W 82-77 vs Georgia State Panthers. Barometer 51 (steady). <!-- g:401926782 -->
+- 2026-11-21: Social recap posted (W 82-77 vs Georgia State Panthers): https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:recap -->

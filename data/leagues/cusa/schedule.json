@@ -2075,21 +2075,21 @@
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 72,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2247",
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 71,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920818",
@@ -2120,21 +2120,21 @@
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 86,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "2545",
     "key": null,
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 55,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927396",
@@ -2162,7 +2162,7 @@
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
     "score": 68,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "257",
@@ -2170,12 +2170,12 @@
     "name": "Richmond Spiders",
     "abbr": "RICH",
     "score": 82,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928795",
@@ -2206,7 +2206,7 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2214,13 +2214,13 @@
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:08 - 1st"
   },
   {
    "game_id": "401927365",
@@ -9001,5 +9001,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:51:14+00:00"
+ "live_at": "2026-11-21T02:13:56+00:00"
 }

@@ -16,9 +16,9 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -70,3 +70,4 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-17: W 65-49 at Kent State Golden Flashes. Barometer 69 (buoyant). <!-- g:401928841 -->
 - 2026-11-17: Social recap posted (W 65-49 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401928841.html <!-- post:401928841:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:preview -->
+- 2026-11-21: L 76-79 vs Bellarmine Knights. Barometer 59 (steady). <!-- g:401921107 -->

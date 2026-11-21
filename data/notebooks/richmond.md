@@ -27,9 +27,9 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,5 @@ Savannah Beaumont grew up in Richmond's Fan District, the daughter of a jazz tru
 - 2026-11-17: L 68-85 at Virginia Tech Hokies. Barometer 50 (steady). <!-- g:401911240 -->
 - 2026-11-17: Social recap posted (L 68-85 vs Virginia Tech Hokies): https://hardwoodbricks.com/a10/games/401911240.html <!-- post:401911240:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401927396.html <!-- post:401927396:preview -->
+- 2026-11-21: W 82-68 vs (neutral) Western Kentucky Hilltoppers. Barometer 57 (steady). <!-- g:401927396 -->
+- 2026-11-21: Social recap posted (W 82-68 vs Western Kentucky Hilltoppers): https://hardwoodbricks.com/a10/games/401927396.html <!-- post:401927396:recap -->

@@ -2428,21 +2428,21 @@
     "key": "the-citadel",
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": 64,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2569",
     "key": null,
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
-    "score": 51,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:01 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922284",
@@ -9932,5 +9932,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:51:51+00:00"
+ "live_at": "2026-11-21T02:14:40+00:00"
 }

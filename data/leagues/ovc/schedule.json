@@ -2270,7 +2270,7 @@
     "key": null,
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2278,13 +2278,13 @@
     "key": "eastern-illinois",
     "name": "Eastern Illinois Panthers",
     "abbr": "EIU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:11 - 1st"
   },
   {
    "game_id": "401919828",
@@ -8313,5 +8313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:58:15+00:00"
+ "live_at": "2026-11-21T02:19:12+00:00"
 }

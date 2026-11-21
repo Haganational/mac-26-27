@@ -27,9 +27,9 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 
 ## Barometer
 
-**83 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**61 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 - 2026-11-18: W 84-65 vs Wagner Seahawks. Barometer 83 (giddy). <!-- g:401920194 -->
 - 2026-11-18: Social recap posted (W 84-65 vs Wagner Seahawks): https://hardwoodbricks.com/a10/games/401920194.html <!-- post:401920194:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:preview -->
+- 2026-11-21: L 64-75 at Drexel Dragons. Barometer 61 (steady). <!-- g:401920195 -->
+- 2026-11-21: Social recap posted (L 64-75 vs Drexel Dragons): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->
