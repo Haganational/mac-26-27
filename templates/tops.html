@@ -85,7 +85,7 @@
 </style>
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "tops.html") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "tops.html") }}
 <div class="bricks" aria-hidden="true"></div>
 <main class="tb">
   <div class="dateline"><span>{{ today_label }}</span><a class="tag jb-link" href="https://juiceboxnation.com/">A JuiceBox Nation property, on the bricks</a><span>{{ season }}</span></div>
@@ -161,6 +161,6 @@
   {% endif %}
 
 </main>
-<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="watch.html">Watch</a> · <a href="https://juiceboxnation.com/">JuiceBox Nation</a> · <a href="masthead.html">Masthead and standards</a> · 21+ · 1-800-GAMBLER · Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}<a href="https://juiceboxnation.com/">JuiceBox Nation</a> · 21+ · 1-800-GAMBLER · Built {{ built }} UTC.{% endcall %}
 </body>
 </html>

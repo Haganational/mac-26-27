@@ -79,7 +79,7 @@
 </style>
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "watch.html") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "watch.html") }}
 <div class="bricks" aria-hidden="true"></div>
 <main class="wt">
   <div class="dateline"><span>{{ today }}</span><span class="tag">The Hardwood Bricks desk</span><span>{{ season }}</span></div>
@@ -125,17 +125,17 @@
   <section aria-labelledby="h-desk">
     <h2 id="h-desk">The desk</h2>
     <p>Each school has its own anchor, who reads that school's games and tells its stories.</p>
-    {% for c in desk %}<div class="conf">
+    <div id="desk" data-pick="Conference" data-pick-start="MAC">{% for c in desk %}<div class="conf" data-pick-name="{{ c.short }}">
       <h3><b>{{ c.short }}</b> · {{ c.anchors|length }} anchors</h3>
       <div class="grid">{% for a in c.anchors %}<a class="an" href="{{ a.href }}" style="--c:{{ a.color }}">
         <span class="face" style="--ink-on:{{ a.ink }}">{% if a.portrait %}<img src="{{ a.portrait }}" alt="{{ a.alt }}" loading="lazy">{% else %}{{ a.initials }}{% endif %}</span>
         <b>{{ a.name }}</b><small>{{ a.school }}</small>
       </a>{% endfor %}</div>
-    </div>{% endfor %}
+    </div>{% endfor %}</div>
     <p class="note">{{ disclosure }}</p>
   </section>
 </main>
-<footer><a href="./">All conferences</a> · <a href="den.html">The Den</a> · <a href="masthead.html">Masthead and standards</a> · <a href="privacy.html">Privacy</a> · Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}Built {{ built }} UTC.{% endcall %}
 <script>
 document.addEventListener('click', function (e) {
   var b = e.target.closest('[data-list]');

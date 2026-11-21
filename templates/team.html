@@ -149,7 +149,7 @@
   <section id="news">
     <div class="row" style="justify-content:space-between;margin-bottom:4px"><h2 style="margin:0">Latest headlines</h2><a class="btnlink" href="../news.html#{{ team.key }}">All {{ LG }} news →</a></div>
     {% if team_news.headlines %}
-    <ul class="newslist">
+    <ul class="newslist" data-fold="8" data-fold-label="headlines">
       {% for i in team_news.headlines %}<li{% if i.mine %} class="mine k-{{ i.kind }}"{% endif %}><span class="age{{ ' fresh' if i.fresh }}">{{ i.age }}</span> {% if i.mine %}{{ L.kind_icon(i.kind, 15) }} <a href="{{ i.url }}">{{ i.title }}</a>{% else %}<a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a>{% endif %} <span class="dim">{{ i.source }}</span></li>{% endfor %}
     </ul>
     {% else %}<p class="dim">No headlines collected yet. The feed refreshes with each data run.</p>{% endif %}
@@ -157,7 +157,7 @@
   </section>
 
   {% if ctx.previews %}
-  <section>
+  <section data-fold="3" data-fold-items="div.preview" data-fold-label="previews">
     <h2>Preseason previews</h2>
     {% for pv in ctx.previews %}
     <div class="preview">
@@ -168,7 +168,7 @@
   </section>
   {% endif %}
 
-  <section>
+  <section data-fold="8" data-fold-items="article.player" data-fold-label="players">
     <h2>Players</h2>
     {% for p in profiles %}
     <article class="player" id="p{{ p.espn_id }}">

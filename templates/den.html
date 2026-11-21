@@ -223,7 +223,7 @@
 </style>
 </head>
 <body>
-{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "den.html") }}
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "den.html") }}
 <section class="denband" aria-labelledby="h-den"><div class="in">
   <span class="kick">Free games · no money · no sign-up</span>
   <h1 id="h-den">The Den<i>.</i></h1>
@@ -231,7 +231,7 @@
 </div></section>
 <div class="bricks" aria-hidden="true"></div>
 
-<main class="den" id="main">
+<main class="den" id="main" data-nojump>
   <div class="dateline"><span id="dn-day">Tonight</span><span class="tag" id="dn-tag">Four games, one night of hoops</span><span>{{ season }}</span></div>
   <nav class="days-nav" aria-label="Other nights"><a id="dn-prev" href="den.html" aria-disabled="true">‹ Earlier</a><a id="dn-next" href="den.html" aria-disabled="true">Later ›</a></nav>
 
@@ -359,7 +359,7 @@
     </ul>
   </section>
 </main>
-<footer><a href="./">All conferences</a> · <a href="masthead.html">Masthead and standards</a> · <a href="at-large.html">At-Large Watch</a> · <a href="privacy.html">Privacy</a> · Stats from ESPN. Built {{ built }} UTC.</footer>
+{% call hub_foot(eds) %}Stats from ESPN. Built {{ built }} UTC.{% endcall %}
 
 <script type="application/json" id="den-cfg">{{ cfg_json|safe }}</script>
 <script type="module">import("./static/den.js").then(function (m) { window.Den = m; }, function () {}).then(function () { window.denStart && window.denStart(); });</script>
