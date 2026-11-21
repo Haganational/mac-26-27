@@ -69,7 +69,7 @@ Curtis Delchamps grew up on Mobile Bay's Eastern Shore and spent fifteen years r
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Curtis Delchamps grew up on Mobile Bay's Eastern Shore and spent fifteen years r
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929459.html <!-- post:401929459:preview -->
 - 2026-11-21: L 55-101 at SMU Mustangs. Barometer 46 (steady). <!-- g:401929459 -->
 - 2026-11-21: Social recap posted (L 55-101 vs SMU Mustangs): https://hardwoodbricks.com/sunbelt/games/401929459.html <!-- post:401929459:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/asun/games/401922252.html <!-- post:401922252:preview -->
