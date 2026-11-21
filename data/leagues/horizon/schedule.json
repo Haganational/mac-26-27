@@ -2798,7 +2798,7 @@
     "key": null,
     "name": "Michigan State Spartans",
     "abbr": "MSU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2806,13 +2806,13 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:08 - 1st"
   },
   {
    "game_id": "401921169",
@@ -10586,5 +10586,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T17:02:55+00:00"
 }
