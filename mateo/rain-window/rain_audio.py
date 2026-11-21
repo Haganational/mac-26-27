@@ -10,6 +10,7 @@ from scipy.signal import butter, sosfilt, sosfilt_zi, oaconvolve
 SR = 48000
 DUR = int(sys.argv[1]) if len(sys.argv) > 1 else 3600
 CH = 60
+FADE_IN = float(sys.argv[2]) if len(sys.argv) > 2 else 20.0
 rng = np.random.default_rng(2026_11_20)
 
 
@@ -87,7 +88,7 @@ for c0 in range(0, DUR, CH):
     y = mix[:, :n]
     for i in range(2):
         y[i] = master(y[i], i)
-    y *= np.clip(t / 20, 0, 1) * np.clip((DUR - t) / 60, 0, 1) * 0.35
+    y *= np.clip(t / FADE_IN, 0, 1) * np.clip((DUR - t) / 60, 0, 1) * 0.35
     y = np.tanh(y * 1.1) / 1.1
     out.write((np.clip(y.T, -1, 1) * 32000).astype("<i2").tobytes())
     print(f"rain {c0 + CH}s", file=sys.stderr, flush=True)
