@@ -215,3 +215,18 @@ def test_a_contributor_short_link_opens_their_desk(tmp_path):
     made = hub.desk_links(tmp_path, [{"name": "Pat Writer", "desk_link": "pat", "edition": "metro"}, {"name": "No Link"}])
     page = (tmp_path / "pat" / "index.html").read_text()
     assert made == ["pat"] and 'url=/metro/desk.html?by=Pat%20Writer' in page and "noindex" in page
+
+
+def test_front_pin_takes_newest_live_pin(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+    from mac import hub, notes
+    monkeypatch.setattr(notes, "NOTES_DIR", tmp_path)
+    (tmp_path / "2026-11-21-0900.md").write_text("---\nkind: arena\ntitle: Old pin\ndate: 2026-11-21\npin: 24\n---\nOlder words.\n")
+    (tmp_path / "2026-11-21-1100.md").write_text("---\nkind: arena\ntitle: The bus to Wolstein\ndate: 2026-11-21\nformat: article\npin: 12\n---\nWe rode the 55.\n")
+    (tmp_path / "2026-11-20-1100.md").write_text("---\nkind: arena\ntitle: Expired\ndate: 2026-11-20\npin: 12\n---\nGone.\n")
+    now = datetime(2026, 11, 21, 18, 0, tzinfo=timezone.utc)
+    pin = hub.front_pin(tmp_path, now)
+    assert pin["title"] == "The bus to Wolstein" and pin["article"] and pin["href"].endswith("articles/2026-11-21-1100.html")
+    later = datetime(2026, 11, 22, 5, 0, tzinfo=timezone.utc)  # the article's 12 hours are up; the 24-hour pin still holds
+    assert hub.front_pin(tmp_path, later)["title"] == "Old pin"
+    assert hub.front_pin(tmp_path, datetime(2026, 11, 23, tzinfo=timezone.utc)) is None

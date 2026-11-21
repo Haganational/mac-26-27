@@ -124,3 +124,13 @@ def test_a_dispatch_about_any_page_of_the_site():
     assert notes.ref_of("/metro/power.html%23w3 | Power") == {"url": "/metro/power.html#w3", "title": "Power"}
     assert notes.ref_of("https://evil.example/x | nope") is None and notes.ref_of("//evil.example | nope") is None
     assert notes.ref_of("javascript:alert(1)") is None
+
+
+def test_pin_until_absolute_and_relative():
+    from datetime import datetime
+    from mac import notes
+    assert notes.pin_until({"pin_until": "2026-11-22T16:20Z"}, "2026-11-21-1120") == "2026-11-22T16:20:00+00:00"
+    # pin: 12 counts from the dispatch's own time (11:20 AM ET on Nov 21 = 16:20 UTC)
+    assert notes.pin_until({"pin": "12", "date": "2026-11-21"}, "2026-11-21-1120") == "2026-11-22T04:20:00+00:00"
+    assert notes.pin_until({"pin": "500"}, "2026-11-21-1120") is None
+    assert notes.pin_until({}, "2026-11-21-1120") is None and notes.pin_until({"pin_until": "soon"}, "x") is None

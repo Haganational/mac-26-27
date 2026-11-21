@@ -25,6 +25,7 @@
   .aboutref .btn { padding: 2px 8px; margin-left: auto; }
   label.artchk { display: flex; gap: 8px; align-items: flex-start; text-transform: none; letter-spacing: 0; font-size: 14px; color: var(--ink); margin-top: 10px; cursor: pointer; }
   label.artchk input { width: auto; margin-top: 3px; }
+  label.pinchk { align-items: center; justify-content: space-between; } label.pinchk select { width: auto; flex: none; }
   .teamchk { display: flex; flex-wrap: wrap; gap: 6px; }
   .teamchk label { margin: 0; display: inline-flex; gap: 5px; align-items: center; padding: 4px 9px; border: 1px solid var(--border); border-radius: 8px; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--ink); cursor: pointer; }
   .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; align-items: center; }
@@ -110,6 +111,8 @@
       <label for="title">Headline</label>
       <input type="text" id="title" placeholder="Optional">
       <label class="artchk"><input type="checkbox" id="article"> <span><b>Original article</b>: gets its own page, with a teaser on Fieldhouse Notes. Give it a headline.</span></label>
+      <label class="artchk pinchk author-pin" for="pin"><span><b>Above the fold</b>: lead the front page in place of the lead game card, counted from when you save.</span>
+        <select id="pin"><option value="">Off</option><option value="12">12 hours</option><option value="24">24 hours</option></select></label>
       <div class="bodyhead"><label for="body">Dispatch</label><button class="btn" id="dictate" type="button" aria-pressed="false" hidden>🎙 Dictate</button></div>
       <textarea id="body" placeholder="Blank line between paragraphs. A contributor's emailed dispatch can be pasted here whole and it fills the form. **bold**, *italic*, [link](https://…), - lists, > quotes."></textarea>
       <div class="hint" id="heard" aria-live="polite"></div>
@@ -219,7 +222,7 @@
     const g = lookup($('#game').value, gameByLabel), p = lookup($('#player').value, playerByLabel);
     hint('#gamehint', $('#game').value, g, 'game'); hint('#playerhint', $('#player').value, p, 'player');
     return { kind: ($('input[name=kind]:checked') || {}).value || 'arena', game: g ? g.id : '', teams: $$('input[name=team]:checked').map(i => i.value),
-             player: p ? p.id : '', playerName: p ? p.name : '', article: $('#article').checked, author: $('#author').value.trim(), title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
+             player: p ? p.id : '', playerName: p ? p.name : '', article: $('#article').checked, pin: $('#pin').value, author: $('#author').value.trim(), title: $('#title').value.trim(), date: $('#date').value || today(), body: $('#body').value };
   }
   function toFile(f) {
     const L = ['---', 'kind: ' + f.kind];
@@ -233,6 +236,8 @@
     if (about.video) L.push('video: ' + about.video.id + (about.video.title ? ' | ' + about.video.title.replace(/[\n#]/g, ' ') : ''));
     if (about.ref) L.push('ref: ' + about.ref.url.replace(/#/g, '%23') + (about.ref.title ? ' | ' + about.ref.title.replace(/[\n#|]/g, ' ') : ''));
     if (f.article) L.push('format: article');
+    // Above the fold: 12 or 24 hours from this save; "keep:<time>" re-saves an existing pin unchanged.
+    if (f.pin) L.push('pin_until: ' + (f.pin.startsWith('keep:') ? f.pin.slice(5) : new Date(Date.now() + (+f.pin) * 3600e3).toISOString().slice(0, 16) + 'Z'));
     photos.forEach(ph => L.push('photo: ' + ph.name + (ph.caption ? ' | ' + ph.caption.replace(/[\n#]/g, ' ') : '')));
     L.push('date: ' + f.date, '---', '', f.body.trim(), '');
     return L.join('\n');
@@ -264,6 +269,10 @@
     setAbout(meta.about === 'conference', vm[0].trim() ? { id: vm[0].trim(), title: vm.slice(1).join('|').trim() } : null,
              rm[0].trim() ? { url: rm[0].trim().replace(/%23/g, '#'), title: rm.slice(1).join('|').trim() } : null);
     $('#article').checked = (meta.format || '').toLowerCase() === 'article';
+    { const sel = $('#pin'); sel.querySelectorAll('option.keep').forEach(o => o.remove()); sel.value = '';
+      const until = meta.pin_until ? new Date(meta.pin_until) : null;
+      if (until && until > new Date()) { const o = document.createElement('option'); o.className = 'keep'; o.value = 'keep:' + meta.pin_until;
+        o.textContent = 'Pinned until ' + until.toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' }); sel.append(o); sel.value = o.value; } }
     $('#author').value = meta.author || ''; $('#title').value = meta.title || ''; $('#date').value = (meta.date || today()).slice(0, 10); $('#body').value = body;
     render();
   }
@@ -283,7 +292,7 @@
   }
   function reset() {
     editing = null; $('#formtitle').textContent = CONTRIB ? 'New dispatch from ' + CONTRIB : 'New dispatch'; $('#save').textContent = 'Save draft';
-    $('#author').value = CONTRIB || ''; $('#article').checked = false; setAbout(false, null);
+    $('#author').value = CONTRIB || ''; $('#article').checked = false; $('#pin').value = ''; setAbout(false, null);
     $$('input[name=kind]').forEach(i => i.checked = i.value === 'arena'); $('#game').value = ''; $$('input[name=team]').forEach(i => i.checked = false);
     $('#player').value = ''; $('#title').value = ''; $('#date').value = today(); $('#body').value = ''; photos.forEach(ph => ph.blob && kept.drop(ph.name)); photos = []; drawPhotos(); drawChips(); render();
   }
@@ -607,6 +616,8 @@
   $('#confpick').addEventListener('change', (e) => { render(); location.href = e.target.value + (CONTRIB ? '?by=' + encodeURIComponent(CONTRIB) : ''); });
   $('#aboutclear').onclick = () => { setAbout(false, null); render(); };
   $('#article').addEventListener('change', render);
+  $('#pin').addEventListener('change', render);
+  if (CONTRIB) $('#pin').closest('label').hidden = true;  // pinning the front page stays the editor's call
   if (!q.toString() || (CONTRIB && [...q.keys()].join() === 'by')) { try { const s = JSON.parse(keptDraft || 'null'), f = s && s.text && parseFile(s.text); if (f && (f.body || f.meta.photos.length)) { fill(s.text); restorePhotos(); } } catch (e) {} }
   $('#more').open = (!CONTRIB && window.innerWidth >= 700) || !!($$('input[name=team]:checked').length || $('#player').value || (!CONTRIB && $('#author').value));
   drawChips(); render();
