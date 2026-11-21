@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:46:10+00:00",
+ "fetched_at": "2026-11-21T18:18:48+00:00",
  "season": 2027,
  "games": [
   {
@@ -2257,11 +2257,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-20-2026--sports-ncaa-basketball/production/7466201?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:19:12Z"
-   },
+   "tickets": null,
    "venue": "State Farm Center",
    "venue_city": "Champaign",
    "venue_state": "IL",
@@ -2454,6 +2450,47 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921206",
+   "date": "2026-11-23T01:00Z",
+   "name": "UT Martin Skyhawks at Utah Valley Wolverines",
+   "short_name": "UTM VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": null,
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2630",
+    "key": "ut-martin",
+    "name": "UT Martin Skyhawks",
+    "abbr": "UTM",
     "score": null,
     "winner": null
    },
@@ -8312,6 +8349,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T04:06:20+00:00"
+ ]
 }

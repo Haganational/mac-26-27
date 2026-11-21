@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:35:21+00:00",
+ "fetched_at": "2026-11-21T18:09:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2208,11 +2208,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-20-2026--sports-ncaa-basketball/production/7686817?wsUser=717",
-    "low": 88.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "University Credit Union Pavilion",
    "venue_city": "Moraga",
    "venue_state": "CA",
@@ -2277,10 +2273,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:55 - 1st"
   },
   {
    "game_id": "401911199",
@@ -2300,7 +2296,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2345,7 +2341,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2390,7 +2386,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2615,7 +2611,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-22-2026--sports-ncaa-basketball/production/7686819?wsUser=717",
-    "low": 27.0,
+    "low": 25.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -3020,7 +3016,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-11-25-2026--sports-ncaa-basketball/production/7519430?wsUser=717",
-    "low": 6.0,
+    "low": 8.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -3100,7 +3096,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 50.0,
+    "low": 52.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -4427,7 +4423,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-toreros-mens-basketball-tickets-jenny-craig-pavilion-12-8-2026--sports-ncaa-basketball/production/7647887?wsUser=717",
-    "low": 59.0,
+    "low": 54.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -4636,7 +4632,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-9-2026--sports-ncaa-basketball/production/7686823?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -9674,6 +9670,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T06:18:20+00:00"
+ ]
 }

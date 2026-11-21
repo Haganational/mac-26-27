@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:47:49+00:00",
+ "fetched_at": "2026-11-21T18:20:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -2391,7 +2391,7 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 66,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2399,13 +2399,13 @@
     "key": null,
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 74,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:56 - 2nd"
+   "detail": "0:20 - 2nd"
   },
   {
    "game_id": "401923402",
@@ -2441,7 +2441,7 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 20,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2449,13 +2449,13 @@
     "key": null,
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 30,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:57 - 2nd"
   },
   {
    "game_id": "401920773",
@@ -2928,7 +2928,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Newman Arena",
@@ -2973,7 +2973,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Leede Arena",
@@ -4502,7 +4502,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-12-6-2026--sports-ncaa-basketball/production/7383946?wsUser=717",
-    "low": 32.0,
+    "low": 28.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Clune Arena",
@@ -9312,6 +9312,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T17:51:07+00:00"
+ ]
 }

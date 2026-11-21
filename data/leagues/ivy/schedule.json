@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:38:34+00:00",
+ "fetched_at": "2026-11-21T18:12:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -1962,7 +1962,7 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 18,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -1970,13 +1970,13 @@
     "key": "columbia",
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 30,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:31 - 1st"
+   "detail": "13:36 - 2nd"
   },
   {
    "game_id": "401924722",
@@ -2076,7 +2076,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-11-21-2026--sports-ncaa-basketball/production/7626607?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Patrick Gymnasium",
@@ -2253,7 +2253,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Newman Arena",
@@ -2514,7 +2514,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Leede Arena",
@@ -2604,7 +2604,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 21.0,
+    "low": 19.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "The Palestra",
@@ -2864,7 +2864,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-28-2026--sports-ncaa-basketball/production/7631911?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Newman Arena",
@@ -3089,7 +3089,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-12-1-2026--sports-ncaa-basketball/production/7546515?wsUser=717",
-    "low": 23.0,
+    "low": 21.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "The Palestra",
@@ -4475,7 +4475,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -5565,7 +5565,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-1-18-2027--sports-ncaa-basketball/production/7616998?wsUser=717",
-    "low": 38.0,
+    "low": 37.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -7253,6 +7253,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T17:42:27+00:00"
+ ]
 }

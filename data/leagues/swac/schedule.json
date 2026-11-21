@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:50:13+00:00",
+ "fetched_at": "2026-11-21T18:22:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -2770,11 +2770,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-11-20-2026--sports-ncaa-basketball/production/7631484?wsUser=717",
-    "low": 44.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
+   "tickets": null,
    "venue": "Save Mart Center",
    "venue_city": "Fresno",
    "venue_state": "CA",
@@ -3167,7 +3163,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-11-25-2026--sports-ncaa-basketball/production/7914569?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:22:15Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -3470,7 +3470,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-27-2026--sports-ncaa-basketball/production/7349921?wsUser=717",
-    "low": 9.0,
+    "low": 11.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Mizzou Arena",
@@ -3691,7 +3691,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-11-29-2026--sports-ncaa-basketball/production/7892473?wsUser=717",
-    "low": 33.0,
+    "low": 18.0,
     "since": "2026-11-19T12:20:41Z"
    },
    "venue": "Reed Green Coliseum",
@@ -3857,7 +3857,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-1-2026--sports-ncaa-basketball/production/7745860?wsUser=717",
-    "low": 32.0,
+    "low": 29.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "McKenzie Arena",
@@ -4633,7 +4633,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-12-8-2026--sports-ncaa-basketball/production/7532399?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "John Paul Jones Arena",
@@ -4678,7 +4678,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-longhorns-mens-basketball-tickets-moody-center-atx-12-8-2026--sports-ncaa-basketball/production/7383703?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Moody Center",
@@ -6343,7 +6343,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-12-22-2026--sports-ncaa-basketball/production/7538363?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Lenovo Center",
@@ -6478,7 +6478,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-12-22-2026--sports-ncaa-basketball/production/7534733?wsUser=717",
-    "low": 13.0,
+    "low": 10.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Schottenstein Center",
@@ -10903,6 +10903,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T05:24:01+00:00"
+ ]
 }

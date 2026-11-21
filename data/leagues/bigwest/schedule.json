@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:31:23+00:00",
+ "fetched_at": "2026-11-21T18:06:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -2206,11 +2206,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-20-2026--sports-ncaa-basketball/production/7710731?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "ICCU Arena",
    "venue_city": "Moscow",
    "venue_state": "ID",
@@ -2253,7 +2249,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2298,7 +2294,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2493,6 +2489,47 @@
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921206",
+   "date": "2026-11-23T01:00Z",
+   "name": "UT Martin Skyhawks at Utah Valley Wolverines",
+   "short_name": "UTM VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": "utah-valley",
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2630",
+    "key": null,
+    "name": "UT Martin Skyhawks",
+    "abbr": "UTM",
     "score": null,
     "winner": null
    },
@@ -10133,6 +10170,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T04:13:34+00:00"
+ ]
 }

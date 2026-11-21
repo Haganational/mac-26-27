@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:49:29+00:00",
+ "fetched_at": "2026-11-21T18:21:37+00:00",
  "season": 2027,
  "games": [
   {
@@ -1913,11 +1913,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-11-20-2026--sports-ncaa-basketball/production/7905541?wsUser=717",
-    "low": 50.0,
-    "since": "2026-11-20T12:18:38Z"
-   },
+   "tickets": null,
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -2040,7 +2036,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-mcdonough-arena-11-21-2026--sports-ncaa-basketball/production/7457825?wsUser=717",
-    "low": 128.0,
+    "low": 334.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "McDonough Arena",
@@ -2325,7 +2321,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-24-2026--sports-ncaa-basketball/production/7745856?wsUser=717",
-    "low": 29.0,
+    "low": 26.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "McKenzie Arena",
@@ -4876,7 +4872,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/drexel-dragons-mens-basketball-tickets-daskalakis-athletic-center-12-22-2026--sports-ncaa-basketball/production/7668559?wsUser=717",
-    "low": 39.0,
+    "low": 38.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Daskalakis Athletic Center",
@@ -6134,7 +6130,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-1-23-2027--sports-ncaa-basketball/production/7916995?wsUser=717",
+    "low": 61.0,
+    "since": "2026-11-21T18:21:37Z"
+   },
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -6553,7 +6553,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-central-eagles-mens-basketball-tickets-mcdougald-mclendon-gymnasium-2-6-2027--sports-ncaa-basketball/production/7905533?wsUser=717",
-    "low": 35.0,
+    "low": 32.0,
     "since": "2026-11-20T12:18:38Z"
    },
    "venue": "McDougald-McLendon Arena",
@@ -7570,6 +7570,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:12:13+00:00"
+ ]
 }

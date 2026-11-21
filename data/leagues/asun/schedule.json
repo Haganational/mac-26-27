@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:27:35+00:00",
+ "fetched_at": "2026-11-21T18:03:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -1969,10 +1969,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:11 - 1st"
   },
   {
    "game_id": "401922222",
@@ -2159,7 +2159,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679884?wsUser=717",
     "low": 65.0,
@@ -2336,7 +2342,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -2426,7 +2432,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 29.0,
+    "low": 24.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -2642,7 +2648,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-11-27-2026--sports-ncaa-basketball/production/7119705?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Hinkle Fieldhouse",
@@ -8254,6 +8260,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:40:48+00:00"
+ ]
 }

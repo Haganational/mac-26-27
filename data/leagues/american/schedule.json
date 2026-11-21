@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:36:13+00:00",
+ "fetched_at": "2026-11-21T18:10:20+00:00",
  "season": 2027,
  "games": [
   {
@@ -2601,11 +2601,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-mississippi-coliseum-11-20-2026--sports-ncaa-basketball/production/7718106?wsUser=717",
-    "low": 42.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Mississippi Coliseum",
    "venue_city": "Jackson",
    "venue_state": "MS",
@@ -2689,7 +2685,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 37.0,
+    "low": 42.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -2807,6 +2803,47 @@
    "detail": ""
   },
   {
+   "game_id": "401920570",
+   "date": "2026-11-21T22:30Z",
+   "name": "Southern Illinois Salukis at East Carolina Pirates",
+   "short_name": "SIU VS ECU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "151",
+    "key": "east-carolina",
+    "name": "East Carolina Pirates",
+    "abbr": "ECU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "79",
+    "key": null,
+    "name": "Southern Illinois Salukis",
+    "abbr": "SIU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401918988",
    "date": "2026-11-22T19:00Z",
    "name": "Evansville Purple Aces at Memphis Tigers",
@@ -2824,7 +2861,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 20.0,
+    "low": 25.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "FedExForum",
@@ -2977,7 +3014,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679884?wsUser=717",
     "low": 65.0,
@@ -3016,7 +3059,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
     "low": 37.0,
@@ -3666,7 +3715,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 31.0,
+    "low": 27.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -4558,7 +4607,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-2-2026--sports-ncaa-basketball/production/7892479?wsUser=717",
-    "low": 33.0,
+    "low": 18.0,
     "since": "2026-11-19T12:08:59Z"
    },
    "venue": "Reed Green Coliseum",
@@ -5086,7 +5135,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-6-2026--sports-ncaa-basketball/production/7915088?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:10:20Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -7353,7 +7406,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -10098,7 +10151,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-2-2026--sports-ncaa-basketball/production/7613224?wsUser=717",
-    "low": 60.0,
+    "low": 68.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -12153,6 +12206,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:45:34+00:00"
+ ]
 }

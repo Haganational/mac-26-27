@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:30:14+00:00",
+ "fetched_at": "2026-11-21T18:05:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2903,11 +2903,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-11-20-2026--sports-ncaa-basketball/production/7905541?wsUser=717",
-    "low": 50.0,
-    "since": "2026-11-20T12:04:23Z"
-   },
+   "tickets": null,
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -2961,7 +2957,7 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 55,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2969,13 +2965,13 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 62,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:28 - 2nd"
+   "detail": "1:39 - 2nd"
   },
   {
    "game_id": "401921222",
@@ -3306,7 +3302,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-11-24-2026--sports-ncaa-basketball/production/7463031?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Jersey Mike\u2019s Arena",
@@ -11380,6 +11376,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T17:34:38+00:00"
+ ]
 }

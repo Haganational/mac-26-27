@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:45:29+00:00",
+ "fetched_at": "2026-11-21T18:18:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -1974,11 +1974,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unc-greensboro-spartans-mens-basketball-tickets-bodford-arena-11-21-2026--sports-ncaa-basketball/production/7568744?wsUser=717",
-    "low": 46.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Bodford Arena",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -1987,8 +1983,8 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": 83,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2908",
@@ -1996,12 +1992,12 @@
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
     "score": 66,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922048",
@@ -4447,7 +4443,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-12-12-2026--sports-ncaa-basketball/production/7382796?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -5110,7 +5106,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-18-2026--sports-ncaa-basketball/production/7349945?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Pete Maravich Assembly Center",
@@ -8879,6 +8875,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T17:48:58+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:40:23+00:00",
+ "fetched_at": "2026-11-21T18:13:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2185,11 +2185,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
    "venue_state": "ID",
@@ -2687,7 +2683,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 10.0,
+    "low": 16.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -3977,7 +3973,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-6-2026--sports-ncaa-basketball/production/7915088?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:13:51Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -4100,7 +4100,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-9-2026--sports-ncaa-basketball/production/7686823?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -9033,6 +9033,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T04:37:47+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:37:18+00:00",
+ "fetched_at": "2026-11-21T18:11:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -3274,11 +3274,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/smu-mustangs-mens-basketball-tickets-moody-coliseum-11-20-2026--sports-ncaa-basketball/production/7662324?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Moody Coliseum (Dallas)",
    "venue_city": "Dallas",
    "venue_state": "TX",
@@ -3319,11 +3315,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-20-2026--sports-ncaa-basketball/production/7153195?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Dean E. Smith Center",
    "venue_city": "Chapel Hill",
    "venue_state": "NC",
@@ -3366,7 +3358,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-21-2026--sports-ncaa-basketball/production/7403497?wsUser=717",
-    "low": 5.0,
+    "low": 11.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -3402,7 +3394,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -3523,7 +3521,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -3558,7 +3562,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -4301,7 +4311,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 10.0,
+    "low": 16.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -4989,7 +4999,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-11-29-2026--sports-ncaa-basketball/production/7892473?wsUser=717",
-    "low": 33.0,
+    "low": 18.0,
     "since": "2026-11-19T12:09:49Z"
    },
    "venue": "Reed Green Coliseum",
@@ -5478,7 +5488,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-2-2026--sports-ncaa-basketball/production/7892479?wsUser=717",
-    "low": 33.0,
+    "low": 18.0,
     "since": "2026-11-19T12:09:49Z"
    },
    "venue": "Reed Green Coliseum",
@@ -5607,7 +5617,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 35.0,
+    "low": 32.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -6316,7 +6326,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-12-9-2026/production/7909377?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-21T18:11:15Z"
+   },
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -6916,7 +6930,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-12-14-2026--sports-ncaa-basketball/production/7892481?wsUser=717",
-    "low": 33.0,
+    "low": 18.0,
     "since": "2026-11-19T12:09:49Z"
    },
    "venue": "Reed Green Coliseum",
@@ -8156,7 +8170,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-sooners-mens-basketball-tickets-lloyd-noble-center-12-28-2026--sports-ncaa-basketball/production/7350107?wsUser=717",
-    "low": 7.0,
+    "low": 9.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Lloyd Noble Center",
@@ -12620,6 +12634,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T04:01:36+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:32:20+00:00",
+ "fetched_at": "2026-11-21T18:07:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2514,8 +2514,8 @@
   {
    "game_id": "401920570",
    "date": "2026-11-21T22:30Z",
-   "name": "Southern Illinois Salukis at TBD",
-   "short_name": "SIU VS TBD",
+   "name": "Southern Illinois Salukis at East Carolina Pirates",
+   "short_name": "SIU VS ECU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2532,10 +2532,10 @@
    "venue_city": "Charlotte Amalie",
    "venue_state": "Virgin Islands",
    "home": {
-    "espn_id": "-1",
+    "espn_id": "151",
     "key": null,
-    "name": "TBD",
-    "abbr": "TBD",
+    "name": "East Carolina Pirates",
+    "abbr": "ECU",
     "score": null,
     "winner": null
    },
@@ -2691,7 +2691,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 20.0,
+    "low": 25.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "FedExForum",
@@ -2727,7 +2727,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -5666,7 +5672,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-22-2026--sports-ncaa-basketball/production/7109834?wsUser=717",
-    "low": 38.0,
+    "low": 34.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -6819,7 +6825,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-1-16-2027--sports-ncaa-basketball/production/7588340?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -7236,7 +7242,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-1-21-2027--sports-ncaa-basketball/production/7588344?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -8191,7 +8197,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-2-6-2027--sports-ncaa-basketball/production/7588350?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",

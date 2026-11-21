@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:48:41+00:00",
+ "fetched_at": "2026-11-21T18:20:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -2179,11 +2179,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-20-2026--sports-ncaa-basketball/production/7349909?wsUser=717",
-    "low": 12.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Mizzou Arena",
    "venue_city": "Columbia",
    "venue_state": "MO",
@@ -2242,10 +2238,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:25 - 1st"
   },
   {
    "game_id": "401919828",
@@ -8395,6 +8391,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:11:35+00:00"
+ ]
 }

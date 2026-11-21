@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:43:05+00:00",
+ "fetched_at": "2026-11-21T18:16:10+00:00",
  "season": 2027,
  "games": [
   {
@@ -2479,7 +2479,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2523,7 +2529,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-21-2026--sports-ncaa-basketball/production/7529805?wsUser=717",
-    "low": 27.0,
+    "low": 37.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Mabee Center",
@@ -2605,7 +2611,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2975,7 +2987,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-11-25-2026--sports-ncaa-basketball/production/7914569?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -3943,7 +3959,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-12-5-2026--sports-ncaa-basketball/production/7752081?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "William R. Johnson Coliseum",
@@ -4207,7 +4223,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-12-7-2026--sports-ncaa-basketball/production/7914571?wsUser=717",
+    "low": 47.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -4328,7 +4348,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-12-9-2026--sports-ncaa-basketball/production/7752083?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "William R. Johnson Coliseum",
@@ -5907,7 +5927,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-29-2026--sports-ncaa-basketball/production/7109876?wsUser=717",
-    "low": 37.0,
+    "low": 31.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Allen Fieldhouse",
@@ -7766,7 +7786,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-1-26-2027--sports-ncaa-basketball/production/7914575?wsUser=717",
+    "low": 47.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -10102,6 +10126,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:07:03+00:00"
+ ]
 }
