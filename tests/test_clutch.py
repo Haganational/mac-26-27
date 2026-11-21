@@ -84,3 +84,20 @@ def test_book_keeps_free_throws_by_half():
     enc = book.encode_game(g)
     assert enc["f"] == [[1, 2, 3, 4], [5, 6, 7, 8]]
     assert book.decode_game("1", enc)["ft"] == g["ft"]
+
+
+def test_clutch_baskets_tie_and_go_ahead_late_only():
+    g = {"events": [{"t": 1000, "per": 1, "h": 2, "a": 0, "pid": "x"},  # early: no
+                    {"t": 1900, "per": 2, "h": 2, "a": 2, "pid": "y"},  # tie: yes, away
+                    {"t": 1950, "per": 2, "h": 5, "a": 2, "pid": "x"},  # go-ahead three: yes
+                    {"t": 2000, "per": 2, "h": 7, "a": 2, "pid": "x"},  # extends a lead: no
+                    {"t": 2100, "per": 2, "h": 7, "a": 4, "pid": "y"}]}  # still behind: no
+    b = clutch.clutch_baskets(g)
+    assert [(x["pid"], x["pts"], x["ahead"]) for x in b] == [("y", 2, False), ("x", 3, True)]
+
+
+def test_heart_rate_counts_lead_changes():
+    ev = [{"t": 100 * i, "per": 1 if i < 12 else 2, "h": 2 * i if i % 2 else 2 * i - 3, "a": 2 * i - 1 if i % 2 else 2 * i} for i in range(1, 24)]
+    sw, ch = clutch.heart_rate({"events": ev})
+    assert ch >= 20 and sw > 0
+    assert clutch.heart_rate({"events": ev[:5]}) is None

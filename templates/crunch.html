@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Crunch Time · Hardwood Bricks</title>
-<meta name="description" content="Comeback Kings and Foul Him / Don't Foul Him: late-game team rankings across our {{ n_conf }} conferences, read from every game's play-by-play.">
+<meta name="description" content="Comeback Kings, Final Exams, The Cardiologists, Foul Him / Don't Foul Him and Dunking and Donuts: team and player rankings across our {{ n_conf }} conferences, read from every game's play-by-play.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}crunch-time.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hardwood Bricks">
-<meta property="og:title" content="Crunch Time: Comeback Kings and Foul Him / Don't Foul Him">
+<meta property="og:title" content="Crunch Time: Comeback Kings, Final Exams, The Cardiologists and more">
 <meta property="og:url" content="{{ base }}crunch-time.html">
 <meta property="og:image" content="{{ base }}static/og/site.png">
 <meta name="theme-color" content="#2a1a10">
@@ -49,6 +49,12 @@
   .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 34px; margin-top: 16px; }
   @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
   .pending { margin: 16px 0 0; padding: 16px 18px; background: var(--hick); color: #f3e9d6; font: 400 17px/1.5 var(--serif); }
+  .mixbar { display: flex; height: 12px; min-width: 120px; box-shadow: inset 0 0 0 1px var(--rule); }
+  .mixbar i { display: block; height: 100%; }
+  .mk-3 { background: #a8441c; } .mk-dunk { background: #c58a1b; } .mk-rim { background: #2f6b3a; } .mk-two { background: #8a8078; } .mk-ft { background: #3b5b8a; }
+  .mixkey { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 12px 0 0; font: 600 12.5px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .mixkey i { display: inline-block; width: 14px; height: 10px; margin-right: 6px; vertical-align: -1px; }
+  .tbl td.mixcell { width: 40%; }
   .ct ul.notes { font: 400 16px/1.55 var(--serif); color: var(--ink-2); padding-left: 20px; max-width: 66ch; }
   .ct ul.notes li { margin: 6px 0; }
 </style>
@@ -59,7 +65,7 @@
 <main class="ct">
   <div class="dateline"><span>Through {{ through }}</span><span class="tag">Late-game rankings from the play-by-play</span><span>{{ season }}</span></div>
   <h1>Crunch Time</h1>
-  <p class="dek">Two rankings from the end of games, when the box score stops telling you much. Who climbs out of a late hole, and who you want at the line when the other bench starts fouling.</p>
+  <p class="dek">What the box score can't tell you, read from every game's play-by-play. Who climbs out of a late hole, who scores when it's tied, whose games are bad for your health, who you want at the line, and who dunks.</p>
   <p class="meta">{{ n_teams }} schools in {{ n_conf }} conferences · {{ n_pbp }} games with a full play-by-play</p>
 
   <section id="comeback-kings" aria-labelledby="h-ck">
@@ -82,6 +88,32 @@
       </tbody>
     </table>
     {% else %}<div class="pending">No late comebacks yet this season.</div>{% endif %}
+  </section>
+
+  <section id="final-exams" aria-labelledby="h-fe">
+    <h2 id="h-fe">Final Exams</h2>
+    <p>The players who score when it counts: points on go-ahead and tying baskets in the last ten minutes of the second half and overtime. A basket counts when it takes a team from behind or level to level or ahead.</p>
+    {% if exams %}
+    <table class="tbl">
+      <thead><tr><th>#</th><th class="l">Player</th><th>Points</th><th>Baskets</th><th class="hide-sm">Go-ahead</th></tr></thead>
+      <tbody>{% for x in exams %}
+        <tr><td class="rk l">{{ x.rank }}</td><td class="tm l"><a href="{{ x.href }}"><span class="chip" style="--c:{{ x.color }}"></span>{{ x.name }}</a><small>{{ x.short }} · {{ x.conf_short }}</small></td><td class="w">{{ x.pts }}</td><td>{{ x.n }}</td><td class="hide-sm">{{ x.ahead }}</td></tr>
+      {% endfor %}</tbody>
+    </table>
+    {% else %}<div class="pending">No late go-ahead baskets yet this season.</div>{% endif %}
+  </section>
+
+  <section id="cardiologists" aria-labelledby="h-cardio">
+    <h2 id="h-cardio">The Cardiologists</h2>
+    <p>The teams whose games are hardest on the heart. We add up how far the win probability moves after every basket, and count it in full swings: one swing is a sure loss turned into a sure win. Teams need {{ min_games }} games.</p>
+    {% if cardio %}
+    <table class="tbl">
+      <thead><tr><th>#</th><th class="l">Team</th><th>Swings a game</th><th class="hide-sm">Lead changes a game</th><th>Record</th></tr></thead>
+      <tbody>{% for r in cardio %}
+        <tr><td class="rk l">{{ r.rank }}</td><td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td><td class="w">{{ "%.1f"|format(r.swings) }}</td><td class="hide-sm">{{ r.changes }}</td><td>{{ r.record }}</td></tr>
+      {% endfor %}</tbody>
+    </table>
+    {% else %}<div class="pending">Not enough games yet.</div>{% endif %}
   </section>
 
   <section id="foul-him" aria-labelledby="h-fh">
@@ -113,12 +145,38 @@
     {% else %}<div class="pending">We started logging free throws by half on Nov 20, and the season's earlier games are being filled in now. This ranking appears once enough teams reach {{ min_fta }} second-half attempts.</div>{% endif %}
   </section>
 
+  <section id="dunking-and-donuts" aria-labelledby="h-dd">
+    <h2 id="h-dd">Dunking and Donuts</h2>
+    <p>How teams score. Each bar splits a team's points into threes, dunks, layups and other shots at the rim, other twos and free throws. Dunking is the five teams with the most dunks a game; Donuts, the five with the fewest. Teams need {{ min_games }} games.</p>
+    <div class="mixkey">{% for k, lab in mix_keys %}<span><i class="mk-{{ k }}"></i>{{ lab }}</span>{% endfor %}</div>
+    {% if dunking %}
+    <div class="pair">
+    {% for title, sub, rows in [("Dunking", "Most dunks a game.", dunking), ("Donuts", "Fewest dunks a game.", donuts)] %}{% if rows %}
+      <div>
+        <h3>{{ title }}</h3>
+        <p class="sub">{{ sub }}</p>
+        <table class="tbl">
+          <thead><tr><th>#</th><th class="l">Team</th><th>Dunks</th><th class="l">Points by shot</th></tr></thead>
+          <tbody>{% for r in rows %}
+            <tr><td class="rk l">{{ r.rank }}</td><td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td><td class="w">{{ r.dpg }}</td>
+              <td class="mixcell l"><div class="mixbar" role="img" aria-label="{% for m in r.mix %}{{ m.label }} {{ m.pct }}%{% if not loop.last %}, {% endif %}{% endfor %}">{% for m in r.mix %}<i class="mk-{{ m.k }}" style="width:{{ m.pct }}%" title="{{ m.label }} {{ m.pct }}%"></i>{% endfor %}</div></td></tr>
+          {% endfor %}</tbody>
+        </table>
+      </div>
+    {% endif %}{% endfor %}
+    </div>
+    {% else %}<div class="pending">Not enough games yet.</div>{% endif %}
+  </section>
+
   <section id="method" aria-labelledby="h-method">
     <h2 id="h-method">How it works</h2>
     <ul class="notes">
       <li><b>The source.</b> ESPN's play-by-play for every D-I game: every scoring play with the running score and the clock, and every free throw, made or missed.</li>
       <li><b>Comeback Kings.</b> From 10:00 left in the second half on, we track the winner's deficit after every basket. The biggest one is the comeback. The "Clock" column is the time left when it was biggest. A team appears once, with its best late comeback; "Late comebacks" counts every win it trailed in over that stretch.</li>
       <li><b>Foul Him.</b> Only free throws after halftime count. A game is used only when its free-throw log adds up to the box score's made and attempted totals for both teams{% if n_ft %} ({{ n_ft_ok }} of {{ n_ft }} games so far){% endif %}, so a garbled feed never moves a number.</li>
+      <li><b>Final Exams.</b> Same ten-minute window as Comeback Kings. Free throws count, one point at a time, when they tie the game or put a team ahead.</li>
+      <li><b>The Cardiologists.</b> Win probability here is our own simple formula from the score margin and the time left, used for every game so they are all measured the same way. It ignores the point spread on purpose: a favorite's comfortable win still gets its swings from the early back-and-forth.</li>
+      <li><b>Dunking and Donuts.</b> Shot types come from ESPN's play descriptions. A tip-in counts as a shot at the rim; a basket ESPN doesn't describe counts as another two.</li>
       <li><b>Early season.</b> Twenty attempts is a small sample. Expect the list to move a lot until conference play.</li>
     </ul>
   </section>
