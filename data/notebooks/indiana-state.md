@@ -27,9 +27,9 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**40 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,5 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 - 2026-11-20: L 76-86 vs (neutral) Stephen F. Austin Lumberjacks. Barometer 46 (steady). <!-- g:401916123 -->
 - 2026-11-20: Social recap posted (L 76-86 vs Stephen F. Austin Lumberjacks): https://hardwoodbricks.com/mvc/games/401916123.html <!-- post:401916123:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:preview -->
+- 2026-11-21: L 59-69 vs (neutral) Middle Tennessee Blue Raiders. Barometer 40 (testy). <!-- g:401920569 -->
+- 2026-11-21: Social recap posted (L 59-69 vs Middle Tennessee Blue Raiders): https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:recap -->

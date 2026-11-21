@@ -2496,7 +2496,7 @@
     "name": "Indiana State Sycamores",
     "abbr": "INST",
     "score": 59,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2393",
@@ -2504,12 +2504,12 @@
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
     "score": 69,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920570",
@@ -2536,7 +2536,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2544,13 +2544,13 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:25 - 1st"
   },
   {
    "game_id": "401928998",
@@ -9644,5 +9644,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T22:04:24+00:00"
+ "live_at": "2026-11-21T22:35:10+00:00"
 }

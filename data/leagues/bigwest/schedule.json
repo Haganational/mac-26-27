@@ -2260,7 +2260,7 @@
     "key": null,
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": 19,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2268,13 +2268,13 @@
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 17,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917539",
@@ -10171,5 +10171,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T22:03:50+00:00"
+ "live_at": "2026-11-21T22:34:33+00:00"
 }

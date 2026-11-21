@@ -27,9 +27,9 @@ Dana Kessler dispatched school buses in the Southern Tier for most of her career
 
 ## Barometer
 
-**45 of 100, steady.** Record 3-3 (0-0 in conference), streak L2, last five WWWLL.
+**54 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dana editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dana editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Dana Kessler dispatched school buses in the Southern Tier for most of her career
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Dana Kessler dispatched school buses in the Southern Tier for most of her career
 - 2026-11-19: L 65-80 at Lafayette Leopards. Barometer 45 (steady). <!-- g:401911277 -->
 - 2026-11-19: Social recap posted (L 65-80 vs Lafayette Leopards): https://hardwoodbricks.com/americaeast/games/401911277.html <!-- post:401911277:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:preview -->
+- 2026-11-21: W 67-46 vs Army Black Knights. Barometer 54 (steady). <!-- g:401911278 -->
+- 2026-11-21: Social recap posted (W 67-46 vs Army Black Knights): https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:recap -->
