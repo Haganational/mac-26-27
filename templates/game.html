@@ -86,6 +86,20 @@
   </section>
   {% endif %}
 
+  {% if window %}
+  {#- The Window (Nov 21 2026): everyone who touched this game, graded side by side: the Tops and Bottoms cappers, then the model's own leans. -#}
+  <section id="window" class="window-recap">
+    <div class="sechead"><h2>How the window did</h2><span class="dim">Tops and Bottoms picks on this game, and what the model leaned</span><a class="more" href="../{{ site_up }}tops.html">The ledger →</a></div>
+    <div class="wr-rows">
+      {% for r in window %}<div class="wr-row" style="--c: {{ r.color }}"><img src="../static/art/tops/{{ r.key }}.webp" alt="" width="32" height="32" loading="lazy"><span><b>{{ r.first }}</b> · {{ r.label }}</span>{% if r.result %}<span class="tw-res tw-{{ r.result }}">{{ {'win': 'Won', 'loss': 'Lost', 'push': 'Push', 'void': 'No action'}[r.result] }}</span><span class="wr-u">{{ '%+.2f'|format(r.units) }}u</span>{% else %}<span class="tw-res">Pending</span><span class="wr-u"></span>{% endif %}</div>{% endfor %}
+      {% if mp and mp.side %}<div class="wr-row wr-model"><span class="wr-hb" aria-hidden="true">HB</span><span><b>The model</b> · {{ home.abbr if mp.side.home else away.abbr }} {{ 'PK' if mp.side.num == 0 else '%+g'|format(mp.side.num) }}</span>{% if mp.side.res %}<span class="tw-res tw-{{ 'win' if mp.side.res == 'W' else 'loss' }}">{{ 'Won' if mp.side.res == 'W' else 'Lost' }}</span>{% else %}<span class="tw-res">No grade</span>{% endif %}<span class="wr-u"></span></div>{% endif %}
+      {% if mp and mp.ou %}<div class="wr-row wr-model"><span class="wr-hb" aria-hidden="true">HB</span><span><b>The model</b> · {{ mp.ou.label }} {{ '%g'|format(mp.close_total) }}</span>{% if mp.ou.res %}<span class="tw-res tw-{{ 'win' if mp.ou.res == 'W' else 'loss' }}">{{ 'Won' if mp.ou.res == 'W' else 'Lost' }}</span>{% else %}<span class="tw-res">No grade</span>{% endif %}<span class="wr-u"></span></div>{% endif %}
+    </div>
+    {% set wins = window|selectattr('result', 'equalto', 'win')|list|length %}{% set losses = window|selectattr('result', 'equalto', 'loss')|list|length %}
+    <p class="wr-line">{% if wins and not losses %}Clean sweep at the window. Somebody buy the cappers a shrimp cocktail.{% elif losses and not wins %}The window went home empty. The books thank you for your service.{% elif wins and losses %}Split decision at the window. Somebody's buying, somebody's sulking.{% else %}Picks are in. The ledger grades them as soon as it goes final.{% endif %}</p>
+  </section>
+  {% endif %}
+
   <div class="grid two">
     <section>
       <h2>Line and result</h2>

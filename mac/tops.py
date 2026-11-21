@@ -511,6 +511,38 @@ def standings(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return rows
 
 
+def window(cards: list[dict[str, Any]] | None = None) -> dict[str, list[dict[str, Any]]]:
+    """The Window (Nov 21 2026): game id -> every Tops and Bottoms pick on that game, for game cards and recaps.
+    Each row carries the capper (key, name, first, color), the pick label and kind, and its grade if it has one."""
+    out: dict[str, list[dict[str, Any]]] = {}
+    for card in load_cards() if cards is None else cards:
+        for key, picks in (card.get("picks") or {}).items():
+            c = BY_KEY.get(key)
+            if not c:
+                continue
+            for p in picks:
+                if not p.get("game"):
+                    continue
+                out.setdefault(str(p["game"]), []).append({
+                    "key": key, "name": c["name"], "first": c["first"], "color": c["color"], "day": card.get("date"),
+                    "kind": p["kind"], "side": p.get("side"), "line": p.get("line"), "label": p["label"],
+                    "result": p.get("result")})
+    order = {c["key"]: i for i, c in enumerate(CAPPERS)}
+    for rows in out.values():
+        rows.sort(key=lambda r: (order[r["key"]], r["kind"] != "side"))
+    return out
+
+
+def graded(rows: list[dict[str, Any]], home: Any, away: Any) -> list[dict[str, Any]]:
+    """Window rows for a finished game, graded off its final score where the ledger hasn't caught up yet."""
+    score = {"status": "final", "home": float(home), "away": float(away)} if home is not None and away is not None else None
+    out = []
+    for r in rows:
+        res = r.get("result") or grade_pick(r, score)
+        out.append({**r, "result": res, "units": units(res) if res else None})
+    return out
+
+
 def night_of(card: dict[str, Any]) -> list[dict[str, Any]]:
     """Each handicapper's line for one day, best units first."""
     rows = [{**BY_KEY[k], **tally(ps)} for k, ps in card.get("picks", {}).items() if k in BY_KEY]

@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -410,7 +410,9 @@ def render_site() -> str:
     on = str(data.get("generated_at") or "")[:10]
     index = env.get_template("index.html")
     scene = scene_setters(data.get("tonight") or [], flavor, on)
-    write_front(index.render(d=data, data_json=json.dumps(data), scene=scene))
+    window_rows = tops.window()  # The Window (Nov 21 2026): Tops and Bottoms picks by game, for Tonight cards and recaps
+    house = tops.standings(tops.load_cards())  # the four cappers' ledger, for the front's Window corner
+    write_front(index.render(d=data, data_json=json.dumps(data), scene=scene, window=window_rows, house=house))
     (SITE_DIR / "data.json").write_text(json.dumps(data))
     (SITE_DIR / ".nojekyll").write_text("")
 
@@ -466,7 +468,8 @@ def render_site() -> str:
         pub = gamer.stamp(published, gid, built_at, g["date"])
         game_photos = [ph for n in notes_by_game.get(gid, []) for ph in n.get("photos", [])]
         ld = gamer.json_ld(gc, gm, pub, max(pub, modified), site_chrome.SITE_NAME, photos=game_photos)
-        html = game_tpl.render(d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
+        win = tops.graded(window_rows.get(str(gid), []), g["home"].get("score"), g["away"].get("score"))
+        html = game_tpl.render(window=win, d=data, teamlinks=teamlinks, fmt_spread=fmt_spread, game_notes=notes_by_game.get(gid, []),
                                mp=mp, gm=gm, pre=pre, published=pub, hl=highlights.for_game(gid, clips), phref=phref, lead_photo=(game_photos or [None])[0], ld_json=json.dumps(ld).replace("</", "<\\/"), **gc)
         (SITE_DIR / "games" / f"{gid}.html").write_text(html)
         have_box.add(gid)
@@ -595,7 +598,7 @@ def render_site() -> str:
             x["age"] = hub._age(datetime.fromisoformat(x["published"].replace("Z", "+00:00")), now_utc)
         except ValueError:
             x["age"] = ""
-    write_front(index.render(d=data, desk=desk[:6], around=around, scene=scene, data_json=json.dumps(data).replace("</", "<\\/")))
+    write_front(index.render(d=data, desk=desk[:6], around=around, scene=scene, window=window_rows, house=house, data_json=json.dumps(data).replace("</", "<\\/")))
     # Schedule & TV: this week's grid plus every game, with lines, model and rest/travel for the next 8 days.
     (SITE_DIR / "tv.html").write_text(env.get_template("tv.html").render(
         d=data, weeks=schedule_view.group_by_week(season), counts=schedule_view.tv_counts(season, TEAMS),

@@ -170,3 +170,17 @@ def test_every_capper_makes_two_picks_even_on_a_thin_board():
     assert ps[0]["label"] == "Under 140" and "Closest thing" in ps[0]["why"]
     assert ps[1]["team"] == "Team 2" and ps[1]["why"].startswith("Second-stingiest")
     assert tops.make_picks([], DAY) == {k: [] for k in tops.RULES}
+
+
+def test_window_groups_picks_by_game_and_grades_finals():
+    from mac import tops
+    card = {"date": "2026-11-21", "picks": {
+        "shark": [{"kind": "total", "game": "9", "side": "over", "line": 130.5, "label": "Over 130.5"}],
+        "brett": [{"kind": "side", "game": "9", "side": "home", "line": 4.0, "label": "Home +4"},
+                  {"kind": "side", "game": "7", "side": "away", "line": -2.0, "label": "Away -2", "result": "loss"}]}}
+    w = tops.window([card])
+    assert [r["key"] for r in w["9"]] == ["brett", "shark"]  # capper order, sides first
+    assert w["7"][0]["result"] == "loss"
+    g = tops.graded(w["9"], home=70, away=72)  # home +4 covers; 142 goes over
+    assert [r["result"] for r in g] == ["win", "win"] and g[0]["units"] == tops.WIN
+    assert tops.graded(w["9"], None, None)[0]["result"] is None
