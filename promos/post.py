@@ -133,7 +133,11 @@ def main() -> None:
     if stage == "done":   # a released film: never touched again, so a later film's run cannot repost it
         print(f"{path.parent.name}: released, nothing to do"); return
     cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
-    token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
+    try:
+        token = Y.access_token(cid, secret, refresh) if cid and secret and refresh else ""
+    except Exception as ex:  # noqa: BLE001 - an expired YouTube sign-in must not stop the other networks
+        print(f"youtube: sign-in failed ({ex}); re-mint YT_REFRESH_TOKEN. Cross-posting the rest with main_url.")
+        token = ""
     film = m.get("main_url", "").strip() or (find_film(token, m["main_title_contains"]) if token else "")
     if film and token and m.get("film") and stage != "dry":
         print(f"film: already on the channel{rethumb(token, m['film']['title'], path.parent / m['film']['thumb'], m)}")
@@ -160,15 +164,18 @@ def main() -> None:
         if stage == "dry":
             print(f"--- {r['file']}\n[long]\n{long_text}\n[short]\n{short_text}\n[would post to] youtube, {', '.join(nets)}")
             continue
-        try:
-            print(f"youtube: {r['title']}: {yt_short(token, mp4, path.parent / r['thumb'], r['title'], r['text'], film, m)}")
-        except Exception as ex:  # noqa: BLE001
-            failed += 1
-            body = ex.read().decode(errors="replace")[:400] if hasattr(ex, "read") else ""
-            print(f"youtube failed: {ex} {body}")
-            if "quota" not in body.lower():
-                continue  # YouTube goes first; do not cross-post a reel that is not on YouTube
-            print("youtube: out of daily upload quota; cross-posting anyway, the Short goes up on a later re-run")
+        if not token:
+            print(f"youtube: {r['title']}: skipped, no YouTube sign-in (a later run fills it in)")
+        else:
+            try:
+                print(f"youtube: {r['title']}: {yt_short(token, mp4, path.parent / r['thumb'], r['title'], r['text'], film, m)}")
+            except Exception as ex:  # noqa: BLE001
+                failed += 1
+                body = ex.read().decode(errors="replace")[:400] if hasattr(ex, "read") else ""
+                print(f"youtube failed: {ex} {body}")
+                if "quota" not in body.lower():
+                    continue  # YouTube goes first; do not cross-post a reel that is not on YouTube
+                print("youtube: out of daily upload quota; cross-posting anyway, the Short goes up on a later re-run")
         if stage != "all":
             continue
         for net in nets:
