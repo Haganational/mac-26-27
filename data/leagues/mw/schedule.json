@@ -2112,7 +2112,7 @@
     "key": null,
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 45,
+    "score": 76,
     "winner": null
    },
    "away": {
@@ -2120,13 +2120,13 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 27,
+    "score": 57,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:59 - 2nd"
   },
   {
    "game_id": "401921706",
@@ -8996,5 +8996,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T23:32:59+00:00"
 }

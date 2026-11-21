@@ -2366,21 +2366,21 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "399",
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:43 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911023",
@@ -2411,7 +2411,7 @@
     "key": null,
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2419,13 +2419,13 @@
     "key": "maine",
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:15 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911310",
@@ -8799,5 +8799,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T23:46:40+00:00"
 }

@@ -2036,21 +2036,21 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": null,
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922252",
@@ -8252,5 +8252,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T23:31:35+00:00"
 }

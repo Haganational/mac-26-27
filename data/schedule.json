@@ -2483,7 +2483,7 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2491,13 +2491,13 @@
     "key": null,
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:55 - 1st"
   },
   {
    "game_id": "401911024",
@@ -9662,5 +9662,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T23:30:30+00:00"
 }
