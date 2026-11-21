@@ -27,9 +27,9 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 
 ## Barometer
 
-**71 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
+**78 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -84,3 +84,5 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-19: W 79-75 at Loyola Chicago Ramblers. Barometer 71 (buoyant). <!-- g:401911232 -->
 - 2026-11-19: Social recap posted (W 79-75 vs Loyola Chicago Ramblers): https://hardwoodbricks.com/a10/games/401911232.html <!-- post:401911232:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->
+- 2026-11-21: W 85-60 vs New Mexico Lobos. Barometer 78 (buoyant). <!-- g:401919031 -->
+- 2026-11-21: Social recap posted (W 85-60 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->

@@ -1997,21 +1997,21 @@
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": 60,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
    "away": {
     "espn_id": "172",
     "key": "cornell",
     "name": "Cornell Big Red",
     "abbr": "COR",
-    "score": 82,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921183",
@@ -2042,7 +2042,7 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2050,13 +2050,13 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:33 - 1st"
   },
   {
    "game_id": "401911310",
@@ -7254,5 +7254,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T20:42:33+00:00"
+ "live_at": "2026-11-21T21:12:59+00:00"
 }

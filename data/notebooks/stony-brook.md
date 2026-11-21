@@ -27,9 +27,9 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 
 ## Barometer
 
-**53 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**60 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Skipper editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Skipper editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -76,3 +76,4 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 - 2026-11-17: W 104-47 vs SUNY Potsdam SUNY-POTSDAM. Barometer 53 (steady). <!-- g:401926834 -->
 - 2026-11-18: Social recap posted (W 104-47 vs SUNY Potsdam SUNY-POTSDAM): https://hardwoodbricks.com/caa/games/401926834.html <!-- post:401926834:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:preview -->
+- 2026-11-21: W 67-52 at Saint Peter's Peacocks. Barometer 60 (steady). <!-- g:401924882 -->

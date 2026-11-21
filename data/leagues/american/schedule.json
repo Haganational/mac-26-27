@@ -2696,21 +2696,21 @@
     "key": "wichita-state",
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": 69,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "167",
     "key": null,
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 55,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918995",
@@ -2741,7 +2741,7 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2749,13 +2749,13 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:39 - 1st"
   },
   {
    "game_id": "401911337",
@@ -12207,5 +12207,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T20:40:14+00:00"
+ "live_at": "2026-11-21T21:10:37+00:00"
 }

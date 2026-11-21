@@ -2028,7 +2028,7 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2036,13 +2036,13 @@
     "key": "longwood",
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:57 - 1st"
   },
   {
    "game_id": "401925709",
@@ -8875,5 +8875,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T21:19:49+00:00"
 }

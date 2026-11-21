@@ -2442,7 +2442,7 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2450,13 +2450,13 @@
     "key": null,
     "name": "Justice Lions",
     "abbr": "JUS",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:03 - 1st"
   },
   {
    "game_id": "401920125",
@@ -9725,5 +9725,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T21:16:32+00:00"
 }

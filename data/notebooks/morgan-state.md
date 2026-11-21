@@ -66,7 +66,7 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,4 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-19: Social recap posted (L 70-82 vs North Carolina A&T Aggies): https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:preview -->
 - 2026-11-21: L 63-84 vs Cornell Big Red. Barometer 43 (testy). <!-- g:401924722 -->
+- 2026-11-21: Social recap posted (L 63-84 vs Cornell Big Red): https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:recap -->

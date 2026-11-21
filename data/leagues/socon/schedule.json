@@ -2514,21 +2514,21 @@
     "key": null,
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
-    "score": 74,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "2717",
     "key": "western-carolina",
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": 40,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:38 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922048",
@@ -2559,7 +2559,7 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2567,13 +2567,13 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:27 - 1st"
   },
   {
    "game_id": "401926113",
@@ -2598,7 +2598,7 @@
     "key": "furman",
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2606,13 +2606,13 @@
     "key": null,
     "name": "Clinton Golden Bears",
     "abbr": "CTON",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:18 - 1st"
   },
   {
    "game_id": "401925709",
@@ -9928,5 +9928,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T20:45:06+00:00"
+ "live_at": "2026-11-21T21:15:35+00:00"
 }

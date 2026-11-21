@@ -27,9 +27,9 @@ Laurel Queen was a county librarian in Jackson County for fifteen years and stil
 
 ## Barometer
 
-**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
+**32 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Laurel editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Laurel editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Laurel Queen was a county librarian in Jackson County for fifteen years and stil
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,5 @@ Laurel Queen was a county librarian in Jackson County for fifteen years and stil
 - 2026-11-18: L 64-89 at Butler Bulldogs. Barometer 42 (testy). <!-- g:401902279 -->
 - 2026-11-18: Social recap posted (L 64-89 vs Butler Bulldogs): https://hardwoodbricks.com/socon/games/401902279.html <!-- post:401902279:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401909730.html <!-- post:401909730:preview -->
+- 2026-11-21: L 63-90 at Wake Forest Demon Deacons. Barometer 32 (testy). <!-- g:401909730 -->
+- 2026-11-21: Social recap posted (L 63-90 vs Wake Forest Demon Deacons): https://hardwoodbricks.com/socon/games/401909730.html <!-- post:401909730:recap -->
