@@ -1,6 +1,6 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
     Conferences sit behind one menu so the bar stays five items long at 6 editions or 27:
-    Conferences, Big Board, The Den, Watch, About.
+    Conferences, The Window, Big Board, The Den, Watch, About.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
 {% macro hub_bar(eds, active="", socials=False, mateo=False) -%}{#- mateo=True puts the front-page peek-a-boo (Mateo over Watch, Tiffany over At-Large) in the bar. -#}
 <header class="bar"><div class="bar-in">
@@ -16,8 +16,19 @@
     </details>
     {#- Tidy bar (Nov 21 2026): Big Board holds the every-conference boards; The Den and Watch stay one tap; About holds the house pages.
         Editions carry the same Big Board, The Den and Watch, in the same order, after their own pages. -#}
-    {% set board = [('at-large.html', 'At-Large Watch', 'Which mid-majors could crash the field without the auto bid'), ('crunch-time.html', 'Crunch Time', 'Comeback Kings, Final Exams, The Cardiologists, Foul Him, Dunking and Donuts'), ('tops.html', 'Tops and Bottoms', "JuiceBox Nation's wagering board: four handicappers, one winner a day")] %}
+    {% set board = [('at-large.html', 'At-Large Watch', 'Which mid-majors could crash the field without the auto bid'), ('crunch-time.html', 'Crunch Time', 'Comeback Kings, Final Exams, The Cardiologists, Foul Him, Dunking and Donuts')] %}
     {% set house = [('masthead.html', 'About and masthead', 'Who we are, how we work, corrections'), ('media.html', 'Media and credentials', 'For SIDs reviewing a credential request'), ('privacy.html', 'Privacy', 'What we keep (very little) and why')] %}
+    {#- The Window (Nov 21 2026): the betting coverage's one front door. Tops and Bottoms leads; each edition's odds screen
+        (access code) is one tap from the conference chips. -#}
+    <details class="hb-eds hb-sec hb-win{{ ' on' if active == 'tops.html' }}">
+      <summary>The Window</summary>
+      <div class="hb-panel hb-list">
+        <p class="hb-k">Tonight at the window</p>
+        <a class="hb-lead" href="tops.html"{% if active == 'tops.html' %} aria-current="page"{% endif %}><b>Tops and Bottoms</b><small>Four handicappers, eight picks a night, every unit kept</small></a>
+        <p class="hb-k">The desk, by conference <span>code</span></p>
+        <div class="hb-chips">{% for e in eds|sort(attribute='short', case_sensitive=False) %}<a href="{{ e.prefix or '' }}odds.html" title="{{ e.name }} odds, ratings and data viz">{{ e.short }}</a>{% endfor %}</div>
+      </div>
+    </details>
     <details class="hb-eds hb-sec hb-al{{ ' on' if active in board|map(attribute=0)|list }}">
       <summary><span>Big Board</span></summary>
       <div class="hb-panel hb-list">
@@ -71,7 +82,7 @@ var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function
 <footer class="hf">
   <nav class="hf-cols" aria-label="Site map">
     <div><h4>Conferences</h4><a href="./">All conferences</a>{% for e in eds|sort(attribute='short', case_sensitive=False) %}{% if loop.index <= 6 %}<a href="{{ e.href }}">{{ e.short }}</a>{% endif %}{% endfor %}{% if eds|length > 6 %}<span class="hf-more">and {{ eds|length - 6 }} more under Conferences</span>{% endif %}</div>
-    <div><h4>Big Board</h4><a href="at-large.html">At-Large Watch</a><a href="crunch-time.html">Crunch Time</a><a href="tops.html">Tops and Bottoms</a></div>
+    <div><h4>The Window</h4><a href="tops.html">Tops and Bottoms</a><h4>Big Board</h4><a href="at-large.html">At-Large Watch</a><a href="crunch-time.html">Crunch Time</a></div>
     <div><h4>The Den &amp; Watch</h4><a href="den.html">The Den</a><a href="watch.html">Watch</a><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
     <div><h4>About</h4><a href="masthead.html">About and masthead</a><a href="media.html">Media and credentials</a><a href="privacy.html">Privacy</a></div>
   </nav>

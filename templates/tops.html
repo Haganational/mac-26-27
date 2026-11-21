@@ -36,6 +36,8 @@
   .tb .sub { font: 400 16px/1.5 var(--serif); color: var(--ink-2); margin: 0 0 14px; max-width: 66ch; }
   .k { font: 600 12px/1.2 var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 
+  /* The house record line under the ledger (Nov 21 2026, Matthew's words) */
+  .house-line { margin: 14px 0 0; font: italic 17px/1.45 var(--serif, Georgia, serif); color: var(--muted); max-width: 70ch; }
   /* The four, as a ledger */
   .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
   .cap { background: var(--surface); border: 1px solid var(--rule); border-top: 5px solid var(--c); display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 12px 14px; padding: 14px; }
@@ -115,6 +117,7 @@
         </div>
       </article>{% endfor %}
     </div>
+    <p class="house-line">Backtesting tells us we haven't beat the number with this model. So we will try to beat this model with more numbers and backtesting.</p>
   </section>
 
   {% if card %}

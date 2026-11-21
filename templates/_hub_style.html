@@ -297,6 +297,12 @@
   .hb-list b { display: block; font: 600 18px/1.2 var(--serif); letter-spacing: -.005em; }
   .hb-list small { display: block; margin-top: 2px; font-size: 13px; line-height: 1.35; color: var(--muted); }
   .bar .hb-list a.author-only { display: none; } html.is-author .bar .hb-list a.author-only { display: block; }
+  /* The Window (Nov 21 2026): Tops and Bottoms leads; conference chips open each edition's desk. */
+  .hb-win > summary { color: #e7c77e; }
+  .bar .hb-list a.hb-lead { box-shadow: inset 3px 0 0 var(--gold); margin-bottom: 8px; }
+  .hb-chips { display: flex; flex-wrap: wrap; gap: 4px; padding: 2px 10px 6px; }
+  .bar .hb-list .hb-chips a { display: inline-block; padding: 4px 7px; border: 1px solid var(--rule); font: 600 13px/1 var(--cond); letter-spacing: .04em; }
+  .bar .hb-list .hb-chips a:last-child { border-bottom: 1px solid var(--rule); }
   .hb-panel { text-shadow: none; z-index: 80; }
   /* One footer on every site-wide page: the bar's sections again, then the small print. */
   footer.hf { margin-top: 48px; padding-top: 0; padding-bottom: 44px; }
