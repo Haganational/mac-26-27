@@ -71,7 +71,7 @@ Capt. Declan O'Malley grew up in Narragansett, the son of a fishing boat captain
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Capt. Declan O'Malley grew up in Narragansett, the son of a fishing boat captain
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920066.html <!-- post:401920066:preview -->
 - 2026-11-20: L 68-71 vs (neutral) Liberty Flames. Barometer 64 (steady). <!-- g:401920066 -->
 - 2026-11-20: Social recap posted (L 68-71 vs Liberty Flames): https://hardwoodbricks.com/a10/games/401920066.html <!-- post:401920066:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401919020.html <!-- post:401919020:preview -->
