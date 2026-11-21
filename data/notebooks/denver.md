@@ -70,7 +70,7 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 - 2026-11-17: Social recap posted (W 101-63 vs Colorado Colorado Springs Mountain Lions): https://hardwoodbricks.com/wcc/games/401926228.html <!-- post:401926228:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401920948.html <!-- post:401920948:preview -->
 - 2026-11-21: L 68-70 at Eastern Michigan Eagles. Barometer 40 (testy). <!-- g:401920948 -->
+- 2026-11-21: Social recap posted (L 68-70 vs Eastern Michigan Eagles): https://hardwoodbricks.com/games/401920948.html <!-- post:401920948:recap -->

@@ -2329,7 +2329,7 @@
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2337,13 +2337,13 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:51 - 1st"
   },
   {
    "game_id": "401923322",
@@ -8808,5 +8808,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T19:55:33+00:00"
+ "live_at": "2026-11-21T20:50:40+00:00"
 }

@@ -27,9 +27,9 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 
 ## Barometer
 
-**42 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**52 of 100, steady.** Record 2-4 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,5 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 - 2026-11-19: W 109-50 vs Utica Pioneers. Barometer 42 (testy). <!-- g:401920772 -->
 - 2026-11-19: Social recap posted (W 109-50 vs Utica Pioneers): https://hardwoodbricks.com/patriot/games/401920772.html <!-- post:401920772:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/patriot/games/401920773.html <!-- post:401920773:preview -->
+- 2026-11-21: W 87-55 vs Penn State Behrend Lions. Barometer 52 (steady). <!-- g:401920773 -->
+- 2026-11-21: Social recap posted (W 87-55 vs Penn State Behrend Lions): https://hardwoodbricks.com/patriot/games/401920773.html <!-- post:401920773:recap -->
