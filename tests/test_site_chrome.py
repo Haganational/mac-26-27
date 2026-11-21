@@ -76,3 +76,28 @@ def test_game_card_renders_in_house_fonts(tmp_path):
     p = tmp_path / "game.png"
     site_chrome.game_card(p, g, {t.key: t.color for t in TEAMS})
     assert Image.open(p).size == (1200, 630)
+
+
+def test_top_performer_picks_leading_scorer_and_notable_lines():
+    from mac.site_chrome import top_performer
+    box = {"players": [
+        {"team_espn_id": "5", "name": "Al Smith Jr.", "pts": 22, "reb": 3, "ast": 1, "blk": 4, "stl": 0, "dnp": False},
+        {"team_espn_id": "5", "name": "Bo Lee", "pts": 22, "reb": 1, "ast": 0, "blk": 0, "stl": 0, "dnp": False},
+        {"team_espn_id": "9", "name": "Cy Day", "pts": 30, "reb": 9, "ast": 5, "blk": 0, "stl": 0, "dnp": False},
+    ]}
+    tp = top_performer(box, 5)
+    assert (tp["last"], tp["pts"], tp["extra"]) == ("Smith", 22, ["4 BLK"])
+    assert top_performer(box, 9)["extra"] == ["9 REB", "5 AST"]
+    assert top_performer(None, 5) is None
+
+
+def test_game_card_draws_with_box(tmp_path):
+    from mac.site_chrome import game_card, pillow_ok
+    if not pillow_ok():
+        return
+    g = {"date": "2026-11-20T19:00Z", "venue": "Colonial Hall",
+         "away": {"espn_id": "5", "key": None, "abbr": "UAB", "name": "UAB Blazers", "score": 101},
+         "home": {"espn_id": "9", "key": None, "abbr": "GW", "name": "GW", "score": 76}}
+    box = {"players": [{"team_espn_id": "5", "name": "Al Smith", "pts": 22, "reb": 7}, {"team_espn_id": "9", "name": "Cy Day", "pts": 9}]}
+    game_card(tmp_path / "c.png", g, {}, box)
+    assert (tmp_path / "c.png").stat().st_size > 1000
