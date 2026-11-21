@@ -483,6 +483,16 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
         (site_root / "at-large.html").write_text(env.get_template("atlarge.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **al))
+    from . import clutch
+    try:  # Crunch Time: Comeback Kings and Foul Him, from the book's play-by-play
+        ct = clutch.page_context()
+    except Exception as exc:  # noqa: BLE001 - the rest of the hub must still publish
+        print(f"crunch time: skipped ({exc!r})")
+        ct = None
+    if ct:
+        (site_root / "crunch-time.html").write_text(env.get_template("crunch.html").render(
+            eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
+            built=datetime.now(timezone.utc).isoformat(timespec="minutes"), **ct))
     from . import watch
     (site_root / "watch.html").write_text(env.get_template("watch.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,

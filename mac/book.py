@@ -138,6 +138,9 @@ def encode_game(game: dict[str, Any]) -> dict[str, Any]:
     if "events" in game:  # scoring plays (mac/moments.py): [secs, period, home, away, player row or -1, kind, wp before, wp after]
         out["e"] = [[e["t"], e["per"], e["h"], e["a"], idx.get(e["pid"], -1) if e.get("pid") else -1, e["kind"], e.get("wb"), e.get("wa")]
                     for e in game["events"]]
+    if "ft" in game:  # free throws by half (mac/clutch.py): [[h1 made, h1 att, h2+OT made, h2+OT att] home, [...] away], or None
+        ft = game["ft"]
+        out["f"] = [ft["home"], ft["away"]] if ft else None
     return out
 
 
@@ -157,8 +160,11 @@ def decode_game(game_id: str, g: dict[str, Any]) -> dict[str, Any]:
                "pts_h": s[3], "pts_a": s[4], "poss": s[5], **({"bad": True} if s[6] else {})} for s in g["s"]]
     events = [{"t": e[0], "per": e[1], "h": e[2], "a": e[3], "pid": ids[e[4]] if 0 <= e[4] < len(ids) else None,
                "kind": e[5], "wb": e[6], "wa": e[7]} for e in g.get("e") or []]
-    return {"game_id": game_id, "date": g["d"], "neutral_site": bool(g["n"]), "teams": teams,
-            "players": players, "stints": stints, "events": events}
+    out = {"game_id": game_id, "date": g["d"], "neutral_site": bool(g["n"]), "teams": teams,
+           "players": players, "stints": stints, "events": events}
+    if "f" in g:
+        out["ft"] = {"home": g["f"][0], "away": g["f"][1]} if g["f"] else None
+    return out
 
 
 def _day(date_str: str | None) -> str:
