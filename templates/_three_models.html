@@ -1,0 +1,153 @@
+{#- Three models against the number: Our line, The Long Game and Right Now. Lives on Data Visualized. -#}
+{% if tm and tm.cards %}
+{% macro rec(r) %}{{ r.w }}-{{ r.l }}{% if r.p %}-{{ r.p }}{% endif %}{% endmacro %}
+{% macro pct(r) %}{% if r.pct is not none %}<span class="tm-pct{{ ' up' if r.pct >= 52.4 }}">{{ r.pct }}%</span>{% endif %}{% endmacro %}
+{% macro units(r) %}<span class="tm-u {{ 'pos' if r.units > 0 else 'neg' if r.units < 0 }}">{{ '%+.1f'|format(r.units) }}u</span>{% endmacro %}
+<style>
+  #models { --tm1: #2a78d6; --tm2: #eb6834; --tm3: #1baf7a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) #models { --tm1: #3987e5; --tm2: #d95926; --tm3: #199e70; } }
+  :root[data-theme="dark"] #models { --tm1: #3987e5; --tm2: #d95926; --tm3: #199e70; }
+  #models .tm-key { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 10px; margin: 0 0 14px; }
+  #models .tm-key > div { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; font-size: 13px; color: var(--ink-2); }
+  #models .tm-key b { display: block; color: var(--ink); font-size: 15px; margin-bottom: 2px; }
+  #models .sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+  #models .tm-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+  #models .tm-tabs button { font: inherit; font-size: 13px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+  #models .tm-tabs button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  #models .tm-tabs .sep { width: 1px; background: var(--border); margin: 0 4px; }
+  #models table.tm { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  #models table.tm th { text-align: right; font-weight: 600; color: var(--ink-2); font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  #models table.tm th:first-child, #models table.tm td:first-child { text-align: left; }
+  #models table.tm td { text-align: right; padding: 7px 8px; border-bottom: 1px solid var(--border); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #models table.tm tr.book td { color: var(--ink-2); }
+  #models table.tm .sub2 { display: block; font-size: 11.5px; color: var(--muted); }
+  #models .tm-pct.up { font-weight: 700; color: var(--ink); }
+  #models .tm-u { font-size: 12px; color: var(--ink-2); margin-left: 4px; }
+  #models .tm-chartbox { max-width: 860px; }
+  #models .tm-chart { width: 100%; height: auto; display: block; overflow: visible; }
+  #models .tm-chart .g { stroke: var(--border); stroke-width: 1; }
+  #models .tm-chart .g.zero { stroke: var(--ink-2); stroke-width: 1; stroke-dasharray: 3 3; }
+  #models .tm-chart .ax { font: 500 11px/1 var(--font, system-ui); fill: var(--ink-2); }
+  #models .tm-chart .ln { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  #models .tm-chart .el { font: 600 11.5px/1 var(--font, system-ui); fill: var(--ink); dominant-baseline: middle; }
+  #models .tm-chart .xh { stroke: var(--ink-2); stroke-width: 1; display: none; }
+  #models .tm-chart .hd { stroke: var(--surface); stroke-width: 2; display: none; }
+  #models .tm-chartbox[hidden] { display: none; }
+  #models .slate td.take { font-size: 12.5px; }
+  #models .slate td.take .tm-lean { display: block; color: var(--ink-2); font-size: 11.5px; }
+  #models .slate tr.split td.take .tm-lean { color: var(--ink); font-weight: 600; }
+  #models .slate .mu { font-weight: 600; } #models .slate .when { display: block; font-size: 11.5px; color: var(--muted); font-weight: 400; }
+</style>
+  <section id="models">
+    <div class="sechead"><h2>Three models vs the number</h2><span class="dim">Same engine, three ways to weigh the past</span></div>
+    <p class="sub dim">Each model is rebuilt every morning using only games already played, then graded against the DraftKings spread and total at tip. Records are the model's side of every line, no matter how small the gap. At -110 you need 52.4% to break even. The live slate uses the latest line we captured.</p>
+
+    <div class="tm-key">
+      {% for m in tm.models %}<div><b><i class="sw" style="background:var(--tm{{ m.color }})"></i>{{ m.name }}</b>{{ m.blurb }}</div>{% endfor %}
+    </div>
+
+    {% for c in tm.cards %}
+    <h3 class="ouh">{{ c.label }}{% if c.current %} so far{% endif %} <span class="dim">· {{ c.d1.n }} lined D-I games{% if c.lg %}, {{ c.lg.n }} with a {{ tm.league }} team{% endif %}</span></h3>
+    <div class="scroll">
+    <table class="tm">
+      <tr><th>Model</th><th>Spread</th><th>Total</th><th>Spread, gap {{ '%g'|format(tm.edge) }}+</th><th>Total, gap {{ '%g'|format(tm.edge) }}+</th><th>Avg miss</th>{% if c.lg %}<th>{{ tm.league }} spread</th><th>{{ tm.league }} total</th>{% endif %}</tr>
+      {% for m in tm.models %}{% set x = c.d1.models[m.key] %}
+      <tr>
+        <td><i class="sw" style="background:var(--tm{{ m.color }})"></i>{{ m.name }}</td>
+        <td>{{ rec(x.ats) }} {{ pct(x.ats) }}{{ units(x.ats) }}</td>
+        <td>{{ rec(x.ou) }} {{ pct(x.ou) }}{{ units(x.ou) }}</td>
+        <td>{{ rec(x.ats3) }} {{ pct(x.ats3) }}</td>
+        <td>{{ rec(x.ou3) }} {{ pct(x.ou3) }}</td>
+        <td>{{ x.mae }}<span class="sub2">total {{ x.total_mae }}</span></td>
+        {% if c.lg %}{% set y = c.lg.models[m.key] %}<td>{{ rec(y.ats) }} {{ pct(y.ats) }}</td><td>{{ rec(y.ou) }} {{ pct(y.ou) }}</td>{% endif %}
+      </tr>
+      {% endfor %}
+      <tr><td>All three agree</td><td>{{ rec(c.d1.agree_ats) }} {{ pct(c.d1.agree_ats) }}</td><td>{{ rec(c.d1.agree_ou) }} {{ pct(c.d1.agree_ou) }}</td><td></td><td></td><td></td>{% if c.lg %}<td>{{ rec(c.lg.agree_ats) }} {{ pct(c.lg.agree_ats) }}</td><td>{{ rec(c.lg.agree_ou) }} {{ pct(c.lg.agree_ou) }}</td>{% endif %}</tr>
+      <tr class="book"><td>The book</td><td colspan="4">The closing number itself</td><td>{{ c.d1.book_mae }}<span class="sub2">total {{ c.d1.book_total_mae }}</span></td>{% if c.lg %}<td></td><td></td>{% endif %}</tr>
+    </table>
+    </div>
+    {% endfor %}
+    <p class="note">"Avg miss" is how far the projected margin landed from the real one, in points; the book's own miss is the bar to clear. Bold is anything at or above 52.4%. With hundreds of games a model will sit a point or two either side of 50% by luck alone, and a split that wins one season has usually given it back the next.</p>
+
+    {% if tm.chart_cur or tm.chart_prev %}
+    <h3 class="ouh">Running units at -110</h3>
+    <div class="tm-tabs" role="group" aria-label="Chart view">
+      {% if tm.chart_cur %}<button type="button" data-k="cur" aria-pressed="true">This season</button>{% endif %}
+      {% if tm.chart_prev %}<button type="button" data-k="prev" aria-pressed="{{ 'false' if tm.chart_cur else 'true' }}">Last season</button>{% endif %}
+      <span class="sep"></span>
+      <button type="button" data-m="ats" aria-pressed="true">Spread</button>
+      <button type="button" data-m="ou" aria-pressed="false">Total</button>
+    </div>
+    {% for key, ch in [('cur_ats', tm.chart_cur), ('cur_ou', tm.chart_cur_ou), ('prev_ats', tm.chart_prev), ('prev_ou', tm.chart_prev_ou)] if ch %}
+    <div class="chartwrap tm-chartbox" data-view="{{ key }}"{% if key != ('cur_ats' if tm.chart_cur else 'prev_ats') %} hidden{% endif %}>
+      <svg class="tm-chart" viewBox="0 0 {{ ch.w }} {{ ch.h }}" role="img" aria-label="Running units for each model, {{ 'spread' if ch.kind == 'ats' else 'total' }}, {{ 'this' if key.startswith('cur') else 'last' }} season">
+        {% for t in ch.yticks %}<line class="g{{ ' zero' if t.zero }}" x1="{{ ch.x0 }}" x2="{{ ch.x1 }}" y1="{{ t.y }}" y2="{{ t.y }}"/><text class="ax" x="{{ ch.x0 - 6 }}" y="{{ t.y + 4 }}" text-anchor="end">{{ t.t }}</text>{% endfor %}
+        {% for m in ch.months %}<text class="ax" x="{{ m.x }}" y="{{ ch.h - 8 }}">{{ m.t }}</text>{% endfor %}
+        {% for l in ch.lines %}<path class="ln" d="{{ l.d }}" style="stroke:var(--tm{{ l.color }})"/>{% endfor %}
+        {% for e in ch.ends %}<text class="el" x="{{ ch.x1 + 8 }}" y="{{ e.y }}">{{ e.name }} {{ '%+.0f'|format(e.v) }}</text>{% endfor %}
+        <line class="xh" y1="{{ ch.y0 }}" y2="{{ ch.y1 }}"/>
+        {% for l in ch.lines %}<circle class="hd" r="4" style="fill:var(--tm{{ l.color }})" data-k="{{ l.key }}"/>{% endfor %}
+        <rect x="{{ ch.x0 }}" y="{{ ch.y0 }}" width="{{ ch.x1 - ch.x0 }}" height="{{ ch.y1 - ch.y0 }}" fill="transparent" class="hit"/>
+      </svg>
+      <div class="tip"></div>
+      <script type="application/json" class="tm-pts">{{ {'points': ch.points, 'x0': ch.x0, 'x1': ch.x1, 'y0': ch.y0, 'y1': ch.y1, 'w': ch.w, 'yt': [ch.yticks[0].y, ch.yticks[-1].y], 'yv': [ch.yticks[0].t, ch.yticks[-1].t]}|tojson }}</script>
+    </div>
+    {% endfor %}
+    <div class="legend">{% for m in tm.models %}<span><i style="background:var(--tm{{ m.color }})"></i>{{ m.name }}</span>{% endfor %}</div>
+    <p class="note">One unit risked to win 0.91 on every game the model leans on. Below zero means you would have paid the book.</p>
+    {% endif %}
+
+    <h3 class="ouh">On the slate</h3>
+    {% if tm.slate %}
+    <div class="scroll">
+    <table class="tm slate">
+      <tr><th>Game</th><th>Line</th>{% for m in tm.models %}<th><i class="sw" style="background:var(--tm{{ m.color }})"></i>{{ m.name }}</th>{% endfor %}</tr>
+      {% for g in tm.slate %}
+      <tr class="{{ 'split' if g.split_side or g.split_ou }}">
+        <td><span class="mu">{{ g.away_abbr or g.away }} at {{ g.home_abbr or g.home }}</span><span class="when">{{ g.date|etday }}</span></td>
+        <td>{% if g.spread is not none %}{{ g.home_abbr }} {{ '%+g'|format(g.spread) if g.spread else 'PK' }}<span class="sub2">O/U {{ '%g'|format(g.total) if g.total is not none else '–' }}</span>{% else %}<span class="dim">no line yet</span>{% endif %}</td>
+        {% for m in tm.models %}{% set x = g.m[m.key] %}
+        <td class="take">{{ g.home_abbr }} {{ '%+.1f'|format(x.spread) }} · {{ x.total }}
+          {% if x.side or x.ou %}<span class="tm-lean">{% if x.side %}{{ x.side.take }}{% endif %}{% if x.side and x.ou %} · {% endif %}{% if x.ou %}{{ x.ou.take }}{% endif %}</span>{% endif %}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    </div>
+    <p class="note">Each cell is that model's spread (home side) and total, then the side it would take against the line. Leans in bold mark a game where the models disagree.</p>
+    {% else %}<p class="dim">No {{ tm.league }} games in the next three days.</p>{% endif %}
+    <script>
+(function () {
+  const sec = document.getElementById('models');
+  if (!sec) return;
+  let k = sec.querySelector('.tm-tabs [data-k][aria-pressed="true"]')?.dataset.k || 'cur', m = 'ats';
+  const show = () => sec.querySelectorAll('.tm-chartbox').forEach(b => { b.hidden = b.dataset.view !== `${k}_${m}`; });
+  sec.querySelectorAll('.tm-tabs button').forEach(btn => btn.addEventListener('click', () => {
+    if (btn.dataset.k) { k = btn.dataset.k; sec.querySelectorAll('.tm-tabs [data-k]').forEach(b => b.setAttribute('aria-pressed', b === btn)); }
+    if (btn.dataset.m) { m = btn.dataset.m; sec.querySelectorAll('.tm-tabs [data-m]').forEach(b => b.setAttribute('aria-pressed', b === btn)); }
+    show();
+  }));
+  const names = {{ tm.models|map(attribute='name')|list|tojson }}, keys = {{ tm.models|map(attribute='key')|list|tojson }};
+  sec.querySelectorAll('.tm-chartbox').forEach(box => {
+    const cfg = JSON.parse(box.querySelector('.tm-pts').textContent), svg = box.querySelector('svg'), tip = box.querySelector('.tip');
+    const xh = svg.querySelector('.xh'), dots = [...svg.querySelectorAll('.hd')];
+    const [yTop, yBot] = cfg.yt, [vTop, vBot] = cfg.yv.map(t => t === '0' ? 0 : parseFloat(t));
+    const yOf = v => yTop + (yBot - yTop) * (vTop - v) / (vTop - vBot);
+    const hide = () => { tip.style.display = 'none'; xh.style.display = 'none'; dots.forEach(d => d.style.display = 'none'); };
+    svg.querySelector('.hit').addEventListener('pointermove', e => {
+      const r = svg.getBoundingClientRect(), sx = (e.clientX - r.left) * cfg.w / r.width;
+      let best = cfg.points[0];
+      for (const p of cfg.points) if (Math.abs(p.x - sx) < Math.abs(best.x - sx)) best = p;
+      xh.setAttribute('x1', best.x); xh.setAttribute('x2', best.x); xh.style.display = 'block';
+      dots.forEach(d => { const v = best.v[d.dataset.k]; d.setAttribute('cx', best.x); d.setAttribute('cy', yOf(v)); d.style.display = 'block'; });
+      tip.innerHTML = `<b>${best.d}</b><br>` + keys.map((kk, i) => `${names[i]}: ${best.v[kk] > 0 ? '+' : ''}${best.v[kk].toFixed(1)}u`).join('<br>');
+      tip.style.display = 'block';
+      const px = best.x * r.width / cfg.w;
+      tip.style.left = Math.min(px + 12, r.width - tip.offsetWidth - 4) + 'px'; tip.style.top = '8px';
+    });
+    svg.querySelector('.hit').addEventListener('pointerleave', hide);
+  });
+})();
+    </script>
+  </section>
+{% endif %}
