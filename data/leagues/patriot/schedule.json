@@ -2486,7 +2486,7 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": 37,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -2494,13 +2494,13 @@
     "key": null,
     "name": "Penn State Behrend Lions",
     "abbr": "PSBH",
-    "score": 21,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:27 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401909719",
@@ -2531,7 +2531,7 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": 19,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2539,13 +2539,13 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 15,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:49 - 1st"
+   "detail": "0:26 - 1st"
   },
   {
    "game_id": "401921222",
@@ -2576,7 +2576,7 @@
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 22,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2584,13 +2584,13 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 24,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:22 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911278",
@@ -9313,5 +9313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T19:31:17+00:00"
+ "live_at": "2026-11-21T19:56:20+00:00"
 }
