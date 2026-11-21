@@ -27,9 +27,9 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 
 ## Barometer
 
-**60 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**66 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 - 2026-11-17: W 93-47 vs Wilson Phoenix. Barometer 60 (steady). <!-- g:401920904 -->
 - 2026-11-17: Social recap posted (W 93-47 vs Wilson Phoenix): https://hardwoodbricks.com/cusa/games/401920904.html <!-- post:401920904:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920298.html <!-- post:401920298:preview -->
+- 2026-11-20: W 97-92 at Cal State Northridge Matadors. Barometer 66 (buoyant). <!-- g:401920298 -->

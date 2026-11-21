@@ -1876,7 +1876,7 @@
     "key": null,
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 41,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -1884,13 +1884,13 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 36,
+    "score": 45,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:34 - 2nd"
+   "detail": "15:09 - 2nd"
   },
   {
    "game_id": "401920707",
@@ -1917,7 +1917,7 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -1925,13 +1925,13 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:56 - 1st"
   },
   {
    "game_id": "401921811",
@@ -8259,5 +8259,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:05:27+00:00"
+ "live_at": "2026-11-21T01:22:02+00:00"
 }
