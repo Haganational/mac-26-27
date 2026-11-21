@@ -66,7 +66,7 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,4 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:preview -->
 - 2026-11-20: L 56-63 at Canisius Golden Griffins. Barometer 29 (despondent). <!-- g:401919827 -->
 - 2026-11-21: Social recap posted (L 56-63 vs Canisius Golden Griffins): https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:preview -->

@@ -72,7 +72,7 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:preview -->
 - 2026-11-19: W 84-51 vs Incarnate Word Cardinals. Barometer 89 (giddy). <!-- g:401929201 -->
 - 2026-11-19: Social recap posted (W 84-51 vs Incarnate Word Cardinals): https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:preview -->

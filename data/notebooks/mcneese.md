@@ -68,10 +68,11 @@ Jean-Luc Fontenot has measured every season of his life in crawfish boils. He ra
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
 - 2026-11-02: W 99-78 vs (neutral) UAB Blazers. Barometer 64 (steady). <!-- g:401919014 -->
 - 2026-11-05: L 67-77 at North Texas Mean Green. Barometer 50 (steady). <!-- g:401925031 -->
 - 2026-11-10: W 135-87 vs College of Biblical Studies Ambassadors. Barometer 60 (steady). <!-- g:401925032 -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:preview -->

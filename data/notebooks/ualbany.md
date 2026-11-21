@@ -71,7 +71,7 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:preview -->
 - 2026-11-20: L 60-65 vs (neutral) Western Illinois Leathernecks. Barometer 45 (steady). <!-- g:401919826 -->
 - 2026-11-20: Social recap posted (L 60-65 vs Western Illinois Leathernecks): https://hardwoodbricks.com/ovc/games/401919826.html <!-- post:401919826:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:preview -->

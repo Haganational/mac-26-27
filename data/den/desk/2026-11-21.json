@@ -2,29 +2,29 @@
  "date": "2026-11-21",
  "desk": {
   "anchor": {
-   "alt": "Luis Ortega, the New Haven AI anchor",
-   "color": "#002D72",
-   "color2": "#FFC72C",
-   "initials": "LO",
+   "alt": "Zelda Vance, the George Mason AI anchor",
+   "color": "#006633",
+   "color2": "#FFCC33",
+   "initials": "ZV",
    "ink": "#ffffff",
-   "key": "new-haven",
-   "name": "Luis Ortega",
-   "portrait": "den/anchors/new-haven.webp",
-   "school": "New Haven",
+   "key": "george-mason",
+   "name": "Zelda Vance",
+   "portrait": "den/anchors/george-mason.webp",
+   "school": "George Mason",
    "tag": "AI anchor"
   },
-  "max": 246,
+  "max": 234,
   "picks": [
    {
-    "abbr": "NHVN",
-    "game_id": "401923312",
+    "abbr": "GMU",
+    "game_id": "401918995",
     "kind": "homer",
-    "short": "New Haven",
+    "short": "George Mason",
     "side": "home",
-    "team_id": "2441",
-    "tip": "2026-11-21T18:00Z",
+    "team_id": "2244",
+    "tip": "2026-11-21T21:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 55
+    "worth": 42
    },
    {
     "abbr": "NICH",
@@ -45,8 +45,8 @@
     "side": "home",
     "team_id": "325",
     "tip": "2026-11-21T18:00Z",
-    "why": "Our ratings 62%, pregame win chance 39%.",
-    "worth": 61
+    "why": "Our ratings 62%, pregame win chance 38%.",
+    "worth": 62
    },
    {
     "abbr": "PORT",
@@ -169,7 +169,7 @@
    "team_id": "325",
    "tip": "2026-11-21T18:00Z",
    "why": "Homer pick.",
-   "worth": 61
+   "worth": 62
   },
   {
    "abbr": "KENT",
@@ -434,6 +434,30 @@
    "tip": "2026-11-21T19:00Z",
    "why": "Homer pick.",
    "worth": 34
+  },
+  {
+   "abbr": "APSU",
+   "game_id": "401917953",
+   "key": "austin-peay",
+   "kind": "homer",
+   "short": "Austin Peay",
+   "side": "home",
+   "team_id": "2046",
+   "tip": "2026-11-21T20:00Z",
+   "why": "Homer pick.",
+   "worth": 42
+  },
+  {
+   "abbr": "RGV",
+   "game_id": "401917953",
+   "key": "utrgv",
+   "kind": "homer",
+   "short": "UTRGV",
+   "side": "away",
+   "team_id": "292",
+   "tip": "2026-11-21T20:00Z",
+   "why": "Homer pick.",
+   "worth": 58
   },
   {
    "abbr": "INST",
@@ -1093,7 +1117,7 @@
    "team_id": "2443",
    "tip": "2026-11-22T01:30Z",
    "why": "Homer pick.",
-   "worth": 52
+   "worth": 51
   },
   {
    "abbr": "PAC",
