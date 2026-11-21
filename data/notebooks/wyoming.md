@@ -68,7 +68,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:preview -->
 - 2026-11-18: W 81-79 vs Sam Houston Bearkats. Barometer 66 (buoyant). <!-- g:401924922 -->
 - 2026-11-18: Social recap posted (W 81-79 vs Sam Houston Bearkats): https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:preview -->

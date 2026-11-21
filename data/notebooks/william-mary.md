@@ -69,7 +69,7 @@ Sir Alistair Finch was born in Leicester to an Indian family, moved to Virginia 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,4 @@ Sir Alistair Finch was born in Leicester to an Indian family, moved to Virginia 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/caa/games/401918454.html <!-- post:401918454:preview -->
 - 2026-11-20: W 85-39 vs Averett Cougars. Barometer 61 (steady). <!-- g:401918454 -->
 - 2026-11-20: Social recap posted (W 85-39 vs Averett Cougars): https://hardwoodbricks.com/caa/games/401918454.html <!-- post:401918454:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401918455.html <!-- post:401918455:preview -->

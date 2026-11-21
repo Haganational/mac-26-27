@@ -63,7 +63,7 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,4 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 - 2026-11-18: W 80-61 at Manhattan Jaspers. Barometer 77 (buoyant). <!-- g:401911198 -->
 - 2026-11-18: Social recap posted (W 80-61 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401911199.html <!-- post:401911199:preview -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401911200.html <!-- post:401911200:preview -->

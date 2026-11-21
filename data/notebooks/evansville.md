@@ -68,7 +68,7 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:preview -->
 - 2026-11-18: W 79-65 vs Le Moyne Dolphins. Barometer 54 (steady). <!-- g:401919783 -->
 - 2026-11-18: Social recap posted (W 79-65 vs Le Moyne Dolphins): https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401918988.html <!-- post:401918988:preview -->
