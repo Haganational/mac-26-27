@@ -27,9 +27,9 @@ Reginald Toney spent thirty-five years as a rocket-engine test technician in Hun
 
 ## Barometer
 
-**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Reginald Toney spent thirty-five years as a rocket-engine test technician in Hun
 - 2026-11-15: L 73-74 vs Cleveland State Vikings. Barometer 52 (steady). <!-- g:401921168 -->
 - 2026-11-15: Social recap posted (L 73-74 vs Cleveland State Vikings): https://hardwoodbricks.com/horizon/games/401921168.html <!-- post:401921168:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:preview -->
+- 2026-11-21: W 85-69 vs Lipscomb Bisons. Barometer 59 (steady). <!-- g:401920707 -->

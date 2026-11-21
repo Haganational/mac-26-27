@@ -1842,13 +1842,13 @@
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 35,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:15 - 2nd"
   },
   {
    "game_id": "401925664",
@@ -1879,7 +1879,7 @@
     "key": "fresno-state",
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -1887,13 +1887,13 @@
     "key": null,
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:33 - 1st"
   },
   {
    "game_id": "401909567",
@@ -8206,5 +8206,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:00:11+00:00"
+ "live_at": "2026-11-21T03:23:06+00:00"
 }
