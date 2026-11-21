@@ -1913,7 +1913,7 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -1921,13 +1921,13 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 51,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:26 - 2nd"
+   "detail": "8:39 - 2nd"
   },
   {
    "game_id": "401921811",
@@ -8254,5 +8254,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T02:54:34+00:00"
 }

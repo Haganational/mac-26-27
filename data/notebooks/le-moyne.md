@@ -27,9 +27,9 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**38 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 - 2026-11-18: L 65-79 at Evansville Purple Aces. Barometer 46 (steady). <!-- g:401919783 -->
 - 2026-11-18: Social recap posted (L 65-79 vs Evansville Purple Aces): https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/nec/games/401919784.html <!-- post:401919784:preview -->
+- 2026-11-21: L 64-91 at Missouri Tigers. Barometer 38 (testy). <!-- g:401919784 -->

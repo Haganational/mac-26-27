@@ -27,9 +27,9 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**68 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-18: W 99-65 at Mount St. Mary's Mountaineers. Barometer 59 (steady). <!-- g:401920921 -->
 - 2026-11-18: Social recap posted (W 99-65 vs Mount St. Mary's Mountaineers): https://hardwoodbricks.com/metro/games/401920921.html <!-- post:401920921:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/patriot/games/401926755.html <!-- post:401926755:preview -->
+- 2026-11-21: W 79-38 vs Neumann Knights. Barometer 68 (buoyant). <!-- g:401926755 -->

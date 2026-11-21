@@ -27,9 +27,9 @@ Hamza Vance was an undersized high school power forward who became a physical th
 
 ## Barometer
 
-**37 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
+**47 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hamza editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hamza editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Hamza Vance was an undersized high school power forward who became a physical th
 - 2026-11-19: L 78-87 at Oklahoma Sooners. Barometer 37 (testy). <!-- g:401906805 -->
 - 2026-11-19: Social recap posted (L 78-87 vs Oklahoma Sooners): https://hardwoodbricks.com/caa/games/401906805.html <!-- post:401906805:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/caa/games/401909799.html <!-- post:401909799:preview -->
+- 2026-11-21: W 80-70 at Kansas State Wildcats. Barometer 47 (steady). <!-- g:401909799 -->

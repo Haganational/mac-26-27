@@ -71,7 +71,7 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:preview -->
 - 2026-11-20: L 76-85 vs (neutral) Temple Owls. Barometer 55 (steady). <!-- g:401916122 -->
 - 2026-11-20: Social recap posted (L 76-85 vs Temple Owls): https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:preview -->

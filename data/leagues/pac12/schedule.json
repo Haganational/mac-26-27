@@ -1834,7 +1834,7 @@
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -1842,13 +1842,13 @@
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": null,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:56 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401925664",
@@ -8205,5 +8205,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T03:00:11+00:00"
 }

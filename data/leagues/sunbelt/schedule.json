@@ -3287,21 +3287,21 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": null,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "6",
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
-    "winner": null
+    "score": 55,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:53 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401912710",
@@ -3332,7 +3332,7 @@
     "key": null,
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -3340,13 +3340,13 @@
     "key": "marshall",
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:39 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929452",
@@ -12620,5 +12620,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T03:02:21+00:00"
 }

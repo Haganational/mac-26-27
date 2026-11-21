@@ -2697,7 +2697,7 @@
     "key": "alabama-am",
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 78,
     "winner": null
    },
    "away": {
@@ -2705,13 +2705,13 @@
     "key": null,
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 65,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:33 - 2nd"
+   "detail": "2:02 - 2nd"
   },
   {
    "game_id": "401925740",
@@ -2783,7 +2783,7 @@
     "key": null,
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2791,13 +2791,13 @@
     "key": "alabama-state",
     "name": "Alabama State Hornets",
     "abbr": "ALST",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:36 - 1st"
   },
   {
    "game_id": "401925049",
@@ -10903,5 +10903,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T03:12:47+00:00"
 }

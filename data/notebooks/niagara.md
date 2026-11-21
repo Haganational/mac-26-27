@@ -27,9 +27,9 @@ Alicia Kowalczyk grew up within earshot of the Falls and spent years narrating t
 
 ## Barometer
 
-**19 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**37 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Alicia Kowalczyk grew up within earshot of the Falls and spent years narrating t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,5 @@ Alicia Kowalczyk grew up within earshot of the Falls and spent years narrating t
 - 2026-11-15: L 45-66 at Iowa State Cyclones. Barometer 19 (despondent). <!-- g:401909774 -->
 - 2026-11-15: Social recap posted (L 45-66 vs Iowa State Cyclones): https://hardwoodbricks.com/metro/games/401909774.html <!-- post:401909774:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:preview -->
+- 2026-11-21: W 103-101 at Delaware State Hornets. Barometer 37 (testy). <!-- g:401924844 -->
+- 2026-11-21: Social recap posted (W 103-101 vs Delaware State Hornets): https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:recap -->

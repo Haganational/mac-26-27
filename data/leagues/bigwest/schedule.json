@@ -2174,7 +2174,7 @@
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 48,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2182,13 +2182,13 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 39,
+    "score": 60,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "8:33 - 2nd"
   },
   {
    "game_id": "401920137",
@@ -2219,7 +2219,7 @@
     "key": null,
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2227,13 +2227,13 @@
     "key": "csu-bakersfield",
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": null,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917538",
@@ -10133,5 +10133,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T02:57:38+00:00"
 }

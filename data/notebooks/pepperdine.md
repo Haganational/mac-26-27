@@ -27,9 +27,9 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L2, last five LWWLL.
+**55 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brody editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brody editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,5 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/wcc/games/401935675.html <!-- post:401935675:preview -->
 - 2026-11-20: L 80-88 vs UC Santa Barbara Gauchos. Barometer 46 (steady). <!-- g:401928354 -->
 - 2026-11-20: Social recap posted (L 80-88 vs UC Santa Barbara Gauchos): https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:recap -->
+- 2026-11-21: W 140-54 vs West Coast Baptist Eagles. Barometer 55 (steady). <!-- g:401935675 -->
+- 2026-11-21: Social recap posted (W 140-54 vs West Coast Baptist Eagles): https://hardwoodbricks.com/wcc/games/401935675.html <!-- post:401935675:recap -->

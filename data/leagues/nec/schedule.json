@@ -2192,21 +2192,21 @@
     "key": null,
     "name": "Missouri Tigers",
     "abbr": "MIZ",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2330",
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:49 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923312",
@@ -8395,5 +8395,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T03:11:35+00:00"
 }
