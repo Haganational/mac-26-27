@@ -27,9 +27,9 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 
 ## Barometer
 
-**13 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
+**37 of 100, testy.** Record 1-5 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rudy editorializes: 83% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rudy editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,5 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 - 2026-11-19: L 51-84 at Texas State Bobcats. Barometer 13 (despondent). <!-- g:401929201 -->
 - 2026-11-19: Social recap posted (L 51-84 vs Texas State Bobcats): https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401929353.html <!-- post:401929353:preview -->
+- 2026-11-21: W 120-71 vs Central Baptist Mustangs. Barometer 37 (testy). <!-- g:401929353 -->
+- 2026-11-21: Social recap posted (W 120-71 vs Central Baptist Mustangs): https://hardwoodbricks.com/southland/games/401929353.html <!-- post:401929353:recap -->

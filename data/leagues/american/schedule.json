@@ -2573,21 +2573,21 @@
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 72,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "249",
     "key": "north-texas",
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": 65,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:45 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925865",
@@ -2618,7 +2618,7 @@
     "key": null,
     "name": "Mississippi State Bulldogs",
     "abbr": "MSST",
-    "score": 29,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -2626,13 +2626,13 @@
     "key": "tulsa",
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": 28,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:13 - 2nd"
   },
   {
    "game_id": "401916125",
@@ -2659,7 +2659,7 @@
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 8,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2667,13 +2667,13 @@
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 9,
+    "score": 23,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:13 - 1st"
+   "detail": "8:36 - 1st"
   },
   {
    "game_id": "401919031",
@@ -12117,5 +12117,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:28:07+00:00"
+ "live_at": "2026-11-21T01:48:01+00:00"
 }

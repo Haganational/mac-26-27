@@ -2138,20 +2138,20 @@
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
     "score": 92,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "48",
     "key": null,
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": 93,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:50 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401916125",
@@ -2178,7 +2178,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 6,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -2186,13 +2186,13 @@
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 7,
+    "score": 21,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:24 - 1st"
+   "detail": "10:44 - 1st"
   },
   {
    "game_id": "401920137",
@@ -10138,5 +10138,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T01:24:43+00:00"
+ "live_at": "2026-11-21T01:44:21+00:00"
 }
