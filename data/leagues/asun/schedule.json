@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:03:02+00:00",
+ "fetched_at": "2026-11-21T23:02:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -1945,11 +1945,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 5.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Pete Maravich Assembly Center",
    "venue_city": "Baton Rouge",
    "venue_state": "LA",
@@ -1990,11 +1986,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-11-21-2026--sports-other-sports/production/7890313?wsUser=717",
-    "low": 43.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
+   "tickets": null,
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
@@ -2044,7 +2036,7 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 47,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2052,13 +2044,13 @@
     "key": null,
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": 56,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:46 - 2nd"
+   "detail": "1:26 - 2nd"
   },
   {
    "game_id": "401922252",
@@ -2432,7 +2424,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 24.0,
+    "low": 25.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -8260,6 +8252,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:32:06+00:00"
+ ]
 }

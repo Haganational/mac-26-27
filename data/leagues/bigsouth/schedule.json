@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:18:14+00:00",
+ "fetched_at": "2026-11-21T23:15:44+00:00",
  "season": 2027,
  "games": [
   {
@@ -2015,11 +2015,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/east-tennessee-state-buccaneers-mens-basketball-tickets-freedom-hall-civic-center-tn-11-21-2026--sports-ncaa-basketball/production/7745411?wsUser=717",
-    "low": 59.0,
-    "since": "2026-11-18T23:18:36Z"
-   },
+   "tickets": null,
    "venue": "Freedom Hall (TN)",
    "venue_city": "Johnson City",
    "venue_state": "TN",
@@ -2028,21 +2024,21 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 62,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "2344",
     "key": "longwood",
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": 59,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:37 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925709",
@@ -2073,7 +2069,7 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 42,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2081,13 +2077,13 @@
     "key": "winthrop",
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": 40,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:01 - 1st"
+   "detail": "13:09 - 2nd"
   },
   {
    "game_id": "401911378",
@@ -4443,7 +4439,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-12-12-2026--sports-ncaa-basketball/production/7382796?wsUser=717",
-    "low": 29.0,
+    "low": 30.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -8875,6 +8871,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:43:55+00:00"
+ ]
 }

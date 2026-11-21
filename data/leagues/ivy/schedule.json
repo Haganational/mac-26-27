@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:12:19+00:00",
+ "fetched_at": "2026-11-21T23:10:28+00:00",
  "season": 2027,
  "games": [
   {
@@ -1949,11 +1949,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-21-2026--sports-ncaa-basketball/production/7710488?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:12:20Z"
-   },
+   "tickets": null,
    "venue": "Case Gym",
    "venue_city": "Boston",
    "venue_state": "MA",
@@ -2029,11 +2025,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/la-salle-explorers-mens-basketball-tickets-john-glaser-arena-11-21-2026--sports-ncaa-basketball/production/7627919?wsUser=717",
-    "low": 50.0,
-    "since": "2026-11-18T23:12:20Z"
-   },
+   "tickets": null,
    "venue": "John Glaser Arena",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -2042,21 +2034,21 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 63,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "219",
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 70,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:31 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911310",
@@ -7253,6 +7245,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:39:16+00:00"
+ ]
 }

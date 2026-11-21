@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:19:31+00:00",
+ "fetched_at": "2026-11-21T23:16:53+00:00",
  "season": 2027,
  "games": [
   {
@@ -2271,11 +2271,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/new-haven-chargers-mens-basketball-tickets-jeffery-p-hazell-athletic-center-11-21-2026/production/7788712?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Jeffery P. Hazell Athletics Center",
    "venue_city": "West Haven",
    "venue_state": "CT",
@@ -2316,11 +2312,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-11-21-2026--sports-ncaa-basketball/production/7752178?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Events Center (Binghamton)",
    "venue_city": "Binghamton",
    "venue_state": "NY",
@@ -2374,7 +2366,7 @@
     "key": null,
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 62,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2382,13 +2374,13 @@
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": 57,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:57 - 2nd"
+   "detail": "2:43 - 2nd"
   },
   {
    "game_id": "401911023",
@@ -2430,10 +2422,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:15 - 1st"
   },
   {
    "game_id": "401911310",
@@ -8807,6 +8799,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:44:52+00:00"
+ ]
 }

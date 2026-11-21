@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:04:34+00:00",
+ "fetched_at": "2026-11-21T23:03:34+00:00",
  "season": 2027,
  "games": [
   {
@@ -2062,11 +2062,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 42.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Charles Koch Arena",
    "venue_city": "Wichita",
    "venue_state": "KS",
@@ -2107,11 +2103,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-11-21-2026--sports-ncaa-basketball/production/7707035?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "UTSA Convocation Center",
    "venue_city": "San Antonio",
    "venue_state": "TX",
@@ -2120,7 +2112,7 @@
     "key": null,
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 29,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2128,13 +2120,13 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 15,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:35 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921706",
@@ -2240,7 +2232,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2371,7 +2363,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2492,7 +2484,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -4125,7 +4117,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-12-2026--sports-ncaa-basketball/production/7117728?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -9004,6 +8996,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:33:17+00:00"
+ ]
 }

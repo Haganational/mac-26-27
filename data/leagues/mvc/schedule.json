@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:07:03+00:00",
+ "fetched_at": "2026-11-21T23:05:43+00:00",
  "season": 2027,
  "games": [
   {
@@ -2536,7 +2536,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 2,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2544,13 +2544,13 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:25 - 1st"
+   "detail": "7:48 - 1st"
   },
   {
    "game_id": "401928998",
@@ -2863,7 +2863,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -2984,7 +2984,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -9643,6 +9643,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:35:10+00:00"
+ ]
 }

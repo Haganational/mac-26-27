@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:06:14+00:00",
+ "fetched_at": "2026-11-21T23:05:00+00:00",
  "season": 2027,
  "games": [
   {
@@ -2234,8 +2234,8 @@
   {
    "game_id": "401917538",
    "date": "2026-11-21T21:30Z",
-   "name": "UC Irvine Anteaters at San Diego Toreros",
-   "short_name": "UCI VS USD",
+   "name": "San Diego Toreros at UC Irvine Anteaters",
+   "short_name": "USD VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2256,25 +2256,25 @@
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "301",
-    "key": null,
-    "name": "San Diego Toreros",
-    "abbr": "USD",
-    "score": 34,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 31,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "away": {
+    "espn_id": "301",
+    "key": null,
+    "name": "San Diego Toreros",
+    "abbr": "USD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:08 - 2nd"
   },
   {
    "game_id": "401917539",
@@ -4824,7 +4824,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Gersten Pavilion",
@@ -10170,6 +10170,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:34:33+00:00"
+ ]
 }

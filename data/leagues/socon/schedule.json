@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:14:33+00:00",
+ "fetched_at": "2026-11-21T23:12:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -2501,11 +2501,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wake-forest-demon-deacons-mens-basketball-tickets-lawrence-joel-veterans-memorial-coliseum-11-21-2026--sports-ncaa-basketball/production/7260411?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "LJVM Coliseum",
    "venue_city": "Winston-Salem",
    "venue_state": "NC",
@@ -2546,11 +2542,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/east-tennessee-state-buccaneers-mens-basketball-tickets-freedom-hall-civic-center-tn-11-21-2026--sports-ncaa-basketball/production/7745411?wsUser=717",
-    "low": 59.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Freedom Hall (TN)",
    "venue_city": "Johnson City",
    "venue_state": "TN",
@@ -2559,21 +2551,21 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 58,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "2344",
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": 59,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:52 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926113",
@@ -2585,11 +2577,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-21-2026--sports-ncaa-basketball/production/7513277?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Timmons Arena",
    "venue_city": "Greenville",
    "venue_state": "SC",
@@ -2599,7 +2587,7 @@
     "name": "Furman Paladins",
     "abbr": "FUR",
     "score": 108,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "126954",
@@ -2607,12 +2595,12 @@
     "name": "Clinton Golden Bears",
     "abbr": "CTON",
     "score": 69,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925709",
@@ -2643,7 +2631,7 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 39,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2651,13 +2639,13 @@
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": 35,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:01 - 1st"
+   "detail": "14:04 - 2nd"
   },
   {
    "game_id": "401920975",
@@ -9927,6 +9915,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:41:02+00:00"
+ ]
 }

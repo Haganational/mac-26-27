@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:17:37+00:00",
+ "fetched_at": "2026-11-21T23:15:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2097,11 +2097,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-11-21-2026--sports-other-sports/production/7890313?wsUser=717",
-    "low": 43.0,
-    "since": "2026-11-20T12:15:57Z"
-   },
+   "tickets": null,
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
@@ -2142,11 +2138,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-11-21-2026--sports-ncaa-basketball/production/7667546?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:17:56Z"
-   },
+   "tickets": null,
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
    "venue_state": "TN",
@@ -2196,21 +2188,21 @@
     "key": null,
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 51,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": 64,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:53 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917966",
@@ -2492,7 +2484,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-11-24-2026--sports-ncaa-basketball/production/7856613?wsUser=717",
-    "low": 20.0,
+    "low": 26.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -4253,7 +4245,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-13-2026--sports-ncaa-basketball/production/7575783?wsUser=717",
-    "low": 9.0,
+    "low": 11.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Bud Walton Arena",
@@ -8926,6 +8918,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:43:24+00:00"
+ ]
 }

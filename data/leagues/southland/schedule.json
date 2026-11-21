@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:16:10+00:00",
+ "fetched_at": "2026-11-21T23:13:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -2441,11 +2441,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-11-21-2026--sports-ncaa-basketball/production/7667546?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
    "venue_state": "TN",
@@ -2495,7 +2491,7 @@
     "key": "nicholls",
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": 34,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2503,13 +2499,13 @@
     "key": null,
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 32,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:27 - 1st"
+   "detail": "14:21 - 2nd"
   },
   {
    "game_id": "401925099",
@@ -10126,6 +10122,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:42:17+00:00"
+ ]
 }

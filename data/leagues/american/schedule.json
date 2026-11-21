@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:10:20+00:00",
+ "fetched_at": "2026-11-21T23:08:44+00:00",
  "season": 2027,
  "games": [
   {
@@ -2683,11 +2683,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-21-2026--sports-ncaa-basketball/production/7285643?wsUser=717",
-    "low": 42.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Charles Koch Arena",
    "venue_city": "Wichita",
    "venue_state": "KS",
@@ -2741,7 +2737,7 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 52,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2749,13 +2745,13 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 38,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:50 - 2nd"
+   "detail": "4:13 - 2nd"
   },
   {
    "game_id": "401911337",
@@ -2786,7 +2782,7 @@
     "key": "utsa",
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 32,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2794,13 +2790,13 @@
     "key": null,
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 19,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:40 - 1st"
+   "detail": "19:01 - 2nd"
   },
   {
    "game_id": "401920570",
@@ -2827,7 +2823,7 @@
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 7,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2835,13 +2831,13 @@
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 6,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:12 - 1st"
+   "detail": "4:51 - 1st"
   },
   {
    "game_id": "401918988",
@@ -3068,7 +3064,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
@@ -3238,7 +3234,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
@@ -12206,6 +12202,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:37:42+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:07:51+00:00",
+ "fetched_at": "2026-11-21T23:06:28+00:00",
  "season": 2027,
  "games": [
   {
@@ -3081,11 +3081,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -3139,7 +3135,7 @@
     "key": "george-mason",
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 52,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3147,13 +3143,13 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 38,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:50 - 2nd"
+   "detail": "3:57 - 2nd"
   },
   {
    "game_id": "401921183",
@@ -3171,11 +3167,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/la-salle-explorers-mens-basketball-tickets-john-glaser-arena-11-21-2026--sports-ncaa-basketball/production/7627919?wsUser=717",
-    "low": 50.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "John Glaser Arena",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -3184,21 +3176,21 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 57,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "219",
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 67,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920736",
@@ -3775,7 +3767,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -5619,7 +5611,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-12-8-2026--sports-ncaa-basketball/production/7883469?wsUser=717",
-    "low": 170.0,
+    "low": 9677.0,
     "since": "2026-11-20T23:18:50Z"
    },
    "venue": "Hackensack Meridian Athletic Center",
@@ -12863,6 +12855,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:35:46+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:12:56+00:00",
+ "fetched_at": "2026-11-21T23:11:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -2756,11 +2756,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/saint-peters-peacocks-mens-basketball-tickets-yanitelli-center-11-21-2026--sports-ncaa-basketball/production/7804098?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Yanitelli Center",
    "venue_city": "Jersey City",
    "venue_state": "NJ",
@@ -2814,7 +2810,7 @@
     "key": null,
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 49,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2822,13 +2818,13 @@
     "key": "northeastern",
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 40,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:32 - 1st"
+   "detail": "13:06 - 2nd"
   },
   {
    "game_id": "401925897",
@@ -2870,10 +2866,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:43 - 1st"
   },
   {
    "game_id": "401920964",
@@ -3721,7 +3717,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-28-2026--sports-ncaa-basketball/production/7538351?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Lenovo Center",
@@ -5348,7 +5344,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-12-8-2026--sports-ncaa-basketball/production/7883469?wsUser=717",
-    "low": 170.0,
+    "low": 9677.0,
     "since": "2026-11-20T23:23:15Z"
    },
    "venue": "Hackensack Meridian Athletic Center",
@@ -6212,7 +6208,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-15-2026--sports-ncaa-basketball/production/7401253?wsUser=717",
-    "low": 77.0,
+    "low": 105.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -8173,7 +8169,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-1-9-2027--sports-ncaa-basketball/production/7883483?wsUser=717",
-    "low": 170.0,
+    "low": 3654.0,
     "since": "2026-11-20T23:23:15Z"
    },
    "venue": "Hackensack Meridian Athletic Center",
@@ -8832,7 +8828,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-1-16-2027--sports-ncaa-basketball/production/7309060?wsUser=717",
-    "low": 19.0,
+    "low": 15.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Trask Coliseum",
@@ -12017,6 +12013,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:39:46+00:00"
+ ]
 }

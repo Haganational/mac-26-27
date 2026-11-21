@@ -27,9 +27,9 @@ Josie Blevins played point guard for her high school in Johnson City and then sp
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Josie Blevins played point guard for her high school in Johnson City and then sp
 - 2026-11-18: L 55-67 at Marshall Thundering Herd. Barometer 40 (testy). <!-- g:401920857 -->
 - 2026-11-18: Social recap posted (L 55-67 vs Marshall Thundering Herd): https://hardwoodbricks.com/sunbelt/games/401920857.html <!-- post:401920857:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:preview -->
+- 2026-11-21: W 74-68 vs Longwood Lancers. Barometer 49 (steady). <!-- g:401922048 -->

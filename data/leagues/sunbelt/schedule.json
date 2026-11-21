@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:11:15+00:00",
+ "fetched_at": "2026-11-21T23:09:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -3356,11 +3356,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-21-2026--sports-ncaa-basketball/production/7403497?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Atlantic Union Bank Center",
    "venue_city": "Harrisonburg",
    "venue_state": "VA",
@@ -3410,7 +3406,7 @@
     "key": null,
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": 26,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -3418,13 +3414,13 @@
     "key": "southern-miss",
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 26,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:30 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928998",
@@ -3612,7 +3608,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-11-22-2026--sports-ncaa-basketball/production/7508071?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Galen Center",
@@ -5617,7 +5613,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -7855,7 +7851,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-mississippi-coast-coliseum-12-22-2026--sports-ncaa-basketball/production/7771630?wsUser=717",
-    "low": 31.0,
+    "low": 32.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Mississippi Coast Coliseum",
@@ -12634,6 +12630,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:38:24+00:00"
+ ]
 }

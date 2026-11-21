@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:21:37+00:00",
+ "fetched_at": "2026-11-21T23:21:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2013,10 +2013,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:23 - 1st"
   },
   {
    "game_id": "401909517",
@@ -2058,10 +2058,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:11 - 1st"
   },
   {
    "game_id": "401921176",
@@ -7570,6 +7570,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T20:53:04+00:00"
+ ]
 }

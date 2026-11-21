@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:09:35+00:00",
+ "fetched_at": "2026-11-21T23:08:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2249,11 +2249,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
    "venue_state": "MI",
@@ -2294,11 +2290,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2326,8 +2318,8 @@
   {
    "game_id": "401917538",
    "date": "2026-11-21T21:30Z",
-   "name": "UC Irvine Anteaters at San Diego Toreros",
-   "short_name": "UCI VS USD",
+   "name": "San Diego Toreros at UC Irvine Anteaters",
+   "short_name": "USD VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2348,25 +2340,25 @@
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "301",
-    "key": "san-diego",
-    "name": "San Diego Toreros",
-    "abbr": "USD",
-    "score": 34,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": null,
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 31,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "away": {
+    "espn_id": "301",
+    "key": "san-diego",
+    "name": "San Diego Toreros",
+    "abbr": "USD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:08 - 2nd"
   },
   {
    "game_id": "401917539",
@@ -2701,7 +2693,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2746,7 +2738,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2881,7 +2873,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2926,7 +2918,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -4886,7 +4878,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-12-2026--sports-ncaa-basketball/production/7117728?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "The Pit",
@@ -5720,7 +5712,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -9670,6 +9662,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:37:08+00:00"
+ ]
 }

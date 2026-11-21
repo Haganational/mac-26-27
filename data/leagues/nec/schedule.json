@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T18:20:57+00:00",
+ "fetched_at": "2026-11-21T23:19:25+00:00",
  "season": 2027,
  "games": [
   {
@@ -2214,11 +2214,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/new-haven-chargers-mens-basketball-tickets-jeffery-p-hazell-athletic-center-11-21-2026/production/7788712?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Jeffery P. Hazell Athletics Center",
    "venue_city": "West Haven",
    "venue_state": "CT",
@@ -2313,7 +2309,7 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 49,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2321,13 +2317,13 @@
     "key": null,
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 40,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "9:55 - 2nd"
   },
   {
    "game_id": "401909527",
@@ -2347,7 +2343,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-11-22-2026--sports-ncaa-basketball/production/7269709?wsUser=717",
-    "low": 7.0,
+    "low": 8.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Fiserv Forum",
@@ -4311,7 +4307,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-12-12-2026--sports-ncaa-basketball/production/7517636?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "JMA Wireless Dome",
@@ -8391,6 +8387,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T22:46:01+00:00"
+ ]
 }
