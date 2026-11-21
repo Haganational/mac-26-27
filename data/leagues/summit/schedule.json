@@ -2246,7 +2246,7 @@
     "key": null,
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2254,13 +2254,13 @@
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:28 - 1st"
   },
   {
    "game_id": "401925099",
@@ -7955,5 +7955,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T20:19:24+00:00"
 }

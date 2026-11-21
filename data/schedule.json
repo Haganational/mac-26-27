@@ -2360,7 +2360,7 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 48,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2368,13 +2368,13 @@
     "key": null,
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 53,
+    "score": 68,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:26 - 2nd"
+   "detail": "0:09 - 2nd"
   },
   {
    "game_id": "401921169",
@@ -2401,7 +2401,7 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 44,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2409,13 +2409,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 50,
+    "score": 66,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:03 - 2nd"
+   "detail": "1:25 - 2nd"
   },
   {
    "game_id": "401911022",
@@ -2446,7 +2446,7 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 19,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2454,13 +2454,13 @@
     "key": null,
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 26,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:24 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911023",
@@ -9671,5 +9671,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T19:35:21+00:00"
+ "live_at": "2026-11-21T20:01:58+00:00"
 }

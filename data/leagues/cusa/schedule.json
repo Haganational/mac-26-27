@@ -2235,7 +2235,7 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2243,13 +2243,13 @@
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:21 - 1st"
   },
   {
    "game_id": "401927365",
@@ -2276,7 +2276,7 @@
     "key": "missouri-state",
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2284,13 +2284,13 @@
     "key": null,
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:25 - 1st"
   },
   {
    "game_id": "401928802",
@@ -9033,5 +9033,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T20:15:49+00:00"
 }

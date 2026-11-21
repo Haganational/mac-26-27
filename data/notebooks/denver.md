@@ -27,9 +27,9 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 
 ## Barometer
 
-**44 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**40 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Augustus editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Augustus editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 - 2026-11-17: W 101-63 vs Colorado Colorado Springs Mountain Lions. Barometer 44 (testy). <!-- g:401926228 -->
 - 2026-11-17: Social recap posted (W 101-63 vs Colorado Colorado Springs Mountain Lions): https://hardwoodbricks.com/wcc/games/401926228.html <!-- post:401926228:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401920948.html <!-- post:401920948:preview -->
+- 2026-11-21: L 68-70 at Eastern Michigan Eagles. Barometer 40 (testy). <!-- g:401920948 -->

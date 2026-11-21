@@ -2835,7 +2835,7 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 44,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2843,13 +2843,13 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 52,
+    "score": 67,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:25 - 2nd"
+   "detail": "1:04 - 2nd"
   },
   {
    "game_id": "401911022",
@@ -2880,7 +2880,7 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": 23,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2888,13 +2888,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 28,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:47 - 1st"
+   "detail": "19:04 - 2nd"
   },
   {
    "game_id": "401928819",
@@ -2921,7 +2921,7 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 36,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -2929,13 +2929,13 @@
     "key": null,
     "name": "Calumet St. Joseph Crimson Wave",
     "abbr": "CSJ",
-    "score": 21,
+    "score": 25,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:12 - 1st"
+   "detail": "17:48 - 2nd"
   },
   {
    "game_id": "401920846",
@@ -2966,7 +2966,7 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2974,13 +2974,13 @@
     "key": null,
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:19 - 1st"
   },
   {
    "game_id": "401918455",
@@ -10583,5 +10583,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T19:37:20+00:00"
+ "live_at": "2026-11-21T20:03:59+00:00"
 }

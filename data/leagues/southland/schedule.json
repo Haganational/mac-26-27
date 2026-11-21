@@ -2454,7 +2454,7 @@
     "key": null,
     "name": "Austin Peay Governors",
     "abbr": "APSU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2462,13 +2462,13 @@
     "key": "utrgv",
     "name": "UT Rio Grande Valley Vaqueros",
     "abbr": "RGV",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:52 - 1st"
   },
   {
    "game_id": "401925065",
@@ -10126,5 +10126,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T20:18:29+00:00"
 }
