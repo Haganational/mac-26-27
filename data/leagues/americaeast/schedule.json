@@ -2245,21 +2245,21 @@
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 60,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "402",
     "key": null,
     "name": "Worcester State Lancers",
     "abbr": "WORC",
-    "score": 55,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923312",
@@ -8808,5 +8808,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:35:14+00:00"
+ "live_at": "2026-11-21T00:58:58+00:00"
 }

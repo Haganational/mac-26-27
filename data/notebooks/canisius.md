@@ -27,9 +27,9 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**51 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Paulie editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Paulie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,5 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 - 2026-11-16: Social recap posted (L 55-79 vs Buffalo Bulls): https://hardwoodbricks.com/games/401911017.html <!-- post:401911017:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:preview -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:preview -->
+- 2026-11-20: W 63-56 vs Mercyhurst Lakers. Barometer 51 (steady). <!-- g:401919827 -->
+- 2026-11-21: Social recap posted (W 63-56 vs Mercyhurst Lakers): https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:recap -->

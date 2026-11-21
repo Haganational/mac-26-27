@@ -2926,21 +2926,21 @@
     "key": null,
     "name": "Utah Utes",
     "abbr": "UTAH",
-    "score": 43,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
    "away": {
     "espn_id": "2168",
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": 56,
-    "winner": null
+    "score": 63,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927396",
@@ -2967,7 +2967,7 @@
     "key": null,
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": 13,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2975,13 +2975,13 @@
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 26,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:07 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920195",
@@ -3012,7 +3012,7 @@
     "key": null,
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": 15,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -3020,13 +3020,13 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 16,
+    "score": 25,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:20 - 1st"
+   "detail": "3:43 - 1st"
   },
   {
    "game_id": "401911252",
@@ -12872,5 +12872,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:24:01+00:00"
+ "live_at": "2026-11-21T00:46:44+00:00"
 }

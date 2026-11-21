@@ -2268,7 +2268,7 @@
     "key": "holy-cross",
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": 27,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2276,13 +2276,13 @@
     "key": null,
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 34,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920427",
@@ -2313,7 +2313,7 @@
     "key": null,
     "name": "Virginia Cavaliers",
     "abbr": "UVA",
-    "score": 35,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2321,13 +2321,13 @@
     "key": "loyola-md",
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": 20,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:14 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926755",
@@ -9321,5 +9321,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:35:54+00:00"
+ "live_at": "2026-11-21T00:59:40+00:00"
 }

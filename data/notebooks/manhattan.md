@@ -27,9 +27,9 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**25 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -77,3 +77,5 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 - 2026-11-18: L 61-80 vs Fordham Rams. Barometer 32 (testy). <!-- g:401911198 -->
 - 2026-11-18: Social recap posted (L 61-80 vs Fordham Rams): https://hardwoodbricks.com/metro/games/401911198.html <!-- post:401911198:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921723.html <!-- post:401921723:preview -->
+- 2026-11-20: L 54-106 at Miami Hurricanes. Barometer 25 (despondent). <!-- g:401921723 -->
+- 2026-11-21: Social recap posted (L 54-106 vs Miami Hurricanes): https://hardwoodbricks.com/metro/games/401921723.html <!-- post:401921723:recap -->

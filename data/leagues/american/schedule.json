@@ -2573,7 +2573,7 @@
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 41,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2581,13 +2581,13 @@
     "key": "north-texas",
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": 29,
+    "score": 45,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:28 - 2nd"
   },
   {
    "game_id": "401925865",
@@ -2618,7 +2618,7 @@
     "key": null,
     "name": "Mississippi State Bulldogs",
     "abbr": "MSST",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2626,13 +2626,13 @@
     "key": "tulsa",
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:39 - 1st"
   },
   {
    "game_id": "401916125",
@@ -12117,5 +12117,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:26:23+00:00"
+ "live_at": "2026-11-21T00:49:19+00:00"
 }

@@ -27,9 +27,9 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**29 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brian editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brian editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,5 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 - 2026-11-15: Social recap posted (L 71-80 vs James Madison Dukes): https://hardwoodbricks.com/sunbelt/games/401919825.html <!-- post:401919825:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:preview -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:preview -->
+- 2026-11-20: L 56-63 at Canisius Golden Griffins. Barometer 29 (despondent). <!-- g:401919827 -->
+- 2026-11-21: Social recap posted (L 56-63 vs Canisius Golden Griffins): https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:recap -->

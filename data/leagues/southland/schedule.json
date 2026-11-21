@@ -2331,7 +2331,7 @@
     "key": "incarnate-word",
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": 33,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2339,13 +2339,13 @@
     "key": null,
     "name": "Central Baptist Mustangs",
     "abbr": "CNTB",
-    "score": 21,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:20 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920818",
@@ -2376,7 +2376,7 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 23,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -2384,13 +2384,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 14,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:28 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401925080",
@@ -2417,7 +2417,7 @@
     "key": "northwestern-state",
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2425,13 +2425,13 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:30 - 1st"
   },
   {
    "game_id": "401917953",
@@ -10070,5 +10070,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:32:01+00:00"
+ "live_at": "2026-11-21T00:55:28+00:00"
 }

@@ -2646,7 +2646,7 @@
     "key": "drexel",
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": 17,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2654,13 +2654,13 @@
     "key": null,
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 20,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:17 - 1st"
+   "detail": "3:18 - 1st"
   },
   {
    "game_id": "401924736",
@@ -2691,7 +2691,7 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": 20,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2699,13 +2699,13 @@
     "key": "monmouth",
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 19,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:42 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401909799",
@@ -11990,5 +11990,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:28:55+00:00"
+ "live_at": "2026-11-21T00:52:05+00:00"
 }

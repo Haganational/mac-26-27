@@ -27,9 +27,9 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
+**56 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 - 2026-11-18: W 88-63 vs Central Michigan Chippewas. Barometer 48 (steady). <!-- g:401911019 -->
 - 2026-11-18: Social recap posted (W 88-63 vs Central Michigan Chippewas): https://hardwoodbricks.com/games/401911019.html <!-- post:401911019:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401921419.html <!-- post:401921419:preview -->
+- 2026-11-20: W 63-46 vs (neutral) Utah Utes. Barometer 56 (steady). <!-- g:401921419 -->
+- 2026-11-21: Social recap posted (W 63-46 vs Utah Utes): https://hardwoodbricks.com/a10/games/401921419.html <!-- post:401921419:recap -->
