@@ -2391,7 +2391,7 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 50,
+    "score": 66,
     "winner": null
    },
    "away": {
@@ -2399,13 +2399,13 @@
     "key": null,
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 51,
+    "score": 74,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:24 - 2nd"
+   "detail": "5:56 - 2nd"
   },
   {
    "game_id": "401923402",
@@ -2441,7 +2441,7 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 11,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2449,13 +2449,13 @@
     "key": null,
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 12,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "9:32 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920773",
@@ -9313,5 +9313,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T17:21:38+00:00"
+ "live_at": "2026-11-21T17:51:07+00:00"
 }
