@@ -1883,13 +1883,13 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 44,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "17:24 - 2nd"
   },
   {
    "game_id": "401924736",
@@ -1920,7 +1920,7 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": 37,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -1928,13 +1928,13 @@
     "key": null,
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 32,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:47 - 2nd"
   },
   {
    "game_id": "401923402",
@@ -7262,5 +7262,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:51:26+00:00"
+ "live_at": "2026-11-21T01:11:52+00:00"
 }

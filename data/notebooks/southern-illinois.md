@@ -27,9 +27,9 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 
 ## Barometer
 
-**49 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cleo editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cleo editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,5 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 - 2026-11-17: L 78-87 vs (neutral) Liberty Flames. Barometer 49 (steady). <!-- g:401920953 -->
 - 2026-11-18: Social recap posted (L 78-87 vs Liberty Flames): https://hardwoodbricks.com/mvc/games/401920953.html <!-- post:401920953:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/mvc/games/401916124.html <!-- post:401916124:preview -->
+- 2026-11-20: L 73-76 vs (neutral) UT Martin Skyhawks. Barometer 43 (testy). <!-- g:401916124 -->
+- 2026-11-21: Social recap posted (L 73-76 vs UT Martin Skyhawks): https://hardwoodbricks.com/mvc/games/401916124.html <!-- post:401916124:recap -->

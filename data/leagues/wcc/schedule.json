@@ -2176,7 +2176,7 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2184,13 +2184,13 @@
     "key": null,
     "name": "West Coast Baptist Eagles",
     "abbr": "WCBC",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:16 - 1st"
   },
   {
    "game_id": "401911252",
@@ -9674,5 +9674,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T01:09:57+00:00"
 }

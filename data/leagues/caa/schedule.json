@@ -2646,7 +2646,7 @@
     "key": "drexel",
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": 27,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2654,13 +2654,13 @@
     "key": null,
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 27,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:18 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924736",
@@ -2691,7 +2691,7 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": 37,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -2699,13 +2699,13 @@
     "key": "monmouth",
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": 32,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:27 - 2nd"
   },
   {
    "game_id": "401909799",
@@ -2736,7 +2736,7 @@
     "key": null,
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2744,13 +2744,13 @@
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:55 - 1st"
   },
   {
    "game_id": "401924882",
@@ -11990,5 +11990,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:52:05+00:00"
+ "live_at": "2026-11-21T01:12:18+00:00"
 }

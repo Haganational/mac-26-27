@@ -3164,7 +3164,7 @@
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 55,
+    "score": 66,
     "winner": null
    },
    "away": {
@@ -3172,13 +3172,13 @@
     "key": null,
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": 45,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:28 - 2nd"
+   "detail": "7:53 - 2nd"
   },
   {
    "game_id": "401906852",
@@ -3209,7 +3209,7 @@
     "key": null,
     "name": "Tennessee Volunteers",
     "abbr": "TENN",
-    "score": 41,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -3217,13 +3217,13 @@
     "key": "coastal-carolina",
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": 29,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:00 - 2nd"
   },
   {
    "game_id": "401926782",
@@ -3250,7 +3250,7 @@
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 31,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -3258,13 +3258,13 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 33,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:11 - 1st"
+   "detail": "17:29 - 2nd"
   },
   {
    "game_id": "401929459",
@@ -3295,7 +3295,7 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -3303,13 +3303,13 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:18 - 1st"
   },
   {
    "game_id": "401912710",
@@ -12629,5 +12629,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:50:16+00:00"
+ "live_at": "2026-11-21T01:11:05+00:00"
 }

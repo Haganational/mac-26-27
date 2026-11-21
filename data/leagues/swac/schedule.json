@@ -2697,7 +2697,7 @@
     "key": "alabama-am",
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2705,13 +2705,13 @@
     "key": null,
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:59 - 1st"
   },
   {
    "game_id": "401925740",
@@ -2742,7 +2742,7 @@
     "key": null,
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2750,13 +2750,13 @@
     "key": "mvsu",
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:12 - 1st"
   },
   {
    "game_id": "401925664",
@@ -10907,5 +10907,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T01:18:45+00:00"
 }
