@@ -16,6 +16,22 @@ Foul Him / Don't Foul Him
     "Don't Foul Him" is the top five, "Foul Him" the bottom five, among teams with at least
     MIN_FTA second-half attempts. A game counts only when its free-throw log matches the box score's
     made and attempted totals for both teams, so a garbled feed never moves a team's number.
+
+Final Exams (Matthew, Nov 20 2026)
+    Players ranked by points on go-ahead and tying baskets in the last ten minutes of the second
+    half and overtime: a basket that takes a team from behind or level to level or ahead.
+
+The Cardiologists
+    The teams whose games are hardest on the heart: the average total swing in win probability per
+    game, summed over every scoring play and shown in full swings (100 points of win probability:
+    one sure loss turned into one sure win). One formula for every game (score margin and time left,
+    no spread), so a game with ESPN's numbers and one without are measured the same way. Lead
+    changes per game ride along.
+
+Dunking and Donuts
+    How teams score: the share of points from threes, dunks, layups and other rim shots, other twos
+    and free throws. "Dunking" is the five teams with the most dunks per game; "Donuts" the five with
+    the fewest, the jump-shooting teams that rarely see the rim from above.
 """
 from __future__ import annotations
 
@@ -223,6 +239,135 @@ def rankings(season: int | None = None, teams: dict[str, dict[str, Any]] | None 
             "n_teams": len(teams), "last_day": _label(last)}
 
 
+# ---------------------------------------------------------------- Final Exams, The Cardiologists, Dunking and Donuts
+
+MIN_GAMES = 3  # games a team needs for the Cardiologists and Dunking and Donuts
+MIX = (("3", "Threes"), ("dunk", "Dunks"), ("rim", "Layups and rim"), ("two", "Other twos"), ("ft", "Free throws"))
+MIX_OF = {"3": "3", "dunk": "dunk", "layup": "rim", "tip": "rim", "hook": "two", "jumper": "two", "fg": "two", "ft": "ft"}
+
+
+def _scorer_side(prev: tuple[int, int], e: dict[str, Any]) -> str | None:
+    dh, da = e["h"] - prev[0], e["a"] - prev[1]
+    if dh > 0 and da == 0:
+        return "home"
+    if da > 0 and dh == 0:
+        return "away"
+    return None
+
+
+def clutch_baskets(g: dict[str, Any]) -> list[dict[str, Any]]:
+    """Go-ahead and tying baskets in the last ten minutes of the second half and overtime."""
+    out = []
+    prev = (0, 0)
+    start = 2 * HALF - LATE
+    for e in g.get("events") or []:
+        side = _scorer_side(prev, e)
+        if side and e["t"] >= start and e.get("pid"):
+            mine0, opp0 = (prev[0], prev[1]) if side == "home" else (prev[1], prev[0])
+            mine1, opp1 = (e["h"], e["a"]) if side == "home" else (e["a"], e["h"])
+            if mine0 <= opp0 and mine1 >= opp1:
+                out.append({"pid": e["pid"], "side": side, "pts": mine1 - mine0, "ahead": mine1 > opp1})
+        prev = (e["h"], e["a"])
+    return out
+
+
+def heart_rate(g: dict[str, Any]) -> tuple[float, int] | None:
+    """(total win-probability swing in percentage points, lead changes) for one game."""
+    from .moments import home_wp
+
+    ev = g.get("events") or []
+    if len(ev) < 10:
+        return None
+    end = period_end(max(e["per"] for e in ev))
+    wp, swing, changes, leader = 0.5, 0.0, 0, 0
+    for e in ev:
+        w = home_wp(e["h"] - e["a"], e["t"], end, None)
+        swing += abs(w - wp)
+        wp = w
+        now = (e["h"] > e["a"]) - (e["h"] < e["a"])
+        if now and leader and now != leader:
+            changes += 1
+        if now:
+            leader = now
+    return 100 * swing, changes
+
+
+def extras(teams: dict[str, dict[str, Any]], games: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, Any]:
+    from . import book
+
+    exams: dict[str, dict[str, Any]] = {}
+    heart: dict[str, list[float]] = {}
+    mix: dict[str, dict[str, float]] = {}
+    for gid, raw in games:
+        if not raw.get("e"):
+            continue
+        g = book.decode_game(gid, raw)
+        ids = {"home": str((raw.get("t") or [None, None])[0][0]) if raw["t"][0] else None,
+               "away": str(raw["t"][1][0]) if raw["t"][1] else None}
+        names = {str(p["espn_id"]): p.get("name") for p in g["players"]}
+        for b in clutch_baskets(g):
+            tid = ids[b["side"]]
+            if tid not in teams:
+                continue
+            x = exams.setdefault(b["pid"], {"pid": b["pid"], "tid": tid, "name": names.get(str(b["pid"])), "pts": 0, "n": 0, "ahead": 0})
+            x["pts"] += b["pts"]
+            x["n"] += 1
+            x["ahead"] += 1 if b["ahead"] else 0
+        hr = heart_rate(g)
+        ev = g["events"]
+        fh, fa = ev[-1]["h"], ev[-1]["a"]
+        if hr:
+            for side, won in (("home", fh > fa), ("away", fa > fh)):
+                if ids[side] in teams:
+                    h = heart.setdefault(ids[side], [0.0, 0, 0, 0, 0])
+                    h[0] += hr[0]
+                    h[1] += hr[1]
+                    h[2] += 1
+                    h[3 if won else 4] += 1
+        prev = (0, 0)
+        tally = {"home": {}, "away": {}}
+        for e in ev:
+            side = _scorer_side(prev, e)
+            if side:
+                pts = (e["h"] - prev[0]) if side == "home" else (e["a"] - prev[1])
+                k = MIX_OF.get(e["kind"], "two")
+                tally[side][k] = tally[side].get(k, 0) + pts
+                if e["kind"] == "dunk":
+                    tally[side]["n_dunk"] = tally[side].get("n_dunk", 0) + 1
+            prev = (e["h"], e["a"])
+        for side in ("home", "away"):
+            if ids[side] in teams:
+                m = mix.setdefault(ids[side], {"games": 0})
+                m["games"] += 1
+                for k, v in tally[side].items():
+                    m[k] = m.get(k, 0) + v
+    fe = sorted((x for x in exams.values() if x["name"]), key=lambda x: (-x["pts"], -x["ahead"], x["name"] or ""))
+    for i, x in enumerate(fe, 1):
+        t = teams[x["tid"]]
+        x.update(rank=i, short=t["short"], color=t["color"], conf_short=t["conf_short"], href=t["href"])
+    cards = []
+    for tid, (sw, ch, n, w, l) in heart.items():
+        if n >= MIN_GAMES:
+            cards.append({**teams[tid], "swings": round(sw / n / 100, 1), "changes": round(ch / n, 1), "games": n, "record": f"{w}-{l}"})
+    cards.sort(key=lambda r: (-r["swings"], -r["changes"], r["short"]))
+    for i, r in enumerate(cards, 1):
+        r["rank"] = i
+    mixes = []
+    for tid, m in mix.items():
+        tot = sum(m.get(k, 0) for k, _ in MIX)
+        if m["games"] >= MIN_GAMES and tot:
+            mixes.append({**teams[tid], "games": m["games"], "dpg": round(m.get("n_dunk", 0) / m["games"], 1),
+                          "dunks": m.get("n_dunk", 0),
+                          "mix": [{"k": k, "label": lab, "pct": round(100 * m.get(k, 0) / tot, 1)} for k, lab in MIX]})
+    dunking = sorted(mixes, key=lambda r: (-r["dunks"] / r["games"], r["short"]))
+    donuts = sorted(mixes, key=lambda r: (r["dunks"] / r["games"], r["short"]))
+    for lst in (dunking, donuts):
+        lst[:] = [dict(r, rank=i) for i, r in enumerate(lst, 1)]
+    return {"exams": fe[:TOP], "n_exams": len(fe), "cardio": cards[:TOP], "n_cardio": len(cards),
+            "dunking": dunking[:FIVE], "donuts": donuts[:FIVE] if len(mixes) >= 2 * FIVE else [], "n_mix": len(mixes),
+            "mix_keys": MIX, "min_games": MIN_GAMES}
+
+
 def _label(day: str) -> str:
     try:
         return datetime.fromisoformat(day).strftime("%b %-d, %Y")
@@ -240,7 +385,12 @@ def _comeback_key(r: dict[str, Any]) -> tuple:
 
 
 def page_context(season: int | None = None) -> dict[str, Any] | None:
-    r = rankings(season)
+    from .config import SEASON
+
+    teams = _teams()
+    games = list(_games(season or SEASON))
+    r = rankings(season, teams=teams, games=games)
+    r.update(extras(teams, games))
     if not r["kings"] and not r["dont_foul"]:
         return None
     for row in r["kings"]:
