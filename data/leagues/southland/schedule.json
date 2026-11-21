@@ -2331,7 +2331,7 @@
     "key": "incarnate-word",
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2339,13 +2339,13 @@
     "key": null,
     "name": "Central Baptist Mustangs",
     "abbr": "CNTB",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:20 - 1st"
   },
   {
    "game_id": "401920818",
@@ -2376,7 +2376,7 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 8,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2384,13 +2384,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 3,
+    "score": 14,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:41 - 1st"
+   "detail": "6:28 - 1st"
   },
   {
    "game_id": "401925080",
@@ -10070,5 +10070,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T00:09:02+00:00"
+ "live_at": "2026-11-21T00:32:01+00:00"
 }

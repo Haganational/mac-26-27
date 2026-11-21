@@ -2757,7 +2757,7 @@
     "key": null,
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2765,13 +2765,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:34 - 1st"
   },
   {
    "game_id": "401925756",
@@ -10590,5 +10590,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T00:20:03+00:00"
 }

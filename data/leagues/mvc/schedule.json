@@ -2372,7 +2372,7 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 43,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -2380,13 +2380,13 @@
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 47,
+    "score": 63,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:41 - 2nd"
+   "detail": "9:20 - 2nd"
   },
   {
    "game_id": "401921692",
@@ -2413,7 +2413,7 @@
     "key": "murray-state",
     "name": "Murray State Racers",
     "abbr": "MUR",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2421,13 +2421,13 @@
     "key": null,
     "name": "Wisconsin Badgers",
     "abbr": "WIS",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:45 - 1st"
   },
   {
    "game_id": "401927365",
@@ -9556,5 +9556,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-20T23:59:07+00:00"
+ "live_at": "2026-11-21T00:23:16+00:00"
 }
