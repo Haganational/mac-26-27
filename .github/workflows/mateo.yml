@@ -18,12 +18,26 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Build long videos (folders with build.py, marked go, not yet posted)
+        run: |
+          for d in mateo/*/; do
+            [ -f "$d/build.py" ] && [ ! -f "$d/video.mp4" ] || continue
+            python - "$d" <<'PY' || continue
+          import json, sys, pathlib
+          p = json.loads((pathlib.Path(sys.argv[1]) / "post.json").read_text())
+          sys.exit(0 if p.get("go") and not p.get("youtube_id") else 1)
+          PY
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+            pip install -q scipy
+            python "$d/build.py" "$(python -c "import json,sys;print(json.load(open(sys.argv[1]+'/post.json')).get('hours',8))" "$d")" "$d/video.mp4"
+          done
       - name: Upload to Mateo's channel
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}

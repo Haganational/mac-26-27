@@ -42,3 +42,26 @@ def test_uploads_and_records_the_id(tmp_path, monkeypatch):
     monkeypatch.setattr(mateo_post, "_call", fake)
     assert mateo_post.post_one(tmp_path, "t") == "abc"
     assert json.loads((tmp_path / "post.json").read_text())["url"] == "https://youtube.com/shorts/abc"
+
+
+def test_long_videos_upload_in_chunks(tmp_path, monkeypatch):
+    f = tmp_path / "video.mp4"
+    f.write_bytes(b"x" * 25)
+    monkeypatch.setattr(mateo_post, "CHUNK", 10)
+    sent = []
+
+    class R:
+        def __init__(self, code, rng=""):
+            self.status_code, self.headers = code, {"Range": rng} if rng else {}
+
+        def json(self):
+            return {"id": "long1"}
+    import requests
+
+    def put(url, data=None, timeout=None, headers=None):
+        sent.append(headers["Content-Range"])
+        end = int(headers["Content-Range"].split("-")[1].split("/")[0])
+        return R(200) if end == 24 else R(308, f"bytes=0-{end}")
+    monkeypatch.setattr(requests, "put", put)
+    assert mateo_post.send_video("https://u/s", "t", f) == "long1"
+    assert sent == ["bytes 0-9/25", "bytes 10-19/25", "bytes 20-24/25"]

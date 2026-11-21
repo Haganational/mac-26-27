@@ -8,6 +8,8 @@ Matthew's say-so.
 
 post.json: {"title", "description", "go": true, "privacy": "public|unlisted|private",
             "video": "video.mp4", "thumbnail": "thumb.jpg" (optional), "short": true}
+A folder may hold build.py instead of video.mp4 (long sleep videos, hours long): mateo.yml runs it
+to make video.mp4 on the runner just before upload, so the big file never sits in the repo.
 
 Safety: before uploading, the token's channel must look like Mateo's (MATEO_CHANNEL_MATCH, default
 "Mateo"), so a Bricks token pasted into the wrong secret can never post Mateo videos to Bricks.
@@ -24,6 +26,40 @@ from pathlib import Path
 
 from . import alert
 from .youtube import API, UPLOAD, SPORTS, _call, access_token, already_up
+
+CHUNK = 32 * 1024 * 1024  # long videos (the 8-hour sleep ones) upload in pieces, never read whole
+
+
+def send_video(session: str, token: str, path: Path) -> str:
+    """Upload to a resumable session; returns the video id. Small files go in one request."""
+    size = path.stat().st_size
+    if size <= CHUNK:
+        return _call(session, token, path.read_bytes(), "video/mp4", "PUT")[0]["id"]
+    import requests
+    with path.open("rb") as f:
+        start = 0
+        while start < size:
+            f.seek(start)
+            piece = f.read(CHUNK)
+            end = start + len(piece) - 1
+            for attempt in range(5):
+                try:
+                    r = requests.put(session, data=piece, timeout=600, headers={
+                        "Authorization": f"Bearer {token}", "Content-Type": "video/mp4",
+                        "Content-Range": f"bytes {start}-{end}/{size}"})
+                    break
+                except requests.RequestException as e:
+                    print(f"mateo: chunk at {start} failed ({e}), retrying")
+            else:
+                raise RuntimeError("upload kept failing")
+            if r.status_code in (200, 201):
+                return r.json()["id"]
+            if r.status_code != 308:
+                raise RuntimeError(f"YouTube answered {r.status_code}: {r.text[:300]}")
+            got = r.headers.get("Range", "")
+            start = int(got.split("-")[1]) + 1 if got else start
+            print(f"mateo: {start / size:.0%} uploaded", flush=True)
+    raise RuntimeError("upload ended without a video id")
 
 DISCLOSURE = ("Mateo Sandoval is a fictional AI persona created by Hardwood Bricks. "
               "Not affiliated with the University of New Mexico.")
@@ -60,7 +96,7 @@ def post_one(folder: Path, token: str) -> str | None:
         return None
     _, head = _call(f"{UPLOAD}/videos?uploadType=resumable&part=snippet,status", token, json.dumps(meta).encode())
     session = head.get("Location") or head.get("location")
-    vid = _call(session, token, (folder / post.get("video", "video.mp4")).read_bytes(), "video/mp4", "PUT")[0]["id"]
+    vid = send_video(session, token, folder / post.get("video", "video.mp4"))
     thumb = folder / post.get("thumbnail", "thumb.jpg")
     if thumb.exists():
         try:
