@@ -58,6 +58,20 @@
   {% endif %}
   <div class="front">
     <div>
+      {% if pin %}
+      {#- Above the fold (Nov 21 2026): Matthew's pinned story or dispatch, in place of the lead game card for 12 or 24 hours.
+          Tonight's games, if it's game night, follow it; the lead recap moves down to the river. -#}
+      <article class="pin{{ ' pin-img' if pin.photo }}" id="pin" data-until="{{ pin.until_ms }}" style="--c:{{ pin.color }}">
+        {% if pin.photo %}<a href="{{ pin.href }}" class="pin-fig"><img src="{{ pin.photo }}" alt="{{ pin.caption }}" loading="eager"></a>{% endif %}
+        <div class="pin-txt">
+          <span class="kick" style="--c:{{ pin.color }}"><span class="cf">{{ pin.league }}</span>{{ pin.label }}{% if pin.author %} · {{ pin.author }}{% endif %}</span>
+          <h2><a href="{{ pin.href }}">{{ pin.title|nobreak }}</a></h2>
+          {% if pin.dek %}<p>{{ pin.dek }}</p>{% endif %}
+          <a class="lead-more" href="{{ pin.href }}">{{ 'Read the article' if pin.article else 'Read the dispatch' }} →</a>
+        </div>
+      </article>
+      <script>(function(){var p=document.getElementById('pin');if(p&&Date.now()>+p.dataset.until)p.remove();})();</script>
+      {% endif %}
       {% if night %}
       {#- Game night (mac.hub.game_night): tonight's games lead instead of last night's finals, which move to the rail. -#}
       <section class="night" aria-labelledby="h-night">
@@ -94,7 +108,7 @@
         {% if lead.dek and (lead.photo or not lead.image) %}<p>{{ lead.dek }}</p>{% endif %}
       </a>
       {% endif %}
-      {% else %}
+      {% elif not pin %}
       <div class="lead noimg"><h2>Mid-major men's basketball, every game</h2><p>Tonight's schedule and TV, last night's finals with a written recap and box score, and a page for every team and player.</p></div>
       {% endif %}
       {% if cards %}

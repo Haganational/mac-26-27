@@ -61,6 +61,16 @@
   .lead h2 { font: 700 clamp(26px, 3.6vw, 38px)/1.12 var(--serif); letter-spacing: -.01em; margin: 6px 0 8px; }
   .lead p { margin: 0; color: var(--ink-2); font: 17px/1.55 var(--serif); max-width: 62ch; }
   .lead.noimg { padding: 22px; border-radius: 6px; background: var(--hick) linear-gradient(rgba(42,26,16,.82), rgba(42,26,16,.82)); color: #f6efe6; }
+  /* Above the fold (Nov 21 2026): a pinned story or dispatch in the lead's place. Same scale as the lead, ruled off in the edition's color. */
+  .pin { display: grid; gap: 14px; padding: 0 0 22px; margin-bottom: 22px; border-bottom: 3px solid var(--c, var(--accent)); }
+  .pin.pin-img { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: start; }
+  @media (max-width: 640px) { .pin.pin-img { grid-template-columns: 1fr; } }
+  .pin-fig img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; background: var(--hick); }
+  .pin-txt { min-width: 0; }
+  .pin h2 { font: 700 clamp(26px, 3.6vw, 38px)/1.12 var(--serif); letter-spacing: -.01em; margin: 6px 0 10px; text-wrap: balance; }
+  .pin h2 a { color: inherit; text-decoration: none; } .pin h2 a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+  .pin p { margin: 0; color: var(--ink-2); font: 17px/1.55 var(--serif); max-width: 62ch; }
+  .pin .lead-more { display: inline-block; margin-top: 12px; font: 600 14px/1 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
   .night-hd h2 { font: 700 clamp(26px, 3.6vw, 38px)/1.12 var(--serif); letter-spacing: -.01em; margin: 6px 0 4px; }
   .night-sub { margin: 0 0 14px; color: var(--ink-2); font-size: 14px; }
   .ng-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }

@@ -18,6 +18,9 @@ Each dispatch is a Markdown file in notes/dispatches/, committed to the repo:
     video: dQw4w9WgXcQ | Title   optional: the YouTube video the dispatch is about
     format: article          optional: an original article, published on its own page (articles/<slug>.html)
     ref: /tops.html | Title  optional: the page of the site it is about (a pick, a ranking, a list): a path from the site root
+    pin_until: 2026-11-22T16:00Z   optional: leads the front page ("above the fold") in place of the lead game card
+                             until this time (UTC). The desk writes it from "Above the fold: 12 / 24 hours".
+                             "pin: 12" or "pin: 24" by hand counts the hours from the dispatch's own date and time.
     ---
     The dispatch itself, in Markdown.
 
@@ -39,7 +42,7 @@ from __future__ import annotations
 
 import html
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any
@@ -134,6 +137,25 @@ def _published(meta: dict[str, str], stem: str) -> str:
     except ValueError:
         dt = datetime(2000, 1, 1, tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc).isoformat(timespec="seconds")
+
+
+def pin_until(meta: dict[str, str], stem: str) -> str | None:
+    """Above the fold (Nov 21 2026): the UTC time a pinned dispatch stops leading the front page, or None.
+    pin_until is an absolute time (what the desk writes); pin is hours from the dispatch's published time."""
+    raw = (meta.get("pin_until") or "").strip()
+    if raw:
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=ET)
+        return dt.astimezone(timezone.utc).isoformat(timespec="seconds")
+    hours = (meta.get("pin") or "").strip().lower().removesuffix("h").strip()
+    if hours.replace(".", "", 1).isdigit() and 0 < float(hours) <= 72:
+        start = datetime.fromisoformat(_published(meta, stem))
+        return (start + timedelta(hours=float(hours))).isoformat(timespec="seconds")
+    return None
 
 
 def photos_of(meta: dict[str, str], credit: str) -> list[dict[str, str]]:
