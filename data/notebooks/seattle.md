@@ -69,7 +69,7 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:preview -->
 - 2026-11-18: W 83-54 at California Baptist Lancers. Barometer 61 (steady). <!-- g:401917533 -->
 - 2026-11-18: Social recap posted (W 83-54 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:preview -->
