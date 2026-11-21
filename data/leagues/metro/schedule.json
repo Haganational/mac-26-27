@@ -3002,7 +3002,7 @@
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -3010,13 +3010,13 @@
     "key": null,
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:01 - 1st"
   },
   {
    "game_id": "401924882",
@@ -3047,7 +3047,7 @@
     "key": "saint-peters",
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -3055,13 +3055,13 @@
     "key": null,
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:45 - 1st"
   },
   {
    "game_id": "401923322",
@@ -11377,5 +11377,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:28:49+00:00"
+ "live_at": "2026-11-21T19:19:53+00:00"
 }

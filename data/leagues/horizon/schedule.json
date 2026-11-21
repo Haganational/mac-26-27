@@ -2794,21 +2794,21 @@
     "key": null,
     "name": "Michigan State Spartans",
     "abbr": "MSU",
-    "score": 77,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2174",
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 64,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:11 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921169",
@@ -2835,7 +2835,7 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 27,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2843,13 +2843,13 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 38,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:59 - 2nd"
   },
   {
    "game_id": "401911022",
@@ -2880,7 +2880,7 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2888,13 +2888,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:56 - 1st"
   },
   {
    "game_id": "401928819",
@@ -2921,7 +2921,7 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2929,13 +2929,13 @@
     "key": null,
     "name": "Calumet St. Joseph Crimson Wave",
     "abbr": "CSJ",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:44 - 1st"
   },
   {
    "game_id": "401920846",
@@ -10583,5 +10583,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:52:50+00:00"
+ "live_at": "2026-11-21T19:18:42+00:00"
 }

@@ -1958,7 +1958,7 @@
     "key": null,
     "name": "LSU Tigers",
     "abbr": "LSU",
-    "score": 50,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -1966,13 +1966,13 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": 40,
+    "score": 47,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:02 - 1st"
+   "detail": "15:53 - 2nd"
   },
   {
    "game_id": "401922222",
@@ -2003,7 +2003,7 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2011,13 +2011,13 @@
     "key": null,
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:03 - 1st"
   },
   {
    "game_id": "401917918",
@@ -8261,5 +8261,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:52:08+00:00"
+ "live_at": "2026-11-21T19:18:13+00:00"
 }

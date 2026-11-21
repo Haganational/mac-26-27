@@ -2075,7 +2075,7 @@
     "key": null,
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2083,13 +2083,13 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:54 - 1st"
   },
   {
    "game_id": "401911337",
@@ -9004,5 +9004,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T19:19:22+00:00"
 }

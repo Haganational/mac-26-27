@@ -3094,7 +3094,7 @@
     "key": null,
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3102,13 +3102,13 @@
     "key": "fordham",
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401918995",
@@ -12863,5 +12863,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T19:21:50+00:00"
 }

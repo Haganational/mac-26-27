@@ -2262,7 +2262,7 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 22,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -2270,13 +2270,13 @@
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 33,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:15 - 2nd"
   },
   {
    "game_id": "401911199",
@@ -2307,7 +2307,7 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2315,13 +2315,13 @@
     "key": null,
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401917538",
@@ -9671,5 +9671,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T18:59:36+00:00"
+ "live_at": "2026-11-21T19:23:10+00:00"
 }

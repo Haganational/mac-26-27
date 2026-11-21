@@ -3369,7 +3369,7 @@
     "key": "james-madison",
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -3377,13 +3377,13 @@
     "key": null,
     "name": "Virginia Lynchburg Dragons",
     "abbr": "VUL",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:12 - 1st"
   },
   {
    "game_id": "401925065",
@@ -12634,5 +12634,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-21T19:24:26+00:00"
 }
