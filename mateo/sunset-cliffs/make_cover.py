@@ -30,7 +30,7 @@ def layer(title_size, sub_size, rd_size, r):
     y3 = 40 + title_size * 1.12 + sub_size * 1.25
     f3 = ImageFont.truetype(SI, int(sub_size * 0.72)); fo = ImageFont.truetype(S, int(sub_size * 0.72))
     d.text((54, y3), "PACIFIC", font=fo, fill=(72, 214, 168, 255))
-    d.text((54 + d.textlength("PACIFIC ", font=fo), y3), "snuggles", font=f3, fill=(255, 236, 214, 255))
+    d.text((54 + d.textlength("PACIFIC ", font=fo), y3), "swells with Mateo", font=f3, fill=(255, 236, 214, 255))
     medallion(d, ov, W - r - 46, r + 36, r)
     f = ImageFont.truetype(S, rd_size); t = "REST   ·   DIGEST"
     yr = H - rd_size - 34
