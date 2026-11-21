@@ -66,7 +66,7 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:preview -->
 - 2026-11-20: W 87-77 vs Bloomfield Deacons. Barometer 39 (testy). <!-- g:401925841 -->
 - 2026-11-20: Social recap posted (W 87-77 vs Bloomfield Deacons): https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:preview -->

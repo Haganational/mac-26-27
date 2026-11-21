@@ -69,7 +69,7 @@ Caleb Whitfield coached youth soccer and led summer hikes on the Blue Ridge Park
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Caleb Whitfield coached youth soccer and led summer hikes on the Blue Ridge Park
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920066.html <!-- post:401920066:preview -->
 - 2026-11-20: W 71-68 vs (neutral) Rhode Island Rams. Barometer 73 (buoyant). <!-- g:401920066 -->
 - 2026-11-20: Social recap posted (W 71-68 vs Rhode Island Rams): https://hardwoodbricks.com/a10/games/401920066.html <!-- post:401920066:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401926795.html <!-- post:401926795:preview -->
