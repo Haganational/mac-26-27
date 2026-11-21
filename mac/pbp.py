@@ -157,7 +157,10 @@ def fetch_game(game_id: str) -> dict[str, Any]:
 def game_from_summary(game_id: str, summary: dict[str, Any]) -> dict[str, Any]:
     box = parse_summary(game_id, summary)
     st = build_stints(summary)
+    from .clutch import ft_halves
     from .moments import events_from_summary
+    side_of_team = {t["espn_id"]: t["home_away"] for t in box["teams"]}
+    side_of_player = {str(p["espn_id"]): side_of_team.get(p["team_espn_id"]) for p in box["players"]}
     header = (summary.get("header") or {}).get("competitions", [{}])[0]
     return {
         "game_id": game_id,
@@ -167,6 +170,7 @@ def game_from_summary(game_id: str, summary: dict[str, Any]) -> dict[str, Any]:
         "players": box["players"],
         "stints": st["stints"],
         "events": events_from_summary(summary),  # scoring plays, for mac/moments.py
+        "ft": ft_halves(summary, side_of_player, {str(k): v for k, v in side_of_team.items()}),  # free throws by half, mac/clutch.py
     }
 
 

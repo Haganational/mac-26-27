@@ -613,7 +613,7 @@ def backfill(season: int | None = None, limit: int = 200, workers: int = 4) -> d
     todo = []
     for path in sorted(d.glob("*.json.gz"), reverse=True):
         for gid, g in book.read_gz(path).items():
-            if "e" not in g:
+            if "e" not in g or "f" not in g:  # "f": free throws by half, added Nov 20 2026 (mac/clutch.py)
                 todo.append(gid)
     missing = len(todo)
     todo = todo[:limit]

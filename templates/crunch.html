@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crunch Time · Hardwood Bricks</title>
+<meta name="description" content="Comeback Kings and Foul Him / Don't Foul Him: late-game team rankings across our {{ n_conf }} conferences, read from every game's play-by-play.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}crunch-time.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="Crunch Time: Comeback Kings and Foul Him / Don't Foul Him">
+<meta property="og:url" content="{{ base }}crunch-time.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .ct { max-width: 1000px; }
+  .ct h1 { font: 600 clamp(36px, 5.4vw, 60px)/1.02 var(--serif); letter-spacing: -.025em; margin: 22px 0 10px; }
+  .ct .dek { font: 400 20px/1.5 var(--serif); color: var(--ink-2); max-width: 62ch; margin: 0 0 8px; }
+  .ct .meta { font: 600 13px/1.4 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  .ct section { border-top: 3px solid var(--rule-2); padding-top: 12px; margin: 38px 0 0; }
+  .ct h2 { font: 600 28px/1.1 var(--serif); letter-spacing: -.01em; margin: 0 0 6px; }
+  .ct h3 { font: 600 22px/1.1 var(--serif); margin: 0 0 2px; }
+  .ct section > p, .ct .sub { font: 400 17px/1.55 var(--serif); color: var(--ink-2); max-width: 66ch; }
+  .ct .sub { font-size: 15.5px; margin: 0; }
+
+  .tbl { width: 100%; border-collapse: collapse; margin-top: 14px; font-variant-numeric: tabular-nums; }
+  .tbl th { font: 600 12.5px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: right; padding: 0 8px 8px; border-bottom: 2px solid var(--rule-2); white-space: nowrap; }
+  .tbl td { padding: 9px 8px; border-bottom: 1px solid var(--rule); text-align: right; white-space: nowrap; }
+  .tbl th.l, .tbl td.l { text-align: left; }
+  .tbl td.rk { font: 600 22px/1 var(--serif); width: 1%; }
+  .tbl td.tm { white-space: normal; }
+  .tbl td.tm a { font: 600 18px/1.2 var(--serif); }
+  .tbl td.tm a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .tbl td.tm .chip { display: inline-block; width: 10px; height: 10px; margin-right: 8px; background: var(--c); box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
+  .tbl td.tm small { display: block; font: 600 12px/1.3 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 2px 0 0 18px; }
+  .tbl td.w { font: 700 20px/1 var(--serif); }
+  .tbl td.g { white-space: normal; font: 400 15px/1.35 var(--serif); color: var(--ink-2); }
+  .tbl td.g a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 3px; }
+  @media (max-width: 640px) {
+    .tbl .hide-sm { display: none; }
+    .tbl td, .tbl th { padding-left: 5px; padding-right: 5px; }
+    .tbl td.tm a { font-size: 16px; }
+    .tbl td.rk { font-size: 18px; }
+  }
+  .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 34px; margin-top: 16px; }
+  @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
+  .pending { margin: 16px 0 0; padding: 16px 18px; background: var(--hick); color: #f3e9d6; font: 400 17px/1.5 var(--serif); }
+  .ct ul.notes { font: 400 16px/1.55 var(--serif); color: var(--ink-2); padding-left: 20px; max-width: 66ch; }
+  .ct ul.notes li { margin: 6px 0; }
+</style>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar %}{{ hub_bar(eds, "crunch-time.html") }}
+<div class="bricks" aria-hidden="true"></div>
+<main class="ct">
+  <div class="dateline"><span>Through {{ through }}</span><span class="tag">Late-game rankings from the play-by-play</span><span>{{ season }}</span></div>
+  <h1>Crunch Time</h1>
+  <p class="dek">Two rankings from the end of games, when the box score stops telling you much. Who climbs out of a late hole, and who you want at the line when the other bench starts fouling.</p>
+  <p class="meta">{{ n_teams }} schools in {{ n_conf }} conferences · {{ n_pbp }} games with a full play-by-play</p>
+
+  <section id="comeback-kings" aria-labelledby="h-ck">
+    <h2 id="h-ck">Comeback Kings</h2>
+    <p>The biggest deficit a team came back from to win, counting only the last ten minutes of the second half and overtime. Ties go to the comeback with less time left. {{ n_kings }} of our schools have at least one so far.</p>
+    {% if kings_top %}
+    <table class="tbl">
+      <thead><tr><th>#</th><th class="l">Team</th><th>Down</th><th>Clock</th><th class="l hide-sm">The game</th><th class="hide-sm">Late comebacks</th></tr></thead>
+      <tbody>
+      {% for r in kings_top %}
+        <tr>
+          <td class="rk l">{{ r.rank }}</td>
+          <td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td>
+          <td class="w">{{ r.deficit }}</td>
+          <td>{{ r.when }}</td>
+          <td class="g l hide-sm">Trailed {{ r.then }}, won {{ r.score }} {{ "vs." if r.home else "at" }} {{ r.opp }}, {{ r.day }}{% if r.periods > 2 %} ({{ "" if r.periods == 3 else r.periods - 2 }}OT){% endif %}</td>
+          <td class="hide-sm">{{ r.count }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<div class="pending">No late comebacks yet this season.</div>{% endif %}
+  </section>
+
+  <section id="foul-him" aria-labelledby="h-fh">
+    <h2 id="h-fh">Foul Him / Don't Foul Him</h2>
+    <p>Free-throw shooting after halftime (second half and overtime), when fouling becomes a strategy. Teams need {{ min_fta }} second-half attempts to qualify{% if avg_pct %}; the {{ n_ft_teams }} that do shoot {{ avg_pct }} together{% endif %}.</p>
+    {% if dont_foul %}
+    <div class="pair">
+      <div>
+        <h3>Don't Foul Him</h3>
+        <p class="sub">The best second-half shooters. Make them beat you some other way.</p>
+        <table class="tbl">
+          <thead><tr><th>#</th><th class="l">Team</th><th>FT</th><th>Pct</th></tr></thead>
+          <tbody>{% for r in dont_foul %}
+            <tr><td class="rk l">{{ r.rank }}</td><td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td><td>{{ r.ftm }}-{{ r.fta }}</td><td class="w">{{ r.pct_label }}</td></tr>
+          {% endfor %}</tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Foul Him</h3>
+        <p class="sub">The worst. Send them to the line and get the ball back.</p>
+        <table class="tbl">
+          <thead><tr><th>#</th><th class="l">Team</th><th>FT</th><th>Pct</th></tr></thead>
+          <tbody>{% for r in foul %}
+            <tr><td class="rk l">{{ r.rank }}</td><td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td><td>{{ r.ftm }}-{{ r.fta }}</td><td class="w">{{ r.pct_label }}</td></tr>
+          {% endfor %}</tbody>
+        </table>
+      </div>
+    </div>
+    {% else %}<div class="pending">We started logging free throws by half on Nov 20, and the season's earlier games are being filled in now. This ranking appears once enough teams reach {{ min_fta }} second-half attempts.</div>{% endif %}
+  </section>
+
+  <section id="method" aria-labelledby="h-method">
+    <h2 id="h-method">How it works</h2>
+    <ul class="notes">
+      <li><b>The source.</b> ESPN's play-by-play for every D-I game: every scoring play with the running score and the clock, and every free throw, made or missed.</li>
+      <li><b>Comeback Kings.</b> From 10:00 left in the second half on, we track the winner's deficit after every basket. The biggest one is the comeback. The "Clock" column is the time left when it was biggest. A team appears once, with its best late comeback; "Late comebacks" counts every win it trailed in over that stretch.</li>
+      <li><b>Foul Him.</b> Only free throws after halftime count. A game is used only when its free-throw log adds up to the box score's made and attempted totals for both teams{% if n_ft %} ({{ n_ft_ok }} of {{ n_ft }} games so far){% endif %}, so a garbled feed never moves a number.</li>
+      <li><b>Early season.</b> Twenty attempts is a small sample. Expect the list to move a lot until conference play.</li>
+    </ul>
+  </section>
+</main>
+<footer><a href="./">All conferences</a> · <a href="at-large.html">At-Large Watch</a> · <a href="masthead.html">Masthead and standards</a> · Play-by-play from ESPN. Built {{ built }} UTC.</footer>
+</body>
+</html>
