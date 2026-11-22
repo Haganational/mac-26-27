@@ -68,7 +68,7 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -89,3 +89,4 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 - 2026-11-21: L 65-68 vs (neutral) Mercyhurst Lakers. Barometer 25 (despondent). <!-- g:401919828 -->
 - 2026-11-21: Social recap posted (L 65-68 vs Mercyhurst Lakers): https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:recap -->
 - 2026-11-22: W 66-46 at Canisius Golden Griffins. Barometer 43 (testy). <!-- g:401929023 -->
+- 2026-11-22: Social recap posted (W 66-46 vs Canisius Golden Griffins): https://hardwoodbricks.com/metro/games/401929023.html <!-- post:401929023:recap -->

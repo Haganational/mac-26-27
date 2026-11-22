@@ -3492,7 +3492,7 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3500,13 +3500,13 @@
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:07 - 1st"
   },
   {
    "game_id": "401925066",
@@ -3533,7 +3533,7 @@
     "key": null,
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -3541,13 +3541,13 @@
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:54 - 1st"
   },
   {
    "game_id": "401928999",
@@ -12630,5 +12630,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T20:08:02+00:00"
 }

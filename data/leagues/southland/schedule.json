@@ -2619,7 +2619,7 @@
     "key": "nicholls",
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2627,13 +2627,13 @@
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:24 - 1st"
   },
   {
    "game_id": "401929202",
@@ -10118,5 +10118,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T20:11:54+00:00"
 }

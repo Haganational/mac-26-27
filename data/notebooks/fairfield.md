@@ -27,9 +27,9 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**65 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Olivia editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Olivia editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -77,3 +77,5 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 - 2026-11-19: W 93-62 vs St. Joseph's Brooklyn Bears. Barometer 58 (steady). <!-- g:401924763 -->
 - 2026-11-19: Social recap posted (W 93-62 vs St. Joseph's Brooklyn Bears): https://hardwoodbricks.com/metro/games/401924763.html <!-- post:401924763:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:preview -->
+- 2026-11-22: W 74-71 at Long Island University Sharks. Barometer 65 (buoyant). <!-- g:401919809 -->
+- 2026-11-22: Social recap posted (W 74-71 vs Long Island University Sharks): https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:recap -->

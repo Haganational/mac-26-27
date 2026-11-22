@@ -2438,7 +2438,7 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:06 - 1st"
   },
   {
    "game_id": "401921206",
@@ -8346,5 +8346,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T19:47:41+00:00"
+ "live_at": "2026-11-22T20:14:03+00:00"
 }
