@@ -2855,7 +2855,7 @@
     "key": null,
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": 53,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -2863,13 +2863,13 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 66,
+    "score": 84,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:17 - 2nd"
+   "detail": "3:33 - 2nd"
   },
   {
    "game_id": "401920964",
@@ -2900,7 +2900,7 @@
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": 26,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2908,13 +2908,13 @@
     "key": null,
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": 21,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:50 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401912212",
@@ -12014,5 +12014,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:28:55+00:00"
+ "live_at": "2026-11-22T00:51:37+00:00"
 }
