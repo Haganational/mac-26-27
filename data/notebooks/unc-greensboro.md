@@ -70,7 +70,7 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:preview -->
 - 2026-11-21: W 85-66 vs South Carolina Upstate Spartans. Barometer 67 (buoyant). <!-- g:401922284 -->
 - 2026-11-21: Social recap posted (W 85-66 vs South Carolina Upstate Spartans): https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:preview -->
