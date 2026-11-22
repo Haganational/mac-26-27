@@ -70,7 +70,7 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:preview -->
 - 2026-11-19: W 82-70 vs Morgan State Bears. Barometer 61 (steady). <!-- g:401921156 -->
 - 2026-11-19: Social recap posted (W 82-70 vs Morgan State Bears): https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/caa/games/401921157.html <!-- post:401921157:preview -->

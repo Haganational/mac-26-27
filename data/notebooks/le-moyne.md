@@ -68,7 +68,7 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/nec/games/401919784.html <!-- post:401919784:preview -->
 - 2026-11-21: L 64-91 at Missouri Tigers. Barometer 38 (testy). <!-- g:401919784 -->
 - 2026-11-21: Social recap posted (L 64-91 vs Missouri Tigers): https://hardwoodbricks.com/nec/games/401919784.html <!-- post:401919784:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/nec/games/401919785.html <!-- post:401919785:preview -->
