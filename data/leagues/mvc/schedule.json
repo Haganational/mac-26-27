@@ -2577,21 +2577,21 @@
     "key": "valparaiso",
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": 65,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2653",
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": 67,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:37 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917537",
@@ -2622,7 +2622,7 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2630,13 +2630,13 @@
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:44 - 1st"
   },
   {
    "game_id": "401911024",
@@ -9644,5 +9644,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T02:50:42+00:00"
+ "live_at": "2026-11-22T03:18:25+00:00"
 }

@@ -2825,21 +2825,21 @@
     "key": "texas-southern",
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": 53,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2443",
     "key": null,
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": 68,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928389",
@@ -10904,5 +10904,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T03:08:45+00:00"
+ "live_at": "2026-11-22T03:36:44+00:00"
 }
