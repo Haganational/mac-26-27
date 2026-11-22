@@ -2081,7 +2081,7 @@
     "key": null,
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2089,13 +2089,13 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:08 - 1st"
   },
   {
    "game_id": "401920708",
@@ -8252,5 +8252,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T20:32:03+00:00"
 }

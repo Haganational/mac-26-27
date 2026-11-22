@@ -2933,8 +2933,8 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": 83,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "119",
@@ -2942,12 +2942,12 @@
     "name": "Towson Tigers",
     "abbr": "TOW",
     "score": 75,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918455",
@@ -2978,7 +2978,7 @@
     "key": null,
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 34,
+    "score": 57,
     "winner": null
    },
    "away": {
@@ -2986,13 +2986,13 @@
     "key": "william-mary",
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 47,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:36 - 2nd"
+   "detail": "4:54 - 2nd"
   },
   {
    "game_id": "401921177",
@@ -12002,5 +12002,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:09:23+00:00"
+ "live_at": "2026-11-22T20:41:25+00:00"
 }

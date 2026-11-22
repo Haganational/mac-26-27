@@ -2432,7 +2432,7 @@
     "key": null,
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2440,13 +2440,13 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:11 - 1st"
   },
   {
    "game_id": "401919761",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:15:41+00:00"
+ "live_at": "2026-11-22T20:49:04+00:00"
 }

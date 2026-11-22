@@ -2534,7 +2534,7 @@
     "key": null,
     "name": "Cincinnati Bearcats",
     "abbr": "CIN",
-    "score": 44,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2542,13 +2542,13 @@
     "key": "umass-lowell",
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 35,
+    "score": 59,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:46 - 2nd"
+   "detail": "3:59 - 2nd"
   },
   {
    "game_id": "401923323",
@@ -2575,7 +2575,7 @@
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2583,13 +2583,13 @@
     "key": null,
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:52 - 1st"
   },
   {
    "game_id": "401909556",
@@ -8788,5 +8788,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:14:35+00:00"
+ "live_at": "2026-11-22T20:47:42+00:00"
 }

@@ -1957,7 +1957,7 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -1965,13 +1965,13 @@
     "key": null,
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:38 - 1st"
   },
   {
    "game_id": "401921658",
@@ -8199,5 +8199,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T20:37:33+00:00"
 }

@@ -3003,7 +3003,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 27,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -3011,13 +3011,13 @@
     "key": null,
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 35,
+    "score": 54,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:50 - 2nd"
   },
   {
    "game_id": "401928790",
@@ -3038,7 +3038,7 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": 19,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -3046,13 +3046,13 @@
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 27,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:15 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921176",
@@ -10575,5 +10575,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:02:10+00:00"
+ "live_at": "2026-11-22T20:32:39+00:00"
 }
