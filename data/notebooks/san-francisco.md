@@ -67,7 +67,7 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:preview -->
 - 2026-11-19: W 77-56 vs Louisiana Ragin' Cajuns. Barometer 63 (steady). <!-- g:401921064 -->
 - 2026-11-19: Social recap posted (W 77-56 vs Louisiana Ragin' Cajuns): https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:preview -->
