@@ -2631,21 +2631,21 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 88,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2737",
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": 84,
-    "winner": null
+    "score": 86,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:14 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920975",
@@ -2676,7 +2676,7 @@
     "key": "chattanooga",
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": 4,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2684,13 +2684,13 @@
     "key": null,
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": 2,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:50 - 1st"
+   "detail": "8:00 - 1st"
   },
   {
    "game_id": "401911378",
@@ -2717,7 +2717,7 @@
     "key": "mercer",
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": 5,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2725,13 +2725,13 @@
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 4,
+    "score": 13,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:53 - 1st"
+   "detail": "9:22 - 1st"
   },
   {
    "game_id": "401911394",
@@ -2762,7 +2762,7 @@
     "key": "vmi",
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": 5,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2770,13 +2770,13 @@
     "key": null,
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": 3,
+    "score": 14,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:27 - 1st"
+   "detail": "11:10 - 1st"
   },
   {
    "game_id": "401926217",
@@ -9916,5 +9916,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:07:05+00:00"
+ "live_at": "2026-11-22T00:30:21+00:00"
 }

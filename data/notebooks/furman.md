@@ -68,7 +68,7 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 - 2026-11-19: Social recap posted (W 78-71 vs Radford Highlanders): https://hardwoodbricks.com/socon/games/401922055.html <!-- post:401922055:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926113.html <!-- post:401926113:preview -->
 - 2026-11-21: W 108-69 vs Clinton Golden Bears. Barometer 70 (buoyant). <!-- g:401926113 -->
+- 2026-11-22: Social recap posted (W 108-69 vs Clinton Golden Bears): https://hardwoodbricks.com/socon/games/401926113.html <!-- post:401926113:recap -->

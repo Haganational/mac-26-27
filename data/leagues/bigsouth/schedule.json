@@ -2069,8 +2069,8 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 89,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2737",
@@ -2078,12 +2078,12 @@
     "name": "Winthrop Eagles",
     "abbr": "WIN",
     "score": 86,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911378",
@@ -2110,7 +2110,7 @@
     "key": null,
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": 9,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2118,13 +2118,13 @@
     "key": "charleston-southern",
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 4,
+    "score": 15,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:13 - 1st"
+   "detail": "7:59 - 1st"
   },
   {
    "game_id": "401911394",
@@ -2155,7 +2155,7 @@
     "key": null,
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": 10,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2163,13 +2163,13 @@
     "key": "gardner-webb",
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": 5,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:47 - 1st"
+   "detail": "9:29 - 1st"
   },
   {
    "game_id": "401920975",
@@ -2200,7 +2200,7 @@
     "key": null,
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": 7,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2208,13 +2208,13 @@
     "key": "radford",
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": 5,
+    "score": 27,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:15 - 1st"
+   "detail": "7:55 - 1st"
   },
   {
    "game_id": "401926217",
@@ -2245,7 +2245,7 @@
     "key": null,
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2253,13 +2253,13 @@
     "key": "presbyterian",
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:49 - 1st"
   },
   {
    "game_id": "401922293",
@@ -8872,5 +8872,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:11:26+00:00"
+ "live_at": "2026-11-22T00:33:38+00:00"
 }

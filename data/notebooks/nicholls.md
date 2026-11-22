@@ -67,7 +67,7 @@ Remy Thibodeaux grew up on Bayou Lafourche and drove a shrimp boat for his uncle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Remy Thibodeaux grew up on Bayou Lafourche and drove a shrimp boat for his uncle
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:preview -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925066.html <!-- post:401925066:preview -->
 - 2026-11-21: L 69-80 vs (neutral) Southern Miss Golden Eagles. Barometer 36 (testy). <!-- g:401925065 -->
+- 2026-11-22: Social recap posted (L 69-80 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:recap -->

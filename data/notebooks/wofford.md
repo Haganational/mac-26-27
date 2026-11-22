@@ -27,9 +27,9 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
+**59 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tucker editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tucker editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 - 2026-11-19: W 79-77 at Charleston Southern Buccaneers. Barometer 54 (steady). <!-- g:401911377 -->
 - 2026-11-19: Social recap posted (W 79-77 vs Charleston Southern Buccaneers): https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401925709.html <!-- post:401925709:preview -->
+- 2026-11-21: W 91-86 vs Winthrop Eagles. Barometer 59 (steady). <!-- g:401925709 -->
+- 2026-11-22: Social recap posted (W 91-86 vs Winthrop Eagles): https://hardwoodbricks.com/socon/games/401925709.html <!-- post:401925709:recap -->

@@ -2305,7 +2305,7 @@
     "key": null,
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2313,13 +2313,13 @@
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:52 - 1st"
   },
   {
    "game_id": "401920125",
@@ -2350,7 +2350,7 @@
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2358,13 +2358,13 @@
     "key": null,
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:05 - 1st"
   },
   {
    "game_id": "401917540",
@@ -10171,5 +10171,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T23:57:14+00:00"
+ "live_at": "2026-11-22T00:22:59+00:00"
 }

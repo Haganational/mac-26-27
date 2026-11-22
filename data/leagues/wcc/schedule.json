@@ -2389,7 +2389,7 @@
     "key": "loyola-marymount",
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2397,13 +2397,13 @@
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:05 - 1st"
   },
   {
    "game_id": "401917537",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:01:07+00:00"
+ "live_at": "2026-11-22T00:25:54+00:00"
 }
