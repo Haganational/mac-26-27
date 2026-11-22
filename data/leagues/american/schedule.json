@@ -2860,21 +2860,21 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": 65,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "339",
     "key": null,
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": 48,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:39 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925013",
@@ -12230,5 +12230,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:38:54+00:00"
+ "live_at": "2026-11-22T21:10:59+00:00"
 }

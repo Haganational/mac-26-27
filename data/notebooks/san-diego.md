@@ -27,9 +27,9 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 
 ## Barometer
 
-**71 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
+**56 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401911200.html <!-- post:401911200:preview -->
 - 2026-11-21: W 67-64 vs (neutral) UC Irvine Anteaters. Barometer 71 (buoyant). <!-- g:401917538 -->
 - 2026-11-22: Social recap posted (W 67-64 vs UC Irvine Anteaters): https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:recap -->
+- 2026-11-22: L 58-80 vs (neutral) Fordham Rams. Barometer 56 (steady). <!-- g:401911200 -->
+- 2026-11-22: Social recap posted (L 58-80 vs Fordham Rams): https://hardwoodbricks.com/a10/games/401911200.html <!-- post:401911200:recap -->

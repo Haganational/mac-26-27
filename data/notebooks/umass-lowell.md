@@ -27,9 +27,9 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 
 ## Barometer
 
-**63 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**53 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kerry editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kerry editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,5 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 - 2026-11-17: W 66-51 vs Saint Peter's Peacocks. Barometer 63 (steady). <!-- g:401923325 -->
 - 2026-11-18: Social recap posted (W 66-51 vs Saint Peter's Peacocks): https://hardwoodbricks.com/metro/games/401923325.html <!-- post:401923325:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401921748.html <!-- post:401921748:preview -->
+- 2026-11-22: L 68-78 at Cincinnati Bearcats. Barometer 53 (steady). <!-- g:401921748 -->
+- 2026-11-22: Social recap posted (L 68-78 vs Cincinnati Bearcats): https://hardwoodbricks.com/americaeast/games/401921748.html <!-- post:401921748:recap -->

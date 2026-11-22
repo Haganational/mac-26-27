@@ -27,9 +27,9 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 
 ## Barometer
 
-**81 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**59 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 - 2026-11-19: W 74-68 vs (neutral) Howard Bison. Barometer 81 (giddy). <!-- g:401925782 -->
 - 2026-11-19: Social recap posted (W 74-68 vs Howard Bison): https://hardwoodbricks.com/a10/games/401925782.html <!-- post:401925782:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:preview -->
+- 2026-11-22: L 61-79 vs (neutral) Wyoming Cowboys. Barometer 59 (steady). <!-- g:401921706 -->
+- 2026-11-22: Social recap posted (L 61-79 vs Wyoming Cowboys): https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:recap -->

@@ -2467,21 +2467,21 @@
     "key": null,
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": 70,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "301",
     "key": "san-diego",
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": 51,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:37 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917540",
@@ -9651,5 +9651,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:38:10+00:00"
+ "live_at": "2026-11-22T21:10:04+00:00"
 }

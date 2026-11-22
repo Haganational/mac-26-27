@@ -27,9 +27,9 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
+**45 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 - 2026-11-18: W 79-65 vs Le Moyne Dolphins. Barometer 54 (steady). <!-- g:401919783 -->
 - 2026-11-18: Social recap posted (W 79-65 vs Le Moyne Dolphins): https://hardwoodbricks.com/mvc/games/401919783.html <!-- post:401919783:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401918988.html <!-- post:401918988:preview -->
+- 2026-11-22: L 62-82 at Memphis Tigers. Barometer 45 (steady). <!-- g:401918988 -->
+- 2026-11-22: Social recap posted (L 62-82 vs Memphis Tigers): https://hardwoodbricks.com/mvc/games/401918988.html <!-- post:401918988:recap -->

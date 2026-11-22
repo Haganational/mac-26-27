@@ -2978,21 +2978,21 @@
     "key": null,
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 57,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
    "away": {
     "espn_id": "2729",
     "key": "william-mary",
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 61,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921177",
@@ -12002,5 +12002,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T20:41:25+00:00"
+ "live_at": "2026-11-22T21:14:15+00:00"
 }
