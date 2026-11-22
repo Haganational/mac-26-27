@@ -69,7 +69,7 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:preview -->
 - 2026-11-20: W 86-79 at Houston Christian Huskies. Barometer 43 (testy). <!-- g:401921028 -->
 - 2026-11-20: Social recap posted (W 86-79 vs Houston Christian Huskies): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401921029.html <!-- post:401921029:preview -->

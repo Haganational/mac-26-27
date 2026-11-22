@@ -71,7 +71,7 @@ Owen Fitzpatrick grew up in Fort Thomas, Kentucky, the youngest son of a firefig
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Owen Fitzpatrick grew up in Fort Thomas, Kentucky, the youngest son of a firefig
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/horizon/games/401928812.html <!-- post:401928812:preview -->
 - 2026-11-20: W 93-41 vs Berea Mountaineers. Barometer 48 (steady). <!-- g:401928812 -->
 - 2026-11-20: Social recap posted (W 93-41 vs Berea Mountaineers): https://hardwoodbricks.com/horizon/games/401928812.html <!-- post:401928812:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401921029.html <!-- post:401921029:preview -->

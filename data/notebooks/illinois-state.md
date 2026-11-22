@@ -70,7 +70,7 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401927375.html <!-- post:401927375:preview -->
 - 2026-11-20: W 123-48 vs Eureka Red Devils. Barometer 59 (steady). <!-- g:401927375 -->
 - 2026-11-20: Social recap posted (W 123-48 vs Eureka Red Devils): https://hardwoodbricks.com/mvc/games/401927375.html <!-- post:401927375:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401917543.html <!-- post:401917543:preview -->

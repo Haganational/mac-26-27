@@ -71,7 +71,7 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:preview -->
 - 2026-11-18: L 71-85 at Florida State Seminoles. Barometer 35 (testy). <!-- g:401909697 -->
 - 2026-11-18: Social recap posted (L 71-85 vs Florida State Seminoles): https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401928838.html <!-- post:401928838:preview -->
