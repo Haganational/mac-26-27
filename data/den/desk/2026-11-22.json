@@ -2,29 +2,29 @@
  "date": "2026-11-22",
  "desk": {
   "anchor": {
-   "alt": "Terrence Mabry, the UAB AI anchor",
-   "color": "#1E6B52",
-   "color2": "#F4C300",
-   "initials": "TM",
+   "alt": "Paulie Brennan, the Canisius AI anchor",
+   "color": "#002D62",
+   "color2": "#FFC72C",
+   "initials": "PB",
    "ink": "#ffffff",
-   "key": "uab",
-   "name": "Terrence Mabry",
-   "portrait": "den/anchors/uab.webp",
-   "school": "UAB",
+   "key": "canisius",
+   "name": "Paulie Brennan",
+   "portrait": "den/anchors/canisius.webp",
+   "school": "Canisius",
    "tag": "AI anchor"
   },
-  "max": 203,
+  "max": 183,
   "picks": [
    {
-    "abbr": "UAB",
-    "game_id": "401919020",
+    "abbr": "CAN",
+    "game_id": "401929023",
     "kind": "homer",
-    "short": "UAB",
+    "short": "Canisius",
     "side": "home",
-    "team_id": "5",
-    "tip": "2026-11-23T00:00Z",
+    "team_id": "2099",
+    "tip": "2026-11-22T18:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 55
+    "worth": 38
    },
    {
     "abbr": "SFA",
@@ -49,15 +49,15 @@
     "worth": 50
    },
    {
-    "abbr": "LAM",
-    "game_id": "401925013",
+    "abbr": "FOR",
+    "game_id": "401911200",
     "kind": "ratings",
-    "short": "Lamar",
+    "short": "Fordham",
     "side": "home",
-    "team_id": "2320",
-    "tip": "2026-11-22T22:00Z",
-    "why": "Our ratings 80%, pregame win chance 55%.",
-    "worth": 45
+    "team_id": "2230",
+    "tip": "2026-11-22T19:00Z",
+    "why": "Our ratings 82%, pregame win chance 58%.",
+    "worth": 42
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -133,7 +133,7 @@
    "team_id": "112358",
    "tip": "2026-11-22T18:00Z",
    "why": "Homer pick.",
-   "worth": 44
+   "worth": 42
   },
   {
    "abbr": "FAIR",
@@ -145,7 +145,7 @@
    "team_id": "2217",
    "tip": "2026-11-22T18:00Z",
    "why": "Homer pick.",
-   "worth": 56
+   "worth": 58
   },
   {
    "abbr": "DAY",
@@ -364,6 +364,18 @@
    "worth": 53
   },
   {
+   "abbr": "USI",
+   "game_id": "401906868",
+   "key": "southern-indiana",
+   "kind": "homer",
+   "short": "Southern Indiana",
+   "side": "away",
+   "team_id": "88",
+   "tip": "2026-11-22T20:00Z",
+   "why": "Homer pick.",
+   "worth": 97
+  },
+  {
    "abbr": "USA",
    "game_id": "401922252",
    "key": "south-alabama",
@@ -397,7 +409,7 @@
    "team_id": "2447",
    "tip": "2026-11-22T20:00Z",
    "why": "Homer pick.",
-   "worth": 68
+   "worth": 67
   },
   {
    "abbr": "TROY",
@@ -409,7 +421,7 @@
    "team_id": "2653",
    "tip": "2026-11-22T20:00Z",
    "why": "Homer pick.",
-   "worth": 32
+   "worth": 33
   },
   {
    "abbr": "ALB",
@@ -469,7 +481,7 @@
    "team_id": "2351",
    "tip": "2026-11-22T21:30Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 58
   },
   {
    "abbr": "UCI",
@@ -481,7 +493,7 @@
    "team_id": "300",
    "tip": "2026-11-22T21:30Z",
    "why": "Homer pick.",
-   "worth": 41
+   "worth": 42
   },
   {
    "abbr": "UMES",
@@ -493,7 +505,7 @@
    "team_id": "2379",
    "tip": "2026-11-22T21:30Z",
    "why": "Homer pick.",
-   "worth": 81
+   "worth": 82
   },
   {
    "abbr": "IUIN",
@@ -601,7 +613,7 @@
    "team_id": "2320",
    "tip": "2026-11-22T22:00Z",
    "why": "Homer pick.",
-   "worth": 45
+   "worth": 44
   },
   {
    "abbr": "RICE",
@@ -613,7 +625,7 @@
    "team_id": "242",
    "tip": "2026-11-22T22:00Z",
    "why": "Homer pick.",
-   "worth": 55
+   "worth": 56
   },
   {
    "abbr": "SFA",
@@ -733,7 +745,7 @@
    "team_id": "3084",
    "tip": "2026-11-23T01:00Z",
    "why": "Homer pick.",
-   "worth": 25
+   "worth": 26
   },
   {
    "abbr": "UTM",
@@ -757,7 +769,7 @@
    "team_id": "309",
    "tip": "2026-11-23T01:00Z",
    "why": "Homer pick.",
-   "worth": 99
+   "worth": 98
   },
   {
    "abbr": "UCSD",
