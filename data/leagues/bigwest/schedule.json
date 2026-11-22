@@ -2383,7 +2383,7 @@
     "key": null,
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
-    "score": 2,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2391,13 +2391,13 @@
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 0,
+    "score": 20,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:03 - 1st"
+   "detail": "5:32 - 1st"
   },
   {
    "game_id": "401920159",
@@ -2424,7 +2424,7 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2432,13 +2432,13 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:18 - 1st"
   },
   {
    "game_id": "401917541",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T21:34:38+00:00"
+ "live_at": "2026-11-22T22:04:55+00:00"
 }

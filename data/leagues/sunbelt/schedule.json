@@ -3492,21 +3492,21 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": 69,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2697",
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 52,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925066",
@@ -3533,21 +3533,21 @@
     "key": null,
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": 55,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
    "away": {
     "espn_id": "2653",
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": 59,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:53 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928999",
@@ -12631,5 +12631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T21:38:43+00:00"
+ "live_at": "2026-11-22T22:09:45+00:00"
 }

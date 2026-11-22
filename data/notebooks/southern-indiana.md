@@ -27,9 +27,9 @@ Clint Mattingly edits The Evansville Lantern and is as proud of the Screaming Ea
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five WLLLW.
+**37 of 100, testy.** Record 2-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Clint editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Clint editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Clint Mattingly edits The Evansville Lantern and is as proud of the Screaming Ea
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,5 @@ Clint Mattingly edits The Evansville Lantern and is as proud of the Screaming Ea
 - 2026-11-19: W 87-81 vs Lindsey Wilson Blue Raiders. Barometer 44 (testy). <!-- g:401923394 -->
 - 2026-11-19: Social recap posted (W 87-81 vs Lindsey Wilson Blue Raiders): https://hardwoodbricks.com/ovc/games/401923394.html <!-- post:401923394:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/ovc/games/401906868.html <!-- post:401906868:preview -->
+- 2026-11-22: L 61-97 at Texas Longhorns. Barometer 37 (testy). <!-- g:401906868 -->
+- 2026-11-22: Social recap posted (L 61-97 vs Texas Longhorns): https://hardwoodbricks.com/ovc/games/401906868.html <!-- post:401906868:recap -->
