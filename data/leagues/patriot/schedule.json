@@ -2642,7 +2642,7 @@
     "key": "american-u",
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2650,13 +2650,13 @@
     "key": null,
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921223",
@@ -9293,5 +9293,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T18:58:05+00:00"
 }

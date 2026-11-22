@@ -2489,7 +2489,7 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": null,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2497,13 +2497,13 @@
     "key": null,
     "name": "Lancaster Bible Chargers",
     "abbr": "LBC",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921748",
@@ -8787,5 +8787,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T18:57:16+00:00"
 }

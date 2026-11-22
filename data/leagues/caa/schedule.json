@@ -2933,7 +2933,7 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2941,13 +2941,13 @@
     "key": "towson",
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:47 - 1st"
+   "detail": "1:27 - 1st"
   },
   {
    "game_id": "401918455",
@@ -12001,5 +12001,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T18:49:20+00:00"
 }

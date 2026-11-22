@@ -2653,7 +2653,7 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2661,13 +2661,13 @@
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
+    "score": 50,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:45 - 2nd"
+   "detail": "12:59 - 2nd"
   },
   {
    "game_id": "401918988",
@@ -9709,5 +9709,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T18:42:11+00:00"
 }

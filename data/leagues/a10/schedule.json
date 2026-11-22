@@ -3217,7 +3217,7 @@
     "key": null,
     "name": "Northwestern Wildcats",
     "abbr": "NU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -3225,13 +3225,13 @@
     "key": "dayton",
     "name": "Dayton Flyers",
     "abbr": "DAY",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:03 - 1st"
+   "detail": "3:09 - 1st"
   },
   {
    "game_id": "401921706",
@@ -12851,5 +12851,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T18:43:09+00:00"
 }
