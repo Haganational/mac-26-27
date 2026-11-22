@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:16:17+00:00",
+ "fetched_at": "2026-11-22T23:10:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -2847,11 +2847,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 25.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -2895,7 +2891,7 @@
     "key": null,
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 2,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2903,13 +2899,13 @@
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 4,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:34 - 1st"
+   "detail": "4:13 - 1st"
   },
   {
    "game_id": "401921205",
@@ -2936,7 +2932,7 @@
     "key": null,
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": 6,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2944,13 +2940,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:12 - 1st"
+   "detail": "6:59 - 1st"
   },
   {
    "game_id": "401919020",
@@ -3091,7 +3087,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 34.0,
+    "low": 40.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
@@ -3306,7 +3302,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 15.0,
+    "low": 25.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -6044,7 +6040,7 @@
     "low": 51.0,
     "since": "2026-11-18T23:10:13Z"
    },
-   "venue": "Dickies Arena",
+   "venue": "Ariat Arena",
    "venue_city": "Fort Worth",
    "venue_state": "TX",
    "home": {
@@ -6575,7 +6571,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 19.0,
+    "low": 18.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -7951,7 +7947,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-10-3-2026--sports-ncaa-basketball/production/7581804?wsUser=717",
-    "low": 27.0,
+    "low": 19.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -12229,6 +12225,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:41:10+00:00"
+ ]
 }

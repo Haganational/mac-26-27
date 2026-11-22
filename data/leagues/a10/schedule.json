@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:13:01+00:00",
+ "fetched_at": "2026-11-22T23:07:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -3204,11 +3204,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/charleston-classic-tickets-td-arena-11-22-2026--sports-ncaa-basketball/production/7398781?wsUser=717",
-    "low": 51.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "TD Arena",
    "venue_city": "Charleston",
    "venue_state": "SC",
@@ -3277,8 +3273,8 @@
   {
    "game_id": "401911200",
    "date": "2026-11-22T19:00Z",
-   "name": "San Diego Toreros at Fordham Rams",
-   "short_name": "USD VS FOR",
+   "name": "Fordham Rams at San Diego Toreros",
+   "short_name": "FOR VS USD",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3290,27 +3286,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 29.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2230",
-    "key": "fordham",
-    "name": "Fordham Rams",
-    "abbr": "FOR",
-    "score": 80,
-    "winner": true
-   },
-   "away": {
     "espn_id": "301",
     "key": null,
     "name": "San Diego Toreros",
     "abbr": "USD",
+    "score": 80,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2230",
+    "key": "fordham",
+    "name": "Fordham Rams",
+    "abbr": "FOR",
     "score": 58,
     "winner": false
    },
@@ -3385,7 +3377,7 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 29,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3393,13 +3385,13 @@
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 32,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:04 - 2nd"
   },
   {
    "game_id": "401919020",
@@ -3460,7 +3452,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 29.0,
+    "low": 15.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -5826,7 +5818,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-ppg-paints-arena-12-9-2026--sports-ncaa-basketball/production/7187064?wsUser=717",
-    "low": 84.0,
+    "low": 82.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "PPG Paints Arena",
@@ -6735,7 +6727,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 19.0,
+    "low": 18.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -11736,7 +11728,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-2-20-2027--sports-ncaa-basketball/production/7830129?wsUser=717",
-    "low": 100.0,
+    "low": 95.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -12851,6 +12843,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:38:06+00:00"
+ ]
 }

@@ -27,9 +27,9 @@ Rafa Ibarra grew up in Linda Vista, a few blocks below Alcala Park, and paid for
 
 ## Barometer
 
-**56 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five LWWWL.
+**78 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rafa editorializes: 78% of stories right now.
 
 ## School and town
 

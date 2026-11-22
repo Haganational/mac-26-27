@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:32:34+00:00",
+ "fetched_at": "2026-11-22T23:23:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2894,7 +2894,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/california-golden-bears-mens-basketball-tickets-haas-pavilion-11-23-2026--sports-ncaa-basketball/production/7536119?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Haas Pavilion",
@@ -2984,7 +2984,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-11-24-2026--sports-ncaa-basketball/production/7856613?wsUser=717",
-    "low": 26.0,
+    "low": 31.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -3470,7 +3470,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-27-2026--sports-ncaa-basketball/production/7349921?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Mizzou Arena",
@@ -3489,51 +3489,6 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401920728",
-   "date": "2026-11-28T05:00Z",
-   "name": "Prairie View A&M Panthers at Iowa Hawkeyes",
-   "short_name": "PV @ IOWA",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "B1G+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-11-28-2026--sports-ncaa-basketball/production/7462992?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
-   "venue": "Carver-Hawkeye Arena",
-   "venue_city": "Iowa City",
-   "venue_state": "IA",
-   "home": {
-    "espn_id": "2294",
-    "key": null,
-    "name": "Iowa Hawkeyes",
-    "abbr": "IOWA",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2504",
-    "key": "prairie-view",
-    "name": "Prairie View A&M Panthers",
-    "abbr": "PV",
     "score": null,
     "winner": null
    },
@@ -3588,6 +3543,51 @@
    "detail": ""
   },
   {
+   "game_id": "401920728",
+   "date": "2026-11-28T19:00Z",
+   "name": "Prairie View A&M Panthers at Iowa Hawkeyes",
+   "short_name": "PV @ IOWA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "B1G+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-11-28-2026--sports-ncaa-basketball/production/7462992?wsUser=717",
+    "low": 8.0,
+    "since": "2026-11-18T23:22:50Z"
+   },
+   "venue": "Carver-Hawkeye Arena",
+   "venue_city": "Iowa City",
+   "venue_state": "IA",
+   "home": {
+    "espn_id": "2294",
+    "key": null,
+    "name": "Iowa Hawkeyes",
+    "abbr": "IOWA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2504",
+    "key": "prairie-view",
+    "name": "Prairie View A&M Panthers",
+    "abbr": "PV",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401921065",
    "date": "2026-11-29T00:00Z",
    "name": "Bethune-Cookman Wildcats at San Francisco Dons",
@@ -3624,47 +3624,6 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401929368",
-   "date": "2026-11-29T05:00Z",
-   "name": "Tarleton State Texans at Texas Southern Tigers",
-   "short_name": "TAR @ TXSO",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "SWAC TV",
-     "kind": "Streaming",
-     "market": "Home"
-    }
-   ],
-   "tickets": null,
-   "venue": "H&PE Arena",
-   "venue_city": "Houston",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "2640",
-    "key": "texas-southern",
-    "name": "Texas Southern Tigers",
-    "abbr": "TXSO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2627",
-    "key": null,
-    "name": "Tarleton State Texans",
-    "abbr": "TAR",
     "score": null,
     "winner": null
    },
@@ -3751,6 +3710,47 @@
     "key": null,
     "name": "Arkansas Monticello Boll Weevils",
     "abbr": "UAM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929368",
+   "date": "2026-11-29T21:00Z",
+   "name": "Tarleton State Texans at Texas Southern Tigers",
+   "short_name": "TAR @ TXSO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "H&PE Arena",
+   "venue_city": "Houston",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2640",
+    "key": "texas-southern",
+    "name": "Texas Southern Tigers",
+    "abbr": "TXSO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2627",
+    "key": null,
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
     "score": null,
     "winner": null
    },

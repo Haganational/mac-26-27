@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:26:06+00:00",
+ "fetched_at": "2026-11-22T23:18:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -2261,11 +2261,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-22-2026--sports-ncaa-basketball/production/7662705?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:17:56Z"
-   },
+   "tickets": null,
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
    "venue_state": "KY",
@@ -2274,21 +2270,21 @@
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 110,
-    "winner": null
+    "score": 114,
+    "winner": true
    },
    "away": {
     "espn_id": "484",
     "key": null,
     "name": "Alice Lloyd Eagles",
     "abbr": "AL",
-    "score": 83,
-    "winner": null
+    "score": 85,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:13 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917919",
@@ -2480,7 +2476,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-11-24-2026--sports-ncaa-basketball/production/7856613?wsUser=717",
-    "low": 26.0,
+    "low": 31.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -2566,7 +2562,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 24.0,
+    "low": 22.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Millett Hall",
@@ -2872,7 +2868,7 @@
    "season_type": "reg",
    "neutral_site": false,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [
     {
      "name": "SWAC TV",
@@ -4106,7 +4102,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-12-2026--sports-ncaa-basketball/production/7418301?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CU Events Center",
@@ -4241,7 +4237,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-13-2026--sports-ncaa-basketball/production/7575783?wsUser=717",
-    "low": 11.0,
+    "low": 12.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Bud Walton Arena",
@@ -8914,6 +8910,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:50:10+00:00"
+ ]
 }

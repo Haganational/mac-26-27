@@ -27,9 +27,9 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 
 ## Barometer
 
-**86 of 100, giddy.** Record 6-1 (0-0 in conference), streak W6, last five WWWWW.
+**60 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 66% of stories right now.
 
 ## School and town
 

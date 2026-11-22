@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:21:54+00:00",
+ "fetched_at": "2026-11-22T23:14:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2823,11 +2823,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-22-2026--sports-ncaa-basketball/production/7457788?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Pete Hanna Center",
    "venue_city": "Homewood",
    "venue_state": "AL",
@@ -2836,7 +2832,7 @@
     "key": "samford",
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 38,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2844,13 +2840,13 @@
     "key": null,
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 36,
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "1:39 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926106",
@@ -2960,7 +2956,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 15.0,
+    "low": 25.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -9899,6 +9895,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:46:25+00:00"
+ ]
 }

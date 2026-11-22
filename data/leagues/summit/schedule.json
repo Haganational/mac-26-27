@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:25:15+00:00",
+ "fetched_at": "2026-11-22T23:17:31+00:00",
  "season": 2027,
  "games": [
   {
@@ -2309,11 +2309,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:17:16Z"
-   },
+   "tickets": null,
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -2954,13 +2950,13 @@
   },
   {
    "game_id": "401920849",
-   "date": "2026-11-28T05:00Z",
+   "date": "2026-11-28T17:00Z",
    "name": "Princeton Tigers at St. Thomas Tommies",
    "short_name": "PRIN VS STMN",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [],
    "tickets": null,
    "venue": "Trask Coliseum",
@@ -7947,6 +7943,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T21:19:13+00:00"
+ ]
 }

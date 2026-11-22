@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:31:41+00:00",
+ "fetched_at": "2026-11-22T23:22:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2080,7 +2080,7 @@
     "key": "umes",
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": 37,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2088,13 +2088,13 @@
     "key": null,
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": 61,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:47 - 2nd"
+   "detail": "2:44 - 2nd"
   },
   {
    "game_id": "401920752",
@@ -5128,7 +5128,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-29-2026--sports-ncaa-basketball/production/7350090?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Food City Center",
@@ -7566,6 +7566,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:55:05+00:00"
+ ]
 }

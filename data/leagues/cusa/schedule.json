@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:20:59+00:00",
+ "fetched_at": "2026-11-22T23:14:06+00:00",
  "season": 2027,
  "games": [
   {
@@ -2393,7 +2393,7 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 29,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2401,13 +2401,13 @@
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 32,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "8:59 - 2nd"
   },
   {
    "game_id": "401920905",
@@ -9068,6 +9068,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:45:35+00:00"
+ ]
 }

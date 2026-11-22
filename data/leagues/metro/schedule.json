@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:09:36+00:00",
+ "fetched_at": "2026-11-22T23:04:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -3108,11 +3108,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-22-2026--sports-ncaa-basketball/production/7668023?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -3746,51 +3742,6 @@
    "detail": ""
   },
   {
-   "game_id": "401912232",
-   "date": "2026-11-28T18:00Z",
-   "name": "Rider Broncs at Army Black Knights",
-   "short_name": "RID @ ARMY",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
-   "venue": "Christl Arena",
-   "venue_city": "West Point",
-   "venue_state": "NY",
-   "home": {
-    "espn_id": "349",
-    "key": null,
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2520",
-    "key": "rider",
-    "name": "Rider Broncs",
-    "abbr": "RID",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401924779",
    "date": "2026-11-28T19:00Z",
    "name": "Manhattan Jaspers at Morgan State Bears",
@@ -3993,6 +3944,51 @@
     "key": null,
     "name": "Drexel Dragons",
     "abbr": "DREX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401912232",
+   "date": "2026-11-29T00:00Z",
+   "name": "Rider Broncs at Army Black Knights",
+   "short_name": "RID @ ARMY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
+    "low": 17.0,
+    "since": "2026-11-18T23:04:51Z"
+   },
+   "venue": "Christl Arena",
+   "venue_city": "West Point",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "349",
+    "key": null,
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2520",
+    "key": "rider",
+    "name": "Rider Broncs",
+    "abbr": "RID",
     "score": null,
     "winner": null
    },
@@ -4633,7 +4629,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-12-4-2026--sports-ncaa-basketball/production/7470517?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -5918,7 +5914,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-12-16-2026--sports-ncaa-basketball/production/7350058?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "JMA Wireless Dome",
@@ -7637,7 +7633,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-1-8-2027--sports-ncaa-basketball/production/7470543?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -7949,7 +7945,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-1-13-2027--sports-ncaa-basketball/production/7470563?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -9700,7 +9696,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-5-2027--sports-ncaa-basketball/production/7470631?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -10636,7 +10632,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-19-2027--sports-ncaa-basketball/production/7470745?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -11260,7 +11256,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-28-2027--sports-ncaa-basketball/production/7470749?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -11365,6 +11361,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T20:03:22+00:00"
+ ]
 }

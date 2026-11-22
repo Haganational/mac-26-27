@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:23:01+00:00",
+ "fetched_at": "2026-11-22T23:15:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -2505,11 +2505,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -2559,7 +2555,7 @@
     "key": "portland-state",
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 36,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2567,13 +2563,13 @@
     "key": null,
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": 48,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:39 - 2nd"
   },
   {
    "game_id": "401929445",
@@ -2679,7 +2675,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-11-23-2026--sports-ncaa-basketball/production/7742949?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -4955,7 +4951,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-15-2026--sports-ncaa-basketball/production/7156087?wsUser=717",
-    "low": 31.0,
+    "low": 39.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Marriott Center",
@@ -9717,6 +9713,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:47:28+00:00"
+ ]
 }

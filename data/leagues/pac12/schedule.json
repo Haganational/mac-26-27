@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:14:25+00:00",
+ "fetched_at": "2026-11-22T23:08:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -1944,11 +1944,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
    "venue_state": "TX",
@@ -1957,21 +1953,21 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 87,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2377",
     "key": null,
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": 60,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:34 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921658",
@@ -1991,7 +1987,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 34.0,
+    "low": 40.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -2126,7 +2122,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-24-2026--sports-ncaa-basketball/production/7280558?wsUser=717",
-    "low": 93.0,
+    "low": 110.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Michelob ULTRA Arena",
@@ -2341,7 +2337,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-25-2026--sports-ncaa-basketball/production/7401148?wsUser=717",
-    "low": 42.0,
+    "low": 45.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -3978,7 +3974,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/creighton-bluejays-mens-basketball-tickets-chi-health-center-omaha-12-12-2026--sports-ncaa-basketball/production/7171618?wsUser=717",
-    "low": 57.0,
+    "low": 61.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "CHI Health Center Omaha",
@@ -4071,7 +4067,7 @@
     "low": 51.0,
     "since": "2026-11-18T23:08:43Z"
    },
-   "venue": "Dickies Arena",
+   "venue": "Ariat Arena",
    "venue_city": "Fort Worth",
    "venue_state": "TX",
    "home": {
@@ -4269,7 +4265,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 19.0,
+    "low": 18.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -4386,7 +4382,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-acrisure-arena-12-19-2026--sports-ncaa-basketball/production/7282788?wsUser=717",
-    "low": 69.0,
+    "low": 70.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -5082,7 +5078,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-badgers-mens-basketball-tickets-kohl-center-12-30-2026--sports-ncaa-basketball/production/7377412?wsUser=717",
-    "low": 16.0,
+    "low": 13.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Kohl Center",
@@ -8199,6 +8195,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:39:29+00:00"
+ ]
 }

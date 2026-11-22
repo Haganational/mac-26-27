@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:26:59+00:00",
+ "fetched_at": "2026-11-22T23:18:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -2274,7 +2274,7 @@
     "key": null,
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 39,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2282,13 +2282,13 @@
     "key": "unc-asheville",
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 40,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:21 - 1st"
+   "detail": "16:09 - 2nd"
   },
   {
    "game_id": "401913530",
@@ -2353,7 +2353,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4249,7 +4249,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-novant-health-fieldhouse-at-greensboro-complex-12-12-2026--sports-ncaa-basketball/production/7551682?wsUser=717",
-    "low": 65.0,
+    "low": 63.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Novant Health Fieldhouse",
@@ -8855,6 +8855,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:50:57+00:00"
+ ]
 }

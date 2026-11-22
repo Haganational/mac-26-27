@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:06:44+00:00",
+ "fetched_at": "2026-11-22T23:02:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -2068,11 +2068,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-22-2026--sports-ncaa-basketball/production/7743179?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
    "venue_state": "AL",
@@ -2113,11 +2109,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-11-22-2026--sports-ncaa-basketball/production/7804425?wsUser=717",
-    "low": 25.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Allen Arena",
    "venue_city": "Nashville",
    "venue_state": "TN",
@@ -2126,7 +2118,7 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": 25,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2134,13 +2126,13 @@
     "key": null,
     "name": "Milligan Buffaloes",
     "abbr": "MILG",
-    "score": 18,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:00 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921701",
@@ -2424,7 +2416,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 25.0,
+    "low": 34.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -2595,7 +2587,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Truist Arena",
@@ -8252,6 +8244,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:32:17+00:00"
+ ]
 }

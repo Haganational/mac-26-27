@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:17:31+00:00",
+ "fetched_at": "2026-11-22T23:11:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -3479,11 +3479,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-22-2026--sports-ncaa-basketball/production/7743179?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
    "venue_state": "AL",
@@ -3585,10 +3581,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:59 - 1st"
   },
   {
    "game_id": "401926774",
@@ -3951,7 +3947,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -3996,7 +3992,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4645,7 +4641,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-28-2026--sports-ncaa-basketball/production/7728805?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -4735,7 +4731,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Cam Henderson Center",
@@ -7241,7 +7237,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-18-2026--sports-ncaa-basketball/production/7356341?wsUser=717",
-    "low": 16.0,
+    "low": 21.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Petersen Events Center",
@@ -11476,7 +11472,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-13-2027--sports-ncaa-basketball/production/7398336?wsUser=717",
-    "low": 31.0,
+    "low": 32.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -12630,6 +12626,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:09:45+00:00"
+ ]
 }

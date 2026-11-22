@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:28:42+00:00",
+ "fetched_at": "2026-11-22T23:20:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2476,11 +2476,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-11-22-2026--sports-ncaa-basketball/production/7748246?wsUser=717",
-    "low": 29.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Chesapeake Employers Insurance Arena",
    "venue_city": "Baltimore",
    "venue_state": "MD",
@@ -2521,11 +2517,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-11-22-2026--sports-ncaa-basketball/production/7466790?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Fifth Third Arena (OH)",
    "venue_city": "Cincinnati",
    "venue_state": "OH",
@@ -2607,11 +2599,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boston-college-eagles-mens-basketball-tickets-conte-forum-11-22-2026--sports-ncaa-basketball/production/7348662?wsUser=717",
-    "low": 5.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Conte Forum",
    "venue_city": "Chestnut Hill",
    "venue_state": "MA",
@@ -2620,7 +2608,7 @@
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 38,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2628,13 +2616,13 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 26,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:22 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911279",
@@ -8787,6 +8775,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:52:29+00:00"
+ ]
 }

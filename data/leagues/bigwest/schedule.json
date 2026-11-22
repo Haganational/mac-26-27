@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:10:54+00:00",
+ "fetched_at": "2026-11-22T23:05:44+00:00",
  "season": 2027,
  "games": [
   {
@@ -2357,8 +2357,8 @@
   {
    "game_id": "401917540",
    "date": "2026-11-22T21:30Z",
-   "name": "UC Irvine Anteaters at Loyola Marymount Lions",
-   "short_name": "UCI VS LMU",
+   "name": "Loyola Marymount Lions at UC Irvine Anteaters",
+   "short_name": "LMU VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2372,32 +2372,32 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 29.0,
+    "low": 15.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": null,
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": 41,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": 36,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:11 - 2nd"
+   "detail": "6:57 - 2nd"
   },
   {
    "game_id": "401920159",
@@ -2424,7 +2424,7 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 31,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2432,13 +2432,13 @@
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": 32,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:53 - 1st"
+   "detail": "18:36 - 2nd"
   },
   {
    "game_id": "401917541",
@@ -2458,7 +2458,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 29.0,
+    "low": 15.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2544,7 +2544,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 29.0,
+    "low": 15.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -10158,6 +10158,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:36:09+00:00"
+ ]
 }

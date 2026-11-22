@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:11:58+00:00",
+ "fetched_at": "2026-11-22T23:06:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2685,11 +2685,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 25.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -2750,10 +2746,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:59 - 1st"
   },
   {
    "game_id": "401921700",
@@ -2929,7 +2925,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 34.0,
+    "low": 40.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -3095,7 +3091,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-24-2026--sports-ncaa-basketball/production/7349915?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Mizzou Arena",
@@ -9378,7 +9374,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-2-24-2027--sports-ncaa-basketball/production/7747409?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Curb Event Center Arena",
@@ -9709,6 +9705,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T21:06:58+00:00"
+ ]
 }

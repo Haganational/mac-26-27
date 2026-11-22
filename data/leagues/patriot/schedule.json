@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:29:38+00:00",
+ "fetched_at": "2026-11-22T23:21:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -2629,11 +2629,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-22-2026--sports-basketball/production/7444591?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Bender Arena",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -3269,51 +3265,6 @@
    "detail": ""
   },
   {
-   "game_id": "401912232",
-   "date": "2026-11-28T18:00Z",
-   "name": "Rider Broncs at Army Black Knights",
-   "short_name": "RID @ ARMY",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
-   "venue": "Christl Arena",
-   "venue_city": "West Point",
-   "venue_state": "NY",
-   "home": {
-    "espn_id": "349",
-    "key": "army",
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2520",
-    "key": null,
-    "name": "Rider Broncs",
-    "abbr": "RID",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401920775",
    "date": "2026-11-28T18:00Z",
    "name": "Vermont Catamounts at Colgate Raiders",
@@ -3539,7 +3490,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-28-2026--sports-ncaa-basketball/production/7546513?wsUser=717",
-    "low": 22.0,
+    "low": 18.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "The Palestra",
@@ -3558,6 +3509,51 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401912232",
+   "date": "2026-11-29T00:00Z",
+   "name": "Rider Broncs at Army Black Knights",
+   "short_name": "RID @ ARMY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
+   },
+   "venue": "Christl Arena",
+   "venue_city": "West Point",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "349",
+    "key": "army",
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2520",
+    "key": null,
+    "name": "Rider Broncs",
+    "abbr": "RID",
     "score": null,
     "winner": null
    },
@@ -6472,7 +6468,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-9-2027--sports-ncaa-basketball/production/7710502?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -9293,6 +9289,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T20:48:21+00:00"
+ ]
 }

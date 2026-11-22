@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T18:24:06+00:00",
+ "fetched_at": "2026-11-22T23:16:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2651,11 +2651,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
    "venue_state": "TX",
@@ -2664,21 +2660,21 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 93,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2377",
     "key": "mcneese",
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": 67,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925013",
@@ -2699,7 +2695,7 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2707,13 +2703,13 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 21,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:12 - 1st"
+   "detail": "6:10 - 1st"
   },
   {
    "game_id": "401921205",
@@ -2740,7 +2736,7 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": 11,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2748,13 +2744,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 15,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:57 - 1st"
+   "detail": "6:38 - 1st"
   },
   {
    "game_id": "401919032",
@@ -3157,7 +3153,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Cam Henderson Center",
@@ -10118,6 +10114,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T22:48:26+00:00"
+ ]
 }
