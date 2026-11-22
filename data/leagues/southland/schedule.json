@@ -2536,7 +2536,7 @@
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2544,13 +2544,13 @@
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:32 - 1st"
   },
   {
    "game_id": "401925049",
@@ -10123,5 +10123,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:09:00+00:00"
+ "live_at": "2026-11-22T01:17:51+00:00"
 }

@@ -2824,20 +2824,20 @@
     "name": "East Carolina Pirates",
     "abbr": "ECU",
     "score": 69,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "79",
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 83,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:55 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918988",
@@ -12203,5 +12203,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:48:49+00:00"
+ "live_at": "2026-11-22T01:12:21+00:00"
 }

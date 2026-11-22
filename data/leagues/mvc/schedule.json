@@ -2536,21 +2536,21 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 65,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "79",
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 80,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:50 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928998",
@@ -2577,7 +2577,7 @@
     "key": "valparaiso",
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2585,13 +2585,13 @@
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:20 - 1st"
   },
   {
    "game_id": "401917537",
@@ -9644,5 +9644,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:45:21+00:00"
+ "live_at": "2026-11-22T01:09:14+00:00"
 }

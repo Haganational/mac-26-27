@@ -2483,21 +2483,21 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": 69,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "311",
     "key": null,
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": 34,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:56 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911024",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:40:01+00:00"
+ "live_at": "2026-11-22T01:04:31+00:00"
 }

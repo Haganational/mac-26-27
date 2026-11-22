@@ -2233,7 +2233,7 @@
     "key": "abilene-christian",
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2241,13 +2241,13 @@
     "key": null,
     "name": "Southwestern Adventist Knights",
     "abbr": "SWA",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:28 - 1st"
   },
   {
    "game_id": "401929387",
@@ -8918,5 +8918,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T01:19:10+00:00"
 }

@@ -27,9 +27,9 @@ Kevin Donahue is a Worcester kid, son of a Boston firefighter, and a UMass dropo
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
+**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kevin editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kevin editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -61,7 +61,7 @@ Kevin Donahue is a Worcester kid, son of a Boston firefighter, and a UMass dropo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -73,3 +73,5 @@ Kevin Donahue is a Worcester kid, son of a Boston firefighter, and a UMass dropo
 - 2026-11-18: L 79-83 vs Bryant Bulldogs. Barometer 48 (steady). <!-- g:401911020 -->
 - 2026-11-18: Social recap posted (L 79-83 vs Bryant Bulldogs): https://hardwoodbricks.com/games/401911020.html <!-- post:401911020:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:preview -->
+- 2026-11-21: W 76-44 vs Maine Black Bears. Barometer 57 (steady). <!-- g:401911023 -->
+- 2026-11-22: Social recap posted (W 76-44 vs Maine Black Bears): https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:recap -->

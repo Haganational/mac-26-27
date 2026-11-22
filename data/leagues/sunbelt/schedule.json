@@ -3447,7 +3447,7 @@
     "key": null,
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -3455,13 +3455,13 @@
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:25 - 1st"
   },
   {
    "game_id": "401922252",
@@ -12631,5 +12631,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T00:27:22+00:00"
+ "live_at": "2026-11-22T01:13:12+00:00"
 }
