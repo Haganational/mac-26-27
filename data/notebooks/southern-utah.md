@@ -72,7 +72,7 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -84,3 +84,4 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401906867.html <!-- post:401906867:preview -->
 - 2026-11-20: L 68-92 at Texas Longhorns. Barometer 37 (testy). <!-- g:401906867 -->
 - 2026-11-20: Social recap posted (L 68-92 vs Texas Longhorns): https://hardwoodbricks.com/bigsky/games/401906867.html <!-- post:401906867:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:preview -->

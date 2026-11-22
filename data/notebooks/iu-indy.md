@@ -69,7 +69,7 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 - 2026-11-18: L 74-81 at Penn State Nittany Lions. Barometer 49 (steady). <!-- g:401917181 -->
 - 2026-11-19: Social recap posted (L 74-81 vs Penn State Nittany Lions): https://hardwoodbricks.com/horizon/games/401917181.html <!-- post:401917181:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:preview -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401921177.html <!-- post:401921177:preview -->
