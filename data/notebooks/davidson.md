@@ -66,7 +66,7 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
 - 2026-11-18: L 66-73 vs Charlotte 49ers. Barometer 51 (steady). <!-- g:401925775 -->
 - 2026-11-18: Social recap posted (L 66-73 vs Charlotte 49ers): https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:preview -->

@@ -62,7 +62,7 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -74,3 +74,4 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:preview -->
 - 2026-11-20: L 100-103 vs Southern Miss Golden Eagles. Barometer 30 (testy). <!-- g:401928388 -->
 - 2026-11-20: Social recap posted (L 100-103 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/swac/games/401928389.html <!-- post:401928389:preview -->

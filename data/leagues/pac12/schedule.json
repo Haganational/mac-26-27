@@ -1916,7 +1916,7 @@
     "key": null,
     "name": "Duke Blue Devils",
     "abbr": "DUKE",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -1924,13 +1924,13 @@
     "key": "washington-state",
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:11 - 1st"
   },
   {
    "game_id": "401929202",
@@ -8203,5 +8203,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T04:10:00+00:00"
 }

@@ -68,7 +68,7 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
 - 2026-11-18: W 81-74 vs Lindenwood Lions. Barometer 50 (steady). <!-- g:401927388 -->
 - 2026-11-18: Social recap posted (W 81-74 vs Lindenwood Lions): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:preview -->
