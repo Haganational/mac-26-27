@@ -18,6 +18,27 @@ def test_history_matches_the_brackets():
     assert len(h["mw"]["seasons"]) == 16, "2010-2026 without 2020"
 
 
+def test_every_edition_has_a_bid_history():
+    bids = _bids()
+    for y, confs in bids.items():
+        assert set(confs) <= set(ALL), f"{y}: unknown league key"
+        for k in ALL:
+            if k == "pac12" or (k == "american" and int(y) < 2014) or (k == "ivy" and y == "2021"):
+                continue
+            assert confs[k]["auto"], f"{y} {k}: every league that played sends its champion"
+    assert "american" not in bids["2013"] and "american" in bids["2014"] and "ivy" not in bids["2021"]
+    h = {c["key"]: c for c in A.history(bids, now=2027, notes=A.load_notes())}
+    assert len(h) == len(ALL) == 27
+    assert h["a10"]["total"] == 29 and h["american"]["total"] == 17 and h["wcc"]["total"] == 16 and h["mvc"]["total"] == 5
+    assert h["a10"]["last"]["year"] == 2026 and h["a10"]["last"]["at_large"] == ["Saint Louis"]
+    assert sorted(h["wcc"]["last"]["at_large"]) == ["Saint Mary's", "Santa Clara"]
+    assert h["cusa"]["total"] == 3 and h["caa"]["total"] == 2 and h["ovc"]["total"] == h["sunbelt"]["total"] == h["uac"]["total"] == 1
+    assert h["pac12"]["total"] == 26 and h["pac12"]["note"] and not any(s["auto"] for s in h["pac12"]["seasons"])
+    assert [s["played"] for s in h["american"]["seasons"]][:5] == [False] * 4 + [True]
+    for k in ("ivy", "socon", "summit", "swac", "nec"):
+        assert h[k]["total"] == 0
+
+
 def test_recency_weighting():
     bids = {"2025": {"x": {"auto": "", "at_large": ["a", "b"]}}, "2021": {"x": {"auto": "", "at_large": []}}}
     # 2025 has weight 0.5^(2/4), 2021 has 0.5^(6/4): the recent two-bid year dominates

@@ -79,6 +79,8 @@
   .yrs .yr[title]:hover .b:not(.a) { background: #7f2d1d; }
   .key { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 600 12.5px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
   .key i { display: inline-block; width: 18px; height: 10px; margin-right: 6px; vertical-align: -1px; background: #a8452c; } .key i.a { background: #cdb99a; }
+  .yr.off .y { opacity: .45; }
+  .hrow .names .note { display: block; margin-top: 2px; font-style: italic; color: var(--muted); }
   .hrow .names { grid-column: 2; font: 400 14.5px/1.45 var(--serif); color: var(--ink-2); }
   @media (max-width: 640px) { .hrow .names { grid-column: 1; } .yr .y { font-size: 9px; writing-mode: vertical-rl; transform: rotate(180deg); margin: 3px auto 0; } }
 
@@ -133,15 +135,15 @@
 
   <section id="history" aria-labelledby="h-history">
     <h2 id="h-history">Who gets at-large bids: {{ first_year }} to {{ last_year }}</h2>
-    <p>Every NCAA tournament since {{ first_year }} ({{ years|length }} of them; 2020 was canceled). Each column is a year, each brick a bid. The dark brick is the automatic bid, the light ones are at-large picks, First Four included. Leagues are shown as they were that year: the Metro was the MAAC until July 2026.</p>
+    <p>Every NCAA tournament since {{ first_year }} ({{ years|length }} of them; 2020 was canceled). Each column is a year, each brick a bid. The dark brick is the automatic bid, the light ones are at-large picks, First Four included. Leagues are shown as they were that year: the Metro was the MAAC and the UAC was the WAC until July 2026. The rebuilt Pac-12 is the one exception, carrying the bids its members earned in their old leagues.</p>
     <div class="hist" data-fold="8" data-fold-label="conferences">
     {% for c in history %}
       <div class="hrow">
         <div><h3>{{ c.short }}</h3><div class="sum">{{ c.total }} at-large bid{{ "" if c.total == 1 else "s" }} · {{ c.multi }} multi-bid year{{ "" if c.multi == 1 else "s" }}<br>C = {{ "%.2f"|format(c.weight) }} · boost {{ c.boost }}</div></div>
         <div class="yrs" role="img" aria-label="{{ c.short }}: {{ c.total }} at-large bids in {{ years|length }} tournaments">
-          {% for s in c.seasons %}<div class="yr" title="{{ s.year }}: {{ s.auto }}{% if s.at_large %} (auto); at-large {{ s.at_large|join(', ') }}{% endif %}"><span class="y">{{ "’%02d"|format(s.year % 100) }}</span><span class="b"></span>{% for t in s.at_large %}<span class="b a"></span>{% endfor %}</div>{% endfor %}
+          {% for s in c.seasons %}<div class="yr{% if not s.played %} off{% endif %}" title="{{ s.year }}: {% if not s.played %}no bid (league not in play){% else %}{% if s.auto %}{{ s.auto }}{% if s.at_large %} (auto); {% endif %}{% endif %}{% if s.at_large %}at-large {{ s.at_large|join(', ') }}{% elif not s.auto %}no at-large bids{% endif %}{% endif %}"><span class="y">{{ "’%02d"|format(s.year % 100) }}</span>{% if s.auto %}<span class="b"></span>{% endif %}{% for t in s.at_large %}<span class="b a"></span>{% endfor %}</div>{% endfor %}
         </div>
-        <div class="names">{% if c.total %}{% for s in c.seasons if s.at_large %}<b>{{ s.year }}</b> {{ s.at_large|join(", ") }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}No at-large bids since {{ first_year }}.{% endif %}</div>
+        <div class="names">{% if c.total %}{% for s in c.seasons if s.at_large %}<b>{{ s.year }}</b> {{ s.at_large|join(", ") }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}No at-large bids since {{ first_year }}.{% endif %}{% if c.note %} <span class="note">{{ c.note }}</span>{% endif %}</div>
       </div>
     {% endfor %}
     </div>
@@ -160,7 +162,7 @@
       <li><b>League boost.</b> A conference that has averaged one at-large bid a year lifts its teams {{ boost|int }} spots. Strong leagues give their teams more chances at the Quadrant 1 wins the committee looks for, and the boost is a simple stand-in for that.</li>
       <li><b>A bigger field.</b> The 2027 tournament grows from 68 teams to 76, so there are about 44 at-large spots instead of 36. The zone lines sit a little lower than they would have last year for that reason.</li>
       <li><b>Recency.</b> A tournament's weight halves every {{ half_life|int }} years, so the last few Marches count most.</li>
-      <li><b>Know the limits.</b> The Mountain West's at-large record was built largely by San Diego State, Utah State, Boise State, Colorado State and Fresno State, who left for the Pac-12 in July 2026. The boost goes by the league's own history, so the Mountain West's may run high this season. Early-season ratings also move a lot week to week.</li>
+      <li><b>Know the limits.</b> The Mountain West's at-large record was built largely by San Diego State, Utah State, Boise State, Colorado State and Fresno State, who left for the Pac-12 in July 2026. The Mountain West's boost goes by its own history, so it may run high this season, and the Pac-12's row counts those same bids for the schools that now carry them. Early-season ratings also move a lot week to week.</li>
     </ul>
   </section>
 </main>
