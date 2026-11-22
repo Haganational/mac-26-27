@@ -72,7 +72,7 @@ Jasper Hale spent fifteen years crunching numbers for a Willamette Valley grass-
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Jasper Hale spent fifteen years crunching numbers for a Willamette Valley grass-
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/pac12/games/401930884.html <!-- post:401930884:preview -->
 - 2026-11-20: W 82-71 vs (neutral) Oregon Ducks. Barometer 88 (giddy). <!-- g:401930884 -->
 - 2026-11-20: Social recap posted (W 82-71 vs Oregon Ducks): https://hardwoodbricks.com/pac12/games/401930884.html <!-- post:401930884:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:preview -->
