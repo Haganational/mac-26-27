@@ -2536,7 +2536,7 @@
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": 17,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2544,13 +2544,13 @@
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": 24,
+    "score": 49,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:54 - 1st"
+   "detail": "0:37 - 1st"
   },
   {
    "game_id": "401925049",
@@ -2582,7 +2582,7 @@
     "key": null,
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2590,13 +2590,13 @@
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:59 - 1st"
   },
   {
    "game_id": "401925066",
@@ -10123,5 +10123,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T01:42:59+00:00"
+ "live_at": "2026-11-22T02:08:31+00:00"
 }
