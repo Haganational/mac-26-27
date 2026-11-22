@@ -2,29 +2,29 @@
  "date": "2026-11-22",
  "desk": {
   "anchor": {
-   "alt": "Natalie Lin, the UC San Diego AI anchor",
-   "color": "#182B49",
-   "color2": "#C69214",
-   "initials": "NL",
+   "alt": "Terrence Mabry, the UAB AI anchor",
+   "color": "#1E6B52",
+   "color2": "#F4C300",
+   "initials": "TM",
    "ink": "#ffffff",
-   "key": "uc-san-diego",
-   "name": "Natalie Lin",
-   "portrait": "den/anchors/uc-san-diego.webp",
-   "school": "UC San Diego",
+   "key": "uab",
+   "name": "Terrence Mabry",
+   "portrait": "den/anchors/uab.webp",
+   "school": "UAB",
    "tag": "AI anchor"
   },
-  "max": 197,
+  "max": 203,
   "picks": [
    {
-    "abbr": "UCSD",
-    "game_id": "401917542",
+    "abbr": "UAB",
+    "game_id": "401919020",
     "kind": "homer",
-    "short": "UC San Diego",
+    "short": "UAB",
     "side": "home",
-    "team_id": "28",
-    "tip": "2026-11-23T02:30Z",
+    "team_id": "5",
+    "tip": "2026-11-23T00:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 49
+    "worth": 55
    },
    {
     "abbr": "SFA",
@@ -86,6 +86,18 @@
    "tip": "2026-11-22T17:00Z",
    "why": "Homer pick.",
    "worth": 49
+  },
+  {
+   "abbr": "CHS",
+   "game_id": "401909527",
+   "key": "chicago-state",
+   "kind": "homer",
+   "short": "Chicago State",
+   "side": "away",
+   "team_id": "2130",
+   "tip": "2026-11-22T18:00Z",
+   "why": "Homer pick.",
+   "worth": 97
   },
   {
    "abbr": "AMER",
@@ -205,7 +217,7 @@
    "team_id": "2754",
    "tip": "2026-11-22T19:00Z",
    "why": "Homer pick.",
-   "worth": 56
+   "worth": 57
   },
   {
    "abbr": "W&M",
@@ -217,7 +229,7 @@
    "team_id": "2729",
    "tip": "2026-11-22T19:00Z",
    "why": "Homer pick.",
-   "worth": 44
+   "worth": 43
   },
   {
    "abbr": "MEM",
@@ -385,7 +397,7 @@
    "team_id": "2447",
    "tip": "2026-11-22T20:00Z",
    "why": "Homer pick.",
-   "worth": 67
+   "worth": 68
   },
   {
    "abbr": "TROY",
@@ -397,7 +409,7 @@
    "team_id": "2653",
    "tip": "2026-11-22T20:00Z",
    "why": "Homer pick.",
-   "worth": 33
+   "worth": 32
   },
   {
    "abbr": "ALB",
@@ -409,7 +421,7 @@
    "team_id": "399",
    "tip": "2026-11-22T20:30Z",
    "why": "Homer pick.",
-   "worth": 48
+   "worth": 49
   },
   {
    "abbr": "MERC",
@@ -421,7 +433,7 @@
    "team_id": "2385",
    "tip": "2026-11-22T20:30Z",
    "why": "Homer pick.",
-   "worth": 52
+   "worth": 51
   },
   {
    "abbr": "TXST",
@@ -721,7 +733,7 @@
    "team_id": "3084",
    "tip": "2026-11-23T01:00Z",
    "why": "Homer pick.",
-   "worth": 26
+   "worth": 25
   },
   {
    "abbr": "UTM",
