@@ -2434,7 +2434,7 @@
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 15,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2442,13 +2442,13 @@
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 17,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:23 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911200",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T03:21:26+00:00"
+ "live_at": "2026-11-22T03:47:00+00:00"
 }
