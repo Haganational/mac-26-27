@@ -72,7 +72,7 @@ Cody Lindqvist sold insurance in Spokane for fifteen years and moved to Cheney a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -83,3 +83,4 @@ Cody Lindqvist sold insurance in Spokane for fifteen years and moved to Cheney a
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:preview -->
 - 2026-11-18: W 71-67 at Utah Utes. Barometer 51 (steady). <!-- g:401920720 -->
 - 2026-11-18: Social recap posted (W 71-67 vs Utah Utes): https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401920721.html <!-- post:401920721:preview -->
