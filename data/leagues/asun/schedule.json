@@ -2126,7 +2126,7 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2134,13 +2134,13 @@
     "key": null,
     "name": "Milligan Buffaloes",
     "abbr": "MILG",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:00 - 1st"
   },
   {
    "game_id": "401921701",
@@ -8253,5 +8253,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T22:01:52+00:00"
+ "live_at": "2026-11-22T22:32:17+00:00"
 }

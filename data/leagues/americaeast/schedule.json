@@ -2575,21 +2575,21 @@
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": 63,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2385",
     "key": null,
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": 67,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:18 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909556",
@@ -2620,7 +2620,7 @@
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 7,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2628,13 +2628,13 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 9,
+    "score": 26,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:46 - 1st"
+   "detail": "2:22 - 1st"
   },
   {
    "game_id": "401911279",
@@ -8788,5 +8788,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T22:17:46+00:00"
+ "live_at": "2026-11-22T22:52:29+00:00"
 }

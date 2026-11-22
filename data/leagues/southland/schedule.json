@@ -2664,7 +2664,7 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 65,
+    "score": 93,
     "winner": null
    },
    "away": {
@@ -2672,13 +2672,13 @@
     "key": "mcneese",
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": 42,
+    "score": 67,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:29 - 2nd"
+   "detail": "0:19 - 2nd"
   },
   {
    "game_id": "401925013",
@@ -2699,7 +2699,7 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2707,13 +2707,13 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:12 - 1st"
   },
   {
    "game_id": "401921205",
@@ -2740,7 +2740,7 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2748,13 +2748,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:57 - 1st"
   },
   {
    "game_id": "401919032",
@@ -10119,5 +10119,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T22:14:31+00:00"
+ "live_at": "2026-11-22T22:48:26+00:00"
 }
