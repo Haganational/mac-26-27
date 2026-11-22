@@ -69,7 +69,7 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,4 @@ Cleo Haddad grew up in Carbondale, where her Lebanese-American family runs a bak
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:preview -->
 - 2026-11-21: W 85-69 vs (neutral) East Carolina Pirates. Barometer 53 (steady). <!-- g:401920570 -->
 - 2026-11-22: Social recap posted (W 85-69 vs East Carolina Pirates): https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921207.html <!-- post:401921207:preview -->

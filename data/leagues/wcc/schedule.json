@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:08:03+00:00",
+ "fetched_at": "2026-11-22T18:15:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2331,11 +2331,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2363,8 +2359,8 @@
   {
    "game_id": "401917539",
    "date": "2026-11-22T00:00Z",
-   "name": "California Baptist Lancers at Loyola Marymount Lions",
-   "short_name": "CBU VS LMU",
+   "name": "Loyola Marymount Lions at California Baptist Lancers",
+   "short_name": "LMU VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2376,27 +2372,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": "loyola-marymount",
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": 73,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2856",
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
+    "score": 73,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2351",
+    "key": "loyola-marymount",
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
     "score": 80,
     "winner": true
    },
@@ -2421,11 +2413,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
-    "low": 64.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Alex G. Spanos Center",
    "venue_city": "Stockton",
    "venue_state": "CA",
@@ -2468,7 +2456,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2513,7 +2501,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2558,7 +2546,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2603,7 +2591,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-22-2026--sports-ncaa-basketball/production/7686819?wsUser=717",
-    "low": 25.0,
+    "low": 35.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -2648,7 +2636,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2783,7 +2771,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Allen Fieldhouse",
@@ -3088,7 +3076,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 52.0,
+    "low": 57.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -4331,7 +4319,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-7-2026--sports-ncaa-basketball/production/7519437?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -4878,7 +4866,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-12-2026--sports-ncaa-basketball/production/7117728?wsUser=717",
-    "low": 26.0,
+    "low": 25.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "The Pit",
@@ -8122,7 +8110,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-1-30-2027--sports-ncaa-basketball/production/7686922?wsUser=717",
-    "low": 80.0,
+    "low": 85.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -9662,6 +9650,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T05:03:31+00:00"
+ ]
 }

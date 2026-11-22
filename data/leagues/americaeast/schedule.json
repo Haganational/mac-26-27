@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:16:53+00:00",
+ "fetched_at": "2026-11-22T18:28:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -2353,11 +2353,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-21-2026--sports-ncaa-basketball/production/7672806?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -2398,11 +2394,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-21-2026--sports-ncaa-basketball/production/7413913?wsUser=717",
-    "low": 41.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Mullins Center",
    "venue_city": "Amherst",
    "venue_state": "MA",
@@ -2443,11 +2435,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-11-21-2026--sports-ncaa-basketball/production/7626607?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Patrick Gymnasium",
    "venue_city": "Burlington",
    "venue_state": "VT",
@@ -2490,7 +2478,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-11-22-2026--sports-ncaa-basketball/production/7748246?wsUser=717",
-    "low": 31.0,
+    "low": 29.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -2512,10 +2500,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:46 - 1st"
   },
   {
    "game_id": "401921748",
@@ -2535,7 +2523,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-11-22-2026--sports-ncaa-basketball/production/7466790?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Fifth Third Arena (OH)",
@@ -3862,7 +3850,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-12-3-2026--sports-ncaa-basketball/production/7626611?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Patrick Gymnasium",
@@ -4071,7 +4059,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-12-5-2026--sports-ncaa-basketball/production/7752180?wsUser=717",
-    "low": 34.0,
+    "low": 33.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Events Center (Binghamton)",
@@ -4470,7 +4458,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-8-2026--sports-ncaa-basketball/production/7166220?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Rupp Arena",
@@ -5389,7 +5377,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-12-20-2026--sports-ncaa-basketball/production/7667090?wsUser=717",
-    "low": 36.0,
+    "low": 35.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "UPMC Events Center",
@@ -8799,6 +8787,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T02:12:00+00:00"
+ ]
 }

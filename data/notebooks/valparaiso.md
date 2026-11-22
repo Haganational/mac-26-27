@@ -27,9 +27,9 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 69% of stories right now.
 
 ## School and town
 

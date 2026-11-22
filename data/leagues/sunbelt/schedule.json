@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:09:32+00:00",
+ "fetched_at": "2026-11-22T18:17:31+00:00",
  "season": 2027,
  "games": [
   {
@@ -3425,8 +3425,8 @@
   {
    "game_id": "401928998",
    "date": "2026-11-22T01:00Z",
-   "name": "Troy Trojans at Valparaiso Beacons",
-   "short_name": "TROY VS VAL",
+   "name": "Valparaiso Beacons at Troy Trojans",
+   "short_name": "VAL VS TROY",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3443,18 +3443,18 @@
    "venue_city": "Pensacola",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2674",
-    "key": null,
-    "name": "Valparaiso Beacons",
-    "abbr": "VAL",
-    "score": 72,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2653",
     "key": "troy",
     "name": "Troy Trojans",
     "abbr": "TROY",
+    "score": 72,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2674",
+    "key": null,
+    "name": "Valparaiso Beacons",
+    "abbr": "VAL",
     "score": 77,
     "winner": true
    },
@@ -3608,7 +3608,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-11-22-2026--sports-ncaa-basketball/production/7508071?wsUser=717",
-    "low": 9.0,
+    "low": 7.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Galen Center",
@@ -3785,7 +3785,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-23-2026--sports-ncaa-basketball/production/7762869?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Truist Arena",
@@ -3824,7 +3824,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-20T12:09:57Z"
    },
    "venue": "Truist Arena",
@@ -3951,7 +3951,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 31.0,
+    "low": 32.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -4221,7 +4221,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-24-2026--sports-ncaa-basketball/production/7289372?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Cajundome",
@@ -4645,7 +4645,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-28-2026--sports-ncaa-basketball/production/7728805?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -4690,7 +4690,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-28-2026--sports-ncaa-basketball/production/7289378?wsUser=717",
-    "low": 32.0,
+    "low": 37.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Cajundome",
@@ -6453,7 +6453,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-12-2026--sports-ncaa-basketball/production/7627385?wsUser=717",
-    "low": 18.0,
+    "low": 20.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "EagleBank Arena",
@@ -12018,7 +12018,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-2-20-2027--sports-ncaa-basketball/production/7398360?wsUser=717",
-    "low": 43.0,
+    "low": 35.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -12630,6 +12630,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T03:23:25+00:00"
+ ]
 }

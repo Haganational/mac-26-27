@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:21:11+00:00",
+ "fetched_at": "2026-11-22T18:31:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -1989,11 +1989,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/norfolk-state-spartans-mens-basketball-tickets-joseph-g-echols-memorial-hall-11-21-2026--sports-ncaa-basketball/production/7864426?wsUser=717",
-    "low": 44.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Joseph G. Echols Hall",
    "venue_city": "Norfolk",
    "venue_state": "VA",
@@ -2034,11 +2030,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-mcdonough-arena-11-21-2026--sports-ncaa-basketball/production/7457825?wsUser=717",
-    "low": 334.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "McDonough Arena",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -2411,7 +2403,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-25-2026--sports-ncaa-basketball/production/7538349?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Lenovo Center",
@@ -3477,7 +3469,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-8-2026--sports-ncaa-basketball/production/7627379?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "EagleBank Arena",
@@ -3723,7 +3715,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-12-11-2026--sports-ncaa-basketball/production/7762886?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Truist Arena",
@@ -5181,7 +5173,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-29-2026--sports-ncaa-basketball/production/7294917?wsUser=717",
-    "low": 63.0,
+    "low": 60.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Neville Arena",
@@ -6590,7 +6582,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-2-6-2027--sports-ncaa-basketball/production/7914675?wsUser=717",
+    "low": 61.0,
+    "since": "2026-11-22T18:31:41Z"
+   },
    "venue": "Memorial Hall (DE)",
    "venue_city": "Dover",
    "venue_state": "DE",
@@ -7570,6 +7566,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T01:22:51+00:00"
+ ]
 }

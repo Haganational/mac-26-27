@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:00:54+00:00",
+ "fetched_at": "2026-11-22T18:04:55+00:00",
  "season": 2027,
  "games": [
   {
@@ -2470,11 +2470,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-21-2026--sports-ncaa-basketball/production/7413913?wsUser=717",
-    "low": 41.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Mullins Center",
    "venue_city": "Amherst",
    "venue_state": "MA",
@@ -2518,7 +2514,7 @@
     "key": null,
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": 15,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2526,13 +2522,13 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 28,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:40 - 1st"
+   "detail": "0:36 - 1st"
   },
   {
    "game_id": "401928830",
@@ -3093,7 +3089,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-27-2026--sports-ncaa-basketball/production/7478281?wsUser=717",
-    "low": 7.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -3564,7 +3560,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-2-2026--sports-ncaa-basketball/production/7424980?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -4403,7 +4399,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ball-state-cardinals-mens-basketball-tickets-john-e-worthen-arena-12-16-2026--sports-ncaa-basketball/production/7456065?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Worthen Arena",
@@ -8204,7 +8200,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-2-13-2027--sports-ncaa-basketball/production/7425015?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -9662,6 +9658,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T17:39:42+00:00"
+ ]
 }

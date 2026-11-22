@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:05:00+00:00",
+ "fetched_at": "2026-11-22T18:10:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -2247,11 +2247,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2279,8 +2275,8 @@
   {
    "game_id": "401917539",
    "date": "2026-11-22T00:00Z",
-   "name": "California Baptist Lancers at Loyola Marymount Lions",
-   "short_name": "CBU VS LMU",
+   "name": "Loyola Marymount Lions at California Baptist Lancers",
+   "short_name": "LMU VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2292,27 +2288,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": null,
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": 73,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2856",
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
+    "score": 73,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
     "score": 80,
     "winner": true
    },
@@ -2337,11 +2329,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cal-poly-mustangs-mens-basketball-tickets-mott-gym-11-21-2026--sports-ncaa-basketball/production/7877116?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-20T12:05:17Z"
-   },
+   "tickets": null,
    "venue": "Mott Athletics Center",
    "venue_city": "San Luis Obispo",
    "venue_state": "CA",
@@ -2384,7 +2372,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2470,7 +2458,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2556,7 +2544,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
+    "low": 29.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Acrisure Arena",
@@ -2601,7 +2589,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-23-2026--sports-ncaa-basketball/production/7745942?wsUser=717",
-    "low": 19.0,
+    "low": 18.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -4273,7 +4261,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-12-12-2026--sports-ncaa-basketball/production/7603793?wsUser=717",
-    "low": 25.0,
+    "low": 21.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -10170,6 +10158,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T02:22:52+00:00"
+ ]
 }

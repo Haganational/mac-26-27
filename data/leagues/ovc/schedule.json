@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:16:15+00:00",
+ "fetched_at": "2026-11-22T18:27:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -2339,11 +2339,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-11-21-2026--sports-ncaa-basketball/production/7883566?wsUser=717",
-    "low": 36.0,
-    "since": "2026-11-20T18:17:07Z"
-   },
+   "tickets": null,
    "venue": "Schar Center",
    "venue_city": "Elon",
    "venue_state": "NC",
@@ -2386,7 +2382,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-22-2026--sports-ncaa-basketball/production/7668023?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Koessler Athletic Center",
@@ -2408,10 +2404,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:16 - 1st"
   },
   {
    "game_id": "401906868",
@@ -2685,7 +2681,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Stony Brook Arena",
@@ -2948,7 +2944,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-28-2026--sports-ncaa-basketball/production/7728805?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "The HTC Center",
@@ -8349,6 +8345,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T02:11:16+00:00"
+ ]
 }

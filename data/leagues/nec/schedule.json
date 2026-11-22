@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:19:25+00:00",
+ "fetched_at": "2026-11-22T18:30:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -2296,11 +2296,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/stonehill-skyhawks-mens-basketball-tickets-merkert-gymnasium-11-21-2026--sports-ncaa-basketball/production/7580709?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
    "venue_state": "MA",
@@ -2343,7 +2339,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-11-22-2026--sports-ncaa-basketball/production/7269709?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Fiserv Forum",
@@ -2365,10 +2361,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:43 - 1st"
   },
   {
    "game_id": "401919809",
@@ -2406,10 +2402,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:33 - 1st"
   },
   {
    "game_id": "401923323",
@@ -3606,7 +3602,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-4-2026--sports-ncaa-basketball/production/7606472?wsUser=717",
-    "low": 15.0,
+    "low": 50.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Qubein Center",
@@ -5194,7 +5190,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-12-22-2026--sports-ncaa-basketball/production/7478287?wsUser=717",
-    "low": 7.0,
+    "low": 9.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -8387,6 +8383,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-22T00:14:32+00:00"
+ ]
 }

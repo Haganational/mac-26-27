@@ -70,7 +70,7 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:preview -->
 - 2026-11-21: L 69-85 vs (neutral) Southern Illinois Salukis. Barometer 45 (steady). <!-- g:401920570 -->
 - 2026-11-22: Social recap posted (L 69-85 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:preview -->

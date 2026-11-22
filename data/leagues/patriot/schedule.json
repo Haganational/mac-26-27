@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:17:30+00:00",
+ "fetched_at": "2026-11-22T18:29:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2653,10 +2653,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:41 - 1st"
   },
   {
    "game_id": "401921223",
@@ -3031,6 +3031,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    },
     {
      "name": "Patriot League TV",
      "kind": "Streaming",
@@ -5843,7 +5848,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-22-2026--sports-ncaa-basketball/production/7294910?wsUser=717",
-    "low": 42.0,
+    "low": 41.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Neville Arena",

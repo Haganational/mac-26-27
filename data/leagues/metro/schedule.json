@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T23:04:09+00:00",
+ "fetched_at": "2026-11-22T18:09:36+00:00",
  "season": 2027,
  "games": [
   {
@@ -3067,11 +3067,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-21-2026--sports-ncaa-basketball/production/7672806?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Koessler Athletic Center",
    "venue_city": "Buffalo",
    "venue_state": "NY",
@@ -3114,7 +3110,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-11-22-2026--sports-ncaa-basketball/production/7668023?wsUser=717",
-    "low": 26.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -3136,10 +3132,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:08 - 1st"
   },
   {
    "game_id": "401919809",
@@ -3177,10 +3173,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:55 - 1st"
   },
   {
    "game_id": "401919761",
@@ -3624,6 +3620,11 @@
    "time_tba": false,
    "broadcasts": [
     {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    },
+    {
      "name": "Patriot League TV",
      "kind": "Streaming",
      "market": "Home"
@@ -3842,7 +3843,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-28-2026--sports-ncaa-basketball/production/7627373?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "EagleBank Arena",
@@ -4317,7 +4318,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-30-2026--sports-ncaa-basketball/production/7581915?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Center at Gampel Pavilion",
@@ -6001,7 +6002,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-pinnacle-bank-arena-11-17-2026--sports-ncaa-basketball/production/7359032?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Pinnacle Bank Arena",
@@ -6447,7 +6448,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-20-2026--sports-ncaa-basketball/production/7350086?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Food City Center",
@@ -10284,7 +10285,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-2-13-2027--sports-ncaa-basketball/production/7470669?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "MVP Arena",
@@ -11364,6 +11365,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T23:33:35+00:00"
+ ]
 }

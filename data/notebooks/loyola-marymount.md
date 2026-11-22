@@ -27,9 +27,9 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 
 ## Barometer
 
-**45 of 100, steady.** Record 2-4 (0-0 in conference), streak L1, last five WLLWL.
+**58 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 65% of stories right now.
 
 ## School and town
 
