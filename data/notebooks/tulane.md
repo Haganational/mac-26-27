@@ -66,7 +66,7 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:preview -->
 - 2026-11-20: L 67-74 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401919005 -->
 - 2026-11-20: Social recap posted (L 67-74 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:preview -->

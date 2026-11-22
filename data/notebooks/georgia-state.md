@@ -71,7 +71,7 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:preview -->
 - 2026-11-21: L 77-82 at Jacksonville State Gamecocks. Barometer 47 (steady). <!-- g:401926782 -->
 - 2026-11-21: Social recap posted (L 77-82 vs Jacksonville State Gamecocks): https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:preview -->
