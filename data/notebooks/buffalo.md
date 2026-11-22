@@ -70,7 +70,7 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->
 - 2026-11-20: L 69-78 at St. Bonaventure Bonnies. Barometer 48 (steady). <!-- g:401911021 -->
 - 2026-11-20: Social recap posted (L 69-78 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401911025.html <!-- post:401911025:preview -->
