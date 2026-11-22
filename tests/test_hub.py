@@ -1,8 +1,18 @@
 import json
 from unittest.mock import patch
 
-from mac import hub
+import pytest
+
+from mac import hub, notes
 from mac.leagues import ALL
+
+
+@pytest.fixture(autouse=True)
+def _no_live_dispatches(tmp_path_factory, monkeypatch):
+    """Keep the repo's real notes/dispatches out of these builds: a live pin (say Matthew's arena
+    article) would take the lead slot and every front-page test would read it instead of its fixture.
+    Tests that exercise pins point NOTES_DIR at their own folder."""
+    monkeypatch.setattr(notes, "NOTES_DIR", tmp_path_factory.mktemp("no-notes"))
 
 
 def _g(gid, home, away, done, **kw):
