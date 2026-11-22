@@ -2512,7 +2512,7 @@
     "key": "loyola-marymount",
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2520,13 +2520,13 @@
     "key": null,
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:31 - 1st"
   },
   {
    "game_id": "401917541",
@@ -9651,5 +9651,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T21:10:04+00:00"
+ "live_at": "2026-11-22T21:37:22+00:00"
 }

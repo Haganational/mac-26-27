@@ -27,9 +27,9 @@ Mallory Hayes gave campus tours at Western Kentucky for four years and walked up
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
+**65 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mallory editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mallory editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Mallory Hayes gave campus tours at Western Kentucky for four years and walked up
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Mallory Hayes gave campus tours at Western Kentucky for four years and walked up
 - 2026-11-21: L 68-82 vs (neutral) Richmond Spiders. Barometer 47 (steady). <!-- g:401927396 -->
 - 2026-11-21: Social recap posted (L 68-82 vs Richmond Spiders): https://hardwoodbricks.com/a10/games/401927396.html <!-- post:401927396:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401928802.html <!-- post:401928802:preview -->
+- 2026-11-22: W 86-78 vs (neutral) George Washington Revolutionaries. Barometer 65 (buoyant). <!-- g:401928802 -->
+- 2026-11-22: Social recap posted (W 86-78 vs George Washington Revolutionaries): https://hardwoodbricks.com/a10/games/401928802.html <!-- post:401928802:recap -->

@@ -2080,7 +2080,7 @@
     "key": "umes",
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2088,13 +2088,13 @@
     "key": null,
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:24 - 1st"
   },
   {
    "game_id": "401920752",
@@ -7566,5 +7566,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T21:47:19+00:00"
 }
