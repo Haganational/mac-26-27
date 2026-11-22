@@ -2309,21 +2309,21 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 89,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "111",
     "key": null,
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 80,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909527",
@@ -8388,5 +8388,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T23:48:00+00:00"
+ "live_at": "2026-11-22T00:14:32+00:00"
 }

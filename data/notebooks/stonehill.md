@@ -1,6 +1,6 @@
 # Megan Costa, The Easton Chronicle
 
-_Stonehill (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Stonehill (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-22._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 
 ## Barometer
 
-**21 of 100, despondent.** Record 1-4 (0-0 in conference), streak L4, last five WLLLL.
+**40 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-19: L 70-90 vs New Hampshire Wildcats. Barometer 21 (despondent). <!-- g:401919848 -->
 - 2026-11-19: Social recap posted (L 70-90 vs New Hampshire Wildcats): https://hardwoodbricks.com/americaeast/games/401919848.html <!-- post:401919848:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:preview -->
+- 2026-11-21: W 95-82 vs Northeastern Huskies. Barometer 40 (testy). <!-- g:401919849 -->
+- 2026-11-22: Social recap posted (W 95-82 vs Northeastern Huskies): https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:recap -->

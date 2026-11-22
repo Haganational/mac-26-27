@@ -2810,21 +2810,21 @@
     "key": null,
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 83,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "111",
     "key": "northeastern",
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 74,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925897",
@@ -2855,7 +2855,7 @@
     "key": null,
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": 27,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2863,13 +2863,13 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 38,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:58 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920964",
@@ -2900,7 +2900,7 @@
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2908,13 +2908,13 @@
     "key": null,
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:32 - 1st"
   },
   {
    "game_id": "401912212",
@@ -12014,5 +12014,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T23:40:39+00:00"
+ "live_at": "2026-11-22T00:05:08+00:00"
 }

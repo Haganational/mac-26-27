@@ -2352,7 +2352,7 @@
     "key": null,
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": "morehead-state",
     "name": "Morehead State Eagles",
     "abbr": "MORE",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:43 - 1st"
   },
   {
    "game_id": "401929023",
@@ -8349,5 +8349,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T00:12:04+00:00"
 }

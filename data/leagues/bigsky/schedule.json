@@ -2483,7 +2483,7 @@
     "key": null,
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2491,13 +2491,13 @@
     "key": "northern-arizona",
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:28 - 1st"
   },
   {
    "game_id": "401925942",
@@ -9721,5 +9721,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T00:08:05+00:00"
 }

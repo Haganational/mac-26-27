@@ -1,6 +1,6 @@
 # Tiffany Park, The Irvine Almanac
 
-_UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UC Irvine (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-22._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 
 ## Barometer
 
-**61 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,5 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 - 2026-11-18: Social recap posted (L 61-65 vs Stanford Cardinal): https://hardwoodbricks.com/bigwest/games/401921729.html <!-- post:401921729:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:preview -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:preview -->
+- 2026-11-21: L 64-67 vs (neutral) San Diego Toreros. Barometer 52 (steady). <!-- g:401917538 -->
+- 2026-11-22: Social recap posted (L 64-67 vs San Diego Toreros): https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:recap -->
