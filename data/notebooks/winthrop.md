@@ -69,7 +69,7 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401925709.html <!-- post:401925709:preview -->
 - 2026-11-21: L 86-91 at Wofford Terriers. Barometer 18 (despondent). <!-- g:401925709 -->
 - 2026-11-22: Social recap posted (L 86-91 vs Wofford Terriers): https://hardwoodbricks.com/socon/games/401925709.html <!-- post:401925709:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401913530.html <!-- post:401913530:preview -->
