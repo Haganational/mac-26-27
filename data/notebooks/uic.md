@@ -27,9 +27,9 @@ Enzo Moretti grew up on Taylor Street in Chicago's Little Italy, a few blocks fr
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**53 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Enzo editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Enzo editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Enzo Moretti grew up on Taylor Street in Chicago's Little Italy, a few blocks fr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Enzo Moretti grew up on Taylor Street in Chicago's Little Italy, a few blocks fr
 - 2026-11-19: W 60-52 vs Chicago State Cougars. Barometer 62 (steady). <!-- g:401919735 -->
 - 2026-11-19: Social recap posted (W 60-52 vs Chicago State Cougars): https://hardwoodbricks.com/mvc/games/401919735.html <!-- post:401919735:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/games/401911024.html <!-- post:401911024:preview -->
+- 2026-11-22: L 60-71 vs (neutral) Miami (OH) RedHawks. Barometer 53 (steady). <!-- g:401911024 -->
+- 2026-11-22: Social recap posted (L 60-71 vs Miami (OH) RedHawks): https://hardwoodbricks.com/games/401911024.html <!-- post:401911024:recap -->

@@ -27,9 +27,9 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 
 ## Barometer
 
-**25 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
+**43 of 100, testy.** Record 2-6 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jess editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jess editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -88,3 +88,4 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401929023.html <!-- post:401929023:preview -->
 - 2026-11-21: L 65-68 vs (neutral) Mercyhurst Lakers. Barometer 25 (despondent). <!-- g:401919828 -->
 - 2026-11-21: Social recap posted (L 65-68 vs Mercyhurst Lakers): https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:recap -->
+- 2026-11-22: W 66-46 at Canisius Golden Griffins. Barometer 43 (testy). <!-- g:401929023 -->

@@ -2317,7 +2317,7 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": 9,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2325,13 +2325,13 @@
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": 2,
+    "score": 18,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:33 - 1st"
+   "detail": "5:58 - 1st"
   },
   {
    "game_id": "401928790",
@@ -2352,7 +2352,7 @@
     "key": "new-mexico-state",
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": null,
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:42 - 1st"
   },
   {
    "game_id": "401926795",
@@ -9069,5 +9069,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T19:18:10+00:00"
+ "live_at": "2026-11-22T19:42:51+00:00"
 }
