@@ -2118,7 +2118,7 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": 43,
+    "score": 73,
     "winner": null
    },
    "away": {
@@ -2126,13 +2126,13 @@
     "key": null,
     "name": "Milligan Buffaloes",
     "abbr": "MILG",
-    "score": 28,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "9:14 - 2nd"
   },
   {
    "game_id": "401921701",
@@ -8244,5 +8244,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T23:32:19+00:00"
 }

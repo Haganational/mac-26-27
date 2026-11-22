@@ -27,9 +27,9 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 
 ## Barometer
 
-**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**43 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tiffany editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:preview -->
 - 2026-11-21: L 64-67 vs (neutral) San Diego Toreros. Barometer 52 (steady). <!-- g:401917538 -->
 - 2026-11-22: Social recap posted (L 64-67 vs San Diego Toreros): https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:recap -->
+- 2026-11-22: L 68-72 vs (neutral) Loyola Marymount Lions. Barometer 43 (testy). <!-- g:401917540 -->
+- 2026-11-22: Social recap posted (L 68-72 vs Loyola Marymount Lions): https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:recap -->

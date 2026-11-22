@@ -2695,7 +2695,7 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2703,13 +2703,13 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 54,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:10 - 1st"
+   "detail": "14:40 - 2nd"
   },
   {
    "game_id": "401921205",
@@ -2736,7 +2736,7 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2744,13 +2744,13 @@
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
+    "score": 39,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:38 - 1st"
+   "detail": "15:47 - 2nd"
   },
   {
    "game_id": "401919032",
@@ -10114,5 +10114,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T23:48:23+00:00"
 }

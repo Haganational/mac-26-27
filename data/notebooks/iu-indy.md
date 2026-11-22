@@ -27,9 +27,9 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**58 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kendra editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kendra editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 - 2026-11-19: Social recap posted (L 74-81 vs Penn State Nittany Lions): https://hardwoodbricks.com/horizon/games/401917181.html <!-- post:401917181:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:preview -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401921177.html <!-- post:401921177:preview -->
+- 2026-11-22: W 81-61 vs (neutral) Maryland Eastern Shore Hawks. Barometer 58 (steady). <!-- g:401921176 -->
+- 2026-11-22: Social recap posted (W 81-61 vs Maryland Eastern Shore Hawks): https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:recap -->

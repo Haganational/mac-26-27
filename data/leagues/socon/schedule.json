@@ -2832,7 +2832,7 @@
     "key": "samford",
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 42,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2840,13 +2840,13 @@
     "key": null,
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 40,
+    "score": 64,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "6:44 - 2nd"
   },
   {
    "game_id": "401926106",
@@ -9895,5 +9895,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T23:46:23+00:00"
 }

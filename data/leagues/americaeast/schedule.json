@@ -2608,7 +2608,7 @@
     "key": null,
     "name": "Boston College Eagles",
     "abbr": "BC",
-    "score": 41,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2616,13 +2616,13 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 31,
+    "score": 54,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "5:05 - 2nd"
   },
   {
    "game_id": "401911279",
@@ -8775,5 +8775,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T23:52:26+00:00"
 }

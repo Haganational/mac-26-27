@@ -27,9 +27,9 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
+**65 of 100, buoyant.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:preview -->
 - 2026-11-22: L 73-80 vs (neutral) California Baptist Lancers. Barometer 45 (steady). <!-- g:401917539 -->
 - 2026-11-22: Social recap posted (L 73-80 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:recap -->
+- 2026-11-22: W 72-68 vs (neutral) UC Irvine Anteaters. Barometer 65 (buoyant). <!-- g:401917540 -->
+- 2026-11-22: Social recap posted (W 72-68 vs UC Irvine Anteaters): https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:recap -->
