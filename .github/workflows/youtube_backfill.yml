@@ -1,0 +1,53 @@
+name: YouTube backfill
+
+# Upload a show that already rendered but missed YouTube (an expired sign-in, say), without
+# rendering it again. Pulls the files from that run's artifact, or from its release, then runs
+# the usual uploader, which skips anything already on the channel. Started by hand only.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag of the missed show, e.g. midmaxx60-2026-11-21"
+        required: true
+      run_id:
+        description: "Optional: the run that rendered it (its artifact also carries the search tags)"
+        required: false
+      show:
+        description: "midmaxx60 or bigmid"
+        default: midmaxx60
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch the rendered files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          RUN_ID: ${{ inputs.run_id }}
+          SHOW: ${{ inputs.show }}
+        run: |
+          mkdir -p out
+          if [ -n "$RUN_ID" ]; then gh run download "$RUN_ID" -n "$SHOW" -D out || true; fi
+          ls out/"$TAG".mp4 >/dev/null 2>&1 || gh release download "$TAG" -D out --clobber
+          ls -la out
+      - name: Upload to YouTube
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.youtube --out out --show "${{ inputs.show }}"
