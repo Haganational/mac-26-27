@@ -3121,7 +3121,7 @@
     "key": "canisius",
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
-    "score": 21,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -3129,13 +3129,13 @@
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": 23,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:58 - 1st"
+   "detail": "16:09 - 2nd"
   },
   {
    "game_id": "401919809",
@@ -3162,7 +3162,7 @@
     "key": null,
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 23,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -3170,13 +3170,13 @@
     "key": "fairfield",
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 21,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:06 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401919761",
@@ -11366,5 +11366,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T18:40:04+00:00"
+ "live_at": "2026-11-22T19:07:46+00:00"
 }

@@ -2350,7 +2350,7 @@
     "key": null,
     "name": "Marquette Golden Eagles",
     "abbr": "MARQ",
-    "score": 57,
+    "score": 80,
     "winner": null
    },
    "away": {
@@ -2358,13 +2358,13 @@
     "key": "chicago-state",
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": 25,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:22 - 2nd"
   },
   {
    "game_id": "401919809",
@@ -2391,7 +2391,7 @@
     "key": "liu",
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": 36,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2399,13 +2399,13 @@
     "key": null,
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 30,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:52 - 2nd"
   },
   {
    "game_id": "401923323",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T18:58:59+00:00"
+ "live_at": "2026-11-22T19:26:43+00:00"
 }

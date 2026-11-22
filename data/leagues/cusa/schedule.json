@@ -2317,7 +2317,7 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2325,13 +2325,13 @@
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:33 - 1st"
   },
   {
    "game_id": "401928790",
@@ -9068,5 +9068,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T19:18:10+00:00"
 }

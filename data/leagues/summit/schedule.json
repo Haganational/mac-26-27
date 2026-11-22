@@ -2322,7 +2322,7 @@
     "key": null,
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2330,13 +2330,13 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:14 - 1st"
   },
   {
    "game_id": "401929392",
@@ -7947,5 +7947,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T19:21:56+00:00"
 }

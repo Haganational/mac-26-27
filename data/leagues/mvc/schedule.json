@@ -2653,7 +2653,7 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": 42,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2661,13 +2661,13 @@
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 50,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:59 - 2nd"
+   "detail": "6:33 - 2nd"
   },
   {
    "game_id": "401918988",
@@ -2698,7 +2698,7 @@
     "key": null,
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2706,13 +2706,13 @@
     "key": "evansville",
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:58 - 1st"
   },
   {
    "game_id": "401928999",
@@ -9710,5 +9710,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T18:42:11+00:00"
+ "live_at": "2026-11-22T19:09:53+00:00"
 }

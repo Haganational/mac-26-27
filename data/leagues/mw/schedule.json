@@ -2153,7 +2153,7 @@
     "key": null,
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2161,13 +2161,13 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:28 - 1st"
   },
   {
    "game_id": "401911233",
@@ -8996,5 +8996,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-22T19:06:59+00:00"
 }
