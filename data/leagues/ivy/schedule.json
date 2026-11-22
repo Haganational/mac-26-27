@@ -2079,8 +2079,8 @@
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 80,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "225",
@@ -2088,12 +2088,12 @@
     "name": "Brown Bears",
     "abbr": "BRWN",
     "score": 71,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929286",
@@ -7246,5 +7246,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T02:04:24+00:00"
+ "live_at": "2026-11-22T02:29:59+00:00"
 }

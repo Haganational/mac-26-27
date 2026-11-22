@@ -27,9 +27,9 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**29 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 - 2026-11-19: L 72-78 vs UNC Greensboro Spartans. Barometer 34 (testy). <!-- g:401911393 -->
 - 2026-11-19: Social recap posted (L 72-78 vs UNC Greensboro Spartans): https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:preview -->
+- 2026-11-22: L 68-71 at VMI Keydets. Barometer 29 (despondent). <!-- g:401911394 -->
+- 2026-11-22: Social recap posted (L 68-71 vs VMI Keydets): https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:recap -->

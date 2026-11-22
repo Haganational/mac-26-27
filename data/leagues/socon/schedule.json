@@ -2717,21 +2717,21 @@
     "key": "mercer",
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": 66,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2127",
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 60,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911394",
@@ -2762,21 +2762,21 @@
     "key": "vmi",
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": 67,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2241",
     "key": null,
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": 65,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926217",
@@ -2807,7 +2807,7 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": 68,
+    "score": 93,
     "winner": null
    },
    "away": {
@@ -2815,13 +2815,13 @@
     "key": null,
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": 51,
+    "score": 64,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "9:41 - 2nd"
+   "detail": "1:48 - 2nd"
   },
   {
    "game_id": "401922293",
@@ -9916,5 +9916,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T02:06:48+00:00"
+ "live_at": "2026-11-22T02:32:37+00:00"
 }

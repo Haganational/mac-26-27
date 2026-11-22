@@ -27,9 +27,9 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 
 ## Barometer
 
-**38 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LLWLL.
+**46 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Imani editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Imani editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 - 2026-11-19: L 84-88 at Presbyterian Blue Hose. Barometer 38 (testy). <!-- g:401928347 -->
 - 2026-11-19: Social recap posted (L 84-88 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401911378.html <!-- post:401911378:preview -->
+- 2026-11-22: W 69-64 vs Charleston Southern Buccaneers. Barometer 46 (steady). <!-- g:401911378 -->
+- 2026-11-22: Social recap posted (W 69-64 vs Charleston Southern Buccaneers): https://hardwoodbricks.com/socon/games/401911378.html <!-- post:401911378:recap -->
