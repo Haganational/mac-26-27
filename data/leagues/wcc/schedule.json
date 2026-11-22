@@ -2434,21 +2434,21 @@
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 57,
-    "winner": null
+    "score": 63,
+    "winner": true
    },
    "away": {
     "espn_id": "71",
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": 58,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:09 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911200",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T04:38:15+00:00"
+ "live_at": "2026-11-22T05:03:31+00:00"
 }

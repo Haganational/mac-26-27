@@ -27,9 +27,9 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**73 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rex editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rex editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,5 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 - 2026-11-18: W 96-41 vs Pacific Union Pioneers. Barometer 70 (buoyant). <!-- g:401917534 -->
 - 2026-11-18: Social recap posted (W 96-41 vs Pacific Union Pioneers): https://hardwoodbricks.com/wcc/games/401917534.html <!-- post:401917534:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:preview -->
+- 2026-11-22: W 63-62 vs Bradley Braves. Barometer 73 (buoyant). <!-- g:401917537 -->
+- 2026-11-22: Social recap posted (W 63-62 vs Bradley Braves): https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:recap -->
