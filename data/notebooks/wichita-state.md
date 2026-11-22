@@ -72,7 +72,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->
 - 2026-11-21: W 85-60 vs New Mexico Lobos. Barometer 78 (buoyant). <!-- g:401919031 -->
 - 2026-11-21: Social recap posted (W 85-60 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:preview -->

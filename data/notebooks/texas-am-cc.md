@@ -69,7 +69,7 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401925099.html <!-- post:401925099:preview -->
 - 2026-11-22: L 74-78 at Oral Roberts Golden Eagles. Barometer 35 (testy). <!-- g:401925099 -->
 - 2026-11-22: Social recap posted (L 74-78 vs Oral Roberts Golden Eagles): https://hardwoodbricks.com/southland/games/401925099.html <!-- post:401925099:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:preview -->
