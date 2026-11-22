@@ -27,9 +27,9 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak W1, last five LLLW.
+**33 of 100, testy.** Record 1-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 - 2026-11-19: W 88-84 vs Mercer Bears. Barometer 40 (testy). <!-- g:401928347 -->
 - 2026-11-19: Social recap posted (W 88-84 vs Mercer Bears): https://hardwoodbricks.com/socon/games/401928347.html <!-- post:401928347:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->
+- 2026-11-22: L 69-97 at Tennessee Tech Golden Eagles. Barometer 33 (testy). <!-- g:401926217 -->
+- 2026-11-22: Social recap posted (L 69-97 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->

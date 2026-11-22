@@ -27,9 +27,9 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 
 ## Barometer
 
-**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WWLWW.
+**72 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ronnie editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ronnie editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 - 2026-11-18: W 98-77 at UNC Asheville Bulldogs. Barometer 64 (steady). <!-- g:401922292 -->
 - 2026-11-19: Social recap posted (W 98-77 vs UNC Asheville Bulldogs): https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->
+- 2026-11-22: W 97-69 vs Presbyterian Blue Hose. Barometer 72 (buoyant). <!-- g:401926217 -->
+- 2026-11-22: Social recap posted (W 97-69 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->

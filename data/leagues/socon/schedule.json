@@ -2807,21 +2807,21 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": 93,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
    "away": {
     "espn_id": "2506",
     "key": null,
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": 64,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922293",
@@ -9916,5 +9916,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T02:32:37+00:00"
+ "live_at": "2026-11-22T02:59:38+00:00"
 }
