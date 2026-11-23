@@ -41,3 +41,11 @@ def test_facts_come_from_the_cards():
     assert all(r["record"] == "1-0" for r in f["board"])  # the board stops at yesterday
     assert f["yesterday"]["date"] == "2026-11-21"
     assert "error" in lockcall.facts("2026-11-23")
+
+
+def test_posted_episode_has_its_audio_and_notes():
+    ctx = lockcall.page_context()
+    ep = ctx["lockcall"]
+    assert ep["pilot"] and ep["length"] == "2:02" and ep["news"]["sources"]
+    assert (lockcall.POD_DIR.parent.parent / "templates" / ep["audio"]).exists()
+    assert ctx["lockcall_feed"] is None  # the feed's place is held, not live

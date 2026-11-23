@@ -650,7 +650,12 @@ def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names
 def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
     """Tops and Bottoms (/tops.html, mac.tops): grade what's final, lock today's card at 8:15 AM ET, render the page.
     Fenced like the Den: a failure prints a line and the front page carries on. Returns the front page's rail line."""
-    from . import tops
+    from . import lockcall, tops
+    try:
+        call = lockcall.page_context()
+    except Exception as e:  # the podcast never takes the board down with it
+        print("tops: podcast skipped,", repr(e))
+        call = {}
     try:
         print("tops:", tops.run(now))
     except Exception as e:
@@ -659,7 +664,7 @@ def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], name
         (site_root / "tops.html").write_text(env.get_template("tops.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             today_label=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
-            built=now.isoformat(timespec="minutes"), **tops.page_context(now)))
+            built=now.isoformat(timespec="minutes"), **tops.page_context(now), **call))
         return tops.teaser(now)
     except Exception as e:
         print("tops: page skipped,", repr(e))

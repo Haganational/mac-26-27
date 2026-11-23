@@ -27,6 +27,9 @@ VOICES = POD_DIR / "voices.json"
 PARTS = ("open", "picks", "board", "close")  # Matthew's four-part format, in order
 TARGET_CHARS = (1300, 1900)  # about two minutes at ~14 characters a second
 API = "https://api.elevenlabs.io/v1/text-to-dialogue"
+EPISODES = POD_DIR / "episodes.json"  # what has been posted, newest last; the page and the feed both read this
+FEED_PATH = "podcast/feed.xml"  # reserved for the RSS feed; nothing is written there until FEED_LIVE
+FEED_LIVE = False
 
 
 def _short(p: dict[str, Any]) -> dict[str, Any]:
@@ -57,6 +60,24 @@ def facts(day: str | None = None) -> dict[str, Any]:
                         for k, ps in last.get("picks", {}).items()},
         }
     return out
+
+
+def episodes() -> list[dict[str, Any]]:
+    """Posted episodes, newest first, each with its show notes attached."""
+    if not EPISODES.exists():
+        return []
+    out = []
+    for e in json.loads(EPISODES.read_text()):
+        f = POD_DIR.parent.parent / e.get("script", "")
+        notes = json.loads(f.read_text()).get("notes", {}) if e.get("script") and f.exists() else {}
+        out.append({**e, "news": notes.get("news"), "length": f"{e['seconds'] // 60}:{e['seconds'] % 60:02d}"})
+    return out[::-1]
+
+
+def page_context() -> dict[str, Any]:
+    """For tops.html: the newest episode and where the feed will live."""
+    eps = episodes()
+    return {"lockcall": eps[0] if eps else None, "lockcall_feed": FEED_PATH if FEED_LIVE else None}
 
 
 def check(script: dict[str, Any]) -> list[str]:
