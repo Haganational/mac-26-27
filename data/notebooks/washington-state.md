@@ -72,7 +72,7 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/pac12/games/401909567.html <!-- post:401909567:preview -->
 - 2026-11-22: L 74-78 vs (neutral) Duke Blue Devils. Barometer 48 (steady). <!-- g:401909567 -->
 - 2026-11-22: Social recap posted (L 74-78 vs Duke Blue Devils): https://hardwoodbricks.com/pac12/games/401909567.html <!-- post:401909567:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:preview -->

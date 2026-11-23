@@ -69,7 +69,7 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,4 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:preview -->
 - 2026-11-20: W 88-80 at Pepperdine Waves. Barometer 86 (giddy). <!-- g:401928354 -->
 - 2026-11-20: Social recap posted (W 88-80 vs Pepperdine Waves): https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:preview -->
