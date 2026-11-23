@@ -27,9 +27,9 @@ Jasper Hale spent fifteen years crunching numbers for a Willamette Valley grass-
 
 ## Barometer
 
-**88 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
+**87 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 84% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 83% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Jasper Hale spent fifteen years crunching numbers for a Willamette Valley grass-
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,5 @@ Jasper Hale spent fifteen years crunching numbers for a Willamette Valley grass-
 - 2026-11-20: Social recap posted (W 82-71 vs Oregon Ducks): https://hardwoodbricks.com/pac12/games/401930884.html <!-- post:401930884:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401917676.html <!-- post:401917676:preview -->
+- 2026-11-23: W 69-66 vs (neutral) Tulsa Golden Hurricane. Barometer 87 (giddy). <!-- g:401921658 -->
+- 2026-11-23: Social recap posted (W 69-66 vs Tulsa Golden Hurricane): https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:recap -->

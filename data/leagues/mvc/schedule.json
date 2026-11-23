@@ -2858,7 +2858,7 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": 6,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2866,13 +2866,13 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": 3,
+    "score": 21,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:19 - 1st"
+   "detail": "3:18 - 1st"
   },
   {
    "game_id": "401929286",
@@ -2899,7 +2899,7 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2907,13 +2907,13 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:48 - 1st"
   },
   {
    "game_id": "401917543",
@@ -9718,5 +9718,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T20:37:28+00:00"
+ "live_at": "2026-11-23T21:08:16+00:00"
 }

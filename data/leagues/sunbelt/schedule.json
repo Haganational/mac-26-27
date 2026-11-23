@@ -3693,7 +3693,7 @@
     "key": null,
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -3701,13 +3701,13 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:55 - 1st"
   },
   {
    "game_id": "401919006",
@@ -3738,7 +3738,7 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -3746,13 +3746,13 @@
     "key": null,
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:38 - 1st"
   },
   {
    "game_id": "401921029",
@@ -12628,5 +12628,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T21:13:50+00:00"
 }

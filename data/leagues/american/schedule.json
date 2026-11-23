@@ -3104,21 +3104,21 @@
     "key": null,
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": 56,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "202",
     "key": "tulsa",
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": 56,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:18 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919006",
@@ -3149,7 +3149,7 @@
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -3157,13 +3157,13 @@
     "key": "tulane",
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:46 - 1st"
   },
   {
    "game_id": "401921210",
@@ -12273,5 +12273,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T20:41:50+00:00"
+ "live_at": "2026-11-23T21:12:36+00:00"
 }
