@@ -27,9 +27,9 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**66 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,5 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 - 2026-11-19: W 92-86 vs Fresno State Bulldogs. Barometer 58 (steady). <!-- g:401911473 -->
 - 2026-11-19: Social recap posted (W 92-86 vs Fresno State Bulldogs): https://hardwoodbricks.com/mw/games/401911473.html <!-- post:401911473:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mw/games/401911233.html <!-- post:401911233:preview -->
+- 2026-11-23: W 72-63 vs (neutral) Loyola Chicago Ramblers. Barometer 66 (buoyant). <!-- g:401911233 -->
+- 2026-11-23: Social recap posted (W 72-63 vs Loyola Chicago Ramblers): https://hardwoodbricks.com/mw/games/401911233.html <!-- post:401911233:recap -->
