@@ -5,7 +5,7 @@ The show bible. Matthew set all of this on Nov 23, 2026. Nothing publishes witho
 ## The show
 - Two minutes, daily, released with the picks column (the card locks 7:30 AM ET and the column goes up about 8:00).
 - About 1,300 to 1,900 characters of script. Hardwood Bricks is unabashedly liberal and punches up, never down.
-- Original sting only. No licensed music.
+- Original bumper music only. No licensed music.
 
 ## Format, in order
 1. **Open.** Hello, then loose cross chatter around one news item that can be made light of.
@@ -35,3 +35,12 @@ The show bible. Matthew set all of this on Nov 23, 2026. Nothing publishes witho
 2. Write `data/podcast/YYYY-MM-DD.json`: `lines` (part, who, text) and `notes` (news item with sources).
 3. `python -m mac.lockcall check` then `render`. Run speech-to-text on the result and compare to the script.
 4. Matthew hears the cut before anything posts.
+
+## The hook rule (Matthew, Nov 23: "the most creative upbeat hooks, for immediate retention, as a guiding light")
+- The first thing heard is the hook: the day's best line, cold, before any music or hello. One or two short lines, 170 characters at most, upbeat, and it must pay off inside the episode.
+- Good hooks: a true, startling line from the news item; a number that sounds impossible (a 40-point underdog, a half-point loss); a tease of someone about to be embarrassed, usually Edwin; a promise with a clock on it ("Eight picks, two minutes").
+- Never a greeting, never the show's name, never "welcome back". The name comes after the bumper.
+- Order of an episode: hook, bumper in, open, picks, board, close, bumper out.
+
+## Music
+- One original bumper theme (data/podcast/theme.mp3, made for the show Nov 23, 2026). It hits on the hook's last word, plays alone for a few seconds, ducks under the hello, and comes back under the goodbye to end on its button.
