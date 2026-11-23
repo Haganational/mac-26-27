@@ -27,9 +27,9 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 
 ## Barometer
 
-**61 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**50 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,5 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 - 2026-11-18: W 83-54 at California Baptist Lancers. Barometer 61 (steady). <!-- g:401917533 -->
 - 2026-11-18: Social recap posted (W 83-54 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917533.html <!-- post:401917533:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:preview -->
+- 2026-11-23: L 64-90 vs (neutral) UC San Diego Tritons. Barometer 50 (steady). <!-- g:401917542 -->
+- 2026-11-23: Social recap posted (L 64-90 vs UC San Diego Tritons): https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:recap -->

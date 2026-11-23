@@ -2555,21 +2555,21 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 77,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "2547",
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": 48,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924266",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T04:23:23+00:00"
+ "live_at": "2026-11-23T04:46:24+00:00"
 }
