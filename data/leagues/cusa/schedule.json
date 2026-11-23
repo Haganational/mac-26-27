@@ -2393,7 +2393,7 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 74,
+    "score": 88,
     "winner": null
    },
    "away": {
@@ -2401,13 +2401,13 @@
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 74,
+    "score": 92,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:23 - OT"
+   "detail": "0:05 - 2OT"
   },
   {
    "game_id": "401920905",
@@ -2438,7 +2438,7 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:52 - 1st"
   },
   {
    "game_id": "401924266",
@@ -9069,5 +9069,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T23:45:33+00:00"
+ "live_at": "2026-11-23T00:13:44+00:00"
 }

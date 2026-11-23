@@ -2274,21 +2274,21 @@
     "key": null,
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": 70,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2427",
     "key": "unc-asheville",
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 68,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401913530",
@@ -8856,5 +8856,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T23:50:55+00:00"
+ "live_at": "2026-11-23T00:19:05+00:00"
 }

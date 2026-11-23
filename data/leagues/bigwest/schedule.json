@@ -2424,21 +2424,21 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 63,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2239",
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": 74,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917541",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-22T23:36:10+00:00"
+ "live_at": "2026-11-23T00:04:25+00:00"
 }

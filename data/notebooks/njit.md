@@ -1,6 +1,6 @@
 # Priya Raman, The Newark Argus
 
-_NJIT (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-22._
+_NJIT (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-23._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 
 ## Barometer
 
-**20 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
+**15 of 100, despondent.** Record 1-7 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 79% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 - 2026-11-19: L 66-78 at Fairleigh Dickinson Knights. Barometer 20 (despondent). <!-- g:401919760 -->
 - 2026-11-19: Social recap posted (L 66-78 vs Fairleigh Dickinson Knights): https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401909556.html <!-- post:401909556:preview -->
+- 2026-11-22: L 59-79 at Boston College Eagles. Barometer 15 (despondent). <!-- g:401909556 -->
+- 2026-11-23: Social recap posted (L 59-79 vs Boston College Eagles): https://hardwoodbricks.com/americaeast/games/401909556.html <!-- post:401909556:recap -->

@@ -1,6 +1,6 @@
 # Marcus Pryor, The Kansas City Clarion
 
-_Kansas City (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-22._
+_Kansas City (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-23._
 
 ## Who they are
 
