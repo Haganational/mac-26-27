@@ -200,8 +200,9 @@ def mix(hook: Path, talk: Path, out: Path, theme: Path = THEME) -> None:
         f"adelay={ms(start)}:all=1[in];"
         f"[0]atrim={OUTRO_FROM},asetpts=PTS-STARTPTS,{fmt},"
         f"volume='if(lt(t,{UNDER}),0.16,min(0.6,0.16+(t-{UNDER})*0.9))':eval=frame,adelay={ms(back)}:all=1[outro];"
-        f"[1]{fmt},loudnorm=I=-16:TP=-1.5[h];"
-        f"[2]{fmt},loudnorm=I=-16:TP=-1.5,adelay={ms(hello)}:all=1[v];"
+        # loudnorm swallows the last ~3 s of a clip unless it is padded first; the trim puts the length back
+        f"[1]apad=pad_dur=4,loudnorm=I=-16:TP=-1.5,atrim=0:{_seconds(hook):.3f},{fmt}[h];"
+        f"[2]apad=pad_dur=4,loudnorm=I=-16:TP=-1.5,atrim=0:{_seconds(talk):.3f},{fmt},adelay={ms(hello)}:all=1[v];"
         "[h][in][v][outro]amix=inputs=4:normalize=0:duration=longest,alimiter=limit=0.95[o]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(theme), "-i", str(hook), "-i", str(talk),
                     "-filter_complex", graph, "-map", "[o]", "-t", f"{back + 17.2 - OUTRO_FROM:.2f}", "-b:a", "160k", str(out)], check=True)

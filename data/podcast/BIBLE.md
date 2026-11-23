@@ -50,7 +50,7 @@ The show bible. Matthew set all of this on Nov 23, 2026. Nothing publishes witho
 The show publishes on its own every morning; no review step. Times are Eastern.
 
 1. About 3 AM and 6 AM: search the news, verify the chosen item by opening the page, write show notes.
-2. After the 7:30 lock (about 8:05): `python -m mac.lockcall facts`, write `data/podcast/DATE.json` with `title` ("The Lock Call: Weekday, Month D") and a one-sentence `blurb`, then `check`, `render`, and a speech-to-text pass on the raw renders to confirm every pick, number and record.
+2. After the 7:30 lock (about 8:05): `python -m mac.lockcall facts`, write `data/podcast/DATE.json` with `title` ("The Lock Call: Weekday, Month D") and a one-sentence `blurb`, then `check`, `render`, and a speech-to-text pass on the FINAL mixed mp3 (not only the raw renders) to confirm the hook is whole and every pick, number and record reads right.
 3. `python -m mac.lockcall publish data/podcast/DATE.json OUT.mp3` copies the audio into the site and adds the row to `episodes.json`. Merge to main. The site and feed pick it up on the next build, and the "lock call" workflow posts it to Bluesky.
 
 Hold the episode and tell Matthew instead of publishing if: there is no card for the day, the speech-to-text pass shows a wrong pick or number that a re-record does not fix, or no news item can be verified (then run without a news bit rather than guess).
