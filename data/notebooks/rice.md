@@ -27,9 +27,9 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 - 2026-11-18: W 81-74 vs Texas A&M-Corpus Christi Islanders. Barometer 57 (steady). <!-- g:401921097 -->
 - 2026-11-18: Social recap posted (W 81-74 vs Texas A&M-Corpus Christi Islanders): https://hardwoodbricks.com/american/games/401921097.html <!-- post:401921097:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:preview -->
+- 2026-11-22: W 85-81 vs (neutral) Lamar Cardinals. Barometer 64 (steady). <!-- g:401925013 -->
+- 2026-11-23: Social recap posted (W 85-81 vs Lamar Cardinals): https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:recap -->

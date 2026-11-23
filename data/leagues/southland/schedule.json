@@ -2696,20 +2696,20 @@
     "name": "Lamar Cardinals",
     "abbr": "LAM",
     "score": 81,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "242",
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 84,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921205",
@@ -2736,8 +2736,8 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": 71,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "218",
@@ -2745,12 +2745,12 @@
     "name": "Temple Owls",
     "abbr": "TEM",
     "score": 70,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919032",
@@ -10115,5 +10115,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:41:47+00:00"
+ "live_at": "2026-11-23T01:02:12+00:00"
 }

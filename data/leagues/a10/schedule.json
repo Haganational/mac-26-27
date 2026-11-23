@@ -3418,7 +3418,7 @@
     "key": null,
     "name": "UAB Blazers",
     "abbr": "UAB",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -3426,13 +3426,13 @@
     "key": "rhode-island",
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:07 - 1st"
   },
   {
    "game_id": "401911233",
@@ -12844,5 +12844,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:33:21+00:00"
+ "live_at": "2026-11-23T00:55:20+00:00"
 }

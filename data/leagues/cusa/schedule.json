@@ -2438,7 +2438,7 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": 31,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": 21,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924266",
@@ -9069,5 +9069,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:39:31+00:00"
+ "live_at": "2026-11-23T01:00:18+00:00"
 }

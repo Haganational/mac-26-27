@@ -27,9 +27,9 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**50 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,5 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 - 2026-11-20: W 85-76 vs (neutral) Middle Tennessee Blue Raiders. Barometer 57 (steady). <!-- g:401916122 -->
 - 2026-11-20: Social recap posted (W 85-76 vs Middle Tennessee Blue Raiders): https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:preview -->
+- 2026-11-22: L 70-72 vs (neutral) Stephen F. Austin Lumberjacks. Barometer 50 (steady). <!-- g:401921205 -->
+- 2026-11-23: Social recap posted (L 70-72 vs Stephen F. Austin Lumberjacks): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
