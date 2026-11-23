@@ -19,7 +19,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.request
-from datetime import datetime
+from datetime import UTC, datetime
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
@@ -262,6 +262,28 @@ def bluesky(ep_id: str | None = None) -> str:
         return "posted " + reels.bsky_video(sess, mp4, text, video(ep, mp4))
 
 
+def publish(script_path: Path, mp3: Path, now: datetime | None = None) -> dict[str, Any]:
+    """Put a recorded episode on the site and in the feed: copy the audio in and add its row to episodes.json.
+
+    The script carries `title` and `blurb`. Running it twice for the same day replaces that day's row."""
+    script = json.loads(script_path.read_text())
+    day = script["date"]
+    audio = f"static/podcast/lock-call-{day}.mp3"
+    dest = POD_DIR.parent.parent / "templates" / audio
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(mp3.read_bytes())
+    secs = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(dest)],
+                                check=True, capture_output=True, text=True).stdout)
+    row = {"id": day, "date": day, "published": (now or datetime.now(UTC)).isoformat(timespec="seconds"),
+           "title": script["title"], "blurb": script["blurb"], "audio": audio, "bytes": dest.stat().st_size,
+           "seconds": round(secs), "script": f"data/podcast/{script_path.name}"}
+    if len(bluesky_text(row)) > 300:
+        raise ValueError(f"blurb too long: the Bluesky caption is {len(bluesky_text(row))} characters; it takes 300")
+    rows = [r for r in (json.loads(EPISODES.read_text()) if EPISODES.exists() else []) if r["id"] != day]
+    EPISODES.write_text(json.dumps([*rows, row], indent=1) + "\n")
+    return row
+
+
 def main(argv: list[str]) -> int:
     cmd = argv[0] if argv else "facts"
     if cmd == "facts":
@@ -269,6 +291,9 @@ def main(argv: list[str]) -> int:
         return 0
     if cmd == "bluesky":
         print("bluesky:", bluesky(argv[1] if len(argv) > 1 else None))
+        return 0
+    if cmd == "publish":
+        print(json.dumps(publish(Path(argv[1]), Path(argv[2])), indent=1))
         return 0
     script = json.loads(Path(argv[1]).read_text())
     problems = check(script)

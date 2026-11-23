@@ -1,5 +1,7 @@
 import json
 
+import pytest
+
 from mac import lockcall
 
 
@@ -46,7 +48,9 @@ def test_facts_come_from_the_cards():
 def test_posted_episode_has_its_audio_and_notes():
     ctx = lockcall.page_context()
     ep = ctx["lockcall"]
-    assert ep["pilot"] and ep["length"] == "2:13" and ep["news"]["sources"]
+    assert ":" in ep["length"] and ep["news"]["sources"]
+    pilot = lockcall.episodes()[-1]
+    assert pilot["pilot"] and pilot["length"] == "2:13"
     assert (lockcall.POD_DIR.parent.parent / "templates" / ep["audio"]).exists()
     assert ctx["lockcall_feed"] == "podcast/feed.xml"
 
@@ -67,3 +71,22 @@ def test_every_episode_opens_on_a_hook():
     s = _script()
     s["lines"] = s["lines"][1:]
     assert any("hook" in p for p in lockcall.check(s))
+
+
+def test_publish_adds_a_row_and_replaces_the_same_day(tmp_path, monkeypatch):
+    import subprocess
+    monkeypatch.setattr(lockcall, "POD_DIR", tmp_path / "data" / "podcast")
+    monkeypatch.setattr(lockcall, "EPISODES", tmp_path / "data" / "podcast" / "episodes.json")
+    lockcall.POD_DIR.mkdir(parents=True)
+    script = lockcall.POD_DIR / "2026-11-23.json"
+    script.write_text(json.dumps({"date": "2026-11-23", "title": "The Lock Call: Monday, November 23", "blurb": "A blurb."}))
+    mp3 = tmp_path / "ep.mp3"
+    subprocess.run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "sine=d=2", str(mp3)], check=True)
+    for _ in range(2):
+        row = lockcall.publish(script, mp3)
+    rows = json.loads(lockcall.EPISODES.read_text())
+    assert [r["id"] for r in rows] == ["2026-11-23"] and row["seconds"] == 2
+    assert (tmp_path / "templates" / row["audio"]).exists()
+    script.write_text(json.dumps({"date": "2026-11-23", "title": "T", "blurb": "x" * 300}))
+    with pytest.raises(ValueError):
+        lockcall.publish(script, mp3)

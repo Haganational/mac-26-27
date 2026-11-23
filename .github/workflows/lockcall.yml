@@ -1,7 +1,11 @@
 name: lock call
 
-# Posts one Lock Call episode's video to Bluesky. By hand only: nothing here runs on a schedule.
+# Posts the newest Lock Call episode's video to Bluesky when an episode is added on main (or by hand).
+# An episode already posted is skipped, so a re-run is safe.
 on:
+  push:
+    branches: [main]
+    paths: ["data/podcast/episodes.json"]
   workflow_dispatch:
     inputs:
       episode:
