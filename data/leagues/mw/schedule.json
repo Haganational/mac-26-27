@@ -2239,7 +2239,7 @@
     "key": null,
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2247,13 +2247,13 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:25 - 1st"
   },
   {
    "game_id": "401920721",
@@ -9033,5 +9033,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T22:02:49+00:00"
 }
