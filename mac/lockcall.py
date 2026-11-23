@@ -242,7 +242,8 @@ def video(ep: dict[str, Any], out: Path) -> tuple[int, int]:
 
 
 def bluesky_text(ep: dict[str, Any], base: str = "https://hardwoodbricks.com/") -> str:
-    return f"{ep['title']}\n\n{ep['blurb']} Two minutes, with the picks.\n\n{base}{SHOW['page']}\n\n#Midmaxxing"
+    tag = "" if ep.get("bonus") else " Two minutes, with the picks."
+    return f"{ep['title']}\n\n{ep['blurb']}{tag}\n\n{base}{SHOW['page']}\n\n#Midmaxxing"
 
 
 def bluesky(ep_id: str | None = None) -> str:
@@ -269,18 +270,21 @@ def publish(script_path: Path, mp3: Path, now: datetime | None = None) -> dict[s
     The script carries `title` and `blurb`. Running it twice for the same day replaces that day's row."""
     script = json.loads(script_path.read_text())
     day = script["date"]
-    audio = f"static/podcast/lock-call-{day}.mp3"
+    ep_id = script.get("id", day)  # a bonus episode carries its own id so it sits beside that day's show
+    audio = f"static/podcast/lock-call-{ep_id}.mp3"
     dest = POD_DIR.parent.parent / "templates" / audio
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(mp3.read_bytes())
     secs = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(dest)],
                                 check=True, capture_output=True, text=True).stdout)
-    row = {"id": day, "date": day, "published": (now or datetime.now(UTC)).isoformat(timespec="seconds"),
+    row = {"id": ep_id, "date": day, "published": (now or datetime.now(UTC)).isoformat(timespec="seconds"),
            "title": script["title"], "blurb": script["blurb"], "audio": audio, "bytes": dest.stat().st_size,
            "seconds": round(secs), "script": f"data/podcast/{script_path.name}"}
+    if ep_id != day:
+        row["bonus"] = True
     if len(bluesky_text(row)) > 300:
         raise ValueError(f"blurb too long: the Bluesky caption is {len(bluesky_text(row))} characters; it takes 300")
-    rows = [r for r in (json.loads(EPISODES.read_text()) if EPISODES.exists() else []) if r["id"] != day]
+    rows = [r for r in (json.loads(EPISODES.read_text()) if EPISODES.exists() else []) if r["id"] != ep_id]
     EPISODES.write_text(json.dumps([*rows, row], indent=1) + "\n")
     return row
 

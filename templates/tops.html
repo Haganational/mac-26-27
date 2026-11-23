@@ -109,9 +109,9 @@
 
   {% if lockcall %}
   <section aria-labelledby="h-call" class="call">
-    <span class="k">The podcast{% if lockcall.pilot %} · Pilot{% endif %}</span>
+    <span class="k">The podcast{% if lockcall.pilot %} · Pilot{% endif %}{% if lockcall.bonus %} · Bonus{% endif %}</span>
     <h2 id="h-call">{{ lockcall.title }}</h2>
-    <p class="sub">{{ lockcall.blurb }} Two minutes, with the picks.</p>
+    <p class="sub">{{ lockcall.blurb }}{% if not lockcall.bonus %} Two minutes, with the picks.{% endif %}</p>
     <audio controls preload="none" src="{{ lockcall.audio }}"></audio>
     <p class="call-notes">{{ lockcall.length }}{% if lockcall.news and lockcall.news.sources %} · Show notes: <a class="jb-link" href="{{ lockcall.news.sources[0] }}" rel="noopener">today's news item</a>{% endif %} · {% if lockcall_feed %}<a class="jb-link" href="{{ lockcall_feed }}">Podcast feed</a>{% else %}Podcast feed coming soon{% endif %}</p>
   </section>
