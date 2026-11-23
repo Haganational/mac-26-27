@@ -27,9 +27,9 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**55 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,5 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:preview -->
 - 2026-11-22: L 72-77 vs (neutral) Troy Trojans. Barometer 53 (steady). <!-- g:401928998 -->
 - 2026-11-22: Social recap posted (L 72-77 vs Troy Trojans): https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:recap -->
+- 2026-11-22: L 89-99 vs (neutral) Southern Miss Golden Eagles. Barometer 55 (steady). <!-- g:401928999 -->
+- 2026-11-23: Social recap posted (L 89-99 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:recap -->

@@ -2736,7 +2736,7 @@
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
     "score": 89,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2572",
@@ -2744,12 +2744,12 @@
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
     "score": 99,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921700",
@@ -9706,5 +9706,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T01:14:14+00:00"
+ "live_at": "2026-11-23T01:36:48+00:00"
 }

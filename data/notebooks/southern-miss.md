@@ -70,7 +70,7 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 - 2026-11-21: W 80-69 vs (neutral) Nicholls Colonels. Barometer 54 (steady). <!-- g:401925065 -->
 - 2026-11-22: Social recap posted (W 80-69 vs Nicholls Colonels): https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:recap -->
 - 2026-11-22: W 99-89 vs (neutral) Valparaiso Beacons. Barometer 63 (steady). <!-- g:401928999 -->
+- 2026-11-23: Social recap posted (W 99-89 vs Valparaiso Beacons): https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:recap -->
