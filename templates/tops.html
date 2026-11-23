@@ -16,6 +16,7 @@
 <meta property="og:image" content="{{ base }}static/art/tops/set.webp">
 <meta name="theme-color" content="#2a1a10">
 <link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% if lockcall_feed %}<link rel="alternate" type="application/rss+xml" title="Tops and Bottoms: The Lock Call" href="{{ base }}{{ lockcall_feed }}">{% endif %}
 {% include "_hub_style.html" %}
 <style>
   /* JuiceBox on the bricks: the house paper and type, with the JuiceBox stripe and set as the guest's colors */

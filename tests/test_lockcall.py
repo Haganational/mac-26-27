@@ -4,7 +4,7 @@ from mac import lockcall
 
 
 def _script(**over):
-    lines = ([{"part": "open", "who": "leslie", "text": "a" * 300}, {"part": "open", "who": "brett", "text": "b" * 300},
+    lines = ([{"part": "hook", "who": "leslie", "text": "Best line first!"}, {"part": "open", "who": "leslie", "text": "a" * 300}, {"part": "open", "who": "brett", "text": "b" * 300},
               {"part": "picks", "who": "merv", "text": "c" * 200}, {"part": "picks", "who": "edwin", "text": "d" * 200},
               {"part": "board", "who": "leslie", "text": "e" * 200},
               {"part": "close", "who": "brett", "text": "Call 1-800-GAMBLER. " + "f" * 200}])
@@ -46,6 +46,24 @@ def test_facts_come_from_the_cards():
 def test_posted_episode_has_its_audio_and_notes():
     ctx = lockcall.page_context()
     ep = ctx["lockcall"]
-    assert ep["pilot"] and ep["length"] == "2:02" and ep["news"]["sources"]
+    assert ep["pilot"] and ep["length"] == "2:13" and ep["news"]["sources"]
     assert (lockcall.POD_DIR.parent.parent / "templates" / ep["audio"]).exists()
-    assert ctx["lockcall_feed"] is None  # the feed's place is held, not live
+    assert ctx["lockcall_feed"] == "podcast/feed.xml"
+
+
+def test_feed_is_valid_rss_with_what_the_directories_need(tmp_path):
+    import xml.etree.ElementTree as ET
+    out = lockcall.write_feed(tmp_path, "https://hardwoodbricks.com/")
+    ch = ET.parse(out).getroot().find("channel")
+    it = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+    assert ch.findtext("title") == "Tops and Bottoms: The Lock Call"
+    assert ch.find(f"{it}owner/{it}email").text and ch.find(f"{it}image").get("href").endswith("cover.jpg")
+    enc = ch.find("item/enclosure")
+    assert enc.get("url").startswith("https://hardwoodbricks.com/static/podcast/") and int(enc.get("length")) > 0
+    assert ch.findtext("item/pubDate") and ch.findtext("item/guid")
+
+
+def test_every_episode_opens_on_a_hook():
+    s = _script()
+    s["lines"] = s["lines"][1:]
+    assert any("hook" in p for p in lockcall.check(s))

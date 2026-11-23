@@ -4,9 +4,19 @@
  "status": "pilot, not published",
  "lines": [
   {
+   "part": "hook",
+   "who": "leslie",
+   "text": "[excited] The president just benched his own vice president on live television!"
+  },
+  {
+   "part": "hook",
+   "who": "brett",
+   "text": "[fast, grinning] And Edwin lost a bet by half a point. Eight picks, two minutes. Let's go!"
+  },
+  {
    "part": "open",
    "who": "leslie",
-   "text": "[bright] Good morning from The Window at Hardwood Bricks. This is Tops and Bottoms, the Lock Call. I'm Leslie Phyllis."
+   "text": "[bright] From The Window at Hardwood Bricks, this is Tops and Bottoms, the Lock Call. I'm Leslie Phyllis."
   },
   {
    "part": "open",
@@ -41,7 +51,7 @@
   {
    "part": "picks",
    "who": "brett",
-   "text": "The machine and I like Southern Indiana, plus forty at Texas, and UMass Lowell, plus thirty and a half at Cincinnati. Steady, sensible, fully hydrated."
+   "text": "The machine and I like Southern Indiana, plus forty at Texas, and UMass Lowell, plus thirty and a half at Cincinnati."
   },
   {
    "part": "picks",
@@ -81,7 +91,7 @@
   {
    "part": "close",
    "who": "leslie",
-   "text": "[warm] That's the Lock Call. The picks column is up right now at hardwood bricks dot com."
+   "text": "That's the Lock Call. The picks column is up right now at hardwood bricks dot com."
   },
   {
    "part": "close",

@@ -653,6 +653,7 @@ def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], name
     from . import lockcall, tops
     try:
         call = lockcall.page_context()
+        lockcall.write_feed(site_root, base)
     except Exception as e:  # the podcast never takes the board down with it
         print("tops: podcast skipped,", repr(e))
         call = {}
