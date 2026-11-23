@@ -66,7 +66,7 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:preview -->
 - 2026-11-21: L 59-96 at Kennesaw State Owls. Barometer 25 (despondent). <!-- g:401920818 -->
 - 2026-11-21: Social recap posted (L 59-96 vs Kennesaw State Owls): https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:preview -->
