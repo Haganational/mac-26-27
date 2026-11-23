@@ -27,9 +27,9 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W4, last five LWWWW.
+**59 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Buck editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Buck editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 - 2026-11-20: W 76-73 vs (neutral) Southern Illinois Salukis. Barometer 74 (buoyant). <!-- g:401916124 -->
 - 2026-11-21: Social recap posted (W 76-73 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401916124.html <!-- post:401916124:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921206.html <!-- post:401921206:preview -->
+- 2026-11-23: L 76-78 vs (neutral) Utah Valley Wolverines. Barometer 59 (steady). <!-- g:401921206 -->
