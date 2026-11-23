@@ -66,7 +66,7 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:preview -->
 - 2026-11-21: W 95-82 vs Northeastern Huskies. Barometer 40 (testy). <!-- g:401919849 -->
 - 2026-11-22: Social recap posted (W 95-82 vs Northeastern Huskies): https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401919850.html <!-- post:401919850:preview -->
