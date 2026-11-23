@@ -68,7 +68,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:preview -->
 - 2026-11-21: W 69-62 at Cleveland State Vikings. Barometer 46 (steady). <!-- g:401921169 -->
 - 2026-11-21: Social recap posted (W 69-62 vs Cleveland State Vikings): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->
