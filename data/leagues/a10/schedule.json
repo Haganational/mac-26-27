@@ -3504,7 +3504,7 @@
     "key": "davidson",
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 14,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -3512,13 +3512,13 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 7,
+    "score": 25,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:21 - 1st"
+   "detail": "0:20 - 1st"
   },
   {
    "game_id": "401927397",
@@ -3545,7 +3545,7 @@
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 14,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -3553,13 +3553,13 @@
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": 15,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:00 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401925813",
@@ -12875,5 +12875,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T16:19:52+00:00"
+ "live_at": "2026-11-23T16:44:43+00:00"
 }
