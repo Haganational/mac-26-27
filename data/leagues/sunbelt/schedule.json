@@ -3570,21 +3570,21 @@
     "key": null,
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": 77,
-    "winner": null
+    "score": 89,
+    "winner": false
    },
    "away": {
     "espn_id": "2572",
     "key": "southern-miss",
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": 87,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926774",
@@ -3615,7 +3615,7 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -3623,13 +3623,13 @@
     "key": "louisiana",
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:24 - 1st"
   },
   {
    "game_id": "401927397",
@@ -12627,5 +12627,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:58:06+00:00"
+ "live_at": "2026-11-23T01:17:44+00:00"
 }

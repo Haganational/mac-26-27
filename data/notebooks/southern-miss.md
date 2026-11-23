@@ -27,9 +27,9 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 
 ## Barometer
 
-**54 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WLLWW.
+**63 of 100, steady.** Record 5-3 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -88,3 +88,4 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:preview -->
 - 2026-11-21: W 80-69 vs (neutral) Nicholls Colonels. Barometer 54 (steady). <!-- g:401925065 -->
 - 2026-11-22: Social recap posted (W 80-69 vs Nicholls Colonels): https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:recap -->
+- 2026-11-22: W 99-89 vs (neutral) Valparaiso Beacons. Barometer 63 (steady). <!-- g:401928999 -->

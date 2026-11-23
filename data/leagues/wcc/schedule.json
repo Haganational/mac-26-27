@@ -2553,7 +2553,7 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 43,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -2561,13 +2561,13 @@
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": 35,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "16:47 - 2nd"
   },
   {
    "game_id": "401929595",
@@ -2598,7 +2598,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2606,13 +2606,13 @@
     "key": null,
     "name": "Menlo Oaks",
     "abbr": "MNLO",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:11 - 1st"
   },
   {
    "game_id": "401917542",
@@ -9647,5 +9647,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:56:44+00:00"
+ "live_at": "2026-11-23T01:16:21+00:00"
 }

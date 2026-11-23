@@ -2471,7 +2471,7 @@
     "key": null,
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2479,13 +2479,13 @@
     "key": "ut-martin",
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:52 - 1st"
   },
   {
    "game_id": "401926069",
@@ -8337,5 +8337,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T01:24:07+00:00"
 }
