@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:02:48+00:00",
+ "fetched_at": "2026-11-23T18:03:18+00:00",
  "season": 2027,
  "games": [
   {
@@ -2225,45 +2225,6 @@
    "detail": ""
   },
   {
-   "game_id": "401921030",
-   "date": "2026-11-24T05:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
-   "season_type": "reg",
-   "neutral_site": true,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
-   "venue": "Truist Arena",
-   "venue_city": "Highland Heights",
-   "venue_state": "KY",
-   "home": {
-    "espn_id": "290",
-    "key": null,
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "91",
-    "key": "bellarmine",
-    "name": "Bellarmine Knights",
-    "abbr": "BELL",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401922231",
    "date": "2026-11-24T23:00Z",
    "name": "Queens University Royals at Wofford Terriers",
@@ -2300,6 +2261,45 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921030",
+   "date": "2026-11-25T00:00Z",
+   "name": "Bellarmine Knights at Georgia Southern Eagles",
+   "short_name": "BELL VS GASO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
+    "low": 32.0,
+    "since": "2026-11-20T12:02:17Z"
+   },
+   "venue": "Truist Arena",
+   "venue_city": "Highland Heights",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
     "score": null,
     "winner": null
    },
@@ -2371,7 +2371,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 12.0,
+    "low": 15.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -2493,7 +2493,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679902?wsUser=717",
     "low": 65.0,
@@ -2853,7 +2859,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-29-2026--sports-ncaa-basketball/production/7589488?wsUser=717",
-    "low": 34.0,
+    "low": 36.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Fertitta Center",
@@ -3209,7 +3215,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-2-2026--sports-ncaa-basketball/production/7804429?wsUser=717",
-    "low": 25.0,
+    "low": 15.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",

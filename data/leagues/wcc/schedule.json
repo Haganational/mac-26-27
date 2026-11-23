@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:11:54+00:00",
+ "fetched_at": "2026-11-23T18:09:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2661,7 +2661,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 40.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2706,7 +2706,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 40.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2751,7 +2751,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 32.0,
+    "low": 40.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Allen Fieldhouse",
@@ -3047,7 +3047,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -3091,7 +3097,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 51.0,
+    "low": 45.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3822,7 +3828,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 12.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Lawlor Events Center",
@@ -6399,7 +6405,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-12-29-2026--sports-ncaa-basketball/production/7382798?wsUser=717",
-    "low": 28.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Dee Glen Smith Spectrum",

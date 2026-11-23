@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:17:49+00:00",
+ "fetched_at": "2026-11-23T18:13:33+00:00",
  "season": 2027,
  "games": [
   {
@@ -2490,10 +2490,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:02 - 1st"
   },
   {
    "game_id": "401921207",
@@ -2504,7 +2504,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Elridge Blake Sports and Fitness Center",
    "venue_city": "Charlotte Amalie",
@@ -2785,7 +2791,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -2949,7 +2961,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 27.0,
+    "low": 14.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Mabee Center",
@@ -3257,7 +3269,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-11-30-2026--sports-ncaa-basketball/production/7574478?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "VyStar Arena",
@@ -3789,7 +3801,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 33.0,
+    "low": 28.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "The Pit",
@@ -4520,7 +4532,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rocket-city-classic-tickets-huntsville-propst-arena-at-the-von-braun-center-12-15-2026/production/7116679?wsUser=717",
-    "low": 63.0,
+    "low": 62.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Propst Arena",
@@ -4600,7 +4612,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-15-2026--sports-ncaa-basketball/production/7656476?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Baxter Arena",
@@ -4686,7 +4698,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-16-2026--sports-ncaa-basketball/production/7483126?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Addition Financial Arena",
@@ -5261,7 +5273,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-21-2026--sports-ncaa-basketball/production/7915090?wsUser=717",
+    "low": 65.0,
+    "since": "2026-11-23T18:13:33Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -8156,7 +8172,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-2-18-2027--sports-ncaa-basketball/production/7290165?wsUser=717",
-    "low": 85.0,
+    "low": 61.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Liberty Arena (VA)",

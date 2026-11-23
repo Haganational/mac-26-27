@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:16:31+00:00",
+ "fetched_at": "2026-11-23T18:12:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -3301,7 +3301,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hard Rock Hotel Riviera Maya",
    "venue_city": "Cancun",
@@ -4078,7 +4084,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-11-29-2026--sports-ncaa-basketball/production/7746323?wsUser=717",
-    "low": 24.0,
+    "low": 22.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "TD Arena",
@@ -5156,7 +5162,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ole-miss-rebels-mens-basketball-tickets-the-sandy-and-john-black-pavilion-at-ole-miss-12-7-2026--sports-ncaa-basketball/production/7600224?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Sandy and John Black Pavilion at Ole Miss",
@@ -5975,7 +5981,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-12-13-2026--sports-ncaa-basketball/production/7626617?wsUser=717",
-    "low": 23.0,
+    "low": 26.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Patrick Gymnasium",

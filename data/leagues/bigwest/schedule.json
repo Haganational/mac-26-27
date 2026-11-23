@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:07:09+00:00",
+ "fetched_at": "2026-11-23T18:06:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -2599,10 +2599,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "0:18 - 1st"
   },
   {
    "game_id": "401921208",
@@ -2613,7 +2613,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Elridge Blake Sports and Fitness Center",
    "venue_city": "Charlotte Amalie",
@@ -3120,7 +3126,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-11-28-2026--sports-ncaa-basketball/production/7890183?wsUser=717",
-    "low": 34.0,
+    "low": 15.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -5974,7 +5980,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-1-2-2027--sports-ncaa-basketball/production/7608586?wsUser=717",
-    "low": 23.0,
+    "low": 22.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LBS Financial Credit Union Pyramid",
@@ -8914,7 +8920,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-2-18-2027--sports-ncaa-basketball/production/7890279?wsUser=717",
-    "low": 34.0,
+    "low": 19.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",

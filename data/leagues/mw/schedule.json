@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:04:52+00:00",
+ "fetched_at": "2026-11-23T18:04:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -2228,7 +2228,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 40.0,
+    "low": 28.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2471,7 +2471,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hard Rock Hotel Riviera Maya",
    "venue_city": "Cancun",
@@ -2896,7 +2902,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-28-2026--sports-ncaa-basketball/production/7459081?wsUser=717",
-    "low": 16.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -3166,7 +3172,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-1-2026--sports-ncaa-basketball/production/7418287?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "CU Events Center",
@@ -3334,7 +3340,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 12.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -3508,7 +3514,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 33.0,
+    "low": 28.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",

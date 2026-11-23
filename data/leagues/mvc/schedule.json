@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:08:20+00:00",
+ "fetched_at": "2026-11-23T18:07:01+00:00",
  "season": 2027,
  "games": [
   {
@@ -2767,11 +2767,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679879?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -2780,21 +2776,21 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 71,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 40,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:05 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921209",
@@ -2805,7 +2801,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Elridge Blake Sports and Fitness Center",
    "venue_city": "Charlotte Amalie",
@@ -2815,7 +2817,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2823,13 +2825,13 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": 3,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:41 - 1st"
+   "detail": "6:17 - 1st"
   },
   {
    "game_id": "401921207",
@@ -2840,7 +2842,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Elridge Blake Sports and Fitness Center",
    "venue_city": "Charlotte Amalie",
@@ -2925,7 +2933,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 40.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -3783,7 +3791,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-1-2026--sports-ncaa-basketball/production/7109832?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -5601,7 +5609,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-21-2026--sports-ncaa-basketball/production/7915090?wsUser=717",
+    "low": 65.0,
+    "since": "2026-11-23T18:07:01Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -9705,6 +9717,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T17:41:22+00:00"
+ ]
 }

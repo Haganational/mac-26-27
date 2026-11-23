@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T12:24:47+00:00",
+ "fetched_at": "2026-11-23T18:18:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2523,10 +2523,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:53 - 1st"
   },
   {
    "game_id": "401921210",
@@ -2537,7 +2537,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Elridge Blake Sports and Fitness Center",
    "venue_city": "Charlotte Amalie",
@@ -3051,7 +3057,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-29-2026--sports-ncaa-basketball/production/7457308?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -3186,7 +3192,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-30-2026--sports-ncaa-basketball/production/7519343?wsUser=717",
-    "low": 39.0,
+    "low": 38.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Charles Koch Arena",
