@@ -71,7 +71,7 @@ Andre Baptiste is a retired pharmacist who filled prescriptions in Tallahassee f
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Andre Baptiste is a retired pharmacist who filled prescriptions in Tallahassee f
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:preview -->
 - 2026-11-19: L 78-98 at UTSA Roadrunners. Barometer 11 (despondent). <!-- g:401929420 -->
 - 2026-11-19: Social recap posted (L 78-98 vs UTSA Roadrunners): https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929421.html <!-- post:401929421:preview -->

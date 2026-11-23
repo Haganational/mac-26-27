@@ -65,7 +65,7 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:preview -->
 - 2026-11-21: L 46-67 at Binghamton Bearcats. Barometer 38 (testy). <!-- g:401911278 -->
 - 2026-11-21: Social recap posted (L 46-67 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911338.html <!-- post:401911338:preview -->

@@ -66,7 +66,7 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:preview -->
 - 2026-11-21: L 87-93 vs Siena Saints. Barometer 33 (testy). <!-- g:401924884 -->
 - 2026-11-21: Social recap posted (L 87-93 vs Siena Saints): https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:preview -->
