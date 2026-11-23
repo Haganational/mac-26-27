@@ -3463,7 +3463,7 @@
     "key": "loyola-chicago",
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -3471,13 +3471,13 @@
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:03 - 1st"
   },
   {
    "game_id": "401921700",
@@ -12844,5 +12844,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T02:28:56+00:00"
+ "live_at": "2026-11-23T05:13:36+00:00"
 }
