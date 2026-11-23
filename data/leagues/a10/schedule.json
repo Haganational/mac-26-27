@@ -3377,21 +3377,21 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 86,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
    "away": {
     "espn_id": "257",
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 90,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:06 - 2OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401919020",
@@ -12844,5 +12844,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:06:21+00:00"
+ "live_at": "2026-11-23T00:33:21+00:00"
 }

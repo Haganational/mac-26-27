@@ -2469,7 +2469,7 @@
     "key": null,
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2477,13 +2477,13 @@
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:39 - 1st"
   },
   {
    "game_id": "401921206",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T00:04:25+00:00"
+ "live_at": "2026-11-23T00:31:41+00:00"
 }
