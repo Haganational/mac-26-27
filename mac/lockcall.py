@@ -113,9 +113,9 @@ def render(script: dict[str, Any], out: Path) -> None:
         with urllib.request.urlopen(req, timeout=300) as r:
             talk.write_bytes(r.read())
         _sting(sting)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(sting), "-i", str(talk), "-filter_complex",
-                        "[1]aformat=sample_rates=44100:channel_layouts=stereo,loudnorm=I=-16:TP=-1.5[v];"
-                        "[0]asplit[a][b];[a][v][b]concat=n=3:v=0:a=1[o]",
+        mix = ("[1]aformat=sample_rates=44100:channel_layouts=stereo,loudnorm=I=-16:TP=-1.5[v];"
+               "[0]asplit[a][b];[a][v][b]concat=n=3:v=0:a=1[o]")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(sting), "-i", str(talk), "-filter_complex", mix,
                         "-map", "[o]", "-b:a", "160k", str(out)], check=True)
 
 
