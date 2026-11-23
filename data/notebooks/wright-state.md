@@ -73,7 +73,7 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 - 2026-11-19: W 77-60 vs Malone Pioneers. Barometer 87 (giddy). <!-- g:401928829 -->
 - 2026-11-19: Social recap posted (W 77-60 vs Malone Pioneers): https://hardwoodbricks.com/horizon/games/401928829.html <!-- post:401928829:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->

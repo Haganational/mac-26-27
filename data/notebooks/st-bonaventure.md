@@ -67,7 +67,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,4 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 - 2026-11-20: W 78-69 vs Buffalo Bulls. Barometer 78 (buoyant). <!-- g:401911021 -->
 - 2026-11-20: Social recap posted (W 78-69 vs Buffalo Bulls): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->

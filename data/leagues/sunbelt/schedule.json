@@ -3615,21 +3615,21 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": 72,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "309",
     "key": "louisiana",
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": 45,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927397",
@@ -12627,5 +12627,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T02:53:16+00:00"
+ "live_at": "2026-11-23T03:19:32+00:00"
 }
