@@ -70,7 +70,7 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/patriot/games/401920427.html <!-- post:401920427:preview -->
 - 2026-11-21: L 61-103 at Virginia Cavaliers. Barometer 27 (despondent). <!-- g:401920427 -->
 - 2026-11-21: Social recap posted (L 61-103 vs Virginia Cavaliers): https://hardwoodbricks.com/patriot/games/401920427.html <!-- post:401920427:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:preview -->

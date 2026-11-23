@@ -70,7 +70,7 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:preview -->
 - 2026-11-22: W 72-70 vs (neutral) Temple Owls. Barometer 67 (buoyant). <!-- g:401921205 -->
 - 2026-11-23: Social recap posted (W 72-70 vs Temple Owls): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921208.html <!-- post:401921208:preview -->

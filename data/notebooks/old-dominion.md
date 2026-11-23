@@ -72,7 +72,7 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -84,3 +84,4 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920426.html <!-- post:401920426:preview -->
 - 2026-11-18: L 65-85 at Virginia Cavaliers. Barometer 61 (steady). <!-- g:401920426 -->
 - 2026-11-18: Social recap posted (L 65-85 vs Virginia Cavaliers): https://hardwoodbricks.com/sunbelt/games/401920426.html <!-- post:401920426:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:preview -->

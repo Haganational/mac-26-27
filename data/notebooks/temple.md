@@ -73,7 +73,7 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:preview -->
 - 2026-11-22: L 70-72 vs (neutral) Stephen F. Austin Lumberjacks. Barometer 50 (steady). <!-- g:401921205 -->
 - 2026-11-23: Social recap posted (L 70-72 vs Stephen F. Austin Lumberjacks): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:preview -->

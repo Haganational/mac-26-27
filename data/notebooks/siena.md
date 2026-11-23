@@ -64,7 +64,7 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -80,3 +80,4 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:preview -->
 - 2026-11-21: W 93-87 at Bucknell Bison. Barometer 58 (steady). <!-- g:401924884 -->
 - 2026-11-21: Social recap posted (W 93-87 vs Bucknell Bison): https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:preview -->

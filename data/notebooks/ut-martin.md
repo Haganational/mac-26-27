@@ -70,7 +70,7 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921206.html <!-- post:401921206:preview -->
 - 2026-11-23: L 76-78 vs (neutral) Utah Valley Wolverines. Barometer 59 (steady). <!-- g:401921206 -->
 - 2026-11-23: Social recap posted (L 76-78 vs Utah Valley Wolverines): https://hardwoodbricks.com/bigwest/games/401921206.html <!-- post:401921206:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:preview -->
