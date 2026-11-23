@@ -2510,21 +2510,21 @@
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 73,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "2630",
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 74,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:27 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401917542",
@@ -2555,7 +2555,7 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": 46,
+    "score": 59,
     "winner": null
    },
    "away": {
@@ -2563,13 +2563,13 @@
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": 23,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:56 - 2nd"
   },
   {
    "game_id": "401924266",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T03:40:57+00:00"
+ "live_at": "2026-11-23T04:04:48+00:00"
 }
