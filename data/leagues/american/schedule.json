@@ -3014,7 +3014,7 @@
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -3022,13 +3022,13 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:16 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921701",
@@ -3059,7 +3059,7 @@
     "key": null,
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -3067,13 +3067,13 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:56 - 1st"
   },
   {
    "game_id": "401921658",
@@ -12272,5 +12272,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T18:38:22+00:00"
 }

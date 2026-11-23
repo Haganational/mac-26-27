@@ -2163,7 +2163,7 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2171,13 +2171,13 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:59 - 1st"
   },
   {
    "game_id": "401917919",
@@ -8250,5 +8250,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T18:32:16+00:00"
 }

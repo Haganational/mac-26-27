@@ -2817,7 +2817,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2825,13 +2825,13 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:17 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921207",
@@ -9717,5 +9717,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T18:35:36+00:00"
 }
