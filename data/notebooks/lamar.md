@@ -70,7 +70,7 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:preview -->
 - 2026-11-22: L 81-85 vs (neutral) Rice Owls. Barometer 58 (steady). <!-- g:401925013 -->
 - 2026-11-23: Social recap posted (L 81-85 vs Rice Owls): https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:preview -->
