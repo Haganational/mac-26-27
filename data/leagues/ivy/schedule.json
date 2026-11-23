@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:12:03+00:00",
+ "fetched_at": "2026-11-23T23:16:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -2093,7 +2093,7 @@
   },
   {
    "game_id": "401929286",
-   "date": "2026-11-23T21:00Z",
+   "date": "2026-11-23T21:15Z",
    "name": "Yale Bulldogs at Belmont Bruins",
    "short_name": "YALE VS BEL",
    "season_type": "reg",
@@ -2116,21 +2116,21 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 61,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "43",
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 53,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:43 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929285",
@@ -2291,7 +2291,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-24-2026--sports-ncaa-basketball/production/7546507?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "The Palestra",
@@ -2897,7 +2897,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Holmes Convocation Center",
@@ -4103,7 +4103,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-16-2026--sports-ncaa-basketball/production/7627311?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Liacouras Center",
@@ -7241,6 +7241,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:39:28+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:12:39+00:00",
+ "fetched_at": "2026-11-23T23:17:22+00:00",
  "season": 2027,
  "games": [
   {
@@ -3012,20 +3012,20 @@
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
     "score": 82,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2729",
     "key": "william-mary",
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": 86,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921157",
@@ -3080,7 +3080,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-23-2026--sports-ncaa-basketball/production/7463025?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Dean E. Smith Center",
@@ -3215,7 +3215,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Chartway Arena",
@@ -3265,7 +3265,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-24-2026--sports-ncaa-basketball/production/7546507?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Palestra",
@@ -3899,7 +3899,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3943,7 +3949,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mount-st-marys-mountaineers-mens-basketball-tickets-knott-arena-11-28-2026--sports-ncaa-basketball/production/7711313?wsUser=717",
-    "low": 20.0,
+    "low": 13.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Knott Arena",
@@ -4022,7 +4028,7 @@
   },
   {
    "game_id": "401920197",
-   "date": "2026-11-28T22:00Z",
+   "date": "2026-11-29T00:00Z",
    "name": "Saint Joseph's Hawks at Monmouth Hawks",
    "short_name": "JOES @ MONM",
    "season_type": "reg",
@@ -11999,6 +12005,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:39:59+00:00"
+ ]
 }

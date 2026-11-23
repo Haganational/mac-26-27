@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:18:11+00:00",
+ "fetched_at": "2026-11-23T23:25:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2530,7 +2530,7 @@
   },
   {
    "game_id": "401921210",
-   "date": "2026-11-23T22:30Z",
+   "date": "2026-11-23T23:00Z",
    "name": "Temple Owls at UT Martin Skyhawks",
    "short_name": "TEM VS UTM",
    "season_type": "reg",
@@ -2564,10 +2564,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401929035",
@@ -3057,7 +3057,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-29-2026--sports-ncaa-basketball/production/7457308?wsUser=717",
-    "low": 17.0,
+    "low": 16.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -8378,6 +8378,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T20:16:53+00:00"
+ ]
 }

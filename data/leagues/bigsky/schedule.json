@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:14:59+00:00",
+ "fetched_at": "2026-11-23T23:20:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -2573,9 +2573,9 @@
   },
   {
    "game_id": "401929445",
-   "date": "2026-11-23T20:30Z",
-   "name": "Arkansas State Red Wolves at Southern Utah Thunderbirds",
-   "short_name": "ARST VS SUU",
+   "date": "2026-11-23T20:45Z",
+   "name": "Southern Utah Thunderbirds at Arkansas State Red Wolves",
+   "short_name": "SUU VS ARST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2592,25 +2592,25 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "253",
-    "key": "southern-utah",
-    "name": "Southern Utah Thunderbirds",
-    "abbr": "SUU",
-    "score": 83,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2032",
     "key": null,
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 77,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:34 - 2nd"
+   "away": {
+    "espn_id": "253",
+    "key": "southern-utah",
+    "name": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "score": 102,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922263",
@@ -2630,7 +2630,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7710737?wsUser=717",
-    "low": 29.0,
+    "low": 24.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ICCU Arena",
@@ -2720,7 +2720,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-23-2026--sports-ncaa-basketball/production/7419559?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Thomas & Mack Center",
@@ -9713,6 +9713,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:42:03+00:00"
+ ]
 }

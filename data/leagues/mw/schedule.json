@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:04:42+00:00",
+ "fetched_at": "2026-11-23T23:05:10+00:00",
  "season": 2027,
  "games": [
   {
@@ -2213,8 +2213,8 @@
   {
    "game_id": "401911457",
    "date": "2026-11-23T21:30Z",
-   "name": "Nevada Wolf Pack at San Francisco Dons",
-   "short_name": "NEV VS SF",
+   "name": "San Francisco Dons at Nevada Wolf Pack",
+   "short_name": "SF VS NEV",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2228,32 +2228,32 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": null,
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": 30,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2440",
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 38,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "away": {
+    "espn_id": "2539",
+    "key": null,
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:54 - 2nd"
   },
   {
    "game_id": "401920721",
@@ -2273,7 +2273,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-23-2026--sports-ncaa-basketball/production/7419559?wsUser=717",
-    "low": 6.0,
+    "low": 8.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -2394,7 +2394,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 34.0,
+    "low": 48.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2521,7 +2521,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 34.0,
+    "low": 48.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2607,7 +2607,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -2652,7 +2652,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-11-25-2026--sports-ncaa-basketball/production/7638781?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -2902,7 +2902,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-28-2026--sports-ncaa-basketball/production/7459081?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -3340,7 +3340,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 14.0,
+    "low": 22.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -3904,7 +3904,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-9-2026--sports-ncaa-basketball/production/7638787?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -4039,7 +4039,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-11-2026--sports-ncaa-basketball/production/7575845?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Moby Arena",
@@ -4232,7 +4232,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-12-2026--sports-ncaa-basketball/production/7638793?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -4831,7 +4831,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-20-2026--sports-ncaa-basketball/production/7638795?wsUser=717",
-    "low": 41.0,
+    "low": 40.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -5151,7 +5151,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-22-2026--sports-ncaa-basketball/production/7638901?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -5264,7 +5264,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-12-29-2026--sports-ncaa-basketball/production/7419573?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -7493,7 +7493,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-2-6-2027--sports-ncaa-basketball/production/7460542?wsUser=717",
-    "low": 40.0,
+    "low": 39.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -8187,7 +8187,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-2-20-2027--sports-ncaa-basketball/production/7460548?wsUser=717",
-    "low": 40.0,
+    "low": 39.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Stan Sheriff Center",
@@ -9033,6 +9033,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:33:05+00:00"
+ ]
 }

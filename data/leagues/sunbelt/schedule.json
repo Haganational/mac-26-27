@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:11:02+00:00",
+ "fetched_at": "2026-11-23T23:14:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -3670,9 +3670,9 @@
   },
   {
    "game_id": "401929445",
-   "date": "2026-11-23T20:30Z",
-   "name": "Arkansas State Red Wolves at Southern Utah Thunderbirds",
-   "short_name": "ARST VS SUU",
+   "date": "2026-11-23T20:45Z",
+   "name": "Southern Utah Thunderbirds at Arkansas State Red Wolves",
+   "short_name": "SUU VS ARST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3689,25 +3689,25 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "253",
-    "key": null,
-    "name": "Southern Utah Thunderbirds",
-    "abbr": "SUU",
-    "score": 80,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2032",
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 75,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "253",
+    "key": null,
+    "name": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:13 - 2nd"
+   "detail": "0:08 - 2nd"
   },
   {
    "game_id": "401919006",
@@ -3725,11 +3725,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679888?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -3738,21 +3734,21 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 57,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
    "away": {
     "espn_id": "2655",
     "key": null,
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": 51,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921029",
@@ -4033,7 +4029,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Chartway Arena",
@@ -4299,7 +4295,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -4813,7 +4809,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -5611,7 +5607,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 22.0,
+    "low": 18.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -5787,7 +5783,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-12-5-2026--sports-ncaa-basketball/production/7728809?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -8209,7 +8205,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-12-31-2026--sports-ncaa-basketball/production/7396554?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -8518,7 +8514,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-1-2-2027--sports-ncaa-basketball/production/7396564?wsUser=717",
-    "low": 34.0,
+    "low": 33.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -9606,7 +9602,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-1-16-2027--sports-ncaa-basketball/production/7396568?wsUser=717",
-    "low": 34.0,
+    "low": 33.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -9840,7 +9836,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-1-20-2027--sports-ncaa-basketball/production/7396574?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -10343,7 +10339,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-1-27-2027--sports-ncaa-basketball/production/7396576?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -11084,7 +11080,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-2-6-2027--sports-ncaa-basketball/production/7396580?wsUser=717",
-    "low": 41.0,
+    "low": 40.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -11474,7 +11470,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-2-13-2027--sports-ncaa-basketball/production/7398336?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -11786,7 +11782,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-2-18-2027--sports-ncaa-basketball/production/7396596?wsUser=717",
-    "low": 41.0,
+    "low": 40.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -12628,6 +12624,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:38:31+00:00"
+ ]
 }

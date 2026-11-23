@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:02:00+00:00",
+ "fetched_at": "2026-11-23T23:01:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2882,7 +2882,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Purcell Pavilion",
@@ -2962,7 +2962,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 22.0,
+    "low": 14.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Millett Hall",
@@ -3211,7 +3211,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3294,7 +3300,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-11-29-2026--sports-ncaa-basketball/production/7601285?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -5189,7 +5195,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-29-2026--sports-ncaa-basketball/production/7580392?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -5459,7 +5465,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Crisler Center",
@@ -9658,6 +9664,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T20:31:07+00:00"
+ ]
 }

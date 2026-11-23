@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:09:27+00:00",
+ "fetched_at": "2026-11-23T23:12:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2646,8 +2646,8 @@
   {
    "game_id": "401911457",
    "date": "2026-11-23T21:30Z",
-   "name": "Nevada Wolf Pack at San Francisco Dons",
-   "short_name": "NEV VS SF",
+   "name": "San Francisco Dons at Nevada Wolf Pack",
+   "short_name": "SF VS NEV",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2668,25 +2668,25 @@
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": "san-francisco",
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": 30,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2440",
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 38,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "away": {
+    "espn_id": "2539",
+    "key": "san-francisco",
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:52 - 2nd"
   },
   {
    "game_id": "401917543",
@@ -2751,7 +2751,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 40.0,
+    "low": 31.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Allen Fieldhouse",
@@ -2876,7 +2876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 34.0,
+    "low": 48.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2921,7 +2921,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 34.0,
+    "low": 48.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2966,7 +2966,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
-    "low": 27.0,
+    "low": 28.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -3097,7 +3097,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 45.0,
+    "low": 42.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3828,7 +3828,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 14.0,
+    "low": 22.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Lawlor Events Center",
@@ -5721,7 +5721,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 14.0,
+    "low": 11.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -6321,7 +6321,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-29-2026--sports-ncaa-basketball/production/7418339?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "CU Events Center",
@@ -9671,6 +9671,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:37:07+00:00"
+ ]
 }

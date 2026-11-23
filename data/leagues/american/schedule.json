@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T18:10:10+00:00",
+ "fetched_at": "2026-11-23T23:13:34+00:00",
  "season": 2027,
  "games": [
   {
@@ -3046,11 +3046,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679884?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -3091,11 +3087,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -3136,11 +3128,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679888?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -3149,25 +3137,25 @@
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 57,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
    "away": {
     "espn_id": "2655",
     "key": "tulane",
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": 51,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921210",
-   "date": "2026-11-23T22:30Z",
+   "date": "2026-11-23T23:00Z",
    "name": "Temple Owls at UT Martin Skyhawks",
    "short_name": "TEM VS UTM",
    "season_type": "reg",
@@ -3201,10 +3189,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:25 - 1st"
   },
   {
    "game_id": "401919032",
@@ -3304,7 +3292,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 34.0,
+    "low": 48.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
@@ -3349,7 +3337,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 25.0,
+    "low": 32.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -3394,7 +3382,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -3781,7 +3769,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3912,7 +3900,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-29-2026--sports-ncaa-basketball/production/7612563?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -4313,7 +4301,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-1-2026--sports-ncaa-basketball/production/7483983?wsUser=717",
-    "low": 42.0,
+    "low": 38.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -6354,7 +6342,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-16-2026--sports-ncaa-basketball/production/7627311?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -6843,7 +6831,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-19-2026--sports-ncaa-basketball/production/7627313?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -8150,7 +8138,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-1-5-2027--sports-ncaa-basketball/production/7631195?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -8306,7 +8294,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-1-7-2027--sports-ncaa-basketball/production/7631833?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -8462,7 +8450,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-1-10-2027--sports-ncaa-basketball/production/7631835?wsUser=717",
-    "low": 31.0,
+    "low": 29.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -8657,7 +8645,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-1-14-2027--sports-ncaa-basketball/production/7631208?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -9320,7 +9308,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-1-23-2027--sports-ncaa-basketball/production/7631837?wsUser=717",
-    "low": 34.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -9593,7 +9581,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-1-28-2027--sports-ncaa-basketball/production/7631214?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -9632,7 +9620,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-1-28-2027--sports-ncaa-basketball/production/7631845?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -10451,7 +10439,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-2-10-2027--sports-ncaa-basketball/production/7631871?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -10958,7 +10946,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-2-17-2027--sports-ncaa-basketball/production/7631891?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -11270,7 +11258,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-2-21-2027--sports-ncaa-basketball/production/7631228?wsUser=717",
-    "low": 40.0,
+    "low": 39.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -11387,7 +11375,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-2-24-2027--sports-ncaa-basketball/production/7631230?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -11582,7 +11570,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-2-27-2027--sports-ncaa-basketball/production/7631915?wsUser=717",
-    "low": 35.0,
+    "low": 33.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -11816,7 +11804,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-3-2-2027--sports-ncaa-basketball/production/7631925?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -11933,7 +11921,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-3-4-2027--sports-ncaa-basketball/production/7631270?wsUser=717",
-    "low": 47.0,
+    "low": 45.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -12272,6 +12260,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T22:37:45+00:00"
+ ]
 }

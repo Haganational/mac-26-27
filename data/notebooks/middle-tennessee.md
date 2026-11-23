@@ -71,7 +71,7 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,4 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 - 2026-11-21: Social recap posted (W 69-59 vs Indiana State Sycamores): https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921207.html <!-- post:401921207:preview -->
 - 2026-11-23: W 77-76 vs (neutral) Southern Illinois Salukis. Barometer 63 (steady). <!-- g:401921207 -->
+- 2026-11-23: Social recap posted (W 77-76 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401921207.html <!-- post:401921207:recap -->
