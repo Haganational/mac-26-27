@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-19: W 100-69 vs Arkansas-Pine Bluff Golden Lions. Barometer 59 (steady). <!-- g:401928398 -->
 - 2026-11-19: Social recap posted (W 100-69 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
