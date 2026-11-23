@@ -2780,7 +2780,7 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2788,13 +2788,13 @@
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:21 - 1st"
   },
   {
    "game_id": "401921209",
@@ -9705,5 +9705,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T16:19:05+00:00"
 }
