@@ -66,7 +66,7 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -86,3 +86,4 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 - 2026-11-21: Social recap posted (W 68-65 vs Western Illinois Leathernecks): https://hardwoodbricks.com/ovc/games/401919828.html <!-- post:401919828:recap -->
 - 2026-11-22: W 78-75 vs (neutral) UAlbany Great Danes. Barometer 48 (steady). <!-- g:401923323 -->
 - 2026-11-22: Social recap posted (W 78-75 vs UAlbany Great Danes): https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401919829.html <!-- post:401919829:preview -->

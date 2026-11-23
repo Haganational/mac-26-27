@@ -69,7 +69,7 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:preview -->
 - 2026-11-20: L 61-93 at St. Thomas Tommies. Barometer 46 (steady). <!-- g:401920845 -->
 - 2026-11-20: Social recap posted (L 61-93 vs St. Thomas Tommies): https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:preview -->

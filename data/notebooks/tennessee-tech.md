@@ -70,7 +70,7 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->
 - 2026-11-22: W 97-69 vs Presbyterian Blue Hose. Barometer 72 (buoyant). <!-- g:401926217 -->
 - 2026-11-22: Social recap posted (W 97-69 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:preview -->
