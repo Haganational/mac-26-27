@@ -2780,7 +2780,7 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 50,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -2788,13 +2788,13 @@
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 30,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:14 - 2nd"
+   "detail": "4:05 - 2nd"
   },
   {
    "game_id": "401921209",
@@ -2815,7 +2815,7 @@
     "key": null,
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2823,13 +2823,13 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:41 - 1st"
   },
   {
    "game_id": "401921207",
@@ -9706,5 +9706,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T17:13:11+00:00"
+ "live_at": "2026-11-23T17:41:22+00:00"
 }
