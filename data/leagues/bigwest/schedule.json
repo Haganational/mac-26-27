@@ -2469,21 +2469,21 @@
     "key": null,
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": 65,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2856",
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": 65,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:43 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401921206",
@@ -2510,7 +2510,7 @@
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": 31,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2518,13 +2518,13 @@
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 24,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:42 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917542",
@@ -10159,5 +10159,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T02:03:43+00:00"
+ "live_at": "2026-11-23T02:27:39+00:00"
 }

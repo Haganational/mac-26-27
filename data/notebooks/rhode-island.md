@@ -27,9 +27,9 @@ Capt. Declan O'Malley grew up in Narragansett, the son of a fishing boat captain
 
 ## Barometer
 
-**64 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**68 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Capt. Declan O'Malley grew up in Narragansett, the son of a fishing boat captain
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Capt. Declan O'Malley grew up in Narragansett, the son of a fishing boat captain
 - 2026-11-20: L 68-71 vs (neutral) Liberty Flames. Barometer 64 (steady). <!-- g:401920066 -->
 - 2026-11-20: Social recap posted (L 68-71 vs Liberty Flames): https://hardwoodbricks.com/a10/games/401920066.html <!-- post:401920066:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401919020.html <!-- post:401919020:preview -->
+- 2026-11-23: W 79-64 vs (neutral) UAB Blazers. Barometer 68 (buoyant). <!-- g:401919020 -->
+- 2026-11-23: Social recap posted (W 79-64 vs UAB Blazers): https://hardwoodbricks.com/a10/games/401919020.html <!-- post:401919020:recap -->

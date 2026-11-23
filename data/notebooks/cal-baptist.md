@@ -27,9 +27,9 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
+**27 of 100, despondent.** Record 1-6 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917541.html <!-- post:401917541:preview -->
 - 2026-11-22: W 80-73 vs (neutral) Loyola Marymount Lions. Barometer 44 (testy). <!-- g:401917539 -->
 - 2026-11-22: Social recap posted (W 80-73 vs Loyola Marymount Lions): https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:recap -->
+- 2026-11-23: L 71-79 vs (neutral) Portland Pilots. Barometer 27 (despondent). <!-- g:401917541 -->
+- 2026-11-23: Social recap posted (L 71-79 vs Portland Pilots): https://hardwoodbricks.com/bigwest/games/401917541.html <!-- post:401917541:recap -->
