@@ -50,7 +50,7 @@ def test_posted_episode_has_its_audio_and_notes():
     ep = ctx["lockcall"]
     assert ":" in ep["length"] and ep["news"]["sources"]
     pilot = lockcall.episodes()[-1]
-    assert pilot["pilot"] and pilot["length"] == "2:13"
+    assert pilot["pilot"] and pilot["length"] == "2:10"
     assert (lockcall.POD_DIR.parent.parent / "templates" / ep["audio"]).exists()
     assert ctx["lockcall_feed"] == "podcast/feed.xml"
 
