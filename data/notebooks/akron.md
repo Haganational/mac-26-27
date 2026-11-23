@@ -27,9 +27,9 @@ Marcus Vance grew up in North Hill, the grandson of a Goodyear tire builder, and
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**56 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Marcus Vance grew up in North Hill, the grandson of a Goodyear tire builder, and
 ## What we've made about them
 
 - Film: *The Magnet in the Nose* (https://youtu.be/IK-7KOKkbv0). Our film on the 1973 Soap Box Derby scandal in Akron, and who the real cheater was.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,5 @@ Marcus Vance grew up in North Hill, the grandson of a Goodyear tire builder, and
 - 2026-11-21: Social recap posted (W 116-71 vs WVU Tech Golden Bears): https://hardwoodbricks.com/games/401928834.html <!-- post:401928834:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401928835.html <!-- post:401928835:preview -->
+- 2026-11-23: L 64-66 vs (neutral) Wright State Raiders. Barometer 56 (steady). <!-- g:401928830 -->
+- 2026-11-23: Social recap posted (L 64-66 vs Wright State Raiders): https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:recap -->

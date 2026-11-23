@@ -2555,21 +2555,21 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 52,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
    "away": {
     "espn_id": "2006",
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 54,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911025",
@@ -9659,5 +9659,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T20:01:06+00:00"
+ "live_at": "2026-11-23T20:31:07+00:00"
 }

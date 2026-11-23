@@ -3011,7 +3011,7 @@
     "key": null,
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -3019,13 +3019,13 @@
     "key": "william-mary",
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:52 - 1st"
   },
   {
    "game_id": "401921157",
@@ -11999,5 +11999,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T20:45:18+00:00"
 }

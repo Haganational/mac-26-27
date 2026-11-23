@@ -2858,7 +2858,7 @@
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2866,13 +2866,13 @@
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:19 - 1st"
   },
   {
    "game_id": "401929286",
@@ -9718,5 +9718,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T20:05:50+00:00"
+ "live_at": "2026-11-23T20:37:28+00:00"
 }

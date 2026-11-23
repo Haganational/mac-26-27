@@ -2480,7 +2480,7 @@
     "name": "Florida International Panthers",
     "abbr": "FIU",
     "score": 79,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "299",
@@ -2488,12 +2488,12 @@
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
     "score": 75,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921207",
@@ -2520,7 +2520,7 @@
     "key": null,
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2528,13 +2528,13 @@
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:27 - 1st"
   },
   {
    "game_id": "401928791",
@@ -9081,5 +9081,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T20:12:15+00:00"
+ "live_at": "2026-11-23T20:46:30+00:00"
 }
