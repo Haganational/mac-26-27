@@ -27,9 +27,9 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
+**70 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jace editorializes: 72% of stories right now.
 
 ## School and town
 

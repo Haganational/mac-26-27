@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:10:13+00:00",
+ "fetched_at": "2026-11-23T12:12:56+00:00",
  "season": 2027,
  "games": [
   {
@@ -2950,7 +2950,7 @@
   },
   {
    "game_id": "401919020",
-   "date": "2026-11-23T00:00Z",
+   "date": "2026-11-23T00:40Z",
    "name": "Rhode Island Rams at UAB Blazers",
    "short_name": "URI VS UAB",
    "season_type": "reg",
@@ -3151,6 +3151,41 @@
     "key": "tulane",
     "name": "Tulane Green Wave",
     "abbr": "TULN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921210",
+   "date": "2026-11-23T22:30Z",
+   "name": "Temple Owls at UT Martin Skyhawks",
+   "short_name": "TEM VS UTM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "2630",
+    "key": null,
+    "name": "UT Martin Skyhawks",
+    "abbr": "UTM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "218",
+    "key": "temple",
+    "name": "Temple Owls",
+    "abbr": "TEM",
     "score": null,
     "winner": null
    },
@@ -3603,7 +3638,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-27-2026--sports-ncaa-basketball/production/7632059?wsUser=717",
-    "low": 21.0,
+    "low": 19.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -3734,7 +3769,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 23.0,
+    "low": 21.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3820,7 +3855,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 52.0,
+    "low": 53.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -4090,7 +4125,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 52.0,
+    "low": 53.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -4266,7 +4301,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-1-2026--sports-ncaa-basketball/production/7483983?wsUser=717",
-    "low": 48.0,
+    "low": 42.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -5816,7 +5851,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tulsa-golden-hurricane-mens-basketball-tickets-reynolds-center-12-12-2026--sports-ncaa-basketball/production/7630467?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Reynolds Center",
@@ -7425,7 +7460,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 29.0,
+    "low": 30.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -7560,7 +7595,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/minnesota-golden-gophers-mens-basketball-tickets-the-barn-by-blue-cross-and-blue-shield-of-minnesota-12-29-2026--sports-ncaa-basketball/production/7493009?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
@@ -8376,7 +8411,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-3-2026--sports-ncaa-basketball/production/7613226?wsUser=717",
-    "low": 58.0,
+    "low": 56.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -9039,7 +9074,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-10-2026--sports-ncaa-basketball/production/7613240?wsUser=717",
-    "low": 45.0,
+    "low": 40.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -9312,7 +9347,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-9-2026--sports-ncaa-basketball/production/7613238?wsUser=717",
-    "low": 43.0,
+    "low": 39.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -9741,7 +9776,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-5-2026--sports-ncaa-basketball/production/7613230?wsUser=717",
-    "low": 80.0,
+    "low": 75.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -10170,7 +10205,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-2-2026--sports-ncaa-basketball/production/7613224?wsUser=717",
-    "low": 60.0,
+    "low": 54.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -10443,7 +10478,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-4-2026--sports-ncaa-basketball/production/7613228?wsUser=717",
-    "low": 49.0,
+    "low": 40.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -11184,7 +11219,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-8-2026--sports-ncaa-basketball/production/7613236?wsUser=717",
-    "low": 60.0,
+    "low": 56.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -12081,7 +12116,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-7-2026--sports-ncaa-basketball/production/7613234?wsUser=717",
-    "low": 56.0,
+    "low": 51.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -12225,6 +12260,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T02:30:57+00:00"
+ ]
 }

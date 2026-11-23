@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:07:32+00:00",
+ "fetched_at": "2026-11-23T12:09:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -3395,7 +3395,7 @@
   },
   {
    "game_id": "401919020",
-   "date": "2026-11-23T00:00Z",
+   "date": "2026-11-23T00:40Z",
    "name": "Rhode Island Rams at UAB Blazers",
    "short_name": "URI VS UAB",
    "season_type": "reg",
@@ -3437,8 +3437,8 @@
   {
    "game_id": "401911233",
    "date": "2026-11-23T04:59Z",
-   "name": "San Jos\u00e9 State Spartans at Loyola Chicago Ramblers",
-   "short_name": "SJSU VS LUC",
+   "name": "Loyola Chicago Ramblers at San Jos\u00e9 State Spartans",
+   "short_name": "LUC VS SJSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3450,27 +3450,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2350",
-    "key": "loyola-chicago",
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
-    "score": 63,
-    "winner": false
-   },
-   "away": {
     "espn_id": "23",
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
+    "score": 63,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": "loyola-chicago",
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
     "score": 72,
     "winner": true
    },
@@ -3647,6 +3643,41 @@
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921663",
+   "date": "2026-11-24T02:30Z",
+   "name": "Loyola Chicago Ramblers at Seattle U Redhawks",
+   "short_name": "LUC VS SEA",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2547",
+    "key": null,
+    "name": "Seattle U Redhawks",
+    "abbr": "SEA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": "loyola-chicago",
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
     "score": null,
     "winner": null
    },
@@ -4417,7 +4448,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 52.0,
+    "low": 53.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -4552,7 +4583,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 52.0,
+    "low": 53.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -5222,7 +5253,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-5-2026--sports-ncaa-basketball/production/7462743?wsUser=717",
-    "low": 48.0,
+    "low": 47.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -7479,7 +7510,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-22-2026--sports-ncaa-basketball/production/7462745?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -7524,7 +7555,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-22-2026--sports-ncaa-basketball/production/7627391?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -7833,7 +7864,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-27-2026--sports-ncaa-basketball/production/7627457?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -8058,7 +8089,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-10-9-2026--sports-ncaa-basketball/production/7187966?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -9006,7 +9037,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-1-2026--sports-ncaa-basketball/production/7188094?wsUser=717",
-    "low": 43.0,
+    "low": 53.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -12843,6 +12874,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T07:17:29+00:00"
+ ]
 }

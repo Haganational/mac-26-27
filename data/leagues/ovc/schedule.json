@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:19:35+00:00",
+ "fetched_at": "2026-11-23T12:24:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -2448,7 +2448,7 @@
   },
   {
    "game_id": "401921206",
-   "date": "2026-11-23T01:00Z",
+   "date": "2026-11-23T01:10Z",
    "name": "UT Martin Skyhawks at Utah Valley Wolverines",
    "short_name": "UTM VS UVU",
    "season_type": "reg",
@@ -2520,6 +2520,41 @@
     "key": null,
     "name": "IU South Bend Titans",
     "abbr": "IUSB",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921210",
+   "date": "2026-11-23T22:30Z",
+   "name": "Temple Owls at UT Martin Skyhawks",
+   "short_name": "TEM VS UTM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "2630",
+    "key": "ut-martin",
+    "name": "UT Martin Skyhawks",
+    "abbr": "UTM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "218",
+    "key": null,
+    "name": "Temple Owls",
+    "abbr": "TEM",
     "score": null,
     "winner": null
    },
@@ -2673,7 +2708,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Stony Brook Arena",
@@ -8337,6 +8372,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T03:54:51+00:00"
+ ]
 }

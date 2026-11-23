@@ -69,7 +69,7 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 - 2026-11-19: W 91-74 vs Idaho Vandals. Barometer 55 (steady). <!-- g:401911456 -->
 - 2026-11-19: Social recap posted (W 91-74 vs Idaho Vandals): https://hardwoodbricks.com/mw/games/401911456.html <!-- post:401911456:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911458.html <!-- post:401911458:preview -->

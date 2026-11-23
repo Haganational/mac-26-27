@@ -68,7 +68,7 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:preview -->
 - 2026-11-21: L 67-82 vs Central Arkansas Bears. Barometer 32 (testy). <!-- g:401917918 -->
 - 2026-11-21: Social recap posted (L 67-82 vs Central Arkansas Bears): https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401916291.html <!-- post:401916291:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:16:38+00:00",
+ "fetched_at": "2026-11-23T12:21:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -2798,6 +2798,41 @@
    "detail": ""
   },
   {
+   "game_id": "401921208",
+   "date": "2026-11-24T01:00Z",
+   "name": "Stephen F. Austin Lumberjacks at Utah Valley Wolverines",
+   "short_name": "SFA VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": null,
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2617",
+    "key": "stephen-f-austin",
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401920819",
    "date": "2026-11-24T17:30Z",
    "name": "SE Louisiana Lions at Northern Colorado Bears",
@@ -3284,7 +3319,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-29-2026--sports-ncaa-basketball/production/7633884?wsUser=717",
-    "low": 23.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Strahan Arena at the University Events Center",
@@ -10114,6 +10149,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T01:02:12+00:00"
+ ]
 }

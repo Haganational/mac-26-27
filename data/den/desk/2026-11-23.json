@@ -2,29 +2,40 @@
  "date": "2026-11-23",
  "desk": {
   "anchor": {
-   "alt": "Jasper Hale, the Oregon State AI anchor",
-   "color": "#DC4405",
-   "color2": "#000000",
-   "initials": "JH",
+   "alt": "Ruthie Calloway, the App State AI anchor",
+   "color": "#222222",
+   "color2": "#FFCC00",
+   "initials": "RC",
    "ink": "#ffffff",
-   "key": "oregon-state",
-   "name": "Jasper Hale",
-   "portrait": "den/anchors/oregon-state.webp",
-   "school": "Oregon State",
+   "key": "app-state",
+   "name": "Ruthie Calloway",
+   "portrait": "den/anchors/app-state.webp",
+   "school": "App State",
    "tag": "AI anchor"
   },
-  "max": 177,
+  "max": 250,
   "picks": [
    {
-    "abbr": "ORST",
-    "game_id": "401921658",
+    "abbr": "APP",
+    "game_id": "401927397",
     "kind": "homer",
-    "short": "Oregon St",
+    "short": "App State",
     "side": "home",
-    "team_id": "204",
-    "tip": "2026-11-23T19:00Z",
+    "team_id": "2026",
+    "tip": "2026-11-23T16:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 29
+    "worth": 65
+   },
+   {
+    "abbr": "UTM",
+    "game_id": "401921210",
+    "kind": "ratings",
+    "short": "UT Martin",
+    "side": "home",
+    "team_id": "2630",
+    "tip": "2026-11-23T22:30Z",
+    "why": "Our ratings 76%, pregame win chance 34%.",
+    "worth": 66
    },
    {
     "abbr": "WRST",
@@ -34,7 +45,7 @@
     "side": "home",
     "team_id": "2750",
     "tip": "2026-11-23T18:30Z",
-    "why": "Our ratings 86%, pregame win chance 54%.",
+    "why": "Our ratings 85%, pregame win chance 54%.",
     "worth": 46
    },
    {
@@ -47,17 +58,6 @@
     "tip": "2026-11-23T20:30Z",
     "why": "Our ratings 54%, pregame win chance 27%.",
     "worth": 73
-   },
-   {
-    "abbr": "CLT",
-    "game_id": "401921701",
-    "kind": "ratings",
-    "short": "Charlotte",
-    "side": "away",
-    "team_id": "2429",
-    "tip": "2026-11-23T18:30Z",
-    "why": "Our ratings 50%, pregame win chance 71%.",
-    "worth": 29
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -376,6 +376,30 @@
    "worth": 27
   },
   {
+   "abbr": "UTM",
+   "game_id": "401921210",
+   "key": "ut-martin",
+   "kind": "homer",
+   "short": "UT Martin",
+   "side": "home",
+   "team_id": "2630",
+   "tip": "2026-11-23T22:30Z",
+   "why": "Homer pick.",
+   "worth": 66
+  },
+  {
+   "abbr": "TEM",
+   "game_id": "401921210",
+   "key": "temple",
+   "kind": "homer",
+   "short": "Temple",
+   "side": "away",
+   "team_id": "218",
+   "tip": "2026-11-23T22:30Z",
+   "why": "Homer pick.",
+   "worth": 34
+  },
+  {
    "abbr": "YSU",
    "game_id": "401920752",
    "key": "youngstown-state",
@@ -493,7 +517,7 @@
    "team_id": "290",
    "tip": "2026-11-24T00:00Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 60
   },
   {
    "abbr": "SCST",
@@ -554,6 +578,30 @@
    "tip": "2026-11-24T01:00Z",
    "why": "Homer pick.",
    "worth": 94
+  },
+  {
+   "abbr": "UVU",
+   "game_id": "401921208",
+   "key": "utah-valley",
+   "kind": "homer",
+   "short": "Utah Valley",
+   "side": "home",
+   "team_id": "3084",
+   "tip": "2026-11-24T01:00Z",
+   "why": "Homer pick.",
+   "worth": 40
+  },
+  {
+   "abbr": "SFA",
+   "game_id": "401921208",
+   "key": "stephen-f-austin",
+   "kind": "homer",
+   "short": "Stephen F. Austin",
+   "side": "away",
+   "team_id": "2617",
+   "tip": "2026-11-24T01:00Z",
+   "why": "Homer pick.",
+   "worth": 61
   },
   {
    "abbr": "VCU",

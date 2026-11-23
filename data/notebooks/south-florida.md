@@ -69,7 +69,7 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:preview -->
 - 2026-11-21: L 62-73 at George Mason Patriots. Barometer 52 (steady). <!-- g:401918995 -->
 - 2026-11-21: Social recap posted (L 62-73 vs George Mason Patriots): https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401918996.html <!-- post:401918996:preview -->

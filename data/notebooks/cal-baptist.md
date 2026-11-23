@@ -27,9 +27,9 @@ Jordan Whitaker grew up in Moreno Valley, the son of a youth pastor and a dental
 
 ## Barometer
 
-**27 of 100, despondent.** Record 1-6 (0-0 in conference), streak L3, last five LWLLL.
+**42 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jordan editorializes: 65% of stories right now.
 
 ## School and town
 

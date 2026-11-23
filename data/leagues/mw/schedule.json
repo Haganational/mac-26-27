@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:03:57+00:00",
+ "fetched_at": "2026-11-23T12:04:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2172,8 +2172,8 @@
   {
    "game_id": "401911233",
    "date": "2026-11-23T04:59Z",
-   "name": "San Jos\u00e9 State Spartans at Loyola Chicago Ramblers",
-   "short_name": "SJSU VS LUC",
+   "name": "Loyola Chicago Ramblers at San Jos\u00e9 State Spartans",
+   "short_name": "LUC VS SJSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2185,27 +2185,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2350",
-    "key": null,
-    "name": "Loyola Chicago Ramblers",
-    "abbr": "LUC",
-    "score": 63,
-    "winner": false
-   },
-   "away": {
     "espn_id": "23",
     "key": "san-jose-state",
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
+    "score": 63,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": null,
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
     "score": 72,
     "winner": true
    },
@@ -2232,7 +2228,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 34.0,
+    "low": 40.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2296,6 +2292,41 @@
     "key": null,
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921664",
+   "date": "2026-11-24T04:59Z",
+   "name": "San Jos\u00e9 State Spartans at UC San Diego Tritons",
+   "short_name": "SJSU VS UCSD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "28",
+    "key": null,
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "23",
+    "key": "san-jose-state",
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU",
     "score": null,
     "winner": null
    },
@@ -2570,7 +2601,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-25-2026--sports-ncaa-basketball/production/7422238?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -2865,7 +2896,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-11-28-2026--sports-ncaa-basketball/production/7459081?wsUser=717",
-    "low": 12.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -7300,7 +7331,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-2-6-2027--sports-ncaa-basketball/production/7436903?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Global Credit Union Arena",
@@ -8996,6 +9027,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T07:14:16+00:00"
+ ]
 }

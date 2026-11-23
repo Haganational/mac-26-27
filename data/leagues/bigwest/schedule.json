@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:05:44+00:00",
+ "fetched_at": "2026-11-23T12:07:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2370,11 +2370,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2443,8 +2439,8 @@
   {
    "game_id": "401917541",
    "date": "2026-11-23T00:00Z",
-   "name": "California Baptist Lancers at Portland Pilots",
-   "short_name": "CBU VS PORT",
+   "name": "Portland Pilots at California Baptist Lancers",
+   "short_name": "PORT VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2456,27 +2452,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2501",
-    "key": null,
-    "name": "Portland Pilots",
-    "abbr": "PORT",
-    "score": 79,
-    "winner": true
-   },
-   "away": {
     "espn_id": "2856",
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
+    "score": 79,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2501",
+    "key": null,
+    "name": "Portland Pilots",
+    "abbr": "PORT",
     "score": 71,
     "winner": false
    },
@@ -2487,7 +2479,7 @@
   },
   {
    "game_id": "401921206",
-   "date": "2026-11-23T01:00Z",
+   "date": "2026-11-23T01:10Z",
    "name": "UT Martin Skyhawks at Utah Valley Wolverines",
    "short_name": "UTM VS UVU",
    "season_type": "reg",
@@ -2528,9 +2520,9 @@
   },
   {
    "game_id": "401917542",
-   "date": "2026-11-23T02:30Z",
-   "name": "Seattle U Redhawks at UC San Diego Tritons",
-   "short_name": "SEA VS UCSD",
+   "date": "2026-11-23T02:45Z",
+   "name": "UC San Diego Tritons at Seattle U Redhawks",
+   "short_name": "UCSD VS SEA",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2542,27 +2534,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "28",
-    "key": "uc-san-diego",
-    "name": "UC San Diego Tritons",
-    "abbr": "UCSD",
-    "score": 90,
-    "winner": true
-   },
-   "away": {
     "espn_id": "2547",
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
+    "score": 90,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "28",
+    "key": "uc-san-diego",
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
     "score": 64,
     "winner": false
    },
@@ -2589,7 +2577,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-23-2026--sports-ncaa-basketball/production/7745942?wsUser=717",
-    "low": 18.0,
+    "low": 31.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2608,6 +2596,76 @@
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921208",
+   "date": "2026-11-24T01:00Z",
+   "name": "Stephen F. Austin Lumberjacks at Utah Valley Wolverines",
+   "short_name": "SFA VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": "utah-valley",
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2617",
+    "key": null,
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921664",
+   "date": "2026-11-24T04:59Z",
+   "name": "San Jos\u00e9 State Spartans at UC San Diego Tritons",
+   "short_name": "SJSU VS UCSD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "28",
+    "key": "uc-san-diego",
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "23",
+    "key": null,
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU",
     "score": null,
     "winner": null
    },
@@ -6189,7 +6247,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-7-2027--sports-ncaa-basketball/production/7358980?wsUser=717",
-    "low": 36.0,
+    "low": 27.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -6384,7 +6442,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-9-2027--sports-ncaa-basketball/production/7358986?wsUser=717",
-    "low": 44.0,
+    "low": 23.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -7078,7 +7136,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-21-2027--sports-ncaa-basketball/production/7358996?wsUser=717",
-    "low": 38.0,
+    "low": 27.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -10158,6 +10216,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-23T04:46:24+00:00"
+ ]
 }

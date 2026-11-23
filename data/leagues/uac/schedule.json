@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T23:18:12+00:00",
+ "fetched_at": "2026-11-23T12:23:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2612,7 +2612,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
-    "low": 22.0,
+    "low": 19.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "First Bank & Trust Arena",
@@ -2861,47 +2861,6 @@
    "detail": ""
   },
   {
-   "game_id": "401929368",
-   "date": "2026-11-29T05:00Z",
-   "name": "Tarleton State Texans at Texas Southern Tigers",
-   "short_name": "TAR @ TXSO",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "SWAC TV",
-     "kind": "Streaming",
-     "market": "Home"
-    }
-   ],
-   "tickets": null,
-   "venue": "H&PE Arena",
-   "venue_city": "Houston",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "2640",
-    "key": null,
-    "name": "Texas Southern Tigers",
-    "abbr": "TXSO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2627",
-    "key": "tarleton-state",
-    "name": "Tarleton State Texans",
-    "abbr": "TAR",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401917905",
    "date": "2026-11-29T19:00Z",
    "name": "West Georgia Wolves at South Carolina Upstate Spartans",
@@ -2934,6 +2893,47 @@
     "key": "west-georgia",
     "name": "West Georgia Wolves",
     "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929368",
+   "date": "2026-11-29T21:00Z",
+   "name": "Tarleton State Texans at Texas Southern Tigers",
+   "short_name": "TAR @ TXSO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "H&PE Arena",
+   "venue_city": "Houston",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2640",
+    "key": null,
+    "name": "Texas Southern Tigers",
+    "abbr": "TXSO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2627",
+    "key": "tarleton-state",
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
     "score": null,
     "winner": null
    },
@@ -4237,7 +4237,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-13-2026--sports-ncaa-basketball/production/7575783?wsUser=717",
-    "low": 12.0,
+    "low": 13.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Bud Walton Arena",

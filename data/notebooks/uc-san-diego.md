@@ -27,9 +27,9 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:preview -->
 - 2026-11-23: W 90-64 vs (neutral) Seattle U Redhawks. Barometer 66 (buoyant). <!-- g:401917542 -->
 - 2026-11-23: Social recap posted (W 90-64 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:preview -->

@@ -27,7 +27,7 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 
 ## Barometer
 
-**56 of 100, steady.** Record 5-3 (0-0 in conference), streak W1, last five WLWLW.
+**43 of 100, testy.** Record 4-4 (0-0 in conference), streak L2, last five WLWLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 64% of stories right now.
 

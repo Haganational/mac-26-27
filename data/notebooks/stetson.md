@@ -68,7 +68,7 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,4 @@ Frankie Castellano grew up in Sanford, Florida, the son of a citrus grower and a
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/asun/games/401918950.html <!-- post:401918950:preview -->
 - 2026-11-20: L 69-83 at Louisville Cardinals. Barometer 34 (testy). <!-- g:401918950 -->
 - 2026-11-20: Social recap posted (L 69-83 vs Louisville Cardinals): https://hardwoodbricks.com/asun/games/401918950.html <!-- post:401918950:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401918996.html <!-- post:401918996:preview -->
