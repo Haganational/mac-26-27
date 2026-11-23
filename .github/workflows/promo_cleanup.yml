@@ -1,0 +1,29 @@
+name: Promo cleanup
+
+# Deletes the exact repeat posts listed in promos/<film>/cleanup.json. Runs only when such a list changes.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["promos/*/cleanup.json"]
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/checkout@v4
+        with: {path: branch}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: Delete
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: |
+          for c in branch/promos/*/cleanup.json; do PYTHONPATH=. python branch/promos/cleanup.py "$c"; done
