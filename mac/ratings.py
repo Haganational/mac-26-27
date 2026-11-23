@@ -67,6 +67,10 @@ class Params:
     # margin added to the home side on a non-neutral floor, by days since the season's first game.
     open_home_wk1: float = 6.8
     open_home_wk2: float = 1.5
+    # Game-count recency ("Right Now"): when set, each team's most recent games weigh these
+    # amounts (newest first) and every older game weighs 1.0, in place of the half-life.
+    # A game's weight is the average of what it means to each side.
+    rank_weights: tuple[float, ...] = ()
 
 
 @dataclass
@@ -146,6 +150,25 @@ def _cap(eff_h: float, eff_a: float, p: Params) -> tuple[float, float]:
     return mid + new_m / 2, mid - new_m / 2
 
 
+def _rank_weights(rows: list[dict[str, Any]], weights: tuple[float, ...]) -> dict[Any, float]:
+    """Per-game weight from where the game sits in each team's own run of games, newest first."""
+    by_team: dict[str, list[dict[str, Any]]] = {}
+    for r in rows:
+        for t in (r["home"], r["away"]):
+            if t != NON_D1:
+                by_team.setdefault(t, []).append(r)
+    side: dict[tuple[Any, str], float] = {}
+    for t, games in by_team.items():
+        games.sort(key=lambda g: g["date"], reverse=True)
+        for k, g in enumerate(games):
+            side[(g["id"], t)] = weights[k] if k < len(weights) else 1.0
+    out = {}
+    for r in rows:
+        ws = [side[(r["id"], t)] for t in (r["home"], r["away"]) if t != NON_D1]
+        out[r["id"]] = sum(ws) / len(ws) if ws else 1.0
+    return out
+
+
 def fit(rows: list[dict[str, Any]], as_of: datetime, p: Params = Params(),
         prior: Ratings | None = None) -> Ratings:
     """Solve the ratings from every game played before `as_of`."""
@@ -170,9 +193,13 @@ def fit(rows: list[dict[str, Any]], as_of: datetime, p: Params = Params(),
     At = np.zeros((n + 1, n + 1))
     bt = np.zeros(n + 1)
 
+    rank_w = _rank_weights(rows, p.rank_weights) if p.rank_weights else None
     for r in rows:
-        age = (as_of - r["date"]).total_seconds() / 86400
-        w = max(p.min_weight, 0.5 ** (age / p.half_life))
+        if rank_w is not None:
+            w = rank_w[r["id"]]
+        else:
+            age = (as_of - r["date"]).total_seconds() / 86400
+            w = max(p.min_weight, 0.5 ** (age / p.half_life))
         if NON_D1 in (r["home"], r["away"]):
             w *= p.non_d1_weight
         hi, ai = idx[r["home"]], idx[r["away"]]

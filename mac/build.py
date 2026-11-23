@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
+from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, three_models, today, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -536,8 +536,15 @@ def render_site() -> str:
         print(f"bigmid: skipped ({exc!r})")
 
     # Data Visualized: one posting clock per game.
+    # Three models against the number (refreshed once per new batch of finals; later editions reuse the files).
+    try:
+        three_models.refresh()
+        tm = three_models.page_context(now, sched, {t.espn_id for t in TEAMS}, LEAGUE.short)
+    except Exception as exc:  # noqa: BLE001 - the page must still publish
+        print(f"three models: skipped ({exc!r})")
+        tm = None
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
-        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou))
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou, tm=tm))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
