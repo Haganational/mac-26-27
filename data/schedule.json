@@ -2555,7 +2555,7 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2563,13 +2563,13 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:50 - 1st"
   },
   {
    "game_id": "401911025",
@@ -9658,5 +9658,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T19:01:09+00:00"
 }

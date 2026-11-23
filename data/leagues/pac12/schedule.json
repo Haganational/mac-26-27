@@ -1998,7 +1998,7 @@
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2006,13 +2006,13 @@
     "key": null,
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:07 - 1st"
   },
   {
    "game_id": "401909743",
@@ -8195,5 +8195,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T19:09:51+00:00"
 }
