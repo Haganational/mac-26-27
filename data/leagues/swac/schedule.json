@@ -2860,7 +2860,7 @@
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": null,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2868,13 +2868,13 @@
     "key": null,
     "name": "Ecclesia Royals",
     "abbr": "ECCL",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:45 - 1st"
   },
   {
    "game_id": "401918057",
@@ -10903,5 +10903,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T20:20:02+00:00"
 }
