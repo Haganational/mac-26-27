@@ -70,7 +70,7 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:preview -->
 - 2026-11-21: L 101-103 vs Niagara Purple Eagles. Barometer 43 (testy). <!-- g:401924844 -->
 - 2026-11-21: Social recap posted (L 101-103 vs Niagara Purple Eagles): https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->

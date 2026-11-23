@@ -69,7 +69,7 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923312.html <!-- post:401923312:preview -->
 - 2026-11-21: L 47-50 at New Haven Chargers. Barometer 52 (steady). <!-- g:401923312 -->
 - 2026-11-21: Social recap posted (L 47-50 vs New Haven Chargers): https://hardwoodbricks.com/americaeast/games/401923312.html <!-- post:401923312:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920889.html <!-- post:401920889:preview -->

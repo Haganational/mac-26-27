@@ -66,7 +66,7 @@ Darnell Hughes taught middle school math and coached the chess club in Catonsvil
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Darnell Hughes taught middle school math and coached the chess club in Catonsvil
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401921088.html <!-- post:401921088:preview -->
 - 2026-11-22: W 89-55 vs Lancaster Bible Chargers. Barometer 54 (steady). <!-- g:401921088 -->
 - 2026-11-22: Social recap posted (W 89-55 vs Lancaster Bible Chargers): https://hardwoodbricks.com/americaeast/games/401921088.html <!-- post:401921088:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920727.html <!-- post:401920727:preview -->

@@ -66,7 +66,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:preview -->
 - 2026-11-22: W 80-77 vs UNC Asheville Bulldogs. Barometer 56 (steady). <!-- g:401922293 -->
 - 2026-11-23: Social recap posted (W 80-77 vs UNC Asheville Bulldogs): https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:preview -->

@@ -69,7 +69,7 @@ Prudence Ashworth grew up in Somerville, argued her way through a legal aid care
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Prudence Ashworth grew up in Somerville, argued her way through a legal aid care
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:preview -->
 - 2026-11-21: W 77-65 at Holy Cross Crusaders. Barometer 47 (steady). <!-- g:401920357 -->
 - 2026-11-21: Social recap posted (W 77-65 vs Holy Cross Crusaders): https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401920358.html <!-- post:401920358:preview -->

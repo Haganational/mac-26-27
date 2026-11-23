@@ -69,7 +69,7 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:preview -->
 - 2026-11-20: L 51-96 at USC Trojans. Barometer 54 (steady). <!-- g:401926773 -->
 - 2026-11-20: Social recap posted (L 51-96 vs USC Trojans): https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:preview -->

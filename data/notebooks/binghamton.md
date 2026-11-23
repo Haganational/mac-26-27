@@ -69,7 +69,7 @@ Dana Kessler dispatched school buses in the Southern Tier for most of her career
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Dana Kessler dispatched school buses in the Southern Tier for most of her career
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:preview -->
 - 2026-11-21: W 67-46 vs Army Black Knights. Barometer 54 (steady). <!-- g:401911278 -->
 - 2026-11-21: Social recap posted (W 67-46 vs Army Black Knights): https://hardwoodbricks.com/americaeast/games/401911278.html <!-- post:401911278:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:preview -->

@@ -67,7 +67,7 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Calvin Rhodes edits The Clinton Beacon and believes, with his whole chest, that 
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:preview -->
 - 2026-11-22: L 69-97 at Tennessee Tech Golden Eagles. Barometer 33 (testy). <!-- g:401926217 -->
 - 2026-11-22: Social recap posted (L 69-97 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401928348.html <!-- post:401928348:preview -->
