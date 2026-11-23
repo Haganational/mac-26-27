@@ -2,29 +2,29 @@
  "date": "2026-11-23",
  "desk": {
   "anchor": {
-   "alt": "Ruthie Calloway, the App State AI anchor",
-   "color": "#222222",
-   "color2": "#FFCC00",
-   "initials": "RC",
+   "alt": "Father Dante Russo, the Loyola Chicago AI anchor",
+   "color": "#8A1538",
+   "color2": "#FDB913",
+   "initials": "FD",
    "ink": "#ffffff",
-   "key": "app-state",
-   "name": "Ruthie Calloway",
-   "portrait": "den/anchors/app-state.webp",
-   "school": "App State",
+   "key": "loyola-chicago",
+   "name": "Father Dante Russo",
+   "portrait": "den/anchors/loyola-chicago.webp",
+   "school": "Loyola Chicago",
    "tag": "AI anchor"
   },
-  "max": 239,
+  "max": 227,
   "picks": [
    {
-    "abbr": "APP",
-    "game_id": "401927397",
+    "abbr": "LUC",
+    "game_id": "401921663",
     "kind": "homer",
-    "short": "App State",
-    "side": "home",
-    "team_id": "2026",
-    "tip": "2026-11-23T16:00Z",
+    "short": "Loyola Chicago",
+    "side": "away",
+    "team_id": "2350",
+    "tip": "2026-11-24T02:30Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 64
+    "worth": 52
    },
    {
     "abbr": "UTM",
@@ -34,8 +34,8 @@
     "side": "home",
     "team_id": "2630",
     "tip": "2026-11-23T22:30Z",
-    "why": "Our ratings 76%, pregame win chance 42%.",
-    "worth": 58
+    "why": "Our ratings 76%, pregame win chance 43%.",
+    "worth": 57
    },
    {
     "abbr": "WRST",
@@ -45,8 +45,8 @@
     "side": "home",
     "team_id": "2750",
     "tip": "2026-11-23T18:30Z",
-    "why": "Our ratings 85%, pregame win chance 54%.",
-    "worth": 46
+    "why": "Our ratings 85%, pregame win chance 53%.",
+    "worth": 47
    },
    {
     "abbr": "SUU",
@@ -97,7 +97,7 @@
    "team_id": "2026",
    "tip": "2026-11-23T16:00Z",
    "why": "Homer pick.",
-   "worth": 64
+   "worth": 63
   },
   {
    "abbr": "SBU",
@@ -109,7 +109,7 @@
    "team_id": "179",
    "tip": "2026-11-23T16:00Z",
    "why": "Homer pick.",
-   "worth": 36
+   "worth": 37
   },
   {
    "abbr": "ECU",
@@ -169,7 +169,7 @@
    "team_id": "526",
    "tip": "2026-11-23T18:30Z",
    "why": "Homer pick.",
-   "worth": 71
+   "worth": 70
   },
   {
    "abbr": "CLT",
@@ -181,7 +181,7 @@
    "team_id": "2429",
    "tip": "2026-11-23T18:30Z",
    "why": "Homer pick.",
-   "worth": 29
+   "worth": 30
   },
   {
    "abbr": "WRST",
@@ -193,7 +193,7 @@
    "team_id": "2750",
    "tip": "2026-11-23T18:30Z",
    "why": "Homer pick.",
-   "worth": 46
+   "worth": 47
   },
   {
    "abbr": "AKR",
@@ -205,7 +205,7 @@
    "team_id": "2006",
    "tip": "2026-11-23T18:30Z",
    "why": "Homer pick.",
-   "worth": 54
+   "worth": 53
   },
   {
    "abbr": "ORST",
@@ -217,7 +217,7 @@
    "team_id": "204",
    "tip": "2026-11-23T19:00Z",
    "why": "Homer pick.",
-   "worth": 29
+   "worth": 33
   },
   {
    "abbr": "TLSA",
@@ -229,7 +229,7 @@
    "team_id": "202",
    "tip": "2026-11-23T19:00Z",
    "why": "Homer pick.",
-   "worth": 71
+   "worth": 67
   },
   {
    "abbr": "SIU",
@@ -265,7 +265,7 @@
    "team_id": "85",
    "tip": "2026-11-23T20:30Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 68
   },
   {
    "abbr": "W&M",
@@ -277,7 +277,7 @@
    "team_id": "2729",
    "tip": "2026-11-23T20:30Z",
    "why": "Homer pick.",
-   "worth": 37
+   "worth": 32
   },
   {
    "abbr": "SUU",
@@ -313,7 +313,7 @@
    "team_id": "2247",
    "tip": "2026-11-23T21:00Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 46
   },
   {
    "abbr": "TULN",
@@ -325,7 +325,7 @@
    "team_id": "2655",
    "tip": "2026-11-23T21:00Z",
    "why": "Homer pick.",
-   "worth": 53
+   "worth": 54
   },
   {
    "abbr": "BEL",
@@ -373,7 +373,7 @@
    "team_id": "2440",
    "tip": "2026-11-23T21:30Z",
    "why": "Homer pick.",
-   "worth": 26
+   "worth": 27
   },
   {
    "abbr": "UTM",
@@ -385,7 +385,7 @@
    "team_id": "2630",
    "tip": "2026-11-23T22:30Z",
    "why": "Homer pick.",
-   "worth": 58
+   "worth": 57
   },
   {
    "abbr": "TEM",
@@ -397,7 +397,7 @@
    "team_id": "218",
    "tip": "2026-11-23T22:30Z",
    "why": "Homer pick.",
-   "worth": 42
+   "worth": 43
   },
   {
    "abbr": "YSU",
@@ -433,7 +433,7 @@
    "team_id": "2541",
    "tip": "2026-11-24T00:00Z",
    "why": "Homer pick.",
-   "worth": 38
+   "worth": 39
   },
   {
    "abbr": "ILST",
@@ -445,7 +445,7 @@
    "team_id": "2287",
    "tip": "2026-11-24T00:00Z",
    "why": "Homer pick.",
-   "worth": 62
+   "worth": 61
   },
   {
    "abbr": "UNF",
@@ -457,7 +457,7 @@
    "team_id": "2454",
    "tip": "2026-11-24T00:00Z",
    "why": "Homer pick.",
-   "worth": 79
+   "worth": 77
   },
   {
    "abbr": "UCA",
@@ -469,7 +469,7 @@
    "team_id": "2110",
    "tip": "2026-11-24T00:00Z",
    "why": "Homer pick.",
-   "worth": 21
+   "worth": 23
   },
   {
    "abbr": "IONA",
@@ -616,6 +616,30 @@
    "worth": 53
   },
   {
+   "abbr": "SEA",
+   "game_id": "401921663",
+   "key": "seattle",
+   "kind": "homer",
+   "short": "Seattle U",
+   "side": "home",
+   "team_id": "2547",
+   "tip": "2026-11-24T02:30Z",
+   "why": "Homer pick.",
+   "worth": 48
+  },
+  {
+   "abbr": "LUC",
+   "game_id": "401921663",
+   "key": "loyola-chicago",
+   "kind": "homer",
+   "short": "Loyola Chicago",
+   "side": "away",
+   "team_id": "2350",
+   "tip": "2026-11-24T02:30Z",
+   "why": "Homer pick.",
+   "worth": 52
+  },
+  {
    "abbr": "PEPP",
    "game_id": "401926183",
    "key": "pepperdine",
@@ -661,7 +685,7 @@
    "team_id": "2439",
    "tip": "2026-11-24T03:00Z",
    "why": "Homer pick.",
-   "worth": 25
+   "worth": 26
   },
   {
    "abbr": "EWU",
@@ -673,7 +697,7 @@
    "team_id": "331",
    "tip": "2026-11-24T03:00Z",
    "why": "Homer pick.",
-   "worth": 75
+   "worth": 74
   },
   {
    "abbr": "CSU",
@@ -686,6 +710,30 @@
    "tip": "2026-11-24T04:30Z",
    "why": "Homer pick.",
    "worth": 92
+  },
+  {
+   "abbr": "UCSD",
+   "game_id": "401921664",
+   "key": "uc-san-diego",
+   "kind": "homer",
+   "short": "UC San Diego",
+   "side": "home",
+   "team_id": "28",
+   "tip": "2026-11-24T04:59Z",
+   "why": "Homer pick.",
+   "worth": 47
+  },
+  {
+   "abbr": "SJSU",
+   "game_id": "401921664",
+   "key": "san-jose-state",
+   "kind": "homer",
+   "short": "San Jos\u00e9 St",
+   "side": "away",
+   "team_id": "23",
+   "tip": "2026-11-24T04:59Z",
+   "why": "Homer pick.",
+   "worth": 53
   }
  ]
 }
