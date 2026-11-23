@@ -1,0 +1,846 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:28-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "bethune-cookman",
+   "short": "Bethune-Cookman",
+   "rank": 1,
+   "score": -3.8,
+   "form": -3.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 1,
+   "record": "1-5",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Creighton Bluejays",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-88"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Richmond Spiders",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "San Francisco Dons",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Daniel Perez-Rouzan",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.4,
+     "rpg": 2.8,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Mari Jordan",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 3.5,
+     "apg": 0.3,
+     "gp": 6
+    },
+    {
+     "name": "Jaylen Jones",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.0,
+     "rpg": 3.3,
+     "apg": 3.2,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "alabama-am",
+   "short": "Alabama A&M",
+   "rank": 2,
+   "score": -5.6,
+   "form": -5.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 5,
+   "record": "4-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Lipscomb Bisons",
+     "site": "home",
+     "conf": false,
+     "result": "W 85-69"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "North Alabama Lions",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "James Graham III",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 24.5,
+     "rpg": 4.0,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Sami Pissis",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.7,
+     "rpg": 2.7,
+     "apg": 4.5,
+     "gp": 6
+    },
+    {
+     "name": "Devin Brown",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 8.5,
+     "rpg": 6.5,
+     "apg": 1.2,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "grambling",
+   "short": "Grambling",
+   "rank": 3,
+   "score": -8.0,
+   "form": -8.4,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Northern Illinois Huskies",
+     "site": "neutral",
+     "score": "89-87",
+     "date": "Nov 2",
+     "bonus": 0.35
+    }
+   ],
+   "prev_rank": 2,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Kentucky Wildcats",
+     "site": "road",
+     "conf": false,
+     "result": "L 59-88"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Southern Miss Golden Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "L 100-103"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Ecclesia Royals",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "LSU New Orleans Privateers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Southern Miss Golden Eagles",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Isaiah Miranda",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 15.8,
+     "rpg": 4.8,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Dwayne Pierce",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 2.2,
+     "apg": 4.2,
+     "gp": 4
+    },
+    {
+     "name": "Isaiah Howard",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 3.0,
+     "apg": 4.0,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "southern-u",
+   "short": "Southern",
+   "rank": 4,
+   "score": -8.4,
+   "form": -8.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 7,
+   "record": "1-5",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Louisiana Christian Wildcats",
+     "site": "home",
+     "conf": false,
+     "result": "W 100-58"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Nebraska Cornhuskers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Vanderbilt Commodores",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Daniel Dormu",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.7,
+     "rpg": 1.5,
+     "apg": 3.8,
+     "gp": 6
+    },
+    {
+     "name": "Malik Ferguson",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.5,
+     "rpg": 1.8,
+     "apg": 0.5,
+     "gp": 6
+    },
+    {
+     "name": "R'Chaun King",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 7.3,
+     "rpg": 3.8,
+     "apg": 0.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "prairie-view",
+   "short": "Prairie View",
+   "rank": 5,
+   "score": -8.9,
+   "form": -8.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 6,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Ohio State Buckeyes",
+     "site": "road",
+     "conf": false,
+     "result": "L 59-86"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Marshall Thundering Herd",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Iowa Hawkeyes",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Michael Eley",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.5,
+     "rpg": 5.3,
+     "apg": 1.2,
+     "gp": 6
+    },
+    {
+     "name": "Davis Bynum",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 12.7,
+     "rpg": 7.5,
+     "apg": 0.7,
+     "gp": 6
+    },
+    {
+     "name": "Anthony Gause",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 1.6,
+     "apg": 2.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "jackson-state",
+   "short": "Jackson State",
+   "rank": 6,
+   "score": -9.5,
+   "form": -10.4,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Tulane Green Wave",
+     "site": "road",
+     "score": "87-85",
+     "date": "Nov 5",
+     "bonus": 0.57
+    },
+    {
+     "opp": "Winthrop Eagles",
+     "site": "road",
+     "score": "76-72",
+     "date": "Nov 14",
+     "bonus": 0.31
+    }
+   ],
+   "prev_rank": 3,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Baylor Bears",
+     "site": "road",
+     "conf": false,
+     "result": "L 55-104"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Oklahoma State Cowboys",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mike Williams",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 16.5,
+     "rpg": 2.3,
+     "apg": 1.8,
+     "gp": 6
+    },
+    {
+     "name": "Dorian McMillian",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.2,
+     "rpg": 3.8,
+     "apg": 0.8,
+     "gp": 6
+    },
+    {
+     "name": "Daeshun Ruffin",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.0,
+     "rpg": 1.7,
+     "apg": 4.3,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "alabama-state",
+   "short": "Alabama State",
+   "rank": 7,
+   "score": -10.4,
+   "form": -10.8,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "UC Davis Aggies",
+     "site": "road",
+     "score": "75-68",
+     "date": "Nov 17",
+     "bonus": 0.35
+    }
+   ],
+   "prev_rank": 9,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "UC Davis Aggies",
+     "site": "road",
+     "conf": false,
+     "result": "W 75-68"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Fresno State Bulldogs",
+     "site": "road",
+     "conf": false,
+     "result": "L 68-80"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "California Golden Bears",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Arkansas Monticello Boll Weevils",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Paul McMillan IV",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 15.6,
+     "rpg": 2.0,
+     "apg": 3.6,
+     "gp": 5
+    },
+    {
+     "name": "Terrance Hampton",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 11.8,
+     "rpg": 5.4,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Tre Powell",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 8.8,
+     "rpg": 2.0,
+     "apg": 0.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "texas-southern",
+   "short": "Texas Southern",
+   "rank": 8,
+   "score": -11.9,
+   "form": -11.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 4,
+   "record": "1-6",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "UC San Diego Tritons",
+     "site": "road",
+     "conf": false,
+     "result": "L 92-97"
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "San Diego State Aztecs",
+     "site": "road",
+     "conf": false,
+     "result": "L 51-97"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "LSU New Orleans Privateers",
+     "site": "home",
+     "conf": false,
+     "result": "L 70-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sun Nov 29",
+     "opp": "Tarleton State Texans",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Karris Bilal",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 20.7,
+     "rpg": 3.4,
+     "apg": 3.0,
+     "gp": 7
+    },
+    {
+     "name": "Cameron Patterson",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 3.0,
+     "apg": 1.0,
+     "gp": 3
+    },
+    {
+     "name": "Jason Kimbrough",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.9,
+     "rpg": 2.0,
+     "apg": 3.6,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "mvsu",
+   "short": "Mississippi Valley State",
+   "rank": 9,
+   "score": -17.1,
+   "form": -17.1,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 10,
+   "record": "0-5",
+   "conf_record": "0-0",
+   "streak": "L5",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Arkansas Razorbacks",
+     "site": "road",
+     "conf": false,
+     "result": "L 48-92"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "New Mexico Lobos",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Matt Anglo",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.2,
+     "rpg": 2.0,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "Tymias Williams",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.2,
+     "rpg": 6.6,
+     "apg": 1.4,
+     "gp": 5
+    },
+    {
+     "name": "AJ Abrams",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.6,
+     "rpg": 3.0,
+     "apg": 0.6,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "alcorn",
+   "short": "Alcorn State",
+   "rank": 10,
+   "score": -18.6,
+   "form": -18.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 8,
+   "record": "0-6",
+   "conf_record": "0-0",
+   "streak": "L6",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Maryland Terrapins",
+     "site": "road",
+     "conf": false,
+     "result": "L 57-117"
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "Missouri Tigers",
+     "site": "road",
+     "conf": false,
+     "result": "L 41-102"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Louisiana Tech Bulldogs",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "Texas State Bobcats",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Georgia Tech Yellow Jackets",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Trey Thomas",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.0,
+     "rpg": 1.6,
+     "apg": 0.6,
+     "gp": 5
+    },
+    {
+     "name": "Calvin Sirmans III",
+     "class": null,
+     "pos": null,
+     "ppg": 9.2,
+     "rpg": 1.8,
+     "apg": 4.5,
+     "gp": 6
+    },
+    {
+     "name": "Saxby Sunderland",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 6.0,
+     "rpg": 2.2,
+     "apg": 1.2,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "florida-am",
+   "short": "Florida A&M",
+   "rank": 11,
+   "score": -19.5,
+   "form": -19.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 12,
+   "record": "0-6",
+   "conf_record": "0-0",
+   "streak": "L6",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "UTEP Miners",
+     "site": "road",
+     "conf": false,
+     "result": "L 46-79"
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "UTSA Roadrunners",
+     "site": "road",
+     "conf": false,
+     "result": "L 78-98"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "South Alabama Jaguars",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jaden Kempson",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.3,
+     "rpg": 3.8,
+     "apg": 1.7,
+     "gp": 6
+    },
+    {
+     "name": "Daisean Williford",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 13.8,
+     "rpg": 3.7,
+     "apg": 0.3,
+     "gp": 6
+    },
+    {
+     "name": "Antonio Baker Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.5,
+     "rpg": 6.0,
+     "apg": 3.0,
+     "gp": 2
+    }
+   ]
+  },
+  {
+   "key": "uapb",
+   "short": "Arkansas-Pine Bluff",
+   "rank": 12,
+   "score": -21.3,
+   "form": -21.3,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 11,
+   "record": "0-6",
+   "conf_record": "0-0",
+   "streak": "L6",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Arkansas State Red Wolves",
+     "site": "road",
+     "conf": false,
+     "result": "L 69-100"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "South Dakota Coyotes",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Missouri Tigers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jalen Tatum",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.0,
+     "rpg": 3.6,
+     "apg": 2.2,
+     "gp": 5
+    },
+    {
+     "name": "Macaleab Rich",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 9.8,
+     "rpg": 4.6,
+     "apg": 0.2,
+     "gp": 5
+    },
+    {
+     "name": "Creed Williamson",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 6.5,
+     "rpg": 4.3,
+     "apg": 1.2,
+     "gp": 6
+    }
+   ]
+  }
+ ]
+}

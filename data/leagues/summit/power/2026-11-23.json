@@ -1,0 +1,671 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:21-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "st-thomas",
+   "short": "St. Thomas",
+   "rank": 1,
+   "score": 7.0,
+   "form": 5.8,
+   "road": 1.1,
+   "road_wins": [
+    {
+     "opp": "Presbyterian Blue Hose",
+     "site": "road",
+     "score": "87-78",
+     "date": "Nov 2",
+     "bonus": 0.21
+    },
+    {
+     "opp": "Long Island University Sharks",
+     "site": "road",
+     "score": "79-70",
+     "date": "Nov 16",
+     "bonus": 0.34
+    },
+    {
+     "opp": "Milwaukee Panthers",
+     "site": "road",
+     "score": "98-70",
+     "date": "Nov 21",
+     "bonus": 0.6
+    }
+   ],
+   "prev_rank": 2,
+   "record": "5-3",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Long Island University Sharks",
+     "site": "road",
+     "conf": false,
+     "result": "W 79-70"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Southeast Missouri State Redhawks",
+     "site": "home",
+     "conf": false,
+     "result": "W 93-61"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Milwaukee Panthers",
+     "site": "road",
+     "conf": false,
+     "result": "W 98-70"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "UNC Wilmington Seahawks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Liberty Flames",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Princeton Tigers",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Hayden Tibbits",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.6,
+     "rpg": 2.6,
+     "apg": 4.2,
+     "gp": 8
+    },
+    {
+     "name": "Jeremy Lorenz",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 14.8,
+     "rpg": 6.8,
+     "apg": 2.1,
+     "gp": 8
+    },
+    {
+     "name": "Tim Franks",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 9.1,
+     "rpg": 3.5,
+     "apg": 1.1,
+     "gp": 8
+    }
+   ]
+  },
+  {
+   "key": "south-dakota-state",
+   "short": "South Dakota State",
+   "rank": 2,
+   "score": 1.3,
+   "form": 0.1,
+   "road": 1.2,
+   "road_wins": [
+    {
+     "opp": "Kansas State Wildcats",
+     "site": "road",
+     "score": "68-66",
+     "date": "Nov 3",
+     "bonus": 1.03
+    },
+    {
+     "opp": "Northern Colorado Bears",
+     "site": "neutral",
+     "score": "71-46",
+     "date": "Nov 14",
+     "bonus": 0.16
+    }
+   ],
+   "prev_rank": 1,
+   "record": "5-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Mayville State Comets",
+     "site": "home",
+     "conf": false,
+     "result": "W 107-67"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Idaho State Bengals",
+     "site": "road",
+     "conf": false,
+     "result": "L 71-86"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Abilene Christian Wildcats",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "South Alabama Jaguars",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Fresno State Bulldogs",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Joe Sayler",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 15.3,
+     "rpg": 2.7,
+     "apg": 3.3,
+     "gp": 6
+    },
+    {
+     "name": "Jon Mekonnen",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 15.3,
+     "rpg": 4.7,
+     "apg": 0.7,
+     "gp": 6
+    },
+    {
+     "name": "Davis Kern",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 11.3,
+     "rpg": 5.7,
+     "apg": 1.0,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "oral-roberts",
+   "short": "Oral Roberts",
+   "rank": 3,
+   "score": -2.3,
+   "form": -2.3,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 3,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "SMU Mustangs",
+     "site": "road",
+     "conf": false,
+     "result": "L 72-76"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Texas A&M-Corpus Christi Islanders",
+     "site": "home",
+     "conf": false,
+     "result": "W 78-74"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "UT Arlington Mavericks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Missouri State Bears",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Luke Gray",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 20.0,
+     "rpg": 5.0,
+     "apg": 0.8,
+     "gp": 6
+    },
+    {
+     "name": "Boden Williams",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 4.5,
+     "apg": 2.8,
+     "gp": 6
+    },
+    {
+     "name": "Cal Furnish",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.2,
+     "rpg": 3.5,
+     "apg": 5.2,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "north-dakota-state",
+   "short": "North Dakota State",
+   "rank": 4,
+   "score": -3.8,
+   "form": -3.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 4,
+   "record": "2-5",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Colorado State Rams",
+     "site": "road",
+     "conf": false,
+     "result": "L 64-71"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Wisconsin Stout Blue Devils",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "North Texas Mean Green",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Drake Bulldogs",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Boise State Broncos",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Max Iversen",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 2.6,
+     "apg": 1.4,
+     "gp": 7
+    },
+    {
+     "name": "Rob Diaz III",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.7,
+     "rpg": 3.7,
+     "apg": 2.9,
+     "gp": 7
+    },
+    {
+     "name": "Riley Massey",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 11.9,
+     "rpg": 3.7,
+     "apg": 2.0,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "north-dakota",
+   "short": "North Dakota",
+   "rank": 5,
+   "score": -8.1,
+   "form": -8.3,
+   "road": 0.2,
+   "road_wins": [
+    {
+     "opp": "Winthrop Eagles",
+     "site": "road",
+     "score": "93-90",
+     "date": "Nov 7",
+     "bonus": 0.25
+    }
+   ],
+   "prev_rank": 6,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "SIU Edwardsville Cougars",
+     "site": "home",
+     "conf": false,
+     "result": "W 83-78"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Mayville State Comets",
+     "site": "home",
+     "conf": false,
+     "result": "W 91-66"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Detroit Mercy Titans",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Green Bay Phoenix",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Samuel Hincapie",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.5,
+     "rpg": 5.3,
+     "apg": 0.8,
+     "gp": 6
+    },
+    {
+     "name": "Luke Winkel",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 1.2,
+     "apg": 3.5,
+     "gp": 6
+    },
+    {
+     "name": "Zack Parks",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 8.5,
+     "rpg": 4.2,
+     "apg": 0.7,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "south-dakota",
+   "short": "South Dakota",
+   "rank": 6,
+   "score": -8.2,
+   "form": -8.5,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "Utah Tech Trailblazers",
+     "site": "neutral",
+     "score": "74-73",
+     "date": "Nov 22",
+     "bonus": 0.31
+    }
+   ],
+   "prev_rank": 8,
+   "record": "3-5",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Nebraska Cornhuskers",
+     "site": "road",
+     "conf": false,
+     "result": "L 47-73"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Utah Tech Trailblazers",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 74-73"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Arkansas-Pine Bluff Golden Lions",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Clarke Pride",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Vince Buzelis",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 14.9,
+     "rpg": 6.1,
+     "apg": 1.8,
+     "gp": 8
+    },
+    {
+     "name": "Kajus Kublickas",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.6,
+     "rpg": 2.6,
+     "apg": 3.0,
+     "gp": 8
+    },
+    {
+     "name": "Josiah Dotzler",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 12.1,
+     "rpg": 3.1,
+     "apg": 3.9,
+     "gp": 8
+    }
+   ]
+  },
+  {
+   "key": "kansas-city",
+   "short": "Kansas City",
+   "rank": 7,
+   "score": -9.6,
+   "form": -9.8,
+   "road": 0.1,
+   "road_wins": [
+    {
+     "opp": "Florida A&M Rattlers",
+     "site": "neutral",
+     "score": "87-65",
+     "date": "Nov 11",
+     "bonus": 0.14
+    }
+   ],
+   "prev_rank": 5,
+   "record": "3-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Newman Jets",
+     "site": "home",
+     "conf": false,
+     "result": "W 68-64"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Iona Gaels",
+     "site": "road",
+     "conf": false,
+     "result": "L 61-62"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Green Bay Phoenix",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Southeast Missouri State Redhawks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jaylen Smith",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.3,
+     "rpg": 1.9,
+     "apg": 4.3,
+     "gp": 7
+    },
+    {
+     "name": "Assane Diop",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.1,
+     "rpg": 8.3,
+     "apg": 2.1,
+     "gp": 7
+    },
+    {
+     "name": "Lincoln Goodwin",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 10.5,
+     "rpg": 3.2,
+     "apg": 3.0,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "omaha",
+   "short": "Omaha",
+   "rank": 8,
+   "score": -12.4,
+   "form": -12.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 7,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Lamar Cardinals",
+     "site": "home",
+     "conf": false,
+     "result": "L 74-104"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "UC Davis Aggies",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 26",
+     "opp": "Pacific Tigers",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Jacksonville State Gamecocks",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Deke Thompson",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.7,
+     "rpg": 4.8,
+     "apg": 1.5,
+     "gp": 6
+    },
+    {
+     "name": "Cahmai Crosby",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.0,
+     "rpg": 3.6,
+     "apg": 3.0,
+     "gp": 5
+    },
+    {
+     "name": "Justin Bolis",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.0,
+     "rpg": 5.2,
+     "apg": 0.5,
+     "gp": 6
+    }
+   ]
+  }
+ ]
+}

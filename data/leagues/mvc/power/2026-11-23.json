@@ -1,0 +1,872 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:08-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "murray-state",
+   "short": "Murray State",
+   "rank": 1,
+   "score": 11.0,
+   "form": 9.1,
+   "road": 1.8,
+   "road_wins": [
+    {
+     "opp": "Tennessee State Tigers",
+     "site": "neutral",
+     "score": "94-64",
+     "date": "Nov 2",
+     "bonus": 0.32
+    },
+    {
+     "opp": "Hofstra Pride",
+     "site": "neutral",
+     "score": "82-66",
+     "date": "Nov 17",
+     "bonus": 0.51
+    },
+    {
+     "opp": "Wisconsin Badgers",
+     "site": "neutral",
+     "score": "70-53",
+     "date": "Nov 20",
+     "bonus": 1.01
+    }
+   ],
+   "prev_rank": 1,
+   "record": "6-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Hofstra Pride",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 82-66"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "NC State Wolfpack",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 83-93"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Wisconsin Badgers",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 70-53"
+    }
+   ],
+   "next_week": [],
+   "top_scorers": [
+    {
+     "name": "Roman Domon",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 23.0,
+     "rpg": 5.9,
+     "apg": 4.0,
+     "gp": 7
+    },
+    {
+     "name": "Brayden Shorter",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.1,
+     "rpg": 1.9,
+     "apg": 0.3,
+     "gp": 7
+    },
+    {
+     "name": "Talis Soulhac",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 8.1,
+     "rpg": 3.3,
+     "apg": 2.7,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "illinois-state",
+   "short": "Illinois State",
+   "rank": 2,
+   "score": 6.2,
+   "form": 6.2,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 4,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Bellarmine Knights",
+     "site": "home",
+     "conf": false,
+     "result": "W 76-59"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Eureka Red Devils",
+     "site": "home",
+     "conf": false,
+     "result": "W 123-48"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Santa Clara Broncos",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Tue Nov 24",
+     "opp": "Tulsa Golden Hurricane",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Malik Messina-Moore",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.5,
+     "rpg": 4.7,
+     "apg": 4.2,
+     "gp": 6
+    },
+    {
+     "name": "Johnny Kinziger",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 1.7,
+     "apg": 3.7,
+     "gp": 6
+    },
+    {
+     "name": "Chase Walker",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 10.7,
+     "rpg": 4.2,
+     "apg": 2.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "valparaiso",
+   "short": "Valparaiso",
+   "rank": 3,
+   "score": 6.0,
+   "form": 3.9,
+   "road": 2.1,
+   "road_wins": [
+    {
+     "opp": "Purdue Boilermakers",
+     "site": "road",
+     "score": "83-80",
+     "date": "Nov 6",
+     "bonus": 1.62
+    },
+    {
+     "opp": "Troy Trojans",
+     "site": "neutral",
+     "score": "77-72",
+     "date": "Nov 21",
+     "bonus": 0.47
+    }
+   ],
+   "prev_rank": 2,
+   "record": "4-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Calumet St. Joseph Crimson Wave",
+     "site": "home",
+     "conf": false,
+     "result": "W 106-35"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Troy Trojans",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 77-72"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Southern Miss Golden Eagles",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 89-99"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Toledo Rockets",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "JT Pettigrew",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 18.3,
+     "rpg": 6.7,
+     "apg": 1.0,
+     "gp": 6
+    },
+    {
+     "name": "Rakim Chaney",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 17.8,
+     "rpg": 4.8,
+     "apg": 2.8,
+     "gp": 6
+    },
+    {
+     "name": "Rajan Roberts",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 9.7,
+     "rpg": 0.8,
+     "apg": 0.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "belmont",
+   "short": "Belmont",
+   "rank": 4,
+   "score": 2.6,
+   "form": 2.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 3,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Union Commonwealth (KY) Bulldogs",
+     "site": "home",
+     "conf": false,
+     "result": "W 86-44"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Yale Bulldogs",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Tue Nov 24",
+     "opp": "Akron Zips",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "St. Bonaventure Bonnies",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jack Smiley",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 19.2,
+     "rpg": 3.6,
+     "apg": 3.0,
+     "gp": 5
+    },
+    {
+     "name": "Vincent Neugebauer",
+     "class": "Junior",
+     "pos": "C",
+     "ppg": 10.4,
+     "rpg": 5.2,
+     "apg": 1.4,
+     "gp": 5
+    },
+    {
+     "name": "Jabez Jenkins",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 8.6,
+     "rpg": 4.6,
+     "apg": 0.8,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "southern-illinois",
+   "short": "Southern Illinois",
+   "rank": 5,
+   "score": 1.9,
+   "form": 1.5,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "East Carolina Pirates",
+     "site": "neutral",
+     "score": "85-69",
+     "date": "Nov 21",
+     "bonus": 0.39
+    }
+   ],
+   "prev_rank": 6,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Liberty Flames",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 78-87"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "UT Martin Skyhawks",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 73-76"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "East Carolina Pirates",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 85-69"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Middle Tennessee Blue Raiders",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Portland State Vikings",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jalen Haynes",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 25.2,
+     "rpg": 2.7,
+     "apg": 4.5,
+     "gp": 6
+    },
+    {
+     "name": "Damien Mayo Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.0,
+     "rpg": 2.6,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Jeremiah Jackson",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 13.2,
+     "rpg": 3.7,
+     "apg": 2.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "uic",
+   "short": "UIC",
+   "rank": 6,
+   "score": 0.1,
+   "form": 0.1,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 5,
+   "record": "4-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Chicago State Cougars",
+     "site": "home",
+     "conf": false,
+     "result": "W 60-52"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Miami (OH) RedHawks",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 60-71"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Rice Owls",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Canisius Golden Griffins",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Rashund Washington Jr.",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.3,
+     "rpg": 5.5,
+     "apg": 1.8,
+     "gp": 6
+    },
+    {
+     "name": "Gabe Cupps",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.3,
+     "rpg": 3.2,
+     "apg": 3.3,
+     "gp": 6
+    },
+    {
+     "name": "Benny Gealer",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 1.3,
+     "apg": 3.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "northern-iowa",
+   "short": "Northern Iowa",
+   "rank": 7,
+   "score": -1.4,
+   "form": -1.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 7,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Lindenwood Lions",
+     "site": "home",
+     "conf": false,
+     "result": "W 81-74"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Davidson Wildcats",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "Charlotte 49ers",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Robert Morris Colonials",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Greyson Uelmen",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 18.0,
+     "rpg": 4.8,
+     "apg": 4.3,
+     "gp": 6
+    },
+    {
+     "name": "Carson Vis",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 14.8,
+     "rpg": 3.0,
+     "apg": 2.2,
+     "gp": 6
+    },
+    {
+     "name": "Isaiah Johnson-Arigu",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 3.5,
+     "apg": 1.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "bradley",
+   "short": "Bradley",
+   "rank": 8,
+   "score": -1.7,
+   "form": -2.7,
+   "road": 1.0,
+   "road_wins": [
+    {
+     "opp": "Coppin State Eagles",
+     "site": "neutral",
+     "score": "56-54",
+     "date": "Nov 12",
+     "bonus": 0.15
+    },
+    {
+     "opp": "George Mason Patriots",
+     "site": "neutral",
+     "score": "62-61",
+     "date": "Nov 14",
+     "bonus": 0.81
+    }
+   ],
+   "prev_rank": 8,
+   "record": "3-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Purdue Fort Wayne Mastodons",
+     "site": "home",
+     "conf": false,
+     "result": "L 73-78"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Pacific Tigers",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-63"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Chicago State Cougars",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Trevon Payton",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.4,
+     "rpg": 2.3,
+     "apg": 2.3,
+     "gp": 7
+    },
+    {
+     "name": "Josh Ibukunoluwa",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 10.0,
+     "rpg": 8.0,
+     "apg": 1.3,
+     "gp": 3
+    },
+    {
+     "name": "Ben Thornbrue",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 9.0,
+     "rpg": 3.4,
+     "apg": 1.0,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "drake",
+   "short": "Drake",
+   "rank": 9,
+   "score": -1.7,
+   "form": -1.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 9,
+   "record": "4-2",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Tarleton State Texans",
+     "site": "home",
+     "conf": false,
+     "result": "L 79-83"
+    },
+    {
+     "date": "Thu Nov 19",
+     "opp": "Charleston Cougars",
+     "site": "home",
+     "conf": false,
+     "result": "W 86-70"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Missouri State Bears",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-67"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Fri Nov 27",
+     "opp": "Boise State Broncos",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "North Dakota State Bison",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "North Texas Mean Green",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jon Carroll",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 19.8,
+     "rpg": 8.0,
+     "apg": 1.2,
+     "gp": 6
+    },
+    {
+     "name": "Dre Kindell",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.0,
+     "rpg": 2.7,
+     "apg": 3.8,
+     "gp": 6
+    },
+    {
+     "name": "Owen Larson",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 2.0,
+     "apg": 3.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "indiana-state",
+   "short": "Indiana State",
+   "rank": 10,
+   "score": -5.1,
+   "form": -5.3,
+   "road": 0.2,
+   "road_wins": [
+    {
+     "opp": "Ball State Cardinals",
+     "site": "road",
+     "score": "69-66",
+     "date": "Nov 6",
+     "bonus": 0.24
+    }
+   ],
+   "prev_rank": 10,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Stephen F. Austin Lumberjacks",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 76-86"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Middle Tennessee Blue Raiders",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 59-69"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "East Carolina Pirates",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "IU Columbus Crimson Pride",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Karmani Gregory",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 17.0,
+     "rpg": 2.2,
+     "apg": 6.8,
+     "gp": 5
+    },
+    {
+     "name": "Jackson Cooper",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.7,
+     "rpg": 4.0,
+     "apg": 2.3,
+     "gp": 6
+    },
+    {
+     "name": "Maguire Mitchell",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 1.7,
+     "apg": 1.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "evansville",
+   "short": "Evansville",
+   "rank": 11,
+   "score": -7.5,
+   "form": -7.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 11,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Le Moyne Dolphins",
+     "site": "home",
+     "conf": false,
+     "result": "W 79-65"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Memphis Tigers",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-82"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Missouri Tigers",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Bryce Quinet",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 18.3,
+     "rpg": 2.8,
+     "apg": 8.0,
+     "gp": 6
+    },
+    {
+     "name": "AJ Casey",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 17.0,
+     "rpg": 7.2,
+     "apg": 4.2,
+     "gp": 4
+    },
+    {
+     "name": "Caden Symons",
+     "class": "Freshman",
+     "pos": "G",
+     "ppg": 10.5,
+     "rpg": 4.0,
+     "apg": 1.5,
+     "gp": 6
+    }
+   ]
+  }
+ ]
+}
