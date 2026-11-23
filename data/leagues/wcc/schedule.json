@@ -2598,21 +2598,21 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 82,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2381",
     "key": null,
     "name": "Menlo Oaks",
     "abbr": "MNLO",
-    "score": 69,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917542",
@@ -2643,7 +2643,7 @@
     "key": null,
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": "seattle",
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:11 - 1st"
   },
   {
    "game_id": "401911457",
@@ -9647,5 +9647,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-23T02:30:21+00:00"
+ "live_at": "2026-11-23T02:51:29+00:00"
 }
