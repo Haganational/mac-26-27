@@ -2871,7 +2871,7 @@
     "key": null,
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2879,13 +2879,13 @@
     "key": "san-francisco",
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:57 - 1st"
   },
   {
    "game_id": "401911458",
@@ -9691,5 +9691,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T19:10:41+00:00"
 }

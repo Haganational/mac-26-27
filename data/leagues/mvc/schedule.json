@@ -2981,7 +2981,7 @@
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 37,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -2989,13 +2989,13 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 26,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:59 - 2nd"
   },
   {
    "game_id": "401928859",
@@ -3022,7 +3022,7 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 2,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -3030,13 +3030,13 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": 4,
+    "score": 19,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:53 - 1st"
+   "detail": "6:31 - 1st"
   },
   {
    "game_id": "401921666",
@@ -9732,5 +9732,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T18:37:40+00:00"
+ "live_at": "2026-11-24T19:07:29+00:00"
 }
