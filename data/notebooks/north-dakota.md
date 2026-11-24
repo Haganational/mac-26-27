@@ -68,7 +68,7 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 - 2026-11-20: Social recap posted (W 91-66 vs Mayville State Comets): https://hardwoodbricks.com/summit/games/401929409.html <!-- post:401929409:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:preview -->
 - 2026-11-24: W 77-67 vs (neutral) Detroit Mercy Titans. Barometer 63 (steady). <!-- g:401920546 -->
+- 2026-11-24: Social recap posted (W 77-67 vs Detroit Mercy Titans): https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:recap -->

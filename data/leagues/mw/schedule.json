@@ -2352,7 +2352,7 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:08 - 1st"
   },
   {
    "game_id": "401911458",
@@ -9103,5 +9103,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T22:36:07+00:00"
 }

@@ -3244,7 +3244,7 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -3252,13 +3252,13 @@
     "key": null,
     "name": "Emerson Lions",
     "abbr": "EMRS",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:25 - 1st"
   },
   {
    "game_id": "401924877",
@@ -11369,5 +11369,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T22:37:04+00:00"
 }

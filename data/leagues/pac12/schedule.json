@@ -2125,7 +2125,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2133,13 +2133,13 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_DELAYED",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Delayed"
   },
   {
    "game_id": "401922023",
@@ -8277,5 +8277,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T21:08:32+00:00"
+ "live_at": "2026-11-24T22:42:11+00:00"
 }
