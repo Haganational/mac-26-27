@@ -68,7 +68,7 @@ Jace Thorson grew up in Brookings, worked the campus dairy bar through college a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Jace Thorson grew up in Brookings, worked the campus dairy bar through college a
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:preview -->
 - 2026-11-20: L 71-86 at Idaho State Bengals. Barometer 64 (steady). <!-- g:401922022 -->
 - 2026-11-20: Social recap posted (L 71-86 vs Idaho State Bengals): https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401917967.html <!-- post:401917967:preview -->

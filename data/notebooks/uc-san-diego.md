@@ -68,7 +68,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 - 2026-11-23: Social recap posted (W 90-64 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:preview -->
 - 2026-11-24: L 79-88 vs (neutral) San José State Spartans. Barometer 42 (testy). <!-- g:401921664 -->
+- 2026-11-24: Social recap posted (L 79-88 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:recap -->

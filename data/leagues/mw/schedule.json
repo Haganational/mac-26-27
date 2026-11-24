@@ -2320,7 +2320,7 @@
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
     "score": 79,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "23",
@@ -2328,12 +2328,12 @@
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
     "score": 88,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921707",
@@ -9034,5 +9034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T07:04:00+00:00"
+ "live_at": "2026-11-24T07:33:31+00:00"
 }
