@@ -2717,7 +2717,7 @@
     "key": "santa-clara",
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 45,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2725,13 +2725,13 @@
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": 39,
+    "score": 58,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:21 - 1st"
+   "detail": "15:58 - 2nd"
   },
   {
    "game_id": "401909788",
@@ -2762,7 +2762,7 @@
     "key": null,
     "name": "Kansas Jayhawks",
     "abbr": "KU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2770,13 +2770,13 @@
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:00 - 1st"
   },
   {
    "game_id": "401926183",
@@ -9672,5 +9672,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:55:04+00:00"
+ "live_at": "2026-11-24T01:22:28+00:00"
 }

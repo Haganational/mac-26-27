@@ -27,9 +27,9 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 
 ## Barometer
 
-**34 of 100, testy.** Record 2-6 (0-0 in conference), streak L1, last five LLLWL.
+**32 of 100, testy.** Record 2-7 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:preview -->
 - 2026-11-22: L 61-81 vs (neutral) IU Indianapolis Jaguars. Barometer 34 (testy). <!-- g:401921176 -->
 - 2026-11-22: Social recap posted (L 61-81 vs IU Indianapolis Jaguars): https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:recap -->
+- 2026-11-23: L 65-69 at Youngstown State Penguins. Barometer 32 (testy). <!-- g:401920752 -->

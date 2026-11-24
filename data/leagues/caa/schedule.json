@@ -3046,7 +3046,7 @@
     "key": null,
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
-    "score": 32,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -3054,13 +3054,13 @@
     "key": "nc-at",
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": 32,
+    "score": 38,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "18:20 - 2nd"
   },
   {
    "game_id": "401913102",
@@ -3091,7 +3091,7 @@
     "key": null,
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -3099,13 +3099,13 @@
     "key": "monmouth",
     "name": "Monmouth Hawks",
     "abbr": "MONM",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:19 - 1st"
   },
   {
    "game_id": "401921142",
@@ -12006,5 +12006,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:59:29+00:00"
+ "live_at": "2026-11-24T01:25:23+00:00"
 }
