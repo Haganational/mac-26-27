@@ -27,9 +27,9 @@ Wren Halvorsen grew up fishing the Clark Fork with her father and spent fifteen 
 
 ## Barometer
 
-**44 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**54 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wren editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wren editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Wren Halvorsen grew up fishing the Clark Fork with her father and spent fifteen 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Wren Halvorsen grew up fishing the Clark Fork with her father and spent fifteen 
 - 2026-11-17: L 45-86 at Kansas State Wildcats. Barometer 44 (testy). <!-- g:401909798 -->
 - 2026-11-17: Social recap posted (L 45-86 vs Kansas State Wildcats): https://hardwoodbricks.com/bigsky/games/401909798.html <!-- post:401909798:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922032.html <!-- post:401922032:preview -->
+- 2026-11-24: W 82-54 vs Carroll (MT) Fighting Saints. Barometer 54 (steady). <!-- g:401922032 -->
+- 2026-11-24: Social recap posted (W 82-54 vs Carroll (MT) Fighting Saints): https://hardwoodbricks.com/bigsky/games/401922032.html <!-- post:401922032:recap -->
