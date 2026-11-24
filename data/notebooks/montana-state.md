@@ -73,7 +73,7 @@ Brody Kessler moved to Bozeman for one ski season eight years ago and never left
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Brody Kessler moved to Bozeman for one ski season eight years ago and never left
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:preview -->
 - 2026-11-20: L 74-85 at High Point Panthers. Barometer 40 (testy). <!-- g:401920413 -->
 - 2026-11-20: Social recap posted (L 74-85 vs High Point Panthers): https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925880.html <!-- post:401925880:preview -->

@@ -13,7 +13,7 @@
    "school": "Evansville",
    "tag": "AI anchor"
   },
-  "max": 253,
+  "max": 234,
   "picks": [
    {
     "abbr": "EVAN",
@@ -34,8 +34,19 @@
     "side": "home",
     "team_id": "139",
     "tip": "2026-11-25T02:30Z",
-    "why": "Our ratings 73%, pregame win chance 47%.",
-    "worth": 53
+    "why": "Our ratings 73%, pregame win chance 46%.",
+    "worth": 54
+   },
+   {
+    "abbr": "MRST",
+    "game_id": "401923271",
+    "kind": "ratings",
+    "short": "Marist",
+    "side": "home",
+    "team_id": "2368",
+    "tip": "2026-11-25T00:00Z",
+    "why": "Our ratings 80%, pregame win chance 56%.",
+    "worth": 44
    },
    {
     "abbr": "LAM",
@@ -47,17 +58,6 @@
     "tip": "2026-11-24T23:30Z",
     "why": "Our ratings 84%, pregame win chance 62%.",
     "worth": 38
-   },
-   {
-    "abbr": "SHSU",
-    "game_id": "401928796",
-    "kind": "ratings",
-    "short": "Sam Houston",
-    "side": "away",
-    "team_id": "2534",
-    "tip": "2026-11-25T02:00Z",
-    "why": "Our ratings 57%, pregame win chance 36%.",
-    "worth": 64
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -73,7 +73,7 @@
    "team_id": "179",
    "tip": "2026-11-24T15:00Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 50
   },
   {
    "abbr": "WRST",
@@ -85,7 +85,7 @@
    "team_id": "2750",
    "tip": "2026-11-24T15:00Z",
    "why": "Homer pick.",
-   "worth": 51
+   "worth": 50
   },
   {
    "abbr": "NMSU",
@@ -121,7 +121,7 @@
    "team_id": "2458",
    "tip": "2026-11-24T17:30Z",
    "why": "Homer pick.",
-   "worth": 39
+   "worth": 38
   },
   {
    "abbr": "SELA",
@@ -181,7 +181,7 @@
    "team_id": "253",
    "tip": "2026-11-24T18:00Z",
    "why": "Homer pick.",
-   "worth": 76
+   "worth": 77
   },
   {
    "abbr": "UIC",
@@ -241,7 +241,7 @@
    "team_id": "2174",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 64
+   "worth": 63
   },
   {
    "abbr": "UND",
@@ -337,7 +337,7 @@
    "team_id": "2287",
    "tip": "2026-11-24T21:30Z",
    "why": "Homer pick.",
-   "worth": 52
+   "worth": 51
   },
   {
    "abbr": "TLSA",
@@ -349,7 +349,7 @@
    "team_id": "202",
    "tip": "2026-11-24T21:30Z",
    "why": "Homer pick.",
-   "worth": 48
+   "worth": 49
   },
   {
    "abbr": "SDSU",
@@ -625,7 +625,7 @@
    "team_id": "2541",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 51
+   "worth": 50
   },
   {
    "abbr": "NEV",
@@ -637,7 +637,7 @@
    "team_id": "2440",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 50
   },
   {
    "abbr": "JAX",
@@ -721,7 +721,7 @@
    "team_id": "2561",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 41
+   "worth": 39
   },
   {
    "abbr": "UVM",
@@ -733,7 +733,7 @@
    "team_id": "261",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 61
   },
   {
    "abbr": "UMBC",
@@ -901,7 +901,7 @@
    "team_id": "2368",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 37
+   "worth": 44
   },
   {
    "abbr": "BRY",
@@ -913,7 +913,7 @@
    "team_id": "2803",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 56
   },
   {
    "abbr": "WEB",
@@ -949,7 +949,7 @@
    "team_id": "295",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 24
+   "worth": 25
   },
   {
    "abbr": "HAMP",
@@ -961,7 +961,7 @@
    "team_id": "2261",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 76
+   "worth": 75
   },
   {
    "abbr": "TNTC",
@@ -1033,7 +1033,7 @@
    "team_id": "2272",
    "tip": "2026-11-25T00:30Z",
    "why": "Homer pick.",
-   "worth": 19
+   "worth": 20
   },
   {
    "abbr": "LT",
@@ -1141,7 +1141,7 @@
    "team_id": "140",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 48
+   "worth": 49
   },
   {
    "abbr": "GB",
@@ -1153,7 +1153,7 @@
    "team_id": "2739",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 52
+   "worth": 51
   },
   {
    "abbr": "PENN",
@@ -1405,7 +1405,7 @@
    "team_id": "139",
    "tip": "2026-11-25T02:30Z",
    "why": "Homer pick.",
-   "worth": 53
+   "worth": 54
   },
   {
    "abbr": "GCU",
@@ -1417,7 +1417,7 @@
    "team_id": "2253",
    "tip": "2026-11-25T02:30Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 46
   },
   {
    "abbr": "CSU",
