@@ -27,9 +27,9 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 
 ## Barometer
 
-**35 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five WWLLL.
+**27 of 100, despondent.** Record 2-5 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marisa editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marisa editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Marisa Delgado grew up in Corpus Christi, spent ten years as a marine scientist 
 - 2026-11-22: L 74-78 at Oral Roberts Golden Eagles. Barometer 35 (testy). <!-- g:401925099 -->
 - 2026-11-22: Social recap posted (L 74-78 vs Oral Roberts Golden Eagles): https://hardwoodbricks.com/southland/games/401925099.html <!-- post:401925099:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:preview -->
+- 2026-11-24: L 73-91 at Wichita State Shockers. Barometer 27 (despondent). <!-- g:401919032 -->
+- 2026-11-24: Social recap posted (L 73-91 vs Wichita State Shockers): https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:recap -->

@@ -2762,7 +2762,7 @@
     "key": null,
     "name": "Kansas Jayhawks",
     "abbr": "KU",
-    "score": 55,
+    "score": 77,
     "winner": null
    },
    "away": {
@@ -2770,13 +2770,13 @@
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": 36,
+    "score": 61,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:51 - 2nd"
+   "detail": "3:34 - 2nd"
   },
   {
    "game_id": "401926183",
@@ -2807,7 +2807,7 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2815,13 +2815,13 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:21 - 1st"
   },
   {
    "game_id": "401921663",
@@ -9672,5 +9672,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:15:45+00:00"
+ "live_at": "2026-11-24T02:45:55+00:00"
 }

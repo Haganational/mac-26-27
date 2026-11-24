@@ -3252,21 +3252,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 75,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "290",
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 75,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:59 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401927398",
@@ -10571,5 +10571,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:08:05+00:00"
+ "live_at": "2026-11-24T02:38:28+00:00"
 }

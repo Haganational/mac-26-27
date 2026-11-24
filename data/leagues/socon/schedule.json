@@ -2922,7 +2922,7 @@
     "key": null,
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2930,13 +2930,13 @@
     "key": "unc-greensboro",
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:35 - 1st"
   },
   {
    "game_id": "401923262",
@@ -9896,5 +9896,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:22:23+00:00"
+ "live_at": "2026-11-24T02:52:16+00:00"
 }

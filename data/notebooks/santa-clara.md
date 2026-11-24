@@ -67,7 +67,7 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401917543.html <!-- post:401917543:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911458.html <!-- post:401911458:preview -->
 - 2026-11-24: L 99-102 vs (neutral) Illinois State Redbirds. Barometer 54 (steady). <!-- g:401917543 -->
+- 2026-11-24: Social recap posted (L 99-102 vs Illinois State Redbirds): https://hardwoodbricks.com/mvc/games/401917543.html <!-- post:401917543:recap -->

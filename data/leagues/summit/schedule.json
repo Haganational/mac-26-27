@@ -2368,21 +2368,21 @@
     "key": "north-dakota-state",
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": 58,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "2744",
     "key": null,
     "name": "Wisconsin Stout Blue Devils",
     "abbr": "UWST",
-    "score": 35,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920546",
@@ -7944,5 +7944,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:25:32+00:00"
+ "live_at": "2026-11-24T02:55:22+00:00"
 }
