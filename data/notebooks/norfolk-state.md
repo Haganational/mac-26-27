@@ -69,7 +69,7 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:preview -->
 - 2026-11-21: L 80-89 vs UNC Wilmington Seahawks. Barometer 21 (despondent). <!-- g:401925897 -->
 - 2026-11-22: Social recap posted (L 80-89 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/meac/games/401918960.html <!-- post:401918960:preview -->
