@@ -27,7 +27,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 
 ## Barometer
 
-**82 of 100, giddy.** Record 5-1 (0-0 in conference), streak W5, last five WWWWW.
+**82 of 100, giddy.** Record 6-1 (0-0 in conference), streak W6, last five WWWWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 80% of stories right now.
 
@@ -67,7 +67,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -85,3 +85,5 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 - 2026-11-23: W 71-65 vs (neutral) App State Mountaineers. Barometer 82 (giddy). <!-- g:401927397 -->
 - 2026-11-23: Social recap posted (W 71-65 vs App State Mountaineers): https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401927399.html <!-- post:401927399:preview -->
+- 2026-11-24: W 72-70 vs (neutral) Wright State Raiders. Barometer 82 (giddy). <!-- g:401927398 -->
+- 2026-11-24: Social recap posted (W 72-70 vs Wright State Raiders): https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:recap -->

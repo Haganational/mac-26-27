@@ -2859,7 +2859,7 @@
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2867,13 +2867,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:43 - 1st"
   },
   {
    "game_id": "401925014",
@@ -10155,5 +10155,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T17:47:46+00:00"
 }
