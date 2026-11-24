@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:20:38+00:00",
+ "fetched_at": "2026-11-24T18:24:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2728,7 +2728,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-24-2026--sports-ncaa-basketball/production/7465781?wsUser=717",
-    "low": 14.0,
+    "low": 10.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Prudential Center",
@@ -2818,7 +2818,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-11-24-2026--sports-ncaa-basketball/production/7518057?wsUser=717",
-    "low": 24.0,
+    "low": 25.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "MVP Arena",
@@ -2985,7 +2985,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3570,7 +3576,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-12-1-2026--sports-ncaa-basketball/production/7593885?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-24T18:24:27Z"
+   },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
    "venue_state": "ME",
@@ -3748,7 +3758,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-capital-one-arena-12-2-2026--sports-ncaa-basketball/production/7217276?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Capital One Arena",
@@ -3874,7 +3884,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/le-moyne-dolphins-mens-basketball-tickets-ted-grant-court-12-3-2026--sports-basketball/production/7890333?wsUser=717",
     "low": 32.0,
@@ -3999,7 +4015,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-5-2026--sports-ncaa-basketball/production/7905543?wsUser=717",
     "low": 50.0,
@@ -4398,7 +4420,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-8-2026--sports-ncaa-basketball/production/7905545?wsUser=717",
     "low": 50.0,
@@ -4616,7 +4644,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-12-9-2026--sports-ncaa-basketball/production/7269717?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Fiserv Forum",

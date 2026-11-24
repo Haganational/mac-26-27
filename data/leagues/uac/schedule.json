@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:18:47+00:00",
+ "fetched_at": "2026-11-24T18:21:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -2558,7 +2558,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Millett Hall",
@@ -2784,7 +2784,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-28-2026--sports-ncaa-basketball/production/7662707?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Baptist Health Arena",
@@ -3218,7 +3218,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-12-2-2026--sports-ncaa-basketball/production/7590166?wsUser=717",
-    "low": 31.0,
+    "low": 28.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Fertitta Center",
@@ -3299,7 +3299,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-12-2-2026--sports-ncaa-basketball/production/7699978?wsUser=717",
     "low": 28.0,
@@ -6411,7 +6417,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-1-9-2027--sports-ncaa-basketball/production/7710601?wsUser=717",
-    "low": 20.0,
+    "low": 24.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -8879,7 +8885,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-3-6-2027--sports-ncaa-basketball/production/7710629?wsUser=717",
-    "low": 31.0,
+    "low": 18.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",

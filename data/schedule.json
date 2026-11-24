@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:01:27+00:00",
+ "fetched_at": "2026-11-24T18:01:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -2672,7 +2672,7 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": 41,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2680,13 +2680,13 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": 44,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:30 - 2nd"
+   "detail": "0:39 - 2nd"
   },
   {
    "game_id": "401928835",
@@ -2724,10 +2724,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:30 - 1st"
   },
   {
    "game_id": "401921707",
@@ -2874,7 +2874,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 9.0,
+    "low": 7.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Purcell Pavilion",
@@ -2910,7 +2910,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
@@ -2954,7 +2960,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Millett Hall",
@@ -3721,51 +3727,6 @@
    "detail": ""
   },
   {
-   "game_id": "401911039",
-   "date": "2026-12-05T19:00Z",
-   "name": "Kent State Golden Flashes at Toledo Rockets",
-   "short_name": "KENT @ TOL",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": true,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-12-5-2026--sports-ncaa-basketball/production/7429721?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
-   "venue": "Savage Arena",
-   "venue_city": "Toledo",
-   "venue_state": "OH",
-   "home": {
-    "espn_id": "2649",
-    "key": "toledo",
-    "name": "Toledo Rockets",
-    "abbr": "TOL",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2309",
-    "key": "kent-state",
-    "name": "Kent State Golden Flashes",
-    "abbr": "KENT",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401911043",
    "date": "2026-12-05T20:00Z",
    "name": "Ohio Bobcats at Central Michigan Chippewas",
@@ -3811,6 +3772,51 @@
    "detail": ""
   },
   {
+   "game_id": "401911039",
+   "date": "2026-12-05T23:00Z",
+   "name": "Kent State Golden Flashes at Toledo Rockets",
+   "short_name": "KENT @ TOL",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": true,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-12-5-2026--sports-ncaa-basketball/production/7429721?wsUser=717",
+    "low": 14.0,
+    "since": "2026-11-18T23:00:48Z"
+   },
+   "venue": "Savage Arena",
+   "venue_city": "Toledo",
+   "venue_state": "OH",
+   "home": {
+    "espn_id": "2649",
+    "key": "toledo",
+    "name": "Toledo Rockets",
+    "abbr": "TOL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401909732",
    "date": "2026-12-06T18:00Z",
    "name": "Wake Forest Demon Deacons at Massachusetts Minutemen",
@@ -3821,7 +3827,7 @@
    "time_tba": false,
    "broadcasts": [
     {
-     "name": "ESPNU",
+     "name": "ESPN2",
      "kind": "TV",
      "market": "National"
     }
@@ -9656,6 +9662,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T17:32:42+00:00"
+ ]
 }

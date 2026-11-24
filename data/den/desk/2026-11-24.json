@@ -13,7 +13,7 @@
    "school": "Evansville",
    "tag": "AI anchor"
   },
-  "max": 238,
+  "max": 268,
   "picks": [
    {
     "abbr": "EVAN",
@@ -27,6 +27,17 @@
     "worth": 98
    },
    {
+    "abbr": "RICE",
+    "game_id": "401928859",
+    "kind": "ratings",
+    "short": "Rice",
+    "side": "home",
+    "team_id": "242",
+    "tip": "2026-11-24T18:30Z",
+    "why": "Our ratings 57%, pregame win chance 27%.",
+    "worth": 73
+   },
+   {
     "abbr": "SLU",
     "game_id": "401911253",
     "kind": "ratings",
@@ -34,7 +45,7 @@
     "side": "home",
     "team_id": "139",
     "tip": "2026-11-25T02:30Z",
-    "why": "Our ratings 74%, pregame win chance 46%.",
+    "why": "Our ratings 73%, pregame win chance 46%.",
     "worth": 54
    },
    {
@@ -46,17 +57,6 @@
     "team_id": "2320",
     "tip": "2026-11-24T23:30Z",
     "why": "Our ratings 84%, pregame win chance 57%.",
-    "worth": 43
-   },
-   {
-    "abbr": "MRST",
-    "game_id": "401923271",
-    "kind": "ratings",
-    "short": "Marist",
-    "side": "home",
-    "team_id": "2368",
-    "tip": "2026-11-25T00:00Z",
-    "why": "Our ratings 80%, pregame win chance 57%.",
     "worth": 43
    }
   ],
@@ -184,40 +184,28 @@
    "worth": 76
   },
   {
-   "abbr": "UIC",
-   "game_id": "401928859",
-   "key": "uic",
-   "kind": "homer",
-   "short": "UIC",
-   "side": "home",
-   "team_id": "82",
-   "tip": "2026-11-24T18:30Z",
-   "why": "Homer pick.",
-   "worth": 27
-  },
-  {
    "abbr": "RICE",
    "game_id": "401928859",
    "key": "rice",
    "kind": "homer",
    "short": "Rice",
-   "side": "away",
+   "side": "home",
    "team_id": "242",
    "tip": "2026-11-24T18:30Z",
    "why": "Homer pick.",
    "worth": 73
   },
   {
-   "abbr": "SF",
-   "game_id": "401917676",
-   "key": "san-francisco",
+   "abbr": "UIC",
+   "game_id": "401928859",
+   "key": "uic",
    "kind": "homer",
-   "short": "San Francisco",
-   "side": "home",
-   "team_id": "2539",
-   "tip": "2026-11-24T19:00Z",
+   "short": "UIC",
+   "side": "away",
+   "team_id": "82",
+   "tip": "2026-11-24T18:30Z",
    "why": "Homer pick.",
-   "worth": 77
+   "worth": 27
   },
   {
    "abbr": "ORST",
@@ -225,11 +213,23 @@
    "key": "oregon-state",
    "kind": "homer",
    "short": "Oregon St",
-   "side": "away",
+   "side": "home",
    "team_id": "204",
    "tip": "2026-11-24T19:00Z",
    "why": "Homer pick.",
    "worth": 23
+  },
+  {
+   "abbr": "SF",
+   "game_id": "401917676",
+   "key": "san-francisco",
+   "kind": "homer",
+   "short": "San Francisco",
+   "side": "away",
+   "team_id": "2539",
+   "tip": "2026-11-24T19:00Z",
+   "why": "Homer pick.",
+   "worth": 77
   },
   {
    "abbr": "DETM",
@@ -241,7 +241,7 @@
    "team_id": "2174",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 64
   },
   {
    "abbr": "UND",
@@ -265,7 +265,7 @@
    "team_id": "43",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 50
   },
   {
    "abbr": "APP",
@@ -277,19 +277,7 @@
    "team_id": "2026",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 51
-  },
-  {
-   "abbr": "ARST",
-   "game_id": "401924267",
-   "key": "arkansas-state",
-   "kind": "homer",
-   "short": "Arkansas State",
-   "side": "home",
-   "team_id": "2032",
-   "tip": "2026-11-24T20:30Z",
-   "why": "Homer pick.",
-   "worth": 36
+   "worth": 50
   },
   {
    "abbr": "LBSU",
@@ -297,11 +285,23 @@
    "key": "long-beach-state",
    "kind": "homer",
    "short": "Long Beach St",
-   "side": "away",
+   "side": "home",
    "team_id": "299",
    "tip": "2026-11-24T20:30Z",
    "why": "Homer pick.",
-   "worth": 64
+   "worth": 65
+  },
+  {
+   "abbr": "ARST",
+   "game_id": "401924267",
+   "key": "arkansas-state",
+   "kind": "homer",
+   "short": "Arkansas State",
+   "side": "away",
+   "team_id": "2032",
+   "tip": "2026-11-24T20:30Z",
+   "why": "Homer pick.",
+   "worth": 36
   },
   {
    "abbr": "NHVN",
@@ -337,7 +337,7 @@
    "team_id": "2287",
    "tip": "2026-11-24T21:30Z",
    "why": "Homer pick.",
-   "worth": 51
+   "worth": 50
   },
   {
    "abbr": "TLSA",
@@ -349,7 +349,7 @@
    "team_id": "202",
    "tip": "2026-11-24T21:30Z",
    "why": "Homer pick.",
-   "worth": 49
+   "worth": 50
   },
   {
    "abbr": "SDSU",
@@ -457,7 +457,7 @@
    "team_id": "2678",
    "tip": "2026-11-24T23:00Z",
    "why": "Homer pick.",
-   "worth": 34
+   "worth": 33
   },
   {
    "abbr": "USI",
@@ -553,7 +553,7 @@
    "team_id": "189",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 14
+   "worth": 15
   },
   {
    "abbr": "GWEB",
@@ -697,7 +697,7 @@
    "team_id": "108",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 34
+   "worth": 33
   },
   {
    "abbr": "BU",
@@ -733,7 +733,7 @@
    "team_id": "261",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 64
   },
   {
    "abbr": "UMBC",
@@ -781,7 +781,7 @@
    "team_id": "160",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 96
+   "worth": 95
   },
   {
    "abbr": "MORG",
@@ -1381,7 +1381,7 @@
    "team_id": "265",
    "tip": "2026-11-25T02:00Z",
    "why": "Homer pick.",
-   "worth": 34
+   "worth": 32
   },
   {
    "abbr": "SHSU",
@@ -1393,7 +1393,7 @@
    "team_id": "2534",
    "tip": "2026-11-25T02:00Z",
    "why": "Homer pick.",
-   "worth": 66
+   "worth": 68
   },
   {
    "abbr": "SLU",

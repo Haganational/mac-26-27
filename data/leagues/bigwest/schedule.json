@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:06:28+00:00",
+ "fetched_at": "2026-11-24T18:07:03+00:00",
  "season": 2027,
  "games": [
   {
@@ -2679,8 +2679,8 @@
   {
    "game_id": "401924267",
    "date": "2026-11-24T20:30Z",
-   "name": "Long Beach State Beach at Arkansas State Red Wolves",
-   "short_name": "LBSU VS ARST",
+   "name": "Arkansas State Red Wolves at Long Beach State Beach",
+   "short_name": "ARST VS LBSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2697,18 +2697,18 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2032",
-    "key": null,
-    "name": "Arkansas State Red Wolves",
-    "abbr": "ARST",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "299",
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2032",
+    "key": null,
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
     "score": null,
     "winner": null
    },
@@ -3833,7 +3833,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-8-2026--sports-ncaa-basketball/production/7785763?wsUser=717",
     "low": 20.0,
@@ -5388,7 +5394,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-12-22-2026--sports-ncaa-basketball/production/7419567?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Thomas & Mack Center",

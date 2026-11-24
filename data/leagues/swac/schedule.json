@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:23:15+00:00",
+ "fetched_at": "2026-11-24T18:28:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -3116,7 +3116,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-25-2026--sports-ncaa-basketball/production/7457304?wsUser=717",
-    "low": 12.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -3286,7 +3286,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-pinnacle-bank-arena-11-25-2026--sports-ncaa-basketball/production/7359028?wsUser=717",
-    "low": 24.0,
+    "low": 17.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Pinnacle Bank Arena",
@@ -3331,7 +3331,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-25-2026--sports-ncaa-basketball/production/7290629?wsUser=717",
-    "low": 12.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Robins Center",
@@ -3556,7 +3556,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-11-28-2026--sports-ncaa-basketball/production/7462992?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Carver-Hawkeye Arena",
@@ -3685,6 +3685,11 @@
    "broadcasts": [
     {
      "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Hornets Sports Network",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -3943,7 +3948,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-state-cyclones-mens-basketball-tickets-hilton-coliseum-12-2-2026--sports-ncaa-basketball/production/7264749?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Hilton Coliseum",
@@ -4078,7 +4083,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-2-2026--sports-ncaa-basketball/production/7400623?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Chaifetz Arena",
@@ -4235,7 +4240,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-12-5-2026--sports-ncaa-basketball/production/7631486?wsUser=717",
     "low": 17.0,
@@ -4274,7 +4285,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "William J. Nicks Building",
    "venue_city": "Prairie View",
@@ -4494,7 +4511,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/mississippi-state-bulldogs-mens-basketball-tickets-humphrey-coliseum-12-7-2026--sports-ncaa-basketball/production/7349719?wsUser=717",
-    "low": 5.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Humphrey Coliseum",
@@ -4629,7 +4646,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/virginia-cavaliers-mens-basketball-tickets-credit-one-stadium-12-8-2026--sports-ncaa-basketball/production/7532399?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "John Paul Jones Arena",
@@ -5610,7 +5627,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-16-2026--sports-ncaa-basketball/production/7634533?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Matthew Knight Arena",

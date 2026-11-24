@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:09:27+00:00",
+ "fetched_at": "2026-11-24T18:10:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -2054,8 +2054,8 @@
   {
    "game_id": "401917676",
    "date": "2026-11-24T19:00Z",
-   "name": "Oregon State Beavers at San Francisco Dons",
-   "short_name": "ORST VS SF",
+   "name": "San Francisco Dons at Oregon State Beavers",
+   "short_name": "SF VS ORST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2069,25 +2069,25 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 50.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": null,
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "204",
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2539",
+    "key": null,
+    "name": "San Francisco Dons",
+    "abbr": "SF",
     "score": null,
     "winner": null
    },
@@ -2114,7 +2114,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-24-2026--sports-ncaa-basketball/production/7280558?wsUser=717",
-    "low": 117.0,
+    "low": 88.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Michelob ULTRA Arena",
@@ -2159,7 +2159,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -2290,7 +2290,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-t-mobile-arena-11-24-2026--sports-ncaa-basketball/production/7288695?wsUser=717",
-    "low": 47.0,
+    "low": 35.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "T-Mobile Arena",
@@ -2415,7 +2415,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-26-2026--sports-ncaa-basketball/production/7401152?wsUser=717",
-    "low": 37.0,
+    "low": 42.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -2451,7 +2451,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -2712,7 +2718,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-29-2026--sports-ncaa-basketball/production/7001636?wsUser=717",
-    "low": 21.0,
+    "low": 26.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "The Pit",
@@ -2834,7 +2840,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -2959,7 +2971,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-12-2-2026--sports-ncaa-basketball/production/7633886?wsUser=717",
     "low": 35.0,
@@ -3043,7 +3061,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "McCarthey Athletic Center",
    "venue_city": "Spokane",
@@ -3119,7 +3143,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-12-5-2026--sports-ncaa-basketball/production/7631486?wsUser=717",
     "low": 17.0,
@@ -3158,7 +3188,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-state-aztecs-mens-basketball-tickets-viejas-arena-12-5-2026--sports-ncaa-basketball/production/7563288?wsUser=717",
     "low": 22.0,
@@ -3431,7 +3467,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/west-coast-hoops-showdown-tickets-honda-center-12-5-2026--sports-ncaa-basketball/production/7333735?wsUser=717",
-    "low": 48.0,
+    "low": 51.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Honda Center",
@@ -3512,7 +3548,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-12-8-2026--sports-ncaa-basketball/production/7633888?wsUser=717",
     "low": 21.0,
@@ -3551,7 +3593,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-8-2026--sports-ncaa-basketball/production/7575841?wsUser=717",
     "low": 10.0,
@@ -4298,7 +4346,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Fifth Third Arena (TX)",

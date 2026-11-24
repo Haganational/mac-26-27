@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:21:17+00:00",
+ "fetched_at": "2026-11-24T18:25:24+00:00",
  "season": 2027,
  "games": [
   {
@@ -3076,7 +3076,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3974,7 +3980,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Cabot Center",
    "venue_city": "Boston",
@@ -4140,7 +4152,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YES",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Bogota Savings Bank Center",
    "venue_city": "Hackensack",
@@ -4175,7 +4193,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
@@ -4476,7 +4500,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-12-6-2026--sports-ncaa-basketball/production/7383946?wsUser=717",
     "low": 28.0,

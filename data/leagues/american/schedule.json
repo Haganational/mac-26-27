@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:10:57+00:00",
+ "fetched_at": "2026-11-24T18:12:32+00:00",
  "season": 2027,
  "games": [
   {
@@ -3238,30 +3238,36 @@
   {
    "game_id": "401928859",
    "date": "2026-11-24T18:30Z",
-   "name": "Rice Owls at UIC Flames",
-   "short_name": "RICE VS UIC",
+   "name": "UIC Flames at Rice Owls",
+   "short_name": "UIC VS RICE",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
    "home": {
-    "espn_id": "82",
-    "key": null,
-    "name": "UIC Flames",
-    "abbr": "UIC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "242",
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "82",
+    "key": null,
+    "name": "UIC Flames",
+    "abbr": "UIC",
     "score": null,
     "winner": null
    },
@@ -3288,7 +3294,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 50.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
@@ -3333,7 +3339,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 32.0,
+    "low": 26.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -3378,7 +3384,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 16.0,
+    "low": 11.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -3459,7 +3465,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
@@ -3679,7 +3691,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-11-27-2026--sports-ncaa-basketball/production/7387443?wsUser=717",
-    "low": 12.0,
+    "low": 14.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",
@@ -3896,7 +3908,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-29-2026--sports-ncaa-basketball/production/7612563?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -4252,7 +4264,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-30-2026--sports-ncaa-basketball/production/7519343?wsUser=717",
-    "low": 38.0,
+    "low": 31.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -4297,7 +4309,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-1-2026--sports-ncaa-basketball/production/7483983?wsUser=717",
-    "low": 38.0,
+    "low": 37.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -4792,7 +4804,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/baylor-bears-mens-basketball-tickets-foster-pavilion-12-5-2026--sports-ncaa-basketball/production/7324078?wsUser=717",
-    "low": 43.0,
+    "low": 37.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Foster Pavilion",
@@ -4811,6 +4823,47 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401911265",
+   "date": "2026-12-05T17:30Z",
+   "name": "Florida Atlantic Owls at St. Bonaventure Bonnies",
+   "short_name": "FAU @ SBU",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Reilly Center",
+   "venue_city": "Saint Bonaventure",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "179",
+    "key": null,
+    "name": "St. Bonaventure Bonnies",
+    "abbr": "SBU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2226",
+    "key": "fau",
+    "name": "Florida Atlantic Owls",
+    "abbr": "FAU",
     "score": null,
     "winner": null
    },
@@ -4856,41 +4909,6 @@
     "key": null,
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401911265",
-   "date": "2026-12-05T19:00Z",
-   "name": "Florida Atlantic Owls at St. Bonaventure Bonnies",
-   "short_name": "FAU @ SBU",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [],
-   "tickets": null,
-   "venue": "Reilly Center",
-   "venue_city": "Saint Bonaventure",
-   "venue_state": "NY",
-   "home": {
-    "espn_id": "179",
-    "key": null,
-    "name": "St. Bonaventure Bonnies",
-    "abbr": "SBU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2226",
-    "key": "fau",
-    "name": "Florida Atlantic Owls",
-    "abbr": "FAU",
     "score": null,
     "winner": null
    },
@@ -6602,7 +6620,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -9889,7 +9907,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/east-carolina-pirates-mens-basketball-tickets-williams-arena-at-minges-coliseum-1-31-2027--sports-ncaa-basketball/production/7631855?wsUser=717",
-    "low": 31.0,
+    "low": 29.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Williams Arena at Minges Coliseum",

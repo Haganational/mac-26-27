@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:03:42+00:00",
+ "fetched_at": "2026-11-24T18:03:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -3395,7 +3395,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 15.0,
+    "low": 20.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Tower Hill Arena",
@@ -3749,7 +3749,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 65.0,
+    "low": 63.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Fertitta Center",
@@ -3794,7 +3794,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -4665,7 +4665,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-8-2026--sports-ncaa-basketball/production/7589454?wsUser=717",
     "low": 46.0,
@@ -10562,6 +10568,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T17:34:30+00:00"
+ ]
 }

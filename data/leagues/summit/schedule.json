@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:18:08+00:00",
+ "fetched_at": "2026-11-24T18:21:10+00:00",
  "season": 2027,
  "games": [
   {
@@ -3075,7 +3075,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -3196,7 +3202,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -3513,7 +3525,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/north-dakota-state-bison-mens-basketball-tickets-scheels-center-at-sanford-health-athletic-complex-12-3-2026--sports-ncaa-basketball/production/7890592?wsUser=717",
     "low": 37.0,
@@ -3552,7 +3570,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/st-thomas-tommies-mens-basketball-tickets-lee-and-penny-anderson-arena-12-3-2026--sports-ncaa-basketball/production/7710758?wsUser=717",
     "low": 35.0,
@@ -3637,6 +3661,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3722,7 +3751,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/utep-miners-mens-basketball-tickets-don-haskins-center-12-5-2026--sports-ncaa-basketball/production/7660722?wsUser=717",
     "low": 14.0,
@@ -3941,7 +3976,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-city-roos-mens-basketball-tickets-municipal-auditorium---mo-12-8-2026--sports-ncaa-basketball/production/7849540?wsUser=717",
     "low": 20.0,
@@ -4025,7 +4066,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-8-2026--sports-ncaa-basketball/production/7589454?wsUser=717",
     "low": 46.0,
@@ -4118,7 +4165,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-8-2026--sports-ncaa-basketball/production/7742951?wsUser=717",
-    "low": 38.0,
+    "low": 27.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Dahlberg Arena",
@@ -5745,7 +5792,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-2-2027--sports-ncaa-basketball/production/7419583?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Thomas & Mack Center",

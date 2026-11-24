@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:11:59+00:00",
+ "fetched_at": "2026-11-24T18:13:46+00:00",
  "season": 2027,
  "games": [
   {
@@ -3840,8 +3840,8 @@
   {
    "game_id": "401924267",
    "date": "2026-11-24T20:30Z",
-   "name": "Long Beach State Beach at Arkansas State Red Wolves",
-   "short_name": "LBSU VS ARST",
+   "name": "Arkansas State Red Wolves at Long Beach State Beach",
+   "short_name": "ARST VS LBSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3858,18 +3858,18 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2032",
-    "key": "arkansas-state",
-    "name": "Arkansas State Red Wolves",
-    "abbr": "ARST",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "299",
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2032",
+    "key": "arkansas-state",
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
     "score": null,
     "winner": null
    },
@@ -3896,7 +3896,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 31.0,
+    "low": 27.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -3980,7 +3980,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4025,7 +4025,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 11.0,
+    "low": 25.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Chartway Arena",
@@ -4417,7 +4417,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -4761,7 +4767,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -4940,7 +4952,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-29-2026--sports-ncaa-basketball/production/7403501?wsUser=717",
-    "low": 19.0,
+    "low": 16.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -5426,7 +5438,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-12-2-2026--sports-ncaa-basketball/production/7633886?wsUser=717",
     "low": 35.0,
@@ -5510,7 +5528,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-12-3-2026--sports-ncaa-basketball/production/7883578?wsUser=717",
     "low": 36.0,
@@ -5603,7 +5627,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -7886,7 +7910,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-22-2026--sports-ncaa-basketball/production/7349949?wsUser=717",
-    "low": 6.0,
+    "low": 12.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Pete Maravich Assembly Center",

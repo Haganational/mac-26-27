@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:16:25+00:00",
+ "fetched_at": "2026-11-24T18:19:05+00:00",
  "season": 2027,
  "games": [
   {
@@ -2760,7 +2760,7 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 14,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2768,13 +2768,13 @@
     "key": null,
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 6,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:47 - 1st"
+   "detail": "3:53 - 1st"
   },
   {
    "game_id": "401928358",
@@ -2816,10 +2816,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:36 - 1st"
   },
   {
    "game_id": "401925950",
@@ -2880,7 +2880,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ExtraMile Arena",
@@ -4146,7 +4146,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-8-2026--sports-ncaa-basketball/production/7877384?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -4236,7 +4236,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-8-2026--sports-ncaa-basketball/production/7742951?wsUser=717",
-    "low": 38.0,
+    "low": 27.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -5029,7 +5029,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-17-2026--sports-ncaa-basketball/production/7877388?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -5242,7 +5242,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-18-2026--sports-ncaa-basketball/production/7743143?wsUser=717",
-    "low": 44.0,
+    "low": 33.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -5416,7 +5416,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-20-2026--sports-ncaa-basketball/production/7636972?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Matthew Knight Arena",
@@ -5983,7 +5983,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-31-2026--sports-ncaa-basketball/production/7877390?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -6151,7 +6151,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-2-2027--sports-ncaa-basketball/production/7877406?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -6381,7 +6381,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-7-2027--sports-ncaa-basketball/production/7877408?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-19T23:16:30Z"
    },
    "venue": "Reese Court",
@@ -7137,7 +7137,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-18-2027--sports-ncaa-basketball/production/7877410?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7476,7 +7476,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-25-2027--sports-ncaa-basketball/production/7877416?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7632,7 +7632,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-28-2027--sports-ncaa-basketball/production/7877418?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7827,7 +7827,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-30-2027--sports-ncaa-basketball/production/7877422?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -8423,7 +8423,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-11-2027--sports-ncaa-basketball/production/7877424?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -8575,7 +8575,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-13-2027--sports-ncaa-basketball/production/7877426?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-19T23:16:30Z"
    },
    "venue": "Reese Court",
@@ -9335,7 +9335,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-27-2027--sports-ncaa-basketball/production/7877428?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -9701,6 +9701,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T17:46:56+00:00"
+ ]
 }

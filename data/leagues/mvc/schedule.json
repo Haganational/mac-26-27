@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:07:20+00:00",
+ "fetched_at": "2026-11-24T18:08:08+00:00",
  "season": 2027,
  "games": [
   {
@@ -2992,38 +2992,44 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:41 - 1st"
   },
   {
    "game_id": "401928859",
    "date": "2026-11-24T18:30Z",
-   "name": "Rice Owls at UIC Flames",
-   "short_name": "RICE VS UIC",
+   "name": "UIC Flames at Rice Owls",
+   "short_name": "UIC VS RICE",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
    "home": {
-    "espn_id": "82",
-    "key": "uic",
-    "name": "UIC Flames",
-    "abbr": "UIC",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "242",
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "82",
+    "key": "uic",
+    "name": "UIC Flames",
+    "abbr": "UIC",
     "score": null,
     "winner": null
    },
@@ -3050,7 +3056,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 50.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -4175,7 +4181,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/chicago-state-cougars-mens-basketball-tickets-jones-convocation-center-12-5-2026--sports-ncaa-basketball/production/7805302?wsUser=717",
     "low": 11.0,
@@ -4259,7 +4271,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-12-5-2026--sports-ncaa-basketball/production/7309050?wsUser=717",
     "low": 11.0,
@@ -7737,7 +7755,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-27-2027--sports-ncaa-basketball/production/7747401?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Curb Event Center Arena",

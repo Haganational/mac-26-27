@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:03:02+00:00",
+ "fetched_at": "2026-11-24T18:02:58+00:00",
  "season": 2027,
  "games": [
   {
@@ -2363,7 +2363,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 16.0,
+    "low": 11.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -2408,7 +2408,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 30.0,
+    "low": 46.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -3681,7 +3681,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-8-2026--sports-ncaa-basketball/production/7575841?wsUser=717",
     "low": 10.0,
@@ -5313,7 +5319,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-29-2026--sports-ncaa-basketball/production/7402697?wsUser=717",
-    "low": 10.0,
+    "low": 13.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Stegeman Coliseum",

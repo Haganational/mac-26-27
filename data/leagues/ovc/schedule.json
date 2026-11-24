@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:19:59+00:00",
+ "fetched_at": "2026-11-24T18:23:34+00:00",
  "season": 2027,
  "games": [
   {
@@ -3057,7 +3057,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-29-2026--sports-ncaa-basketball/production/7457308?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -3192,7 +3192,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-30-2026--sports-ncaa-basketball/production/7519343?wsUser=717",
-    "low": 38.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Charles Koch Arena",
@@ -3704,6 +3704,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3965,7 +3970,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-6-2026--sports-ncaa-basketball/production/7400625?wsUser=717",
     "low": 13.0,
@@ -4740,7 +4751,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-16-2026--sports-ncaa-basketball/production/7350082?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Food City Center",

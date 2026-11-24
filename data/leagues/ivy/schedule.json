@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:13:09+00:00",
+ "fetched_at": "2026-11-24T18:15:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2987,7 +2987,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-carnesecca-arena-12-1-2026--sports-ncaa-basketball/production/7555656?wsUser=717",
-    "low": 9.0,
+    "low": 6.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Carnesecca Arena",
@@ -3032,7 +3032,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-1-2026--sports-ncaa-basketball/production/7462739?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -3158,7 +3158,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Brooklyn Athletic Center",
    "venue_city": "Brooklyn",
@@ -3372,7 +3378,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-4-2026--sports-ncaa-basketball/production/7390386?wsUser=717",
-    "low": 163.0,
+    "low": 117.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -3498,7 +3504,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Cabot Center",
    "venue_city": "Boston",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:10:08+00:00",
+ "fetched_at": "2026-11-24T18:11:31+00:00",
  "season": 2027,
  "games": [
   {
@@ -2845,8 +2845,8 @@
   {
    "game_id": "401917676",
    "date": "2026-11-24T19:00Z",
-   "name": "Oregon State Beavers at San Francisco Dons",
-   "short_name": "ORST VS SF",
+   "name": "San Francisco Dons at Oregon State Beavers",
+   "short_name": "SF VS ORST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2860,25 +2860,25 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 50.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": "san-francisco",
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "204",
     "key": null,
     "name": "Oregon State Beavers",
     "abbr": "ORST",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2539",
+    "key": "san-francisco",
+    "name": "San Francisco Dons",
+    "abbr": "SF",
     "score": null,
     "winner": null
    },
@@ -2905,7 +2905,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
+    "low": 50.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -3158,7 +3158,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -3809,10 +3815,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 22.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Lawlor Events Center",
@@ -4073,7 +4085,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-12-5-2026--sports-ncaa-basketball/production/7699980?wsUser=717",
     "low": 28.0,
@@ -4198,7 +4216,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-5-2026--sports-ncaa-basketball/production/7436755?wsUser=717",
     "low": 9.0,
@@ -4237,7 +4261,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-5-2026--sports-ncaa-basketball/production/7785760?wsUser=717",
     "low": 47.0,
@@ -4360,7 +4390,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-city-roos-mens-basketball-tickets-municipal-auditorium---mo-12-8-2026--sports-ncaa-basketball/production/7849540?wsUser=717",
     "low": 20.0,
@@ -5412,7 +5448,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-18-2026--sports-ncaa-basketball/production/7743143?wsUser=717",
-    "low": 44.0,
+    "low": 33.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Dahlberg Arena",

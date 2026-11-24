@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T12:19:25+00:00",
+ "fetched_at": "2026-11-24T18:22:48+00:00",
  "season": 2027,
  "games": [
   {
@@ -2345,7 +2345,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -2521,7 +2521,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-24-2026--sports-ncaa-basketball/production/7398121?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Donald L. Tucker Center",
@@ -3800,7 +3800,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-central-eagles-mens-basketball-tickets-mcdougald-mclendon-gymnasium-12-5-2026--sports-ncaa-basketball/production/7905523?wsUser=717",
     "low": 29.0,
@@ -4808,7 +4814,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-12-16-2026--sports-ncaa-basketball/production/7356132?wsUser=717",
-    "low": 9.0,
+    "low": 7.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Hinkle Fieldhouse",
@@ -5078,7 +5084,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-18-2026--sports-ncaa-basketball/production/7349945?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Pete Maravich Assembly Center",
