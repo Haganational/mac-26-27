@@ -3631,7 +3631,7 @@
     "key": null,
     "name": "Providence Friars",
     "abbr": "PROV",
-    "score": 35,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -3639,13 +3639,13 @@
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": 29,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:07 - 1st"
+   "detail": "18:01 - 2nd"
   },
   {
    "game_id": "401921663",
@@ -3666,7 +3666,7 @@
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3674,13 +3674,13 @@
     "key": "loyola-chicago",
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:14 - 1st"
   },
   {
    "game_id": "401927398",
@@ -12871,5 +12871,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:43:42+00:00"
+ "live_at": "2026-11-24T03:13:26+00:00"
 }

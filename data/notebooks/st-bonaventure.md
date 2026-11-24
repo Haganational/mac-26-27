@@ -67,7 +67,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,4 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->
 - 2026-11-23: W 71-65 vs (neutral) App State Mountaineers. Barometer 82 (giddy). <!-- g:401927397 -->
 - 2026-11-23: Social recap posted (W 71-65 vs App State Mountaineers): https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401927399.html <!-- post:401927399:preview -->

@@ -2641,7 +2641,7 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 45,
+    "score": 66,
     "winner": null
    },
    "away": {
@@ -2649,13 +2649,13 @@
     "key": null,
     "name": "Dickinson State Blue Hawks",
     "abbr": "DSSU",
-    "score": 28,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:54 - 2nd"
   },
   {
    "game_id": "401922032",
@@ -2686,7 +2686,7 @@
     "key": "montana",
     "name": "Montana Grizzlies",
     "abbr": "MONT",
-    "score": 48,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -2694,13 +2694,13 @@
     "key": null,
     "name": "Carroll (MT) Fighting Saints",
     "abbr": "CRMT",
-    "score": 27,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:56 - 2nd"
   },
   {
    "game_id": "401920721",
@@ -2731,7 +2731,7 @@
     "key": null,
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2739,13 +2739,13 @@
     "key": "eastern-washington",
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:29 - 1st"
   },
   {
    "game_id": "401920819",
@@ -9714,5 +9714,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:53:20+00:00"
+ "live_at": "2026-11-24T03:23:23+00:00"
 }
