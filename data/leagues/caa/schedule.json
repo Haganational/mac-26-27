@@ -3046,7 +3046,7 @@
     "key": null,
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -3054,13 +3054,13 @@
     "key": "nc-at",
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401913102",
@@ -12005,5 +12005,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T00:59:29+00:00"
 }

@@ -2125,7 +2125,7 @@
     "key": null,
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 41,
+    "score": 62,
     "winner": null
    },
    "away": {
@@ -2133,13 +2133,13 @@
     "key": "umes",
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": 37,
+    "score": 55,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:04 - 2nd"
+   "detail": "5:15 - 2nd"
   },
   {
    "game_id": "401921157",
@@ -2160,7 +2160,7 @@
     "key": "south-carolina-state",
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2168,13 +2168,13 @@
     "key": null,
     "name": "North Carolina A&T Aggies",
     "abbr": "NCAT",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:59 - 2nd"
   },
   {
    "game_id": "401932055",
@@ -2199,7 +2199,7 @@
     "key": "howard",
     "name": "Howard Bison",
     "abbr": "HOW",
-    "score": 25,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2207,13 +2207,13 @@
     "key": null,
     "name": "Notre Dame (MD) Gators",
     "abbr": "NDMD",
-    "score": 15,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927353",
@@ -2244,7 +2244,7 @@
     "key": "nc-central",
     "name": "North Carolina Central Eagles",
     "abbr": "NCCU",
-    "score": 13,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2252,13 +2252,13 @@
     "key": null,
     "name": "Carolina University Bruins",
     "abbr": "CU",
-    "score": 2,
+    "score": 16,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:42 - 1st"
+   "detail": "1:54 - 1st"
   },
   {
    "game_id": "401920923",
@@ -7567,5 +7567,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:42:05+00:00"
+ "live_at": "2026-11-24T01:10:46+00:00"
 }

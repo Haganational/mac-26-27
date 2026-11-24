@@ -2315,7 +2315,7 @@
     "key": null,
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2323,13 +2323,13 @@
     "key": "winthrop",
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:15 - 1st"
   },
   {
    "game_id": "401911379",
@@ -8851,5 +8851,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T01:06:25+00:00"
 }
