@@ -1,6 +1,6 @@
 # Hollis Wexford, The Lone Mountain Mercury
 
-_San Francisco (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_San Francisco (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 
 ## Barometer
 
-**63 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**53 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -80,3 +80,7 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:preview -->
 - 2026-11-19: W 77-56 vs Louisiana Ragin' Cajuns. Barometer 63 (steady). <!-- g:401921064 -->
 - 2026-11-19: Social recap posted (W 77-56 vs Louisiana Ragin' Cajuns): https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401917676.html <!-- post:401917676:preview -->
+- 2026-11-23: L 62-71 vs (neutral) Nevada Wolf Pack. Barometer 53 (steady). <!-- g:401911457 -->
+- 2026-11-24: Social recap posted (L 62-71 vs Nevada Wolf Pack): https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:recap -->

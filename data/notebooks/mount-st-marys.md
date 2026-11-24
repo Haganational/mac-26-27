@@ -1,6 +1,6 @@
 # Father Greg Connolly, The Emmitsburg Sentinel
 
-_Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Mount St. Mary's (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -64,7 +64,7 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -79,3 +79,4 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:preview -->
 - 2026-11-21: L 67-73 vs Western Michigan Broncos. Barometer 28 (despondent). <!-- g:401920922 -->
 - 2026-11-21: Social recap posted (L 67-73 vs Western Michigan Broncos): https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:preview -->

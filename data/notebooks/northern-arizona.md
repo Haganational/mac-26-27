@@ -1,6 +1,6 @@
 # Rita Yazzie, The Flagstaff Almanac
 
-_Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Northern Arizona (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Rita Yazzie spent twenty-five years running the visitor programs at an observato
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-4 (0-0 in conference), streak W1, last five LLLLW.
+**37 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rita editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rita editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Rita Yazzie spent twenty-five years running the visitor programs at an observato
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Rita Yazzie spent twenty-five years running the visitor programs at an observato
 - 2026-11-18: W 72-59 vs Embry Riddle (AZ) Eagles. Barometer 40 (testy). <!-- g:401927867 -->
 - 2026-11-18: Social recap posted (W 72-59 vs Embry Riddle (AZ) Eagles): https://hardwoodbricks.com/bigsky/games/401927867.html <!-- post:401927867:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:preview -->
+- 2026-11-22: L 88-89 at Cal Poly Mustangs. Barometer 37 (testy). <!-- g:401920125 -->
+- 2026-11-22: Social recap posted (L 88-89 vs Cal Poly Mustangs): https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:recap -->

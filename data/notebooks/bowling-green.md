@@ -1,6 +1,6 @@
 # Gary Mercer, The Bowling Green Mercury
 
-_Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 ## What we've made about them
 
 - Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,6 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 - 2026-11-18: L 73-77 at William & Mary Tribe. Barometer 59 (steady). <!-- g:401911018 -->
 - 2026-11-18: Social recap posted (L 73-77 vs William & Mary Tribe): https://hardwoodbricks.com/games/401911018.html <!-- post:401911018:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:preview -->
+- 2026-11-21: L 68-86 vs Northern Illinois Huskies. Barometer 48 (steady). <!-- g:401911022 -->
+- 2026-11-21: Social recap posted (L 68-86 vs Northern Illinois Huskies): https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401911027.html <!-- post:401911027:preview -->

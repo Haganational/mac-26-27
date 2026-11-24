@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-21",
+ "locked_at": "2026-11-21T13:24+00:00",
+ "board": 49,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401925099",
+    "tip": "2026-11-22T01:00Z",
+    "matchup": "Texas A&M-Corpus Christi Islanders at Oral Roberts Golden Eagles",
+    "side": "under",
+    "line": 140.5,
+    "label": "Under 140.5",
+    "why": "Model has it 7.5 under the total.",
+    "result": "loss",
+    "final": "74-78"
+   },
+   {
+    "kind": "side",
+    "game": "401917537",
+    "tip": "2026-11-22T03:00Z",
+    "matchup": "Bradley Braves at Pacific Tigers",
+    "side": "away",
+    "team": "Bradley Braves",
+    "abbr": "BRAD",
+    "line": 9.0,
+    "label": "Bradley Braves +9",
+    "why": "Third-stingiest defense on the board: 59.8 allowed a game.",
+    "result": "win",
+    "final": "62-63"
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401909567",
+    "tip": "2026-11-22T04:00Z",
+    "matchup": "Washington State Cougars vs. Duke Blue Devils",
+    "side": "over",
+    "line": 149.0,
+    "label": "Over 149",
+    "why": "Model has it 9.0 over the total.",
+    "result": "win",
+    "final": "74-78"
+   },
+   {
+    "kind": "side",
+    "game": "401925897",
+    "tip": "2026-11-21T23:00Z",
+    "matchup": "UNC Wilmington Seahawks at Norfolk State Spartans",
+    "side": "away",
+    "team": "UNC Wilmington Seahawks",
+    "abbr": "UNCW",
+    "line": -13.5,
+    "label": "UNC Wilmington Seahawks -13.5",
+    "why": "Second-highest scoring team on the board: 96.8 a game.",
+    "result": "loss",
+    "final": "89-80"
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401909517",
+    "tip": "2026-11-21T23:00Z",
+    "matchup": "Coppin State Eagles at Georgetown Hoyas",
+    "side": "away",
+    "team": "Coppin State Eagles",
+    "abbr": "COPP",
+    "line": 31.5,
+    "label": "Coppin State Eagles +31.5",
+    "why": "Model is 8.3 points off the number.",
+    "result": "win",
+    "final": "60-84"
+   },
+   {
+    "kind": "side",
+    "game": "401921169",
+    "tip": "2026-11-21T18:00Z",
+    "matchup": "Kent State Golden Flashes at Cleveland State Vikings",
+    "side": "home",
+    "team": "Cleveland State Vikings",
+    "abbr": "CLE",
+    "line": 4.0,
+    "label": "Cleveland State Vikings +4",
+    "why": "Model is 7.7 points off the number.",
+    "result": "loss",
+    "final": "69-62"
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401921222",
+    "tip": "2026-11-21T19:00Z",
+    "matchup": "Navy Midshipmen at Rider Broncs",
+    "side": "home",
+    "team": "Rider Broncs",
+    "abbr": "RID",
+    "line": 5.5,
+    "label": "Rider Broncs +5.5",
+    "why": "Home dog in the window. I like a building that owes me money.",
+    "result": "win",
+    "final": "66-69"
+   },
+   {
+    "kind": "total",
+    "game": "401921222",
+    "tip": "2026-11-21T19:00Z",
+    "matchup": "Navy Midshipmen at Rider Broncs",
+    "side": "over",
+    "line": 135.5,
+    "label": "Over 135.5",
+    "why": "The ice machine on the fourth floor has been humming in Morse code. I don't know Morse code. My associate does. Over. That's all I can say.",
+    "result": "loss",
+    "final": "66-69"
+   }
+  ]
+ },
+ "column": {
+  "byline": "leslie",
+  "by": "Leslie Phyllis",
+  "head": "Tops: Leslie. Bottoms: Brett.",
+  "paras": [
+   "Tunica taught me two things: never fear a fast team, and always tip the shuttle driver.",
+   "Leslie owned last night: 2-0, +1.82 units.",
+   "Bottom of the barrel: Brett, 1-1, -0.09 units.",
+   "Yes, that was me on top. I'd like the record to show it.",
+   "Leslie went 2-0. A clean sweep.",
+   "Merv went 2-0. A clean sweep.",
+   "The Shark went 2-0. A clean sweep."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 140.5. Model has it 7.5 under the total. Nobody's scoring on anybody in my world. Bradley Braves +9. Third-stingiest defense on the board: 59.8 allowed a game. Defense travels."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 149. Model has it 9.0 over the total. Turn the scoreboard up, honey. UNC Wilmington Seahawks -13.5. Second-highest scoring team on the board: 96.8 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Coppin State Eagles +31.5. Model is 8.3 points off the number. Big number, big hair, big night. Cleveland State Vikings +4. Model is 7.7 points off the number. I don't make the rules. The machine does."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "Rider Broncs +5.5. Home dog in the window. I like a building that owes me money. Over 135.5. The ice machine on the fourth floor has been humming in Morse code. I don't know Morse code. My associate does. Over. That's all I can say."
+   }
+  ],
+  "close": "Season ledger: Leslie leads at 4-0, +3.64 units."
+ }
+}

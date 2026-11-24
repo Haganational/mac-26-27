@@ -1,6 +1,6 @@
 # Vivian Sterling, The Des Moines Courant
 
-_Drake (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Drake (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**56 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vivian editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Vivian Sterling grew up in Des Moines, threw her first party at nine, and charge
 - 2026-11-20: W 86-70 vs Charleston Cougars. Barometer 65 (buoyant). <!-- g:401926814 -->
 - 2026-11-20: Social recap posted (W 86-70 vs Charleston Cougars): https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:preview -->
+- 2026-11-21: L 65-67 at Missouri State Bears. Barometer 56 (steady). <!-- g:401927365 -->
+- 2026-11-21: Social recap posted (L 65-67 vs Missouri State Bears): https://hardwoodbricks.com/mvc/games/401927365.html <!-- post:401927365:recap -->

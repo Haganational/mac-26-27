@@ -1,6 +1,6 @@
 # Trevor Holloway, The Mount Pleasant Sentinel
 
-_Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Central Michigan (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Trevor Holloway grew up in Midland, walked on at Central Michigan, and spent fou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Trevor Holloway grew up in Midland, walked on at Central Michigan, and spent fou
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/games/401909709.html <!-- post:401909709:preview -->
 - 2026-11-21: L 82-104 at Pittsburgh Panthers. Barometer 48 (steady). <!-- g:401909709 -->
 - 2026-11-21: Social recap posted (L 82-104 vs Pittsburgh Panthers): https://hardwoodbricks.com/games/401909709.html <!-- post:401909709:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401911026.html <!-- post:401911026:preview -->

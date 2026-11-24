@@ -1,6 +1,6 @@
 # Darla Pruitt, The Tulsa Dispatch
 
-_Tulsa (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Tulsa (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 
 ## Barometer
 
-**60 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
+**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,7 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925865.html <!-- post:401925865:preview -->
 - 2026-11-21: L 61-72 vs (neutral) Mississippi State Bulldogs. Barometer 60 (steady). <!-- g:401925865 -->
 - 2026-11-21: Social recap posted (L 61-72 vs Mississippi State Bulldogs): https://hardwoodbricks.com/american/games/401925865.html <!-- post:401925865:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mvc/games/401921666.html <!-- post:401921666:preview -->
+- 2026-11-23: L 66-69 vs (neutral) Oregon State Beavers. Barometer 52 (steady). <!-- g:401921658 -->
+- 2026-11-23: Social recap posted (L 66-69 vs Oregon State Beavers): https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:recap -->

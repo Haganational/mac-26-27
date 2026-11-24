@@ -1,6 +1,6 @@
 # Capt. Kendra Shaw, The Hampton Sentinel
 
-_Hampton (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Hampton (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 1
 
 ## Log
 
@@ -76,3 +76,4 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 - 2026-11-07: L 61-75 at George Washington Revolutionaries. Barometer 30 (testy). <!-- g:401926825 -->
 - 2026-11-11: W 67-56 vs Apprentice School Builders. Barometer 45 (steady). <!-- g:401926826 -->
 - 2026-11-14: L 56-58 at Navy Midshipmen. Barometer 40 (testy). <!-- g:401921221 -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:preview -->

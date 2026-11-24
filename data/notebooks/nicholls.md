@@ -1,6 +1,6 @@
 # Remy Thibodeaux, The Thibodaux Courant
 
-_Nicholls (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Nicholls (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Remy Thibodeaux grew up on Bayou Lafourche and drove a shrimp boat for his uncle
 
 ## Barometer
 
-**41 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
+**31 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Remy Thibodeaux grew up on Bayou Lafourche and drove a shrimp boat for his uncle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,8 @@ Remy Thibodeaux grew up on Bayou Lafourche and drove a shrimp boat for his uncle
 - 2026-11-18: L 41-76 at Ole Miss Rebels. Barometer 41 (testy). <!-- g:401925064 -->
 - 2026-11-18: Social recap posted (L 41-76 vs Ole Miss Rebels): https://hardwoodbricks.com/southland/games/401925064.html <!-- post:401925064:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:preview -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925066.html <!-- post:401925066:preview -->
+- 2026-11-21: L 69-80 vs (neutral) Southern Miss Golden Eagles. Barometer 36 (testy). <!-- g:401925065 -->
+- 2026-11-22: Social recap posted (L 69-80 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:recap -->
+- 2026-11-22: L 77-78 vs (neutral) Troy Trojans. Barometer 31 (testy). <!-- g:401925066 -->
+- 2026-11-22: Social recap posted (L 77-78 vs Troy Trojans): https://hardwoodbricks.com/sunbelt/games/401925066.html <!-- post:401925066:recap -->

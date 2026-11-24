@@ -1,6 +1,6 @@
 # Hank Dreiling, The Wichita Ledger
 
-_Wichita State (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Wichita State (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 
 ## Barometer
 
-**71 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
+**84 of 100, giddy.** Record 6-1 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,8 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-19: W 79-75 at Loyola Chicago Ramblers. Barometer 71 (buoyant). <!-- g:401911232 -->
 - 2026-11-19: Social recap posted (W 79-75 vs Loyola Chicago Ramblers): https://hardwoodbricks.com/a10/games/401911232.html <!-- post:401911232:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->
+- 2026-11-21: W 85-60 vs New Mexico Lobos. Barometer 78 (buoyant). <!-- g:401919031 -->
+- 2026-11-21: Social recap posted (W 85-60 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:preview -->
+- 2026-11-24: W 91-73 vs Texas A&M-Corpus Christi Islanders. Barometer 84 (giddy). <!-- g:401919032 -->
+- 2026-11-24: Social recap posted (W 91-73 vs Texas A&M-Corpus Christi Islanders): https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:recap -->

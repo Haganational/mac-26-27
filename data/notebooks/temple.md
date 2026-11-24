@@ -1,6 +1,6 @@
 # Gina Falcone, The North Philadelphia Clarion
 
-_Temple (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Temple (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**43 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 64% of stories right now.
 
@@ -73,7 +73,7 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,9 @@ Gina Falcone drove a SEPTA bus up and down Broad Street for twenty-six years and
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:preview -->
 - 2026-11-20: W 85-76 vs (neutral) Middle Tennessee Blue Raiders. Barometer 57 (steady). <!-- g:401916122 -->
 - 2026-11-20: Social recap posted (W 85-76 vs Middle Tennessee Blue Raiders): https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:preview -->
+- 2026-11-22: L 70-72 vs (neutral) Stephen F. Austin Lumberjacks. Barometer 50 (steady). <!-- g:401921205 -->
+- 2026-11-23: Social recap posted (L 70-72 vs Stephen F. Austin Lumberjacks): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:preview -->
+- 2026-11-23: L 81-90 vs (neutral) UT Martin Skyhawks. Barometer 43 (testy). <!-- g:401921210 -->
+- 2026-11-24: Social recap posted (L 81-90 vs UT Martin Skyhawks): https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:recap -->

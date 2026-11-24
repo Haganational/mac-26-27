@@ -1,6 +1,6 @@
 # Cadet Sam Prentice, The Lexington Ledger
 
-_VMI (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_VMI (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 
 ## Barometer
 
-**52 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
+**57 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,6 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 - 2026-11-19: L 76-82 at Longwood Lancers. Barometer 52 (steady). <!-- g:401922047 -->
 - 2026-11-19: Social recap posted (L 76-82 vs Longwood Lancers): https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:preview -->
+- 2026-11-22: W 71-68 vs Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911394 -->
+- 2026-11-22: Social recap posted (W 71-68 vs Gardner-Webb Runnin' Bulldogs): https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401923395.html <!-- post:401923395:preview -->

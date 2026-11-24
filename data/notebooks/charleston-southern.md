@@ -1,6 +1,6 @@
 # Lowell Grimes, The North Charleston Compass
 
-_Charleston Southern (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Charleston Southern (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LWLWL.
+**42 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,6 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-19: L 77-79 vs Wofford Terriers. Barometer 47 (steady). <!-- g:401911377 -->
 - 2026-11-19: Social recap posted (L 77-79 vs Wofford Terriers): https://hardwoodbricks.com/socon/games/401911377.html <!-- post:401911377:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401911378.html <!-- post:401911378:preview -->
+- 2026-11-22: L 64-69 at Mercer Bears. Barometer 42 (testy). <!-- g:401911378 -->
+- 2026-11-22: Social recap posted (L 64-69 vs Mercer Bears): https://hardwoodbricks.com/socon/games/401911378.html <!-- post:401911378:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:preview -->

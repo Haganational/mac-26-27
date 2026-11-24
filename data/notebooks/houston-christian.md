@@ -1,6 +1,6 @@
 # Grace Okafor, The Sharpstown Ledger
 
-_Houston Christian (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Houston Christian (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:preview -->
 - 2026-11-20: L 79-86 vs Georgia Southern Eagles. Barometer 62 (steady). <!-- g:401921028 -->
 - 2026-11-20: Social recap posted (L 79-86 vs Georgia Southern Eagles): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:preview -->

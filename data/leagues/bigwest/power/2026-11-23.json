@@ -1,0 +1,860 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:07-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "uc-santa-barbara",
+   "short": "UCSB",
+   "rank": 1,
+   "score": 8.3,
+   "form": 7.0,
+   "road": 1.4,
+   "road_wins": [
+    {
+     "opp": "Pepperdine Waves",
+     "site": "road",
+     "score": "88-80",
+     "date": "Nov 19",
+     "bonus": 1.37
+    }
+   ],
+   "prev_rank": 2,
+   "record": "5-0",
+   "conf_record": "0-0",
+   "streak": "W5",
+   "last_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "Pepperdine Waves",
+     "site": "road",
+     "conf": false,
+     "result": "W 88-80"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "UNC Greensboro Spartans",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Lehigh Mountain Hawks",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Aidan Mahaney",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.2,
+     "rpg": 1.5,
+     "apg": 2.5,
+     "gp": 4
+    },
+    {
+     "name": "CJ Shaw",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 2.4,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Miro Little",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.0,
+     "rpg": 1.0,
+     "apg": 4.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "utah-valley",
+   "short": "Utah Valley",
+   "rank": 2,
+   "score": 7.3,
+   "form": 4.8,
+   "road": 2.5,
+   "road_wins": [
+    {
+     "opp": "Weber State Wildcats",
+     "site": "road",
+     "score": "101-93",
+     "date": "Nov 7",
+     "bonus": 0.25
+    },
+    {
+     "opp": "Nevada Wolf Pack",
+     "site": "road",
+     "score": "73-71",
+     "date": "Nov 14",
+     "bonus": 1.9
+    },
+    {
+     "opp": "East Carolina Pirates",
+     "site": "neutral",
+     "score": "90-79",
+     "date": "Nov 20",
+     "bonus": 0.38
+    }
+   ],
+   "prev_rank": 1,
+   "record": "5-0",
+   "conf_record": "0-0",
+   "streak": "W5",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "East Carolina Pirates",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 90-79"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "UT Martin Skyhawks",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 78-76"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "San Jos\u00e9 State Spartans",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Dominick Nelson",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 18.8,
+     "rpg": 5.4,
+     "apg": 2.2,
+     "gp": 5
+    },
+    {
+     "name": "Isaac Hawkins",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 15.4,
+     "rpg": 4.2,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Isaac Davis",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 11.4,
+     "rpg": 4.2,
+     "apg": 1.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "uc-irvine",
+   "short": "UC Irvine",
+   "rank": 3,
+   "score": 1.6,
+   "form": 1.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 3,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Stanford Cardinal",
+     "site": "road",
+     "conf": false,
+     "result": "L 61-65"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "San Diego Toreros",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 64-67"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Loyola Marymount Lions",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 68-72"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Seattle U Redhawks",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jovan Jester Jr.",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.8,
+     "rpg": 4.2,
+     "apg": 1.5,
+     "gp": 6
+    },
+    {
+     "name": "Nils Cooper",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.7,
+     "rpg": 5.7,
+     "apg": 1.7,
+     "gp": 6
+    },
+    {
+     "name": "Tama Isaac",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 10.8,
+     "rpg": 3.7,
+     "apg": 4.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "cal-state-fullerton",
+   "short": "CS Fullerton",
+   "rank": 4,
+   "score": 0.8,
+   "form": 0.5,
+   "road": 0.2,
+   "road_wins": [
+    {
+     "opp": "South Dakota Coyotes",
+     "site": "road",
+     "score": "87-85",
+     "date": "Nov 7",
+     "bonus": 0.25
+    }
+   ],
+   "prev_rank": 10,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "UCLA Bruins",
+     "site": "road",
+     "conf": false,
+     "result": "L 71-75"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Portland State Vikings",
+     "site": "road",
+     "conf": false,
+     "result": "W 92-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Weber State Wildcats",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Joshua Ward",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 18.8,
+     "rpg": 5.8,
+     "apg": 6.2,
+     "gp": 5
+    },
+    {
+     "name": "Christian Williams",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 2.4,
+     "apg": 2.8,
+     "gp": 5
+    },
+    {
+     "name": "Malcolm Bell",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 4.7,
+     "apg": 0.7,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "uc-riverside",
+   "short": "UC Riverside",
+   "rank": 5,
+   "score": -2.5,
+   "form": -3.2,
+   "road": 0.7,
+   "road_wins": [
+    {
+     "opp": "San Jos\u00e9 State Spartans",
+     "site": "road",
+     "score": "80-75",
+     "date": "Nov 12",
+     "bonus": 0.71
+    }
+   ],
+   "prev_rank": 7,
+   "record": "3-2",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "San Diego Toreros",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-71"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Portland State Vikings",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Lincoln (CA) Oaklanders",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Tony Duckett",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.2,
+     "rpg": 2.2,
+     "apg": 2.4,
+     "gp": 5
+    },
+    {
+     "name": "Tyus Parrish-Tillman",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 15.8,
+     "rpg": 7.6,
+     "apg": 1.6,
+     "gp": 5
+    },
+    {
+     "name": "Devon Malcolm",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 9.0,
+     "rpg": 6.8,
+     "apg": 0.4,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "csu-bakersfield",
+   "short": "CSU Bakersfield",
+   "rank": 6,
+   "score": -2.9,
+   "form": -3.7,
+   "road": 0.9,
+   "road_wins": [
+    {
+     "opp": "Western Illinois Leathernecks",
+     "site": "road",
+     "score": "91-83",
+     "date": "Nov 12",
+     "bonus": 0.3
+    },
+    {
+     "opp": "North Dakota State Bison",
+     "site": "road",
+     "score": "73-69",
+     "date": "Nov 15",
+     "bonus": 0.59
+    }
+   ],
+   "prev_rank": 9,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Idaho Vandals",
+     "site": "road",
+     "conf": false,
+     "result": "L 81-84"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Pepperdine Waves",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Northern Arizona Lumberjacks",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kjay Bradley",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 20.0,
+     "rpg": 4.0,
+     "apg": 5.2,
+     "gp": 5
+    },
+    {
+     "name": "Jaden Alexander",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 16.2,
+     "rpg": 5.4,
+     "apg": 0.4,
+     "gp": 5
+    },
+    {
+     "name": "Bryce Cofield",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.8,
+     "rpg": 6.0,
+     "apg": 2.2,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "uc-san-diego",
+   "short": "UC San Diego",
+   "rank": 7,
+   "score": -3.5,
+   "form": -3.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 5,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Texas Southern Tigers",
+     "site": "home",
+     "conf": false,
+     "result": "W 97-92"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Seattle U Redhawks",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 90-64"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Loyola Marymount Lions",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Rahmir Barno",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 3.8,
+     "apg": 4.4,
+     "gp": 5
+    },
+    {
+     "name": "Treysen Eaglestaff",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 4.4,
+     "apg": 2.0,
+     "gp": 5
+    },
+    {
+     "name": "Leo Beath",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.4,
+     "rpg": 4.2,
+     "apg": 2.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "csun",
+   "short": "CSUN",
+   "rank": 8,
+   "score": -4.2,
+   "form": -4.2,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 8,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Troy Trojans",
+     "site": "road",
+     "conf": false,
+     "result": "L 74-84"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Delaware Blue Hens",
+     "site": "home",
+     "conf": false,
+     "result": "L 92-97"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Weber State Wildcats",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mikah Ballew",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 22.2,
+     "rpg": 3.8,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Josiah Davis",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 4.4,
+     "apg": 6.6,
+     "gp": 5
+    },
+    {
+     "name": "Brooklyn Hicks",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 13.8,
+     "rpg": 8.0,
+     "apg": 1.2,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "cal-poly",
+   "short": "Cal Poly",
+   "rank": 9,
+   "score": -5.2,
+   "form": -5.7,
+   "road": 0.5,
+   "road_wins": [
+    {
+     "opp": "Idaho Vandals",
+     "site": "road",
+     "score": "83-74",
+     "date": "Nov 13",
+     "bonus": 0.54
+    }
+   ],
+   "prev_rank": 4,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Sat Nov 21",
+     "opp": "Northern Arizona Lumberjacks",
+     "site": "home",
+     "conf": false,
+     "result": "W 89-88"
+    }
+   ],
+   "next_week": [],
+   "top_scorers": [
+    {
+     "name": "Hamad Mousa",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 20.3,
+     "rpg": 5.2,
+     "apg": 1.7,
+     "gp": 6
+    },
+    {
+     "name": "Jess Esso Essis",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.0,
+     "rpg": 5.8,
+     "apg": 2.2,
+     "gp": 6
+    },
+    {
+     "name": "Cayden Ward",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.8,
+     "rpg": 4.2,
+     "apg": 2.7,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "long-beach-state",
+   "short": "Long Beach St",
+   "rank": 10,
+   "score": -5.2,
+   "form": -5.2,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 6,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "UCLA Bruins",
+     "site": "road",
+     "conf": false,
+     "result": "L 66-105"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Florida International Panthers",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Tue Nov 24",
+     "opp": "Arkansas State Red Wolves",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "Southern Utah Thunderbirds",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "McCaden Adams",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.0,
+     "rpg": 2.2,
+     "apg": 1.2,
+     "gp": 4
+    },
+    {
+     "name": "Yohann Sissoko",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.7,
+     "rpg": 3.7,
+     "apg": 1.7,
+     "gp": 3
+    },
+    {
+     "name": "Noah Amenhauser",
+     "class": "Senior",
+     "pos": "C",
+     "ppg": 12.0,
+     "rpg": 5.5,
+     "apg": 1.5,
+     "gp": 2
+    }
+   ]
+  },
+  {
+   "key": "sacramento-state",
+   "short": "Sacramento St",
+   "rank": 11,
+   "score": -8.9,
+   "form": -8.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 11,
+   "record": "1-3",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "Stanford Cardinal",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-78"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Presbyterian Blue Hose",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Larry Hughes II",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 15.2,
+     "rpg": 2.5,
+     "apg": 1.8,
+     "gp": 4
+    },
+    {
+     "name": "Mikey Williams",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 5.8,
+     "apg": 3.5,
+     "gp": 4
+    },
+    {
+     "name": "Marcus Wilson",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 10.2,
+     "rpg": 3.2,
+     "apg": 2.8,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "cal-baptist",
+   "short": "Cal Baptist",
+   "rank": 12,
+   "score": -13.2,
+   "form": -13.2,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 12,
+   "record": "1-6",
+   "conf_record": "0-0",
+   "streak": "L3",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Seattle U Redhawks",
+     "site": "home",
+     "conf": false,
+     "result": "L 54-83"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Loyola Marymount Lions",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 73-80"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Portland Pilots",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 71-79"
+    }
+   ],
+   "next_week": [],
+   "top_scorers": [
+    {
+     "name": "Terry Coner Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 18.0,
+     "rpg": 3.4,
+     "apg": 4.0,
+     "gp": 7
+    },
+    {
+     "name": "Aleksa Milenkovic",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 11.0,
+     "rpg": 6.0,
+     "apg": 0.0,
+     "gp": 2
+    },
+    {
+     "name": "Justas Stonkus",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 9.6,
+     "rpg": 3.0,
+     "apg": 0.9,
+     "gp": 7
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Rhett Caldwell, The Chattanooga Ledger
 
-_Chattanooga (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Chattanooga (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**53 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,6 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 - 2026-11-18: W 90-79 at Winthrop Eagles. Barometer 65 (buoyant). <!-- g:401920974 -->
 - 2026-11-19: Social recap posted (W 90-79 vs Winthrop Eagles): https://hardwoodbricks.com/socon/games/401920974.html <!-- post:401920974:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401920975.html <!-- post:401920975:preview -->
+- 2026-11-22: L 65-73 vs Radford Highlanders. Barometer 53 (steady). <!-- g:401920975 -->
+- 2026-11-22: Social recap posted (L 65-73 vs Radford Highlanders): https://hardwoodbricks.com/socon/games/401920975.html <!-- post:401920975:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->

@@ -1,6 +1,6 @@
 # Nico Albrecht, The Tampa Argus
 
-_South Florida (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_South Florida (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**52 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nico editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nico editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,6 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 - 2026-11-18: W 98-71 vs Tennessee State Tigers. Barometer 62 (steady). <!-- g:401918994 -->
 - 2026-11-18: Social recap posted (W 98-71 vs Tennessee State Tigers): https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:preview -->
+- 2026-11-21: L 62-73 at George Mason Patriots. Barometer 52 (steady). <!-- g:401918995 -->
+- 2026-11-21: Social recap posted (L 62-73 vs George Mason Patriots): https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401918996.html <!-- post:401918996:preview -->

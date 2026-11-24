@@ -7,7 +7,8 @@ The method, in plain terms
    average of our rank and the team's NET rank.
 2. Conference at-large weight (C). How many at-large bids the conference has averaged per
    tournament since 2010, with recent seasons counting more: a season's weight halves every
-   HALF_LIFE seasons. History is by the league as it was that year (data/atlarge/bids.json).
+   HALF_LIFE seasons. History is by the league as it was that year (data/atlarge/bids.json), except the rebuilt
+   Pac-12, which carries its current members' at-large bids from their old leagues.
 3. Watch rank = S - BOOST x C. Each at-large bid a league has averaged per year moves its
    teams up BOOST spots. Lower is better. The table is sorted by it.
 
@@ -46,6 +47,11 @@ def load_bids(path: Path = BIDS) -> dict[str, dict[str, dict[str, Any]]]:
     return json.loads(path.read_text())["seasons"]
 
 
+def load_notes(path: Path = BIDS) -> dict[str, str]:
+    """One line per league whose history needs explaining (renamed, newly formed, or rebuilt)."""
+    return json.loads(path.read_text()).get("notes", {})
+
+
 def season_weight(year: int, now: int = SEASON) -> float:
     return 0.5 ** ((now - year) / HALF_LIFE)
 
@@ -63,12 +69,15 @@ def conference_weight(bids: dict[str, dict[str, dict[str, Any]]], conf: str, now
     return num / den if den else 0.0
 
 
-def history(bids: dict[str, dict[str, dict[str, Any]]], now: int = SEASON) -> list[dict[str, Any]]:
-    """One row per conference: total at-large bids, seasons with one, the weight C and the seasons."""
+def history(bids: dict[str, dict[str, dict[str, Any]]], now: int = SEASON,
+            notes: dict[str, str] | None = None) -> list[dict[str, Any]]:
+    """One row per conference: total at-large bids, seasons with one, the weight C and the seasons.
+    A season the league sat out (not formed yet, or didn't play) comes through with played=False."""
     years = sorted(int(y) for y in bids if int(y) < now)
+    notes = notes or {}
     out = []
     for key, lg in ALL.items():
-        seasons = [{"year": y, **bids[str(y)].get(key, {"auto": "", "at_large": []})} for y in years]
+        seasons = [{"year": y, "played": key in bids[str(y)], **bids[str(y)].get(key, {"auto": "", "at_large": []})} for y in years]
         out.append({
             "key": key, "short": lg.short, "name": lg.name,
             "total": sum(len(s["at_large"]) for s in seasons),
@@ -77,6 +86,7 @@ def history(bids: dict[str, dict[str, dict[str, Any]]], now: int = SEASON) -> li
             "boost": round(BOOST * conference_weight(bids, key, now), 1),
             "seasons": seasons,
             "last": next((s for s in reversed(seasons) if s["at_large"]), None),
+            "note": notes.get(key, ""),
         })
     out.sort(key=lambda c: (-c["weight"], c["short"]))
     return out
@@ -272,7 +282,7 @@ def page_context(root: Path = SHARED_DIR, now: int = SEASON) -> dict[str, Any] |
     raw_net = load_net(root / "atlarge" / "net.json")
     net = net_ranks(raw_net, now)
     rows = watch(ratings, bids, net, now)
-    hist = history(bids, now)
+    hist = history(bids, now, load_notes(root / "atlarge" / "bids.json"))
     years = sorted(int(y) for y in bids if int(y) < now)
     as_of = ratings.get("as_of", "")
     try:

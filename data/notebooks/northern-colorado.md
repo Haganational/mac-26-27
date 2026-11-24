@@ -1,6 +1,6 @@
 # Gus Ferraro, The Greeley Argus
 
-_Northern Colorado (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Northern Colorado (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 
 ## Barometer
 
-**39 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**50 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gus editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gus editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,6 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 - 2026-11-19: L 54-98 at BYU Cougars. Barometer 39 (testy). <!-- g:401921742 -->
 - 2026-11-19: Social recap posted (L 54-98 vs BYU Cougars): https://hardwoodbricks.com/bigsky/games/401921742.html <!-- post:401921742:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925890.html <!-- post:401925890:preview -->
+- 2026-11-21: W 89-66 vs Justice Lions. Barometer 50 (steady). <!-- g:401925890 -->
+- 2026-11-21: Social recap posted (W 89-66 vs Justice Lions): https://hardwoodbricks.com/bigsky/games/401925890.html <!-- post:401925890:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:preview -->

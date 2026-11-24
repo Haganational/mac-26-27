@@ -1,0 +1,807 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:11-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "saint-marys",
+   "short": "Saint Mary's",
+   "rank": 1,
+   "score": 15.9,
+   "form": 15.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 1,
+   "record": "6-1",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Portland State Vikings",
+     "site": "home",
+     "conf": false,
+     "result": "W 94-78"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Saint Louis Billikens",
+     "site": "home",
+     "conf": false,
+     "result": "W 95-78"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Menlo Oaks",
+     "site": "home",
+     "conf": false,
+     "result": "W 94-78"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Thu Nov 26",
+     "opp": "UCLA Bruins",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mantas Juzenas",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 20.6,
+     "rpg": 9.4,
+     "apg": 3.1,
+     "gp": 7
+    },
+    {
+     "name": "Joshua Dent",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.6,
+     "rpg": 2.0,
+     "apg": 5.1,
+     "gp": 7
+    },
+    {
+     "name": "Vangelis Zougris",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 13.7,
+     "rpg": 5.9,
+     "apg": 2.0,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "santa-clara",
+   "short": "Santa Clara",
+   "rank": 2,
+   "score": 8.2,
+   "form": 7.1,
+   "road": 1.2,
+   "road_wins": [
+    {
+     "opp": "North Texas Mean Green",
+     "site": "road",
+     "score": "76-71",
+     "date": "Nov 11",
+     "bonus": 1.15
+    }
+   ],
+   "prev_rank": 2,
+   "record": "5-1",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "VCU Rams",
+     "site": "home",
+     "conf": false,
+     "result": "L 77-83"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Illinois State Redbirds",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Tue Nov 24",
+     "opp": "Nevada Wolf Pack",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Utah Tech Trailblazers",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Sash Gavalyugov",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.7,
+     "rpg": 3.2,
+     "apg": 3.5,
+     "gp": 6
+    },
+    {
+     "name": "Elijah Mahi",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 13.2,
+     "rpg": 6.0,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Chris Tadjo",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 10.5,
+     "rpg": 6.5,
+     "apg": 0.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "pacific",
+   "short": "Pacific",
+   "rank": 3,
+   "score": 3.4,
+   "form": 2.8,
+   "road": 0.6,
+   "road_wins": [
+    {
+     "opp": "Bradley Braves",
+     "site": "road",
+     "score": "63-52",
+     "date": "Nov 7",
+     "bonus": 0.59
+    }
+   ],
+   "prev_rank": 3,
+   "record": "5-1",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Pacific Union Pioneers",
+     "site": "home",
+     "conf": false,
+     "result": "W 96-41"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Bradley Braves",
+     "site": "home",
+     "conf": false,
+     "result": "W 63-62"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Jacksonville State Gamecocks",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Thu Nov 26",
+     "opp": "Omaha Mavericks",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "UC Davis Aggies",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Adriel Nyorha",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 14.7,
+     "rpg": 5.5,
+     "apg": 4.0,
+     "gp": 6
+    },
+    {
+     "name": "Jaion Pitt",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 13.0,
+     "rpg": 5.8,
+     "apg": 2.7,
+     "gp": 6
+    },
+    {
+     "name": "Jaden Winston",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.2,
+     "rpg": 2.2,
+     "apg": 3.3,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "san-diego",
+   "short": "San Diego",
+   "rank": 4,
+   "score": 3.2,
+   "form": 1.7,
+   "road": 1.5,
+   "road_wins": [
+    {
+     "opp": "UC Irvine Anteaters",
+     "site": "neutral",
+     "score": "67-64",
+     "date": "Nov 21",
+     "bonus": 0.74
+    },
+    {
+     "opp": "Fordham Rams",
+     "site": "neutral",
+     "score": "80-58",
+     "date": "Nov 22",
+     "bonus": 0.76
+    }
+   ],
+   "prev_rank": 9,
+   "record": "6-1",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "UC Riverside Highlanders",
+     "site": "home",
+     "conf": false,
+     "result": "W 71-62"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "UC Irvine Anteaters",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 67-64"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Fordham Rams",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 80-58"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Northern Colorado Bears",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Davion Hill",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 13.4,
+     "rpg": 3.0,
+     "apg": 3.1,
+     "gp": 7
+    },
+    {
+     "name": "Dusty Stromer",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.7,
+     "rpg": 3.9,
+     "apg": 1.7,
+     "gp": 7
+    },
+    {
+     "name": "Marqui Worthy Jr.",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.1,
+     "rpg": 2.3,
+     "apg": 3.0,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "seattle",
+   "short": "Seattle U",
+   "rank": 5,
+   "score": 1.8,
+   "form": 1.4,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "California Baptist Lancers",
+     "site": "road",
+     "score": "83-54",
+     "date": "Nov 17",
+     "bonus": 0.35
+    }
+   ],
+   "prev_rank": 8,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "California Baptist Lancers",
+     "site": "road",
+     "conf": false,
+     "result": "W 83-54"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "UC San Diego Tritons",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 64-90"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "UC Irvine Anteaters",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mason Williams",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 17.6,
+     "rpg": 4.2,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Will Heimbrodt",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 16.3,
+     "rpg": 7.2,
+     "apg": 3.0,
+     "gp": 6
+    },
+    {
+     "name": "Halvine Dzellat",
+     "class": "Senior",
+     "pos": "C",
+     "ppg": 10.7,
+     "rpg": 7.3,
+     "apg": 0.0,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "pepperdine",
+   "short": "Pepperdine",
+   "rank": 6,
+   "score": 0.5,
+   "form": 0.5,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 6,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Thu Nov 19",
+     "opp": "UC Santa Barbara Gauchos",
+     "site": "home",
+     "conf": false,
+     "result": "L 80-88"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "West Coast Baptist Eagles",
+     "site": "home",
+     "conf": false,
+     "result": "W 140-54"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "UNC Greensboro Spartans",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "Cal State Bakersfield Roadrunners",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Lehigh Mountain Hawks",
+     "site": "neutral",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Petar Majstorovic",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 14.7,
+     "rpg": 3.3,
+     "apg": 2.2,
+     "gp": 6
+    },
+    {
+     "name": "David Mager",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 14.3,
+     "rpg": 4.3,
+     "apg": 2.0,
+     "gp": 3
+    },
+    {
+     "name": "Alex Constanza",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 14.0,
+     "rpg": 6.2,
+     "apg": 2.7,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "portland",
+   "short": "Portland",
+   "rank": 7,
+   "score": -0.7,
+   "form": -3.2,
+   "road": 2.5,
+   "road_wins": [
+    {
+     "opp": "Bethesda Flames",
+     "site": "neutral",
+     "score": "130-56",
+     "date": "Nov 8",
+     "bonus": 0.13
+    },
+    {
+     "opp": "Hawai'i Rainbow Warriors",
+     "site": "road",
+     "score": "73-66",
+     "date": "Nov 9",
+     "bonus": 0.74
+    },
+    {
+     "opp": "Colorado Buffaloes",
+     "site": "road",
+     "score": "77-74",
+     "date": "Nov 18",
+     "bonus": 1.6
+    }
+   ],
+   "prev_rank": 5,
+   "record": "5-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Colorado Buffaloes",
+     "site": "road",
+     "conf": false,
+     "result": "W 77-74"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Fordham Rams",
+     "site": "neutral",
+     "conf": false,
+     "result": "L 69-87"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "California Baptist Lancers",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 79-71"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sun Nov 29",
+     "opp": "Stanford Cardinal",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "James O'Donnell",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 18.0,
+     "rpg": 10.0,
+     "apg": 1.6,
+     "gp": 5
+    },
+    {
+     "name": "Jaxon Olvera",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.2,
+     "rpg": 3.4,
+     "apg": 2.4,
+     "gp": 8
+    },
+    {
+     "name": "Hunter Adam",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.6,
+     "rpg": 5.8,
+     "apg": 1.6,
+     "gp": 8
+    }
+   ]
+  },
+  {
+   "key": "san-francisco",
+   "short": "San Francisco",
+   "rank": 8,
+   "score": -0.8,
+   "form": -0.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 7,
+   "record": "4-1",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "Louisiana Ragin' Cajuns",
+     "site": "home",
+     "conf": false,
+     "result": "W 77-56"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Nevada Wolf Pack",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Tue Nov 24",
+     "opp": "Oregon State Beavers",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Bethune-Cookman Wildcats",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Gustav Knudsen",
+     "class": "Freshman",
+     "pos": "F",
+     "ppg": 14.6,
+     "rpg": 6.2,
+     "apg": 1.4,
+     "gp": 5
+    },
+    {
+     "name": "Ben Oosterbaan",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 13.4,
+     "rpg": 6.0,
+     "apg": 0.8,
+     "gp": 5
+    },
+    {
+     "name": "Ismaila Diagne",
+     "class": "Junior",
+     "pos": "C",
+     "ppg": 10.0,
+     "rpg": 7.5,
+     "apg": 1.2,
+     "gp": 4
+    }
+   ]
+  },
+  {
+   "key": "loyola-marymount",
+   "short": "LMU",
+   "rank": 9,
+   "score": -0.9,
+   "form": -1.1,
+   "road": 0.2,
+   "road_wins": [
+    {
+     "opp": "California Baptist Lancers",
+     "site": "neutral",
+     "score": "80-73",
+     "date": "Nov 21",
+     "bonus": 0.2
+    }
+   ],
+   "prev_rank": 4,
+   "record": "4-3",
+   "conf_record": "0-0",
+   "streak": "W3",
+   "last_week": [
+    {
+     "date": "Sat Nov 21",
+     "opp": "California Baptist Lancers",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 80-73"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "UC Irvine Anteaters",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 72-68"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Wed Nov 25",
+     "opp": "Eastern Washington Eagles",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "UC San Diego Tritons",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Zion Sensley",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.3,
+     "rpg": 8.0,
+     "apg": 1.7,
+     "gp": 7
+    },
+    {
+     "name": "Jevon Porter",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 14.3,
+     "rpg": 7.6,
+     "apg": 3.3,
+     "gp": 7
+    },
+    {
+     "name": "Jasai Miles",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 12.3,
+     "rpg": 3.9,
+     "apg": 2.6,
+     "gp": 7
+    }
+   ]
+  },
+  {
+   "key": "denver",
+   "short": "Denver",
+   "rank": 10,
+   "score": -3.8,
+   "form": -3.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 10,
+   "record": "1-4",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "Colorado Colorado Springs Mountain Lions",
+     "site": "home",
+     "conf": false,
+     "result": "W 101-63"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Eastern Michigan Eagles",
+     "site": "road",
+     "conf": false,
+     "result": "L 68-70"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Kansas Jayhawks",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "New Mexico State Aggies",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Carson Johnson",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 16.6,
+     "rpg": 1.4,
+     "apg": 2.6,
+     "gp": 5
+    },
+    {
+     "name": "Kam Martin",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 14.0,
+     "rpg": 5.0,
+     "apg": 1.0,
+     "gp": 5
+    },
+    {
+     "name": "Shaun Wysocki",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 11.2,
+     "rpg": 5.2,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  }
+ ]
+}

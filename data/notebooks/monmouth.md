@@ -1,6 +1,6 @@
 # Jersey Jo Romano, The West Long Branch Courier
 
-_Monmouth (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Monmouth (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**26 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jersey editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jersey editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,6 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:preview -->
 - 2026-11-21: L 64-75 at Princeton Tigers. Barometer 34 (testy). <!-- g:401924736 -->
 - 2026-11-21: Social recap posted (L 64-75 vs Princeton Tigers): https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/caa/games/401913102.html <!-- post:401913102:preview -->
+- 2026-11-24: L 45-85 at North Carolina Tar Heels. Barometer 26 (despondent). <!-- g:401913102 -->
+- 2026-11-24: Social recap posted (L 45-85 vs North Carolina Tar Heels): https://hardwoodbricks.com/caa/games/401913102.html <!-- post:401913102:recap -->

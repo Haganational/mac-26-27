@@ -1,6 +1,6 @@
 # Boone Rourke, The Boise Ledger
 
-_Boise State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Boise State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -73,7 +73,7 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:preview -->
 - 2026-11-21: L 69-83 vs Sam Houston Bearkats. Barometer 49 (steady). <!-- g:401928795 -->
 - 2026-11-21: Social recap posted (L 69-83 vs Sam Houston Bearkats): https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401922023.html <!-- post:401922023:preview -->

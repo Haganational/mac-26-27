@@ -119,8 +119,8 @@ def test_neutral_site_with_disagreeing_favorites_gets_no_side(tmp_path):
 def test_lock_once_at_815_then_grade_and_rank(tmp_path):
     d, out = tmp_path / "lg", tmp_path / "tops"
     _write_day(d, [_sg("1", "1", "2"), _sg("2", "3", "4")], [_pr("1", -5.0, -12.0, 140, 131), _pr("2", 4.5, 4.0, 150, 158)])
-    early = datetime(2026, 11, 19, 13, 0, tzinfo=timezone.utc)
-    assert tops.lock(early, out, [d], scoring={}) is None, "nothing before 8:15"
+    early = datetime(2026, 11, 19, 12, 15, tzinfo=timezone.utc)  # 7:15 AM ET
+    assert tops.lock(early, out, [d], scoring={}) is None, "nothing before 7:30"
     card = tops.lock(LOCK, out, [d], scoring={})
     assert card and card["board"] == 2 and card["picks"]["brett"][0]["game"] == "1"
     assert card["picks"]["shark"][0]["label"] == "Team 3 +4.5"
@@ -170,3 +170,17 @@ def test_every_capper_makes_two_picks_even_on_a_thin_board():
     assert ps[0]["label"] == "Under 140" and "Closest thing" in ps[0]["why"]
     assert ps[1]["team"] == "Team 2" and ps[1]["why"].startswith("Second-stingiest")
     assert tops.make_picks([], DAY) == {k: [] for k in tops.RULES}
+
+
+def test_window_groups_picks_by_game_and_grades_finals():
+    from mac import tops
+    card = {"date": "2026-11-21", "picks": {
+        "shark": [{"kind": "total", "game": "9", "side": "over", "line": 130.5, "label": "Over 130.5"}],
+        "brett": [{"kind": "side", "game": "9", "side": "home", "line": 4.0, "label": "Home +4"},
+                  {"kind": "side", "game": "7", "side": "away", "line": -2.0, "label": "Away -2", "result": "loss"}]}}
+    w = tops.window([card])
+    assert [r["key"] for r in w["9"]] == ["brett", "shark"]  # capper order, sides first
+    assert w["7"][0]["result"] == "loss"
+    g = tops.graded(w["9"], home=70, away=72)  # home +4 covers; 142 goes over
+    assert [r["result"] for r in g] == ["win", "win"] and g[0]["units"] == tops.WIN
+    assert tops.graded(w["9"], None, None)[0]["result"] is None

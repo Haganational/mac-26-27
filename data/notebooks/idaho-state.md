@@ -1,6 +1,6 @@
 # Dale Pickett, The Pocatello Register
 
-_Idaho State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Idaho State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -72,7 +72,7 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -85,3 +85,4 @@ Dale Pickett has kept a backyard weather station in Pocatello since 1994 and rep
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:preview -->
 - 2026-11-20: W 86-71 vs South Dakota State Jackrabbits. Barometer 40 (testy). <!-- g:401922022 -->
 - 2026-11-20: Social recap posted (W 86-71 vs South Dakota State Jackrabbits): https://hardwoodbricks.com/bigsky/games/401922022.html <!-- post:401922022:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401922023.html <!-- post:401922023:preview -->

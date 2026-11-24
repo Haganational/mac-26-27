@@ -1,0 +1,31 @@
+name: lock call
+
+# Posts the newest Lock Call episode's video to Bluesky when an episode is added on main (or by hand).
+# An episode already posted is skipped, so a re-run is safe.
+on:
+  push:
+    branches: [main]
+    paths: ["data/podcast/episodes.json"]
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id from data/podcast/episodes.json (blank = newest)"
+        required: false
+
+jobs:
+  bluesky:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Post to Bluesky
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          EPISODE: ${{ inputs.episode }}
+        run: python -m mac.lockcall bluesky "$EPISODE"

@@ -1,6 +1,6 @@
 # Terrence Boyd, The Norfolk Spectator
 
-_Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Norfolk State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 
 ## Barometer
 
-**26 of 100, despondent.** Record 2-4 (0-0 in conference), streak L4, last five WLLLL.
+**21 of 100, despondent.** Record 2-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 - 2026-11-18: L 79-93 at Georgia Tech Yellow Jackets. Barometer 26 (despondent). <!-- g:401920308 -->
 - 2026-11-18: Social recap posted (L 79-93 vs Georgia Tech Yellow Jackets): https://hardwoodbricks.com/meac/games/401920308.html <!-- post:401920308:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:preview -->
+- 2026-11-21: L 80-89 vs UNC Wilmington Seahawks. Barometer 21 (despondent). <!-- g:401925897 -->
+- 2026-11-22: Social recap posted (L 80-89 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:recap -->

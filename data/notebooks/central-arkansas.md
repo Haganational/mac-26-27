@@ -1,6 +1,6 @@
 # Dwayne Hollis, The Conway Banner
 
-_Central Arkansas (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Central Arkansas (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**57 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dwayne editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dwayne editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,8 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 - 2026-11-17: L 66-99 at Oklahoma State Cowboys. Barometer 40 (testy). <!-- g:401917917 -->
 - 2026-11-17: Social recap posted (L 66-99 vs Oklahoma State Cowboys): https://hardwoodbricks.com/uac/games/401917917.html <!-- post:401917917:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:preview -->
+- 2026-11-21: W 82-67 at Jacksonville Dolphins. Barometer 50 (steady). <!-- g:401917918 -->
+- 2026-11-21: Social recap posted (W 82-67 vs Jacksonville Dolphins): https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:preview -->
+- 2026-11-24: W 80-66 at North Florida Ospreys. Barometer 57 (steady). <!-- g:401917919 -->
+- 2026-11-24: Social recap posted (W 80-66 vs North Florida Ospreys): https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:recap -->

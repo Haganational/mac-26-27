@@ -1,6 +1,6 @@
 # Grant Lockhart, The Harrisonburg Chronicle
 
-_James Madison (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_James Madison (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**74 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,6 @@ Grant Lockhart led cavern tours in the Shenandoah Valley for eighteen years and 
 - 2026-11-19: W 70-52 at Towson Tigers. Barometer 65 (buoyant). <!-- g:401926838 -->
 - 2026-11-19: Social recap posted (W 70-52 vs Towson Tigers): https://hardwoodbricks.com/sunbelt/games/401926838.html <!-- post:401926838:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929452.html <!-- post:401929452:preview -->
+- 2026-11-21: W 136-45 vs Virginia Lynchburg Dragons. Barometer 74 (buoyant). <!-- g:401929452 -->
+- 2026-11-21: Social recap posted (W 136-45 vs Virginia Lynchburg Dragons): https://hardwoodbricks.com/sunbelt/games/401929452.html <!-- post:401929452:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:preview -->

@@ -1,6 +1,6 @@
 # Maya Delgado, The Fairborn Intelligencer
 
-_Wright State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Wright State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 
 ## Barometer
 
-**87 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**86 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Maya editorializes: 83% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Maya editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,7 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401928829.html <!-- post:401928829:preview -->
 - 2026-11-19: W 77-60 vs Malone Pioneers. Barometer 87 (giddy). <!-- g:401928829 -->
 - 2026-11-19: Social recap posted (W 77-60 vs Malone Pioneers): https://hardwoodbricks.com/horizon/games/401928829.html <!-- post:401928829:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->
+- 2026-11-23: W 66-64 vs (neutral) Akron Zips. Barometer 86 (giddy). <!-- g:401928830 -->
+- 2026-11-23: Social recap posted (W 66-64 vs Akron Zips): https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:recap -->

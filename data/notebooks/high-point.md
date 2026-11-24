@@ -1,6 +1,6 @@
 # Jalen Pierce, The High Point Examiner
 
-_High Point (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_High Point (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:preview -->
 - 2026-11-20: W 85-74 vs Montana State Bobcats. Barometer 86 (giddy). <!-- g:401920413 -->
 - 2026-11-20: Social recap posted (W 85-74 vs Montana State Bobcats): https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:preview -->

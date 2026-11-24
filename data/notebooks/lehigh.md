@@ -1,6 +1,6 @@
 # Carl Brenner, The Bethlehem Mercury
 
-_Lehigh (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Lehigh (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/patriot/games/401926755.html <!-- post:401926755:preview -->
 - 2026-11-21: W 79-38 vs Neumann Knights. Barometer 68 (buoyant). <!-- g:401926755 -->
 - 2026-11-21: Social recap posted (W 79-38 vs Neumann Knights): https://hardwoodbricks.com/patriot/games/401926755.html <!-- post:401926755:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:preview -->

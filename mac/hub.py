@@ -237,6 +237,45 @@ def edition_tops(ranked: list[dict[str, Any]], eds: list[dict[str, Any]]) -> dic
     return out
 
 
+def front_pin(site_root: Path, now: datetime) -> dict[str, Any] | None:
+    """Above the fold (Matthew, Nov 21 2026): a story or dispatch pinned for 12 or 24 hours leads the front page
+    in place of the lead game card. The newest live pin wins; it steps aside on its own once pin_until passes
+    (the next build, and a script on the page for readers who keep it open)."""
+    from . import notes
+    eds = {lg.key: lg for lg in LEAGUES.values()}
+    best = None
+    if not notes.NOTES_DIR.exists():
+        return None
+    for path in notes.NOTES_DIR.glob("*.md"):
+        if path.name.lower() == "readme.md":
+            continue
+        meta, body = notes.parse(path.read_text(encoding="utf-8"))
+        if meta.get("draft", "").lower() in ("true", "yes", "1"):
+            continue
+        until = notes.pin_until(meta, path.stem)
+        if not until or datetime.fromisoformat(until) <= now:
+            continue
+        lg = eds.get((meta.get("league") or "mac").lower())
+        if lg is None:
+            continue
+        published = notes._published(meta, path.stem)
+        if best and best["published"] >= published:
+            continue
+        text = re.sub(r"\s+", " ", re.sub(r"[*_>#\[\]]|\(https?://[^)]*\)", "", body)).strip()
+        photos = notes.photos_of(meta, meta.get("credit") or meta.get("author") or "")
+        article = (meta.get("format") or "").lower() == "article"
+        words = text.split()
+        best = {"title": meta.get("title") or "From the fieldhouse", "author": meta.get("author") or "",
+                "dek": " ".join(words[:55]) + ("…" if len(words) > 55 else ""),
+                "kind": notes.kind_of(meta.get("kind") or meta.get("icon")), "article": article,
+                "label": "Article" if article else "Fieldhouse Notes", "league": lg.short, "color": CONF_COLORS.get(lg.key, "#a8441c"),
+                "href": f"{lg.path}articles/{path.stem}.html" if article else f"{lg.path}notes.html#n-{path.stem}",
+                "photo": (lg.path + photos[0]["src"]) if photos else "", "caption": photos[0]["caption"] if photos else "",
+                "published": published, "until": until,
+                "until_ms": int(datetime.fromisoformat(until).timestamp() * 1000)}
+    return best
+
+
 def front_dispatches(site_root: Path, most: int = 3) -> list[dict[str, Any]]:
     """The newest Fieldhouse Notes from every edition, for the front page."""
     from . import notes
@@ -459,7 +498,10 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     night = game_night(eds, now)
     if night:  # game night: tonight's games take the main column; last night's recaps move to the rail
         lead, cards = None, []
-    html = env.get_template("hub.html").render(den=den, tb=tb, weave=weave_billing(now), night=night,
+    pin = front_pin(site_root, now)
+    if pin:  # above the fold: the pinned story takes the lead's place; the lead recap drops into the river
+        lead = None
+    html = env.get_template("hub.html").render(den=den, tb=tb, weave=weave_billing(now), night=night, pin=pin,
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         lead=lead, cards=cards, river=[x for x in recaps if x is not lead and x not in cards][:8], home=home, tops=tops,
         tonight=tonight_across(eds), dispatches=front_dispatches(site_root), editor=editor,
@@ -608,7 +650,13 @@ def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names
 def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
     """Tops and Bottoms (/tops.html, mac.tops): grade what's final, lock today's card at 8:15 AM ET, render the page.
     Fenced like the Den: a failure prints a line and the front page carries on. Returns the front page's rail line."""
-    from . import tops
+    from . import lockcall, tops
+    try:
+        call = lockcall.page_context()
+        lockcall.write_feed(site_root, base)
+    except Exception as e:  # the podcast never takes the board down with it
+        print("tops: podcast skipped,", repr(e))
+        call = {}
     try:
         print("tops:", tops.run(now))
     except Exception as e:
@@ -617,7 +665,7 @@ def tops_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], name
         (site_root / "tops.html").write_text(env.get_template("tops.html").render(
             eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
             today_label=now.astimezone(ET).strftime("%A, %B %-d, %Y"),
-            built=now.isoformat(timespec="minutes"), **tops.page_context(now)))
+            built=now.isoformat(timespec="minutes"), **tops.page_context(now), **call))
         return tops.teaser(now)
     except Exception as e:
         print("tops: page skipped,", repr(e))

@@ -1,6 +1,6 @@
 # Clyde Hargrove, The Peoria Courier
 
-_Bradley (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Bradley (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
+**43 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Clyde editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Clyde editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Clyde Hargrove ran a riverboat gift shop on the Peoria waterfront for twenty yea
 - 2026-11-19: L 73-78 vs Purdue Fort Wayne Mastodons. Barometer 48 (steady). <!-- g:401927357 -->
 - 2026-11-19: Social recap posted (L 73-78 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401927357.html <!-- post:401927357:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:preview -->
+- 2026-11-22: L 62-63 at Pacific Tigers. Barometer 43 (testy). <!-- g:401917537 -->
+- 2026-11-22: Social recap posted (L 62-63 vs Pacific Tigers): https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:recap -->

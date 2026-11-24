@@ -1,6 +1,6 @@
 # Hamza Vance, The Buies Creek Courant
 
-_Campbell (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Campbell (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -67,7 +67,7 @@ Hamza Vance was an undersized high school power forward who became a physical th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Hamza Vance was an undersized high school power forward who became a physical th
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/caa/games/401909799.html <!-- post:401909799:preview -->
 - 2026-11-21: W 80-70 at Kansas State Wildcats. Barometer 47 (steady). <!-- g:401909799 -->
 - 2026-11-21: Social recap posted (W 80-70 vs Kansas State Wildcats): https://hardwoodbricks.com/caa/games/401909799.html <!-- post:401909799:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920742.html <!-- post:401920742:preview -->

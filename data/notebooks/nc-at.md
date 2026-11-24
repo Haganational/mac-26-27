@@ -1,6 +1,6 @@
 # Dominique Vance, The Greensboro Chronicle
 
-_NC A&T (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_NC A&T (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 
 ## Barometer
 
-**61 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**67 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dominique editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dominique editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,6 @@ Dominique Vance led the band as a drum major in college and spent years as a mid
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:preview -->
 - 2026-11-19: W 82-70 vs Morgan State Bears. Barometer 61 (steady). <!-- g:401921156 -->
 - 2026-11-19: Social recap posted (W 82-70 vs Morgan State Bears): https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/caa/games/401921157.html <!-- post:401921157:preview -->
+- 2026-11-24: W 62-60 at South Carolina State Bulldogs. Barometer 67 (buoyant). <!-- g:401921157 -->
+- 2026-11-24: Social recap posted (W 62-60 vs South Carolina State Bulldogs): https://hardwoodbricks.com/caa/games/401921157.html <!-- post:401921157:recap -->

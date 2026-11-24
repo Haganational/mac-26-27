@@ -1,6 +1,6 @@
 # Will Ashford, The Homewood Almanac
 
-_Samford (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Samford (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 
 ## Barometer
 
-**50 of 100, steady.** Record 2-2 (0-0 in conference), streak W1, last five WLLW.
+**56 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -78,3 +78,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922283.html <!-- post:401922283:preview -->
 - 2026-11-18: W 74-64 at South Carolina Upstate Spartans. Barometer 50 (steady). <!-- g:401922283 -->
 - 2026-11-19: Social recap posted (W 74-64 vs South Carolina Upstate Spartans): https://hardwoodbricks.com/socon/games/401922283.html <!-- post:401922283:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:preview -->
+- 2026-11-22: W 80-77 vs UNC Asheville Bulldogs. Barometer 56 (steady). <!-- g:401922293 -->
+- 2026-11-23: Social recap posted (W 80-77 vs UNC Asheville Bulldogs): https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:preview -->

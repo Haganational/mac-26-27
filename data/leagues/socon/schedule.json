@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:41:13+00:00",
+ "fetched_at": "2026-11-23T23:19:43+00:00",
  "season": 2027,
  "games": [
   {
@@ -2460,11 +2460,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unc-greensboro-spartans-mens-basketball-tickets-bodford-arena-11-21-2026--sports-ncaa-basketball/production/7568744?wsUser=717",
-    "low": 46.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Bodford Arena",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -2473,21 +2469,21 @@
     "key": "unc-greensboro",
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2908",
     "key": null,
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909730",
@@ -2505,11 +2501,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wake-forest-demon-deacons-mens-basketball-tickets-lawrence-joel-veterans-memorial-coliseum-11-21-2026--sports-ncaa-basketball/production/7260411?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "LJVM Coliseum",
    "venue_city": "Winston-Salem",
    "venue_state": "NC",
@@ -2518,21 +2510,21 @@
     "key": null,
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
    "away": {
     "espn_id": "2717",
     "key": "western-carolina",
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": null,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922048",
@@ -2550,11 +2542,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/east-tennessee-state-buccaneers-mens-basketball-tickets-freedom-hall-civic-center-tn-11-21-2026--sports-ncaa-basketball/production/7745411?wsUser=717",
-    "low": 59.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Freedom Hall (TN)",
    "venue_city": "Johnson City",
    "venue_state": "TN",
@@ -2563,21 +2551,21 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "2344",
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926113",
@@ -2589,11 +2577,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-21-2026--sports-ncaa-basketball/production/7513277?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Timmons Arena",
    "venue_city": "Greenville",
    "venue_state": "SC",
@@ -2602,21 +2586,21 @@
     "key": "furman",
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
-    "winner": null
+    "score": 108,
+    "winner": true
    },
    "away": {
     "espn_id": "126954",
     "key": null,
     "name": "Clinton Golden Bears",
     "abbr": "CTON",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925709",
@@ -2634,11 +2618,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wofford-college-terriers-mens-basketball-tickets-jerry-richardson-indoor-stadium-11-21-2026--sports-ncaa-basketball/production/7595582?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Jerry Richardson Indoor Stadium",
    "venue_city": "Spartanburg",
    "venue_state": "SC",
@@ -2647,21 +2627,21 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2737",
     "key": null,
     "name": "Winthrop Eagles",
     "abbr": "WIN",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920975",
@@ -2679,11 +2659,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-21-2026--sports-ncaa-basketball/production/7745854?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "McKenzie Arena",
    "venue_city": "Chattanooga",
    "venue_state": "TN",
@@ -2692,21 +2668,21 @@
     "key": "chattanooga",
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
    "away": {
     "espn_id": "2515",
     "key": null,
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911378",
@@ -2733,21 +2709,21 @@
     "key": "mercer",
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2127",
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911394",
@@ -2765,11 +2741,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-21-2026--sports-ncaa-basketball/production/7767065?wsUser=717",
-    "low": 45.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Cameron Hall",
    "venue_city": "Lexington",
    "venue_state": "VA",
@@ -2778,21 +2750,21 @@
     "key": "vmi",
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2241",
     "key": null,
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926217",
@@ -2810,11 +2782,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/tennessee-tech-golden-eagles-mens-basketball-tickets-hooper-eblen-center-11-21-2026--sports-ncaa-basketball/production/7768561?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Hooper Eblen Center",
    "venue_city": "Cookeville",
    "venue_state": "TN",
@@ -2823,21 +2791,21 @@
     "key": "tennessee-tech",
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": null,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
    "away": {
     "espn_id": "2506",
     "key": null,
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922293",
@@ -2855,11 +2823,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-22-2026--sports-ncaa-basketball/production/7457788?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:14:44Z"
-   },
+   "tickets": null,
    "venue": "Pete Hanna Center",
    "venue_city": "Homewood",
    "venue_state": "AL",
@@ -2868,21 +2832,21 @@
     "key": "samford",
     "name": "Samford Bulldogs",
     "abbr": "SAM",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2427",
     "key": null,
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": null,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926106",
@@ -2913,21 +2877,21 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
-    "winner": null
+    "score": 108,
+    "winner": true
    },
    "away": {
     "espn_id": "2310",
     "key": null,
     "name": "Kentucky State Thorobreds",
     "abbr": "KYSU",
-    "score": null,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926183",
@@ -2947,7 +2911,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 27.0,
+    "low": 28.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -2958,7 +2922,7 @@
     "key": null,
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2966,13 +2930,13 @@
     "key": "unc-greensboro",
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401923262",
@@ -2992,7 +2956,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-24-2026--sports-ncaa-basketball/production/7612561?wsUser=717",
-    "low": 25.0,
+    "low": 32.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -3172,7 +3136,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-24-2026--sports-ncaa-basketball/production/7745856?wsUser=717",
-    "low": 29.0,
+    "low": 26.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "McKenzie Arena",
@@ -3217,7 +3181,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-tech-yellow-jackets-mens-basketball-tickets-mccamish-pavilion-11-24-2026--sports-ncaa-basketball/production/7453309?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "McCamish Pavilion",
@@ -3262,7 +3226,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-tech-golden-eagles-mens-basketball-tickets-hooper-eblen-center-11-24-2026--sports-ncaa-basketball/production/7768609?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Hooper Eblen Center",
@@ -3479,7 +3443,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 19.0,
+    "low": 17.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -3608,7 +3572,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-28-2026--sports-ncaa-basketball/production/7513291?wsUser=717",
-    "low": 20.0,
+    "low": 22.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Timmons Arena",
@@ -3653,7 +3617,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-28-2026--sports-ncaa-basketball/production/7662707?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Baptist Health Arena",
@@ -3698,7 +3662,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-28-2026--sports-ncaa-basketball/production/7290631?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Robins Center",
@@ -3874,7 +3838,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/samford-university-bulldogs-mens-basketball-tickets-pete-hanna-center-11-29-2026--sports-ncaa-basketball/production/7457792?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Pete Hanna Center",
@@ -3964,7 +3928,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-1-2026--sports-ncaa-basketball/production/7745860?wsUser=717",
-    "low": 32.0,
+    "low": 29.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "McKenzie Arena",
@@ -4445,7 +4409,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-5-2026--sports-ncaa-basketball/production/7745862?wsUser=717",
-    "low": 32.0,
+    "low": 29.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "McKenzie Arena",
@@ -4756,7 +4720,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-12-8-2026--sports-ncaa-basketball/production/7745864?wsUser=717",
-    "low": 33.0,
+    "low": 29.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "McKenzie Arena",
@@ -5161,7 +5125,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-12-12-2026--sports-ncaa-basketball/production/7513297?wsUser=717",
-    "low": 23.0,
+    "low": 21.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Timmons Arena",
@@ -5423,7 +5387,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-12-15-2026--sports-ncaa-basketball/production/7465806?wsUser=717",
-    "low": 102.0,
+    "low": 88.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Prudential Center",
@@ -5757,7 +5721,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-12-19-2026--sports-ncaa-basketball/production/7513305?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Timmons Arena",
@@ -5892,7 +5856,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/virginia-tech-hokies-mens-basketball-tickets-cassell-coliseum-12-21-2026--sports-ncaa-basketball/production/7457651?wsUser=717",
-    "low": 26.0,
+    "low": 25.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Cassell Coliseum",
@@ -5937,7 +5901,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-12-21-2026--sports-ncaa-basketball/production/7153201?wsUser=717",
-    "low": 36.0,
+    "low": 39.0,
     "since": "2026-11-18T23:14:44Z"
    },
    "venue": "Dean E. Smith Center",
@@ -9931,5 +9895,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T03:22:18+00:00"
 }

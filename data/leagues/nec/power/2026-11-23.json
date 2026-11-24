@@ -1,0 +1,693 @@
+{
+ "week": "2026-11-23",
+ "frozen_at": "2026-11-23T06:26-05:00",
+ "method": {
+  "half_life_days": 21.0,
+  "road_bonus_pts": 1.4,
+  "neutral_share": 0.5
+ },
+ "teams": [
+  {
+   "key": "central-connecticut",
+   "short": "Central Connecticut",
+   "rank": 1,
+   "score": -5.9,
+   "form": -6.9,
+   "road": 1.0,
+   "road_wins": [
+    {
+     "opp": "Dartmouth Big Green",
+     "site": "road",
+     "score": "78-71",
+     "date": "Nov 8",
+     "bonus": 0.54
+    },
+    {
+     "opp": "Sacred Heart Pioneers",
+     "site": "road",
+     "score": "79-75",
+     "date": "Nov 12",
+     "bonus": 0.44
+    }
+   ],
+   "prev_rank": 1,
+   "record": "4-2",
+   "conf_record": "0-0",
+   "streak": "W4",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Vermont State Lyndon Hornets",
+     "site": "home",
+     "conf": false,
+     "result": "W 98-55"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Navy Midshipmen",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Fairfield Stags",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Raphel Laurent",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 19.3,
+     "rpg": 4.5,
+     "apg": 1.0,
+     "gp": 6
+    },
+    {
+     "name": "Ashton Reynolds",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 12.5,
+     "rpg": 4.0,
+     "apg": 0.8,
+     "gp": 4
+    },
+    {
+     "name": "Victor Payne Jr.",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 9.2,
+     "rpg": 2.4,
+     "apg": 0.6,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "liu",
+   "short": "LIU",
+   "rank": 2,
+   "score": -7.4,
+   "form": -7.4,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 3,
+   "record": "1-7",
+   "conf_record": "0-0",
+   "streak": "L1",
+   "last_week": [
+    {
+     "date": "Mon Nov 16",
+     "opp": "St. Thomas Tommies",
+     "site": "home",
+     "conf": false,
+     "result": "L 70-79"
+    },
+    {
+     "date": "Wed Nov 18",
+     "opp": "UNC Wilmington Seahawks",
+     "site": "home",
+     "conf": false,
+     "result": "W 115-114"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Fairfield Stags",
+     "site": "home",
+     "conf": false,
+     "result": "L 71-74"
+    }
+   ],
+   "next_week": [],
+   "top_scorers": [
+    {
+     "name": "Daquan Davis",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 14.5,
+     "rpg": 3.0,
+     "apg": 3.4,
+     "gp": 8
+    },
+    {
+     "name": "Jahki Howard",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 3.8,
+     "apg": 1.2,
+     "gp": 5
+    },
+    {
+     "name": "Deshawn Jean-Charles",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.7,
+     "rpg": 1.7,
+     "apg": 1.0,
+     "gp": 3
+    }
+   ]
+  },
+  {
+   "key": "le-moyne",
+   "short": "Le Moyne",
+   "rank": 3,
+   "score": -8.6,
+   "form": -8.6,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 2,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Evansville Purple Aces",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-79"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Missouri Tigers",
+     "site": "road",
+     "conf": false,
+     "result": "L 64-91"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Mansfield Mountaineers",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Fri Nov 27",
+     "opp": "Maine Black Bears",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Niagara Purple Eagles",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Lafayette Leopards",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Ty Francis",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 12.0,
+     "rpg": 3.3,
+     "apg": 0.7,
+     "gp": 6
+    },
+    {
+     "name": "Trevor Roe",
+     "class": "Junior",
+     "pos": "F",
+     "ppg": 11.8,
+     "rpg": 4.5,
+     "apg": 2.0,
+     "gp": 6
+    },
+    {
+     "name": "Khalil Williams",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 8.7,
+     "rpg": 3.0,
+     "apg": 0.5,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "mercyhurst",
+   "short": "Mercyhurst",
+   "rank": 4,
+   "score": -8.7,
+   "form": -9.1,
+   "road": 0.4,
+   "road_wins": [
+    {
+     "opp": "Western Illinois Leathernecks",
+     "site": "neutral",
+     "score": "68-65",
+     "date": "Nov 21",
+     "bonus": 0.2
+    },
+    {
+     "opp": "UAlbany Great Danes",
+     "site": "neutral",
+     "score": "78-75",
+     "date": "Nov 22",
+     "bonus": 0.21
+    }
+   ],
+   "prev_rank": 6,
+   "record": "3-5",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Fri Nov 20",
+     "opp": "Canisius Golden Griffins",
+     "site": "road",
+     "conf": false,
+     "result": "L 56-63"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Western Illinois Leathernecks",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 68-65"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "UAlbany Great Danes",
+     "site": "neutral",
+     "conf": false,
+     "result": "W 78-75"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "SUNY Fredonia Blue Devils",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Jake Lemelman",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 18.9,
+     "rpg": 3.1,
+     "apg": 4.9,
+     "gp": 8
+    },
+    {
+     "name": "Cameron Johnson",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.4,
+     "rpg": 4.6,
+     "apg": 0.4,
+     "gp": 8
+    },
+    {
+     "name": "Deraje Agbaosi",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 9.2,
+     "rpg": 6.9,
+     "apg": 1.1,
+     "gp": 8
+    }
+   ]
+  },
+  {
+   "key": "wagner",
+   "short": "Wagner",
+   "rank": 5,
+   "score": -8.8,
+   "form": -8.8,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 5,
+   "record": "1-5",
+   "conf_record": "0-0",
+   "streak": "L2",
+   "last_week": [
+    {
+     "date": "Tue Nov 17",
+     "opp": "Saint Joseph's Hawks",
+     "site": "road",
+     "conf": false,
+     "result": "L 65-84"
+    },
+    {
+     "date": "Fri Nov 20",
+     "opp": "Maryland Terrapins",
+     "site": "road",
+     "conf": false,
+     "result": "L 45-62"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Bloomsburg Huskies",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Kareem Watson",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 12.8,
+     "rpg": 3.3,
+     "apg": 0.7,
+     "gp": 6
+    },
+    {
+     "name": "Cam Estevez",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.2,
+     "rpg": 2.3,
+     "apg": 0.8,
+     "gp": 6
+    },
+    {
+     "name": "AJ Rodriguez",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 7.7,
+     "rpg": 5.5,
+     "apg": 0.2,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "new-haven",
+   "short": "New Haven",
+   "rank": 6,
+   "score": -9.7,
+   "form": -9.7,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 4,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W2",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "MCLA Mohawks",
+     "site": "home",
+     "conf": false,
+     "result": "W 96-50"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "New Hampshire Wildcats",
+     "site": "home",
+     "conf": false,
+     "result": "W 50-47"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Lindenwood Lions",
+     "site": "neutral",
+     "conf": false
+    },
+    {
+     "date": "Sun Nov 29",
+     "opp": "Mitchell Mariners",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Teshaun Steele",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 11.3,
+     "rpg": 5.3,
+     "apg": 2.0,
+     "gp": 6
+    },
+    {
+     "name": "Zoumana Traore",
+     "class": "Sophomore",
+     "pos": "F",
+     "ppg": 9.2,
+     "rpg": 5.5,
+     "apg": 0.5,
+     "gp": 6
+    },
+    {
+     "name": "Tim Walker",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 8.7,
+     "rpg": 2.2,
+     "apg": 1.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "fairleigh-dickinson",
+   "short": "Fairleigh Dickinson",
+   "rank": 7,
+   "score": -10.7,
+   "form": -11.0,
+   "road": 0.3,
+   "road_wins": [
+    {
+     "opp": "East Texas A&M Lions",
+     "site": "road",
+     "score": "80-76",
+     "date": "Nov 11",
+     "bonus": 0.28
+    }
+   ],
+   "prev_rank": 7,
+   "record": "3-3",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "NJIT Highlanders",
+     "site": "home",
+     "conf": false,
+     "result": "W 78-66"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Mon Nov 23",
+     "opp": "Iona Gaels",
+     "site": "road",
+     "conf": false
+    },
+    {
+     "date": "Wed Nov 25",
+     "opp": "Vermont State Randolph Knights",
+     "site": "home",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "David Jevtic",
+     "class": "Sophomore",
+     "pos": "G",
+     "ppg": 13.3,
+     "rpg": 4.8,
+     "apg": 1.3,
+     "gp": 6
+    },
+    {
+     "name": "Bol Agu",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 11.8,
+     "rpg": 3.0,
+     "apg": 1.0,
+     "gp": 6
+    },
+    {
+     "name": "JR Jacobs",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 11.0,
+     "rpg": 3.7,
+     "apg": 2.8,
+     "gp": 6
+    }
+   ]
+  },
+  {
+   "key": "stonehill",
+   "short": "Stonehill",
+   "rank": 8,
+   "score": -11.9,
+   "form": -11.9,
+   "road": 0.0,
+   "road_wins": [],
+   "prev_rank": 9,
+   "record": "2-4",
+   "conf_record": "0-0",
+   "streak": "W1",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "New Hampshire Wildcats",
+     "site": "home",
+     "conf": false,
+     "result": "L 70-90"
+    },
+    {
+     "date": "Sat Nov 21",
+     "opp": "Northeastern Huskies",
+     "site": "home",
+     "conf": false,
+     "result": "W 95-82"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Tue Nov 24",
+     "opp": "Vermont State Randolph Knights",
+     "site": "home",
+     "conf": false
+    },
+    {
+     "date": "Sat Nov 28",
+     "opp": "Notre Dame Fighting Irish",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Devon Arlington",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 10.8,
+     "rpg": 3.8,
+     "apg": 3.8,
+     "gp": 4
+    },
+    {
+     "name": "Trenton Ruth",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 10.0,
+     "rpg": 2.3,
+     "apg": 1.7,
+     "gp": 6
+    },
+    {
+     "name": "Jack Medalie",
+     "class": "Senior",
+     "pos": "F",
+     "ppg": 9.6,
+     "rpg": 4.6,
+     "apg": 1.0,
+     "gp": 5
+    }
+   ]
+  },
+  {
+   "key": "chicago-state",
+   "short": "Chicago State",
+   "rank": 9,
+   "score": -14.2,
+   "form": -14.7,
+   "road": 0.5,
+   "road_wins": [
+    {
+     "opp": "Incarnate Word Cardinals",
+     "site": "road",
+     "score": "66-54",
+     "date": "Nov 5",
+     "bonus": 0.24
+    },
+    {
+     "opp": "California Baptist Lancers",
+     "site": "road",
+     "score": "81-62",
+     "date": "Nov 11",
+     "bonus": 0.29
+    }
+   ],
+   "prev_rank": 8,
+   "record": "2-6",
+   "conf_record": "0-0",
+   "streak": "L4",
+   "last_week": [
+    {
+     "date": "Wed Nov 18",
+     "opp": "UIC Flames",
+     "site": "road",
+     "conf": false,
+     "result": "L 52-60"
+    },
+    {
+     "date": "Sun Nov 22",
+     "opp": "Marquette Golden Eagles",
+     "site": "road",
+     "conf": false,
+     "result": "L 62-106"
+    }
+   ],
+   "next_week": [
+    {
+     "date": "Sat Nov 28",
+     "opp": "Bradley Braves",
+     "site": "road",
+     "conf": false
+    }
+   ],
+   "top_scorers": [
+    {
+     "name": "Mike Price",
+     "class": "Junior",
+     "pos": "G",
+     "ppg": 17.6,
+     "rpg": 1.4,
+     "apg": 1.9,
+     "gp": 8
+    },
+    {
+     "name": "Will Lovings-Watts",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 8.1,
+     "rpg": 3.2,
+     "apg": 0.5,
+     "gp": 8
+    },
+    {
+     "name": "Armari Carraway",
+     "class": "Senior",
+     "pos": "G",
+     "ppg": 7.9,
+     "rpg": 1.1,
+     "apg": 0.9,
+     "gp": 7
+    }
+   ]
+  }
+ ]
+}

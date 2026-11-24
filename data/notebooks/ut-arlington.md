@@ -1,6 +1,6 @@
 # Rosa Treviño, The Arlington Courier
 
-_UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UT Arlington (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -72,7 +72,7 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -87,3 +87,4 @@ Rosa Treviño grew up in Arlington, worked ten years as a stadium operations man
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:preview -->
 - 2026-11-21: W 69-62 at Northwestern State Demons. Barometer 77 (buoyant). <!-- g:401925080 -->
 - 2026-11-21: Social recap posted (W 69-62 vs Northwestern State Demons): https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/summit/games/401929359.html <!-- post:401929359:preview -->

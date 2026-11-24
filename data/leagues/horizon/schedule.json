@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:28:19+00:00",
+ "fetched_at": "2026-11-23T23:03:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2785,11 +2785,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-11-21-2026--sports-ncaa-basketball/production/7603560?wsUser=717",
-    "low": 22.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Breslin Center",
    "venue_city": "East Lansing",
    "venue_state": "MI",
@@ -2798,21 +2794,21 @@
     "key": null,
     "name": "Michigan State Spartans",
     "abbr": "MSU",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2174",
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921169",
@@ -2839,21 +2835,21 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
    "away": {
     "espn_id": "2309",
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911022",
@@ -2871,11 +2867,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
    "venue_state": "OH",
@@ -2884,21 +2876,21 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "2459",
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928819",
@@ -2925,21 +2917,21 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "502",
     "key": null,
     "name": "Calumet St. Joseph Crimson Wave",
     "abbr": "CSJ",
-    "score": null,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920846",
@@ -2957,11 +2949,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-11-21-2026--sports-ncaa-basketball/production/7512851?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "UW-Milwaukee Panther Arena",
    "venue_city": "Milwaukee",
    "venue_state": "WI",
@@ -2970,21 +2958,21 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2900",
     "key": null,
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401918455",
@@ -3002,11 +2990,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-22-2026--sports-ncaa-basketball/production/7632148?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Zidian Family Arena at Beeghly Center",
    "venue_city": "Youngstown",
    "venue_state": "OH",
@@ -3015,21 +2999,21 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
    "away": {
     "espn_id": "2729",
     "key": null,
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928790",
@@ -3050,21 +3034,21 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "2523",
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401921176",
@@ -3091,21 +3075,21 @@
     "key": null,
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": null,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
    "away": {
     "espn_id": "85",
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928830",
@@ -3132,21 +3116,21 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
    "away": {
     "espn_id": "2006",
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921177",
@@ -3173,21 +3157,21 @@
     "key": "iu-indy",
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
    "away": {
     "espn_id": "2729",
     "key": null,
     "name": "William & Mary Tribe",
     "abbr": "W&M",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920752",
@@ -3218,21 +3202,21 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2379",
     "key": null,
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921029",
@@ -3257,7 +3241,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-23-2026--sports-ncaa-basketball/production/7762869?wsUser=717",
-    "low": 31.0,
+    "low": 36.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -3268,21 +3252,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "290",
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401927398",
@@ -3683,7 +3667,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -3728,7 +3712,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-27-2026--sports-ncaa-basketball/production/7632154?wsUser=717",
-    "low": 19.0,
+    "low": 15.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Zidian Family Arena at Beeghly Center",
@@ -3773,7 +3757,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 48.0,
+    "low": 59.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Fertitta Center",
@@ -3818,7 +3802,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 19.0,
+    "low": 17.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -4039,7 +4023,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Gill Coliseum",
@@ -4301,7 +4285,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-12-3-2026--sports-ncaa-basketball/production/7546697?wsUser=717",
-    "low": 24.0,
+    "low": 26.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -4432,7 +4416,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-12-5-2026--sports-ncaa-basketball/production/7713946?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -4608,7 +4592,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-12-8-2026--sports-ncaa-basketball/production/7762878?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -4737,7 +4721,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-state-wildcats-mens-basketball-tickets-bramlage-coliseum-12-8-2026--sports-ncaa-basketball/production/7355612?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Bramlage Coliseum",
@@ -4911,7 +4895,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-ppg-paints-arena-12-9-2026--sports-ncaa-basketball/production/7187064?wsUser=717",
-    "low": 84.0,
+    "low": 82.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "PPG Paints Arena",
@@ -4956,7 +4940,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-12-11-2026--sports-ncaa-basketball/production/7762886?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -5398,7 +5382,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ole-miss-rebels-mens-basketball-tickets-the-sandy-and-john-black-pavilion-at-ole-miss-12-15-2026--sports-ncaa-basketball/production/7600228?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "The Sandy and John Black Pavilion at Ole Miss",
@@ -5779,7 +5763,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-19-2026--sports-ncaa-basketball/production/7627313?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Liacouras Center",
@@ -5955,7 +5939,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-28-2026--sports-ncaa-basketball/production/7467537?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Lavietes Pavilion",
@@ -6000,7 +5984,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-21-2026--sports-ncaa-basketball/production/7522605?wsUser=717",
-    "low": 18.0,
+    "low": 19.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Crisler Center",
@@ -6264,7 +6248,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-12-22-2026--sports-ncaa-basketball/production/7603598?wsUser=717",
-    "low": 28.0,
+    "low": 25.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Breslin Center",
@@ -6309,7 +6293,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-12-22-2026--sports-ncaa-basketball/production/7639761?wsUser=717",
-    "low": 30.0,
+    "low": 32.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Millett Hall",
@@ -6354,7 +6338,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-badgers-mens-basketball-tickets-kohl-center-12-22-2026--sports-ncaa-basketball/production/7377410?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Kohl Center",
@@ -7086,7 +7070,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-7-2027--sports-ncaa-basketball/production/7546701?wsUser=717",
-    "low": 24.0,
+    "low": 28.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -7355,7 +7339,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-9-2027--sports-ncaa-basketball/production/7546705?wsUser=717",
-    "low": 24.0,
+    "low": 30.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -7807,7 +7791,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-17-2027--sports-ncaa-basketball/production/7546711?wsUser=717",
-    "low": 24.0,
+    "low": 29.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -7959,7 +7943,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-20-2027--sports-ncaa-basketball/production/7546713?wsUser=717",
-    "low": 24.0,
+    "low": 28.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -8423,7 +8407,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-27-2027--sports-ncaa-basketball/production/7546715?wsUser=717",
-    "low": 24.0,
+    "low": 28.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -8653,7 +8637,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-1-30-2027--sports-ncaa-basketball/production/7546717?wsUser=717",
-    "low": 24.0,
+    "low": 29.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -9877,7 +9861,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-2-19-2027--sports-ncaa-basketball/production/7546721?wsUser=717",
-    "low": 24.0,
+    "low": 29.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UW-Milwaukee Panther Arena",
@@ -10368,7 +10352,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-2-27-2027--sports-ncaa-basketball/production/7646098?wsUser=717",
-    "low": 28.0,
+    "low": 27.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UPMC Events Center",
@@ -10586,5 +10570,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:38:28+00:00"
 }

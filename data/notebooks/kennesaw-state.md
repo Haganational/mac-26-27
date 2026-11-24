@@ -1,6 +1,6 @@
 # Tasha Greer, The Kennesaw Ledger
 
-_Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Kennesaw State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,4 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:preview -->
 - 2026-11-21: W 96-59 vs SE Louisiana Lions. Barometer 66 (buoyant). <!-- g:401920818 -->
 - 2026-11-21: Social recap posted (W 96-59 vs SE Louisiana Lions): https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:preview -->

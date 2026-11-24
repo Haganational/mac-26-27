@@ -1,6 +1,6 @@
 # Reginald Chesterfield, The Foggy Bottom Banner
 
-_George Washington (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_George Washington (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**56 of 100, steady.** Record 5-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,6 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401919019.html <!-- post:401919019:preview -->
 - 2026-11-20: L 76-81 vs (neutral) UAB Blazers. Barometer 66 (buoyant). <!-- g:401919019 -->
 - 2026-11-20: Social recap posted (L 76-81 vs UAB Blazers): https://hardwoodbricks.com/a10/games/401919019.html <!-- post:401919019:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401928802.html <!-- post:401928802:preview -->
+- 2026-11-22: L 78-86 vs (neutral) Western Kentucky Hilltoppers. Barometer 56 (steady). <!-- g:401928802 -->
+- 2026-11-22: Social recap posted (L 78-86 vs Western Kentucky Hilltoppers): https://hardwoodbricks.com/a10/games/401928802.html <!-- post:401928802:recap -->

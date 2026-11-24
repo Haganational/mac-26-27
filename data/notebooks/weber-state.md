@@ -1,6 +1,6 @@
 # Mitch Ogden, The Ogden Messenger
 
-_Weber State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Weber State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -72,7 +72,7 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -83,3 +83,4 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:preview -->
 - 2026-11-19: L 71-101 at Utah State Aggies. Barometer 35 (testy). <!-- g:401925949 -->
 - 2026-11-19: Social recap posted (L 71-101 vs Utah State Aggies): https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:preview -->

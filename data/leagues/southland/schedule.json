@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:43:05+00:00",
+ "fetched_at": "2026-11-23T23:22:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -2441,11 +2441,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-11-21-2026--sports-ncaa-basketball/production/7667546?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
    "venue_state": "TN",
@@ -2454,21 +2450,21 @@
     "key": null,
     "name": "Austin Peay Governors",
     "abbr": "APSU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "292",
     "key": "utrgv",
     "name": "UT Rio Grande Valley Vaqueros",
     "abbr": "RGV",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401925065",
@@ -2479,7 +2475,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2489,21 +2491,21 @@
     "key": "nicholls",
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "2572",
     "key": null,
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925099",
@@ -2521,11 +2523,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-21-2026--sports-ncaa-basketball/production/7529805?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "Mabee Center",
    "venue_city": "Tulsa",
    "venue_state": "OK",
@@ -2534,21 +2532,21 @@
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "357",
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925049",
@@ -2580,21 +2578,21 @@
     "key": null,
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2443",
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925066",
@@ -2605,7 +2603,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2615,21 +2619,21 @@
     "key": "nicholls",
     "name": "Nicholls Colonels",
     "abbr": "NICH",
-    "score": null,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
    "away": {
     "espn_id": "2653",
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929202",
@@ -2647,11 +2651,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
    "venue_state": "TX",
@@ -2660,21 +2660,21 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2377",
     "key": "mcneese",
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925013",
@@ -2695,21 +2695,21 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
    "away": {
     "espn_id": "242",
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921205",
@@ -2736,21 +2736,21 @@
     "key": "stephen-f-austin",
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "218",
     "key": null,
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919032",
@@ -2770,7 +2770,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-23-2026--sports-ncaa-basketball/production/7519339?wsUser=717",
-    "low": 37.0,
+    "low": 22.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Charles Koch Arena",
@@ -2781,21 +2781,62 @@
     "key": null,
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "357",
     "key": "texas-am-cc",
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
+    "score": 73,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921208",
+   "date": "2026-11-24T01:00Z",
+   "name": "Stephen F. Austin Lumberjacks at Utah Valley Wolverines",
+   "short_name": "SFA VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": null,
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2617",
+    "key": "stephen-f-austin",
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "score": 62,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:18 - 2nd"
   },
   {
    "game_id": "401920819",
@@ -2975,7 +3016,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-11-25-2026--sports-ncaa-basketball/production/7914569?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -3059,7 +3104,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-11-25-2026--sports-ncaa-basketball/production/7638781?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Stan Sheriff Center",
@@ -3104,7 +3149,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-28-2026--sports-ncaa-basketball/production/7419563?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Thomas & Mack Center",
@@ -3149,7 +3194,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Cam Henderson Center",
@@ -3194,7 +3239,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-28-2026--sports-ncaa-basketball/production/7289378?wsUser=717",
-    "low": 32.0,
+    "low": 37.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Cajundome",
@@ -3280,7 +3325,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-29-2026--sports-ncaa-basketball/production/7633884?wsUser=717",
-    "low": 23.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Strahan Arena at the University Events Center",
@@ -3943,7 +3988,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-12-5-2026--sports-ncaa-basketball/production/7752081?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "William R. Johnson Coliseum",
@@ -4207,7 +4252,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-12-7-2026--sports-ncaa-basketball/production/7914571?wsUser=717",
+    "low": 47.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -4328,7 +4377,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-12-9-2026--sports-ncaa-basketball/production/7752083?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "William R. Johnson Coliseum",
@@ -4711,7 +4760,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-12-2026--sports-ncaa-basketball/production/7638793?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Stan Sheriff Center",
@@ -5637,7 +5686,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-12-28-2026--sports-ncaa-basketball/production/7363517?wsUser=717",
-    "low": 14.0,
+    "low": 15.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "McKale Center at ALKEME Arena",
@@ -5682,7 +5731,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-12-29-2026--sports-ncaa-basketball/production/7106298?wsUser=717",
-    "low": 62.0,
+    "low": 74.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Fertitta Center",
@@ -5907,7 +5956,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-29-2026--sports-ncaa-basketball/production/7109876?wsUser=717",
-    "low": 37.0,
+    "low": 28.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Allen Fieldhouse",
@@ -7766,7 +7815,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-1-26-2027--sports-ncaa-basketball/production/7914575?wsUser=717",
+    "low": 47.0,
+    "since": "2026-11-21T18:16:10Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -8183,7 +8236,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/new-orleans-privateers-mens-basketball-tickets-uno-lakefront-arena-2-1-2027--sports-ncaa-basketball/production/7914577?wsUser=717",
+    "low": 47.0,
+    "since": "2026-11-23T23:22:02Z"
+   },
    "venue": "Lakefront Arena",
    "venue_city": "New Orleans",
    "venue_state": "LA",
@@ -10103,5 +10160,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:07:03+00:00"
+ "live_at": "2026-11-24T03:24:23+00:00"
 }

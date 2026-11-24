@@ -1,6 +1,6 @@
 # Denise Holloway, The Lawrenceville Courant
 
-_Rider (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Rider (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 
 ## Barometer
 
-**31 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
+**41 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Denise editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Denise editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -80,3 +80,6 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 - 2026-11-18: L 48-95 at Miami Hurricanes. Barometer 31 (testy). <!-- g:401921722 -->
 - 2026-11-18: Social recap posted (L 48-95 vs Miami Hurricanes): https://hardwoodbricks.com/metro/games/401921722.html <!-- post:401921722:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401921222.html <!-- post:401921222:preview -->
+- 2026-11-21: W 69-66 vs Navy Midshipmen. Barometer 41 (testy). <!-- g:401921222 -->
+- 2026-11-21: Social recap posted (W 69-66 vs Navy Midshipmen): https://hardwoodbricks.com/metro/games/401921222.html <!-- post:401921222:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:preview -->

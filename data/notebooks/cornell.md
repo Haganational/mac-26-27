@@ -1,6 +1,6 @@
 # Libby Hartwell, The Ithaca Argus
 
-_Cornell (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Cornell (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**51 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Libby editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Libby editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,6 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 - 2026-11-19: L 82-91 at Syracuse Orange. Barometer 40 (testy). <!-- g:401924721 -->
 - 2026-11-19: Social recap posted (L 82-91 vs Syracuse Orange): https://hardwoodbricks.com/ivy/games/401924721.html <!-- post:401924721:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:preview -->
+- 2026-11-21: W 84-63 at Morgan State Bears. Barometer 51 (steady). <!-- g:401924722 -->
+- 2026-11-21: Social recap posted (W 84-63 vs Morgan State Bears): https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:preview -->

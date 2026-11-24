@@ -67,6 +67,7 @@
         <div class="tn-none">{% if mdl and (mdl.away.non_d1 or mdl.home.non_d1) %}No line: non-D-I opponent{% else %}Line not posted yet{% endif %}</div>
         {% endif %}
         {% if g.mv %}<div class="tn-model">{{ L.model_strip(g.mv, g.away, g.home, href='games/' ~ g.game_id ~ '.html') }}</div>{% endif %}
+        {{ L.window_strip((window or {}).get(g.game_id|string), root="", site_up=site_up) }}
       </div>
       {% endfor %}
     </div>
@@ -141,7 +142,8 @@
   </section>
 
   <div class="corner">
-    <div class="corner-h"><h2>The betting desk</h2><span>The model against the market, for readers 21 and over. {% for p in nav_pages if p[0] in desk_pages %}<a href="{{ p[0] }}">{{ p[1] }}</a>{{ ' · ' if not loop.last }}{% endfor %}</span></div>
+    <div class="corner-h"><h2>The Window</h2><span>The model against the market, for readers 21 and over. <a href="{{ site_up }}tops.html">Tops and Bottoms</a> · {% for p in nav_pages if p[0] in desk_pages %}<a href="{{ p[0] }}">{{ p[1] }}</a>{{ ' · ' if not loop.last }}{% endfor %}</span></div>
+    {{ L.house_record(house, site_up=site_up) }}
   {% if d.model_board %}
   <section id="model-board">
     <div class="sechead"><h2>Where the model leans</h2><span class="dim">Every game with a posted line, biggest gap first</span><a class="more" href="ratings.html">How the model works →</a></div>

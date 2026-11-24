@@ -1,6 +1,6 @@
 # Victor Lam, The Brooklyn Compass
 
-_LIU (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_LIU (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-6 (0-0 in conference), streak W1, last five LLLLW.
+**32 of 100, testy.** Record 1-7 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Victor editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Victor editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -62,7 +62,7 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -77,3 +77,6 @@ Victor Lam edits The Brooklyn Compass and narrates LIU basketball like a transit
 - 2026-11-17: Social recap posted (L 70-79 vs St. Thomas Tommies): https://hardwoodbricks.com/summit/games/401919807.html <!-- post:401919807:recap -->
 - 2026-11-19: W 115-114 vs UNC Wilmington Seahawks. Barometer 34 (testy). <!-- g:401919808 -->
 - 2026-11-19: Social recap posted (W 115-114 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401919808.html <!-- post:401919808:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:preview -->
+- 2026-11-22: L 71-74 vs Fairfield Stags. Barometer 32 (testy). <!-- g:401919809 -->
+- 2026-11-22: Social recap posted (L 71-74 vs Fairfield Stags): https://hardwoodbricks.com/metro/games/401919809.html <!-- post:401919809:recap -->

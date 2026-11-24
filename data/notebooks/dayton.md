@@ -1,6 +1,6 @@
 # Roxanne Vega, The Dayton Dispatch
 
-_Dayton (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Dayton (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 
 ## Barometer
 
-**56 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five LLLWW.
+**47 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Roxanne editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,6 @@ Roxanne Vega grew up in Dayton's East End, the daughter of a Mexican-American ma
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401921419.html <!-- post:401921419:preview -->
 - 2026-11-20: W 63-46 vs (neutral) Utah Utes. Barometer 56 (steady). <!-- g:401921419 -->
 - 2026-11-21: Social recap posted (W 63-46 vs Utah Utes): https://hardwoodbricks.com/a10/games/401921419.html <!-- post:401921419:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401920736.html <!-- post:401920736:preview -->
+- 2026-11-22: L 55-79 vs (neutral) Northwestern Wildcats. Barometer 47 (steady). <!-- g:401920736 -->
+- 2026-11-22: Social recap posted (L 55-79 vs Northwestern Wildcats): https://hardwoodbricks.com/a10/games/401920736.html <!-- post:401920736:recap -->

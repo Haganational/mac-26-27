@@ -1,6 +1,6 @@
 # Terrell Moss, The Carrollton Mercury
 
-_West Georgia (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_West Georgia (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -66,7 +66,7 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/uac/games/401917903.html <!-- post:401917903:preview -->
 - 2026-11-21: W 105-56 vs Paine Lions. Barometer 51 (steady). <!-- g:401917903 -->
 - 2026-11-21: Social recap posted (W 105-56 vs Paine Lions): https://hardwoodbricks.com/uac/games/401917903.html <!-- post:401917903:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:preview -->

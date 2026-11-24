@@ -1,6 +1,6 @@
 # Susan Whitaker, The Nashville Courier
 
-_Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Lipscomb (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 
 ## Barometer
 
-**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five WWWLL.
+**51 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:preview -->
 - 2026-11-21: L 69-85 at Alabama A&M Bulldogs. Barometer 42 (testy). <!-- g:401920707 -->
 - 2026-11-21: Social recap posted (L 69-85 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/asun/games/401920707.html <!-- post:401920707:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/asun/games/401920708.html <!-- post:401920708:preview -->
+- 2026-11-22: W 92-67 vs Milligan Buffaloes. Barometer 51 (steady). <!-- g:401920708 -->
+- 2026-11-23: Social recap posted (W 92-67 vs Milligan Buffaloes): https://hardwoodbricks.com/asun/games/401920708.html <!-- post:401920708:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401920709.html <!-- post:401920709:preview -->

@@ -1,6 +1,6 @@
 # Lupe Archuleta, The Las Cruces Courant
 
-_New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 
 ## Barometer
 
-**24 of 100, despondent.** Record 1-4 (0-0 in conference), streak L4, last five WLLLL.
+**20 of 100, despondent.** Record 1-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lupe editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lupe editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,7 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->
 - 2026-11-20: L 69-84 vs UTEP Miners. Barometer 24 (despondent). <!-- g:401911534 -->
 - 2026-11-20: Social recap posted (L 69-84 vs UTEP Miners): https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401928790.html <!-- post:401928790:preview -->
+- 2026-11-22: L 79-84 vs (neutral) Robert Morris Colonials. Barometer 20 (despondent). <!-- g:401928790 -->
+- 2026-11-22: Social recap posted (L 79-84 vs Robert Morris Colonials): https://hardwoodbricks.com/horizon/games/401928790.html <!-- post:401928790:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401928791.html <!-- post:401928791:preview -->

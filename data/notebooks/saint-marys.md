@@ -1,6 +1,6 @@
 # Fergus Byrne, The Moraga Messenger
 
-_Saint Mary's (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Saint Mary's (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**81 of 100, giddy.** Record 6-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Fergus editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Fergus editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,8 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 - 2026-11-17: W 94-78 vs Portland State Vikings. Barometer 69 (buoyant). <!-- g:401917532 -->
 - 2026-11-17: Social recap posted (W 94-78 vs Portland State Vikings): https://hardwoodbricks.com/wcc/games/401917532.html <!-- post:401917532:recap -->
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:preview -->
+- 2026-11-21: W 95-78 vs Saint Louis Billikens. Barometer 76 (buoyant). <!-- g:401911252 -->
+- 2026-11-21: Social recap posted (W 95-78 vs Saint Louis Billikens): https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/wcc/games/401929595.html <!-- post:401929595:preview -->
+- 2026-11-23: W 94-78 vs Menlo Oaks. Barometer 81 (giddy). <!-- g:401929595 -->
+- 2026-11-23: Social recap posted (W 94-78 vs Menlo Oaks): https://hardwoodbricks.com/wcc/games/401929595.html <!-- post:401929595:recap -->

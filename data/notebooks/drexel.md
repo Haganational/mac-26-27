@@ -1,6 +1,6 @@
 # Draco McAllister, The Powelton Examiner
 
-_Drexel (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Drexel (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:preview -->
 - 2026-11-21: W 75-64 vs Saint Joseph's Hawks. Barometer 58 (steady). <!-- g:401920195 -->
 - 2026-11-21: Social recap posted (W 75-64 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:preview -->

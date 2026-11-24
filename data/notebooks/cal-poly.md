@@ -1,6 +1,6 @@
 # Heather Takahashi, The San Luis Obispo Record
 
-_Cal Poly (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Cal Poly (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
+**47 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Heather editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Heather editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,5 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 - 2026-11-15: L 52-77 at Montana State Bobcats. Barometer 40 (testy). <!-- g:401920124 -->
 - 2026-11-16: Social recap posted (L 52-77 vs Montana State Bobcats): https://hardwoodbricks.com/bigwest/games/401920124.html <!-- post:401920124:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:preview -->
+- 2026-11-22: W 89-88 vs Northern Arizona Lumberjacks. Barometer 47 (steady). <!-- g:401920125 -->
+- 2026-11-22: Social recap posted (W 89-88 vs Northern Arizona Lumberjacks): https://hardwoodbricks.com/bigwest/games/401920125.html <!-- post:401920125:recap -->

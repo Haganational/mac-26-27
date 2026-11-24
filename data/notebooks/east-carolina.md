@@ -1,6 +1,6 @@
 # Tamsin Whitley, The Greenville Ledger
 
-_East Carolina (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_East Carolina (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
+**38 of 100, testy.** Record 3-4 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tamsin editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tamsin editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,9 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:preview -->
 - 2026-11-21: L 79-90 vs (neutral) Utah Valley Wolverines. Barometer 54 (steady). <!-- g:401916125 -->
 - 2026-11-21: Social recap posted (L 79-90 vs Utah Valley Wolverines): https://hardwoodbricks.com/bigwest/games/401916125.html <!-- post:401916125:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:preview -->
+- 2026-11-21: L 69-85 vs (neutral) Southern Illinois Salukis. Barometer 45 (steady). <!-- g:401920570 -->
+- 2026-11-22: Social recap posted (L 69-85 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401920570.html <!-- post:401920570:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:preview -->
+- 2026-11-23: L 76-77 vs (neutral) Indiana State Sycamores. Barometer 38 (testy). <!-- g:401921209 -->
+- 2026-11-23: Social recap posted (L 76-77 vs Indiana State Sycamores): https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:recap -->

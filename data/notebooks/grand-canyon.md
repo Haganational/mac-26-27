@@ -1,6 +1,6 @@
 # Chloe Alverez, The Phoenix Spectator
 
-_Grand Canyon (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Grand Canyon (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,4 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 - 2026-11-13: Social preview posted: https://hardwoodbricks.com/mw/games/401911347.html <!-- post:401911347:preview -->
 - 2026-11-15: W 88-52 vs UL Monroe Warhawks. Barometer 84 (giddy). <!-- g:401911347 -->
 - 2026-11-15: Social recap posted (W 88-52 vs UL Monroe Warhawks): https://hardwoodbricks.com/mw/games/401911347.html <!-- post:401911347:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911253.html <!-- post:401911253:preview -->

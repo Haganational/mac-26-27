@@ -1,6 +1,6 @@
 # Renee Castillo, The Albany Lantern
 
-_UAlbany (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UAlbany (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 
 ## Barometer
 
-**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
+**44 of 100, testy.** Record 4-4 (0-0 in conference), streak L2, last five LWWLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Renee editorializes: 64% of stories right now.
 
@@ -71,7 +71,7 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,8 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:preview -->
 - 2026-11-20: L 60-65 vs (neutral) Western Illinois Leathernecks. Barometer 45 (steady). <!-- g:401919826 -->
 - 2026-11-20: Social recap posted (L 60-65 vs Western Illinois Leathernecks): https://hardwoodbricks.com/ovc/games/401919826.html <!-- post:401919826:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:preview -->
+- 2026-11-21: L 81-91 at Canisius Golden Griffins. Barometer 49 (steady). <!-- g:401923322 -->
+- 2026-11-21: Social recap posted (L 81-91 vs Canisius Golden Griffins): https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:recap -->
+- 2026-11-22: L 75-78 vs (neutral) Mercyhurst Lakers. Barometer 44 (testy). <!-- g:401923323 -->
+- 2026-11-22: Social recap posted (L 75-78 vs Mercyhurst Lakers): https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:recap -->

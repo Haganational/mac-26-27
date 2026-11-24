@@ -1,6 +1,6 @@
 # Wade Crockett, The Abilene Ledger
 
-_Abilene Christian (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Abilene Christian (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 
 ## Barometer
 
-**49 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**57 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,5 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 - 2026-11-19: W 103-41 vs McMurry War Hawks. Barometer 49 (steady). <!-- g:401917965 -->
 - 2026-11-19: Social recap posted (W 103-41 vs McMurry War Hawks): https://hardwoodbricks.com/uac/games/401917965.html <!-- post:401917965:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/uac/games/401917966.html <!-- post:401917966:preview -->
+- 2026-11-22: W 87-68 vs Southwestern Adventist Knights. Barometer 57 (steady). <!-- g:401917966 -->
+- 2026-11-22: Social recap posted (W 87-68 vs Southwestern Adventist Knights): https://hardwoodbricks.com/uac/games/401917966.html <!-- post:401917966:recap -->

@@ -1,6 +1,6 @@
 # Nora Sullivan, The Fenway Almanac
 
-_Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**39 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nora editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nora editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,5 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 - 2026-11-20: L 77-84 at Butler Bulldogs. Barometer 46 (steady). <!-- g:401902280 -->
 - 2026-11-20: Social recap posted (L 77-84 vs Butler Bulldogs): https://hardwoodbricks.com/caa/games/401902280.html <!-- post:401902280:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:preview -->
+- 2026-11-21: L 82-95 at Stonehill Skyhawks. Barometer 39 (testy). <!-- g:401919849 -->
+- 2026-11-22: Social recap posted (L 82-95 vs Stonehill Skyhawks): https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:recap -->

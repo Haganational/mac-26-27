@@ -1,6 +1,6 @@
 # Wren Halvorsen, The Missoula Clarion
 
-_Montana (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Montana (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -71,7 +71,7 @@ Wren Halvorsen grew up fishing the Clark Fork with her father and spent fifteen 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Wren Halvorsen grew up fishing the Clark Fork with her father and spent fifteen 
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/bigsky/games/401909798.html <!-- post:401909798:preview -->
 - 2026-11-17: L 45-86 at Kansas State Wildcats. Barometer 44 (testy). <!-- g:401909798 -->
 - 2026-11-17: Social recap posted (L 45-86 vs Kansas State Wildcats): https://hardwoodbricks.com/bigsky/games/401909798.html <!-- post:401909798:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922032.html <!-- post:401922032:preview -->

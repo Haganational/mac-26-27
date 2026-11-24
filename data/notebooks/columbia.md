@@ -1,6 +1,6 @@
 # Henrietta Morningside, The Morningside Courier
 
-_Columbia (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Columbia (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Henrietta Morningside grew up backstage, the daughter of a stagehand and a piano
 
 ## Barometer
 
-**79 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
+**83 of 100, giddy.** Record 5-1 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Henrietta editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Henrietta editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Henrietta Morningside grew up backstage, the daughter of a stagehand and a piano
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Henrietta Morningside grew up backstage, the daughter of a stagehand and a piano
 - 2026-11-17: W 75-53 at Northwestern Wildcats. Barometer 79 (buoyant). <!-- g:401920735 -->
 - 2026-11-17: Social recap posted (W 75-53 vs Northwestern Wildcats): https://hardwoodbricks.com/ivy/games/401920735.html <!-- post:401920735:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:preview -->
+- 2026-11-21: W 80-71 at Boston University Terriers. Barometer 83 (giddy). <!-- g:401923402 -->
+- 2026-11-21: Social recap posted (W 80-71 vs Boston University Terriers): https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:recap -->

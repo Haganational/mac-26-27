@@ -1,6 +1,6 @@
 # Monica Ruiz, The Tenleytown Mercury
 
-_American (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_American (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 
 ## Barometer
 
-**64 of 100, steady.** Record 3-2 (0-0 in conference), streak W3, last five LLWWW.
+**71 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,6 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:preview -->
 - 2026-11-20: W 82-51 vs Mary Baldwin Fighting Squirrels. Barometer 64 (steady). <!-- g:401912211 -->
 - 2026-11-20: Social recap posted (W 82-51 vs Mary Baldwin Fighting Squirrels): https://hardwoodbricks.com/patriot/games/401912211.html <!-- post:401912211:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:preview -->
+- 2026-11-22: W 86-75 vs Towson Tigers. Barometer 71 (buoyant). <!-- g:401912212 -->
+- 2026-11-22: Social recap posted (W 86-75 vs Towson Tigers): https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:recap -->

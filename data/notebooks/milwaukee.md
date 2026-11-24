@@ -1,6 +1,6 @@
 # Andre Bellamy, The Milwaukee Lantern
 
-_Milwaukee (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Milwaukee (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Andre Bellamy grew up in Milwaukee's Bay View, the son of a brewery maintenance 
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**38 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Andre Bellamy grew up in Milwaukee's Bay View, the son of a brewery maintenance 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,6 @@ Andre Bellamy grew up in Milwaukee's Bay View, the son of a brewery maintenance 
 - 2026-11-14: L 64-76 at TCU Horned Frogs. Barometer 46 (steady). <!-- g:401919049 -->
 - 2026-11-14: Social recap posted (L 64-76 vs TCU Horned Frogs): https://hardwoodbricks.com/horizon/games/401919049.html <!-- post:401919049:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:preview -->
+- 2026-11-21: L 70-98 vs St. Thomas Tommies. Barometer 38 (testy). <!-- g:401920846 -->
+- 2026-11-21: Social recap posted (L 70-98 vs St. Thomas Tommies): https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401906774.html <!-- post:401906774:preview -->

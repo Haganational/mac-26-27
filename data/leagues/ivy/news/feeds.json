@@ -1,12 +1,12 @@
 {
  "google:brown": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
-  "entries": 9,
+  "checked_at": "2026-11-23T23:16:31+00:00",
+  "entries": 11,
   "error": null,
   "fallback": false,
-  "kept": 8,
+  "kept": 7,
   "kind": "google",
-  "last_ok": "2026-11-21T02:38:35+00:00",
+  "last_ok": "2026-11-23T23:16:31+00:00",
   "ok": true,
   "source": "Google News",
   "team": "brown",
@@ -15,7 +15,7 @@
   "via_google": false
  },
  "google:columbia": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -24,7 +24,7 @@
   "url": "https://news.google.com/rss/search?q=%22Columbia+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:cornell": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -33,7 +33,7 @@
   "url": "https://news.google.com/rss/search?q=%22Cornell+Big+Red+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:dartmouth": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -42,14 +42,14 @@
   "url": "https://news.google.com/rss/search?q=%22Dartmouth+Big+Green+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:harvard": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: no entries",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-21T02:38:35+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "harvard",
   "url": "https://news.google.com/rss/search?q=%22Harvard+Crimson+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -57,7 +57,7 @@
   "via_google": false
  },
  "google:penn": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -66,13 +66,13 @@
   "url": "https://news.google.com/rss/search?q=%22Penn+Quakers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:princeton": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
-  "entries": 2,
+  "checked_at": "2026-11-23T23:16:31+00:00",
+  "entries": 3,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-21T02:38:35+00:00",
+  "last_ok": "2026-11-23T23:16:31+00:00",
   "ok": true,
   "source": "Google News",
   "team": "princeton",
@@ -81,13 +81,13 @@
   "via_google": false
  },
  "google:yale": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "entries": 1,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-21T02:38:35+00:00",
+  "last_ok": "2026-11-23T23:16:31+00:00",
   "ok": true,
   "source": "Google News",
   "team": "yale",
@@ -96,13 +96,13 @@
   "via_google": false
  },
  "league:ivy": {
-  "checked_at": "2026-11-21T02:38:35+00:00",
+  "checked_at": "2026-11-23T23:16:31+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 10,
   "kind": "league",
-  "last_ok": "2026-11-21T02:38:35+00:00",
+  "last_ok": "2026-11-23T23:16:31+00:00",
   "ok": true,
   "source": "Ivy League (ivyleague.com)",
   "team": null,

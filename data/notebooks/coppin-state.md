@@ -1,6 +1,6 @@
 # Derrick Fields, The Mondawmin Courant
 
-_Coppin State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Coppin State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 
 ## Barometer
 
-**28 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
+**21 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Derrick editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Derrick editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,6 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 - 2026-11-19: L 61-88 at La Salle Explorers. Barometer 28 (despondent). <!-- g:401925632 -->
 - 2026-11-19: Social recap posted (L 61-88 vs La Salle Explorers): https://hardwoodbricks.com/a10/games/401925632.html <!-- post:401925632:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/meac/games/401909517.html <!-- post:401909517:preview -->
+- 2026-11-21: L 60-84 at Georgetown Hoyas. Barometer 21 (despondent). <!-- g:401909517 -->
+- 2026-11-22: Social recap posted (L 60-84 vs Georgetown Hoyas): https://hardwoodbricks.com/meac/games/401909517.html <!-- post:401909517:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/meac/games/401921777.html <!-- post:401921777:preview -->

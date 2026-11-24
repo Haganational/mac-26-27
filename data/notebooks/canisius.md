@@ -1,6 +1,6 @@
 # Paulie Brennan, The Buffalo Picayune
 
-_Canisius (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Canisius (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 
 ## Barometer
 
-**51 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
+**48 of 100, steady.** Record 4-4 (0-0 in conference), streak L1, last five WLWWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Paulie editorializes: 61% of stories right now.
 
@@ -67,7 +67,7 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 10
 
 ## Log
 
@@ -84,3 +84,8 @@ Paulie Brennan drove a Buffalo snowplow for most of his working life and tended 
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:preview -->
 - 2026-11-20: W 63-56 vs Mercyhurst Lakers. Barometer 51 (steady). <!-- g:401919827 -->
 - 2026-11-21: Social recap posted (W 63-56 vs Mercyhurst Lakers): https://hardwoodbricks.com/metro/games/401919827.html <!-- post:401919827:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/metro/games/401929023.html <!-- post:401929023:preview -->
+- 2026-11-21: W 91-81 vs UAlbany Great Danes. Barometer 58 (steady). <!-- g:401923322 -->
+- 2026-11-21: Social recap posted (W 91-81 vs UAlbany Great Danes): https://hardwoodbricks.com/metro/games/401923322.html <!-- post:401923322:recap -->
+- 2026-11-22: L 46-66 vs Western Illinois Leathernecks. Barometer 48 (steady). <!-- g:401929023 -->
+- 2026-11-22: Social recap posted (L 46-66 vs Western Illinois Leathernecks): https://hardwoodbricks.com/metro/games/401929023.html <!-- post:401929023:recap -->

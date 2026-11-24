@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:44:45+00:00",
+ "fetched_at": "2026-11-23T23:24:06+00:00",
  "season": 2027,
  "games": [
   {
@@ -2097,11 +2097,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-11-21-2026--sports-other-sports/production/7890313?wsUser=717",
-    "low": 43.0,
-    "since": "2026-11-20T12:15:57Z"
-   },
+   "tickets": null,
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
@@ -2110,21 +2106,21 @@
     "key": null,
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2031",
     "key": "little-rock",
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917953",
@@ -2142,11 +2138,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/austin-peay-governors-mens-basketball-tickets-fm-bank-arena-11-21-2026--sports-ncaa-basketball/production/7667546?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:17:56Z"
-   },
+   "tickets": null,
    "venue": "F&M Bank Arena",
    "venue_city": "Clarksville",
    "venue_state": "TN",
@@ -2155,21 +2147,21 @@
     "key": "austin-peay",
     "name": "Austin Peay Governors",
     "abbr": "APSU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "292",
     "key": null,
     "name": "UT Rio Grande Valley Vaqueros",
     "abbr": "RGV",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401917918",
@@ -2196,21 +2188,21 @@
     "key": null,
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917966",
@@ -2228,11 +2220,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/abilene-christian-wildcats-mens-basketball-tickets-moody-coliseum---abilene-11-21-2026--sports-ncaa-basketball/production/7894349?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-20T12:15:57Z"
-   },
+   "tickets": null,
    "venue": "Moody Coliseum (Abilene)",
    "venue_city": "Abilene",
    "venue_state": "TX",
@@ -2241,21 +2229,21 @@
     "key": "abilene-christian",
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2903",
     "key": null,
     "name": "Southwestern Adventist Knights",
     "abbr": "SWA",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929387",
@@ -2273,11 +2261,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-22-2026--sports-ncaa-basketball/production/7662705?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:17:56Z"
-   },
+   "tickets": null,
    "venue": "Baptist Health Arena",
    "venue_city": "Richmond",
    "venue_state": "KY",
@@ -2286,21 +2270,21 @@
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": null,
-    "winner": null
+    "score": 114,
+    "winner": true
    },
    "away": {
     "espn_id": "484",
     "key": null,
     "name": "Alice Lloyd Eagles",
     "abbr": "AL",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917919",
@@ -2331,21 +2315,21 @@
     "key": null,
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925950",
@@ -2406,7 +2390,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-tech-golden-eagles-mens-basketball-tickets-hooper-eblen-center-11-24-2026--sports-ncaa-basketball/production/7768609?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Hooper Eblen Center",
@@ -2492,7 +2476,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-11-24-2026--sports-ncaa-basketball/production/7856613?wsUser=717",
-    "low": 20.0,
+    "low": 31.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -2578,7 +2562,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 24.0,
+    "low": 14.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Millett Hall",
@@ -2628,7 +2612,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
-    "low": 28.0,
+    "low": 19.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "First Bank & Trust Arena",
@@ -2759,7 +2743,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-28-2026--sports-ncaa-basketball/production/7513291?wsUser=717",
-    "low": 20.0,
+    "low": 22.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Timmons Arena",
@@ -2804,7 +2788,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-kentucky-colonels-mens-basketball-tickets-alumni-coliseum-baptist-health-arena-11-28-2026--sports-ncaa-basketball/production/7662707?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Baptist Health Arena",
@@ -2877,47 +2861,6 @@
    "detail": ""
   },
   {
-   "game_id": "401929368",
-   "date": "2026-11-29T05:00Z",
-   "name": "Tarleton State Texans at Texas Southern Tigers",
-   "short_name": "TAR @ TXSO",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [
-    {
-     "name": "SWAC TV",
-     "kind": "Streaming",
-     "market": "Home"
-    }
-   ],
-   "tickets": null,
-   "venue": "H&PE Arena",
-   "venue_city": "Houston",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "2640",
-    "key": null,
-    "name": "Texas Southern Tigers",
-    "abbr": "TXSO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2627",
-    "key": "tarleton-state",
-    "name": "Tarleton State Texans",
-    "abbr": "TAR",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401917905",
    "date": "2026-11-29T19:00Z",
    "name": "West Georgia Wolves at South Carolina Upstate Spartans",
@@ -2950,6 +2893,47 @@
     "key": "west-georgia",
     "name": "West Georgia Wolves",
     "abbr": "WGA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929368",
+   "date": "2026-11-29T21:00Z",
+   "name": "Tarleton State Texans at Texas Southern Tigers",
+   "short_name": "TAR @ TXSO",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "SWAC TV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "H&PE Arena",
+   "venue_city": "Houston",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2640",
+    "key": null,
+    "name": "Texas Southern Tigers",
+    "abbr": "TXSO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2627",
+    "key": "tarleton-state",
+    "name": "Tarleton State Texans",
+    "abbr": "TAR",
     "score": null,
     "winner": null
    },
@@ -3103,7 +3087,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/depaul-blue-demons-mens-basketball-tickets-wintrust-arena-12-1-2026--sports-ncaa-basketball/production/7258840?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Wintrust Arena",
@@ -3406,7 +3390,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-5-2026--sports-ncaa-basketball/production/7355791?wsUser=717",
-    "low": 24.0,
+    "low": 23.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Petersen Events Center",
@@ -3807,7 +3791,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stephen-f-austin-lumberjacks-mens-basketball-tickets-william-r-johnson-coliseum-12-9-2026--sports-ncaa-basketball/production/7752083?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "William R. Johnson Coliseum",
@@ -4118,7 +4102,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-12-2026--sports-ncaa-basketball/production/7418301?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CU Events Center",
@@ -4253,7 +4237,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-bud-walton-arena-12-13-2026--sports-ncaa-basketball/production/7575783?wsUser=717",
-    "low": 9.0,
+    "low": 13.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Bud Walton Arena",
@@ -6431,7 +6415,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-alabama-lions-mens-basketball-tickets-university-of-north-alabama---flowers-hall-1-9-2027--sports-ncaa-basketball/production/7710601?wsUser=717",
-    "low": 31.0,
+    "low": 20.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "CB&S Bank Arena at Flowers Hall",
@@ -8926,5 +8910,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:26:22+00:00"
 }

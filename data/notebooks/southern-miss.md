@@ -1,6 +1,6 @@
 # Savannah Rowe, The Hattiesburg Courant
 
-_Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Southern Miss (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
+**63 of 100, steady.** Record 5-3 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Savannah editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,8 @@ Savannah Rowe is a physical therapy assistant in Hattiesburg who runs the Longle
 - 2026-11-20: W 103-100 at Grambling Tigers. Barometer 47 (steady). <!-- g:401928388 -->
 - 2026-11-20: Social recap posted (W 103-100 vs Grambling Tigers): https://hardwoodbricks.com/sunbelt/games/401928388.html <!-- post:401928388:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:preview -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:preview -->
+- 2026-11-21: W 80-69 vs (neutral) Nicholls Colonels. Barometer 54 (steady). <!-- g:401925065 -->
+- 2026-11-22: Social recap posted (W 80-69 vs Nicholls Colonels): https://hardwoodbricks.com/sunbelt/games/401925065.html <!-- post:401925065:recap -->
+- 2026-11-22: W 99-89 vs (neutral) Valparaiso Beacons. Barometer 63 (steady). <!-- g:401928999 -->
+- 2026-11-23: Social recap posted (W 99-89 vs Valparaiso Beacons): https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:recap -->

@@ -1,6 +1,6 @@
 # Hollis Grant, The Orono Courier
 
-_Maine (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Maine (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 
 ## Barometer
 
-**43 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five WLLLW.
+**37 of 100, testy.** Record 2-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 - 2026-11-20: W 69-67 at Quinnipiac Bobcats. Barometer 43 (testy). <!-- g:401923304 -->
 - 2026-11-20: Social recap posted (W 69-67 vs Quinnipiac Bobcats): https://hardwoodbricks.com/metro/games/401923304.html <!-- post:401923304:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:preview -->
+- 2026-11-21: L 44-76 at Massachusetts Minutemen. Barometer 37 (testy). <!-- g:401911023 -->
+- 2026-11-22: Social recap posted (L 44-76 vs Massachusetts Minutemen): https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:recap -->

@@ -1,6 +1,6 @@
 # Darlene Pickett, The Laramie Chronicle
 
-_Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**74 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:preview -->
 - 2026-11-18: W 81-79 vs Sam Houston Bearkats. Barometer 66 (buoyant). <!-- g:401924922 -->
 - 2026-11-18: Social recap posted (W 81-79 vs Sam Houston Bearkats): https://hardwoodbricks.com/mw/games/401924922.html <!-- post:401924922:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:preview -->
+- 2026-11-22: W 79-61 vs (neutral) Duquesne Dukes. Barometer 74 (buoyant). <!-- g:401921706 -->
+- 2026-11-22: Social recap posted (W 79-61 vs Duquesne Dukes): https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->

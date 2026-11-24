@@ -1,6 +1,6 @@
 # Bea Beauregard, The Charleston Ledger
 
-_Charleston (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Charleston (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:preview -->
 - 2026-11-20: L 70-86 at Drake Bulldogs. Barometer 62 (steady). <!-- g:401926814 -->
 - 2026-11-20: Social recap posted (L 70-86 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:preview -->

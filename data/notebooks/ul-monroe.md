@@ -1,6 +1,6 @@
 # Celeste Broussard, The Monroe Ledger
 
-_UL Monroe (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UL Monroe (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917982.html <!-- post:401917982:preview -->
 - 2026-11-19: L 67-79 at LSU Tigers. Barometer 36 (testy). <!-- g:401917982 -->
 - 2026-11-19: Social recap posted (L 67-79 vs LSU Tigers): https://hardwoodbricks.com/sunbelt/games/401917982.html <!-- post:401917982:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:preview -->

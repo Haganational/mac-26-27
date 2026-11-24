@@ -44,7 +44,7 @@
     <a class="brand" href="{{ root }}{{ site_up }}index.html" aria-label="{{ site_name }} front page"><span class="mark">{{ site_name }}</span><span class="yr">{{ LG }} {{ season }}</span></a>
     <nav class="tb-nav" id="tbnav" aria-label="Site">
       {#- The bar holds eight things however many conferences we cover: this edition (a switcher to every other one),
-          Teams, Schedule & TV, Read, the Betting desk | Big Board, the Den and Watch. -#}
+          Teams, Schedule & TV, Read, The Window | Big Board, the Den and Watch. -#}
       {% set eds = leagues|sort(attribute='short', case_sensitive=False) %}
       <details class="tb-teams tb-ed{{ ' on' if active == 'index.html' }}">
         <summary aria-label="{{ LG }} edition: switch conference">{{ LG }}</summary>
@@ -62,7 +62,7 @@
           {% for t in nav_teams %}<a class="tchip t-{{ t.key }}" href="{{ root }}teams/{{ t.key }}.html"><img src="https://a.espncdn.com/i/teamlogos/ncaa/500/{{ t.espn_id }}.png" alt="" width="20" height="20" loading="lazy" onerror="this.remove()">{{ t.short }}</a>{% endfor %}
         </div>
       </details>
-      {#- Tidy bar (Nov 21 2026): the edition's own pages on the left (Schedule & TV, Read, Betting desk), then a hairline,
+      {#- Tidy bar (Nov 21 2026): the edition's own pages on the left (Schedule & TV, Read, The Window), then a hairline,
           then the same network sections every hub page carries (Big Board, The Den, Watch), in the same order and words. -#}
       {% set have = nav_pages|map(attribute=0)|list %}
       {% if 'tv.html' in have %}<a href="{{ root }}tv.html" class="{{ 'on' if active == 'tv.html' }}"{% if active == 'tv.html' %} aria-current="page"{% endif %}>Schedule &amp; TV</a>{% endif %}
@@ -76,12 +76,16 @@
           {% if 'notes' in feat %}<a class="author-only tb-desk{{ ' on' if active == 'desk.html' }}" href="{{ root }}desk.html"><b>✎ Author desk</b><small>Write, save and publish Fieldhouse Notes</small></a><a class="author-only tb-desk" href="{{ root }}desk.html?article=1"><b>+ New article</b><small>An original piece with its own page</small></a>{% endif %}
         </div>
       </details>
+      {#- The Window (Nov 21 2026): one front door for the betting coverage. Tops and Bottoms leads (free, every conference);
+          the edition's model and odds tools sit under it, still behind the access code, marked with a quiet lock. -#}
       {% set desk = nav_pages[1:]|selectattr(0, 'in', desk_pages)|list %}
       <details class="tb-teams tb-more tb-bet{{ ' on' if active in desk|map(attribute=0)|list }}">
-        <summary>Betting desk</summary>
+        <summary>The Window</summary>
         <div class="tb-menu tb-list">
-          <p class="tb-note">Odds, ratings and the model, for readers 21 and over. Opens with an access code.</p>
-          {% for p in desk %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }} desk"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
+          <p class="tb-k">Tonight at the window</p>
+          <a class="tb-lead" href="{{ root }}{{ site_up }}tops.html"><b>Tops and Bottoms</b><small>Four handicappers, eight picks a night, every unit kept</small></a>
+          <p class="tb-k">The desk</p>
+          {% for p in desk %}<a href="{{ root }}{{ p[0] }}" class="{{ 'on' if active == p[0] }} desk"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}<span class="tb-code" title="Opens with an access code">code</span></b><small>{{ p[2] }}</small></a>{% endfor %}
         </div>
       </details>
       <span class="tb-sep" aria-hidden="true"></span>
@@ -91,7 +95,6 @@
           <p class="tb-k">Every conference, one board</p>
           <a href="{{ root }}{{ site_up }}at-large.html"><b>At-Large Watch</b><small>Which mid-majors could crash the field without the auto bid</small></a>
           <a href="{{ root }}{{ site_up }}crunch-time.html"><b>Crunch Time</b><small>Comeback Kings, Final Exams, The Cardiologists, Foul Him, Dunking and Donuts</small></a>
-          <a href="{{ root }}{{ site_up }}tops.html"><b>Tops and Bottoms</b><small>JuiceBox Nation's wagering board: four handicappers, one winner a day</small></a>
           <p class="tb-k">Hardwood Bricks</p>
           <a href="{{ root }}{{ site_up }}masthead.html"><b>About and masthead</b><small>Who we are, how we work, corrections</small></a>
           <a href="{{ root }}{{ site_up }}media.html"><b>Media and credentials</b><small>For SIDs reviewing a credential request</small></a>
@@ -178,7 +181,7 @@
       {% if tip %}<a class="tb-btn sf-tip" href="{{ tip.url }}" target="_blank" rel="noopener">☕ Tip on Venmo</a>{% endif %}
       <button class="tb-btn sf-share" type="button" data-share data-share-url="{{ site_url }}" data-share-title="{{ site_name }} · {{ LG }} Men's Basketball {{ season }}">Share this site</button>
     </div>
-    <nav aria-label="Pages"><h4>Read</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages if p[0] not in desk_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}<a href="{{ root }}{{ site_up }}masthead.html">Masthead</a><a href="{{ root }}{{ site_up }}media.html">Media</a><h4 class="sf-ed">Betting desk</h4>{% for p in nav_pages if p[0] in desk_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4><div class="sf-eds">{% for lg in leagues|sort(attribute='short') %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</div></nav>
+    <nav aria-label="Pages"><h4>Read</h4><a href="{{ root }}{{ site_up }}index.html">All conferences</a>{% for p in nav_pages if p[0] not in desk_pages %}<a href="{{ root }}{{ home if p[0] == 'index.html' else p[0] }}">{{ p[1] }}</a>{% endfor %}<a href="{{ root }}{{ site_up }}masthead.html">Masthead</a><a href="{{ root }}{{ site_up }}media.html">Media</a><h4 class="sf-ed">The Window</h4><a href="{{ root }}{{ site_up }}tops.html">Tops and Bottoms</a>{% for p in nav_pages if p[0] in desk_pages %}<a href="{{ root }}{{ p[0] }}">{{ p[1] }}</a>{% endfor %}{% if 'notes' in feat %}<a href="{{ root }}desk.html" class="sf-desk">Author desk</a>{% endif %}<h4 class="sf-ed">Editions</h4><div class="sf-eds">{% for lg in leagues|sort(attribute='short') %}<a href="{{ root }}{{ site_up }}{{ lg.path }}index.html"{% if lg.on %} aria-current="page"{% endif %}>{{ lg.short }}</a>{% endfor %}</div></nav>
     <nav aria-label="Teams" class="sf-teams"><h4>Teams</h4>{% for t in nav_teams %}<a href="{{ root }}teams/{{ t.key }}.html"><i style="background:{{ t.color }}"></i>{{ t.short }}</a>{% endfor %}</nav>
   </div>
 </footer>
@@ -267,3 +270,22 @@
 {% macro live_score(g, label=True) -%}
 <span class="livescore" title="In progress · updates every 15 minutes on game nights">{% if label %}<span class="livetag"><i aria-hidden="true"></i>Live</span> {% endif %}<b>{{ g.away.abbr }} {{ g.away.score if g.away.score is not none else 0 }}, {{ g.home.abbr }} {{ g.home.score if g.home.score is not none else 0 }}</b> <small>{{ clock(g) }}</small></span>
 {%- endmacro %}
+
+{#- The Window (Nov 21 2026): Tops and Bottoms on a game card. rows = tops.window()[game id]; empty renders nothing. -#}
+{% macro window_strip(rows, root="", site_up="") -%}
+{% if rows %}<div class="tn-window">
+  <span class="tw-faces" aria-hidden="true">{% for r in rows|unique(attribute='key') %}<img src="{{ root }}static/art/tops/{{ r.key }}.webp" alt="" width="28" height="28" loading="lazy" style="--c: {{ r.color }}">{% endfor %}</span>
+  <span class="tw-txt"><span class="tw-k">At the window</span>{% for r in rows %}<span class="tw-pick"><b>{{ r.first }}</b> has <b>{{ r.label }}</b>{% if r.result %} <span class="tw-res tw-{{ r.result }}">{{ {'win': 'won', 'loss': 'lost', 'push': 'push', 'void': 'no action'}[r.result] }}</span>{% endif %}</span>{% endfor %}</span>
+  <a class="tw-go" href="{{ root }}{{ site_up }}tops.html">Tops and Bottoms →</a>
+</div>{% endif %}
+{%- endmacro %}
+
+{#- The house record (Nov 21 2026): the four cappers' ledger and one plain line about the model. No model record number:
+    the model's inputs keep changing, and this line stays true while they do (Matthew). rows = tops.standings(). -#}
+{% macro house_record(rows, site_up="", root="") -%}
+{% if rows %}<section class="house-rec" aria-label="The house record">
+  <div class="hr-row">{% for r in rows %}<a class="hr-cap" href="{{ root }}{{ site_up }}tops.html" style="--c: {{ r.color }}"><img src="{{ root }}static/art/tops/{{ r.key }}.webp" alt="" width="36" height="36" loading="lazy"><span><b>{{ r.record }}</b><small>{{ r.first }} · {{ '%+.2f'|format(r.units) }}u</small></span></a>{% endfor %}</div>
+  <p class="hr-line">Backtesting tells us we haven't beat the number with this model. So we will try to beat this model with more numbers and backtesting.</p>
+</section>{% endif %}
+{%- endmacro %}
+

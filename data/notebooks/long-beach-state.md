@@ -1,6 +1,6 @@
 # Sharon Nakayama, The Long Beach Lantern
 
-_Long Beach St (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Long Beach St (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 
 ## Barometer
 
-**37 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sharon editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sharon editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,7 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924265.html <!-- post:401924265:preview -->
 - 2026-11-17: L 66-105 at UCLA Bruins. Barometer 37 (testy). <!-- g:401924265 -->
 - 2026-11-17: Social recap posted (L 66-105 vs UCLA Bruins): https://hardwoodbricks.com/bigwest/games/401924265.html <!-- post:401924265:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924266.html <!-- post:401924266:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
+- 2026-11-23: L 75-79 at Florida International Panthers. Barometer 34 (testy). <!-- g:401924266 -->
+- 2026-11-23: Social recap posted (L 75-79 vs Florida International Panthers): https://hardwoodbricks.com/bigwest/games/401924266.html <!-- post:401924266:recap -->

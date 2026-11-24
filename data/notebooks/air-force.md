@@ -1,6 +1,6 @@
 # Col. Hank Sterling, The Colorado Springs Observer
 
-_Air Force (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Air Force (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 
 ## Barometer
 
-**52 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five LWWWL.
+**43 of 100, testy.** Record 3-3 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Col. editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Col. editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,6 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 - 2026-11-15: L 69-93 at Pacific Tigers. Barometer 52 (steady). <!-- g:401934396 -->
 - 2026-11-15: Social recap posted (L 69-93 vs Pacific Tigers): https://hardwoodbricks.com/mw/games/401934396.html <!-- post:401934396:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401911337.html <!-- post:401911337:preview -->
+- 2026-11-21: L 68-90 at UTSA Roadrunners. Barometer 43 (testy). <!-- g:401911337 -->
+- 2026-11-22: Social recap posted (L 68-90 vs UTSA Roadrunners): https://hardwoodbricks.com/mw/games/401911337.html <!-- post:401911337:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911338.html <!-- post:401911338:preview -->

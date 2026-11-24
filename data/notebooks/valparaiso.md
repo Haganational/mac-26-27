@@ -1,6 +1,6 @@
 # Greta Von Berg, The Valparaiso Ledger
 
-_Valparaiso (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Valparaiso (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
+**55 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Greta editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,8 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 - 2026-11-17: W 106-35 vs Calumet St. Joseph Crimson Wave. Barometer 62 (steady). <!-- g:401928997 -->
 - 2026-11-17: Social recap posted (W 106-35 vs Calumet St. Joseph Crimson Wave): https://hardwoodbricks.com/mvc/games/401928997.html <!-- post:401928997:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:preview -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:preview -->
+- 2026-11-22: L 72-77 vs (neutral) Troy Trojans. Barometer 53 (steady). <!-- g:401928998 -->
+- 2026-11-22: Social recap posted (L 72-77 vs Troy Trojans): https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:recap -->
+- 2026-11-22: L 89-99 vs (neutral) Southern Miss Golden Eagles. Barometer 55 (steady). <!-- g:401928999 -->
+- 2026-11-23: Social recap posted (L 89-99 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:recap -->

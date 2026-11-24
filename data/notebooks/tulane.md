@@ -1,6 +1,6 @@
 # Beau Thibodeaux, The New Orleans Spectator
 
-_Tulane (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Tulane (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 
 ## Barometer
 
-**43 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**35 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,6 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:preview -->
 - 2026-11-20: L 67-74 at Louisiana Tech Bulldogs. Barometer 43 (testy). <!-- g:401919005 -->
 - 2026-11-20: Social recap posted (L 67-74 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/american/games/401919005.html <!-- post:401919005:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:preview -->
+- 2026-11-23: L 63-73 vs (neutral) Georgia State Panthers. Barometer 35 (testy). <!-- g:401919006 -->
+- 2026-11-23: Social recap posted (L 63-73 vs Georgia State Panthers): https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:recap -->

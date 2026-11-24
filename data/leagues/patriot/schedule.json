@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:47:49+00:00",
+ "fetched_at": "2026-11-23T23:27:48+00:00",
  "season": 2027,
  "games": [
   {
@@ -2378,11 +2378,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bucknell-bison-mens-basketball-tickets-sojka-pavilion-11-21-2026--sports-ncaa-basketball/production/7581606?wsUser=717",
-    "low": 42.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Sojka Pavilion",
    "venue_city": "Lewisburg",
    "venue_state": "PA",
@@ -2391,21 +2387,21 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": false
    },
    "away": {
     "espn_id": "2561",
     "key": null,
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": null,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923402",
@@ -2428,11 +2424,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-11-21-2026--sports-ncaa-basketball/production/7710488?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Case Gym",
    "venue_city": "Boston",
    "venue_state": "MA",
@@ -2441,21 +2433,21 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "171",
     "key": null,
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401920773",
@@ -2473,11 +2465,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-11-21-2026--sports-ncaa-basketball/production/7628268?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Cotterell Court",
    "venue_city": "Hamilton",
    "venue_state": "NY",
@@ -2486,21 +2474,21 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2944",
     "key": null,
     "name": "Penn State Behrend Lions",
     "abbr": "PSBH",
-    "score": null,
-    "winner": null
+    "score": 55,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909719",
@@ -2518,11 +2506,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-21-2026--sports-ncaa-basketball/production/7328007?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "JMA Wireless Dome",
    "venue_city": "Syracuse",
    "venue_state": "NY",
@@ -2531,21 +2515,21 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "322",
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921222",
@@ -2563,11 +2547,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-11-21-2026--sports-ncaa-basketball/production/7724858?wsUser=717",
-    "low": 25.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Canastra Hammer Arena",
    "venue_city": "Lawrenceville",
    "venue_state": "NJ",
@@ -2576,21 +2556,21 @@
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2426",
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911278",
@@ -2608,11 +2588,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/binghamton-bearcats-mens-basketball-tickets-visions-veterans-memorial-arena-11-21-2026--sports-ncaa-basketball/production/7752178?wsUser=717",
-    "low": 33.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Events Center (Binghamton)",
    "venue_city": "Binghamton",
    "venue_state": "NY",
@@ -2621,21 +2597,21 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
    "away": {
     "espn_id": "349",
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": null,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401912212",
@@ -2653,11 +2629,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/american-university-eagles-mens-basketball-tickets-bender-arena-11-22-2026--sports-basketball/production/7444591?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Bender Arena",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -2666,21 +2638,21 @@
     "key": "american-u",
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "119",
     "key": null,
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921223",
@@ -2705,7 +2677,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-11-24-2026--sports-ncaa-basketball/production/7537664?wsUser=717",
-    "low": 14.0,
+    "low": 18.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
@@ -2755,7 +2727,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467533?wsUser=717",
-    "low": 20.0,
+    "low": 37.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Lavietes Pavilion",
@@ -2928,7 +2900,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Newman Arena",
@@ -2973,7 +2945,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Leede Arena",
@@ -3055,6 +3027,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    },
     {
      "name": "Patriot League TV",
      "kind": "Streaming",
@@ -3279,51 +3256,6 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401912232",
-   "date": "2026-11-28T18:00Z",
-   "name": "Rider Broncs at Army Black Knights",
-   "short_name": "RID @ ARMY",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
-   "venue": "Christl Arena",
-   "venue_city": "West Point",
-   "venue_state": "NY",
-   "home": {
-    "espn_id": "349",
-    "key": "army",
-    "name": "Army Black Knights",
-    "abbr": "ARMY",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2520",
-    "key": null,
-    "name": "Rider Broncs",
-    "abbr": "RID",
     "score": null,
     "winner": null
    },
@@ -3558,7 +3490,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-28-2026--sports-ncaa-basketball/production/7546513?wsUser=717",
-    "low": 22.0,
+    "low": 18.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "The Palestra",
@@ -3577,6 +3509,51 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401912232",
+   "date": "2026-11-29T00:00Z",
+   "name": "Rider Broncs at Army Black Knights",
+   "short_name": "RID @ ARMY",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
+    "low": 17.0,
+    "since": "2026-11-18T23:20:39Z"
+   },
+   "venue": "Christl Arena",
+   "venue_city": "West Point",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "349",
+    "key": "army",
+    "name": "Army Black Knights",
+    "abbr": "ARMY",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2520",
+    "key": null,
+    "name": "Rider Broncs",
+    "abbr": "RID",
     "score": null,
     "winner": null
    },
@@ -4373,7 +4350,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-12-5-2026--sports-ncaa-basketball/production/7710490?wsUser=717",
-    "low": 22.0,
+    "low": 12.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -4502,7 +4479,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-12-6-2026--sports-ncaa-basketball/production/7383946?wsUser=717",
-    "low": 32.0,
+    "low": 28.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Clune Arena",
@@ -5867,7 +5844,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-22-2026--sports-ncaa-basketball/production/7294910?wsUser=717",
-    "low": 42.0,
+    "low": 41.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Neville Arena",
@@ -6491,7 +6468,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-9-2027--sports-ncaa-basketball/production/7710502?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -9312,6 +9289,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T03:10:53+00:00"
+ ]
 }

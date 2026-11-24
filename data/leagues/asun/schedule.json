@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:27:35+00:00",
+ "fetched_at": "2026-11-23T23:02:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -1945,11 +1945,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-11-21-2026--sports-ncaa-basketball/production/7349941?wsUser=717",
-    "low": 5.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Pete Maravich Assembly Center",
    "venue_city": "Baton Rouge",
    "venue_state": "LA",
@@ -1958,21 +1954,21 @@
     "key": null,
     "name": "LSU Tigers",
     "abbr": "LSU",
-    "score": null,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
    "away": {
     "espn_id": "2511",
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922222",
@@ -1990,11 +1986,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-11-21-2026--sports-other-sports/production/7890313?wsUser=717",
-    "low": 43.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
+   "tickets": null,
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
@@ -2003,21 +1995,21 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
    "away": {
     "espn_id": "2031",
     "key": null,
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917918",
@@ -2044,21 +2036,21 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": null,
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922252",
@@ -2076,11 +2068,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-22-2026--sports-ncaa-basketball/production/7743179?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
    "venue_state": "AL",
@@ -2089,21 +2077,21 @@
     "key": null,
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2697",
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920708",
@@ -2121,11 +2109,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-11-22-2026--sports-ncaa-basketball/production/7804425?wsUser=717",
-    "low": 25.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Allen Arena",
    "venue_city": "Nashville",
    "venue_state": "TN",
@@ -2134,21 +2118,21 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
    "away": {
     "espn_id": "2397",
     "key": null,
     "name": "Milligan Buffaloes",
     "abbr": "MILG",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921701",
@@ -2159,12 +2143,14 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679884?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -2173,21 +2159,21 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
    "away": {
     "espn_id": "2429",
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917919",
@@ -2218,60 +2204,21 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": null,
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401921030",
-   "date": "2026-11-24T05:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
-   "season_type": "reg",
-   "neutral_site": true,
-   "conference_game": false,
-   "time_tba": true,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
-   "venue": "Truist Arena",
-   "venue_city": "Highland Heights",
-   "venue_state": "KY",
-   "home": {
-    "espn_id": "290",
-    "key": null,
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "91",
-    "key": "bellarmine",
-    "name": "Bellarmine Knights",
-    "abbr": "BELL",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922231",
@@ -2319,6 +2266,45 @@
    "detail": ""
   },
   {
+   "game_id": "401921030",
+   "date": "2026-11-25T00:00Z",
+   "name": "Bellarmine Knights at Georgia Southern Eagles",
+   "short_name": "BELL VS GASO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": {
+    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
+    "low": 32.0,
+    "since": "2026-11-20T12:02:17Z"
+   },
+   "venue": "Truist Arena",
+   "venue_city": "Highland Heights",
+   "venue_state": "KY",
+   "home": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "91",
+    "key": "bellarmine",
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401916291",
    "date": "2026-11-25T00:00Z",
    "name": "Jacksonville Dolphins at Indiana Hoosiers",
@@ -2336,7 +2322,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -2381,7 +2367,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 12.0,
+    "low": 13.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -2426,7 +2412,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -2503,7 +2489,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "PTB Live",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679902?wsUser=717",
     "low": 65.0,
@@ -2597,7 +2589,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Truist Arena",
@@ -2642,7 +2634,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-11-27-2026--sports-ncaa-basketball/production/7119705?wsUser=717",
-    "low": 9.0,
+    "low": 13.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Hinkle Fieldhouse",
@@ -3219,7 +3211,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lipscomb-university-bison-mens-basketball-tickets-allen-arena-12-2-2026--sports-ncaa-basketball/production/7804429?wsUser=717",
-    "low": 25.0,
+    "low": 15.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Allen Arena",
@@ -3657,7 +3649,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-7-2026--sports-ncaa-basketball/production/7519437?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Gersten Pavilion",
@@ -4713,7 +4705,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/usc-trojans-mens-basketball-tickets-galen-center-12-19-2026--sports-ncaa-basketball/production/7508077?wsUser=717",
-    "low": 17.0,
+    "low": 18.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Galen Center",
@@ -5325,7 +5317,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-29-2026--sports-ncaa-basketball/production/7402697?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Stegeman Coliseum",
@@ -8255,5 +8247,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:40:48+00:00"
+ "live_at": "2026-11-24T02:37:41+00:00"
 }

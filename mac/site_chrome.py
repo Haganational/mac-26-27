@@ -341,8 +341,58 @@ def share_card(path: Path, title: str, subtitle: str, *, bg: str = BRAND, accent
     img.save(path, optimize=True)
 
 
-def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
-    """Final score card, set like a box-score head: each side capped in its team color, the winner in full ink."""
+def top_performer(box: dict[str, Any] | None, espn_id: Any) -> dict[str, Any] | None:
+    """The side's leading scorer from the box (rebounds plus assists break a tie), with up to two other lines
+    worth printing beside his points: 5+ rebounds, 4+ assists, 3+ blocks or steals, best first."""
+    rows = [p for p in (box or {}).get("players", []) if str(p.get("team_espn_id")) == str(espn_id) and not p.get("dnp")]
+    if not rows:
+        return None
+    p = max(rows, key=lambda r: (r.get("pts") or 0, (r.get("reb") or 0) + (r.get("ast") or 0)))
+    if not p.get("pts"):
+        return None
+    floor = {"reb": 5, "ast": 4, "blk": 3, "stl": 3}
+    best = sorted((k for k, f in floor.items() if (p.get(k) or 0) >= f), key=lambda k: -(p[k] / floor[k]))[:2]
+    extra = [k for k in floor if k in best]  # printed in box-score order: REB, AST, BLK, STL
+    words = [w for w in p["name"].split() if w.rstrip(".").lower() not in ("jr", "sr", "ii", "iii", "iv")] or [p["name"]]
+    return {"name": p["name"], "last": words[-1], "pts": p["pts"], "extra": [f"{p[k]} {k.upper()}" for k in extra],
+            "jersey": p.get("jersey")}
+
+
+def _capsule(d, x0: int, x1: int, top: int, tp: dict[str, Any], tc: str, mark: str) -> None:
+    """Top performer, set small in the paper beside the score: a team-color roundel (jersey number, else initials),
+    the surname, points in bold and the next line or two under them. Nothing is drawn if it would not fit."""
+    w = x1 - x0
+    if w < 120:
+        return
+    r = 30
+    d.ellipse([x0, top, x0 + 2 * r, top + 2 * r], fill=tc)
+    mf = _fit(d, mark, 2 * r - 14, 32, face="cond-bold")
+    mw = d.textlength(mark, font=mf)
+    d.text((x0 + r - mw / 2, top + r - mf.size * 0.62), mark, font=mf, fill=ink_on(tc))
+    y = top + 2 * r + 10
+    nf = _fit(d, tp["last"], w, 38, face="serif")
+    d.text((x0, y), tp["last"], font=nf, fill=INK)
+    y += 48
+    pf = _font(42, face="cond-bold")
+    _spaced(d, (x0, y), f"{tp['pts']} PTS", pf, INK, 0.04)
+    y += 50
+    if tp["extra"]:
+        line = " · ".join(tp["extra"])
+        ef = _font(30, face="cond")
+        while _spaced_len(d, line, ef, 0.06) > w and len(tp["extra"]) > 1:
+            tp = {**tp, "extra": tp["extra"][:1]}
+            line = tp["extra"][0]
+        _spaced(d, (x0, y), line, ef, INK2, 0.06)
+
+
+def _initials(name: str) -> str:
+    parts = [w for w in name.replace(".", " ").split() if w[:1].isalpha() and w.lower() not in ("jr", "sr", "ii", "iii", "iv")]
+    return (parts[0][0] + parts[-1][0]).upper() if len(parts) > 1 else name[:2].upper()
+
+
+def game_card(path: Path, g: dict[str, Any], colors: dict[str, str], box: dict[str, Any] | None = None) -> None:
+    """Final score card, set like a box-score head: each side capped in its team color, the winner in full ink.
+    With a box score, each side's top performer sits small in the paper to the right of its score."""
     from PIL import Image, ImageDraw
     W, H = 1200, 630
     img = Image.new("RGB", (W, H), PAPER)
@@ -355,6 +405,8 @@ def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
     vf = _font(24, face="cond")
     _spaced(d, (W - 72 - _spaced_len(d, venue, vf, 0.1), 80), venue, vf, MUTED, 0.1)
     col = (W - 144 - 48) // 2
+    tops = [top_performer(box, s.get("espn_id")) for s in (g["away"], g["home"])]
+    jerseys = all(t and t.get("jersey") for t in tops)  # numbers only when both sides have one, else initials on both
     for i, side in enumerate((g["away"], g["home"])):
         x0 = 72 + i * (col + 48)
         tc = colors.get(side.get("key") or "", "#3a3f4a")
@@ -363,8 +415,13 @@ def game_card(path: Path, g: dict[str, Any], colors: dict[str, str]) -> None:
         _spaced(d, (x0, 166), side["abbr"].upper(), _font(30, face="cond-bold"), INK2, 0.1)
         name = side["name"]
         d.text((x0, 204), name, font=_fit(d, name, col, 46, face="serif"), fill=INK)
-        d.text((x0 - 6, 250), str(side["score"]), font=_font(230, face="cond-bold"), fill=INK if won else "#b9ad9a")
+        sf = _font(230, face="cond-bold")
+        d.text((x0 - 6, 250), str(side["score"]), font=sf, fill=INK if won else "#b9ad9a")
         d.line([x0, 520, x0 + col, 520], fill=INK, width=2)
+        tp = top_performer(box, side.get("espn_id"))
+        if tp:
+            mark = f"#{tp['jersey']}" if jerseys and tp.get("jersey") else _initials(tp["name"])
+            _capsule(d, x0 + int(d.textlength(str(side["score"]), font=sf)) + 34, x0 + col, 282, tp, tc, mark)
     d.line([W // 2, 132, W // 2, 520], fill=GRID, width=2)
     _footer(d, W, H)
     path.parent.mkdir(parents=True, exist_ok=True)

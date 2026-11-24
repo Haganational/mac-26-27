@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:40:23+00:00",
+ "fetched_at": "2026-11-23T23:18:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -2185,11 +2185,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
    "venue_state": "ID",
@@ -2239,21 +2235,21 @@
     "key": null,
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2393",
     "key": "middle-tennessee",
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401927365",
@@ -2280,21 +2276,21 @@
     "key": "missouri-state",
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
    "away": {
     "espn_id": "2181",
     "key": null,
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928802",
@@ -2321,21 +2317,21 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "45",
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928790",
@@ -2356,21 +2352,21 @@
     "key": "new-mexico-state",
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "2523",
     "key": null,
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401926795",
@@ -2397,21 +2393,21 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
    "away": {
     "espn_id": "257",
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": null,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401920905",
@@ -2429,11 +2425,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/ucla-bruins-mens-basketball-tickets-pauley-pavilion---ucla-11-22-2026--sports-ncaa-basketball/production/7567329?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Pauley Pavilion",
    "venue_city": "Los Angeles",
    "venue_state": "CA",
@@ -2442,21 +2434,21 @@
     "key": null,
     "name": "UCLA Bruins",
     "abbr": "UCLA",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "48",
     "key": "delaware",
     "name": "Delaware Blue Hens",
     "abbr": "DEL",
-    "score": null,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924266",
@@ -2474,11 +2466,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-23-2026--sports-ncaa-basketball/production/7745942?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2487,21 +2475,62 @@
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "299",
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921207",
+   "date": "2026-11-23T20:20Z",
+   "name": "Middle Tennessee Blue Raiders at Southern Illinois Salukis",
+   "short_name": "MTSU VS SIU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "79",
+    "key": null,
+    "name": "Southern Illinois Salukis",
+    "abbr": "SIU",
+    "score": 76,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2393",
+    "key": "middle-tennessee",
+    "name": "Middle Tennessee Blue Raiders",
+    "abbr": "MTSU",
+    "score": 77,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928791",
@@ -2556,7 +2585,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 10.0,
+    "low": 16.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2687,7 +2716,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 10.0,
+    "low": 14.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2758,7 +2787,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -3230,7 +3265,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center-11-30-2026--sports-ncaa-basketball/production/7574478?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "VyStar Arena",
@@ -3582,7 +3617,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rice-owls-mens-basketball-tickets-tudor-fieldhouse-12-4-2026--sports-ncaa-basketball/production/7663531?wsUser=717",
-    "low": 28.0,
+    "low": 16.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Tudor Fieldhouse",
@@ -3627,7 +3662,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-12-5-2026--sports-ncaa-basketball/production/7558817?wsUser=717",
-    "low": 48.0,
+    "low": 45.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Liberty Arena (VA)",
@@ -3762,7 +3797,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 33.0,
+    "low": 28.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "The Pit",
@@ -3977,7 +4012,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-6-2026--sports-ncaa-basketball/production/7915088?wsUser=717",
+    "low": 53.0,
+    "since": "2026-11-21T18:13:51Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -4100,7 +4139,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-9-2026--sports-ncaa-basketball/production/7686823?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -4489,7 +4528,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rocket-city-classic-tickets-huntsville-propst-arena-at-the-von-braun-center-12-15-2026/production/7116679?wsUser=717",
-    "low": 63.0,
+    "low": 62.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Propst Arena",
@@ -4569,7 +4608,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-15-2026--sports-ncaa-basketball/production/7656476?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Baxter Arena",
@@ -4655,7 +4694,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-16-2026--sports-ncaa-basketball/production/7483126?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Addition Financial Arena",
@@ -4745,7 +4784,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-12-17-2026--sports-ncaa-basketball/production/7558841?wsUser=717",
-    "low": 46.0,
+    "low": 45.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Liberty Arena (VA)",
@@ -5230,7 +5269,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-21-2026--sports-ncaa-basketball/production/7915090?wsUser=717",
+    "low": 65.0,
+    "since": "2026-11-23T18:13:33Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -8125,7 +8168,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-2-18-2027--sports-ncaa-basketball/production/7290165?wsUser=717",
-    "low": 85.0,
+    "low": 61.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Liberty Arena (VA)",
@@ -8928,7 +8971,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-3-6-2027--sports-ncaa-basketball/production/7290252?wsUser=717",
-    "low": 18.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -9033,6 +9076,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T04:37:47+00:00"
+ ]
 }

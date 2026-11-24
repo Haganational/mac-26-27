@@ -1,6 +1,6 @@
 # Sterling Prescott, The Davidson Spectator
 
-_Davidson (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Davidson (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 
 ## Barometer
 
-**51 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,6 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
 - 2026-11-18: L 66-73 vs Charlotte 49ers. Barometer 51 (steady). <!-- g:401925775 -->
 - 2026-11-18: Social recap posted (L 66-73 vs Charlotte 49ers): https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:preview -->
+- 2026-11-23: W 79-48 vs (neutral) Northern Iowa Panthers. Barometer 59 (steady). <!-- g:401921700 -->
+- 2026-11-23: Social recap posted (W 79-48 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:recap -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:25:45+00:00",
+ "fetched_at": "2026-11-23T23:01:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2347,11 +2347,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
    "venue_state": "MI",
@@ -2360,21 +2356,21 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
    "away": {
     "espn_id": "2172",
     "key": null,
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921169",
@@ -2401,21 +2397,21 @@
     "key": null,
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
    "away": {
     "espn_id": "2309",
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911022",
@@ -2433,11 +2429,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-21-2026--sports-ncaa-basketball/production/7456025?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
    "venue_state": "OH",
@@ -2446,21 +2438,21 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "2459",
     "key": null,
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911023",
@@ -2478,11 +2470,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-21-2026--sports-ncaa-basketball/production/7413913?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Mullins Center",
    "venue_city": "Amherst",
    "venue_state": "MA",
@@ -2491,21 +2479,21 @@
     "key": "umass",
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "311",
     "key": null,
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": null,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911024",
@@ -2526,21 +2514,21 @@
     "key": null,
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
    "away": {
     "espn_id": "193",
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928830",
@@ -2567,21 +2555,21 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
    "away": {
     "espn_id": "2006",
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911025",
@@ -2601,7 +2589,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/buffalo-bulls-mens-basketball-tickets-broadview-arena---university-at-buffalo-11-23-2026--sports-ncaa-basketball/production/7872838?wsUser=717",
-    "low": 17.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Broadview Arena",
@@ -2612,21 +2600,21 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
    "away": {
     "espn_id": "178",
     "key": null,
     "name": "RIT Tigers",
     "abbr": "RIT",
-    "score": null,
-    "winner": null
+    "score": 47,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928838",
@@ -2646,7 +2634,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ball-state-cardinals-mens-basketball-tickets-john-e-worthen-arena-11-23-2026--sports-ncaa-basketball/production/7627563?wsUser=717",
-    "low": 31.0,
+    "low": 33.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Worthen Arena",
@@ -2657,21 +2645,21 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": null,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2589",
     "key": null,
     "name": "Spalding Pelicans",
     "abbr": "SPLD",
-    "score": null,
-    "winner": null
+    "score": 36,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928791",
@@ -2894,7 +2882,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Purcell Pavilion",
@@ -2974,7 +2962,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 24.0,
+    "low": 14.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Millett Hall",
@@ -3101,7 +3089,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-27-2026--sports-ncaa-basketball/production/7478281?wsUser=717",
-    "low": 7.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -3223,7 +3211,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
@@ -3306,7 +3300,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-11-29-2026--sports-ncaa-basketball/production/7601285?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -3396,7 +3390,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/akron-zips-mens-basketball-tickets-rhodes-arena-12-2-2026--sports-ncaa-basketball/production/7430535?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "James A. Rhodes Arena",
@@ -3572,7 +3566,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-2-2026--sports-ncaa-basketball/production/7424980?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -4061,7 +4055,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-novant-health-fieldhouse-at-greensboro-complex-12-12-2026--sports-ncaa-basketball/production/7551682?wsUser=717",
-    "low": 65.0,
+    "low": 64.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Novant Health Fieldhouse",
@@ -4411,7 +4405,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ball-state-cardinals-mens-basketball-tickets-john-e-worthen-arena-12-16-2026--sports-ncaa-basketball/production/7456065?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Worthen Arena",
@@ -4976,7 +4970,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-22-2026--sports-ncaa-basketball/production/7462745?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -5066,7 +5060,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-12-22-2026--sports-ncaa-basketball/production/7639761?wsUser=717",
-    "low": 30.0,
+    "low": 32.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Millett Hall",
@@ -5201,7 +5195,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-29-2026--sports-ncaa-basketball/production/7580392?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -5471,7 +5465,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-30-2026--sports-ncaa-basketball/production/7522607?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Crisler Center",
@@ -8212,7 +8206,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-2-13-2027--sports-ncaa-basketball/production/7425015?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -9670,5 +9664,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:05:58+00:00"
 }

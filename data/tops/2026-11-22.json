@@ -1,0 +1,154 @@
+{
+ "date": "2026-11-22",
+ "locked_at": "2026-11-22T12:34+00:00",
+ "board": 35,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401926774",
+    "tip": "2026-11-23T01:00Z",
+    "matchup": "Louisiana Ragin' Cajuns at USC Trojans",
+    "side": "under",
+    "line": 147.5,
+    "label": "Under 147.5",
+    "why": "Model has it 6.5 under the total.",
+    "result": "win",
+    "final": "56-82"
+   },
+   {
+    "kind": "side",
+    "game": "401921748",
+    "tip": "2026-11-22T19:00Z",
+    "matchup": "UMass Lowell River Hawks at Cincinnati Bearcats",
+    "side": "away",
+    "team": "UMass Lowell River Hawks",
+    "abbr": "UML",
+    "line": 30.5,
+    "label": "UMass Lowell River Hawks +30.5",
+    "why": "Third-stingiest defense on the board: 60.4 allowed a game.",
+    "result": "win",
+    "final": "68-78"
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401929202",
+    "tip": "2026-11-22T20:30Z",
+    "matchup": "McNeese Cowboys at Texas State Bobcats",
+    "side": "over",
+    "line": 142.5,
+    "label": "Over 142.5",
+    "why": "Model has it 13.5 over the total.",
+    "result": "win",
+    "final": "69-95"
+   },
+   {
+    "kind": "side",
+    "game": "401920905",
+    "tip": "2026-11-23T00:00Z",
+    "matchup": "Delaware Blue Hens at UCLA Bruins",
+    "side": "home",
+    "team": "UCLA Bruins",
+    "abbr": "UCLA",
+    "line": -29.5,
+    "label": "UCLA Bruins -29.5",
+    "why": "Second-highest scoring team on the board: 96.8 a game.",
+    "result": "win",
+    "final": "48-85"
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401906868",
+    "tip": "2026-11-22T20:00Z",
+    "matchup": "Southern Indiana Screaming Eagles at Texas Longhorns",
+    "side": "away",
+    "team": "Southern Indiana Screaming Eagles",
+    "abbr": "USI",
+    "line": 40.0,
+    "label": "Southern Indiana Screaming Eagles +40",
+    "why": "Model is 9.2 points off the number.",
+    "result": "win",
+    "final": "61-97"
+   },
+   {
+    "kind": "side",
+    "game": "401921748",
+    "tip": "2026-11-22T19:00Z",
+    "matchup": "UMass Lowell River Hawks at Cincinnati Bearcats",
+    "side": "away",
+    "team": "UMass Lowell River Hawks",
+    "abbr": "UML",
+    "line": 30.5,
+    "label": "UMass Lowell River Hawks +30.5",
+    "why": "Model is 7.6 points off the number.",
+    "result": "win",
+    "final": "68-78"
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401918455",
+    "tip": "2026-11-22T19:00Z",
+    "matchup": "William & Mary Tribe at Youngstown State Penguins",
+    "side": "home",
+    "team": "Youngstown State Penguins",
+    "abbr": "YSU",
+    "line": 2.5,
+    "label": "Youngstown State Penguins +2.5",
+    "why": "Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money.",
+    "result": "loss",
+    "final": "75-63"
+   },
+   {
+    "kind": "total",
+    "game": "401918455",
+    "tip": "2026-11-22T19:00Z",
+    "matchup": "William & Mary Tribe at Youngstown State Penguins",
+    "side": "under",
+    "line": 164.5,
+    "label": "Under 164.5",
+    "why": "The bingo hall switched callers. New guy has a cousin in the commissary. Under. Don't ask.",
+    "result": "win",
+    "final": "75-63"
+   }
+  ]
+ },
+ "column": {
+  "byline": "brett",
+  "by": "Brett Busberger",
+  "head": "Picks are in for Sunday",
+  "paras": [
+   "Mr. JuiceBox here, fully hydrated and fully modeled.",
+   "Everybody broke about even last night. Brett and the rest, 1-1.",
+   "Cleveland State Vikings +4 lost with 2:28 left on a jumper. The machine calls that variance. I call it rude."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 147.5. Model has it 6.5 under the total. Nobody's scoring on anybody in my world. UMass Lowell River Hawks +30.5. Third-stingiest defense on the board: 60.4 allowed a game. I've seen that team guard a man into retirement."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 142.5. Model has it 13.5 over the total. Turn the scoreboard up, honey. UCLA Bruins -29.5. Second-highest scoring team on the board: 96.8 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Southern Indiana Screaming Eagles +40. Model is 9.2 points off the number. The spreadsheet has spoken. UMass Lowell River Hawks +30.5. Model is 7.6 points off the number. Big number, big hair, big night."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "Youngstown State Penguins +2.5. Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money. Under 164.5. The bingo hall switched callers. New guy has a cousin in the commissary. Under. Don't ask."
+   }
+  ],
+  "close": "Season ledger: Leslie leads at 5-1, +3.55 units."
+ }
+}

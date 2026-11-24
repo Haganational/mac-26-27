@@ -28,7 +28,8 @@ from typing import Any
 
 from .config import LEAGUE
 
-LOCKED_PAGES = ("odds.html", "ratings.html", "viz.html", "players.html", "book.html", "travel.html")
+# The Window (Nov 21 2026): only the betting tools stay behind the code. Players, Almanac and Travel are reading pages now.
+LOCKED_PAGES = ("odds.html", "ratings.html", "viz.html")
 PAGE_BLURB = {
     "odds.html": ("Odds", "Every book's line, best prices, open vs now and where the market is off."),
     "ratings.html": ("Ratings", "Power ratings for all 365 D-I teams, projected spreads and totals, and where the model disagrees with the market."),

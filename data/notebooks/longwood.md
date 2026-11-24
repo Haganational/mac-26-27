@@ -1,6 +1,6 @@
 # Hattie Farmer, The Farmville Lantern
 
-_Longwood (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Longwood (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 
 ## Barometer
 
-**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
+**52 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-19: W 82-76 vs VMI Keydets. Barometer 60 (steady). <!-- g:401922047 -->
 - 2026-11-19: Social recap posted (W 82-76 vs VMI Keydets): https://hardwoodbricks.com/socon/games/401922047.html <!-- post:401922047:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:preview -->
+- 2026-11-21: L 68-74 at East Tennessee State Buccaneers. Barometer 52 (steady). <!-- g:401922048 -->
+- 2026-11-22: Social recap posted (L 68-74 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:recap -->

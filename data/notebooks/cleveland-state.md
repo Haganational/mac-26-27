@@ -1,6 +1,6 @@
 # Dan Kowalski, The Cleveland Examiner
 
-_Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
+**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 - 2026-11-18: L 67-75 at Xavier Musketeers. Barometer 48 (steady). <!-- g:401909544 -->
 - 2026-11-18: Social recap posted (L 67-75 vs Xavier Musketeers): https://hardwoodbricks.com/horizon/games/401909544.html <!-- post:401909544:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:preview -->
+- 2026-11-21: L 62-69 vs Kent State Golden Flashes. Barometer 42 (testy). <!-- g:401921169 -->
+- 2026-11-21: Social recap posted (L 62-69 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->

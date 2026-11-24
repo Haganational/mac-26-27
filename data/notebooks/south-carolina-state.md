@@ -1,6 +1,6 @@
 # Janelle Mims, The Orangeburg Courier
 
-_South Carolina State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_South Carolina State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 
 ## Barometer
 
-**36 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
+**30 of 100, testy.** Record 3-4 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Janelle editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Janelle editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,6 @@ Janelle Mims edits The Orangeburg Courier and wants the free throw percentage no
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:preview -->
 - 2026-11-21: L 63-79 at The Citadel Bulldogs. Barometer 36 (testy). <!-- g:401925927 -->
 - 2026-11-21: Social recap posted (L 63-79 vs The Citadel Bulldogs): https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/caa/games/401921157.html <!-- post:401921157:preview -->
+- 2026-11-24: L 60-62 vs North Carolina A&T Aggies. Barometer 30 (testy). <!-- g:401921157 -->
+- 2026-11-24: Social recap posted (L 60-62 vs North Carolina A&T Aggies): https://hardwoodbricks.com/caa/games/401921157.html <!-- post:401921157:recap -->

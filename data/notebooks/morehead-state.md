@@ -1,6 +1,6 @@
 # Opal Caudill, The Morehead Ledger
 
-_Morehead State (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Morehead State (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
+**41 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Opal editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Opal editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 - 2026-11-19: L 77-91 at Ohio Bobcats. Barometer 49 (steady). <!-- g:401920963 -->
 - 2026-11-19: Social recap posted (L 77-91 vs Ohio Bobcats): https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401920964.html <!-- post:401920964:preview -->
+- 2026-11-22: L 61-84 at Elon Phoenix. Barometer 41 (testy). <!-- g:401920964 -->
+- 2026-11-22: Social recap posted (L 61-84 vs Elon Phoenix): https://hardwoodbricks.com/caa/games/401920964.html <!-- post:401920964:recap -->

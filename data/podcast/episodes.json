@@ -1,0 +1,37 @@
+[
+ {
+  "id": "pilot",
+  "date": "2026-11-22",
+  "published": "2026-11-23T06:45:00+00:00",
+  "pilot": true,
+  "title": "The Lock Call: Pilot",
+  "blurb": "Leslie and Brett open the window, the president benches his own vice president, and Edwin is told to sit down.",
+  "audio": "static/podcast/lock-call-pilot.mp3",
+  "bytes": 2607405,
+  "seconds": 130,
+  "script": "data/podcast/2026-11-22.json"
+ },
+ {
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "published": "2026-11-23T14:40:43+00:00",
+  "title": "The Lock Call: Monday, November 23",
+  "blurb": "Brett and Merv take opposite sides of Akron and Wright State, the president finds someone to blame for the stock market, and Edwin tries the same excuse.",
+  "audio": "static/podcast/lock-call-2026-11-23.mp3",
+  "bytes": 2355767,
+  "seconds": 118,
+  "script": "data/podcast/2026-11-23.json"
+ },
+ {
+  "id": "2026-11-23-rocket-ship",
+  "date": "2026-11-23",
+  "published": "2026-11-23T21:39:06+00:00",
+  "title": "Lock Call Bonus: The Rocket Ship",
+  "blurb": "Matthew on the day a president un-fired a CEO, with the gang cutting in.",
+  "audio": "static/podcast/lock-call-2026-11-23-rocket-ship.mp3",
+  "bytes": 3087196,
+  "seconds": 154,
+  "script": "data/podcast/2026-11-23-rocket-ship.json",
+  "bonus": true
+ }
+]

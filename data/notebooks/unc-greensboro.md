@@ -1,6 +1,6 @@
 # Desmond Hale, The Greensboro Courier
 
-_UNC Greensboro (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UNC Greensboro (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**67 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,7 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 - 2026-11-19: W 78-72 at Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911393 -->
 - 2026-11-19: Social recap posted (W 78-72 vs Gardner-Webb Runnin' Bulldogs): https://hardwoodbricks.com/socon/games/401911393.html <!-- post:401911393:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:preview -->
+- 2026-11-21: W 85-66 vs South Carolina Upstate Spartans. Barometer 67 (buoyant). <!-- g:401922284 -->
+- 2026-11-21: Social recap posted (W 85-66 vs South Carolina Upstate Spartans): https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:preview -->

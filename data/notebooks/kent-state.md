@@ -1,6 +1,6 @@
 # Nick DeLuca, The Kent Dispatch
 
-_Kent State (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Kent State (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-3 (0-0 in conference), streak L2, last five LWLL.
+**46 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nick editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nick editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,6 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 - 2026-11-17: L 49-65 vs Eastern Kentucky Colonels. Barometer 36 (testy). <!-- g:401928841 -->
 - 2026-11-17: Social recap posted (L 49-65 vs Eastern Kentucky Colonels): https://hardwoodbricks.com/games/401928841.html <!-- post:401928841:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:preview -->
+- 2026-11-21: W 69-62 at Cleveland State Vikings. Barometer 46 (steady). <!-- g:401921169 -->
+- 2026-11-21: Social recap posted (W 69-62 vs Cleveland State Vikings): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->

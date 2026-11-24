@@ -1,6 +1,6 @@
 # Earl Whitlock, The Commerce Sentinel
 
-_East Texas A&M (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_East Texas A&M (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/southland/games/401918056.html <!-- post:401918056:preview -->
 - 2026-11-20: L 54-86 at California Golden Bears. Barometer 40 (testy). <!-- g:401918056 -->
 - 2026-11-20: Social recap posted (L 54-86 vs California Golden Bears): https://hardwoodbricks.com/southland/games/401918056.html <!-- post:401918056:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/southland/games/401929351.html <!-- post:401929351:preview -->

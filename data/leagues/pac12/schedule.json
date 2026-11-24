@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:34:34+00:00",
+ "fetched_at": "2026-11-23T23:11:33+00:00",
  "season": 2027,
  "games": [
   {
@@ -1821,11 +1821,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-20-2026--sports-ncaa-basketball/production/7558418?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
    "venue_state": "ID",
@@ -1866,11 +1862,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-11-20-2026--sports-ncaa-basketball/production/7631484?wsUser=717",
-    "low": 44.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Save Mart Center",
    "venue_city": "Fresno",
    "venue_state": "CA",
@@ -1911,11 +1903,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7199789?wsUser=717",
-    "low": 48.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -1924,21 +1912,21 @@
     "key": null,
     "name": "Duke Blue Devils",
     "abbr": "DUKE",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "265",
     "key": "washington-state",
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929202",
@@ -1956,11 +1944,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-22-2026--sports-ncaa-basketball/production/7633882?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Strahan Arena at the University Events Center",
    "venue_city": "San Marcos",
    "venue_state": "TX",
@@ -1969,21 +1953,21 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2377",
     "key": null,
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921658",
@@ -1994,12 +1978,14 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2008,21 +1994,21 @@
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "202",
     "key": null,
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909743",
@@ -2087,7 +2073,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 48.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -2132,7 +2118,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-24-2026--sports-ncaa-basketball/production/7280558?wsUser=717",
-    "low": 92.0,
+    "low": 110.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Michelob ULTRA Arena",
@@ -2177,7 +2163,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 7.0,
+    "low": 8.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -2222,7 +2208,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-11-24-2026--sports-ncaa-basketball/production/7633995?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -2347,7 +2333,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-25-2026--sports-ncaa-basketball/production/7401148?wsUser=717",
-    "low": 42.0,
+    "low": 56.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -2392,7 +2378,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-26-2026--sports-ncaa-basketball/production/7401152?wsUser=717",
-    "low": 58.0,
+    "low": 37.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -2644,7 +2630,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
@@ -2775,7 +2761,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-11-29-2026--sports-ncaa-basketball/production/7633884?wsUser=717",
-    "low": 23.0,
+    "low": 26.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Strahan Arena at the University Events Center",
@@ -3183,7 +3169,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-12-5-2026--sports-ncaa-basketball/production/7589492?wsUser=717",
-    "low": 80.0,
+    "low": 87.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Fertitta Center",
@@ -3318,7 +3304,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-12-5-2026--sports-ncaa-basketball/production/7631675?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
@@ -3363,7 +3349,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-5-2026--sports-ncaa-basketball/production/7418295?wsUser=717",
-    "low": 43.0,
+    "low": 42.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "CU Events Center",
@@ -3742,7 +3728,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-11-2026--sports-ncaa-basketball/production/7575845?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Moby Arena",
@@ -4077,7 +4063,7 @@
     "low": 51.0,
     "since": "2026-11-18T23:08:43Z"
    },
-   "venue": "Dickies Arena",
+   "venue": "Ariat Arena",
    "venue_city": "Fort Worth",
    "venue_state": "TX",
    "home": {
@@ -4275,7 +4261,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-legends-college-classic-tickets-comerica-center-12-18-2026--sports-ncaa-basketball/production/7405548?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Fifth Third Arena (TX)",
@@ -4392,7 +4378,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-acrisure-arena-12-19-2026--sports-ncaa-basketball/production/7282788?wsUser=717",
-    "low": 69.0,
+    "low": 70.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -4957,7 +4943,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-12-29-2026--sports-ncaa-basketball/production/7382798?wsUser=717",
-    "low": 28.0,
+    "low": 29.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -5088,7 +5074,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wisconsin-badgers-mens-basketball-tickets-kohl-center-12-30-2026--sports-ncaa-basketball/production/7377412?wsUser=717",
-    "low": 16.0,
+    "low": 13.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Kohl Center",
@@ -5671,7 +5657,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-1-13-2027--sports-ncaa-basketball/production/7631366?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -5940,7 +5926,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-1-17-2027--sports-ncaa-basketball/production/7634003?wsUser=717",
-    "low": 19.0,
+    "low": 16.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -6213,7 +6199,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-1-23-2027--sports-ncaa-basketball/production/7631368?wsUser=717",
-    "low": 23.0,
+    "low": 21.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -6404,7 +6390,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-1-27-2027--sports-ncaa-basketball/production/7634005?wsUser=717",
-    "low": 14.0,
+    "low": 11.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -6521,7 +6507,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-1-30-2027--sports-ncaa-basketball/production/7633957?wsUser=717",
-    "low": 100.0,
+    "low": 107.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -6599,7 +6585,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-1-30-2027--sports-ncaa-basketball/production/7634007?wsUser=717",
-    "low": 13.0,
+    "low": 10.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -7024,7 +7010,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-2-10-2027--sports-ncaa-basketball/production/7631372?wsUser=717",
-    "low": 138.0,
+    "low": 134.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -7141,7 +7127,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-2-13-2027--sports-ncaa-basketball/production/7634011?wsUser=717",
-    "low": 26.0,
+    "low": 10.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -7254,7 +7240,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-2-17-2027--sports-ncaa-basketball/production/7633961?wsUser=717",
-    "low": 99.0,
+    "low": 132.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -7601,7 +7587,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-2-25-2027--sports-ncaa-basketball/production/7634013?wsUser=717",
-    "low": 16.0,
+    "low": 11.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -8100,7 +8086,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-3-6-2027--sports-ncaa-basketball/production/7634015?wsUser=717",
-    "low": 18.0,
+    "low": 13.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -8205,6 +8191,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-21T05:14:35+00:00"
+ ]
 }

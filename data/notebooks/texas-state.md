@@ -1,6 +1,6 @@
 # Dusty Kincaid, The San Marcos Banner
 
-_Texas State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Texas State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 
 ## Barometer
 
-**89 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
+**90 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 84% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 85% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,6 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:preview -->
 - 2026-11-19: W 84-51 vs Incarnate Word Cardinals. Barometer 89 (giddy). <!-- g:401929201 -->
 - 2026-11-19: Social recap posted (W 84-51 vs Incarnate Word Cardinals): https://hardwoodbricks.com/pac12/games/401929201.html <!-- post:401929201:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:preview -->
+- 2026-11-22: W 95-69 vs McNeese Cowboys. Barometer 90 (giddy). <!-- g:401929202 -->
+- 2026-11-22: Social recap posted (W 95-69 vs McNeese Cowboys): https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:recap -->

@@ -1,6 +1,6 @@
 # Simone Baptiste, The Buffalo Courant
 
-_Buffalo (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Buffalo (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-3 (0-0 in conference), streak L1, last five LLWWL.
+**57 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Simone editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,6 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->
 - 2026-11-20: L 69-78 at St. Bonaventure Bonnies. Barometer 48 (steady). <!-- g:401911021 -->
 - 2026-11-20: Social recap posted (L 69-78 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401911025.html <!-- post:401911025:preview -->
+- 2026-11-23: W 93-47 vs RIT Tigers. Barometer 57 (steady). <!-- g:401911025 -->
+- 2026-11-24: Social recap posted (W 93-47 vs RIT Tigers): https://hardwoodbricks.com/games/401911025.html <!-- post:401911025:recap -->

@@ -1,6 +1,6 @@
 # Marcus Pryor, The Kansas City Clarion
 
-_Kansas City (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Kansas City (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:preview -->
 - 2026-11-21: L 61-62 at Iona Gaels. Barometer 46 (steady). <!-- g:401921007 -->
 - 2026-11-21: Social recap posted (L 61-62 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:preview -->

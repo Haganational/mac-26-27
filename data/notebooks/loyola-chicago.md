@@ -1,6 +1,6 @@
 # Father Dante Russo, The Rogers Park Almanac
 
-_Loyola Chicago (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Loyola Chicago (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 8
 
 ## Log
 
@@ -82,3 +82,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/a10/games/401911232.html <!-- post:401911232:preview -->
 - 2026-11-19: L 75-79 vs Wichita State Shockers. Barometer 54 (steady). <!-- g:401911232 -->
 - 2026-11-19: Social recap posted (L 75-79 vs Wichita State Shockers): https://hardwoodbricks.com/a10/games/401911232.html <!-- post:401911232:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/mw/games/401911233.html <!-- post:401911233:preview -->
+- 2026-11-23: L 63-72 vs (neutral) San José State Spartans. Barometer 46 (steady). <!-- g:401911233 -->
+- 2026-11-23: Social recap posted (L 63-72 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401911233.html <!-- post:401911233:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:preview -->

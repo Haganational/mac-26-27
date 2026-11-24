@@ -1,6 +1,6 @@
 # Desmond Okoye, The Charlotte Courant
 
-_Charlotte (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Charlotte (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
+**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 4
 
 ## Log
 
@@ -80,3 +80,6 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:preview -->
 - 2026-11-18: W 73-66 at Davidson Wildcats. Barometer 54 (steady). <!-- g:401925775 -->
 - 2026-11-18: Social recap posted (W 73-66 vs Davidson Wildcats): https://hardwoodbricks.com/a10/games/401925775.html <!-- post:401925775:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401921701.html <!-- post:401921701:preview -->
+- 2026-11-23: W 71-58 vs (neutral) Florida Gulf Coast Eagles. Barometer 60 (steady). <!-- g:401921701 -->
+- 2026-11-23: Social recap posted (W 71-58 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401921701.html <!-- post:401921701:recap -->

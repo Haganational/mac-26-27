@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:44:02+00:00",
+ "fetched_at": "2026-11-23T23:23:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -2233,11 +2233,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wisconsin-milwaukee-panthers-mens-basketball-tickets-uw-milwaukee-panther-arena-11-21-2026--sports-ncaa-basketball/production/7512851?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:17:16Z"
-   },
+   "tickets": null,
    "venue": "UW-Milwaukee Panther Arena",
    "venue_city": "Milwaukee",
    "venue_state": "WI",
@@ -2246,21 +2242,21 @@
     "key": null,
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2900",
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925099",
@@ -2278,11 +2274,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-21-2026--sports-ncaa-basketball/production/7529805?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:17:16Z"
-   },
+   "tickets": null,
    "venue": "Mabee Center",
    "venue_city": "Tulsa",
    "venue_state": "OK",
@@ -2291,21 +2283,21 @@
     "key": "oral-roberts",
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "357",
     "key": null,
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925942",
@@ -2317,11 +2309,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:17:16Z"
-   },
+   "tickets": null,
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -2330,21 +2318,21 @@
     "key": null,
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "233",
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929392",
@@ -2380,21 +2368,21 @@
     "key": "north-dakota-state",
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "2744",
     "key": null,
     "name": "Wisconsin Stout Blue Devils",
     "abbr": "UWST",
-    "score": null,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920546",
@@ -2593,7 +2581,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
-    "low": 28.0,
+    "low": 19.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "First Bank & Trust Arena",
@@ -2962,13 +2950,13 @@
   },
   {
    "game_id": "401920849",
-   "date": "2026-11-28T05:00Z",
+   "date": "2026-11-28T17:00Z",
    "name": "Princeton Tigers at St. Thomas Tommies",
    "short_name": "PRIN VS STMN",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
-   "time_tba": true,
+   "time_tba": false,
    "broadcasts": [],
    "tickets": null,
    "venue": "Trask Coliseum",
@@ -3403,7 +3391,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-1-2026--sports-ncaa-basketball/production/7649870?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Baxter Arena",
@@ -3786,7 +3774,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-simmons-bank-arena-12-5-2026--sports-ncaa-basketball/production/7575777?wsUser=717",
-    "low": 59.0,
+    "low": 48.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Simmons Bank Arena",
@@ -4653,7 +4641,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-15-2026--sports-ncaa-basketball/production/7656476?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Baxter Arena",
@@ -5129,7 +5117,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-22-2026--sports-ncaa-basketball/production/7418325?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "CU Events Center",
@@ -5383,7 +5371,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-12-29-2026--sports-ncaa-basketball/production/7463015?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Carver-Hawkeye Arena",
@@ -6217,7 +6205,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-coyote-sports-center-1-15-2027--sports-ncaa-basketball/production/7791562?wsUser=717",
-    "low": 47.0,
+    "low": 52.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Sanford Coyote Sports Center",
@@ -7955,5 +7943,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:55:22+00:00"
 }

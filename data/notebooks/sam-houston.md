@@ -1,6 +1,6 @@
 # Travis Kell, The Huntsville Observer
 
-_Sam Houston (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Sam Houston (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Travis Kell taught high school history in Huntsville for thirty-four years and s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Travis Kell taught high school history in Huntsville for thirty-four years and s
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:preview -->
 - 2026-11-21: W 83-69 at Boise State Broncos. Barometer 52 (steady). <!-- g:401928795 -->
 - 2026-11-21: Social recap posted (W 83-69 vs Boise State Broncos): https://hardwoodbricks.com/pac12/games/401928795.html <!-- post:401928795:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:preview -->

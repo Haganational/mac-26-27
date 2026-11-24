@@ -1,6 +1,6 @@
 # Hannah Lindqvist, The Muncie Almanac
 
-_Ball State (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Ball State (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**47 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hannah editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hannah editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,6 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:preview -->
 - 2026-11-18: L 71-85 at Florida State Seminoles. Barometer 35 (testy). <!-- g:401909697 -->
 - 2026-11-18: Social recap posted (L 71-85 vs Florida State Seminoles): https://hardwoodbricks.com/games/401909697.html <!-- post:401909697:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401928838.html <!-- post:401928838:preview -->
+- 2026-11-24: W 94-36 vs Spalding Pelicans. Barometer 47 (steady). <!-- g:401928838 -->
+- 2026-11-24: Social recap posted (W 94-36 vs Spalding Pelicans): https://hardwoodbricks.com/games/401928838.html <!-- post:401928838:recap -->

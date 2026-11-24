@@ -1,6 +1,6 @@
 # Ingrid Solberg, The Grand Forks Sentinel
 
-_North Dakota (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_North Dakota (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/summit/games/401929409.html <!-- post:401929409:preview -->
 - 2026-11-20: W 91-66 vs Mayville State Comets. Barometer 55 (steady). <!-- g:401929409 -->
 - 2026-11-20: Social recap posted (W 91-66 vs Mayville State Comets): https://hardwoodbricks.com/summit/games/401929409.html <!-- post:401929409:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:preview -->

@@ -1,6 +1,6 @@
 # Mateo Sandoval, The Albuquerque Register
 
-_New Mexico (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_New Mexico (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 
 ## Barometer
 
-**62 of 100, steady.** Record 3-1 (0-0 in conference), streak L1, last five WWWL.
+**50 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mateo editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mateo editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 - 2026-11-15: Social recap posted (L 85-90 vs Santa Clara Broncos): https://hardwoodbricks.com/mw/games/401917530.html <!-- post:401917530:recap -->
 - 2026-11-17: On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM) <!-- weave:P8L3A3wDqgM -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->
+- 2026-11-21: L 60-85 at Wichita State Shockers. Barometer 50 (steady). <!-- g:401919031 -->
+- 2026-11-21: Social recap posted (L 60-85 vs Wichita State Shockers): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->

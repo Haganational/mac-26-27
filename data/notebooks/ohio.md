@@ -1,6 +1,6 @@
 # Ray Abernathy, The Athens Clarion
 
-_Ohio (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Ohio (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Ray Abernathy was born in Nelsonville, rolled into Athens in the fall of 1985 wi
 
 - Film: *South Bridge* (https://youtu.be/H6GUKT38RN0). Our film on Athens, Ohio, its river, its bricks and its Bobcats.
 - Fight song: *Stand Up and Cheer* (https://youtu.be/Zc_R-kJrtxo)
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Ray Abernathy was born in Nelsonville, rolled into Athens in the fall of 1985 wi
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:preview -->
 - 2026-11-19: W 91-77 vs Morehead State Eagles. Barometer 60 (steady). <!-- g:401920963 -->
 - 2026-11-19: Social recap posted (W 91-77 vs Morehead State Eagles): https://hardwoodbricks.com/games/401920963.html <!-- post:401920963:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401928791.html <!-- post:401928791:preview -->

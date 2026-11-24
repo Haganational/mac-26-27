@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:31:23+00:00",
+ "fetched_at": "2026-11-23T23:07:35+00:00",
  "season": 2027,
  "games": [
   {
@@ -2206,11 +2206,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-20-2026--sports-ncaa-basketball/production/7710731?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "ICCU Arena",
    "venue_city": "Moscow",
    "venue_state": "ID",
@@ -2238,8 +2234,8 @@
   {
    "game_id": "401917538",
    "date": "2026-11-21T21:30Z",
-   "name": "UC Irvine Anteaters at San Diego Toreros",
-   "short_name": "UCI VS USD",
+   "name": "San Diego Toreros at UC Irvine Anteaters",
+   "short_name": "USD VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2251,40 +2247,36 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "301",
-    "key": null,
-    "name": "San Diego Toreros",
-    "abbr": "USD",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "301",
+    "key": null,
+    "name": "San Diego Toreros",
+    "abbr": "USD",
+    "score": 67,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917539",
    "date": "2026-11-22T00:00Z",
-   "name": "California Baptist Lancers at Loyola Marymount Lions",
-   "short_name": "CBU VS LMU",
+   "name": "Loyola Marymount Lions at California Baptist Lancers",
+   "short_name": "LMU VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2296,34 +2288,30 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": null,
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2856",
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": 80,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920125",
@@ -2341,11 +2329,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cal-poly-mustangs-mens-basketball-tickets-mott-gym-11-21-2026--sports-ncaa-basketball/production/7877116?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-20T12:05:17Z"
-   },
+   "tickets": null,
    "venue": "Mott Athletics Center",
    "venue_city": "San Luis Obispo",
    "venue_state": "CA",
@@ -2354,27 +2338,27 @@
     "key": "cal-poly",
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2464",
     "key": null,
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917540",
    "date": "2026-11-22T21:30Z",
-   "name": "UC Irvine Anteaters at Loyola Marymount Lions",
-   "short_name": "UCI VS LMU",
+   "name": "Loyola Marymount Lions at UC Irvine Anteaters",
+   "short_name": "LMU VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2386,34 +2370,30 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": null,
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": "uc-irvine",
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2351",
+    "key": null,
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": 72,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920159",
@@ -2440,27 +2420,27 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2239",
     "key": "cal-state-fullerton",
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917541",
    "date": "2026-11-23T00:00Z",
-   "name": "California Baptist Lancers at Portland Pilots",
-   "short_name": "CBU VS PORT",
+   "name": "Portland Pilots at California Baptist Lancers",
+   "short_name": "PORT VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2472,40 +2452,77 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2501",
-    "key": null,
-    "name": "Portland Pilots",
-    "abbr": "PORT",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2856",
     "key": "cal-baptist",
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2501",
+    "key": null,
+    "name": "Portland Pilots",
+    "abbr": "PORT",
+    "score": 71,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
+  },
+  {
+   "game_id": "401921206",
+   "date": "2026-11-23T01:10Z",
+   "name": "UT Martin Skyhawks at Utah Valley Wolverines",
+   "short_name": "UTM VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": "utah-valley",
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": 78,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2630",
+    "key": null,
+    "name": "UT Martin Skyhawks",
+    "abbr": "UTM",
+    "score": 76,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401917542",
-   "date": "2026-11-23T02:30Z",
-   "name": "Seattle U Redhawks at UC San Diego Tritons",
-   "short_name": "SEA VS UCSD",
+   "date": "2026-11-23T02:45Z",
+   "name": "UC San Diego Tritons at Seattle U Redhawks",
+   "short_name": "UCSD VS SEA",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2517,34 +2534,30 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "28",
-    "key": "uc-san-diego",
-    "name": "UC San Diego Tritons",
-    "abbr": "UCSD",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2547",
     "key": null,
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "28",
+    "key": "uc-san-diego",
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": 64,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924266",
@@ -2562,11 +2575,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-23-2026--sports-ncaa-basketball/production/7745942?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2575,14 +2584,90 @@
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "299",
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
+    "score": 75,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921208",
+   "date": "2026-11-24T01:00Z",
+   "name": "Stephen F. Austin Lumberjacks at Utah Valley Wolverines",
+   "short_name": "SFA VS UVU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "3084",
+    "key": "utah-valley",
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "score": 44,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2617",
+    "key": null,
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "score": 57,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "live": true,
+   "detail": "9:18 - 2nd"
+  },
+  {
+   "game_id": "401921664",
+   "date": "2026-11-24T04:59Z",
+   "name": "San Jos\u00e9 State Spartans at UC San Diego Tritons",
+   "short_name": "SJSU VS UCSD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "28",
+    "key": "uc-san-diego",
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "23",
+    "key": null,
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU",
     "score": null,
     "winner": null
    },
@@ -2822,7 +2907,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
-    "low": 27.0,
+    "low": 28.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -3037,7 +3122,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-11-28-2026--sports-ncaa-basketball/production/7890183?wsUser=717",
-    "low": 34.0,
+    "low": 15.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -4236,7 +4321,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-12-12-2026--sports-ncaa-basketball/production/7603793?wsUser=717",
-    "low": 25.0,
+    "low": 21.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -4787,7 +4872,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 17.0,
+    "low": 11.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Gersten Pavilion",
@@ -4916,7 +5001,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hawaii-rainbow-warriors-mens-basketball-tickets-bankoh-arena-at-stan-sheriff-center-12-20-2026--sports-ncaa-basketball/production/7638795?wsUser=717",
-    "low": 41.0,
+    "low": 40.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Stan Sheriff Center",
@@ -5891,7 +5976,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-1-2-2027--sports-ncaa-basketball/production/7608586?wsUser=717",
-    "low": 23.0,
+    "low": 22.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LBS Financial Credit Union Pyramid",
@@ -6164,7 +6249,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-7-2027--sports-ncaa-basketball/production/7358980?wsUser=717",
-    "low": 36.0,
+    "low": 27.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -6359,7 +6444,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-9-2027--sports-ncaa-basketball/production/7358986?wsUser=717",
-    "low": 44.0,
+    "low": 23.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -7053,7 +7138,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-21-2027--sports-ncaa-basketball/production/7358996?wsUser=717",
-    "low": 38.0,
+    "low": 27.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -8831,7 +8916,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-2-18-2027--sports-ncaa-basketball/production/7890279?wsUser=717",
-    "low": 34.0,
+    "low": 19.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -10134,5 +10219,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T04:13:34+00:00"
+ "live_at": "2026-11-24T03:11:19+00:00"
 }

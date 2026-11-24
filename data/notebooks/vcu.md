@@ -1,6 +1,6 @@
 # Diamond Brooks, The Richmond Observer
 
-_VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -78,3 +78,4 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:preview -->
 - 2026-11-20: W 83-77 at Santa Clara Broncos. Barometer 65 (buoyant). <!-- g:401917536 -->
 - 2026-11-20: Social recap posted (W 83-77 vs Santa Clara Broncos): https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:preview -->

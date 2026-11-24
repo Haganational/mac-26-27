@@ -1,6 +1,6 @@
 # Shanice Hall, The Princess Anne Chronicle
 
-_Maryland Eastern Shore (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Maryland Eastern Shore (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 
 ## Barometer
 
-**39 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five WLLLW.
+**32 of 100, testy.** Record 2-7 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Shanice editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 8
 
 ## Log
 
@@ -81,3 +81,9 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:preview -->
 - 2026-11-20: W 87-77 vs Bloomfield Deacons. Barometer 39 (testy). <!-- g:401925841 -->
 - 2026-11-20: Social recap posted (W 87-77 vs Bloomfield Deacons): https://hardwoodbricks.com/meac/games/401925841.html <!-- post:401925841:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:preview -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:preview -->
+- 2026-11-22: L 61-81 vs (neutral) IU Indianapolis Jaguars. Barometer 34 (testy). <!-- g:401921176 -->
+- 2026-11-22: Social recap posted (L 61-81 vs IU Indianapolis Jaguars): https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:recap -->
+- 2026-11-23: L 65-69 at Youngstown State Penguins. Barometer 32 (testy). <!-- g:401920752 -->
+- 2026-11-24: Social recap posted (L 65-69 vs Youngstown State Penguins): https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:recap -->

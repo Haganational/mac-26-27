@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:32:20+00:00",
+ "fetched_at": "2026-11-23T23:08:45+00:00",
  "season": 2027,
  "games": [
   {
@@ -2454,21 +2454,21 @@
     "key": null,
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": true
    },
    "away": {
     "espn_id": "2181",
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920569",
@@ -2495,27 +2495,27 @@
     "key": "indiana-state",
     "name": "Indiana State Sycamores",
     "abbr": "INST",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
    "away": {
     "espn_id": "2393",
     "key": null,
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920570",
    "date": "2026-11-21T22:30Z",
-   "name": "Southern Illinois Salukis at TBD",
-   "short_name": "SIU VS TBD",
+   "name": "Southern Illinois Salukis at East Carolina Pirates",
+   "short_name": "SIU VS ECU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2532,31 +2532,31 @@
    "venue_city": "Charlotte Amalie",
    "venue_state": "Virgin Islands",
    "home": {
-    "espn_id": "-1",
+    "espn_id": "151",
     "key": null,
-    "name": "TBD",
-    "abbr": "TBD",
-    "score": null,
-    "winner": null
+    "name": "East Carolina Pirates",
+    "abbr": "ECU",
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "79",
     "key": "southern-illinois",
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928998",
    "date": "2026-11-22T01:00Z",
-   "name": "Troy Trojans at Valparaiso Beacons",
-   "short_name": "TROY VS VAL",
+   "name": "Valparaiso Beacons at Troy Trojans",
+   "short_name": "VAL VS TROY",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2573,25 +2573,25 @@
    "venue_city": "Pensacola",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2674",
-    "key": "valparaiso",
-    "name": "Valparaiso Beacons",
-    "abbr": "VAL",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2653",
     "key": null,
     "name": "Troy Trojans",
     "abbr": "TROY",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2674",
+    "key": "valparaiso",
+    "name": "Valparaiso Beacons",
+    "abbr": "VAL",
+    "score": 77,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917537",
@@ -2609,11 +2609,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
-    "low": 64.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Alex G. Spanos Center",
    "venue_city": "Stockton",
    "venue_state": "CA",
@@ -2622,21 +2618,21 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
-    "winner": null
+    "score": 63,
+    "winner": true
    },
    "away": {
     "espn_id": "71",
     "key": "bradley",
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911024",
@@ -2657,21 +2653,21 @@
     "key": "uic",
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
    "away": {
     "espn_id": "193",
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401918988",
@@ -2689,11 +2685,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/memphis-tigers-mens-basketball-tickets-fedexforum-11-22-2026--sports-ncaa-basketball/production/7413989?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "FedExForum",
    "venue_city": "Memphis",
    "venue_state": "TN",
@@ -2702,21 +2694,21 @@
     "key": null,
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "339",
     "key": "evansville",
     "name": "Evansville Purple Aces",
     "abbr": "EVAN",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928999",
@@ -2727,7 +2719,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Pensacola Bay Center",
    "venue_city": "Pensacola",
@@ -2737,21 +2735,21 @@
     "key": "valparaiso",
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": false
    },
    "away": {
     "espn_id": "2572",
     "key": null,
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921700",
@@ -2769,11 +2767,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7679879?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -2782,25 +2776,107 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
+  },
+  {
+   "game_id": "401921209",
+   "date": "2026-11-23T17:30Z",
+   "name": "Indiana State Sycamores at East Carolina Pirates",
+   "short_name": "INST VS ECU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "151",
+    "key": null,
+    "name": "East Carolina Pirates",
+    "abbr": "ECU",
+    "score": 76,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "282",
+    "key": "indiana-state",
+    "name": "Indiana State Sycamores",
+    "abbr": "INST",
+    "score": 77,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
+  },
+  {
+   "game_id": "401921207",
+   "date": "2026-11-23T20:20Z",
+   "name": "Middle Tennessee Blue Raiders at Southern Illinois Salukis",
+   "short_name": "MTSU VS SIU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "venue_city": "Charlotte Amalie",
+   "venue_state": "Virgin Islands",
+   "home": {
+    "espn_id": "79",
+    "key": "southern-illinois",
+    "name": "Southern Illinois Salukis",
+    "abbr": "SIU",
+    "score": 76,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2393",
+    "key": null,
+    "name": "Middle Tennessee Blue Raiders",
+    "abbr": "MTSU",
+    "score": 77,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929286",
-   "date": "2026-11-23T21:00Z",
+   "date": "2026-11-23T21:15Z",
    "name": "Yale Bulldogs at Belmont Bruins",
    "short_name": "YALE VS BEL",
    "season_type": "reg",
@@ -2823,21 +2899,21 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "43",
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917543",
@@ -2857,7 +2933,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 27.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -2868,21 +2944,21 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": false
    },
    "away": {
     "espn_id": "2287",
     "key": "illinois-state",
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": null,
-    "winner": null
+    "score": 102,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928835",
@@ -2978,7 +3054,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 48.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Acrisure Arena",
@@ -3023,7 +3099,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-24-2026--sports-ncaa-basketball/production/7349915?wsUser=717",
-    "low": 8.0,
+    "low": 6.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Mizzou Arena",
@@ -3715,7 +3791,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-1-2026--sports-ncaa-basketball/production/7109832?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -4190,7 +4266,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-12-5-2026--sports-ncaa-basketball/production/7309050?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Trask Coliseum",
@@ -5533,7 +5609,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-21-2026--sports-ncaa-basketball/production/7915090?wsUser=717",
+    "low": 65.0,
+    "since": "2026-11-23T18:07:01Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -5666,7 +5746,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-22-2026--sports-ncaa-basketball/production/7109834?wsUser=717",
-    "low": 38.0,
+    "low": 36.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -6819,7 +6899,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-1-16-2027--sports-ncaa-basketball/production/7588340?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -7236,7 +7316,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-1-21-2027--sports-ncaa-basketball/production/7588344?wsUser=717",
-    "low": 16.0,
+    "low": 18.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -7431,7 +7511,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-1-24-2027--sports-ncaa-basketball/production/7588348?wsUser=717",
-    "low": 22.0,
+    "low": 21.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -8191,7 +8271,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-2-6-2027--sports-ncaa-basketball/production/7588350?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -9637,5 +9717,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:42:40+00:00"
 }

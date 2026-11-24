@@ -1,6 +1,6 @@
 # Hank Sorensen, The Newark Chronicle
 
-_Delaware (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Delaware (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
+**52 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,6 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920298.html <!-- post:401920298:preview -->
 - 2026-11-20: W 97-92 at Cal State Northridge Matadors. Barometer 66 (buoyant). <!-- g:401920298 -->
 - 2026-11-21: Social recap posted (W 97-92 vs Cal State Northridge Matadors): https://hardwoodbricks.com/bigwest/games/401920298.html <!-- post:401920298:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/cusa/games/401920905.html <!-- post:401920905:preview -->
+- 2026-11-23: L 48-85 at UCLA Bruins. Barometer 52 (steady). <!-- g:401920905 -->
+- 2026-11-23: Social recap posted (L 48-85 vs UCLA Bruins): https://hardwoodbricks.com/cusa/games/401920905.html <!-- post:401920905:recap -->

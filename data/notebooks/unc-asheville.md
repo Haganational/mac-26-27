@@ -1,6 +1,6 @@
 # Fern Whitaker, The Asheville Dispatch
 
-_UNC Asheville (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UNC Asheville (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 
 ## Barometer
 
-**38 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
+**32 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:preview -->
 - 2026-11-18: L 77-98 vs Tennessee Tech Golden Eagles. Barometer 38 (testy). <!-- g:401922292 -->
 - 2026-11-19: Social recap posted (L 77-98 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401922292.html <!-- post:401922292:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:preview -->
+- 2026-11-22: L 77-80 at Samford Bulldogs. Barometer 32 (testy). <!-- g:401922293 -->
+- 2026-11-23: Social recap posted (L 77-80 vs Samford Bulldogs): https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401909699.html <!-- post:401909699:preview -->

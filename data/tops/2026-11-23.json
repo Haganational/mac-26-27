@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-23",
+ "locked_at": "2026-11-23T12:30+00:00",
+ "board": 30,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401909536",
+    "tip": "2026-11-24T02:00Z",
+    "matchup": "VCU Rams vs. Providence Friars",
+    "side": "under",
+    "line": 154.5,
+    "label": "Under 154.5",
+    "why": "Model has it 9.3 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401928830",
+    "tip": "2026-11-23T18:30Z",
+    "matchup": "Akron Zips vs. Wright State Raiders",
+    "side": "away",
+    "team": "Akron Zips",
+    "abbr": "AKR",
+    "line": 2.0,
+    "label": "Akron Zips +2",
+    "why": "Third-stingiest defense on the board: 62.4 allowed a game.",
+    "result": "push",
+    "final": "64-66"
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401926183",
+    "tip": "2026-11-24T02:30Z",
+    "matchup": "UNC Greensboro Spartans at Pepperdine Waves",
+    "side": "over",
+    "line": 155.5,
+    "label": "Over 155.5",
+    "why": "Model has it 10.9 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401926183",
+    "tip": "2026-11-24T02:30Z",
+    "matchup": "UNC Greensboro Spartans at Pepperdine Waves",
+    "side": "home",
+    "team": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "line": -10.5,
+    "label": "Pepperdine Waves -10.5",
+    "why": "Second-highest scoring team on the board: 100.7 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401909788",
+    "tip": "2026-11-24T01:00Z",
+    "matchup": "Denver Pioneers at Kansas Jayhawks",
+    "side": "away",
+    "team": "Denver Pioneers",
+    "abbr": "DEN",
+    "line": 36.5,
+    "label": "Denver Pioneers +36.5",
+    "why": "Model is 8.3 points off the number.",
+    "result": "win",
+    "final": "67-84"
+   },
+   {
+    "kind": "side",
+    "game": "401928830",
+    "tip": "2026-11-23T18:30Z",
+    "matchup": "Akron Zips vs. Wright State Raiders",
+    "side": "home",
+    "team": "Wright State Raiders",
+    "abbr": "WRST",
+    "line": -2.0,
+    "label": "Wright State Raiders -2",
+    "why": "Model is 6.7 points off the number.",
+    "result": "push",
+    "final": "64-66"
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401917919",
+    "tip": "2026-11-24T00:00Z",
+    "matchup": "Central Arkansas Bears at North Florida Ospreys",
+    "side": "home",
+    "team": "North Florida Ospreys",
+    "abbr": "UNF",
+    "line": 8.5,
+    "label": "North Florida Ospreys +8.5",
+    "why": "Home dog in the window. I like a building that owes me money.",
+    "result": "loss",
+    "final": "80-66"
+   },
+   {
+    "kind": "total",
+    "game": "401917919",
+    "tip": "2026-11-24T00:00Z",
+    "matchup": "Central Arkansas Bears at North Florida Ospreys",
+    "side": "under",
+    "line": 164.5,
+    "label": "Under 164.5",
+    "why": "Somebody painted over the 7 on the elevator in my building. Now it goes from 6 to 8. Under. Don't ask.",
+    "result": "win",
+    "final": "80-66"
+   }
+  ]
+ },
+ "column": {
+  "byline": "shark",
+  "by": "Edwin \u201cThe Shark\u201d Sinclair",
+  "head": "Tops: Brett. Bottoms: The Shark.",
+  "paras": [
+   "I'm writing this from a booth with my back to the wall, like always.",
+   "Brett owned last night: 2-0, +1.82 units.",
+   "The Shark brought up the rear at 1-1, -0.09 units. It happens. It happens to The Shark a lot.",
+   "I'm not going to talk about my night. I'm going to talk about tonight.",
+   "Brett went 2-0. A clean sweep.",
+   "Leslie went 2-0. A clean sweep.",
+   "Merv went 2-0. A clean sweep."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 154.5. Model has it 9.3 under the total. Nobody's scoring on anybody in my world. Akron Zips +2. Third-stingiest defense on the board: 62.4 allowed a game. Defense travels."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 155.5. Model has it 10.9 over the total. Turn the scoreboard up, honey. Pepperdine Waves -10.5. Second-highest scoring team on the board: 100.7 a game. I want the team that brings the buckets."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Denver Pioneers +36.5. Model is 8.3 points off the number. Big number, big hair, big night. Wright State Raiders -2. Model is 6.7 points off the number. The spreadsheet has spoken."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "North Florida Ospreys +8.5. Home dog in the window. I like a building that owes me money. Under 164.5. Somebody painted over the 7 on the elevator in my building. Now it goes from 6 to 8. Under. Don't ask."
+   }
+  ],
+  "close": "Season ledger: Leslie leads at 7-1, +5.37 units."
+ }
+}

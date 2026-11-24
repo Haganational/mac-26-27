@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:35:21+00:00",
+ "fetched_at": "2026-11-23T23:12:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2208,11 +2208,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-20-2026--sports-ncaa-basketball/production/7686817?wsUser=717",
-    "low": 88.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "University Credit Union Pavilion",
    "venue_city": "Moraga",
    "venue_state": "CA",
@@ -2221,21 +2217,21 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 64,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "139",
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 53,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:49 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920948",
@@ -2253,11 +2249,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/eastern-michigan-eagles-mens-basketball-tickets-gervin-gameabove-center-11-21-2026--sports-ncaa-basketball/production/7613633?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Gervin GameAbove Center",
    "venue_city": "Ypsilanti",
    "venue_state": "MI",
@@ -2266,21 +2258,21 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
    "away": {
     "espn_id": "2172",
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911199",
@@ -2298,11 +2290,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2311,27 +2299,27 @@
     "key": "portland",
     "name": "Portland Pilots",
     "abbr": "PORT",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "2230",
     "key": null,
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917538",
    "date": "2026-11-21T21:30Z",
-   "name": "UC Irvine Anteaters at San Diego Toreros",
-   "short_name": "UCI VS USD",
+   "name": "San Diego Toreros at UC Irvine Anteaters",
+   "short_name": "USD VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2343,40 +2331,36 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "301",
-    "key": "san-diego",
-    "name": "San Diego Toreros",
-    "abbr": "USD",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": null,
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "301",
+    "key": "san-diego",
+    "name": "San Diego Toreros",
+    "abbr": "USD",
+    "score": 67,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917539",
    "date": "2026-11-22T00:00Z",
-   "name": "California Baptist Lancers at Loyola Marymount Lions",
-   "short_name": "CBU VS LMU",
+   "name": "Loyola Marymount Lions at California Baptist Lancers",
+   "short_name": "LMU VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2388,34 +2372,30 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-21-2026--sports-ncaa-basketball/production/7401140?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": "loyola-marymount",
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2856",
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2351",
+    "key": "loyola-marymount",
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": 80,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917537",
@@ -2433,11 +2413,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-11-21-2026--sports-ncaa-basketball/production/7647938?wsUser=717",
-    "low": 64.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Alex G. Spanos Center",
    "venue_city": "Stockton",
    "venue_state": "CA",
@@ -2446,27 +2422,27 @@
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
-    "winner": null
+    "score": 63,
+    "winner": true
    },
    "away": {
     "espn_id": "71",
     "key": null,
     "name": "Bradley Braves",
     "abbr": "BRAD",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911200",
    "date": "2026-11-22T19:00Z",
-   "name": "San Diego Toreros at Fordham Rams",
-   "short_name": "USD VS FOR",
+   "name": "Fordham Rams at San Diego Toreros",
+   "short_name": "FOR VS USD",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2478,40 +2454,36 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2230",
-    "key": null,
-    "name": "Fordham Rams",
-    "abbr": "FOR",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "301",
     "key": "san-diego",
     "name": "San Diego Toreros",
     "abbr": "USD",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2230",
+    "key": null,
+    "name": "Fordham Rams",
+    "abbr": "FOR",
+    "score": 58,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917540",
    "date": "2026-11-22T21:30Z",
-   "name": "UC Irvine Anteaters at Loyola Marymount Lions",
-   "short_name": "UCI VS LMU",
+   "name": "Loyola Marymount Lions at UC Irvine Anteaters",
+   "short_name": "LMU VS UCI",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2523,40 +2495,36 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2351",
-    "key": "loyola-marymount",
-    "name": "Loyola Marymount Lions",
-    "abbr": "LMU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "300",
     "key": null,
     "name": "UC Irvine Anteaters",
     "abbr": "UCI",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2351",
+    "key": "loyola-marymount",
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "score": 72,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917541",
    "date": "2026-11-23T00:00Z",
-   "name": "California Baptist Lancers at Portland Pilots",
-   "short_name": "CBU VS PORT",
+   "name": "Portland Pilots at California Baptist Lancers",
+   "short_name": "PORT VS CBU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2568,34 +2536,30 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2501",
-    "key": "portland",
-    "name": "Portland Pilots",
-    "abbr": "PORT",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2856",
     "key": null,
     "name": "California Baptist Lancers",
     "abbr": "CBU",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2501",
+    "key": "portland",
+    "name": "Portland Pilots",
+    "abbr": "PORT",
+    "score": 71,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401929595",
@@ -2613,11 +2577,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-11-22-2026--sports-ncaa-basketball/production/7686819?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "University Credit Union Pavilion",
    "venue_city": "Moraga",
    "venue_state": "CA",
@@ -2626,27 +2586,27 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2381",
     "key": null,
     "name": "Menlo Oaks",
     "abbr": "MNLO",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917542",
-   "date": "2026-11-23T02:30Z",
-   "name": "Seattle U Redhawks at UC San Diego Tritons",
-   "short_name": "SEA VS UCSD",
+   "date": "2026-11-23T02:45Z",
+   "name": "UC San Diego Tritons at Seattle U Redhawks",
+   "short_name": "UCSD VS SEA",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2658,40 +2618,36 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-22-2026--sports-ncaa-basketball/production/7401142?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "28",
-    "key": null,
-    "name": "UC San Diego Tritons",
-    "abbr": "UCSD",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2547",
     "key": "seattle",
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "28",
+    "key": null,
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "score": 64,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911457",
    "date": "2026-11-23T21:30Z",
-   "name": "Nevada Wolf Pack at San Francisco Dons",
-   "short_name": "NEV VS SF",
+   "name": "San Francisco Dons at Nevada Wolf Pack",
+   "short_name": "SF VS NEV",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2705,32 +2661,32 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": "san-francisco",
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2440",
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2539",
+    "key": "san-francisco",
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": 62,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917543",
@@ -2750,7 +2706,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 37.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2761,21 +2717,21 @@
     "key": "santa-clara",
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
-    "winner": null
+    "score": 99,
+    "winner": false
    },
    "away": {
     "espn_id": "2287",
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": null,
-    "winner": null
+    "score": 102,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909788",
@@ -2795,7 +2751,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 28.0,
+    "low": 31.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Allen Fieldhouse",
@@ -2806,21 +2762,21 @@
     "key": null,
     "name": "Kansas Jayhawks",
     "abbr": "KU",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
    "away": {
     "espn_id": "2172",
     "key": "denver",
     "name": "Denver Pioneers",
     "abbr": "DEN",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926183",
@@ -2840,7 +2796,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 27.0,
+    "low": 28.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -2851,7 +2807,7 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2859,13 +2815,48 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "0:00 - 1st"
+  },
+  {
+   "game_id": "401921663",
+   "date": "2026-11-24T02:30Z",
+   "name": "Loyola Chicago Ramblers at Seattle U Redhawks",
+   "short_name": "LUC VS SEA",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2547",
+    "key": "seattle",
+    "name": "Seattle U Redhawks",
+    "abbr": "SEA",
+    "score": 33,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2350",
+    "key": null,
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "score": 20,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "live": true,
+   "detail": "5:45 - 1st"
   },
   {
    "game_id": "401917676",
@@ -2885,7 +2876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 48.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2930,7 +2921,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 37.0,
+    "low": 48.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Acrisure Arena",
@@ -2975,7 +2966,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-25-2026--sports-ncaa-basketball/production/7709473?wsUser=717",
-    "low": 27.0,
+    "low": 28.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Firestone Fieldhouse",
@@ -3020,7 +3011,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-11-25-2026--sports-ncaa-basketball/production/7519430?wsUser=717",
-    "low": 6.0,
+    "low": 8.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -3056,7 +3047,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -3100,7 +3097,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 50.0,
+    "low": 42.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3831,7 +3828,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 12.0,
+    "low": 22.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Lawlor Events Center",
@@ -4343,7 +4340,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-7-2026--sports-ncaa-basketball/production/7519437?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -4427,7 +4424,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-toreros-mens-basketball-tickets-jenny-craig-pavilion-12-8-2026--sports-ncaa-basketball/production/7647887?wsUser=717",
-    "low": 59.0,
+    "low": 53.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -4636,7 +4633,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-9-2026--sports-ncaa-basketball/production/7686823?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -4890,7 +4887,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-12-2026--sports-ncaa-basketball/production/7117728?wsUser=717",
-    "low": 25.0,
+    "low": 23.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "The Pit",
@@ -5724,7 +5721,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 17.0,
+    "low": 11.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -6324,7 +6321,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-29-2026--sports-ncaa-basketball/production/7418339?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "CU Events Center",
@@ -6408,7 +6405,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-12-29-2026--sports-ncaa-basketball/production/7382798?wsUser=717",
-    "low": 28.0,
+    "low": 29.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -8134,7 +8131,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-1-30-2027--sports-ncaa-basketball/production/7686922?wsUser=717",
-    "low": 80.0,
+    "low": 81.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -9675,5 +9672,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T05:33:45+00:00"
+ "live_at": "2026-11-24T03:15:44+00:00"
 }

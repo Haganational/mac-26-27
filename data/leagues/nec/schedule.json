@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:48:41+00:00",
+ "fetched_at": "2026-11-23T23:28:50+00:00",
  "season": 2027,
  "games": [
   {
@@ -2179,11 +2179,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-20-2026--sports-ncaa-basketball/production/7349909?wsUser=717",
-    "low": 12.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Mizzou Arena",
    "venue_city": "Columbia",
    "venue_state": "MO",
@@ -2218,11 +2214,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/new-haven-chargers-mens-basketball-tickets-jeffery-p-hazell-athletic-center-11-21-2026/production/7788712?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Jeffery P. Hazell Athletics Center",
    "venue_city": "West Haven",
    "venue_state": "CT",
@@ -2231,21 +2223,21 @@
     "key": "new-haven",
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": null,
-    "winner": null
+    "score": 50,
+    "winner": true
    },
    "away": {
     "espn_id": "160",
     "key": null,
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": null,
-    "winner": null
+    "score": 47,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919828",
@@ -2272,21 +2264,21 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "2710",
     "key": null,
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401919849",
@@ -2304,11 +2296,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/stonehill-skyhawks-mens-basketball-tickets-merkert-gymnasium-11-21-2026--sports-ncaa-basketball/production/7580709?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
    "venue_state": "MA",
@@ -2317,21 +2305,21 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": null,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "111",
     "key": null,
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401909527",
@@ -2349,11 +2337,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-11-22-2026--sports-ncaa-basketball/production/7269709?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Fiserv Forum",
    "venue_city": "Milwaukee",
    "venue_state": "WI",
@@ -2362,21 +2346,21 @@
     "key": null,
     "name": "Marquette Golden Eagles",
     "abbr": "MARQ",
-    "score": null,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
    "away": {
     "espn_id": "2130",
     "key": "chicago-state",
     "name": "Chicago State Cougars",
     "abbr": "CHST",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919809",
@@ -2403,21 +2387,21 @@
     "key": "liu",
     "name": "Long Island University Sharks",
     "abbr": "LIU",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
    "away": {
     "espn_id": "2217",
     "key": null,
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923323",
@@ -2444,21 +2428,21 @@
     "key": null,
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2385",
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919761",
@@ -2478,7 +2462,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-11-23-2026--sports-ncaa-basketball/production/7470765?wsUser=717",
-    "low": 19.0,
+    "low": 22.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Hynes Athletics Center",
@@ -2489,21 +2473,21 @@
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": null,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
    "away": {
     "espn_id": "161",
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
-    "winner": null
+    "score": 49,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919785",
@@ -2534,21 +2518,21 @@
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
    "away": {
     "espn_id": "2365",
     "key": null,
     "name": "Mansfield Mountaineers",
     "abbr": "MNFD",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919850",
@@ -2654,7 +2638,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wagner-college-seahawks-mens-basketball-tickets-spiro-sports-center-11-24-2026--sports-ncaa-basketball/production/7751069?wsUser=717",
-    "low": 18.0,
+    "low": 12.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Spiro Sports Center",
@@ -2954,7 +2938,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-28-2026--sports-ncaa-basketball/production/7583704?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -3341,7 +3325,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-12-1-2026--sports-ncaa-basketball/production/7269711?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Fiserv Forum",
@@ -3614,7 +3598,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-qubein-center-12-4-2026--sports-ncaa-basketball/production/7606472?wsUser=717",
-    "low": 15.0,
+    "low": 50.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Qubein Center",
@@ -3817,7 +3801,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/clemson-tigers-mens-basketball-tickets-littlejohn-coliseum-12-6-2026--sports-ncaa-basketball/production/7156718?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Littlejohn Coliseum",
@@ -4315,7 +4299,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-12-12-2026--sports-ncaa-basketball/production/7517636?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "JMA Wireless Dome",
@@ -4565,7 +4549,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northwestern-wildcats-mens-basketball-tickets-welsh-ryan-arena-12-16-2026--sports-ncaa-basketball/production/7484421?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Welsh-Ryan Arena",
@@ -4610,7 +4594,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisville-cardinals-mens-basketball-tickets-kfc-yum-center-12-16-2026--sports-ncaa-basketball/production/7503576?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "KFC Yum! Center",
@@ -5073,7 +5057,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-12-21-2026--sports-ncaa-basketball/production/7583710?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -5202,7 +5186,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-12-22-2026--sports-ncaa-basketball/production/7478287?wsUser=717",
-    "low": 7.0,
+    "low": 9.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -5620,7 +5604,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-cornhuskers-mens-basketball-tickets-pinnacle-bank-arena-12-30-2026--sports-ncaa-basketball/production/7359042?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Pinnacle Bank Arena",
@@ -8396,5 +8380,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T03:11:35+00:00"
+ "live_at": "2026-11-24T02:30:44+00:00"
 }

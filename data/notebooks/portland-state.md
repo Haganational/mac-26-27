@@ -1,6 +1,6 @@
 # Juniper Tran, The Portland Ledger
 
-_Portland State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Portland State (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Juniper Tran rode the streetcar to every Vikings home game as a student and neve
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LLWLW.
+**44 of 100, testy.** Record 3-4 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Juniper editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Juniper editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Juniper Tran rode the streetcar to every Vikings home game as a student and neve
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,6 @@ Juniper Tran rode the streetcar to every Vikings home game as a student and neve
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925916.html <!-- post:401925916:preview -->
 - 2026-11-20: W 132-41 vs Northwest Indian RedHawks. Barometer 53 (steady). <!-- g:401925916 -->
 - 2026-11-20: Social recap posted (W 132-41 vs Northwest Indian RedHawks): https://hardwoodbricks.com/bigsky/games/401925916.html <!-- post:401925916:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920159.html <!-- post:401920159:preview -->
+- 2026-11-22: L 75-92 vs Cal State Fullerton Titans. Barometer 44 (testy). <!-- g:401920159 -->
+- 2026-11-23: Social recap posted (L 75-92 vs Cal State Fullerton Titans): https://hardwoodbricks.com/bigwest/games/401920159.html <!-- post:401920159:recap -->

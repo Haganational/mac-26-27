@@ -1,6 +1,6 @@
 # Boyd Henley, The Jonesboro Clarion
 
-_Arkansas State (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Arkansas State (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**65 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:preview -->
 - 2026-11-19: W 100-69 vs Arkansas-Pine Bluff Golden Lions. Barometer 59 (steady). <!-- g:401928398 -->
 - 2026-11-19: Social recap posted (W 100-69 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
+- 2026-11-23: W 104-102 vs (neutral) Southern Utah Thunderbirds. Barometer 65 (buoyant). <!-- g:401929445 -->
+- 2026-11-24: Social recap posted (W 104-102 vs Southern Utah Thunderbirds): https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:recap -->

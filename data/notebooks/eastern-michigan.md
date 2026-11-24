@@ -1,6 +1,6 @@
 # Diane Okafor, The Ypsilanti Beacon
 
-_Eastern Michigan (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Eastern Michigan (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 
 ## Barometer
 
-**64 of 100, steady.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Diane editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Diane editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,6 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 - 2026-11-18: W 99-62 vs Detroit Mercy Titans. Barometer 64 (steady). <!-- g:401920947 -->
 - 2026-11-19: Social recap posted (W 99-62 vs Detroit Mercy Titans): https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401920948.html <!-- post:401920948:preview -->
+- 2026-11-21: W 70-68 vs Denver Pioneers. Barometer 69 (buoyant). <!-- g:401920948 -->
+- 2026-11-21: Social recap posted (W 70-68 vs Denver Pioneers): https://hardwoodbricks.com/games/401920948.html <!-- post:401920948:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:preview -->

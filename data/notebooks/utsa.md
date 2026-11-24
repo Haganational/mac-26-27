@@ -1,6 +1,6 @@
 # Ximena Salazar, The San Antonio Beacon
 
-_UTSA (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UTSA (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five LWWLW.
+**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ximena editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ximena editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 - 2026-11-19: W 98-78 vs Florida A&M Rattlers. Barometer 57 (steady). <!-- g:401929420 -->
 - 2026-11-19: Social recap posted (W 98-78 vs Florida A&M Rattlers): https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401911337.html <!-- post:401911337:preview -->
+- 2026-11-21: W 90-68 vs Air Force Falcons. Barometer 64 (steady). <!-- g:401911337 -->
+- 2026-11-22: Social recap posted (W 90-68 vs Air Force Falcons): https://hardwoodbricks.com/mw/games/401911337.html <!-- post:401911337:recap -->

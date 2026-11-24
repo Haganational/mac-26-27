@@ -1,6 +1,6 @@
 # Callie Mae Hester, The Florence Chronicle
 
-_North Alabama (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_North Alabama (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/uac/games/401929373.html <!-- post:401929373:preview -->
 - 2026-11-20: W 74-67 vs Tusculum Pioneers. Barometer 59 (steady). <!-- g:401929373 -->
 - 2026-11-20: Social recap posted (W 74-67 vs Tusculum Pioneers): https://hardwoodbricks.com/uac/games/401929373.html <!-- post:401929373:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/uac/games/401925642.html <!-- post:401925642:preview -->

@@ -1,6 +1,6 @@
 # Jasper Whitmore, The Olean Beacon
 
-_St. Bonaventure (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_St. Bonaventure (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 
 ## Barometer
 
-**78 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W4, last five LWWWW.
+**82 of 100, giddy.** Record 5-1 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jasper editorializes: 80% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 8
 
 ## Log
 
@@ -80,3 +80,8 @@ Jasper Whitmore grew up in Olean, New York, the son of a machinist and a high sc
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:preview -->
 - 2026-11-20: W 78-69 vs Buffalo Bulls. Barometer 78 (buoyant). <!-- g:401911021 -->
 - 2026-11-20: Social recap posted (W 78-69 vs Buffalo Bulls): https://hardwoodbricks.com/games/401911021.html <!-- post:401911021:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->
+- 2026-11-23: W 71-65 vs (neutral) App State Mountaineers. Barometer 82 (giddy). <!-- g:401927397 -->
+- 2026-11-23: Social recap posted (W 71-65 vs App State Mountaineers): https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401927399.html <!-- post:401927399:preview -->

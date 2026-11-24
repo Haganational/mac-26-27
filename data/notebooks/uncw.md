@@ -1,6 +1,6 @@
 # Surfer Sid, The Wilmington Lantern
 
-_UNC Wilmington (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UNC Wilmington (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 
 ## Barometer
 
-**64 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
+**67 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,5 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 - 2026-11-19: L 114-115 at Long Island University Sharks. Barometer 64 (steady). <!-- g:401919808 -->
 - 2026-11-19: Social recap posted (L 114-115 vs Long Island University Sharks): https://hardwoodbricks.com/caa/games/401919808.html <!-- post:401919808:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:preview -->
+- 2026-11-21: W 89-80 at Norfolk State Spartans. Barometer 67 (buoyant). <!-- g:401925897 -->
+- 2026-11-22: Social recap posted (W 89-80 vs Norfolk State Spartans): https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:recap -->

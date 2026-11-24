@@ -1,6 +1,6 @@
 # Hollis Pruett, The Nacogdoches Lantern
 
-_Stephen F. Austin (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Stephen F. Austin (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**67 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,7 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/mvc/games/401916123.html <!-- post:401916123:preview -->
 - 2026-11-20: W 86-76 vs (neutral) Indiana State Sycamores. Barometer 65 (buoyant). <!-- g:401916123 -->
 - 2026-11-20: Social recap posted (W 86-76 vs Indiana State Sycamores): https://hardwoodbricks.com/mvc/games/401916123.html <!-- post:401916123:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:preview -->
+- 2026-11-22: W 72-70 vs (neutral) Temple Owls. Barometer 67 (buoyant). <!-- g:401921205 -->
+- 2026-11-23: Social recap posted (W 72-70 vs Temple Owls): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921208.html <!-- post:401921208:preview -->

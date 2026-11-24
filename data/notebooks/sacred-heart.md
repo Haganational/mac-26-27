@@ -1,6 +1,6 @@
 # Tommy DiNapoli, The Fairfield Courier
 
-_Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Sacred Heart (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/metro/games/401909535.html <!-- post:401909535:preview -->
 - 2026-11-18: L 67-86 at Providence Friars. Barometer 41 (testy). <!-- g:401909535 -->
 - 2026-11-18: Social recap posted (L 67-86 vs Providence Friars): https://hardwoodbricks.com/metro/games/401909535.html <!-- post:401909535:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401924877.html <!-- post:401924877:preview -->

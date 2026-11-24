@@ -1,6 +1,6 @@
 # Nadia Haddad, The Detroit Standard
 
-_Detroit Mercy (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Detroit Mercy (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 
 ## Barometer
 
-**17 of 100, despondent.** Record 0-4 (0-0 in conference), streak L4, last five LLLL.
+**12 of 100, despondent.** Record 0-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,6 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 - 2026-11-18: L 62-99 at Eastern Michigan Eagles. Barometer 17 (despondent). <!-- g:401920947 -->
 - 2026-11-19: Social recap posted (L 62-99 vs Eastern Michigan Eagles): https://hardwoodbricks.com/games/401920947.html <!-- post:401920947:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401925756.html <!-- post:401925756:preview -->
+- 2026-11-21: L 70-91 at Michigan State Spartans. Barometer 12 (despondent). <!-- g:401925756 -->
+- 2026-11-21: Social recap posted (L 70-91 vs Michigan State Spartans): https://hardwoodbricks.com/horizon/games/401925756.html <!-- post:401925756:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:preview -->

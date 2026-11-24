@@ -1,6 +1,6 @@
 # Natalie Lin, The La Jolla Mercury
 
-_UC San Diego (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UC San Diego (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 
 ## Barometer
 
-**59 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
+**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -80,3 +80,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920373.html <!-- post:401920373:preview -->
 - 2026-11-17: W 97-92 vs Texas Southern Tigers. Barometer 59 (steady). <!-- g:401920373 -->
 - 2026-11-17: Social recap posted (W 97-92 vs Texas Southern Tigers): https://hardwoodbricks.com/bigwest/games/401920373.html <!-- post:401920373:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:preview -->
+- 2026-11-23: W 90-64 vs (neutral) Seattle U Redhawks. Barometer 66 (buoyant). <!-- g:401917542 -->
+- 2026-11-23: Social recap posted (W 90-64 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:preview -->

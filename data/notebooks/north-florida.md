@@ -1,6 +1,6 @@
 # Tyler Sato, The Jacksonville Pilot
 
-_North Florida (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_North Florida (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five WLLLW.
+**46 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LLWWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Tyler editorializes: 62% of stories right now.
 
@@ -71,7 +71,7 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,8 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 - 2026-11-18: W 98-59 vs Fort Lauderdale Eagles. Barometer 47 (steady). <!-- g:401922221 -->
 - 2026-11-18: Social recap posted (W 98-59 vs Fort Lauderdale Eagles): https://hardwoodbricks.com/asun/games/401922221.html <!-- post:401922221:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/asun/games/401922222.html <!-- post:401922222:preview -->
+- 2026-11-21: W 99-87 vs Little Rock Trojans. Barometer 55 (steady). <!-- g:401922222 -->
+- 2026-11-21: Social recap posted (W 99-87 vs Little Rock Trojans): https://hardwoodbricks.com/asun/games/401922222.html <!-- post:401922222:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:preview -->
+- 2026-11-24: L 66-80 vs Central Arkansas Bears. Barometer 46 (steady). <!-- g:401917919 -->
+- 2026-11-24: Social recap posted (L 66-80 vs Central Arkansas Bears): https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:recap -->

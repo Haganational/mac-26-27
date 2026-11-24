@@ -1,6 +1,6 @@
 # Thurston Whitmore, The New Haven Mercury
 
-_Yale (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Yale (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five LLLWW.
+**46 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LLWWL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Thurston editorializes: 62% of stories right now.
 
@@ -68,7 +68,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:preview -->
 - 2026-11-19: W 76-74 vs Vermont Catamounts. Barometer 53 (steady). <!-- g:401920694 -->
 - 2026-11-19: Social recap posted (W 76-74 vs Vermont Catamounts): https://hardwoodbricks.com/ivy/games/401920694.html <!-- post:401920694:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401929286.html <!-- post:401929286:preview -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929285.html <!-- post:401929285:preview -->
+- 2026-11-23: L 60-68 vs (neutral) Belmont Bruins. Barometer 46 (steady). <!-- g:401929286 -->
+- 2026-11-23: Social recap posted (L 60-68 vs Belmont Bruins): https://hardwoodbricks.com/mvc/games/401929286.html <!-- post:401929286:recap -->

@@ -1,6 +1,6 @@
 # Anchor to be cast, The Richmond Courier
 
-_Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -16,9 +16,9 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 
 ## Barometer
 
-**59 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WLWWL.
+**65 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -58,7 +58,7 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -72,3 +72,6 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:preview -->
 - 2026-11-21: L 76-79 vs Bellarmine Knights. Barometer 59 (steady). <!-- g:401921107 -->
 - 2026-11-21: Social recap posted (L 76-79 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/uac/games/401929387.html <!-- post:401929387:preview -->
+- 2026-11-22: W 114-85 vs Alice Lloyd Eagles. Barometer 65 (buoyant). <!-- g:401929387 -->
+- 2026-11-22: Social recap posted (W 114-85 vs Alice Lloyd Eagles): https://hardwoodbricks.com/uac/games/401929387.html <!-- post:401929387:recap -->

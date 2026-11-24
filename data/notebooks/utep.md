@@ -1,6 +1,6 @@
 # Hector Villalobos, The El Paso Banner
 
-_UTEP (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_UTEP (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -71,7 +71,7 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:preview -->
 - 2026-11-20: W 84-69 at New Mexico State Aggies. Barometer 77 (buoyant). <!-- g:401911534 -->
 - 2026-11-20: Social recap posted (W 84-69 vs New Mexico State Aggies): https://hardwoodbricks.com/mw/games/401911534.html <!-- post:401911534:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:preview -->

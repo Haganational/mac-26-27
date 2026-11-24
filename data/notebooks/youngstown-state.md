@@ -1,6 +1,6 @@
 # Brett Callahan, The Youngstown Clarion
 
-_Youngstown State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Youngstown State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 
 ## Barometer
 
-**39 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
+**44 of 100, testy.** Record 3-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brett editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brett editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -74,7 +74,7 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,9 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/horizon/games/401920751.html <!-- post:401920751:preview -->
 - 2026-11-19: L 54-91 at Cincinnati Bearcats. Barometer 39 (testy). <!-- g:401920751 -->
 - 2026-11-19: Social recap posted (L 54-91 vs Cincinnati Bearcats): https://hardwoodbricks.com/horizon/games/401920751.html <!-- post:401920751:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/horizon/games/401918455.html <!-- post:401918455:preview -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:preview -->
+- 2026-11-22: L 63-75 vs William & Mary Tribe. Barometer 34 (testy). <!-- g:401918455 -->
+- 2026-11-22: Social recap posted (L 63-75 vs William & Mary Tribe): https://hardwoodbricks.com/horizon/games/401918455.html <!-- post:401918455:recap -->
+- 2026-11-23: W 69-65 vs Maryland Eastern Shore Hawks. Barometer 44 (testy). <!-- g:401920752 -->
+- 2026-11-24: Social recap posted (W 69-65 vs Maryland Eastern Shore Hawks): https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:recap -->

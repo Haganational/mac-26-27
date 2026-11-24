@@ -1,6 +1,6 @@
 # Jean-Luc Fontenot, The Lake Charles Clarion
 
-_McNeese (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_McNeese (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jean-Luc Fontenot has measured every season of his life in crawfish boils. He ra
 
 ## Barometer
 
-**60 of 100, steady.** Record 2-1 (0-0 in conference), streak W1, last five WLW.
+**48 of 100, steady.** Record 2-2 (0-0 in conference), streak L1, last five WLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jean-Luc editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jean-Luc editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,10 +68,13 @@ Jean-Luc Fontenot has measured every season of his life in crawfish boils. He ra
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 0
+- Social posts on their games: 2
 
 ## Log
 
 - 2026-11-02: W 99-78 vs (neutral) UAB Blazers. Barometer 64 (steady). <!-- g:401919014 -->
 - 2026-11-05: L 67-77 at North Texas Mean Green. Barometer 50 (steady). <!-- g:401925031 -->
 - 2026-11-10: W 135-87 vs College of Biblical Studies Ambassadors. Barometer 60 (steady). <!-- g:401925032 -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:preview -->
+- 2026-11-22: L 69-95 at Texas State Bobcats. Barometer 48 (steady). <!-- g:401929202 -->
+- 2026-11-22: Social recap posted (L 69-95 vs Texas State Bobcats): https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:recap -->

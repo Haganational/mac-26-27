@@ -1,6 +1,6 @@
 # Mike Brandt, The St. Charles Register
 
-_Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Lindenwood (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -82,3 +82,4 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:preview -->
 - 2026-11-18: L 74-81 at Northern Iowa Panthers. Barometer 35 (testy). <!-- g:401927388 -->
 - 2026-11-18: Social recap posted (L 74-81 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/ovc/games/401929035.html <!-- post:401929035:preview -->

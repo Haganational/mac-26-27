@@ -1,6 +1,6 @@
 # Remy Fontenot, The Lafayette Observer
 
-_Louisiana (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Louisiana (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 
 ## Barometer
 
-**39 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**33 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,7 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:preview -->
 - 2026-11-19: L 56-77 at San Francisco Dons. Barometer 39 (testy). <!-- g:401921064 -->
 - 2026-11-19: Social recap posted (L 56-77 vs San Francisco Dons): https://hardwoodbricks.com/wcc/games/401921064.html <!-- post:401921064:recap -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926774.html <!-- post:401926774:preview -->
+- 2026-11-23: L 56-82 at USC Trojans. Barometer 33 (testy). <!-- g:401926774 -->
+- 2026-11-23: Social recap posted (L 56-82 vs USC Trojans): https://hardwoodbricks.com/sunbelt/games/401926774.html <!-- post:401926774:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929456.html <!-- post:401929456:preview -->

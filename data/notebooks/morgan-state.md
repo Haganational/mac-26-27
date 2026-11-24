@@ -1,6 +1,6 @@
 # Cedric Ward, The Northwood Clarion
 
-_Morgan State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Morgan State (MEAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
+**43 of 100, testy.** Record 4-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 5
 
 ## Log
 
@@ -79,3 +79,6 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-19: L 70-82 at North Carolina A&T Aggies. Barometer 52 (steady). <!-- g:401921156 -->
 - 2026-11-19: Social recap posted (L 70-82 vs North Carolina A&T Aggies): https://hardwoodbricks.com/caa/games/401921156.html <!-- post:401921156:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:preview -->
+- 2026-11-21: L 63-84 vs Cornell Big Red. Barometer 43 (testy). <!-- g:401924722 -->
+- 2026-11-21: Social recap posted (L 63-84 vs Cornell Big Red): https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:preview -->

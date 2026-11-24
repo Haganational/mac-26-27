@@ -1,6 +1,6 @@
 # Lance Montgomery, The Westchester Sentinel
 
-_LMU (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_LMU (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**65 of 100, buoyant.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lance editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,8 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 - 2026-11-15: W 86-49 vs Chicago State Cougars. Barometer 52 (steady). <!-- g:401917531 -->
 - 2026-11-15: Social recap posted (W 86-49 vs Chicago State Cougars): https://hardwoodbricks.com/wcc/games/401917531.html <!-- post:401917531:recap -->
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:preview -->
+- 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:preview -->
+- 2026-11-22: L 73-80 vs (neutral) California Baptist Lancers. Barometer 45 (steady). <!-- g:401917539 -->
+- 2026-11-22: Social recap posted (L 73-80 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:recap -->
+- 2026-11-22: W 72-68 vs (neutral) UC Irvine Anteaters. Barometer 65 (buoyant). <!-- g:401917540 -->
+- 2026-11-22: Social recap posted (W 72-68 vs UC Irvine Anteaters): https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:recap -->

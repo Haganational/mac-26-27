@@ -1,6 +1,6 @@
 # Darlene Pruitt, The Murfreesboro Gazette
 
-_Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Middle Tennessee (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 
 ## Barometer
 
-**55 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five LWWWL.
+**63 of 100, steady.** Record 6-2 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,8 @@ Darlene Pruitt spent twenty-five years as a deputy clerk at the county courthous
 - 2026-11-20: L 76-85 vs (neutral) Temple Owls. Barometer 55 (steady). <!-- g:401916122 -->
 - 2026-11-20: Social recap posted (L 76-85 vs Temple Owls): https://hardwoodbricks.com/american/games/401916122.html <!-- post:401916122:recap -->
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:preview -->
+- 2026-11-21: W 69-59 vs (neutral) Indiana State Sycamores. Barometer 61 (steady). <!-- g:401920569 -->
+- 2026-11-21: Social recap posted (W 69-59 vs Indiana State Sycamores): https://hardwoodbricks.com/mvc/games/401920569.html <!-- post:401920569:recap -->
+- 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921207.html <!-- post:401921207:preview -->
+- 2026-11-23: W 77-76 vs (neutral) Southern Illinois Salukis. Barometer 63 (steady). <!-- g:401921207 -->
+- 2026-11-23: Social recap posted (W 77-76 vs Southern Illinois Salukis): https://hardwoodbricks.com/mvc/games/401921207.html <!-- post:401921207:recap -->

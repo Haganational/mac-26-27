@@ -1,6 +1,6 @@
 # Marcus Bell, The Smithfield Pilot
 
-_Bryant (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-21._
+_Bryant (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -67,7 +67,7 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/americaeast/games/401929460.html <!-- post:401929460:preview -->
 - 2026-11-20: W 75-61 vs Worcester State Lancers. Barometer 49 (steady). <!-- g:401929460 -->
 - 2026-11-21: Social recap posted (W 75-61 vs Worcester State Lancers): https://hardwoodbricks.com/americaeast/games/401929460.html <!-- post:401929460:recap -->
+- 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T02:42:09+00:00",
+ "fetched_at": "2026-11-23T23:20:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -2388,11 +2388,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-20-2026--sports-ncaa-basketball/production/7710731?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "ICCU Arena",
    "venue_city": "Moscow",
    "venue_state": "ID",
@@ -2433,11 +2429,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-colorado-bears-mens-basketball-tickets-bank-of-colorado-arena-at-butler-hancock-athletic-center-11-21-2026--sports-ncaa-basketball/production/7877446?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Bank of Colorado Arena",
    "venue_city": "Greeley",
    "venue_state": "CO",
@@ -2446,21 +2438,21 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "130183",
     "key": null,
     "name": "Justice Lions",
     "abbr": "JUS",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920125",
@@ -2478,11 +2470,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cal-poly-mustangs-mens-basketball-tickets-mott-gym-11-21-2026--sports-ncaa-basketball/production/7877116?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-19T23:16:30Z"
-   },
+   "tickets": null,
    "venue": "Mott Athletics Center",
    "venue_city": "San Luis Obispo",
    "venue_state": "CA",
@@ -2491,21 +2479,21 @@
     "key": null,
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2464",
     "key": "northern-arizona",
     "name": "Northern Arizona Lumberjacks",
     "abbr": "NAU",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925942",
@@ -2517,11 +2505,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-dakota-coyotes-mens-basketball-tickets-sanford-pentagon-11-22-2026--sports-ncaa-basketball/production/7257402?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Sanford Pentagon",
    "venue_city": "Sioux Falls",
    "venue_state": "SD",
@@ -2530,21 +2514,21 @@
     "key": "utah-tech",
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
    "away": {
     "espn_id": "233",
     "key": null,
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920159",
@@ -2571,27 +2555,27 @@
     "key": "portland-state",
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2239",
     "key": null,
     "name": "Cal State Fullerton Titans",
     "abbr": "CSUF",
-    "score": null,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929445",
-   "date": "2026-11-23T20:30Z",
-   "name": "Arkansas State Red Wolves at Southern Utah Thunderbirds",
-   "short_name": "ARST VS SUU",
+   "date": "2026-11-23T20:45Z",
+   "name": "Southern Utah Thunderbirds at Arkansas State Red Wolves",
+   "short_name": "SUU VS ARST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2608,25 +2592,25 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "253",
-    "key": "southern-utah",
-    "name": "Southern Utah Thunderbirds",
-    "abbr": "SUU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2032",
     "key": null,
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": null,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "253",
+    "key": "southern-utah",
+    "name": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "score": 102,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922263",
@@ -2646,7 +2630,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7710737?wsUser=717",
-    "low": 29.0,
+    "low": 24.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ICCU Arena",
@@ -2657,7 +2641,7 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 66,
     "winner": null
    },
    "away": {
@@ -2665,13 +2649,13 @@
     "key": null,
     "name": "Dickinson State Blue Hawks",
     "abbr": "DSSU",
-    "score": null,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:54 - 2nd"
   },
   {
    "game_id": "401922032",
@@ -2691,7 +2675,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-11-23-2026--sports-ncaa-basketball/production/7742949?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -2702,7 +2686,7 @@
     "key": "montana",
     "name": "Montana Grizzlies",
     "abbr": "MONT",
-    "score": null,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -2710,13 +2694,13 @@
     "key": null,
     "name": "Carroll (MT) Fighting Saints",
     "abbr": "CRMT",
-    "score": null,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:56 - 2nd"
   },
   {
    "game_id": "401920721",
@@ -2736,7 +2720,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-23-2026--sports-ncaa-basketball/production/7419559?wsUser=717",
-    "low": 7.0,
+    "low": 8.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Thomas & Mack Center",
@@ -2747,7 +2731,7 @@
     "key": null,
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2755,13 +2739,13 @@
     "key": "eastern-washington",
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:29 - 1st"
   },
   {
    "game_id": "401920819",
@@ -2822,7 +2806,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 10.0,
+    "low": 16.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2908,7 +2892,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 7.0,
+    "low": 8.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ExtraMile Arena",
@@ -3121,7 +3105,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-11-25-2026--sports-ncaa-basketball/production/7519430?wsUser=717",
-    "low": 6.0,
+    "low": 8.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Gersten Pavilion",
@@ -3391,7 +3375,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-11-28-2026--sports-ncaa-basketball/production/7890183?wsUser=717",
-    "low": 34.0,
+    "low": 15.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Titan Gym",
@@ -3613,7 +3597,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-state-sun-devils-mens-basketball-tickets-desert-financial-arena-11-30-2026--sports-ncaa-basketball/production/7507704?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Desert Financial Arena",
@@ -4967,7 +4951,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-15-2026--sports-ncaa-basketball/production/7156087?wsUser=717",
-    "low": 31.0,
+    "low": 39.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Marriott Center",
@@ -5444,7 +5428,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-20-2026--sports-ncaa-basketball/production/7636972?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Matthew Knight Arena",
@@ -9730,5 +9714,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-21T04:04:11+00:00"
+ "live_at": "2026-11-24T03:23:23+00:00"
 }
