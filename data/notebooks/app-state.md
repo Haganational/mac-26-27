@@ -70,7 +70,7 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929285.html <!-- post:401929285:preview -->
 - 2026-11-23: L 65-71 vs (neutral) St. Bonaventure Bonnies. Barometer 54 (steady). <!-- g:401927397 -->
 - 2026-11-23: Social recap posted (L 65-71 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401928836.html <!-- post:401928836:preview -->

@@ -68,7 +68,7 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401909753.html <!-- post:401909753:preview -->
 - 2026-11-18: L 55-104 at Baylor Bears. Barometer 37 (testy). <!-- g:401909753 -->
 - 2026-11-18: Social recap posted (L 55-104 vs Baylor Bears): https://hardwoodbricks.com/swac/games/401909753.html <!-- post:401909753:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/swac/games/401919042.html <!-- post:401919042:preview -->
