@@ -73,7 +73,7 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,4 @@ Maya Delgado grew up in Fairborn, right outside the base, the daughter of an Air
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401927398.html <!-- post:401927398:preview -->
 - 2026-11-23: W 66-64 vs (neutral) Akron Zips. Barometer 86 (giddy). <!-- g:401928830 -->
 - 2026-11-23: Social recap posted (W 66-64 vs Akron Zips): https://hardwoodbricks.com/games/401928830.html <!-- post:401928830:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401928831.html <!-- post:401928831:preview -->

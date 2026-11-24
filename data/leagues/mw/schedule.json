@@ -2319,7 +2319,7 @@
     "key": null,
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2327,13 +2327,13 @@
     "key": "san-jose-state",
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:54 - 1st"
   },
   {
    "game_id": "401921707",
@@ -9034,5 +9034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T05:07:34+00:00"
+ "live_at": "2026-11-24T05:36:41+00:00"
 }

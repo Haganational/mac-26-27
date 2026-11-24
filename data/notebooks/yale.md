@@ -68,7 +68,7 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,4 @@ Thurston Whitmore poured wine at a New Haven steakhouse for years, delivering Bu
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929285.html <!-- post:401929285:preview -->
 - 2026-11-23: L 60-68 vs (neutral) Belmont Bruins. Barometer 46 (steady). <!-- g:401929286 -->
 - 2026-11-23: Social recap posted (L 60-68 vs Belmont Bruins): https://hardwoodbricks.com/mvc/games/401929286.html <!-- post:401929286:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401928831.html <!-- post:401928831:preview -->
