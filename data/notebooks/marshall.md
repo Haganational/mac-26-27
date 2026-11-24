@@ -73,7 +73,7 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401912710.html <!-- post:401912710:preview -->
 - 2026-11-21: L 72-88 at North Carolina Tar Heels. Barometer 41 (testy). <!-- g:401912710 -->
 - 2026-11-21: Social recap posted (L 72-88 vs North Carolina Tar Heels): https://hardwoodbricks.com/sunbelt/games/401912710.html <!-- post:401912710:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->

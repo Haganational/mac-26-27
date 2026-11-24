@@ -71,7 +71,7 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:preview -->
 - 2026-11-23: W 73-63 vs (neutral) Tulane Green Wave. Barometer 54 (steady). <!-- g:401919006 -->
 - 2026-11-23: Social recap posted (W 73-63 vs Tulane Green Wave): https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401921703.html <!-- post:401921703:preview -->

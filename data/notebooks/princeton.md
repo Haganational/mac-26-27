@@ -66,7 +66,7 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:preview -->
 - 2026-11-21: W 75-64 vs Monmouth Hawks. Barometer 58 (steady). <!-- g:401924736 -->
 - 2026-11-21: Social recap posted (W 75-64 vs Monmouth Hawks): https://hardwoodbricks.com/ivy/games/401924736.html <!-- post:401924736:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401924737.html <!-- post:401924737:preview -->
