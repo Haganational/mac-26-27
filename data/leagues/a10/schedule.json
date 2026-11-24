@@ -3699,7 +3699,7 @@
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -3707,13 +3707,13 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:45 - 1st"
   },
   {
    "game_id": "401920414",
@@ -12903,5 +12903,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T15:07:46+00:00"
 }
