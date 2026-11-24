@@ -2688,7 +2688,7 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2696,13 +2696,13 @@
     "key": null,
     "name": "Penn State Berks Nittany Lions",
     "abbr": "PSBK",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:14 - 1st"
   },
   {
    "game_id": "401920358",
@@ -9319,5 +9319,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T21:45:44+00:00"
 }

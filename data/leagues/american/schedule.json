@@ -3305,7 +3305,7 @@
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -3313,13 +3313,13 @@
     "key": "tulsa",
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:42 - 1st"
   },
   {
    "game_id": "401923262",
@@ -12275,5 +12275,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T21:10:02+00:00"
+ "live_at": "2026-11-24T21:37:43+00:00"
 }
