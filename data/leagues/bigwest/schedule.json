@@ -2625,7 +2625,7 @@
     "key": "utah-valley",
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -2633,13 +2633,13 @@
     "key": null,
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:11 - 1st"
   },
   {
    "game_id": "401921664",
@@ -10218,5 +10218,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T01:41:36+00:00"
 }
