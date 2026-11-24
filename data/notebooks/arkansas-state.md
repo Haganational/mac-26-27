@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
 - 2026-11-23: W 104-102 vs (neutral) Southern Utah Thunderbirds. Barometer 65 (buoyant). <!-- g:401929445 -->
 - 2026-11-24: Social recap posted (W 104-102 vs Southern Utah Thunderbirds): https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:preview -->

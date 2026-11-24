@@ -68,7 +68,7 @@ Marisol Vega kept the books at her aunt's Cuban cafeteria in Westchester and wor
 ## What we've made about them
 
 - Film: *The Badge on Campus (Part II)* (https://youtu.be/P5lvhlSbBcw). Our film on FIU campus police joining ICE's 287(g) program and the students who pushed back. Part two of two.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Marisol Vega kept the books at her aunt's Cuban cafeteria in Westchester and wor
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/cusa/games/401928358.html <!-- post:401928358:preview -->
 - 2026-11-23: W 79-75 vs Long Beach State Beach. Barometer 62 (steady). <!-- g:401924266 -->
 - 2026-11-23: Social recap posted (W 79-75 vs Long Beach State Beach): https://hardwoodbricks.com/bigwest/games/401924266.html <!-- post:401924266:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:preview -->
