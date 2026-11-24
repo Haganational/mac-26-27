@@ -26,4 +26,4 @@ jobs:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
         run: |
-          for c in branch/promos/*/cleanup.json; do PYTHONPATH=. python branch/promos/cleanup.py "$c"; done
+          for c in branch/promos/*/cleanup.json; do [ -e "$c" ] || continue; PYTHONPATH=. python branch/promos/cleanup.py "$c"; done
