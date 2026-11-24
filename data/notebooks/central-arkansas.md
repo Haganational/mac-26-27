@@ -27,9 +27,9 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWLLW.
+**57 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dwayne editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dwayne editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Dwayne Hollis spent twenty years as a claims adjuster in Conway and trusts rebou
 - 2026-11-21: W 82-67 at Jacksonville Dolphins. Barometer 50 (steady). <!-- g:401917918 -->
 - 2026-11-21: Social recap posted (W 82-67 vs Jacksonville Dolphins): https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:preview -->
+- 2026-11-24: W 80-66 at North Florida Ospreys. Barometer 57 (steady). <!-- g:401917919 -->

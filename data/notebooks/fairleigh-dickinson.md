@@ -27,9 +27,9 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LWWLW.
+**58 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 - 2026-11-19: W 78-66 vs NJIT Highlanders. Barometer 53 (steady). <!-- g:401919760 -->
 - 2026-11-19: Social recap posted (W 78-66 vs NJIT Highlanders): https://hardwoodbricks.com/americaeast/games/401919760.html <!-- post:401919760:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:preview -->
+- 2026-11-24: W 49-46 at Iona Gaels. Barometer 58 (steady). <!-- g:401919761 -->
+- 2026-11-24: Social recap posted (W 49-46 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:recap -->

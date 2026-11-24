@@ -2645,21 +2645,21 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 80,
-    "winner": null
+    "score": 94,
+    "winner": true
    },
    "away": {
     "espn_id": "2589",
     "key": null,
     "name": "Spalding Pelicans",
     "abbr": "SPLD",
-    "score": 22,
-    "winner": null
+    "score": 36,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:11 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928791",
@@ -9665,5 +9665,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T01:36:15+00:00"
+ "live_at": "2026-11-24T02:05:58+00:00"
 }

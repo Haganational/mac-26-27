@@ -3203,21 +3203,21 @@
     "key": "iona",
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": 37,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
    "away": {
     "espn_id": "161",
     "key": null,
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": 42,
-    "winner": null
+    "score": 49,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:05 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924859",
@@ -11362,5 +11362,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T01:40:22+00:00"
+ "live_at": "2026-11-24T02:10:04+00:00"
 }

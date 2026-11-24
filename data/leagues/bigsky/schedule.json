@@ -2641,7 +2641,7 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2649,13 +2649,13 @@
     "key": null,
     "name": "Dickinson State Blue Hawks",
     "abbr": "DSSU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:06 - 1st"
   },
   {
    "game_id": "401922032",
@@ -2686,7 +2686,7 @@
     "key": "montana",
     "name": "Montana Grizzlies",
     "abbr": "MONT",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2694,13 +2694,13 @@
     "key": null,
     "name": "Carroll (MT) Fighting Saints",
     "abbr": "CRMT",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:54 - 1st"
   },
   {
    "game_id": "401920721",
@@ -9713,5 +9713,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T02:23:28+00:00"
 }

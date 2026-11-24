@@ -2315,21 +2315,21 @@
     "key": null,
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 57,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2110",
     "key": "central-arkansas",
     "name": "Central Arkansas Bears",
     "abbr": "CARK",
-    "score": 72,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925950",
@@ -8911,5 +8911,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T01:56:28+00:00"
+ "live_at": "2026-11-24T02:26:22+00:00"
 }
