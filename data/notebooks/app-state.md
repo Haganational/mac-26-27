@@ -27,7 +27,7 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 
 ## Barometer
 
-**54 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WLWWL.
+**47 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five LWWLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Ruthie editorializes: 62% of stories right now.
 
@@ -70,7 +70,7 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,5 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 - 2026-11-23: L 65-71 vs (neutral) St. Bonaventure Bonnies. Barometer 54 (steady). <!-- g:401927397 -->
 - 2026-11-23: Social recap posted (L 65-71 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/a10/games/401927397.html <!-- post:401927397:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401928836.html <!-- post:401928836:preview -->
+- 2026-11-24: L 50-57 vs (neutral) Yale Bulldogs. Barometer 47 (steady). <!-- g:401929285 -->
+- 2026-11-24: Social recap posted (L 50-57 vs Yale Bulldogs): https://hardwoodbricks.com/sunbelt/games/401929285.html <!-- post:401929285:recap -->

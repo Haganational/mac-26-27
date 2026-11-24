@@ -2596,7 +2596,7 @@
     "key": "new-haven",
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": 30,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2604,13 +2604,13 @@
     "key": null,
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": 28,
+    "score": 44,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:35 - 2nd"
   },
   {
    "game_id": "401926061",
@@ -2641,7 +2641,7 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2649,13 +2649,13 @@
     "key": null,
     "name": "Bloomsburg Huskies",
     "abbr": "BBU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:20 - 1st"
   },
   {
    "game_id": "401919829",
@@ -8414,5 +8414,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T21:46:19+00:00"
+ "live_at": "2026-11-24T22:26:35+00:00"
 }

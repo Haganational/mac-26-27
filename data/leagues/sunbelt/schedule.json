@@ -3821,21 +3821,21 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 44,
-    "winner": null
+    "score": 57,
+    "winner": true
    },
    "away": {
     "espn_id": "2026",
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 41,
-    "winner": null
+    "score": 50,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924267",
@@ -3862,7 +3862,7 @@
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": 46,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -3870,13 +3870,13 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 53,
+    "score": 78,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:00 - 1st"
+   "detail": "12:03 - 2nd"
   },
   {
    "game_id": "401920742",
@@ -12645,5 +12645,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T21:38:29+00:00"
+ "live_at": "2026-11-24T22:13:35+00:00"
 }
