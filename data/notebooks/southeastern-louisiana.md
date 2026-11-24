@@ -27,9 +27,9 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 
 ## Barometer
 
-**25 of 100, despondent.** Record 1-4 (0-0 in conference), streak L3, last five LWLLL.
+**40 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bryce editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bryce editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,5 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 - 2026-11-21: L 59-96 at Kennesaw State Owls. Barometer 25 (despondent). <!-- g:401920818 -->
 - 2026-11-21: Social recap posted (L 59-96 vs Kennesaw State Owls): https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:preview -->
+- 2026-11-24: W 70-60 vs (neutral) Northern Colorado Bears. Barometer 40 (testy). <!-- g:401920819 -->
+- 2026-11-24: Social recap posted (W 70-60 vs Northern Colorado Bears): https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:recap -->

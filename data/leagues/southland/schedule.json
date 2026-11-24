@@ -2859,21 +2859,21 @@
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 48,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
    "away": {
     "espn_id": "2545",
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 57,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925014",
@@ -10168,5 +10168,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T19:19:07+00:00"
+ "live_at": "2026-11-24T19:46:22+00:00"
 }

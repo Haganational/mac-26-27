@@ -2555,21 +2555,21 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": 87,
-    "winner": null
+    "score": 112,
+    "winner": true
    },
    "away": {
     "espn_id": "130189",
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": 38,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:42 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929035",
@@ -8414,5 +8414,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T19:25:10+00:00"
+ "live_at": "2026-11-24T19:51:25+00:00"
 }

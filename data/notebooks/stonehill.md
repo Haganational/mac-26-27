@@ -27,9 +27,9 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five LLLLW.
+**51 of 100, steady.** Record 3-4 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,5 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-21: W 95-82 vs Northeastern Huskies. Barometer 40 (testy). <!-- g:401919849 -->
 - 2026-11-22: Social recap posted (W 95-82 vs Northeastern Huskies): https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401919850.html <!-- post:401919850:preview -->
+- 2026-11-24: W 112-64 vs Vermont State Randolph Knights. Barometer 51 (steady). <!-- g:401919850 -->
+- 2026-11-24: Social recap posted (W 112-64 vs Vermont State Randolph Knights): https://hardwoodbricks.com/nec/games/401919850.html <!-- post:401919850:recap -->
