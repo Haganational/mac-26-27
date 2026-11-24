@@ -58,7 +58,7 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -75,3 +75,4 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/uac/games/401929387.html <!-- post:401929387:preview -->
 - 2026-11-22: W 114-85 vs Alice Lloyd Eagles. Barometer 65 (buoyant). <!-- g:401929387 -->
 - 2026-11-22: Social recap posted (W 114-85 vs Alice Lloyd Eagles): https://hardwoodbricks.com/uac/games/401929387.html <!-- post:401929387:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:preview -->

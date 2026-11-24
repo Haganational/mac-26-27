@@ -68,7 +68,7 @@ Claire Beaumont is old Cincinnati money, a third-generation Miami legacy, Phi Be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Claire Beaumont is old Cincinnati money, a third-generation Miami legacy, Phi Be
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/games/401911024.html <!-- post:401911024:preview -->
 - 2026-11-22: W 71-60 vs (neutral) UIC Flames. Barometer 84 (giddy). <!-- g:401911024 -->
 - 2026-11-22: Social recap posted (W 71-60 vs UIC Flames): https://hardwoodbricks.com/games/401911024.html <!-- post:401911024:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:preview -->

@@ -70,7 +70,7 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
 - 2026-11-23: L 75-79 at Florida International Panthers. Barometer 34 (testy). <!-- g:401924266 -->
 - 2026-11-23: Social recap posted (L 75-79 vs Florida International Panthers): https://hardwoodbricks.com/bigwest/games/401924266.html <!-- post:401924266:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924268.html <!-- post:401924268:preview -->

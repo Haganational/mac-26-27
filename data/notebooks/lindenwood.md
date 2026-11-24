@@ -70,7 +70,7 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,4 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 - 2026-11-18: L 74-81 at Northern Iowa Panthers. Barometer 35 (testy). <!-- g:401927388 -->
 - 2026-11-18: Social recap posted (L 74-81 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ovc/games/401929035.html <!-- post:401929035:preview -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:preview -->
