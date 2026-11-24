@@ -1,6 +1,6 @@
 # Rafa Ibarra, The Linda Vista Chronicle
 
-_San Diego (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-23._
+_San Diego (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 

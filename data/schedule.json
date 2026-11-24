@@ -2600,7 +2600,7 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2608,13 +2608,13 @@
     "key": null,
     "name": "RIT Tigers",
     "abbr": "RIT",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:08 - 1st"
   },
   {
    "game_id": "401928838",
@@ -9664,5 +9664,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-23T23:35:03+00:00"
 }

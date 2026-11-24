@@ -1,6 +1,6 @@
 # Tanner Holt, The Cedar City Banner
 
-_Southern Utah (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-23._
+_Southern Utah (Big Sky). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
 
 ## Who they are
 
@@ -72,7 +72,7 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -87,3 +87,4 @@ Tanner Holt sold RVs in Cedar City for a decade before taking over The Cedar Cit
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/cusa/games/401928358.html <!-- post:401928358:preview -->
 - 2026-11-23: L 102-104 vs (neutral) Arkansas State Red Wolves. Barometer 31 (testy). <!-- g:401929445 -->
+- 2026-11-24: Social recap posted (L 102-104 vs Arkansas State Red Wolves): https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:recap -->
