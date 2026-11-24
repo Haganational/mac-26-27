@@ -2405,7 +2405,7 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2413,13 +2413,13 @@
     "key": "north-dakota",
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:33 - 1st"
   },
   {
    "game_id": "401921008",
@@ -7986,5 +7986,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T20:44:46+00:00"
 }
