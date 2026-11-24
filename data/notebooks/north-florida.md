@@ -71,7 +71,7 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:preview -->
 - 2026-11-24: L 66-80 vs Central Arkansas Bears. Barometer 46 (steady). <!-- g:401917919 -->
 - 2026-11-24: Social recap posted (L 66-80 vs Central Arkansas Bears): https://hardwoodbricks.com/asun/games/401917919.html <!-- post:401917919:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401922223.html <!-- post:401922223:preview -->

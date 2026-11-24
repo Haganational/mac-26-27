@@ -67,7 +67,7 @@ Henrietta Morningside grew up backstage, the daughter of a stagehand and a piano
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Henrietta Morningside grew up backstage, the daughter of a stagehand and a piano
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:preview -->
 - 2026-11-21: W 80-71 at Boston University Terriers. Barometer 83 (giddy). <!-- g:401923402 -->
 - 2026-11-21: Social recap posted (W 80-71 vs Boston University Terriers): https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401924705.html <!-- post:401924705:preview -->

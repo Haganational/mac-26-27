@@ -64,7 +64,7 @@ Carmen Rosario spent her whole career as a public school guidance counselor in J
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Carmen Rosario spent her whole career as a public school guidance counselor in J
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:preview -->
 - 2026-11-21: L 52-67 vs Stony Brook Seawolves. Barometer 14 (despondent). <!-- g:401924882 -->
 - 2026-11-21: Social recap posted (L 52-67 vs Stony Brook Seawolves): https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401924705.html <!-- post:401924705:preview -->
