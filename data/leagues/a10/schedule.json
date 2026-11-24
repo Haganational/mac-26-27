@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:09:12+00:00",
+ "fetched_at": "2026-11-24T23:13:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -3718,8 +3718,8 @@
   {
    "game_id": "401920414",
    "date": "2026-11-25T00:30Z",
-   "name": "High Point Panthers at Duquesne Dukes",
-   "short_name": "HPU VS DUQ",
+   "name": "Duquesne Dukes at High Point Panthers",
+   "short_name": "DUQ VS HPU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3736,18 +3736,18 @@
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2184",
-    "key": "duquesne",
-    "name": "Duquesne Dukes",
-    "abbr": "DUQ",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2272",
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2184",
+    "key": "duquesne",
+    "name": "Duquesne Dukes",
+    "abbr": "DUQ",
     "score": null,
     "winner": null
    },
@@ -3774,7 +3774,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 50.0,
+    "low": 62.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Acrisure Arena",
@@ -4126,7 +4126,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-25-2026--sports-ncaa-basketball/production/7627363?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -4395,7 +4395,11 @@
      "market": "Home"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-11-28-2026--sports-ncaa-basketball/production/7883467?wsUser=717",
+    "low": 59.0,
+    "since": "2026-11-24T23:13:14Z"
+   },
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
    "venue_state": "NJ",
@@ -4483,7 +4487,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 53.0,
+    "low": 51.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -4618,7 +4622,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 53.0,
+    "low": 51.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -4934,6 +4938,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Spectrum News 1",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4983,7 +4992,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-high-point-qubein-center-12-2-2026/production/7099291?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Qubein Center",
@@ -5114,6 +5123,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -5601,6 +5615,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -5650,7 +5669,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-8-2026--sports-ncaa-basketball/production/7627379?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -5736,6 +5755,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -5875,7 +5899,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-12-9-2026--sports-ncaa-basketball/production/7627854?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -6082,7 +6106,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-12-2026--sports-ncaa-basketball/production/7627385?wsUser=717",
-    "low": 20.0,
+    "low": 22.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -6340,7 +6364,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-12-12-2026--sports-ncaa-basketball/production/7290633?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Robins Center",
@@ -6424,7 +6448,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-12-2026--sports-ncaa-basketball/production/7116695?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -7370,7 +7394,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-20-2026--sports-ncaa-basketball/production/7400629?wsUser=717",
-    "low": 12.0,
+    "low": 13.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -12444,7 +12468,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-10-9-2026--sports-ncaa-basketball/production/7188020?wsUser=717",
-    "low": 43.0,
+    "low": 40.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",

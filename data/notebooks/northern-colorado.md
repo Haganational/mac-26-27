@@ -73,7 +73,7 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:preview -->
 - 2026-11-24: L 60-70 vs (neutral) SE Louisiana Lions. Barometer 43 (testy). <!-- g:401920819 -->
 - 2026-11-24: Social recap posted (L 60-70 vs SE Louisiana Lions): https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920547.html <!-- post:401920547:preview -->

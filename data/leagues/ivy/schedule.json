@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:15:07+00:00",
+ "fetched_at": "2026-11-24T23:20:01+00:00",
  "season": 2027,
  "games": [
   {
@@ -2452,8 +2452,8 @@
   {
    "game_id": "401924737",
    "date": "2026-11-25T21:00Z",
-   "name": "Liberty Flames at Princeton Tigers",
-   "short_name": "LIB VS PRIN",
+   "name": "Princeton Tigers at Liberty Flames",
+   "short_name": "PRIN VS LIB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2464,18 +2464,18 @@
    "venue_city": "Wilmington",
    "venue_state": "NC",
    "home": {
-    "espn_id": "163",
-    "key": "princeton",
-    "name": "Princeton Tigers",
-    "abbr": "PRIN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2335",
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "163",
+    "key": "princeton",
+    "name": "Princeton Tigers",
+    "abbr": "PRIN",
     "score": null,
     "winner": null
    },
@@ -2987,7 +2987,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-carnesecca-arena-12-1-2026--sports-ncaa-basketball/production/7555656?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Carnesecca Arena",
@@ -3296,7 +3296,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/bryant-bulldogs-mens-basketball-tickets-chace-athletic-center-12-4-2026--sports-ncaa-basketball/production/7877158?wsUser=717",
+    "low": 58.0,
+    "since": "2026-11-24T23:20:01Z"
+   },
    "venue": "Chace Athletic Center",
    "venue_city": "Smithfield",
    "venue_state": "RI",
@@ -3378,7 +3382,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-4-2026--sports-ncaa-basketball/production/7390386?wsUser=717",
-    "low": 117.0,
+    "low": 106.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -7253,6 +7257,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:15:05+00:00"
+ ]
 }

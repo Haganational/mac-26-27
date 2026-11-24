@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:13:46+00:00",
+ "fetched_at": "2026-11-24T23:18:25+00:00",
  "season": 2027,
  "games": [
   {
@@ -3839,7 +3839,7 @@
   },
   {
    "game_id": "401924267",
-   "date": "2026-11-24T20:30Z",
+   "date": "2026-11-24T20:45Z",
    "name": "Arkansas State Red Wolves at Long Beach State Beach",
    "short_name": "ARST VS LBSU",
    "season_type": "reg",
@@ -3862,21 +3862,21 @@
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": 73,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
    "away": {
     "espn_id": "2032",
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 100,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:39 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920742",
@@ -3926,34 +3926,40 @@
   {
    "game_id": "401921030",
    "date": "2026-11-25T00:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
+   "name": "Georgia Southern Eagles at Bellarmine Knights",
+   "short_name": "GASO VS BELL",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 32.0,
+    "low": 36.0,
     "since": "2026-11-20T12:09:57Z"
    },
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
    "home": {
-    "espn_id": "290",
-    "key": "georgia-southern",
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "91",
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "290",
+    "key": "georgia-southern",
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
     "score": null,
     "winner": null
    },
@@ -4291,7 +4297,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -4997,7 +5003,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-11-29-2026--sports-ncaa-basketball/production/7892473?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-19T12:09:49Z"
    },
    "venue": "Reed Green Coliseum",
@@ -6467,7 +6473,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-12-2026--sports-ncaa-basketball/production/7627385?wsUser=717",
-    "low": 20.0,
+    "low": 22.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "EagleBank Arena",
@@ -7255,7 +7261,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-18-2026--sports-ncaa-basketball/production/7356341?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Petersen Events Center",
@@ -8315,7 +8321,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-12-31-2026--sports-ncaa-basketball/production/7398192?wsUser=717",
-    "low": 22.0,
+    "low": 19.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -8651,7 +8657,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-1-2-2027--sports-ncaa-basketball/production/7398204?wsUser=717",
-    "low": 27.0,
+    "low": 25.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -12644,6 +12650,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:45:25+00:00"
+ ]
 }

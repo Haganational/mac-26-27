@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:17:06+00:00",
+ "fetched_at": "2026-11-24T23:22:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2583,11 +2583,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2648,10 +2644,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:53 - 1st"
   },
   {
    "game_id": "401928796",
@@ -2716,7 +2712,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2746,8 +2742,8 @@
   {
    "game_id": "401924737",
    "date": "2026-11-25T21:00Z",
-   "name": "Liberty Flames at Princeton Tigers",
-   "short_name": "LIB VS PRIN",
+   "name": "Princeton Tigers at Liberty Flames",
+   "short_name": "PRIN VS LIB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2758,18 +2754,18 @@
    "venue_city": "Wilmington",
    "venue_state": "NC",
    "home": {
-    "espn_id": "163",
-    "key": null,
-    "name": "Princeton Tigers",
-    "abbr": "PRIN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2335",
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "163",
+    "key": null,
+    "name": "Princeton Tigers",
+    "abbr": "PRIN",
     "score": null,
     "winner": null
    },
@@ -2963,7 +2959,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 14.0,
+    "low": 27.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Mabee Center",
@@ -4450,7 +4446,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 25.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Lawlor Events Center",
@@ -9082,6 +9078,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T20:11:21+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:27:15+00:00",
+ "fetched_at": "2026-11-24T23:33:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2352,7 +2352,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/villanova-wildcats-mens-basketball-tickets-finneran-pavilion-11-24-2026--sports-ncaa-basketball/production/7483907?wsUser=717",
-    "low": 13.0,
+    "low": 15.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Finneran Pavilion",
@@ -2397,7 +2397,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-25-2026--sports-ncaa-basketball/production/7538349?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Lenovo Center",
@@ -2941,6 +2941,11 @@
    "time_tba": false,
    "broadcasts": [
     {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
      "name": "FloSports",
      "kind": "Streaming",
      "market": "Home"
@@ -2989,6 +2994,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3450,6 +3460,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3499,7 +3514,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-8-2026--sports-ncaa-basketball/production/7627379?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "EagleBank Arena",
@@ -4087,7 +4102,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-12-15-2026--sports-ncaa-basketball/production/7581919?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "PeoplesBank Arena",
@@ -6082,7 +6097,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morgan-state-bears-mens-basketball-tickets-hill-field-house-1-23-2027--sports-ncaa-basketball/production/7852741?wsUser=717",
-    "low": 79.0,
+    "low": 49.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Hill Field House",

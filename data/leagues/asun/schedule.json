@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:02:58+00:00",
+ "fetched_at": "2026-11-24T23:06:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -2256,42 +2256,48 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:29 - 1st"
   },
   {
    "game_id": "401921030",
    "date": "2026-11-25T00:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
+   "name": "Georgia Southern Eagles at Bellarmine Knights",
+   "short_name": "GASO VS BELL",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 32.0,
+    "low": 36.0,
     "since": "2026-11-20T12:02:17Z"
    },
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
    "home": {
-    "espn_id": "290",
-    "key": null,
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "91",
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
     "score": null,
     "winner": null
    },
@@ -2318,7 +2324,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 6.0,
+    "low": 8.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -2363,7 +2369,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 11.0,
+    "low": 15.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -2408,7 +2414,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 46.0,
+    "low": 59.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Neville Arena",
@@ -2851,7 +2857,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-29-2026--sports-ncaa-basketball/production/7589488?wsUser=717",
-    "low": 36.0,
+    "low": 28.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Fertitta Center",
@@ -2937,7 +2943,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-state-buckeyes-mens-basketball-tickets-value-city-arena-at-schottenstein-center-11-29-2026--sports-ncaa-basketball/production/7534729?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Schottenstein Center",
@@ -3559,7 +3565,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-12-5-2026--sports-ncaa-basketball/production/7339385?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Watsco Center",

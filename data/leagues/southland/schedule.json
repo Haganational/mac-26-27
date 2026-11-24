@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:20:07+00:00",
+ "fetched_at": "2026-11-24T23:25:50+00:00",
  "season": 2027,
  "games": [
   {
@@ -2884,7 +2884,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
@@ -2988,6 +2994,47 @@
     "key": "houston-christian",
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920548",
+   "date": "2026-11-25T20:00Z",
+   "name": "SE Louisiana Lions at TBD",
+   "short_name": "SELA VS TBD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "-1",
+    "key": null,
+    "name": "TBD",
+    "abbr": "TBD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2545",
+    "key": "southeastern-louisiana",
+    "name": "SE Louisiana Lions",
+    "abbr": "SELA",
     "score": null,
     "winner": null
    },
@@ -10167,6 +10214,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T19:46:22+00:00"
+ ]
 }

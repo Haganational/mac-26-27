@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:12:32+00:00",
+ "fetched_at": "2026-11-24T23:17:00+00:00",
  "season": 2027,
  "games": [
   {
@@ -3279,8 +3279,8 @@
   {
    "game_id": "401921666",
    "date": "2026-11-24T21:30Z",
-   "name": "Tulsa Golden Hurricane at Illinois State Redbirds",
-   "short_name": "TLSA VS ILST",
+   "name": "Illinois State Redbirds at Tulsa Golden Hurricane",
+   "short_name": "ILST VS TLSA",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3294,32 +3294,32 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 50.0,
+    "low": 62.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2287",
-    "key": null,
-    "name": "Illinois State Redbirds",
-    "abbr": "ILST",
-    "score": 35,
-    "winner": null
-   },
-   "away": {
     "espn_id": "202",
     "key": "tulsa",
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
-    "score": 46,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2287",
+    "key": null,
+    "name": "Illinois State Redbirds",
+    "abbr": "ILST",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:32 - 2nd"
+   "detail": "9:13 - 2nd"
   },
   {
    "game_id": "401923262",
@@ -3361,10 +3361,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:10 - 1st"
   },
   {
    "game_id": "401918996",
@@ -3384,7 +3384,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 11.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -3863,7 +3863,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 53.0,
+    "low": 51.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -4133,7 +4133,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 53.0,
+    "low": 51.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -4309,7 +4309,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/temple-owls-mens-basketball-tickets-liacouras-center-12-1-2026--sports-ncaa-basketball/production/7483983?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Liacouras Center",
@@ -5910,7 +5910,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-12-2026--sports-ncaa-basketball/production/7116695?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "UD Arena",
@@ -12274,6 +12274,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:44:08+00:00"
+ ]
 }

@@ -66,7 +66,7 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,4 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:preview -->
 - 2026-11-24: W 70-60 vs (neutral) Northern Colorado Bears. Barometer 40 (testy). <!-- g:401920819 -->
 - 2026-11-24: Social recap posted (W 70-60 vs Northern Colorado Bears): https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401920548.html <!-- post:401920548:preview -->

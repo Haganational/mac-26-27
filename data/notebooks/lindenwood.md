@@ -27,9 +27,9 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 
 ## Barometer
 
-**35 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five WWLLL.
+**29 of 100, despondent.** Record 2-5 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mike editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mike editorializes: 73% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,5 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 - 2026-11-18: Social recap posted (L 74-81 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401927388.html <!-- post:401927388:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ovc/games/401929035.html <!-- post:401929035:preview -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:preview -->
+- 2026-11-24: L 60-63 vs (neutral) New Haven Chargers. Barometer 29 (despondent). <!-- g:401929035 -->
+- 2026-11-24: Social recap posted (L 60-63 vs New Haven Chargers): https://hardwoodbricks.com/ovc/games/401929035.html <!-- post:401929035:recap -->

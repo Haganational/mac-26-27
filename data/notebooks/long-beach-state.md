@@ -27,9 +27,9 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**26 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sharon editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sharon editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,5 @@ Sharon Nakayama grew up in Long Beach's Bixby Knolls, the daughter of a longshor
 - 2026-11-23: L 75-79 at Florida International Panthers. Barometer 34 (testy). <!-- g:401924266 -->
 - 2026-11-23: Social recap posted (L 75-79 vs Florida International Panthers): https://hardwoodbricks.com/bigwest/games/401924266.html <!-- post:401924266:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924268.html <!-- post:401924268:preview -->
+- 2026-11-24: L 81-106 vs (neutral) Arkansas State Red Wolves. Barometer 26 (despondent). <!-- g:401924267 -->
+- 2026-11-24: Social recap posted (L 81-106 vs Arkansas State Red Wolves): https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:recap -->

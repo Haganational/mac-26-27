@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:10:39+00:00",
+ "fetched_at": "2026-11-24T23:14:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2067,11 +2067,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 50.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2114,7 +2110,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-24-2026--sports-ncaa-basketball/production/7280558?wsUser=717",
-    "low": 88.0,
+    "low": 96.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Michelob ULTRA Arena",
@@ -2125,7 +2121,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2133,13 +2129,13 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 0,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_DELAYED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Delayed"
+   "detail": "12:06 - 1st"
   },
   {
    "game_id": "401922023",
@@ -2159,7 +2155,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -2290,7 +2286,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-t-mobile-arena-11-24-2026--sports-ncaa-basketball/production/7288695?wsUser=717",
-    "low": 35.0,
+    "low": 29.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "T-Mobile Arena",
@@ -2415,7 +2411,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-26-2026--sports-ncaa-basketball/production/7401152?wsUser=717",
-    "low": 42.0,
+    "low": 37.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -3025,7 +3021,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-12-2-2026--sports-ncaa-basketball/production/7469244?wsUser=717",
-    "low": 20.0,
+    "low": 14.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Leavey Center",
@@ -3422,7 +3418,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-5-2026--sports-ncaa-basketball/production/7418295?wsUser=717",
-    "low": 42.0,
+    "low": 36.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "CU Events Center",
@@ -4950,7 +4946,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-28-2026--sports-ncaa-basketball/production/7350079?wsUser=717",
-    "low": 6.0,
+    "low": 9.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Pete Maravich Assembly Center",
@@ -5898,7 +5894,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-1-16-2027--sports-ncaa-basketball/production/7631687?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
@@ -6514,7 +6510,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/gonzaga-bulldogs-mens-basketball-tickets-climate-pledge-arena-1-30-2027--sports-ncaa-basketball/production/7601031?wsUser=717",
-    "low": 71.0,
+    "low": 65.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Climate Pledge Arena",
@@ -8276,6 +8272,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:42:11+00:00"
+ ]
 }

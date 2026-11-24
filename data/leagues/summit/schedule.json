@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:21:10+00:00",
+ "fetched_at": "2026-11-24T23:27:02+00:00",
  "season": 2027,
  "games": [
   {
@@ -2876,7 +2876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 14.0,
+    "low": 27.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Mabee Center",
@@ -3399,7 +3399,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-1-2026--sports-ncaa-basketball/production/7649870?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Baxter Arena",
@@ -3527,7 +3527,17 @@
    "time_tba": false,
    "broadcasts": [
     {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
      "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -3573,6 +3583,11 @@
    "broadcasts": [
     {
      "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -3981,6 +3996,11 @@
      "name": "Summit League Network",
      "kind": "Streaming",
      "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4069,6 +4089,11 @@
    "broadcasts": [
     {
      "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -7986,6 +8011,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:21:20+00:00"
+ ]
 }

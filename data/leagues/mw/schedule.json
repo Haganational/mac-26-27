@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:04:55+00:00",
+ "fetched_at": "2026-11-24T23:08:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2330,8 +2330,8 @@
   {
    "game_id": "401921707",
    "date": "2026-11-24T22:30Z",
-   "name": "Wyoming Cowboys at Kent State Golden Flashes",
-   "short_name": "WYO VS KENT",
+   "name": "Kent State Golden Flashes at Wyoming Cowboys",
+   "short_name": "KENT VS WYO",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2348,31 +2348,31 @@
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2309",
-    "key": null,
-    "name": "Kent State Golden Flashes",
-    "abbr": "KENT",
-    "score": 3,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2751",
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 2,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": null,
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:08 - 1st"
+   "detail": "5:07 - 1st"
   },
   {
    "game_id": "401911458",
    "date": "2026-11-25T00:00Z",
-   "name": "Nevada Wolf Pack at Santa Clara Broncos",
-   "short_name": "NEV VS SCU",
+   "name": "Santa Clara Broncos at Nevada Wolf Pack",
+   "short_name": "SCU VS NEV",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2386,25 +2386,25 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 50.0,
+    "low": 62.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2541",
-    "key": null,
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2440",
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2541",
+    "key": null,
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
     "score": null,
     "winner": null
    },
@@ -2457,8 +2457,8 @@
   {
    "game_id": "401911535",
    "date": "2026-11-25T01:30Z",
-   "name": "Charleston Cougars at UTEP Miners",
-   "short_name": "COFC VS UTEP",
+   "name": "UTEP Miners at Charleston Cougars",
+   "short_name": "UTEP VS COFC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2475,18 +2475,18 @@
    "venue_city": "Cancun",
    "venue_state": "Mexico",
    "home": {
-    "espn_id": "2638",
-    "key": "utep",
-    "name": "UTEP Miners",
-    "abbr": "UTEP",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "232",
     "key": null,
     "name": "Charleston Cougars",
     "abbr": "COFC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2638",
+    "key": "utep",
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
     "score": null,
     "winner": null
    },
@@ -2513,7 +2513,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 50.0,
+    "low": 62.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Acrisure Arena",
@@ -2996,7 +2996,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-11-29-2026--sports-ncaa-basketball/production/7699976?wsUser=717",
-    "low": 28.0,
+    "low": 40.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Arena-Auditorium",
@@ -3131,7 +3131,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-1-2026--sports-ncaa-basketball/production/7656410?wsUser=717",
-    "low": 28.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -3439,7 +3439,17 @@
    "time_tba": false,
    "broadcasts": [
     {
+     "name": "WDAY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
      "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -3716,7 +3726,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-5-2026--sports-ncaa-basketball/production/7436755?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Global Credit Union Arena",
@@ -4263,7 +4273,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 25.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -5137,7 +5147,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-12-22-2026--sports-ncaa-basketball/production/7419567?wsUser=717",
-    "low": 10.0,
+    "low": 12.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -5691,7 +5701,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-2-2027--sports-ncaa-basketball/production/7419583?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -5886,7 +5896,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-5-2027--sports-ncaa-basketball/production/7422140?wsUser=717",
-    "low": 34.0,
+    "low": 31.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -6120,7 +6130,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-9-2027--sports-ncaa-basketball/production/7422142?wsUser=717",
-    "low": 34.0,
+    "low": 29.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -6276,7 +6286,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-12-2027--sports-ncaa-basketball/production/7419585?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -6705,7 +6715,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-1-19-2027--sports-ncaa-basketball/production/7422144?wsUser=717",
-    "low": 38.0,
+    "low": 36.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "The Pit",
@@ -6900,7 +6910,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-1-23-2027--sports-ncaa-basketball/production/7419593?wsUser=717",
-    "low": 22.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -7485,7 +7495,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-2-6-2027--sports-ncaa-basketball/production/7419626?wsUser=717",
-    "low": 27.0,
+    "low": 25.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -9103,6 +9113,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:36:07+00:00"
+ ]
 }

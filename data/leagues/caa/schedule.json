@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:15:54+00:00",
+ "fetched_at": "2026-11-24T23:20:56+00:00",
  "season": 2027,
  "games": [
   {
@@ -3291,8 +3291,8 @@
   {
    "game_id": "401911535",
    "date": "2026-11-25T01:30Z",
-   "name": "Charleston Cougars at UTEP Miners",
-   "short_name": "COFC VS UTEP",
+   "name": "UTEP Miners at Charleston Cougars",
+   "short_name": "UTEP VS COFC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3309,18 +3309,18 @@
    "venue_city": "Cancun",
    "venue_state": "Mexico",
    "home": {
-    "espn_id": "2638",
-    "key": null,
-    "name": "UTEP Miners",
-    "abbr": "UTEP",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "232",
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2638",
+    "key": null,
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
     "score": null,
     "winner": null
    },
@@ -3347,7 +3347,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 8.0,
+    "low": 18.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Stony Brook Arena",
@@ -4043,7 +4043,11 @@
      "market": "Home"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-11-28-2026--sports-ncaa-basketball/production/7883467?wsUser=717",
+    "low": 59.0,
+    "since": "2026-11-24T23:20:56Z"
+   },
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
    "venue_state": "NJ",
@@ -4430,6 +4434,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
     {
      "name": "FloSports",
      "kind": "Streaming",
@@ -5527,7 +5536,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-12-9-2026--sports-ncaa-basketball/production/7627854?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "John M. Belk Arena",
@@ -5707,7 +5716,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-12-2026--sports-ncaa-basketball/production/7608637?wsUser=717",
-    "low": 31.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "M&T Bank Arena",
@@ -5920,7 +5929,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-12-12-2026--sports-ncaa-basketball/production/7290633?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Robins Center",

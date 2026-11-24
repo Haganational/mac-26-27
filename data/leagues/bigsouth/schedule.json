@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:22:48+00:00",
+ "fetched_at": "2026-11-24T23:28:55+00:00",
  "season": 2027,
  "games": [
   {
@@ -2465,8 +2465,8 @@
   {
    "game_id": "401920414",
    "date": "2026-11-25T00:30Z",
-   "name": "High Point Panthers at Duquesne Dukes",
-   "short_name": "HPU VS DUQ",
+   "name": "Duquesne Dukes at High Point Panthers",
+   "short_name": "DUQ VS HPU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2483,18 +2483,18 @@
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2184",
-    "key": null,
-    "name": "Duquesne Dukes",
-    "abbr": "DUQ",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2272",
     "key": "high-point",
     "name": "High Point Panthers",
     "abbr": "HPU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2184",
+    "key": null,
+    "name": "Duquesne Dukes",
+    "abbr": "DUQ",
     "score": null,
     "winner": null
    },
@@ -2521,7 +2521,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-state-seminoles-mens-basketball-tickets-donald-tucker-center-at-leon-county-civic-center-11-24-2026--sports-ncaa-basketball/production/7398121?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Donald L. Tucker Center",
@@ -2566,7 +2566,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-25-2026--sports-ncaa-basketball/production/7627363?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "EagleBank Arena",
@@ -3324,7 +3324,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/high-point-panthers-mens-basketball-tickets-high-point-qubein-center-12-2-2026/production/7099291?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Qubein Center",
@@ -4685,7 +4685,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wake-forest-demon-deacons-mens-basketball-tickets-lawrence-joel-veterans-memorial-coliseum-12-15-2026--sports-ncaa-basketball/production/7260425?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "LJVM Coliseum",
@@ -5084,7 +5084,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-18-2026--sports-ncaa-basketball/production/7349945?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:18:36Z"
    },
    "venue": "Pete Maravich Assembly Center",

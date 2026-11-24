@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:19:05+00:00",
+ "fetched_at": "2026-11-24T23:24:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -2792,11 +2792,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2880,7 +2876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "ExtraMile Arena",
@@ -2899,6 +2895,47 @@
     "key": "idaho-state",
     "name": "Idaho State Bengals",
     "abbr": "IDST",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920547",
+   "date": "2026-11-25T17:30Z",
+   "name": "Northern Colorado Bears at TBD",
+   "short_name": "UNCO VS TBD",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "-1",
+    "key": null,
+    "name": "TBD",
+    "abbr": "TBD",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2458",
+    "key": "northern-colorado",
+    "name": "Northern Colorado Bears",
+    "abbr": "UNCO",
     "score": null,
     "winner": null
    },
@@ -3449,7 +3486,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-28-2026--sports-ncaa-basketball/production/7469240?wsUser=717",
-    "low": 21.0,
+    "low": 19.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Leavey Center",
@@ -3494,7 +3531,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-11-29-2026--sports-ncaa-basketball/production/7699976?wsUser=717",
-    "low": 28.0,
+    "low": 40.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Arena-Auditorium",
@@ -3884,6 +3921,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Rose City Sports Net",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": null,
@@ -9701,6 +9743,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T20:12:38+00:00"
+ ]
 }

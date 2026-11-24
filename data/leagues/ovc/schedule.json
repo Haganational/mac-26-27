@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:23:34+00:00",
+ "fetched_at": "2026-11-24T23:29:47+00:00",
  "season": 2027,
  "games": [
   {
@@ -2572,8 +2572,8 @@
   {
    "game_id": "401929035",
    "date": "2026-11-24T21:00Z",
-   "name": "Lindenwood Lions at New Haven Chargers",
-   "short_name": "LIN VS NHVN",
+   "name": "New Haven Chargers at Lindenwood Lions",
+   "short_name": "NHVN VS LIN",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2590,25 +2590,25 @@
    "venue_city": "Stony Brook",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2441",
-    "key": null,
-    "name": "New Haven Chargers",
-    "abbr": "NHVN",
-    "score": 60,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2815",
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": 63,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:03 - 2nd"
+   "away": {
+    "espn_id": "2441",
+    "key": null,
+    "name": "New Haven Chargers",
+    "abbr": "NHVN",
+    "score": 63,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923395",
@@ -2650,10 +2650,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:55 - 1st"
   },
   {
    "game_id": "401926154",
@@ -2714,7 +2714,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 8.0,
+    "low": 18.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Stony Brook Arena",
@@ -8389,6 +8389,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:55:50+00:00"
+ ]
 }

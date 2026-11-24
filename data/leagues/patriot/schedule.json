@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:25:24+00:00",
+ "fetched_at": "2026-11-24T23:31:48+00:00",
  "season": 2027,
  "games": [
   {
@@ -2657,7 +2657,7 @@
   {
    "game_id": "401921223",
    "date": "2026-11-24T21:30Z",
-   "name": "Penn State Berks Nittany Lions at Navy Midshipmen",
+   "name": "Penn State Berks PENN STATE-LEHIGH VALLEY at Navy Midshipmen",
    "short_name": "PSBK @ NAVY",
    "season_type": "reg",
    "neutral_site": false,
@@ -2675,11 +2675,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-11-24-2026--sports-ncaa-basketball/production/7537664?wsUser=717",
-    "low": 18.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Alumni Hall (Navy)",
    "venue_city": "Annapolis",
    "venue_state": "MD",
@@ -2688,21 +2684,21 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 87,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
    "away": {
-    "espn_id": "131640",
+    "espn_id": "124686",
     "key": null,
-    "name": "Penn State Berks Nittany Lions",
+    "name": "Penn State Berks PENN STATE-LEHIGH VALLEY",
     "abbr": "PSBK",
-    "score": 34,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920358",
@@ -4067,6 +4063,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Spectrum News 1",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4112,6 +4113,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4155,6 +4161,11 @@
    "broadcasts": [
     {
      "name": "YES",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "NEC Front Row",
      "kind": "TV",
      "market": "Home"
     }
@@ -4370,6 +4381,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4554,7 +4570,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-12-7-2026--sports-ncaa-basketball/production/7341587?wsUser=717",
-    "low": 25.0,
+    "low": 21.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
@@ -4681,6 +4697,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4816,6 +4837,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -9319,6 +9345,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:57:39+00:00"
+ ]
 }

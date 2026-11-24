@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:01:14+00:00",
+ "fetched_at": "2026-11-24T23:04:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2732,8 +2732,8 @@
   {
    "game_id": "401921707",
    "date": "2026-11-24T22:30Z",
-   "name": "Wyoming Cowboys at Kent State Golden Flashes",
-   "short_name": "WYO VS KENT",
+   "name": "Kent State Golden Flashes at Wyoming Cowboys",
+   "short_name": "KENT VS WYO",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2750,25 +2750,25 @@
    "venue_city": "Daytona Beach",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2309",
-    "key": "kent-state",
-    "name": "Kent State Golden Flashes",
-    "abbr": "KENT",
-    "score": 3,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2751",
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 0,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2309",
+    "key": "kent-state",
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:19 - 1st"
+   "detail": "7:01 - 1st"
   },
   {
    "game_id": "401920949",
@@ -2806,10 +2806,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:19 - 1st"
   },
   {
    "game_id": "401911027",
@@ -2874,7 +2874,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 7.0,
+    "low": 11.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Purcell Pavilion",
@@ -3789,7 +3789,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-12-5-2026--sports-ncaa-basketball/production/7429721?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -3969,7 +3969,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-12-9-2026--sports-ncaa-basketball/production/7429727?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -9662,6 +9662,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:32:32+00:00"
+ ]
 }

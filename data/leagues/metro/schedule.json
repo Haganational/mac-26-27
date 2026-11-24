@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:05:50+00:00",
+ "fetched_at": "2026-11-24T23:09:22+00:00",
  "season": 2027,
  "games": [
   {
@@ -3244,7 +3244,7 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": 8,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3252,13 +3252,13 @@
     "key": null,
     "name": "Emerson Lions",
     "abbr": "EMRS",
-    "score": 3,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:25 - 1st"
+   "detail": "3:28 - 1st"
   },
   {
    "game_id": "401924877",
@@ -3300,10 +3300,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:26 - 1st"
   },
   {
    "game_id": "401923271",
@@ -4768,6 +4768,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4862,7 +4867,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-6-2026--sports-ncaa-basketball/production/7608631?wsUser=717",
-    "low": 26.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -4993,6 +4998,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -5177,7 +5187,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-12-10-2026--sports-ncaa-basketball/production/7732992?wsUser=717",
-    "low": 20.0,
+    "low": 17.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Lawler Arena",
@@ -5302,7 +5312,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-12-12-2026--sports-ncaa-basketball/production/7603592?wsUser=717",
-    "low": 27.0,
+    "low": 29.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Breslin Center",
@@ -5347,7 +5357,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-12-2026--sports-ncaa-basketball/production/7608637?wsUser=717",
-    "low": 31.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -11369,6 +11379,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T22:37:04+00:00"
+ ]
 }
