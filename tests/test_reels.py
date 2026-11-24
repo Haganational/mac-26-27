@@ -93,3 +93,30 @@ def test_page_token_swaps_a_user_token(monkeypatch):
     assert reels.page_token("1", "user") == "page"
     monkeypatch.setattr(reels.requests, "get", lambda *a, **k: R(False, {"error": {}}))
     assert reels.page_token("1", "page") == "page"
+
+
+def test_bluesky_long_episode_posts_a_link_not_a_video(tmp_path, monkeypatch):
+    mp4 = tmp_path / "bigmid-2026-11-23.mp4"
+    mp4.write_bytes(b"x")
+    monkeypatch.setenv("BSKY_HANDLE", "h")
+    monkeypatch.setenv("BSKY_APP_PASSWORD", "p")
+    monkeypatch.setattr(reels, "bsky_session", lambda h, p: {"did": "d", "accessJwt": "j"})
+    monkeypatch.setattr(reels, "bsky_already", lambda sess, head: False)
+    monkeypatch.setattr(reels, "duration", lambda p: 673.56)
+    monkeypatch.setattr(reels, "bsky_video", lambda *a: (_ for _ in ()).throw(AssertionError("uploaded a long video")))
+    sent = []
+    monkeypatch.setattr(reels, "bsky_text", lambda sess, text: sent.append(text) or "at://x")
+    out = reels.post_one("bluesky", "bigmid", mp4, "")
+    assert "posted link at://x" in out and reels.SHOW_PAGE["bigmid"] in sent[0]
+
+
+def test_bluesky_short_video_still_uploads(tmp_path, monkeypatch):
+    mp4 = tmp_path / "midmaxx60-2026-11-23.mp4"
+    mp4.write_bytes(b"x")
+    monkeypatch.setenv("BSKY_HANDLE", "h")
+    monkeypatch.setenv("BSKY_APP_PASSWORD", "p")
+    monkeypatch.setattr(reels, "bsky_session", lambda h, p: {"did": "d", "accessJwt": "j"})
+    monkeypatch.setattr(reels, "bsky_already", lambda sess, head: False)
+    monkeypatch.setattr(reels, "duration", lambda p: 60.0)
+    monkeypatch.setattr(reels, "bsky_video", lambda *a: "at://v")
+    assert reels.post_one("bluesky", "midmaxx60", mp4, "") == "posted at://v"
