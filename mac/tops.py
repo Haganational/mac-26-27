@@ -40,6 +40,7 @@ from typing import Any, Iterable
 
 from zoneinfo import ZoneInfo
 
+from . import projlog
 from .leagues import ALL, ROOT
 
 ET = ZoneInfo("America/New_York")
@@ -170,22 +171,18 @@ def load_projections(dirs: Iterable[Path], day: str, now: datetime) -> dict[str,
     stamp = now.astimezone(timezone.utc).isoformat(timespec="seconds")
     out: dict[str, dict[str, Any]] = {}
     for d in dirs:
-        f = d / "model" / "projections.jsonl"
-        if not f.exists():
-            continue
-        with f.open() as fh:
-            for line in fh:
-                if not any(k in line for k in keys):
-                    continue
-                try:
-                    r = json.loads(line)
-                except ValueError:
-                    continue
-                if et_day(r["tip"]) != day or r["generated_at"][:19] > stamp[:19]:
-                    continue
-                old = out.get(r["game_id"])
-                if old is None or r["generated_at"] >= old["generated_at"]:
-                    out[r["game_id"]] = r
+        for line in projlog.lines(d / "model"):
+            if not any(k in line for k in keys):
+                continue
+            try:
+                r = json.loads(line)
+            except ValueError:
+                continue
+            if et_day(r["tip"]) != day or r["generated_at"][:19] > stamp[:19]:
+                continue
+            old = out.get(r["game_id"])
+            if old is None or r["generated_at"] >= old["generated_at"]:
+                out[r["game_id"]] = r
     return out
 
 
