@@ -27,9 +27,9 @@ Cody Lindqvist sold insurance in Spokane for fifteen years and moved to Cheney a
 
 ## Barometer
 
-**51 of 100, steady.** Record 2-3 (0-0 in conference), streak W2, last five LLLWW.
+**42 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cody editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cody editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Cody Lindqvist sold insurance in Spokane for fifteen years and moved to Cheney a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -84,3 +84,5 @@ Cody Lindqvist sold insurance in Spokane for fifteen years and moved to Cheney a
 - 2026-11-18: W 71-67 at Utah Utes. Barometer 51 (steady). <!-- g:401920720 -->
 - 2026-11-18: Social recap posted (W 71-67 vs Utah Utes): https://hardwoodbricks.com/bigsky/games/401920720.html <!-- post:401920720:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401920721.html <!-- post:401920721:preview -->
+- 2026-11-24: L 61-82 at UNLV Rebels. Barometer 42 (testy). <!-- g:401920721 -->
+- 2026-11-24: Social recap posted (L 61-82 vs UNLV Rebels): https://hardwoodbricks.com/mw/games/401920721.html <!-- post:401920721:recap -->
