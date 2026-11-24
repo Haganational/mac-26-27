@@ -27,9 +27,9 @@ Kiki Takahashi grew up in Normal skating figures at the town rink before school 
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
+**52 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kiki editorializes: 61% of stories right now.
 
 ## School and town
 

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:09:57+00:00",
+ "fetched_at": "2026-11-24T12:08:13+00:00",
  "season": 2027,
  "games": [
   {
@@ -3573,11 +3573,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/la-salle-explorers-mens-basketball-tickets-john-glaser-arena-11-23-2026--sports-ncaa-basketball/production/7627941?wsUser=717",
-    "low": 23.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "John Glaser Arena",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -3618,11 +3614,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/maui-invitational-booster-passes-tickets-lahaina-civic-center-11-23-2026--sports-ncaa-basketball/production/6664369?wsUser=717",
-    "low": 1022.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Lahaina Civic Center",
    "venue_city": "Maui",
    "venue_state": "HI",
@@ -3801,6 +3793,47 @@
     "key": null,
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921712",
+   "date": "2026-11-25T03:30Z",
+   "name": "VCU Rams at Colorado State Rams",
+   "short_name": "VCU VS CSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPNU",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Lahaina Civic Center",
+   "venue_city": "Maui",
+   "venue_state": "HI",
+   "home": {
+    "espn_id": "36",
+    "key": null,
+    "name": "Colorado State Rams",
+    "abbr": "CSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2670",
+    "key": "vcu",
+    "name": "VCU Rams",
+    "abbr": "VCU",
     "score": null,
     "winner": null
    },
@@ -4489,7 +4522,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 31.0,
+    "low": 24.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Mullins Center",
@@ -5249,7 +5282,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-5-2026--sports-ncaa-basketball/production/7462743?wsUser=717",
-    "low": 46.0,
+    "low": 45.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -6310,7 +6343,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-12-2026--sports-ncaa-basketball/production/7092333?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -8487,7 +8520,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-10-7-2026--sports-ncaa-basketball/production/7188142?wsUser=717",
-    "low": 45.0,
+    "low": 47.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Siegel Center",
@@ -8643,7 +8676,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-10-6-2026--sports-ncaa-basketball/production/7187960?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -8760,7 +8793,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-10-9-2026--sports-ncaa-basketball/production/7188074?wsUser=717",
-    "low": 19.0,
+    "low": 15.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Robins Center",
@@ -8916,7 +8949,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-9-2026--sports-ncaa-basketball/production/7187984?wsUser=717",
-    "low": 32.0,
+    "low": 31.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -9111,7 +9144,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-10-8-2026--sports-ncaa-basketball/production/7188036?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -9189,7 +9222,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-10-3-2026--sports-ncaa-basketball/production/7187954?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -10936,7 +10969,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-10-5-2026--sports-ncaa-basketball/production/7188012?wsUser=717",
-    "low": 46.0,
+    "low": 71.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",
@@ -12726,7 +12759,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-7-2026--sports-ncaa-basketball/production/7188106?wsUser=717",
-    "low": 22.0,
+    "low": 23.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -12870,6 +12903,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T04:42:29+00:00"
+ ]
 }

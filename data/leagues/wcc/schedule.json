@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:12:27+00:00",
+ "fetched_at": "2026-11-24T12:10:08+00:00",
  "season": 2027,
  "games": [
   {
@@ -2659,11 +2659,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2691,8 +2687,8 @@
   {
    "game_id": "401917543",
    "date": "2026-11-24T00:00Z",
-   "name": "Illinois State Redbirds at Santa Clara Broncos",
-   "short_name": "ILST VS SCU",
+   "name": "Santa Clara Broncos at Illinois State Redbirds",
+   "short_name": "SCU VS ILST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2704,27 +2700,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2541",
-    "key": "santa-clara",
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "score": 99,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2287",
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
+    "score": 99,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2541",
+    "key": "santa-clara",
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
     "score": 102,
     "winner": true
    },
@@ -2749,11 +2741,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Allen Fieldhouse",
    "venue_city": "Lawrence",
    "venue_state": "KS",
@@ -2794,11 +2782,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 28.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Firestone Fieldhouse",
    "venue_city": "Malibu",
    "venue_state": "CA",
@@ -3097,7 +3081,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 42.0,
+    "low": 45.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3429,7 +3413,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-28-2026--sports-ncaa-basketball/production/7469240?wsUser=717",
-    "low": 18.0,
+    "low": 21.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -7082,7 +7066,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-1-12-2027--sports-ncaa-basketball/production/7519479?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -8482,7 +8466,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/seattle-university-redhawks-mens-basketball-tickets-seattle-university-redhawk-center-2-6-2027--sports-ncaa-basketball/production/7682930?wsUser=717",
-    "low": 49.0,
+    "low": 209.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Redhawk Center",
@@ -9671,6 +9655,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T04:44:44+00:00"
+ ]
 }

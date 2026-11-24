@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:08:45+00:00",
+ "fetched_at": "2026-11-24T12:07:20+00:00",
  "season": 2027,
  "games": [
   {
@@ -2918,8 +2918,8 @@
   {
    "game_id": "401917543",
    "date": "2026-11-24T00:00Z",
-   "name": "Illinois State Redbirds at Santa Clara Broncos",
-   "short_name": "ILST VS SCU",
+   "name": "Santa Clara Broncos at Illinois State Redbirds",
+   "short_name": "SCU VS ILST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2931,27 +2931,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:06:45Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2541",
-    "key": null,
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "score": 99,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2287",
     "key": "illinois-state",
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
+    "score": 99,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2541",
+    "key": null,
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
     "score": 102,
     "winner": true
    },
@@ -3099,7 +3095,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-24-2026--sports-ncaa-basketball/production/7349915?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Mizzou Arena",
@@ -3791,7 +3787,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-1-2026--sports-ncaa-basketball/production/7109832?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -4053,7 +4049,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-texas-mean-green-mens-basketball-tickets-super-pit-at-unt-coliseum-12-4-2026--sports-ncaa-basketball/production/7589646?wsUser=717",
-    "low": 14.0,
+    "low": 11.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "The Super Pit",
@@ -9717,6 +9713,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T02:42:40+00:00"
+ ]
 }

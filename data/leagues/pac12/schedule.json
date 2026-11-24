@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:11:33+00:00",
+ "fetched_at": "2026-11-24T12:09:27+00:00",
  "season": 2027,
  "games": [
   {
@@ -2012,7 +2012,7 @@
   },
   {
    "game_id": "401909743",
-   "date": "2026-11-24T04:30Z",
+   "date": "2026-11-24T04:55Z",
    "name": "Colorado State Rams at Arizona Wildcats",
    "short_name": "CSU VS ARIZ",
    "season_type": "reg",
@@ -2026,11 +2026,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/maui-invitational-booster-passes-tickets-lahaina-civic-center-11-23-2026--sports-ncaa-basketball/production/6664269?wsUser=717",
-    "low": 1738.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Lahaina Civic Center",
    "venue_city": "Maui",
    "venue_state": "HI",
@@ -2118,7 +2114,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-11-24-2026--sports-ncaa-basketball/production/7280558?wsUser=717",
-    "low": 110.0,
+    "low": 117.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Michelob ULTRA Arena",
@@ -2163,7 +2159,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",
@@ -2236,6 +2232,47 @@
    "detail": ""
   },
   {
+   "game_id": "401921712",
+   "date": "2026-11-25T03:30Z",
+   "name": "VCU Rams at Colorado State Rams",
+   "short_name": "VCU VS CSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPNU",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Lahaina Civic Center",
+   "venue_city": "Maui",
+   "venue_state": "HI",
+   "home": {
+    "espn_id": "36",
+    "key": "colorado-state",
+    "name": "Colorado State Rams",
+    "abbr": "CSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2670",
+    "key": null,
+    "name": "VCU Rams",
+    "abbr": "VCU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401909800",
    "date": "2026-11-25T05:30Z",
    "name": "Gonzaga Bulldogs at Kansas State Wildcats",
@@ -2253,7 +2290,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/the-players-era-festival-tickets-t-mobile-arena-11-24-2026--sports-ncaa-basketball/production/7288695?wsUser=717",
-    "low": 57.0,
+    "low": 47.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "T-Mobile Arena",
@@ -3683,7 +3720,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-9-2026--sports-ncaa-basketball/production/6994980?wsUser=717",
-    "low": 115.0,
+    "low": 126.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Marriott Center",
@@ -5696,7 +5733,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fresno-state-bulldogs-mens-basketball-tickets-save-mart-center-1-13-2027--sports-ncaa-basketball/production/7631498?wsUser=717",
-    "low": 35.0,
+    "low": 34.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Save Mart Center",
@@ -5735,7 +5772,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-1-14-2027--sports-ncaa-basketball/production/7633896?wsUser=717",
-    "low": 26.0,
+    "low": 39.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Strahan Arena at the University Events Center",
@@ -5774,7 +5811,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-state-aztecs-mens-basketball-tickets-viejas-arena-1-14-2027--sports-ncaa-basketball/production/7631877?wsUser=717",
-    "low": 24.0,
+    "low": 23.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Viejas Arena",
@@ -6004,7 +6041,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-state-aztecs-mens-basketball-tickets-viejas-arena-1-20-2027--sports-ncaa-basketball/production/7631879?wsUser=717",
-    "low": 25.0,
+    "low": 24.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Viejas Arena",
@@ -7240,7 +7277,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/utah-state-aggies-mens-basketball-tickets-dee-glen-smith-spectrum-2-17-2027--sports-ncaa-basketball/production/7633961?wsUser=717",
-    "low": 132.0,
+    "low": 139.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Dee Glen Smith Spectrum",
@@ -8191,6 +8228,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T07:08:56+00:00"
+ ]
 }

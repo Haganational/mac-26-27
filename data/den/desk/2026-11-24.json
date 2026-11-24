@@ -2,29 +2,29 @@
  "date": "2026-11-24",
  "desk": {
   "anchor": {
-   "alt": "Hector Villalobos, the UTEP AI anchor",
-   "color": "#FF8200",
-   "color2": "#041E42",
-   "initials": "HV",
-   "ink": "#111111",
-   "key": "utep",
-   "name": "Hector Villalobos",
-   "portrait": "den/anchors/utep.webp",
-   "school": "UTEP",
+   "alt": "Lord Percival Finch, the Evansville AI anchor",
+   "color": "#4E2A84",
+   "color2": "#F68B1F",
+   "initials": "LP",
+   "ink": "#ffffff",
+   "key": "evansville",
+   "name": "Lord Percival Finch",
+   "portrait": "den/anchors/evansville.webp",
+   "school": "Evansville",
    "tag": "AI anchor"
   },
-  "max": 209,
+  "max": 252,
   "picks": [
    {
-    "abbr": "UTEP",
-    "game_id": "401911535",
+    "abbr": "EVAN",
+    "game_id": "401921817",
     "kind": "homer",
-    "short": "UTEP",
-    "side": "home",
-    "team_id": "2638",
-    "tip": "2026-11-25T01:30Z",
+    "short": "Evansville",
+    "side": "away",
+    "team_id": "339",
+    "tip": "2026-11-25T02:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 55
+    "worth": 98
    },
    {
     "abbr": "SLU",
@@ -34,19 +34,8 @@
     "side": "home",
     "team_id": "139",
     "tip": "2026-11-25T02:30Z",
-    "why": "Our ratings 74%, pregame win chance 47%.",
+    "why": "Our ratings 73%, pregame win chance 47%.",
     "worth": 53
-   },
-   {
-    "abbr": "LAM",
-    "game_id": "401925014",
-    "kind": "ratings",
-    "short": "Lamar",
-    "side": "home",
-    "team_id": "2320",
-    "tip": "2026-11-24T23:30Z",
-    "why": "Our ratings 83%, pregame win chance 63%.",
-    "worth": 37
    },
    {
     "abbr": "SHSU",
@@ -56,8 +45,19 @@
     "side": "away",
     "team_id": "2534",
     "tip": "2026-11-25T02:00Z",
-    "why": "Our ratings 55%, pregame win chance 36%.",
+    "why": "Our ratings 57%, pregame win chance 36%.",
     "worth": 64
+   },
+   {
+    "abbr": "LAM",
+    "game_id": "401925014",
+    "kind": "ratings",
+    "short": "Lamar",
+    "side": "home",
+    "team_id": "2320",
+    "tip": "2026-11-24T23:30Z",
+    "why": "Our ratings 84%, pregame win chance 63%.",
+    "worth": 37
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -241,7 +241,7 @@
    "team_id": "2174",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 64
   },
   {
    "abbr": "UND",
@@ -901,7 +901,7 @@
    "team_id": "2368",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 35
+   "worth": 36
   },
   {
    "abbr": "BRY",
@@ -913,7 +913,7 @@
    "team_id": "2803",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 65
+   "worth": 64
   },
   {
    "abbr": "WEB",
@@ -1129,7 +1129,7 @@
    "team_id": "288",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 96
+   "worth": 97
   },
   {
    "abbr": "KC",
@@ -1165,7 +1165,7 @@
    "team_id": "219",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 30
+   "worth": 31
   },
   {
    "abbr": "DREX",
@@ -1177,7 +1177,7 @@
    "team_id": "2182",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 70
+   "worth": 69
   },
   {
    "abbr": "COR",
@@ -1418,6 +1418,30 @@
    "tip": "2026-11-25T02:30Z",
    "why": "Homer pick.",
    "worth": 47
+  },
+  {
+   "abbr": "CSU",
+   "game_id": "401921712",
+   "key": "colorado-state",
+   "kind": "homer",
+   "short": "Colorado St",
+   "side": "home",
+   "team_id": "36",
+   "tip": "2026-11-25T03:30Z",
+   "why": "Homer pick.",
+   "worth": 66
+  },
+  {
+   "abbr": "VCU",
+   "game_id": "401921712",
+   "key": "vcu",
+   "kind": "homer",
+   "short": "VCU",
+   "side": "away",
+   "team_id": "2670",
+   "tip": "2026-11-25T03:30Z",
+   "why": "Homer pick.",
+   "worth": 34
   }
  ]
 }

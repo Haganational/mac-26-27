@@ -27,9 +27,9 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 
 ## Barometer
 
-**54 of 100, steady.** Record 5-2 (0-0 in conference), streak L2, last five WWWLL.
+**65 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grant editorializes: 69% of stories right now.
 
 ## School and town
 

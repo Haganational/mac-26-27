@@ -73,7 +73,7 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/pac12/games/401909743.html <!-- post:401909743:preview -->
 - 2026-11-24: L 83-96 vs (neutral) Arizona Wildcats. Barometer 52 (steady). <!-- g:401909743 -->
 - 2026-11-24: Social recap posted (L 83-96 vs Arizona Wildcats): https://hardwoodbricks.com/pac12/games/401909743.html <!-- post:401909743:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:preview -->

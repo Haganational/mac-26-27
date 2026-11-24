@@ -68,7 +68,7 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:preview -->
 - 2026-11-24: L 66-72 vs (neutral) Providence Friars. Barometer 55 (steady). <!-- g:401909536 -->
 - 2026-11-24: Social recap posted (L 66-72 vs Providence Friars): https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:preview -->
