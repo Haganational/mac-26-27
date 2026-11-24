@@ -2,7 +2,8 @@
 
 Writes, under data/model/:
 - ratings.json        every D-I team's current ratings (and the preseason prior)
-- projections.jsonl   append-only: our number for each upcoming MAC game at each run,
+- projections/<day>.jsonl  append-only, one file per UTC day (see projlog.py; the old
+                      projections.jsonl is a frozen archive): our number for each upcoming MAC game at each run,
                       next to the market number at that moment. This is the record the
                       line-timing study needs (does the market move toward the model?).
 - mac_history.jsonl   one row per MAC team per day: how its ratings evolve.
@@ -17,7 +18,7 @@ from datetime import datetime, timedelta, timezone
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from . import analysis, backtest, ncaa, power
+from . import analysis, backtest, ncaa, power, projlog
 from . import ratings as R
 from .config import BY_ESPN_ID, DATA_DIR, SEASON, TEAMS
 from .espn import load_schedule
@@ -25,7 +26,7 @@ from .odds import load_all_rows
 
 MODEL_DIR = DATA_DIR / "model"
 RATINGS_PATH = MODEL_DIR / "ratings.json"
-PROJ_LOG = MODEL_DIR / "projections.jsonl"
+PROJ_LOG = MODEL_DIR / "projections.jsonl"  # frozen archive; new rows go to model/projections/<day>.jsonl (projlog.py)
 MAC_HISTORY = MODEL_DIR / "mac_history.jsonl"
 
 PARAMS = R.Params()
@@ -192,7 +193,7 @@ def _append_jsonl(path, rows: list[dict[str, Any]]) -> None:
 def log_run(now: datetime, upcoming: list[dict[str, Any]], mac: list[dict[str, Any]]) -> None:
     """Append this run's numbers; one ratings row per MAC team per day."""
     stamp = now.isoformat(timespec="seconds")
-    _append_jsonl(PROJ_LOG, [{
+    projlog.append(MODEL_DIR, [{
         "generated_at": stamp, "model_version": MODEL_VERSION, "game_id": u["game_id"], "tip": u["date"],
         "home_key": u["home"].get("key"), "away_key": u["away"].get("key"),
         "home_espn_id": u["home"]["espn_id"], "away_espn_id": u["away"]["espn_id"],
@@ -202,7 +203,7 @@ def log_run(now: datetime, upcoming: list[dict[str, Any]], mac: list[dict[str, A
         "model_spread": u["model"]["spread"], "model_total": u["model"]["total"],
         "mkt_spread": (u["market"] or {}).get("spread"), "mkt_total": (u["market"] or {}).get("total"),
         "mkt_captured_at": (u["market"] or {}).get("captured_at"),
-    } for u in upcoming])
+    } for u in upcoming], now)
     day = now.date().isoformat()
     seen = set()
     if MAC_HISTORY.exists():

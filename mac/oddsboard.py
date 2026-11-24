@@ -26,9 +26,11 @@ from statistics import median
 from typing import Any
 
 from .analysis import parse_iso
+from . import projlog
 from .config import DATA_DIR, SHARED_DIR
 
-MODEL_PATH = DATA_DIR / "model" / "projections.jsonl"
+MODEL_DIR = DATA_DIR / "model"
+MODEL_PATH = MODEL_DIR / "projections.jsonl"  # frozen archive; new rows are in model/projections/<day>.jsonl
 RUNS_PATH = SHARED_DIR / "odds_runs.jsonl"
 # Monthly request allowance on the Odds API plan. Set to the plan's number when it changes.
 MONTHLY_REQUESTS = 20000
@@ -354,22 +356,23 @@ def build_events(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
 # ---------------------------------------------------------------- model
 
 
-def load_projections(path: Path = MODEL_PATH) -> dict[str, dict[str, Any]]:
-    """Latest projection per ESPN game id. Missing file means no model yet."""
+def load_projections(path: Path = MODEL_DIR) -> dict[str, dict[str, Any]]:
+    """Latest projection per ESPN game id. `path` is a model dir (archive plus daily files)
+    or a single .jsonl file. Nothing there means no model yet."""
     out: dict[str, dict[str, Any]] = {}
-    if not path.exists():
+    if path.is_dir():
+        rows = projlog.lines(path)
+    elif path.is_file():
+        rows = (l.strip() for l in path.open() if l.strip())
+    else:
         return out
-    with path.open() as fh:
-        for line in fh:
-            line = line.strip()
-            if not line:
-                continue
-            p = json.loads(line)
-            gid = str(p.get("game_id") or "")
-            if not gid:
-                continue
-            if gid not in out or str(p.get("generated_at", "")) >= str(out[gid].get("generated_at", "")):
-                out[gid] = p
+    for line in rows:
+        p = json.loads(line)
+        gid = str(p.get("game_id") or "")
+        if not gid:
+            continue
+        if gid not in out or str(p.get("generated_at", "")) >= str(out[gid].get("generated_at", "")):
+            out[gid] = p
     return out
 
 
