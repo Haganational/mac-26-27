@@ -2701,7 +2701,7 @@
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2709,13 +2709,13 @@
     "key": null,
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:03 - 1st"
   },
   {
    "game_id": "401926184",
@@ -10224,5 +10224,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T21:05:37+00:00"
 }

@@ -2080,21 +2080,21 @@
     "key": "oregon-state",
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": 77,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2539",
     "key": null,
     "name": "San Francisco Dons",
     "abbr": "SF",
-    "score": 61,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:20 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909775",
@@ -8277,5 +8277,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T20:37:29+00:00"
+ "live_at": "2026-11-24T21:08:32+00:00"
 }

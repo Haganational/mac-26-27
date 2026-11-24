@@ -2594,7 +2594,7 @@
     "key": null,
     "name": "New Haven Chargers",
     "abbr": "NHVN",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2602,13 +2602,13 @@
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:16 - 1st"
   },
   {
    "game_id": "401923395",
@@ -8389,5 +8389,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T21:19:17+00:00"
 }
