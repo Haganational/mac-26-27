@@ -1,0 +1,46 @@
+name: Doc media fetch
+
+# Downloads free-license photos listed in docs/<doc>/fetch.json ([key, url, credit]) into
+# docs/<doc>/media/ and commits them back to the same branch. Nothing is published.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["docs/*/fetch.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          for f in docs/*/fetch.json; do
+            d=$(dirname "$f"); mkdir -p "$d/media"
+            python3 - "$f" "$d/media" <<'PY'
+          import json, sys, os, subprocess, time
+          lst, out = sys.argv[1], sys.argv[2]
+          for key, url, credit in json.load(open(lst)):
+              ext = os.path.splitext(url.split('?')[0])[1].lower() or '.jpg'
+              p = f"{out}/{key}{ext}"
+              if os.path.exists(p):
+                  continue
+              for i in range(4):
+                  r = subprocess.run(["curl", "-sfL", "-A", "HardwoodBricksDocs/1.0 (https://hardwoodbricks.com)", "-o", p, url])
+                  if r.returncode == 0 and os.path.getsize(p) > 5000:
+                      print("ok", key); break
+                  time.sleep(5 * (i + 1))
+              else:
+                  print("FAILED", key, url)
+                  if os.path.exists(p): os.remove(p)
+          PY
+          done
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add docs/*/media || true
+          git diff --cached --quiet || git commit -m "Doc media fetch [skip ci]"
+          git push
