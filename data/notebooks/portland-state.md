@@ -72,7 +72,7 @@ Juniper Tran rode the streetcar to every Vikings home game as a student and neve
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,4 @@ Juniper Tran rode the streetcar to every Vikings home game as a student and neve
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920159.html <!-- post:401920159:preview -->
 - 2026-11-22: L 75-92 vs Cal State Fullerton Titans. Barometer 44 (testy). <!-- g:401920159 -->
 - 2026-11-23: Social recap posted (L 75-92 vs Cal State Fullerton Titans): https://hardwoodbricks.com/bigwest/games/401920159.html <!-- post:401920159:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401925917.html <!-- post:401925917:preview -->
