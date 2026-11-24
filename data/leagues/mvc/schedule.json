@@ -2944,7 +2944,7 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2952,13 +2952,13 @@
     "key": "illinois-state",
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:28 - 1st"
   },
   {
    "game_id": "401928835",
@@ -9717,5 +9717,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T00:31:22+00:00"
 }

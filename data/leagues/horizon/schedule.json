@@ -3202,7 +3202,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": 21,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -3210,13 +3210,13 @@
     "key": null,
     "name": "Maryland Eastern Shore Hawks",
     "abbr": "UMES",
-    "score": 17,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:55 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921029",
@@ -3252,7 +3252,7 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 3,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -3260,13 +3260,13 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 5,
+    "score": 23,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:58 - 1st"
+   "detail": "7:50 - 1st"
   },
   {
    "game_id": "401927398",
@@ -10571,5 +10571,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:05:51+00:00"
+ "live_at": "2026-11-24T00:28:57+00:00"
 }

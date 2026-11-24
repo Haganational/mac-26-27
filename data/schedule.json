@@ -2600,7 +2600,7 @@
     "key": "buffalo",
     "name": "Buffalo Bulls",
     "abbr": "BUF",
-    "score": 35,
+    "score": 48,
     "winner": null
    },
    "away": {
@@ -2608,13 +2608,13 @@
     "key": null,
     "name": "RIT Tigers",
     "abbr": "RIT",
-    "score": 12,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:09 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928838",
@@ -2645,7 +2645,7 @@
     "key": "ball-state",
     "name": "Ball State Cardinals",
     "abbr": "BALL",
-    "score": 0,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2653,13 +2653,13 @@
     "key": null,
     "name": "Spalding Pelicans",
     "abbr": "SPLD",
-    "score": 0,
+    "score": 2,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:58 - 1st"
+   "detail": "9:20 - 1st"
   },
   {
    "game_id": "401928791",
@@ -9665,5 +9665,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:04:11+00:00"
+ "live_at": "2026-11-24T00:27:44+00:00"
 }

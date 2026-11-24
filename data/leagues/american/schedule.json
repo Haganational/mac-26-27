@@ -3178,7 +3178,7 @@
     "key": null,
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
-    "score": 33,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -3186,13 +3186,13 @@
     "key": "temple",
     "name": "Temple Owls",
     "abbr": "TEM",
-    "score": 31,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:55 - 2nd"
   },
   {
    "game_id": "401919032",
@@ -3223,7 +3223,7 @@
     "key": "wichita-state",
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -3231,13 +3231,13 @@
     "key": null,
     "name": "Texas A&M-Corpus Christi Islanders",
     "abbr": "AMCC",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:05 - 1st"
   },
   {
    "game_id": "401928859",
@@ -12261,5 +12261,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T00:12:32+00:00"
+ "live_at": "2026-11-24T00:33:48+00:00"
 }
