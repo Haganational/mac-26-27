@@ -2473,7 +2473,7 @@
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2481,13 +2481,13 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:30 - 1st"
   },
   {
    "game_id": "401919785",
@@ -2518,7 +2518,7 @@
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2526,13 +2526,13 @@
     "key": null,
     "name": "Mansfield Mountaineers",
     "abbr": "MNFD",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:38 - 1st"
   },
   {
    "game_id": "401919850",
@@ -8379,5 +8379,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T00:23:12+00:00"
 }

@@ -2877,7 +2877,7 @@
     "key": "etsu",
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -2885,13 +2885,13 @@
     "key": null,
     "name": "Kentucky State Thorobreds",
     "abbr": "KYSU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:25 - 1st"
   },
   {
    "game_id": "401926183",
@@ -9895,5 +9895,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T00:16:47+00:00"
 }

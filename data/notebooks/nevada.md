@@ -27,9 +27,9 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-2 (0-0 in conference), streak W1, last five WWLLW.
+**61 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Megan editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 - 2026-11-19: Social recap posted (W 91-74 vs Idaho Vandals): https://hardwoodbricks.com/mw/games/401911456.html <!-- post:401911456:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911458.html <!-- post:401911458:preview -->
+- 2026-11-23: W 71-62 vs (neutral) San Francisco Dons. Barometer 61 (steady). <!-- g:401911457 -->
+- 2026-11-24: Social recap posted (W 71-62 vs San Francisco Dons): https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:recap -->
