@@ -2157,7 +2157,7 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2165,13 +2165,13 @@
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:15 - 1st"
   },
   {
    "game_id": "401920358",
@@ -7253,5 +7253,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T20:10:04+00:00"
 }

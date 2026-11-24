@@ -2596,21 +2596,21 @@
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 71,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "253",
     "key": null,
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": 63,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920949",
@@ -9083,5 +9083,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T19:43:53+00:00"
+ "live_at": "2026-11-24T20:11:21+00:00"
 }
