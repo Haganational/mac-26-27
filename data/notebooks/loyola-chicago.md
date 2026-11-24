@@ -27,9 +27,9 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 
 ## Barometer
 
-**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
+**50 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -86,3 +86,5 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 - 2026-11-23: L 63-72 vs (neutral) San José State Spartans. Barometer 46 (steady). <!-- g:401911233 -->
 - 2026-11-23: Social recap posted (L 63-72 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401911233.html <!-- post:401911233:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:preview -->
+- 2026-11-24: L 63-76 vs (neutral) Seattle U Redhawks. Barometer 50 (steady). <!-- g:401921663 -->
+- 2026-11-24: Social recap posted (L 63-76 vs Seattle U Redhawks): https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:recap -->
