@@ -2672,21 +2672,21 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "195",
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:39 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928835",
@@ -2713,7 +2713,7 @@
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2721,13 +2721,13 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:30 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921707",
@@ -9662,5 +9662,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T18:31:30+00:00"
 }

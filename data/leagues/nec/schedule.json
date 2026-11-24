@@ -2555,7 +2555,7 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": null,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -2563,13 +2563,13 @@
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:54 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401929035",
@@ -8413,5 +8413,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T18:54:55+00:00"
 }

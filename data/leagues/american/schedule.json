@@ -3260,7 +3260,7 @@
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -3268,13 +3268,13 @@
     "key": null,
     "name": "UIC Flames",
     "abbr": "UIC",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:15 - 1st"
   },
   {
    "game_id": "401921666",
@@ -12274,5 +12274,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T18:41:48+00:00"
 }
