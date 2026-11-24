@@ -35,6 +35,7 @@ API = "https://api.elevenlabs.io/v1/text-to-dialogue"
 EPISODES = POD_DIR / "episodes.json"  # what has been posted, newest last; the page and the feed both read this
 FEED_PATH = "podcast/feed.xml"  # the RSS feed every podcast app reads (live Nov 23 2026)
 FEED_LIVE = True
+SPOTIFY = "https://open.spotify.com/show/6BaVf8OcQ7o9DolUwjXzFG"  # the show on Spotify, fed by the feed above
 SHOW = {
     "title": "Tops and Bottoms: The Lock Call",
     "author": "Hardwood Bricks",
@@ -94,7 +95,8 @@ def episodes() -> list[dict[str, Any]]:
 def page_context() -> dict[str, Any]:
     """For tops.html: the newest episode and where the feed will live."""
     eps = episodes()
-    return {"lockcall": eps[0] if eps else None, "lockcall_feed": FEED_PATH if FEED_LIVE else None}
+    return {"lockcall": eps[0] if eps else None, "lockcall_feed": FEED_PATH if FEED_LIVE else None,
+            "lockcall_spotify": SPOTIFY}
 
 
 def feed_xml(base: str) -> str:
