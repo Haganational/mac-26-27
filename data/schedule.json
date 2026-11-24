@@ -2672,7 +2672,7 @@
     "key": null,
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2680,13 +2680,13 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401928835",
@@ -9656,5 +9656,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T17:01:17+00:00"
 }
