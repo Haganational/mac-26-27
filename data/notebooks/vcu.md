@@ -27,9 +27,9 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 3-1 (0-0 in conference), streak W2, last five WLWW.
+**55 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Diamond editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Diamond editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,5 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 - 2026-11-20: W 83-77 at Santa Clara Broncos. Barometer 65 (buoyant). <!-- g:401917536 -->
 - 2026-11-20: Social recap posted (W 83-77 vs Santa Clara Broncos): https://hardwoodbricks.com/a10/games/401917536.html <!-- post:401917536:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:preview -->
+- 2026-11-24: L 66-72 vs (neutral) Providence Friars. Barometer 55 (steady). <!-- g:401909536 -->
+- 2026-11-24: Social recap posted (L 66-72 vs Providence Friars): https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:recap -->

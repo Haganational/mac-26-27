@@ -27,9 +27,9 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 
 ## Barometer
 
-**67 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W2, last five WWLWW.
+**72 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hollis editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Hollis Pruett taught Texas history at the junior high in Nacogdoches for thirty 
 - 2026-11-22: W 72-70 vs (neutral) Temple Owls. Barometer 67 (buoyant). <!-- g:401921205 -->
 - 2026-11-23: Social recap posted (W 72-70 vs Temple Owls): https://hardwoodbricks.com/american/games/401921205.html <!-- post:401921205:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401921208.html <!-- post:401921208:preview -->
+- 2026-11-24: W 77-72 vs (neutral) Utah Valley Wolverines. Barometer 72 (buoyant). <!-- g:401921208 -->
+- 2026-11-24: Social recap posted (W 77-72 vs Utah Valley Wolverines): https://hardwoodbricks.com/bigwest/games/401921208.html <!-- post:401921208:recap -->

@@ -2922,21 +2922,21 @@
     "key": null,
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": 36,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2430",
     "key": "unc-greensboro",
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": 28,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923262",
@@ -9896,5 +9896,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T03:22:18+00:00"
+ "live_at": "2026-11-24T04:51:08+00:00"
 }

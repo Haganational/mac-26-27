@@ -27,9 +27,9 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 
 ## Barometer
 
-**67 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
+**53 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,5 @@ Desmond Hale is a data analyst at Cone Health who tracks deflections in a spread
 - 2026-11-21: Social recap posted (W 85-66 vs South Carolina Upstate Spartans): https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:preview -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:preview -->
+- 2026-11-24: L 62-89 at Pepperdine Waves. Barometer 53 (steady). <!-- g:401926183 -->
+- 2026-11-24: Social recap posted (L 62-89 vs Pepperdine Waves): https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:recap -->
