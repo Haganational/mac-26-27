@@ -38,17 +38,6 @@
     "worth": 54
    },
    {
-    "abbr": "MRST",
-    "game_id": "401923271",
-    "kind": "ratings",
-    "short": "Marist",
-    "side": "home",
-    "team_id": "2368",
-    "tip": "2026-11-25T00:00Z",
-    "why": "Our ratings 80%, pregame win chance 55%.",
-    "worth": 45
-   },
-   {
     "abbr": "LAM",
     "game_id": "401925014",
     "kind": "ratings",
@@ -56,8 +45,19 @@
     "side": "home",
     "team_id": "2320",
     "tip": "2026-11-24T23:30Z",
-    "why": "Our ratings 84%, pregame win chance 58%.",
-    "worth": 42
+    "why": "Our ratings 84%, pregame win chance 57%.",
+    "worth": 43
+   },
+   {
+    "abbr": "MRST",
+    "game_id": "401923271",
+    "kind": "ratings",
+    "short": "Marist",
+    "side": "home",
+    "team_id": "2368",
+    "tip": "2026-11-25T00:00Z",
+    "why": "Our ratings 80%, pregame win chance 56%.",
+    "worth": 44
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -265,7 +265,7 @@
    "team_id": "43",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 49
   },
   {
    "abbr": "APP",
@@ -277,7 +277,7 @@
    "team_id": "2026",
    "tip": "2026-11-24T20:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 52
   },
   {
    "abbr": "ARST",
@@ -469,7 +469,7 @@
    "team_id": "88",
    "tip": "2026-11-24T23:00Z",
    "why": "Homer pick.",
-   "worth": 66
+   "worth": 67
   },
   {
    "abbr": "SHU",
@@ -517,7 +517,7 @@
    "team_id": "2320",
    "tip": "2026-11-24T23:30Z",
    "why": "Homer pick.",
-   "worth": 42
+   "worth": 43
   },
   {
    "abbr": "RMU",
@@ -529,7 +529,7 @@
    "team_id": "2523",
    "tip": "2026-11-24T23:30Z",
    "why": "Homer pick.",
-   "worth": 58
+   "worth": 57
   },
   {
    "abbr": "MILW",
@@ -613,7 +613,7 @@
    "team_id": "2127",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 88
+   "worth": 87
   },
   {
    "abbr": "SCU",
@@ -841,7 +841,7 @@
    "team_id": "290",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 44
   },
   {
    "abbr": "BELL",
@@ -853,7 +853,7 @@
    "team_id": "91",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 54
+   "worth": 56
   },
   {
    "abbr": "L-MD",
@@ -889,7 +889,7 @@
    "team_id": "2154",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 99
+   "worth": 98
   },
   {
    "abbr": "MRST",
@@ -901,7 +901,7 @@
    "team_id": "2368",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 45
+   "worth": 44
   },
   {
    "abbr": "BRY",
@@ -913,7 +913,7 @@
    "team_id": "2803",
    "tip": "2026-11-25T00:00Z",
    "why": "Homer pick.",
-   "worth": 55
+   "worth": 56
   },
   {
    "abbr": "WEB",
@@ -1045,7 +1045,7 @@
    "team_id": "2348",
    "tip": "2026-11-25T00:30Z",
    "why": "Homer pick.",
-   "worth": 9
+   "worth": 8
   },
   {
    "abbr": "ALCN",
@@ -1057,7 +1057,7 @@
    "team_id": "2016",
    "tip": "2026-11-25T00:30Z",
    "why": "Homer pick.",
-   "worth": 91
+   "worth": 92
   },
   {
    "abbr": "SEMO",
@@ -1225,7 +1225,7 @@
    "team_id": "2010",
    "tip": "2026-11-25T01:00Z",
    "why": "Homer pick.",
-   "worth": 59
+   "worth": 58
   },
   {
    "abbr": "UTA",
@@ -1393,7 +1393,7 @@
    "team_id": "2534",
    "tip": "2026-11-25T02:00Z",
    "why": "Homer pick.",
-   "worth": 67
+   "worth": 66
   },
   {
    "abbr": "SLU",
