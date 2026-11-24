@@ -4,9 +4,13 @@ name: The Big Mid
 # write the week's recap (results, upset, player of the week, a game to circle, the At-Large Watch),
 # voice it with the anchor desk, render 16:9 cards, publish the MP4 as a GitHub release, then upload
 # it to YouTube as a regular video (about five minutes, chapters in the description).
+#
+# PAUSED Nov 23, 2026 (Matthew): no weekly schedule while the format is revamped. To bring it
+# back, restore:
+#   schedule:
+#     - cron: "0 14 * * 1"
+# Run it by hand from the Actions tab (workflow_dispatch) in the meantime.
 on:
-  schedule:
-    - cron: "0 14 * * 1"
   workflow_dispatch:
   pull_request:
     paths: ["mac/bigmid.py", "mac/anchors.py", "data/anchors.json", "data/anchor_color.json", "anchors/**", "sets/**", "templates/bigmid_card.html", ".github/workflows/bigmid.yml"]
