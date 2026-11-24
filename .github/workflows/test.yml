@@ -16,5 +16,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: ffmpeg (the Lock Call tests build and listen to real audio)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pytest -q
       - run: python -m mac.collect site

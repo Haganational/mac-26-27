@@ -16,7 +16,8 @@ on its own once its secrets are set; with none set this prints a note and exits 
           IG_USER_ID optional, defaults to "me". This token lasts about 60 days.
   Threads video (MidMaxx60 only; Threads video tops out at 5 minutes):
       THREADS_ACCESS_TOKEN, THREADS_USER_ID optional (the same secrets mac/social.py uses)
-  Bluesky video (both shows; Bluesky takes up to 10 minutes):
+  Bluesky video (both shows; Bluesky takes up to 10 minutes, so a longer episode goes up as
+      a link post to the show page instead of failing):
       BSKY_HANDLE, BSKY_APP_PASSWORD (the same secrets mac/social.py uses)
 
 Instagram and Threads fetch the video from a public URL, so the show must already be published
@@ -31,6 +32,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import subprocess
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -52,6 +54,7 @@ PDS = "https://bsky.social/xrpc"
 BSKY_VIDEO = "https://video.bsky.app/xrpc"
 SITE = "https://hardwoodbricks.com"
 DISCLOSURE = "Anchors are fictional AI personas, not affiliated with any school."
+BSKY_MAX_SECONDS = 600  # Bluesky's video service refuses anything longer
 POLL_SECONDS, POLL_TRIES = 10, 60  # wait up to ten minutes for a network to finish processing
 SHOW_PAGE = {"midmaxx60": f"{SITE}/midmaxx60.html", "bigmid": f"{SITE}/watch.html"}
 
@@ -219,6 +222,25 @@ def _pds_did(sess: dict[str, Any]) -> str:
     return "did:web:bsky.social"
 
 
+def duration(mp4: Path) -> float:
+    """Length in seconds from ffprobe, or 0 when it cannot be read."""
+    try:
+        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+                             capture_output=True, text=True, timeout=60).stdout.strip()
+        return float(out)
+    except (OSError, ValueError, subprocess.SubprocessError):
+        return 0.0
+
+
+def bsky_text(sess: dict[str, Any], text: str) -> str:
+    """A plain post whose link facet points at the show page."""
+    record = {"$type": "app.bsky.feed.post", "text": text[:300], "facets": _facets(text[:300]), "langs": ["en"],
+              "createdAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+    return _ok(requests.post(f"{PDS}/com.atproto.repo.createRecord", timeout=30,
+                             headers={"Authorization": f"Bearer {sess['accessJwt']}"},
+                             json={"repo": sess["did"], "collection": "app.bsky.feed.post", "record": record})).get("uri", "")
+
+
 def bsky_video(sess: dict[str, Any], mp4: Path, text: str, size: tuple[int, int]) -> str:
     auth = {"Authorization": f"Bearer {sess['accessJwt']}"}
     exp = int((datetime.now(timezone.utc) + timedelta(minutes=30)).timestamp())
@@ -306,6 +328,9 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
         sess = bsky_session(e["BSKY_HANDLE"].strip(), e["BSKY_APP_PASSWORD"].strip())
         if bsky_already(sess, head):
             return "already posted"
+        secs = duration(mp4)
+        if secs > BSKY_MAX_SECONDS:
+            return f"video is {secs:.0f}s, over Bluesky's {BSKY_MAX_SECONDS}s cap; posted link {bsky_text(sess, short_text)}"
         size = (1080, 1920) if show == "midmaxx60" else (1920, 1080)
         return f"posted {bsky_video(sess, mp4, short_text, size)}"
     raise ValueError(net)
