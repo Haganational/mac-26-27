@@ -27,9 +27,9 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 
 ## Barometer
 
-**38 of 100, testy.** Record 2-5 (0-0 in conference), streak L2, last five LLWLL.
+**47 of 100, steady.** Record 3-5 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Elena editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Elena editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -89,3 +89,5 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 - 2026-11-23: L 58-71 vs (neutral) Charlotte 49ers. Barometer 38 (testy). <!-- g:401921701 -->
 - 2026-11-23: Social recap posted (L 58-71 vs Charlotte 49ers): https://hardwoodbricks.com/asun/games/401921701.html <!-- post:401921701:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401921703.html <!-- post:401921703:preview -->
+- 2026-11-25: W 77-72 vs (neutral) Georgia State Panthers. Barometer 47 (steady). <!-- g:401921703 -->
+- 2026-11-25: Social recap posted (W 77-72 vs Georgia State Panthers): https://hardwoodbricks.com/asun/games/401921703.html <!-- post:401921703:recap -->

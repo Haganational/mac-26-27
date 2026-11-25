@@ -27,9 +27,9 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 
 ## Barometer
 
-**54 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five WLWLW.
+**48 of 100, steady.** Record 3-5 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Keisha editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Keisha editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,5 @@ Keisha Barnes drove MARTA trains on the downtown line for twelve years, which me
 - 2026-11-23: W 73-63 vs (neutral) Tulane Green Wave. Barometer 54 (steady). <!-- g:401919006 -->
 - 2026-11-23: Social recap posted (W 73-63 vs Tulane Green Wave): https://hardwoodbricks.com/american/games/401919006.html <!-- post:401919006:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401921703.html <!-- post:401921703:preview -->
+- 2026-11-25: L 72-77 vs (neutral) Florida Gulf Coast Eagles. Barometer 48 (steady). <!-- g:401921703 -->
+- 2026-11-25: Social recap posted (L 72-77 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401921703.html <!-- post:401921703:recap -->

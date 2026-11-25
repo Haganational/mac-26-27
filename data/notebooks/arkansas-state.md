@@ -27,9 +27,9 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W4, last five LWWWW.
+**78 of 100, buoyant.** Record 6-2 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,5 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:preview -->
 - 2026-11-24: W 106-81 vs (neutral) Long Beach State Beach. Barometer 74 (buoyant). <!-- g:401924267 -->
 - 2026-11-24: Social recap posted (W 106-81 vs Long Beach State Beach): https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:recap -->
+- 2026-11-25: W 92-88 at Florida International Panthers. Barometer 78 (buoyant). <!-- g:401928359 -->
+- 2026-11-25: Social recap posted (W 92-88 vs Florida International Panthers): https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:recap -->

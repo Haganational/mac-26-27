@@ -2491,21 +2491,21 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": 67,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "2247",
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": 63,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922253",
@@ -2532,7 +2532,7 @@
     "key": null,
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2540,13 +2540,13 @@
     "key": "west-florida",
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:25 - 1st"
   },
   {
    "game_id": "401921108",
@@ -8243,5 +8243,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T22:45:28+00:00"
+ "live_at": "2026-11-25T23:18:05+00:00"
 }

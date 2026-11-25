@@ -27,9 +27,9 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 
 ## Barometer
 
-**41 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five LLLWL.
+**49 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dale editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,5 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 - 2026-11-21: L 72-88 at North Carolina Tar Heels. Barometer 41 (testy). <!-- g:401912710 -->
 - 2026-11-21: Social recap posted (L 72-88 vs North Carolina Tar Heels): https://hardwoodbricks.com/sunbelt/games/401912710.html <!-- post:401912710:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->
+- 2026-11-25: W 64-58 vs Prairie View A&M Panthers. Barometer 49 (steady). <!-- g:401920858 -->
+- 2026-11-25: Social recap posted (W 64-58 vs Prairie View A&M Panthers): https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:recap -->

@@ -4080,7 +4080,7 @@
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -4088,13 +4088,13 @@
     "key": null,
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:54 - 1st"
   },
   {
    "game_id": "401920076",
@@ -13034,5 +13034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:51:43+00:00"
+ "live_at": "2026-11-25T23:23:32+00:00"
 }

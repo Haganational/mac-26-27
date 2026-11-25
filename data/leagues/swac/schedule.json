@@ -3160,21 +3160,21 @@
     "key": null,
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": 73,
-    "winner": null
+    "score": 80,
+    "winner": false
    },
    "away": {
     "espn_id": "2755",
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 76,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:08 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401920858",
@@ -3240,7 +3240,7 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 60,
+    "score": 87,
     "winner": null
    },
    "away": {
@@ -3248,13 +3248,13 @@
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 45,
+    "score": 57,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:06 - 2nd"
+   "detail": "5:40 - 2nd"
   },
   {
    "game_id": "401926065",
@@ -3285,7 +3285,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": 70,
+    "score": 94,
     "winner": null
    },
    "away": {
@@ -3293,13 +3293,13 @@
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": 38,
+    "score": 63,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:52 - 2nd"
+   "detail": "4:29 - 2nd"
   },
   {
    "game_id": "401911241",
@@ -3330,7 +3330,7 @@
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 4,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -3338,13 +3338,13 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 8,
+    "score": 26,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:35 - 1st"
+   "detail": "4:04 - 1st"
   },
   {
    "game_id": "401924897",
@@ -10949,5 +10949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T23:13:11+00:00"
+ "live_at": "2026-11-25T23:40:05+00:00"
 }
