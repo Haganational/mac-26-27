@@ -27,9 +27,9 @@ Stan Crosswell taught high school biology in Spokane for twenty years and guided
 
 ## Barometer
 
-**63 of 100, steady.** Record 3-1 (0-0 in conference), streak W1, last five WWLW.
+**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Stan editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Stan editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Stan Crosswell taught high school biology in Spokane for twenty years and guided
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Stan Crosswell taught high school biology in Spokane for twenty years and guided
 - 2026-11-18: W 74-62 vs Montana State Bobcats. Barometer 63 (steady). <!-- g:401925879 -->
 - 2026-11-18: Social recap posted (W 74-62 vs Montana State Bobcats): https://hardwoodbricks.com/pac12/games/401925879.html <!-- post:401925879:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401909800.html <!-- post:401909800:preview -->
+- 2026-11-25: W 101-61 vs (neutral) Kansas State Wildcats. Barometer 69 (buoyant). <!-- g:401909800 -->
+- 2026-11-25: Social recap posted (W 101-61 vs Kansas State Wildcats): https://hardwoodbricks.com/pac12/games/401909800.html <!-- post:401909800:recap -->

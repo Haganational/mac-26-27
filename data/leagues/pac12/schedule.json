@@ -2297,21 +2297,21 @@
     "key": null,
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
-    "score": 44,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
    "away": {
     "espn_id": "2250",
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": 83,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "9:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925688",
@@ -8273,5 +8273,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T07:15:57+00:00"
+ "live_at": "2026-11-25T07:44:59+00:00"
 }
