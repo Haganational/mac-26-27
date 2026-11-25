@@ -2121,7 +2121,7 @@
     "key": null,
     "name": "Iowa State Cyclones",
     "abbr": "ISU",
-    "score": null,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2129,13 +2129,13 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": null,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:06 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401922023",
@@ -8272,5 +8272,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T23:48:16+00:00"
 }

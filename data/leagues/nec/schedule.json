@@ -2637,21 +2637,21 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "2071",
     "key": null,
     "name": "Bloomsburg Huskies",
     "abbr": "BBU",
-    "score": null,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:30 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919829",
@@ -8414,5 +8414,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:05:15+00:00"
 }

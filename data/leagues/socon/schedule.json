@@ -2959,7 +2959,7 @@
     "key": null,
     "name": "Florida Atlantic Owls",
     "abbr": "FAU",
-    "score": null,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -2967,13 +2967,13 @@
     "key": "mercer",
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": null,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:06 - 1st"
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401923395",
@@ -3004,7 +3004,7 @@
     "key": "vmi",
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -3012,13 +3012,13 @@
     "key": null,
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "15:21 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401922231",
@@ -3049,7 +3049,7 @@
     "key": "wofford",
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -3057,13 +3057,13 @@
     "key": null,
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:55 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921142",
@@ -3094,7 +3094,7 @@
     "key": "furman",
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3102,13 +3102,13 @@
     "key": null,
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:31 - 1st"
   },
   {
    "game_id": "401920976",
@@ -9919,5 +9919,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T23:56:22+00:00"
 }

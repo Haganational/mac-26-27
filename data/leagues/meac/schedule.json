@@ -2273,7 +2273,7 @@
     "key": "morgan-state",
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2281,13 +2281,13 @@
     "key": null,
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:31 - 1st"
   },
   {
    "game_id": "401920976",
@@ -2318,7 +2318,7 @@
     "key": null,
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2326,13 +2326,13 @@
     "key": "delaware-state",
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:44 - 1st"
   },
   {
    "game_id": "401921777",
@@ -2363,7 +2363,7 @@
     "key": null,
     "name": "Villanova Wildcats",
     "abbr": "VILL",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2371,13 +2371,13 @@
     "key": "coppin-state",
     "name": "Coppin State Eagles",
     "abbr": "COPP",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:50 - 1st"
   },
   {
    "game_id": "401918960",
@@ -7617,5 +7617,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:06:14+00:00"
 }

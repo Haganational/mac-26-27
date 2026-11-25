@@ -1,6 +1,6 @@
 # Kate Brennan, The Staten Island Pilot
 
-_Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Wagner (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Kate Brennan edits The Staten Island Pilot and stands up for the forgotten borou
 
 ## Barometer
 
-**30 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
+**43 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kate editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kate editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -62,7 +62,7 @@ Kate Brennan edits The Staten Island Pilot and stands up for the forgotten borou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -77,3 +77,5 @@ Kate Brennan edits The Staten Island Pilot and stands up for the forgotten borou
 - 2026-11-21: L 45-62 at Maryland Terrapins. Barometer 30 (testy). <!-- g:401916299 -->
 - 2026-11-21: Social recap posted (L 45-62 vs Maryland Terrapins): https://hardwoodbricks.com/nec/games/401916299.html <!-- post:401916299:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401926061.html <!-- post:401926061:preview -->
+- 2026-11-24: W 96-44 vs Bloomsburg Huskies. Barometer 43 (testy). <!-- g:401926061 -->
+- 2026-11-25: Social recap posted (W 96-44 vs Bloomsburg Huskies): https://hardwoodbricks.com/nec/games/401926061.html <!-- post:401926061:recap -->

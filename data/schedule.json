@@ -2754,7 +2754,7 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2762,13 +2762,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": null,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:01 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920949",
@@ -2795,7 +2795,7 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2803,13 +2803,13 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:19 - 1st"
+   "detail": "6:15 - 1st"
   },
   {
    "game_id": "401911027",
@@ -9662,5 +9662,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T23:38:27+00:00"
 }

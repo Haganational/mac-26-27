@@ -2821,7 +2821,7 @@
     "key": "loyola-md",
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2829,13 +2829,13 @@
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:05 - 1st"
   },
   {
    "game_id": "401911338",
@@ -9345,5 +9345,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:04:17+00:00"
 }

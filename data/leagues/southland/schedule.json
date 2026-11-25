@@ -2900,7 +2900,7 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2908,13 +2908,13 @@
     "key": null,
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:55 - 1st"
   },
   {
    "game_id": "401929351",
@@ -10214,5 +10214,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T23:58:39+00:00"
 }

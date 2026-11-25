@@ -2639,7 +2639,7 @@
     "key": null,
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2647,13 +2647,13 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:55 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401926154",
@@ -8389,5 +8389,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:02:24+00:00"
 }

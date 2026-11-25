@@ -3132,7 +3132,7 @@
     "key": null,
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -3140,13 +3140,13 @@
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:58 - 1st"
   },
   {
    "game_id": "401920742",
@@ -12082,5 +12082,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-24T23:54:06+00:00"
 }
