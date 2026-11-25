@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:08:19+00:00",
+ "fetched_at": "2026-11-25T12:09:28+00:00",
  "season": 2027,
  "games": [
   {
@@ -2384,11 +2384,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 62.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2456,7 +2452,7 @@
   },
   {
    "game_id": "401911535",
-   "date": "2026-11-25T01:30Z",
+   "date": "2026-11-25T02:00Z",
    "name": "UTEP Miners at Charleston Cougars",
    "short_name": "UTEP VS COFC",
    "season_type": "reg",
@@ -2497,9 +2493,9 @@
   },
   {
    "game_id": "401911253",
-   "date": "2026-11-25T02:30Z",
-   "name": "Grand Canyon Lopes at Saint Louis Billikens",
-   "short_name": "GCU VS SLU",
+   "date": "2026-11-25T02:55Z",
+   "name": "Saint Louis Billikens at Grand Canyon Lopes",
+   "short_name": "SLU VS GCU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2511,27 +2507,23 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 62.0,
-    "since": "2026-11-18T23:04:04Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "139",
-    "key": null,
-    "name": "Saint Louis Billikens",
-    "abbr": "SLU",
-    "score": 91,
-    "winner": true
-   },
-   "away": {
     "espn_id": "2253",
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
+    "score": 91,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "139",
+    "key": null,
+    "name": "Saint Louis Billikens",
+    "abbr": "SLU",
     "score": 88,
     "winner": false
    },
@@ -2582,6 +2574,47 @@
    "detail": ""
   },
   {
+   "game_id": "401920550",
+   "date": "2026-11-26T01:30Z",
+   "name": "Eastern Michigan Eagles at UTEP Miners",
+   "short_name": "EMU VS UTEP",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "2638",
+    "key": "utep",
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": null,
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401924897",
    "date": "2026-11-26T02:00Z",
    "name": "Mississippi Valley State Delta Devils at New Mexico Lobos",
@@ -2618,6 +2651,47 @@
     "key": null,
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921671",
+   "date": "2026-11-26T02:30Z",
+   "name": "Grand Canyon Lopes at Colorado Buffaloes",
+   "short_name": "GCU VS COLO",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "38",
+    "key": null,
+    "name": "Colorado Buffaloes",
+    "abbr": "COLO",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2253",
+    "key": "grand-canyon",
+    "name": "Grand Canyon Lopes",
+    "abbr": "GCU",
     "score": null,
     "winner": null
    },
@@ -4273,7 +4347,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -4507,7 +4581,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-17-2026--sports-ncaa-basketball/production/7656414?wsUser=717",
-    "low": 28.0,
+    "low": 24.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "University Credit Union Center",
@@ -5147,7 +5221,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-12-22-2026--sports-ncaa-basketball/production/7419567?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Thomas & Mack Center",
@@ -5192,7 +5266,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-22-2026--sports-ncaa-basketball/production/7519459?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Gersten Pavilion",
@@ -5545,7 +5619,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-29-2026--sports-ncaa-basketball/production/7459092?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:04Z"
    },
    "venue": "Lawlor Events Center",
@@ -9113,6 +9187,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T05:46:37+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:25:50+00:00",
+ "fetched_at": "2026-11-25T12:23:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -2973,11 +2973,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-monroe-warhawks-mens-basketball-tickets-b1bank-fant-coliseum-11-24-2026--sports-ncaa-basketball/production/7403434?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
+   "tickets": null,
    "venue": "b1Bank Fant Coliseum",
    "venue_city": "Monroe",
    "venue_state": "LA",
@@ -3005,8 +3001,8 @@
   {
    "game_id": "401920548",
    "date": "2026-11-25T20:00Z",
-   "name": "SE Louisiana Lions at TBD",
-   "short_name": "SELA VS TBD",
+   "name": "SE Louisiana Lions at North Dakota Fighting Hawks",
+   "short_name": "SELA VS UND",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3023,10 +3019,10 @@
    "venue_city": "Cancun",
    "venue_state": "Mexico",
    "home": {
-    "espn_id": "-1",
+    "espn_id": "155",
     "key": null,
-    "name": "TBD",
-    "abbr": "TBD",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
     "score": null,
     "winner": null
    },
@@ -3716,7 +3712,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-12-1-2026--sports-ncaa-basketball/production/7363511?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "McKale Center at ALKEME Arena",
@@ -5696,7 +5692,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-23-2026--sports-ncaa-basketball/production/7413801?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "UD Arena",
@@ -6011,7 +6007,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-29-2026--sports-ncaa-basketball/production/7109876?wsUser=717",
-    "low": 35.0,
+    "low": 37.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Allen Fieldhouse",
@@ -10214,6 +10210,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T02:34:58+00:00"
+ ]
 }

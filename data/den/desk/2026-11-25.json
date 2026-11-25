@@ -2,29 +2,29 @@
  "date": "2026-11-25",
  "desk": {
   "anchor": {
-   "alt": "Savannah Beaumont, the Richmond AI anchor",
-   "color": "#990000",
-   "color2": "#000066",
-   "initials": "SB",
+   "alt": "Thurston Whitmore, the Yale AI anchor",
+   "color": "#00356B",
+   "color2": "#FFFFFF",
+   "initials": "TW",
    "ink": "#ffffff",
-   "key": "richmond",
-   "name": "Savannah Beaumont",
-   "portrait": "den/anchors/richmond.webp",
-   "school": "Richmond",
+   "key": "yale",
+   "name": "Thurston Whitmore",
+   "portrait": "den/anchors/yale.webp",
+   "school": "Yale",
    "tag": "AI anchor"
   },
-  "max": 172,
+  "max": 220,
   "picks": [
    {
-    "abbr": "RICH",
-    "game_id": "401911241",
+    "abbr": "YALE",
+    "game_id": "401928831",
     "kind": "homer",
-    "short": "Richmond",
-    "side": "home",
-    "team_id": "257",
-    "tip": "2026-11-25T23:00Z",
+    "short": "Yale",
+    "side": "away",
+    "team_id": "43",
+    "tip": "2026-11-25T17:30Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 15
+    "worth": 70
    },
    {
     "abbr": "APP",
@@ -34,7 +34,7 @@
     "side": "home",
     "team_id": "2026",
     "tip": "2026-11-25T20:00Z",
-    "why": "Our ratings 54%, pregame win chance 30%.",
+    "why": "Our ratings 53%, pregame win chance 30%.",
     "worth": 70
    },
    {
@@ -45,19 +45,19 @@
     "side": "home",
     "team_id": "350",
     "tip": "2026-11-26T00:00Z",
-    "why": "Our ratings 50%, pregame win chance 71%.",
+    "why": "Our ratings 51%, pregame win chance 71%.",
     "worth": 29
    },
    {
-    "abbr": "FGCU",
-    "game_id": "401921703",
+    "abbr": "UND",
+    "game_id": "401920548",
     "kind": "ratings",
-    "short": "FGCU",
+    "short": "North Dakota",
     "side": "home",
-    "team_id": "526",
-    "tip": "2026-11-25T21:00Z",
-    "why": "Our ratings 59%, pregame win chance 42%.",
-    "worth": 58
+    "team_id": "155",
+    "tip": "2026-11-25T20:00Z",
+    "why": "Our ratings 67%, pregame win chance 49%.",
+    "worth": 51
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -85,7 +85,7 @@
    "team_id": "2057",
    "tip": "2026-11-25T15:00Z",
    "why": "Homer pick.",
-   "worth": 63
+   "worth": 64
   },
   {
    "abbr": "SBU",
@@ -97,7 +97,7 @@
    "team_id": "179",
    "tip": "2026-11-25T15:00Z",
    "why": "Homer pick.",
-   "worth": 37
+   "worth": 36
   },
   {
    "abbr": "CLT",
@@ -146,6 +146,30 @@
    "tip": "2026-11-25T16:00Z",
    "why": "Homer pick.",
    "worth": 64
+  },
+  {
+   "abbr": "DETM",
+   "game_id": "401920547",
+   "key": "detroit-mercy",
+   "kind": "homer",
+   "short": "Detroit Mercy",
+   "side": "home",
+   "team_id": "2174",
+   "tip": "2026-11-25T17:30Z",
+   "why": "Homer pick.",
+   "worth": 67
+  },
+  {
+   "abbr": "UNCO",
+   "game_id": "401920547",
+   "key": "northern-colorado",
+   "kind": "homer",
+   "short": "Northern Colorado",
+   "side": "away",
+   "team_id": "2458",
+   "tip": "2026-11-25T17:30Z",
+   "why": "Homer pick.",
+   "worth": 33
   },
   {
    "abbr": "WRST",
@@ -362,6 +386,30 @@
    "tip": "2026-11-25T20:00Z",
    "why": "Homer pick.",
    "worth": 99
+  },
+  {
+   "abbr": "UND",
+   "game_id": "401920548",
+   "key": "north-dakota",
+   "kind": "homer",
+   "short": "North Dakota",
+   "side": "home",
+   "team_id": "155",
+   "tip": "2026-11-25T20:00Z",
+   "why": "Homer pick.",
+   "worth": 51
+  },
+  {
+   "abbr": "SELA",
+   "game_id": "401920548",
+   "key": "southeastern-louisiana",
+   "kind": "homer",
+   "short": "SE Louisiana",
+   "side": "away",
+   "team_id": "2545",
+   "tip": "2026-11-25T20:00Z",
+   "why": "Homer pick.",
+   "worth": 49
   },
   {
    "abbr": "APP",
@@ -902,6 +950,18 @@
    "tip": "2026-11-26T02:00Z",
    "why": "Homer pick.",
    "worth": 73
+  },
+  {
+   "abbr": "VCU",
+   "game_id": "401921713",
+   "key": "vcu",
+   "kind": "homer",
+   "short": "VCU",
+   "side": "home",
+   "team_id": "2670",
+   "tip": "2026-11-26T03:00Z",
+   "why": "Homer pick.",
+   "worth": 39
   },
   {
    "abbr": "JVST",

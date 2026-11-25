@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:33:52+00:00",
+ "fetched_at": "2026-11-25T12:30:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2305,11 +2305,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-24-2026--sports-ncaa-basketball/production/7745856?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "McKenzie Arena",
    "venue_city": "Chattanooga",
    "venue_state": "TN",
@@ -2350,11 +2346,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/villanova-wildcats-mens-basketball-tickets-finneran-pavilion-11-24-2026--sports-ncaa-basketball/production/7483907?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Finneran Pavilion",
    "venue_city": "Villanova",
    "venue_state": "PA",
@@ -2514,7 +2506,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-11-28-2026/production/7909373?wsUser=717",
+    "low": 28.0,
+    "since": "2026-11-25T12:30:09Z"
+   },
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -2557,7 +2553,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-11-28-2026--sports-ncaa-basketball/production/7627773?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -2692,7 +2688,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-huskies-mens-basketball-tickets-alaska-airlines-arena-11-29-2026--sports-ncaa-basketball/production/7540596?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Alaska Airlines Arena",
@@ -5089,7 +5085,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-12-29-2026--sports-ncaa-basketball/production/7463055?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Jersey Mike\u2019s Arena",
@@ -5134,7 +5130,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-29-2026--sports-ncaa-basketball/production/7748250?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -5224,7 +5220,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-29-2026--sports-ncaa-basketball/production/7294917?wsUser=717",
-    "low": 60.0,
+    "low": 63.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Neville Arena",
@@ -7617,6 +7613,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T02:42:47+00:00"
+ ]
 }

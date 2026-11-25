@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:13:14+00:00",
+ "fetched_at": "2026-11-25T12:13:34+00:00",
  "season": 2027,
  "games": [
   {
@@ -3717,7 +3717,7 @@
   },
   {
    "game_id": "401920414",
-   "date": "2026-11-25T00:30Z",
+   "date": "2026-11-25T01:45Z",
    "name": "Duquesne Dukes at High Point Panthers",
    "short_name": "DUQ VS HPU",
    "season_type": "reg",
@@ -3758,9 +3758,9 @@
   },
   {
    "game_id": "401911253",
-   "date": "2026-11-25T02:30Z",
-   "name": "Grand Canyon Lopes at Saint Louis Billikens",
-   "short_name": "GCU VS SLU",
+   "date": "2026-11-25T02:55Z",
+   "name": "Saint Louis Billikens at Grand Canyon Lopes",
+   "short_name": "SLU VS GCU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3772,27 +3772,23 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 62.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "139",
-    "key": "saint-louis",
-    "name": "Saint Louis Billikens",
-    "abbr": "SLU",
-    "score": 91,
-    "winner": true
-   },
-   "away": {
     "espn_id": "2253",
     "key": null,
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
+    "score": 91,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "139",
+    "key": "saint-louis",
+    "name": "Saint Louis Billikens",
+    "abbr": "SLU",
     "score": 88,
     "winner": false
    },
@@ -3901,7 +3897,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-11-25-2026--sports-ncaa-basketball/production/7609079?wsUser=717",
-    "low": 35.0,
+    "low": 29.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -4126,7 +4122,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-25-2026--sports-ncaa-basketball/production/7627363?wsUser=717",
-    "low": 9.0,
+    "low": 11.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -4145,6 +4141,88 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921713",
+   "date": "2026-11-26T03:00Z",
+   "name": "Washington Huskies at VCU Rams",
+   "short_name": "WASH VS VCU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN2",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Lahaina Civic Center",
+   "venue_city": "Maui",
+   "venue_state": "HI",
+   "home": {
+    "espn_id": "2670",
+    "key": "vcu",
+    "name": "VCU Rams",
+    "abbr": "VCU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "264",
+    "key": null,
+    "name": "Washington Huskies",
+    "abbr": "WASH",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401921672",
+   "date": "2026-11-26T04:59Z",
+   "name": "Stanford Cardinal at Saint Louis Billikens",
+   "short_name": "STAN VS SLU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "CBSSN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Acrisure Arena",
+   "venue_city": "Palm Springs",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "139",
+    "key": "saint-louis",
+    "name": "Saint Louis Billikens",
+    "abbr": "SLU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "24",
+    "key": null,
+    "name": "Stanford Cardinal",
+    "abbr": "STAN",
     "score": null,
     "winner": null
    },
@@ -4257,7 +4335,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467535?wsUser=717",
-    "low": 25.0,
+    "low": 41.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Lavietes Pavilion",
@@ -4347,7 +4425,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-28-2026--sports-ncaa-basketball/production/7290631?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Robins Center",
@@ -4442,7 +4520,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-11-28-2026--sports-ncaa-basketball/production/7627773?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -5177,7 +5255,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-12-4-2026--sports-ncaa-basketball/production/7630726?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",
@@ -6538,7 +6616,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-12-12-2026--sports-ncaa-basketball/production/7617740?wsUser=717",
-    "low": 26.0,
+    "low": 23.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",
@@ -7818,7 +7896,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-12-23-2026--sports-ncaa-basketball/production/7413801?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -8970,7 +9048,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-10-4-2026--sports-ncaa-basketball/production/7187938?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -9009,7 +9087,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-9-2026--sports-ncaa-basketball/production/7187984?wsUser=717",
-    "low": 31.0,
+    "low": 29.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -9087,7 +9165,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/saint-josephs-hawks-mens-basketball-tickets-michael-j-hagan-arena-10-3-2026--sports-ncaa-basketball/production/7188080?wsUser=717",
-    "low": 51.0,
+    "low": 43.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Michael J. Hagan '85 Arena",
@@ -9516,7 +9594,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-10-6-2026--sports-ncaa-basketball/production/7187924?wsUser=717",
-    "low": 37.0,
+    "low": 35.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -10019,7 +10097,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-8-2026--sports-ncaa-basketball/production/7188108?wsUser=717",
-    "low": 14.0,
+    "low": 15.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -10175,7 +10253,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-5-2026--sports-ncaa-basketball/production/7187976?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -10253,7 +10331,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-10-4-2026--sports-ncaa-basketball/production/7188028?wsUser=717",
-    "low": 41.0,
+    "low": 39.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -10600,7 +10678,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-6-2026--sports-ncaa-basketball/production/7187978?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -10834,7 +10912,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-10-3-2026--sports-ncaa-basketball/production/7187918?wsUser=717",
-    "low": 37.0,
+    "low": 35.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -11068,7 +11146,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-9-2026--sports-ncaa-basketball/production/7187912?wsUser=717",
-    "low": 21.0,
+    "low": 19.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -11185,7 +11263,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-10-9-2026--sports-ncaa-basketball/production/7188146?wsUser=717",
-    "low": 36.0,
+    "low": 34.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Siegel Center",
@@ -11341,7 +11419,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-10-7-2026--sports-ncaa-basketball/production/7187908?wsUser=717",
-    "low": 27.0,
+    "low": 24.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "John M. Belk Arena",
@@ -11458,7 +11536,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-3-2026--sports-ncaa-basketball/production/7187972?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -11809,7 +11887,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-10-7-2026--sports-ncaa-basketball/production/7187926?wsUser=717",
-    "low": 38.0,
+    "low": 37.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -12390,7 +12468,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-8-2026--sports-ncaa-basketball/production/7187982?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -12429,7 +12507,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-university-of-dayton-arena-10-2-2026--sports-ncaa-basketball/production/7188024?wsUser=717",
-    "low": 39.0,
+    "low": 36.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "UD Arena",
@@ -12897,7 +12975,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-10-4-2026--sports-ncaa-basketball/production/7187974?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -12963,6 +13041,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T06:19:57+00:00"
+ ]
 }

@@ -68,7 +68,7 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Diane Okafor was born in Detroit to Nigerian parents and taught high school civi
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:preview -->
 - 2026-11-24: W 60-56 vs (neutral) Kennesaw State Owls. Barometer 74 (buoyant). <!-- g:401920949 -->
 - 2026-11-25: Social recap posted (W 60-56 vs Kennesaw State Owls): https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/games/401920550.html <!-- post:401920550:preview -->

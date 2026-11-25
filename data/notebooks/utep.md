@@ -71,7 +71,7 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,4 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:preview -->
 - 2026-11-25: W 80-69 vs (neutral) Charleston Cougars. Barometer 82 (giddy). <!-- g:401911535 -->
 - 2026-11-25: Social recap posted (W 80-69 vs Charleston Cougars): https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/games/401920550.html <!-- post:401920550:preview -->

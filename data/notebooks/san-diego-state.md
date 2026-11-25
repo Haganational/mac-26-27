@@ -70,7 +70,7 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401909775.html <!-- post:401909775:preview -->
 - 2026-11-24: L 68-81 vs (neutral) Iowa State Cyclones. Barometer 64 (steady). <!-- g:401909775 -->
 - 2026-11-25: Social recap posted (L 68-81 vs Iowa State Cyclones): https://hardwoodbricks.com/pac12/games/401909775.html <!-- post:401909775:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401920528.html <!-- post:401920528:preview -->

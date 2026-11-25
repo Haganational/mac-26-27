@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:04:07+00:00",
+ "fetched_at": "2026-11-25T12:05:50+00:00",
  "season": 2027,
  "games": [
   {
@@ -2827,11 +2827,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bowling-green-falcons-mens-basketball-tickets-stroh-center-11-24-2026--sports-ncaa-basketball/production/7456027?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Stroh Center",
    "venue_city": "Bowling Green",
    "venue_state": "OH",
@@ -2872,11 +2868,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-24-2026--sports-ncaa-basketball/production/7583702?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:00:48Z"
-   },
+   "tickets": null,
    "venue": "Purcell Pavilion",
    "venue_city": "South Bend",
    "venue_state": "IN",
@@ -3070,6 +3062,47 @@
    "detail": ""
   },
   {
+   "game_id": "401920550",
+   "date": "2026-11-26T01:30Z",
+   "name": "Eastern Michigan Eagles at UTEP Miners",
+   "short_name": "EMU VS UTEP",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "2638",
+    "key": null,
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2199",
+    "key": "eastern-michigan",
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401911030",
    "date": "2026-11-27T23:00Z",
    "name": "Bowling Green Falcons at Indiana Hoosiers",
@@ -3087,7 +3120,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-27-2026--sports-ncaa-basketball/production/7478281?wsUser=717",
-    "low": 10.0,
+    "low": 13.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Simon Skjodt Assembly Hall",
@@ -3175,7 +3208,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/valparaiso-beacons-mens-basketball-tickets-valparaiso-athletics-recreation-center-11-28-2026--sports-ncaa-basketball/production/7914647?wsUser=717",
+    "low": 29.0,
+    "since": "2026-11-25T12:05:50Z"
+   },
    "venue": "Athletics-Recreation Center",
    "venue_city": "Valparaiso",
    "venue_state": "IN",
@@ -3433,7 +3470,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-12-2-2026--sports-ncaa-basketball/production/7436276?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -4229,7 +4266,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-12-12-2026--sports-ncaa-basketball/production/7436280?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -5619,7 +5656,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-2-2027--sports-ncaa-basketball/production/7436282?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -5775,7 +5812,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-1-5-2027--sports-ncaa-basketball/production/7424984?wsUser=717",
-    "low": 26.0,
+    "low": 25.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -6313,7 +6350,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-12-2027--sports-ncaa-basketball/production/7436288?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -6621,7 +6658,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-16-2027--sports-ncaa-basketball/production/7436293?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -7241,7 +7278,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-26-2027--sports-ncaa-basketball/production/7436295?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -7471,7 +7508,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-1-30-2027--sports-ncaa-basketball/production/7436297?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -8048,7 +8085,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-2-13-2027--sports-ncaa-basketball/production/7436301?wsUser=717",
-    "low": 36.0,
+    "low": 35.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -8438,7 +8475,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/kent-state-golden-flashes-mens-basketball-tickets-memorial-athletic-and-convocation-center-2-16-2027--sports-ncaa-basketball/production/7436305?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "M.A.C. Center",
@@ -8941,7 +8978,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-2-23-2027--sports-ncaa-basketball/production/7425031?wsUser=717",
-    "low": 30.0,
+    "low": 29.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -9662,6 +9699,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T03:09:39+00:00"
+ ]
 }

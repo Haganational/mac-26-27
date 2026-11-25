@@ -65,7 +65,7 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,4 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:preview -->
 - 2026-11-24: L 56-60 vs (neutral) Eastern Michigan Eagles. Barometer 57 (steady). <!-- g:401920949 -->
 - 2026-11-25: Social recap posted (L 56-60 vs Eastern Michigan Eagles): https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:preview -->

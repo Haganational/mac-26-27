@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:27:02+00:00",
+ "fetched_at": "2026-11-25T12:24:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2577,7 +2577,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-11-25-2026--sports-ncaa-basketball/production/7589448?wsUser=717",
-    "low": 19.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "First Bank & Trust Arena",
@@ -2596,6 +2596,47 @@
     "key": null,
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920548",
+   "date": "2026-11-25T20:00Z",
+   "name": "SE Louisiana Lions at North Dakota Fighting Hawks",
+   "short_name": "SELA VS UND",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "155",
+    "key": "north-dakota",
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2545",
+    "key": null,
+    "name": "SE Louisiana Lions",
+    "abbr": "SELA",
     "score": null,
     "winner": null
    },
@@ -5185,7 +5226,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-buffaloes-mens-basketball-tickets-cu-events-center-12-22-2026--sports-ncaa-basketball/production/7418325?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "CU Events Center",
@@ -5478,7 +5519,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-29-2026--sports-ncaa-basketball/production/7459092?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Lawlor Events Center",
@@ -8011,6 +8052,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T03:26:39+00:00"
+ ]
 }

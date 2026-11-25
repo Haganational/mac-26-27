@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:29:47+00:00",
+ "fetched_at": "2026-11-25T12:26:55+00:00",
  "season": 2027,
  "games": [
   {
@@ -2626,11 +2626,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-24-2026--sports-ncaa-basketball/production/7767067?wsUser=717",
-    "low": 45.0,
-    "since": "2026-11-18T23:19:12Z"
-   },
+   "tickets": null,
    "venue": "Cameron Hall",
    "venue_city": "Lexington",
    "venue_state": "VA",
@@ -3235,7 +3231,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-11-30-2026--sports-ncaa-basketball/production/7915086?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -4274,7 +4274,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-salukis-mens-basketball-tickets-banterra-center-12-9-2026--sports-ncaa-basketball/production/7919030?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Banterra Center",
    "venue_city": "Carbondale",
    "venue_state": "IL",
@@ -4884,7 +4888,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/valparaiso-beacons-mens-basketball-tickets-valparaiso-athletics-recreation-center-12-18-2026--sports-ncaa-basketball/production/7914653?wsUser=717",
+    "low": 29.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Athletics-Recreation Center",
    "venue_city": "Valparaiso",
    "venue_state": "IN",
@@ -8389,6 +8397,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T02:38:50+00:00"
+ ]
 }

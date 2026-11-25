@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:31:48+00:00",
+ "fetched_at": "2026-11-25T12:28:31+00:00",
  "season": 2027,
  "games": [
   {
@@ -2657,7 +2657,7 @@
   {
    "game_id": "401921223",
    "date": "2026-11-24T21:30Z",
-   "name": "Penn State Berks PENN STATE-LEHIGH VALLEY at Navy Midshipmen",
+   "name": "Penn State Berks Nittany Lions at Navy Midshipmen",
    "short_name": "PSBK @ NAVY",
    "season_type": "reg",
    "neutral_site": false,
@@ -2690,7 +2690,7 @@
    "away": {
     "espn_id": "124686",
     "key": null,
-    "name": "Penn State Berks PENN STATE-LEHIGH VALLEY",
+    "name": "Penn State Berks Nittany Lions",
     "abbr": "PSBK",
     "score": 46,
     "winner": false
@@ -2721,11 +2721,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467533?wsUser=717",
-    "low": 40.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Lavietes Pavilion",
    "venue_city": "Cambridge",
    "venue_state": "MA",
@@ -2880,7 +2876,7 @@
   },
   {
    "game_id": "401924723",
-   "date": "2026-11-25T01:00Z",
+   "date": "2026-11-25T01:30Z",
    "name": "Bucknell Bison at Cornell Big Red",
    "short_name": "BUCK @ COR",
    "season_type": "reg",
@@ -2894,11 +2890,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:20:39Z"
-   },
+   "tickets": null,
    "venue": "Newman Arena",
    "venue_city": "Ithaca",
    "venue_state": "NY",
@@ -2941,7 +2933,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 33.0,
+    "low": 32.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Leede Arena",
@@ -3537,7 +3529,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 10.0,
+    "low": 20.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
@@ -3850,7 +3842,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-12-2-2026--sports-ncaa-basketball/production/7341577?wsUser=717",
-    "low": 23.0,
+    "low": 14.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Christl Arena",
@@ -3895,7 +3887,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-xfinity-center---md-12-2-2026--sports-ncaa-basketball/production/7382615?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "XFINITY Center",
@@ -4024,7 +4016,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-12-2-2026--sports-ncaa-basketball/production/7914609?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -4342,7 +4338,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-12-5-2026--sports-ncaa-basketball/production/7914611?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -4613,7 +4613,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-12-7-2026--sports-ncaa-basketball/production/7914627?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -4656,7 +4660,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-8-2026--sports-ncaa-basketball/production/7748248?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -6148,7 +6152,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-1-2-2027--sports-ncaa-basketball/production/7914629?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -6222,7 +6230,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-1-2-2027--sports-ncaa-basketball/production/7914613?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -6487,7 +6499,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-1-6-2027--sports-ncaa-basketball/production/7914631?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -6524,7 +6540,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-9-2027--sports-ncaa-basketball/production/7710502?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -6822,7 +6838,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-1-13-2027--sports-ncaa-basketball/production/7914615?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -6857,7 +6877,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-1-13-2027--sports-ncaa-basketball/production/7914633?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -6894,7 +6918,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-1-16-2027--sports-ncaa-basketball/production/7710504?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -7161,7 +7185,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-1-20-2027--sports-ncaa-basketball/production/7914617?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -7270,7 +7298,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-1-23-2027--sports-ncaa-basketball/production/7914635?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -7457,7 +7489,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-1-25-2027--sports-ncaa-basketball/production/7914619?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -7839,7 +7875,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-2-1-2027--sports-ncaa-basketball/production/7914637?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -8065,7 +8105,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-2-6-2027--sports-ncaa-basketball/production/7914621?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -8258,7 +8302,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-10-2027--sports-ncaa-basketball/production/7710514?wsUser=717",
-    "low": 11.0,
+    "low": 13.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -8295,7 +8339,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-2-10-2027--sports-ncaa-basketball/production/7914639?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -8445,7 +8493,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-13-2027--sports-ncaa-basketball/production/7710518?wsUser=717",
-    "low": 15.0,
+    "low": 13.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -8638,7 +8686,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-2-17-2027--sports-ncaa-basketball/production/7914623?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -8751,7 +8803,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-2-17-2027--sports-ncaa-basketball/production/7914641?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -8825,7 +8881,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-2-20-2027--sports-ncaa-basketball/production/7914643?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -8862,7 +8922,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-2-21-2027--sports-ncaa-basketball/production/7710520?wsUser=717",
-    "low": 14.0,
+    "low": 11.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Case Gym",
@@ -9246,7 +9306,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-2-27-2027--sports-ncaa-basketball/production/7914645?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -9320,7 +9384,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-2-27-2027--sports-ncaa-basketball/production/7914625?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:28:31Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -9345,6 +9413,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T03:58:35+00:00"
+ ]
 }

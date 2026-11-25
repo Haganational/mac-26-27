@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T23:06:02+00:00",
+ "fetched_at": "2026-11-25T12:07:36+00:00",
  "season": 2027,
  "games": [
   {
@@ -2232,11 +2232,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wofford-college-terriers-mens-basketball-tickets-jerry-richardson-indoor-stadium-11-24-2026--sports-ncaa-basketball/production/7595584?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Jerry Richardson Indoor Stadium",
    "venue_city": "Spartanburg",
    "venue_state": "SC",
@@ -2277,11 +2273,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 36.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -2322,11 +2314,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Simon Skjodt Assembly Hall",
    "venue_city": "Bloomington",
    "venue_state": "IN",
@@ -2367,11 +2355,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
    "venue_state": "FL",
@@ -2412,11 +2396,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 59.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Neville Arena",
    "venue_city": "Auburn",
    "venue_state": "AL",
@@ -2591,7 +2571,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 30.0,
+    "low": 36.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Truist Arena",
@@ -3123,7 +3103,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-12-2-2026--sports-ncaa-basketball/production/7413175?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -4801,7 +4781,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/ut-arlington-mavericks-mens-basketball-tickets-college-park-center-12-19-2026--sports-ncaa-basketball/production/7919211?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:07:36Z"
+   },
    "venue": "College Park Center",
    "venue_city": "Arlington",
    "venue_state": "TX",
@@ -5540,7 +5524,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/ut-arlington-mavericks-mens-basketball-tickets-college-park-center-12-31-2026--sports-ncaa-basketball/production/7919217?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:07:36Z"
+   },
    "venue": "College Park Center",
    "venue_city": "Arlington",
    "venue_state": "TX",
@@ -8254,6 +8242,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T02:48:32+00:00"
+ ]
 }
