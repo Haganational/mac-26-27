@@ -3740,7 +3740,7 @@
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": 49,
+    "score": 62,
     "winner": null
    },
    "away": {
@@ -3748,13 +3748,13 @@
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 41,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:43 - 2nd"
+   "detail": "6:03 - 2nd"
   },
   {
    "game_id": "401911253",
@@ -3785,7 +3785,7 @@
     "key": "saint-louis",
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -3793,13 +3793,13 @@
     "key": null,
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:48 - 1st"
   },
   {
    "game_id": "401921712",
@@ -12964,5 +12964,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:53:04+00:00"
+ "live_at": "2026-11-25T03:16:13+00:00"
 }

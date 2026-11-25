@@ -2451,21 +2451,21 @@
     "key": "kansas-city",
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 64,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2739",
     "key": null,
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 68,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929359",
@@ -2492,21 +2492,21 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 78,
-    "winner": null
+    "score": 80,
+    "winner": false
    },
    "away": {
     "espn_id": "198",
     "key": "oral-roberts",
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": 82,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929406",
@@ -8012,5 +8012,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:01:46+00:00"
+ "live_at": "2026-11-25T03:26:39+00:00"
 }

@@ -2992,7 +2992,7 @@
     "name": "North Alabama Lions",
     "abbr": "UNA",
     "score": 77,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2010",
@@ -3000,12 +3000,12 @@
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
     "score": 74,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:02 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929421",
@@ -10917,5 +10917,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:06:37+00:00"
+ "live_at": "2026-11-25T03:32:33+00:00"
 }

@@ -70,7 +70,7 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 - 2026-11-22: Social recap posted (W 97-69 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:preview -->
 - 2026-11-25: W 124-85 vs West Georgia Wolves. Barometer 79 (buoyant). <!-- g:401917904 -->
+- 2026-11-25: Social recap posted (W 124-85 vs West Georgia Wolves): https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:recap -->

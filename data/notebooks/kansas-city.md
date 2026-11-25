@@ -27,9 +27,9 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 
 ## Barometer
 
-**46 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LWLWL.
+**42 of 100, testy.** Record 3-5 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 - 2026-11-21: L 61-62 at Iona Gaels. Barometer 46 (steady). <!-- g:401921007 -->
 - 2026-11-21: Social recap posted (L 61-62 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:preview -->
+- 2026-11-25: L 72-77 vs Green Bay Phoenix. Barometer 42 (testy). <!-- g:401921008 -->

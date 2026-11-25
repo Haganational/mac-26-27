@@ -66,7 +66,7 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Terrell Moss grew up in Carrollton, worked three years at an Atlanta startup tha
 - 2026-11-21: Social recap posted (W 105-56 vs Paine Lions): https://hardwoodbricks.com/uac/games/401917903.html <!-- post:401917903:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:preview -->
 - 2026-11-25: L 85-124 at Tennessee Tech Golden Eagles. Barometer 42 (testy). <!-- g:401917904 -->
+- 2026-11-25: Social recap posted (L 85-124 vs Tennessee Tech Golden Eagles): https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:recap -->

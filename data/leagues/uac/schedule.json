@@ -2449,10 +2449,10 @@
     "score": 47,
     "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925642",
@@ -2483,21 +2483,21 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": 74,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "2010",
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": 71,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:32 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929359",
@@ -2524,21 +2524,21 @@
     "key": "ut-arlington",
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": 79,
-    "winner": null
+    "score": 80,
+    "winner": false
    },
    "away": {
     "espn_id": "198",
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": 82,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911029",
@@ -8913,5 +8913,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:02:21+00:00"
+ "live_at": "2026-11-25T03:27:23+00:00"
 }

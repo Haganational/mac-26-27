@@ -2885,21 +2885,21 @@
     "key": null,
     "name": "Notre Dame Fighting Irish",
     "abbr": "ND",
-    "score": 74,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2117",
     "key": "central-michigan",
     "name": "Central Michigan Chippewas",
     "abbr": "CMU",
-    "score": 63,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:50 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928845",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:47:32+00:00"
+ "live_at": "2026-11-25T03:09:39+00:00"
 }
