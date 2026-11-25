@@ -2639,7 +2639,7 @@
     "key": null,
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": 40,
+    "score": 64,
     "winner": null
    },
    "away": {
@@ -2647,13 +2647,13 @@
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": 36,
+    "score": 62,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "4:40 - 2nd"
   },
   {
    "game_id": "401926154",
@@ -2680,7 +2680,7 @@
     "key": "southeast-missouri",
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -2688,13 +2688,13 @@
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:55 - 1st"
   },
   {
    "game_id": "401926835",
@@ -8390,5 +8390,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:02:24+00:00"
+ "live_at": "2026-11-25T00:49:15+00:00"
 }

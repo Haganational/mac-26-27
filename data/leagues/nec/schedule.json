@@ -2678,7 +2678,7 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -2686,13 +2686,13 @@
     "key": null,
     "name": "SUNY Fredonia Blue Devils",
     "abbr": "SNYF",
-    "score": null,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401919762",
@@ -8415,5 +8415,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:05:15+00:00"
+ "live_at": "2026-11-25T00:51:20+00:00"
 }

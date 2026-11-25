@@ -2754,7 +2754,7 @@
     "key": null,
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 36,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -2762,13 +2762,13 @@
     "key": "kent-state",
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 34,
+    "score": 75,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "0:30 - 2nd"
   },
   {
    "game_id": "401920949",
@@ -2795,7 +2795,7 @@
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 8,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2803,13 +2803,13 @@
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 17,
+    "score": 24,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:15 - 1st"
+   "detail": "14:14 - 2nd"
   },
   {
    "game_id": "401911027",
@@ -2840,7 +2840,7 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2848,13 +2848,13 @@
     "key": null,
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:16 - 1st"
   },
   {
    "game_id": "401911026",
@@ -9663,5 +9663,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T23:38:27+00:00"
+ "live_at": "2026-11-25T00:31:58+00:00"
 }

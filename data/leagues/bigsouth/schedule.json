@@ -2356,7 +2356,7 @@
     "key": null,
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -2364,13 +2364,13 @@
     "key": "charleston-southern",
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": null,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401911027",
@@ -2401,7 +2401,7 @@
     "key": null,
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2409,13 +2409,13 @@
     "key": "gardner-webb",
     "name": "Gardner-Webb Runnin' Bulldogs",
     "abbr": "GWEB",
-    "score": null,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "0:00 - 1st"
   },
   {
    "game_id": "401928348",
@@ -2446,7 +2446,7 @@
     "key": "presbyterian",
     "name": "Presbyterian Blue Hose",
     "abbr": "PRES",
-    "score": null,
+    "score": 58,
     "winner": null
    },
    "away": {
@@ -2454,13 +2454,13 @@
     "key": null,
     "name": "Carolina Christian Centurions",
     "abbr": "NCCC",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "1:50 - 1st"
   },
   {
    "game_id": "401920414",
@@ -8853,5 +8853,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:48:38+00:00"
 }

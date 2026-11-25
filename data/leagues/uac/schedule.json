@@ -2352,7 +2352,7 @@
     "key": null,
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": "tarleton-state",
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401917904",
@@ -2397,7 +2397,7 @@
     "key": null,
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2405,13 +2405,13 @@
     "key": "west-georgia",
     "name": "West Georgia Wolves",
     "abbr": "WGA",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:02 - 1st"
   },
   {
    "game_id": "401929380",
@@ -8912,5 +8912,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:47:59+00:00"
 }

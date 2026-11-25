@@ -2352,7 +2352,7 @@
     "key": "wyoming",
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
-    "score": 36,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": null,
     "name": "Kent State Golden Flashes",
     "abbr": "KENT",
-    "score": 36,
+    "score": 78,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:20 - 2nd"
+   "detail": "0:03 - 2nd"
   },
   {
    "game_id": "401911458",
@@ -2397,7 +2397,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2405,13 +2405,13 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:00 - 1st"
   },
   {
    "game_id": "401911338",
@@ -9114,5 +9114,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T23:42:09+00:00"
+ "live_at": "2026-11-25T00:34:37+00:00"
 }

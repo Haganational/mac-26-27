@@ -3350,7 +3350,7 @@
     "key": "fau",
     "name": "Florida Atlantic Owls",
     "abbr": "FAU",
-    "score": 46,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -3358,13 +3358,13 @@
     "key": null,
     "name": "Mercer Bears",
     "abbr": "MER",
-    "score": 33,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:25 - 1st"
+   "detail": "8:56 - 2nd"
   },
   {
    "game_id": "401918996",
@@ -3395,7 +3395,7 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": null,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -3403,13 +3403,13 @@
     "key": null,
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:37 - 1st"
   },
   {
    "game_id": "401921702",
@@ -12275,5 +12275,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T23:50:16+00:00"
+ "live_at": "2026-11-25T00:40:31+00:00"
 }

@@ -3907,7 +3907,7 @@
     "key": "coastal-carolina",
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3915,13 +3915,13 @@
     "key": null,
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "1:35 - 1st"
   },
   {
    "game_id": "401921030",
@@ -3952,7 +3952,7 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -3960,13 +3960,13 @@
     "key": "georgia-southern",
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:52 - 1st"
   },
   {
    "game_id": "401911379",
@@ -3997,7 +3997,7 @@
     "key": "james-madison",
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -4005,13 +4005,13 @@
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": null,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "2:08 - 1st"
   },
   {
    "game_id": "401926827",
@@ -4042,7 +4042,7 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -4050,13 +4050,13 @@
     "key": null,
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "2:41 - 1st"
   },
   {
    "game_id": "401925687",
@@ -4087,7 +4087,7 @@
     "key": "louisiana-tech",
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -4095,13 +4095,13 @@
     "key": null,
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:10 - 1st"
   },
   {
    "game_id": "401917983",
@@ -4132,7 +4132,7 @@
     "key": "ul-monroe",
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -4140,13 +4140,13 @@
     "key": null,
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:49 - 1st"
   },
   {
    "game_id": "401929421",
@@ -12650,5 +12650,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:41:30+00:00"
 }

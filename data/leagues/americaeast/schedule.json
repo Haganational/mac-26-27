@@ -2649,7 +2649,7 @@
     "key": null,
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2657,13 +2657,13 @@
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:30 - 1st"
   },
   {
    "game_id": "401923271",
@@ -2694,7 +2694,7 @@
     "key": null,
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 0,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2702,13 +2702,13 @@
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 0,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "19:58 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920889",
@@ -2739,7 +2739,7 @@
     "key": null,
     "name": "Seton Hall Pirates",
     "abbr": "HALL",
-    "score": 4,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2747,13 +2747,13 @@
     "key": "new-hampshire",
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": 0,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "18:47 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920727",
@@ -2784,7 +2784,7 @@
     "key": null,
     "name": "Iowa Hawkeyes",
     "abbr": "IOWA",
-    "score": 2,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2792,13 +2792,13 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": 2,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "18:28 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920695",
@@ -2829,7 +2829,7 @@
     "key": null,
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 0,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2837,13 +2837,13 @@
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 0,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "19:59 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920868",
@@ -8822,5 +8822,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:03:22+00:00"
+ "live_at": "2026-11-25T00:49:57+00:00"
 }

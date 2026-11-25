@@ -2734,7 +2734,7 @@
     "key": null,
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2742,13 +2742,13 @@
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401911279",
@@ -2775,7 +2775,7 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2783,13 +2783,13 @@
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401921266",
@@ -2821,7 +2821,7 @@
     "key": "loyola-md",
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": 0,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2829,13 +2829,13 @@
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 0,
+    "score": 21,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:05 - 1st"
+   "detail": "0:57 - 1st"
   },
   {
    "game_id": "401911338",
@@ -9346,5 +9346,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:04:17+00:00"
+ "live_at": "2026-11-25T00:50:38+00:00"
 }

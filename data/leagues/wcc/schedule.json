@@ -2912,7 +2912,7 @@
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2920,13 +2920,13 @@
     "key": "santa-clara",
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:19 - 1st"
   },
   {
    "game_id": "401920138",
@@ -9692,5 +9692,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:39:44+00:00"
 }

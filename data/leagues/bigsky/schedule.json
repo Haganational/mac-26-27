@@ -2842,7 +2842,7 @@
     "key": "weber-state",
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": null,
+    "score": 44,
     "winner": null
    },
    "away": {
@@ -2850,13 +2850,13 @@
     "key": null,
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401922023",
@@ -9743,5 +9743,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:45:42+00:00"
 }

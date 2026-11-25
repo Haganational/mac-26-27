@@ -2207,7 +2207,7 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2215,13 +2215,13 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "2:38 - 1st"
   },
   {
    "game_id": "401924723",
@@ -7257,5 +7257,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T00:42:36+00:00"
 }
