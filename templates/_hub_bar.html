@@ -48,7 +48,7 @@
     </details>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}
-</div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".909" data-eyes=".405" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="55" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
+</div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".909" data-eyes=".40" data-chin=".585" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="55" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-eyes=".34" data-chin=".655" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
 <script>(function(){var ds=[].slice.call(document.currentScript.previousElementSibling.querySelectorAll('details.hb-eds')),d=ds[0];if(!d)return;
 /* One menu open at a time; a tap outside or Escape closes it. */
 ds.forEach(function(x){x.addEventListener('toggle',function(){if(x.open)ds.forEach(function(o){if(o!==x)o.open=false})})});
@@ -59,18 +59,28 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')ds.forEach(f
 try{var bar=d.closest('.bar');if(!sessionStorage.getItem('hb-hello')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.setItem('hb-hello','1');bar.classList.add('hello');setTimeout(function(){bar.classList.remove('hello')},1700)}}catch(e){}
 /* Peek-a-boo (Matthew, Nov 18-19 2026): on the front page, every load and refresh, Mateo Sandoval rises from the foot of the
    bar behind Watch (shimmy, blown kiss) and Tiffany Park rises behind At-Large (wig wobble, a curtsy dip), then both sink back.
-   About 4.5 s, never for reduced motion, and clicks go straight through them. Each span names its tab (data-at), art ratio (data-ar)
-   and extra width for effects (data-pad). */
-try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches)bar.querySelectorAll('.hb-peek').forEach(function(pk){var w=bar.querySelector(pk.dataset.at);if(!w)return;
-var im=pk.querySelector('img'),go=function(){var br=bar.getBoundingClientRect(),wr=w.getBoundingClientRect();if(!wr.width)return;
-var h=Math.min(Math.round(br.height),92),sw=Math.round(h*parseFloat(pk.dataset.ar)),ww=sw+(+pk.dataset.pad||0);
-pk.style.setProperty('--mh',h+'px');pk.style.setProperty('--mw',sw+'px');pk.style.width=ww+'px';pk.style.height=h+'px';pk.style.top=Math.round(br.height-h)+'px';
-pk.style.left=Math.round(wr.left-br.left+wr.width/2-ww/2)+'px';
-/* data-eyes: where her eyes sit in the art. Lift her until the tab's word clears them (the wig can clip at the top of the bar). */
-if(pk.dataset.eyes){var lift=Math.max(0,Math.min(h*.45,(br.height-h)+h*parseFloat(pk.dataset.eyes)-(wr.top-br.top)+6));pk.style.setProperty('--lift',Math.round(lift)+'px')}
-pk.classList.add('on');w.classList.add('pk-on');setTimeout(function(){pk.classList.remove('on');w.classList.remove('pk-on')},4800)};
-/* Measure after the web fonts land, or they sit over the wrong word on a cold load. */
-im.onload=function(){(document.fonts&&document.fonts.ready||Promise.resolve()).then(function(){requestAnimationFrame(go)})};im.src=im.dataset.src})}catch(e){}
+   About 4.5 s, never for reduced motion, and clicks go straight through them. Each span names its tab (data-at), art ratio (data-ar),
+   where the eyes and chin sit in the art (data-eyes, data-chin) and extra width for effects (data-pad).
+   Level (Matthew, Nov 24 2026: "they are at two diff latitudes"): everyone is measured together, scaled to the same face size,
+   and set on one eye line just above the lowest tab word, so on desktop and on the two-row phone bar their eyes sit level, every
+   word stays clear of their eyes, and their art always reaches the foot of the bar (nobody floats). */
+try{var pks=[].slice.call(bar.querySelectorAll('.hb-peek'));if(pks.length&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+var go=function(){var br=bar.getBoundingClientRect(),bh=br.height,live=[],T=0;
+pks.forEach(function(pk){var w=bar.querySelector(pk.dataset.at);if(!w)return;var t=w.querySelector('summary')||w,wr=t.getBoundingClientRect();if(!wr.width)return;
+var rg=document.createRange();rg.selectNodeContents(t);var tr=rg.getBoundingClientRect();
+live.push({pk:pk,w:w,wr:wr,e:parseFloat(pk.dataset.eyes),c:parseFloat(pk.dataset.chin),ar:parseFloat(pk.dataset.ar)});T=Math.max(T,(tr.height?tr.top:wr.top)-br.top-3)});
+if(!live.length)return;
+var h=Math.min(bh,92);T=Math.max(T,h*.3);
+/* One face size (eyes to chin): Mateo's from his full-height crop, capped at 24px so Tiff's wig doesn't swallow the two-row phone
+   bar, and grown only if anyone would otherwise stop short of the foot of the bar. */
+var face=Math.min(h*.315,24);live.forEach(function(o){face=Math.max(face,(bh-T)*(o.c-o.e)/(1-o.e))});
+live.forEach(function(o){var H=Math.round(face/(o.c-o.e)),sw=Math.round(H*o.ar),ww=sw+(+o.pk.dataset.pad||0),pk=o.pk;
+pk.style.setProperty('--mh',H+'px');pk.style.setProperty('--mw',sw+'px');pk.style.setProperty('--y',Math.round(T-(bh-H*(1-o.e)))+'px');
+pk.style.width=ww+'px';pk.style.height=Math.round(bh)+'px';pk.style.top='0px';pk.style.left=Math.round(o.wr.left-br.left+o.wr.width/2-ww/2)+'px';
+pk.classList.add('on');o.w.classList.add('pk-on');setTimeout(function(){pk.classList.remove('on');o.w.classList.remove('pk-on')},5000)})};
+/* Measure after every image and the web fonts land, or they sit over the wrong word on a cold load. */
+Promise.all(pks.map(function(pk){var im=pk.querySelector('img');return new Promise(function(r){im.onload=im.onerror=r;im.src=im.dataset.src})}))
+.then(function(){return document.fonts&&document.fonts.ready}).then(function(){requestAnimationFrame(go)})}}catch(e){}
 var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();d.querySelectorAll('[data-ed]').forEach(function(a){a.hidden=!!q&&a.dataset.ed.indexOf(q)<0})});})();</script>
 <link rel="stylesheet" href="static/tidy.css"><script src="static/tidy.js" defer></script>
 <a class="fab-dispatch" hidden data-desk="desk.html" href="desk.html" title="Write a dispatch about this page">+ Dispatch</a><style>.fab-dispatch{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;display:inline-flex;align-items:center;gap:6px;padding:10px 15px;background:#a33a2a;color:#fff;font:700 14px/1 system-ui,sans-serif;letter-spacing:.02em;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.28);border:0}.fab-dispatch[hidden]{display:none}.fab-dispatch:hover{filter:brightness(1.08)}</style><script>(function(){try{if(localStorage.getItem('btb-author')!=='1'||/desk\.html$/.test(location.pathname))return;var f=document.querySelector('.fab-dispatch');if(!f)return;f.hidden=false;document.documentElement.classList.add('is-author');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.ng-plus,.pk-plus').forEach(function(a){a.hidden=false})});f.addEventListener('click',function(){var h=document.querySelector('h1'),t=document.title;if(h){h=h.cloneNode(true);h.querySelectorAll('.author-only,.btn-dispatch').forEach(function(x){x.parentNode.removeChild(x)});t=h.textContent||t}t=t.replace(/\s+/g,' ').trim().slice(0,120);f.href=f.dataset.desk+'?ref='+encodeURIComponent(location.pathname+location.hash)+'&rt='+encodeURIComponent(t)})}catch(e){}})();</script>
