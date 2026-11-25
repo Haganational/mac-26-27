@@ -3145,7 +3145,7 @@
     "key": "belmont",
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 31,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -3153,13 +3153,13 @@
     "key": null,
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": 21,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:23 - 1st"
+   "detail": "17:58 - 2nd"
   },
   {
    "game_id": "401921702",
@@ -3190,7 +3190,7 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -3198,13 +3198,13 @@
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:50 - 1st"
   },
   {
    "game_id": "401927366",
@@ -9832,5 +9832,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T15:38:46+00:00"
+ "live_at": "2026-11-25T16:05:36+00:00"
 }

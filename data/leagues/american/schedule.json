@@ -3428,7 +3428,7 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -3436,13 +3436,13 @@
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:16 - 1st"
   },
   {
    "game_id": "401928845",
@@ -3469,7 +3469,7 @@
     "key": null,
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3477,13 +3477,13 @@
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:49 - 1st"
   },
   {
    "game_id": "401919007",
@@ -12262,5 +12262,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T16:09:03+00:00"
 }
