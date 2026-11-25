@@ -1,0 +1,6 @@
+{#- Search analytics (mac/config.py SEARCH): verification tags on the front page, a cookieless
+    Cloudflare Web Analytics beacon on every page. Nothing renders until a value is set. -#}
+{% if search and verify|default(false) %}{% if search.google %}<meta name="google-site-verification" content="{{ search.google }}">
+{% endif %}{% if search.bing %}<meta name="msvalidate.01" content="{{ search.bing }}">
+{% endif %}{% endif %}{% if search and search.beacon %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ search.beacon }}"}'></script>
+{% endif %}

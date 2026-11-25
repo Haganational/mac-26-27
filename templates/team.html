@@ -2,8 +2,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}{{ team.short }} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ team.name }} 2026-27: roster, player profiles, schedule, coverage sources and preseason previews.{% endset %}
+{% set page_title %}{{ team.name }} basketball{% if town_page %} · {{ town_page.label }}{% endif %} · {{ LG }} {{ d.season }}{% endset %}{% set page_desc %}{{ team.name }} men's basketball {{ d.season }}{% if town_page %}, from {{ town_page.label }}{% endif %}: schedule and results, TV, roster, player profiles, lines and local coverage.{% endset %}
 {{ L.head(page_title, page_desc, root="../", path="teams/" ~ team.key ~ ".html", image="static/og/team-" ~ team.key ~ ".png") }}
+{% if team_ld %}<script type="application/ld+json">{{ team_ld|safe }}</script>{% endif %}
 </head>
 <body>
 {{ L.topbar(root="../", active="teams") }}
@@ -120,8 +121,10 @@
   <section id="around-town" class="town">
     <div class="sechead"><h2>Around {{ town.town or team.short }}</h2><span class="dim">{% if press_desk and press_desk.paper %}From <i>{{ press_desk.paper }}</i>{% if press_desk.name %}, edited by <a href="../{{ site_up }}anchors/{{ team.key }}.html">{{ press_desk.name }}</a>{% endif %}{% if town.floor %} · {% endif %}{% endif %}{% if town.floor %}Home floor: {{ town.floor }}{% endif %}</span></div>
     <ol class="town-notes">{% for n in town.notes %}<li><span class="tn-k">{{ n.label }}</span><p>{{ n.text }}{% if n.source %} <a class="src" href="{{ n.source }}" target="_blank" rel="noopener">{{ n.host }}</a>{% endif %}</p></li>{% endfor %}</ol>
-    <p class="note">{% if press_desk and press_desk.paper %}<i>{{ press_desk.paper }}</i> is our hometown paper for {{ team.short }}{% if press_desk.name %}, and {{ press_desk.name }}, its editor, is a fictional AI anchor not affiliated with the school{% endif %}. {% endif %}From the Hardwood Bricks research desk: {{ town.total }} checked notes on {{ team.short }}, its town and its history. A different set shows each day, and the same notes color our game stories.</p>
+    <p class="note">{% if press_desk and press_desk.paper %}<i>{{ press_desk.paper }}</i> is our hometown paper for {{ team.short }}{% if press_desk.name %}, and {{ press_desk.name }}, its editor, is a fictional AI anchor not affiliated with the school{% endif %}. {% endif %}From the Hardwood Bricks research desk: {{ town.total }} checked notes on {{ team.short }}, its town and its history. A different set shows each day, and the same notes color our game stories.{% if town_page %} <a href="../{{ site_up }}{{ town_page.href }}">More from {{ town_page.label }}: home dates and every school in town</a>.{% endif %}</p>
   </section>
+  {% elif town_page %}
+  <p class="note"><a href="../{{ site_up }}{{ town_page.href }}">{{ town_page.label }} college basketball: home dates and every school in town</a></p>
   {% endif %}
 
   {% if ctx.storylines or ctx.recent_news %}

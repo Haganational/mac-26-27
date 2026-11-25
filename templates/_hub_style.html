@@ -395,3 +395,4 @@
   .lead-v .lead-more { display: inline-block; margin-top: 10px; font: 600 14px/1 var(--cond); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
   .lead-v .lead-more:hover { text-decoration: underline; text-underline-offset: 3px; }
 </style>
+{% if not verify|default(false) %}{% include "_analytics.html" %}{% endif %}

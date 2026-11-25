@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>{{ title }}</title>
+<meta name="description" content="{{ desc }}">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% else %}<meta name="robots" content="max-image-preview:large">
+{% endif %}<link rel="canonical" href="{{ base }}towns/{{ town.slug }}.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hardwood Bricks">
+<meta property="og:title" content="{{ town.label }} college basketball">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:url" content="{{ base }}towns/{{ town.slug }}.html">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="geo.region" content="US-{{ town.abbr }}">
+<meta name="geo.placename" content="{{ town.label }}">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .tw-dek { font: 400 19px/1.45 var(--serif); color: var(--ink-2); margin: 0 0 6px; }
+  .tw-facts { font: 600 12.5px/1.4 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  .tw-facts a { text-decoration: none; border-bottom: 1px dotted var(--muted); }
+  .tw-school h2 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .tw-school h2 i { width: 12px; height: 12px; display: inline-block; background: var(--c); box-shadow: 0 0 0 2px var(--c2); flex: none; align-self: center; }
+  .tw-school h2 small { font: 600 12.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .tw-meta { margin: 0 0 12px; color: var(--ink-2); }
+  .tw-games { table-layout: fixed; }
+  .tw-games th:nth-child(1), .tw-games td:nth-child(1) { width: 24%; white-space: nowrap; } .tw-games th:nth-child(2), .tw-games td:nth-child(2) { width: 17%; } .tw-games th:nth-child(4), .tw-games td:nth-child(4) { width: 20%; }
+  .tw-games .w { font-weight: 700; }
+  .tw-games .dim, .tw-none { color: var(--muted); }
+  .tw-notes { list-style: none; margin: 14px 0 0; padding: 0; }
+  .tw-notes li { margin: 0; padding: 9px 0; border-top: 1px solid var(--rule); font: 400 16px/1.5 var(--serif); }
+  .tw-notes .k { display: block; font: 600 11.5px/1.3 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .tw-notes .src { font: 500 12px/1 var(--sans, system-ui); color: var(--muted); }
+  .tw-go { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; font: 600 13px/1.3 var(--cond); letter-spacing: .08em; text-transform: uppercase; }
+  .tw-go a { text-decoration: none; color: var(--accent); }
+  .tw-near a { margin-right: 14px; display: inline-block; }
+  .crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 0; }
+  .crumbs a { text-decoration: none; }
+  @media (max-width: 600px) { .tw-games th:nth-child(4), .tw-games td:nth-child(4) { display: none; } .tw-games th:nth-child(1), .tw-games td:nth-child(1) { width: 34%; } .tw-games th:nth-child(2), .tw-games td:nth-child(2) { width: 24%; } }
+</style>
+<script type="application/ld+json">{{ ld_json|safe }}</script>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "towns/") }}
+<main class="mast">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Hardwood Bricks</a> / <a href="towns/">Our towns</a> / {{ town.label }}</nav>
+  <h1>{{ town.label }} college basketball</h1>
+  <p class="tw-dek">{% if town.schools|length == 1 %}{% set s = town.schools[0] %}Home of the {{ s.name }}{% if s.arena.name %}, who play at {{ s.arena.name }}{% endif %}. Every home date left, the TV, the last few results and a few things worth knowing about the place.{% else %}{{ town.schools|length }} Division I men's programs share {{ town.town }}: {% for s in town.schools %}{{ s.name }}{{ ', ' if not loop.last and loop.revindex > 2 else (' and ' if loop.revindex == 2 else '') }}{% endfor %}. Every home date left in town, the TV and the last few results.{% endif %}</p>
+  <p class="tw-facts">{% if town.county %}{% if town.county_src %}<a href="{{ town.county_src }}" rel="noopener">{{ town.county }}</a>{% else %}{{ town.county }}{% endif %}{% endif %}{% if town.population %}{% if town.county %} · {% endif %}Population {% if town.pop_src %}<a href="{{ town.pop_src }}" rel="noopener">{{ "{:,}".format(town.population) }}</a>{% else %}{{ "{:,}".format(town.population) }}{% endif %}{% if town.pop_year %} ({{ town.pop_year }}){% endif %}{% endif %}{% if town.next %} · Next home tip {{ town.next.day }}{% endif %}</p>
+
+  {% for s in town.schools %}
+  <section class="tw-school" id="{{ s.key }}" style="--c:{{ s.color }};--c2:{{ s.color2 }}" aria-labelledby="h-{{ s.key }}">
+    <h2 id="h-{{ s.key }}"><i aria-hidden="true"></i><a href="{{ s.team_href }}">{{ s.name }}</a> <small>{{ s.conf }}</small></h2>
+    <p class="tw-meta">{% if s.arena.name %}Home floor: <b>{{ s.arena.name }}</b>{% if s.floor and s.floor|lower not in s.arena.name|lower %} ({{ s.floor }}){% endif %}. {% endif %}{% if s.enrollment %}About {{ "{:,}".format(s.enrollment) }} students. {% endif %}Covered every night by our <a href="{{ s.edition or './' }}">{{ s.conf }} edition</a>.</p>
+
+    <h3 class="tw-facts">Home dates left</h3>
+    {% if s.upcoming %}
+    <table class="tw-games">
+      <thead><tr><th>Date</th><th>Tip</th><th>Opponent</th><th>TV</th></tr></thead>
+      <tbody>{% for g in s.upcoming %}<tr><td><a href="{{ g.href }}">{{ g.day }}</a></td><td>{{ g.tip or 'TBA' }}</td><td>{{ g.opp }}{% if g.conf %} <span class="dim">({{ s.conf }})</span>{% endif %}</td><td>{{ g.tv or '' }}</td></tr>{% endfor %}</tbody>
+    </table>
+    {% else %}<p class="tw-none">No home dates left on the schedule we have. Check back when the postseason sets.</p>{% endif %}
+
+    {% if s.recent %}
+    <h3 class="tw-facts" style="margin-top:16px">Lately at home</h3>
+    <table class="tw-games">
+      <tbody>{% for g in s.recent %}<tr><td><a href="{{ g.href }}">{{ g.day }}</a></td><td class="{{ 'w' if g.won }}">{{ 'W' if g.won else 'L' }} {{ g.us }}-{{ g.them }}</td><td>{{ g.opp }}</td><td></td></tr>{% endfor %}</tbody>
+    </table>
+    {% endif %}
+
+    {% if s.notes %}
+    <ol class="tw-notes">{% for n in s.notes %}<li><span class="k">{{ n.label }}</span>{{ n.text }}{% if n.source %} <a class="src" href="{{ n.source }}" rel="noopener">{{ n.host }}</a>{% endif %}</li>{% endfor %}</ol>
+    {% endif %}
+
+    <p class="tw-go"><a href="{{ s.team_href }}">{{ s.short }} team page</a><a href="{{ s.weekly_href }}">{{ s.weekly_paper }}</a>{% if s.anchor_href %}<a href="{{ s.anchor_href }}">{{ s.paper or 'Hometown paper' }}</a>{% endif %}</p>
+  </section>
+  {% endfor %}
+
+  {% if neighbors %}
+  <section class="tw-near" aria-labelledby="h-near">
+    <h2 id="h-near">Elsewhere in {{ town.state }}</h2>
+    <p>{% for n in neighbors %}<a href="towns/{{ n.slug }}.html">{{ n.town }}</a>{% endfor %}</p>
+  </section>
+  {% endif %}
+
+  <p class="tw-none" style="font-size:13px">Schedules and TV from ESPN, refreshed through the day; times Eastern. Town facts from the Hardwood Bricks research desk, sourced as linked. {% if town.schools|selectattr('anchor')|list %}Our hometown papers and their editors are fictional AI anchors, not affiliated with any school. {% endif %}Updated {{ built }}.</p>
+</main>
+{% call hub_foot(eds) %}<a href="towns/">All {{ n_towns }} towns</a>.{% endcall %}
+</body>
+</html>

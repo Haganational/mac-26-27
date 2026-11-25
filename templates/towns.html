@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>Our towns: mid-major basketball in {{ n_towns }} college towns · Hardwood Bricks</title>
+<meta name="description" content="Every college town Hardwood Bricks covers, state by state: {{ n_schools }} Division I men's basketball programs in {{ n_towns }} towns, each with its home dates, TV and local notes.">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">
+{% endif %}<link rel="canonical" href="{{ base }}towns/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Our towns · Hardwood Bricks">
+<meta property="og:url" content="{{ base }}towns/">
+<meta property="og:image" content="{{ base }}static/og/site.png">
+<meta name="theme-color" content="#2a1a10">
+<link rel="icon" href="static/og/icon-192.png" type="image/png">
+{% include "_hub_style.html" %}
+<style>
+  .tw-dek { font: 400 19px/1.45 var(--serif); color: var(--ink-2); }
+  .tw-find { width: 100%; max-width: 360px; padding: 9px 11px; font: inherit; border: 1px solid var(--rule-2); background: var(--surface); color: var(--ink); }
+  .tw-st ul { list-style: none; margin: 0; padding: 0; columns: 2 240px; column-gap: 28px; }
+  .tw-st li { break-inside: avoid; margin: 0; padding: 6px 0; border-top: 1px solid var(--rule); }
+  .tw-st li a { font-weight: 700; text-decoration: none; }
+  .tw-st li span { display: block; font-size: 13.5px; color: var(--muted); }
+</style>
+<script type="application/ld+json">{{ ld_json|safe }}</script>
+</head>
+<body>
+{% from "_hub_bar.html" import hub_bar, hub_foot %}{{ hub_bar(eds, "towns/") }}
+<main class="mast">
+  <h1>Our towns</h1>
+  <p class="tw-dek">Mid-major basketball is a local business. These are the {{ n_towns }} towns on our beat, from the big cities that hold three programs to the places where the arena is the biggest room in the county. Pick a town for its home dates, the TV and a few things worth knowing.</p>
+  <input class="tw-find" type="search" placeholder="Find a town or a school" aria-label="Find a town or a school" data-find>
+  {% for st in states %}
+  <section class="tw-st" data-st aria-labelledby="st-{{ st.abbr|lower }}">
+    <h2 id="st-{{ st.abbr|lower }}">{{ st.state }}</h2>
+    <ul>{% for t in st.towns %}<li data-q="{{ t.label|lower }} {% for s in t.schools %}{{ s.name|lower }} {{ s.conf|lower }} {% endfor %}"><a href="towns/{{ t.slug }}.html">{{ t.town if t.state != 'District of Columbia' else 'Washington' }}</a><span>{% for s in t.schools %}{{ s.short }} ({{ s.conf }}){{ ', ' if not loop.last }}{% endfor %}</span></li>{% endfor %}</ul>
+  </section>
+  {% endfor %}
+</main>
+{% call hub_foot(eds) %}Updated {{ built }}.{% endcall %}
+<script>(function(){var f=document.querySelector('[data-find]');if(!f)return;f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();document.querySelectorAll('[data-st]').forEach(function(s){var any=false;s.querySelectorAll('[data-q]').forEach(function(li){var on=!q||li.dataset.q.indexOf(q)>=0;li.hidden=!on;any=any||on});s.hidden=!any})})})();</script>
+</body>
+</html>
