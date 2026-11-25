@@ -1,6 +1,6 @@
 # Mateo Sandoval, The Albuquerque Register
 
-_New Mexico (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_New Mexico (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:preview -->
 - 2026-11-21: L 60-85 at Wichita State Shockers. Barometer 50 (steady). <!-- g:401919031 -->
 - 2026-11-21: Social recap posted (L 60-85 vs Wichita State Shockers): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:preview -->

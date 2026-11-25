@@ -1,6 +1,6 @@
 # Caleb Thornton, The Santa Barbara Spectator
 
-_UCSB (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UCSB (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 
 ## Barometer
 
-**86 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**88 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,5 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 - 2026-11-20: W 88-80 at Pepperdine Waves. Barometer 86 (giddy). <!-- g:401928354 -->
 - 2026-11-20: Social recap posted (W 88-80 vs Pepperdine Waves): https://hardwoodbricks.com/bigwest/games/401928354.html <!-- post:401928354:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:preview -->
+- 2026-11-25: W 85-65 vs UNC Greensboro Spartans. Barometer 88 (giddy). <!-- g:401926184 -->
+- 2026-11-25: Social recap posted (W 85-65 vs UNC Greensboro Spartans): https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:recap -->

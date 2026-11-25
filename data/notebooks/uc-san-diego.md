@@ -1,6 +1,6 @@
 # Natalie Lin, The La Jolla Mercury
 
-_UC San Diego (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UC San Diego (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**42 of 100, testy.** Record 3-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Natalie editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,5 @@ Natalie Lin grew up in Clairemont, San Diego, the daughter of Taiwanese-American
 - 2026-11-23: W 90-64 vs (neutral) Seattle U Redhawks. Barometer 66 (buoyant). <!-- g:401917542 -->
 - 2026-11-23: Social recap posted (W 90-64 vs Seattle U Redhawks): https://hardwoodbricks.com/bigwest/games/401917542.html <!-- post:401917542:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:preview -->
+- 2026-11-24: L 79-88 vs (neutral) San José State Spartans. Barometer 42 (testy). <!-- g:401921664 -->
+- 2026-11-24: Social recap posted (L 79-88 vs San José State Spartans): https://hardwoodbricks.com/mw/games/401921664.html <!-- post:401921664:recap -->

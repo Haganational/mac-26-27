@@ -1,6 +1,6 @@
 # Grace Okafor, The Sharpstown Ledger
 
-_Houston Christian (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Houston Christian (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
+**68 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Grace editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Grace editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 - 2026-11-20: L 79-86 vs Georgia Southern Eagles. Barometer 62 (steady). <!-- g:401921028 -->
 - 2026-11-20: Social recap posted (L 79-86 vs Georgia Southern Eagles): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:preview -->
+- 2026-11-25: W 84-58 at UL Monroe Warhawks. Barometer 68 (buoyant). <!-- g:401917983 -->
+- 2026-11-25: Social recap posted (W 84-58 vs UL Monroe Warhawks): https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:recap -->

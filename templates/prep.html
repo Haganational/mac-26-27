@@ -60,7 +60,7 @@
       {% if s.last5 %}
       <h3>Last {{ s.last5|length }}</h3>
       <table>
-        {% for x in s.last5 %}<tr><td>{{ x.date }}</td><td>{{ x.site }} {{ x.opp|school }}{{ '*' if x.conf }}</td><td class="num"><b>{{ x.wl }}</b> {{ x.score }}</td></tr>{% endfor %}
+        {% for x in s.last5 %}<tr><td>{{ x.date }}</td>{% set gh = game_href.get(x.game_id) %}<td>{{ x.site }} {% if gh and gh.startswith('games/') %}<a href="../{{ gh }}">{{ x.opp|school }}</a>{% else %}{{ x.opp|school }}{% endif %}{{ '*' if x.conf }}</td><td class="num"><b>{{ x.wl }}</b> {{ x.score }}</td></tr>{% endfor %}
       </table>
       {% endif %}
       {% if s.roster %}

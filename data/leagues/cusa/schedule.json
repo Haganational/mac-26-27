@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:18:42+00:00",
+ "fetched_at": "2026-11-25T18:24:17+00:00",
  "season": 2027,
  "games": [
   {
@@ -2551,21 +2551,21 @@
     "key": "new-mexico-state",
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
-    "score": null,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "195",
     "key": null,
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928358",
@@ -2583,11 +2583,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2596,21 +2592,21 @@
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "253",
     "key": null,
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920949",
@@ -2637,21 +2633,21 @@
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": null,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
    "away": {
     "espn_id": "2199",
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928796",
@@ -2669,11 +2665,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-11-24-2026--sports-ncaa-basketball/production/7633995?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Beasley Coliseum",
    "venue_city": "Pullman",
    "venue_state": "WA",
@@ -2682,21 +2674,21 @@
     "key": null,
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2534",
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928359",
@@ -2716,7 +2708,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -2746,8 +2738,8 @@
   {
    "game_id": "401924737",
    "date": "2026-11-25T21:00Z",
-   "name": "Liberty Flames at Princeton Tigers",
-   "short_name": "LIB VS PRIN",
+   "name": "Princeton Tigers at Liberty Flames",
+   "short_name": "PRIN VS LIB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2758,6 +2750,14 @@
    "venue_city": "Wilmington",
    "venue_state": "NC",
    "home": {
+    "espn_id": "2335",
+    "key": "liberty",
+    "name": "Liberty Flames",
+    "abbr": "LIB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
     "espn_id": "163",
     "key": null,
     "name": "Princeton Tigers",
@@ -2765,11 +2765,44 @@
     "score": null,
     "winner": null
    },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920549",
+   "date": "2026-11-25T23:00Z",
+   "name": "Kennesaw State Owls at Charleston Cougars",
+   "short_name": "KENN VS COFC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "232",
+    "key": null,
+    "name": "Charleston Cougars",
+    "abbr": "COFC",
+    "score": null,
+    "winner": null
+   },
    "away": {
-    "espn_id": "2335",
-    "key": "liberty",
-    "name": "Liberty Flames",
-    "abbr": "LIB",
+    "espn_id": "338",
+    "key": "kennesaw-state",
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN",
     "score": null,
     "winner": null
    },
@@ -2828,7 +2861,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -2957,7 +2996,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 14.0,
+    "low": 27.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Mabee Center",
@@ -3175,7 +3214,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-28-2026--sports-ncaa-basketball/production/7661797?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Stony Brook Arena",
@@ -3308,7 +3347,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-11-30-2026--sports-ncaa-basketball/production/7915086?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:20:52Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -3662,7 +3705,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/liberty-flames-mens-basketball-tickets-liberty-arena-12-5-2026--sports-ncaa-basketball/production/7558817?wsUser=717",
-    "low": 45.0,
+    "low": 38.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Liberty Arena (VA)",
@@ -3797,7 +3840,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-12-5-2026--sports-ncaa-basketball/production/7422240?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "The Pit",
@@ -4014,7 +4057,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-6-2026--sports-ncaa-basketball/production/7915088?wsUser=717",
-    "low": 53.0,
+    "low": 37.0,
     "since": "2026-11-21T18:13:51Z"
    },
    "venue": "Great Southern Bank Arena",
@@ -4094,7 +4137,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-12-9-2026--sports-ncaa-basketball/production/7864146?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "GSU Convocation Center",
@@ -4444,7 +4487,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-12-2026--sports-ncaa-basketball/production/7459088?wsUser=717",
-    "low": 25.0,
+    "low": 18.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Lawlor Events Center",
@@ -5271,7 +5314,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-12-21-2026--sports-ncaa-basketball/production/7915090?wsUser=717",
-    "low": 65.0,
+    "low": 37.0,
     "since": "2026-11-23T18:13:33Z"
    },
    "venue": "Great Southern Bank Arena",
@@ -5441,7 +5484,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kennesaw-state-owls-mens-basketball-tickets-ksu-convocation-center---vystar-arena-12-22-2026--sports-ncaa-basketball/production/7574848?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "VyStar Arena",
@@ -5566,7 +5609,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-12-29-2026--sports-ncaa-basketball/production/7649436?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Bob Carpenter Center",
@@ -6049,7 +6092,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-1-7-2027--sports-ncaa-basketball/production/7915092?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:20:52Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -6515,7 +6562,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-1-16-2027--sports-ncaa-basketball/production/7649434?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Bob Carpenter Center",
@@ -7361,7 +7408,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-blue-hens-mens-basketball-tickets-bob-carpenter-center-at-university-of-delaware-2-4-2027--sports-ncaa-basketball/production/7297611?wsUser=717",
-    "low": 16.0,
+    "low": 21.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Bob Carpenter Center",
@@ -8090,7 +8137,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-2-18-2027--sports-ncaa-basketball/production/7290242?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -8129,7 +8176,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-2-18-2027--sports-ncaa-basketball/production/7290312?wsUser=717",
-    "low": 53.0,
+    "low": 37.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Great Southern Bank Arena",
@@ -8283,7 +8330,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-2-20-2027--sports-ncaa-basketball/production/7915096?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:20:52Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -8856,7 +8907,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-3-4-2027--sports-ncaa-basketball/production/7915094?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:20:52Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",

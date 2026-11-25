@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:07:35+00:00",
+ "fetched_at": "2026-11-25T18:12:12+00:00",
  "season": 2027,
  "games": [
   {
@@ -2660,27 +2660,27 @@
     "key": "uc-san-diego",
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": false
    },
    "away": {
     "espn_id": "23",
     "key": null,
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924267",
-   "date": "2026-11-24T20:30Z",
-   "name": "Long Beach State Beach at Arkansas State Red Wolves",
-   "short_name": "LBSU VS ARST",
+   "date": "2026-11-24T20:45Z",
+   "name": "Arkansas State Red Wolves at Long Beach State Beach",
+   "short_name": "ARST VS LBSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2697,25 +2697,25 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2032",
-    "key": null,
-    "name": "Arkansas State Red Wolves",
-    "abbr": "ARST",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "299",
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2032",
+    "key": null,
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "score": 106,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926184",
@@ -2733,11 +2733,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/santa-barbara-gauchos-mens-basketball-tickets-ucsb-events-center-11-24-2026--sports-ncaa-basketball/production/7605277?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:05:53Z"
-   },
+   "tickets": null,
    "venue": "The Thunderdome",
    "venue_city": "Santa Barbara",
    "venue_state": "CA",
@@ -2746,21 +2742,21 @@
     "key": "uc-santa-barbara",
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2430",
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924268",
@@ -2787,7 +2783,7 @@
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -2795,13 +2791,13 @@
     "key": null,
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "0:52 - 1st"
   },
   {
    "game_id": "401925917",
@@ -3437,7 +3433,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/long-beach-state-beach-mens-basketball-tickets-lbs-financial-credit-union-pyramid-12-3-2026--sports-ncaa-basketball/production/7608576?wsUser=717",
-    "low": 24.0,
+    "low": 20.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LBS Financial Credit Union Pyramid",
@@ -3833,7 +3829,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-8-2026--sports-ncaa-basketball/production/7785763?wsUser=717",
     "low": 20.0,
@@ -3964,7 +3966,7 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-9-2026--sports-ncaa-basketball/production/7367801?wsUser=717",
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-9-2026--sports-ncaa-basketball/production/7865588?wsUser=717",
     "low": 36.0,
     "since": "2026-11-18T23:05:53Z"
    },
@@ -4490,8 +4492,8 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-13-2026--sports-ncaa-basketball/production/7367803?wsUser=717",
-    "low": 51.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-13-2026--sports-ncaa-basketball/production/7865590?wsUser=717",
+    "low": 34.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -5046,7 +5048,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-boilermakers-mens-basketball-tickets-mackey-arena-12-21-2026--sports-ncaa-basketball/production/7037659?wsUser=717",
-    "low": 26.0,
+    "low": 23.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Mackey Arena",
@@ -5388,7 +5390,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-12-22-2026--sports-ncaa-basketball/production/7419567?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Thomas & Mack Center",
@@ -5477,8 +5479,8 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-22-2026--sports-ncaa-basketball/production/7367805?wsUser=717",
-    "low": 47.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-22-2026--sports-ncaa-basketball/production/7865592?wsUser=717",
+    "low": 36.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -5608,7 +5610,7 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-31-2026--sports-ncaa-basketball/production/7367807?wsUser=717",
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-31-2026--sports-ncaa-basketball/production/7865594?wsUser=717",
     "low": 47.0,
     "since": "2026-11-18T23:05:53Z"
    },
@@ -5742,7 +5744,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-12-31-2026--sports-ncaa-basketball/production/7919179?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -5900,7 +5906,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-1-2-2027--sports-ncaa-basketball/production/7919181?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -6014,8 +6024,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-1-2-2027--sports-ncaa-basketball/production/7367811?wsUser=717",
-    "low": 58.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-1-2-2027--sports-ncaa-basketball/production/7865596?wsUser=717",
+    "low": 47.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -6559,7 +6569,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-1-14-2027--sports-ncaa-basketball/production/7919185?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -6595,8 +6609,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-1-14-2027--sports-ncaa-basketball/production/7367813?wsUser=717",
-    "low": 63.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-1-14-2027--sports-ncaa-basketball/production/7865598?wsUser=717",
+    "low": 47.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -6791,7 +6805,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-1-16-2027--sports-ncaa-basketball/production/7890255?wsUser=717",
-    "low": 34.0,
+    "low": 19.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -6906,7 +6920,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-1-16-2027--sports-ncaa-basketball/production/7919189?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -6942,8 +6960,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-1-16-2027--sports-ncaa-basketball/production/7367815?wsUser=717",
-    "low": 69.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-1-16-2027--sports-ncaa-basketball/production/7865600?wsUser=717",
+    "low": 52.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -7176,8 +7194,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-1-21-2027--sports-ncaa-basketball/production/7367817?wsUser=717",
-    "low": 63.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-1-21-2027--sports-ncaa-basketball/production/7865602?wsUser=717",
+    "low": 61.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -7333,7 +7351,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-1-23-2027--sports-ncaa-basketball/production/7358976?wsUser=717",
-    "low": 44.0,
+    "low": 32.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -7371,8 +7389,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-1-23-2027--sports-ncaa-basketball/production/7367821?wsUser=717",
-    "low": 62.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-1-23-2027--sports-ncaa-basketball/production/7865604?wsUser=717",
+    "low": 52.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -7487,7 +7505,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-1-28-2027--sports-ncaa-basketball/production/7919191?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -7756,7 +7778,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-1-30-2027--sports-ncaa-basketball/production/7919195?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -7908,7 +7934,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-2-4-2027--sports-ncaa-basketball/production/7919197?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -8023,7 +8053,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-4-2027--sports-ncaa-basketball/production/7359000?wsUser=717",
-    "low": 36.0,
+    "low": 32.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -8177,7 +8207,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-2-6-2027--sports-ncaa-basketball/production/7919199?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -8292,7 +8326,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-6-2027--sports-ncaa-basketball/production/7359006?wsUser=717",
-    "low": 42.0,
+    "low": 31.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -8564,7 +8598,7 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-2-11-2027--sports-ncaa-basketball/production/7367823?wsUser=717",
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-2-11-2027--sports-ncaa-basketball/production/7865606?wsUser=717",
     "low": 74.0,
     "since": "2026-11-18T23:05:53Z"
    },
@@ -8798,8 +8832,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-2-13-2027--sports-ncaa-basketball/production/7367825?wsUser=717",
-    "low": 67.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-2-13-2027--sports-ncaa-basketball/production/7865608?wsUser=717",
+    "low": 61.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -9033,7 +9067,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-18-2027--sports-ncaa-basketball/production/7359008?wsUser=717",
-    "low": 36.0,
+    "low": 32.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -9189,7 +9223,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-20-2027--sports-ncaa-basketball/production/7359010?wsUser=717",
-    "low": 52.0,
+    "low": 32.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -9228,7 +9262,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-2-20-2027--sports-ncaa-basketball/production/7865610?wsUser=717",
-    "low": 63.0,
+    "low": 59.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -9265,7 +9299,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-2-20-2027--sports-ncaa-basketball/production/7919201?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -9300,7 +9338,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-2-25-2027--sports-ncaa-basketball/production/7919203?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -9337,7 +9379,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-25-2027--sports-ncaa-basketball/production/7359012?wsUser=717",
-    "low": 38.0,
+    "low": 24.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -9375,8 +9417,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-2-25-2027--sports-ncaa-basketball/production/7367829?wsUser=717",
-    "low": 69.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-2-25-2027--sports-ncaa-basketball/production/7865612?wsUser=717",
+    "low": 61.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -9569,7 +9611,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/california-baptist-lancers-mens-basketball-tickets-dale-e-and-sarah-ann-fowler-events-center-2-27-2027--sports-ncaa-basketball/production/7919205?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:11:32Z"
+   },
    "venue": "Dale E. and Sarah Ann Fowler Events Center",
    "venue_city": "Riverside",
    "venue_state": "CA",
@@ -9645,7 +9691,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-2-27-2027--sports-ncaa-basketball/production/7359014?wsUser=717",
-    "low": 46.0,
+    "low": 24.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -9722,8 +9768,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-2-27-2027--sports-ncaa-basketball/production/7367831?wsUser=717",
-    "low": 69.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-2-27-2027--sports-ncaa-basketball/production/7865620?wsUser=717",
+    "low": 57.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Hornet Pavilion",
@@ -9840,7 +9886,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-3-4-2027--sports-ncaa-basketball/production/7890285?wsUser=717",
-    "low": 34.0,
+    "low": 19.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -10074,7 +10120,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/cal-state-fullerton-titans-mens-basketball-tickets-titan-gym---cal-state-university-3-6-2027--sports-ncaa-basketball/production/7890289?wsUser=717",
-    "low": 34.0,
+    "low": 19.0,
     "since": "2026-11-20T12:05:17Z"
    },
    "venue": "Titan Gym",
@@ -10219,5 +10265,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T04:00:23+00:00"
+ "live_at": "2026-11-25T18:46:15+00:00"
 }

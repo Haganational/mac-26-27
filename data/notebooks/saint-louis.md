@@ -1,6 +1,6 @@
 # Anastasia Volkov, The St. Louis Examiner
 
-_Saint Louis (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Saint Louis (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**40 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Anastasia editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Anastasia editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,6 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 - 2026-11-21: L 78-95 at Saint Mary's Gaels. Barometer 49 (steady). <!-- g:401911252 -->
 - 2026-11-21: Social recap posted (L 78-95 vs Saint Mary's Gaels): https://hardwoodbricks.com/a10/games/401911252.html <!-- post:401911252:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911253.html <!-- post:401911253:preview -->
+- 2026-11-25: W 91-88 vs (neutral) Grand Canyon Lopes. Barometer 55 (steady). <!-- g:401911253 -->
+- 2026-11-25: Social recap posted (W 91-88 vs Grand Canyon Lopes): https://hardwoodbricks.com/mw/games/401911253.html <!-- post:401911253:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/a10/games/401921672.html <!-- post:401921672:preview -->

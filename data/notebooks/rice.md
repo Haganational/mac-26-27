@@ -1,6 +1,6 @@
 # Eleanor Pryce, The Houston Almanac
 
-_Rice (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Rice (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 
 ## Barometer
 
-**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
+**76 of 100, buoyant.** Record 6-2 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,7 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 - 2026-11-23: Social recap posted (W 85-81 vs Lamar Cardinals): https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:preview -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401928845.html <!-- post:401928845:preview -->
+- 2026-11-24: W 68-67 vs (neutral) UIC Flames. Barometer 70 (buoyant). <!-- g:401928859 -->
+- 2026-11-24: Social recap posted (W 68-67 vs UIC Flames): https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:recap -->
+- 2026-11-25: W 82-74 vs (neutral) Ohio Bobcats. Barometer 76 (buoyant). <!-- g:401928845 -->
+- 2026-11-25: Social recap posted (W 82-74 vs Ohio Bobcats): https://hardwoodbricks.com/games/401928845.html <!-- post:401928845:recap -->

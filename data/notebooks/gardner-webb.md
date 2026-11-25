@@ -1,6 +1,6 @@
 # Mary Beth Yount, The Boiling Springs Sentinel
 
-_Gardner-Webb (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Gardner-Webb (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 
 ## Barometer
 
-**29 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
+**22 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mary editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Mary Beth Yount runs The Boiling Springs Sentinel out of a back room that smells
 - 2026-11-22: L 68-71 at VMI Keydets. Barometer 29 (despondent). <!-- g:401911394 -->
 - 2026-11-22: Social recap posted (L 68-71 vs VMI Keydets): https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401911027.html <!-- post:401911027:preview -->
+- 2026-11-25: L 65-91 at Bowling Green Falcons. Barometer 22 (despondent). <!-- g:401911027 -->
+- 2026-11-25: Social recap posted (L 65-91 vs Bowling Green Falcons): https://hardwoodbricks.com/games/401911027.html <!-- post:401911027:recap -->

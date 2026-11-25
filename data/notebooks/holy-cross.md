@@ -1,6 +1,6 @@
 # Frank Moriarty, The Worcester Clarion
 
-_Holy Cross (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Holy Cross (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:preview -->
 - 2026-11-21: L 65-77 vs Harvard Crimson. Barometer 15 (despondent). <!-- g:401920357 -->
 - 2026-11-21: Social recap posted (L 65-77 vs Harvard Crimson): https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401920237.html <!-- post:401920237:preview -->

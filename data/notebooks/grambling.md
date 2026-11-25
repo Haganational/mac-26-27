@@ -1,6 +1,6 @@
 # Keisha Robinson, The Grambling Ledger
 
-_Grambling (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Grambling (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -62,7 +62,7 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -77,3 +77,4 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/swac/games/401928389.html <!-- post:401928389:preview -->
 - 2026-11-23: W 126-45 vs Ecclesia Royals. Barometer 46 (steady). <!-- g:401928389 -->
 - 2026-11-23: Social recap posted (W 126-45 vs Ecclesia Royals): https://hardwoodbricks.com/swac/games/401928389.html <!-- post:401928389:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401925050.html <!-- post:401925050:preview -->

@@ -1,6 +1,6 @@
 # Monique Batiste, The Baton Rouge Courier
 
-_Southern (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Southern (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/swac/games/401928360.html <!-- post:401928360:preview -->
 - 2026-11-17: W 100-58 vs Louisiana Christian Wildcats. Barometer 37 (testy). <!-- g:401928360 -->
 - 2026-11-17: Social recap posted (W 100-58 vs Louisiana Christian Wildcats): https://hardwoodbricks.com/swac/games/401928360.html <!-- post:401928360:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:preview -->

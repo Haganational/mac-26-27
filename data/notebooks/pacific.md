@@ -1,6 +1,6 @@
 # Rex Stockwell, The Stockton Clarion
 
-_Pacific (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Pacific (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -72,7 +72,7 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,5 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:preview -->
 - 2026-11-22: W 63-62 vs Bradley Braves. Barometer 73 (buoyant). <!-- g:401917537 -->
 - 2026-11-22: Social recap posted (W 63-62 vs Bradley Braves): https://hardwoodbricks.com/mvc/games/401917537.html <!-- post:401917537:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:preview -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/wcc/games/401917546.html <!-- post:401917546:preview -->

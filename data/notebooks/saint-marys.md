@@ -1,6 +1,6 @@
 # Fergus Byrne, The Moraga Messenger
 
-_Saint Mary's (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Saint Mary's (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Fergus Byrne was the children's librarian in Moraga for twenty years and ran a S
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/wcc/games/401929595.html <!-- post:401929595:preview -->
 - 2026-11-23: W 94-78 vs Menlo Oaks. Barometer 81 (giddy). <!-- g:401929595 -->
 - 2026-11-23: Social recap posted (W 94-78 vs Menlo Oaks): https://hardwoodbricks.com/wcc/games/401929595.html <!-- post:401929595:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/wcc/games/401917547.html <!-- post:401917547:preview -->

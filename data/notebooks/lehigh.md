@@ -1,6 +1,6 @@
 # Carl Brenner, The Bethlehem Mercury
 
-_Lehigh (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Lehigh (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 
 ## Barometer
 
-**68 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five WLWWW.
+**56 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -82,3 +82,5 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-21: W 79-38 vs Neumann Knights. Barometer 68 (buoyant). <!-- g:401926755 -->
 - 2026-11-21: Social recap posted (W 79-38 vs Neumann Knights): https://hardwoodbricks.com/patriot/games/401926755.html <!-- post:401926755:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:preview -->
+- 2026-11-25: L 83-90 vs Binghamton Bearcats. Barometer 56 (steady). <!-- g:401911279 -->
+- 2026-11-25: Social recap posted (L 83-90 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:recap -->

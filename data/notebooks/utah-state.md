@@ -1,6 +1,6 @@
 # Wes Talbot, The Logan Courier
 
-_Utah State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Utah State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -71,7 +71,7 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:preview -->
 - 2026-11-19: W 101-71 vs Weber State Wildcats. Barometer 89 (giddy). <!-- g:401925949 -->
 - 2026-11-19: Social recap posted (W 101-71 vs Weber State Wildcats): https://hardwoodbricks.com/pac12/games/401925949.html <!-- post:401925949:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/pac12/games/401918971.html <!-- post:401918971:preview -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401921673.html <!-- post:401921673:preview -->

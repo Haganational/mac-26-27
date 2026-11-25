@@ -1,6 +1,6 @@
 # Marcus Bell, The Smithfield Pilot
 
-_Bryant (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Bryant (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-4 (0-0 in conference), streak W2, last five LLLWW.
+**44 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,5 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 - 2026-11-20: W 75-61 vs Worcester State Lancers. Barometer 49 (steady). <!-- g:401929460 -->
 - 2026-11-21: Social recap posted (W 75-61 vs Worcester State Lancers): https://hardwoodbricks.com/americaeast/games/401929460.html <!-- post:401929460:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:preview -->
+- 2026-11-25: L 57-58 at Marist Red Foxes. Barometer 44 (testy). <!-- g:401923271 -->
+- 2026-11-25: Social recap posted (L 57-58 vs Marist Red Foxes): https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:recap -->

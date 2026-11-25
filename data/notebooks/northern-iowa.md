@@ -1,6 +1,6 @@
 # Magnus Lindstrom, The Cedar Falls Almanac
 
-_Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Northern Iowa (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 
 ## Barometer
 
-**41 of 100, testy.** Record 3-4 (0-0 in conference), streak L1, last five WLLWL.
+**36 of 100, testy.** Record 3-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Magnus editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Magnus editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,5 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 - 2026-11-23: L 48-79 vs (neutral) Davidson Wildcats. Barometer 41 (testy). <!-- g:401921700 -->
 - 2026-11-23: Social recap posted (L 48-79 vs Davidson Wildcats): https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:preview -->
+- 2026-11-25: L 72-85 vs (neutral) Charlotte 49ers. Barometer 36 (testy). <!-- g:401921702 -->
+- 2026-11-25: Social recap posted (L 72-85 vs Charlotte 49ers): https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:recap -->

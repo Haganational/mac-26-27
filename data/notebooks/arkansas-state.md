@@ -1,6 +1,6 @@
 # Boyd Henley, The Jonesboro Clarion
 
-_Arkansas State (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Arkansas State (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 
 ## Barometer
 
-**65 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
+**74 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boyd editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,6 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:preview -->
 - 2026-11-23: W 104-102 vs (neutral) Southern Utah Thunderbirds. Barometer 65 (buoyant). <!-- g:401929445 -->
 - 2026-11-24: Social recap posted (W 104-102 vs Southern Utah Thunderbirds): https://hardwoodbricks.com/sunbelt/games/401929445.html <!-- post:401929445:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:preview -->
+- 2026-11-24: W 106-81 vs (neutral) Long Beach State Beach. Barometer 74 (buoyant). <!-- g:401924267 -->
+- 2026-11-24: Social recap posted (W 106-81 vs Long Beach State Beach): https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:recap -->

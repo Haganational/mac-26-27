@@ -1,6 +1,6 @@
 # Bea Beauregard, The Charleston Ledger
 
-_Charleston (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Charleston (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
+**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bea editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bea editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -82,3 +82,6 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 - 2026-11-20: L 70-86 at Drake Bulldogs. Barometer 62 (steady). <!-- g:401926814 -->
 - 2026-11-20: Social recap posted (L 70-86 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401926814.html <!-- post:401926814:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:preview -->
+- 2026-11-25: L 69-80 vs (neutral) UTEP Miners. Barometer 52 (steady). <!-- g:401911535 -->
+- 2026-11-25: Social recap posted (L 69-80 vs UTEP Miners): https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:preview -->

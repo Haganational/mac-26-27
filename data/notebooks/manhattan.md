@@ -1,6 +1,6 @@
 # Siobhan Kelly, The Bronx Examiner
 
-_Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Manhattan (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -63,7 +63,7 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -79,3 +79,4 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401921723.html <!-- post:401921723:preview -->
 - 2026-11-20: L 54-106 at Miami Hurricanes. Barometer 25 (despondent). <!-- g:401921723 -->
 - 2026-11-21: Social recap posted (L 54-106 vs Miami Hurricanes): https://hardwoodbricks.com/metro/games/401921723.html <!-- post:401921723:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:preview -->

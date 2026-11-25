@@ -1,6 +1,6 @@
 # Surfer Sid, The Wilmington Lantern
 
-_UNC Wilmington (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UNC Wilmington (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -73,7 +73,7 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -88,3 +88,4 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:preview -->
 - 2026-11-21: W 89-80 at Norfolk State Spartans. Barometer 67 (buoyant). <!-- g:401925897 -->
 - 2026-11-22: Social recap posted (W 89-80 vs Norfolk State Spartans): https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:preview -->

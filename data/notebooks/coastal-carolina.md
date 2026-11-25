@@ -1,6 +1,6 @@
 # Jada Pinckney, The Conway Sentinel
 
-_Coastal Carolina (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Coastal Carolina (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LWWLL.
+**34 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jada editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jada editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Jada Pinckney managed a surf shop in Myrtle Beach and scouted rec-league talent 
 - 2026-11-21: L 51-78 at Tennessee Volunteers. Barometer 40 (testy). <!-- g:401906852 -->
 - 2026-11-21: Social recap posted (L 51-78 vs Tennessee Volunteers): https://hardwoodbricks.com/sunbelt/games/401906852.html <!-- post:401906852:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920742.html <!-- post:401920742:preview -->
+- 2026-11-25: L 66-70 vs Campbell Fighting Camels. Barometer 34 (testy). <!-- g:401920742 -->
+- 2026-11-25: Social recap posted (L 66-70 vs Campbell Fighting Camels): https://hardwoodbricks.com/sunbelt/games/401920742.html <!-- post:401920742:recap -->

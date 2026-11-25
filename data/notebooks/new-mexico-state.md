@@ -1,6 +1,6 @@
 # Lupe Archuleta, The Las Cruces Courant
 
-_New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_New Mexico State (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 
 ## Barometer
 
-**20 of 100, despondent.** Record 1-5 (0-0 in conference), streak L5, last five LLLLL.
+**20 of 100, despondent.** Record 1-6 (0-0 in conference), streak L6, last five LLLLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Lupe editorializes: 79% of stories right now.
 
@@ -70,7 +70,7 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,5 @@ Lupe Archuleta taught high school Spanish and civics in Las Cruces for twelve ye
 - 2026-11-22: L 79-84 vs (neutral) Robert Morris Colonials. Barometer 20 (despondent). <!-- g:401928790 -->
 - 2026-11-22: Social recap posted (L 79-84 vs Robert Morris Colonials): https://hardwoodbricks.com/horizon/games/401928790.html <!-- post:401928790:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401928791.html <!-- post:401928791:preview -->
+- 2026-11-24: L 68-69 vs (neutral) Ohio Bobcats. Barometer 20 (despondent). <!-- g:401928791 -->
+- 2026-11-24: Social recap posted (L 68-69 vs Ohio Bobcats): https://hardwoodbricks.com/games/401928791.html <!-- post:401928791:recap -->

@@ -1,6 +1,6 @@
 # Will Ashford, The Homewood Almanac
 
-_Samford (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Samford (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 
 ## Barometer
 
-**56 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**65 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Will editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -82,3 +82,5 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 - 2026-11-22: W 80-77 vs UNC Asheville Bulldogs. Barometer 56 (steady). <!-- g:401922293 -->
 - 2026-11-23: Social recap posted (W 80-77 vs UNC Asheville Bulldogs): https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:preview -->
+- 2026-11-25: W 92-81 at Georgia Tech Yellow Jackets. Barometer 65 (buoyant). <!-- g:401920309 -->
+- 2026-11-25: Social recap posted (W 92-81 vs Georgia Tech Yellow Jackets): https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:recap -->

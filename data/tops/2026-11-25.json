@@ -1,0 +1,140 @@
+{
+ "date": "2026-11-25",
+ "locked_at": "2026-11-25T12:31+00:00",
+ "board": 46,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401911522",
+    "tip": "2026-11-26T01:00Z",
+    "matchup": "Omaha Mavericks vs. UC Davis Aggies",
+    "side": "under",
+    "line": 146.5,
+    "label": "Under 146.5",
+    "why": "Model has it 5.0 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401919007",
+    "tip": "2026-11-25T18:30Z",
+    "matchup": "Tulane Green Wave vs. Davidson Wildcats",
+    "side": "home",
+    "team": "Davidson Wildcats",
+    "abbr": "DAV",
+    "line": -8.5,
+    "label": "Davidson Wildcats -8.5",
+    "why": "Third-stingiest defense on the board: 61.2 allowed a game."
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401924268",
+    "tip": "2026-11-25T18:00Z",
+    "matchup": "Southern Utah Thunderbirds vs. Long Beach State Beach",
+    "side": "over",
+    "line": 150.5,
+    "label": "Over 150.5",
+    "why": "Model has it 11.6 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401920847",
+    "tip": "2026-11-26T00:00Z",
+    "matchup": "St. Thomas Tommies at UNC Wilmington Seahawks",
+    "side": "home",
+    "team": "UNC Wilmington Seahawks",
+    "abbr": "UNCW",
+    "line": -7.0,
+    "label": "UNC Wilmington Seahawks -7",
+    "why": "Second-highest scoring team on the board: 95.5 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401925688",
+    "tip": "2026-11-25T22:00Z",
+    "matchup": "Alcorn State Braves vs. Texas State Bobcats",
+    "side": "home",
+    "team": "Texas State Bobcats",
+    "abbr": "TXST",
+    "line": -23.5,
+    "label": "Texas State Bobcats -23.5",
+    "why": "Model is 8.3 points off the number."
+   },
+   {
+    "kind": "side",
+    "game": "401920847",
+    "tip": "2026-11-26T00:00Z",
+    "matchup": "St. Thomas Tommies at UNC Wilmington Seahawks",
+    "side": "away",
+    "team": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "line": 7.0,
+    "label": "St. Thomas Tommies +7",
+    "why": "Model is 6.8 points off the number."
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401920916",
+    "tip": "2026-11-26T00:00Z",
+    "matchup": "Northern Illinois Huskies at SIU Edwardsville Cougars",
+    "side": "home",
+    "team": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "line": 4.0,
+    "label": "SIU Edwardsville Cougars +4",
+    "why": "Home dog in the window. I like a building that owes me money."
+   },
+   {
+    "kind": "total",
+    "game": "401920916",
+    "tip": "2026-11-26T00:00Z",
+    "matchup": "Northern Illinois Huskies at SIU Edwardsville Cougars",
+    "side": "over",
+    "line": 139.0,
+    "label": "Over 139",
+    "why": "Somebody's been buying every rubber duck in South Jersey. Every single one. I'm on the over. You didn't hear it from me."
+   }
+  ]
+ },
+ "column": {
+  "byline": "leslie",
+  "by": "Leslie Phyllis",
+  "head": "Tops: Brett. Bottoms: The Shark.",
+  "paras": [
+   "Mama said points are the only thing nobody can take back.",
+   "Brett took the top of the board last night at 1-1, -0.09 units.",
+   "The Shark brought up the rear at 0-2, -2.00 units. It happens. It happens to The Shark a lot.",
+   "My Grand Canyon Lopes +1.5 went down with 3 seconds left on a free throw. Honey, I felt that one in my rings.",
+   "Brett had Sam Houston Bearkats +4.5 in the bag until with 8 seconds left. Then Jamari Phillips hit a free throw."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 146.5. Model has it 5.0 under the total. Nobody's scoring on anybody in my world. Davidson Wildcats -8.5. Third-stingiest defense on the board: 61.2 allowed a game. I've seen that team guard a man into retirement."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 150.5. Model has it 11.6 over the total. Turn the scoreboard up, honey. UNC Wilmington Seahawks -7. Second-highest scoring team on the board: 95.5 a game. I want the team that brings the buckets."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Texas State Bobcats -23.5. Model is 8.3 points off the number. The spreadsheet has spoken. St. Thomas Tommies +7. Model is 6.8 points off the number. The spreadsheet has spoken."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "SIU Edwardsville Cougars +4. Home dog in the window. I like a building that owes me money. Over 139. Somebody's been buying every rubber duck in South Jersey. Every single one. I'm on the over. You didn't hear it from me."
+   }
+  ],
+  "close": "Season ledger: Merv leads at 8-3-1, +4.28 units."
+ }
+}

@@ -160,6 +160,8 @@
   /* Pick 4 and Brick by Brick: one row per game, away on the left, home on the right */
   .games { display: flex; flex-direction: column; gap: 4px; }
   .gm { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; }
+  .gm .tipl .gpl { color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 3px; display: inline-block; padding: 10px 0; margin: -10px 12px -10px 0; }
+  .gm .tipl .gpl:hover { color: var(--ink); }
   .gm .tipl { grid-column: 1 / -1; display: flex; justify-content: space-between; font: 600 11.5px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding-top: 8px; }
   .side { background: var(--page); color: var(--ink); text-transform: none; letter-spacing: 0; text-align: left; font: 600 15px/1.15 var(--sans); padding: 10px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; min-width: 0; min-height: 44px; }
   .side > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -369,7 +371,7 @@
 (function () {
   "use strict";
   var CFG = {}; try { CFG = JSON.parse(document.getElementById("den-cfg").textContent) || {}; } catch (e) {}
-  var ED = CFG.editions || {}, COLORS = CFG.colors || {};
+  var ED = CFG.editions || {}, COLORS = CFG.colors || {}, GAMES = CFG.games || {};
   var $ = function (id) { return document.getElementById(id); };
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
@@ -609,7 +611,8 @@
         return '<button type="button" class="side ' + cls + '" aria-pressed="' + on + '" data-g="' + esc(g.id) + '" data-s="' + s + '"' + (lk ? " disabled" : "") + '><span>' + (s === "home" ? "at " : "") + esc(teamName(t)) + sc + '</span><b>' + val + '</b></button>';
       }
       var tl = fin ? "Final" : lk ? "Locked" : tipLabel(g.tip) + " ET";
-      return '<div class="gm"><div class="tipl"><span>' + tl + '</span><span>' + edSq(g.away.edition || g.home.edition) + '</span></div>' + btn("away") + btn("home") + (kind === "p4" ? hostLine(g, !!side) : "") + '</div>';
+      var gp = GAMES[g.id] ? '<a class="gpl" href="' + esc(GAMES[g.id]) + '">' + (fin ? "Recap" : "Game page") + ' →</a>' : "";
+      return '<div class="gm"><div class="tipl"><span>' + tl + '</span><span>' + gp + edSq(g.away.edition || g.home.edition) + '</span></div>' + btn("away") + btn("home") + (kind === "p4" ? hostLine(g, !!side) : "") + '</div>';
     }).join("") + note || '<p class="msg">No games with a win chance tonight.</p>';
   }
   function togglePick(map, b) {

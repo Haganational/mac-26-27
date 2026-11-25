@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:26:49+00:00",
+ "fetched_at": "2026-11-25T18:33:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2649,21 +2649,21 @@
     "key": null,
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
    "away": {
     "espn_id": "2066",
     "key": "binghamton",
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": null,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923271",
@@ -2681,11 +2681,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/marist-red-foxes-mens-basketball-tickets-mccann-arena-11-24-2026--sports-ncaa-basketball/production/7607789?wsUser=717",
-    "low": 45.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "McCann Arena",
    "venue_city": "Poughkeepsie",
    "venue_state": "NY",
@@ -2694,21 +2690,21 @@
     "key": null,
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": true
    },
    "away": {
     "espn_id": "2803",
     "key": "bryant",
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920889",
@@ -2726,11 +2722,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-24-2026--sports-ncaa-basketball/production/7465781?wsUser=717",
-    "low": 14.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Prudential Center",
    "venue_city": "Newark",
    "venue_state": "NJ",
@@ -2739,21 +2731,21 @@
     "key": null,
     "name": "Seton Hall Pirates",
     "abbr": "HALL",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
    "away": {
     "espn_id": "160",
     "key": "new-hampshire",
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
-    "score": null,
-    "winner": null
+    "score": 27,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920727",
@@ -2771,11 +2763,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iowa-hawkeyes-mens-basketball-tickets-carver-hawkeye-arena-11-24-2026--sports-ncaa-basketball/production/7462986?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "Carver-Hawkeye Arena",
    "venue_city": "Iowa City",
    "venue_state": "IA",
@@ -2784,21 +2772,21 @@
     "key": null,
     "name": "Iowa Hawkeyes",
     "abbr": "IOWA",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2378",
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": null,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920695",
@@ -2816,11 +2804,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-11-24-2026--sports-ncaa-basketball/production/7518057?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:19:56Z"
-   },
+   "tickets": null,
    "venue": "MVP Arena",
    "venue_city": "Albany",
    "venue_state": "NY",
@@ -2829,21 +2813,21 @@
     "key": null,
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": null,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "261",
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920868",
@@ -2908,7 +2892,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/syracuse-orange-mens-basketball-tickets-jma-wireless-dome-11-25-2026--sports-ncaa-basketball/production/7539434?wsUser=717",
-    "low": 6.0,
+    "low": 10.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "JMA Wireless Dome",
@@ -2985,7 +2969,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3570,7 +3560,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-12-1-2026--sports-ncaa-basketball/production/7593885?wsUser=717",
+    "low": 20.0,
+    "since": "2026-11-24T18:24:27Z"
+   },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
    "venue_state": "ME",
@@ -3658,7 +3652,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-12-2-2026--sports-ncaa-basketball/production/7341577?wsUser=717",
-    "low": 23.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Christl Arena",
@@ -3748,7 +3742,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-capital-one-arena-12-2-2026--sports-ncaa-basketball/production/7217276?wsUser=717",
-    "low": 8.0,
+    "low": 6.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Capital One Arena",
@@ -3789,6 +3783,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3838,7 +3837,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-12-3-2026--sports-ncaa-basketball/production/7626611?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Patrick Gymnasium",
@@ -3874,7 +3873,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/le-moyne-dolphins-mens-basketball-tickets-ted-grant-court-12-3-2026--sports-basketball/production/7890333?wsUser=717",
     "low": 32.0,
@@ -3920,7 +3925,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/bryant-bulldogs-mens-basketball-tickets-chace-athletic-center-12-4-2026--sports-ncaa-basketball/production/7877158?wsUser=717",
+    "low": 58.0,
+    "since": "2026-11-24T23:30:49Z"
+   },
    "venue": "Chace Athletic Center",
    "venue_city": "Smithfield",
    "venue_state": "RI",
@@ -3999,7 +4008,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-5-2026--sports-ncaa-basketball/production/7905543?wsUser=717",
     "low": 50.0,
@@ -4088,11 +4103,16 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
     "url": "https://www.vividseats.com/boston-university-terriers-mens-basketball-tickets-case-gymnasium-12-5-2026--sports-ncaa-basketball/production/7710490?wsUser=717",
-    "low": 12.0,
+    "low": 15.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Case Gym",
@@ -4272,7 +4292,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-12-7-2026--sports-ncaa-basketball/production/7465797?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Prudential Center",
@@ -4317,7 +4337,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-8-2026--sports-ncaa-basketball/production/7748248?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -4398,7 +4418,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-8-2026--sports-ncaa-basketball/production/7905545?wsUser=717",
     "low": 50.0,
@@ -4536,7 +4562,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-12-9-2026--sports-ncaa-basketball/production/7685646?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "William H. Pitt Center",
@@ -4616,7 +4642,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marquette-golden-eagles-mens-basketball-tickets-fiserv-forum-12-9-2026--sports-ncaa-basketball/production/7269717?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Fiserv Forum",
@@ -4706,7 +4732,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-12-10-2026--sports-ncaa-basketball/production/7732992?wsUser=717",
-    "low": 20.0,
+    "low": 17.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Lawler Arena",
@@ -5365,7 +5391,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-12-20-2026--sports-ncaa-basketball/production/7667090?wsUser=717",
-    "low": 35.0,
+    "low": 37.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "UPMC Events Center",
@@ -5840,7 +5866,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-12-29-2027--sports-ncaa-basketball/production/7444659?wsUser=717",
-    "low": 29.0,
+    "low": 12.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -5885,7 +5911,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-29-2026--sports-ncaa-basketball/production/7748250?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -6133,7 +6159,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/umass-lowell-river-hawks-mens-basketball-tickets-tsongas-center-1-2-2027--sports-ncaa-basketball/production/7776496?wsUser=717",
-    "low": 41.0,
+    "low": 15.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Kennedy Family Athletic Complex",
@@ -6404,7 +6430,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/maine-black-bears-mens-basketball-tickets-memorial-gymnasium---university-of-maine-1-9-2027--sports-ncaa-basketball/production/7593904?wsUser=717",
+    "low": 32.0,
+    "since": "2026-11-25T18:33:11Z"
+   },
    "venue": "Skip Chappelle Court in Memorial Gymnasium",
    "venue_city": "Orono",
    "venue_state": "ME",

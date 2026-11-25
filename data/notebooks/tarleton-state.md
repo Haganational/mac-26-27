@@ -1,6 +1,6 @@
 # Bo Jennings, The Stephenville Ledger
 
-_Tarleton State (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Tarleton State (UAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 
 ## Barometer
 
-**54 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five LWWWL.
+**48 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bo editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bo editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Bo Jennings grew up in Stephenville, rode bulls for five years and broke enough 
 - 2026-11-20: L 51-96 at USC Trojans. Barometer 54 (steady). <!-- g:401926773 -->
 - 2026-11-20: Social recap posted (L 51-96 vs USC Trojans): https://hardwoodbricks.com/uac/games/401926773.html <!-- post:401926773:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:preview -->
+- 2026-11-25: L 87-89 at Weber State Wildcats. Barometer 48 (steady). <!-- g:401925950 -->
+- 2026-11-25: Social recap posted (L 87-89 vs Weber State Wildcats): https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:recap -->

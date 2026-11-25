@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:12:27+00:00",
+ "fetched_at": "2026-11-25T18:17:26+00:00",
  "season": 2027,
  "games": [
   {
@@ -2659,11 +2659,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
@@ -2691,8 +2687,8 @@
   {
    "game_id": "401917543",
    "date": "2026-11-24T00:00Z",
-   "name": "Illinois State Redbirds at Santa Clara Broncos",
-   "short_name": "ILST VS SCU",
+   "name": "Santa Clara Broncos at Illinois State Redbirds",
+   "short_name": "SCU VS ILST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2704,27 +2700,23 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-23-2026--sports-ncaa-basketball/production/7401144?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2541",
-    "key": "santa-clara",
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "score": 99,
-    "winner": false
-   },
-   "away": {
     "espn_id": "2287",
     "key": null,
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
+    "score": 99,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2541",
+    "key": "santa-clara",
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
     "score": 102,
     "winner": true
    },
@@ -2749,11 +2741,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7109828?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Allen Fieldhouse",
    "venue_city": "Lawrence",
    "venue_state": "KS",
@@ -2794,11 +2782,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/pepperdine-waves-mens-basketball-tickets-firestone-fieldhouse-11-23-2026--sports-ncaa-basketball/production/7701481?wsUser=717",
-    "low": 28.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Firestone Fieldhouse",
    "venue_city": "Malibu",
    "venue_state": "CA",
@@ -2861,8 +2845,8 @@
   {
    "game_id": "401917676",
    "date": "2026-11-24T19:00Z",
-   "name": "Oregon State Beavers at San Francisco Dons",
-   "short_name": "ORST VS SF",
+   "name": "San Francisco Dons at Oregon State Beavers",
+   "short_name": "SF VS ORST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2874,40 +2858,36 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2539",
-    "key": "san-francisco",
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "204",
     "key": null,
     "name": "Oregon State Beavers",
     "abbr": "ORST",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2539",
+    "key": "san-francisco",
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "score": 73,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911458",
    "date": "2026-11-25T00:00Z",
-   "name": "Nevada Wolf Pack at Santa Clara Broncos",
-   "short_name": "NEV VS SCU",
+   "name": "Santa Clara Broncos at Nevada Wolf Pack",
+   "short_name": "SCU VS NEV",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2919,34 +2899,30 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-24-2026--sports-ncaa-basketball/production/7401146?wsUser=717",
-    "low": 48.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "2541",
-    "key": "santa-clara",
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2440",
     "key": null,
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2541",
+    "key": "santa-clara",
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
+    "score": 66,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920138",
@@ -3097,7 +3073,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 42.0,
+    "low": 53.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3174,7 +3150,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Resorts World Event Center",
    "venue_city": "Las Vegas",
@@ -3429,7 +3411,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-28-2026--sports-ncaa-basketball/production/7469240?wsUser=717",
-    "low": 18.0,
+    "low": 19.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -3654,7 +3636,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-1-2026--sports-ncaa-basketball/production/7656410?wsUser=717",
-    "low": 28.0,
+    "low": 20.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Center",
@@ -3699,7 +3681,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-1-2026--sports-ncaa-basketball/production/7686821?wsUser=717",
-    "low": 34.0,
+    "low": 27.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -3825,10 +3807,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/nevada-wolf-pack-mens-basketball-tickets-lawlor-events-center-12-2-2026--sports-ncaa-basketball/production/7459084?wsUser=717",
-    "low": 22.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Lawlor Events Center",
@@ -3918,7 +3906,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-12-2-2026--sports-ncaa-basketball/production/7469244?wsUser=717",
-    "low": 20.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -4089,7 +4077,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-12-5-2026--sports-ncaa-basketball/production/7699980?wsUser=717",
     "low": 28.0,
@@ -4214,10 +4208,16 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/grand-canyon-university-lopes-mens-basketball-tickets-global-credit-union-arena-12-5-2026--sports-ncaa-basketball/production/7436755?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Global Credit Union Arena",
@@ -4253,7 +4253,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MW+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-5-2026--sports-ncaa-basketball/production/7785760?wsUser=717",
     "low": 47.0,
@@ -4376,7 +4382,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-city-roos-mens-basketball-tickets-municipal-auditorium---mo-12-8-2026--sports-ncaa-basketball/production/7849540?wsUser=717",
     "low": 20.0,
@@ -4424,7 +4441,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-toreros-mens-basketball-tickets-jenny-craig-pavilion-12-8-2026--sports-ncaa-basketball/production/7647887?wsUser=717",
-    "low": 53.0,
+    "low": 47.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -4967,7 +4984,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seattle-university-redhawks-mens-basketball-tickets-seattle-university-redhawk-center-12-12-2026--sports-ncaa-basketball/production/7662432?wsUser=717",
-    "low": 54.0,
+    "low": 50.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Redhawk Center",
@@ -5011,8 +5028,8 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-13-2026--sports-ncaa-basketball/production/7367803?wsUser=717",
-    "low": 51.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-13-2026--sports-ncaa-basketball/production/7865590?wsUser=717",
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Hornet Pavilion",
@@ -5135,7 +5152,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-12-14-2026--sports-ncaa-basketball/production/7919407?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:15:41Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -5428,7 +5449,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-18-2026--sports-ncaa-basketball/production/7743143?wsUser=717",
-    "low": 44.0,
+    "low": 33.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Dahlberg Arena",
@@ -6061,7 +6082,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-22-2026--sports-ncaa-basketball/production/7519459?wsUser=717",
-    "low": 6.0,
+    "low": 7.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -6105,8 +6126,8 @@
     }
    ],
    "tickets": {
-    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-hornets-nest-12-22-2026--sports-ncaa-basketball/production/7367805?wsUser=717",
-    "low": 47.0,
+    "url": "https://www.vividseats.com/sacramento-state-hornets-mens-basketball-tickets-sacramento-state-university---the-well-12-22-2026--sports-ncaa-basketball/production/7865592?wsUser=717",
+    "low": 36.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Hornet Pavilion",
@@ -6366,7 +6387,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-12-29-2026--sports-ncaa-basketball/production/7469252?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -6579,7 +6600,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/pacific-tigers-mens-basketball-tickets-alex-g-spanos-center-1-2-2027--sports-ncaa-basketball/production/7656374?wsUser=717",
-    "low": 125.0,
+    "low": 32.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Alex G. Spanos Center",
@@ -7082,7 +7103,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-1-12-2027--sports-ncaa-basketball/production/7519479?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -7390,7 +7411,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-1-16-2027--sports-ncaa-basketball/production/7519489?wsUser=717",
-    "low": 14.0,
+    "low": 10.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -8092,7 +8113,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-1-30-2027--sports-ncaa-basketball/production/7519496?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -8482,7 +8503,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/seattle-university-redhawks-mens-basketball-tickets-seattle-university-redhawk-center-2-6-2027--sports-ncaa-basketball/production/7682930?wsUser=717",
-    "low": 49.0,
+    "low": 209.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Redhawk Center",
@@ -9644,7 +9665,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-2-27-2027--sports-ncaa-basketball/production/7611808?wsUser=717",
-    "low": 38.0,
+    "low": 36.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Leavey Center",
@@ -9671,6 +9692,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T04:44:44+00:00"
+ ]
 }

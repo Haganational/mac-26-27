@@ -1,6 +1,6 @@
 # Kaleo Kekoa, The Honolulu Courant
 
-_Hawai'i (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Hawai'i (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/mw/games/401929004.html <!-- post:401929004:preview -->
 - 2026-11-19: L 63-79 vs (neutral) Washington State Cougars. Barometer 48 (steady). <!-- g:401929004 -->
 - 2026-11-19: Social recap posted (L 63-79 vs Washington State Cougars): https://hardwoodbricks.com/mw/games/401929004.html <!-- post:401929004:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:preview -->

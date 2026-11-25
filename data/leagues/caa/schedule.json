@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:17:22+00:00",
+ "fetched_at": "2026-11-25T18:22:50+00:00",
  "season": 2027,
  "games": [
   {
@@ -3078,11 +3078,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-carolina-tar-heels-mens-basketball-tickets-dean-smith-center-11-23-2026--sports-ncaa-basketball/production/7463025?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Dean E. Smith Center",
    "venue_city": "Chapel Hill",
    "venue_state": "NC",
@@ -3123,11 +3119,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-11-24-2026--sports-ncaa-basketball/production/7513285?wsUser=717",
-    "low": 17.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Timmons Arena",
    "venue_city": "Greenville",
    "venue_state": "SC",
@@ -3136,21 +3128,21 @@
     "key": null,
     "name": "Furman Paladins",
     "abbr": "FUR",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2210",
     "key": "elon",
     "name": "Elon Phoenix",
     "abbr": "ELON",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920742",
@@ -3168,11 +3160,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "The HTC Center",
    "venue_city": "Conway",
    "venue_state": "SC",
@@ -3181,21 +3169,21 @@
     "key": null,
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2097",
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926827",
@@ -3213,11 +3201,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Chartway Arena",
    "venue_city": "Norfolk",
    "venue_state": "VA",
@@ -3226,21 +3210,21 @@
     "key": null,
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2261",
     "key": "hampton",
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921184",
@@ -3263,11 +3247,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-24-2026--sports-ncaa-basketball/production/7546507?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -3276,34 +3256,34 @@
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2182",
     "key": "drexel",
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911535",
-   "date": "2026-11-25T01:30Z",
-   "name": "Charleston Cougars at UTEP Miners",
-   "short_name": "COFC VS UTEP",
+   "date": "2026-11-25T02:00Z",
+   "name": "UTEP Miners at Charleston Cougars",
+   "short_name": "UTEP VS COFC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [
     {
-     "name": "FloHoops",
+     "name": "FloSports",
      "kind": "Streaming",
      "market": "Home"
     }
@@ -3313,25 +3293,25 @@
    "venue_city": "Cancun",
    "venue_state": "Mexico",
    "home": {
-    "espn_id": "2638",
-    "key": null,
-    "name": "UTEP Miners",
-    "abbr": "UTEP",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "232",
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": null,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2638",
+    "key": null,
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "score": 80,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926835",
@@ -3351,7 +3331,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 8.0,
+    "low": 30.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Stony Brook Arena",
@@ -3362,7 +3342,7 @@
     "key": "stony-brook",
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -3370,6 +3350,47 @@
     "key": null,
     "name": "Lindenwood Lions",
     "abbr": "LIN",
+    "score": 29,
+    "winner": null
+   },
+   "status": "STATUS_HALFTIME",
+   "completed": false,
+   "live": true,
+   "detail": "Halftime"
+  },
+  {
+   "game_id": "401920549",
+   "date": "2026-11-25T23:00Z",
+   "name": "Kennesaw State Owls at Charleston Cougars",
+   "short_name": "KENN VS COFC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloHoops",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "232",
+    "key": "charleston",
+    "name": "Charleston Cougars",
+    "abbr": "COFC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "338",
+    "key": null,
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN",
     "score": null,
     "winner": null
    },
@@ -3658,7 +3679,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northwestern-wildcats-mens-basketball-tickets-welsh-ryan-arena-11-27-2026--sports-ncaa-basketball/production/7484415?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Welsh-Ryan Arena",
@@ -3775,7 +3796,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-11-28-2026/production/7909373?wsUser=717",
+    "low": 28.0,
+    "since": "2026-11-25T12:19:46Z"
+   },
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -3999,7 +4024,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-28-2026--sports-ncaa-basketball/production/7661797?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Stony Brook Arena",
@@ -4047,7 +4072,11 @@
      "market": "Home"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-11-28-2026--sports-ncaa-basketball/production/7883467?wsUser=717",
+    "low": 59.0,
+    "since": "2026-11-24T23:20:56Z"
+   },
    "venue": "Hackensack Meridian Athletic Center",
    "venue_city": "West Long Branch",
    "venue_state": "NJ",
@@ -4090,7 +4119,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-11-29-2026--sports-ncaa-basketball/production/7746323?wsUser=717",
-    "low": 22.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "TD Arena",
@@ -4221,7 +4250,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-29-2026--sports-ncaa-basketball/production/7403501?wsUser=717",
-    "low": 19.0,
+    "low": 16.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4264,7 +4293,11 @@
      "market": "Home"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-12-1-2026/production/7909375?wsUser=717",
+    "low": 28.0,
+    "since": "2026-11-25T12:19:46Z"
+   },
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -4397,7 +4430,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-1-2026--sports-ncaa-basketball/production/7686821?wsUser=717",
-    "low": 34.0,
+    "low": 27.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -4433,7 +4466,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-12-2-2026--sports-ncaa-basketball/production/7661801?wsUser=717",
     "low": 24.0,
@@ -4562,7 +4606,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Cabot Center",
    "venue_city": "Boston",
@@ -4597,7 +4647,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "SECU Arena",
    "venue_city": "Towson",
@@ -4722,7 +4778,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-12-3-2026--sports-ncaa-basketball/production/7883578?wsUser=717",
     "low": 36.0,
@@ -4806,7 +4868,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "John W. Pope Jr. Convocation Center",
    "venue_city": "Buies Creek",
@@ -4893,7 +4961,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lehigh-mountain-hawks-mens-basketball-tickets-stabler-arena-12-5-2026--sports-ncaa-basketball/production/7914611?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:19:46Z"
+   },
    "venue": "Stabler Arena",
    "venue_city": "Bethlehem",
    "venue_state": "PA",
@@ -4927,7 +4999,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-eastern-shore-hawks-mens-basketball-tickets-hytche-athletic-center-12-5-2026--sports-ncaa-basketball/production/7854758?wsUser=717",
     "low": 30.0,
@@ -4966,7 +5044,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-12-5-2026--sports-ncaa-basketball/production/7309050?wsUser=717",
     "low": 11.0,
@@ -5046,7 +5130,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Cabot Center",
    "venue_city": "Boston",
@@ -5081,7 +5171,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-12-6-2026--sports-ncaa-basketball/production/7604196?wsUser=717",
     "low": 29.0,
@@ -5120,7 +5216,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-12-6-2026--sports-ncaa-basketball/production/7883582?wsUser=717",
     "low": 36.0,
@@ -5204,7 +5306,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-12-8-2026--sports-ncaa-basketball/production/7661803?wsUser=717",
     "low": 24.0,
@@ -5333,7 +5441,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/monmouth-hawks-mens-basketball-tickets-oceanfirst-bank-center-12-8-2026--sports-ncaa-basketball/production/7883469?wsUser=717",
     "low": 9677.0,
@@ -5414,7 +5528,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-12-9-2026/production/7909377?wsUser=717",
-    "low": 35.0,
+    "low": 28.0,
     "since": "2026-11-21T18:12:56Z"
    },
    "venue": "Ellis Corbett Sports Center",
@@ -5459,7 +5573,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/davidson-college-wildcats-mens-basketball-tickets-belk-arena-12-9-2026--sports-ncaa-basketball/production/7627854?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "John M. Belk Arena",
@@ -5639,7 +5753,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-12-2026--sports-ncaa-basketball/production/7608637?wsUser=717",
-    "low": 31.0,
+    "low": 20.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "M&T Bank Arena",
@@ -5762,7 +5876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/furman-paladins-mens-basketball-tickets-timmons-arena-12-12-2026--sports-ncaa-basketball/production/7513297?wsUser=717",
-    "low": 21.0,
+    "low": 23.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Timmons Arena",
@@ -5852,7 +5966,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-12-12-2026--sports-ncaa-basketball/production/7290633?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Robins Center",
@@ -6649,7 +6763,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hampton-pirates-mens-basketball-tickets-hampton-convocation-center-12-19-2026--sports-ncaa-basketball/production/7877386?wsUser=717",
-    "low": 45.0,
+    "low": 36.0,
     "since": "2026-11-20T12:11:33Z"
    },
    "venue": "Convocation Center (VA)",
@@ -7018,7 +7132,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-12-22-2027--sports-ncaa-basketball/production/7444657?wsUser=717",
-    "low": 29.0,
+    "low": 10.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -7662,7 +7776,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-12-31-2026--sports-ncaa-basketball/production/7604202?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "TD Arena",
@@ -8087,7 +8201,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-1-7-2027/production/7909379?wsUser=717",
-    "low": 35.0,
+    "low": 28.0,
     "since": "2026-11-21T18:12:56Z"
    },
    "venue": "Ellis Corbett Sports Center",
@@ -8586,7 +8700,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-1-14-2027/production/7909381?wsUser=717",
-    "low": 35.0,
+    "low": 28.0,
     "since": "2026-11-21T18:12:56Z"
    },
    "venue": "Ellis Corbett Sports Center",
@@ -9050,7 +9164,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-1-18-2027/production/7909385?wsUser=717",
-    "low": 35.0,
+    "low": 28.0,
     "since": "2026-11-21T18:12:56Z"
    },
    "venue": "Ellis Corbett Sports Center",
@@ -11019,7 +11133,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hampton-pirates-mens-basketball-tickets-hampton-convocation-center-2-18-2027--sports-ncaa-basketball/production/7880073?wsUser=717",
-    "low": 56.0,
+    "low": 47.0,
     "since": "2026-11-20T12:11:33Z"
    },
    "venue": "Convocation Center (VA)",
@@ -12006,5 +12120,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T03:20:12+00:00"
+ "live_at": "2026-11-25T18:54:49+00:00"
 }

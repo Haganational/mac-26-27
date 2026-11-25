@@ -1,6 +1,6 @@
 # Jared Goldstein, The Hamden Spectator
 
-_Quinnipiac (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Quinnipiac (Metro). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 
 ## Barometer
 
-**36 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five WWLLL.
+**50 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jared editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jared editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,5 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 - 2026-11-20: L 67-69 vs Maine Black Bears. Barometer 36 (testy). <!-- g:401923304 -->
 - 2026-11-20: Social recap posted (L 67-69 vs Maine Black Bears): https://hardwoodbricks.com/metro/games/401923304.html <!-- post:401923304:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401924859.html <!-- post:401924859:preview -->
+- 2026-11-24: W 85-57 vs Emerson Lions. Barometer 50 (steady). <!-- g:401924859 -->
+- 2026-11-25: Social recap posted (W 85-57 vs Emerson Lions): https://hardwoodbricks.com/metro/games/401924859.html <!-- post:401924859:recap -->

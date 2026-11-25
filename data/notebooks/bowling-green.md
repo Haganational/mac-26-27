@@ -1,6 +1,6 @@
 # Gary Mercer, The Bowling Green Mercury
 
-_Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Bowling Green (MAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gary editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 ## What we've made about them
 
 - Film: *The Lightest Banner in Basketball* (https://youtu.be/yg-gdhcFoP8). Our film on Nate Thurmond, the 31 rebounds that are still Bowling Green's record, and the Cleveland banner that weighs the least.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,5 @@ Gary Mercer is a third-generation Wood County farmer who sold the soybean ground
 - 2026-11-21: L 68-86 vs Northern Illinois Huskies. Barometer 48 (steady). <!-- g:401911022 -->
 - 2026-11-21: Social recap posted (L 68-86 vs Northern Illinois Huskies): https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401911027.html <!-- post:401911027:preview -->
+- 2026-11-25: W 91-65 vs Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911027 -->
+- 2026-11-25: Social recap posted (W 91-65 vs Gardner-Webb Runnin' Bulldogs): https://hardwoodbricks.com/games/401911027.html <!-- post:401911027:recap -->

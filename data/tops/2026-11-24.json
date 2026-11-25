@@ -1,0 +1,154 @@
+{
+ "date": "2026-11-24",
+ "locked_at": "2026-11-24T12:30+00:00",
+ "board": 64,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401921777",
+    "tip": "2026-11-25T00:00Z",
+    "matchup": "Coppin State Eagles at Villanova Wildcats",
+    "side": "under",
+    "line": 144.5,
+    "label": "Under 144.5",
+    "why": "Model has it 9.0 under the total.",
+    "result": "win",
+    "final": "52-70"
+   },
+   {
+    "kind": "side",
+    "game": "401920414",
+    "tip": "2026-11-25T00:30Z",
+    "matchup": "High Point Panthers vs. Duquesne Dukes",
+    "side": "away",
+    "team": "High Point Panthers",
+    "abbr": "HPU",
+    "line": -10.5,
+    "label": "High Point Panthers -10.5",
+    "why": "Third-stingiest defense on the board: 61.3 allowed a game.",
+    "result": "loss",
+    "final": "70-75"
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401922231",
+    "tip": "2026-11-24T23:00Z",
+    "matchup": "Queens University Royals at Wofford Terriers",
+    "side": "over",
+    "line": 173.5,
+    "label": "Over 173.5",
+    "why": "Model has it 11.0 over the total.",
+    "result": "loss",
+    "final": "77-86"
+   },
+   {
+    "kind": "side",
+    "game": "401911253",
+    "tip": "2026-11-25T02:30Z",
+    "matchup": "Grand Canyon Lopes vs. Saint Louis Billikens",
+    "side": "away",
+    "team": "Grand Canyon Lopes",
+    "abbr": "GCU",
+    "line": 1.5,
+    "label": "Grand Canyon Lopes +1.5",
+    "why": "Second-highest scoring team on the board: 97.2 a game.",
+    "result": "loss",
+    "final": "88-91"
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401921777",
+    "tip": "2026-11-25T00:00Z",
+    "matchup": "Coppin State Eagles at Villanova Wildcats",
+    "side": "away",
+    "team": "Coppin State Eagles",
+    "abbr": "COPP",
+    "line": 31.5,
+    "label": "Coppin State Eagles +31.5",
+    "why": "Model is 6.8 points off the number.",
+    "result": "win",
+    "final": "52-70"
+   },
+   {
+    "kind": "side",
+    "game": "401928796",
+    "tip": "2026-11-25T02:00Z",
+    "matchup": "Sam Houston Bearkats at Washington State Cougars",
+    "side": "away",
+    "team": "Sam Houston Bearkats",
+    "abbr": "SHSU",
+    "line": 4.5,
+    "label": "Sam Houston Bearkats +4.5",
+    "why": "Model is 6.6 points off the number.",
+    "result": "loss",
+    "final": "73-80"
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401917983",
+    "tip": "2026-11-25T00:30Z",
+    "matchup": "Houston Christian Huskies at UL Monroe Warhawks",
+    "side": "home",
+    "team": "UL Monroe Warhawks",
+    "abbr": "ULM",
+    "line": 1.5,
+    "label": "UL Monroe Warhawks +1.5",
+    "why": "Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money.",
+    "result": "loss",
+    "final": "84-58"
+   },
+   {
+    "kind": "total",
+    "game": "401917983",
+    "tip": "2026-11-25T00:30Z",
+    "matchup": "Houston Christian Huskies at UL Monroe Warhawks",
+    "side": "over",
+    "line": 153.5,
+    "label": "Over 153.5",
+    "why": "Three crates of lemons fell off a bakery truck. The lemons will turn up. The truck will not. Over. Don't ask.",
+    "result": "loss",
+    "final": "84-58"
+   }
+  ]
+ },
+ "column": {
+  "byline": "merv",
+  "by": "Merv Crutch",
+  "head": "Tops: Brett. Bottoms: The Shark.",
+  "paras": [
+   "They put me in the Hall of Fame for knowing when to shut up and take the under.",
+   "Top of the night: Brett, 1-0-1, +0.91 units. Somebody frame it.",
+   "Bottom of the barrel: The Shark, 1-1, -0.09 units."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 144.5. Model has it 9.0 under the total. Nobody's scoring on anybody in my world. High Point Panthers -10.5. Third-stingiest defense on the board: 61.3 allowed a game. Defense travels."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 173.5. Model has it 11.0 over the total. Turn the scoreboard up, honey. Grand Canyon Lopes +1.5. Second-highest scoring team on the board: 97.2 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Coppin State Eagles +31.5. Model is 6.8 points off the number. Big number, big hair, big night. Sam Houston Bearkats +4.5. Model is 6.6 points off the number. Big number, big hair, big night."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "UL Monroe Warhawks +1.5. Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money. Over 153.5. Three crates of lemons fell off a bakery truck. The lemons will turn up. The truck will not. Over. Don't ask."
+   }
+  ],
+  "close": "Season ledger: Leslie leads at 8-2, +5.28 units."
+ }
+}

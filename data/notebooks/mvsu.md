@@ -1,6 +1,6 @@
 # Lorraine Pickett, The Itta Bena Register
 
-_Mississippi Valley State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Mississippi Valley State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -62,7 +62,7 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -73,3 +73,4 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/swac/games/401925740.html <!-- post:401925740:preview -->
 - 2026-11-21: L 48-92 at Arkansas Razorbacks. Barometer 12 (despondent). <!-- g:401925740 -->
 - 2026-11-21: Social recap posted (L 48-92 vs Arkansas Razorbacks): https://hardwoodbricks.com/swac/games/401925740.html <!-- post:401925740:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:preview -->

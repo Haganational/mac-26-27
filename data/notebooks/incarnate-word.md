@@ -1,6 +1,6 @@
 # Rudy Salinas, The Alamo Heights Almanac
 
-_Incarnate Word (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Incarnate Word (Southland). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -84,3 +84,4 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/southland/games/401929353.html <!-- post:401929353:preview -->
 - 2026-11-21: W 120-71 vs Central Baptist Mustangs. Barometer 37 (testy). <!-- g:401929353 -->
 - 2026-11-21: Social recap posted (W 120-71 vs Central Baptist Mustangs): https://hardwoodbricks.com/southland/games/401929353.html <!-- post:401929353:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:preview -->

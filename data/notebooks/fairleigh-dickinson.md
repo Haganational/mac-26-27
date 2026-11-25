@@ -1,6 +1,6 @@
 # Alina Petrova, The Teaneck Mercury
 
-_Fairleigh Dickinson (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Fairleigh Dickinson (NEC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 
 ## Barometer
 
-**58 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WWLWW.
+**67 of 100, buoyant.** Record 5-3 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alina editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,6 @@ Alina Petrova edits The Teaneck Mercury and watches basketball like a chess matc
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:preview -->
 - 2026-11-24: W 49-46 at Iona Gaels. Barometer 58 (steady). <!-- g:401919761 -->
 - 2026-11-24: Social recap posted (W 49-46 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/nec/games/401919762.html <!-- post:401919762:preview -->
+- 2026-11-25: W 123-48 vs Vermont State Randolph Knights. Barometer 67 (buoyant). <!-- g:401919762 -->
+- 2026-11-25: Social recap posted (W 123-48 vs Vermont State Randolph Knights): https://hardwoodbricks.com/nec/games/401919762.html <!-- post:401919762:recap -->

@@ -1,6 +1,6 @@
 # Luke Bramlett, The Statesboro Mercury
 
-_Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Georgia Southern (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-4 (0-0 in conference), streak W2, last five LLLWW.
+**43 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Luke editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401921030.html <!-- post:401921030:preview -->
 - 2026-11-24: W 84-79 at Northern Kentucky Norse. Barometer 50 (steady). <!-- g:401921029 -->
 - 2026-11-24: Social recap posted (W 84-79 vs Northern Kentucky Norse): https://hardwoodbricks.com/horizon/games/401921029.html <!-- post:401921029:recap -->
+- 2026-11-25: L 67-82 vs (neutral) Bellarmine Knights. Barometer 43 (testy). <!-- g:401921030 -->
+- 2026-11-25: Social recap posted (L 67-82 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921030.html <!-- post:401921030:recap -->

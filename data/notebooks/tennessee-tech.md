@@ -1,6 +1,6 @@
 # Ronnie Maddox, The Cookeville Gazette
 
-_Tennessee Tech (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Tennessee Tech (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 
 ## Barometer
 
-**72 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W3, last five WLWWW.
+**79 of 100, buoyant.** Record 6-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ronnie editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ronnie editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Ronnie Maddox taught shop class in Cookeville for thirty years and now spends ev
 - 2026-11-22: W 97-69 vs Presbyterian Blue Hose. Barometer 72 (buoyant). <!-- g:401926217 -->
 - 2026-11-22: Social recap posted (W 97-69 vs Presbyterian Blue Hose): https://hardwoodbricks.com/socon/games/401926217.html <!-- post:401926217:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:preview -->
+- 2026-11-25: W 124-85 vs West Georgia Wolves. Barometer 79 (buoyant). <!-- g:401917904 -->
+- 2026-11-25: Social recap posted (W 124-85 vs West Georgia Wolves): https://hardwoodbricks.com/socon/games/401917904.html <!-- post:401917904:recap -->

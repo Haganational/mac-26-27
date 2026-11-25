@@ -1,6 +1,6 @@
 # Darlene Pickett, The Laramie Chronicle
 
-_Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Wyoming (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 
 ## Barometer
 
-**74 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
+**60 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darlene editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 - 2026-11-22: W 79-61 vs (neutral) Duquesne Dukes. Barometer 74 (buoyant). <!-- g:401921706 -->
 - 2026-11-22: Social recap posted (W 79-61 vs Duquesne Dukes): https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->
+- 2026-11-24: L 75-78 vs (neutral) Kent State Golden Flashes. Barometer 60 (steady). <!-- g:401921707 -->
+- 2026-11-25: Social recap posted (L 75-78 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:recap -->

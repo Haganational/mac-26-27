@@ -1,6 +1,6 @@
 # Tessa Quinn, The Charles Street Spectator
 
-_Loyola Maryland (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Loyola Maryland (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 
 ## Barometer
 
-**27 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
+**43 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tessa editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -83,3 +83,5 @@ Tessa Quinn edits The Charles Street Spectator and covers the Greyhounds with cr
 - 2026-11-21: L 61-103 at Virginia Cavaliers. Barometer 27 (despondent). <!-- g:401920427 -->
 - 2026-11-21: Social recap posted (L 61-103 vs Virginia Cavaliers): https://hardwoodbricks.com/patriot/games/401920427.html <!-- post:401920427:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:preview -->
+- 2026-11-25: W 71-54 vs Rider Broncs. Barometer 43 (testy). <!-- g:401921266 -->
+- 2026-11-25: Social recap posted (W 71-54 vs Rider Broncs): https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:recap -->

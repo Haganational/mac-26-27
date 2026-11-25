@@ -1,6 +1,6 @@
 # Carlos Varga, The San Diego Pilot
 
-_San Diego St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_San Diego St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 
 ## Barometer
 
-**86 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**64 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carlos editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carlos editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,6 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 - 2026-11-19: W 97-51 vs Texas Southern Tigers. Barometer 86 (giddy). <!-- g:401929146 -->
 - 2026-11-19: Social recap posted (W 97-51 vs Texas Southern Tigers): https://hardwoodbricks.com/pac12/games/401929146.html <!-- post:401929146:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401909775.html <!-- post:401909775:preview -->
+- 2026-11-24: L 68-81 vs (neutral) Iowa State Cyclones. Barometer 64 (steady). <!-- g:401909775 -->
+- 2026-11-25: Social recap posted (L 68-81 vs Iowa State Cyclones): https://hardwoodbricks.com/pac12/games/401909775.html <!-- post:401909775:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401920528.html <!-- post:401920528:preview -->

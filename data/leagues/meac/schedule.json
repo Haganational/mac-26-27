@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:29:49+00:00",
+ "fetched_at": "2026-11-25T18:36:22+00:00",
  "season": 2027,
  "games": [
   {
@@ -2112,11 +2112,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-23-2026--sports-ncaa-basketball/production/7632152?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Zidian Family Arena at Beeghly Center",
    "venue_city": "Youngstown",
    "venue_state": "OH",
@@ -2186,11 +2182,7 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/howard-university-bison-mens-basketball-tickets-burr-gymnasium-11-23-2026--sports-ncaa-basketball/production/7849006?wsUser=717",
-    "low": 61.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Burr Gymnasium",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -2231,11 +2223,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-carolina-central-eagles-mens-basketball-tickets-mcdougald-mclendon-gymnasium-11-23-2026--sports-ncaa-basketball/production/7905519?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-20T12:18:38Z"
-   },
+   "tickets": null,
    "venue": "McDougald-McLendon Arena",
    "venue_city": "Durham",
    "venue_state": "NC",
@@ -2269,7 +2257,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hill Field House",
    "venue_city": "Baltimore",
@@ -2279,21 +2273,21 @@
     "key": "morgan-state",
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "116",
     "key": null,
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920976",
@@ -2311,11 +2305,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-24-2026--sports-ncaa-basketball/production/7745856?wsUser=717",
-    "low": 26.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "McKenzie Arena",
    "venue_city": "Chattanooga",
    "venue_state": "TN",
@@ -2324,21 +2314,21 @@
     "key": null,
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
-    "score": null,
-    "winner": null
+    "score": 79,
+    "winner": true
    },
    "away": {
     "espn_id": "2169",
     "key": "delaware-state",
     "name": "Delaware State Hornets",
     "abbr": "DSU",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921777",
@@ -2356,11 +2346,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/villanova-wildcats-mens-basketball-tickets-finneran-pavilion-11-24-2026--sports-ncaa-basketball/production/7483907?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:22:09Z"
-   },
+   "tickets": null,
    "venue": "Finneran Pavilion",
    "venue_city": "Villanova",
    "venue_state": "PA",
@@ -2369,21 +2355,21 @@
     "key": null,
     "name": "Villanova Wildcats",
     "abbr": "VILL",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
    "away": {
     "espn_id": "2154",
     "key": "coppin-state",
     "name": "Coppin State Eagles",
     "abbr": "COPP",
-    "score": null,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401918960",
@@ -2520,7 +2506,11 @@
    "conference_game": false,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-11-28-2026/production/7909373?wsUser=717",
+    "low": 28.0,
+    "since": "2026-11-25T12:30:09Z"
+   },
    "venue": "Ellis Corbett Sports Center",
    "venue_city": "Greensboro",
    "venue_state": "NC",
@@ -2563,7 +2553,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-11-28-2026--sports-ncaa-basketball/production/7627773?wsUser=717",
-    "low": 90.0,
+    "low": 26.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -2608,7 +2598,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-11-29-2026--sports-ncaa-basketball/production/7746323?wsUser=717",
-    "low": 22.0,
+    "low": 20.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "TD Arena",
@@ -2945,7 +2935,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-12-2-2026--sports-ncaa-basketball/production/7661801?wsUser=717",
     "low": 24.0,
@@ -2989,11 +2990,16 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-12-3-2026--sports-ncaa-basketball/production/7546785?wsUser=717",
-    "low": 28.0,
+    "low": 25.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Siegel Center",
@@ -3183,7 +3189,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "John W. Pope Jr. Convocation Center",
    "venue_city": "Buies Creek",
@@ -3218,7 +3230,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-5-2026--sports-ncaa-basketball/production/7905543?wsUser=717",
     "low": 50.0,
@@ -3257,7 +3275,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-eastern-shore-hawks-mens-basketball-tickets-hytche-athletic-center-12-5-2026--sports-ncaa-basketball/production/7854758?wsUser=717",
     "low": 30.0,
@@ -3296,7 +3320,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-central-eagles-mens-basketball-tickets-mcdougald-mclendon-gymnasium-12-5-2026--sports-ncaa-basketball/production/7905523?wsUser=717",
     "low": 29.0,
@@ -3376,7 +3406,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/coppin-state-eagles-mens-basketball-tickets-physical-education-complex-at-coppin-state-university-12-7-2026--sports-ncaa-basketball/production/7804914?wsUser=717",
     "low": 30.0,
@@ -3420,6 +3456,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "MASN",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3469,7 +3510,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-8-2026--sports-ncaa-basketball/production/7627379?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "EagleBank Arena",
@@ -3505,7 +3546,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/delaware-state-hornets-mens-basketball-tickets-memorial-hall---de-12-8-2026--sports-ncaa-basketball/production/7905545?wsUser=717",
     "low": 50.0,
@@ -4051,7 +4098,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-12-15-2026--sports-ncaa-basketball/production/7581919?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "PeoplesBank Arena",
@@ -4522,7 +4569,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/hampton-pirates-mens-basketball-tickets-hampton-convocation-center-12-19-2026--sports-ncaa-basketball/production/7877386?wsUser=717",
-    "low": 45.0,
+    "low": 36.0,
     "since": "2026-11-20T12:18:38Z"
    },
    "venue": "Convocation Center (VA)",
@@ -4993,7 +5040,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-carolina-gamecocks-mens-basketball-tickets-colonial-life-arena-12-29-2026--sports-ncaa-basketball/production/7570934?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Colonial Life Arena",
@@ -5038,7 +5085,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-12-29-2026--sports-ncaa-basketball/production/7463055?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Jersey Mike\u2019s Arena",
@@ -5083,7 +5130,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umbc-retrievers-mens-basketball-tickets-chesapeake-employers-insurance-arena-12-29-2026--sports-ncaa-basketball/production/7748250?wsUser=717",
-    "low": 36.0,
+    "low": 31.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Chesapeake Employers Insurance Arena",
@@ -5173,7 +5220,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-29-2026--sports-ncaa-basketball/production/7294917?wsUser=717",
-    "low": 60.0,
+    "low": 63.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Neville Arena",
@@ -6046,7 +6093,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/morgan-state-bears-mens-basketball-tickets-hill-field-house-1-23-2027--sports-ncaa-basketball/production/7852741?wsUser=717",
-    "low": 79.0,
+    "low": 49.0,
     "since": "2026-11-18T23:22:09Z"
    },
    "venue": "Hill Field House",
@@ -7566,6 +7613,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T02:31:38+00:00"
+ ]
 }

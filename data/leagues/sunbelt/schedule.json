@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:14:57+00:00",
+ "fetched_at": "2026-11-25T18:20:06+00:00",
  "season": 2027,
  "games": [
   {
@@ -3771,11 +3771,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-23-2026--sports-ncaa-basketball/production/7762869?wsUser=717",
-    "low": 36.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -3825,27 +3821,27 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": true
    },
    "away": {
     "espn_id": "2026",
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
-    "winner": null
+    "score": 50,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924267",
-   "date": "2026-11-24T20:30Z",
-   "name": "Long Beach State Beach at Arkansas State Red Wolves",
-   "short_name": "LBSU VS ARST",
+   "date": "2026-11-24T20:45Z",
+   "name": "Arkansas State Red Wolves at Long Beach State Beach",
+   "short_name": "ARST VS LBSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3862,25 +3858,25 @@
    "venue_city": "Miami",
    "venue_state": "FL",
    "home": {
-    "espn_id": "2032",
-    "key": "arkansas-state",
-    "name": "Arkansas State Red Wolves",
-    "abbr": "ARST",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "299",
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2032",
+    "key": "arkansas-state",
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "score": 106,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920742",
@@ -3898,11 +3894,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-11-24-2026--sports-ncaa-basketball/production/7728802?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "The HTC Center",
    "venue_city": "Conway",
    "venue_state": "SC",
@@ -3911,60 +3903,62 @@
     "key": "coastal-carolina",
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2097",
     "key": null,
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921030",
    "date": "2026-11-25T00:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
+   "name": "Georgia Southern Eagles at Bellarmine Knights",
+   "short_name": "GASO VS BELL",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-20T12:09:57Z"
-   },
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
    "home": {
-    "espn_id": "290",
-    "key": "georgia-southern",
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "91",
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "290",
+    "key": "georgia-southern",
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": 67,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401911379",
@@ -3982,11 +3976,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-24-2026--sports-ncaa-basketball/production/7403499?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Atlantic Union Bank Center",
    "venue_city": "Harrisonburg",
    "venue_state": "VA",
@@ -3995,21 +3985,21 @@
     "key": "james-madison",
     "name": "James Madison Dukes",
     "abbr": "JMU",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "2127",
     "key": null,
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926827",
@@ -4027,11 +4017,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/old-dominion-monarchs-mens-basketball-tickets-chartway-arena-11-24-2026--sports-ncaa-basketball/production/7399880?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Chartway Arena",
    "venue_city": "Norfolk",
    "venue_state": "VA",
@@ -4040,21 +4026,21 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2261",
     "key": null,
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": null,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925687",
@@ -4072,11 +4058,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-tech-bulldogs-mens-basketball-tickets-thomas-assembly-center-11-24-2026--sports-ncaa-basketball/production/7667289?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Thomas Assembly Center",
    "venue_city": "Ruston",
    "venue_state": "LA",
@@ -4085,21 +4067,21 @@
     "key": "louisiana-tech",
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": null,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "2016",
     "key": null,
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": null,
-    "winner": null
+    "score": 41,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401917983",
@@ -4117,11 +4099,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-monroe-warhawks-mens-basketball-tickets-b1bank-fant-coliseum-11-24-2026--sports-ncaa-basketball/production/7403434?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "b1Bank Fant Coliseum",
    "venue_city": "Monroe",
    "venue_state": "LA",
@@ -4130,21 +4108,21 @@
     "key": "ul-monroe",
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
    "away": {
     "espn_id": "2277",
     "key": null,
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
-    "score": null,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929421",
@@ -4162,11 +4140,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-alabama-jaguars-mens-basketball-tickets-the-mitchell-center-11-24-2026--sports-ncaa-basketball/production/7743227?wsUser=717",
-    "low": 31.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Mitchell Center",
    "venue_city": "Mobile",
    "venue_state": "AL",
@@ -4175,21 +4149,21 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "50",
     "key": null,
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
-    "score": null,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929456",
@@ -4207,11 +4181,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-24-2026--sports-ncaa-basketball/production/7289372?wsUser=717",
-    "low": 30.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Cajundome",
    "venue_city": "Lafayette",
    "venue_state": "LA",
@@ -4220,21 +4190,21 @@
     "key": "louisiana",
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": null,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2347",
     "key": null,
     "name": "Louisiana Christian Wildcats",
     "abbr": "LCHR",
-    "score": null,
-    "winner": null
+    "score": 24,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928836",
@@ -4295,7 +4265,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-25-2026--sports-ncaa-basketball/production/7745946?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Ocean Bank Convocation Center",
@@ -4421,7 +4391,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -4594,7 +4570,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/chattanooga-mocs-mens-basketball-tickets-utc-mckenzie-arena-11-28-2026--sports-ncaa-basketball/production/7745858?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "McKenzie Arena",
@@ -4729,7 +4705,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 18.0,
+    "low": 14.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Cam Henderson Center",
@@ -4765,7 +4741,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Convocation Center (LA)",
    "venue_city": "New Orleans",
@@ -4809,7 +4791,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 34.0,
+    "low": 27.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Holmes Convocation Center",
@@ -4944,7 +4926,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-29-2026--sports-ncaa-basketball/production/7403501?wsUser=717",
-    "low": 19.0,
+    "low": 16.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -4989,7 +4971,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/southern-miss-golden-eagles-mens-basketball-tickets-reed-green-coliseum-11-29-2026--sports-ncaa-basketball/production/7892473?wsUser=717",
-    "low": 18.0,
+    "low": 15.0,
     "since": "2026-11-19T12:09:49Z"
    },
    "venue": "Reed Green Coliseum",
@@ -5079,7 +5061,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-12-1-2026--sports-ncaa-basketball/production/7864140?wsUser=717",
-    "low": 26.0,
+    "low": 23.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "GSU Convocation Center",
@@ -5430,7 +5412,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-12-2-2026--sports-ncaa-basketball/production/7633886?wsUser=717",
     "low": 35.0,
@@ -5514,7 +5502,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/elon-university-phoenix-mens-basketball-tickets-schar-center-12-3-2026--sports-ncaa-basketball/production/7883578?wsUser=717",
     "low": 36.0,
@@ -5607,7 +5601,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-5-2026--sports-ncaa-basketball/production/7349662?wsUser=717",
-    "low": 18.0,
+    "low": 16.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Rupp Arena",
@@ -5783,7 +5777,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coastal-carolina-chanticleers-mens-basketball-tickets-htc-center-12-5-2026--sports-ncaa-basketball/production/7728809?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "The HTC Center",
@@ -5963,7 +5957,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-12-5-2026--sports-ncaa-basketball/production/7631675?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Gill Coliseum",
@@ -6098,7 +6092,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-12-6-2026--sports-ncaa-basketball/production/7403505?wsUser=717",
-    "low": 17.0,
+    "low": 14.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -6279,7 +6273,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-state-panthers-mens-basketball-tickets-gsu-convocation-center-12-9-2026--sports-ncaa-basketball/production/7864146?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "GSU Convocation Center",
@@ -6318,7 +6312,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-at-aggies-mens-basketball-tickets-corbett-sports-center-12-9-2026/production/7909377?wsUser=717",
-    "low": 35.0,
+    "low": 28.0,
     "since": "2026-11-21T18:11:15Z"
    },
    "venue": "Ellis Corbett Sports Center",
@@ -6447,7 +6441,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-12-12-2026--sports-ncaa-basketball/production/7627385?wsUser=717",
-    "low": 20.0,
+    "low": 22.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "EagleBank Arena",
@@ -7235,7 +7229,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-18-2026--sports-ncaa-basketball/production/7356341?wsUser=717",
-    "low": 21.0,
+    "low": 20.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Petersen Events Center",
@@ -7890,7 +7884,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-22-2026--sports-ncaa-basketball/production/7349949?wsUser=717",
-    "low": 6.0,
+    "low": 12.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Pete Maravich Assembly Center",
@@ -8295,7 +8289,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-12-31-2026--sports-ncaa-basketball/production/7398192?wsUser=717",
-    "low": 22.0,
+    "low": 19.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -8631,7 +8625,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-1-2-2027--sports-ncaa-basketball/production/7398204?wsUser=717",
-    "low": 27.0,
+    "low": 25.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -12624,6 +12618,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T02:48:05+00:00"
+ ]
 }

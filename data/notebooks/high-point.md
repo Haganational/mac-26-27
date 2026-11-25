@@ -1,6 +1,6 @@
 # Jalen Pierce, The High Point Examiner
 
-_High Point (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_High Point (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,7 +27,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 
 ## Barometer
 
-**86 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
+**86 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Jalen editorializes: 82% of stories right now.
 
@@ -69,7 +69,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 - 2026-11-20: W 85-74 vs Montana State Bobcats. Barometer 86 (giddy). <!-- g:401920413 -->
 - 2026-11-20: Social recap posted (W 85-74 vs Montana State Bobcats): https://hardwoodbricks.com/bigsky/games/401920413.html <!-- post:401920413:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:preview -->
+- 2026-11-25: W 75-70 vs (neutral) Duquesne Dukes. Barometer 86 (giddy). <!-- g:401920414 -->
+- 2026-11-25: Social recap posted (W 75-70 vs Duquesne Dukes): https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:recap -->

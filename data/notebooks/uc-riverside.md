@@ -1,6 +1,6 @@
 # Malcolm Reyes, The Riverside Compass
 
-_UC Riverside (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UC Riverside (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:preview -->
 - 2026-11-19: L 62-71 at San Diego Toreros. Barometer 48 (steady). <!-- g:401917535 -->
 - 2026-11-19: Social recap posted (L 62-71 vs San Diego Toreros): https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401925917.html <!-- post:401925917:preview -->

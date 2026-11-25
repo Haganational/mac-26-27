@@ -1,6 +1,6 @@
 # Priya Raman, The Newark Argus
 
-_NJIT (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_NJIT (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/americaeast/games/401909556.html <!-- post:401909556:preview -->
 - 2026-11-22: L 59-79 at Boston College Eagles. Barometer 15 (despondent). <!-- g:401909556 -->
 - 2026-11-23: Social recap posted (L 59-79 vs Boston College Eagles): https://hardwoodbricks.com/americaeast/games/401909556.html <!-- post:401909556:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:preview -->

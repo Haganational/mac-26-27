@@ -1,8 +1,8 @@
 {#- The top bar on the site-wide pages (front, At-Large, the Den, masthead, media, privacy).
-    Conferences sit behind one menu so the bar stays five items long at 6 editions or 27:
-    Conferences, The Window, Big Board, The Den, Watch, About.
+    Conferences sit behind one menu so the bar stays four items long at 6 editions or 27:
+    Conferences, The Window, Watch, About.
     Import with: {% from "_hub_bar.html" import hub_bar %} and call hub_bar(eds, "den.html"). -#}
-{% macro hub_bar(eds, active="", socials=False, mateo=False) -%}{#- mateo=True puts the front-page peek-a-boo (Mateo over Watch, Tiffany over At-Large) in the bar. -#}
+{% macro hub_bar(eds, active="", socials=False, mateo=False) -%}{#- mateo=True puts the front-page peek-a-boo (Mateo over Watch, Tiffany over The Window) in the bar. -#}
 <header class="bar"><div class="bar-in">
   <a class="brand" href="./">Hardwood Bricks</a>
   <nav aria-label="Site">
@@ -14,29 +14,25 @@
         <div class="hb-grid">{% for e in eds|sort(attribute='short', case_sensitive=False) %}<a href="{{ e.href }}" data-ed="{{ e.short|lower }} {{ e.name|lower }}"><b>{{ e.short }}</b><small>{{ e.name }}</small></a>{% endfor %}</div>
       </div>
     </details>
-    {#- Tidy bar (Nov 21 2026): Big Board holds the every-conference boards; The Den and Watch stay one tap; About holds the house pages.
-        Editions carry the same Big Board, The Den and Watch, in the same order, after their own pages. -#}
+    {#- Tidy bar (Nov 21 2026), tucked Nov 25 2026 (Matthew: "the den and the big board go under the window"):
+        The Window holds the network boards (Tops and Bottoms, At-Large Watch, Crunch Time, The Den) and each edition's desk;
+        Watch stays one tap; About holds the house pages. Editions carry the same The Window and Watch, after their own pages.
+        The Window carries hb-al: the landing swell and Tiffany's peek ride on it. -#}
     {% set board = [('at-large.html', 'At-Large Watch', 'Which mid-majors could crash the field without the auto bid'), ('crunch-time.html', 'Crunch Time', 'Comeback Kings, Final Exams, The Cardiologists, Foul Him, Dunking and Donuts')] %}
     {% set house = [('masthead.html', 'About and masthead', 'Who we are, how we work, corrections'), ('media.html', 'Media and credentials', 'For SIDs reviewing a credential request'), ('privacy.html', 'Privacy', 'What we keep (very little) and why')] %}
-    {#- The Window (Nov 21 2026): the betting coverage's one front door. Tops and Bottoms leads; each edition's odds screen
-        (access code) is one tap from the conference chips. -#}
-    <details class="hb-eds hb-sec hb-win{{ ' on' if active == 'tops.html' }}">
-      <summary>The Window</summary>
+    {% set window = ['tops.html', 'den.html'] + board|map(attribute=0)|list %}
+    <details class="hb-eds hb-sec hb-win hb-al{{ ' on' if active in window }}">
+      <summary><span>The Window</span></summary>
       <div class="hb-panel hb-list">
         <p class="hb-k">Tonight at the window</p>
         <a class="hb-lead" href="tops.html"{% if active == 'tops.html' %} aria-current="page"{% endif %}><b>Tops and Bottoms</b><small>Four handicappers, eight picks a night, every unit kept</small></a>
+        <a href="den.html"{% if active == 'den.html' %} aria-current="page"{% endif %}><b>The Den</b><small>Free games for the mid-major sicko, Anchor Pick'em first</small></a>
+        <p class="hb-k">Big Board <span>every conference</span></p>
+        {% for p in board %}<a href="{{ p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
         <p class="hb-k">The desk, by conference <span>code</span></p>
         <div class="hb-chips">{% for e in eds|sort(attribute='short', case_sensitive=False) %}<a href="{{ e.prefix or '' }}odds.html" title="{{ e.name }} odds, ratings and data viz">{{ e.short }}</a>{% endfor %}</div>
       </div>
     </details>
-    <details class="hb-eds hb-sec hb-al{{ ' on' if active in board|map(attribute=0)|list }}">
-      <summary><span>Big Board</span></summary>
-      <div class="hb-panel hb-list">
-        <p class="hb-k">Every conference, one board</p>
-        {% for p in board %}<a href="{{ p[0] }}"{% if active == p[0] %} aria-current="page"{% endif %}><b>{{ p[1] }}</b><small>{{ p[2] }}</small></a>{% endfor %}
-      </div>
-    </details>
-    <a href="den.html"{% if active == 'den.html' %} aria-current="page"{% endif %}>The Den</a>
     <a class="hb-watch" href="watch.html"{% if active == 'watch.html' %} aria-current="page"{% endif %}>Watch<svg class="hb-eyes" viewBox="0 0 22 10" width="22" height="10" aria-hidden="true"><ellipse cx="5" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><ellipse cx="17" cy="5" rx="4" ry="4.4" fill="#f3e9d8"/><circle cx="6" cy="5.6" r="1.9" fill="#2a1a10"/><circle cx="18" cy="5.6" r="1.9" fill="#2a1a10"/></svg></a>
     <details class="hb-eds hb-sec hb-end{{ ' on' if active in house|map(attribute=0)|list }}">
       <summary>About</summary>
@@ -48,29 +44,39 @@
     </details>
   </nav>
   {% if socials %}<div class="soc"><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>{% endif %}
-</div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".909" data-eyes=".405" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="55" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
+</div>{% if mateo %}<span class="hb-peek hb-tiff" data-at=".hb-al" data-ar=".909" data-eyes=".40" data-chin=".585" aria-hidden="true"><i><img data-src="static/art/tiff-peek.webp" alt="" width="55" height="60"></i></span><span class="hb-peek hb-mateo" data-at=".hb-watch" data-ar="1.1167" data-eyes=".34" data-chin=".655" data-pad="48" aria-hidden="true"><i><img data-src="static/art/mateo-peek.webp" alt="" width="67" height="60"><b></b></i></span>{% endif %}</header>
 <script>(function(){var ds=[].slice.call(document.currentScript.previousElementSibling.querySelectorAll('details.hb-eds')),d=ds[0];if(!d)return;
 /* One menu open at a time; a tap outside or Escape closes it. */
 ds.forEach(function(x){x.addEventListener('toggle',function(){if(x.open)ds.forEach(function(o){if(o!==x)o.open=false})})});
 document.addEventListener('click',function(e){ds.forEach(function(x){if(x.open&&!x.contains(e.target))x.open=false})});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')ds.forEach(function(x){if(x.open){x.open=false;x.querySelector('summary').focus()}})});
-/* Landing hello (Matthew, Nov 16 2026, a trial): At-Large swells once, then Watch's eyes blink twice. About 1.5 s,
+/* Landing hello (Matthew, Nov 16 2026, a trial): The Window swells once, then Watch's eyes blink twice. About 1.5 s,
    on the first page of a visit only, and never for readers who ask for reduced motion. */
 try{var bar=d.closest('.bar');if(!sessionStorage.getItem('hb-hello')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.setItem('hb-hello','1');bar.classList.add('hello');setTimeout(function(){bar.classList.remove('hello')},1700)}}catch(e){}
 /* Peek-a-boo (Matthew, Nov 18-19 2026): on the front page, every load and refresh, Mateo Sandoval rises from the foot of the
-   bar behind Watch (shimmy, blown kiss) and Tiffany Park rises behind At-Large (wig wobble, a curtsy dip), then both sink back.
-   About 4.5 s, never for reduced motion, and clicks go straight through them. Each span names its tab (data-at), art ratio (data-ar)
-   and extra width for effects (data-pad). */
-try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches)bar.querySelectorAll('.hb-peek').forEach(function(pk){var w=bar.querySelector(pk.dataset.at);if(!w)return;
-var im=pk.querySelector('img'),go=function(){var br=bar.getBoundingClientRect(),wr=w.getBoundingClientRect();if(!wr.width)return;
-var h=Math.min(Math.round(br.height),92),sw=Math.round(h*parseFloat(pk.dataset.ar)),ww=sw+(+pk.dataset.pad||0);
-pk.style.setProperty('--mh',h+'px');pk.style.setProperty('--mw',sw+'px');pk.style.width=ww+'px';pk.style.height=h+'px';pk.style.top=Math.round(br.height-h)+'px';
-pk.style.left=Math.round(wr.left-br.left+wr.width/2-ww/2)+'px';
-/* data-eyes: where her eyes sit in the art. Lift her until the tab's word clears them (the wig can clip at the top of the bar). */
-if(pk.dataset.eyes){var lift=Math.max(0,Math.min(h*.45,(br.height-h)+h*parseFloat(pk.dataset.eyes)-(wr.top-br.top)+6));pk.style.setProperty('--lift',Math.round(lift)+'px')}
-pk.classList.add('on');w.classList.add('pk-on');setTimeout(function(){pk.classList.remove('on');w.classList.remove('pk-on')},4800)};
-/* Measure after the web fonts land, or they sit over the wrong word on a cold load. */
-im.onload=function(){(document.fonts&&document.fonts.ready||Promise.resolve()).then(function(){requestAnimationFrame(go)})};im.src=im.dataset.src})}catch(e){}
+   bar behind Watch (shimmy, blown kiss) and Tiffany Park rises behind The Window (wig wobble, a curtsy dip), then both sink back.
+   About 4.5 s, never for reduced motion, and clicks go straight through them. Each span names its tab (data-at), art ratio (data-ar),
+   where the eyes and chin sit in the art (data-eyes, data-chin) and extra width for effects (data-pad).
+   Level (Matthew, Nov 24 2026: "they are at two diff latitudes"): everyone is measured together, scaled to the same face size,
+   and set on one eye line just above the lowest tab word, so on desktop and on the two-row phone bar their eyes sit level, every
+   word stays clear of their eyes, and their art always reaches the foot of the bar (nobody floats). */
+try{var pks=[].slice.call(bar.querySelectorAll('.hb-peek'));if(pks.length&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+var go=function(){var br=bar.getBoundingClientRect(),bh=br.height,live=[],T=0;
+pks.forEach(function(pk){var w=bar.querySelector(pk.dataset.at);if(!w)return;var t=w.querySelector('summary')||w,wr=t.getBoundingClientRect();if(!wr.width)return;
+var rg=document.createRange();rg.selectNodeContents(t);var tr=rg.getBoundingClientRect();
+live.push({pk:pk,w:w,wr:wr,e:parseFloat(pk.dataset.eyes),c:parseFloat(pk.dataset.chin),ar:parseFloat(pk.dataset.ar)});T=Math.max(T,(tr.height?tr.top:wr.top)-br.top-3)});
+if(!live.length)return;
+var h=Math.min(bh,92);T=Math.max(T,h*.3);
+/* One face size (eyes to chin): Mateo's from his full-height crop, capped at 24px so Tiff's wig doesn't swallow the two-row phone
+   bar, and grown only if anyone would otherwise stop short of the foot of the bar. */
+var face=Math.min(h*.315,24);live.forEach(function(o){face=Math.max(face,(bh-T)*(o.c-o.e)/(1-o.e))});
+live.forEach(function(o){var H=Math.round(face/(o.c-o.e)),sw=Math.round(H*o.ar),ww=sw+(+o.pk.dataset.pad||0),pk=o.pk;
+pk.style.setProperty('--mh',H+'px');pk.style.setProperty('--mw',sw+'px');pk.style.setProperty('--y',Math.round(T-(bh-H*(1-o.e)))+'px');
+pk.style.width=ww+'px';pk.style.height=Math.round(bh)+'px';pk.style.top='0px';pk.style.left=Math.round(o.wr.left-br.left+o.wr.width/2-ww/2)+'px';
+pk.classList.add('on');o.w.classList.add('pk-on');setTimeout(function(){pk.classList.remove('on');o.w.classList.remove('pk-on')},5000)})};
+/* Measure after every image and the web fonts land, or they sit over the wrong word on a cold load. */
+Promise.all(pks.map(function(pk){var im=pk.querySelector('img');return new Promise(function(r){im.onload=im.onerror=r;im.src=im.dataset.src})}))
+.then(function(){return document.fonts&&document.fonts.ready}).then(function(){requestAnimationFrame(go)})}}catch(e){}
 var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function(){var q=f.value.trim().toLowerCase();d.querySelectorAll('[data-ed]').forEach(function(a){a.hidden=!!q&&a.dataset.ed.indexOf(q)<0})});})();</script>
 <link rel="stylesheet" href="static/tidy.css"><script src="static/tidy.js" defer></script>
 <a class="fab-dispatch" hidden data-desk="desk.html" href="desk.html" title="Write a dispatch about this page">+ Dispatch</a><style>.fab-dispatch{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;display:inline-flex;align-items:center;gap:6px;padding:10px 15px;background:#a33a2a;color:#fff;font:700 14px/1 system-ui,sans-serif;letter-spacing:.02em;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.28);border:0}.fab-dispatch[hidden]{display:none}.fab-dispatch:hover{filter:brightness(1.08)}</style><script>(function(){try{if(localStorage.getItem('btb-author')!=='1'||/desk\.html$/.test(location.pathname))return;var f=document.querySelector('.fab-dispatch');if(!f)return;f.hidden=false;document.documentElement.classList.add('is-author');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.ng-plus,.pk-plus').forEach(function(a){a.hidden=false})});f.addEventListener('click',function(){var h=document.querySelector('h1'),t=document.title;if(h){h=h.cloneNode(true);h.querySelectorAll('.author-only,.btn-dispatch').forEach(function(x){x.parentNode.removeChild(x)});t=h.textContent||t}t=t.replace(/\s+/g,' ').trim().slice(0,120);f.href=f.dataset.desk+'?ref='+encodeURIComponent(location.pathname+location.hash)+'&rt='+encodeURIComponent(t)})}catch(e){}})();</script>
@@ -82,8 +88,8 @@ var f=d.querySelector('[data-ed-find]');if(f)f.addEventListener('input',function
 <footer class="hf">
   <nav class="hf-cols" aria-label="Site map">
     <div><h4>Conferences</h4><a href="./">All conferences</a>{% for e in eds|sort(attribute='short', case_sensitive=False) %}{% if loop.index <= 6 %}<a href="{{ e.href }}">{{ e.short }}</a>{% endif %}{% endfor %}{% if eds|length > 6 %}<span class="hf-more">and {{ eds|length - 6 }} more under Conferences</span>{% endif %}</div>
-    <div><h4>The Window</h4><a href="tops.html">Tops and Bottoms</a><h4>Big Board</h4><a href="at-large.html">At-Large Watch</a><a href="crunch-time.html">Crunch Time</a></div>
-    <div><h4>The Den &amp; Watch</h4><a href="den.html">The Den</a><a href="watch.html">Watch</a><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
+    <div><h4>The Window</h4><a href="tops.html">Tops and Bottoms</a><a href="den.html">The Den</a><a href="at-large.html">At-Large Watch</a><a href="crunch-time.html">Crunch Time</a></div>
+    <div><h4>Watch</h4><a href="watch.html">Watch</a><a href="https://www.youtube.com/@hardwoodbricks">YouTube</a><a href="https://www.instagram.com/hardwoodbricks/">Instagram</a><a href="https://www.threads.com/@hardwoodbricks">Threads</a><a href="https://bsky.app/profile/hardwoodbricks.bsky.social">Bluesky</a></div>
     <div><h4>About</h4><a href="masthead.html">About and masthead</a><a href="media.html">Media and credentials</a><a href="privacy.html">Privacy</a></div>
   </nav>
   <p class="hf-fine"><b>Hardwood Bricks</b> <i>Keep it mid. Keep it real.</i> {{ caller() }}</p>

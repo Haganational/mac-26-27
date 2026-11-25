@@ -1,6 +1,6 @@
 # Diamond Brooks, The Richmond Observer
 
-_VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_VCU (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 
 ## Barometer
 
-**55 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Diamond editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Diamond editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,7 @@ Diamond Brooks grew up in Richmond's Jackson Ward, the daughter of a gospel orga
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:preview -->
 - 2026-11-24: L 66-72 vs (neutral) Providence Friars. Barometer 55 (steady). <!-- g:401909536 -->
 - 2026-11-24: Social recap posted (L 66-72 vs Providence Friars): https://hardwoodbricks.com/a10/games/401909536.html <!-- post:401909536:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:preview -->
+- 2026-11-25: W 84-81 vs (neutral) Colorado State Rams. Barometer 59 (steady). <!-- g:401921712 -->
+- 2026-11-25: Social recap posted (W 84-81 vs Colorado State Rams): https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/a10/games/401921713.html <!-- post:401921713:preview -->

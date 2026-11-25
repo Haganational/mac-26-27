@@ -1,6 +1,6 @@
 # Lance Montgomery, The Westchester Sentinel
 
-_LMU (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_LMU (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -71,7 +71,7 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 - 2026-11-22: Social recap posted (L 73-80 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917539.html <!-- post:401917539:recap -->
 - 2026-11-22: W 72-68 vs (neutral) UC Irvine Anteaters. Barometer 65 (buoyant). <!-- g:401917540 -->
 - 2026-11-22: Social recap posted (W 72-68 vs UC Irvine Anteaters): https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/wcc/games/401917545.html <!-- post:401917545:preview -->

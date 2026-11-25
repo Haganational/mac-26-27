@@ -1,6 +1,6 @@
 # Mallory Hayes, The Bowling Green Clarion
 
-_Western Kentucky (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Western Kentucky (CUSA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 

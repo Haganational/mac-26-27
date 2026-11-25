@@ -63,7 +63,7 @@
     <div class="clocks" data-fold="6" data-fold-label="games">
       {% for g in v.games %}
       <article class="clockcard" id="c{{ g.id }}">
-        <h3>{{ g.away }} at {{ g.home }}</h3>
+        {% set gh = (ev_href or {}).get(g.id) %}<h3>{% if gh %}<a href="{{ gh }}">{{ g.away }} at {{ g.home }}</a>{% else %}{{ g.away }} at {{ g.home }}{% endif %}</h3>
         <div class="ckwhen">Tip {{ g.tip_et }}{% if g.final %} · played{% endif %} · dial shows the last {{ g.span_h }} hours</div>
         <svg class="dial" viewBox="-22 -22 304 304" role="img" aria-label="{{ g.away }} at {{ g.home }}: first line {{ g.lead_txt }} before tip from {{ g.first_name }}; {{ g.books|length }} books">
           <defs><marker id="ah{{ loop.index }}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path class="arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>

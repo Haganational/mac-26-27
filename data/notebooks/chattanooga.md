@@ -1,6 +1,6 @@
 # Rhett Caldwell, The Chattanooga Ledger
 
-_Chattanooga (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Chattanooga (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 
 ## Barometer
 
-**53 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LWWWL.
+**59 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rhett editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 - 2026-11-22: L 65-73 vs Radford Highlanders. Barometer 53 (steady). <!-- g:401920975 -->
 - 2026-11-22: Social recap posted (L 65-73 vs Radford Highlanders): https://hardwoodbricks.com/socon/games/401920975.html <!-- post:401920975:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->
+- 2026-11-25: W 79-66 vs Delaware State Hornets. Barometer 59 (steady). <!-- g:401920976 -->
+- 2026-11-25: Social recap posted (W 79-66 vs Delaware State Hornets): https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:recap -->

@@ -1,6 +1,6 @@
 # Monique Tate, The Norfolk Lantern
 
-_Old Dominion (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Old Dominion (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 
 ## Barometer
 
-**61 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**66 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -85,3 +85,5 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 - 2026-11-18: L 65-85 at Virginia Cavaliers. Barometer 61 (steady). <!-- g:401920426 -->
 - 2026-11-18: Social recap posted (L 65-85 vs Virginia Cavaliers): https://hardwoodbricks.com/sunbelt/games/401920426.html <!-- post:401920426:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:preview -->
+- 2026-11-25: W 71-59 vs Hampton Pirates. Barometer 66 (buoyant). <!-- g:401926827 -->
+- 2026-11-25: Social recap posted (W 71-59 vs Hampton Pirates): https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:recap -->

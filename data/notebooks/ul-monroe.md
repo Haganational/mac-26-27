@@ -1,6 +1,6 @@
 # Celeste Broussard, The Monroe Ledger
 
-_UL Monroe (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UL Monroe (Sun Belt). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 
 ## Barometer
 
-**36 of 100, testy.** Record 2-6 (0-0 in conference), streak L1, last five LLLWL.
+**31 of 100, testy.** Record 2-7 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Celeste editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Celeste editorializes: 72% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,5 @@ Celeste Broussard dispatched barges on the Ouachita River for twelve years and l
 - 2026-11-19: L 67-79 at LSU Tigers. Barometer 36 (testy). <!-- g:401917982 -->
 - 2026-11-19: Social recap posted (L 67-79 vs LSU Tigers): https://hardwoodbricks.com/sunbelt/games/401917982.html <!-- post:401917982:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:preview -->
+- 2026-11-25: L 58-84 vs Houston Christian Huskies. Barometer 31 (testy). <!-- g:401917983 -->
+- 2026-11-25: Social recap posted (L 58-84 vs Houston Christian Huskies): https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:recap -->

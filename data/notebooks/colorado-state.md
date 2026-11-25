@@ -1,6 +1,6 @@
 # Hank Ramsey, The Fort Collins Sentinel
 
-_Colorado St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Colorado St (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 
 ## Barometer
 
-**62 of 100, steady.** Record 4-1 (0-0 in conference), streak W1, last five WWWLW.
+**46 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,9 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 - 2026-11-19: W 71-64 vs North Dakota State Bison. Barometer 62 (steady). <!-- g:401929176 -->
 - 2026-11-19: Social recap posted (W 71-64 vs North Dakota State Bison): https://hardwoodbricks.com/pac12/games/401929176.html <!-- post:401929176:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/pac12/games/401909743.html <!-- post:401909743:preview -->
+- 2026-11-24: L 83-96 vs (neutral) Arizona Wildcats. Barometer 52 (steady). <!-- g:401909743 -->
+- 2026-11-24: Social recap posted (L 83-96 vs Arizona Wildcats): https://hardwoodbricks.com/pac12/games/401909743.html <!-- post:401909743:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:preview -->
+- 2026-11-25: L 81-84 vs (neutral) VCU Rams. Barometer 46 (steady). <!-- g:401921712 -->
+- 2026-11-25: Social recap posted (L 81-84 vs VCU Rams): https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:recap -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401921714.html <!-- post:401921714:preview -->

@@ -1,6 +1,6 @@
 # Hattie Farmer, The Farmville Lantern
 
-_Longwood (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Longwood (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:preview -->
 - 2026-11-21: L 68-74 at East Tennessee State Buccaneers. Barometer 52 (steady). <!-- g:401922048 -->
 - 2026-11-22: Social recap posted (L 68-74 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->

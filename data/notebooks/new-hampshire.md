@@ -1,6 +1,6 @@
 # Tom Leary, The Durham Beacon
 
-_New Hampshire (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_New Hampshire (America East). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWLWL.
+**44 of 100, testy.** Record 4-4 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tom editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tom editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,5 @@ Tom Leary drove an ice resurfacer at a Seacoast rink for decades and coached pee
 - 2026-11-21: L 47-50 at New Haven Chargers. Barometer 52 (steady). <!-- g:401923312 -->
 - 2026-11-21: Social recap posted (L 47-50 vs New Haven Chargers): https://hardwoodbricks.com/americaeast/games/401923312.html <!-- post:401923312:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920889.html <!-- post:401920889:preview -->
+- 2026-11-25: L 27-73 at Seton Hall Pirates. Barometer 44 (testy). <!-- g:401920889 -->
+- 2026-11-25: Social recap posted (L 27-73 vs Seton Hall Pirates): https://hardwoodbricks.com/americaeast/games/401920889.html <!-- post:401920889:recap -->

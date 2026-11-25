@@ -1,6 +1,6 @@
 # Brody Haskins, The Malibu Courant
 
-_Pepperdine (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Pepperdine (WCC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -71,7 +71,7 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:preview -->
 - 2026-11-24: W 89-62 vs UNC Greensboro Spartans. Barometer 62 (steady). <!-- g:401926183 -->
 - 2026-11-24: Social recap posted (W 89-62 vs UNC Greensboro Spartans): https://hardwoodbricks.com/wcc/games/401926183.html <!-- post:401926183:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:preview -->

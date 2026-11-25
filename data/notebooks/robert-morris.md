@@ -1,6 +1,6 @@
 # Lauren McAllister, The Moon Township Messenger
 
-_Robert Morris (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Robert Morris (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LLWLW.
+**38 of 100, testy.** Record 2-5 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,5 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 - 2026-11-22: W 84-79 vs (neutral) New Mexico State Aggies. Barometer 46 (steady). <!-- g:401928790 -->
 - 2026-11-22: Social recap posted (W 84-79 vs New Mexico State Aggies): https://hardwoodbricks.com/horizon/games/401928790.html <!-- post:401928790:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:preview -->
+- 2026-11-24: L 62-87 vs (neutral) Lamar Cardinals. Barometer 38 (testy). <!-- g:401925014 -->
+- 2026-11-25: Social recap posted (L 62-87 vs Lamar Cardinals): https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:recap -->

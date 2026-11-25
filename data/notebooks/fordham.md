@@ -1,6 +1,6 @@
 # Carmine Bellini, The Bronx Sentinel
 
-_Fordham (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Fordham (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 
 ## Barometer
 
-**60 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five WWWWL.
+**66 of 100, buoyant.** Record 6-2 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carmine editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -81,3 +81,5 @@ Carmine Bellini grew up in the Bronx's Belmont neighborhood, the son of a butche
 - 2026-11-22: W 80-58 vs (neutral) San Diego Toreros. Barometer 86 (giddy). <!-- g:401911200 -->
 - 2026-11-22: Social recap posted (W 80-58 vs San Diego Toreros): https://hardwoodbricks.com/a10/games/401911200.html <!-- post:401911200:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401911201.html <!-- post:401911201:preview -->
+- 2026-11-25: W 104-56 vs Mercy Mavericks. Barometer 66 (buoyant). <!-- g:401911201 -->
+- 2026-11-25: Social recap posted (W 104-56 vs Mercy Mavericks): https://hardwoodbricks.com/a10/games/401911201.html <!-- post:401911201:recap -->

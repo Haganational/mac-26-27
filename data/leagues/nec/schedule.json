@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:28:50+00:00",
+ "fetched_at": "2026-11-25T18:35:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2460,11 +2460,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-11-23-2026--sports-ncaa-basketball/production/7470765?wsUser=717",
-    "low": 22.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Hynes Athletics Center",
    "venue_city": "New Rochelle",
    "venue_state": "NY",
@@ -2505,11 +2501,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/le-moyne-dolphins-mens-basketball-tickets-ted-grant-court-11-23-2026--sports-basketball/production/7890331?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-19T23:22:53Z"
-   },
+   "tickets": null,
    "venue": "Ted Grant Court",
    "venue_city": "Syracuse",
    "venue_state": "NY",
@@ -2550,11 +2542,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/stonehill-skyhawks-mens-basketball-tickets-merkert-gymnasium-11-24-2026--sports-ncaa-basketball/production/7580723?wsUser=717",
-    "low": 34.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
    "venue_state": "MA",
@@ -2563,27 +2551,27 @@
     "key": "stonehill",
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
-    "score": null,
-    "winner": null
+    "score": 112,
+    "winner": true
    },
    "away": {
     "espn_id": "130189",
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401929035",
    "date": "2026-11-24T21:00Z",
-   "name": "Lindenwood Lions at New Haven Chargers",
-   "short_name": "LIN VS NHVN",
+   "name": "New Haven Chargers at Lindenwood Lions",
+   "short_name": "NHVN VS LIN",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2600,25 +2588,25 @@
    "venue_city": "Stony Brook",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2441",
-    "key": "new-haven",
-    "name": "New Haven Chargers",
-    "abbr": "NHVN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2815",
     "key": null,
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2441",
+    "key": "new-haven",
+    "name": "New Haven Chargers",
+    "abbr": "NHVN",
+    "score": 63,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926061",
@@ -2636,11 +2624,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wagner-college-seahawks-mens-basketball-tickets-spiro-sports-center-11-24-2026--sports-ncaa-basketball/production/7751069?wsUser=717",
-    "low": 12.0,
-    "since": "2026-11-18T23:21:25Z"
-   },
+   "tickets": null,
    "venue": "Spiro Sports Center",
    "venue_city": "Staten Island",
    "venue_state": "NY",
@@ -2649,21 +2633,21 @@
     "key": "wagner",
     "name": "Wagner Seahawks",
     "abbr": "WAG",
-    "score": null,
-    "winner": null
+    "score": 96,
+    "winner": true
    },
    "away": {
     "espn_id": "2071",
     "key": null,
     "name": "Bloomsburg Huskies",
     "abbr": "BBU",
-    "score": null,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919829",
@@ -2690,21 +2674,21 @@
     "key": "mercyhurst",
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
-    "score": null,
-    "winner": null
+    "score": 95,
+    "winner": true
    },
    "away": {
     "espn_id": "2902",
     "key": null,
     "name": "SUNY Fredonia Blue Devils",
     "abbr": "SNYF",
-    "score": null,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919762",
@@ -2731,21 +2715,21 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
-    "winner": null
+    "score": 123,
+    "winner": true
    },
    "away": {
     "espn_id": "130189",
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": null,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401919786",
@@ -2938,7 +2922,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-28-2026--sports-ncaa-basketball/production/7583704?wsUser=717",
-    "low": 9.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -3194,7 +3178,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/providence-college-friars-mens-basketball-tickets-amica-mutual-pavilion-12-1-2026--sports-ncaa-basketball/production/7326160?wsUser=717",
-    "low": 9.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Amica Mutual Pavilion",
@@ -3361,7 +3345,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Brooklyn Athletic Center",
    "venue_city": "Brooklyn",
@@ -3441,7 +3431,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Detrick Gymnasium",
    "venue_city": "New Britain",
@@ -3476,7 +3472,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/le-moyne-dolphins-mens-basketball-tickets-ted-grant-court-12-3-2026--sports-basketball/production/7890333?wsUser=717",
     "low": 32.0,
@@ -3554,7 +3556,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YES",
+     "kind": "TV",
+     "market": "Home"
+    },
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Bogota Savings Bank Center",
    "venue_city": "Hackensack",
@@ -3634,7 +3647,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Merkert Gymnasium",
    "venue_city": "South Easton",
@@ -3669,7 +3688,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/chicago-state-cougars-mens-basketball-tickets-jones-convocation-center-12-5-2026--sports-ncaa-basketball/production/7805302?wsUser=717",
     "low": 11.0,
@@ -3801,7 +3826,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/clemson-tigers-mens-basketball-tickets-littlejohn-coliseum-12-6-2026--sports-ncaa-basketball/production/7156718?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Littlejohn Coliseum",
@@ -3966,7 +3991,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/coppin-state-eagles-mens-basketball-tickets-physical-education-complex-at-coppin-state-university-12-7-2026--sports-ncaa-basketball/production/7804914?wsUser=717",
     "low": 30.0,
@@ -4059,7 +4090,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-12-8-2026--sports-ncaa-basketball/production/7583708?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -4256,7 +4287,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/valparaiso-beacons-mens-basketball-tickets-valparaiso-athletics-recreation-center-12-12-2026--sports-ncaa-basketball/production/7914651?wsUser=717",
+    "low": 29.0,
+    "since": "2026-11-25T12:29:21Z"
+   },
    "venue": "Athletics-Recreation Center",
    "venue_city": "Valparaiso",
    "venue_state": "IN",
@@ -4385,7 +4420,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-12-13-2026--sports-ncaa-basketball/production/7877454?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-19T23:22:53Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -5231,7 +5266,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-12-22-2026--sports-ncaa-basketball/production/7349925?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Mizzou Arena",
@@ -5395,7 +5430,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-12-29-2026--sports-ncaa-basketball/production/7350066?wsUser=717",
-    "low": 25.0,
+    "low": 20.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Tower Hill Arena",
@@ -5475,7 +5510,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/villanova-wildcats-mens-basketball-tickets-finneran-pavilion-12-9-2026--sports-ncaa-basketball/production/7483930?wsUser=717",
-    "low": 26.0,
+    "low": 25.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Finneran Pavilion",
@@ -5559,7 +5594,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northwestern-wildcats-mens-basketball-tickets-welsh-ryan-arena-12-29-2026--sports-ncaa-basketball/production/7484441?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Welsh-Ryan Arena",
@@ -8380,5 +8415,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:30:44+00:00"
+ "live_at": "2026-11-25T19:04:55+00:00"
 }

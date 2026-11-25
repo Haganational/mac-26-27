@@ -1,6 +1,6 @@
 # Pete Lindqvist, The Lewisburg Ledger
 
-_Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Bucknell (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 
 ## Barometer
 
-**33 of 100, testy.** Record 1-5 (0-0 in conference), streak L1, last five LLLWL.
+**28 of 100, despondent.** Record 1-6 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Pete editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,5 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 - 2026-11-21: L 87-93 vs Siena Saints. Barometer 33 (testy). <!-- g:401924884 -->
 - 2026-11-21: Social recap posted (L 87-93 vs Siena Saints): https://hardwoodbricks.com/metro/games/401924884.html <!-- post:401924884:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:preview -->
+- 2026-11-25: L 71-92 at Cornell Big Red. Barometer 28 (despondent). <!-- g:401924723 -->
+- 2026-11-25: Social recap posted (L 71-92 vs Cornell Big Red): https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:recap -->

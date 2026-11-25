@@ -1,6 +1,6 @@
 # Jamal Pierce, The Annapolis Ledger
 
-_Navy (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Navy (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 
 ## Barometer
 
-**47 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five WWWLL.
+**56 of 100, steady.** Record 5-3 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Jamal editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Jamal editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Jamal Pierce edits The Annapolis Ledger and reads a basketball game the way a sa
 - 2026-11-21: L 66-69 at Rider Broncs. Barometer 47 (steady). <!-- g:401921222 -->
 - 2026-11-21: Social recap posted (L 66-69 vs Rider Broncs): https://hardwoodbricks.com/metro/games/401921222.html <!-- post:401921222:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/patriot/games/401921223.html <!-- post:401921223:preview -->
+- 2026-11-24: W 97-46 vs Penn State Berks PENN STATE-LEHIGH VALLEY. Barometer 56 (steady). <!-- g:401921223 -->
+- 2026-11-24: Social recap posted (W 97-46 vs Penn State Berks PENN STATE-LEHIGH VALLEY): https://hardwoodbricks.com/patriot/games/401921223.html <!-- post:401921223:recap -->

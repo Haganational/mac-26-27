@@ -1,6 +1,6 @@
 # Col. Avery Lang, The Charleston Courant
 
-_The Citadel (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_The Citadel (SoCon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -67,7 +67,7 @@ Col. Avery Lang spent twenty-six years in the Army as a logistics officer and re
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Col. Avery Lang spent twenty-six years in the Army as a logistics officer and re
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:preview -->
 - 2026-11-21: W 79-63 vs South Carolina State Bulldogs. Barometer 60 (steady). <!-- g:401925927 -->
 - 2026-11-21: Social recap posted (W 79-63 vs South Carolina State Bulldogs): https://hardwoodbricks.com/socon/games/401925927.html <!-- post:401925927:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/socon/games/401922285.html <!-- post:401922285:preview -->

@@ -537,7 +537,8 @@ def render_site() -> str:
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
-        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou))
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou,
+        ev_href={ev: h for gid, ev in mapping.items() if (h := game_href.get(gid, "")).startswith("games/")}))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
@@ -795,7 +796,12 @@ def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[
               if lg.key != LEAGUE.key and weekly.issues(lg.key)]
     for i, f in enumerate(files):
         ctx = weekly.context(json.loads(f.read_text()), data, dispatches)
-        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
+        pp = ctx.get("paper")
+        if pp and pp["photo"]:
+            ctx["photo"] = weekly.photo(ctx["issue"], list(TEAMS), {k: b for t in TEAMS if (b := local.backdrop(t.key)) for k in [t.key]})
+            if ctx["photo"]:
+                local.publish(SITE_DIR.joinpath(*[".."] * LEAGUE.path.count("/")).resolve())
+        kw = dict(d=data, accent=pp["accent"] if pp else hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
         (SITE_DIR / "weekly" / f"{f.stem}.html").write_text(tpl.render(
             root="../", path=f"weekly/{f.stem}.html", others=[{**o, "href": "../" + o["href"]} for o in others], **kw))
         if i == len(files) - 1:

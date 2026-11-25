@@ -1,6 +1,6 @@
 # Darius Hill, The Lorman Banner
 
-_Alcorn State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Alcorn State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 
 ## Barometer
 
-**12 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**10 of 100, despondent.** Record 0-7 (0-0 in conference), streak L7, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 84% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 85% of stories right now.
 
 ## School and town
 
@@ -50,7 +50,7 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 7
 
 ## Log
 
@@ -65,3 +65,6 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 - 2026-11-19: L 41-102 at Missouri Tigers. Barometer 12 (despondent). <!-- g:401921816 -->
 - 2026-11-19: Social recap posted (L 41-102 vs Missouri Tigers): https://hardwoodbricks.com/swac/games/401921816.html <!-- post:401921816:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:preview -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/pac12/games/401925688.html <!-- post:401925688:preview -->
+- 2026-11-25: L 41-83 at Louisiana Tech Bulldogs. Barometer 10 (despondent). <!-- g:401925687 -->
+- 2026-11-25: Social recap posted (L 41-83 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:recap -->

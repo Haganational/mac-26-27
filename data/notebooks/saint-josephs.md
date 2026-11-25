@@ -1,6 +1,6 @@
 # Paco Mendoza, The Philadelphia Lantern
 
-_Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Saint Joseph's (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 
 ## Barometer
 
-**61 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**67 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Paco editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,6 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:preview -->
 - 2026-11-21: L 64-75 at Drexel Dragons. Barometer 61 (steady). <!-- g:401920195 -->
 - 2026-11-21: Social recap posted (L 64-75 vs Drexel Dragons): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920196.html <!-- post:401920196:preview -->
+- 2026-11-25: W 104-48 vs Penn State Abington Nittany Lions. Barometer 67 (buoyant). <!-- g:401920196 -->
+- 2026-11-25: Social recap posted (W 104-48 vs Penn State Abington Nittany Lions): https://hardwoodbricks.com/a10/games/401920196.html <!-- post:401920196:recap -->

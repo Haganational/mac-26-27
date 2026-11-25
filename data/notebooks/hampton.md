@@ -1,6 +1,6 @@
 # Capt. Kendra Shaw, The Hampton Sentinel
 
-_Hampton (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Hampton (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 
 ## Barometer
 
-**40 of 100, testy.** Record 1-3 (0-0 in conference), streak L1, last five LLWL.
+**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -77,3 +77,5 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 - 2026-11-11: W 67-56 vs Apprentice School Builders. Barometer 45 (steady). <!-- g:401926826 -->
 - 2026-11-14: L 56-58 at Navy Midshipmen. Barometer 40 (testy). <!-- g:401921221 -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:preview -->
+- 2026-11-25: L 59-71 at Old Dominion Monarchs. Barometer 35 (testy). <!-- g:401926827 -->
+- 2026-11-25: Social recap posted (L 59-71 vs Old Dominion Monarchs): https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:recap -->

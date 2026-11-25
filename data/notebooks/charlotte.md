@@ -1,6 +1,6 @@
 # Desmond Okoye, The Charlotte Courant
 
-_Charlotte (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Charlotte (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 
 ## Barometer
 
-**60 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WLLWW.
+**68 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Desmond editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 - 2026-11-23: W 71-58 vs (neutral) Florida Gulf Coast Eagles. Barometer 60 (steady). <!-- g:401921701 -->
 - 2026-11-23: Social recap posted (W 71-58 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401921701.html <!-- post:401921701:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:preview -->
+- 2026-11-25: W 85-72 vs (neutral) Northern Iowa Panthers. Barometer 68 (buoyant). <!-- g:401921702 -->
+- 2026-11-25: Social recap posted (W 85-72 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:recap -->

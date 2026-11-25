@@ -1,6 +1,6 @@
 # Dolly McAllister, The Hillsboro Courant
 
-_Belmont (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Belmont (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Dolly McAllister grew up above her father's guitar-repair shop in East Nashville
 
 ## Barometer
 
-**73 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
+**50 of 100, steady.** Record 5-3 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dolly editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dolly editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Dolly McAllister grew up above her father's guitar-repair shop in East Nashville
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 10
 
 ## Log
 
@@ -88,3 +88,7 @@ Dolly McAllister grew up above her father's guitar-repair shop in East Nashville
 - 2026-11-23: W 68-60 vs (neutral) Yale Bulldogs. Barometer 73 (buoyant). <!-- g:401929286 -->
 - 2026-11-23: Social recap posted (W 68-60 vs Yale Bulldogs): https://hardwoodbricks.com/mvc/games/401929286.html <!-- post:401929286:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401927399.html <!-- post:401927399:preview -->
+- 2026-11-24: L 64-87 vs (neutral) Akron Zips. Barometer 57 (steady). <!-- g:401928835 -->
+- 2026-11-24: Social recap posted (L 64-87 vs Akron Zips): https://hardwoodbricks.com/games/401928835.html <!-- post:401928835:recap -->
+- 2026-11-25: L 68-71 vs (neutral) St. Bonaventure Bonnies. Barometer 50 (steady). <!-- g:401927399 -->
+- 2026-11-25: Social recap posted (L 68-71 vs St. Bonaventure Bonnies): https://hardwoodbricks.com/mvc/games/401927399.html <!-- post:401927399:recap -->

@@ -1,6 +1,6 @@
 # Isaiah Grant, The Daytona Beach Mercury
 
-_Bethune-Cookman (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Bethune-Cookman (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Isaiah Grant spent fifteen years changing tires on a regional stock-car pit crew
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/swac/games/401909494.html <!-- post:401909494:preview -->
 - 2026-11-19: L 65-88 at Creighton Bluejays. Barometer 34 (testy). <!-- g:401909494 -->
 - 2026-11-19: Social recap posted (L 65-88 vs Creighton Bluejays): https://hardwoodbricks.com/swac/games/401909494.html <!-- post:401909494:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401911241.html <!-- post:401911241:preview -->

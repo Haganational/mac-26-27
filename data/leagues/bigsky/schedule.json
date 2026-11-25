@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:20:54+00:00",
+ "fetched_at": "2026-11-25T18:26:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2628,11 +2628,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/idaho-vandals-mens-basketball-tickets-idaho-central-credit-union-arena-11-23-2026--sports-ncaa-basketball/production/7710737?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "ICCU Arena",
    "venue_city": "Moscow",
    "venue_state": "ID",
@@ -2673,11 +2669,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-11-23-2026--sports-ncaa-basketball/production/7742949?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Dahlberg Arena",
    "venue_city": "Missoula",
    "venue_state": "MT",
@@ -2718,11 +2710,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unlv-rebels-mens-basketball-tickets-thomas-and-mack-center-11-23-2026--sports-ncaa-basketball/production/7419559?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Thomas & Mack Center",
    "venue_city": "Las Vegas",
    "venue_state": "NV",
@@ -2731,21 +2719,21 @@
     "key": null,
     "name": "UNLV Rebels",
     "abbr": "UNLV",
-    "score": 71,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "331",
     "key": "eastern-washington",
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": 49,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920819",
@@ -2772,21 +2760,21 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
    "away": {
     "espn_id": "2545",
     "key": null,
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401928358",
@@ -2804,11 +2792,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-international-panthers-mens-basketball-tickets-ocean-bank-convocation-center-11-24-2026--sports-ncaa-basketball/production/7745944?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "Ocean Bank Convocation Center",
    "venue_city": "Miami",
    "venue_state": "FL",
@@ -2817,21 +2801,21 @@
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
    "away": {
     "espn_id": "253",
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925950",
@@ -2858,21 +2842,21 @@
     "key": "weber-state",
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2627",
     "key": null,
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401922023",
@@ -2890,11 +2874,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-11-24-2026--sports-ncaa-basketball/production/7558434?wsUser=717",
-    "low": 8.0,
-    "since": "2026-11-18T23:15:35Z"
-   },
+   "tickets": null,
    "venue": "ExtraMile Arena",
    "venue_city": "Boise",
    "venue_state": "ID",
@@ -2903,21 +2883,62 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "304",
     "key": "idaho-state",
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": null,
+    "score": 71,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920547",
+   "date": "2026-11-25T17:30Z",
+   "name": "Northern Colorado Bears at Detroit Mercy Titans",
+   "short_name": "UNCO VS DETM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "2174",
+    "key": null,
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "score": 55,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2458",
+    "key": "northern-colorado",
+    "name": "Northern Colorado Bears",
+    "abbr": "UNCO",
+    "score": 60,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:49 - 2nd"
   },
   {
    "game_id": "401924268",
@@ -2944,7 +2965,7 @@
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2952,13 +2973,13 @@
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:56 - 1st"
   },
   {
    "game_id": "401925943",
@@ -2976,7 +2997,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-11-25-2026--sports-ncaa-basketball/production/7919399?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -3418,7 +3443,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-salukis-mens-basketball-tickets-banterra-center-11-28-2026--sports-ncaa-basketball/production/7919024?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Banterra Center",
    "venue_city": "Carbondale",
    "venue_state": "IL",
@@ -3461,7 +3490,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/santa-clara-broncos-mens-basketball-tickets-leavey-event-center-11-28-2026--sports-ncaa-basketball/production/7469240?wsUser=717",
-    "low": 18.0,
+    "low": 19.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Leavey Center",
@@ -3506,7 +3535,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wyoming-cowboys-mens-basketball-tickets-arena-auditorium-11-29-2026--sports-ncaa-basketball/production/7699976?wsUser=717",
-    "low": 28.0,
+    "low": 40.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Arena-Auditorium",
@@ -3771,7 +3800,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-12-3-2026--sports-ncaa-basketball/production/7919401?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -3896,6 +3929,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Rose City Sports Net",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": null,
@@ -4070,7 +4108,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-12-5-2026--sports-ncaa-basketball/production/7919403?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -4158,7 +4200,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-8-2026--sports-ncaa-basketball/production/7877384?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -4248,7 +4290,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-8-2026--sports-ncaa-basketball/production/7742951?wsUser=717",
-    "low": 38.0,
+    "low": 27.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -4498,7 +4540,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-12-10-2026--sports-ncaa-basketball/production/7919405?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -4869,7 +4915,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-12-14-2026--sports-ncaa-basketball/production/7919407?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -4951,7 +5001,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/byu-cougars-mens-basketball-tickets-marriott-center-12-15-2026--sports-ncaa-basketball/production/7156087?wsUser=717",
-    "low": 39.0,
+    "low": 34.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Marriott Center",
@@ -5041,7 +5091,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-17-2026--sports-ncaa-basketball/production/7877388?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -5080,7 +5130,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/uc-davis-aggies-mens-basketball-tickets-university-credit-union-center-12-17-2026--sports-ncaa-basketball/production/7656414?wsUser=717",
-    "low": 28.0,
+    "low": 24.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "University Credit Union Center",
@@ -5254,7 +5304,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/montana-grizzlies-mens-basketball-tickets-dahlberg-arena-12-18-2026--sports-ncaa-basketball/production/7743143?wsUser=717",
-    "low": 44.0,
+    "low": 33.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Dahlberg Arena",
@@ -5428,7 +5478,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-ducks-mens-basketball-tickets-matthew-knight-arena-12-20-2026--sports-ncaa-basketball/production/7636972?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:15:35Z"
    },
    "venue": "Matthew Knight Arena",
@@ -5995,7 +6045,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-12-31-2026--sports-ncaa-basketball/production/7877390?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -6163,7 +6213,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-2-2027--sports-ncaa-basketball/production/7877406?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -6393,7 +6443,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-7-2027--sports-ncaa-basketball/production/7877408?wsUser=717",
-    "low": 30.0,
+    "low": 25.0,
     "since": "2026-11-19T23:16:30Z"
    },
    "venue": "Reese Court",
@@ -6469,7 +6519,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-1-7-2027--sports-ncaa-basketball/production/7919409?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -6660,7 +6714,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-1-9-2027--sports-ncaa-basketball/production/7919411?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -7034,7 +7092,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-1-16-2027--sports-ncaa-basketball/production/7919413?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -7149,7 +7211,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-18-2027--sports-ncaa-basketball/production/7877410?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7186,7 +7248,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-1-18-2027--sports-ncaa-basketball/production/7919415?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -7488,7 +7554,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-25-2027--sports-ncaa-basketball/production/7877416?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7644,7 +7710,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-28-2027--sports-ncaa-basketball/production/7877418?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -7839,7 +7905,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-1-30-2027--sports-ncaa-basketball/production/7877422?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -8106,7 +8172,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-2-4-2027--sports-ncaa-basketball/production/7919417?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -8324,7 +8394,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-2-6-2027--sports-ncaa-basketball/production/7919421?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -8435,7 +8509,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-11-2027--sports-ncaa-basketball/production/7877424?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -8550,7 +8624,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-2-11-2027--sports-ncaa-basketball/production/7919423?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -8587,7 +8665,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-13-2027--sports-ncaa-basketball/production/7877426?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-19T23:16:30Z"
    },
    "venue": "Reese Court",
@@ -9347,7 +9425,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/eastern-washington-eagles-mens-basketball-tickets-reese-court-2-27-2027--sports-ncaa-basketball/production/7877428?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-20T12:13:50Z"
    },
    "venue": "Reese Court",
@@ -9688,7 +9766,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/utah-tech-trailblazers-mens-basketball-tickets-burns-arena-3-1-2027--sports-ncaa-basketball/production/7919425?wsUser=717",
+    "low": 22.0,
+    "since": "2026-11-25T12:22:44Z"
+   },
    "venue": "Burns Arena",
    "venue_city": "St. George",
    "venue_state": "UT",
@@ -9714,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T04:52:13+00:00"
+ "live_at": "2026-11-25T18:57:58+00:00"
 }

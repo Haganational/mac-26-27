@@ -1,6 +1,6 @@
 # Barnaby Thayer, The Providence Sentinel
 
-_Brown (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Brown (Ivy). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/ivy/games/401911310.html <!-- post:401911310:preview -->
 - 2026-11-22: L 71-84 at Vermont Catamounts. Barometer 41 (testy). <!-- g:401911310 -->
 - 2026-11-22: Social recap posted (L 71-84 vs Vermont Catamounts): https://hardwoodbricks.com/ivy/games/401911310.html <!-- post:401911310:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401911311.html <!-- post:401911311:preview -->

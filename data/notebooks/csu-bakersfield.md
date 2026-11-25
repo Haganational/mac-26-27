@@ -1,6 +1,6 @@
 # Ramon Cisneros, The Bakersfield Clarion
 
-_CSU Bakersfield (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_CSU Bakersfield (Big West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -66,7 +66,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:preview -->
 - 2026-11-21: L 81-84 at Idaho Vandals. Barometer 61 (steady). <!-- g:401920137 -->
 - 2026-11-21: Social recap posted (L 81-84 vs Idaho Vandals): https://hardwoodbricks.com/bigwest/games/401920137.html <!-- post:401920137:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:preview -->

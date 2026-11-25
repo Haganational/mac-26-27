@@ -78,6 +78,7 @@
         <span class="tm">{{ logo(ev.away.espn_id) }}{% if ev.away.key %}<a href="teams/{{ ev.away.key }}.html">{{ ev.away.name }}</a>{% else %}{{ ev.away.name }}{% endif %}</span>
         <span class="tm">{{ logo(ev.home.espn_id) }}<b>{{ 'vs' if g and g.neutral_site else 'at' }} {% if ev.home.key %}<a href="teams/{{ ev.home.key }}.html">{{ ev.home.name }}</a>{% else %}{{ ev.home.name }}{% endif %}</b>{% if g and g.conference_game %} <span class="pill">{{ LG }}</span>{% endif %}</span>
       </div>
+      {% set gh = game_href.get(g.game_id) if g %}{% if gh and gh.startswith('games/') %}<a class="oggame" href="{{ gh }}">Game page →</a>{% endif %}
       {% if g %}<div class="ogwatch">{% for n in g.watch.nets %}<span class="net {{ n.tier }}">{{ n.name }}</span>{% else %}<span class="net none">TBD</span>{% endfor %}</div>{% endif %}
     </div>
 

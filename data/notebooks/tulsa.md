@@ -1,6 +1,6 @@
 # Darla Pruitt, The Tulsa Dispatch
 
-_Tulsa (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Tulsa (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L2, last five WWWLL.
+**42 of 100, testy.** Record 4-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,5 @@ Darla Pruitt spent thirty-four years as an aircraft mechanic at the American Air
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mvc/games/401921666.html <!-- post:401921666:preview -->
 - 2026-11-23: L 66-69 vs (neutral) Oregon State Beavers. Barometer 52 (steady). <!-- g:401921658 -->
 - 2026-11-23: Social recap posted (L 66-69 vs Oregon State Beavers): https://hardwoodbricks.com/pac12/games/401921658.html <!-- post:401921658:recap -->
+- 2026-11-24: L 67-79 vs (neutral) Illinois State Redbirds. Barometer 42 (testy). <!-- g:401921666 -->
+- 2026-11-25: Social recap posted (L 67-79 vs Illinois State Redbirds): https://hardwoodbricks.com/mvc/games/401921666.html <!-- post:401921666:recap -->

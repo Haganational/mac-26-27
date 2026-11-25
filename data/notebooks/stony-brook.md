@@ -1,6 +1,6 @@
 # Skipper Callahan, The Stony Brook Register
 
-_Stony Brook (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Stony Brook (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -78,3 +78,4 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:preview -->
 - 2026-11-21: W 67-52 at Saint Peter's Peacocks. Barometer 60 (steady). <!-- g:401924882 -->
 - 2026-11-21: Social recap posted (W 67-52 vs Saint Peter's Peacocks): https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:preview -->

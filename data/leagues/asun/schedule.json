@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:02:59+00:00",
+ "fetched_at": "2026-11-25T18:07:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -2191,11 +2191,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/north-florida-ospreys-mens-basketball-tickets-university-of-north-florida-unf-arena-11-23-2026--sports-other-sports/production/7890317?wsUser=717",
-    "low": 43.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
+   "tickets": null,
    "venue": "UNF Arena",
    "venue_city": "Jacksonville",
    "venue_state": "FL",
@@ -2236,11 +2232,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/wofford-college-terriers-mens-basketball-tickets-jerry-richardson-indoor-stadium-11-24-2026--sports-ncaa-basketball/production/7595584?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Jerry Richardson Indoor Stadium",
    "venue_city": "Spartanburg",
    "venue_state": "SC",
@@ -2249,60 +2241,62 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": null,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "2511",
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": null,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921030",
    "date": "2026-11-25T00:00Z",
-   "name": "Bellarmine Knights at Georgia Southern Eagles",
-   "short_name": "BELL VS GASO",
+   "name": "Georgia Southern Eagles at Bellarmine Knights",
+   "short_name": "GASO VS BELL",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
-   "tickets": {
-    "url": "https://www.vividseats.com/bellarmine-knights-mens-basketball-tickets-truist-arena-11-24-2026--sports-ncaa-basketball/production/7907530?wsUser=717",
-    "low": 32.0,
-    "since": "2026-11-20T12:02:17Z"
-   },
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
    "home": {
-    "espn_id": "290",
-    "key": null,
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "91",
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "290",
+    "key": null,
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "score": 67,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401916291",
@@ -2320,11 +2314,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/indiana-hoosiers-mens-basketball-tickets-simon-skjodt-assembly-hall-11-24-2026--sports-ncaa-basketball/production/7478279?wsUser=717",
-    "low": 6.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Simon Skjodt Assembly Hall",
    "venue_city": "Bloomington",
    "venue_state": "IN",
@@ -2333,21 +2323,21 @@
     "key": null,
     "name": "Indiana Hoosiers",
     "abbr": "IU",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "294",
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": null,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401918996",
@@ -2365,11 +2355,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-11-24-2026--sports-ncaa-basketball/production/7413169?wsUser=717",
-    "low": 13.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Yuengling Center",
    "venue_city": "Tampa",
    "venue_state": "FL",
@@ -2378,21 +2364,21 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": null,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "56",
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920709",
@@ -2410,11 +2396,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-11-24-2026--sports-ncaa-basketball/production/7294904?wsUser=717",
-    "low": 27.0,
-    "since": "2026-11-18T23:02:30Z"
-   },
+   "tickets": null,
    "venue": "Neville Arena",
    "venue_city": "Auburn",
    "venue_state": "AL",
@@ -2423,21 +2405,21 @@
     "key": null,
     "name": "Auburn Tigers",
     "abbr": "AUB",
-    "score": null,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "288",
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401922223",
@@ -2589,7 +2571,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 30.0,
+    "low": 36.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Truist Arena",
@@ -2634,7 +2616,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-11-27-2026--sports-ncaa-basketball/production/7119705?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Hinkle Fieldhouse",
@@ -2855,7 +2837,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-29-2026--sports-ncaa-basketball/production/7589488?wsUser=717",
-    "low": 36.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Fertitta Center",
@@ -2986,7 +2968,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-1-2026--sports-ncaa-basketball/production/7483122?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Addition Financial Arena",
@@ -3121,7 +3103,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-12-2-2026--sports-ncaa-basketball/production/7413175?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Yuengling Center",
@@ -3563,7 +3545,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-hurricanes-mens-basketball-tickets-watsco-center-12-5-2026--sports-ncaa-basketball/production/7339385?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Watsco Center",
@@ -3685,7 +3667,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "YouTube",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/colorado-state-rams-mens-basketball-tickets-moby-arena-12-8-2026--sports-ncaa-basketball/production/7575841?wsUser=717",
     "low": 10.0,
@@ -4079,7 +4067,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-12-14-2026--sports-ncaa-basketball/production/7685648?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "William H. Pitt Center",
@@ -4793,7 +4781,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/ut-arlington-mavericks-mens-basketball-tickets-college-park-center-12-19-2026--sports-ncaa-basketball/production/7919211?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:07:36Z"
+   },
    "venue": "College Park Center",
    "venue_city": "Arlington",
    "venue_state": "TX",
@@ -5317,7 +5309,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgia-bulldogs-mens-basketball-tickets-stegeman-coliseum-12-29-2026--sports-ncaa-basketball/production/7402697?wsUser=717",
-    "low": 10.0,
+    "low": 13.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Stegeman Coliseum",
@@ -5532,7 +5524,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/ut-arlington-mavericks-mens-basketball-tickets-college-park-center-12-31-2026--sports-ncaa-basketball/production/7919217?wsUser=717",
+    "low": 24.0,
+    "since": "2026-11-25T12:07:36Z"
+   },
    "venue": "College Park Center",
    "venue_city": "Arlington",
    "venue_state": "TX",
@@ -6086,7 +6082,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-7-2027--sports-ncaa-basketball/production/7595610?wsUser=717",
-    "low": 40.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
@@ -6242,7 +6238,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-9-2027--sports-ncaa-basketball/production/7595614?wsUser=717",
-    "low": 34.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
@@ -6823,7 +6819,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-28-2027--sports-ncaa-basketball/production/7595620?wsUser=717",
-    "low": 40.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
@@ -7092,7 +7088,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-1-30-2027--sports-ncaa-basketball/production/7595622?wsUser=717",
-    "low": 34.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
@@ -7482,7 +7478,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/jacksonville-dolphins-mens-basketball-tickets-historic-swisher-gym-2-11-2027--sports-ncaa-basketball/production/7601039?wsUser=717",
-    "low": 40.0,
+    "low": 26.0,
     "since": "2026-11-18T23:02:30Z"
    },
    "venue": "Swisher Gymnasium",
@@ -8246,6 +8242,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T02:37:41+00:00"
+ ]
 }

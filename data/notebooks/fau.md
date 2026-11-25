@@ -1,6 +1,6 @@
 # Anchor to be cast, The Boca Raton Clarion
 
-_FAU (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_FAU (American). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -16,9 +16,9 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W3, last five WLWWW.
+**75 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often the editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -60,7 +60,7 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 ## What we've made about them
 
 - Film: *Owlcatraz (Part I)* (https://youtu.be/EWtQcKFFuto). Our film on the 2013 fight over a private prison company's name on FAU's stadium. Part one of two.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -73,3 +73,5 @@ _FAU (American). Anchors are fictional AI personas, not affiliated with any scho
 - 2026-11-19: W 86-76 vs Florida Gulf Coast Eagles. Barometer 69 (buoyant). <!-- g:401922212 -->
 - 2026-11-19: Social recap posted (W 86-76 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401922212.html <!-- post:401922212:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401923262.html <!-- post:401923262:preview -->
+- 2026-11-24: W 95-84 vs Mercer Bears. Barometer 75 (buoyant). <!-- g:401923262 -->
+- 2026-11-25: Social recap posted (W 95-84 vs Mercer Bears): https://hardwoodbricks.com/american/games/401923262.html <!-- post:401923262:recap -->

@@ -1,6 +1,6 @@
 # Barnaby St. Clair, The Pittsburgh Clarion
 
-_Duquesne (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Duquesne (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 
 ## Barometer
 
-**59 of 100, steady.** Record 5-1 (0-0 in conference), streak L1, last five WWWWL.
+**51 of 100, steady.** Record 5-2 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Barnaby editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Barnaby St. Clair grew up in Pittsburgh's Squirrel Hill, the son of a hardware s
 - 2026-11-22: L 61-79 vs (neutral) Wyoming Cowboys. Barometer 59 (steady). <!-- g:401921706 -->
 - 2026-11-22: Social recap posted (L 61-79 vs Wyoming Cowboys): https://hardwoodbricks.com/mw/games/401921706.html <!-- post:401921706:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:preview -->
+- 2026-11-25: L 70-75 vs (neutral) High Point Panthers. Barometer 51 (steady). <!-- g:401920414 -->
+- 2026-11-25: Social recap posted (L 70-75 vs High Point Panthers): https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:recap -->

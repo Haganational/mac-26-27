@@ -1,6 +1,6 @@
 # Tamika Jordan, The Pine Bluff Courier
 
-_Arkansas-Pine Bluff (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Arkansas-Pine Bluff (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -67,7 +67,7 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:preview -->
 - 2026-11-19: L 69-100 at Arkansas State Red Wolves. Barometer 10 (despondent). <!-- g:401928398 -->
 - 2026-11-19: Social recap posted (L 69-100 vs Arkansas State Red Wolves): https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:preview -->

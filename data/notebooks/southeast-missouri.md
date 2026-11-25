@@ -1,6 +1,6 @@
 # Bonnie Kasten, The Cape Girardeau Chronicle
 
-_SEMO (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_SEMO (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 
 ## Barometer
 
-**46 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLLWL.
+**41 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bonnie editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bonnie editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 - 2026-11-20: L 61-93 at St. Thomas Tommies. Barometer 46 (steady). <!-- g:401920845 -->
 - 2026-11-20: Social recap posted (L 61-93 vs St. Thomas Tommies): https://hardwoodbricks.com/summit/games/401920845.html <!-- post:401920845:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:preview -->
+- 2026-11-25: L 75-80 vs Purdue Fort Wayne Mastodons. Barometer 41 (testy). <!-- g:401926154 -->
+- 2026-11-25: Social recap posted (L 75-80 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:recap -->

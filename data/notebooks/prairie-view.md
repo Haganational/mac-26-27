@@ -1,6 +1,6 @@
 # Marcus Delane, The Prairie View Observer
 
-_Prairie View (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Prairie View (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -77,3 +77,4 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 - 2026-11-15: Social preview posted: https://hardwoodbricks.com/swac/games/401916317.html <!-- post:401916317:preview -->
 - 2026-11-16: L 59-86 at Ohio State Buckeyes. Barometer 26 (despondent). <!-- g:401916317 -->
 - 2026-11-17: Social recap posted (L 59-86 vs Ohio State Buckeyes): https://hardwoodbricks.com/swac/games/401916317.html <!-- post:401916317:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->

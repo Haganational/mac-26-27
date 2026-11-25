@@ -1,6 +1,6 @@
 # Nora Lindgren, The St. Paul Courant
 
-_St. Thomas (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_St. Thomas (Summit). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:preview -->
 - 2026-11-21: W 98-70 at Milwaukee Panthers. Barometer 70 (buoyant). <!-- g:401920846 -->
 - 2026-11-21: Social recap posted (W 98-70 vs Milwaukee Panthers): https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:preview -->

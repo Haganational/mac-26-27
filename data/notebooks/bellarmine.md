@@ -1,6 +1,6 @@
 # Craig Halvorsen, The Louisville Clarion
 
-_Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Bellarmine (ASUN). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 
 ## Barometer
 
-**42 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LWLLW.
+**51 of 100, steady.** Record 3-5 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 10
 
 ## Log
 
@@ -89,3 +89,6 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 - 2026-11-21: W 79-76 at Eastern Kentucky Colonels. Barometer 42 (testy). <!-- g:401921107 -->
 - 2026-11-21: Social recap posted (W 79-76 vs Eastern Kentucky Colonels): https://hardwoodbricks.com/asun/games/401921107.html <!-- post:401921107:recap -->
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/asun/games/401921030.html <!-- post:401921030:preview -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401921108.html <!-- post:401921108:preview -->
+- 2026-11-25: W 82-67 vs (neutral) Georgia Southern Eagles. Barometer 51 (steady). <!-- g:401921030 -->
+- 2026-11-25: Social recap posted (W 82-67 vs Georgia Southern Eagles): https://hardwoodbricks.com/asun/games/401921030.html <!-- post:401921030:recap -->

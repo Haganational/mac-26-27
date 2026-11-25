@@ -1,6 +1,6 @@
 # Andre Whitlow, The Edwardsville Observer
 
-_SIUE (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_SIUE (OVC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:preview -->
 - 2026-11-20: W 64-45 vs North Park Vikings. Barometer 47 (steady). <!-- g:401926144 -->
 - 2026-11-20: Social recap posted (W 64-45 vs North Park Vikings): https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:preview -->

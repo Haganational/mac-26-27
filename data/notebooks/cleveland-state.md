@@ -1,6 +1,6 @@
 # Dan Kowalski, The Cleveland Examiner
 
-_Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Cleveland State (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:preview -->
 - 2026-11-21: L 62-69 vs Kent State Golden Flashes. Barometer 42 (testy). <!-- g:401921169 -->
 - 2026-11-21: Social recap posted (L 62-69 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401921170.html <!-- post:401921170:preview -->

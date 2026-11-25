@@ -1,6 +1,6 @@
 # Walter Jennings, The Davis Clarion
 
-_UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_UC Davis (Mountain West). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -65,7 +65,7 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 6
 
 ## Log
 
@@ -78,3 +78,5 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:preview -->
 - 2026-11-18: L 68-75 vs Alabama State Hornets. Barometer 57 (steady). <!-- g:401911521 -->
 - 2026-11-18: Social recap posted (L 68-75 vs Alabama State Hornets): https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:preview -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->

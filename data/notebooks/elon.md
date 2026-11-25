@@ -1,6 +1,6 @@
 # Phoenix Fontaine, The Elon Spectator
 
-_Elon (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Elon (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five WLLLW.
+**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Phoenix editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Phoenix editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,5 @@ Phoenix Fontaine taught high school drama in Burlington, North Carolina, and she
 - 2026-11-22: W 84-61 vs Morehead State Eagles. Barometer 50 (steady). <!-- g:401920964 -->
 - 2026-11-22: Social recap posted (W 84-61 vs Morehead State Eagles): https://hardwoodbricks.com/caa/games/401920964.html <!-- post:401920964:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/caa/games/401921142.html <!-- post:401921142:preview -->
+- 2026-11-24: L 60-82 at Furman Paladins. Barometer 42 (testy). <!-- g:401921142 -->
+- 2026-11-25: Social recap posted (L 60-82 vs Furman Paladins): https://hardwoodbricks.com/caa/games/401921142.html <!-- post:401921142:recap -->

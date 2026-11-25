@@ -1,6 +1,6 @@
 # Zelda Vance, The Fairfax Courant
 
-_George Mason (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_George Mason (A-10). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -70,7 +70,7 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:preview -->
 - 2026-11-21: W 73-62 vs South Florida Bulls. Barometer 70 (buoyant). <!-- g:401918995 -->
 - 2026-11-21: Social recap posted (W 73-62 vs South Florida Bulls): https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->

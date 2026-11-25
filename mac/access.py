@@ -38,7 +38,7 @@ PAGE_BLURB = {
     "book.html": ("Almanac", "Team and player ratings for every D-I conference."),
     "travel.html": ("Travel", "Routes, miles, road trips, rest days and time zones for every team."),
 }
-REQUEST_EMAILS = ("bernice@hardwoodbricks.com", "info@hardwoodbricks.com")
+REQUEST_EMAILS = ("info@hardwoodbricks.com",)  # Bernice came off the gate Nov 25 2026 (Matthew)
 ELIGIBILITY = ("Not for anyone under 21, anyone taking part in or holding a stake in the games discussed "
                "(players, coaches, staff, officials and their families), or anyone else barred from betting on "
                "or discussing sides and totals. By unlocking, you confirm none of these apply to you.")

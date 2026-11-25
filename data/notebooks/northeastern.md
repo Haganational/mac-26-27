@@ -1,6 +1,6 @@
 # Nora Sullivan, The Fenway Almanac
 
-_Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Northeastern (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -82,3 +82,4 @@ Nora Sullivan grew up in Dorchester, did a string of co-ops through school, and 
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:preview -->
 - 2026-11-21: L 82-95 at Stonehill Skyhawks. Barometer 39 (testy). <!-- g:401919849 -->
 - 2026-11-22: Social recap posted (L 82-95 vs Stonehill Skyhawks): https://hardwoodbricks.com/caa/games/401919849.html <!-- post:401919849:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401911028.html <!-- post:401911028:preview -->

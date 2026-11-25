@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:25:51+00:00",
+ "fetched_at": "2026-11-25T18:32:07+00:00",
  "season": 2027,
  "games": [
   {
@@ -2572,8 +2572,8 @@
   {
    "game_id": "401929035",
    "date": "2026-11-24T21:00Z",
-   "name": "Lindenwood Lions at New Haven Chargers",
-   "short_name": "LIN VS NHVN",
+   "name": "New Haven Chargers at Lindenwood Lions",
+   "short_name": "NHVN VS LIN",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2590,25 +2590,25 @@
    "venue_city": "Stony Brook",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2441",
-    "key": null,
-    "name": "New Haven Chargers",
-    "abbr": "NHVN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2815",
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": null,
-    "winner": null
+    "score": 60,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "away": {
+    "espn_id": "2441",
+    "key": null,
+    "name": "New Haven Chargers",
+    "abbr": "NHVN",
+    "score": 63,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923395",
@@ -2626,11 +2626,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vmi-keydets-mens-basketball-tickets-cameron-hall-11-24-2026--sports-ncaa-basketball/production/7767067?wsUser=717",
-    "low": 45.0,
-    "since": "2026-11-18T23:19:12Z"
-   },
+   "tickets": null,
    "venue": "Cameron Hall",
    "venue_city": "Lexington",
    "venue_state": "VA",
@@ -2639,21 +2635,21 @@
     "key": null,
     "name": "VMI Keydets",
     "abbr": "VMI",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "88",
     "key": "southern-indiana",
     "name": "Southern Indiana Screaming Eagles",
     "abbr": "USI",
-    "score": null,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401926154",
@@ -2680,21 +2676,21 @@
     "key": "southeast-missouri",
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": null,
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926835",
@@ -2714,7 +2710,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stony-brook-seawolves-mens-basketball-tickets-stony-brook-arena-11-25-2026--sports-ncaa-basketball/production/7661791?wsUser=717",
-    "low": 8.0,
+    "low": 30.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Stony Brook Arena",
@@ -2725,7 +2721,7 @@
     "key": null,
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2733,13 +2729,13 @@
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401920916",
@@ -3057,7 +3053,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-11-29-2026--sports-ncaa-basketball/production/7457308?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -3192,7 +3188,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-11-30-2026--sports-ncaa-basketball/production/7519343?wsUser=717",
-    "low": 38.0,
+    "low": 31.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Charles Koch Arena",
@@ -3235,7 +3231,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/missouri-state-bears-mens-basketball-tickets-great-southern-bank-arena-11-30-2026--sports-ncaa-basketball/production/7915086?wsUser=717",
+    "low": 37.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Great Southern Bank Arena",
    "venue_city": "Springfield",
    "venue_state": "MO",
@@ -3704,6 +3704,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -3965,7 +3970,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "USA Net",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-12-6-2026--sports-ncaa-basketball/production/7400625?wsUser=717",
     "low": 13.0,
@@ -4263,7 +4274,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/southern-illinois-salukis-mens-basketball-tickets-banterra-center-12-9-2026--sports-ncaa-basketball/production/7919030?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Banterra Center",
    "venue_city": "Carbondale",
    "venue_state": "IL",
@@ -4740,7 +4755,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/tennessee-vols-mens-basketball-tickets-thompson-boling-arena-at-food-city-center-12-16-2026--sports-ncaa-basketball/production/7350082?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:19:12Z"
    },
    "venue": "Food City Center",
@@ -4873,7 +4888,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/valparaiso-beacons-mens-basketball-tickets-valparaiso-athletics-recreation-center-12-18-2026--sports-ncaa-basketball/production/7914653?wsUser=717",
+    "low": 29.0,
+    "since": "2026-11-25T12:26:55Z"
+   },
    "venue": "Athletics-Recreation Center",
    "venue_city": "Valparaiso",
    "venue_state": "IN",
@@ -8379,5 +8398,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T01:30:24+00:00"
+ "live_at": "2026-11-25T19:02:22+00:00"
 }

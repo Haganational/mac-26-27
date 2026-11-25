@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:16:30+00:00",
+ "fetched_at": "2026-11-25T18:21:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2157,21 +2157,21 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": true
    },
    "away": {
     "espn_id": "2026",
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
-    "winner": null
+    "score": 50,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920358",
@@ -2194,11 +2194,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467533?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:12:20Z"
-   },
+   "tickets": null,
    "venue": "Lavietes Pavilion",
    "venue_city": "Cambridge",
    "venue_state": "MA",
@@ -2207,66 +2203,21 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "104",
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": null,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401924723",
-   "date": "2026-11-25T01:00Z",
-   "name": "Bucknell Bison at Cornell Big Red",
-   "short_name": "BUCK @ COR",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/cornell-big-red-mens-basketball-tickets-newman-arena-11-24-2026--sports-ncaa-basketball/production/7631903?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:12:20Z"
-   },
-   "venue": "Newman Arena",
-   "venue_city": "Ithaca",
-   "venue_state": "NY",
-   "home": {
-    "espn_id": "172",
-    "key": "cornell",
-    "name": "Cornell Big Red",
-    "abbr": "COR",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2083",
-    "key": null,
-    "name": "Bucknell Bison",
-    "abbr": "BUCK",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921184",
@@ -2289,11 +2240,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-24-2026--sports-ncaa-basketball/production/7546507?wsUser=717",
-    "low": 24.0,
-    "since": "2026-11-18T23:12:20Z"
-   },
+   "tickets": null,
    "venue": "The Palestra",
    "venue_city": "Philadelphia",
    "venue_state": "PA",
@@ -2302,25 +2249,66 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
    "away": {
     "espn_id": "2182",
     "key": null,
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
+  },
+  {
+   "game_id": "401924723",
+   "date": "2026-11-25T01:30Z",
+   "name": "Bucknell Bison at Cornell Big Red",
+   "short_name": "BUCK @ COR",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "Newman Arena",
+   "venue_city": "Ithaca",
+   "venue_state": "NY",
+   "home": {
+    "espn_id": "172",
+    "key": "cornell",
+    "name": "Cornell Big Red",
+    "abbr": "COR",
+    "score": 92,
+    "winner": true
+   },
+   "away": {
+    "espn_id": "2083",
+    "key": null,
+    "name": "Bucknell Bison",
+    "abbr": "BUCK",
+    "score": 71,
+    "winner": false
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928831",
-   "date": "2026-11-25T17:30Z",
+   "date": "2026-11-25T17:31Z",
    "name": "Yale Bulldogs at Wright State Raiders",
    "short_name": "YALE VS WRST",
    "season_type": "reg",
@@ -2343,7 +2331,7 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2351,13 +2339,13 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:18 - 2nd"
   },
   {
    "game_id": "401911311",
@@ -2377,7 +2365,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-11-25-2027--sports-ncaa-basketball/production/7444653?wsUser=717",
-    "low": 29.0,
+    "low": 10.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -2452,8 +2440,8 @@
   {
    "game_id": "401924737",
    "date": "2026-11-25T21:00Z",
-   "name": "Liberty Flames at Princeton Tigers",
-   "short_name": "LIB VS PRIN",
+   "name": "Princeton Tigers at Liberty Flames",
+   "short_name": "PRIN VS LIB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2464,18 +2452,18 @@
    "venue_city": "Wilmington",
    "venue_state": "NC",
    "home": {
-    "espn_id": "163",
-    "key": "princeton",
-    "name": "Princeton Tigers",
-    "abbr": "PRIN",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2335",
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "163",
+    "key": "princeton",
+    "name": "Princeton Tigers",
+    "abbr": "PRIN",
     "score": null,
     "winner": null
    },
@@ -2502,7 +2490,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dartmouth-big-green-mens-basketball-tickets-leede-arena-at-berry-sports-center-11-25-2026--sports-ncaa-basketball/production/7766035?wsUser=717",
-    "low": 34.0,
+    "low": 32.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Leede Arena",
@@ -2717,7 +2705,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467535?wsUser=717",
-    "low": 25.0,
+    "low": 41.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Lavietes Pavilion",
@@ -2762,7 +2750,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-11-28-2026--sports-ncaa-basketball/production/7383942?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Clune Arena",
@@ -2897,7 +2885,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 34.0,
+    "low": 27.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Holmes Convocation Center",
@@ -2987,7 +2975,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-carnesecca-arena-12-1-2026--sports-ncaa-basketball/production/7555656?wsUser=717",
-    "low": 8.0,
+    "low": 6.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Carnesecca Arena",
@@ -3032,7 +3020,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-1-2026--sports-ncaa-basketball/production/7462739?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -3158,7 +3146,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NEC Front Row",
+     "kind": "TV",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Brooklyn Athletic Center",
    "venue_city": "Brooklyn",
@@ -3247,7 +3241,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/vermont-catamounts-mens-basketball-tickets-roy-l-patrick-memorial-gymnasium-12-3-2026--sports-ncaa-basketball/production/7626611?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Patrick Gymnasium",
@@ -3290,7 +3284,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/bryant-bulldogs-mens-basketball-tickets-chace-athletic-center-12-4-2026--sports-ncaa-basketball/production/7877158?wsUser=717",
+    "low": 58.0,
+    "since": "2026-11-24T23:20:01Z"
+   },
    "venue": "Chace Athletic Center",
    "venue_city": "Smithfield",
    "venue_state": "RI",
@@ -3372,7 +3370,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-4-2026--sports-ncaa-basketball/production/7390386?wsUser=717",
-    "low": 163.0,
+    "low": 89.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Cameron Indoor Stadium",
@@ -3498,7 +3496,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Cabot Center",
    "venue_city": "Boston",
@@ -3630,7 +3634,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/lafayette-college-leopards-mens-basketball-tickets-kirby-sports-center-12-7-2026--sports-ncaa-basketball/production/7914627?wsUser=717",
+    "low": 21.0,
+    "since": "2026-11-25T12:19:01Z"
+   },
    "venue": "Kirby Sports Center",
    "venue_city": "Easton",
    "venue_state": "PA",
@@ -3808,7 +3816,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-12-9-2027--sports-ncaa-basketball/production/7444655?wsUser=717",
-    "low": 19.0,
+    "low": 10.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -4283,7 +4291,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-28-2026--sports-ncaa-basketball/production/7467537?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Lavietes Pavilion",
@@ -4373,7 +4381,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-12-22-2027--sports-ncaa-basketball/production/7444657?wsUser=717",
-    "low": 29.0,
+    "low": 10.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -4463,7 +4471,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -4553,7 +4561,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-huskies-mens-basketball-tickets-alaska-airlines-arena-12-28-2026--sports-ncaa-basketball/production/7540614?wsUser=717",
-    "low": 18.0,
+    "low": 17.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Alaska Airlines Arena",
@@ -4684,7 +4692,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-12-29-2027--sports-ncaa-basketball/production/7444659?wsUser=717",
-    "low": 29.0,
+    "low": 12.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -5067,7 +5075,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-1-4-2027--sports-ncaa-basketball/production/7597832?wsUser=717",
-    "low": 18.0,
+    "low": 14.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -5190,7 +5198,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-1-9-2027--sports-ncaa-basketball/production/7467539?wsUser=717",
-    "low": 19.0,
+    "low": 16.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Lavietes Pavilion",
@@ -5274,7 +5282,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/yale-bulldogs-mens-basketball-tickets-payne-whitney-gymnasium-1-9-2027--sports-ncaa-basketball/production/7641079?wsUser=717",
-    "low": 48.0,
+    "low": 46.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "John J. Lee Amphitheater",
@@ -5397,7 +5405,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-1-16-2027--sports-ncaa-basketball/production/7597836?wsUser=717",
-    "low": 33.0,
+    "low": 32.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -5637,7 +5645,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-1-23-2027--sports-ncaa-basketball/production/7444663?wsUser=717",
-    "low": 29.0,
+    "low": 21.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -6168,7 +6176,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/brown-university-bears-mens-basketball-tickets-pizzitola-memorial-sports-center-2-5-2027--sports-ncaa-basketball/production/7444665?wsUser=717",
-    "low": 29.0,
+    "low": 21.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Pizzitola Sports Center",
@@ -7241,5 +7249,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T18:54:03+00:00"
 }

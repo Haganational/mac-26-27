@@ -1,6 +1,6 @@
 # Rachelle Novak, The DeKalb Register
 
-_Northern Illinois (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Northern Illinois (Horizon). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -69,7 +69,7 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,4 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:preview -->
 - 2026-11-21: W 86-68 at Bowling Green Falcons. Barometer 59 (steady). <!-- g:401911022 -->
 - 2026-11-21: Social recap posted (W 86-68 vs Bowling Green Falcons): https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:recap -->
+- 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:preview -->

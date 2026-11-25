@@ -1,6 +1,6 @@
 # Lord Percival Finch, The Evansville Mercury
 
-_Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Evansville (Missouri Valley). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 
 ## Barometer
 
-**45 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLLWL.
+**39 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lord editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Lord Percival Finch is not a lord. He taught high school drama in Evansville for
 - 2026-11-22: L 62-82 at Memphis Tigers. Barometer 45 (steady). <!-- g:401918988 -->
 - 2026-11-22: Social recap posted (L 62-82 vs Memphis Tigers): https://hardwoodbricks.com/mvc/games/401918988.html <!-- post:401918988:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mvc/games/401921817.html <!-- post:401921817:preview -->
+- 2026-11-25: L 67-78 at Missouri Tigers. Barometer 39 (testy). <!-- g:401921817 -->
+- 2026-11-25: Social recap posted (L 67-78 vs Missouri Tigers): https://hardwoodbricks.com/mvc/games/401921817.html <!-- post:401921817:recap -->

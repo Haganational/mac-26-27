@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:06:11+00:00",
+ "fetched_at": "2026-11-25T18:10:43+00:00",
  "season": 2027,
  "games": [
   {
@@ -3190,11 +3190,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/iona-college-gaels-mens-basketball-tickets-hynes-athletics-center-11-23-2026--sports-ncaa-basketball/production/7470765?wsUser=717",
-    "low": 22.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Hynes Athletics Center",
    "venue_city": "New Rochelle",
    "venue_state": "NY",
@@ -3235,11 +3231,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-11-24-2026--sports-ncaa-basketball/production/7608606?wsUser=717",
-    "low": 21.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "M&T Bank Arena",
    "venue_city": "Hamden",
    "venue_state": "CT",
@@ -3248,21 +3240,21 @@
     "key": "quinnipiac",
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
-    "score": null,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "108842",
     "key": null,
     "name": "Emerson Lions",
     "abbr": "EMRS",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401924877",
@@ -3280,11 +3272,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-11-24-2026--sports-ncaa-basketball/production/7463031?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "Jersey Mike\u2019s Arena",
    "venue_city": "Piscataway",
    "venue_state": "NJ",
@@ -3293,21 +3281,21 @@
     "key": null,
     "name": "Rutgers Scarlet Knights",
     "abbr": "RUTG",
-    "score": null,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
    "away": {
     "espn_id": "2529",
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401923271",
@@ -3325,11 +3313,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/marist-red-foxes-mens-basketball-tickets-mccann-arena-11-24-2026--sports-ncaa-basketball/production/7607789?wsUser=717",
-    "low": 45.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "McCann Arena",
    "venue_city": "Poughkeepsie",
    "venue_state": "NY",
@@ -3338,21 +3322,21 @@
     "key": "marist",
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": null,
-    "winner": null
+    "score": 58,
+    "winner": true
    },
    "away": {
     "espn_id": "2803",
     "key": null,
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": null,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920923",
@@ -3363,7 +3347,13 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MEAC Network",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Hill Field House",
    "venue_city": "Baltimore",
@@ -3373,21 +3363,21 @@
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": null,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "116",
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921266",
@@ -3419,21 +3409,21 @@
     "key": null,
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": null,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2520",
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": null,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920695",
@@ -3451,11 +3441,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/siena-saints-mens-basketball-tickets-mvp-arena-11-24-2026--sports-ncaa-basketball/production/7518057?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:04:51Z"
-   },
+   "tickets": null,
    "venue": "MVP Arena",
    "venue_city": "Albany",
    "venue_state": "NY",
@@ -3464,21 +3450,21 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": null,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "261",
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": null,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920868",
@@ -3579,7 +3565,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "David S. Mack Sports and Exhibition Complex",
    "venue_city": "Hempstead",
@@ -3970,7 +3962,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/army-west-point-black-knights-mens-basketball-tickets-christl-arena-11-28-2026--sports-ncaa-basketball/production/7341573?wsUser=717",
-    "low": 17.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Christl Arena",
@@ -4314,7 +4306,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-30-2026--sports-ncaa-basketball/production/7581915?wsUser=717",
-    "low": 9.0,
+    "low": 5.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Center at Gampel Pavilion",
@@ -4449,7 +4441,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-12-4-2026--sports-ncaa-basketball/production/7672810?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -4494,7 +4486,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-12-4-2026--sports-ncaa-basketball/production/7877448?wsUser=717",
-    "low": 37.0,
+    "low": 35.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -4674,7 +4666,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-12-6-2026--sports-ncaa-basketball/production/7668025?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -4719,7 +4711,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-12-6-2026--sports-ncaa-basketball/production/7593263?wsUser=717",
-    "low": 20.0,
+    "low": 17.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Lawler Arena",
@@ -4760,6 +4752,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "SNY",
+     "kind": "TV",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -4854,7 +4851,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-6-2026--sports-ncaa-basketball/production/7608631?wsUser=717",
-    "low": 26.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -4944,7 +4941,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/providence-college-friars-mens-basketball-tickets-amica-mutual-pavilion-12-8-2026--sports-ncaa-basketball/production/7326168?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Amica Mutual Pavilion",
@@ -4985,6 +4982,11 @@
      "name": "ESPN+",
      "kind": "Streaming",
      "market": "National"
+    },
+    {
+     "name": "Patriot League TV",
+     "kind": "Streaming",
+     "market": "Home"
     }
    ],
    "tickets": {
@@ -5034,7 +5036,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-12-9-2026--sports-ncaa-basketball/production/7685646?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -5169,7 +5171,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/merrimack-warriors-mens-basketball-tickets-j-thom-lawler-arena-12-10-2026--sports-ncaa-basketball/production/7732992?wsUser=717",
-    "low": 20.0,
+    "low": 17.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Lawler Arena",
@@ -5294,7 +5296,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-state-spartans-mens-basketball-tickets-jack-breslin-student-events-center-12-12-2026--sports-ncaa-basketball/production/7603592?wsUser=717",
-    "low": 27.0,
+    "low": 29.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Breslin Center",
@@ -5339,7 +5341,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-12-12-2026--sports-ncaa-basketball/production/7608637?wsUser=717",
-    "low": 31.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -5605,7 +5607,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-12-13-2026--sports-ncaa-basketball/production/7877454?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -5650,7 +5652,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-12-14-2026--sports-ncaa-basketball/production/7685648?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -5779,7 +5781,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/creighton-bluejays-mens-basketball-tickets-chi-health-center-omaha-12-15-2026--sports-ncaa-basketball/production/7258075?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "CHI Health Center Omaha",
@@ -5869,7 +5871,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rutgers-scarlet-knights-mens-basketball-tickets-jersey-mikes-arena-12-16-2026--sports-ncaa-basketball/production/7463041?wsUser=717",
-    "low": 11.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Jersey Mike\u2019s Arena",
@@ -6624,7 +6626,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-12-22-2026--sports-ncaa-basketball/production/7166222?wsUser=717",
-    "low": 21.0,
+    "low": 14.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Rupp Arena",
@@ -7052,7 +7054,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-1-1-2027--sports-ncaa-basketball/production/7685650?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -7091,7 +7093,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-1-1-2027--sports-ncaa-basketball/production/7608639?wsUser=717",
-    "low": 24.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -7286,7 +7288,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-1-3-2027--sports-ncaa-basketball/production/7685652?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -7477,7 +7479,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-1-8-2027--sports-ncaa-basketball/production/7667953?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -7594,7 +7596,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-1-8-2027--sports-ncaa-basketball/production/7724838?wsUser=717",
-    "low": 23.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Canastra Hammer Arena",
@@ -7672,7 +7674,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-1-10-2027--sports-ncaa-basketball/production/7667955?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -7711,7 +7713,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-1-10-2027--sports-ncaa-basketball/production/7877464?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -7750,7 +7752,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-1-10-2027--sports-ncaa-basketball/production/7685654?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -7789,7 +7791,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-1-10-2027--sports-ncaa-basketball/production/7608643?wsUser=717",
-    "low": 28.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -7906,7 +7908,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/sacred-heart-pioneers-mens-basketball-tickets-william-pitt-center-sacred-heart-1-13-2027--sports-ncaa-basketball/production/7685656?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "William H. Pitt Center",
@@ -8179,7 +8181,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-1-16-2027--sports-ncaa-basketball/production/7608657?wsUser=717",
-    "low": 26.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -8370,7 +8372,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-1-18-2027--sports-ncaa-basketball/production/7877470?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -8643,7 +8645,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-1-22-2027--sports-ncaa-basketball/production/7877474?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -8916,7 +8918,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-1-24-2027--sports-ncaa-basketball/production/7608691?wsUser=717",
-    "low": 26.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -8955,7 +8957,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-1-24-2027--sports-ncaa-basketball/production/7724842?wsUser=717",
-    "low": 23.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Canastra Hammer Arena",
@@ -9228,7 +9230,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/rider-broncs-mens-basketball-tickets-canastra-hammer-arena-1-29-2027--sports-ncaa-basketball/production/7724844?wsUser=717",
-    "low": 23.0,
+    "low": 16.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Canastra Hammer Arena",
@@ -9462,7 +9464,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-1-31-2027--sports-ncaa-basketball/production/7608703?wsUser=717",
-    "low": 28.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -9969,7 +9971,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/canisius-golden-griffins-mens-basketball-tickets-koessler-athletic-center-2-11-2027--sports-ncaa-basketball/production/7667977?wsUser=717",
-    "low": 25.0,
+    "low": 26.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Koessler Athletic Center",
@@ -10086,7 +10088,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-2-11-2027--sports-ncaa-basketball/production/7608715?wsUser=717",
-    "low": 28.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -10359,7 +10361,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-2-13-2027--sports-ncaa-basketball/production/7877488?wsUser=717",
-    "low": 37.0,
+    "low": 35.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -11217,7 +11219,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-2-28-2027--sports-ncaa-basketball/production/7877520?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -11295,7 +11297,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/quinnipiac-bobcats-mens-basketball-tickets-mt-bank-arena-2-28-2027--sports-ncaa-basketball/production/7608753?wsUser=717",
-    "low": 29.0,
+    "low": 20.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "M&T Bank Arena",
@@ -11361,6 +11363,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-24T02:10:04+00:00"
+ ]
 }

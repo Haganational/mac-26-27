@@ -43,6 +43,28 @@ def game_owner(*espn_ids: str) -> Any:
     return None
 
 
+def game_links(site_root: Path) -> dict[str, str]:
+    """Game id -> where a game's name links from a site-root page (Tops and Bottoms, the Den, Crunch Time):
+    its game page (recap, or preview before tip) in the owning edition, else that edition's TV listing row.
+    LEAGUES order decides the owner, same as game_owner: a game two editions both cover links the first copy."""
+    out: dict[str, str] = {}
+    for lg in LEAGUES.values():
+        d = site_root / lg.path / "games"
+        if d.is_dir():
+            for f in d.glob("*.html"):
+                if f.stem.isdigit():  # skips the <id>-notes.html prep sheets
+                    out.setdefault(f.stem, f"{lg.path}games/{f.name}")
+    for lg in LEAGUES.values():
+        try:
+            games = json.loads((lg.data_dir / "schedule.json").read_text()).get("games") or []
+        except (OSError, ValueError, AttributeError):
+            continue
+        for g in games:
+            if g.get("game_id"):
+                out.setdefault(str(g["game_id"]), f"{lg.path}tv.html#g{g['game_id']}")
+    return out
+
+
 def _school(side: dict[str, Any]) -> str:
     from .today import school
     for lg in LEAGUES.values():
@@ -470,6 +492,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     env.filters["nobreak"] = nobreak
     import hashlib
     env.globals["specs_v"] = hashlib.sha1((TEMPLATES_DIR / "static" / "specs.js").read_bytes()).hexdigest()[:8]
+    env.globals["game_link"] = game_links(site_root)  # every game name on a hub page links its game page
     env.globals.update(n_conf=len(eds), n_schools=sum(len(LEAGUES[e["key"]].teams) for e in eds if e["key"] in LEAGUES))
     now = datetime.now(timezone.utc)
     sts = front_stories(site_root, now, base)
@@ -631,12 +654,28 @@ def den_connect_context(site_root: Path, now: datetime) -> dict[str, Any]:
     return out
 
 
+def den_game_links(site_root: Path, links: dict[str, str]) -> dict[str, str]:
+    """Game pages for the games on the Den's slates (every night the page can show), so each card links its game."""
+    out: dict[str, str] = {}
+    for f in sorted((site_root / "den").glob("slate-*.json")):
+        try:
+            games = json.loads(f.read_text()).get("games") or []
+        except (OSError, ValueError, AttributeError):
+            continue
+        for g in games:
+            href = links.get(str(g.get("id") or ""))
+            if href and "/games/" in "/" + href:  # real game pages only; the TV listing is no use from a game card
+                out[str(g["id"])] = href
+    return out
+
+
 def den_page(env: Environment, site_root: Path, eds: list[dict[str, Any]], names: str, base: str, now: datetime) -> dict[str, Any] | None:
     """The Den (/den.html): a static shell whose games run in the browser from site/den/*.json.
     Always written, so the nav link never 404s; on a day with no slate the page shows a quiet empty state.
     Returns the front page's one-line teaser, or None."""
     site_root.mkdir(parents=True, exist_ok=True)
-    cfg = {"editions": {e["key"]: e["short"] for e in eds}, "colors": {**{e["key"]: e["color"] for e in eds}, **{e["short"]: e["color"] for e in eds}}}
+    cfg = {"editions": {e["key"]: e["short"] for e in eds}, "colors": {**{e["key"]: e["color"] for e in eds}, **{e["short"]: e["color"] for e in eds}},
+           "games": den_game_links(site_root, env.globals.get("game_link") or {})}
     (site_root / "den.html").write_text(env.get_template("den.html").render(
         eds=eds, names=names, base=base, season=SEASON_LABEL, noindex=SITE_NOINDEX,
         built=now.isoformat(timespec="minutes"), cfg_json=json.dumps(cfg).replace("</", "<\\/"),

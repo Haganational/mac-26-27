@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T23:03:52+00:00",
+ "fetched_at": "2026-11-25T18:08:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -3189,11 +3189,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/youngstown-state-penguins-mens-basketball-tickets-beeghly-center-11-23-2026--sports-ncaa-basketball/production/7632152?wsUser=717",
-    "low": 19.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Zidian Family Arena at Beeghly Center",
    "venue_city": "Youngstown",
    "venue_state": "OH",
@@ -3239,11 +3235,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/northern-kentucky-norse-mens-basketball-tickets-truist-arena-11-23-2026--sports-ncaa-basketball/production/7762869?wsUser=717",
-    "low": 36.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Truist Arena",
    "venue_city": "Highland Heights",
    "venue_state": "KY",
@@ -3293,21 +3285,21 @@
     "key": null,
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "2750",
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final/OT"
   },
   {
    "game_id": "401920546",
@@ -3334,21 +3326,21 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "155",
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925014",
@@ -3359,7 +3351,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Spiideo",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "The Reef",
    "venue_city": "Jacksonville",
@@ -3369,21 +3367,21 @@
     "key": null,
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": null,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2523",
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": null,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401906774",
@@ -3401,11 +3399,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/florida-gators-mens-basketball-tickets-stephen-c-oconnell-center---exactech-arena-11-24-2026--sports-ncaa-basketball/production/7419565?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:03:11Z"
-   },
+   "tickets": null,
    "venue": "Tower Hill Arena",
    "venue_city": "Gainesville",
    "venue_state": "FL",
@@ -3414,21 +3408,21 @@
     "key": null,
     "name": "Florida Gators",
     "abbr": "FLA",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "270",
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": null,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401926154",
@@ -3455,21 +3449,21 @@
     "key": null,
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": null,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": null,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401921008",
@@ -3501,25 +3495,66 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2739",
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": null,
+    "score": 77,
+    "winner": true
+   },
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
+  },
+  {
+   "game_id": "401920547",
+   "date": "2026-11-25T17:30Z",
+   "name": "Northern Colorado Bears at Detroit Mercy Titans",
+   "short_name": "UNCO VS DETM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "FloSports",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
+   "tickets": null,
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "venue_city": "Cancun",
+   "venue_state": "Mexico",
+   "home": {
+    "espn_id": "2174",
+    "key": "detroit-mercy",
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "score": 40,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2458",
+    "key": null,
+    "name": "Northern Colorado Bears",
+    "abbr": "UNCO",
+    "score": 48,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:04 - 2nd"
   },
   {
    "game_id": "401928831",
-   "date": "2026-11-25T17:30Z",
+   "date": "2026-11-25T17:31Z",
    "name": "Yale Bulldogs at Wright State Raiders",
    "short_name": "YALE VS WRST",
    "season_type": "reg",
@@ -3542,7 +3577,7 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -3550,13 +3585,13 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:10 - 2nd"
   },
   {
    "game_id": "401921170",
@@ -3667,7 +3702,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/northern-kentucky-norse-baseball-tickets-truist-arena-11-25-2026/production/7761198?wsUser=717",
-    "low": 30.0,
+    "low": 36.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Truist Arena",
@@ -3757,7 +3792,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/houston-cougars-mens-basketball-tickets-fertitta-center-11-27-2026--sports-ncaa-basketball/production/7106294?wsUser=717",
-    "low": 59.0,
+    "low": 54.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Fertitta Center",
@@ -3802,7 +3837,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 17.0,
+    "low": 12.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -4023,7 +4058,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Gill Coliseum",
@@ -4111,7 +4146,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-12-2-2026/production/7909625?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -4673,7 +4712,18 @@
    "neutral_site": false,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "Summit League Network",
+     "kind": "Streaming",
+     "market": "Home"
+    },
+    {
+     "name": "Midco Sports Plus",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": {
     "url": "https://www.vividseats.com/south-dakota-state-jackrabbits-mens-basketball-tickets-first-bank-and-trust-arena-12-8-2026--sports-ncaa-basketball/production/7589454?wsUser=717",
     "low": 46.0,
@@ -5165,7 +5215,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-12-12-2026--sports-ncaa-basketball/production/7617740?wsUser=717",
-    "low": 26.0,
+    "low": 23.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Gentile Arena",
@@ -5382,7 +5432,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ole-miss-rebels-mens-basketball-tickets-the-sandy-and-john-black-pavilion-at-ole-miss-12-15-2026--sports-ncaa-basketball/production/7600228?wsUser=717",
-    "low": 11.0,
+    "low": 10.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "The Sandy and John Black Pavilion at Ole Miss",
@@ -5849,7 +5899,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/robert-morris-colonials-mens-basketball-tickets-upmc-events-center-12-20-2026--sports-ncaa-basketball/production/7667090?wsUser=717",
-    "low": 35.0,
+    "low": 37.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "UPMC Events Center",
@@ -5939,7 +5989,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-28-2026--sports-ncaa-basketball/production/7467537?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Lavietes Pavilion",
@@ -5984,7 +6034,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/michigan-wolverines-mens-basketball-tickets-crisler-center-12-21-2026--sports-ncaa-basketball/production/7522605?wsUser=717",
-    "low": 19.0,
+    "low": 13.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Crisler Center",
@@ -6158,7 +6208,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-12-21-2026--sports-ncaa-basketball/production/7363515?wsUser=717",
-    "low": 16.0,
+    "low": 17.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "McKale Center at ALKEME Arena",
@@ -6471,7 +6521,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-12-30-2026/production/7909628?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -7415,7 +7469,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-1-14-2027/production/7909629?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -7641,7 +7699,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-1-17-2027/production/7909630?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -8098,8 +8160,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/wisconsin-green-bay-phoenix-mens-basketball-tickets-kress-events-center-1-23-2027--sports-ncaa-basketball/production/7592036?wsUser=717",
-    "low": 39.0,
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-1-23-2027/production/7909631?wsUser=717",
+    "low": 35.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Resch Center",
@@ -8176,8 +8238,8 @@
    "time_tba": false,
    "broadcasts": [],
    "tickets": {
-    "url": "https://www.vividseats.com/oakland-golden-grizzlies-mens-basketball-tickets-ou-credit-union-orena-1-23-2027--sports-ncaa-basketball/production/7654961?wsUser=717",
-    "low": 33.0,
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-1-23-2027/production/7909631?wsUser=717",
+    "low": 35.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "OU Credit Union O'rena",
@@ -8713,7 +8775,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-1-31-2027/production/7909635?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -9017,7 +9083,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-2-7-2027--sports-ncaa-basketball/production/7909642?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -9204,7 +9274,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-2-10-2027/production/7909637?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -10202,7 +10276,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-2-24-2027/production/7909638?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -10467,7 +10545,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/cleveland-state-vikings-mens-basketball-tickets-wolstein-center-at-csu-2-27-2027/production/7909640?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-25T12:08:22Z"
+   },
    "venue": "Wolstein Center",
    "venue_city": "Cleveland",
    "venue_state": "OH",
@@ -10571,5 +10653,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-24T02:38:28+00:00"
+ "live_at": "2026-11-25T18:43:03+00:00"
 }

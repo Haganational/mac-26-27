@@ -1,6 +1,6 @@
 # Draco McAllister, The Powelton Examiner
 
-_Drexel (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-24._
+_Drexel (CAA). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five LWLWW.
+**48 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Draco editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Draco editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 - 2026-11-21: W 75-64 vs Saint Joseph's Hawks. Barometer 58 (steady). <!-- g:401920195 -->
 - 2026-11-21: Social recap posted (W 75-64 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:preview -->
+- 2026-11-25: L 74-89 at Pennsylvania Quakers. Barometer 48 (steady). <!-- g:401921184 -->
+- 2026-11-25: Social recap posted (L 74-89 vs Pennsylvania Quakers): https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:recap -->
