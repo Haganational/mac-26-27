@@ -2331,7 +2331,7 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 42,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -2339,13 +2339,13 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 53,
+    "score": 66,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:18 - 2nd"
+   "detail": "0:20 - 2nd"
   },
   {
    "game_id": "401911311",
@@ -2376,7 +2376,7 @@
     "key": "brown",
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2384,13 +2384,13 @@
     "key": null,
     "name": "Johnson & Wales Griffins",
     "abbr": "JWU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:53 - 1st"
   },
   {
    "game_id": "401924705",
@@ -2421,7 +2421,7 @@
     "key": "columbia",
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2429,13 +2429,13 @@
     "key": null,
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:29 - 1st"
   },
   {
    "game_id": "401924737",
@@ -7250,5 +7250,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T18:54:03+00:00"
+ "live_at": "2026-11-25T19:25:32+00:00"
 }

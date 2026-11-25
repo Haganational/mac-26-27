@@ -2963,7 +2963,7 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 26,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2971,13 +2971,13 @@
     "key": null,
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 22,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:46 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928850",
@@ -3004,7 +3004,7 @@
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3012,13 +3012,13 @@
     "key": null,
     "name": "Grace Christian Tigers",
     "abbr": "GCRU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:46 - 1st"
   },
   {
    "game_id": "401928836",
@@ -9700,5 +9700,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T18:40:53+00:00"
+ "live_at": "2026-11-25T19:10:29+00:00"
 }
