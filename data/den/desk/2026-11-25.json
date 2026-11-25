@@ -2,40 +2,29 @@
  "date": "2026-11-25",
  "desk": {
   "anchor": {
-   "alt": "Thurston Whitmore, the Yale AI anchor",
-   "color": "#00356B",
-   "color2": "#FFFFFF",
-   "initials": "TW",
+   "alt": "Marcus Vance, the Akron AI anchor",
+   "color": "#041E42",
+   "color2": "#A89968",
+   "initials": "MV",
    "ink": "#ffffff",
-   "key": "yale",
-   "name": "Thurston Whitmore",
-   "portrait": "den/anchors/yale.webp",
-   "school": "Yale",
+   "key": "akron",
+   "name": "Marcus Vance",
+   "portrait": "den/anchors/akron.webp",
+   "school": "Akron",
    "tag": "AI anchor"
   },
-  "max": 221,
+  "max": 169,
   "picks": [
    {
-    "abbr": "YALE",
-    "game_id": "401928831",
-    "kind": "homer",
-    "short": "Yale",
-    "side": "away",
-    "team_id": "43",
-    "tip": "2026-11-25T17:30Z",
-    "why": "Homer pick: the anchor's own school, always.",
-    "worth": 70
-   },
-   {
-    "abbr": "APP",
+    "abbr": "AKR",
     "game_id": "401928836",
-    "kind": "ratings",
-    "short": "App State",
-    "side": "home",
-    "team_id": "2026",
+    "kind": "homer",
+    "short": "Akron",
+    "side": "away",
+    "team_id": "2006",
     "tip": "2026-11-25T20:00Z",
-    "why": "Our ratings 53%, pregame win chance 30%.",
-    "worth": 70
+    "why": "Homer pick: the anchor's own school, always.",
+    "worth": 30
    },
    {
     "abbr": "UNCW",
@@ -58,6 +47,17 @@
     "tip": "2026-11-25T20:00Z",
     "why": "Our ratings 67%, pregame win chance 49%.",
     "worth": 51
+   },
+   {
+    "abbr": "FGCU",
+    "game_id": "401921703",
+    "kind": "ratings",
+    "short": "FGCU",
+    "side": "home",
+    "team_id": "526",
+    "tip": "2026-11-25T21:00Z",
+    "why": "Our ratings 59%, pregame win chance 42%.",
+    "worth": 58
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -133,7 +133,7 @@
    "team_id": "195",
    "tip": "2026-11-25T16:00Z",
    "why": "Homer pick.",
-   "worth": 36
+   "worth": 35
   },
   {
    "abbr": "RICE",
@@ -157,7 +157,7 @@
    "team_id": "2174",
    "tip": "2026-11-25T17:30Z",
    "why": "Homer pick.",
-   "worth": 68
+   "worth": 67
   },
   {
    "abbr": "UNCO",
@@ -169,7 +169,7 @@
    "team_id": "2458",
    "tip": "2026-11-25T17:30Z",
    "why": "Homer pick.",
-   "worth": 32
+   "worth": 33
   },
   {
    "abbr": "WRST",
@@ -181,7 +181,7 @@
    "team_id": "2750",
    "tip": "2026-11-25T17:30Z",
    "why": "Homer pick.",
-   "worth": 30
+   "worth": 31
   },
   {
    "abbr": "YALE",
@@ -193,7 +193,7 @@
    "team_id": "43",
    "tip": "2026-11-25T17:30Z",
    "why": "Homer pick.",
-   "worth": 70
+   "worth": 69
   },
   {
    "abbr": "M-OH",
@@ -217,7 +217,7 @@
    "team_id": "299",
    "tip": "2026-11-25T18:00Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 46
   },
   {
    "abbr": "SUU",
@@ -445,7 +445,7 @@
    "team_id": "2229",
    "tip": "2026-11-25T20:30Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 46
   },
   {
    "abbr": "ARST",
@@ -577,7 +577,7 @@
    "team_id": "159",
    "tip": "2026-11-25T22:00Z",
    "why": "Homer pick.",
-   "worth": 16
+   "worth": 15
   },
   {
    "abbr": "HC",
@@ -698,6 +698,30 @@
    "tip": "2026-11-25T23:00Z",
    "why": "Homer pick.",
    "worth": 42
+  },
+  {
+   "abbr": "COFC",
+   "game_id": "401920549",
+   "key": "charleston",
+   "kind": "homer",
+   "short": "Charleston",
+   "side": "home",
+   "team_id": "232",
+   "tip": "2026-11-25T23:00Z",
+   "why": "Homer pick.",
+   "worth": 47
+  },
+  {
+   "abbr": "KENN",
+   "game_id": "401920549",
+   "key": "kennesaw-state",
+   "kind": "homer",
+   "short": "Kennesaw State",
+   "side": "away",
+   "team_id": "338",
+   "tip": "2026-11-25T23:00Z",
+   "why": "Homer pick.",
+   "worth": 53
   },
   {
    "abbr": "NWST",
@@ -841,7 +865,7 @@
    "team_id": "94",
    "tip": "2026-11-26T00:00Z",
    "why": "Homer pick.",
-   "worth": 29
+   "worth": 30
   },
   {
    "abbr": "BELL",
@@ -865,7 +889,7 @@
    "team_id": "2643",
    "tip": "2026-11-26T00:00Z",
    "why": "Homer pick.",
-   "worth": 39
+   "worth": 38
   },
   {
    "abbr": "UPST",
@@ -877,7 +901,7 @@
    "team_id": "2908",
    "tip": "2026-11-26T00:00Z",
    "why": "Homer pick.",
-   "worth": 61
+   "worth": 62
   },
   {
    "abbr": "UCD",
@@ -926,6 +950,30 @@
    "tip": "2026-11-26T01:00Z",
    "why": "Homer pick.",
    "worth": 81
+  },
+  {
+   "abbr": "UTEP",
+   "game_id": "401920550",
+   "key": "utep",
+   "kind": "homer",
+   "short": "UTEP",
+   "side": "home",
+   "team_id": "2638",
+   "tip": "2026-11-26T01:30Z",
+   "why": "Homer pick.",
+   "worth": 44
+  },
+  {
+   "abbr": "EMU",
+   "game_id": "401920550",
+   "key": "eastern-michigan",
+   "kind": "homer",
+   "short": "Eastern Michigan",
+   "side": "away",
+   "team_id": "2199",
+   "tip": "2026-11-26T01:30Z",
+   "why": "Homer pick.",
+   "worth": 56
   },
   {
    "abbr": "LMU",

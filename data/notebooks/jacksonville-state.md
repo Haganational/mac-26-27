@@ -65,7 +65,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,4 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 - 2026-11-21: W 82-77 vs Georgia State Panthers. Barometer 51 (steady). <!-- g:401926782 -->
 - 2026-11-21: Social recap posted (W 82-77 vs Georgia State Panthers): https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:preview -->
+- 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->
