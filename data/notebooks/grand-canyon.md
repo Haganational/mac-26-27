@@ -27,9 +27,9 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 
 ## Barometer
 
-**84 of 100, giddy.** Record 4-0 (0-0 in conference), streak W4, last five WWWW.
+**65 of 100, buoyant.** Record 4-1 (0-0 in conference), streak L1, last five WWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Chloe editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Chloe editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,5 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 - 2026-11-15: W 88-52 vs UL Monroe Warhawks. Barometer 84 (giddy). <!-- g:401911347 -->
 - 2026-11-15: Social recap posted (W 88-52 vs UL Monroe Warhawks): https://hardwoodbricks.com/mw/games/401911347.html <!-- post:401911347:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911253.html <!-- post:401911253:preview -->
+- 2026-11-25: L 88-91 vs (neutral) Saint Louis Billikens. Barometer 65 (buoyant). <!-- g:401911253 -->
+- 2026-11-25: Social recap posted (L 88-91 vs Saint Louis Billikens): https://hardwoodbricks.com/mw/games/401911253.html <!-- post:401911253:recap -->

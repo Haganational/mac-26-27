@@ -2524,21 +2524,21 @@
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 89,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2253",
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 85,
-    "winner": null
+    "score": 88,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:12 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911522",
@@ -9114,5 +9114,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T05:25:20+00:00"
+ "live_at": "2026-11-25T05:46:37+00:00"
 }

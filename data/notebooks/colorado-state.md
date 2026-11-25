@@ -27,9 +27,9 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L1, last five WWLWL.
+**46 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -90,3 +90,4 @@ Hank Ramsey was a county agricultural extension agent around Fort Collins for tw
 - 2026-11-24: L 83-96 vs (neutral) Arizona Wildcats. Barometer 52 (steady). <!-- g:401909743 -->
 - 2026-11-24: Social recap posted (L 83-96 vs Arizona Wildcats): https://hardwoodbricks.com/pac12/games/401909743.html <!-- post:401909743:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401921712.html <!-- post:401921712:preview -->
+- 2026-11-25: L 81-84 vs (neutral) VCU Rams. Barometer 46 (steady). <!-- g:401921712 -->

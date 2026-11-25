@@ -2252,21 +2252,21 @@
     "key": "colorado-state",
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 68,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
    "away": {
     "espn_id": "2670",
     "key": null,
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": 73,
-    "winner": null
+    "score": 84,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:08 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909800",
@@ -2297,7 +2297,7 @@
     "key": null,
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2305,13 +2305,13 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:58 - 1st"
   },
   {
    "game_id": "401925688",
@@ -8273,5 +8273,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T05:28:55+00:00"
+ "live_at": "2026-11-25T05:52:48+00:00"
 }
