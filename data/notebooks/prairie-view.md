@@ -27,9 +27,9 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 
 ## Barometer
 
-**26 of 100, despondent.** Record 2-4 (0-0 in conference), streak L4, last five WLLLL.
+**21 of 100, despondent.** Record 2-5 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 - 2026-11-16: L 59-86 at Ohio State Buckeyes. Barometer 26 (despondent). <!-- g:401916317 -->
 - 2026-11-17: Social recap posted (L 59-86 vs Ohio State Buckeyes): https://hardwoodbricks.com/swac/games/401916317.html <!-- post:401916317:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->
+- 2026-11-25: L 58-64 at Marshall Thundering Herd. Barometer 21 (despondent). <!-- g:401920858 -->
