@@ -2715,7 +2715,7 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2723,13 +2723,13 @@
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:43 - 1st"
   },
   {
    "game_id": "401919786",
@@ -8414,5 +8414,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T17:23:53+00:00"
 }

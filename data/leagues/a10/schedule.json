@@ -3863,21 +3863,21 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": 56,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
    "away": {
     "espn_id": "179",
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": 56,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:37 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911201",
@@ -3908,7 +3908,7 @@
     "key": "fordham",
     "name": "Fordham Rams",
     "abbr": "FOR",
-    "score": 42,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -3916,13 +3916,13 @@
     "key": null,
     "name": "Mercy Mavericks",
     "abbr": "MRCY",
-    "score": 22,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:43 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920196",
@@ -3953,7 +3953,7 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -3961,13 +3961,13 @@
     "key": null,
     "name": "Penn State Abington Nittany Lions",
     "abbr": "PSAB",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:59 - 1st"
   },
   {
    "game_id": "401920067",
@@ -13042,5 +13042,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T16:36:29+00:00"
+ "live_at": "2026-11-25T17:08:10+00:00"
 }
