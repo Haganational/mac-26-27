@@ -3536,7 +3536,7 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -3544,13 +3544,13 @@
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:26 - 1st"
   },
   {
    "game_id": "401928831",
@@ -10652,5 +10652,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T17:33:45+00:00"
 }

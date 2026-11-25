@@ -2331,7 +2331,7 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2339,13 +2339,13 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:51 - 1st"
   },
   {
    "game_id": "401911311",
@@ -7249,5 +7249,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T17:46:49+00:00"
 }
