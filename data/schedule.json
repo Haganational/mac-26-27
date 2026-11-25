@@ -2918,7 +2918,7 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2926,13 +2926,13 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": null,
+    "score": 29,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:40 - 1st"
   },
   {
    "game_id": "401911029",
@@ -9699,5 +9699,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T16:31:05+00:00"
 }
