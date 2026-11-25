@@ -64,3 +64,12 @@ def test_check_wants_the_next_edition_and_a_full_issue(tmp_path):
     assert weekly.check(good, "mac", tmp_path) == []
     bad = {**good, "edition": 0, "notes": [], "column": {**good["column"], "byline": "Matthew Hagan"}}
     assert len(weekly.check(bad, "mac", tmp_path)) == 3
+
+
+def test_check_skips_the_issue_own_file(tmp_path):
+    (tmp_path / "mac").mkdir()
+    (tmp_path / "mac" / "000.json").write_text(json.dumps({"edition": 0}))
+    f = tmp_path / "mac" / "001.json"
+    f.write_text(json.dumps({"edition": 1}))
+    assert "edition should be 2" in weekly.check({"edition": 1}, "mac", tmp_path)
+    assert not any("edition" in p for p in weekly.check({"edition": 1}, "mac", tmp_path, path=f))
