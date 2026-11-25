@@ -27,7 +27,7 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 
 ## Barometer
 
-**12 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**12 of 100, despondent.** Record 0-7 (0-0 in conference), streak L7, last five LLLLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 84% of stories right now.
 
@@ -69,7 +69,7 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -88,3 +88,5 @@ Nadia Haddad grew up in Dearborn, the daughter of a Lebanese-American grocer and
 - 2026-11-24: L 67-77 vs (neutral) North Dakota Fighting Hawks. Barometer 12 (despondent). <!-- g:401920546 -->
 - 2026-11-24: Social recap posted (L 67-77 vs North Dakota Fighting Hawks): https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920547.html <!-- post:401920547:preview -->
+- 2026-11-25: L 83-93 vs (neutral) Northern Colorado Bears. Barometer 12 (despondent). <!-- g:401920547 -->
+- 2026-11-25: Social recap posted (L 83-93 vs Northern Colorado Bears): https://hardwoodbricks.com/horizon/games/401920547.html <!-- post:401920547:recap -->

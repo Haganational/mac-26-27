@@ -2721,21 +2721,21 @@
     "key": null,
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
-    "score": 30,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "2815",
     "key": "lindenwood",
     "name": "Lindenwood Lions",
     "abbr": "LIN",
-    "score": 29,
-    "winner": null
+    "score": 63,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920916",
@@ -8398,5 +8398,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:02:22+00:00"
+ "live_at": "2026-11-25T20:03:17+00:00"
 }

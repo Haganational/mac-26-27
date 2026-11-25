@@ -27,9 +27,9 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 
 ## Barometer
 
-**43 of 100, testy.** Record 3-4 (0-0 in conference), streak L1, last five WLLWL.
+**51 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five LLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gus editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gus editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -91,3 +91,5 @@ Gus Ferraro ran a diner on Eighth Avenue in Greeley for thirty-one years and sti
 - 2026-11-24: L 60-70 vs (neutral) SE Louisiana Lions. Barometer 43 (testy). <!-- g:401920819 -->
 - 2026-11-24: Social recap posted (L 60-70 vs SE Louisiana Lions): https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401920547.html <!-- post:401920547:preview -->
+- 2026-11-25: W 93-83 vs (neutral) Detroit Mercy Titans. Barometer 51 (steady). <!-- g:401920547 -->
+- 2026-11-25: Social recap posted (W 93-83 vs Detroit Mercy Titans): https://hardwoodbricks.com/horizon/games/401920547.html <!-- post:401920547:recap -->

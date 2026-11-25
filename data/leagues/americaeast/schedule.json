@@ -2858,7 +2858,7 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2866,13 +2866,13 @@
     "key": null,
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": null,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401909720",
@@ -8809,5 +8809,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T20:04:03+00:00"
 }

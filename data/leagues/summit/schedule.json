@@ -2538,7 +2538,7 @@
     "key": "south-dakota",
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -2546,13 +2546,13 @@
     "key": null,
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401917967",
@@ -2588,7 +2588,7 @@
     "key": "south-dakota-state",
     "name": "South Dakota State Jackrabbits",
     "abbr": "SDST",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -2596,13 +2596,13 @@
     "key": null,
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": null,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401920548",
@@ -8052,5 +8052,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T20:01:07+00:00"
 }
