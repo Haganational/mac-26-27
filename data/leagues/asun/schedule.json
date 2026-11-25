@@ -2446,21 +2446,21 @@
     "key": "north-florida",
     "name": "North Florida Ospreys",
     "abbr": "UNF",
-    "score": 53,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "2683",
     "key": null,
     "name": "Warner Royals",
     "abbr": "WRNR",
-    "score": 36,
-    "winner": null
+    "score": 68,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:25 - 1st"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921703",
@@ -2491,7 +2491,7 @@
     "key": "fgcu",
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 67,
     "winner": null
    },
    "away": {
@@ -2499,13 +2499,13 @@
     "key": null,
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
+    "score": 63,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:29 - 2nd"
   },
   {
    "game_id": "401922253",
@@ -8243,5 +8243,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:44:54+00:00"
+ "live_at": "2026-11-25T22:45:28+00:00"
 }

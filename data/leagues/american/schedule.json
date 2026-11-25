@@ -3510,21 +3510,21 @@
     "key": null,
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": 43,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "2655",
     "key": "tulane",
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": 33,
-    "winner": null
+    "score": 47,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "14:21 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917182",
@@ -12259,5 +12259,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:53:24+00:00"
+ "live_at": "2026-11-25T20:54:52+00:00"
 }

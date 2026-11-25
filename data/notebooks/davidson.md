@@ -27,9 +27,9 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 
 ## Barometer
 
-**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
+**65 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sterling editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,5 @@ Sterling Prescott grew up in Mooresville, North Carolina, the son of a racetrack
 - 2026-11-23: W 79-48 vs (neutral) Northern Iowa Panthers. Barometer 59 (steady). <!-- g:401921700 -->
 - 2026-11-23: Social recap posted (W 79-48 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401921700.html <!-- post:401921700:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401919007.html <!-- post:401919007:preview -->
+- 2026-11-25: W 74-47 vs (neutral) Tulane Green Wave. Barometer 65 (buoyant). <!-- g:401919007 -->
+- 2026-11-25: Social recap posted (W 74-47 vs Tulane Green Wave): https://hardwoodbricks.com/a10/games/401919007.html <!-- post:401919007:recap -->

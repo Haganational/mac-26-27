@@ -27,9 +27,9 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 
 ## Barometer
 
-**25 of 100, despondent.** Record 1-5 (0-0 in conference), streak L4, last five WLLLL.
+**44 of 100, testy.** Record 2-5 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kenzie editorializes: 76% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kenzie editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,5 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 - 2026-11-22: L 73-74 vs (neutral) South Dakota Coyotes. Barometer 25 (despondent). <!-- g:401925942 -->
 - 2026-11-22: Social recap posted (L 73-74 vs South Dakota Coyotes): https://hardwoodbricks.com/bigsky/games/401925942.html <!-- post:401925942:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925943.html <!-- post:401925943:preview -->
+- 2026-11-25: W 124-54 vs Bethesda Flames. Barometer 44 (testy). <!-- g:401925943 -->
+- 2026-11-25: Social recap posted (W 124-54 vs Bethesda Flames): https://hardwoodbricks.com/bigsky/games/401925943.html <!-- post:401925943:recap -->

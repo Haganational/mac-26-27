@@ -27,9 +27,9 @@ Patty Gallagher is a Kalamazoo native and a retired Western Michigan math profes
 
 ## Barometer
 
-**83 of 100, giddy.** Record 5-1 (0-0 in conference), streak W5, last five WWWWW.
+**86 of 100, giddy.** Record 6-1 (0-0 in conference), streak W6, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Patty editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Patty editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Patty Gallagher is a Kalamazoo native and a retired Western Michigan math profes
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,5 @@ Patty Gallagher is a Kalamazoo native and a retired Western Michigan math profes
 - 2026-11-21: W 73-67 at Mount St. Mary's Mountaineers. Barometer 83 (giddy). <!-- g:401920922 -->
 - 2026-11-21: Social recap posted (W 73-67 vs Mount St. Mary's Mountaineers): https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401928850.html <!-- post:401928850:preview -->
+- 2026-11-25: W 104-52 vs Grace Christian Tigers. Barometer 86 (giddy). <!-- g:401928850 -->
+- 2026-11-25: Social recap posted (W 104-52 vs Grace Christian Tigers): https://hardwoodbricks.com/games/401928850.html <!-- post:401928850:recap -->

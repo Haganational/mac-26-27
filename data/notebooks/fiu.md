@@ -27,9 +27,9 @@ Marisol Vega kept the books at her aunt's Cuban cafeteria in Westchester and wor
 
 ## Barometer
 
-**67 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W2, last five WWLWW.
+**57 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marisol editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marisol editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -88,3 +88,4 @@ Marisol Vega kept the books at her aunt's Cuban cafeteria in Westchester and wor
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:preview -->
 - 2026-11-24: W 81-66 vs Southern Utah Thunderbirds. Barometer 67 (buoyant). <!-- g:401928358 -->
 - 2026-11-24: Social recap posted (W 81-66 vs Southern Utah Thunderbirds): https://hardwoodbricks.com/cusa/games/401928358.html <!-- post:401928358:recap -->
+- 2026-11-25: L 88-92 vs Arkansas State Red Wolves. Barometer 57 (steady). <!-- g:401928359 -->

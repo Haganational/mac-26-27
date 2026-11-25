@@ -2963,21 +2963,21 @@
     "key": "miami-oh",
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 63,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2198",
     "key": null,
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 48,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928850",
@@ -3004,21 +3004,21 @@
     "key": "western-michigan",
     "name": "Western Michigan Broncos",
     "abbr": "WMU",
-    "score": 38,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
    "away": {
     "espn_id": "126822",
     "key": null,
     "name": "Grace Christian Tigers",
     "abbr": "GCRU",
-    "score": 20,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:45 - 1st"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928836",
@@ -3045,21 +3045,21 @@
     "key": null,
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "2006",
     "key": "akron",
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401920550",
@@ -9700,5 +9700,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:43:39+00:00"
+ "live_at": "2026-11-25T22:14:15+00:00"
 }

@@ -3283,21 +3283,21 @@
     "key": "western-carolina",
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
-    "score": 48,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "2410",
     "key": null,
     "name": "Montreat Cavaliers",
     "abbr": "MNTT",
-    "score": 20,
-    "winner": null
+    "score": 42,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922285",
@@ -9888,5 +9888,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:58:19+00:00"
+ "live_at": "2026-11-25T21:28:12+00:00"
 }

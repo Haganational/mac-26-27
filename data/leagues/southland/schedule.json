@@ -3023,21 +3023,21 @@
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2545",
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "live": false,
-   "detail": ""
+   "detail": "Final"
   },
   {
    "game_id": "401925050",
@@ -3068,7 +3068,7 @@
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -3076,13 +3076,13 @@
     "key": null,
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": null,
+    "score": 72,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:16 - OT"
   },
   {
    "game_id": "401922253",
@@ -3109,7 +3109,7 @@
     "key": "northwestern-state",
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -3117,13 +3117,13 @@
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:28 - 1st"
   },
   {
    "game_id": "401929005",
@@ -10210,5 +10210,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T23:04:30+00:00"
 }

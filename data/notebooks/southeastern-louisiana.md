@@ -27,9 +27,9 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 
 ## Barometer
 
-**40 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five WLLLW.
+**47 of 100, steady.** Record 3-4 (0-0 in conference), streak W2, last five LLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bryce editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bryce editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,5 @@ Bryce Guidry grew up on his family's strawberry farm outside Ponchatoula and sti
 - 2026-11-24: W 70-60 vs (neutral) Northern Colorado Bears. Barometer 40 (testy). <!-- g:401920819 -->
 - 2026-11-24: Social recap posted (W 70-60 vs Northern Colorado Bears): https://hardwoodbricks.com/bigsky/games/401920819.html <!-- post:401920819:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401920548.html <!-- post:401920548:preview -->
+- 2026-11-25: W 73-72 vs (neutral) North Dakota Fighting Hawks. Barometer 47 (steady). <!-- g:401920548 -->
+- 2026-11-25: Social recap posted (W 73-72 vs North Dakota Fighting Hawks): https://hardwoodbricks.com/southland/games/401920548.html <!-- post:401920548:recap -->

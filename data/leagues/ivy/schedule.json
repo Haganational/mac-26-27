@@ -2376,21 +2376,21 @@
     "key": "brown",
     "name": "Brown Bears",
     "abbr": "BRWN",
-    "score": 58,
-    "winner": null
+    "score": 98,
+    "winner": true
    },
    "away": {
     "espn_id": "353",
     "key": null,
     "name": "Johnson & Wales Griffins",
     "abbr": "JWU",
-    "score": 27,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924705",
@@ -2421,21 +2421,21 @@
     "key": "columbia",
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 25,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
    "away": {
     "espn_id": "2612",
     "key": null,
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": 13,
-    "winner": null
+    "score": 44,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924737",
@@ -2456,7 +2456,7 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -2464,13 +2464,13 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 79,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401920237",
@@ -2501,7 +2501,7 @@
     "key": "dartmouth",
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2509,13 +2509,13 @@
     "key": null,
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401924738",
@@ -7250,5 +7250,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:55:46+00:00"
+ "live_at": "2026-11-25T22:58:57+00:00"
 }

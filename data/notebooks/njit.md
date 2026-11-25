@@ -27,7 +27,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 
 ## Barometer
 
-**15 of 100, despondent.** Record 1-7 (0-0 in conference), streak L5, last five LLLLL.
+**14 of 100, despondent.** Record 1-8 (0-0 in conference), streak L6, last five LLLLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Priya editorializes: 82% of stories right now.
 
@@ -70,7 +70,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,5 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 - 2026-11-22: L 59-79 at Boston College Eagles. Barometer 15 (despondent). <!-- g:401909556 -->
 - 2026-11-23: Social recap posted (L 59-79 vs Boston College Eagles): https://hardwoodbricks.com/americaeast/games/401909556.html <!-- post:401909556:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:preview -->
+- 2026-11-25: L 70-81 vs Manhattan Jaspers. Barometer 14 (despondent). <!-- g:401920868 -->
+- 2026-11-25: Social recap posted (L 70-81 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:recap -->

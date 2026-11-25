@@ -2561,21 +2561,21 @@
     "key": null,
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
-    "score": 77,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2198",
     "key": "eastern-kentucky",
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
-    "score": 63,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917967",
@@ -2611,21 +2611,21 @@
     "key": null,
     "name": "South Dakota State Jackrabbits",
     "abbr": "SDST",
-    "score": 42,
-    "winner": null
+    "score": 95,
+    "winner": false
    },
    "away": {
     "espn_id": "2000",
     "key": "abilene-christian",
     "name": "Abilene Christian Wildcats",
     "abbr": "ACU",
-    "score": 43,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929381",
@@ -8953,5 +8953,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:01:51+00:00"
+ "live_at": "2026-11-25T21:31:50+00:00"
 }
