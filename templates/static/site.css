@@ -1623,12 +1623,6 @@ button, .yt-sub, .tj-btn, .ad-cta, .bp-go, .watch-out, .chips button, .onpage a,
 .ed-card .ed-more { font-size: 13px; }
 @media (max-width: 560px) { .ed-card .ed-pic img { width: 64px; height: 80px; } .ed-card p { font-size: 14px; } }
 
-/* Tidy bar (Nov 21 2026): a hairline between the edition's own pages and the network sections (Big Board, The Den, Watch). */
-.tb-sep { flex: 0 0 auto; width: 1px; height: 20px; margin: 0 8px; background: rgba(239,227,204,.3); }
-.tb-board > .tb-menu { left: auto; right: 0; }
-@media (max-width: 1080px) {
-  .tb-sep { width: auto; height: 1px; margin: 8px 12px; }
-  .tb-board > .tb-menu { right: auto; }
 }
 
 
