@@ -102,23 +102,62 @@ def context(issue: dict[str, Any], data: dict[str, Any], dispatches: list[dict[s
 # word with *asterisks* for the accent. `style` picks the nameplate and ornament in weekly.html.
 PAPERS: dict[str, dict[str, Any]] = {
     "mac": {"name": "The Brick Street *Bugle*", "capital": "Athens, Ohio", "backup": "Kalamazoo, Mich.",
-            "motto": "Keep it mid. Keep it real.", "style": "bugle", "accent": "#a8441c", "second": "#5b2a17"},
+            "motto": "Keep it mid. Keep it real.", "style": "bugle", "accent": "#a8441c", "second": "#5b2a17",
+            "sidebar": "right", "photo": True, "tone": "sepia"},
     "horizon": {"name": "The Steel *Rim*", "capital": "Cleveland, Ohio", "backup": "Milwaukee, Wis.",
-                "motto": "Every miss clangs, and we print the clang.", "style": "steel", "accent": "#3f5368", "second": "#c0612b"},
+                "motto": "Every miss clangs, and we print the clang.", "style": "steel", "accent": "#3f5368", "second": "#c0612b",
+                "sidebar": "left", "photo": True, "tone": "newsprint"},
     "asun": {"name": "The River City *Rebound*", "capital": "Jacksonville, Fla.", "backup": "Fort Myers, Fla.",
-             "motto": "Young league. Always coming back.", "style": "river", "accent": "#1d6b74", "second": "#d08a3a"},
+             "motto": "Young league. Always coming back.", "style": "river", "accent": "#1d6b74", "second": "#d08a3a",
+             "sidebar": "right", "photo": False, "tone": "cream"},
     "mw": {"name": "The Pit *Report*", "capital": "Albuquerque, N.M.", "backup": "Las Vegas, Nev.",
-           "motto": "High desert. Thin air. Loud nights.", "style": "mesa", "accent": "#23827f", "second": "#b9572c"},
+           "motto": "High desert. Thin air. Loud nights.", "style": "mesa", "accent": "#23827f", "second": "#b9572c",
+           "sidebar": "left", "photo": False, "tone": "aged"},
 }
+
+
+# Paper stock (Matthew, Nov 25 2026: "randomize the sepia and newspaper tone"). Each is the sheet
+# color, a second shade for the chart box, and the ink. A paper without a set tone, sidebar side
+# or photo choice gets one drawn from a generator seeded on its key, so it differs from its
+# neighbors but stays the same paper week to week.
+TONES: dict[str, dict[str, str]] = {
+    "cream":     {"p": "#f4efe4", "p2": "#fffcf6", "ink": "#1a1410"},
+    "sepia":     {"p": "#efe3cb", "p2": "#f6ecd8", "ink": "#2a1d12"},
+    "newsprint": {"p": "#ebeae4", "p2": "#f4f3ee", "ink": "#16171a"},
+    "aged":      {"p": "#e9d9b8", "p2": "#f1e4c8", "ink": "#2b2014"},
+    "ivory":     {"p": "#f7f3e8", "p2": "#fdfaf2", "ink": "#1b1916"},
+}
+
+
+def _layout(key: str, p: dict[str, Any]) -> dict[str, Any]:
+    import random
+    rnd = random.Random(f"bricksit:{key}")
+    side, photo, tone = rnd.choice(("left", "right")), rnd.random() < .5, rnd.choice(sorted(TONES))
+    return {"sidebar": p.get("sidebar", side), "photo": p.get("photo", photo), "tone": p.get("tone", tone)}
 
 
 def paper(league_key: str | None = None) -> dict[str, Any] | None:
     """This conference's paper with its name split for the nameplate, or None for the BricksIt default."""
-    p = PAPERS.get(league_key or LEAGUE.key)
+    key = league_key or LEAGUE.key
+    p = PAPERS.get(key)
     if not p:
         return None
     parts = [{"text": t, "accent": i % 2 == 1} for i, t in enumerate(p["name"].split("*")) if t]
-    return {**p, "parts": parts, "plain": p["name"].replace("*", "")}
+    lay = _layout(key, p)
+    return {**p, **lay, "stock": TONES[lay["tone"]], "parts": parts, "plain": p["name"].replace("*", "")}
+
+
+def photo(issue: dict[str, Any], teams: list[Any], backdrops: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
+    """The above-the-fold picture: a free-licensed backdrop of a school the lead story names, else one of
+    the conference's backdrops in turn by edition number. None when the conference has none."""
+    have = [t for t in teams if t.key in backdrops]
+    if not have:
+        return None
+    lead = issue.get("lead") or {}
+    text = " ".join([lead.get("kicker", ""), lead.get("headline", ""), lead.get("deck", "")])
+    named = [t for t in have if t.short in text]
+    t = named[0] if named else have[int(issue.get("edition", 0) or 0) % len(have)]
+    return {**backdrops[t.key], "team": t.short}
 
 
 # ------------------------------------------------------------------ the weekly rotation

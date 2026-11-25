@@ -79,6 +79,18 @@
   }
   /* The papers (Nov 25 2026): same newsprint bones, each with its own nameplate, ornament and second color. */
   .bw { --c2: {{ paper.second if paper else accent }}; }
+  {% if paper %}.bw { --p: {{ paper.stock.p }}; --ink: {{ paper.stock.ink }}; }{% endif %}
+  /* Sidebar on the left: the column moves to the first track and its rule to the other side. */
+  .bw.side-left .bw-top { grid-template-columns: 292px minmax(0, 1fr); }
+  .bw.side-left .bw-col { order: -1; border-left: 0; padding-left: 0; border-right: 1px solid var(--rule2); padding-right: 24px; }
+  .bw.side-left .bw-low { grid-template-columns: 340px minmax(0, 1fr); }
+  .bw.side-left .bw-chart { order: -1; }
+  /* Photo above the fold: a wide plate under the headline, credited like a wire photo. */
+  .bw-photo { margin: 0 0 14px; }
+  .bw-photo img { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; filter: grayscale(.35) sepia(.18) contrast(1.04); border: 1px solid var(--rule2); }
+  .bw-photo figcaption { font: 12.5px/1.4 var(--sans); color: var(--ink2); margin-top: 5px; display: flex; justify-content: space-between; gap: 4px 14px; flex-wrap: wrap; }
+  .bw-photo figcaption span { color: var(--mut); }
+  .bw-photo a { color: inherit; }
   .pp .bw-plate { padding-bottom: 10px; }
   .pp .bw-name { font-size: clamp(36px, 7.2vw, 82px); white-space: normal; text-wrap: balance; }
   .pp-orn { height: 16px; margin: 2px 0 6px; }
@@ -119,7 +131,7 @@
 <body>
 {{ L.topbar(root=root, active="weekly.html") }}
 <main id="main">
-<article class="bw">
+<article class="bw{% if paper and paper.sidebar == 'left' %} side-left{% endif %}{% if paper %} tone-{{ paper.tone }}{% endif %}">
   {% if paper %}
   <div class="bw-head pp pp-{{ paper.style }}">
     <div class="bw-plate">
@@ -147,6 +159,8 @@
       <p class="bw-kick">{{ lead.kicker }}</p>
       <h2>{{ lead.headline }}</h2>
       <p class="bw-deck">{{ lead.deck }}</p>
+      {% if photo %}<figure class="bw-photo"><img src="{{ root }}{{ site_up }}backdrops/{{ photo.file }}" alt="{{ photo.caption }}" loading="eager">
+        <figcaption>{{ photo.caption }}<span>Photo: {% if photo.source %}<a href="{{ photo.source }}" target="_blank" rel="noopener">{{ photo.credit }}</a>{% else %}{{ photo.credit }}{% endif %}{% if photo.license %}, {% if photo.license_url %}<a href="{{ photo.license_url }}" target="_blank" rel="noopener license">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %}{% endif %}</span></figcaption></figure>{% endif %}
       <p class="bw-by">By the Hardwood Bricks desk</p>
       <div class="bw-body">{% for p in lead.paras %}<p>{{ p|safe }}</p>{% endfor %}</div>
     </div>
