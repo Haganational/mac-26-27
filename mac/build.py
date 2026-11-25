@@ -537,7 +537,8 @@ def render_site() -> str:
 
     # Data Visualized: one posting clock per game.
     (SITE_DIR / "viz.html").write_text(env.get_template("viz.html").render(
-        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou))
+        d=data, v=viz.page_context(analysis.posting_clocks(load_all_rows(), now)), ou=ou,
+        ev_href={ev: h for gid, ev in mapping.items() if (h := game_href.get(gid, "")).startswith("games/")}))
 
     # Travel map.
     board = sorted(itins.values(), key=lambda t: -t["totals"]["miles"])
