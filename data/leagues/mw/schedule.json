@@ -2479,7 +2479,7 @@
     "key": null,
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": 26,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -2487,13 +2487,13 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 42,
+    "score": 68,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "4:33 - 2nd"
   },
   {
    "game_id": "401911253",
@@ -2524,7 +2524,7 @@
     "key": null,
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 9,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -2532,13 +2532,13 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 14,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:07 - 1st"
+   "detail": "3:17 - 1st"
   },
   {
    "game_id": "401911522",
@@ -9114,5 +9114,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:12:35+00:00"
+ "live_at": "2026-11-25T03:39:13+00:00"
 }

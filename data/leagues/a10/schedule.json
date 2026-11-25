@@ -3740,21 +3740,21 @@
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": 62,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "2184",
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 60,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911253",
@@ -3785,7 +3785,7 @@
     "key": "saint-louis",
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 11,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3793,13 +3793,13 @@
     "key": null,
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 16,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:48 - 1st"
+   "detail": "3:36 - 1st"
   },
   {
    "game_id": "401921712",
@@ -3826,7 +3826,7 @@
     "key": null,
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3834,13 +3834,13 @@
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:49 - 1st"
   },
   {
    "game_id": "401927399",
@@ -12964,5 +12964,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:16:13+00:00"
+ "live_at": "2026-11-25T03:43:15+00:00"
 }

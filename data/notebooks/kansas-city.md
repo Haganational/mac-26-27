@@ -69,7 +69,7 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Marcus Pryor was a certified barbecue judge for fifteen years before he judged a
 - 2026-11-21: Social recap posted (L 61-62 vs Iona Gaels): https://hardwoodbricks.com/metro/games/401921007.html <!-- post:401921007:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:preview -->
 - 2026-11-25: L 72-77 vs Green Bay Phoenix. Barometer 42 (testy). <!-- g:401921008 -->
+- 2026-11-25: Social recap posted (L 72-77 vs Green Bay Phoenix): https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:recap -->

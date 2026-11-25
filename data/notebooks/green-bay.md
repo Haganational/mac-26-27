@@ -27,9 +27,9 @@ Mitch Carlson grew up on a dairy farm outside De Pere and drove a snowplow for t
 
 ## Barometer
 
-**39 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five WLWLL.
+**47 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mitch editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mitch editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Mitch Carlson grew up on a dairy farm outside De Pere and drove a snowplow for t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Mitch Carlson grew up on a dairy farm outside De Pere and drove a snowplow for t
 - 2026-11-20: L 63-87 at Florida State Seminoles. Barometer 39 (testy). <!-- g:401909698 -->
 - 2026-11-20: Social recap posted (L 63-87 vs Florida State Seminoles): https://hardwoodbricks.com/horizon/games/401909698.html <!-- post:401909698:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:preview -->
+- 2026-11-25: W 77-72 at Kansas City Roos. Barometer 47 (steady). <!-- g:401921008 -->
+- 2026-11-25: Social recap posted (W 77-72 vs Kansas City Roos): https://hardwoodbricks.com/horizon/games/401921008.html <!-- post:401921008:recap -->

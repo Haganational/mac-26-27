@@ -2908,7 +2908,7 @@
     "name": "Cornell Big Red",
     "abbr": "COR",
     "score": 92,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2083",
@@ -2916,12 +2916,12 @@
     "name": "Bucknell Bison",
     "abbr": "BUCK",
     "score": 71,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920237",
@@ -9346,5 +9346,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:30:19+00:00"
+ "live_at": "2026-11-25T03:58:35+00:00"
 }

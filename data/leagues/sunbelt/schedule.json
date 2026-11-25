@@ -4222,21 +4222,21 @@
     "key": "louisiana",
     "name": "Louisiana Ragin' Cajuns",
     "abbr": "UL",
-    "score": 74,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2347",
     "key": null,
     "name": "Louisiana Christian Wildcats",
     "abbr": "LCHR",
-    "score": 19,
-    "winner": null
+    "score": 24,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928836",
@@ -12651,5 +12651,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:20:04+00:00"
+ "live_at": "2026-11-25T03:47:29+00:00"
 }

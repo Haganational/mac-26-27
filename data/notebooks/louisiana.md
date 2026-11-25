@@ -27,9 +27,9 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 
 ## Barometer
 
-**33 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**45 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Remy editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -87,3 +87,4 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 - 2026-11-23: L 56-82 at USC Trojans. Barometer 33 (testy). <!-- g:401926774 -->
 - 2026-11-23: Social recap posted (L 56-82 vs USC Trojans): https://hardwoodbricks.com/sunbelt/games/401926774.html <!-- post:401926774:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929456.html <!-- post:401929456:preview -->
+- 2026-11-25: W 91-24 vs Louisiana Christian Wildcats. Barometer 45 (steady). <!-- g:401929456 -->

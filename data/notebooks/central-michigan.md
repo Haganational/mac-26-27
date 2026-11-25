@@ -68,7 +68,7 @@ Trevor Holloway grew up in Midland, walked on at Central Michigan, and spent fou
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,4 @@ Trevor Holloway grew up in Midland, walked on at Central Michigan, and spent fou
 - 2026-11-21: Social recap posted (L 82-104 vs Pittsburgh Panthers): https://hardwoodbricks.com/games/401909709.html <!-- post:401909709:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401911026.html <!-- post:401911026:preview -->
 - 2026-11-25: L 70-88 at Notre Dame Fighting Irish. Barometer 38 (testy). <!-- g:401911026 -->
+- 2026-11-25: Social recap posted (L 70-88 vs Notre Dame Fighting Irish): https://hardwoodbricks.com/games/401911026.html <!-- post:401911026:recap -->

@@ -69,7 +69,7 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Callie Mae Hester grew up in Muscle Shoals, worked twenty years as a recording-s
 - 2026-11-20: Social recap posted (W 74-67 vs Tusculum Pioneers): https://hardwoodbricks.com/uac/games/401929373.html <!-- post:401929373:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/uac/games/401925642.html <!-- post:401925642:preview -->
 - 2026-11-25: W 77-74 vs Alabama A&M Bulldogs. Barometer 65 (buoyant). <!-- g:401925642 -->
+- 2026-11-25: Social recap posted (W 77-74 vs Alabama A&M Bulldogs): https://hardwoodbricks.com/uac/games/401925642.html <!-- post:401925642:recap -->

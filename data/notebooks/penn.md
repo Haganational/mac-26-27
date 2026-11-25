@@ -70,7 +70,7 @@ Benjamin Quill spent years as a historical reenactor and tour guide in Old City,
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,4 @@ Benjamin Quill spent years as a historical reenactor and tour guide in Old City,
 - 2026-11-21: Social recap posted (W 83-73 vs La Salle Explorers): https://hardwoodbricks.com/a10/games/401921183.html <!-- post:401921183:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:preview -->
 - 2026-11-25: W 89-74 vs Drexel Dragons. Barometer 66 (buoyant). <!-- g:401921184 -->
+- 2026-11-25: Social recap posted (W 89-74 vs Drexel Dragons): https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:recap -->

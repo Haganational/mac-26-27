@@ -69,7 +69,7 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,4 @@ Draco McAllister designed escape rooms in Philadelphia before he started designi
 - 2026-11-21: Social recap posted (W 75-64 vs Saint Joseph's Hawks): https://hardwoodbricks.com/a10/games/401920195.html <!-- post:401920195:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:preview -->
 - 2026-11-25: L 74-89 at Pennsylvania Quakers. Barometer 48 (steady). <!-- g:401921184 -->
+- 2026-11-25: Social recap posted (L 74-89 vs Pennsylvania Quakers): https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:recap -->
