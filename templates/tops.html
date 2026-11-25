@@ -66,6 +66,8 @@
   .pk { border-bottom: 1px solid var(--rule); padding: 10px 0 11px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; }
   .pk .lbl { font: 600 18px/1.25 var(--serif); }
   .pk .m { font-size: 13.5px; color: var(--muted); grid-column: 1; }
+  .pk .m a.gm-link { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 3px; }
+  .pk .m a.gm-link:hover { color: var(--ink); text-decoration-color: currentColor; }
   .pk .why { grid-column: 1 / -1; font: italic 400 15px/1.45 var(--serif); color: var(--ink-2); margin: 4px 0 0; }
   .res { grid-row: 1; grid-column: 2; align-self: start; font: 700 12px/1 var(--cond); letter-spacing: .1em; text-transform: uppercase; padding: 6px 8px; border: 1px solid var(--rule-2); color: var(--muted); white-space: nowrap; }
   .res.win { background: #1b8a52; border-color: #1b8a52; color: #fff; }
@@ -87,6 +89,17 @@
   .nights th { font: 600 12px/1.2 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
   .nights td small { color: var(--muted); }
   .scroll { overflow-x: auto; }
+  /* Every pick of a past night, each one linking its game page */
+  .slips { margin-top: 14px; }
+  .slip { border-bottom: 1px solid var(--rule); }
+  .slip summary { cursor: pointer; padding: 10px 0; min-height: 44px; box-sizing: border-box; font: 600 13px/1.6 var(--cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .slip ul { list-style: none; margin: 0 0 10px; padding: 0; }
+  .slip li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 7px 0 7px 10px; border-left: 3px solid var(--c); margin: 0 0 6px; font: 400 16px/1.4 var(--serif); }
+  .slip li b { font-weight: 600; }
+  .slip .res { padding: 4px 6px; font-size: 11px; }
+  .slip .m { flex-basis: 100%; font-size: 14px; color: var(--muted); }
+  .slip .m a.gm-link, .pk .m a.gm-link { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 3px; }
+  .slip .m a.gm-link:hover { color: var(--ink); text-decoration-color: currentColor; }
   @media (max-width: 520px) { .tb-hero > div { padding: 20px 16px 24px; } .cap { grid-template-columns: 72px minmax(0, 1fr); } .cap .face { width: 72px; height: 72px; } }
 </style>
 </head>
@@ -145,7 +158,7 @@
           <a class="pk-plus" hidden href="desk.html?ref={{ '/tops.html'|urlencode }}&amp;rt={{ ('JuiceBox pick: ' ~ c.name ~ ', ' ~ p.label ~ ' (' ~ p.matchup ~ ')')|urlencode }}" title="Add a dispatch about this pick" aria-label="Add a dispatch about {{ c.name }}'s pick">+</a>
           <span class="lbl">{{ p.label }}</span>
           <span class="res {{ p.result or '' }}">{% if p.result %}{{ p.result }}{% if p.final %} · {{ p.final }}{% endif %}{% else %}{{ p.tip_et }} ET{% endif %}</span>
-          <span class="m">{{ p.matchup }}</span>
+          {% set gh = (game_link or {}).get(p.game|string) if p.game %}<span class="m">{% if gh %}<a class="gm-link" href="{{ gh }}">{{ p.matchup }}</a>{% else %}{{ p.matchup }}{% endif %}</span>
           <p class="why">{{ p.why }}</p>
         </div>{% else %}<p class="pass">No play. The rule found nothing on the board.</p>{% endfor %}
       </div>{% endfor %}
@@ -174,6 +187,11 @@
         {% for c in cappers %}{% set r = by.get(c.key) %}<td>{% if r and (r.w + r.l + r.p) %}{{ r.record }} <small>{{ '%+.2f'|format(r.units) }}</small>{% elif r and r.pending %}<small>pending</small>{% else %}<small>no play</small>{% endif %}</td>{% endfor %}
       </tr>{% endfor %}</tbody>
     </table></div>
+    <div class="slips">{% for n in recent %}<details class="slip">
+      <summary>{{ n.label }}: every pick</summary>
+      <ul>{% for c in cappers %}{% for p in (n.card.picks.get(c.key) or []) %}{% set gh = (game_link or {}).get(p.game|string) if p.game %}<li style="--c: {{ c.color }}"><b>{{ c.first }}</b> {{ p.label }} <span class="res {{ p.result or '' }}">{{ p.result or 'pending' }}{% if p.final %} · {{ p.final }}{% endif %}</span>
+        <span class="m">{% if gh %}<a class="gm-link" href="{{ gh }}">{{ p.matchup }}</a>{% else %}{{ p.matchup }}{% endif %}</span></li>{% endfor %}{% endfor %}</ul>
+    </details>{% endfor %}</div>
   </section>
   {% endif %}
 

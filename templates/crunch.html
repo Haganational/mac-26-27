@@ -81,7 +81,7 @@
           <td class="tm l"><a href="{{ r.href }}"><span class="chip" style="--c:{{ r.color }}"></span>{{ r.short }}</a><small>{{ r.conf_short }}</small></td>
           <td class="w">{{ r.deficit }}</td>
           <td>{{ r.when }}</td>
-          <td class="g l hide-sm">Trailed {{ r.then }}, won {{ r.score }} {{ "vs." if r.home else "at" }} {{ r.opp }}, {{ r.day }}{% if r.periods > 2 %} ({{ "" if r.periods == 3 else r.periods - 2 }}OT){% endif %}</td>
+          {% set gh = (game_link or {}).get(r.game_id|string) if r.game_id %}<td class="g l hide-sm">Trailed {{ r.then }}, {% if gh %}<a href="{{ gh }}">won {{ r.score }} {{ "vs." if r.home else "at" }} {{ r.opp }}</a>{% else %}won {{ r.score }} {{ "vs." if r.home else "at" }} {{ r.opp }}{% endif %}, {{ r.day }}{% if r.periods > 2 %} ({{ "" if r.periods == 3 else r.periods - 2 }}OT){% endif %}</td>
           <td class="hide-sm">{{ r.count }}</td>
         </tr>
       {% endfor %}

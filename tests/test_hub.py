@@ -240,3 +240,39 @@ def test_front_pin_takes_newest_live_pin(tmp_path, monkeypatch):
     later = datetime(2026, 11, 22, 5, 0, tzinfo=timezone.utc)  # the article's 12 hours are up; the 24-hour pin still holds
     assert hub.front_pin(tmp_path, later)["title"] == "Old pin"
     assert hub.front_pin(tmp_path, datetime(2026, 11, 23, tzinfo=timezone.utc)) is None
+
+
+def test_game_links_point_at_the_owning_editions_game_page_then_the_tv_listing(tmp_path, monkeypatch):
+    """Tops and Bottoms, the Den and Crunch Time link a game by id: its page in the first edition that has one,
+    else that edition's TV row. Prep sheets (<id>-notes.html) are never the link."""
+    (tmp_path / "games").mkdir(); (tmp_path / "horizon" / "games").mkdir(parents=True)
+    (tmp_path / "games" / "1.html").write_text("x"); (tmp_path / "horizon" / "games" / "1.html").write_text("x")
+    (tmp_path / "horizon" / "games" / "2.html").write_text("x"); (tmp_path / "horizon" / "games" / "2-notes.html").write_text("x")
+    sched = tmp_path / "hz-data"; sched.mkdir()
+    (sched / "schedule.json").write_text(json.dumps({"games": [{"game_id": "2"}, {"game_id": "3"}]}))
+    hz = ALL["horizon"]
+    monkeypatch.setattr(type(hz), "data_dir", property(lambda self: sched if self.key == "horizon" else tmp_path / "none"))
+    links = hub.game_links(tmp_path)
+    assert links["1"] == "games/1.html", "the MAC copy, first in LEAGUES order"
+    assert links["2"] == "horizon/games/2.html"
+    assert links["3"] == "horizon/tv.html#g3"
+    assert "2-notes" not in links
+
+
+def test_tops_page_links_each_pick_to_its_game(tmp_path):
+    from datetime import datetime, timezone
+    from jinja2 import Environment, FileSystemLoader, select_autoescape
+    from mac import tops
+    from mac.config import TEMPLATES_DIR
+    d = tmp_path / "tops"; d.mkdir()
+    pick = {"kind": "total", "game": "401", "tip": "2026-11-24T02:00Z", "matchup": "VCU Rams vs. Providence Friars",
+            "side": "under", "line": 154.5, "label": "Under 154.5", "why": "x", "result": "win", "final": "66-72"}
+    for day in ("2026-11-23", "2026-11-24"):
+        (d / f"{day}.json").write_text(json.dumps({"date": day, "board": 1, "picks": {"merv": [dict(pick)]},
+                                                   "column": {"byline": "merv", "by": "Merv Crutch", "head": "h", "paras": [], "lines": [], "close": ""}}))
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
+    env.globals["game_link"] = {"401": "a10/games/401.html"}
+    now = datetime(2026, 11, 24, 20, tzinfo=timezone.utc)
+    html = env.get_template("tops.html").render(eds=[], names="", base="https://x.com/", season="", noindex=True,
+                                                today_label="", built="", **tops.page_context(now, d))
+    assert html.count('href="a10/games/401.html">VCU Rams vs. Providence Friars</a>') == 2, "today's card and the past night's slip"

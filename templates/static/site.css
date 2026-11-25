@@ -180,6 +180,7 @@ table.agenda { min-width: 720px; }
 .ogtip small.live { color: var(--bad); font-weight: 700; text-transform: uppercase; }
 .ogteams { display: flex; flex-direction: column; gap: 2px; font-size: 15px; }
 .ogwatch { margin-left: auto; }
+.oggame { font-size: 13px; font-weight: 600; padding: 10px 0; }
 .kv { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; padding: 8px 0 12px; border-bottom: 1px solid var(--grid); margin-bottom: 6px; font-size: 14px; }
 .kv > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 6px; }
 .kv .k { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; width: 100%; }
