@@ -27,9 +27,9 @@ Curtis Delchamps grew up on Mobile Bay's Eastern Shore and spent fifteen years r
 
 ## Barometer
 
-**54 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WLWLW.
+**61 of 100, steady.** Record 5-4 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -88,3 +88,4 @@ Curtis Delchamps grew up on Mobile Bay's Eastern Shore and spent fifteen years r
 - 2026-11-22: W 79-66 vs West Florida Argonauts. Barometer 54 (steady). <!-- g:401922252 -->
 - 2026-11-22: Social recap posted (W 79-66 vs West Florida Argonauts): https://hardwoodbricks.com/asun/games/401922252.html <!-- post:401922252:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929421.html <!-- post:401929421:preview -->
+- 2026-11-25: W 74-49 vs Florida A&M Rattlers. Barometer 61 (steady). <!-- g:401929421 -->

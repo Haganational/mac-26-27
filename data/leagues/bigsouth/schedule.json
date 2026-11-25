@@ -2487,7 +2487,7 @@
     "key": "high-point",
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": 43,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -2495,13 +2495,13 @@
     "key": null,
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": 35,
+    "score": 56,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:17 - 2nd"
   },
   {
    "game_id": "401909699",
@@ -2532,7 +2532,7 @@
     "key": null,
     "name": "Florida State Seminoles",
     "abbr": "FSU",
-    "score": 30,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2540,13 +2540,13 @@
     "key": "unc-asheville",
     "name": "UNC Asheville Bulldogs",
     "abbr": "UNCA",
-    "score": 18,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:07 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920076",
@@ -8854,5 +8854,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:37:58+00:00"
+ "live_at": "2026-11-25T03:02:57+00:00"
 }

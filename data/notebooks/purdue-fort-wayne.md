@@ -27,9 +27,9 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 
 ## Barometer
 
-**68 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five WLWWW.
+**73 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W4, last five LWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Samir editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Samir editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -87,3 +87,4 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 - 2026-11-21: W 99-53 vs Calumet St. Joseph Crimson Wave. Barometer 68 (buoyant). <!-- g:401928819 -->
 - 2026-11-21: Social recap posted (W 99-53 vs Calumet St. Joseph Crimson Wave): https://hardwoodbricks.com/horizon/games/401928819.html <!-- post:401928819:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:preview -->
+- 2026-11-25: W 80-75 at Southeast Missouri State Redhawks. Barometer 73 (buoyant). <!-- g:401926154 -->

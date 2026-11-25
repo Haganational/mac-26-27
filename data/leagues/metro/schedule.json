@@ -3376,20 +3376,20 @@
     "name": "Morgan State Bears",
     "abbr": "MORG",
     "score": 74,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "116",
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": 74,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921266",
@@ -11380,5 +11380,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:19:17+00:00"
+ "live_at": "2026-11-25T02:50:42+00:00"
 }

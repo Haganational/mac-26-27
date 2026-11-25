@@ -70,7 +70,7 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 - 2026-11-20: Social recap posted (L 54-86 vs California Golden Bears): https://hardwoodbricks.com/southland/games/401918056.html <!-- post:401918056:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/southland/games/401929351.html <!-- post:401929351:preview -->
 - 2026-11-25: W 79-51 vs Arlington Baptist Patriots. Barometer 50 (steady). <!-- g:401929351 -->
+- 2026-11-25: Social recap posted (W 79-51 vs Arlington Baptist Patriots): https://hardwoodbricks.com/southland/games/401929351.html <!-- post:401929351:recap -->

@@ -69,7 +69,7 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,4 @@ Grace Okafor spent twelve years as an air-traffic controller at Hobby Airport, w
 - 2026-11-20: Social recap posted (L 79-86 vs Georgia Southern Eagles): https://hardwoodbricks.com/sunbelt/games/401921028.html <!-- post:401921028:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:preview -->
 - 2026-11-25: W 84-58 at UL Monroe Warhawks. Barometer 68 (buoyant). <!-- g:401917983 -->
+- 2026-11-25: Social recap posted (W 84-58 vs UL Monroe Warhawks): https://hardwoodbricks.com/sunbelt/games/401917983.html <!-- post:401917983:recap -->

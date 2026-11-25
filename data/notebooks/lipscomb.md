@@ -27,9 +27,9 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 
 ## Barometer
 
-**51 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WWLLW.
+**43 of 100, testy.** Record 4-5 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Susan editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -91,3 +91,4 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 - 2026-11-22: W 92-67 vs Milligan Buffaloes. Barometer 51 (steady). <!-- g:401920708 -->
 - 2026-11-23: Social recap posted (W 92-67 vs Milligan Buffaloes): https://hardwoodbricks.com/asun/games/401920708.html <!-- post:401920708:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401920709.html <!-- post:401920709:preview -->
+- 2026-11-25: L 66-101 at Auburn Tigers. Barometer 43 (testy). <!-- g:401920709 -->

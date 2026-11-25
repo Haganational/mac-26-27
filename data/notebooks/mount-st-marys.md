@@ -27,9 +27,9 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 
 ## Barometer
 
-**28 of 100, despondent.** Record 1-4 (0-0 in conference), streak L3, last five LWLLL.
+**41 of 100, testy.** Record 2-4 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Father editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -80,3 +80,4 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 - 2026-11-21: L 67-73 vs Western Michigan Broncos. Barometer 28 (despondent). <!-- g:401920922 -->
 - 2026-11-21: Social recap posted (L 67-73 vs Western Michigan Broncos): https://hardwoodbricks.com/games/401920922.html <!-- post:401920922:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:preview -->
+- 2026-11-25: W 75-74 at Morgan State Bears. Barometer 41 (testy). <!-- g:401920923 -->

@@ -3454,20 +3454,20 @@
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
     "score": 75,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2870",
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 78,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921008",
@@ -3499,7 +3499,7 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 35,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -3507,13 +3507,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 40,
+    "score": 63,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:39 - 2nd"
+   "detail": "3:35 - 2nd"
   },
   {
    "game_id": "401928831",
@@ -10580,5 +10580,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:17:03+00:00"
+ "live_at": "2026-11-25T02:49:08+00:00"
 }

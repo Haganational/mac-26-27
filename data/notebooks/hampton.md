@@ -68,7 +68,7 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 1
+- Social posts on their games: 2
 
 ## Log
 
@@ -78,3 +78,4 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 - 2026-11-14: L 56-58 at Navy Midshipmen. Barometer 40 (testy). <!-- g:401921221 -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:preview -->
 - 2026-11-25: L 59-71 at Old Dominion Monarchs. Barometer 35 (testy). <!-- g:401926827 -->
+- 2026-11-25: Social recap posted (L 59-71 vs Old Dominion Monarchs): https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:recap -->

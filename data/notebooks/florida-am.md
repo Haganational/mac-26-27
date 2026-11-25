@@ -27,9 +27,9 @@ Andre Baptiste is a retired pharmacist who filled prescriptions in Tallahassee f
 
 ## Barometer
 
-**11 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**9 of 100, despondent.** Record 0-7 (0-0 in conference), streak L7, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 84% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 86% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Andre Baptiste is a retired pharmacist who filled prescriptions in Tallahassee f
 - 2026-11-19: L 78-98 at UTSA Roadrunners. Barometer 11 (despondent). <!-- g:401929420 -->
 - 2026-11-19: Social recap posted (L 78-98 vs UTSA Roadrunners): https://hardwoodbricks.com/american/games/401929420.html <!-- post:401929420:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929421.html <!-- post:401929421:preview -->
+- 2026-11-25: L 49-74 at South Alabama Jaguars. Barometer 9 (despondent). <!-- g:401929421 -->

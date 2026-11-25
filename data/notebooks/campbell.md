@@ -67,7 +67,7 @@ Hamza Vance was an undersized high school power forward who became a physical th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,4 @@ Hamza Vance was an undersized high school power forward who became a physical th
 - 2026-11-21: Social recap posted (W 80-70 vs Kansas State Wildcats): https://hardwoodbricks.com/caa/games/401909799.html <!-- post:401909799:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920742.html <!-- post:401920742:preview -->
 - 2026-11-25: W 70-66 at Coastal Carolina Chanticleers. Barometer 53 (steady). <!-- g:401920742 -->
+- 2026-11-25: Social recap posted (W 70-66 vs Coastal Carolina Chanticleers): https://hardwoodbricks.com/sunbelt/games/401920742.html <!-- post:401920742:recap -->

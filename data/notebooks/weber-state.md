@@ -72,7 +72,7 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -86,3 +86,4 @@ Mitch Ogden spent eighteen years as a tax preparer in Ogden and two weeks of eve
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:preview -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920299.html <!-- post:401920299:preview -->
 - 2026-11-25: W 89-87 vs Tarleton State Texans. Barometer 44 (testy). <!-- g:401925950 -->
+- 2026-11-25: Social recap posted (W 89-87 vs Tarleton State Texans): https://hardwoodbricks.com/bigsky/games/401925950.html <!-- post:401925950:recap -->
