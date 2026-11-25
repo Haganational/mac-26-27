@@ -3785,7 +3785,7 @@
     "key": "saint-louis",
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 36,
+    "score": 61,
     "winner": null
    },
    "away": {
@@ -3793,13 +3793,13 @@
     "key": null,
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 41,
+    "score": 59,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:37 - 2nd"
+   "detail": "11:01 - 2nd"
   },
   {
    "game_id": "401921712",
@@ -3826,7 +3826,7 @@
     "key": null,
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 26,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -3834,13 +3834,13 @@
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": 35,
+    "score": 49,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:12 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401927399",
@@ -12964,5 +12964,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T04:13:00+00:00"
+ "live_at": "2026-11-25T04:41:58+00:00"
 }
