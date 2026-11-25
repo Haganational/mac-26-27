@@ -2316,7 +2316,7 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2324,13 +2324,13 @@
     "key": null,
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:32 - 1st"
   },
   {
    "game_id": "401918971",
@@ -8383,5 +8383,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T22:23:08+00:00"
 }

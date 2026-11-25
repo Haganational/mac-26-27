@@ -27,9 +27,9 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 
 ## Barometer
 
-**63 of 100, steady.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
+**53 of 100, steady.** Record 4-4 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ingrid editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ingrid editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,5 @@ Ingrid Solberg grew up in Grand Forks, worked a decade as a county snowplow disp
 - 2026-11-24: W 77-67 vs (neutral) Detroit Mercy Titans. Barometer 63 (steady). <!-- g:401920546 -->
 - 2026-11-24: Social recap posted (W 77-67 vs Detroit Mercy Titans): https://hardwoodbricks.com/horizon/games/401920546.html <!-- post:401920546:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401920548.html <!-- post:401920548:preview -->
+- 2026-11-25: L 72-73 vs (neutral) SE Louisiana Lions. Barometer 53 (steady). <!-- g:401920548 -->
+- 2026-11-25: Social recap posted (L 72-73 vs SE Louisiana Lions): https://hardwoodbricks.com/southland/games/401920548.html <!-- post:401920548:recap -->

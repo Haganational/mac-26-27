@@ -3023,21 +3023,21 @@
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": 59,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "2545",
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 58,
-    "winner": null
+    "score": 73,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:25 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925050",
@@ -3068,7 +3068,7 @@
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": 39,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -3076,13 +3076,13 @@
     "key": null,
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 32,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:53 - 2nd"
   },
   {
    "game_id": "401922253",
@@ -10211,5 +10211,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T22:01:37+00:00"
+ "live_at": "2026-11-25T22:32:32+00:00"
 }

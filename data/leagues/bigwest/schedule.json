@@ -2828,7 +2828,7 @@
     "key": "uc-riverside",
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2836,13 +2836,13 @@
     "key": null,
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:07 - 1st"
   },
   {
    "game_id": "401920299",
@@ -10265,5 +10265,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:16:57+00:00"
+ "live_at": "2026-11-25T22:19:42+00:00"
 }
