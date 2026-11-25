@@ -3536,21 +3536,21 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 58,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
    "away": {
     "espn_id": "2458",
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 66,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928831",
@@ -3577,21 +3577,21 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 58,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "43",
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 59,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921170",
@@ -10653,5 +10653,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:12:57+00:00"
+ "live_at": "2026-11-25T19:45:39+00:00"
 }

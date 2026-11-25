@@ -3495,7 +3495,7 @@
     "key": null,
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 8,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -3503,13 +3503,13 @@
     "key": "manhattan",
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
-    "score": 11,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:33 - 1st"
+   "detail": "0:29 - 1st"
   },
   {
    "game_id": "401924705",
@@ -3540,7 +3540,7 @@
     "key": null,
     "name": "Columbia Lions",
     "abbr": "COLU",
-    "score": 8,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -3548,13 +3548,13 @@
     "key": "saint-peters",
     "name": "Saint Peter's Peacocks",
     "abbr": "SPU",
-    "score": 4,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:45 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924810",
@@ -11364,5 +11364,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:15:15+00:00"
+ "live_at": "2026-11-25T19:47:32+00:00"
 }
