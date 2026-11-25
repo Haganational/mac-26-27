@@ -77,3 +77,12 @@ def test_match_lines_to_games_and_ats():
     now = datetime(2026, 12, 6, tzinfo=timezone.utc)
     recent = analysis.recent_results(games, hist, now)
     assert recent[0]["ats_cover"] == "away"  # Toledo won by 2, needed 3.5
+
+
+def test_line_history_ignores_live_lines_after_tip():
+    rows = [row("2026-12-05T18:00:00Z", "draftkings", "spreads", "Toledo Rockets", -110, -4.5),
+            row("2026-12-05T20:00:00Z", "draftkings", "spreads", "Toledo Rockets", -110, -21.5),
+            row("2026-12-05T20:00:00Z", "draftkings", "spreads", "Toledo Rockets", -110, -21.5, event="ev2")]
+    hist = analysis.line_history(rows)
+    assert hist["ev1"]["latest"]["spread"] == -4.5 and len(hist["ev1"]["snapshots"]) == 1
+    assert "ev2" not in hist  # first seen after tip: no pregame line at all

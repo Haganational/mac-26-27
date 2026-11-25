@@ -114,6 +114,13 @@ def summarize_snapshot(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def _before_tip(captured_at: str, commence_time: str) -> bool:
+    try:
+        return parse_iso(captured_at) < parse_iso(commence_time)
+    except (TypeError, ValueError):
+        return True  # an unparseable time can't be judged, so keep the snapshot
+
+
 def line_history(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     """Group raw rows by odds event, then by capture time, and summarize each snapshot."""
     by_event: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -125,8 +132,14 @@ def line_history(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
         by_capture: dict[str, list[dict[str, Any]]] = defaultdict(list)
         for r in event_rows:
             by_capture[r["captured_at"]].append(r)
-        snaps = [summarize_snapshot(by_capture[k]) for k in sorted(by_capture)]
         first = event_rows[0]
+        # Pregame lines only. After tip the books post live, in-game numbers (a 15-point favorite up
+        # 30 at the half shows -37), which made "closing" lines and covers wrong. Keep what was
+        # captured before the scheduled tip; an event first seen after tip has no usable line.
+        keys = [k for k in sorted(by_capture) if _before_tip(k, first["commence_time"])]
+        if not keys:
+            continue
+        snaps = [summarize_snapshot(by_capture[k]) for k in keys]
         out[event_id] = {
             "odds_event_id": event_id,
             "commence_time": first["commence_time"],
