@@ -69,7 +69,7 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Desmond Okoye grew up in Plaza Midwood, where his stepfather Emeka ran the rec c
 - 2026-11-23: Social recap posted (W 71-58 vs Florida Gulf Coast Eagles): https://hardwoodbricks.com/asun/games/401921701.html <!-- post:401921701:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:preview -->
 - 2026-11-25: W 85-72 vs (neutral) Northern Iowa Panthers. Barometer 68 (buoyant). <!-- g:401921702 -->
+- 2026-11-25: Social recap posted (W 85-72 vs Northern Iowa Panthers): https://hardwoodbricks.com/mvc/games/401921702.html <!-- post:401921702:recap -->

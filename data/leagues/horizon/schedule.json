@@ -3536,7 +3536,7 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -3544,13 +3544,13 @@
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": null,
+    "score": 48,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "6:55 - 1st"
+   "detail": "19:04 - 2nd"
   },
   {
    "game_id": "401928831",
@@ -3577,7 +3577,7 @@
     "key": "wright-state",
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": null,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -3585,13 +3585,13 @@
     "key": null,
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": null,
+    "score": 42,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:49 - 1st"
+   "detail": "16:10 - 2nd"
   },
   {
    "game_id": "401921170",
@@ -10652,5 +10652,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T18:43:03+00:00"
 }

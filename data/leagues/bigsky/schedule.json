@@ -2924,7 +2924,7 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 37,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2932,13 +2932,13 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 45,
+    "score": 60,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:49 - 2nd"
   },
   {
    "game_id": "401924268",
@@ -2965,7 +2965,7 @@
     "key": null,
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": null,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2973,13 +2973,13 @@
     "key": "southern-utah",
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:12 - 1st"
+   "detail": "14:56 - 1st"
   },
   {
    "game_id": "401925943",
@@ -9795,5 +9795,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T18:57:58+00:00"
 }

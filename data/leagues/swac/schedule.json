@@ -3070,7 +3070,7 @@
     "key": null,
     "name": "South Dakota Coyotes",
     "abbr": "SDAK",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -3078,13 +3078,13 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:56 - 1st"
   },
   {
    "game_id": "401919042",
@@ -10948,5 +10948,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T19:06:33+00:00"
 }

@@ -3945,21 +3945,21 @@
     "key": "saint-josephs",
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
-    "score": 58,
-    "winner": null
+    "score": 104,
+    "winner": true
    },
    "away": {
     "espn_id": "3183",
     "key": null,
     "name": "Penn State Abington Nittany Lions",
     "abbr": "PSAB",
-    "score": 28,
-    "winner": null
+    "score": 48,
+    "winner": false
    },
-   "status": "STATUS_HALFTIME",
-   "completed": false,
-   "live": true,
-   "detail": "Halftime"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920067",
@@ -3990,7 +3990,7 @@
     "key": "rhode-island",
     "name": "Rhode Island Rams",
     "abbr": "URI",
-    "score": null,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -3998,13 +3998,13 @@
     "key": null,
     "name": "American International Yellow Jackets",
     "abbr": "AIC",
-    "score": null,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:57 - 1st"
+   "detail": "2:02 - 1st"
   },
   {
    "game_id": "401919007",
@@ -4035,7 +4035,7 @@
     "key": "davidson",
     "name": "Davidson Wildcats",
     "abbr": "DAV",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -4043,13 +4043,13 @@
     "key": null,
     "name": "Tulane Green Wave",
     "abbr": "TULN",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:20 - 1st"
   },
   {
    "game_id": "401911241",
@@ -13033,5 +13033,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T18:48:16+00:00"
 }
