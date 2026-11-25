@@ -796,7 +796,8 @@ def render_weekly(env: Environment, data: dict[str, Any], dispatches: list[dict[
               if lg.key != LEAGUE.key and weekly.issues(lg.key)]
     for i, f in enumerate(files):
         ctx = weekly.context(json.loads(f.read_text()), data, dispatches)
-        kw = dict(d=data, accent=hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
+        pp = ctx.get("paper")
+        kw = dict(d=data, accent=pp["accent"] if pp else hub.CONF_COLORS.get(LEAGUE.key, "#a8441c"), **ctx)
         (SITE_DIR / "weekly" / f"{f.stem}.html").write_text(tpl.render(
             root="../", path=f"weekly/{f.stem}.html", others=[{**o, "href": "../" + o["href"]} for o in others], **kw))
         if i == len(files) - 1:

@@ -2,12 +2,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-{% set page_title %}{{ name }}: {{ LG }} · Edition {{ issue.edition }}{% endset %}
+{% set page_title %}{{ paper.plain if paper else name }}: {{ LG }} · Edition {{ issue.edition }}{% endset %}
 {% set page_desc %}{{ lead.headline }} {{ lead.deck }}{% endset %}
 {{ L.head(page_title, page_desc, root=root, path=path, og_type="article",
           canonical=(site_url ~ "weekly/" ~ number ~ ".html") if latest else "") }}
 <script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "NewsArticle",
-  "headline": lead.headline, "description": lead.deck, "datePublished": issue.date, "articleSection": name,
+  "headline": lead.headline, "description": lead.deck, "datePublished": issue.date, "articleSection": paper.plain if paper else name,
   "author": {"@type": "Person", "name": "Matthew Hagan"}, "publisher": {"@id": site_url ~ "#org"},
   "mainEntityOfPage": site_url ~ "weekly/" ~ number ~ ".html"}|tojson }}</script>
 <style>
@@ -77,12 +77,61 @@
     .bw-col { border-left: 0; padding-left: 0; margin-top: 22px; }
     .bw-notes { grid-template-columns: 1fr; margin-bottom: 20px; }
   }
+  /* The papers (Nov 25 2026): same newsprint bones, each with its own nameplate, ornament and second color. */
+  .bw { --c2: {{ paper.second if paper else accent }}; }
+  .pp .bw-plate { padding-bottom: 10px; }
+  .pp .bw-name { font-size: clamp(36px, 7.2vw, 82px); white-space: normal; text-wrap: balance; }
+  .pp-orn { height: 16px; margin: 2px 0 6px; }
+  .pp-motto { margin: 0 0 8px; text-align: center; font: italic 500 clamp(14px, 1.6vw, 17px)/1.3 var(--serif); color: var(--ink2); }
+  .pp .bw-strip i { color: var(--c); font-style: italic; }
+  /* Bugle: Athens brick streets, a running-bond course under a warm serif nameplate. */
+  .pp-bugle .bw-name { font-weight: 700; letter-spacing: -.025em; }
+  .pp-bugle .bw-name i { font-style: italic; color: var(--c); }
+  .pp-bugle .pp-orn { height: 18px; background:
+      linear-gradient(var(--p) 0 0) 0 8px / 100% 2px no-repeat,
+      repeating-linear-gradient(90deg, var(--c) 0 34px, var(--p) 34px 36px) 0 0 / 100% 8px no-repeat,
+      repeating-linear-gradient(90deg, var(--c) 0 34px, var(--p) 34px 36px) 18px 10px / 100% 8px no-repeat;
+      opacity: .9; }
+  /* Steel Rim: a mill sign. Condensed capitals, a riveted plate, a hot-orange slag line. */
+  .pp-steel .bw-name { font-family: var(--cond); text-transform: uppercase; font-weight: 700; letter-spacing: .04em; font-size: clamp(40px, 8.4vw, 96px); line-height: .9; }
+  .pp-steel .bw-name i { font-style: normal; color: var(--c); }
+  .pp-steel .pp-orn { height: 14px; border-radius: 2px; background:
+      radial-gradient(circle at 7px 7px, var(--p) 0 2px, transparent 2.5px) 0 0 / 28px 14px repeat-x,
+      linear-gradient(var(--c), var(--c)); box-shadow: 0 4px 0 -1px var(--c2); }
+  .pp-steel .pp-motto { font-family: var(--cond); font-style: normal; text-transform: uppercase; letter-spacing: .16em; font-size: 13px; font-weight: 600; }
+  /* River City Rebound: St. Johns River water. Italic nameplate over a running wave. */
+  .pp-river .bw-name { font-style: italic; font-weight: 600; letter-spacing: -.02em; font-size: clamp(34px, 6.2vw, 70px); }
+  .pp-river .bw-name i { color: var(--c); }
+  .pp-river .pp-orn { height: 14px; background: var(--c); opacity: .85;
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='14'%3E%3Cpath d='M0 7 Q10 0 20 7 T40 7' fill='none' stroke='black' stroke-width='2.4'/%3E%3C/svg%3E") 0 0 / 40px 14px repeat-x;
+              mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='14'%3E%3Cpath d='M0 7 Q10 0 20 7 T40 7' fill='none' stroke='black' stroke-width='2.4'/%3E%3C/svg%3E") 0 0 / 40px 14px repeat-x; }
+  .pp-river .bw-ear b { color: var(--c2); }
+  /* Pit Report: turquoise and adobe, stepped mesas along the foot of the nameplate. */
+  .pp-mesa .bw-name { font-family: var(--cond); text-transform: uppercase; font-weight: 700; letter-spacing: .08em; font-size: clamp(40px, 8vw, 92px); line-height: .9; }
+  .pp-mesa .bw-name i { font-style: normal; color: var(--c); }
+  .pp-mesa .pp-orn { height: 18px; background: var(--c2);
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='18'%3E%3Cpath d='M0 18 V12 H10 V6 H22 V0 H40 V6 H50 V12 H62 V8 H78 V12 H96 V18 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 96px 18px repeat-x;
+              mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='18'%3E%3Cpath d='M0 18 V12 H10 V6 H22 V0 H40 V6 H50 V12 H62 V8 H78 V12 H96 V18 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 96px 18px repeat-x; }
+  .pp-mesa .pp-motto { color: var(--c); }
+  @media (max-width: 860px) { .pp .bw-plate { grid-template-columns: 1fr 1fr; } .pp .bw-name { font-size: clamp(34px, 11vw, 60px); } }
 </style>
 </head>
 <body>
 {{ L.topbar(root=root, active="weekly.html") }}
 <main id="main">
 <article class="bw">
+  {% if paper %}
+  <div class="bw-head pp pp-{{ paper.style }}">
+    <div class="bw-plate">
+      <div class="bw-ear"><b>Vol. 1 · No. {{ issue.edition }}</b>{{ issue.label or "Published weekly" }}</div>
+      <h1 class="bw-name">{% for p in paper.parts %}{% if p.accent %}<i>{{ p.text }}</i>{% else %}{{ p.text }}{% endif %}{% endfor %}</h1>
+      <div class="bw-ear r"><b>{{ paper.capital }}</b>{{ LG_name }} men's basketball</div>
+    </div>
+    <div class="pp-orn" aria-hidden="true"></div>
+    <p class="pp-motto">{{ paper.motto }}</p>
+    <div class="bw-strip"><span>{{ paper.capital }} · {{ dateline }}</span><span>A Bricks<i>It</i> Weekly paper · the week in the {{ LG }}</span><span>hardwoodbricks.com</span></div>
+  </div>
+  {% else %}
   <div class="bw-head">
     <div class="bw-plate">
       <div class="bw-ear"><b>Edition No. {{ issue.edition }}</b>{{ issue.label or "Weekly" }}</div>
@@ -91,6 +140,7 @@
     </div>
     <div class="bw-strip"><span>{{ dateline }}</span><span>The week in the {{ LG }}, on one page</span><span>hardwoodbricks.com</span></div>
   </div>
+  {% endif %}
 
   <div class="bw-top">
     <div class="bw-lead">

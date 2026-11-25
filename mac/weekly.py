@@ -93,7 +93,32 @@ def context(issue: dict[str, Any], data: dict[str, Any], dispatches: list[dict[s
         dateline = issue.get("date", "")
     return {"issue": issue, "lead": lead, "column": col, "notes": notes, "dateline": dateline,
             "chart": chart(data.get("standings") or [], data.get("model_mac") or {}), "name": NAME,
-            "number": f"{int(issue.get('edition', 0)):03d}"}
+            "number": f"{int(issue.get('edition', 0)):03d}", "paper": paper()}
+
+
+# ------------------------------------------------------------------ the papers
+# Matthew, Nov 25 2026: 27 individual weekly papers, each with its own name, capital and look.
+# A conference without an entry here keeps the BricksIt Weekly nameplate. `name` may mark one
+# word with *asterisks* for the accent. `style` picks the nameplate and ornament in weekly.html.
+PAPERS: dict[str, dict[str, Any]] = {
+    "mac": {"name": "The Brick Street *Bugle*", "capital": "Athens, Ohio", "backup": "Kalamazoo, Mich.",
+            "motto": "Keep it mid. Keep it real.", "style": "bugle", "accent": "#a8441c", "second": "#5b2a17"},
+    "horizon": {"name": "The Steel *Rim*", "capital": "Cleveland, Ohio", "backup": "Milwaukee, Wis.",
+                "motto": "Every miss clangs, and we print the clang.", "style": "steel", "accent": "#3f5368", "second": "#c0612b"},
+    "asun": {"name": "The River City *Rebound*", "capital": "Jacksonville, Fla.", "backup": "Fort Myers, Fla.",
+             "motto": "Young league. Always coming back.", "style": "river", "accent": "#1d6b74", "second": "#d08a3a"},
+    "mw": {"name": "The Pit *Report*", "capital": "Albuquerque, N.M.", "backup": "Las Vegas, Nev.",
+           "motto": "High desert. Thin air. Loud nights.", "style": "mesa", "accent": "#23827f", "second": "#b9572c"},
+}
+
+
+def paper(league_key: str | None = None) -> dict[str, Any] | None:
+    """This conference's paper with its name split for the nameplate, or None for the BricksIt default."""
+    p = PAPERS.get(league_key or LEAGUE.key)
+    if not p:
+        return None
+    parts = [{"text": t, "accent": i % 2 == 1} for i, t in enumerate(p["name"].split("*")) if t]
+    return {**p, "parts": parts, "plain": p["name"].replace("*", "")}
 
 
 # ------------------------------------------------------------------ the weekly rotation
