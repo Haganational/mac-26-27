@@ -2297,7 +2297,7 @@
     "key": null,
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
-    "score": 23,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2305,13 +2305,13 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": 37,
+    "score": 58,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:17 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401925688",
@@ -8273,5 +8273,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T06:20:50+00:00"
+ "live_at": "2026-11-25T06:44:25+00:00"
 }
