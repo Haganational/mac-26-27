@@ -3863,7 +3863,7 @@
     "key": null,
     "name": "Belmont Bruins",
     "abbr": "BEL",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -3871,13 +3871,13 @@
     "key": "st-bonaventure",
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:11 - 1st"
   },
   {
    "game_id": "401911201",
@@ -13041,5 +13041,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T15:17:28+00:00"
 }
