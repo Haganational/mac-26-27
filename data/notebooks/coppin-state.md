@@ -27,9 +27,9 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 
 ## Barometer
 
-**21 of 100, despondent.** Record 1-6 (0-0 in conference), streak L4, last five WLLLL.
+**15 of 100, despondent.** Record 1-7 (0-0 in conference), streak L5, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Derrick editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Derrick editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Derrick Fields edits The Mondawmin Courant and carries a West Baltimore chip on 
 - 2026-11-21: L 60-84 at Georgetown Hoyas. Barometer 21 (despondent). <!-- g:401909517 -->
 - 2026-11-22: Social recap posted (L 60-84 vs Georgetown Hoyas): https://hardwoodbricks.com/meac/games/401909517.html <!-- post:401909517:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/meac/games/401921777.html <!-- post:401921777:preview -->
+- 2026-11-25: L 52-70 at Villanova Wildcats. Barometer 15 (despondent). <!-- g:401921777 -->
+- 2026-11-25: Social recap posted (L 52-70 vs Villanova Wildcats): https://hardwoodbricks.com/meac/games/401921777.html <!-- post:401921777:recap -->

@@ -27,9 +27,9 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-4 (0-0 in conference), streak W2, last five LLLWW.
+**44 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Marcus editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Marcus Bell graduated from business school, launched a startup selling artisanal
 - 2026-11-20: W 75-61 vs Worcester State Lancers. Barometer 49 (steady). <!-- g:401929460 -->
 - 2026-11-21: Social recap posted (W 75-61 vs Worcester State Lancers): https://hardwoodbricks.com/americaeast/games/401929460.html <!-- post:401929460:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:preview -->
+- 2026-11-25: L 57-58 at Marist Red Foxes. Barometer 44 (testy). <!-- g:401923271 -->

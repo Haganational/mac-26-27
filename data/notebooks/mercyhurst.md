@@ -27,9 +27,9 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-5 (0-0 in conference), streak W2, last five LLLWW.
+**60 of 100, steady.** Record 4-5 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brian editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brian editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -87,3 +87,5 @@ Brian Kowalczyk edits The Erie Lantern and is still pinching himself that Mercyh
 - 2026-11-22: W 78-75 vs (neutral) UAlbany Great Danes. Barometer 48 (steady). <!-- g:401923323 -->
 - 2026-11-22: Social recap posted (W 78-75 vs UAlbany Great Danes): https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401919829.html <!-- post:401919829:preview -->
+- 2026-11-25: W 95-56 vs SUNY Fredonia Blue Devils. Barometer 60 (steady). <!-- g:401919829 -->
+- 2026-11-25: Social recap posted (W 95-56 vs SUNY Fredonia Blue Devils): https://hardwoodbricks.com/nec/games/401919829.html <!-- post:401919829:recap -->

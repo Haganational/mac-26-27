@@ -27,9 +27,9 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 
 ## Barometer
 
-**58 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five LWWWL.
+**62 of 100, steady.** Record 6-2 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Siobhan editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -88,3 +88,4 @@ Siobhan Doyle edits The Kenmore Clarion and covers the Terriers with a big heart
 - 2026-11-21: L 71-80 vs Columbia Lions. Barometer 58 (steady). <!-- g:401923402 -->
 - 2026-11-21: Social recap posted (L 71-80 vs Columbia Lions): https://hardwoodbricks.com/ivy/games/401923402.html <!-- post:401923402:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401920358.html <!-- post:401920358:preview -->
+- 2026-11-25: W 81-72 at Harvard Crimson. Barometer 62 (steady). <!-- g:401920358 -->

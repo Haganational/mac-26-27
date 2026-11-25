@@ -2900,21 +2900,21 @@
     "key": "lamar",
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 82,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2523",
     "key": null,
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 58,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:14 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929351",
@@ -2941,7 +2941,7 @@
     "key": "east-texas-am",
     "name": "East Texas A&M Lions",
     "abbr": "ETAM",
-    "score": 56,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -2949,13 +2949,13 @@
     "key": null,
     "name": "Arlington Baptist Patriots",
     "abbr": "ABU",
-    "score": 25,
+    "score": 44,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:07 - 2nd"
+   "detail": "3:57 - 2nd"
   },
   {
    "game_id": "401917983",
@@ -2986,7 +2986,7 @@
     "key": null,
     "name": "UL Monroe Warhawks",
     "abbr": "ULM",
-    "score": 41,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2994,13 +2994,13 @@
     "key": "houston-christian",
     "name": "Houston Christian Huskies",
     "abbr": "HCU",
-    "score": 50,
+    "score": 70,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:44 - 2nd"
+   "detail": "6:02 - 2nd"
   },
   {
    "game_id": "401920548",
@@ -10215,5 +10215,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:34:45+00:00"
+ "live_at": "2026-11-25T02:02:31+00:00"
 }

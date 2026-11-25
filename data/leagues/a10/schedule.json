@@ -3740,7 +3740,7 @@
     "key": null,
     "name": "High Point Panthers",
     "abbr": "HPU",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -3748,13 +3748,13 @@
     "key": "duquesne",
     "name": "Duquesne Dukes",
     "abbr": "DUQ",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:28 - 1st"
   },
   {
    "game_id": "401911253",
@@ -12963,5 +12963,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T01:50:51+00:00"
 }

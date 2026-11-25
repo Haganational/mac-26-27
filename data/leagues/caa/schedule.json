@@ -3177,21 +3177,21 @@
     "key": null,
     "name": "Coastal Carolina Chanticleers",
     "abbr": "CCU",
-    "score": 47,
-    "winner": null
+    "score": 66,
+    "winner": false
    },
    "away": {
     "espn_id": "2097",
     "key": "campbell",
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
-    "score": 55,
-    "winner": null
+    "score": 70,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:58 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926827",
@@ -3222,7 +3222,7 @@
     "key": null,
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": 57,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -3230,13 +3230,13 @@
     "key": "hampton",
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": 51,
+    "score": 59,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "7:00 - 2nd"
+   "detail": "End of 2nd"
   },
   {
    "game_id": "401921184",
@@ -3272,7 +3272,7 @@
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 34,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -3280,13 +3280,13 @@
     "key": "drexel",
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": 12,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:59 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911535",
@@ -3313,7 +3313,7 @@
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -3321,13 +3321,13 @@
     "key": null,
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:39 - 1st"
   },
   {
    "game_id": "401926835",
@@ -12083,5 +12083,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:31:52+00:00"
+ "live_at": "2026-11-25T01:57:59+00:00"
 }

@@ -2207,7 +2207,7 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 53,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2215,13 +2215,13 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 61,
+    "score": 76,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:55 - 2nd"
+   "detail": "0:44 - 2nd"
   },
   {
    "game_id": "401924723",
@@ -2252,7 +2252,7 @@
     "key": "cornell",
     "name": "Cornell Big Red",
     "abbr": "COR",
-    "score": null,
+    "score": 24,
     "winner": null
    },
    "away": {
@@ -2260,13 +2260,13 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:57 - 1st"
   },
   {
    "game_id": "401921184",
@@ -2302,7 +2302,7 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 34,
+    "score": 52,
     "winner": null
    },
    "away": {
@@ -2310,13 +2310,13 @@
     "key": null,
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": 12,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:59 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928831",
@@ -7258,5 +7258,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:31:20+00:00"
+ "live_at": "2026-11-25T01:57:09+00:00"
 }

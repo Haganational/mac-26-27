@@ -2734,21 +2734,21 @@
     "key": null,
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 55,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
    "away": {
     "espn_id": "104",
     "key": "boston-u",
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 65,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:17 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911279",
@@ -2775,21 +2775,21 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": 63,
-    "winner": null
+    "score": 83,
+    "winner": false
    },
    "away": {
     "espn_id": "2066",
     "key": null,
     "name": "Binghamton Bearcats",
     "abbr": "BING",
-    "score": 70,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921266",
@@ -2821,21 +2821,21 @@
     "key": "loyola-md",
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": 56,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2520",
     "key": null,
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 43,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911338",
@@ -2862,7 +2862,7 @@
     "key": null,
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 27,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2870,13 +2870,13 @@
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 24,
+    "score": 36,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:57 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401924723",
@@ -2907,7 +2907,7 @@
     "key": null,
     "name": "Cornell Big Red",
     "abbr": "COR",
-    "score": 5,
+    "score": 36,
     "winner": null
    },
    "away": {
@@ -2915,13 +2915,13 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 6,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:49 - 1st"
+   "detail": "3:44 - 1st"
   },
   {
    "game_id": "401920237",
@@ -9346,5 +9346,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:38:09+00:00"
+ "live_at": "2026-11-25T02:08:03+00:00"
 }

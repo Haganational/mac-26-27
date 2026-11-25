@@ -3367,21 +3367,21 @@
     "key": null,
     "name": "Lamar Cardinals",
     "abbr": "LAM",
-    "score": 72,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2523",
     "key": "robert-morris",
     "name": "Robert Morris Colonials",
     "abbr": "RMU",
-    "score": 53,
-    "winner": null
+    "score": 62,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401906774",
@@ -3412,7 +3412,7 @@
     "key": null,
     "name": "Florida Gators",
     "abbr": "FLA",
-    "score": 59,
+    "score": 76,
     "winner": null
    },
    "away": {
@@ -3420,13 +3420,13 @@
     "key": "milwaukee",
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
-    "score": 52,
+    "score": 67,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:13 - 2nd"
+   "detail": "0:39 - 2nd"
   },
   {
    "game_id": "401926154",
@@ -3453,7 +3453,7 @@
     "key": null,
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": 36,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -3461,13 +3461,13 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 35,
+    "score": 54,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:31 - 2nd"
   },
   {
    "game_id": "401921008",
@@ -3499,7 +3499,7 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 12,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -3507,13 +3507,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 17,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:33 - 1st"
+   "detail": "4:15 - 1st"
   },
   {
    "game_id": "401928831",
@@ -10580,5 +10580,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:24:06+00:00"
+ "live_at": "2026-11-25T01:45:07+00:00"
 }

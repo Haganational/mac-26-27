@@ -27,9 +27,9 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 
 ## Barometer
 
-**58 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WLWWL.
+**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cassie editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cassie editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Cassie Boudreaux grew up in Port Arthur, worked six years as a refinery process 
 - 2026-11-22: L 81-85 vs (neutral) Rice Owls. Barometer 58 (steady). <!-- g:401925013 -->
 - 2026-11-23: Social recap posted (L 81-85 vs Rice Owls): https://hardwoodbricks.com/american/games/401925013.html <!-- post:401925013:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:preview -->
+- 2026-11-24: W 87-62 vs (neutral) Robert Morris Colonials. Barometer 64 (steady). <!-- g:401925014 -->
+- 2026-11-25: Social recap posted (W 87-62 vs Robert Morris Colonials): https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:recap -->

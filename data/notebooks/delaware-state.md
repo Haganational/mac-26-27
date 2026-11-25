@@ -27,9 +27,9 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 
 ## Barometer
 
-**43 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five LLLWL.
+**38 of 100, testy.** Record 2-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Alicia editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 - 2026-11-21: L 101-103 vs Niagara Purple Eagles. Barometer 43 (testy). <!-- g:401924844 -->
 - 2026-11-21: Social recap posted (L 101-103 vs Niagara Purple Eagles): https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->
+- 2026-11-25: L 66-79 at Chattanooga Mocs. Barometer 38 (testy). <!-- g:401920976 -->
+- 2026-11-25: Social recap posted (L 66-79 vs Chattanooga Mocs): https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:recap -->
