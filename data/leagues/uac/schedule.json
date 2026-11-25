@@ -2352,7 +2352,7 @@
     "key": null,
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": 44,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2360,13 +2360,13 @@
     "key": "tarleton-state",
     "name": "Tarleton State Texans",
     "abbr": "TAR",
-    "score": 34,
+    "score": 51,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:05 - 2nd"
   },
   {
    "game_id": "401917904",
@@ -2397,7 +2397,7 @@
     "key": null,
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
-    "score": 16,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2405,13 +2405,13 @@
     "key": "west-georgia",
     "name": "West Georgia Wolves",
     "abbr": "WGA",
-    "score": 9,
+    "score": 29,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:02 - 1st"
+   "detail": "4:58 - 1st"
   },
   {
    "game_id": "401929380",
@@ -2438,7 +2438,7 @@
     "key": "little-rock",
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": null,
     "name": "Arkansas Baptist Buffaloes",
     "abbr": "ARBA",
-    "score": null,
+    "score": 3,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:42 - 1st"
   },
   {
    "game_id": "401925642",
@@ -2483,7 +2483,7 @@
     "key": "north-alabama",
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -2491,13 +2491,13 @@
     "key": null,
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:16 - 1st"
   },
   {
    "game_id": "401929359",
@@ -2524,7 +2524,7 @@
     "key": "ut-arlington",
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -2532,13 +2532,13 @@
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:48 - 1st"
   },
   {
    "game_id": "401911029",
@@ -8913,5 +8913,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:47:59+00:00"
+ "live_at": "2026-11-25T01:14:14+00:00"
 }

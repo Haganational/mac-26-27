@@ -27,9 +27,9 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 
 ## Barometer
 
-**41 of 100, testy.** Record 2-3 (0-0 in conference), streak L2, last five WLWLL.
+**32 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tommy editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tommy editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,5 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 - 2026-11-18: L 67-86 at Providence Friars. Barometer 41 (testy). <!-- g:401909535 -->
 - 2026-11-18: Social recap posted (L 67-86 vs Providence Friars): https://hardwoodbricks.com/metro/games/401909535.html <!-- post:401909535:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401924877.html <!-- post:401924877:preview -->
+- 2026-11-24: L 73-106 at Rutgers Scarlet Knights. Barometer 32 (testy). <!-- g:401924877 -->
+- 2026-11-25: Social recap posted (L 73-106 vs Rutgers Scarlet Knights): https://hardwoodbricks.com/metro/games/401924877.html <!-- post:401924877:recap -->

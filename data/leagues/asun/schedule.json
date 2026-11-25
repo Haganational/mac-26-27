@@ -2245,7 +2245,7 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 68,
+    "score": 83,
     "winner": null
    },
    "away": {
@@ -2253,13 +2253,13 @@
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": 55,
+    "score": 72,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:50 - 2nd"
+   "detail": "1:19 - 2nd"
   },
   {
    "game_id": "401921030",
@@ -2290,7 +2290,7 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 27,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2298,13 +2298,13 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 17,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "5:15 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401916291",
@@ -2335,7 +2335,7 @@
     "key": null,
     "name": "Indiana Hoosiers",
     "abbr": "IU",
-    "score": 36,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -2343,13 +2343,13 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 14,
+    "score": 30,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:26 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401918996",
@@ -2380,7 +2380,7 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 34,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -2388,13 +2388,13 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 23,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:24 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920709",
@@ -8255,5 +8255,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:33:04+00:00"
+ "live_at": "2026-11-25T00:56:55+00:00"
 }

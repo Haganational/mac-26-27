@@ -27,7 +27,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 
 ## Barometer
 
-**46 of 100, steady.** Record 2-3 (0-0 in conference), streak W1, last five LWLLW.
+**53 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Nick editorializes: 62% of stories right now.
 
@@ -68,7 +68,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,5 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 - 2026-11-21: W 69-62 at Cleveland State Vikings. Barometer 46 (steady). <!-- g:401921169 -->
 - 2026-11-21: Social recap posted (W 69-62 vs Cleveland State Vikings): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->
+- 2026-11-24: W 78-75 vs (neutral) Wyoming Cowboys. Barometer 53 (steady). <!-- g:401921707 -->
+- 2026-11-25: Social recap posted (W 78-75 vs Wyoming Cowboys): https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:recap -->

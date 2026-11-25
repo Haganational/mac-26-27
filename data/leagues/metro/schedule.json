@@ -3289,21 +3289,21 @@
     "key": null,
     "name": "Rutgers Scarlet Knights",
     "abbr": "RUTG",
-    "score": 89,
-    "winner": null
+    "score": 106,
+    "winner": true
    },
    "away": {
     "espn_id": "2529",
     "key": "sacred-heart",
     "name": "Sacred Heart Pioneers",
     "abbr": "SHU",
-    "score": 65,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:56 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401923271",
@@ -3334,7 +3334,7 @@
     "key": "marist",
     "name": "Marist Red Foxes",
     "abbr": "MRST",
-    "score": 22,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3342,13 +3342,13 @@
     "key": null,
     "name": "Bryant Bulldogs",
     "abbr": "BRY",
-    "score": 20,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:25 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920923",
@@ -3375,7 +3375,7 @@
     "key": null,
     "name": "Morgan State Bears",
     "abbr": "MORG",
-    "score": 19,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -3383,13 +3383,13 @@
     "key": "mount-st-marys",
     "name": "Mount St. Mary's Mountaineers",
     "abbr": "MSM",
-    "score": 15,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "8:17 - 1st"
+   "detail": "1:23 - 1st"
   },
   {
    "game_id": "401921266",
@@ -3421,7 +3421,7 @@
     "key": null,
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
-    "score": 24,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -3429,13 +3429,13 @@
     "key": "rider",
     "name": "Rider Broncs",
     "abbr": "RID",
-    "score": 15,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:48 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920695",
@@ -3466,7 +3466,7 @@
     "key": "siena",
     "name": "Siena Saints",
     "abbr": "SIE",
-    "score": 34,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -3474,13 +3474,13 @@
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 35,
+    "score": 37,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "2:51 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920868",
@@ -11380,5 +11380,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:35:19+00:00"
+ "live_at": "2026-11-25T00:59:32+00:00"
 }

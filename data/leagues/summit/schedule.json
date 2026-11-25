@@ -2451,7 +2451,7 @@
     "key": "kansas-city",
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2459,13 +2459,13 @@
     "key": null,
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:46 - 1st"
   },
   {
    "game_id": "401929359",
@@ -2492,7 +2492,7 @@
     "key": null,
     "name": "UT Arlington Mavericks",
     "abbr": "UTA",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2500,13 +2500,13 @@
     "key": "oral-roberts",
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:29 - 1st"
   },
   {
    "game_id": "401929406",
@@ -8011,5 +8011,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T01:13:29+00:00"
 }

@@ -2207,7 +2207,7 @@
     "key": "harvard",
     "name": "Harvard Crimson",
     "abbr": "HARV",
-    "score": 27,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -2215,13 +2215,13 @@
     "key": null,
     "name": "Boston University Terriers",
     "abbr": "BU",
-    "score": 33,
+    "score": 42,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "2:38 - 1st"
+   "detail": "17:17 - 2nd"
   },
   {
    "game_id": "401924723",
@@ -2302,7 +2302,7 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2310,13 +2310,13 @@
     "key": null,
     "name": "Drexel Dragons",
     "abbr": "DREX",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "18:05 - 1st"
   },
   {
    "game_id": "401928831",
@@ -7258,5 +7258,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:42:36+00:00"
+ "live_at": "2026-11-25T01:07:57+00:00"
 }
