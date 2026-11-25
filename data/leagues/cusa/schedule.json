@@ -2678,7 +2678,7 @@
     "key": null,
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -2686,13 +2686,13 @@
     "key": "sam-houston",
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:57 - 1st"
   },
   {
    "game_id": "401928359",
@@ -9079,5 +9079,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:32:40+00:00"
+ "live_at": "2026-11-25T02:31:36+00:00"
 }

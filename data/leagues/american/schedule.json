@@ -3395,21 +3395,21 @@
     "key": "south-florida",
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 90,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "56",
     "key": null,
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 66,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:24 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921702",
@@ -12275,5 +12275,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:54:19+00:00"
+ "live_at": "2026-11-25T02:26:26+00:00"
 }

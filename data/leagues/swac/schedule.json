@@ -2946,21 +2946,21 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 67,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "2016",
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 28,
-    "winner": null
+    "score": 41,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925642",
@@ -2991,7 +2991,7 @@
     "key": null,
     "name": "North Alabama Lions",
     "abbr": "UNA",
-    "score": 44,
+    "score": 63,
     "winner": null
    },
    "away": {
@@ -2999,13 +2999,13 @@
     "key": "alabama-am",
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
-    "score": 41,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:24 - 2nd"
+   "detail": "3:16 - 2nd"
   },
   {
    "game_id": "401929421",
@@ -3036,7 +3036,7 @@
     "key": null,
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": 46,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -3044,13 +3044,13 @@
     "key": "florida-am",
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
-    "score": 24,
+    "score": 46,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:57 - 2nd"
+   "detail": "1:12 - 2nd"
   },
   {
    "game_id": "401929406",
@@ -10917,5 +10917,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T02:10:50+00:00"
+ "live_at": "2026-11-25T02:43:41+00:00"
 }

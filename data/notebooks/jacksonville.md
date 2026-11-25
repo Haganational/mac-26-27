@@ -27,9 +27,9 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 
 ## Barometer
 
-**32 of 100, testy.** Record 2-4 (0-0 in conference), streak L3, last five LWLLL.
+**25 of 100, despondent.** Record 2-5 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Darius Boone grew up on Jacksonville's Northside, where his dad drove a city bus
 - 2026-11-21: L 67-82 vs Central Arkansas Bears. Barometer 32 (testy). <!-- g:401917918 -->
 - 2026-11-21: Social recap posted (L 67-82 vs Central Arkansas Bears): https://hardwoodbricks.com/asun/games/401917918.html <!-- post:401917918:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401916291.html <!-- post:401916291:preview -->
+- 2026-11-25: L 64-82 at Indiana Hoosiers. Barometer 25 (despondent). <!-- g:401916291 -->
+- 2026-11-25: Social recap posted (L 64-82 vs Indiana Hoosiers): https://hardwoodbricks.com/asun/games/401916291.html <!-- post:401916291:recap -->

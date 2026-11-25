@@ -2397,7 +2397,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 62,
+    "score": 81,
     "winner": null
    },
    "away": {
@@ -2405,13 +2405,13 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 40,
+    "score": 58,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:10 - 2nd"
+   "detail": "2:46 - 2nd"
   },
   {
    "game_id": "401911338",
@@ -2438,7 +2438,7 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": 30,
+    "score": 50,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 33,
+    "score": 46,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "1:27 - 1st"
+   "detail": "16:05 - 2nd"
   },
   {
    "game_id": "401911535",
@@ -2479,7 +2479,7 @@
     "key": null,
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2487,13 +2487,13 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:11 - 1st"
   },
   {
    "game_id": "401911253",
@@ -9114,5 +9114,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:46:21+00:00"
+ "live_at": "2026-11-25T02:18:19+00:00"
 }

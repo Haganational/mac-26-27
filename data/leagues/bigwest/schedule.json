@@ -2746,7 +2746,7 @@
     "key": "uc-santa-barbara",
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": null,
+    "score": 19,
     "winner": null
    },
    "away": {
@@ -2754,13 +2754,13 @@
     "key": null,
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:22 - 1st"
   },
   {
    "game_id": "401924268",
@@ -10224,5 +10224,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T02:20:39+00:00"
 }

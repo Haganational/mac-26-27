@@ -3413,7 +3413,7 @@
     "name": "Florida Gators",
     "abbr": "FLA",
     "score": 76,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "270",
@@ -3421,12 +3421,12 @@
     "name": "Milwaukee Panthers",
     "abbr": "MILW",
     "score": 67,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:39 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926154",
@@ -3453,7 +3453,7 @@
     "key": null,
     "name": "Southeast Missouri State Redhawks",
     "abbr": "SEMO",
-    "score": 49,
+    "score": 75,
     "winner": null
    },
    "away": {
@@ -3461,13 +3461,13 @@
     "key": "purdue-fort-wayne",
     "name": "Purdue Fort Wayne Mastodons",
     "abbr": "PFW",
-    "score": 54,
+    "score": 78,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:31 - 2nd"
+   "detail": "0:10 - 2nd"
   },
   {
    "game_id": "401921008",
@@ -3499,7 +3499,7 @@
     "key": null,
     "name": "Kansas City Roos",
     "abbr": "KC",
-    "score": 22,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -3507,13 +3507,13 @@
     "key": "green-bay",
     "name": "Green Bay Phoenix",
     "abbr": "GB",
-    "score": 28,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:15 - 1st"
+   "detail": "16:39 - 2nd"
   },
   {
    "game_id": "401928831",
@@ -10580,5 +10580,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:45:07+00:00"
+ "live_at": "2026-11-25T02:17:03+00:00"
 }

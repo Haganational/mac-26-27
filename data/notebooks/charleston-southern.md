@@ -27,9 +27,9 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 
 ## Barometer
 
-**42 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five WLWLL.
+**32 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -79,3 +79,4 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-22: L 64-69 at Mercer Bears. Barometer 42 (testy). <!-- g:401911378 -->
 - 2026-11-22: Social recap posted (L 64-69 vs Mercer Bears): https://hardwoodbricks.com/socon/games/401911378.html <!-- post:401911378:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:preview -->
+- 2026-11-25: L 58-82 at James Madison Dukes. Barometer 32 (testy). <!-- g:401911379 -->

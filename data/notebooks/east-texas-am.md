@@ -27,9 +27,9 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 
 ## Barometer
 
-**40 of 100, testy.** Record 3-3 (0-0 in conference), streak L2, last five WLWLL.
+**50 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Earl editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Earl editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -85,3 +85,4 @@ Earl Whitlock has lived in Commerce all his life and ran the feed store on the s
 - 2026-11-20: L 54-86 at California Golden Bears. Barometer 40 (testy). <!-- g:401918056 -->
 - 2026-11-20: Social recap posted (L 54-86 vs California Golden Bears): https://hardwoodbricks.com/southland/games/401918056.html <!-- post:401918056:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/southland/games/401929351.html <!-- post:401929351:preview -->
+- 2026-11-25: W 79-51 vs Arlington Baptist Patriots. Barometer 50 (steady). <!-- g:401929351 -->

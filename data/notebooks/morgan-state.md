@@ -27,9 +27,9 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 
 ## Barometer
 
-**43 of 100, testy.** Record 4-3 (0-0 in conference), streak L2, last five WLWLL.
+**37 of 100, testy.** Record 4-4 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cedric editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-21: L 63-84 vs Cornell Big Red. Barometer 43 (testy). <!-- g:401924722 -->
 - 2026-11-21: Social recap posted (L 63-84 vs Cornell Big Red): https://hardwoodbricks.com/ivy/games/401924722.html <!-- post:401924722:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:preview -->
+- 2026-11-25: L 74-75 vs Mount St. Mary's Mountaineers. Barometer 37 (testy). <!-- g:401920923 -->

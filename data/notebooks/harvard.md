@@ -27,9 +27,9 @@ Prudence Ashworth grew up in Somerville, argued her way through a legal aid care
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LLLLW.
+**41 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Prudence editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Prudence editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -87,3 +87,4 @@ Prudence Ashworth grew up in Somerville, argued her way through a legal aid care
 - 2026-11-21: W 77-65 at Holy Cross Crusaders. Barometer 47 (steady). <!-- g:401920357 -->
 - 2026-11-21: Social recap posted (W 77-65 vs Holy Cross Crusaders): https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401920358.html <!-- post:401920358:preview -->
+- 2026-11-25: L 72-81 vs Boston University Terriers. Barometer 41 (testy). <!-- g:401920358 -->
