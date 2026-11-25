@@ -27,9 +27,9 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 
 ## Barometer
 
-**57 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five LWWLW.
+**61 of 100, steady.** Record 5-3 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Cadet editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Sam Prentice graduated from VMI, became a land surveyor in the Shenandoah, and n
 - 2026-11-22: W 71-68 vs Gardner-Webb Runnin' Bulldogs. Barometer 57 (steady). <!-- g:401911394 -->
 - 2026-11-22: Social recap posted (W 71-68 vs Gardner-Webb Runnin' Bulldogs): https://hardwoodbricks.com/socon/games/401911394.html <!-- post:401911394:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401923395.html <!-- post:401923395:preview -->
+- 2026-11-24: W 87-83 vs Southern Indiana Screaming Eagles. Barometer 61 (steady). <!-- g:401923395 -->
+- 2026-11-25: Social recap posted (W 87-83 vs Southern Indiana Screaming Eagles): https://hardwoodbricks.com/socon/games/401923395.html <!-- post:401923395:recap -->

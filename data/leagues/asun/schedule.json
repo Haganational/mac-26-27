@@ -2245,21 +2245,21 @@
     "key": null,
     "name": "Wofford Terriers",
     "abbr": "WOF",
-    "score": 83,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "2511",
     "key": "queens",
     "name": "Queens University Royals",
     "abbr": "QUC",
-    "score": 72,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921030",
@@ -2290,7 +2290,7 @@
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 38,
+    "score": 51,
     "winner": null
    },
    "away": {
@@ -2298,13 +2298,13 @@
     "key": null,
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
-    "score": 30,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:33 - 2nd"
   },
   {
    "game_id": "401916291",
@@ -2335,7 +2335,7 @@
     "key": null,
     "name": "Indiana Hoosiers",
     "abbr": "IU",
-    "score": 53,
+    "score": 66,
     "winner": null
    },
    "away": {
@@ -2343,13 +2343,13 @@
     "key": "jacksonville",
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
-    "score": 30,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:01 - 2nd"
   },
   {
    "game_id": "401918996",
@@ -2380,7 +2380,7 @@
     "key": null,
     "name": "South Florida Bulls",
     "abbr": "USF",
-    "score": 51,
+    "score": 69,
     "winner": null
    },
    "away": {
@@ -2388,13 +2388,13 @@
     "key": "stetson",
     "name": "Stetson Hatters",
     "abbr": "STET",
-    "score": 32,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:56 - 2nd"
   },
   {
    "game_id": "401920709",
@@ -2425,7 +2425,7 @@
     "key": null,
     "name": "Auburn Tigers",
     "abbr": "AUB",
-    "score": null,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -2433,13 +2433,13 @@
     "key": "lipscomb",
     "name": "Lipscomb Bisons",
     "abbr": "LIP",
-    "score": null,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:48 - 1st"
   },
   {
    "game_id": "401922223",
@@ -8255,5 +8255,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:56:55+00:00"
+ "live_at": "2026-11-25T01:23:32+00:00"
 }

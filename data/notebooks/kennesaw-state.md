@@ -27,9 +27,9 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W1, last five WWWLW.
+**57 of 100, steady.** Record 5-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tasha editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tasha editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,5 @@ Tasha Greer spent twenty years as a construction project manager in Cobb County,
 - 2026-11-21: W 96-59 vs SE Louisiana Lions. Barometer 66 (buoyant). <!-- g:401920818 -->
 - 2026-11-21: Social recap posted (W 96-59 vs SE Louisiana Lions): https://hardwoodbricks.com/cusa/games/401920818.html <!-- post:401920818:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:preview -->
+- 2026-11-24: L 56-60 vs (neutral) Eastern Michigan Eagles. Barometer 57 (steady). <!-- g:401920949 -->
+- 2026-11-25: Social recap posted (L 56-60 vs Eastern Michigan Eagles): https://hardwoodbricks.com/games/401920949.html <!-- post:401920949:recap -->

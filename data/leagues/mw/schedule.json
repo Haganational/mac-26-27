@@ -2397,7 +2397,7 @@
     "key": "nevada",
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
-    "score": 37,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2405,13 +2405,13 @@
     "key": null,
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
-    "score": 23,
+    "score": 35,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:56 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911338",
@@ -2438,7 +2438,7 @@
     "key": "air-force",
     "name": "Air Force Falcons",
     "abbr": "AF",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2446,13 +2446,13 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:46 - 1st"
   },
   {
    "game_id": "401911535",
@@ -9114,5 +9114,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T00:58:42+00:00"
+ "live_at": "2026-11-25T01:24:52+00:00"
 }

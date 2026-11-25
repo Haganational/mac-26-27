@@ -2633,21 +2633,21 @@
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 54,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
    "away": {
     "espn_id": "2199",
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 51,
-    "winner": null
+    "score": 60,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:03 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928796",
@@ -9079,5 +9079,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T01:09:45+00:00"
+ "live_at": "2026-11-25T01:32:40+00:00"
 }

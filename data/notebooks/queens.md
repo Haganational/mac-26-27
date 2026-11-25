@@ -27,9 +27,9 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 
 ## Barometer
 
-**41 of 100, testy.** Record 3-3 (0-0 in conference), streak L1, last five WLLWL.
+**37 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,5 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 - 2026-11-21: L 75-106 at LSU Tigers. Barometer 41 (testy). <!-- g:401921811 -->
 - 2026-11-21: Social recap posted (L 75-106 vs LSU Tigers): https://hardwoodbricks.com/asun/games/401921811.html <!-- post:401921811:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:preview -->
+- 2026-11-24: L 77-86 at Wofford Terriers. Barometer 37 (testy). <!-- g:401922231 -->
+- 2026-11-25: Social recap posted (L 77-86 vs Wofford Terriers): https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:recap -->
