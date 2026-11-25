@@ -73,3 +73,19 @@ def test_check_skips_the_issue_own_file(tmp_path):
     f.write_text(json.dumps({"edition": 1}))
     assert "edition should be 2" in weekly.check({"edition": 1}, "mac", tmp_path)
     assert not any("edition" in p for p in weekly.check({"edition": 1}, "mac", tmp_path, path=f))
+
+
+def test_papers_layout_is_stable_and_photo_prefers_the_lead_school():
+    a, b = weekly.paper("mac"), weekly.paper("mac")
+    assert a["sidebar"] == b["sidebar"] and a["tone"] in weekly.TONES
+    lay = weekly._layout("nosuch", {})
+    assert lay == weekly._layout("nosuch", {}) and lay["sidebar"] in ("left", "right")
+
+    class T:
+        def __init__(self, key, short):
+            self.key, self.short = key, short
+    teams = [T("ohio", "Ohio"), T("toledo", "Toledo")]
+    bd = {"ohio": {"file": "ohio.jpg"}, "toledo": {"file": "toledo.jpg"}}
+    assert weekly.photo({"edition": 0, "lead": {"headline": "Toledo wins"}}, teams, bd)["file"] == "toledo.jpg"
+    assert weekly.photo({"edition": 1, "lead": {"headline": "x"}}, teams, bd)["file"] == "toledo.jpg"
+    assert weekly.photo({"edition": 1}, [T("akron", "Akron")], bd) is None
