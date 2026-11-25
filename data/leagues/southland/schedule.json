@@ -3023,7 +3023,7 @@
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -3031,13 +3031,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:43 - 1st"
   },
   {
    "game_id": "401925050",
@@ -10210,5 +10210,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T20:31:43+00:00"
 }

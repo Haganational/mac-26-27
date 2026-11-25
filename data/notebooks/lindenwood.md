@@ -70,7 +70,7 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Mike Brandt edits The St. Charles Register and believes every Lions win deserves
 - 2026-11-24: L 60-63 vs (neutral) New Haven Chargers. Barometer 29 (despondent). <!-- g:401929035 -->
 - 2026-11-24: Social recap posted (L 60-63 vs New Haven Chargers): https://hardwoodbricks.com/ovc/games/401929035.html <!-- post:401929035:recap -->
 - 2026-11-25: L 63-69 at Stony Brook Seawolves. Barometer 23 (despondent). <!-- g:401926835 -->
+- 2026-11-25: Social recap posted (L 63-69 vs Stony Brook Seawolves): https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:recap -->

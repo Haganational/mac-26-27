@@ -27,9 +27,9 @@ Claire Beaumont is old Cincinnati money, a third-generation Miami legacy, Phi Be
 
 ## Barometer
 
-**84 of 100, giddy.** Record 5-0 (0-0 in conference), streak W5, last five WWWWW.
+**86 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Claire editorializes: 81% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Claire editorializes: 82% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Claire Beaumont is old Cincinnati money, a third-generation Miami legacy, Phi Be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,5 @@ Claire Beaumont is old Cincinnati money, a third-generation Miami legacy, Phi Be
 - 2026-11-22: W 71-60 vs (neutral) UIC Flames. Barometer 84 (giddy). <!-- g:401911024 -->
 - 2026-11-22: Social recap posted (W 71-60 vs UIC Flames): https://hardwoodbricks.com/games/401911024.html <!-- post:401911024:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:preview -->
+- 2026-11-25: W 85-72 vs Eastern Kentucky Colonels. Barometer 86 (giddy). <!-- g:401911029 -->
+- 2026-11-25: Social recap posted (W 85-72 vs Eastern Kentucky Colonels): https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:recap -->

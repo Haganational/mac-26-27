@@ -27,9 +27,9 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 
 ## Barometer
 
-**60 of 100, steady.** Record 3-2 (0-0 in conference), streak W2, last five WLLWW.
+**67 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Skipper editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Skipper editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -79,3 +79,5 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 - 2026-11-21: W 67-52 at Saint Peter's Peacocks. Barometer 60 (steady). <!-- g:401924882 -->
 - 2026-11-21: Social recap posted (W 67-52 vs Saint Peter's Peacocks): https://hardwoodbricks.com/metro/games/401924882.html <!-- post:401924882:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:preview -->
+- 2026-11-25: W 69-63 vs Lindenwood Lions. Barometer 67 (buoyant). <!-- g:401926835 -->
+- 2026-11-25: Social recap posted (W 69-63 vs Lindenwood Lions): https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:recap -->

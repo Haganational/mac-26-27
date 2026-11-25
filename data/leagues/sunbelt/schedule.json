@@ -4231,7 +4231,7 @@
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -4239,13 +4239,13 @@
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:44 - 1st"
   },
   {
    "game_id": "401928359",
@@ -12618,5 +12618,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T20:24:19+00:00"
 }

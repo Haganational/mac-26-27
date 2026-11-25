@@ -2783,21 +2783,21 @@
     "key": "long-beach-state",
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
-    "score": 61,
-    "winner": null
+    "score": 65,
+    "winner": true
    },
    "away": {
     "espn_id": "253",
     "key": null,
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
-    "score": 61,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:28 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925917",
@@ -10265,5 +10265,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:48:38+00:00"
+ "live_at": "2026-11-25T20:16:57+00:00"
 }
