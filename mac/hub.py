@@ -22,7 +22,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup, escape
 
 from . import frontscore, weekly
-from .config import LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
+from .config import LEAGUES, SEARCH, SEASON_LABEL, SHARED_DIR, SITE_BASE, SITE_NOINDEX, SITE_ROOT, TEMPLATES_DIR
 
 
 ET = ZoneInfo("America/New_York")
@@ -392,6 +392,7 @@ def robots(base: str = SITE_BASE, noindex: bool = SITE_NOINDEX) -> str:
     if noindex:
         return "User-agent: *\nDisallow: /\n"
     maps = "".join(f"Sitemap: {base}{lg.path}{m}\n" for lg in LEAGUES.values() for m in ("sitemap.xml", "news-sitemap.xml"))
+    maps += f"Sitemap: {base}towns/sitemap.xml\n"  # Our towns (mac.towns): one landing page per college town
     return f"User-agent: *\nAllow: /\n{maps}"
 
 
@@ -487,6 +488,7 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root = site_root or SITE_ROOT
     eds = [e for lg in LEAGUES.values() if (e := edition(lg, site_root))]
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
+    env.globals["search"] = SEARCH
     names = ", ".join(e["short"] for e in eds[:-1]) + (f" and {eds[-1]['short']}" if len(eds) > 1 else (eds[0]["short"] if eds else ""))
     # Counts for page titles and the dateline: a list of every conference's name stops reading well past a handful.
     env.filters["nobreak"] = nobreak
@@ -534,6 +536,11 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root.mkdir(parents=True, exist_ok=True)
     (site_root / "index.html").write_text(html)
     (site_root / "robots.txt").write_text(robots(base))
+    try:  # Our towns: a landing page per college town (local search). Never takes the front page down.
+        from . import towns
+        towns.build(site_root, base, eds, now)
+    except Exception as e:
+        print(f"towns: skipped ({e})")
     ppl = staff(mh)
     ld = {"@context": "https://schema.org", "@graph": [org_ld(mh, base)] + [
         {"@type": "Person", "@id": f"{base}masthead.html#{p['slug']}", "name": p["name"], "jobTitle": p.get("title", ""),

@@ -12,8 +12,8 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, travel, viz
-from .config import BY_KEY, DATA_DIR, HOME, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
+from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, towns, travel, viz
+from .config import BY_KEY, DATA_DIR, HOME, SEARCH, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
 from .rosters import load_boxscores, load_rosters
@@ -390,6 +390,7 @@ def render_site() -> str:
     data["live_count"] = sum(1 for g in data["upcoming"] if g.get("live"))
     data["book_names"] = {b: oddsboard.book_name(b) for h in data["history"] for b in h["latest_by_book"]}
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
+    env.globals["search"] = SEARCH
     env.filters["book"] = oddsboard.book_name
     env.filters["school"] = school
     env.filters["nobreak"] = hub.nobreak  # "73-71" never splits at the hyphen in a headline
@@ -646,6 +647,8 @@ def render_site() -> str:
             mvs={u["game_id"]: model_view.view(u) for u in m["upcoming"]} if m else {},
             prate=prate, prate_n=len(prate),
             town=gamer.around_town(team.key, flavor, on),
+            town_page=towns.team_link(team.key),
+            team_ld=json.dumps(towns.team_ld(team, LEAGUE, games, SITE_URL, SITE_BASE)).replace("</", "<\\/"),
             press_desk=press.desk(team.key),
             team_films=team_films.get(team.key, []), team_song=team_songs.get(team.key), team_honors=team_honors.get(team.key, []),
             backdrop=local.backdrop(team.key) if LEAGUE.key in local.BETA else None,

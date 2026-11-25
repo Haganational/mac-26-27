@@ -36,6 +36,15 @@ HOME = "mac/index.html" if not LEAGUE.path else "index.html"
 HOME_PATH = "mac/" if not LEAGUE.path else ""
 # SITE_NOINDEX=1 asks search engines to stay away (robots.txt + noindex meta). Links still work.
 SITE_NOINDEX = os.environ.get("SITE_NOINDEX", "").strip().lower() in ("1", "true", "yes")
+# Search analytics (Matthew, Nov 25 2026). All public values, all off until filled in:
+# google = the content of Search Console's HTML-tag verification (<meta name="google-site-verification">),
+# bing = Bing Webmaster Tools' msvalidate.01 code, beacon = a Cloudflare Web Analytics site token
+# (cookieless page views; no banner needed). Each can also come from a repo variable of the same name.
+SEARCH = {
+    "google": os.environ.get("GOOGLE_SITE_VERIFICATION", "").strip(),
+    "bing": os.environ.get("BING_SITE_VERIFICATION", "").strip(),
+    "beacon": os.environ.get("CF_ANALYTICS_TOKEN", "").strip(),
+}
 
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"
 ODDS_BASE = "https://api.the-odds-api.com/v4"
