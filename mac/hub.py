@@ -476,7 +476,7 @@ def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE, mh: dict[str, Any]
     ]}
 
 
-PRIVACY_UPDATED = "November 14, 2026"
+PRIVACY_UPDATED = "November 25, 2026"
 
 
 def nobreak(text: str) -> Markup:
