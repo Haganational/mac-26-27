@@ -94,3 +94,72 @@ def context(issue: dict[str, Any], data: dict[str, Any], dispatches: list[dict[s
     return {"issue": issue, "lead": lead, "column": col, "notes": notes, "dateline": dateline,
             "chart": chart(data.get("standings") or [], data.get("model_mac") or {}), "name": NAME,
             "number": f"{int(issue.get('edition', 0)):03d}"}
+
+
+# ------------------------------------------------------------------ the weekly rotation
+# One issue per conference per week, four conferences a morning (three on Sunday), so each
+# day's run stays small and a bad day costs four conferences, not 27. Every issue covers its
+# own trailing seven days, so the day a conference lands on drops no games.
+ROTATION: dict[str, tuple[str, ...]] = {
+    "Mon": ("mac", "horizon", "asun", "mw"),
+    "Tue": ("metro", "bigwest", "mvc", "a10"),
+    "Wed": ("pac12", "wcc", "american", "sunbelt"),
+    "Thu": ("ivy", "caa", "cusa", "socon"),
+    "Fri": ("bigsky", "southland", "summit", "uac"),
+    "Sat": ("bigsouth", "ovc", "americaeast", "patriot"),
+    "Sun": ("nec", "meac", "swac"),
+}
+
+
+def due(day: date) -> tuple[str, ...]:
+    """The conferences whose issue comes out on this (Eastern) day."""
+    return ROTATION[day.strftime("%a")]
+
+
+def check(issue: dict[str, Any], league_key: str, root: Path = WEEKLY_DIR) -> list[str]:
+    """Problems that would keep an issue off the site; empty means it is ready to publish."""
+    bad = []
+    files = issues(league_key, root)
+    prev = json.loads(files[-1].read_text()) if files else None
+    want = int(prev["edition"]) + 1 if prev else 0
+    if issue.get("edition") != want:
+        bad.append(f"edition should be {want}")
+    try:
+        date.fromisoformat(issue.get("date", ""))
+    except (TypeError, ValueError):
+        bad.append("date must be YYYY-MM-DD")
+    lead = issue.get("lead") or {}
+    for k in ("kicker", "headline", "deck"):
+        if not (lead.get(k) or "").strip():
+            bad.append(f"lead.{k} is empty")
+    if not (3 <= len(lead.get("body") or []) <= 7):
+        bad.append("lead.body needs 3 to 7 paragraphs")
+    col = issue.get("column") or {}
+    if not (col.get("dispatch") or (col.get("label") and col.get("title") and col.get("byline") and col.get("body"))):
+        bad.append("column needs a dispatch slug, or label, title, byline and body")
+    if col.get("byline", "").strip().lower() == "matthew hagan":
+        bad.append("scheduled issues run under the staff byline, not Matthew's name")
+    notes = issue.get("notes") or []
+    if not (3 <= len(notes) <= 5) or not all((n.get("headline") or "").strip() and (n.get("body") or "").strip() for n in notes):
+        bad.append("notes needs 3 to 5 items, each with a headline and body")
+    return bad
+
+
+def _cli() -> None:
+    import sys
+    from zoneinfo import ZoneInfo
+    from datetime import datetime
+    args = sys.argv[1:]
+    if args[:1] == ["due"]:
+        day = date.fromisoformat(args[1]) if len(args) > 1 else datetime.now(ZoneInfo("America/New_York")).date()
+        print(" ".join(due(day)))
+    elif args[:1] == ["check"] and len(args) == 3:
+        problems = check(json.loads(Path(args[2]).read_text()), args[1])
+        print("\n".join(problems) or "ok")
+        sys.exit(1 if problems else 0)
+    else:
+        sys.exit("usage: python -m mac.weekly due [YYYY-MM-DD] | check <league> <issue.json>")
+
+
+if __name__ == "__main__":
+    _cli()
