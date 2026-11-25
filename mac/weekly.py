@@ -116,10 +116,12 @@ def due(day: date) -> tuple[str, ...]:
     return ROTATION[day.strftime("%a")]
 
 
-def check(issue: dict[str, Any], league_key: str, root: Path = WEEKLY_DIR) -> list[str]:
-    """Problems that would keep an issue off the site; empty means it is ready to publish."""
+def check(issue: dict[str, Any], league_key: str, root: Path = WEEKLY_DIR, path: Path | None = None) -> list[str]:
+    """Problems that would keep an issue off the site; empty means it is ready to publish.
+    `path` is the issue's own file when it is already in the folder, so it isn't its own predecessor."""
     bad = []
-    files = issues(league_key, root)
+    own = path.resolve() if path else None
+    files = [f for f in issues(league_key, root) if f.resolve() != own]
     prev = json.loads(files[-1].read_text()) if files else None
     want = int(prev["edition"]) + 1 if prev else 0
     if issue.get("edition") != want:
@@ -154,7 +156,7 @@ def _cli() -> None:
         day = date.fromisoformat(args[1]) if len(args) > 1 else datetime.now(ZoneInfo("America/New_York")).date()
         print(" ".join(due(day)))
     elif args[:1] == ["check"] and len(args) == 3:
-        problems = check(json.loads(Path(args[2]).read_text()), args[1])
+        problems = check(json.loads(Path(args[2]).read_text()), args[1], path=Path(args[2]))
         print("\n".join(problems) or "ok")
         sys.exit(1 if problems else 0)
     else:
