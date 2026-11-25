@@ -3827,7 +3827,7 @@
     "name": "Colorado State Rams",
     "abbr": "CSU",
     "score": 81,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2670",
@@ -3835,12 +3835,12 @@
     "name": "VCU Rams",
     "abbr": "VCU",
     "score": 84,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:00 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927399",
@@ -12964,5 +12964,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T05:51:13+00:00"
+ "live_at": "2026-11-25T06:19:57+00:00"
 }
