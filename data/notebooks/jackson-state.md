@@ -27,9 +27,9 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 
 ## Barometer
 
-**37 of 100, testy.** Record 2-4 (0-0 in conference), streak L1, last five WLLWL.
+**32 of 100, testy.** Record 2-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -81,3 +81,5 @@ Brianna Coleman grew up in west Jackson, a few blocks from campus, braiding her 
 - 2026-11-18: L 55-104 at Baylor Bears. Barometer 37 (testy). <!-- g:401909753 -->
 - 2026-11-18: Social recap posted (L 55-104 vs Baylor Bears): https://hardwoodbricks.com/swac/games/401909753.html <!-- post:401909753:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/swac/games/401919042.html <!-- post:401919042:preview -->
+- 2026-11-25: L 58-93 at Oklahoma State Cowboys. Barometer 32 (testy). <!-- g:401919042 -->
+- 2026-11-25: Social recap posted (L 58-93 vs Oklahoma State Cowboys): https://hardwoodbricks.com/swac/games/401919042.html <!-- post:401919042:recap -->

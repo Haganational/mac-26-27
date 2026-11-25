@@ -3115,21 +3115,21 @@
     "key": null,
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
-    "score": 67,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
    "away": {
     "espn_id": "2296",
     "key": "jackson-state",
     "name": "Jackson State Tigers",
     "abbr": "JKST",
-    "score": 41,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:04 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401925050",
@@ -3160,7 +3160,7 @@
     "key": null,
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": 18,
+    "score": 42,
     "winner": null
    },
    "away": {
@@ -3168,13 +3168,13 @@
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": 24,
+    "score": 38,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:24 - 1st"
+   "detail": "17:56 - 2nd"
   },
   {
    "game_id": "401920858",
@@ -3205,7 +3205,7 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": 20,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -3213,13 +3213,13 @@
     "key": "prairie-view",
     "name": "Prairie View A&M Panthers",
     "abbr": "PV",
-    "score": 24,
+    "score": 32,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:29 - 1st"
+   "detail": "18:02 - 2nd"
   },
   {
    "game_id": "401925688",
@@ -3240,7 +3240,7 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -3248,13 +3248,13 @@
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": null,
+    "score": 10,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:34 - 1st"
   },
   {
    "game_id": "401926065",
@@ -3285,7 +3285,7 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -3293,13 +3293,13 @@
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:28 - 1st"
   },
   {
    "game_id": "401911241",
@@ -10949,5 +10949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:37:07+00:00"
+ "live_at": "2026-11-25T22:10:18+00:00"
 }

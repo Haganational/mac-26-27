@@ -2944,7 +2944,7 @@
     "key": null,
     "name": "Dartmouth Big Green",
     "abbr": "DART",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -2952,13 +2952,13 @@
     "key": "holy-cross",
     "name": "Holy Cross Crusaders",
     "abbr": "HC",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:52 - 1st"
   },
   {
    "game_id": "401912231",
@@ -9413,5 +9413,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-25T22:07:24+00:00"
 }
