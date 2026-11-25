@@ -3010,7 +3010,7 @@
     "key": "utah-tech",
     "name": "Utah Tech Trailblazers",
     "abbr": "UTU",
-    "score": null,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -3018,13 +3018,13 @@
     "key": null,
     "name": "Bethesda Flames",
     "abbr": "BTHS",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:17 - 1st"
   },
   {
    "game_id": "401925917",
@@ -9796,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T19:59:18+00:00"
+ "live_at": "2026-11-25T21:29:14+00:00"
 }

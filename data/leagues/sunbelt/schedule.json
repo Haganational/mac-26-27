@@ -4231,7 +4231,7 @@
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 37,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -4239,13 +4239,13 @@
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 33,
+    "score": 47,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:33 - 2nd"
   },
   {
    "game_id": "401928359",
@@ -4276,7 +4276,7 @@
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 11,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -4284,13 +4284,13 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 15,
+    "score": 30,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:59 - 1st"
+   "detail": "3:47 - 1st"
   },
   {
    "game_id": "401921703",
@@ -4321,7 +4321,7 @@
     "key": null,
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -4329,13 +4329,13 @@
     "key": "georgia-state",
     "name": "Georgia State Panthers",
     "abbr": "GAST",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:44 - 1st"
   },
   {
    "game_id": "401920858",
@@ -4366,7 +4366,7 @@
     "key": "marshall",
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -4374,13 +4374,13 @@
     "key": null,
     "name": "Prairie View A&M Panthers",
     "abbr": "PV",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:51 - 1st"
   },
   {
    "game_id": "401929181",
@@ -12619,5 +12619,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:56:02+00:00"
+ "live_at": "2026-11-25T21:24:15+00:00"
 }

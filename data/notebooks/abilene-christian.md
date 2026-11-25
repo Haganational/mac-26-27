@@ -27,9 +27,9 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-3 (0-0 in conference), streak W2, last five WLLWW.
+**65 of 100, buoyant.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,5 @@ Wade Crockett ran a TV repair shop in Abilene for twenty-five years and taught h
 - 2026-11-22: W 87-68 vs Southwestern Adventist Knights. Barometer 57 (steady). <!-- g:401917966 -->
 - 2026-11-22: Social recap posted (W 87-68 vs Southwestern Adventist Knights): https://hardwoodbricks.com/uac/games/401917966.html <!-- post:401917966:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401917967.html <!-- post:401917967:preview -->
+- 2026-11-25: W 101-95 at South Dakota State Jackrabbits. Barometer 65 (buoyant). <!-- g:401917967 -->
+- 2026-11-25: Social recap posted (W 101-95 vs South Dakota State Jackrabbits): https://hardwoodbricks.com/summit/games/401917967.html <!-- post:401917967:recap -->

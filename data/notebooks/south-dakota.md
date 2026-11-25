@@ -27,9 +27,9 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 
 ## Barometer
 
-**46 of 100, steady.** Record 3-5 (0-0 in conference), streak W1, last five LLWLW.
+**55 of 100, steady.** Record 4-5 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kayla editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kayla editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 - 2026-11-22: W 74-73 vs (neutral) Utah Tech Trailblazers. Barometer 46 (steady). <!-- g:401925942 -->
 - 2026-11-22: Social recap posted (W 74-73 vs Utah Tech Trailblazers): https://hardwoodbricks.com/bigsky/games/401925942.html <!-- post:401925942:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:preview -->
+- 2026-11-25: W 86-50 vs Arkansas-Pine Bluff Golden Lions. Barometer 55 (steady). <!-- g:401929406 -->
+- 2026-11-25: Social recap posted (W 86-50 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:recap -->

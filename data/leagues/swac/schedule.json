@@ -3115,7 +3115,7 @@
     "key": null,
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
-    "score": 40,
+    "score": 67,
     "winner": null
    },
    "away": {
@@ -3123,13 +3123,13 @@
     "key": "jackson-state",
     "name": "Jackson State Tigers",
     "abbr": "JKST",
-    "score": 30,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:04 - 2nd"
   },
   {
    "game_id": "401925050",
@@ -3160,7 +3160,7 @@
     "key": null,
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
+    "score": 18,
     "winner": null
    },
    "away": {
@@ -3168,13 +3168,13 @@
     "key": "grambling",
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:24 - 1st"
   },
   {
    "game_id": "401920858",
@@ -3205,7 +3205,7 @@
     "key": null,
     "name": "Marshall Thundering Herd",
     "abbr": "MRSH",
-    "score": 10,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -3213,13 +3213,13 @@
     "key": "prairie-view",
     "name": "Prairie View A&M Panthers",
     "abbr": "PV",
-    "score": 2,
+    "score": 24,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:21 - 1st"
+   "detail": "4:29 - 1st"
   },
   {
    "game_id": "401925688",
@@ -10949,5 +10949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:09:50+00:00"
+ "live_at": "2026-11-25T21:37:07+00:00"
 }

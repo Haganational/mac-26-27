@@ -3023,7 +3023,7 @@
     "key": null,
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
-    "score": 32,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -3031,13 +3031,13 @@
     "key": "southeastern-louisiana",
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
-    "score": 32,
+    "score": 46,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:00 - 1st"
+   "detail": "17:05 - 2nd"
   },
   {
    "game_id": "401925050",
@@ -3068,7 +3068,7 @@
     "key": "new-orleans",
     "name": "LSU New Orleans Privateers",
     "abbr": "NOLA",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3076,13 +3076,13 @@
     "key": null,
     "name": "Grambling Tigers",
     "abbr": "GRAM",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:43 - 1st"
   },
   {
    "game_id": "401922253",
@@ -10211,5 +10211,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:02:18+00:00"
+ "live_at": "2026-11-25T21:30:09+00:00"
 }

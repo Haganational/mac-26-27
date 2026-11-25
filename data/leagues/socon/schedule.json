@@ -3284,7 +3284,7 @@
     "name": "Western Carolina Catamounts",
     "abbr": "WCU",
     "score": 100,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2410",
@@ -3292,12 +3292,12 @@
     "name": "Montreat Cavaliers",
     "abbr": "MNTT",
     "score": 42,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:31 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922285",
@@ -9888,5 +9888,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:00:15+00:00"
+ "live_at": "2026-11-25T21:28:12+00:00"
 }

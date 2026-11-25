@@ -2858,8 +2858,8 @@
     "key": "njit",
     "name": "NJIT Highlanders",
     "abbr": "NJIT",
-    "score": 68,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "2363",
@@ -2867,12 +2867,12 @@
     "name": "Manhattan Jaspers",
     "abbr": "MAN",
     "score": 81,
-    "winner": null
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401909720",
@@ -8810,5 +8810,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:06:31+00:00"
+ "live_at": "2026-11-25T21:34:02+00:00"
 }

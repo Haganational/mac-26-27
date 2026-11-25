@@ -2719,7 +2719,7 @@
     "key": "fiu",
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": 11,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2727,13 +2727,13 @@
     "key": null,
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": 16,
+    "score": 34,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:47 - 1st"
+   "detail": "2:31 - 1st"
   },
   {
    "game_id": "401924737",
@@ -2754,7 +2754,7 @@
     "key": "liberty",
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
+    "score": 20,
     "winner": null
    },
    "away": {
@@ -2762,13 +2762,13 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:53 - 1st"
   },
   {
    "game_id": "401920549",
@@ -9132,5 +9132,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:59:22+00:00"
+ "live_at": "2026-11-25T21:27:23+00:00"
 }
