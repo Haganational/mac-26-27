@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:16:35+00:00",
+ "fetched_at": "2026-11-25T18:18:38+00:00",
  "season": 2027,
  "games": [
   {
@@ -3415,11 +3415,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679892?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -3428,21 +3424,21 @@
     "key": "charlotte",
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": 70,
-    "winner": null
+    "score": 85,
+    "winner": true
    },
    "away": {
     "espn_id": "2460",
     "key": null,
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 58,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:07 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928845",
@@ -3469,21 +3465,21 @@
     "key": null,
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": 60,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
    "away": {
     "espn_id": "242",
     "key": "rice",
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 70,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919007",
@@ -3765,7 +3761,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 13.0,
+    "low": 14.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3896,7 +3892,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-29-2026--sports-ncaa-basketball/production/7612563?wsUser=717",
-    "low": 23.0,
+    "low": 19.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -4792,7 +4788,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/baylor-bears-mens-basketball-tickets-foster-pavilion-12-5-2026--sports-ncaa-basketball/production/7324078?wsUser=717",
-    "low": 37.0,
+    "low": 32.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Foster Pavilion",
@@ -9778,7 +9774,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-10-5-2026--sports-ncaa-basketball/production/7613230?wsUser=717",
-    "low": 75.0,
+    "low": 73.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -12262,6 +12258,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:43:47+00:00"
+ ]
 }

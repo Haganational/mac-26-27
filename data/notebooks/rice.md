@@ -27,9 +27,9 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W4, last five LWWWW.
+**76 of 100, buoyant.** Record 6-2 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Eleanor editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -87,3 +87,4 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401928845.html <!-- post:401928845:preview -->
 - 2026-11-24: W 68-67 vs (neutral) UIC Flames. Barometer 70 (buoyant). <!-- g:401928859 -->
 - 2026-11-24: Social recap posted (W 68-67 vs UIC Flames): https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:recap -->
+- 2026-11-25: W 82-74 vs (neutral) Ohio Bobcats. Barometer 76 (buoyant). <!-- g:401928845 -->

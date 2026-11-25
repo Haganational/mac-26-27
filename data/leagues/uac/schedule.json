@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:25:27+00:00",
+ "fetched_at": "2026-11-25T18:30:11+00:00",
  "season": 2027,
  "games": [
   {
@@ -2550,7 +2550,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Millett Hall",
@@ -2572,10 +2572,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:03 - 1st"
   },
   {
    "game_id": "401917967",
@@ -3384,7 +3384,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/pittsburgh-panthers-mens-basketball-tickets-petersen-events-center-12-5-2026--sports-ncaa-basketball/production/7355791?wsUser=717",
-    "low": 23.0,
+    "low": 15.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Petersen Events Center",
@@ -3609,7 +3609,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/auburn-tigers-mens-basketball-tickets-neville-arena-12-6-2026--sports-ncaa-basketball/production/7294906?wsUser=717",
-    "low": 45.0,
+    "low": 30.0,
     "since": "2026-11-18T23:17:56Z"
    },
    "venue": "Neville Arena",

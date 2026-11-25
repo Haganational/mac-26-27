@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:08:22+00:00",
+ "fetched_at": "2026-11-25T18:08:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -3536,7 +3536,7 @@
     "key": "detroit-mercy",
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3544,17 +3544,17 @@
     "key": null,
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:26 - 1st"
+   "detail": "6:55 - 1st"
   },
   {
    "game_id": "401928831",
-   "date": "2026-11-25T17:30Z",
+   "date": "2026-11-25T17:31Z",
    "name": "Yale Bulldogs at Wright State Raiders",
    "short_name": "YALE VS WRST",
    "season_type": "reg",
@@ -3588,10 +3588,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:49 - 1st"
   },
   {
    "game_id": "401921170",
@@ -3837,7 +3837,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/purdue-fort-wayne-mastodons-mens-basketball-tickets-allen-county-war-memorial-coliseum-11-28-2026--sports-ncaa-basketball/production/7725301?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Memorial Coliseum (IN)",
@@ -4058,7 +4058,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-11-29-2026--sports-ncaa-basketball/production/7631673?wsUser=717",
-    "low": 9.0,
+    "low": 10.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Gill Coliseum",
@@ -5989,7 +5989,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-28-2026--sports-ncaa-basketball/production/7467537?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:03:11Z"
    },
    "venue": "Lavietes Pavilion",
@@ -10652,6 +10652,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:33:45+00:00"
+ ]
 }

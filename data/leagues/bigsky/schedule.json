@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:22:44+00:00",
+ "fetched_at": "2026-11-25T18:26:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2924,7 +2924,7 @@
     "key": null,
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
-    "score": 20,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -2932,13 +2932,13 @@
     "key": "northern-colorado",
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
-    "score": 23,
+    "score": 45,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:48 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924268",
@@ -2976,10 +2976,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:12 - 1st"
   },
   {
    "game_id": "401925943",
@@ -9795,6 +9795,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:51:19+00:00"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:19:01+00:00",
+ "fetched_at": "2026-11-25T18:21:51+00:00",
  "season": 2027,
  "games": [
   {
@@ -2308,7 +2308,7 @@
   },
   {
    "game_id": "401928831",
-   "date": "2026-11-25T17:30Z",
+   "date": "2026-11-25T17:31Z",
    "name": "Yale Bulldogs at Wright State Raiders",
    "short_name": "YALE VS WRST",
    "season_type": "reg",
@@ -2331,7 +2331,7 @@
     "key": null,
     "name": "Wright State Raiders",
     "abbr": "WRST",
-    "score": 10,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2339,13 +2339,13 @@
     "key": "yale",
     "name": "Yale Bulldogs",
     "abbr": "YALE",
-    "score": 16,
+    "score": 39,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:51 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911311",
@@ -2750,7 +2750,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/air-force-academy-falcons-mens-basketball-tickets-clune-arena-11-28-2026--sports-ncaa-basketball/production/7383942?wsUser=717",
-    "low": 12.0,
+    "low": 11.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Clune Arena",
@@ -2885,7 +2885,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/appalachian-state-mountaineers-mens-basketball-tickets-george-m-holmes-convocation-center-11-29-2026--sports-ncaa-basketball/production/7706526?wsUser=717",
-    "low": 34.0,
+    "low": 27.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Holmes Convocation Center",
@@ -3020,7 +3020,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-1-2026--sports-ncaa-basketball/production/7462739?wsUser=717",
-    "low": 10.0,
+    "low": 9.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -4291,7 +4291,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-28-2026--sports-ncaa-basketball/production/7467537?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Lavietes Pavilion",
@@ -5405,7 +5405,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-1-16-2027--sports-ncaa-basketball/production/7597836?wsUser=717",
-    "low": 33.0,
+    "low": 32.0,
     "since": "2026-11-18T23:12:20Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -7249,6 +7249,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:46:49+00:00"
+ ]
 }

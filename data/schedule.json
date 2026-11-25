@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:05:50+00:00",
+ "fetched_at": "2026-11-25T18:05:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2918,7 +2918,7 @@
     "key": "ohio",
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
-    "score": 53,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2926,13 +2926,13 @@
     "key": null,
     "name": "Rice Owls",
     "abbr": "RICE",
-    "score": 64,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "10:39 - 2nd"
+   "detail": "0:24 - 2nd"
   },
   {
    "game_id": "401911029",
@@ -2952,7 +2952,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/miami-redhawks-mens-basketball-tickets-millett-hall-11-25-2026--sports-ncaa-basketball/production/7639757?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Millett Hall",
@@ -3601,7 +3601,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ohio-bobcats-mens-basketball-tickets-ohio-convocation-center-12-2-2026--sports-ncaa-basketball/production/7424980?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Convocation Center (OH)",
@@ -5964,7 +5964,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-1-5-2027--sports-ncaa-basketball/production/7429731?wsUser=717",
-    "low": 19.0,
+    "low": 17.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -7352,7 +7352,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-1-26-2027--sports-ncaa-basketball/production/7429763?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -7894,7 +7894,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-2-9-2027--sports-ncaa-basketball/production/7429866?wsUser=717",
-    "low": 12.0,
+    "low": 10.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -9438,7 +9438,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-3-2-2027--sports-ncaa-basketball/production/7429876?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -9672,7 +9672,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/toledo-rockets-mens-basketball-tickets-savage-arena-3-5-2027--sports-ncaa-basketball/production/7429896?wsUser=717",
-    "low": 14.0,
+    "low": 12.0,
     "since": "2026-11-18T23:00:48Z"
    },
    "venue": "Savage Arena",
@@ -9699,6 +9699,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:31:09+00:00"
+ ]
 }

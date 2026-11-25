@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:29:21+00:00",
+ "fetched_at": "2026-11-25T18:35:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -2715,7 +2715,7 @@
     "key": "fairleigh-dickinson",
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
-    "score": 73,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2723,13 +2723,13 @@
     "key": null,
     "name": "Vermont State Randolph Knights",
     "abbr": "VTSR",
-    "score": 20,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "17:09 - 2nd"
+   "detail": "1:17 - 2nd"
   },
   {
    "game_id": "401919786",
@@ -2922,7 +2922,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-11-28-2026--sports-ncaa-basketball/production/7583704?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -4090,7 +4090,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/notre-dame-fighting-irish-mens-basketball-tickets-purcell-pavilion-at-the-joyce-center-12-8-2026--sports-ncaa-basketball/production/7583708?wsUser=717",
-    "low": 10.0,
+    "low": 8.0,
     "since": "2026-11-18T23:21:25Z"
    },
    "venue": "Purcell Pavilion",
@@ -8414,6 +8414,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:59:18+00:00"
+ ]
 }

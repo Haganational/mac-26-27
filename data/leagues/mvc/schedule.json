@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T12:12:32+00:00",
+ "fetched_at": "2026-11-25T18:13:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -3190,7 +3190,7 @@
     "key": null,
     "name": "Charlotte 49ers",
     "abbr": "CLT",
-    "score": 65,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3198,13 +3198,13 @@
     "key": "northern-iowa",
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
-    "score": 56,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:49 - 2nd"
+   "detail": "1:02 - 2nd"
   },
   {
    "game_id": "401927366",
@@ -3793,7 +3793,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-1-2026--sports-ncaa-basketball/production/7109832?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -7815,7 +7815,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/belmont-bruins-mens-basketball-tickets-curb-event-center-1-27-2027--sports-ncaa-basketball/production/7747401?wsUser=717",
-    "low": 31.0,
+    "low": 30.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Curb Event Center Arena",
@@ -9831,6 +9831,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-25T17:38:53+00:00"
+ ]
 }

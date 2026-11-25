@@ -1,6 +1,6 @@
 {
  "google:delaware": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -9,7 +9,7 @@
   "url": "https://news.google.com/rss/search?q=%22Delaware+Blue+Hens+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:fiu": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -18,7 +18,7 @@
   "url": "https://news.google.com/rss/search?q=%22FIU+Panthers+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:jacksonville-state": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -27,7 +27,7 @@
   "url": "https://news.google.com/rss/search?q=%22Jacksonville+State+Gamecocks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:kennesaw-state": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -36,14 +36,14 @@
   "url": "https://news.google.com/rss/search?q=%22Kennesaw+State+Owls+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:liberty": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: no entries",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-25T12:20:55+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "liberty",
   "url": "https://news.google.com/rss/search?q=%22Liberty+Flames+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -51,7 +51,7 @@
   "via_google": false
  },
  "google:middle-tennessee": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -60,7 +60,7 @@
   "url": "https://news.google.com/rss/search?q=%22Middle+Tennessee+Blue+Raiders+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:missouri-state": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -69,7 +69,7 @@
   "url": "https://news.google.com/rss/search?q=%22Missouri+State+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:new-mexico-state": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -78,7 +78,7 @@
   "url": "https://news.google.com/rss/search?q=%22New+Mexico+State+Aggies+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:sam-houston": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -87,13 +87,13 @@
   "url": "https://news.google.com/rss/search?q=%22Sam+Houston+Bearkats+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:western-kentucky": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
-  "entries": 1,
+  "checked_at": "2026-11-25T18:24:20+00:00",
+  "entries": 2,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-25T12:20:55+00:00",
+  "last_ok": "2026-11-25T18:24:20+00:00",
   "ok": true,
   "source": "Google News",
   "team": "western-kentucky",
@@ -102,13 +102,13 @@
   "via_google": false
  },
  "league:cusa": {
-  "checked_at": "2026-11-25T12:20:55+00:00",
+  "checked_at": "2026-11-25T18:24:20+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 10,
   "kind": "league",
-  "last_ok": "2026-11-25T12:20:55+00:00",
+  "last_ok": "2026-11-25T18:24:20+00:00",
   "ok": true,
   "source": "Conference USA (conferenceusa.com)",
   "team": null,
