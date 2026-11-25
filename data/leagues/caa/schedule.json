@@ -3313,21 +3313,21 @@
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": 65,
-    "winner": null
+    "score": 69,
+    "winner": false
    },
    "away": {
     "espn_id": "2638",
     "key": null,
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 72,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:22 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926835",
@@ -12083,5 +12083,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:49:40+00:00"
+ "live_at": "2026-11-25T04:20:18+00:00"
 }

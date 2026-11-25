@@ -27,9 +27,9 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 
 ## Barometer
 
-**48 of 100, steady.** Record 2-4 (0-0 in conference), streak L1, last five LLWWL.
+**54 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Theo editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Theo editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,5 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 - 2026-11-22: L 74-78 vs (neutral) Duke Blue Devils. Barometer 48 (steady). <!-- g:401909567 -->
 - 2026-11-22: Social recap posted (L 74-78 vs Duke Blue Devils): https://hardwoodbricks.com/pac12/games/401909567.html <!-- post:401909567:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:preview -->
+- 2026-11-25: W 80-73 vs Sam Houston Bearkats. Barometer 54 (steady). <!-- g:401928796 -->
+- 2026-11-25: Social recap posted (W 80-73 vs Sam Houston Bearkats): https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:recap -->

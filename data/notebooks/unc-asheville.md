@@ -27,9 +27,9 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 
 ## Barometer
 
-**32 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
+**25 of 100, despondent.** Record 2-6 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Fern editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,5 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 - 2026-11-22: L 77-80 at Samford Bulldogs. Barometer 32 (testy). <!-- g:401922293 -->
 - 2026-11-23: Social recap posted (L 77-80 vs Samford Bulldogs): https://hardwoodbricks.com/socon/games/401922293.html <!-- post:401922293:recap -->
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401909699.html <!-- post:401909699:preview -->
+- 2026-11-25: L 61-97 at Florida State Seminoles. Barometer 25 (despondent). <!-- g:401909699 -->
+- 2026-11-25: Social recap posted (L 61-97 vs Florida State Seminoles): https://hardwoodbricks.com/bigsouth/games/401909699.html <!-- post:401909699:recap -->

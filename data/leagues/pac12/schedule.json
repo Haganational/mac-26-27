@@ -2166,21 +2166,21 @@
     "key": "boise-state",
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 73,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "304",
     "key": null,
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": 58,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:11 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928796",
@@ -2211,21 +2211,21 @@
     "key": "washington-state",
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": 65,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2534",
     "key": null,
     "name": "Sam Houston Bearkats",
     "abbr": "SHSU",
-    "score": 66,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921712",
@@ -2252,7 +2252,7 @@
     "key": "colorado-state",
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 10,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2260,13 +2260,13 @@
     "key": null,
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": 8,
+    "score": 35,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:38 - 1st"
+   "detail": "7:31 - 1st"
   },
   {
    "game_id": "401909800",
@@ -8273,5 +8273,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:44:36+00:00"
+ "live_at": "2026-11-25T04:14:32+00:00"
 }

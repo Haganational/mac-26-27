@@ -2887,21 +2887,21 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 84,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "304",
     "key": "idaho-state",
     "name": "Idaho State Bengals",
     "abbr": "IDST",
-    "score": 61,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:57 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920547",
@@ -9744,5 +9744,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T03:52:42+00:00"
+ "live_at": "2026-11-25T04:23:46+00:00"
 }
