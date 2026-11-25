@@ -4231,7 +4231,7 @@
     "key": "app-state",
     "name": "App State Mountaineers",
     "abbr": "APP",
-    "score": 23,
+    "score": 37,
     "winner": null
    },
    "away": {
@@ -4239,13 +4239,13 @@
     "key": null,
     "name": "Akron Zips",
     "abbr": "AKR",
-    "score": 20,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:44 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928359",
@@ -4276,7 +4276,7 @@
     "key": null,
     "name": "Florida International Panthers",
     "abbr": "FIU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -4284,13 +4284,13 @@
     "key": "arkansas-state",
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:59 - 1st"
   },
   {
    "game_id": "401921703",
@@ -12619,5 +12619,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:24:19+00:00"
+ "live_at": "2026-11-25T20:56:02+00:00"
 }

@@ -27,9 +27,9 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 
 ## Barometer
 
-**10 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**9 of 100, despondent.** Record 0-7 (0-0 in conference), streak L7, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tamika editorializes: 85% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tamika editorializes: 86% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Tamika Jordan grew up in Pine Bluff fishing the Arkansas River with her grandmot
 - 2026-11-19: L 69-100 at Arkansas State Red Wolves. Barometer 10 (despondent). <!-- g:401928398 -->
 - 2026-11-19: Social recap posted (L 69-100 vs Arkansas State Red Wolves): https://hardwoodbricks.com/sunbelt/games/401928398.html <!-- post:401928398:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:preview -->
+- 2026-11-25: L 50-86 at South Dakota Coyotes. Barometer 9 (despondent). <!-- g:401929406 -->
