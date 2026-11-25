@@ -45,3 +45,22 @@ def test_context_uses_a_dispatch_as_the_column():
     assert ctx["dateline"] == "Thursday, November 12, 2026" and ctx["number"] == "000"
     look = weekly.context({**issue, "column": {"title": "Picks", "body": ["**A.** yes"]}}, {}, [])
     assert look["column"]["html"] == "<p><b>A.</b> yes</p>"
+
+
+def test_rotation_covers_every_conference_once():
+    keys = [k for day in weekly.ROTATION.values() for k in day]
+    assert sorted(keys) == sorted(LEAGUES) and len(keys) == len(set(keys))
+    from datetime import date
+    assert weekly.due(date(2026, 11, 30)) == weekly.ROTATION["Mon"]
+
+
+def test_check_wants_the_next_edition_and_a_full_issue(tmp_path):
+    (tmp_path / "mac").mkdir()
+    (tmp_path / "mac" / "000.json").write_text(json.dumps({"edition": 0}))
+    good = {"edition": 1, "date": "2026-11-30",
+            "lead": {"kicker": "k", "headline": "h", "deck": "d", "body": ["a", "b", "c"]},
+            "column": {"label": "By the Numbers", "title": "t", "byline": "Hardwood Bricks staff", "body": ["x"]},
+            "notes": [{"headline": "n", "body": "b"}] * 4}
+    assert weekly.check(good, "mac", tmp_path) == []
+    bad = {**good, "edition": 0, "notes": [], "column": {**good["column"], "byline": "Matthew Hagan"}}
+    assert len(weekly.check(bad, "mac", tmp_path)) == 3
