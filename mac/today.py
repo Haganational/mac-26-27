@@ -32,15 +32,14 @@ _TWO_WORD = {
 
 # A nickname's first word that almost never ends a school name ("Muskingum Fighting Muskies").
 _NICK_LEAD = {"fighting", "golden", "blue", "red", "big", "mean", "black", "purple", "lady", "crimson", "scarlet",
-              "running", "flying", "great", "green", "orange", "silver", "ragin'", "thundering", "demon", "sun",
+              "running", "runnin'", "flying", "great", "green", "orange", "silver", "ragin'", "thundering", "demon", "sun",
               "horned", "yellow", "tar", "nittany", "rainbow", "sea", "war", "river", "mountain", "delta", "wolf"}
 
 
 def _every_team() -> dict[str, str]:
     """ESPN display name -> our short name, for every edition's teams (a Metro script names MAC teams too)."""
     from . import leagues
-    return {t.name: t.short for lg in (leagues.MAC, leagues.ASUN, leagues.HORIZON, leagues.MW, leagues.METRO, leagues.BIGWEST)
-            for t in lg.teams}
+    return {t.name: t.short for lg in leagues.ALL.values() for t in lg.teams}
 
 
 _EVERY = _every_team()
