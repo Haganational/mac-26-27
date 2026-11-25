@@ -348,7 +348,7 @@
   .bar .hb-watch, .bar .hb-al > summary { position: relative; z-index: 2; }  /* the summary, not the menu, so the phone panel spans the bar */
   .hb-peek { position: absolute; z-index: 1; overflow: hidden; pointer-events: none; display: none; }
   .hb-peek.on { display: block; }
-  .hb-peek i { position: absolute; left: 50%; bottom: 0; width: var(--mw, 67px); height: var(--mh, 60px); margin-left: calc(var(--mw, 67px) / -2); transform: translateY(102%); transform-origin: 50% 100%; }
+  .hb-peek i { position: absolute; left: 50%; bottom: 0; width: var(--mw, 67px); height: var(--mh, 60px); margin-left: calc(var(--mw, 67px) / -2); transform: translateY(102%); transform-origin: 50% 100%; }  /* --y: the shared eye line (set by the bar script) */
   .hb-peek img { display: block; width: 100%; height: 100%; filter: drop-shadow(0 0 6px rgba(232,207,138,.35)); }
   .hb-mateo i::after { content: "\2726"; position: absolute; left: 30%; top: 30%; font: 11px/1 var(--sans); color: #fff; text-shadow: 0 0 4px #fff, 0 0 9px #e8cf8a; opacity: 0; transform: scale(.3); }
   .hb-mateo i b { position: absolute; left: 56%; top: 52%; width: 9px; height: 9px; background: #d4146f; transform: rotate(45deg) scale(0); opacity: 0; box-shadow: 0 0 6px rgba(212,20,111,.6); }
@@ -359,11 +359,12 @@
   .hb-mateo.on i b { animation: hb-kiss 3.6s ease-out .4s both; }
   .bar .pk-on { color: #fff; text-shadow: 0 0 3px #1a0f08, 0 0 6px #1a0f08, 0 1px 1px #1a0f08; }
   .bar .pk-on .hb-eyes { animation: none; opacity: 0; }
+  /* Both rise to the same eye line with the same 4px overshoot, then settle on it (Matthew, Nov 24: level them out). */
   @keyframes hb-peek {
-    0% { transform: translateY(102%); } 15% { transform: translateY(-4%) scale(1.04); animation-timing-function: ease-out; } 20% { transform: translateY(0) scale(1); }
-    27% { transform: rotate(-6deg); } 34% { transform: rotate(5deg); } 40% { transform: rotate(-3deg); } 45% { transform: rotate(0); }
-    52% { transform: rotate(0) scale(1.06); } 60% { transform: rotate(0) scale(1); }
-    78% { transform: translateY(0); animation-timing-function: ease-in; } 100% { transform: translateY(102%); } }
+    0% { transform: translateY(102%); } 15% { transform: translateY(calc(var(--y, 0px) - 4px)) scale(1.04); animation-timing-function: ease-out; } 20% { transform: translateY(var(--y, 0px)) scale(1); }
+    27% { transform: translateY(var(--y, 0px)) rotate(-6deg); } 34% { transform: translateY(var(--y, 0px)) rotate(5deg); } 40% { transform: translateY(var(--y, 0px)) rotate(-3deg); } 45% { transform: translateY(var(--y, 0px)) rotate(0); }
+    52% { transform: translateY(var(--y, 0px)) scale(1.06); } 60% { transform: translateY(var(--y, 0px)) scale(1); }
+    78% { transform: translateY(var(--y, 0px)); animation-timing-function: ease-in; } 100% { transform: translateY(102%); } }
   @keyframes hb-glint { 0%, 22% { opacity: 0; transform: scale(.3) rotate(0); } 29% { opacity: 1; transform: scale(1.3) rotate(45deg); } 38%, 100% { opacity: 0; transform: scale(.3) rotate(90deg); } }
   @keyframes hb-kiss {
     0%, 50% { opacity: 0; transform: translate(0, 0) rotate(45deg) scale(0); }
@@ -376,11 +377,11 @@
   .hb-tiff.on i { animation: hb-tiff 3.6s ease-in-out 1s both; }
   .hb-tiff.on i::after { animation: hb-glint 3.6s ease-in-out 1.25s both; }
   @keyframes hb-tiff {
-    0% { transform: translateY(102%); } 16% { transform: translateY(calc(-3% - var(--lift, 0px))); animation-timing-function: ease-out; } 21% { transform: translateY(calc(0px - var(--lift, 0px))); }
-    28% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(4deg); } 34% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(-4deg); }
-    40% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(2deg); } 45% { transform: translateY(calc(0px - var(--lift, 0px))) rotate(0); }
-    53% { transform: translateY(calc(14% - var(--lift, 0px))); } 61% { transform: translateY(calc(0px - var(--lift, 0px))); }
-    78% { transform: translateY(calc(0px - var(--lift, 0px))); animation-timing-function: ease-in; } 100% { transform: translateY(102%); } }
+    0% { transform: translateY(102%); } 15% { transform: translateY(calc(var(--y, 0px) - 4px)) scale(1.04); animation-timing-function: ease-out; } 20% { transform: translateY(var(--y, 0px)) scale(1); }
+    28% { transform: translateY(var(--y, 0px)) rotate(4deg); } 34% { transform: translateY(var(--y, 0px)) rotate(-4deg); }
+    40% { transform: translateY(var(--y, 0px)) rotate(2deg); } 45% { transform: translateY(var(--y, 0px)) rotate(0); }
+    53% { transform: translateY(calc(var(--y, 0px) + 8%)); } 61% { transform: translateY(var(--y, 0px)); }
+    78% { transform: translateY(var(--y, 0px)); animation-timing-function: ease-in; } 100% { transform: translateY(102%); } }
   .bar .brand { position: relative; z-index: 2; }
   @media (prefers-reduced-motion: reduce) { .hb-peek { display: none !important; } }
   /* The lead with an ESPN clip: headline first, the clip under it in a captioned frame tied to the story. */
