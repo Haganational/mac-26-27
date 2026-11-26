@@ -48,7 +48,9 @@ def test_facts_come_from_the_cards():
 def test_posted_episode_has_its_audio_and_notes():
     ctx = lockcall.page_context()
     ep = ctx["lockcall"]
-    assert ":" in ep["length"] and ep["news"]["sources"]
+    assert ":" in ep["length"]
+    daily = next(e for e in lockcall.episodes() if not e.get("bonus") and not e.get("pilot"))
+    assert daily["news"]["sources"]  # a daily show carries its news source; a bonus skit may have none
     pilot = lockcall.episodes()[-1]
     assert pilot["pilot"] and pilot["length"] == "2:10"
     assert (lockcall.POD_DIR.parent.parent / "templates" / ep["audio"]).exists()
