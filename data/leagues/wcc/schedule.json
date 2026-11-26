@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T18:14:17+00:00",
+ "fetched_at": "2026-11-26T23:13:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -3050,8 +3050,8 @@
   {
    "game_id": "401917547",
    "date": "2026-11-26T22:00Z",
-   "name": "Saint Mary's Gaels at UCLA Bruins",
-   "short_name": "SMC VS UCLA",
+   "name": "UCLA Bruins at Saint Mary's Gaels",
+   "short_name": "UCLA VS SMC",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3072,25 +3072,25 @@
    "venue_city": "San Diego",
    "venue_state": "CA",
    "home": {
-    "espn_id": "26",
-    "key": null,
-    "name": "UCLA Bruins",
-    "abbr": "UCLA",
-    "score": 11,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2608",
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 9,
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "26",
+    "key": null,
+    "name": "UCLA Bruins",
+    "abbr": "UCLA",
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "15:48 - 1st"
+   "detail": "5:24 - 1st"
   },
   {
    "game_id": "401917546",
@@ -3268,7 +3268,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-diego-toreros-mens-basketball-tickets-jenny-craig-pavilion-11-28-2026--sports-ncaa-basketball/production/7647883?wsUser=717",
-    "low": 35.0,
+    "low": 81.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Jenny Craig Pavilion",
@@ -3493,7 +3493,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/stanford-cardinal-mens-basketball-tickets-maples-pavilion-11-29-2026--sports-ncaa-basketball/production/7457242?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Maples Pavilion",
@@ -9684,6 +9684,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T22:37:39+00:00"
+ ]
 }

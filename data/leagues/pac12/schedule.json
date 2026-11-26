@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T18:13:15+00:00",
+ "fetched_at": "2026-11-26T23:12:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -2458,8 +2458,8 @@
   {
    "game_id": "401921673",
    "date": "2026-11-26T21:30Z",
-   "name": "Utah State Aggies at USC Trojans",
-   "short_name": "USU VS USC",
+   "name": "USC Trojans at Utah State Aggies",
+   "short_name": "USC VS USU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2471,34 +2471,30 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-26-2026--sports-ncaa-basketball/production/7401152?wsUser=717",
-    "low": 55.0,
-    "since": "2026-11-18T23:08:43Z"
-   },
+   "tickets": null,
    "venue": "Acrisure Arena",
    "venue_city": "Palm Springs",
    "venue_state": "CA",
    "home": {
-    "espn_id": "30",
-    "key": null,
-    "name": "USC Trojans",
-    "abbr": "USC",
-    "score": 36,
-    "winner": null
-   },
-   "away": {
     "espn_id": "328",
     "key": "utah-state",
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 25,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "away": {
+    "espn_id": "30",
+    "key": null,
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "score": 34,
+    "winner": null
+   },
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "3:32 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920540",
@@ -2714,6 +2710,41 @@
    "detail": ""
   },
   {
+   "game_id": "401920535",
+   "date": "2026-11-28T04:30Z",
+   "name": "TBD at San Diego State Aztecs",
+   "short_name": "TBD VS SDSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Michelob ULTRA Arena",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "21",
+    "key": "san-diego-state",
+    "name": "San Diego State Aztecs",
+    "abbr": "SDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "-2",
+    "key": null,
+    "name": "TBD",
+    "abbr": "TBD",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401929172",
    "date": "2026-11-28T20:30Z",
    "name": "North Texas Mean Green at Boise State Broncos",
@@ -2817,7 +2848,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-29-2026--sports-ncaa-basketball/production/7001636?wsUser=717",
-    "low": 19.0,
+    "low": 23.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "The Pit",
@@ -4293,7 +4324,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-12-14-2026--sports-ncaa-basketball/production/7631679?wsUser=717",
-    "low": 29.0,
+    "low": 27.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
@@ -8379,6 +8410,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T22:37:06+00:00"
+ ]
 }
