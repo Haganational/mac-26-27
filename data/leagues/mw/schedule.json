@@ -2557,7 +2557,7 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 42,
+    "score": 60,
     "winner": null
    },
    "away": {
@@ -2565,13 +2565,13 @@
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 48,
+    "score": 59,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:57 - 2nd"
+   "detail": "2:20 - 2nd"
   },
   {
    "game_id": "401920550",
@@ -2598,7 +2598,7 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 12,
+    "score": 30,
     "winner": null
    },
    "away": {
@@ -2606,13 +2606,13 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 12,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "10:44 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924897",
@@ -2643,7 +2643,7 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 11,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": null,
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": 11,
+    "score": 41,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:55 - 1st"
+   "detail": "0:42 - 1st"
   },
   {
    "game_id": "401921671",
@@ -9188,5 +9188,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T02:12:22+00:00"
+ "live_at": "2026-11-26T02:45:15+00:00"
 }

@@ -27,9 +27,9 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 
 ## Barometer
 
-**59 of 100, steady.** Record 4-3 (0-0 in conference), streak W1, last five WWWLW.
+**62 of 100, steady.** Record 5-3 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Rachelle editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Rachelle editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,5 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 - 2026-11-21: W 86-68 at Bowling Green Falcons. Barometer 59 (steady). <!-- g:401911022 -->
 - 2026-11-21: Social recap posted (W 86-68 vs Bowling Green Falcons): https://hardwoodbricks.com/games/401911022.html <!-- post:401911022:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:preview -->
+- 2026-11-26: W 68-65 at SIU Edwardsville Cougars. Barometer 62 (steady). <!-- g:401920916 -->
+- 2026-11-26: Social recap posted (W 68-65 vs SIU Edwardsville Cougars): https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:recap -->

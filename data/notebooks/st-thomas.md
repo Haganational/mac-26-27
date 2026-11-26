@@ -27,9 +27,9 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 5-3 (0-0 in conference), streak W3, last five WLWWW.
+**57 of 100, steady.** Record 5-4 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nora editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nora editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 - 2026-11-21: W 98-70 at Milwaukee Panthers. Barometer 70 (buoyant). <!-- g:401920846 -->
 - 2026-11-21: Social recap posted (W 98-70 vs Milwaukee Panthers): https://hardwoodbricks.com/horizon/games/401920846.html <!-- post:401920846:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:preview -->
+- 2026-11-26: L 77-86 at UNC Wilmington Seahawks. Barometer 57 (steady). <!-- g:401920847 -->
+- 2026-11-26: Social recap posted (L 77-86 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:recap -->

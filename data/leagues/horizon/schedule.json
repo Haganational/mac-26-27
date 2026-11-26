@@ -3664,20 +3664,20 @@
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
     "score": 65,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2459",
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 67,
-    "winner": null
+    "score": 68,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:01 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401921108",
@@ -10653,5 +10653,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T02:11:02+00:00"
+ "live_at": "2026-11-26T02:44:13+00:00"
 }

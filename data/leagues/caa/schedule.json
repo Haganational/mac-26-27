@@ -3473,8 +3473,8 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 81,
-    "winner": null
+    "score": 86,
+    "winner": true
    },
    "away": {
     "espn_id": "2900",
@@ -3482,12 +3482,12 @@
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
     "score": 77,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:41 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401921416",
@@ -12120,5 +12120,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T02:24:46+00:00"
+ "live_at": "2026-11-26T02:54:55+00:00"
 }
