@@ -68,7 +68,7 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:preview -->
 - 2026-11-22: W 86-75 vs Towson Tigers. Barometer 71 (buoyant). <!-- g:401912212 -->
 - 2026-11-22: Social recap posted (W 86-75 vs Towson Tigers): https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:preview -->
