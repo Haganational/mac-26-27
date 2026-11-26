@@ -69,7 +69,7 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:preview -->
 - 2026-11-25: W 86-50 vs Arkansas-Pine Bluff Golden Lions. Barometer 55 (steady). <!-- g:401929406 -->
 - 2026-11-25: Social recap posted (W 86-50 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/summit/games/401929407.html <!-- post:401929407:preview -->

@@ -1,5 +1,5 @@
 {
-"as_of": "2026-11-26T06:49:26+00:00",
+"as_of": "2026-11-26T07:19:03+00:00",
 "onoff_live": false,
 "onoff_start": "2026-12-01",
 "weights": {
@@ -676,7 +676,7 @@
 "on_poss": 75.13,
 "on_net": -6.66,
 "off_net": -0.71,
-"apm": -0.2,
+"apm": -0.21,
 "onoff": -5.95,
 "rk": 22
 },
@@ -787,7 +787,7 @@
 "net": 0.85,
 "raw_net": 3.59,
 "team_adj": 0.13,
-"prior_share": 0.62,
+"prior_share": 0.63,
 "returning": false,
 "on_poss": 153.6,
 "on_net": 22.79,
@@ -937,7 +937,7 @@
 "on_poss": 40.6,
 "on_net": -24.63,
 "off_net": 17.23,
-"apm": -0.22,
+"apm": -0.23,
 "onoff": -41.86,
 "rk": 31
 },
@@ -966,7 +966,7 @@
 "on_poss": 114.02,
 "on_net": -2.63,
 "off_net": -1.53,
-"apm": -0.16,
+"apm": -0.17,
 "onoff": -1.1,
 "rk": 32
 },
@@ -1198,7 +1198,7 @@
 "on_poss": 11.94,
 "on_net": 58.63,
 "off_net": -3.07,
-"apm": 0.07,
+"apm": 0.06,
 "onoff": 61.7,
 "rk": 40
 },
@@ -3040,7 +3040,7 @@
 "gp": 6,
 "mpg": 16.0,
 "min_pct": 40.0,
-"poss": 154,
+"poss": 153,
 "ppg": 3.8,
 "usage": 26.6,
 "ts": 31.9,
@@ -3136,7 +3136,7 @@
 "net": -5.43,
 "raw_net": -6.24,
 "team_adj": -2.05,
-"prior_share": 0.54,
+"prior_share": 0.55,
 "returning": false,
 "on_poss": 201.71,
 "on_net": -8.92,
@@ -3365,7 +3365,7 @@
 "ts": 45.8,
 "off": -4.01,
 "def": -3.86,
-"net": -7.88,
+"net": -7.87,
 "raw_net": -10.98,
 "team_adj": -0.85,
 "prior_share": 0.48,

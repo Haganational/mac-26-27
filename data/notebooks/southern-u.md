@@ -65,7 +65,7 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:preview -->
 - 2026-11-25: L 72-101 at Nebraska Cornhuskers. Barometer 32 (testy). <!-- g:401926065 -->
 - 2026-11-26: Social recap posted (L 72-101 vs Nebraska Cornhuskers): https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/swac/games/401921827.html <!-- post:401921827:preview -->
