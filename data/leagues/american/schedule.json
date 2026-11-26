@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T12:19:04+00:00",
+ "fetched_at": "2026-11-26T18:15:30+00:00",
  "season": 2027,
  "games": [
   {
@@ -3592,7 +3592,7 @@
     "key": "utsa",
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 29,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3600,13 +3600,13 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 45,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:24 - 2nd"
   },
   {
    "game_id": "401929288",
@@ -3661,7 +3661,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-27-2026--sports-ncaa-basketball/production/7632059?wsUser=717",
-    "low": 17.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -12289,6 +12289,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T17:44:00+00:00"
+ ]
 }

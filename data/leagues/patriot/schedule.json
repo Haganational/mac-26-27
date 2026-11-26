@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T12:32:22+00:00",
+ "fetched_at": "2026-11-26T18:31:23+00:00",
  "season": 2027,
  "games": [
   {
@@ -2985,7 +2985,7 @@
     "key": null,
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": 29,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2993,13 +2993,13 @@
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": 45,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:12 - 2nd"
   },
   {
    "game_id": "401921224",
@@ -3476,7 +3476,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-28-2026--sports-ncaa-basketball/production/7546513?wsUser=717",
-    "low": 21.0,
+    "low": 19.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "The Palestra",
@@ -3879,7 +3879,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/maryland-terrapins-mens-basketball-tickets-xfinity-center---md-12-2-2026--sports-ncaa-basketball/production/7382615?wsUser=717",
-    "low": 5.0,
+    "low": 6.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "XFINITY Center",
@@ -5362,7 +5362,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/navy-midshipmen-mens-basketball-tickets-alumni-hall---md-12-19-2026--sports-ncaa-basketball/production/7537668?wsUser=717",
-    "low": 19.0,
+    "low": 20.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Alumni Hall (Navy)",
@@ -9405,6 +9405,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T17:52:46+00:00"
+ ]
 }

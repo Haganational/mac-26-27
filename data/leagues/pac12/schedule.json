@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T12:17:12+00:00",
+ "fetched_at": "2026-11-26T18:13:15+00:00",
  "season": 2027,
  "games": [
   {
@@ -2417,8 +2417,8 @@
   {
    "game_id": "401920528",
    "date": "2026-11-26T18:00Z",
-   "name": "San Diego State Aztecs at Maryland Terrapins",
-   "short_name": "SDSU VS MD",
+   "name": "Maryland Terrapins at San Diego State Aztecs",
+   "short_name": "MD VS SDSU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2435,18 +2435,18 @@
    "venue_city": "Las Vegas",
    "venue_state": "NV",
    "home": {
-    "espn_id": "120",
-    "key": null,
-    "name": "Maryland Terrapins",
-    "abbr": "MD",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "21",
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "120",
+    "key": null,
+    "name": "Maryland Terrapins",
+    "abbr": "MD",
     "score": null,
     "winner": null
    },
@@ -2473,7 +2473,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/acrisure-series-tickets-acrisure-arena-11-26-2026--sports-ncaa-basketball/production/7401152?wsUser=717",
-    "low": 56.0,
+    "low": 55.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Acrisure Arena",
@@ -3615,7 +3615,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/washington-state-cougars-mens-basketball-tickets-beasley-coliseum-12-6-2026--sports-ncaa-basketball/production/7633999?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Beasley Coliseum",
@@ -5053,7 +5053,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/lsu-tigers-mens-basketball-tickets-lsu-pete-maravich-assembly-center-12-28-2026--sports-ncaa-basketball/production/7350079?wsUser=717",
-    "low": 9.0,
+    "low": 6.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Pete Maravich Assembly Center",
@@ -5654,7 +5654,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-1-6-2027--sports-ncaa-basketball/production/7631685?wsUser=717",
-    "low": 16.0,
+    "low": 14.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
@@ -6001,7 +6001,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/oregon-state-beavers-mens-basketball-tickets-gill-coliseum-1-16-2027--sports-ncaa-basketball/production/7631687?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Gill Coliseum",
