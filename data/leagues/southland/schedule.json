@@ -3109,21 +3109,21 @@
     "key": "northwestern-state",
     "name": "Northwestern State Demons",
     "abbr": "NWST",
-    "score": 54,
-    "winner": null
+    "score": 71,
+    "winner": true
    },
    "away": {
     "espn_id": "2697",
     "key": null,
     "name": "West Florida Argonauts",
     "abbr": "UWF",
-    "score": 45,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929005",
@@ -10211,5 +10211,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T00:38:26+00:00"
+ "live_at": "2026-11-26T01:03:25+00:00"
 }

@@ -2361,7 +2361,7 @@
     "key": "utah-state",
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2369,13 +2369,13 @@
     "key": null,
     "name": "SMU Mustangs",
     "abbr": "SMU",
-    "score": null,
+    "score": 5,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:16 - 1st"
   },
   {
    "game_id": "401921714",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T00:27:43+00:00"
+ "live_at": "2026-11-26T00:57:02+00:00"
 }

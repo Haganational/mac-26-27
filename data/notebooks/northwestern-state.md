@@ -27,9 +27,9 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 
 ## Barometer
 
-**34 of 100, testy.** Record 1-5 (0-0 in conference), streak L2, last five LLWLL.
+**45 of 100, steady.** Record 2-5 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darla editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -78,3 +78,4 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 - 2026-11-21: L 62-69 vs UT Arlington Mavericks. Barometer 34 (testy). <!-- g:401925080 -->
 - 2026-11-21: Social recap posted (L 62-69 vs UT Arlington Mavericks): https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:preview -->
+- 2026-11-25: W 71-57 vs West Florida Argonauts. Barometer 45 (steady). <!-- g:401922253 -->

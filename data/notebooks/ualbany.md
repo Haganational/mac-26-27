@@ -27,9 +27,9 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 
 ## Barometer
 
-**44 of 100, testy.** Record 4-4 (0-0 in conference), streak L2, last five LWWLL.
+**34 of 100, testy.** Record 4-5 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Renee editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Renee editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,5 @@ Renee Castillo worked as a legislative aide in Albany, counting votes in the hal
 - 2026-11-22: L 75-78 vs (neutral) Mercyhurst Lakers. Barometer 44 (testy). <!-- g:401923323 -->
 - 2026-11-22: Social recap posted (L 75-78 vs Mercyhurst Lakers): https://hardwoodbricks.com/americaeast/games/401923323.html <!-- post:401923323:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/americaeast/games/401909720.html <!-- post:401909720:preview -->
+- 2026-11-25: L 53-74 at Syracuse Orange. Barometer 34 (testy). <!-- g:401909720 -->
+- 2026-11-26: Social recap posted (L 53-74 vs Syracuse Orange): https://hardwoodbricks.com/americaeast/games/401909720.html <!-- post:401909720:recap -->

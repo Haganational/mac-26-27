@@ -2903,21 +2903,21 @@
     "key": null,
     "name": "Syracuse Orange",
     "abbr": "SYR",
-    "score": 59,
-    "winner": null
+    "score": 74,
+    "winner": true
    },
    "away": {
     "espn_id": "399",
     "key": "ualbany",
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
-    "score": 43,
-    "winner": null
+    "score": 53,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:51 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921416",
@@ -8810,5 +8810,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T00:43:19+00:00"
+ "live_at": "2026-11-26T01:06:22+00:00"
 }
