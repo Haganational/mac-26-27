@@ -67,7 +67,7 @@ Brenda Whitfield grew up in Pontiac and spent thirty years as a school cafeteria
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Brenda Whitfield grew up in Pontiac and spent thirty years as a school cafeteria
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/horizon/games/401926134.html <!-- post:401926134:preview -->
 - 2026-11-21: L 49-95 at Purdue Boilermakers. Barometer 27 (despondent). <!-- g:401926134 -->
 - 2026-11-21: Social recap posted (L 49-95 vs Purdue Boilermakers): https://hardwoodbricks.com/horizon/games/401926134.html <!-- post:401926134:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/horizon/games/401925703.html <!-- post:401925703:preview -->
