@@ -69,7 +69,7 @@ Megan Sorensen grew up in a ski-patrol family in Truckee and has checked the cha
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

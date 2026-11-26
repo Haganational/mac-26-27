@@ -2557,21 +2557,21 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 70,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2437",
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 72,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:34 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401920550",
@@ -2598,7 +2598,7 @@
     "key": "utep",
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 52,
+    "score": 72,
     "winner": null
    },
    "away": {
@@ -2606,13 +2606,13 @@
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 30,
+    "score": 52,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:16 - 2nd"
+   "detail": "0:54 - 2nd"
   },
   {
    "game_id": "401924897",
@@ -2643,7 +2643,7 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 61,
+    "score": 87,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": null,
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": 51,
+    "score": 72,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:47 - 2nd"
+   "detail": "3:42 - 2nd"
   },
   {
    "game_id": "401921671",
@@ -2684,7 +2684,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": null,
+    "score": 8,
     "winner": null
    },
    "away": {
@@ -2692,13 +2692,13 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:42 - 1st"
   },
   {
    "game_id": "401929005",
@@ -9188,5 +9188,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T03:12:14+00:00"
+ "live_at": "2026-11-26T03:40:24+00:00"
 }

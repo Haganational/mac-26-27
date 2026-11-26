@@ -3375,21 +3375,21 @@
     "key": null,
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 74,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "2400",
     "key": "mvsu",
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": 65,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:05 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921827",
@@ -10949,5 +10949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T03:33:10+00:00"
+ "live_at": "2026-11-26T04:05:58+00:00"
 }

@@ -27,9 +27,9 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 
 ## Barometer
 
-**57 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five LWWWL.
+**61 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -80,3 +80,5 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 - 2026-11-18: Social recap posted (L 68-75 vs Alabama State Hornets): https://hardwoodbricks.com/mw/games/401911521.html <!-- post:401911521:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:preview -->
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->
+- 2026-11-26: W 80-78 vs (neutral) Omaha Mavericks. Barometer 61 (steady). <!-- g:401911522 -->
+- 2026-11-26: Social recap posted (W 80-78 vs Omaha Mavericks): https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:recap -->
