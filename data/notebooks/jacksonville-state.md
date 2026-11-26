@@ -65,7 +65,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,4 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->
 - 2026-11-26: W 83-76 vs (neutral) Pacific Tigers. Barometer 57 (steady). <!-- g:401917544 -->
 - 2026-11-26: Social recap posted (W 83-76 vs Pacific Tigers): https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/cusa/games/401926783.html <!-- post:401926783:preview -->
