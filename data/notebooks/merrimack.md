@@ -63,7 +63,7 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -76,3 +76,4 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 - 2026-11-17: Social preview posted: https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:preview -->
 - 2026-11-19: L 60-65 vs Boston University Terriers. Barometer 35 (testy). <!-- g:401923401 -->
 - 2026-11-19: Social recap posted (L 60-65 vs Boston University Terriers): https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924810.html <!-- post:401924810:preview -->

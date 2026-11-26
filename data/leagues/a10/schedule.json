@@ -4207,7 +4207,7 @@
     "key": "saint-louis",
     "name": "Saint Louis Billikens",
     "abbr": "SLU",
-    "score": 0,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -4215,13 +4215,13 @@
     "key": null,
     "name": "Stanford Cardinal",
     "abbr": "STAN",
-    "score": 0,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_DELAYED",
+   "status": "STATUS_SCHEDULED",
    "completed": false,
-   "live": true,
-   "detail": "Delayed"
+   "live": false,
+   "detail": ""
   },
   {
    "game_id": "401921417",
@@ -13034,5 +13034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T05:11:44+00:00"
+ "live_at": "2026-11-26T06:06:06+00:00"
 }

@@ -3039,21 +3039,21 @@
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 77,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "279",
     "key": "pacific",
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 71,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917547",
@@ -9693,5 +9693,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T05:41:56+00:00"
+ "live_at": "2026-11-26T06:08:48+00:00"
 }

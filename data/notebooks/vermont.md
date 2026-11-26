@@ -71,7 +71,7 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:preview -->
 - 2026-11-25: L 88-98 at Siena Saints. Barometer 49 (steady). <!-- g:401920695 -->
 - 2026-11-25: Social recap posted (L 88-98 vs Siena Saints): https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924810.html <!-- post:401924810:preview -->

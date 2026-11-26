@@ -27,9 +27,9 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 
 ## Barometer
 
-**51 of 100, steady.** Record 3-3 (0-0 in conference), streak W1, last five LLWLW.
+**57 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five LWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,5 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 - 2026-11-21: Social recap posted (W 82-77 vs Georgia State Panthers): https://hardwoodbricks.com/sunbelt/games/401926782.html <!-- post:401926782:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:preview -->
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->
+- 2026-11-26: W 83-76 vs (neutral) Pacific Tigers. Barometer 57 (steady). <!-- g:401917544 -->
+- 2026-11-26: Social recap posted (W 83-76 vs Pacific Tigers): https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:recap -->
