@@ -69,7 +69,7 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Nora Lindgren taught Latin at a St. Paul parochial school for twenty-six years a
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:preview -->
 - 2026-11-26: L 77-86 at UNC Wilmington Seahawks. Barometer 57 (steady). <!-- g:401920847 -->
 - 2026-11-26: Social recap posted (L 77-86 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/cusa/games/401920848.html <!-- post:401920848:preview -->

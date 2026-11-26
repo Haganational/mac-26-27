@@ -2684,7 +2684,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": 39,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2692,13 +2692,13 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 47,
+    "score": 60,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:26 - 2nd"
+   "detail": "7:34 - 2nd"
   },
   {
    "game_id": "401929005",
@@ -2729,7 +2729,7 @@
     "key": "hawaii",
     "name": "Hawai'i Rainbow Warriors",
     "abbr": "HAW",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2737,13 +2737,13 @@
     "key": null,
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:59 - 1st"
   },
   {
    "game_id": "401911523",
@@ -9188,5 +9188,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T04:40:09+00:00"
+ "live_at": "2026-11-26T05:07:30+00:00"
 }
