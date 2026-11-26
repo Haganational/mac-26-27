@@ -72,7 +72,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:preview -->
 - 2026-11-24: W 91-73 vs Texas A&M-Corpus Christi Islanders. Barometer 84 (giddy). <!-- g:401919032 -->
 - 2026-11-24: Social recap posted (W 91-73 vs Texas A&M-Corpus Christi Islanders): https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401919033.html <!-- post:401919033:preview -->
