@@ -2795,21 +2795,21 @@
     "key": null,
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": 81,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "338",
     "key": "kennesaw-state",
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 61,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401917544",
@@ -9132,5 +9132,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:01:23+00:00"
+ "live_at": "2026-11-26T01:23:22+00:00"
 }

@@ -2557,7 +2557,7 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2565,13 +2565,13 @@
     "key": null,
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:18 - 1st"
   },
   {
    "game_id": "401920550",
@@ -9187,5 +9187,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T01:14:19+00:00"
 }

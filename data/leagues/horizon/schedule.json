@@ -3618,7 +3618,7 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 42,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -3626,13 +3626,13 @@
     "key": null,
     "name": "Case Western Reserve Spartans",
     "abbr": "CWRU",
-    "score": 24,
+    "score": 32,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:00 - 2nd"
   },
   {
    "game_id": "401920916",
@@ -3663,7 +3663,7 @@
     "key": null,
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": 32,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -3671,13 +3671,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 24,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:42 - 2nd"
   },
   {
    "game_id": "401921108",
@@ -3713,7 +3713,7 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 31,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -3721,13 +3721,13 @@
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 31,
+    "score": 38,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "17:13 - 2nd"
   },
   {
    "game_id": "401920753",
@@ -10653,5 +10653,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T00:52:28+00:00"
+ "live_at": "2026-11-26T01:13:28+00:00"
 }

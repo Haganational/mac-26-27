@@ -65,7 +65,7 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -79,3 +79,4 @@ Darla LaCour taught history at the high school in Natchitoches for twenty-eight 
 - 2026-11-21: Social recap posted (L 62-69 vs UT Arlington Mavericks): https://hardwoodbricks.com/southland/games/401925080.html <!-- post:401925080:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:preview -->
 - 2026-11-25: W 71-57 vs West Florida Argonauts. Barometer 45 (steady). <!-- g:401922253 -->
+- 2026-11-26: Social recap posted (W 71-57 vs West Florida Argonauts): https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:recap -->

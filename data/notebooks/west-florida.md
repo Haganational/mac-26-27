@@ -27,9 +27,9 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five WLLWL.
+**40 of 100, testy.** Record 3-5 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brianna editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,5 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 - 2026-11-22: L 66-79 at South Alabama Jaguars. Barometer 47 (steady). <!-- g:401922252 -->
 - 2026-11-22: Social recap posted (L 66-79 vs South Alabama Jaguars): https://hardwoodbricks.com/asun/games/401922252.html <!-- post:401922252:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:preview -->
+- 2026-11-25: L 57-71 at Northwestern State Demons. Barometer 40 (testy). <!-- g:401922253 -->
+- 2026-11-26: Social recap posted (L 57-71 vs Northwestern State Demons): https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:recap -->

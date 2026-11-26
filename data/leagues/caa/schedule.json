@@ -3383,21 +3383,21 @@
     "key": "charleston",
     "name": "Charleston Cougars",
     "abbr": "COFC",
-    "score": 78,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "338",
     "key": null,
     "name": "Kennesaw State Owls",
     "abbr": "KENN",
-    "score": 61,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911028",
@@ -3428,7 +3428,7 @@
     "key": null,
     "name": "Wisconsin Badgers",
     "abbr": "WIS",
-    "score": 46,
+    "score": 70,
     "winner": null
    },
    "away": {
@@ -3436,13 +3436,13 @@
     "key": "northeastern",
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": 24,
+    "score": 46,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "18:45 - 2nd"
+   "detail": "7:48 - 2nd"
   },
   {
    "game_id": "401920847",
@@ -3473,7 +3473,7 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 37,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -3481,13 +3481,13 @@
     "key": null,
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": 41,
+    "score": 52,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "12:37 - 2nd"
   },
   {
    "game_id": "401921416",
@@ -12120,5 +12120,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:00:37+00:00"
+ "live_at": "2026-11-26T01:22:29+00:00"
 }

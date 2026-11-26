@@ -27,9 +27,9 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-2 (0-0 in conference), streak L2, last five WWWLL.
+**59 of 100, steady.** Record 5-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Bea editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Bea editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,5 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 - 2026-11-25: L 69-80 vs (neutral) UTEP Miners. Barometer 52 (steady). <!-- g:401911535 -->
 - 2026-11-25: Social recap posted (L 69-80 vs UTEP Miners): https://hardwoodbricks.com/mw/games/401911535.html <!-- post:401911535:recap -->
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:preview -->
+- 2026-11-25: W 91-77 vs (neutral) Kennesaw State Owls. Barometer 59 (steady). <!-- g:401920549 -->
+- 2026-11-26: Social recap posted (W 91-77 vs Kennesaw State Owls): https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:recap -->

@@ -27,9 +27,9 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 
 ## Barometer
 
-**36 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**48 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Devon editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Devon editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -82,3 +82,5 @@ Devon Brooks grew up in Pacoima, the son of a Belizean-American mechanic and a V
 - 2026-11-20: L 92-97 vs Delaware Blue Hens. Barometer 36 (testy). <!-- g:401920298 -->
 - 2026-11-21: Social recap posted (L 92-97 vs Delaware Blue Hens): https://hardwoodbricks.com/bigwest/games/401920298.html <!-- post:401920298:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920299.html <!-- post:401920299:preview -->
+- 2026-11-25: W 89-67 at Weber State Wildcats. Barometer 48 (steady). <!-- g:401920299 -->
+- 2026-11-26: Social recap posted (W 89-67 vs Weber State Wildcats): https://hardwoodbricks.com/bigwest/games/401920299.html <!-- post:401920299:recap -->
