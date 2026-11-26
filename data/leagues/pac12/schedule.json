@@ -2402,7 +2402,7 @@
     "key": "colorado-state",
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 30,
+    "score": 55,
     "winner": null
    },
    "away": {
@@ -2410,13 +2410,13 @@
     "key": null,
     "name": "Clemson Tigers",
     "abbr": "CLEM",
-    "score": 19,
+    "score": 28,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:47 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920528",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T06:07:50+00:00"
+ "live_at": "2026-11-26T06:39:43+00:00"
 }

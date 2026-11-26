@@ -74,7 +74,7 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -93,3 +93,4 @@ Brett Callahan grew up in Struthers, Ohio, the son of a steelworker and a lunch 
 - 2026-11-22: Social recap posted (L 63-75 vs William & Mary Tribe): https://hardwoodbricks.com/horizon/games/401918455.html <!-- post:401918455:recap -->
 - 2026-11-23: W 69-65 vs Maryland Eastern Shore Hawks. Barometer 44 (testy). <!-- g:401920752 -->
 - 2026-11-24: Social recap posted (W 69-65 vs Maryland Eastern Shore Hawks): https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/horizon/games/401920753.html <!-- post:401920753:preview -->
