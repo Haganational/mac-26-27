@@ -64,7 +64,7 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:preview -->
 - 2026-11-25: L 58-82 at James Madison Dukes. Barometer 32 (testy). <!-- g:401911379 -->
 - 2026-11-25: Social recap posted (L 58-82 vs James Madison Dukes): https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/socon/games/401911380.html <!-- post:401911380:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T18:18:38+00:00",
+ "fetched_at": "2026-11-26T12:19:04+00:00",
  "season": 2027,
  "games": [
   {
@@ -3497,11 +3497,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679896?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -3528,7 +3524,7 @@
   },
   {
    "game_id": "401917182",
-   "date": "2026-11-25T22:00Z",
+   "date": "2026-11-26T00:00Z",
    "name": "Memphis Tigers at Penn State Nittany Lions",
    "short_name": "MEM VS PSU",
    "season_type": "reg",
@@ -3537,7 +3533,7 @@
    "time_tba": false,
    "broadcasts": [
     {
-     "name": "ESPNU",
+     "name": "ESPN2",
      "kind": "TV",
      "market": "National"
     }
@@ -3604,6 +3600,41 @@
     "key": null,
     "name": "Army Black Knights",
     "abbr": "ARMY",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929288",
+   "date": "2026-11-27T18:30Z",
+   "name": "Wake Forest Demon Deacons at Memphis Tigers",
+   "short_name": "WAKE VS MEM",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [],
+   "tickets": null,
+   "venue": "Imperial Arena",
+   "venue_city": "Nassau",
+   "venue_state": "Bahamas",
+   "home": {
+    "espn_id": "235",
+    "key": "memphis",
+    "name": "Memphis Tigers",
+    "abbr": "MEM",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "154",
+    "key": null,
+    "name": "Wake Forest Demon Deacons",
+    "abbr": "WAKE",
     "score": null,
     "winner": null
    },
@@ -3761,7 +3792,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 14.0,
+    "low": 13.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3892,7 +3923,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-29-2026--sports-ncaa-basketball/production/7612563?wsUser=717",
-    "low": 19.0,
+    "low": 15.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -4072,7 +4103,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-charlotte-49ers-mens-basketball-tickets-halton-arena-11-29-2026--sports-ncaa-basketball/production/7790802?wsUser=717",
-    "low": 52.0,
+    "low": 63.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Halton Arena",
@@ -5505,7 +5536,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/south-florida-bulls-mens-basketball-tickets-yuengling-center-12-9-2026--sports-ncaa-basketball/production/7413177?wsUser=717",
-    "low": 13.0,
+    "low": 11.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Yuengling Center",
@@ -5804,7 +5835,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/hall-of-fame-series-tickets-kia-center-12-12-2026--sports-ncaa-basketball/production/7419675?wsUser=717",
-    "low": 87.0,
+    "low": 69.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Kia Center",
@@ -6070,7 +6101,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/coast-to-coast-challenge-tickets-dickies-arena-12-13-2026--sports-ncaa-basketball/production/7506172?wsUser=717",
-    "low": 51.0,
+    "low": 47.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Ariat Arena",
@@ -6520,7 +6551,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-12-17-2026--sports-ncaa-basketball/production/7632077?wsUser=717",
-    "low": 17.0,
+    "low": 16.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Bartow Arena",
@@ -7458,7 +7489,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 28.0,
+    "low": 26.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Jadwin Gymnasium",
@@ -7548,7 +7579,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-12-27-2026--sports-ncaa-basketball/production/7612571?wsUser=717",
-    "low": 34.0,
+    "low": 33.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -8526,7 +8557,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/unc-charlotte-49ers-mens-basketball-tickets-halton-arena-1-10-2027--sports-ncaa-basketball/production/7630793?wsUser=717",
-    "low": 32.0,
+    "low": 33.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Halton Arena",
@@ -12258,6 +12289,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T02:20:51+00:00"
+ ]
 }

@@ -65,7 +65,7 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -84,3 +84,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:preview -->
 - 2026-11-25: L 83-90 vs Binghamton Bearcats. Barometer 56 (steady). <!-- g:401911279 -->
 - 2026-11-25: Social recap posted (L 83-90 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:preview -->

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T18:14:43+00:00",
+ "fetched_at": "2026-11-26T12:15:39+00:00",
  "season": 2027,
  "games": [
   {
@@ -3905,7 +3905,7 @@
     "name": "Fordham Rams",
     "abbr": "FOR",
     "score": 104,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2384",
@@ -3913,7 +3913,7 @@
     "name": "Mercy Mavericks",
     "abbr": "MRCY",
     "score": 56,
-    "winner": null
+    "winner": false
    },
    "status": "STATUS_FINAL",
    "completed": true,
@@ -3977,11 +3977,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-11-25-2026--sports-ncaa-basketball/production/7462733?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Thomas M. Ryan Center",
    "venue_city": "Kingston",
    "venue_state": "RI",
@@ -4022,11 +4018,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/mens-fort-myers-tip-off-tickets-suncoast-credit-union-arena-11-25-2026--sports-ncaa-basketball/production/7679896?wsUser=717",
-    "low": 65.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Suncoast Credit Union Arena",
    "venue_city": "Fort Myers",
    "venue_state": "FL",
@@ -4067,11 +4059,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-25-2026--sports-ncaa-basketball/production/7290629?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Robins Center",
    "venue_city": "Richmond",
    "venue_state": "VA",
@@ -4112,11 +4100,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-25-2026--sports-ncaa-basketball/production/7627363?wsUser=717",
-    "low": 11.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "EagleBank Arena",
    "venue_city": "Fairfax",
    "venue_state": "VA",
@@ -4184,7 +4168,7 @@
   },
   {
    "game_id": "401921672",
-   "date": "2026-11-26T04:59Z",
+   "date": "2026-11-26T06:08Z",
    "name": "Stanford Cardinal at Saint Louis Billikens",
    "short_name": "STAN VS SLU",
    "season_type": "reg",
@@ -4327,7 +4311,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/harvard-crimson-mens-basketball-tickets-lavietes-pavilion-11-24-2026--sports-ncaa-basketball/production/7467535?wsUser=717",
-    "low": 41.0,
+    "low": 25.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Lavietes Pavilion",
@@ -4417,7 +4401,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/richmond-spiders-mens-basketball-tickets-robins-center-11-28-2026--sports-ncaa-basketball/production/7290631?wsUser=717",
-    "low": 13.0,
+    "low": 12.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Robins Center",
@@ -4602,7 +4586,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/umass-minutemen-mens-basketball-tickets-mullins-center-11-29-2026--sports-ncaa-basketball/production/7662344?wsUser=717",
-    "low": 24.0,
+    "low": 20.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Mullins Center",
@@ -4647,7 +4631,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/florida-atlantic-owls-mens-basketball-tickets-eleanor-r-baldwin-arena-11-29-2026--sports-ncaa-basketball/production/7612563?wsUser=717",
-    "low": 19.0,
+    "low": 15.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Abessinio Court at Eleanor R. Baldwin Arena",
@@ -4742,7 +4726,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-12-1-2026--sports-ncaa-basketball/production/7609089?wsUser=717",
-    "low": 36.0,
+    "low": 25.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -5879,7 +5863,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-12-9-2026--sports-ncaa-basketball/production/7625622?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Charles E. Smith Center",
@@ -6344,7 +6328,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/hall-of-fame-series-tickets-kia-center-12-12-2026--sports-ncaa-basketball/production/7419675?wsUser=717",
-    "low": 87.0,
+    "low": 69.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Kia Center",
@@ -8650,7 +8634,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/vcu-rams-mens-basketball-tickets-stuart-c-siegel-center-10-7-2026--sports-ncaa-basketball/production/7188142?wsUser=717",
-    "low": 47.0,
+    "low": 52.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Siegel Center",
@@ -9040,7 +9024,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-10-4-2026--sports-ncaa-basketball/production/7187938?wsUser=717",
-    "low": 30.0,
+    "low": 31.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -11918,7 +11902,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-2-20-2027--sports-ncaa-basketball/production/7830129?wsUser=717",
-    "low": 97.0,
+    "low": 99.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -12343,7 +12327,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-10-6-2026--sports-ncaa-basketball/production/7188014?wsUser=717",
-    "low": 43.0,
+    "low": 44.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",
@@ -12538,7 +12522,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-ramblers-mens-basketball-tickets-joseph-j-gentile-arena-10-9-2026--sports-ncaa-basketball/production/7188020?wsUser=717",
-    "low": 40.0,
+    "low": 41.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Gentile Arena",
@@ -13033,6 +13017,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-26T08:08:06+00:00"
+ ]
 }

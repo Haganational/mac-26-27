@@ -1,0 +1,139 @@
+{
+ "date": "2026-11-26",
+ "locked_at": "2026-11-26T12:36+00:00",
+ "board": 7,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401917546",
+    "tip": "2026-11-27T03:30Z",
+    "matchup": "Pacific Tigers vs. Omaha Mavericks",
+    "side": "under",
+    "line": 139.5,
+    "label": "Under 139.5",
+    "why": "Model has it 1.8 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401911523",
+    "tip": "2026-11-27T01:00Z",
+    "matchup": "Jacksonville State Gamecocks vs. UC Davis Aggies",
+    "side": "home",
+    "team": "UC Davis Aggies",
+    "abbr": "UCD",
+    "line": 2.0,
+    "label": "UC Davis Aggies +2",
+    "why": "Third-stingiest defense on the board: 68.2 allowed a game."
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401917547",
+    "tip": "2026-11-26T22:00Z",
+    "matchup": "Saint Mary's Gaels vs. UCLA Bruins",
+    "side": "over",
+    "line": 152.5,
+    "label": "Over 152.5",
+    "why": "Model has it 7.3 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401917547",
+    "tip": "2026-11-26T22:00Z",
+    "matchup": "Saint Mary's Gaels vs. UCLA Bruins",
+    "side": "away",
+    "team": "Saint Mary's Gaels",
+    "abbr": "SMC",
+    "line": 7.5,
+    "label": "Saint Mary's Gaels +7.5",
+    "why": "Second-highest scoring team on the board: 93.9 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401911523",
+    "tip": "2026-11-27T01:00Z",
+    "matchup": "Jacksonville State Gamecocks vs. UC Davis Aggies",
+    "side": "away",
+    "team": "Jacksonville State Gamecocks",
+    "abbr": "JXST",
+    "line": -2.0,
+    "label": "Jacksonville State Gamecocks -2",
+    "why": "Model is 5.2 points off the number."
+   },
+   {
+    "kind": "side",
+    "game": "401912231",
+    "tip": "2026-11-26T17:00Z",
+    "matchup": "Army Black Knights at UTSA Roadrunners",
+    "side": "away",
+    "team": "Army Black Knights",
+    "abbr": "ARMY",
+    "line": 12.5,
+    "label": "Army Black Knights +12.5",
+    "why": "Model is 2.2 points off the number."
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401912231",
+    "tip": "2026-11-26T17:00Z",
+    "matchup": "Army Black Knights at UTSA Roadrunners",
+    "side": "home",
+    "team": "UTSA Roadrunners",
+    "abbr": "UTSA",
+    "line": -12.5,
+    "label": "UTSA Roadrunners -12.5",
+    "why": "Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money."
+   },
+   {
+    "kind": "total",
+    "game": "401912231",
+    "tip": "2026-11-26T17:00Z",
+    "matchup": "Army Black Knights at UTSA Roadrunners",
+    "side": "over",
+    "line": 149.5,
+    "label": "Over 149.5",
+    "why": "A fella named Dutch, who I will not describe, says the shrimp at the Neptune Lounge came in on the wrong truck. I'm on the over. You didn't hear it from me."
+   }
+  ]
+ },
+ "column": {
+  "byline": "brett",
+  "by": "Brett Busberger",
+  "head": "Picks are in for Thursday",
+  "paras": [
+   "I don't have feelings about games. I have deltas.",
+   "Everybody broke about even last night. Brett and the rest, 1-1.",
+   "St. Thomas Tommies +7 lost with 10 seconds left in overtime on a free throw. The machine calls that variance. I call it rude.",
+   "Merv's Under 146.5 died with 1:45 left in overtime, on Jonny Jordan Jr.'s free throw."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 139.5. Model has it 1.8 under the total. Nobody's scoring on anybody in my world. UC Davis Aggies +2. Third-stingiest defense on the board: 68.2 allowed a game. I've seen that team guard a man into retirement."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 152.5. Model has it 7.3 over the total. Turn the scoreboard up, honey. Saint Mary's Gaels +7.5. Second-highest scoring team on the board: 93.9 a game. I want the team that brings the buckets."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Jacksonville State Gamecocks -2. Model is 5.2 points off the number. Big number, big hair, big night. Army Black Knights +12.5. Model is 2.2 points off the number. The spreadsheet has spoken."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "UTSA Roadrunners -12.5. Closest thing to a home dog in my window tonight. A building that owes me money is a building that owes me money. Over 149.5. A fella named Dutch, who I will not describe, says the shrimp at the Neptune Lounge came in on the wrong truck. I'm on the over. You didn't hear it from me."
+   }
+  ],
+  "close": "Season ledger: Merv leads at 9-4-1, +4.19 units."
+ }
+}
