@@ -43,7 +43,7 @@ SITE_NOINDEX = os.environ.get("SITE_NOINDEX", "").strip().lower() in ("1", "true
 SEARCH = {
     "google": os.environ.get("GOOGLE_SITE_VERIFICATION", "").strip(),
     "bing": os.environ.get("BING_SITE_VERIFICATION", "").strip(),
-    "beacon": os.environ.get("CF_ANALYTICS_TOKEN", "").strip(),
+    "beacon": os.environ.get("CF_ANALYTICS_TOKEN", "").strip() or "8acdfe669daa4ae9a2c2b22747d27eed",  # hardwoodbricks.com, set up Nov 25 2026
 }
 
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"

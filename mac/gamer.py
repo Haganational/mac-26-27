@@ -317,6 +317,14 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
         ot = " in overtime"
     lede = f"{wn} {verb} {ln} {w['score']}-{l['score']}{ot}{where}."
     headline = f"{wn} {verb} {ln} {w['score']}-{l['score']}"
+    # The <title> (Matthew, Nov 25 2026, local search): the score line and the words people search for, plus the date.
+    try:
+        from zoneinfo import ZoneInfo
+        _d = datetime.fromisoformat(g["date"].replace("Z", "+00:00")).astimezone(ZoneInfo("America/New_York"))
+        _day = f" · {_d.strftime('%b')} {_d.day}"
+    except (KeyError, ValueError):
+        _day = ""
+    title = f"{wn} {w['score']}, {ln} {l['score']}{' (OT)' if ot else ''}: recap and box score{_day}"
 
     paras = [lede]
     tw, tl = _top(w.get("players", [])), _top(l.get("players", []))
@@ -395,7 +403,7 @@ def write(c: dict[str, Any], mp: dict[str, Any] | None = None, flavor: dict[str,
         notes = bench_notes(us, them, un, tn, (other == hk2) == home_won, us_spread, margin, " ".join(paras))
     if not notes:
         second = None
-    return {"headline": headline, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
+    return {"headline": headline, "title": title, "paragraphs": paras, "flavor": flavor_lines(g, flavor, names),
             "scoring": scoring_line([(wn, w.get("players", [])), (ln, l.get("players", []))]),
             "byline": press.byline(press.lead_key(hk, ak)) or staff, "staff": staff, "lead": press.desk(press.lead_key(hk, ak)), "asides": asides,
             "second": second, "notes": notes, "second_color": _color(other) if second else None}

@@ -476,7 +476,7 @@ def json_ld(eds: list[dict[str, Any]], base: str = SITE_BASE, mh: dict[str, Any]
     ]}
 
 
-PRIVACY_UPDATED = "November 14, 2026"
+PRIVACY_UPDATED = "November 25, 2026"
 
 
 def nobreak(text: str) -> Markup:
@@ -536,6 +536,8 @@ def build(site_root: Path | None = None, base: str = SITE_BASE) -> Path:
     site_root.mkdir(parents=True, exist_ok=True)
     (site_root / "index.html").write_text(html)
     (site_root / "robots.txt").write_text(robots(base))
+    from . import indexnow
+    indexnow.key_file(site_root)  # proves our IndexNow pings (mac/indexnow.py)
     try:  # Our towns: a landing page per college town (local search). Never takes the front page down.
         from . import towns
         towns.build(site_root, base, eds, now)
