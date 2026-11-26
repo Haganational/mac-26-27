@@ -27,9 +27,9 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 
 ## Barometer
 
-**64 of 100, steady.** Record 4-2 (0-0 in conference), streak W2, last five WWLWW.
+**53 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ximena editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ximena editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Ximena Salazar grew up on the South Side of San Antonio and coached high school 
 - 2026-11-21: W 90-68 vs Air Force Falcons. Barometer 64 (steady). <!-- g:401911337 -->
 - 2026-11-22: Social recap posted (W 90-68 vs Air Force Falcons): https://hardwoodbricks.com/mw/games/401911337.html <!-- post:401911337:recap -->
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/american/games/401912231.html <!-- post:401912231:preview -->
+- 2026-11-26: L 61-79 vs Army Black Knights. Barometer 53 (steady). <!-- g:401912231 -->
+- 2026-11-26: Social recap posted (L 61-79 vs Army Black Knights): https://hardwoodbricks.com/american/games/401912231.html <!-- post:401912231:recap -->

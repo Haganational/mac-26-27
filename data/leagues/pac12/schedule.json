@@ -2439,7 +2439,7 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": 21,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2447,13 +2447,13 @@
     "key": null,
     "name": "Maryland Terrapins",
     "abbr": "MD",
-    "score": 13,
+    "score": 31,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "6:03 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401921673",
@@ -8380,5 +8380,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T18:44:56+00:00"
+ "live_at": "2026-11-26T19:11:23+00:00"
 }
