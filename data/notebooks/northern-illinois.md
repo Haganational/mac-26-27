@@ -69,7 +69,7 @@ Rachelle Novak grew up in Downers Grove and spent twenty years as a crop insuran
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

@@ -4166,7 +4166,7 @@
     "key": "vcu",
     "name": "VCU Rams",
     "abbr": "VCU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -4174,13 +4174,13 @@
     "key": null,
     "name": "Washington Huskies",
     "abbr": "WASH",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "12:51 - 1st"
   },
   {
    "game_id": "401921672",
@@ -13034,5 +13034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T02:17:08+00:00"
+ "live_at": "2026-11-26T03:16:03+00:00"
 }

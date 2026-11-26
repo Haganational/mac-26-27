@@ -69,7 +69,7 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 4
 
 ## Log
 

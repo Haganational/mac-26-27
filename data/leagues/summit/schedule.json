@@ -2715,21 +2715,21 @@
     "key": null,
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 68,
-    "winner": null
+    "score": 80,
+    "winner": true
    },
    "away": {
     "espn_id": "2437",
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 66,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:09 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401917546",
@@ -8053,5 +8053,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T02:59:35+00:00"
+ "live_at": "2026-11-26T03:27:01+00:00"
 }

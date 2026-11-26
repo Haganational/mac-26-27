@@ -68,7 +68,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

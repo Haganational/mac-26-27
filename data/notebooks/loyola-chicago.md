@@ -68,7 +68,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

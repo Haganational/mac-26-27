@@ -27,9 +27,9 @@ Tess Kowalczyk grew up in South Omaha and worked her way through college as an u
 
 ## Barometer
 
-**46 of 100, steady.** Record 3-3 (0-0 in conference), streak L1, last five LLWWL.
+**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -83,3 +83,4 @@ Tess Kowalczyk grew up in South Omaha and worked her way through college as an u
 - 2026-11-18: Social recap posted (L 74-104 vs Lamar Cardinals): https://hardwoodbricks.com/southland/games/401925012.html <!-- post:401925012:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:preview -->
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/wcc/games/401917546.html <!-- post:401917546:preview -->
+- 2026-11-26: L 78-80 vs (neutral) UC Davis Aggies. Barometer 42 (testy). <!-- g:401911522 -->
