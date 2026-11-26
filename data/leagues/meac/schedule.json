@@ -2400,7 +2400,7 @@
     "key": null,
     "name": "NC State Wolfpack",
     "abbr": "NCSU",
-    "score": null,
+    "score": 14,
     "winner": null
    },
    "away": {
@@ -2408,13 +2408,13 @@
     "key": "norfolk-state",
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:09 - 1st"
   },
   {
    "game_id": "401911395",
@@ -7613,5 +7613,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T00:12:19+00:00"
 }

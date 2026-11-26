@@ -1,6 +1,6 @@
 # Frank Moriarty, The Worcester Clarion
 
-_Holy Cross (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
+_Holy Cross (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-26._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 
 ## Barometer
 
-**15 of 100, despondent.** Record 0-6 (0-0 in conference), streak L6, last five LLLLL.
+**35 of 100, testy.** Record 1-6 (0-0 in conference), streak W1, last five LLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Frank editorializes: 82% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Frank editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Frank Moriarty edits The Worcester Clarion and believes every Crusaders win dese
 - 2026-11-21: L 65-77 vs Harvard Crimson. Barometer 15 (despondent). <!-- g:401920357 -->
 - 2026-11-21: Social recap posted (L 65-77 vs Harvard Crimson): https://hardwoodbricks.com/ivy/games/401920357.html <!-- post:401920357:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401920237.html <!-- post:401920237:preview -->
+- 2026-11-25: W 67-65 at Dartmouth Big Green. Barometer 35 (testy). <!-- g:401920237 -->

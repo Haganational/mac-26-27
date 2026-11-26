@@ -1,6 +1,6 @@
 # Darius Hill, The Lorman Banner
 
-_Alcorn State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
+_Alcorn State (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-26._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 
 ## Barometer
 
-**10 of 100, despondent.** Record 0-7 (0-0 in conference), streak L7, last five LLLLL.
+**9 of 100, despondent.** Record 0-8 (0-0 in conference), streak L8, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 85% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 86% of stories right now.
 
 ## School and town
 
@@ -68,3 +68,4 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/pac12/games/401925688.html <!-- post:401925688:preview -->
 - 2026-11-25: L 41-83 at Louisiana Tech Bulldogs. Barometer 10 (despondent). <!-- g:401925687 -->
 - 2026-11-25: Social recap posted (L 41-83 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:recap -->
+- 2026-11-25: L 70-97 vs (neutral) Texas State Bobcats. Barometer 9 (despondent). <!-- g:401925688 -->

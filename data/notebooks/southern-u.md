@@ -1,6 +1,6 @@
 # Monique Batiste, The Baton Rouge Courier
 
-_Southern (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-25._
+_Southern (SWAC). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-26._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 
 ## Barometer
 
-**37 of 100, testy.** Record 1-5 (0-0 in conference), streak W1, last five LLLLW.
+**32 of 100, testy.** Record 1-6 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 71% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -78,3 +78,5 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 - 2026-11-17: W 100-58 vs Louisiana Christian Wildcats. Barometer 37 (testy). <!-- g:401928360 -->
 - 2026-11-17: Social recap posted (W 100-58 vs Louisiana Christian Wildcats): https://hardwoodbricks.com/swac/games/401928360.html <!-- post:401928360:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:preview -->
+- 2026-11-25: L 72-101 at Nebraska Cornhuskers. Barometer 32 (testy). <!-- g:401926065 -->
+- 2026-11-26: Social recap posted (L 72-101 vs Nebraska Cornhuskers): https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:recap -->

@@ -2674,7 +2674,7 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -2682,13 +2682,13 @@
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:29 - 1st"
   },
   {
    "game_id": "401911522",
@@ -8053,5 +8053,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T22:33:34+00:00"
+ "live_at": "2026-11-26T00:05:37+00:00"
 }

@@ -3055,21 +3055,21 @@
     "key": null,
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
-    "score": 45,
-    "winner": null
+    "score": 65,
+    "winner": false
    },
    "away": {
     "espn_id": "2502",
     "key": "portland-state",
     "name": "Portland State Vikings",
     "abbr": "PRST",
-    "score": 50,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "11:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920299",
@@ -3096,7 +3096,7 @@
     "key": "weber-state",
     "name": "Weber State Wildcats",
     "abbr": "WEB",
-    "score": 18,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -3104,13 +3104,13 @@
     "key": null,
     "name": "Cal State Northridge Matadors",
     "abbr": "CSUN",
-    "score": 35,
+    "score": 52,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:19 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401917545",
@@ -9796,5 +9796,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T23:32:19+00:00"
+ "live_at": "2026-11-26T00:03:18+00:00"
 }

@@ -3240,21 +3240,21 @@
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 87,
-    "winner": null
+    "score": 97,
+    "winner": true
    },
    "away": {
     "espn_id": "2016",
     "key": "alcorn",
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
-    "score": 57,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "5:40 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926065",
@@ -3285,21 +3285,21 @@
     "key": null,
     "name": "Nebraska Cornhuskers",
     "abbr": "NEB",
-    "score": 94,
-    "winner": null
+    "score": 101,
+    "winner": true
    },
    "away": {
     "espn_id": "2582",
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": 63,
-    "winner": null
+    "score": 72,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:29 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911241",
@@ -3330,7 +3330,7 @@
     "key": null,
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 27,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -3338,13 +3338,13 @@
     "key": "bethune-cookman",
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 26,
+    "score": 43,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:04 - 1st"
+   "detail": "16:00 - 2nd"
   },
   {
    "game_id": "401924897",
@@ -10949,5 +10949,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T23:40:05+00:00"
+ "live_at": "2026-11-26T00:13:13+00:00"
 }

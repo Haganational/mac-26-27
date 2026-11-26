@@ -2561,7 +2561,7 @@
     "key": null,
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 4,
     "winner": null
    },
    "away": {
@@ -2569,13 +2569,13 @@
     "key": "longwood",
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:47 - 1st"
   },
   {
    "game_id": "401922285",
@@ -2602,7 +2602,7 @@
     "key": null,
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -2610,13 +2610,13 @@
     "key": "usc-upstate",
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:07 - 1st"
   },
   {
    "game_id": "401912213",
@@ -8837,5 +8837,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T00:07:29+00:00"
 }
