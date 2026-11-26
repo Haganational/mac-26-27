@@ -700,6 +700,7 @@ def scene_setters(tonight: list[dict[str, Any]], flavor: dict[str, Any], on: str
     return out
 
 
+_NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
 CANON: dict[str, str] = {}  # game id -> canonical URL in another edition; those pages stay out of our sitemaps
 
 
@@ -885,9 +886,16 @@ def finish_site(games: list[dict[str, Any]], have_box: set[str], profiles: dict[
         for root_page in ("masthead.html", "media.html", "privacy.html"):
             if SITE_DIR / root_page not in pages:
                 pages.append(SITE_DIR / root_page)
+    # Never list a page that asks search engines to stay away (desk shortcuts like darin/, the Den embed):
+    # Search Console flags every one as "Excluded by 'noindex' tag" (Matthew, Nov 26 2026).
+    def _noindex(f: Path) -> bool:
+        try:
+            return bool(_NOINDEX.search(f.read_text(errors="ignore")[:4000]))
+        except OSError:
+            return False
     (SITE_DIR / "sitemap.xml").write_text(site_chrome.sitemap(
         f.relative_to(SITE_DIR).as_posix() for f in pages if not f.name.startswith("_") and f.name != "desk.html"
-        and not (f.parent.name == "games" and f.stem in CANON)))
+        and not (f.parent.name == "games" and f.stem in CANON) and (SITE_NOINDEX or not _noindex(f))))
 
     if not site_chrome.pillow_ok():
         print("share cards: skipped (Pillow not installed)")
