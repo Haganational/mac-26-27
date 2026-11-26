@@ -27,9 +27,9 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WWLWL.
+**43 of 100, testy.** Record 4-4 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hattie editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-21: L 68-74 at East Tennessee State Buccaneers. Barometer 52 (steady). <!-- g:401922048 -->
 - 2026-11-22: Social recap posted (L 68-74 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->
+- 2026-11-26: L 58-93 at George Mason Patriots. Barometer 43 (testy). <!-- g:401920076 -->

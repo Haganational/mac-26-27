@@ -27,9 +27,9 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 
 ## Barometer
 
-**26 of 100, despondent.** Record 1-6 (0-0 in conference), streak L3, last five LWLLL.
+**20 of 100, despondent.** Record 1-7 (0-0 in conference), streak L4, last five WLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 75% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darius editorializes: 79% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 - 2026-11-21: L 66-85 at UNC Greensboro Spartans. Barometer 26 (despondent). <!-- g:401922284 -->
 - 2026-11-21: Social recap posted (L 66-85 vs UNC Greensboro Spartans): https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/socon/games/401922285.html <!-- post:401922285:preview -->
+- 2026-11-26: L 54-72 at The Citadel Bulldogs. Barometer 20 (despondent). <!-- g:401922285 -->
