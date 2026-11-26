@@ -64,7 +64,7 @@ Alicia Kowalczyk grew up within earshot of the Falls and spent years narrating t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -78,3 +78,4 @@ Alicia Kowalczyk grew up within earshot of the Falls and spent years narrating t
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:preview -->
 - 2026-11-21: W 103-101 at Delaware State Hornets. Barometer 37 (testy). <!-- g:401924844 -->
 - 2026-11-21: Social recap posted (W 103-101 vs Delaware State Hornets): https://hardwoodbricks.com/metro/games/401924844.html <!-- post:401924844:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924845.html <!-- post:401924845:preview -->

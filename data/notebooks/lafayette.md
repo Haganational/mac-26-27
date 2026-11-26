@@ -67,7 +67,7 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/patriot/games/401909719.html <!-- post:401909719:preview -->
 - 2026-11-21: L 81-84 at Syracuse Orange. Barometer 47 (steady). <!-- g:401909719 -->
 - 2026-11-21: Social recap posted (L 81-84 vs Syracuse Orange): https://hardwoodbricks.com/patriot/games/401909719.html <!-- post:401909719:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924845.html <!-- post:401924845:preview -->
