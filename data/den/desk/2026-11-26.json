@@ -1,0 +1,199 @@
+{
+ "date": "2026-11-26",
+ "desk": {
+  "anchor": {
+   "alt": "Tess Kowalczyk, the Omaha AI anchor",
+   "color": "#D71920",
+   "color2": "#000000",
+   "initials": "TK",
+   "ink": "#ffffff",
+   "key": "omaha",
+   "name": "Tess Kowalczyk",
+   "portrait": "den/anchors/omaha.webp",
+   "school": "Omaha",
+   "tag": "AI anchor"
+  },
+  "max": 213,
+  "picks": [
+   {
+    "abbr": "OMA",
+    "game_id": "401917546",
+    "kind": "homer",
+    "short": "Omaha",
+    "side": "home",
+    "team_id": "2437",
+    "tip": "2026-11-27T03:30Z",
+    "why": "Homer pick: the anchor's own school, always.",
+    "worth": 76
+   },
+   {
+    "abbr": "CSU",
+    "game_id": "401921714",
+    "kind": "ratings",
+    "short": "Colorado St",
+    "side": "home",
+    "team_id": "36",
+    "tip": "2026-11-26T05:30Z",
+    "why": "Our ratings 55%, pregame win chance 38%.",
+    "worth": 62
+   },
+   {
+    "abbr": "MD",
+    "game_id": "401920528",
+    "kind": "ratings",
+    "short": "Maryland",
+    "side": "home",
+    "team_id": "120",
+    "tip": "2026-11-26T18:00Z",
+    "why": "Our ratings 51%, pregame win chance 64%.",
+    "worth": 36
+   },
+   {
+    "abbr": "GONZ",
+    "game_id": "401920540",
+    "kind": "ratings",
+    "short": "Gonzaga",
+    "side": "home",
+    "team_id": "2250",
+    "tip": "2026-11-27T04:30Z",
+    "why": "Our ratings 73%, pregame win chance 61%.",
+    "worth": 39
+   }
+  ],
+  "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
+ },
+ "homer": [
+  {
+   "abbr": "CSU",
+   "game_id": "401921714",
+   "key": "colorado-state",
+   "kind": "homer",
+   "short": "Colorado St",
+   "side": "home",
+   "team_id": "36",
+   "tip": "2026-11-26T05:30Z",
+   "why": "Homer pick.",
+   "worth": 62
+  },
+  {
+   "abbr": "UTSA",
+   "game_id": "401912231",
+   "key": "utsa",
+   "kind": "homer",
+   "short": "UTSA",
+   "side": "home",
+   "team_id": "2636",
+   "tip": "2026-11-26T17:00Z",
+   "why": "Homer pick.",
+   "worth": 12
+  },
+  {
+   "abbr": "ARMY",
+   "game_id": "401912231",
+   "key": "army",
+   "kind": "homer",
+   "short": "Army",
+   "side": "away",
+   "team_id": "349",
+   "tip": "2026-11-26T17:00Z",
+   "why": "Homer pick.",
+   "worth": 89
+  },
+  {
+   "abbr": "SDSU",
+   "game_id": "401920528",
+   "key": "san-diego-state",
+   "kind": "homer",
+   "short": "San Diego St",
+   "side": "away",
+   "team_id": "21",
+   "tip": "2026-11-26T18:00Z",
+   "why": "Homer pick.",
+   "worth": 64
+  },
+  {
+   "abbr": "USU",
+   "game_id": "401921673",
+   "key": "utah-state",
+   "kind": "homer",
+   "short": "Utah State",
+   "side": "away",
+   "team_id": "328",
+   "tip": "2026-11-26T21:30Z",
+   "why": "Homer pick.",
+   "worth": 58
+  },
+  {
+   "abbr": "SMC",
+   "game_id": "401917547",
+   "key": "saint-marys",
+   "kind": "homer",
+   "short": "Saint Mary's",
+   "side": "away",
+   "team_id": "2608",
+   "tip": "2026-11-26T22:00Z",
+   "why": "Homer pick.",
+   "worth": 74
+  },
+  {
+   "abbr": "UCD",
+   "game_id": "401911523",
+   "key": "uc-davis",
+   "kind": "homer",
+   "short": "UC Davis",
+   "side": "home",
+   "team_id": "302",
+   "tip": "2026-11-27T01:00Z",
+   "why": "Homer pick.",
+   "worth": 54
+  },
+  {
+   "abbr": "JVST",
+   "game_id": "401911523",
+   "key": "jacksonville-state",
+   "kind": "homer",
+   "short": "Jacksonville State",
+   "side": "away",
+   "team_id": "55",
+   "tip": "2026-11-27T01:00Z",
+   "why": "Homer pick.",
+   "worth": 46
+  },
+  {
+   "abbr": "OMA",
+   "game_id": "401917546",
+   "key": "omaha",
+   "kind": "homer",
+   "short": "Omaha",
+   "side": "home",
+   "team_id": "2437",
+   "tip": "2026-11-27T03:30Z",
+   "why": "Homer pick.",
+   "worth": 76
+  },
+  {
+   "abbr": "PAC",
+   "game_id": "401917546",
+   "key": "pacific",
+   "kind": "homer",
+   "short": "Pacific",
+   "side": "away",
+   "team_id": "279",
+   "tip": "2026-11-27T03:30Z",
+   "why": "Homer pick.",
+   "worth": 24
+  },
+  {
+   "abbr": "GONZ",
+   "game_id": "401920540",
+   "key": "gonzaga",
+   "kind": "homer",
+   "short": "Gonzaga",
+   "side": "home",
+   "team_id": "2250",
+   "tip": "2026-11-27T04:30Z",
+   "why": "Homer pick.",
+   "worth": 39
+  }
+ ]
+}
