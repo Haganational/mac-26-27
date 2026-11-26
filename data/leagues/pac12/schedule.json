@@ -2439,7 +2439,7 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2447,13 +2447,13 @@
     "key": null,
     "name": "Maryland Terrapins",
     "abbr": "MD",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:03 - 1st"
   },
   {
    "game_id": "401921673",
@@ -8379,5 +8379,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T18:44:56+00:00"
 }
