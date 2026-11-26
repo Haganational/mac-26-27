@@ -65,7 +65,7 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -82,3 +82,4 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401911523.html <!-- post:401911523:preview -->
 - 2026-11-26: W 80-78 vs (neutral) Omaha Mavericks. Barometer 61 (steady). <!-- g:401911522 -->
 - 2026-11-26: Social recap posted (W 80-78 vs Omaha Mavericks): https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/mw/games/401911524.html <!-- post:401911524:preview -->

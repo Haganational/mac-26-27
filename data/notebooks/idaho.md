@@ -72,7 +72,7 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,4 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigsky/games/401922263.html <!-- post:401922263:preview -->
 - 2026-11-24: W 88-47 vs Dickinson State Blue Hawks. Barometer 58 (steady). <!-- g:401922263 -->
 - 2026-11-24: Social recap posted (W 88-47 vs Dickinson State Blue Hawks): https://hardwoodbricks.com/bigsky/games/401922263.html <!-- post:401922263:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401922264.html <!-- post:401922264:preview -->

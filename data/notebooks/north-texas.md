@@ -70,7 +70,7 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -81,3 +81,4 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 - 2026-11-19: Social preview posted: https://hardwoodbricks.com/american/games/401925828.html <!-- post:401925828:preview -->
 - 2026-11-20: L 75-81 at App State Mountaineers. Barometer 51 (steady). <!-- g:401925828 -->
 - 2026-11-21: Social recap posted (L 75-81 vs App State Mountaineers): https://hardwoodbricks.com/american/games/401925828.html <!-- post:401925828:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:preview -->

@@ -72,7 +72,7 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 11
 
 ## Log
 
@@ -93,3 +93,4 @@ Rex Stockwell sold used cars on a Stockton lot for twenty-five years, filmed his
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/wcc/games/401917546.html <!-- post:401917546:preview -->
 - 2026-11-26: L 76-83 vs (neutral) Jacksonville State Gamecocks. Barometer 60 (steady). <!-- g:401917544 -->
 - 2026-11-26: Social recap posted (L 76-83 vs Jacksonville State Gamecocks): https://hardwoodbricks.com/wcc/games/401917544.html <!-- post:401917544:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/mw/games/401911524.html <!-- post:401911524:preview -->

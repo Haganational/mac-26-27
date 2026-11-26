@@ -72,7 +72,7 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,4 @@ Theo Whitlock grew up on a wheat farm outside Pullman and still manages the grai
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:preview -->
 - 2026-11-25: W 80-73 vs Sam Houston Bearkats. Barometer 54 (steady). <!-- g:401928796 -->
 - 2026-11-25: Social recap posted (W 80-73 vs Sam Houston Bearkats): https://hardwoodbricks.com/pac12/games/401928796.html <!-- post:401928796:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401922264.html <!-- post:401922264:preview -->
