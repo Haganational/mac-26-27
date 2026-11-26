@@ -68,7 +68,7 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Hattie Farmer taught fourth grade in Prince Edward County for most of her life a
 - 2026-11-22: Social recap posted (L 68-74 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/socon/games/401922048.html <!-- post:401922048:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->
 - 2026-11-26: L 58-93 at George Mason Patriots. Barometer 43 (testy). <!-- g:401920076 -->
+- 2026-11-26: Social recap posted (L 58-93 vs George Mason Patriots): https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:recap -->

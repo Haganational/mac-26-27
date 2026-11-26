@@ -27,9 +27,9 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 
 ## Barometer
 
-**42 of 100, testy.** Record 3-4 (0-0 in conference), streak L2, last five LWWLL.
+**52 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dan editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -90,3 +90,5 @@ Dan Kowalski grew up in Slavic Village, son of a steel mill electrician and a pa
 - 2026-11-21: L 62-69 vs Kent State Golden Flashes. Barometer 42 (testy). <!-- g:401921169 -->
 - 2026-11-21: Social recap posted (L 62-69 vs Kent State Golden Flashes): https://hardwoodbricks.com/games/401921169.html <!-- post:401921169:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401921170.html <!-- post:401921170:preview -->
+- 2026-11-26: W 76-46 vs Case Western Reserve Spartans. Barometer 52 (steady). <!-- g:401921170 -->
+- 2026-11-26: Social recap posted (W 76-46 vs Case Western Reserve Spartans): https://hardwoodbricks.com/horizon/games/401921170.html <!-- post:401921170:recap -->

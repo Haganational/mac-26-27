@@ -27,9 +27,9 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five LLLLW.
+**42 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five LLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Andre editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -84,3 +84,4 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 - 2026-11-20: W 64-45 vs North Park Vikings. Barometer 47 (steady). <!-- g:401926144 -->
 - 2026-11-20: Social recap posted (W 64-45 vs North Park Vikings): https://hardwoodbricks.com/ovc/games/401926144.html <!-- post:401926144:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:preview -->
+- 2026-11-26: L 65-68 vs Northern Illinois Huskies. Barometer 42 (testy). <!-- g:401920916 -->

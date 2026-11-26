@@ -27,9 +27,9 @@ Calvin Booker played bass in Midtown bar bands for twenty years and tuned pianos
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-1 (0-0 in conference), streak W2, last five WWLWW.
+**72 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Calvin editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Calvin Booker played bass in Midtown bar bands for twenty years and tuned pianos
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,5 @@ Calvin Booker played bass in Midtown bar bands for twenty years and tuned pianos
 - 2026-11-22: W 82-62 vs Evansville Purple Aces. Barometer 66 (buoyant). <!-- g:401918988 -->
 - 2026-11-22: Social recap posted (W 82-62 vs Evansville Purple Aces): https://hardwoodbricks.com/mvc/games/401918988.html <!-- post:401918988:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/american/games/401917182.html <!-- post:401917182:preview -->
+- 2026-11-25: W 83-70 vs (neutral) Penn State Nittany Lions. Barometer 72 (buoyant). <!-- g:401917182 -->
+- 2026-11-26: Social recap posted (W 83-70 vs Penn State Nittany Lions): https://hardwoodbricks.com/american/games/401917182.html <!-- post:401917182:recap -->

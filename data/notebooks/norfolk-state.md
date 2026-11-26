@@ -27,9 +27,9 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 
 ## Barometer
 
-**21 of 100, despondent.** Record 2-5 (0-0 in conference), streak L5, last five LLLLL.
+**17 of 100, despondent.** Record 2-6 (0-0 in conference), streak L6, last five LLLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 78% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Terrence editorializes: 81% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 - 2026-11-21: L 80-89 vs UNC Wilmington Seahawks. Barometer 21 (despondent). <!-- g:401925897 -->
 - 2026-11-22: Social recap posted (L 80-89 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/caa/games/401925897.html <!-- post:401925897:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/meac/games/401918960.html <!-- post:401918960:preview -->
+- 2026-11-26: L 49-80 at NC State Wolfpack. Barometer 17 (despondent). <!-- g:401918960 -->
+- 2026-11-26: Social recap posted (L 49-80 vs NC State Wolfpack): https://hardwoodbricks.com/meac/games/401918960.html <!-- post:401918960:recap -->

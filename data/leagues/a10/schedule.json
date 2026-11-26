@@ -4125,21 +4125,21 @@
     "key": "george-mason",
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": 82,
-    "winner": null
+    "score": 93,
+    "winner": true
    },
    "away": {
     "espn_id": "2344",
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": 52,
-    "winner": null
+    "score": 58,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:55 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921713",
@@ -13034,5 +13034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:43:26+00:00"
+ "live_at": "2026-11-26T02:17:08+00:00"
 }

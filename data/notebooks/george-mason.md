@@ -27,9 +27,9 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 5-1 (0-0 in conference), streak W2, last five WWLWW.
+**77 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Zelda editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Zelda editorializes: 77% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 - 2026-11-21: W 73-62 vs South Florida Bulls. Barometer 70 (buoyant). <!-- g:401918995 -->
 - 2026-11-21: Social recap posted (W 73-62 vs South Florida Bulls): https://hardwoodbricks.com/a10/games/401918995.html <!-- post:401918995:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->
+- 2026-11-26: W 93-58 vs Longwood Lancers. Barometer 77 (buoyant). <!-- g:401920076 -->
+- 2026-11-26: Social recap posted (W 93-58 vs Longwood Lancers): https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:recap -->

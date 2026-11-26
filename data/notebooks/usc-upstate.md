@@ -70,7 +70,7 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 - 2026-11-21: Social recap posted (L 66-85 vs UNC Greensboro Spartans): https://hardwoodbricks.com/socon/games/401922284.html <!-- post:401922284:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/socon/games/401922285.html <!-- post:401922285:preview -->
 - 2026-11-26: L 54-72 at The Citadel Bulldogs. Barometer 20 (despondent). <!-- g:401922285 -->
+- 2026-11-26: Social recap posted (L 54-72 vs The Citadel Bulldogs): https://hardwoodbricks.com/socon/games/401922285.html <!-- post:401922285:recap -->

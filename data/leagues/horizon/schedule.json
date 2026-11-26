@@ -3618,21 +3618,21 @@
     "key": "cleveland-state",
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
-    "score": 70,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
    "away": {
     "espn_id": "2963",
     "key": null,
     "name": "Case Western Reserve Spartans",
     "abbr": "CWRU",
-    "score": 38,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920916",
@@ -3663,7 +3663,7 @@
     "key": null,
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
-    "score": 51,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -3671,13 +3671,13 @@
     "key": "northern-illinois",
     "name": "Northern Illinois Huskies",
     "abbr": "NIU",
-    "score": 49,
+    "score": 67,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:15 - 2nd"
+   "detail": "1:01 - OT"
   },
   {
    "game_id": "401921108",
@@ -3713,21 +3713,21 @@
     "key": "northern-kentucky",
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
-    "score": 36,
-    "winner": null
+    "score": 52,
+    "winner": false
    },
    "away": {
     "espn_id": "91",
     "key": null,
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 51,
-    "winner": null
+    "score": 66,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:52 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920753",
@@ -10653,5 +10653,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:37:22+00:00"
+ "live_at": "2026-11-26T02:11:02+00:00"
 }

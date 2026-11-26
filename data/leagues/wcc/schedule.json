@@ -2953,7 +2953,7 @@
     "key": "pepperdine",
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
-    "score": 37,
+    "score": 53,
     "winner": null
    },
    "away": {
@@ -2961,13 +2961,13 @@
     "key": null,
     "name": "Cal State Bakersfield Roadrunners",
     "abbr": "CSUB",
-    "score": 25,
+    "score": 31,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "0:48 - 1st"
+   "detail": "14:40 - 2nd"
   },
   {
    "game_id": "401917545",
@@ -2998,7 +2998,7 @@
     "key": "loyola-marymount",
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -3006,13 +3006,13 @@
     "key": null,
     "name": "Eastern Washington Eagles",
     "abbr": "EWU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:54 - 1st"
   },
   {
    "game_id": "401917544",
@@ -9693,5 +9693,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:46:02+00:00"
+ "live_at": "2026-11-26T02:19:45+00:00"
 }

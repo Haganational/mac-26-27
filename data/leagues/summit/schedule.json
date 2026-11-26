@@ -2674,7 +2674,7 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 71,
+    "score": 86,
     "winner": null
    },
    "away": {
@@ -2682,13 +2682,13 @@
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": 71,
+    "score": 77,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_END_PERIOD",
    "completed": false,
    "live": true,
-   "detail": "2:30 - 2nd"
+   "detail": "End of OT"
   },
   {
    "game_id": "401911522",
@@ -2715,7 +2715,7 @@
     "key": null,
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 29,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -2723,13 +2723,13 @@
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": 35,
+    "score": 50,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "6:25 - 2nd"
   },
   {
    "game_id": "401917546",
@@ -8053,5 +8053,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:57:06+00:00"
+ "live_at": "2026-11-26T02:30:41+00:00"
 }
