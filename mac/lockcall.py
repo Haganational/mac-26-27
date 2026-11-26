@@ -169,8 +169,8 @@ def check(script: dict[str, Any]) -> list[str]:
     return bad
 
 
-THEME = POD_DIR / "theme.mp3"  # original bumper theme, made for the show Nov 23 2026: 16.7 s at 120 bpm, clean button ending
-INTRO, LEAD_IN, OUTRO_FROM, UNDER = 7.5, 3.5, 8.7, 3.0  # seconds: intro length, music alone, outro cue, outro under the goodbye
+THEME = POD_DIR / "theme-thump.mp3"  # the original Nov 23 2026 bumper (theme.mp3) with a sub-octave layer under it, Nov 26 2026
+INTRO, LEAD_IN, OUTRO_FROM, UNDER = 10.0, 3.5, 8.7, 3.0  # seconds: intro length, music alone, outro cue, outro under the goodbye
 
 
 def _seconds(path: Path) -> float:
