@@ -2317,7 +2317,7 @@
     "name": "Texas State Bobcats",
     "abbr": "TXST",
     "score": 97,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2016",
@@ -2325,12 +2325,12 @@
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
     "score": 70,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401918971",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T23:53:48+00:00"
+ "live_at": "2026-11-26T00:27:43+00:00"
 }

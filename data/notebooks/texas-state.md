@@ -27,9 +27,9 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 
 ## Barometer
 
-**90 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
+**92 of 100, giddy.** Record 8-0 (0-0 in conference), streak W8, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 85% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Dusty editorializes: 86% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,5 @@ Dusty Kincaid has rented inner tubes on the San Marcos River for thirty summers 
 - 2026-11-22: W 95-69 vs McNeese Cowboys. Barometer 90 (giddy). <!-- g:401929202 -->
 - 2026-11-22: Social recap posted (W 95-69 vs McNeese Cowboys): https://hardwoodbricks.com/pac12/games/401929202.html <!-- post:401929202:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/pac12/games/401925688.html <!-- post:401925688:preview -->
+- 2026-11-25: W 97-70 vs (neutral) Alcorn State Braves. Barometer 92 (giddy). <!-- g:401925688 -->
+- 2026-11-26: Social recap posted (W 97-70 vs Alcorn State Braves): https://hardwoodbricks.com/pac12/games/401925688.html <!-- post:401925688:recap -->

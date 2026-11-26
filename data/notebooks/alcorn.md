@@ -50,7 +50,7 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -69,3 +69,4 @@ Darius Hill is a forester who spent twenty years walking the woods around Lorman
 - 2026-11-25: L 41-83 at Louisiana Tech Bulldogs. Barometer 10 (despondent). <!-- g:401925687 -->
 - 2026-11-25: Social recap posted (L 41-83 vs Louisiana Tech Bulldogs): https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:recap -->
 - 2026-11-25: L 70-97 vs (neutral) Texas State Bobcats. Barometer 9 (despondent). <!-- g:401925688 -->
+- 2026-11-26: Social recap posted (L 70-97 vs Texas State Bobcats): https://hardwoodbricks.com/pac12/games/401925688.html <!-- post:401925688:recap -->

@@ -3551,7 +3551,7 @@
     "key": null,
     "name": "Penn State Nittany Lions",
     "abbr": "PSU",
-    "score": null,
+    "score": 22,
     "winner": null
    },
    "away": {
@@ -3559,13 +3559,13 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
+    "score": 25,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:30 - 1st"
   },
   {
    "game_id": "401912231",
@@ -12259,5 +12259,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T20:54:52+00:00"
+ "live_at": "2026-11-26T00:29:46+00:00"
 }

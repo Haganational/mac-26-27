@@ -4080,7 +4080,7 @@
     "key": "richmond",
     "name": "Richmond Spiders",
     "abbr": "RICH",
-    "score": 34,
+    "score": 54,
     "winner": null
    },
    "away": {
@@ -4088,13 +4088,13 @@
     "key": null,
     "name": "Bethune-Cookman Wildcats",
     "abbr": "BCU",
-    "score": 41,
+    "score": 53,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:11 - 2nd"
   },
   {
    "game_id": "401920076",
@@ -4125,7 +4125,7 @@
     "key": "george-mason",
     "name": "George Mason Patriots",
     "abbr": "GMU",
-    "score": null,
+    "score": 29,
     "winner": null
    },
    "away": {
@@ -4133,13 +4133,13 @@
     "key": null,
     "name": "Longwood Lancers",
     "abbr": "LONG",
-    "score": null,
+    "score": 12,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:55 - 1st"
   },
   {
    "game_id": "401921713",
@@ -13034,5 +13034,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T23:52:11+00:00"
+ "live_at": "2026-11-26T00:26:00+00:00"
 }

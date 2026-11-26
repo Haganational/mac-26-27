@@ -3324,7 +3324,7 @@
     "key": "the-citadel",
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -3332,13 +3332,13 @@
     "key": null,
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": null,
+    "score": 21,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:33 - 1st"
   },
   {
    "game_id": "401911380",
@@ -9888,5 +9888,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-25T21:28:12+00:00"
+ "live_at": "2026-11-26T00:36:02+00:00"
 }

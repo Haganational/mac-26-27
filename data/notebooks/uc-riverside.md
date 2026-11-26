@@ -27,9 +27,9 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**39 of 100, testy.** Record 3-3 (0-0 in conference), streak L3, last five WWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Malcolm editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Malcolm editorializes: 67% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,5 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 - 2026-11-19: L 62-71 at San Diego Toreros. Barometer 48 (steady). <!-- g:401917535 -->
 - 2026-11-19: Social recap posted (L 62-71 vs San Diego Toreros): https://hardwoodbricks.com/bigwest/games/401917535.html <!-- post:401917535:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401925917.html <!-- post:401925917:preview -->
+- 2026-11-25: L 65-72 vs Portland State Vikings. Barometer 39 (testy). <!-- g:401925917 -->
+- 2026-11-26: Social recap posted (L 65-72 vs Portland State Vikings): https://hardwoodbricks.com/bigwest/games/401925917.html <!-- post:401925917:recap -->
