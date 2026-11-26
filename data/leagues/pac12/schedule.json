@@ -2480,7 +2480,7 @@
     "key": "utah-state",
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 41,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -2488,13 +2488,13 @@
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": 34,
+    "score": 66,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "3:35 - 2nd"
   },
   {
    "game_id": "401920540",
@@ -8410,5 +8410,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T23:44:15+00:00"
 }
