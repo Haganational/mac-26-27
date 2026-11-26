@@ -2599,20 +2599,20 @@
     "name": "UTEP Miners",
     "abbr": "UTEP",
     "score": 72,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2199",
     "key": null,
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 52,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924897",
@@ -2643,21 +2643,21 @@
     "key": "new-mexico",
     "name": "New Mexico Lobos",
     "abbr": "UNM",
-    "score": 87,
-    "winner": null
+    "score": 100,
+    "winner": true
    },
    "away": {
     "espn_id": "2400",
     "key": null,
     "name": "Mississippi Valley State Delta Devils",
     "abbr": "MVSU",
-    "score": 72,
-    "winner": null
+    "score": 77,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:42 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921671",
@@ -2684,7 +2684,7 @@
     "key": null,
     "name": "Colorado Buffaloes",
     "abbr": "COLO",
-    "score": 8,
+    "score": 32,
     "winner": null
    },
    "away": {
@@ -2692,13 +2692,13 @@
     "key": "grand-canyon",
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
-    "score": 16,
+    "score": 33,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:42 - 1st"
+   "detail": "1:07 - 1st"
   },
   {
    "game_id": "401929005",
@@ -9188,5 +9188,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T03:40:24+00:00"
+ "live_at": "2026-11-26T04:12:49+00:00"
 }

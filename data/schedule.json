@@ -3086,21 +3086,21 @@
     "key": null,
     "name": "UTEP Miners",
     "abbr": "UTEP",
-    "score": 67,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "2199",
     "key": "eastern-michigan",
     "name": "Eastern Michigan Eagles",
     "abbr": "EMU",
-    "score": 49,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:58 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911030",
@@ -9700,5 +9700,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T03:36:36+00:00"
+ "live_at": "2026-11-26T04:09:43+00:00"
 }

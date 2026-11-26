@@ -62,7 +62,7 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -75,3 +75,4 @@ Lorraine Pickett grew up on her family's farm near Itta Bena and teaches high sc
 - 2026-11-21: Social recap posted (L 48-92 vs Arkansas Razorbacks): https://hardwoodbricks.com/swac/games/401925740.html <!-- post:401925740:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:preview -->
 - 2026-11-26: L 77-100 at New Mexico Lobos. Barometer 10 (despondent). <!-- g:401924897 -->
+- 2026-11-26: Social recap posted (L 77-100 vs New Mexico Lobos): https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:recap -->

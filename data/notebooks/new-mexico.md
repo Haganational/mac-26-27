@@ -27,9 +27,9 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 
 ## Barometer
 
-**50 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**59 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Mateo editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Mateo editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,5 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 - 2026-11-21: L 60-85 at Wichita State Shockers. Barometer 50 (steady). <!-- g:401919031 -->
 - 2026-11-21: Social recap posted (L 60-85 vs Wichita State Shockers): https://hardwoodbricks.com/mw/games/401919031.html <!-- post:401919031:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:preview -->
+- 2026-11-26: W 100-77 vs Mississippi Valley State Delta Devils. Barometer 59 (steady). <!-- g:401924897 -->
+- 2026-11-26: Social recap posted (W 100-77 vs Mississippi Valley State Delta Devils): https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:recap -->

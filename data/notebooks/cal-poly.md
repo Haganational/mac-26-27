@@ -68,7 +68,7 @@ Heather Takahashi grew up in Arroyo Grande, the daughter of a Japanese-American 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

@@ -69,7 +69,7 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

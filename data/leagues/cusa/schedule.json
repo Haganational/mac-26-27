@@ -2836,7 +2836,7 @@
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": null,
+    "score": 26,
     "winner": null
    },
    "away": {
@@ -2844,13 +2844,13 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:02 - 1st"
   },
   {
    "game_id": "401911523",
@@ -9132,5 +9132,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T01:23:22+00:00"
+ "live_at": "2026-11-26T04:23:45+00:00"
 }
