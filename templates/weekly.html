@@ -81,10 +81,14 @@
   .bw { --c2: {{ paper.second if paper else accent }}; }
   {% if paper %}.bw { --p: {{ paper.stock.p }}; --ink: {{ paper.stock.ink }}; }{% endif %}
   /* Sidebar on the left: the column moves to the first track and its rule to the other side. */
-  .bw.side-left .bw-top { grid-template-columns: 292px minmax(0, 1fr); }
-  .bw.side-left .bw-col { order: -1; border-left: 0; padding-left: 0; border-right: 1px solid var(--rule2); padding-right: 24px; }
-  .bw.side-left .bw-low { grid-template-columns: 340px minmax(0, 1fr); }
-  .bw.side-left .bw-chart { order: -1; }
+  /* Desktop only: on a phone every paper stacks to one column, lead first. */
+  @media (min-width: 861px) {
+    .bw.side-left .bw-top { grid-template-columns: 292px minmax(0, 1fr); }
+    .bw.side-left .bw-col { order: -1; border-left: 0; padding-left: 0; border-right: 1px solid var(--rule2); padding-right: 24px; }
+    .bw.side-left .bw-low { grid-template-columns: 340px minmax(0, 1fr); }
+    .bw.side-left .bw-chart { order: -1; }
+    .pp-timber .bw-ear, .pp-american .bw-ear { min-width: 128px; }
+  }
   /* Photo above the fold: a wide plate under the headline, credited like a wire photo. */
   .bw-photo { margin: 0 0 14px; }
   .bw-photo img { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; filter: grayscale(.35) sepia(.18) contrast(1.04); border: 1px solid var(--rule2); }
@@ -125,6 +129,38 @@
       -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='18'%3E%3Cpath d='M0 18 V12 H10 V6 H22 V0 H40 V6 H50 V12 H62 V8 H78 V12 H96 V18 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 96px 18px repeat-x;
               mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='18'%3E%3Cpath d='M0 18 V12 H10 V6 H22 V0 H40 V6 H50 V12 H62 V8 H78 V12 H96 V18 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 96px 18px repeat-x; }
   .pp-mesa .pp-motto { color: var(--c); }
+  /* Timberline Telegraph: a ridge of pines along the wire. Spaced small caps, forest green. */
+  .pp-timber .bw-name { font-weight: 600; font-variant: small-caps; letter-spacing: .03em; font-size: clamp(34px, 5.4vw, 62px); }
+  .pp-timber .bw-name i { font-style: normal; color: var(--c); }
+  .pp-timber .pp-orn { height: 18px; background: var(--c);
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='18'%3E%3Cpath d='M0 18 L7 4 L14 18 Z M12 18 L21 0 L30 18 Z M28 18 L34 7 L40 18 Z M38 18 L47 2 L56 18 Z M0 17 H60 V18 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 60px 18px repeat-x;
+              mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='18'%3E%3Cpath d='M0 18 L7 4 L14 18 Z M12 18 L21 0 L30 18 Z M28 18 L34 7 L40 18 Z M38 18 L47 2 L56 18 Z M0 17 H60 V18 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 60px 18px repeat-x; }
+  .pp-timber .pp-motto { font-family: var(--cond); font-style: normal; text-transform: uppercase; letter-spacing: .2em; font-size: 13px; font-weight: 600; color: var(--c2); }
+  /* Mission Bell: an adobe arcade under a terracotta serif, gold leaf on the accent. */
+  .pp-mission .bw-name { font-weight: 500; letter-spacing: -.01em; }
+  .pp-mission .bw-name i { color: var(--c); font-weight: 700; }
+  .pp-mission .pp-orn { height: 20px; background: var(--c);
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='20'%3E%3Cpath d='M0 0 H32 V20 H28 V12 A12 12 0 0 0 4 12 V20 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 32px 20px repeat-x;
+              mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='20'%3E%3Cpath d='M0 0 H32 V20 H28 V12 A12 12 0 0 0 4 12 V20 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 32px 20px repeat-x;
+      opacity: .85; box-shadow: 0 -3px 0 -1px var(--c2); }
+  .pp-mission .bw-ear b { color: var(--c2); }
+  /* Weekly American: a classic front page. Heavy roman capitals, a double rule set with stars. */
+  .pp-american .bw-name { text-transform: uppercase; font-weight: 700; letter-spacing: .02em; font-size: clamp(32px, 5vw, 58px); }
+  .pp-american .bw-name i { font-style: normal; color: var(--c); }
+  .pp-american .pp-orn { height: 16px; background:
+      linear-gradient(var(--c2) 0 0) 0 3px / 100% 2px no-repeat,
+      linear-gradient(var(--c2) 0 0) 0 11px / 100% 2px no-repeat;
+      position: relative; }
+  .pp-american .pp-orn::after { content: "\2605\00a0\00a0\2605\00a0\00a0\2605"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -52%);
+      padding: 0 14px; background: var(--p); color: var(--c); font-size: 14px; line-height: 1; }
+  .pp-american .pp-motto { font-style: normal; text-transform: uppercase; letter-spacing: .22em; font-size: 12px; font-weight: 600; }
+  /* Live Oak Ledger: Spanish moss hanging off a limb. Soft italic accent, olive and bark. */
+  .pp-oak .bw-name { font-weight: 600; letter-spacing: -.015em; }
+  .pp-oak .bw-name i { color: var(--c); font-weight: 500; }
+  .pp-oak .pp-orn { height: 18px; background: var(--c);
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='18'%3E%3Cpath d='M0 0 H48 V3 H0 Z M3 3 Q5 10 4 15 M9 3 Q8 8 10 12 M15 3 Q17 12 15 18 M22 3 Q21 7 23 10 M28 3 Q30 11 28 16 M35 3 Q34 9 36 13 M42 3 Q44 10 42 17' fill='none' stroke='black' stroke-width='1.9'/%3E%3Cpath d='M0 0 H48 V3 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 48px 18px repeat-x;
+              mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='18'%3E%3Cpath d='M0 0 H48 V3 H0 Z M3 3 Q5 10 4 15 M9 3 Q8 8 10 12 M15 3 Q17 12 15 18 M22 3 Q21 7 23 10 M28 3 Q30 11 28 16 M35 3 Q34 9 36 13 M42 3 Q44 10 42 17' fill='none' stroke='black' stroke-width='1.9'/%3E%3Cpath d='M0 0 H48 V3 H0 Z' fill='black'/%3E%3C/svg%3E") 0 0 / 48px 18px repeat-x; }
+  .pp-oak .pp-motto { color: var(--c2); }
   @media (max-width: 860px) { .pp .bw-plate { grid-template-columns: 1fr 1fr; } .pp .bw-name { font-size: clamp(34px, 11vw, 60px); } }
 </style>
 </head>

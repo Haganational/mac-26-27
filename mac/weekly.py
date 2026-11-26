@@ -113,6 +113,18 @@ PAPERS: dict[str, dict[str, Any]] = {
     "mw": {"name": "The Pit *Report*", "capital": "Albuquerque, N.M.", "backup": "Las Vegas, Nev.",
            "motto": "High desert. Thin air. Loud nights.", "style": "mesa", "accent": "#23827f", "second": "#b9572c",
            "sidebar": "left", "photo": False, "tone": "aged"},
+    "pac12": {"name": "The Timberline *Telegraph*", "capital": "Boise, Idaho", "backup": "Spokane, Wash.",
+              "motto": "Wires from the high timber, sent from Boise.", "style": "timber", "accent": "#2f5d3a", "second": "#a3502b",
+              "sidebar": "left", "photo": False, "tone": "ivory"},
+    "wcc": {"name": "The Mission *Bell*", "capital": "San Francisco, Calif.", "backup": "Portland, Ore.",
+            "motto": "Fog on the bay. Bells in the tower.", "style": "mission", "accent": "#a9502e", "second": "#b8913a",
+            "sidebar": "right", "photo": False, "tone": "sepia"},
+    "american": {"name": "The Weekly *American*", "capital": "Wichita, Kan.", "backup": "Memphis, Tenn.",
+                 "motto": "Big cities. One front page.", "style": "american", "accent": "#1f3a68", "second": "#a8322d",
+                 "sidebar": "left", "photo": False, "tone": "newsprint"},
+    "sunbelt": {"name": "The Live Oak *Ledger*", "capital": "Mobile, Ala.", "backup": "Boone, N.C.",
+                "motto": "Porch talk under the Spanish moss.", "style": "oak", "accent": "#4f6b3a", "second": "#8a5a2b",
+                "sidebar": "right", "photo": False, "tone": "cream"},
 }
 
 
