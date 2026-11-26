@@ -102,6 +102,14 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
           SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
         run: python -m mac.collect hub
+      - name: Tell Bing and friends what's new (IndexNow; last run's pages, live by now)
+        # Free, no account. Google doesn't read IndexNow; it reads our sitemaps. INDEXNOW=0 (repo variable) turns it off.
+        continue-on-error: true
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
+          INDEXNOW: ${{ vars.INDEXNOW }}
+        run: python -m mac.indexnow
       - name: Post new recaps and previews to Bluesky and Threads
         # Each network posts once its secrets are set (BSKY_*, THREADS_*); none set = no-op.
         continue-on-error: true
