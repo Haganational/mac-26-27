@@ -73,7 +73,7 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/pac12/games/401922023.html <!-- post:401922023:preview -->
 - 2026-11-25: W 88-71 vs Idaho State Bengals. Barometer 57 (steady). <!-- g:401922023 -->
 - 2026-11-25: Social recap posted (W 88-71 vs Idaho State Bengals): https://hardwoodbricks.com/pac12/games/401922023.html <!-- post:401922023:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/mvc/games/401927366.html <!-- post:401927366:preview -->
