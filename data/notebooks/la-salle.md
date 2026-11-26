@@ -68,7 +68,7 @@ Yvette Moreau grew up in Philadelphia's Germantown, the daughter of a Haitian-bo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Yvette Moreau grew up in Philadelphia's Germantown, the daughter of a Haitian-bo
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/a10/games/401925813.html <!-- post:401925813:preview -->
 - 2026-11-24: W 90-42 vs Penn State Brandywine Lions. Barometer 51 (steady). <!-- g:401925813 -->
 - 2026-11-24: Social recap posted (W 90-42 vs Penn State Brandywine Lions): https://hardwoodbricks.com/a10/games/401925813.html <!-- post:401925813:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/a10/games/401921417.html <!-- post:401921417:preview -->

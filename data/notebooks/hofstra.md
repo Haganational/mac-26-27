@@ -67,7 +67,7 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:preview -->
 - 2026-11-17: L 66-82 vs (neutral) Murray State Racers. Barometer 42 (testy). <!-- g:401927381 -->
 - 2026-11-17: Social recap posted (L 66-82 vs Murray State Racers): https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:preview -->
